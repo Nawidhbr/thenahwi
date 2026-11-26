@@ -3,7 +3,7 @@ import Photo from "../../components/Photo.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import KbHero from "../../components/KbHero.astro";
 import KbBand from "../../components/KbBand.astro";
-import { getBackground, getLibrary, getNews } from "@nahwi/content";
+import { getBackground, getNews } from "@nahwi/content";
 import { photoSrc } from "../../config/photos";
 import { SITE } from "../../config/site";
 import { fmt, localePaths, t } from "../../i18n";
@@ -33,19 +33,15 @@ const kinds = ui.kb.news.kinds as Record<string, string>;
 // A line of scholars through the centuries: the authors of the handbooks and their great forerunners.
 const timelineSlugs = ["aristotle", "porphyry", "farabi", "ibn-sina", "ghazali", "fakhr-al-din-razi", "khunaji", "abhari", "katibi", "qutb-al-din-razi", "taftazani", "jurjani", "sanusi", "akhdari", "muhibb-allah-bihari", "fadl-imam"];
 const people = getBackground(locale).people;
-// The handbooks on the home page: the six of KB_BOOKS and al-Jurjānī's Ṣughrā and Kubrā (a library entry with a course), by date of death.
-const jurjani = getLibrary(locale).find((x) => x.id === "jurjani-sughra-kubra");
-const homeBooks = [
-  ...KB_BOOKS,
-  ...(jurjani ? [{ id: jurjani.id, title: jurjani.title, arabic: jurjani.arabic, author: "al-Jurjānī", died: jurjani.died ?? "", photo: "jali-hexagons" }] : []),
-].sort((a, b) => parseInt(a.died, 10) - parseInt(b.died, 10));
+// The handbooks on the home page: the six of KB_BOOKS, by date of death.
+const homeBooks = [...KB_BOOKS].sort((a, b) => parseInt(a.died, 10) - parseInt(b.died, 10));
 const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filter((p) => p !== undefined).sort((a, b) => diedYear(a) - diedYear(b));
 ---
 
-<BaseLayout image="isfahan-muqarnas" title={SITE.name} description={ui.kb.home.lead} path="/" locale={locale} bleed jsonLd={[organization(), website(locale)]}>
+<BaseLayout image="tiles-orange-patchwork" title={SITE.name} description={ui.kb.home.lead} path="/" locale={locale} bleed jsonLd={[organization(), website(locale)]}>
   <link slot="head" rel="alternate" type="application/rss+xml" title={ui.kb.news.feedTitle} href={`/${locale}/news/feed.xml`} />
 
-  <KbHero locale={locale} photo="isfahan-muqarnas" kicker={H.kicker} arabic="الصَّرْفُ وَالنَّحْوُ" title={H.title} sub={H.lead}>
+  <KbHero locale={locale} photo="tiles-orange-patchwork" kicker={H.kicker} arabic="الصَّرْفُ وَالنَّحْوُ" title={H.title} sub={H.lead}>
     <form class="kb-search" role="search" data-kb-search>
       <label for="kb-q" class="visually-hidden">{H.search}</label>
       <input id="kb-q" type="search" placeholder={H.search} autocomplete="off" />

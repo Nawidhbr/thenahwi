@@ -1,5 +1,6 @@
 /**
- * The black-and-white architecture photos of the knowledge base (public/photos/<slug>-800.webp and -1600.webp).
+ * The tile photos of the site, in colour (decisions 2026-11-26; public/photos/<slug>-<width>.webp and .avif). Chosen by
+ * the owner; the photographers' names are taken from the Unsplash file names.
  * All from Unsplash (Unsplash License: free to use; credit is appreciated, not required). The site shows no credit
  * (the owner's choice); `photographer` and `url` (the photo's Unsplash page) are kept here for the record.
  * `place` is only what the picture clearly shows; leave it out where unsure. Alt texts are in `alt`.
@@ -17,58 +18,25 @@ export interface Photo {
 }
 
 export const PHOTOS: Photo[] = [
-  { slug: "istanbul-dome", alt: "Domes and finials of an Ottoman mosque under a grey sky", shape: "portrait", place: "Istanbul" },
-  { slug: "istanbul-portico", alt: "A portico of granite columns and striped arches in an Ottoman mosque courtyard", shape: "portrait", place: "Istanbul" },
-  { slug: "shiraz-columns", alt: "Twisted stone columns and tiled vaults in a prayer hall", shape: "portrait", place: "Nasir al-Mulk Mosque, Shiraz" },
-  { slug: "morocco-carved-arch", alt: "Carved stucco and cedar around an arch in a Moroccan madrasa", shape: "portrait" },
-  { slug: "morocco-keyhole-window", alt: "A horseshoe-arched window opening on a courtyard, with a pigeon on the ledge", shape: "portrait" },
-  { slug: "persian-tiled-dome", alt: "A Persian dome covered in geometric brick-and-tile patterns", shape: "portrait" },
-  { slug: "taj-minaret", alt: "A minaret of the Taj Mahal seen from below", shape: "portrait", place: "Taj Mahal, Agra" },
-  { slug: "isfahan-muqarnas", alt: "The muqarnas vault of a mosque portal, densely tiled", shape: "landscape", place: "Isfahan" },
-  { slug: "agra-domes", alt: "Marble domes rising above trees, with birds in the sky", shape: "portrait", place: "Agra" },
-  { slug: "mughal-half-dome", alt: "A half-dome filled with rows of carved stucco cells", shape: "landscape" },
-  { slug: "seville-arch", alt: "A lobed arch framing an arcaded courtyard", shape: "portrait", place: "Alcázar, Seville" },
-  { slug: "lahore-badshahi", alt: "A minaret and onion domes of a Mughal mosque against clouds", shape: "portrait", place: "Badshahi Mosque, Lahore" },
-  { slug: "delhi-safdarjung", alt: "A Mughal façade with a corner tower and a carved half-dome", shape: "landscape", place: "Delhi" },
-  { slug: "delhi-jali-window", alt: "A carved stone window with a star-patterned lattice and Arabic inscriptions", shape: "portrait", place: "Delhi" },
-  // Added 5 November 2026.
-  { slug: "dome-crescent-moon", alt: "A tiled dome with a crescent finial and the moon in a pale sky", shape: "landscape" },
-  { slug: "carved-capital", alt: "A carved capital of ivy and lilies under two stone arches", shape: "portrait" },
-  { slug: "alhambra-door", alt: "A wooden door under a carved stucco frame with Arabic inscriptions", shape: "portrait", place: "Alhambra, Granada" },
-  { slug: "muscat-courtyard", alt: "A marble courtyard with pointed arches and a minaret", shape: "landscape", place: "Sultan Qaboos Grand Mosque, Muscat" },
-  { slug: "taj-through-arch", alt: "The Taj Mahal seen through a dark gateway arch", shape: "portrait", place: "Taj Mahal, Agra" },
-  { slug: "jali-hexagons", alt: "A marble window screen of hexagonal lattice under a cusped arch", shape: "portrait" },
-  { slug: "fort-pavilion", alt: "A domed pavilion rising above weathered fort walls", shape: "portrait" },
-  { slug: "mirror-ceiling", alt: "A ceiling of inlaid mirror-work and carved floral panels", shape: "landscape" },
-  { slug: "taj-dome", alt: "The marble dome of the Taj Mahal above an inscribed arch", shape: "portrait", place: "Taj Mahal, Agra" },
-  { slug: "painted-vaults", alt: "Ribbed vaults painted with stars and interlace springing from a column", shape: "portrait" },
-  { slug: "palace-balconies", alt: "Stone balconies and scalloped arches around a palace courtyard", shape: "portrait" },
-  { slug: "mihrab-inscription", alt: "A curved marble band of Arabic inscription between bands of geometric inlay", shape: "landscape" },
-  { slug: "grey-dome-finial", alt: "A plain dome with a crescent finial above a pierced balustrade", shape: "portrait" },
-  { slug: "tomb-in-trees", alt: "A domed tomb with corner pavilions rising above trees", shape: "portrait" },
-  { slug: "arcade-light", alt: "A stone arcade with a pool of light on the floor", shape: "portrait" },
-  { slug: "arch-corridor", alt: "A long corridor of pointed arches", shape: "portrait" },
-  { slug: "marble-dome-facade", alt: "A white marble dome over a banded stone façade with a cusped arch", shape: "portrait" },
-  { slug: "jali-niche", alt: "A pointed niche filled with a geometric stone lattice", shape: "portrait" },
-  { slug: "arch-balconies", alt: "A great pointed arch with lattice balconies", shape: "portrait" },
-  { slug: "zigzag-dome", alt: "A metal dome with a zigzag band and a crescent-and-star finial", shape: "landscape" },
-  { slug: "marrakesh-madrasa", alt: "A carved stucco courtyard wall seen through a scalloped window", shape: "portrait", place: "Ben Youssef Madrasa, Marrakesh" },
-  { slug: "abu-dhabi-domes", alt: "White marble domes with crescent finials", shape: "portrait", place: "Sheikh Zayed Grand Mosque, Abu Dhabi" },
-  { slug: "istanbul-sultan-ahmed", alt: "Domes and minarets of an Ottoman mosque, with gulls", shape: "portrait", place: "Sultan Ahmed Mosque, Istanbul" },
-  { slug: "brick-dome-minaret", alt: "A brick dome and a tiled minaret against a clear sky", shape: "portrait" },
-  { slug: "twin-minarets-dark", alt: "Two tiled minarets above a mud-brick wall", shape: "portrait" },
-  { slug: "calligraphy-dome", alt: "A tiled dome and minaret wrapped in calligraphy", shape: "landscape" },
-  { slug: "istanbul-waterfront", alt: "A waterfront mosque with two slender minarets", shape: "portrait", place: "Dolmabahçe Mosque, Istanbul" },
-  { slug: "islamabad-faisal", alt: "The tent-like roof and pencil minarets of a modern mosque", shape: "landscape", place: "Faisal Mosque, Islamabad" },
-  { slug: "isfahan-lotfollah", alt: "A tiled dome and portal on a city square", shape: "portrait", place: "Sheikh Lotfollah Mosque, Isfahan" },
-  { slug: "jerusalem-dome-of-the-rock", alt: "An octagonal shrine with a gilded dome and tiled walls", shape: "landscape", place: "Dome of the Rock, Jerusalem" },
-  { slug: "yazd-amir-chakhmaq", alt: "A tiered façade with twin minarets behind fountains", shape: "portrait", place: "Amir Chakhmaq Complex, Yazd" },
-  { slug: "yazd-jameh-portal", alt: "A tiled portal with muqarnas and twin minarets, seen from below", shape: "portrait", place: "Jameh Mosque, Yazd" },
-  { slug: "minaret-birds", alt: "A tiled minaret with a wooden balcony and two birds", shape: "portrait" },
-  { slug: "minaret-wires", alt: "A tiled minaret and dome behind overhead wires", shape: "portrait" },
-  { slug: "abu-dhabi-dome", alt: "Two white domes in hard light", shape: "portrait", place: "Sheikh Zayed Grand Mosque, Abu Dhabi" },
-  { slug: "taj-from-below", alt: "The marble façade of the Taj Mahal seen from below", shape: "portrait", place: "Taj Mahal, Agra" },
-  { slug: "jerusalem-al-aqsa", alt: "A ribbed dome above stone walls", shape: "landscape", place: "al-Aqsa Mosque, Jerusalem" },
+  // None shows where it was taken, so no photo has a place and no caption is shown.
+  { slug: "painted-tiles-blue-ochre", alt: "Painted tiles in blue and black on white, one at the centre with ochre leaves", shape: "landscape", photographer: "Ashkan Forouzani", url: "https://unsplash.com/photos/oVrkcrvAO3s" },
+  { slug: "zellij-stars", alt: "Zellij of cut glazed pieces in blue, brown, green, black and white, set in eight-pointed stars", shape: "landscape", photographer: "Bernd Dittrich", url: "https://unsplash.com/photos/KXy4bNsCUkw" },
+  { slug: "cement-tiles-orange", alt: "Orange and cream tiles with a dark blue interlace running through them", shape: "portrait", photographer: "Charles Robert", url: "https://unsplash.com/photos/9Qq0B17wGLE" },
+  { slug: "glazed-hexagons-green", alt: "Green glazed hexagonal tiles framed in amber, each with a flower in relief", shape: "landscape", photographer: "Eric Prouzet", url: "https://unsplash.com/photos/bRlCr6Dj0F4" },
+  { slug: "mosaic-floor-pink", alt: "A worn mosaic floor of white, pink and dark blue pieces in rosettes", shape: "landscape", photographer: "Francesca Pieleanu", url: "https://unsplash.com/photos/IwazwDz_wj0" },
+  { slug: "zellij-diamonds", alt: "Zellij of turquoise, green, yellow and amber pieces in a pattern of diamonds", shape: "landscape", photographer: "Haydn", url: "https://unsplash.com/photos/nh5HUs8aN6c" },
+  { slug: "star-rosette-tiles", alt: "Tiles patterned with star rosettes in blue, rust, green and black on white", shape: "landscape", photographer: "Haydn", url: "https://unsplash.com/photos/wHnqnas3jt4" },
+  { slug: "stone-inlay-star", alt: "Stone inlay: white marble bands, amber and grey stones and flowers around an eight-pointed star", shape: "landscape", photographer: "Jan Dommerholt", url: "https://unsplash.com/photos/YExkox2vFUA" },
+  { slug: "painted-tiles-navy", alt: "Dark blue tiles with white floral patterns", shape: "landscape", photographer: "Jonas Schone", url: "https://unsplash.com/photos/Y2uvkg3lll4" },
+  { slug: "patterned-tiles-wall", alt: "A wall of small patterned tiles in brown, blue-grey, black and cream", shape: "portrait", photographer: "Kelly Sikkema", url: "https://unsplash.com/photos/hLjGn1h9f2k" },
+  { slug: "stone-inlay-hexagons", alt: "Stone inlay of white marble with yellow and grey stones, six-pointed stars and flowers", shape: "landscape", photographer: "Koushik Chowdavarapu", url: "https://unsplash.com/photos/aWBPk_GBaCk" },
+  { slug: "painted-tiles-stars", alt: "Hand-painted tiles with white eight-pointed stars amid blue, yellow and lilac", shape: "portrait", photographer: "Lilit Barfyan", url: "https://unsplash.com/photos/-HUWRMysJw0" },
+  { slug: "zellij-interlace", alt: "Zellij of white interlacing bands with blue, amber, black and green stars", shape: "landscape", photographer: "Matthias Franze", url: "https://unsplash.com/photos/64Uh34dnCPI" },
+  { slug: "tiles-orange-patchwork", alt: "A wall of patterned tiles in orange, black, grey and cream", shape: "landscape", photographer: "Patrick Hendry", url: "https://unsplash.com/photos/hezNrE5QEa8" },
+  { slug: "tiles-orange-closeup", alt: "Patterned tiles in orange, black and cream, close up", shape: "landscape", photographer: "Patrick Hendry", url: "https://unsplash.com/photos/oaaRPhOz5Dg" },
+  { slug: "interlace-teal-orange", alt: "White interlacing bands outlined in orange on dark teal glazed tiles", shape: "landscape", photographer: "Raimond Klavins", url: "https://unsplash.com/photos/x8fj0smFXAE" },
+  { slug: "azulejos-blue-orange", alt: "Painted tiles in blue, orange and brown, each with its own pattern", shape: "landscape", photographer: "Richard Bell", url: "https://unsplash.com/photos/3FcuoXvkCUs" },
+  { slug: "zellij-curved", alt: "Zellij of curved pieces in blue, green, amber and black around six-pointed stars and hexagons", shape: "landscape", photographer: "Tom TVR", url: "https://unsplash.com/photos/Ym0ps0XqgPY" },
 ];
 
 /** The widths every photo is made in (scripts/make-photos.cjs), each as WebP and AVIF; components/Photo.astro offers them. */

@@ -1102,7 +1102,7 @@ a.level-card:hover { border-color: var(--primary); }
 .person h3 { margin-top: 6px; }
 html[lang="ar"] .level-card-ar, html[lang="ar"] .level-one-ar { display: none; }
 
-/* ===== Knowledge base ("Split" design): black panels beside black-and-white photos, Literata text, Kufi Arabic titles. ===== */
+/* ===== Knowledge base ("Split" design): orange panels beside tile photos, Literata text, Kufi Arabic titles. ===== */
 .kb { font-family: var(--font-kb); }
 .kb h1, .kb h2, .kb h3 { font-family: var(--font-kb); font-weight: 700; letter-spacing: 0; }
 .kufi { font-family: var(--font-kufi); font-weight: 700; direction: rtl; unicode-bidi: isolate; line-height: 1.45; }
@@ -1328,7 +1328,7 @@ html[data-level-locked] .track-path, html[data-level-locked] .track-full { displ
 .madrasa-lead { font-size: 0.95rem; color: var(--header-sub); }
 .madrasa-place { margin-top: auto; padding-top: 10px; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--header-sub); }
 .madrasa-photo { position: relative; min-height: 160px; background: var(--header); }
-.madrasa-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(1); }
+.madrasa-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 @media (max-width: 899px) { .madrasa-card { grid-template-columns: 1fr; min-height: 0; } .madrasa-photo { grid-row: 1; height: 170px; } }
 .madrasa-chosen { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--on-dark-red); display: none; }
 html[data-madrasa="indian"] [data-pick="indian"], html[data-madrasa="ottoman"] [data-pick="ottoman"], html[data-madrasa="north-african"] [data-pick="north-african"] { border-color: var(--red); box-shadow: 0 0 0 3px var(--red-soft); }
@@ -1723,7 +1723,7 @@ html[data-madrasa] .madrasas[data-open] { margin-bottom: 28px; }
 .home-masters .home-split-lead { color: var(--muted); }
 .home-book-list, .home-master-list { list-style: none; margin: 0; padding: 0; }
 .home-book-list a { display: grid; grid-template-columns: 2.4em 84px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 14px 0; border-bottom: 1px solid color-mix(in srgb, var(--header-ink) 18%, transparent); text-decoration: none; }
-.home-book-list img { width: 84px; height: 84px; object-fit: cover; display: block; filter: grayscale(1); }
+.home-book-list img { width: 84px; height: 84px; object-fit: cover; display: block; }
 .home-book-n { font-family: var(--font-kb); font-weight: 700; color: var(--on-dark-red); font-size: 0.95rem; letter-spacing: 0.06em; }
 .home-book-text strong { display: block; font-size: 1.15rem; }
 .home-book-text span { display: block; font-size: 0.9rem; color: var(--header-sub); margin-top: 2px; }

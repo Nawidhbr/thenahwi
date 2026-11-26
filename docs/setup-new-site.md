@@ -97,7 +97,5 @@ themselves once a part is on.
 ## Shared with The Mantiqi
 
 - The owner's GitHub account, Apple Developer team and (if chosen) Paddle account.
-- The black-and-white photos (`apps/web/public/photos/`, Unsplash, credits in `config/photos.ts`): the same set as
-  The Mantiqi's; replace some later so the two sites do not look alike.
 - The house style, the study rules and the code. A fix to shared code made in one repository is not in the other:
   carry it over by hand.

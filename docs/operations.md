@@ -27,7 +27,7 @@ sign-in are off in `config/site.ts`, and the scheduled workflows are commented o
 | Paddle | subscriptions (merchant of record) | products and prices (written by `paddle-prices.yml`), the webhook destination `https://thenahwi.com/api/paddle/` |
 | Stripe | the gift Payment Link | the link is `SUPPORT.donateUrl` in `config/site.ts` |
 | Vercel Web Analytics | cookieless page counts, production only | Vercel project → Analytics |
-| Unsplash | the black-and-white photos (credit kept in `config/photos.ts`) | nothing to set |
+| Unsplash | the tile photos, chosen by the owner (credit kept in `config/photos.ts`) | nothing to set |
 | Google Play (not yet opened) | the Android app, a Trusted Web Activity of the site (`com.thenahwi.app`) | Play Console; the package and listing in `store/android/` |
 | Claude scheduled task (to be made, `docs/news.md`) | Saturday morning: reads the news issue, opens a pull request | Claude → scheduled tasks |
 

@@ -27,7 +27,7 @@ const page = (photo) => `<!doctype html><html><head><meta charset="utf-8"><style
 @font-face { font-family: Kufi; font-weight: 700; src: url(${font("noto-kufi-arabic", "noto-kufi-arabic-arabic-700-normal.woff2")}); }
 html, body { margin: 0; width: 1200px; height: 630px; background: #cc4a0a; overflow: hidden; }
 .wrap { display: grid; grid-template-columns: 560px 640px; height: 630px; }
-.photo { background: url("file://${path.join(photos, photo + "-1600.webp")}") center / cover; filter: grayscale(1); }
+.photo { background: url("file://${path.join(photos, photo + "-1600.webp")}") center / cover; }
 .panel { color: #fff; padding: 64px 64px 56px; display: flex; flex-direction: column; font-family: Literata, serif; }
 .mark { width: 84px; height: 84px; }
 .ar { font-family: Kufi, sans-serif; font-weight: 700; font-size: 40px; margin: 34px 0 0; direction: rtl; text-align: left; }
@@ -49,7 +49,7 @@ p { font-size: 31px; line-height: 1.3; margin: 0; color: #fff; font-weight: 400;
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 1200, height: 630 } });
   const tmp = path.join(out, ".tmp.html");
-  for (const [name, photo] of [...names.map((n) => [n, n]), ["default", "isfahan-muqarnas"]]) {
+  for (const [name, photo] of [...names.map((n) => [n, n]), ["default", "tiles-orange-patchwork"]]) {
     fs.writeFileSync(tmp, page(photo));
     await p.goto("file://" + tmp);
     await p.evaluate(() => document.fonts.ready);

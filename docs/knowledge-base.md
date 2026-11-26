@@ -91,10 +91,14 @@ field uses the same helper.
 - The knowledge base uses the "Split" design: `components/KbHero.astro` (a photo beside an orange panel) and
   `KbBand.astro`. Reading text in Literata; Arabic titles always in Kufi (`.kufi`, `--font-kufi`), whatever the
   typeface setting.
-- Photos: black-and-white architecture photos (Unsplash, `public/photos/`, listed with alt text, place and, for the
-  record, credit in `src/config/photos.ts`; captions show only the place). They stand beside orange panels in the
-  knowledge base, never as a background behind text. The only place in the study portal is the madrasa cards of the
-  study page (`photo` in `config/madrasas.ts`). After adding photos, run `apps/web/scripts/make-og.cjs`.
+- Photos: eighteen photos of tiles in colour, chosen by the owner (zellij, painted and cement tiles, stone inlay;
+  Unsplash, `public/photos/`, listed with alt text and, for the record, the photographer and Unsplash page in
+  `src/config/photos.ts`). None says where it was taken, so none has a `place` and no caption is shown. The home page
+  has the orange patchwork (`tiles-orange-patchwork`); each section, handbook and madrasa path has its own
+  (`KB_SECTIONS` in `lib/kb.ts`, `config/kb-books.json`, `curriculum.json`), and articles and scholars without one
+  get one of the eighteen by `photoFor`. They stand beside orange panels, never as a background behind text. After
+  adding a photo, put its 1600-wide WebP in `public/photos/`, run `apps/web/scripts/make-photos.cjs` (the smaller
+  sizes) and `apps/web/scripts/make-og.cjs` (the share images).
 - The logo is a square-Kufic nūn (ن), its dot a square: white on an orange tile (`public/favicon.svg`, the PNGs in
   `public/icons/`, the app icons), orange on a white tile on the orange header (the brand mark in `BaseLayout`). The site's Arabic name is النَّحْوِيّ.
 - The eight-pointed-star pattern (`.tegels`, `public/patterns/khatam.svg`) is not in use.

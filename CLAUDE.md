@@ -90,5 +90,5 @@ buttons, the current item, kickers), white grounds, a warm near-black ink only f
 the accent turns white. True red only for wrong answers and errors (`--bad`). Tiles (rotated squares) mark steps. The
 study portal is in "Clear glass" (a light glass header that stays at the top, frosted glass cards and round buttons,
 the current level as an orange glass panel); the knowledge base and the other pages outside it keep the classic look
-(an orange header, square orange panels, plain cards), set by `data-area` on `<html>`. Black-and-white photos stand
-beside orange panels, never behind text. Details in `docs/knowledge-base.md`.
+(an orange header, square orange panels, plain cards), set by `data-area` on `<html>`. Photos of tiles, in colour,
+stand beside orange panels, never behind text. Details in `docs/knowledge-base.md`.

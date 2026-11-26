@@ -7,6 +7,7 @@ code would otherwise question.
 
 | Date | Decision | Why |
 | --- | --- | --- |
+| 2026-11-26 | Eighteen photos of tiles in colour, chosen by the owner, in place of The Mantiqi's black-and-white architecture; the orange patchwork by Patrick Hendry on the home page | the owner: The Nahwi should not share its pictures with The Mantiqi, and tiles in orange belong with the new colours |
 | 2026-11-26 | House style "Oranje-wit": orange and white instead of The Mantiqi's black, white and red. Orange (`#cc4a0a`, 4.6:1 under white text) for the header, panels, main buttons and current item; white grounds; white accents on orange; true red only for wrong answers and errors; the logo a white nūn on an orange tile | the owner: The Nahwi should look like its own site, warmer than The Mantiqi |
 | 2026-11-26 | Accounts, payments, the apps, the gift window, the news round and the scheduled workflows are off until The Nahwi's own services exist; prices and plans are The Mantiqi's as placeholders | the copy must not reach The Mantiqi's Supabase, Paddle or store accounts; each part is turned on from `docs/setup-new-site.md` |
 | 2026-11-26 | English only at the start; the next language is still to be chosen (Urdu, Indonesian and Turkish have the largest madrasa readerships for ṣarf and naḥw) | the owner decides; `docs/i18n.md` describes the pass |
