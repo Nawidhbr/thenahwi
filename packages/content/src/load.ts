@@ -83,6 +83,8 @@ export function loadExercises(terms: Term[]): { sets: ExerciseSet[]; errors: str
   const errors: string[] = [];
   const sets: ExerciseSet[] = [];
   const slugs = new Set(terms.map((t) => t.slug));
+  // The folder may be empty, and git keeps no empty folders: a fresh clone has none.
+  if (!existsSync(EXERCISES_DIR)) return { sets, errors };
   for (const file of readdirSync(EXERCISES_DIR).filter((f) => f.endsWith(".json")).sort()) {
     let raw: unknown;
     try {
