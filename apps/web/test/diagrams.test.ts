@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 
@@ -11,16 +11,16 @@ const caps: Record<string, string> = read(join(__dirname, "../src/i18n/en.json")
 
 type Use = { where: string; diagram?: { type: string; focus?: string } };
 const uses: Use[] = [];
-for (const f of readdirSync(join(root, "terms"))) uses.push({ where: `terms/${f}`, diagram: read(join(root, "terms", f)).diagram });
-for (const f of readdirSync(join(root, "primers"))) {
+// The JSON files of a content folder; none when the folder is missing (git keeps no empty folders).
+const jsonIn = (dir: string) => (existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith(".json")) : []);
+for (const f of jsonIn(join(root, "terms"))) uses.push({ where: `terms/${f}`, diagram: read(join(root, "terms", f)).diagram });
+for (const f of jsonIn(join(root, "primers"))) {
   const book = read(join(root, "primers", f));
   for (const part of book.parts) for (const l of part.lessons) uses.push({ where: `${book.id} ${l.n}`, diagram: l.diagram });
 }
-for (const id of readdirSync(join(root, "commentaries"))) {
+for (const id of existsSync(join(root, "commentaries")) ? readdirSync(join(root, "commentaries")) : []) {
   const dir = join(root, "commentaries", id, "explain");
-  let files: string[] = [];
-  try { files = readdirSync(dir); } catch { continue; }
-  for (const f of files) uses.push({ where: `${id} ${f}`, diagram: read(join(dir, f)).diagram });
+  for (const f of jsonIn(dir)) uses.push({ where: `${id} ${f}`, diagram: read(join(dir, f)).diagram });
 }
 
 describe("diagrams in the explanations", () => {
