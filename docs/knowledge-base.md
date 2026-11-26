@@ -42,7 +42,7 @@ pipeline is in `docs/news.md`.
 - **Updates** `/updates/`: a log of what was added (texts, courses, languages, encyclopedia, site), newest first, by
   month. Add an entry to `config/updates.ts` whenever something a reader would notice goes live.
 - **Contact** `/contact/`: a form (name, email, subject, page, message; `#topic=` and `page=` fill it in, as a fragment or a query) posted to
-  `api/contact.js`, which mails it through Resend to `SITE.email` (info@thenahwi.com) with the writer as Reply-To
+  `api/contact.js`, which mails it through Resend to `SITE.email` (info@themantiqi.com, The Mantiqi's address) with the writer as Reply-To
   (env `RESEND_API_KEY`, optional `CONTACT_FROM`, `CONTACT_TO`). Without a key, or on an error, the reader's own mail
   program opens with the message filled in. A hidden field and a minimum time keep robots out; nothing is stored,
   and the privacy page says so.

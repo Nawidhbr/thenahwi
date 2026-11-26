@@ -94,3 +94,36 @@ test("a discount code from a link is kept for the session, for Paddle's checkout
   await page.goto("/en/scholars/");
   expect(await page.evaluate(() => sessionStorage.getItem("nahwi-discount"))).toBe("FAMILY-10");
 });
+
+// The news of naḥw and ṣarf comes from The Mantiqi's feed (scripts/parent-news.js): only its field `nahw` is shown.
+const parentFeed = `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>The Mantiqi</title>
+<item><title>A new edition of al-Kāfiya</title><link>https://example.org/kafiya</link><pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate><category>nahw</category><category>edition</category><description>A gist about al-Kāfiya — Original title. Summary.</description></item>
+<item><title>A study of kalām</title><link>https://example.org/kalam</link><pubDate>Wed, 25 Nov 2026 12:00:00 GMT</pubDate><category>kalam</category><category>study</category><description>Not for The Nahwi — Title. Summary.</description></item>
+</channel></rss>`;
+
+test("the news page and the home page show The Mantiqi's news of naḥw and ṣarf, and only that", async ({ page }) => {
+  await page.route("https://themantiqi.com/**", (r) => r.fulfill({ status: 200, contentType: "application/rss+xml", headers: { "Access-Control-Allow-Origin": "*" }, body: parentFeed }));
+  await page.goto("/en/news/");
+  const list = page.locator("[data-parent-news-list]");
+  await expect(list.locator("li")).toHaveCount(1);
+  await expect(list).toContainText("A new edition of al-Kāfiya");
+  await expect(list).toContainText("A gist about al-Kāfiya");
+  await expect(list.locator("a").first()).toHaveAttribute("href", "https://example.org/kafiya");
+  await expect(page.locator("a", { hasText: "All news on naḥw and ṣarf at The Mantiqi" }).first()).toHaveAttribute("href", "https://themantiqi.com/en/news/#field=nahw");
+  await page.goto("/en/");
+  await expect(page.locator(".home-news [data-parent-news-list] li")).toHaveCount(1);
+});
+
+test("without The Mantiqi's feed the news page says so and still links there", async ({ page }) => {
+  await page.route("https://themantiqi.com/**", (r) => r.abort());
+  await page.goto("/en/news/");
+  await expect(page.locator("[data-parent-news-state]")).toContainText("see all the news at The Mantiqi");
+  await expect(page.locator("[data-parent-news-list]")).toBeHidden();
+});
+
+test("The Nahwi names The Mantiqi as its parent site, with its address", async ({ page }) => {
+  await page.goto("/en/");
+  await expect(page.locator(".kb-parent a")).toHaveAttribute("href", "https://themantiqi.com/");
+  await expect(page.locator(".footer-parent")).toContainText("The Nahwi is a site of The Mantiqi");
+  await expect(page.locator(".social-links a[href='mailto:info@themantiqi.com']")).toBeVisible();
+});

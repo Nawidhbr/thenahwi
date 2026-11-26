@@ -54,15 +54,34 @@ export const APPLE_SIGN_IN = false;
  */
 export const SUPPORT = { donateUrl: env.DONATE_URL || "" };
 
+/**
+ * The Mantiqi, the parent site (decisions 2026-11-26): The Nahwi is a site of The Mantiqi. Its address and accounts are
+ * The Nahwi's, its news page gathers the news of naḥw and ṣarf (field `nahw` of its news, read in the browser from
+ * its feed by scripts/parent-news.js), and it stands as parentOrganization in the structured data.
+ */
+export const PARENT = {
+  name: "The Mantiqi",
+  arabicName: "المَنْطِقِيّ",
+  url: "https://themantiqi.com",
+  /** Its news page with the naḥw and ṣarf filter on, and the feed the news blocks read. */
+  news: "https://themantiqi.com/en/news/#field=nahw",
+  feed: "https://themantiqi.com/en/news/feed.xml",
+  newsField: "nahw",
+};
+
 export const SITE = {
   name: "The Nahwi",
-  /** The contact address (Zoho Mail on the own domain). */
-  email: "info@thenahwi.com",
-  /** The site's own accounts, in the footer and on the contact page, and as sameAs of the Organization. */
-  // The site's own accounts, in the order of the row under every page (components/SocialLinks.astro); also the
-  // Organization's sameAs (lib/structured-data.ts).
-  // None yet: add the accounts once they exist (the row hides itself when the list is empty).
-  social: [] as { name: string; kind: string; handle: string; url: string }[],
+  /** The contact address: The Mantiqi's (Zoho Mail on themantiqi.com), since The Nahwi is one of its sites. */
+  email: "info@themantiqi.com",
+  /**
+   * The accounts in the row under every page and on the contact page (components/SocialLinks.astro): The Mantiqi's,
+   * which post for The Nahwi too. Not the Organization's sameAs, since they are the parent's (lib/structured-data.ts).
+   */
+  social: [
+    { name: "Instagram", kind: "instagram", handle: "@the_mantiqi", url: "https://www.instagram.com/the_mantiqi/" },
+    { name: "Telegram", kind: "telegram", handle: "@themantiqi", url: "https://t.me/themantiqi" },
+    { name: "X", kind: "x", handle: "@TheMantiqi", url: "https://x.com/TheMantiqi" },
+  ] as { name: string; kind: string; handle: string; url: string }[],
   arabicName: "النَّحْوِيّ",
   /** The wordmark in the header: unvocalised, as a logo, by choice. */
   arabicWordmark: "النحوي",

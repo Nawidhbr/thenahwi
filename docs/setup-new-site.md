@@ -8,12 +8,15 @@ to be made for The Nahwi. Until then the site builds and passes `npm run check` 
 Work through the list in order: each step names what it unlocks and where the code waits for it. Tick a step off here
 and correct `docs/operations.md` when it is done.
 
+**The Nahwi is a site of The Mantiqi (decisions 2026-11-26).** It uses The Mantiqi's address (info@themantiqi.com),
+social accounts and news, so steps 3 (mailboxes), 13 (social accounts) and 14 (news) are done by that choice, and the
+accounts and payments of steps 6–11 may be shared with The Mantiqi as well: decide that before setting them up.
+
 **Done (26 November 2026):** step 2 (the repository `Nawidhbr/thenahwi`), step 4 (the Vercel project `thenahwi` in
 nawidhbr's projects, root `./`, `SITE_URL` and `INDEXING=on`), the domain part of step 3 (thenahwi.com at Yourname:
 `A @ 216.150.1.1`, `CNAME www` to Vercel, the parking record removed; www redirects 308 to thenahwi.com) and step 5
-except Bing (Search Console: domain property added, TXT record to verify; the IndexNow schedule is on). Still open in
-step 3: the mailboxes info@ and login@ (the contact form falls back to e-mail until Resend is set up, so info@ must
-exist). Vercel Web Analytics is not enabled yet: the page loads its script, which answers 404 until it is (project →
+except Bing (Search Console: domain property added, TXT record to verify; the IndexNow schedule is on). The contact
+address is info@themantiqi.com, which exists. Vercel Web Analytics is not enabled yet: the page loads its script, which answers 404 until it is (project →
 Analytics → Enable).
 
 ## What is off now, and where
@@ -26,9 +29,8 @@ Analytics → Enable).
 | Paywall and checkout | `PAYWALL`, `CHECKOUT` not set in Vercel; the Paddle ids in `config/pricing.json` are placeholders (`pri_replace_…`), the amounts The Mantiqi's | step 9 |
 | The gift window | `SUPPORT.donateUrl` empty | step 10 |
 | The iPhone app's purchases | `revenueCatKey` and `appStoreId` empty in `config/app.ts` | step 11 |
-| Scheduled workflows (uptime, news finder) | their `schedule:` lines commented out in `.github/workflows/` | steps 14, 15 |
+| The uptime check | its `schedule:` lines commented out in `.github/workflows/uptime.yml` | step 15 |
 | The teacher on the About page, reviews | `TEACHER = null` in `config/about.ts`; `reviews.json` empty | step 1 |
-| Social links | `SITE.social` empty in `config/site.ts` | step 13 |
 | Languages other than English | no `src/i18n/<code>.json`, no `packages/content/i18n/<code>/` | step 16 |
 
 The e2e tests of these parts are skipped while they are off (`e2e/flags.ts`), not deleted: they run again by
@@ -45,7 +47,8 @@ themselves once a part is on.
    (`PADDLE_API_KEY` at step 9, `OPENALEX_KEY` at step 14).
 3. **Domain and mail.** Register `thenahwi.com` (and, if wanted, `thesarfi.com`, only to redirect to
    `https://thenahwi.com/en/`: a redirect at the registrar or a second domain in Vercel). Mail on the domain (Zoho Mail,
-   as for The Mantiqi): `info@thenahwi.com` (contact, `SITE.email`) and `login@thenahwi.com` (the sign-in mails).
+   as for The Mantiqi): only `login@thenahwi.com` (the sign-in mails), once accounts come; the contact address is The
+   Mantiqi's `info@themantiqi.com`.
 4. **Vercel.** A new project from the repository, the root as it is (`vercel.json` sets the build). Add the domain,
    with `www` redirecting to the bare domain. Set `SITE_URL=https://thenahwi.com`; the other variables come with their
    steps (`docs/operations.md`, "Environment variables").
@@ -92,10 +95,8 @@ themselves once a part is on.
     fingerprint in `apps/web/public/.well-known/assetlinks.json` (not there yet: make it from the README), the English
     listing in `store/android/listing/en.md`. The screenshots in `store/android/screenshots/` and
     `apps/web/public/screenshots/` are The Nahwi's first pages; make them again once there is more to show.
-13. **Social accounts.** Make the ones wanted (YouTube, Instagram, X, …) with the name The Nahwi and the logo; add each
-    to `SITE.social` in `config/site.ts` (the footer row and the Organization's `sameAs` follow).
-14. **News.** `docs/news.md`, "Not running yet": try the finder by hand, add the language-science journals, make the
-    Saturday Claude task, then remove the # before the schedule in `.github/workflows/news-finder.yml`.
+13. **Social accounts.** The Mantiqi's (`SITE.social`); The Nahwi has none of its own.
+14. **News.** Gathered by The Mantiqi (`docs/news.md`); nothing to set up here.
 15. **Uptime.** Once the domain answers: remove the # before the schedule in `.github/workflows/uptime.yml`.
 16. **More content.** The first lesson book of level 2 (`docs/content.md`, "The books": a public-domain print first),
     then the skipped e2e tests of level 2 in `e2e/learning.spec.ts` get its book and lesson numbers and run again.

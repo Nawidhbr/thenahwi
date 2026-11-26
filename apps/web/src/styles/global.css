@@ -2098,3 +2098,15 @@ li[data-locked="1"] .g-name { color: var(--muted); }
 
 /* The photos in black and white, a little more contrast so the inscriptions stay clear (decisions 2026-11-26). */
 picture img { filter: grayscale(1) contrast(1.12); }
+
+/* The Nahwi is a site of The Mantiqi (decisions 2026-11-26): the line under the home page's search, the footer line, and
+   the news of naḥw and ṣarf read from The Mantiqi (scripts/parent-news.js). */
+.kb-parent { margin: 14px 0 0; font-size: 0.95rem; color: var(--header-sub); }
+.kb-parent a { color: var(--header-ink); font-weight: 700; }
+.site-footer p.footer-parent { display: block; margin: 10px 0 12px; font-size: 0.92rem; color: var(--muted); max-width: 48em; }
+.site-footer p.footer-parent a { font-weight: 700; white-space: nowrap; }
+.parent-news .kb-news { margin-top: 8px; }
+.parent-news-wrap { padding-top: 36px; }
+.parent-news-from { margin: 0 0 8px; }
+.parent-news-all { margin: 18px 0 0; font-weight: 700; }
+.u-mt4 { margin-top: 4px; }

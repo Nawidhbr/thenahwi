@@ -14,13 +14,13 @@ sign-in are off in `config/site.ts`, and the scheduled workflows are commented o
 
 | Service | What it does | Where its settings are |
 | --- | --- | --- |
-| GitHub (`Nawidhbr/thenahwi`, private) | the code and content; Actions run the checks, the news finder, uptime, IndexNow and the Paddle prices | repository settings → Secrets: `PADDLE_API_KEY`, `OPENALEX_KEY` (to request) |
+| GitHub (`Nawidhbr/thenahwi`, private) | the code and content; Actions run the checks, uptime, IndexNow and the Paddle prices | repository settings → Secrets: `PADDLE_API_KEY` |
 | Vercel | builds and serves the site and the functions in `api/` (contact, error, paddle, revenuecat) | project settings → Environment variables (names below) |
 | Domain registrar Yourname | thenahwi.com; DNS | keep the Google Search Console TXT record and the Resend records |
 | Google Search Console | indexing reports, the sitemap | verified by the TXT record |
 | IndexNow | tells Bing and others about new pages | key file `apps/web/public/<key>.txt`, `indexnow.yml` daily |
 | Supabase (EU, Frankfurt) | accounts, progress, licences | dashboard: auth providers, redirect URLs, SMTP, mail templates |
-| Resend | contact-form mail to info@thenahwi.com and the sign-in mails from login@thenahwi.com | the domain's DNS records; the API key in Vercel and in Supabase's SMTP |
+| Resend | contact-form mail to info@themantiqi.com (The Mantiqi's address, decisions 2026-11-26) and the sign-in mails from login@thenahwi.com | the domain's DNS records; the API key in Vercel and in Supabase's SMTP |
 | Google Cloud | the OAuth client for "Sign in with Google" (brand verification asked for) | its client id and secret are in Supabase's Google provider |
 | Apple Developer Program (the owner's, taken 24 November 2026 for The Mantiqi; one membership covers every site and app) | "Sign in with Apple" (`APPLE_SIGN_IN` in `config/site.ts`) and the iPhone app (`store/ios/`); one membership covers every site and app of the owner | Certificates, IDs & Profiles: the App ID, the Services ID, the key; the client secret in Supabase's Apple provider; App Store Connect: the app, its two in-app products, the Paid Apps agreement |
 | RevenueCat (to open) | the iPhone app's purchases through Apple: checks Apple's receipts and tells the site by webhook | project "The Nahwi": the App Store app with its In-App Purchase key, the entitlement `full`, the offering `default`, the webhook `https://thenahwi.com/api/revenuecat/` |
@@ -29,7 +29,6 @@ sign-in are off in `config/site.ts`, and the scheduled workflows are commented o
 | Vercel Web Analytics | cookieless page counts, production only | Vercel project → Analytics |
 | Unsplash | the photos of Arabic inscriptions, chosen by the owner (credit kept in `config/photos.ts`) | nothing to set |
 | Google Play (not yet opened) | the Android app, a Trusted Web Activity of the site (`com.thenahwi.app`) | Play Console; the package and listing in `store/android/` |
-| Claude scheduled task (to be made, `docs/news.md`) | Saturday morning: reads the news issue, opens a pull request | Claude → scheduled tasks |
 
 ## Environment variables (names only)
 
@@ -117,7 +116,7 @@ that catches its own error passes it to `window.__report(e, where)`. The privacy
   3. Keys: a key with Sign in with Apple, configured with that App ID; download the `.p8` file once and keep it with
      the owner (never in the repository), with the Key ID and the Team ID (top right in the account).
   4. Services → Sign in with Apple for Email Communication: register the domain `thenahwi.com` and the address
-     `login@thenahwi.com` (and `info@thenahwi.com`), so mails reach readers who hide their address behind Apple's
+     `login@thenahwi.com` (and The Mantiqi's `info@themantiqi.com`), so mails reach readers who hide their address behind Apple's
      relay. Resend's SPF record already covers the domain; check it shows as passing.
   5. Supabase → Authentication → Sign In / Providers → Apple: on; Client IDs `com.thenahwi.web` (the Services ID
      first); the secret made from the `.p8` file with the tool on that page (Team ID, Key ID, Services ID).
@@ -151,7 +150,7 @@ day), so look again before the number of readers grows.
 ## Handing over
 
 Someone taking over needs access to: the GitHub repository, the Vercel project, the domain at Yourname, Google Search
-Console, Supabase, Resend, the Google Cloud project, Paddle, Stripe, the mailbox info@thenahwi.com (Zoho Mail; the
+Console, Supabase, Resend, the Google Cloud project, Paddle, Stripe, the mailbox info@themantiqi.com (Zoho Mail, The Mantiqi's; the
 site's social accounts are registered on it: the Telegram channel t.me/thenahwi and Instagram @the_nahwi, listed in
 `SITE.social` in `apps/web/src/config/site.ts`, which the footer, the contact page and the Organization's `sameAs`
 show), and a Claude account for the news task (or the news can be reviewed by hand from the Saturday issue). With these, `README.md`,

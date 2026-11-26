@@ -2,7 +2,7 @@ import { getLibrary, type BackgroundArticle, type BackgroundConcept, type Backgr
 import { kbBook } from "./kb";
 import { isTranslated } from "./translated";
 import { diedYear, shortName } from "./background";
-import { SITE, SITE_URL, absoluteUrl } from "../config/site";
+import { PARENT, SITE, SITE_URL, absoluteUrl } from "../config/site";
 import { t } from "../i18n";
 import { FREE_BOOK, PAYWALL, PRICES } from "../config/pricing";
 import { OWNER } from "../config/about";
@@ -21,8 +21,9 @@ export function organization() {
     logo: absoluteUrl("/icons/icon-512.png"),
     description: "A knowledge base and study portal for ṣarf and naḥw, Arabic morphology and syntax in the Islamic scholarly tradition.",
     email: SITE.email,
-    sameAs: SITE.social.map((x) => x.url),
     founder: { "@type": "Person", name: OWNER.name },
+    // The Nahwi is a site of The Mantiqi: its accounts are the parent's, so they are the parent's sameAs.
+    parentOrganization: { "@type": "Organization", "@id": `${PARENT.url}/#organization`, name: PARENT.name, url: `${PARENT.url}/`, sameAs: SITE.social.map((x) => x.url) },
   };
 }
 

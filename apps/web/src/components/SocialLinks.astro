@@ -2,7 +2,8 @@
 /**
  * The site's accounts and address as one row: an icon, the name in bold and the handle beside it (as on Hanafi Atlas).
  * Under every page in the footer, and stacked in the side panel of the contact page (`stack`, without the address,
- * which that panel shows above it). The accounts come from SITE.social; the word for email from the UI dictionary.
+ * which that panel shows above it). The accounts come from SITE.social (The Mantiqi's, the parent site's: so no rel="me"); the
+ * word for email from the UI dictionary.
  */
 import { SITE } from "../config/site";
 import { t } from "../i18n";
@@ -11,7 +12,7 @@ interface Props { locale: string; stack?: boolean }
 const { locale, stack = false } = Astro.props;
 const ui = t(locale);
 const items = [
-  ...SITE.social.map((x) => ({ ...x, me: true })),
+  ...SITE.social.map((x) => ({ ...x, me: false })),
   ...(stack ? [] : [{ name: ui.footer.email, kind: "email", handle: SITE.email, url: `mailto:${SITE.email}`, me: false }]),
 ];
 ---

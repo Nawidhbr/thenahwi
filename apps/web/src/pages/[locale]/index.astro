@@ -3,15 +3,14 @@ import Photo from "../../components/Photo.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import KbHero from "../../components/KbHero.astro";
 import KbBand from "../../components/KbBand.astro";
-import { getBackground, getNews } from "@nahwi/content";
+import { getBackground } from "@nahwi/content";
 import { photoSrc } from "../../config/photos";
-import { SITE } from "../../config/site";
+import { PARENT, SITE } from "../../config/site";
 import { fmt, localePaths, t } from "../../i18n";
 import { articleHref, articlesOf, catalogueCounts, diedYear, KB_BOOKS, KB_SECTIONS, kbPath, ROMAN, shortDied, shortName } from "../../lib/kb";
-import { newsDateHTML, newsSection, newsSource, NEWS_SECTIONS } from "../../lib/news";
 import { organization, website } from "../../lib/structured-data";
 
-import homeNewsNewScript from "../../scripts/home-news-new.js?url";
+import parentNewsScript from "../../scripts/parent-news.js?url";
 import homeSearchScript from "../../scripts/home-search.js?url";
 /** The home page: the knowledge base of ṣarf and naḥw, with the way into the study portal. */
 export const getStaticPaths = localePaths;
@@ -21,15 +20,9 @@ const H = ui.kb.home;
 const curricula = articlesOf(locale, "curricula").filter((a) => a.slug !== "curricula-overview");
 const overview = articlesOf(locale, "curricula").find((a) => a.slug === "curricula-overview");
 // The newest news in its three sections (academic, publications, talks and media); items the reader has not seen yet get a "New" tile.
-const allNews = getNews();
-const newsCols = NEWS_SECTIONS.map((sec) => ({ sec, items: allNews.filter((n) => newsSection(n.kind) === sec).slice(0, 3) })).filter((c) => c.items.length > 0);
-const sections = ui.kb.news.sections as Record<string, string>;
-const sectionLeads = ui.kb.news.sectionLeads as Record<string, string>;
-const fields = ui.kb.news.fields as Record<string, string>;
 const roles = ui.book.roles as Record<string, string>;
 // The first sentence, not cut at an abbreviation ("b.", "ed.").
 const firstSentence = (x: string) => x.split(/(?<=[^\s.]{3}[.!?])\s(?=[A-Z\u00C0-\u024F"'‘“(])/)[0];
-const kinds = ui.kb.news.kinds as Record<string, string>;
 // A line of scholars through the centuries: the authors of the handbooks and their great forerunners.
 // The masters beside the handbooks: the grammarians of the knowledge base, by date of death.
 const timelineSlugs = ["sibawayh", "abd-al-qahir", "ibn-al-hajib", "zanjani", "ibn-malik", "radi", "ibn-ajurrum", "ibn-hisham", "ibn-aqil", "sharif-jurjani", "jami", "birgivi", "hamalawi"];
@@ -40,7 +33,6 @@ const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filt
 ---
 
 <BaseLayout image="stucco-medallion-blue" title={SITE.name} description={ui.kb.home.lead} path="/" locale={locale} bleed jsonLd={[organization(), website(locale)]}>
-  <link slot="head" rel="alternate" type="application/rss+xml" title={ui.kb.news.feedTitle} href={`/${locale}/news/feed.xml`} />
 
   <KbHero locale={locale} photo="stucco-medallion-blue" kicker={H.kicker} arabic="الصَّرْفُ وَالنَّحْوُ" title={H.title} sub={H.lead}>
     <form class="kb-search" role="search" data-kb-search>
@@ -48,6 +40,7 @@ const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filt
       <input id="kb-q" type="search" placeholder={H.search} autocomplete="off" />
       <button type="submit">{H.searchButton}</button>
     </form>
+    <p class="kb-parent" set:html={fmt(ui.parent.line, { mantiqi: `<a href="${PARENT.url}/">${PARENT.name}</a>` })} />
   </KbHero>
 
   <section class="home-split" aria-label={`${H.handbooksKicker} · ${H.mastersKicker}`}>
@@ -99,36 +92,16 @@ const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filt
   </section>
 
   <div class="kb-wrap">
-    {/* No news yet: the section waits until there is some (docs/news.md). */}
-    {newsCols.length > 0 && (
-    <section class="kb-section home-news" aria-labelledby="latest-h">
+    {/* The news of naḥw and ṣarf, from The Mantiqi (scripts/parent-news.js, config/site.ts PARENT). */}
+    <section class="kb-section home-news parent-news" aria-labelledby="latest-h" data-parent-news data-feed={PARENT.feed} data-field={PARENT.newsField} data-max="3" data-none={ui.kb.news.none}>
       <div class="kb-head">
-        <div><p class="kb-kicker">{H.latestKicker}</p><h2 id="latest-h">{H.newsTitle}</h2></div>
-        <p class="home-news-all"><a href={kbPath.news(locale)}>{H.allNews} →</a> <a href={`/${locale}/news/feed.xml`} class="muted">RSS</a></p>
+        <div><p class="kb-kicker">{H.latestKicker}</p><h2 id="latest-h">{H.newsTitle}</h2><p class="muted u-mt4">{H.newsLead}</p></div>
+        <p class="home-news-all"><a href={kbPath.news(locale)}>{H.allNews} →</a></p>
       </div>
-      <div class="home-news-cols" data-latest>
-        {newsCols.map(({ sec, items }) => (
-          <section class="home-news-col">
-            <h3><a href={`${kbPath.news(locale)}#section=${sec}`}>{sections[sec]}</a></h3>
-            <p class="muted home-news-lead">{sectionLeads[sec]}</p>
-            <ol>
-              {items.map((n, i) => (
-                <li data-date={n.date} class={i === 0 ? "home-news-top" : undefined}>
-                  <a href={n.url} rel="noopener" target="_blank">
-                    <span class="kb-date"><Fragment set:html={newsDateHTML(n.date.slice(0, 7), locale)} /> · {n.field === "nahw" ? kinds[n.kind] ?? n.kind : fields[n.field]}<span class="kb-new" hidden>{ui.kb.news.newDot}</span></span>
-                    <strong>{n.headline}</strong>
-                    <span class="home-news-gist">{n.gist}</span>
-                    <span class="home-news-src">{fmt(ui.kb.news.readAt, { source: newsSource(n.url) })} <span aria-hidden="true">↗</span></span>
-                  </a>
-                </li>
-              ))}
-            </ol>
-          </section>
-        ))}
-      </div>
-      <script is:inline src={homeNewsNewScript}></script>
+      <p class="muted" data-parent-news-state>{ui.kb.news.loading}</p>
+      <ul class="kb-news" data-parent-news-list hidden></ul>
     </section>
-    )}
+    <script is:inline src={parentNewsScript}></script>
 
     <KbBand id="curricula" photo={KB_SECTIONS.curricula.photo} kicker={H.curriculaKicker} title={H.curriculaTitle} arabic={KB_SECTIONS.curricula.arabic} href={kbPath.curricula(locale)} />
     <section class="kb-grid u-319c15">

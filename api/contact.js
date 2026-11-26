@@ -4,8 +4,9 @@
  *
  * Vercel environment variables:
  *   RESEND_API_KEY  the API key (without it the form answers 503 and the page offers the writer's own mail program)
- *   CONTACT_FROM    the sender, on a domain verified in Resend (default: The Nahwi <contact@thenahwi.com>)
- *   CONTACT_TO      where messages go (default: info@thenahwi.com)
+ *   CONTACT_FROM    the sender, on a domain verified in Resend (default: The Nahwi <contact@thenahwi.com>; The Mantiqi's
+ *                   Resend account can verify thenahwi.com beside themantiqi.com)
+ *   CONTACT_TO      where messages go (default: info@themantiqi.com, The Mantiqi's address: The Nahwi is one of its sites)
  *
  * Spam: a hidden field that people leave empty, a minimum time on the page, and limits on every field.
  */
@@ -49,7 +50,7 @@ export default async function handler(req, res) {
       headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         from: process.env.CONTACT_FROM || "The Nahwi <contact@thenahwi.com>",
-        to: [process.env.CONTACT_TO || "info@thenahwi.com"],
+        to: [process.env.CONTACT_TO || "info@themantiqi.com"],
         reply_to: f.email,
         subject,
         text,

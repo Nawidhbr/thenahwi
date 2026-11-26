@@ -882,7 +882,9 @@
     "nameBody": "al-Naḥwī (النَّحْوِيّ) means “the grammarian”: the title the biographers give to the scholars of naḥw, from {sibawayh} to {ibnHisham}, as in the classic dictionaries of grammarians, the Ṭabaqāt al-naḥwiyyīn.",
     "textTitle": "The text first",
     "textBody": "The lessons follow the order of the books themselves, and the texts are given in the original, from public-domain prints named on every page, with our translations beside them. Your progress is kept on this device only.",
-    "contact": "Questions, corrections or suggestions? Use the contact form."
+    "contact": "Questions, corrections or suggestions? Use the contact form.",
+    "parentTitle": "The Nahwi and The Mantiqi",
+    "parentBody": "The Nahwi is a site of {mantiqi}, which teaches manṭiq, the logic of the madrasa, in the same way: the books of three madrasa paths, lesson by lesson, beside a free encyclopedia. In the madrasa the two were read side by side, so the two sites share their address, their accounts and their news: The Mantiqi gathers the news on naḥw and ṣarf each week, and you can write to both at {email}."
   },
   "kb": {
     "nav": {
@@ -921,7 +923,7 @@
       "curriculaKicker": "II · Curricula",
       "curriculaTitle": "What was read, and where?",
       "newsKicker": "III · News",
-      "newsTitle": "New in the field",
+      "newsTitle": "News of naḥw and ṣarf",
       "allNews": "All news",
       "scholarsKicker": "III · Scholars",
       "scholarsTitle": "Scholars through the centuries",
@@ -936,7 +938,8 @@
       "handbooksLead": "The books the madrasas read, from al-Kāfiya to Qaṭr al-nadā, each with its commentaries, glosses and catalogue.",
       "mastersKicker": "The masters",
       "mastersLead": "From Sībawayh to al-Azhar: the grammarians whose books were read.",
-      "library": "The whole library"
+      "library": "The whole library",
+      "newsLead": "Gathered each week by The Mantiqi."
     },
     "curricula": {
       "title": "Curricula",
@@ -1025,8 +1028,8 @@
       "sources": "Sources"
     },
     "news": {
-      "title": "News",
-      "lead": "What is new on naḥw, ṣarf and the language sciences around them: academic work, new publications, and talks and media; each with a link.",
+      "title": "News of naḥw and ṣarf",
+      "lead": "New studies, editions, translations and talks on naḥw and ṣarf, gathered each week by The Mantiqi from Sunni Islamic institutions; each with a link to its source.",
       "rss": "RSS feed",
       "kinds": {
         "edition": "Edition",
@@ -1065,7 +1068,12 @@
       "sectionsLabel": "Sections of the news",
       "readAt": "Read at {source}",
       "more": "More",
-      "originalTitle": "Original title"
+      "originalTitle": "Original title",
+      "fromParent": "The news is gathered by {mantiqi}, The Nahwi's parent site, and shown here as it is there.",
+      "allAtParent": "All news on naḥw and ṣarf at The Mantiqi",
+      "parentRss": "RSS feed (The Mantiqi)",
+      "loading": "Loading the latest news from The Mantiqi…",
+      "none": "No news on naḥw and ṣarf to show here right now: see all the news at The Mantiqi."
     },
     "books_meta": {
       "kafiya": "Ibn al-Ḥājib’s compact syntax, read with Jāmī’s commentary in the Indian and Ottoman madrasas, and with Raḍī al-Dīn’s by advanced students.",
@@ -1419,9 +1427,9 @@
   "contact": {
     "title": "Contact",
     "description": "How to reach The Nahwi: questions, corrections to the texts and translations, courses and news to add.",
-    "lead": "The Nahwi is a young project, and everything on it is a draft until a teacher has reviewed it. We are glad to hear from you.",
+    "lead": "The Nahwi is a young project, and everything on it is a draft until a teacher has reviewed it. It is a site of The Mantiqi: messages to either go to the same team. We are glad to hear from you.",
     "emailLabel": "Or write directly",
-    "followLabel": "Follow The Nahwi",
+    "followLabel": "Follow The Mantiqi",
     "reasonsTitle": "What to write about",
     "reasons": [
       "A question about a lesson, a term or a text",
@@ -1440,7 +1448,7 @@
         "question": "A question about a lesson, term or text",
         "correction": "A mistake in a transcription, translation or explanation",
         "course": "A course, teacher or institute to list",
-        "news": "News for the news page",
+        "news": "News on naḥw or ṣarf for the news page",
         "other": "Something else"
       },
       "page": "Which page? (optional)",
@@ -1633,5 +1641,10 @@
       "terms": "Terms of service",
       "privacy": "Privacy"
     }
+  },
+  "parent": {
+    "line": "A site of {mantiqi}",
+    "lineLong": "The Nahwi is a site of {mantiqi}, the encyclopedia and study portal of manṭiq. The news, the address and the accounts are shared.",
+    "visit": "Visit The Mantiqi"
   }
 }

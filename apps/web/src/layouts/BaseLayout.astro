@@ -10,7 +10,7 @@ import AppStoreDialog from "../components/AppStoreDialog.astro";
 import AccountMenu from "../components/AccountMenu.astro";
 import SubscribeDialog from "../components/SubscribeDialog.astro";
 import SupportDialog from "../components/SupportDialog.astro";
-import { ACCOUNTS, ANALYTICS, SITE, SITE_URL, SUPPORT } from "../config/site";
+import { ACCOUNTS, ANALYTICS, PARENT, SITE, SITE_URL, SUPPORT } from "../config/site";
 import { getMatn, getNews } from "@nahwi/content";
 import { LIVE_LOCALES, ENGLISH_ONLY, dirOf, fmt, t } from "../i18n";
 // Fonts are served from this site (no requests to Google): only the weights and scripts the site uses.
@@ -314,6 +314,7 @@ const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "l
         {/* The site's accounts and address as one row (components/SocialLinks.astro), then only what the menus do not
             hold: About, contact, privacy, prices and support are all in the header (About). */}
         <SocialLinks locale={locale} />
+        <p class="footer-parent" set:html={fmt(ui.parent.lineLong, { mantiqi: `<a href="${PARENT.url}/">${PARENT.name}</a>` })} />
         <p><span>© {SITE.name}</span><a href={`/${locale}/terms-of-service/`}>{ui.footer.terms}</a><a href={`/${locale}/refunds/`} data-store-hide>{ui.footer.refunds}</a></p>
       </div>
     </footer>

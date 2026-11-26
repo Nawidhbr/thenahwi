@@ -3,8 +3,10 @@
 The Nahwi (النَّحْوِيّ) teaches ṣarf and naḥw, Arabic morphology and syntax as the madrasa teaches them, at
 thenahwi.com: a free knowledge base, a conjugation tool, and a study portal with three madrasa paths of books, lesson
 by lesson, in English first and later in more languages. It is built from a copy of The Mantiqi (themantiqi.com, repo
-themantiqi): what has not been set up yet for this site is listed in `docs/setup-new-site.md`. This file holds the
-rules every change must follow; how things work is in `docs/`.
+themantiqi), and it is a site of The Mantiqi: it shares The Mantiqi's address (info@themantiqi.com), its social
+accounts and its news (`PARENT` in `apps/web/src/config/site.ts`; decisions 2026-11-26). What has not been set up yet
+is listed in `docs/setup-new-site.md`. This file holds the rules every change must follow; how things work is in
+`docs/`.
 
 ## Where to read
 
@@ -16,7 +18,7 @@ rules every change must follow; how things work is in `docs/`.
 | `docs/knowledge-base.md` | the knowledge-base pages, search marks, the house style |
 | `docs/i18n.md` | languages, where translations live, terminology, right to left |
 | `docs/accounts-payments.md` | accounts, access, prices and Paddle, gifts, legal pages |
-| `docs/news.md` | the weekly news round and the rule for sources |
+| `docs/news.md` | the news of naḥw and ṣarf, read from The Mantiqi |
 | `docs/operations.md` | services, environment variables, what runs by itself, runbooks, handing over |
 | `docs/decisions.md` | dated decisions and why |
 | `docs/setup-new-site.md` | what still has to be set up for The Nahwi (domain, services, keys, teacher) |
@@ -75,8 +77,10 @@ Read the document for an area before changing it, and correct it in the same com
 - Every explanation, test and translation is a draft until a qualified teacher has reviewed it. Say so once, on the About
   page, not on every page, lesson or term (a reviewed lesson shows "Reviewed by"). Only enter a review the teacher has
   actually given.
-- News: only Sunni Islamic institutions, checked by institution, never by a person's name; work only from what the
-  source says; nothing is published by itself (`docs/news.md`).
+- News is gathered by The Mantiqi, not here: The Nahwi shows The Mantiqi's field `nahw` (`docs/news.md`). The rule
+  stays the same there: only Sunni Islamic institutions, checked by institution, never by a person's name.
+- Name The Mantiqi as the parent site where a reader meets the site as a whole (the home page, the footer, About,
+  contact), but keep The Nahwi the name in front: it is the site people search for.
 - Add an entry to `src/config/updates.ts` whenever something a reader would notice goes live.
 - The Nahwi is for ṣarf and naḥw; balāgha may be added later only as their extension, as a bonus text
   (`docs/decisions.md`). Ṣarf comes before naḥw, as in the madrasa. URLs stay `/<locale>/terms/<slug>/`.
