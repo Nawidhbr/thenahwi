@@ -5,8 +5,8 @@ pipeline is in `docs/news.md`.
 
 ## Pages
 
-- **Home** `/<locale>/`: the carved stucco medallion of Arabic script beside a lapis panel with the title and the search (`KbHero`), then the
-  six handbooks (al-Kāfiya, al-Shāfiya, al-ʿIzzī, the Alfiyya, al-Ājurrūmiyya, Qaṭr al-nadā; lapis panel, with
+- **Home** `/<locale>/`: the carved stucco medallion of Arabic script beside a turquoise panel with the title and the search (`KbHero`), then the
+  six handbooks (al-Kāfiya, al-Shāfiya, al-ʿIzzī, the Alfiyya, al-Ājurrūmiyya, Qaṭr al-nadā; turquoise panel, with
   their photos) beside the masters (a line of the main scholars), then the news in
   its three sections side by side, the curricula and the study portal.
 - **Articles**: `/nahw/` (About naḥw and ṣarf: what each is, why ṣarf comes first) and `/curricula/` (articles
@@ -54,22 +54,23 @@ Interface text of the knowledge base is in the `kb` dictionary.
 Every search (the site search with its result list and the page opened from it via `?hl=`, the glossary A–Z, the
 scholars list, the book catalogues) finds and marks words the same way, through `window.__hl`
 (`components/HighlightLib.astro`, in `<head>`): folded like the search, all words must occur, hits wrapped in
-`mark.search-hl` (orange). Results whose match is not in the title show the piece of text where it occurs. A new search
+`mark.search-hl` (copper). Results whose match is not in the title show the piece of text where it occurs. A new search
 field uses the same helper.
 
-## House style: "Lapis en saffraan"
+## House style: "Turkoois en koper"
 
-- Lapis blue, saffron orange and light blue on white (decisions 2026-11-26), taken from the blue-and-gold inscriptions
-  in the photos. Lapis (`#143a63`, `--header`, `--panel`) for the structure: the knowledge base's header and tab row,
-  its hero, the handbooks on the home page, the account and price panels, the madrasa cards and the current level.
-  Saffron for the accent (`--red`, `--red-fill`: the old names are kept): the main buttons (`#cc4a0a` under white text,
-  4.6:1), the current item and the kickers; on lapis, text and marks take a lighter saffron (`#ffb27a`, 6.5:1) while
-  buttons keep the saffron fill (the last block of `global.css`). Light blue for the soft surfaces: the bands of the
-  knowledge base (`.kb-band`, `.kb-cta`), the masters beside the handbooks, the second menu row, chosen chips and the
-  faint ground of the study portal (`--sky`, `--sky-soft`, `--primary-soft`); on light blue the text is ink and the
-  accent the darker saffron. Reading text is a deep blue-black ink (`--ink`), secondary text `--muted`. Dark mode is
-  deep blue (`#0c1520`) with a lapis header and the same saffron. True red is kept for wrong answers and errors only
-  (`--bad`, `--bad-soft`). Locked items are greyed with `--muted`, not with opacity. Tiles (rotated squares) mark steps.
+- Deep turquoise, copper orange and pale turquoise on white (decisions 2026-11-26), after the turquoise tilework of Iran
+  and Central Asia. Deep turquoise (`#0e4f55`, `--header`, `--panel`) for the structure: the knowledge base's header and
+  tab row, its hero, the handbooks on the home page, the account and price panels, the madrasa cards and the current
+  level. Copper for the accent (`--red`, `--red-fill`: the old names are kept): the main buttons (`#c2410c` under white
+  text, 5.2:1), the current item and the kickers; on turquoise, text and marks take a lighter copper (`#ffb27a`,
+  5.3:1) while buttons keep the copper fill (the last block of `global.css`). Pale turquoise for the soft surfaces: the
+  bands of the knowledge base (`.kb-band`, `.kb-cta`), the masters beside the handbooks, the second menu row, chosen
+  chips and the faint ground of the study portal (`--sky`, `--sky-soft`, `--primary-soft`); there the text is ink and
+  the accent the darker copper (`#a8380a`). Reading text is a deep green-black ink (`--ink`), secondary text `--muted`.
+  Dark mode is a deep green-black (`#0b1819`) with a turquoise header and the same copper. True red is kept for wrong
+  answers and errors only (`--bad`, `--bad-soft`). Locked items are greyed with `--muted`, not with opacity. Tiles
+  (rotated squares) mark steps.
 - Arabic is set in Baloo Bhaijaan 2 (`--font-arabic`, and `--font-kufi` for the titles: the name is older than the
   face), rounded and playful, with clear vowel marks; the settings menu of the study portal still offers Naskh and
   Amiri.
@@ -79,35 +80,35 @@ field uses the same helper.
   the account, prices, contact, about) keeps the classic look (decisions 2026-11-23).
 - "Clear glass" (study portal, 2026-11-21): a warm white ground with a faint orange glow (`--bg`, `--bg-glow`), cards of
   frosted glass (`--glass`, `--glass-edge`, `--glass-shadow`, a backdrop blur), round buttons (pills) with a soft orange
-  glow under the main action, and lapis glass panels (`--panel…`) for the one thing that matters now, such as the
+  glow under the main action, and turquoise glass panels (`--panel…`) for the one thing that matters now, such as the
   level the reader is on or the access note. Dark mode has its own values for every glass token. Keep the blur on
   surfaces that sit over something (header, bars, cards); never put glass behind long reading text without a solid
   enough `--glass`. The header there is one row of light glass that stays at the top while scrolling (`.site-tabs`,
-  `--glass-header…`), with a saffron logo tile and a white nūn (`--mark-bg`, `--mark-ink`, `--mark-dot`).
-- The classic look (outside the study portal): a plain white ground (deep blue in dark mode) without the glow, the
-  header one lapis row that scrolls away with the saffron logo tile, square lapis and light-blue panels the full width of the page (the
+  `--glass-header…`), with a copper logo tile and a white nūn (`--mark-bg`, `--mark-ink`, `--mark-dot`).
+- The classic look (outside the study portal): a plain white ground (a deep green-black in dark mode) without the glow,
+  the header one turquoise row that scrolls away with the copper logo tile, square turquoise and pale-turquoise panels the full width of the page (the
   knowledge-base heroes and bands, the handbooks on the home page, the account and price panels), plain cards with a
   hairline, buttons, chips, search bars and fields with square or slightly rounded corners, a solid tab bar. The
   `kb-…`, `home-…`, `account…` and `price-…` rules are written in this look; the shared rules (header, cards,
   buttons) are set back to it under `:root[data-area="kb"]` in the last block of `global.css`, and its tokens right
   after the dark-mode tokens.
-- The header holds the logo, the menu (News, Encyclopedia, Glossary, About and the Study portal as a saffron button) and the
+- The header holds the logo, the menu (News, Encyclopedia, Glossary, About and the Study portal as a copper button) and the
   tools. Encyclopedia (books, scholars, curricula) and About show their pages in a second row under it, like the
   study portal; on phones that row scrolls sideways.
-- The knowledge base uses the "Split" design: `components/KbHero.astro` (a photo beside a lapis panel) and
+- The knowledge base uses the "Split" design: `components/KbHero.astro` (a photo beside a turquoise panel) and
   `KbBand.astro`. Reading text in Literata; Arabic titles always in the site's Arabic face (`.kufi`, `--font-kufi`),
   whatever the typeface setting.
 - Photos: seventeen photos of Arabic inscriptions, chosen by the owner (tile, stucco, paint, wood and stone; Unsplash,
   `public/photos/`, listed with alt text and, for the record, the photographer and Unsplash page in
   `src/config/photos.ts`). The files are in colour; the site shows them in black and white with a little more contrast
-  (`picture img` in `global.css`, and the share images in `make-og.cjs`), so the lapis and saffron are the only colours
+  (`picture img` in `global.css`, and the share images in `make-og.cjs`), so the turquoise and copper are the only colours
   on the page. None says where it was taken, so none has a `place` and no caption is shown. The home page has the
   carved stucco medallion (`stucco-medallion-blue`, Abdullah Habib), the strongest of them in grey; Sultan Ali's
   painted arch is the glossary's and the Indian path's. Each section, handbook and madrasa path has its own (`KB_SECTIONS` in `lib/kb.ts`, `config/kb-books.json`, `curriculum.json`), and articles and
   scholars without one get one of the seventeen by `photoFor`. They stand beside the panels, never as a background behind text. After
   adding a photo, put its 1600-wide WebP in `public/photos/`, run `apps/web/scripts/make-photos.cjs` (the smaller
   sizes) and `apps/web/scripts/make-og.cjs` (the share images).
-- The logo is a square-Kufic nūn (ن), its dot a square: white on a saffron tile (`public/favicon.svg`, the PNGs in
+- The logo is a square-Kufic nūn (ن), its dot a square: white on a copper tile (`public/favicon.svg`, the PNGs in
   `public/icons/`, the app icons, the brand mark in `BaseLayout`). The site's Arabic name is النَّحْوِيّ.
 - The eight-pointed-star pattern (`.tegels`, `public/patterns/khatam.svg`) is not in use.
 - Right-to-left languages use logical CSS properties (`docs/i18n.md`).

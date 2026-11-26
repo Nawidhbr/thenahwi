@@ -32,8 +32,8 @@ const offline = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Nahwi</title>
 <style>
-  :root { color-scheme: light dark; --bg: #ffffff; --ink: #1f1a17; --muted: #6b5d55; --red: #cc4a0a; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #120d0a; --ink: #f7efe8; --muted: #b9aa9f; } }
+  :root { color-scheme: light dark; --bg: #ffffff; --ink: #122326; --muted: #4b6064; --red: #c2410c; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0b1819; --ink: #eef6f6; --muted: #a2b8b9; } }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); }
   body { font: 17px/1.5 -apple-system, system-ui, sans-serif; display: grid; place-items: center; padding: max(24px, env(safe-area-inset-top)) 24px max(24px, env(safe-area-inset-bottom)); box-sizing: border-box; }
   main { max-width: 26rem; }
@@ -76,7 +76,7 @@ const browser = await chromium.launch();
 const page = await browser.newPage({ deviceScaleFactor: 1 });
 const shoot = async (size, scale, file) => {
   await page.setViewportSize({ width: size, height: size });
-  await page.setContent(logo(size, scale, "#e8590c"));
+  await page.setContent(logo(size, scale, "#c2410c"));
   await page.screenshot({ path: new URL(file, assets).pathname, omitBackground: false });
 };
 await shoot(1024, 1, "AppIcon.appiconset/AppIcon-512@2x.png");

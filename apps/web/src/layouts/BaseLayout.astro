@@ -134,8 +134,8 @@ const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "l
     <script is:inline src={headSettingsScript}></script>
     <script is:inline src={`/${locale}/study-data.js?v=${studyData(locale).v}`}></script>
     <script is:inline src={headStudyScript}></script>
-    <meta name="theme-color" content="#143a63" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#120d0a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#0e4f55" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b1819" media="(prefers-color-scheme: dark)" />
     {(studyHere ? [atkinson400, atkinson700, bricolage700, atkinsonExt400, atkinsonItalic, atkinsonExtItalic] : [literata400, literata700, literataExt400, literataExt700]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />

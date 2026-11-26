@@ -25,7 +25,7 @@ const page = (photo) => `<!doctype html><html><head><meta charset="utf-8"><style
 @font-face { font-family: Literata; font-weight: 400; src: url(${font("literata", "literata-latin-ext-400-normal.woff2")}); }
 @font-face { font-family: Literata; font-weight: 400; src: url(${font("literata", "literata-latin-400-normal.woff2")}); unicode-range: U+0000-00FF; }
 @font-face { font-family: Kufi; font-weight: 700; src: url(${font("baloo-bhaijaan-2", "baloo-bhaijaan-2-arabic-700-normal.woff2")}); }
-html, body { margin: 0; width: 1200px; height: 630px; background: #143a63; overflow: hidden; }
+html, body { margin: 0; width: 1200px; height: 630px; background: #0e4f55; overflow: hidden; }
 .wrap { display: grid; grid-template-columns: 560px 640px; height: 630px; }
 .photo { background: url("file://${path.join(photos, photo + "-1600.webp")}") center / cover; filter: grayscale(1) contrast(1.12); }
 .panel { color: #fff; padding: 64px 64px 56px; display: flex; flex-direction: column; font-family: Literata, serif; }
@@ -36,7 +36,7 @@ h1 { font-size: 76px; line-height: 1; margin: 14px 0 0; letter-spacing: -0.01em;
 p { font-size: 31px; line-height: 1.3; margin: 0; color: #fff; font-weight: 400; }
 .url { margin-top: auto; font-size: 24px; color: #ffb27a; letter-spacing: 0.04em; font-weight: 700; }
 </style></head><body><div class="wrap"><div class="photo"></div><div class="panel">
-<svg class="mark" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#cc4a0a"/><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" fill="#ffffff" fill-rule="evenodd"/><rect x="232" y="120" width="48" height="48" fill="#ffffff"/></g></svg>
+<svg class="mark" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#c2410c"/><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" fill="#ffffff" fill-rule="evenodd"/><rect x="232" y="120" width="48" height="48" fill="#ffffff"/></g></svg>
 <div class="ar">النَّحْوِيّ</div>
 <h1>The Nahwi</h1>
 <div class="rule"></div>

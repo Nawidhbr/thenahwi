@@ -48,7 +48,7 @@ Read the document for an area before changing it, and correct it in the same com
   `<script is:inline src={url}>` (`docs/architecture.md`). A new outside resource needs an entry in the CSP in
   `vercel.json`.
 - Never write interface text into a page: use `t(locale)` and `fmt()`, with the English in `src/i18n/en.json`.
-- Colours only as CSS tokens in `src/styles/global.css` (light and dark values). Saffron under white text uses
+- Colours only as CSS tokens in `src/styles/global.css` (light and dark values). Copper under white text uses
   `--red-fill`/`--on-red` (the names are older than the colour); locked items are greyed with `--muted`, not opacity. Use logical CSS properties
   (`margin-inline-start`), not left and right.
 - One `<h1>` per page; titles up to 65 characters, descriptions about 155; every page has an og:image
@@ -83,16 +83,16 @@ Read the document for an area before changing it, and correct it in the same com
 - Every example word or sentence in a lesson is fully vocalised, and every conjugated form shown comes from the
   engine or from a print, never typed by hand.
 
-## House style ("Lapis en saffraan")
+## House style ("Turkoois en koper")
 
-Lapis blue, saffron orange and light blue on white (since 2026-11-26): deep lapis blue for the structure (the knowledge
-base's header and main panels, the current level), saffron orange for the accent (the main buttons, the current item,
-kickers; a lighter saffron for text and marks on lapis), light blue for the soft surfaces (the bands, the masters on
-the home page, the second menu row, the ground of the study portal), white grounds and a deep blue-black ink for
-reading text. True red only for wrong answers and errors (`--bad`). Arabic is set in Baloo Bhaijaan 2, rounded and
-playful (Naskh and Amiri stay as choices in the settings). Tiles (rotated squares) mark steps. The study portal is in
-"Clear glass" (a light glass header that stays at the top, frosted glass cards and round buttons, the current level as
-a lapis glass panel); the knowledge base and the other pages outside it keep straight panels from edge to edge (a lapis
-header, square panels, plain cards), set by `data-area` on `<html>`. The site's own photos of Arabic inscriptions are
-shown in black and white (`picture img` in `global.css`), beside the panels, never behind text. Details in
-`docs/knowledge-base.md`.
+Deep turquoise, copper orange and pale turquoise on white (since 2026-11-26): deep turquoise for the structure (the
+knowledge base's header and main panels, the current level), copper orange for the accent (the main buttons, the
+current item, kickers; a lighter copper for text and marks on turquoise), pale turquoise for the soft surfaces (the
+bands, the masters on the home page, the second menu row, the ground of the study portal), white grounds and a deep
+green-black ink for reading text. True red only for wrong answers and errors (`--bad`). Arabic is set in Baloo
+Bhaijaan 2, rounded and playful (Naskh and Amiri stay as choices in the settings). Tiles (rotated squares) mark steps.
+The study portal is in "Clear glass" (a light glass header that stays at the top, frosted glass cards and round
+buttons, the current level as a turquoise glass panel); the knowledge base and the other pages outside it keep straight
+panels from edge to edge (a turquoise header, square panels, plain cards), set by `data-area` on `<html>`. The site's
+own photos of Arabic inscriptions are shown in black and white (`picture img` in `global.css`), beside the panels,
+never behind text. Details in `docs/knowledge-base.md`.

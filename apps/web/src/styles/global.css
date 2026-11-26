@@ -1,69 +1,69 @@
-/* The Nahwi house style, "Lapis en saffraan" (decisions 2026-11-26): deep lapis blue for the structure (the knowledge
-   base's header and main panels, the current level), saffron orange for the accent (the main buttons, the current item,
-   kickers), light blue for the soft surfaces (bands, the masters on the home page, the second menu row, the study
-   portal's ground), white grounds and a deep blue-black ink for reading text; the photos in black and white. The tokens
-   keep their old names (--red, --on-dark-red, --header, --font-kufi): --red is the accent, now orange; --sky… are the
-   light blues; true red is --bad, for wrong answers and errors only. */
+/* The Nahwi house style, "Turkoois en koper" (decisions 2026-11-26): deep turquoise for the structure (the knowledge
+   base's header and main panels, the current level), copper orange for the accent (the main buttons, the current item,
+   kickers), pale turquoise for the soft surfaces (bands, the masters on the home page, the second menu row, the study
+   portal's ground), white grounds and a deep green-black ink for reading text; the photos in black and white. The tokens
+   keep their old names (--red, --on-dark-red, --header, --sky…, --font-kufi): --red is the copper accent, --sky… the
+   pale turquoises; true red is --bad, for wrong answers and errors only. */
 
 :root {
-  --bg: #f4f9fd;
+  --bg: #f6fbfb;
   --surface: #ffffff;
-  --ink: #17212b;
-  --muted: #526170;
-  --line: rgb(15 60 100 / 0.1);
+  --ink: #122326;
+  --muted: #4b6064;
+  --line: rgb(14 79 85 / 0.1);
   /* Clear glass (decisions 2026-11-21): the header, the study bar, the tab bar and the cards are light glass over a
      soft ground with a faint red glow; the level you are on is a dark glass panel. */
-  --bg-glow: rgb(234 88 12 / 0.07);
-  --bg-glow-2: rgb(56 160 220 / 0.1);
+  --bg-glow: rgb(194 65 12 / 0.06);
+  --bg-glow-2: rgb(14 79 85 / 0.07);
   --glass: rgb(255 255 255 / 0.55);
   --glass-dim: rgb(255 255 255 / 0.35);
   --glass-bar: rgb(255 255 255 / 0.7);
   --glass-tab: rgb(255 255 255 / 0.88);
   --glass-edge: rgb(255 255 255 / 0.9);
   --glass-hi: rgb(255 255 255 / 1);
-  --glass-shadow: 0 1px 1px rgb(15 40 70 / 0.04), 0 18px 44px rgb(15 60 100 / 0.08);
-  --hairline: rgb(15 40 70 / 0.07);
-  --control-line: rgb(15 40 70 / 0.18);
-  --control-hover: rgb(56 160 220 / 0.08);
-  --panel: rgb(20 58 99 / 0.96);
+  --glass-shadow: 0 1px 1px rgb(14 50 54 / 0.04), 0 18px 44px rgb(14 79 85 / 0.08);
+  --hairline: rgb(14 50 54 / 0.07);
+  --control-line: rgb(14 50 54 / 0.18);
+  --control-hover: rgb(14 79 85 / 0.07);
+  --panel: rgb(14 79 85 / 0.96);
   --panel-ink: #ffffff;
   --panel-sub: rgb(255 255 255 / 0.85);
   --panel-edge: rgb(255 255 255 / 0.1);
-  --panel-shadow: 0 24px 48px rgb(20 58 99 / 0.24), inset 0 1px 0 rgb(255 255 255 / 0.12);
-  --red-glow: rgb(234 88 12 / 0.28);
-  --red-ring: rgb(234 88 12 / 0.32);
-  --red-halo: rgb(234 88 12 / 0.06);
+  --panel-shadow: 0 24px 48px rgb(14 79 85 / 0.24), inset 0 1px 0 rgb(255 255 255 / 0.12);
+  --red-glow: rgb(194 65 12 / 0.28);
+  --red-ring: rgb(194 65 12 / 0.32);
+  --red-halo: rgb(194 65 12 / 0.06);
   --glass-header: rgb(255 255 255 / 0.74);
-  --glass-header-ink: #17212b;
-  --glass-header-sub: #4a5866;
-  --mark-bg: #cc4a0a;
+  --glass-header-ink: #122326;
+  --glass-header-sub: #475b5f;
+  --mark-bg: #c2410c;
   --mark-ink: #ffffff;
-  --header: #143a63;
+  --header: #0e4f55;
   --header-ink: #ffffff;
-  --header-sub: #d6e6f3;
-  --primary: #cc4a0a;
-  --primary-ink: #b93d0b;
+  --header-sub: #d2ebec;
+  --primary: #c2410c;
+  --primary-ink: #a8380a;
   --on-primary: #ffffff;
-  --primary-soft: #e3f2fc;
-  --red: #cc4a0a;
-  --red-ink: #b93d0b;
+  --primary-soft: #dff1f0;
+  --red: #c2410c;
+  --red-ink: #a8380a;
   --red-soft: #ffedd5;
   /* Red as a fill under white text (buttons, the current tile): the same in dark mode, where --red is lighter, so the white keeps 4.5:1. */
-  --red-fill: #cc4a0a;
+  --red-fill: #c2410c;
   --on-red: #ffffff;
   --good: #0e7c4a;
   --good-soft: #e3f4ea;
-  --lock: #edf2f6;
+  --lock: #ecf2f2;
   --warn-ink: #8a5a00;
   --warn-soft: #fff3dc;
   --dg-fill: rgb(255 255 255 / 0.8);
   --dg-focus: rgb(255 237 213 / 0.95);
-  --dg-bg: #eef7fd;
-  --dg-stroke: rgb(15 40 70 / 0.2);
-  --dg-line: rgb(15 40 70 / 0.38);
-  --dg-shadow: rgb(15 60 100 / 0.1);
-  --dg-frame: rgb(56 160 220 / 0.05);
-  --dg-dot: #17212b;
+  --dg-bg: #eef7f7;
+  --dg-stroke: rgb(14 50 54 / 0.2);
+  --dg-line: rgb(14 50 54 / 0.38);
+  --dg-shadow: rgb(14 79 85 / 0.1);
+  --dg-frame: rgb(14 79 85 / 0.05);
+  --dg-dot: #122326;
   --radius-l: 22px;
   --radius-m: 14px;
   --measure: 46rem;
@@ -84,9 +84,9 @@
   /* True red only for wrong answers and errors. */
   --bad: #c4251b;
   --bad-soft: #fde8e6;
-  --sky: #bfe3f8;
-  --sky-soft: #e3f2fc;
-  --sky-ink: #0f4c75;
+  --sky: #b3dfdc;
+  --sky-soft: #dff1f0;
+  --sky-ink: #0e4f55;
   color-scheme: light;
 }
 
@@ -104,18 +104,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0c1520;
-    --surface: #132232;
-    --ink: #eef4f9;
-    --muted: #9fb1c1;
+    --bg: #0b1819;
+    --surface: #122426;
+    --ink: #eef6f6;
+    --muted: #a2b8b9;
     --line: rgb(255 255 255 / 0.08);
-    --header: #163c66;
+    --header: #115158;
     --header-ink: #ffffff;
-    --header-sub: #d6e6f3;
+    --header-sub: #d2ebec;
     --primary: #fb923c;
     --primary-ink: #fdba74;
-    --primary-soft: rgb(143 208 245 / 0.1);
-    --on-primary: #132232;
+    --primary-soft: rgb(127 209 204 / 0.1);
+    --on-primary: #122426;
     --red: #fb923c;
     --red-ink: #fdba74;
     --red-soft: rgb(251 146 60 / 0.15);
@@ -126,34 +126,34 @@
     --warn-soft: rgb(251 191 90 / 0.12);
     --dg-fill: rgb(255 255 255 / 0.07);
     --dg-focus: rgb(251 146 60 / 0.18);
-    --dg-bg: #101c29;
+    --dg-bg: #0f1f21;
     --dg-stroke: rgb(255 255 255 / 0.2);
     --dg-line: rgb(255 255 255 / 0.4);
     --dg-shadow: rgb(0 0 0 / 0.45);
     --dg-frame: rgb(255 255 255 / 0.03);
-    --dg-dot: #eef4f9;
+    --dg-dot: #eef6f6;
     --bg-glow: rgb(251 146 60 / 0.08);
-    --bg-glow-2: rgb(143 208 245 / 0.06);
-    --glass: rgb(22 38 56 / 0.55);
-    --glass-dim: rgb(22 38 56 / 0.35);
-    --glass-bar: rgb(14 24 36 / 0.7);
-    --glass-tab: rgb(14 24 36 / 0.9);
+    --bg-glow-2: rgb(127 209 204 / 0.06);
+    --glass: rgb(20 40 42 / 0.55);
+    --glass-dim: rgb(20 40 42 / 0.35);
+    --glass-bar: rgb(12 24 26 / 0.7);
+    --glass-tab: rgb(12 24 26 / 0.9);
     --glass-edge: rgb(255 255 255 / 0.08);
     --glass-hi: rgb(255 255 255 / 0.04);
     --glass-shadow: 0 18px 44px rgb(0 0 0 / 0.4);
     --hairline: rgb(255 255 255 / 0.08);
     --control-line: rgb(255 255 255 / 0.22);
     --control-hover: rgb(255 255 255 / 0.08);
-    --panel: rgb(22 60 102 / 0.94);
+    --panel: rgb(17 81 88 / 0.94);
     --panel-edge: rgb(255 255 255 / 0.12);
     --panel-shadow: 0 24px 48px rgb(0 0 0 / 0.45);
-    --glass-header: rgb(12 21 32 / 0.72);
+    --glass-header: rgb(11 24 25 / 0.72);
     --glass-header-ink: #ffffff;
-    --glass-header-sub: #c3d2df;
-    --mark-bg: #cc4a0a;
+    --glass-header-sub: #c2d4d5;
+    --mark-bg: #c2410c;
     --mark-ink: #ffffff;
     color-scheme: dark;
-  --red-fill: #cc4a0a;
+  --red-fill: #c2410c;
   --on-red: #ffffff;
   --bad: #ff6b5c;
   --bad-soft: rgb(255 107 92 / 0.14);
@@ -161,24 +161,24 @@
   --panel-sub: rgb(255 255 255 / 0.86);
   --mark-dot: #ffffff;
   --on-dark-red: #ffb27a;
-    --sky: #8fd0f5;
-    --sky-soft: #122a40;
-    --sky-ink: #bfe3f8;
+    --sky: #7fd1cc;
+    --sky-soft: #12302f;
+    --sky-ink: #b3dfdc;
 
   }
 }
 
 :root[data-theme="dark"] {
-  --surface: #132232;
-  --ink: #eef4f9;
-  --muted: #9fb1c1;
-  --header: #163c66;
+  --surface: #122426;
+  --ink: #eef6f6;
+  --muted: #a2b8b9;
+  --header: #115158;
   --header-ink: #ffffff;
-  --header-sub: #d6e6f3;
+  --header-sub: #d2ebec;
   --primary: #fb923c;
   --primary-ink: #fdba74;
-  --primary-soft: rgb(143 208 245 / 0.1);
-  --on-primary: #132232;
+  --primary-soft: rgb(127 209 204 / 0.1);
+  --on-primary: #122426;
   --red: #fb923c;
   --red-ink: #fdba74;
   --red-soft: rgb(251 146 60 / 0.15);
@@ -189,39 +189,39 @@
   --warn-soft: rgb(251 191 90 / 0.12);
   --dg-fill: rgb(255 255 255 / 0.07);
   --dg-focus: rgb(251 146 60 / 0.18);
-  --dg-bg: #101c29;
+  --dg-bg: #0f1f21;
   --dg-stroke: rgb(255 255 255 / 0.2);
   --dg-line: rgb(255 255 255 / 0.4);
   --dg-shadow: rgb(0 0 0 / 0.45);
   --dg-frame: rgb(255 255 255 / 0.03);
-  --dg-dot: #eef4f9;
-  --sky: #8fd0f5;
-  --sky-soft: #122a40;
-  --sky-ink: #bfe3f8;
+  --dg-dot: #eef6f6;
+  --sky: #7fd1cc;
+  --sky-soft: #12302f;
+  --sky-ink: #b3dfdc;
   color-scheme: dark;
   --bg-glow: rgb(251 146 60 / 0.08);
-  --bg-glow-2: rgb(143 208 245 / 0.06);
-  --glass: rgb(22 38 56 / 0.55);
-  --glass-dim: rgb(22 38 56 / 0.35);
-  --glass-bar: rgb(14 24 36 / 0.7);
-  --glass-tab: rgb(14 24 36 / 0.9);
+  --bg-glow-2: rgb(127 209 204 / 0.06);
+  --glass: rgb(20 40 42 / 0.55);
+  --glass-dim: rgb(20 40 42 / 0.35);
+  --glass-bar: rgb(12 24 26 / 0.7);
+  --glass-tab: rgb(12 24 26 / 0.9);
   --glass-edge: rgb(255 255 255 / 0.08);
   --glass-hi: rgb(255 255 255 / 0.04);
   --glass-shadow: 0 18px 44px rgb(0 0 0 / 0.4);
   --hairline: rgb(255 255 255 / 0.08);
   --control-line: rgb(255 255 255 / 0.22);
   --control-hover: rgb(255 255 255 / 0.08);
-  --panel: rgb(22 60 102 / 0.94);
+  --panel: rgb(17 81 88 / 0.94);
   --panel-edge: rgb(255 255 255 / 0.12);
   --panel-shadow: 0 24px 48px rgb(0 0 0 / 0.45);
-  --glass-header: rgb(12 21 32 / 0.72);
+  --glass-header: rgb(11 24 25 / 0.72);
   --glass-header-ink: #ffffff;
-  --glass-header-sub: #c3d2df;
-  --mark-bg: #cc4a0a;
+  --glass-header-sub: #c2d4d5;
+  --mark-bg: #c2410c;
   --mark-ink: #ffffff;
-  --bg: #0c1520;
+  --bg: #0b1819;
   --line: rgb(255 255 255 / 0.08);
-  --red-fill: #cc4a0a;
+  --red-fill: #c2410c;
   --on-red: #ffffff;
   --bad: #ff6b5c;
   --bad-soft: rgb(255 107 92 / 0.14);
@@ -233,20 +233,20 @@
 
 /* Clear glass is for the study portal only (decisions 2026-11-23). The knowledge base and the other pages outside it
    (html[data-area="kb"]) keep the classic look: a plain white ground without the glow, solid hairlines, a white logo
-   tile on the lapis header. The rules for its shapes are at the end of this file. */
+   tile on the turquoise header. The rules for its shapes are at the end of this file. */
 :root[data-area="kb"] {
   --bg: #ffffff;
-  --line: #dbe9f3;
+  --line: #d3e8e7;
   --bg-glow: transparent;
   --bg-glow-2: transparent;
-  --mark-bg: #cc4a0a;
+  --mark-bg: #c2410c;
   --mark-ink: #ffffff;
   --mark-dot: #ffffff;
 }
 @media (prefers-color-scheme: dark) {
-  :root[data-area="kb"]:not([data-theme="light"]) { --bg: #0c1520; --line: #22374b; }
+  :root[data-area="kb"]:not([data-theme="light"]) { --bg: #0b1819; --line: #1f3a3b; }
 }
-:root[data-area="kb"][data-theme="dark"] { --bg: #0c1520; --line: #22374b; }
+:root[data-area="kb"][data-theme="dark"] { --bg: #0b1819; --line: #1f3a3b; }
 
 * { box-sizing: border-box; }
 
@@ -1114,7 +1114,7 @@ a.level-card:hover { border-color: var(--primary); }
 .person h3 { margin-top: 6px; }
 html[lang="ar"] .level-card-ar, html[lang="ar"] .level-one-ar { display: none; }
 
-/* ===== Knowledge base ("Split" design): lapis and light-blue panels beside the photos, Literata text, Arabic titles in the site face. ===== */
+/* ===== Knowledge base ("Split" design): turquoise panels beside the photos, Literata text, Arabic titles in the site face. ===== */
 .kb { font-family: var(--font-kb); }
 .kb h1, .kb h2, .kb h3 { font-family: var(--font-kb); font-weight: 700; letter-spacing: 0; }
 .kufi { font-family: var(--font-kufi); font-weight: 700; direction: rtl; unicode-bidi: isolate; line-height: 1.45; }
@@ -2069,24 +2069,24 @@ li[data-locked="1"] .g-name { color: var(--muted); }
 .tasrif-table th, .tasrif-table td { padding: 4px 8px; border-block-start: 1px solid var(--line); text-align: start; font-weight: 400; }
 .tasrif-table td { font-size: 1.2rem; }
 
-/* "Lapis en saffraan" (decisions 2026-11-26): on a lapis ground (the knowledge base's header, its hero, the handbooks on
-   the home page, the account and price panels, the madrasa cards, the current level) the accent is a lighter saffron
-   for text and marks (6.5:1), while buttons keep the saffron fill with white text (4.6:1). */
+/* "Turkoois en koper" (decisions 2026-11-26): on a turquoise ground (the knowledge base's header, its hero, the
+   handbooks on the home page, the account and price panels, the madrasa cards, the current level) the accent is a
+   lighter copper for text and marks (5.3:1), while buttons keep the copper fill with white text (5.2:1). */
 :root[data-area="kb"] .site-header,
 :is(.kb-hero, .kb-aside-dark, .account-panel, .price-hero, .price-plan-full, .madrasa-card, .sub-panel, .level-card[data-state="current"], .home-books) {
   --red: #ffb27a;
   --red-ink: #ffb27a;
-  --red-fill: #cc4a0a;
+  --red-fill: #c2410c;
   --on-red: #ffffff;
   --primary: #ffffff;
-  --on-primary: #143a63;
+  --on-primary: #0e4f55;
   --red-soft: rgb(255 255 255 / 0.18);
 }
-/* The second menu row of the knowledge base is light blue: its label and current tab keep the darker saffron. */
-:root[data-area="kb"] .study-nav { --red: #b93d0b; --red-ink: #b93d0b; }
+/* The second menu row of the knowledge base is pale turquoise: its label and current tab keep the darker copper. */
+:root[data-area="kb"] .study-nav { --red: #a8380a; --red-ink: #a8380a; }
 
-/* Light blue beside the lapis: the bands of the knowledge base (curricula, the way into the study portal) and the
-   masters beside the handbooks on the home page are light-blue panels with ink text and the saffron accent. */
+/* Pale turquoise beside the deep turquoise: the bands of the knowledge base (curricula, the way into the study portal)
+   and the masters beside the handbooks on the home page are pale panels with ink text and the copper accent. */
 :is(.kb-band, .kb-cta, .home-masters) {
   --header: var(--sky-soft);
   --header-ink: var(--ink);
