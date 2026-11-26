@@ -83,12 +83,14 @@ Read the document for an area before changing it, and correct it in the same com
 - Every example word or sentence in a lesson is fully vocalised, and every conjugated form shown comes from the
   engine or from a print, never typed by hand.
 
-## House style ("Oranje-wit")
+## House style ("Oranje en lichtblauw")
 
-Orange and white (since 2026-11-26): orange for structure and accent (the knowledge base's header and panels, the main
-buttons, the current item, kickers), white grounds, a warm near-black ink only for reading text; on an orange ground
-the accent turns white. True red only for wrong answers and errors (`--bad`). Tiles (rotated squares) mark steps. The
-study portal is in "Clear glass" (a light glass header that stays at the top, frosted glass cards and round buttons,
-the current level as an orange glass panel); the knowledge base and the other pages outside it keep the classic look
-(an orange header, square orange panels, plain cards), set by `data-area` on `<html>`. Photos of tiles, in colour,
-stand beside orange panels, never behind text. Details in `docs/knowledge-base.md`.
+Orange and light blue on white (since 2026-11-26): orange for structure and accent (the knowledge base's header and
+main panels, the main buttons, the current item, kickers), light blue for the soft surfaces (the bands, the masters on
+the home page, the second menu row, the ground of the study portal), white grounds and a deep blue-black ink for reading
+text; on an orange ground the accent turns white. True red only for wrong answers and errors (`--bad`). Arabic is set
+in Baloo Bhaijaan 2, rounded and playful (Naskh and Amiri stay as choices in the settings). Tiles (rotated squares)
+mark steps. The study portal is in "Clear glass" (a light glass header that stays at the top, frosted glass cards and
+round buttons, the current level as an orange glass panel); the knowledge base and the other pages outside it keep the
+classic look (an orange header, square panels, plain cards), set by `data-area` on `<html>`. Photos of Arabic
+inscriptions in colour stand beside the panels, never behind text. Details in `docs/knowledge-base.md`.

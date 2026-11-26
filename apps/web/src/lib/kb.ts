@@ -26,13 +26,13 @@ export const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X
 
 /** The sections besides the books, with their Arabic heading (always set in Kufi) and their photo. */
 export const KB_SECTIONS = {
-  nahw: { arabic: "عَنِ النَّحْوِ وَالصَّرْف", photo: "interlace-teal-orange" },
-  curricula: { arabic: "المَناهِج", photo: "zellij-interlace" },
-  books: { arabic: "المَكْتَبَة", photo: "painted-tiles-blue-ochre" },
-  scholars: { arabic: "الأَعْلام", photo: "painted-tiles-navy" },
-  news: { arabic: "الجَدِيد", photo: "cement-tiles-orange" },
-  glossary: { arabic: "مُعْجَمُ النَّحْوِ وَالصَّرْف", photo: "patterned-tiles-wall" },
-  study: { arabic: "ادْرُسْ دَرْسًا دَرْسًا", photo: "zellij-diamonds" },
+  nahw: { arabic: "عَنِ النَّحْوِ وَالصَّرْف", photo: "blue-mosaic-inscription" },
+  curricula: { arabic: "المَناهِج", photo: "shahada-over-door" },
+  books: { arabic: "المَكْتَبَة", photo: "painted-arch-panel" },
+  scholars: { arabic: "الأَعْلام", photo: "stone-inscription" },
+  news: { arabic: "الجَدِيد", photo: "gilded-wall-inscriptions" },
+  glossary: { arabic: "مُعْجَمُ النَّحْوِ وَالصَّرْف", photo: "stucco-medallion-blue" },
+  study: { arabic: "ادْرُسْ دَرْسًا دَرْسًا", photo: "tile-niche-inscription" },
 } as const;
 export type KbSection = keyof typeof KB_SECTIONS;
 

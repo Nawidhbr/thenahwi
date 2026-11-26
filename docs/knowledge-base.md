@@ -57,16 +57,23 @@ scholars list, the book catalogues) finds and marks words the same way, through 
 `mark.search-hl` (orange). Results whose match is not in the title show the piece of text where it occurs. A new search
 field uses the same helper.
 
-## House style: "Oranje-wit" (orange and white)
+## House style: "Oranje en lichtblauw" (orange and light blue)
 
-- Orange for structure and accent, white for the ground (decisions 2026-11-26): the knowledge base's header and
-  panels, the main buttons and the current item are orange (`--header`, `--primary`, `--red`: the old names are
-  kept, `--red` is now the orange accent); body text is a warm near-black ink (`--ink`), secondary text `--muted`.
-  Orange under white text (buttons, the current tile, the panels) uses `#cc4a0a` (`--red-fill`, `--header`), which
-  keeps 4.5:1; a brighter orange (`#e8590c`) only where no small text sits on it (the logo tile). On an orange ground
-  the accent turns white: buttons, tiles and current marks there are white with orange text (the last block of
-  `global.css`). True red is kept for wrong answers and errors only (`--bad`, `--bad-soft`). Locked items are greyed
-  with `--muted`, not with opacity. Tiles (rotated squares) mark steps.
+- Orange and light blue on white (decisions 2026-11-26). Orange for structure and accent: the knowledge base's header,
+  its hero and the handbooks panel, the account and price panels, the madrasa cards, the main buttons and the current
+  item (`--header`, `--primary`, `--red`: the old names are kept, `--red` is now the orange accent). Light blue for the
+  soft surfaces: the bands of the knowledge base (`.kb-band`, `.kb-cta`), the masters beside the handbooks on the home
+  page, the second menu row, chosen chips and the faint ground of the study portal (`--sky`, `--sky-soft`,
+  `--primary-soft`); on light blue the text is ink and the accent stays orange (the last block of `global.css`).
+  Reading text is a deep blue-black ink (`--ink`), secondary text `--muted`. Orange under white text uses `#cc4a0a`
+  (`--red-fill`, `--header`), which keeps 4.5:1; a brighter orange (`#e8590c`) only where no small text sits on it (the
+  logo tile). On an orange ground the accent turns white: buttons, tiles and current marks there are white with orange
+  text. Dark mode is deep blue (`#0c1520`) with the orange accent and deep-blue bands. True red is kept for wrong
+  answers and errors only (`--bad`, `--bad-soft`). Locked items are greyed with `--muted`, not with opacity. Tiles
+  (rotated squares) mark steps.
+- Arabic is set in Baloo Bhaijaan 2 (`--font-arabic`, and `--font-kufi` for the titles: the name is older than the
+  face), rounded and playful, with clear vowel marks; the settings menu of the study portal still offers Naskh and
+  Amiri.
 - Colours are CSS tokens in `apps/web/src/styles/global.css`, with light and dark values; never hard-code a colour.
 - Two looks, by area (`data-area` on `<html>`, set in `BaseLayout`): the study portal (`study`: `/study/`,
   `/complete/`, `/terms/`, `/text/`, `/practice/`) is in "Clear glass"; everything else (`kb`: the knowledge base,
@@ -89,14 +96,14 @@ field uses the same helper.
   tools. Encyclopedia (books, scholars, curricula) and About show their pages in a second row under it, like the
   study portal; on phones that row scrolls sideways.
 - The knowledge base uses the "Split" design: `components/KbHero.astro` (a photo beside an orange panel) and
-  `KbBand.astro`. Reading text in Literata; Arabic titles always in Kufi (`.kufi`, `--font-kufi`), whatever the
-  typeface setting.
-- Photos: eighteen photos of tiles in colour, chosen by the owner (zellij, painted and cement tiles, stone inlay;
-  Unsplash, `public/photos/`, listed with alt text and, for the record, the photographer and Unsplash page in
+  `KbBand.astro`. Reading text in Literata; Arabic titles always in the site's Arabic face (`.kufi`, `--font-kufi`),
+  whatever the typeface setting.
+- Photos: seventeen photos of Arabic inscriptions in colour, chosen by the owner (tile, stucco, paint, wood and
+  stone; Unsplash, `public/photos/`, listed with alt text and, for the record, the photographer and Unsplash page in
   `src/config/photos.ts`). None says where it was taken, so none has a `place` and no caption is shown. The home page
-  has the orange patchwork (`tiles-orange-patchwork`); each section, handbook and madrasa path has its own
-  (`KB_SECTIONS` in `lib/kb.ts`, `config/kb-books.json`, `curriculum.json`), and articles and scholars without one
-  get one of the eighteen by `photoFor`. They stand beside orange panels, never as a background behind text. After
+  has the painted arch with Allāh kāfī (`painted-arch-allah-kafi`, Sultan Ali); each section, handbook and madrasa
+  path has its own (`KB_SECTIONS` in `lib/kb.ts`, `config/kb-books.json`, `curriculum.json`), and articles and
+  scholars without one get one of the seventeen by `photoFor`. They stand beside orange panels, never as a background behind text. After
   adding a photo, put its 1600-wide WebP in `public/photos/`, run `apps/web/scripts/make-photos.cjs` (the smaller
   sizes) and `apps/web/scripts/make-og.cjs` (the share images).
 - The logo is a square-Kufic nūn (ن), its dot a square: white on an orange tile (`public/favicon.svg`, the PNGs in

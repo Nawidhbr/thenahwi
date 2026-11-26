@@ -31,17 +31,18 @@ const roles = ui.book.roles as Record<string, string>;
 const firstSentence = (x: string) => x.split(/(?<=[^\s.]{3}[.!?])\s(?=[A-Z\u00C0-\u024F"'‘“(])/)[0];
 const kinds = ui.kb.news.kinds as Record<string, string>;
 // A line of scholars through the centuries: the authors of the handbooks and their great forerunners.
-const timelineSlugs = ["aristotle", "porphyry", "farabi", "ibn-sina", "ghazali", "fakhr-al-din-razi", "khunaji", "abhari", "katibi", "qutb-al-din-razi", "taftazani", "jurjani", "sanusi", "akhdari", "muhibb-allah-bihari", "fadl-imam"];
+// The masters beside the handbooks: the grammarians of the knowledge base, by date of death.
+const timelineSlugs = ["sibawayh", "abd-al-qahir", "ibn-al-hajib", "zanjani", "ibn-malik", "radi", "ibn-ajurrum", "ibn-hisham", "ibn-aqil", "sharif-jurjani", "jami", "birgivi", "hamalawi"];
 const people = getBackground(locale).people;
 // The handbooks on the home page: the six of KB_BOOKS, by date of death.
 const homeBooks = [...KB_BOOKS].sort((a, b) => parseInt(a.died, 10) - parseInt(b.died, 10));
 const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filter((p) => p !== undefined).sort((a, b) => diedYear(a) - diedYear(b));
 ---
 
-<BaseLayout image="tiles-orange-patchwork" title={SITE.name} description={ui.kb.home.lead} path="/" locale={locale} bleed jsonLd={[organization(), website(locale)]}>
+<BaseLayout image="painted-arch-allah-kafi" title={SITE.name} description={ui.kb.home.lead} path="/" locale={locale} bleed jsonLd={[organization(), website(locale)]}>
   <link slot="head" rel="alternate" type="application/rss+xml" title={ui.kb.news.feedTitle} href={`/${locale}/news/feed.xml`} />
 
-  <KbHero locale={locale} photo="tiles-orange-patchwork" kicker={H.kicker} arabic="الصَّرْفُ وَالنَّحْوُ" title={H.title} sub={H.lead}>
+  <KbHero locale={locale} photo="painted-arch-allah-kafi" kicker={H.kicker} arabic="الصَّرْفُ وَالنَّحْوُ" title={H.title} sub={H.lead}>
     <form class="kb-search" role="search" data-kb-search>
       <label for="kb-q" class="visually-hidden">{H.search}</label>
       <input id="kb-q" type="search" placeholder={H.search} autocomplete="off" />
@@ -98,6 +99,8 @@ const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filt
   </section>
 
   <div class="kb-wrap">
+    {/* No news yet: the section waits until there is some (docs/news.md). */}
+    {newsCols.length > 0 && (
     <section class="kb-section home-news" aria-labelledby="latest-h">
       <div class="kb-head">
         <div><p class="kb-kicker">{H.latestKicker}</p><h2 id="latest-h">{H.newsTitle}</h2></div>
@@ -125,6 +128,7 @@ const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filt
       </div>
       <script is:inline src={homeNewsNewScript}></script>
     </section>
+    )}
 
     <KbBand id="curricula" photo={KB_SECTIONS.curricula.photo} kicker={H.curriculaKicker} title={H.curriculaTitle} arabic={KB_SECTIONS.curricula.arabic} href={kbPath.curricula(locale)} />
     <section class="kb-grid u-319c15">

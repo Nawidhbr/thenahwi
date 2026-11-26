@@ -1,6 +1,7 @@
 /**
- * The tile photos of the site, in colour (decisions 2026-11-26; public/photos/<slug>-<width>.webp and .avif). Chosen by
- * the owner; the photographers' names are taken from the Unsplash file names.
+ * The photos of the site, in colour: Arabic inscriptions in tile, stucco, paint, wood and stone (decisions 2026-11-26;
+ * public/photos/<slug>-<width>.webp and .avif). Chosen by the owner; the photographers' names are taken from the
+ * Unsplash file names.
  * All from Unsplash (Unsplash License: free to use; credit is appreciated, not required). The site shows no credit
  * (the owner's choice); `photographer` and `url` (the photo's Unsplash page) are kept here for the record.
  * `place` is only what the picture clearly shows; leave it out where unsure. Alt texts are in `alt`.
@@ -18,25 +19,24 @@ export interface Photo {
 }
 
 export const PHOTOS: Photo[] = [
-  // None shows where it was taken, so no photo has a place and no caption is shown.
-  { slug: "painted-tiles-blue-ochre", alt: "Painted tiles in blue and black on white, one at the centre with ochre leaves", shape: "landscape", photographer: "Ashkan Forouzani", url: "https://unsplash.com/photos/oVrkcrvAO3s" },
-  { slug: "zellij-stars", alt: "Zellij of cut glazed pieces in blue, brown, green, black and white, set in eight-pointed stars", shape: "landscape", photographer: "Bernd Dittrich", url: "https://unsplash.com/photos/KXy4bNsCUkw" },
-  { slug: "cement-tiles-orange", alt: "Orange and cream tiles with a dark blue interlace running through them", shape: "portrait", photographer: "Charles Robert", url: "https://unsplash.com/photos/9Qq0B17wGLE" },
-  { slug: "glazed-hexagons-green", alt: "Green glazed hexagonal tiles framed in amber, each with a flower in relief", shape: "landscape", photographer: "Eric Prouzet", url: "https://unsplash.com/photos/bRlCr6Dj0F4" },
-  { slug: "mosaic-floor-pink", alt: "A worn mosaic floor of white, pink and dark blue pieces in rosettes", shape: "landscape", photographer: "Francesca Pieleanu", url: "https://unsplash.com/photos/IwazwDz_wj0" },
-  { slug: "zellij-diamonds", alt: "Zellij of turquoise, green, yellow and amber pieces in a pattern of diamonds", shape: "landscape", photographer: "Haydn", url: "https://unsplash.com/photos/nh5HUs8aN6c" },
-  { slug: "star-rosette-tiles", alt: "Tiles patterned with star rosettes in blue, rust, green and black on white", shape: "landscape", photographer: "Haydn", url: "https://unsplash.com/photos/wHnqnas3jt4" },
-  { slug: "stone-inlay-star", alt: "Stone inlay: white marble bands, amber and grey stones and flowers around an eight-pointed star", shape: "landscape", photographer: "Jan Dommerholt", url: "https://unsplash.com/photos/YExkox2vFUA" },
-  { slug: "painted-tiles-navy", alt: "Dark blue tiles with white floral patterns", shape: "landscape", photographer: "Jonas Schone", url: "https://unsplash.com/photos/Y2uvkg3lll4" },
-  { slug: "patterned-tiles-wall", alt: "A wall of small patterned tiles in brown, blue-grey, black and cream", shape: "portrait", photographer: "Kelly Sikkema", url: "https://unsplash.com/photos/hLjGn1h9f2k" },
-  { slug: "stone-inlay-hexagons", alt: "Stone inlay of white marble with yellow and grey stones, six-pointed stars and flowers", shape: "landscape", photographer: "Koushik Chowdavarapu", url: "https://unsplash.com/photos/aWBPk_GBaCk" },
-  { slug: "painted-tiles-stars", alt: "Hand-painted tiles with white eight-pointed stars amid blue, yellow and lilac", shape: "portrait", photographer: "Lilit Barfyan", url: "https://unsplash.com/photos/-HUWRMysJw0" },
-  { slug: "zellij-interlace", alt: "Zellij of white interlacing bands with blue, amber, black and green stars", shape: "landscape", photographer: "Matthias Franze", url: "https://unsplash.com/photos/64Uh34dnCPI" },
-  { slug: "tiles-orange-patchwork", alt: "A wall of patterned tiles in orange, black, grey and cream", shape: "landscape", photographer: "Patrick Hendry", url: "https://unsplash.com/photos/hezNrE5QEa8" },
-  { slug: "tiles-orange-closeup", alt: "Patterned tiles in orange, black and cream, close up", shape: "landscape", photographer: "Patrick Hendry", url: "https://unsplash.com/photos/oaaRPhOz5Dg" },
-  { slug: "interlace-teal-orange", alt: "White interlacing bands outlined in orange on dark teal glazed tiles", shape: "landscape", photographer: "Raimond Klavins", url: "https://unsplash.com/photos/x8fj0smFXAE" },
-  { slug: "azulejos-blue-orange", alt: "Painted tiles in blue, orange and brown, each with its own pattern", shape: "landscape", photographer: "Richard Bell", url: "https://unsplash.com/photos/3FcuoXvkCUs" },
-  { slug: "zellij-curved", alt: "Zellij of curved pieces in blue, green, amber and black around six-pointed stars and hexagons", shape: "landscape", photographer: "Tom TVR", url: "https://unsplash.com/photos/Ym0ps0XqgPY" },
+  // None says where it was taken, so no photo has a place and no caption is shown.
+  { slug: "painted-arch-allah-kafi", alt: "A painted arch with Allāh kāfī in gold on blue, among floral panels in red, yellow and green", shape: "landscape", photographer: "Sultan Ali", url: "https://unsplash.com/photos/tKjP-y8LrCY" },
+  { slug: "zellij-star-inscription", alt: "Black interlacing zellij bands around an eight-pointed star tile inscribed wa-lā ghāliba illā Allāh", shape: "landscape", photographer: "Abdullah Habib", url: "https://unsplash.com/photos/-744gdjPhEY" },
+  { slug: "stucco-medallion-blue", alt: "A carved stucco medallion of Arabic verse on a blue ground, framed by star and leaf patterns", shape: "landscape", photographer: "Abdullah Habib", url: "https://unsplash.com/photos/IRt-IePyqiA" },
+  { slug: "tile-niche-inscription", alt: "A tiled niche with an Arabic inscription in blue on white, framed by bands of orange and blue tile mosaic", shape: "portrait", photographer: "Adeel Shabir", url: "https://unsplash.com/photos/P5rcqcz7bUc" },
+  { slug: "gilded-wall-inscriptions", alt: "A gilded wall with bands of Arabic inscriptions in blue and turquoise enamel", shape: "portrait", photographer: "Ahmed Al-Ghabban", url: "https://unsplash.com/photos/HSkRsB-wQTU" },
+  { slug: "painted-arches-red-blue", alt: "Painted arches and a cornice in red, blue and gold, with gilded Arabic inscriptions", shape: "portrait", photographer: "Ahmet Olcum", url: "https://unsplash.com/photos/GaSeKzaDP3c" },
+  { slug: "painted-chamber-gold-script", alt: "A painted wall of gold Arabic script on blue and red, above a green cloth embroidered with calligraphy", shape: "portrait", photographer: "Ahmet Olcum", url: "https://unsplash.com/photos/ZVTKsfjhZTY" },
+  { slug: "zellij-glazed-inscription", alt: "A band of glazed tile inscription between carved stucco and zellij in brown, blue, green and black", shape: "landscape", photographer: "Bernd Dittrich", url: "https://unsplash.com/photos/TMUwecUAv5E" },
+  { slug: "carved-stucco-stars", alt: "Carved stucco in warm clay: star patterns enclosing the name of God, beside a band of inscription", shape: "landscape", photographer: "Dani Zapater", url: "https://unsplash.com/photos/fG3pog5TQaU" },
+  { slug: "stucco-script-interlace", alt: "A carved stucco inscription over a frieze of stepped tiles and an interlace of glazed tile", shape: "landscape", photographer: "Eleni Afiontzi", url: "https://unsplash.com/photos/P29rJBbsync" },
+  { slug: "blue-mosaic-inscription", alt: "A blue tile-mosaic inscription in white under a pattern of stars and flowers", shape: "landscape", photographer: "Far Chinberdiev", url: "https://unsplash.com/photos/ctSqoBiO8HY" },
+  { slug: "stucco-script-zellij", alt: "A carved stucco inscription above green, black and amber tilework", shape: "portrait", photographer: "Jimmy Hu", url: "https://unsplash.com/photos/iRtZwbo5iRc" },
+  { slug: "shahada-over-door", alt: "The shahāda in gold above a doorway, in a room lined with blue and green tiles", shape: "landscape", photographer: "Le Mucky", url: "https://unsplash.com/photos/mlrvFH9VNZk" },
+  { slug: "tiled-portal-verse", alt: "A tiled portal with a Qurʾānic verse in white on blue, with pigeons on the ledge", shape: "landscape", photographer: "mhrezaa", url: "https://unsplash.com/photos/he4qjM1cJ_Y" },
+  { slug: "painted-arch-panel", alt: "A painted arched panel in a carved wooden frame, inscribed rabbi ishraḥ lī ṣadrī", shape: "portrait", photographer: "Mohammad O. Siddiqui", url: "https://unsplash.com/photos/q_TIfqetmZI" },
+  { slug: "stone-inscription", alt: "A carved stone inscription panel dated 1184", shape: "landscape", photographer: "Talal Elmountassir", url: "https://unsplash.com/photos/yjT5IQ__bpg" },
+  { slug: "painted-inscription-blue-gold", alt: "A painted inscription in white on blue, framed by gold star and leaf patterns", shape: "landscape", photographer: "Youssef Swelim", url: "https://unsplash.com/photos/qWWgh_jL1j4" },
 ];
 
 /** The widths every photo is made in (scripts/make-photos.cjs), each as WebP and AVIF; components/Photo.astro offers them. */
