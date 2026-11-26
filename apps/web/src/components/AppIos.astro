@@ -1,0 +1,27 @@
+---
+/**
+ * On every page: in the iPhone app (data-app="ios", set before paint by scripts/head-settings.js) load the app's
+ * extras (lib/app-ios.ts): links that open the app, shortcuts, notifications, a tap on each answer, the rating window
+ * and buying through Apple. Readers in a browser download nothing more than this check. The texts the native side
+ * shows (notifications, shortcuts) travel in data-vars.
+ */
+import { t } from "../i18n";
+
+interface Props { locale: string }
+const { locale } = Astro.props;
+const A = t(locale).app;
+const vars = {
+  locale,
+  texts: {
+    reminderTitle: A.notifyTitle, reminderBody: A.notifyBody, reminderDue: A.notifyDue, heartsTitle: A.heartsTitle, heartsBody: A.heartsBody,
+    shortcutContinue: A.shortcutContinue, shortcutTikrar: A.shortcutTikrar, shortcutGlossary: A.shortcutGlossary,
+  },
+};
+---
+
+<span hidden data-app-ios data-vars={JSON.stringify(vars)}></span>
+<script>
+  if (document.documentElement.dataset.app === "ios" && (window as unknown as { Capacitor?: unknown }).Capacitor) {
+    import("../lib/app-ios").then((m) => m.start()).catch((e) => (window as unknown as { __report?: (e: unknown, w: string) => void }).__report?.(e, "app-ios load"));
+  }
+</script>

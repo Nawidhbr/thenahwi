@@ -1,0 +1,26 @@
+---
+import CommentaryText from "../../../components/CommentaryText.astro";
+import PrimerText from "../../../components/PrimerText.astro";
+import { getCommentaries, primerIn, type Commentary, type Primer } from "@nahwi/content";
+import { LIVE_LOCALES } from "../../../i18n";
+import { primerHasText, primers } from "../../../lib/course";
+
+/**
+ * A book of the text library: a commentary or later text in Arabic blocks (CommentaryText), or the original of a
+ * primer course, al-Jurjānī's Persian Ṣughrā and Kubrā or the Sullam, transcribed from a public-domain print (PrimerText).
+ */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => [
+    ...getCommentaries().map((book) => ({ params: { locale, book: book.id }, props: { book } })),
+    ...primers().filter(primerHasText).map((primer) => ({ params: { locale, book: primer.id }, props: { primer: primerIn(primer, locale) } })),
+  ]);
+}
+interface Props {
+  book?: Commentary;
+  primer?: Primer;
+}
+const { locale } = Astro.params as { locale: string };
+const { book, primer } = Astro.props;
+---
+
+{book ? <CommentaryText book={book} locale={locale} /> : <PrimerText primer={primer!} locale={locale} />}

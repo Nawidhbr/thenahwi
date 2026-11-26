@@ -1,0 +1,67 @@
+---
+/**
+ * Questions and remarks under every lesson and term (inside .lockable, so a locked lesson shows none). Anyone reads
+ * the published messages; only a signed-in reader writes, with a name or as "a learner". Nothing appears before a
+ * moderator has read it (/en/moderate/). The messages are fetched only when the section comes near the screen, by
+ * scripts/lesson-comments.ts (the Supabase client is loaded only for a reader who is signed in). The database:
+ * supabase/migrations/20261121120000_comments.sql; how it works: docs/study.md.
+ */
+import { t } from "../i18n";
+
+interface Props {
+  locale: string;
+}
+const { locale } = Astro.props;
+const C = t(locale).comments;
+// The lesson without its language, so that a lesson has one conversation in every language: terms/jins, level-2/kati/3.
+const page = Astro.url.pathname.replace(/^\/[a-z]{2}\//, "").replace(/\/+$/, "");
+const ui = {
+  learner: C.learner, answer: C.answer, inLanguage: C.inLanguage, pending: C.pending, hiddenOwn: C.hiddenOwn,
+  remove: C.remove, removeSure: C.removeSure, empty: C.empty, loadFailed: C.loadFailed, sending: C.sending,
+  sent: C.sent, tooShort: C.tooShort, needName: C.needName, tooMany: C.tooMany, failed: C.failed, send: C.send,
+  count: C.count, countOne: C.countOne,
+};
+const [notePre, notePost] = C.note.split("{privacy}");
+---
+
+<section class="comments" data-comments data-page={page} data-locale={locale} data-ui={JSON.stringify(ui)} aria-labelledby="comments-title">
+  <div class="comments-head">
+    <p class="eyebrow comments-kicker">{C.kicker} <span class="comments-count" data-count></span></p>
+    <h2 id="comments-title">{C.title}</h2>
+    <p class="muted comments-lead">{C.lead}</p>
+  </div>
+
+  <p class="muted comments-status" data-list-status role="status">{C.loading}</p>
+  <ol class="comment-list" data-list></ol>
+
+  <div class="comments-out">
+    <p>{C.signinLead}</p>
+    <a class="btn btn-outline" href={`/${locale}/account/`} data-signin>{C.signin}</a>
+  </div>
+
+  <button type="button" class="btn btn-outline comments-write" data-write aria-controls="comments-form">{C.write}</button>
+  <form class="comments-form" id="comments-form" data-form novalidate>
+    <label class="field">
+      <span>{C.message}</span>
+      <textarea name="body" maxlength="2000" rows="4" placeholder={C.placeholder} required></textarea>
+    </label>
+    <div class="comments-who">
+      <label class="field comments-name">
+        <span>{C.name}</span>
+        <input name="name" maxlength="60" autocomplete="nickname" />
+        <small class="muted">{C.nameHint}</small>
+      </label>
+      <label class="check comments-anon"><input type="checkbox" name="anonymous" /> <span>{C.anonymous}</span></label>
+    </div>
+    <div class="comments-actions">
+      <button class="btn btn-red" type="submit" data-send>{C.send}</button>
+      <p class="comments-form-status" data-form-status role="status" aria-live="polite"></p>
+    </div>
+    <p class="muted comments-note">{notePre}<a href={`/${locale}/privacy/`}>{C.privacyLink}</a>{notePost}</p>
+  </form>
+</section>
+
+<script>
+  import { start } from "../scripts/lesson-comments";
+  start();
+</script>

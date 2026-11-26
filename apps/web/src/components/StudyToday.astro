@@ -1,0 +1,35 @@
+---
+/**
+ * The "Today" card at the top of the progress page (scripts/study-today.js), reached from the account menu: tests taken
+ * today against the reader's daily goal, the days in a row and the lessons due for review. Shown only once the reader
+ * has passed a lesson; everything stays in the browser (nahwi-days, nahwi-goal, nahwi-review). The study page
+ * and the lessons stay free of it, so that a lesson is only the lesson.
+ */
+import { t } from "../i18n";
+import studyTodayScript from "../scripts/study-today.js?url";
+
+interface Props {
+  locale: string;
+}
+const { locale } = Astro.props;
+const T = t(locale).today;
+---
+
+<section class="card study-today" data-today hidden aria-labelledby="today-title" data-tests={T.tests} data-done={T.done} data-streak={T.streak} data-due={T.due}>
+  <div class="study-today-main">
+    <p class="eyebrow" id="today-title">{T.title}</p>
+    <p class="study-today-tiles" aria-hidden="true" data-today-tiles></p>
+    <p class="study-today-count" data-today-count></p>
+    <p class="muted study-today-streak" data-today-streak></p>
+  </div>
+  <div class="study-today-side">
+    <p class="study-today-due" data-today-due hidden><span data-today-due-text></span> <span class="muted" aria-hidden="true">·</span> <a href={`/${locale}/practice/`}>{T.dueLink} →</a></p>
+    <label class="study-today-goal" title={T.note}>
+      <span>{T.goal}</span>
+      <select data-today-goal>
+        {[1, 2, 3, 5].map((n) => <option value={n}>{n}</option>)}
+      </select>
+    </label>
+  </div>
+</section>
+<script is:inline src={studyTodayScript}></script>

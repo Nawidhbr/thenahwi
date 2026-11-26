@@ -1,0 +1,20 @@
+---
+import HandbookPage from "../../../../components/HandbookPage.astro";
+import LibraryBookPage from "../../../../components/LibraryBookPage.astro";
+import { getLibrary, type LibraryBook } from "@nahwi/content";
+import { LIVE_LOCALES } from "../../../../i18n";
+import { KB_BOOKS, type KbBook } from "../../../../lib/kb";
+
+/** A book page: one of the six handbooks (full page with articles and catalogue), or a book of the library (short page). */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => [
+    ...KB_BOOKS.map((book) => ({ params: { locale, book: book.id }, props: { book } })),
+    ...getLibrary().map((entry) => ({ params: { locale, book: entry.id }, props: { entry } })),
+  ]);
+}
+interface Props { book?: KbBook; entry?: LibraryBook }
+const { locale } = Astro.params as { locale: string };
+const { book, entry } = Astro.props;
+---
+
+{book ? <HandbookPage locale={locale} book={book} /> : entry && <LibraryBookPage locale={locale} entry={entry} />}

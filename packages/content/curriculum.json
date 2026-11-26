@@ -1,0 +1,115 @@
+{
+  "note": "The madrasa paths of the study portal: each path lists its levels; a level names the books read on it, by id (\"mabadi\" = al-Mabādiʾ, the free first book, term by term; a primer of primers/; or a book of commentaries/), in reading order, or a book still in preparation (\"soon\", its name in madrasa.soon of the UI dictionaries). A level opens when every book of the level before it in the same path is passed; inside a level, each book opens after the one before it. A book shared by two paths counts in both.",
+  "paths": [
+    {
+      "id": "indian",
+      "traditions": [
+        "farangi-mahall",
+        "deobandi",
+        "barelwi",
+        "khayrabadi"
+      ],
+      "photo": "delhi-jali-window",
+      "levels": [
+        {
+          "n": 1,
+          "books": [
+            "mabadi"
+          ]
+        },
+        {
+          "n": 2,
+          "soon": "mizan"
+        },
+        {
+          "n": 3,
+          "soon": "nahw-mir"
+        },
+        {
+          "n": 4,
+          "soon": "hidaya"
+        },
+        {
+          "n": 5,
+          "soon": "jami"
+        },
+        {
+          "n": 6,
+          "soon": "shafiya"
+        }
+      ]
+    },
+    {
+      "id": "ottoman",
+      "traditions": [
+        "istanbul",
+        "balkans",
+        "shami",
+        "kurdish"
+      ],
+      "photo": "istanbul-sultan-ahmed",
+      "levels": [
+        {
+          "n": 1,
+          "books": [
+            "mabadi"
+          ]
+        },
+        {
+          "n": 2,
+          "soon": "amthila"
+        },
+        {
+          "n": 3,
+          "soon": "izzi"
+        },
+        {
+          "n": 4,
+          "soon": "marah"
+        },
+        {
+          "n": 5,
+          "soon": "awamil"
+        },
+        {
+          "n": 6,
+          "soon": "molla-cami"
+        }
+      ]
+    },
+    {
+      "id": "north-african",
+      "traditions": [
+        "azhari",
+        "qarawiyyin",
+        "zaytuna",
+        "shinqiti"
+      ],
+      "photo": "marrakesh-madrasa",
+      "levels": [
+        {
+          "n": 1,
+          "books": [
+            "mabadi"
+          ]
+        },
+        {
+          "n": 2,
+          "soon": "ajurrumiyya"
+        },
+        {
+          "n": 3,
+          "soon": "izzi-lamiyya"
+        },
+        {
+          "n": 4,
+          "soon": "qatr"
+        },
+        {
+          "n": 5,
+          "soon": "alfiyya"
+        }
+      ]
+    }
+  ]
+}

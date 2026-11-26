@@ -1,0 +1,240 @@
+---
+import AccessNote from "../../../components/AccessNote.astro";
+import { previewsOfBook } from "../../../config/previews";
+import ReviewBadge from "../../../components/ReviewBadge.astro";
+import LessonHelp from "../../../components/LessonHelp.astro";
+import LessonComments from "../../../components/LessonComments.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { CHAPTER_PART, getBackground, type Term } from "@nahwi/content";
+import { kbPath } from "../../../lib/kb";
+import { LIVE_LOCALES, fmt, t } from "../../../i18n";
+import { chapterTitle, localMatn, localTerms } from "../../../lib/localize";
+import { breadcrumbs, definedTerm, paywalledLesson, PAYWALL } from "../../../lib/structured-data";
+import { initialLetter } from "../../../lib/arabic";
+import { practiceSets } from "../../../lib/practice";
+import Diagram from "../../../components/Diagram.astro";
+import { gloss } from "../../../lib/gloss";
+import { nextStep } from "../../../lib/course";
+import TermQuiz from "../../../components/TermQuiz.astro";
+import { getQuiz } from "@nahwi/content";
+
+import termLockScript from "../../../scripts/term-lock.js?url";
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => {
+    const terms = localTerms(locale);
+    // "Next" follows the study path: the first reading in book order, then the terms from the commentaries.
+    return terms.map((term) => {
+      const after = nextStep(term.slug);
+      return { params: { locale, slug: term.slug }, props: { term, all: terms, next: terms.find((t) => t.slug === after) } };
+    });
+  });
+}
+
+interface Props {
+  term: Term;
+  all: Term[];
+  next?: Term;
+}
+
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const { term, all, next } = Astro.props;
+const related = term.related.map((s) => all.find((t) => t.slug === s)).filter((t): t is Term => Boolean(t));
+const chapter = chapterTitle(locale, term.chapter);
+const part = { english: ui.parts[CHAPTER_PART[term.chapter]].title };
+const inText = localMatn(locale).sections.flatMap((s) => s.segments).filter((seg) => seg.terms.includes(term.slug));
+// A part that holds one chapter (the introduction, the five arts) is named by that chapter alone.
+const singleChapterPart = new Set(all.filter((t) => CHAPTER_PART[t.chapter] === CHAPTER_PART[term.chapter]).map((t) => t.chapter)).size === 1;
+const inChapter = all.filter((t) => t.chapter === term.chapter);
+const path = `/terms/${term.slug}/`;
+// The last term of a part leads to a page that closes the part, instead of straight into the next one.
+const partEnds = !next || CHAPTER_PART[next.chapter] !== CHAPTER_PART[term.chapter];
+const practice = practiceSets(locale).find((s) => s.chapter === term.chapter);
+const quiz = getQuiz(term.slug, locale);
+// Lower-casing a title mid-sentence only makes sense in languages that capitalise titles.
+const lower = (s: string) => (["en", "nl"].includes(locale) ? s.toLowerCase() : s);
+const practiceHere = practice?.items.filter((i) => i.terms.includes(term.slug)) ?? [];
+// The free entry of the glossary on the same concept, open to everyone (also when this lesson is locked).
+const glossaryEntry = getBackground(locale).concepts.find((c) => c.term === term.slug);
+---
+
+<BaseLayout
+  title={`${term.english} (${term.transliteration})`}
+  description={term.definition.length < 90 ? `${term.definition} ${ui.term.metaMore}` : term.definition}
+  path={path}
+  locale={locale}
+  noindex
+  jsonLd={[
+    ...paywalledLesson(locale, path, term.english, PAYWALL),
+    definedTerm(term, locale),
+    breadcrumbs([
+      { name: ui.nav.home, path: `/${locale}/` },
+      { name: term.english, path: `/${locale}${path}` },
+    ]),
+  ]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/study/mabadi/#part-${CHAPTER_PART[term.chapter]}`}>{singleChapterPart ? chapter.english : part.english}</a> / {term.english}</p>
+
+  <div data-visit={term.slug} hidden></div>
+
+  {glossaryEntry && <p class="muted term-glossary"><a href={kbPath.glossary(locale, glossaryEntry.slug)}>{fmt(ui.term.inGlossary, { name: glossaryEntry.name })}</a></p>}
+
+  <AccessNote locale={locale} book={"mabadi"} title={(locale === "ar" ? term.arabic : term.english)} previewsHref={previewsOfBook("mabadi")[0]?.href(locale)} />
+
+  <section class="card lock-note" data-lock-note>
+    <p class="eyebrow"><span class="lock-glyph" aria-hidden="true"></span>{ui.lock.title}</p>
+    <p class="lock-title" role="heading" aria-level="1">{locale === "ar" ? <span class="ar" lang="ar">{term.arabic}</span> : <>{term.english} <span class="ar" lang="ar">{term.arabic}</span></>}</p>
+    {term.level === 2 && (
+      <p>
+        {ui.lock.commentary}
+        {term.commentaries.length > 0 && <> {fmt(ui.lock.sources, { list: term.commentaries.join(", ") })}</>}
+      </p>
+    )}
+    <p data-lock-text={ui.lock.termBody}></p>
+    <a class="btn btn-red" data-lock-go data-label={ui.lock.cta} href={`/${locale}/`}>{ui.nav.home}</a>
+  </section>
+
+  <div class="lockable">
+  <section class="card card-current">
+    <p class="eyebrow">{[singleChapterPart ? null : part.english, chapter.english, fmt(ui.term.nOfM, { n: term.order, m: inChapter.length })].filter(Boolean).join(" · ")}</p>
+    <div class="term-hero">
+      <span class="tile-wrap" aria-hidden="true">
+        <span class="tile tile-current"><span lang="ar">{initialLetter(term.arabic)}</span></span>
+      </span>
+      {locale === "ar" ? (
+        <>
+          <div class="titles"><p class="translit tr">{term.transliteration}</p></div>
+          <h1 class="ar" lang="ar">{term.arabic}</h1>
+        </>
+      ) : (
+        <>
+          <div class="titles">
+            <h1>{term.english}</h1>
+            <p class="translit tr">{term.transliteration}</p>
+          </div>
+          <p class="ar" lang="ar">{term.arabic}</p>
+        </>
+      )}
+    </div>
+    <p class="definition" set:html={gloss(term.definition, locale)} />
+    <div class="badges">
+      {term.level === 2 && <span class="badge badge-level">{ui.term.secondReading}</span>}
+      {term.source === "commentaries" && <span class="badge badge-source">{ui.term.fromCommentaries}</span>}
+      <ReviewBadge review={term.review} locale={locale} class="badge" />
+    </div>
+  </section>
+
+  {
+    term.diagram && (
+      <section class="card">
+        <h2>{ui.term.inAPicture}</h2>
+        <Diagram type={term.diagram.type} focus={term.diagram.focus} locale={locale} />
+      </section>
+    )
+  }
+
+  <section class="card">
+    <h2>{ui.term.explanation}</h2>
+    {term.explanation.map((p) => <p set:html={gloss(p, locale)} />)}
+    {term.alsoKnownAs.length > 0 && <p class="muted">{fmt(ui.term.alsoWritten, { list: term.alsoKnownAs.join(", ") })}</p>}
+  </section>
+
+  {
+    inText.length > 0 && (
+      <section class="card">
+        <h2>{ui.term.inTheText}</h2>
+        {inText.map((seg) => (
+          <a class="text-ref" href={`/${locale}/text/mabadi/#s${seg.id}`}>
+            <span class="ar" lang="ar">
+              {seg.arabic}
+            </span>
+            {seg.english && <span class="muted">{seg.english}</span>}
+          </a>
+        ))}
+      </section>
+    )
+  }
+
+  {
+    term.examples.length > 0 && (
+      <section class="card">
+        <h2>{ui.term.examples}</h2>
+        <ul class="examples">
+          {term.examples.map((ex) => (
+            <li>
+              {ex.arabic && (
+                <span class="ar" lang="ar">
+                  {ex.arabic}
+                </span>
+              )}
+              {ex.english}
+              {ex.note && <span class="muted"> (<Fragment set:html={gloss(ex.note, locale)} />)</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    related.length > 0 && (
+      <section class="card">
+        <h2>{ui.term.related}</h2>
+        <ul class="chips">
+          {related.map((r) => (
+            <li>
+              <a href={`/${locale}/terms/${r.slug}/`}>{r.english}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    practice && (
+      <section class="card">
+        <h2>{ui.term.practise}</h2>
+        <p class="u-66a623">
+          {practiceHere.length > 0
+            ? fmt(ui.term.practiseThis, { n: practiceHere.length, chapter: lower(chapter.english) })
+            : fmt(ui.term.practiseChapter, { chapter: lower(chapter.english) })}
+        </p>
+        <a class="chapter-practice" href={`/${locale}/practice/?c=${term.chapter}`}>
+          {fmt(ui.term.goToPractice, { n: practice.items.length })}
+        </a>
+      </section>
+    )
+  }
+
+  {quiz && <TermQuiz quiz={quiz} slug={term.slug} locale={locale} />}
+
+  {
+    partEnds && (
+      <section class="card next" data-gated>
+        <p class="u-m0">
+          <strong>{fmt(ui.term.endOf, { name: lower(singleChapterPart ? chapter.english : part.english) })}</strong> {next ? ui.term.takeStock : ui.term.lastTerm}
+        </p>
+        <a class="btn btn-red" href={`/${locale}/complete/${CHAPTER_PART[term.chapter]}/`}>{singleChapterPart ? fmt(ui.term.finish, { name: lower(chapter.english) }) : ui.term.finishPart}</a>
+      </section>
+    )
+  }
+
+  {
+    !partEnds && next && (
+      <section class="card next" data-gated>
+        <p class="u-m0">
+          <strong>{ui.term.next}</strong> {next.english}{" "}
+          <span class="ar u-red" lang="ar">
+            {next.arabic}
+          </span>
+        </p>
+        <a class="btn btn-red" href={`/${locale}/terms/${next.slug}/`}>{ui.term.continue}</a>
+      </section>
+    )
+  }
+  <LessonComments locale={locale} />
+  <LessonHelp locale={locale} />
+  </div>
+  <script is:inline src={termLockScript}></script>
+</BaseLayout>

@@ -1,0 +1,28 @@
+{
+  "name": "@nahwi/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "npm run validate -w @nahwi/content",
+    "dev": "astro dev",
+    "prebuild": "npm run validate -w @nahwi/content",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "@fontsource/amiri": "^5.3.0",
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/literata": "^5.3.0",
+    "@fontsource/noto-kufi-arabic": "^5.3.0",
+    "@fontsource/noto-naskh-arabic": "^5.3.0",
+    "@fontsource/noto-sans": "^5.3.0",
+    "@nahwi/content": "*",
+    "@nahwi/engine": "*",
+    "@supabase/supabase-js": "2.118.0",
+    "astro": "^7.4.0"
+  }
+}

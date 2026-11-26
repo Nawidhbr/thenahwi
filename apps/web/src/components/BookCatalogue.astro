@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCatalogue, type CatalogueEntry } from "@nahwi/content";
+import { fmt, t } from "../i18n";
+import KbHero from "./KbHero.astro";
+import { kbBook, kbPath } from "../lib/kb";
+import { breadcrumbs } from "../lib/structured-data";
+
+import catalogueFilterScript from "../scripts/catalogue-filter.js?url";
+/** The catalogue of every known work on one book, as a tree with filters. */
+interface Props {
+  locale: string;
+  book: string;
+}
+const { locale, book } = Astro.props;
+const ui = t(locale);
+const B = ui.book;
+const C = ui.catalogue;
+const meta = kbBook(book)!;
+const base = kbPath.book(locale, book);
+const bookTitle = meta.title;
+// Al-Mabādiʾ's own lead in the dictionary; the other books share the general one.
+const lead = book === "mabadi" ? C.lead : ui.kb.books.catalogueLead;
+const all = getCatalogue(book);
+// Language names in the reader's language (Ottoman Turkish and the like fall back to the code).
+const langName = (code: string) => {
+  try { return new Intl.DisplayNames([locale], { type: "language" }).of(code) ?? code; } catch { return code; }
+};
+// Sort year (CE). "834/1431" gives 1431; a lone hijri year ("after 1000", "1176 H") is converted approximately; a year marked CE/AD is taken as is.
+const year = (e: CatalogueEntry) => {
+  const d = e.died ?? "";
+  const ce = d.match(/\/\s*(\d{3,4})/) ?? d.match(/(\d{3,4})\s*(?:CE|AD)\b/i);
+  if (ce) return Number(ce[1]);
+  const h = d.match(/(\d{3,4})/);
+  if (!h) return 99999;
+  const n = Number(h[1]);
+  // No hijri year is above 1450 yet, so a larger lone year is CE ("1632", "1971").
+  return n >= 1450 && !/\b(AH|H)\b/.test(d) ? n : Math.round(n * 0.97 + 622);
+};
+// The tree: works on the matn, and under each the works written on it, recursively.
+const childrenOf = (on: string) => all.filter((e) => e.on === on).sort((a, b) => year(a) - year(b) || a.title.localeCompare(b.title));
+const unplaced = all.filter((e) => e.on !== book && !all.some((x) => x.id === e.on));
+const kinds = [...new Set(all.map((e) => e.kind))];
+const regions = [...new Set(all.map((e) => e.region))].sort();
+const languages = [...new Set(all.map((e) => e.language))].sort();
+const statuses = [...new Set(all.map((e) => e.status))];
+const label = (group: Record<string, string>, key: string) => group[key] ?? key;
+const esc = (x: string) => x.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+function renderEntry(e: CatalogueEntry, depth: number): string {
+  const kids = depth < 6 ? childrenOf(e.id) : [];
+  const who = e.person ? `<a href="/${locale}/scholars/${e.person}/">${esc(e.author)}</a>` : esc(e.author);
+  return `<li class="cat-item" data-kind="${e.kind}" data-region="${esc(e.region)}" data-language="${esc(e.language)}" data-status="${e.status}">
+    <span class="tree-kind">${esc(label(B.kinds, e.kind))}</span>
+    <strong>${esc(e.title)}</strong>${e.arabic ? ` <span class="ar" lang="ar">${esc(e.arabic)}</span>` : ""}
+    <span class="cat-by"> — ${who}${e.authorArabic ? ` <span class="ar" lang="ar">${esc(e.authorArabic)}</span>` : ""}${e.died ? ` <span class="muted">(${esc(e.died)})</span>` : ""}</span>
+    <span class="cat-tags"><span>${esc(label(C.regions, e.region))}</span><span>${esc(langName(e.language))}</span><span class="cat-status-${e.status}">${esc(label(C.statuses, e.status))}</span></span>
+    <details class="cat-more"><summary>${esc(C.more)}</summary>
+      ${e.note ? `<p>${esc(e.note)}</p>` : ""}
+      ${e.editions.length ? `<p><strong>${esc(C.editions)}</strong></p><ul>${e.editions.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      <p><strong>${esc(B.sources)}</strong></p><ul>${e.sources.map((x) => `<li><a href="${esc(x.url)}" rel="noopener" target="_blank">${esc(x.title)}</a></li>`).join("")}</ul>
+    </details>
+    ${kids.length ? `<ul>${kids.map((k) => renderEntry(k, depth + 1)).join("")}</ul>` : ""}
+  </li>`.replace(/\n\s+/g, " ");
+}
+---
+
+<BaseLayout image={meta.photo} title={`${C.title}: ${meta.title}`} description={`${bookTitle}: ${lead}`} path={`${base.slice(locale.length + 1)}catalogue/`} locale={locale} bleed jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: bookTitle, path: base }, { name: C.title, path: `${base}catalogue/` }])]}>
+  <KbHero locale={locale} photo={meta.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: ui.kb.books.title, href: kbPath.books(locale) }, { label: bookTitle, href: base }]} kicker={C.title} arabic={meta.arabic} title={meta.title} sub={lead} />
+  <div class="kb-wrap u-f28e1e">
+
+  {all.length === 0 ? (
+    <section class="card"><p class="u-m0">{B.preparing}</p></section>
+  ) : (
+    <>
+      <form class="card cat-filters">
+        <label><span>{C.search}</span><input type="search" data-q /></label>
+        <label><span>{C.kind}</span><select data-f="kind"><option value="">{C.all}</option>{kinds.map((k) => <option value={k}>{label(B.kinds, k)}</option>)}</select></label>
+        <label><span>{C.region}</span><select data-f="region"><option value="">{C.all}</option>{regions.map((r) => <option value={r}>{label(C.regions, r)}</option>)}</select></label>
+        <label><span>{C.language}</span><select data-f="language"><option value="">{C.all}</option>{languages.map((l) => <option value={l}>{langName(l)}</option>)}</select></label>
+        <label><span>{C.status}</span><select data-f="status"><option value="">{C.all}</option>{statuses.map((s) => <option value={s}>{label(C.statuses, s)}</option>)}</select></label>
+        <p class="muted cat-count" data-count={C.count} data-count-one={C.countOne}>{all.length === 1 ? C.countOne : fmt(C.count, { n: all.length })}</p>
+      </form>
+
+      <div class="card book-tree">
+        <div class="tree-root">
+          <span class="tile tile-filled" aria-hidden="true"><span>م</span></span>
+          <strong>{meta.title}</strong> <span class="ar" lang="ar">{meta.arabic}</span> <span class="muted">— {meta.author}</span>
+        </div>
+        <ul class="tree cat-tree">
+          {childrenOf(book).map((e) => <Fragment set:html={renderEntry(e, 0)} />)}
+        </ul>
+        {unplaced.length > 0 && (
+          <>
+            <h2 class="eyebrow cat-other">{C.unplaced}</h2>
+            <ul class="tree cat-tree">{unplaced.map((e) => <Fragment set:html={renderEntry(e, 0)} />)}</ul>
+          </>
+        )}
+      </div>
+    </>
+  )}
+  </div>
+  <script is:inline src={catalogueFilterScript}></script>
+</BaseLayout>

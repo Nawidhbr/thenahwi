@@ -1,0 +1,45 @@
+{
+  "slug": "bina",
+  "subject": "nahw",
+  "chapter": "irab",
+  "order": 2,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "البِنَاءُ",
+  "transliteration": "al-bināʾ",
+  "english": "Fixed ending (bināʾ)",
+  "alsoKnownAs": [
+    "bina",
+    "bināʾ",
+    "mabni",
+    "mabnī",
+    "indeclinable"
+  ],
+  "definition": "The state of a word whose ending stays the same whatever governs it; such a word is mabnī.",
+  "explanation": [
+    "هٰذَا (this) stays هٰذَا in every place: جَاءَ هٰذَا، رَأَيْتُ هٰذَا، مَرَرْتُ بِهٰذَا. All particles are mabnī, as are the past tense and the imperative, and some nouns, such as the pronouns and the demonstratives.",
+    "When a mabnī word stands where a muʿrab word would change, the grammarian says it is in the place of rafʿ, naṣb or khafḍ (fī maḥall…), since its role is clear even though its ending does not show it."
+  ],
+  "examples": [
+    {
+      "arabic": "هٰذَا",
+      "english": "hādhā, this: mabnī on sukūn."
+    },
+    {
+      "arabic": "نَصَرَ",
+      "english": "naṣara: the past tense is mabnī on fatḥa."
+    }
+  ],
+  "related": [
+    "irab",
+    "madi"
+  ],
+  "diagram": {
+    "type": "irab",
+    "focus": "bina"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

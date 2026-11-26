@@ -1,0 +1,23 @@
+---
+/**
+ * At the end of every lesson and term: a question about it, or a mistake in it, goes to the contact form with the
+ * subject and the page filled in (scripts/contact.js reads #topic= and page=; a
+ * fragment, so Google sees one contact page and not a copy for every lesson).
+ */
+import { t } from "../i18n";
+import { SITE_URL } from "../config/site";
+
+interface Props {
+  locale: string;
+}
+const { locale } = Astro.props;
+const H = t(locale).help;
+const page = encodeURIComponent(`${SITE_URL}${Astro.url.pathname}`);
+---
+
+<p class="lesson-help">
+  <span class="muted">{H.lead}</span>
+  <a href={`/${locale}/contact/#topic=question&page=${page}`}>{H.ask}</a>
+  <span class="muted" aria-hidden="true">·</span>
+  <a href={`/${locale}/contact/#topic=correction&page=${page}`}>{H.mistake}</a>
+</p>

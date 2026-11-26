@@ -1,0 +1,52 @@
+{
+  "term": "mutall",
+  "items": [
+    {
+      "id": "mutall-1",
+      "prompt": "Where is the weak letter in qāla (root q-w-l)?",
+      "options": [
+        "In the middle: an ajwaf verb",
+        "At the start: a mithāl verb",
+        "At the end: a nāqiṣ verb",
+        "There is none"
+      ],
+      "answer": 0,
+      "explanation": "The wāw is the second root letter, so qāla is ajwaf.",
+      "terms": [
+        "mutall"
+      ]
+    },
+    {
+      "id": "mutall-2",
+      "prompt": "What happens to the wāw of this verb in the present tense?",
+      "arabic": "وَعَدَ – يَعِدُ",
+      "options": [
+        "It drops: yaʿidu",
+        "It becomes a yāʾ",
+        "It stays: yawʿidu",
+        "It becomes an alif"
+      ],
+      "answer": 0,
+      "explanation": "In the mithāl of the pattern faʿala yafʿilu, the wāw drops in the present: yaʿidu.",
+      "terms": [
+        "mutall"
+      ]
+    },
+    {
+      "id": "mutall-3",
+      "prompt": "What is this verb called?",
+      "arabic": "رَمَى",
+      "options": [
+        "nāqiṣ: weak in the last letter",
+        "ajwaf: weak in the middle",
+        "mithāl: weak in the first letter",
+        "sālim"
+      ],
+      "answer": 0,
+      "explanation": "Ramā comes from r-m-y: the weak letter is the third.",
+      "terms": [
+        "mutall"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+---
+import PrimerLesson from "../../../../components/study/PrimerLesson.astro";
+import TrackLesson from "../../../../components/study/TrackLesson.astro";
+import { primerIn } from "@nahwi/content";
+import { LIVE_LOCALES } from "../../../../i18n";
+import { primers, primerLessons, tracks } from "../../../../lib/course";
+
+/** One lesson of a book of the study portal (/<locale>/study/<book>/<n>/): a primer lesson or a lesson with its commentary. Score key <book>-<n>. */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => [
+    ...primers().map((p) => primerIn(p, locale)).flatMap((p) => primerLessons(p).map((l, i) => ({ params: { locale, book: p.id, lesson: String(l.n) }, props: { kind: "primer" as const, p, i } }))),
+    ...tracks().flatMap((x) => x.lessons.map((l, i) => ({ params: { locale, book: x.book.id, lesson: String(l.n) }, props: { kind: "track" as const, x, i } }))),
+  ]);
+}
+const { locale } = Astro.params as { locale: string };
+const props = Astro.props as any;
+---
+
+{props.kind === "primer" ? <PrimerLesson locale={locale} p={props.p} i={props.i} /> : <TrackLesson locale={locale} x={props.x} i={props.i} />}

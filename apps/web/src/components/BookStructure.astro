@@ -1,0 +1,101 @@
+---
+import ChapterPath from "./ChapterPath.astro";
+import type { PartGroup } from "../lib/structure";
+import { practiceSets } from "../lib/practice";
+import { fmt, t } from "../i18n";
+
+import bookStructureScript from "../scripts/book-structure.js?url";
+interface Props {
+  parts: PartGroup[];
+  locale: string;
+}
+
+const { parts, locale } = Astro.props;
+const ui = t(locale);
+const practice = new Map(practiceSets(locale).map((s) => [s.chapter, s.items.length]));
+---
+
+{
+  parts.map((part) => (
+    <section class="part" id={`part-${part.key}`} data-part={part.key} aria-labelledby={`part-title-${part.key}`}>
+      <header class="part-head">
+        <span class="tile-wrap" aria-hidden="true">
+          <span class="tile tile-filled">
+            <span>{part.tile}</span>
+          </span>
+        </span>
+        <div class="part-titles">
+          <h2 id={`part-title-${part.key}`}>
+            {part.title.english} <span class="part-translit tr">({part.title.transliteration})</span>
+          </h2>
+          <button
+            type="button"
+            class="info-tile"
+            popovertarget={`about-${part.key}`}
+            aria-label={fmt(ui.structure.about, { name: part.title.english })}
+          >
+            <span aria-hidden="true">i</span>
+          </button>
+        </div>
+        <div class="info-pop" id={`about-${part.key}`} popover>
+          <p class="eyebrow">{part.numeral ? fmt(ui.structure.part, { n: part.numeral }) : part.title.english}</p>
+          <p class="info-pop-title">
+            {part.title.english} <span class="ar" lang="ar">{part.title.arabic}</span>
+          </p>
+          <p>{part.title.summary}</p>
+          <button type="button" class="btn btn-outline" popovertarget={`about-${part.key}`} popovertargetaction="hide">{ui.structure.close}</button>
+        </div>
+        <span class="ar part-ar" lang="ar">
+          {part.title.arabic}
+        </span>
+        <span class="part-progress muted" data-part-progress hidden></span>
+        <button
+          type="button"
+          class="part-toggle"
+          aria-expanded="true"
+          aria-controls={`part-body-${part.key}`}
+          aria-label={fmt(ui.structure.toggle, { name: part.title.english })}
+        >
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+        </button>
+      </header>
+      <div class="part-body" id={`part-body-${part.key}`}>
+      {part.chapters.map((c) => (
+        <section class="card chapter" data-chapter={part.chapters.length > 1 ? c.key : undefined}>
+          {part.chapters.length > 1 && (
+            <div class="chapter-head">
+              <h3>
+                <span class="muted">{fmt(ui.structure.chapter, { n: c.number })} · </span>
+                {c.title.english}
+              </h3>
+              <span class="ar" lang="ar">
+                {c.title.arabic}
+              </span>
+              <span class="part-progress muted" data-chapter-progress hidden></span>
+              <button
+                type="button"
+                class="part-toggle chapter-toggle"
+                aria-expanded="true"
+                aria-controls={`chapter-body-${c.key}`}
+                aria-label={fmt(ui.structure.toggle, { name: c.title.english })}
+              >
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+              </button>
+            </div>
+          )}
+          <div class="chapter-body" id={`chapter-body-${c.key}`}>
+          <ChapterPath terms={c.terms} locale={locale} />
+          {practice.has(c.key) && (
+            <a class="chapter-practice" href={`/${locale}/practice/?c=${c.key}`}>
+              {fmt(ui.structure.practise, { chapter: locale === "en" ? c.title.english.toLowerCase() : c.title.english, n: practice.get(c.key) ?? 0 })}
+            </a>
+          )}
+          </div>
+        </section>
+      ))}
+      </div>
+    </section>
+  ))
+}
+
+<script is:inline src={bookStructureScript}></script>

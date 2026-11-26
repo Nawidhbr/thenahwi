@@ -1,0 +1,51 @@
+{
+  "term": "kalima",
+  "items": [
+    {
+      "id": "kalima-1",
+      "prompt": "Into how many kinds do the grammarians divide every word?",
+      "options": [
+        "Three: noun, verb and particle",
+        "Two: noun and verb",
+        "Four: noun, verb, particle and pronoun",
+        "Five, one for each vowel"
+      ],
+      "answer": 0,
+      "explanation": "Noun, verb and particle: the books say nothing falls outside these three.",
+      "terms": [
+        "kalima"
+      ]
+    },
+    {
+      "id": "kalima-2",
+      "prompt": "What is a kalima?",
+      "options": [
+        "A single utterance made for a single meaning",
+        "A complete statement with a full meaning",
+        "Any letter of the alphabet",
+        "A sentence with a verb and a doer"
+      ],
+      "answer": 0,
+      "explanation": "A kalima is one word with one meaning; a complete statement is kalām.",
+      "terms": [
+        "kalima"
+      ]
+    },
+    {
+      "id": "kalima-3",
+      "prompt": "Which of these words is a particle (ḥarf)?",
+      "arabic": "رَجُلٌ – ذَهَبَ – فِي",
+      "options": [
+        "fī (in)",
+        "rajulun (a man)",
+        "dhahaba (he went)",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "Fī only shows its meaning with another word, as in fī l-bayti: that makes it a particle.",
+      "terms": [
+        "kalima"
+      ]
+    }
+  ]
+}

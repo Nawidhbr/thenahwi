@@ -1,0 +1,35 @@
+{
+  "slug": "mutall",
+  "name": "The weak verb",
+  "arabic": "المُعْتَلُّ",
+  "transliteration": "al-muʿtall",
+  "alsoKnownAs": [
+    "mutall",
+    "muʿtall",
+    "weak verb"
+  ],
+  "category": "sound-weak",
+  "definition": "A verb with a weak letter (wāw, yāʾ or alif) among its root letters. These letters often change or drop when it is conjugated.",
+  "body": [
+    "قَالَ (he said) has the root ق و ل: its wāw shows in يَقُولُ but becomes an alif in قَالَ. رَمَى (he threw) has the root ر م ي. وَعَدَ (he promised) loses its wāw in يَعِدُ.",
+    "The books name the weak verb by the place of the weak letter: mithāl at the start (وَعَدَ), ajwaf in the middle (قَالَ), nāqiṣ at the end (رَمَى). The rules for these changes, iʿlāl, are a large part of ṣarf."
+  ],
+  "examples": [
+    {
+      "arabic": "قَالَ – يَقُولُ",
+      "text": "qāla, yaqūlu: hollow (ajwaf)."
+    },
+    {
+      "arabic": "رَمَى – يَرْمِي",
+      "text": "ramā, yarmī: defective (nāqiṣ)."
+    }
+  ],
+  "related": [
+    "sahih"
+  ],
+  "term": "mutall",
+  "books": [
+    "izzi",
+    "shafiya"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "ibn-hisham",
+  "name": "Ibn Hishām al-Anṣārī",
+  "arabic": "ابْنُ هِشَامٍ الأَنْصَارِيُّ",
+  "known": "Jamāl al-Dīn Abū Muḥammad ʿAbd Allāh ibn Yūsuf",
+  "born": "708/1309",
+  "died": "761/1360",
+  "places": [
+    "Cairo"
+  ],
+  "roles": [
+    "author",
+    "commentator",
+    "teacher"
+  ],
+  "summary": "Cairene grammarian, author of Qaṭr al-nadā, Shudhūr al-dhahab, Awḍaḥ al-masālik and Mughnī al-labīb, a graded series still at the heart of the Azhar path.",
+  "bio": [
+    "Ibn Hishām was born in Cairo in 708/1309 and spent his life there. He studied with the leading teachers of his day, among them Abū Ḥayyān, and his fame spread in his lifetime as far as the Maghrib.",
+    "His books form a ladder: Qaṭr al-nadā for the intermediate student, then Shudhūr al-dhahab, then Awḍaḥ al-masālik on the Alfiyya, and Mughnī al-labīb for advanced study of the particles and sentences."
+  ],
+  "works": [
+    {
+      "title": "Qaṭr al-nadā wa-ball al-ṣadā",
+      "arabic": "قَطْرُ النَّدَى وَبَلُّ الصَّدَى",
+      "kind": "matn"
+    },
+    {
+      "title": "Awḍaḥ al-masālik",
+      "arabic": "أَوْضَحُ المَسَالِك",
+      "kind": "sharh",
+      "on": "alfiyya"
+    },
+    {
+      "title": "Mughnī al-labīb",
+      "arabic": "مُغْنِي اللَّبِيب",
+      "kind": "matn"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [
+    "qatr",
+    "alfiyya"
+  ],
+  "sources": [
+    {
+      "title": "Ibn Hisham al-Ansari, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ibn_Hisham_al-Ansari"
+    },
+    {
+      "title": "Qaṭr al-Nadā, English translation, RISSC",
+      "url": "https://rissc.jo/wp-content/uploads/2024/10/QatrNada_21-10-24.pdf"
+    }
+  ]
+}

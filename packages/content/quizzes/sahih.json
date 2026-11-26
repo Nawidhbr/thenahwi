@@ -1,0 +1,52 @@
+{
+  "term": "sahih",
+  "items": [
+    {
+      "id": "sahih-1",
+      "prompt": "Which verb is sound (ṣaḥīḥ)?",
+      "arabic": "كَتَبَ – قَالَ – رَمَى",
+      "options": [
+        "kataba",
+        "qāla",
+        "ramā",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "Kataba has no weak letter. Qāla (q-w-l) and ramā (r-m-y) are weak.",
+      "terms": [
+        "sahih"
+      ]
+    },
+    {
+      "id": "sahih-2",
+      "prompt": "What makes a root weak?",
+      "options": [
+        "A wāw, yāʾ or alif among its root letters",
+        "A hamza at the start",
+        "Having four letters",
+        "Ending in tāʾ"
+      ],
+      "answer": 0,
+      "explanation": "The weak letters are wāw, yāʾ and alif; a hamza does not make a verb weak.",
+      "terms": [
+        "sahih"
+      ]
+    },
+    {
+      "id": "sahih-3",
+      "prompt": "What do the books call this verb (he stretched)?",
+      "arabic": "مَدَّ",
+      "options": [
+        "muḍāʿaf: its second and third letters are the same",
+        "mahmūz: it has a hamza",
+        "sālim: no hamza and no doubled letter",
+        "muʿtall: it has a weak letter"
+      ],
+      "answer": 0,
+      "explanation": "Madda comes from m-d-d: the second and third root letters are the same.",
+      "terms": [
+        "sahih"
+      ]
+    }
+  ]
+}

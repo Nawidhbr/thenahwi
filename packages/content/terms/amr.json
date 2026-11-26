@@ -1,0 +1,43 @@
+{
+  "slug": "amr",
+  "subject": "sarf",
+  "chapter": "verb",
+  "order": 3,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "فِعْلُ الأَمْرِ",
+  "transliteration": "fiʿl al-amr",
+  "english": "The imperative",
+  "alsoKnownAs": [
+    "amr",
+    "command",
+    "imperative"
+  ],
+  "definition": "A verb that asks the person addressed to do something. It is made from the present tense of the second person.",
+  "explanation": [
+    "From تَنْصُرُ (you help), drop the tāʾ and give the end a sukūn: نْصُرْ. A word cannot begin with a sukūn, so a hamza is put in front with the vowel of the ʿayn: اُنْصُرْ. From تَضْرِبُ comes اِضْرِبْ, from تَفْتَحُ comes اِفْتَحْ.",
+    "The imperative is mabnī, usually on sukūn (اُنْصُرْ), and has six forms, for those addressed: اُنْصُرْ، اُنْصُرَا، اُنْصُرُوا، اُنْصُرِي، اُنْصُرَا، اُنْصُرْنَ."
+  ],
+  "examples": [
+    {
+      "arabic": "اُنْصُرْ",
+      "english": "unṣur, help! (to one man)."
+    },
+    {
+      "arabic": "اِضْرِبِي",
+      "english": "iḍribī, strike! (to one woman)."
+    }
+  ],
+  "related": [
+    "fil",
+    "mudari"
+  ],
+  "diagram": {
+    "type": "fil",
+    "focus": "amr"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

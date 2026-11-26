@@ -1,0 +1,44 @@
+{
+  "slug": "jami",
+  "name": "ʿAbd al-Raḥmān Jāmī",
+  "arabic": "عَبْدُ الرَّحْمٰنِ الجَامِيُّ",
+  "known": "Nūr al-Dīn ʿAbd al-Raḥmān Jāmī",
+  "born": "817/1414",
+  "died": "898/1492",
+  "places": [
+    "Jām",
+    "Herat",
+    "Samarkand"
+  ],
+  "roles": [
+    "commentator"
+  ],
+  "summary": "Persian poet and scholar of Herat; his commentary on al-Kāfiya, al-Fawāʾid al-ḍiyāʾiyya, is read in the Indian and Ottoman madrasas as Sharḥ Jāmī or Molla Câmî.",
+  "bio": [
+    "Jāmī studied in Herat and Samarkand and became a leading figure of Timurid Herat, known above all as a Persian poet.",
+    "He wrote al-Fawāʾid al-ḍiyāʾiyya on Ibn al-Ḥājib's al-Kāfiya for his son Ḍiyāʾ al-Dīn Yūsuf. It gathered its own glosses, among them those of ʿIṣām al-Dīn and Muḥarram Efendi."
+  ],
+  "works": [
+    {
+      "title": "al-Fawāʾid al-ḍiyāʾiyya (Sharḥ Jāmī)",
+      "arabic": "الفَوَائِدُ الضِّيَائِيَّة",
+      "kind": "sharh",
+      "on": "kafiya"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [
+    "kafiya"
+  ],
+  "sources": [
+    {
+      "title": "al-Fawāʾid al-ḍiyāʾiyya, SOAS library",
+      "url": "https://library.soas.ac.uk/Record/ms_47272-item1"
+    },
+    {
+      "title": "al-Fawāʾid al-ḍiyāʾiyya, ISLHornAfr text record",
+      "url": "https://islhornafr.tors.ku.dk/backend/texts/1190"
+    }
+  ]
+}

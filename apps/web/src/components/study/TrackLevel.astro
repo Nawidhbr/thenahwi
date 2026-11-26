@@ -1,0 +1,89 @@
+---
+import SourceNote from "../SourceNote.astro";
+import { bookSource } from "../../lib/sources";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getMatn } from "@nahwi/content";
+import { LIVE_LOCALES, fmt, t } from "../../i18n";
+import { getReview } from "@nahwi/content";
+import { tracks, lessonPath, levels, lessonTitle, bookName, pathLevel } from "../../lib/course";
+import { breadcrumbs, course } from "../../lib/structured-data";
+import { previewsOf } from "../../config/previews";
+
+import levelIndexScript from "../../scripts/level-index.js?url";
+/** A level after the first reading (2: al-Kātī's commentary; 3: al-Mirqāt; …): its book(s), read lesson by lesson. */
+
+interface Props { locale: string; n: string }
+const { locale, n } = Astro.props;
+const level = Number(n);
+const ui = t(locale);
+const all = tracks().filter((x) => x.level === level);
+// Title and introduction of this level; a level without its own texts is named by its number.
+const own = (ui.track.levels as Record<string, { title: string; lead: string }>)[n];
+const title = own?.title ?? fmt(ui.track.trackName, { track: n });
+const lead = own?.lead ?? "";
+const prev = levels().filter((v) => v < level).pop();
+const chapterOf = new Map(getMatn().sections.flatMap((s) => s.segments.map((g) => [g.id, s.chapter] as const)));
+const range = (m: string[]) => (m.length > 1 ? `${m[0]}–${m[m.length - 1]}` : m[0]);
+const topics = ui.track.topics as Record<string, string>;
+const previewHrefs = previewsOf(level).map((p) => p.href(locale));
+const blurb = (id: string) => (ui.track.blurbs as Record<string, string>)[id] ?? "";
+---
+
+<BaseLayout
+  title={title}
+  description={lead}
+  path={`/study/${all[0].book.id}/`}
+  locale={locale}
+  jsonLd={[course(locale, level, title, lead, `/${locale}/study/${all[0].book.id}/`, all.reduce((k, x) => k + x.lessons.length, 0)), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: fmt(ui.track.trackName, { track: n }), path: `/${locale}/study/${all[0].book.id}/` }])]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {fmt(ui.track.trackName, { track: n })}</p>
+  <header class="track-head">
+    
+    <h1>{title}</h1>
+    {lead && <p class="lead">{lead}</p>}
+    <p class="badge u-ib">{fmt(ui.term.reviewedCount, { n: String(all.flatMap((x) => x.lessons).filter((l) => getReview(l.id).status === "reviewed").length), m: String(all.flatMap((x) => x.lessons).length) })}</p>
+    {all.map((x) => <a class="cert-link" href={`/${locale}/study/${x.book.id}/certificate/`}>{ui.certificate.link}{all.length > 1 && <> · {bookName(x.book, locale).title}</>} →</a>)}
+    <div class="card track-locked" data-l2-locked hidden>
+      <p class="u-m0" data-lock-book={ui.track.lockBook}><span class="lock-glyph" aria-hidden="true"></span>{prev ? fmt(ui.track.lockLevel, { level: n, prev: String(prev) }) : ui.track.lockedNote}</p>
+      {previewHrefs.length > 0 && <a class="btn btn-outline" href={previewHrefs[0]} data-previews={JSON.stringify(previewHrefs)}>{ui.preview.button}</a>}
+    </div>
+  </header>
+
+  <div class="track-grid">
+    {
+      all.map((x) => (
+        <section class="card track-card" id={`track-${x.track}`}>
+          <p class="eyebrow">{pathLevel(ui, x.book.id)} · {fmt(ui.track.lessons, { n: x.lessons.length })}</p>
+          <h2>
+            {bookName(x.book, locale).title} <span class="muted text-by">{bookName(x.book, locale).author}</span>
+          </h2>
+          {locale !== "ar" && <p class="ar track-ar" lang="ar">{x.book.arabicTitle}</p>}
+          {blurb(x.book.id) && <p class="muted">{blurb(x.book.id)}</p>}
+          <SourceNote info={bookSource(x.book, locale)} locale={locale} variant="line" id={`source-${x.book.id}`} />
+          <ol class="path track-path">
+            {x.lessons.map((l) => (
+              <li>
+                <a href={lessonPath(locale, l, x.book.id, level)} data-slug={l.id}>
+                  <span class="tile-wrap" aria-hidden="true">
+                    <span class="tile">
+                      <span>{l.index}</span>
+                    </span>
+                  </span>
+                  <span class="name">
+                    <strong>{lessonTitle(l, locale, topics)}</strong> {l.matn.length > 0 && <small>· {fmt(ui.track.matnRange, { range: range(l.matn) })}</small>}
+                    <span class="stars" hidden data-label={ui.quiz.starsLabel} />
+                    <span class="state">{ui.structure.upNext}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
+          <p class="track-full">
+            <a href={`/${locale}/text/${x.book.id}/`}>{ui.track.readFull}</a>
+          </p>
+        </section>
+      ))
+    }
+  </div>
+  <script is:inline src={levelIndexScript}></script>
+</BaseLayout>

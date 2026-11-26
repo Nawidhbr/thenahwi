@@ -1,0 +1,51 @@
+{
+  "term": "anwa-al-irab",
+  "items": [
+    {
+      "id": "anwa-al-irab-1",
+      "prompt": "Which state do only nouns take?",
+      "options": [
+        "khafḍ (jarr)",
+        "rafʿ",
+        "naṣb",
+        "jazm"
+      ],
+      "answer": 0,
+      "explanation": "Nouns take rafʿ, naṣb and khafḍ, but no jazm; verbs take no khafḍ.",
+      "terms": [
+        "anwa-al-irab"
+      ]
+    },
+    {
+      "id": "anwa-al-irab-2",
+      "prompt": "Which state do only verbs take?",
+      "options": [
+        "jazm",
+        "khafḍ",
+        "rafʿ",
+        "naṣb"
+      ],
+      "answer": 0,
+      "explanation": "Jazm belongs to the present tense, as in lam yanṣur.",
+      "terms": [
+        "anwa-al-irab"
+      ]
+    },
+    {
+      "id": "anwa-al-irab-3",
+      "prompt": "What is the basic sign of naṣb?",
+      "arabic": "زَيْدًا – لَنْ يَنْصُرَ",
+      "options": [
+        "fatḥa",
+        "ḍamma",
+        "kasra",
+        "sukūn"
+      ],
+      "answer": 0,
+      "explanation": "Zaydan and lan yanṣura both end in fatḥa, the basic sign of naṣb.",
+      "terms": [
+        "anwa-al-irab"
+      ]
+    }
+  ]
+}

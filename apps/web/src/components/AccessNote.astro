@@ -1,0 +1,29 @@
+---
+import { t } from "../i18n";
+import { CHECKOUT, FREE_BOOK } from "../config/pricing";
+
+/**
+ * Shown in place of a lesson or term that the reader's access does not open (html[data-locked="access"], set by
+ * head-study.js once payments are on, config/pricing.ts): the free book asks for a free account, the others point to
+ * the prices and the book's free previews. Like the lock note, it names the page with a level-1 heading role.
+ */
+interface Props { locale: string; book: string; title: string; previewsHref?: string }
+const { locale, book, title, previewsHref } = Astro.props;
+const A = t(locale).access;
+const free = book === FREE_BOOK;
+---
+
+<section class="access-note">
+  <p class="kb-kicker"><span class="lock-glyph" aria-hidden="true"></span>{free ? A.freeKicker : A.paidKicker}</p>
+  <p class="access-title" role="heading" aria-level="1">{title}</p>
+  <p class="access-body">{free ? A.freeBody : A.paidBody}</p>
+  <div class="access-actions">
+    {free ? (
+      <a class="access-cta" href={`/${locale}/account/`}>{A.freeCta}</a>
+    ) : (
+      <a class="access-cta" href={`/${locale}/pricing/`} data-subscribe={CHECKOUT ? "yearly" : undefined}>{A.paidCta}</a>
+    )}
+    {!free && <a class="access-alt access-signin" href={`/${locale}/account/`}>{A.signIn}</a>}
+    {previewsHref && <a class="access-alt" href={previewsHref}>{A.previews}</a>}
+  </div>
+</section>

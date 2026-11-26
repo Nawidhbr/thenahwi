@@ -1,0 +1,45 @@
+{
+  "slug": "irab",
+  "subject": "nahw",
+  "chapter": "irab",
+  "order": 1,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الإِعْرَابُ",
+  "transliteration": "al-iʿrāb",
+  "english": "Inflection of the ending (iʿrāb)",
+  "alsoKnownAs": [
+    "irab",
+    "iʿrāb",
+    "case endings",
+    "declension"
+  ],
+  "definition": "The change at the end of a word caused by the governors (ʿawāmil) that enter on it, whether the change is heard or only assumed.",
+  "explanation": [
+    "In جَاءَ زَيْدٌ (Zayd came), رَأَيْتُ زَيْدًا (I saw Zayd) and مَرَرْتُ بِزَيْدٍ (I passed by Zayd), the same word ends in -un, -an and -in. Each time another word governs it: the verb as its doer, the verb as its object, the particle bi-.",
+    "Al-Ājurrūmiyya defines iʿrāb as the change of the endings of words because of the different governors that enter on them, in pronunciation or by assumption. A word that changes in this way is muʿrab."
+  ],
+  "examples": [
+    {
+      "arabic": "الإِعْرَابُ هُوَ تَغْيِيرُ أَوَاخِرِ الكَلِمِ لِاخْتِلَافِ العَوَامِلِ الدَّاخِلَةِ عَلَيْهَا لَفْظًا أَوْ تَقْدِيرًا",
+      "english": "Iʿrāb is the change of the endings of words because of the different governors that enter on them, in pronunciation or by assumption (al-Ājurrūmiyya)."
+    },
+    {
+      "arabic": "جَاءَ زَيْدٌ – رَأَيْتُ زَيْدًا",
+      "english": "Zaydun after a verb as its doer, Zaydan as its object."
+    }
+  ],
+  "related": [
+    "bina",
+    "anwa-al-irab",
+    "ilm-al-nahw"
+  ],
+  "diagram": {
+    "type": "irab",
+    "focus": "irab"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

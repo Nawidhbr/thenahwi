@@ -1,0 +1,167 @@
+---
+import Translation from "./Translation.astro";
+import SourceNote from "../components/SourceNote.astro";
+import { kbBook } from "../lib/kb";
+import { bookSource } from "../lib/sources";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { CHAPTER_ORDER, CHAPTER_PART, PART_ORDER, PART_TITLES, getCommentaries, type Commentary } from "@nahwi/content";
+import { LIVE_LOCALES, fmt, t } from "../i18n";
+import { chapterTitle } from "../lib/localize";
+import { gloss } from "../lib/gloss";
+import { breadcrumbs, textEdition } from "../lib/structured-data";
+import { bookName, lessonTitle, placeOfBook } from "../lib/course";
+import FoldAll from "../components/FoldAll.astro";
+
+import textOpenScript from "../scripts/text-open.js?url";
+import copyTextScript from "../scripts/copy-text.js?url";
+/** A commentary (sharḥ) or later text as a book (pages/[locale]/text/[book].astro): the Arabic in blocks, grouped by part and chapter like al-Mabādiʾ, with a translation under each block. */
+interface Props {
+  book: Commentary;
+  locale: string;
+}
+
+const { book, locale } = Astro.props;
+const name = bookName(book, locale);
+const ui = t(locale);
+// The site language's translation; until it exists, the English one (Arabic readers read the original).
+const own = book.translations[locale];
+const fallback = locale === "ar" ? undefined : book.translations.en;
+const translated = (id: string) => (locale === "ar" ? undefined : own?.[id] ?? fallback?.[id]);
+const isFallback = (id: string) => locale !== "en" && locale !== "ar" && !own?.[id] && Boolean(fallback?.[id]);
+// In a mixed commentary the matn's words are marked {…}: shown in bold, the commentator's words around them in plain type.
+const esc = (x: string) => x.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const mixed = (html: string) => html.replace(/\{/g, '<b class="matn-in">').replace(/\}/g, "</b>");
+const CHAPTER_ORDER_INDEX = Object.fromEntries(CHAPTER_ORDER.map((c, i) => [c, i]));
+const NUMERALS: Record<string, string> = { introduction: "0", sarf: "I", nahw: "II" };
+const chapters = CHAPTER_ORDER.map((c) => ({ chapter: c, blocks: book.blocks.filter((b) => b.chapter === c) })).filter((c) => c.blocks.length > 0);
+type Ch = { key: string; label: string; title: string; arabic: string; blocks: Commentary["blocks"] };
+type Part = { key: string; title: { english: string; transliteration: string; arabic: string }; tile: string; chapters: Ch[] };
+const blockOf = new Map(book.blocks.map((b) => [b.id, b]));
+// A standalone text with its own outline: its parts, with its lessons as chapters. Otherwise al-Mabādiʾ's parts and chapters.
+const parts: Part[] = book.outline
+  ? book.outline.map((p) => ({
+      key: p.tile,
+      title: { english: p.title[locale] ?? p.title.en, transliteration: p.transliteration, arabic: p.arabic },
+      tile: p.tile,
+      chapters: p.lessons
+        .map((n) => book.lessons.find((l) => l.n === n)!)
+        .map((l) => ({
+          key: l.id,
+          label: fmt(ui.track.lessonN, { n: l.n }),
+          title: lessonTitle(l, locale, {}),
+          arabic: l.title?.ar ?? "",
+          blocks: l.blocks.map((id) => blockOf.get(id)!),
+        })),
+    }))
+  : PART_ORDER.map((key) => ({
+      key,
+      title: { ...PART_TITLES[key], english: ui.parts[key].title },
+      tile: NUMERALS[key],
+      chapters: chapters
+        .filter((c) => CHAPTER_PART[c.chapter] === key)
+        .map((c) => ({
+          key: c.chapter,
+          label: fmt(ui.structure.chapter, { n: CHAPTER_ORDER_INDEX[c.chapter] }),
+          title: chapterTitle(locale, c.chapter).english,
+          arabic: chapterTitle(locale, c.chapter).arabic,
+          blocks: c.blocks,
+        })),
+    })).filter((p) => p.chapters.length > 0);
+---
+
+<BaseLayout
+  title={fmt(ui.text.pageTitle, { title: book.title })}
+  description={fmt(ui.text.description, { title: book.title, author: book.author })}
+  path={`/text/${book.id}/`}
+  locale={locale}
+  jsonLd={[textEdition(locale, { id: book.id, title: book.title, arabicTitle: book.arabicTitle, author: book.author, work: book.library ?? (kbBook(book.id) ? book.id : undefined), description: fmt(ui.text.description, { title: book.title, author: book.author }) }), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.nav.text, path: `/${locale}/text/` }, { name: book.title, path: `/${locale}/text/${book.id}/` }])]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/text/`}>{ui.nav.text}</a> / {name.title}</p>
+  <header class="text-head">
+    {locale !== "ar" && <p class="ar text-title" lang="ar">{book.arabicTitle}</p>}
+    <div class="text-title-row">
+      <h1>{name.title} <span class="muted text-by">{name.author}</span></h1>
+      <button type="button" class="info-tile" popovertarget="about-book" aria-label={ui.text.about}>
+        <span aria-hidden="true">i</span>
+      </button>
+    </div>
+    <SourceNote info={bookSource(book, locale)} locale={locale} variant="pop" id="about-book" />
+  </header>
+  <FoldAll locale={locale} />
+
+  {
+    parts.map((part) => (
+      <details class="text-part">
+        <summary class="part-head">
+          <span class="tile-wrap" aria-hidden="true">
+            <span class="tile tile-filled"><span>{part.tile}</span></span>
+          </span>
+          <span class="part-titles">
+            <h2>{part.title.english} <span class="part-translit tr">({part.title.transliteration})</span></h2>
+          </span>
+          <span class="ar part-ar" lang="ar">{part.title.arabic}</span>
+          <span class="part-toggle" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+          </span>
+        </summary>
+        {part.chapters.map((c) => {
+          const Chapter = part.chapters.length > 1 ? "details" : "div";
+          return (
+            <Chapter class="text-chapter">
+              {part.chapters.length > 1 && (
+                <summary class="chapter-head">
+                  <h3><span class="muted">{c.label} · </span>{c.title}</h3>
+                  {c.arabic && <span class="ar" lang="ar">{c.arabic}</span>}
+                  <span class="part-toggle chapter-toggle" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+                  </span>
+                </summary>
+              )}
+              <div class="text-chapter-body">
+                {c.blocks.map((b) => (
+                  <article class="card matn-seg sharh-block" id={b.id}>
+                    {b.heading && <p class="ar block-heading" lang="ar">{b.heading}</p>}
+                    <a class="seg-no" href={`#${b.id}`}>{b.id.replace(/^\D+/, "")}</a>
+                    {b.quote && (
+                      <p class="ar sharh-quote" lang="ar">
+                        <span class="sharh-qala">قالَ: </span>
+                        {b.quote}
+                      </p>
+                    )}
+                    {book.mixed ? (
+                      <p class="ar seg-ar sharh-ar" lang="ar" set:html={mixed(esc(b.arabic))} />
+                    ) : (
+                      <p class="ar seg-ar sharh-ar" lang="ar">
+                        {b.quote && <span class="sharh-qala">أَقُولُ: </span>}
+                        {b.arabic}
+                      </p>
+                    )}
+                    {translated(b.id) && locale !== "ar" && <Translation locale={locale} html={mixed(gloss(translated(b.id)!, isFallback(b.id) ? "en" : locale))} copy={translated(b.id)!.replace(/[{}]/g, "")} lang={isFallback(b.id) ? "en" : undefined} english={isFallback(b.id)} />}
+                    <p class="seg-page muted">
+                      {b.matn.length > 0 && (
+                        <a href={`/${locale}/text/mabadi/#s${b.matn[0]}`}>{fmt(ui.text.onMatn, { n: b.matn.join(", ") })}</a>
+                      )}
+                      {b.page && <span> · {fmt(ui.text.page, { n: b.page })}</span>}
+                    </p>
+                  </article>
+                ))}
+              </div>
+            </Chapter>
+          );
+        })}
+      </details>
+    ))
+  }
+  {
+    book.track && (
+      <section class="card next">
+        <p class="u-m0">
+          <strong>{(ui.track.levels as Record<string, { title: string }>)[String(parseInt(book.track, 10))]?.title ?? fmt(ui.track.trackName, { track: book.track })}</strong>
+        </p>
+        <a class="btn btn-red" href={`/${locale}/study/${book.id}/`}>{fmt(ui.track.readAsTrack, { track: String(placeOfBook(book.id).d) })}</a>
+      </section>
+    )
+  }
+  <script is:inline src={textOpenScript}></script>
+  <script is:inline src={copyTextScript}></script>
+</BaseLayout>

@@ -1,0 +1,39 @@
+{
+  "slug": "jumla-ismiyya",
+  "name": "The nominal sentence",
+  "arabic": "الجُمْلَةُ الاسْمِيَّةُ",
+  "transliteration": "al-jumla al-ismiyya",
+  "alsoKnownAs": [
+    "jumla ismiyya",
+    "nominal sentence"
+  ],
+  "category": "sentence",
+  "definition": "A sentence that begins with a noun. At its simplest it is a mubtadaʾ and its khabar.",
+  "body": [
+    "زَيْدٌ قَائِمٌ (Zayd is standing), العِلْمُ نُورٌ (knowledge is light). Arabic needs no word for “is”: the two nouns side by side give the complete meaning.",
+    "In the basic sentence both parts are marfūʿ. Words such as كَانَ and إِنَّ can come before it and change the ending of one part; the books treat them after the mubtadaʾ and the khabar."
+  ],
+  "examples": [
+    {
+      "arabic": "زَيْدٌ قَائِمٌ",
+      "text": "Zayd is standing."
+    },
+    {
+      "arabic": "العِلْمُ نُورٌ",
+      "text": "Knowledge is light."
+    }
+  ],
+  "related": [
+    "mubtada",
+    "khabar",
+    "jumla-filiyya",
+    "kalam"
+  ],
+  "term": "jumla-ismiyya",
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "kafiya",
+    "alfiyya"
+  ]
+}

@@ -1,0 +1,105 @@
+---
+import Photo from "./Photo.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import KbHero from "./KbHero.astro";
+import { getBackground, type BackgroundArticle } from "@nahwi/content";
+import { fmt, t } from "../i18n";
+import { gloss } from "../lib/gloss";
+import { article as articleLd, breadcrumbs } from "../lib/structured-data";
+import { articleHref, articlePhoto, kbPath, shortName } from "../lib/kb";
+import { photoSrc } from "../config/photos";
+import { photoFor, photoInfo } from "../lib/kb";
+import { bookPath, pathBooks } from "../lib/course";
+
+/** One article of the knowledge base (About naḥw and ṣarf, Curricula, or a book), with its contents, people, sources and neighbours. */
+interface Props {
+  locale: string;
+  article: BackgroundArticle;
+  /** All articles of the same section, in order. */
+  siblings: BackgroundArticle[];
+  section: { label: string; href: string; arabic?: string };
+}
+const { locale, article, siblings, section } = Astro.props;
+const ui = t(locale);
+const K = ui.kb;
+const people = getBackground(locale).people;
+const i = siblings.findIndex((a) => a.slug === article.slug);
+const prev = siblings[i - 1];
+const next = siblings[i + 1];
+const named = article.people.map((s) => people.find((p) => p.slug === s)).filter((p) => p !== undefined);
+const photo = articlePhoto(article);
+// A second photo inside long articles, halfway, to break the column.
+const inner = photoFor(`${article.slug}-inner`, [photo]);
+const half = Math.floor(article.sections.length / 2);
+const path = articleHref(locale, article);
+// Two articles with the same title (each handbook has its "Commentaries, glosses and translations") get their section in the page title.
+const sameTitle = getBackground(locale).articles.some((a) => a.slug !== article.slug && a.title === article.title);
+const pageTitle = sameTitle ? `${article.title} – ${section.label}` : article.title;
+---
+
+<BaseLayout image={photo} title={pageTitle} description={article.summary} path={path.slice(locale.length + 1)} locale={locale} bleed jsonLd={[articleLd(article, locale, path, photo), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: section.label, path: section.href }, { name: article.title, path }])]}>
+  <KbHero
+    locale={locale}
+    photo={photo}
+    crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: section.label, href: section.href }]}
+    kicker={fmt(K.article.of, { section: section.label, n: i + 1, m: siblings.length })}
+    arabic={section.arabic}
+    title={article.title}
+    sub={article.summary}
+  />
+  <div class="kb-wrap">
+    <div class="kb-layout">
+      <aside class="kb-aside">
+        <nav aria-label={K.article.inThis}>
+          <p class="kb-kicker u-ink">{K.article.inThis}</p>
+          <ol class="kb-toc">
+            {article.sections.map((s, n) => <li><a href={`#s${n + 1}`}>{s.heading}</a></li>)}
+          </ol>
+        </nav>
+        {named.length > 0 && (
+          <div>
+            <p class="kb-kicker u-ink">{K.article.people}</p>
+            <p class="u-824472">
+              {named.map((p, n) => (
+                <>
+                  {n > 0 && " · "}
+                  <a href={kbPath.scholar(locale, p.slug)}>{shortName(p)}</a>
+                </>
+              ))}
+            </p>
+          </div>
+        )}
+      </aside>
+      <article class="kb-body">
+        {article.sections.map((s, n) => (
+          <>
+            <h2 id={`s${n + 1}`}><span class="num">{n + 1}</span>{s.heading}</h2>
+            {s.paragraphs.map((p) => <p set:html={gloss(p, locale, undefined, "kb")} />)}
+            {n === half - 1 && article.sections.length > 3 && (
+              <figure>
+                <Photo slug={inner} sizes="(max-width: 760px) 100vw, 720px" alt={photoInfo(inner)?.alt ?? ""} />
+                {photoInfo(inner)?.place && <figcaption>{photoInfo(inner)?.place}</figcaption>}
+              </figure>
+            )}
+          </>
+        ))}
+        {article.madrasa && (
+          <section class="kb-sources">
+            <p class="kb-kicker u-ink">{fmt(K.article.studyPath, { path: (ui.madrasa.paths as Record<string, { short: string }>)[article.madrasa]?.short ?? article.madrasa })}</p>
+            <div class="kb-chips u-195e77">
+              {pathBooks(article.madrasa).map((b) => <a class="kb-chip" href={bookPath(locale, b.id)}>{b.title} <span class="muted">· {fmt(ui.madrasa.levelN, { n: String(b.level) })}</span></a>)}
+            </div>
+          </section>
+        )}
+        <section class="kb-sources">
+          <p class="kb-kicker u-ink">{fmt(K.article.sources, { n: article.sources.length })}</p>
+          <ol>{article.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title}</a></li>)}</ol>
+        </section>
+        <nav class="kb-pager" aria-label={K.article.related}>
+          {prev ? <a href={articleHref(locale, prev)}><span class="kb-kicker">← {K.article.prev}</span><br /><strong>{prev.title}</strong></a> : <span />}
+          {next && <a href={articleHref(locale, next)} class="u-end"><span class="kb-kicker">{K.article.next} →</span><br /><strong>{next.title}</strong></a>}
+        </nav>
+      </article>
+    </div>
+  </div>
+</BaseLayout>

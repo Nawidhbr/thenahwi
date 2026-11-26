@@ -1,0 +1,249 @@
+---
+import AccessNote from "../AccessNote.astro";
+import { previewsOfBook } from "../../config/previews";
+import ReviewBadge from "../ReviewBadge.astro";
+import LessonHelp from "../LessonHelp.astro";
+import LessonComments from "../LessonComments.astro";
+import { getReview } from "@nahwi/content";
+import SourceNote from "../SourceNote.astro";
+import { bookSource } from "../../lib/sources";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TermQuiz from "../TermQuiz.astro";
+import Translation from "../Translation.astro";
+import { getLessonExplain, getLessonQuiz, getMatn } from "@nahwi/content";
+import Diagram from "../Diagram.astro";
+import { LIVE_LOCALES, dirOf, fmt, t } from "../../i18n";
+import { tracks, lessonPath, lessonTitle, bookName, bookPath, pathLevel, placeOfBook, primerPath, type TrackInfo } from "../../lib/course";
+import { MADRASAS } from "../../config/madrasas";
+import { chapterTitle, localMatn } from "../../lib/localize";
+import { gloss } from "../../lib/gloss";
+import { breadcrumbs, paywalledLesson } from "../../lib/structured-data";
+
+import lessonLockScript from "../../scripts/lesson-lock.js?url";
+import copyTextScript from "../../scripts/copy-text.js?url";
+/**
+ * One lesson of a later level: the matn passages (for a commentary on al-Mabādiʾ), the book's text with its
+ * translation behind a fold, our explanation with examples and a diagram where they belong (as in the primers), the
+ * key terms, and a test.
+ */
+
+
+interface Props { locale: string; x: TrackInfo; i: number }
+const { locale } = Astro.props;
+const { x, i } = Astro.props;
+const { book } = x;
+const lesson = x.lessons[i];
+const next = x.lessons[i + 1];
+const ui = t(locale);
+const topics = ui.track.topics as Record<string, string>;
+const title = lessonTitle(lesson, locale, topics);
+const segs = localMatn(locale).sections.flatMap((s) => s.segments.map((g) => ({ ...g, chapter: s.chapter }))).filter((g) => lesson.matn.includes(g.id));
+const blocksHere = lesson.blocks.map((id) => book.blocks.find((b) => b.id === id)!).filter(Boolean);
+const chapter = chapterTitle(locale, segs[0]?.chapter ?? blocksHere[0]?.chapter ?? "introduction");
+const blocks = lesson.blocks.map((id) => book.blocks.find((b) => b.id === id)!).filter(Boolean);
+// The site language's translation of the commentary; until it exists, the English one (Arabic readers read the original).
+const own = book.translations[locale];
+const fallback = locale === "ar" ? undefined : book.translations.en;
+const translated = (id: string) => (locale === "ar" ? undefined : own?.[id] ?? fallback?.[id]);
+const isFallback = (id: string) => locale !== "en" && locale !== "ar" && !own?.[id] && Boolean(fallback?.[id]);
+const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const mixed = (html: string) => html.replace(/\{/g, '<b class="matn-in">').replace(/\}/g, "</b>");
+const quiz = getLessonQuiz(book, lesson.id, locale);
+const explain = getLessonExplain(book, lesson.id, locale);
+const P = ui.primer;
+const range = lesson.matn.length === 0 ? "" : lesson.matn.length > 1 ? `${lesson.matn[0]}–${lesson.matn[lesson.matn.length - 1]}` : lesson.matn[0];
+const path = `/study/${book.id}/${lesson.n}/`;
+// The level as the book's madrasa path counts it ("Indian path · level 3"), not the number in its address.
+const trackLabel = pathLevel(ui, book.id);
+const place = placeOfBook(book.id);
+// Where the book's path begins, for a preview reader: the first reading of the terms, or the path's first primer.
+const firstLevel = MADRASAS.find((m) => m.id === place.m)?.levels[0];
+const startHref = firstLevel?.terms ? `/${locale}/study/mabadi/` : firstLevel?.primers?.[0] ? primerPath(locale, firstLevel.primers[0]) : `/${locale}/study/`;
+const startLabel = firstLevel?.terms ? ui.preview.start : fmt(ui.madrasa.startWith, { name: (ui.madrasa.levels as Record<string, { title: string }>)[`${place.m}-1`]?.title ?? "" });
+const hub = `/${locale}/study/${book.id}/`;
+const name = bookName(book, locale);
+// In Arabic the chapter title is already Arabic, so it is shown once (in red).
+const chapterLine = locale === "ar" ? "" : chapter.english;
+---
+
+<BaseLayout
+  title={`${title} – ${name.title} (${trackLabel})`}
+  description={`${title} – ${name.title}${dirOf(locale) === "rtl" ? "، " : ", "}${fmt(ui.track.lessonOf, { n: lesson.index, m: x.lessons.length })}.${explain ? ` ${explain.body[0].replace(/<[^>]+>/g, "").split(/(?<=\.)\s/)[0]}` : ""}`}
+  path={path}
+  locale={locale}
+  jsonLd={[
+    ...paywalledLesson(locale, path, title),
+    breadcrumbs([
+      { name: ui.nav.home, path: `/${locale}/` },
+      { name: trackLabel, path: hub },
+      { name: title, path: `/${locale}${path}` },
+    ]),
+  ]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={hub}>{trackLabel}</a> / {fmt(ui.track.lessonOf, { n: lesson.index, m: x.lessons.length })}</p>
+
+  <div data-visit={lesson.id} hidden></div>
+
+  <AccessNote locale={locale} book={book.id} title={title} previewsHref={previewsOfBook(book.id)[0]?.href(locale)} />
+
+  <section class="card lock-note" data-lock-note>
+    <p class="eyebrow"><span class="lock-glyph" aria-hidden="true"></span>{ui.lock.title}</p>
+    <p class="lock-title" role="heading" aria-level="1">{title}</p>
+    <p data-lock-text-base={ui.track.lockBase} data-lock-text-lesson={ui.track.lockPage} data-lock-text-level={ui.track.lockLevel} data-lock-text-book={ui.track.lockBook}></p>
+    <a class="btn btn-red" data-lock-go data-label={ui.lock.cta} href={hub}>{fmt(ui.track.back, { level: String(place.d) })}</a>
+  </section>
+
+  <section class="card preview-note" data-preview-note>
+    <p class="eyebrow">{ui.preview.eyebrow}</p>
+    <p class="u-m0">{fmt(ui.preview.note, { n: String(lesson.index), level: String(place.d), prev: String(place.d - 1) })}</p>
+    <div class="hero-actions">
+      <a class="btn btn-red" href={startHref}>{startLabel}</a>
+      <a class="btn btn-outline" href={`/${locale}/study/`}>{ui.preview.levels}</a>
+    </div>
+  </section>
+
+  <div class="lockable">
+    <section class="card card-current">
+      <p class="eyebrow">{trackLabel} · {name.title} · {fmt(ui.track.lessonOf, { n: lesson.index, m: x.lessons.length })}</p>
+      <ReviewBadge review={getReview(lesson.id)} locale={locale} />
+      <div class="term-hero lesson-hero">
+        <span class="tile-wrap" aria-hidden="true">
+          <span class="tile tile-current"><span>{lesson.index}</span></span>
+        </span>
+        <div class="titles">
+          <h1>{title}</h1>
+          {(chapterLine || segs.length > 0) && <p class="muted">{chapterLine}{segs.length > 0 && <>{chapterLine && " · "}{fmt(ui.track.matnRange, { range })}</>}</p>}
+        </div>
+        <p class="ar" lang="ar">{chapter.arabic}</p>
+      </div>
+      <SourceNote info={bookSource(book, locale)} locale={locale} variant="line" />
+    </section>
+
+    {segs.length > 0 && <section class="card">
+      <h2>{ui.track.theMatn}</h2>
+      {segs.map((g) => (
+        <div class="lesson-matn">
+          <p class="ar seg-ar" lang="ar">{g.arabic}</p>
+          <p class="primer-tools">
+            <button type="button" class="btn btn-outline btn-small" data-copy={g.arabic} data-done={ui.primer.copied}>{ui.primer.copyText}</button>
+            <a class="seg-page muted" href={`/${locale}/text/mabadi/#s${g.id}`}>{fmt(ui.text.sentence, { n: g.id })}</a>
+          </p>
+          {g.english && locale !== "ar" && <Translation locale={locale} html={gloss(g.english, locale)} copy={g.english} />}
+        </div>
+      ))}
+    </section>}
+
+    <section class="card">
+      <h2>{book.kind === "matn" ? ui.track.theText : ui.track.theCommentary} <span class="muted text-by">{name.author}</span></h2>
+      {blocks.some((b) => isFallback(b.id)) && <p class="muted">{ui.track.translationNote}</p>}
+      {blocks.map((b) => (
+        <article class="sharh-block lesson-block" id={b.id}>
+          {b.heading && <p class="ar block-heading" lang="ar">{b.heading}</p>}
+          {book.mixed ? (
+            <p class="ar seg-ar sharh-ar" lang="ar" set:html={mixed(esc(b.arabic))} />
+          ) : (
+            <>
+              {b.quote && (
+                <p class="ar sharh-quote" lang="ar">
+                  <span class="sharh-qala">قالَ: </span>
+                  {b.quote}
+                </p>
+              )}
+              <p class="ar seg-ar sharh-ar" lang="ar">
+                {b.quote && <span class="sharh-qala">أَقُولُ: </span>}
+                {b.arabic}
+              </p>
+            </>
+          )}
+          <p class="primer-tools">
+            <button type="button" class="btn btn-outline btn-small" data-copy={[b.quote, b.arabic].filter(Boolean).join("\n")} data-done={ui.primer.copied}>{ui.primer.copyText}</button>
+            <span class="seg-page muted">
+              <a href={`/${locale}/text/${book.id}/#${b.id}`}>{name.title}</a>
+              {b.page && <span> · {fmt(ui.text.page, { n: b.page })}</span>}
+            </span>
+          </p>
+          {translated(b.id) && locale !== "ar" && <Translation locale={locale} html={mixed(gloss(translated(b.id)!, isFallback(b.id) ? "en" : locale))} copy={translated(b.id)!.replace(/[{}]/g, "")} lang={isFallback(b.id) ? "en" : undefined} english={isFallback(b.id)} />}
+        </article>
+      ))}
+    </section>
+
+    {
+      explain && (
+        <details class="card fold-card primer-body" open>
+          <summary><h2>{P.theLesson}</h2></summary>
+          {explain.body.map((para, k) => {
+            const last = k === explain.body.length - 1;
+            const here = (after?: number) => (after ?? explain.body.length - 1) === k || (last && (after ?? 0) > k);
+            return (
+              <>
+                <p set:html={gloss(para, explain.lang)} lang={explain.lang !== locale ? "en" : undefined} />
+                {explain.examples.filter((x) => here(x.after)).map((x) => (
+                  <div class="primer-example">
+                    <p class="ar" lang="ar">{x.arabic}</p>
+                    <p class="muted">{x.en}</p>
+                  </div>
+                ))}
+                {explain.diagram && here(explain.diagram.after) && <Diagram type={explain.diagram.type} focus={explain.diagram.focus} locale={locale} />}
+              </>
+            );
+          })}
+        </details>
+      )
+    }
+
+    {
+      explain && explain.terms.length > 0 && (
+        <section class="card">
+          <h2>{P.terms}</h2>
+          <dl class="primer-terms">
+            {explain.terms.map((x) => (
+              <div>
+                <dt>
+                  <span class="ar" lang="ar">{x.arabic}</span> <i>{x.transliteration}</i>
+                </dt>
+                <dd>{x.en}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )
+    }
+
+    {
+      quiz && (
+        <TermQuiz
+          quiz={quiz}
+          slug={lesson.id}
+          locale={locale}
+          intro={ui.track.quizIntro}
+          passed={next ? ui.track.passed : fmt(ui.track.trackDone, { track: String(place.d) })}
+          failed={ui.track.failed}
+        />
+      )
+    }
+
+    {
+      next ? (
+        <section class="card next" data-gated>
+          <p class="u-m0">
+            <strong>{ui.track.next}</strong> {lessonTitle(next, locale, topics)}
+          </p>
+          <a class="btn btn-red" href={lessonPath(locale, next, book.id, x.level)}>{ui.term.continue}</a>
+        </section>
+      ) : (
+        <section class="card next" data-gated>
+          <p class="u-m0">
+            <strong>{fmt(ui.track.trackDone, { track: String(place.d) })}</strong>
+          </p>
+          <a class="btn btn-red" href={hub}>{fmt(ui.track.back, { level: String(place.d) })}</a>
+          <a class="btn btn-outline" href={`${bookPath(locale, book.id)}certificate/`}>{ui.certificate.link}</a>
+        </section>
+      )
+    }
+    <LessonComments locale={locale} />
+    <LessonHelp locale={locale} />
+  </div>
+
+  <script is:inline src={lessonLockScript}></script>
+  <script is:inline src={copyTextScript}></script>
+</BaseLayout>

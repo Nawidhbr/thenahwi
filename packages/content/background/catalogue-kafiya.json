@@ -1,0 +1,85 @@
+[
+  {
+    "id": "sharh-radi",
+    "kind": "sharh",
+    "title": "Sharḥ al-Kāfiya",
+    "arabic": "شَرْحُ الكَافِيَة",
+    "author": "Raḍī al-Dīn al-Astarābādhī",
+    "died": "ca. 686/1287",
+    "on": "kafiya",
+    "region": "Iraq and Iran",
+    "language": "ar",
+    "status": "printed",
+    "editions": [
+      "Istanbul, 1875",
+      "Lucknow, 1864"
+    ],
+    "person": "radi",
+    "sources": [
+      {
+        "title": "Sharḥ al-Kāfiya, University of Wisconsin library",
+        "url": "https://search.library.wisc.edu/catalog/9912426682702121"
+      }
+    ]
+  },
+  {
+    "id": "fawaid-diyaiyya",
+    "kind": "sharh",
+    "title": "al-Fawāʾid al-ḍiyāʾiyya (Sharḥ Jāmī)",
+    "arabic": "الفَوَائِدُ الضِّيَائِيَّة",
+    "author": "ʿAbd al-Raḥmān Jāmī",
+    "died": "898/1492",
+    "on": "kafiya",
+    "region": "Khurasan",
+    "language": "ar",
+    "status": "printed",
+    "editions": [
+      "Kanpur, 1878"
+    ],
+    "person": "jami",
+    "sources": [
+      {
+        "title": "al-Fawāʾid al-ḍiyāʾiyya, ISLHornAfr text record",
+        "url": "https://islhornafr.tors.ku.dk/backend/texts/1190"
+      },
+      {
+        "title": "Kanpur print of 1878, Penn Libraries",
+        "url": "https://find.library.upenn.edu/catalog/9976525153503681"
+      }
+    ]
+  },
+  {
+    "id": "hashiya-isam",
+    "kind": "hashiya",
+    "title": "Ḥāshiyat ʿIṣām al-Dīn ʿalā al-Fawāʾid al-ḍiyāʾiyya",
+    "arabic": "حَاشِيَةُ عِصَامِ الدِّين",
+    "author": "ʿIṣām al-Dīn",
+    "on": "fawaid-diyaiyya",
+    "region": "Transoxiana",
+    "language": "ar",
+    "status": "manuscript",
+    "sources": [
+      {
+        "title": "Ḥāshiya ʿalā al-Fawāʾid al-ḍiyāʾiyya, Princeton",
+        "url": "https://catalog.princeton.edu/catalog/9963570253506421"
+      }
+    ]
+  },
+  {
+    "id": "hashiya-muharram",
+    "kind": "hashiya",
+    "title": "Ḥāshiyat Muḥarram Efendī ʿalā Sharḥ al-Jāmī",
+    "arabic": "حَاشِيَةُ مُحَرَّم أَفَنْدِي",
+    "author": "Muḥarram Efendī",
+    "on": "fawaid-diyaiyya",
+    "region": "Ottoman lands",
+    "language": "ar",
+    "status": "printed",
+    "sources": [
+      {
+        "title": "al-Fawāʾid al-ḍiyāʾiyya, ISLHornAfr text record",
+        "url": "https://islhornafr.tors.ku.dk/backend/texts/1190"
+      }
+    ]
+  }
+]

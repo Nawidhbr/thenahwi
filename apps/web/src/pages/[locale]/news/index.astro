@@ -1,0 +1,111 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KbHero from "../../../components/KbHero.astro";
+import { getNews } from "@nahwi/content";
+import { fmt, localePaths, t } from "../../../i18n";
+import { KB_SECTIONS, kbBook, kbPath } from "../../../lib/kb";
+import { newsDateHTML, newsSection, newsSource, NEWS_SECTIONS } from "../../../lib/news";
+import { breadcrumbs } from "../../../lib/structured-data";
+
+/** The news of the knowledge base (naḥw, ṣarf and the other language sciences), newest first, grouped by year, with a filter by science and an RSS feed. */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const N = ui.kb.news;
+const kinds = N.kinds as Record<string, string>;
+const fields = N.fields as Record<string, string>;
+const news = getNews();
+// The sciences with news, naḥw and ṣarf first, for the filter.
+const order = ["nahw", "sarf", "balagha", "lugha", "mantiq", "usul", "tafsir"];
+const present = order.filter((f) => news.some((n) => n.field === f));
+const years = [...new Set(news.map((n) => n.date.slice(0, 4)))];
+const sections = N.sections as Record<string, string>;
+const sectionLeads = N.sectionLeads as Record<string, string>;
+const count = (sec: string) => news.filter((n) => newsSection(n.kind) === sec).length;
+---
+
+<BaseLayout image={KB_SECTIONS.news.photo} title={N.title} description={N.lead} path="/news/" locale={locale} bleed jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: N.title, path: kbPath.news(locale) }])]}>
+  <link slot="head" rel="alternate" type="application/rss+xml" title={N.feedTitle} href={`/${locale}/news/feed.xml`} />
+  <KbHero locale={locale} photo={KB_SECTIONS.news.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }]} arabic={KB_SECTIONS.news.arabic} title={N.title} sub={N.lead}>
+    <p class="u-178f4c"><a class="kb-btn" href={`/${locale}/news/feed.xml`}>{N.rss}</a></p>
+  </KbHero>
+  <div class="kb-wrap u-pb64">
+    <div class="news-tabs" role="group" aria-label={N.sectionsLabel} data-news-sections>
+      <button type="button" class="news-tab" aria-pressed="true" data-section="">
+        <strong>{N.allSections}</strong><span class="muted">{news.length}</span>
+      </button>
+      {NEWS_SECTIONS.filter((x) => count(x) > 0).map((x) => (
+        <button type="button" class="news-tab" aria-pressed="false" data-section={x}>
+          <strong>{sections[x]}</strong><span class="muted">{count(x)}</span>
+          <small>{sectionLeads[x]}</small>
+        </button>
+      ))}
+    </div>
+    {present.length > 1 && (
+      <div class="kb-chipbar" role="group" aria-label={N.filter} data-news-filter>
+        <span class="kb-kicker u-ink">{N.filter}</span>
+        <button type="button" class="kb-chip" aria-pressed="true" data-field="">{fields.all}</button>
+        {present.map((f) => <button type="button" class="kb-chip" aria-pressed="false" data-field={f}>{fields[f]}</button>)}
+      </div>
+    )}
+    {years.map((y) => (
+      <section data-year>
+        <h2 class="kb-year">{y}</h2>
+        <ul class="kb-news">
+          {news.filter((n) => n.date.startsWith(y)).map((n) => (
+            <li data-field={n.field} data-section={newsSection(n.kind)}>
+              <span class="kb-date"><Fragment set:html={newsDateHTML(n.date, locale)} /> · {sections[newsSection(n.kind)]} · {kinds[n.kind] ?? n.kind} · <span class="kb-field">{fields[n.field] ?? n.field}</span></span>
+              <h3><a href={n.url} rel="noopener" target="_blank">{n.headline}</a></h3>
+              <p class="kb-news-gist">{n.gist}</p>
+              <details class="kb-news-more">
+                <summary>{N.more}</summary>
+                <p class="kb-news-orig"><span class="kb-kicker">{N.originalTitle}</span> <span>{n.title}</span></p>
+                {n.who && <p class="u-4d3ef4">{n.who}</p>}
+                <p>{n.summary}</p>
+              </details>
+              <p class="kb-news-src"><a href={n.url} rel="noopener" target="_blank">{fmt(N.readAt, { source: newsSource(n.url) })} <span aria-hidden="true">↗</span></a></p>
+              {n.books.length > 0 && (
+                <div class="kb-chips u-8ced3a">
+                  {n.books.map(kbBook).filter((b) => b !== undefined).map((b) => <a class="kb-chip" href={kbPath.book(locale, b.id)}>{b.title}</a>)}
+                </div>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</BaseLayout>
+
+<script>
+  // Filter by section and by science; kept in the address (#section=academic&field=kalam, or the older #kalam) so a filtered list can be linked.
+  const secBar = document.querySelector<HTMLElement>("[data-news-sections]");
+  const bar = document.querySelector<HTMLElement>("[data-news-filter]");
+  const secButtons = [...(secBar?.querySelectorAll<HTMLButtonElement>("button[data-section]") ?? [])];
+  const buttons = [...(bar?.querySelectorAll<HTMLButtonElement>("button[data-field]") ?? [])];
+  const state = { section: "", field: "" };
+  const read = () => {
+    const h = location.hash.slice(1);
+    const q = new URLSearchParams(h.includes("=") ? h : h ? `field=${h}` : "");
+    state.section = secButtons.some((b) => b.dataset.section === q.get("section")) ? q.get("section")! : "";
+    state.field = buttons.some((b) => b.dataset.field === q.get("field")) ? q.get("field")! : "";
+  };
+  const write = () => {
+    const q = new URLSearchParams();
+    if (state.section) q.set("section", state.section);
+    if (state.field) q.set("field", state.field);
+    const x = q.toString();
+    history.replaceState(null, "", x ? `#${x}` : location.pathname);
+  };
+  const show = () => {
+    for (const b of secButtons) b.setAttribute("aria-pressed", String(b.dataset.section === state.section));
+    for (const b of buttons) b.setAttribute("aria-pressed", String(b.dataset.field === state.field));
+    for (const li of document.querySelectorAll<HTMLElement>(".kb-news li[data-field]"))
+      li.hidden = (state.field !== "" && li.dataset.field !== state.field) || (state.section !== "" && li.dataset.section !== state.section);
+    for (const s of document.querySelectorAll<HTMLElement>("section[data-year]")) s.hidden = !s.querySelector(".kb-news li:not([hidden])");
+  };
+  for (const b of secButtons) b.addEventListener("click", () => { state.section = b.dataset.section ?? ""; write(); show(); });
+  for (const b of buttons) b.addEventListener("click", () => { state.field = b.dataset.field ?? ""; write(); show(); });
+  read();
+  show();
+</script>

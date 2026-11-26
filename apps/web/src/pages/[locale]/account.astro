@@ -1,0 +1,181 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { CHECKOUT } from "../../config/pricing";
+import { APPLE_SIGN_IN } from "../../config/site";
+
+/**
+ * The account page (phase 3): sign in with a mail (a link and a 6-digit code, so it also works in the installed app,
+ * where a link opens in another browser), with a password (lib/email-signin.ts), or with Google or Apple; once signed
+ * in, the progress saved, a password to set, sign out, download my data and delete my account. Everything runs in the browser against Supabase (scripts/account-page.ts); the page
+ * itself is static. A Google (or, with APPLE_SIGN_IN, Apple) sign-in and a mailed link come back here with ?code=. An access code can be redeemed here
+ * once signed in (redeem_code in Supabase); a link with ?redeem=<code> fills it in, also across the sign-in. Not
+ * indexed, not in the sitemap.
+ * Laid out like the knowledge base: a black panel (what an account is, or who is signed in) beside the form.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const A = ui.account;
+const E = A.errors;
+const texts = {
+  sent: A.sent, sending: A.sending, send: A.send, verifying: A.verifying, verify: A.verify, resendIn: A.resendIn,
+  signedInAs: A.signedInAs, viaGoogle: A.viaGoogle, viaApple: A.viaApple, viaEmail: A.viaEmail, savedAt: A.savedAt,
+  saving: A.saving, saveNow: A.saveNow, deleted: A.deleted, offline: A.offline, errors: E,
+  planFree: A.planFree, planPaid: A.planPaid, planPaidOpen: A.planPaidOpen, paidThanks: A.paidThanks, paidDone: A.paidDone,
+  redeemOk: A.redeemOk, redeemOkOpen: A.redeemOkOpen, redeemSignIn: A.redeemSignIn, redeem: A.redeem, redeeming: A.redeeming,
+  redeemErrors: A.redeemErrors,
+  signIn: A.signIn, signingIn: A.signingIn, create: A.create, creating: A.creating, forgotNote: A.forgotNote,
+  unconfirmed: A.unconfirmed, savePassword: A.savePassword, savingPassword: A.savingPassword, passwordSaved: A.passwordSaved,
+};
+const privacyLink = `<a href="/${locale}/privacy/">${A.privacyLink}</a>`;
+---
+
+<BaseLayout title={A.title} description={A.description} path="/account/" locale={locale} noindex bleed>
+  <section class="account" data-account data-state="loading" data-locale={locale} data-texts={JSON.stringify(texts)}>
+    <div class="account-panel">
+      <p class="kb-crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {A.title}</p>
+      <div data-show="loading out code offline">
+        <p class="kb-kicker">{A.kicker}</p>
+        <h1>{A.heroTitle}</h1>
+        <ul class="account-perks">
+          {(A.perks as string[]).map((p) => <li>{p}</li>)}
+        </ul>
+        <p class="account-panel-note">{A.lead}</p>
+      </div>
+      <div data-show="in" hidden>
+        <p class="kb-kicker">{A.signedInKicker}</p>
+        <p class="account-id"><span class="account-initial" aria-hidden="true" data-initial></span><span><strong class="account-email" data-email></strong><span class="account-how" data-how></span></span></p>
+      </div>
+    </div>
+
+    <div class="account-main">
+      <p class="account-status" role="status" aria-live="polite" hidden data-status></p>
+      <p class="muted" data-show="loading">{A.loading}</p>
+
+      <div data-show="out" hidden>
+        <h2 class="account-h">{A.formTitle}</h2>
+        <button type="button" class="account-google" data-google>
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 48 48"><path class="g-red" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.6 5.4 2.7 13.2l7.9 6.2C12.5 13.6 17.8 9.5 24 9.5z"></path><path class="g-blue" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.2 5.5-4.8 7.2l7.7 6c4.5-4.2 6.9-10.3 6.9-17.7z"></path><path class="g-yellow" d="M10.6 28.6c-.5-1.4-.8-3-.8-4.6s.3-3.2.8-4.6l-7.9-6.2C1 16.6 0 20.2 0 24s1 7.4 2.7 10.8l7.9-6.2z"></path><path class="g-green" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.7-6c-2.2 1.5-5 2.3-8.2 2.3-6.2 0-11.5-4.2-13.4-9.9l-7.9 6.2C6.6 42.6 14.6 48 24 48z"></path></svg>
+          {A.google}
+        </button>
+        {APPLE_SIGN_IN && (
+          <button type="button" class="account-google account-apple" data-apple>
+            <svg aria-hidden="true" class="apple-logo" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"></path></svg>
+            {A.apple}
+          </button>
+        )}
+        <p class="account-or"><span>{A.or}</span></p>
+        <div class="account-modes" role="group" aria-label={A.modeLabel}>
+          <button type="button" data-mode="code" aria-pressed="true">{A.modeCode}</button>
+          <button type="button" data-mode="password" aria-pressed="false">{A.modePassword}</button>
+        </div>
+        <form class="account-form" data-email-form data-signin-form data-signin-mode="code" novalidate>
+          <label class="account-field">
+            <span>{A.email}</span>
+            <input name="email" type="email" autocomplete="email" inputmode="email" required maxlength="200" />
+          </label>
+          <label class="account-field" data-only="password create" hidden>
+            <span>{A.password}</span>
+            <input name="password" type="password" autocomplete="current-password" maxlength="200" />
+          </label>
+          <p class="account-fine account-pw-hint" data-only="create" hidden>{A.passwordHint}</p>
+          <button type="submit" class="account-primary" data-send data-signin-go>{A.send}</button>
+        </form>
+        <p class="account-links" data-only="password" hidden>
+          <button type="button" data-to-create>{A.toCreate}</button>
+          <button type="button" data-forgot>{A.forgot}</button>
+        </p>
+        <p class="account-links" data-only="create" hidden><button type="button" data-to-signin>{A.toSignIn}</button></p>
+        <p class="account-fine" set:html={fmt(A.privacyNote, { link: privacyLink })}></p>
+        <p class="account-fine account-redeem-pending" data-redeem-pending hidden></p>
+      </div>
+
+      <div data-show="code" hidden>
+        <h2 class="account-h">{A.sentTitle}</h2>
+        <p data-sent-text></p>
+        <form class="account-form" data-code-form novalidate>
+          <label class="account-field">
+            <span>{A.code}</span>
+            <input name="code" class="account-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]*" required maxlength="10" />
+          </label>
+          <button type="submit" class="account-primary" data-verify>{A.verify}</button>
+        </form>
+        <p class="account-links">
+          <button type="button" data-resend>{A.resend}</button>
+          <button type="button" data-other>{A.other}</button>
+        </p>
+        <p class="account-fine" data-resend-note hidden></p>
+      </div>
+
+      <div data-show="in" hidden>
+        <p class="account-welcome" data-welcome hidden>{A.welcome}</p>
+        <h2 class="account-h">{A.progressTitle}</h2>
+        <div class="account-stats">
+          <p><span class="account-num" data-stat-tests>–</span><span>{A.statTests}</span></p>
+          <p><span class="account-num" data-stat-steps>–</span><span>{A.statSteps}</span></p>
+        </div>
+        <p class="account-fine" data-saved-at></p>
+        <a class="account-primary" href={`/${locale}/study/`}>{A.continue}</a>
+        <p class="account-links">
+          <button type="button" data-save>{A.saveNow}</button>
+          <button type="button" data-signout>{A.signOut}</button>
+        </p>
+        <p class="account-fine">{A.signOutNote}</p>
+
+        <h2 class="account-h account-h-small">{A.planTitle}</h2>
+        <p data-plan>{A.planFree}</p>
+        <p class="account-links">
+          <a href={`/${locale}/pricing/`} data-plan-upgrade data-subscribe={CHECKOUT ? "yearly" : undefined}>{A.planUpgrade}</a>
+          <a href="#" data-plan-manage hidden rel="noopener">{A.planManage}</a>
+          <a href="#" data-plan-update hidden rel="noopener">{A.planUpdate}</a>
+        </p>
+
+        <h2 class="account-h account-h-small" id="redeem-title">{A.redeemTitle}</h2>
+        <form class="account-form account-redeem" data-redeem-form novalidate aria-labelledby="redeem-title">
+          <label class="account-field">
+            <span>{A.redeemLabel}</span>
+            <input name="redeem" autocomplete="off" autocapitalize="characters" spellcheck="false" required maxlength="40" />
+          </label>
+          <button type="submit" class="account-primary" data-redeem>{A.redeem}</button>
+        </form>
+        <p class="account-status" role="status" aria-live="polite" hidden data-redeem-status></p>
+        <p class="account-fine">{A.redeemNote}</p>
+
+        <h2 class="account-h account-h-small" id="password-title">{A.passwordTitle}</h2>
+        <p class="account-fine">{A.passwordBody}</p>
+        <form class="account-form account-redeem" data-password-form novalidate aria-labelledby="password-title">
+          <input type="email" name="username" autocomplete="username" hidden data-password-user />
+          <label class="account-field">
+            <span>{A.newPassword}</span>
+            <input name="new-password" type="password" autocomplete="new-password" required maxlength="200" />
+          </label>
+          <p class="account-fine account-pw-hint">{A.passwordHint}</p>
+          <button type="submit" class="account-primary" data-password-save>{A.savePassword}</button>
+        </form>
+        <p class="account-status" role="status" aria-live="polite" hidden data-password-status></p>
+
+        <h2 class="account-h account-h-small">{A.dataTitle}</h2>
+        <p class="account-fine">{A.dataBody}</p>
+        <p class="account-links">
+          <button type="button" data-download>{A.download}</button>
+          <button type="button" class="account-danger" data-delete>{A.delete}</button>
+        </p>
+        <div class="account-confirm" data-confirm hidden>
+          <p>{A.deleteConfirm}</p>
+          <p class="account-links">
+            <button type="button" class="account-danger" data-delete-yes>{A.deleteYes}</button>
+            <button type="button" data-delete-no>{A.cancel}</button>
+          </p>
+        </div>
+      </div>
+
+      <p data-show="offline" hidden>{A.offline}</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import { start } from "../../scripts/account-page";
+  start();
+</script>

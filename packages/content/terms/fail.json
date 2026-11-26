@@ -1,0 +1,44 @@
+{
+  "slug": "fail",
+  "subject": "nahw",
+  "chapter": "sentence",
+  "order": 5,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الفَاعِلُ",
+  "transliteration": "al-fāʿil",
+  "english": "The doer (fāʿil)",
+  "alsoKnownAs": [
+    "fail",
+    "fāʿil",
+    "agent",
+    "subject of a verb"
+  ],
+  "definition": "The marfūʿ noun that comes after its verb and names the one who did the act, or of whom the act is told.",
+  "explanation": [
+    "In قَامَ زَيْدٌ, zaydun is the fāʿil. In مَاتَ زَيْدٌ (Zayd died) it is the fāʿil too, though dying is not something he did: the term belongs to grammar, not to acting.",
+    "Al-Ājurrūmiyya defines it as the marfūʿ noun whose verb is mentioned before it. It can be a noun you see (قَامَ زَيْدٌ) or a pronoun (قُمْتُ, I stood, where the -tu is the fāʿil)."
+  ],
+  "examples": [
+    {
+      "arabic": "قَامَ زَيْدٌ",
+      "english": "Zayd stood: zaydun is the fāʿil."
+    },
+    {
+      "arabic": "قُمْتُ",
+      "english": "I stood: the -tu is the fāʿil."
+    }
+  ],
+  "related": [
+    "jumla-filiyya",
+    "maful-bih"
+  ],
+  "diagram": {
+    "type": "jumla",
+    "focus": "fail"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

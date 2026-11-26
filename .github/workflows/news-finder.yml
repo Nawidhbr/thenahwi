@@ -1,0 +1,37 @@
+# Every Saturday morning: look for new work on manṭiq and its neighbours (scripts/news-finder.mjs) and open an issue with the
+# candidates for review. Nothing is published by itself; a reviewer writes the chosen items into news.json.
+name: News finder
+on:
+  # Off until the news round for The Nahwi is set up (docs/news.md) (docs/setup-new-site.md): remove the # of the next two lines to turn it on.
+  # schedule:
+  #   - cron: "17 4 * * 6"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "How many days back to look"
+        default: "8"
+permissions:
+  contents: read
+  issues: write
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/news-finder.mjs --days "${{ github.event.inputs.days || '8' }}"
+        env:
+          OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
+          GH_TOKEN: ${{ github.token }}
+      - name: Open the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(node -e 'console.log(require("./news-candidates.json").length)')
+          if [ "$n" -gt 0 ]; then
+            gh issue create --title "News candidates $(date -u +%Y-%m-%d) ($n)" --body-file news-candidates.md
+          else
+            echo "No new candidates this week."
+          fi

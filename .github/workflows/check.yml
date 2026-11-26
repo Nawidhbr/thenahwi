@@ -1,0 +1,45 @@
+# On pull requests and by hand: the engine tests, the content validation, the build,
+# a check of the built site (links, titles, descriptions, share images, one h1, JSON-LD),
+# and the end-to-end tests of the learning paths and tools in a real browser (e2e/, Playwright).
+# Vercel deploys on its own; a red cross here means something is wrong before or after it goes live.
+name: Check
+
+# Only for pull requests (the weekly news) and by hand: every push to main has already passed `npm run check` locally,
+# and the private repository's Actions minutes are counted. A change to Markdown alone is skipped.
+on:
+  pull_request:
+    paths-ignore: ["**/*.md"]
+  workflow_dispatch:
+
+# A newer push to the same branch cancels a run still going, so a series of quick commits costs one run, not many.
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: node scripts/check-site.mjs apps/web/dist
+      # The browser is kept between runs (only the system libraries are installed each time).
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: test-results/
+          retention-days: 7

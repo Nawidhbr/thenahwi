@@ -1,0 +1,42 @@
+---
+import type { Term } from "@nahwi/content";
+import { initialLetter } from "../lib/arabic";
+import { t } from "../i18n";
+
+interface Props {
+  terms: Term[];
+  locale: string;
+}
+
+const { terms, locale } = Astro.props;
+const ui = t(locale);
+---
+
+<ol class="path">
+  {
+    terms.map((t) => (
+      <li>
+        <a href={`/${locale}/terms/${t.slug}/`} data-slug={t.slug} data-level={t.level}>
+          <span class="tile-wrap" aria-hidden="true">
+            <span class="tile">
+              <span lang="ar" class="u-668c7b">
+                {initialLetter(t.arabic)}
+              </span>
+            </span>
+          </span>
+          <span class="name">
+            {/* In Arabic the name is the Arabic term itself, so it is shown once. */}
+            <strong lang={locale === "ar" ? "ar" : undefined}>{t.english}</strong> <small class="tr">· {t.transliteration}</small>
+            <span class="stars" hidden data-label={ui.quiz.starsLabel}></span>
+            <span class="state">{ui.structure.upNext}</span>
+          </span>
+          {locale !== "ar" && (
+            <span class="ar" lang="ar">
+              {t.arabic}
+            </span>
+          )}
+        </a>
+      </li>
+    ))
+  }
+</ol>

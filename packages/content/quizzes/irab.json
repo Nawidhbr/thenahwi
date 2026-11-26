@@ -1,0 +1,51 @@
+{
+  "term": "irab",
+  "items": [
+    {
+      "id": "irab-1",
+      "prompt": "What is iʿrāb?",
+      "options": [
+        "The change at the end of a word caused by the governors that enter on it",
+        "The vowel in the middle of a word",
+        "The pattern of the root letters",
+        "The meaning of a word in a dictionary"
+      ],
+      "answer": 0,
+      "explanation": "Iʿrāb is about the end of the word, and the governor that changes it.",
+      "terms": [
+        "irab"
+      ]
+    },
+    {
+      "id": "irab-2",
+      "prompt": "Why does Zayd end differently in these two sentences?",
+      "arabic": "جَاءَ زَيْدٌ – رَأَيْتُ زَيْدًا",
+      "options": [
+        "Different governors: the doer of jāʾa, the object of raʾaytu",
+        "One of them is a mistake",
+        "Names change their ending freely",
+        "Because one sentence is in the past"
+      ],
+      "answer": 0,
+      "explanation": "The governor changes: as doer Zayd is marfūʿ, as object manṣūb.",
+      "terms": [
+        "irab"
+      ]
+    },
+    {
+      "id": "irab-3",
+      "prompt": "What is a word whose ending changes in this way called?",
+      "options": [
+        "muʿrab",
+        "mabnī",
+        "mujarrad",
+        "mazīd"
+      ],
+      "answer": 0,
+      "explanation": "A word that takes iʿrāb is muʿrab; one whose ending stays is mabnī.",
+      "terms": [
+        "irab"
+      ]
+    }
+  ]
+}

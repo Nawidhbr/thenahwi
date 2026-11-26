@@ -1,0 +1,53 @@
+{
+  "term": "ism-fail",
+  "items": [
+    {
+      "id": "ism-fail-1",
+      "prompt": "What is the active participle of this verb?",
+      "arabic": "نَصَرَ",
+      "options": [
+        "نَاصِرٌ",
+        "مَنْصُورٌ",
+        "نَصْرٌ",
+        "يَنْصُرُ"
+      ],
+      "answer": 0,
+      "explanation": "From the bare verb, the active participle is on fāʿil: nāṣir.",
+      "terms": [
+        "ism-fail"
+      ]
+    },
+    {
+      "id": "ism-fail-2",
+      "prompt": "What is the active participle of this verb?",
+      "arabic": "اِسْتَغْفَرَ",
+      "options": [
+        "مُسْتَغْفِرٌ",
+        "مُسْتَغْفَرٌ",
+        "اِسْتِغْفَارٌ",
+        "يَسْتَغْفِرُ"
+      ],
+      "answer": 0,
+      "explanation": "From an added pattern: a mīm with ḍamma in place of the prefix, and a kasra before the last letter.",
+      "terms": [
+        "ism-fail"
+      ]
+    },
+    {
+      "id": "ism-fail-3",
+      "prompt": "What does this word mean?",
+      "arabic": "مُكْرِمٌ",
+      "options": [
+        "one who honours",
+        "one who is honoured",
+        "honouring",
+        "he honoured"
+      ],
+      "answer": 0,
+      "explanation": "The kasra before the last letter makes it the active participle of akrama.",
+      "terms": [
+        "ism-fail"
+      ]
+    }
+  ]
+}

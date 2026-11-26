@@ -1,0 +1,52 @@
+{
+  "term": "mazid",
+  "items": [
+    {
+      "id": "mazid-1",
+      "prompt": "What has been added to make the second verb?",
+      "arabic": "كَرُمَ – أَكْرَمَ",
+      "options": [
+        "A hamza at the start",
+        "A doubled ʿayn",
+        "A tāʾ at the start",
+        "Nothing: they have the same pattern"
+      ],
+      "answer": 0,
+      "explanation": "Akrama is on afʿala: a hamza is added before the root.",
+      "terms": [
+        "mazid"
+      ]
+    },
+    {
+      "id": "mazid-2",
+      "prompt": "On which pattern is the maṣdar of the bāb of faʿʿala?",
+      "options": [
+        "tafʿīl",
+        "ifʿāl",
+        "istifʿāl",
+        "mufāʿala"
+      ],
+      "answer": 0,
+      "explanation": "ʿAllama has the maṣdar taʿlīm, on tafʿīl; hence the name bāb al-tafʿīl.",
+      "terms": [
+        "mazid"
+      ]
+    },
+    {
+      "id": "mazid-3",
+      "prompt": "Which of these verbs is mazīd?",
+      "arabic": "عَلِمَ – عَلَّمَ",
+      "options": [
+        "ʿallama",
+        "ʿalima",
+        "Both",
+        "Neither"
+      ],
+      "answer": 0,
+      "explanation": "ʿAllama doubles the ʿayn of the root; ʿalima is bare.",
+      "terms": [
+        "mazid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@nahwi/content",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Source content for The Nahwi (ṣarf and naḥw): terms, lessons, the knowledge base, validated against a schema.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "validate": "node --experimental-strip-types scripts/validate.ts"
+  },
+  "dependencies": {
+    "zod": "^4.1.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "term": "harf",
+  "items": [
+    {
+      "id": "harf-1",
+      "prompt": "How does al-Ājurrūmiyya define the particle?",
+      "options": [
+        "A word that takes none of the signs of the noun or the verb",
+        "A word that names a thing",
+        "A word with a time in it",
+        "A word of three letters"
+      ],
+      "answer": 0,
+      "explanation": "The particle is known by what it lacks: no sign of the noun, no sign of the verb.",
+      "terms": [
+        "harf"
+      ]
+    },
+    {
+      "id": "harf-2",
+      "prompt": "What does fī do here?",
+      "arabic": "فِي البَيْتِ",
+      "options": [
+        "It puts al-bayt into khafḍ",
+        "It puts al-bayt into rafʿ",
+        "It makes al-bayt a verb",
+        "Nothing: it has no effect"
+      ],
+      "answer": 0,
+      "explanation": "Fī is a particle of khafḍ: al-bayti ends in kasra after it.",
+      "terms": [
+        "harf"
+      ]
+    },
+    {
+      "id": "harf-3",
+      "prompt": "Which of these words is a particle?",
+      "options": [
+        "lam",
+        "kitāb",
+        "naṣara",
+        "Zayd"
+      ],
+      "answer": 0,
+      "explanation": "Lam is a particle that puts the present tense into jazm.",
+      "terms": [
+        "harf"
+      ]
+    }
+  ]
+}

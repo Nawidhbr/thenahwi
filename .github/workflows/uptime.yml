@@ -1,0 +1,66 @@
+# Every three hours: are the main pages of thenahwi.com up, quick, and the right pages, and does the accounts service
+# (Supabase) answer? If not, an issue labelled "uptime" is opened (or, if one is open, a comment added); when the
+# site answers well again, it is closed.
+# GitHub sends a mail for a new issue, so this is the alarm.
+name: Uptime
+
+on:
+  # Each run costs at least one Actions minute: eight a day, about 240 minutes a month.
+  # Off until thenahwi.com is live (docs/setup-new-site.md): remove the # of the next two lines to turn it on.
+  # schedule:
+  #   - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: apps/web/src/config/supabase-public.ts
+          sparse-checkout-cone-mode: false
+      - name: Check the main pages
+        id: check
+        run: |
+          set +e
+          fail=""
+          # The accounts service (Supabase): sign-in, synced progress and subscribers' access depend on it. A project
+          # that Supabase has paused answers with an error here, so the alarm also goes off for that.
+          conf=apps/web/src/config/supabase-public.ts
+          sb_url=$(grep -o 'https://[a-z0-9]*\.supabase\.co' "$conf" | head -1)
+          sb_key=$(grep -o 'sb_publishable_[A-Za-z0-9_-]*' "$conf" | head -1)
+          code=$(curl -sS -o /dev/null -w "%{http_code}" --max-time 20 -H "apikey: $sb_key" "$sb_url/auth/v1/health")
+          echo "accounts (Supabase) $code"
+          [ "$code" = "200" ] || fail="$fail\n- accounts (Supabase): HTTP $code — sign-in and synced progress are down; is the project paused? (Supabase dashboard)"
+          for path in / /en/ /en/study/ /en/terms/jins/ /en/books/ /en/news/ /en/practice/questions.json /sw.js /sitemap-index.xml; do
+            out=$(curl -sS -o /tmp/body -w "%{http_code} %{time_total}" --max-time 20 "https://thenahwi.com$path" -L)
+            code=${out% *}; time=${out#* }
+            echo "$path $code ${time}s"
+            if [ "$code" != "200" ]; then fail="$fail\n- \`$path\`: HTTP $code"; continue; fi
+            case "$path" in
+              /en/) grep -q "The Nahwi" /tmp/body || fail="$fail\n- \`$path\`: answered, but not with the home page" ;;
+            esac
+            awk -v t="$time" 'BEGIN { exit !(t > 8) }' && fail="$fail\n- \`$path\`: slow (${time}s)"
+          done
+          printf "fail<<EOF\n%b\nEOF\n" "$fail" >> "$GITHUB_OUTPUT"
+      - name: Open, update or close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FAIL: ${{ steps.check.outputs.fail }}
+        run: |
+          gh label create uptime --color B60205 --description "The site is down or slow" -R "$GITHUB_REPOSITORY" 2>/dev/null || true
+          open=$(gh issue list -R "$GITHUB_REPOSITORY" --label uptime --state open --json number --jq '.[0].number')
+          now=$(date -u +"%Y-%m-%d %H:%M UTC")
+          if [ -n "$(echo "$FAIL" | tr -d '[:space:]')" ]; then
+            body=$(printf "Checked at %s:\n%s\n\nSee the Vercel dashboard (Deployments, Logs) for the cause, or the Supabase dashboard for the accounts." "$now" "$FAIL")
+            if [ -n "$open" ]; then gh issue comment "$open" -R "$GITHUB_REPOSITORY" --body "$body"
+            else gh issue create -R "$GITHUB_REPOSITORY" --label uptime --title "thenahwi.com is down or slow" --body "$body"; fi
+            exit 1
+          elif [ -n "$open" ]; then
+            gh issue close "$open" -R "$GITHUB_REPOSITORY" --comment "Up again at $now."
+          fi

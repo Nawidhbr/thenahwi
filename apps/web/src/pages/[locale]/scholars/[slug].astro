@@ -1,0 +1,142 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KbHero from "../../../components/KbHero.astro";
+import { getBackground, getLibrary, type BackgroundPerson } from "@nahwi/content";
+import { LIVE_LOCALES, t } from "../../../i18n";
+import { gloss } from "../../../lib/gloss";
+import { KB_BOOKS, kbBook, kbPath, scholarPhoto, shortDied, shortName } from "../../../lib/kb";
+import { bookPath, coursesOn, pathLevel } from "../../../lib/course";
+import { breadcrumbs, person } from "../../../lib/structured-data";
+
+/** A scholar: life, works, what others wrote on them, what is uncertain, and the sources. */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => {
+    const { people } = getBackground(locale);
+    return people.map((person) => ({ params: { locale, slug: person.slug }, props: { person, people } }));
+  });
+}
+interface Props {
+  person: BackgroundPerson;
+  people: BackgroundPerson[];
+}
+const { locale } = Astro.params as { locale: string };
+const { person: p, people } = Astro.props;
+const ui = t(locale);
+const B = ui.book;
+const K = ui.kb.scholar;
+const kinds = B.kinds as Record<string, string>;
+const roles = B.roles as Record<string, string>;
+const target = (on: string) => {
+  const book = kbBook(on);
+  if (book) return { label: book.title, href: kbPath.book(locale, on) };
+  const x = people.find((y) => y.slug === on);
+  return x ? { label: shortName(x), href: kbPath.scholar(locale, on) } : { label: on, href: undefined };
+};
+// Works by others on this person's works (glosses on his commentary, and so on).
+const about = people.flatMap((x) => x.works.filter((w) => w.on === p.slug).map((w) => ({ ...w, by: x })));
+const books = p.books.map(kbBook).filter((b) => b !== undefined);
+// The books of the library by this scholar, each with a page of its own.
+const inLibrary = getLibrary(locale).filter((b) => b.authorSlug === p.slug);
+// The courses of the study portal on this scholar's works (a handbook or a library entry), each once.
+const courses = [...new Map([...KB_BOOKS.filter((b) => b.authorSlug === p.slug).map((b) => b.id), ...inLibrary.map((b) => b.id)].flatMap((id) => coursesOn(id, false)).map((c) => [c.id, c])).values()];
+const path = kbPath.scholar(locale, p.slug);
+// The search title adds the year of death in the reader's language ("al-Abharī (d. 663/1265)"): it tells namesakes
+// apart and keeps the title of one scholar different in each language, where the Latin name alone is the same.
+const diedShort = p.died ? shortDied(p.died, locale) : "";
+const withDate = diedShort ? `${shortName(p)} (${B.died} ${diedShort})` : "";
+const pageTitle = withDate && withDate.length <= 51 ? withDate : shortName(p);
+---
+
+<BaseLayout image={scholarPhoto(p)} title={pageTitle} description={p.summary} path={path.slice(locale.length + 1)} locale={locale} bleed jsonLd={[person(p, locale), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.kb.scholars.title, path: kbPath.scholars(locale) }, { name: shortName(p), path }])]}>
+  <KbHero
+    locale={locale}
+    photo={scholarPhoto(p)}
+    crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: ui.kb.scholars.title, href: kbPath.scholars(locale) }]}
+    kicker={[p.roles.map((r) => roles[r] ?? r).join(" · "), p.died && `${B.died} ${locale === "en" ? p.died.split(/ \(/)[0] : shortDied(p.died, locale)}`].filter(Boolean).join(" · ")}
+    arabic={p.arabic}
+    title={shortName(p)}
+    sub={p.name}
+  />
+  <div class="kb-wrap">
+    <div class="kb-layout">
+      <article class="kb-body">
+        <p class="kb-lead">{p.summary}</p>
+        <h2>{K.life}</h2>
+        {p.bio.map((x) => <p set:html={gloss(x, locale, undefined, "kb")} />)}
+        {p.uncertain.length > 0 && (
+          <div class="kb-note">
+            <p class="kb-kicker u-mb8">{K.uncertain}</p>
+            <ul>{p.uncertain.map((x) => <li>{x}</li>)}</ul>
+          </div>
+        )}
+        {p.works.length > 0 && (
+          <>
+            <h2>{K.works}</h2>
+            <ul class="kb-works">
+              {p.works.map((w) => {
+                const on = w.on ? target(w.on) : undefined;
+                return (
+                  <li>
+                    <span>
+                      <strong>{w.title}</strong>
+                      {w.arabic && <span class="ar" lang="ar"> {w.arabic}</span>}
+                      {on && <span class="muted"> — {B.on} {on.href ? <a href={on.href}>{on.label}</a> : on.label}</span>}
+                      {w.note && <span class="muted u-cd9b9c">{w.note}</span>}
+                    </span>
+                    <span class="k">{kinds[w.kind] ?? w.kind}</span>
+                  </li>
+                );
+              })}
+            </ul>
+          </>
+        )}
+        {p.reception.length > 0 && (
+          <>
+            <h2>{K.reception}</h2>
+            {p.reception.map((x) => <p set:html={gloss(x, locale, undefined, "kb")} />)}
+          </>
+        )}
+        <section class="kb-sources">
+          <p class="kb-kicker u-ink">{K.sources} ({p.sources.length})</p>
+          <ol>{p.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title}</a></li>)}</ol>
+        </section>
+      </article>
+      <aside class="kb-aside">
+        {about.length > 0 && (
+          <div class="kb-aside-dark">
+            <p class="kb-kicker u-273e41">{K.writtenOn}</p>
+            <ul class="u-4fa7d2">
+              {about.map((w) => (
+                <li><span class="muted">{kinds[w.kind] ?? w.kind}:</span> <a href={kbPath.scholar(locale, w.by.slug)}>{shortName(w.by)}</a>{w.by.died && <span class="muted"> ({locale === "en" ? w.by.died.split(/ \(/)[0] : shortDied(w.by.died, locale)})</span>}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {p.places.length > 0 && (
+          <div>
+            <p class="kb-kicker u-c7486a">{K.places}</p>
+            <ol class="kb-places">{p.places.map((x) => <li>{x}</li>)}</ol>
+          </div>
+        )}
+        {books.length > 0 && (
+          <div>
+            <p class="kb-kicker u-c7486a">{K.books}</p>
+            <div class="kb-chips">{books.map((b) => <a class="kb-chip" href={kbPath.book(locale, b.id)}>{b.title}</a>)}</div>
+          </div>
+        )}
+        {inLibrary.length > 0 && (
+          <div>
+            <p class="kb-kicker u-c7486a">{ui.kb.library.inLibrary}</p>
+            <div class="kb-chips">{inLibrary.map((b) => <a class="kb-chip" href={kbPath.book(locale, b.id)}>{b.title}</a>)}</div>
+          </div>
+        )}
+        {courses.length > 0 && (
+          <div>
+            <p class="kb-kicker u-c7486a">{ui.primer.course}</p>
+            <div class="kb-chips">{courses.map((c) => <a class="kb-chip" href={bookPath(locale, c.id)}>{c.title} <span class="muted">· {pathLevel(ui, c.id)}</span></a>)}</div>
+          </div>
+        )}
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

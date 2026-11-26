@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.astro/
+.vercel/
+.env
+.env.*
+!.env.example
+.DS_Store
+generated/
+test-results/
+playwright-report/
+apps/cms/.vercel/
+apps/cms/dist/
+news-candidates.json
+news-candidates.md

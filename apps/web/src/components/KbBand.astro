@@ -1,0 +1,26 @@
+---
+import Photo from "./Photo.astro";
+import { photoSrc } from "../config/photos";
+import { photoInfo } from "../lib/kb";
+
+/** A section opening of a knowledge-base page: a photo beside a black panel with the kicker, title and Arabic heading. */
+interface Props {
+  photo: string;
+  kicker: string;
+  title: string;
+  arabic: string;
+  id?: string;
+  href?: string;
+}
+const { photo, kicker, title, arabic, id, href } = Astro.props;
+const info = photoInfo(photo);
+---
+
+<section class="kb-band" id={id}>
+  <Photo slug={photo} sizes="(max-width: 760px) 100vw, 560px" max={800} alt={info?.alt ?? ""} />
+  <div class="kb-band-text">
+    <p class="kb-kicker">{kicker}</p>
+    <h2>{href ? <a href={href} class="u-8bdabc">{title}</a> : title}</h2>
+    <p class="kufi" lang="ar">{arabic}</p>
+  </div>
+</section>

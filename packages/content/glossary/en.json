@@ -1,0 +1,196 @@
+{
+  "entries": [
+    {
+      "id": "irab",
+      "forms": [
+        "iʿrāb"
+      ],
+      "plain": "change of ending",
+      "note": "The ending a word takes from the word that governs it.",
+      "term": "irab"
+    },
+    {
+      "id": "mabni",
+      "forms": [
+        "mabnī",
+        "bināʾ"
+      ],
+      "plain": "fixed ending",
+      "note": "A word whose ending never changes.",
+      "term": "bina"
+    },
+    {
+      "id": "murab",
+      "forms": [
+        "muʿrab"
+      ],
+      "plain": "inflected",
+      "note": "A word whose ending changes with its governor.",
+      "term": "irab"
+    },
+    {
+      "id": "marfu",
+      "forms": [
+        "marfūʿ",
+        "rafʿ"
+      ],
+      "plain": "in the -u state",
+      "note": "Rafʿ: the state shown by ḍamma, as in zaydun.",
+      "term": "anwa-al-irab"
+    },
+    {
+      "id": "mansub",
+      "forms": [
+        "manṣūb",
+        "naṣb"
+      ],
+      "plain": "in the -a state",
+      "note": "Naṣb: the state shown by fatḥa, as in zaydan.",
+      "term": "anwa-al-irab"
+    },
+    {
+      "id": "makhfud",
+      "forms": [
+        "makhfūḍ",
+        "khafḍ",
+        "majrūr",
+        "jarr"
+      ],
+      "plain": "in the -i state",
+      "note": "Khafḍ (jarr): the state shown by kasra, as in bi-zaydin.",
+      "term": "anwa-al-irab"
+    },
+    {
+      "id": "majzum",
+      "forms": [
+        "majzūm",
+        "jazm"
+      ],
+      "plain": "with sukūn (verbs)",
+      "note": "Jazm: the state of the present tense after lam, shown by sukūn.",
+      "term": "anwa-al-irab"
+    },
+    {
+      "id": "mubtada",
+      "forms": [
+        "mubtadaʾ"
+      ],
+      "plain": "subject",
+      "note": "The noun a nominal sentence begins with.",
+      "term": "mubtada"
+    },
+    {
+      "id": "khabar",
+      "forms": [
+        "khabar"
+      ],
+      "plain": "predicate",
+      "note": "What is said about the mubtadaʾ.",
+      "term": "khabar"
+    },
+    {
+      "id": "fail",
+      "forms": [
+        "fāʿil"
+      ],
+      "plain": "doer",
+      "note": "The marfūʿ noun after its verb.",
+      "term": "fail"
+    },
+    {
+      "id": "maful-bih",
+      "forms": [
+        "mafʿūl bihi"
+      ],
+      "plain": "object",
+      "note": "The manṣūb noun the act falls on.",
+      "term": "maful-bih"
+    },
+    {
+      "id": "masdar",
+      "forms": [
+        "maṣdar"
+      ],
+      "plain": "verbal noun",
+      "note": "The noun that names the act itself.",
+      "term": "masdar"
+    },
+    {
+      "id": "mujarrad",
+      "forms": [
+        "mujarrad"
+      ],
+      "plain": "bare form",
+      "note": "Made only of root letters.",
+      "term": "mujarrad"
+    },
+    {
+      "id": "mazid",
+      "forms": [
+        "mazīd"
+      ],
+      "plain": "augmented form",
+      "note": "With letters added to the root.",
+      "term": "mazid"
+    },
+    {
+      "id": "madi",
+      "forms": [
+        "māḍī"
+      ],
+      "plain": "past tense",
+      "term": "madi"
+    },
+    {
+      "id": "mudari",
+      "forms": [
+        "muḍāriʿ"
+      ],
+      "plain": "present tense",
+      "term": "mudari"
+    },
+    {
+      "id": "sigha",
+      "forms": [
+        "ṣīgha",
+        "ṣiyagh"
+      ],
+      "plain": "form (of person and number)",
+      "note": "One of the fourteen forms of a conjugated verb."
+    },
+    {
+      "id": "bab",
+      "forms": [
+        "bāb",
+        "abwāb"
+      ],
+      "plain": "verb pattern",
+      "note": "A pattern of the verb, named by its vowels or its maṣdar.",
+      "term": "mujarrad"
+    },
+    {
+      "id": "ilal",
+      "forms": [
+        "iʿlāl"
+      ],
+      "plain": "change of weak letters",
+      "note": "The rules by which wāw, yāʾ and alif change or drop.",
+      "term": "mutall"
+    },
+    {
+      "id": "amil",
+      "forms": [
+        "ʿāmil",
+        "ʿawāmil"
+      ],
+      "plain": "governor",
+      "note": "A word that causes the ending of another.",
+      "term": "irab"
+    }
+  ],
+  "ignore": [
+    "ism al-fāʿil",
+    "ism al-mafʿūl",
+    "Bināʾ al-afʿāl"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "mizan",
+  "name": "The morphological scale (faʿala)",
+  "arabic": "المِيزَانُ الصَّرْفِيُّ",
+  "transliteration": "al-mīzān al-ṣarfī",
+  "alsoKnownAs": [
+    "mizan",
+    "wazn",
+    "pattern",
+    "faʿala"
+  ],
+  "category": "root",
+  "definition": "The pattern فَعَلَ, whose letters fāʾ, ʿayn and lām stand for the first, second and third root letters of any word.",
+  "body": [
+    "To describe the form of a word, ṣarf weighs it against فعل. نَصَرَ is on the pattern فَعَلَ: its nūn is the fāʾ, its ṣād the ʿayn, its rāʾ the lām. يَنْصُرُ is on the pattern يَفْعُلُ, and نَاصِرٌ on فَاعِلٌ.",
+    "Letters added to the root appear in the pattern as they are: أَكْرَمَ is أَفْعَلَ, and اِسْتَغْفَرَ is اِسْتَفْعَلَ. So the scale shows at a glance which letters belong to the root and which were added."
+  ],
+  "examples": [
+    {
+      "arabic": "نَصَرَ ← فَعَلَ",
+      "text": "naṣara is on the pattern faʿala."
+    },
+    {
+      "arabic": "اِسْتَغْفَرَ ← اِسْتَفْعَلَ",
+      "text": "istaghfara is on the pattern istafʿala: the alif, sīn and tāʾ are added."
+    }
+  ],
+  "related": [
+    "mujarrad",
+    "mazid",
+    "ilm-al-sarf"
+  ],
+  "term": "mizan",
+  "books": [
+    "izzi",
+    "shafiya"
+  ]
+}

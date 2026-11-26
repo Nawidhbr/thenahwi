@@ -1,0 +1,52 @@
+{
+  "term": "mizan",
+  "items": [
+    {
+      "id": "mizan-1",
+      "prompt": "On which pattern is this verb?",
+      "arabic": "نَصَرَ",
+      "options": [
+        "faʿala",
+        "faʿila",
+        "afʿala",
+        "fāʿala"
+      ],
+      "answer": 0,
+      "explanation": "Naṣara has a fatḥa on each of its three root letters: faʿala.",
+      "terms": [
+        "mizan"
+      ]
+    },
+    {
+      "id": "mizan-2",
+      "prompt": "In the pattern faʿala, what does the ʿayn stand for?",
+      "options": [
+        "The second root letter",
+        "The first root letter",
+        "The third root letter",
+        "An added letter"
+      ],
+      "answer": 0,
+      "explanation": "Fāʾ, ʿayn and lām stand for the first, second and third root letters.",
+      "terms": [
+        "mizan"
+      ]
+    },
+    {
+      "id": "mizan-3",
+      "prompt": "On which pattern is this verb?",
+      "arabic": "اِسْتَغْفَرَ",
+      "options": [
+        "istafʿala",
+        "ifʿalla",
+        "tafaʿʿala",
+        "infaʿala"
+      ],
+      "answer": 0,
+      "explanation": "The root is gh-f-r; the alif, sīn and tāʾ before it are added: istafʿala.",
+      "terms": [
+        "mizan"
+      ]
+    }
+  ]
+}

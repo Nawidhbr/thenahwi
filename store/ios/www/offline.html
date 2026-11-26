@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Nahwi</title>
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --ink: #0a0a0a; --muted: #5c5c5c; --red: #d42a1f; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0a0a0a; --ink: #f5f5f5; --muted: #a3a3a3; } }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); }
+  body { font: 17px/1.5 -apple-system, system-ui, sans-serif; display: grid; place-items: center; padding: max(24px, env(safe-area-inset-top)) 24px max(24px, env(safe-area-inset-bottom)); box-sizing: border-box; }
+  main { max-width: 26rem; }
+  svg { color: var(--ink); display: block; margin-bottom: 28px; }
+  svg .ink { fill: var(--bg); }
+  h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 12px; }
+  p { margin: 0 0 28px; color: var(--muted); }
+  a { display: inline-block; background: var(--red); color: #ffffff; text-decoration: none; font-weight: 700; padding: 14px 22px; }
+</style>
+</head>
+<body>
+<main>
+  <svg aria-hidden="true" width="56" height="56" viewBox="0 0 512 512"><rect width="512" height="512" fill="currentColor"/><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" class="ink" fill-rule="evenodd"/><rect x="232" y="120" width="48" height="48" fill="#d42a1f"/></g></svg>
+  <h1 id="title"></h1>
+  <p id="body"></p>
+  <a id="retry" href="https://thenahwi.com/en/study/?app=start"></a>
+</main>
+<script>
+  const T = {"ar":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"rtl"},"en":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"ltr"},"fa":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"rtl"},"fr":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"ltr"},"id":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"ltr"},"nl":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"ltr"},"ru":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"ltr"},"tr":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"ltr"},"ur":{"title":"No connection","body":"The Nahwi needs the internet the first time it opens. After that, the course, the terms and the practice open without it.","retry":"Try again","dir":"rtl"}};
+  const want = (navigator.languages || [navigator.language || "en"]).map((l) => String(l).slice(0, 2).toLowerCase());
+  const code = want.find((l) => T[l]) || "en";
+  const t = T[code];
+  document.documentElement.lang = code;
+  document.documentElement.dir = t.dir;
+  document.getElementById("title").textContent = t.title;
+  document.getElementById("body").textContent = t.body;
+  document.getElementById("retry").textContent = t.retry;
+</script>
+</body>
+</html>

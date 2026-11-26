@@ -1,0 +1,49 @@
+---
+import Photo from "./Photo.astro";
+import { photoSrc } from "../config/photos";
+import { photoInfo } from "../lib/kb";
+import { t } from "../i18n";
+
+/** The "Split" header of a knowledge-base page: a black-and-white photo beside a black panel with the titles. */
+interface Props {
+  locale: string;
+  photo: string;
+  crumbs?: { label: string; href?: string }[];
+  kicker?: string;
+  arabic?: string;
+  /** The title; may hold <em> for the red accent. */
+  title: string;
+  sub?: string;
+  big?: boolean;
+  /** A long Arabic line (a full name) is set smaller. */
+  arabicSmall?: boolean;
+}
+const { locale, photo, crumbs = [], kicker, arabic, title, sub, big = false, arabicSmall = (arabic ?? "").length > 22 } = Astro.props;
+const ui = t(locale);
+const info = photoInfo(photo);
+---
+
+<section class:list={["kb-hero", { "kb-hero-big": big }]}>
+  <figure class="kb-hero-photo">
+    {/* The hero opens every knowledge-base page, so its photo is the largest thing on screen: load it first. */}
+    <Photo slug={photo} sizes="(max-width: 840px) 100vw, 50vw" alt={info?.alt ?? ""} loading="eager" fetchpriority="high" />
+    {info?.place && <figcaption class="kb-credit">{info.place}</figcaption>}
+  </figure>
+  <div class="kb-hero-panel">
+    {crumbs.length > 0 && (
+      <p class="kb-crumbs">
+        {crumbs.map((c, i) => (
+          <>
+            {i > 0 && " / "}
+            {c.href ? <a href={c.href}>{c.label}</a> : c.label}
+          </>
+        ))}
+      </p>
+    )}
+    {kicker && <p class="kb-kicker">{kicker}</p>}
+    {arabic && <p class:list={["kufi kb-hero-ar", { "kb-hero-ar-sm": arabicSmall }]} lang="ar">{arabic}</p>}
+    <h1 set:html={title} />
+    {sub && <p class="kb-hero-sub">{sub}</p>}
+    <slot />
+  </div>
+</section>

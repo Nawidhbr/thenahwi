@@ -1,0 +1,45 @@
+{
+  "slug": "mazid",
+  "subject": "sarf",
+  "chapter": "root",
+  "order": 3,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "المَزِيدُ",
+  "transliteration": "al-mazīd",
+  "english": "The augmented form",
+  "alsoKnownAs": [
+    "mazid",
+    "mazīd fīhi",
+    "derived forms",
+    "verb forms II–X"
+  ],
+  "definition": "A verb or noun with one or more letters added to its root letters, which usually change or add to its meaning.",
+  "explanation": [
+    "From عَلِمَ (he knew) come عَلَّمَ (he taught), with a doubled ʿayn, and تَعَلَّمَ (he learnt), with a tāʾ in front as well. Each added pattern has meanings it often carries: أَفْعَلَ often makes a verb transitive, and تَفَاعَلَ often shows an act done to one another.",
+    "Grammars written in Europe number these patterns II to X. The madrasa books name them by their maṣdar: bāb al-tafʿīl for فَعَّلَ, bāb al-ifʿāl for أَفْعَلَ, bāb al-istifʿāl for اِسْتَفْعَلَ."
+  ],
+  "examples": [
+    {
+      "arabic": "كَرُمَ ← أَكْرَمَ",
+      "english": "karuma, he was noble; akrama, he honoured: a hamza is added."
+    },
+    {
+      "arabic": "عَلِمَ ← تَعَلَّمَ",
+      "english": "ʿalima, he knew; taʿallama, he learnt: a tāʾ and a doubled ʿayn are added."
+    }
+  ],
+  "related": [
+    "mizan",
+    "mujarrad",
+    "masdar"
+  ],
+  "diagram": {
+    "type": "mizan",
+    "focus": "mazid"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

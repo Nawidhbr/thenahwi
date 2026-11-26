@@ -1,0 +1,112 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import KbHero from "./KbHero.astro";
+import { getLibrary, type LibraryBook } from "@nahwi/content";
+import { fmt, t } from "../i18n";
+import { kbBook, kbPath, photoFor } from "../lib/kb";
+import { ord } from "../lib/ord";
+import { breadcrumbs, libraryBook } from "../lib/structured-data";
+import { bookPath, coursesOn, pathLevel } from "../lib/course";
+
+/** A book of the library: what it is, its author, what it comments on, editions and sources, and its neighbours. */
+interface Props { locale: string; entry: LibraryBook }
+const { locale, entry: given } = Astro.props;
+// The book in the reader's language (its summary, a translated title, the author's name), else as given.
+const entry = getLibrary(locale).find((b) => b.id === given.id) ?? given;
+const ui = t(locale);
+const B = ui.kb.books;
+const L = ui.kb.library;
+const kinds = L.kinds as Record<string, string>;
+const languages = L.languages as Record<string, string>;
+const library = getLibrary(locale);
+const century = fmt(ui.kb.scholars.century, { n: ord(entry.century, locale) });
+// What it comments on: a handbook, another library book, or a plain title.
+const onBook = entry.on ? kbBook(entry.on) : undefined;
+const onEntry = entry.on ? library.find((b) => b.id === entry.on) : undefined;
+const onHref = onBook ? kbPath.book(locale, onBook.id) : onEntry ? kbPath.book(locale, onEntry.id) : undefined;
+const onLabel = onBook?.title ?? onEntry?.title ?? entry.on;
+// Works that comment on this one, and other works by the same author.
+const commentaries = library.filter((b) => b.on === entry.id);
+const byAuthor = library.filter((b) => b.id !== entry.id && (entry.authorSlug ? b.authorSlug === entry.authorSlug : b.author === entry.author));
+const i = library.findIndex((b) => b.id === entry.id);
+const prev = library[i - 1];
+const next = library[i + 1];
+const path = kbPath.book(locale, entry.id);
+const paragraphs = entry.summary.split(/\n\n+/);
+// The work as a course in the study portal (packages/content/primers/), where there is one.
+const courses = coursesOn(entry.id, false);
+---
+
+<BaseLayout image={photoFor(entry.id)} title={`${entry.title} – ${entry.author}`} description={paragraphs[0]} path={path.slice(locale.length + 1)} locale={locale} bleed jsonLd={[libraryBook(entry, locale, photoFor(entry.id), !!(onBook || onEntry)), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: B.title, path: kbPath.books(locale) }, { name: entry.title, path }])]}>
+  <KbHero
+    locale={locale}
+    photo={photoFor(entry.id)}
+    crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: B.title, href: kbPath.books(locale) }, { label: L.title, href: `${kbPath.books(locale)}#library` }]}
+    kicker={`${kinds[entry.kind] ?? entry.kind} · ${century}`}
+    arabic={entry.arabic}
+    title={entry.title}
+    sub={entry.died ? fmt(B.by, { author: entry.author, died: entry.died }) : entry.author}
+  />
+  <div class="kb-wrap">
+    <section class="kb-section kb-overview">
+      <div>
+        {paragraphs.map((p) => <p>{p}</p>)}
+      </div>
+      <dl class="kb-facts">
+        {entry.fullTitle && <><dt>{B.fullTitle}</dt><dd>{entry.fullTitle}</dd></>}
+        <dt>{B.author}</dt><dd>{entry.authorSlug ? <a href={kbPath.scholar(locale, entry.authorSlug)}>{entry.author}</a> : entry.author}</dd>
+        {entry.died && <><dt>{B.died}</dt><dd>{entry.died}</dd></>}
+        <dt>{L.written}</dt><dd>{century}</dd>
+        <dt>{L.language}</dt><dd>{languages[entry.language] ?? entry.language}</dd>
+        {entry.on && <><dt>{L.on}</dt><dd>{onHref ? <a href={onHref}>{onLabel}</a> : onLabel}</dd></>}
+      </dl>
+    </section>
+
+    {courses.length > 0 && (
+      <section class="kb-section">
+        <div class="kb-head"><h2>{ui.primer.course}</h2><p class="kufi" lang="ar">الدُّرُوس</p></div>
+        <div class="kb-chips u-195e77">
+          {courses.map((p) => <a class="kb-chip" href={bookPath(locale, p.id)}>{p.title} <span class="muted">· {pathLevel(ui, p.id)} · {fmt(ui.primer.lessons, { n: String(p.lessons) })}</span></a>)}
+        </div>
+      </section>
+    )}
+
+    {entry.editions.length > 0 && (
+      <section class="kb-section">
+        <div class="kb-head"><h2>{L.editions}</h2><p class="kufi" lang="ar">الطَّبَعات</p></div>
+        <ul class="kb-plain">{entry.editions.map((e) => <li>{e}</li>)}</ul>
+      </section>
+    )}
+
+    {(commentaries.length > 0 || byAuthor.length > 0) && (
+      <section class="kb-section">
+        {commentaries.length > 0 && (
+          <>
+            <div class="kb-head"><h2>{L.writtenOn}</h2><p class="kufi" lang="ar">ما كُتِبَ عَلَيْه</p></div>
+            <div class="kb-chips u-1253e9">
+              {commentaries.map((b) => <a class="kb-chip" href={kbPath.book(locale, b.id)}>{b.title} <span class="muted">· {b.author}</span></a>)}
+            </div>
+          </>
+        )}
+        {byAuthor.length > 0 && (
+          <>
+            <div class="kb-head"><h2>{fmt(L.byAuthor, { author: entry.author })}</h2></div>
+            <div class="kb-chips u-mt14">
+              {byAuthor.map((b) => <a class="kb-chip" href={kbPath.book(locale, b.id)}>{b.title}</a>)}
+            </div>
+          </>
+        )}
+      </section>
+    )}
+
+    <section class="kb-section kb-sources">
+      <p class="kb-kicker u-ink">{fmt(ui.kb.article.sources, { n: entry.sources.length })}</p>
+      <ol>{entry.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title}</a></li>)}</ol>
+    </section>
+
+    <nav class="kb-pager u-pb64" aria-label={L.title}>
+      {prev ? <a href={kbPath.book(locale, prev.id)}><span class="kb-kicker">← {ui.kb.article.prev}</span><br /><strong>{prev.title}</strong> <span class="muted">· {prev.author}</span></a> : <span />}
+      {next && <a href={kbPath.book(locale, next.id)} class="u-end"><span class="kb-kicker">{ui.kb.article.next} →</span><br /><strong>{next.title}</strong> <span class="muted">· {next.author}</span></a>}
+    </nav>
+  </div>
+</BaseLayout>

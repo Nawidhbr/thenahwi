@@ -1,0 +1,209 @@
+---
+/**
+ * Diagrams that show a term or a lesson at a glance: the divisions of ṣarf and naḥw as trees of boxes, each with its
+ * Arabic name. Drawn as inline SVG with the site's colour tokens, so they follow the light and
+ * dark theme and the "Clear glass" look (global.css, "Diagrams"). The `focus` marks what the current term or lesson
+ * is about, in red (the house colour for the current item). Every focus a term or lesson uses has its own caption in
+ * `diagram.cap` of the UI dictionaries (test/diagrams.test.ts).
+ */
+import type { DiagramType } from "@nahwi/content";
+
+import { fmt, t } from "../i18n";
+
+interface Props {
+  type: DiagramType;
+  focus?: string;
+  locale?: string;
+}
+
+const { type, focus, locale = "en" } = Astro.props;
+const L = t(locale).diagram;
+const id = `dg-${type}-${focus ?? "all"}`;
+const f = (key: string) => (focus === key ? "focus" : "fill");
+const tf = (key: string) => (focus === key ? "t tf" : "t");
+const dim = (keys: string[]) => (focus && !keys.includes(focus) && focus !== "all" ? "dim" : "");
+
+const caps = L.cap as Record<string, string>;
+const caption = caps[`${type}.${focus ?? "all"}`] ?? caps[`${type}.all`];
+const sq = (x: number, y: number, label: string, on: boolean) => ({ x, y, label, on });
+// A label too long for one line of a narrow box is set on two, split at the space nearest the middle.
+const two = (label: string): [string, string] => {
+  if (label.length <= 15 || !label.includes(" ")) return [label, ""];
+  const mid = label.length / 2;
+  const spaces = [...label.matchAll(/ /g)].map((m) => m.index!);
+  const at = spaces.reduce((a, b) => (Math.abs(b - mid) < Math.abs(a - mid) ? b : a));
+  return [label.slice(0, at), label.slice(at + 1)];
+};
+// The tree diagrams: a box with its label (and a second line, an example or a gloss), red when it is the focus.
+const box = (x: number, y: number, w: number, h: number, label: string, sub: string, on: boolean) => ({ x, y, w, h, label, sub, on });
+const kn = (keys: string[]) => !!focus && keys.includes(focus);
+
+// Words that wrap: greedy lines of at most `max` characters (a label in a narrow box, a note under a figure).
+const wrap = (text: string, max: number): string[] => {
+  const lines: string[] = [];
+  for (const word of text.split(" ")) {
+    const last = lines[lines.length - 1];
+    if (last !== undefined && (last + " " + word).length <= max) lines[lines.length - 1] = last + " " + word;
+    else lines.push(word);
+  }
+  return lines;
+};
+const on = (...keys: string[]) => !!focus && keys.includes(focus);
+
+/* The box diagrams added with "Clear glass" share one drawing: boxes (a label, lines under it, an Arabic name), the
+   lines that join them, and for some a figure of their own drawn below in the template. */
+type Node = { x: number; y: number; w: number; h: number; label: string; sub?: string; ar?: string; on?: boolean; soft?: boolean; quiet?: boolean };
+type Tree = { h: number; lines: string; dashed?: string; nodes: Node[] };
+const node = (x: number, y: number, w: number, h: number, label: string, o: Partial<Node> = {}): Node => ({ x, y, w, h, label, ...o });
+const trees: Partial<Record<string, Tree>> = {
+  sciences: {
+    h: 176,
+    lines: "M180 56 V68 H85 V80 M180 68 H275 V80",
+    nodes: [
+      node(90, 0, 180, 56, L.scWord, { ar: "الكَلِمَةُ العَرَبِيَّةُ" }),
+      node(0, 80, 170, 92, L.scSarf, { sub: L.scSarfSub, ar: "الصَّرْفُ", on: on("sarf") }),
+      node(190, 80, 170, 92, L.scNahw, { sub: L.scNahwSub, ar: "النَّحْوُ", on: on("nahw") }),
+    ],
+  },
+  kalima: {
+    h: 248,
+    lines: "M180 52 V64 H57 V76 M180 64 V76 M180 64 H303 V76",
+    dashed: "M180 152 V176",
+    nodes: [
+      node(110, 0, 140, 52, L.kWord, { ar: "الكَلِمَةُ", on: on("kalima") }),
+      node(0, 76, 114, 76, L.kNoun, { sub: L.kNounSub, ar: "الاسْمُ", on: on("ism", "kalima") }),
+      node(123, 76, 114, 76, L.kVerb, { sub: L.kVerbSub, ar: "الفِعْلُ", on: on("fil", "kalima") }),
+      node(246, 76, 114, 76, L.kParticle, { sub: L.kParticleSub, ar: "الحَرْفُ", on: on("harf", "kalima") }),
+      node(30, 176, 300, 68, L.kSpeech, { sub: L.kSpeechSub, ar: "الكَلَامُ", soft: true, on: on("kalam") }),
+    ],
+  },
+  mizan: {
+    h: 226,
+    lines: "M180 52 V60 H57 V68 M180 60 V68 M180 60 H303 V68",
+    dashed: "M180 124 V136 H85 V148 M180 136 H275 V148",
+    nodes: [
+      node(90, 0, 180, 52, L.mzScale, { ar: "فَعَلَ", on: on("mizan") }),
+      node(0, 68, 114, 56, L.mzLam, { sub: L.mzLamSub, on: on("mizan") }),
+      node(123, 68, 114, 56, L.mzAyn, { sub: L.mzAynSub, on: on("mizan") }),
+      node(246, 68, 114, 56, L.mzFa, { sub: L.mzFaSub, on: on("mizan") }),
+      node(0, 148, 170, 74, L.mzBare, { sub: L.mzBareSub, ar: "المُجَرَّدُ", on: on("mujarrad") }),
+      node(190, 148, 170, 74, L.mzAdded, { sub: L.mzAddedSub, ar: "المَزِيدُ", on: on("mazid") }),
+    ],
+  },
+  fil: {
+    h: 168,
+    lines: "M180 52 V64 H57 V76 M180 64 V76 M180 64 H303 V76",
+    nodes: [
+      node(110, 0, 140, 52, L.fVerb, { ar: "الفِعْلُ" }),
+      node(0, 76, 114, 88, L.fPast, { sub: L.fPastSub, ar: "المَاضِي", on: on("madi") }),
+      node(123, 76, 114, 88, L.fPresent, { sub: L.fPresentSub, ar: "المُضَارِعُ", on: on("mudari") }),
+      node(246, 76, 114, 88, L.fCommand, { sub: L.fCommandSub, ar: "الأَمْرُ", on: on("amr") }),
+    ],
+  },
+  sahih: {
+    h: 170,
+    lines: "M180 52 V64 H85 V76 M180 64 H275 V76",
+    nodes: [
+      node(100, 0, 160, 52, L.shRoot, { ar: "حُرُوفُ الأَصْلِ" }),
+      node(0, 76, 170, 90, L.shSound, { sub: L.shSoundSub, ar: "الصَّحِيحُ", on: on("sahih") }),
+      node(190, 76, 170, 90, L.shWeak, { sub: L.shWeakSub, ar: "المُعْتَلُّ", on: on("mutall") }),
+    ],
+  },
+  mushtaqq: {
+    h: 182,
+    lines: "M180 64 V76 H85 V88 M180 76 H275 V88",
+    nodes: [
+      node(90, 0, 180, 64, L.msMasdar, { sub: L.msMasdarSub, ar: "المَصْدَرُ", on: on("masdar") }),
+      node(0, 88, 170, 90, L.msFail, { sub: L.msFailSub, ar: "اسْمُ الفَاعِلِ", on: on("fail") }),
+      node(190, 88, 170, 90, L.msMaful, { sub: L.msMafulSub, ar: "اسْمُ المَفْعُولِ", on: on("maful") }),
+    ],
+  },
+  irab: {
+    h: 246,
+    lines: "M180 48 V60 H85 V72 M180 60 H275 V72 M85 140 V152 H42 V164 M85 152 H318 V164 M134 152 V164 M226 152 V164",
+    nodes: [
+      node(100, 0, 160, 48, L.irEnd, { ar: "آخِرُ الكَلِمَةِ" }),
+      node(0, 72, 170, 68, L.irChanges, { sub: L.irChangesSub, ar: "المُعْرَبُ", on: on("irab") }),
+      node(190, 72, 170, 68, L.irFixed, { sub: L.irFixedSub, ar: "المَبْنِيُّ", on: on("bina") }),
+      node(0, 164, 84, 78, L.irRaf, { sub: L.irRafSub, ar: "الرَّفْعُ", on: on("anwa") }),
+      node(92, 164, 84, 78, L.irNasb, { sub: L.irNasbSub, ar: "النَّصْبُ", on: on("anwa") }),
+      node(184, 164, 84, 78, L.irJarr, { sub: L.irJarrSub, ar: "الخَفْضُ", on: on("anwa") }),
+      node(276, 164, 84, 78, L.irJazm, { sub: L.irJazmSub, ar: "الجَزْمُ", on: on("anwa") }),
+    ],
+  },
+  jumla: {
+    h: 240,
+    lines: "M180 48 V60 H85 V72 M180 60 H275 V72 M85 132 V146 H41 V160 M85 146 H129 V160 M275 132 V146 H217 V160 M275 146 V160 M275 146 H333 V160",
+    nodes: [
+      node(110, 0, 140, 48, L.jSentence, { ar: "الجُمْلَةُ" }),
+      node(0, 72, 170, 60, L.jNominal, { sub: L.jNominalSub, ar: "الاسْمِيَّةُ", on: on("ismiyya", "mubtada", "khabar") }),
+      node(190, 72, 170, 60, L.jVerbal, { sub: L.jVerbalSub, ar: "الفِعْلِيَّةُ", on: on("filiyya", "fail", "maful") }),
+      node(0, 160, 82, 76, L.jMubtada, { sub: "zaydun", ar: "المُبْتَدَأُ", on: on("ismiyya", "mubtada") }),
+      node(88, 160, 82, 76, L.jKhabar, { sub: "qāʾimun", ar: "الخَبَرُ", on: on("ismiyya", "khabar") }),
+      node(190, 160, 54, 76, L.jVerb, { sub: "qāma", ar: "الفِعْلُ", on: on("filiyya") }),
+      node(248, 160, 54, 76, L.jDoer, { sub: "zaydun", ar: "الفَاعِلُ", on: on("filiyya", "fail") }),
+      node(306, 160, 54, 76, L.jObject, { sub: "ʿamran", ar: "المَفْعُولُ", on: on("filiyya", "maful") }),
+    ],
+  },
+};
+const tree = trees[type];
+// In Arabic the labels are the Arabic terms themselves, so the extra Arabic names are left out.
+const ownAr = locale !== "ar";
+const noteLine = false;
+---
+
+<figure class="diagram">
+  {
+    tree && (
+      <svg class="dg" viewBox={`0 0 360 ${tree.h}`} role="img" aria-label={caption}>
+        <path d={tree.lines} class="ln" fill="none" />
+        {tree.dashed && <path d={tree.dashed} class="ln dash" fill="none" />}
+        {tree.nodes.map((b) => {
+          const max = Math.max(8, Math.floor(b.w / 6.6));
+          const head = b.w < 130 ? wrap(b.label, Math.max(8, Math.floor(b.w / 9))) : [b.label];
+          const subs = b.sub ? wrap(b.sub, max) : [];
+          const ar = b.ar && (noteLine || ownAr) ? b.ar : "";
+          const block = head.length * 18 + subs.length * 16 + (ar ? 22 : 0);
+          let y = b.y + (b.h - block) / 2 + 13;
+          const out: { text: string; y: number; cls: string }[] = [];
+          head.forEach((h) => { out.push({ text: h, y, cls: (b.quiet ? "tm" : b.soft ? "ts" : "t tb") + (b.on ? " tf" : "") }); y += 18; });
+          subs.forEach((h) => { out.push({ text: h, y: y - 2, cls: "tm" + (b.on ? " tf" : "") }); y += 16; });
+          if (ar) out.push({ text: ar, y: y + 4, cls: noteLine ? "tm" + (b.on ? " tf" : "") : "ta" + (b.on ? " tf" : "") });
+          return (
+            <>
+              {!b.quiet && <rect x={b.x} y={b.y} width={b.w} height={b.h} rx="14" class={b.on ? "focus" : "fill"} />}
+              {out.map((o) => (
+                <text x={b.x + b.w / 2} y={o.y} class={o.cls} text-anchor="middle" data-fit={b.w - 10}>{o.text}</text>
+              ))}
+            </>
+          );
+        })}
+      </svg>
+    )
+  }
+
+  <figcaption>{caption}</figcaption>
+</figure>
+
+<script>
+  // Labels inside a box carry data-fit (the room they have). Translations run
+  // longer than English, so a label that does not fit is set a little smaller,
+  // and only if that is not enough, narrowed to the box.
+  const fit = () => {
+    for (const el of document.querySelectorAll<SVGTextElement>(".dg text[data-fit]")) {
+      el.style.fontSize = "";
+      el.removeAttribute("textLength");
+      const room = Number(el.dataset.fit);
+      const len = el.getComputedTextLength();
+      if (!room || len <= room) continue;
+      const size = parseFloat(getComputedStyle(el).fontSize);
+      const scale = Math.max(room / len, 0.92); // keep labels near 13px; narrow the rest
+      el.style.fontSize = `${size * scale}px`;
+      if (el.getComputedTextLength() > room) {
+        el.setAttribute("textLength", String(room));
+        el.setAttribute("lengthAdjust", "spacingAndGlyphs");
+      }
+    }
+  };
+  document.fonts.ready.then(fit);
+</script>

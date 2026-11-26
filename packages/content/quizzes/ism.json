@@ -1,0 +1,51 @@
+{
+  "term": "ism",
+  "items": [
+    {
+      "id": "ism-1",
+      "prompt": "Which of these is a sign of the noun?",
+      "options": [
+        "It can take the article al-",
+        "It can take qad before it",
+        "It can take the sīn of the future",
+        "It always ends in sukūn"
+      ],
+      "answer": 0,
+      "explanation": "The article al-, tanwīn and khafḍ mark the noun; qad and the sīn of the future mark the verb.",
+      "terms": [
+        "ism"
+      ]
+    },
+    {
+      "id": "ism-2",
+      "prompt": "What separates a noun from a verb?",
+      "options": [
+        "A noun shows a meaning without tying it to a time",
+        "A noun always has three letters",
+        "A noun can never be the doer",
+        "A noun never takes tanwīn"
+      ],
+      "answer": 0,
+      "explanation": "The verb carries a time; the noun does not.",
+      "terms": [
+        "ism"
+      ]
+    },
+    {
+      "id": "ism-3",
+      "prompt": "Which word is a noun?",
+      "arabic": "كِتَابٌ – كَتَبَ – قَدْ",
+      "options": [
+        "kitābun (a book)",
+        "kataba (he wrote)",
+        "qad",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "Kitābun has tanwīn, a sign of the noun. Kataba is a verb and qad a particle.",
+      "terms": [
+        "ism"
+      ]
+    }
+  ]
+}

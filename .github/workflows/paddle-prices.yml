@@ -1,0 +1,24 @@
+# Writes the country prices of full access into Paddle (scripts/paddle-prices.mjs) whenever
+# apps/web/src/config/pricing.json changes on main, or by hand (Actions → Paddle prices → Run workflow).
+# Needs the repository secret PADDLE_API_KEY (a Paddle API key that may write prices).
+name: Paddle prices
+
+on:
+  push:
+    branches: [main]
+    paths: [apps/web/src/config/pricing.json, scripts/paddle-prices.mjs]
+  workflow_dispatch:
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Write the country prices
+        env:
+          PADDLE_API_KEY: ${{ secrets.PADDLE_API_KEY }}
+        run: node scripts/paddle-prices.mjs

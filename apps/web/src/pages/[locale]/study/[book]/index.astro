@@ -1,0 +1,24 @@
+---
+import TermsBook from "../../../../components/study/TermsBook.astro";
+import PrimerBook from "../../../../components/study/PrimerBook.astro";
+import TrackLevel from "../../../../components/study/TrackLevel.astro";
+import { primerIn } from "@nahwi/content";
+import { LIVE_LOCALES } from "../../../../i18n";
+import { primers, tracks } from "../../../../lib/course";
+
+/**
+ * A book of the study portal, one address per book whatever the madrasa path (/<locale>/study/<book>/):
+ * al-Mabādiʾ with its terms, a primer course, or a book read lesson by lesson with its commentary.
+ */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => [
+    { params: { locale, book: "mabadi" }, props: { kind: "terms" as const } },
+    ...primers().map((p) => ({ params: { locale, book: p.id }, props: { kind: "primer" as const, p: primerIn(p, locale) } })),
+    ...tracks().map((x) => ({ params: { locale, book: x.book.id }, props: { kind: "track" as const, level: x.level } })),
+  ]);
+}
+const { locale } = Astro.params as { locale: string };
+const props = Astro.props as any;
+---
+
+{props.kind === "terms" ? <TermsBook locale={locale} /> : props.kind === "primer" ? <PrimerBook locale={locale} p={props.p} /> : <TrackLevel locale={locale} n={String(props.level)} />}

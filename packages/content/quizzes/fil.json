@@ -1,0 +1,51 @@
+{
+  "term": "fil",
+  "items": [
+    {
+      "id": "fil-1",
+      "prompt": "What does a verb show?",
+      "options": [
+        "A meaning together with one of the three times",
+        "A meaning only together with another word",
+        "The name of a person or thing",
+        "Only a command"
+      ],
+      "answer": 0,
+      "explanation": "The verb joins an act to a time: past, present or future.",
+      "terms": [
+        "fil"
+      ]
+    },
+    {
+      "id": "fil-2",
+      "prompt": "Which word is a verb by its sign here?",
+      "arabic": "قَدْ نَصَرَ",
+      "options": [
+        "naṣara, because qad comes before it",
+        "qad, because it is short",
+        "Neither: this is a noun",
+        "Both are verbs"
+      ],
+      "answer": 0,
+      "explanation": "Qad is a particle; coming before naṣara, it is a sign that naṣara is a verb.",
+      "terms": [
+        "fil"
+      ]
+    },
+    {
+      "id": "fil-3",
+      "prompt": "Which of these is a sign of the verb in al-Ājurrūmiyya?",
+      "options": [
+        "The tāʾ of the feminine with sukūn, as in naṣarat",
+        "Tanwīn",
+        "The article al-",
+        "A kasra after a preposition"
+      ],
+      "answer": 0,
+      "explanation": "Tanwīn, al- and khafḍ belong to the noun; the tāʾ with sukūn belongs to the verb.",
+      "terms": [
+        "fil"
+      ]
+    }
+  ]
+}

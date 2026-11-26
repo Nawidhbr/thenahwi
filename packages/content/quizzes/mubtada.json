@@ -1,0 +1,51 @@
+{
+  "term": "mubtada",
+  "items": [
+    {
+      "id": "mubtada-1",
+      "prompt": "Which word is the mubtadaʾ here?",
+      "arabic": "الكِتَابُ جَدِيدٌ",
+      "options": [
+        "al-kitābu",
+        "jadīdun",
+        "Both",
+        "Neither"
+      ],
+      "answer": 0,
+      "explanation": "Al-kitābu starts the sentence and is spoken about: it is the mubtadaʾ.",
+      "terms": [
+        "mubtada"
+      ]
+    },
+    {
+      "id": "mubtada-2",
+      "prompt": "In the view most books follow, what makes the mubtadaʾ marfūʿ?",
+      "options": [
+        "Its standing at the start (ibtidāʾ), a governor of meaning",
+        "A verb before it",
+        "A preposition",
+        "The khabar after it"
+      ],
+      "answer": 0,
+      "explanation": "The mubtadaʾ has no governor in the words; its being at the start governs it.",
+      "terms": [
+        "mubtada"
+      ]
+    },
+    {
+      "id": "mubtada-3",
+      "prompt": "The mubtadaʾ is usually…",
+      "options": [
+        "definite: something known",
+        "indefinite",
+        "a verb",
+        "a particle"
+      ],
+      "answer": 0,
+      "explanation": "The sentence tells something about what the listener knows, so the mubtadaʾ is usually definite.",
+      "terms": [
+        "mubtada"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KbHero from "../../../components/KbHero.astro";
+import { getBackground, CONCEPT_CATEGORIES } from "@nahwi/content";
+import { fmt, localePaths, t } from "../../../i18n";
+import { KB_SECTIONS, kbPath } from "../../../lib/kb";
+import { breadcrumbs, conceptSet } from "../../../lib/structured-data";
+
+import scholarsFilterScript from "../../../scripts/scholars-filter.js?url";
+/**
+ * The glossary of the knowledge base: every concept of ṣarf and naḥw A to Z, free to read, with a text search and a choice of
+ * topic (the filter script of the scholars list). Each concept has a page of its own (glossary/[slug].astro).
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const G = ui.kb.glossary;
+const cats = G.categories as Record<string, string>;
+const plainAr = (s: string) => s.normalize("NFC").replace(/[ً-ْٰـ]/g, "");
+// Sort key: Latin letters without their marks (ʿ, ʾ, ā …); Arabic without vowels and without the article.
+const key = (s: string) => (/[؀-ۿ]/.test(s) ? plainAr(s).replace(/^ال/, "") : s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/^[ʿʾ'‘’"“«]+/, ""));
+const collator = new Intl.Collator(locale);
+const concepts = getBackground(locale)
+  .concepts.map((c) => ({ ...c, k: key(c.name) }))
+  .sort((a, b) => collator.compare(a.k, b.k));
+const groups: { letter: string; concepts: typeof concepts }[] = [];
+for (const c of concepts) {
+  const letter = c.k.charAt(0).toLocaleUpperCase(locale);
+  const g = groups[groups.length - 1];
+  if (g && g.letter === letter) g.concepts.push(c);
+  else groups.push({ letter, concepts: [c] });
+}
+const categories = CONCEPT_CATEGORIES.filter((x) => concepts.some((c) => c.category === x));
+const isAr = locale === "ar";
+---
+
+<BaseLayout image={KB_SECTIONS.glossary.photo} title={G.title} description={G.description} path="/glossary/" locale={locale} bleed jsonLd={[conceptSet(locale), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: G.title, path: kbPath.glossary(locale) }])]}>
+  <KbHero locale={locale} photo={KB_SECTIONS.glossary.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }]} kicker={fmt(G.count, { n: concepts.length })} arabic={KB_SECTIONS.glossary.arabic} title={G.title} sub={G.lead} />
+  <div class="kb-wrap">
+    <section class="kb-section">
+      <div class="kb-toolbar" role="search">
+        <input type="search" class="kb-filter" placeholder={G.filter} aria-label={G.filter} data-kb-filter />
+        <label class="kb-select"><span class="visually-hidden">{G.topic}</span>
+          <select data-facet="category"><option value="">{G.allCategories}</option>{categories.map((x) => <option value={x}>{cats[x]}</option>)}</select>
+        </label>
+      </div>
+      <p class="muted kb-shown"><span data-kb-shown data-tpl={G.shown} aria-live="polite"></span> <button type="button" class="kb-clear" data-kb-clear hidden>{G.clear}</button></p>
+      <p class="muted" data-kb-none hidden>{G.none}</p>
+      {groups.map((g) => (
+        <section data-kb-group>
+          <h2 class="kb-century" lang={isAr ? "ar" : undefined}>{g.letter}</h2>
+          <ul class="kb-people">
+            {g.concepts.map((c) => (
+              <li data-q={[c.name, c.transliteration, c.arabic, plainAr(c.arabic), ...c.alsoKnownAs, c.definition].join(" ").toLowerCase()} data-category={c.category}>
+                <a class="kb-person" href={kbPath.glossary(locale, c.slug)}>
+                  <strong>{c.name}<span class="muted u-fw400"> · {c.transliteration}</span></strong>
+                  {!isAr && <span class="kufi" lang="ar">{c.arabic}</span>}
+                  <span class="muted">{cats[c.category]} — {c.definition}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </section>
+  </div>
+  <script is:inline src={scholarsFilterScript}></script>
+</BaseLayout>

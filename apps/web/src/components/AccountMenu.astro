@@ -1,0 +1,72 @@
+---
+/**
+ * The account place at the end of the header. Signed out: a "Sign in" link to the account page. Signed in (set before
+ * paint by head-settings.js as data-signed-in): a tile with the reader's initial that opens a small menu with who is
+ * signed in, the account page, the progress page, the moderation page (moderators only: data-moderator, from
+ * lib/account-sync.ts) and "Sign out". The name and address are read from this browser's own session and shown
+ * only to the reader.
+ */
+import { t } from "../i18n";
+
+interface Props {
+  locale: string;
+  here: string;
+}
+const { locale, here } = Astro.props;
+const ui = t(locale);
+const A = ui.account;
+const onAccount = here.startsWith(`/${locale}/account/`);
+const onProgress = here.startsWith(`/${locale}/study/progress/`);
+---
+
+<a class="nav-account nav-account-signin" href={`/${locale}/account/`} aria-current={onAccount ? "page" : undefined}>
+  <span class="nav-account-out">
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg>
+    <span class="nav-account-label">{A.signIn}</span>
+  </span>
+</a>
+<button type="button" class="nav-account nav-account-btn" popovertarget="account-menu" aria-label={A.link} title={A.link} data-current={onAccount || onProgress ? "" : undefined}>
+  <span class="nav-account-in" aria-hidden="true"></span>
+</button>
+<div class="lang-menu account-menu" id="account-menu" popover>
+  <p class="account-menu-id">
+    <span class="account-menu-initial" aria-hidden="true"></span>
+    <span class="account-menu-who"><strong data-menu-name></strong><span data-menu-email></span></span>
+  </p>
+  <ul>
+    <li><a href={`/${locale}/account/`} aria-current={onAccount ? "true" : undefined}>{A.title}</a></li>
+    <li><a href={`/${locale}/study/progress/`} aria-current={onProgress ? "true" : undefined}>{A.progressTitle}</a></li>
+    <li class="account-menu-mod"><a href="/en/moderate/" aria-current={here === "/en/moderate/" ? "true" : undefined}>{ui.moderate.title}</a></li>
+  </ul>
+  <button type="button" class="btn btn-outline account-menu-out" data-menu-signout>{A.signOut}</button>
+</div>
+
+<script>
+  import { AUTH_STORAGE_KEY } from "../config/supabase-public";
+
+  const menu = document.getElementById("account-menu");
+  // Who is signed in, from this browser's own session, filled in when the menu opens.
+  menu?.addEventListener("beforetoggle", (e) => {
+    if ((e as ToggleEvent).newState !== "open") return;
+    try {
+      const u = JSON.parse(localStorage.getItem(AUTH_STORAGE_KEY) || "null")?.user;
+      const m = u?.user_metadata || {};
+      const name = String(m.full_name || m.name || "");
+      menu.querySelector("[data-menu-name]")!.textContent = name || String(u?.email || "");
+      menu.querySelector("[data-menu-email]")!.textContent = name ? String(u?.email || "") : "";
+    } catch {}
+  });
+  menu?.querySelector<HTMLButtonElement>("[data-menu-signout]")?.addEventListener("click", async (e) => {
+    const b = e.currentTarget as HTMLButtonElement;
+    b.disabled = true;
+    try {
+      const [{ supabase }, { forgetSync }] = await Promise.all([import("../lib/supabase-client"), import("../lib/account-sync")]);
+      await supabase.auth.signOut({ scope: "local" }).catch(() => {});
+      forgetSync();
+    } catch {
+      try { localStorage.removeItem(AUTH_STORAGE_KEY); } catch {}
+    }
+    // Reload, so the header, the locks and the account page show the reader signed out.
+    location.reload();
+  });
+</script>

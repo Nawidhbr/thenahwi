@@ -1,0 +1,82 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KbHero from "../../../components/KbHero.astro";
+import { getBackground } from "@nahwi/content";
+import { fmt, localePaths, t } from "../../../i18n";
+import { century, diedYear, KB_BOOKS, KB_SECTIONS, kbPath, shortDied, shortName } from "../../../lib/kb";
+import { ROLE_ORDER } from "../../../lib/background";
+import type { BackgroundPerson } from "@nahwi/content";
+import { breadcrumbs } from "../../../lib/structured-data";
+
+import scholarsFilterScript from "../../../scripts/scholars-filter.js?url";
+/** Every scholar, grouped by the century they died in, with filters by period, role and handbook, and a text search. */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const S = ui.kb.scholars;
+const people = [...getBackground(locale).people].sort((a, b) => diedYear(a) - diedYear(b));
+const ord = (n: number) => (locale === "en" ? `${n}${n % 10 === 1 && n !== 11 ? "st" : n % 10 === 2 && n !== 12 ? "nd" : n % 10 === 3 && n !== 13 ? "rd" : "th"}` : String(n));
+// From the 7th century CE on, the Hijri century too ("7th/13th century"); scripts/calendar.js orders them by the reader's setting.
+const label = (c: number | null) => (c === null ? S.undated : c < 0 ? fmt(S.centuryBce, { n: ord(-c) }) : fmt(S.century, { n: locale === "en" && c >= 7 ? `${ord(c - 6)}/${ord(c)}` : ord(c) }));
+const groups: { c: number | null; people: typeof people }[] = [];
+for (const p of people) {
+  const c = century(p);
+  const g = groups[groups.length - 1];
+  if (g && g.c === c) g.people.push(p);
+  else groups.push({ c, people: [p] });
+}
+const roles = ui.book.roles as Record<string, string>;
+const P = S.periods as Record<string, string>;
+/** The period a scholar belongs to, by the year they died: before Islam, then the four ages of Arabic logic. */
+const periodOf = (p: BackgroundPerson) => {
+  const y = diedYear(p);
+  if (y === 99999) return p.roles.includes("modern-scholar") ? "modern" : "";
+  return y < 632 ? "pre" : y < 1200 ? "early" : y < 1500 ? "middle" : y < 1900 ? "later" : "modern";
+};
+const periods = ["pre", "early", "middle", "later", "modern"].filter((x) => people.some((p) => periodOf(p) === x));
+// Fewer, broader roles for the filter than the ten on the pages.
+const ROLE_GROUPS: Record<string, string[]> = { author: ["author"], commentary: ["commentator", "glossator", "versifier"], translator: ["translator", "forerunner"], teacher: ["teacher"], voice: ["voice"], modern: ["modern-scholar", "editor"] };
+const roleGroups = (p: BackgroundPerson) => Object.keys(ROLE_GROUPS).filter((g) => ROLE_GROUPS[g].some((r) => p.roles.includes(r as never)));
+const roleList = Object.keys(ROLE_GROUPS).filter((g) => people.some((p) => roleGroups(p).includes(g)));
+const RG = S.roleGroups as Record<string, string>;
+const bookList = KB_BOOKS.filter((b) => people.some((p) => p.books.includes(b.id)));
+---
+
+<BaseLayout image={KB_SECTIONS.scholars.photo} title={S.title} description={S.lead} path="/scholars/" locale={locale} bleed jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: S.title, path: kbPath.scholars(locale) }])]}>
+  <KbHero locale={locale} photo={KB_SECTIONS.scholars.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }]} kicker={fmt(S.count, { n: people.length })} arabic={KB_SECTIONS.scholars.arabic} title={S.title} sub={S.lead} />
+  <div class="kb-wrap">
+    <section class="kb-section">
+      <div class="kb-toolbar" role="search">
+        <input type="search" class="kb-filter" placeholder={S.filter} aria-label={S.filter} data-kb-filter />
+        <label class="kb-select"><span class="visually-hidden">{S.period}</span>
+          <select data-facet="period"><option value="">{S.allPeriods}</option>{periods.map((x) => <option value={x}>{P[x]}</option>)}</select>
+        </label>
+        <label class="kb-select"><span class="visually-hidden">{S.role}</span>
+          <select data-facet="role"><option value="">{S.allRoles}</option>{roleList.map((r) => <option value={r}>{RG[r]}</option>)}</select>
+        </label>
+        <label class="kb-select"><span class="visually-hidden">{S.book}</span>
+          <select data-facet="book"><option value="">{S.allBooks}</option>{bookList.map((b) => <option value={b.id}>{b.title}</option>)}</select>
+        </label>
+      </div>
+      <p class="muted kb-shown"><span data-kb-shown data-tpl={S.shown} aria-live="polite"></span> <button type="button" class="kb-clear" data-kb-clear hidden>{S.clear}</button></p>
+      <p class="muted" data-kb-none hidden>{S.none}</p>
+      {groups.map((g) => (
+        <section data-kb-group>
+          <h2 class="kb-century">{label(g.c)}</h2>
+          <ul class="kb-people">
+            {g.people.map((p) => (
+              <li data-q={[p.name, p.known, p.arabic, p.summary, ...p.places].filter(Boolean).join(" ").toLowerCase()} data-period={periodOf(p)} data-role={roleGroups(p).join(" ")} data-book={p.books.join(" ")}>
+                <a class="kb-person" href={kbPath.scholar(locale, p.slug)}>
+                  <strong>{shortName(p)}{p.died && <span class="muted u-fw400"> · {shortDied(p.died, locale)}</span>}</strong>
+                  {p.arabic && <span class="kufi" lang="ar">{p.arabic.split(" ").slice(0, 3).join(" ")}</span>}
+                  <span class="muted">{p.roles.map((r) => roles[r] ?? r).join(" · ")} — {p.summary}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </section>
+  </div>
+  <script is:inline src={scholarsFilterScript}></script>
+</BaseLayout>

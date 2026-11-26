@@ -1,0 +1,52 @@
+{
+  "term": "jumla-filiyya",
+  "items": [
+    {
+      "id": "jumla-filiyya-1",
+      "prompt": "Which sentence is verbal?",
+      "arabic": "قَامَ زَيْدٌ – زَيْدٌ قَائِمٌ",
+      "options": [
+        "qāma zaydun",
+        "zaydun qāʾimun",
+        "Both",
+        "Neither"
+      ],
+      "answer": 0,
+      "explanation": "Qāma zaydun begins with a verb.",
+      "terms": [
+        "jumla-filiyya"
+      ]
+    },
+    {
+      "id": "jumla-filiyya-2",
+      "prompt": "What are the parts of the simplest verbal sentence?",
+      "options": [
+        "A verb and its doer",
+        "A mubtadaʾ and a khabar",
+        "A particle and a noun",
+        "Two verbs"
+      ],
+      "answer": 0,
+      "explanation": "Fiʿl and fāʿil: qāma zaydun.",
+      "terms": [
+        "jumla-filiyya"
+      ]
+    },
+    {
+      "id": "jumla-filiyya-3",
+      "prompt": "With a plural noun as doer after the verb, the books use…",
+      "arabic": "قَامَ الرِّجَالُ",
+      "options": [
+        "the verb in the singular: qāma l-rijālu",
+        "the verb in the plural: qāmū l-rijālu",
+        "no verb at all",
+        "a dual verb"
+      ],
+      "answer": 0,
+      "explanation": "When the doer is a noun after it, the verb stays singular.",
+      "terms": [
+        "jumla-filiyya"
+      ]
+    }
+  ]
+}

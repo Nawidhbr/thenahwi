@@ -1,0 +1,37 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { localePaths, t } from "../../i18n";
+import { UPDATES } from "../../config/updates";
+import { newsDateHTML } from "../../lib/news";
+import { breadcrumbs } from "../../lib/structured-data";
+
+/** What has been added to the site, newest first, by month (config/updates.ts). */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const U = ui.updates;
+const kinds = U.kinds as Record<string, string>;
+const months = [...new Set(UPDATES.map((u) => u.date.slice(0, 7)))];
+---
+
+<BaseLayout title={U.title} description={U.description} path="/updates/" locale={locale} jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: U.title, path: `/${locale}/updates/` }])]}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {U.title}</p>
+  <header class="updates-head">
+    <h1>{U.title}</h1>
+    <p class="lead">{U.lead}</p>
+  </header>
+  {months.map((m) => (
+    <section class="updates-month">
+      <h2><Fragment set:html={newsDateHTML(m, locale)} /></h2>
+      <ol class="updates-list">
+        {UPDATES.filter((u) => u.date.startsWith(m)).map((u) => (
+          <li data-kind={u.kind}>
+            <p class="updates-meta"><Fragment set:html={newsDateHTML(u.date, locale)} /> · <span class="updates-kind">{kinds[u.kind] ?? u.kind}</span></p>
+            <h3>{u.href ? <a href={`/${locale}${u.href}`}>{u.title}</a> : u.title}</h3>
+            <p>{u.body}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  ))}
+</BaseLayout>

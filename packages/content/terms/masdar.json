@@ -1,0 +1,45 @@
+{
+  "slug": "masdar",
+  "subject": "sarf",
+  "chapter": "derived",
+  "order": 1,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "المَصْدَرُ",
+  "transliteration": "al-maṣdar",
+  "english": "The verbal noun",
+  "alsoKnownAs": [
+    "masdar",
+    "maṣdar",
+    "infinitive",
+    "verbal noun"
+  ],
+  "definition": "A noun that names the act itself, without a time, such as naṣr (helping) from naṣara.",
+  "explanation": [
+    "نَصْرٌ (helping), ضَرْبٌ (striking), عِلْمٌ (knowing). For the bare three-letter verb the maṣdar is learnt by hearing; for the added patterns it follows a rule: تَعْلِيمٌ from عَلَّمَ, إِكْرَامٌ from أَكْرَمَ, اِسْتِغْفَارٌ from اِسْتَغْفَرَ.",
+    "The grammarians of Basra held that the maṣdar is the source from which the verb and the other forms are taken; those of Kufa held that the verb is the source. The name maṣdar, the place something issues from, reflects the Basran view."
+  ],
+  "examples": [
+    {
+      "arabic": "نَصْرٌ",
+      "english": "naṣrun, helping."
+    },
+    {
+      "arabic": "إِكْرَامٌ",
+      "english": "ikrāmun, honouring, from akrama."
+    }
+  ],
+  "related": [
+    "ism-fail",
+    "ism-maful",
+    "mazid"
+  ],
+  "diagram": {
+    "type": "mushtaqq",
+    "focus": "masdar"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

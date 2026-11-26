@@ -1,0 +1,38 @@
+{
+  "slug": "mubtada",
+  "name": "The subject (mubtadaʾ)",
+  "arabic": "المُبْتَدَأُ",
+  "transliteration": "al-mubtadaʾ",
+  "alsoKnownAs": [
+    "mubtada",
+    "mubtadaʾ",
+    "subject of a nominal sentence"
+  ],
+  "category": "sentence",
+  "definition": "The noun a nominal sentence begins with and speaks about. It is marfūʿ, free of any governor in the words.",
+  "body": [
+    "In زَيْدٌ قَائِمٌ, zaydun is the mubtadaʾ: the sentence tells us something about Zayd. It is usually definite, something the listener can recognise.",
+    "Al-Ājurrūmiyya defines it as the marfūʿ noun that is bare of governors in the wording. In the view most books follow, what makes it marfūʿ is its standing at the start (ibtidāʾ), a governor of meaning rather than a word."
+  ],
+  "examples": [
+    {
+      "arabic": "الكِتَابُ جَدِيدٌ",
+      "text": "The book is new: al-kitābu is the mubtadaʾ."
+    },
+    {
+      "arabic": "أَنَا طَالِبٌ",
+      "text": "I am a student: the pronoun anā is the mubtadaʾ."
+    }
+  ],
+  "related": [
+    "khabar",
+    "jumla-ismiyya"
+  ],
+  "term": "mubtada",
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "kafiya",
+    "alfiyya"
+  ]
+}

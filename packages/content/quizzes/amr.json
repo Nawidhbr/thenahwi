@@ -1,0 +1,52 @@
+{
+  "term": "amr",
+  "items": [
+    {
+      "id": "amr-1",
+      "prompt": "What is the imperative of this verb?",
+      "arabic": "تَنْصُرُ",
+      "options": [
+        "اُنْصُرْ",
+        "اِنْصُرْ",
+        "نَصَرَ",
+        "أَنْصُرُ"
+      ],
+      "answer": 0,
+      "explanation": "Drop the tāʾ, end in sukūn, and put a hamza in front with the ḍamma of the ʿayn: unṣur.",
+      "terms": [
+        "amr"
+      ]
+    },
+    {
+      "id": "amr-2",
+      "prompt": "Why does this imperative begin with a kasra?",
+      "arabic": "اِضْرِبْ",
+      "options": [
+        "Because the ʿayn of taḍribu has a kasra",
+        "Because it is feminine",
+        "Because every imperative begins with i",
+        "Because ḍaraba is mazīd"
+      ],
+      "answer": 0,
+      "explanation": "The hamza takes a ḍamma when the ʿayn of the present tense has one, and a kasra otherwise.",
+      "terms": [
+        "amr"
+      ]
+    },
+    {
+      "id": "amr-3",
+      "prompt": "Whom does the imperative address?",
+      "options": [
+        "The person spoken to, in six forms",
+        "Anyone: all fourteen persons",
+        "Only the speaker",
+        "Only someone absent"
+      ],
+      "answer": 0,
+      "explanation": "The imperative is made from the second person: two masculine forms, two feminine, and the dual.",
+      "terms": [
+        "amr"
+      ]
+    }
+  ]
+}

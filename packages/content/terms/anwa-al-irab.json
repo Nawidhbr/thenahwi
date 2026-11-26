@@ -1,0 +1,46 @@
+{
+  "slug": "anwa-al-irab",
+  "subject": "nahw",
+  "chapter": "irab",
+  "order": 3,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "أَنْوَاعُ الإِعْرَابِ",
+  "transliteration": "anwāʿ al-iʿrāb",
+  "english": "The four states of iʿrāb",
+  "alsoKnownAs": [
+    "rafʿ, naṣb, khafḍ, jazm",
+    "marfūʿ",
+    "manṣūb",
+    "majrūr",
+    "majzūm"
+  ],
+  "definition": "Rafʿ, naṣb, khafḍ (also called jarr) and jazm. Nouns take the first three; verbs take rafʿ, naṣb and jazm.",
+  "explanation": [
+    "Their basic signs are vowels: ḍamma for rafʿ (زَيْدٌ، يَنْصُرُ), fatḥa for naṣb (زَيْدًا، لَنْ يَنْصُرَ), kasra for khafḍ (بِزَيْدٍ) and sukūn for jazm (لَمْ يَنْصُرْ).",
+    "Some words show their state with letters instead of vowels: the dual, the sound masculine plural, the five nouns such as أَبُوكَ (your father), and the five verbs such as يَنْصُرُونَ. Al-Ājurrūmiyya gives each state its signs in turn."
+  ],
+  "examples": [
+    {
+      "arabic": "وَأَقْسَامُهُ أَرْبَعَةٌ: رَفْعٌ وَنَصْبٌ وَخَفْضٌ وَجَزْمٌ",
+      "english": "Its kinds are four: rafʿ, naṣb, khafḍ and jazm (al-Ājurrūmiyya)."
+    },
+    {
+      "arabic": "لَمْ يَنْصُرْ",
+      "english": "lam yanṣur: jazm, which only verbs take."
+    }
+  ],
+  "related": [
+    "irab",
+    "harf",
+    "mudari"
+  ],
+  "diagram": {
+    "type": "irab",
+    "focus": "anwa"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

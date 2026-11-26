@@ -1,0 +1,46 @@
+{
+  "slug": "mudari",
+  "subject": "sarf",
+  "chapter": "verb",
+  "order": 2,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الفِعْلُ المُضَارِعُ",
+  "transliteration": "al-fiʿl al-muḍāriʿ",
+  "english": "The present–future tense",
+  "alsoKnownAs": [
+    "mudari",
+    "muḍāriʿ",
+    "imperfect",
+    "present tense"
+  ],
+  "definition": "A verb that begins with one of the letters أ ن ي ت and shows an act now or to come. Its ending changes with the sentence.",
+  "explanation": [
+    "يَنْصُرُ (he helps), تَنْصُرُ (you help; she helps), أَنْصُرُ (I help), نَنْصُرُ (we help). Al-Ājurrūmiyya gathers its four letters in the word أَنَيْتُ.",
+    "It is the one verb with iʿrāb: marfūʿ when nothing governs it (يَنْصُرُ), manṣūb after لَنْ (لَنْ يَنْصُرَ) and majzūm after لَمْ (لَمْ يَنْصُرْ)."
+  ],
+  "examples": [
+    {
+      "arabic": "يَنْصُرُ",
+      "english": "yanṣuru, he helps: marfūʿ."
+    },
+    {
+      "arabic": "لَمْ يَنْصُرْ",
+      "english": "lam yanṣur, he did not help: majzūm after lam."
+    }
+  ],
+  "related": [
+    "fil",
+    "madi",
+    "amr",
+    "anwa-al-irab"
+  ],
+  "diagram": {
+    "type": "fil",
+    "focus": "mudari"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

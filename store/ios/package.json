@@ -1,0 +1,27 @@
+{
+  "name": "thenahwi-ios",
+  "private": true,
+  "description": "The Nahwi for iPhone and iPad: a Capacitor app that opens thenahwi.com, with native sign-in, purchases and reminders (README.md).",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "sync": "cap sync ios",
+    "open": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor-community/apple-sign-in": "7.1.0",
+    "@capacitor-community/in-app-review": "8.0.0",
+    "@capacitor/app": "8.1.2",
+    "@capacitor/core": "8.6.2",
+    "@capacitor/haptics": "8.0.2",
+    "@capacitor/ios": "8.6.2",
+    "@capacitor/local-notifications": "8.3.1",
+    "@capacitor/splash-screen": "8.0.2",
+    "@capacitor/status-bar": "8.0.4",
+    "@capawesome/capacitor-app-shortcuts": "8.0.3",
+    "@revenuecat/purchases-capacitor": "14.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.6.2"
+  }
+}

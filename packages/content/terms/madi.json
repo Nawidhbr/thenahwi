@@ -1,0 +1,45 @@
+{
+  "slug": "madi",
+  "subject": "sarf",
+  "chapter": "verb",
+  "order": 1,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الفِعْلُ المَاضِي",
+  "transliteration": "al-fiʿl al-māḍī",
+  "english": "The past tense",
+  "alsoKnownAs": [
+    "madi",
+    "māḍī",
+    "perfect",
+    "past tense"
+  ],
+  "definition": "A verb that shows an act which happened before the time of speaking.",
+  "explanation": [
+    "نَصَرَ (he helped), كَتَبَ (he wrote). It is conjugated with endings for the fourteen persons: نَصَرَا (they two helped), نَصَرُوا (they helped), نَصَرْتُ (I helped), نَصَرْنَا (we helped).",
+    "In naḥw the past tense is mabnī: its ending does not change with the sentence. It is mabnī on fatḥa (نَصَرَ), on ḍamma before the wāw of the plural (نَصَرُوا), and on sukūn before a vowelled pronoun of the doer (نَصَرْتُ)."
+  ],
+  "examples": [
+    {
+      "arabic": "نَصَرَ",
+      "english": "naṣara, he helped."
+    },
+    {
+      "arabic": "نَصَرْنَا",
+      "english": "naṣarnā, we helped."
+    }
+  ],
+  "related": [
+    "fil",
+    "mudari",
+    "bina"
+  ],
+  "diagram": {
+    "type": "fil",
+    "focus": "madi"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

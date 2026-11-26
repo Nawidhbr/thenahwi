@@ -1,0 +1,81 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../../i18n";
+import { diedIn, localMatn } from "../../../lib/localize";
+import { getCommentaries } from "@nahwi/content";
+import { breadcrumbs } from "../../../lib/structured-data";
+import { sourceOf } from "../../../lib/sources";
+import { primers, primerHasText, primerLessons, primerPath } from "../../../lib/course";
+
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const matn = localMatn(locale);
+// The library. One text for now; more can be added as further entries.
+const texts = [
+  {
+    href: `/${locale}/text/mabadi/`,
+    title: matn.title,
+    arabicTitle: matn.arabicTitle,
+    author: locale === "ar" ? "أَثِيرُ الدِّينِ الأَبْهَرِيّ" : diedIn(matn.author, locale),
+    passages: matn.sections.reduce((n, s) => n + s.segments.length, 0),
+  },
+  // The commentaries, as further books.
+  ...getCommentaries().map((c) => ({
+    href: `/${locale}/text/${c.id}/`,
+    title: c.title,
+    arabicTitle: c.arabicTitle,
+    author: locale === "ar" ? c.authorArabic : c.author,
+    passages: c.blocks.length,
+    ...(c.kind === "sharh" ? { commentary: true } : {}),
+  })),
+].filter((x) => x.passages > 0);
+// The primer courses: taught in our own lessons, so the entry leads to the course, not to a reproduced text.
+const courses = primers().map((p) => ({ href: primerHasText(p) ? `/${locale}/text/${p.id}/` : primerPath(locale, p.id), title: p.title, arabicTitle: p.arabicTitle, author: locale === "ar" ? p.authorArabic ?? p.author : p.author, lessons: primerLessons(p).length, textLanguage: p.textEdition?.language }));
+---
+
+<BaseLayout
+  title={ui.text.library}
+  description={ui.text.libraryLead}
+  path="/text/"
+  locale={locale}
+  jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.nav.text, path: `/${locale}/text/` }])]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {ui.nav.text}</p>
+  <header class="text-head">
+    <h1>{ui.text.library}</h1>
+    <p class="muted">{ui.text.libraryLead}</p>
+  </header>
+  <ul class="library">
+    {
+      texts.map((x) => (
+        <li>
+          <a class="card library-item" href={x.href}>
+            <span class="ar library-ar" lang="ar">{x.arabicTitle}</span>
+            <span class="library-title">{x.title}</span>
+            <span class="muted">{x.author}</span>
+            <span class="muted library-source">{sourceOf(x.href.split("/").filter(Boolean).pop()!, locale)?.short}</span>
+            {"commentary" in x && <span class="badge library-kind">{ui.text.commentary}</span>}
+            <span class="muted library-meta">{fmt(ui.text.passages, { n: x.passages })}</span>
+            <span class="btn btn-red library-go">{ui.text.read}</span>
+          </a>
+        </li>
+      ))
+    }
+    {
+      courses.map((x) => (
+        <li>
+          <a class="card library-item" href={x.href}>
+            <span class="ar library-ar" lang="ar">{x.arabicTitle}</span>
+            <span class="library-title">{x.title}</span>
+            <span class="muted">{x.author}</span>
+            <span class="muted library-source">{sourceOf(x.href.split("/").filter(Boolean).pop()!, locale)?.short}</span>
+            <span class="badge library-kind">{x.textLanguage ? fmt(ui.primer.badgeText, { language: (ui.primer.languages as Record<string, string>)[x.textLanguage] }) : ui.primer.badge}</span>
+            <span class="muted library-meta">{fmt(ui.primer.lessons, { n: String(x.lessons) })}</span>
+            <span class="btn btn-red library-go">{x.textLanguage ? ui.text.read : ui.primer.open}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

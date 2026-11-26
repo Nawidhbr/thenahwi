@@ -1,0 +1,53 @@
+{
+  "term": "maful-bih",
+  "items": [
+    {
+      "id": "maful-bih-1",
+      "prompt": "What is ʿamran here?",
+      "arabic": "ضَرَبَ زَيْدٌ عَمْرًا",
+      "options": [
+        "the mafʿūl bihi",
+        "the fāʿil",
+        "the mubtadaʾ",
+        "the khabar"
+      ],
+      "answer": 0,
+      "explanation": "The striking falls on ʿAmr, and he is manṣūb: the object.",
+      "terms": [
+        "maful-bih"
+      ]
+    },
+    {
+      "id": "maful-bih-2",
+      "prompt": "Which verb takes no object?",
+      "arabic": "قَامَ – كَتَبَ – نَصَرَ",
+      "options": [
+        "qāma",
+        "kataba",
+        "naṣara",
+        "All take one"
+      ],
+      "answer": 0,
+      "explanation": "Qāma, he stood, is intransitive: it falls on no one.",
+      "terms": [
+        "maful-bih"
+      ]
+    },
+    {
+      "id": "maful-bih-3",
+      "prompt": "What is the -nī in this verb?",
+      "arabic": "نَصَرَنِي",
+      "options": [
+        "the object: he helped me",
+        "the doer: I helped",
+        "the khabar",
+        "a particle of khafḍ"
+      ],
+      "answer": 0,
+      "explanation": "The pronoun -nī is the one the helping fell on: the object.",
+      "terms": [
+        "maful-bih"
+      ]
+    }
+  ]
+}

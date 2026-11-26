@@ -1,0 +1,157 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Reminder from "../../../components/Reminder.astro";
+import { fmt, localePaths, t } from "../../../i18n";
+import { studyBooks, levelOfBook, type StudyBook } from "../../../lib/study-books";
+import { MADRASAS } from "../../../config/madrasas";
+
+import practiceScript from "../../../scripts/practice.js?url";
+
+/**
+ * Tikrār: review tests over the lessons already passed. The books are grouped by madrasa path (the reader's own
+ * path first, the others folded under it), each book a fold with its passed lessons by chapter or part; lessons
+ * not yet passed are not listed one by one but counted on one line, with the way to the book.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const P = ui.practice;
+const letters = "ABCDEFG";
+const all = studyBooks(locale);
+const levelOf = levelOfBook;
+type Book = StudyBook;
+const paths = MADRASAS.map((m) => ({
+  id: m.id,
+  name: (ui.madrasa.paths as Record<string, { name: string; short: string }>)[m.id],
+  books: all.filter((b) => b.madrasa === m.id).sort((a, b) => levelOf(a.id) - levelOf(b.id)),
+})).filter((m) => m.books.length > 0);
+const lessonCount = (b: Book) => b.groups.reduce((n, g) => n + g.lessons.length, 0);
+---
+
+<BaseLayout title={P.title} description={P.description} path="/practice/" locale={locale}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {P.title}</p>
+  <h1>{P.title} <span class="ar" lang="ar">التَّكْرار</span></h1>
+  <p class="lead">{P.lead}</p>
+
+  <ol class="tikrar-steps" aria-label={P.howTitle}>
+    {(P.how as string[]).map((x, i) => (
+      <li>
+        <span class="tile-wrap" aria-hidden="true"><span class={i === 0 ? "tile tile-current" : "tile"}><span>{i + 1}</span></span></span>
+        <span>{x}</span>
+      </li>
+    ))}
+  </ol>
+
+  <section class="card tikrar-empty" data-empty hidden>
+    <h2>{P.emptyTitle}</h2>
+    <p>{P.emptyBody}</p>
+    <a class="btn btn-red" href={`/${locale}/study/`}>{P.emptyCta}</a>
+  </section>
+
+  <section class="card tikrar-due" data-due hidden data-today={P.dueToday} data-next={P.dueNext}>
+    <div class="tikrar-due-body">
+      <p class="eyebrow">{P.dueTitle}</p>
+      <p class="tikrar-due-text" data-due-text aria-live="polite"></p>
+      <p class="muted tikrar-due-how">{P.dueHow}</p>
+    </div>
+    <button type="button" class="btn btn-red" data-due-start>{P.dueStart}</button>
+  </section>
+
+  <form
+    class="tikrar"
+    data-src={`/${locale}/practice/questions.json`}
+    data-count={P.count}
+    data-none={P.none}
+    data-right-text={P.right}
+    data-wrong-text={P.wrong}
+    data-score-text={ui.quiz.score}
+    data-letters={letters}
+    data-of={P.passedOf}
+    data-rest={P.notYet}
+    data-chosen-text={P.chosen}
+  >
+    <div class="tikrar-bar card">
+      <label class="check tikrar-all"><input type="checkbox" data-all /> <span>{P.selectAll}</span></label>
+      <p class="tikrar-count" aria-live="polite"></p>
+      <button type="submit" class="btn btn-red" data-start>{P.start}</button>
+      <details class="tikrar-options">
+        <summary>{P.options}</summary>
+        <label class="check"><input type="checkbox" name="shuffleQ" checked /> <span>{P.shuffleQuestions}</span></label>
+        <label class="check"><input type="checkbox" name="shuffleA" checked /> <span>{P.shuffleAnswers}</span></label>
+      </details>
+    </div>
+
+    <div class="tikrar-paths">
+      {
+        paths.map((m) => (
+          <section class="tikrar-path" data-tikrar-path={m.id}>
+            <h2 class="tikrar-path-head">
+              <span>{m.name.name}</span>
+              <span class="tikrar-path-mine" hidden>{P.yourPath}</span>
+            </h2>
+            {m.books.map((b) => (
+              <details class="card tikrar-book" data-book={b.id}>
+                <summary>
+                  <span class="tikrar-book-titles">
+                    <span class="eyebrow">{b.label}</span>
+                    <strong>{b.title}</strong>
+                    {b.author && <span class="muted"> · {b.author}</span>}
+                  </span>
+                  {locale !== "ar" && <span class="ar tikrar-book-ar" lang="ar">{b.arabic}</span>}
+                  <span class="tikrar-book-count" data-book-count data-total={lessonCount(b)}>{fmt(P.passedOf, { n: "0", m: String(lessonCount(b)) })}</span>
+                </summary>
+                <div class="tikrar-book-body">
+                  <label class="check tikrar-book-all"><input type="checkbox" data-book-all /> <span>{P.selectBook}</span></label>
+                  {b.groups.map((g) => (
+                    <fieldset class="tikrar-chapter" data-chapter={g.key}>
+                      <legend class="sr-only">{g.title}</legend>
+                      {b.groups.length > 1 && (
+                        <label class="check tikrar-chapter-head">
+                          <input type="checkbox" data-chapter-all />
+                          <strong>{g.title}</strong>
+                          {g.arabic && <span class="ar" lang="ar">{g.arabic}</span>}
+                        </label>
+                      )}
+                      <ul class="tikrar-lessons">
+                        {g.lessons.map((l) => (
+                          <li>
+                            <label class="check" data-lesson={l.slug}>
+                              <input type="checkbox" name="lesson" value={l.slug} />
+                              <span class="tikrar-name">{l.name}</span>
+                              <span class="stars" hidden data-label={ui.quiz.starsLabel}></span>
+                              {l.arabic && <span class="ar" lang="ar">{l.arabic}</span>}
+                            </label>
+                          </li>
+                        ))}
+                      </ul>
+                      <p class="tikrar-rest muted" hidden><span class="lock-glyph" aria-hidden="true"></span><span data-rest-text></span></p>
+                    </fieldset>
+                  ))}
+                  <p class="tikrar-go"><a href={b.href}>{fmt(P.toBook, { book: b.title })} →</a></p>
+                </div>
+              </details>
+            ))}
+          </section>
+        ))
+      }
+      <h2 class="tikrar-others-head" hidden>{P.otherPaths}</h2>
+    </div>
+  </form>
+
+  <section class="tikrar-test" hidden>
+    <ol class="quiz"></ol>
+    <div class="quiz-result card" hidden aria-live="polite">
+      <p class="quiz-stars" aria-hidden="true"></p>
+      <p class="quiz-score"></p>
+      <p class="tikrar-due-saved muted" data-due-saved data-text={P.dueSaved} hidden></p>
+      <div class="tikrar-actions">
+        <button type="button" class="btn btn-red" data-reshuffle>{P.reshuffle}</button>
+        <button type="button" class="btn btn-outline" data-choose>{P.choose}</button>
+      </div>
+    </div>
+  </section>
+
+  <Reminder locale={locale} />
+
+  <script is:inline src={practiceScript}></script>
+</BaseLayout>

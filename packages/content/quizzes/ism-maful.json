@@ -1,0 +1,52 @@
+{
+  "term": "ism-maful",
+  "items": [
+    {
+      "id": "ism-maful-1",
+      "prompt": "What is the passive participle of this verb?",
+      "arabic": "كَتَبَ",
+      "options": [
+        "مَكْتُوبٌ",
+        "كَاتِبٌ",
+        "كِتَابَةٌ",
+        "يُكْتَبُ"
+      ],
+      "answer": 0,
+      "explanation": "From the bare verb, the passive participle is on mafʿūl: maktūb.",
+      "terms": [
+        "ism-maful"
+      ]
+    },
+    {
+      "id": "ism-maful-2",
+      "prompt": "How does the first word differ from the second?",
+      "arabic": "مُكْرَمٌ – مُكْرِمٌ",
+      "options": [
+        "The fatḥa before the last letter makes the first passive: honoured",
+        "They are the same word",
+        "Mukram is a verb",
+        "Mukrim is the maṣdar"
+      ],
+      "answer": 0,
+      "explanation": "Fatḥa before the last letter: passive participle; kasra: active participle.",
+      "terms": [
+        "ism-maful"
+      ]
+    },
+    {
+      "id": "ism-maful-3",
+      "prompt": "On which pattern is the passive participle of the bare verb?",
+      "options": [
+        "mafʿūl",
+        "fāʿil",
+        "mufʿil",
+        "faʿīl"
+      ],
+      "answer": 0,
+      "explanation": "Manṣūr, maḍrūb, maktūb: all on mafʿūl.",
+      "terms": [
+        "ism-maful"
+      ]
+    }
+  ]
+}

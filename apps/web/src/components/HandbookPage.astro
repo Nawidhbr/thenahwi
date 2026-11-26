@@ -1,0 +1,129 @@
+---
+import { bookPath, coursesOn, pathLevel, primers, primerHasText } from "../lib/course";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import KbHero from "../components/KbHero.astro";
+import { getBackground, getCommentaries } from "@nahwi/content";
+import { fmt, t } from "../i18n";
+import { articleHref, articlesOf, catalogueCounts, KB_BOOKS, kbPath, ROMAN, shortDied, shortName, diedYear, type KbBook } from "../lib/kb";
+import { textTree } from "../lib/background";
+import { book as bookLd, breadcrumbs } from "../lib/structured-data";
+
+/** One handbook: overview, articles, the commentaries with their glosses, the catalogue in numbers, and its scholars. */
+interface Props { locale: string; book: KbBook }
+const { locale, book } = Astro.props;
+const ui = t(locale);
+const B = ui.kb.books;
+const n = KB_BOOKS.findIndex((b) => b.id === book.id);
+const articles = articlesOf(locale, book.id);
+const people = getBackground(locale).people;
+const scholars = people.filter((p) => p.books.includes(book.id)).sort((a, b) => diedYear(a) - diedYear(b));
+const tree = textTree(people, book.id).slice(0, 8);
+const counts = catalogueCounts(book.id);
+const course = primers().find((x) => x.library === book.id);
+// Every course on the handbook in the study portal: the book itself, then the commentaries on it, by level.
+const studyCourses = coursesOn(book.id);
+const hasText = book.id === "mabadi" || getCommentaries().some((c) => c.id === book.id) || Boolean(course && primerHasText(course));
+const lead = (ui.kb.books_meta as Record<string, string>)[book.id];
+const kinds = ui.book.kinds as Record<string, string>;
+const path = kbPath.book(locale, book.id);
+---
+
+<BaseLayout image={book.photo} title={book.title} description={lead} path={path.slice(locale.length + 1)} locale={locale} bleed jsonLd={[bookLd({ ...book, summary: lead }, locale, { photo: book.photo }), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: B.title, path: kbPath.books(locale) }, { name: book.title, path }])]}>
+  <KbHero
+    locale={locale}
+    photo={book.photo}
+    crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: B.title, href: kbPath.books(locale) }]}
+    kicker={fmt(B.kicker, { n: ROMAN[n] })}
+    arabic={book.arabic}
+    title={book.title}
+    sub={fmt(B.by, { author: book.author, died: book.died })}
+  />
+  <nav class="kb-tabs" aria-label={book.title}>
+    <div class="kb-wrap">
+      <a href="#overview" aria-current="true">{B.overview}</a>
+      {articles.length > 0 && <a href="#articles">{B.articles} ({articles.length})</a>}
+      {tree.length > 0 && <a href="#tree">{B.tree}</a>}
+      {counts.all > 0 && <a href="#catalogue">{B.catalogue} ({counts.all})</a>}
+      {scholars.length > 0 && <a href="#scholars">{B.scholars}</a>}
+      {hasText && <a href={`/${locale}/text/${book.id}/`}>{B.readText} →</a>}
+    </div>
+  </nav>
+  <div class="kb-wrap">
+    <section class="kb-section kb-overview" id="overview">
+      <p>{lead}</p>
+      <dl class="kb-facts">
+        <dt>{B.fullTitle}</dt><dd>{book.fullTitle}</dd>
+        <dt>{B.author}</dt><dd><a href={kbPath.scholar(locale, book.authorSlug)}>{book.author}</a></dd>
+        <dt>{B.died}</dt><dd>{book.died}</dd>
+        {studyCourses.length > 0 && (
+          <>
+            <dt>{ui.kb.nav.study}</dt>
+            <dd>
+              {studyCourses.map((c) => (
+                <span class="u-block"><a href={bookPath(locale, c.id)}>{c.commentary ? c.title : ui.primer.course}</a> <span class="muted">· {pathLevel(ui, c.id)} · {fmt(ui.primer.lessons, { n: String(c.lessons) })}</span></span>
+              ))}
+            </dd>
+          </>
+        )}
+      </dl>
+    </section>
+
+    {articles.length > 0 && (
+      <section class="kb-section" id="articles">
+        <div class="kb-head"><h2>{B.articles}</h2><p class="kufi" lang="ar">مَقالات</p></div>
+        <ol class="kb-grid u-d1e74e">
+          {articles.map((a, i) => (
+            <li><a class="kb-link" href={articleHref(locale, a)}><span class="kb-kicker u-2e513f">{i + 1}</span><strong>{a.title}</strong><span class="muted">{a.summary.length > 140 ? `${a.summary.slice(0, 140).replace(/\s+\S*$/, "")} …` : a.summary}</span></a></li>
+          ))}
+        </ol>
+      </section>
+    )}
+
+    {tree.length > 0 && (
+      <section class="kb-section" id="tree">
+        <div class="kb-head"><h2>{B.tree}</h2><p class="kufi" lang="ar">الشُّرُوح والحَواشِي</p></div>
+        <p class="muted u-f00aba">{B.treeLead}</p>
+        <div class="kb-tree">
+          {tree.map((c) => (
+            <div>
+              <p class="kb-kicker">{kinds[c.kind] ?? c.kind}{c.by.died && ` · ${shortDied(c.by.died, locale)}`}</p>
+              <p class="u-efd631"><a href={kbPath.scholar(locale, c.by.slug)} class="u-nodeco">{shortName(c.by)}</a></p>
+              {c.title && <p class="muted u-fs95">{c.title}</p>}
+              {c.glosses.length > 0 && (
+                <p class="gl"><span class="muted">{kinds.hashiya}:</span> {c.glosses.slice(0, 3).map((g, i) => <>{i > 0 && ", "}<a href={kbPath.scholar(locale, g.by.slug)}>{shortName(g.by)}</a></>)}</p>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {counts.all > 0 && (
+      <section class="kb-section kb-overview" id="catalogue">
+        <div>
+          <div class="kb-head u-cfd4b5"><h2>{B.catalogue}</h2><p class="kufi" lang="ar">الفِهْرِس</p></div>
+          <p class="muted u-8c195f">{B.catalogueLead}</p>
+          <a class="kb-btn kb-btn-ink" href={kbPath.catalogue(locale, book.id)}>{B.openCatalogue} ({counts.all})</a>
+        </div>
+        <table class="kb-counts">
+          <tbody>
+            {(["sharh", "hashiya", "other", "translation", "modern"] as const).filter((k) => counts[k] > 0).map((k) => (
+              <tr><td>{(B.counts as Record<string, string>)[k]}</td><td>{counts[k]}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    )}
+
+    {scholars.length > 0 && (
+      <section class="kb-section" id="scholars">
+        <div class="kb-head"><h2>{B.scholars}</h2><p class="kufi" lang="ar">الأَعْلام</p></div>
+        <div class="kb-chips u-mt14">
+          {scholars.map((p) => (
+            <a class:list={["kb-chip", { "is-main": p.slug === book.authorSlug }]} href={kbPath.scholar(locale, p.slug)}>{shortName(p)}{p.died && <span class="muted"> · {shortDied(p.died, locale)}</span>}</a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>

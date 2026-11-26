@@ -1,0 +1,36 @@
+{
+  "slug": "sahih",
+  "name": "The sound verb",
+  "arabic": "الصَّحِيحُ",
+  "transliteration": "al-ṣaḥīḥ",
+  "alsoKnownAs": [
+    "sahih",
+    "sound verb",
+    "sālim"
+  ],
+  "category": "sound-weak",
+  "definition": "A verb whose root letters include none of the weak letters: wāw, yāʾ and alif.",
+  "body": [
+    "نَصَرَ، ضَرَبَ، كَتَبَ are sound. Their letters stay as they are in every form, so their conjugation follows the patterns exactly.",
+    "Within the sound verbs the books separate the sālim (no hamza and no doubled letter, as نَصَرَ), the mahmūz (with a hamza, as أَكَلَ) and the muḍāʿaf (with the second and third root letters the same, as مَدَّ). The Nahwi's conjugation tool works on the sālim."
+  ],
+  "examples": [
+    {
+      "arabic": "كَتَبَ يَكْتُبُ",
+      "text": "kataba yaktubu: sound; every letter stays."
+    },
+    {
+      "arabic": "أَكَلَ",
+      "text": "akala, he ate: sound, with a hamza (mahmūz)."
+    }
+  ],
+  "related": [
+    "mutall",
+    "mujarrad"
+  ],
+  "term": "sahih",
+  "books": [
+    "izzi",
+    "shafiya"
+  ]
+}

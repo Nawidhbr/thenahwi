@@ -1,0 +1,28 @@
+---
+/**
+ * A passage of a primer's original: prose (al-Jurjānī's Persian) as one paragraph, or verse (the Sullam: lines
+ * separated by new lines, hemistichs by " * ") as lines with their two halves side by side.
+ */
+interface Props {
+  text: string;
+  lang: string;
+}
+const { text, lang } = Astro.props;
+const verse = text.includes(" * ");
+const lines = verse ? text.split("\n").map((l) => l.split(" * ")) : [];
+---
+
+{
+  verse ? (
+    <div class="ar primer-original primer-verses" lang={lang}>
+      {lines.map(([a, b]) => (
+        <p class="primer-verse">
+          <span>{a}</span>
+          <span>{b}</span>
+        </p>
+      ))}
+    </div>
+  ) : (
+    <p class="ar seg-ar primer-original" lang={lang}>{text}</p>
+  )
+}

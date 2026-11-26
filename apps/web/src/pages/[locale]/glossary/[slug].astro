@@ -1,0 +1,97 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KbHero from "../../../components/KbHero.astro";
+import { getBackground, type BackgroundConcept } from "@nahwi/content";
+import { fmt, LIVE_LOCALES, t } from "../../../i18n";
+import { gloss } from "../../../lib/gloss";
+import { localTerms } from "../../../lib/localize";
+import { KB_SECTIONS, kbBook, kbPath } from "../../../lib/kb";
+import { breadcrumbs, concept } from "../../../lib/structured-data";
+
+/**
+ * A concept of the glossary: free to read, with its Arabic and transliteration, a definition, an explanation and
+ * examples; beside it the lesson of the study path that teaches it (which may ask for an account), the related
+ * concepts and the handbooks that treat it.
+ */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => {
+    const { concepts } = getBackground(locale);
+    return concepts.map((c) => ({ params: { locale, slug: c.slug }, props: { c, concepts } }));
+  });
+}
+interface Props {
+  c: BackgroundConcept;
+  concepts: BackgroundConcept[];
+}
+const { locale } = Astro.params as { locale: string };
+const { c, concepts } = Astro.props;
+const ui = t(locale);
+const G = ui.kb.glossary;
+const cats = G.categories as Record<string, string>;
+const path = kbPath.glossary(locale, c.slug);
+// The search title: "The doer (al-fāʿil): meaning in naḥw", shorter when that runs over what a result shows.
+const long = fmt(G.pageTitle, { name: c.name, transliteration: c.transliteration });
+const title = long.length <= 65 ? long : fmt(G.pageTitleShort, { name: c.name }).length <= 65 ? fmt(G.pageTitleShort, { name: c.name }) : c.name;
+const related = c.related.map((s) => concepts.find((x) => x.slug === s)).filter((x): x is BackgroundConcept => !!x);
+const term = c.term ? localTerms(locale).find((x) => x.slug === c.term) : undefined;
+const books = c.books.map(kbBook).filter((b) => b !== undefined);
+const isAr = locale === "ar";
+---
+
+<BaseLayout image={KB_SECTIONS.glossary.photo} title={title} description={c.definition} path={path.slice(locale.length + 1)} locale={locale} bleed jsonLd={[concept(c, locale), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: G.title, path: kbPath.glossary(locale) }, { name: c.name, path }])]}>
+  <KbHero
+    locale={locale}
+    photo={KB_SECTIONS.glossary.photo}
+    crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: G.title, href: kbPath.glossary(locale) }]}
+    kicker={cats[c.category]}
+    arabic={c.arabic}
+    title={isAr ? c.transliteration : c.name}
+    sub={isAr ? undefined : c.transliteration}
+  />
+  <div class="kb-wrap">
+    <div class="kb-layout">
+      <article class="kb-body">
+        <p class="kb-lead" set:html={gloss(c.definition, locale, c.term, "kb")} />
+        <h2>{G.explanation}</h2>
+        {c.body.map((x) => <p set:html={gloss(x, locale, c.term, "kb")} />)}
+        {c.examples.length > 0 && (
+          <>
+            <h2>{G.examples}</h2>
+            <ul class="kb-works">
+              {c.examples.map((x) => (
+                <li>
+                  <span>
+                    {x.arabic && <><span class="ar" lang="ar">{x.arabic}</span><br /></>}
+                    <span>{x.text}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+        <p><a href={kbPath.glossary(locale)}>← {G.all}</a></p>
+      </article>
+      <aside class="kb-aside">
+        {term && (
+          <div class="kb-aside-dark">
+            <p class="kb-kicker u-273e41">{G.lesson}</p>
+            <p>{G.lessonText}</p>
+            <p><a href={`/${locale}/terms/${term.slug}/`}>{G.lessonLink}: {term.english} →</a></p>
+          </div>
+        )}
+        {related.length > 0 && (
+          <div>
+            <p class="kb-kicker u-c7486a">{G.related}</p>
+            <div class="kb-chips">{related.map((x) => <a class="kb-chip" href={kbPath.glossary(locale, x.slug)}>{x.name} <span class="ar" lang="ar">{x.arabic}</span></a>)}</div>
+          </div>
+        )}
+        {books.length > 0 && (
+          <div>
+            <p class="kb-kicker u-c7486a">{G.books}</p>
+            <div class="kb-chips">{books.map((b) => <a class="kb-chip" href={kbPath.book(locale, b.id)}>{b.title}</a>)}</div>
+          </div>
+        )}
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

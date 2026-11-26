@@ -1,0 +1,95 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getLessonQuiz, getMatn, getQuiz, getReview, getTerms, primerIn, type Exercise } from "@nahwi/content";
+import { LIVE_LOCALES, fmt, t } from "../../../../i18n";
+import { bookName, bookPath, pathLevel, primerLessons, primers, tracks } from "../../../../lib/course";
+import { diedIn } from "../../../../lib/localize";
+import TermQuiz from "../../../../components/TermQuiz.astro";
+import { EXAM_PASS, EXAM_SIZE, examKey, examScore } from "../../../../lib/progress.js";
+
+import certificateScript from "../../../../scripts/certificate.js?url";
+
+/**
+ * A certificate of completion for a book of the study portal (/<locale>/study/<book>/certificate/; noindex, not in
+ * the sitemap). It is made in the reader's browser from the scores kept there: with every lesson of the book passed
+ * it shows the book, the average score and the date, with a field for the reader's name (not stored) and a button to
+ * print it or save it as PDF; before that, how far the reader is. It says plainly that it is not an ijāza. Between the
+ * last lesson and the certificate stands the exam: 25 questions drawn from all the book's lessons, 20 right to pass
+ * (lib/progress.js), kept as the score "exam-<book>".
+ */
+interface Book { id: string; title: string; arabic: string; author: string; lessons: number; reviewed: number; pool: Exercise[] }
+
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => {
+    const matn = getMatn();
+    const terms = getTerms();
+    const books: Book[] = [
+      { id: "mabadi", title: locale === "ar" ? matn.arabicTitle : matn.title, arabic: matn.arabicTitle, author: locale === "ar" ? "أَثِيرُ الدِّينِ الأَبْهَرِيّ" : diedIn(matn.author, locale), lessons: terms.length, reviewed: terms.filter((x) => x.review?.status === "reviewed").length, pool: terms.flatMap((x) => getQuiz(x.slug, locale)?.items ?? []) },
+      ...primers()
+        .map((p) => primerIn(p, locale))
+        .map((p) => {
+          const ls = primerLessons(p);
+          return { id: p.id, title: locale === "ar" ? p.arabicTitle : p.title, arabic: p.arabicTitle, author: locale === "ar" ? p.authorArabic ?? p.author : p.author, lessons: ls.length, reviewed: ls.filter((l) => getReview(`${p.id}-${l.n}`).status === "reviewed").length, pool: ls.flatMap((l) => l.quiz) };
+        }),
+      ...tracks().map((x) => {
+        const name = bookName(x.book, locale);
+        const ls = x.lessons.filter((l) => l.quiz);
+        return { id: x.book.id, title: name.title, arabic: x.book.arabicTitle, author: name.author, lessons: ls.length, reviewed: ls.filter((l) => getReview(l.id).status === "reviewed").length, pool: ls.flatMap((l) => getLessonQuiz(x.book, l.id, locale)?.items ?? []) };
+      }),
+    ];
+    return books.map((b) => ({ params: { locale, book: b.id }, props: { b } }));
+  });
+}
+
+const { locale } = Astro.params as { locale: string };
+const { b } = Astro.props as { b: Book };
+const ui = t(locale);
+const C = ui.certificate;
+const label = pathLevel(ui, b.id);
+---
+
+<BaseLayout title={fmt(C.title, { book: b.title })} description={fmt(C.description, { book: b.title })} path={`/study/${b.id}/certificate/`} locale={locale} noindex>
+  <p class="crumbs no-print"><a href={`/${locale}/study/`}>{ui.kb.nav.study}</a> / <a href={bookPath(locale, b.id)}>{b.title}</a> / {C.crumb}</p>
+
+  <section class="certificate" data-certificate data-book={b.id} data-score={C.score} hidden>
+    <div class="certificate-frame">
+      <p class="certificate-brand"><svg class="certificate-mark" viewBox="0 0 512 512" width="34" height="34" aria-hidden="true"><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" fill="currentColor" fill-rule="evenodd" /><rect x="232" y="120" width="48" height="48" fill="var(--red)" /></g></svg> The Nahwi <span class="ar" lang="ar">النَّحْوِيّ</span></p>
+      <p class="eyebrow certificate-kicker">{C.kicker}</p>
+      <p class="certificate-record">{C.record}</p>
+      <p class="certificate-name">
+        <label class="sr-only" for="certificate-name">{C.nameLabel}</label>
+        <input id="certificate-name" type="text" autocomplete="name" placeholder={C.namePlaceholder} maxlength="80" />
+      </p>
+      <p class="certificate-record">{C.passed}</p>
+      <h1 class="certificate-book">{b.title}{locale !== "ar" && <span class="ar kufi" lang="ar">{b.arabic}</span>}</h1>
+      <p class="certificate-meta">{b.author} · {label} · {fmt(C.lessons, { n: String(b.lessons) })}</p>
+      <p class="certificate-score" data-cert-score></p>
+      <p class="certificate-date" data-cert-date></p>
+      <p class="certificate-note">{C.note}</p>
+      <p class="certificate-note">{fmt(C.reviewed, { n: String(b.reviewed), m: String(b.lessons) })}</p>
+    </div>
+    <div class="certificate-actions no-print">
+      <button type="button" class="btn btn-red" data-cert-print>{C.print}</button>
+      <a class="btn btn-outline" href={bookPath(locale, b.id)}>{fmt(C.back, { book: b.title })}</a>
+    </div>
+    <p class="muted certificate-hint no-print">{C.hint}</p>
+  </section>
+
+  <div class="certificate-exam" data-cert-exam hidden>
+    <section class="card">
+      <p class="eyebrow">{fmt(C.title, { book: b.title })}</p>
+      <p class="certificate-locked-title" role="heading" aria-level="1">{C.examTitle}</p>
+      <p>{fmt(C.examLead, { n: String(Math.min(EXAM_SIZE, b.pool.length)), pass: String(EXAM_PASS) })}</p>
+    </section>
+    <TermQuiz quiz={{ items: b.pool }} slug={examKey(b.id)} locale={locale} ask={EXAM_SIZE} intro={fmt(C.examIntro, { pass: String(EXAM_PASS) })} passed={C.examPassed} exam={{ pass: examScore(EXAM_PASS) }} />
+  </div>
+
+  <section class="card certificate-locked" data-cert-locked data-of={C.passedOf}>
+    <p class="certificate-locked-title" role="heading" aria-level="1">{fmt(C.title, { book: b.title })}</p>
+    <p>{C.notYet}</p>
+    <p class="muted" data-cert-progress></p>
+    <a class="btn btn-red" href={bookPath(locale, b.id)}>{fmt(C.back, { book: b.title })}</a>
+  </section>
+
+  <script is:inline src={certificateScript}></script>
+</BaseLayout>

@@ -1,0 +1,51 @@
+{
+  "term": "ilm-al-sarf",
+  "items": [
+    {
+      "id": "ilm-al-sarf-1",
+      "prompt": "What does ṣarf study?",
+      "options": [
+        "The forms of a single word: its root, pattern and derived forms",
+        "The endings of words inside a sentence",
+        "The meanings of Qurʾānic verses",
+        "The pronunciation of letters in recitation"
+      ],
+      "answer": 0,
+      "explanation": "Ṣarf looks at the word on its own: its pattern and the forms made from its root. Endings in the sentence belong to naḥw.",
+      "terms": [
+        "ilm-al-sarf"
+      ]
+    },
+    {
+      "id": "ilm-al-sarf-2",
+      "prompt": "Which of these words does ṣarf treat as forms of one root?",
+      "arabic": "نَصَرَ، يَنْصُرُ، نَاصِرٌ، مَنْصُورٌ",
+      "options": [
+        "All four: one root, n-ṣ-r, in different patterns",
+        "Only naṣara; the others are different words",
+        "None: ṣarf does not study verbs",
+        "Only nāṣir and manṣūr"
+      ],
+      "answer": 0,
+      "explanation": "All four share the root letters n-ṣ-r. Ṣarf explains the pattern of each.",
+      "terms": [
+        "ilm-al-sarf"
+      ]
+    },
+    {
+      "id": "ilm-al-sarf-3",
+      "prompt": "Why is ṣarf usually read before naḥw in the madrasa?",
+      "options": [
+        "Naḥw speaks of the endings of words whose forms the student must already recognise",
+        "Ṣarf is easier to memorise",
+        "Naḥw is only for advanced students of fiqh",
+        "There is no reason; the order is random"
+      ],
+      "answer": 0,
+      "explanation": "A student who cannot recognise a word's form cannot judge its ending, so the books of ṣarf come first.",
+      "terms": [
+        "ilm-al-sarf"
+      ]
+    }
+  ]
+}

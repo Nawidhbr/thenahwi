@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/en/",
+      "permanent": false
+    },
+    {
+      "source": "/:locale/terms/",
+      "destination": "/:locale/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/book/scholars/:slug/",
+      "destination": "/:locale/scholars/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/book/mirqat/catalogue/",
+      "destination": "/:locale/books/mirqat/catalogue/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/book/mirqat/:article/",
+      "destination": "/:locale/books/mirqat/:article/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/book/mirqat/",
+      "destination": "/:locale/books/mirqat/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/book/catalogue/",
+      "destination": "/:locale/books/isaghuji/catalogue/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/book/:article/",
+      "destination": "/:locale/books/isaghuji/:article/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/book/",
+      "destination": "/:locale/books/isaghuji/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/text/matla/",
+      "destination": "/:locale/text/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/level-1/",
+      "destination": "/:locale/study/isaghuji/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/level-2/",
+      "destination": "/:locale/study/kati/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/level-3/",
+      "destination": "/:locale/study/mirqat/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/level-4/",
+      "destination": "/:locale/study/tahdhib/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/level-1/:book/",
+      "destination": "/:locale/study/:book/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale/level-(\\d+)/:book/:n/",
+      "destination": "/:locale/study/:book/:n/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' https://vercel.live https://cdn.paddle.com; style-src 'self' https://cdn.paddle.com; style-src-attr 'unsafe-inline'; img-src 'self' data: https://cdn.paddle.com; font-src 'self'; connect-src 'self' https://vercel.live https://replace-with-the-nahwi-project.supabase.co https://*.paddle.com; frame-src https://vercel.live https://buy.paddle.com; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(self \"https://buy.paddle.com\"), usb=(), interest-cohort=()"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin-allow-popups"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/manifest.webmanifest",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/manifest+json"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/apple-app-site-association",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    },
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/photos/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/og/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/icons/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/patterns/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/favicon.svg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/:locale/study-data.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+---
+/**
+ * On every page: if this browser holds a session (signed in on /<locale>/account/), load the account code and keep
+ * the progress in step with the account (lib/account-sync.ts). Readers without an account download nothing more
+ * than this check. Bundled by Astro as a module, so it runs after the page is parsed and never blocks it.
+ */
+---
+
+<script>
+  import { AUTH_STORAGE_KEY } from "../config/supabase-public";
+
+  let signedIn = false;
+  try { signedIn = !!localStorage.getItem(AUTH_STORAGE_KEY); } catch {}
+  if (signedIn && !document.querySelector("[data-account]")) {
+    import("../lib/account-sync").then((m) => m.start()).catch((e) => (window as unknown as { __report?: (e: unknown, w: string) => void }).__report?.(e, "account-sync load"));
+  }
+</script>

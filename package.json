@@ -1,0 +1,24 @@
+{
+  "name": "thenahwi",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @nahwi/web && rm -rf dist && cp -r apps/web/dist dist",
+    "dev": "npm run dev -w @nahwi/web",
+    "test": "npm test -w @nahwi/engine && npm test -w @nahwi/web && npm run validate -w @nahwi/content",
+    "check": "npm test && npm run build && node scripts/check-site.mjs apps/web/dist && playwright test",
+    "test:e2e": "playwright test",
+    "check:payments": "CHECKOUT=on PAYWALL=on REVENUECAT_IOS_KEY=appl_check npm run build && node scripts/check-payments.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

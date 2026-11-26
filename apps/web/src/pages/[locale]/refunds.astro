@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { SITE } from "../../config/site";
+import { OWNER, LEGAL_UPDATED } from "../../config/about";
+
+/** The refund policy (text in `legal.refunds` of the UI dictionaries; English until translated). Paddle asks for it. */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const L = ui.legal;
+const D = L.refunds;
+const vars = { owner: OWNER.name, email: SITE.email };
+const date = new Intl.DateTimeFormat(locale, { dateStyle: "long" }).format(new Date(LEGAL_UPDATED));
+---
+
+<BaseLayout title={D.title} description={D.description} path="/refunds/" locale={locale}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/pricing/`}>{ui.pricing.title}</a> / {D.title}</p>
+  <section class="card legal">
+    <h1>{D.title}</h1>
+    <p class="muted">{fmt(L.updated, { date })} {L.draft}{locale !== "en" && ` ${L.translation}`}</p>
+    {(D.sections as string[][]).map(([h, body]) => (
+      <>
+        <h2>{h}</h2>
+        <p>{fmt(body, vars)}</p>
+      </>
+    ))}
+  </section>
+</BaseLayout>

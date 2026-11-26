@@ -1,0 +1,120 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { localePaths, t } from "../../../i18n";
+import { MADRASAS } from "../../../config/madrasas";
+import { pathBooks } from "../../../lib/course";
+import { studyBooks } from "../../../lib/study-books";
+
+import StudyToday from "../../../components/StudyToday.astro";
+import progressScript from "../../../scripts/study-progress.js?url";
+
+/**
+ * The reader's progress (/<locale>/study/progress/; noindex, not in the sitemap): the madrasa path book by book, the
+ * lessons passed, the average score, the days studied in the last 30 and the lessons worth strengthening. It is
+ * worked out in the browser (scripts/study-progress.js) from the scores, the review schedule and the days kept
+ * there, with the rules of lib/progress.js; nothing is stored or sent. The page carries only names and addresses.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const O = ui.overview;
+const books = studyBooks(locale);
+const byId = new Map(books.map((b) => [b.id, b]));
+const pathNames = ui.madrasa.paths as Record<string, { name: string }>;
+// In Arabic a book is named by its Arabic title, as on the certificate.
+const titleOf = (b: { title: string; arabic: string }) => (locale === "ar" ? b.arabic : b.title);
+// Each path's books in level order, with the title and address of each (books not built yet are left out).
+const paths = MADRASAS.map((m) => ({
+  id: m.id,
+  name: pathNames[m.id]?.name ?? m.id,
+  books: pathBooks(m.id)
+    .map((x) => ({ ...x, b: byId.get(x.id) }))
+    .filter((x) => x.b)
+    .map((x) => ({ id: x.id, level: x.level, title: titleOf(x.b!), arabic: x.b!.arabic, href: `/${locale}/study/${x.id}/` })),
+}));
+// The name of every lesson with a test, for the list of lessons to strengthen; and every book's title, for lock texts.
+const names = Object.fromEntries(books.flatMap((b) => b.groups.flatMap((g) => g.lessons.map((l) => [l.slug, `${b.id === "mabadi" ? "" : `${titleOf(b)} · `}${l.name}`]))));
+const titles = Object.fromEntries(books.map((b) => [b.id, titleOf(b)]));
+const vars = {
+  names,
+  titles,
+  paths: Object.fromEntries(paths.map((p) => [p.id, p.name])),
+  pathNote: O.pathNote,
+  passedOf: ui.home.levelProgress,
+  of: O.of,
+  lockBook: ui.track.lockBook,
+  starsLabel: ui.quiz.starsLabel,
+  activityDay: O.activityDay,
+};
+---
+
+<BaseLayout title={O.title} description={O.description} path="/study/progress/" locale={locale} noindex>
+  <p class="crumbs"><a href={`/${locale}/study/`}>{ui.kb.nav.study}</a> / {O.title}</p>
+  <h1>{O.title}</h1>
+  <p class="lead">{O.lead}</p>
+
+  <StudyToday locale={locale} />
+
+  <section class="card tikrar-empty" data-empty hidden>
+    <h2>{O.emptyTitle}</h2>
+    <p>{O.emptyBody}</p>
+    <a class="btn btn-red" href={`/${locale}/study/`}>{O.emptyCta}</a>
+  </section>
+
+  <div class="progress-page" data-progress hidden>
+    <p class="muted" data-path-note></p>
+    <p class="muted" data-no-path hidden><a href={`/${locale}/study/#madrasa`}>{O.noPath}</a></p>
+
+    <dl class="progress-stats">
+      <div><dt>{O.passed}</dt><dd data-stat-passed></dd></div>
+      <div><dt>{O.average}</dt><dd data-stat-average></dd></div>
+      <div><dt>{O.days}</dt><dd data-stat-days></dd></div>
+      <div><dt>{O.due}</dt><dd><a href={`/${locale}/practice/`} data-stat-due></a></dd></div>
+    </dl>
+
+    <section aria-labelledby="progress-activity-title">
+      <h2 id="progress-activity-title">{O.activityTitle}</h2>
+      <p class="progress-activity" data-activity></p>
+    </section>
+
+    <section aria-labelledby="progress-books-title" data-books-section>
+      <h2 id="progress-books-title">{O.booksTitle}</h2>
+      {
+        paths.map((p) => (
+          <ol class="progress-books" data-path={p.id} hidden>
+            {p.books.map((b) => (
+              <li class="card progress-book" data-book={b.id}>
+                <span class="tile-wrap" aria-hidden="true"><span class="tile"><span>{b.level}</span></span></span>
+                <span class="progress-book-body">
+                  <span class="eyebrow">{ui.madrasa.levelN.replace("{n}", String(b.level))}</span>
+                  <span class="progress-book-head">
+                    <a class="progress-book-title" href={b.href}>{b.title}</a>
+                    {locale !== "ar" && <span class="ar" lang="ar">{b.arabic}</span>}
+                  </span>
+                  <span class="progress-bar" aria-hidden="true"><span data-bar></span></span>
+                  <span class="muted progress-book-state" data-book-state></span>
+                  <span class="progress-book-links">
+                    <a data-book-next hidden>{O.continue} →</a>
+                    <a data-book-cert hidden href={`/${locale}/study/${b.id}/certificate/`}>{ui.certificate.link} →</a>
+                  </span>
+                </span>
+              </li>
+            ))}
+          </ol>
+        ))
+      }
+    </section>
+
+    <section aria-labelledby="progress-weak-title">
+      <h2 id="progress-weak-title">{O.weakTitle}</h2>
+      <p class="muted">{O.weakLead}</p>
+      <ul class="progress-weak" data-weak></ul>
+      <p data-weak-none hidden>{O.weakNone}</p>
+      <p><a class="btn btn-outline" href={`/${locale}/practice/`}>{O.review}</a></p>
+    </section>
+
+    <p class="muted progress-note">{O.note}</p>
+  </div>
+
+  <script is:inline src={progressScript} data-vars={JSON.stringify(vars)}></script>
+</BaseLayout>

@@ -1,0 +1,69 @@
+---
+import SourceNote from "../SourceNote.astro";
+import { matnSource } from "../../lib/sources";
+import { levelPath } from "../../lib/course";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BookStructure from "../BookStructure.astro";
+import FoldAll from "../FoldAll.astro";
+import { getMatn } from "@nahwi/content";
+import { glossary } from "../../lib/structured-data";
+import { breadcrumbs, course } from "../../lib/structured-data";
+import { bookStructure } from "../../lib/structure";
+import { localTerms } from "../../lib/localize";
+import { fmt, localePaths, t } from "../../i18n";
+
+/** Level 1: al-Mabādiʾ term by term, grouped by part and chapter. */
+
+interface Props { locale: string }
+const { locale } = Astro.props;
+const ui = t(locale);
+const terms = localTerms(locale);
+const parts = bookStructure(terms, locale);
+const chapterCount = parts.reduce((n, p) => n + p.chapters.filter((c) => c.number > 0).length, 0);
+const first = terms[0];
+const hasText = getMatn().sections.some((s) => s.segments.length > 0);
+const own = (ui.track.levels as Record<string, { title: string; lead: string }>)["1"];
+---
+
+<BaseLayout
+  title={own.title}
+  description={own.lead}
+  path="/study/mabadi/"
+  locale={locale}
+  wide
+  jsonLd={[course(locale, 1, (ui.track.levels as Record<string, { title: string; lead: string }>)["1"].title, (ui.track.levels as Record<string, { title: string; lead: string }>)["1"].lead, `/${locale}/study/mabadi/`, terms.length), glossary(locale), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: fmt(ui.track.trackName, { track: "1" }), path: `/${locale}/study/mabadi/` }])]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {fmt(ui.track.trackName, { track: "1" })}</p>
+  <header class="track-head level-one-head">
+    <p class="ar level-one-ar" lang="ar">إِيساغُوجِي</p>
+    <h1>{own.title}</h1>
+    <p class="lead">{own.lead}</p>
+    <SourceNote info={matnSource(locale)} locale={locale} variant="line" />
+    <div class="hero-actions">
+      {first && <a class="btn btn-red" href={`/${locale}/terms/${first.slug}/`} data-continue data-label={ui.home.continueTo}>{ui.home.start}</a>}
+      {hasText && <a class="btn btn-outline" href={`/${locale}/text/mabadi/`}>{ui.home.readText}</a>}
+    </div>
+    <ul class="hero-facts">
+      <li><strong>{terms.length}</strong> {ui.home.factTerms}</li>
+      <li><strong>{chapterCount}</strong> {ui.home.factChapters}</li>
+      <li><strong>{parts.filter((p) => p.numeral).length}</strong> {ui.home.factParts}</li>
+      <li><a href={`/${locale}/study/mabadi/certificate/`}>{ui.certificate.link} →</a></li>
+    </ul>
+  </header>
+
+  <div class="home-grid">
+    <div>
+      <FoldAll locale={locale} />
+      <BookStructure parts={parts} locale={locale} />
+    </div>
+    <aside class="home-aside" aria-label={ui.home.yourStudy}>
+      <section class="card" id="continue-card" data-studied={ui.home.termsStudied} data-l2-href={levelPath(locale, 2)} data-l2-name={(ui.track.levels as Record<string, { title: string }>)["2"]?.title ?? ui.track.title} data-l2-ar="شَرْحُ الكاتِي" hidden>
+        <p class="eyebrow">{ui.home.continue}</p>
+        <p class="ar continue-ar" lang="ar" id="continue-ar"></p>
+        <h2 id="continue-name"></h2>
+        <p class="muted" id="continue-count"></p>
+        <a class="btn btn-red" id="continue-link" href="#">{ui.home.continue}</a>
+      </section>
+    </aside>
+  </div>
+</BaseLayout>

@@ -1,0 +1,51 @@
+{
+  "term": "bina",
+  "items": [
+    {
+      "id": "bina-1",
+      "prompt": "What does mabnī mean?",
+      "options": [
+        "Its ending stays the same whatever governs it",
+        "Its ending changes with the governors",
+        "It is a verb in the present tense",
+        "It has added letters"
+      ],
+      "answer": 0,
+      "explanation": "Mabnī words keep one ending; muʿrab words change.",
+      "terms": [
+        "bina"
+      ]
+    },
+    {
+      "id": "bina-2",
+      "prompt": "Which of these words is mabnī?",
+      "arabic": "هٰذَا – زَيْدٌ – يَنْصُرُ",
+      "options": [
+        "hādhā",
+        "zaydun",
+        "yanṣuru",
+        "All three"
+      ],
+      "answer": 0,
+      "explanation": "Demonstratives such as hādhā are mabnī; Zayd and yanṣuru are muʿrab.",
+      "terms": [
+        "bina"
+      ]
+    },
+    {
+      "id": "bina-3",
+      "prompt": "Which verbs are mabnī?",
+      "options": [
+        "The past tense and the imperative",
+        "Only the present tense",
+        "No verb is mabnī",
+        "Every verb after lam"
+      ],
+      "answer": 0,
+      "explanation": "The past tense and the imperative are mabnī; the present tense is muʿrab, except in a few cases the books treat later.",
+      "terms": [
+        "bina"
+      ]
+    }
+  ]
+}

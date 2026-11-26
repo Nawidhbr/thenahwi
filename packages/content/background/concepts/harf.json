@@ -1,0 +1,38 @@
+{
+  "slug": "harf",
+  "name": "The particle",
+  "arabic": "الحَرْفُ",
+  "transliteration": "al-ḥarf",
+  "alsoKnownAs": [
+    "harf",
+    "ḥarf",
+    "particle"
+  ],
+  "category": "word",
+  "definition": "A word whose meaning only appears together with another word; it is neither a noun nor a verb.",
+  "body": [
+    "فِي (in), مِنْ (from), لَمْ (did not) and هَلْ (is it?) are particles. فِي on its own says little; فِي البَيْتِ (in the house) is clear.",
+    "Al-Ājurrūmiyya defines the particle by what it lacks: it takes none of the signs of the noun or of the verb. Many particles govern: they put a noun into khafḍ, or a verb into naṣb or jazm."
+  ],
+  "examples": [
+    {
+      "arabic": "فِي البَيْتِ",
+      "text": "fī l-bayti, in the house: fī puts al-bayt into khafḍ."
+    },
+    {
+      "arabic": "لَمْ يَذْهَبْ",
+      "text": "lam yadhhab, he did not go: lam puts the verb into jazm."
+    }
+  ],
+  "related": [
+    "kalima",
+    "anwa-al-irab"
+  ],
+  "term": "harf",
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "kafiya",
+    "alfiyya"
+  ]
+}

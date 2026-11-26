@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { ACCOUNTS, APPLE_SIGN_IN, SITE, SUPPORT } from "../../config/site";
+import { CHECKOUT } from "../../config/pricing";
+import { APP_STORE_KEY } from "../../config/app-store";
+
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const P = ui.privacy;
+// With accounts on (config/site.ts), the page says what an account keeps; with the checkout on (config/pricing.ts),
+// what Paddle and the account keep of a payment; with a gift link, that gifts are paid on Stripe's page; with
+// RevenueCat's key (config/app-store.ts), what buying through Apple in the iPhone app passes on.
+---
+
+<BaseLayout title={P.title} description={ACCOUNTS ? P.descriptionAccounts : P.description} path="/privacy/" locale={locale}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {ui.privacy.title}</p>
+  <section class="card">
+    <h1>{ui.privacy.title}</h1>
+    <p>{ACCOUNTS ? P.introAccounts : P.intro}</p>
+    <h2>{ui.privacy.deviceTitle}</h2>
+    <p>{ACCOUNTS ? P.deviceAccounts : P.device}</p>
+    <p>{P.hearts}</p>
+    <p>{ui.privacy.offline}</p>
+    <p>{ui.privacy.app}</p>
+    <p>{P.appIos}</p>
+    {SUPPORT.donateUrl && <p>{P.supportStore}</p>}
+    {ACCOUNTS && (
+      <>
+        <h2>{P.accountTitle}</h2>
+        <p>{P.account}</p>
+        {APPLE_SIGN_IN && <p>{P.accountApple}</p>}
+        <p>{P.accountPassword}</p>
+        <p>{P.accountCodes}</p>
+        <p>{P.comments}</p>
+      </>
+    )}
+    {(CHECKOUT || SUPPORT.donateUrl || APP_STORE_KEY) && <h2>{P.paymentsTitle}</h2>}
+    {CHECKOUT && <p>{P.payments}</p>}
+    {APP_STORE_KEY && <p>{P.appStore}</p>}
+    {SUPPORT.donateUrl && <p>{P.gifts}</p>}
+    <h2>{ui.privacy.statsTitle}</h2>
+    <p>{ui.privacy.stats}</p>
+    <h2>{ui.privacy.contactTitle}</h2>
+    <p>{fmt(ui.privacy.contact, { email: SITE.email })}</p>
+    <h2>{ui.privacy.errorsTitle}</h2>
+    <p>{ui.privacy.errors}</p>
+  </section>
+</BaseLayout>

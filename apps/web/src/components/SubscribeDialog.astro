@@ -1,0 +1,143 @@
+---
+import { fmt, t } from "../i18n";
+import { CHECKOUT, LOW_COUNTRIES, PADDLE, PRICES } from "../config/pricing";
+import { APPLE_SIGN_IN } from "../config/site";
+
+/**
+ * The subscribe window (CHECKOUT on, config/pricing.ts): any element with data-subscribe (its value "yearly" or
+ * "monthly", the plan to preselect) opens it instead of going to the pricing page. In one window the reader picks a
+ * plan (with their own country's price), signs in if needed (Google, Apple, a mailed code or a password) and goes on to Paddle's
+ * checkout; a Google sign-in comes back to the same page with ?subscribe=<plan> and carries on. The heavy part
+ * (scripts/subscribe.ts, with Supabase and Paddle.js) loads only when the window opens.
+ */
+interface Props { locale: string }
+const { locale } = Astro.props;
+const ui = t(locale);
+const S = ui.subscribe;
+const A = ui.account;
+const money = (n: number) => new Intl.NumberFormat(locale, { style: "currency", currency: PRICES.currency, minimumFractionDigits: Number.isInteger(n) ? 0 : 2, maximumFractionDigits: 2 }).format(n);
+const vars = {
+  paddle: { token: PADDLE.clientToken, monthly: PADDLE.monthly, yearly: PADDLE.yearly, refill: PADDLE.refill, low: LOW_COUNTRIES },
+  texts: {
+    signedInAs: S.signedInAs, localNote: S.localNote, opening: S.opening, error: S.error, send: A.send, sending: A.sending, sent: A.sent,
+    verify: A.verify, verifying: A.verifying, errors: A.errors, offline: A.offline,
+    signIn: A.signIn, signingIn: A.signingIn, create: A.create, creating: A.creating, forgotNote: A.forgotNote, unconfirmed: A.unconfirmed,
+  },
+};
+const privacyLink = `<a href="/${locale}/privacy/">${A.privacyLink}</a>`;
+---
+
+{CHECKOUT && (
+  <dialog class="sub-dialog" data-sub-dialog data-locale={locale} data-vars={JSON.stringify(vars)} aria-labelledby="sub-title">
+    <div class="sub-panel">
+      <p class="kb-kicker">{S.kicker}</p>
+      <h2 id="sub-title">{S.title}</h2>
+      <ul class="account-perks">{(S.perks as string[]).map((p) => <li>{p}</li>)}</ul>
+      <p class="sub-fine">{S.fine}</p>
+    </div>
+    <div class="sub-main">
+      <button type="button" class="sub-close" data-sub-close aria-label={S.close}>
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+      <p class="account-status" role="status" aria-live="polite" hidden data-sub-status></p>
+
+      <form class="sub-step" data-sub-step="plan">
+        <fieldset class="sub-plans">
+          <legend>{S.planLegend}</legend>
+          <label class="sub-plan" data-sub-plan="yearly">
+            <input type="radio" name="plan" value="yearly" checked />
+            <span class="sub-plan-name">{S.yearly}<span class="sub-save">{S.yearlyNote}</span></span>
+            <span class="sub-plan-price"><strong data-sub-price="yearly">{money(PRICES.base.yearly)}</strong> {S.perYear}</span>
+          </label>
+          <label class="sub-plan" data-sub-plan="monthly">
+            <input type="radio" name="plan" value="monthly" />
+            <span class="sub-plan-name">{S.monthly}</span>
+            <span class="sub-plan-price"><strong data-sub-price="monthly">{money(PRICES.base.monthly)}</strong> {S.perMonth}</span>
+          </label>
+        </fieldset>
+        <p class="account-fine" data-sub-local>{ui.pricing.localNote}</p>
+        <button type="submit" class="account-primary">{S.continue}</button>
+      </form>
+
+      <div class="sub-step" data-sub-step="signin" hidden>
+        <h3 class="account-h">{S.signinTitle}</h3>
+        <p class="account-fine">{S.signinBody}</p>
+        <button type="button" class="account-google" data-sub-google>
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 48 48"><path class="g-red" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.6 5.4 2.7 13.2l7.9 6.2C12.5 13.6 17.8 9.5 24 9.5z"></path><path class="g-blue" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.2 5.5-4.8 7.2l7.7 6c4.5-4.2 6.9-10.3 6.9-17.7z"></path><path class="g-yellow" d="M10.6 28.6c-.5-1.4-.8-3-.8-4.6s.3-3.2.8-4.6l-7.9-6.2C1 16.6 0 20.2 0 24s1 7.4 2.7 10.8l7.9-6.2z"></path><path class="g-green" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.7-6c-2.2 1.5-5 2.3-8.2 2.3-6.2 0-11.5-4.2-13.4-9.9l-7.9 6.2C6.6 42.6 14.6 48 24 48z"></path></svg>
+          {A.google}
+        </button>
+        {APPLE_SIGN_IN && (
+          <button type="button" class="account-google account-apple" data-sub-apple>
+            <svg aria-hidden="true" class="apple-logo" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"></path></svg>
+            {A.apple}
+          </button>
+        )}
+        <p class="account-or"><span>{A.or}</span></p>
+        <div class="account-modes" role="group" aria-label={A.modeLabel}>
+          <button type="button" data-mode="code" aria-pressed="true">{A.modeCode}</button>
+          <button type="button" data-mode="password" aria-pressed="false">{A.modePassword}</button>
+        </div>
+        <form class="account-form" data-sub-email data-signin-form data-signin-mode="code" novalidate>
+          <label class="account-field">
+            <span>{A.email}</span>
+            <input name="email" type="email" autocomplete="email" inputmode="email" required maxlength="200" />
+          </label>
+          <label class="account-field" data-only="password create" hidden>
+            <span>{A.password}</span>
+            <input name="password" type="password" autocomplete="current-password" maxlength="200" />
+          </label>
+          <p class="account-fine account-pw-hint" data-only="create" hidden>{A.passwordHint}</p>
+          <button type="submit" class="account-primary" data-sub-send data-signin-go>{A.send}</button>
+        </form>
+        <p class="account-links" data-only="password" hidden>
+          <button type="button" data-to-create>{A.toCreate}</button>
+          <button type="button" data-forgot>{A.forgot}</button>
+        </p>
+        <p class="account-links" data-only="create" hidden><button type="button" data-to-signin>{A.toSignIn}</button></p>
+        <p class="account-fine" set:html={fmt(A.privacyNote, { link: privacyLink })}></p>
+        <p class="account-links"><button type="button" data-sub-back>{S.back}</button></p>
+      </div>
+
+      <div class="sub-step" data-sub-step="code" hidden>
+        <h3 class="account-h">{A.sentTitle}</h3>
+        <p data-sub-sent></p>
+        <form class="account-form" data-sub-code novalidate>
+          <label class="account-field">
+            <span>{A.code}</span>
+            <input name="code" class="account-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]*" required maxlength="10" />
+          </label>
+          <button type="submit" class="account-primary" data-sub-verify>{A.verify}</button>
+        </form>
+        <p class="account-links"><button type="button" data-sub-other>{A.other}</button></p>
+      </div>
+
+      <div class="sub-step" data-sub-step="pay" hidden>
+        <p class="account-welcome" data-sub-who></p>
+        <button type="button" class="account-primary" data-sub-pay>{S.toCheckout}</button>
+      </div>
+    </div>
+  </dialog>
+)}
+
+<script>
+  // Opens the subscribe window from any [data-subscribe] (and carries on after a Google sign-in, ?subscribe=<plan>).
+  // The window's own code loads on first use. Not in the apps: the Android app sells nothing, and the iPhone app sells
+  // through Apple (lib/app-ios.ts opens its own window).
+  const dialog = document.querySelector("[data-sub-dialog]");
+  if (dialog && !document.documentElement.dataset.app) {
+    const report = (e: unknown) => (window as unknown as { __report?: (e: unknown, w: string) => void }).__report?.(e, "subscribe load");
+    const go = (plan: string | null) => import("../scripts/subscribe").then((m) => m.open(plan === "monthly" ? "monthly" : "yearly")).catch(report);
+    document.addEventListener("click", (e) => {
+      const el = (e.target as Element | null)?.closest?.("[data-subscribe]");
+      if (el) {
+        e.preventDefault();
+        go(el.getAttribute("data-subscribe"));
+        return;
+      }
+      // A hearts refill from a test (components/TermQuiz.astro).
+      if ((e.target as Element | null)?.closest?.("[data-refill]")) import("../scripts/subscribe").then((m) => m.refill()).catch(report);
+    });
+    const want = new URLSearchParams(location.search).get("subscribe");
+    if (want) go(want);
+  }
+</script>

@@ -1,0 +1,52 @@
+{
+  "term": "madi",
+  "items": [
+    {
+      "id": "madi-1",
+      "prompt": "Which form is the past tense?",
+      "arabic": "نَصَرَ – يَنْصُرُ – اُنْصُرْ",
+      "options": [
+        "naṣara",
+        "yanṣuru",
+        "unṣur",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "Naṣara is the past; yanṣuru the present and unṣur the imperative.",
+      "terms": [
+        "madi"
+      ]
+    },
+    {
+      "id": "madi-2",
+      "prompt": "What does this form mean?",
+      "arabic": "نَصَرُوا",
+      "options": [
+        "they (men) helped",
+        "we helped",
+        "he helps",
+        "help! (men)"
+      ],
+      "answer": 0,
+      "explanation": "The wāw of the plural with the past stem: naṣarū, they helped.",
+      "terms": [
+        "madi"
+      ]
+    },
+    {
+      "id": "madi-3",
+      "prompt": "How does naḥw class the past tense?",
+      "options": [
+        "Mabnī: its ending does not change with the sentence",
+        "Muʿrab: marfūʿ, manṣūb or majzūm",
+        "Majrūr after prepositions",
+        "As a noun"
+      ],
+      "answer": 0,
+      "explanation": "The past tense is mabnī; only the present tense among the verbs is muʿrab.",
+      "terms": [
+        "madi"
+      ]
+    }
+  ]
+}

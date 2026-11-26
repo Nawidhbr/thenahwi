@@ -1,0 +1,52 @@
+{
+  "term": "mudari",
+  "items": [
+    {
+      "id": "mudari-1",
+      "prompt": "Which letters can begin the present tense?",
+      "options": [
+        "Those gathered in anaytu: alif, nūn, yāʾ and tāʾ",
+        "Those gathered in salamtu",
+        "Only yāʾ",
+        "Any letter"
+      ],
+      "answer": 0,
+      "explanation": "Al-Ājurrūmiyya gathers them in anaytu: a-, na-, ya-, ta-.",
+      "terms": [
+        "mudari"
+      ]
+    },
+    {
+      "id": "mudari-2",
+      "prompt": "What is the state of the verb here?",
+      "arabic": "لَمْ يَنْصُرْ",
+      "options": [
+        "majzūm, after lam",
+        "manṣūb, after lam",
+        "marfūʿ, as normal",
+        "mabnī on sukūn"
+      ],
+      "answer": 0,
+      "explanation": "Lam puts the present tense into jazm, shown by the sukūn.",
+      "terms": [
+        "mudari"
+      ]
+    },
+    {
+      "id": "mudari-3",
+      "prompt": "What does this form mean?",
+      "arabic": "تَنْصُرِينَ",
+      "options": [
+        "you (one woman) help",
+        "she helps",
+        "you (men) help",
+        "they (women) help"
+      ],
+      "answer": 0,
+      "explanation": "Ta- with the ending -īna is the second person feminine singular.",
+      "terms": [
+        "mudari"
+      ]
+    }
+  ]
+}

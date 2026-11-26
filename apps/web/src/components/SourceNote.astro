@@ -1,0 +1,78 @@
+---
+import { t } from "../i18n";
+import type { SourceInfo } from "../lib/sources";
+
+/**
+ * Where a text or course comes from (lib/sources.ts), the same on every page: "card" on a book or text page,
+ * "line" on a lesson page or in a list (a short line with an info tile that opens the full note), "pop" for an
+ * info tile placed elsewhere (the popover only; `id` is its target).
+ */
+interface Props {
+  info: SourceInfo;
+  locale: string;
+  variant?: "card" | "line" | "pop";
+  id?: string;
+}
+const { info, locale, variant = "card" } = Astro.props;
+const id = Astro.props.id ?? "source-note";
+const S = t(locale).source;
+---
+
+{
+  variant === "card" ? (
+    <section class="card source-note" aria-labelledby={`${id}-h`}>
+      <h2 id={`${id}-h`}>{S.title}</h2>
+      <dl class="source-rows">
+        {info.rows.map((r) => (
+          <div>
+            <dt>{r.label}</dt>
+            <dd>
+              <Fragment set:html={r.value} />
+              {r.href && (
+                <>
+                  {" "}
+                  <a href={r.href} rel="noopener">{r.linkText ?? r.href}</a>
+                </>
+              )}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  ) : (
+    <>
+      {variant === "line" && (
+        <p class="source-line muted">
+          <span>{info.short}</span>
+          <button type="button" class="info-tile" popovertarget={id} aria-label={S.title}>
+            <span aria-hidden="true">i</span>
+          </button>
+        </p>
+      )}
+      <div class="info-pop" id={id} popover>
+        <p class="eyebrow">{S.title}</p>
+        <p class="info-pop-title">
+          {info.title} <span class="ar" lang="ar">{info.arabic}</span>
+        </p>
+        <p>{info.author}</p>
+        <dl class="source-rows">
+          {info.rows.map((r) => (
+            <div>
+              <dt>{r.label}</dt>
+              <dd>
+                <Fragment set:html={r.value} />
+                {r.href && (
+                  <>
+                    {" "}
+                    <a href={r.href} rel="noopener">{r.linkText ?? r.href}</a>
+                  </>
+                )}
+              </dd>
+            </div>
+          ))}
+        </dl>
+        <button type="button" class="btn btn-outline" popovertarget={id} popovertargetaction="hide">{t(locale).structure.close}</button>
+      </div>
+    </>
+  )
+}

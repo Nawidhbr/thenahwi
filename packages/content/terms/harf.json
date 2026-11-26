@@ -1,0 +1,43 @@
+{
+  "slug": "harf",
+  "subject": "nahw",
+  "chapter": "word",
+  "order": 3,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الحَرْفُ",
+  "transliteration": "al-ḥarf",
+  "english": "The particle",
+  "alsoKnownAs": [
+    "harf",
+    "ḥarf",
+    "particle"
+  ],
+  "definition": "A word whose meaning only appears together with another word; it is neither a noun nor a verb.",
+  "explanation": [
+    "فِي (in), مِنْ (from), لَمْ (did not) and هَلْ (is it?) are particles. فِي on its own says little; فِي البَيْتِ (in the house) is clear.",
+    "Al-Ājurrūmiyya defines the particle by what it lacks: it takes none of the signs of the noun or of the verb. Many particles govern: they put a noun into khafḍ, or a verb into naṣb or jazm."
+  ],
+  "examples": [
+    {
+      "arabic": "فِي البَيْتِ",
+      "english": "fī l-bayti, in the house: fī puts al-bayt into khafḍ."
+    },
+    {
+      "arabic": "لَمْ يَذْهَبْ",
+      "english": "lam yadhhab, he did not go: lam puts the verb into jazm."
+    }
+  ],
+  "related": [
+    "kalima",
+    "anwa-al-irab"
+  ],
+  "diagram": {
+    "type": "kalima",
+    "focus": "harf"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

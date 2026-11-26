@@ -1,0 +1,109 @@
+---
+import Photo from "../../../components/Photo.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KbHero from "../../../components/KbHero.astro";
+import { photoSrc } from "../../../config/photos";
+import { getLibrary } from "@nahwi/content";
+import { ord } from "../../../lib/ord";
+import { fmt, localePaths, t } from "../../../i18n";
+import { catalogueCounts, KB_BOOKS, KB_SECTIONS, kbPath } from "../../../lib/kb";
+import { breadcrumbs } from "../../../lib/structured-data";
+
+import filterScript from "../../../scripts/scholars-filter.js?url";
+
+/**
+ * The library: the six handbooks and the other works on logic in one list by century, with a search field and
+ * dropdowns for period, kind, language and handbook (the same helper as the scholars list, kept in the hash).
+ * The handbooks stand out in the list, with their photo and the size of their catalogue.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const B = ui.kb.books;
+const leads = ui.kb.books_meta as Record<string, string>;
+const L = ui.kb.library;
+const S = ui.kb.scholars;
+const kinds = L.kinds as Record<string, string>;
+const langs = L.languages as Record<string, string>;
+const periodsText = S.periods as Record<string, string>;
+const gYear = (died?: string) => (died ? parseInt(died.split("/").at(-1)!.split("–")[0], 10) : NaN);
+const periodOf = (c: number) => (c <= 12 ? "early" : c <= 15 ? "middle" : c <= 19 ? "later" : "modern");
+
+interface Row { id: string; title: string; arabic: string; author: string; died?: string; century: number; kind: string; language: string; on: string[]; summary: string; handbook?: (typeof KB_BOOKS)[number] }
+const rows: Row[] = [
+  ...KB_BOOKS.map((b) => ({ id: b.id, title: b.title, arabic: b.arabic, author: b.author, died: b.died, century: Math.ceil(gYear(b.died) / 100), kind: "handbook", language: "ar", on: [b.id], summary: leads[b.id] ?? "", handbook: b })),
+  ...getLibrary(locale).map((b) => ({ id: b.id, title: b.title, arabic: b.arabic, author: b.author, died: b.died, century: b.century, kind: b.kind, language: b.language, on: b.on && KB_BOOKS.some((k) => k.id === b.on) ? [b.on] : [], summary: b.summary })),
+].sort((a, b) => a.century - b.century || (gYear(a.died) || 9999) - (gYear(b.died) || 9999));
+const centuries = [...new Set(rows.map((r) => r.century))];
+const kindOrder = ["handbook", "commentary", "gloss", "treatise", "encyclopedia", "verse", "refutation", "modern", "translation"];
+const presentKinds = kindOrder.filter((k) => rows.some((r) => r.kind === k));
+const presentLangs = Object.keys(langs).filter((k) => rows.some((r) => r.language === k));
+const periods = ["early", "middle", "later", "modern"].filter((p) => rows.some((r) => periodOf(r.century) === p));
+const firstSentence = (s: string) => s.split(/(?<=\.)\s/)[0];
+---
+
+<BaseLayout image={KB_SECTIONS.books.photo} title={B.title} description={B.lead} path="/books/" locale={locale} bleed jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: B.title, path: kbPath.books(locale) }])]}>
+  <KbHero locale={locale} photo={KB_SECTIONS.books.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }]} kicker={fmt(L.count, { n: rows.length })} arabic={KB_SECTIONS.books.arabic} title={B.title} sub={B.lead} />
+  <div class="kb-wrap">
+    <section class="kb-section u-pb64" id="library">
+      <div class="kb-toolbar lib-toolbar" role="search">
+        <input type="search" class="kb-filter" placeholder={L.search} aria-label={L.search} data-kb-filter />
+        <label class="kb-select"><span class="visually-hidden">{S.period}</span>
+          <select data-facet="period"><option value="">{S.allPeriods}</option>{periods.map((x) => <option value={x}>{periodsText[x]}</option>)}</select>
+        </label>
+        <label class="kb-select"><span class="visually-hidden">{L.kind}</span>
+          <select data-facet="kind"><option value="">{L.kind}</option>{presentKinds.map((k) => <option value={k}>{kinds[k]}</option>)}</select>
+        </label>
+        <label class="kb-select"><span class="visually-hidden">{L.language}</span>
+          <select data-facet="lang"><option value="">{L.language}</option>{presentLangs.map((k) => <option value={k}>{langs[k]}</option>)}</select>
+        </label>
+        <label class="kb-select"><span class="visually-hidden">{S.book}</span>
+          <select data-facet="book"><option value="">{L.onHandbook}</option>{KB_BOOKS.map((b) => <option value={b.id}>{b.title}</option>)}</select>
+        </label>
+      </div>
+      <p class="muted kb-shown"><span data-kb-shown data-tpl={L.shown} aria-live="polite"></span> <button type="button" class="kb-clear" data-kb-clear hidden>{S.clear}</button></p>
+      <p class="muted" data-kb-none hidden>{L.none}</p>
+
+      {centuries.map((c) => (
+        <section data-kb-group>
+          <h2 class="kb-century">{fmt(S.century, { n: locale === "en" && c >= 7 ? `${ord(c - 6, locale)}/${ord(c, locale)}` : ord(c, locale) })}</h2>
+          <ul class="kb-rows">
+            {rows.filter((r) => r.century === c).map((r) => (
+              <li
+                data-q={[r.title, r.arabic, r.author, r.summary, kinds[r.kind]].filter(Boolean).join(" ").toLowerCase()}
+                data-period={periodOf(r.century)}
+                data-kind={r.kind}
+                data-lang={r.language}
+                data-book={r.on.join(" ")}
+                class={r.handbook ? "lib-handbook" : undefined}
+              >
+                {r.handbook ? (
+                  <a class="kb-row lib-handbook-row" href={kbPath.book(locale, r.id)}>
+                    <Photo slug={r.handbook.photo} sizes="160px" max={480} width={160} height={120} />
+                    <span>
+                      <span class="kb-kicker">{L.handbookOfSix}</span>
+                      <strong>{r.title}</strong>
+                      <span class="muted">{fmt(B.by, { author: r.author, died: r.died ?? "" })}{catalogueCounts(r.id).all > 0 && <> · {catalogueCounts(r.id).all === 1 ? ui.kb.home.worksOne : fmt(ui.kb.home.works, { n: catalogueCounts(r.id).all })}</>}</span>
+                      <span class="lib-summary">{r.summary}</span>
+                    </span>
+                    <span class="kufi" lang="ar">{r.arabic}</span>
+                  </a>
+                ) : (
+                  <a class="kb-lib-row" href={kbPath.book(locale, r.id)}>
+                    <span>
+                      <strong>{r.title}</strong>
+                      <span class="muted">{r.died ? fmt(B.by, { author: r.author, died: r.died }) : r.author} · {kinds[r.kind] ?? r.kind}{r.language !== "ar" && ` · ${langs[r.language] ?? r.language}`}</span>
+                      <span class="lib-summary lib-summary-short">{firstSentence(r.summary)}</span>
+                    </span>
+                    <span class="kufi" lang="ar">{r.arabic}</span>
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </section>
+  </div>
+  <script is:inline src={filterScript}></script>
+</BaseLayout>

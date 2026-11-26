@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["75M6B2GXZ2.com.thenahwi.app"],
+        "components": [
+          { "/": "/??/*.json", "exclude": true, "comment": "data files (search, glossary, practice)" },
+          { "/": "/??/*.js", "exclude": true, "comment": "the study data" },
+          { "/": "/??/*.xml", "exclude": true, "comment": "the news feed" },
+          { "/": "/??/*", "comment": "every page: they all start with the locale" }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["75M6B2GXZ2.com.thenahwi.app"]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "jumla-filiyya",
+  "subject": "nahw",
+  "chapter": "sentence",
+  "order": 4,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الجُمْلَةُ الفِعْلِيَّةُ",
+  "transliteration": "al-jumla al-fiʿliyya",
+  "english": "The verbal sentence",
+  "alsoKnownAs": [
+    "jumla filiyya",
+    "verbal sentence"
+  ],
+  "definition": "A sentence that begins with a verb. At its simplest it is a verb and its doer (fāʿil).",
+  "explanation": [
+    "قَامَ زَيْدٌ (Zayd stood), كَتَبَ الطَّالِبُ الدَّرْسَ (the student wrote the lesson). The verb comes first, then the doer, then, for a verb that takes one, the object.",
+    "When the doer is a noun after the verb, the verb stays singular in the usage the books follow: قَامَ الرِّجَالُ (the men stood)."
+  ],
+  "examples": [
+    {
+      "arabic": "قَامَ زَيْدٌ",
+      "english": "Zayd stood."
+    },
+    {
+      "arabic": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+      "english": "The student wrote the lesson."
+    }
+  ],
+  "related": [
+    "fail",
+    "maful-bih",
+    "jumla-ismiyya",
+    "kalam"
+  ],
+  "diagram": {
+    "type": "jumla",
+    "focus": "filiyya"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

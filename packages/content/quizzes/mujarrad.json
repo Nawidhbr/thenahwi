@@ -1,0 +1,52 @@
+{
+  "term": "mujarrad",
+  "items": [
+    {
+      "id": "mujarrad-1",
+      "prompt": "Which verb is mujarrad (bare)?",
+      "arabic": "نَصَرَ – أَكْرَمَ – تَعَلَّمَ",
+      "options": [
+        "naṣara",
+        "akrama",
+        "taʿallama",
+        "All three"
+      ],
+      "answer": 0,
+      "explanation": "Naṣara has only its root letters; akrama and taʿallama have letters added.",
+      "terms": [
+        "mujarrad"
+      ]
+    },
+    {
+      "id": "mujarrad-2",
+      "prompt": "How many patterns (abwāb) does the bare three-letter verb have in the books?",
+      "options": [
+        "Six",
+        "Three",
+        "Ten",
+        "Fourteen"
+      ],
+      "answer": 0,
+      "explanation": "Naṣara, ḍaraba, fataḥa, samiʿa, karuma and ḥasiba: six patterns.",
+      "terms": [
+        "mujarrad"
+      ]
+    },
+    {
+      "id": "mujarrad-3",
+      "prompt": "In which pattern is this verb?",
+      "arabic": "سَمِعَ يَسْمَعُ",
+      "options": [
+        "i in the past, a in the present",
+        "a in the past, u in the present",
+        "a in the past, i in the present",
+        "u in the past, u in the present"
+      ],
+      "answer": 0,
+      "explanation": "Samiʿa has kasra on the ʿayn in the past and yasmaʿu fatḥa in the present.",
+      "terms": [
+        "mujarrad"
+      ]
+    }
+  ]
+}

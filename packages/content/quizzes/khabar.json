@@ -1,0 +1,53 @@
+{
+  "term": "khabar",
+  "items": [
+    {
+      "id": "khabar-1",
+      "prompt": "What is qāʾimun here?",
+      "arabic": "زَيْدٌ قَائِمٌ",
+      "options": [
+        "the khabar",
+        "the mubtadaʾ",
+        "the fāʿil",
+        "the mafʿūl bihi"
+      ],
+      "answer": 0,
+      "explanation": "Qāʾimun tells what Zayd is: it is the khabar.",
+      "terms": [
+        "khabar"
+      ]
+    },
+    {
+      "id": "khabar-2",
+      "prompt": "What is the khabar here?",
+      "arabic": "زَيْدٌ فِي الدَّارِ",
+      "options": [
+        "the phrase fī l-dāri",
+        "zaydun",
+        "al-dāri on its own",
+        "There is none"
+      ],
+      "answer": 0,
+      "explanation": "The phrase fī l-dāri completes the meaning: it stands as the khabar.",
+      "terms": [
+        "khabar"
+      ]
+    },
+    {
+      "id": "khabar-3",
+      "prompt": "Which word completes the sentence with agreement?",
+      "arabic": "الطَّالِبَانِ …",
+      "options": [
+        "مُجْتَهِدَانِ",
+        "مُجْتَهِدٌ",
+        "مُجْتَهِدُونَ",
+        "مُجْتَهِدَةٌ"
+      ],
+      "answer": 0,
+      "explanation": "The mubtadaʾ is a masculine dual, so the khabar is too: mujtahidāni.",
+      "terms": [
+        "khabar"
+      ]
+    }
+  ]
+}

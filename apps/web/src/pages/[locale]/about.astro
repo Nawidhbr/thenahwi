@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { getBackground } from "@nahwi/content";
+import { kbPath, shortName } from "../../lib/kb";
+import { OWNER, TEACHER } from "../../config/about";
+import { breadcrumbs } from "../../lib/structured-data";
+
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+// "Why the name": al-Naḥwī, "the grammarian", the title the biographers give from Sībawayh to Ibn Hishām, each linked to their page.
+const people = getBackground(locale).people;
+const scholar = (slug: string) => {
+  const p = people.find((x) => x.slug === slug);
+  return p ? `<a href="${kbPath.scholar(locale, slug)}">${shortName(p)}</a>` : "";
+};
+const nameBody = fmt(ui.about.nameBody, { sibawayh: scholar("sibawayh"), ibnHisham: scholar("ibn-hisham") });
+---
+
+<BaseLayout title={ui.about.title} description={ui.about.description} path="/about/" locale={locale} jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.about.title, path: `/${locale}/about/` }])]}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {ui.about.title}</p>
+  <section class="card">
+    <h1>{ui.about.title}</h1>
+    <p class="lead">{ui.about.intro}</p>
+    <h2>{ui.about.partsTitle}</h2>
+    <ul class="about-parts">
+      {(ui.about.parts as string[]).map((x, i) => (
+        <li><a href={i === 0 ? `/${locale}/books/` : `/${locale}/study/`}>{x.split(":")[0]}</a>:{x.slice(x.indexOf(":") + 1)}</li>
+      ))}
+    </ul>
+    <h2>{ui.about.nameTitle}</h2>
+    <p set:html={nameBody} />
+    <h2>{ui.about.textTitle}</h2>
+    <p>{ui.about.textBody}</p>
+    <div class="badges"><span class="badge">{ui.term.draft}</span></div>
+  </section>
+
+  {TEACHER && (
+  <section class="card person" aria-labelledby="teacher">
+    <p class="eyebrow">{ui.about.teacherTitle}</p>
+    <h2 id="teacher">{TEACHER!.name}</h2>
+    <p class="role">{ui.about.teacherRole}</p>
+    <p>{ui.about.teacherBody}</p>
+    <p>{ui.about.teacherBio}</p>
+    <h3>{ui.about.teachersTitle}</h3>
+    <ul class="teachers" lang="en" dir="ltr">
+      {TEACHER!.teachers.map((x) => (
+        <li><strong>{x.name}</strong> <span class="texts">({x.texts})</span></li>
+      ))}
+    </ul>
+    <p class="muted"><a href={TEACHER!.source} rel="noopener">{ui.about.teacherSource}</a></p>
+  </section>
+  )}
+
+  <section class="card person" aria-labelledby="owner">
+    <p class="eyebrow">{ui.about.ownerTitle}</p>
+    <h2 id="owner">{OWNER.name}</h2>
+    <p class="role">{ui.about.ownerRole}</p>
+    <p>{fmt(ui.about.ownerBody, { owner: OWNER.name })}</p>
+  </section>
+
+  <p class="about-contact"><a href={`/${locale}/contact/`}>{ui.about.contact} →</a></p>
+</BaseLayout>

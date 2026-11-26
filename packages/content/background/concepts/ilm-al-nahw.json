@@ -1,0 +1,35 @@
+{
+  "slug": "ilm-al-nahw",
+  "name": "Syntax (naḥw)",
+  "arabic": "عِلْمُ النَّحْوِ",
+  "transliteration": "ʿilm al-naḥw",
+  "alsoKnownAs": [
+    "nahw",
+    "Arabic grammar",
+    "Arabic syntax",
+    "iʿrāb"
+  ],
+  "category": "foundations",
+  "definition": "The science of how words join into sentences, and of the endings (iʿrāb) that show the role of each word.",
+  "body": [
+    "Naḥw looks at the word inside a sentence: whether it is the doer or the one acted on, why its last letter carries a ḍamma, fatḥa or kasra, and which words govern others. The books call it the science of the states of the endings of words, in iʿrāb and bināʾ.",
+    "Its aim is to keep the tongue from error in the Arabic of the Qurʾān and the Sunna, and to read the texts with understanding. Its first books, such as al-Ājurrūmiyya, begin with what speech is and how words are divided."
+  ],
+  "examples": [
+    {
+      "arabic": "ضَرَبَ زَيْدٌ عَمْرًا",
+      "text": "Zayd struck ʿAmr: Zayd ends in -un as the doer, ʿAmr in -an as the one acted on."
+    }
+  ],
+  "related": [
+    "ilm-al-sarf",
+    "irab"
+  ],
+  "term": "ilm-al-nahw",
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "kafiya",
+    "alfiyya"
+  ]
+}

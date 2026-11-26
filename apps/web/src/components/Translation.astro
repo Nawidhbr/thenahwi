@@ -1,0 +1,26 @@
+---
+import { t } from "../i18n";
+
+/**
+ * Our translation of a passage, under the passage itself, behind a fold that starts closed: the translation and a
+ * button that copies it (scripts/copy-text.js, loaded by the page). That it was made with the help of AI and that the
+ * original is what counts is said once, in the source note (lib/sources.ts), not under every passage. `html` is set as it is (word pop-ups); `copy` is its plain text.
+ */
+interface Props {
+  locale: string;
+  html: string;
+  copy: string;
+  /** The language of the translation when it is not the page's (an English fallback). */
+  lang?: string;
+  /** Whether it is the English fallback of a page in another language. */
+  english?: boolean;
+}
+const { locale, html, copy, lang, english } = Astro.props;
+const P = t(locale).primer;
+---
+
+<details class="primer-tr">
+  <summary>{english ? P.englishTranslation : P.translation}</summary>
+  <p class="seg-en" lang={lang} set:html={html} />
+  <p class="primer-tools"><button type="button" class="btn btn-outline btn-small" data-copy={copy} data-done={P.copied}>{P.copyTranslation}</button></p>
+</details>

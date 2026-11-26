@@ -1,0 +1,38 @@
+{
+  "slug": "kalam",
+  "name": "Speech (a complete statement)",
+  "arabic": "الكَلَامُ",
+  "transliteration": "al-kalām",
+  "alsoKnownAs": [
+    "kalaam",
+    "complete sentence"
+  ],
+  "category": "foundations",
+  "definition": "Words joined so that they give a complete meaning, and the listener is not left waiting for more.",
+  "body": [
+    "Al-Ājurrūmiyya defines kalām as the composed utterance that gives benefit by convention. It needs at least two words, such as a noun with a noun or a verb with a noun.",
+    "زَيْدٌ قَائِمٌ (Zayd is standing) and قَامَ زَيْدٌ (Zayd stood) are kalām. إِنْ قَامَ زَيْدٌ (if Zayd stood) is not: the listener waits for the rest."
+  ],
+  "examples": [
+    {
+      "arabic": "الكَلَامُ هُوَ اللَّفْظُ المُرَكَّبُ المُفِيدُ بِالوَضْعِ",
+      "text": "Speech is the composed utterance that gives benefit by convention (the opening of al-Ājurrūmiyya)."
+    },
+    {
+      "arabic": "زَيْدٌ قَائِمٌ",
+      "text": "Zayd is standing: two nouns, and the meaning is complete."
+    }
+  ],
+  "related": [
+    "kalima",
+    "jumla-ismiyya",
+    "jumla-filiyya"
+  ],
+  "term": "kalam",
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "kafiya",
+    "alfiyya"
+  ]
+}

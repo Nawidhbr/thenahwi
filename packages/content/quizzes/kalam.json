@@ -1,0 +1,51 @@
+{
+  "term": "kalam",
+  "items": [
+    {
+      "id": "kalam-1",
+      "prompt": "Which of these is kalām?",
+      "options": [
+        "zaydun qāʾimun (Zayd is standing)",
+        "in qāma zaydun (if Zayd stood)",
+        "fī l-bayti (in the house)",
+        "zaydun (Zayd)"
+      ],
+      "answer": 0,
+      "explanation": "Only zaydun qāʾimun gives a complete meaning; the others leave the listener waiting.",
+      "terms": [
+        "kalam"
+      ]
+    },
+    {
+      "id": "kalam-2",
+      "prompt": "How does al-Ājurrūmiyya define kalām?",
+      "arabic": "الكَلَامُ هُوَ اللَّفْظُ المُرَكَّبُ المُفِيدُ بِالوَضْعِ",
+      "options": [
+        "The composed utterance that gives benefit by convention",
+        "A single word with a single meaning",
+        "Any sound a person makes",
+        "A word that names a time"
+      ],
+      "answer": 0,
+      "explanation": "The definition asks for an utterance, composed of words, that gives a complete benefit, by the convention of the Arabs.",
+      "terms": [
+        "kalam"
+      ]
+    },
+    {
+      "id": "kalam-3",
+      "prompt": "What is the least that kalām needs?",
+      "options": [
+        "Two words that complete a meaning",
+        "One word",
+        "A verb and an object",
+        "Three words and a particle"
+      ],
+      "answer": 0,
+      "explanation": "A noun with a noun (zaydun qāʾimun) or a verb with a noun (qāma zaydun) is enough.",
+      "terms": [
+        "kalam"
+      ]
+    }
+  ]
+}

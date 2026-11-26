@@ -1,0 +1,689 @@
+{
+  "_note": "Sources for scripts/news-finder.mjs besides the Crossref and OpenAlex searches. googleNews: searches of Google News (hl = language, gl = country). googleNewsSites: the same searches kept to the sites of trusted institutions (site: of each host in sites; their own pages on naḥw, ṣarf and their neighbours). journals: journals followed through Crossref by ISSN (every new article, scored). doaj: DOAJ searches (queries) and journals followed there by ISSN (journals): the open-access journals of Iran, the Arab world, Indonesia, Malaysia and Central Asia that Crossref does not hold. feeds: RSS or Atom feeds (a journal's latest issue, a podcast, a YouTube channel: https://www.youtube.com/feeds/videos.xml?channel_id=<id>, a blog); kind is the news kind (media, event, study, edition, translation, digital), field the science, and always: true lists every new item of a feed that is about naḥw or ṣarf itself, without scoring. Everything is scored for naḥw and ṣarf unless marked always; what a vetted source says on a neighbouring science (balāgha, lugha, manṭiq, uṣūl al-fiqh, tafsīr) gets a section of its own, and what is on naḥw or ṣarf but not from a vetted institution is listed at the end for the owner only, and what an earlier weekly issue listed is not offered again. skipHosts: hosts whose items are never news (lecture series published episode by episode, library catalogues, office documents). ADAPTED FOR THE NAHWI on 26 November 2026: the searches below are new and untried; the journals, feeds and trusted hosts are still The Mantiqi's (Islamic studies in general) and should be checked for language-science sources before the round is turned on (docs/news.md).",
+  "googleNews": [
+    {
+      "q": "\"Arabic grammar\" madrasa",
+      "hl": "en",
+      "gl": "GB"
+    },
+    {
+      "q": "\"Arabic grammar\" OR \"Arabic morphology\" classical",
+      "hl": "en",
+      "gl": "US"
+    },
+    {
+      "q": "Sibawayh OR \"Ibn Malik\" OR Alfiyya",
+      "hl": "en",
+      "gl": "GB"
+    },
+    {
+      "q": "\"Ajurrumiyya\" OR \"Ajrumiyyah\" OR \"Aajurroomiyyah\"",
+      "hl": "en",
+      "gl": "GB"
+    },
+    {
+      "q": "\"Dars-e-Nizami\" nahw OR sarf",
+      "hl": "en",
+      "gl": "IN"
+    },
+    {
+      "q": "\"Nahw Mir\" OR \"Mizan al-Sarf\" OR \"Hidayat al-Nahw\" OR \"Kafiya\"",
+      "hl": "en",
+      "gl": "PK"
+    },
+    {
+      "q": "\"علم النحو\"",
+      "hl": "ar",
+      "gl": "EG"
+    },
+    {
+      "q": "\"علم الصرف\"",
+      "hl": "ar",
+      "gl": "EG"
+    },
+    {
+      "q": "\"ألفية ابن مالك\"",
+      "hl": "ar",
+      "gl": "SA"
+    },
+    {
+      "q": "الآجرومية",
+      "hl": "ar",
+      "gl": "MA"
+    },
+    {
+      "q": "\"النحو العربي\" الأزهر",
+      "hl": "ar",
+      "gl": "EG"
+    },
+    {
+      "q": "\"سيبويه\" الكتاب",
+      "hl": "ar",
+      "gl": "SA"
+    },
+    {
+      "q": "\"ilmu nahwu\" OR \"ilmu sharaf\"",
+      "hl": "id",
+      "gl": "ID"
+    },
+    {
+      "q": "\"Alfiyah Ibnu Malik\" pesantren",
+      "hl": "id",
+      "gl": "ID"
+    },
+    {
+      "q": "\"Jurumiyah\" OR \"Amtsilati\" pesantren",
+      "hl": "id",
+      "gl": "ID"
+    },
+    {
+      "q": "\"Arapça dil bilgisi\" OR \"nahiv ilmi\" OR \"sarf ilmi\"",
+      "hl": "tr",
+      "gl": "TR"
+    },
+    {
+      "q": "\"Emsile\" OR \"İzzî\" OR \"Molla Câmî\" medrese",
+      "hl": "tr",
+      "gl": "TR"
+    },
+    {
+      "q": "\"صرف و نحو\" مدرسه",
+      "hl": "ur",
+      "gl": "PK"
+    },
+    {
+      "q": "\"نحو میر\" OR \"میزان الصرف\" OR \"ہدایۃ النحو\"",
+      "hl": "ur",
+      "gl": "PK"
+    },
+    {
+      "q": "\"صرف و نحو عربی\"",
+      "hl": "fa",
+      "gl": "IR"
+    },
+    {
+      "q": "\"grammaire arabe\" classique",
+      "hl": "fr",
+      "gl": "FR"
+    },
+    {
+      "q": "\"arabische Grammatik\" Sibawaih",
+      "hl": "de",
+      "gl": "DE"
+    },
+    {
+      "q": "\"арабская грамматика\" OR \"нахв\" OR \"сарф\"",
+      "hl": "ru",
+      "gl": "RU"
+    }
+  ],
+  "googleNewsSites": [
+    {
+      "_why": "Indonesian pesantren and NU news (trusted hosts)",
+      "q": "(\"ilmu nahwu\" OR \"ilmu sharaf\" OR \"Alfiyah\" OR \"Jurumiyah\" OR \"Amtsilati\" OR \"kitab kuning\" nahwu)",
+      "sites": [
+        "nu.or.id",
+        "laduni.id",
+        "islami.co",
+        "alif.id",
+        "bincangsyariah.com",
+        "tebuireng.online",
+        "iqra.id",
+        "kemenag.go.id",
+        "mui.or.id"
+      ],
+      "hl": "id",
+      "gl": "ID"
+    },
+    {
+      "_why": "al-Azhar, Dār al-Iftāʾ, the Egyptian Awqaf and Sunni portals in Arabic (trusted hosts)",
+      "q": "(\"علم النحو\" OR \"علم الصرف\" OR \"النحو العربي\" OR الآجرومية OR \"ألفية ابن مالك\" OR سيبويه OR \"قطر الندى\")",
+      "sites": [
+        "azhar.eg",
+        "dar-alifta.org",
+        "awqaf.gov.eg",
+        "alukah.net",
+        "islamweb.net",
+        "arrabita.ma",
+        "islamonline.net",
+        "iumsonline.org"
+      ],
+      "hl": "ar",
+      "gl": "EG"
+    },
+    {
+      "_why": "Diyanet, İSAM and the TDV encyclopedia (trusted hosts)",
+      "q": "(nahiv OR sarf OR \"Arapça dil bilgisi\" OR Emsile OR İzzî OR \"Molla Câmî\" OR Kâfiye)",
+      "sites": [
+        "diyanethaber.com.tr",
+        "diyanet.gov.tr",
+        "isam.org.tr",
+        "tdv.org"
+      ],
+      "hl": "tr",
+      "gl": "TR"
+    },
+    {
+      "_why": "Malaysia's mufti offices and IKIM (trusted hosts)",
+      "q": "(nahwu OR sharaf OR \"bahasa Arab\" OR Alfiyah OR Jurumiyah OR \"tata bahasa Arab\")",
+      "sites": [
+        "muftiwp.gov.my",
+        "islam.gov.my",
+        "ikim.gov.my"
+      ],
+      "hl": "ms",
+      "gl": "MY"
+    }
+  ],
+  "feeds": [
+    {
+      "name": "Kader (kelam) (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/kader/rss/lastissue/tr",
+      "kind": "study",
+      "by": "Kelam Araştırmaları (vereniging van kalām-docenten der ilahiyat-faculteiten)"
+    },
+    {
+      "name": "Tahkik İslami İlimler (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/tahkik/rss/lastissue/tr",
+      "kind": "study",
+      "by": "Hacıveyiszade İlim ve Kültür Vakfı, Konya"
+    },
+    {
+      "name": "Ilahiyat Studies (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/is/rss/lastissue/tr",
+      "kind": "study",
+      "by": "Bursa İlahiyat Vakfı"
+    },
+    {
+      "name": "Eskiyeni (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/eskiyeni/rss/lastissue/tr",
+      "kind": "study",
+      "by": "Anadolu İlahiyat Akademisi"
+    },
+    {
+      "name": "İslam Araştırmaları Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/isad/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İSAM, Türkiye Diyanet Vakfı"
+    },
+    {
+      "name": "İslam Medeniyeti Araştırmaları Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/imad/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Kütahya Dumlupınar Üniversitesi"
+    },
+    {
+      "name": "İslam Hukuku Araştırmaları Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/ihad/rss/lastissue/tr",
+      "kind": "study",
+      "by": "Gençleri Evlendirme ve Mehir Vakfı, Konya"
+    },
+    {
+      "name": "Darulfunun İlahiyat (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/iuilah/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Universiteit Istanbul"
+    },
+    {
+      "name": "Ankara Üniversitesi İlahiyat Fakültesi Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/auifd/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Universiteit Ankara"
+    },
+    {
+      "name": "Sakarya Üniversitesi İlahiyat Fakültesi Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/sakaifd/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Universiteit Sakarya"
+    },
+    {
+      "name": "Ondokuz Mayıs Üniversitesi İlahiyat Fakültesi Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/omuifd/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Ondokuz Mayıs Üniversitesi"
+    },
+    {
+      "name": "Cumhuriyet İlahiyat Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/cuid/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Cumhuriyet Üniversitesi"
+    },
+    {
+      "name": "Eskişehir Osmangazi Üniversitesi İlahiyat Fakültesi Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/esoguifd/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Eskişehir Osmangazi Üniversitesi"
+    },
+    {
+      "name": "Mersin İlahiyat Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/mid/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Mersin Üniversitesi"
+    },
+    {
+      "name": "Van İlahiyat Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/vanid/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Van Yüzüncü Yıl Üniversitesi"
+    },
+    {
+      "name": "Kocatepe İslami İlimler Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/kiid/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İslami İlimler Fakültesi, Afyon Kocatepe Üniversitesi"
+    },
+    {
+      "name": "UMDE Dini Tetkikler Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/umde/rss/lastissue/tr",
+      "kind": "study",
+      "by": "Nevşehir Hacı Bektaş Veli Üniversitesi (godsdienstwetenschappen)"
+    },
+    {
+      "name": "Bilimname (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/bilimname/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Erciyes Üniversitesi"
+    },
+    {
+      "name": "Mesned İlahiyat Araştırmaları Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/mesned/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, İnönü Üniversitesi"
+    },
+    {
+      "name": "Marifetname (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/marifetname/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İslami İlimler, Siirt Üniversitesi"
+    },
+    {
+      "name": "Tasavvur / Tekirdağ İlahiyat Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/tasavvur/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Tekirdağ Namık Kemal Üniversitesi"
+    },
+    {
+      "name": "Dergiabant (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/dergiabant/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İlahiyat Fakültesi, Bolu Abant İzzet Baysal Üniversitesi"
+    },
+    {
+      "name": "İSTEM (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/istem/rss/lastissue/tr",
+      "kind": "study",
+      "by": "İslami İlimler Araştırma Vakfı (İSAV), Konya"
+    },
+    {
+      "name": "Mukaddime (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/mukaddime/rss/lastissue/tr",
+      "kind": "study",
+      "by": "islamitische wetenschappen, Mardin Artuklu Üniversitesi"
+    },
+    {
+      "name": "IslamOnline",
+      "url": "https://islamonline.net/feed/",
+      "kind": "media",
+      "by": "IslamOnline (Qatar)"
+    },
+    {
+      "name": "BincangSyariah",
+      "url": "https://bincangsyariah.com/feed/",
+      "kind": "media",
+      "by": "BincangSyariah (NU-kring, Indonesië)"
+    },
+    {
+      "name": "Tebuireng Online",
+      "url": "https://tebuireng.online/feed/",
+      "kind": "media",
+      "by": "Pesantren Tebuireng, Jombang"
+    }
+  ],
+  "journals": [
+    {
+      "name": "Islamic Studies (Islamabad)",
+      "issn": "0578-8072",
+      "by": "Islamic Research Institute, International Islamic University Islamabad"
+    },
+    {
+      "name": "Studia Islamika (Jakarta)",
+      "issn": "2355-6145",
+      "by": "UIN Syarif Hidayatullah Jakarta"
+    },
+    {
+      "name": "Al-Shajarah (ISTAC)",
+      "issn": "1394-6870",
+      "by": "ISTAC, International Islamic University Malaysia"
+    },
+    {
+      "name": "Majallat al-Miʿyār (Algeria)",
+      "issn": "2588-2384",
+      "by": "Université des sciences islamiques Émir Abdelkader, Constantine"
+    },
+    {
+      "name": "Jurnal Akidah & Pemikiran Islam (Afkar, Malaysia)",
+      "issn": "2550-1755",
+      "field": "kalam",
+      "by": "Academy of Islamic Studies, University of Malaya"
+    },
+    {
+      "name": "Journal of Usuluddin (Malaysia)",
+      "issn": "1394-3723",
+      "by": "Academy of Islamic Studies, University of Malaya"
+    },
+    {
+      "name": "Islamiyyat (UKM, Malaysia)",
+      "issn": "2600-8556",
+      "by": "Faculty of Islamic Studies, UKM"
+    },
+    {
+      "name": "International Journal of Islamic Thought (Malaysia)",
+      "issn": "2289-6023",
+      "by": "Department of Theology and Philosophy, Faculty of Islamic Studies, UKM"
+    },
+    {
+      "name": "Journal of Islam in Asia (IIUM)",
+      "issn": "2289-8077",
+      "by": "International Islamic University Malaysia"
+    },
+    {
+      "name": "Ulumuna (Indonesia)",
+      "issn": "2355-7648",
+      "by": "UIN Mataram"
+    },
+    {
+      "name": "Teosofi (Indonesia)",
+      "issn": "2442-871X",
+      "by": "UIN Sunan Ampel Surabaya"
+    },
+    {
+      "name": "Islamica (Indonesia)",
+      "issn": "2356-2218",
+      "by": "UIN Sunan Ampel Surabaya"
+    },
+    {
+      "name": "Refleksi (Indonesia)",
+      "issn": "2548-4745",
+      "field": "falsafa",
+      "by": "UIN Sunan Kalijaga Yogyakarta"
+    },
+    {
+      "name": "Jurnal Ilmiah Ilmu Ushuluddin (Indonesia)",
+      "issn": "2549-3752",
+      "by": "UIN Antasari Banjarmasin"
+    },
+    {
+      "name": "Ihya Ulum al-Din (Indonesia)",
+      "issn": "2580-5983",
+      "by": "UIN Walisongo Semarang"
+    },
+    {
+      "name": "Al-Jamiʿah (Indonesia)",
+      "issn": "2338-557X",
+      "by": "UIN Sunan Kalijaga Yogyakarta"
+    },
+    {
+      "name": "The Maturidiyya (Uzbekistan)",
+      "issn": "2181-1881",
+      "field": "kalam",
+      "by": "Imam Maturidi International Scientific Research Center, Samarkand"
+    },
+    {
+      "name": "Minbar. Islamic Studies (Kazan)",
+      "issn": "2618-9569",
+      "by": "Russian Islamic Institute, Kazan (publisher; founded with Kazan Federal University)"
+    }
+  ],
+  "doaj": {
+    "queries": [
+      "\"علم النحو\"",
+      "\"علم الصرف\"",
+      "\"النحو العربي\"",
+      "\"الصرف العربي\"",
+      "سيبويه",
+      "\"ألفية ابن مالك\"",
+      "الآجرومية",
+      "\"صرف و نحو\"",
+      "\"ilmu nahwu\"",
+      "\"ilmu sharaf\"",
+      "nahwu",
+      "\"Arabic grammar\"",
+      "\"Arabic morphology\"",
+      "\"Arabic syntax\"",
+      "Sibawayh"
+    ],
+    "journals": [
+      {
+        "name": "Ḥawliyyat Kulliyyat al-Daʿwa al-Islāmiyya, al-Azhar",
+        "issn": "2636-2511",
+        "by": "al-Azhar, Faculteit Daʿwa, Caïro"
+      },
+      {
+        "name": "Majallat Kulliyyat al-Dirāsāt al-Islāmiyya, al-Azhar",
+        "issn": "2535-146X",
+        "by": "al-Azhar, Faculteit Islamitische en Arabische Studies"
+      },
+      {
+        "name": "Majallat Kulliyyat Dār al-ʿUlūm (Cairo)",
+        "issn": "1110-581X",
+        "field": "lugha",
+        "by": "Dār al-ʿUlūm, Caïro"
+      },
+      {
+        "name": "al-Dirāya (al-Azhar)",
+        "issn": "2535-1818",
+        "by": "al-Azhar, Faculteit Islamitische Studies, Dasūq"
+      },
+      {
+        "name": "Majallat Jāmiʿat al-Qurʾān al-Karīm (Yemen)",
+        "issn": "2617-5894",
+        "by": "Universiteit van de Heilige Koran en de Islamitische Wetenschappen, Jemen"
+      },
+      {
+        "name": "Jurnal Theologia (Indonesia)",
+        "issn": "2540-847X",
+        "field": "kalam",
+        "by": "UIN Walisongo Semarang"
+      }
+    ]
+  },
+  "skipHosts": [
+    "audio.islamweb.net",
+    "kutuphane.isam.org.tr",
+    "webdosyasp.diyanet.gov.tr"
+  ],
+  "onHold": [
+    {
+      "name": "Nazariyat",
+      "issn": "2547-9415",
+      "field": "falsafa",
+      "via": "journals",
+      "why": "uitgever: instituut voor wetenschapsgeschiedenis van een staatsuniversiteit (Istanbul Medeniyet), niet een islamitische instelling"
+    },
+    {
+      "name": "Journal of Islamic Thought and Civilization",
+      "issn": "2520-0313",
+      "via": "journals",
+      "why": "uitgever: University of Management and Technology, Lahore (algemene universiteit, afdeling islamitisch denken)"
+    },
+    {
+      "name": "Nama, ʿulūm al-waḥy (Egypt)",
+      "issn": "2785-9746",
+      "via": "doaj",
+      "why": "particuliere uitgever, uitgever niet na te gaan"
+    },
+    {
+      "name": "al-Majalla al-ʿArabiyya li-l-dirāsāt al-islāmiyya wa-l-sharʿiyya (Egypt)",
+      "issn": "2537-0413",
+      "via": "doaj",
+      "why": "uitgever: Arabische stichting voor onderwijs en wetenschap (particulier), niet na te gaan"
+    },
+    {
+      "name": "al-Fikr al-Islāmī al-Muʿāṣir",
+      "issn": "2707-515X",
+      "via": "doaj",
+      "why": "uitgever niet na te gaan"
+    },
+    {
+      "name": "Mantık Araştırmaları Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/mader/rss/lastissue/tr",
+      "kind": "study",
+      "field": "mantiq",
+      "via": "feeds",
+      "why": "uitgever: Erciyes Üniversitesi (gemaakt door mantıq-docenten der ilahiyat, maar de uitgever is de universiteit, geen islamitische instelling)"
+    },
+    {
+      "name": "Tetkik (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/tetkik/rss/lastissue/tr",
+      "kind": "study",
+      "via": "feeds",
+      "why": "uitgever niet na te gaan"
+    },
+    {
+      "name": "ULUM (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/ulum/rss/lastissue/tr",
+      "kind": "study",
+      "via": "feeds",
+      "why": "uitgever niet na te gaan"
+    },
+    {
+      "name": "Dîvân Disiplinlerarası Çalışmalar Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/divan/rss/lastissue/tr",
+      "kind": "study",
+      "via": "feeds",
+      "why": "Bilim ve Sanat Vakfı: interdisciplinair, niet alleen islamitisch"
+    },
+    {
+      "name": "Genç Mütefekkirler Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/gemder/rss/lastissue/tr",
+      "kind": "study",
+      "via": "feeds",
+      "why": "uitgever niet na te gaan"
+    },
+    {
+      "name": "Dünya Bizim",
+      "url": "https://www.dunyabizim.com/rss",
+      "kind": "media",
+      "via": "feeds",
+      "why": "cultuurportaal; uitgever niet na te gaan"
+    },
+    {
+      "name": "Dinbilimleri Akademik Araştırma Dergisi (DergiPark)",
+      "url": "https://dergipark.org.tr/tr/pub/daad/rss/lastissue/tr",
+      "kind": "study",
+      "via": "feeds",
+      "why": "eigen uitgever (Dinbilimleri Akademik Araştırma Dergisi, Crossref-lid 19046), geen faculteit of islamitische instelling; vraagt auteurs om betaling"
+    }
+  ],
+  "trust": {
+    "_note": "Strict check: a candidate is kept only when it comes from a Sunni Islamic institution. Journals, DOAJ journals and feeds above are vetted one by one ('by' names the institution). Results of the general searches (Crossref, OpenAlex, DOAJ searches, Google News) count only when their journal's ISSN is one of the vetted journals or listed here, their site is one of these hosts, or their publisher matches one of these patterns and none of the exclusions. onHold: sources kept out until the owner approves them.",
+    "issn": [
+      "0215-0492",
+      "2710-5326",
+      "2735-1866",
+      "1112-4377",
+      "1511-8819",
+      "0128-0708",
+      "0126-5636",
+      "2232-1314",
+      "1823-0970",
+      "1411-3457",
+      "2775-2453",
+      "2088-7957",
+      "1978-3183",
+      "1411-9951",
+      "1412-5188",
+      "1411-3708",
+      "0126-012X",
+      "2181-189X",
+      "2974-4717",
+      "2535-2199",
+      "2735-4113",
+      "2636-3089",
+      "3006-6018",
+      "0853-3857",
+      "2618-9569",
+      "2712-7990"
+    ],
+    "hosts": [
+      "nu.or.id",
+      "islamonline.net",
+      "diyanet.gov.tr",
+      "diyanethaber.com.tr",
+      "isam.org.tr",
+      "islamansiklopedisi.org.tr",
+      "tdv.org",
+      "azhar.eg",
+      "dar-alifta.org",
+      "awqaf.gov.eg",
+      "arrabita.ma",
+      "islamweb.net",
+      "alukah.net",
+      "iumsonline.org",
+      "bincangsyariah.com",
+      "tebuireng.online",
+      "laduni.id",
+      "islami.co",
+      "alif.id",
+      "iqra.id",
+      "kemenag.go.id",
+      "mui.or.id",
+      "muftiwp.gov.my",
+      "islam.gov.my",
+      "ikim.gov.my",
+      "muslim.uz",
+      "islom.uz",
+      "imom.uz",
+      "sunnionline.us",
+      "darululoom-deoband.com",
+      "nadwatululama.org",
+      "dergipark.org.tr/tr/pub/kader",
+      "dergipark.org.tr/tr/pub/isad"
+    ],
+    "publishers": [
+      "\\bUIN\\b",
+      "\\bIAIN\\b",
+      "\\bSTAIN?\\b",
+      "universitas islam",
+      "state islamic university",
+      "islamic university",
+      "international islamic university",
+      "\\bIIUM\\b",
+      "ISTAC",
+      "academy of islamic studies",
+      "faculty of islamic",
+      "islamic research institute",
+      "\\bal-?azhar\\b",
+      "الأزهر",
+      "العلوم الإسلامية",
+      "الجامعة الإسلامية",
+      "كلية الشريعة",
+      "كلية أصول الدين",
+      "كلية الدعوة",
+      "sciences islamiques",
+      "İlahiyat",
+      "Ilahiyat",
+      "İslami İlimler",
+      "Islami Ilimler",
+      "İslam Araştırmaları Merkezi",
+      "Türkiye Diyanet",
+      "pesantren",
+      "ma'had aly",
+      "Imam Maturidi",
+      "Imam Bukhari"
+    ],
+    "notPublishers": [
+      "islamic azad",
+      "al-mustafa international",
+      "\\bqom\\b",
+      "imam sadiq",
+      "razavi",
+      "ahl al-bayt international",
+      "\\bshi'?a\\b",
+      "shiite",
+      "ja'?fari",
+      "جامعة المصطفى",
+      "آزاد اسلامی"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+---
+import KbArticle from "../../../../components/KbArticle.astro";
+import { LIVE_LOCALES, t } from "../../../../i18n";
+import { articlesOf, KB_BOOKS, kbPath } from "../../../../lib/kb";
+
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) =>
+    KB_BOOKS.flatMap((book) => articlesOf(locale, book.id).map((article) => ({ params: { locale, book: book.id, article: article.slug }, props: { article, book } }))),
+  );
+}
+const { locale } = Astro.params as { locale: string };
+const { article, book } = Astro.props;
+---
+
+<KbArticle locale={locale} article={article} siblings={articlesOf(locale, book.id)} section={{ label: book.title, href: kbPath.book(locale, book.id), arabic: book.arabic }} />

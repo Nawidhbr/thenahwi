@@ -1,0 +1,92 @@
+---
+import PrimerOriginal from "./PrimerOriginal.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SourceNote from "./SourceNote.astro";
+import FoldAll from "./FoldAll.astro";
+import Translation from "./Translation.astro";
+import { fmt, t } from "../i18n";
+import { primerLessonPath, primerPath, pathLevel } from "../lib/course";
+import { primerSource } from "../lib/sources";
+import { breadcrumbs, textEdition } from "../lib/structured-data";
+import type { Primer } from "@nahwi/content";
+
+import textOpenScript from "../scripts/text-open.js?url";
+import copyTextScript from "../scripts/copy-text.js?url";
+/**
+ * The original of a primer course as a text of the library (/text/<id>/): the whole Persian (or Arabic) text as
+ * transcribed from its public-domain print, grouped by the course's parts and lessons in folds. Under each passage:
+ * a copy button, and our own translation behind a fold-out (with its own copy button).
+ */
+interface Props {
+  primer: Primer;
+  locale: string;
+}
+const { primer: p, locale } = Astro.props;
+const ui = t(locale);
+const P = ui.primer;
+const te = p.textEdition!;
+const langName = (P.languages as Record<string, string>)[te.language];
+const path = `/text/${p.id}/`;
+const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+const passages = p.parts.reduce((n, part) => n + part.lessons.reduce((k, l) => k + l.text.length, 0), 0);
+---
+
+<BaseLayout
+  title={fmt(P.textTitle, { title: p.title, language: langName })}
+  description={fmt(P.textDescription, { title: p.title, author: p.author, language: langName })}
+  path={path}
+  locale={locale}
+  jsonLd={[textEdition(locale, { id: p.id, title: p.title, author: p.author, language: te.language, work: p.library, description: fmt(P.textDescription, { title: p.title, author: p.author, language: langName }) }), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.nav.text, path: `/${locale}/text/` }, { name: p.title, path: `/${locale}${path}` }])]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/text/`}>{ui.nav.text}</a> / {p.title}</p>
+  <header class="text-head">
+    <p class="ar text-title" lang={te.language}>{p.arabicTitle}</p>
+    <div class="text-title-row">
+      <h1>{p.title} <span class="muted text-by">{p.author}</span></h1>
+      <button type="button" class="info-tile" popovertarget="about-primer" aria-label={ui.text.about}>
+        <span aria-hidden="true">i</span>
+      </button>
+    </div>
+    <SourceNote info={primerSource(p, locale)} locale={locale} variant="pop" id="about-primer" />
+    <p class="muted">{fmt(P.textLead, { language: langName, n: String(passages) })}</p>
+    <div class="hero-actions">
+      <a class="btn btn-red" href={primerPath(locale, p.id)}>{fmt(P.studyCourse, { level: pathLevel(ui, p.id) })}</a>
+    </div>
+  </header>
+  <FoldAll locale={locale} />
+
+  {
+    p.parts.map((part, k) => (
+      <details class="text-part">
+        <summary class="part-head">
+          <span class="tile-wrap" aria-hidden="true">
+            <span class="tile tile-filled"><span>{k + 1}</span></span>
+          </span>
+          <span>
+            <strong>{part.title}</strong> <span class="ar" lang="ar">{part.arabic}</span>
+          </span>
+        </summary>
+        {part.lessons.filter((l) => l.text.length > 0).map((l) => (
+          <section class="card primer-text" id={`l${l.n}`}>
+            <p class="eyebrow">
+              <a href={primerLessonPath(locale, p.id, l.n)}>{fmt(ui.track.lessonN, { n: String(l.n) })}: {l.title}</a>
+            </p>
+            {l.text.map((x) => (
+              <div class="lesson-matn">
+                <PrimerOriginal text={x.original} lang={te.language} />
+                <p class="primer-tools">
+                  <button type="button" class="btn btn-outline btn-small" data-copy={x.original} data-done={P.copied}>{P.copyText}</button>
+                  {x.page && <span class="seg-page muted">{fmt(x.page.includes("–") ? P.pages : P.page, { pages: x.page })}</span>}
+                </p>
+                {locale !== te.language && <Translation locale={locale} html={esc(x.en)} copy={x.en} lang={x.lang ?? "en"} english={!x.lang} />}
+              </div>
+            ))}
+          </section>
+        ))}
+      </details>
+    ))
+  }
+
+  <script is:inline src={textOpenScript}></script>
+  <script is:inline src={copyTextScript}></script>
+</BaseLayout>

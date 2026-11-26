@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { t } from "../../i18n";
+
+/**
+ * Moderation of the questions and remarks under the lessons (components/LessonComments.astro): a moderator (a row in
+ * public.moderators, added in the SQL Editor) publishes, hides and answers them. Everything runs in the browser
+ * against Supabase (scripts/moderate.ts); row-level security lets only moderators read the messages of others and
+ * moderate_comment() refuses everyone else. English only, not indexed, not in the sitemap, linked from nowhere.
+ */
+export function getStaticPaths() {
+  return [{ params: { locale: "en" } }];
+}
+const locale = "en";
+const M = t(locale).moderate;
+const texts = {
+  empty: M.empty, anonymous: M.anonymous, openLesson: M.openLesson, publish: M.publish, hide: M.hide,
+  unpublish: M.unpublish, answerLabel: M.answerLabel, saveAnswer: M.saveAnswer, saved: M.saved, failed: M.failed,
+  signin: M.signin, notModerator: M.notModerator,
+};
+---
+
+<BaseLayout title={M.title} description={M.description} path="/moderate/" locale={locale} noindex>
+  <section class="moderate" data-moderate data-state="loading" data-texts={JSON.stringify(texts)}>
+    <p class="eyebrow comments-kicker">{M.kicker}</p>
+    <h1>{M.title}</h1>
+    <p class="muted">{M.lead}</p>
+    <p class="muted" data-mod-status role="status">{M.loading}</p>
+    <p class="moderate-signin" data-show-out hidden><a class="btn btn-outline" href="/en/account/">{M.signinLink}</a></p>
+    <div data-show-in hidden>
+      <div class="moderate-tabs" role="tablist">
+        <button type="button" role="tab" data-tab="pending" aria-selected="true">{M.tabs.pending} <span data-n="pending"></span></button>
+        <button type="button" role="tab" data-tab="published" aria-selected="false">{M.tabs.published}</button>
+        <button type="button" role="tab" data-tab="hidden" aria-selected="false">{M.tabs.hidden}</button>
+      </div>
+      <ol class="moderate-list" data-mod-list></ol>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import { start } from "../../scripts/moderate";
+  start();
+</script>

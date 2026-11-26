@@ -1,0 +1,51 @@
+{
+  "term": "ilm-al-nahw",
+  "items": [
+    {
+      "id": "ilm-al-nahw-1",
+      "prompt": "What does naḥw study?",
+      "options": [
+        "How words join into sentences, and the endings that show their role",
+        "How a verb is conjugated through the persons",
+        "The patterns of the root letters",
+        "The history of the Arabic script"
+      ],
+      "answer": 0,
+      "explanation": "Naḥw is about the word in the sentence: its role and the ending that shows it.",
+      "terms": [
+        "ilm-al-nahw"
+      ]
+    },
+    {
+      "id": "ilm-al-nahw-2",
+      "prompt": "Why does ʿAmr end in -an in this sentence?",
+      "arabic": "ضَرَبَ زَيْدٌ عَمْرًا",
+      "options": [
+        "He is the one the striking falls on, the object",
+        "He is the doer of the striking",
+        "His name follows a preposition",
+        "Names always end in -an"
+      ],
+      "answer": 0,
+      "explanation": "ʿAmran is the object (mafʿūl bihi), and the object is manṣūb, with fatḥa.",
+      "terms": [
+        "ilm-al-nahw"
+      ]
+    },
+    {
+      "id": "ilm-al-nahw-3",
+      "prompt": "Which of these is a first book of naḥw?",
+      "options": [
+        "al-Ājurrūmiyya",
+        "al-Shāfiya",
+        "Lāmiyyat al-afʿāl",
+        "al-Amthila"
+      ],
+      "answer": 0,
+      "explanation": "Ibn Ājurrūm's al-Ājurrūmiyya is a short first book of naḥw. The other three are books of ṣarf.",
+      "terms": [
+        "ilm-al-nahw"
+      ]
+    }
+  ]
+}

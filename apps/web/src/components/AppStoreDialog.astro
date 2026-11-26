@@ -1,0 +1,83 @@
+---
+/**
+ * Buying full access in the iPhone app, through Apple (lib/app-store.ts, opened by lib/app-ios.ts from any
+ * [data-subscribe]): the same two plans as on the website, at Apple's price for the reader's country, with what Apple
+ * asks a purchase window to show (the price and period, the renewal, how to cancel, the terms and the privacy policy)
+ * and a button to restore purchases. Rendered once RevenueCat's key is set (config/app-store.ts); shown only in the app.
+ */
+import { t } from "../i18n";
+import { APP_STORE_KEY } from "../config/app-store";
+import { APPLE_SIGN_IN } from "../config/site";
+
+interface Props { locale: string }
+const { locale } = Astro.props;
+const ui = t(locale);
+const S = ui.subscribe;
+const A = ui.account;
+const X = ui.app.store;
+const vars = {
+  key: APP_STORE_KEY,
+  texts: {
+    loading: X.loading, unavailable: X.unavailable, buying: X.buying, thanks: X.thanks, error: X.error, restoring: X.restoring,
+    restore: X.restore, nothing: X.nothing, continue: S.continue, offline: A.offline, errors: A.errors,
+  },
+};
+---
+
+{APP_STORE_KEY && (
+  <dialog class="sub-dialog" data-store-dialog data-ios-only data-locale={locale} data-vars={JSON.stringify(vars)} aria-labelledby="store-title">
+    <div class="sub-panel">
+      <p class="kb-kicker">{S.kicker}</p>
+      <h2 id="store-title">{S.title}</h2>
+      <ul class="account-perks">{(S.perks as string[]).map((p) => <li>{p}</li>)}</ul>
+    </div>
+    <div class="sub-main">
+      <button type="button" class="sub-close" data-store-close aria-label={S.close}>
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+      <p class="account-status" role="status" aria-live="polite" hidden data-store-status></p>
+
+      <form class="sub-step" data-store-step="plan" hidden>
+        <fieldset class="sub-plans">
+          <legend>{S.planLegend}</legend>
+          <label class="sub-plan">
+            <input type="radio" name="plan" value="yearly" checked />
+            <span class="sub-plan-name">{S.yearly}<span class="sub-save">{X.renewsYear}</span></span>
+            <span class="sub-plan-price"><strong data-store-price="yearly">…</strong> {S.perYear}</span>
+          </label>
+          <label class="sub-plan">
+            <input type="radio" name="plan" value="monthly" />
+            <span class="sub-plan-name">{S.monthly}<span class="sub-save">{X.renewsMonth}</span></span>
+            <span class="sub-plan-price"><strong data-store-price="monthly">…</strong> {S.perMonth}</span>
+          </label>
+        </fieldset>
+        <button type="submit" class="account-primary" data-store-buy>{S.continue}</button>
+        <p class="account-fine">{X.fine}</p>
+        <p class="account-links">
+          <button type="button" data-store-restore>{X.restore}</button>
+        </p>
+        <p class="account-fine store-legal">
+          <a href={`/${locale}/terms-of-service/`}>{X.terms}</a>
+          <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">{X.eula}</a>
+          <a href={`/${locale}/privacy/`}>{X.privacy}</a>
+        </p>
+      </form>
+
+      <div class="sub-step" data-store-step="signin" hidden>
+        <h3 class="account-h">{S.signinTitle}</h3>
+        <p class="account-fine">{S.signinBody}</p>
+        {APPLE_SIGN_IN && (
+          <button type="button" class="account-google account-apple" data-store-signin="apple">
+            <svg aria-hidden="true" class="apple-logo" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"></path></svg>
+            {A.apple}
+          </button>
+        )}
+        <button type="button" class="account-google" data-store-signin="google">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 48 48"><path class="g-red" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.6 5.4 2.7 13.2l7.9 6.2C12.5 13.6 17.8 9.5 24 9.5z"></path><path class="g-blue" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.2 5.5-4.8 7.2l7.7 6c4.5-4.2 6.9-10.3 6.9-17.7z"></path><path class="g-yellow" d="M10.6 28.6c-.5-1.4-.8-3-.8-4.6s.3-3.2.8-4.6l-7.9-6.2C1 16.6 0 20.2 0 24s1 7.4 2.7 10.8l7.9-6.2z"></path><path class="g-green" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.7-6c-2.2 1.5-5 2.3-8.2 2.3-6.2 0-11.5-4.2-13.4-9.9l-7.9 6.2C6.6 42.6 14.6 48 24 48z"></path></svg>
+          {A.google}
+        </button>
+        <a class="account-primary store-email" href={`/${locale}/account/`}>{X.email}</a>
+      </div>
+    </div>
+  </dialog>
+)}

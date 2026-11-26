@@ -1,0 +1,118 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { breadcrumbs } from "../../../lib/structured-data";
+import { BABS, PATTERNS } from "@nahwi/engine";
+
+// English only, like every tool (ENGLISH_ONLY in i18n/index.ts); its words are written here, as on the earlier tools.
+const locale = "en";
+const path = "/tools/tasrif/";
+const babs = Object.entries(BABS).map(([value, b]) => ({ value, label: `${b.english} · ${b.model}` }));
+---
+
+<BaseLayout
+  title="Conjugation tables (taṣrīf) of the sound verb"
+  description="Type three root letters, choose the bāb or the pattern, and see the whole conjugation: past and present, active and passive, the moods, the imperative and the derived nouns."
+  path={path}
+  locale={locale}
+  noindex
+  jsonLd={[
+    breadcrumbs([
+      { name: "Home", path: `/${locale}/` },
+      { name: "Conjugation tables", path: `/${locale}${path}` },
+    ]),
+  ]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>Home</a> / Conjugation tables</p>
+  <h1>Conjugation tables <span class="ar muted" lang="ar">التَّصْرِيف</span></h1>
+  <p class="lead">
+    Type the three root letters of a sound verb and choose its bāb or pattern. The table is built by the same rules as
+    the drills of the study portal: the fourteen persons, as the ṣarf books set them out.
+  </p>
+
+  <form class="checker" id="tasrif">
+    <fieldset>
+      <legend>The verb</legend>
+      <div class="row">
+        <label>Root letters <input name="root" value="ن ص ر" lang="ar" dir="rtl" autocomplete="off" /></label>
+        <label>Pattern
+          <select name="pattern">
+            {PATTERNS.map((p) => <option value={p.n}>{p.n === 1 ? "I · bare" : `${["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"][p.n]} · ${p.madi}`}</option>)}
+          </select>
+        </label>
+        <label>Bāb (for the bare verb)
+          <select name="bab">{babs.map((b) => <option value={b.value}>{b.label}</option>)}</select>
+        </label>
+      </div>
+    </fieldset>
+    <div class="result" id="tasrif-result" aria-live="polite"></div>
+  </form>
+
+  <p class="muted">
+    Covered: the sound verb (al-ṣaḥīḥ al-sālim), bare and in patterns II–VIII and X. Weak roots, roots with a hamza,
+    doubled roots and pattern IX have rules of their own and are not generated yet. See also
+    <a href={`/${locale}/glossary/madi/`}>the past tense</a>, <a href={`/${locale}/glossary/mudari/`}>the present tense</a> and
+    <a href={`/${locale}/glossary/mazid/`}>the augmented form</a>.
+  </p>
+</BaseLayout>
+
+<script>
+  import { PERSONS, SECOND_PERSONS, TasrifError, conjugate, rootOf, type Bab, type Pattern, type Person } from "@nahwi/engine";
+
+  const form = document.getElementById("tasrif") as HTMLFormElement;
+  const out = document.getElementById("tasrif-result")!;
+  form.addEventListener("submit", (e) => e.preventDefault());
+
+  const el = (tag: string, text = "", cls?: string, ar = false) => {
+    const node = document.createElement(tag);
+    node.textContent = text;
+    if (cls) node.className = cls;
+    if (ar) { node.lang = "ar"; node.dir = "rtl"; }
+    return node;
+  };
+
+  function table(title: string, rows: [string, string | null | undefined][]) {
+    const t = el("table", "", "tasrif-table");
+    const cap = el("caption", title);
+    t.append(cap);
+    for (const [label, form] of rows) {
+      const tr = el("tr");
+      tr.append(el("th", label), el("td", form ?? "—", "ar", true));
+      t.append(tr);
+    }
+    return t;
+  }
+
+  function update() {
+    const data = new FormData(form);
+    out.replaceChildren();
+    out.dataset.status = "";
+    try {
+      const root = rootOf(String(data.get("root") || ""));
+      const pattern = Number(data.get("pattern")) as Pattern;
+      const verb = pattern === 1 ? { root, pattern, bab: data.get("bab") as Bab } : { root, pattern };
+      const c = conjugate(verb);
+      out.dataset.status = "productive";
+      const rows = (f: Record<Person, string> | null) => PERSONS.map((p) => [`${p.english} (${p.pronoun})`, f ? f[p.id] : null] as [string, string | null]);
+      const second = (f: Partial<Record<Person, string>>) => SECOND_PERSONS.map((p) => [PERSONS.find((x) => x.id === p)!.english, f[p]] as [string, string | undefined]);
+      const grid = el("div", "", "tasrif-grid");
+      grid.append(
+        table("Short conjugation", [["past", c.madi["3ms"]], ["present", c.mudari["3ms"]], ["verbal noun", c.masdar ?? "learnt by hearing"], ["active participle", c.ismFail], ["passive participle", c.ismMaful], ["imperative", c.amr["2ms"]], ["prohibition", c.nahy["2ms"]]]),
+        table("Past, active", rows(c.madi)),
+        table("Past, passive", rows(c.madiPassive)),
+        table("Present, active", rows(c.mudari)),
+        table("Present, passive", rows(c.mudariPassive)),
+        table("Present after lan (naṣb)", rows(c.mansub)),
+        table("Present after lam (jazm)", rows(c.majzum)),
+        table("Imperative", second(c.amr)),
+        table("Prohibition", second(c.nahy)),
+      );
+      out.append(grid);
+    } catch (e) {
+      out.dataset.status = "sterile";
+      out.append(el("p", e instanceof TasrifError ? e.message : "Something went wrong.", "verdict"));
+    }
+  }
+
+  form.addEventListener("input", update);
+  update();
+</script>

@@ -1,0 +1,52 @@
+{
+  "term": "jumla-ismiyya",
+  "items": [
+    {
+      "id": "jumla-ismiyya-1",
+      "prompt": "Which sentence is nominal?",
+      "arabic": "زَيْدٌ قَائِمٌ – قَامَ زَيْدٌ",
+      "options": [
+        "zaydun qāʾimun",
+        "qāma zaydun",
+        "Both",
+        "Neither"
+      ],
+      "answer": 0,
+      "explanation": "Zaydun qāʾimun begins with a noun; qāma zaydun begins with a verb.",
+      "terms": [
+        "jumla-ismiyya"
+      ]
+    },
+    {
+      "id": "jumla-ismiyya-2",
+      "prompt": "What are the two parts of the basic nominal sentence?",
+      "options": [
+        "mubtadaʾ and khabar",
+        "fiʿl and fāʿil",
+        "fāʿil and mafʿūl",
+        "ḥarf and ism"
+      ],
+      "answer": 0,
+      "explanation": "The nominal sentence is made of the mubtadaʾ and its khabar.",
+      "terms": [
+        "jumla-ismiyya"
+      ]
+    },
+    {
+      "id": "jumla-ismiyya-3",
+      "prompt": "What is the state of both parts here?",
+      "arabic": "العِلْمُ نُورٌ",
+      "options": [
+        "Both marfūʿ",
+        "Both manṣūb",
+        "The first marfūʿ, the second manṣūb",
+        "Both majrūr"
+      ],
+      "answer": 0,
+      "explanation": "Mubtadaʾ and khabar are both marfūʿ: al-ʿilmu, nūrun.",
+      "terms": [
+        "jumla-ismiyya"
+      ]
+    }
+  ]
+}

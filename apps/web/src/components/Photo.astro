@@ -1,0 +1,28 @@
+---
+import { PHOTO_WIDTHS, photoSrc } from "../config/photos";
+
+/**
+ * One of the black-and-white photos (public/photos/), offered in five widths as AVIF and WebP so the browser loads
+ * only what it shows: a 84-pixel thumbnail takes the 160 file, a hero on a wide screen the 1600 one.
+ * `sizes` says how wide the photo is shown (as in an <img>); `max` caps the widths offered.
+ */
+interface Props {
+  slug: string;
+  sizes: string;
+  alt?: string;
+  max?: number;
+  width?: number;
+  height?: number;
+  loading?: "lazy" | "eager";
+  class?: string;
+  fetchpriority?: "high" | "low" | "auto";
+}
+const { slug, sizes, alt = "", max = 1600, width, height, loading = "lazy", class: cls, fetchpriority } = Astro.props;
+const widths = PHOTO_WIDTHS.filter((w) => w <= max);
+const set = (ext: "avif" | "webp") => widths.map((w) => `${photoSrc(slug, w, ext)} ${w}w`).join(", ");
+---
+
+<picture>
+  <source type="image/avif" srcset={set("avif")} sizes={sizes} />
+  <img class={cls} src={photoSrc(slug, widths.at(-1) as 800)} srcset={set("webp")} sizes={sizes} alt={alt} width={width} height={height} loading={loading} decoding="async" fetchpriority={fetchpriority} />
+</picture>

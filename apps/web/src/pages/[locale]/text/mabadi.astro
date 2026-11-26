@@ -1,0 +1,117 @@
+---
+import Translation from "../../../components/Translation.astro";
+import SourceNote from "../../../components/SourceNote.astro";
+import { matnSource } from "../../../lib/sources";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import FoldAll from "../../../components/FoldAll.astro";
+import { CHAPTER_ORDER, CHAPTER_PART, PART_ORDER, PART_TITLES } from "@nahwi/content";
+import { fmt, localePaths, t } from "../../../i18n";
+import { chapterTitle, localMatn, localTerms } from "../../../lib/localize";
+import { gloss } from "../../../lib/gloss";
+import { breadcrumbs, textEdition } from "../../../lib/structured-data";
+
+import mabadiOpenScript from "../../../scripts/mabadi-open.js?url";
+import copyTextScript from "../../../scripts/copy-text.js?url";
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const matn = localMatn(locale);
+const terms = new Map(localTerms(locale).map((term) => [term.slug, term]));
+const sections = matn.sections.filter((s) => s.segments.length > 0);
+const empty = sections.length === 0;
+// The text in the parts of the book, as on the home page.
+const CHAPTER_ORDER_INDEX = Object.fromEntries(CHAPTER_ORDER.map((c, i) => [c, i]));
+const NUMERALS: Record<string, string> = { introduction: "0", sarf: "I", nahw: "II" };
+const parts = PART_ORDER.map((key) => ({
+  key,
+  title: { ...PART_TITLES[key], english: ui.parts[key].title },
+  tile: NUMERALS[key],
+  sections: sections.filter((s) => CHAPTER_PART[s.chapter] === key),
+})).filter((p) => p.sections.length > 0);
+---
+
+<BaseLayout
+  title={fmt(ui.text.title, { title: matn.title })}
+  description={fmt(ui.text.description, { title: matn.title, author: matn.author })}
+  path="/text/mabadi/"
+  locale={locale}
+  noindex={empty}
+  jsonLd={[textEdition(locale, { id: "mabadi", title: matn.title, author: matn.author, work: "mabadi", description: fmt(ui.text.description, { title: matn.title, author: matn.author }) }), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.nav.text, path: `/${locale}/text/` }, { name: matn.title, path: `/${locale}/text/mabadi/` }])]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/text/`}>{ui.nav.text}</a> / {locale === "ar" ? matn.arabicTitle : matn.title}</p>
+  <header class="text-head">
+    {locale !== "ar" && <p class="ar text-title" lang="ar">{matn.arabicTitle}</p>}
+    <div class="text-title-row">
+      <h1>{fmt(ui.text.title, { title: locale === "ar" ? matn.arabicTitle : matn.title })}</h1>
+      <button type="button" class="info-tile" popovertarget="about-text" aria-label={ui.text.about}>
+        <span aria-hidden="true">i</span>
+      </button>
+    </div>
+    <SourceNote info={matnSource(locale)} locale={locale} variant="pop" id="about-text" />
+  </header>
+  <FoldAll locale={locale} />
+
+  {
+    empty ? (
+      <section class="card">
+        <p class="u-m0">{ui.text.preparing}</p>
+      </section>
+    ) : (
+      parts.map((part) => (
+        <details class="text-part">
+          <summary class="part-head">
+            <span class="tile-wrap" aria-hidden="true">
+              <span class="tile tile-filled"><span>{part.tile}</span></span>
+            </span>
+            <span class="part-titles">
+              <h2>{part.title.english} <span class="part-translit tr">({part.title.transliteration})</span></h2>
+            </span>
+            <span class="ar part-ar" lang="ar">{part.title.arabic}</span>
+            <span class="part-toggle" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+            </span>
+          </summary>
+          {part.sections.map((s) => {
+            const Chapter = part.sections.length > 1 ? "details" : "div";
+            return (
+            <Chapter class="text-chapter">
+              {part.sections.length > 1 && (
+                <summary class="chapter-head">
+                  <h3><span class="muted">{fmt(ui.structure.chapter, { n: CHAPTER_ORDER_INDEX[s.chapter] })} · </span>{chapterTitle(locale, s.chapter).english}</h3>
+                  <span class="ar" lang="ar">{chapterTitle(locale, s.chapter).arabic}</span>
+                  <span class="part-toggle chapter-toggle" aria-hidden="true">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
+                  </span>
+                </summary>
+              )}
+              <div class="text-chapter-body">
+                {s.segments.map((seg) => (
+                  <article class="card matn-seg" id={`s${seg.id}`}>
+                    <a class="seg-no" href={`#s${seg.id}`} aria-label={fmt(ui.text.sentence, { n: seg.id })}>
+                      {seg.id}
+                    </a>
+                    {locale === "ar" ? <p class="ar seg-ar" lang="ar" set:html={gloss(seg.arabic, locale)} /> : <p class="ar seg-ar" lang="ar">{seg.arabic}</p>}
+                    {seg.english && locale !== "ar" && <Translation locale={locale} html={gloss(seg.english, locale)} copy={seg.english} />}
+                    {seg.page && <p class="seg-page muted">{seg.page}</p>}
+                    {seg.terms.length > 0 && (
+                      <ul class="chips">
+                        {seg.terms.map((slug) => (
+                          <li>
+                            <a href={`/${locale}/terms/${slug}/`}>{terms.get(slug)?.english ?? slug}</a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </article>
+                ))}
+              </div>
+            </Chapter>
+            );
+          })}
+        </details>
+      ))
+    )
+  }
+  <script is:inline src={mabadiOpenScript}></script>
+  <script is:inline src={copyTextScript}></script>
+</BaseLayout>

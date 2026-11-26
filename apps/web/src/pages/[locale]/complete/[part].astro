@@ -1,0 +1,89 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getMatn } from "@nahwi/content";
+import { LIVE_LOCALES, fmt, t } from "../../../i18n";
+import { localTerms } from "../../../lib/localize";
+import { bookStructure, type PartGroup } from "../../../lib/structure";
+import { practiceSets } from "../../../lib/practice";
+
+import completeScript from "../../../scripts/complete.js?url";
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => {
+    const parts = bookStructure(localTerms(locale), locale);
+    return parts.map((part, i) => ({ params: { locale, part: part.key }, props: { part, next: parts[i + 1] } }));
+  });
+}
+
+interface Props {
+  part: PartGroup;
+  next?: PartGroup;
+}
+
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const { part, next } = Astro.props;
+const label = (p: PartGroup) => (p.numeral ? `${fmt(ui.structure.part, { n: p.numeral })}: ${p.title.english}` : p.title.english);
+const lower = (s: string) => (["en", "nl"].includes(locale) ? s.toLowerCase() : s);
+const terms = part.chapters.flatMap((c) => c.terms);
+const firstReading = terms;
+const practice = new Map(practiceSets(locale).map((s) => [s.chapter, s.items.length]));
+const practiceHere = part.chapters.filter((c) => practice.has(c.key));
+const nextStart = next?.chapters[0]?.terms.find((t) => t.level === 1) ?? next?.chapters[0]?.terms[0];
+const hasText = getMatn().sections.some((s) => s.segments.length > 0);
+---
+
+<BaseLayout title={fmt(ui.complete.title, { name: label(part) })} description={fmt(ui.complete.description, { name: lower(part.title.english) })} path={`/complete/${part.key}/`} locale={locale} noindex>
+  <section class="card complete">
+    <span class="tile-wrap complete-tile" aria-hidden="true">
+      <span class="tile tile-filled"><span>✓</span></span>
+    </span>
+    <p class="eyebrow">{fmt(ui.complete.eyebrow, { name: part.numeral ? fmt(ui.structure.part, { n: part.numeral }) : part.title.english })}</p>
+    <h1>
+      {next ? fmt(ui.complete.finished, { name: lower(part.title.english) }) : ui.complete.finishedBook}
+      <span class="ar" lang="ar">{part.title.arabic}</span>
+    </h1>
+    <p class="muted" data-part-count data-slugs={firstReading.map((t) => t.slug).join(" ")} data-read={ui.complete.read}>{fmt(ui.complete.count, { n: firstReading.length })}</p>
+    <p class="muted complete-missing" hidden>
+      {ui.complete.notRead} <span data-missing></span>
+    </p>
+
+
+    <div class="complete-actions">
+      {
+        next && nextStart ? (
+          <a class="btn btn-red" href={`/${locale}/terms/${nextStart.slug}/`}>
+            {fmt(ui.complete.continueTo, { name: label(next) })}
+          </a>
+        ) : (
+          <>
+            <a class="btn btn-red" href={`/${locale}/study/mabadi/certificate/`}>{ui.certificate.link}</a>
+            {hasText && <a class="btn btn-outline" href={`/${locale}/text/mabadi/`}>{ui.complete.readWhole}</a>}
+          </>
+        )
+      }
+      {
+        practiceHere.length > 0 && (
+          <a class="btn btn-outline" href={`/${locale}/practice/?c=${practiceHere[0].key}`}>
+            {ui.complete.practise}
+          </a>
+        )
+      }
+      <a class="btn btn-outline" href={`/${locale}/`}>{ui.complete.home}</a>
+    </div>
+  </section>
+
+  {
+    practiceHere.length > 0 && (
+      <section class="card">
+        <h2>{ui.complete.testYourself}</h2>
+        {practiceHere.map((c) => (
+          <a class="chapter-practice complete-practice" href={`/${locale}/practice/?c=${c.key}`}>
+            {fmt(ui.complete.questions, { chapter: c.title.english, n: practice.get(c.key) ?? 0 })}
+          </a>
+        ))}
+      </section>
+    )
+  }
+
+  <script is:inline src={completeScript} data-vars={JSON.stringify({ names: Object.fromEntries(firstReading.map((t) => [t.slug, t.english])), locale })}></script>
+</BaseLayout>

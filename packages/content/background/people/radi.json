@@ -1,0 +1,46 @@
+{
+  "slug": "radi",
+  "name": "Raḍī al-Dīn al-Astarābādhī",
+  "arabic": "رَضِيُّ الدِّينِ الأَسْتَرَابَاذِيُّ",
+  "died": "ca. 686/1287",
+  "places": [],
+  "roles": [
+    "commentator"
+  ],
+  "summary": "Author of the great commentaries on Ibn al-Ḥājib's al-Kāfiya and al-Shāfiya, valued for their depth and their own terminology.",
+  "bio": [
+    "Raḍī al-Dīn’s dates are uncertain; he died around 686/1287, or by other reports in 688/1289. His commentaries on al-Kāfiya and al-Shāfiya go far beyond their base texts and were printed in Istanbul, Persia and Lucknow."
+  ],
+  "works": [
+    {
+      "title": "Sharḥ al-Kāfiya",
+      "arabic": "شَرْحُ الكَافِيَة",
+      "kind": "sharh",
+      "on": "kafiya"
+    },
+    {
+      "title": "Sharḥ al-Shāfiya",
+      "arabic": "شَرْحُ الشَّافِيَة",
+      "kind": "sharh",
+      "on": "shafiya"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "The year of his death: the sources give 686/1287 or 688/1289."
+  ],
+  "books": [
+    "kafiya",
+    "shafiya"
+  ],
+  "sources": [
+    {
+      "title": "Sharḥ al-Shāfiya, manuscript record (CORE)",
+      "url": "https://core.ac.uk/works/124862603"
+    },
+    {
+      "title": "Sharḥ al-Kāfiya, University of Wisconsin library",
+      "url": "https://search.library.wisc.edu/catalog/9912426682702121"
+    }
+  ]
+}

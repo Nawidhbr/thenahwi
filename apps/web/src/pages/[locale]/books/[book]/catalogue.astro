@@ -1,0 +1,13 @@
+---
+import BookCatalogue from "../../../../components/BookCatalogue.astro";
+import { getCatalogue } from "@nahwi/content";
+import { LIVE_LOCALES } from "../../../../i18n";
+import { KB_BOOKS } from "../../../../lib/kb";
+
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => KB_BOOKS.filter((b) => getCatalogue(b.id).length > 0).map((book) => ({ params: { locale, book: book.id } })));
+}
+const { locale, book } = Astro.params as { locale: string; book: string };
+---
+
+<BookCatalogue locale={locale} book={book} />

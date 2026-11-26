@@ -1,0 +1,51 @@
+{
+  "term": "masdar",
+  "items": [
+    {
+      "id": "masdar-1",
+      "prompt": "What is the maṣdar of this verb?",
+      "arabic": "أَكْرَمَ",
+      "options": [
+        "إِكْرَامٌ",
+        "تَكْرِيمٌ",
+        "مُكْرِمٌ",
+        "كَرَامَةٌ"
+      ],
+      "answer": 0,
+      "explanation": "The pattern afʿala has its maṣdar on ifʿāl: ikrām. Takrīm belongs to karrama, and mukrim is the active participle.",
+      "terms": [
+        "masdar"
+      ]
+    },
+    {
+      "id": "masdar-2",
+      "prompt": "What does the maṣdar name?",
+      "options": [
+        "The act itself, without a time",
+        "The one who does the act",
+        "The one to whom it is done",
+        "The place of the act"
+      ],
+      "answer": 0,
+      "explanation": "The maṣdar names the act: naṣr, helping.",
+      "terms": [
+        "masdar"
+      ]
+    },
+    {
+      "id": "masdar-3",
+      "prompt": "How is the maṣdar of a bare three-letter verb known?",
+      "options": [
+        "By hearing (samāʿ): it comes in many patterns",
+        "By one fixed rule",
+        "It is always on faʿl",
+        "It has none"
+      ],
+      "answer": 0,
+      "explanation": "Naṣr, ʿilm, dukhūl, kitāba: the bare verb's maṣdar is learnt from usage.",
+      "terms": [
+        "masdar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+---
+import KbArticle from "../../../components/KbArticle.astro";
+import { LIVE_LOCALES, t } from "../../../i18n";
+import { articlesOf, KB_SECTIONS, kbPath } from "../../../lib/kb";
+
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => articlesOf(locale, "curricula").map((article) => ({ params: { locale, slug: article.slug }, props: { article } })));
+}
+const { locale } = Astro.params as { locale: string };
+const { article } = Astro.props;
+const ui = t(locale);
+---
+
+<KbArticle locale={locale} article={article} siblings={articlesOf(locale, "curricula")} section={{ label: ui.kb.curricula.title, href: kbPath.curricula(locale), arabic: KB_SECTIONS.curricula.arabic }} />

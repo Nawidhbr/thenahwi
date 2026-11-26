@@ -1,0 +1,42 @@
+{
+  "slug": "khabar",
+  "subject": "nahw",
+  "chapter": "sentence",
+  "order": 3,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الخَبَرُ",
+  "transliteration": "al-khabar",
+  "english": "The predicate (khabar)",
+  "alsoKnownAs": [
+    "khabar",
+    "predicate"
+  ],
+  "definition": "What is said about the mubtadaʾ, completing the meaning of the nominal sentence. It is marfūʿ.",
+  "explanation": [
+    "In زَيْدٌ قَائِمٌ, qāʾimun is the khabar: it tells what Zayd is. The khabar can be a single word, a sentence (زَيْدٌ قَامَ أَبُوهُ, Zayd, his father stood) or a phrase (زَيْدٌ فِي الدَّارِ, Zayd is in the house).",
+    "A single-word khabar is usually indefinite and agrees with the mubtadaʾ in number and gender: الطَّالِبَانِ مُجْتَهِدَانِ (the two students are diligent)."
+  ],
+  "examples": [
+    {
+      "arabic": "زَيْدٌ فِي الدَّارِ",
+      "english": "Zayd is in the house: a phrase as khabar."
+    },
+    {
+      "arabic": "الطَّالِبَانِ مُجْتَهِدَانِ",
+      "english": "The two students are diligent: the khabar agrees in number."
+    }
+  ],
+  "related": [
+    "mubtada",
+    "jumla-ismiyya"
+  ],
+  "diagram": {
+    "type": "jumla",
+    "focus": "khabar"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

@@ -1,0 +1,345 @@
+[
+  {
+    "id": "kitab-sibawayh",
+    "title": "al-Kitāb",
+    "arabic": "الكِتَاب",
+    "author": "Sībawayh",
+    "authorSlug": "sibawayh",
+    "died": "ca. 180/796",
+    "century": 8,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "The first comprehensive grammar of Arabic, treating syntax, morphology and phonology; every later book of naḥw and ṣarf stands on it.",
+    "sources": [
+      {
+        "title": "Sibawayh, Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sibawayh"
+      },
+      {
+        "title": "Sībawayh, Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Sibawayh"
+      }
+    ]
+  },
+  {
+    "id": "awamil-mia",
+    "title": "al-ʿAwāmil al-miʾa",
+    "arabic": "العَوَامِلُ المِئَة",
+    "author": "ʿAbd al-Qāhir al-Jurjānī",
+    "authorSlug": "abd-al-qahir",
+    "died": "471/1078",
+    "century": 11,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "Naḥw arranged as a hundred governors, the words that cause iʿrāb; a first book of grammar in the Indian and Ottoman madrasas, also versified in Persian.",
+    "sources": [
+      {
+        "title": "ʿAwāmil al-miʾa with Naḥv-i Mīr, Penn Libraries",
+        "url": "https://find.library.upenn.edu/catalog/9976530953503681"
+      }
+    ]
+  },
+  {
+    "id": "lamiyyat-al-afal",
+    "title": "Lāmiyyat al-afʿāl",
+    "arabic": "لَامِيَّةُ الأَفْعَال",
+    "author": "Ibn Mālik",
+    "authorSlug": "ibn-malik",
+    "died": "672/1274",
+    "century": 13,
+    "kind": "verse",
+    "language": "ar",
+    "summary": "A poem of 114 verses rhyming in lām on the patterns and conjugation of the verb; a ṣarf text of the Maghrib and al-Azhar, with more than ten commentaries.",
+    "sources": [
+      {
+        "title": "A review on didactic poetry: al-Lāmiyyat al-afʿāl, DergiPark",
+        "url": "https://dergipark.org.tr/tr/download/article-file/1286684"
+      },
+      {
+        "title": "Lāmiyat al-afʿāl, DergiPark (UMDE)",
+        "url": "https://dergipark.org.tr/en/pub/umde/issue/71265/1064743"
+      }
+    ]
+  },
+  {
+    "id": "sharh-radi-kafiya",
+    "title": "Sharḥ al-Kāfiya",
+    "arabic": "شَرْحُ الكَافِيَة",
+    "author": "Raḍī al-Dīn al-Astarābādhī",
+    "authorSlug": "radi",
+    "died": "ca. 686/1287",
+    "century": 13,
+    "kind": "commentary",
+    "on": "kafiya",
+    "language": "ar",
+    "summary": "The most searching commentary on al-Kāfiya, with a terminology of its own; printed in Istanbul and Lucknow.",
+    "sources": [
+      {
+        "title": "Sharḥ al-Kāfiya, University of Wisconsin library",
+        "url": "https://search.library.wisc.edu/catalog/9912426682702121"
+      },
+      {
+        "title": "Sharḥ al-Kāfiya, SOAS MS 8232",
+        "url": "https://library.soas.ac.uk/Collection/ms_8232/ManuscriptCodexDescription"
+      }
+    ]
+  },
+  {
+    "id": "sharh-radi-shafiya",
+    "title": "Sharḥ al-Shāfiya",
+    "arabic": "شَرْحُ الشَّافِيَة",
+    "author": "Raḍī al-Dīn al-Astarābādhī",
+    "authorSlug": "radi",
+    "died": "ca. 686/1287",
+    "century": 13,
+    "kind": "commentary",
+    "on": "shafiya",
+    "language": "ar",
+    "summary": "Raḍī al-Dīn's commentary on Ibn al-Ḥājib's handbook of morphology, the fullest classical treatment of ṣarf.",
+    "sources": [
+      {
+        "title": "Sharḥ al-Shāfiya, manuscript record (CORE)",
+        "url": "https://core.ac.uk/works/124862603"
+      }
+    ]
+  },
+  {
+    "id": "awdah-al-masalik",
+    "title": "Awḍaḥ al-masālik",
+    "fullTitle": "Awḍaḥ al-masālik ilā Alfiyyat Ibn Mālik",
+    "arabic": "أَوْضَحُ المَسَالِك",
+    "author": "Ibn Hishām al-Anṣārī",
+    "authorSlug": "ibn-hisham",
+    "died": "761/1360",
+    "century": 14,
+    "kind": "commentary",
+    "on": "alfiyya",
+    "language": "ar",
+    "summary": "Ibn Hishām's prose rearrangement and explanation of the Alfiyya, read after Qaṭr al-nadā and Shudhūr al-dhahab.",
+    "sources": [
+      {
+        "title": "Ibn Hisham al-Ansari, Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ibn_Hisham_al-Ansari"
+      }
+    ]
+  },
+  {
+    "id": "mughni-al-labib",
+    "title": "Mughnī al-labīb",
+    "fullTitle": "Mughnī al-labīb ʿan kutub al-aʿārīb",
+    "arabic": "مُغْنِي اللَّبِيب",
+    "author": "Ibn Hishām al-Anṣārī",
+    "authorSlug": "ibn-hisham",
+    "died": "761/1360",
+    "century": 14,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "An advanced work on the particles and on how sentences are analysed, written for scholars rather than beginners; commented on by al-Damāmīnī and al-Shumunnī.",
+    "sources": [
+      {
+        "title": "Al-Munṣif min al-kalām ʿalā Mughnī Ibn Hishām, Durham e-Theses",
+        "url": "https://etheses.durham.ac.uk/id/eprint/2638/"
+      },
+      {
+        "title": "Ibn Hisham al-Ansari, Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ibn_Hisham_al-Ansari"
+      }
+    ]
+  },
+  {
+    "id": "sharh-ibn-aqil",
+    "title": "Sharḥ Ibn ʿAqīl",
+    "fullTitle": "Sharḥ Ibn ʿAqīl ʿalā Alfiyyat Ibn Mālik",
+    "arabic": "شَرْحُ ابْنِ عَقِيلٍ",
+    "author": "Ibn ʿAqīl",
+    "authorSlug": "ibn-aqil",
+    "died": "769/1367",
+    "century": 14,
+    "kind": "commentary",
+    "on": "alfiyya",
+    "language": "ar",
+    "summary": "The plain verse-by-verse commentary on the Alfiyya that most students read with the poem; a standard text of the traditional curriculum.",
+    "sources": [
+      {
+        "title": "Commentary of Ibn ʿAqīl on the Alfiyya, TAMIU OER",
+        "url": "https://oer.tamiu.edu/itemRecord.php?id=96464"
+      },
+      {
+        "title": "Ibn ʿAqīl's commentary on the Alfiyya, Qatar Digital Library",
+        "url": "https://qdl.qa/archive/qnlhc/12960.6"
+      }
+    ]
+  },
+  {
+    "id": "nahw-mir",
+    "title": "Naḥw-i Mīr",
+    "arabic": "نَحْوِ مِير",
+    "author": "al-Sayyid al-Sharīf al-Jurjānī",
+    "authorSlug": "sharif-jurjani",
+    "died": "816/1413",
+    "century": 14,
+    "kind": "handbook",
+    "language": "fa",
+    "summary": "A Persian primer of naḥw in twenty short lessons, the first book of syntax in the Indian and Central Asian madrasas; often printed with al-ʿAwāmil al-miʾa.",
+    "sources": [
+      {
+        "title": "al-Sayyid al-Sharīf al-Jurjānī's books, UC Merced (Hurqalya)",
+        "url": "https://hurqalya.ucmerced.edu/node/4981"
+      },
+      {
+        "title": "Nahv-i Mîr: content and method, OMÜİFD",
+        "url": "https://dergipark.org.tr/en/download/article-file/1997900"
+      },
+      {
+        "title": "Nahw Mir: A Primer in Arabic Grammar (English translation), Mecca Books",
+        "url": "https://www.meccabooks.com/products/nahw-mir-a-primer-in-arabic-grammar"
+      }
+    ]
+  },
+  {
+    "id": "sarf-mir",
+    "title": "Ṣarf-i Mīr",
+    "arabic": "صَرْفِ مِير",
+    "author": "al-Sayyid al-Sharīf al-Jurjānī",
+    "authorSlug": "sharif-jurjani",
+    "died": "816/1413",
+    "century": 14,
+    "kind": "handbook",
+    "language": "fa",
+    "summary": "A Persian summary of Arabic inflection by the same author; part of the ṣarf primers of the Dars-i Niẓāmī with Mīzān al-ṣarf, Munshaʿib and Panj ganj.",
+    "sources": [
+      {
+        "title": "Ṣarf-i mīr, SOAS library",
+        "url": "https://library.soas.ac.uk/Record/ms_44752-item2"
+      },
+      {
+        "title": "Majmūʿat ṣarf wa-naḥw (Bombay 1845), Penn Libraries",
+        "url": "https://find.library.upenn.edu/catalog/9976530933503681"
+      }
+    ]
+  },
+  {
+    "id": "fawaid-diyaiyya",
+    "title": "al-Fawāʾid al-ḍiyāʾiyya",
+    "fullTitle": "al-Fawāʾid al-ḍiyāʾiyya fī sharḥ al-Kāfiya (Sharḥ Jāmī)",
+    "arabic": "الفَوَائِدُ الضِّيَائِيَّة",
+    "author": "ʿAbd al-Raḥmān Jāmī",
+    "authorSlug": "jami",
+    "died": "898/1492",
+    "century": 15,
+    "kind": "commentary",
+    "on": "kafiya",
+    "language": "ar",
+    "summary": "Jāmī's commentary on al-Kāfiya, written for his son; the Kāfiya level of the Indian path and the Molla Câmî of the Ottoman madrasa, with many glosses of its own.",
+    "sources": [
+      {
+        "title": "al-Fawāʾid al-ḍiyāʾiyya, SOAS library",
+        "url": "https://library.soas.ac.uk/Record/ms_47272-item1"
+      },
+      {
+        "title": "al-Fawāʾid al-ḍiyāʾiyya, ISLHornAfr text record",
+        "url": "https://islhornafr.tors.ku.dk/backend/texts/1190"
+      }
+    ]
+  },
+  {
+    "id": "awamil-jadida",
+    "title": "al-ʿAwāmil al-jadīda",
+    "arabic": "العَوَامِلُ الجَدِيدَة",
+    "author": "Imām Birgivī",
+    "authorSlug": "birgivi",
+    "died": "981/1573",
+    "century": 16,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "Birgivī's new book of governors: sixty governors, thirty governed words and ten states of iʿrāb, with examples that teach belief and conduct; the Ottoman first book of naḥw.",
+    "sources": [
+      {
+        "title": "al-Birgivî's al-ʿAvâmil, DergiPark",
+        "url": "https://dergipark.org.tr/en/download/article-file/2453578"
+      },
+      {
+        "title": "Abdulkahir al-Curcani's al-Avamil and Birgivi's al-Avamil al-Cedid, DergiPark",
+        "url": "https://dergipark.org.tr/tr/download/article-file/3973066"
+      }
+    ]
+  },
+  {
+    "id": "izhar-al-asrar",
+    "title": "Iẓhār al-asrār",
+    "arabic": "إِظْهَارُ الأَسْرَار",
+    "author": "Imām Birgivī",
+    "authorSlug": "birgivi",
+    "died": "981/1573",
+    "century": 16,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "Birgivī's second book of naḥw, read after al-ʿAwāmil and before al-Kāfiya in the Ottoman madrasa; especially valued among non-Arab Muslims.",
+    "sources": [
+      {
+        "title": "Iẓhār al-asrār with al-Kāfiya, Mingana collection (Fihrist)",
+        "url": "https://www.fihrist.org.uk/catalog/manuscript_3762"
+      },
+      {
+        "title": "Imam Birgivi and his place in the Arabic language, İSAM",
+        "url": "https://isamveri.org/pdfdrg/D287809/2021/2021_CETKINM.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mutammimat",
+    "title": "Mutammimat al-Ājurrūmiyya",
+    "arabic": "مُتَمِّمَةُ الآجُرُّومِيَّة",
+    "author": "Shams al-Dīn al-Ruʿaynī al-Ḥaṭṭāb",
+    "century": 16,
+    "kind": "handbook",
+    "on": "ajurrumiyya",
+    "language": "ar",
+    "summary": "A completion of al-Ājurrūmiyya that keeps its order and adds the rules the short text leaves out; read between al-Ājurrūmiyya and Qaṭr al-nadā.",
+    "sources": [
+      {
+        "title": "Terjemah Mutammimah Ajurumiyyah, archive.org",
+        "url": "https://archive.org/download/etaoin/Terjemah%20Mutamimah%20Jurumiah.pdf"
+      }
+    ]
+  },
+  {
+    "id": "shadha-al-arf",
+    "title": "Shadhā al-ʿarf",
+    "fullTitle": "Shadhā al-ʿarf fī fann al-ṣarf",
+    "arabic": "شَذَا العَرْفِ فِي فَنِّ الصَّرْف",
+    "author": "Aḥmad al-Ḥamalāwī",
+    "authorSlug": "hamalawi",
+    "died": "1351/1932",
+    "century": 19,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "The modern Azhari handbook of ṣarf in three parts (the verb, the noun, and rules for both), printed at Būlāq; the usual ṣarf text after al-ʿIzzī.",
+    "sources": [
+      {
+        "title": "Shadhā al-ʿarf, ARCE library record",
+        "url": "https://library.arce.org/portal/Record/29657/Similar"
+      },
+      {
+        "title": "Shadha al-Urf fi Fan al-Sarf, alkitab.com",
+        "url": "https://alkitab.com/75386.html"
+      }
+    ]
+  },
+  {
+    "id": "amthila-tasrifiyya",
+    "title": "al-Amthila al-taṣrīfiyya",
+    "arabic": "الأَمْثِلَةُ التَّصْرِيفِيَّة",
+    "author": "Kiai Maʿṣūm ʿAlī",
+    "century": 20,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "The ṣarf tables of the Indonesian pesantren, arranged from the bare three-letter verb through the added patterns; read beside al-Ājurrūmiyya.",
+    "sources": [
+      {
+        "title": "Amtsilatut Tashrif Sharaf (description), MyAndroid",
+        "url": "https://downloads.myandroid.org/apps/com-arthadigitech-tashrif-sharaf"
+      }
+    ]
+  }
+]

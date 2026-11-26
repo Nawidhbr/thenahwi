@@ -1,0 +1,52 @@
+{
+  "term": "fail",
+  "items": [
+    {
+      "id": "fail-1",
+      "prompt": "What is zaydun here?",
+      "arabic": "قَامَ زَيْدٌ",
+      "options": [
+        "the fāʿil",
+        "the mubtadaʾ",
+        "the mafʿūl bihi",
+        "the khabar"
+      ],
+      "answer": 0,
+      "explanation": "Zaydun comes after its verb and is marfūʿ: the fāʿil.",
+      "terms": [
+        "fail"
+      ]
+    },
+    {
+      "id": "fail-2",
+      "prompt": "What is the fāʿil here?",
+      "arabic": "قُمْتُ",
+      "options": [
+        "the -tu at the end",
+        "the verb qāma",
+        "There is none",
+        "a hidden huwa"
+      ],
+      "answer": 0,
+      "explanation": "The pronoun -tu is the doer: I stood.",
+      "terms": [
+        "fail"
+      ]
+    },
+    {
+      "id": "fail-3",
+      "prompt": "What is the state of the fāʿil?",
+      "options": [
+        "marfūʿ",
+        "manṣūb",
+        "majrūr",
+        "majzūm"
+      ],
+      "answer": 0,
+      "explanation": "The fāʿil is always marfūʿ.",
+      "terms": [
+        "fail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "sahih",
+  "subject": "sarf",
+  "chapter": "sound-weak",
+  "order": 1,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الصَّحِيحُ",
+  "transliteration": "al-ṣaḥīḥ",
+  "english": "The sound verb",
+  "alsoKnownAs": [
+    "sahih",
+    "sound verb",
+    "sālim"
+  ],
+  "definition": "A verb whose root letters include none of the weak letters: wāw, yāʾ and alif.",
+  "explanation": [
+    "نَصَرَ، ضَرَبَ، كَتَبَ are sound. Their letters stay as they are in every form, so their conjugation follows the patterns exactly.",
+    "Within the sound verbs the books separate the sālim (no hamza and no doubled letter, as نَصَرَ), the mahmūz (with a hamza, as أَكَلَ) and the muḍāʿaf (with the second and third root letters the same, as مَدَّ). The Nahwi's conjugation tool works on the sālim."
+  ],
+  "examples": [
+    {
+      "arabic": "كَتَبَ يَكْتُبُ",
+      "english": "kataba yaktubu: sound; every letter stays."
+    },
+    {
+      "arabic": "أَكَلَ",
+      "english": "akala, he ate: sound, with a hamza (mahmūz)."
+    }
+  ],
+  "related": [
+    "mutall",
+    "mujarrad"
+  ],
+  "diagram": {
+    "type": "sahih",
+    "focus": "sahih"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

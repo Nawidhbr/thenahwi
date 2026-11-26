@@ -1,0 +1,152 @@
+---
+import Photo from "../../../components/Photo.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { localTerms } from "../../../lib/localize";
+import { tracks, primers, primerLessons, primerPath, levelNumber, bookName } from "../../../lib/course";
+import { primerIn } from "@nahwi/content";
+import { MADRASAS } from "../../../config/madrasas";
+import { PHOTOS, photoSrc } from "../../../config/photos";
+import { fmt, localePaths, t } from "../../../i18n";
+import { previews } from "../../../config/previews";
+import { course, courseList } from "../../../lib/structured-data";
+
+import studyLevelsScript from "../../../scripts/study-levels.js?url";
+export const getStaticPaths = localePaths;
+
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const terms = localTerms(locale);
+const M = ui.madrasa;
+const photoOf = (slug: string) => PHOTOS.find((x) => x.slug === slug);
+const levelText = M.levels as Record<string, { title: string; arabic: string; lead: string }>;
+const pathText = M.paths as Record<string, { name: string; short: string; arabic: string; lead: string }>;
+const traditions = M.traditions as Record<string, string>;
+// Each madrasa path with its four levels (config/madrasas.ts): the first reading of the terms, primer courses,
+// books read lesson by lesson, or a book in preparation. A level whose books do not exist yet counts as in preparation.
+const havePrimers = primers();
+const haveTracks = tracks();
+const allPreviews = previews();
+// A level that holds several books (the Indian path's level 1: al-Jurjānī's Ṣughrā, then his Kubrā) is shown as one card
+// per book, numbered 1a, 1b (levelNumber), each with the book's own name, Arabic title and first sentence; a locked
+// card names the card before it (`prev`).
+const firstSentence = (text: string) => text.split(/(?<=[.!?۔])\s+/)[0];
+const paths = MADRASAS.map((m) => {
+  const cards = m.levels.flatMap((lv) => {
+    const text = levelText[`${m.id}-${lv.n}`] ?? { title: fmt(ui.track.trackName, { track: String(lv.n) }), arabic: "", lead: "" };
+    const title = `${fmt(M.levelN, { n: String(lv.n) })}: ${text.title}`;
+    const base = { n: lv.n, label: String(lv.n), title, arabic: text.arabic, lead: text.lead };
+    if (lv.terms) return [{ ...base, href: `/${locale}/study/mabadi/`, kind: "terms", books: [] as string[], count: fmt(ui.home.termsCount, { n: terms.length }), lessons: terms.length, soon: false }];
+    const ps = havePrimers.filter((x) => lv.primers?.includes(x.id));
+    const ts = haveTracks.filter((x) => lv.books?.includes(x.book.id));
+    const books = [...ps.map((x) => x.id), ...ts.map((x) => x.book.id)];
+    if (books.length === 0) return [{ ...base, href: "", kind: "soon", books, count: "", lessons: 0, soon: true }];
+    if (books.length > 1) {
+      const each = [
+        ...ps.map((x) => { const own = primerIn(x, locale); return { id: x.id, name: own.title, arabic: x.arabicTitle, lead: firstSentence(own.summary), lessons: primerLessons(x).length }; }),
+        ...ts.map((x) => ({ id: x.book.id, name: bookName(x.book, locale).title, arabic: x.book.arabicTitle, lead: text.lead, lessons: x.lessons.length })),
+      ];
+      return each.map((b, i) => {
+        const label = levelNumber(ui, lv.n, i);
+        return { ...base, label, title: `${fmt(M.levelN, { n: label })}: ${b.name}`, arabic: b.arabic, lead: b.lead, href: `/${locale}/study/${b.id}/`, kind: "books", books: [b.id], count: fmt(ui.track.lessons, { n: b.lessons }), lessons: b.lessons, soon: false };
+      });
+    }
+    const lessons = ps.reduce((k, x) => k + primerLessons(x).length, 0) + ts.reduce((k, x) => k + x.lessons.length, 0);
+    const href = ps.length ? primerPath(locale, ps[0].id) : `/${locale}/study/${ts[0].book.id}/`;
+    return [{ ...base, href, kind: "books", books, count: fmt(ui.track.lessons, { n: lessons }), lessons, soon: false }];
+  });
+  return { m, cards: cards.map((c, i) => ({ ...c, prev: i > 0 ? cards[i - 1].label : "" })) };
+});
+// The levels as courses for search engines (those in preparation left out).
+const courses = paths.flatMap(({ m, cards }) => cards.filter((c) => !c.soon).map((c) => course(locale, c.n, `${pathText[m.id].name}: ${c.title}`, c.lead, c.href, c.lessons)));
+// Preview lessons of the later levels: the hero's button picks one at random, a locked level's window offers those of its books.
+const previewHrefs = allPreviews.map((p) => p.href(locale));
+const previewsFor = (books: string[]) => allPreviews.filter((p) => books.includes(p.slug.replace(/-\d+$/, ""))).map((p) => p.href(locale));
+---
+
+<BaseLayout title={ui.kb.nav.study} description={ui.meta.homeDescription} path="/study/" locale={locale} wide jsonLd={[courseList(courses)]}>
+  <header class="study-head">
+    {/* Before a path is chosen: "Choose your madrasa" and the three cards. After: the chosen path as the title, with
+        a quiet "Change path" that opens the cards again (scripts/study-levels.js). */}
+    <h1 id="madrasa-title">
+      <span class="study-title-none">{M.title}</span>
+      {MADRASAS.map((m) => <span class="study-title-path" data-title-path={m.id}>{pathText[m.id].name} <span class="ar" lang="ar">{pathText[m.id].arabic}</span></span>)}
+    </h1>
+    <p class="lead study-lead-none">{M.leadShort}</p>
+    <p class="study-change"><button type="button" class="study-change-btn" aria-expanded="false" aria-controls="madrasa" data-change-path>{M.change}</button> <span class="muted" aria-hidden="true">·</span> <a class="study-change-btn" href={`/${locale}/study/progress/`}>{ui.overview.title}</a></p>
+    <div class="hero-actions">
+      <a class="btn btn-red" hidden href="#levels-title" id="home-continue" data-label={ui.home.continueTo} data-start-label={M.startWith}>{ui.home.start}</a>
+      {previewHrefs.length > 0 && <a class="btn btn-outline" href={previewHrefs[0]} data-previews={JSON.stringify(previewHrefs)}>{ui.preview.button}</a>}
+    </div>
+  </header>
+
+  <section class="levels madrasas" id="madrasa" aria-labelledby="madrasa-title">
+    <ul class="madrasa-list">
+      {
+        MADRASAS.map((m) => (
+          <li>
+            <button type="button" class="card madrasa-card" data-pick={m.id} aria-describedby={`madrasa-${m.id}-lead`}>
+              <span class="madrasa-body">
+                <span class="madrasa-chosen">{M.chosen}</span>
+                <strong class="madrasa-name">{pathText[m.id].name}</strong>
+                <span class="ar" lang="ar">{pathText[m.id].arabic}</span>
+                <span class="madrasa-trad">{m.traditions.map((x) => traditions[x] ?? x).join(" · ")}</span>
+                <span class="madrasa-lead" id={`madrasa-${m.id}-lead`}>{pathText[m.id].lead}</span>
+                {photoOf(m.photo)?.place && <span class="madrasa-place">{photoOf(m.photo)!.place}</span>}
+              </span>
+              <span class="madrasa-photo">
+                <Photo slug={m.photo} sizes="(max-width: 760px) 40vw, 240px" max={800} alt={photoOf(m.photo)?.alt ?? ""} width={400} height={600} />
+              </span>
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="levels" aria-labelledby="levels-title">
+    <h2 id="levels-title">{ui.home.levelsTitle}</h2>
+    <p class="muted madrasa-none">{M.none}</p>
+    {
+      paths.map(({ m, cards }) => (
+        <div data-path={m.id}>
+          <ol class="level-list">
+            {cards.map((c) => {
+              const Tag = c.soon ? "div" : "a";
+              return (
+                <li>
+                  <Tag class="card level-card" href={c.soon ? undefined : c.href} data-level-card={c.label} data-prev={c.prev || undefined} data-kind={c.kind} data-books={c.books.join(",")} data-soon={c.soon ? "" : undefined} data-previews={c.prev ? JSON.stringify(previewsFor(c.books)) : undefined} tabindex={c.soon ? 0 : undefined} role={c.soon ? "button" : undefined}>
+                    <span class="tile-wrap" aria-hidden="true">
+                      <span class={c.label.length > 2 ? "tile tile-filled tile-sub" : "tile tile-filled"}><span>{c.label}</span></span>
+                    </span>
+                    <span class="level-card-body">
+                      <strong class="level-card-title">{c.title}</strong>
+                      {c.arabic && <span class="ar level-card-ar" lang="ar">{c.arabic}</span>}
+                      <span class="level-card-lead">{c.lead}</span>
+                      <span class="level-card-meta muted">
+                        {c.soon ? ui.home.levelSoon : c.count}
+                        <span data-level-state hidden></span>
+                      </span>
+                    </span>
+                  </Tag>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      ))
+    }
+    <dialog class="level-dialog" id="level-dialog" aria-labelledby="level-dialog-title">
+      <p class="eyebrow"><span class="lock-glyph" aria-hidden="true"></span><span data-d-state></span></p>
+      <h2 id="level-dialog-title" data-d-title></h2>
+      <p class="ar" lang="ar" data-d-ar></p>
+      <p data-d-lead></p>
+      <p class="muted" data-d-meta></p>
+      <div class="hero-actions">
+        <a class="btn btn-red" data-d-preview href="#">{ui.preview.button}</a>
+        <button type="button" class="btn btn-outline" data-d-close>{ui.preview.close}</button>
+      </div>
+    </dialog>
+  </section>
+
+  <script is:inline src={studyLevelsScript} data-vars={JSON.stringify({ progress: ui.home.levelProgress, lockedText: ui.home.levelLocked, studied: ui.home.termsStudied, dialogLocked: ui.preview.dialogLocked, dialogSoon: ui.preview.dialogSoon })}></script>
+</BaseLayout>

@@ -1,0 +1,114 @@
+---
+import { getReview } from "@nahwi/content";
+import SourceNote from "../SourceNote.astro";
+import { primerSource } from "../../lib/sources";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { LIVE_LOCALES, fmt, t } from "../../i18n";
+import { primerHasText, primerLessonPath, primerPath, placeOfBook, pathLevel, primerLessons } from "../../lib/course";
+import { breadcrumbs, course } from "../../lib/structured-data";
+import { kbPath } from "../../lib/kb";
+import { getLibrary, type Primer } from "@nahwi/content";
+import { kbBook } from "../../lib/kb";
+
+import levelIndexScript from "../../scripts/level-index.js?url";
+/**
+ * A primer course (packages/content/primers/<id>.json): the first books of a madrasa path, such as al-Jurjānī's
+ * Ṣughrā, taught in our own lessons in the order of the book. The page shows the book, the edition followed and its
+ * parts with their lessons. A level with two books (Ṣughrā and Kubrā) is shown as level 1a and 1b, each book on its
+ * own page and card, so the page names only its own level.
+ */
+
+interface Props { locale: string; p: Primer }
+const { locale } = Astro.props;
+const { p } = Astro.props;
+const ui = t(locale);
+const P = ui.primer;
+const place = placeOfBook(p.id);
+const label = pathLevel(ui, p.id);
+const reviewed = primerLessons(p).filter((l) => getReview(`${p.id}-${l.n}`).status === "reviewed").length;
+const count = p.parts.reduce((n, part) => n + part.lessons.length, 0);
+const lib = p.library ? getLibrary(locale).find((b) => b.id === p.library) ?? kbBook(p.library) : undefined;
+// The search title: "<book> of al-Jurjānī: a course in Arabic grammar" for his primers, "<book>: a course in Arabic grammar" for the others.
+const title = fmt(p.author.includes("Jurjānī") || p.authorSlug === "jurjani" ? ui.primer.courseTitleJurjani : ui.primer.courseTitle, { book: p.title });
+const path = `/study/${p.id}/`;
+---
+
+<BaseLayout
+  title={title}
+  description={p.summary}
+  path={path}
+  locale={locale}
+  jsonLd={[
+    course(locale, place.d, `${p.title} – ${p.author}`, p.summary, `/${locale}${path}`, count),
+    breadcrumbs([
+      { name: ui.nav.home, path: `/${locale}/` },
+      { name: ui.kb.nav.study, path: `/${locale}/study/` },
+      { name: p.title, path: `/${locale}${path}` },
+    ]),
+  ]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/study/`}>{ui.kb.nav.study}</a> / {p.title}</p>
+
+  <header class="track-head primer-head">
+    <p class="eyebrow">{label}</p>
+    {locale !== "ar" && <p class="ar level-one-ar" lang="ar">{p.arabicTitle}</p>}
+    <h1>{p.title} <span class="muted text-by">{p.author}</span></h1>
+    <p class="lead">{p.summary}</p>
+    <div class="card track-locked" data-l2-locked hidden>
+      <p class="u-m0" data-lock-book={ui.track.lockBook}><span class="lock-glyph" aria-hidden="true"></span>{ui.track.lockedNote}</p>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-red" href={primerLessonPath(locale, p.id, 1)}>{fmt(ui.track.lessonN, { n: "1" })}: {p.parts[0].lessons[0].title}</a>
+      {lib && <a class="btn btn-outline" href={kbPath.book(locale, lib.id)}>{P.aboutBook}</a>}
+    </div>
+    <ul class="hero-facts">
+      <li><strong>{count}</strong> {fmt(P.lessons, { n: "" }).trim()}</li>
+      <li><strong>{p.parts.length}</strong> {ui.home.factParts}</li>
+      <li>{fmt(ui.term.reviewedCount, { n: String(reviewed), m: String(count) })}</li>
+      <li><a href={`${primerPath(locale, p.id)}certificate/`}>{ui.certificate.link} →</a></li>
+    </ul>
+  </header>
+
+  <div class="track-grid">
+    {
+      p.parts.map((part) => (
+        <section class="card track-card" id={part.id}>
+          <p class="eyebrow">{part.transliteration} · {fmt(P.lessons, { n: String(part.lessons.length) })}</p>
+          <h2>{part.title}</h2>
+          {locale !== "ar" && <p class="ar track-ar" lang="ar">{part.arabic}</p>}
+          <ol class="path track-path">
+            {part.lessons.map((l) => (
+              <li>
+                <a href={primerLessonPath(locale, p.id, l.n)} data-slug={`${p.id}-${l.n}`}>
+                  <span class="tile-wrap" aria-hidden="true">
+                    <span class="tile">
+                      <span>{l.n}</span>
+                    </span>
+                  </span>
+                  <span class="name">
+                    <strong>{l.title}</strong> <small class="ar" lang="ar">{l.arabic}</small>
+                    <span class="stars" hidden data-label={ui.quiz.starsLabel} />
+                    <span class="state">{ui.structure.upNext}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))
+    }
+  </div>
+
+  <SourceNote info={primerSource(p, locale)} locale={locale} />
+
+  {
+    p.textEdition && primerHasText(p) && (
+      <section class="card primer-edition">
+        <h2>{P.theText}</h2>
+        <p><a class="btn btn-outline" href={`/${locale}/text/${p.id}/`}>{fmt(P.readText, { language: (P.languages as Record<string, string>)[p.textEdition.language] })} →</a></p>
+      </section>
+    )
+  }
+
+  <script is:inline src={levelIndexScript}></script>
+</BaseLayout>

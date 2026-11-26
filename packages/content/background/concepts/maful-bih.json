@@ -1,0 +1,38 @@
+{
+  "slug": "maful-bih",
+  "name": "The direct object",
+  "arabic": "المَفْعُولُ بِهِ",
+  "transliteration": "al-mafʿūl bihi",
+  "alsoKnownAs": [
+    "maful bihi",
+    "mafʿūl bih",
+    "object"
+  ],
+  "category": "sentence",
+  "definition": "The manṣūb noun on which the act falls, such as ʿamran in ḍaraba zaydun ʿamran.",
+  "body": [
+    "In ضَرَبَ زَيْدٌ عَمْرًا (Zayd struck ʿAmr), ʿamran is the mafʿūl bihi: the striking fell on him. Only a transitive verb (mutaʿaddī) takes one; قَامَ (he stood) takes none.",
+    "Al-Ājurrūmiyya defines it as the manṣūb noun on which the act falls. It can also be a pronoun: نَصَرَنِي (he helped me), where the -nī is the object."
+  ],
+  "examples": [
+    {
+      "arabic": "ضَرَبَ زَيْدٌ عَمْرًا",
+      "text": "Zayd struck ʿAmr: ʿamran is the object."
+    },
+    {
+      "arabic": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+      "text": "The student wrote the lesson: al-darsa is the object."
+    }
+  ],
+  "related": [
+    "fail",
+    "jumla-filiyya"
+  ],
+  "term": "maful-bih",
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "kafiya",
+    "alfiyya"
+  ]
+}

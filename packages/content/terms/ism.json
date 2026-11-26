@@ -1,0 +1,44 @@
+{
+  "slug": "ism",
+  "subject": "nahw",
+  "chapter": "word",
+  "order": 1,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "الاِسْمُ",
+  "transliteration": "al-ism",
+  "english": "The noun",
+  "alsoKnownAs": [
+    "ism",
+    "noun",
+    "name"
+  ],
+  "definition": "A word that shows a meaning in itself without tying it to a time: a person, a thing or a quality.",
+  "explanation": [
+    "Nouns name: رَجُلٌ (a man), كِتَابٌ (a book), عِلْمٌ (knowledge), زَيْدٌ (Zayd). Unlike a verb, a noun carries no tense.",
+    "Al-Ājurrūmiyya gives the noun four signs: the kasra of khafḍ, tanwīn, the article al-, and the particles of khafḍ before it, as in فِي البَيْتِ (in the house). A word that takes one of them is a noun."
+  ],
+  "examples": [
+    {
+      "arabic": "الكِتَابُ",
+      "english": "al-kitābu, the book: the article al- marks a noun."
+    },
+    {
+      "arabic": "كِتَابٌ",
+      "english": "kitābun, a book: tanwīn marks a noun."
+    }
+  ],
+  "related": [
+    "kalima",
+    "fil",
+    "harf"
+  ],
+  "diagram": {
+    "type": "kalima",
+    "focus": "ism"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

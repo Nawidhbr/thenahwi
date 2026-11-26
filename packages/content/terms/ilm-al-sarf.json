@@ -1,0 +1,40 @@
+{
+  "slug": "ilm-al-sarf",
+  "subject": "sarf",
+  "chapter": "introduction",
+  "order": 1,
+  "level": 1,
+  "source": "matn",
+  "commentaries": [],
+  "arabic": "عِلْمُ الصَّرْفِ",
+  "transliteration": "ʿilm al-ṣarf",
+  "english": "Morphology (ṣarf)",
+  "alsoKnownAs": [
+    "sarf",
+    "tasrif",
+    "taṣrīf",
+    "Arabic morphology"
+  ],
+  "definition": "The science of the forms of single words: how one root takes different patterns, and what changes inside a word apart from its ending.",
+  "explanation": [
+    "Ṣarf, also called taṣrīf, looks at a word on its own. It studies the patterns (awzān) that root letters are poured into, how a verb is conjugated through persons and tenses, and how nouns such as the doer and the one acted on are derived from one root.",
+    "In the madrasa, ṣarf is usually read first, because naḥw speaks of the endings of words whose forms the student must already recognise. A saying the teachers repeat calls ṣarf the mother of the sciences and naḥw their father."
+  ],
+  "examples": [
+    {
+      "arabic": "نَصَرَ، يَنْصُرُ، نَاصِرٌ، مَنْصُورٌ",
+      "english": "From one root, n-ṣ-r: he helped, he helps, a helper, helped."
+    }
+  ],
+  "related": [
+    "ilm-al-nahw",
+    "mizan"
+  ],
+  "diagram": {
+    "type": "sciences",
+    "focus": "sarf"
+  },
+  "review": {
+    "status": "draft"
+  }
+}

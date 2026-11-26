@@ -1,0 +1,96 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { CHECKOUT, LOW_COUNTRIES, PADDLE, PRICES } from "../../config/pricing";
+
+/**
+ * Prices and access (config/pricing.ts): without an account, a free account (the whole al-Mabādiʾ), full access.
+ * Laid out like the knowledge base: a black band, then the three levels side by side, full access inverted.
+ * Full access is a subscription, monthly or yearly. With CHECKOUT on, it opens Paddle's checkout (scripts/checkout.ts),
+ * and the prices show the reader's own country's; otherwise full access shows "opens soon".
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const P = ui.pricing;
+// Whole amounts without cents (€0), the others with them (€6.99).
+const money = (n: number) => new Intl.NumberFormat(locale, { style: "currency", currency: PRICES.currency, minimumFractionDigits: Number.isInteger(n) ? 0 : 2, maximumFractionDigits: 2 }).format(n);
+const pounds = (n: number) => new Intl.NumberFormat(locale, { style: "currency", currency: PRICES.uk.currency, minimumFractionDigits: Number.isInteger(n) ? 0 : 2, maximumFractionDigits: 2 }).format(n);
+const plans = P.plans;
+---
+
+<BaseLayout title={P.title} description={P.description} path="/pricing/" locale={locale} bleed>
+  <section class="price-hero">
+    <div class="kb-wrap">
+      <p class="kb-crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {P.title}</p>
+      <p class="kb-kicker">{P.kicker}</p>
+      <h1>{P.heroTitle}</h1>
+      <p class="price-hero-sub">{P.heroSub}</p>
+    </div>
+  </section>
+
+  <section class="kb-wrap price-plans-wrap">
+    <div class="price-plans">
+    <article class="price-plan">
+      <h2>{plans.anon.name}</h2>
+      <p class="price-amount"><span class="price-num">{money(0)}</span><span class="price-unit">{plans.anon.unit}</span></p>
+      <p class="price-alt" aria-hidden="true"></p>
+      <ul>{(plans.anon.items as string[]).map((x) => <li>{x}</li>)}</ul>
+    </article>
+    <article class="price-plan">
+      <h2>{plans.free.name}</h2>
+      <p class="price-amount"><span class="price-num">{money(0)}</span><span class="price-unit">{plans.free.unit}</span></p>
+      <p class="price-alt" aria-hidden="true"></p>
+      <ul>{(plans.free.items as string[]).map((x) => <li>{x}</li>)}</ul>
+      <a class="price-cta price-cta-outline price-cta-out" href={`/${locale}/account/`}>{plans.free.cta}</a>
+      <p class="price-cta-in">{plans.free.ctaIn}</p>
+    </article>
+    <article class="price-plan price-plan-full">
+      <h2>{plans.full.name}</h2>
+      <p class="price-amount"><span class="price-num" data-price="monthly">{money(PRICES.base.monthly)}</span><span class="price-unit">{plans.full.unit}</span></p>
+      <p class="price-alt" data-price-line={plans.full.perYear}>{fmt(plans.full.perYear, { price: money(PRICES.base.yearly) })}</p>
+      <ul>{(plans.full.items as string[]).map((x) => <li>{x}</li>)}</ul>
+      {CHECKOUT ? (
+        <div class="price-checkout" data-checkout data-locale={locale} data-vars={JSON.stringify({ token: PADDLE.clientToken, monthly: PADDLE.monthly, yearly: PADDLE.yearly, low: LOW_COUNTRIES, perYear: plans.full.unitYear })}>
+          <a class="price-cta" href={`/${locale}/pricing/`} data-subscribe="yearly">{plans.full.ctaYearly}</a>
+          <a class="price-cta-text" href={`/${locale}/pricing/`} data-subscribe="monthly">{plans.full.ctaMonthly}</a>
+        </div>
+      ) : (
+        <span class="price-cta price-cta-soon" aria-disabled="true">{plans.full.soon}</span>
+      )}
+      <p class="price-fine">{plans.full.yearlyFine} {plans.full.cancel} {P.localNote}</p>
+    </article>
+    </div>
+  </section>
+
+  <section class="kb-wrap price-more">
+    <div>
+      <h2>{P.regionalTitle}</h2>
+      <p>{fmt(P.regionalBody, { uk: pounds(PRICES.uk.monthly), middle: money(PRICES.middle.monthly), middleYear: money(PRICES.middle.yearly), low: money(PRICES.low.yearly) })}</p>
+    </div>
+    <div>
+      <h2>{P.madrasaTitle}</h2>
+      <p>{P.madrasaBody}</p>
+      <p><a class="price-link" href={`/${locale}/contact/#topic=other`}>{P.madrasaCta} →</a></p>
+    </div>
+  </section>
+
+  <section class="kb-wrap">
+    <div class="price-faq">
+    <h2>{P.faqTitle}</h2>
+    {(P.faq as string[][]).map(([q, a]) => (
+      <details>
+        <summary>{q}</summary>
+        <p>{a}</p>
+      </details>
+    ))}
+      <p class="price-legal"><a href={`/${locale}/terms-of-service/`}>{P.terms}</a> · <a href={`/${locale}/refunds/`}>{P.refunds}</a> · <a href={`/${locale}/privacy/`}>{ui.privacy.title}</a></p>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  // Only does something when the checkout box is on the page (CHECKOUT on).
+  import { start } from "../../scripts/checkout";
+  start();
+</script>

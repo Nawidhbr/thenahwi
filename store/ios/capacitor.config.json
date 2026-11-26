@@ -1,0 +1,32 @@
+{
+  "appId": "com.thenahwi.app",
+  "appName": "The Nahwi",
+  "webDir": "www",
+  "server": {
+    "url": "https://thenahwi.com/en/study/?app=start",
+    "allowNavigation": [
+      "thenahwi.com",
+      "www.thenahwi.com"
+    ],
+    "errorPath": "offline.html"
+  },
+  "ios": {
+    "appendUserAgent": "TheNahwiApp/1 (iOS)",
+    "limitsNavigationsToAppBoundDomains": true,
+    "contentInset": "never",
+    "backgroundColor": "#ffffff",
+    "allowsLinkPreview": false,
+    "preferredContentMode": "mobile"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "launchAutoHide": true,
+      "backgroundColor": "#0a0a0a",
+      "showSpinner": false
+    },
+    "LocalNotifications": {
+      "iconColor": "#c8102e"
+    }
+  }
+}

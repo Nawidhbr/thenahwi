@@ -1,0 +1,44 @@
+---
+/**
+ * A daily study reminder: the reader picks a time and gets an .ics file for their own calendar (scripts/reminder.js),
+ * one event repeating every day with a link back to the study portal. Nothing is sent or stored. In the iPhone app
+ * the same card sets a notification instead, with the day's lessons due (lib/app-ios.ts; data-ios-only).
+ */
+import { t } from "../i18n";
+import { SITE_URL } from "../config/site";
+import reminderScript from "../scripts/reminder.js?url";
+
+interface Props {
+  locale: string;
+}
+const { locale } = Astro.props;
+const R = t(locale).reminder;
+const A = t(locale).app;
+---
+
+<details class="card reminder" data-not-ios data-reminder data-title={R.eventTitle} data-body={R.eventBody} data-url={`${SITE_URL}/${locale}/study/`}>
+  <summary>{R.title}</summary>
+  <p class="muted">{R.body}</p>
+  <div class="reminder-row">
+    <label>
+      <span>{R.time}</span>
+      <input type="time" value="20:00" />
+    </label>
+    <button type="button" class="btn btn-outline" data-reminder-add>{R.add}</button>
+  </div>
+  <p class="muted reminder-done" data-reminder-done hidden>{R.done}</p>
+</details>
+<details class="card reminder" data-ios-only data-app-reminder data-set={A.reminderSet} data-denied={A.reminderDenied}>
+  <summary>{A.reminderTitle}</summary>
+  <p class="muted">{A.reminderBody}</p>
+  <div class="reminder-row">
+    <label>
+      <span>{R.time}</span>
+      <input type="time" value="20:00" />
+    </label>
+    <button type="button" class="btn btn-outline" data-app-reminder-on>{A.reminderOn}</button>
+    <button type="button" class="btn btn-outline" data-app-reminder-off hidden>{A.reminderOff}</button>
+  </div>
+  <p class="muted reminder-done" data-app-reminder-status role="status" hidden></p>
+</details>
+<script is:inline src={reminderScript}></script>

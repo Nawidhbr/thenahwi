@@ -1,0 +1,339 @@
+---
+import SocialLinks from "../components/SocialLinks.astro";
+import Seo from "../components/Seo.astro";
+import SearchHighlight from "../components/SearchHighlight.astro";
+import HighlightLib from "../components/HighlightLib.astro";
+import Search from "../components/Search.astro";
+import AccountSync from "../components/AccountSync.astro";
+import AppIos from "../components/AppIos.astro";
+import AppStoreDialog from "../components/AppStoreDialog.astro";
+import AccountMenu from "../components/AccountMenu.astro";
+import SubscribeDialog from "../components/SubscribeDialog.astro";
+import SupportDialog from "../components/SupportDialog.astro";
+import { ACCOUNTS, ANALYTICS, SITE, SITE_URL, SUPPORT } from "../config/site";
+import { getMatn, getNews } from "@nahwi/content";
+import { LIVE_LOCALES, ENGLISH_ONLY, dirOf, fmt, t } from "../i18n";
+// Fonts are served from this site (no requests to Google): only the weights and scripts the site uses.
+import "@fontsource/atkinson-hyperlegible/latin-400.css";
+import "@fontsource/atkinson-hyperlegible/latin-ext-400.css";
+import "@fontsource/atkinson-hyperlegible/latin-700.css";
+import "@fontsource/atkinson-hyperlegible/latin-ext-700.css";
+import "@fontsource/atkinson-hyperlegible/latin-400-italic.css";
+import "@fontsource/atkinson-hyperlegible/latin-ext-400-italic.css";
+import "@fontsource/bricolage-grotesque/latin-700.css";
+import "@fontsource/bricolage-grotesque/latin-ext-700.css";
+import "@fontsource/noto-kufi-arabic/arabic-500.css";
+import "@fontsource/noto-kufi-arabic/arabic-700.css";
+// The other two typefaces of the settings menu; a browser only downloads the files of the one in use.
+import "@fontsource/noto-sans/latin-400.css";
+import "@fontsource/noto-sans/latin-ext-400.css";
+import "@fontsource/noto-sans/cyrillic-400.css";
+import "@fontsource/noto-sans/latin-400-italic.css";
+import "@fontsource/noto-sans/latin-ext-400-italic.css";
+import "@fontsource/noto-sans/latin-700.css";
+import "@fontsource/noto-sans/latin-ext-700.css";
+import "@fontsource/noto-sans/cyrillic-700.css";
+import "@fontsource/literata/latin-400.css";
+import "@fontsource/literata/latin-ext-400.css";
+import "@fontsource/literata/cyrillic-400.css";
+import "@fontsource/literata/latin-400-italic.css";
+import "@fontsource/literata/latin-ext-400-italic.css";
+import "@fontsource/literata/latin-700.css";
+import "@fontsource/literata/latin-ext-700.css";
+import "@fontsource/literata/cyrillic-700.css";
+// The faces of the first lines of text, preloaded so the text does not reflow when they arrive (layout shift).
+import atkinson400 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-400-normal.woff2?url";
+import atkinson700 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-700-normal.woff2?url";
+import atkinsonExt400 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-ext-400-normal.woff2?url";
+import atkinsonItalic from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-400-italic.woff2?url";
+import atkinsonExtItalic from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-ext-400-italic.woff2?url";
+import bricolage700 from "@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-700-normal.woff2?url";
+import literata400 from "@fontsource/literata/files/literata-latin-400-normal.woff2?url";
+import literata700 from "@fontsource/literata/files/literata-latin-700-normal.woff2?url";
+import literataExt400 from "@fontsource/literata/files/literata-latin-ext-400-normal.woff2?url";
+import literataExt700 from "@fontsource/literata/files/literata-latin-ext-700-normal.woff2?url";
+import "../styles/fonts-alt.css";
+
+import "../styles/global.css";
+
+import errorReportScript from "../scripts/error-report.js?url";
+import headSettingsScript from "../scripts/head-settings.js?url";
+import headStudyScript from "../scripts/head-study.js?url";
+import { studyData } from "../lib/study-data";
+import swRegisterScript from "../scripts/sw-register.js?url";
+import settingsMenuScript from "../scripts/settings-menu.js?url";
+import calendarScript from "../scripts/calendar.js?url";
+import installScript from "../scripts/install.js?url";
+import newsDotScript from "../scripts/news-dot.js?url";
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  locale?: string;
+  jsonLd?: object[];
+  noindex?: boolean;
+  /** The photo of the page (a key of config/photos.ts): its share image is public/og/<key>.jpg. */
+  image?: string;
+  /** Wider content column, for overview pages. */
+  wide?: boolean;
+  /** Full-bleed content (knowledge-base pages lay out their own columns). */
+  bleed?: boolean;
+}
+
+const { locale = SITE.defaultLocale, wide = false, bleed = false, ...seo } = Astro.props;
+const here = Astro.url.pathname;
+const ui = t(locale);
+const hasText = getMatn().sections.some((s) => s.segments.length > 0);
+// Two areas: the knowledge base (home, books, scholars, …) and the study portal (levels, text, practice, glossary).
+const studyHere = ["/study/", "/complete/", "/terms/", "/text/", "/practice/"].some((x) => here.startsWith(`/${locale}${x}`));
+const K = ui.kb.nav;
+// The date of the newest news item: News gets a red dot for readers who have not seen it (see the script at the end).
+const latestNews = getNews()[0]?.date ?? "";
+// The header: News, the Encyclopedia (books, scholars, curricula), the Glossary, About (naḥw and ṣarf, the site, updates, contact, privacy) and the
+// study portal. A section with sub-pages shows them in a second row under the header, like the study portal.
+const under = (...xs: string[]) => xs.some((x) => here.startsWith(`/${locale}${x}`));
+const encyclopediaNav = [
+  { href: `/${locale}/books/`, label: K.books, current: under("/books/") },
+  { href: `/${locale}/scholars/`, label: K.scholars, current: under("/scholars/") },
+  { href: `/${locale}/curricula/`, label: K.curricula, current: under("/curricula/") },
+];
+const aboutNav = [
+  { href: `/${locale}/nahw/`, label: K.nahw, current: under("/nahw/") },
+  { href: `/${locale}/about/`, label: K.aboutSite, current: under("/about/") },
+  { href: `/${locale}/updates/`, label: K.updates, current: under("/updates/") },
+  { href: `/${locale}/pricing/`, label: ui.pricing.title, current: under("/pricing/", "/terms-of-service/", "/refunds/"), storeHide: true },
+  { href: `/${locale}/contact/`, label: K.contact, current: under("/contact/") },
+  { href: `/${locale}/privacy/`, label: K.privacy, current: under("/privacy/") },
+];
+const encyclopediaHere = encyclopediaNav.some((x) => x.current);
+const aboutHere = aboutNav.some((x) => x.current);
+const nav = [
+  { href: `/${locale}/news/`, label: K.news, current: under("/news/") },
+  { href: `/${locale}/books/`, label: K.encyclopedia, current: encyclopediaHere },
+  { href: `/${locale}/glossary/`, label: K.concepts, current: under("/glossary/") },
+  { href: `/${locale}/about/`, label: K.about, current: aboutHere },
+];
+const subNav = encyclopediaHere ? { label: K.encyclopedia, items: encyclopediaNav } : aboutHere ? { label: K.about, items: aboutNav } : null;
+const studyNav = [
+  { href: `/${locale}/study/`, label: K.levels, current: here === `/${locale}/study/` || here.startsWith(`/${locale}/complete/`) || (here.startsWith(`/${locale}/terms/`) && here !== `/${locale}/terms/`) },
+  ...(hasText ? [{ href: `/${locale}/text/`, label: K.text, current: here.startsWith(`/${locale}/text/`) }] : []),
+  { href: `/${locale}/practice/`, label: K.practice, current: here.startsWith(`/${locale}/practice/`) },
+];
+const isCurrent = (item: { href: string }) => here.startsWith(item.href);
+// The deployed commit, sent with error reports so a report can be matched to a version.
+const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "local";
+---
+
+<!doctype html>
+<html lang={locale} dir={dirOf(locale)} data-area={studyHere ? "study" : "kb"}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline src={errorReportScript} data-vars={JSON.stringify({ origin: SITE_URL, version: buildVersion })}></script>
+    <script is:inline src={headSettingsScript}></script>
+    <script is:inline src={`/${locale}/study-data.js?v=${studyData(locale).v}`}></script>
+    <script is:inline src={headStudyScript}></script>
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    {(studyHere ? [atkinson400, atkinson700, bricolage700, atkinsonExt400, atkinsonItalic, atkinsonExtItalic] : [literata400, literata700, literataExt400, literataExt700]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <Seo locale={locale} {...seo} />
+    <HighlightLib />
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-tabs">
+        <div class="wrap wrap-wide">
+          <a class="brand" href={`/${locale}/`}>
+            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 512 512" width="36" height="36"><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" fill="currentColor" fill-rule="evenodd" /><rect x="232" y="120" width="48" height="48" fill="var(--red)" /></g></svg></span>
+            <span class="brand-latin">{SITE.name}</span>
+          </a>
+          <nav class="site-nav" aria-label={ui.nav.main}>
+            {nav.map((item) => <a href={item.href} aria-current={item.current ? "page" : undefined} data-news-link={item.href.endsWith("/news/") ? "" : undefined}>{item.label}</a>)}
+            <a class="nav-study" href={`/${locale}/study/`} aria-current={studyHere ? "page" : undefined}>{K.study}</a>
+          </nav>
+          <div class="header-tools">
+            <Search locale={locale} />
+            <button type="button" class="theme-toggle settings-toggle" popovertarget="settings" aria-label={ui.header.settings} title={ui.header.settings}>
+              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </button>
+            <div class="lang-menu settings-menu" id="settings" popover>
+              <p class="eyebrow">{ui.header.settings}</p>
+              <div class="setting-rows">
+                {studyHere && (
+                  <div class="setting-row">
+                    <span class="setting-icon" aria-hidden="true">ā</span>
+                    <span class="setting-label" id="lbl-translit">{ui.header.translit}</span>
+                    <button type="button" class="switch" role="switch" id="translit-toggle" aria-checked="true" aria-labelledby="lbl-translit"><span></span></button>
+                  </div>
+                )}
+                <div class="setting-row">
+                  <span class="setting-icon ar" aria-hidden="true" lang="ar">حَ</span>
+                  <span class="setting-label" id="lbl-tashkil">{ui.header.tashkil}</span>
+                  <button type="button" class="switch" role="switch" id="tashkil-toggle" aria-checked="true" aria-labelledby="lbl-tashkil"><span></span></button>
+                </div>
+                <div class="setting-row">
+                  <span class="setting-icon ar" aria-hidden="true" lang="ar">هـ</span>
+                  <span class="setting-label" id="lbl-cal">{ui.header.hijri}</span>
+                  <button type="button" class="switch" role="switch" id="cal-toggle" aria-checked="true" aria-labelledby="lbl-cal"><span></span></button>
+                </div>
+                <div class="setting-row">
+                  <span class="setting-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg></span>
+                  <span class="setting-label" id="lbl-theme">{ui.header.darkTheme}</span>
+                  <button type="button" class="switch" role="switch" id="theme-toggle" aria-checked="false" aria-labelledby="lbl-theme"><span></span></button>
+                </div>
+              </div>
+              {studyHere && (
+              <div class="setting-fonts">
+                <span class="setting-label" id="lbl-font">{ui.header.font}</span>
+                <div class="font-options" role="radiogroup" aria-labelledby="lbl-font">
+                  {(["modern", "naskh", "classic"] as const).map((f) => (
+                    <button type="button" role="radio" aria-checked={f === "modern" ? "true" : "false"} class={`font-choice font-${f}`} data-font-choice={f}>
+                      <span class="font-sample ar" lang="ar" aria-hidden="true">عِلْم</span>
+                      <span class="font-name">{(ui.header.fonts as Record<string, string>)[f]}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+              )}
+              <div class="install" hidden>
+                <button type="button" class="btn btn-outline install-btn" data-install>
+                  <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"></rect><path d="M12 7v7m-3-3 3 3 3-3"></path></svg>
+                  {ui.header.install}
+                </button>
+                <p class="muted install-help" hidden data-ios={ui.header.installIos} data-other={ui.header.installOther}></p>
+              </div>
+              <p class="eyebrow">{ui.header.language}</p>
+              <ul>
+                {SITE.languages.map((l) => {
+                  const live = LIVE_LOCALES.includes(l.code);
+                  return (
+                    <li>
+                      {live ? (
+                        <a href={(ENGLISH_ONLY(seo.path) && l.code !== "en") || seo.path === "/404/" ? `/${l.code}/` : `/${l.code}${seo.path}`} hreflang={l.code} aria-current={l.code === locale ? "true" : undefined}>
+                          <span lang={l.code} dir={l.dir}>{l.name}</span>{l.code === locale && <span class="lang-check" aria-hidden="true">✓</span>}
+                        </a>
+                      ) : (
+                        <span class="lang-soon" aria-disabled="true">
+                          <span lang={l.code} dir={l.dir}>{l.name}</span><small>{ui.header.inPreparation}</small>
+                        </span>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+            {SUPPORT.donateUrl && (
+              <a class="nav-support" href={SUPPORT.donateUrl} target="_blank" rel="noopener" data-support>
+                <svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg>
+                <span class="nav-account-label">{ui.support.link}</span>
+              </a>
+            )}
+            {ACCOUNTS && <AccountMenu locale={locale} here={here} />}
+          </div>
+        </div>
+      </div>
+      {subNav && (
+        <nav class="study-nav sub-nav" aria-label={subNav.label}>
+          <div class="wrap wrap-wide">
+            <span class="study-nav-label">{subNav.label}</span>
+            {subNav.items.map((item) => <a href={item.href} aria-current={item.current ? "page" : undefined} data-store-hide={"storeHide" in item && item.storeHide ? "" : undefined}>{item.label}</a>)}
+          </div>
+        </nav>
+      )}
+      {studyHere && (
+        <nav class="study-nav" aria-label={K.study}>
+          <div class="wrap wrap-wide">
+            <span class="study-nav-label">{K.study}</span>
+            {studyNav.map((item) => <a href={item.href} aria-current={item.current ? "page" : undefined}>{item.label}</a>)}
+          </div>
+        </nav>
+      )}
+    </header>
+    <main class:list={[{ bleed }]}>
+      {bleed ? <div class="kb"><slot /></div> : (
+        <div class={wide ? "wrap wrap-wide" : "wrap"}>
+          <slot />
+        </div>
+      )}
+    </main>
+    <nav class="tabbar" aria-label={ui.nav.main}>
+      {studyHere ? (
+        <>
+      <a href={`/${locale}/`} aria-current={false ? "page" : undefined}>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V21H3z"></path><path d="M9 21v-6h6v6"></path></svg>
+        {K.home}
+      </a>
+      <a href={`/${locale}/study/`} aria-current={studyNav[0].current ? "page" : undefined}>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z"></path><path d="M22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"></path></svg>
+        {K.levels}
+      </a>
+      {hasText && (
+      <a href={`/${locale}/text/`} aria-current={here.startsWith(`/${locale}/text/`) ? "page" : undefined}>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="M8 8h8M8 12h8M8 16h5"></path></svg>
+        {K.text}
+      </a>
+      )}
+      <a href={`/${locale}/practice/`} aria-current={here.startsWith(`/${locale}/practice/`) ? "page" : undefined}>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2" transform="rotate(45 12 12)"></rect><path d="m9.5 12 2 2 3.5-4"></path></svg>
+        {K.practice}
+      </a>
+        </>
+      ) : (
+        <>
+      {/* Five tabs fit a phone: the logo above leads home, so the Glossary takes the place of a Home tab. */}
+      <a href={`/${locale}/books/`} aria-current={encyclopediaHere ? "page" : undefined}>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4v16H4zM10 4h4v16h-4z"></path><path d="m16 5 3.5-1 3 15.5-3.5 1z"></path></svg>
+        {K.encyclopediaShort}
+      </a>
+      <a href={`/${locale}/glossary/`} aria-current={here.startsWith(`/${locale}/glossary/`) ? "page" : undefined}>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"></path><path d="M5 17a3 3 0 0 1 3-3h11"></path><path d="M9 8h6"></path></svg>
+        {K.concepts}
+      </a>
+      <a href={`/${locale}/news/`} aria-current={here.startsWith(`/${locale}/news/`) ? "page" : undefined} data-news-link>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"></path><path d="M17 9h3v8a2 2 0 0 1-2 2"></path><path d="M8 9h5M8 13h5"></path></svg>
+        {K.news}
+      </a>
+      <a href={`/${locale}/about/`} aria-current={aboutHere ? "page" : undefined}>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg>
+        {K.about}
+      </a>
+      <a href={`/${locale}/study/`} aria-current={false ? "page" : undefined} class="tab-study">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z"></path><path d="M22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"></path></svg>
+        {K.studyShort}
+      </a>
+        </>
+      )}
+    </nav>
+    <footer class="site-footer">
+      <div class="wrap wrap-wide">
+        {/* The site's accounts and address as one row (components/SocialLinks.astro), then only what the menus do not
+            hold: About, contact, privacy, prices and support are all in the header (About). */}
+        <SocialLinks locale={locale} />
+        <p><span>© {SITE.name}</span><a href={`/${locale}/terms-of-service/`}>{ui.footer.terms}</a><a href={`/${locale}/refunds/`} data-store-hide>{ui.footer.refunds}</a></p>
+      </div>
+    </footer>
+    <div id="gloss-pop" class="gloss-pop" popover role="dialog" aria-labelledby="gloss-plain" data-src={`/${locale}/glossary.json`} data-label={ui.gloss.label} data-lock-title={ui.lock.title} data-lock-body={ui.lock.linkBody} data-lock-practice={ui.lock.practiceBody} data-lock-cta={ui.lock.cta} data-lock-level2={ui.track.lockBase} data-lock-lesson={ui.track.lockLesson} data-lock-level={ui.track.lockLevel} data-lock-book={ui.track.lockBook}>
+      <button type="button" class="gloss-close" aria-label={ui.gloss.close} data-close>×</button>
+      <p class="gloss-word"></p>
+      <p class="gloss-plain" id="gloss-plain"></p>
+      <p class="gloss-note"></p>
+      <a class="gloss-link" href={`/${locale}/glossary/`} hidden><span class="gloss-link-text"></span><span class="ar" lang="ar"></span><span aria-hidden="true">{dirOf(locale) === "rtl" ? "←" : "→"}</span></a>
+    </div>
+    <script is:inline src={swRegisterScript}></script>
+    {ANALYTICS && <script is:inline defer src="/_vercel/insights/script.js"></script>}
+    <script is:inline src={calendarScript} data-vars={JSON.stringify({ ah: ui.header.ah })}></script>
+    <script is:inline src={settingsMenuScript}></script>
+    <script is:inline src={installScript}></script>
+    <SearchHighlight />
+    <AccountSync />
+    <SubscribeDialog locale={locale} />
+    <SupportDialog locale={locale} />
+    <AppStoreDialog locale={locale} />
+    <AppIos locale={locale} />
+    <script is:inline src={newsDotScript} data-vars={JSON.stringify({ latestNews, onNews: here.startsWith(`/${locale}/news/`), newLabel: ui.kb.news.newDot })}></script>
+  </body>
+</html>

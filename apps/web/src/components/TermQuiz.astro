@@ -1,0 +1,130 @@
+---
+import type { Quiz } from "@nahwi/content";
+import { fmt, t } from "../i18n";
+import { gloss } from "../lib/gloss";
+import { askOf, HEARTS_MAX } from "../lib/progress.js";
+import { CHECKOUT, PADDLE } from "../config/pricing";
+
+import termQuizScript from "../scripts/term-quiz.js?url";
+/**
+ * The test at the end of a term or lesson page, and the certificate's exam. Scored out of 10; the best score is kept
+ * in this browser ("scores"). Two stars (6/10) open the next term or lesson: the page's gated parts (the "next" card)
+ * appear as soon as the test is passed. Every question of the lesson is in the page; one test asks `ask` of them
+ * (lib/progress.js askOf: two kept in reserve from seven), shuffled with their answers, and a retry brings in the
+ * reserves. The test starts with its own button, which takes a heart (five, one back every two hours, shown in red
+ * with an info tile; a refill with Paddle once the checkout is on). After a failed test the lesson is read again: the
+ * start comes back once the reader ticks that it was.
+ */
+interface Props {
+  quiz: Pick<Quiz, "items">;
+  slug: string;
+  locale: string;
+  /** Texts for a lesson of level 2 or later instead of a term ("the next lesson opens"). */
+  intro?: string;
+  passed?: string;
+  failed?: string;
+  /** How many questions one test asks (the lesson's own `ask`, else askOf). */
+  ask?: number;
+  /** The certificate's exam: a pass mark out of 10 other than 6, and no re-reading after a fail. */
+  exam?: { pass: number };
+}
+
+const { quiz, slug, locale } = Astro.props;
+const ui = t(locale);
+const Q = ui.quiz;
+const ask = askOf(quiz.items.length, Astro.props.ask);
+const intro = (Astro.props.intro ?? Q.intro).replace("{n}", String(ask));
+const letters = "ABCDEFG";
+const refill = CHECKOUT && PADDLE.refill ? PADDLE.refill : "";
+const texts = {
+  score: Q.score,
+  passed: Astro.props.passed ?? Q.passed,
+  failed: Astro.props.exam ? Q.examFailed : Astro.props.failed ?? Q.failed,
+  best: Q.best,
+  right: ui.practice.right,
+  wrong: ui.practice.wrong,
+  question: ui.practice.question,
+  hearts: Q.hearts,
+  heartsNext: Q.heartsNext,
+  heartsFull: Q.heartsFull,
+  heartsEmpty: Q.heartsEmpty,
+  refilling: Q.refilling,
+  refills: Q.refillsCount,
+  freeRefill: Q.freeRefill,
+  earned: Q.earned,
+};
+---
+
+<section class="card term-quiz" id="test" data-slug={slug} data-ask={ask} data-pass={Astro.props.exam?.pass ?? 6} data-exam={Astro.props.exam ? "" : undefined} data-texts={JSON.stringify(texts)}>
+  <div class="quiz-head">
+    <h2>{Astro.props.exam ? Q.examTitle : Q.title}</h2>
+    <p class="quiz-hearts" data-hearts hidden>
+      <span class="hearts-row" aria-hidden="true">{Array.from({ length: HEARTS_MAX }, () => <span class="heart" />)}</span>
+      <span class="sr-only" data-hearts-count></span>
+      <span class="refill-badge" data-refills hidden></span>
+      <button type="button" class="info-tile" popovertarget={`hearts-info-${slug}`} aria-label={Q.heartsTitle}><span aria-hidden="true">i</span></button>
+    </p>
+  </div>
+  <div class="info-pop" id={`hearts-info-${slug}`} popover>
+    <p class="eyebrow">{Q.heartsTitle}</p>
+    <p>{Q.heartsHelp}</p>
+    <p>{Q.heartsHelpFree}</p>
+    {refill && <p>{Q.heartsHelpRefill}</p>}
+    <button type="button" class="btn btn-outline" popovertarget={`hearts-info-${slug}`} popovertargetaction="hide">{ui.structure.close}</button>
+  </div>
+  <div class="quiz-start" data-quiz-start>
+    <p class="u-m0">{intro}</p>
+    <p class="muted quiz-cost" data-hearts-text></p>
+    <button type="button" class="btn btn-red quiz-go" data-quiz-go>
+      <span>{Astro.props.exam ? Q.startExam : Q.start}</span>
+      <span class="quiz-go-cost" aria-hidden="true">−1 ♥</span>
+    </button>
+  </div>
+  <div class="quiz-stop" data-hearts-empty hidden>
+    <p class="u-m0" data-hearts-empty-text></p>
+    <p class="hero-actions u-m0">
+      <button type="button" class="btn btn-red" data-free-refill hidden></button>
+      {refill && <button type="button" class="btn btn-outline" data-refill data-checkout>{Q.refill}</button>}
+    </p>
+  </div>
+  <div class="quiz-stop" data-reread hidden>
+    <p class="u-m0">{Q.reread}</p>
+    <label class="quiz-check"><input type="checkbox" data-reread-check /> <span>{Q.rereadLabel}</span></label>
+  </div>
+  <p class="quiz-best muted" hidden></p>
+  <ol class="quiz" data-questions hidden>
+    {
+      quiz.items.map((item, n) => (
+        <li class="question" data-answer={item.answer} data-k={n}>
+          <p class="q-number eyebrow">{fmt(ui.practice.question, { n: n + 1 })}</p>
+          <p class="q-prompt">{item.prompt}</p>
+          {item.arabic && <p class="ar q-ar" lang="ar">{item.arabic}</p>}
+          <div class="options">
+            {item.options.map((option, i) => (
+              <button type="button" class="option" data-index={i}>
+                <span class="option-key" aria-hidden="true"><span>{letters[i]}</span></span>
+                <span>{option}</span>
+              </button>
+            ))}
+          </div>
+          <div class="feedback" hidden aria-live="polite">
+            <p class="verdict" />
+            <p set:html={gloss(item.explanation, locale)} />
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+  <div class="quiz-result" hidden aria-live="polite">
+    <p class="quiz-stars" aria-hidden="true"></p>
+    <p class="quiz-score"></p>
+    <p class="quiz-verdict"></p>
+    <p class="quiz-earned" data-earned hidden></p>
+    <p class="hero-actions">
+      <a class="btn btn-red" data-quiz-next hidden></a>
+      <button type="button" class="btn btn-outline" data-again>{Q.again}</button>
+    </p>
+  </div>
+</section>
+
+<script is:inline src={termQuizScript}></script>

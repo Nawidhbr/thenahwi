@@ -1,0 +1,43 @@
+{
+  "slug": "kalima",
+  "name": "The word",
+  "arabic": "الكَلِمَةُ",
+  "transliteration": "al-kalima",
+  "alsoKnownAs": [
+    "kalimah",
+    "word"
+  ],
+  "category": "foundations",
+  "definition": "A single utterance made for a single meaning. Every word is a noun, a verb or a particle.",
+  "body": [
+    "A kalima is one word with one meaning, such as رَجُلٌ (a man) or ذَهَبَ (he went). The grammarians divide every word into three kinds, and nothing falls outside them: the noun (ism), the verb (fiʿl) and the particle (ḥarf).",
+    "A word on its own does not yet say anything complete. When words are joined so that the listener has a complete meaning, the result is kalām."
+  ],
+  "examples": [
+    {
+      "arabic": "رَجُلٌ",
+      "text": "rajulun, a man: a noun."
+    },
+    {
+      "arabic": "ذَهَبَ",
+      "text": "dhahaba, he went: a verb."
+    },
+    {
+      "arabic": "فِي",
+      "text": "fī, in: a particle."
+    }
+  ],
+  "related": [
+    "ism",
+    "fil",
+    "harf",
+    "kalam"
+  ],
+  "term": "kalima",
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "kafiya",
+    "alfiyya"
+  ]
+}
