@@ -111,7 +111,7 @@ score.
   is said once, in the "Translation" row of the source note (`lib/sources.ts`), not under every passage.
 - **Diagrams**: every term, primer lesson and commentary lesson's explanation sets `diagram: { type, focus?, after? }`;
   the SVGs live in `components/Diagram.astro`, drawn with the colour tokens in the "Clear glass" look (a tinted pane,
-  frosted shapes, the focus red with a red glow; `global.css`, "Diagrams"). They are division trees drawn from one
+  frosted shapes, the focus orange with an orange glow; `global.css`, "Diagrams"). They are division trees drawn from one
   data table (`trees`: `sciences` ṣarf and naḥw, `kalima` the three kinds of word, `mizan` the root and the pattern
   فَعَلَ, `fil` the past, present and imperative, `sahih` sound and weak, `mushtaqq` the derived nouns, `irab` the four
   states and bināʾ, `jumla` the nominal and verbal sentence); the conjugation tables are not diagrams but come from
@@ -163,7 +163,7 @@ and the lessons due for review, with a link to tikrār. Every finished test adds
 
 `/<locale>/study/progress/` (`pages/[locale]/study/progress.astro`, `scripts/study-progress.js`; noindex, not in the
 sitemap, saved for offline use) shows the reader's madrasa path book by book: the steps passed with a bar, the
-average stars, the way on (the current book's tile and bar in red), the certificate once a book is done, and for a
+average stars, the way on (the current book's tile and bar in orange), the certificate once a book is done, and for a
 book not yet open what must be passed first. Above it: lessons passed on the path, the average score, the days with
 a test in the last 30 (a strip of 30 tiles) and the lessons due for review; below it, up to five passed lessons with
 fewer than three stars, the lowest first, each linking to its test (the best score is kept). The rules (`average`,

@@ -23,7 +23,7 @@ for (const f of readdirSync(i18n).filter((f) => f.endsWith(".json"))) {
 
 const config = JSON.parse(readFileSync(new URL("capacitor.config.json", here), "utf8"));
 const start = config.server.url;
-const mark = `<svg aria-hidden="true" width="56" height="56" viewBox="0 0 512 512"><rect width="512" height="512" fill="currentColor"/><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" class="ink" fill-rule="evenodd"/><rect x="232" y="120" width="48" height="48" fill="#d42a1f"/></g></svg>`;
+const mark = `<svg aria-hidden="true" width="56" height="56" viewBox="0 0 512 512"><rect width="512" height="512" fill="currentColor"/><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" class="ink" fill-rule="evenodd"/><rect x="232" y="120" width="48" height="48" fill="#ffffff"/></g></svg>`;
 
 const offline = `<!doctype html>
 <html lang="en" dir="ltr">
@@ -32,13 +32,13 @@ const offline = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Nahwi</title>
 <style>
-  :root { color-scheme: light dark; --bg: #ffffff; --ink: #0a0a0a; --muted: #5c5c5c; --red: #d42a1f; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #0a0a0a; --ink: #f5f5f5; --muted: #a3a3a3; } }
+  :root { color-scheme: light dark; --bg: #ffffff; --ink: #1f1a17; --muted: #6b5d55; --red: #cc4a0a; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #120d0a; --ink: #f7efe8; --muted: #b9aa9f; } }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); }
   body { font: 17px/1.5 -apple-system, system-ui, sans-serif; display: grid; place-items: center; padding: max(24px, env(safe-area-inset-top)) 24px max(24px, env(safe-area-inset-bottom)); box-sizing: border-box; }
   main { max-width: 26rem; }
-  svg { color: var(--ink); display: block; margin-bottom: 28px; }
-  svg .ink { fill: var(--bg); }
+  svg { color: var(--red); display: block; margin-bottom: 28px; }
+  svg .ink { fill: #ffffff; }
   h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 12px; }
   p { margin: 0 0 28px; color: var(--muted); }
   a { display: inline-block; background: var(--red); color: #ffffff; text-decoration: none; font-weight: 700; padding: 14px 22px; }
@@ -70,13 +70,13 @@ writeFileSync(new URL("www/offline.html", here), offline);
 writeFileSync(new URL("www/index.html", here), `<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${start}"><title>The Nahwi</title>\n`);
 
 // The icon and the launch image, drawn by the browser from the logo.
-const logo = (size, scale, bg) => `<!doctype html><html><body style="margin:0;background:${bg}"><svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 512 512"><rect width="512" height="512" fill="${bg}"/><g transform="translate(256 256) scale(${scale}) translate(-256 -256) translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" fill="#ffffff" fill-rule="evenodd"/><rect x="232" y="120" width="48" height="48" fill="#d42a1f"/></g></svg></body></html>`;
+const logo = (size, scale, bg) => `<!doctype html><html><body style="margin:0;background:${bg}"><svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 512 512"><rect width="512" height="512" fill="${bg}"/><g transform="translate(256 256) scale(${scale}) translate(-256 -256) translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" fill="#ffffff" fill-rule="evenodd"/><rect x="232" y="120" width="48" height="48" fill="#ffffff"/></g></svg></body></html>`;
 const assets = new URL("ios/App/App/Assets.xcassets/", here);
 const browser = await chromium.launch();
 const page = await browser.newPage({ deviceScaleFactor: 1 });
 const shoot = async (size, scale, file) => {
   await page.setViewportSize({ width: size, height: size });
-  await page.setContent(logo(size, scale, "#0a0a0a"));
+  await page.setContent(logo(size, scale, "#e8590c"));
   await page.screenshot({ path: new URL(file, assets).pathname, omitBackground: false });
 };
 await shoot(1024, 1, "AppIcon.appiconset/AppIcon-512@2x.png");

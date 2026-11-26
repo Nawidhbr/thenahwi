@@ -17,7 +17,7 @@ placeholders, and no Stripe link is set. `docs/setup-new-site.md` says in which 
 - `/<locale>/account/` (noindex, not in the sitemap; `scripts/account-page.ts`) signs in with a mail (a link and a
   6-digit code, so it works in the installed app too) or with Google (PKCE; both come back to the account page with
   `?code=`). It offers save now, a password to set, sign out (progress stays on the device), download my data and
-  delete my account. It is laid out like the knowledge base: a black panel (what an account gives, or the initial and address of who is
+  delete my account. It is laid out like the knowledge base: an orange panel (what an account gives, or the initial and address of who is
   signed in) beside the form or the progress as two figures, with square buttons.
 - The session is in localStorage (`nahwi-auth`, no cookie). `components/AccountSync.astro` on every page loads
   `lib/account-sync.ts` only when that key exists, so other readers download nothing more. It merges scores, seen

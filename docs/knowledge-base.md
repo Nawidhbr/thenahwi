@@ -5,8 +5,8 @@ pipeline is in `docs/news.md`.
 
 ## Pages
 
-- **Home** `/<locale>/`: the Isfahan muqarnas beside a black panel with the title and the search (`KbHero`), then the
-  six handbooks (al-Kāfiya, al-Shāfiya, al-ʿIzzī, the Alfiyya, al-Ājurrūmiyya, Qaṭr al-nadā; black panel, with
+- **Home** `/<locale>/`: the Isfahan muqarnas beside an orange panel with the title and the search (`KbHero`), then the
+  six handbooks (al-Kāfiya, al-Shāfiya, al-ʿIzzī, the Alfiyya, al-Ājurrūmiyya, Qaṭr al-nadā; orange panel, with
   their photos) beside the masters (a line of the main scholars), then the news in
   its three sections side by side, the curricula and the study portal.
 - **Articles**: `/nahw/` (About naḥw and ṣarf: what each is, why ṣarf comes first) and `/curricula/` (articles
@@ -54,44 +54,48 @@ Interface text of the knowledge base is in the `kb` dictionary.
 Every search (the site search with its result list and the page opened from it via `?hl=`, the glossary A–Z, the
 scholars list, the book catalogues) finds and marks words the same way, through `window.__hl`
 (`components/HighlightLib.astro`, in `<head>`): folded like the search, all words must occur, hits wrapped in
-`mark.search-hl` (red). Results whose match is not in the title show the piece of text where it occurs. A new search
+`mark.search-hl` (orange). Results whose match is not in the title show the piece of text where it occurs. A new search
 field uses the same helper.
 
-## House style: "Zwart-wit met rood"
+## House style: "Oranje-wit" (orange and white)
 
-- Ink for structure (black in light, near-white in dark: `--primary`, with `--on-primary` for text on it); one red
-  only for the current item, the main action, kickers and the accent in the hero. Red under white text (buttons, the
-  current tile) uses `--red-fill`/`--on-red`, the same in dark mode so the contrast holds. Locked items are greyed
+- Orange for structure and accent, white for the ground (decisions 2026-11-26): the knowledge base's header and
+  panels, the main buttons and the current item are orange (`--header`, `--primary`, `--red`: the old names are
+  kept, `--red` is now the orange accent); body text is a warm near-black ink (`--ink`), secondary text `--muted`.
+  Orange under white text (buttons, the current tile, the panels) uses `#cc4a0a` (`--red-fill`, `--header`), which
+  keeps 4.5:1; a brighter orange (`#e8590c`) only where no small text sits on it (the logo tile). On an orange ground
+  the accent turns white: buttons, tiles and current marks there are white with orange text (the last block of
+  `global.css`). True red is kept for wrong answers and errors only (`--bad`, `--bad-soft`). Locked items are greyed
   with `--muted`, not with opacity. Tiles (rotated squares) mark steps.
 - Colours are CSS tokens in `apps/web/src/styles/global.css`, with light and dark values; never hard-code a colour.
 - Two looks, by area (`data-area` on `<html>`, set in `BaseLayout`): the study portal (`study`: `/study/`,
   `/complete/`, `/terms/`, `/text/`, `/practice/`) is in "Clear glass"; everything else (`kb`: the knowledge base,
   the account, prices, contact, about) keeps the classic look (decisions 2026-11-23).
-- "Clear glass" (study portal, 2026-11-21): a light ground with a faint red glow (`--bg`, `--bg-glow`), cards of
-  frosted glass (`--glass`, `--glass-edge`, `--glass-shadow`, a backdrop blur), round buttons (pills) with a soft red
-  glow under the main action, and dark glass panels (`--panel…`) for the one thing that matters now, such as the
+- "Clear glass" (study portal, 2026-11-21): a warm white ground with a faint orange glow (`--bg`, `--bg-glow`), cards of
+  frosted glass (`--glass`, `--glass-edge`, `--glass-shadow`, a backdrop blur), round buttons (pills) with a soft orange
+  glow under the main action, and orange glass panels (`--panel…`) for the one thing that matters now, such as the
   level the reader is on or the access note. Dark mode has its own values for every glass token. Keep the blur on
   surfaces that sit over something (header, bars, cards); never put glass behind long reading text without a solid
   enough `--glass`. The header there is one row of light glass that stays at the top while scrolling (`.site-tabs`,
-  `--glass-header…`), with a black logo mark (`--mark-bg`).
-- The classic look (outside the study portal): a plain white ground (black in dark mode) without the glow, the header
-  one black row that scrolls away with a white logo mark, square black panels the full width of the page (the
+  `--glass-header…`), with an orange logo tile and a white nūn (`--mark-bg`, `--mark-ink`, `--mark-dot`).
+- The classic look (outside the study portal): a plain white ground (a warm dark one in dark mode) without the glow, the
+  header one orange row that scrolls away with a white logo tile and an orange nūn, square orange panels the full width of the page (the
   knowledge-base heroes and bands, the handbooks on the home page, the account and price panels), plain cards with a
   hairline, buttons, chips, search bars and fields with square or slightly rounded corners, a solid tab bar. The
   `kb-…`, `home-…`, `account…` and `price-…` rules are written in this look; the shared rules (header, cards,
   buttons) are set back to it under `:root[data-area="kb"]` in the last block of `global.css`, and its tokens right
   after the dark-mode tokens.
-- The header holds the logo, the menu (News, Encyclopedia, Glossary, About and the Study portal in red) and the
+- The header holds the logo, the menu (News, Encyclopedia, Glossary, About and the Study portal as a white button on the orange header, an orange one on the light glass header) and the
   tools. Encyclopedia (books, scholars, curricula) and About show their pages in a second row under it, like the
   study portal; on phones that row scrolls sideways.
-- The knowledge base uses the "Split" design: `components/KbHero.astro` (a photo beside a black panel) and
+- The knowledge base uses the "Split" design: `components/KbHero.astro` (a photo beside an orange panel) and
   `KbBand.astro`. Reading text in Literata; Arabic titles always in Kufi (`.kufi`, `--font-kufi`), whatever the
   typeface setting.
 - Photos: black-and-white architecture photos (Unsplash, `public/photos/`, listed with alt text, place and, for the
-  record, credit in `src/config/photos.ts`; captions show only the place). They stand beside black panels in the
+  record, credit in `src/config/photos.ts`; captions show only the place). They stand beside orange panels in the
   knowledge base, never as a background behind text. The only place in the study portal is the madrasa cards of the
   study page (`photo` in `config/madrasas.ts`). After adding photos, run `apps/web/scripts/make-og.cjs`.
-- The logo is a square-Kufic mīm (م) with a red square in its loop: `public/favicon.svg`, the PNGs in
-  `public/icons/` and the brand mark in `BaseLayout`. The site's Arabic name is النَّحْوِيّ.
+- The logo is a square-Kufic nūn (ن), its dot a square: white on an orange tile (`public/favicon.svg`, the PNGs in
+  `public/icons/`, the app icons), orange on a white tile on the orange header (the brand mark in `BaseLayout`). The site's Arabic name is النَّحْوِيّ.
 - The eight-pointed-star pattern (`.tegels`, `public/patterns/khatam.svg`) is not in use.
 - Right-to-left languages use logical CSS properties (`docs/i18n.md`).

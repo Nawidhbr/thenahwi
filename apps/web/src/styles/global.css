@@ -1,64 +1,67 @@
-/* The Nahwi house style: black, white and one red. Ink for structure, red for the current item and the main action. */
+/* The Nahwi house style, "Oranje-wit" (decisions 2026-11-26): orange and white. Orange for structure (the header, the
+   panels, the main buttons) and for the current item; white grounds; warm near-black ink only for reading text. The
+   tokens keep their old names (--red, --on-dark-red, --header): --red is the accent, now orange; true red is --bad,
+   for wrong answers and errors only. */
 
 :root {
-  --bg: #f5f5f7;
+  --bg: #fff9f4;
   --surface: #ffffff;
-  --ink: #0a0a0a;
-  --muted: #5c5c5c;
-  --line: rgb(17 17 26 / 0.08);
+  --ink: #1f1a17;
+  --muted: #6b5d55;
+  --line: rgb(60 30 10 / 0.09);
   /* Clear glass (decisions 2026-11-21): the header, the study bar, the tab bar and the cards are light glass over a
      soft ground with a faint red glow; the level you are on is a dark glass panel. */
-  --bg-glow: rgb(212 42 31 / 0.05);
-  --bg-glow-2: rgb(17 17 26 / 0.04);
+  --bg-glow: rgb(234 88 12 / 0.08);
+  --bg-glow-2: rgb(234 88 12 / 0.03);
   --glass: rgb(255 255 255 / 0.55);
   --glass-dim: rgb(255 255 255 / 0.35);
   --glass-bar: rgb(255 255 255 / 0.7);
   --glass-tab: rgb(255 255 255 / 0.88);
   --glass-edge: rgb(255 255 255 / 0.9);
   --glass-hi: rgb(255 255 255 / 1);
-  --glass-shadow: 0 1px 1px rgb(17 17 26 / 0.04), 0 18px 44px rgb(17 17 26 / 0.07);
-  --hairline: rgb(17 17 26 / 0.06);
-  --control-line: rgb(17 17 26 / 0.16);
-  --control-hover: rgb(17 17 26 / 0.05);
-  --panel: rgb(14 14 16 / 0.9);
+  --glass-shadow: 0 1px 1px rgb(60 30 10 / 0.04), 0 18px 44px rgb(120 50 10 / 0.08);
+  --hairline: rgb(60 30 10 / 0.07);
+  --control-line: rgb(60 30 10 / 0.18);
+  --control-hover: rgb(234 88 12 / 0.07);
+  --panel: rgb(204 74 10 / 0.95);
   --panel-ink: #ffffff;
-  --panel-sub: rgb(255 255 255 / 0.72);
-  --panel-edge: rgb(255 255 255 / 0.08);
-  --panel-shadow: 0 24px 48px rgb(17 17 26 / 0.22), inset 0 1px 0 rgb(255 255 255 / 0.12);
-  --red-glow: rgb(212 42 31 / 0.25);
-  --red-ring: rgb(212 42 31 / 0.3);
-  --red-halo: rgb(212 42 31 / 0.05);
-  --glass-header: rgb(255 255 255 / 0.7);
-  --glass-header-ink: #0a0a0a;
-  --glass-header-sub: #4a4a4a;
-  --mark-bg: #0a0a0a;
+  --panel-sub: rgb(255 255 255 / 0.86);
+  --panel-edge: rgb(255 255 255 / 0.14);
+  --panel-shadow: 0 24px 48px rgb(204 74 10 / 0.26), inset 0 1px 0 rgb(255 255 255 / 0.18);
+  --red-glow: rgb(234 88 12 / 0.28);
+  --red-ring: rgb(234 88 12 / 0.32);
+  --red-halo: rgb(234 88 12 / 0.06);
+  --glass-header: rgb(255 255 255 / 0.74);
+  --glass-header-ink: #1f1a17;
+  --glass-header-sub: #5a4d45;
+  --mark-bg: #e8590c;
   --mark-ink: #ffffff;
-  --header: #0a0a0a;
+  --header: #cc4a0a;
   --header-ink: #ffffff;
-  --header-sub: #d6d6d6;
-  --primary: #0a0a0a;
-  --primary-ink: #0a0a0a;
+  --header-sub: #ffffff;
+  --primary: #cc4a0a;
+  --primary-ink: #b93d0b;
   --on-primary: #ffffff;
-  --primary-soft: #f2f2f2;
-  --red: #d42a1f;
-  --red-ink: #c0241a;
-  --red-soft: #fde7e5;
+  --primary-soft: #fff1e6;
+  --red: #cc4a0a;
+  --red-ink: #b93d0b;
+  --red-soft: #ffedd5;
   /* Red as a fill under white text (buttons, the current tile): the same in dark mode, where --red is lighter, so the white keeps 4.5:1. */
-  --red-fill: #d42a1f;
+  --red-fill: #cc4a0a;
   --on-red: #ffffff;
   --good: #0e7c4a;
   --good-soft: #e3f4ea;
-  --lock: #efefef;
+  --lock: #f3ece6;
   --warn-ink: #8a5a00;
   --warn-soft: #fff3dc;
-  --dg-fill: rgb(255 255 255 / 0.78);
-  --dg-focus: rgb(255 236 233 / 0.92);
-  --dg-bg: #f4f4f7;
-  --dg-stroke: rgb(17 17 26 / 0.2);
-  --dg-line: rgb(17 17 26 / 0.38);
-  --dg-shadow: rgb(17 17 26 / 0.09);
-  --dg-frame: rgb(17 17 26 / 0.028);
-  --dg-dot: #17171c;
+  --dg-fill: rgb(255 255 255 / 0.8);
+  --dg-focus: rgb(255 237 213 / 0.95);
+  --dg-bg: #fff6ef;
+  --dg-stroke: rgb(60 30 10 / 0.2);
+  --dg-line: rgb(60 30 10 / 0.38);
+  --dg-shadow: rgb(120 50 10 / 0.1);
+  --dg-frame: rgb(234 88 12 / 0.035);
+  --dg-dot: #1f1a17;
   --radius-l: 22px;
   --radius-m: 14px;
   --measure: 46rem;
@@ -68,12 +71,16 @@
   /* Knowledge base: Arabic titles are always Kufi, whatever the typeface setting; reading text is Literata. */
   --font-kufi: "Noto Kufi Arabic", sans-serif;
   --font-kb: "Literata", Georgia, serif;
-  --on-dark-red: #ff7a70;
+  --on-dark-red: #ffffff;
   /* The colours of Google's "G", which its sign-in button must keep (account page). */
   --google-blue: #4285f4;
   --google-red: #ea4335;
   --google-yellow: #fbbc05;
   --google-green: #34a853;
+  --mark-dot: #ffffff;
+  /* True red only for wrong answers and errors. */
+  --bad: #c4251b;
+  --bad-soft: #fde8e6;
   color-scheme: light;
 }
 
@@ -91,127 +98,143 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0a0a0a;
-    --surface: #141414;
-    --ink: #f5f5f5;
-    --muted: #a3a3a3;
-    --line: #262626;
-    --header: #000000;
+    --bg: #120d0a;
+    --surface: #1c1511;
+    --ink: #f7efe8;
+    --muted: #b9aa9f;
+    --line: rgb(255 255 255 / 0.08);
+    --header: #9a3412;
     --header-ink: #ffffff;
-    --header-sub: #d6d6d6;
-    --primary: #f5f5f5;
-    --primary-ink: #f5f5f5;
-    --primary-soft: rgb(255 255 255 / 0.08);
-    --on-primary: #0a0a0a;
-    --red: #ff4d3d;
-    --red-ink: #ff6b5c;
-    --red-soft: rgb(255 77 61 / 0.15);
+    --header-sub: #ffffff;
+    --primary: #fb923c;
+    --primary-ink: #fdba74;
+    --primary-soft: rgb(251 146 60 / 0.12);
+    --on-primary: #1c1511;
+    --red: #fb923c;
+    --red-ink: #fdba74;
+    --red-soft: rgb(251 146 60 / 0.15);
     --good: #4ade80;
     --good-soft: rgb(74 222 128 / 0.12);
     --lock: rgb(255 255 255 / 0.06);
     --warn-ink: #fbbf5a;
     --warn-soft: rgb(251 191 90 / 0.12);
     --dg-fill: rgb(255 255 255 / 0.07);
-    --dg-focus: rgb(255 77 61 / 0.16);
-    --dg-bg: #19191c;
+    --dg-focus: rgb(251 146 60 / 0.18);
+    --dg-bg: #1a130f;
     --dg-stroke: rgb(255 255 255 / 0.2);
     --dg-line: rgb(255 255 255 / 0.4);
     --dg-shadow: rgb(0 0 0 / 0.45);
     --dg-frame: rgb(255 255 255 / 0.03);
-    --dg-dot: #f2f2f4;
-    --bg-glow: rgb(255 77 61 / 0.08);
+    --dg-dot: #f7efe8;
+    --bg-glow: rgb(251 146 60 / 0.09);
     --bg-glow-2: transparent;
-    --glass: rgb(30 30 33 / 0.55);
-    --glass-dim: rgb(30 30 33 / 0.35);
-    --glass-bar: rgb(20 20 22 / 0.65);
-    --glass-tab: rgb(20 20 22 / 0.88);
+    --glass: rgb(36 27 21 / 0.55);
+    --glass-dim: rgb(36 27 21 / 0.35);
+    --glass-bar: rgb(24 18 14 / 0.7);
+    --glass-tab: rgb(24 18 14 / 0.9);
     --glass-edge: rgb(255 255 255 / 0.08);
     --glass-hi: rgb(255 255 255 / 0.04);
     --glass-shadow: 0 18px 44px rgb(0 0 0 / 0.4);
     --hairline: rgb(255 255 255 / 0.08);
     --control-line: rgb(255 255 255 / 0.22);
     --control-hover: rgb(255 255 255 / 0.08);
-    --panel: rgb(36 36 40 / 0.85);
-    --panel-edge: rgb(255 255 255 / 0.1);
+    --panel: rgb(154 52 18 / 0.92);
+    --panel-edge: rgb(255 255 255 / 0.12);
     --panel-shadow: 0 24px 48px rgb(0 0 0 / 0.45);
-    --glass-header: rgb(14 14 16 / 0.7);
+    --glass-header: rgb(18 13 10 / 0.72);
     --glass-header-ink: #ffffff;
-    --glass-header-sub: #c9c9c9;
-    --mark-bg: #ffffff;
-    --mark-ink: #0a0a0a;
-    --line: rgb(255 255 255 / 0.08);
-    --bg: #0b0b0c;
+    --glass-header-sub: #d9cbc0;
+    --mark-bg: #e8590c;
+    --mark-ink: #ffffff;
     color-scheme: dark;
+  --red-fill: #cc4a0a;
+  --on-red: #ffffff;
+  --bad: #ff6b5c;
+  --bad-soft: rgb(255 107 92 / 0.14);
+  --panel-ink: #ffffff;
+  --panel-sub: rgb(255 255 255 / 0.86);
+  --mark-dot: #ffffff;
+  --on-dark-red: #fed7aa;
+
   }
 }
 
 :root[data-theme="dark"] {
-  --surface: #141414;
-  --ink: #f5f5f5;
-  --muted: #a3a3a3;
-  --header: #000000;
+  --surface: #1c1511;
+  --ink: #f7efe8;
+  --muted: #b9aa9f;
+  --header: #9a3412;
   --header-ink: #ffffff;
-  --header-sub: #d6d6d6;
-  --primary: #f5f5f5;
-  --primary-ink: #f5f5f5;
-  --primary-soft: rgb(255 255 255 / 0.08);
-  --on-primary: #0a0a0a;
-  --red: #ff4d3d;
-  --red-ink: #ff6b5c;
-  --red-soft: rgb(255 77 61 / 0.15);
+  --header-sub: #ffffff;
+  --primary: #fb923c;
+  --primary-ink: #fdba74;
+  --primary-soft: rgb(251 146 60 / 0.12);
+  --on-primary: #1c1511;
+  --red: #fb923c;
+  --red-ink: #fdba74;
+  --red-soft: rgb(251 146 60 / 0.15);
   --good: #4ade80;
   --good-soft: rgb(74 222 128 / 0.12);
   --lock: rgb(255 255 255 / 0.06);
   --warn-ink: #fbbf5a;
   --warn-soft: rgb(251 191 90 / 0.12);
   --dg-fill: rgb(255 255 255 / 0.07);
-  --dg-focus: rgb(255 77 61 / 0.16);
-  --dg-bg: #19191c;
+  --dg-focus: rgb(251 146 60 / 0.18);
+  --dg-bg: #1a130f;
   --dg-stroke: rgb(255 255 255 / 0.2);
   --dg-line: rgb(255 255 255 / 0.4);
   --dg-shadow: rgb(0 0 0 / 0.45);
   --dg-frame: rgb(255 255 255 / 0.03);
-  --dg-dot: #f2f2f4;
+  --dg-dot: #f7efe8;
   color-scheme: dark;
-  --bg-glow: rgb(255 77 61 / 0.08);
+  --bg-glow: rgb(251 146 60 / 0.09);
   --bg-glow-2: transparent;
-  --glass: rgb(30 30 33 / 0.55);
-  --glass-dim: rgb(30 30 33 / 0.35);
-  --glass-bar: rgb(20 20 22 / 0.65);
-  --glass-tab: rgb(20 20 22 / 0.88);
+  --glass: rgb(36 27 21 / 0.55);
+  --glass-dim: rgb(36 27 21 / 0.35);
+  --glass-bar: rgb(24 18 14 / 0.7);
+  --glass-tab: rgb(24 18 14 / 0.9);
   --glass-edge: rgb(255 255 255 / 0.08);
   --glass-hi: rgb(255 255 255 / 0.04);
   --glass-shadow: 0 18px 44px rgb(0 0 0 / 0.4);
   --hairline: rgb(255 255 255 / 0.08);
   --control-line: rgb(255 255 255 / 0.22);
   --control-hover: rgb(255 255 255 / 0.08);
-  --panel: rgb(36 36 40 / 0.85);
-  --panel-edge: rgb(255 255 255 / 0.1);
+  --panel: rgb(154 52 18 / 0.92);
+  --panel-edge: rgb(255 255 255 / 0.12);
   --panel-shadow: 0 24px 48px rgb(0 0 0 / 0.45);
-  --glass-header: rgb(14 14 16 / 0.7);
+  --glass-header: rgb(18 13 10 / 0.72);
   --glass-header-ink: #ffffff;
-  --glass-header-sub: #c9c9c9;
-  --mark-bg: #ffffff;
-  --mark-ink: #0a0a0a;
+  --glass-header-sub: #d9cbc0;
+  --mark-bg: #e8590c;
+  --mark-ink: #ffffff;
+  --bg: #120d0a;
   --line: rgb(255 255 255 / 0.08);
-  --bg: #0b0b0c;
+  --red-fill: #cc4a0a;
+  --on-red: #ffffff;
+  --bad: #ff6b5c;
+  --bad-soft: rgb(255 107 92 / 0.14);
+  --panel-ink: #ffffff;
+  --panel-sub: rgb(255 255 255 / 0.86);
+  --mark-dot: #ffffff;
+  --on-dark-red: #fed7aa;
 }
 
 /* Clear glass is for the study portal only (decisions 2026-11-23). The knowledge base and the other pages outside it
-   (html[data-area="kb"]) keep the classic look: a plain white or black ground without the glow, solid hairlines, a
-   white logo square on the black header. The rules for its shapes are at the end of this file. */
+   (html[data-area="kb"]) keep the classic look: a plain white ground without the glow, solid hairlines, a white logo
+   square on the orange header. The rules for its shapes are at the end of this file. */
 :root[data-area="kb"] {
   --bg: #ffffff;
-  --line: #e6e6e6;
+  --line: #f0e4da;
   --bg-glow: transparent;
   --bg-glow-2: transparent;
   --mark-bg: #ffffff;
-  --mark-ink: #0a0a0a;
+  --mark-ink: #cc4a0a;
+  --mark-dot: #cc4a0a;
 }
 @media (prefers-color-scheme: dark) {
-  :root[data-area="kb"]:not([data-theme="light"]) { --bg: #0a0a0a; --line: #262626; }
+  :root[data-area="kb"]:not([data-theme="light"]) { --bg: #120d0a; --line: #2e241d; --mark-ink: #9a3412; --mark-dot: #9a3412; }
 }
-:root[data-area="kb"][data-theme="dark"] { --bg: #0a0a0a; --line: #262626; }
+:root[data-area="kb"][data-theme="dark"] { --bg: #120d0a; --line: #2e241d; --mark-ink: #9a3412; --mark-dot: #9a3412; }
 
 * { box-sizing: border-box; }
 
@@ -383,11 +406,11 @@ main { padding: 24px 0 64px; }
 .premise { font-size: 1.05rem; margin: 8px 0 0; }
 .result { border-radius: var(--radius-l); padding: 16px 20px; border: 3px solid var(--line); background: var(--surface); }
 .result[data-status="productive"] { border-color: var(--primary); }
-.result[data-status="sterile"] { border-color: var(--red); }
+.result[data-status="sterile"] { border-color: var(--bad); }
 .result[data-status="conditional"] { border-color: var(--warn-ink); }
 .result .verdict { font-family: var(--font-head); font-weight: 700; font-size: 1.15rem; margin: 0 0 6px; }
 .result[data-status="productive"] .verdict { color: var(--primary-ink); }
-.result[data-status="sterile"] .verdict { color: var(--red-ink); }
+.result[data-status="sterile"] .verdict { color: var(--bad); }
 .result[data-status="conditional"] .verdict { color: var(--warn-ink); }
 .result ul { margin: 6px 0 0; padding-inline-start: 20px; }
 
@@ -505,7 +528,7 @@ html { overflow-x: clip; }
 .quiz { list-style: none; padding: 0; margin: 20px 0 0; }
 .quiz .question + .question { margin-top: 14px; }
 .question[data-state="right"] { border-color: var(--good); }
-.question[data-state="wrong"] { border-color: var(--red); }
+.question[data-state="wrong"] { border-color: var(--bad); }
 .q-prompt { font-size: 1.08rem; font-weight: 700; margin: 6px 0 0; }
 .q-ar { font-size: 1.3rem; margin: 8px 0 0; color: var(--primary-ink); }
 .options { display: grid; gap: 8px; margin-top: 14px; }
@@ -516,14 +539,14 @@ html { overflow-x: clip; }
 .option-key > span { transform: rotate(-45deg); line-height: 1; }
 .option[data-state="right"] { border-color: var(--good); background: var(--good-soft); }
 .option[data-state="right"] .option-key { background: var(--good); border-color: var(--good); color: var(--surface); }
-.option[data-state="wrong"] { border-color: var(--red); background: var(--red-soft); }
-.option[data-state="wrong"] .option-key { background: var(--red-fill); border-color: var(--red-fill); color: var(--on-red); }
+.option[data-state="wrong"] { border-color: var(--bad); background: var(--bad-soft); }
+.option[data-state="wrong"] .option-key { background: var(--bad); border-color: var(--bad); color: var(--on-red); }
 .option:disabled:not([data-state]) { opacity: 0.6; }
 .feedback { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
 .feedback p { margin: 0 0 6px; }
 .verdict { font-weight: 700; }
 .question[data-state="right"] .verdict { color: var(--good); }
-.question[data-state="wrong"] .verdict { color: var(--red-ink); }
+.question[data-state="wrong"] .verdict { color: var(--bad); }
 .practice-end { margin-top: 20px; }
 .chapter-practice { display: inline-flex; align-items: center; gap: 8px; margin-top: 12px; font-weight: 700; text-decoration: none; color: var(--primary-ink); }
 .chapter-practice::before { content: ""; width: 10px; height: 10px; transform: rotate(45deg); border: 2px solid var(--primary); border-radius: 2px; }
@@ -823,7 +846,7 @@ a[data-lock]::after { content: ""; display: inline-block; width: 10px; height: 1
 .comments-actions .btn { min-width: 9rem; }
 .comments-actions .btn:disabled { cursor: progress; filter: grayscale(0.4); }
 .comments-form-status { margin: 0; flex: 1 1 14rem; font-size: 0.92rem; }
-.comments-form-status[data-kind="error"] { color: var(--red-ink); font-weight: 700; }
+.comments-form-status[data-kind="error"] { color: var(--bad); font-weight: 700; }
 .comments-form-status[data-kind="ok"] { font-weight: 700; }
 .comments-note { margin: 14px 0 0; font-size: 0.85rem; }
 @media (max-width: 560px) { .comments-actions .btn, .comments-out .btn { width: 100%; } }
@@ -1109,7 +1132,7 @@ html[lang="ar"] .level-card-ar, html[lang="ar"] .level-one-ar { display: none; }
 .kb-tabs { background: var(--header); border-top: 1px solid rgb(255 255 255 / 0.14); }
 .kb-tabs .kb-wrap { display: flex; flex-wrap: wrap; gap: 0 28px; }
 .kb-tabs a { color: var(--header-sub); text-decoration: none; padding: 14px 0; border-bottom: 3px solid transparent; font-size: 0.98rem; }
-.kb-tabs a[aria-current="true"], .kb-tabs a:hover { color: var(--header-ink); border-bottom-color: var(--red); }
+.kb-tabs a[aria-current="true"], .kb-tabs a:hover { color: var(--header-ink); border-bottom-color: var(--header-ink); }
 .kb-section { padding: 44px 0; border-bottom: 1px solid var(--line); }
 .kb-section:last-child { border-bottom: 0; }
 .kb-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-bottom: 2px solid var(--ink); padding-bottom: 12px; margin-bottom: 6px; }
@@ -1456,7 +1479,7 @@ html[data-madrasa] .madrasa-none { display: none; }
 .account-links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 18px 0 6px; }
 .account-links button { padding: 0; border: 0; background: none; color: var(--ink); font: inherit; font-weight: 700; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; cursor: pointer; }
 .account-links button[disabled] { color: var(--muted); cursor: default; }
-.account-links .account-danger { color: var(--red-ink); }
+.account-links .account-danger { color: var(--bad); }
 .account-links a { font-weight: 700; color: var(--ink); text-underline-offset: 4px; text-decoration-thickness: 1px; }
 .account-fine { margin: 10px 0; color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
 .account-stats { display: grid; grid-template-columns: 1fr 1fr; margin: 0 0 6px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); }
@@ -2033,3 +2056,16 @@ li[data-locked="1"] .g-name { color: var(--muted); }
 .tasrif-table caption { text-align: start; font-family: var(--font-head); font-weight: 700; padding: 6px 0; }
 .tasrif-table th, .tasrif-table td { padding: 4px 8px; border-block-start: 1px solid var(--line); text-align: start; font-weight: 400; }
 .tasrif-table td { font-size: 1.2rem; }
+
+/* "Oranje-wit" (decisions 2026-11-26): on an orange ground (the knowledge base's header, its panels, the current level)
+   the accent turns white: the main buttons, tiles and the current-item marks are white with orange text, so they
+   stand out from the orange instead of disappearing into it. */
+:root[data-area="kb"] .site-header,
+:is(.kb-hero, .kb-band, .kb-cta, .kb-aside-dark, .account-panel, .price-plan-full, .madrasa-card, .sub-panel, .level-card[data-state="current"]) {
+  --red: #ffffff;
+  --red-fill: #ffffff;
+  --on-red: var(--header);
+  --primary: #ffffff;
+  --on-primary: var(--header);
+  --red-soft: rgb(255 255 255 / 0.25);
+}

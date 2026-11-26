@@ -133,8 +133,8 @@ const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "l
     <script is:inline src={headSettingsScript}></script>
     <script is:inline src={`/${locale}/study-data.js?v=${studyData(locale).v}`}></script>
     <script is:inline src={headStudyScript}></script>
-    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#cc4a0a" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#120d0a" media="(prefers-color-scheme: dark)" />
     {(studyHere ? [atkinson400, atkinson700, bricolage700, atkinsonExt400, atkinsonItalic, atkinsonExtItalic] : [literata400, literata700, literataExt400, literataExt700]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
@@ -148,7 +148,7 @@ const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "l
       <div class="site-tabs">
         <div class="wrap wrap-wide">
           <a class="brand" href={`/${locale}/`}>
-            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 512 512" width="36" height="36"><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" fill="currentColor" fill-rule="evenodd" /><rect x="232" y="120" width="48" height="48" fill="var(--red)" /></g></svg></span>
+            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 512 512" width="36" height="36"><g transform="translate(0 10)"><path d="M150 200H194V328H318V200H362V372H150Z" fill="currentColor" fill-rule="evenodd" /><rect x="232" y="120" width="48" height="48" fill="var(--mark-dot)" /></g></svg></span>
             <span class="brand-latin">{SITE.name}</span>
           </a>
           <nav class="site-nav" aria-label={ui.nav.main}>

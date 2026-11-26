@@ -52,7 +52,7 @@ exists, the lessons follow its order and the page names it, but its text is not 
   explanation of each lesson: `explain/<n>.json` (schema `LessonExplain`: `body`, `examples` with `after`, an optional
   `diagram`, `terms`). No lesson should show only the book's text and its translation. A mixed commentary
   (`mixed: true`, sharḥ mamzūj, as most commentaries on the Ājurrūmiyya and the Alfiyya are) marks the matn's words
-  with {…} in the Arabic and every translation; pages show them in red bold.
+  with {…} in the Arabic and every translation; pages show them in orange bold.
 - **Primers** (`primers/<id>.json`, schema `Primer`; none yet): a book taught in our own lessons in the order of an
   edition: body, terms with Arabic, examples (each with `after`, the paragraph it is shown under), an optional
   `diagram`, a test (quiz ids `<id>-<n>-<k>`). Where a public-domain print exists (`textEdition`), each lesson carries
