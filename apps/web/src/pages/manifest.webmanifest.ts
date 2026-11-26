@@ -14,7 +14,7 @@ export const GET: APIRoute = () =>
         scope: "/",
         display: "standalone",
         background_color: "#ffffff",
-        theme_color: "#cc4a0a",
+        theme_color: "#143a63",
         categories: ["education", "books"],
         icons: [
           { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },

@@ -39,10 +39,10 @@ const homeBooks = [...KB_BOOKS].sort((a, b) => parseInt(a.died, 10) - parseInt(b
 const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filter((p) => p !== undefined).sort((a, b) => diedYear(a) - diedYear(b));
 ---
 
-<BaseLayout image="painted-arch-allah-kafi" title={SITE.name} description={ui.kb.home.lead} path="/" locale={locale} bleed jsonLd={[organization(), website(locale)]}>
+<BaseLayout image="stucco-medallion-blue" title={SITE.name} description={ui.kb.home.lead} path="/" locale={locale} bleed jsonLd={[organization(), website(locale)]}>
   <link slot="head" rel="alternate" type="application/rss+xml" title={ui.kb.news.feedTitle} href={`/${locale}/news/feed.xml`} />
 
-  <KbHero locale={locale} photo="painted-arch-allah-kafi" kicker={H.kicker} arabic="الصَّرْفُ وَالنَّحْوُ" title={H.title} sub={H.lead}>
+  <KbHero locale={locale} photo="stucco-medallion-blue" kicker={H.kicker} arabic="الصَّرْفُ وَالنَّحْوُ" title={H.title} sub={H.lead}>
     <form class="kb-search" role="search" data-kb-search>
       <label for="kb-q" class="visually-hidden">{H.search}</label>
       <input id="kb-q" type="search" placeholder={H.search} autocomplete="off" />

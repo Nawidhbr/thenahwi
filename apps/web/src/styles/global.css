@@ -1,8 +1,9 @@
-/* The Nahwi house style, "Oranje en lichtblauw" (decisions 2026-11-26): orange for structure and accent (the header,
-   the main panels and buttons, the current item), light blue for the soft surfaces (bands, the second menu row, the
-   ground of the study portal, chosen chips), white grounds and a deep blue-black ink for reading text. The tokens keep
-   their old names (--red, --on-dark-red, --header, --font-kufi): --red is the accent, now orange; --sky… are the light
-   blues; true red is --bad, for wrong answers and errors only. */
+/* The Nahwi house style, "Lapis en saffraan" (decisions 2026-11-26): deep lapis blue for the structure (the knowledge
+   base's header and main panels, the current level), saffron orange for the accent (the main buttons, the current item,
+   kickers), light blue for the soft surfaces (bands, the masters on the home page, the second menu row, the study
+   portal's ground), white grounds and a deep blue-black ink for reading text; the photos in black and white. The tokens
+   keep their old names (--red, --on-dark-red, --header, --font-kufi): --red is the accent, now orange; --sky… are the
+   light blues; true red is --bad, for wrong answers and errors only. */
 
 :root {
   --bg: #f4f9fd;
@@ -24,22 +25,22 @@
   --hairline: rgb(15 40 70 / 0.07);
   --control-line: rgb(15 40 70 / 0.18);
   --control-hover: rgb(56 160 220 / 0.08);
-  --panel: rgb(204 74 10 / 0.95);
+  --panel: rgb(20 58 99 / 0.96);
   --panel-ink: #ffffff;
-  --panel-sub: rgb(255 255 255 / 0.86);
-  --panel-edge: rgb(255 255 255 / 0.14);
-  --panel-shadow: 0 24px 48px rgb(204 74 10 / 0.26), inset 0 1px 0 rgb(255 255 255 / 0.18);
+  --panel-sub: rgb(255 255 255 / 0.85);
+  --panel-edge: rgb(255 255 255 / 0.1);
+  --panel-shadow: 0 24px 48px rgb(20 58 99 / 0.24), inset 0 1px 0 rgb(255 255 255 / 0.12);
   --red-glow: rgb(234 88 12 / 0.28);
   --red-ring: rgb(234 88 12 / 0.32);
   --red-halo: rgb(234 88 12 / 0.06);
   --glass-header: rgb(255 255 255 / 0.74);
   --glass-header-ink: #17212b;
   --glass-header-sub: #4a5866;
-  --mark-bg: #e8590c;
+  --mark-bg: #cc4a0a;
   --mark-ink: #ffffff;
-  --header: #cc4a0a;
+  --header: #143a63;
   --header-ink: #ffffff;
-  --header-sub: #ffffff;
+  --header-sub: #d6e6f3;
   --primary: #cc4a0a;
   --primary-ink: #b93d0b;
   --on-primary: #ffffff;
@@ -73,7 +74,7 @@
      face), whatever the typeface setting; reading text is Literata. */
   --font-kufi: "Baloo Bhaijaan 2", sans-serif;
   --font-kb: "Literata", Georgia, serif;
-  --on-dark-red: #ffffff;
+  --on-dark-red: #ffb27a;
   /* The colours of Google's "G", which its sign-in button must keep (account page). */
   --google-blue: #4285f4;
   --google-red: #ea4335;
@@ -108,9 +109,9 @@
     --ink: #eef4f9;
     --muted: #9fb1c1;
     --line: rgb(255 255 255 / 0.08);
-    --header: #9a3412;
+    --header: #163c66;
     --header-ink: #ffffff;
-    --header-sub: #ffffff;
+    --header-sub: #d6e6f3;
     --primary: #fb923c;
     --primary-ink: #fdba74;
     --primary-soft: rgb(143 208 245 / 0.1);
@@ -143,13 +144,13 @@
     --hairline: rgb(255 255 255 / 0.08);
     --control-line: rgb(255 255 255 / 0.22);
     --control-hover: rgb(255 255 255 / 0.08);
-    --panel: rgb(154 52 18 / 0.92);
+    --panel: rgb(22 60 102 / 0.94);
     --panel-edge: rgb(255 255 255 / 0.12);
     --panel-shadow: 0 24px 48px rgb(0 0 0 / 0.45);
     --glass-header: rgb(12 21 32 / 0.72);
     --glass-header-ink: #ffffff;
     --glass-header-sub: #c3d2df;
-    --mark-bg: #e8590c;
+    --mark-bg: #cc4a0a;
     --mark-ink: #ffffff;
     color-scheme: dark;
   --red-fill: #cc4a0a;
@@ -159,9 +160,9 @@
   --panel-ink: #ffffff;
   --panel-sub: rgb(255 255 255 / 0.86);
   --mark-dot: #ffffff;
-  --on-dark-red: #fed7aa;
+  --on-dark-red: #ffb27a;
     --sky: #8fd0f5;
-    --sky-soft: #17324a;
+    --sky-soft: #122a40;
     --sky-ink: #bfe3f8;
 
   }
@@ -171,9 +172,9 @@
   --surface: #132232;
   --ink: #eef4f9;
   --muted: #9fb1c1;
-  --header: #9a3412;
+  --header: #163c66;
   --header-ink: #ffffff;
-  --header-sub: #ffffff;
+  --header-sub: #d6e6f3;
   --primary: #fb923c;
   --primary-ink: #fdba74;
   --primary-soft: rgb(143 208 245 / 0.1);
@@ -195,7 +196,7 @@
   --dg-frame: rgb(255 255 255 / 0.03);
   --dg-dot: #eef4f9;
   --sky: #8fd0f5;
-  --sky-soft: #17324a;
+  --sky-soft: #122a40;
   --sky-ink: #bfe3f8;
   color-scheme: dark;
   --bg-glow: rgb(251 146 60 / 0.08);
@@ -210,13 +211,13 @@
   --hairline: rgb(255 255 255 / 0.08);
   --control-line: rgb(255 255 255 / 0.22);
   --control-hover: rgb(255 255 255 / 0.08);
-  --panel: rgb(154 52 18 / 0.92);
+  --panel: rgb(22 60 102 / 0.94);
   --panel-edge: rgb(255 255 255 / 0.12);
   --panel-shadow: 0 24px 48px rgb(0 0 0 / 0.45);
   --glass-header: rgb(12 21 32 / 0.72);
   --glass-header-ink: #ffffff;
   --glass-header-sub: #c3d2df;
-  --mark-bg: #e8590c;
+  --mark-bg: #cc4a0a;
   --mark-ink: #ffffff;
   --bg: #0c1520;
   --line: rgb(255 255 255 / 0.08);
@@ -227,25 +228,25 @@
   --panel-ink: #ffffff;
   --panel-sub: rgb(255 255 255 / 0.86);
   --mark-dot: #ffffff;
-  --on-dark-red: #fed7aa;
+  --on-dark-red: #ffb27a;
 }
 
 /* Clear glass is for the study portal only (decisions 2026-11-23). The knowledge base and the other pages outside it
    (html[data-area="kb"]) keep the classic look: a plain white ground without the glow, solid hairlines, a white logo
-   square on the orange header. The rules for its shapes are at the end of this file. */
+   tile on the lapis header. The rules for its shapes are at the end of this file. */
 :root[data-area="kb"] {
   --bg: #ffffff;
   --line: #dbe9f3;
   --bg-glow: transparent;
   --bg-glow-2: transparent;
-  --mark-bg: #ffffff;
-  --mark-ink: #cc4a0a;
-  --mark-dot: #cc4a0a;
+  --mark-bg: #cc4a0a;
+  --mark-ink: #ffffff;
+  --mark-dot: #ffffff;
 }
 @media (prefers-color-scheme: dark) {
-  :root[data-area="kb"]:not([data-theme="light"]) { --bg: #0c1520; --line: #22374b; --mark-ink: #9a3412; --mark-dot: #9a3412; }
+  :root[data-area="kb"]:not([data-theme="light"]) { --bg: #0c1520; --line: #22374b; }
 }
-:root[data-area="kb"][data-theme="dark"] { --bg: #0c1520; --line: #22374b; --mark-ink: #9a3412; --mark-dot: #9a3412; }
+:root[data-area="kb"][data-theme="dark"] { --bg: #0c1520; --line: #22374b; }
 
 * { box-sizing: border-box; }
 
@@ -1113,7 +1114,7 @@ a.level-card:hover { border-color: var(--primary); }
 .person h3 { margin-top: 6px; }
 html[lang="ar"] .level-card-ar, html[lang="ar"] .level-one-ar { display: none; }
 
-/* ===== Knowledge base ("Split" design): orange and light-blue panels beside the photos, Literata text, Arabic titles in the site face. ===== */
+/* ===== Knowledge base ("Split" design): lapis and light-blue panels beside the photos, Literata text, Arabic titles in the site face. ===== */
 .kb { font-family: var(--font-kb); }
 .kb h1, .kb h2, .kb h3 { font-family: var(--font-kb); font-weight: 700; letter-spacing: 0; }
 .kufi { font-family: var(--font-kufi); font-weight: 700; direction: rtl; unicode-bidi: isolate; line-height: 1.45; }
@@ -2068,21 +2069,24 @@ li[data-locked="1"] .g-name { color: var(--muted); }
 .tasrif-table th, .tasrif-table td { padding: 4px 8px; border-block-start: 1px solid var(--line); text-align: start; font-weight: 400; }
 .tasrif-table td { font-size: 1.2rem; }
 
-/* "Oranje-wit" (decisions 2026-11-26): on an orange ground (the knowledge base's header, its panels, the current level)
-   the accent turns white: the main buttons, tiles and the current-item marks are white with orange text, so they
-   stand out from the orange instead of disappearing into it. */
+/* "Lapis en saffraan" (decisions 2026-11-26): on a lapis ground (the knowledge base's header, its hero, the handbooks on
+   the home page, the account and price panels, the madrasa cards, the current level) the accent is a lighter saffron
+   for text and marks (6.5:1), while buttons keep the saffron fill with white text (4.6:1). */
 :root[data-area="kb"] .site-header,
-:is(.kb-hero, .kb-aside-dark, .account-panel, .price-plan-full, .madrasa-card, .sub-panel, .level-card[data-state="current"]) {
-  --red: #ffffff;
-  --red-fill: #ffffff;
-  --on-red: var(--header);
+:is(.kb-hero, .kb-aside-dark, .account-panel, .price-hero, .price-plan-full, .madrasa-card, .sub-panel, .level-card[data-state="current"], .home-books) {
+  --red: #ffb27a;
+  --red-ink: #ffb27a;
+  --red-fill: #cc4a0a;
+  --on-red: #ffffff;
   --primary: #ffffff;
-  --on-primary: var(--header);
-  --red-soft: rgb(255 255 255 / 0.25);
+  --on-primary: #143a63;
+  --red-soft: rgb(255 255 255 / 0.18);
 }
+/* The second menu row of the knowledge base is light blue: its label and current tab keep the darker saffron. */
+:root[data-area="kb"] .study-nav { --red: #b93d0b; --red-ink: #b93d0b; }
 
-/* Light blue beside the orange: the bands of the knowledge base (curricula, the way into the study portal) and the
-   masters beside the orange handbooks on the home page are light-blue panels with ink text and the orange accent. */
+/* Light blue beside the lapis: the bands of the knowledge base (curricula, the way into the study portal) and the
+   masters beside the handbooks on the home page are light-blue panels with ink text and the saffron accent. */
 :is(.kb-band, .kb-cta, .home-masters) {
   --header: var(--sky-soft);
   --header-ink: var(--ink);
@@ -2090,3 +2094,7 @@ li[data-locked="1"] .g-name { color: var(--muted); }
   --on-dark-red: var(--red-ink);
 }
 .home-masters { background: var(--sky-soft); }
+.home-split-more a { color: var(--red-ink); }
+
+/* The photos in black and white, a little more contrast so the inscriptions stay clear (decisions 2026-11-26). */
+picture img { filter: grayscale(1) contrast(1.12); }
