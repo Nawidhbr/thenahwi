@@ -8,6 +8,14 @@ to be made for The Nahwi. Until then the site builds and passes `npm run check` 
 Work through the list in order: each step names what it unlocks and where the code waits for it. Tick a step off here
 and correct `docs/operations.md` when it is done.
 
+**Done (26 November 2026):** step 2 (the repository `Nawidhbr/thenahwi`), step 4 (the Vercel project `thenahwi` in
+nawidhbr's projects, root `./`, `SITE_URL` and `INDEXING=on`), the domain part of step 3 (thenahwi.com at Yourname:
+`A @ 216.150.1.1`, `CNAME www` to Vercel, the parking record removed; www redirects 308 to thenahwi.com) and step 5
+except Bing (Search Console: domain property added, TXT record to verify; the IndexNow schedule is on). Still open in
+step 3: the mailboxes info@ and login@ (the contact form falls back to e-mail until Resend is set up, so info@ must
+exist). Vercel Web Analytics is not enabled yet: the page loads its script, which answers 404 until it is (project →
+Analytics → Enable).
+
 ## What is off now, and where
 
 | Part | Off by | Turned on by |
@@ -18,8 +26,7 @@ and correct `docs/operations.md` when it is done.
 | Paywall and checkout | `PAYWALL`, `CHECKOUT` not set in Vercel; the Paddle ids in `config/pricing.json` are placeholders (`pri_replace_…`), the amounts The Mantiqi's | step 9 |
 | The gift window | `SUPPORT.donateUrl` empty | step 10 |
 | The iPhone app's purchases | `revenueCatKey` and `appStoreId` empty in `config/app.ts` | step 11 |
-| Indexing | `INDEXING` not set: every page is `noindex` | step 5 |
-| Scheduled workflows (uptime, IndexNow, news finder) | their `schedule:` lines commented out in `.github/workflows/` | steps 5, 14, 15 |
+| Scheduled workflows (uptime, news finder) | their `schedule:` lines commented out in `.github/workflows/` | steps 14, 15 |
 | The teacher on the About page, reviews | `TEACHER = null` in `config/about.ts`; `reviews.json` empty | step 1 |
 | Social links | `SITE.social` empty in `config/site.ts` | step 13 |
 | Languages other than English | no `src/i18n/<code>.json`, no `packages/content/i18n/<code>/` | step 16 |

@@ -4,9 +4,8 @@
 name: IndexNow
 
 on:
-  # Off until thenahwi.com is live and INDEXING is on (docs/setup-new-site.md): remove the # of the next two lines to turn it on.
-  # schedule:
-  #   - cron: "17 5 * * 2,6"
+  schedule:
+    - cron: "17 5 * * 2,6"
   workflow_dispatch:
 
 jobs:
