@@ -1,0 +1,37 @@
+{
+  "slug": "hal",
+  "name": "The state (ḥāl)",
+  "arabic": "الْحَالُ",
+  "transliteration": "al-ḥāl",
+  "alsoKnownAs": [
+    "hal",
+    "ḥāl",
+    "circumstantial accusative",
+    "state"
+  ],
+  "category": "accusatives",
+  "definition": "A noun in naṣb that tells the state of a person or thing at the time of the act.",
+  "body": [
+    "Jāʾa zaydun rākiban: Zayd came riding. The ḥāl answers 'in what state?'. Al-Ājurrūmiyya: it is always indefinite, comes only after a complete sentence, and the one whose state it tells (ṣāḥib al-ḥāl) is mostly definite.",
+    "It differs from the naʿt: al-rākibu after zaydun would describe Zayd always; rākiban tells only how he came."
+  ],
+  "examples": [
+    {
+      "arabic": "جَاءَ زَيْدٌ رَاكِبًا",
+      "text": "Zayd came riding."
+    },
+    {
+      "arabic": "لَقِيتُ عَبْدَ اللَّهِ رَاكِبًا",
+      "text": "I met ʿAbd Allāh riding (al-Ājurrūmiyya)."
+    }
+  ],
+  "related": [
+    "tamyiz",
+    "naat"
+  ],
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "alfiyya"
+  ]
+}

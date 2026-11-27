@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 
 // Every explanation of the site (the terms, the primer lessons, the commentary lessons) has a diagram, and every
 // diagram it uses, with its focus, has a caption of its own in the English dictionary, so that the red mark and the
-// words under the figure say the same thing (components/Diagram.astro).
+// words under the figure say the same thing (components/Diagram.astro); a lesson's own tree or table has its caption with it.
 const root = join(__dirname, "../../../packages/content");
 const read = (path: string) => JSON.parse(readFileSync(path, "utf8"));
 const caps: Record<string, string> = read(join(__dirname, "../src/i18n/en.json")).diagram.cap;
@@ -28,8 +28,9 @@ describe("diagrams in the explanations", () => {
     expect(uses.filter((u) => !u.diagram).map((u) => u.where)).toEqual([]);
   });
   it("every type and focus used has its own caption", () => {
+    // A lesson's own tree or table (LessonFigure.astro) carries its caption in the lesson itself.
     const missing = uses
-      .filter((u) => u.diagram)
+      .filter((u) => u.diagram && u.diagram.type !== "tree" && u.diagram.type !== "grid")
       .map((u) => `${u.diagram!.type}.${u.diagram!.focus ?? "all"}`)
       .filter((key) => !caps[key]);
     expect([...new Set(missing)]).toEqual([]);

@@ -25,6 +25,27 @@ fontButtons.forEach((b) =>
   }),
 );
 
+// The language of the translations under a book's passages (Translation.astro): English, or one the reader chose here
+// or beside a text (TextLanguage.astro); kept in this browser as "trlang".
+(() => {
+  const root = document.documentElement;
+  const selects = document.querySelectorAll("[data-trlang-select]");
+  const now = () => root.dataset.trlang || "en";
+  const sync = () => selects.forEach((el) => {
+    // A book that does not have the chosen language shows English: its own choice then reads English too.
+    el.value = [...el.options].some((o) => o.value === now()) ? now() : "en";
+  });
+  sync();
+  selects.forEach((el) =>
+    el.addEventListener("change", () => {
+      if (el.value === "en") delete root.dataset.trlang;
+      else root.dataset.trlang = el.value;
+      try { localStorage.setItem("trlang", el.value); } catch {}
+      sync();
+    }),
+  );
+})();
+
 const translitButton = document.getElementById("translit-toggle");
 const syncTranslit = () => translitButton?.setAttribute("aria-checked", String(document.documentElement.dataset.translit !== "off"));
 syncTranslit();

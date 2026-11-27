@@ -83,7 +83,8 @@ Read the document for an area before changing it, and correct it in the same com
   contact), but keep The Nahwi the name in front: it is the site people search for.
 - Add an entry to `src/config/updates.ts` whenever something a reader would notice goes live.
 - The Nahwi is for ṣarf and naḥw; balāgha may be added later only as their extension, as a bonus text
-  (`docs/decisions.md`). Ṣarf comes before naḥw, as in the madrasa. URLs stay `/<locale>/terms/<slug>/`.
+  (`docs/decisions.md`). Ṣarf comes first in al-Mabādiʾ; after it every level has a ṣarf lane and a naḥw lane side by
+  side, and each path keeps its tradition's order (`docs/content.md`). URLs stay `/<locale>/terms/<slug>/`.
 - Every example word or sentence in a lesson is fully vocalised, and every conjugated form shown comes from the
   engine or from a print, never typed by hand.
 

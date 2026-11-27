@@ -36,7 +36,17 @@
       "classic": "Amiri"
     },
     "hijri": "Hijri dates first",
-    "ah": "AH"
+    "ah": "AH",
+    "trLang": "Translation of the texts",
+    "trLangNote": "Under each passage of a book's original, where it is translated.",
+    "trLangs": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "ur": "اردو",
+      "fa": "فارسی",
+      "ar": "العربية"
+    }
   },
   "footer": {
     "draft": "{site} is in development. All explanations are drafts awaiting review by a qualified teacher of Arabic grammar.",
@@ -1141,7 +1151,10 @@
         "sound-weak": "Sound and weak",
         "derived": "Derived nouns",
         "irab": "Iʿrāb and bināʾ",
-        "sentence": "The sentence"
+        "sentence": "The sentence",
+        "governors": "Governors (ʿawāmil)",
+        "followers": "Followers (tawābiʿ)",
+        "accusatives": "Words in naṣb"
       },
       "pageTitle": "{name} ({transliteration}): meaning in Arabic grammar",
       "pageTitleShort": "{name}: meaning in Arabic grammar",
@@ -1214,7 +1227,7 @@
   },
   "madrasa": {
     "title": "Choose your madrasa",
-    "lead": "Three paths through ṣarf and naḥw, level by level, following the books that the great madrasas read. All three open with al-Mabādiʾ. Choose one to begin; you can change it at any time, and what you have passed stays passed.",
+    "lead": "Three paths through ṣarf and naḥw, level by level, following the books that the great madrasas read. All three open with al-Mabādiʾ; after it, every level has two lanes side by side, ṣarf and naḥw. Choose one to begin; you can change it at any time, and what you have passed stays passed.",
     "choose": "Choose this path",
     "chosen": "Your path",
     "none": "Choose a path above to see its levels.",
@@ -1227,19 +1240,19 @@
         "name": "Indian madrasa",
         "short": "Indian path",
         "arabic": "المَدْرَسَةُ الهِنْدِيَّة",
-        "lead": "The Dars-i Niẓāmī of Farangī Maḥall, Deoband, Barelī and Khayrābād: the Persian primers of ṣarf, Naḥw-i Mīr with the hundred governors, Hidāyat al-naḥw, then al-Kāfiya with Sharḥ Jāmī and al-Shāfiya."
+        "lead": "The Dars-i Niẓāmī of Farangī Maḥall, Deoband, Barelī and Khayrābād: Mīzān al-ṣarf beside Naḥw-i Mīr and the hundred governors, then Hidāyat al-naḥw, then al-Kāfiya with Sharḥ Jāmī and al-Shāfiya."
       },
       "ottoman": {
         "name": "Ottoman madrasa",
         "short": "Ottoman path",
         "arabic": "المَدْرَسَةُ العُثْمانِيَّة",
-        "lead": "The five books of ṣarf, from al-Amthila to Marāḥ al-arwāḥ, then Birgivī's al-ʿAwāmil and Iẓhār al-asrār and al-Kāfiya with Molla Câmî: the order of the Ottoman, Syrian and Kurdish madrasas."
+        "lead": "Ṣarf first, as in the Ottoman, Syrian and Kurdish madrasas: al-Amthila, Bināʾ al-afʿāl and al-Maqṣūd; then al-ʿIzzī and Marāḥ al-arwāḥ beside Birgivī's al-ʿAwāmil and Iẓhār al-asrār; then al-Kāfiya with Molla Câmî."
       },
       "north-african": {
         "name": "North-African madrasa",
         "short": "North-African path",
         "arabic": "المَدْرَسَةُ المَغارِبِيَّة",
-        "lead": "Al-Ājurrūmiyya, al-ʿIzzī with Lāmiyyat al-afʿāl, Qaṭr al-nadā and the Alfiyya with Ibn ʿAqīl: the grammar of al-Azhar, al-Qarawiyyīn, al-Zaytūna and the Mauritanian maḥāḍir."
+        "lead": "Naḥw first: al-Ājurrūmiyya; then Qaṭr al-nadā beside al-ʿIzzī and Lāmiyyat al-afʿāl; then the Alfiyya: the grammar of al-Azhar, al-Qarawiyyīn, al-Zaytūna and the Mauritanian maḥāḍir."
       }
     },
     "traditions": {
@@ -1262,90 +1275,161 @@
         "arabic": "المَبَادِئ",
         "lead": "The foundations of ṣarf and naḥw, term by term, free with an account: the word and its kinds, root and pattern, the tenses, iʿrāb and the sentence."
       },
-      "indian-2": {
-        "title": "Mīzān al-ṣarf and Munshaʿib",
-        "arabic": "مِيزَانُ الصَّرْف · مُنْشَعِب",
-        "lead": "The Persian primers of ṣarf of the Dars-i Niẓāmī: the scale faʿala, the bare and augmented patterns and their conjugation."
-      },
-      "indian-3": {
-        "title": "Naḥw-i Mīr and the hundred governors",
-        "arabic": "نَحْوِ مِير · مِائَةُ عَامِل",
-        "lead": "Al-Sayyid al-Sharīf al-Jurjānī's Persian primer of naḥw, with ʿAbd al-Qāhir al-Jurjānī's al-ʿAwāmil al-miʾa."
-      },
-      "indian-4": {
-        "title": "Hidāyat al-naḥw",
-        "arabic": "هِدَايَةُ النَّحْو",
-        "lead": "The Arabic handbook of naḥw read before al-Kāfiya in the Dars-i Niẓāmī."
-      },
-      "indian-5": {
-        "title": "al-Kāfiya with Sharḥ Jāmī",
-        "arabic": "الكَافِيَة · شَرْحُ جَامِي",
-        "lead": "Ibn al-Ḥājib's al-Kāfiya with Jāmī's al-Fawāʾid al-ḍiyāʾiyya, the summit of naḥw in the Indian madrasa."
-      },
-      "indian-6": {
-        "title": "al-Shāfiya",
-        "arabic": "الشَّافِيَة",
-        "lead": "Ibn al-Ḥājib's handbook of ṣarf, the summit of morphology."
-      },
       "ottoman-1": {
         "title": "al-Mabādiʾ",
         "arabic": "المَبَادِئ",
         "lead": "The foundations of ṣarf and naḥw, term by term, free with an account: the word and its kinds, root and pattern, the tenses, iʿrāb and the sentence."
-      },
-      "ottoman-2": {
-        "title": "al-Amthila and Bināʾ al-afʿāl",
-        "arabic": "الأَمْثِلَة · بِنَاءُ الأَفْعَال",
-        "lead": "Emsile and Binâ, the first books of the Ottoman madrasa: the conjugation of naṣara through every form, and the building of the verbs."
-      },
-      "ottoman-3": {
-        "title": "al-Maqṣūd and al-ʿIzzī",
-        "arabic": "المَقْصُود · العِزِّيّ",
-        "lead": "The patterns of the bare and augmented verb and their meanings, in al-Maqṣūd and al-Zanjānī's al-Taṣrīf."
-      },
-      "ottoman-4": {
-        "title": "Marāḥ al-arwāḥ",
-        "arabic": "مَرَاحُ الأَرْوَاح",
-        "lead": "The last and fullest of the five books of ṣarf, with the weak verbs."
-      },
-      "ottoman-5": {
-        "title": "al-ʿAwāmil and Iẓhār al-asrār",
-        "arabic": "العَوَامِل · إِظْهَارُ الأَسْرَار",
-        "lead": "Imām Birgivī's two books of naḥw: the governors, the governed and the states of iʿrāb."
-      },
-      "ottoman-6": {
-        "title": "al-Kāfiya with Molla Câmî",
-        "arabic": "الكَافِيَة · مُلَّا جَامِي",
-        "lead": "Ibn al-Ḥājib's al-Kāfiya with Jāmī's commentary, as read in the Ottoman madrasa."
       },
       "north-african-1": {
         "title": "al-Mabādiʾ",
         "arabic": "المَبَادِئ",
         "lead": "The foundations of ṣarf and naḥw, term by term, free with an account: the word and its kinds, root and pattern, the tenses, iʿrāb and the sentence."
       },
+      "indian-2": {
+        "title": "Mīzān al-ṣarf and Naḥw-i Mīr",
+        "arabic": "مِيزَانُ الصَّرْفِ · نَحْوِ مِير",
+        "lead": "The Persian primers of the Dars-i Niẓāmī, read in the first year side by side: the scale faʿala and the patterns of the verb; the parts of speech, iʿrāb and the sentence, with ʿAbd al-Qāhir al-Jurjānī's hundred governors."
+      },
+      "indian-3": {
+        "title": "Hidāyat al-naḥw",
+        "arabic": "هِدَايَةُ النَّحْوِ",
+        "lead": "The Arabic handbook of naḥw read before al-Kāfiya in the Dars-i Niẓāmī: the noun, the verb and the particle, with their iʿrāb, in the order of al-Kāfiya."
+      },
+      "indian-4": {
+        "title": "al-Kāfiya, Sharḥ Jāmī and al-Shāfiya",
+        "arabic": "الْكَافِيَةُ · شَرْحُ جَامِي · الشَّافِيَةُ",
+        "lead": "Ibn al-Ḥājib's two handbooks, the summits of naḥw and ṣarf, with Jāmī's commentary on al-Kāfiya."
+      },
+      "ottoman-2": {
+        "title": "al-Amthila, Bināʾ al-afʿāl and al-Maqṣūd",
+        "arabic": "الْأَمْثِلَةُ · الْبِنَاءُ · الْمَقْصُودُ",
+        "lead": "Emsile, Binâ and Maksûd, the first books of the Ottoman madrasa, all ṣarf: the forms of naṣara set out, the building of the verbs, and the patterns of the bare and augmented verb."
+      },
+      "ottoman-3": {
+        "title": "al-ʿIzzī, Marāḥ al-arwāḥ, al-ʿAwāmil and Iẓhār",
+        "arabic": "الْعِزِّيُّ · الْمَرَاحُ · الْعَوَامِلُ · الْإِظْهَارُ",
+        "lead": "Ṣarf goes on with al-ʿIzzī and Marāḥ al-arwāḥ, the weak verbs included; beside it naḥw begins, with Imām Birgivī's al-ʿAwāmil and Iẓhār al-asrār: the governors, the governed and iʿrāb."
+      },
+      "ottoman-4": {
+        "title": "al-Kāfiya with Molla Câmî",
+        "arabic": "الْكَافِيَةُ · مُلَّا جَامِي",
+        "lead": "Ibn al-Ḥājib's al-Kāfiya with Jāmī's commentary, as read in the Ottoman madrasa."
+      },
       "north-african-2": {
         "title": "al-Ājurrūmiyya",
-        "arabic": "الآجُرُّومِيَّة",
-        "lead": "Ibn Ājurrūm's short first book of naḥw, learnt by heart from the Maghrib to Java."
+        "arabic": "الْآجُرُّومِيَّةُ",
+        "lead": "Ibn Ājurrūm's short first book of naḥw, learnt by heart from the Maghrib to Java: speech, iʿrāb and its signs, the verbs, and the nouns in the nominative, accusative and genitive."
       },
       "north-african-3": {
-        "title": "al-ʿIzzī and Lāmiyyat al-afʿāl",
-        "arabic": "العِزِّيّ · لَامِيَّةُ الأَفْعَال",
-        "lead": "Al-Zanjānī's ṣarf with Ibn Mālik's poem on the verb."
+        "title": "Qaṭr al-nadā, al-ʿIzzī and Lāmiyyat al-afʿāl",
+        "arabic": "قَطْرُ النَّدَى · الْعِزِّيُّ · لَامِيَّةُ الْأَفْعَالِ",
+        "lead": "Ibn Hishām's intermediate naḥw beside the ṣarf of al-Zanjānī and Ibn Mālik's poem on the verb."
       },
       "north-african-4": {
-        "title": "Qaṭr al-nadā",
-        "arabic": "قَطْرُ النَّدَى",
-        "lead": "Ibn Hishām's intermediate naḥw, the step after al-Ājurrūmiyya."
-      },
-      "north-african-5": {
-        "title": "al-Alfiyya with Ibn ʿAqīl",
-        "arabic": "الأَلْفِيَّة · ابْنُ عَقِيل",
-        "lead": "Ibn Mālik's thousand verses with Ibn ʿAqīl's commentary, the summit of the path."
+        "title": "al-Alfiyya",
+        "arabic": "الْأَلْفِيَّةُ",
+        "lead": "Ibn Mālik's thousand verses, the summit of the path."
       }
     },
     "startWith": "Start: {name}",
-    "leadShort": "Three madrasa paths, read level by level. Pick the one whose books you want to read; you can change it at any time, and what you have passed stays passed.",
-    "change": "Change path"
+    "leadShort": "Three madrasa paths, read level by level, with ṣarf and naḥw side by side. Pick the one whose books you want to read; you can change it at any time, and what you have passed stays passed.",
+    "change": "Change path",
+    "stages": {
+      "foundations": "Foundations",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "levelStage": "Level {n} · {stage}",
+    "lanes": {
+      "sarf": {
+        "name": "Ṣarf",
+        "arabic": "الصَّرْفُ",
+        "lead": "morphology: the forms of the word"
+      },
+      "nahw": {
+        "name": "Naḥw",
+        "arabic": "النَّحْوُ",
+        "lead": "syntax: the endings and the sentence"
+      }
+    },
+    "laneNone": "No book of {lane} on this level.",
+    "laneOrder": "The two lanes are read side by side; in each, one book after the other.",
+    "soonBooks": {
+      "mizan": {
+        "title": "Mīzān al-ṣarf",
+        "arabic": "مِيزَانُ الصَّرْفِ"
+      },
+      "nahwmir": {
+        "title": "Naḥw-i Mīr",
+        "arabic": "نَحْوِ مِير"
+      },
+      "awamilmia": {
+        "title": "al-ʿAwāmil al-miʾa",
+        "arabic": "الْعَوَامِلُ الْمِائَةُ"
+      },
+      "hidaya": {
+        "title": "Hidāyat al-naḥw",
+        "arabic": "هِدَايَةُ النَّحْوِ"
+      },
+      "shafiya": {
+        "title": "al-Shāfiya",
+        "arabic": "الشَّافِيَةُ"
+      },
+      "kafiya": {
+        "title": "al-Kāfiya",
+        "arabic": "الْكَافِيَةُ"
+      },
+      "jami": {
+        "title": "Sharḥ Jāmī (Molla Câmî)",
+        "arabic": "الْفَوَائِدُ الضِّيَائِيَّةُ"
+      },
+      "amthila": {
+        "title": "al-Amthila (Emsile)",
+        "arabic": "الْأَمْثِلَةُ الْمُخْتَلِفَةُ"
+      },
+      "bina": {
+        "title": "Bināʾ al-afʿāl (Binâ)",
+        "arabic": "بِنَاءُ الْأَفْعَالِ"
+      },
+      "maqsud": {
+        "title": "al-Maqṣūd (Maksûd)",
+        "arabic": "الْمَقْصُودُ"
+      },
+      "izzi": {
+        "title": "al-ʿIzzī",
+        "arabic": "التَّصْرِيفُ الْعِزِّيُّ"
+      },
+      "marah": {
+        "title": "Marāḥ al-arwāḥ",
+        "arabic": "مَرَاحُ الْأَرْوَاحِ"
+      },
+      "awamil": {
+        "title": "al-ʿAwāmil (Avâmil)",
+        "arabic": "الْعَوَامِلُ الْجَدِيدَةُ"
+      },
+      "izhar": {
+        "title": "Iẓhār al-asrār",
+        "arabic": "إِظْهَارُ الْأَسْرَارِ"
+      },
+      "ajurrumiyya": {
+        "title": "al-Ājurrūmiyya",
+        "arabic": "الْآجُرُّومِيَّةُ"
+      },
+      "lamiyya": {
+        "title": "Lāmiyyat al-afʿāl",
+        "arabic": "لَامِيَّةُ الْأَفْعَالِ"
+      },
+      "qatr": {
+        "title": "Qaṭr al-nadā",
+        "arabic": "قَطْرُ النَّدَى"
+      },
+      "alfiyya": {
+        "title": "al-Alfiyya",
+        "arabic": "الْأَلْفِيَّةُ"
+      }
+    },
+    "laneStarts": "{lane} begins on level {n}."
   },
   "primer": {
     "theLesson": "The lesson",
@@ -1393,7 +1477,11 @@
     "copyTranslation": "Copy translation",
     "aiNote": "Translated with the help of AI and not yet checked. The original text is what counts: always read and quote the original.",
     "courseTitle": "{book}: a course in Arabic grammar",
-    "courseTitleJurjani": "{book} of al-Jurjānī: a course in Arabic grammar"
+    "courseTitleJurjani": "{book} of al-Jurjānī: a course in Arabic grammar",
+    "tasks": "Exercises",
+    "tasksIntro": "Do these in writing first, then open the model answer.",
+    "showAnswer": "Model answer",
+    "trChoose": "Translation"
   },
   "source": {
     "title": "About this text",
@@ -1422,7 +1510,9 @@
     "quoted": "passages quoted in the lessons, transcribed by The Nahwi from this print (the whole text is not reproduced)",
     "lessonsAfter": "The lessons are The Nahwi's own explanations of the text, following {author}; his words are quoted where they matter most.",
     "shortQuoted": "Our own lessons with quotations from the print of {edition} · translation by The Nahwi, draft",
-    "ownCourse": "The Nahwi's own course on the foundations of ṣarf and naḥw, drawing on the classic primers; no original text is shown."
+    "ownCourse": "The Nahwi's own course on the foundations of ṣarf and naḥw, drawing on the classic primers; no original text is shown.",
+    "translationLanguages": "The Nahwi's own, from the {language} original: into {languages}. Choose the language under the passages.",
+    "and": "and"
   },
   "contact": {
     "title": "Contact",

@@ -1,0 +1,30 @@
+---
+/**
+ * One card of the study portal's levels (pages/[locale]/study/index.astro): al-Mabādiʾ, a book of a lane, or a book in
+ * preparation. scripts/study-levels.js gives it its state (current, done, locked) from the reader's scores and opens a
+ * small window for a locked card or one in preparation.
+ */
+import type { UI } from "../../i18n";
+interface Props {
+  c: { label: string; title: string; arabic: string; lead: string; href: string; kind: string; books: string[]; count: string; soon: boolean; prev: string };
+  ui: UI;
+  previews: string[];
+}
+const { c, ui, previews } = Astro.props;
+const Tag = c.soon ? "div" : "a";
+---
+
+<Tag class="card level-card" href={c.soon ? undefined : c.href} data-level-card={c.label} data-prev={c.prev || undefined} data-kind={c.kind} data-books={c.books.join(",")} data-soon={c.soon ? "" : undefined} data-previews={c.prev ? JSON.stringify(previews) : undefined} tabindex={c.soon ? 0 : undefined} role={c.soon ? "button" : undefined}>
+  <span class="tile-wrap" aria-hidden="true">
+    <span class={c.label.length > 2 ? "tile tile-filled tile-sub" : "tile tile-filled"}><span>{c.label}</span></span>
+  </span>
+  <span class="level-card-body">
+    <strong class="level-card-title">{c.title}</strong>
+    {c.arabic && <span class="ar level-card-ar" lang="ar">{c.arabic}</span>}
+    {c.lead && <span class="level-card-lead">{c.lead}</span>}
+    <span class="level-card-meta muted">
+      {c.soon ? ui.home.levelSoon : c.count}
+      <span data-level-state hidden></span>
+    </span>
+  </span>
+</Tag>

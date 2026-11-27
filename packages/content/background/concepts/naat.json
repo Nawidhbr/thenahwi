@@ -1,0 +1,43 @@
+{
+  "slug": "naat",
+  "name": "The description (naʿt)",
+  "arabic": "النَّعْتُ",
+  "transliteration": "al-naʿt",
+  "alsoKnownAs": [
+    "naat",
+    "naʿt",
+    "ṣifa",
+    "adjective",
+    "attribute"
+  ],
+  "category": "followers",
+  "definition": "A follower that describes the noun before it and agrees with it in rafʿ, naṣb and jarr and in being definite or indefinite.",
+  "body": [
+    "The naʿt is the first of the four followers (tawābiʿ): words with no iʿrāb of their own, which take the case of the word they follow. Zaydun al-ʿāqilu, the sensible Zayd: al-ʿāqilu follows zaydun in rafʿ and in being definite.",
+    "Al-Ājurrūmiyya's three examples show it following through all three cases of the noun."
+  ],
+  "examples": [
+    {
+      "arabic": "قَامَ زَيْدٌ الْعَاقِلُ",
+      "text": "Sensible Zayd stood."
+    },
+    {
+      "arabic": "رَأَيْتُ زَيْدًا الْعَاقِلَ",
+      "text": "I saw sensible Zayd."
+    },
+    {
+      "arabic": "مَرَرْتُ بِزَيْدٍ الْعَاقِلِ",
+      "text": "I passed by sensible Zayd (al-Ājurrūmiyya)."
+    }
+  ],
+  "related": [
+    "atf",
+    "tawkid",
+    "badal"
+  ],
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "alfiyya"
+  ]
+}

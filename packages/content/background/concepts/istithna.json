@@ -1,0 +1,37 @@
+{
+  "slug": "istithna",
+  "name": "Exception (istithnāʾ)",
+  "arabic": "الِاسْتِثْنَاءُ",
+  "transliteration": "al-istithnāʾ",
+  "alsoKnownAs": [
+    "istithna",
+    "istithnāʾ",
+    "exception",
+    "illā"
+  ],
+  "category": "accusatives",
+  "definition": "Taking a word out of what was said of the rest, with illā or its sisters; the word taken out is the mustathnā.",
+  "body": [
+    "After illā in a complete, affirmative sentence the mustathnā is in naṣb: qāma al-qawmu illā zaydan. In a complete, negative sentence it may follow as a badal or be in naṣb: mā qāma aḥadun illā zaydun / zaydan. In an incomplete sentence it takes whatever case the governor gives: mā qāma illā zaydun.",
+    "After ghayr, siwā, suwā and sawāʾ it is in jarr; after khalā, ʿadā and ḥāshā either naṣb or jarr."
+  ],
+  "examples": [
+    {
+      "arabic": "قَامَ الْقَوْمُ إِلَّا زَيْدًا",
+      "text": "The people stood except Zayd."
+    },
+    {
+      "arabic": "مَا قَامَ إِلَّا زَيْدٌ",
+      "text": "None stood but Zayd (al-Ājurrūmiyya)."
+    }
+  ],
+  "related": [
+    "badal",
+    "amil"
+  ],
+  "books": [
+    "ajurrumiyya",
+    "qatr",
+    "alfiyya"
+  ]
+}

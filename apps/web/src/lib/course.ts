@@ -1,5 +1,5 @@
 import { getLibrary, getPrimers, getQuiz, getTerms, getTracks, type Chapter, type Commentary, type Lesson, type Primer } from "@nahwi/content";
-import { MADRASAS } from "../config/madrasas";
+import { MADRASAS, levelCourses, type MadrasaLevel } from "../config/madrasas";
 
 /**
  * The study path. Terms open one at a time: first every term of the first
@@ -104,12 +104,11 @@ export function levelNumber(ui: LevelUi, d: number, sub?: number): string {
   return ui.madrasa.subLevel.replace("{n}", String(d)).replace("{k}", letters[sub] ?? String(sub + 1));
 }
 
-/** A book's place inside a level of its path that holds several books (al-Jurjānī's Ṣughrā, then Kubrā), from 0; none for a book alone on its level. */
+/** A book's place inside a level of its path that holds several courses (the ṣarf lane first, then the naḥw lane), from 0; none for a book alone on its level. */
 export function subOf(id: string, m: string): number | undefined {
-  const lv = MADRASAS.find((x) => x.id === m)?.levels.find((l) => l.primers?.includes(id) || l.books?.includes(id));
+  const lv = MADRASAS.find((x) => x.id === m)?.levels.find((l) => levelCourses(l).some((c) => c.id === id));
   if (!lv) return undefined;
-  const have = new Set([...primers().map((p) => p.id), ...tracks().map((x) => x.book.id)]);
-  const items = [...(lv.primers ?? []), ...(lv.books ?? [])].filter((x) => have.has(x));
+  const items = levelCourses(lv).map((c) => c.id);
   return items.length > 1 ? items.indexOf(id) : undefined;
 }
 
@@ -122,23 +121,36 @@ function placeOf(id: string): { d: number; a: string[]; m: string; ap?: Record<s
   return all.length > 1 ? { ...own, ap: Object.fromEntries(all.map((p) => [p.m, p.a])) } : own;
 }
 
+/**
+ * What a book needs first on one path (the rule of curriculum.json): the book before it in its lane of the same
+ * level; for the first book of a lane, every course of the level before (the first reading as "terms"), going back
+ * over levels that are still only in preparation; nothing on the path's first level. Exported for the tests.
+ */
+export function needsOn(levels: MadrasaLevel[], id: string): { d: number; a: string[] } | null {
+  const k = levels.findIndex((lv) => (id === "mabadi" && lv.terms) || levelCourses(lv).some((c) => c.id === id));
+  if (k === -1) return null;
+  const lv = levels[k];
+  if (id !== "mabadi") {
+    const courses = levelCourses(lv);
+    const subject = courses.find((c) => c.id === id)?.subject;
+    const lane = courses.filter((c) => c.subject === subject);
+    const at = lane.findIndex((c) => c.id === id);
+    if (at > 0) return { d: lv.n, a: [lane[at - 1].id] };
+  }
+  for (let j = k - 1; j >= 0; j--) {
+    const a = [...(levels[j].terms ? ["terms"] : []), ...levelCourses(levels[j]).map((c) => c.id)];
+    if (a.length) return { d: lv.n, a };
+  }
+  return { d: lv.n, a: [] };
+}
+
 /** Every place of a book in the madrasa paths (a book may stand on several, at different levels). */
 function placesOf(id: string): { d: number; a: string[]; m: string }[] {
-  const have = new Set([...primers().map((p) => p.id), ...tracks().map((x) => x.book.id)]);
   const home = primers().find((p) => p.id === id)?.madrasa;
   const out: { d: number; a: string[]; m: string }[] = [];
   for (const m of MADRASAS) {
-    const k = m.levels.findIndex((lv) => lv.primers?.includes(id) || lv.books?.includes(id) || (id === "mabadi" && lv.terms));
-    if (k === -1) continue;
-    const lv = m.levels[k];
-    // Inside a level of primers: the one before it in reading order.
-    const own = (lv.primers ?? []).filter((x) => have.has(x));
-    const at = own.indexOf(id);
-    if (at > 0) { out.push({ d: lv.n, a: [own[at - 1]], m: m.id }); continue; }
-    if (at === 0 && k === 0) { out.push({ d: lv.n, a: [], m: m.id }); continue; }
-    const prev = m.levels[k - 1];
-    const a = prev ? (prev.terms ? ["terms"] : [...(prev.primers ?? []), ...(prev.books ?? [])].filter((x) => have.has(x))) : [];
-    out.push({ d: lv.n, a, m: m.id });
+    const place = needsOn(m.levels, id);
+    if (place) out.push({ ...place, m: m.id });
   }
   return out.sort((x, y) => (x.m === home ? -1 : y.m === home ? 1 : 0));
 }
@@ -180,7 +192,7 @@ export function pathBooks(m: string): { id: string; title: string; level: number
   const path = MADRASAS.find((x) => x.id === m);
   if (!path) return [];
   const title = (id: string) => (id === "mabadi" ? "al-Mabādiʾ" : primers().find((p) => p.id === id)?.title ?? tracks().find((x) => x.book.id === id)?.book.title ?? id);
-  return path.levels.flatMap((l) => [...(l.terms ? ["mabadi"] : []), ...(l.primers ?? []), ...(l.books ?? [])].map((id) => ({ id, title: title(id), level: l.n })));
+  return path.levels.flatMap((l) => [...(l.terms ? ["mabadi"] : []), ...levelCourses(l).map((c) => c.id)].map((id) => ({ id, title: title(id), level: l.n })));
 }
 
 /** The page of a level: level 1 is al-Mabādiʾ's terms; a later level is the page of its book. */

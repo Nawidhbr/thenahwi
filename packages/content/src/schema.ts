@@ -28,6 +28,35 @@ export const DiagramType = z.enum([
 ]);
 export type DiagramType = z.infer<typeof DiagramType>;
 
+/**
+ * A diagram drawn from data in a lesson (apps/web/src/components/LessonFigure.astro): a division tree (`tree`: a
+ * label in English, its Arabic, up to three levels below it, at most six branches a node and twelve leaves in all),
+ * or a table (`grid`: Arabic forms or examples in rows, each form from the print or from the engine, never typed by
+ * hand). `focus` names the label of a tree node drawn in the accent colour.
+ */
+export type FigureTree = { label: string; ar?: string; children?: FigureTree[] };
+export const FigureTree: z.ZodType<FigureTree> = z.lazy(() =>
+  z.object({ label: z.string().min(1).max(28), ar: z.string().min(1).max(40).optional(), children: z.array(FigureTree).min(1).max(6).optional() }),
+);
+export const LessonDiagram = z
+  .object({
+    type: z.union([DiagramType, z.literal("tree"), z.literal("grid")]),
+    focus: z.string().optional(),
+    /** A caption under a tree or grid (the built-in diagrams have their own). */
+    caption: z.string().optional(),
+    after: z.number().int().min(0).optional(),
+    /** For type "tree". */
+    tree: FigureTree.optional(),
+    /** For type "grid": a caption, the column heads (English or Arabic) and the rows (Arabic cells vocalised). */
+    grid: z.object({ caption: z.string().optional(), head: z.array(z.string().min(1)).min(1).max(6), rows: z.array(z.array(z.string()).min(1).max(6)).min(1).max(16) }).optional(),
+  })
+  .refine((d) => (d.type === "tree") === Boolean(d.tree) && (d.type === "grid") === Boolean(d.grid), { message: "a tree diagram needs `tree`, a grid needs `grid`, and only they" });
+export type LessonDiagram = z.infer<typeof LessonDiagram>;
+
+/** An exercise to do in writing (a lesson's `tasks`): the task, any Arabic it is about, and a model answer shown on request. */
+export const LessonTask = z.object({ prompt: z.string().min(5), arabic: z.string().optional(), answer: z.string().min(1) });
+export type LessonTask = z.infer<typeof LessonTask>;
+
 const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "lowercase words joined by hyphens");
 
 export const Term = z.object({
@@ -392,7 +421,7 @@ export const BackgroundArticle = z.object({
  * definition and a short explanation. `term` names the lesson of the study path that teaches it, `books` the handbooks
  * of the knowledge base that treat it.
  */
-export const CONCEPT_CATEGORIES = ["foundations", "word", "root", "verb", "sound-weak", "derived", "irab", "sentence"] as const;
+export const CONCEPT_CATEGORIES = ["foundations", "word", "root", "verb", "sound-weak", "derived", "irab", "sentence", "governors", "followers", "accusatives"] as const;
 export const BackgroundConcept = z.object({
   slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   name: z.string().min(1),
@@ -500,8 +529,10 @@ export const PrimerLesson = z.object({
   terms: z.array(z.object({ arabic: z.string().min(1), transliteration: z.string().min(1), en: z.string().min(1) })).default([]),
   /** Examples, shown inside the explanation after paragraph `after` (0-based; the last paragraph if left out). */
   examples: z.array(z.object({ arabic: z.string().min(1), en: z.string().min(1), after: z.number().int().min(0).optional() })).default([]),
-  /** A diagram inside the explanation (apps/web/src/components/Diagram.astro), after paragraph `after` (the last if left out). */
-  diagram: z.object({ type: DiagramType, focus: z.string().optional(), after: z.number().int().min(0).optional() }).optional(),
+  /** A diagram inside the explanation (Diagram.astro, or a tree or grid of its own, LessonDiagram), after paragraph `after` (the last if left out). */
+  diagram: LessonDiagram.optional(),
+  /** Exercises to do in writing, each with a model answer (shown after the explanation, before the test). */
+  tasks: z.array(LessonTask).default([]),
   quiz: z.array(Exercise).min(3).max(16),
   /** How many of the quiz's questions one test asks (the rest are kept in reserve and rotate in on a retry). */
   ask: z.number().int().min(3).optional(),
@@ -512,14 +543,20 @@ export const Primer = z.object({
   id: z.string().regex(/^[a-z]+$/),
   title: z.string().min(1),
   arabicTitle: z.string().min(1),
+  /** The transliterated Arabic (or Persian) title. */
+  transliteration: z.string().optional(),
   author: z.string().min(1),
   authorArabic: z.string().min(1),
   authorSlug: z.string().optional(),
   died: z.string().optional(),
   /** The library entry (background/library.json) of the work. */
   library: z.string().optional(),
-  /** The madrasa path (config/madrasas.ts) whose first level this primer belongs to. */
+  /** The madrasa path (config/madrasas.ts) the primer belongs to first (curriculum.json may place it on others too). */
   madrasa: z.enum(["indian", "ottoman", "north-african"]),
+  /** The science it teaches: ṣarf or naḥw (the two lanes of every path). */
+  subject: Subject.optional(),
+  /** "beginner" or "intermediate" (or "advanced"): shown on the book's card. */
+  stage: z.enum(["beginner", "intermediate", "advanced"]).optional(),
   /** Reading order inside the level: 1 Ṣughrā, 2 Kubrā. */
   order: z.number().int().min(1),
   summary: z.string().min(1),
@@ -552,6 +589,7 @@ export const PrimerTranslation = z.object({
       terms: z.array(z.string().min(1)).optional(),
       examples: z.array(z.string().min(1)).optional(),
       text: z.array(z.string().min(1)).optional(),
+      tasks: z.array(z.object({ prompt: z.string().min(1), answer: z.string().min(1) })).optional(),
       quiz: z.array(z.object({ prompt: z.string().min(1), options: z.array(z.string().min(1)), explanation: z.string().min(1) })).optional(),
     }),
   ),
@@ -564,11 +602,20 @@ export type PrimerLesson = z.infer<typeof PrimerLesson>;
  * A book is named by id: "mabadi" (the al-Mabādiʾ term by term), a primer, or a book of commentaries/.
  */
 // The editing screen writes empty values ("", []) for what is left blank; they count as absent.
+const BookId = z.string().regex(/^[a-z][a-z0-9-]*$/);
+/**
+ * A level of a madrasa path. `books` are read by both sciences (al-Mabādiʾ); a later level has two lanes side by side,
+ * `sarf` and `nahw`, each in reading order, which may name books still in preparation (ids that are no course yet);
+ * `soon` is the older form of a level that is only in preparation. `stage` is the level's name on the cards.
+ */
 export const CurriculumLevel = z.object({
   n: z.number().int().min(1),
-  books: z.array(z.string().regex(/^[a-z][a-z0-9-]*$/)).optional(),
-  soon: z.union([z.literal(""), z.string().regex(/^[a-z][a-z0-9-]*$/)]).optional(),
-}).refine((l) => Boolean(l.books?.length) !== Boolean(l.soon), { message: "a level has either books or soon" });
+  stage: z.enum(["foundations", "beginner", "intermediate", "advanced"]).optional(),
+  books: z.array(BookId).optional(),
+  sarf: z.array(BookId).optional(),
+  nahw: z.array(BookId).optional(),
+  soon: z.union([z.literal(""), BookId]).optional(),
+}).refine((l) => Boolean(l.books?.length || l.sarf?.length || l.nahw?.length || l.soon), { message: "a level needs books, a lane or soon" });
 export const CurriculumPath = z.object({
   id: z.enum(["indian", "ottoman", "north-african"]),
   traditions: z.array(z.string()).min(1),

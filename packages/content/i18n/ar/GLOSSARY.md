@@ -1,0 +1,182 @@
+# Arabic glossary (ar)
+
+Arabic is the language of most of the books themselves, so an Arabic page shows the original without a translation
+(`docs/i18n.md`). This list fixes the Arabic of what The Nahwi writes in Arabic: the translations of the two Persian
+primers into Arabic (Mīzān al-ṣarf, Naḥw-i Mīr: `staging/<id>/translations/ar.json`, our translation, never presented
+as an original), and later the lessons, the terms and the interface. The running text uses the terms of column
+"العربية: in the text", fully vocalised. When the reader taps such a word, a pop-up gives a plain explanation (column
+"pop-up"; a dash: no pop-up). The pop-ups are in `packages/content/glossary/ar.json`; keep that file in step with
+this list. The concepts and their order follow the English source list, `packages/content/i18n/GLOSSARY.md`; the
+column "Persian of the books" gives the word of the Persian primers that each Arabic term renders.
+
+## Style
+
+- Classical madrasa Arabic, in the plain style of the short Arabic primers (al-Ājurrūmiyya, Hidāyat al-naḥw, Sharḥ
+  Miʾat ʿāmil): short sentences, the author's order, no paraphrase and no commentary. **Fully vocalised**: every
+  letter that takes a vowel, with tanwīn, shadda and hamzat al-waṣl written as in the books (ٱ not used: plain ا).
+  Standard Arabic letters: ي and ك, final ى only for alif maqṣūra (مَعْنًى، مُثَنًّى); no tatweel.
+- The Persian formulas of the primers are rendered by the formulas of the Arabic books:
+  - «بدان که …» → «اِعْلَمْ أَنَّ …»; «پس» → «فَـ» or «ثُمَّ»; «یعنی» → «أَيْ»; «چون» / «مثل» (as an example)
+    → «نَحْوُ» or «مِثْلُ»; «و آن» → «وَهُوَ / وَهِيَ»; «اين را … گویند» → «وَيُسَمَّى هٰذَا …»;
+  - «… بر دو قسم است» → «… عَلَى قِسْمَيْنِ» (or «… قِسْمَانِ»); «قسم اوّل» → «القِسْمُ الأَوَّلُ»;
+  - the Persian meanings given to Arabic forms («زد آن یک مرد در زمان گذشته») become a short Arabic gloss:
+    «ضَرَبَ: أَيْ ضَرَبَ رَجُلٌ وَاحِدٌ غَائِبٌ فِيمَا مَضَى».
+- Arabic examples and paradigms of the source are copied exactly, with their vowels; a Persian word quoted as Persian
+  (where the author compares with Persian) stays in Persian script, between «».
+- Proper names as the Arabic books write them: سِيبَوَيْهِ، ابْنُ مَالِكٍ، ابْنُ آجُرُّومَ، ابْنُ هِشَامٍ، عَبْدُ القَاهِرِ
+  الجُرْجَانِيُّ، السَّيِّدُ الشَّرِيفُ الجُرْجَانِيُّ، البِرْكِوِيُّ. Dates: “723هـ/1323م”; “d.” becomes “تُوُفِّيَ” or
+  “ت”.
+- Headings of the book are translated: «بَابُ الكَلَامِ»، «فَصْلٌ»، «فَصْلٌ فِي …».
+- **Reserved words**: a term is not used in a loose everyday sense: كَلِمَةٌ only for the word of the grammarians
+  (لَفْظٌ for an utterance in general); حَالٌ only for the ḥāl (شَأْنٌ، صُورَةٌ for a state in general); بَابٌ only for a
+  chapter and a conjugation class; صِفَةٌ only for the adjective (naʿt); خَبَرٌ only for the predicate.
+
+## Words
+
+### The two sciences and speech
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| Morphology (ṣarf) | علم صرف | عِلْمُ الصَّرْفِ (التَّصْرِيفِ) | عِلْمٌ بِأَبْنِيَةِ الكَلِمَةِ |
+| Syntax (naḥw) | علم نحو | عِلْمُ النَّحْوِ | عِلْمٌ بِأَوَاخِرِ الكَلِمِ إِعْرَابًا وَبِنَاءً |
+| The word | کلمه | الكَلِمَةُ | لَفْظٌ وُضِعَ لِمَعْنًى مُفْرَدٍ |
+| Speech | کلام | الكَلَامُ | — |
+| Utterance | لفظ | اللَّفْظُ | — |
+| Compound | مرکّب | المُرَكَّبُ | — |
+| Conveying a complete meaning | مفید | المُفِيدُ | — |
+| By convention | به وضع | بِالوَضْعِ | — |
+| Conjugation | گردان، صرف کردن | التَّصْرِيفُ؛ verb: صَرَّفَ يُصَرِّفُ | — |
+| A conjugation table | گردان، صرف صغیر / کبیر | الأَمْثِلَةُ؛ التَّصْرِيفُ الصَّغِيرُ / الكَبِيرُ | — |
+| Heard / by analogy | سماعی / قیاسی | سَمَاعِيٌّ / قِيَاسِيٌّ | — |
+
+### The kinds of word
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| The noun / verb / particle | اسم، فعل، حرف | الاسْمُ، الفِعْلُ، الحَرْفُ | — |
+| Sign | علامت، نشان | العَلَامَةُ | — |
+| Nunation | تنوین | التَّنْوِينُ | — |
+| The article al- | الف و لام | الأَلِفُ وَاللَّامُ (لَامُ التَّعْرِيفِ) | — |
+| The particles of jarr | حروف جرّ | حُرُوفُ الجَرِّ | — |
+| Definite / indefinite | معرفه / نکره | المَعْرِفَةُ / النَّكِرَةُ | — |
+| The pronoun | ضمیر | الضَّمِيرُ (المُضْمَرُ) | — |
+| The proper name | علم | العَلَمُ | — |
+| The demonstrative / the relative | اسم اشاره / اسم موصول | اسْمُ الإِشَارَةِ / الاسْمُ المَوْصُولُ | — |
+| Masculine / feminine | مذکّر / مؤنّث | المُذَكَّرُ / المُؤَنَّثُ | — |
+| Singular / dual / plural | واحد، مفرد / تثنیه / جمع | الوَاحِدُ (المُفْرَدُ) / التَّثْنِيَةُ (المُثَنَّى) / الجَمْعُ | — |
+| Sound masc. / fem. plural, broken plural | جمع مذکّر سالم … جمع مکسّر | جَمْعُ المُذَكَّرِ السَّالِمُ، جَمْعُ المُؤَنَّثِ السَّالِمُ، جَمْعُ التَّكْسِيرِ (المُكَسَّرُ) | — |
+| The five (six) nouns / five verbs | اسماء ستّه / افعال خمسه | الأَسْمَاءُ السِّتَّةُ (الخَمْسَةُ) / الأَفْعَالُ الخَمْسَةُ | — |
+| The diptote | غیر منصرف | غَيْرُ المُنْصَرِفِ (مَا لَا يَنْصَرِفُ) | — |
+
+### Root and pattern
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| The morphological scale | میزان، وزن | المِيزَانُ الصَّرْفِيُّ | — |
+| The bare / augmented form | مجرّد / مزید فیه | المُجَرَّدُ / المَزِيدُ فِيهِ | — |
+| Root / added letters | حروف اصلی / حروف زائد | الحُرُوفُ الأَصْلِيَّةُ / الحُرُوفُ الزَّائِدَةُ | — |
+| The fāʾ, ʿayn, lām of the verb | فاء کلمه، عین کلمه، لام کلمه | فَاءُ الفِعْلِ، عَيْنُ الفِعْلِ، لَامُ الفِعْلِ | — |
+| Triliteral / quadriliteral | ثلاثی / رباعی | الثُّلَاثِيُّ / الرُّبَاعِيُّ | — |
+| Conjugation class / pattern / form | باب / وزن / صیغه | البَابُ / الوَزْنُ / الصِّيغَةُ | — |
+| Vowel / vowelled / unvowelled | حرکت / متحرّک / ساکن | الحَرَكَةُ / المُتَحَرِّكُ / السَّاكِنُ | — |
+| Fatḥa, ḍamma, kasra, sukūn, shadda | زبر، پیش، زیر، جزم، تشدید | الفَتْحَةُ، الضَّمَّةُ، الكَسْرَةُ، السُّكُونُ، الشَّدَّةُ (التَّشْدِيدُ) | — |
+
+### The verb and its tenses
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| The past / present–future / imperative | ماضی / مضارع / امر | المَاضِي / المُضَارِعُ / الأَمْرُ (أَمْرُ الحَاضِرِ، أَمْرُ الغَائِبِ) | — |
+| The prohibition | نهی | النَّهْيُ | — |
+| The negation / negation of the past | نفی / جحد | النَّفْيُ / الجَحْدُ | — |
+| The question | استفهام | الاسْتِفْهَامُ | — |
+| Active / passive | معروف (معلوم) / مجهول | المَعْرُوفُ (المَعْلُومُ) / المَجْهُولُ | — |
+| Intransitive / transitive | لازم / متعدّی | اللَّازِمُ / المُتَعَدِّي | — |
+| Third / second / first person | غائب / حاضر (مخاطب) / متکلّم | الغَائِبُ / الحَاضِرُ (المُخَاطَبُ) / المُتَكَلِّمُ | — |
+| First person singular / plural | متکلّم وحده / متکلّم مع الغیر | المُتَكَلِّمُ وَحْدَهُ / المُتَكَلِّمُ مَعَ الغَيْرِ | — |
+| The prefixes of the muḍāriʿ | حروف اتین | حُرُوفُ المُضَارَعَةِ (أَتَيْنَ، أَنَيْتُ) | — |
+| The nūn of emphasis | نون تأکید ثقیله / خفیفه | نُونُ التَّوْكِيدِ الثَّقِيلَةُ / الخَفِيفَةُ | — |
+
+### Sound and weak
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| Sound / weak / wholly sound | صحیح / معتلّ / سالم | الصَّحِيحُ / المُعْتَلُّ / السَّالِمُ | — |
+| Doubled / with hamza | مضاعف / مهموز | المُضَاعَفُ / المَهْمُوزُ | — |
+| Mithāl / ajwaf / nāqiṣ | مثال / اجوف / ناقص | المِثَالُ / الأَجْوَفُ / النَّاقِصُ | — |
+| Lafīf, joined / separated | لفیف مقرون / مفروق | اللَّفِيفُ المَقْرُونُ / المَفْرُوقُ | — |
+| The weak letters | حروف علّت | حُرُوفُ العِلَّةِ | — |
+| Iʿlāl / idghām / ibdāl | تعلیل، اعلال / ادغام / ابدال | الإِعْلَالُ / الإِدْغَامُ / الإِبْدَالُ | — |
+| The seven kinds | هفت اقسام | الأَقْسَامُ السَّبْعَةُ (الأَبْوَابُ السَّبْعَةُ) | — |
+
+### Derived nouns
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| Maṣdar / active / passive participle | مصدر / اسم فاعل / اسم مفعول | المَصْدَرُ / اسْمُ الفَاعِلِ / اسْمُ المَفْعُولِ | — |
+| The derived noun / maṣdar mīmī | مشتق / مصدر میمی | المُشْتَقُّ / المَصْدَرُ المِيمِيُّ | — |
+| The adjective like the participle | صفت مشبّهه | الصِّفَةُ المُشَبَّهَةُ | — |
+| The elative | اسم تفضیل | اسْمُ التَّفْضِيلِ | — |
+| The noun of time / place | اسم ظرف (زمان، مکان) | اسْمُ الظَّرْفِ: اسْمُ الزَّمَانِ / اسْمُ المَكَانِ | — |
+| The noun of instrument | اسم آلت (آله) | اسْمُ الآلَةِ | — |
+| The intensive form | مبالغه | صِيغَةُ المُبَالَغَةِ | — |
+
+### Iʿrāb and bināʾ
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| Iʿrāb / bināʾ | اعراب / بنا | الإِعْرَابُ / البِنَاءُ | — |
+| Muʿrab / mabnī | معرب / مبنی | المُعْرَبُ / المَبْنِيُّ | — |
+| Rafʿ, naṣb, jarr, jazm | رفع، نصب، جرّ، جزم | الرَّفْعُ، النَّصْبُ، الجَرُّ، الجَزْمُ | — |
+| Marfūʿ, manṣūb, majrūr, majzūm | مرفوع، منصوب، مجرور، مجزوم | مَرْفُوعٌ، مَنْصُوبٌ، مَجْرُورٌ، مَجْزُومٌ | — |
+| The governor / the governed | عامل / معمول | العَامِلُ / المَعْمُولُ | — |
+| Verbal / abstract governor | عامل لفظی / معنوی | العَامِلُ اللَّفْظِيُّ / المَعْنَوِيُّ | — |
+| Dropping / implied / in the place of | حذف / تقدیر، تقدیری / محلّی | الحَذْفُ / التَّقْدِيرُ، تَقْدِيرًا / مَحَلًّا، فِي مَحَلِّ … | — |
+
+### The sentence
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| Sentence: nominal / verbal | جملهٔ اسمیّه / فعلیّه | الجُمْلَةُ الاسْمِيَّةُ / الفِعْلِيَّةُ | — |
+| Mubtadaʾ / khabar | مبتدا / خبر | المُبْتَدَأُ / الخَبَرُ | — |
+| Fāʿil / mafʿūl bihi / nāʾib al-fāʿil | فاعل / مفعول به / مفعول ما لم یسمّ فاعله | الفَاعِلُ / المَفْعُولُ بِهِ / نَائِبُ الفَاعِلِ (مَفْعُولُ مَا لَمْ يُسَمَّ فَاعِلُهُ) | — |
+| Condition / its answer | شرط / جزا | الشَّرْطُ / الجَزَاءُ | — |
+| Muḍāf / muḍāf ilayhi | مضاف / مضاف الیه | المُضَافُ / المُضَافُ إِلَيْهِ | — |
+
+### The governors (ʿawāmil)
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| Kāna and its sisters | افعال ناقصه | الأَفْعَالُ النَّاقِصَةُ (كَانَ وَأَخَوَاتُهَا) | — |
+| Inna and its sisters | حروف مشبّهه بالفعل | الحُرُوفُ المُشَبَّهَةُ بِالفِعْلِ (إِنَّ وَأَخَوَاتُهَا) | — |
+| Ẓanna and its sisters | افعال قلوب | أَفْعَالُ القُلُوبِ (ظَنَنْتُ وَأَخَوَاتُهَا) | — |
+| The lā that denies the kind | لای نفی جنس | لَا النَّافِيَةُ لِلْجِنْسِ | — |
+| Nawāṣib / jawāzim | نواصب / جوازم | النَّوَاصِبُ / الجَوَازِمُ | — |
+| Heard / analogical governors | عوامل سماعی / قیاسی | العَوَامِلُ السَّمَاعِيَّةُ / القِيَاسِيَّةُ | — |
+
+### The objects and other manṣūb nouns
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| Absolute object / adverb (mafʿūl fīhi) | مفعول مطلق / مفعول فیه | المَفْعُولُ المُطْلَقُ / المَفْعُولُ فِيهِ (الظَّرْفُ) | — |
+| Object of purpose / of accompaniment | مفعول له / مفعول معه | المَفْعُولُ لَهُ / المَفْعُولُ مَعَهُ | — |
+| Ḥāl / tamyīz | حال / تمییز | الحَالُ (ذُو الحَالِ) / التَّمْيِيزُ (المُمَيَّزُ) | — |
+| Exception / the excepted | استثنا / مستثنی | الاسْتِثْنَاءُ / المُسْتَثْنَى (المُسْتَثْنَى مِنْهُ) | — |
+| The vocative | منادی | المُنَادَى | — |
+
+### The followers (tawābiʿ)
+
+| English | Persian of the books | العربية: in the text | pop-up |
+|---|---|---|---|
+| The followers | توابع | التَّوَابِعُ | — |
+| Naʿt / ʿaṭf / tawkīd / badal | صفت، نعت / عطف / تأکید / بدل | النَّعْتُ (الصِّفَةُ) / العَطْفُ / التَّأْكِيدُ (التَّوْكِيدُ) / البَدَلُ | — |
+
+## Choices between competing terms
+
+- maʿrūf / maʿlūm: the Persian primers of the Indian path say معروف; the Arabic keeps المَعْرُوفُ for them.
+- ḥāḍir / mukhāṭab: the Persian primers say حاضر (امر حاضر); the Arabic keeps الحَاضِرُ in the names of the forms
+  (أَمْرُ الحَاضِرِ) and says المُخَاطَبُ in running text only where the book does.
+- jarr / khafḍ: the Persian primers say جرّ; the Arabic says الجَرُّ.
+- tawkīd / taʾkīd: the Arabic writes التَّأْكِيدُ where the Persian writes تأکید, التَّوْكِيدُ in the nūn of emphasis
+  (نُونُ التَّوْكِيدِ), as the books do.
+- The forms of a paradigm: صِيغَةُ الوَاحِدِ المُذَكَّرِ الغَائِبِ، التَّثْنِيَةُ المُذَكَّرُ الغَائِبُ، الجَمْعُ المُذَكَّرُ
+  الغَائِبُ … المُتَكَلِّمُ وَحْدَهُ، المُتَكَلِّمُ مَعَ الغَيْرِ.

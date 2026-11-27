@@ -1,0 +1,24 @@
+---
+import { t } from "../i18n";
+
+/**
+ * The choice of the language in which the passages of an original are translated (English, or Indonesian, Turkish,
+ * Urdu, Persian or Arabic where the book has them): the same setting as in the settings menu, kept in this browser
+ * (scripts/settings-menu.js, `[data-trlang-select]`). `codes` are the languages this book offers.
+ */
+interface Props {
+  locale: string;
+  codes: string[];
+}
+const { locale, codes } = Astro.props;
+const ui = t(locale);
+const names = ui.header.trLangs as Record<string, string>;
+const id = `trlang-${Math.random().toString(36).slice(2, 8)}`;
+---
+
+<p class="trlang-line">
+  <label for={id}>{ui.primer.trChoose}</label>
+  <select id={id} class="trlang-select" data-trlang-select>
+    {codes.map((c) => <option value={c} lang={c}>{names[c] ?? c}</option>)}
+  </select>
+</p>

@@ -6,6 +6,9 @@ try {
   // Transliteration, like the Arabic typeface, is a study-portal setting.
   if (document.documentElement.dataset.area === "study" && localStorage.getItem("translit") === "off") document.documentElement.dataset.translit = "off";
   if (localStorage.getItem("tashkil") === "off") document.documentElement.dataset.tashkil = "off";
+  // The language of the translations under the passages of a book (Translation.astro), if not English.
+  const trlang = localStorage.getItem("trlang");
+  if (["id", "tr", "ur", "fa", "ar"].includes(trlang)) document.documentElement.dataset.trlang = trlang;
   // Dates: Hijri first by default, Gregorian first if chosen (scripts/calendar.js).
   if (localStorage.getItem("cal") === "greg") document.documentElement.dataset.cal = "greg";
   // The Arabic typeface is a study-portal setting; the knowledge base keeps its own faces.

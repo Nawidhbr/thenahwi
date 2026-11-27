@@ -307,10 +307,11 @@ test("the glossary is free to read and finds a concept by its Arabic, its transl
   await page.goto("/en/glossary/");
   const shown = page.locator(".kb-people li:not([hidden])");
   const total = await shown.count();
+  // Other entries mention the maṣdar too (the absolute object): the verbal noun must be among what is found.
   await page.locator("[data-kb-filter]").fill("المصدر");
-  await expect(shown.first()).toContainText("The verbal noun");
+  await expect(shown.filter({ hasText: "The verbal noun" })).toHaveCount(1);
   await page.locator("[data-kb-filter]").fill("masdar");
-  await expect(shown.first()).toContainText("The verbal noun");
+  await expect(shown.filter({ hasText: "The verbal noun" })).toHaveCount(1);
   await page.locator("[data-kb-filter]").fill("");
   await page.locator('[data-facet="category"]').selectOption("sentence");
   expect(await shown.count()).toBeLessThan(total);

@@ -18,7 +18,7 @@ const { library, errors: libraryErrors, notes: libraryNotes } = loadLibrary(new 
 const { translations: libraryTranslations, errors: libraryTrErrors } = loadLibraryTranslations(library, TRANSLATION_LOCALES);
 const { primers, errors: primerErrors } = loadPrimers();
 const { translations: primerTranslations, errors: primerTrErrors, notes: primerTrNotes } = loadPrimerTranslations(primers);
-const { curriculum, errors: curriculumErrors } = loadCurriculum([{ id: "mabadi", kind: "first reading" }, ...primers.map((p) => ({ id: p.id, kind: "primer" })), ...commentaries.filter((c) => c.track).map((c) => ({ id: c.id, kind: "book" }))]);
+const { curriculum, errors: curriculumErrors } = loadCurriculum([{ id: "mabadi", kind: "first reading" }, ...primers.map((p) => ({ id: p.id, kind: "primer", subject: p.subject })), ...commentaries.filter((c) => c.track).map((c) => ({ id: c.id, kind: "book" }))]);
 const reviewKeys = new Set<string>([
   ...primers.flatMap((p) => p.parts.flatMap((part) => part.lessons.map((l) => `${p.id}-${l.n}`))),
   ...commentaries.filter((c) => c.track).flatMap((c) => c.lessons.map((l) => l.id)),

@@ -6,22 +6,27 @@ What is taught, where each piece of content lives, and the rules for the texts. 
 
 ## The paths and their books
 
-The study portal offers three madrasa paths (`curriculum.json`, validated: every book named must exist and every
-course must stand on a path; `apps/web/src/config/madrasas.ts` only reads it). The reader chooses one at the start.
-Every path opens with al-Mabādiʾ; the later levels are still books in preparation (`soon`, their names in
-`madrasa.soon` of the UI dictionary), shown as one quiet line each.
+The study portal offers three madrasa paths (`curriculum.json`, validated; `apps/web/src/config/madrasas.ts` reads
+it). The reader chooses one at the start: first the path (the tradition), then within each level the science. Level 1
+is al-Mabādiʾ, read for both sciences; every later level has **two lanes side by side, ṣarf and naḥw**
+(`"sarf"`, `"nahw"`), each with its books in reading order, and a `stage` (beginner, intermediate, advanced). A lane may
+name a book that is not a course yet: it shows as "in preparation" (its name in `madrasa.soonBooks` of the UI
+dictionary, tested in `test/levels.test.ts`) and counts for nothing until `primers/<id>.json` exists; then it appears
+by itself. A primer's `subject` must match its lane (checked by the validation).
 
-| Path | Level 1 | 2 | 3 | 4 | 5 | 6 |
-| --- | --- | --- | --- | --- | --- | --- |
-| Indian (Farangī Maḥall, Deoband, Barelī, Khayrābād) | `mabadi` | Mīzān al-ṣarf (`mizan`) | Naḥw-i Mīr (`nahw-mir`) | Hidāyat al-naḥw (`hidaya`) | al-Fawāʾid al-Ḍiyāʾiyya (`jami`) | al-Shāfiya (`shafiya`) |
-| Ottoman | `mabadi` | al-Amthila (`amthila`) | al-ʿIzzī (`izzi`) | Marāḥ al-arwāḥ (`marah`) | al-ʿAwāmil (`awamil`) | Molla Câmî (`molla-cami`) |
-| North-African | `mabadi` | al-Ājurrūmiyya (`ajurrumiyya`) | al-ʿIzzī and the Lāmiyya (`izzi-lamiyya`) | Qaṭr al-nadā (`qatr`) | the Alfiyya (`alfiyya`) | |
+| Path | 1 | 2 · beginner | 3 · intermediate | 4 · advanced |
+| --- | --- | --- | --- | --- |
+| Indian | `mabadi` | ṣarf: Mīzān al-ṣarf (`mizan`) · naḥw: Naḥw-i Mīr (`nahwmir`), al-ʿAwāmil al-miʾa (`awamilmia`) | naḥw: Hidāyat al-naḥw (`hidaya`) | ṣarf: al-Shāfiya · naḥw: al-Kāfiya, Sharḥ Jāmī |
+| Ottoman | `mabadi` | ṣarf: al-Amthila (`amthila`), Bināʾ al-afʿāl (`bina`), al-Maqṣūd (`maqsud`) | ṣarf: al-ʿIzzī (`izzi`), Marāḥ al-arwāḥ (`marah`) · naḥw: Birgivī's al-ʿAwāmil (`awamil`), Iẓhār al-asrār (`izhar`) | naḥw: al-Kāfiya, Sharḥ Jāmī |
+| North-African | `mabadi` | naḥw: al-Ājurrūmiyya (`ajurrumiyya`) | ṣarf: al-ʿIzzī, Lāmiyyat al-afʿāl (`lamiyya`) · naḥw: Qaṭr al-nadā (`qatr`) | naḥw: the Alfiyya |
 
-Ṣarf comes before naḥw on every path, as in the madrasa. A book may stand on several paths; its prerequisites per
-path are in `ap`. In `lib/course.ts` (`trackSteps()`), `a` lists what must be passed first ("terms" for the first
-reading, or book ids from the level before it), `d` is the book's level in its path and `v` the old URL level, now
-only an id. Pages name a book's level as its path counts it (`pathLevel`), with a letter for each book of a level that
-holds several (1a, 1b); the rules still treat them as one level. Level texts are in `madrasa` of the UI dictionary.
+The Ottoman path reads ṣarf first, as its madrasas did (the five books of the *ṣarf cümlesi* before naḥw: its naḥw
+lane begins on level 3); the North-African path begins with naḥw (al-Ājurrūmiyya). A book may stand on several paths
+(al-ʿIzzī); its prerequisites per path are in `ap`. The rule (`lib/course.ts` `needsOn`, tested in
+`test/levels.test.ts` and `test/progress.test.js`): a book needs the book before it in its lane; the first book of a
+lane needs every course of the level before (the first reading as "terms"), going back over levels that are still
+only in preparation. Pages number the courses of a level across both lanes, ṣarf first (2a, 2b …, `pathLevel`).
+Level texts are in `madrasa.levels` of the UI dictionary.
 
 ## The books
 
@@ -29,10 +34,11 @@ holds several (1a, 1b); the rules still treat them as one level. Level texts are
 | --- | --- | --- | --- |
 | `mabadi` | al-Mabādiʾ: the first terms of ṣarf and naḥw (27 terms, ṣarf first) | terms | none: our own text (`matn/mabadi.json`, `edition: null`) |
 
-The books of levels 2 and up are still to be made. Each needs a public-domain print (a lithograph or an early printed
-edition, with a scan that can be linked) before its text is shown; until one is found, the lessons follow the book's
-order and say which edition, without its text. The order in which they are made is the owner's choice; the market
-analysis suggests al-Amthila or Mīzān al-ṣarf first (the first ṣarf book on two paths), then al-Ājurrūmiyya.
+The madrasa books of levels 2 and 3 are made by the pipeline in `docs/books-pipeline.md` (transcription from a
+public-domain print, translation, lessons), each a primer course (`primers/<id>.json`) with the whole original, its
+translation into English and (`i18n/<code>/primers/<id>.json`, `text` only) Indonesian, Turkish, Urdu and Persian — or
+Arabic instead of Persian for a Persian original — and per lesson an explanation, terms, examples, a diagram, written
+exercises (`tasks`) and a test. Each book's print, and how its text was checked, is in `textEdition` and on its page.
 
 **Never reproduce a modern edition under copyright**, and never translate from one. Where only a modern edition
 exists, the lessons follow its order and the page names it, but its text is not shown.

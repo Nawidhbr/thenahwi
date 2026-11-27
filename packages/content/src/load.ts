@@ -642,7 +642,8 @@ export function loadPrimerTranslations(primers: Primer[]): { translations: Recor
 }
 
 /** The madrasa paths (curriculum.json): every book named must exist, and every course must stand on some path. */
-export function loadCurriculum(books: { id: string; kind: string }[]): { curriculum: Curriculum | null; errors: string[] } {
+export function loadCurriculum(books: { id: string; kind: string; subject?: string }[]): { curriculum: Curriculum | null; errors: string[] } {
+  const subjects = new Map(books.filter((b) => b.subject).map((b) => [b.id, b.subject!]));
   const errors: string[] = [];
   const raw = JSON.parse(readFileSync(new URL("../curriculum.json", import.meta.url), "utf8"));
   const parsed = Curriculum.safeParse(raw);
@@ -655,6 +656,13 @@ export function loadCurriculum(books: { id: string; kind: string }[]): { curricu
       for (const b of l.books ?? []) {
         named.add(b);
         if (!known.has(b)) errors.push(`curriculum.json ${p.id} level ${l.n}: no book "${b}" (known: ${[...known].join(", ")})`);
+      }
+      // A lane may name a book still in preparation; what exists counts as placed.
+      for (const b of [...(l.sarf ?? []), ...(l.nahw ?? [])]) named.add(b);
+      // A book stands in the lane of its own science (a primer's `subject`).
+      for (const lane of ["sarf", "nahw"] as const) for (const b of l[lane] ?? []) {
+        const s = subjects.get(b);
+        if (s && s !== lane) errors.push(`curriculum.json ${p.id} level ${l.n}: "${b}" is a book of ${s}, not ${lane}`);
       }
     });
   }

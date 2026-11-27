@@ -1077,6 +1077,25 @@ a.level-card:hover { border-color: var(--primary); }
 :is(.level-card[data-state="locked"], .level-card[data-soon]) .tile { opacity: 0.55; }
 .level-card[data-state="locked"] .tile, .level-card[data-soon] .tile { background: transparent; color: var(--ink); border-style: dashed; }
 .level-one-ar { margin: 0; font-size: clamp(2rem, 6vw, 3rem); font-weight: 700; line-height: 1.3; }
+/* A level with two lanes (ṣarf and naḥw side by side): its heading, then a column per lane with the books in order. */
+.level-list > li.level-block { grid-column: 1 / -1; display: grid; gap: 12px; margin-top: 10px; }
+.level-block-head { display: flex; gap: 16px; align-items: flex-start; }
+.level-block-head .tile-wrap { margin-top: 4px; }
+.level-block-head > div { display: grid; gap: 2px; min-width: 0; }
+.level-block-head :is(h3, p) { margin: 0; }
+.level-block-title { font-family: var(--font-head); font-size: 1.25rem; line-height: 1.25; }
+.level-lanes { display: grid; gap: 12px; align-items: start; }
+@media (min-width: 760px) { .level-lanes { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.lane { display: grid; gap: 8px; padding: 12px; border: 1.5px solid var(--line); border-radius: var(--radius-l, 22px); background: var(--glass-dim); }
+.lane-head { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding-inline: 4px; }
+.lane-head strong { font-family: var(--font-head); font-size: 1.05rem; color: var(--red-ink); text-transform: uppercase; letter-spacing: 0.06em; }
+.lane-head .ar { font-size: 1.15rem; }
+.lane-lead { flex-basis: 100%; font-size: 0.88rem; }
+.lane-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.lane-none { margin: 0; padding: 10px 6px; font-size: 0.92rem; }
+.lane .level-card[data-state="current"] { padding: 20px 22px; }
+.lane .level-card[data-state="current"] .level-card-title { font-size: 1.3rem; }
+html[lang="ar"] .lane-head .ar { display: none; }
 
 /* Open or close every part and chapter at once. */
 .fold-all-row { display: flex; justify-content: flex-end; margin: 6px 0 -18px; }
@@ -2110,3 +2129,41 @@ picture img { filter: grayscale(1) contrast(1.12); }
 .parent-news-from { margin: 0 0 8px; }
 .parent-news-all { margin: 18px 0 0; font-weight: 700; }
 .u-mt4 { margin-top: 4px; }
+
+/* The language of the translations (Translation.astro): English unless the reader chose another in the settings or
+   beside a text (TextLanguage.astro); a passage without the chosen language keeps its English. */
+.tr-v:not([data-tr-lang="en"]) { display: none; }
+.tr-name { margin: 0 0 2px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--red-ink); }
+.tr-v[dir="rtl"] .tr-name { text-transform: none; letter-spacing: 0; font-size: 0.9rem; }
+.seg-rtl { font-family: var(--font-arabic); font-size: 1.12rem; line-height: 1.9; }
+:root[data-trlang="id"] .tr-set:has(> [data-tr-lang="id"]) > .tr-v, :root[data-trlang="tr"] .tr-set:has(> [data-tr-lang="tr"]) > .tr-v,
+:root[data-trlang="ur"] .tr-set:has(> [data-tr-lang="ur"]) > .tr-v, :root[data-trlang="fa"] .tr-set:has(> [data-tr-lang="fa"]) > .tr-v,
+:root[data-trlang="ar"] .tr-set:has(> [data-tr-lang="ar"]) > .tr-v { display: none; }
+:root[data-trlang="id"] .tr-set > .tr-v[data-tr-lang="id"], :root[data-trlang="tr"] .tr-set > .tr-v[data-tr-lang="tr"], :root[data-trlang="ur"] .tr-set > .tr-v[data-tr-lang="ur"],
+:root[data-trlang="fa"] .tr-set > .tr-v[data-tr-lang="fa"], :root[data-trlang="ar"] .tr-set > .tr-v[data-tr-lang="ar"] { display: block; }
+.trlang-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 10px; font-size: 0.92rem; font-weight: 700; }
+.trlang-select { padding: 6px 12px; border: 1.5px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); font: inherit; font-weight: 600; font-size: 0.92rem; }
+.trlang-select:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+.setting-trlang { display: grid; gap: 6px; }
+.setting-trlang .trlang-select { width: 100%; }
+.setting-note { margin: 0; font-size: 0.82rem; }
+
+/* A lesson's exercises in writing, each with its model answer behind a fold. */
+.task-list { margin: 8px 0 0; padding-inline-start: 22px; display: grid; gap: 14px; }
+.task-list > li { padding-inline-start: 4px; }
+.task-list > li::marker { font-weight: 700; color: var(--red-ink); }
+.task-prompt { margin: 0 0 4px; }
+.task-ar { margin: 2px 0 6px; font-size: 1.35rem; line-height: 1.9; }
+.task-answer summary { cursor: pointer; font-weight: 700; color: var(--primary-ink); font-size: 0.92rem; }
+.task-answer p { margin: 6px 0 0; padding: 10px 14px; border-inline-start: 3px solid var(--sky, var(--line)); background: var(--surface); border-radius: 0 var(--radius-m) var(--radius-m) 0; white-space: pre-line; }
+
+/* A lesson's own diagram (LessonFigure.astro): a division tree as in Diagram.astro, or a table of forms. */
+.figure-grid-wrap { overflow-x: auto; }
+.figure-grid { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.95rem; }
+.figure-grid :is(th, td) { padding: 8px 10px; border-bottom: 1px solid var(--hairline); text-align: start; vertical-align: middle; }
+.figure-grid thead th { font-weight: 700; color: var(--muted); font-size: 0.85rem; border-bottom: 1.5px solid var(--line); }
+.figure-grid tbody th { font-weight: 700; }
+.figure-grid .ar { font-size: 1.3rem; line-height: 1.7; text-align: center; white-space: nowrap; }
+.figure-grid thead .ar { font-size: 1.05rem; }
+.figure-grid tbody tr:last-child :is(th, td) { border-bottom: 0; }
+.figure-grid :is(th, td):not(:first-child) { text-align: center; }

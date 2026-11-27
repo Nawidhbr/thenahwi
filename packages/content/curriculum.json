@@ -1,5 +1,5 @@
 {
-  "note": "The madrasa paths of the study portal: each path lists its levels; a level names the books read on it, by id (\"mabadi\" = al-Mabādiʾ, the free first book, term by term; a primer of primers/; or a book of commentaries/), in reading order, or a book still in preparation (\"soon\", its name in madrasa.soon of the UI dictionaries). A level opens when every book of the level before it in the same path is passed; inside a level, each book opens after the one before it. A book shared by two paths counts in both.",
+  "note": "The madrasa paths of the study portal: each path lists its levels. Level 1 is al-Mabādiʾ (\"books\": [\"mabadi\"]), read for both sciences; every later level has two lanes side by side, \"sarf\" and \"nahw\", each a list of books in reading order: a primer of primers/, a book of commentaries/, or a book still in preparation (any other id, its name in madrasa.soonBooks of the UI dictionaries), which is shown as such and counts for nothing until it exists. A level opens when every book of the level before it is passed; inside a level the two lanes are read side by side, and each book opens after the one before it in its lane. \"stage\" names the level on the cards. A book shared by two paths counts in both.",
   "paths": [
     {
       "id": "indian",
@@ -13,29 +13,39 @@
       "levels": [
         {
           "n": 1,
+          "stage": "foundations",
           "books": [
             "mabadi"
           ]
         },
         {
           "n": 2,
-          "soon": "mizan"
+          "stage": "beginner",
+          "sarf": [
+            "mizan"
+          ],
+          "nahw": [
+            "nahwmir",
+            "awamilmia"
+          ]
         },
         {
           "n": 3,
-          "soon": "nahw-mir"
+          "stage": "intermediate",
+          "nahw": [
+            "hidaya"
+          ]
         },
         {
           "n": 4,
-          "soon": "hidaya"
-        },
-        {
-          "n": 5,
-          "soon": "jami"
-        },
-        {
-          "n": 6,
-          "soon": "shafiya"
+          "stage": "advanced",
+          "sarf": [
+            "shafiya"
+          ],
+          "nahw": [
+            "kafiya",
+            "jami"
+          ]
         }
       ]
     },
@@ -51,29 +61,39 @@
       "levels": [
         {
           "n": 1,
+          "stage": "foundations",
           "books": [
             "mabadi"
           ]
         },
         {
           "n": 2,
-          "soon": "amthila"
+          "stage": "beginner",
+          "sarf": [
+            "amthila",
+            "bina",
+            "maqsud"
+          ]
         },
         {
           "n": 3,
-          "soon": "izzi"
+          "stage": "intermediate",
+          "sarf": [
+            "izzi",
+            "marah"
+          ],
+          "nahw": [
+            "awamil",
+            "izhar"
+          ]
         },
         {
           "n": 4,
-          "soon": "marah"
-        },
-        {
-          "n": 5,
-          "soon": "awamil"
-        },
-        {
-          "n": 6,
-          "soon": "molla-cami"
+          "stage": "advanced",
+          "nahw": [
+            "kafiya",
+            "jami"
+          ]
         }
       ]
     },
@@ -89,25 +109,35 @@
       "levels": [
         {
           "n": 1,
+          "stage": "foundations",
           "books": [
             "mabadi"
           ]
         },
         {
           "n": 2,
-          "soon": "ajurrumiyya"
+          "stage": "beginner",
+          "nahw": [
+            "ajurrumiyya"
+          ]
         },
         {
           "n": 3,
-          "soon": "izzi-lamiyya"
+          "stage": "intermediate",
+          "sarf": [
+            "izzi",
+            "lamiyya"
+          ],
+          "nahw": [
+            "qatr"
+          ]
         },
         {
           "n": 4,
-          "soon": "qatr"
-        },
-        {
-          "n": 5,
-          "soon": "alfiyya"
+          "stage": "advanced",
+          "nahw": [
+            "alfiyya"
+          ]
         }
       ]
     }

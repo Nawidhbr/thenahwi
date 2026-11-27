@@ -175,6 +175,23 @@ export function primerIn(p: Primer, code = "en"): Primer {
   };
 }
 
+/** The languages a primer's passages are translated into (i18n/<code>/primers/<id>.json `text`), offered beside the page's own. */
+export const TEXT_LANGUAGES = ["en", "id", "tr", "ur", "fa", "ar"] as const;
+
+/**
+ * The translations of one lesson's passages in the other languages of the texts: per language code, the translation of
+ * each passage in order (a language whose file has no `text` for the lesson is left out).
+ */
+export function primerTextVariants(id: string, n: number): Record<string, string[]> {
+  const out: Record<string, string[]> = {};
+  for (const code of TEXT_LANGUAGES) {
+    const t = (primerI18n as unknown as Record<string, Record<string, PrimerTranslation>>)[code]?.[id];
+    const text = t?.lessons[String(n)]?.text;
+    if (text?.length) out[code] = text;
+  }
+  return out;
+}
+
 /** Languages that write the scholars' names as the English does (al-Fārābī, Ibn Sīnā): the library keeps its byline. */
 const SOURCE_SPELLING = new Set(["nl", "fr", "id"]);
 

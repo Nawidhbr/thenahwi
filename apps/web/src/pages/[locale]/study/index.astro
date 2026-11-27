@@ -1,10 +1,11 @@
 ---
 import Photo from "../../../components/Photo.astro";
+import LevelCard from "../../../components/study/LevelCard.astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { localTerms } from "../../../lib/localize";
 import { tracks, primers, primerLessons, primerPath, levelNumber, bookName } from "../../../lib/course";
 import { primerIn } from "@nahwi/content";
-import { MADRASAS } from "../../../config/madrasas";
+import { MADRASAS, levelCourses, type Subject } from "../../../config/madrasas";
 import { PHOTOS, photoSrc } from "../../../config/photos";
 import { fmt, localePaths, t } from "../../../i18n";
 import { previews } from "../../../config/previews";
@@ -26,35 +27,66 @@ const traditions = M.traditions as Record<string, string>;
 const havePrimers = primers();
 const haveTracks = tracks();
 const allPreviews = previews();
-// A level that holds several books (the Indian path's level 1: al-Jurjānī's Ṣughrā, then his Kubrā) is shown as one card
-// per book, numbered 1a, 1b (levelNumber), each with the book's own name, Arabic title and first sentence; a locked
-// card names the card before it (`prev`).
+// A level after the first has two lanes side by side, ṣarf and naḥw (config/madrasas.ts): each book is a card of its
+// own, numbered 2a, 2b … across the level (levelNumber), with its name, Arabic title and first sentence; a book in
+// preparation is a quiet card. A locked card names what to pass first (`prev`): the card before it in its lane, or the
+// level before.
 const firstSentence = (text: string) => text.split(/(?<=[.!?۔])\s+/)[0];
+const soonBooks = M.soonBooks as Record<string, { title: string; arabic: string }>;
+const lanesText = M.lanes as Record<Subject, { name: string; arabic: string; lead: string }>;
+const stages = M.stages as Record<string, string>;
+type Card = { n: number; label: string; title: string; arabic: string; lead: string; href: string; kind: string; books: string[]; count: string; lessons: number; soon: boolean; prev: string };
+const bookCard = (id: string, n: number, label: string, prev: string): Card => {
+  const pr = havePrimers.find((x) => x.id === id);
+  const tr = haveTracks.find((x) => x.book.id === id);
+  if (pr) {
+    const own = primerIn(pr, locale);
+    const lessons = primerLessons(pr).length;
+    return { n, label, title: own.title, arabic: pr.arabicTitle, lead: firstSentence(own.summary), href: primerPath(locale, id), kind: "books", books: [id], count: fmt(ui.track.lessons, { n: lessons }), lessons, soon: false, prev };
+  }
+  if (tr) return { n, label, title: bookName(tr.book, locale).title, arabic: tr.book.arabicTitle, lead: "", href: `/${locale}/study/${id}/`, kind: "books", books: [id], count: fmt(ui.track.lessons, { n: tr.lessons.length }), lessons: tr.lessons.length, soon: false, prev };
+  const name = soonBooks[id] ?? { title: id, arabic: "" };
+  return { n, label, title: name.title, arabic: name.arabic, lead: "", href: "", kind: "soon", books: [], count: "", lessons: 0, soon: true, prev };
+};
 const paths = MADRASAS.map((m) => {
-  const cards = m.levels.flatMap((lv) => {
+  let before = ""; // the label of the last level that has courses, for the locked cards of the next
+  const blocks = m.levels.map((lv) => {
     const text = levelText[`${m.id}-${lv.n}`] ?? { title: fmt(ui.track.trackName, { track: String(lv.n) }), arabic: "", lead: "" };
-    const title = `${fmt(M.levelN, { n: String(lv.n) })}: ${text.title}`;
-    const base = { n: lv.n, label: String(lv.n), title, arabic: text.arabic, lead: text.lead };
-    if (lv.terms) return [{ ...base, href: `/${locale}/study/mabadi/`, kind: "terms", books: [] as string[], count: fmt(ui.home.termsCount, { n: terms.length }), lessons: terms.length, soon: false }];
-    const ps = havePrimers.filter((x) => lv.primers?.includes(x.id));
-    const ts = haveTracks.filter((x) => lv.books?.includes(x.book.id));
-    const books = [...ps.map((x) => x.id), ...ts.map((x) => x.book.id)];
-    if (books.length === 0) return [{ ...base, href: "", kind: "soon", books, count: "", lessons: 0, soon: true }];
-    if (books.length > 1) {
-      const each = [
-        ...ps.map((x) => { const own = primerIn(x, locale); return { id: x.id, name: own.title, arabic: x.arabicTitle, lead: firstSentence(own.summary), lessons: primerLessons(x).length }; }),
-        ...ts.map((x) => ({ id: x.book.id, name: bookName(x.book, locale).title, arabic: x.book.arabicTitle, lead: text.lead, lessons: x.lessons.length })),
-      ];
-      return each.map((b, i) => {
-        const label = levelNumber(ui, lv.n, i);
-        return { ...base, label, title: `${fmt(M.levelN, { n: label })}: ${b.name}`, arabic: b.arabic, lead: b.lead, href: `/${locale}/study/${b.id}/`, kind: "books", books: [b.id], count: fmt(ui.track.lessons, { n: b.lessons }), lessons: b.lessons, soon: false };
-      });
+    const heading = lv.stage ? fmt(M.levelStage, { n: String(lv.n), stage: stages[lv.stage] ?? lv.stage }) : fmt(M.levelN, { n: String(lv.n) });
+    const base = { n: lv.n, label: String(lv.n), title: `${heading}: ${text.title}`, arabic: text.arabic, lead: text.lead };
+    if (lv.terms) {
+      before = String(lv.n);
+      return { n: lv.n, heading, text, single: { ...base, href: `/${locale}/study/mabadi/`, kind: "terms", books: [] as string[], count: fmt(ui.home.termsCount, { n: terms.length }), lessons: terms.length, soon: false, prev: "" } as Card };
     }
-    const lessons = ps.reduce((k, x) => k + primerLessons(x).length, 0) + ts.reduce((k, x) => k + x.lessons.length, 0);
-    const href = ps.length ? primerPath(locale, ps[0].id) : `/${locale}/study/${ts[0].book.id}/`;
-    return [{ ...base, href, kind: "books", books, count: fmt(ui.track.lessons, { n: lessons }), lessons, soon: false }];
+    if (!lv.lanes) {
+      const single: Card = lv.soon || !(lv.primers?.length || lv.books?.length)
+        ? { ...base, href: "", kind: "soon", books: [], count: "", lessons: 0, soon: true, prev: before }
+        : bookCard([...(lv.primers ?? []), ...(lv.books ?? [])][0], lv.n, String(lv.n), before);
+      if (!single.soon) before = String(lv.n);
+      return { n: lv.n, heading, text, single };
+    }
+    const courses = levelCourses(lv).map((c) => c.id);
+    const labelOf = (id: string) => (courses.length > 1 ? levelNumber(ui, lv.n, courses.indexOf(id)) : String(lv.n));
+    const lanes = (["sarf", "nahw"] as const).map((subject) => {
+      const items = lv.lanes!.find((x) => x.subject === subject)?.items ?? [];
+      let prev = before;
+      const cards = items.map((it) => {
+        if (it.kind === "soon") return bookCard(it.id, lv.n, "", prev);
+        const c = bookCard(it.id, lv.n, labelOf(it.id), prev);
+        prev = c.label;
+        return c;
+      });
+      // A lane this level does not have: where it begins (on the Ottoman path naḥw begins after ṣarf), or that it rests.
+      const startsAt = m.levels.find((x) => x.n > lv.n && x.lanes?.some((l) => l.subject === subject))?.n;
+      const hadBefore = m.levels.some((x) => x.n < lv.n && x.lanes?.some((l) => l.subject === subject));
+      const note = cards.length ? "" : startsAt && !hadBefore ? fmt(M.laneStarts, { lane: lanesText[subject].name, n: String(startsAt) }) : fmt(M.laneNone, { lane: lanesText[subject].name });
+      return { subject, cards, note };
+    });
+    if (courses.length) before = String(lv.n);
+    return { n: lv.n, heading, text, lanes };
   });
-  return { m, cards: cards.map((c, i) => ({ ...c, prev: i > 0 ? cards[i - 1].label : "" })) };
+  const cards = blocks.flatMap((b) => (b.single ? [b.single] : b.lanes!.flatMap((l) => l.cards)));
+  return { m, blocks, cards };
 });
 // The levels as courses for search engines (those in preparation left out).
 const courses = paths.flatMap(({ m, cards }) => cards.filter((c) => !c.soon).map((c) => course(locale, c.n, `${pathText[m.id].name}: ${c.title}`, c.lead, c.href, c.lessons)));
@@ -107,30 +139,50 @@ const previewsFor = (books: string[]) => allPreviews.filter((p) => books.include
     <h2 id="levels-title">{ui.home.levelsTitle}</h2>
     <p class="muted madrasa-none">{M.none}</p>
     {
-      paths.map(({ m, cards }) => (
+      paths.map(({ m, blocks }) => (
         <div data-path={m.id}>
           <ol class="level-list">
-            {cards.map((c) => {
-              const Tag = c.soon ? "div" : "a";
-              return (
+            {blocks.map((b) =>
+              b.single ? (
                 <li>
-                  <Tag class="card level-card" href={c.soon ? undefined : c.href} data-level-card={c.label} data-prev={c.prev || undefined} data-kind={c.kind} data-books={c.books.join(",")} data-soon={c.soon ? "" : undefined} data-previews={c.prev ? JSON.stringify(previewsFor(c.books)) : undefined} tabindex={c.soon ? 0 : undefined} role={c.soon ? "button" : undefined}>
-                    <span class="tile-wrap" aria-hidden="true">
-                      <span class={c.label.length > 2 ? "tile tile-filled tile-sub" : "tile tile-filled"}><span>{c.label}</span></span>
-                    </span>
-                    <span class="level-card-body">
-                      <strong class="level-card-title">{c.title}</strong>
-                      {c.arabic && <span class="ar level-card-ar" lang="ar">{c.arabic}</span>}
-                      <span class="level-card-lead">{c.lead}</span>
-                      <span class="level-card-meta muted">
-                        {c.soon ? ui.home.levelSoon : c.count}
-                        <span data-level-state hidden></span>
-                      </span>
-                    </span>
-                  </Tag>
+                  <LevelCard c={b.single} ui={ui} previews={b.single.prev ? previewsFor(b.single.books) : []} />
                 </li>
-              );
-            })}
+              ) : (
+                <li class="level-block">
+                  <div class="level-block-head">
+                    <span class="tile-wrap" aria-hidden="true">
+                      <span class="tile tile-filled"><span>{b.n}</span></span>
+                    </span>
+                    <div>
+                      <h3 class="level-block-title">{b.heading}: {b.text.title}</h3>
+                      {b.text.arabic && <p class="ar level-card-ar" lang="ar">{b.text.arabic}</p>}
+                      {b.text.lead && <p class="level-card-lead">{b.text.lead}</p>}
+                    </div>
+                  </div>
+                  <div class="level-lanes">
+                    {b.lanes!.map((lane) => (
+                      <section class={`lane lane-${lane.subject}`} data-lane={lane.subject} aria-label={`${lanesText[lane.subject].name}: ${b.heading}`}>
+                        <p class="lane-head">
+                          <strong>{lanesText[lane.subject].name}</strong> <span class="ar" lang="ar">{lanesText[lane.subject].arabic}</span>
+                          <span class="lane-lead muted">{lanesText[lane.subject].lead}</span>
+                        </p>
+                        {lane.cards.length > 0 ? (
+                          <ol class="lane-list">
+                            {lane.cards.map((c) => (
+                              <li>
+                                <LevelCard c={c} ui={ui} previews={c.prev ? previewsFor(c.books) : []} />
+                              </li>
+                            ))}
+                          </ol>
+                        ) : (
+                          <p class="lane-none muted">{lane.note}</p>
+                        )}
+                      </section>
+                    ))}
+                  </div>
+                </li>
+              ),
+            )}
           </ol>
         </div>
       ))

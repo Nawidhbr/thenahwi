@@ -1,0 +1,164 @@
+---
+/**
+ * A diagram made for one lesson from its own data (schema LessonDiagram), in the look of Diagram.astro: a division
+ * tree (`tree`) or a table of forms (`grid`). A small tree (up to four leaves) is drawn as boxes in rows, like the
+ * built-in diagrams; a larger one as an indented outline, one box a line, so its labels stay at least 13px in a
+ * 360-wide viewBox. The node named by `focus` is drawn in the accent colour. A grid is an HTML table: Arabic cells
+ * (vocalised, from the print or the engine) in the Arabic face, the rest as text.
+ */
+import type { FigureTree } from "@nahwi/content";
+
+interface Props {
+  tree?: FigureTree;
+  grid?: { caption?: string; head: string[]; rows: string[][] };
+  focus?: string;
+  caption?: string;
+}
+const { tree, grid, focus, caption } = Astro.props;
+const AR = /[؀-ۿ]/;
+
+type Box = { x: number; y: number; w: number; h: number; lines: string[]; ar?: string; on: boolean; anchor: "middle" | "start" };
+const boxes: Box[] = [];
+let lines = "";
+let height = 0;
+
+const wrap = (text: string, max: number): string[] => {
+  const out: string[] = [];
+  for (const word of text.split(" ")) {
+    const last = out[out.length - 1];
+    if (last !== undefined && (last + " " + word).length <= max) out[out.length - 1] = last + " " + word;
+    else out.push(word);
+  }
+  return out;
+};
+
+if (tree) {
+  const leaves = (n: FigureTree): number => (n.children?.length ? n.children.reduce((k, c) => k + leaves(c), 0) : 1);
+  const depth = (n: FigureTree): number => (n.children?.length ? 1 + Math.max(...n.children.map(depth)) : 0);
+  const total = leaves(tree);
+  if (total <= 4) {
+    // Rows of boxes: each leaf a slot of the width; a node spans the slots of its leaves (an inner node at most 200 wide).
+    const slot = 360 / total;
+    type Placed = { n: FigureTree; row: number; x: number; w: number; parent?: Placed };
+    const placed: Placed[] = [];
+    let next = 0;
+    const place = (n: FigureTree, row: number, parent?: Placed): Placed => {
+      const start = next;
+      const me: Placed = { n, row, x: 0, w: 0, parent };
+      placed.push(me);
+      if (n.children?.length) n.children.forEach((c) => place(c, row + 1, me));
+      else next += 1;
+      const span = (next - start) * slot;
+      const w = Math.min(n.children?.length ? 200 : span - 8, span - 8);
+      me.w = w;
+      me.x = start * slot + (span - w) / 2;
+      return me;
+    };
+    place(tree, 0);
+    const rows = depth(tree) + 1;
+    const hOf = (p: Placed) => {
+      const t = wrap(p.n.label, Math.max(8, Math.floor(p.w / 8.6)));
+      return { t, h: t.length * 18 + (p.n.ar ? 26 : 0) + 22 };
+    };
+    const rowH = Array.from({ length: rows }, (_, r) => Math.max(...placed.filter((p) => p.row === r).map((p) => hOf(p).h)));
+    const rowY = rowH.reduce<number[]>((ys, h, r) => [...ys, r === 0 ? 0 : ys[r - 1] + rowH[r - 1] + 26], []);
+    for (const p of placed) {
+      const { t } = hOf(p);
+      const y = rowY[p.row];
+      boxes.push({ x: p.x, y, w: p.w, h: rowH[p.row], lines: t, ar: p.n.ar, on: focus === p.n.label, anchor: "middle" });
+      if (p.parent) {
+        const px = p.parent.x + p.parent.w / 2;
+        const py = rowY[p.parent.row] + rowH[p.parent.row];
+        lines += `M${px} ${py} V${py + 13} H${p.x + p.w / 2} V${y} `;
+      }
+    }
+    height = rowY[rows - 1] + rowH[rows - 1] + 4;
+  } else {
+    // An outline: one box a line, indented by level, joined to its parent by a line on the inline-start side.
+    let y = 0;
+    const walk = (n: FigureTree, level: number, parent?: { x: number; y: number }) => {
+      const x = level * 22;
+      const w = 360 - x;
+      const room = Math.floor((w - 24) / 8.4);
+      const both = n.ar && n.label.length + n.ar.length * 0.8 <= room;
+      const t = wrap(n.label, room);
+      const h = t.length * 18 + (n.ar && !both ? 24 : 0) + 18;
+      boxes.push({ x, y, w, h, lines: t, ar: n.ar, on: focus === n.label, anchor: "start" });
+      if (parent) lines += `M${parent.x + 11} ${parent.y} V${y + h / 2} H${x} `;
+      const me = { x, y: y + h };
+      y += h + 8;
+      n.children?.forEach((c) => walk(c, level + 1, me));
+    };
+    walk(tree, 0);
+    height = y - 4;
+  }
+}
+const one = boxes.length > 0 && boxes[0].anchor === "start";
+---
+
+<figure class="diagram lesson-figure">
+  {
+    tree && (
+      <svg class="dg" viewBox={`0 0 360 ${height}`} role="img" aria-label={caption ?? tree.label}>
+        <path d={lines} class="ln" fill="none" />
+        {boxes.map((b) => {
+          const sameLine = b.anchor === "start" && b.ar && b.lines.length === 1 && b.h <= 36;
+          const block = b.lines.length * 18 + (b.ar && !sameLine ? 24 : 0);
+          let y = b.y + (b.h - block) / 2 + 13;
+          const tx = b.anchor === "middle" ? b.x + b.w / 2 : b.x + 12;
+          const out: { text: string; x: number; y: number; cls: string; anchor: string }[] = [];
+          b.lines.forEach((l) => { out.push({ text: l, x: tx, y, cls: "t tb" + (b.on ? " tf" : ""), anchor: b.anchor }); y += 18; });
+          if (b.ar) {
+            if (sameLine) out.push({ text: b.ar, x: b.x + b.w - 12, y: y - 18, cls: "t ta" + (b.on ? " tf" : ""), anchor: "end" });
+            else out.push({ text: b.ar, x: tx, y: y + 5, cls: "t ta" + (b.on ? " tf" : ""), anchor: b.anchor });
+          }
+          return (
+            <>
+              <rect x={b.x} y={b.y} width={b.w} height={b.h} rx={one ? 12 : 14} class={b.on ? "focus" : "fill"} />
+              {out.map((o) => (
+                <text x={o.x} y={o.y} class={o.cls} text-anchor={o.anchor} data-fit={b.w - 16}>{o.text}</text>
+              ))}
+            </>
+          );
+        })}
+      </svg>
+    )
+  }
+  {
+    grid && (
+      <div class="figure-grid-wrap">
+        <table class="figure-grid">
+          <thead>
+            <tr>{grid.head.map((h) => (AR.test(h) ? <th class="ar" lang="ar" scope="col">{h}</th> : <th scope="col">{h}</th>))}</tr>
+          </thead>
+          <tbody>
+            {grid.rows.map((r) => (
+              <tr>{r.map((cell, i) => (AR.test(cell) ? <td class="ar" lang="ar">{cell}</td> : i === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>))}</tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )
+  }
+  {(caption ?? grid?.caption) && <figcaption>{caption ?? grid?.caption}</figcaption>}
+</figure>
+
+<script>
+  // As in Diagram.astro: a label that does not fit its box is set a little smaller, then narrowed to it.
+  const fit = () => {
+    for (const el of document.querySelectorAll<SVGTextElement>(".lesson-figure text[data-fit]")) {
+      el.style.fontSize = "";
+      el.removeAttribute("textLength");
+      const room = Number(el.dataset.fit);
+      const len = el.getComputedTextLength();
+      if (!room || len <= room) continue;
+      const size = parseFloat(getComputedStyle(el).fontSize);
+      el.style.fontSize = `${size * Math.max(room / len, 0.88)}px`;
+      if (el.getComputedTextLength() > room) {
+        el.setAttribute("textLength", String(room));
+        el.setAttribute("lengthAdjust", "spacingAndGlyphs");
+      }
+    }
+  };
+  document.fonts.ready.then(fit);
+</script>

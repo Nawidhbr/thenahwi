@@ -200,6 +200,15 @@ const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "l
                 </div>
               </div>
               )}
+              {studyHere && (
+              <div class="setting-fonts setting-trlang">
+                <label class="setting-label" for="trlang-menu">{ui.header.trLang}</label>
+                <select id="trlang-menu" class="trlang-select" data-trlang-select>
+                  {Object.entries(ui.header.trLangs as Record<string, string>).map(([code, name]) => <option value={code} lang={code}>{name}</option>)}
+                </select>
+                <p class="muted setting-note">{ui.header.trLangNote}</p>
+              </div>
+              )}
               <div class="install" hidden>
                 <button type="button" class="btn btn-outline install-btn" data-install>
                   <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"></rect><path d="M12 7v7m-3-3 3 3 3-3"></path></svg>

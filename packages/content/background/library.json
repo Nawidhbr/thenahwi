@@ -341,5 +341,115 @@
         "url": "https://downloads.myandroid.org/apps/com-arthadigitech-tashrif-sharaf"
       }
     ]
+  },
+  {
+    "id": "amthila",
+    "title": "al-Amthila al-mukhtalifa",
+    "arabic": "الأَمْثِلَةُ المُخْتَلِفَة",
+    "author": "anonymous",
+    "century": 15,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "The first book of the Ottoman madrasa, learnt by heart: the forms derived from naṣara, first set out mixed by how often they are used (al-Amthila al-mukhtalifa), then each conjugated in full (al-Amthila al-muṭṭarida). The first of the five books of ṣarf, before Bināʾ al-afʿāl, al-Maqṣūd, al-ʿIzzī and Marāḥ al-arwāḥ; its author is unknown, though some commentaries name ʿAlī.",
+    "sources": [
+      {
+        "title": "el-Emsile (İsmail Durmuş), TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/el-emsile"
+      }
+    ]
+  },
+  {
+    "id": "bina",
+    "title": "Bināʾ al-afʿāl",
+    "arabic": "بِنَاءُ الأَفْعَال",
+    "author": "anonymous",
+    "century": 12,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "The second book of ṣarf in the Ottoman madrasa, read after al-Amthila and before al-Maqṣūd: how the past and present verbs are built, the patterns of the three- and four-letter verb, bare and augmented, with their maṣdars and whether they take an object, ending with the seven kinds of verb. Its author is unknown; it was written in the 6th/12th century or later.",
+    "sources": [
+      {
+        "title": "Binâü'l-ef'âl (Mehmet Çakır), TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/binaul-efal"
+      }
+    ]
+  },
+  {
+    "id": "maqsud",
+    "title": "al-Maqṣūd",
+    "arabic": "المَقْصُود",
+    "author": "anonymous (attributed to Abū Ḥanīfa)",
+    "century": 13,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "The third book of ṣarf in the Ottoman madrasa: the patterns of the bare and augmented verb and their meanings, the verbal nouns, the weak verbs in brief. Birgivī ascribed it to Abū Ḥanīfa in his commentary Imʿān al-anẓār; no older source confirms it, and its author is otherwise unknown. Rūḥ al-shurūḥ and Birgivī's commentary are read with it.",
+    "sources": [
+      {
+        "title": "el-Maksûd (Kenan Demirayak), TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/el-maksud"
+      },
+      {
+        "title": "İm'ânü'l-enzâr, a commentary on el-Maksûd, Marmara University",
+        "url": "https://openaccess.marmara.edu.tr/entities/publication/0389e64f-3daf-4bb1-8d2d-7b421190ea2a"
+      }
+    ]
+  },
+  {
+    "id": "marah",
+    "title": "Marāḥ al-arwāḥ",
+    "arabic": "مَرَاحُ الأَرْوَاح",
+    "author": "Aḥmad b. ʿAlī b. Masʿūd",
+    "authorSlug": "ahmad-ibn-masud",
+    "died": "early 8th/14th c.",
+    "century": 14,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "The last and fullest of the five books of ṣarf of the Ottoman madrasa, in seven chapters: the sound verb with its augmented and four-letter patterns, then the doubled, hamzated, mithāl, ajwaf, nāqiṣ and lafīf verbs, each conjugated with the changes they undergo. Printed in Istanbul, Būlāq, Delhi and Lahore; commented on by Dikqoz, al-ʿAynī and Ibn Kemal.",
+    "sources": [
+      {
+        "title": "Merâhu'l-ervâh (Kenan Demirayak), TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/merahul-ervah"
+      }
+    ]
+  },
+  {
+    "id": "mizan",
+    "title": "Mīzān al-ṣarf",
+    "arabic": "مِيزَانُ الصَّرْف",
+    "author": "anonymous",
+    "century": 17,
+    "kind": "handbook",
+    "language": "fa",
+    "summary": "The first book of ṣarf of the Dars-i Niẓāmī, in Persian: the scale faʿala, the kinds of word and of verb, and the conjugation of the bare and augmented verb. Anonymous; printed in the Indian collections of short grammars with Munshaʿib, Panj ganj, Zubdat al-ṣarf and Ṣarf-i Mīr.",
+    "sources": [
+      {
+        "title": "A collection of short treatises on Arabic grammar (Mīzān al-ṣarf, Munshaʿib, Panj ganj …), University of Wisconsin",
+        "url": "https://search.library.wisc.edu/catalog/9912426858602121"
+      },
+      {
+        "title": "Mīzān fī ʿilm al-ṣarf, manuscripts in the British Library (Fihrist)",
+        "url": "https://www.fihrist.org.uk/catalog/work_2687"
+      }
+    ]
+  },
+  {
+    "id": "hidaya",
+    "title": "Hidāyat al-naḥw",
+    "arabic": "هِدَايَةُ النَّحْو",
+    "author": "uncertain (ascribed to Sirāj al-Dīn ʿUthmān al-Awadhī, or to Abū Ḥayyān)",
+    "century": 14,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "The Arabic handbook of naḥw read after Naḥw-i Mīr and before al-Kāfiya in the Dars-i Niẓāmī, in al-Kāfiya's order: a preface, then the noun, the verb and the particle. Its author is uncertain: catalogues name Sirāj al-Dīn ʿUthmān al-Awadhī, others Abū Ḥayyān al-Andalusī. Printed in Kanpur in 1300/1883 with a Persian commentary on the margin.",
+    "sources": [
+      {
+        "title": "Hidāyat al-naḥw, Princeton manuscript (Digital Scriptorium: on its authorship)",
+        "url": "https://search.digital-scriptorium.org/catalog/DS15016"
+      },
+      {
+        "title": "Hidāyat al-naḥw, Kanpur: Nawal Kishor 1300/1883 (Heidelberg University Library)",
+        "url": "https://biblio.ub.uni-heidelberg.de/navalkishore/Record/KXP-PPN1698682336"
+      }
+    ]
   }
 ]

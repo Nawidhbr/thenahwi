@@ -1,4 +1,4 @@
-import { getCommentaries, getMatn, getPrimers, type Commentary, type Primer } from "@nahwi/content";
+import { getCommentaries, getMatn, getPrimers, primerTextVariants, type Commentary, type Primer } from "@nahwi/content";
 import { TEACHER } from "../config/about";
 import { fmt, t } from "../i18n";
 import { diedIn } from "./localize";
@@ -77,6 +77,11 @@ export function primerSource(p: Primer, locale: string): SourceInfo {
   const te = p.textEdition;
   const hasText = p.parts.some((part) => part.lessons.some((l) => l.text.length > 0));
   const lang = te ? S.languages[te.language] : S.languages.fa;
+  // The languages its passages are translated into (English, and those of i18n/<code>/primers/<id>.json).
+  const names = t(locale).header.trLangs as Record<string, string>;
+  const first = p.parts.flatMap((part) => part.lessons).find((l) => l.text.length > 0);
+  const langs = first ? ["en", ...Object.keys(primerTextVariants(p.id, first.n))].filter((x, i, a) => a.indexOf(x) === i) : [];
+  const list = (codes: string[]) => { const n = codes.map((c) => names[c] ?? c); return n.length > 1 ? `${n.slice(0, -1).join(", ")} ${S.and} ${n[n.length - 1]}` : n[0]; };
   const textRow: SourceRow = te
     ? te.selection && hasText
       ? { label: S.text, value: `${esc(lang)}: ${esc(S.quoted)}: ${editionText(te)}${te.pages ? `, ${esc(te.pages)}` : ""}`, href: te.source, linkText: S.scan }
@@ -91,8 +96,10 @@ export function primerSource(p: Primer, locale: string): SourceInfo {
     rows: [
       textRow,
       { label: S.lessonsFollow, value: te?.selection ? esc(fmt(S.lessonsAfter, { author: p.author })) : te && te.source === p.edition.source ? esc(S.lessonsOwnText) : `${editionText(p.edition)}${p.edition.pages ? `, ${esc(fmt(S.pages, { pages: p.edition.pages }))}` : ""}. ${esc(S.lessonsOwn)}` },
-      ...(p.parts.some((part) => part.lessons.some((l) => l.text.some((x) => x.ar)))
-        ? [{ label: S.translation, value: `${esc(S.translationOwnAr)} ${esc(t(locale).primer.aiNote)}` }, common(locale)[1]]
+      ...(langs.length > 1
+        ? [{ label: S.translation, value: `${esc(fmt(S.translationLanguages, { language: lang, languages: list(langs) }))} ${esc(t(locale).primer.aiNote)}` }]
+        : p.parts.some((part) => part.lessons.some((l) => l.text.some((x) => (x as { ar?: string }).ar)))
+        ? [{ label: S.translation, value: `${esc(S.translationOwnAr)} ${esc(t(locale).primer.aiNote)}` }, common(locale)[1]].filter(Boolean)
         : common(locale)),
     ],
     short: te?.selection && hasText ? fmt(S.shortQuoted, { edition: shortEdition(te) }) : te && hasText ? fmt(S.shortLine, { language: lang, edition: shortEdition(te) }) : fmt(S.shortLessons, { edition: shortEdition(p.edition) }),

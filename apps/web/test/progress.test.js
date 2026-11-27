@@ -356,3 +356,30 @@ describe("when the hearts are full again (the iPhone app's note)", () => {
     expect(heartsFullAt(three, t0 + 3 * HEART_MS)).toBeNull();
   });
 });
+
+// Two lanes side by side (ṣarf and naḥw, curriculum.json): after the first reading, the first book of each lane opens at
+// once; the second ṣarf book after the first; the next level after every book of this one (what lib/course.ts gives as `a`).
+describe("ṣarf and naḥw side by side", () => {
+  const lanes = {
+    path: [{ s: "t1", q: 3 }],
+    tracks: [
+      { id: "s1", a: ["terms"], v: 1, d: 2, l: [{ s: "s1-1", q: 3 }] },
+      { id: "n1", a: ["terms"], v: 1, d: 2, l: [{ s: "n1-1", q: 3 }] },
+      { id: "s2", a: ["s1"], v: 1, d: 2, l: [{ s: "s2-1", q: 3 }] },
+      { id: "x", a: ["s1", "n1", "s2"], v: 1, d: 3, l: [{ s: "x-1", q: 3 }] },
+    ],
+  };
+  const go = (scores) => progress(lanes, scores, new Set());
+  it("opens the first book of both lanes after the first reading", () => {
+    const p = go({ t1: 10 });
+    expect([p.tracks.s1.opened, p.tracks.n1.opened, p.tracks.s2.opened]).toEqual([true, true, false]);
+  });
+  it("opens the second ṣarf book after the first, whatever the naḥw lane has done", () => {
+    expect(go({ t1: 10, "s1-1": 10 }).tracks.s2.opened).toBe(true);
+    expect(go({ t1: 10, "n1-1": 10 }).tracks.s2.opened).toBe(false);
+  });
+  it("opens the next level only when both lanes are passed", () => {
+    expect(go({ t1: 10, "s1-1": 10, "s2-1": 10 }).tracks.x.opened).toBe(false);
+    expect(go({ t1: 10, "s1-1": 10, "s2-1": 10, "n1-1": 10 }).tracks.x.opened).toBe(true);
+  });
+});

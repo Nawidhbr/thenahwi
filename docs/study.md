@@ -41,7 +41,9 @@ in `progress.js`, plain JS sent inside `study-data.js` to the head script and te
   convenience in the browser, like every lock of the path.
 - Stars from a score out of 10: 1 star from 3, 2 from 6, 3 from 8.5.
 - A book opens when everything in its `a` is passed (for the first book after the terms: every term). Each next level
-  opens once every lesson of the level before it is passed. Lock texts name the book to pass first (`track.lockBook`).
+  opens once every lesson of the level before it is passed; inside a level the ṣarf and naḥw lanes are read side by
+  side, each book after the one before it in its lane (`a` from `lib/course.ts` `needsOn`, `docs/content.md`). Lock
+  texts name the book to pass first (`track.lockBook`).
 - "Up next" skips level-2 terms, if any are ever added.
 - Scores stay in the browser (`scores` in localStorage). The head script in `BaseLayout` sets `data-locked` and
   `data-passed` on `<html>` before paint. Locked terms, related-term links and pop-up links show a lock and name the
@@ -119,6 +121,12 @@ score.
   explanation has a diagram: both are tested in `test/diagrams.test.ts`. In Arabic the extra Arabic names in a
   figure are left out, since the labels are the Arabic terms. Keep labels at least 13px in a 360-wide viewBox so they
   stay legible on phones; examples and key terms are glass tiles (`.primer-example`, `.primer-terms`, `.examples`).
+  A primer lesson may instead carry a diagram of its own (`LessonDiagram` in the schema, drawn by
+  `components/LessonFigure.astro`): a division `tree` (boxes in rows up to four leaves, an indented outline beyond,
+  its `focus` node in copper) or a `grid` (an HTML table of forms, Arabic cells from the print or the engine), with a
+  `caption`.
+- **Exercises in writing** (`tasks` of a primer lesson): after the terms and before the test, each a task, the Arabic
+  it is about and a model answer behind a fold. They are not scored.
 - Arabic is always vocalised and shown with its transliteration. In Arabic the term name is the Arabic term itself,
   so it is shown once.
 - The last term of each part leads to `/en/complete/<part>/` (noindex, not in the sitemap): progress for the first
@@ -206,4 +214,9 @@ One gear menu in the header, all stored in localStorage:
   content keeps writing dates as Hijri/Gregorian. News and update dates are rendered by `newsDateHTML` in each
   language's own convention (solar Hijri in Persian, lunar Hijri with the Gregorian beside it in Arabic, Gregorian
   elsewhere, the others in the tooltip), whatever this setting;
+- the language of the translations under a book's passages (`trlang`, `data-trlang` on `<html>`, study portal only):
+  English, or Indonesian, Turkish, Urdu, Persian or Arabic where the book has them (`i18n/<code>/primers/<id>.json`
+  `text`). `Translation.astro` puts every language of a passage in the page and CSS shows the chosen one, English where
+  a passage lacks it; the same choice stands beside each text (`components/TextLanguage.astro`), and the source note
+  names the languages;
 - dark theme, install as app, and the language list (`docs/i18n.md`).

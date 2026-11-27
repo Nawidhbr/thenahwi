@@ -13,3 +13,6 @@ apps/cms/.vercel/
 apps/cms/dist/
 news-candidates.json
 news-candidates.md
+
+# Working folder of the books pipeline (docs/books-pipeline.md); the notes on each text are kept in packages/content/primers/notes/
+packages/content/staging/
