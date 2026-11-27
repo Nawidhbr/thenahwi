@@ -109,3 +109,9 @@
 - p. 120: «رَيَّانُ رَيَّانَانِ رِوَاءٌ، رَيَّا رَيَّيَانِ رِوَاءٌ أَيْضًا»: vowels the print's (رِوَاء with kasra).
 - p. 121: «رَيَّيَيْنِ مِثْلُ عَطْشَيَيْنِ … رَأَيْتُ رَيَّيَيَّ بِخَمْسِ يَاءَاتٍ»: vowels ours after the print and its gloss.
 - p. 122: the text ends on this page with «طَوَيَا وَطَاوِيَانِ» and the closing word «تَمَّ» (left out, as a scribal end mark); p. 123 is blank in the scan. There is no colophon or date for this part.
+
+## Points raised while translating (for the teacher)
+
+- p172: «كَمَا فِي رُمِيَ» is kept as printed (the passive); it may be meant as رَمَى.
+- p108: «الْحُمْرِ … الْحُمْرُ» may be meant as «الْأَحْمَر»; p112 «فَقَدْ جَاءَ اشْرَاطُهَا» and p182 «لَيْسَ مِنَ امْبِرِّ امْصِيَامُ فِي امْسَفَرِ»
+  (the lām of the article as mīm, in the dialect the book quotes) are kept as printed.
