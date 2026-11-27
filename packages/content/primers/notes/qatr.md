@@ -54,3 +54,5 @@
 ## Sections
 
 24 sections, 119 passages (7–50 words). Ends with «تَمَّتْ».
+- Lesson 3, quiz 2: a distractor read "salʾalatmūnīhā", a garble of saʾaltumūnīhā (the letters of augmentation); corrected after the Indonesian translator noticed it (27 Nov 2026).
+- Lesson 25, the matn passage: arḍaʿati al-ṣughrā al-kubrā was glossed "the younger suckled the elder"; the meaning (and the lesson's own body) is that the elder suckled the younger, which is why the object may come first. Corrected in the English after the Russian translator noticed it (27 Nov 2026); check the translated passages (text) of this lesson in the other languages.

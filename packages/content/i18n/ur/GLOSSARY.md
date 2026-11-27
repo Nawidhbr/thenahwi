@@ -294,3 +294,5 @@ with this list. The concepts and their order follow the English source list, `pa
   مجاوزت، استعلا، الصاق، استعانت، تعدیہ، اختصاص؛ مَا کافّہ؛ لامِ فارقہ؛ استدراک، تمنی، ترجی؛ اضراب؛ حروفِ تنبیہ، ایجاب،
   تحضیض؛ حرفِ توقع / تقریب؛ حرفِ ردع؛ أَنْ مفسرہ؛ تنوینِ تمکن، تنکیر، عوض، مقابلہ، ترنم؛ نونِ خفیفہ / ثقیلہ؛ التقائے ساکنین۔
   Quotations of the book in «…»; Qurʾān references as (البقرہ 2:221); the tribe Ṭayyiʾ is طے.
+- Correction (27 November 2026, round 4): the Amthila's title is الامثلۃ المختلفہ (not الامثلہ, as in the list of titles
+  above); in running text the series is امثلۂ مختلفہ.

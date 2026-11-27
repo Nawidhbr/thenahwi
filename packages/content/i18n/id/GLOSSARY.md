@@ -313,3 +313,17 @@ keep that file in step with this list. The layout follows the English source lis
   ya'] (فَعِيل) and fa'il [pendek] (فَعِل); fu'ul [dengan wawu] (فُعُول) beside fu'ul (فُعُل); maf'ul [tanpa wawu]
   (مَفْعُل) beside maf'ul; fa'al [dengan alif] (فَعَال) beside fa'al (فَعَل), likewise fi'al, fu'al; fa'ala [dengan alif
   maqshurah] (فَعَلَى). Metre: fa'ilun [dengan alif] (فَاعِلُن) beside fa'ilun (فَعِلُن). The poem itself: Lamiyah.
+- Qathrun Nada (round 3): the book is “Qathrun Nada” (in full Qathrun Nada wa Ballush Shada), its author Ibnu Hisyam
+  al-Anshari, his commentary Syarh Qathrin Nada; the site's conjugation engine is “mesin tashrif”. Terms as in the
+  book's passages: nun niswah, wawu jamaah, ya' mukhathabah, dhamir rafa' yang berharakat, huruf na'aitu, al-amtsilah
+  al-khamsah, maqshur, manqush; further ma kaffah, anna yang diringankan, lam ibtida', dhamir fashl, dhamir sya'n,
+  rabith, 'a'id, fi'il 'ilm / fi'il zhann, af'alul qulub, ilgha', ta'liq, isytighal, tanazu', i'timad, hikayatul hal,
+  syabih bil-mudhaf, nakirah maqshudah / ghairu maqshudah, tarkhim, istighatsah (mustaghats), nudbah (mandub),
+  istitsna' muttashil / munqathi' / mufarragh, mustatsna minhu, na'at sababi, qath' (na'at yang diputus), 'athaf bayan /
+  'athaf nasaq, idhafah ma'nawiyyah / lafzhiyyah; ulama Bashrah / ulama Kufah, Bani Tamim, penduduk Hijaz.
+- The particle lām (ل), where it could be read as لَمْ, is named by its kind: lam jar (ل), lam ta'lil, lam thalab,
+  lam juhud, lam ibtida'. Look-alikes of the Qathrun Nada: hati [pr.], qama [tatsniyah] rajulani, ya ghulami [dengan
+  ya'] beside ya ghulami, ya ghulama [dengan alif], ya abati [dengan ya'], ya Manshu [dengan wawu], adh-dhariba
+  [tatsniyah] / adh-dharibu [jamak] Zaidin, allati [jamak] (اللَّاتِي); else the Arabic beside it: dhamir (ضَامِرٌ)
+  “kurus”, idza (إِذَا) as the pause of idzan. Hamzat al-wasl is joined like the article (faqdhi, idzibtala,
+  manistatha'a).

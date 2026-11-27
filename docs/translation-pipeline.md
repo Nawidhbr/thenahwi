@@ -49,3 +49,24 @@ explained in the language. A single primer file: `node --experimental-strip-type
 packages/content/i18n/<code>/primers/<id>.json --translation`. Write large files in parts (one book or one part of the
 interface at a time), check each, and keep `packages/content/staging/STATUS-i18n-<code>.md` up to date: what is done,
 what is next, the choices you made — the next translator for your language starts from it.
+
+## Parallel rounds (from 27 November 2026, 23:15)
+
+To finish sooner, each language now has several translators at once. Each owns its own files, and nothing else:
+
+- **The main translator** of a language (status file `STATUS-i18n-<code>.md`) owns the interface file
+  `apps/web/src/i18n/<code>.json` and the books the coordinator gave it. Only it adds interface keys.
+- **A book translator** owns `i18n/<code>/primers/<book>.json` for the books named in its task, and keeps its notes in
+  `packages/content/staging/STATUS-i18n-<code>-<book>.md`. It never touches another book, the interface file or another
+  translator's status file. When check-locale lists missing interface keys, it leaves them to the main translator.
+- **The encyclopedia translators** own `i18n/<code>/background/…` as split in their task (people, or articles +
+  concepts + library), with notes in `STATUS-i18n-<code>-encyclopedia-<part>.md`. Translate what is there when you
+  start; scholar pages added later in English are picked up by the next round. The Nuzhat al-alibbāʾ itself
+  (`tabaqat/nuzhat.json`) is not translated yet.
+- **GLOSSARY.md is shared:** add a new choice only by appending, in one shell command (`cat >> … <<'EOF'`); never rewrite
+  the file with an editor, and read it again before each part, since others add to it.
+- **Memory:** the machine is small. Run check-locale under a lock, so only one runs at a time:
+  `flock /tmp/nahwi-cl.lock node --experimental-strip-types packages/content/scripts/check-locale.ts <code>`.
+  Never run validate, build, astro or `npm run check`; the coordinator does.
+- Shared tool folders (`/home/claude/<lang>-tools`, `translator-tools/<code>`, `nltools` …) are fine to use together, as
+  long as your drafts carry your book's name.

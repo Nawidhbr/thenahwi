@@ -1,0 +1,809 @@
+{
+  "title": "Hidâyat al-nahw",
+  "summary": "Hidâyat al-nahw, « la guidance du nahw », est le manuel arabe de nahw de la madrasa indienne, lu dans le Dars-i Nizâmî après le Nahw-i Mîr et avant la Kâfiya d'Ibn al-Hâjib. L'édition ne nomme aucun auteur ; le livre est attribué à Sirâj al-Dîn 'Uthmân al-Awadhî. Son auteur dit avoir rassemblé les questions importantes du nahw « dans l'ordre de la Kâfiya », en termes clairs, avec un exemple pour chaque question et sans les preuves et les raisons qui distrairaient le débutant. Il va d'une introduction sur le nahw, le mot et le discours, au nom (l'i'râb et le diptote ; le marfû', le mansûb et le majrûr ; les suivants ; le nom fixe ; les autres règles du nom), puis au verbe et à la particule. Les leçons suivent la lithographie de Kanpur, des presses de Nawal Kishor, 1300/1883, quelques passages à la fois.",
+  "parts": {
+    "introduction": "L'introduction : le nahw, le mot et le discours",
+    "muarab": "Le nom déclinable : l'i'râb et le diptote",
+    "marfuat": "Les noms marfû'",
+    "mansubat": "Les noms mansûb",
+    "majrurat": "Les noms majrûr",
+    "followers": "Les suivants",
+    "mabni": "Le nom fixe (mabnî)",
+    "noun-rules": "Les autres règles du nom",
+    "verb": "Le verbe",
+    "particle": "La particule"
+  },
+  "lessons": {
+    "1": {
+      "title": "Le livre et son plan ; le nahw ; les trois sortes de mots",
+      "body": [
+        "L'auteur dit clairement quel livre est celui-ci : « un livre court et soigneusement établi sur le nahw », qui rassemble ses questions importantes « dans l'ordre de la Kâfiya », en termes clairs, avec un exemple pour chaque question, « sans entrer dans les preuves et les raisons, de peur qu'elles ne distraient l'esprit du débutant ». La Hidâya est donc l'ordre de la Kâfiya rendu clair. Dans la madrasa indienne, elle vient après le Nahw-i Mîr persan et avant la Kâfiya elle-même : les règles sont déjà connues dans leurs grandes lignes, et on les apprend ici en arabe, en entier, avec leurs conditions.",
+        "L'introduction donne les premiers principes (mabâdi') dont dépendent les questions. La madrasa en demande trois à toute science avant de la commencer, et le livre donne les trois. La définition : le nahw est « une connaissance de règles par lesquelles on connaît les situations des finales des trois sortes de mots, quant à l'i'râb et au binâ', et la manière dont certains se joignent à d'autres ». Le but : « préserver l'esprit de l'erreur d'énonciation dans le discours des Arabes ». L'objet : le mot (kalima) et le discours (kalâm).",
+        "Remarquez les deux moitiés de la définition. Le nahw regarde les finales des mots (si elles changent, l'i'râb, ou si elles restent, le binâ'), et il regarde comment les mots se joignent. L'intérieur du mot, son schème et ses lettres, relève du sarf.",
+        "Le mot est « une énonciation établie pour un sens unique », et il se limite à trois divisions. Le livre le prouve par une division qui ne laisse rien de côté : ou bien un mot n'indique pas un sens par lui-même, et c'est la particule ; ou bien il l'indique, et son sens est joint à l'un des trois temps, et c'est le verbe ; ou bien il l'indique, et son sens n'est pas joint à un temps, et c'est le nom. Il n'y a pas de quatrième possibilité, donc pas de quatrième sorte de mot."
+      ],
+      "terms": [
+        "la connaissance des règles des finales des mots et de leur assemblage",
+        "l'objet et le but d'une science",
+        "le mot : une énonciation établie pour un sens unique",
+        "le nom, le verbe et la particule"
+      ],
+      "examples": [
+        "le nom du livre : « la guidance du nahw »",
+        "l'objet du nahw : le mot et le discours",
+        "un nom, un verbe et une particule, les exemples du livre lui-même"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez la définition, le but et l'objet du nahw tels que le livre les donne.",
+          "answer": "Définition : une connaissance de règles par lesquelles on connaît les situations des finales des trois sortes de mots, quant à l'i'râb et au binâ', et la manière dont les mots se joignent. But : préserver l'esprit de l'erreur d'énonciation dans le discours des Arabes. Objet : le mot et le discours."
+        },
+        {
+          "prompt": "Expliquez pourquoi il n'y a que trois sortes de mots.",
+          "answer": "Un mot ou bien n'indique pas un sens par lui-même (la particule), ou bien l'indique ; et s'il l'indique, son sens est soit joint à l'un des trois temps (le verbe), soit non (le nom). La division ne laisse pas de quatrième cas."
+        },
+        {
+          "prompt": "Que laisse l'auteur hors de son livre, et pourquoi ?",
+          "answer": "Les preuves et les raisons (al-adilla wa-l-'ilal) des règles, de peur qu'elles ne détournent l'esprit du débutant de la compréhension des règles elles-mêmes."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "L'auteur a disposé le livre dans l'ordre de…",
+          "options": [
+            "l'Alfiyya",
+            "la Kâfiya",
+            "al-Âjurrûmiyya",
+            "le Nahw-i Mîr"
+          ],
+          "explanation": "Le livre dit : « dans l'ordre de la Kâfiya »."
+        },
+        {
+          "prompt": "Que laisse le livre de côté ?",
+          "options": [
+            "les exemples",
+            "les définitions",
+            "les preuves et les raisons",
+            "le verbe"
+          ],
+          "explanation": "De peur qu'elles ne distraient le débutant."
+        },
+        {
+          "prompt": "Le nahw regarde…",
+          "options": [
+            "l'intérieur des mots seulement",
+            "le sens des mots",
+            "les sons des lettres",
+            "les finales des mots et la manière dont ils se joignent"
+          ],
+          "explanation": "Quant à l'i'râb et au binâ', et à leur assemblage."
+        },
+        {
+          "prompt": "Le but du nahw est…",
+          "options": [
+            "de préserver l'esprit de l'erreur d'énonciation",
+            "de connaître le sens du Coran",
+            "d'apprendre la poésie",
+            "de connaître les racines"
+          ],
+          "explanation": "Dans le discours des Arabes."
+        },
+        {
+          "prompt": "L'objet du nahw est…",
+          "options": [
+            "la racine et le schème",
+            "le mot et le discours",
+            "la lettre",
+            "la phrase seulement"
+          ],
+          "explanation": "Al-kalima wa-l-kalâm."
+        },
+        {
+          "prompt": "Un mot qui indique un sens par lui-même, joint à un temps, est…",
+          "options": [
+            "un nom",
+            "une particule",
+            "un verbe",
+            "un discours"
+          ],
+          "explanation": "Son sens est joint à l'un des trois temps."
+        },
+        {
+          "prompt": "Un mot qui n'indique pas un sens par lui-même est…",
+          "options": [
+            "un nom",
+            "un verbe",
+            "un masdar",
+            "une particule"
+          ],
+          "explanation": "Son sens est dans autre chose."
+        }
+      ],
+      "diagram": {
+        "caption": "Pourquoi le mot est de trois sortes (p. 3)",
+        "labels": {
+          "Why the word is of three kinds (p. 3)": "Pourquoi le mot est de trois sortes (p. 3)",
+          "The word": "Le mot",
+          "particle: not in itself": "particule : pas par lui-même",
+          "verb: in itself, with time": "verbe : par lui-même, avec un temps",
+          "noun: in itself, no time": "nom : par lui-même, sans temps"
+        }
+      },
+      "text": [
+        "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux. Louange à Dieu, Seigneur des mondes ; la [bonne] fin est pour ceux qui Le craignent ; et que la bénédiction soit sur Son messager Muhammad, sur sa famille et sur ses Compagnons, tous ensemble. Ensuite : ceci est un livre court et soigneusement établi sur le nahw, dans lequel j'ai rassemblé les questions importantes du nahw dans l'ordre de la Kâfiya, disposé en chapitres et en sections, en termes clairs, en donnant des exemples dans toutes ses questions, sans entrer dans les preuves et les raisons, de peur qu'elles ne détournent l'esprit du débutant de la compréhension des questions. Je l'ai nommé Hidâyat al-nahw (« La guidance du nahw »), dans l'espoir que Dieu Très-Haut guide par lui les étudiants ; et je l'ai disposé en une introduction, trois parties et une conclusion, avec l'aide du Roi, le Puissant, l'Omniscient.",
+        "L'introduction porte sur les premiers principes qu'il faut placer en tête, parce que les questions en dépendent ; elle a trois sections. Section. Le nahw est une connaissance de règles par lesquelles on connaît les situations des finales des trois [sortes de] mots, quant à l'i'râb et au binâ', et la manière dont certains se joignent à d'autres. Son but est de préserver l'esprit de l'erreur d'énonciation dans le discours des Arabes ; et son objet est le mot (kalima) et le discours (kalâm).",
+        "Section. Le mot (kalima) est une énonciation établie pour un sens unique. Il se limite à trois divisions : le nom (ism), le verbe (fi'l) et la particule (harf) ; car ou bien il n'indique pas un sens par lui-même, et c'est la particule ; ou bien il indique un sens par lui-même et son sens est joint à l'un des trois temps, et c'est le verbe ; ou bien il indique un sens par lui-même et son sens n'est pas joint à l'un d'eux, et c'est le nom."
+      ]
+    },
+    "2": {
+      "title": "Le nom et le verbe : définitions, signes et noms",
+      "body": [
+        "Le nom est « un mot qui indique un sens par lui-même, non joint à l'un des trois temps, le passé, le présent et le futur ». Les deux exemples du livre, rajul « un homme » et 'ilm « la science », montrent qu'un nom peut nommer une chose que l'on voit ou un sens que l'on ne voit pas. Ses signes : il peut être ce dont on informe, Zaydun qâ'imun ; il peut être mudâf, ghulâmu Zaydin ; il prend le lâm de la détermination, al-rajul ; le jarr et le tanwîn, bi-Zaydin ; le duel, le pluriel, l'épithète (na't), le diminutif et l'interpellation. « Tout cela, ce sont des propriétés du nom » : aucune ne se trouve dans un verbe ou une particule, bien que tout nom ne les prenne pas toutes.",
+        "« Ce dont on informe » veut dire que l'on porte sur lui un jugement : il est un fâ'il, un maf'ûl ou un mubtada'. Le nom ism vient, dit le livre, de sumuww, « élévation », parce que le nom s'élève au-dessus de ses deux compagnons, « non de wasm, une marque sur le sens ». La première est la dérivation des Basriens, la seconde celle des Koufiens.",
+        "Le verbe est « un mot qui indique un sens par lui-même, d'une indication jointe au temps de ce sens » : daraba, yadribu, idrib. Ses signes : il peut être ce par quoi on informe, mais non ce dont on informe ; il prend qad, le sîn, sawfa et le jazm ; il se conjugue au passé et au mudâri' ; il est un ordre ou une interdiction ; et il prend les pronoms marfû' apparents, darabta, le tâ' quiescent du féminin, darabat, et le nûn d'insistance.",
+        "« Ce par quoi on informe » veut dire que le verbe est ce qui est jugé (le musnad), jamais ce sur quoi porte le jugement. Le verbe est appelé fi'l « du nom de son origine, le masdar », parce que le masdar « est en vérité le fi'l », l'acte, de l'agent : darb est l'acte de frapper, et daraba rapporte cet acte au temps passé.",
+        "Un piège : le tâ' du féminin n'est un signe du verbe que lorsqu'il est quiescent, comme dans darabat. Le tâ' voyellé, comme dans qâ'imatun, se trouve sur les noms. Il faut bien regarder un signe avant de s'en servir pour dire de quelle sorte est un mot."
+      ],
+      "terms": [
+        "ce dont on informe : on porte sur le mot un jugement",
+        "ce par quoi on informe : le mot est ce qui est jugé",
+        "les propriétés du nom, qui ne se trouvent dans aucun autre mot",
+        "le tâ' quiescent du féminin, un signe du verbe"
+      ],
+      "examples": [
+        "le nom dont on informe",
+        "le nom mudâf",
+        "le verbe sous ses trois formes",
+        "un pronom marfû' apparent ; le tâ' quiescent"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dites de quelle sorte est chaque mot et nommez le signe qui le montre : al-rajulu ; darabat ; bi-Zaydin ; qad qâma.",
+          "answer": "Al-rajulu : un nom (le lâm de la détermination). Darabat : un verbe (le tâ' quiescent du féminin). Bi-Zaydin : un nom (le jarr et le tanwîn). Qâma dans qad qâma : un verbe (qad)."
+        },
+        {
+          "prompt": "Que veut dire « ce dont on informe », et dans quels rôles informe-t-on d'un nom ?",
+          "answer": "Que l'on porte sur lui un jugement. On informe d'un nom quand il est un fâ'il, un maf'ûl ou un mubtada'."
+        },
+        {
+          "prompt": "Pourquoi le verbe est-il appelé fi'l ?",
+          "answer": "Du nom de son origine, le masdar : le masdar est en vérité le fi'l, l'acte, de l'agent, et le verbe rapporte cet acte dans un temps."
+        },
+        {
+          "prompt": "De quoi le livre dérive-t-il le mot ism, et de quoi ne le dérive-t-il pas ?",
+          "answer": "De sumuww, « élévation », parce que le nom s'élève au-dessus du verbe et de la particule ; non de wasm, « une marque ». La première est la dérivation basrienne, la seconde la koufienne."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Rajul et 'ilm montrent qu'un nom peut nommer…",
+          "options": [
+            "seulement une personne",
+            "seulement une chose que l'on voit",
+            "une chose ou un sens",
+            "un temps"
+          ],
+          "explanation": "Un homme, et la science."
+        },
+        {
+          "prompt": "Lequel est une propriété du nom ?",
+          "options": [
+            "qad",
+            "le nûn d'insistance",
+            "le sîn",
+            "le diminutif"
+          ],
+          "explanation": "Avec l'idâfa, le lâm, le jarr, le tanwîn, le duel, le pluriel, le na't et l'interpellation."
+        },
+        {
+          "prompt": "Lequel est un signe du verbe ?",
+          "options": [
+            "le tâ' quiescent du féminin",
+            "le tanwîn",
+            "le lâm de la détermination",
+            "l'interpellation"
+          ],
+          "explanation": "Comme dans darabat, « elle a frappé »."
+        },
+        {
+          "prompt": "Le verbe peut être…",
+          "options": [
+            "ce dont on informe, non ce par quoi on informe",
+            "ce par quoi on informe, non ce dont on informe",
+            "l'un et l'autre",
+            "ni l'un ni l'autre"
+          ],
+          "explanation": "Il est toujours ce qui est jugé."
+        },
+        {
+          "prompt": "Le livre dérive ism de…",
+          "options": [
+            "wasm, une marque",
+            "ism, le péché",
+            "sumuww, l'élévation",
+            "samâ', le ciel"
+          ],
+          "explanation": "Parce qu'il s'élève au-dessus de ses deux compagnons."
+        },
+        {
+          "prompt": "Le verbe tire son nom…",
+          "options": [
+            "du passé",
+            "du fâ'il",
+            "de la racine",
+            "du masdar, l'acte de l'agent"
+          ],
+          "explanation": "Le masdar est en vérité le fi'l de l'agent."
+        },
+        {
+          "prompt": "Daraba, yadribu, idrib sont donnés comme exemples…",
+          "options": [
+            "du verbe",
+            "du nom",
+            "de la particule",
+            "du masdar"
+          ],
+          "explanation": "Un sens joint à son temps."
+        }
+      ],
+      "diagram": {
+        "caption": "Les signes du nom et du verbe (pp. 4–5)",
+        "labels": {
+          "The signs of the noun and of the verb (pp. 4–5)": "Les signes du nom et du verbe (pp. 4–5)",
+          "Sign of the noun": "Signe du nom",
+          "Example": "Exemple",
+          "Sign of the verb": "Signe du verbe",
+          "told about": "on informe de lui",
+          "told with, not about": "on informe par lui, non de lui",
+          "iḍāfa": "idâfa",
+          "qad, the sīn, sawfa": "qad, le sîn, sawfa",
+          "the lām of definiteness": "le lâm de la détermination",
+          "jazm": "jazm",
+          "jarr and tanwīn": "jarr et tanwîn",
+          "past and muḍāriʿ": "passé et mudâri'",
+          "dual and plural": "duel et pluriel",
+          "command or prohibition": "ordre ou interdiction",
+          "adjective, diminutive": "épithète, diminutif",
+          "visible marfūʿ pronoun": "pronom marfû' apparent",
+          "the vocative": "l'interpellation",
+          "quiescent tāʾ; nūn of emphasis": "tâ' quiescent ; nûn d'insistance"
+        }
+      },
+      "text": [
+        "La définition du nom : un mot qui indique un sens par lui-même, non joint à l'un des trois temps — je veux dire le passé, le présent et le futur —, comme rajulin « un homme » et 'ilmin « la science ». Ses signes sont qu'il peut à bon droit être ce dont on informe, comme Zaydun qâ'imun « Zayd est debout » ; l'idâfa, comme ghulâmu Zaydin « le serviteur de Zayd » ; la venue du lâm de la détermination, comme al-rajuli « l'homme » ; le jarr et le tanwîn, comme bi-Zaydin « par Zayd » ; et le duel, le pluriel, le na't, le diminutif et l'interpellation ; car tout cela, ce sont des propriétés du nom.",
+        "Le sens de son « être ce dont on informe » est que l'on porte sur lui un jugement, parce qu'il est un fâ'il, un maf'ûl ou un mubtada'. Il est appelé ism pour son élévation (sumuww) au-dessus de ses deux divisions compagnes, non parce qu'il serait une marque (wasm) sur le sens.",
+        "La définition du verbe : un mot qui indique un sens par lui-même, d'une indication jointe au temps de ce sens, comme daraba « il a frappé », yadribu « il frappe » et idrib « frappe ! ». Ses signes sont qu'il peut à bon droit être ce par quoi on informe, non ce dont on informe ; la venue de qad, du sîn, de sawfa et du jazm ; le fait de se conjuguer au passé et au mudâri' ; le fait d'être un ordre ou une interdiction ; l'attache des pronoms marfû' apparents, comme darabta « tu as frappé », du tâ' quiescent du féminin, comme darabat « elle a frappé », et du nûn d'insistance ; car tout cela, ce sont des propriétés du verbe.",
+        "Le sens de son « être ce par quoi on informe » est qu'il est ce qui est jugé. Il est appelé fi'l du nom de son origine, le masdar ; car le masdar est en vérité le fi'l (l'acte) de l'agent."
+      ]
+    },
+    "3": {
+      "title": "La particule ; le discours et la phrase",
+      "body": [
+        "La particule est « un mot qui n'indique pas un sens par lui-même, mais qui indique un sens dans autre chose ». L'exemple du livre est min : son sens est « le commencement », mais il ne montre ce sens qu'une fois nommé le lieu à partir duquel on commence : sirtu mina al-basrati ilâ al-kûfati, « j'ai voyagé de Basra à Koufa ». Son signe est négatif : elle ne peut être ni ce dont on informe ni ce par quoi on informe, et elle ne prend aucun des signes du nom ou du verbe.",
+        "Les particules travaillent dans le discours. Elles relient deux noms, Zaydun fî al-dâri ; deux verbes, urîdu an tadriba ; un nom et un verbe, darabtu bi-l-khashabati, « j'ai frappé avec le bâton » ; ou deux phrases, in jâ'anî Zaydun akramtuhu. La troisième partie du livre les prend une à une. Elle est appelée harf, « bord », parce qu'elle se tient au bord du discours, « non visée pour elle-même, comme le musnad et le musnad ilayhi ».",
+        "Le discours (kalâm) est « une énonciation qui contient deux mots par attribution (isnâd) », et l'attribution est le fait de rapporter un mot à l'autre « de sorte qu'il donne à l'interlocuteur une information complète après laquelle on peut à bon droit se taire » : Zaydun qâ'imun, qâma Zaydun. L'épreuve du discours est que l'auditeur ne reste pas dans l'attente. Ghulâmu Zaydin fait deux mots, mais ce n'est pas un discours : on attend d'entendre ce qu'il en est du serviteur.",
+        "Le discours ne naît donc que de deux noms, Zaydun qâ'imun, une phrase nominale, ou d'un verbe et d'un nom, qâma Zaydun, une phrase verbale. Là seulement se trouvent ensemble le musnad et le musnad ilayhi : une particule n'est ni l'un ni l'autre, et un verbe ne peut être ce dont on informe, si bien que deux verbes, ou un verbe et une particule, ne font pas de discours.",
+        "Le livre répond à une objection. Yâ Zaydu, « ô Zayd ! », semble être un discours fait d'une particule et d'un nom. Non : « la particule de l'interpellation tient la place de ad'û, “j'appelle”, et de atlubu, “je demande”, qui est le verbe », si bien que yâ Zaydu est, après tout, un verbe et un nom."
+      ],
+      "terms": [
+        "le discours : deux mots joints par attribution",
+        "l'attribution : rapporter un mot à un autre avec une information complète",
+        "ce qui est attribué, et ce à quoi l'on attribue",
+        "la phrase nominale et la phrase verbale"
+      ],
+      "examples": [
+        "min ne montre son sens qu'avec ce qui le suit",
+        "une particule qui relie un verbe et un nom",
+        "une phrase nominale et une phrase verbale",
+        "yâ tient la place de ad'û, un verbe"
+      ],
+      "tasks": [
+        {
+          "prompt": "Expliquez, avec l'exemple du livre, comment min indique son sens « dans autre chose ».",
+          "answer": "Min signifie le commencement d'un voyage ou d'une distance, mais il ne montre ce sens que lorsque le lieu d'où l'on commence est nommé après lui, ici al-basra. Seul, min ne dit rien."
+        },
+        {
+          "prompt": "Dites ce que relie chaque particule : Zaydun fî al-dâri ; urîdu an tadriba ; in jâ'anî Zaydun akramtuhu.",
+          "answer": "Fî relie deux noms, Zayd et la maison. An relie deux verbes, urîdu et tadriba. In relie deux phrases, la condition jâ'anî Zaydun et la réponse akramtuhu."
+        },
+        {
+          "prompt": "Ghulâmu Zaydin est-il un discours ? Donnez la raison.",
+          "answer": "Non. Il a deux mots, mais ils sont joints par l'idâfa, non par l'attribution : rien n'est dit du serviteur, et l'auditeur reste dans l'attente ; il n'y a donc pas d'information complète après laquelle on puisse se taire."
+        },
+        {
+          "prompt": "Comment le livre répond-il à celui qui dit que yâ Zaydu est un discours fait d'une particule et d'un nom ?",
+          "answer": "La particule de l'interpellation tient la place du verbe ad'û ou atlubu, « j'appelle » ; yâ Zaydu est donc en vérité un verbe et un nom, et la règle tient."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le signe de la particule est qu'…",
+          "options": [
+            "elle prend le tanwîn",
+            "elle est ce dont on informe",
+            "elle a un temps",
+            "elle ne prend aucun signe du nom ou du verbe"
+          ],
+          "explanation": "Elle n'est ni ce dont on informe ni ce par quoi on informe."
+        },
+        {
+          "prompt": "Min signifie…",
+          "options": [
+            "le commencement",
+            "la fin",
+            "le lieu",
+            "le temps"
+          ],
+          "explanation": "Il ne le montre qu'avec ce qui suit."
+        },
+        {
+          "prompt": "Dans darabtu bi-l-khashabati, le bâ' relie…",
+          "options": [
+            "deux noms",
+            "un verbe et un nom",
+            "deux verbes",
+            "deux phrases"
+          ],
+          "explanation": "Le fait de frapper et le bâton."
+        },
+        {
+          "prompt": "Le discours doit donner…",
+          "options": [
+            "deux verbes",
+            "une particule",
+            "une information complète après laquelle on peut se taire",
+            "trois mots"
+          ],
+          "explanation": "C'est l'attribution (isnâd)."
+        },
+        {
+          "prompt": "Lequel est un discours ?",
+          "options": [
+            "ghulâmu Zaydin",
+            "fî al-dâri",
+            "in qâma",
+            "qâma Zaydun"
+          ],
+          "explanation": "Un verbe et un nom, avec attribution."
+        },
+        {
+          "prompt": "Le discours ne naît que…",
+          "options": [
+            "de deux noms, ou d'un verbe et d'un nom",
+            "de deux verbes",
+            "d'un verbe et d'une particule",
+            "d'un nom et d'une particule"
+          ],
+          "explanation": "Là seulement se trouvent ensemble le musnad et le musnad ilayhi."
+        },
+        {
+          "prompt": "Dans yâ Zaydu, yâ tient la place…",
+          "options": [
+            "d'un nom",
+            "d'un verbe : ad'û, « j'appelle »",
+            "d'un mubtada'",
+            "de rien"
+          ],
+          "explanation": "L'interpellation ne brise donc pas la règle."
+        }
+      ],
+      "diagram": {
+        "caption": "Le discours et ses deux sortes (pp. 5–6)",
+        "labels": {
+          "Speech and its two kinds (pp. 5–6)": "Le discours et ses deux sortes (pp. 5–6)",
+          "Speech": "Le discours",
+          "nominal: two nouns": "nominale : deux noms",
+          "verbal: verb and noun": "verbale : verbe et nom",
+          "yā Zaydu: yā for adʿū": "yâ Zaydu : yâ pour ad'û"
+        }
+      },
+      "text": [
+        "La définition de la particule : un mot qui n'indique pas un sens par lui-même mais qui indique un sens dans autre chose, comme min « de » : son sens est le commencement, et il ne l'indique qu'après la mention de ce à partir de quoi est le commencement, comme Basra et Koufa, par exemple ; tu dis sirtu mina al-basrati ilâ al-kûfati « j'ai voyagé de Basra à Koufa ». Son signe est qu'elle ne peut à bon droit être ni ce dont on informe ni ce par quoi on informe, et qu'elle n'accepte ni les signes des noms ni les signes des verbes.",
+        "La particule a des emplois dans le discours des Arabes, comme relier deux noms, comme Zaydun fî al-dâri « Zayd est dans la maison » ; deux verbes, comme urîdu an tadriba « je veux que tu frappes » ; un nom et un verbe, comme darabtu bi-al-khashabati « j'ai frappé avec le bâton » ; ou deux phrases, comme in jâ'anî Zaydun akramtuhu « si Zayd vient à moi, je l'honorerai » ; et d'autres emplois que tu apprendras dans la troisième partie, si Dieu Très-Haut le veut. Elle est appelée harf parce qu'elle se tient dans le discours comme un harf, c'est-à-dire un bord ; car elle n'est pas visée pour elle-même, comme le musnad et le musnad ilayhi (ce qui est attribué et ce à quoi l'on attribue).",
+        "Section. Le discours (kalâm) est une énonciation qui contient deux mots par attribution (isnâd). L'attribution est le fait de rapporter l'un des deux mots à l'autre de telle sorte qu'il donne à l'interlocuteur une information complète après laquelle on peut à bon droit se taire, comme Zaydun qâ'imun « Zayd est debout » et qâma Zaydun « Zayd s'est levé » ; et on l'appelle une phrase (jumla). On sait donc que le discours ne naît que de deux noms, comme Zaydun qâ'imun, et on l'appelle une phrase nominale (jumla ismiyya), ou d'un verbe et d'un nom, comme qâma Zaydun, et on l'appelle une phrase verbale (jumla fi'liyya) ; car le musnad et le musnad ilayhi ne se trouvent ensemble dans rien d'autre, et le discours ne peut se passer d'eux.",
+        "Si l'on dit : cela est brisé par l'interpellation, comme yâ Zaydu « ô Zayd ! », nous disons : la particule de l'interpellation tient la place de ad'û « j'appelle » et de atlubu « je demande », qui est le verbe ; elle ne la brise donc pas. Maintenant que nous avons achevé l'introduction, commençons les trois parties ; Dieu est celui qui accorde le succès et l'aide."
+      ]
+    },
+    "4": {
+      "title": "Le nom déclinable ; l'i'râb, le régissant et sa place",
+      "body": [
+        "La première partie porte sur le nom, qui se divise en déclinable (mu'rab) et fixe (mabnî). Le livre le traite en deux chapitres et une conclusion ; le premier chapitre, sur le mu'rab, a une introduction, trois buts (le marfû', le mansûb et le majrûr) et une conclusion sur les suivants. C'est le plan de la Kâfiya, et il vaut la peine de l'apprendre, car c'est la carte des quarante leçons qui suivent.",
+        "Le nom déclinable est « tout nom qui est joint à un autre et qui ne ressemble pas à ce qui est fixe par origine », c'est-à-dire « la particule, l'impératif à celui qui est présent et le passé ». Deux conditions. Il doit se trouver dans un assemblage : Zaydun énoncé seul n'est pas encore mu'rab. Et il ne doit pas ressembler à ces mots fixes : hâ'ulâ'i dans qâma hâ'ulâ'i est dans un assemblage, mais il ressemble à la particule, il est donc fixe. Un tel nom est appelé mutamakkin, « bien établi » dans sa qualité de nom.",
+        "Sa règle est « que sa finale change selon le changement des régissants », soit de façon apparente, jâ'anî Zaydun, ra'aytu Zaydan, marartu bi-Zaydin, soit de façon sous-entendue, jâ'anî Mûsâ, ra'aytu Mûsâ, marartu bi-Mûsâ, où l'alif ne peut montrer la voyelle. L'i'râb est « ce par quoi la finale change » : la damma, la fatha et la kasra, le wâw, l'alif et le yâ'.",
+        "L'i'râb du nom est de trois sortes, le raf', le nasb et le jarr. Le régissant ('âmil) est « ce par quoi un mot est mis au raf', au nasb ou au jarr », et la place de l'i'râb est la dernière lettre. Dans qâma Zaydun, le livre nomme les quatre : qâma est le régissant, Zaydun le mot déclinable, la damma l'i'râb, et le dâl la place. L'élève qui sait nommer ces quatre choses dans n'importe quelle phrase a appris la langue de l'analyse grammaticale.",
+        "Enfin, « rien n'est déclinable dans le discours des Arabes, sinon le nom bien établi et le verbe mudâri' ». Toute particule, tout verbe au passé et tout impératif sont fixes ; l'i'râb du mudâri' vient dans la deuxième partie."
+      ],
+      "terms": [
+        "le nom bien établi : le mu'rab",
+        "fixe par origine : la particule, l'impératif, le passé",
+        "le régissant, par lequel un mot est mis au raf', au nasb ou au jarr",
+        "la place de l'i'râb : la dernière lettre"
+      ],
+      "examples": [
+        "hâ'ulâ'i ressemble à la particule : fixe",
+        "la finale change de façon apparente",
+        "la finale change de façon sous-entendue",
+        "le régissant, le mot déclinable, l'i'râb et sa place"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi Zaydun est-il mu'rab dans qâma Zaydun, alors que hâ'ulâ'i dans qâma hâ'ulâ'i ne l'est pas ?",
+          "answer": "Les deux se trouvent dans un assemblage. Mais hâ'ulâ'i ressemble à ce qui est fixe par origine (la particule), il est donc fixe ; Zaydun ne ressemble à aucun d'eux, il est donc mu'rab."
+        },
+        {
+          "prompt": "Nommez le régissant, le mot déclinable, l'i'râb et sa place dans ra'aytu Zaydan.",
+          "answer": "Le régissant est ra'aytu ; le mot déclinable est Zaydan ; l'i'râb est la fatha (le nasb) ; sa place est le dâl, la dernière lettre."
+        },
+        {
+          "prompt": "Dans jâ'anî Mûsâ, quel est l'i'râb de Mûsâ, et pourquoi ne le voit-on pas ?",
+          "answer": "Mûsâ est le fâ'il, au raf', mais la damma est sous-entendue : le mot finit par un alif, qui ne peut porter de voyelle. Sa finale change de façon sous-entendue, non de façon apparente."
+        },
+        {
+          "prompt": "Quelles sont les deux seules sortes de mots déclinables en arabe ?",
+          "answer": "Le nom bien établi et le verbe mudâri'. Tout autre mot est fixe."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le premier chapitre de la partie sur le nom porte sur…",
+          "options": [
+            "le nom déclinable",
+            "le nom fixe",
+            "le verbe",
+            "la particule"
+          ],
+          "explanation": "Avec une introduction, trois buts et une conclusion."
+        },
+        {
+          "prompt": "Lequel est fixe par origine, dans ce livre ?",
+          "options": [
+            "le mudâri'",
+            "le verbe au passé",
+            "le nom",
+            "le masdar"
+          ],
+          "explanation": "Avec la particule et l'impératif à celui qui est présent."
+        },
+        {
+          "prompt": "Zaydun, énoncé seul, est…",
+          "options": [
+            "mu'rab",
+            "fixe par origine",
+            "pas encore mu'rab : il n'est dans aucun assemblage",
+            "une phrase"
+          ],
+          "explanation": "Le nom déclinable doit être joint à un autre mot."
+        },
+        {
+          "prompt": "Le nom mu'rab est aussi appelé…",
+          "options": [
+            "mabnî",
+            "ghayr munsarif",
+            "mawsûl",
+            "mutamakkin"
+          ],
+          "explanation": "Bien établi."
+        },
+        {
+          "prompt": "Dans jâ'anî Mûsâ, la finale change…",
+          "options": [
+            "de façon sous-entendue",
+            "de façon apparente",
+            "pas du tout",
+            "par une lettre"
+          ],
+          "explanation": "L'alif ne peut montrer la voyelle."
+        },
+        {
+          "prompt": "La place de l'i'râb dans un nom est…",
+          "options": [
+            "la première lettre",
+            "la dernière lettre",
+            "la lettre du milieu",
+            "le mot entier"
+          ],
+          "explanation": "Dans qâma Zaydun, le dâl."
+        },
+        {
+          "prompt": "Lequel est déclinable en arabe ?",
+          "options": [
+            "le verbe au passé",
+            "la particule",
+            "le verbe mudâri'",
+            "l'impératif"
+          ],
+          "explanation": "Avec le nom bien établi."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatre noms dans qâma Zaydun (p. 7)",
+        "labels": {
+          "The four names in qāma Zaydun (p. 7)": "Les quatre noms dans qâma Zaydun (p. 7)",
+          "Name": "Nom",
+          "In qāma Zaydun": "Dans qâma Zaydun",
+          "the governor (ʿāmil)": "le régissant ('âmil)",
+          "the inflected word (muʿrab)": "le mot déclinable (mu'rab)",
+          "the iʿrāb": "l'i'râb",
+          "the place of the iʿrāb": "la place de l'i'râb"
+        }
+      },
+      "text": [
+        "Sa définition a été donnée. Il se divise en déclinable (mu'rab) et fixe (mabnî) ; mentionnons donc ses règles en deux chapitres et une conclusion. Le premier chapitre, sur le nom déclinable : il a une introduction, trois buts et une conclusion. L'introduction a [plusieurs] sections.",
+        "Section sur la définition du nom déclinable. C'est tout nom qui est joint à un autre [mot] et qui ne ressemble pas à ce qui est fixe par origine — je veux dire la particule, l'impératif à celui qui est présent et le passé —, comme Zaydun dans qâma Zaydun « Zayd s'est levé » ; non Zaydun seul, parce qu'il n'y a pas d'assemblage ; et non hâ'ulâ'i « ceux-ci » dans qâma hâ'ulâ'i « ceux-ci se sont levés », à cause de la ressemblance. On l'appelle mutamakkin (bien établi).",
+        "Section. Sa règle est que sa finale change selon le changement des régissants, de façon apparente, comme jâ'anî Zaydun « Zayd est venu à moi », ra'aytu Zaydan « j'ai vu Zayd » et marartu bi-Zaydin « je suis passé près de Zayd », ou de façon sous-entendue, comme jâ'anî Mûsâ « Mûsâ est venu à moi », ra'aytu Mûsâ « j'ai vu Mûsâ » et marartu bi-Mûsâ « je suis passé près de Mûsâ ». L'i'râb est ce par quoi change la finale du mot déclinable, comme la damma, la fatha, la kasra, le wâw, l'alif et le yâ'.",
+        "L'i'râb du nom est de trois sortes : le raf', le nasb et le jarr. Le régissant ('âmil) est ce par quoi [un mot] est mis au raf', au nasb ou au jarr. La place de l'i'râb dans le nom est la dernière lettre. Un exemple de tous est qâma Zaydun « Zayd s'est levé » : qâma est le régissant, Zaydun le mot déclinable, la damma l'i'râb et le dâl la place de l'i'râb. Sache que dans le discours des Arabes rien n'est déclinable sinon le nom bien établi et le verbe mudâri' ; sa règle viendra dans la deuxième partie, si Dieu Très-Haut le veut."
+      ]
+    },
+    "5": {
+      "title": "Les sortes de l'i'râb du nom, de la première à la quatrième",
+      "body": [
+        "L'i'râb du nom se présente en neuf sortes (asnâf) : neuf ensembles de signes, chacun propre à une catégorie de noms. Pour analyser un nom, l'élève doit d'abord connaître sa catégorie, et il connaît alors ses signes. La première sorte est la plus simple : le raf' par la damma, le nasb par la fatha, le jarr par la kasra. Elle est propre au singulier pleinement décliné et sain, « celui qui n'a pas de lettre faible à sa fin », comme Zayd ; à « ce qui court comme le sain », un mot qui finit par un wâw ou un yâ' après un sukûn, comme dalw, « seau », et zaby, « gazelle » ; et au pluriel brisé pleinement décliné, rijâl.",
+        "Pourquoi dalw et zaby prennent-ils les trois voyelles, alors qu'un mot comme al-qâdî ne les prend pas ? Parce que le wâw et le yâ' viennent après un sukûn : on les prononce aussi fermement que n'importe quelle consonne, et une voyelle sur eux n'est pas lourde. Une lettre faible après une voyelle est une autre affaire (leçon 6).",
+        "La deuxième sorte : le raf' par la damma, le nasb et le jarr par la kasra. Elle est propre au pluriel féminin sain : hunna muslimâtun, ra'aytu muslimâtin, marartu bi-muslimâtin. La troisième : le raf' par la damma, le nasb et le jarr par la fatha, pour le diptote (ghayr al-munsarif) : jâ'anî 'Umaru, ra'aytu 'Umara, marartu bi-'Umara. Chacune ne prend que deux voyelles pour trois états, mais en sens opposés.",
+        "La quatrième : le raf' par le wâw, le nasb par l'alif, le jarr par le yâ'. Elle est propre aux six noms, à trois conditions : qu'ils ne soient pas des diminutifs, qu'ils soient au singulier, et qu'ils soient mudâf à autre chose que le yâ' de celui qui parle. Ce sont akhûka, abûka, hanûka, hamûki (son beau-père à elle, c'est pourquoi le kâf est féminin), fûka et dhû mâlin : jâ'anî akhûka, ra'aytu akhâka, marartu bi-akhîka. Qu'une condition manque, et les lettres s'en vont : ubayy, un diminutif, et akhawâni, un duel, prennent d'autres signes, et abî, « mon père », n'en prend aucun."
+      ],
+      "terms": [
+        "le singulier, pleinement décliné, sans lettre faible à sa fin",
+        "ce qui court comme le sain : wâw ou yâ' après un sukûn",
+        "le diptote : la fatha pour le nasb et le jarr",
+        "les six noms, avec le wâw, l'alif et le yâ'"
+      ],
+      "examples": [
+        "la première sorte au raf'",
+        "le pluriel féminin sain",
+        "le diptote",
+        "l'un des six noms"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez la catégorie de chaque nom et son signe dans l'état indiqué : ra'aytu zabyan ; marartu bi-muslimâtin ; ra'aytu 'Umara ; jâ'anî abûka.",
+          "answer": "Zabyan : court comme le sain (yâ' après un sukûn), au nasb par la fatha. Muslimâtin : pluriel féminin sain, au jarr par la kasra. 'Umara : diptote, au nasb par la fatha. Abûka : l'un des six noms, au raf' par le wâw."
+        },
+        {
+          "prompt": "Pourquoi dalw prend-il les trois voyelles ?",
+          "answer": "Son wâw vient après un sukûn, il court donc comme une lettre saine et une voyelle sur lui n'est pas lourde. Un tel nom prend la première sorte d'i'râb, comme Zayd."
+        },
+        {
+          "prompt": "Nommez les six noms tels que le livre les donne, et leurs trois conditions.",
+          "answer": "Akhûka, abûka, hanûka, hamûki, fûka et dhû mâlin. Ils ne doivent pas être des diminutifs, doivent être au singulier, et doivent être mudâf à autre chose que le yâ' de celui qui parle."
+        },
+        {
+          "prompt": "Comparez le pluriel féminin sain et le diptote.",
+          "answer": "Les deux n'ont que deux signes pour trois états. Le pluriel féminin sain prend la damma au raf' et la kasra au nasb et au jarr ; le diptote prend la damma au raf' et la fatha au nasb et au jarr."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de sortes d'i'râb du nom le livre compte-t-il ?",
+          "options": [
+            "trois",
+            "neuf",
+            "six",
+            "dix"
+          ],
+          "explanation": "Neuf ensembles de signes."
+        },
+        {
+          "prompt": "Zaby prend la première sorte parce que…",
+          "options": [
+            "c'est un pluriel brisé",
+            "c'est un diptote",
+            "son yâ' vient après un sukûn",
+            "il est mudâf"
+          ],
+          "explanation": "Il court comme le sain."
+        },
+        {
+          "prompt": "Le pluriel féminin sain, au nasb, prend…",
+          "options": [
+            "la fatha",
+            "le yâ'",
+            "l'alif",
+            "la kasra"
+          ],
+          "explanation": "Ra'aytu muslimâtin."
+        },
+        {
+          "prompt": "'Umar, au jarr, prend…",
+          "options": [
+            "la fatha",
+            "la kasra",
+            "le yâ'",
+            "le tanwîn"
+          ],
+          "explanation": "C'est un diptote : marartu bi-'Umara."
+        },
+        {
+          "prompt": "Lequel n'est PAS l'un des six noms ?",
+          "options": [
+            "akh",
+            "ibn",
+            "ham",
+            "dhû"
+          ],
+          "explanation": "Akh, ab, han, ham, fam, dhû."
+        },
+        {
+          "prompt": "Hamûki a un kâf féminin parce que ham est…",
+          "options": [
+            "un nom féminin",
+            "un pluriel",
+            "le beau-père d'une femme",
+            "un diminutif"
+          ],
+          "explanation": "La parenté du mari, pour l'épouse."
+        },
+        {
+          "prompt": "Dans ra'aytu akhâka, le signe du nasb est…",
+          "options": [
+            "la fatha",
+            "le yâ'",
+            "le kâf",
+            "l'alif"
+          ],
+          "explanation": "Les six noms : wâw, alif, yâ'."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatre premières sortes de l'i'râb du nom (pp. 8–9)",
+        "labels": {
+          "The first four kinds of the noun's iʿrāb (pp. 8–9)": "Les quatre premières sortes de l'i'râb du nom (pp. 8–9)",
+          "Class": "Catégorie",
+          "Rafʿ": "Raf'",
+          "Naṣb": "Nasb",
+          "Jarr": "Jarr",
+          "sound singular": "singulier sain",
+          "runs like the sound": "comme le sain",
+          "broken plural": "pluriel brisé",
+          "sound feminine plural": "pluriel féminin sain",
+          "diptote": "diptote",
+          "the six nouns": "les six noms"
+        }
+      },
+      "text": [
+        "Section sur les sortes de l'i'râb du nom. Elles sont neuf sortes. La première : que le raf' soit par la damma, le nasb par la fatha et le jarr par la kasra. Elle est propre au singulier pleinement décliné (munsarif) et sain — qui, chez les grammairiens, est celui qui n'a pas de lettre faible à sa fin, comme Zaydin — ; à ce qui court comme le sain, c'est-à-dire celui qui a à sa fin un wâw ou un yâ' précédés d'une lettre non voyellée, comme dalwin « un seau » et zabyin « une gazelle » ; et au pluriel brisé pleinement décliné, comme rijâlin « des hommes ».",
+        "Tu dis jâ'anî Zaydun wa-dalwun wa-zabyun wa-rijâlun « Zayd, un seau, une gazelle et des hommes sont venus à moi », ra'aytu Zaydan wa-dalwan wa-zabyan wa-rijâlan « j'ai vu Zayd, un seau, une gazelle et des hommes » et marartu bi-Zaydin wa-dalwin wa-zabyin wa-rijâlin « je suis passé près de Zayd, d'un seau, d'une gazelle et d'hommes ». La deuxième : que le raf' soit par la damma, et le nasb et le jarr par la kasra. Elle est propre au pluriel féminin sain ; tu dis hunna muslimâtun « elles sont des musulmanes », ra'aytu muslimâtin « j'ai vu des musulmanes » et marartu bi-muslimâtin « je suis passé près de musulmanes ».",
+        "La troisième : que le raf' soit par la damma, et le nasb et le jarr par la fatha. Elle est propre au diptote (ghayr al-munsarif), comme 'Umara ; tu dis jâ'anî 'Umaru « 'Umar est venu à moi », ra'aytu 'Umara « j'ai vu 'Umar » et marartu bi-'Umara « je suis passé près de 'Umar ».",
+        "La quatrième : que le raf' soit par le wâw, le nasb par l'alif et le jarr par le yâ'. Elle est propre aux six noms quand ils ne sont pas des diminutifs, qu'ils sont au singulier, et qu'ils sont mudâf à autre chose que le yâ' de celui qui parle. Ce sont akhûka « ton frère », abûka « ton père », hanûka « ta chose », hamûki « ton beau-père (f.) », fûka « ta bouche » et dhû mâlin « possesseur de richesse » ; tu dis jâ'anî akhûka « ton frère est venu à moi », ra'aytu akhâka « j'ai vu ton frère » et marartu bi-akhîka « je suis passé près de ton frère » ; et de même pour les autres."
+      ]
+    },
+    "6": {
+      "title": "Les sortes de l'i'râb, de la cinquième à la neuvième : duel, pluriel, signes sous-entendus",
+      "body": [
+        "La cinquième sorte : le raf' par l'alif, le nasb et le jarr par « le yâ' précédé d'une fatha ». Elle est propre au duel, à kilâ mudâf à un pronom, et à ithnâni et ithnatâni : jâ'anî al-rajulâni kilâhumâ, ra'aytu al-rajulayni kilayhimâ. La sixième : le raf' par le wâw précédé d'une damma, le nasb et le jarr par le yâ' précédé d'une kasra, pour le pluriel masculin sain, pour ulû, et pour 'ishrûna et ses sœurs : muslimûna, muslimîna. Remarquez comment la voyelle avant le yâ' distingue le duel du pluriel au nasb et au jarr : muslimayni, deux ; muslimîna, beaucoup.",
+        "Le nûn du duel « a toujours une kasra », et le nûn du pluriel sain « a toujours une fatha », et tous deux tombent dans l'idâfa : jâ'anî ghulâmâ Zaydin, muslimû Misra. Dans un livre non voyellé, c'est ainsi que le lecteur reconnaît un duel ou un pluriel dans l'idâfa : il a perdu son nûn.",
+        "La septième sorte a tous ses signes sous-entendus : le raf' par une damma sous-entendue, le nasb par une fatha sous-entendue, le jarr par une kasra sous-entendue. Elle est propre au maqsûr, un nom qui finit par un alif bref, 'asan, « un bâton », et à un nom mudâf au yâ' de celui qui parle, sauf le pluriel masculin sain : ghulâmî. Hâdhâ 'asan wa-ghulâmî, ra'aytu 'asan wa-ghulâmî, marartu bi-'asan wa-ghulâmî : les mots ne changent jamais.",
+        "La huitième : le raf' et le jarr sous-entendus, le nasb par la fatha « de façon apparente ». Elle est propre au manqûs, un nom qui finit par un yâ' précédé d'une kasra : jâ'anî al-qâdî, ra'aytu al-qâdiya, marartu bi-l-qâdî. La fatha, légère, peut se prononcer sur le yâ' ; la damma et la kasra y sont lourdes et restent non dites.",
+        "La neuvième : le raf' par un wâw sous-entendu, le nasb et le jarr par le yâ' de façon apparente, pour le pluriel masculin sain mudâf au yâ' de celui qui parle : jâ'anî muslimiyya. Le livre montre comment la forme est née : l'origine est muslimûya ; « le wâw et le yâ' se sont rencontrés, le premier non voyellé ; le wâw a donc été changé en yâ', le yâ' a été assimilé au yâ', et la damma a été remplacée par une kasra pour convenir au yâ' ». C'est une règle du sarf à l'œuvre à l'intérieur d'une règle du nahw."
+      ],
+      "terms": [
+        "le duel : l'alif au raf', le yâ' précédé d'une fatha au nasb et au jarr",
+        "le pluriel masculin sain : le wâw, et le yâ' précédé d'une kasra",
+        "un nom qui finit par un alif bref : tous les signes sous-entendus",
+        "un nom qui finit par un yâ' après une kasra : raf' et jarr sous-entendus"
+      ],
+      "examples": [
+        "le duel, et kilâ avec un pronom",
+        "le nûn tombé dans l'idâfa",
+        "tous les signes sous-entendus",
+        "le manqûs : le nasb apparent",
+        "le raf' par un wâw sous-entendu : muslimûya"
+      ],
+      "tasks": [
+        {
+          "prompt": "Distinguez le duel du pluriel et donnez l'état : muslimayni ; muslimîna ; muslimû Misra.",
+          "answer": "Muslimayni : duel (fatha avant le yâ', kasra sur le nûn), au nasb ou au jarr. Muslimîna : pluriel sain (kasra avant le yâ', fatha sur le nûn), au nasb ou au jarr. Muslimû Misra : pluriel sain au raf', son nûn tombé dans l'idâfa."
+        },
+        {
+          "prompt": "Donnez l'i'râb de 'asan dans ra'aytu 'asan et de al-qâdî dans ra'aytu al-qâdiya.",
+          "answer": "'Asan est le complément d'objet, au nasb par une fatha sous-entendue : il est maqsûr, et tous ses signes sont sous-entendus. Al-qâdiya est le complément d'objet, au nasb par la fatha prononcée sur le yâ' : dans le manqûs, le nasb est apparent."
+        },
+        {
+          "prompt": "Expliquez, comme le fait le livre, comment muslimûya est devenu muslimiyya.",
+          "answer": "Le wâw (du pluriel) et le yâ' (de celui qui parle) se sont rencontrés, le premier non voyellé ; le wâw a été changé en yâ' et fondu dans le yâ', et la damma qui le précédait est devenue une kasra pour convenir au yâ' : muslimiyya."
+        },
+        {
+          "prompt": "Pourquoi ghulâmî est-il le même dans les trois états ?",
+          "answer": "Il est mudâf au yâ' de celui qui parle, qui demande une kasra avant lui. Cette kasra prend la place de tout signe, si bien que les trois sont sous-entendus : la septième sorte."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le duel, au nasb, prend…",
+          "options": [
+            "le yâ' précédé d'une kasra",
+            "l'alif",
+            "le yâ' précédé d'une fatha",
+            "la fatha"
+          ],
+          "explanation": "Ra'aytu al-rajulayni."
+        },
+        {
+          "prompt": "Kilâ a les signes du duel quand il est mudâf à…",
+          "options": [
+            "un nom apparent",
+            "un duel",
+            "rien",
+            "un pronom"
+          ],
+          "explanation": "Kilâhumâ, kilayhimâ."
+        },
+        {
+          "prompt": "Le nûn du pluriel sain a toujours…",
+          "options": [
+            "une fatha",
+            "une kasra",
+            "une damma",
+            "un sukûn"
+          ],
+          "explanation": "Le nûn du duel a toujours une kasra."
+        },
+        {
+          "prompt": "Dans jâ'anî ghulâmâ Zaydin, le nûn du duel est…",
+          "options": [
+            "caché",
+            "tombé à cause de l'idâfa",
+            "une kasra",
+            "changé en yâ'"
+          ],
+          "explanation": "Les deux nûn tombent dans l'idâfa."
+        },
+        {
+          "prompt": "'Asan dans hâdhâ 'asan est au raf' par…",
+          "options": [
+            "la damma",
+            "l'alif",
+            "une damma sous-entendue",
+            "le tanwîn"
+          ],
+          "explanation": "Le maqsûr : tous ses signes sous-entendus."
+        },
+        {
+          "prompt": "Quel état du manqûs est apparent ?",
+          "options": [
+            "le raf'",
+            "le jarr",
+            "aucun",
+            "le nasb"
+          ],
+          "explanation": "Ra'aytu al-qâdiya."
+        },
+        {
+          "prompt": "Dans jâ'anî muslimiyya, le raf' est par…",
+          "options": [
+            "un wâw sous-entendu",
+            "le yâ'",
+            "la damma",
+            "la kasra"
+          ],
+          "explanation": "Son origine est muslimûya."
+        }
+      ],
+      "diagram": {
+        "caption": "Les sortes d'i'râb, de la cinquième à la neuvième (pp. 9–11)",
+        "labels": {
+          "The kinds of iʿrāb five to nine (pp. 9–11)": "Les sortes d'i'râb, de la cinquième à la neuvième (pp. 9–11)",
+          "Class": "Catégorie",
+          "Rafʿ": "Raf'",
+          "Naṣb": "Nasb",
+          "Jarr": "Jarr",
+          "dual": "duel",
+          "kilā with a pronoun": "kilâ avec un pronom",
+          "sound masculine plural": "pluriel masculin sain",
+          "maqṣūr": "maqsûr",
+          "with the yāʾ of the speaker": "avec le yâ' de celui qui parle",
+          "manqūṣ": "manqûs",
+          "plural with that yāʾ": "pluriel avec ce yâ'"
+        }
+      },
+      "text": [
+        "La cinquième : que le raf' soit par l'alif, et le nasb et le jarr par le yâ' précédé d'une fatha. Elle est propre au duel, à kilâ « tous deux » mudâf à un pronom, et à ithnâni et ithnatâni « deux (m., f.) » ; tu dis jâ'anî al-rajulâni kilâhumâ « les deux hommes sont venus à moi, tous deux », et wa-ithnâni wa-ithnatâni « et deux (m.) et deux (f.) » ; ra'aytu al-rajulayni kilayhimâ « j'ai vu les deux hommes, tous deux », et wa-ithnayni wa-ithnatayni ; et marartu bi-al-rajulayni kilayhimâ « je suis passé près des deux hommes, tous deux », et wa-ithnayni wa-ithnatayni.",
+        "La sixième : que le raf' soit par le wâw précédé d'une damma, et le nasb et le jarr par le yâ' précédé d'une kasra. Elle est propre au pluriel masculin sain, comme muslimûna « des musulmans », à ulû « possesseurs » et à 'ishrûna « vingt » avec ses sœurs ; tu dis jâ'anî muslimûna wa-'ishrûna wa-ulû mâlin « des musulmans, vingt [hommes] et des gens de richesse sont venus à moi », ra'aytu muslimîna wa-'ishrîna wa-ulî mâlin « j'ai vu des musulmans, vingt [hommes] et des gens de richesse » et marartu bi-muslimîna wa-'ishrîna wa-ulî mâlin « je suis passé près de musulmans, de vingt [hommes] et de gens de richesse ».",
+        "Sache que le nûn du duel a toujours une kasra et que le nûn du pluriel sain a toujours une fatha, et que tous deux tombent dans l'idâfa ; tu dis jâ'anî ghulâmâ Zaydin « les deux serviteurs de Zayd sont venus à moi » wa-muslimû Misra « et les musulmans d'Égypte ».",
+        "La septième : que le raf' soit par une damma sous-entendue, le nasb par une fatha sous-entendue et le jarr par une kasra sous-entendue. Elle est propre au maqsûr, qui est celui qui a un alif bref (alif maqsûra) à sa fin, comme 'asan « un bâton », et à ce qui est mudâf au yâ' de celui qui parle, autre que le pluriel masculin sain, comme ghulâmî « mon serviteur » ; tu dis hâdhâ 'asan wa-ghulâmî « ceci est un bâton, et mon serviteur », ra'aytu 'asan wa-ghulâmî « j'ai vu un bâton et mon serviteur » et marartu bi-'asan wa-ghulâmî « je suis passé près d'un bâton et de mon serviteur ».",
+        "La huitième : que le raf' soit par une damma sous-entendue, le jarr par une kasra sous-entendue, et le nasb par la fatha de façon apparente. Elle est propre au manqûs, qui est celui qui a à sa fin un yâ' précédé d'une kasra, comme al-qâdî « le juge » ; tu dis jâ'anî al-qâdî « le juge est venu à moi », ra'aytu al-qâdiya « j'ai vu le juge » et marartu bi-al-qâdî « je suis passé près du juge ».",
+        "La neuvième : que le raf' soit par un wâw sous-entendu, et le nasb et le jarr par le yâ' de façon apparente. Elle est propre au pluriel masculin sain mudâf au yâ' de celui qui parle ; tu dis jâ'anî muslimiyya « mes musulmans sont venus à moi », qui est dans sa forme sous-jacente muslimûya : le wâw et le yâ' se sont rencontrés, le premier d'entre eux non voyellé ; le wâw a donc été changé en yâ', le yâ' a été assimilé au yâ', et la damma a été remplacée par une kasra pour convenir au yâ', et c'est devenu muslimiyya ; et ra'aytu muslimiyya « j'ai vu mes musulmans » et marartu bi-muslimiyya « je suis passé près de mes musulmans »."
+      ]
+    }
+  }
+}

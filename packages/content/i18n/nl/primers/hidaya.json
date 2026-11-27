@@ -1,0 +1,511 @@
+{
+ "parts": {
+  "introduction": "De inleiding: de nahw, het woord en de kalam",
+  "muarab": "Het mu'rab naamwoord: de i'rab en de diptoot",
+  "marfuat": "De marfu' naamwoorden",
+  "mansubat": "De mansub naamwoorden",
+  "majrurat": "De majrur naamwoorden",
+  "followers": "De volgers",
+  "mabni": "Het mabni naamwoord",
+  "noun-rules": "De overige regels van het naamwoord",
+  "verb": "Het werkwoord",
+  "particle": "Het partikel"
+ },
+ "lessons": {
+  "1": {
+   "title": "Het boek en zijn opzet; de nahw; de drie soorten woord",
+   "body": [
+    "De schrijver zegt duidelijk wat voor boek dit is: “een kort, zorgvuldig opgesteld boek over de nahw”, dat de belangrijke kwesties ervan verzamelt “in de volgorde van de Kafiya”, in heldere woorden, met een voorbeeld bij elke kwestie, “zonder in te gaan op de bewijzen en de redenen, opdat ze de geest van de beginner niet afleiden”. De Hidaya is dus de volgorde van de Kafiya, eenvoudig gemaakt. In de Indiase madrasa komt het boek na de Perzische Nahw-i Mir en voor de Kafiya zelf: de regels zijn al in grote lijnen bekend, en hier worden ze in het Arabisch geleerd, volledig, met hun voorwaarden.",
+    "De inleiding geeft de eerste beginselen (mabadi') waarvan de kwesties afhangen. De madrasa vraagt er drie van elke wetenschap voordat ze eraan begint, en het boek geeft ze alle drie. De definitie: de nahw is “een kennis van regels waardoor de toestanden van de uitgangen van de drie soorten woord gekend worden, wat betreft i'rab en bina', en de wijze waarop sommige ervan met andere worden samengevoegd”. Het doel: “de geest te behoeden voor fouten in de bewoording in de spraak van de Arabieren”. Het onderwerp: het woord (kalima) en de kalam.",
+    "Let op de twee helften van de definitie. De nahw kijkt naar de uitgangen van woorden (of ze veranderen, de i'rab, of blijven, de bina'), en naar de manier waarop woorden worden samengevoegd. Het binnenste van het woord, zijn patroon en zijn letters, hoort bij de sarf.",
+    "Het woord is “een uiting die is vastgelegd voor één enkele betekenis”, en het is beperkt tot drie indelingen. Het boek bewijst dat met een indeling die niets overslaat: ofwel duidt een woord niet in zichzelf op een betekenis, en dat is het partikel; ofwel wel, en is zijn betekenis verbonden met een van de drie tijden, en dat is het werkwoord; ofwel wel, en is zijn betekenis niet met een tijd verbonden, en dat is het naamwoord. Er is geen vierde mogelijkheid, dus er is geen vierde soort woord."
+   ],
+   "terms": [
+    "de kennis van de regels van de uitgangen van woorden en van hun samenvoeging",
+    "het onderwerp en het doel van een wetenschap",
+    "het woord: een uiting vastgelegd voor één betekenis",
+    "het naamwoord, het werkwoord en het partikel"
+   ],
+   "examples": [
+    "de naam van het boek: “de leiding van de nahw”",
+    "het onderwerp van de nahw: het woord en de kalam",
+    "een naamwoord, een werkwoord en een partikel, de eigen voorbeelden van het boek"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de definitie, het doel en het onderwerp van de nahw zoals het boek ze geeft.",
+     "answer": "Definitie: een kennis van regels waardoor de toestanden van de uitgangen van de drie soorten woord gekend worden, wat betreft i'rab en bina', en hoe woorden worden samengevoegd. Doel: de geest te behoeden voor fouten in de bewoording in de spraak van de Arabieren. Onderwerp: het woord en de kalam."
+    },
+    {
+     "prompt": "Leg uit waarom er maar drie soorten woord zijn.",
+     "answer": "Een woord duidt ofwel niet in zichzelf op een betekenis (het partikel), ofwel wel; en als het dat doet, is zijn betekenis ofwel verbonden met een van de drie tijden (het werkwoord), ofwel niet (het naamwoord). De indeling laat geen vierde geval over."
+    },
+    {
+     "prompt": "Wat laat de schrijver uit zijn boek weg, en waarom?",
+     "answer": "De bewijzen en de redenen (al-adilla wa-l-'ilal) van de regels, opdat ze de geest van de beginner niet afleiden van het begrijpen van de regels zelf."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De schrijver ordende het boek in de volgorde van…",
+     "options": [
+      "de Alfiyya",
+      "de Kafiya",
+      "de Ajurrumiyya",
+      "de Nahw-i Mir"
+     ],
+     "explanation": "“In de volgorde van de Kafiya”."
+    },
+    {
+     "prompt": "Wat laat het boek weg?",
+     "options": [
+      "de voorbeelden",
+      "de definities",
+      "de bewijzen en redenen",
+      "het werkwoord"
+     ],
+     "explanation": "Opdat ze de beginner niet afleiden."
+    },
+    {
+     "prompt": "De nahw kijkt naar…",
+     "options": [
+      "alleen het binnenste van woorden",
+      "de betekenissen van woorden",
+      "de klanken van letters",
+      "de uitgangen van woorden en hoe ze worden samengevoegd"
+     ],
+     "explanation": "Wat betreft i'rab en bina', en hun samenvoeging."
+    },
+    {
+     "prompt": "Het doel van de nahw is…",
+     "options": [
+      "de geest te behoeden voor fouten in de bewoording",
+      "de betekenissen van de Koran te kennen",
+      "poëzie te leren",
+      "de wortels te kennen"
+     ],
+     "explanation": "In de spraak van de Arabieren."
+    },
+    {
+     "prompt": "Het onderwerp van de nahw is…",
+     "options": [
+      "de wortel en het patroon",
+      "het woord en de kalam",
+      "de letter",
+      "alleen de zin"
+     ],
+     "explanation": "Al-kalima wa-l-kalam."
+    },
+    {
+     "prompt": "Een woord dat in zichzelf op een betekenis duidt, verbonden met een tijd, is…",
+     "options": [
+      "een naamwoord",
+      "een partikel",
+      "een werkwoord",
+      "een kalam"
+     ],
+     "explanation": "Zijn betekenis is verbonden met een van de drie tijden."
+    },
+    {
+     "prompt": "Een woord dat niet in zichzelf op een betekenis duidt, is…",
+     "options": [
+      "een naamwoord",
+      "een werkwoord",
+      "een masdar",
+      "een partikel"
+     ],
+     "explanation": "Zijn betekenis ligt in iets anders."
+    }
+   ],
+   "diagram": {
+    "caption": "Waarom het woord drie soorten heeft (blz. 3)",
+    "labels": {
+     "The word": "Het woord",
+     "particle: not in itself": "partikel: niet in zichzelf",
+     "verb: in itself, with time": "werkwoord: in zichzelf, met tijd",
+     "noun: in itself, no time": "naamwoord: in zichzelf, zonder tijd"
+    }
+   }
+  },
+  "2": {
+   "title": "Het naamwoord en het werkwoord: definities, kentekens en namen",
+   "body": [
+    "Het naamwoord is “een woord dat in zichzelf op een betekenis duidt, niet verbonden met een van de drie tijden, de verleden, de tegenwoordige en de toekomende”. De twee voorbeelden van het boek, rajul, “een man”, en 'ilm, “kennis”, laten zien dat een naamwoord een ding kan noemen dat je kunt zien, of een betekenis die je niet kunt zien. Zijn kentekens: er kan iets over gezegd worden, Zaydun qa'imun; het kan mudaf zijn, ghulamu Zaydin; het neemt de lam van de bepaaldheid, al-rajul; jarr en tanwin, bi-Zaydin; het tweevoud, het meervoud, het bijvoeglijk naamwoord (na't), het verkleinwoord en het roepen (nida'). “Dit alles zijn eigenschappen van het naamwoord”: geen ervan komt voor bij een werkwoord of een partikel, al neemt niet elk naamwoord ze allemaal.",
+    "“Er wordt iets over gezegd” betekent dat er over het woord geoordeeld wordt: het is een fa'il, een maf'ul of een mubtada'. De naam ism komt, zegt het boek, van sumuww, “verheffing”, omdat het naamwoord boven zijn twee metgezellen uitrijst, “niet van wasm, een merkteken op de betekenis”. Het eerste is de afleiding van de Basrische grammatici, het tweede die van de Kufiërs.",
+    "Het werkwoord is “een woord dat in zichzelf op een betekenis duidt, met een aanduiding die verbonden is met de tijd van die betekenis”: daraba, yadribu, idrib. Zijn kentekens: er kan iets mee gezegd worden, maar er kan niets over gezegd worden; het neemt qad, de sin, sawfa en de jazm; het wordt vervoegd in de madi en de mudari'; het is een gebod of een verbod; en het neemt de zichtbare marfu' voornaamwoorden, darabta, de vrouwelijke ta' met sukun, darabat, en de nun van nadruk.",
+    "“Er wordt iets mee gezegd” betekent dat het werkwoord het oordeel zelf is (de musnad), nooit datgene waarover geoordeeld wordt. Het werkwoord heet fi'l “naar de naam van zijn oorsprong, de masdar”, omdat de masdar “in werkelijkheid de fi'l is”, de handeling, van de doener: darb is de handeling van het slaan, en daraba vertelt van die handeling in de verleden tijd.",
+    "Eén valkuil: de vrouwelijke ta' is alleen een kenteken van het werkwoord wanneer ze een sukun heeft, zoals in darabat. De ta' met een klinker, zoals in qa'imatun, staat op naamwoorden. Een kenteken moet je goed bekijken voordat je er een woord mee indeelt."
+   ],
+   "terms": [
+    "waarover iets gezegd wordt: er wordt over het woord geoordeeld",
+    "waarmee iets gezegd wordt: het woord is het oordeel",
+    "de eigenschappen van het naamwoord, bij geen ander woord te vinden",
+    "de vrouwelijke ta' met sukun, een kenteken van het werkwoord"
+   ],
+   "examples": [
+    "het naamwoord waarover iets gezegd wordt",
+    "het naamwoord als mudaf",
+    "het werkwoord in zijn drie vormen",
+    "een zichtbaar marfu' voornaamwoord; de ta' met sukun"
+   ],
+   "tasks": [
+    {
+     "prompt": "Deel de woorden in en noem het kenteken dat elk aanwijst: al-rajulu; darabat; bi-Zaydin; qad qama.",
+     "answer": "Al-rajulu: een naamwoord (de lam van de bepaaldheid). Darabat: een werkwoord (de vrouwelijke ta' met sukun). Bi-Zaydin: een naamwoord (jarr en tanwin). Qama in qad qama: een werkwoord (qad)."
+    },
+    {
+     "prompt": "Wat betekent “er wordt iets over gezegd”, en in welke rollen wordt er iets over een naamwoord gezegd?",
+     "answer": "Dat er over het woord geoordeeld wordt. Er wordt iets over een naamwoord gezegd wanneer het een fa'il, een maf'ul of een mubtada' is."
+    },
+    {
+     "prompt": "Waarom heet het werkwoord fi'l?",
+     "answer": "Naar de naam van zijn oorsprong, de masdar: de masdar is in werkelijkheid de fi'l, de handeling, van de doener, en het werkwoord vertelt van die handeling in een tijd."
+    },
+    {
+     "prompt": "Waarvan leidt het boek het woord ism af, en waarvan niet?",
+     "answer": "Van sumuww, “verheffing”, omdat het naamwoord boven het werkwoord en het partikel uitrijst; niet van wasm, “een merkteken”. Het eerste is de Basrische afleiding, het tweede de Kufische."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Rajul en 'ilm laten zien dat een naamwoord kan noemen…",
+     "options": [
+      "alleen een persoon",
+      "alleen een ding dat je kunt zien",
+      "een ding of een betekenis",
+      "een tijd"
+     ],
+     "explanation": "Een man, en kennis."
+    },
+    {
+     "prompt": "Welke is een eigenschap van het naamwoord?",
+     "options": [
+      "qad",
+      "de nun van nadruk",
+      "de sin",
+      "het verkleinwoord"
+     ],
+     "explanation": "Met de idafa, de lam, jarr, tanwin, het tweevoud, het meervoud, de na't en het roepen."
+    },
+    {
+     "prompt": "Welke is een kenteken van het werkwoord?",
+     "options": [
+      "de vrouwelijke ta' met sukun",
+      "de tanwin",
+      "de lam van de bepaaldheid",
+      "het roepen"
+     ],
+     "explanation": "Zoals in darabat, “zij sloeg”."
+    },
+    {
+     "prompt": "Van het werkwoord geldt:…",
+     "options": [
+      "er kan iets over gezegd worden, niet iets mee",
+      "er kan iets mee gezegd worden, niet iets over",
+      "er kan zowel iets over als iets mee gezegd worden",
+      "geen van beide"
+     ],
+     "explanation": "Het is altijd het oordeel zelf."
+    },
+    {
+     "prompt": "Het boek leidt ism af van…",
+     "options": [
+      "wasm, een merkteken",
+      "ism, zonde",
+      "sumuww, verheffing",
+      "sama', hemel"
+     ],
+     "explanation": "Omdat het boven zijn twee metgezellen uitrijst."
+    },
+    {
+     "prompt": "Het werkwoord is genoemd naar…",
+     "options": [
+      "de verleden tijd",
+      "de fa'il",
+      "de wortel",
+      "de masdar, de handeling van de doener"
+     ],
+     "explanation": "De masdar is in werkelijkheid de fi'l van de doener."
+    },
+    {
+     "prompt": "Daraba, yadribu, idrib worden gegeven als voorbeelden van…",
+     "options": [
+      "het werkwoord",
+      "het naamwoord",
+      "het partikel",
+      "de masdar"
+     ],
+     "explanation": "Een betekenis verbonden met haar tijd."
+    }
+   ],
+   "diagram": {
+    "caption": "De kentekens van het naamwoord en van het werkwoord (blz. 4–5)",
+    "labels": {
+     "Sign of the noun": "Kenteken van het naamwoord",
+     "Example": "Voorbeeld",
+     "Sign of the verb": "Kenteken van het werkwoord",
+     "told about": "er wordt iets over gezegd",
+     "told with, not about": "iets mee gezegd, niet over",
+     "iḍāfa": "idafa",
+     "qad, the sīn, sawfa": "qad, de sin, sawfa",
+     "the lām of definiteness": "de lam van de bepaaldheid",
+     "jazm": "jazm",
+     "jarr and tanwīn": "jarr en tanwin",
+     "past and muḍāriʿ": "madi en mudari'",
+     "dual and plural": "tweevoud en meervoud",
+     "command or prohibition": "gebod of verbod",
+     "adjective, diminutive": "bijvoeglijk naamwoord, verkleinwoord",
+     "visible marfūʿ pronoun": "zichtbaar marfu' voornaamwoord",
+     "the vocative": "het roepen",
+     "quiescent tāʾ; nūn of emphasis": "ta' met sukun; nun van nadruk"
+    }
+   }
+  },
+  "3": {
+   "title": "Het partikel; de kalam en de zin",
+   "body": [
+    "Het partikel is “een woord dat niet in zichzelf op een betekenis duidt, maar op een betekenis in iets anders”. Het voorbeeld van het boek is min: zijn betekenis is “begin”, maar het laat die betekenis pas zien wanneer de plaats genoemd wordt waar het begin gemaakt wordt: sirtu mina al-basrati ila al-kufati, “ik reisde van Basra naar Kufa”. Zijn kenteken is negatief: er kan niets over gezegd worden en niets mee gezegd worden, en het neemt geen van de kentekens van het naamwoord of het werkwoord.",
+    "Partikels doen werk in de kalam. Ze verbinden twee naamwoorden, Zaydun fi al-dari; twee werkwoorden, uridu an tadriba; een naamwoord en een werkwoord, darabtu bi-l-khashabati, “ik sloeg met de stok”; of twee zinnen, in ja'ani Zaydun akramtuhu. Het derde deel van het boek behandelt ze een voor een. Het partikel heet harf, “rand”, omdat het aan de rand van de kalam staat, “niet om zichzelf bedoeld, zoals de musnad en de musnad ilayhi”.",
+    "De kalam is “een uiting die twee woorden bevat door toeschrijving (isnad)”, en toeschrijving is het betrekken van het ene woord op het andere “zodat het de toehoorder een volledig nut geeft waarna men terecht kan zwijgen”: Zaydun qa'imun, qama Zaydun. De toets van de kalam is dat de hoorder niet blijft wachten. Ghulamu Zaydin is twee woorden, maar het is geen kalam: men wacht om te horen wat er met de knecht is.",
+    "De kalam ontstaat dus alleen uit twee naamwoorden, Zaydun qa'imun, een naamwoordzin, of uit een werkwoord en een naamwoord, qama Zaydun, een werkwoordzin. Alleen daar komen de musnad en de musnad ilayhi samen voor: een partikel is geen van beide, en over een werkwoord kan niets gezegd worden, dus twee werkwoorden, of een werkwoord en een partikel, vormen geen kalam.",
+    "Het boek beantwoordt een tegenwerping. Ya Zaydu, “o Zayd!”, lijkt een kalam uit een partikel en een naamwoord. Nee: “het partikel van het roepen staat op de plaats van ad'u, ‘ik roep’, en atlubu, ‘ik zoek’, en dat is het werkwoord”, dus ya Zaydu is toch een werkwoord en een naamwoord."
+   ],
+   "terms": [
+    "de kalam: twee woorden verbonden door toeschrijving",
+    "toeschrijving: het ene woord op het andere betrekken met een volledig nut",
+    "wat gezegd wordt, en waarover het gezegd wordt",
+    "de naamwoordzin en de werkwoordzin"
+   ],
+   "examples": [
+    "min laat zijn betekenis alleen zien met wat erop volgt",
+    "een partikel dat een werkwoord en een naamwoord verbindt",
+    "een naamwoordzin en een werkwoordzin",
+    "ya staat voor ad'u, een werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Leg met het voorbeeld van het boek uit hoe min op zijn betekenis duidt “in iets anders”.",
+     "answer": "Min betekent het begin van een reis of een afstand, maar het laat die betekenis pas zien wanneer de plaats waar het begint erna genoemd wordt, hier al-basra. Op zichzelf zegt min niets."
+    },
+    {
+     "prompt": "Zeg wat elk partikel verbindt: Zaydun fi al-dari; uridu an tadriba; in ja'ani Zaydun akramtuhu.",
+     "answer": "Fi verbindt twee naamwoorden, Zayd en het huis. An verbindt twee werkwoorden, uridu en tadriba. In verbindt twee zinnen, de voorwaarde ja'ani Zaydun en het antwoord akramtuhu."
+    },
+    {
+     "prompt": "Is ghulamu Zaydin een kalam? Geef de reden.",
+     "answer": "Nee. Het heeft twee woorden, maar die zijn verbonden door idafa, niet door toeschrijving: er wordt niets over de knecht gezegd, en de hoorder blijft wachten, dus er is geen volledig nut waarna men kan zwijgen."
+    },
+    {
+     "prompt": "Hoe antwoordt het boek iemand die zegt dat ya Zaydu een kalam is uit een partikel en een naamwoord?",
+     "answer": "Het partikel van het roepen staat op de plaats van het werkwoord ad'u of atlubu, “ik roep”; dus ya Zaydu is in werkelijkheid een werkwoord en een naamwoord, en de regel blijft staan."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het kenteken van het partikel is dat…",
+     "options": [
+      "het tanwin neemt",
+      "er iets over gezegd wordt",
+      "het een tijd heeft",
+      "het geen kenteken van het naamwoord of het werkwoord neemt"
+     ],
+     "explanation": "Er kan niets over en niets mee gezegd worden."
+    },
+    {
+     "prompt": "Min betekent…",
+     "options": [
+      "begin",
+      "einde",
+      "plaats",
+      "tijd"
+     ],
+     "explanation": "Het laat dat alleen zien met wat erop volgt."
+    },
+    {
+     "prompt": "In darabtu bi-l-khashabati verbindt de ba'…",
+     "options": [
+      "twee naamwoorden",
+      "een werkwoord en een naamwoord",
+      "twee werkwoorden",
+      "twee zinnen"
+     ],
+     "explanation": "Het slaan en de stok."
+    },
+    {
+     "prompt": "De kalam moet geven…",
+     "options": [
+      "twee werkwoorden",
+      "een partikel",
+      "een volledig nut waarna men kan zwijgen",
+      "drie woorden"
+     ],
+     "explanation": "Dat is toeschrijving (isnad)."
+    },
+    {
+     "prompt": "Welke is een kalam?",
+     "options": [
+      "ghulamu Zaydin",
+      "fi al-dari",
+      "in qama",
+      "qama Zaydun"
+     ],
+     "explanation": "Een werkwoord en een naamwoord met toeschrijving."
+    },
+    {
+     "prompt": "De kalam ontstaat alleen uit…",
+     "options": [
+      "twee naamwoorden, of een werkwoord en een naamwoord",
+      "twee werkwoorden",
+      "een werkwoord en een partikel",
+      "een naamwoord en een partikel"
+     ],
+     "explanation": "Alleen daar zijn de musnad en de musnad ilayhi samen."
+    },
+    {
+     "prompt": "In ya Zaydu staat ya voor…",
+     "options": [
+      "een naamwoord",
+      "een werkwoord: ad'u, “ik roep”",
+      "een mubtada'",
+      "niets"
+     ],
+     "explanation": "Dus het roepen breekt de regel niet."
+    }
+   ],
+   "diagram": {
+    "caption": "De kalam en zijn twee soorten (blz. 5–6)",
+    "labels": {
+     "Speech": "De kalam",
+     "nominal: two nouns": "naamwoordzin: twee naamwoorden",
+     "verbal: verb and noun": "werkwoordzin: werkwoord en naamwoord",
+     "yā Zaydu: yā for adʿū": "ya Zaydu: ya voor ad'u"
+    }
+   }
+  },
+  "4": {
+   "title": "Het mu'rab naamwoord; de i'rab, de regeerder en de plaats van de i'rab",
+   "body": [
+    "Het eerste deel gaat over het naamwoord, dat zich verdeelt in het mu'rab (met veranderlijke uitgang) en het mabni (met vaste uitgang). Het boek behandelt het in twee hoofdstukken en een slot; het eerste hoofdstuk, over het mu'rab, heeft een inleiding, drie doelen (de marfu', de mansub en de majrur) en een slot over de volgers. Dit is de opzet van de Kafiya, en het loont om die te leren, want het is de kaart van de volgende veertig lessen.",
+    "Het mu'rab naamwoord is “elk naamwoord dat met een ander wordt samengevoegd en niet lijkt op wat oorspronkelijk mabni is”, en dat is “het partikel, de gebiedende wijs aan de aanwezige en de madi”. Twee voorwaarden. Het moet in een verbinding staan: Zaydun, los opgesomd, is nog niet mu'rab. En het mag niet lijken op die gebouwde woorden: ha'ula'i in qama ha'ula'i staat in een verbinding, maar het lijkt op het partikel, dus het is gebouwd. Zo'n naamwoord heet mutamakkin, “vast geplaatst” als naamwoord.",
+    "Zijn regel is “dat zijn uitgang verschilt met het verschil van de regeerders”, hetzij hoorbaar, ja'ani Zaydun, ra'aytu Zaydan, marartu bi-Zaydin, hetzij door veronderstelling, ja'ani Musa, ra'aytu Musa, marartu bi-Musa, waar de alif de klinker niet kan tonen. De i'rab is “dat waardoor de uitgang verschilt”: de damma, fatha en kasra, de waw, alif en ya'.",
+    "De i'rab van het naamwoord is van drie soorten, raf', nasb en jarr. De regeerder ('amil) is “dat waardoor een woord in raf', nasb of jarr gezet wordt”, en de plaats van de i'rab is de laatste letter. In qama Zaydun noemt het boek alle vier: qama is de regeerder, Zaydun het mu'rab woord, de damma de i'rab, en de dal de plaats. Een student die deze vier in elke zin kan noemen, heeft de taal van het ontleden geleerd.",
+    "Ten slotte: “in de spraak van de Arabieren is niets mu'rab dan het vast geplaatste naamwoord en de mudari'”. Elk partikel, elke madi en elke gebiedende wijs is gebouwd; de i'rab van de mudari' komt in het tweede deel."
+   ],
+   "terms": [
+    "het vast geplaatste naamwoord: het mu'rab",
+    "oorspronkelijk gebouwd: het partikel, de gebiedende wijs, de madi",
+    "de regeerder, waardoor een woord in raf', nasb of jarr gezet wordt",
+    "de plaats van de i'rab: de laatste letter"
+   ],
+   "examples": [
+    "ha'ula'i lijkt op het partikel: gebouwd",
+    "de uitgang verschilt hoorbaar",
+    "de uitgang verschilt door veronderstelling",
+    "de regeerder, het mu'rab woord, de i'rab en zijn plaats"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom is Zaydun mu'rab in qama Zaydun, terwijl ha'ula'i in qama ha'ula'i dat niet is?",
+     "answer": "Beide staan in een verbinding. Maar ha'ula'i lijkt op wat oorspronkelijk gebouwd is (het partikel), dus het is gebouwd; Zaydun lijkt op geen van die woorden, dus het is mu'rab."
+    },
+    {
+     "prompt": "Noem de regeerder, het mu'rab woord, de i'rab en zijn plaats in ra'aytu Zaydan.",
+     "answer": "De regeerder is ra'aytu; het mu'rab woord is Zaydan; de i'rab is de fatha (nasb); zijn plaats is de dal, de laatste letter."
+    },
+    {
+     "prompt": "Wat is in ja'ani Musa de i'rab van Musa, en waarom zie je hem niet?",
+     "answer": "Musa is de fa'il, in raf', maar de damma is verondersteld: het woord eindigt op een alif, die geen klinker kan dragen. Zijn uitgang verschilt door veronderstelling, niet hoorbaar."
+    },
+    {
+     "prompt": "Welke twee soorten woord zijn in het Arabisch als enige mu'rab?",
+     "answer": "Het vast geplaatste naamwoord en de mudari'. Elk ander woord is gebouwd."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het eerste hoofdstuk van het deel over het naamwoord gaat over…",
+     "options": [
+      "het mu'rab naamwoord",
+      "het mabni naamwoord",
+      "het werkwoord",
+      "het partikel"
+     ],
+     "explanation": "Met een inleiding, drie doelen en een slot."
+    },
+    {
+     "prompt": "Wat is in dit boek oorspronkelijk gebouwd?",
+     "options": [
+      "de mudari'",
+      "de madi",
+      "het naamwoord",
+      "de masdar"
+     ],
+     "explanation": "Met het partikel en de gebiedende wijs aan de aanwezige."
+    },
+    {
+     "prompt": "Zaydun, los opgesomd, is…",
+     "options": [
+      "mu'rab",
+      "oorspronkelijk mabni",
+      "nog niet mu'rab: het staat in geen verbinding",
+      "een zin"
+     ],
+     "explanation": "Het mu'rab naamwoord moet met een ander woord worden samengevoegd."
+    },
+    {
+     "prompt": "Het mu'rab naamwoord heet ook…",
+     "options": [
+      "mabni",
+      "ghayr munsarif",
+      "mawsul",
+      "mutamakkin"
+     ],
+     "explanation": "Vast geplaatst."
+    },
+    {
+     "prompt": "In ja'ani Musa verschilt de uitgang…",
+     "options": [
+      "door veronderstelling",
+      "hoorbaar",
+      "helemaal niet",
+      "door een letter"
+     ],
+     "explanation": "De alif kan de klinker niet tonen."
+    },
+    {
+     "prompt": "De plaats van de i'rab in een naamwoord is…",
+     "options": [
+      "de eerste letter",
+      "de laatste letter",
+      "de middelste letter",
+      "het hele woord"
+     ],
+     "explanation": "In qama Zaydun de dal."
+    },
+    {
+     "prompt": "Wat is mu'rab in het Arabisch?",
+     "options": [
+      "de madi",
+      "het partikel",
+      "de mudari'",
+      "de gebiedende wijs"
+     ],
+     "explanation": "Met het vast geplaatste naamwoord."
+    }
+   ],
+   "diagram": {
+    "caption": "De vier namen in qama Zaydun (blz. 7)",
+    "labels": {
+     "Name": "Naam",
+     "In qāma Zaydun": "In qama Zaydun",
+     "the governor (ʿāmil)": "de regeerder ('amil)",
+     "the inflected word (muʿrab)": "het mu'rab woord",
+     "the iʿrāb": "de i'rab",
+     "the place of the iʿrāb": "de plaats van de i'rab"
+    }
+   }
+  }
+ },
+ "title": "Hidayat al-nahw",
+ "summary": "Hidayat al-nahw, “de leiding van de nahw”, is het Arabische handboek van de nahw van de Indiase madrasa, gelezen in de Dars-i Nizami na de Nahw-i Mir en voor de Kafiya van Ibn al-Hajib. De druk noemt geen schrijver; het boek wordt toegeschreven aan Siraj al-Din 'Uthman al-Awadhi. De schrijver zegt dat hij de belangrijke kwesties van de nahw heeft verzameld “in de volgorde van de Kafiya”, in heldere woorden, met een voorbeeld bij elke kwestie en zonder de bewijzen en redenen die een beginner zouden afleiden. Het loopt van een inleiding over de nahw, het woord en de kalam, via het naamwoord (de i'rab en de diptoot; de marfu', mansub en majrur naamwoorden; de volgers; het mabni naamwoord; de overige regels van het naamwoord), naar het werkwoord en het partikel. De lessen volgen de steendruk van de pers van Nawal Kishor in Kanpur, 1300/1883, telkens een paar passages."
+}
