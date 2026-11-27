@@ -97,6 +97,12 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | Form | الصِّيغَةُ | صیغه | — |
 | Vowel / vowelled / unvowelled | الحَرَكَةُ / مُتَحَرِّكٌ / سَاكِنٌ | حرکت / متحرّک / ساکن | — |
 | Fatḥa, ḍamma, kasra, sukūn, shadda | الفَتْحَةُ … | فتحه (زبر)، ضمّه (پیش)، کسره (زیر)، سکون، تشدید | — |
+| The model verb of a pattern (the weighed word) | المَوْزُونُ | موزون | — |
+| Regular (forms of a table) | المُطَّرِدُ | مطّرد | — |
+| The letters of the throat | حُرُوفُ الحَلْقِ | حروف حلقی | — |
+| Attached form (mulḥaq) / attachment (ilḥāq) | المُلْحَقُ / الإِلْحَاقُ | ملحق / الحاق | — |
+| The meanings of the bābs: transitivity, multiplying, sharing, compliance, effort, intensifying the intransitive | التَّعْدِيَةُ، التَّكْثِيرُ، المُشَارَكَةُ، المُطَاوَعَةُ، التَّكَلُّفُ، مُبَالَغَةُ اللَّازِمِ | تعدیه، تکثیر، مشارکت، مطاوعه، تکلّف، مبالغهٔ لازم | — |
+| The eight divisions (bare / augmented, triliteral / quadriliteral, sound / not sound) | الأَقْسَامُ الثَّمَانِيَةُ | اقسام هشتگانه | — |
 
 ### The verb and its tenses
 
@@ -113,6 +119,15 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | Third / second / first person | الغَائِبُ / المُخَاطَبُ (الحَاضِرُ) / المُتَكَلِّمُ | غائب / مخاطب (حاضر) / متکلّم | — |
 | The prefixes of the muḍāriʿ | حُرُوفُ المُضَارَعَةِ | حروف مضارعه (اَتَین) | — |
 | The nūn of emphasis | نُونُ التَّوْكِيدِ | نون تأکید ثقیله / خفیفه | — |
+| Negation of the past with lam (absolute denial) | جَحْدٌ مُطْلَقٌ | جحد مطلق | — |
+| Negation with lammā (comprehensive denial) | جَحْدٌ مُسْتَغْرِقٌ | جحد مستغرق | — |
+| Negation of the present (with mā) | نَفْيُ الحَالِ | نفی حال | — |
+| Negation of the future (with lā) / its emphatic form (with lan) | نَفْيُ الاسْتِقْبَالِ / تَأْكِيدُ نَفْيِ الاسْتِقْبَالِ | نفی استقبال / تأکید نفی استقبال | — |
+| Command / prohibition to the absent (third person) | أَمْرُ الغَائِبِ / نَهْيُ الغَائِبِ | امر غائب / نهی غائب | — |
+| Command / prohibition to the one present (second person) | أَمْرُ الحَاضِرِ / نَهْيُ الحَاضِرِ | امر حاضر / نهی حاضر | — |
+| The verb of wonder (how … !) | فِعْلُ التَّعَجُّبِ | فعل تعجّب | — |
+| The ghābir (an old name of the muḍāriʿ) | الغَابِرُ | غابر | — |
+| Complete / incomplete verb | الفِعْلُ التَّامُّ / النَّاقِصُ | فعل تامّ / فعل ناقص | — |
 
 ### Sound and weak
 
@@ -131,6 +146,11 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | Change of a weak letter | الإِعْلَالُ | اعلال | — |
 | Assimilation | الإِدْغَامُ | ادغام | — |
 | Replacing a letter | الإِبْدَالُ | ابدال | — |
+| The seven divisions (ṣaḥīḥ, mithāl, ajwaf, nāqiṣ, lafīf, muḍāʿaf, mahmūz) | الأَقْسَامُ السَّبْعَةُ | اقسام هفتگانه | — |
+| Hamza as first / second / third root letter | مَهْمُوزُ الفَاءِ / العَيْنِ / اللَّامِ | مهموز الفاء / العین / اللام | — |
+| Doubling (of the last two root letters) | التَّضْعِيفُ | تضعیف | — |
+| Two like letters / assimilation necessary, permitted, impossible | المُتَجَانِسَانِ / إِدْغَامٌ وَاجِبٌ، جَائِزٌ، مُمْتَنِعٌ | دو حرف همجنس / ادغام واجب، جایز، ممتنع | — |
+| Accidental / original sukūn | سُكُونٌ عَارِضٌ / أَصْلِيٌّ | سکون عارضی / اصلی | — |
 
 ### Derived nouns
 
@@ -146,6 +166,9 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | The noun of time / of place | اسْمُ الزَّمَانِ / المَكَانِ | اسم زمان / اسم مکان (اسم ظرف) | — |
 | The noun of instrument | اسْمُ الآلَةِ | اسم آلت (اسم آله) | — |
 | The intensive form | صِيغَةُ المُبَالَغَةِ | صیغهٔ مبالغه | — |
+| The noun of one act / of the manner | بِنَاءُ المَرَّةِ / بِنَاءُ النَّوْعِ | بنای مرّه / بنای نوع | — |
+| The diminutive | اسْمُ التَّصْغِيرِ | اسم تصغیر | — |
+| The relative adjective (nisba) | الاسْمُ المَنْسُوبُ | اسم منسوب | — |
 
 ### Iʿrāb and bināʾ
 
@@ -164,6 +187,11 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | Dropping | الحَذْفُ | حذف | — |
 | Implied | التَّقْدِيرُ، مُقَدَّرٌ | تقدیر، مقدّر (تقدیری) | — |
 | In the place of | فِي مَحَلِّ … | در محلّ رفع / نصب … (محلّاً مرفوع) | — |
+| The effect of governing | العَمَلُ | عمل | — |
+| Iʿrāb audible / implied / by place | إِعْرَابٌ لَفْظِيٌّ / تَقْدِيرِيٌّ / مَحَلِّيٌّ | اعراب لفظی / تقدیری / محلّی | — |
+| Of complete / incomplete iʿrāb | تَامُّ الإِعْرَابِ / نَاقِصُ الإِعْرَابِ | تامّ‌الاعراب / ناقص‌الاعراب | — |
+| Governed in itself / by following; the word followed | مَعْمُولٌ بِالأَصَالَةِ / بِالتَّبَعِيَّةِ؛ المَتْبُوعُ | معمول به اصالت / به تبعیّت؛ متبوع | — |
+| The six nouns (the five nouns with hanū) | الأَسْمَاءُ السِّتَّةُ | اسماء ستّه | — |
 
 ### The sentence
 
@@ -190,6 +218,9 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | The noun / predicate of kāna, inna | اسْمُ كَانَ … | اسم کان، خبر کان؛ اسم اِنّ، خبر اِنّ | — |
 | The lā that denies the whole kind | لَا النَّافِيَةُ لِلْجِنْسِ | لای نفی جنس | — |
 | Nawāṣib / jawāzim | النَّوَاصِبُ / الجَوَازِمُ | نواصب / جوازم | — |
+| Mā and lā that resemble laysa | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | ما و لای مشبّه به لیس | — |
+| The complete vague noun (a number before its tamyīz) | الاسْمُ المُبْهَمُ التَّامُّ | اسم مبهم تامّ | — |
+| The meaning of the verb (a word that governs by it) | مَعْنَى الفِعْلِ | معنای فعل | — |
 
 ### The objects and other manṣūb nouns
 
@@ -203,6 +234,10 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | The specification | التَّمْيِيزُ | تمییز (ممیَّز) | — |
 | The exception / the excepted | الاسْتِثْنَاءُ / المُسْتَثْنَى | استثنا / مستثنی (مستثنی‌منه) | — |
 | The vocative | المُنَادَى | منادا (حرف ندا) | — |
+| Speech affirmative / negative; complete / incomplete (in the exception) | مُوجَبٌ / مَنْفِيٌّ؛ تَامٌّ / نَاقِصٌ | موجَب / منفی؛ تامّ / ناقص | — |
+| The disconnected exception | الاسْتِثْنَاءُ المُنْقَطِعُ | استثنای منقطع | — |
+| The one the ḥāl belongs to | صَاحِبُ الحَالِ (ذُو الحَالِ) | ذوالحال | — |
+| The kinds of munādā: single proper name, intended / unintended indefinite, muḍāf, like the muḍāf | المُفْرَدُ العَلَمُ، النَّكِرَةُ المَقْصُودَةُ وَغَيْرُ المَقْصُودَةِ، المُضَافُ، المُشَبَّهُ بِالمُضَافِ | مفرد عَلَم، نکرهٔ مقصوده / غیر مقصوده، مضاف، شبیه به مضاف | — |
 
 ### The followers (tawābiʿ)
 
@@ -213,6 +248,8 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | The conjunction / its particles | العَطْفُ / حُرُوفُ العَطْفِ | عطف / حروف عطف؛ معطوف، معطوفٌ‌علیه | — |
 | The emphasis | التَّوْكِيدُ | تأکید (مؤکَّد) | — |
 | The substitute | البَدَلُ | بدل (مبدلٌ‌منه) | — |
+| The explicative apposition | عَطْفُ البَيَانِ | عطف بیان | — |
+| The kinds of badal: of the whole, of the part, of inclusion, of mistake | بَدَلُ الكُلِّ، بَدَلُ البَعْضِ، بَدَلُ الاشْتِمَالِ، بَدَلُ الغَلَطِ | بدل کل، بدل بعض، بدل اشتمال، بدل غلط | — |
 
 ## Choices between competing terms
 

@@ -31,7 +31,7 @@ export const KB_SECTIONS = {
   books: { arabic: "المَكْتَبَة", photo: "painted-arch-panel" },
   scholars: { arabic: "الأَعْلام", photo: "stone-inscription" },
   news: { arabic: "الجَدِيد", photo: "gilded-wall-inscriptions" },
-  glossary: { arabic: "مُعْجَمُ النَّحْوِ وَالصَّرْف", photo: "painted-arch-allah-kafi" },
+  glossary: { arabic: "مُعْجَمُ النَّحْوِ وَالصَّرْف", photo: "tiled-portal-verse" },
   study: { arabic: "ادْرُسْ دَرْسًا دَرْسًا", photo: "tile-niche-inscription" },
 } as const;
 export type KbSection = keyof typeof KB_SECTIONS;

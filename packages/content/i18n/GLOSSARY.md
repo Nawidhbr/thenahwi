@@ -85,6 +85,12 @@ terms gets a row here first, and then in every language.
 | Form (ṣīgha) | الصِّيغَةُ | al-ṣīgha | sarf |
 | Vowel / vowelled / unvowelled | الحَرَكَةُ / مُتَحَرِّكٌ / سَاكِنٌ | al-ḥaraka / mutaḥarrik / sākin | both |
 | Fatḥa, ḍamma, kasra, sukūn, shadda | الفَتْحَةُ، الضَّمَّةُ، الكَسْرَةُ، السُّكُونُ، الشَّدَّةُ | al-fatḥa, al-ḍamma, al-kasra, al-sukūn, al-shadda | both |
+| The model verb of a pattern (the weighed word) | المَوْزُونُ | al-mawzūn | sarf |
+| Regular (forms of a table) | المُطَّرِدُ | al-muṭṭarid | sarf |
+| The letters of the throat | حُرُوفُ الحَلْقِ | ḥurūf al-ḥalq | sarf |
+| Attached form (mulḥaq) / attachment (ilḥāq) | المُلْحَقُ / الإِلْحَاقُ | al-mulḥaq / al-ilḥāq | sarf |
+| The meanings of the bābs: transitivity, multiplying, sharing, compliance, effort, intensifying the intransitive | التَّعْدِيَةُ، التَّكْثِيرُ، المُشَارَكَةُ، المُطَاوَعَةُ، التَّكَلُّفُ، مُبَالَغَةُ اللَّازِمِ | al-taʿdiya, al-takthīr, al-mushāraka, al-muṭāwaʿa, al-takalluf, mubālaghat al-lāzim | sarf |
+| The eight divisions (bare / augmented, triliteral / quadriliteral, sound / not sound) | الأَقْسَامُ الثَّمَانِيَةُ | al-aqsām al-thamāniya | sarf |
 
 ### The verb and its tenses
 
@@ -101,6 +107,15 @@ terms gets a row here first, and then in every language.
 | Third / second / first person | الغَائِبُ / المُخَاطَبُ (الحَاضِرُ) / المُتَكَلِّمُ | al-ghāʾib / al-mukhāṭab (al-ḥāḍir) / al-mutakallim | sarf |
 | The prefixes of the muḍāriʿ (a, n, y, t) | حُرُوفُ المُضَارَعَةِ (أَنَيْتُ) | ḥurūf al-muḍāraʿa (anaytu) | sarf |
 | The nūn of emphasis, heavy / light | نُونُ التَّوْكِيدِ الثَّقِيلَةُ / الخَفِيفَةُ | nūn al-tawkīd al-thaqīla / al-khafīfa | sarf |
+| Negation of the past with lam (absolute denial) | جَحْدٌ مُطْلَقٌ | jaḥd muṭlaq | sarf |
+| Negation with lammā (comprehensive denial) | جَحْدٌ مُسْتَغْرِقٌ | jaḥd mustaghriq | sarf |
+| Negation of the present (with mā) | نَفْيُ الحَالِ | nafy al-ḥāl | sarf |
+| Negation of the future (with lā) / its emphatic form (with lan) | نَفْيُ الاسْتِقْبَالِ / تَأْكِيدُ نَفْيِ الاسْتِقْبَالِ | nafy al-istiqbāl / taʾkīd nafy al-istiqbāl | sarf |
+| Command / prohibition to the absent (third person) | أَمْرُ الغَائِبِ / نَهْيُ الغَائِبِ | amr al-ghāʾib / nahy al-ghāʾib | sarf |
+| Command / prohibition to the one present (second person) | أَمْرُ الحَاضِرِ / نَهْيُ الحَاضِرِ | amr al-ḥāḍir / nahy al-ḥāḍir | sarf |
+| The verb of wonder (how … !) | فِعْلُ التَّعَجُّبِ | fiʿl al-taʿajjub | sarf |
+| The ghābir (an old name of the muḍāriʿ) | الغَابِرُ | al-ghābir | sarf |
+| Complete / incomplete verb | الفِعْلُ التَّامُّ / النَّاقِصُ | al-fiʿl al-tāmm / al-nāqiṣ | sarf |
 
 ### Sound and weak
 
@@ -119,6 +134,11 @@ terms gets a row here first, and then in every language.
 | Change of a weak letter (iʿlāl) | الإِعْلَالُ | al-iʿlāl | sarf |
 | Assimilation of a letter into the next (idghām) | الإِدْغَامُ | al-idghām | sarf |
 | Replacing a letter (ibdāl) | الإِبْدَالُ | al-ibdāl | sarf |
+| The seven divisions (ṣaḥīḥ, mithāl, ajwaf, nāqiṣ, lafīf, muḍāʿaf, mahmūz) | الأَقْسَامُ السَّبْعَةُ | al-aqsām al-sabʿa | sarf |
+| Hamza as first / second / third root letter | مَهْمُوزُ الفَاءِ / العَيْنِ / اللَّامِ | mahmūz al-fāʾ / al-ʿayn / al-lām | sarf |
+| Doubling (of the last two root letters) | التَّضْعِيفُ | al-taḍʿīf | sarf |
+| Two like letters / assimilation necessary, permitted, impossible | المُتَجَانِسَانِ / إِدْغَامٌ وَاجِبٌ، جَائِزٌ، مُمْتَنِعٌ | al-mutajānisān / idghām wājib, jāʾiz, mumtaniʿ | sarf |
+| Accidental / original sukūn | سُكُونٌ عَارِضٌ / أَصْلِيٌّ | sukūn ʿāriḍ / aṣlī | sarf |
 
 ### Derived nouns
 
@@ -134,6 +154,9 @@ terms gets a row here first, and then in every language.
 | The noun of time / of place | اسْمُ الزَّمَانِ / اسْمُ المَكَانِ | ism al-zamān / ism al-makān | sarf |
 | The noun of instrument | اسْمُ الآلَةِ | ism al-āla | sarf |
 | The intensive form | صِيغَةُ المُبَالَغَةِ | ṣīghat al-mubālagha | sarf |
+| The noun of one act / of the manner | بِنَاءُ المَرَّةِ / بِنَاءُ النَّوْعِ | bināʾ al-marra / bināʾ al-nawʿ | sarf |
+| The diminutive | اسْمُ التَّصْغِيرِ | ism al-taṣghīr | sarf |
+| The relative adjective (nisba) | الاسْمُ المَنْسُوبُ | al-ism al-mansūb | sarf |
 
 ### Iʿrāb and bināʾ
 
@@ -154,6 +177,11 @@ terms gets a row here first, and then in every language.
 | Dropping (of a letter or a word) | الحَذْفُ | al-ḥadhf | both |
 | Implied (understood) | التَّقْدِيرُ، مُقَدَّرٌ | al-taqdīr, muqaddar | nahw |
 | In the place of (an iʿrāb state) | فِي مَحَلِّ … | fī maḥall … | nahw |
+| The effect of governing | العَمَلُ | al-ʿamal | nahw |
+| Iʿrāb audible / implied / by place | إِعْرَابٌ لَفْظِيٌّ / تَقْدِيرِيٌّ / مَحَلِّيٌّ | iʿrāb lafẓī / taqdīrī / maḥallī | nahw |
+| Of complete / incomplete iʿrāb | تَامُّ الإِعْرَابِ / نَاقِصُ الإِعْرَابِ | tāmm al-iʿrāb / nāqiṣ al-iʿrāb | nahw |
+| Governed in itself / by following; the word followed | مَعْمُولٌ بِالأَصَالَةِ / بِالتَّبَعِيَّةِ؛ المَتْبُوعُ | maʿmūl bi-l-aṣāla / bi-l-tabaʿiyya; al-matbūʿ | nahw |
+| The six nouns (the five nouns with hanū) | الأَسْمَاءُ السِّتَّةُ | al-asmāʾ al-sitta | nahw |
 
 ### The sentence
 
@@ -180,6 +208,9 @@ terms gets a row here first, and then in every language.
 | The noun / the predicate of kāna, of inna | اسْمُ كَانَ، خَبَرُ كَانَ؛ اسْمُ إِنَّ، خَبَرُ إِنَّ | ism kāna, khabar kāna; ism inna, khabar inna | nahw |
 | The lā that denies the whole kind | لَا النَّافِيَةُ لِلْجِنْسِ | lā al-nāfiya li-l-jins | nahw |
 | What puts the muḍāriʿ in naṣb / in jazm | النَّوَاصِبُ / الجَوَازِمُ | al-nawāṣib / al-jawāzim | nahw |
+| Mā and lā that resemble laysa | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | mā wa-lā al-mushabbahatān bi-laysa | nahw |
+| The complete vague noun (a number before its tamyīz) | الاسْمُ المُبْهَمُ التَّامُّ | al-ism al-mubham al-tāmm | nahw |
+| The meaning of the verb (a word that governs by it) | مَعْنَى الفِعْلِ | maʿnā al-fiʿl | nahw |
 
 ### The objects and other manṣūb nouns
 
@@ -193,6 +224,10 @@ terms gets a row here first, and then in every language.
 | The specification (tamyīz) | التَّمْيِيزُ | al-tamyīz | nahw |
 | The exception / the excepted | الاسْتِثْنَاءُ / المُسْتَثْنَى | al-istithnāʾ / al-mustathnā | nahw |
 | The one called (vocative, munādā) | المُنَادَى | al-munādā | nahw |
+| Speech affirmative / negative; complete / incomplete (in the exception) | مُوجَبٌ / مَنْفِيٌّ؛ تَامٌّ / نَاقِصٌ | mūjab / manfī; tāmm / nāqiṣ | nahw |
+| The disconnected exception | الاسْتِثْنَاءُ المُنْقَطِعُ | al-istithnāʾ al-munqaṭiʿ | nahw |
+| The one the ḥāl belongs to | صَاحِبُ الحَالِ (ذُو الحَالِ) | ṣāḥib al-ḥāl (dhū al-ḥāl) | nahw |
+| The kinds of munādā: single proper name, intended / unintended indefinite, muḍāf, like the muḍāf | المُفْرَدُ العَلَمُ، النَّكِرَةُ المَقْصُودَةُ وَغَيْرُ المَقْصُودَةِ، المُضَافُ، المُشَبَّهُ بِالمُضَافِ | al-mufrad al-ʿalam, al-nakira al-maqṣūda / ghayr al-maqṣūda, al-muḍāf, al-mushabbah bi-l-muḍāf | nahw |
 
 ### The followers (tawābiʿ)
 
@@ -203,6 +238,8 @@ terms gets a row here first, and then in every language.
 | The conjunction (ʿaṭf) / the particles of ʿaṭf | العَطْفُ / حُرُوفُ العَطْفِ | al-ʿaṭf / ḥurūf al-ʿaṭf | nahw |
 | The emphasis (tawkīd) | التَّوْكِيدُ | al-tawkīd | nahw |
 | The substitute (badal) | البَدَلُ | al-badal | nahw |
+| The explicative apposition | عَطْفُ البَيَانِ | ʿaṭf al-bayān | nahw |
+| The kinds of badal: of the whole, of the part, of inclusion, of mistake | بَدَلُ الكُلِّ، بَدَلُ البَعْضِ، بَدَلُ الاشْتِمَالِ، بَدَلُ الغَلَطِ | badal al-kull, badal al-baʿḍ, badal al-ishtimāl, badal al-ghalaṭ | nahw |
 
 ## Choices between competing terms
 
@@ -215,3 +252,8 @@ terms gets a row here first, and then in every language.
 - The augmented forms are named by their maṣdar (ifʿāl, tafʿīl, mufāʿala, tafaʿʿul, tafāʿul, infiʿāl, iftiʿāl,
   ifʿilāl, istifʿāl …), never by Western numbers in a translation (the lessons may add "form IV").
 - The bābs of the bare triliteral are named by their example verb (the bāb of naṣara), as the books do.
+- Books of tables (al-Amthila): every form of the print is given with its meaning, by its place in the paradigm
+  (third person masculine singular first, as the books order them); the forms are transliterated by script from
+  `source.json`, never retyped.
+- Persian verse inside an Arabic book (the end of the Bināʾ) is given in transliteration with its meaning in en, id and
+  tr, and as printed in ur and fa.

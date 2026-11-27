@@ -102,9 +102,10 @@ field uses the same helper.
   `public/photos/`, listed with alt text and, for the record, the photographer and Unsplash page in
   `src/config/photos.ts`). The files are in colour; the site shows them in black and white with a little more contrast
   (`picture img` in `global.css`, and the share images in `make-og.cjs`), so the turquoise and copper are the only colours
-  on the page. None says where it was taken, so none has a `place` and no caption is shown. The home page has the
-  carved stucco medallion (`stucco-medallion-blue`, Abdullah Habib), the strongest of them in grey; Sultan Ali's
-  painted arch is the glossary's and the Indian path's. Each section, handbook and madrasa path has its own (`KB_SECTIONS` in `lib/kb.ts`, `config/kb-books.json`, `curriculum.json`), and articles and
+  on the page. None says where it was taken, so none has a `place` and no caption is shown. The home page has Sultan Ali's
+  painted arch with Allāh kāfī (`painted-arch-allah-kafi`, since 27 November 2026, the owner's choice), also the
+  Indian path's; the glossary has the tiled portal with its verse (`tiled-portal-verse`); the carved stucco
+  medallion (`stucco-medallion-blue`) is kept for articles and scholars without a photo of their own. Each section, handbook and madrasa path has its own (`KB_SECTIONS` in `lib/kb.ts`, `config/kb-books.json`, `curriculum.json`), and articles and
   scholars without one get one of the seventeen by `photoFor`. They stand beside the panels, never as a background behind text. After
   adding a photo, put its 1600-wide WebP in `public/photos/`, run `apps/web/scripts/make-photos.cjs` (the smaller
   sizes) and `apps/web/scripts/make-og.cjs` (the share images).

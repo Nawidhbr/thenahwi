@@ -1,0 +1,3757 @@
+{
+  "id": "bina",
+  "title": "Bināʾ al-afʿāl",
+  "arabicTitle": "بِنَاءُ الْأَفْعَالِ",
+  "transliteration": "Bināʾ al-afʿāl",
+  "author": "Anonymous",
+  "authorArabic": "مَجْهُولُ الْمُؤَلِّفِ",
+  "library": "bina",
+  "madrasa": "ottoman",
+  "subject": "sarf",
+  "stage": "beginner",
+  "order": 1,
+  "summary": "The Binā (Turkish Binâ), a short anonymous Arabic primer read in the Ottoman madrasa after the Amthila: where the Amthila recites the forms of one verb, the Binā shows how verbs are built. It counts thirty-five bābs, the patterns on which every Arabic verb is made: six for the bare three-letter verb, twelve for the augmented, one for the bare four-letter verb, three for the augmented four-letter verb, and thirteen “attached” to the four-letter patterns. For each it gives the pattern, a model verb, the sign that marks it and what it is built for (making a verb transitive, intensifying, sharing, compliance), and it ends with the eight divisions of the verb and the seven classes of sound and weak roots. The lessons explain each bāb and show the regular ones in full with The Nahwi's conjugation tool.",
+  "edition": {
+    "title": "Majmūʿat al-ṣarf (Kitāb al-Bināʾ fī al-ṣarf, pp. 210–235), Ottoman lithograph, dated 1316/1898–99 at the end of the Bināʾ; scan of a modern facsimile reprint (\"Kutub al-ṣarf\")",
+    "year": "1316/1898–99",
+    "pages": "210–235",
+    "source": "https://archive.org/details/mecmuatussarf"
+  },
+  "textEdition": {
+    "title": "Majmūʿat al-ṣarf (Kitāb al-Bināʾ fī al-ṣarf, pp. 210–235), Ottoman lithograph, dated 1316/1898–99 at the end of the Bināʾ; scan of a modern facsimile reprint (\"Kutub al-ṣarf\")",
+    "language": "ar",
+    "year": "1316/1898–99",
+    "pages": "210–235",
+    "source": "https://archive.org/details/mecmuatussarf",
+    "note": "The print vowels only some words (the paradigms and some examples); vocalisation completed by us. Punctuation ours. Only the matn in the frame: the interlinear and marginal glosses are left out. The last passage is a Persian verse, as printed."
+  },
+  "parts": [
+    {
+      "id": "bare-triliteral",
+      "title": "The six bābs of the bare three-letter verb",
+      "arabic": "أَبْوَابُ الثُّلَاثِيِّ الْمُجَرَّدِ",
+      "transliteration": "abwāb al-thulāthī al-mujarrad",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "Thirty-five bābs; the bāb of naṣara",
+          "arabic": "أَبْوَابُ التَّصْرِيفِ وَالْبَابُ الْأَوَّلُ",
+          "transliteration": "abwāb al-taṣrīf wa-l-bāb al-awwal",
+          "pages": "210–211",
+          "body": [
+            "The Binā begins with a count: “the bābs of conjugation are thirty-five”. A bāb (literally “door”) is a pattern on which verbs are built: the bare three-letter verb has six, the augmented three-letter verb twelve, the bare four-letter verb one, the augmented four-letter verb three, and thirteen more are “attached” to the four-letter patterns. The Amthila taught one verb in all its forms; the Binā teaches the patterns on which all verbs stand.",
+            "Each bāb is given in the same order, and the order is worth learning. First the pattern (wazn) on faʿala: faʿala yafʿulu. Then its model (mawzūn), a real verb weighed on it: naṣara yanṣuru. Then its sign (ʿalāma), how you recognise it: here, the ʿayn has a fatḥa in the past and a ḍamma in the present. Then what it is built for, which the book calls its bināʾ: “mostly for making transitive, and it may be intransitive”. Last, an example of each use: naṣara Zaydun ʿAmran, “Zayd helped ʿAmr”; kharaja Zaydun, “Zayd went out”.",
+            "Mark the word bināʾ. In naḥw it means the fixed ending of a word (lesson 3 of the Ājurrūmiyya). Here, in the title of the book and in every bāb, it means what the pattern is built for, its use and meaning. The same word serves two sciences in two senses.",
+            "The book then defines the two uses. The transitive (mutaʿaddī) is the verb whose act “passes beyond the doer to the object”: naṣara Zaydun ʿAmran, the helping reaches ʿAmr. The intransitive (lāzim) is the verb whose act “does not pass beyond the doer, but happens in himself”: kharaja Zaydun, the going out stays with Zayd. The two words recur in every bāb that follows."
+          ],
+          "terms": [
+            {
+              "arabic": "الْبَابُ",
+              "transliteration": "al-bāb",
+              "en": "a pattern on which verbs are built: thirty-five in all"
+            },
+            {
+              "arabic": "الْوَزْنُ",
+              "transliteration": "al-wazn",
+              "en": "the pattern, written on faʿala"
+            },
+            {
+              "arabic": "الْمَوْزُونُ",
+              "transliteration": "al-mawzūn",
+              "en": "the model: a real verb weighed on the pattern"
+            },
+            {
+              "arabic": "الْعَلَامَةُ",
+              "transliteration": "al-ʿalāma",
+              "en": "the sign by which a bāb is known"
+            },
+            {
+              "arabic": "الْمُتَعَدِّي",
+              "transliteration": "al-mutaʿaddī",
+              "en": "transitive: the act passes to an object"
+            },
+            {
+              "arabic": "اللَّازِمُ",
+              "transliteration": "al-lāzim",
+              "en": "intransitive: the act stays with the doer"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "فَعَلَ يَفْعُلُ — نَصَرَ يَنْصُرُ",
+              "en": "faʿala yafʿulu, the pattern; naṣara yanṣuru, its model",
+              "after": 1
+            },
+            {
+              "arabic": "نَصَرَ زَيْدٌ عَمْرًا",
+              "en": "naṣara Zaydun ʿAmran, “Zayd helped ʿAmr”: transitive",
+              "after": 3
+            },
+            {
+              "arabic": "خَرَجَ زَيْدٌ",
+              "en": "kharaja Zaydun, “Zayd went out”: intransitive, in the same bāb",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "tree",
+            "after": 0,
+            "caption": "The thirty-five bābs of the Binā.",
+            "tree": {
+              "label": "The thirty-five bābs",
+              "ar": "أَبْوَابُ التَّصْرِيفِ",
+              "children": [
+                {
+                  "label": "Three-letter verb",
+                  "ar": "الثُّلَاثِيُّ",
+                  "children": [
+                    {
+                      "label": "bare: 6",
+                      "ar": "الْمُجَرَّدُ"
+                    },
+                    {
+                      "label": "augmented: 12",
+                      "ar": "الْمَزِيدُ فِيهِ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Four-letter verb",
+                  "ar": "الرُّبَاعِيُّ",
+                  "children": [
+                    {
+                      "label": "bare: 1",
+                      "ar": "الْمُجَرَّدُ"
+                    },
+                    {
+                      "label": "augmented: 3",
+                      "ar": "الْمَزِيدُ فِيهِ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Attached (mulḥaq)",
+                  "ar": "الْمُلْحَقُ",
+                  "children": [
+                    {
+                      "label": "to daḥraja: 6",
+                      "ar": "بِدَحْرَجَ"
+                    },
+                    {
+                      "label": "to tadaḥraja: 5",
+                      "ar": "بِتَدَحْرَجَ"
+                    },
+                    {
+                      "label": "to iḥranjama: 2",
+                      "ar": "بِاحْرَنْجَمَ"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the five things the Binā says of the first bāb, in its order.",
+              "answer": "The pattern: faʿala yafʿulu. The model: naṣara yanṣuru. The sign: the ʿayn has a fatḥa in the past and a ḍamma in the present. What it is built for: mostly transitive, sometimes intransitive. The examples: naṣara Zaydun ʿAmran (transitive), kharaja Zaydun (intransitive)."
+            },
+            {
+              "prompt": "Transitive or intransitive? kataba Zaydun al-darsa; jalasa Zaydun; fataḥa Zaydun al-bāba; dhahaba Zaydun.",
+              "arabic": "كَتَبَ زَيْدٌ الدَّرْسَ — جَلَسَ زَيْدٌ — فَتَحَ زَيْدٌ الْبَابَ — ذَهَبَ زَيْدٌ",
+              "answer": "Kataba: transitive (the writing passes to the lesson). Jalasa: intransitive. Fataḥa: transitive. Dhahaba: intransitive."
+            },
+            {
+              "prompt": "Give the past and the present of three other verbs of the bāb of naṣara: kataba, kharaja, dakhala.",
+              "answer": "Kataba, yaktubu; kharaja, yakhruju; dakhala, yadkhulu: fatḥa on the ʿayn in the past, ḍamma in the present."
+            },
+            {
+              "prompt": "What does bināʾ mean in this book, and what does it mean in naḥw?",
+              "answer": "In the Binā it is what a pattern is built for, its use (making transitive, intensifying …). In naḥw it is the fixed ending of a word that does not take iʿrāb."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-1-1",
+              "prompt": "How many bābs does the Binā count?",
+              "options": [
+                "Six",
+                "Thirty-five",
+                "Twelve",
+                "Fourteen"
+              ],
+              "answer": 1,
+              "explanation": "6 + 12 + 1 + 3 + 13 attached.",
+              "terms": []
+            },
+            {
+              "id": "bina-1-2",
+              "prompt": "What is the sign of the bāb of naṣara?",
+              "options": [
+                "Fatḥa in both",
+                "Kasra in the past, fatḥa in the present",
+                "Fatḥa on the ʿayn in the past, ḍamma in the present",
+                "Ḍamma in both"
+              ],
+              "answer": 2,
+              "explanation": "Naṣara, yanṣuru.",
+              "terms": []
+            },
+            {
+              "id": "bina-1-3",
+              "prompt": "What is the mawzūn of a bāb?",
+              "options": [
+                "The pattern on faʿala",
+                "Its maṣdar",
+                "Its sign",
+                "A real verb weighed on its pattern"
+              ],
+              "answer": 3,
+              "explanation": "Naṣara yanṣuru is the mawzūn of faʿala yafʿulu.",
+              "terms": []
+            },
+            {
+              "id": "bina-1-4",
+              "prompt": "What does “bināʾ” mean in the Binā?",
+              "options": [
+                "What a pattern is built for: its use",
+                "The fixed ending of a word",
+                "The root",
+                "The maṣdar"
+              ],
+              "answer": 0,
+              "explanation": "In naḥw the same word means the fixed ending.",
+              "terms": []
+            },
+            {
+              "id": "bina-1-5",
+              "prompt": "Kharaja Zaydun is…",
+              "arabic": "خَرَجَ زَيْدٌ",
+              "options": [
+                "transitive",
+                "intransitive",
+                "passive",
+                "a nominal sentence"
+              ],
+              "answer": 1,
+              "explanation": "The going out stays with Zayd.",
+              "terms": []
+            },
+            {
+              "id": "bina-1-6",
+              "prompt": "How is the transitive verb defined?",
+              "options": [
+                "It has a doer",
+                "It is in the past",
+                "Its act passes beyond the doer to the object",
+                "Its act stays in the doer"
+              ],
+              "answer": 2,
+              "explanation": "Naṣara Zaydun ʿAmran.",
+              "terms": []
+            },
+            {
+              "id": "bina-1-7",
+              "prompt": "How many bābs has the bare three-letter verb?",
+              "options": [
+                "Twelve",
+                "One",
+                "Thirteen",
+                "Six"
+              ],
+              "answer": 3,
+              "explanation": "Naṣara, ḍaraba, fataḥa, ʿalima, ḥasuna, ḥasiba.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ. اعْلَمْ أَنَّ أَبْوَابَ التَّصْرِيفِ خَمْسَةٌ وَثَلَاثُونَ بَابًا، سِتَّةٌ مِنْهَا لِلثُّلَاثِيِّ الْمُجَرَّدِ.",
+              "page": "210",
+              "en": "In the name of God, the Merciful, the Compassionate. Know that the bābs of conjugation are thirty-five bābs; six of them are for the bare triliteral."
+            },
+            {
+              "original": "الْبَابُ الْأَوَّلُ: فَعَلَ يَفْعُلُ، مَوْزُونُهُ نَصَرَ يَنْصُرُ، وَعَلَامَتُهُ أَنْ يَكُونَ عَيْنُ فِعْلِهِ مَفْتُوحًا فِي الْمَاضِي وَمَضْمُومًا فِي الْمُضَارِعِ، وَبِنَاؤُهُ لِلتَّعْدِيَةِ غَالِبًا، وَقَدْ يَكُونُ لَازِمًا. مِثَالُ الْمُتَعَدِّي نَحْوُ: نَصَرَ زَيْدٌ عَمْرًا، وَمِثَالُ اللَّازِمِ نَحْوُ: خَرَجَ زَيْدٌ.",
+              "page": "210–211",
+              "en": "The first bāb: faʿala yafʿulu; its model (mawzūn) is naṣara yanṣuru “to help”. Its sign is that the ʿayn of its verb has a fatḥa in the past and a ḍamma in the muḍāriʿ. It is mostly built for transitive use (taʿdiya), and it may be intransitive. An example of the transitive is naṣara Zaydun ʿAmran “Zayd helped ʿAmr”, and an example of the intransitive is kharaja Zaydun “Zayd went out”."
+            },
+            {
+              "original": "وَالْمُتَعَدِّي هُوَ مَا يَتَجَاوَزُ فِعْلُ الْفَاعِلِ إِلَى الْمَفْعُولِ بِهِ، وَاللَّازِمُ هُوَ مَا لَمْ يَتَجَاوَزْ فِعْلُ الْفَاعِلِ إِلَى الْمَفْعُولِ بِهِ، بَلْ وَقَعَ فِي نَفْسِهِ.",
+              "page": "211",
+              "en": "The transitive (mutaʿaddī) is that in which the action of the doer passes over to the direct object; the intransitive (lāzim) is that in which the action of the doer does not pass over to the direct object, but stays in the doer himself."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "title": "The bābs of ḍaraba and fataḥa",
+          "arabic": "بَابُ ضَرَبَ وَبَابُ فَتَحَ",
+          "transliteration": "bāb ḍaraba wa-bāb fataḥa",
+          "pages": "211–212",
+          "body": [
+            "The second bāb is faʿala yafʿilu, its model ḍaraba yaḍribu, “to strike”. Its sign: the ʿayn has a fatḥa in the past and a kasra in the present (the book calls the present here al-ghābir, an older name it uses beside al-muḍāriʿ). It too is mostly transitive, ḍaraba Zaydun ʿAmran, “Zayd struck ʿAmr”, and sometimes intransitive, jalasa Zaydun, “Zayd sat”.",
+            "The third bāb is faʿala yafʿalu, its model fataḥa yaftaḥu, “to open”: a fatḥa on the ʿayn in both the past and the present. It has a condition the others lack: the ʿayn or the lām of the verb must be one of the six letters of the throat (ḥurūf al-ḥalq): ḥāʾ, khāʾ, ʿayn, ghayn, hāʾ and hamza. In fataḥa the lām is a ḥāʾ; in dhahaba, “to go”, the intransitive example, the ʿayn is a hāʾ.",
+            "The commentaries explain why: a throat letter is heavy, and the light fatḥa beside it eases the word. But the condition works one way only. Every verb of this bāb has a throat letter, yet not every verb with a throat letter is of this bāb: dakhala, “to enter”, has a khāʾ as its ʿayn and is of the bāb of naṣara, dakhala yadkhulu. So the bāb of a verb is still learnt from the dictionary; the condition only tells you what is possible.",
+            "The three bābs of this lesson and the last all have a fatḥa in the past (faʿala) and differ only in the present: yafʿulu, yafʿilu, yafʿalu. That one vowel of the present is what the student must know of every new verb, and it is why The Nahwi's conjugation tool asks for the bāb."
+          ],
+          "terms": [
+            {
+              "arabic": "فَعَلَ يَفْعِلُ",
+              "transliteration": "faʿala yafʿilu",
+              "en": "the bāb of ḍaraba: kasra in the present"
+            },
+            {
+              "arabic": "فَعَلَ يَفْعَلُ",
+              "transliteration": "faʿala yafʿalu",
+              "en": "the bāb of fataḥa: fatḥa in both"
+            },
+            {
+              "arabic": "حُرُوفُ الْحَلْقِ",
+              "transliteration": "ḥurūf al-ḥalq",
+              "en": "the six letters of the throat: ḥ, kh, ʿ, gh, h, ʾ"
+            },
+            {
+              "arabic": "الْغَابِرُ",
+              "transliteration": "al-ghābir",
+              "en": "an older name for the present (muḍāriʿ)"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "ضَرَبَ زَيْدٌ عَمْرًا — جَلَسَ زَيْدٌ",
+              "en": "ḍaraba Zaydun ʿAmran, transitive; jalasa Zaydun, intransitive: the bāb of ḍaraba",
+              "after": 0
+            },
+            {
+              "arabic": "فَتَحَ زَيْدٌ الْبَابَ — ذَهَبَ زَيْدٌ",
+              "en": "fataḥa Zaydun al-bāba, “Zayd opened the door”; dhahaba Zaydun, “Zayd went”: the bāb of fataḥa",
+              "after": 1
+            },
+            {
+              "arabic": "دَخَلَ — يَدْخُلُ",
+              "en": "dakhala, yadkhulu: a throat letter, yet the bāb of naṣara",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The three bābs with a fatḥa in the past",
+              "head": [
+                "Bāb",
+                "Past",
+                "Present",
+                "Transitive",
+                "Intransitive"
+              ],
+              "rows": [
+                [
+                  "فَعَلَ يَفْعُلُ",
+                  "نَصَرَ",
+                  "يَنْصُرُ",
+                  "نَصَرَ زَيْدٌ عَمْرًا",
+                  "خَرَجَ زَيْدٌ"
+                ],
+                [
+                  "فَعَلَ يَفْعِلُ",
+                  "ضَرَبَ",
+                  "يَضْرِبُ",
+                  "ضَرَبَ زَيْدٌ عَمْرًا",
+                  "جَلَسَ زَيْدٌ"
+                ],
+                [
+                  "فَعَلَ يَفْعَلُ",
+                  "فَتَحَ",
+                  "يَفْتَحُ",
+                  "فَتَحَ زَيْدٌ الْبَابَ",
+                  "ذَهَبَ زَيْدٌ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Which bāb? Give the pattern: jalasa yajlisu; fataḥa yaftaḥu; kharaja yakhruju; ḍaraba yaḍribu.",
+              "arabic": "جَلَسَ يَجْلِسُ — فَتَحَ يَفْتَحُ — خَرَجَ يَخْرُجُ — ضَرَبَ يَضْرِبُ",
+              "answer": "Jalasa yajlisu: faʿala yafʿilu (the bāb of ḍaraba). Fataḥa yaftaḥu: faʿala yafʿalu. Kharaja yakhruju: faʿala yafʿulu (the bāb of naṣara). Ḍaraba yaḍribu: faʿala yafʿilu."
+            },
+            {
+              "prompt": "Name the throat letter and its place (ʿayn or lām) in fataḥa and dhahaba.",
+              "arabic": "فَتَحَ — ذَهَبَ",
+              "answer": "Fataḥa: the ḥāʾ, its lām. Dhahaba: the hāʾ, its ʿayn."
+            },
+            {
+              "prompt": "Dakhala has a throat letter. Why is it not of the bāb of fataḥa?",
+              "arabic": "دَخَلَ يَدْخُلُ",
+              "answer": "The throat letter is a condition of the bāb of fataḥa, not a cause: every verb of that bāb has one, but a verb with one may belong to another bāb. Dakhala is heard as dakhala yadkhulu, the bāb of naṣara."
+            },
+            {
+              "prompt": "Give the imperative to one man of jalasa and of fataḥa.",
+              "answer": "Ijlis; iftaḥ."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-2-1",
+              "prompt": "What is the sign of the bāb of ḍaraba?",
+              "options": [
+                "Fatḥa in both",
+                "Kasra in both",
+                "Fatḥa on the ʿayn in the past, kasra in the present",
+                "Ḍamma in both"
+              ],
+              "answer": 2,
+              "explanation": "Ḍaraba, yaḍribu.",
+              "terms": []
+            },
+            {
+              "id": "bina-2-2",
+              "prompt": "What condition does the bāb of fataḥa have?",
+              "options": [
+                "It must be transitive",
+                "Its fāʾ is a weak letter",
+                "It has four letters",
+                "Its ʿayn or lām is a throat letter"
+              ],
+              "answer": 3,
+              "explanation": "Ḥāʾ, khāʾ, ʿayn, ghayn, hāʾ or hamza.",
+              "terms": []
+            },
+            {
+              "id": "bina-2-3",
+              "prompt": "Which is a throat letter?",
+              "options": [
+                "Ghayn",
+                "Qāf",
+                "Kāf",
+                "Mīm"
+              ],
+              "answer": 0,
+              "explanation": "The six: ḥ, kh, ʿ, gh, h, ʾ.",
+              "terms": []
+            },
+            {
+              "id": "bina-2-4",
+              "prompt": "Dakhala yadkhulu belongs to the bāb of…",
+              "arabic": "دَخَلَ يَدْخُلُ",
+              "options": [
+                "fataḥa",
+                "naṣara",
+                "ḍaraba",
+                "ʿalima"
+              ],
+              "answer": 1,
+              "explanation": "A throat letter does not force the bāb of fataḥa.",
+              "terms": []
+            },
+            {
+              "id": "bina-2-5",
+              "prompt": "What is al-ghābir in the Binā?",
+              "options": [
+                "The past",
+                "The imperative",
+                "The present (muḍāriʿ)",
+                "The maṣdar"
+              ],
+              "answer": 2,
+              "explanation": "An older name the book uses beside al-muḍāriʿ.",
+              "terms": []
+            },
+            {
+              "id": "bina-2-6",
+              "prompt": "Jalasa Zaydun is the book's example of…",
+              "arabic": "جَلَسَ زَيْدٌ",
+              "options": [
+                "the transitive in the bāb of ḍaraba",
+                "the bāb of fataḥa",
+                "the bāb of naṣara",
+                "the intransitive in the bāb of ḍaraba"
+              ],
+              "answer": 3,
+              "explanation": "Jalasa, yajlisu: faʿala yafʿilu.",
+              "terms": []
+            },
+            {
+              "id": "bina-2-7",
+              "prompt": "What do naṣara, ḍaraba and fataḥa share?",
+              "options": [
+                "A fatḥa on the ʿayn in the past",
+                "The vowel of the present",
+                "A throat letter",
+                "Being intransitive"
+              ],
+              "answer": 0,
+              "explanation": "They differ only in the present: yafʿulu, yafʿilu, yafʿalu.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "الْبَابُ الثَّانِي: فَعَلَ يَفْعِلُ، مَوْزُونُهُ ضَرَبَ يَضْرِبُ، وَعَلَامَتُهُ أَنْ يَكُونَ عَيْنُ فِعْلِهِ مَفْتُوحًا فِي الْمَاضِي وَمَكْسُورًا فِي الْغَابِرِ، وَبِنَاؤُهُ أَيْضًا لِلتَّعْدِيَةِ غَالِبًا، وَقَدْ يَكُونُ لَازِمًا. مِثَالُ الْمُتَعَدِّي نَحْوُ: ضَرَبَ زَيْدٌ عَمْرًا، وَمِثَالُ اللَّازِمِ نَحْوُ: جَلَسَ زَيْدٌ.",
+              "page": "211",
+              "en": "The second bāb: faʿala yafʿilu; its model is ḍaraba yaḍribu “to strike”. Its sign is that the ʿayn of its verb has a fatḥa in the past and a kasra in the ghābir [the muḍāriʿ]. It too is mostly built for transitive use, and it may be intransitive. An example of the transitive is ḍaraba Zaydun ʿAmran “Zayd struck ʿAmr”, and an example of the intransitive is jalasa Zaydun “Zayd sat down”."
+            },
+            {
+              "original": "الْبَابُ الثَّالِثُ: فَعَلَ يَفْعَلُ، مَوْزُونُهُ فَتَحَ يَفْتَحُ، وَعَلَامَتُهُ أَنْ يَكُونَ عَيْنُ فِعْلِهِ مَفْتُوحًا فِي الْمَاضِي وَالْمُضَارِعِ، بِشَرْطِ أَنْ يَكُونَ عَيْنُ فِعْلِهِ أَوْ لَامُهُ حَرْفًا مِنْ حُرُوفِ الْحَلْقِ، وَهِيَ سِتَّةٌ: الْحَاءُ وَالْخَاءُ وَالْعَيْنُ وَالْغَيْنُ وَالْهَاءُ وَالْهَمْزَةُ، وَبِنَاؤُهُ لِلتَّعْدِيَةِ غَالِبًا، وَقَدْ يَكُونُ لَازِمًا. مِثَالُ الْمُتَعَدِّي نَحْوُ: فَتَحَ زَيْدٌ الْبَابَ، وَمِثَالُ اللَّازِمِ نَحْوُ: ذَهَبَ زَيْدٌ.",
+              "page": "212",
+              "en": "The third bāb: faʿala yafʿalu; its model is fataḥa yaftaḥu “to open”. Its sign is that the ʿayn of its verb has a fatḥa in the past and in the muḍāriʿ, on condition that the ʿayn or the lām of its verb is one of the letters of the throat (ḥurūf al-ḥalq), which are six: ḥāʾ, khāʾ, ʿayn, ghayn, hāʾ and hamza. It is mostly built for transitive use, and it may be intransitive. An example of the transitive is fataḥa Zaydun al-bāba “Zayd opened the door”, and an example of the intransitive is dhahaba Zaydun “Zayd went”."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "The bābs of ʿalima, ḥasuna and ḥasiba",
+          "arabic": "بَابُ عَلِمَ وَحَسُنَ وَحَسِبَ",
+          "transliteration": "bāb ʿalima wa-ḥasuna wa-ḥasiba",
+          "pages": "212–213",
+          "body": [
+            "The fourth bāb is faʿila yafʿalu, its model ʿalima yaʿlamu, “to know”: a kasra on the ʿayn in the past, a fatḥa in the present. Transitive: ʿalima Zaydun al-masʾalata, “Zayd knew the question”; intransitive: wajila Zaydun, “Zayd was afraid”. Other books take samiʿa yasmaʿu, “to hear”, as the model of this bāb, and The Nahwi's conjugation tool names it by samiʿa; the pattern is the same.",
+            "The fifth bāb is faʿula yafʿulu, its model ḥasuna yaḥsunu, “to be fine, good”: a ḍamma on the ʿayn in both. It is “only intransitive”: ḥasuna Zaydun, “Zayd was good”. Its verbs name qualities that belong to someone by nature, beauty, nobility, size, and so they take no object; the conjugation tool names this bāb by karuma, “to be noble”. Its adjective is usually not on fāʿil but on another pattern, ḥasan, karīm, the ṣifa mushabbaha that the ʿAwāmil teaches.",
+            "The sixth bāb is faʿila yafʿilu, its model ḥasiba yaḥsibu, “to reckon, to think”: a kasra on the ʿayn in both. It is the rarest of the six. Its transitive example is a verb of the heart with two objects: ḥasiba Zaydun ʿAmran fāḍilan, “Zayd reckoned ʿAmr excellent”, as in the Ājurrūmiyya's sisters of ẓanantu. The intransitive example the print gives is waritha Zaydun, “Zayd inherited”.",
+            "Now the six can be laid side by side. Three have a fatḥa in the past (faʿala), and their presents have u, i, a. Two have a kasra in the past (faʿila), with a and i in the present. One has a ḍamma in the past (faʿula), with u in the present. Six pairs of vowels, and every bare three-letter verb in Arabic stands in one of them."
+          ],
+          "terms": [
+            {
+              "arabic": "فَعِلَ يَفْعَلُ",
+              "transliteration": "faʿila yafʿalu",
+              "en": "the bāb of ʿalima (samiʿa)"
+            },
+            {
+              "arabic": "فَعُلَ يَفْعُلُ",
+              "transliteration": "faʿula yafʿulu",
+              "en": "the bāb of ḥasuna (karuma): only intransitive"
+            },
+            {
+              "arabic": "فَعِلَ يَفْعِلُ",
+              "transliteration": "faʿila yafʿilu",
+              "en": "the bāb of ḥasiba"
+            },
+            {
+              "arabic": "الثُّلَاثِيُّ الْمُجَرَّدُ",
+              "transliteration": "al-thulāthī al-mujarrad",
+              "en": "the bare three-letter verb"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "عَلِمَ زَيْدٌ الْمَسْأَلَةَ — وَجِلَ زَيْدٌ",
+              "en": "ʿalima Zaydun al-masʾalata, transitive; wajila Zaydun, intransitive",
+              "after": 0
+            },
+            {
+              "arabic": "حَسُنَ زَيْدٌ",
+              "en": "ḥasuna Zaydun, “Zayd was good”: the bāb that is only intransitive",
+              "after": 1
+            },
+            {
+              "arabic": "حَسِبَ زَيْدٌ عَمْرًا فَاضِلًا",
+              "en": "ḥasiba Zaydun ʿAmran fāḍilan, “Zayd reckoned ʿAmr excellent”: two objects",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The six bābs of the bare three-letter verb",
+              "head": [
+                "Bāb",
+                "Model",
+                "Past ʿayn",
+                "Present ʿayn",
+                "Name in the tool"
+              ],
+              "rows": [
+                [
+                  "فَعَلَ يَفْعُلُ",
+                  "نَصَرَ يَنْصُرُ",
+                  "a",
+                  "u",
+                  "nasara"
+                ],
+                [
+                  "فَعَلَ يَفْعِلُ",
+                  "ضَرَبَ يَضْرِبُ",
+                  "a",
+                  "i",
+                  "daraba"
+                ],
+                [
+                  "فَعَلَ يَفْعَلُ",
+                  "فَتَحَ يَفْتَحُ",
+                  "a",
+                  "a",
+                  "fataha"
+                ],
+                [
+                  "فَعِلَ يَفْعَلُ",
+                  "عَلِمَ يَعْلَمُ",
+                  "i",
+                  "a",
+                  "samia"
+                ],
+                [
+                  "فَعُلَ يَفْعُلُ",
+                  "حَسُنَ يَحْسُنُ",
+                  "u",
+                  "u",
+                  "karuma"
+                ],
+                [
+                  "فَعِلَ يَفْعِلُ",
+                  "حَسِبَ يَحْسِبُ",
+                  "i",
+                  "i",
+                  "hasiba"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the bāb of each by its pattern: samiʿa yasmaʿu; karuma yakrumu; ḥasiba yaḥsibu; ʿalima yaʿlamu.",
+              "arabic": "سَمِعَ يَسْمَعُ — كَرُمَ يَكْرُمُ — حَسِبَ يَحْسِبُ — عَلِمَ يَعْلَمُ",
+              "answer": "Samiʿa yasmaʿu: faʿila yafʿalu. Karuma yakrumu: faʿula yafʿulu. Ḥasiba yaḥsibu: faʿila yafʿilu. ʿAlima yaʿlamu: faʿila yafʿalu (the same bāb as samiʿa)."
+            },
+            {
+              "prompt": "Why can a verb of the bāb of ḥasuna never take an object?",
+              "answer": "Its verbs name qualities that belong to the doer by nature (being good, noble, large); nothing passes from the doer to another. The Binā says it is only intransitive."
+            },
+            {
+              "prompt": "In ḥasiba Zaydun ʿAmran fāḍilan, name the doer and the two objects, and say which group of naḥw ḥasiba belongs to.",
+              "arabic": "حَسِبَ زَيْدٌ عَمْرًا فَاضِلًا",
+              "answer": "Doer: Zaydun. First object: ʿAmran; second object: fāḍilan. Ḥasiba is one of the sisters of ẓanantu, the verbs of the heart that take two objects."
+            },
+            {
+              "prompt": "Recite the six bābs with their models.",
+              "answer": "Faʿala yafʿulu (naṣara yanṣuru); faʿala yafʿilu (ḍaraba yaḍribu); faʿala yafʿalu (fataḥa yaftaḥu); faʿila yafʿalu (ʿalima yaʿlamu); faʿula yafʿulu (ḥasuna yaḥsunu); faʿila yafʿilu (ḥasiba yaḥsibu)."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-3-1",
+              "prompt": "What is the sign of the bāb of ʿalima?",
+              "options": [
+                "Fatḥa in both",
+                "Kasra in both",
+                "Ḍamma in both",
+                "Kasra in the past, fatḥa in the present"
+              ],
+              "answer": 3,
+              "explanation": "ʿAlima, yaʿlamu.",
+              "terms": []
+            },
+            {
+              "id": "bina-3-2",
+              "prompt": "Which bāb is only intransitive?",
+              "options": [
+                "Faʿula yafʿulu (ḥasuna)",
+                "Faʿala yafʿulu (naṣara)",
+                "Faʿila yafʿalu (ʿalima)",
+                "Faʿila yafʿilu (ḥasiba)"
+              ],
+              "answer": 0,
+              "explanation": "Its verbs name natural qualities.",
+              "terms": []
+            },
+            {
+              "id": "bina-3-3",
+              "prompt": "What is the model of faʿila yafʿilu in the Binā?",
+              "options": [
+                "ʿAlima yaʿlamu",
+                "Ḥasiba yaḥsibu",
+                "Ḥasuna yaḥsunu",
+                "Fataḥa yaftaḥu"
+              ],
+              "answer": 1,
+              "explanation": "Kasra in both past and present.",
+              "terms": []
+            },
+            {
+              "id": "bina-3-4",
+              "prompt": "How does The Nahwi's tool name the bāb of ʿalima?",
+              "options": [
+                "By karuma",
+                "By ḥasiba",
+                "By samiʿa",
+                "By fataḥa"
+              ],
+              "answer": 2,
+              "explanation": "Samiʿa yasmaʿu has the same pattern.",
+              "terms": []
+            },
+            {
+              "id": "bina-3-5",
+              "prompt": "Ḥasiba Zaydun ʿAmran fāḍilan has…",
+              "arabic": "حَسِبَ زَيْدٌ عَمْرًا فَاضِلًا",
+              "options": [
+                "one object",
+                "no object",
+                "a ḥāl and no object",
+                "two objects"
+              ],
+              "answer": 3,
+              "explanation": "Ḥasiba is a verb of the heart, a sister of ẓanantu.",
+              "terms": []
+            },
+            {
+              "id": "bina-3-6",
+              "prompt": "How many bābs have a kasra on the ʿayn in the past?",
+              "options": [
+                "Two",
+                "Three",
+                "One",
+                "Six"
+              ],
+              "answer": 0,
+              "explanation": "ʿAlima yaʿlamu and ḥasiba yaḥsibu.",
+              "terms": []
+            },
+            {
+              "id": "bina-3-7",
+              "prompt": "What is the usual adjective of a verb of the bāb of ḥasuna?",
+              "options": [
+                "An active participle on fāʿil",
+                "A ṣifa mushabbaha such as ḥasan",
+                "A passive participle",
+                "An elative only"
+              ],
+              "answer": 1,
+              "explanation": "Ḥasan, karīm: the adjective like the participle.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "الْبَابُ الرَّابِعُ: فَعِلَ يَفْعَلُ، مَوْزُونُهُ عَلِمَ يَعْلَمُ، وَعَلَامَتُهُ أَنْ يَكُونَ عَيْنُ فِعْلِهِ مَكْسُورًا فِي الْمَاضِي وَمَفْتُوحًا فِي الْغَابِرِ، وَبِنَاؤُهُ لِلتَّعْدِيَةِ غَالِبًا، وَقَدْ يَكُونُ لَازِمًا. مِثَالُ الْمُتَعَدِّي نَحْوُ: عَلِمَ زَيْدٌ الْمَسْأَلَةَ، وَمِثَالُ اللَّازِمِ نَحْوُ: وَجِلَ زَيْدٌ.",
+              "page": "212–213",
+              "en": "The fourth bāb: faʿila yafʿalu; its model is ʿalima yaʿlamu “to know”. Its sign is that the ʿayn of its verb has a kasra in the past and a fatḥa in the ghābir. It is mostly built for transitive use, and it may be intransitive. An example of the transitive is ʿalima Zaydun al-masʾalata “Zayd knew the question”, and an example of the intransitive is wajila Zaydun “Zayd was afraid”."
+            },
+            {
+              "original": "الْبَابُ الْخَامِسُ: فَعُلَ يَفْعُلُ، مَوْزُونُهُ حَسُنَ يَحْسُنُ، وَعَلَامَتُهُ أَنْ يَكُونَ عَيْنُ فِعْلِهِ مَضْمُومًا فِي الْمَاضِي وَالْمُضَارِعِ، وَبِنَاؤُهُ لَا يَكُونُ إِلَّا لَازِمًا، نَحْوُ: حَسُنَ زَيْدٌ.",
+              "page": "213",
+              "en": "The fifth bāb: faʿula yafʿulu; its model is ḥasuna yaḥsunu “to be good”. Its sign is that the ʿayn of its verb has a ḍamma in the past and in the muḍāriʿ. It is only ever intransitive, as ḥasuna Zaydun “Zayd was good”."
+            },
+            {
+              "original": "الْبَابُ السَّادِسُ: فَعِلَ يَفْعِلُ، مَوْزُونُهُ حَسِبَ يَحْسِبُ، وَعَلَامَتُهُ أَنْ يَكُونَ عَيْنُ فِعْلِهِ مَكْسُورًا فِي الْمَاضِي وَالْمُضَارِعِ، وَبِنَاؤُهُ لِلتَّعْدِيَةِ غَالِبًا، وَقَدْ يَكُونُ لَازِمًا. مِثَالُ الْمُتَعَدِّي نَحْوُ: حَسِبَ زَيْدٌ عَمْرًا فَاضِلًا، وَمِثَالُ اللَّازِمِ نَحْوُ: وَرِثَ زَيْدٌ.",
+              "page": "213",
+              "en": "The sixth bāb: faʿila yafʿilu; its model is ḥasiba yaḥsibu “to reckon”. Its sign is that the ʿayn of its verb has a kasra in the past and in the muḍāriʿ. It is mostly built for transitive use, and it may be intransitive. An example of the transitive is ḥasiba Zaydun ʿAmran fāḍilan “Zayd reckoned ʿAmr excellent”, and an example of the intransitive is waritha Zaydun “Zayd inherited”."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "augmented-triliteral",
+      "title": "The twelve bābs of the augmented three-letter verb",
+      "arabic": "أَبْوَابُ الثُّلَاثِيِّ الْمَزِيدِ فِيهِ",
+      "transliteration": "abwāb al-thulāthī al-mazīd fīhi",
+      "lessons": [
+        {
+          "n": 4,
+          "title": "One letter added: afʿala, faʿʿala, fāʿala",
+          "arabic": "مَا زِيدَ فِيهِ حَرْفٌ وَاحِدٌ",
+          "transliteration": "mā zīda fīhi ḥarf wāḥid",
+          "pages": "214–216",
+          "body": [
+            "Twelve bābs are for the three-letter verb with added letters (al-mazīd fīhi), in three kinds: one letter added (three bābs), two letters (five), three letters (four). From here on the book gives each bāb with its maṣdar too, for the maṣdars of the augmented verbs follow rules: afʿala yufʿilu ifʿālan.",
+            "The first bāb adds a hamza at the start: afʿala yufʿilu ifʿālan, model akrama yukrimu ikrāman. It is mostly for making transitive (taʿdiya): karuma Zaydun, “Zayd was noble”, becomes akrama Zaydun ʿAmran, “Zayd honoured ʿAmr”, made him the object of nobility. Sometimes it is intransitive: aṣbaḥa al-rajulu, “the man entered the morning”.",
+            "The second bāb doubles the ʿayn: faʿʿala yufaʿʿilu tafʿīlan, model farraḥa yufarriḥu tafrīḥan, “to gladden”. The added letter is “between the fāʾ and the ʿayn, of the same kind as the ʿayn”, which is how the book describes a doubling. It is mostly for multiplying (takthīr): in the act, ṭawwafa Zaydun al-kaʿbata, “Zayd went round the Kaʿba many times”; in the doers, mawwata al-ibilu, “the camels died in great numbers”; in the object, ghallaqa Zaydun al-bāba, “Zayd locked the door again and again”. Many verbs of this bāb also make transitive: ʿalima, “to know”, ʿallama, “to teach”.",
+            "The third bāb adds an alif after the fāʾ: fāʿala yufāʿilu mufāʿalatan, model qātala yuqātilu muqātalatan, with two more maṣdars, qitālan and qītālan. It is mostly for sharing between two (mushāraka): qātala Zaydun ʿAmran, “Zayd fought ʿAmr”, each doing to the other what the other does to him; sometimes for one only: qātalahumu llāhu, “may God fight them” (Q 9:30).",
+            "In all three the present has a ḍamma on its prefix, yukrimu, yufarriḥu, yuqātilu, as every four-letter past has (the Amthila's lesson on the present). The conjugation tool gives these three bābs in full as patterns 4, 2 and 3."
+          ],
+          "terms": [
+            {
+              "arabic": "الْمَزِيدُ فِيهِ",
+              "transliteration": "al-mazīd fīhi",
+              "en": "the augmented verb: letters added to the root"
+            },
+            {
+              "arabic": "التَّعْدِيَةُ",
+              "transliteration": "al-taʿdiya",
+              "en": "making transitive"
+            },
+            {
+              "arabic": "التَّكْثِيرُ",
+              "transliteration": "al-takthīr",
+              "en": "multiplying: in the act, the doers or the objects"
+            },
+            {
+              "arabic": "الْمُشَارَكَةُ",
+              "transliteration": "al-mushāraka",
+              "en": "sharing between two"
+            },
+            {
+              "arabic": "إِفْعَالٌ، تَفْعِيلٌ، مُفَاعَلَةٌ",
+              "transliteration": "ifʿāl, tafʿīl, mufāʿala",
+              "en": "the maṣdars by which the three bābs are named"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "أَكْرَمَ زَيْدٌ عَمْرًا",
+              "en": "akrama Zaydun ʿAmran, “Zayd honoured ʿAmr”: afʿala, making transitive",
+              "after": 1
+            },
+            {
+              "arabic": "طَوَّفَ زَيْدٌ الْكَعْبَةَ",
+              "en": "ṭawwafa Zaydun al-kaʿbata, “Zayd went round the Kaʿba many times”: faʿʿala, multiplying",
+              "after": 2
+            },
+            {
+              "arabic": "عَلَّمَ، يُعَلِّمُ، تَعْلِيمٌ",
+              "en": "ʿallama, yuʿallimu, taʿlīm, “to teach”: faʿʿala making ʿalima transitive",
+              "after": 2
+            },
+            {
+              "arabic": "قَاتَلَ زَيْدٌ عَمْرًا",
+              "en": "qātala Zaydun ʿAmran, “Zayd fought ʿAmr”: fāʿala, sharing",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "One letter added to the three-letter verb",
+              "head": [
+                "Pattern",
+                "Model",
+                "Added letter",
+                "Built mostly for"
+              ],
+              "rows": [
+                [
+                  "أَفْعَلَ يُفْعِلُ إِفْعَالًا",
+                  "أَكْرَمَ يُكْرِمُ إِكْرَامًا",
+                  "hamza at the start",
+                  "making transitive"
+                ],
+                [
+                  "فَعَّلَ يُفَعِّلُ تَفْعِيلًا",
+                  "فَرَّحَ يُفَرِّحُ تَفْرِيحًا",
+                  "the ʿayn doubled",
+                  "multiplying"
+                ],
+                [
+                  "فَاعَلَ يُفَاعِلُ مُفَاعَلَةً",
+                  "قَاتَلَ يُقَاتِلُ مُقَاتَلَةً",
+                  "alif after the fāʾ",
+                  "sharing between two"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the past, present, maṣdar, active participle and imperative of akhraja (afʿala of kharaja), ʿallama (faʿʿala of ʿalima) and kātaba (fāʿala of kataba).",
+              "answer": "Akhraja, yukhriju, ikhrāj, mukhrij, akhrij. ʿAllama, yuʿallimu, taʿlīm, muʿallim, ʿallim. Kātaba, yukātibu, mukātaba, mukātib, kātib."
+            },
+            {
+              "prompt": "Name the bāb and what it is built for: akrama Zaydun ʿAmran; mawwata al-ibilu; qātala Zaydun ʿAmran.",
+              "arabic": "أَكْرَمَ زَيْدٌ عَمْرًا — مَوَّتَ الْإِبِلُ — قَاتَلَ زَيْدٌ عَمْرًا",
+              "answer": "Akrama: afʿala, making transitive. Mawwata: faʿʿala, multiplying in the doers (many camels died). Qātala: fāʿala, sharing between two."
+            },
+            {
+              "prompt": "Kharaja Zaydun means “Zayd went out”. What does akhraja Zaydun ʿAmran mean, and what has the hamza done?",
+              "arabic": "خَرَجَ زَيْدٌ — أَخْرَجَ زَيْدٌ عَمْرًا",
+              "answer": "“Zayd brought ʿAmr out.” The hamza of afʿala has made an intransitive verb transitive: the one who went out becomes the object, and a new doer makes him go out."
+            },
+            {
+              "prompt": "Why does the book say the added letter of faʿʿala is “of the same kind as the ʿayn”?",
+              "answer": "Because the addition is a second ʿayn: in farraḥa the rāʾ is doubled. The book describes the doubling as a letter like the ʿayn added between the fāʾ and the ʿayn."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-4-1",
+              "prompt": "What is afʿala mostly built for?",
+              "options": [
+                "Making transitive",
+                "Sharing",
+                "Multiplying",
+                "Compliance"
+              ],
+              "answer": 0,
+              "explanation": "Akrama Zaydun ʿAmran.",
+              "terms": []
+            },
+            {
+              "id": "bina-4-2",
+              "prompt": "What does faʿʿala add?",
+              "options": [
+                "A hamza at the start",
+                "A doubled ʿayn",
+                "An alif after the fāʾ",
+                "A tāʾ at the start"
+              ],
+              "answer": 1,
+              "explanation": "Farraḥa, ṭawwafa, ʿallama.",
+              "terms": []
+            },
+            {
+              "id": "bina-4-3",
+              "prompt": "Ṭawwafa Zaydun al-kaʿbata shows multiplying in…",
+              "arabic": "طَوَّفَ زَيْدٌ الْكَعْبَةَ",
+              "options": [
+                "the doers",
+                "the object",
+                "the act",
+                "nothing"
+              ],
+              "answer": 2,
+              "explanation": "He went round many times.",
+              "terms": []
+            },
+            {
+              "id": "bina-4-4",
+              "prompt": "What is fāʿala mostly built for?",
+              "options": [
+                "Making transitive",
+                "Intensifying",
+                "Seeking",
+                "Sharing between two"
+              ],
+              "answer": 3,
+              "explanation": "Qātala Zaydun ʿAmran.",
+              "terms": []
+            },
+            {
+              "id": "bina-4-5",
+              "prompt": "What is the maṣdar of qātala given first by the book?",
+              "arabic": "قَاتَلَ",
+              "options": [
+                "Muqātala",
+                "Taqtīl",
+                "Iqtāl",
+                "Taqātul"
+              ],
+              "answer": 0,
+              "explanation": "With qitāl and qītāl beside it.",
+              "terms": []
+            },
+            {
+              "id": "bina-4-6",
+              "prompt": "Qātalahumu llāhu (Q 9:30) shows fāʿala…",
+              "arabic": "قَاتَلَهُمُ اللَّهُ",
+              "options": [
+                "for sharing",
+                "for one only, without sharing",
+                "for multiplying",
+                "for compliance"
+              ],
+              "answer": 1,
+              "explanation": "The book's example of fāʿala for one.",
+              "terms": []
+            },
+            {
+              "id": "bina-4-7",
+              "prompt": "What do yukrimu, yufarriḥu and yuqātilu share?",
+              "options": [
+                "A fatḥa on the prefix",
+                "A doubled ʿayn",
+                "A ḍamma on the prefix",
+                "The same maṣdar"
+              ],
+              "answer": 2,
+              "explanation": "The present of a four-letter past has a ḍamma on its prefix.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَاثْنَا عَشَرَ بَابًا مِنْهَا لِمَا زَادَ عَلَى الثُّلَاثِيِّ، وَهُوَ ثَلَاثَةُ أَنْوَاعٍ. النَّوْعُ الْأَوَّلُ: وَهُوَ مَا زِيدَ فِيهِ حَرْفٌ وَاحِدٌ عَلَى الثُّلَاثِيِّ، وَهُوَ ثَلَاثَةُ أَبْوَابٍ. الْبَابُ الْأَوَّلُ: أَفْعَلَ يُفْعِلُ إِفْعَالًا، مَوْزُونُهُ أَكْرَمَ يُكْرِمُ إِكْرَامًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ، وَبِنَاؤُهُ لِلتَّعْدِيَةِ غَالِبًا، وَقَدْ يَكُونُ لَازِمًا. مِثَالُ الْمُتَعَدِّي نَحْوُ: أَكْرَمَ زَيْدٌ عَمْرًا، وَمِثَالُ اللَّازِمِ نَحْوُ: أَصْبَحَ الرَّجُلُ.",
+              "page": "214",
+              "en": "And twelve of the bābs are for what is more than the triliteral, and that is of three kinds. The first kind is that in which one letter is added to the triliteral; it is three bābs. The first bāb: afʿala yufʿilu ifʿālan; its model is akrama yukrimu ikrāman “to honour”. Its sign is that its past has four letters, by the addition of the hamza at its beginning. It is mostly built for transitive use, and it may be intransitive. An example of the transitive is akrama Zaydun ʿAmran “Zayd honoured ʿAmr”, and an example of the intransitive is aṣbaḥa al-rajulu “the man entered upon the morning”."
+            },
+            {
+              "original": "الْبَابُ الثَّانِي: فَعَّلَ يُفَعِّلُ تَفْعِيلًا، مَوْزُونُهُ فَرَّحَ يُفَرِّحُ تَفْرِيحًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ حَرْفٍ وَاحِدٍ بَيْنَ الْفَاءِ وَالْعَيْنِ مِنْ جِنْسِ عَيْنِ فِعْلِهِ، وَبِنَاؤُهُ لِلتَّكْثِيرِ غَالِبًا. وَقَدْ يَكُونُ فِي الْفِعْلِ، نَحْوُ: طَوَّفَ زَيْدٌ الْكَعْبَةَ، وَقَدْ يَكُونُ فِي الْفَاعِلِ، نَحْوُ: مَوَّتَ الْإِبِلُ، وَقَدْ يَكُونُ فِي الْمَفْعُولِ، نَحْوُ: غَلَّقَ زَيْدٌ الْبَابَ.",
+              "page": "214–215",
+              "en": "The second bāb: faʿʿala yufaʿʿilu tafʿīlan; its model is farraḥa yufarriḥu tafrīḥan “to gladden”. Its sign is that its past has four letters, by the addition of one letter between the fāʾ and the ʿayn, of the same kind as the ʿayn of its verb. It is mostly built for multiplying (takthīr). This may be in the action, as ṭawwafa Zaydun al-Kaʿbata “Zayd went round the Kaʿba many times”; in the doer, as mawwata al-ibilu “the camels died in great numbers”; or in the object, as ghallaqa Zaydun al-bāba “Zayd locked the door again and again”."
+            },
+            {
+              "original": "الْبَابُ الثَّالِثُ: فَاعَلَ يُفَاعِلُ مُفَاعَلَةً وَفِعَالًا وَفِيعَالًا، مَوْزُونُهُ قَاتَلَ يُقَاتِلُ مُقَاتَلَةً وَقِتَالًا وَقِيتَالًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ الْأَلِفِ بَيْنَ الْفَاءِ وَالْعَيْنِ، وَبِنَاؤُهُ لِلْمُشَارَكَةِ بَيْنَ الِاثْنَيْنِ غَالِبًا، وَقَدْ يَكُونُ لِلْوَاحِدِ. مِثَالُ الْمُشَارَكَةِ نَحْوُ: قَاتَلَ زَيْدٌ عَمْرًا، وَمِثَالُ الْوَاحِدِ نَحْوُ: قَاتَلَهُمُ اللَّهُ.",
+              "page": "215–216",
+              "en": "The third bāb: fāʿala yufāʿilu mufāʿalatan wa-fiʿālan wa-fīʿālan; its model is qātala yuqātilu muqātalatan wa-qitālan wa-qītālan “to fight”. Its sign is that its past has four letters, by the addition of the alif between the fāʾ and the ʿayn. It is mostly built for sharing (mushāraka) between two, and it may be for one. An example of sharing is qātala Zaydun ʿAmran “Zayd fought ʿAmr”, and an example of one is qātalahumu Allāhu “may God fight them”."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Compliance: infaʿala and iftaʿala",
+          "arabic": "الْمُطَاوَعَةُ: انْفَعَلَ وَافْتَعَلَ",
+          "transliteration": "al-muṭāwaʿa: infaʿala wa-iftaʿala",
+          "pages": "216–217",
+          "body": [
+            "The second kind adds two letters, in five bābs, and the first two are built for compliance (muṭāwaʿa). The book defines it with care: “the coming about of the effect of a thing from the attachment of the transitive verb”. One verb acts on something; a second verb says that the thing received the act. Kasartu al-zujāja fa-nkasara dhālika al-zujāju, “I broke the glass, and that glass broke”: the breaking (kasr) is the transitive act, and the glass's being broken (inkisār) is the effect that came about from it.",
+            "The first bāb is infaʿala yanfaʿilu infiʿālan, model inkasara yankasiru inkisāran: a hamza and a nūn added at the start. The second is iftaʿala yaftaʿilu iftiʿālan, model ijtamaʿa yajtamiʿu ijtimāʿan: a hamza at the start and a tāʾ between the fāʾ and the ʿayn. Its example: jamaʿtu al-ibila fa-jtamaʿa dhālika al-ibilu, “I gathered the camels, and the camels gathered”.",
+            "A verb of compliance is intransitive: it has no object, since its doer is the very thing the first verb acted on. That is the point of the sentence pairs. Kasartu al-zujāja has an object; inkasara has none, and al-zujāju is now its doer, in rafʿ.",
+            "The hamza at the start of these patterns is a hamza of joining, like that of the imperative: it is heard only at the start of speech. In fa-nkasara and fa-jtamaʿa it is written but not said. And in the present it disappears altogether: yankasiru, yajtamiʿu. The conjugation tool gives the two bābs as patterns 7 and 8."
+          ],
+          "terms": [
+            {
+              "arabic": "الْمُطَاوَعَةُ",
+              "transliteration": "al-muṭāwaʿa",
+              "en": "compliance: the thing receives the act"
+            },
+            {
+              "arabic": "انْفَعَلَ يَنْفَعِلُ انْفِعَالًا",
+              "transliteration": "infaʿala yanfaʿilu infiʿālan",
+              "en": "the bāb of inkasara"
+            },
+            {
+              "arabic": "افْتَعَلَ يَفْتَعِلُ افْتِعَالًا",
+              "transliteration": "iftaʿala yaftaʿilu iftiʿālan",
+              "en": "the bāb of ijtamaʿa"
+            },
+            {
+              "arabic": "هَمْزَةُ الْوَصْلِ",
+              "transliteration": "hamzat al-waṣl",
+              "en": "the hamza of joining at the start of these patterns"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "كَسَرْتُ الزُّجَاجَ فَانْكَسَرَ ذَلِكَ الزُّجَاجُ",
+              "en": "kasartu al-zujāja fa-nkasara dhālika al-zujāju, “I broke the glass, and the glass broke”",
+              "after": 0
+            },
+            {
+              "arabic": "جَمَعْتُ الْإِبِلَ فَاجْتَمَعَ ذَلِكَ الْإِبِلُ",
+              "en": "jamaʿtu al-ibila fa-jtamaʿa dhālika al-ibilu, “I gathered the camels, and they gathered”",
+              "after": 1
+            },
+            {
+              "arabic": "اِنْقَطَعَ، يَنْقَطِعُ، اِنْقِطَاعٌ",
+              "en": "inqaṭaʿa, yanqaṭiʿu, inqiṭāʿ, “to be cut off”: infaʿala of qaṭaʿa",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 0,
+            "grid": {
+              "caption": "Act and compliance in the Binā",
+              "head": [
+                "The act",
+                "Its compliance",
+                "Bāb of the compliance"
+              ],
+              "rows": [
+                [
+                  "كَسَرْتُ الزُّجَاجَ",
+                  "فَانْكَسَرَ",
+                  "انْفَعَلَ"
+                ],
+                [
+                  "جَمَعْتُ الْإِبِلَ",
+                  "فَاجْتَمَعَ",
+                  "افْتَعَلَ"
+                ],
+                [
+                  "دَحْرَجْتُ الْحَجَرَ",
+                  "فَتَدَحْرَجَ",
+                  "تَفَعْلَلَ"
+                ],
+                [
+                  "حَرْجَمْتُ الْإِبِلَ",
+                  "فَاحْرَنْجَمَ",
+                  "افْعَنْلَلَ"
+                ],
+                [
+                  "سَلْقَيْتُهُ",
+                  "فَاسْلَنْقَى",
+                  "افْعَنْلَى"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the past, present, maṣdar, active participle and imperative of inkasara and ijtamaʿa.",
+              "answer": "Inkasara, yankasiru, inkisār, munkasir, inkasir. Ijtamaʿa, yajtamiʿu, ijtimāʿ, mujtamiʿ, ijtamiʿ."
+            },
+            {
+              "prompt": "In kasartu al-zujāja fa-nkasara dhālika al-zujāju, what is al-zujāj in each half, and why?",
+              "arabic": "كَسَرْتُ الزُّجَاجَ فَانْكَسَرَ ذَلِكَ الزُّجَاجُ",
+              "answer": "In kasartu al-zujāja it is the object, in naṣb: the breaking falls on it. In inkasara … al-zujāju it is the doer, in rafʿ: the verb of compliance has no object, and its doer is the thing that received the act."
+            },
+            {
+              "prompt": "State the Binā's definition of compliance in your own words.",
+              "answer": "One verb acts on a thing (it is transitive); compliance is the effect of that act coming about in the thing, said with a second verb whose doer is that thing."
+            },
+            {
+              "prompt": "Where is the added tāʾ of iftaʿala, and where are the added letters of infaʿala?",
+              "answer": "Iftaʿala: a hamza at the start and a tāʾ between the fāʾ and the ʿayn (ij-t-amaʿa). Infaʿala: a hamza and a nūn at the start (i-n-kasara)."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-5-1",
+              "prompt": "What is compliance (muṭāwaʿa)?",
+              "options": [
+                "Sharing between two",
+                "The effect of a transitive act coming about in the thing acted on",
+                "Seeking an act",
+                "Multiplying an act"
+              ],
+              "answer": 1,
+              "explanation": "Kasartu al-zujāja fa-nkasara.",
+              "terms": []
+            },
+            {
+              "id": "bina-5-2",
+              "prompt": "What letters does infaʿala add?",
+              "options": [
+                "A hamza and a tāʾ",
+                "A doubled ʿayn",
+                "A hamza and a nūn at the start",
+                "An alif after the fāʾ"
+              ],
+              "answer": 2,
+              "explanation": "Inkasara: a hamza and a nūn before the root k-s-r.",
+              "terms": []
+            },
+            {
+              "id": "bina-5-3",
+              "prompt": "Where is the tāʾ of iftaʿala?",
+              "options": [
+                "At the start",
+                "At the end",
+                "Between the ʿayn and the lām",
+                "Between the fāʾ and the ʿayn"
+              ],
+              "answer": 3,
+              "explanation": "Ij-t-amaʿa.",
+              "terms": []
+            },
+            {
+              "id": "bina-5-4",
+              "prompt": "Is a verb of compliance transitive?",
+              "options": [
+                "No: its doer is the thing that received the act",
+                "Yes, always",
+                "Only in the past",
+                "Only with a particle"
+              ],
+              "answer": 0,
+              "explanation": "Inkasara al-zujāju has no object.",
+              "terms": []
+            },
+            {
+              "id": "bina-5-5",
+              "prompt": "In fa-jtamaʿa, the hamza at the start is…",
+              "arabic": "فَاجْتَمَعَ",
+              "options": [
+                "said with a kasra",
+                "written but not said",
+                "said with a fatḥa",
+                "a root letter"
+              ],
+              "answer": 1,
+              "explanation": "A hamza of joining.",
+              "terms": []
+            },
+            {
+              "id": "bina-5-6",
+              "prompt": "What is the present of ijtamaʿa?",
+              "arabic": "اجْتَمَعَ",
+              "options": [
+                "Yujtamiʿu",
+                "Yajtamaʿu",
+                "Yajtamiʿu",
+                "Ajtamiʿu"
+              ],
+              "answer": 2,
+              "explanation": "The hamza of joining disappears in the present.",
+              "terms": []
+            },
+            {
+              "id": "bina-5-7",
+              "prompt": "Which is the compliance of qaṭaʿa, “to cut”?",
+              "options": [
+                "Qaṭṭaʿa",
+                "Aqṭaʿa",
+                "Qāṭaʿa",
+                "Inqaṭaʿa"
+              ],
+              "answer": 3,
+              "explanation": "Infaʿala of qaṭaʿa: “to be cut off”.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الثَّانِي: وَهُوَ مَا زِيدَ فِيهِ حَرْفَانِ عَلَى الثُّلَاثِيِّ الْمُجَرَّدِ، وَهُوَ خَمْسَةُ أَبْوَابٍ. الْبَابُ الْأَوَّلُ: انْفَعَلَ يَنْفَعِلُ انْفِعَالًا، مَوْزُونُهُ انْكَسَرَ يَنْكَسِرُ انْكِسَارًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ وَالنُّونِ فِي أَوَّلِهِ، وَبِنَاؤُهُ لِلْمُطَاوَعَةِ. وَمَعْنَى الْمُطَاوَعَةِ: حُصُولُ أَثَرِ الشَّيْءِ عَنْ تَعَلُّقِ الْفِعْلِ الْمُتَعَدِّي، نَحْوُ: كَسَرْتُ الزُّجَاجَ فَانْكَسَرَ ذَلِكَ الزُّجَاجُ، فَإِنَّ انْكِسَارَ الزُّجَاجِ أَثَرٌ حَصَلَ عَنْ تَعَلُّقِ الْكَسْرِ الَّذِي هُوَ الْفِعْلُ الْمُتَعَدِّي.",
+              "page": "216–217",
+              "en": "The second kind is that in which two letters are added to the bare triliteral; it is five bābs. The first bāb: infaʿala yanfaʿilu infiʿālan; its model is inkasara yankasiru inkisāran “to be broken”. Its sign is that its past has five letters, by the addition of the hamza and the nūn at its beginning. It is built for compliance (muṭāwaʿa). The meaning of compliance is that the effect of a thing comes about from the attachment of a transitive verb [to it], as kasartu al-zujāja fa-inkasara dhālika al-zujāju “I broke the glass, so that glass broke”; for the breaking of the glass is an effect that came about from the attachment of the breaking, which is the transitive verb."
+            },
+            {
+              "original": "الْبَابُ الثَّانِي: افْتَعَلَ يَفْتَعِلُ افْتِعَالًا، مَوْزُونُهُ اجْتَمَعَ يَجْتَمِعُ اجْتِمَاعًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَالتَّاءِ بَيْنَ الْفَاءِ وَالْعَيْنِ، وَبِنَاؤُهُ أَيْضًا لِلْمُطَاوَعَةِ، نَحْوُ: جَمَعْتُ الْإِبِلَ فَاجْتَمَعَ ذَلِكَ الْإِبِلُ.",
+              "page": "217",
+              "en": "The second bāb: iftaʿala yaftaʿilu iftiʿālan; its model is ijtamaʿa yajtamiʿu ijtimāʿan “to come together”. Its sign is that its past has five letters, by the addition of the hamza at its beginning and the tāʾ between the fāʾ and the ʿayn. It too is built for compliance, as jamaʿtu al-ibila fa-ijtamaʿa dhālika al-ibilu “I gathered the camels, so those camels came together”."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "Colours, effort and sharing: ifʿalla, tafaʿʿala, tafāʿala",
+          "arabic": "افْعَلَّ وَتَفَعَّلَ وَتَفَاعَلَ",
+          "transliteration": "ifʿalla wa-tafaʿʿala wa-tafāʿala",
+          "pages": "217–219",
+          "body": [
+            "The third bāb of two added letters is ifʿalla yafʿallu ifʿilālan, model iḥmarra yaḥmarru iḥmirāran, “to turn red”: a hamza at the start and a second lām at the end, so the last letter is doubled. It is built to intensify the intransitive: “one says ḥamira Zaydun when he has some redness, and iḥmarra Zaydun when his redness is strong”. Others say it is for colours and defects: iḥmarra, “to be red”, and iʿwarra, “to be one-eyed”. Its doubled end makes it a doubled verb, which the conjugation tool does not yet give.",
+            "The fourth is tafaʿʿala yatafaʿʿalu tafaʿʿulan, model takallama yatakallamu takalluman: a tāʾ at the start and the ʿayn doubled. It is built for effort (takalluf), which the book defines as “obtaining what is sought, one thing after another”: taʿallamtu al-ʿilma masʾalatan baʿda masʾalatin, “I learnt knowledge question after question”. Knowledge is not taken at once; it is gained bit by bit, and the pattern says so. Tafaʿʿala is also the compliance of faʿʿala: ʿallamtuhu fa-taʿallama, “I taught him, and he learnt”.",
+            "The fifth is tafāʿala yatafāʿalu tafāʿulan, model tabāʿada yatabāʿadu tabāʿudan, “to draw apart”: a tāʾ at the start and an alif after the fāʾ. It is built for sharing between two and more. Compare fāʿala of lesson 4: in qātala Zaydun ʿAmran one is the doer and the other the object, though both fight; in tafāʿala both are usually named as doers, tabāʿada Zaydun wa-ʿAmrun. Our print gives the examples with an object, tabāʿada Zaydun ʿAmran and taṣālaḥa al-qawmu qawman, “the people made peace with a people”; most copies have tabāʿada Zaydun wa-ʿAmrun.",
+            "Tafaʿʿala and tafāʿala begin with a tāʾ that is a real letter, not a hamza of joining, and their present keeps a fatḥa on the prefix: yatakallamu, yatabāʿadu. The tool gives them as patterns 5 and 6."
+          ],
+          "terms": [
+            {
+              "arabic": "افْعَلَّ",
+              "transliteration": "ifʿalla",
+              "en": "colours and defects; intensifying the intransitive"
+            },
+            {
+              "arabic": "التَّكَلُّفُ",
+              "transliteration": "al-takalluf",
+              "en": "effort: obtaining what is sought bit by bit"
+            },
+            {
+              "arabic": "تَفَعَّلَ يَتَفَعَّلُ تَفَعُّلًا",
+              "transliteration": "tafaʿʿala yatafaʿʿalu tafaʿʿulan",
+              "en": "the bāb of takallama"
+            },
+            {
+              "arabic": "تَفَاعَلَ يَتَفَاعَلُ تَفَاعُلًا",
+              "transliteration": "tafāʿala yatafāʿalu tafāʿulan",
+              "en": "the bāb of tabāʿada: sharing"
+            },
+            {
+              "arabic": "الْأَلْوَانُ وَالْعُيُوبُ",
+              "transliteration": "al-alwān wa-l-ʿuyūb",
+              "en": "colours and defects"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "حَمِرَ زَيْدٌ — احْمَرَّ زَيْدٌ",
+              "en": "ḥamira Zaydun, some redness; iḥmarra Zaydun, strong redness",
+              "after": 0
+            },
+            {
+              "arabic": "تَعَلَّمْتُ الْعِلْمَ مَسْأَلَةً بَعْدَ مَسْأَلَةٍ",
+              "en": "taʿallamtu al-ʿilma masʾalatan baʿda masʾalatin, “I learnt knowledge question after question”: effort",
+              "after": 1
+            },
+            {
+              "arabic": "تَعَلَّمَ، يَتَعَلَّمُ، تَعَلُّمٌ",
+              "en": "taʿallama, yataʿallamu, taʿallum, “to learn”: tafaʿʿala",
+              "after": 1
+            },
+            {
+              "arabic": "تَكَاتَبَ، يَتَكَاتَبُ، تَكَاتُبٌ",
+              "en": "takātaba, yatakātabu, takātub, “to write to one another”: tafāʿala",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 2,
+            "grid": {
+              "caption": "Three of the five bābs with two added letters",
+              "head": [
+                "Pattern",
+                "Model",
+                "Added letters",
+                "Built for"
+              ],
+              "rows": [
+                [
+                  "افْعَلَّ يَفْعَلُّ افْعِلَالًا",
+                  "احْمَرَّ يَحْمَرُّ احْمِرَارًا",
+                  "hamza; a second lām",
+                  "intensifying; colours, defects"
+                ],
+                [
+                  "تَفَعَّلَ يَتَفَعَّلُ تَفَعُّلًا",
+                  "تَكَلَّمَ يَتَكَلَّمُ تَكَلُّمًا",
+                  "tāʾ; the ʿayn doubled",
+                  "effort, bit by bit"
+                ],
+                [
+                  "تَفَاعَلَ يَتَفَاعَلُ تَفَاعُلًا",
+                  "تَبَاعَدَ يَتَبَاعَدُ تَبَاعُدًا",
+                  "tāʾ; alif after the fāʾ",
+                  "sharing between two or more"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the past, present, maṣdar, active participle and imperative of taʿallama and takātaba.",
+              "answer": "Taʿallama, yataʿallamu, taʿallum, mutaʿallim, taʿallam. Takātaba, yatakātabu, takātub, mutakātib, takātab."
+            },
+            {
+              "prompt": "What is the difference between ḥamira Zaydun and iḥmarra Zaydun?",
+              "arabic": "حَمِرَ زَيْدٌ — احْمَرَّ زَيْدٌ",
+              "answer": "Ḥamira: Zayd has some redness. Iḥmarra: his redness is strong. Ifʿalla intensifies the intransitive verb."
+            },
+            {
+              "prompt": "Qātala Zaydun ʿAmran and tabāʿada Zaydun wa-ʿAmrun: how is the sharing expressed in each?",
+              "arabic": "قَاتَلَ زَيْدٌ عَمْرًا — تَبَاعَدَ زَيْدٌ وَعَمْرٌو",
+              "answer": "In fāʿala one is the doer and the other the object, though each does the act to the other. In tafāʿala both are usually named as doers, joined by wa-."
+            },
+            {
+              "prompt": "Why does the Binā give taʿallamtu al-ʿilma masʾalatan baʿda masʾalatin as the example of effort?",
+              "answer": "Because tafaʿʿala means gaining what is sought one thing after another; knowledge is gained question by question, not at once."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-6-1",
+              "prompt": "What is ifʿalla built for?",
+              "options": [
+                "Sharing",
+                "Effort",
+                "Intensifying the intransitive; colours and defects",
+                "Seeking"
+              ],
+              "answer": 2,
+              "explanation": "Iḥmarra, iʿwarra.",
+              "terms": []
+            },
+            {
+              "id": "bina-6-2",
+              "prompt": "What does takalluf mean in the Binā?",
+              "options": [
+                "Doing an act many times",
+                "Sharing an act",
+                "Receiving an act",
+                "Obtaining what is sought bit by bit"
+              ],
+              "answer": 3,
+              "explanation": "Taʿallamtu al-ʿilma masʾalatan baʿda masʾalatin.",
+              "terms": []
+            },
+            {
+              "id": "bina-6-3",
+              "prompt": "Which letters does tafaʿʿala add?",
+              "options": [
+                "A tāʾ at the start and a doubled ʿayn",
+                "A hamza and a nūn",
+                "A hamza and a doubled lām",
+                "A tāʾ and an alif"
+              ],
+              "answer": 0,
+              "explanation": "Takallama.",
+              "terms": []
+            },
+            {
+              "id": "bina-6-4",
+              "prompt": "What is tafāʿala built for?",
+              "options": [
+                "Effort",
+                "Sharing between two or more",
+                "Colours",
+                "Making transitive"
+              ],
+              "answer": 1,
+              "explanation": "Tabāʿada, taṣālaḥa.",
+              "terms": []
+            },
+            {
+              "id": "bina-6-5",
+              "prompt": "Iʿwarra means…",
+              "arabic": "اعْوَرَّ",
+              "options": [
+                "to turn red",
+                "to learn",
+                "to be one-eyed",
+                "to speak"
+              ],
+              "answer": 2,
+              "explanation": "An example of a defect in ifʿalla.",
+              "terms": []
+            },
+            {
+              "id": "bina-6-6",
+              "prompt": "What is the present of takallama?",
+              "arabic": "تَكَلَّمَ",
+              "options": [
+                "Yukallimu",
+                "Yatakallimu",
+                "Takallamu",
+                "Yatakallamu"
+              ],
+              "answer": 3,
+              "explanation": "The tāʾ is a real letter, and the prefix has a fatḥa.",
+              "terms": []
+            },
+            {
+              "id": "bina-6-7",
+              "prompt": "Which verb is the compliance of ʿallama, “to teach”?",
+              "options": [
+                "Taʿallama",
+                "Iʿtalama",
+                "Inʿalama",
+                "Taʿālama"
+              ],
+              "answer": 0,
+              "explanation": "ʿAllamtuhu fa-taʿallama: “I taught him, and he learnt”.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "الْبَابُ الثَّالِثُ: افْعَلَّ يَفْعَلُّ افْعِلَالًا، مَوْزُونُهُ احْمَرَّ يَحْمَرُّ احْمِرَارًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَحَرْفٍ آخَرَ مِنْ جِنْسِ لَامِ فِعْلِهِ فِي آخِرِهِ، وَبِنَاؤُهُ لِمُبَالَغَةِ اللَّازِمِ؛ لِأَنَّهُ يُقَالُ: حَمِرَ زَيْدٌ إِذَا كَانَ لَهُ حُمْرَةٌ فِي الْجُمْلَةِ، وَيُقَالُ: احْمَرَّ زَيْدٌ إِذَا كَانَ لَهُ حُمْرَةٌ مُبَالَغَةً. وَقِيلَ: لِلْأَلْوَانِ وَالْعُيُوبِ؛ مِثَالُ الْأَلْوَانِ نَحْوُ: احْمَرَّ زَيْدٌ، وَمِثَالُ الْعُيُوبِ نَحْوُ: اعْوَرَّ زَيْدٌ.",
+              "page": "217–218",
+              "en": "The third bāb: ifʿalla yafʿallu ifʿilālan; its model is iḥmarra yaḥmarru iḥmirāran “to turn red”. Its sign is that its past has five letters, by the addition of the hamza at its beginning and another letter, of the same kind as the lām of its verb, at its end. It is built for intensifying the intransitive (mubālaghat al-lāzim); for one says ḥamira Zaydun “Zayd was red” when he has some redness, and one says iḥmarra Zaydun “Zayd turned red” when he has redness intensely. It is also said: [it is] for colours and defects; an example of colours is iḥmarra Zaydun “Zayd turned red”, and an example of defects is iʿwarra Zaydun “Zayd became one-eyed”."
+            },
+            {
+              "original": "الْبَابُ الرَّابِعُ: تَفَعَّلَ يَتَفَعَّلُ تَفَعُّلًا، مَوْزُونُهُ تَكَلَّمَ يَتَكَلَّمُ تَكَلُّمًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ التَّاءِ فِي أَوَّلِهِ وَحَرْفٍ آخَرَ بَيْنَ الْفَاءِ وَالْعَيْنِ مِنْ جِنْسِ عَيْنِ فِعْلِهِ، وَبِنَاؤُهُ لِلتَّكَلُّفِ. وَمَعْنَى التَّكَلُّفِ: تَحْصِيلُ الْمَطْلُوبِ شَيْئًا بَعْدَ شَيْءٍ، نَحْوُ: تَعَلَّمْتُ الْعِلْمَ مَسْأَلَةً بَعْدَ مَسْأَلَةٍ.",
+              "page": "218",
+              "en": "The fourth bāb: tafaʿʿala yatafaʿʿalu tafaʿʿulan; its model is takallama yatakallamu takalluman “to speak”. Its sign is that its past has five letters, by the addition of the tāʾ at its beginning and another letter between the fāʾ and the ʿayn, of the same kind as the ʿayn of its verb. It is built for effort (takalluf). The meaning of effort is gaining what is sought little by little, as taʿallamtu al-ʿilma masʾalatan baʿda masʾalatin “I learnt knowledge question after question”."
+            },
+            {
+              "original": "الْبَابُ الْخَامِسُ: تَفَاعَلَ يَتَفَاعَلُ تَفَاعُلًا، مَوْزُونُهُ تَبَاعَدَ يَتَبَاعَدُ تَبَاعُدًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ التَّاءِ فِي أَوَّلِهِ وَالْأَلِفِ بَيْنَ الْفَاءِ وَالْعَيْنِ، وَبِنَاؤُهُ لِلْمُشَارَكَةِ بَيْنَ الِاثْنَيْنِ فَصَاعِدًا. مِثَالُ الْمُشَارَكَةِ بَيْنَ الِاثْنَيْنِ نَحْوُ: تَبَاعَدَ زَيْدٌ عَمْرًا، وَمِثَالُ الْمُشَارَكَةِ فَصَاعِدًا نَحْوُ: تَصَالَحَ الْقَوْمُ قَوْمًا.",
+              "page": "218–219",
+              "en": "The fifth bāb: tafāʿala yatafāʿalu tafāʿulan; its model is tabāʿada yatabāʿadu tabāʿudan “to draw apart from one another”. Its sign is that its past has five letters, by the addition of the tāʾ at its beginning and the alif between the fāʾ and the ʿayn. It is built for sharing between two and more. An example of sharing between two is tabāʿada Zaydun ʿAmran “Zayd and ʿAmr drew apart from each other”, and an example of sharing among more is taṣālaḥa al-qawmu qawman “the people made peace with a people”."
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "title": "Three letters added: istafʿala and the intensives",
+          "arabic": "مَا زِيدَ فِيهِ ثَلَاثَةُ أَحْرُفٍ",
+          "transliteration": "mā zīda fīhi thalāthat aḥruf",
+          "pages": "219–222",
+          "body": [
+            "The third kind adds three letters, in four bābs. The first and by far the most used is istafʿala yastafʿilu istifʿālan, model istakhraja yastakhriju istikhrājan, “to bring out, extract”: a hamza, a sīn and a tāʾ added at the start. It is mostly transitive, istakhraja Zaydun al-māla, “Zayd extracted the wealth”; sometimes intransitive, istaḥjara al-ṭīnu, “the clay turned to stone”, a change into what the root names. “And it is said: for seeking the act”: astaghfiru llāha, “I seek God's forgiveness”, the seeking of ghufrān.",
+            "The other three are built to intensify an intransitive verb, and the book shows each against its bare verb. Ifʿawʿala, model iʿshawshaba: “one says ʿashuba al-arḍu when plants grow on the face of the earth somewhat, and iʿshawshaba al-arḍu when the plants of the earth are many”. Ifʿawwala, model ijlawwadha: jaladha al-ibilu, “the camels went fast”, and ijlawwadha al-ibilu, “the camels pressed on fast”.",
+            "Ifʿālla, model iḥmārra, with an alif before a doubled lām, is the strongest: “this bāb is more intense than the bāb of ifʿilāl”. So Arabic has three steps of red: ḥamira Zaydun, some redness; iḥmarra Zaydun, strong redness; iḥmārra Zaydun, redness still stronger. The more letters, the more meaning, as the ṣarf books like to say.",
+            "Only istafʿala is regular enough for the conjugation tool (pattern 10); the three intensive bābs are rare, and their forms are learnt from the print. The student should know them when he meets them, above all in poetry and in the dictionaries."
+          ],
+          "terms": [
+            {
+              "arabic": "اسْتَفْعَلَ يَسْتَفْعِلُ اسْتِفْعَالًا",
+              "transliteration": "istafʿala yastafʿilu istifʿālan",
+              "en": "the bāb of istakhraja"
+            },
+            {
+              "arabic": "طَلَبُ الْفِعْلِ",
+              "transliteration": "ṭalab al-fiʿl",
+              "en": "seeking the act: astaghfiru, “I seek forgiveness”"
+            },
+            {
+              "arabic": "مُبَالَغَةُ اللَّازِمِ",
+              "transliteration": "mubālaghat al-lāzim",
+              "en": "intensifying the intransitive"
+            },
+            {
+              "arabic": "افْعَوْعَلَ، افْعَوَّلَ، افْعَالَّ",
+              "transliteration": "ifʿawʿala, ifʿawwala, ifʿālla",
+              "en": "the three intensive bābs"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "اسْتَخْرَجَ زَيْدٌ الْمَالَ",
+              "en": "istakhraja Zaydun al-māla, “Zayd extracted the wealth”: transitive",
+              "after": 0
+            },
+            {
+              "arabic": "أَسْتَغْفِرُ اللَّهَ",
+              "en": "astaghfiru llāha, “I seek God's forgiveness”: seeking the act",
+              "after": 0
+            },
+            {
+              "arabic": "عَشُبَ الْأَرْضُ — اعْشَوْشَبَ الْأَرْضُ",
+              "en": "the earth grew some plants; the earth grew many plants",
+              "after": 1
+            },
+            {
+              "arabic": "حَمِرَ — احْمَرَّ — احْمَارَّ",
+              "en": "ḥamira, iḥmarra, iḥmārra: three steps of red",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 2,
+            "grid": {
+              "caption": "Three letters added to the three-letter verb",
+              "head": [
+                "Pattern",
+                "Model",
+                "Built for"
+              ],
+              "rows": [
+                [
+                  "اسْتَفْعَلَ يَسْتَفْعِلُ اسْتِفْعَالًا",
+                  "اسْتَخْرَجَ يَسْتَخْرِجُ اسْتِخْرَاجًا",
+                  "making transitive; seeking"
+                ],
+                [
+                  "افْعَوْعَلَ يَفْعَوْعِلُ افْعِيعَالًا",
+                  "اعْشَوْشَبَ يَعْشَوْشِبُ اعْشِيشَابًا",
+                  "intensifying"
+                ],
+                [
+                  "افْعَوَّلَ يَفْعَوِّلُ افْعِوَّالًا",
+                  "اجْلَوَّذَ يَجْلَوِّذُ اجْلِوَّاذًا",
+                  "intensifying"
+                ],
+                [
+                  "افْعَالَّ يَفْعَالُّ افْعِيلَالًا",
+                  "احْمَارَّ يَحْمَارُّ احْمِيرَارًا",
+                  "the strongest intensifying"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the past, present, maṣdar, active participle and imperative of istaghfara and istakhraja.",
+              "answer": "Istaghfara, yastaghfiru, istighfār, mustaghfir, istaghfir. Istakhraja, yastakhriju, istikhrāj, mustakhrij, istakhrij."
+            },
+            {
+              "prompt": "What does istafʿala add in each: istakhraja Zaydun al-māla; istaḥjara al-ṭīnu; astaghfiru llāha?",
+              "arabic": "اسْتَخْرَجَ زَيْدٌ الْمَالَ — اسْتَحْجَرَ الطِّينُ — أَسْتَغْفِرُ اللَّهَ",
+              "answer": "Istakhraja: a transitive act, “extracted”. Istaḥjara: an intransitive change into what the root names, “turned to stone”. Astaghfiru: seeking, “I seek forgiveness”."
+            },
+            {
+              "prompt": "Put ḥamira, iḥmarra and iḥmārra in order of strength and name the bāb of each.",
+              "arabic": "حَمِرَ — احْمَرَّ — احْمَارَّ",
+              "answer": "Ḥamira (the bare verb, faʿila): some redness. Iḥmarra (ifʿalla): strong redness. Iḥmārra (ifʿālla): redness stronger still."
+            },
+            {
+              "prompt": "What do iʿshawshaba and ijlawwadha intensify, and what are their bare verbs?",
+              "arabic": "اعْشَوْشَبَ — اجْلَوَّذَ",
+              "answer": "Iʿshawshaba intensifies ʿashuba (plants growing): the earth grew many plants. Ijlawwadha intensifies jaladha (camels going fast): the camels pressed on fast."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-7-1",
+              "prompt": "Which letters does istafʿala add?",
+              "options": [
+                "Hamza and nūn",
+                "Tāʾ and a doubled ʿayn",
+                "Hamza and a doubled lām",
+                "Hamza, sīn and tāʾ at the start"
+              ],
+              "answer": 3,
+              "explanation": "Istakhraja.",
+              "terms": []
+            },
+            {
+              "id": "bina-7-2",
+              "prompt": "Astaghfiru llāha shows istafʿala for…",
+              "arabic": "أَسْتَغْفِرُ اللَّهَ",
+              "options": [
+                "seeking the act",
+                "sharing",
+                "compliance",
+                "multiplying"
+              ],
+              "answer": 0,
+              "explanation": "“I seek God's forgiveness.”",
+              "terms": []
+            },
+            {
+              "id": "bina-7-3",
+              "prompt": "What does istaḥjara al-ṭīnu mean?",
+              "arabic": "اسْتَحْجَرَ الطِّينُ",
+              "options": [
+                "The clay was extracted",
+                "The clay turned to stone",
+                "He sought the stone",
+                "The stone broke"
+              ],
+              "answer": 1,
+              "explanation": "The book's intransitive example of istafʿala.",
+              "terms": []
+            },
+            {
+              "id": "bina-7-4",
+              "prompt": "Which is the strongest of the three steps of red?",
+              "options": [
+                "Iḥmarra",
+                "Ḥamira",
+                "Iḥmārra",
+                "Aḥmara"
+              ],
+              "answer": 2,
+              "explanation": "Ifʿālla is more intense than ifʿalla.",
+              "terms": []
+            },
+            {
+              "id": "bina-7-5",
+              "prompt": "What are ifʿawʿala, ifʿawwala and ifʿālla built for?",
+              "options": [
+                "Making transitive",
+                "Sharing",
+                "Compliance",
+                "Intensifying the intransitive"
+              ],
+              "answer": 3,
+              "explanation": "Each against its bare verb.",
+              "terms": []
+            },
+            {
+              "id": "bina-7-6",
+              "prompt": "Iʿshawshaba al-arḍu means…",
+              "arabic": "اعْشَوْشَبَ الْأَرْضُ",
+              "options": [
+                "The earth grew many plants",
+                "The earth dried up",
+                "The earth turned red",
+                "The earth was ploughed"
+              ],
+              "answer": 0,
+              "explanation": "ʿAshuba is some growth; iʿshawshaba much.",
+              "terms": []
+            },
+            {
+              "id": "bina-7-7",
+              "prompt": "Which of the four bābs does the conjugation tool give?",
+              "options": [
+                "Ifʿawʿala",
+                "Istafʿala (pattern 10)",
+                "Ifʿawwala",
+                "Ifʿālla"
+              ],
+              "answer": 1,
+              "explanation": "The three intensive bābs are learnt from the print.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الثَّالِثُ: وَهُوَ مَا زِيدَ فِيهِ ثَلَاثَةُ أَحْرُفٍ عَلَى الثُّلَاثِيِّ، وَهُوَ أَرْبَعَةُ أَبْوَابٍ. الْبَابُ الْأَوَّلُ: اسْتَفْعَلَ يَسْتَفْعِلُ اسْتِفْعَالًا، مَوْزُونُهُ اسْتَخْرَجَ يَسْتَخْرِجُ اسْتِخْرَاجًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى سِتَّةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ وَالسِّينِ وَالتَّاءِ فِي أَوَّلِهِ، وَبِنَاؤُهُ لِلتَّعْدِيَةِ غَالِبًا، وَقَدْ يَكُونُ لَازِمًا. مِثَالُ الْمُتَعَدِّي نَحْوُ: اسْتَخْرَجَ زَيْدٌ الْمَالَ، وَمِثَالُ اللَّازِمِ نَحْوُ: اسْتَحْجَرَ الطِّينُ، وَقِيلَ: لِطَلَبِ الْفِعْلِ، نَحْوُ: أَسْتَغْفِرُ اللَّهَ.",
+              "page": "219–220",
+              "en": "The third kind is that in which three letters are added to the triliteral; it is four bābs. The first bāb: istafʿala yastafʿilu istifʿālan; its model is istakhraja yastakhriju istikhrājan “to bring out”. Its sign is that its past has six letters, by the addition of the hamza, the sīn and the tāʾ at its beginning. It is mostly built for transitive use, and it may be intransitive. An example of the transitive is istakhraja Zaydun al-māla “Zayd brought out the money”, and an example of the intransitive is istaḥjara al-ṭīnu “the clay turned to stone”. It is also said: [it is] for asking for the action, as astaghfiru Allāha “I ask God for forgiveness”."
+            },
+            {
+              "original": "الْبَابُ الثَّانِي: افْعَوْعَلَ يَفْعَوْعِلُ افْعِيعَالًا، مَوْزُونُهُ اعْشَوْشَبَ يَعْشَوْشِبُ اعْشِيشَابًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى سِتَّةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَحَرْفٍ آخَرَ مِنْ جِنْسِ عَيْنِ فِعْلِهِ وَالْوَاوِ بَيْنَ الْعَيْنِ وَاللَّامِ، وَبِنَاؤُهُ لِمُبَالَغَةِ اللَّازِمِ؛ لِأَنَّهُ يُقَالُ: عَشُبَ الْأَرْضُ إِذَا نَبَتَ فِي وَجْهِ الْأَرْضِ نَبَاتٌ فِي الْجُمْلَةِ، وَيُقَالُ: اعْشَوْشَبَ الْأَرْضُ إِذَا كَثُرَ نَبَاتُ وَجْهِ الْأَرْضِ.",
+              "page": "220",
+              "en": "The second bāb: ifʿawʿala yafʿawʿilu ifʿīʿālan; its model is iʿshawshaba yaʿshawshibu iʿshīshāban “to grow thick with grass”. Its sign is that its past has six letters, by the addition of the hamza at its beginning, and of another letter of the same kind as the ʿayn of its verb and the wāw between the ʿayn and the lām. It is built for intensifying the intransitive; for one says ʿashuba al-arḍu “the land grew grass” when some plants have grown on the face of the land, and one says iʿshawshaba al-arḍu “the land grew thick with grass” when the plants on the face of the land are many."
+            },
+            {
+              "original": "الْبَابُ الثَّالِثُ: افْعَوَّلَ يَفْعَوِّلُ افْعِوَّالًا، مَوْزُونُهُ اجْلَوَّذَ يَجْلَوِّذُ اجْلِوَّاذًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى سِتَّةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَالْوَاوَيْنِ بَيْنَ الْعَيْنِ وَاللَّامِ، وَبِنَاؤُهُ أَيْضًا لِمُبَالَغَةِ اللَّازِمِ؛ لِأَنَّهُ يُقَالُ: جَلَذَ الْإِبِلُ إِذَا سَارَ سَيْرًا سُرْعَةً فِي الْجُمْلَةِ، وَيُقَالُ: اجْلَوَّذَ الْإِبِلُ إِذَا سَارَ سَيْرًا بِزِيَادَةِ سُرْعَةٍ.",
+              "page": "220–221",
+              "en": "The third bāb: ifʿawwala yafʿawwilu ifʿiwwālan; its model is ijlawwadha yajlawwidhu ijliwwādhan “to press on fast”. Its sign is that its past has six letters, by the addition of the hamza at its beginning and the two wāws between the ʿayn and the lām. It too is built for intensifying the intransitive; for one says jaladha al-ibilu “the camels went fast” when they travel at some speed, and one says ijlawwadha al-ibilu “the camels pressed on fast” when they travel with more speed."
+            },
+            {
+              "original": "الْبَابُ الرَّابِعُ: افْعَالَّ يَفْعَالُّ افْعِيلَالًا، مَوْزُونُهُ احْمَارَّ يَحْمَارُّ احْمِيرَارًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى سِتَّةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَالْأَلِفِ بَيْنَ الْعَيْنِ وَاللَّامِ وَحَرْفٍ آخَرَ مِنْ جِنْسِ لَامِ فِعْلِهِ فِي آخِرِهِ، وَبِنَاؤُهُ أَيْضًا لِمُبَالَغَةِ اللَّازِمِ، وَلَكِنَّ هَذَا الْبَابَ أَبْلَغُ مِنْ بَابِ الِافْعِلَالِ؛ لِأَنَّهُ يُقَالُ: حَمِرَ زَيْدٌ إِذَا كَانَ لَهُ حُمْرَةٌ فِي الْجُمْلَةِ، وَيُقَالُ: احْمَرَّ زَيْدٌ إِذَا كَانَ لَهُ حُمْرَةٌ مُبَالَغَةً، وَيُقَالُ: احْمَارَّ زَيْدٌ إِذَا كَانَ لَهُ حُمْرَةٌ زِيَادَةَ مُبَالَغَةٍ.",
+              "page": "221–222",
+              "en": "The fourth bāb: ifʿālla yafʿāllu ifʿīlālan; its model is iḥmārra yaḥmārru iḥmīrāran “to turn deep red”. Its sign is that its past has six letters, by the addition of the hamza at its beginning, the alif between the ʿayn and the lām, and another letter, of the same kind as the lām of its verb, at its end. It too is built for intensifying the intransitive, but this bāb is more intense than the bāb of ifʿilāl; for one says ḥamira Zaydun “Zayd was red” when he has some redness, one says iḥmarra Zaydun “Zayd turned red” when he has redness intensely, and one says iḥmārra Zaydun “Zayd turned deep red” when he has redness more intensely still."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quadriliteral",
+      "title": "The four-letter verb and the attached forms",
+      "arabic": "الرُّبَاعِيُّ وَالْمُلْحَقُ بِهِ",
+      "transliteration": "al-rubāʿī wa-l-mulḥaq bihi",
+      "lessons": [
+        {
+          "n": 8,
+          "title": "The four-letter verb; the first attached forms",
+          "arabic": "الرُّبَاعِيُّ الْمُجَرَّدُ وَالْمُلْحَقُ بِهِ",
+          "transliteration": "al-rubāʿī al-mujarrad wa-l-mulḥaq bihi",
+          "pages": "222–224",
+          "body": [
+            "The bare four-letter verb has one bāb: faʿlala yufaʿlilu faʿlalatan wa-fiʿlālan, model daḥraja yudaḥriju daḥrajatan wa-diḥrājan, “to roll”. Its sign is that its past has four letters, “on condition that all its letters are root letters”: nothing is added. Its pattern adds a second lām to faʿala to make room for the fourth root letter. Transitive: daḥraja Zaydun al-ḥajara, “Zayd rolled the stone”; intransitive: darbakha Zaydun, “Zayd bowed his head”.",
+            "Then come six bābs “attached to daḥraja” (al-mulḥaq bi-daḥraja), also called “attached to the four-letter verb”. Each is a three-letter root with one letter added so that it takes exactly the shape of daḥraja, in its past, its present and its maṣdar. The added letter may be a wāw or a yāʾ in different places, or a repeated letter.",
+            "The first three: fawʿala, with a wāw after the fāʾ: ḥawqala yuḥawqilu ḥawqalatan, “to grow old and weak”, intransitive only. Fayʿala, with a yāʾ after the fāʾ: bayṭara yubayṭiru bayṭaratan, “to slit”, transitive only: bayṭara Zaydun al-qalama, ay shaqqahu, “Zayd slit the pen, that is, split it”. Faʿwala, with a wāw after the ʿayn: jahwara yujahwiru jahwaratan, “to say aloud”, transitive only: jahwara Zaydun al-qurʾāna, “Zayd recited the Qurʾān aloud”.",
+            "How do you tell an attached verb from a real four-letter verb? By the root. In daḥraja all four letters are root letters (d-ḥ-r-j). In ḥawqala the root is three (ḥ-q-l), and the wāw is added; in bayṭara the yāʾ, in jahwara the wāw. Weigh each on faʿala with its added letter in place: fawʿala, fayʿala, faʿwala. The conjugation tool does not give these patterns; their forms come from the print."
+          ],
+          "terms": [
+            {
+              "arabic": "الرُّبَاعِيُّ الْمُجَرَّدُ",
+              "transliteration": "al-rubāʿī al-mujarrad",
+              "en": "the bare four-letter verb: faʿlala"
+            },
+            {
+              "arabic": "فَعْلَلَ يُفَعْلِلُ فَعْلَلَةً",
+              "transliteration": "faʿlala yufaʿlilu faʿlalatan",
+              "en": "its pattern, model daḥraja"
+            },
+            {
+              "arabic": "الْمُلْحَقُ بِالرُّبَاعِيِّ",
+              "transliteration": "al-mulḥaq bi-l-rubāʿī",
+              "en": "attached to the four-letter verb: a three-letter root shaped like daḥraja"
+            },
+            {
+              "arabic": "الْحَرْفُ الْأَصْلِيُّ",
+              "transliteration": "al-ḥarf al-aṣlī",
+              "en": "a root letter, as against an added one"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "دَحْرَجَ زَيْدٌ الْحَجَرَ",
+              "en": "daḥraja Zaydun al-ḥajara, “Zayd rolled the stone”: the bare four-letter verb",
+              "after": 0
+            },
+            {
+              "arabic": "حَوْقَلَ زَيْدٌ",
+              "en": "ḥawqala Zaydun, “Zayd grew old and weak”: fawʿala, attached to daḥraja",
+              "after": 2
+            },
+            {
+              "arabic": "جَهْوَرَ زَيْدٌ الْقُرْآنَ",
+              "en": "jahwara Zaydun al-qurʾāna, “Zayd recited the Qurʾān aloud”: faʿwala",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "Daḥraja and the first three forms attached to it",
+              "head": [
+                "Pattern",
+                "Model",
+                "Root",
+                "Added letter",
+                "Use"
+              ],
+              "rows": [
+                [
+                  "فَعْلَلَ",
+                  "دَحْرَجَ",
+                  "د ح ر ج",
+                  "none",
+                  "both"
+                ],
+                [
+                  "فَوْعَلَ",
+                  "حَوْقَلَ",
+                  "ح ق ل",
+                  "wāw after the fāʾ",
+                  "intransitive"
+                ],
+                [
+                  "فَيْعَلَ",
+                  "بَيْطَرَ",
+                  "ب ط ر",
+                  "yāʾ after the fāʾ",
+                  "transitive"
+                ],
+                [
+                  "فَعْوَلَ",
+                  "جَهْوَرَ",
+                  "ج ه ر",
+                  "wāw after the ʿayn",
+                  "transitive"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the root and the added letter of ḥawqala, bayṭara and jahwara, and weigh each on faʿala.",
+              "arabic": "حَوْقَلَ — بَيْطَرَ — جَهْوَرَ",
+              "answer": "Ḥawqala: root ḥ-q-l, wāw added after the fāʾ: fawʿala. Bayṭara: root b-ṭ-r, yāʾ added after the fāʾ: fayʿala. Jahwara: root j-h-r, wāw added after the ʿayn: faʿwala."
+            },
+            {
+              "prompt": "Why is daḥraja a bare (mujarrad) verb though it has four letters?",
+              "arabic": "دَحْرَجَ",
+              "answer": "All four of its letters are root letters; nothing is added. A verb is bare or augmented by its root, not by its number of letters."
+            },
+            {
+              "prompt": "Give the past, present and two maṣdars of daḥraja as the book gives them.",
+              "answer": "Daḥraja, yudaḥriju, daḥrajatan and diḥrājan."
+            },
+            {
+              "prompt": "Transitive or intransitive, as the book says: ḥawqala, bayṭara, jahwara?",
+              "answer": "Ḥawqala: intransitive only. Bayṭara: transitive only (bayṭara Zaydun al-qalama). Jahwara: transitive only (jahwara Zaydun al-qurʾāna)."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-8-1",
+              "prompt": "How many bābs has the bare four-letter verb?",
+              "options": [
+                "One",
+                "Six",
+                "Three",
+                "Two"
+              ],
+              "answer": 0,
+              "explanation": "Faʿlala: daḥraja.",
+              "terms": []
+            },
+            {
+              "id": "bina-8-2",
+              "prompt": "What makes daḥraja bare (mujarrad)?",
+              "options": [
+                "It has a hamza",
+                "All four letters are root letters",
+                "It is transitive",
+                "It has no maṣdar"
+              ],
+              "answer": 1,
+              "explanation": "The book's condition: all its letters root letters.",
+              "terms": []
+            },
+            {
+              "id": "bina-8-3",
+              "prompt": "What is “attached to daḥraja”?",
+              "options": [
+                "A four-letter root with a letter added",
+                "Any transitive verb",
+                "A three-letter root with a letter added to take the shape of daḥraja",
+                "The passive of daḥraja"
+              ],
+              "answer": 2,
+              "explanation": "Ḥawqala, bayṭara, jahwara…",
+              "terms": []
+            },
+            {
+              "id": "bina-8-4",
+              "prompt": "What is the added letter of ḥawqala?",
+              "arabic": "حَوْقَلَ",
+              "options": [
+                "The ḥāʾ",
+                "The qāf",
+                "The lām",
+                "The wāw"
+              ],
+              "answer": 3,
+              "explanation": "Root ḥ-q-l; fawʿala.",
+              "terms": []
+            },
+            {
+              "id": "bina-8-5",
+              "prompt": "Bayṭara Zaydun al-qalama means…",
+              "arabic": "بَيْطَرَ زَيْدٌ الْقَلَمَ",
+              "options": [
+                "Zayd slit the pen",
+                "Zayd rolled the pen",
+                "Zayd recited aloud",
+                "Zayd grew old"
+              ],
+              "answer": 0,
+              "explanation": "Ay shaqqahu: he split it.",
+              "terms": []
+            },
+            {
+              "id": "bina-8-6",
+              "prompt": "What is the pattern of jahwara?",
+              "arabic": "جَهْوَرَ",
+              "options": [
+                "Fawʿala",
+                "Faʿwala",
+                "Fayʿala",
+                "Faʿlala"
+              ],
+              "answer": 1,
+              "explanation": "The wāw is after the ʿayn.",
+              "terms": []
+            },
+            {
+              "id": "bina-8-7",
+              "prompt": "Where do the forms of these attached verbs come from in the lessons?",
+              "options": [
+                "From the conjugation tool",
+                "From the Amthila",
+                "From the print",
+                "They have no forms"
+              ],
+              "answer": 2,
+              "explanation": "The tool gives only the regular patterns.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَوَاحِدٌ لِلرُّبَاعِيِّ الْمُجَرَّدِ، وَهُوَ بَابٌ وَاحِدٌ، وَزْنُهُ فَعْلَلَ يُفَعْلِلُ فَعْلَلَةً وَفِعْلَالًا، مَوْزُونُهُ دَحْرَجَ يُدَحْرِجُ دَحْرَجَةً وَدِحْرَاجًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِشَرْطِ أَنْ يَكُونَ جَمِيعُ حُرُوفِهِ أَصْلِيَّةً، وَبِنَاؤُهُ لِلتَّعْدِيَةِ غَالِبًا، وَقَدْ يَكُونُ لَازِمًا. مِثَالُ الْمُتَعَدِّي نَحْوُ: دَحْرَجَ زَيْدٌ الْحَجَرَ، وَمِثَالُ اللَّازِمِ نَحْوُ: دَرْبَخَ زَيْدٌ.",
+              "page": "222",
+              "en": "And one is for the bare quadriliteral; it is one bāb. Its pattern is faʿlala yufaʿlilu faʿlalatan wa-fiʿlālan; its model is daḥraja yudaḥriju daḥrajatan wa-diḥrājan “to roll”. Its sign is that its past has four letters, on condition that all its letters are root letters. It is mostly built for transitive use, and it may be intransitive. An example of the transitive is daḥraja Zaydun al-ḥajara “Zayd rolled the stone”, and an example of the intransitive is darbakha Zaydun “Zayd bowed his head”."
+            },
+            {
+              "original": "وَسِتَّةٌ لِلْمُلْحَقِ بِدَحْرَجَ، وَيُقَالُ لِهَذِهِ السِّتَّةِ: الْمُلْحَقُ بِالرُّبَاعِيِّ. الْبَابُ الْأَوَّلُ مِنْهَا: فَوْعَلَ يُفَوْعِلُ فَوْعَلَةً وَفِيعَالًا، مَوْزُونُهُ حَوْقَلَ يُحَوْقِلُ حَوْقَلَةً وَحِيقَالًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ الْوَاوِ بَيْنَ الْفَاءِ وَالْعَيْنِ، وَبِنَاؤُهُ لِلَّازِمِ فَقَطْ، نَحْوُ: حَوْقَلَ زَيْدٌ.",
+              "page": "223",
+              "en": "And six are for the forms attached (mulḥaq) to daḥraja; these six are called the forms attached to the quadriliteral. The first bāb of them: fawʿala yufawʿilu fawʿalatan wa-fīʿālan; its model is ḥawqala yuḥawqilu ḥawqalatan wa-ḥīqālan “to grow old and weak”. Its sign is that its past has four letters, by the addition of the wāw between the fāʾ and the ʿayn. It is built for the intransitive only, as ḥawqala Zaydun “Zayd grew old and weak”."
+            },
+            {
+              "original": "الْبَابُ الثَّانِي: فَيْعَلَ يُفَيْعِلُ فَيْعَلَةً وَفِيعَالًا، مَوْزُونُهُ بَيْطَرَ يُبَيْطِرُ بَيْطَرَةً وَبِيطَارًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ الْيَاءِ بَيْنَ الْفَاءِ وَالْعَيْنِ، وَبِنَاؤُهُ لِلتَّعْدِيَةِ فَقَطْ، نَحْوُ: بَيْطَرَ زَيْدٌ الْقَلَمَ، أَيْ شَقَّهُ.",
+              "page": "223",
+              "en": "The second bāb: fayʿala yufayʿilu fayʿalatan wa-fīʿālan; its model is bayṭara yubayṭiru bayṭaratan wa-bīṭāran “to slit”. Its sign is that its past has four letters, by the addition of the yāʾ between the fāʾ and the ʿayn. It is built for the transitive only, as bayṭara Zaydun al-qalama “Zayd slit the pen”, that is, he split it."
+            },
+            {
+              "original": "الْبَابُ الثَّالِثُ: فَعْوَلَ يُفَعْوِلُ فَعْوَلَةً وَفِعْوَالًا، مَوْزُونُهُ جَهْوَرَ يُجَهْوِرُ جَهْوَرَةً وَجِهْوَارًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ الْوَاوِ بَيْنَ الْعَيْنِ وَاللَّامِ، وَبِنَاؤُهُ أَيْضًا لِلتَّعْدِيَةِ فَقَطْ، نَحْوُ: جَهْوَرَ زَيْدٌ الْقُرْآنَ.",
+              "page": "224",
+              "en": "The third bāb: faʿwala yufaʿwilu faʿwalatan wa-fiʿwālan; its model is jahwara yujahwiru jahwaratan wa-jihwāran “to say aloud”. Its sign is that its past has four letters, by the addition of the wāw between the ʿayn and the lām. It too is built for the transitive only, as jahwara Zaydun al-qurʾāna “Zayd recited the Qurʾān aloud”."
+            }
+          ]
+        },
+        {
+          "n": 9,
+          "title": "The other attached forms; what attachment means",
+          "arabic": "بَقِيَّةُ الْمُلْحَقِ بِدَحْرَجَ وَمَعْنَى الْإِلْحَاقِ",
+          "transliteration": "baqiyyat al-mulḥaq bi-daḥraja wa-maʿnā al-ilḥāq",
+          "pages": "224–225",
+          "body": [
+            "Three more bābs are attached to daḥraja. Faʿyala, with a yāʾ after the ʿayn: ʿathyara yuʿathyiru ʿathyaratan, “to raise dust”, intransitive only: ʿathyara Zaydun. Faʿlala, with the lām repeated: jalbaba yujalbibu jalbabatan wa-jilbāban, “to clothe in a jilbāb”, transitive: jalbaba Zaydun al-jilbāba. Faʿlā, with a yāʾ at the end: salqā yusalqī salqayatan wa-silqāʾan, “to lie on one's back”, intransitive: salqā Zaydun, ay nāma ʿalā qafāhu, “Zayd lay on his back, that is, slept on the back of his neck”.",
+            "Look at jalbaba: its pattern looks exactly like that of daḥraja, faʿlala. The difference is in the root. Daḥraja has four root letters; jalbaba has three, j-l-b, and its second bāʾ is a repetition of the lām, added. So the book describes it as “one letter of the same kind as the lām added at the end”. Two verbs can share a pattern and still be of different kinds.",
+            "And salqā ends in a yāʾ written as alif (salqā), which makes its forms behave like a weak verb: yusalqī in the present, salqayatan in the maṣdar. Its forms come only from the print.",
+            "The passage ends with the definition of attachment (ilḥāq): “the unity of the two maṣdars, that is, of the attached and of what it is attached to”. A three-letter verb with an added letter counts as attached to daḥraja because its maṣdar runs on the same pattern as daḥraja's: ḥawqala, ḥawqalatan like daḥraja, daḥrajatan; jalbaba, jalbabatan. An augmented verb such as akrama is not attached, for its maṣdar, ikrām, has its own shape."
+          ],
+          "terms": [
+            {
+              "arabic": "الْإِلْحَاقُ",
+              "transliteration": "al-ilḥāq",
+              "en": "attachment: the maṣdars share one pattern"
+            },
+            {
+              "arabic": "الْمُلْحَقُ وَالْمُلْحَقُ بِهِ",
+              "transliteration": "al-mulḥaq wa-l-mulḥaq bihi",
+              "en": "the attached verb and the verb it is attached to"
+            },
+            {
+              "arabic": "فَعْيَلَ، فَعْلَلَ، فَعْلَى",
+              "transliteration": "faʿyala, faʿlala, faʿlā",
+              "en": "the last three patterns attached to daḥraja"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "عَثْيَرَ زَيْدٌ",
+              "en": "ʿathyara Zaydun, “Zayd raised dust”: faʿyala",
+              "after": 0
+            },
+            {
+              "arabic": "جَلْبَبَ زَيْدٌ الْجِلْبَابَ",
+              "en": "jalbaba Zaydun al-jilbāba, “Zayd put the jilbāb on someone”: faʿlala with the lām repeated",
+              "after": 1
+            },
+            {
+              "arabic": "سَلْقَى زَيْدٌ",
+              "en": "salqā Zaydun, “Zayd lay on his back”: faʿlā",
+              "after": 2
+            },
+            {
+              "arabic": "دَحْرَجَ دَحْرَجَةً — حَوْقَلَ حَوْقَلَةً",
+              "en": "daḥraja daḥrajatan, ḥawqala ḥawqalatan: the same maṣdar pattern, the sign of attachment",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The six forms attached to daḥraja",
+              "head": [
+                "Pattern",
+                "Model",
+                "Maṣdar",
+                "Added letter",
+                "Use"
+              ],
+              "rows": [
+                [
+                  "فَوْعَلَ",
+                  "حَوْقَلَ",
+                  "حَوْقَلَةً",
+                  "wāw after the fāʾ",
+                  "intransitive"
+                ],
+                [
+                  "فَيْعَلَ",
+                  "بَيْطَرَ",
+                  "بَيْطَرَةً",
+                  "yāʾ after the fāʾ",
+                  "transitive"
+                ],
+                [
+                  "فَعْوَلَ",
+                  "جَهْوَرَ",
+                  "جَهْوَرَةً",
+                  "wāw after the ʿayn",
+                  "transitive"
+                ],
+                [
+                  "فَعْيَلَ",
+                  "عَثْيَرَ",
+                  "عَثْيَرَةً",
+                  "yāʾ after the ʿayn",
+                  "intransitive"
+                ],
+                [
+                  "فَعْلَلَ",
+                  "جَلْبَبَ",
+                  "جَلْبَبَةً",
+                  "the lām repeated",
+                  "transitive"
+                ],
+                [
+                  "فَعْلَى",
+                  "سَلْقَى",
+                  "سَلْقَيَةً",
+                  "yāʾ at the end",
+                  "intransitive"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Daḥraja and jalbaba are both faʿlala. Why is one bare and the other attached?",
+              "arabic": "دَحْرَجَ — جَلْبَبَ",
+              "answer": "Daḥraja has four root letters (d-ḥ-r-j). Jalbaba has three (j-l-b); its second bāʾ repeats the lām and is added, which makes it a three-letter verb attached to daḥraja."
+            },
+            {
+              "prompt": "State the Binā's definition of attachment and show it on ḥawqala.",
+              "answer": "Attachment is the unity of the two maṣdars, of the attached and of what it is attached to. Ḥawqala has the maṣdar ḥawqalatan on the pattern of daḥrajatan, so ḥawqala is attached to daḥraja."
+            },
+            {
+              "prompt": "Why is akrama, also four letters, not attached to daḥraja?",
+              "arabic": "أَكْرَمَ",
+              "answer": "Its maṣdar is ikrām, which does not share the pattern of daḥraja (daḥrajatan, diḥrājan); and its present yukrimu and its pattern afʿala are its own."
+            },
+            {
+              "prompt": "Which of the six attached forms are transitive, according to the book?",
+              "answer": "Bayṭara, jahwara and jalbaba. Ḥawqala, ʿathyara and salqā are intransitive."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-9-1",
+              "prompt": "What is attachment (ilḥāq), according to the Binā?",
+              "options": [
+                "Adding a hamza",
+                "The unity of the maṣdars of the attached and the model",
+                "Making a verb transitive",
+                "Doubling the ʿayn"
+              ],
+              "answer": 1,
+              "explanation": "Ḥawqalatan on the pattern of daḥrajatan.",
+              "terms": []
+            },
+            {
+              "id": "bina-9-2",
+              "prompt": "What has been added in jalbaba?",
+              "arabic": "جَلْبَبَ",
+              "options": [
+                "A wāw",
+                "A yāʾ",
+                "A second bāʾ, repeating the lām",
+                "Nothing"
+              ],
+              "answer": 2,
+              "explanation": "Root j-l-b.",
+              "terms": []
+            },
+            {
+              "id": "bina-9-3",
+              "prompt": "Salqā Zaydun means…",
+              "arabic": "سَلْقَى زَيْدٌ",
+              "options": [
+                "Zayd raised dust",
+                "Zayd put on a jilbāb",
+                "Zayd grew old",
+                "Zayd lay on his back"
+              ],
+              "answer": 3,
+              "explanation": "Ay nāma ʿalā qafāhu.",
+              "terms": []
+            },
+            {
+              "id": "bina-9-4",
+              "prompt": "ʿAthyara is on the pattern…",
+              "arabic": "عَثْيَرَ",
+              "options": [
+                "Faʿyala",
+                "Fayʿala",
+                "Faʿwala",
+                "Fawʿala"
+              ],
+              "answer": 0,
+              "explanation": "A yāʾ after the ʿayn.",
+              "terms": []
+            },
+            {
+              "id": "bina-9-5",
+              "prompt": "How many forms are attached to daḥraja?",
+              "options": [
+                "Five",
+                "Six",
+                "Two",
+                "Three"
+              ],
+              "answer": 1,
+              "explanation": "Fawʿala, fayʿala, faʿwala, faʿyala, faʿlala, faʿlā.",
+              "terms": []
+            },
+            {
+              "id": "bina-9-6",
+              "prompt": "Two verbs on the same pattern faʿlala can differ in…",
+              "options": [
+                "nothing",
+                "their vowels",
+                "their root: four root letters or three",
+                "their meaning only"
+              ],
+              "answer": 2,
+              "explanation": "Daḥraja is bare, jalbaba attached.",
+              "terms": []
+            },
+            {
+              "id": "bina-9-7",
+              "prompt": "Is akrama attached to daḥraja?",
+              "arabic": "أَكْرَمَ",
+              "options": [
+                "Yes: it has four letters",
+                "Yes: it is transitive",
+                "Only in the passive",
+                "No: its maṣdar ikrām has its own pattern"
+              ],
+              "answer": 3,
+              "explanation": "Attachment is judged by the maṣdar.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "الْبَابُ الرَّابِعُ: فَعْيَلَ يُفَعْيِلُ فَعْيَلَةً وَفِعْيَالًا، مَوْزُونُهُ عَثْيَرَ يُعَثْيِرُ عَثْيَرَةً وَعِثْيَارًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ الْيَاءِ بَيْنَ الْعَيْنِ وَاللَّامِ، وَبِنَاؤُهُ لِلَّازِمِ فَقَطْ، نَحْوُ: عَثْيَرَ زَيْدٌ.",
+              "page": "224",
+              "en": "The fourth bāb: faʿyala yufaʿyilu faʿyalatan wa-fiʿyālan; its model is ʿathyara yuʿathyiru ʿathyaratan wa-ʿithyāran “to raise dust”. Its sign is that its past has four letters, by the addition of the yāʾ between the ʿayn and the lām. It is built for the intransitive only, as ʿathyara Zaydun “Zayd raised dust”."
+            },
+            {
+              "original": "الْبَابُ الْخَامِسُ: فَعْلَلَ يُفَعْلِلُ فَعْلَلَةً وَفِعْلَالًا، مَوْزُونُهُ جَلْبَبَ يُجَلْبِبُ جَلْبَبَةً وَجِلْبَابًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ حَرْفٍ وَاحِدٍ مِنْ جِنْسِ لَامِ فِعْلِهِ فِي آخِرِهِ، وَبِنَاؤُهُ لِلتَّعْدِيَةِ، نَحْوُ: جَلْبَبَ زَيْدٌ الْجِلْبَابَ.",
+              "page": "224–225",
+              "en": "The fifth bāb: faʿlala yufaʿlilu faʿlalatan wa-fiʿlālan; its model is jalbaba yujalbibu jalbabatan wa-jilbāban “to clothe in a jilbāb”. Its sign is that its past has four letters, by the addition of one letter, of the same kind as the lām of its verb, at its end. It is built for the transitive, as jalbaba Zaydun al-jilbāba “Zayd put the jilbāb [on someone]”."
+            },
+            {
+              "original": "الْبَابُ السَّادِسُ: فَعْلَى يُفَعْلِي فَعْلَيَةً وَفِعْلَاءً، مَوْزُونُهُ سَلْقَى يُسَلْقِي سَلْقَيَةً وَسِلْقَاءً، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى أَرْبَعَةِ أَحْرُفٍ بِزِيَادَةِ الْيَاءِ فِي آخِرِهِ، وَبِنَاؤُهُ لِلَّازِمِ، نَحْوُ: سَلْقَى زَيْدٌ، أَيْ نَامَ عَلَى قَفَاهُ. وَيُقَالُ لِهَذِهِ السِّتَّةِ: الْمُلْحَقُ بِالرُّبَاعِيِّ، وَمَعْنَى الْإِلْحَاقِ: اتِّحَادُ الْمَصْدَرَيْنِ، أَيِ الْمُلْحَقِ وَالْمُلْحَقِ بِهِ.",
+              "page": "225",
+              "en": "The sixth bāb: faʿlā yufaʿlī faʿlayatan wa-fiʿlāʾan; its model is salqā yusalqī salqayatan wa-silqāʾan “to lie on the back”. Its sign is that its past has four letters, by the addition of the yāʾ at its end. It is built for the intransitive, as salqā Zaydun “Zayd lay on his back”, that is, he slept on the back of his neck. These six are called the forms attached to the quadriliteral; and the meaning of attachment (ilḥāq) is that the two maṣdars are of one kind, that is, [that of] the attached form and [that of] the form it is attached to."
+            }
+          ]
+        },
+        {
+          "n": 10,
+          "title": "The augmented four-letter verb",
+          "arabic": "الرُّبَاعِيُّ الْمَزِيدُ فِيهِ",
+          "transliteration": "al-rubāʿī al-mazīd fīhi",
+          "pages": "225–227",
+          "body": [
+            "The four-letter verb with added letters has three bābs in two kinds. With one letter added: tafaʿlala yatafaʿlalu tafaʿlulan, model tadaḥraja yatadaḥraju tadaḥrujan, a tāʾ added at the start. It is built for compliance, as infaʿala was for the three-letter verb: daḥrajtu al-ḥajara fa-tadaḥraja dhālika al-ḥajaru, “I rolled the stone, and the stone rolled”.",
+            "With two letters added, two bābs. Ifʿanlala yafʿanlilu ifʿinlālan, model iḥranjama yaḥranjimu iḥrinjāman: a hamza at the start and a nūn between the ʿayn and the first lām. It too is for compliance: ḥarjamtu al-ibila fa-ḥranjama dhālika al-ibilu, “I gathered the camels together, and the camels crowded together”.",
+            "Ifʿalalla yafʿalillu ifʿillālan, model iqshaʿarra yaqshaʿirru iqshiʿrāran: a hamza at the start and a second lām at the end, doubled. It is built to intensify the intransitive, and the book again sets it against its bare verb: “one says qashʿara jildu al-rajuli when the hair of his skin rises somewhat, and iqshaʿarra jildu al-rajuli when it rises strongly”: the man's skin shivered, or crept.",
+            "The four-letter verb repeats the system of the three-letter one. Its bare form has an augmented form for compliance (tadaḥraja beside inkasara), another for compliance with a nūn (iḥranjama beside inkasara), and one for intensifying with a doubled end (iqshaʿarra beside iḥmarra). Learning the parallels is easier than learning the patterns one by one."
+          ],
+          "terms": [
+            {
+              "arabic": "تَفَعْلَلَ يَتَفَعْلَلُ تَفَعْلُلًا",
+              "transliteration": "tafaʿlala yatafaʿlalu tafaʿlulan",
+              "en": "the bāb of tadaḥraja: compliance"
+            },
+            {
+              "arabic": "افْعَنْلَلَ يَفْعَنْلِلُ افْعِنْلَالًا",
+              "transliteration": "ifʿanlala yafʿanlilu ifʿinlālan",
+              "en": "the bāb of iḥranjama: compliance"
+            },
+            {
+              "arabic": "افْعَلَلَّ يَفْعَلِلُّ افْعِلْلَالًا",
+              "transliteration": "ifʿalalla yafʿalillu ifʿillālan",
+              "en": "the bāb of iqshaʿarra: intensifying"
+            },
+            {
+              "arabic": "الرُّبَاعِيُّ الْمَزِيدُ فِيهِ",
+              "transliteration": "al-rubāʿī al-mazīd fīhi",
+              "en": "the augmented four-letter verb"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "دَحْرَجْتُ الْحَجَرَ فَتَدَحْرَجَ ذَلِكَ الْحَجَرُ",
+              "en": "“I rolled the stone, and the stone rolled”: tadaḥraja, compliance",
+              "after": 0
+            },
+            {
+              "arabic": "حَرْجَمْتُ الْإِبِلَ فَاحْرَنْجَمَ ذَلِكَ الْإِبِلُ",
+              "en": "“I gathered the camels, and they crowded together”: iḥranjama, compliance",
+              "after": 1
+            },
+            {
+              "arabic": "قَشْعَرَ جِلْدُ الرَّجُلِ — اقْشَعَرَّ جِلْدُ الرَّجُلِ",
+              "en": "the man's skin crept a little; it crept strongly: iqshaʿarra, intensifying",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The four-letter verb beside the three-letter one",
+              "head": [
+                "Use",
+                "Four-letter bāb",
+                "Three-letter parallel"
+              ],
+              "rows": [
+                [
+                  "bare",
+                  "دَحْرَجَ",
+                  "نَصَرَ"
+                ],
+                [
+                  "compliance with tāʾ",
+                  "تَدَحْرَجَ",
+                  "تَعَلَّمَ"
+                ],
+                [
+                  "compliance with nūn",
+                  "احْرَنْجَمَ",
+                  "انْكَسَرَ"
+                ],
+                [
+                  "intensifying, doubled end",
+                  "اقْشَعَرَّ",
+                  "احْمَرَّ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the bare verb and the verb of compliance in each pair, and their bābs: daḥrajtu al-ḥajara fa-tadaḥraja; ḥarjamtu al-ibila fa-ḥranjama.",
+              "arabic": "دَحْرَجْتُ الْحَجَرَ فَتَدَحْرَجَ — حَرْجَمْتُ الْإِبِلَ فَاحْرَنْجَمَ",
+              "answer": "Daḥraja (faʿlala) and tadaḥraja (tafaʿlala, a tāʾ added). Ḥarjama (faʿlala) and iḥranjama (ifʿanlala, a hamza and a nūn added)."
+            },
+            {
+              "prompt": "Where is the added nūn of iḥranjama?",
+              "arabic": "احْرَنْجَمَ",
+              "answer": "Between the ʿayn and the first lām: ḥ-r-n-j-m, with the root ḥ-r-j-m."
+            },
+            {
+              "prompt": "What is the difference between qashʿara and iqshaʿarra?",
+              "arabic": "قَشْعَرَ — اقْشَعَرَّ",
+              "answer": "Qashʿara: the skin crept somewhat. Iqshaʿarra: it crept strongly. Ifʿalalla intensifies the intransitive."
+            },
+            {
+              "prompt": "Which bāb of the three-letter verb is the parallel of each: tadaḥraja, iḥranjama, iqshaʿarra?",
+              "answer": "Tadaḥraja is like the tāʾ bābs of compliance (taʿallama from ʿallama); iḥranjama like infaʿala (inkasara); iqshaʿarra like ifʿalla (iḥmarra)."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-10-1",
+              "prompt": "What is tadaḥraja built for?",
+              "arabic": "تَدَحْرَجَ",
+              "options": [
+                "Sharing",
+                "Intensifying",
+                "Compliance",
+                "Seeking"
+              ],
+              "answer": 2,
+              "explanation": "Daḥrajtu al-ḥajara fa-tadaḥraja.",
+              "terms": []
+            },
+            {
+              "id": "bina-10-2",
+              "prompt": "What letters does ifʿanlala add?",
+              "options": [
+                "A tāʾ",
+                "A hamza and a doubled lām",
+                "A sīn and a tāʾ",
+                "A hamza and a nūn"
+              ],
+              "answer": 3,
+              "explanation": "Iḥranjama.",
+              "terms": []
+            },
+            {
+              "id": "bina-10-3",
+              "prompt": "What is iqshaʿarra built for?",
+              "arabic": "اقْشَعَرَّ",
+              "options": [
+                "Intensifying the intransitive",
+                "Compliance",
+                "Making transitive",
+                "Sharing"
+              ],
+              "answer": 0,
+              "explanation": "Strong creeping of the skin.",
+              "terms": []
+            },
+            {
+              "id": "bina-10-4",
+              "prompt": "How many bābs has the augmented four-letter verb?",
+              "options": [
+                "One",
+                "Three",
+                "Five",
+                "Twelve"
+              ],
+              "answer": 1,
+              "explanation": "One with a letter added, two with two.",
+              "terms": []
+            },
+            {
+              "id": "bina-10-5",
+              "prompt": "In fa-tadaḥraja dhālika al-ḥajaru, al-ḥajaru is…",
+              "arabic": "فَتَدَحْرَجَ ذَلِكَ الْحَجَرُ",
+              "options": [
+                "the object",
+                "a ḥāl",
+                "the doer of the verb of compliance",
+                "a tamyīz"
+              ],
+              "answer": 2,
+              "explanation": "The stone that received the rolling.",
+              "terms": []
+            },
+            {
+              "id": "bina-10-6",
+              "prompt": "Which three-letter bāb is the parallel of iḥranjama?",
+              "options": [
+                "Istafʿala",
+                "Afʿala",
+                "Fāʿala",
+                "Infaʿala"
+              ],
+              "answer": 3,
+              "explanation": "Both are compliance with an added nūn.",
+              "terms": []
+            },
+            {
+              "id": "bina-10-7",
+              "prompt": "What is the present of iqshaʿarra in the book?",
+              "arabic": "اقْشَعَرَّ",
+              "options": [
+                "Yaqshaʿirru",
+                "Yuqashʿiru",
+                "Yaqshaʿarru",
+                "Tuqashʿiru"
+              ],
+              "answer": 0,
+              "explanation": "Ifʿalalla yafʿalillu.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَثَلَاثَةٌ لِمَا زَادَ عَلَى الرُّبَاعِيِّ الْمُجَرَّدِ، وَهُوَ عَلَى نَوْعَيْنِ. النَّوْعُ الْأَوَّلُ: وَهُوَ مَا زِيدَ فِيهِ حَرْفٌ وَاحِدٌ عَلَى الرُّبَاعِيِّ، وَهُوَ بَابٌ وَاحِدٌ، وَزْنُهُ تَفَعْلَلَ يَتَفَعْلَلُ تَفَعْلُلًا، مَوْزُونُهُ تَدَحْرَجَ يَتَدَحْرَجُ تَدَحْرُجًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ التَّاءِ فِي أَوَّلِهِ، وَبِنَاؤُهُ لِلْمُطَاوَعَةِ، نَحْوُ: دَحْرَجْتُ الْحَجَرَ فَتَدَحْرَجَ ذَلِكَ الْحَجَرُ.",
+              "page": "225–226",
+              "en": "And three are for what is more than the bare quadriliteral, and that is of two kinds. The first kind is that in which one letter is added to the quadriliteral; it is one bāb. Its pattern is tafaʿlala yatafaʿlalu tafaʿlulan; its model is tadaḥraja yatadaḥraju tadaḥrujan “to roll [of itself]”. Its sign is that its past has five letters, by the addition of the tāʾ at its beginning. It is built for compliance, as daḥrajtu al-ḥajara fa-tadaḥraja dhālika al-ḥajaru “I rolled the stone, so that stone rolled”."
+            },
+            {
+              "original": "النَّوْعُ الثَّانِي: وَهُوَ مَا زِيدَ فِيهِ حَرْفَانِ عَلَى الرُّبَاعِيِّ، وَهُوَ بَابَانِ. الْبَابُ الْأَوَّلُ: افْعَنْلَلَ يَفْعَنْلِلُ افْعِنْلَالًا، مَوْزُونُهُ احْرَنْجَمَ يَحْرَنْجِمُ احْرِنْجَامًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى سِتَّةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَالنُّونِ بَيْنَ الْعَيْنِ وَاللَّامِ الْأُولَى، وَبِنَاؤُهُ لِلْمُطَاوَعَةِ أَيْضًا، نَحْوُ: حَرْجَمْتُ الْإِبِلَ فَاحْرَنْجَمَ ذَلِكَ الْإِبِلُ.",
+              "page": "226",
+              "en": "The second kind is that in which two letters are added to the quadriliteral; it is two bābs. The first bāb: ifʿanlala yafʿanlilu ifʿinlālan; its model is iḥranjama yaḥranjimu iḥrinjāman “to crowd together”. Its sign is that its past has six letters, by the addition of the hamza at its beginning and the nūn between the ʿayn and the first lām. It too is built for compliance, as ḥarjamtu al-ibila fa-iḥranjama dhālika al-ibilu “I drove the camels together, so those camels crowded together”."
+            },
+            {
+              "original": "الْبَابُ الثَّانِي: افْعَلَلَّ يَفْعَلِلُّ افْعِلْلَالًا، مَوْزُونُهُ اقْشَعَرَّ يَقْشَعِرُّ اقْشِعْرَارًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى سِتَّةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَحَرْفٍ آخَرَ مِنْ جِنْسِ لَامِ فِعْلِهِ الثَّانِيَةِ فِي آخِرِهِ، وَبِنَاؤُهُ لِمُبَالَغَةِ اللَّازِمِ؛ لِأَنَّهُ يُقَالُ: قَشْعَرَ جِلْدُ الرَّجُلِ إِذَا انْتَشَرَ شَعْرُ جِلْدِهِ فِي الْجُمْلَةِ، وَيُقَالُ: اقْشَعَرَّ جِلْدُ الرَّجُلِ إِذَا انْتَشَرَ شَعْرُ جِلْدِهِ مُبَالَغَةً.",
+              "page": "226–227",
+              "en": "The second bāb: ifʿalalla yafʿalillu ifʿillālan; its model is iqshaʿarra yaqshaʿirru iqshiʿrāran “to shudder”. Its sign is that its past has six letters, by the addition of the hamza at its beginning and another letter, of the same kind as the second lām of its verb, at its end. It is built for intensifying the intransitive; for one says qashʿara jildu al-rajuli “the man's skin shivered” when the hair of his skin stands up somewhat, and one says iqshaʿarra jildu al-rajuli “the man's skin shuddered” when the hair of his skin stands up intensely."
+            }
+          ]
+        },
+        {
+          "n": 11,
+          "title": "The forms attached to tadaḥraja",
+          "arabic": "الْمُلْحَقُ بِتَدَحْرَجَ",
+          "transliteration": "al-mulḥaq bi-tadaḥraja",
+          "pages": "227–229",
+          "body": [
+            "Five bābs are attached to tadaḥraja: each is one of the forms attached to daḥraja with a tāʾ in front. Tafaʿlala, model tajalbaba, “to put on a jilbāb”, built for compliance: jalbaba Zaydun fa-tajalbaba fī dhālika al-jilbābi, “Zayd clothed him in a jilbāb, and he put on that jilbāb”. Tafawʿala, model tajawraba, “to put on socks”, also compliance: jawrabtuhu fa-tajawraba, “I put socks on him, and he put them on”.",
+            "Three are intransitive only: tafayʿala, model tashayṭana, “to act like a devil”: tashayṭana Zaydun; tafaʿwala, model tarahwaka, “to walk with a swaying gait”: tarahwaka Zaydun; and tafaʿlā, model tasalqā, “to lie on one's back”: tasalqā Zaydun.",
+            "The book then adds a note that teaches a principle: “the reality of attachment in these attached forms is only by the addition of what is not the tāʾ”. In tajalbaba the attachment is by the repeated bāʾ, as in jalbaba; “the tāʾ only came in for the meaning of compliance, as it came in tadaḥraja”. For, the book says, attachment is never at the start of a word, only in its middle or at its end, “as is stated in the commentary on the Mufaṣṣal”, the great handbook of naḥw by al-Zamakhsharī.",
+            "So each form has two additions doing two jobs: one letter in the middle or at the end that makes the root take the shape of a four-letter verb, and a tāʾ at the start that gives the meaning of compliance. Tajawraba: the wāw attaches, the tāʾ complies. That is the kind of analysis the Binā trains: every added letter has its place and its reason."
+          ],
+          "terms": [
+            {
+              "arabic": "الْمُلْحَقُ بِتَدَحْرَجَ",
+              "transliteration": "al-mulḥaq bi-tadaḥraja",
+              "en": "attached to tadaḥraja: five bābs"
+            },
+            {
+              "arabic": "حَقِيقَةُ الْإِلْحَاقِ",
+              "transliteration": "ḥaqīqat al-ilḥāq",
+              "en": "the reality of attachment: by a letter that is not the tāʾ"
+            },
+            {
+              "arabic": "تَاءُ الْمُطَاوَعَةِ",
+              "transliteration": "tāʾ al-muṭāwaʿa",
+              "en": "the tāʾ of compliance at the start"
+            },
+            {
+              "arabic": "شَرْحُ الْمُفَصَّلِ",
+              "transliteration": "Sharḥ al-Mufaṣṣal",
+              "en": "the commentary on al-Zamakhsharī's Mufaṣṣal, cited by the book"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "جَلْبَبَ زَيْدٌ فَتَجَلْبَبَ فِي ذَلِكَ الْجِلْبَابِ",
+              "en": "“Zayd clothed him in a jilbāb, and he put it on”: tajalbaba, compliance",
+              "after": 0
+            },
+            {
+              "arabic": "جَوْرَبْتُهُ فَتَجَوْرَبَ",
+              "en": "jawrabtuhu fa-tajawraba, “I put socks on him, and he put them on”",
+              "after": 0
+            },
+            {
+              "arabic": "تَشَيْطَنَ زَيْدٌ",
+              "en": "tashayṭana Zaydun, “Zayd acted like a devil”: intransitive only",
+              "after": 1
+            },
+            {
+              "arabic": "تَسَلْقَى زَيْدٌ",
+              "en": "tasalqā Zaydun, “Zayd lay on his back”",
+              "after": 1
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 1,
+            "grid": {
+              "caption": "The five forms attached to tadaḥraja",
+              "head": [
+                "Pattern",
+                "Model",
+                "From",
+                "Letter of attachment",
+                "Use"
+              ],
+              "rows": [
+                [
+                  "تَفَعْلَلَ",
+                  "تَجَلْبَبَ",
+                  "جَلْبَبَ",
+                  "the lām repeated",
+                  "compliance"
+                ],
+                [
+                  "تَفَوْعَلَ",
+                  "تَجَوْرَبَ",
+                  "جَوْرَبَ",
+                  "wāw after the fāʾ",
+                  "compliance"
+                ],
+                [
+                  "تَفَيْعَلَ",
+                  "تَشَيْطَنَ",
+                  "—",
+                  "yāʾ after the fāʾ",
+                  "intransitive"
+                ],
+                [
+                  "تَفَعْوَلَ",
+                  "تَرَهْوَكَ",
+                  "—",
+                  "wāw after the ʿayn",
+                  "intransitive"
+                ],
+                [
+                  "تَفَعْلَى",
+                  "تَسَلْقَى",
+                  "سَلْقَى",
+                  "yāʾ at the end",
+                  "intransitive"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "In tajawraba, which added letter makes the attachment and which gives compliance?",
+              "arabic": "تَجَوْرَبَ",
+              "answer": "The wāw after the fāʾ makes the attachment (as in jawraba, fawʿala); the tāʾ at the start gives the meaning of compliance."
+            },
+            {
+              "prompt": "Why does the book say attachment is never by the tāʾ?",
+              "answer": "Because attachment is never at the start of a word, only in its middle or at its end. The tāʾ at the start of these forms came in for compliance, as in tadaḥraja."
+            },
+            {
+              "prompt": "Name the pattern of each: tashayṭana, tarahwaka, tasalqā.",
+              "arabic": "تَشَيْطَنَ — تَرَهْوَكَ — تَسَلْقَى",
+              "answer": "Tashayṭana: tafayʿala. Tarahwaka: tafaʿwala. Tasalqā: tafaʿlā."
+            },
+            {
+              "prompt": "Translate jawrabtuhu fa-tajawraba and say what the two verbs show.",
+              "arabic": "جَوْرَبْتُهُ فَتَجَوْرَبَ",
+              "answer": "“I put socks on him, and he put them on.” Jawraba is the transitive act; tajawraba its compliance, whose doer is the one who received the act."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-11-1",
+              "prompt": "How many forms are attached to tadaḥraja?",
+              "options": [
+                "Six",
+                "Two",
+                "Three",
+                "Five"
+              ],
+              "answer": 3,
+              "explanation": "Tajalbaba, tajawraba, tashayṭana, tarahwaka, tasalqā.",
+              "terms": []
+            },
+            {
+              "id": "bina-11-2",
+              "prompt": "In tajalbaba, the attachment is by…",
+              "arabic": "تَجَلْبَبَ",
+              "options": [
+                "the repeated bāʾ",
+                "the tāʾ",
+                "the jīm",
+                "the lām"
+              ],
+              "answer": 0,
+              "explanation": "As in jalbaba; the tāʾ is for compliance.",
+              "terms": []
+            },
+            {
+              "id": "bina-11-3",
+              "prompt": "Where, according to the book, can attachment never be?",
+              "options": [
+                "In the middle",
+                "At the start of a word",
+                "At the end",
+                "In the maṣdar"
+              ],
+              "answer": 1,
+              "explanation": "Only in the middle or at the end.",
+              "terms": []
+            },
+            {
+              "id": "bina-11-4",
+              "prompt": "Tashayṭana Zaydun means…",
+              "arabic": "تَشَيْطَنَ زَيْدٌ",
+              "options": [
+                "Zayd put on socks",
+                "Zayd lay on his back",
+                "Zayd acted like a devil",
+                "Zayd walked swaying"
+              ],
+              "answer": 2,
+              "explanation": "Intransitive only.",
+              "terms": []
+            },
+            {
+              "id": "bina-11-5",
+              "prompt": "Tarahwaka means…",
+              "arabic": "تَرَهْوَكَ",
+              "options": [
+                "to put on a jilbāb",
+                "to raise dust",
+                "to slit",
+                "to walk with a swaying gait"
+              ],
+              "answer": 3,
+              "explanation": "Tafaʿwala.",
+              "terms": []
+            },
+            {
+              "id": "bina-11-6",
+              "prompt": "Which book does the Binā cite for its rule on attachment?",
+              "options": [
+                "A commentary on al-Zamakhsharī's Mufaṣṣal",
+                "The Ājurrūmiyya",
+                "The Alfiyya",
+                "Al-ʿIzzī"
+              ],
+              "answer": 0,
+              "explanation": "“As is stated in the commentary on the Mufaṣṣal.”",
+              "terms": []
+            },
+            {
+              "id": "bina-11-7",
+              "prompt": "What does the tāʾ at the start of these forms give?",
+              "options": [
+                "The attachment",
+                "The meaning of compliance",
+                "The feminine",
+                "The passive"
+              ],
+              "answer": 1,
+              "explanation": "As it does in tadaḥraja.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَخَمْسَةٌ لِلْمُلْحَقِ بِتَدَحْرَجَ. الْبَابُ الْأَوَّلُ: تَفَعْلَلَ يَتَفَعْلَلُ تَفَعْلُلًا، مَوْزُونُهُ تَجَلْبَبَ يَتَجَلْبَبُ تَجَلْبُبًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ التَّاءِ فِي أَوَّلِهِ وَحَرْفٍ آخَرَ مِنْ جِنْسِ لَامِ فِعْلِهِ فِي آخِرِهِ، وَبِنَاؤُهُ لِلْمُطَاوَعَةِ، نَحْوُ: جَلْبَبَ زَيْدٌ فَتَجَلْبَبَ فِي ذَلِكَ الْجِلْبَابِ.",
+              "page": "227",
+              "en": "And five are for the forms attached to tadaḥraja. The first bāb: tafaʿlala yatafaʿlalu tafaʿlulan; its model is tajalbaba yatajalbabu tajalbuban “to put on a jilbāb”. Its sign is that its past has five letters, by the addition of the tāʾ at its beginning and another letter, of the same kind as the lām of its verb, at its end. It is built for compliance, as jalbaba Zaydun fa-tajalbaba fī dhālika al-jilbābi “Zayd clothed [him] in a jilbāb, and he put on that jilbāb”."
+            },
+            {
+              "original": "الْبَابُ الثَّانِي: تَفَوْعَلَ يَتَفَوْعَلُ تَفَوْعُلًا، مَوْزُونُهُ تَجَوْرَبَ يَتَجَوْرَبُ تَجَوْرُبًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ التَّاءِ فِي أَوَّلِهِ وَالْوَاوِ بَيْنَ الْفَاءِ وَالْعَيْنِ، وَبِنَاؤُهُ أَيْضًا لِلْمُطَاوَعَةِ، نَحْوُ: جَوْرَبْتُهُ فَتَجَوْرَبَ.",
+              "page": "227–228",
+              "en": "The second bāb: tafawʿala yatafawʿalu tafawʿulan; its model is tajawraba yatajawrabu tajawruban “to put on socks”. Its sign is that its past has five letters, by the addition of the tāʾ at its beginning and the wāw between the fāʾ and the ʿayn. It too is built for compliance, as jawrabtuhu fa-tajawraba “I put socks on him, and he put them on”."
+            },
+            {
+              "original": "الْبَابُ الثَّالِثُ: تَفَيْعَلَ يَتَفَيْعَلُ تَفَيْعُلًا، مَوْزُونُهُ تَشَيْطَنَ يَتَشَيْطَنُ تَشَيْطُنًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ التَّاءِ فِي أَوَّلِهِ وَالْيَاءِ بَيْنَ الْفَاءِ وَالْعَيْنِ، وَبِنَاؤُهُ لِلَّازِمِ فَقَطْ، نَحْوُ: تَشَيْطَنَ زَيْدٌ.",
+              "page": "228",
+              "en": "The third bāb: tafayʿala yatafayʿalu tafayʿulan; its model is tashayṭana yatashayṭanu tashayṭunan “to act like a devil”. Its sign is that its past has five letters, by the addition of the tāʾ at its beginning and the yāʾ between the fāʾ and the ʿayn. It is built for the intransitive only, as tashayṭana Zaydun “Zayd acted like a devil”."
+            },
+            {
+              "original": "الْبَابُ الرَّابِعُ: تَفَعْوَلَ يَتَفَعْوَلُ تَفَعْوُلًا، مَوْزُونُهُ تَرَهْوَكَ يَتَرَهْوَكُ تَرَهْوُكًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ التَّاءِ فِي أَوَّلِهِ وَالْوَاوِ بَيْنَ الْعَيْنِ وَاللَّامِ، وَبِنَاؤُهُ لِلَّازِمِ فَقَطْ، نَحْوُ: تَرَهْوَكَ زَيْدٌ.",
+              "page": "228",
+              "en": "The fourth bāb: tafaʿwala yatafaʿwalu tafaʿwulan; its model is tarahwaka yatarahwaku tarahwukan “to walk with a swaying gait”. Its sign is that its past has five letters, by the addition of the tāʾ at its beginning and the wāw between the ʿayn and the lām. It is built for the intransitive only, as tarahwaka Zaydun “Zayd walked with a swaying gait”."
+            },
+            {
+              "original": "الْبَابُ الْخَامِسُ: تَفَعْلَى يَتَفَعْلَى تَفَعْلِيًا، مَوْزُونُهُ تَسَلْقَى يَتَسَلْقَى تَسَلْقِيًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى خَمْسَةِ أَحْرُفٍ بِزِيَادَةِ التَّاءِ فِي أَوَّلِهِ وَالْيَاءِ فِي آخِرِهِ، وَبِنَاؤُهُ لِلَّازِمِ، نَحْوُ: تَسَلْقَى زَيْدٌ، أَيْ نَامَ عَلَى قَفَاهُ.",
+              "page": "228–229",
+              "en": "The fifth bāb: tafaʿlā yatafaʿlā tafaʿliyan; its model is tasalqā yatasalqā tasalqiyan “to lie on one's back”. Its sign is that its past has five letters, by the addition of the tāʾ at its beginning and the yāʾ at its end. It is built for the intransitive, as tasalqā Zaydun “Zayd lay on his back”, that is, he slept on the back of his neck."
+            },
+            {
+              "original": "وَاعْلَمْ أَنَّ حَقِيقَةَ الْإِلْحَاقِ فِي هَذِهِ الْمُلْحَقَاتِ إِنَّمَا هُوَ بِزِيَادَةِ غَيْرِ التَّاءِ، مَثَلًا الْإِلْحَاقُ فِي تَجَلْبَبَ إِنَّمَا هُوَ بِتَكْرَارِ الْبَاءِ، وَالتَّاءُ إِنَّمَا دَخَلَتْ لِمَعْنَى الْمُطَاوَعَةِ كَمَا دَخَلَتْ فِي تَدَحْرَجَ؛ لِأَنَّ الْإِلْحَاقَ لَا يَكُونُ فِي أَوَّلِ الْكَلِمَةِ، بَلْ فِي وَسَطِهَا أَوْ آخِرِهَا، عَلَى مَا صُرِّحَ فِي شَرْحِ الْمُفَصَّلِ.",
+              "page": "229",
+              "en": "Know that the real attachment in these attached forms is only by the addition of something other than the tāʾ. For example, the attachment in tajalbaba is only by the repetition of the bāʾ; the tāʾ came in only for the meaning of compliance, as it came in tadaḥraja; for attachment is never at the beginning of the word, but in its middle or at its end, as is stated in the Sharḥ al-Mufaṣṣal."
+            }
+          ]
+        },
+        {
+          "n": 12,
+          "title": "The forms attached to iḥranjama",
+          "arabic": "الْمُلْحَقُ بِاحْرَنْجَمَ",
+          "transliteration": "al-mulḥaq bi-iḥranjama",
+          "pages": "229–230",
+          "body": [
+            "The last two bābs are attached to iḥranjama, the four-letter verb with a hamza and a nūn added. The first: ifʿanlala yafʿanlilu ifʿinlālan, model iqʿansasa yaqʿansisu iqʿinsāsan: a hamza at the start, a nūn between the ʿayn and the lām, and the lām repeated at the end. Its root is three letters, q-ʿ-s; the repeated sīn attaches it to iḥranjama.",
+            "It is built to intensify the intransitive: “one says qaʿisa al-rajulu when he pushes out his chest and his back goes in somewhat, and iqʿansasa al-rajulu when he does so strongly”: the man thrust out his chest.",
+            "The second: ifʿanlā yafʿanlī ifʿinlāʾan, model islanqā yaslanqī islinqāʾan: a hamza at the start, a nūn between the ʿayn and the lām, and a yāʾ at the end. It is built for compliance: salqaytuhu fa-slanqā, ay waqaʿa ʿalā qafāhu, “I laid him on his back, and he lay on his back”, that is, fell on the back of his neck.",
+            "With these the thirty-five bābs are complete. Count them back: 6 bare three-letter, 12 augmented three-letter, 1 bare four-letter, 6 attached to daḥraja, 3 augmented four-letter, 5 attached to tadaḥraja, 2 attached to iḥranjama. A student who can say for any verb which of the thirty-five it belongs to has learnt what the Binā teaches."
+          ],
+          "terms": [
+            {
+              "arabic": "الْمُلْحَقُ بِاحْرَنْجَمَ",
+              "transliteration": "al-mulḥaq bi-iḥranjama",
+              "en": "attached to iḥranjama: two bābs"
+            },
+            {
+              "arabic": "افْعَنْلَلَ (اقْعَنْسَسَ)",
+              "transliteration": "ifʿanlala (iqʿansasa)",
+              "en": "with the lām repeated: intensifying"
+            },
+            {
+              "arabic": "افْعَنْلَى (اسْلَنْقَى)",
+              "transliteration": "ifʿanlā (islanqā)",
+              "en": "with a yāʾ at the end: compliance"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "قَعِسَ الرَّجُلُ — اقْعَنْسَسَ الرَّجُلُ",
+              "en": "the man pushed out his chest somewhat; he thrust it out strongly",
+              "after": 1
+            },
+            {
+              "arabic": "سَلْقَيْتُهُ فَاسْلَنْقَى",
+              "en": "salqaytuhu fa-slanqā, “I laid him on his back, and he lay on his back”: compliance",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The thirty-five bābs counted",
+              "head": [
+                "Group",
+                "Bābs",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "bare three-letter",
+                  "6",
+                  "نَصَرَ"
+                ],
+                [
+                  "augmented three-letter",
+                  "12",
+                  "اسْتَخْرَجَ"
+                ],
+                [
+                  "bare four-letter",
+                  "1",
+                  "دَحْرَجَ"
+                ],
+                [
+                  "attached to daḥraja",
+                  "6",
+                  "حَوْقَلَ"
+                ],
+                [
+                  "augmented four-letter",
+                  "3",
+                  "تَدَحْرَجَ"
+                ],
+                [
+                  "attached to tadaḥraja",
+                  "5",
+                  "تَجَلْبَبَ"
+                ],
+                [
+                  "attached to iḥranjama",
+                  "2",
+                  "اقْعَنْسَسَ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the root of iqʿansasa and say which letters are added and why.",
+              "arabic": "اقْعَنْسَسَ",
+              "answer": "Root q-ʿ-s. Added: the hamza at the start and the nūn after the ʿayn (as in iḥranjama), and the repeated sīn at the end, which makes the three-letter root take the shape of the four-letter iḥranjama."
+            },
+            {
+              "prompt": "Iḥranjama and islanqā are both for compliance. Give the act and the compliance in each, as the book does.",
+              "arabic": "حَرْجَمْتُ الْإِبِلَ فَاحْرَنْجَمَ — سَلْقَيْتُهُ فَاسْلَنْقَى",
+              "answer": "Ḥarjamtu al-ibila fa-ḥranjama: I gathered the camels, and they crowded together. Salqaytuhu fa-slanqā: I laid him on his back, and he lay on his back."
+            },
+            {
+              "prompt": "Count the thirty-five bābs by their groups.",
+              "answer": "6 bare three-letter + 12 augmented three-letter + 1 bare four-letter + 6 attached to daḥraja + 3 augmented four-letter + 5 attached to tadaḥraja + 2 attached to iḥranjama = 35."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-12-1",
+              "prompt": "How many bābs are attached to iḥranjama?",
+              "options": [
+                "Two",
+                "Five",
+                "Six",
+                "Three"
+              ],
+              "answer": 0,
+              "explanation": "Iqʿansasa and islanqā.",
+              "terms": []
+            },
+            {
+              "id": "bina-12-2",
+              "prompt": "What is iqʿansasa built for?",
+              "arabic": "اقْعَنْسَسَ",
+              "options": [
+                "Compliance",
+                "Intensifying the intransitive",
+                "Making transitive",
+                "Sharing"
+              ],
+              "answer": 1,
+              "explanation": "Qaʿisa somewhat; iqʿansasa strongly.",
+              "terms": []
+            },
+            {
+              "id": "bina-12-3",
+              "prompt": "What is islanqā built for?",
+              "arabic": "اسْلَنْقَى",
+              "options": [
+                "Intensifying",
+                "Seeking",
+                "Compliance",
+                "Effort"
+              ],
+              "answer": 2,
+              "explanation": "Salqaytuhu fa-slanqā.",
+              "terms": []
+            },
+            {
+              "id": "bina-12-4",
+              "prompt": "What attaches iqʿansasa to iḥranjama?",
+              "options": [
+                "The hamza",
+                "The nūn",
+                "The qāf",
+                "The repeated sīn"
+              ],
+              "answer": 3,
+              "explanation": "Root q-ʿ-s; the second sīn is added.",
+              "terms": []
+            },
+            {
+              "id": "bina-12-5",
+              "prompt": "What is the total of the bābs?",
+              "options": [
+                "Thirty-five",
+                "Thirty",
+                "Twelve",
+                "Six"
+              ],
+              "answer": 0,
+              "explanation": "6 + 12 + 1 + 6 + 3 + 5 + 2.",
+              "terms": []
+            },
+            {
+              "id": "bina-12-6",
+              "prompt": "Which group has twelve bābs?",
+              "options": [
+                "The attached forms",
+                "The augmented three-letter verb",
+                "The bare three-letter verb",
+                "The four-letter verb"
+              ],
+              "answer": 1,
+              "explanation": "Three with one letter, five with two, four with three.",
+              "terms": []
+            },
+            {
+              "id": "bina-12-7",
+              "prompt": "The root of islanqā has how many letters?",
+              "arabic": "اسْلَنْقَى",
+              "options": [
+                "Four",
+                "Five",
+                "Three",
+                "Six"
+              ],
+              "answer": 2,
+              "explanation": "S-l-q, with a hamza, a nūn and a final yāʾ added.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَاثْنَانِ لِلْمُلْحَقِ بِاحْرَنْجَمَ. الْبَابُ الْأَوَّلُ: افْعَنْلَلَ يَفْعَنْلِلُ افْعِنْلَالًا، مَوْزُونُهُ اقْعَنْسَسَ يَقْعَنْسِسُ اقْعِنْسَاسًا، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى سِتَّةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَالنُّونِ بَيْنَ الْعَيْنِ وَاللَّامِ وَحَرْفٍ آخَرَ مِنْ جِنْسِ لَامِ فِعْلِهِ فِي آخِرِهِ، وَبِنَاؤُهُ لِمُبَالَغَةِ اللَّازِمِ؛ لِأَنَّهُ يُقَالُ: قَعِسَ الرَّجُلُ إِذَا أَخْرَجَ صَدْرَهُ وَدَخَلَ ظَهْرُهُ فِي الْجُمْلَةِ، وَيُقَالُ: اقْعَنْسَسَ الرَّجُلُ إِذَا أَخْرَجَ صَدْرَهُ وَدَخَلَ ظَهْرُهُ مُبَالَغَةً.",
+              "page": "229–230",
+              "en": "And two are for the forms attached to iḥranjama. The first bāb: ifʿanlala yafʿanlilu ifʿinlālan; its model is iqʿansasa yaqʿansisu iqʿinsāsan “to thrust out the chest”. Its sign is that its past has six letters, by the addition of the hamza at its beginning, the nūn between the ʿayn and the lām, and another letter, of the same kind as the lām of its verb, at its end. It is built for intensifying the intransitive; for one says qaʿisa al-rajulu “the man stood with his chest out” when he pushes out his chest and his back goes in somewhat, and one says iqʿansasa al-rajulu “the man thrust out his chest” when he pushes out his chest and his back goes in intensely."
+            },
+            {
+              "original": "الْبَابُ الثَّانِي: افْعَنْلَى يَفْعَنْلِي افْعِنْلَاءً، مَوْزُونُهُ اسْلَنْقَى يَسْلَنْقِي اسْلِنْقَاءً، وَعَلَامَتُهُ أَنْ يَكُونَ مَاضِيهِ عَلَى سِتَّةِ أَحْرُفٍ بِزِيَادَةِ الْهَمْزَةِ فِي أَوَّلِهِ وَالنُّونِ بَيْنَ الْعَيْنِ وَاللَّامِ وَالْيَاءِ فِي آخِرِهِ، وَبِنَاؤُهُ لِلْمُطَاوَعَةِ، نَحْوُ: سَلْقَيْتُهُ فَاسْلَنْقَى، أَيْ وَقَعَ عَلَى قَفَاهُ.",
+              "page": "230",
+              "en": "The second bāb: ifʿanlā yafʿanlī ifʿinlāʾan; its model is islanqā yaslanqī islinqāʾan “to fall on one's back”. Its sign is that its past has six letters, by the addition of the hamza at its beginning, the nūn between the ʿayn and the lām, and the yāʾ at its end. It is built for compliance, as salqaytuhu fa-islanqā “I laid him on his back, and he fell on his back”, that is, he fell on the back of his neck."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "divisions",
+      "title": "The eight divisions and the seven classes",
+      "arabic": "الْأَقْسَامُ الثَّمَانِيَةُ وَأَقْسَامُ السَّبْعَةِ",
+      "transliteration": "al-aqsām al-thamāniya wa-aqsām al-sabʿa",
+      "lessons": [
+        {
+          "n": 13,
+          "title": "The eight divisions of the verb",
+          "arabic": "الْأَقْسَامُ الثَّمَانِيَةُ",
+          "transliteration": "al-aqsām al-thamāniya",
+          "pages": "230–231",
+          "body": [
+            "After the bābs the book sorts every verb that falls under them in another way, into eight divisions, by three questions. Is it three-letter or four-letter? Bare or augmented? Sound (sālim) or not? Two answers to each of three questions give eight.",
+            "The eight with the book's examples: three-letter, bare, sound: karuma, “to be noble”; three-letter, bare, not sound: waʿada, “to promise”; four-letter, bare, sound: daḥraja; four-letter, bare, not sound: waswasa, “to whisper”; three-letter, augmented, sound: akrama; three-letter, augmented, not sound: awʿada, “to threaten”; four-letter, augmented, sound: tadaḥraja; four-letter, augmented, not sound: tawaswasa.",
+            "“Not sound” here means that a root letter is weak, a hamza, or doubled, as the next chapter explains: waʿada and waswasa have a wāw among their root letters. Notice that the examples come in pairs that differ only in this one point: karuma and waʿada, akrama and awʿada, daḥraja and waswasa, tadaḥraja and tawaswasa. The same bāb can hold sound and weak verbs alike; the bāb gives the pattern, the root gives the soundness.",
+            "The conjugation tool works only in the sound divisions, and of the three-letter verb, bare and augmented. Every lesson that shows a weak verb takes its forms from a print."
+          ],
+          "terms": [
+            {
+              "arabic": "الْأَقْسَامُ الثَّمَانِيَةُ",
+              "transliteration": "al-aqsām al-thamāniya",
+              "en": "the eight divisions of the verb"
+            },
+            {
+              "arabic": "السَّالِمُ",
+              "transliteration": "al-sālim",
+              "en": "sound: no weak letter, hamza or doubling in the root"
+            },
+            {
+              "arabic": "غَيْرُ السَّالِمِ",
+              "transliteration": "ghayr al-sālim",
+              "en": "not sound"
+            },
+            {
+              "arabic": "الْمُجَرَّدُ وَالْمَزِيدُ فِيهِ",
+              "transliteration": "al-mujarrad wa-l-mazīd fīhi",
+              "en": "bare and augmented"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "كَرُمَ — وَعَدَ",
+              "en": "karuma, sound; waʿada, not sound: two bare three-letter verbs",
+              "after": 1
+            },
+            {
+              "arabic": "أَكْرَمَ — أَوْعَدَ",
+              "en": "akrama, sound; awʿada, not sound: two augmented three-letter verbs",
+              "after": 1
+            },
+            {
+              "arabic": "دَحْرَجَ — وَسْوَسَ",
+              "en": "daḥraja, sound; waswasa, not sound: two bare four-letter verbs",
+              "after": 1
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 1,
+            "grid": {
+              "caption": "The eight divisions with the book's examples",
+              "head": [
+                "Division",
+                "Sound",
+                "Not sound"
+              ],
+              "rows": [
+                [
+                  "three-letter, bare",
+                  "كَرُمَ",
+                  "وَعَدَ"
+                ],
+                [
+                  "four-letter, bare",
+                  "دَحْرَجَ",
+                  "وَسْوَسَ"
+                ],
+                [
+                  "three-letter, augmented",
+                  "أَكْرَمَ",
+                  "أَوْعَدَ"
+                ],
+                [
+                  "four-letter, augmented",
+                  "تَدَحْرَجَ",
+                  "تَوَسْوَسَ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Place each verb in one of the eight divisions: naṣara; istakhraja; waswasa; tadaḥraja; waʿada.",
+              "arabic": "نَصَرَ — اسْتَخْرَجَ — وَسْوَسَ — تَدَحْرَجَ — وَعَدَ",
+              "answer": "Naṣara: three-letter, bare, sound. Istakhraja: three-letter, augmented, sound. Waswasa: four-letter, bare, not sound. Tadaḥraja: four-letter, augmented, sound. Waʿada: three-letter, bare, not sound."
+            },
+            {
+              "prompt": "Which three questions give the eight divisions?",
+              "answer": "Three-letter or four-letter? Bare or augmented? Sound or not sound? Two answers to each of three questions make eight."
+            },
+            {
+              "prompt": "Why are waʿada and waswasa “not sound”?",
+              "arabic": "وَعَدَ — وَسْوَسَ",
+              "answer": "A root letter is weak: the wāw of waʿada (its fāʾ), and the wāws of waswasa."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-13-1",
+              "prompt": "How many divisions does the Binā give in this chapter?",
+              "options": [
+                "Seven",
+                "Eight",
+                "Six",
+                "Thirty-five"
+              ],
+              "answer": 1,
+              "explanation": "By three questions with two answers each.",
+              "terms": []
+            },
+            {
+              "id": "bina-13-2",
+              "prompt": "Waʿada is…",
+              "arabic": "وَعَدَ",
+              "options": [
+                "three-letter, bare, sound",
+                "four-letter, bare",
+                "three-letter, bare, not sound",
+                "augmented"
+              ],
+              "answer": 2,
+              "explanation": "Its fāʾ is a wāw.",
+              "terms": []
+            },
+            {
+              "id": "bina-13-3",
+              "prompt": "Tawaswasa is…",
+              "arabic": "تَوَسْوَسَ",
+              "options": [
+                "three-letter, augmented, sound",
+                "four-letter, bare, sound",
+                "three-letter, bare, not sound",
+                "four-letter, augmented, not sound"
+              ],
+              "answer": 3,
+              "explanation": "Waswasa with a tāʾ added.",
+              "terms": []
+            },
+            {
+              "id": "bina-13-4",
+              "prompt": "What does “not sound” (ghayr sālim) mean here?",
+              "options": [
+                "A root letter is weak, a hamza, or doubled",
+                "It is passive",
+                "It is intransitive",
+                "It has added letters"
+              ],
+              "answer": 0,
+              "explanation": "The next chapter gives the seven classes.",
+              "terms": []
+            },
+            {
+              "id": "bina-13-5",
+              "prompt": "Which pair differs only in soundness?",
+              "options": [
+                "Akrama and daḥraja",
+                "Akrama and awʿada",
+                "Karuma and akrama",
+                "Daḥraja and tadaḥraja"
+              ],
+              "answer": 1,
+              "explanation": "Both augmented three-letter verbs.",
+              "terms": []
+            },
+            {
+              "id": "bina-13-6",
+              "prompt": "Daḥraja belongs to…",
+              "arabic": "دَحْرَجَ",
+              "options": [
+                "three-letter, augmented, sound",
+                "four-letter, augmented",
+                "four-letter, bare, sound",
+                "three-letter, bare"
+              ],
+              "answer": 2,
+              "explanation": "All four letters are root letters, none weak.",
+              "terms": []
+            },
+            {
+              "id": "bina-13-7",
+              "prompt": "In which divisions does the conjugation tool work?",
+              "options": [
+                "All eight",
+                "The four-letter verb only",
+                "The weak verb only",
+                "The sound three-letter verb, bare and augmented"
+              ],
+              "answer": 3,
+              "explanation": "Weak forms come from a print.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "ثُمَّ اعْلَمْ أَنَّ الْفِعْلَ الْمُنْحَصِرَ فِي هَذِهِ الْأَبْوَابِ إِمَّا ثُلَاثِيٌّ مُجَرَّدٌ سَالِمٌ نَحْوُ: كَرُمَ، وَإِمَّا ثُلَاثِيٌّ مُجَرَّدٌ غَيْرُ سَالِمٍ نَحْوُ: وَعَدَ، وَإِمَّا رُبَاعِيٌّ مُجَرَّدٌ سَالِمٌ نَحْوُ: دَحْرَجَ، وَإِمَّا رُبَاعِيٌّ مُجَرَّدٌ غَيْرُ سَالِمٍ نَحْوُ: وَسْوَسَ، وَإِمَّا ثُلَاثِيٌّ مَزِيدٌ فِيهِ سَالِمٌ نَحْوُ: أَكْرَمَ، وَإِمَّا ثُلَاثِيٌّ مَزِيدٌ فِيهِ غَيْرُ سَالِمٍ نَحْوُ: أَوْعَدَ، وَإِمَّا رُبَاعِيٌّ مَزِيدٌ فِيهِ سَالِمٌ نَحْوُ: تَدَحْرَجَ، وَإِمَّا رُبَاعِيٌّ مَزِيدٌ فِيهِ غَيْرُ سَالِمٍ نَحْوُ: تَوَسْوَسَ. وَيُقَالُ لِهَذِهِ الْأَقْسَامِ: الْأَقْسَامُ الثَّمَانِيَةُ.",
+              "page": "230–231",
+              "en": "Then know that the verb contained in these bābs is either bare triliteral and wholly sound (sālim), as karuma “to be noble”; or bare triliteral and not wholly sound, as waʿada “to promise”; or bare quadriliteral and wholly sound, as daḥraja “to roll”; or bare quadriliteral and not wholly sound, as waswasa “to whisper evil”; or augmented triliteral and wholly sound, as akrama “to honour”; or augmented triliteral and not wholly sound, as awʿada “to threaten”; or augmented quadriliteral and wholly sound, as tadaḥraja “to roll [of itself]”; or augmented quadriliteral and not wholly sound, as tawaswasa “to be beset by whispers”. These divisions are called the eight divisions."
+            }
+          ]
+        },
+        {
+          "n": 14,
+          "title": "The seven classes: sound and weak",
+          "arabic": "أَقْسَامُ السَّبْعَةِ: الصَّحِيحُ وَالْمُعْتَلُّ",
+          "transliteration": "aqsām al-sabʿa: al-ṣaḥīḥ wa-l-muʿtall",
+          "pages": "231–232",
+          "body": [
+            "The last sorting is by the letters of the root, into seven classes, and it is the one used in every later book of ṣarf. The sound verb (ṣaḥīḥ) is the one “in whose fāʾ, ʿayn and lām there is no weak letter (wāw, yāʾ, alif), no hamza and no doubling”: naṣara. Note that the Binā's ṣaḥīḥ is the strict one, which other books call sālim; some books call a verb with a hamza or doubling ṣaḥīḥ too.",
+            "The weak verbs, by the place of the weak letter. The mithāl, weak in its fāʾ: waʿada, yasara (it “resembles” the sound verb in its past, hence the name). The ajwaf, “hollow”, weak in its ʿayn: qāla, kāla. The nāqiṣ, “defective”, weak in its lām: ghazā, ramā; the print writes ghazā with a yāʾ, though its root ends in a wāw.",
+            "The lafīf, “wrapped”, has two weak letters, in two ways. Joined (maqrūn), the ʿayn and the lām both weak, side by side: ṭawā, qawiya. Separated (mafrūq), the fāʾ and the lām weak, with a sound letter between: waqā yaqī, “to protect”, whose present has already lost the wāw of its root.",
+            "Why does this matter? Because the weak letters change: they turn into one another, drop, or take no vowel. Qāla is from q-w-l, but its wāw has become an alif; ramā is from r-m-y, with its yāʾ written as alif. The rules of these changes (iʿlāl) fill the later books, al-Maqṣūd and al-ʿIzzī, and The Nahwi's conjugation tool leaves them aside: it gives sound roots only."
+          ],
+          "terms": [
+            {
+              "arabic": "الصَّحِيحُ",
+              "transliteration": "al-ṣaḥīḥ",
+              "en": "sound: no weak letter, hamza or doubling (here)"
+            },
+            {
+              "arabic": "الْمِثَالُ",
+              "transliteration": "al-mithāl",
+              "en": "weak in its fāʾ: waʿada"
+            },
+            {
+              "arabic": "الْأَجْوَفُ",
+              "transliteration": "al-ajwaf",
+              "en": "hollow, weak in its ʿayn: qāla"
+            },
+            {
+              "arabic": "النَّاقِصُ",
+              "transliteration": "al-nāqiṣ",
+              "en": "defective, weak in its lām: ramā"
+            },
+            {
+              "arabic": "اللَّفِيفُ الْمَقْرُونُ وَالْمَفْرُوقُ",
+              "transliteration": "al-lafīf al-maqrūn wa-l-mafrūq",
+              "en": "two weak letters, joined or separated"
+            },
+            {
+              "arabic": "حُرُوفُ الْعِلَّةِ",
+              "transliteration": "ḥurūf al-ʿilla",
+              "en": "the weak letters: wāw, yāʾ, alif"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "وَعَدَ — يَسَرَ",
+              "en": "waʿada, yasara: mithāl, weak in the fāʾ",
+              "after": 1
+            },
+            {
+              "arabic": "قَالَ — كَالَ",
+              "en": "qāla, kāla: ajwaf, weak in the ʿayn",
+              "after": 1
+            },
+            {
+              "arabic": "غَزَى — رَمَى",
+              "en": "ghazā, ramā: nāqiṣ, weak in the lām (written as in the print)",
+              "after": 1
+            },
+            {
+              "arabic": "طَوَى — قَوِيَ — وَقَى يَقِي",
+              "en": "ṭawā, qawiya: lafīf joined; waqā yaqī: lafīf separated",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "tree",
+            "after": 2,
+            "focus": "With a weak letter",
+            "tree": {
+              "label": "The seven classes",
+              "ar": "أَقْسَامُ السَّبْعَةِ",
+              "children": [
+                {
+                  "label": "Sound (ṣaḥīḥ)",
+                  "ar": "نَصَرَ"
+                },
+                {
+                  "label": "With a weak letter",
+                  "ar": "الْمُعْتَلُّ",
+                  "children": [
+                    {
+                      "label": "mithāl: in the fāʾ",
+                      "ar": "وَعَدَ"
+                    },
+                    {
+                      "label": "ajwaf: in the ʿayn",
+                      "ar": "قَالَ"
+                    },
+                    {
+                      "label": "nāqiṣ: in the lām",
+                      "ar": "رَمَى"
+                    },
+                    {
+                      "label": "lafīf joined",
+                      "ar": "طَوَى"
+                    },
+                    {
+                      "label": "lafīf separated",
+                      "ar": "وَقَى"
+                    }
+                  ]
+                },
+                {
+                  "label": "Doubled (muḍāʿaf)",
+                  "ar": "مَدَّ"
+                },
+                {
+                  "label": "With hamza (mahmūz)",
+                  "ar": "أَخَذَ"
+                }
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Name the class of each verb and the weak letter's place: waʿada; qāla; ramā; ṭawā; waqā.",
+              "arabic": "وَعَدَ — قَالَ — رَمَى — طَوَى — وَقَى",
+              "answer": "Waʿada: mithāl (wāw in the fāʾ). Qāla: ajwaf (weak ʿayn). Ramā: nāqiṣ (weak lām). Ṭawā: lafīf maqrūn (weak ʿayn and lām). Waqā: lafīf mafrūq (weak fāʾ and lām)."
+            },
+            {
+              "prompt": "What is the difference between the joined and the separated lafīf? Give the book's examples.",
+              "answer": "Joined (maqrūn): the two weak letters stand side by side, the ʿayn and the lām (ṭawā, qawiya). Separated (mafrūq): the fāʾ and the lām are weak, with a sound ʿayn between (waqā yaqī)."
+            },
+            {
+              "prompt": "Why is naṣara ṣaḥīḥ in the Binā's sense, but akhadha not?",
+              "arabic": "نَصَرَ — أَخَذَ",
+              "answer": "The Binā's ṣaḥīḥ has no weak letter, no hamza and no doubling. Naṣara has none; akhadha has a hamza as its fāʾ, so it is mahmūz."
+            },
+            {
+              "prompt": "Which of these can the conjugation tool give in full: kataba, qāla, ramā, jalasa?",
+              "answer": "Kataba and jalasa, which are sound. Qāla (ajwaf) and ramā (nāqiṣ) are weak; their forms come from a print."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-14-1",
+              "prompt": "What is the Binā's sound verb (ṣaḥīḥ)?",
+              "options": [
+                "Any verb without a weak letter",
+                "Any bare verb",
+                "No weak letter, hamza or doubling in the root",
+                "Any transitive verb"
+              ],
+              "answer": 2,
+              "explanation": "Its strict sense, which other books call sālim.",
+              "terms": []
+            },
+            {
+              "id": "bina-14-2",
+              "prompt": "Qāla is…",
+              "arabic": "قَالَ",
+              "options": [
+                "mithāl",
+                "nāqiṣ",
+                "lafīf",
+                "ajwaf, weak in its ʿayn"
+              ],
+              "answer": 3,
+              "explanation": "Root q-w-l.",
+              "terms": []
+            },
+            {
+              "id": "bina-14-3",
+              "prompt": "Waʿada is…",
+              "arabic": "وَعَدَ",
+              "options": [
+                "mithāl, weak in its fāʾ",
+                "ajwaf",
+                "nāqiṣ",
+                "mahmūz"
+              ],
+              "answer": 0,
+              "explanation": "Its fāʾ is a wāw.",
+              "terms": []
+            },
+            {
+              "id": "bina-14-4",
+              "prompt": "Which verb is lafīf mafrūq?",
+              "options": [
+                "Ṭawā",
+                "Waqā",
+                "Qawiya",
+                "Ramā"
+              ],
+              "answer": 1,
+              "explanation": "Weak fāʾ and lām, separated by the qāf.",
+              "terms": []
+            },
+            {
+              "id": "bina-14-5",
+              "prompt": "What are the weak letters?",
+              "options": [
+                "Hamza and nūn",
+                "The letters of the throat",
+                "Wāw, yāʾ and alif",
+                "Alif, lām, mīm"
+              ],
+              "answer": 2,
+              "explanation": "Ḥurūf al-ʿilla.",
+              "terms": []
+            },
+            {
+              "id": "bina-14-6",
+              "prompt": "Ramā is…",
+              "arabic": "رَمَى",
+              "options": [
+                "ajwaf",
+                "mithāl",
+                "muḍāʿaf",
+                "nāqiṣ, weak in its lām"
+              ],
+              "answer": 3,
+              "explanation": "Root r-m-y.",
+              "terms": []
+            },
+            {
+              "id": "bina-14-7",
+              "prompt": "Why does the conjugation tool give sound roots only?",
+              "options": [
+                "Weak letters change by rules (iʿlāl) the later books teach",
+                "Weak verbs are rare",
+                "Weak verbs have no past",
+                "Weak verbs are nouns"
+              ],
+              "answer": 0,
+              "explanation": "Al-Maqṣūd and al-ʿIzzī take them up.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "ثُمَّ اعْلَمْ أَنَّ كُلَّ فِعْلٍ إِمَّا صَحِيحٌ، وَهُوَ الَّذِي لَيْسَ فِي مُقَابَلَةِ الْفَاءِ وَالْعَيْنِ وَاللَّامِ حَرْفٌ مِنْ حُرُوفِ الْعِلَّةِ، وَهِيَ الْوَاوُ وَالْيَاءُ وَالْأَلِفُ، وَالْهَمْزَةُ وَالتَّضْعِيفُ، نَحْوُ: نَصَرَ. وَإِمَّا مِثَالٌ، وَهُوَ الَّذِي يَكُونُ فِي مُقَابَلَةِ فَائِهِ حَرْفٌ مِنْ حُرُوفِ الْعِلَّةِ، نَحْوُ: وَعَدَ وَيَسَرَ. وَإِمَّا أَجْوَفُ، وَهُوَ الَّذِي يَكُونُ فِي مُقَابَلَةِ عَيْنِهِ حَرْفٌ مِنْ حُرُوفِ الْعِلَّةِ، نَحْوُ: قَالَ وَكَالَ.",
+              "page": "231–232",
+              "en": "Then know that every verb is either sound (ṣaḥīḥ), which is that in which there is no letter of weakness in the place of the fāʾ, the ʿayn and the lām (these are the wāw, the yāʾ and the alif), nor a hamza or a doubling, as naṣara “to help”; or mithāl, which is that in which there is a letter of weakness in the place of its fāʾ, as waʿada “to promise” and yasara “to be easy”; or ajwaf, which is that in which there is a letter of weakness in the place of its ʿayn, as qāla “to say” and ka-ila “to measure”."
+            },
+            {
+              "original": "وَإِمَّا نَاقِصٌ، وَهُوَ الَّذِي يَكُونُ فِي مُقَابَلَةِ لَامِهِ حَرْفٌ مِنْ حُرُوفِ الْعِلَّةِ، نَحْوُ: غَزَى وَرَمَى. وَإِمَّا لَفِيفٌ، وَهُوَ الَّذِي يَكُونُ فِيهِ حَرْفَانِ مِنْ حُرُوفِ الْعِلَّةِ، وَهُوَ عَلَى قِسْمَيْنِ: الْأَوَّلُ اللَّفِيفُ الْمَقْرُونُ، وَهُوَ الَّذِي يَكُونُ فِي مُقَابَلَةِ عَيْنِهِ وَلَامِهِ حَرْفَانِ مِنْ هَذِهِ الْحُرُوفِ، نَحْوُ: طَوَى وَقَوِيَ، وَالثَّانِي اللَّفِيفُ الْمَفْرُوقُ، وَهُوَ الَّذِي يَكُونُ فِي مُقَابَلَةِ فَائِهِ وَلَامِهِ حَرْفَانِ مِنْ هَذِهِ الْحُرُوفِ، نَحْوُ: وَقَى يَقِي.",
+              "page": "232",
+              "en": "Or nāqiṣ, which is that in which there is a letter of weakness in the place of its lām, as ghazā “to raid” and ramā “to throw”; or lafīf, which is that in which there are two letters of weakness, and it is of two divisions: the first is the joined lafīf (al-lafīf al-maqrūn), which is that in which two of these letters are in the place of its ʿayn and its lām, as ṭawā “to fold” and qawiya “to be strong”; the second is the separated lafīf (al-lafīf al-mafrūq), which is that in which two of these letters are in the place of its fāʾ and its lām, as waqā yaqī “to guard”."
+            }
+          ]
+        },
+        {
+          "n": 15,
+          "title": "The doubled verb and assimilation",
+          "arabic": "الْمُضَاعَفُ وَالْإِدْغَامُ",
+          "transliteration": "al-muḍāʿaf wa-l-idghām",
+          "pages": "233–234",
+          "body": [
+            "The doubled verb (muḍāʿaf) is the one “whose ʿayn and lām are of one kind”: madda, “to stretch”. Its base is madada; the vowel of the first dāl was dropped, and then it was assimilated into the second. Assimilation (idghām) is “putting one of two like letters into the other”, so that they are said as one doubled letter, with a shadda: madda.",
+            "Assimilation is of three kinds. Obligatory (wājib): when both like letters have a vowel, or the first has a sukūn and the second a vowel: madda yamuddu. Here one must assimilate; madada and yamdudu are not said.",
+            "Permitted (jāʾiz): when the first has a vowel and the second a sukūn that is only accidental, as in jazm: lam yamudda, from lam yamdud. The vowel of the first dāl moved to the mīm, two sukūns met, and the second dāl was given a vowel, a ḍamma, a fatḥa or a kasra, “because its sukūn is accidental”: lam yamuddu, lam yamudda, lam yamuddi. Or one leaves it unassimilated: lam yamdud. Both are correct Arabic.",
+            "Impossible (mumtaniʿ): when the second has a sukūn that is original, as before the moving pronouns of the past: madadtu, “I stretched”, madadna, “they (women) stretched”. The dāl before -tu and -na is always without a vowel, so the two dāls stay apart. This is why the doubled verb looks doubled in some persons (madda, yamuddu) and undoubled in others (madadtu, madadna).",
+            "The three kinds rest on one idea: two like letters next to each other merge when nothing prevents it, may merge when the obstacle is passing, and cannot merge when it is permanent."
+          ],
+          "terms": [
+            {
+              "arabic": "الْمُضَاعَفُ",
+              "transliteration": "al-muḍāʿaf",
+              "en": "the doubled verb: ʿayn and lām alike"
+            },
+            {
+              "arabic": "الْإِدْغَامُ",
+              "transliteration": "al-idghām",
+              "en": "assimilation: one like letter into the other"
+            },
+            {
+              "arabic": "وَاجِبٌ، جَائِزٌ، مُمْتَنِعٌ",
+              "transliteration": "wājib, jāʾiz, mumtaniʿ",
+              "en": "obligatory, permitted, impossible"
+            },
+            {
+              "arabic": "السُّكُونُ الْعَارِضُ",
+              "transliteration": "al-sukūn al-ʿāriḍ",
+              "en": "an accidental sukūn, as of jazm"
+            },
+            {
+              "arabic": "السُّكُونُ الْأَصْلِيُّ",
+              "transliteration": "al-sukūn al-aṣlī",
+              "en": "an original sukūn, as before -tu"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "مَدَّ — يَمُدُّ",
+              "en": "madda, yamuddu: assimilation obligatory",
+              "after": 1
+            },
+            {
+              "arabic": "لَمْ يَمُدَّ — لَمْ يَمْدُدْ",
+              "en": "lam yamudda or lam yamdud: assimilation permitted",
+              "after": 2
+            },
+            {
+              "arabic": "مَدَدْتُ — مَدَدْنَ",
+              "en": "madadtu, madadna: assimilation impossible",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The three kinds of assimilation",
+              "head": [
+                "Kind",
+                "The two like letters",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "obligatory",
+                  "both vowelled, or sukūn then vowel",
+                  "مَدَّ يَمُدُّ"
+                ],
+                [
+                  "permitted",
+                  "vowel, then an accidental sukūn",
+                  "لَمْ يَمُدَّ · لَمْ يَمْدُدْ"
+                ],
+                [
+                  "impossible",
+                  "vowel, then an original sukūn",
+                  "مَدَدْتُ · مَدَدْنَ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "What is the base of madda, and what two steps make it madda?",
+              "arabic": "مَدَّ",
+              "answer": "The base is madada. The vowel of the first dāl is dropped (madda without vowel on the first dāl), and the first dāl is assimilated into the second: madda, with a shadda."
+            },
+            {
+              "prompt": "Obligatory, permitted or impossible? madda; madadtu; lam yamudda; yamuddu.",
+              "arabic": "مَدَّ — مَدَدْتُ — لَمْ يَمُدَّ — يَمُدُّ",
+              "answer": "Madda: obligatory. Madadtu: impossible (original sukūn before -tu). Lam yamudda: permitted (accidental sukūn of jazm). Yamuddu: obligatory."
+            },
+            {
+              "prompt": "Give the four ways the Binā allows for “he did not stretch”.",
+              "answer": "Lam yamdud (unassimilated), and assimilated with any of the three vowels: lam yamuddu, lam yamudda, lam yamuddi."
+            },
+            {
+              "prompt": "Why can the dāls of madadtu never merge?",
+              "arabic": "مَدَدْتُ",
+              "answer": "The second dāl has an original sukūn before the moving pronoun -tu; it can never take a vowel, so it cannot carry the shadda of assimilation."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-15-1",
+              "prompt": "What is the doubled verb?",
+              "options": [
+                "One with a doubled ʿayn added",
+                "One with two weak letters",
+                "One with a hamza",
+                "One whose ʿayn and lām are alike"
+              ],
+              "answer": 3,
+              "explanation": "Madda, from madada.",
+              "terms": []
+            },
+            {
+              "id": "bina-15-2",
+              "prompt": "What is assimilation (idghām)?",
+              "options": [
+                "Putting one of two like letters into the other",
+                "Dropping a weak letter",
+                "Changing a wāw into an alif",
+                "Adding a hamza"
+              ],
+              "answer": 0,
+              "explanation": "Said as one doubled letter.",
+              "terms": []
+            },
+            {
+              "id": "bina-15-3",
+              "prompt": "Madadtu shows assimilation that is…",
+              "arabic": "مَدَدْتُ",
+              "options": [
+                "obligatory",
+                "impossible",
+                "permitted",
+                "optional only in poetry"
+              ],
+              "answer": 1,
+              "explanation": "The second dāl has an original sukūn.",
+              "terms": []
+            },
+            {
+              "id": "bina-15-4",
+              "prompt": "Lam yamudda and lam yamdud are…",
+              "options": [
+                "both wrong",
+                "only the first correct",
+                "both correct: assimilation is permitted",
+                "only the second correct"
+              ],
+              "answer": 2,
+              "explanation": "The sukūn of jazm is accidental.",
+              "terms": []
+            },
+            {
+              "id": "bina-15-5",
+              "prompt": "Which vowels may the last dāl of lam yamudd- take?",
+              "options": [
+                "Only fatḥa",
+                "Only kasra",
+                "None",
+                "Ḍamma, fatḥa or kasra"
+              ],
+              "answer": 3,
+              "explanation": "Because its sukūn is accidental.",
+              "terms": []
+            },
+            {
+              "id": "bina-15-6",
+              "prompt": "Yamuddu shows assimilation that is…",
+              "arabic": "يَمُدُّ",
+              "options": [
+                "obligatory",
+                "impossible",
+                "permitted",
+                "absent"
+              ],
+              "answer": 0,
+              "explanation": "The first dāl had a sukūn and the second a vowel.",
+              "terms": []
+            },
+            {
+              "id": "bina-15-7",
+              "prompt": "What is an original sukūn?",
+              "options": [
+                "The sukūn of jazm",
+                "One that never changes, as before -tu",
+                "The sukūn of a pause",
+                "Any sukūn"
+              ],
+              "answer": 1,
+              "explanation": "It blocks assimilation.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَإِمَّا مُضَاعَفٌ، وَهُوَ الَّذِي يَكُونُ عَيْنُهُ وَلَامُهُ مِنْ جِنْسٍ وَاحِدٍ، نَحْوُ: مَدَّ، أَصْلُهُ مَدَدَ، حُذِفَتْ حَرَكَةُ الدَّالِ الْأُولَى، ثُمَّ أُدْغِمَتْ فِي الدَّالِ الثَّانِيَةِ. وَالْإِدْغَامُ: إِدْخَالُ أَحَدِ الْمُتَجَانِسَيْنِ فِي الْآخَرِ، وَهُوَ عَلَى ثَلَاثَةِ أَنْوَاعٍ.",
+              "page": "233",
+              "en": "Or muḍāʿaf, which is that whose ʿayn and lām are of one kind, as madda “to stretch”: its origin is madada; the vowel of the first dāl was dropped, and then it was assimilated into the second dāl. Assimilation (idghām) is putting one of two like letters into the other, and it is of three kinds."
+            },
+            {
+              "original": "النَّوْعُ الْأَوَّلُ وَاجِبٌ، وَهُوَ أَنْ يَكُونَ الْحَرْفَانِ الْمُتَجَانِسَانِ مُتَحَرِّكَيْنِ، أَوْ يَكُونَ الْحَرْفُ الْأَوَّلُ سَاكِنًا وَالثَّانِي مُتَحَرِّكًا، نَحْوُ: مَدَّ يَمُدُّ. النَّوْعُ الثَّانِي جَائِزٌ، وَهُوَ أَنْ يَكُونَ الْحَرْفُ الْأَوَّلُ مِنَ الْمُتَجَانِسَيْنِ مُتَحَرِّكًا وَالْحَرْفُ الثَّانِي سَاكِنًا بِسُكُونٍ عَارِضٍ، نَحْوُ: لَمْ يَمُدَّ بِحَرَكَاتِ الدَّالِ، أَصْلُهُ لَمْ يَمْدُدْ، فَنُقِلَتْ حَرَكَةُ الدَّالِ الْأُولَى إِلَى الْمِيمِ، فَاجْتَمَعَ السَّاكِنَانِ، ثُمَّ حُرِّكَتِ الدَّالُ الثَّانِيَةُ إِمَّا بِالضَّمَّةِ أَوْ بِالْفَتْحَةِ أَوْ بِالْكَسْرَةِ؛ لِكَوْنِ سُكُونِهَا عَارِضًا.",
+              "page": "233–234",
+              "en": "The first kind is necessary: that is when the two like letters are both vowelled, or the first letter is unvowelled and the second vowelled, as madda yamuddu. The second kind is permitted: that is when the first of the two like letters is vowelled and the second unvowelled with an accidental sukūn, as lam yamudda with any of the vowels on the dāl; its origin is lam yamdud: the vowel of the first dāl was moved to the mīm, so two unvowelled letters met; then the second dāl was given a vowel, either ḍamma or fatḥa or kasra, because its sukūn is accidental."
+            },
+            {
+              "original": "النَّوْعُ الثَّالِثُ مُمْتَنِعٌ، وَهُوَ أَنْ يَكُونَ الْحَرْفُ الْأَوَّلُ مِنَ الْمُتَجَانِسَيْنِ مُتَحَرِّكًا وَالثَّانِي سَاكِنًا بِسُكُونٍ أَصْلِيٍّ، نَحْوُ: مَدَدْتُ وَمَدَدْنَ.",
+              "page": "234",
+              "en": "The third kind is impossible: that is when the first of the two like letters is vowelled and the second unvowelled with an original sukūn, as madadtu “I stretched” and madadna “they (f.) stretched”."
+            }
+          ]
+        },
+        {
+          "n": 16,
+          "title": "The verb with hamza; the verse of the seven",
+          "arabic": "الْمَهْمُوزُ وَبَيْتُ السَّبْعَةِ",
+          "transliteration": "al-mahmūz wa-bayt al-sabʿa",
+          "pages": "234–235",
+          "body": [
+            "The last class is the verb with hamza (mahmūz), “one of whose root letters is a hamza”: akhadha, “to take”, saʾala, “to ask”, qaraʾa, “to read”. It is named by the place of the hamza: mahmūz al-fāʾ when the hamza is the first root letter (akhadha), mahmūz al-ʿayn when it is the second (saʾala), mahmūz al-lām when it is the third (qaraʾa).",
+            "The hamza is not a weak letter, but it is heavy, and in some forms it softens or drops, which is why the Binā sets it apart from the sound verb. Such forms are learnt from the books that treat each class, not made by the rule of the sound verb.",
+            "The seven classes are gathered, the book says, in one verse, and the verse it gives is in Persian: ṣaḥīḥ-ast, mithāl-ast, muḍāʿaf / lafīf, nāqiṣ, mahmūz, ajwaf, “it is ṣaḥīḥ, it is mithāl, muḍāʿaf, lafīf, nāqiṣ, mahmūz, ajwaf”. An Arabic primer read in Ottoman lands, ending with a Persian memory verse: the madrasa learnt in all three of its languages.",
+            "With this the Binā is done: thirty-five bābs, eight divisions, seven classes. On the Ottoman path the Maqṣūd comes next, and then al-ʿIzzī, which take the weak and doubled verbs class by class and show how their forms change."
+          ],
+          "terms": [
+            {
+              "arabic": "الْمَهْمُوزُ",
+              "transliteration": "al-mahmūz",
+              "en": "the verb with a hamza among its root letters"
+            },
+            {
+              "arabic": "مَهْمُوزُ الْفَاءِ",
+              "transliteration": "mahmūz al-fāʾ",
+              "en": "hamza as the first root letter: akhadha"
+            },
+            {
+              "arabic": "مَهْمُوزُ الْعَيْنِ",
+              "transliteration": "mahmūz al-ʿayn",
+              "en": "hamza as the second: saʾala"
+            },
+            {
+              "arabic": "مَهْمُوزُ اللَّامِ",
+              "transliteration": "mahmūz al-lām",
+              "en": "hamza as the third: qaraʾa"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "أَخَذَ — سَأَلَ — قَرَأَ",
+              "en": "akhadha, saʾala, qaraʾa: the hamza as fāʾ, ʿayn and lām",
+              "after": 0
+            },
+            {
+              "arabic": "صَحِيحَسْتْ مِثَالَسْتْ مُضَاعَفْ * لَفِيفْ نَاقِصْ مَهْمُوزْ أَجْوَفْ",
+              "en": "the Persian verse that gathers the seven classes",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "tree",
+            "after": 0,
+            "focus": "With hamza (mahmūz)",
+            "tree": {
+              "label": "The seven classes",
+              "ar": "أَقْسَامُ السَّبْعَةِ",
+              "children": [
+                {
+                  "label": "Sound (ṣaḥīḥ)",
+                  "ar": "نَصَرَ"
+                },
+                {
+                  "label": "With a weak letter",
+                  "ar": "الْمُعْتَلُّ",
+                  "children": [
+                    {
+                      "label": "mithāl",
+                      "ar": "وَعَدَ"
+                    },
+                    {
+                      "label": "ajwaf",
+                      "ar": "قَالَ"
+                    },
+                    {
+                      "label": "nāqiṣ",
+                      "ar": "رَمَى"
+                    },
+                    {
+                      "label": "lafīf",
+                      "ar": "طَوَى، وَقَى"
+                    }
+                  ]
+                },
+                {
+                  "label": "Doubled (muḍāʿaf)",
+                  "ar": "مَدَّ"
+                },
+                {
+                  "label": "With hamza (mahmūz)",
+                  "ar": "الْمَهْمُوزُ",
+                  "children": [
+                    {
+                      "label": "in the fāʾ",
+                      "ar": "أَخَذَ"
+                    },
+                    {
+                      "label": "in the ʿayn",
+                      "ar": "سَأَلَ"
+                    },
+                    {
+                      "label": "in the lām",
+                      "ar": "قَرَأَ"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Name the kind of mahmūz: akhadha; saʾala; qaraʾa.",
+              "arabic": "أَخَذَ — سَأَلَ — قَرَأَ",
+              "answer": "Akhadha: mahmūz al-fāʾ. Saʾala: mahmūz al-ʿayn. Qaraʾa: mahmūz al-lām."
+            },
+            {
+              "prompt": "Recite the seven classes in the order of the Persian verse, and give one example of each from the Binā.",
+              "answer": "Ṣaḥīḥ (naṣara), mithāl (waʿada), muḍāʿaf (madda), lafīf (ṭawā, waqā), nāqiṣ (ramā), mahmūz (akhadha), ajwaf (qāla)."
+            },
+            {
+              "prompt": "Place each verb in its class: madda; yasara; kāla; qawiya; saʾala; naṣara.",
+              "arabic": "مَدَّ — يَسَرَ — كَالَ — قَوِيَ — سَأَلَ — نَصَرَ",
+              "answer": "Madda: muḍāʿaf. Yasara: mithāl. Kāla: ajwaf. Qawiya: lafīf maqrūn. Saʾala: mahmūz al-ʿayn. Naṣara: ṣaḥīḥ."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "bina-16-1",
+              "prompt": "What is the mahmūz verb?",
+              "options": [
+                "One with a hamza among its root letters",
+                "One with a weak letter",
+                "One with a doubled letter",
+                "One with an added hamza"
+              ],
+              "answer": 0,
+              "explanation": "Akhadha, saʾala, qaraʾa.",
+              "terms": []
+            },
+            {
+              "id": "bina-16-2",
+              "prompt": "Saʾala is…",
+              "arabic": "سَأَلَ",
+              "options": [
+                "mahmūz al-fāʾ",
+                "mahmūz al-ʿayn",
+                "mahmūz al-lām",
+                "ajwaf"
+              ],
+              "answer": 1,
+              "explanation": "The hamza is its second root letter.",
+              "terms": []
+            },
+            {
+              "id": "bina-16-3",
+              "prompt": "Qaraʾa is…",
+              "arabic": "قَرَأَ",
+              "options": [
+                "mahmūz al-fāʾ",
+                "nāqiṣ",
+                "mahmūz al-lām",
+                "ṣaḥīḥ"
+              ],
+              "answer": 2,
+              "explanation": "The hamza is its third root letter.",
+              "terms": []
+            },
+            {
+              "id": "bina-16-4",
+              "prompt": "In what language is the verse that closes the Binā?",
+              "options": [
+                "Arabic",
+                "Turkish",
+                "Urdu",
+                "Persian"
+              ],
+              "answer": 3,
+              "explanation": "Ṣaḥīḥ-ast, mithāl-ast …",
+              "terms": []
+            },
+            {
+              "id": "bina-16-5",
+              "prompt": "Is the hamza a weak letter?",
+              "options": [
+                "No, but it is heavy and may soften or drop",
+                "Yes, like wāw and yāʾ",
+                "Only at the end",
+                "Only in the present"
+              ],
+              "answer": 0,
+              "explanation": "So the Binā gives it a class of its own.",
+              "terms": []
+            },
+            {
+              "id": "bina-16-6",
+              "prompt": "How many classes does the verse gather?",
+              "options": [
+                "Eight",
+                "Seven",
+                "Six",
+                "Thirty-five"
+              ],
+              "answer": 1,
+              "explanation": "Ṣaḥīḥ, mithāl, muḍāʿaf, lafīf, nāqiṣ, mahmūz, ajwaf.",
+              "terms": []
+            },
+            {
+              "id": "bina-16-7",
+              "prompt": "Which book comes next on the Ottoman path?",
+              "options": [
+                "The Alfiyya",
+                "The Ājurrūmiyya",
+                "The Maqṣūd",
+                "Qaṭr al-nadā"
+              ],
+              "answer": 2,
+              "explanation": "Then al-ʿIzzī, which take the weak verbs class by class.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَإِمَّا مَهْمُوزٌ، وَهُوَ الَّذِي يَكُونُ أَحَدُ حُرُوفِهِ الْأَصْلِيَّةِ هَمْزَةً، نَحْوُ: أَخَذَ وَسَأَلَ وَقَرَأَ. فَإِنْ كَانَتِ الْهَمْزَةُ فِي مُقَابَلَةِ فَائِهِ يُسَمَّى مَهْمُوزَ الْفَاءِ، وَإِنْ كَانَتْ فِي مُقَابَلَةِ عَيْنِهِ يُسَمَّى مَهْمُوزَ الْعَيْنِ، وَإِنْ كَانَتْ فِي مُقَابَلَةِ لَامِهِ يُسَمَّى مَهْمُوزَ اللَّامِ. وَيُقَالُ لِهَذِهِ الْأَقْسَامِ: أَقْسَامُ السَّبْعَةِ، يَجْمَعُهَا هَذَا الْبَيْتُ:",
+              "page": "234–235",
+              "en": "Or mahmūz, which is that in which one of its root letters is a hamza, as akhadha “to take”, saʾala “to ask” and qaraʾa “to read”. If the hamza is in the place of its fāʾ, it is called mahmūz al-fāʾ; if it is in the place of its ʿayn, it is called mahmūz al-ʿayn; and if it is in the place of its lām, it is called mahmūz al-lām. These divisions are called the seven divisions, and this verse gathers them:"
+            },
+            {
+              "original": "صَحِيحَسْتْ مِثَالَسْتْ مُضَاعَفْ * لَفِيفْ نَاقِصْ مَهْمُوزْ أَجْوَفْ",
+              "page": "235",
+              "en": "[In Persian:] ṣaḥīḥ-ast, mithāl-ast, muḍāʿaf / lafīf, nāqiṣ, mahmūz, ajwaf: “it is ṣaḥīḥ, it is mithāl, muḍāʿaf, / lafīf, nāqiṣ, mahmūz, ajwaf”."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

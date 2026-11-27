@@ -99,6 +99,12 @@ with this list. The concepts and their order follow the English source list, `pa
 | Form | الصِّيغَةُ | صیغہ (جمع: صیغے) | — |
 | Vowel / vowelled / unvowelled | الحَرَكَةُ / مُتَحَرِّكٌ / سَاكِنٌ | حرکت / متحرک / ساکن | — |
 | Fatḥa, ḍamma, kasra, sukūn, shadda | الفَتْحَةُ … | فتحہ (زبر)، ضمہ (پیش)، کسرہ (زیر)، سکون (جزم)، تشدید | — |
+| The model verb of a pattern (the weighed word) | المَوْزُونُ | موزون | — |
+| Regular (forms of a table) | المُطَّرِدُ | مطّرد | — |
+| The letters of the throat | حُرُوفُ الحَلْقِ | حروفِ حلقی | — |
+| Attached form (mulḥaq) / attachment (ilḥāq) | المُلْحَقُ / الإِلْحَاقُ | ملحق / الحاق | — |
+| The meanings of the bābs: transitivity, multiplying, sharing, compliance, effort, intensifying the intransitive | التَّعْدِيَةُ، التَّكْثِيرُ، المُشَارَكَةُ، المُطَاوَعَةُ، التَّكَلُّفُ، مُبَالَغَةُ اللَّازِمِ | تعدیہ، تکثیر، مشارکت، مطاوعت، تکلّف، لازم کا مبالغہ | — |
+| The eight divisions (bare / augmented, triliteral / quadriliteral, sound / not sound) | الأَقْسَامُ الثَّمَانِيَةُ | اقسامِ ثمانیہ | — |
 
 ### The verb and its tenses
 
@@ -115,6 +121,15 @@ with this list. The concepts and their order follow the English source list, `pa
 | Third / second / first person | الغَائِبُ / المُخَاطَبُ (الحَاضِرُ) / المُتَكَلِّمُ | غائب / حاضر (مخاطب) / متکلم | — |
 | The prefixes of the muḍāriʿ | حُرُوفُ المُضَارَعَةِ | علاماتِ مضارع (حروفِ اَتَین) | — |
 | The nūn of emphasis | نُونُ التَّوْكِيدِ | نونِ تاکید ثقیلہ / خفیفہ | — |
+| Negation of the past with lam (absolute denial) | جَحْدٌ مُطْلَقٌ | جحدِ مطلق | — |
+| Negation with lammā (comprehensive denial) | جَحْدٌ مُسْتَغْرِقٌ | جحدِ مستغرق | — |
+| Negation of the present (with mā) | نَفْيُ الحَالِ | نفیِ حال | — |
+| Negation of the future (with lā) / its emphatic form (with lan) | نَفْيُ الاسْتِقْبَالِ / تَأْكِيدُ نَفْيِ الاسْتِقْبَالِ | نفیِ استقبال / تاکیدِ نفیِ استقبال | — |
+| Command / prohibition to the absent (third person) | أَمْرُ الغَائِبِ / نَهْيُ الغَائِبِ | امرِ غائب / نہیِ غائب | — |
+| Command / prohibition to the one present (second person) | أَمْرُ الحَاضِرِ / نَهْيُ الحَاضِرِ | امرِ حاضر / نہیِ حاضر | — |
+| The verb of wonder (how … !) | فِعْلُ التَّعَجُّبِ | فعلِ تعجب | — |
+| The ghābir (an old name of the muḍāriʿ) | الغَابِرُ | غابر | — |
+| Complete / incomplete verb | الفِعْلُ التَّامُّ / النَّاقِصُ | فعلِ تام / فعلِ ناقص | — |
 
 ### Sound and weak
 
@@ -133,6 +148,11 @@ with this list. The concepts and their order follow the English source list, `pa
 | Change of a weak letter | الإِعْلَالُ | تعلیل (اعلال) | — |
 | Assimilation | الإِدْغَامُ | ادغام | — |
 | Replacing a letter | الإِبْدَالُ | ابدال | — |
+| The seven divisions (ṣaḥīḥ, mithāl, ajwaf, nāqiṣ, lafīf, muḍāʿaf, mahmūz) | الأَقْسَامُ السَّبْعَةُ | ہفت اقسام | — |
+| Hamza as first / second / third root letter | مَهْمُوزُ الفَاءِ / العَيْنِ / اللَّامِ | مہموز الفاء / العین / اللام | — |
+| Doubling (of the last two root letters) | التَّضْعِيفُ | تضعیف | — |
+| Two like letters / assimilation necessary, permitted, impossible | المُتَجَانِسَانِ / إِدْغَامٌ وَاجِبٌ، جَائِزٌ، مُمْتَنِعٌ | دو ہم جنس حرف / ادغامِ واجب، جائز، ممتنع | — |
+| Accidental / original sukūn | سُكُونٌ عَارِضٌ / أَصْلِيٌّ | سکونِ عارضی / اصلی | — |
 
 ### Derived nouns
 
@@ -148,6 +168,9 @@ with this list. The concepts and their order follow the English source list, `pa
 | The noun of time / of place | اسْمُ الزَّمَانِ / المَكَانِ | اسمِ ظرف: ظرفِ زمان / ظرفِ مکان | — |
 | The noun of instrument | اسْمُ الآلَةِ | اسمِ آلہ | — |
 | The intensive form | صِيغَةُ المُبَالَغَةِ | مبالغہ کا صیغہ (اسمِ مبالغہ) | — |
+| The noun of one act / of the manner | بِنَاءُ المَرَّةِ / بِنَاءُ النَّوْعِ | اسمِ مرّہ / اسمِ نوع | — |
+| The diminutive | اسْمُ التَّصْغِيرِ | اسمِ تصغیر | — |
+| The relative adjective (nisba) | الاسْمُ المَنْسُوبُ | اسمِ منسوب | — |
 
 ### Iʿrāb and bināʾ
 
@@ -166,6 +189,11 @@ with this list. The concepts and their order follow the English source list, `pa
 | Dropping | الحَذْفُ | حذف | — |
 | Implied | التَّقْدِيرُ، مُقَدَّرٌ | تقدیر، مقدّر (تقدیری) | — |
 | In the place of | فِي مَحَلِّ … | محلاً مرفوع / منصوب … | — |
+| The effect of governing | العَمَلُ | عمل | — |
+| Iʿrāb audible / implied / by place | إِعْرَابٌ لَفْظِيٌّ / تَقْدِيرِيٌّ / مَحَلِّيٌّ | اعرابِ لفظی / تقدیری / محلی | — |
+| Of complete / incomplete iʿrāb | تَامُّ الإِعْرَابِ / نَاقِصُ الإِعْرَابِ | تامُّ الاعراب / ناقصُ الاعراب | — |
+| Governed in itself / by following; the word followed | مَعْمُولٌ بِالأَصَالَةِ / بِالتَّبَعِيَّةِ؛ المَتْبُوعُ | اصالتاً / تبعاً معمول؛ متبوع | — |
+| The six nouns (the five nouns with hanū) | الأَسْمَاءُ السِّتَّةُ | اسمائے ستّہ | — |
 
 ### The sentence
 
@@ -192,6 +220,9 @@ with this list. The concepts and their order follow the English source list, `pa
 | The noun / predicate of kāna, inna | اسْمُ كَانَ … | کان کا اسم، کان کی خبر؛ اِنّ کا اسم، اِنّ کی خبر | — |
 | The lā that denies the whole kind | لَا النَّافِيَةُ لِلْجِنْسِ | لائے نفیِ جنس | — |
 | Nawāṣib / jawāzim | النَّوَاصِبُ / الجَوَازِمُ | نواصب / جوازم | — |
+| Mā and lā that resemble laysa | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | لیس کے مشابہ ما اور لا | — |
+| The complete vague noun (a number before its tamyīz) | الاسْمُ المُبْهَمُ التَّامُّ | اسمِ مبہمِ تام | — |
+| The meaning of the verb (a word that governs by it) | مَعْنَى الفِعْلِ | معنیِ فعل | — |
 
 ### The objects and other manṣūb nouns
 
@@ -205,6 +236,10 @@ with this list. The concepts and their order follow the English source list, `pa
 | The specification | التَّمْيِيزُ | تمییز (ممیَّز) | — |
 | The exception / the excepted | الاسْتِثْنَاءُ / المُسْتَثْنَى | استثنا / مستثنیٰ (مستثنیٰ منہ) | — |
 | The vocative | المُنَادَى | منادیٰ (حرفِ ندا) | — |
+| Speech affirmative / negative; complete / incomplete (in the exception) | مُوجَبٌ / مَنْفِيٌّ؛ تَامٌّ / نَاقِصٌ | موجب / منفی؛ تام / ناقص | — |
+| The disconnected exception | الاسْتِثْنَاءُ المُنْقَطِعُ | استثنائے منقطع | — |
+| The one the ḥāl belongs to | صَاحِبُ الحَالِ (ذُو الحَالِ) | ذو الحال | — |
+| The kinds of munādā: single proper name, intended / unintended indefinite, muḍāf, like the muḍāf | المُفْرَدُ العَلَمُ، النَّكِرَةُ المَقْصُودَةُ وَغَيْرُ المَقْصُودَةِ، المُضَافُ، المُشَبَّهُ بِالمُضَافِ | مفرد علَم، نکرۂ مقصودہ / غیر مقصودہ، مضاف، مشابہ بالمضاف | — |
 
 ### The followers (tawābiʿ)
 
@@ -215,6 +250,8 @@ with this list. The concepts and their order follow the English source list, `pa
 | The conjunction / its particles | العَطْفُ / حُرُوفُ العَطْفِ | عطف / حروفِ عطف؛ معطوف، معطوف علیہ | — |
 | The emphasis | التَّوْكِيدُ | تاکید (مؤکَّد) | — |
 | The substitute | البَدَلُ | بدل (مبدل منہ) | — |
+| The explicative apposition | عَطْفُ البَيَانِ | عطفِ بیان | — |
+| The kinds of badal: of the whole, of the part, of inclusion, of mistake | بَدَلُ الكُلِّ، بَدَلُ البَعْضِ، بَدَلُ الاشْتِمَالِ، بَدَلُ الغَلَطِ | بدلِ کل، بدلِ بعض، بدلِ اشتمال، بدلِ غلط | — |
 
 ## Choices between competing terms
 
@@ -227,3 +264,7 @@ with this list. The concepts and their order follow the English source list, `pa
 - The augmented forms by their maṣdar (بابِ اِفعال، بابِ تفعیل، بابِ مفاعلہ …); the bare bābs by their example
   (نصَر ینصُر، ضرَب یضرِب …).
 - مصدر has the plural مصادر; صیغہ: صیغے (oblique صیغوں); جمعِ مکسر, not جمعِ تکسیر, in running text.
+- naʿt: the books that say النَّعْت (al-Ājurrūmiyya) are translated نعت, with «نعت (صفت)» at its first mention, since in
+  everyday Urdu نعت is a poem in praise of the Prophet ﷺ; the term page and running prose say صفت.
+- Arabic examples in a translation keep their vowels; the names of particles and terms written in Urdu (اِنّ، ثُمّ، اِلّا)
+  carry only the marks a reader needs.

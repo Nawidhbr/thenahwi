@@ -18,8 +18,11 @@ file in step with this list. The layout follows the English source list, `packag
   “Zeyd'e uğradım”. Letters: ş for ش, c for ج, h for ح خ ه, k for ق ك, ğ for غ, s for ث ص س, z for ذ ز ظ, d for ض
   (as in the medrese reading), t for ط ت, v for و; ʿayn and hamza ' where they are heard in the middle; long vowels
   â, î, û; the endings written (*Zeydün, Zeyden, Zeydin*), the article as pronounced (*el-kitâbü*, *er-racülü*).
-  Fatha is read e, and a beside ح خ ص ض ط ظ ع غ ق and r (*darabe*, *nasara*, *kataa*); damma ü / u and kasra i / ı
-  likewise.
+  Fatha is e, and a when its letter is ح خ ص ض ط ظ ع غ ق ر or the next letter is ح خ ص ض ط ظ غ ق (*darabe*, *nasara*,
+  *yensuru*, *mensûrun*); damma is ü after ب ت ث د ذ ز س ش ف ك ل م ن ه unless an emphatic or guttural follows
+  (*nasartü*, *tunsaru*), otherwise u; kasra is ı after ص ض ط ظ غ ق خ (*nâsırun*), otherwise i. After a vowel the
+  article is joined (*fi'd-dâri*, *kâme'l-kavmü*), and so is Allâh (*bismillâhi*, *ilallâhi*, *billâhi*). The forms of
+  the translations are made with this rule by script, so they stay the same in every book.
 - Where the English gives an English word with its transliteration ("the doer (fāʿil)"), the Turkish term is the
   Arabic word itself, so it is written once (“fâil”); at the first mention in a definition a short Turkish
   explanation may stand in brackets (“fâil (işi yapan)”). No Western grammar words: do not use özne, yüklem, nesne,
@@ -101,6 +104,12 @@ file in step with this list. The layout follows the English source list, `packag
 | Form | الصِّيغَةُ | sîga | — |
 | Vowel / vowelled / unvowelled | الحَرَكَةُ / مُتَحَرِّكٌ / سَاكِنٌ | hareke / harekeli (müteharrik) / sâkin | — |
 | Fatḥa, ḍamma, kasra, sukūn, shadda | الفَتْحَةُ … | fetha (üstün), zamme (ötre), kesre (esre), sükûn (cezm), şedde | — |
+| The model verb of a pattern (the weighed word) | المَوْزُونُ | mevzûn | — |
+| Regular (forms of a table) | المُطَّرِدُ | muttarid | — |
+| The letters of the throat | حُرُوفُ الحَلْقِ | hurûf-ı halk | — |
+| Attached form (mulḥaq) / attachment (ilḥāq) | المُلْحَقُ / الإِلْحَاقُ | mülhak / ilhâk | — |
+| The meanings of the bābs: transitivity, multiplying, sharing, compliance, effort, intensifying the intransitive | التَّعْدِيَةُ، التَّكْثِيرُ، المُشَارَكَةُ، المُطَاوَعَةُ، التَّكَلُّفُ، مُبَالَغَةُ اللَّازِمِ | ta'diye, teksîr, müşâreket, mutâvaat, tekellüf, lâzımın mübâlağası | — |
+| The eight divisions (bare / augmented, triliteral / quadriliteral, sound / not sound) | الأَقْسَامُ الثَّمَانِيَةُ | aksâm-ı semâniye | — |
 
 ### The verb and its tenses
 
@@ -117,6 +126,15 @@ file in step with this list. The layout follows the English source list, `packag
 | Third / second / first person | الغَائِبُ / المُخَاطَبُ (الحَاضِرُ) / المُتَكَلِّمُ | gâib / muhâtab (hâzır) / mütekellim | 3. / 2. / 1. şahıs |
 | The prefixes of the muḍāriʿ | حُرُوفُ المُضَارَعَةِ | muzâraat harfleri (eneytü) | — |
 | The nūn of emphasis | نُونُ التَّوْكِيدِ | nûn-ı te'kîd-i sakîle / hafîfe | — |
+| Negation of the past with lam (absolute denial) | جَحْدٌ مُطْلَقٌ | cahd-ı mutlak | — |
+| Negation with lammā (comprehensive denial) | جَحْدٌ مُسْتَغْرِقٌ | cahd-ı müstağrak | — |
+| Negation of the present (with mā) | نَفْيُ الحَالِ | nefy-i hâl | — |
+| Negation of the future (with lā) / its emphatic form (with lan) | نَفْيُ الاسْتِقْبَالِ / تَأْكِيدُ نَفْيِ الاسْتِقْبَالِ | nefy-i istikbâl / te'kîd-i nefy-i istikbâl | — |
+| Command / prohibition to the absent (third person) | أَمْرُ الغَائِبِ / نَهْيُ الغَائِبِ | emr-i gâib / nehy-i gâib | — |
+| Command / prohibition to the one present (second person) | أَمْرُ الحَاضِرِ / نَهْيُ الحَاضِرِ | emr-i hâzır / nehy-i hâzır | — |
+| The verb of wonder (how … !) | فِعْلُ التَّعَجُّبِ | fiil-i taaccüb | — |
+| The ghābir (an old name of the muḍāriʿ) | الغَابِرُ | gâbir | — |
+| Complete / incomplete verb | الفِعْلُ التَّامُّ / النَّاقِصُ | fiil-i tâm / fiil-i nâkıs | — |
 
 ### Sound and weak
 
@@ -135,6 +153,11 @@ file in step with this list. The layout follows the English source list, `packag
 | Change of a weak letter | الإِعْلَالُ | i'lâl | — |
 | Assimilation | الإِدْغَامُ | idğâm | — |
 | Replacing a letter | الإِبْدَالُ | ibdâl | — |
+| The seven divisions (ṣaḥīḥ, mithāl, ajwaf, nāqiṣ, lafīf, muḍāʿaf, mahmūz) | الأَقْسَامُ السَّبْعَةُ | aksâm-ı seb'a | — |
+| Hamza as first / second / third root letter | مَهْمُوزُ الفَاءِ / العَيْنِ / اللَّامِ | mehmûzü'l-fâ / ayn / lâm | — |
+| Doubling (of the last two root letters) | التَّضْعِيفُ | tad'îf | — |
+| Two like letters / assimilation necessary, permitted, impossible | المُتَجَانِسَانِ / إِدْغَامٌ وَاجِبٌ، جَائِزٌ، مُمْتَنِعٌ | iki mütecânis / idğâm vâcip, câiz, mümteni' | — |
+| Accidental / original sukūn | سُكُونٌ عَارِضٌ / أَصْلِيٌّ | ârızî / aslî sükûn | — |
 
 ### Derived nouns
 
@@ -150,6 +173,9 @@ file in step with this list. The layout follows the English source list, `packag
 | The noun of time / of place | اسْمُ الزَّمَانِ / المَكَانِ | ism-i zamân / ism-i mekân | — |
 | The noun of instrument | اسْمُ الآلَةِ | ism-i âlet | — |
 | The intensive form | صِيغَةُ المُبَالَغَةِ | mübâlağa sîgası (sîga-i mübâlağa) | — |
+| The noun of one act / of the manner | بِنَاءُ المَرَّةِ / بِنَاءُ النَّوْعِ | binâ-i merre / binâ-i nev' | — |
+| The diminutive | اسْمُ التَّصْغِيرِ | ism-i tasgîr | — |
+| The relative adjective (nisba) | الاسْمُ المَنْسُوبُ | ism-i mensûb | — |
 
 ### Iʿrāb and bināʾ
 
@@ -168,6 +194,11 @@ file in step with this list. The layout follows the English source list, `packag
 | Dropping | الحَذْفُ | hazf | — |
 | Implied | التَّقْدِيرُ، مُقَدَّرٌ | takdîr, mukadder (takdîrî) | — |
 | In the place of | فِي مَحَلِّ … | mahallen merfû / mansûb … (… mahallinde) | — |
+| The effect of governing | العَمَلُ | amel | — |
+| Iʿrāb audible / implied / by place | إِعْرَابٌ لَفْظِيٌّ / تَقْدِيرِيٌّ / مَحَلِّيٌّ | lafzî / takdîrî / mahallî i'râb | — |
+| Of complete / incomplete iʿrāb | تَامُّ الإِعْرَابِ / نَاقِصُ الإِعْرَابِ | tâmmü'l-i'râb / nâkısü'l-i'râb | — |
+| Governed in itself / by following; the word followed | مَعْمُولٌ بِالأَصَالَةِ / بِالتَّبَعِيَّةِ؛ المَتْبُوعُ | asâleten / tebeiyyetle ma'mûl; metbû' | — |
+| The six nouns (the five nouns with hanū) | الأَسْمَاءُ السِّتَّةُ | esmâ-i sitte | — |
 
 ### The sentence
 
@@ -194,6 +225,9 @@ file in step with this list. The layout follows the English source list, `packag
 | The noun / predicate of kāna, inna | اسْمُ كَانَ، خَبَرُ كَانَ … | kâne'nin ismi, kâne'nin haberi; inne'nin ismi, inne'nin haberi | — |
 | The lā that denies the whole kind | لَا النَّافِيَةُ لِلْجِنْسِ | lâ-yı nefy-i cins | — |
 | Nawāṣib / jawāzim | النَّوَاصِبُ / الجَوَازِمُ | nevâsıb / cevâzim | — |
+| Mā and lā that resemble laysa | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | leyse'ye benzeyen mâ ve lâ | — |
+| The complete vague noun (a number before its tamyīz) | الاسْمُ المُبْهَمُ التَّامُّ | tam mübhem isim | — |
+| The meaning of the verb (a word that governs by it) | مَعْنَى الفِعْلِ | fiil ma'nâsı | — |
 
 ### The objects and other manṣūb nouns
 
@@ -207,6 +241,10 @@ file in step with this list. The layout follows the English source list, `packag
 | The specification | التَّمْيِيزُ | temyîz | — |
 | The exception / the excepted | الاسْتِثْنَاءُ / المُسْتَثْنَى | istisnâ / müstesnâ | — |
 | The vocative | المُنَادَى | münâdâ | seslenilen |
+| Speech affirmative / negative; complete / incomplete (in the exception) | مُوجَبٌ / مَنْفِيٌّ؛ تَامٌّ / نَاقِصٌ | mûceb / menfî; tam / nâkıs | — |
+| The disconnected exception | الاسْتِثْنَاءُ المُنْقَطِعُ | istisnâ-i munkatı' | — |
+| The one the ḥāl belongs to | صَاحِبُ الحَالِ (ذُو الحَالِ) | hâlin sâhibi (zü'l-hâl) | — |
+| The kinds of munādā: single proper name, intended / unintended indefinite, muḍāf, like the muḍāf | المُفْرَدُ العَلَمُ، النَّكِرَةُ المَقْصُودَةُ وَغَيْرُ المَقْصُودَةِ، المُضَافُ، المُشَبَّهُ بِالمُضَافِ | müfred alem, nekre-i maksûde / gayr-i maksûde, muzâf, şebîh bi'l-muzâf | — |
 
 ### The followers (tawābiʿ)
 
@@ -217,6 +255,8 @@ file in step with this list. The layout follows the English source list, `packag
 | The conjunction / its particles | العَطْفُ / حُرُوفُ العَطْفِ | atf / atf harfleri; ma'tûf, ma'tûfun aleyh | — |
 | The emphasis | التَّوْكِيدُ | te'kîd | — |
 | The substitute | البَدَلُ | bedel | — |
+| The explicative apposition | عَطْفُ البَيَانِ | atf-ı beyân | — |
+| The kinds of badal: of the whole, of the part, of inclusion, of mistake | بَدَلُ الكُلِّ، بَدَلُ البَعْضِ، بَدَلُ الاشْتِمَالِ، بَدَلُ الغَلَطِ | bedel-i küll, bedel-i ba'z, bedel-i iştimâl, bedel-i galat | — |
 
 ## Choices between competing terms
 
@@ -228,3 +268,4 @@ file in step with this list. The layout follows the English source list, `packag
 - The augmented forms by their masdar (if'âl bâbı, tef'îl bâbı, mufâale bâbı …), as in the Emsile; the bare bâbs by
   their example (nasara bâbı, daraba bâbı …).
 - “fiil-i muzâri” (not muzârî), “fâil” (not fail), “mef'ûl” (not meful).
+- Turkish suffixes after a transliterated form follow the last vowel (dahrace'ye, ihrenceme'ye).

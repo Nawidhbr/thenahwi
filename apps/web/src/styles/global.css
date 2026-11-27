@@ -2167,3 +2167,10 @@ picture img { filter: grayscale(1) contrast(1.12); }
 .figure-grid thead .ar { font-size: 1.05rem; }
 .figure-grid tbody tr:last-child :is(th, td) { border-bottom: 0; }
 .figure-grid :is(th, td):not(:first-child) { text-align: center; }
+@media (max-width: 480px) {
+  .lesson-figure:has(.figure-grid) { padding-inline: 8px; }
+  .figure-grid { font-size: 0.84rem; }
+  .figure-grid :is(th, td) { padding: 6px 4px; }
+  .figure-grid .ar { font-size: 1.08rem; }
+  .figure-grid tbody th { hyphens: auto; }
+}

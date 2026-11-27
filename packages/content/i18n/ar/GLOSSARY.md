@@ -80,6 +80,12 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Conjugation class / pattern / form | باب / وزن / صیغه | البَابُ / الوَزْنُ / الصِّيغَةُ | — |
 | Vowel / vowelled / unvowelled | حرکت / متحرّک / ساکن | الحَرَكَةُ / المُتَحَرِّكُ / السَّاكِنُ | — |
 | Fatḥa, ḍamma, kasra, sukūn, shadda | زبر، پیش، زیر، جزم، تشدید | الفَتْحَةُ، الضَّمَّةُ، الكَسْرَةُ، السُّكُونُ، الشَّدَّةُ (التَّشْدِيدُ) | — |
+| The model verb of a pattern (the weighed word) | موزون | المَوْزُونُ | — |
+| Regular (forms of a table) | مطّرد | المُطَّرِدُ | — |
+| The letters of the throat | حروف حلقی | حُرُوفُ الحَلْقِ | — |
+| Attached form (mulḥaq) / attachment (ilḥāq) | ملحق / الحاق | المُلْحَقُ / الإِلْحَاقُ | — |
+| The meanings of the bābs: transitivity, multiplying, sharing, compliance, effort, intensifying the intransitive | تعدیه، تکثیر، مشارکت، مطاوعه، تکلّف، مبالغهٔ لازم | التَّعْدِيَةُ، التَّكْثِيرُ، المُشَارَكَةُ، المُطَاوَعَةُ، التَّكَلُّفُ، مُبَالَغَةُ اللَّازِمِ | — |
+| The eight divisions (bare / augmented, triliteral / quadriliteral, sound / not sound) | اقسام هشتگانه | الأَقْسَامُ الثَّمَانِيَةُ | — |
 
 ### The verb and its tenses
 
@@ -95,6 +101,15 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | First person singular / plural | متکلّم وحده / متکلّم مع الغیر | المُتَكَلِّمُ وَحْدَهُ / المُتَكَلِّمُ مَعَ الغَيْرِ | — |
 | The prefixes of the muḍāriʿ | حروف اتین | حُرُوفُ المُضَارَعَةِ (أَتَيْنَ، أَنَيْتُ) | — |
 | The nūn of emphasis | نون تأکید ثقیله / خفیفه | نُونُ التَّوْكِيدِ الثَّقِيلَةُ / الخَفِيفَةُ | — |
+| Negation of the past with lam (absolute denial) | جحد مطلق | الجَحْدُ المُطْلَقُ | — |
+| Negation with lammā (comprehensive denial) | جحد مستغرق | الجَحْدُ المُسْتَغْرِقُ | — |
+| Negation of the present (with mā) | نفی حال | نَفْيُ الحَالِ | — |
+| Negation of the future (with lā) / its emphatic form (with lan) | نفی استقبال / تأکید نفی استقبال | نَفْيُ الاسْتِقْبَالِ / تَأْكِيدُ نَفْيِ الاسْتِقْبَالِ | — |
+| Command / prohibition to the absent (third person) | امر غائب / نهی غائب | أَمْرُ الغَائِبِ / نَهْيُ الغَائِبِ | — |
+| Command / prohibition to the one present (second person) | امر حاضر / نهی حاضر | أَمْرُ الحَاضِرِ / نَهْيُ الحَاضِرِ | — |
+| The verb of wonder (how … !) | فعل تعجّب | فِعْلُ التَّعَجُّبِ | — |
+| The ghābir (an old name of the muḍāriʿ) | غابر | الغَابِرُ | — |
+| Complete / incomplete verb | فعل تامّ / فعل ناقص | الفِعْلُ التَّامُّ / النَّاقِصُ | — |
 
 ### Sound and weak
 
@@ -107,6 +122,11 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | The weak letters | حروف علّت | حُرُوفُ العِلَّةِ | — |
 | Iʿlāl / idghām / ibdāl | تعلیل، اعلال / ادغام / ابدال | الإِعْلَالُ / الإِدْغَامُ / الإِبْدَالُ | — |
 | The seven kinds | هفت اقسام | الأَقْسَامُ السَّبْعَةُ (الأَبْوَابُ السَّبْعَةُ) | — |
+| The seven divisions (ṣaḥīḥ, mithāl, ajwaf, nāqiṣ, lafīf, muḍāʿaf, mahmūz) | اقسام هفتگانه | الأَقْسَامُ السَّبْعَةُ | — |
+| Hamza as first / second / third root letter | مهموز الفاء / العین / اللام | مَهْمُوزُ الفَاءِ / العَيْنِ / اللَّامِ | — |
+| Doubling (of the last two root letters) | تضعیف | التَّضْعِيفُ | — |
+| Two like letters / assimilation necessary, permitted, impossible | دو حرف همجنس / ادغام واجب، جایز، ممتنع | المُتَجَانِسَانِ / إِدْغَامٌ وَاجِبٌ، جَائِزٌ، مُمْتَنِعٌ | — |
+| Accidental / original sukūn | سکون عارضی / اصلی | سُكُونٌ عَارِضٌ / أَصْلِيٌّ | — |
 
 ### Derived nouns
 
@@ -119,6 +139,9 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | The noun of time / place | اسم ظرف (زمان، مکان) | اسْمُ الظَّرْفِ: اسْمُ الزَّمَانِ / اسْمُ المَكَانِ | — |
 | The noun of instrument | اسم آلت (آله) | اسْمُ الآلَةِ | — |
 | The intensive form | مبالغه | صِيغَةُ المُبَالَغَةِ | — |
+| The noun of one act / of the manner | بنای مرّه / بنای نوع | بِنَاءُ المَرَّةِ / بِنَاءُ النَّوْعِ | — |
+| The diminutive | اسم تصغیر | اسْمُ التَّصْغِيرِ | — |
+| The relative adjective (nisba) | اسم منسوب | الاسْمُ المَنْسُوبُ | — |
 
 ### Iʿrāb and bināʾ
 
@@ -131,6 +154,11 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | The governor / the governed | عامل / معمول | العَامِلُ / المَعْمُولُ | — |
 | Verbal / abstract governor | عامل لفظی / معنوی | العَامِلُ اللَّفْظِيُّ / المَعْنَوِيُّ | — |
 | Dropping / implied / in the place of | حذف / تقدیر، تقدیری / محلّی | الحَذْفُ / التَّقْدِيرُ، تَقْدِيرًا / مَحَلًّا، فِي مَحَلِّ … | — |
+| The effect of governing | عمل | العَمَلُ | — |
+| Iʿrāb audible / implied / by place | اعراب لفظی / تقدیری / محلّی | إِعْرَابٌ لَفْظِيٌّ / تَقْدِيرِيٌّ / مَحَلِّيٌّ | — |
+| Of complete / incomplete iʿrāb | تامّ‌الاعراب / ناقص‌الاعراب | تَامُّ الإِعْرَابِ / نَاقِصُ الإِعْرَابِ | — |
+| Governed in itself / by following; the word followed | معمول به اصالت / به تبعیّت؛ متبوع | مَعْمُولٌ بِالأَصَالَةِ / بِالتَّبَعِيَّةِ؛ المَتْبُوعُ | — |
+| The six nouns (the five nouns with hanū) | اسماء ستّه | الأَسْمَاءُ السِّتَّةُ | — |
 
 ### The sentence
 
@@ -152,6 +180,9 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | The lā that denies the kind | لای نفی جنس | لَا النَّافِيَةُ لِلْجِنْسِ | — |
 | Nawāṣib / jawāzim | نواصب / جوازم | النَّوَاصِبُ / الجَوَازِمُ | — |
 | Heard / analogical governors | عوامل سماعی / قیاسی | العَوَامِلُ السَّمَاعِيَّةُ / القِيَاسِيَّةُ | — |
+| Mā and lā that resemble laysa | ما و لای مشبّه به لیس | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | — |
+| The complete vague noun (a number before its tamyīz) | اسم مبهم تامّ | الاسْمُ المُبْهَمُ التَّامُّ | — |
+| The meaning of the verb (a word that governs by it) | معنای فعل | مَعْنَى الفِعْلِ | — |
 
 ### The objects and other manṣūb nouns
 
@@ -162,6 +193,10 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Ḥāl / tamyīz | حال / تمییز | الحَالُ (ذُو الحَالِ) / التَّمْيِيزُ (المُمَيَّزُ) | — |
 | Exception / the excepted | استثنا / مستثنی | الاسْتِثْنَاءُ / المُسْتَثْنَى (المُسْتَثْنَى مِنْهُ) | — |
 | The vocative | منادی | المُنَادَى | — |
+| Speech affirmative / negative; complete / incomplete (in the exception) | موجَب / منفی؛ تامّ / ناقص | مُوجَبٌ / مَنْفِيٌّ؛ تَامٌّ / نَاقِصٌ | — |
+| The disconnected exception | استثنای منقطع | الاسْتِثْنَاءُ المُنْقَطِعُ | — |
+| The one the ḥāl belongs to | ذوالحال | صَاحِبُ الحَالِ | — |
+| The kinds of munādā: single proper name, intended / unintended indefinite, muḍāf, like the muḍāf | مفرد عَلَم، نکرهٔ مقصوده / غیر مقصوده، مضاف، شبیه به مضاف | المُفْرَدُ العَلَمُ، النَّكِرَةُ المَقْصُودَةُ وَغَيْرُ المَقْصُودَةِ، المُضَافُ، المُشَبَّهُ بِالمُضَافِ | — |
 
 ### The followers (tawābiʿ)
 
@@ -169,6 +204,8 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 |---|---|---|---|
 | The followers | توابع | التَّوَابِعُ | — |
 | Naʿt / ʿaṭf / tawkīd / badal | صفت، نعت / عطف / تأکید / بدل | النَّعْتُ (الصِّفَةُ) / العَطْفُ / التَّأْكِيدُ (التَّوْكِيدُ) / البَدَلُ | — |
+| The explicative apposition | عطف بیان | عَطْفُ البَيَانِ | — |
+| The kinds of badal: of the whole, of the part, of inclusion, of mistake | بدل کل، بدل بعض، بدل اشتمال، بدل غلط | بَدَلُ الكُلِّ، بَدَلُ البَعْضِ، بَدَلُ الاشْتِمَالِ، بَدَلُ الغَلَطِ | — |
 
 ## Choices between competing terms
 

@@ -17,7 +17,9 @@ keep that file in step with this list. The layout follows the English source lis
 - **Arabic examples** inside a passage: in transliteration, then the meaning in quotation marks: *qâma Zaidun*
   “Zaid telah berdiri”. The transliteration of examples follows the same letters as the terms, but marks long vowels
   with a circumflex (â, î, û) and writes the endings (*Zaidun, Zaidan, Zaidin*), so the i'rab can be seen. The
-  article is written as pronounced: *al-kitâbu*, *ar-rajulu*, *bi-zaidin*.
+  article is written as pronounced: *al-kitâbu*, *ar-rajulu*, *bi-zaidin*; after a vowel it is joined (*fid-dâri*,
+  *bil-qaumi*, *qâmal-qaumu*), and so is Allâh (*bismillâhi*, *lillâhi*, *ilallâhi*). The forms of the translations are
+  made with this rule by script, so they stay the same in every book.
 - Where the English gives an English word with its transliteration ("the doer (fāʿil)"), the Indonesian term is the
   Arabic word itself, so it is written once (“fa'il”); at the first mention in a definition a short Indonesian
   explanation may stand in brackets (“fa'il (pelaku)”). No Latin grammar words: do not use subjek, predikat, objek,
@@ -101,6 +103,12 @@ keep that file in step with this list. The layout follows the English source lis
 | Form | الصِّيغَةُ | shighat | bentuk kata |
 | Vowel / vowelled / unvowelled | الحَرَكَةُ / مُتَحَرِّكٌ / سَاكِنٌ | harakat / berharakat (mutaharrik) / mati (sakin) | — |
 | Fatḥa, ḍamma, kasra, sukūn, shadda | الفَتْحَةُ … | fathah, dhammah, kasrah, sukun, tasydid (syaddah) | — |
+| The model verb of a pattern (the weighed word) | المَوْزُونُ | mauzun | — |
+| Regular (forms of a table) | المُطَّرِدُ | muththarid (beraturan) | — |
+| The letters of the throat | حُرُوفُ الحَلْقِ | huruf halq | — |
+| Attached form (mulḥaq) / attachment (ilḥāq) | المُلْحَقُ / الإِلْحَاقُ | mulhaq / ilhaq | — |
+| The meanings of the bābs: transitivity, multiplying, sharing, compliance, effort, intensifying the intransitive | التَّعْدِيَةُ، التَّكْثِيرُ، المُشَارَكَةُ، المُطَاوَعَةُ، التَّكَلُّفُ، مُبَالَغَةُ اللَّازِمِ | ta'diyah, taktsir, musyarakah, muthawa'ah, takalluf, mubalaghah lazim | — |
+| The eight divisions (bare / augmented, triliteral / quadriliteral, sound / not sound) | الأَقْسَامُ الثَّمَانِيَةُ | delapan bagian | — |
 
 ### The verb and its tenses
 
@@ -117,6 +125,15 @@ keep that file in step with this list. The layout follows the English source lis
 | Third / second / first person | الغَائِبُ / المُخَاطَبُ / المُتَكَلِّمُ | ghaib / mukhathab (hadhir) / mutakallim | orang ketiga / kedua / pertama |
 | The prefixes of the muḍāriʿ | حُرُوفُ المُضَارَعَةِ | huruf mudhara'ah (anaitu) | — |
 | The nūn of emphasis | نُونُ التَّوْكِيدِ | nun taukid tsaqilah / khafifah | — |
+| Negation of the past with lam (absolute denial) | جَحْدٌ مُطْلَقٌ | jahd muthlaq | — |
+| Negation with lammā (comprehensive denial) | جَحْدٌ مُسْتَغْرِقٌ | jahd mustaghriq | — |
+| Negation of the present (with mā) | نَفْيُ الحَالِ | nafi hal | — |
+| Negation of the future (with lā) / its emphatic form (with lan) | نَفْيُ الاسْتِقْبَالِ / تَأْكِيدُ نَفْيِ الاسْتِقْبَالِ | nafi istiqbal / ta'kid nafi istiqbal | — |
+| Command / prohibition to the absent (third person) | أَمْرُ الغَائِبِ / نَهْيُ الغَائِبِ | amar ghaib / nahi ghaib | — |
+| Command / prohibition to the one present (second person) | أَمْرُ الحَاضِرِ / نَهْيُ الحَاضِرِ | amar hadhir / nahi hadhir | — |
+| The verb of wonder (how … !) | فِعْلُ التَّعَجُّبِ | fi'il ta'ajjub | — |
+| The ghābir (an old name of the muḍāriʿ) | الغَابِرُ | ghabir | — |
+| Complete / incomplete verb | الفِعْلُ التَّامُّ / النَّاقِصُ | fi'il tam / fi'il naqish | — |
 
 ### Sound and weak
 
@@ -135,6 +152,11 @@ keep that file in step with this list. The layout follows the English source lis
 | Change of a weak letter | الإِعْلَالُ | i'lal | — |
 | Assimilation | الإِدْغَامُ | idgham | — |
 | Replacing a letter | الإِبْدَالُ | ibdal | — |
+| The seven divisions (ṣaḥīḥ, mithāl, ajwaf, nāqiṣ, lafīf, muḍāʿaf, mahmūz) | الأَقْسَامُ السَّبْعَةُ | tujuh bagian | — |
+| Hamza as first / second / third root letter | مَهْمُوزُ الفَاءِ / العَيْنِ / اللَّامِ | mahmuz fa' / 'ain / lam | — |
+| Doubling (of the last two root letters) | التَّضْعِيفُ | tadh'if | — |
+| Two like letters / assimilation necessary, permitted, impossible | المُتَجَانِسَانِ / إِدْغَامٌ وَاجِبٌ، جَائِزٌ، مُمْتَنِعٌ | dua huruf sejenis / idgham wajib, jaiz, mumtani' | — |
+| Accidental / original sukūn | سُكُونٌ عَارِضٌ / أَصْلِيٌّ | sukun 'aridh / ashli | — |
 
 ### Derived nouns
 
@@ -150,6 +172,9 @@ keep that file in step with this list. The layout follows the English source lis
 | The noun of time / of place | اسْمُ الزَّمَانِ / اسْمُ المَكَانِ | isim zaman / isim makan | — |
 | The noun of instrument | اسْمُ الآلَةِ | isim alat | — |
 | The intensive form | صِيغَةُ المُبَالَغَةِ | shighat mubalaghah | — |
+| The noun of one act / of the manner | بِنَاءُ المَرَّةِ / بِنَاءُ النَّوْعِ | bina' marrah / bina' nau' | — |
+| The diminutive | اسْمُ التَّصْغِيرِ | isim tashghir | — |
+| The relative adjective (nisba) | الاسْمُ المَنْسُوبُ | isim mansub | — |
 
 ### Iʿrāb and bināʾ
 
@@ -168,6 +193,11 @@ keep that file in step with this list. The layout follows the English source lis
 | Dropping | الحَذْفُ | hadzf (dibuang) | — |
 | Implied | التَّقْدِيرُ، مُقَدَّرٌ | taqdir, muqaddar (dikira-kirakan) | — |
 | In the place of | فِي مَحَلِّ … | pada tempat (fi mahalli) rafa' / nashab … | — |
+| The effect of governing | العَمَلُ | 'amal | — |
+| Iʿrāb audible / implied / by place | إِعْرَابٌ لَفْظِيٌّ / تَقْدِيرِيٌّ / مَحَلِّيٌّ | i'rab lafzhi / taqdiri / mahalli | — |
+| Of complete / incomplete iʿrāb | تَامُّ الإِعْرَابِ / نَاقِصُ الإِعْرَابِ | tam al-i'rab / naqish al-i'rab | — |
+| Governed in itself / by following; the word followed | مَعْمُولٌ بِالأَصَالَةِ / بِالتَّبَعِيَّةِ؛ المَتْبُوعُ | ma'mul secara asal / secara ikut; matbu' | — |
+| The six nouns (the five nouns with hanū) | الأَسْمَاءُ السِّتَّةُ | asma'us sittah | — |
 
 ### The sentence
 
@@ -194,6 +224,9 @@ keep that file in step with this list. The layout follows the English source lis
 | The noun / predicate of kāna, inna | اسْمُ كَانَ، خَبَرُ كَانَ … | isim kana, khabar kana; isim inna, khabar inna | — |
 | The lā that denies the whole kind | لَا النَّافِيَةُ لِلْجِنْسِ | la nafiyah lil-jinsi | — |
 | Nawāṣib / jawāzim | النَّوَاصِبُ / الجَوَازِمُ | 'amil nawashib / 'amil jawazim | yang menashabkan / yang menjazemkan |
+| Mā and lā that resemble laysa | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | mâ dan lâ yang menyerupai laisa | — |
+| The complete vague noun (a number before its tamyīz) | الاسْمُ المُبْهَمُ التَّامُّ | isim mubham yang tam | — |
+| The meaning of the verb (a word that governs by it) | مَعْنَى الفِعْلِ | makna fi'il | — |
 
 ### The objects and other manṣūb nouns
 
@@ -207,6 +240,10 @@ keep that file in step with this list. The layout follows the English source lis
 | The specification | التَّمْيِيزُ | tamyiz | penjelas yang samar |
 | The exception / the excepted | الاسْتِثْنَاءُ / المُسْتَثْنَى | istitsna' / mustatsna | pengecualian |
 | The vocative | المُنَادَى | munada | yang dipanggil |
+| Speech affirmative / negative; complete / incomplete (in the exception) | مُوجَبٌ / مَنْفِيٌّ؛ تَامٌّ / نَاقِصٌ | mujab / manfi; tam / naqish | — |
+| The disconnected exception | الاسْتِثْنَاءُ المُنْقَطِعُ | istitsna' munqathi' | — |
+| The one the ḥāl belongs to | صَاحِبُ الحَالِ (ذُو الحَالِ) | shahibul hal | — |
+| The kinds of munādā: single proper name, intended / unintended indefinite, muḍāf, like the muḍāf | المُفْرَدُ العَلَمُ، النَّكِرَةُ المَقْصُودَةُ وَغَيْرُ المَقْصُودَةِ، المُضَافُ، المُشَبَّهُ بِالمُضَافِ | mufrad 'alam, nakirah maqshudah / ghairu maqshudah, mudhaf, syabih bil-mudhaf | — |
 
 ### The followers (tawābiʿ)
 
@@ -217,6 +254,8 @@ keep that file in step with this list. The layout follows the English source lis
 | The conjunction / its particles | العَطْفُ / حُرُوفُ العَطْفِ | 'athaf / huruf 'athaf; ma'thuf, ma'thuf 'alaih | — |
 | The emphasis | التَّوْكِيدُ | taukid | penguat |
 | The substitute | البَدَلُ | badal | pengganti |
+| The explicative apposition | عَطْفُ البَيَانِ | 'athaf bayan | — |
+| The kinds of badal: of the whole, of the part, of inclusion, of mistake | بَدَلُ الكُلِّ، بَدَلُ البَعْضِ، بَدَلُ الاشْتِمَالِ، بَدَلُ الغَلَطِ | badal kull (syai' min syai'), badal ba'dh, badal isytimal, badal ghalath | — |
 
 ## Choices between competing terms
 
