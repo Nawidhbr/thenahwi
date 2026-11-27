@@ -400,6 +400,128 @@
       ]
     },
     "4": {
+      "title": "Kurala uymayan muzaaf fiiller",
+      "body": [
+        "Üç beyit, kurala aykırı olarak zamme alan (yef'ilü değil yef'ulü) lazım muzaaf fiilleri, sonra da iki harekeli fiilleri sayar. İlk yarım mısra, “nemme'ye … lazımlıkla birlikte zamme ver”, baskımızda vezne oturmaz ve Volck'un neşri onu başka okur; baskıdaki gibi veriyoruz. Açtığı liste açıktır: umrur bihi, “ona uğra”, “cela gibi” celle, “göç etti”, hebbet, “rüzgar esti”, zerret, “güneş doğdu”, ecce, “ateş alevlendi”, kerre, “saldırmak için geri döndü”, hemme bihi, “ona niyetlendi”, amme, zemme, sahha, “döküldü”, ve dahası.",
+        "Bazı kelimeler ey, “yani”, ile bir açıklama taşır: melle ey zemela, “hızlı yürüdü”; şedde ey ada, “koştu”; ğalle ey dahala, “girdi”; selle ey rase. Açıklama önemlidir, çünkü aynı fiil başka bir ma'nada kurala uyar: “bağladı” ma'nasında müteaddi olan şedde, 12. beytin iki yollu fiilleri arasındaydı; “koştu” ma'nasında lazım olan şedde burada zamme alır. Liste kaşşe, cenne, “gece onu örttü”, raşşe ve taşşe, “bulut serpiştirdi, çiseledi”, talle, “kan öcü alınmadan kaldı”, habbe, “at tırısa kalktı”, kemme ve asset, “dişi deve sütünü esirgedi” ile devam eder.",
+        "Sonra sadde, “yüz çevirdi”, ette (baskının okuyuşu; Volck'ta esse), harra [hı ile], “kaya gürültüyle düştü”, haddet, “yas tuttu”, serret ve derret, “meme, süt aktı”, cedde, cemme, şebbe, “at şahlandı”, anne, “göründü”, fahhat, “yılan tısladı”, ve sonraki beyitte şattati'd-darü, nesse ve harra [ha ile] için “iki yolu al”. Şahha ey bahile, “cimri oldu”, şaz olarak işaretlenmiştir. (15. beyit de belirsizdir: baskımızda “sarhan”, Volck'ta “savten”.)",
+        "Bir talebe böyle listeleri nasıl kullanacak? Onları beyti ezberlediği gibi ezberler, açıklamaların belirlediği ma'nalarla birlikte; şerh her fiilin fiil-i muzarisini verir. Kural basit kalır, liste de istisnalarını tutar: muzaaf fiil, burada anılan fiiller dışında, müteaddiyse yef'ulü, lazımsa yef'ilü alır.",
+        "Tasrif aracı muzaaf fiilleri tasrif etmez ve baskımız bunlar için gelecek sigaları vermez, bu yüzden ders onları yalnız mazileriyle anar."
+      ],
+      "terms": [
+        "şaz: bahile ma'nasındaki şahha gibi",
+        "“yani”: kastedilen ma'nayı belirleyen açıklama",
+        "iki yol: yef'ulü de yef'ilü de caiz",
+        "lazımlıkla birlikte: zamme listesinin şartı"
+      ],
+      "examples": [
+        "hebbet, zerret, ecce, kerre, hemme bihi: zammeli lazımlar",
+        "melle ey zemela: ma'nayı belirleyen açıklama",
+        "habbe'l-hısanü: “at tırısa kalktı”",
+        "haddet, serret: iki yol"
+      ],
+      "tasks": [
+        {
+          "prompt": "Manzume şedde'den sonra neden “yani ada” ekler?",
+          "answer": "Ma'nayı belirlemek için: “koştu” ma'nasındaki şedde lazımdır ve zammeyle sayılır; “bağladı” ma'nasındaki şedde müteaddidir ve iki yollu fiiller arasında sayılmıştı. Açıklama hangi fiilin kastedildiğini söyler."
+        },
+        {
+          "prompt": "Muzaaf fiilin fiil-i muzarisi için kuralı ve bu beyitlerin saydığı iki çeşit istisnayı söyleyin.",
+          "answer": "Müteaddi yef'ulü, lazım yef'ilü alır. Bu beyitler kurala aykırı olarak yef'ulü alan lazımları (hebbet, zerret, ecce …) ve iki harekeyle de caiz olan fiilleri (sadde, harra [hı ile], haddet …) sayar."
+        },
+        {
+          "prompt": "Bu beyitlerde hangi okunuşlar belirsizdir ve nasıl verilmiştir?",
+          "answer": "13. beytin ilk yarısı baskıda vezne oturmaz ve Volck onu başka okur; 15. beyitte baskımızda sarhan, Volck'ta savten vardır; 18. beyitte baskıda ette, Volck'ta esse vardır. Baskıdaki gibi verilmiştir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Hebbet, zerret ve ecce … olarak sayılır.",
+          "options": [
+            "zammeli lazımlar",
+            "kesreli müteaddiler",
+            "iki yollu fiiller",
+            "şaz mehmuz fiiller"
+          ],
+          "explanation": "Lazımın kesresinin istisnaları."
+        },
+        {
+          "prompt": "Melle … diye açıklanır.",
+          "options": [
+            "bahila",
+            "zemela, “hızlı yürüdü”",
+            "dahala",
+            "ada"
+          ],
+          "explanation": "Melle ey zemela."
+        },
+        {
+          "prompt": "Ğalle … diye açıklanır.",
+          "options": [
+            "ada",
+            "rase",
+            "dahala, “girdi”",
+            "zemela"
+          ],
+          "explanation": "Ğalle ey dahala."
+        },
+        {
+          "prompt": "Habbe'l-hısanü … demektir.",
+          "options": [
+            "at şahlandı",
+            "yağmur döküldü",
+            "gece çöktü",
+            "at tırısa kalktı"
+          ],
+          "explanation": "Zammeli lazımlardan biri."
+        },
+        {
+          "prompt": "Haddet ile serret … aittir.",
+          "options": [
+            "iki yollu fiillere",
+            "zamme listesine",
+            "nadir müteaddilere",
+            "şazlara"
+          ],
+          "explanation": "“… iki yolunu al.”"
+        },
+        {
+          "prompt": "Hangi fiil şaz olarak işaretlenmiştir?",
+          "options": [
+            "hanne",
+            "bahile ma'nasındaki şahha",
+            "sarra",
+            "ferra"
+          ],
+          "explanation": "Ve şezze şahha ey bahila."
+        },
+        {
+          "prompt": "Şedde ey ada'daki açıklama neden?",
+          "options": [
+            "Yalnız kafiye için",
+            "Meçhulü göstermek için",
+            "Aynı fiil başka bir ma'nada başka bir kurala uyar",
+            "Çünkü ada muzaaf bir fiildir"
+          ],
+          "explanation": "“Bağladı” ma'nasındaki şedde iki yollu fiiller arasındaydı."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Group": "Grup",
+          "Muḍāriʿ": "Fiil-i muzari",
+          "Some verbs": "Bazı fiiller",
+          "intransitive, by rule": "lazım, kurala göre",
+          "yafʿilu": "yef'ilü",
+          "intransitive, listed exceptions": "lazım, sayılan istisnalar",
+          "yafʿulu": "yef'ulü",
+          "listed, both ways": "sayılan, iki yol",
+          "yafʿilu or yafʿulu": "yef'ilü ya da yef'ulü",
+          "transitive, by rule": "müteaddi, kurala göre",
+          "transitive, rare exception": "müteaddi, nadir istisna"
+        },
+        "caption": "Muzaaf fiilin fiil-i muzarisi: kural ve istisnalar (Lamiyye, b. 10–20)"
+      },
       "text": [
         "ve bette “kesti”, kesmek [anlamında]; ve nemme “laf taşıdı” fiilini zammeli kıl, / lazımlıkla birlikte, umrur bihi “ona uğra!” sözünde, ve celle fiilini cela “göç etti” gibi [olduğunda],\nhebbet “[rüzgar] esti”, zerrat “[güneş] doğdu”, ecce “[ateş] alevlendi”, kerra “[saldırıya] döndü”, hemme bihi “ona niyetlendi”, / 'amme “umumi oldu”, zemme “[başını] kaldırdı”, sahha “döküldü”, melle yani zemela “hızlı yürüdü”,\nelle parlamak ve bağırmak [anlamında], şekke, ebbe “gitmeye hazırlandı” ve şedde / yani 'ada “koştu”, şakka, haşşe ve ğalle yani dahala “girdi”;",
         "ve kaşşe kavmün, 'aleyhi'l-leylü cenne “gece onu örttü”, ve raşşe / el-müznü “yağmur bulutu serpti”, taşşe “çiseledi”, ve aslı selela olan selle,\nyani rase “[hayvan] tersledi”; talle demün “kan heder oldu”, habbe'l-hisanü “at tırıs gitti”, ve nebtün / kemme nahlün, ve 'asset nakatun “bir dişi deve”, [yani] bahıla “[sütünü] cimrilik etti”;",
@@ -407,12 +529,257 @@
       ]
     },
     "5": {
+      "title": "Vavlı fe'ale, mugalebe fiilleri ve boğaz harfleri",
+      "body": [
+        "Şimdi zamme. “Fe'altü'nün fiil-i muzarisi, aynı ya da lamı olarak vav varsa, aynda zammeyle getirilir”: kale yakulü, ğaza yağzu. Sebep kesreninkinin aynasıdır: vav zammeden sonra harfini korur, ya'nın kesreden sonra koruduğu gibi.",
+        "“Ve bu hüküm, övünmede yarışmayı bildiren fiile verilmiştir”: birini bir nitelikte yarıştığınızı ve onu geçtiğinizi söylediğiniz üstünlük fiili (nahivciler buna mugalebe der). Fiil-i muzarisi, olağan babı ne olursa olsun, zamme alır; yeter ki “aynın kesresini vücuben gerektiren bir şeyi olmasın”: fa olan vav ya da ayn veya lam olan ya, burada bile kesreyi korur.",
+        "Sonra fetha. “Birincisi dışında bir boğaz harfi olan bir fiilin [fiil-i muzarisinin aynındaki] fetha, bu çeşitte Kisai'den nakledilmiştir”: mugalebe fiillerinde o, boğaz harfinin fethasına izin vermiştir. “Bunun dışında”, mugalebe dışında, aynı ya da lamı boğaz harfi olan fiil “ittifakla” fetha alır, se'ele'den yes'elü ve fetaha'dan yeftahu gibi.",
+        "“Birincisi dışında”: fa olan boğaz harfi sayılmaz (atele, 6. ders). Ve fetha ancak “muzaaf değilse ve kesre ya da zammeyle bilinmiyorsa” kuraldır: beğa'da ğayn vardır ama yebği'dir, dahale'de hı vardır ama yedhulü'dür, çünkü kullanım onları sabitlemiştir.",
+        "Böylece manzume fe'ale için sebeplerin bir sırasını verir: önce bir illet harfi ya da tad'if, sonra mugalebe, sonra bir boğaz harfi ve hepsinin üstünde kullanım. Sonraki ders bunların hiçbiri geçerli olmadığında kalanı verir."
+      ],
+      "terms": [
+        "mugalebe: birini bir nitelikte geçmeyi bildiren, yef'ulü'lü fiil",
+        "fetha getiren boğaz harfleri",
+        "görüşünü manzumenin naklettiği Kufeli nahivci ve Kur'an kıraat imamı",
+        "şöhret: kuralların önüne geçen sabit kullanım"
+      ],
+      "examples": [
+        "kale yakulü, yağzu: ayn ya da lam olarak vav (Merah)",
+        "ani'l-Kisai: mugalebe fiillerinde fetha",
+        "fethalı boğaz harfi; zammeyle bilinen dahale (tasrif aracı)",
+        "ke-yebği: boğaz harfi var, ama kesreyle bilinir"
+      ],
+      "tasks": [
+        {
+          "prompt": "Bu beyitlere göre fe'ale'nin hangi çeşitleri fiil-i muzaride zamme alır?",
+          "answer": "Aynı ya da lamı vav olanlar (kale yakulü, ğaza yağzu) ve mugalebe fiilleri, bir sebep kesreyi gerektirmedikçe."
+        },
+        {
+          "prompt": "Bir boğaz harfi ne zaman fetha getirir, ne zaman getirmez?",
+          "answer": "Fe'ale'nin aynı ya da lamı olduğunda (se'ele yes'elü, fetaha yeftahu), fiil muzaaf olmamak ve başka bir harekeyle bilinmemek şartıyla. Fa olan boğaz harfi sayılmaz; yebği ile yedhulü kullanımın onlara verdiği harekeyi korur."
+        },
+        {
+          "prompt": "Manzume Kisai'den ne nakleder?",
+          "answer": "Mugalebe fiillerinde (birincisi dışında) bir boğaz harfinin fetha getirebileceğini; başkaları orada mugalebenin zammesini korur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Aynı vav olan fe'ale … alır.",
+          "options": [
+            "yef'ilü",
+            "yef'ulü",
+            "yef'alü",
+            "ikisinden birini"
+          ],
+          "explanation": "Kale yakulü."
+        },
+        {
+          "prompt": "Mugalebe fiili … alır.",
+          "options": [
+            "her zaman yef'alü",
+            "her zaman yef'ilü",
+            "bir illet harfi kesre istemedikçe yef'ulü",
+            "fiil-i muzari almaz"
+          ],
+          "explanation": "“Bu hüküm yarışmayı bildirene verilmiştir.”"
+        },
+        {
+          "prompt": "Mugalebe fiillerinde boğaz harfi hakkında kimin görüşü nakledilir?",
+          "options": [
+            "Sibeveyh'in",
+            "Ahfeş'in",
+            "Yunus'un",
+            "Kisai'nin"
+          ],
+          "explanation": "Ani'l-Kisai … kad hasala."
+        },
+        {
+          "prompt": "Mugalebe dışında ayn ya da lam olan boğaz harfi … getirir.",
+          "options": [
+            "ittifakla fetha",
+            "zamme",
+            "kesre",
+            "hiçbir şey"
+          ],
+          "explanation": "Se'ele'den yes'elü gibi."
+        },
+        {
+          "prompt": "Fa olan boğaz harfi neden fetha getirmez?",
+          "options": [
+            "İlletlidir",
+            "Manzume “birincisi dışında” der",
+            "Muzaaftır",
+            "Nadirdir"
+          ],
+          "explanation": "Yalnız ayn ya da lam sayılır."
+        },
+        {
+          "prompt": "Dahale'de boğaz harfi vardır ama fiil-i muzarisi …",
+          "options": [
+            "yedhalü'dür",
+            "yedhilü'dür",
+            "kullanımla bilinen yedhulü'dür",
+            "ikisinden biridir"
+          ],
+          "explanation": "Şart “kesre ya da zammeyle bilinmemek”tir."
+        },
+        {
+          "prompt": "Yebği kesresini korur, çünkü …",
+          "options": [
+            "muzaaftır",
+            "vavı vardır",
+            "mugalebedir",
+            "kesreyle bilinir"
+          ],
+          "explanation": "Kullanım boğaz harfinin önüne geçer."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Faʿala": "Fe'ale",
+          "Muḍāriʿ": "Fiil-i muzari",
+          "Example": "Örnek",
+          "wāw as ʿayn": "ayn olarak vav",
+          "yafʿulu": "yef'ulü",
+          "wāw as lām": "lam olarak vav",
+          "a verb of contest": "mugalebe fiili",
+          "throat letter as ʿayn or lām": "ayn ya da lam olarak boğaz harfi",
+          "yafʿalu": "yef'alü",
+          "the same, known with kasra": "aynısı, kesreyle bilinen",
+          "yafʿilu": "yef'ilü",
+          "the same, known with ḍamma": "aynısı, zammeyle bilinen"
+        },
+        "caption": "Fe'ale: zamme ve fetha (Lamiyye, b. 20–25; sigalar Merah'tan ve tasrif aracından)"
+      },
       "text": [
         "ve şattati'd-daru “ev uzak oldu”, nesse'ş-şey'u “şey kurudu”, harra gün için söylenir “sıcak oldu”. / Fe'altü'nün muzarisi, eğer\nvav onun aynı veya lamı kılınmışsa, getirilir / aynı zammeli olarak; ve bu hüküm verilmiştir\nöğünmede yarışmaya delalet edip de / aynın kesreli olmasını gerektiren bir sebebi bulunmayana, kala “nefret etti” gibi.",
         "Birinci harfinden başka bir halk harfi bulunan fiilin [muzarisinin aynındaki] fetha / bu türde Kisai'den nakledilmiştir.\nBunun dışında, halk harfli olana fetha [verilir] — onu yay / ittifakla — se'ela “sordu” fiilinden yapılan muzari gibi,"
       ]
     },
     "6": {
+      "title": "Kesre ya da zamme; ve -tü ile -ne alan ecvef fiil",
+      "body": [
+        "Fe'ale'den geriye ne kalır? “Fe'altü'nün fiil-i muzarisinin aynı, fetha getiren her şeyden arınmış olduğu yerde, atele'den yapılan gibi, birinin seçilmesi şöhret ya da sebep yokluğundan düşünce, ona kesre ya da zamme ver.” Kullanım bir harekeyi sabitlemişse ona uyun; bir illet harfi, tad'if ya da mugalebe sabitliyorsa ona uyun; hiçbiri yoksa ikisi de doğrudur. Atele, “sürüklemek”, örnektir: boğaz harfi birincisidir, o da sayılmaz, bu yüzden tasrif aracı hem ye'tilü hem ye'tulü verir.",
+        "Böylece manzumenin fe'ale için tam cevabı: fa'sı vav, aynı ya da lamı ya, ya da mef'ulsüz tad'ifle kesre; mef'ullü tad'ifle, aynı ya da lamı vavla, ya da mugalebeyle zamme; aynı ya da lamı boğaz harfiyle fetha; bunların hepsi ve kullanım da yoksa serbestçe kesre ya da zamme.",
+        "Sonraki kısım, tek bir beyit ve yarımı, -tü ve -ne zamirleriyle ecvef fiile döner. “Aynı illetli olunca ve fiil zamir te'sine ya da nununa bitişince, aynın harekesini sülasinin fa'sına naklet”: havifne hıfne olur, vavın kesresi hı'ya geçer; tavulne tulne olur, zammesi tı'ya geçer.",
+        "“Ve fetha olunca, onun yerine o aynın cinsinden bir hareke al”: kavelne ile beya'ne illet harfinde bir fetha taşır; bu fetha zaten fethası olan bir fa'ya nakledilemez; bu yüzden fa, illet harfine uyan harekeyi alır, vav için zamme, ya için kesre: kulne, bi'ne; kultü, bi'tü.",
+        "Merah aynı kuralı bütün adımlarıyla verir (kulne ve hıfne dersinde); Lamiyye onu iki yarım mısraa koyar. İkisini karşılaştırın: sebep aynıdır; ilk harfte kalan hareke, giden illet harfine işaret eder."
+      ],
+      "terms": [
+        "şöhret ve sebep: harekeyi sabitleyen iki şey",
+        "illetli aynın harekesini fa'ya nakletmek",
+        "zamirin te'si ve nunu: -tü, -te, -ne",
+        "aynı cinsten: vav için zamme, ya için kesre"
+      ],
+      "examples": [
+        "ke'l-mebniyyi min atela: serbest seçimin örneği",
+        "ye'tilü, ye'tulü: ikisi de caiz (tasrif aracı)",
+        "hıfne, tulne: aynın kendi harekesi nakledilmiş (Merah)",
+        "kultü, bi'ne: illet harfinin cinsinden bir hareke (Merah)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Fe'ale'nin fiil-i muzarisi ne zaman kesre de zamme de alabilir?",
+          "answer": "Aynı ya da lamı olarak boğaz harfi, bir harekeyi sabitleyen illet harfi, tad'if ya da mugalebe olmadığında ve kullanım birini sabitlemediğinde; atele gibi: ye'tilü ya da ye'tulü."
+        },
+        {
+          "prompt": "Manzumenin fe'ale'nin fiil-i muzarisinin harekesi için kurallarını özetleyin.",
+          "answer": "Kesre: fa'sı vav, aynı ya da lamı ya, muzaaf lazım. Zamme: muzaaf müteaddi, aynı ya da lamı vav, mugalebe fiili. Fetha: aynı ya da lamı boğaz harfi. Kullanım önce gelir; hiçbiri yoksa kesre ya da zamme."
+        },
+        {
+          "prompt": "Hıfne ile kulne'yi 27–28. beyitlerin kuralıyla açıklayın.",
+          "answer": "Havifne: illetli aynın kesresi vardır ve o fa'ya geçer: hıfne. Kavelne: aynın fethası vardır, o fa'ya nakledilemez; bu yüzden fa vavın cinsinden bir hareke, zamme alır: kulne."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Atele, “sürüklemek”, manzumenin … örneğidir.",
+          "options": [
+            "boğaz harfi fethasının",
+            "bir mugalebe fiilinin",
+            "kesre ile zamme arasında serbest seçimin",
+            "muzaaf bir fiilin"
+          ],
+          "explanation": "Boğaz harfi birincisidir, o da sayılmaz."
+        },
+        {
+          "prompt": "Fe'ale'nin fiil-i muzarisi için kuralların önüne ne geçer?",
+          "options": [
+            "Vezin",
+            "Kafiye",
+            "Cem'",
+            "Kullanım (şöhret)"
+          ],
+          "explanation": "“Şöhret ya da sebep yokluğundan.”"
+        },
+        {
+          "prompt": "Hıfne'de hı üzerindeki kesre …",
+          "options": [
+            "illetli aynın kendi kesresidir, nakledilmiş",
+            "ya'nın cinsindendir",
+            "meçhul kesresidir",
+            "bir lehçedir"
+          ],
+          "explanation": "Havifne'den."
+        },
+        {
+          "prompt": "Kulne'de kaf zammelidir, çünkü …",
+          "options": [
+            "meçhuldür",
+            "aynın fethasının yerine vavın cinsinden bir hareke gelmiştir",
+            "vavın zammesi nakledilmiştir",
+            "mugalebedendir"
+          ],
+          "explanation": "“O aynın cinsinden bir hareke al.”"
+        },
+        {
+          "prompt": "Bi'ne'de be kesrelidir, çünkü …",
+          "options": [
+            "aynın kesresi vardı",
+            "meçhuldür",
+            "illet harfi ya'dır",
+            "kadınlarındır"
+          ],
+          "explanation": "Kesre ya'ya uyar."
+        },
+        {
+          "prompt": "Harekeyi nakletme kuralı, ecvef fiil … bitişince geçerlidir.",
+          "options": [
+            "tesniye elifine",
+            "cem' vavına",
+            "te'nis te'sine",
+            "zamirin te'sine ya da nununa"
+          ],
+          "explanation": "Bi-ta'l-idmari … ev nunihi."
+        },
+        {
+          "prompt": "Tulne … gelir.",
+          "options": [
+            "tavulne'den",
+            "tavelne'den",
+            "tavilne'den",
+            "talne'den"
+          ],
+          "explanation": "Vavın zammesi tı'ya geçmiştir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Base": "Asıl",
+          "Vowel of the ʿayn": "Aynın harekesi",
+          "Form": "Siga",
+          "Vowel of the fāʾ": "Fa'nın harekesi",
+          "fatḥa": "fetha",
+          "ḍamma, of the kind of the wāw": "zamme, vavın cinsinden",
+          "kasra, of the kind of the yāʾ": "kesre, ya'nın cinsinden",
+          "kasra": "kesre",
+          "the kasra moved": "kesre nakledilmiş",
+          "ḍamma": "zamme",
+          "the ḍamma moved": "zamme nakledilmiş"
+        },
+        "caption": "-tü ve -ne alan ecvef fiil (Lamiyye, b. 27–28; sigalar Osmanlı baskısındaki Merah'tan, s. 94–96)"
+      },
       "text": [
         "eğer muzaaf değilse ve kesre veya / zamme ile meşhur değilse, yebği “arar” gibi, ve dahala “girdi” fiilinden tasrif ettiğin.\nFe'altü'nün muzarisinin aynı, fethayı getirenden / boş olduğu yerde, 'atela “sürükledi” fiilinden bina edilen gibi,",
         "kesreli veya zammeli kıl, ikisinden birinin belirlenmesi / şöhret veya sebep yokluğundan düşmüş olduğunda.",
@@ -420,6 +787,139 @@
       ]
     },
     "7": {
+      "title": "Örnekle anılan mezid vezinler",
+      "body": [
+        "Mezid fiil babı vezinlerini örnekle, tek bir akışta sayar: “fiil, e'leme gibi, vala, vella, istakame, ihrancema, infasala ile ziyadeyle gelir”. Her fiili vezni olarak okuyun: e'leme ef'ale'dir, vala fa'ale, vella fe''ale, istakame istef'ale, infasala infe'ale, i'tedele ifte'ale; ihrancema, iki harf eklenmiş bir rubai olan if'anlele'dir.",
+        "Bazı vezinler açıkça adlandırılır: “dördüncü olarak ortada elifli ve elifsiz if'alle”, yani if'alle [elifle] ve if'alle, Merah'taki ihmarra ve ihmerra gibi. Öbürleri fiil olarak gelir: ihbeyyeha, “çalımla yürüdü”, if'ayyele'dir; tedahracet tefa'lele'dir; ihlevla, “çok tatlı oldu”, if'av'ale'dir; isbatarra, “uzandı”, ikşa'arra gibi if'alelle'dir; tevella ile tevala, tefa''ale ile tefa'ale'dir.",
+        "Örneklerin çoğu mülhak sigalardır, dört harfli fiillere benzetilmiş sülasi kökler (Merah'ın otuz beş babına bakın): cevrabet, “çorap giydi”, fev'ale'dir; herveltü, “acele ettim”, fe'vele; kalneset, “külah giydi”, fe'nele; selka, fe'la; temeskene, “kendini alçalttı”, temef'ale; islenka, “sırtüstü yattı”, if'anla; ittasale, vavı te'ye dönmüş ifte'ale'dir, itte'ade'deki gibi.",
+        "Son üç beyit daha da nadir vezinleri toplar (zehzektü, “kahkahayla güldüm”, beytartü, “nalbantlık yaptım”, intehale, “eledi”, ve ancak bir lügatin bildiği birçok kelime). Metnimizdeki harekeleri vezinlerden yapılmıştır ve henüz Volck'un neşriyle karşılaştırılmamıştır, bu yüzden onları hocanızla öğrenin; ders onları sınamaz.",
+        "İbn Malik'in bu kadar çok saymasının amacı, her veznin bir fiiller sınıfı olmasıdır: ihlevla'yı bilmek her if'av'ale'yi okumayı bilmektir. Tasrif aracı bu vezinlerin en yaygınlarını sahih kökler için verir."
+      ],
+      "terms": [
+        "mezid fiil: asli harfler ve eklenmiş harfler",
+        "dört harfli fiile benzetilmiş mülhak siga",
+        "bina: burada bir örnekle anılan harf ve hareke vezni",
+        "renk vezinleri, elifsiz ve elifli"
+      ],
+      "examples": [
+        "fiil, e'leme gibi, ziyadeyle gelir",
+        "ihbeyyeha, i'tedela: if'ayyele ve ifte'ale",
+        "cevrabet, herveltü: mülhak sigalar",
+        "tedarabe, tefaddale: tefa'ale ve tefa''ale (tasrif aracı)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her örneğin veznini verin: e'leme, vala, vella, istakame, infasala.",
+          "answer": "E'leme: ef'ale; vala: fa'ale; vella: fe''ale; istakame: istef'ale; infasala: infe'ale."
+        },
+        {
+          "prompt": "Hangi örnekler mezid rubai, hangileri mülhak sigalardır?",
+          "answer": "Mezid rubailer: ihrancema (if'anlele), tedahracet (tefa'lele), isbatarra (if'alelle). Mülhak sigalar: cevrabet (fev'ale), herveltü (fe'vele), kalneset (fe'nele), selka (fe'la), temeskene (temef'ale), islenka (if'anla)."
+        },
+        {
+          "prompt": "İttasale'de te neden şeddelidir?",
+          "answer": "V-s-l kökünden ifte'ale'dir; vav te'ye dönmüş ve ifti'al te'sine idğam edilmiştir, itte'ade'deki gibi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "E'leme … veznini temsil eder.",
+          "options": [
+            "fe''ale",
+            "fa'ale",
+            "istef'ale",
+            "ef'ale"
+          ],
+          "explanation": "Mezid fiilin ilk örneği."
+        },
+        {
+          "prompt": "Vala … temsil eder.",
+          "options": [
+            "fa'ale'yi",
+            "ef'ale'yi",
+            "tefa'ale'yi",
+            "fe''ale'yi"
+          ],
+          "explanation": "Fa'dan sonra bir elif."
+        },
+        {
+          "prompt": "İstakame … temsil eder.",
+          "options": [
+            "ifte'ale'yi",
+            "istef'ale'yi",
+            "infe'ale'yi",
+            "if'alle'yi"
+          ],
+          "explanation": "Eklenmiş üç harf: hemze, sin, te."
+        },
+        {
+          "prompt": "İ'tedele … temsil eder.",
+          "options": [
+            "infe'ale'yi",
+            "tefa'ale'yi",
+            "ifte'ale'yi",
+            "ef'ale'yi"
+          ],
+          "explanation": "Fa'dan sonra te ile '-d-l."
+        },
+        {
+          "prompt": "İhrancema …",
+          "options": [
+            "mezid bir sülasidir",
+            "mülhak bir sigadır",
+            "mücerred bir fiildir",
+            "mezid bir rubaidir"
+          ],
+          "explanation": "H-r-c-m kökünden if'anlele."
+        },
+        {
+          "prompt": "Cevrabet, “çorap giydi”, …",
+          "options": [
+            "fev'ale vezninde mülhak bir sigadır",
+            "mücerred bir rubaidir",
+            "if'av'ale'dir",
+            "tefa'lele'dir"
+          ],
+          "explanation": "Eklenmiş bir vavlı sülasi."
+        },
+        {
+          "prompt": "Tedahracet … temsil eder.",
+          "options": [
+            "tefa'ale'yi",
+            "tefa'lele'yi",
+            "tefa''ale'yi",
+            "if'anlele'yi"
+          ],
+          "explanation": "Te ile dahrace."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Example": "Örnek",
+          "Pattern": "Vezin",
+          "Kind": "Çeşit",
+          "afʿala": "ef'ale",
+          "augmented triliteral": "mezid sülasi",
+          "fāʿala": "fa'ale",
+          "faʿʿala": "fe''ale",
+          "infaʿala": "infe'ale",
+          "iftaʿala": "ifte'ale",
+          "istafʿala": "istef'ale",
+          "tafaʿʿala": "tefa''ale",
+          "tafāʿala": "tefa'ale",
+          "ifʿayyala": "if'ayyele",
+          "ifʿawʿala": "if'av'ale",
+          "ifʿanlala": "if'anlele",
+          "augmented quadriliteral": "mezid rubai",
+          "tafaʿlala": "tefa'lele",
+          "ifʿalalla": "if'alelle",
+          "fawʿala": "fev'ale",
+          "attached": "mülhak",
+          "tamafʿala": "temef'ale",
+          "ifʿanlā": "if'anla"
+        },
+        "caption": "Manzumenin örnekleriyle anılan mezid vezinler (Lamiyye, b. 29–32; tedarabe tasrif aracından)"
+      },
       "text": [
         "e'leme “bildirdi” gibi fiil ziyade ile gelir, / vala “dost edindi”, vella “yüz çevirdi”, istakame “doğruldu”, ihranceme “kalabalıklaştılar”, infasala “ayrıldı” ile birlikte,\nve if'alle, ortada dördüncü [harf] olarak elif bulunan / ve onsuz olan, ve aynı şekilde ihbeyyaha “çalımla yürüdü” ve i'tedela “denk oldu”,",
         "tedahracet “yuvarlandı”, 'azyata, ihlevla “çok tatlı oldu”, isbatarra “uzandı”, tevala / “birbirini izledi”, tevella “yüz çevirdi” ile birlikte, ve halbes “ve [onu] kandır!”, senbese “acele etti”, ittasala “bitişti”,\nve ihbenta'e “[öfkeden] şişti”, ihvensale, islenka “sırtüstü yattı”, temeskene “tevazu gösterdi”, selka / “[onu] sırtüstü yatırdı”, kalneset “[kadın] külah giydi”, cevrabet “[kadın] çorap giydi”, herveltü mürtahila “yola koyularak acele ettim”,",
@@ -427,6 +927,124 @@
       ]
     },
     "8": {
+      "title": "Fiil-i muzarinin önekleri ve sondan önceki hareke",
+      "body": [
+        "“Fiil-i muzariye ne'ti harflerinden biriyle başla”: nun, hemze, te, ya; Merah'ın eteyne'de topladığı dört önek. Önek, “rubaiye bitişince, mutlak olarak zammelidir”: mazisi dört harfli olan her fiile, mücerred, mezid ya da mülhak, yudahricu, yukrimü, yukattı'u, yukatilü gibi. “Ve ondan başkasına bitişince ona fetha ver”: yadribü, yestahricu, yetefaddalü.",
+        "Bir lehçe “ya dışındaki” öneklere üç çeşitte kesre verir: “fe'ile'nin geleceği”, ti'lemü, ni'lemü gibi; “vasl hemzesiyle” başlayan fiiller, tistansıru gibi; ve “tezekka gibi” zaid bir te ile başlayan fiiller. Merah aynı lehçeyi sebebiyle verir: kesre mazinin kesresini hatırlatır (alime, istensara).",
+        "“Ve ya'da da nakledilmiştir”, eba, “reddetti”, gibi fiillerde ve vecile, “korktu”, gibi vavlı misal fiillerde. Baskımızın bu beytteki ifadesi şüphelidir (vezne oturmaz ve Volck'un neşri onu başka okur), bu yüzden ondan yalnız bu fiillerde ya'ya bazen kesre verildiğini alın.",
+        "Sonra, bu babın mezid fiillerinde sondan önceki hareke. “Mazisi başında zaid bir te'den mahrum kalmışsa” vücuben kesredir: yukrimü, yukattı'u, yukatilü, yensarifü, yestahricu. Mazi zaid bir te ile başlıyorsa, “sondan öncekine fetha ver”: yetefaddalü, yetedarabü, yetedahracu.",
+        "Öyleyse herhangi bir mezid fiilin fiil-i muzarisini iki soru belirler: mazisi dört harfli mi (o zaman önek zamme alır)? Ve te ile mi başlıyor (o zaman sondan önceki harf fetha alır)? Tasrif aracı iki kurala da uyar."
+      ],
+      "terms": [
+        "fiil-i muzarinin önekleri: nun, hemze, te, ya",
+        "burada: mazisi dört harfli her fiil",
+        "tefa''ale, tefa'ale, tefa'lele başındaki zaid te",
+        "önekteki kesre, bir lehçe"
+      ],
+      "examples": [
+        "fiil-i muzariye ne'ti harflerinden biriyle başla",
+        "önekte kesreli lehçe (Merah)",
+        "ke-tezekka: zaid bir te ile başlayan fiil",
+        "yukrimü, yetefaddalü: sondan önce kesre ve fetha (tasrif aracı)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Hangi önekler zamme, hangileri fetha alır?",
+          "answer": "Mazi dört harfliyse, mücerred ya da mezid, zamme (yudahricu, yukrimü, yukattı'u, yukatilü); başka bütün fiillerde fetha (yadribü, yestahricu, yetefaddalü)."
+        },
+        {
+          "prompt": "Bir lehçe hangi fiillerde ve hangi öneklerde önekte kesreye izin verir?",
+          "answer": "Ya dışındaki öneklerde; fe'ile'nin geleceğinde (ti'lemü), vasl hemzesiyle başlayan fiillerde (tistansıru) ve zaid bir te ile başlayan fiillerde (tezekka gibi)."
+        },
+        {
+          "prompt": "Tasrif aracıyla istahrace ve tedarabe'nin fiil-i muzarisini verin ve sondan önceki harfin harekesini açıklayın.",
+          "answer": "Yestahricu, sondan önce kesreyle, çünkü mazisinin başında zaid te yoktur; yetedarabü, fethayla, çünkü mazisi zaid bir te ile başlar."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fiil-i muzarinin harfleri … toplanır.",
+          "options": [
+            "ne'ti'de",
+            "hevitü's-simane'de",
+            "se'eltümuniha'da",
+            "istencedehü'de"
+          ],
+          "explanation": "Nun, hemze, te, ya."
+        },
+        {
+          "prompt": "Yukrimü'nün öneki zammelidir, çünkü …",
+          "options": [
+            "meçhuldür",
+            "mazisi dört harflidir",
+            "bir boğaz harfi vardır",
+            "bir lehçedir"
+          ],
+          "explanation": "“Rubaiye bitişince mutlak olarak zamme.”"
+        },
+        {
+          "prompt": "Yestahricu'nun öneki … alır.",
+          "options": [
+            "zamme",
+            "kesre",
+            "fetha",
+            "sükun"
+          ],
+          "explanation": "Mazisi altı harflidir."
+        },
+        {
+          "prompt": "Manzumeye göre lehçenin önekteki kesresi … caizdir.",
+          "options": [
+            "fe'ule'nin geleceğinde",
+            "mazide",
+            "meçhulde",
+            "fe'ile'nin geleceğinde"
+          ],
+          "explanation": "Ti'lemü, ni'lemü gibi."
+        },
+        {
+          "prompt": "Kural olarak hangi önek o kesrenin dışındadır?",
+          "options": [
+            "ya",
+            "te",
+            "nun",
+            "hemze"
+          ],
+          "explanation": "“Ya dışındakiler için kesreye izin ver.”"
+        },
+        {
+          "prompt": "Yetefaddalü'de sondan önceki harf … alır.",
+          "options": [
+            "kesre",
+            "fetha",
+            "zamme",
+            "sükun"
+          ],
+          "explanation": "Mazisi zaid bir te ile başlar."
+        },
+        {
+          "prompt": "Yukattı'u'da sondan önceki harf … alır.",
+          "options": [
+            "fetha",
+            "zamme",
+            "kesre",
+            "sükun"
+          ],
+          "explanation": "Mazisinin başında zaid te yoktur."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Past": "Mazi",
+          "Muḍāriʿ": "Fiil-i muzari",
+          "Prefix": "Önek",
+          "Before the last": "Sondan önceki",
+          "ḍamma": "zamme",
+          "kasra": "kesre",
+          "fatḥa": "fetha"
+        },
+        "caption": "Önek ve sondan önceki harf (tasrif aracı; dahrace Osmanlı baskısındaki Maksud'dan)"
+      },
       "text": [
         "Muzariyi ne'ti [harflerinden] biriyle başlat; ve ona / rubaiye bitiştiğinde mutlak olarak zamme vardır,\nve başkasına bitiştiğinde onu fethalı kıl; ve ya'dan / başkası için fe'ile'nin gelecek [sigasında] kesreye izin ver,",
         "veya başında vasl hemzesi bulunanda, veya ta / zaid olarak [bulunanda], tezekka “arındı” gibi; ve nakledilmiştir\nya'da ve başkasında, eğer [fiil] eba “kaçındı” fiiline ilhak edilirse, / veya fası vav olanda, [mesela] vecila “korktu”.",
@@ -434,18 +1052,380 @@
       ]
     },
     "9": {
+      "title": "Faili zikredilmeyen fiil",
+      "body": [
+        "“Fiili mef'ule isnad edersen, onu ilk harfi zammeli getir”: duribe, yudrabu. “Ve illetli bir ayna bitişince ona kesre ver”: ecvef fiilde ilk harf kesre alır, kile, bi'a, Merah'ın kuvile ve büyi'a'dan türettiği sigalar. “Ve mazide sondan öncekine kesre, ardından gelende de fetha koy”: kesreyle duribe ve ukrime, fethayla yudrabu ve yukramü.",
+        "İki çeşit fiil bir zamme daha ister. “Vasl hemzeli olanın üçüncü harfine onunla birlikte zamme ver”, birinciyle birlikte: ustuhrice, uhtukıre; hemze de te de zammeli. “Ve mutavaat te'siyle ondan sonrakine zamme ver”: tufuddıle, tuduribe; te ve ondan sonraki harf. Tefa''ale ile tefa'ale'nin te'sine mutavaat te'si denir, çünkü bu vezinler çoğu zaman fe''ale ile fa'ale'ye cevap verir: kendisine iş yapılan, işi kabul eder.",
+        "Son olarak vasl hemzeli ecvef fiiller. “Ba'a gibinin fa'sına verileni, ihtara ve inkade gibinin üçüncüsüne ver”: ba'a'nın bi'a yapması gibi, ihtara ihtire, “seçildi”, inkade de inkıde, “götürüldü”, yapar; kesre üçüncü harftedir. Manzume “ki daha iyisidir” diye ekler: Merah başka lehçeler de nakleder (zamme tadıyla, ya da u ile), bu da tercih edilendir.",
+        "Böylece meçhul üç şey ister: başta bir zamme (ecvef fiilde kesre), sondan önce doğru hareke (mazide kesre, fiil-i muzaride fetha) ve uzun vezinlerde, manzumenin adlandırdığı harfte ikinci bir zamme. Tasrif aracı, mef'ul alan her sahih veznin meçhulünü verir."
+      ],
+      "terms": [
+        "faili zikredilmeyen fiil: meçhul",
+        "tefa''ale ve tefa'ale'nin mutavaat te'si",
+        "üçüncü harfi meçhulde zamme alan vasl hemzesi",
+        "meçhulünün ilk harfi kesreli olan ecvef fiil"
+      ],
+      "examples": [
+        "duribe, yudrabu: önce zamme; sondan önce kesre ya da fetha (tasrif aracı)",
+        "kile, bi'a: kesreli ecvef meçhul (Merah)",
+        "ustuhrice, tufuddıle: ikinci zamme (tasrif aracı)",
+        "ke'htire'llezi fedala: daha iyisi olan ihtire gibi"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tasrif aracıyla ekreme'nin meçhul mazisini ve fiil-i muzarisini yapın ve kuralı söyleyin.",
+          "answer": "Ukrime, yukramü (أُكْرِمَ، يُكْرَمُ): ilk harfte zamme; sondan önce mazide kesre, fiil-i muzaride fetha."
+        },
+        {
+          "prompt": "Ustuhrice'de ve tuduribe'de hangi harfler zamme alır ve neden?",
+          "answer": "Ustuhrice: hemze (birinci) ve te (vasl hemzeli bir fiilin üçüncü harfi). Tuduribe: mutavaat te'si ve ondan sonraki harf (dad); zammeden sonraki elif u diye söylenir."
+        },
+        {
+          "prompt": "İhtara'nın meçhulü nasıl yapılır ve “ki daha iyisidir” ne demektir?",
+          "answer": "Ba'a'nın fa'sında kesreyle bi'a vermesi gibi, ihtara üçüncü harfinde kesreyle ihtire verir. “Daha iyisi”: caiz lehçeler arasında (işmamla ya da u ile) kesre tercih edilir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Meçhulün ilk harfinde … vardır.",
+          "options": [
+            "fetha",
+            "zamme (ecvef fiilde kesre)",
+            "sükun",
+            "her zaman kesre"
+          ],
+          "explanation": "Duribe; kile."
+        },
+        {
+          "prompt": "Sondan önce meçhul mazide … vardır.",
+          "options": [
+            "fetha",
+            "zamme",
+            "kesre",
+            "sükun"
+          ],
+          "explanation": "Duribe, ukrime."
+        },
+        {
+          "prompt": "Sondan önce meçhul fiil-i muzaride … vardır.",
+          "options": [
+            "kesre",
+            "zamme",
+            "sükun",
+            "fetha"
+          ],
+          "explanation": "Yudrabu, yukramü."
+        },
+        {
+          "prompt": "Ustuhrice'de birinciden başka zamme … düşer.",
+          "options": [
+            "üçüncü harfe",
+            "ikinci harfe",
+            "son harfe",
+            "başka hiçbir harfe"
+          ],
+          "explanation": "“Vasl hemzeli olanın üçüncü harfi.”"
+        },
+        {
+          "prompt": "Tefa''ale'nin te'sine … te'si denir.",
+          "options": [
+            "te'nis",
+            "mutavaat",
+            "cem'",
+            "gelecek"
+          ],
+          "explanation": "Onunla ondan sonraki harf zamme alır: tufuddıle."
+        },
+        {
+          "prompt": "İhtire, “seçildi”, kesresini … taşır.",
+          "options": [
+            "ilk harfte",
+            "son harfte",
+            "üçüncü harfte",
+            "hemzede"
+          ],
+          "explanation": "Bi'a'nın fa'sı gibi."
+        },
+        {
+          "prompt": "Ecvef bir fiilin meçhulünün ilk harfi … alır.",
+          "options": [
+            "zamme",
+            "fetha",
+            "hiçbir şey",
+            "kesre"
+          ],
+          "explanation": "“İlletli bir ayna bitişince ona kesre ver.”"
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Active": "Ma'lum",
+          "Passive": "Meçhul",
+          "Vowels to note": "Dikkat edilecek harekeler",
+          "ḍamma on the first, kasra before the last": "ilkinde zamme, sondan önce kesre",
+          "the same": "aynısı",
+          "ḍamma on the first and the third": "birinci ve üçüncüde zamme",
+          "ḍamma on the tāʾ and the letter after it": "te'de ve ondan sonraki harfte zamme",
+          "kasra on the first: weak ʿayn": "ilkinde kesre: illetli ayn",
+          "kasra on the third": "üçüncüde kesre"
+        },
+        "caption": "Meçhul maziler ve manzumenin öngördüğü harekeler (tasrif aracı; bi'a Merah'tan)"
+      },
       "text": [
         "Fiili mef'ule isnat edersen, onu getir / ilk harfi zammeli olarak, ve onu kesreli kıl, bitiştiği zaman\nmu'tel bir ayna; ve sondan öncekini / mazide kesre, ve ardından gelen diğerinde fetha kıl.",
         "Vasl hemzeli olanın üçüncü harfini onunla birlikte zammeli kıl; ve / mutavaat tası ile birlikte onu izleyeni zammeli kıl, devamlı olarak;\nve ba'a “sattı” gibisinin fasına [verileni], / ihtara “seçti” ve inkade “boyun eğdi” gibisinin üçüncüsüne ver, daha üstün olan ihtira “seçildi” gibi."
       ]
     },
     "10": {
+      "title": "Emir",
+      "body": [
+        "“Ef'ale'den emir ef'il'dir”: ekrim, “ikram et!”, kat' hemzesiyle; bu, veznin kendi hemzesidir; Merah onu tükrimü'de düşmüş, emirde geri gelmiş olarak gösterir. “Ve ondan başkası için onu, başından kesilmiş meczum fiil-i muzari gibi al”: emir, öneki olmayan meczum fiil-i muzaridir. Tukattı' kattı' verir, tukatil katil verir.",
+        "“Ve hazfedilene bitişmiş harekesiz bir harfse, ona kesreli bir vasl hemzesiyle başla”: tadrib te'sini kaybeder ve sakin bir dad bırakır, bu yüzden idrib. “Lazım bir zammeden önce hemzeye zamme ver”: tensur unsur verir, çünkü aynın sigaya ait bir zammesi vardır. Uğzi, “gazaya git! (kadına)”, sınamadır: ze'sinin, babı zammeli olmasına rağmen kesresi vardır, bu yüzden hemzenin önünde durduğu zamme orada yoktur; “zamme tadı verilmiş bir kesreyle” söylenir ve bu “kabul edilmiştir”. Osmanlı baskısındaki İzzi onu zammeyle yazar.",
+        "Üç fiil kuralı bozar: mür, “emret!”, huz, “al!”, ve kül, “ye!”, “hazfla” şazdır: '-m-r, '-h-z, '-k-l köklerinden ilk hemzelerini düşürürler ve vasl hemzesine muhtaç olmazlar. Ama ve ya da fe'den sonra “ve'mür yayılmıştır”, hemze korunarak, Kur'an'daki ve'mür ehleke bi's-salati (Taha 20/132) gibi. Huz ile kül'ün hemzeli tam sigaları “nadirdir”.",
+        "Kısaca kural: meczumu alın, öneki düşürün; kalan ilk harf sakinse bir vasl hemzesi ekleyin, ayn kalıcı bir zamme taşıyorsa zammeli, değilse kesreli; yalnız ef'ale kendi hemzesini fethayla korur.",
+        "Tasrif aracı her sahih veznin emrini verir; her birinin hemzesini bu kurala göre kontrol edin."
+      ],
+      "terms": [
+        "emir fiili",
+        "emrin kendisinden kesildiği meczum fiil-i muzari",
+        "aynda lazım zamme; ondan önce hemze zamme alır",
+        "işmam: uğzi'deki gibi kesreye zamme tadı"
+      ],
+      "examples": [
+        "ef'ale'den emir ef'il'dir",
+        "tadrib, idrib: önek düşmüş, kesreli hemze (tasrif aracı)",
+        "tensur, unsur: zammeden önce zammeli hemze (tasrif aracı)",
+        "mür, huz, kül: şaz, hemze düşmüş"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tukattı'u, tadribü ve tensuru'dan emri yapın ve her birinin başını açıklayın.",
+          "answer": "Kattı': önek düşünce kaf harekelidir, bu yüzden hemze yok. İdrib: dad sakindir, bu yüzden kesreli bir vasl hemzesi. Unsur: aynısı, ama aynın kalıcı bir zammesi vardır, bu yüzden hemze zamme alır."
+        },
+        {
+          "prompt": "Ekreme'nin emri neden hemzesi fethalı ekrim'dir?",
+          "answer": "Ef'ale'den emir ef'il'dir: hemzesi veznin hemzesidir, fethalı bir kat' hemzesi; tükrimü'de düşmüş, emirde geri gelir."
+        },
+        {
+          "prompt": "Manzume mür, huz ve kül hakkında, bir de ve'mür hakkında ne der?",
+          "answer": "Mür, huz ve kül şazdır, hemzelerini düşürürler; ve'den (ve fe'den) sonra hemze korunur, yayılmış olan ve'mür; huz ile kül'ün tam sigaları nadirdir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ekreme'nin emri …",
+          "options": [
+            "ikrim",
+            "ukrim",
+            "ekrim",
+            "kerrim"
+          ],
+          "explanation": "Ef'ale'den emir ef'il'dir."
+        },
+        {
+          "prompt": "Öbür fiillerin emri … yapılır.",
+          "options": [
+            "maziden",
+            "masdardan",
+            "ism-i failden",
+            "öneksiz meczum fiil-i muzariden"
+          ],
+          "explanation": "“Başından kesilmiş meczum fiil-i muzari gibi.”"
+        },
+        {
+          "prompt": "Vasl hemzesi ne zaman eklenir?",
+          "options": [
+            "Önekten sonra kalan harf sakin olunca",
+            "Her zaman",
+            "Sülaside hiçbir zaman",
+            "Yalnız ef'ale'de"
+          ],
+          "explanation": "İdrib, ama kattı'."
+        },
+        {
+          "prompt": "Vasl hemzesi … zamme alır.",
+          "options": [
+            "bir kesreden önce",
+            "lazım bir zammeden önce",
+            "ef'ale'de",
+            "hiçbir zaman"
+          ],
+          "explanation": "Unsur, üktüb."
+        },
+        {
+          "prompt": "Manzumeye göre uğzi … söylenir.",
+          "options": [
+            "yalın bir fethayla",
+            "hemzesiz",
+            "zamme tadı verilmiş bir kesreyle",
+            "bir kat' hemzesiyle"
+          ],
+          "explanation": "İzzi zamme yazar."
+        },
+        {
+          "prompt": "Mür, huz ve kül …",
+          "options": [
+            "kuraldır",
+            "meçhuldür",
+            "Kufelidir",
+            "hazfla şazdır"
+          ],
+          "explanation": "Hemzeleri düşmüştür."
+        },
+        {
+          "prompt": "Manzumeye göre hangisi yayılmıştır?",
+          "options": [
+            "ve'mür",
+            "ve uhuz",
+            "ükül",
+            "u'mür"
+          ],
+          "explanation": "Taha 20/132'deki gibi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Jussive": "Meczum",
+          "Command": "Emir",
+          "Rule": "Kural",
+          "afʿala: afʿil, a hamza of cutting": "ef'ale: ef'il, kat' hemzesi",
+          "the letter left has a vowel: no hamza": "kalan harf harekeli: hemze yok",
+          "quiescent letter left: hamza with kasra": "kalan harf sakin: kesreli hemze",
+          "before a necessary ḍamma: hamza with ḍamma": "lazım zammeden önce: zammeli hemze",
+          "kasra on the zāy: the hamza said with a touch of ḍamma": "ze'de kesre: hemze zamme tadıyla söylenir",
+          "irregular: the hamza dropped": "şaz: hemze düşmüş"
+        },
+        "caption": "Meczumdan emre (tasrif aracı; uğzi Osmanlı baskısındaki İzzi'den)"
+      },
       "text": [
         "Ef'ale'den emir ef'il'dir; ve başkası için onu / cezmli muzari gibi kıl, ki kesilmiştir\nilk harfi; ve kesreli bir vasl hemzesiyle / başla, eğer [kalan] hazfedilene bitişik sakin bir harf ise.",
         "Lazım zammeden önce hemzeyi zammeli kıl; ve / uğzi “savaş! (kadın)” gibisi, zamme kokusu verilmiş kesre ile kabul edilmiştir.\nHazif ile şazdır mür “emret!”, huz “al!” ve kül “ye!”; ve 'mür “ve emret!” ise yaygınlaşmıştır; / huz ve kül'ü tam getirmek ise nadirdir."
       ]
     },
     "11": {
+      "title": "Sülasinin ism-i faili ve sıfatları",
+      "body": [
+        "“Vezni fe'ule olmayan sülasiden ism-i fail fa'il vezninde yapılır”: darabe'den darib, alime'den alim. Fe'ule dışarıda bırakılır: Merah'ın dediği gibi işler için değil, tabiatlar ve nitelikler için kullanılır ve sıfatları başka vezinler alır.",
+        "“Ve ondan”, fe'ule'den, “sehl ve ez-zarif gibi yapılır”: en yaygın iki vezin fe'l ve fe'il [ya ile], “kolay”, “zarif”. Daha az olarak “ef'al, ya da fe'al, ya da fu'ul”, ve el-furat, “tatlı su” (fu'al), afr (fe'l), el-hasur, “iffetli” (fe'ul), ğumr, “tecrübesiz” (fu'l), akır, “kısır” (fa'il), cünüb, “cünüp” (fu'ul), ve semil, “sarhoş” (fe'il), benzerleri gibi. Bunlar Merah'ın “sıfat-ı müşebbehe” dediği vezinlerdir.",
+        "“Ve fe'ile veznindeki bir lazımdan kendi vezninde yapılır”: fe'il, şec, “kederli”, gibi ve acil, “aceleci”, gibi; ayrıca fe'l (eş-şe'z, “sert”), ef'al (el-eşneb, “ince beyaz dişli”) ve fe'lan (baskımızın yazdığı gibi el-cezlan, “sevinçli”; olağan kelime zel iledir).",
+        "Sonra manzume, ma'nada “bir ilgi için, başkasına kıyasla” bir veznin başka bir sınıftan ödünç alınmasına izin verir: fa'il vezninde fanin, “fani olan”, ve fe'il [ya ile] vezninde el-buhala'nın müfredi, yani bahil, “cimri”; ve fe'ule'den yapmada hafif, tayyib ve eşyeb. Bir kelime, ma'nada benzediği kelimelerin veznini alır.",
+        "Okuyan için ders: bir sıfatın vezni fiili hakkında bir şey söyler. Fa'il bir işe işaret eder (fe'ale, müteaddi fe'ile); fe'l, fe'il [ya ile] ve kardeşleri bir niteliğe (fe'ule); fe'il, ef'al ve fe'lan bir duruma (lazım fe'ile). Sonraki ders, bir olay kastedildiğinde fa'il'in hepsinden yapılabileceğini ekler."
+      ],
+      "terms": [
+        "ism-i fail: sülasiden fa'il",
+        "sıfat-ı müşebbehe: kalıcı bir nitelik",
+        "lazım, şecin'deki fe'ile gibi",
+        "ma'na benzerliği için bir kelimeyi başkasına kıyas etmek"
+      ],
+      "examples": [
+        "darib, alim: fe'ale ve fe'ile'den fa'il (tasrif aracı)",
+        "ke-sehlin ve'z-zarifi: fe'ule'den fe'l ve fe'il [ya ile]",
+        "ke-şecin: lazım fe'ile'den fe'il",
+        "ke-fanin: ma'na benzerliği için ödünç alınmış fa'il"
+      ],
+      "tasks": [
+        {
+          "prompt": "İlk beyte göre fa'il hangi sülasi fiillerden yapılır ve fe'ule neden dışarıda bırakılır?",
+          "answer": "Vezni fe'ule olmayan sülasiden: fe'ale ve fe'ile (darib, alim). Fe'ule kalıcı bir nitelik bildirir ve sıfatları başka vezinler alır (sehl, zarif …)."
+        },
+        {
+          "prompt": "Fe'ule'den sıfatın en yaygın iki veznini manzumenin örnekleriyle verin.",
+          "answer": "Fe'l, sehl, “kolay”, gibi ve fe'il [ya ile], zarif, “zarif”, gibi."
+        },
+        {
+          "prompt": "Manzume lazım bir fe'ile için hangi vezinleri verir?",
+          "answer": "Kendi vezni fe'il (şecin, acil); ayrıca fe'l (eş-şe'z), ef'al (el-eşneb) ve fe'lan (el-cezlan)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fa'il, vezni … olmayan sülasiden yapılır.",
+          "options": [
+            "fe'ale",
+            "fe'ile",
+            "fe'lele",
+            "fe'ule"
+          ],
+          "explanation": "Fe'ule'nin kendi sıfatları vardır."
+        },
+        {
+          "prompt": "Sehl, “kolay”, … veznindedir.",
+          "options": [
+            "fe'l",
+            "fe'il [ya ile]",
+            "fa'il",
+            "fe'il"
+          ],
+          "explanation": "Fe'ule'den en yaygın ikisinden biri."
+        },
+        {
+          "prompt": "Ez-zarif … veznindedir.",
+          "options": [
+            "fe'l",
+            "fe'il [ya ile]",
+            "fe'ul",
+            "fu'al"
+          ],
+          "explanation": "Fe'ule olan zarufe'den."
+        },
+        {
+          "prompt": "Şecin, “kederli”, … gelir.",
+          "options": [
+            "fe'ule'den",
+            "fe'ale'den",
+            "lazım bir fe'ile'den, kendi vezninde",
+            "ef'ale'den"
+          ],
+          "explanation": "Fe'ile'den fe'il."
+        },
+        {
+          "prompt": "El-eşneb … veznindedir.",
+          "options": [
+            "fe'lan",
+            "fe'il",
+            "fa'il",
+            "ef'al"
+          ],
+          "explanation": "Lazım fe'ile'nin vezinlerinden biri."
+        },
+        {
+          "prompt": "Fanin, “fani olan”, … örneği olarak verilir.",
+          "options": [
+            "ma'na benzerliği için ödünç alınmış bir veznin",
+            "fe'ule'nin kendi sıfatının",
+            "ism-i mef'ulün",
+            "masdarın"
+          ],
+          "explanation": "“Bir ilgi için başkasına kıyasla.”"
+        },
+        {
+          "prompt": "Cünüb, “cünüp”, … veznindedir.",
+          "options": [
+            "fe'il",
+            "fu'ul",
+            "fa'il",
+            "fe'il [ya ile]"
+          ],
+          "explanation": "Daha nadir sıfat vezinleri arasında."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Patterns": "Vezinler",
+          "Examples": "Örnekler",
+          "faʿala; faʿila transitive": "fe'ale; müteaddi fe'ile",
+          "fāʿil": "fa'il",
+          "faʿula": "fe'ule",
+          "faʿl, faʿīl": "fe'l, fe'il [ya ile]",
+          "faʿula, less often": "fe'ule, daha az",
+          "fuʿāl, faʿl, faʿūl …": "fu'al, fe'l, fe'ul …",
+          "faʿila intransitive": "lazım fe'ile",
+          "faʿil": "fe'il",
+          "faʿl, afʿal, faʿlān": "fe'l, ef'al, fe'lan"
+        },
+        "caption": "Sülasinin ism-i failleri ve sıfatları (Lamiyye, b. 51–57; darib ve alim tasrif aracından)"
+      },
       "text": [
         "Fail vezni üzere ism-i fail yapılır / vezni fe'ule olmayan sülasiden;\nve ondan sehlin “kolay” ve ez-zarifi “zarif olan” gibi türetilir; ve bazen / ef'al, veya fe'al [elifle], veya fu'ul olur,",
         "ve el-fürati “tatlı [su]”, 'afrin “kötü”, el-hasuri “iffetli olan” ve ğumr / “tecrübesiz”, 'akırin “kısır”, cunübin “cünüp”, ve semila “sarhoş” kelimesine benzeyen gibi;\nve fe'ile vezninde olan lazımdan / kendi vezni üzere türetilir, şecin “kederli” gibi, ve 'acila “aceleci” kelimesine benzeyen,",
@@ -453,12 +1433,251 @@
       ]
     },
     "12": {
+      "title": "Olay için fa'il; uzun fiillerin ism-i fail ve ism-i mef'ulleri; mef'ul",
+      "body": [
+        "“Bir olay kastedilirse fa'il hepsine hizmet eder”: sıfatı sıfat-ı müşebbehe olan bir sülasi bile, bir niteliği bir zamanda olan bir şey olarak söylediğinizde fa'il yapabilir. Örnek: ğaden za cazilin, “yarın bu sevinecek”, olağan sıfatı cezil, “sevinçli”, olan cezile'den. Fa'il vezninde cazil, yarın meydana gelecek sevinçten söz eder.",
+        "“Üç harfli olmayanın ism-i failiyle fiil-i muzarinin vezni gelir, ama başına zamme alan bir mim konur”: yukrimü, mükrim; yestahricu, müstahric. “Ve sondan öncekine fetha verirsen, ism-i mef'ul olur”: mükram, müstahrac. Merah aynı kuralı sebepleriyle verir.",
+        "Sülasiden ism-i mef'ul “mef'ul vezninde”dir: madrub. “Ve fe'il [ya ile] gibi geleni, onunla asıldan çevirmişlerdir”: katil [ya ile], cerih, “öldürülmüş, yaralı”, maktul, mecruh yerine durur, ama kuraldan bir sapmadır, ikinci bir kural değil.",
+        "“Ve mef'ul vezni yerine necen ve en-nisy gibileriyle yetindiler”: necen, “yüzülmüş deri”, ve nisy, “unutulmuş şey”, vezni olmadan meçhul ma'nası taşır. “Ve kural olarak alınmaz”: başka fiiller için böyle kelimeler yapamazsınız; kullanımdan bilinirler.",
+        "Hatırlanacak çiftler: sülasi için fa'il ve mef'ul; her uzun fiil için müf'il ve müf'al (bir hareke farkla). Tasrif aracı her sahih vezin için ikisini de verir."
+      ],
+      "terms": [
+        "hudus: bir zamanda olan bir olay olarak söylenen nitelik",
+        "ism-i mef'ul: mef'ul, ya da uzun fiiller için müf'al",
+        "uzun fiillerin ism-i fail ve ism-i mef'ullerini başlatan zammeli mim",
+        "asıldan çevirme: mef'ul yerine fe'il [ya ile]"
+      ],
+      "examples": [
+        "ğaden za cazilin: gelecek bir olay için fa'il",
+        "mükrim, mükram: bir hareke farkla (tasrif aracı)",
+        "müstahric, müstahrac (tasrif aracı)",
+        "katil [ya ile], cerih: mef'ulden çevrilmiş fe'il [ya ile] (Merah)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Manzume neden cezilün değil de ğaden za cazilin der?",
+          "answer": "Çünkü gelecek bir olay kastedilmiştir: “yarın sevinecek”. Bir olay kastedildiğinde fa'il her fiile hizmet eder; olağan sıfat cezil kalıcı bir niteliği vasfederdi."
+        },
+        {
+          "prompt": "Tasrif aracıyla katele [elifle] ve tefaddale'nin iki ismini yapın ve kuralı söyleyin.",
+          "answer": "Mukatil, mukatel; mütefaddıl, mütefaddal. Önek yerine zammeli bir mimle fiil-i muzarinin vezni; sondan önce ism-i fail için kesre, ism-i mef'ul için fetha."
+        },
+        {
+          "prompt": "Manzume katil [ya ile] hakkında, bir de necen ile nisy hakkında ne der?",
+          "answer": "Katil [ya ile] gibi fe'il [ya ile], asıl olan mef'ulden çevrilmiştir; necen ile nisy mef'ul yerine kullanılır; ikisi de başka fiillere uygulanacak bir kural değildir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fa'il, … herhangi bir sülasiden yapılabilir.",
+          "options": [
+            "bir olay kastedilince",
+            "fiil meçhul olunca",
+            "fiil muzaaf olunca",
+            "cem' olunca"
+          ],
+          "explanation": "Ğaden za cazilin."
+        },
+        {
+          "prompt": "Uzun bir fiilin ism-i faili … başlar.",
+          "options": [
+            "fethalı bir mimle",
+            "zammeli bir mimle",
+            "fiil-i muzarinin önekiyle",
+            "bir hemzeyle"
+          ],
+          "explanation": "Fiil-i muzarinin vezninde."
+        },
+        {
+          "prompt": "Mükrim'i mükram'a ne çevirir?",
+          "options": [
+            "Mimde bir zamme",
+            "Bir vav",
+            "Sondan önce bir fetha",
+            "Bir te"
+          ],
+          "explanation": "“Sondan öncekine fetha verirsen.”"
+        },
+        {
+          "prompt": "Sülasinin ism-i mef'ulü … veznindedir.",
+          "options": [
+            "müf'al",
+            "her zaman fe'il [ya ile]",
+            "fa'il",
+            "mef'ul"
+          ],
+          "explanation": "Darabe'den madrub gibi."
+        },
+        {
+          "prompt": "Maktul ma'nasındaki katil [ya ile] …",
+          "options": [
+            "asıldan bir sapmadır",
+            "kuraldır",
+            "bir ism-i faildir",
+            "bir masdardır"
+          ],
+          "explanation": "“Onunla asıldan çevirmişlerdir.”"
+        },
+        {
+          "prompt": "Necen ile nisy … kelimelerdir.",
+          "options": [
+            "ism-i fail olan",
+            "mef'ul vezni olmadan meçhul ma'nası taşıyan",
+            "fiil olan",
+            "uzun fiillerin masdarı olan"
+          ],
+          "explanation": "“Mef'ul yerine onlarla yetindiler.”"
+        },
+        {
+          "prompt": "Necen gibi kelimeler her fiil için yapılabilir mi?",
+          "options": [
+            "Evet, serbestçe",
+            "Yalnız fe'ule'den",
+            "Hayır: kural olarak alınmaz",
+            "Yalnız şiirde"
+          ],
+          "explanation": "Ve ma umila."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Active": "İsm-i fail",
+          "Passive": "İsm-i mef'ul"
+        },
+        "caption": "İki isim (tasrif aracı)"
+      },
       "text": [
         "Fail hepsine elverişlidir, eğer kastedilen / hudus ise, ğaden za cazilin “yarın bu [kişi] sevinçli [olacak]” gibi, cezila “sevindi” [fiilinden].\nÜçten başkasının ism-i failiyle gelir / muzarinin vezni, fakat başına konulur",
         "zammelenen bir mim; ve eğer sonundan öncekini / fethalı kılarsan, ism-i mef'ul olur; ve elde edilmiştir\nsülasiden mef'ul vezniyle; / ve fe'il [ye ile] gibi gelen, onunla aslından\nçevrilmiştir; ve necen “yüzülmüş deri” / ve en-nisyi “unutulmuş şey” gibileriyle mef'ul vezninden müstağni oldular; ve bu kural yapılmaz."
       ]
     },
     "13": {
+      "title": "Sülasinin masdar vezinleri",
+      "body": [
+        "“Masdarların ortaya koyacağım vezinleri vardır” ve sülasi için manzume uzun bir liste verir, dört beyit vezin adı. Fe'l, fi'l, fu'l ile başlar, sonra aynıları “te'nis te'siyle ya da maksur elife bitişik olarak”, sonra fe'lan, fi'lan, fu'lan. Şairin oğlu Bedreddin, şerhinde (Volck'un neşri), darb, ilm, şuğl, ve leyyan, hirman, şükran gibi örnekler verir.",
+        "Sonra örnekle anılan vezinler: celen, rıdan, hüden ve salah, yani fe'al, fi'al, fu'al ve fe'al [elifle]. “Sonra yalın ya da te'li fe'il'i ekle”: kezib ve sarika. Sonra fe'ale [elifle], ve maksur elifli ve fe'la' vezninde sigalar; fi'ale ve fu'ale, “ve ikisi de te'siz”; fu'ul [vav ile]; fe'il [ya ile], ve te ile fe'ile [ya ile] ve fu'ule; fe'alan; “beynune gibi” fey'alule; ve “şuğul gibi” fu'ul.",
+        "Son iki beyit daha nadir olanları ekler: fu'lel, fe'ul, fe'aliye, fe'iliyye, fu'ulle, fe'ala, fe'alut, fu'ulla, fu'alniye, fu'uliyye (“ve fetha nakledilmiştir”: fe'uliyye de), ve te'li ve te'siz mef'al, mef'il, mef'ul (kısa u ile), “ve zamme nadiren taşınır”. Bedreddin'in örnekleri arasında fu'lel için sudad, fe'ul için kabul, fe'aliye için kerahiye, fu'ulle için ğulübbe ve fu'uliyye için hususiyye vardır.",
+        "Merah, Sibeveyh'in bu tür otuz iki vezin saydığını nakleder ve kendi örnek listesini verir (4. dersi); onların çoğu buradaki aynı vezinleri örnekler ve aşağıdaki tablo örneklerini oradan ve manzumeden alır.",
+        "Bu beyitler bir katalogdur: böyle bir vezindeki kelimenin masdar olabileceğini söyler, bir fiilin hangi masdarı aldığını değil. Sonraki ders bunun kurallarını verir."
+      ],
+      "terms": [
+        "masdar",
+        "zikra'daki gibi te'nisin maksur elifi",
+        "örnekleri şerhi veren şairin oğlu",
+        "mimli masdar: mef'al, mef'il"
+      ],
+      "examples": [
+        "fe'l, fi'l, fu'l: anılan ilk vezinler",
+        "rıdan, hüden, salah: örnekle anılan vezinler (celen'den sonra)",
+        "ke-beynunetin: fey'alule",
+        "mef'al, mef'il, mef'ul (kısa u ile): mimli masdarlar"
+      ],
+      "tasks": [
+        {
+          "prompt": "Bu masdarları vezinlerine göre ayırın: şuğl, hirman, hüden, sarika, beynune, medhal.",
+          "answer": "Şuğl: fu'l. Hirman: fi'lan. Hüden: fu'al. Sarika: fe'ile (te'li fe'il). Beynune: fey'alule. Medhal: mef'al, mimli bir masdar."
+        },
+        {
+          "prompt": "Manzume “sonra yalın ya da te'nis te'sli fe'il'i ekle” sözüyle ne kasteder? Şerhin örneklerini verin.",
+          "answer": "Fe'il'in bir masdar vezni olduğunu; yalnız (kezib, “yalan”) ve te ile (sarika, “hırsızlık”), Bedreddin'in şerhinin örneklediği gibi."
+        },
+        {
+          "prompt": "Bu beyitler belli bir fiilin hangi masdarı aldığını söylemeye neden yetmez?",
+          "answer": "Bulunan vezinlerin bir katalogudur; sülasi masdarlarının çoğu semaen bilinir. Bir fiilin hangi vezni aldığının kuralları, kural varsa, sonraki beyitlerde gelir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Listeyi hangi vezin adları açar?",
+          "options": [
+            "fe'lan, fi'lan, fu'lan",
+            "fe'l, fi'l, fu'l",
+            "mef'al, mef'il",
+            "fi'ale, fu'ale"
+          ],
+          "explanation": "Fe'lün ve fi'lün ve fu'lün."
+        },
+        {
+          "prompt": "Hüden, “hidayet”, … örnekler.",
+          "options": [
+            "fe'al'i",
+            "fi'al'i",
+            "fu'al'i",
+            "fe'al [elifle]'i"
+          ],
+          "explanation": "Celen, rıdan, hüden: fe'al, fi'al, fu'al."
+        },
+        {
+          "prompt": "Beynune … örnekler.",
+          "options": [
+            "fe'ule'yi",
+            "fu'ule'yi",
+            "fe'lune'yi",
+            "fey'alule'yi"
+          ],
+          "explanation": "“Ya da beynunetin gibi.”"
+        },
+        {
+          "prompt": "Hirman, “mahrumiyet”, … veznindedir.",
+          "options": [
+            "fi'lan",
+            "fe'lan",
+            "fu'lan",
+            "fe'alan"
+          ],
+          "explanation": "Üç -an vezninden biri."
+        },
+        {
+          "prompt": "Zikra, “anma”, … taşır.",
+          "options": [
+            "te'yi",
+            "te'nisin maksur elifini",
+            "bir mimi",
+            "-an sonunu"
+          ],
+          "explanation": "Maksur elifli fi'l."
+        },
+        {
+          "prompt": "Burada anılan örnekleri kimin şerhi verir?",
+          "options": [
+            "Sibeveyh'in",
+            "Kisai'nin",
+            "şairin oğlu Bedreddin'in",
+            "Ahdari'nin"
+          ],
+          "explanation": "1866 Volck neşrinde."
+        },
+        {
+          "prompt": "Masdar olarak medhal … veznindedir.",
+          "options": [
+            "mef'il",
+            "müf'al",
+            "mef'ul",
+            "mef'al"
+          ],
+          "explanation": "Mimli bir masdar."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Patterns": "Vezinler",
+          "Examples": "Örnekler",
+          "faʿl, fiʿl, fuʿl": "fe'l, fi'l, fu'l",
+          "the same with the tāʾ": "aynıları te ile",
+          "with the shortened alif": "maksur elifle",
+          "faʿlān, fiʿlān, fuʿlān": "fe'lan, fi'lan, fu'lan",
+          "fiʿal, fuʿal, faʿāl (and faʿal: jalan)": "fi'al, fu'al, fe'al [elifle] (ve fe'al: celen)",
+          "faʿil, faʿila": "fe'il, fe'ile",
+          "faʿāla, fiʿāla": "fe'ale [elifle], fi'ale",
+          "faʿāl, fiʿāl, fuʿāl": "fe'al [elifle], fi'al [elifle], fu'al [elifle]",
+          "fuʿūl, faʿūl, faʿīl": "fu'ul [vav ile], fe'ul, fe'il [ya ile]",
+          "fayʿalūla": "fey'alule",
+          "fuʿul": "fu'ul",
+          "with the mīm": "mimli"
+        },
+        "caption": "Sülasinin masdar vezinleri (Lamiyye, b. 62–70; örnekler manzumeden ve Merah'ın listesinden)"
+      },
       "text": [
         "Masdarların açıklayacağım vezinleri vardır: / sülasi için, seçilmiş olarak göstereceğim şunlar:\nfe'l, fi'l ve fu'l, veya [bunlar] te'nis tasıyla / veya maksur elife bitişik olarak,",
         "fe'lan, fi'lan, fu'lan; ve celen “açıklık”, / ridan “rıza”, hüden “hidayet” ve salahin “salah” gibisi; sonra fe'il ekle,\nyalın veya te'nis tasıyla; sonra fe'alet; / ve maksur [elif] ile ve fe'la' [olarak] kabul edilmişlerdir;",
@@ -467,6 +1686,142 @@
       ]
     },
     "14": {
+      "title": "Bir sülasi fiil hangi masdarı alır",
+      "body": [
+        "Şimdi, kullanımın belirlemediği yerde kurallar (kıyas). “Fe'l müteaddinin kuralıdır”: Merah'taki gibi darabe darben. “Ve ondan başkası için fu'ul [vav ile]”, lazım fe'ale: dahale duhulen. “Bir ses fiili hariç: bunun için fu'al [elifle] açıktır”: ağlama ya da seslenme bildiren lazım bir fiil fu'al [elifle] alır.",
+        "“Ve fe'ile veznindekinin masdarı, müteaddi değilse, fe'al olmayı hak eder”: Merah'tan vecile vecelen, “korktu, bir korku”. “Ve fe'ule için fe'ale [elifle] ya da fu'ule'yi kural olarak al”: şecu'a'dan eş-şeca'a, “cesaret”, ve sehule, “kolay oldu”, fiilinin masdarı suhule.",
+        "“Bunun dışındaki her şey semaidir”: bu kuralların dışındaki bir fiilin masdarı, Arapların ona verdiğidir, kullanımdan öğrenilir. Sonra ma'naya göre bir takım vezin. Fe'il [ya ile] “seste çoktur”: gürültü fiillerinin (kişneme, anırma) çoğu zaman bu vezni vardır. “Acı veren hastalık için fu'al [elifle] vezni”, hastalık adları olarak; “ve kaçma ma'nasındaki ya da kaçmaya benzeyen için”, reddetme, uzaklaşma, fi'al [elifle], firar, “kaçış”, gibi.",
+        "“Fe'ale [elifle] nitelikler içindir, fi'ale'yi de bir zanaat ya da bir makam için bırak”: fe'ale [elifle] bir huyu, fi'ale bir meslek ya da bir idare makamını adlandırır. Bedreddin'in başka yerlerde bu vezinler için örnekleri arasında zarafe, “zariflik”, ve kitabe, “yazı, katiplik zanaatı”, vardır. Son olarak, “bir kerelik için fe'le'yi, tarz için de çoğunlukla fi'le'yi koydular, mişyeti'l-huyela gibi”, “kibirlilerin yürüyüşü”: darbe, “bir vuruş”, ama mişye, “bir yürüyüş tarzı”. Merah aynı çifti söyler: “bir kerelik için fe'le, tarz için fi'le”.",
+        "Bu kurallar bilinmeyen bir fiil için iyi bir tahmin verir; kullanım, bilindiği yerde, her zaman galip gelir."
+      ],
+      "terms": [
+        "kıyas: bir fiilin vezninden beklenen masdar",
+        "sema': yalnız kullanımdan bilinen masdarlar",
+        "bir kerelik için fe'le",
+        "tarz için fi'le"
+      ],
+      "examples": [
+        "darabtü darben: müteaddi için fe'l (Merah)",
+        "vecile vecelen: lazım fe'ile için fe'al (Merah)",
+        "ke'ş-şeca'ati: fe'ule için fe'ale [elifle]",
+        "ke-mişyeti'l-huyela: tarz için fi'le"
+      ],
+      "tasks": [
+        {
+          "prompt": "Şunlar için beklenen masdar veznini verin: müteaddi fe'ale; lazım fe'ale; lazım fe'ile; fe'ule.",
+          "answer": "Müteaddi: fe'l (darb). Lazım fe'ale: fu'ul [vav ile] (duhul), ya da bir ses fiili için fu'al [elifle]. Lazım fe'ile: fe'al (vecel). Fe'ule: fe'ale [elifle] ya da fu'ule (şeca'a, suhule)."
+        },
+        {
+          "prompt": "Manzume hangi vezinleri fiil vezinlerine değil ma'nalara bağlar?",
+          "answer": "Fe'il [ya ile], sesler için çok; acı veren hastalık için fu'al [elifle]; kaçma ve benzeri için fi'al [elifle]; nitelikler için fe'ale [elifle]; zanaat ve makamlar için fi'ale; bir kerelik için fe'le; tarz için fi'le."
+        },
+        {
+          "prompt": "Fe'le ile fi'le arasındaki fark nedir? Manzumenin örneğini kullanın.",
+          "answer": "Fe'le işin bir kez olmasını adlandırır (bir vuruş, bir yürüyüş); fi'le onun tarzını adlandırır, mişyeti'l-huyela, “kibirlilerin yürüyüşü”, gibi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Müteaddi bir sülasinin masdarı kural olarak …",
+          "options": [
+            "fu'ul [vav ile]",
+            "fe'al",
+            "fe'l",
+            "fi'ale"
+          ],
+          "explanation": "Fe'lün makisü'l-müadda."
+        },
+        {
+          "prompt": "Dahale duhulen … örnekler.",
+          "options": [
+            "müteaddi için fe'l'i",
+            "fe'ile için fe'al'i",
+            "ses için fu'al [elifle]'i",
+            "lazım fe'ale için fu'ul [vav ile]'i"
+          ],
+          "explanation": "“Ondan başkası için fu'ul [vav ile].”"
+        },
+        {
+          "prompt": "Vecile vecelen … örnekler.",
+          "options": [
+            "lazım bir fe'ile için fe'al'i",
+            "fe'l'i",
+            "fu'ul [vav ile]'i",
+            "fe'ale [elifle]'yi"
+          ],
+          "explanation": "Manzumenin 72. beyti gibi."
+        },
+        {
+          "prompt": "Eş-şeca'a, “cesaret”, … örnekler.",
+          "options": [
+            "zanaat için fi'ale'yi",
+            "fe'ule için fe'ale [elifle]'yi",
+            "bir kerelik için fe'le'yi",
+            "hastalık için fu'al [elifle]'i"
+          ],
+          "explanation": "Şecu'a'dan."
+        },
+        {
+          "prompt": "Firar, “kaçış”, … veznindedir.",
+          "options": [
+            "hastalık için fu'al [elifle]",
+            "fe'al [elifle]",
+            "kaçma için fi'al [elifle]",
+            "fu'ul [vav ile]"
+          ],
+          "explanation": "“Kaçma ma'nasındaki için fi'al [elifle].”"
+        },
+        {
+          "prompt": "Fi'ale … içindir.",
+          "options": [
+            "bir nitelik",
+            "bir kerelik",
+            "bir ses",
+            "bir zanaat ya da makam"
+          ],
+          "explanation": "Fe'ale [elifle] nitelikler içindir."
+        },
+        {
+          "prompt": "Kuralların önüne ne geçer?",
+          "options": [
+            "Kullanım (sema')",
+            "Vezin",
+            "Tayy lehçesi",
+            "Hiçbir şey"
+          ],
+          "explanation": "“Bunun dışındaki her şey semaidir.”"
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb or meaning": "Fiil ya da ma'na",
+          "Maṣdar": "Masdar",
+          "Example": "Örnek",
+          "transitive": "müteaddi",
+          "faʿl": "fe'l",
+          "faʿala, intransitive": "fe'ale, lazım",
+          "fuʿūl": "fu'ul [vav ile]",
+          "a verb of sound": "ses fiili",
+          "fuʿāl; faʿīl frequent": "fu'al [elifle]; fe'il [ya ile] çok",
+          "faʿila, intransitive": "fe'ile, lazım",
+          "faʿal": "fe'al",
+          "faʿula": "fe'ule",
+          "faʿāla, fuʿūla": "fe'ale [elifle], fu'ule",
+          "a painful illness": "acı veren hastalık",
+          "fuʿāl": "fu'al [elifle]",
+          "fleeing and its like": "kaçma ve benzeri",
+          "fiʿāl": "fi'al [elifle]",
+          "a quality": "nitelik",
+          "faʿāla": "fe'ale [elifle]",
+          "a craft or an office": "zanaat ya da makam",
+          "fiʿāla": "fi'ale",
+          "one time": "bir kerelik",
+          "faʿla": "fe'le",
+          "a manner": "tarz",
+          "fiʿla": "fi'le"
+        },
+        "caption": "Sülasi masdarın kuralları (Lamiyye, b. 71–77; örnekler manzumeden ve Merah'tan)"
+      },
       "text": [
         "Fe'l müteaddinin kıyasıdır, fu'ul [vav ile] ise başkası / için, ses fiili hariç: onun için fu'al açıktır;\nve fe'ile üzere olanın masdarı hak eder, / müteaddi değilse, fe'al olmayı;\nve fe'ulte için fe'alet veya fu'uleti kıyas et, / eş-şeca'ati “cesaret” gibi ve sehüla “kolay oldu” üzerine cereyan eden gibi.",
         "Bunun dışındaki her şey semaidir; ve çoktur / seste el-fe'il [ye ile]; ve acı veren hastalık için, onun\nma'nasını ortaya koyan fu'al veznidir, öyleyse kıyas edilsin; ve / kaçma [anlamı] olan veya kaçma gibi olan için fi'al öne çıkar.",
@@ -474,12 +1829,252 @@
       ]
     },
     "15": {
+      "title": "Uzun fiillerin masdarları",
+      "body": [
+        "Uzun fiillerin düzenli masdarları vardır ve manzume onları birkaç kuralda söyler. Önce vasl hemzeli fiiller: masdarları “üçüncü harfte kesreyle” ve “sonun ardından geldiği harfin uzatılmasıyla”, son harften önce uzun bir a ile yapılır. İhtakara ihtikar, inkesera inkisar, istahrace istihrac verir: hemzeyi birinci harf sayın, üçüncüsü (te, kef, te) kesrelidir.",
+        "“Ve başına te eklenen bir fiilde ona zamme ver”: tefa''ale, tefa'ale ve tefa'lele'nin masdarı, sondan önceki harfte zammeyle mazinin kendisidir: tefaddale, tefaddul; tedarabe, tedarub. “Ve illeti kabul eden bir harften önce ona kesre ver”: son kök harfi illetli olunca ondan önceki zamme kesre olur.",
+        "“Fe'lele için fi'lal ve fe'lele getir”: Merah'ın kaydettiği gibi zelzele, zilzal; Maksud'un okuduğu gibi dahrace, dahrace ve dihrac.",
+        "“Ve fe''ale için, illetli lamdan arınmış olduğu yerde, et-tef'il yap”: katta'a, taktı'. “Onu taşıyan için tef'ile'yi gerekli kıl”: lamı illetli bir fe''ale fiili te'li tef'ile alır, hiçbir zaman tef'il değil. “Ve ondan arınmış olana bazen tef'ile verilmiştir”: sahih bir fe''ale fiilinin tef'il'in yanında tef'ile'si de olabilir.",
+        "Tasrif aracı mezid bir veznin masdarını verirken bu kurallara uyar. Sülasi için, son derslerin gösterdiği gibi, hiç vermez: o masdarlar öğrenilir."
+      ],
+      "terms": [
+        "uzun bir fiilin kıyasi masdarı",
+        "medd: ifti'al, istif'al'de son harften önceki uzun a",
+        "fe''ale'nin iki masdarı",
+        "son kök harfi illetli fiil"
+      ],
+      "examples": [
+        "ihtikar, inkisar, istihrac: üçüncüde kesre, sondan önce a (tasrif aracı)",
+        "tefaddul, tedarub: sondan önce zamme (tasrif aracı)",
+        "zelzele'den zilzal: fi'lal (Merah)",
+        "katta'a'dan taktı': tef'il (tasrif aracı)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tasrif aracıyla ihtakara ve istahrace'nin masdarını yapın ve hangi harfin kesre aldığını söyleyin.",
+          "answer": "İhtikar ve istihrac (اِحْتِقَارٌ، اِسْتِخْرَاجٌ). Hemze birinci harf sayılınca üçüncü harf (ikisinde de te) kesre alır ve son harften önce uzun bir a durur."
+        },
+        {
+          "prompt": "Tefa''ale ile tefa'ale'nin masdarı nasıl yapılır?",
+          "answer": "Mazinin kendisinden, sondan önceki harfte zammeyle: tefaddul, tedarub (illetli bir son harften önce onun yerine kesre)."
+        },
+        {
+          "prompt": "Fe''ale ne zaman tef'il, ne zaman tef'ile alır?",
+          "answer": "Son kök harfi sahih olunca tef'il (katta'a, taktı'); illetli olunca vücuben tef'ile; sahih bir fe''ale'nin bazen tef'ile'si de olur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Vasl hemzeli bir fiilin masdarında kesre … düşer.",
+          "options": [
+            "birinci harfe",
+            "ikinci harfe",
+            "son harfe",
+            "üçüncü harfe"
+          ],
+          "explanation": "İhtikar, istihrac."
+        },
+        {
+          "prompt": "O masdarın son harfinden önce … durur.",
+          "options": [
+            "uzun bir a",
+            "uzun bir i",
+            "uzun bir u",
+            "hiçbir şey"
+          ],
+          "explanation": "“Sonun ardından geldiği harfin uzatılmasıyla.”"
+        },
+        {
+          "prompt": "Tefaddale'nin masdarı …",
+          "options": [
+            "tafdil",
+            "tefaddul",
+            "tefaddal",
+            "tifiddal"
+          ],
+          "explanation": "Sondan önceki harfte bir zamme."
+        },
+        {
+          "prompt": "Fe'lele masdar olarak … alır.",
+          "options": [
+            "tef'il",
+            "if'ilal",
+            "fi'lal ve fe'lele",
+            "müfa'ale"
+          ],
+          "explanation": "Zilzal; dahrace, dihrac."
+        },
+        {
+          "prompt": "Son harfi sahih fe''ale … alır.",
+          "options": [
+            "vücuben tef'ile",
+            "yalnız fi''al",
+            "müfe''al",
+            "tef'il"
+          ],
+          "explanation": "Katta'a, taktı'."
+        },
+        {
+          "prompt": "Son harfi illetli fe''ale … alır.",
+          "options": [
+            "vücuben tef'ile",
+            "tef'il",
+            "fi'lal",
+            "masdar almaz"
+          ],
+          "explanation": "“Onu taşıyan için tef'ile'yi gerekli kıl.”"
+        },
+        {
+          "prompt": "İlletli bir son harften önce tefe''ul'ün zammesi … olur.",
+          "options": [
+            "fetha",
+            "kesre",
+            "sükun",
+            "vav"
+          ],
+          "explanation": "“İlleti kabul eden bir harften önce ona kesre ver.”"
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Past": "Mazi",
+          "Maṣdar": "Masdar",
+          "Rule": "Kural",
+          "kasra on the third, ā before the last": "üçüncüde kesre, sondan önce a",
+          "the same": "aynısı",
+          "ḍamma before the last": "sondan önce zamme",
+          "faʿlala: fiʿlāl": "fe'lele: fi'lal",
+          "faʿlala: faʿlala and fiʿlāl": "fe'lele: fe'lele ve fi'lal",
+          "faʿʿala: tafʿīl": "fe''ale: tef'il"
+        },
+        "caption": "Uzun fiillerin masdarları (tasrif aracı; zelzele Merah'tan, dahrace Maksud'dan)"
+      },
       "text": [
         "Vasl hemzeli [fiilin] üçüncü harfinin kesresiyle, onu taşıyan bir fiilin / masdarı [yapılır], sonun izlediği harfin uzatılmasıyla birlikte;\nve başına ta ziyade edilen fiilde onu zammeli kıl, / ve illeti kabul eden bir harften önce onu kesreli kıl.",
         "Fe'lele için fi'lal ve fe'lelet getir; / ve fe''ale için et-tef'ili kıl, mu'tel bir lamdan\nboş olduğu yerde; onu taşıyan için tef'ileti / lazım kıl; ondan boş olana da [tef'ilet] bazen verilmiştir."
       ]
     },
     "16": {
+      "title": "Uzun fiillerin başka masdarları ve bir kerelik te'si",
+      "body": [
+        "Daha az yaygın bazı masdarlar da doğrudur ve manzume onları kullananı över: “tefa''ale ile tifi''al'i, fe''ale ile el-fi''al'i birleştireni yaptığı için öv”. Merah tehammele'den tihimmal'i, kelleme'den killam'ı verir; Kur'an'da ve kezzebu bi-ayatina kizzaben (Nebe 78/28) vardır, kezzebe'den kizzab.",
+        "“Ve bir işin çoğaltılmasında fe''ale için tef'al getirilebilir, tesyar gibi”, “çok yolculuk”. Merah, mübalağa masdarları arasında et-tehdar ve et-tel'ab'ı sayar. Ve fi''ila, “mübalağa için sülasiden” yapılır, Merah'taki el-hissisa ve ed-dillila gibi; tefa'ul'ün yerine de durabilir.",
+        "“El-fu'allile ile if'alelle'yi müstağni kıldılar”, “vücuben değil”: if'alelle, düzenli masdarının yanında fu'allile de alabilir; Bedreddin'in şerhi bunu kuşa'rire, “ürperme”, ve tuma'nine, “sükunet”, ile örnekler. “Fa'ale için fi'al [elifle] ya da müfa'ale yap”, katele [elifle], mukatele ve kıtal gibi; “ve fi'le ikisinin yerine durmuştur”.",
+        "Sonra te. Ecvef fiilde if'al ile istif'al bir te alır “ve onunla giderilen şeyin ivazı meydana gelir”: ekame, ikame; istakame, istikame. Düşen illet harfi te ile telafi edilir (Merah aynı te'yi ve Kur'an'daki te'siz ikame'yi ele alır).",
+        "Başka herhangi bir masdara eklenince te bir kerelik ismi yapar: “işi yapanın tek bir kerelik işi onunla açıklanır”. Masdarın zaten kendine ait bir te'si varsa, tek kerelik “anlayan için vahide anılarak görünür”, “bir”: onun yerine “bir” kelimesini eklersiniz."
+      ],
+      "terms": [
+        "tefa''ale ve fe''ale'nin daha nadir masdarları: tihimmal, kizzab",
+        "teksir: tef'al'ın ma'nası, bir işin çoğaltılması",
+        "ikame'deki gibi ivaz te'si",
+        "te ile yapılan bir kerelik ismi"
+      ],
+      "examples": [
+        "tihimmal, killam: tifi''al ve fi''al (Merah)",
+        "et-tehdar, et-tel'ab: çok yapma için tef'al (Merah)",
+        "katele [elifle]'den mukatele: müfa'ale (tasrif aracı)",
+        "el-ikame, el-istikame: ivaz te'si (Merah)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Manzumenin tefa''ale ve fe''ale için onayladığı daha az yaygın masdarları, her birine bir örnekle verin.",
+          "answer": "Tefa''ale için tifi''al (tahammele'den tihimmal) ve fe''ale için fi''al (kelleme'den killam; Nebe 78/28'de kezzebe'den kizzab). Ayrıca bir işin çoğaltılmasında fe''ale için tef'al (tesyar)."
+        },
+        {
+          "prompt": "İkame'de neden te vardır?",
+          "answer": "Ecvef bir fiilin if'al'idir: illet harfi değişmede giderilmiştir ve onun ivazı olarak te eklenmiştir. İstikame de aynıdır."
+        },
+        {
+          "prompt": "Bir masdardan ve zaten te'si olan bir masdardan bir kerelik ismi nasıl yapılır?",
+          "answer": "Masdara te ekleyerek; masdarın zaten te'si varsa (ikame gibi), vahide, “bir”, kelimesini ekleyerek."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Tihimmal … fiilinin masdarıdır.",
+          "options": [
+            "tahammele",
+            "hamele",
+            "hammele",
+            "ihtemele"
+          ],
+          "explanation": "Tefa''ale için tifi''al."
+        },
+        {
+          "prompt": "Nebe 78/28'deki kizzab … fiilinin masdarıdır.",
+          "options": [
+            "fi''al vezninde kezebe",
+            "fi''al vezninde kezzebe",
+            "tekazebe",
+            "ekzebe"
+          ],
+          "explanation": "Manzumenin onayladığı, fe''ale için fi''al."
+        },
+        {
+          "prompt": "Tesyar gibi tef'al … bildirir.",
+          "options": [
+            "bir kereliği",
+            "bir tarzı",
+            "bir işin çoğaltılmasını",
+            "bir zanaatı"
+          ],
+          "explanation": "Fi teksiri fi'lin."
+        },
+        {
+          "prompt": "Tasrif aracında katele [elifle]'nin düzenli masdarı …",
+          "options": [
+            "taktil",
+            "kıtlal",
+            "iktital",
+            "mukatele"
+          ],
+          "explanation": "Manzume fi'al [elifle]'e de izin verir."
+        },
+        {
+          "prompt": "İkame'nin te'si …",
+          "options": [
+            "giderilen harfin ivazıdır",
+            "bir kerelik alametidir",
+            "cem'-i müennes alametidir",
+            "bir kök harfidir"
+          ],
+          "explanation": "Ecvef fiillerin if'al ve istif'al'inde."
+        },
+        {
+          "prompt": "Başka masdarlara eklenince te … yapar.",
+          "options": [
+            "bir mekan ismi",
+            "bir kerelik ismi",
+            "bir cem'",
+            "bir ism-i tasgir"
+          ],
+          "explanation": "“Tek bir kerelik … onunla açıklanır.”"
+        },
+        {
+          "prompt": "Zaten te'si olan bir masdar için bir kerelik nasıl gösterilir?",
+          "options": [
+            "İkinci bir te ile",
+            "Bir mimle",
+            "Vahide ekleyerek",
+            "Gösterilemez"
+          ],
+          "explanation": "“Vahide anılarak.”"
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Maṣdar": "Masdar",
+          "Note": "Not",
+          "tifiʿʿāl for tafaʿʿala": "tefa''ale için tifi''al",
+          "fiʿʿāl for faʿʿala": "fe''ale için fi''al",
+          "tafʿāl: much doing": "tef'al: çok yapma",
+          "fiʿʿīlā: intensity": "fi''ila: mübalağa",
+          "mufāʿala; also fiʿāl": "müfa'ale; ayrıca fi'al [elifle]",
+          "the tāʾ for the dropped letter": "düşen harf için te"
+        },
+        "caption": "Daha nadir masdarlar ve te (Lamiyye, b. 81–89; örnekler Merah'tan ve tasrif aracından)"
+      },
       "text": [
         "Kim tefe''ale'yi tifi''al ile, ve / fe''ale'yi el-fi''al ile birleştirirse, yaptığından dolayı onu öv;\nve bazen fe''ale için tef'al getirilir, / bir fiilin çokluğunda, tesyarin “çok yolculuk” gibi; ve kılınmıştır\nsülasi için fi''ila, mübalağa için; / ve tefa'ul'den de bazen bedel olarak görülür.",
         "El-fu'allilet ile if'alelle'yi / müstağni kıldılar, lazım olarak değil; öyleyse örnekleri bil.\nFa'ale için fi'al veya mufaale kıl; / ve fi'let ikisinin yerine geçmiştir: öyleyse kabul et.",
@@ -487,6 +2082,130 @@
       ]
     },
     "17": {
+      "title": "Mef'al ve mef'il: kural ve istisnaları",
+      "body": [
+        "Mimli tek bir vezin üç şeye hizmet eder: masdara (“mimli masdar”), mekana ve zamana. “Yef'ilü'sü olmayan sülasiden mef'al getir”, ikisi için de, “masdar için ya da [işin] içinde yapıldığı şey için”: fiil-i muzarinin fethası ya da zammesi olduğu yerde her şey mef'aldir, Merah'taki mezheb, medhal, maktel gibi.",
+        "“Lamı illetli olan da mutlak olarak böyledir”: rama yermi'den merma, fiil-i muzarisi kesreli olmasına rağmen fethalıdır. “Ve fa vav olunca” isim “mutlak olarak kesreyle gelir”: mev'id, mevcil, fiil-i muzarinin fethası olduğu yerde bile (vecile yevcelü). Ama “lam illetli olunca vavın fa olmasının etkisi yoktur”, mevlen gibi: illetli lamın fethası galip gelir (ve şair vela', “öyleyse dostluğu koru”, üzerine bir cinas ekler).",
+        "“Bunun dışında”, yef'ilü'lü, lamı sahih ve vavsız fiilde: “masdar için ayna fetha, ondan başkasında kesre ver”. Böylece celese yeclisü'den mekan, İzzi'deki gibi kesreyle el-meclis'tir, mimli masdarı ise fetha alır. Tek bir hareke masdarı mekandan ayırır. Maksud aynı kuralı söyler ve yine de kesreyle gelen masdarlar olarak el-merci' ile el-masir'i anar.",
+        "“Ve bundan ayrılan şazdır”: uzun bir liste gelir, mazleme, matla', mecma', mahmede, mezemme, mensek, mazanne, mezelle, mefrak, madalle, medebb, mahşer, mesken, mahall, ma'cez, mehleke, ma'tebe; vada'a ile vecile'den mef'al; hasibe ile darabe'den mef'ale ve mevka'a. “Bunların hepsine iki yol verilmiştir”: kurala aykırı olarak iki harekeyle de duyulmuşlardır. Harekelerimiz onları fethayla veren Volck'a uyar; şerh her birinin ikisini de taşıdığını söyler.",
+        "Merah ile karşılaştırın (27. dersi): aynı kuralı gelecekten verir (yef'alü'den mef'al, yef'ilü'den mef'il, istisna olarak misal ve nakıs) ve kendi kesreli isimler listesini verir. Lamiyye masdar kullanımını ve iki harekeli kelimeleri ekler."
+      ],
+      "terms": [
+        "medhal gibi mimli masdar",
+        "el-meclis gibi ism-i zaman ve ism-i mekan",
+        "lamı illetli: her zaman mef'al",
+        "iki yol: fethayla da kesreyle de duyulan kelimeler"
+      ],
+      "examples": [
+        "el-mezheb, el-merma: mef'al (Merah)",
+        "mev'id: fa vav olunca mef'il (Merah)",
+        "ke-mevlen: illetli lam vava galip gelir",
+        "mazleme, matla', mecma', mahmede: iki yollu kelimeler"
+      ],
+      "tasks": [
+        {
+          "prompt": "Şunlar için masdarın ve mekanın veznini verin: zehebe yezhebü; rama yermi; ve'ade ye'idü; celese yeclisü.",
+          "answer": "Zehebe: ikisi için mef'al (mezheb). Rama: lam illetli olduğu için ikisi için mef'al (merma). Ve'ade: fa vav olduğu için ikisi için mef'il (mev'id). Celese: masdar için mef'al, mekan ve zaman için mef'il (el-meclis)."
+        },
+        {
+          "prompt": "Mevlen, fa'sı vav olmasına rağmen neden mef'al veznindedir?",
+          "answer": "Çünkü lamı da illetlidir ve manzume lam illetli olunca vavın fa olmasının etkisi olmadığını söyler: illetli lamın fethası galip gelir."
+        },
+        {
+          "prompt": "Manzume mazleme, matla', mecma' ve listesinin geri kalanı hakkında ne der?",
+          "answer": "Kuraldan ayrıldıklarını (şaz olduklarını) ve hepsinin iki yolla, fetha ve kesreyle, duyulduğunu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Yef'ilü'sü olmayan bir sülasiden masdar ve mekan …",
+          "options": [
+            "mef'il",
+            "mef'al",
+            "müf'al",
+            "mif'al"
+          ],
+          "explanation": "Mezheb gibi."
+        },
+        {
+          "prompt": "Lamı illetli bir fiil … yapar.",
+          "options": [
+            "mutlak olarak mef'il",
+            "yalnız mekan için mef'al",
+            "mutlak olarak mef'al",
+            "mekan ismi yapmaz"
+          ],
+          "explanation": "Rama yermi'den merma, fiil-i muzarisi kesreli olmasına rağmen."
+        },
+        {
+          "prompt": "Fa vav olunca isim …",
+          "options": [
+            "mef'al",
+            "müf'al",
+            "mif'al",
+            "mutlak olarak mef'il"
+          ],
+          "explanation": "Mev'id, mevcil."
+        },
+        {
+          "prompt": "Mevlen gösterir ki …",
+          "options": [
+            "illetli lam fa olan vavın önüne geçer",
+            "vav her zaman kesre verir",
+            "mekanın zammesi vardır",
+            "şazdır"
+          ],
+          "explanation": "“Lam illetli olunca vavın fa olmasının etkisi yoktur.”"
+        },
+        {
+          "prompt": "Yef'ilü'lü bir fiilden mimli masdar kural olarak …",
+          "options": [
+            "mef'il",
+            "mef'al",
+            "müf'al",
+            "mif'al"
+          ],
+          "explanation": "Masdar için fetha; Maksud el-merci' ile el-masir'i istisna eder."
+        },
+        {
+          "prompt": "Celese yeclisü'den el-meclis … vezninde bir mekan ismidir.",
+          "options": [
+            "mef'al",
+            "müf'il",
+            "mef'il",
+            "mif'al"
+          ],
+          "explanation": "İzzi'deki gibi masdardan başkası için kesre."
+        },
+        {
+          "prompt": "Ve'ade'den mev'id mef'il veznindedir, çünkü …",
+          "options": [
+            "lamı illetlidir",
+            "fiil-i muzarisi fethalıdır",
+            "şazdır",
+            "fa'sı vavdır"
+          ],
+          "explanation": "Fa vav olunca isim mutlak olarak kesreyle gelir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Maṣdar": "Masdar",
+          "Place, time": "Mekan, zaman",
+          "Example": "Örnek",
+          "yafʿalu or yafʿulu": "yef'alü ya da yef'ulü",
+          "mafʿal": "mef'al",
+          "weak lām": "illetli lam",
+          "wāw as fāʾ": "fa olarak vav",
+          "mafʿil": "mef'il",
+          "wāw as fāʾ, weak lām": "fa olarak vav, illetli lam",
+          "yafʿilu, the rest": "yef'ilü, geri kalan",
+          "the listed words": "sayılan kelimeler",
+          "both ways": "iki yol"
+        },
+        "caption": "Mef'al ve mef'il (Lamiyye, b. 90–97; örnekler manzumeden ve Merah'tan)"
+      },
       "text": [
         "Yef'ilü'sü olmayan sülasiden mef'al getir / masdar için, veya [fiilin] içinde yapıldığı şey için;\naynı şekilde lamı mu'tel olan, mutlak olarak; ve / fası vav olduğunda, [isim] mutlak olarak kesre ile gelir.",
         "Vavın fa olması etki etmez, / lam mu'tel olduğunda, mevlen “efendi” gibi: öyleyse samimi dostluğu gözet.\nBunun dışında masdar için aynı fethalı kıl, ve başkasında / kesreli; ve bundan sapan şazdır:",
@@ -495,6 +2214,130 @@
       ]
     },
     "18": {
+      "title": "Yalnız kesreli kelimeler ve öbür fiiller",
+      "body": [
+        "“Yalnız kesreyi koru” başka bir takımda: merfik, “dirsek”, ma'sıye, “isyan”, mescid, “mescit”, mekbir, “yaşlılık”, ve “develeri barındıran” sığınak, me'vin. Sonra beytin emirleriyle andığı fiillerden mef'ile kelimeleri: iğfir'den mağfire, “bağışlama”; i'rif'ten ma'rife, “bilgi”; uzr, ihmi, raza ve uznun'dan benzerleri; ve menbit, “bitme yeri”.",
+        "“Ve mef'il'e kat”: uşruk, uğrub, uskut, race'a ve iczur, “doğ, bat, düş, dön, kes”, fiillerinden isimler: meşrik, mağrib, meskıt, merci', meczir. Bunların birçoğu, Merah'ın gelecekte zammeli fiillerden saydığı on bir kesreli isim arasındadır. Sonra ikdir, uşruk ve ukbur'dan, bir de erib'den mef'ile; ve biri üç harekenin hepsini alır (beyit “dördüncüsü” der; o mısraın sonu hakkındaki okuyuşumuz şüphelidir). “Mehlik'e de böylece üç hareke verilmiştir”: mehlek, mehlik ve mehlük, “helak”.",
+        "“Aynı ya olan sahih gibidir”: ya'lı ecvef fiil sahih fiilin kuralına uyar, masdar için mef'al, mekan için mef'il, Merah'taki mebi', “satış yeri”, gibi. “Ve bir görüşte dur”: bazıları başka türlü düşünür; “nakledilenin ötesine geçme”.",
+        "Son olarak uzun fiiller: “üç harfli olmayanın ism-i mef'ulü gibi ondan yap” mekan, zaman ya da masdar ismini. İstahrace'den müstahrac “çıkarılmış”tır, ayrıca “çıkarma yeri, zamanı ya da işi”dir.",
+        "Bu beyitlerin listeleri, 4. dersin muzaaf fiilleri gibi, oldukları gibi öğrenilir. Arkalarındaki kural basittir; kesreli kelimeler ondan ayrılan kullanımdır."
+      ],
+      "terms": [
+        "kurala aykırı olarak yalnız kesreyi korumak",
+        "mağfire, ma'rife vezni",
+        "teslis: bir harfe üç harekenin hepsini vermek, mehlik'teki gibi",
+        "sahih gibi muamele gören, aynı ya olan ecvef fiil"
+      ],
+      "examples": [
+        "merfik, ma'sıye: yalnız kesre",
+        "mescid, mekbir: yalnız kesre",
+        "mehlik: üç harekenin hepsi caiz",
+        "müstahrac: uzun bir fiilin, ism-i mef'ulü gibi mekan ismi (tasrif aracı)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Manzumenin yalnız kesreyle koruduğu dört kelimeyi söyleyin.",
+          "answer": "Merfik (dirsek), ma'sıye (isyan), mescid (mescit), mekbir (yaşlılık); ayrıca develerin sığınağı me'vin."
+        },
+        {
+          "prompt": "Ya'lı ecvef bir fiilden masdar ve mekan nasıl yapılır?",
+          "answer": "Sahih fiil gibi: masdar için mef'al, mekan ve zaman için mef'il; Merah'ın mebi'i, “satış yeri”, mef'ildir."
+        },
+        {
+          "prompt": "İstahrace'nin mekan ismini yapın ve kuralı söyleyin.",
+          "answer": "Müstahrac, ism-i mef'ulünün aynısı: üç harften fazla fiiller için mekan, zaman ve masdar ismi ism-i mef'ulün şeklini alır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Mescid … bir kelimedir.",
+          "options": [
+            "yalnız fethalı",
+            "iki yollu",
+            "yalnız kesreli",
+            "üç harekeli"
+          ],
+          "explanation": "Secede yescüdü için kurala aykırı."
+        },
+        {
+          "prompt": "Mağfire … veznindedir.",
+          "options": [
+            "mef'ale",
+            "müf'ale",
+            "mif'ale",
+            "mef'ile"
+          ],
+          "explanation": "Manzumenin mef'ile kelimeleri arasında."
+        },
+        {
+          "prompt": "Mehlik, “helak”, … caizdir.",
+          "options": [
+            "üç harekenin hepsiyle",
+            "yalnız kesreyle",
+            "yalnız fethayla",
+            "yalnız zammeyle"
+          ],
+          "explanation": "“Üç hareke verilmiştir.”"
+        },
+        {
+          "prompt": "Ya'lı ecvef bir fiil mekan ismini … yapar.",
+          "options": [
+            "her zaman mef'al",
+            "sahih fiil gibi",
+            "her zaman müf'al",
+            "vavla"
+          ],
+          "explanation": "“Aynı ya olan sahih gibidir.”"
+        },
+        {
+          "prompt": "Uzun bir fiil için mekan ismi … gibidir.",
+          "options": [
+            "ism-i faili",
+            "emri",
+            "ism-i mef'ulü",
+            "mazisi"
+          ],
+          "explanation": "Müstahrac."
+        },
+        {
+          "prompt": "Meşrik, “doğu”, … veznindedir.",
+          "options": [
+            "mef'al",
+            "mef'ule",
+            "müf'il",
+            "mef'il"
+          ],
+          "explanation": "Merah'ın listesindeki gibi, manzumenin mef'il'e kattığı."
+        },
+        {
+          "prompt": "“Nakledilenin ötesine geçme” … demektir.",
+          "options": [
+            "duyulan kelimelere uyun; uydurmayın",
+            "herhangi bir harekeyi kullanın",
+            "Kufelilere uyun",
+            "her zaman mef'al kullanın"
+          ],
+          "explanation": "Bu kelimeler kullanımla bilinir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Kind": "Çeşit",
+          "Pattern": "Vezin",
+          "Words": "Kelimeler",
+          "kasra alone": "yalnız kesre",
+          "mafʿil": "mef'il",
+          "mafʿila": "mef'ile",
+          "joined to mafʿil": "mef'il'e katılan",
+          "three vowels": "üç hareke",
+          "mahlak, mahlik, mahluk": "mehlek, mehlik, mehlük",
+          "ʿayn a yāʾ": "aynı ya",
+          "as the sound verb": "sahih fiil gibi",
+          "longer verbs": "uzun fiiller",
+          "as the passive participle": "ism-i mef'ul gibi"
+        },
+        "caption": "Kesreli kelimeler ve öbür fiillerin mekan isimleri (Lamiyye, b. 98–103; Merah ile)"
+      },
       "text": [
         "Kesreyi yalnız merfikın “dirsek”, me'sıyetin “isyan”, / mescidin “mescit”, mekbirin “yaşlılık” ve develeri barındıran me'vin “sığınak” için tahsis et,\nivi “barındır!”, ve iğfir “ve bağışla!”, ve 'uzrin “ve özür”, ve ihmi “ve koru!” kelimelerinden mef'ilet, / ve raza “musibete uğrattı”, ve i'rifi “ve tanı!”, uznün “zannet!” kelimelerinden; ve menbitin “bitme yeri”, ve ekle",
         "mef'il ile uşruk “doğ!” ve uğrub “bat!” ile birlikte, ve uskutan “ve düş!”, race'a “döndü”, uczür “boğazla!”; / sonra mef'ilet ile ikdir “güç yetir!”, ve uşrukan “ve doğ!” [fiillerini], eksiksiz,\nve ukbür “ve göm!”, ve eribin “muhtaç” kelimesinden; ve dördüncüsüne üç [hareke] ver; / aynı şekilde mehlik'e de üç [hareke] verilmiştir.",
@@ -502,12 +2345,259 @@
       ]
     },
     "19": {
+      "title": "Bolluk yeri ve ism-i alet",
+      "body": [
+        "Özel bir isim üzerine kısa bir fasıl: “çok olan şeyin isminden, yerin adı mesbe'a gibi mef'ale'dir”, “aslanı çok bir yer”, sebu', “aslan”, kelimesinden. Vezin bir fiilden değil bir isimden yapılır: o şeyin bol bulunduğu bir yeri adlandırır.",
+        "Zaid harfli bir isimden “zaid olan kesilir”, ef'a, “engerek”, kelimesinden mef'at, “engereği çok bir yer”, gibi; ef'a'nın hemzesi zaiddir. “Ve bunda müf'ile ile ef'alet'e de izin verilmiştir”: bir yere müf'ile de denebilir ve onun için ef'alet, “… ile doldu”, denebilir. Bedreddin bunları mudıbbe, “kertenkelesi çok bir yer”, ve muksi'e, “hıyarı çok bir yer”, ile örnekler.",
+        "“Sülasi dışındaki bu vezinden menedilmiştir”: dört asli harfli bir isim mef'ale yapmaz; “ve bazen nadir biri gelmiş ve kabul edilmiştir”.",
+        "Son fasıl, alet üzerine: “mif'al gibi, mif'al [elifle] ve mif'ale gibi, sülasiden [işin] kendisiyle yapıldığı şeyin adını yap”: Merah'ın mikrad'ı, “makas”, ve miftah'ı, “anahtar”. “El-müdukk şazdır”, havan eli, müs'ut, mukhule, müdhün, munsul ve nehale'den gelen, elek (bu son kelimeyi okuyuşumuz şüphelidir): zammeli aletler.",
+        "“Ve onlarla bir alet kasteden onlara kesre verebilir ve onu kınayana aldırılmaz.” Merah aynı kelimeler hakkında Sibeveyh'i nakleder: bunlar kapların adlarıdır, kurala göre alet değildir. Böylece iki kitap uyuşur: zammeyle söylenince sabit adlardır; alet olarak yapılınca aletin kesresini alırlar."
+      ],
+      "terms": [
+        "bolluk yeri: mesbe'a",
+        "ism-i alet: mif'al, mif'al [elifle], mif'ale",
+        "mef'at'ta kesilen zaid harf",
+        "el-müdukk gibi zammeli şaz aletler"
+      ],
+      "examples": [
+        "ke-misli mesbe'atin: aslanı çok bir yer",
+        "ke-mef'atin: engereği çok bir yer, zaid harf kesilmiş",
+        "mikrad, miftah: mif'al [elifle] vezninde aletler (Merah)",
+        "el-müdukk, müs'ut, mukhule: zammeli, şaz"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mesbe'a nedir ve neden yapılır?",
+          "answer": "Aslanı çok bir yer: sebu', “aslan”, isminden, onun bol bulunduğu bir yer için yapılmış mef'ale vezni."
+        },
+        {
+          "prompt": "Engereği çok yer neden mef'at'tır ve ef'a'nın bütün harflerinden yapılmamıştır?",
+          "answer": "Çünkü ef'a'nın zaid bir harfi (hemzesi) vardır ve manzume bu vezin böyle bir isimden yapılınca zaid harfin kesildiğini söyler."
+        },
+        {
+          "prompt": "Manzume el-müdukk ve kardeşleri hakkında ne der ve Merah nasıl uyuşur?",
+          "answer": "Zammeli şaz aletlerdir; onlarla alet kasteden onlara aletin kesresini verebilir. Merah Sibeveyh'i nakleder: bunlar kapların adlarıdır, kurala göre alet değildir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Bolluk bildiren mef'ale … yapılır.",
+          "options": [
+            "bir fiilden",
+            "bir masdardan",
+            "bir ism-i failden",
+            "bol olan şeyin isminden"
+          ],
+          "explanation": "Min ismi ma kesüre."
+        },
+        {
+          "prompt": "Mesbe'a … demektir.",
+          "options": [
+            "aslanı çok bir yer",
+            "aslan ini",
+            "yedi",
+            "av yeri"
+          ],
+          "explanation": "Sebu''dan."
+        },
+        {
+          "prompt": "Zaid harfli bir isimden zaid harf …",
+          "options": [
+            "korunur",
+            "kesilir",
+            "şeddelenir",
+            "mim yapılır"
+          ],
+          "explanation": "Ef'a'dan mef'at gibi."
+        },
+        {
+          "prompt": "Dört harfli isimlerden mef'ale yapılır mı?",
+          "options": [
+            "Evet, her zaman",
+            "Yalnız cem'lerden",
+            "Hayır, nadir kabul edilmiş durumlar hariç",
+            "Yalnız fiillerden"
+          ],
+          "explanation": "“Sülasi dışındaki bu vezinden menedilmiştir.”"
+        },
+        {
+          "prompt": "Sülasiden ism-i alet … veznindedir.",
+          "options": [
+            "mef'al",
+            "müf'il",
+            "fa'il",
+            "mif'al, mif'al [elifle], mif'ale"
+          ],
+          "explanation": "Mikrad, miftah."
+        },
+        {
+          "prompt": "El-müdukk, “havan eli”, …",
+          "options": [
+            "zammeli şaz bir alettir",
+            "kuraldaki vezindir",
+            "bir mekan ismidir",
+            "bir masdardır"
+          ],
+          "explanation": "Şezze'l-müdukku …"
+        },
+        {
+          "prompt": "Bu şaz kelimeler kesreyle söylenebilir mi?",
+          "options": [
+            "Hiçbir zaman",
+            "Evet, onlarla alet kastedilirse",
+            "Yalnız şiirde",
+            "Yalnız cem'de"
+          ],
+          "explanation": "“Onu kınayana aldırılmaz.”"
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Pattern": "Vezin",
+          "Meaning": "Ma'na",
+          "Examples": "Örnekler",
+          "mafʿala": "mef'ale",
+          "a land where a thing abounds": "bir şeyin bol olduğu yer",
+          "mafʿala, added letter cut off": "mef'ale, zaid harf kesilmiş",
+          "the same": "aynısı",
+          "mufʿila; afʿalat": "müf'ile; ef'alet",
+          "allowed too": "bunlar da caiz",
+          "mifʿal, mifʿāl, mifʿala": "mif'al, mif'al [elifle], mif'ale",
+          "the instrument": "alet",
+          "mufʿul, mufʿula": "müf'ul, müf'ule",
+          "irregular instruments": "şaz aletler"
+        },
+        "caption": "Bolluk yeri ve alet (Lamiyye, b. 104–109; mikrad ve miftah Merah'tan)"
+      },
       "text": [
         "Çok olan şeyin isminden, yerin ismi mef'alet olur, / mesbe'atin “aslanı çok yer” gibi, ve zaid harf atılır\nmezidden, mef'atin “engereği çok yer” gibi; ve müf'ilet / ve ef'alet bu [anlamda] onlarca caiz görülmüştür;\nsülasiden başkası bu vezinden men edilmiştir, / ve bazen ondan nadir bir [kelime] gelmiş ve kabul edilmiştir.",
         "Mif'al gibi, ve mif'al [elifle] ve mif'alet gibi, / sülasiden [işin] onunla yapıldığı şeyin ismini türet.\nŞazdır el-müdukku “havaneli”, müs'utun “enfiye kabı”, mukhuletun “sürmedan”, / müdhünün “yağ şişesi”, munsulün “kılıç” ve nahala “eledi” fiilinden gelen;\nve [bunlarla] alet kastedene caizdir / onlara kesre vermek, ve kınayana aldırılmaz."
       ]
     },
     "20": {
+      "title": "Hatime ve manzumenin bütünü",
+      "body": [
+        "“Kastettiğimi yerine getirdim, sona ulaşarak; ve hamd Allah'adır, çünkü kastettiğim tamamlandı.” Hatime mukaddimeye cevap verir: Allah'a hamd, sonra “peygamberlerin sonuncusu olan kerim Resul”e, “onun nurlu ailesine ve kerim ashabına” ve onlara “güzel işler yolunda” uyana salat ve selam.",
+        "Sonra iki dua. Biri “sürçmeleri örten güzel bir örtü” içindir, alimin Allah'tan eserindeki hataları örtmesini istemesi: böyle birçok manzumenin sonunda bulunan bir tevazu. Öbürü, onunla “asık suratlı ve korkan değil, sevinen ve şen” olacağı bir çaba içindir. Son kelime cezila, “şen”, manzumeyi lam kafiyesiyle bitirir.",
+        "Plana geri bakın. Manzume fiilden ondan yapılan isimlere gider: mücerred vezinler ve fiil-i muzarilerinin harekesi, mezid vezinler, fiil-i muzari, meçhul ve emir; sonra ism-i fail ve ism-i mef'uller, masdarlar, ism-i zaman ve mekanlar, bolluk yeri ve alet. Merah kök çeşidine göre düzenlenmiştir (sahih, muzaaf, mehmuz, mu'tel); Lamiyye siga çeşidine göre. Birlikte okununca sarfın iki sorusuna cevap verirler: vezinler nedir ve her kök onlarda ne yapar.",
+        "Baskımızda Lamiyye'nin hemen ardından, The Mantiqi'de okutulan, Ahdari'nin mantık manzumesi Metnü's-Süllem gelir: aynı cilt birkaç ilmin çok kullanılan mütununu toplamıştır.",
+        "Geriye mukaddimenin vaat ettiği kalır: “özetleri aklında tutan ayrıntıları kavrayabilir”. Beyitleri ezberleyin; ayrıntılar okuduğunuz her metinle gelecektir."
+      ],
+      "terms": [
+        "bir manzumenin ya da kitabın sonu",
+        "sürçmelerin örtülmesi: kişinin hataları için dua",
+        "peygamberlerin sonuncusu",
+        "metin: ezberlenen ve bir şerhle okunan esas kitap"
+      ],
+      "examples": [
+        "hamd Allah'adır, çünkü kastettiğim tamamlandı",
+        "sürçmeleri örten güzel bir örtü",
+        "asık suratlı ve korkan değil, sevinen ve şen"
+      ],
+      "tasks": [
+        {
+          "prompt": "Şair hatimede Allah'tan hangi iki şeyi ister?",
+          "answer": "Sürçmelerini örten güzel bir örtü (hatalarının örtülmesi) ve onunla asık suratlı ve korkan değil, sevinen ve şen olacağı bir çaba."
+        },
+        {
+          "prompt": "Manzumenin fasıllarının sırasını verin.",
+          "answer": "Mücerred fiil ve fiil-i muzarisinin harekesi (-tü'den önce ecvef fiille); mezid fiil; fiil-i muzari; meçhul; emir; ism-i fail ve ism-i mef'uller; sülasinin ve uzun fiillerin masdarları; mef'al ve mef'il; bolluk yeri; alet; ve hatime."
+        },
+        {
+          "prompt": "Lamiyye ile Merah sıralarında nasıl ayrılır?",
+          "answer": "Merah kök çeşidine göre düzenlenmiştir (sahih, muzaaf, mehmuz, misal, ecvef, nakıs, lefif), her biri bütün sigalarından geçirilir; Lamiyye siga çeşidine göre düzenlenmiştir (vezinler, fiil-i muzari, meçhul, emir, ism-i fail ve ism-i mef'uller, masdarlar, mekan isimleri, alet)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Hatime … ile başlar.",
+          "options": [
+            "“Kastettiğimi yerine getirdim”",
+            "“Hamd Allah'adır, bedel aramam”",
+            "“Fiil: onu kavrayan”",
+            "“Bir manzume al”"
+          ],
+          "explanation": "Ve kad vefeytü bima kad rumtü."
+        },
+        {
+          "prompt": "Şair … örtülmesini ister.",
+          "options": [
+            "kitabının",
+            "sürçmelerinin",
+            "ailesinin",
+            "talebelerinin"
+          ],
+          "explanation": "Sitran cemilen ale'z-zellati."
+        },
+        {
+          "prompt": "Hatimede Peygamber … diye anılır.",
+          "options": [
+            "yalnız mahlukatın en hayırlısı",
+            "Arapların efendisi",
+            "peygamberlerin sonuncusu",
+            "muallim"
+          ],
+          "explanation": "El-hatimü'r-rusüla."
+        },
+        {
+          "prompt": "Manzumede hangisi önce gelir?",
+          "options": [
+            "Masdarlar",
+            "İsm-i fail ve ism-i mef'uller",
+            "Alet",
+            "Fiil"
+          ],
+          "explanation": "Fiilden ondan yapılan isimlere."
+        },
+        {
+          "prompt": "Hatimeden önce son gelen fasıl hangisidir?",
+          "options": [
+            "Alet",
+            "Masdarlar",
+            "Emir",
+            "Meçhul"
+          ],
+          "explanation": "Fasl fi binai'l-ale."
+        },
+        {
+          "prompt": "Lamiyye … göre düzenlenmiştir.",
+          "options": [
+            "kök çeşidine",
+            "siga çeşidine",
+            "alfabeye",
+            "fiil-i muzarinin babına"
+          ],
+          "explanation": "Merah kök çeşidine göre düzenlenmiştir."
+        },
+        {
+          "prompt": "Baskımızda Lamiyye'nin ardından … gelir.",
+          "options": [
+            "Elfiyye",
+            "Acurrumiyye",
+            "Metnü's-Süllem",
+            "Merah"
+          ],
+          "explanation": "Cilt birkaç ilmin mütununu toplar."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Lāmiyyat al-afʿāl": "Lamiyyetü'l-ef'al",
+          "The verb": "Fiil",
+          "Bare patterns": "Mücerred vezinler",
+          "Augmented patterns": "Mezid vezinler",
+          "The muḍāriʿ": "Fiil-i muzari",
+          "The passive": "Meçhul",
+          "The command": "Emir",
+          "Nouns from the verb": "Fiilden isimler",
+          "Participles": "İsm-i fail ve ism-i mef'ul",
+          "Maṣdars": "Masdarlar",
+          "Mafʿal and mafʿil": "Mef'al ve mef'il",
+          "Land of abundance": "Bolluk yeri",
+          "Instrument": "Alet"
+        },
+        "caption": "Lamiyye'nin planı"
+      },
       "text": [
         "Kastettiğimi yerine getirdim, sona ulaşarak; / ve hamd Allah'adır, çünkü kastettiğim tamamlandı;\nsonra salat, ve ona eşlik eden selam, / şerefli Resule, resullerin sonuncusuna,",
         "ve onun parlak aline ve kerim ashabına, ve onları / şerefli işler yolunda izleyene.\nAllah'tan, rahmetinin elbiselerinden, / sürçmeleri kuşatan güzel bir örtü dilerim;\nve bana bir çaba kolaylaştırmasını ki onunla olayım / müjdelenmiş ve sevinçli, asık suratlı ve korkak değil."

@@ -301,3 +301,17 @@ list when it is made. The layout follows the English source list, `packages/cont
   « rattaché »; jinsiyya « d'un même genre »; "the proper measure" « la juste mesure »; ishbâ' « l'alif
   d'allongement »; af'âl al-qulûb « les verbes du cœur »; the Marâh's bâb « classe » (of conjugation) or « bâb /
   chapitre » (by kind of root).
+- Round 5 (marah L17–62): hamzat al-qat' « la hamza de coupure (qat') » (hamzat al-wasl « de liaison »); itbâ'
+  « suivre » / « par harmonie » (as the English "following" / "harmony"); the jazm of the verb never « jussif »:
+  « au jazm », « le verbe au jazm »; the verb's nasb « au nasb » (never « subjonctif »); mabnî « fixe », binâ'
+  « être fixe »; mahmûsa « chuchotées », majhûra « sonores », bayân « garder séparées »; musta'liya mutbaqa
+  « élevées et couvertes », munkhafida « abaissées »; imtidâd al-sawt « la prolongation du son »; bayna bayna
+  « entre-deux »; talyîn « l'adoucissement », takhfîf « l'allègement », qalb « le changement » (of a letter) and
+  « l'inversion » where the English says "transposition"; the hamza's seat « le support »; ishmâm « l'ishmâm »
+  (« une touche de damma »); haml « l'analogie », « traiter comme »; ta'wîd « la compensation »; idtirâb
+  « l'agitation »; muttarid « régulier », wujûban / jawâzan « obligatoire / facultatif », "allowed but not regular"
+  « permis mais non réguliers »; shâdhdh « irrégulier »; the madda letter « lettre de prolongation »; the yâ' of
+  idâfa « le yâ' d'annexion » (« mon »); the lafîf « enroulé », mafrûq « séparé », maqrûn « joint »; ajwaf
+  « concave » (« creux » only for the name's meaning); taqdîran « par supposition », the implied difference « la
+  différence sous-entendue »; ṭāʾ in a passage about letters: « tâ' [ط] » every time, tâ' [ت] bracketed at its first
+  mention in that passage.

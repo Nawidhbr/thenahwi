@@ -340,3 +340,16 @@ de Engelse bronlijst, `packages/content/i18n/GLOSSARY.md`: Stijl, Woorden onder 
   "woorden van zinspeling"; nudba "de klaagroep", istighatha "de hulproep"; ghaya "woorden van de grens"; het
   aanwijzend naamwoord (niet "voornaamwoord"). Ook [tweevoud] bij werkwoordsvormen (daraba [tweevoud], lan yadriba
   [tweevoud]) en wa [met lange a] voor de wa van de klaagroep naast het voegwoord wa-.
+- **Marah al-arwah** (2026-11-27, ronde 3): point of articulation (makhraj) = "de uitspraakplaats"; the pillars of
+  the babs = "de pijlers van de babs"; letters of the throat = "keelletters"; mixed dialects = "vermengde dialecten";
+  the morphologists = "de kenners van de sarf"; hamza between-between (bayna bayna) = "tussen-tussen"; seat of the
+  hamza = "de drager"; whispered / voiced letters = "gefluisterd (mahmusa) / stemhebbend (majhura)"; raised /
+  covered / lowered = "verheven / bedekt / verlaagd"; constant / accidental sukun = "bestendige / bijkomende sukun";
+  the implied difference = "het veronderstelde verschil"; following (an earlier form) = "navolging", "in navolging
+  van"; transposition (qalb) = "omzetting"; substitution (ibdal) = "vervanging", necessary and regular / optional and
+  regular / allowed but not regular = "verplicht en regelmatig / facultatief en regelmatig / toegestaan maar niet
+  regelmatig"; the jussive = "de majzum vorm"; a weak / poor dialect = "een minder goed / slecht dialect" en weak in
+  the everyday sense = "minder sterk" ("zwak" blijft voor mu'tall en de zwakke letters); a strong letter (mim) =
+  "krachtig". ط heet hier steeds "de zware ta'". Haakjes ook: [met korte u] (madrub [met korte u], maf'ul [met korte
+  u] tegenover maf'ul), [met lange a] (mif'al [met lange a] = mifʿāl), [met korte alif] (fa'la [met korte alif] in de
+  tabel van masdarpatronen), [met de zware h] (haraqtu [met de zware h] = ḥaraqtu, in een toetsoptie).

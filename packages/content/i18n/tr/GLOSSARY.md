@@ -276,3 +276,16 @@ file in step with this list. The layout follows the English source list, `packag
   their example (nasara babı, daraba babı …).
 - “fiil-i muzari” (not muzari), “fail” (not fail), “mef'ul” (not meful).
 - Turkish suffixes after a transliterated form follow the last vowel (dahrace'ye, ihrenceme'ye).
+
+## Choices added in round 4 (izhar, lamiyya, marah 56–62)
+
+- İzhar: müteallak (what a particle of jarr is attached to); zarf-ı müstakar / zarf-ı lağv; hazf ve isal; huruf-ı
+  müşebbehe bi'l-fiil in running text “fiile benzeyen harfler”; muhaffefe in / en; şe'n zamiri; ef'al-i mukarebe,
+  şuru' fiilleri; ilga / ta'lik; esma-i ef'al (ism-i fiil); muzmer / muzhar, müstetir / bariz, vücuben / cevazen
+  müstetir; muttasıl / munfasıl zamir; hakiki / lafzi müennes; müstesna minh, muceb kelam; rabıt; cümle-i haberiyye /
+  inşaiyye; ahd lamı / cins lamı; ivaz tenvini; gaye kelimeleri; mahki (hikaye edilen) i'rab; temekkün tenvini;
+  aslen / arızi mebni.
+- Lamiyye and Merah 56–62: ism-i menkus; ibdal: “vacip ve muttarid”, “caiz ve muttarid”, “caiz ama muttarid değil”;
+  hems / cehr, mahreç, hafa; mugalebe; mutavaat te'si; ivaz te'si; teslis; mef'ale (bolluk yeri); ism-i alet; basit
+  bahri, tef'ile; in a definition, a metre is “aruz bahri” (vezin stays the pattern). Pattern names that meet without
+  marks take a bracket: fe'il [ya ile], fe'al [elifle], fu'ul [vav ile], mif'al [elifle].

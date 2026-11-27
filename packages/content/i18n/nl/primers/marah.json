@@ -7418,6 +7418,393 @@
      "hamza, alif, yāʾ": "hamza, alif, ya'"
     }
    }
+  },
+  "60": {
+   "title": "Vervanging: ya', waw, mim, sad, alif, lam, zay en de zware ta'",
+   "body": [
+    "De ha' sluit haar vermelding af met één regelmatige regel: zij staat, verplicht, voor de ta' marbuta in de pauze, Talhah, zulmah, “om haar te onderscheiden van de ta' die in het werkwoord staat” (darabat, dat zijn t houdt). De ya' staat, verplicht en regelmatig, voor een alif in mufaytih, “een sleuteltje”, het verkleinwoord van miftah; voor een waw na een kasra in miqat, “vastgestelde tijd”; facultatief voor een hamza in dhib, “wolf”; en voor een van twee gelijke letters in taqaddi al-bazi (les 28). Ongemerkt staat zij voor een nun (anasiyy, dinar), een 'ayn (dafadi voor dafadi', “kikkers”), een ba' (al-tha'ali, “de vossen”), een sin (al-sadi, “de zesde”) en een tha' (al-thali, “de derde”), omdat de kasra ervoor erom roept.",
+    "De waw staat, verplicht, voor een alif in dawarib, het meervoud van dariba; voor een ya' na een damma in muqin, “zeker”; en facultatief voor een hamza in lum. De mim staat voor een waw in fam, “mond”, voor een lam in de hadith die in het dialect van Himyar gezegd wordt, laysa mina am-birri am-siyamu fi am-safari, “vasten op reis behoort niet tot de vroomheid”, voor een nun in 'ambar en al-banam, en voor een ba' in ratiman voor ratiban.",
+    "De sad staat voor een sin in asbagha, “hij maakte ruim”. De alif staat, verplicht, voor de waw en de ya' in qala en ba'a, en facultatief voor een hamza in ras. De lam staat voor een nun in usaylal, “de late namiddag”, en voor een dad in iltaja'a, “hij ging op zijn zij liggen”. De zay staat voor een sin in yazdulu, en voor een sad in de uitspraak van Hatim hakadha fazdi anah, “zo laat ik [een kameel] ader”.",
+    "De zware ta', als laatste, staat “verplicht en regelmatig” voor de ta' van ifta'ala na de bedekte letters, istabara (les 33), en ongemerkt in fahastu, “ik zocht”. Dan de slotopmerking: “de plaatsen onder de genoemde vormen die niet nader bepaald zijn, zijn toegestaan maar niet regelmatig”.",
+    "Wat je moet meenemen: de regelmatige vervangingen zijn weinig, en je hebt ze alle al ontmoet als regels van i'lal en idgham: alif voor waw en ya' (qala), ya' voor waw na kasra (miqat), waw voor ya' na damma (muqin), hamza in qa'il en sahra', de zware ta' in istabara, ha' in de pauze. De rest is een verslag van dialecten."
+   ],
+   "terms": [
+    "de ha' gezegd voor de ta' marbuta in de pauze",
+    "het verkleinwoord, zoals mufaytih",
+    "het dialect van Himyar, met am- voor het lidwoord",
+    "regelmatige vervanging, tegenover de enkel toegestane"
+   ],
+   "examples": [
+    "Talhah, zulmah: de ha' voor de ta' in de pauze",
+    "miqat, muqin: ya' voor waw na kasra, waw voor ya' na damma",
+    "de mim voor de lam van het lidwoord, in het dialect van Himyar",
+    "hakadha fazdi anah: de zay voor een sad"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom wordt de ta' marbuta in de pauze als ha' gezegd, volgens de reden van het boek?",
+     "answer": "Om haar te onderscheiden van de ta' van het werkwoord, zoals in darabat, dat in de pauze zijn t houdt."
+    },
+    {
+     "prompt": "Geef de twee verplichte vervangingen tussen waw en ya', met de voorbeelden van het boek.",
+     "answer": "De ya' voor een waw na een kasra: miqat, van w-q-t. De waw voor een ya' na een damma: muqin, van y-q-n."
+    },
+    {
+     "prompt": "Deel deze vervangingen in als “verplicht” en “toegestaan”: de alif van qala, de mim van fam, de zware ta' van istabara, de zay van yazdulu.",
+     "answer": "Verplicht: de alif van qala (voor waw) en de zware ta' van istabara (voor de ta' van ifta'ala). Toegestaan, niet regelmatig: de mim van fam (voor waw) en de zay van yazdulu (voor sin)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Talhah heeft in de pauze een ha'…",
+     "options": [
+      "om het te onderscheiden van de ta' van het werkwoord",
+      "om de lichtheid",
+      "door een dialect",
+      "voor het meervoud"
+     ],
+     "explanation": "Verplicht en regelmatig."
+    },
+    {
+     "prompt": "Mufaytih heeft een ya' voor…",
+     "options": [
+      "een waw",
+      "de alif van miftah",
+      "een hamza",
+      "een nun"
+     ],
+     "explanation": "In het verkleinwoord."
+    },
+    {
+     "prompt": "Miqat heeft een ya' voor…",
+     "options": [
+      "een alif",
+      "een hamza",
+      "een waw na een kasra",
+      "een ta'"
+     ],
+     "explanation": "Van w-q-t."
+    },
+    {
+     "prompt": "Muqin heeft een waw voor…",
+     "options": [
+      "een alif",
+      "een hamza",
+      "een mim",
+      "een ya' na een damma"
+     ],
+     "explanation": "Van y-q-n."
+    },
+    {
+     "prompt": "In am-siyam staat de mim voor…",
+     "options": [
+      "de lam van het lidwoord",
+      "een nun",
+      "een waw",
+      "een ba'"
+     ],
+     "explanation": "Het dialect van Himyar."
+    },
+    {
+     "prompt": "De alif van qala en ba'a is een vervanging die…",
+     "options": [
+      "alleen toegestaan is",
+      "verplicht en regelmatig is",
+      "onregelmatig is",
+      "een dialect is"
+     ],
+     "explanation": "Voor de waw en de ya'."
+    },
+    {
+     "prompt": "Wat zegt het boek van de gevallen die het niet nader bepaalt?",
+     "options": [
+      "Ze zijn verplicht",
+      "Ze zijn verboden",
+      "Ze zijn toegestaan maar niet regelmatig",
+      "Ze zijn Kufisch"
+     ],
+     "explanation": "De slotopmerking van de lijst."
+    }
+   ],
+   "diagram": {
+    "caption": "De overige letters van vervanging (Marah, blz. 114–117)",
+    "labels": {
+     "Letter": "Letter",
+     "For": "Voor",
+     "Kind": "Soort",
+     "Example": "Voorbeeld",
+     "hāʾ": "ha'",
+     "tāʾ, in pause": "ta', in de pauze",
+     "necessary": "verplicht",
+     "yāʾ": "ya'",
+     "alif": "alif",
+     "wāw": "waw",
+     "hamza": "hamza",
+     "optional, regular": "facultatief, regelmatig",
+     "mīm": "mim",
+     "allowed": "toegestaan",
+     "lām": "lam",
+     "wāw and yāʾ": "waw en ya'",
+     "nūn, ḍād": "nun, dad",
+     "zāy": "zay",
+     "sīn": "sin",
+     "tāʾ of iftaʿala": "ta' van ifta'ala"
+    }
+   }
+  },
+  "61": {
+   "title": "De lafif: waqa en tawa, en de nuns van nadruk",
+   "body": [
+    "Het zevende hoofdstuk behandelt het werkwoord met twee zwakke letters, de lafif, “gewikkeld”, “omdat de twee letters van zwakte erin samen gewikkeld zijn”. Het is van twee soorten. De gescheiden (mafruq), zwak in fa' en lam, zoals waqa yaqi, “beschermen”: “de regel van hun fa' is als de regel van wa'ada ya'idu, en de regel van hun lam als de regel van rama yarmi”. De fa' valt weg in de toekomende tijd zoals in ya'idu; de lam gedraagt zich zoals in yarmi.",
+    "Het bevel van waqa is dus één letter, qi, “bescherm!”: de waw weggevallen zoals in 'id, de ya' zoals in irmi. Zijn personen zijn qi, qiya, qu, qi [met lange i], qiya, qina; met de zware nun qiyanna, qiyanni, qunna, qinna, qiyanni, qinanni; met de lichte qiyan, qun, qin. De doener is waqin, degene die het ondergaat mawqiyy, de plaats mawqan, het werktuig miqan, en het passief wuqiya, yuqa.",
+    "De verbonden (maqrun), zwak in 'ayn en lam, zoals tawa yatwi, “vouwen”: “hun regel is als de regel van het gebrekkige werkwoord, en hun 'ayn wordt niet veranderd”, om de reden van les 46: er zouden twee veranderingen samenkomen. Zijn bevel is itwi, itwiya, itwu, itwi [met lange i], itwiya, itwina; met de zware nun itwiyanna, itwiyanni, itwunna, itwinna, itwiyanni, itwinanni. Rawiya yarwa, “zijn dorst lessen”, maakt irwayanna, irwayanni, irwawunna, irwayinna, irwayanni, irwaynanni.",
+    "Dan brengt het boek de regel voor de nuns van nadruk in het gebrekkige werkwoord en de lafif bijeen: kijk naar de zwakke letter voor de nun. Is het een stamletter, die in het bevel in het enkelvoud is weggevallen, dan komt zij terug, “omdat haar wegvallen door de sukun kwam, en die is weg”, en krijgt zij een fatha: itwiyanna, ughzuwanna, irwayanna. Is het een voornaamwoord (de waw van de mannen, de ya' van de vrouw), kijk dan naar de letter ervoor: na een fatha blijft het voornaamwoord en krijgt het een klinker, irwawunna, irwayinna, zoals in wa-la tansawu al-fadla baynakum, “en vergeet de edelmoedigheid onder elkaar niet” (Koran 2:237); na elke andere klinker valt het weg, itwunna, itwinna, zoals in ughzu al-qawma, “overval de mensen!”.",
+    "Met die ene regel kan elk bevel met een nun in de hoofdstukken zes en zeven gemaakt worden: irmiyanna en irmunna, rayanna en rawunna, qiyanna en qunna."
+   ],
+   "terms": [
+    "het werkwoord met twee zwakke stamletters",
+    "de gescheiden lafif: zwak in fa' en lam, waqa",
+    "de verbonden lafif: zwak in 'ayn en lam, tawa",
+    "het terugbrengen van de weggevallen stamletter voor de nun"
+   ],
+   "examples": [
+    "qi, qiya, qu, qi [met lange i], qiya, qina: het bevel van waqa",
+    "het bevel van tawa",
+    "wa-la tansawu al-fadla: het voornaamwoord behouden na een fatha",
+    "ughzu al-qawma: het voornaamwoord in het spreken weggevallen na een damma"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom is het bevel van waqa één letter?",
+     "answer": "Zijn fa' (waw) valt weg zoals in 'id, het bevel van de mithal, en zijn lam (ya') valt weg door de jazm, zoals in irmi; alleen de qaf met haar kasra blijft over."
+    },
+    {
+     "prompt": "Waarom verandert de waw van tawa nooit?",
+     "answer": "Zijn lam is al veranderd (in een alif, of weggevallen); ook de 'ayn veranderen zou twee veranderingen in één woord brengen, wat de taal vermijdt (de voorwaarde van Ibn Jinni)."
+    },
+    {
+     "prompt": "Pas de regel van de nuns toe: maak de bevelen met de zware nun van tawa voor één man en voor mannen, en verklaar.",
+     "answer": "Voor één man komt de ya' van de wortel, die in itwi is weggevallen, terug met een fatha: itwiyanna. Voor mannen is de zwakke letter de waw van het voornaamwoord na een damma, dus valt zij voor de nun weg: itwunna."
+    },
+    {
+     "prompt": "Waarom irwawunna voor mannen, maar itwunna?",
+     "answer": "In beide is de waw het voornaamwoord. In irwawunna heeft de letter ervoor een fatha, dus blijft de waw en krijgt zij een damma (zoals tansawu); in itwunna heeft de letter ervoor geen fatha, dus valt de waw weg."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De gescheiden lafif is zwak in…",
+     "options": [
+      "de 'ayn en de lam",
+      "de fa' en de lam",
+      "de fa' en de 'ayn",
+      "alle drie"
+     ],
+     "explanation": "Waqa: w-q-y."
+    },
+    {
+     "prompt": "De fa' van waqa gedraagt zich als die van…",
+     "options": [
+      "qala",
+      "rama",
+      "wa'ada",
+      "akhadha"
+     ],
+     "explanation": "Zij valt weg in de toekomende tijd: yaqi."
+    },
+    {
+     "prompt": "Het bevel van waqa aan één man is…",
+     "options": [
+      "iwqi",
+      "qi [met lange i]",
+      "waqi",
+      "qi"
+     ],
+     "explanation": "Eén letter."
+    },
+    {
+     "prompt": "De verbonden lafif is als…",
+     "options": [
+      "het gebrekkige werkwoord, met zijn 'ayn onveranderd",
+      "het holle werkwoord",
+      "de mithal",
+      "het verdubbelde werkwoord"
+     ],
+     "explanation": "Tawa yatwi, zoals rama yarmi."
+    },
+    {
+     "prompt": "Voor de nun van nadruk doet een weggevallen stamletter het volgende:",
+     "options": [
+      "zij blijft weggevallen",
+      "zij komt terug met een fatha",
+      "zij wordt een hamza",
+      "zij wordt verdubbeld"
+     ],
+     "explanation": "Haar wegvallen kwam door de sukun, die nu weg is."
+    },
+    {
+     "prompt": "Een waw van het voornaamwoord na een damma, voor de nun…",
+     "options": [
+      "krijgt een fatha",
+      "krijgt een damma en blijft",
+      "valt weg",
+      "wordt een ya'"
+     ],
+     "explanation": "Itwunna, zoals ughzu al-qawma."
+    },
+    {
+     "prompt": "Wa-la tansawu al-fadla toont het voornaamwoord…",
+     "options": [
+      "weggevallen na een damma",
+      "vervangen door een nun",
+      "veranderd in een alif",
+      "behouden met een klinker na een fatha"
+     ],
+     "explanation": "Het model voor irwawunna."
+    }
+   ],
+   "diagram": {
+    "caption": "Bevelen van de lafif met de zware nun (Marah, blz. 118–119)",
+    "labels": {
+     "Person": "Persoon",
+     "waqā": "waqa",
+     "ṭawā": "tawa",
+     "rawiya": "rawiya",
+     "one man": "één man",
+     "two": "twee",
+     "men": "mannen",
+     "one woman": "één vrouw",
+     "women": "vrouwen"
+    }
+   }
+  },
+  "62": {
+   "title": "Tawin, rayyan en matwiyy: de laatste vormen van het boek",
+   "body": [
+    "Het actief deelwoord van tawa is tawin, “vouwend”, en “zijn waw wordt niet veranderd, zoals in tawa”: de waw houdt haar kasra, en alleen de ya' aan het eind valt weg, zoals in ramin.",
+    "Van al-riyy, “het lessen”, komen rayyan, rayyanan, riwa', “gelest” (mannelijk enkelvoud, tweevoud, meervoud), en rayya, rayyayan, riwa' voor het vrouwelijke. In riwa' wordt de waw niet tot ya' gemaakt, zoals in siyat (les 46), “zodat er geen twee veranderingen samenkomen”: de waw van de 'ayn zou een ya' worden, en de ya' van de lam is al een hamza geworden.",
+    "Twee vormen toetsen alles wat tot hier geleerd is. Het vrouwelijke tweevoud in nasb en jarr is rayyayayni, “zoals 'atshayayni”. Verbonden met “mijn” is het rayyayayya, zoals in ra'aytu rayyayayya, “ik zag mijn twee gelesten”, “met vijf ya's”: de eerste veranderd uit de waw die de 'ayn is; de tweede de lam; de derde veranderd uit de alif van het vrouwelijke; de vierde het kenteken van de nasb; en de vijfde de ya' van de verbinding.",
+    "De rest van tawa: het passief deelwoord matwiyy, zoals marmiyy; de plaats matwan, zoals marman; het werktuig mitwan; het passief tuwiya, yutwa. “De regel van de lam van deze dingen is als de regel van het gebrekkige werkwoord”, en hun 'ayn volgt tawa: onveranderd waar twee veranderingen zouden samenkomen, en onveranderd zelfs waar dat niet zo is, “door navolging”, zoals tawaya en tawiyani.",
+    "Hier eindigt het boek. Het begon met de zeven babs en de negen dingen die van elke masdar zijn afgeleid, en het heeft nu elke soort wortel door alle negen geleid. Een leerling die het gevolgd heeft, kan elke wortel nemen, gaaf of zwak, zijn grondvormen opzetten op de patronen van daraba, en de gesproken vorm bereiken met de regels: de sukun, het verplaatsen van de klinker, de verandering in alif, waw of ya', het weglaten, en het samentrekken."
+   ],
+   "terms": [
+    "navolging: tawaya houdt zijn waw in navolging van tawa",
+    "twee veranderingen in één woord, die de taal vermijdt",
+    "de alif van het vrouwelijke, zoals in rayya",
+    "de ya' van “mijn”, de vijfde ya' van rayyayayya"
+   ],
+   "examples": [
+    "tawin: de waw onveranderd",
+    "rayyan, rayyanan, riwa': “gelest”",
+    "ra'aytu rayyayayya: vijf ya's",
+    "tuwiya yutwa: het passief"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom wordt de waw van riwa' niet in een ya' veranderd, zoals in siyat?",
+     "answer": "Omdat het woord al één verandering heeft, de ya' van de lam die een hamza werd; ook de waw van de 'ayn in een ya' veranderen zou twee veranderingen samenbrengen."
+    },
+    {
+     "prompt": "Noem de vijf ya's van rayyayayya.",
+     "answer": "De eerste, veranderd uit de waw die de 'ayn is; de tweede, de lam; de derde, veranderd uit de alif van het vrouwelijke; de vierde, het kenteken van de nasb (van het tweevoud); de vijfde, de ya' van de verbinding, “mijn”."
+    },
+    {
+     "prompt": "Geef de afgeleide vormen van tawa, elk met zijn model in rama.",
+     "answer": "Tawin zoals ramin; matwiyy zoals marmiyy; matwan zoals marman; mitwan zoals mirman; tuwiya yutwa zoals rumiya yurma. De waw van de 'ayn wordt nooit veranderd."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het actief deelwoord van tawa is…",
+     "options": [
+      "ta'in",
+      "tayin",
+      "tawin",
+      "matwiyy"
+     ],
+     "explanation": "Zijn waw wordt niet veranderd."
+    },
+    {
+     "prompt": "Rayyan betekent…",
+     "options": [
+      "dorstig",
+      "gevouwen",
+      "gezien",
+      "gelest"
+     ],
+     "explanation": "Van al-riyy, het lessen."
+    },
+    {
+     "prompt": "Waarom wordt riwa' niet veranderd in riya'?",
+     "options": [
+      "Er zouden twee veranderingen samenkomen",
+      "Het is een werkwoord",
+      "Het is vrouwelijk",
+      "Het volgt siyat"
+     ],
+     "explanation": "De lam is al een hamza."
+    },
+    {
+     "prompt": "Hoeveel ya's heeft rayyayayya?",
+     "options": [
+      "Vier",
+      "Vijf",
+      "Drie",
+      "Zes"
+     ],
+     "explanation": "“Met vijf ya's.”"
+    },
+    {
+     "prompt": "De derde ya' van rayyayayya komt van…",
+     "options": [
+      "de waw van de 'ayn",
+      "de ya' van “mijn”",
+      "de alif van het vrouwelijke",
+      "het kenteken van de nasb"
+     ],
+     "explanation": "Rayya eindigt op de alif van het vrouwelijke."
+    },
+    {
+     "prompt": "Het passief deelwoord van tawa is…",
+     "options": [
+      "matwuy",
+      "tawin",
+      "matwan",
+      "matwiyy"
+     ],
+     "explanation": "Zoals marmiyy."
+    },
+    {
+     "prompt": "Tawaya houdt zijn waw…",
+     "options": [
+      "in navolging van tawa",
+      "omdat er twee veranderingen zouden samenkomen",
+      "voor het tweevoud",
+      "door een dialect"
+     ],
+     "explanation": "Er zouden in tawaya geen twee veranderingen samenkomen, maar het volgt tawa."
+    }
+   ],
+   "diagram": {
+    "caption": "De afgeleide vormen van tawa (Marah, blz. 120–122)",
+    "labels": {
+     "Form": "Vorm",
+     "Ṭawā": "Tawa",
+     "Like": "Zoals",
+     "active participle": "actief deelwoord",
+     "rāmin, the wāw kept": "ramin, de waw behouden",
+     "passive participle": "passief deelwoord",
+     "marmiyy": "marmiyy",
+     "place": "plaats",
+     "marman": "marman",
+     "instrument": "werktuig",
+     "mirman": "mirman",
+     "passive": "passief",
+     "rumiya yurmā": "rumiya yurma",
+     "dual past, dual participle": "verleden tijd tweevoud, deelwoord tweevoud",
+     "the wāw kept, for following": "de waw behouden, door navolging"
+    }
+   }
   }
  },
  "title": "Marah al-arwah",

@@ -141,7 +141,7 @@
         "“Hakkında söylenmek”, onun hakkında bir hüküm verilmesi demektir: fail, mef'ul ya da mübteda olur. Kitap, ism kelimesinin sümüvv'den, “yükselmek”ten geldiğini söyler, çünkü isim iki arkadaşının üstüne yükselir; “ma'na üzerinde bir işaret olan vesm'den değil”. Birincisi Basralıların, ikincisi Kufelilerin iştikakıdır.",
         "Fiil “kendi başına bir ma'naya, o ma'nanın zamanıyla birleşmiş bir delaletle delalet eden kelimedir”: darabe, yadribü, idrib. Alametleri: kendisi söylenir (ihbar bih) ama hakkında bir şey söylenmez; kad, sin, sevfe ve cezm alır; mazi ve fiil-i muzari olarak tasrif edilir; emr ya da nehy olur; görünür merfu zamirleri, darabte, sakin te'nis tasını, darabet, ve nun-ı te'kidi alır.",
         "“Kendisi söylenir”, fiilin hükmedilen şey (müsned) olması, asla hakkında hüküm verilen olmaması demektir. Fiile “aslının, masdarın adıyla” fiil denir, çünkü masdar “gerçekte failin fiilidir”, yani işidir: darb vurma işidir, darabe de bu işi geçmiş zamanda bildirir.",
-        "Bir tuzak: te'nis tası fiilin alameti ancak sakin olduğunda olur, darabet'te olduğu gibi. Harekeli te'nis tası, ka'imetün'de olduğu gibi, isimlerde bulunur. Bir alamet, bir kelimeyi sınıflamak için kullanılmadan önce dikkatle incelenmelidir."
+        "Bir tuzak: te'nis tası fiilin alameti ancak sakin olduğunda olur, darabet'te olduğu gibi. Harekeli te'nis tası, ka'imetun'de olduğu gibi, isimlerde bulunur. Bir alamet, bir kelimeyi sınıflamak için kullanılmadan önce dikkatle incelenmelidir."
       ],
       "terms": [
         "hakkında söylenmek: kelime hakkında bir hüküm verilir",
@@ -531,6 +531,130 @@
       ]
     },
     "5": {
+      "title": "İsmin i'rabının çeşitleri, birden dörde",
+      "body": [
+        "İsmin i'rabı dokuz sınıftır (asnaf): her biri bir isim grubuna ait dokuz alamet takımı. Bir ismin i'rabını yapmak için talebe önce onun grubunu bilmelidir; o zaman alametlerini de bilir. Birinci çeşit en sadesidir: zamme ile ref', fetha ile nasb, kesre ile cerr. Bu, munsarif ve sahih müfrede, “sonunda illet harfi bulunmayana”, Zeyd gibi; “sahihin yerine geçene”, sükundan sonra vav ya da ya ile biten kelimeye, delv, “kova”, ve zaby, “ceylan”, gibi; bir de munsarif cem'-i mükessere, rical, aittir.",
+        "El-kadi gibi bir kelime üç harekeyi almazken delv ve zaby neden alır? Çünkü vav ve ya sükundan sonra gelir: herhangi bir sahih harf kadar sağlam söylenirler ve üzerlerindeki hareke ağır değildir. Harekeden sonra gelen illet harfi başka bir meseledir (6. ders).",
+        "İkinci çeşit: zamme ile ref', kesre ile nasb ve cerr. Cem'-i müennes-i salime aittir: hünne müslimatün, ra'eytü müslimatin, merartü bi-müslimatin. Üçüncüsü: zamme ile ref', fetha ile nasb ve cerr; gayr-i munsarif için: ca'eni Umeru, ra'eytü Umera, merartü bi-Umera. Her biri üç durum için yalnız iki hareke alır, ama zıt yönlerde.",
+        "Dördüncüsü: vav ile ref', elif ile nasb, ya ile cerr. Esma-i sitteye aittir, üç şartla: tasgir edilmemiş, müfred ve mütekellim ya'sından başkasına muzaf olmak. Bunlar ahuke, ebuke, henuke, hamuki (kadının kayınpederi; bu yüzden kef müennestir), fuke ve zu malin'dir: ca'eni ahuke, ra'eytü ahake, merartü bi-ahike. Bir şart bozulursa harfler gider: tasgir olan ubeyy ve tesniye olan ahavani başka alametler alır, ebi, “babam”, ise hiçbirini almaz."
+      ],
+      "terms": [
+        "munsarif ve sahih müfred, sonunda illet harfi yok",
+        "sahihin yerine geçen: sükundan sonra vav ya da ya",
+        "gayr-i munsarif: nasb ve cerde fetha",
+        "esma-i sitte, vav, elif ve ya ile"
+      ],
+      "examples": [
+        "ref'de birinci çeşit",
+        "cem'-i müennes-i salim",
+        "gayr-i munsarif",
+        "esma-i sitteden biri"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her ismin grubunu ve gösterilen durumdaki alametini söyleyin: ra'eytü zabyen; merartü bi-müslimatin; ra'eytü Umera; ca'eni ebuke.",
+          "answer": "Zabyen: sahihin yerine geçen (sükundan sonra ya), fetha ile nasb. Müslimatin: cem'-i müennes-i salim, kesre ile cerr. Umera: gayr-i munsarif, fetha ile nasb. Ebuke: esma-i sitteden biri, vav ile ref'."
+        },
+        {
+          "prompt": "Delv neden üç harekeyi de alır?",
+          "answer": "Vavı sükundan sonra gelir, bu yüzden sahih bir harf gibi davranır ve üzerindeki hareke ağır değildir. Böyle bir isim, Zeyd gibi, birinci çeşit i'rabı alır."
+        },
+        {
+          "prompt": "Esma-i sitteyi kitabın verdiği şekilde ve üç şartlarını söyleyin.",
+          "answer": "Ahuke, ebuke, henuke, hamuki, fuke ve zu malin. Tasgir edilmemiş, müfred ve mütekellim ya'sından başkasına muzaf olmalıdırlar."
+        },
+        {
+          "prompt": "Cem'-i müennes-i salimi ve gayr-i munsarifi karşılaştırın.",
+          "answer": "İkisinin de üç durum için yalnız iki alameti vardır. Cem'-i müennes-i salim ref'de zamme, nasb ve cerde kesre alır; gayr-i munsarif ref'de zamme, nasb ve cerde fetha alır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Kitap ismin i'rabının kaç çeşidini sayar?",
+          "options": [
+            "üç",
+            "dokuz",
+            "altı",
+            "on"
+          ],
+          "explanation": "Dokuz alamet takımı."
+        },
+        {
+          "prompt": "Zaby birinci çeşidi alır, çünkü …",
+          "options": [
+            "cem'-i mükesserdir",
+            "gayr-i munsariftir",
+            "yası sükundan sonra gelir",
+            "muzaftır"
+          ],
+          "explanation": "Sahihin yerine geçer."
+        },
+        {
+          "prompt": "Cem'-i müennes-i salim nasbda … alır.",
+          "options": [
+            "fethayı",
+            "yayı",
+            "elifi",
+            "kesreyi"
+          ],
+          "explanation": "Ra'eytü müslimatin."
+        },
+        {
+          "prompt": "Ömer cerde … alır.",
+          "options": [
+            "fethayı",
+            "kesreyi",
+            "yayı",
+            "tenvini"
+          ],
+          "explanation": "Gayr-i munsariftir: merartü bi-Umera."
+        },
+        {
+          "prompt": "Hangisi esma-i sitteden DEĞİLDİR?",
+          "options": [
+            "ah",
+            "ibn",
+            "ham",
+            "zu"
+          ],
+          "explanation": "Ah, eb, hen, ham, fem, zu."
+        },
+        {
+          "prompt": "Hamuki'nin kefi müennestir, çünkü ham …",
+          "options": [
+            "müennes bir isimdir",
+            "bir cem'dir",
+            "bir kadının kayınpederidir",
+            "bir tasgirdir"
+          ],
+          "explanation": "Kadının kocası tarafından akrabası."
+        },
+        {
+          "prompt": "Ra'eytü ahake'de nasbın alameti …",
+          "options": [
+            "fethadır",
+            "yadır",
+            "keftir",
+            "eliftir"
+          ],
+          "explanation": "Esma-i sitte: vav, elif, ya."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Class": "Grup",
+          "Rafʿ": "Ref'",
+          "Naṣb": "Nasb",
+          "Jarr": "Cerr",
+          "sound singular": "sahih müfred",
+          "runs like the sound": "sahihin yerine geçen",
+          "broken plural": "cem'-i mükesser",
+          "sound feminine plural": "cem'-i müennes-i salim",
+          "diptote": "gayr-i munsarif",
+          "the six nouns": "esma-i sitte"
+        },
+        "caption": "İsmin i'rabının ilk dört çeşidi (s. 8–9)"
+      },
       "text": [
         "İsmin i'rab çeşitleri hakkında fasıl. Dokuz çeşittir. Birincisi: ref'in zamme, nasbın fetha, cerrin kesre ile olması. Bu, munsarif ve sahih müfrede —ki nahivcilere göre sonunda illet harfi olmayandır, Zeydin gibi—; sahih gibi cereyan edene, yani sonunda öncesi sakin bir vav veya ye bulunana, delvin “kova” ve zabyin “ceylan” gibi; ve munsarif cem'-i mükessere, ricalin “adamlar” gibi, mahsustur.",
         "ca'eni Zeydün ve delvun ve zabyun ve ricalün “bana Zeyd, bir kova, bir ceylan ve adamlar geldi”, ra'eytü Zeyden ve delven ve zabyen ve ricalen “Zeyd'i, bir kovayı, bir ceylanı ve adamları gördüm” ve merartü bi-Zeydin ve delvin ve zabyin ve ricalin “Zeyd'e, bir kovaya, bir ceylana ve adamlara uğradım” dersin. İkincisi: ref'in zamme, nasb ve cerrin kesre ile olması. Bu, cem'-i müennes-i salime mahsustur; hünne müslimatün “onlar Müslüman kadınlardır”, ra'eytü müslimatin “Müslüman kadınlar gördüm” ve merartü bi-müslimatin “Müslüman kadınlara uğradım” dersin.",
@@ -539,6 +663,133 @@
       ]
     },
     "6": {
+      "title": "İ'rabın beşinciden dokuzuncuya çeşitleri: tesniye, cem', takdiri alametler",
+      "body": [
+        "Beşinci çeşit: elif ile ref', “öncesi fethalı ya” ile nasb ve cerr. Tesniyeye, zamire muzaf olan kila'ya, isnani ve isnetani'ye aittir: ca'eni'r-raculani kilahüma, ra'eytü'r-raculeyni kileyhima. Altıncısı: öncesi zammeli vav ile ref', öncesi kesreli ya ile nasb ve cerr; cem'-i müzekker-i salim, ulu, işrune ve kardeşleri için: müslimune, müslimine. Nasb ve cerde yadan önceki harekenin tesniyeyi cem'den nasıl ayırdığına dikkat edin: müslimeyni, iki; müslimine, çok.",
+        "Tesniyenin nunu “her zaman kesrelidir”, cem'-i salimin nunu da “her zaman fethalıdır”; ikisi de izafette düşer: ca'eni ğulama Zeydin, müslimu Misra. Harekesiz bir kitapta okuyucu izafetteki bir tesniyeyi ya da cem'i böyle tanır: nununu kaybetmiştir.",
+        "Yedinci çeşidin bütün alametleri takdiridir: takdiri zamme ile ref', takdiri fetha ile nasb, takdiri kesre ile cerr. Maksura, yani kısa bir elifle biten isme, asan, “bir asa”, ve cem'-i müzekker-i salim dışında mütekellim ya'sına muzaf olan isme aittir: ğulami. Haza asan ve ğulami, ra'eytü asan ve ğulami, merartü bi-asan ve ğulami: kelimeler hiç değişmez.",
+        "Sekizincisi: ref' ve cerr takdiri, nasb “lafzen” fetha ile. Menkusa, yani öncesi kesreli bir ya ile biten isme aittir: ca'eni'l-kadi, ra'eytü'l-kadıye, merartü bi'l-kadi. Hafif fetha ya üzerinde söylenebilir; zamme ve kesre orada ağırdır ve söylenmez.",
+        "Dokuzuncusu: takdiri vav ile ref', lafzen ya ile nasb ve cerr; mütekellim ya'sına muzaf cem'-i müzekker-i salim için: ca'eni müslimiyye. Kitap sigasının nasıl meydana geldiğini gösterir: aslı müslimuye'dir; “vav ile ya bir araya geldi, birincisi sakindi; vav yaya çevrildi, ya yaya idğam edildi ve zamme, yaya uysun diye kesreye çevrildi”. Bu, bir nahiv kuralının içinde iş gören bir sarf kuralıdır."
+      ],
+      "terms": [
+        "tesniye: ref'de elif, nasb ve cerde öncesi fethalı ya",
+        "cem'-i müzekker-i salim: vav, bir de öncesi kesreli ya",
+        "kısa elifle biten isim: bütün alametler takdiri",
+        "kesreden sonra ya ile biten isim: ref' ve cerr takdiri"
+      ],
+      "examples": [
+        "tesniye ve zamirle kila",
+        "izafette düşen nun",
+        "bütün alametler takdiri",
+        "menkus: nasb lafzi",
+        "takdiri vav ile ref': müslimuye"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tesniyeyi cem'den ayırın ve durumu söyleyin: müslimeyni; müslimine; müslimu Misra.",
+          "answer": "Müslimeyni: tesniye (yadan önce fetha, nunda kesre), nasb ya da cerr. Müslimine: cem'-i salim (yadan önce kesre, nunda fetha), nasb ya da cerr. Müslimu Misra: ref'de cem'-i salim, nunu izafette düşmüş."
+        },
+        {
+          "prompt": "Ra'eytü asan'da asan'ın ve ra'eytü'l-kadıye'de el-kadıye'nin i'rabını verin.",
+          "answer": "Asan mef'uldür, takdiri fetha ile mansubdur: maksurdur ve bütün alametleri takdiridir. El-kadıye mef'uldür, ya üzerinde söylenen fetha ile mansubdur: menkusta nasb lafzidir."
+        },
+        {
+          "prompt": "Kitabın yaptığı gibi müslimuye'nin nasıl müslimiyye olduğunu açıklayın.",
+          "answer": "(Cem'in) vavı ile (mütekellimin) yası karşılaştı, birincisi sakindi; vav yaya çevrilip yaya idğam edildi, öncesindeki zamme de yaya uysun diye kesre oldu: müslimiyye."
+        },
+        {
+          "prompt": "Ğulami neden üç durumda da aynıdır?",
+          "answer": "Mütekellim ya'sına muzaftır; bu ya kendinden önce bir kesre ister. O kesre her alametin yerini alır, bu yüzden üçü de takdiridir: yedinci çeşit."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Tesniye nasbda … alır.",
+          "options": [
+            "öncesi kesreli yayı",
+            "elifi",
+            "öncesi fethalı yayı",
+            "fethayı"
+          ],
+          "explanation": "Ra'eytü'r-raculeyni."
+        },
+        {
+          "prompt": "Kila … muzaf olduğunda tesniyenin alametlerini alır.",
+          "options": [
+            "açık bir isme",
+            "bir tesniyeye",
+            "hiçbir şeye",
+            "bir zamire"
+          ],
+          "explanation": "Kilahüma, kileyhima."
+        },
+        {
+          "prompt": "Cem'-i salimin nunu her zaman …",
+          "options": [
+            "fethalıdır",
+            "kesrelidir",
+            "zammelidir",
+            "sakindir"
+          ],
+          "explanation": "Tesniyenin nunu her zaman kesrelidir."
+        },
+        {
+          "prompt": "Ca'eni ğulama Zeydin'de tesniyenin nunu …",
+          "options": [
+            "gizlidir",
+            "izafet için düşmüştür",
+            "kesredir",
+            "yaya çevrilmiştir"
+          ],
+          "explanation": "İki nun da izafette düşer."
+        },
+        {
+          "prompt": "Haza asan'da asan … ile merfudur.",
+          "options": [
+            "zamme",
+            "elif",
+            "takdiri zamme",
+            "tenvin"
+          ],
+          "explanation": "Maksur: bütün alametleri takdiri."
+        },
+        {
+          "prompt": "Menkusun hangi durumu lafzidir?",
+          "options": [
+            "ref'",
+            "cerr",
+            "hiçbiri",
+            "nasb"
+          ],
+          "explanation": "Ra'eytü'l-kadıye."
+        },
+        {
+          "prompt": "Ca'eni müslimiyye'de ref' … iledir.",
+          "options": [
+            "takdiri vav",
+            "ya",
+            "zamme",
+            "kesre"
+          ],
+          "explanation": "Aslı müslimuye'dir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Class": "Grup",
+          "Rafʿ": "Ref'",
+          "Naṣb": "Nasb",
+          "Jarr": "Cerr",
+          "dual": "tesniye",
+          "kilā with a pronoun": "zamirle kila",
+          "sound masculine plural": "cem'-i müzekker-i salim",
+          "maqṣūr": "maksur",
+          "with the yāʾ of the speaker": "mütekellim ya'sıyla",
+          "manqūṣ": "menkus",
+          "plural with that yāʾ": "o ya ile cem'"
+        },
+        "caption": "İ'rabın beşinciden dokuzuncuya çeşitleri (s. 9–11)"
+      },
       "text": [
         "Beşincisi: ref'in elif, nasb ve cerrin öncesi fethalı ye ile olması. Bu, tesniyeye, zamire muzaf kila “ikisi”ne, ve isnani ile isnetani “iki [erkek, kadın]”e mahsustur; ca'eni'r-raculani kilahüma “bana iki adam geldi, ikisi de”, ve isnani ve isnetani “ve iki [erkek] ve iki [kadın]”; ra'eytü'r-raculeyni kileyhima “iki adamı gördüm, ikisini de”, ve isneyni ve isneteyni; ve merartü bi'r-raculeyni kileyhima “iki adama uğradım, ikisine de”, ve isneyni ve isneteyni dersin.",
         "Altıncısı: ref'in öncesi zammeli vav, nasb ve cerrin öncesi kesreli ye ile olması. Bu, cem'-i müzekker-i salime, müslimune “Müslümanlar” gibi, ulu “sahipler”e ve kardeşleriyle birlikte 'işrune “yirmi”ye mahsustur; ca'eni müslimune ve 'işrune ve ulu malin “bana Müslümanlar, yirmi [kişi] ve mal sahipleri geldi”, ra'eytü müslimine ve 'işrine ve uli malin “Müslümanları, yirmi [kişiyi] ve mal sahiplerini gördüm” ve merartü bi-müslimine ve 'işrine ve uli malin “Müslümanlara, yirmi [kişiye] ve mal sahiplerine uğradım” dersin.",
@@ -549,6 +800,139 @@
       ]
     },
     "7": {
+      "title": "Munsarif ve gayr-i munsarif; adl, vasf, te'nis",
+      "body": [
+        "Mu'reb isim iki çeşittir. Munsarif, “içinde dokuz sebepten ikisi ya da ikisinin yerini tutan biri bulunmayan” isimdir, Zeyd gibi; tenvinle birlikte üç harekeyi alır. Gayr-i munsarifin iki sebebi ya da ikisinin yerini tutan bir sebebi vardır; “ona kesre ve tenvin girmez”, cerde de fetha alır: ca'eni Ahmedü, ra'eytü Ahmede, merartü bi-Ahmede. Dokuz sebep adl, vasf, te'nis, ma'rife, ucme, cem', terkib, zaid elif ve nun, vezn-i fiildir; talebeler bunları kısa bir beyitle ezberler.",
+        "Adl “kelimenin asli sigasından başka bir sigaya, tahkikan ya da takdiren, çıkarılmasıdır”. Alemiyyetle birleşir, Ömer ve Züfer'de olduğu gibi; vasfla da birleşir, sülase ve meslese, “üçer üçer”, uhar ve cume' gibi; vezn-i fiille hiçbir zaman birleşmez. Şarihler “takdiren”i açıklar: Ömer'de hiçbir asli siga duyulmaz, ama Araplar onu gayr-i munsarif sayar, bu yüzden Amir'den bir değişiklik farz edilir; sülase'de selaseten selaseten'den değişiklik gerçektir.",
+        "Vasf hiçbir zaman alemiyyetle birleşmez ve kelime ancak “asli vaz'ında” vasf ise muteberdir. Bu yüzden esved, “siyah”, ve erkam, “benekli”, yılanın adı olduklarında bile gayr-i munsarif kalır; merartü bi-nisvetin erbe'in'deki erbe', “dört kadın”, ise vezn-i fiil üzere bir vasf olmasına rağmen munsariftir: vasf olarak değil, sayı olarak konmuştur.",
+        "Te ile te'nis ancak bir alemde muteberdir, Talha gibi; yazılı bir te olmadan ma'nevi te'nis de öyledir. Üç harfli, ortası sakin ve yabancı olmayan ma'nevi müennes, “hafifliği yüzünden” munsarif de gayr-i munsarif de olabilir: Hind. Değilse gayr-i munsarif olmalıdır: dört harfli Zeyneb; ortası harekeli Sakar; yabancı adlar olan Mah ve Cur.",
+        "Kısa olan hubla'daki ya da uzun olan hamra'daki gibi elifle te'nis hiçbir zaman munsarif olmaz, “çünkü elif iki sebebin yerini tutar: te'nis ve onun kelimeye lazım olması”. Te çıkarılabilir (ka'im, ka'ime); hubla'nın elifi çıkarılamaz."
+      ],
+      "terms": [
+        "bir ismi gayr-i munsarif yapan dokuz sebep",
+        "kelimenin asli sigasından çıkarılması",
+        "asli vaz'da vasf olmak",
+        "ma'nevi te'nis, yazılı te olmadan"
+      ],
+      "examples": [
+        "gayr-i munsarif: cerde fetha",
+        "vasfla adl: “üçer üçer”",
+        "aslen vasf değil: munsarif",
+        "gayr-i munsarif olması gereken ma'nevi müennes",
+        "te'nis elifi: hiçbir zaman munsarif olmaz"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her gayr-i munsarifin iki sebebini söyleyin: Ömer; Talha; Zeyneb; uhar.",
+          "answer": "Ömer: adl ve alemiyyet. Talha: te'nis (te ile) ve alemiyyet. Zeyneb: te'nis (ma'nevi) ve alemiyyet. Uhar: adl ve vasf."
+        },
+        {
+          "prompt": "Esved yılanın adı olarak bile neden gayr-i munsariftir de nisvetin erbe'in'deki erbe' munsariftir?",
+          "answer": "Esved bir vasf olarak, “siyah”, konmuştur ve vezn-i fiille birlikte bu sebebi korur. Erbe' bir sayı olarak konmuştur; vasf olarak kullanılması asli değildir, bu yüzden yalnız bir sebebi, vezni vardır ve munsariftir."
+        },
+        {
+          "prompt": "Hind neden munsarif olabilir de Sakar olamaz?",
+          "answer": "İkisi de alemdir ve ma'nevi müennestir. Hind üç harfli, ortası sakin ve yabancı değildir: hafiftir, bu yüzden ikisi de caizdir. Sakar'ın ortası harekelidir, bu yüzden gayr-i munsarif olmalıdır."
+        },
+        {
+          "prompt": "Hubla'da tek bir elif nasıl iki sebebin yerini tutar?",
+          "answer": "Elif te'nisi gösterir ve kelimeye lazımdır: te gibi asla çıkarılamaz. Te'nis ve bu lüzum iki sebep sayılır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Gayr-i munsarifin … vardır.",
+          "options": [
+            "bir sebebi",
+            "hiç sebebi",
+            "üç sebebi",
+            "iki sebebi ya da ikisinin yerini tutan bir sebebi"
+          ],
+          "explanation": "Dokuz sebepten."
+        },
+        {
+          "prompt": "Gayr-i munsarif cerde … alır.",
+          "options": [
+            "fethayı",
+            "kesreyi",
+            "zammeyi",
+            "tenvini"
+          ],
+          "explanation": "Merartü bi-Ahmede."
+        },
+        {
+          "prompt": "Adl hiçbir zaman … ile birleşmez.",
+          "options": [
+            "alem",
+            "vezn-i fiil",
+            "vasf",
+            "cem'"
+          ],
+          "explanation": "Alemle ve vasfla birleşir."
+        },
+        {
+          "prompt": "Meslese … demektir.",
+          "options": [
+            "üçüncü",
+            "üç",
+            "üçer üçer",
+            "üçgen"
+          ],
+          "explanation": "Sülase gibi, vasfla adl."
+        },
+        {
+          "prompt": "Nisvetin erbe'in'deki erbe' munsariftir, çünkü …",
+          "options": [
+            "bir alemdir",
+            "müennestir",
+            "bir cem'dir",
+            "aslen vasf değildir"
+          ],
+          "explanation": "Bir sayı olarak konmuştur."
+        },
+        {
+          "prompt": "Hangi müennes ad munsarif de gayr-i munsarif de olabilir?",
+          "options": [
+            "Hind",
+            "Zeyneb",
+            "Sakar",
+            "Talha"
+          ],
+          "explanation": "Üç harfli, ortası sakin, yabancı değil."
+        },
+        {
+          "prompt": "Hamra' hiçbir zaman munsarif olmaz, çünkü elifi …",
+          "options": [
+            "yabancıdır",
+            "iki sebebin yerini tutar",
+            "bir addır",
+            "bir cem'dir"
+          ],
+          "explanation": "Te'nis ve onun lüzumu."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Cause": "Sebep",
+          "Comes with": "Birlikte olduğu",
+          "The book's example": "Kitabın örneği",
+          "ʿadl": "adl",
+          "the proper name": "alem",
+          "the adjective": "vasf",
+          "adjective in origin": "aslen vasf",
+          "the verb's pattern": "vezn-i fiil",
+          "not an adjective in origin": "aslen vasf değil",
+          "declined": "munsarif",
+          "feminine with the tāʾ": "te ile te'nis",
+          "feminine by meaning, light": "ma'nevi te'nis, hafif",
+          "the name: either way": "alem: iki türlü de",
+          "feminine by meaning, heavier": "ma'nevi te'nis, daha ağır",
+          "the name: diptote": "alem: gayr-i munsarif",
+          "the feminine alif": "te'nis elifi",
+          "alone: two causes": "tek başına: iki sebep"
+        },
+        "caption": "Adl, vasf ve te'nis (s. 12–13)"
+      },
       "text": [
         "Fasıl. Mu'reb isim iki çeşittir. Munsarif: dokuz sebepten ikisinin, ya da ikisinin yerini tutan birinin bulunmadığı isimdir, Zeydin gibi. Ona mütemekkin isim denir; hükmü, üç harekenin tenvinle birlikte ona girmesidir; ca'eni Zeydün “bana Zeyd geldi”, ra'eytü Zeyden “Zeyd'i gördüm” ve merartü bi-Zeydin “Zeyd'e uğradım” dersin.",
         "Bir de gayr-i munsarif: iki sebebin, ya da ikisinin yerini tutan birinin bulunduğu isimdir. Dokuz sebep şunlardır: adl, vasf, te'nis, ma'rife, ucme, cem', terkib, zaid elif ile nun, ve fiil vezni. Hükmü, kesre ve tenvinin ona girmemesi ve cer yerinde daima fethalı olmasıdır; ca'eni Ahmedü “bana Ahmed geldi”, ra'eytü Ahmede “Ahmed'i gördüm” ve merartü bi-Ahmede “Ahmed'e uğradım” dersin.",
@@ -558,6 +942,138 @@
       ]
     },
     "8": {
+      "title": "Diğer sebepler; gayr-i munsarif ne zaman munsarif olur",
+      "body": [
+        "Ma'rifelikten “yalnız alemiyyet muteberdir” ve vasf dışındaki her sebeple birleşebilir. Ucme, kelime yabancı dilde bir alem olup üçten fazla harfi bulunduğunda muteberdir, İbrahim; ya da üç harfli olup ortası harekeli olduğunda, Şeter. Bu yüzden licam, “gem”, bir ad olmadığı için munsariftir; Nuh da ortadaki harfi sakin olduğu için munsariftir.",
+        "Cem', “cem'lerin en sonunun sigası” (müntehe'l-cümu' sigası) üzere olduğunda muteberdir: cem' elifinden sonra iki harf, mesacid; şeddeli bir harf, devabb; ya da ortası sakin üç harf, masabih; ve he almamalıdır, bu yüzden ferazine munsariftir. Bu cem' iki sebebin yerini tutar, “cem' olmak ve onun lüzumu”: bir daha asla cem'-i mükesser yapılamaz, “bu yüzden sanki iki defa cem' yapılmış gibidir”.",
+        "Terkib, “izafetsiz ve isnadsız” bir alemde muteberdir: Ba'lebekk. Bu yüzden izafetle mürekkeb olan Abdullah munsariftir; Me'di Kerib gayr-i munsariftir; tam bir cümleden yapılmış bir ad olan Şabe karnaha ise mebnidir. Zaid elif ve nun, bir isimde, alem olduğunda muteberdir, İmran, Osman; ama bir bitki olan se'dan'da değil; bir vasfta ise fe'lane üzere bir müennes bulunmadığında: sekran gayr-i munsariftir, nedman ise nedmane bulunduğu için munsariftir.",
+        "Vezn-i fiil, vezin yalnız fiile ait olup isimlerde ancak fiilden nakledilmiş olarak bulunduğunda muteberdir, Şemmere ve Duribe gibi adlar; ya da kelime bir muzaraat harfiyle başlayıp he almadığında: Ahmed, Yeşkür, Tağlib, Nercis. Ye'mel munsariftir, çünkü he alır: nakatun ye'meletun, “çok çalışkan bir dişi deve”.",
+        "Mukaddimeyi iki kural bitirir. Sebepleri arasında alemiyyet bulunan gayr-i munsarif, nekre yapılınca munsarif olur: alemiyyete muhtaç olanlar bütün sebeplerini kaybeder, adl alemi ve vezn-i fiil alemi ise yalnız birini korur. Ca'eni Talhatu ve Talhatun aharu, “Talha geldi, bir başka Talha da”. Ve her gayr-i munsarif, muzaf olunca ya da lam alınca kesre alır: merartü bi-Ahmediküm, ve bi'l-Ahmedi."
+      ],
+      "terms": [
+        "ucme: başka bir dilde alem olmak",
+        "müntehe'l-cümu' sigası: mesacid, masabih",
+        "terkib: tek bir ad yapılmış iki kelime",
+        "vezn-i fiil"
+      ],
+      "examples": [
+        "ucme: üç harften fazlası gayr-i munsarif; üç harfli, ortası sakin olan munsarif",
+        "en son cem'in üç şekli",
+        "vasflarda zaid elif ve nun",
+        "nekre yapılınca: munsarif",
+        "muzaf ya da lamlı: kesre"
+      ],
+      "tasks": [
+        {
+          "prompt": "Gayr-i munsarif mi munsarif mi, ve neden? İbrahim; licam; Nuh; masabih; ferazine.",
+          "answer": "İbrahim: gayr-i munsarif (üç harften fazla, yabancı bir alem). Licam: munsarif (yabancı, ama alem değil). Nuh: munsarif (üç harfli, ortası sakin). Masabih: gayr-i munsarif (müntehe'l-cümu'). Ferazine: munsarif (he alır)."
+        },
+        {
+          "prompt": "Abdullah neden munsariftir de Ba'lebekk değildir?",
+          "answer": "Terkib ancak izafetsiz ve isnadsız bir alemde muteberdir. Abdullah izafetle mürekkebtir, bu yüzden munsariftir (birinci parçası i'rabı alır). Ba'lebekk izafet olmadan tek yapılmış iki kelimedir: terkibli bir alem, gayr-i munsarif."
+        },
+        {
+          "prompt": "Sekran neden gayr-i munsariftir de nedman munsariftir?",
+          "answer": "Bir vasfta zaid elif ve nun ancak fe'lane üzere bir müennes bulunmadığında muteberdir. Sekran'ın böyle bir müennesi yoktur (müennesi sekrane değildir); nedman'ın nedmane'si vardır, bu yüzden munsariftir."
+        },
+        {
+          "prompt": "Darabe Ahmedü ve Ahmedün aharu'yu açıklayın.",
+          "answer": "Ad olarak Ahmed'in iki sebebi vardır, alemiyyet ve vezn-i fiil: gayr-i munsariftir. “Bir başka Ahmed” nekredir: alemiyyet gitmiş, yalnız vezin kalmıştır, tek sebep; bu yüzden tenvinle munsariftir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ma'rifelikten sebep olarak ne muteberdir?",
+          "options": [
+            "yalnız alemiyyet",
+            "her ma'rife",
+            "ta'rif lamı",
+            "izafet"
+          ],
+          "explanation": "Ve vasf dışındaki her sebeple birleşir."
+        },
+        {
+          "prompt": "Nuh munsariftir, çünkü …",
+          "options": [
+            "yabancı değildir",
+            "ortadaki harfi sakindir",
+            "alem değildir",
+            "cem'dir"
+          ],
+          "explanation": "Üç harfli yabancı bir alemin gayr-i munsarif olması için ortası harekeli olmalıdır."
+        },
+        {
+          "prompt": "Devabb, cem' elifinden sonra … bulunan bir müntehe'l-cümu'dur.",
+          "options": [
+            "iki harf",
+            "üç harf",
+            "şeddeli bir harf",
+            "bir he"
+          ],
+          "explanation": "Mesacid, devabb, masabih."
+        },
+        {
+          "prompt": "Şabe karnaha, ad olarak, …",
+          "options": [
+            "gayr-i munsariftir",
+            "munsariftir",
+            "cem'dir",
+            "mebnidir"
+          ],
+          "explanation": "İsnadlı bir mürekkeb."
+        },
+        {
+          "prompt": "Bir bitki olan se'dan munsariftir, çünkü …",
+          "options": [
+            "alem değildir",
+            "fe'lane'si vardır",
+            "yabancıdır",
+            "cem'dir"
+          ],
+          "explanation": "İsimde elif ve nun alemiyyete muhtaçtır."
+        },
+        {
+          "prompt": "Ye'mel munsariftir, çünkü …",
+          "options": [
+            "fiildir",
+            "he alır",
+            "yabancıdır",
+            "cem'dir"
+          ],
+          "explanation": "Nakatun ye'meletun."
+        },
+        {
+          "prompt": "Gayr-i munsarif … kesre alır.",
+          "options": [
+            "merfu olunca",
+            "alem olunca",
+            "muzaf olunca ya da lam alınca",
+            "müennes olunca"
+          ],
+          "explanation": "Merartü bi-Ahmediküm, ve bi'l-Ahmedi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Cause": "Sebep",
+          "Condition": "Şart",
+          "Diptote": "Gayr-i munsarif",
+          "Declined": "Munsarif",
+          "foreign": "ucme",
+          "a name there; over three letters, or a vowel in the middle": "orada bir alem; üç harften fazla ya da ortası harekeli",
+          "the plural": "cem'",
+          "the furthest plural, not taking the hāʾ": "müntehe'l-cümu', he almayan",
+          "compounding": "terkib",
+          "a name, no iḍāfa, no predication": "alem, izafetsiz, isnadsız",
+          "alif and nūn in a noun": "isimde elif ve nun",
+          "a proper name": "alem",
+          "alif and nūn in an adjective": "vasfta elif ve nun",
+          "no feminine on faʿlāna": "fe'lane üzere müennesi yok",
+          "the verb's pattern": "vezn-i fiil",
+          "the verb's own, or a muḍāriʿ prefix without the hāʾ": "fiile mahsus ya da hesiz muzaraat harfi"
+        },
+        "caption": "Diğer sebepler, kitabın örnekleriyle (s. 13–15)"
+      },
       "text": [
         "Ma'rifelikten, ismi gayr-i munsarif yapmada yalnız alemiyyet itibar edilir ve vasf dışındaki [her sebeple] bir araya gelir. Ucme: şartı, yabancı dilde alem olması ve üçten fazla harfli olması, Ibrahime gibi, ya da ortası harekeli üç harfli olmasıdır, Şetera gibi; bu yüzden licamün “gem” alem olmadığı için, Nuhun da ortası sakin olduğu için munsariftir.",
         "Cem': şartı, sıyga-i münteha'l-cümu' üzere olmasıdır; bu, cem' elifinden sonra iki harf bulunması, mesacide “mescitler” gibi, ya da şeddeli bir harf, devabbe “hayvanlar” gibi, ya da ortası sakin olan ve ha kabul etmeyen üç harf bulunmasıdır, masabiha “kandiller” gibi; bu yüzden ferazinetun “[satrançta] vezirler” ha kabul ettiği için munsariftir. O da iki sebebin yerini tutar: cem' ve lazım olması, yani bir daha cem'-i mükesser yapılmasının imkansızlığı; sanki iki kere cem' yapılmıştır.",
@@ -568,6 +1084,127 @@
       ]
     },
     "9": {
+      "title": "Sekiz merfu; fail ve fiilinin sayısı",
+      "body": [
+        "Birinci maksad merfu isimlerdir ve sekizdir: fail; “faili anılmayan fiilin mef'ulü” (mef'ul-i ma lem yüsemme failüh; Kafiye'nin, sonraki kitapların naib-i fail dediği şeye verdiği ad); mübteda; haber; inne ve kardeşlerinin haberi; kane ve kardeşlerinin ismi; leyse'ye benzeyen ma ve la'nın ismi; ve la-yı nefy-i cinsin haberi. Merfu fiil-i muzari burada sayılmaz, çünkü bu kısım yalnız isim hakkındadır.",
+        "Fail “kendisinden önce, kendisine isnad edilmiş bir fiil ya da sıfat bulunan her isimdir; işin onda kaim olması ma'nasında, ona düşmesi ma'nasında değil”. Her parçası önemlidir. “Kendisinden önce”: fail amilinden sonra gelir. “Bir fiil ya da sıfat”: kame Zeydün, bir de Zeydün daribün ebuhü Amran; burada ebuhü, ism-i fail olan daribün'ün failidir. “Onda kaim olur, ona düşmez”: bu, naib-i faili dışarıda bırakır; duribe Zeydün'de olduğu gibi, vurma Zeyd'e düşer.",
+        "Üçüncü örneğe dikkat edin: ma darabe Zeydün Amran, “Zeyd Amr'ı vurmadı”. Vurma nefyedilmiştir, ama Zeyd yine faildir: fiil yine ona isnad edilmiştir. Fail olmak cümlenin şekliyle ilgili bir meseledir, olup bitenle değil.",
+        "“Her fiilin merfu bir faili olmalıdır”: bir ism-i zahir, zehebe Zeydün; görünür bir zamir, darabtü Zeyden, burada te faildir; ya da gizli bir zamir, Zeydün zehebe, burada fail zehebe'de gizli bir zamirdir. Fiil müteaddi ise bir de mef'ulün bihi vardır: darabe Zeydün Amran.",
+        "Fail ism-i zahir olunca “fiil her zaman müfred olur”: darabe Zeydün, darabe'z-Zeydani, darabe'z-Zeydune. Zamirle fiil uyar: Zeydün darabe, ez-Zeydani daraba, ez-Zeydune darabu. Daraba'nın elifi ve darabu'nun vavı fiil üzerinde sayı alameti değil, zamirlerin kendisidir, yani faildir; faili ism-i zahir olan bir fiilin ikinci bir faile ihtiyacı yoktur."
+      ],
+      "terms": [
+        "sekiz merfu isim",
+        "kendisine isnad edilmiş bir fiil ya da sıfattan sonra gelen, işin onda kaim olduğu isim",
+        "faili anılmayan fiilin mef'ulü: naib-i fail",
+        "müteaddi fiil; onun bir de mef'ulün bihi vardır"
+      ],
+      "examples": [
+        "bir sıfatın faili: ebuhü",
+        "nefyedilmiş bir işin faili",
+        "ism-i zahir, görünür zamir, gizli zamir",
+        "zamirle fiil uyar"
+      ],
+      "tasks": [
+        {
+          "prompt": "Faili bulun ve çeşidini söyleyin: zehebe Zeydün; darabtü Zeyden; Zeydün zehebe; Zeydün daribün ebuhü Amran.",
+          "answer": "Zeydün: ism-i zahir bir fail. Darabtü'nün te'si: görünür bir zamir. Zeydün zehebe'de: zehebe'de gizli bir zamir. Ebuhü: daribün sıfatının ism-i zahir faili."
+        },
+        {
+          "prompt": "Kitabın tarifine göre duribe Zeydün'de Zeydün neden fail değildir?",
+          "answer": "Fail, işin kendisinde kaim olduğu kimsedir, kendisine düştüğü kimse değil. Duribe Zeydün'de vurma Zeyd'e düşer; o, hazfedilen failin yerine konmuş mef'uldür."
+        },
+        {
+          "prompt": "Yanlışı düzeltin: daraba'z-Zeydani; ez-Zeydune darabe.",
+          "answer": "Darabe'z-Zeydani: fail ism-i zahir olunca fiil her zaman müfreddir. Ez-Zeydune darabu: zamirle fiil uyar ve vav cem' zamiridir."
+        },
+        {
+          "prompt": "Kitabın sekiz merfuunu sayın.",
+          "answer": "Fail; faili anılmayan fiilin mef'ulü; mübteda; haber; inne ve kardeşlerinin haberi; kane ve kardeşlerinin ismi; leyse'ye benzeyen ma ve la'nın ismi; la-yı nefy-i cinsin haberi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Kitap kaç merfu isim sayar?",
+          "options": [
+            "dokuz",
+            "sekiz",
+            "yedi",
+            "on üç"
+          ],
+          "explanation": "Fiil-i muzari fiil kısmına bırakılır."
+        },
+        {
+          "prompt": "Failin tarifinde “onda kaim olur, ona düşmez” sözü … dışarıda bırakır.",
+          "options": [
+            "mübtedayı",
+            "sıfatın failini",
+            "faili anılmayan mef'ulü",
+            "gizli zamiri"
+          ],
+          "explanation": "Duribe Zeydün'de iş Zeyd'e düşer."
+        },
+        {
+          "prompt": "Zeydün daribün ebuhü Amran'da daribün'ün faili …",
+          "options": [
+            "Zeydün'dür",
+            "Amran'dır",
+            "gizli bir zamirdir",
+            "ebuhü'dür"
+          ],
+          "explanation": "Bir sıfatın da faili olabilir."
+        },
+        {
+          "prompt": "Ma darabe Zeydün Amran'da Zeydün …",
+          "options": [
+            "faildir",
+            "mef'uldür",
+            "mübtedadır",
+            "ma'mul değildir"
+          ],
+          "explanation": "İş nefyedilmiştir, ama fiil yine ona isnad edilmiştir."
+        },
+        {
+          "prompt": "Zeydün zehebe'de zehebe'nin faili …",
+          "options": [
+            "Zeydün'dür",
+            "gizli bir zamirdir",
+            "eliftir",
+            "yoktur"
+          ],
+          "explanation": "Her fiilin merfu bir faili olmalıdır."
+        },
+        {
+          "prompt": "Fail ism-i zahir bir tesniye olunca fiil …",
+          "options": [
+            "tesniyedir",
+            "cem'dir",
+            "müfreddir",
+            "müennestir"
+          ],
+          "explanation": "Darabe'z-Zeydani."
+        },
+        {
+          "prompt": "Ez-Zeydune darabu'da vav …",
+          "options": [
+            "yalnız cem' alametidir",
+            "mef'uldür",
+            "mübtedadır",
+            "fail olan bir zamirdir"
+          ],
+          "explanation": "Zamirle fiil uyar."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Fāʿil": "Fail",
+          "Singular": "Müfred",
+          "Dual": "Tesniye",
+          "Plural": "Cem'",
+          "explicit: the verb singular": "ism-i zahir: fiil müfred",
+          "a pronoun: the verb agrees": "zamir: fiil uyar"
+        },
+        "caption": "Fiil ve failinin sayısı (s. 16)"
+      },
       "text": [
         "Merfu isimler sekiz çeşittir: fail; faili zikredilmeyen fiilin mef'ulü; mübteda; haber; inne ve kardeşlerinin haberi; kane ve kardeşlerinin ismi; leyse'ye benzeyen ma ve la'nın ismi; ve la-yı nefy-i cinsin haberi.",
         "Fasıl. Fail, öncesinde kendisine isnad edilen bir fiil veya sıfat bulunan her isimdir; [iş] onun üzerine düşmesi değil, onunla kaim olması ma'nasında; kame Zeydün “Zeyd kalktı”, Zeydün daribün ebuhü 'Amran “Zeyd'in babası Amr'ı dövüyor” ve ma darabe Zeydün 'Amran “Zeyd Amr'ı dövmedi” gibi. Her fiilin merfu bir faili olmalıdır: açık, zehebe Zeydün “Zeyd gitti” gibi; ya da bariz zamir, darabtü Zeyden “Zeyd'i dövdüm” gibi; ya da müstetir, Zeydün zehebe “Zeyd, o gitti” gibi. Fiil müteaddi ise bir de mef'ulün bihi olur, darabe Zeydün 'Amran “Zeyd Amr'ı dövdü” gibi.",
@@ -575,6 +1212,133 @@
       ]
     },
     "10": {
+      "title": "Müennes fiil; fail ile mef'ulün sırası; hazf",
+      "body": [
+        "Hakiki müennes “canlılar arasında karşısında bir erkek bulunan”dır. Fail hakiki müennes olunca fiil, “fiil ile failin arasını ayırmazsanız her zaman müennestir”: kamet Hindün. Araya bir şey girerse seçebilirsiniz: darabe'l-yevme Hindün ya da darabeti'l-yevme Hindün. Eş-şems gibi hakiki olmayan bir müennesle ayırma olmadan da seçebilirsiniz: tale'ati'ş-şemsü ya da tale'a'ş-şemsü.",
+        "Bütün bunlar, fiil bir ism-i zahire isnad edildiğinde böyledir. Bir zamire isnad edildiğinde “her zaman müennestir”: eş-şemsü tale'at. Cem'-i mükesser “hakiki olmayan müennes gibidir”: kame'r-ricalü ya da kameti'r-ricalü; zamiriyle de er-ricalü kamet ya da er-ricalü kamu.",
+        "Sıra. Fail normalde mef'ulden önce gelir; “ikisi de maksur olup lebsten (karışıklıktan) korkulduğunda” önce gelmesi gerekir: darabe Musa İsa'da iki kelime de i'rabını göstermez, bu yüzden kimin kimi vurduğunu yalnız sıra söyler. Hiçbir şeyin karışmadığı yerde mef'ul önce gelebilir: ekele'l-kümmesra Yahya, “Yahya armudu yedi”, burada ma'na söyler (armut yemez); darabe Amran Zeydün, burada da i'rab söyler.",
+        "Hazf. Karine gösterdiğinde fiil hazfedilebilir: men darabe, “kim vurdu?” sorusuna cevap olarak Zeydün. Fiil ve fail birlikte hazfedilebilir: e-kame Zeydün'e cevap olarak ne'am, “evet”, kame Zeydün'ün yerindedir. Fiil meçhul olunca da fail hazfedilip mef'ul onun yerine konabilir: duribe Zeydün. Bu, merfuların ikincisidir (13. ders)."
+      ],
+      "terms": [
+        "hakiki müennes: canlılar arasında karşısında bir erkek bulunan",
+        "eş-şems gibi hakiki olmayan müennes",
+        "lebs: faili yalnız sıranın gösterdiği durum",
+        "faili hazfedilen meçhul fiil"
+      ],
+      "examples": [
+        "fiiline bitişik hakiki müennes: te'nis gerekli",
+        "ayrılmış: müzekker caiz",
+        "müennes zamir: te'nis gerekli",
+        "ikisi de maksur: fail önce gelmeli",
+        "lebs yok: mef'ul önce gelebilir"
+      ],
+      "tasks": [
+        {
+          "prompt": "Fiil müennes olmak zorunda mı? kame Hindün; tale'a'ş-şemsü; darabe'l-yevme Hindün; eş-şemsü tale'a.",
+          "answer": "Kame Hindün: yanlış; fiile bitişik hakiki müennes kamet ister. Tale'a'ş-şemsü: caiz; eş-şems hakiki müennes değildir. Darabe'l-yevme Hindün: caiz; fail ayrılmıştır. Eş-şemsü tale'a: yanlış; müennes zamirle tale'at denmelidir."
+        },
+        {
+          "prompt": "Darabe Musa İsa'da Musa neden önce gelmelidir de darabe Amran Zeydün'de Amran önce gelebilir?",
+          "answer": "Musa ve İsa ikisi de maksurdur: i'rabları takdiridir, bu yüzden faili yalnız sıra gösterir. Darabe Amran Zeydün'de fetha ve zamme onu gösterir, bu yüzden lebs yoktur ve mef'ul önce gelebilir."
+        },
+        {
+          "prompt": "Her cevapta ne hazfedilmiştir: men darabe'ye Zeydün; e-kame Zeydün'e ne'am?",
+          "answer": "Zeydün'de fiil hazfedilmiştir: darabe Zeydün. Ne'am'da fiil ve faili birlikte hazfedilmiştir: ne'am, kame Zeydün."
+        },
+        {
+          "prompt": "Kitabın er-rical ile caiz gördüğü dört şekli verin.",
+          "answer": "Kame'r-ricalü ve kameti'r-ricalü (fiil önde, müzekker ya da müennes); er-ricalü kamet ve er-ricalü kamu (zamiriyle, müfred müennes ya da cem' müzekker)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Hakiki müennes … olandır.",
+          "options": [
+            "sonunda te bulunan",
+            "sonunda elif bulunan",
+            "canlılar arasında karşısında bir erkek bulunan",
+            "cem'i olmayan"
+          ],
+          "explanation": "Bir kadın olan Hind gibi."
+        },
+        {
+          "prompt": "Kamet Hindün: te'nis …",
+          "options": [
+            "yalnız caizdir",
+            "yanlıştır",
+            "yalnız şiirde gereklidir",
+            "gereklidir: hakiki müennes, bitişik"
+          ],
+          "explanation": "Fiil ile failin arası ayrılmamıştır."
+        },
+        {
+          "prompt": "Fiilden sonra eş-şems gelince fiil … olabilir.",
+          "options": [
+            "müzekker ya da müennes",
+            "yalnız müennes",
+            "yalnız müzekker",
+            "cem'"
+          ],
+          "explanation": "Hakiki müennes değildir."
+        },
+        {
+          "prompt": "Eş-şemsü tale'at müennes olmalıdır, çünkü …",
+          "options": [
+            "güneş hakiki müennestir",
+            "fiil bir zamire isnad edilmiştir",
+            "fiil önce gelir",
+            "cem'dir"
+          ],
+          "explanation": "Zamirle her zaman müennestir."
+        },
+        {
+          "prompt": "Cem'-i mükesser … gibi muamele görür.",
+          "options": [
+            "hakiki müennes",
+            "tesniye",
+            "hakiki olmayan müennes",
+            "cem'-i salim"
+          ],
+          "explanation": "Kame'r-ricalü ya da kameti'r-ricalü."
+        },
+        {
+          "prompt": "Fail … önce gelmelidir.",
+          "options": [
+            "mef'ul ma'rife olunca",
+            "fiil mazi olunca",
+            "fail müennes olunca",
+            "ikisi de maksur olup lebsten korkulunca"
+          ],
+          "explanation": "Darabe Musa İsa."
+        },
+        {
+          "prompt": "E-kame Zeydün'e cevap olarak ne'am … yerindedir.",
+          "options": [
+            "fiilin ve failinin",
+            "yalnız fiilin",
+            "yalnız failin",
+            "mef'ulün"
+          ],
+          "explanation": "Ne'am, kame Zeydün."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Fāʿil": "Fail",
+          "The verb": "Fiil",
+          "The book's example": "Kitabın örneği",
+          "true feminine, joined": "hakiki müennes, bitişik",
+          "feminine only": "yalnız müennes",
+          "true feminine, separated": "hakiki müennes, ayrılmış",
+          "either": "ikisi de",
+          "not a true feminine": "hakiki olmayan müennes",
+          "a feminine pronoun": "müennes zamir",
+          "a broken plural": "cem'-i mükesser",
+          "its pronoun": "onun zamiri",
+          "feminine, or plural": "müennes ya da cem'"
+        },
+        "caption": "Müzekker ya da müennes fiil (s. 17)"
+      },
       "text": [
         "Fail hakiki müennes —yani canlılardan karşısında bir erkek bulunan— ise, fiil ile faili ayırmazsan fiil daima müennestir, kamet Hindün “Hind kalktı” gibi; ayırırsan müzekker ile müennes arasında serbestsin, darabe'l-yevme Hindün “bugün Hind dövdü” gibi; dilersen darabeti'l-yevme Hindün dersin. Hakiki olmayan müennesle de böyledir, tale'ati'ş-şemsü “güneş doğdu” gibi; dilersen tale'a'ş-şemsü dersin. Bu, fiil açık bir isme isnad edildiğindedir; bir zamire isnad edilirse daima müennestir, eş-şemsü tale'at “güneş, o doğdu” gibi.",
         "Cem'-i mükesser hakiki olmayan müennes gibidir; kame'r-ricalü “adamlar kalktı” dersin, dilersen kameti'r-ricalü ve er-ricalü kamet; onunla er-ricalü kamu da caizdir. İkisi de maksur olup karışıklıktan korkulunca failin mef'ulden önce getirilmesi gerekir; darabe Musa 'Isa “Musa İsa'yı dövdü” gibi; karışıklıktan korkmazsan mef'ul failden önce getirilebilir; ekele'l-kümmesra Yahya “Yahya armudu yedi” ve darabe 'Amran Zeydün “Zeyd Amr'ı dövdü” gibi.",
@@ -582,6 +1346,133 @@
       ]
     },
     "11": {
+      "title": "Bir isim için çekişen iki fiil: Basralıların yolu",
+      "body": [
+        "Tenazu', iki fiilin tek bir ism-i zahirden önce bulunup “iki fiilden her birinin o isimde amel etmek istemesidir”. Dört çeşidi vardır. İkisi de onu fail olarak ister: darabeni ve ekrameni Zeydün. İkisi de mef'ul olarak ister: darabtü ve ekramtü Zeyden. Birincisi fail, ikincisi mef'ul ister: darabeni ve ekramtü Zeyden. Ya da tersi: darabtü ve ekrameni Zeydün.",
+        "Dördünde de iki fiilden herhangi biri isimde amel edebilir. Yalnız Ferra, birinci fiilin fail istediği birinci ve üçüncü çeşitte ikincinin amel etmesine izin vermez: o zaman birinci fiil ya failini kaybetmek ya da henüz anılmamış bir ismin zamirini taşımak zorunda kalırdı, “ikisinden de kaçınılır”. Bu, caiz olan hakkındaki meseledir. Tercih edilene gelince mezhepler ayrılır: Basralılar isme yakınlığı için ikinciyi amel ettirir; Kufeliler ise önce geldiği ve hakkı olduğu için birinciyi.",
+        "Basralıların yolu: ikinci fiil isimde amel eder. Birinci fiil fail isterse ona bir zamir konur: darabeni ve ekrameni Zeydün; darabani ve ekrameni'z-Zeydani; darabuni ve ekrameni'z-Zeydune; farklı şeyler isteyen fiillerle de öyle: darabuni ve ekramtü'z-Zeydine. Darabani ve darabuni'deki elif ve vav birinci fiilin failidir. Basralılar burada isminden önce gelen bir zamiri kabul eder, çünkü fail asla hazfedilemez.",
+        "Birinci fiil mef'ul isterse ve ikisi ef'al-i kulubdan değilse, birincinin mef'ulü basitçe hazfedilir: darabtü ve ekramtü Zeyden, darabtü ve ekramtü'z-Zeydeyni; farklı şeyler isteyen fiillerle de darabtü ve ekrameni Zeydün. Mef'ul terk edilebilir, bu yüzden isminden önce bir zamire gerek yoktur.",
+        "İki mef'ul alan ef'al-i kulubla “birinci fiilin mef'ulü açıkça söylenmelidir”: hasibeni muntalikan ve hasibtü Zeyden muntalikan. Hazfedilemez, çünkü ef'al-i kulubdan bir fiil mef'ulünü kaybedemez; isminden önce gelen bir zamir de olamaz. “Bu, Basralıların mezhebidir.”"
+      ],
+      "terms": [
+        "tenazu': kendilerinden sonraki bir isimde amel etmek isteyen iki fiil",
+        "zikirden önce izmar: ismi anılmadan önce gelen zamir",
+        "istedikleri şeyde uyuşan ya da ayrılan iki fiil",
+        "ef'al-i kulub: hazfedilemeyen iki mef'ulüyle"
+      ],
+      "examples": [
+        "ikisi de fail ister",
+        "ikisi de mef'ul ister",
+        "ikinci amel eder; birincide bir zamir",
+        "ikinci amel eder; birincinin mef'ulü hazfedilir",
+        "ef'al-i kulub: mef'ul açıkça söylenir"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her birinin hangi tenazu' çeşidi olduğunu söyleyin: darabeni ve ekrameni Zeydün; darabtü ve ekramtü Zeyden; darabeni ve ekramtü Zeyden; darabtü ve ekrameni Zeydün.",
+          "answer": "Birincisi: ikisi de fail ister. İkincisi: ikisi de mef'ul ister. Üçüncüsü: birinci fail, ikinci mef'ul ister. Dördüncüsü: birinci mef'ul, ikinci fail ister."
+        },
+        {
+          "prompt": "Darabani ve ekrameni'z-Zeydani'de ez-Zeydani'de hangi fiil amel eder ve darabani'nin faili nedir?",
+          "answer": "İkincisi, ekrameni, ez-Zeydani'de fail olarak amel eder (Basralıların yolu). Darabani'nin faili eliftir: iki Zeyd'in yerine geçen bir tesniye zamiri."
+        },
+        {
+          "prompt": "Kitap darabtü ve ekrameni Zeydün'de birinci fiilin mef'ulünü neden hazfeder de darabeni ve ekramtü Zeyden'de failini hazfetmez?",
+          "answer": "Mef'ul hazfedilebilir, bu yüzden birinci fiilin mef'ulü terk edilir. Fail asla hazfedilemez, bu yüzden birinci fiil fail isteyince ona onun yerine bir zamir verilir."
+        },
+        {
+          "prompt": "Ferra neyi reddetti ve neden?",
+          "answer": "Birinci fiil fail istediğinde (birinci ve üçüncü çeşit) ikinci fiilin amel etmesini reddetti; çünkü o zaman birinci fiil ya failini kaybeder ya da ismi anılmadan önce bir zamir alırdı; ikisinden de kaçınılır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Tenazu', iki fiilden … durumudur.",
+          "options": [
+            "iki isimde amel edilen",
+            "bir isimden sonra gelinen",
+            "aynı failin bulunduğu",
+            "her birinin kendisinden sonraki tek bir isimde amel etmek istediği"
+          ],
+          "explanation": "Her biri aynı isimde amel etmek ister."
+        },
+        {
+          "prompt": "Kitap tenazu'un kaç çeşidini verir?",
+          "options": [
+            "dört",
+            "iki",
+            "üç",
+            "altı"
+          ],
+          "explanation": "Fail–fail, mef'ul–mef'ul, fail–mef'ul, mef'ul–fail."
+        },
+        {
+          "prompt": "Basralılar … amel etmesini tercih eder.",
+          "options": [
+            "önce geldiği için birinci fiilin",
+            "yakınlığı için ikinci fiilin",
+            "hiçbirinin",
+            "daha güçlü fiilin"
+          ],
+          "explanation": "Kufeliler birinciyi tercih eder."
+        },
+        {
+          "prompt": "İkinci amel edip birinci fail isteyince Basralılar …",
+          "options": [
+            "faili hazfeder",
+            "ismi tekrarlar",
+            "birinciye bir zamir koyar",
+            "bunu yasaklar"
+          ],
+          "explanation": "Darabuni ve ekrameni'z-Zeydune."
+        },
+        {
+          "prompt": "İkinci amel edip birinci mef'ul isteyince (ef'al-i kulubdan değilse) mef'ul …",
+          "options": [
+            "bir zamirdir",
+            "açıkça söylenir",
+            "öne alınır",
+            "hazfedilir"
+          ],
+          "explanation": "Darabtü ve ekramtü Zeyden."
+        },
+        {
+          "prompt": "Ef'al-i kulubla birinci fiilin mef'ulü …",
+          "options": [
+            "açıkça söylenmelidir",
+            "hazfedilmelidir",
+            "zamir olmalıdır",
+            "sona konmalıdır"
+          ],
+          "explanation": "Hasibeni muntalikan ve hasibtü Zeyden muntalikan."
+        },
+        {
+          "prompt": "Birinci fail isteyince ikincinin amel etmesini kim reddetti?",
+          "options": [
+            "Basralılar",
+            "Ferra",
+            "Kufeliler",
+            "Sibeveyh"
+          ],
+          "explanation": "Failin hazfi ya da zikirden önce izmar yüzünden."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The first verb wants": "Birinci fiil ister",
+          "What is done": "Yapılan",
+          "The book's example": "Kitabın örneği",
+          "a fāʿil, verbs agreeing": "fail, fiiller uyuşur",
+          "a pronoun in the first": "birincide bir zamir",
+          "a fāʿil, verbs differing": "fail, fiiller ayrılır",
+          "an object, verbs agreeing": "mef'ul, fiiller uyuşur",
+          "dropped": "hazfedilir",
+          "an object, verbs differing": "mef'ul, fiiller ayrılır",
+          "an object, verbs of the heart": "mef'ul, ef'al-i kulub",
+          "expressed": "açıkça söylenir"
+        },
+        "caption": "İkinci fiili amel ettirmek, Basralıların yolu (s. 18–20)"
+      },
       "text": [
         "Fasıl. İki fiil kendilerinden sonraki açık bir isim için çekişince (tenazu'), yani iki fiilden her biri o isme amel etmek isteyince, bu yalnız dört çeşitte olur. Birincisi: yalnız fail olmak için çekişmeleri; darabeni ve ekrameni Zeydün “Zeyd beni dövdü ve bana ikram etti” gibi. İkincisi: yalnız mef'ul olmak için çekişmeleri; darabtü ve ekramtü Zeyden “Zeyd'i dövdüm ve ona ikram ettim” gibi. Üçüncüsü: fail ve mef'ul olmak için çekişmeleri, birincinin faili, ikincinin mef'ulü istemesi; darabeni ve ekramtü Zeyden “beni dövdü, ben de Zeyd'e ikram ettim” gibi. Dördüncüsü bunun tersidir; darabtü ve ekrameni Zeydün “[onu] dövdüm, Zeyd de bana ikram etti” gibi.",
         "Bil ki bütün bu çeşitlerde birinci fiili de ikinci fiili de amel ettirmek caizdir —ikinci amel ettirilirse birinci ve üçüncü çeşitte Ferra'ya muhalif olarak; onun delili, o zaman iki şeyden birinin, ya failin hazfının ya da [isim] zikredilmeden önce zamirin gerekmesidir ve ikisinden de kaçınılır—. Bu, caizlik bakımındandır. Tercih bakımından ise Basralılar [Kufelilerden] ayrılır: onlar yakınlığı ve komşuluğu gözeterek ikinci fiili amel ettirmeyi tercih ederler; Kufeliler ise önce gelişine ve hakkına riayet ederek birinci fiili amel ettirmeyi tercih ederler.",
@@ -591,6 +1482,134 @@
       ]
     },
     "12": {
+      "title": "Tenazu': Kufelilerin yolu; ef'al-i kulub",
+      "body": [
+        "Kufelilerin yolu: birinci fiil isimde amel eder. İkinci fiil fail isterse ona bir zamir konur: darabeni ve ekrameni Zeydün; darabeni ve ekramani'z-Zeydani; darabeni ve ekramuni'z-Zeydune. Farklı şeyler isteyen fiillerle isim, birinci fiilin verdiği i'rabı alır: darabtü ve ekrameni Zeyden, “Zeyd'i vurdum, o da bana ikram etti”; burada Zeyden darabtü'nün mef'ulüdür. İsim önce gelen birinci fiile aittir, bu yüzden ikincideki zamir zaten yerinde olan bir isme döner.",
+        "İkinci fiil mef'ul isterse ve ef'al-i kulubdan değillerse iki yol caizdir: mef'ulü hazfetmek ya da zamir olarak getirmek, “ikincisi tercih edilir, ta ki lafız kastedilene uysun”. Hazfedilmiş: darabtü ve ekramtü Zeyden; farklı şeyler isteyen fiillerle darabeni ve ekramtü Zeydün, “Zeyd beni vurdu, ben de ona ikram ettim”. Zamir olarak: darabtü ve ekramtühü Zeyden; darabeni ve ekramtühü Zeydün.",
+        "Ef'al-i kulubla mef'ul açıkça söylenmelidir: hasibeni ve hasibtühüma muntalikayni'z-Zeydani muntalikan, “iki Zeyd beni gidiyor sandı, ben de onları gidiyor sandım”. İki fiil, ikinci mef'ulleri olan muntalikan için çekişti. Birincisi, hasibeni, amel eder: ez-Zeydani onun failidir, muntalikan da ikinci mef'ulü. İkinci fiilin, hasibtühüma'nın, birinci mef'ulü hüma'dadır, ikinci mef'ulü muntalikayni de açıkça söylenir.",
+        "Neden açıkça söylenmelidir? Kitap diğer bütün kapıları kapatır. Muntalikayni'yi hazfedin, hasibtühüma tek mef'ulle kalır; ef'al-i kulubdan bir fiil böyle kalamaz. İyyahü gibi müfred bir zamir koyun, ikinci mef'ul birinciye, hüma'ya uymaz. İyyahüma gibi tesniye bir zamir koyun, tesniye bir zamir müfred bir kelimeye, muntalikan'a döner. “Hazf ve izmar caiz olmayınca izhar gereklidir.”",
+        "Medrese böyle tartışır: mümkün her yolu sırala, biri hariç her birinin neden geçersiz olduğunu göster; geriye kalan kuraldır. Bu paragrafı takip edebilen talebe Kafiye'nin şerhlerini de takip edebilir."
+      ],
+      "terms": [
+        "birinci fiili amel ettirmek: Kufelilerin tercihi",
+        "ikinci fiili amel ettirmek: Basralıların tercihi",
+        "izhar: mef'ulü isim olarak tam söylemek",
+        "ef'al-i kulubdan bir fiili tek mef'ulle bırakmak: caiz değil"
+      ],
+      "examples": [
+        "birinci amel eder; ikincide bir zamir",
+        "birinci amel eder: Zeyden onun mef'ulü",
+        "ikincinin mef'ulü zamir olarak: tercih edilen",
+        "ef'al-i kulub: ikinci mef'ul açıkça söylenir"
+      ],
+      "tasks": [
+        {
+          "prompt": "Darabtü ve ekrameni Zeyden'i Kufelilerin yoluyla i'rab edin.",
+          "answer": "Birinci fiil, darabtü, Zeyden'de mef'ul olarak amel eder (nasb). İkincisi, ekrameni, fail ister, bu yüzden ona Zeyd'e dönen gizli bir zamir konur; mütekellim ya'sı da onun mef'ulüdür."
+        },
+        {
+          "prompt": "Kitabın ikinci fiilin mef'ulü için caiz gördüğü iki yolu verin; hangisinin tercih edildiğini ve nedenini söyleyin.",
+          "answer": "Onu hazfetmek, darabtü ve ekramtü Zeyden, ya da zamir olarak getirmek, darabtü ve ekramtühü Zeyden. Zamir tercih edilir, ta ki lafız kastedilene uysun."
+        },
+        {
+          "prompt": "Hasibeni ve hasibtühüma muntalikayni'z-Zeydani muntalikan'da her fiilin failini ve iki mef'ulünü verin.",
+          "answer": "Hasibeni: fail ez-Zeydani, birinci mef'ul mütekellim ya'sı, ikinci mef'ul muntalikan. Hasibtühüma: fail te, birinci mef'ul hüma, ikinci mef'ul muntalikayni."
+        },
+        {
+          "prompt": "Muntalikayni neden ne hazfedilebilir ne de iyyahü ya da iyyahüma ile değiştirilebilir?",
+          "answer": "Hazfedilirse ef'al-i kulubdan bir fiili tek mef'ulle bırakır; bu caiz değildir. Müfred iyyahü birinci mef'ul hüma'ya uymaz. Tesniye iyyahüma müfred kelime muntalikan'a döner. Bu yüzden açıkça söylenmelidir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Kufelilerin yolunda isimde hangi fiil amel eder?",
+          "options": [
+            "birincisi",
+            "ikincisi",
+            "ikisi de",
+            "hiçbiri"
+          ],
+          "explanation": "Önce gelmesi ve hakkı yüzünden."
+        },
+        {
+          "prompt": "Darabeni ve ekramuni'z-Zeydune'de ekramuni'nin vavı …",
+          "options": [
+            "yalnız cem' alametidir",
+            "ikinci fiilin faili olan bir zamirdir",
+            "mef'uldür",
+            "bir hatadır"
+          ],
+          "explanation": "Birinci fiil ez-Zeydune'de amel eder."
+        },
+        {
+          "prompt": "Darabtü ve ekrameni Zeyden'de Zeyden … mef'ulüdür.",
+          "options": [
+            "ekrameni'nin",
+            "takdir edilen bir fiilin",
+            "darabtü'nün",
+            "ikisinin de"
+          ],
+          "explanation": "Birinci fiil amel eder."
+        },
+        {
+          "prompt": "İkinci fiilin mef'ulü için tercih edilen yol …",
+          "options": [
+            "hazftir",
+            "izhardır",
+            "fiili tekrarlamaktır",
+            "zamirdir"
+          ],
+          "explanation": "Ta ki lafız kastedilene uysun."
+        },
+        {
+          "prompt": "Darabeni ve ekramtühü Zeydün: Zeydün …",
+          "options": [
+            "darabeni'nin failidir",
+            "ekramtü'nün mef'ulüdür",
+            "mübtedadır",
+            "bedeldir"
+          ],
+          "explanation": "Birinci fiil amel eder; he ikincinin mef'ulüdür."
+        },
+        {
+          "prompt": "Ef'al-i kulubdan bir fiil …",
+          "options": [
+            "iki mef'ul alamaz",
+            "tek mef'ulle bırakılamaz",
+            "önce gelemez",
+            "zamir alamaz"
+          ],
+          "explanation": "Bu yüzden mef'ul açıkça söylenmelidir."
+        },
+        {
+          "prompt": "Hasibeni ve hasibtühüma iyyahüma'z-Zeydani muntalikan'da neden iyyahüma olmaz?",
+          "options": [
+            "iyyahüma zamir değildir",
+            "hüma müfreddir",
+            "tesniye bir zamir müfred muntalikan'a dönerdi",
+            "Basralıların yoludur"
+          ],
+          "explanation": "Çekişme muntalikan üzerineydi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The second verb wants": "İkinci fiil ister",
+          "What is done": "Yapılan",
+          "The book's example": "Kitabın örneği",
+          "a fāʿil, verbs agreeing": "fail, fiiller uyuşur",
+          "a pronoun in the second": "ikincide bir zamir",
+          "a fāʿil, verbs differing": "fail, fiiller ayrılır",
+          "an object": "mef'ul",
+          "dropped": "hazfedilir",
+          "an object: preferred": "mef'ul: tercih edilen",
+          "a pronoun": "zamir",
+          "an object, verbs differing": "mef'ul, fiiller ayrılır",
+          "verbs of the heart": "ef'al-i kulub",
+          "expressed": "açıkça söylenir"
+        },
+        "caption": "Birinci fiili amel ettirmek, Kufelilerin yolu (s. 20–22)"
+      },
       "text": [
         "Fakat Kufelilerin mezhebine göre birinci fiili amel ettirirsen bak: ikinci fiil faili istiyorsa faili ikinci fiilde zamir olarak koyarsın; uyumlu fiillerde darabeni ve ekrameni Zeydün “Zeyd beni dövdü ve bana ikram etti”, darabeni ve ekramani'z-Zeydani “iki Zeyd beni dövdü ve bana ikram ettiler” ve darabeni ve ekramuni'z-Zeydune “Zeydler beni dövdü ve bana ikram ettiler” dediğin gibi; farklı fiillerde de darabtü ve ekrameni Zeyden “Zeyd'i dövdüm, o da bana ikram etti”, darabtü ve ekramani'z-Zeydeyni “iki Zeyd'i dövdüm, onlar da bana ikram etti” ve darabtü ve ekramuni'z-Zeydine “Zeydleri dövdüm, onlar da bana ikram etti” dediğin gibi.",
         "İkinci fiil mef'ulü istiyorsa ve iki fiil ef'al-i kulubdan değilse onda iki vecih caizdir: mef'ulü hazfetmek ve [onu] zamir [yapmak]; söylenen kastedilene uysun diye ikincisi tercih edilir. Hazf, uyumlu fiillerde darabtü ve ekramtü Zeyden “Zeyd'i dövdüm ve [ona] ikram ettim”, darabtü ve ekramtü'z-Zeydeyni ve darabtü ve ekramtü'z-Zeydine dediğin gibidir; farklı fiillerde de darabeni ve ekramtü Zeydün “Zeyd beni dövdü, ben de [ona] ikram ettim”, darabeni ve ekramtü'z-Zeydani ve darabeni ve ekramtü'z-Zeydune dediğin gibi.",
@@ -601,6 +1620,128 @@
       ]
     },
     "13": {
+      "title": "Faili anılmayan mef'ul; mübteda ve haber",
+      "body": [
+        "İkinci merfu, “faili hazfedilip onun yerine konmuş her mef'uldür”: duribe Zeydün. Fiil ve faili hakkında öğrenilen her şey onun için de geçerlidir: fiil ism-i zahirle müfreddir, zamirle uyar ve aynı şartlarla müennes olur. Böylece kamet Hindün gibi duribet Hindün.",
+        "Mübteda ve haber “lafzi amillerden soyulmuş iki isimdir”: biri hakkında bir şey söylenendir (müsnedün ileyh), mübteda; öteki söylenendir (müsnedün bih), haber: Zeydün ka'imün. “İkisindeki amil ma'nevidir: ibtidadır”, yani ismin, hiçbir amil olmadan başa konması. Kitap, bu tek ma'nevi amilin ikisini de merfu yaptığı görüşündedir.",
+        "Mübtedanın aslı ma'rife, haberin aslı nekre olmaktır: dinleyenin bildiği şey hakkında konuşulur ve ona bilmediği şey söylenir. Ama nekre mevsuf olduğunda mübteda olabilir, ve le-abdün mü'minün hayrun min müşrikin (Bakara 2/221), ya da başka bir yolla tahsis edildiğinde. Kitabın örnekleri bu yolları verir: em ile soru, e-raculün fi'd-dari emi'mra'etun, burada söyleyen ikisinden birinin orada olduğunu bilir; nefy, ma ahadün hayrun minke, bu herkesi kapsar; şerrun eherra za nabin, şarihler bunu “azı dişliyi ancak bir kötülük hırlattı” diye okur; öne alınmış bir zarf olan haber, fi'd-dari raculün; ve dua, selamün aleyke.",
+        "İsimlerden biri ma'rife, öteki nekre olursa ma'rife mübteda, nekre haberdir, “her zaman”. İkisi de ma'rife olursa herhangi biri mübteda olabilir: Allahü ilahüna, Muhammedün nebiyyuna, Ademü ebuna."
+      ],
+      "terms": [
+        "hakkında bir şey söylenen, lafzi amillerden soyulmuş isim",
+        "mübteda hakkında söylenen",
+        "ibtida: ikisinin ma'nevi amili olan başa konma",
+        "tahsis edilmiş nekre; mübteda olabilir"
+      ],
+      "examples": [
+        "hazfedilen failin yerine konmuş mef'ul",
+        "mevsuf nekre mübteda (Bakara 2/221)",
+        "duada nekre mübteda",
+        "ikisi de ma'rife: herhangi biri mübteda olabilir"
+      ],
+      "tasks": [
+        {
+          "prompt": "Fiili kitabın kurallarının gerektirdiği gibi uydurun: duribe Hindün; duribe'z-Zeydani; ez-Zeydani duribe.",
+          "answer": "Duribet Hindün (fiiline bitişik hakiki müennes). Duribe'z-Zeydani doğrudur (ism-i zahirle fiil müfreddir). Ez-Zeydani duriba (zamirle fiil uyar)."
+        },
+        {
+          "prompt": "Kitaba göre Zeydün ka'imün'de Zeydün'ün ve ka'imün'ün amili nedir?",
+          "answer": "Ma'nevi amil, ibtida: iki isim de lafzi amillerden soyulmuştur, ibtida da mübteda Zeydün'ü ve haber ka'imün'ü merfu yapar."
+        },
+        {
+          "prompt": "Nekre olan raculün, e-raculün fi'd-dari emi'mra'etun'da ve fi'd-dari raculün'de neden mübteda olabilir?",
+          "answer": "Birincisinde em ile soruyla tahsis edilmiştir: söyleyen ikisinden birinin evde olduğunu bilir. İkincisinde zarf olan haber öne alınmıştır. İkisinde de nekre, hakkında konuşulabilecek kadar tahsis edilmiştir."
+        },
+        {
+          "prompt": "Allahü ilahüna'da iki isim de ma'rifedir. Hangisi mübtedadır?",
+          "answer": "Kitaba göre ikisi de ma'rife olunca herhangi biri mübteda, öteki haber yapılabilir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Mef'ul-i ma lem yüsemme failüh …",
+          "options": [
+            "öne alınmış bir mef'uldür",
+            "hazfedilen failinin yerine konmuş bir mef'uldür",
+            "ikinci bir mef'uldür",
+            "mef'ul-i mutlaktır"
+          ],
+          "explanation": "Duribe Zeydün."
+        },
+        {
+          "prompt": "Fiilinin sayısı ve müzekker ya da müennes oluşu … uyar.",
+          "options": [
+            "mübtedanın kurallarına",
+            "hiçbir kurala",
+            "failin kurallarına",
+            "mef'ule"
+          ],
+          "explanation": "Fail kıyasınca."
+        },
+        {
+          "prompt": "Mübteda ile haberin amili …",
+          "options": [
+            "mübtedadır",
+            "gizli bir fiildir",
+            "haberdir",
+            "ma'nevi bir amil olan ibtidadır"
+          ],
+          "explanation": "Lafzi amillerden soyulmuşlardır."
+        },
+        {
+          "prompt": "Haberin aslı … olmaktır.",
+          "options": [
+            "nekre",
+            "ma'rife",
+            "cümle",
+            "zarf"
+          ],
+          "explanation": "Mübtedanın aslı da ma'rife olmak."
+        },
+        {
+          "prompt": "Ma ahadün hayrun minke'de ahadün mübteda olabilir, çünkü …",
+          "options": [
+            "ma'rifedir",
+            "nefyden sonra gelir",
+            "mevsuftur",
+            "sonda gelir"
+          ],
+          "explanation": "Nefy herkesi kapsar."
+        },
+        {
+          "prompt": "Selamün aleyke caizdir, çünkü …",
+          "options": [
+            "ma'rifedir",
+            "sorudur",
+            "duadır",
+            "cümledir"
+          ],
+          "explanation": "Nekrenin tahsis edildiği yollardan biri."
+        },
+        {
+          "prompt": "Biri ma'rife, biri nekre iki isimle …",
+          "options": [
+            "herhangi biri mübteda olabilir",
+            "nekre mübtedadır",
+            "hiçbiri olmaz",
+            "ma'rife, her zaman, mübtedadır"
+          ],
+          "explanation": "Nekre haberdir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Made particular by": "Tahsis eden",
+          "The book's example": "Kitabın örneği",
+          "an adjective": "sıfat",
+          "a question with am": "em ile soru",
+          "a negation": "nefy",
+          "its sense: “only an evil”": "ma'nası: “ancak bir kötülük”",
+          "an adverb put first": "öne alınmış zarf",
+          "a prayer": "dua"
+        },
+        "caption": "Tahsis edilmiş nekre mübteda (s. 23)"
+      },
       "text": [
         "Fasıl. Faili zikredilmeyen fiilin mef'ulü: faili hazfedilip onun yerine konan her mef'uldür; duribe Zeydün “Zeyd dövüldü” gibi. Fiilini müfred, tesniye veya cem' yapmak, müzekker veya müennes yapmak hususundaki hükmü, failde öğrendiğin şeye kıyasla olur.",
         "Fasıl. Mübteda ile haber, lafzi amillerden boş iki isimdir: biri kendisine isnad edilendir (müsnedün ileyh) ve ona mübteda denir; ikincisi kendisiyle isnad edilendir (müsnedün bih) ve ona haber denir; Zeydün ka'imün “Zeyd ayaktadır” gibi. İkisindeki amil ma'nevidir: o da ibtidadır (başa konmak). Mübtedanın aslı ma'rife, haberin aslı nekre olmaktır.",
@@ -609,6 +1750,133 @@
       ]
     },
     "14": {
+      "title": "Cümle olan haber; sırası; habersiz mübteda",
+      "body": [
+        "Haber tam bir cümle olabilir: ismiyye, Zeydün ebuhü ka'imün; fi'liyye, Zeydün kame ebuhü; şartiyye, Zeydün in ca'eni fe-ekramtühü; ya da zarfiyye, Zeydün halfeke, Amrun fi'd-dari. Nahivcilerin çoğu zarfın bir cümleye müteallak olduğunu söyler, “mesela istakarra”: Zeydün fi'd-dari, Zeydün istakarra fi'd-dari demektir. Bu görüşe göre zarf olan haber, gerçekte fiili söylenmemiş bir cümle-i fi'liyyedir.",
+        "Cümle olan haberin “mübtedaya dönen bir zamiri olmalıdır, ebuhü'nün he'si gibi”. O olmadan cümle mübteda hakkında olmazdı. Karine gösterdiğinde hazfedilebilir: es-semnü menevani bi-dirhemin, “yağ: bir dirheme iki men”, ve el-bürru'l-kürru bi-sittine dirhemen, “buğday: kürrü altmış dirheme”; burada minhü, “ondan”, takdir edilir.",
+        "Haber mübtedadan önce gelebilir: fi'd-dari Zeydün. Tek bir mübtedanın birçok haberi de olabilir: Zeydün alimün fadılün akılün, “Zeyd alim, faziletli ve akıllıdır”.",
+        "“Onların, hakkında bir şey söylenen olmayan başka bir mübteda çeşidi daha vardır”: nefy ya da istifham harfinden sonra gelen sıfat, ma ka'imün Zeydün, a-ka'imün Zeydün; şu şartla ki bir ism-i zahiri merfu yapsın. Tesniyeyle şart açıktır: ma ka'imün ez-Zeydani ve a-ka'imün ez-Zeydani'de ka'imün mübteda, ez-Zeydani de haberin yerini dolduran failidir. Ama ma ka'imani'z-Zeydani farklıdır: ka'imani ez-Zeydani'ye uyar, bu yüzden öne alınmış bir haberdir, ez-Zeydani de mübtedadır."
+      ],
+      "terms": [
+        "tam bir cümle olan haber",
+        "mübtedaya dönen zamir (aid)",
+        "zarfın müteallakı: istakarra",
+        "ism-i zahiri merfu yapan sıfat: habersiz bir mübteda"
+      ],
+      "examples": [
+        "haber olarak şart cümlesi",
+        "haber olarak zarf: istakarra takdir edilir",
+        "hazfedilmiş zamir: minhü",
+        "bir mübteda, üç haber",
+        "mübteda olarak sıfat; faili haberin yerinde"
+      ],
+      "tasks": [
+        {
+          "prompt": "Haberin çeşidini ve mübtedaya bağını söyleyin: Zeydün kame ebuhü; Zeydün halfeke.",
+          "answer": "Zeydün kame ebuhü: cümle-i fi'liyye; bağ ebuhü'nün he'sidir. Zeydün halfeke: zarf olan haber, takdir edilen istakarra'ya müteallaktır; onun gizli zamiri Zeyd'e döner."
+        },
+        {
+          "prompt": "El-bürru'l-kürru bi-sittine dirhemen'de ne hazfedilmiştir ve neden hazfedilebilir?",
+          "answer": "El-bürru'ya dönen zamir: el-kürru minhü bi-sittine dirhemen. Karine gösterdiği için hazfedilebilir: kürr ancak buğdaydan olabilir."
+        },
+        {
+          "prompt": "Ma ka'imün ez-Zeydani'yi ve ma ka'imani'z-Zeydani'yi i'rab edin.",
+          "answer": "Birincisinde ka'imün nefyden sonra bir mübtedadır, ez-Zeydani de haberin yerinde duran failidir. İkincisinde ka'imani ez-Zeydani'ye uyar, bu yüzden öne alınmış bir haberdir, ez-Zeydani de mübtedadır."
+        },
+        {
+          "prompt": "Zeydün fi'd-dari'nin zarf olan haberini, nahivcilerin çoğunun verdiği tam şekliyle gösterin.",
+          "answer": "Zeydün istakarra fi'd-dari: zarf takdir edilen istakarra fiiline müteallaktır, istakarra fi'd-dari cümlesi de haberdir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Zeydün in ca'eni fe-ekramtühü'nün haberi …",
+          "options": [
+            "ismiyyedir",
+            "zarfiyyedir",
+            "şartiyyedir",
+            "tek bir kelimedir"
+          ],
+          "explanation": "Bir şart ve cevabı."
+        },
+        {
+          "prompt": "Nahivcilerin çoğu Zeydün fi'd-dari'deki zarfı … müteallak kılar.",
+          "options": [
+            "mübtedaya",
+            "hiçbir şeye",
+            "fi harfine",
+            "bir cümleye: istakarra'ya"
+          ],
+          "explanation": "Zeydün istakarra fi'd-dari."
+        },
+        {
+          "prompt": "Haber olan cümlenin … olmalıdır.",
+          "options": [
+            "mübtedaya dönen bir zamiri",
+            "bir fiili",
+            "fe'si",
+            "bir harfi"
+          ],
+          "explanation": "Ebuhü'nün he'si gibi."
+        },
+        {
+          "prompt": "Es-semnü menevani bi-dirhemin'de ne hazfedilmiştir?",
+          "options": [
+            "mübteda",
+            "dönen zamir minhü",
+            "fiil",
+            "harf"
+          ],
+          "explanation": "Ondan iki men bir dirheme."
+        },
+        {
+          "prompt": "Bir mübtedanın birden fazla haberi olabilir mi?",
+          "options": [
+            "hayır",
+            "yalnız iki",
+            "evet",
+            "yalnız inne'den sonra"
+          ],
+          "explanation": "Zeydün alimün fadılün akılün."
+        },
+        {
+          "prompt": "A-ka'imün ez-Zeydani'de ka'imün …",
+          "options": [
+            "öne alınmış bir haberdir",
+            "faildir",
+            "haldir",
+            "habersiz bir mübtedadır"
+          ],
+          "explanation": "Faili ez-Zeydani haberin yerinde durur."
+        },
+        {
+          "prompt": "Ma ka'imani'z-Zeydani'de ka'imani …",
+          "options": [
+            "öne alınmış bir haberdir",
+            "habersiz bir mübtedadır",
+            "faildir",
+            "bedeldir"
+          ],
+          "explanation": "Mübteda olan ez-Zeydani'ye uyar."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Kind": "Çeşit",
+          "The book's example": "Kitabın örneği",
+          "The link to the mubtadaʾ": "Mübtedaya bağ",
+          "nominal": "ismiyye",
+          "the hāʾ of abūhu": "ebuhü'nün he'si",
+          "verbal": "fi'liyye",
+          "conditional": "şartiyye",
+          "the pronoun in jāʾa, the hāʾ": "ca'e fiilindeki zamir, he",
+          "adverbial": "zarfiyye",
+          "the pronoun in istaqarra": "istakarra'daki zamir",
+          "the link dropped": "bağ hazfedilmiş",
+          "minhu, understood": "minhü, takdir edilir"
+        },
+        "caption": "Cümle olan haber ve bağı (s. 23–24)"
+      },
       "text": [
         "Haber bir isim cümlesi olabilir, Zeydün ebuhü ka'imün “Zeyd'in babası ayaktadır” gibi; ya da fiil cümlesi, Zeydün kame ebuhü “Zeyd'in babası kalktı” gibi; ya da şart cümlesi, Zeydün in ca'eni fe ekramtühü “Zeyd, bana gelirse ona ikram ederim” gibi; ya da zarf cümlesi, Zeydün halfeke “Zeyd senin arkandadır” ve 'Amrun fi'd-dari “Amr evdedir” gibi. Zarf, çoğunluğa göre bir cümleye taalluk eder, o da mesela istakarra “karar kıldı”dır: Zeydün fi'd-dari dersin, bu takdirde Zeydün istakarra fi'd-dari “Zeyd evde karar kıldı”dır.",
         "Cümlede mübtedaya dönen bir zamir bulunmalıdır, geçen örnekteki ha gibi; delil olunca hazfedilebilir; es-semnü menevani bi-dirhemin “tereyağı: iki menn bir dirheme” ve el-bürru'l-kürru bi-sittine dirhemen “buğday: bir kürrü altmış dirheme” gibi. Haber mübtedadan önce gelebilir, fi'd-dari Zeydün “evde Zeyd var” gibi. Bir mübtedanın birçok haberi olabilir, Zeydün 'alimün fadılün 'akılün “Zeyd alim, faziletli, akıllıdır” gibi.",
@@ -616,6 +1884,133 @@
       ]
     },
     "15": {
+      "title": "İnne, kane, ma ve la: merfu haber ve isim",
+      "body": [
+        "İnne ve kardeşleri, enne, ke'enne, lakinne, leyte ve le'alle, mübteda ile haberin başına gelir: mübtedayı mansub yapar, ona inne'nin ismi denir; haberi merfu yapar, ona da inne'nin haberi denir: inne Zeyden ka'imün. Bu haber her hükümde mübtedanın haberi gibidir: tek bir kelime ya da cümle, ma'rife ya da nekre olabilir. Ama isimden önce gelemez, “zarf olması hariç”, inne fi'd-dari Zeyden, “çünkü zarflarda daha fazla genişlik tanınır”.",
+        "Kane ve kardeşleri bunun tersini yapar: sara, asbaha, emsa, adha, zalle, bate, raha, ada, ade, ğada, ma zale, ma beriha, ma feti'e, ma infekke, ma dame ve leyse. Mübtedayı kane'nin ismi olarak merfu, haberi de kane'nin haberi olarak mansub yaparlar: kane Zeydün ka'imen. Merfu olduğu için kane'nin ismi burada sayılır; haberi mansublar arasında gelir.",
+        "Hepsinde haberleri isimlerinden önce gelebilir: kane ka'imen Zeydün. Listenin ilk dokuzunda fiilin kendisinden de önce gelebilir: ka'imen kane Zeydün. Ma ile başlayanlarda olmaz: ka'imen ma zale Zeydün denmez; şarihler sebebini verir: nefy ma'sı cümlesinin başında bulunmalıdır. Leyse hakkında nahivciler ihtilaf eder. Bu fiiller hakkında daha fazlası fiil kısmında gelir.",
+        "Leyse'ye benzeyen ma ve la'nın ismi merfudur: ma Zeydün ka'imen, la raculün efdale minke. La yalnız nekrelerle, ma ise ikisiyle de kullanılır. La-yı nefy-i cinsin (la li-nefyi'l-cins) haberi de merfudur: la racule ka'imün, “ayakta duran hiçbir adam yoktur”; ismi mansublar arasında gelir (23. ders)."
+      ],
+      "terms": [
+        "inne ve kardeşleri: ismin nasbı, haberin ref'i",
+        "kane ve kardeşleri: ismin ref'i, haberin nasbı",
+        "leyse gibi amel eden ma ve la",
+        "bütün cinsi nefyeden la"
+      ],
+      "examples": [
+        "isimden önce inne'nin haberi: bir zarf",
+        "merfu kane'nin ismi",
+        "kane'nin kendisinden önce haber",
+        "leyse gibi la: ismi nekre",
+        "cins la'sının merfu haberi"
+      ],
+      "tasks": [
+        {
+          "prompt": "Zeydün ka'imün'ün başına önce inne'yi, sonra kane'yi getirin ve her birini i'rab edin.",
+          "answer": "İnne Zeyden ka'imün: Zeyden inne'nin ismidir, mansubdur; ka'imün haberidir, merfudur. Kane Zeydün ka'imen: Zeydün kane'nin ismidir, merfudur; ka'imen haberidir, mansubdur."
+        },
+        {
+          "prompt": "Hangisi caizdir? inne ka'imün Zeyden; inne fi'd-dari Zeyden; ka'imen kane Zeydün; ka'imen ma zale Zeydün.",
+          "answer": "İnne ka'imün Zeyden: caiz değildir (inne'nin haberi ancak zarfsa önce gelir). İnne fi'd-dari Zeyden: caizdir (zarf). Ka'imen kane Zeydün: caizdir (kane ilk dokuzdandır). Ka'imen ma zale Zeydün: caiz değildir (ma zale ma ile başlar)."
+        },
+        {
+          "prompt": "Neden ma Zeydün ka'imen denebilir de la Zeydün ka'imen denemez?",
+          "answer": "Leyse gibi ma, ma'rife de nekre de alır; leyse gibi la ise yalnız nekre alır, la raculün efdale minke gibi."
+        },
+        {
+          "prompt": "La racule ka'imün'de hangi kelime merfular arasında sayılır ve neden?",
+          "answer": "Ka'imün; merfu olan la-yı nefy-i cinsin haberidir. İsmi olan racule mansublara aittir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İnne haberini … yapar.",
+          "options": [
+            "mansub",
+            "mecrur",
+            "meczum",
+            "merfu"
+          ],
+          "explanation": "İsmini de mansub."
+        },
+        {
+          "prompt": "İnne'nin haberi … olduğunda isminden önce gelebilir.",
+          "options": [
+            "zarf",
+            "cümle",
+            "ma'rife",
+            "fiil"
+          ],
+          "explanation": "İnne fi'd-dari Zeyden."
+        },
+        {
+          "prompt": "Kane ismini … yapar.",
+          "options": [
+            "mansub",
+            "merfu",
+            "mecrur",
+            "meczum"
+          ],
+          "explanation": "Kane Zeydün ka'imen."
+        },
+        {
+          "prompt": "Hangisi kitabın listesinde kane'nin kardeşlerinden DEĞİLDİR?",
+          "options": [
+            "sara",
+            "ma dame",
+            "zanne",
+            "leyse"
+          ],
+          "explanation": "Zanne ef'al-i kulubdandır."
+        },
+        {
+          "prompt": "Ka'imen ma zale Zeydün …",
+          "options": [
+            "caizdir",
+            "yalnız şiirde caizdir",
+            "Kufelilerin görüşüdür",
+            "caiz değildir: ma zale ma ile başlar"
+          ],
+          "explanation": "Haber fiilden ancak ilk dokuzda önce gelir."
+        },
+        {
+          "prompt": "Leyse gibi la … ile kullanılır.",
+          "options": [
+            "yalnız nekreler",
+            "yalnız ma'rifeler",
+            "ikisi",
+            "fiiller"
+          ],
+          "explanation": "Ma ikisini de kapsar."
+        },
+        {
+          "prompt": "La racule ka'imün'de ka'imün …",
+          "options": [
+            "la'nın ismidir",
+            "la'nın merfu haberidir",
+            "sıfattır",
+            "haldir"
+          ],
+          "explanation": "Cinsi nefyeden la'nın haberi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Canceller": "Nasih",
+          "The ism": "İsim",
+          "The khabar": "Haber",
+          "The book's example": "Kitabın örneği",
+          "inna and its sisters": "inne ve kardeşleri",
+          "naṣb": "nasb",
+          "rafʿ": "ref'",
+          "kāna and its sisters": "kane ve kardeşleri",
+          "mā like laysa": "leyse gibi ma",
+          "lā like laysa": "leyse gibi la",
+          "rafʿ, indefinite": "ref', nekre",
+          "lā of the kind": "cins la'sı"
+        },
+        "caption": "Mübteda ile haberin başına gelenler (s. 25–26)"
+      },
       "text": [
         "Fasıl. İnne ve kardeşlerinin haberi; bunlar enne, ke'enne, lakinne, leyte ve le'alle'dır. Bu harfler mübteda ile haberin başına gelir: mübtedayı nasbeder, ona inne'nin ismi denir; haberi ref'eder, ona inne'nin haberi denir. İnne'nin haberi, [inne] başına geldikten sonra kendisiyle isnad edilendir; inne Zeyden ka'imün “muhakkak Zeyd ayaktadır” gibi. Müfred veya cümle, ma'rife veya nekre olması bakımından hükmü mübtedanın haberinin hükmü gibidir. Haberleri, zarf olmadıkça isimlerinden önce getirilemez; inne fi'd-dari Zeyden “muhakkak evde Zeyd var” gibi; çünkü zarflarda genişlik tanınır.",
         "Fasıl. Kane ve kardeşlerinin ismi; bunlar sara, asbaha, emsa, adha, zalle, bate, raha, ada, 'ade, ğada, ma zale, ma beriha, ma feti'e, ma infekke, ma dame ve leyse'dir. Bu fiiller de mübteda ile haberin başına gelir: mübtedayı ref'eder, ona kane'nin ismi denir; haberi nasbeder, ona kane'nin haberi denir. Kane'nin ismi, [kane] başına geldikten sonra kendisine isnad edilendir; kane Zeydün ka'imen “Zeyd ayakta idi” gibi.",
@@ -624,6 +2019,129 @@
       ]
     },
     "16": {
+      "title": "On iki mansub; mef'ul-i mutlak",
+      "body": [
+        "İkinci maksad mansub isimlerdir, on iki tane: beş mef'ul (mef'ul-i mutlak, mef'ulün bih, mef'ulün fih, mef'ulün leh, mef'ulün maah), hal, temyiz, müstesna, inne ve kardeşlerinin ismi, kane ve kardeşlerinin haberi, la-yı nefy-i cinsin mansub yaptığı isim, leyse gibi ma ile la'nın haberi. Merfularda olduğu gibi mansub fiil-i muzari fiil kısmını bekler.",
+        "Mef'ul-i mutlak “kendisinden önce anılan bir fiilin ma'nasında olan masdardır”. Üç şeyden biri için söylenir. Te'kid için: darabtü darben, “bir vuruş vurdum”. Çeşidi göstermek için: celestü cilsete'l-kari'i, “kari'nin oturuşuyla oturdum”. Sayıyı göstermek için: celestü celseten, “bir oturuş”, celseteyni, “iki oturuş”, celesatin, “oturuşlar”. İki vezin, geçerken bir sarf dersidir: fi'le, cilse, bir tarzı adlandırır (bina-i nev'); fe'le, celse, tek bir defayı (bina-i merre).",
+        "Lafzı fiilden başka olabilir, yeter ki ma'nası aynı olsun: ka'adtü culusen, “bir oturuş oturdum”, ve enbete nebaten, “bir bitiriş bitirdi”; bu, vellahü enbeteküm mine'l-erdı nebaten (Nuh 71/17) ayetindendir; burada nebat, enbete'nin değil, nebete'nin masdarıdır.",
+        "Karine gösterdiğinde fiili hazfedilebilir. İhtiyari olarak: gelen birine hayra makdemin, “gelişlerin en hayırlısı”, dersiniz; yani kadimte kudumen hayra makdemin. Ve vücuben, “semaen”: sakyen, şükran, hamden, ra'yen; yani sakakellahü sakyen, “Allah seni sulasın”, şekertüke şükran, hamidtüke hamden, ra'akellahü ra'yen. Bunlar dua ve şükrün kalıplaşmış sözleridir; Araplar bunlarla fiillerini asla söylemez, bu yüzden başkası da söyleyemez."
+      ],
+      "terms": [
+        "on iki mansub isim",
+        "kendisinden önceki fiilin ma'nasında olan masdar",
+        "çeşidi ve sayıyı göstermek",
+        "Araplardan duyulduğu gibi vacip olan hazf"
+      ],
+      "examples": [
+        "te'kid için",
+        "çeşidi göstermek için: fi'le",
+        "sayıyı göstermek için: fe'le",
+        "lafzı fiilden başka",
+        "fiil vücuben hazfedilmiş"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her mef'ul-i mutlakın neyi gösterdiğini söyleyin: darabtü darben; celestü cilsete'l-kari'i; celestü celseteyni.",
+          "answer": "Darben: yalnız te'kid. Cilsete'l-kari'i: çeşit, “kari'nin oturuş tarzı”, fi'le vezninde. Celseteyni: sayı, iki oturuş, fe'le'nin tesniyesi."
+        },
+        {
+          "prompt": "Ka'adtü culusen'de culusen neden mef'ul-i mutlaktır?",
+          "answer": "Mef'ul-i mutlak, kendisinden önceki fiilin ma'nasında olan masdardır. Culus, lafzı başka bir kökten olsa da ka'ade'nin ma'nasındadır, bu yüzden mef'ul-i mutlaktır."
+        },
+        {
+          "prompt": "Hayra makdemin'in ve şükran'ın tam şeklini verin.",
+          "answer": "Hayra makdemin: kadimte kudumen hayra makdemin; fiili ihtiyari olarak hazfedilmiştir. Şükran: şekertüke şükran; fiili Araplardan duyulduğu gibi vücuben hazfedilmiştir."
+        },
+        {
+          "prompt": "Kitabın on iki mansubunu sayın.",
+          "answer": "Mef'ul-i mutlak; mef'ulün bih; mef'ulün fih; mef'ulün leh; mef'ulün maah; hal; temyiz; müstesna; inne ve kardeşlerinin ismi; kane ve kardeşlerinin haberi; la-yı nefy-i cinsin mansub yaptığı isim; leyse gibi ma ile la'nın haberi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Kitap kaç mansub isim sayar?",
+          "options": [
+            "on iki",
+            "on üç",
+            "sekiz",
+            "beş"
+          ],
+          "explanation": "Fiil-i muzari fiil kısmını bekler."
+        },
+        {
+          "prompt": "Mef'ul-i mutlak …",
+          "options": [
+            "işin üzerine düştüğü isimdir",
+            "kendisinden önceki bir fiilin ma'nasında olan masdardır",
+            "işin zamanıdır",
+            "işin sebebidir"
+          ],
+          "explanation": "Darabtü darben."
+        },
+        {
+          "prompt": "Celestü cilsete'l-kari'i … gösterir.",
+          "options": [
+            "sayıyı",
+            "yalnız te'kidi",
+            "çeşidi",
+            "sebebi"
+          ],
+          "explanation": "Fi'le vezni."
+        },
+        {
+          "prompt": "Celestü celseten … gösterir.",
+          "options": [
+            "çeşidi",
+            "yeri",
+            "yalnız te'kidi",
+            "sayıyı"
+          ],
+          "explanation": "Bir oturuş: fe'le vezni."
+        },
+        {
+          "prompt": "Enbete nebaten'de nebat …",
+          "options": [
+            "lafzı fiilden başkadır",
+            "mef'uldür",
+            "haldir",
+            "temyizdir"
+          ],
+          "explanation": "Enbete'nin ma'nasında, nebete'nin masdarı."
+        },
+        {
+          "prompt": "Hayra makdemin'in fiili … hazfedilmiştir.",
+          "options": [
+            "vücuben",
+            "karineyle, ihtiyari olarak",
+            "hiçbir zaman",
+            "yalnız şiirde"
+          ],
+          "explanation": "Kadimte kudumen hayra makdemin."
+        },
+        {
+          "prompt": "Sakyen, şükran, hamden'in fiilleri … hazfedilmiştir.",
+          "options": [
+            "ihtiyari olarak",
+            "kurala göre",
+            "duyulduğu gibi, vücuben",
+            "yalnız nesirde"
+          ],
+          "explanation": "Sakakellahü sakyen ve diğerleri."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "It shows, or how": "Gösterdiği ya da nasıl",
+          "The book's example": "Kitabın örneği",
+          "emphasis": "te'kid",
+          "the kind": "çeşit",
+          "the number": "sayı",
+          "of another wording": "başka bir lafızla",
+          "verb dropped by choice": "fiil ihtiyari olarak hazfedilmiş",
+          "verb dropped necessarily": "fiil vücuben hazfedilmiş"
+        },
+        "caption": "Mef'ul-i mutlak (s. 26–27)"
+      },
       "text": [
         "Mansub isimler on iki çeşittir: mef'ul-i mutlak, mef'ulün bih, mef'ulün fih, mef'ulün leh ve mef'ulün maah; hal; temyiz; müstesna; inne ve kardeşlerinin ismi; kane ve kardeşlerinin haberi; la-yı nefy-i cinsin nasbettiği isim; ve leyse'ye benzeyen ma ve la'nın haberi.",
         "Fasıl. Mef'ul-i mutlak: kendisinden önce zikredilen bir fiilin ma'nasında olan bir masdardır. Te'kid için zikredilir, darabtü darben “bir dövüşle dövdüm” gibi; ya da çeşidi açıklamak için, celestü cilsete'l-kari'i “kari'nin oturuşuyla oturdum” gibi; ya da sayıyı açıklamak için, celestü celseten “bir kere oturdum”, ya da celseteyni “iki kere”, ya da celesatin “birkaç kere” gibi. Zikredilen fiilin lafzından başka bir lafızdan olabilir, ka'adtü culusen “bir oturuşla oturdum” ve enbete nebaten “onu bir bitişle bitirdi” gibi.",
@@ -631,6 +2149,134 @@
       ]
     },
     "17": {
+      "title": "Mef'ulün bih; fiilinin hazfi ne zaman gereklidir",
+      "body": [
+        "Mef'ulün bih “failin işinin üzerine düştüğü şeyin ismidir”: darabe Zeydün Amran. Failden önce gelebilir, darabe Amran Zeydün (10. ders). Karine gösterdiğinde fiili ihtiyari olarak hazfedilebilir: men adribü, “kimi vurayım?” sorusuna cevap olarak Zeyden; dört yerde de vücuben.",
+        "Birincisi “semaen”dir: Arapların her zaman fiilsiz söylediği sözler. İmra'en ve nefsehü, “bir adamı kendisiyle baş başa [bırak]”; intehu hayran leküm, “vazgeçin, sizin için daha hayırlı olanı [yapın]” (Nisa 4/171), burada şarihler “ve yapın” gibi bir fiil takdir eder; ve ehlen ve sehlen, “hoş geldiniz”, bunu da “ailene geldin ve düz bir yere bastın” diye açıklarlar. Diğer üç yer kurala bağlıdır.",
+        "İkincisi tahzirdir (sakındırma). İsim takdir edilen bir ittakı, “sakın”, ile mansubdur: iyyake ve'l-esede, “aslandan sakın!”, “aslı ittakıke ve'l-esede'dir”, kendini ve aslanı koru, yani ikisini birbirinden uzak tut. Ya da kendisinden sakındırılan şey tekrarlanır: et-tarika't-tarika, “yol, yol!”, yola adım atmak üzere olana söylenir.",
+        "Üçüncüsü, amili “tefsir şartıyla” (ala şeritati't-tefsir) gizlenen isimdir; sonraki kitaplar buna iştiğal der. Bu, ardından gelen bir fiilin kendi zamiriyle ya da onunla ilgili bir şeyle ondan “meşgul edildiği” bir isimdir; “öyle ki o fiil ya da ona uygun olan, o ismin üzerine getirilse onu mansub yapardı”: Zeyden darabtühü, “Zeyd'i, onu vurdum”. Darabtühü'nün zaten bir mef'ulü vardır, he; bu yüzden Zeyden, söylenen fiilin açıkladığı hazfedilmiş bir darabtü ile mansubdur.",
+        "“Ya da ona uygun olan”: Zeyden merartü bihi'de şarihler caveztü Zeyden, “Zeyd'i geçtim”, takdir eder, çünkü merra mef'ulünü kendisi değil be ile alır. “Bu babın birçok fer'i vardır”, der kitap, ve onları Kafiye'ye bırakır. Dördüncü yer münadadır, sonraki ders."
+      ],
+      "terms": [
+        "failin işinin üzerine düştüğü isim",
+        "takdir edilen ittakı ile mansub olan tahzir",
+        "fiili gizlenip kendinden sonraki fiille açıklanan isim",
+        "ismin zamiriyle meşgul edilen fiil (iştiğal)"
+      ],
+      "examples": [
+        "Araplardan duyulduğu gibi hazfedilen fiil",
+        "tahzir: ittakı takdir edilir",
+        "tekrarla tahzir",
+        "tefsir şartıyla gizlenen amil"
+      ],
+      "tasks": [
+        {
+          "prompt": "İyyake ve'l-esede'nin aslını verin ve her ismin amilini söyleyin.",
+          "answer": "İttakıke ve'l-esede, “kendini ve aslanı koru”. İyyake takdir edilen ittakı'nın mef'ulüdür, el-esede de ona atfedilmiştir, o da mansubdur. Tahzirde fiil hazfedilmelidir."
+        },
+        {
+          "prompt": "Zeyden darabtühü'de Zeyden neden mansubdur ve onu ne mansub yapar?",
+          "answer": "Darabtühü Zeyd'in zamiriyle, he ile meşguldür, bu yüzden Zeyden'de amel edemez. Zeyden, söylenen darabtühü'nün açıkladığı hazfedilmiş bir darabtü fiilinin mef'ulüdür: darabtü Zeyden darabtühü."
+        },
+        {
+          "prompt": "Zeyden merartü bihi'de şarihler hangi fiili takdir eder ve neden merartü'yü değil?",
+          "answer": "Caveztü, “geçtim”. Merra mef'ulünü kendisi mansub yapmaz, ona be ile ulaşır; bu yüzden kitabın “ya da ona uygun olan” sözü, aynı ma'nada olup nasb veren bir fiil ister."
+        },
+        {
+          "prompt": "Mef'ulün bihin fiilinin hazfedilmesi gereken dört yeri sayın.",
+          "answer": "Araplardan duyulan (ehlen ve sehlen gibi); tahzir (iyyake ve'l-esede); amili tefsir şartıyla gizlenen isim (Zeyden darabtühü); ve münada (ya Abdellahi)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Mef'ulün bih … isimdir.",
+          "options": [
+            "uğruna işin yapıldığı",
+            "failin işinin üzerine düştüğü",
+            "işin içinde olduğu",
+            "işin beraberinde olduğu"
+          ],
+          "explanation": "Darabe Zeydün Amran."
+        },
+        {
+          "prompt": "Fiili kaç yerde hazfedilmelidir?",
+          "options": [
+            "iki",
+            "üç",
+            "dört",
+            "altı"
+          ],
+          "explanation": "Semai, tahzir, tefsirli, münada."
+        },
+        {
+          "prompt": "İyyake ve'l-esede takdir edilen … ile mansubdur.",
+          "options": [
+            "ed'u",
+            "utruk",
+            "darabtü",
+            "ittakı"
+          ],
+          "explanation": "Aslı ittakıke ve'l-esede'dir."
+        },
+        {
+          "prompt": "Et-tarika't-tarika …",
+          "options": [
+            "tekrarla bir tahzirdir",
+            "failin te'kididir",
+            "bir münadadır",
+            "bir haldir"
+          ],
+          "explanation": "Kendisinden sakındırılan şey iki defa söylenir."
+        },
+        {
+          "prompt": "Zeyden darabtühü'de Zeyden … mef'ulüdür.",
+          "options": [
+            "söylenen darabtühü'nün",
+            "hazfedilmiş bir darabtü'nün",
+            "takdir edilen bir ittakı'nın",
+            "hiçbir şeyin"
+          ],
+          "explanation": "Söylenen fiil he ile meşguldür."
+        },
+        {
+          "prompt": "Ehlen ve sehlen'in fiili … hazfedilmiştir.",
+          "options": [
+            "ihtiyari olarak",
+            "tahzir olarak",
+            "Araplardan duyulduğu gibi",
+            "tefsir şartıyla"
+          ],
+          "explanation": "Dört yerin birincisi."
+        },
+        {
+          "prompt": "Fiilin hazfedilmesi gereken dördüncü yer …",
+          "options": [
+            "haldir",
+            "temyizdir",
+            "müstesnadır",
+            "münadadır"
+          ],
+          "explanation": "Ya Abdellahi: ed'u Abdellahi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Place": "Yer",
+          "The book's example": "Kitabın örneği",
+          "The verb understood": "Takdir edilen fiil",
+          "heard from the Arabs": "Araplardan duyulan",
+          "“leave”": "“bırak”",
+          "“and do”": "“ve yapın”",
+          "the warning": "tahzir",
+          "ittaqi, “guard”": "ittakı, “sakın”",
+          "the warning, repeated": "tahzir, tekrarla",
+          "on condition of explanation": "tefsir şartıyla",
+          "ḍarabtu": "darabtü",
+          "the munādā": "münada",
+          "adʿū, “I call”": "ed'u, “çağırıyorum”"
+        },
+        "caption": "Mef'ulün fiilinin hazfedilmesi gereken yerler (s. 27–28)"
+      },
       "text": [
         "Fasıl. Mef'ulün bih: failin işinin üzerine düştüğü şeyin ismidir; darabe Zeydün 'Amran “Zeyd Amr'ı dövdü” gibi; failden önce gelebilir, darabe 'Amran Zeydün gibi. Fiili, bir delil bulunduğu için, ihtiyari olarak hazfedilebilir; men adribü “kimi döveyim?” diyene cevap olarak Zeyden “Zeyd'i” gibi; dört yerde de vacip olarak. Birincisi semaidir; imra'en ve nefsehü “[bırak] adamı ve kendisini”, intehu hayran leküm “vazgeçin, sizin için daha hayırlı olanı [yapın]” ve ehlen ve sehlen “hoş geldin” gibi. Diğerleri kıyasidir.",
         "İkincisi tahzirdir: kendisinden sonraki şeyden sakındırmak için takdir edilen ittakı “sakın” ile mansubdur; iyyake ve'l-esede “aslandan sakın!” gibi, bunun aslı ittakıke ve'l-esede'dır; ya da sakındırılan şey iki kere zikredildiğinde, et-tarika't-tarika “yol, yol!” gibi.",
@@ -638,6 +2284,139 @@
       ]
     },
     "18": {
+      "title": "Münada; terhim; mendub",
+      "body": [
+        "Münada “lafızda bir nida harfiyle çağrılan isimdir”: ya Abdellahi, “yani ed'u Abdellahi”, “Abdullah'ı çağırıyorum”; bu yüzden harfin yerini tuttuğu bir fiilin mef'ulüdür (3. ders). Harfler beştir: ya, eya, heya, ey ve fethalı hemze. Harf lafızdan hazfedilebilir: Yusüfü e'rid an haza, “Yusuf, bundan yüz çevir” (Yusuf 12/29).",
+        "Müfred ma'rife münada ref' alameti üzere mebnidir: zamme üzere, ya Zeydü, ve çağrılmakla ma'rife olmuş bir adam olan ya raculü; elif üzere, ya Zeydani; vav üzere, ya Zeydune. İstiğase lamıyla mahfuzdur, ya le-Zeydin; o çağrının elifi eklenince fetha alır, ya Zeydah.",
+        "Muzaf olunca mansubdur, ya Abdellahi; “muzafa benzeyen” olunca da, ya tali'an cebelen, “ey dağa tırmanan!”, burada tali'an, muzafın muzafun ileyhte amel ettiği gibi cebelen'de amel eder; ya da gayr-i maksude bir nekre olunca, “kör adamın dediği gibi: ya raculen huz bi-yedi”, “ey [herhangi bir] adam, elimi tut!”, çünkü belirli bir adamı çağırmaz. Münadada ta'rif lamı varsa araya eyyuha ya da eyyetüha konur: ya eyyuha'r-raculü, ya eyyetüha'l-mer'etu.",
+        "Münada terhim edilebilir, yani “hafiflik için sonundan bir hazf” yapılabilir: Malik, ya Mali; Mensur, ya Mensu; Usman, ya Usme. Kalan son harf, ismin tamamıymış gibi zamme alabilir ya da kendi harekesini koruyabilir: Haris için ya Haru ya da ya Hari.",
+        "Ya, mendub için, yani kendisine ağlanan kimse için de kullanılır: ya Zeydah, va Zeydah, “vah Zeyd!”. Va yalnız nüdbe içindir; ya ikisine de yarar. Mendub, i'rab ve bina bakımından münadanın kurallarına uyar."
+      ],
+      "terms": [
+        "çağrılan; takdir edilen ed'u'nun mef'ulü",
+        "muzafa benzeyen: kendinden sonrakinde amel eden münada",
+        "terhim: hafiflik için münadanın sonunu kısaltmak",
+        "mendub: va ya da ya ile kendisine ağlanan"
+      ],
+      "examples": [
+        "nida harfi hazfedilmiş (Yusuf 12/29)",
+        "müfred ve ma'rife: zamme üzere mebni",
+        "muzafa benzeyen: mansub",
+        "gayr-i maksude nekre: mansub",
+        "lamla: araya eyyuha"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her münadanın durumunu ve sebebini söyleyin: ya Zeydü; ya Abdellahi; ya tali'an cebelen; ya raculen.",
+          "answer": "Ya Zeydü: müfred ve ma'rife, zamme üzere mebni. Ya Abdellahi: muzaf, mansub. Ya tali'an cebelen: muzafa benzeyen (cebelen'de amel eder), mansub. Ya raculen: gayr-i maksude nekre, mansub; kör adam herhangi bir adamı çağırır."
+        },
+        {
+          "prompt": "Ya raculü ile ya raculen nasıl ayrılır?",
+          "answer": "Ya raculü'de belirli bir adam çağrılır ve çağrı kelimeyi ma'rife yapar: müfred ve ma'rife olarak zamme üzere mebnidir. Ya raculen'de belirli bir adam kastedilmez: nekre kalır ve mansubdur."
+        },
+        {
+          "prompt": "Malik, Mensur ve Haris'i nidada terhim edin ve Haris için iki yolu verin.",
+          "answer": "Ya Mali, ya Mensu, ya Haru ya da ya Hari: kalan son harf, ismin tamamıymış gibi zamme alır ya da kendi harekesini korur."
+        },
+        {
+          "prompt": "Ya Zeydü zamme ile bitmesine rağmen münada neden mansublar arasında sayılır?",
+          "answer": "Münada, harfin yerini tuttuğu takdir edilen ed'u fiilinin mef'ulüdür; bu yüzden mahalli nasbdır. Müfred ve ma'rife olunca ref' alameti üzere mebnidir, ama mahalli nasb kalır; muzaf olunca nasb görünür."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Nida harfi … yerini tutar.",
+          "options": [
+            "ittakı'nın",
+            "bir cer harfinin",
+            "ed'u fiilinin (“çağırıyorum”)",
+            "hiçbir şeyin"
+          ],
+          "explanation": "Bu yüzden münada bir mef'uldür."
+        },
+        {
+          "prompt": "Kitap kaç nida harfi verir?",
+          "options": [
+            "dört",
+            "altı",
+            "üç",
+            "beş"
+          ],
+          "explanation": "Ya, eya, heya, ey, hemze."
+        },
+        {
+          "prompt": "Ya Zeydani … üzere mebnidir.",
+          "options": [
+            "elif",
+            "zamme",
+            "ya harfi",
+            "fetha"
+          ],
+          "explanation": "Tesniyenin ref' alameti."
+        },
+        {
+          "prompt": "Ya le-Zeydin … yüzünden mahfuzdur.",
+          "options": [
+            "ya harfi",
+            "istiğase lamı",
+            "elif",
+            "izafet"
+          ],
+          "explanation": "İstiğase lamı."
+        },
+        {
+          "prompt": "Ta'rif lamı olan bir isimle … denir.",
+          "options": [
+            "ya er-raculü",
+            "ya er-racule",
+            "ya eyyuha'r-raculü",
+            "eya er-raculü"
+          ],
+          "explanation": "Araya eyyuha konur."
+        },
+        {
+          "prompt": "Terhim edilince Usman … olur.",
+          "options": [
+            "ya Usma",
+            "ya Us",
+            "ya Usman",
+            "ya Usme"
+          ],
+          "explanation": "Zaid elif ve nun düşer."
+        },
+        {
+          "prompt": "Va yalnız … için kullanılır.",
+          "options": [
+            "nüdbe olunan",
+            "yakındaki",
+            "uzaktaki",
+            "istiğase"
+          ],
+          "explanation": "Va Zeydah; ya ikisine de yarar."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Munādā": "Münada",
+          "Its state": "Durumu",
+          "The book's example": "Kitabın örneği",
+          "single and definite": "müfred ve ma'rife",
+          "built on its sign of rafʿ": "ref' alameti üzere mebni",
+          "with the lām of help": "istiğase lamıyla",
+          "khafḍ": "hafz",
+          "with the alif of the call": "çağrı elifiyle",
+          "fatḥa": "fetha",
+          "muḍāf": "muzaf",
+          "naṣb": "nasb",
+          "like the muḍāf": "muzafa benzeyen",
+          "indefinite, no one meant": "nekre, kimse kastedilmemiş",
+          "with the lām of definiteness": "ta'rif lamıyla",
+          "ayyuhā between": "araya eyyuha",
+          "shortened": "terhim edilmiş",
+          "ḍamma, or its own vowel": "zamme ya da kendi harekesi"
+        },
+        "caption": "Münadanın çeşitleri (s. 28–29)"
+      },
       "text": [
         "Dördüncüsü münadadır: lafzen bir nida harfiyle çağrılan isimdir; ya 'Abdellahi “ey Abdullah!” gibi, yani ed'u 'Abdellahi “Abdullah'ı çağırırım”; nida harfi ed'u'nun yerini tutar. Nida harfleri beştir: ya, eya, heya, ey ve fethalı hemze. Nida harfi lafızdan hazfedilebilir; Yusüfü e'rid 'an haza “Yusuf, bundan yüz çevir” gibi.",
         "Bil ki münada [birkaç] çeşittir. Müfred ma'rife ise ref' alameti üzere mebnidir: zamme, ya Zeydü “ey Zeyd!” ve ya raculü “ey adam!” gibi; elif, ya Zeydani “ey iki Zeyd!” gibi; ve vav, ya Zeydune “ey Zeydler!” gibi. İstiğase lamıyla hafzedilir, ya le-Zeydin “imdat, ey Zeyd!” gibi; elifi kendisine bitişince fetha alır, ya Zeydah “ey Zeyd!” gibi. Muzaf ise nasbedilir, ya 'Abdellahi “ey Abdullah!” gibi; ya da muzafa benzeyen ise, ya tali'an cebelen “ey dağa tırmanan!” gibi; ya da belirli olmayan nekre ise, körün şu sözü gibi: ya raculen huz bi-yedi “ey [herhangi bir] adam, elimden tut!”.",
@@ -646,6 +2425,133 @@
       ]
     },
     "19": {
+      "title": "Mef'ulün fih, mef'ulün leh ve mef'ulün maah",
+      "body": [
+        "Mef'ulün fih, işin içinde olduğu zaman ya da mekandır ve ona zarf denir. Zaman zarfları ya mübhemdir, belirli bir sınırı yoktur, dehr, “bir çağ”, hin, “bir süre” gibi; ya da mahduddur, yevm, leyle, şehr, sene gibi; “hepsi takdir edilen bir fi ile mansubdur”: sumtü dehran, safertü şehran.",
+        "Mekan zarfları da aynı iki çeşittir, ama farklı davranır. Mübhem mekan takdir edilen bir fi ile mansubdur: celestü halfeke ve emameke. Mahdud mekan, yani bir adı ve sınırları olan yer, nasb almaz: “onda fi'nin anılması gerekir”: celestü fi'd-dari, fi's-sukı, fi'l-mescidi. Celestü'd-dara denmez.",
+        "Mef'ulün leh, “kendisinden önce anılan işin onun uğruna yapıldığı” şeydir, takdir edilen bir lam ile mansubdur: darabtühü te'diben, “onu terbiye için vurdum”, yani li't-te'dibi; ka'adtü ani'l-harbi cubnen, “korkaklıktan savaştan geri durdum”. Zeccac onun bir masdar, takdir edilen bir fiilin mef'ul-i mutlakı olduğu görüşündedir: eddebtühü te'diben, cebüntü cubnen.",
+        "Mef'ulün maah, birlikteliği göstermek için maa, “ile”, ma'nasındaki bir vavdan sonra gelendir: ca'e'l-berdü ve'l-cubbati, “soğuk, cübbelerle birlikte geldi”; burada cübbeler gelmez, bu yüzden vav onları soğuğa atfedemez; bir de ci'tü ena ve Zeyden. Fiil lafızda olup atf caiz olunca ikisi de caizdir: ci'tü ena ve Zeyden, ya da ena'ya atfedilerek ve Zeydün. Atf caiz olmayınca tek yol nasbdır: ci'tü ve Zeyden, çünkü munfasıl zamir olmadan bir isim te'ye atfedilmez.",
+        "Fiil yalnız ma'nada olunca kural tersine döner. Atf caizse gereklidir: ma li-Zeydin ve Amrin, “Zeyd ile Amr'a ne oluyor?”, Amrin Zeydin'e atfedilmiştir. Değilse nasb: ma leke ve Zeyden, ma şe'nüke ve Amran, “çünkü ma'nası ma tasne'u'dur”, “[onunla] ne yapıyorsun?”; Zeyden lam tekrarlanmadan kef'e atfedilemez."
+      ],
+      "terms": [
+        "zarf: işin zamanı ya da mekanı, mef'ulün fih",
+        "zaman ve mekanın mübhemi ve mahdudu",
+        "işin uğruna yapıldığı şey; lam takdir edilir",
+        "maiyyet vavından sonraki isim"
+      ],
+      "examples": [
+        "zaman, mübhem ve mahdud: fi takdir edilir",
+        "mübhem mekan: fi takdir edilir",
+        "mahdud mekan: fi söylenmelidir",
+        "mef'ulün leh",
+        "mef'ulün maah: atf mümkün değil"
+      ],
+      "tasks": [
+        {
+          "prompt": "Gerekirse düzeltin: celestü'd-dara; celestü halfeke; sumtü dehran.",
+          "answer": "Celestü'd-dara yanlıştır: mahdud mekan fi ister, celestü fi'd-dari. Celestü halfeke doğrudur: mübhem mekan, takdir edilen fi ile mansub. Sumtü dehran doğrudur: her zaman zarfı takdir edilen fi ile mansubdur."
+        },
+        {
+          "prompt": "Ka'adtü ani'l-harbi cubnen'de cubnen'in iki okunuşunu verin.",
+          "answer": "Kitabın aldığı gibi, takdir edilen lam ile mansub bir mef'ulün leh: li'l-cubni, “korkaklıktan”. Zeccac'a göre bir masdar, takdir edilen bir fiilin mef'ul-i mutlakı: cebüntü cubnen."
+        },
+        {
+          "prompt": "Ci'tü ena ve Zeyd…'de neden hem nasb hem ref' caizdir de ci'tü ve Zeyden'de yalnız nasb?",
+          "answer": "Ena ile isim munfasıl zamire atfedilebilir (ref') ya da mef'ulün maah olabilir (nasb). Ena olmadan merfu muttasıl bir zamir olan te'ye atfedilemez, bu yüzden mef'ulün maah olarak nasb tek yoldur."
+        },
+        {
+          "prompt": "Ma li-Zeydin ve Amrin neden atfedilir de ma leke ve Zeyden mansubdur?",
+          "answer": "Fiil yalnız ma'nadadır. Birincisinde Amr, Zeyd'e (lamdan sonraki bir isme) atfedilebilir, bu yüzden atf gereklidir. İkincisinde Zeyd, mecrur bir zamir olan kef'e lam tekrarlanmadan atfedilemez, bu yüzden ma tasne'u ma'nasıyla mansubdur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Mef'ulün fihe … da denir.",
+          "options": [
+            "hal",
+            "temyiz",
+            "masdar",
+            "zarf"
+          ],
+          "explanation": "İşin zamanı ya da mekanı."
+        },
+        {
+          "prompt": "Hangisi takdir edilen bir fi ile mansubdur?",
+          "options": [
+            "her zaman zarfı",
+            "yalnız mübhem zaman",
+            "yalnız mahdud zaman",
+            "yalnız mekanlar"
+          ],
+          "explanation": "Mübhem ve mahdud zamanlar aynıdır."
+        },
+        {
+          "prompt": "Ed-dar gibi mahdud bir mekan … ister.",
+          "options": [
+            "takdir edilen bir fi",
+            "fi'nin söylenmesini",
+            "lamı",
+            "hiçbir şey"
+          ],
+          "explanation": "Celestü fi'd-dari."
+        },
+        {
+          "prompt": "Darabtühü te'diben'de te'diben …",
+          "options": [
+            "mef'ulün fihtir",
+            "haldir",
+            "mef'ulün lehtir",
+            "temyizdir"
+          ],
+          "explanation": "Yani li't-te'dibi."
+        },
+        {
+          "prompt": "Zeccac'a göre mef'ulün leh …",
+          "options": [
+            "haldir",
+            "mef'ulün bihtir",
+            "temyizdir",
+            "takdir edilen bir fiilin masdarıdır"
+          ],
+          "explanation": "Eddebtühü te'diben."
+        },
+        {
+          "prompt": "Ca'e'l-berdü ve'l-cubbati'de el-cubbati mansubdur, çünkü …",
+          "options": [
+            "cübbeler gelmez: atf olmaz",
+            "haldir",
+            "ca'e'nin mef'ulüdür",
+            "müennestir"
+          ],
+          "explanation": "Vav maa ma'nasındadır."
+        },
+        {
+          "prompt": "Ma leke ve Zeyden'de ma'na …",
+          "options": [
+            "“senin hiçbir şeyin yok”",
+            "ma tasne'u, “ne yapıyorsun?”",
+            "“Zeyd senindir”",
+            "“Zeyd'le git”"
+          ],
+          "explanation": "Fiil yalnız ma'nadadır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The verb": "Fiil",
+          "Joining": "Atf",
+          "The noun": "İsim",
+          "The book's example": "Kitabın örneği",
+          "in the wording": "lafızda",
+          "allowed": "caiz",
+          "naṣb or rafʿ": "nasb ya da ref'",
+          "not allowed": "caiz değil",
+          "naṣb": "nasb",
+          "only in meaning": "yalnız ma'nada",
+          "joined": "atfedilir"
+        },
+        "caption": "Mef'ulün maah: nasb ya da atf (s. 31)"
+      },
       "text": [
         "Fasıl. Mef'ulün fih: failin işinin içinde olduğu zamanın ve mekanın ismidir; ona zarf denir. Zaman zarfları iki çeşittir: mübhem, yani belli bir sınırı olmayan, dehrin “zaman” ve hinin “bir süre” gibi; ve mahdud, yani belli bir sınırı olan, yevmin “gün”, leyletin “gece”, şehrin “ay” ve senetin “yıl” gibi. Hepsi takdir edilen fi “içinde” ile mansubdur; sumtü dehran “bir zaman oruç tuttum” ve safertü şehran “bir ay yolculuk ettim” dersin, yani fi dehrin, ve fi şehrin.",
         "Mekan zarfları da böyledir: mübhem, o da takdir edilen fi ile mansubdur, celestü halfeke ve emameke “arkanda ve önünde oturdum” gibi; ve mahdud, takdir edilen fi ile mansub olmaz, onda fi'nin zikredilmesi gerekir, celestü fi'd-dari “evde oturdum”, ve fi's-sukı “ve çarşıda”, ve fi'l-mescidi “ve mescitte” gibi.",
@@ -655,6 +2561,137 @@
       ]
     },
     "20": {
+      "title": "Hal",
+      "body": [
+        "Hal “failin ya da mef'ulün bihin ya da ikisinin birden durumunu gösteren lafızdır”: ca'eni Zeydün rakiben, failin durumu; darabtü Zeyden meşduden, “Zeyd'i bağlı olarak vurdum”, mef'ulün durumu; lakitü Amran rakibeyni, “Amr'la, ikimiz de binmiş olarak karşılaştım”, ikisinin durumu; bunu tesniye gösterir.",
+        "Halin sahibi yalnız ma'nada bir fail ya da mef'ul olabilir. Zeydün fi'd-dari ka'imen'de hal, takdir edilen istakarra'nın gizli failine aittir (14. ders): Zeydün istakarra fi'd-dari ka'imen. Haza Zeydün ka'imen'de, haza'nın ma'nasının mef'ulü olarak Zeyd'e aittir: “onu ayakta olarak gösteriyorum”, ya da kitabın da dediği gibi, “dikkat çekiyorum ve gösteriyorum”.",
+        "Amili “bir fiil ya da fiil ma'nasıdır”. Hal “her zaman nekredir”, sahibi (zü'l-hal) ise çoğunlukla ma'rifedir. Sahibi nekre olursa hal ondan önce gelmelidir: ca'eni rakiben raculün, “nasb durumunda sıfatla karışmasın diye”. Sebebi görmeye değer: ref'de raculün rakibün ile raculün rakiben farklı görünür, ama nasbda ra'eytü raculen rakiben “binmiş bir adam” da olabilir, “bir adam, binmiş olarak” da. Öne alınınca ancak hal olabilir.",
+        "Hal haberiyye bir cümle olabilir: ca'eni Zeydün ve ğulamühü rakibün, “Zeyd, kölesi binmiş olarak geldi”, ya da rakibe ğulamühü. Karine gösterdiğinde amili de hazfedilebilir: bir yolcuya salimen ğanimen, “sağ salim, kazançlı”, dersiniz; yani terci'u salimen ğanimen, “sağ salim, kazançlı dönesin”."
+      ],
+      "terms": [
+        "failin, mef'ulün ya da ikisinin durumunu gösteren",
+        "halin sahibi (zü'l-hal), çoğunlukla ma'rife",
+        "fiil ma'nası olan amil, haza'daki gibi",
+        "nasbda sıfatla karışma"
+      ],
+      "examples": [
+        "mef'ulün hali",
+        "ikisinin hali",
+        "ma'nada fail olan sahip",
+        "nekre sahip: hal önce",
+        "amil hazfedilmiş: terci'u"
+      ],
+      "tasks": [
+        {
+          "prompt": "Hali ve sahibini bulun: ca'eni Zeydün rakiben; darabtü Zeyden meşduden; lakitü Amran rakibeyni.",
+          "answer": "Rakiben: fail olan Zeyd'in hali. Meşduden: mef'ul olan Zeyd'in hali. Rakibeyni: hem söyleyenin (fail olan te) hem Amr'ın (mef'ul) hali; bunu tesniye gösterir."
+        },
+        {
+          "prompt": "Ca'eni rakiben raculün'de hal neden önce gelmelidir?",
+          "answer": "Sahibi raculün nekredir. Bir nekreden sonra mansub bir hal, mansub bir sıfatla karışırdı (ra'eytü raculen rakiben). Öne alınınca ancak hal olabilir."
+        },
+        {
+          "prompt": "Haza Zeydün ka'imen'de ka'imen'i ne mansub yapar?",
+          "answer": "Haza'daki fiil ma'nası: “onu gösteriyorum” ya da “dikkat çekiyorum”. Zeyd ma'nada onun mef'ulüdür, ka'imen de onun durumunu gösterir."
+        },
+        {
+          "prompt": "Bir yolcuya söylenen salimen ğanimen'deki hazfedilmiş amili getirin.",
+          "answer": "Terci'u salimen ğanimen, “sağ salim, kazançlı dönesin”: iki kelime terci'u'nun gizli failinin halleridir; karine gösterdiği için amil hazfedilmiştir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Hal … durumunu gösterir.",
+          "options": [
+            "failin, mef'ulün ya da ikisinin",
+            "fiilin",
+            "zamanın",
+            "yalnız mübtedanın"
+          ],
+          "explanation": "Lakitü Amran rakibeyni: ikisi."
+        },
+        {
+          "prompt": "Lakitü Amran rakibeyni'de tesniye, halin … ait olduğunu gösterir.",
+          "options": [
+            "yalnız Amr'a",
+            "hem söyleyene hem Amr'a",
+            "yalnız söyleyene",
+            "hiçbirine"
+          ],
+          "explanation": "İkisi de binmişti."
+        },
+        {
+          "prompt": "Halin amili …",
+          "options": [
+            "yalnız bir fiildir",
+            "bir harftir",
+            "bir fiil ya da fiil ma'nasıdır",
+            "ma'nevi amildir"
+          ],
+          "explanation": "Haza gibi, “gösteriyorum”."
+        },
+        {
+          "prompt": "Hal her zaman …",
+          "options": [
+            "ma'rifedir",
+            "cümledir",
+            "öndedir",
+            "nekredir"
+          ],
+          "explanation": "Sahibi çoğunlukla ma'rifedir."
+        },
+        {
+          "prompt": "Sıfatla karışma … ortaya çıkar.",
+          "options": [
+            "nasbda",
+            "ref'de",
+            "cerde",
+            "her durumda"
+          ],
+          "explanation": "Ra'eytü raculen rakiben."
+        },
+        {
+          "prompt": "Ca'eni Zeydün ve ğulamühü rakibün'de hal …",
+          "options": [
+            "yalnız rakibün'dür",
+            "haberiyye bir cümledir",
+            "bir sıfattır",
+            "Zeyd'in haberidir"
+          ],
+          "explanation": "Vav ile: ve ğulamühü rakibün."
+        },
+        {
+          "prompt": "Salimen ğanimen'i … mansub yapar.",
+          "options": [
+            "yolcu",
+            "hiçbir şey",
+            "hazfedilmiş bir fiil, terci'u,",
+            "haza'nın ma'nası"
+          ],
+          "explanation": "Karine onu gösterir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Owner": "Sahip",
+          "The book's example": "Kitabın örneği",
+          "Governor": "Amil",
+          "the fāʿil": "fail",
+          "jāʾa": "ca'e",
+          "the object": "mef'ul",
+          "ḍarabtu": "darabtü",
+          "both": "ikisi",
+          "laqītu": "lakitü",
+          "a fāʿil in meaning": "ma'nada fail",
+          "istaqarra, understood": "istakarra, takdir edilir",
+          "an object in meaning": "ma'nada mef'ul",
+          "the meaning of hādhā": "haza'nın ma'nası",
+          "indefinite: the ḥāl first": "nekre: hal önce",
+          "governor dropped": "amil hazfedilmiş",
+          "tarjiʿu, understood": "terci'u, takdir edilir"
+        },
+        "caption": "Hal ve sahibi (s. 31–32)"
+      },
       "text": [
         "Fasıl. Hal, failin veya mef'ulün bihin ya da ikisinin halini açıklayan lafızdır; ca'eni Zeydün rakiben “Zeyd bana binmiş olarak geldi”, darabtü Zeyden meşduden “Zeyd'i bağlı olarak dövdüm” ve lakitü 'Amran rakibeyni “Amr'la ikimiz binmiş olarak karşılaştık” gibi. Fail [yalnız] ma'nevi olabilir; Zeydün fi'd-dari ka'imen “Zeyd evde, ayakta olarak” gibi, çünkü ma'nası Zeydün istakarra fi'd-dari ka'imen “Zeyd evde ayakta olarak karar kıldı”dır; mef'ul de böyledir; haza Zeydün ka'imen “bu, ayakta olarak Zeyd'dir” gibi, çünkü ma'nası uşiru ileyhi ka'imen “ayakta olarak ona işaret ediyorum”dur, o da Zeyd'dir.",
         "Halin amili fiil veya fiil ma'nasıdır. Hal daima nekredir; halin sahibi ise, zikredilen örneklerde gördüğün gibi, çoğunlukla ma'rifedir. Halin sahibi nekre ise halin ondan önce getirilmesi gerekir; ca'eni rakiben raculün “bana binmiş olarak bir adam geldi” gibi; ta ki senin ra'eytü raculen rakiben “binmiş bir adam gördüm” gibi sözündeki nasb halindeki sıfatla karışmasın.",
@@ -662,6 +2699,130 @@
       ]
     },
     "21": {
+      "title": "Temyiz; müstesna ve ne zaman mansub olduğu",
+      "body": [
+        "Temyiz “bir miktardan sonra anılan nekre bir isimdir”; miktar sayı, ölçek, tartı, alan ya da başka bir şey olabilir; “onda bir belirsizlik vardır, temyiz de o belirsizliği giderir”. İndi işrune dirhemen: yirmi ne? Dirhem. Kafizani bürran, iki kafiz buğday (ölçek); menevani semnen, iki men yağ (tartı); ceribani kutnen, iki cerib pamuk (alan); ve ala't-temrati mislüha zübden, “hurmanın üzerinde onun kadar tereyağı”, burada misl, zübden onu açıklayana kadar belirsizdir.",
+        "Miktar olmayanı da açıklayabilir: haza hatemün hadiden, “demirden bir yüzük”, sivarun zeheben, “altından bir bilezik”; ama burada hafz daha yaygındır, hatemü hadidin. Tam bir cümleden sonra gelip onun nispetinin belirsizliğini de giderebilir: tabe Zeydün nefsen, ilmen, eben, “Zeyd nefisçe, ilimce, baba olarak iyidir”: cümle Zeyd'in iyi olduğunu söyler, temyiz de neyde iyi olduğunu.",
+        "Müstesna “illa ve kardeşlerinden sonra, kendisinden öncekine isnad edilenin ona isnad edilmediği bilinsin diye anılan lafızdır”. Bir çokluktan çıkarılınca muttasıldır: ca'eni'l-kavmü illa Zeyden, Zeyd kavimden biridir. Kendisinden istisna yapılan şeye (müstesna minh) hiç dahil olmamışsa munkatı'dır: ca'eni'l-kavmü illa himaran, “kavim geldi, bir eşek hariç”.",
+        "İ'rabı dört çeşittir, birincisi nasbdır. Müstesna şu durumlarda mansubdur: muttasıl olup muceb kelamda illa'dan sonra gelince; munkatı' olunca; müstesna minhden önce gelince, ma ca'eni illa Zeyden ahadün; “çoğunluğa göre” hala ve ada'dan sonra; ve ma hala, ma ada, leyse ve la yekunü'den sonra: ca'eni'l-kavmü hala Zeyden. Diğer üç çeşit sonraki derste gelir."
+      ],
+      "terms": [
+        "bir miktarın ya da cümlenin belirsizliğini gideren nekre",
+        "miktar: sayı, ölçek, tartı ya da alan",
+        "muttasıl ve munkatı' istisna",
+        "muceb kelam: nefy, nehy ya da istifham olmayan"
+      ],
+      "examples": [
+        "sayı temyizi",
+        "başka belirsiz bir kelimenin temyizi",
+        "miktar olmayanın temyizi",
+        "bir cümlenin nispetinin temyizi",
+        "müstesna minhden önce gelen müstesna: nasb"
+      ],
+      "tasks": [
+        {
+          "prompt": "Temyizi bulun ve hangi belirsizliği giderdiğini söyleyin: indi işrune dirhemen; menevani semnen; tabe Zeydün ilmen.",
+          "answer": "Dirhemen yirmi sayısının belirsizliğini giderir. Semnen “iki men” tartısının belirsizliğini giderir. İlmen, tabe Zeydün'deki nispetin belirsizliğini giderir: Zeyd ilimce iyidir."
+        },
+        {
+          "prompt": "“Demirden bir yüzük”ün iki söyleyişini verin ve kitabın hangisini daha yaygın saydığını söyleyin.",
+          "answer": "Temyiz mansub olarak hatemün hadiden, ya da izafetle mahfuz olarak hatemü hadidin. Miktar olmayanda hafz daha yaygındır."
+        },
+        {
+          "prompt": "Muttasıl mı munkatı' mı? ca'eni'l-kavmü illa Zeyden; ca'eni'l-kavmü illa himaran.",
+          "answer": "İlla Zeyden muttasıldır: Zeyd kavimden biridir ve onlardan çıkarılır. İlla himaran munkatı'dır: eşek hiç kavmin içinde değildi. İkisi de mansubdur."
+        },
+        {
+          "prompt": "Kitabın sıraladığı şekliyle müstesnanın mansub olduğu durumları verin.",
+          "answer": "Muttasıl, illa'dan sonra, muceb kelamda; munkatı'; müstesna minhden önce gelmiş; hala ve ada'dan sonra (çoğunluğa göre); ma hala, ma ada, leyse ve la yekunü'den sonra."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Temyiz her zaman …",
+          "options": [
+            "ma'rifedir",
+            "nekredir",
+            "cümledir",
+            "masdardır"
+          ],
+          "explanation": "Belirsizliği giderir."
+        },
+        {
+          "prompt": "Kafizani bürran'da belirsizlik …",
+          "options": [
+            "bir tartıdadır",
+            "bir alandadır",
+            "bir ölçektedir",
+            "bir sayıdadır"
+          ],
+          "explanation": "İki kafiz ne? Buğday."
+        },
+        {
+          "prompt": "Tabe Zeydün nefsen'de temyiz … belirsizliği giderir.",
+          "options": [
+            "bir miktarın",
+            "bir sayının",
+            "failin adının",
+            "cümlenin nispetinin"
+          ],
+          "explanation": "Neyde iyi? Nefiste."
+        },
+        {
+          "prompt": "Hatem gibi miktar olmayanda daha yaygın olan yol …",
+          "options": [
+            "izafetle hafzdır",
+            "nasbdır",
+            "ref'dir",
+            "haldir"
+          ],
+          "explanation": "Hatemü hadidin."
+        },
+        {
+          "prompt": "Ca'eni'l-kavmü illa himaran'da istisna …",
+          "options": [
+            "muttasıldır",
+            "munkatı'dır",
+            "müferrağdır",
+            "bedeldir"
+          ],
+          "explanation": "Eşek dahil değildi."
+        },
+        {
+          "prompt": "Ma ca'eni illa Zeyden ahadün: Zeyden mansubdur, çünkü …",
+          "options": [
+            "kelam mucebdir",
+            "munkatı'dır",
+            "müstesna minhden önce gelir",
+            "hala yüzündendir"
+          ],
+          "explanation": "Ahadün ondan sonra gelir."
+        },
+        {
+          "prompt": "Leyse ve la yekunü'den sonra müstesna …",
+          "options": [
+            "mecrurdur",
+            "merfudur",
+            "ikisi de olur",
+            "mansubdur"
+          ],
+          "explanation": "Ca'eni'l-kavmü leyse Zeyden."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The vagueness is in": "Belirsizlik nerede",
+          "The book's example": "Kitabın örneği",
+          "a number": "sayı",
+          "a measure of capacity": "ölçek",
+          "a weight": "tartı",
+          "an area": "alan",
+          "another vague word": "başka belirsiz bir kelime",
+          "not a measure: khafḍ commoner": "miktar değil: hafz daha yaygın",
+          "a sentence's attribution": "cümlenin nispeti"
+        },
+        "caption": "Temyiz (s. 32–33)"
+      },
       "text": [
         "Fasıl. Temyiz, içinde belirsizlik bulunan sayı, ölçek, tartı, alan veya başka bir miktardan sonra zikredilen ve o belirsizliği gideren nekre bir isimdir; 'indi 'işrune dirhemen “bende yirmi dirhem var”, ve kafizani bürran “ve iki kafiz buğday”, ve menevani semnen “ve iki menn tereyağı”, ve ceribani kutnen “ve iki cerib pamuk”, ve 'ala't-temrati mislüha zübden “ve hurmanın üzerinde onun benzeri kadar taze yağ” gibi.",
         "Miktar olmayan bir şeyden de olabilir; haza hatemün hadiden “bu demirden bir yüzük”, ve sivarun zeheben “ve altından bir bilezik” gibi; bunda hafz daha çoktur. İsnadından belirsizliği gidermek için cümleden sonra gelebilir; tabe Zeydün nefsen “Zeyd'in nefsi hoştur”, ya da 'ilmen “ilim bakımından”, ya da eben “baba bakımından” gibi.",
@@ -670,6 +2831,130 @@
       ]
     },
     "22": {
+      "title": "Müstesnanın diğer durumları; gayr ve illa",
+      "body": [
+        "İkinci çeşit: muceb olmayan kelamda, yani “nefy, nehy ya da istifham bulunan her kelamda”, müstesna minh anılmış olarak illa'dan sonra iki yol caizdir: istisna olarak nasb, ya da öncesindeki kelimeden bedel: ma ca'eni ahadün illa Zeyden, ya da illa Zeydün; Zeydün, ref'inde ahadün'ün yerini alır.",
+        "Üçüncü çeşit müferrağ istisnadır: muceb olmayan kelamda, kendisinden istisna yapılacak hiçbir şey anılmadan illa'dan sonra. O zaman “i'rabı amillere göredir”: ma ca'eni illa Zeydün, burada Zeydün faildir; ma ra'eytü illa Zeyden, mef'ul; ma merartü illa bi-Zeydin. Amil illa'dan sonraki kelime için “boşaltılmıştır”; illa yalnız nefyi sınırlar: “Zeyd'den başka kimse gelmedi”, “yalnız Zeyd geldi” demektir.",
+        "Dördüncü çeşit: gayr, siva ve seva'dan sonra, “çoğunluğa göre” haşa'dan sonra da mecrur: ca'eni'l-kavmü ğayra Zeydin, siva Zeydin, seva'e Zeydin, haşa Zeydin. Burada müstesna isim muzafun ileyhtir. Gayr'ın kendisi de müstesna ismin illa'dan sonra alacağı i'rabı alır: muceb kelamda ğayra, munkatı' olunca ğayra himarin, öne alınınca ma ca'eni ğayra Zeydin el-kavmü, ahadün'den sonra ğayru ya da ğayra, müferrağ istisnada da amil ne isterse: ma ca'eni ğayru Zeydin, ma ra'eytü ğayra Zeydin, ma merartü bi-ğayri Zeydin.",
+        "“Gayr kelimesi sıfat için konmuştur ve bazen istisna için kullanılır, tıpkı illa'nın istisna için konup bazen sıfat için kullanılması gibi”: lev kane fihima alihetun illallahü le-fesedeta (Enbiya 21/22), “yani ğayrullahi”. Kitap la ilahe illallahü'yü de buna katar. Birçok nahivci bu sözü başka türlü i'rab eder: illa istisna harfi, Allahü de la'nın ismiyle birlikte mahallinden bedel; talebe ikisini de bilmelidir."
+      ],
+      "terms": [
+        "nefy, nehy ya da istifham bulunan kelam",
+        "kendisinden önceki kelimenin yerini ve i'rabını alan müstesna (bedel)",
+        "müferrağ istisna: istisna yapılacak bir şey anılmamış",
+        "kendilerinden sonra ismin mecrur olduğu istisna kelimeleri"
+      ],
+      "examples": [
+        "muceb değil, bütün anılmış: nasb ya da bedel",
+        "müferrağ istisna: amilin istediği gibi",
+        "gayr'dan sonraki isim mecrur; gayr mansub",
+        "sıfat olarak illa (Enbiya 21/22)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Zeyd'in i'rabını ve istisnanın çeşidini verin: ma ca'eni ahadün illa Zeydün; ma ra'eytü illa Zeyden; ca'eni'l-kavmü haşa Zeydin.",
+          "answer": "İlla Zeydün: muceb olmayan kelam, bütün anılmış; Zeydün ahadün'den bedeldir, merfudur (nasb da caiz olurdu). İlla Zeyden: müferrağ istisna; Zeyden ra'eytü'nün mef'ulüdür. Haşa Zeydin: çoğunluğa göre haşa'dan sonra mecrur."
+        },
+        {
+          "prompt": "İlla'nın yerine gayr koyun ve i'rabını verin: ca'eni'l-kavmü illa Zeyden; ma ca'eni illa Zeydün.",
+          "answer": "Ca'eni'l-kavmü ğayra Zeydin: ğayra, Zeyden gibi mansubdur. Ma ca'eni ğayru Zeydin: ğayru, Zeydün gibi merfudur, faildir. İkisinde de gayr'dan sonraki Zeyd muzafun ileyh olarak mecrurdur."
+        },
+        {
+          "prompt": "Ma merartü illa bi-Zeydin'deki istisnaya neden “müferrağ” denir?",
+          "answer": "İstisna yapılacak hiçbir şey anılmamıştır, bu yüzden amil (be'siyle merartü) illa'dan sonraki kelime için boşaltılmıştır ve doğrudan onda amel eder: bi-Zeydin amilin istediği i'rabı alır. İlla yalnız nefyi sınırlar."
+        },
+        {
+          "prompt": "Kitap Enbiya 21/22'de illa'yı nasıl okur ve birçok nahivci la ilahe illallahü'yü başka nasıl okur?",
+          "answer": "Enbiya 21/22'de illa sıfat olarak, “Allah'tan başka olan” (ğayrullahi) ma'nasında kullanılmıştır; kitap la ilahe illallahü'yü de aynı şekilde okur. Birçok nahivci oradaki illa'yı istisna harfi, Allahü'yü de la ile isminin mahallinden bedel sayar."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Muceb olmayan kelam …",
+          "options": [
+            "fiilsizdir",
+            "failsizdir",
+            "nefy, nehy ya da istifham içerir",
+            "illa içerir"
+          ],
+          "explanation": "Kelam-ı gayr-i muceb."
+        },
+        {
+          "prompt": "Ma ca'eni ahadün illa Zeydün'de Zeydün …",
+          "options": [
+            "ca'e'nin failidir",
+            "sıfattır",
+            "mübtedadır",
+            "ahadün'den bedeldir"
+          ],
+          "explanation": "Nasb da caizdir."
+        },
+        {
+          "prompt": "Müferrağ istisnada illa'dan sonraki isim … alır.",
+          "options": [
+            "amilin istediği i'rabı",
+            "her zaman nasb",
+            "her zaman ref'",
+            "cerr"
+          ],
+          "explanation": "Ma ca'eni illa Zeydün."
+        },
+        {
+          "prompt": "Siva'dan sonra müstesna isim …",
+          "options": [
+            "mansubdur",
+            "mecrurdur",
+            "merfudur",
+            "ikisi de olur"
+          ],
+          "explanation": "Siva Zeydin."
+        },
+        {
+          "prompt": "Gayr … i'rabı alır.",
+          "options": [
+            "isminin aldığı",
+            "her zaman nasb olan",
+            "müstesnanın illa'dan sonra alacağı",
+            "failin sahip olduğu"
+          ],
+          "explanation": "Ma ca'eni ğayru Zeydin."
+        },
+        {
+          "prompt": "Gayr … için konmuştur.",
+          "options": [
+            "istisna",
+            "nefy",
+            "istifham",
+            "sıfat"
+          ],
+          "explanation": "İstisna için de kullanılır."
+        },
+        {
+          "prompt": "Enbiya 21/22'de illallahü … demektir.",
+          "options": [
+            "Allah'tan başka olan",
+            "Allah hariç",
+            "yalnız Allah",
+            "ancak Allah"
+          ],
+          "explanation": "Sıfat olarak kullanılan illa: ğayrullahi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Case": "Durum",
+          "After illā": "İlla'dan sonra",
+          "With ghayr": "Gayr ile",
+          "affirmative, connected": "muceb, muttasıl",
+          "disconnected": "munkatı'",
+          "put first": "öne alınmış",
+          "not affirmative, whole named": "muceb değil, bütün anılmış",
+          "emptied: the fāʿil": "müferrağ: fail",
+          "emptied: the object": "müferrağ: mef'ul",
+          "emptied: after a particle": "müferrağ: bir harften sonra"
+        },
+        "caption": "İlla'dan sonra müstesna, ve gayr (s. 33–34)"
+      },
       "text": [
         "Müspet olmayan kelamda —yani içinde nefiy, nehiy veya istifham bulunan her kelamda— illa'dan sonra bulunur ve müstesna minh zikredilmiş olursa onda iki vecih caizdir: nasb ve öncesinden bedel [yapmak]; ma ca'eni ahadün illa Zeyden “bana Zeyd'den başka kimse gelmedi”, ve illa Zeydün gibi.",
         "Müferrağ ise, yani müspet olmayan kelamda illa'dan sonra bulunur ve müstesna minh zikredilmemiş olursa, i'rabı amillere göredir; ma ca'eni illa Zeydün “bana Zeyd'den başkası gelmedi”, ve ma ra'eytü illa Zeyden “ve Zeyd'den başkasını görmedim”, ve ma merartü illa bi-Zeydin “ve Zeyd'den başkasına uğramadım” dersin. ğayrin, siven ve seva'in'dan sonra, çoğunluğa göre haşa'dan sonra bulunursa mecrurdur; ca'eni'l-kavmü ğayra Zeydin “Zeyd'den başka kavim bana geldi”, ve siva Zeydin, ve seva'e Zeydin, ve haşa Zeydin gibi.",
@@ -678,6 +2963,135 @@
       ]
     },
     "23": {
+      "title": "Kane'nin haberi, inne'nin ismi, la'nın ismi, ma'nın haberi",
+      "body": [
+        "Kane ve kardeşlerinin haberi “onlar geldikten sonra söylenendir”: kane Zeydün ka'imen. Mübtedanın haberi gibidir, bir serbestlik fazlasıyla: isminden önce gelebilir, “ma'rife olsa bile”, kane'l-ka'ime Zeydün. Mübtedanın ma'rife haberi bunu yapamazdı, çünkü dinleyen hangisinin hangisi olduğunu ayıramazdı; kane'den sonra bunu i'rab söyler. İnne ve kardeşlerinin ismi de onlar geldikten sonra hakkında bir şey söylenendir: inne Zeyden ka'imün.",
+        "La-yı nefy-i cinsin mansub yaptığı isim, ondan sonra gelen muzaf bir nekredir, la ğulame raculin fi'd-dari, ya da muzafa benzeyen, la işrine dirhemen fi'l-kisi. La'dan sonra müfred bir nekre fetha üzere mebnidir: la racule fi'd-dari. İsim ma'rife olursa ya da la'dan ayrılırsa merfu olur ve la başka bir isimle tekrarlanmalıdır: la Zeydün fi'd-dari ve la Amrun; la fiha raculün ve la imra'etun.",
+        "La tekrarlanınca, la havle ve la kuvvete illa billahi'de olduğu gibi, beş yol caizdir: ikisinde de fetha; ikisinde de ref'; birincide fetha, ikincide nasb; birincide fetha, ikincide ref'; birincide ref', ikincide fetha. La'nın ismi karineyle hazfedilebilir: la aleyke, “yani la be'se aleyke”.",
+        "Leyse gibi ma ve la'nın haberi mansubdur: ma Zeydün ka'imen, la raculün hadıran. Amelleri üç durumda iptal olur: haber illa'dan sonra gelince, ma Zeydün illa ka'imün; isimden önce gelince, ma ka'imün Zeydün; ve ma'dan sonra in eklenince, ma in Zeydün ka'imün. Bu Hicaz lehçesidir. Benu Temim ma ve la'yı hiç amel ettirmez.",
+        "Kitap bunu “Benu Temim dilinde” söylenmiş bir beyitle ispat eder: ve mühefhefin ke'l-ğusni kultü lehü intesib, fe-ecabe ma katlü'l-muhibbi haramü, “dal gibi ince bir güzele: soyunu söyle! dedim. Cevap verdi: aşığı öldürmek haram değildir”. Cevap hem bir aşığın şakası hem de bir nahiv delilidir: ma'dan sonra haramü'yü merfu söyleyerek Temim'den olduğunu gösterdi."
+      ],
+      "terms": [
+        "kane'nin haberi, mansub; ma'rife olsa bile önce gelebilir",
+        "cins la'sının ismi: mansub, ya da müfred olunca mebni",
+        "la'yı tekrarlamak; ismi ma'rife ya da ayrılmış olunca gerekli",
+        "ma'yı amel ettiren Hicaz lehçesi ve ettirmeyen Temim lehçesi"
+      ],
+      "examples": [
+        "isminden önce kane'nin ma'rife haberi",
+        "la'nın ismi muzaf: mansub",
+        "müfred nekre: fetha üzere mebni",
+        "illa'dan sonra: ma amel etmez",
+        "haramü merfu: Temimlilerin yolu"
+      ],
+      "tasks": [
+        {
+          "prompt": "La'nın isminin durumunu ve sebebini verin: la racule fi'd-dari; la ğulame raculin fi'd-dari; la Zeydün fi'd-dari ve la Amrun.",
+          "answer": "Racule: müfred nekre, fetha üzere mebni. Ğulame: muzaf nekre, mansub. Zeydün: ma'rife, bu yüzden merfu; la da Amrun ile tekrarlanır."
+        },
+        {
+          "prompt": "Ma'rife haberi öne alarak neden kane'l-ka'ime Zeydün denebilir?",
+          "answer": "Kane'den sonra i'rab hangisinin hangisi olduğunu gösterir: el-ka'ime mansubdur, haberdir; Zeydün merfudur, isimdir. İkisi de merfu olan mübteda ve haberde, öne alınmış ma'rife bir haber ayırt edilemezdi."
+        },
+        {
+          "prompt": "Her birinde ma amel eder mi? ma Zeydün ka'imen; ma Zeydün illa ka'imün; ma ka'imün Zeydün; ma in Zeydün ka'imün.",
+          "answer": "Birincisinde amel eder (Hicaz yolu): ka'imen mansub. Diğer üçünde etmez: haber illa'dan sonra gelir, ya da isimden önce gelir, ya da ma'dan sonra in eklenmiştir; bu yüzden haber merfudur."
+        },
+        {
+          "prompt": "Şairin beyti Temim lehçesini nasıl ispat eder?",
+          "answer": "Soyu sorulunca genç, ma katlü'l-muhibbi haramü diye, ma'dan sonra haramü'yü merfu olarak cevap verdi. Hicaz lehçesinde ma haberi mansub yapardı (haramen); ref' Temimlilerin yolunu gösterir, böylece nahvi soyunu söylemiş oldu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Kane'nin haberi isminden ne zaman önce gelebilir?",
+          "options": [
+            "yalnız nekre olunca",
+            "hiçbir zaman",
+            "yalnız zarfsa",
+            "ma'rife olsa bile"
+          ],
+          "explanation": "Kane'l-ka'ime Zeydün."
+        },
+        {
+          "prompt": "La racule fi'd-dari: racule …",
+          "options": [
+            "fetha üzere mebnidir",
+            "i'rabla mansubdur",
+            "merfudur",
+            "mecrurdur"
+          ],
+          "explanation": "La'dan sonra müfred nekre."
+        },
+        {
+          "prompt": "La'nın ismi ma'rife olunca …",
+          "options": [
+            "mebni olur",
+            "merfu olur ve la tekrarlanır",
+            "mansub olur",
+            "la hazfedilir"
+          ],
+          "explanation": "La Zeydün fi'd-dari ve la Amrun."
+        },
+        {
+          "prompt": "Kitap la havle ve la kuvvete'de kaç yol caiz görür?",
+          "options": [
+            "dört",
+            "üç",
+            "beş",
+            "iki"
+          ],
+          "explanation": "Fetha, ref' ve nasb, beş eşleşmede."
+        },
+        {
+          "prompt": "Ma Zeydün illa ka'imün: ka'imün merfudur, çünkü …",
+          "options": [
+            "Temimliler böyle söyler",
+            "önce gelir",
+            "in eklenmiştir",
+            "haber illa'dan sonra gelir"
+          ],
+          "explanation": "Ma'nın ameli iptal olur."
+        },
+        {
+          "prompt": "Benu Temim …",
+          "options": [
+            "ma ve la'yı hiç amel ettirmez",
+            "onları her zaman amel ettirir",
+            "yalnız la'yı amel ettirir",
+            "yalnız ma'yı amel ettirir"
+          ],
+          "explanation": "Amel ettirmek Hicaz lehçesidir."
+        },
+        {
+          "prompt": "Şairin beytinde haramü merfudur, çünkü …",
+          "options": [
+            "mübtedadır",
+            "söyleyen Temim'dendir",
+            "illa'dan sonra gelir",
+            "önce gelir"
+          ],
+          "explanation": "Nahvi soyunu söyledi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The ism": "İsim",
+          "Its state": "Durumu",
+          "The book's example": "Kitabın örneği",
+          "indefinite, muḍāf": "nekre, muzaf",
+          "naṣb": "nasb",
+          "like a muḍāf": "muzafa benzeyen",
+          "single indefinite": "müfred nekre",
+          "built on fatḥa": "fetha üzere mebni",
+          "definite: lā repeated": "ma'rife: la tekrarlanır",
+          "rafʿ": "ref'",
+          "separated: lā repeated": "ayrılmış: la tekrarlanır",
+          "dropped": "hazfedilmiş",
+          "understood": "takdir edilir"
+        },
+        "caption": "Cins la'sının ismi (s. 35–36)"
+      },
       "text": [
         "Fasıl. Kane ve kardeşlerinin haberi: bunlar başına geldikten sonra kendisiyle isnad edilendir; kane Zeydün ka'imen “Zeyd ayakta idi” gibi. Hükmü mübtedanın haberinin hükmü gibidir; ancak mübtedanın [haberinin] aksine, ma'rife olsa da isminden önce getirilebilir; kane'l-ka'ime Zeydün “ayakta olan Zeyd idi” gibi. Fasıl. İnne ve kardeşlerinin ismi: bunlar başına geldikten sonra kendisine isnad edilendir; inne Zeyden ka'imün “muhakkak Zeyd ayaktadır” gibi.",
         "Fasıl. La-yı nefy-i cinsin nasbettiği isim: la başına geldikten sonra, ona bitişik muzaf bir nekre olarak kendisine isnad edilendir; la ğulame raculin fi'd-dari “evde hiçbir adamın kölesi yok” gibi; ya da muzafa benzeyen olarak, la 'işrine dirhemen fi'l-kisi “kesede yirmi dirhem yok” gibi. La'dan sonra müfred bir nekre bulunursa fetha üzere mebnidir; la racule fi'd-dari “evde hiçbir adam yok” gibi.",
@@ -686,6 +3100,135 @@
       ]
     },
     "24": {
+      "title": "Mecrur: muzafun ileyh; ma'nevi ve lafzi izafet",
+      "body": [
+        "Üçüncü maksad kısadır: “mecrur isimler yalnız muzafun ileyhtir”. Kitap bu terimi Kafiye gibi geniş alır: o, “kendisine bir cer harfi vasıtasıyla bir şeyin nispet edildiği her isimdir”; harf ya açıktır, merartü bi-Zeydin, buna ıstılahta carr ve mecrur denir; ya da takdiridir, ğulamü Zeydin, “aslı ğulamün li-Zeydin olan”, buna ıstılahta muzaf ve muzafun ileyh denir. Böylece cer harfleri ve izafet, iki yandan görülen tek bir konudur.",
+        "Muzaf tenvininden, “ya da onun yerini tutan şeyden, tesniye ve cem' nunundan” soyulmalıdır: ğulamü Zeydin, ğulama Zeydin, müslimu Misra (6. ders).",
+        "İzafet iki çeşittir. Ma'nevi izafet, muzafın kendi ma'mulüne muzaf edilmiş bir sıfat olmadığı her izafettir. Lam ma'nasında olur, ğulamü Zeydin, “Zeyd'e ait bir köle”; ya da min ma'nasında, hatemü fiddatin, “gümüşten bir yüzük”, ikincisi birincinin yapıldığı madde olunca; ya da fi ma'nasında, salatu'l-leyli, “gecedeki namaz”. Muzafun ileyh ma'rife ise muzafa ta'rif verir, ğulamü Zeydin; nekre ise tahsis verir, ğulamü raculin, “bir adamın kölesi”: bilinen bir köle değil, ama artık herhangi bir köle de değil.",
+        "Lafzi izafet, kendi ma'mulüne muzaf edilmiş bir sıfattır: daribü Zeydin, hasenü'l-vechi. O “ayrılmış sayılır”: ma'nada yine daribün Zeyden, hasenün vechühü'dür. “Faydası yalnız lafızda hafifliktir”: bir tenvin ya da nun düşer, başka hiçbir şey değişmez. Bu yüzden daribü Zeydin nekre kalır; Kur'an böyle bir sözle bir nekreyi vasfeder: hedyen baliğa'l-ke'beti (Maide 5/95)."
+      ],
+      "terms": [
+        "bir cer harfiyle, açık ya da takdiri, kendisine bir şey nispet edilen isim",
+        "cer harfi ve onun amel ettiği isim (carr ve mecrur)",
+        "ma'nevi izafet: ta'rif ya da tahsis",
+        "lafzi izafet: ma'mulüyle bir sıfat, yalnız hafiflik"
+      ],
+      "examples": [
+        "carr ve mecrur: harf açık",
+        "muzaf ve muzafun ileyh: ğulamün li-Zeydin",
+        "min ma'nasında izafet",
+        "fi ma'nasında izafet",
+        "lafzi izafet"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her ma'nevi izafetin ma'nasını verin: ğulamü Zeydin; hatemü fiddatin; salatu'l-leyli.",
+          "answer": "Ğulamü Zeydin: lam, ğulamün li-Zeydin, “Zeyd'e ait bir köle”. Hatemü fiddatin: min, “gümüşten bir yüzük”. Salatu'l-leyli: fi, “gecedeki namaz”."
+        },
+        {
+          "prompt": "Ğulamü Zeydin neden ma'rife olur da daribü Zeydin olmaz?",
+          "answer": "Ğulamü Zeydin ma'nevi izafettir; muzafun ileyh ma'rife olunca muzafı ma'rife yapar. Daribü Zeydin lafzi izafettir, ma'mulüyle bir sıfattır; ayrılmış sayılır (daribün Zeyden) ve yalnız hafiflik verir, bu yüzden nekre kalır."
+        },
+        {
+          "prompt": "Her birini izafete koyun: ğulamani li-Zeydin; müslimune min Misra.",
+          "answer": "Ğulama Zeydin ve müslimu Misra: tenvinin yerini tutan tesniye ve cem' nunu izafette düşer."
+        },
+        {
+          "prompt": "Kitap mecrurları nasıl sayar ve hangi iki terkibi tek başlık altına koyar?",
+          "answer": "Yalnız bir mecrur, muzafun ileyh. Altına açık bir cer harfinden sonraki isim (carr ve mecrur, merartü bi-Zeydin) ile takdiri bir cer harfinden sonraki isim (muzaf ve muzafun ileyh, ğulamü Zeydin) girer."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Kitap mecrur isimleri … sayar.",
+          "options": [
+            "yalnız muzafun ileyh olarak",
+            "iki",
+            "beş",
+            "on iki"
+          ],
+          "explanation": "Cer harfi açık ya da takdiri."
+        },
+        {
+          "prompt": "Ğulamü Zeydin'in aslı …",
+          "options": [
+            "ğulamün min Zeydin",
+            "ğulamün li-Zeydin",
+            "ğulamün fi Zeydin",
+            "ğulamün Zeydün"
+          ],
+          "explanation": "Takdiri bir lam."
+        },
+        {
+          "prompt": "Muzaf … soyulmalıdır.",
+          "options": [
+            "yalnız lamdan",
+            "harekesinden",
+            "tenvinden ve tesniye ile cem' nunundan",
+            "i'rabından"
+          ],
+          "explanation": "Ğulama Zeydin, müslimu Misra."
+        },
+        {
+          "prompt": "Hatemü fiddatin … ma'nasındadır.",
+          "options": [
+            "lam",
+            "fi",
+            "maa",
+            "min"
+          ],
+          "explanation": "Gümüşten bir yüzük."
+        },
+        {
+          "prompt": "Nekreye ma'nevi izafet … verir.",
+          "options": [
+            "tahsis",
+            "ta'rif",
+            "yalnız hafiflik",
+            "hiçbir şey"
+          ],
+          "explanation": "Ğulamü raculin."
+        },
+        {
+          "prompt": "Lafzi izafet …",
+          "options": [
+            "lam ma'nasındaki her izafettir",
+            "ma'mulüne muzaf edilmiş bir sıfattır",
+            "bir zamire izafettir",
+            "fi ma'nasındaki izafettir"
+          ],
+          "explanation": "Daribü Zeydin, hasenü'l-vechi."
+        },
+        {
+          "prompt": "Lafzi izafetin faydası …",
+          "options": [
+            "ta'riftir",
+            "tahsistir",
+            "yalnız lafızda hafifliktir",
+            "te'kiddir"
+          ],
+          "explanation": "Bu yüzden daribü Zeydin nekre kalır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Kind": "Çeşit",
+          "Sense": "Ma'na",
+          "The book's example": "Kitabın örneği",
+          "It gives": "Verdiği",
+          "of meaning": "ma'nevi",
+          "the lām": "lam",
+          "definiteness": "ta'rif",
+          "min": "min",
+          "particularity": "tahsis",
+          "fī": "fi",
+          "of meaning, to an indefinite": "ma'nevi, nekreye",
+          "of wording": "lafzi",
+          "taken as separated": "ayrılmış sayılır",
+          "lightness only": "yalnız hafiflik"
+        },
+        "caption": "İzafetin iki çeşidi (s. 37)"
+      },
       "text": [
         "Mecrur isimler yalnız muzafun ileyhtir: o, kendisine söylenen bir cer harfi vasıtasıyla bir şeyin nispet edildiği her isimdir; merartü bi-Zeydin “Zeyd'e uğradım” gibi —ıstılahta bu terkip cer ve mecrur diye anılır—, ya da takdir edilen bir cer harfi vasıtasıyla, ğulamü Zeydin “Zeyd'in kölesi” gibi, aslı ğulamün li-Zeydin “Zeyd'e ait bir köle”dir —ıstılahta muzaf ve muzafun ileyh diye anılır—. Muzafın tenvinden veya onun yerini tutan şeyden, yani tesniye ve cem' nunundan soyulması gerekir; ca'eni ğulamü Zeydin “bana Zeyd'in kölesi geldi”, ve ğulama Zeydin “ve Zeyd'in iki kölesi”, ve müslimu Misra “ve Mısır Müslümanları” gibi.",
         "Bil ki izafet iki çeşittir: ma'neviyye ve lafziyye. Ma'nevi izafet, muzafın ma'mulüne izafe edilmiş bir sıfat olmamasıdır. O ya lam ma'nasındadır, ğulamü Zeydin “Zeyd'in kölesi” gibi; ya min ma'nasında, hatemü fiddatin “gümüşten yüzük” gibi; ya da fi ma'nasında, salatu'l-leyli “gece namazı” gibi. Bu izafetin faydası, muzafın, geçtiği gibi bir ma'rifeye izafe edilirse ma'rife, bir nekreye izafe edilirse hususi olmasıdır; ğulami raculin “bir adamın kölesi” gibi.",

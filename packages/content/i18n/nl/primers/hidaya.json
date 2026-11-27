@@ -504,6 +504,3102 @@
      "the place of the iʿrāb": "de plaats van de i'rab"
     }
    }
+  },
+  "5": {
+   "title": "De soorten i'rab van het naamwoord, een tot vier",
+   "body": [
+    "De i'rab van het naamwoord komt in negen soorten (asnaf): negen reeksen kentekens, elk bij een klasse van naamwoorden. Om een naamwoord te ontleden moet een student eerst zijn klasse kennen; dan kent hij zijn kentekens. De eerste soort is de eenvoudigste: raf' door de damma, nasb door de fatha, jarr door de kasra. Ze hoort bij het enkelvoud dat munsarif en gaaf is, “dat geen zwakke letter aan zijn eind heeft”, zoals Zayd; bij “wat als het gave loopt”, een woord dat eindigt op waw of ya' na een sukun, zoals dalw, “emmer”, en zaby, “gazelle”; en bij het munsarif gebroken meervoud, rijal.",
+    "Waarom nemen dalw en zaby alle drie de klinkers, terwijl een woord als al-qadi dat niet doet? Omdat de waw en de ya' na een sukun komen: ze worden even stevig uitgesproken als elke medeklinker, en een klinker erop is niet zwaar. Een zwakke letter na een klinker is een andere zaak (les 6).",
+    "De tweede soort: raf' door de damma, nasb en jarr door de kasra. Ze hoort bij het gave vrouwelijk meervoud: hunna muslimatun, ra'aytu muslimatin, marartu bi-muslimatin. De derde: raf' door de damma, nasb en jarr door de fatha, voor de diptoot (ghayr al-munsarif): ja'ani 'Umaru, ra'aytu 'Umara, marartu bi-'Umara. Elk neemt maar twee klinkers voor drie toestanden, maar in tegengestelde richting.",
+    "De vierde: raf' door de waw, nasb door de alif, jarr door de ya'. Ze hoort bij de zes naamwoorden, op drie voorwaarden: geen verkleinwoord, enkelvoud, en mudaf aan iets anders dan de ya' van de spreker. Het zijn akhuka, abuka, hanuka, hamuki (haar schoonvader, daarom is de kaf vrouwelijk), fuka en dhu malin: ja'ani akhuka, ra'aytu akhaka, marartu bi-akhika. Breek een voorwaarde en de letters verdwijnen: ubayy, een verkleinwoord, en akhawani, een tweevoud, nemen andere kentekens, en abi, “mijn vader”, neemt er geen."
+   ],
+   "terms": [
+    "het enkelvoud, volledig verbogen, zonder zwakke letter aan zijn eind",
+    "wat als het gave loopt: waw of ya' na een sukun",
+    "de diptoot: de fatha voor nasb en jarr",
+    "de zes naamwoorden, met waw, alif en ya'"
+   ],
+   "examples": [
+    "de eerste soort in raf'",
+    "het gave vrouwelijk meervoud",
+    "de diptoot",
+    "een van de zes naamwoorden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de klasse van elk naamwoord en zijn kenteken in de getoonde toestand: ra'aytu zabyan; marartu bi-muslimatin; ra'aytu 'Umara; ja'ani abuka.",
+     "answer": "Zabyan: loopt als het gave (ya' na sukun), nasb door de fatha. Muslimatin: gaaf vrouwelijk meervoud, jarr door de kasra. 'Umara: diptoot, nasb door de fatha. Abuka: een van de zes naamwoorden, raf' door de waw."
+    },
+    {
+     "prompt": "Waarom neemt dalw alle drie de klinkers?",
+     "answer": "Zijn waw komt na een sukun, dus hij loopt als een gave letter en een klinker erop is niet zwaar. Zo'n naamwoord neemt de eerste soort i'rab, zoals Zayd."
+    },
+    {
+     "prompt": "Noem de zes naamwoorden zoals het boek ze geeft, en hun drie voorwaarden.",
+     "answer": "Akhuka, abuka, hanuka, hamuki, fuka en dhu malin. Ze mogen geen verkleinwoord zijn, moeten enkelvoud zijn, en moeten mudaf zijn aan iets anders dan de ya' van de spreker."
+    },
+    {
+     "prompt": "Vergelijk het gave vrouwelijk meervoud en de diptoot.",
+     "answer": "Beide hebben maar twee kentekens voor drie toestanden. Het gave vrouwelijk meervoud neemt de damma in raf' en de kasra in nasb en jarr; de diptoot neemt de damma in raf' en de fatha in nasb en jarr."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel soorten i'rab van het naamwoord telt het boek?",
+     "options": [
+      "drie",
+      "negen",
+      "zes",
+      "tien"
+     ],
+     "explanation": "Negen reeksen kentekens."
+    },
+    {
+     "prompt": "Zaby neemt de eerste soort omdat…",
+     "options": [
+      "het een gebroken meervoud is",
+      "het een diptoot is",
+      "zijn ya' na een sukun komt",
+      "het mudaf is"
+     ],
+     "explanation": "Het loopt als het gave."
+    },
+    {
+     "prompt": "Het gave vrouwelijk meervoud neemt in nasb…",
+     "options": [
+      "de fatha",
+      "de ya'",
+      "de alif",
+      "de kasra"
+     ],
+     "explanation": "Ra'aytu muslimatin."
+    },
+    {
+     "prompt": "'Umar neemt in jarr…",
+     "options": [
+      "de fatha",
+      "de kasra",
+      "de ya'",
+      "de tanwin"
+     ],
+     "explanation": "Het is een diptoot: marartu bi-'Umara."
+    },
+    {
+     "prompt": "Welke is GEEN van de zes naamwoorden?",
+     "options": [
+      "akh",
+      "ibn",
+      "ham",
+      "dhu"
+     ],
+     "explanation": "Akh, ab, han, ham, fam, dhu."
+    },
+    {
+     "prompt": "Hamuki heeft een vrouwelijke kaf omdat ham is…",
+     "options": [
+      "een vrouwelijk naamwoord",
+      "een meervoud",
+      "de schoonvader van een vrouw",
+      "een verkleinwoord"
+     ],
+     "explanation": "De verwanten van de man van een vrouw."
+    },
+    {
+     "prompt": "In ra'aytu akhaka is het kenteken van nasb…",
+     "options": [
+      "de fatha",
+      "de ya'",
+      "de kaf",
+      "de alif"
+     ],
+     "explanation": "De zes naamwoorden: waw, alif, ya'."
+    }
+   ],
+   "diagram": {
+    "caption": "De eerste vier soorten i'rab van het naamwoord (blz. 8–9)",
+    "labels": {
+     "Class": "Klasse",
+     "Rafʿ": "Raf'",
+     "Naṣb": "Nasb",
+     "Jarr": "Jarr",
+     "sound singular": "gaaf enkelvoud",
+     "runs like the sound": "loopt als het gave",
+     "broken plural": "gebroken meervoud",
+     "sound feminine plural": "gaaf vrouwelijk meervoud",
+     "diptote": "diptoot",
+     "the six nouns": "de zes naamwoorden"
+    }
+   }
+  },
+  "6": {
+   "title": "De soorten i'rab, vijf tot negen: tweevoud, meervoud, veronderstelde kentekens",
+   "body": [
+    "De vijfde soort: raf' door de alif, nasb en jarr door “de ya' met een fatha ervoor”. Ze hoort bij het tweevoud, bij kila als mudaf aan een voornaamwoord, en bij ithnani en ithnatani: ja'ani al-rajulani kilahuma, ra'aytu al-rajulayni kilayhima. De zesde: raf' door de waw met een damma ervoor, nasb en jarr door de ya' met een kasra ervoor, voor het gave mannelijk meervoud, voor ulu, en voor 'ishruna en zijn zusters: muslimuna, muslimina. Let op hoe de klinker voor de ya' in nasb en jarr het tweevoud van het meervoud onderscheidt: muslimayni, twee; muslimina, velen.",
+    "De nun van het tweevoud “heeft altijd een kasra”, en de nun van het gave meervoud “heeft altijd een fatha”, en beide vallen weg in de idafa: ja'ani ghulama Zaydin, muslimu Misra. In een boek zonder klinkertekens herkent een lezer zo een tweevoud of meervoud in idafa: het heeft zijn nun verloren.",
+    "De zevende soort heeft al haar kentekens verondersteld: raf' door een veronderstelde damma, nasb door een veronderstelde fatha, jarr door een veronderstelde kasra. Ze hoort bij de maqsur, een naamwoord dat eindigt op een korte alif, 'asan, “een stok”, en bij een naamwoord dat mudaf is aan de ya' van de spreker, behalve het gave mannelijk meervoud: ghulami. Hadha 'asan wa-ghulami, ra'aytu 'asan wa-ghulami, marartu bi-'asan wa-ghulami: de woorden veranderen nooit.",
+    "De achtste: raf' en jarr verondersteld, nasb door de fatha, “hoorbaar”. Ze hoort bij de manqus, een naamwoord dat eindigt op een ya' met een kasra ervoor: ja'ani al-qadi, ra'aytu al-qadiya, marartu bi-l-qadi. De lichte fatha kan op de ya' worden uitgesproken; de damma en de kasra zijn daar zwaar en blijven onuitgesproken.",
+    "De negende: raf' door een veronderstelde waw, nasb en jarr door de ya', hoorbaar, voor het gave mannelijk meervoud dat mudaf is aan de ya' van de spreker: ja'ani muslimiyya. Het boek laat zien hoe de vorm ontstond: de oorsprong is muslimuya; “de waw en de ya' kwamen samen, de eerste ervan zonder klinker, dus werd de waw in een ya' veranderd, werd de ya' in de ya' samengetrokken, en werd de damma door een kasra vervangen om bij de ya' te passen”. Dit is een regel van de sarf aan het werk binnen een regel van de nahw."
+   ],
+   "terms": [
+    "het tweevoud: alif in raf', ya' met een fatha ervoor in nasb en jarr",
+    "het gave mannelijk meervoud: waw, en ya' met een kasra ervoor",
+    "een naamwoord op een korte alif: alle kentekens verondersteld",
+    "een naamwoord op ya' na een kasra: raf' en jarr verondersteld"
+   ],
+   "examples": [
+    "het tweevoud en kila met een voornaamwoord",
+    "de nun weggevallen in de idafa",
+    "alle kentekens verondersteld",
+    "de manqus: nasb hoorbaar",
+    "raf' door een veronderstelde waw: muslimuya"
+   ],
+   "tasks": [
+    {
+     "prompt": "Onderscheid het tweevoud van het meervoud en geef de toestand: muslimayni; muslimina; muslimu Misra.",
+     "answer": "Muslimayni: tweevoud (fatha voor de ya', kasra op de nun), nasb of jarr. Muslimina: gaaf meervoud (kasra voor de ya', fatha op de nun), nasb of jarr. Muslimu Misra: gaaf meervoud in raf', zijn nun weggevallen in de idafa."
+    },
+    {
+     "prompt": "Geef de i'rab van 'asan in ra'aytu 'asan en van al-qadi in ra'aytu al-qadiya.",
+     "answer": "'Asan is de maf'ul bihi, in nasb door een veronderstelde fatha: het is maqsur, en al zijn kentekens zijn verondersteld. Al-qadiya is de maf'ul bihi, in nasb door de fatha die op de ya' wordt uitgesproken: bij de manqus is de nasb hoorbaar."
+    },
+    {
+     "prompt": "Leg uit, zoals het boek doet, hoe muslimuya tot muslimiyya werd.",
+     "answer": "De waw (van het meervoud) en de ya' (van de spreker) kwamen samen, de eerste zonder klinker; de waw werd in een ya' veranderd en in de ya' samengetrokken, en de damma ervoor werd een kasra om bij de ya' te passen: muslimiyya."
+    },
+    {
+     "prompt": "Waarom is ghulami in alle drie de toestanden gelijk?",
+     "answer": "Het is mudaf aan de ya' van de spreker, die een kasra voor zich nodig heeft. Die kasra neemt de plaats van elk kenteken in, dus alle drie zijn verondersteld: de zevende soort."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het tweevoud neemt in nasb…",
+     "options": [
+      "de ya' met een kasra ervoor",
+      "de alif",
+      "de ya' met een fatha ervoor",
+      "de fatha"
+     ],
+     "explanation": "Ra'aytu al-rajulayni."
+    },
+    {
+     "prompt": "Kila heeft de kentekens van het tweevoud wanneer het mudaf is aan…",
+     "options": [
+      "een zichtbaar naamwoord",
+      "een tweevoud",
+      "niets",
+      "een voornaamwoord"
+     ],
+     "explanation": "Kilahuma, kilayhima."
+    },
+    {
+     "prompt": "De nun van het gave meervoud heeft altijd…",
+     "options": [
+      "een fatha",
+      "een kasra",
+      "een damma",
+      "een sukun"
+     ],
+     "explanation": "De nun van het tweevoud heeft altijd een kasra."
+    },
+    {
+     "prompt": "In ja'ani ghulama Zaydin is de nun van het tweevoud…",
+     "options": [
+      "verborgen",
+      "weggevallen voor de idafa",
+      "een kasra",
+      "in een ya' veranderd"
+     ],
+     "explanation": "Beide nuns vallen weg in de idafa."
+    },
+    {
+     "prompt": "'Asan in hadha 'asan is in raf' door…",
+     "options": [
+      "de damma",
+      "de alif",
+      "een veronderstelde damma",
+      "de tanwin"
+     ],
+     "explanation": "De maqsur: al zijn kentekens verondersteld."
+    },
+    {
+     "prompt": "Welke toestand van de manqus is hoorbaar?",
+     "options": [
+      "raf'",
+      "jarr",
+      "geen",
+      "nasb"
+     ],
+     "explanation": "Ra'aytu al-qadiya."
+    },
+    {
+     "prompt": "In ja'ani muslimiyya is de raf' door…",
+     "options": [
+      "een veronderstelde waw",
+      "de ya'",
+      "de damma",
+      "de kasra"
+     ],
+     "explanation": "Zijn oorsprong is muslimuya."
+    }
+   ],
+   "diagram": {
+    "caption": "De soorten i'rab vijf tot negen (blz. 9–11)",
+    "labels": {
+     "Class": "Klasse",
+     "Rafʿ": "Raf'",
+     "Naṣb": "Nasb",
+     "Jarr": "Jarr",
+     "dual": "tweevoud",
+     "kilā with a pronoun": "kila met een voornaamwoord",
+     "sound masculine plural": "gaaf mannelijk meervoud",
+     "maqṣūr": "maqsur",
+     "with the yāʾ of the speaker": "met de ya' van de spreker",
+     "manqūṣ": "manqus",
+     "plural with that yāʾ": "meervoud met die ya'"
+    }
+   }
+  },
+  "7": {
+   "title": "Het munsarif naamwoord en de diptoot; de 'adl, het bijvoeglijk naamwoord, het vrouwelijke",
+   "body": [
+    "Het mu'rab naamwoord is van twee soorten. Het munsarif, volledig verbogen, “waarin niet twee van de negen oorzaken zijn, en ook niet één die op de plaats van twee staat”, zoals Zayd; het neemt de drie klinkers met tanwin. De diptoot (ghayr munsarif) heeft twee oorzaken, of één die voor twee staat; “de kasra en de tanwin komen er niet in”, en in jarr heeft hij de fatha: ja'ani Ahmadu, ra'aytu Ahmada, marartu bi-Ahmada. De negen oorzaken zijn de 'adl, het bijvoeglijk naamwoord zijn, het vrouwelijke, de bepaaldheid, de vreemde herkomst, het meervoud, de samenstelling, de toegevoegde alif en nun, en het patroon van het werkwoord; studenten leren ze uit het hoofd in een kort vers.",
+    "De 'adl is “de verandering van het woord van zijn oorspronkelijke vorm naar een andere vorm, werkelijk of verondersteld”. Hij komt samen met het eigennaam zijn, zoals in 'Umar en Zufar, en met het bijvoeglijk naamwoord zijn, zoals in thulath en mathlath, “drie aan drie”, ukhar en juma'; hij komt nooit samen met het patroon van het werkwoord. De commentatoren verklaren “verondersteld”: in 'Umar is geen oorspronkelijke vorm gehoord, maar de Arabieren behandelen het als diptoot, dus wordt een verandering van 'Amir verondersteld; in thulath is de verandering van thalathatan thalathatan werkelijk.",
+    "Het bijvoeglijk naamwoord zijn komt nooit samen met het eigennaam zijn, en het telt alleen als het woord een bijvoeglijk naamwoord was “in zijn oorspronkelijke vastlegging”. Zo blijven aswad, “zwart”, en arqam, “gespikkeld”, diptoten, ook wanneer ze namen voor de slang worden, terwijl arba' in marartu bi-niswatin arba'in, “vier vrouwen”, verbogen wordt, al is het een bijvoeglijk naamwoord op het patroon van het werkwoord: het werd vastgelegd als getal, niet als bijvoeglijk naamwoord.",
+    "Het vrouwelijke met de ta' telt alleen in een eigennaam, zoals Talha; zo ook het vrouwelijke naar de betekenis, zonder geschreven ta'. Een vrouwelijk woord naar de betekenis dat drieletterig is, met een sukun in het midden en niet vreemd, mag verbogen worden of niet, “vanwege zijn lichtheid”: Hind. Anders moet het een diptoot zijn: Zaynab, met vier letters; Saqar, met een klinker in het midden; Mah en Jur, vreemde namen.",
+    "Het vrouwelijke met een alif, kort zoals in hubla of lang zoals in hamra', wordt nooit verbogen, “omdat de alif op de plaats van twee oorzaken staat: het vrouwelijke en zijn vastzitten aan het woord”. Een ta' kan eraf gehaald worden (qa'im, qa'ima); de alif van hubla niet."
+   ],
+   "terms": [
+    "de negen oorzaken die van een naamwoord een diptoot maken",
+    "de verandering van een woord van zijn oorspronkelijke vorm",
+    "bijvoeglijk naamwoord in de oorspronkelijke vastlegging",
+    "het vrouwelijke naar de betekenis, zonder geschreven ta'"
+   ],
+   "examples": [
+    "een diptoot: de fatha in jarr",
+    "'adl met het bijvoeglijk naamwoord: “drie aan drie”",
+    "van oorsprong geen bijvoeglijk naamwoord: verbogen",
+    "het vrouwelijke naar de betekenis dat een diptoot moet zijn",
+    "de vrouwelijke alif: nooit verbogen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de twee oorzaken van elke diptoot: 'Umar; Talha; Zaynab; ukhar.",
+     "answer": "'Umar: de 'adl en het eigennaam zijn. Talha: het vrouwelijke (met de ta') en het eigennaam zijn. Zaynab: het vrouwelijke (naar de betekenis) en het eigennaam zijn. Ukhar: de 'adl en het bijvoeglijk naamwoord zijn."
+    },
+    {
+     "prompt": "Waarom is aswad een diptoot, ook als naam voor de slang, terwijl arba' in niswatin arba'in verbogen wordt?",
+     "answer": "Aswad werd vastgelegd als bijvoeglijk naamwoord, “zwart”, en houdt die oorzaak samen met het patroon van het werkwoord. Arba' werd vastgelegd als getal; zijn gebruik als bijvoeglijk naamwoord is niet oorspronkelijk, dus het heeft maar één oorzaak, het patroon, en wordt verbogen."
+    },
+    {
+     "prompt": "Waarom mag Hind verbogen worden, maar Saqar niet?",
+     "answer": "Beide zijn eigennamen en vrouwelijk naar de betekenis. Hind is drieletterig met een sukun in het midden en niet vreemd: het is licht, dus beide zijn toegestaan. Saqar heeft een klinker in het midden, dus het moet een diptoot zijn."
+    },
+    {
+     "prompt": "Hoe staat één alif voor twee oorzaken in hubla?",
+     "answer": "De alif markeert het vrouwelijke, en hij zit vast aan het woord: hij kan er nooit af gehaald worden zoals een ta'. Het vrouwelijke en zijn vastzitten tellen als twee oorzaken."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Een diptoot heeft…",
+     "options": [
+      "één oorzaak",
+      "geen oorzaak",
+      "drie oorzaken",
+      "twee oorzaken, of één die voor twee staat"
+     ],
+     "explanation": "Van de negen oorzaken."
+    },
+    {
+     "prompt": "De diptoot neemt in jarr…",
+     "options": [
+      "de fatha",
+      "de kasra",
+      "de damma",
+      "de tanwin"
+     ],
+     "explanation": "Marartu bi-Ahmada."
+    },
+    {
+     "prompt": "De 'adl komt nooit samen met…",
+     "options": [
+      "de eigennaam",
+      "het patroon van het werkwoord",
+      "het bijvoeglijk naamwoord",
+      "het meervoud"
+     ],
+     "explanation": "Hij komt samen met de naam en het bijvoeglijk naamwoord."
+    },
+    {
+     "prompt": "Mathlath betekent…",
+     "options": [
+      "de derde",
+      "drie",
+      "drie aan drie",
+      "een driehoek"
+     ],
+     "explanation": "'Adl met het bijvoeglijk naamwoord, zoals thulath."
+    },
+    {
+     "prompt": "Arba' in niswatin arba'in wordt verbogen omdat…",
+     "options": [
+      "het een eigennaam is",
+      "het vrouwelijk is",
+      "het een meervoud is",
+      "het van oorsprong geen bijvoeglijk naamwoord is"
+     ],
+     "explanation": "Het werd vastgelegd als getal."
+    },
+    {
+     "prompt": "Welke vrouwelijke naam mag verbogen worden of niet?",
+     "options": [
+      "Hind",
+      "Zaynab",
+      "Saqar",
+      "Talha"
+     ],
+     "explanation": "Drieletterig, sukun in het midden, niet vreemd."
+    },
+    {
+     "prompt": "Hamra' wordt nooit verbogen omdat zijn alif…",
+     "options": [
+      "vreemd is",
+      "voor twee oorzaken staat",
+      "een naam is",
+      "een meervoud is"
+     ],
+     "explanation": "Het vrouwelijke en zijn vastzitten."
+    }
+   ],
+   "diagram": {
+    "caption": "De 'adl, het bijvoeglijk naamwoord en het vrouwelijke (blz. 12–13)",
+    "labels": {
+     "Cause": "Oorzaak",
+     "Comes with": "Komt samen met",
+     "The book's example": "Het voorbeeld van het boek",
+     "ʿadl": "'adl",
+     "the proper name": "de eigennaam",
+     "the adjective": "het bijvoeglijk naamwoord",
+     "adjective in origin": "bijvoeglijk van oorsprong",
+     "the verb's pattern": "het patroon van het werkwoord",
+     "not an adjective in origin": "niet bijvoeglijk van oorsprong",
+     "declined": "verbogen",
+     "feminine with the tāʾ": "vrouwelijk met de ta'",
+     "feminine by meaning, light": "vrouwelijk naar de betekenis, licht",
+     "the name: either way": "de naam: beide kan",
+     "feminine by meaning, heavier": "vrouwelijk naar de betekenis, zwaarder",
+     "the name: diptote": "de naam: diptoot",
+     "the feminine alif": "de vrouwelijke alif",
+     "alone: two causes": "alleen: twee oorzaken"
+    }
+   }
+  },
+  "8": {
+   "title": "De overige oorzaken; wanneer een diptoot verbogen wordt",
+   "body": [
+    "Van de bepaaldheid “telt alleen het eigennaam zijn”, en die kan samengaan met elke oorzaak behalve het bijvoeglijk naamwoord. De vreemde herkomst telt wanneer het woord in de vreemde taal een eigennaam was en meer dan drie letters heeft, Ibrahim, of drie met een klinker in het midden, Shatar. Zo wordt lijam, “teugel”, verbogen, omdat het geen naam is, en wordt Nuh verbogen, omdat zijn middelste letter een sukun heeft.",
+    "Het meervoud telt wanneer het op “het patroon van het uiterste meervoud” (sighat muntaha al-jumu') staat: na de alif van het meervoud twee letters, masajid; een verdubbelde letter, dawabb; of drie letters met een sukun in het midden, masabih; en het mag de ha' (de lichte h) niet aannemen, dus farazina wordt verbogen. Dit meervoud staat voor twee oorzaken, “het meervoud zijn en zijn vastheid”: het kan nooit opnieuw tot een gebroken meervoud gemaakt worden, “dus het is alsof het twee keer meervoud gemaakt is”.",
+    "De samenstelling telt in een eigennaam “zonder idafa en zonder toeschrijving”: Ba'labakk. Zo wordt 'Abd Allah, een samenstelling door idafa, verbogen; Ma'di Karib is een diptoot; en Shaba qarnaha, een naam gemaakt van een hele zin, is gebouwd. De toegevoegde alif en nun tellen in een naamwoord wanneer het een eigennaam is, 'Imran, 'Uthman, maar niet in sa'dan, een plant; in een bijvoeglijk naamwoord wanneer er geen vrouwelijke vorm op fa'lana is: sakran is een diptoot, nadman wordt verbogen omdat nadmana bestaat.",
+    "Het patroon van het werkwoord telt wanneer het patroon alleen bij het werkwoord hoort en in naamwoorden alleen voorkomt als overgenomen van het werkwoord, zoals namen als Shammara en Duriba; of wanneer het woord begint met een voorvoegsel van de mudari' en de ha' niet aanneemt: Ahmad, Yashkur, Taghlib, Narjis. Ya'mal wordt verbogen, omdat het de ha' aanneemt: naqatun ya'malatun, “een hardwerkende kamelin”.",
+    "Twee regels besluiten de inleiding. Een diptoot onder wiens oorzaken het eigennaam zijn is, wordt verbogen wanneer hij onbepaald gemaakt wordt: de diptoten waarvan de oorzaken de naam nodig hebben, verliezen al hun oorzaken, en de naam met 'adl en de naam op het patroon van het werkwoord houden er maar één over. Ja'ani Talhatu wa-Talhatun akharu, “Talha kwam, en een andere Talha”. En elke diptoot neemt de kasra wanneer hij mudaf is of de lam neemt: marartu bi-Ahmadikum, wa-bi-l-ahmadi."
+   ],
+   "terms": [
+    "de vreemde herkomst: een naam in een andere taal",
+    "het patroon van het uiterste meervoud: masajid, masabih",
+    "de samenstelling: twee woorden tot één naam gemaakt",
+    "het patroon van het werkwoord"
+   ],
+   "examples": [
+    "vreemd: boven drie letters een diptoot; drie met een sukun verbogen",
+    "de drie vormen van het uiterste meervoud",
+    "de toegevoegde alif en nun in bijvoeglijke naamwoorden",
+    "onbepaald gemaakt: verbogen",
+    "mudaf of met de lam: de kasra"
+   ],
+   "tasks": [
+    {
+     "prompt": "Diptoot of verbogen, en waarom? Ibrahim; lijam; Nuh; masabih; farazina.",
+     "answer": "Ibrahim: diptoot (een vreemde eigennaam van meer dan drie letters). Lijam: verbogen (vreemd, maar geen eigennaam). Nuh: verbogen (drie letters met een sukun in het midden). Masabih: diptoot (het uiterste meervoud). Farazina: verbogen (het neemt de ha')."
+    },
+    {
+     "prompt": "Waarom wordt 'Abd Allah verbogen, terwijl Ba'labakk dat niet wordt?",
+     "answer": "De samenstelling telt alleen in een naam zonder idafa en zonder toeschrijving. 'Abd Allah is een samenstelling door idafa, dus het wordt verbogen (zijn eerste deel neemt de i'rab). Ba'labakk is twee woorden die één zijn gemaakt zonder idafa: een eigennaam met samenstelling, een diptoot."
+    },
+    {
+     "prompt": "Waarom is sakran een diptoot en wordt nadman verbogen?",
+     "answer": "In een bijvoeglijk naamwoord tellen de toegevoegde alif en nun alleen wanneer er geen vrouwelijke vorm op fa'lana is. Sakran heeft die niet (zijn vrouwelijke vorm is niet sakrana); nadman heeft nadmana, dus het wordt verbogen."
+    },
+    {
+     "prompt": "Verklaar daraba Ahmadu wa-Ahmadun akharu.",
+     "answer": "Ahmad als naam heeft twee oorzaken, de naam en het patroon van het werkwoord: een diptoot. “Een andere Ahmad” is onbepaald: de naam is weg, alleen het patroon blijft over, één oorzaak, dus het wordt verbogen met tanwin."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat telt van de bepaaldheid als oorzaak?",
+     "options": [
+      "alleen het eigennaam zijn",
+      "elk bepaald woord",
+      "de lam van de bepaaldheid",
+      "de idafa"
+     ],
+     "explanation": "En die gaat samen met elke oorzaak behalve het bijvoeglijk naamwoord."
+    },
+    {
+     "prompt": "Nuh wordt verbogen omdat…",
+     "options": [
+      "het niet vreemd is",
+      "zijn middelste letter een sukun heeft",
+      "het geen naam is",
+      "het een meervoud is"
+     ],
+     "explanation": "Een vreemde naam van drie letters heeft een klinker in het midden nodig om een diptoot te zijn."
+    },
+    {
+     "prompt": "Dawabb is een uiterste meervoud met…",
+     "options": [
+      "twee letters na de alif",
+      "drie letters na de alif",
+      "een verdubbelde letter na de alif",
+      "een ha'"
+     ],
+     "explanation": "Masajid, dawabb, masabih."
+    },
+    {
+     "prompt": "Shaba qarnaha, als naam, is…",
+     "options": [
+      "een diptoot",
+      "verbogen",
+      "een meervoud",
+      "gebouwd"
+     ],
+     "explanation": "Een samenstelling met toeschrijving."
+    },
+    {
+     "prompt": "Sa'dan, een plant, wordt verbogen omdat…",
+     "options": [
+      "het geen eigennaam is",
+      "het fa'lana heeft",
+      "het vreemd is",
+      "het een meervoud is"
+     ],
+     "explanation": "In een naamwoord hebben de alif en nun de naam nodig."
+    },
+    {
+     "prompt": "Ya'mal wordt verbogen omdat…",
+     "options": [
+      "het een werkwoord is",
+      "het de ha' aanneemt",
+      "het vreemd is",
+      "het een meervoud is"
+     ],
+     "explanation": "Naqatun ya'malatun."
+    },
+    {
+     "prompt": "Een diptoot neemt de kasra wanneer hij…",
+     "options": [
+      "in raf' staat",
+      "een naam is",
+      "mudaf is of de lam neemt",
+      "vrouwelijk is"
+     ],
+     "explanation": "Marartu bi-Ahmadikum, wa-bi-l-ahmadi."
+    }
+   ],
+   "diagram": {
+    "caption": "De overige oorzaken, met de voorbeelden van het boek (blz. 13–15)",
+    "labels": {
+     "Cause": "Oorzaak",
+     "Condition": "Voorwaarde",
+     "Diptote": "Diptoot",
+     "Declined": "Verbogen",
+     "foreign": "vreemd",
+     "a name there; over three letters, or a vowel in the middle": "daar een naam; meer dan drie letters, of een klinker in het midden",
+     "the plural": "het meervoud",
+     "the furthest plural, not taking the hāʾ": "het uiterste meervoud, zonder de ha'",
+     "compounding": "samenstelling",
+     "a name, no iḍāfa, no predication": "een naam, geen idafa, geen toeschrijving",
+     "alif and nūn in a noun": "alif en nun in een naamwoord",
+     "a proper name": "een eigennaam",
+     "alif and nūn in an adjective": "alif en nun in een bijvoeglijk naamwoord",
+     "no feminine on faʿlāna": "geen vrouwelijke vorm op fa'lana",
+     "the verb's pattern": "het patroon van het werkwoord",
+     "the verb's own, or a muḍāriʿ prefix without the hāʾ": "eigen aan het werkwoord, of een voorvoegsel van de mudari' zonder de ha'"
+    }
+   }
+  },
+  "9": {
+   "title": "De acht marfu' naamwoorden; de fa'il en het getal van zijn werkwoord",
+   "body": [
+    "Het eerste doel zijn de marfu' naamwoorden, en dat zijn er acht: de fa'il; “het voorwerp van een werkwoord waarvan de doener niet genoemd is” (maf'ul ma lam yusamma fa'iluhu, de naam in de Kafiya voor wat latere boeken de na'ib al-fa'il, de plaatsvervanger van de fa'il, noemen); de mubtada'; de khabar; de khabar van inna en haar zusters; het ism van kana en haar zusters; het ism van ma en la die op laysa lijken; en de khabar van de la die de hele soort ontkent. De mudari' in raf' wordt hier niet meegeteld, omdat dit deel alleen over het naamwoord gaat.",
+    "De fa'il is “elk naamwoord waarvoor een werkwoord of een bijvoeglijk naamwoord staat dat eraan wordt toegeschreven, in die zin dat de handeling in hem bestaat, niet dat ze op hem valt”. Elk deel telt. “Waarvoor”: de fa'il komt na zijn regeerder. “Een werkwoord of een bijvoeglijk naamwoord”: qama Zaydun, en ook Zaydun daribun abuhu 'Amran, waar abuhu de fa'il is van het deelwoord daribun. “Bestaat in hem, valt niet op hem”: dit sluit de plaatsvervanger uit, zoals in duriba Zaydun, waar het slaan op Zayd valt.",
+    "Let op het derde voorbeeld, ma daraba Zaydun 'Amran, “Zayd sloeg 'Amr niet”. Het slaan wordt ontkend, en toch is Zayd de fa'il: het werkwoord wordt hem nog steeds toegeschreven. Fa'il zijn is een zaak van de vorm van de zin, niet van wat er gebeurde.",
+    "“Elk werkwoord moet een marfu' fa'il hebben”: een expliciet naamwoord, dhahaba Zaydun; een zichtbaar voornaamwoord, darabtu Zaydan, waar de ta' de fa'il is; of een verborgen voornaamwoord, Zaydun dhahaba, waar de fa'il een voornaamwoord is dat in dhahaba verborgen is. Als het werkwoord overgankelijk is, heeft het ook een maf'ul bihi: daraba Zaydun 'Amran.",
+    "Met een expliciete fa'il “is het werkwoord altijd enkelvoud”: daraba Zaydun, daraba al-Zaydani, daraba al-Zayduna. Met een voornaamwoord stemt het werkwoord overeen: Zaydun daraba, al-Zaydani daraba [tweevoud], al-Zayduna darabu. De alif van daraba [tweevoud] en de waw van darabu zijn geen kentekens van het getal op het werkwoord, maar de voornaamwoorden zelf, de fa'il; een werkwoord met een expliciete fa'il heeft geen tweede nodig."
+   ],
+   "terms": [
+    "de acht marfu' naamwoorden",
+    "het naamwoord na een werkwoord of bijvoeglijk naamwoord dat eraan wordt toegeschreven, waarbij de handeling in hem bestaat",
+    "het voorwerp van een werkwoord waarvan de doener niet genoemd is: de plaatsvervanger",
+    "het overgankelijke werkwoord, dat ook een maf'ul bihi heeft"
+   ],
+   "examples": [
+    "de fa'il van een bijvoeglijk naamwoord: abuhu",
+    "een fa'il van een ontkende handeling",
+    "expliciet, zichtbaar voornaamwoord, verborgen voornaamwoord",
+    "met een voornaamwoord stemt het werkwoord overeen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek de fa'il en zeg welke soort het is: dhahaba Zaydun; darabtu Zaydan; Zaydun dhahaba; Zaydun daribun abuhu 'Amran.",
+     "answer": "Zaydun: een expliciete fa'il. De ta' van darabtu: een zichtbaar voornaamwoord. In Zaydun dhahaba: een voornaamwoord verborgen in dhahaba. Abuhu: de expliciete fa'il van het bijvoeglijk naamwoord daribun."
+    },
+    {
+     "prompt": "Waarom is Zaydun volgens de definitie van het boek niet de fa'il in duriba Zaydun?",
+     "answer": "De fa'il is degene in wie de handeling bestaat, niet op wie ze valt. In duriba Zaydun valt het slaan op Zayd; hij is het voorwerp dat op de plaats van de weggelaten fa'il is gezet."
+    },
+    {
+     "prompt": "Verbeter de fout: daraba [tweevoud] al-Zaydani; al-Zayduna daraba.",
+     "answer": "Daraba al-Zaydani: met een expliciete fa'il is het werkwoord altijd enkelvoud. Al-Zayduna darabu: met een voornaamwoord stemt het werkwoord overeen, en de waw is het voornaamwoord van het meervoud."
+    },
+    {
+     "prompt": "Noem de acht marfu' naamwoorden van het boek.",
+     "answer": "De fa'il; het voorwerp van een werkwoord waarvan de doener niet genoemd is; de mubtada'; de khabar; de khabar van inna en haar zusters; het ism van kana en haar zusters; het ism van ma en la die op laysa lijken; de khabar van de la die de hele soort ontkent."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel marfu' naamwoorden telt het boek?",
+     "options": [
+      "negen",
+      "acht",
+      "zeven",
+      "dertien"
+     ],
+     "explanation": "De mudari' wordt overgelaten aan het deel over het werkwoord."
+    },
+    {
+     "prompt": "In de definitie van de fa'il sluit “bestaat in hem, valt niet op hem” uit…",
+     "options": [
+      "de mubtada'",
+      "de fa'il van een bijvoeglijk naamwoord",
+      "het voorwerp waarvan de fa'il niet genoemd is",
+      "het verborgen voornaamwoord"
+     ],
+     "explanation": "In duriba Zaydun valt de handeling op Zayd."
+    },
+    {
+     "prompt": "In Zaydun daribun abuhu 'Amran is de fa'il van daribun…",
+     "options": [
+      "Zaydun",
+      "'Amran",
+      "een verborgen voornaamwoord",
+      "abuhu"
+     ],
+     "explanation": "Een bijvoeglijk naamwoord kan een fa'il hebben."
+    },
+    {
+     "prompt": "In ma daraba Zaydun 'Amran is Zaydun…",
+     "options": [
+      "de fa'il",
+      "het voorwerp",
+      "een mubtada'",
+      "niet geregeerd"
+     ],
+     "explanation": "De handeling wordt ontkend, maar het werkwoord wordt hem nog steeds toegeschreven."
+    },
+    {
+     "prompt": "In Zaydun dhahaba is de fa'il van dhahaba…",
+     "options": [
+      "Zaydun",
+      "een verborgen voornaamwoord",
+      "de alif",
+      "er is er geen"
+     ],
+     "explanation": "Elk werkwoord moet een marfu' fa'il hebben."
+    },
+    {
+     "prompt": "Met een expliciete fa'il in het tweevoud is het werkwoord…",
+     "options": [
+      "tweevoud",
+      "meervoud",
+      "enkelvoud",
+      "vrouwelijk"
+     ],
+     "explanation": "Daraba al-Zaydani."
+    },
+    {
+     "prompt": "In al-Zayduna darabu is de waw…",
+     "options": [
+      "alleen een kenteken van het meervoud",
+      "het voorwerp",
+      "de mubtada'",
+      "de fa'il, een voornaamwoord"
+     ],
+     "explanation": "Met een voornaamwoord stemt het werkwoord overeen."
+    }
+   ],
+   "diagram": {
+    "caption": "Het werkwoord en het getal van zijn fa'il (blz. 16)",
+    "labels": {
+     "Fāʿil": "Fa'il",
+     "Singular": "Enkelvoud",
+     "Dual": "Tweevoud",
+     "Plural": "Meervoud",
+     "explicit: the verb singular": "expliciet: het werkwoord enkelvoud",
+     "a pronoun: the verb agrees": "een voornaamwoord: het werkwoord stemt overeen"
+    }
+   }
+  },
+  "10": {
+   "title": "Het vrouwelijke werkwoord; de volgorde van fa'il en voorwerp; het weglaten",
+   "body": [
+    "Een echt vrouwelijk woord is “een waartegenover een mannetje staat onder de levende wezens”. Wanneer de fa'il echt vrouwelijk is, is het werkwoord “altijd vrouwelijk als je werkwoord en fa'il niet scheidt”: qamat Hindun. Als er iets tussen komt, mag je kiezen: daraba al-yawma Hindun, of darabati al-yawma Hindun. Bij een vrouwelijk woord dat niet echt vrouwelijk is, zoals al-shams, mag je kiezen, ook zonder scheiding: tala'ati al-shamsu, of tala'a al-shamsu.",
+    "Dit alles geldt wanneer het werkwoord aan een expliciet naamwoord wordt toegeschreven. Wanneer het aan een voornaamwoord wordt toegeschreven, is het “altijd vrouwelijk”: al-shamsu tala'at. Het gebroken meervoud is “zoals het vrouwelijke dat niet echt is”: qama al-rijalu, of qamati al-rijalu; en met zijn voornaamwoord, al-rijalu qamat, of al-rijalu qamu.",
+    "Volgorde. De fa'il komt normaal voor het voorwerp, en hij moet eerst komen “wanneer beide maqsur zijn en je verwarring vreest”: in daraba Musa 'Isa laat geen van beide woorden zijn i'rab zien, dus alleen de volgorde zegt wie wie sloeg. Waar niets verward wordt, mag het voorwerp eerst komen: akala al-kummathra Yahya, “Yahya at de peer”, waar de betekenis het zegt (een peer eet niet), en daraba 'Amran Zaydun, waar de i'rab het zegt.",
+    "Het weglaten. Het werkwoord mag weggelaten worden wanneer de samenhang het laat zien: Zaydun, als antwoord op man daraba, “wie sloeg?”. Werkwoord en fa'il mogen samen weggelaten worden: na'am, “ja”, als antwoord op a-qama Zaydun, staat voor qama Zaydun. En de fa'il mag weggelaten worden en het voorwerp op zijn plaats gezet, wanneer het werkwoord passief is: duriba Zaydun. Dat is het tweede van de marfu' naamwoorden (les 13)."
+   ],
+   "terms": [
+    "het echt vrouwelijke: met een mannetje ertegenover onder de levende wezens",
+    "het vrouwelijke dat niet echt is, zoals al-shams",
+    "verwarring: wanneer alleen de volgorde de fa'il laat zien",
+    "het passieve werkwoord, waarvan de fa'il is weggelaten"
+   ],
+   "examples": [
+    "een echt vrouwelijke fa'il, vast aan zijn werkwoord: het vrouwelijke verplicht",
+    "gescheiden: het mannelijke toegestaan",
+    "een vrouwelijk voornaamwoord: het vrouwelijke verplicht",
+    "beide maqsur: de fa'il moet eerst komen",
+    "geen verwarring: het voorwerp mag eerst komen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Moet het werkwoord vrouwelijk zijn? qama Hindun; tala'a al-shamsu; daraba al-yawma Hindun; al-shamsu tala'a.",
+     "answer": "Qama Hindun: fout; een echt vrouwelijke fa'il vast aan het werkwoord vraagt qamat. Tala'a al-shamsu: toegestaan; al-shams is niet echt vrouwelijk. Daraba al-yawma Hindun: toegestaan; de fa'il is gescheiden. Al-shamsu tala'a: fout; met een vrouwelijk voornaamwoord moet je tala'at zeggen."
+    },
+    {
+     "prompt": "Waarom moet Musa eerst komen in daraba Musa 'Isa, terwijl 'Amran eerst mag komen in daraba 'Amran Zaydun?",
+     "answer": "Musa en 'Isa zijn beide maqsur: hun i'rab is verondersteld, dus alleen de volgorde laat zien wie de fa'il is. In daraba 'Amran Zaydun laten de fatha en de damma het zien, dus er is geen verwarring en het voorwerp mag eerst komen."
+    },
+    {
+     "prompt": "Wat is in elk antwoord weggelaten: Zaydun, op man daraba; na'am, op a-qama Zaydun?",
+     "answer": "In Zaydun is het werkwoord weggelaten: daraba Zaydun. In na'am zijn het werkwoord en zijn fa'il samen weggelaten: na'am, qama Zaydun."
+    },
+    {
+     "prompt": "Geef de vier manieren die het boek toestaat met al-rijal.",
+     "answer": "Qama al-rijalu en qamati al-rijalu (het werkwoord ervoor, mannelijk of vrouwelijk); al-rijalu qamat en al-rijalu qamu (met zijn voornaamwoord, vrouwelijk enkelvoud of mannelijk meervoud)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Een echt vrouwelijk woord is een woord dat heeft…",
+     "options": [
+      "een ta' aan zijn eind",
+      "een alif aan zijn eind",
+      "een mannetje ertegenover onder de levende wezens",
+      "geen meervoud"
+     ],
+     "explanation": "Zoals Hind, een vrouw."
+    },
+    {
+     "prompt": "Qamat Hindun: het vrouwelijke is…",
+     "options": [
+      "alleen toegestaan",
+      "fout",
+      "alleen in poëzie verplicht",
+      "verplicht: echt vrouwelijk, vast eraan"
+     ],
+     "explanation": "Werkwoord en fa'il zijn niet gescheiden."
+    },
+    {
+     "prompt": "Met al-shams na het werkwoord mag het werkwoord zijn…",
+     "options": [
+      "mannelijk of vrouwelijk",
+      "alleen vrouwelijk",
+      "alleen mannelijk",
+      "meervoud"
+     ],
+     "explanation": "Het is niet echt vrouwelijk."
+    },
+    {
+     "prompt": "Al-shamsu tala'at moet vrouwelijk zijn omdat…",
+     "options": [
+      "de zon echt vrouwelijk is",
+      "het werkwoord aan een voornaamwoord wordt toegeschreven",
+      "het werkwoord eerst komt",
+      "het een meervoud is"
+     ],
+     "explanation": "Met een voornaamwoord is het altijd vrouwelijk."
+    },
+    {
+     "prompt": "Het gebroken meervoud wordt behandeld als…",
+     "options": [
+      "het echt vrouwelijke",
+      "het tweevoud",
+      "het vrouwelijke dat niet echt is",
+      "het gave meervoud"
+     ],
+     "explanation": "Qama of qamati al-rijalu."
+    },
+    {
+     "prompt": "De fa'il moet eerst komen wanneer…",
+     "options": [
+      "het voorwerp bepaald is",
+      "het werkwoord in de verleden tijd staat",
+      "de fa'il vrouwelijk is",
+      "beide maqsur zijn en verwarring te vrezen is"
+     ],
+     "explanation": "Daraba Musa 'Isa."
+    },
+    {
+     "prompt": "Na'am, als antwoord op a-qama Zaydun, staat voor…",
+     "options": [
+      "het werkwoord en zijn fa'il",
+      "alleen het werkwoord",
+      "alleen de fa'il",
+      "het voorwerp"
+     ],
+     "explanation": "Na'am, qama Zaydun."
+    }
+   ],
+   "diagram": {
+    "caption": "Mannelijk of vrouwelijk werkwoord (blz. 17)",
+    "labels": {
+     "Fāʿil": "Fa'il",
+     "The verb": "Het werkwoord",
+     "The book's example": "Het voorbeeld van het boek",
+     "true feminine, joined": "echt vrouwelijk, vast eraan",
+     "feminine only": "alleen vrouwelijk",
+     "true feminine, separated": "echt vrouwelijk, gescheiden",
+     "either": "beide",
+     "not a true feminine": "niet echt vrouwelijk",
+     "a feminine pronoun": "een vrouwelijk voornaamwoord",
+     "a broken plural": "een gebroken meervoud",
+     "its pronoun": "zijn voornaamwoord",
+     "feminine, or plural": "vrouwelijk, of meervoud"
+    }
+   }
+  },
+  "11": {
+   "title": "Twee werkwoorden die om één naamwoord wedijveren: de Basrische weg",
+   "body": [
+    "De tanazu' (wedijver) is wanneer twee werkwoorden voor één expliciet naamwoord staan en “elk van de twee werkwoorden dat naamwoord wil regeren”. Er zijn vier soorten. Beide willen het als fa'il: darabani wa-akramani Zaydun. Beide willen het als voorwerp: darabtu wa-akramtu Zaydan. Het eerste wil een fa'il en het tweede een voorwerp: darabani wa-akramtu Zaydan. Of omgekeerd: darabtu wa-akramani Zaydun.",
+    "In alle vier mag elk van beide werkwoorden het naamwoord regeren. Alleen al-Farra' weigert het tweede te laten regeren in de eerste en de derde soort, waar het eerste werkwoord een fa'il wil: dan zou het eerste werkwoord zijn fa'il moeten verliezen, of een voornaamwoord dragen van een naamwoord dat nog niet genoemd is, “en beide moeten vermeden worden”. Dat is de vraag wat toegestaan is. Over wat de voorkeur heeft, verschillen de scholen: de Basrische grammatici laten het tweede regeren, omdat het dicht bij het naamwoord staat; de Kufiërs het eerste, omdat het eerst komt en het recht heeft.",
+    "De Basrische weg: het tweede werkwoord regeert het naamwoord. Als het eerste werkwoord een fa'il wil, wordt er een voornaamwoord in gezet: darabani wa-akramani Zaydun; darabani [tweevoud] wa-akramani al-Zaydani; darabuni wa-akramani al-Zayduna, en zo ook met werkwoorden die verschillen, darabuni wa-akramtu al-Zaydina. De alif en de waw van darabani [tweevoud] en darabuni zijn de fa'il van het eerste werkwoord. De Basrische grammatici aanvaarden hier een voornaamwoord voor zijn naamwoord, omdat een fa'il nooit weggelaten kan worden.",
+    "Als het eerste werkwoord een voorwerp wil, en de twee geen werkwoorden van het hart zijn, wordt het voorwerp van het eerste gewoon weggelaten: darabtu wa-akramtu Zaydan, darabtu wa-akramtu al-Zaydayni; en met werkwoorden die verschillen, darabtu wa-akramani Zaydun. Een voorwerp mag weggelaten worden, dus een voornaamwoord voor zijn naamwoord is niet nodig.",
+    "Bij werkwoorden van het hart, die twee voorwerpen nemen, “moet de maf'ul van het eerste werkwoord uitgedrukt worden”: hasibani muntaliqan wa-hasibtu Zaydan muntaliqan. Hij kan niet weggelaten worden, omdat een werkwoord van het hart zijn voorwerp niet mag verliezen, en hij kan geen voornaamwoord voor zijn naamwoord zijn. “Dit is de school van de Basrische grammatici.”"
+   ],
+   "terms": [
+    "de tanazu': twee werkwoorden die één naamwoord erna willen regeren",
+    "een voornaamwoord voordat zijn naamwoord genoemd is",
+    "twee werkwoorden die overeenstemmen, of verschillen, in wat ze willen",
+    "de werkwoorden van het hart, met twee voorwerpen die niet weggelaten mogen worden"
+   ],
+   "examples": [
+    "beide willen een fa'il",
+    "beide willen een voorwerp",
+    "het tweede regeert; een voornaamwoord in het eerste",
+    "het tweede regeert; het voorwerp van het eerste weggelaten",
+    "werkwoorden van het hart: het voorwerp uitgedrukt"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zeg welke soort tanazu' elk is: darabani wa-akramani Zaydun; darabtu wa-akramtu Zaydan; darabani wa-akramtu Zaydan; darabtu wa-akramani Zaydun.",
+     "answer": "De eerste: beide willen een fa'il. De tweede: beide willen een voorwerp. De derde: het eerste wil een fa'il, het tweede een voorwerp. De vierde: het eerste wil een voorwerp, het tweede een fa'il."
+    },
+    {
+     "prompt": "Welk werkwoord regeert in darabani [tweevoud] wa-akramani al-Zaydani het naamwoord al-Zaydani, en wat is de fa'il van darabani [tweevoud]?",
+     "answer": "Het tweede, akramani, regeert al-Zaydani als zijn fa'il (de Basrische weg). De fa'il van darabani [tweevoud] is de alif, een voornaamwoord in het tweevoud dat voor de twee Zayds staat."
+    },
+    {
+     "prompt": "Waarom laat het boek het voorwerp van het eerste werkwoord weg in darabtu wa-akramani Zaydun, maar niet zijn fa'il in darabani wa-akramtu Zaydan?",
+     "answer": "Een voorwerp mag weggelaten worden, dus het voorwerp van het eerste werkwoord valt weg. Een fa'il mag nooit weggelaten worden, dus wanneer het eerste werkwoord een fa'il wil, krijgt het in plaats daarvan een voornaamwoord."
+    },
+    {
+     "prompt": "Wat weigerde al-Farra', en waarom?",
+     "answer": "Hij weigerde het tweede werkwoord te laten regeren wanneer het eerste een fa'il wil (de eerste en de derde soort), omdat het eerste werkwoord dan ofwel zijn fa'il zou verliezen, ofwel een voornaamwoord zou nemen voordat zijn naamwoord genoemd is, en beide moeten vermeden worden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De tanazu' is wanneer twee werkwoorden…",
+     "options": [
+      "twee naamwoorden regeren",
+      "na een naamwoord komen",
+      "dezelfde fa'il hebben",
+      "elk één naamwoord erna willen regeren"
+     ],
+     "explanation": "Elk wil op hetzelfde naamwoord werken."
+    },
+    {
+     "prompt": "Hoeveel soorten tanazu' geeft het boek?",
+     "options": [
+      "vier",
+      "twee",
+      "drie",
+      "zes"
+     ],
+     "explanation": "Fa'il–fa'il, voorwerp–voorwerp, fa'il–voorwerp, voorwerp–fa'il."
+    },
+    {
+     "prompt": "De Basrische grammatici laten bij voorkeur regeren…",
+     "options": [
+      "het eerste werkwoord, omdat het eerst komt",
+      "het tweede werkwoord, omdat het dichtbij staat",
+      "geen van beide",
+      "het sterkere werkwoord"
+     ],
+     "explanation": "De Kufiërs geven de voorkeur aan het eerste."
+    },
+    {
+     "prompt": "Wanneer het tweede regeert en het eerste een fa'il wil, doen de Basrische grammatici dit:…",
+     "options": [
+      "de fa'il weglaten",
+      "het naamwoord herhalen",
+      "een voornaamwoord in het eerste zetten",
+      "het verbieden"
+     ],
+     "explanation": "Darabuni wa-akramani al-Zayduna."
+    },
+    {
+     "prompt": "Wanneer het tweede regeert en het eerste een voorwerp wil (geen werkwoord van het hart), is het voorwerp…",
+     "options": [
+      "een voornaamwoord",
+      "uitgedrukt",
+      "vooraan gezet",
+      "weggelaten"
+     ],
+     "explanation": "Darabtu wa-akramtu Zaydan."
+    },
+    {
+     "prompt": "Bij werkwoorden van het hart moet het voorwerp van het eerste werkwoord zijn…",
+     "options": [
+      "uitgedrukt",
+      "weggelaten",
+      "een voornaamwoord",
+      "achteraan gezet"
+     ],
+     "explanation": "Hasibani muntaliqan wa-hasibtu Zaydan muntaliqan."
+    },
+    {
+     "prompt": "Wie weigerde het tweede te laten regeren wanneer het eerste een fa'il wil?",
+     "options": [
+      "de Basrische grammatici",
+      "al-Farra'",
+      "de Kufiërs",
+      "Sibawayh"
+     ],
+     "explanation": "Vanwege het weglaten van de fa'il, of een voornaamwoord voor zijn naamwoord."
+    }
+   ],
+   "diagram": {
+    "caption": "Het tweede werkwoord laten regeren, de Basrische weg (blz. 18–20)",
+    "labels": {
+     "The first verb wants": "Het eerste werkwoord wil",
+     "What is done": "Wat er gebeurt",
+     "The book's example": "Het voorbeeld van het boek",
+     "a fāʿil, verbs agreeing": "een fa'il, werkwoorden gelijk",
+     "a pronoun in the first": "een voornaamwoord in het eerste",
+     "a fāʿil, verbs differing": "een fa'il, werkwoorden verschillend",
+     "an object, verbs agreeing": "een voorwerp, werkwoorden gelijk",
+     "dropped": "weggelaten",
+     "an object, verbs differing": "een voorwerp, werkwoorden verschillend",
+     "an object, verbs of the heart": "een voorwerp, werkwoorden van het hart",
+     "expressed": "uitgedrukt"
+    }
+   }
+  },
+  "12": {
+   "title": "De tanazu': de Kufische weg; de werkwoorden van het hart",
+   "body": [
+    "De Kufische weg: het eerste werkwoord regeert het naamwoord. Als het tweede werkwoord een fa'il wil, wordt er een voornaamwoord in gezet: darabani wa-akramani Zaydun; darabani wa-akramani [tweevoud] al-Zaydani; darabani wa-akramuni al-Zayduna. Met werkwoorden die verschillen, neemt het naamwoord de i'rab die het eerste werkwoord geeft: darabtu wa-akramani Zaydan, “ik sloeg Zayd, en hij eerde mij”, met Zaydan als voorwerp van darabtu. Het naamwoord hoort bij het eerste werkwoord, dat eerst komt, dus het voornaamwoord in het tweede verwijst naar een naamwoord dat al op zijn plaats staat.",
+    "Als het tweede werkwoord een voorwerp wil, en het geen werkwoorden van het hart zijn, zijn twee manieren toegestaan: het voorwerp weglaten, of het als voornaamwoord zetten, “en het tweede heeft de voorkeur, zodat wat gezegd wordt overeenstemt met wat bedoeld wordt”. Weggelaten: darabtu wa-akramtu Zaydan; met werkwoorden die verschillen, darabani wa-akramtu Zaydun, “Zayd sloeg mij, en ik eerde hem”. Als voornaamwoord: darabtu wa-akramtuhu Zaydan; darabani wa-akramtuhu Zaydun.",
+    "Bij werkwoorden van het hart moet het voorwerp uitgedrukt worden: hasibani wa-hasibtuhuma muntaliqayni al-Zaydani muntaliqan, “de twee Zayds dachten dat ik vertrok, en ik dacht dat zij vertrokken”. De twee werkwoorden wedijverden om muntaliqan, hun tweede voorwerp. Het eerste, hasibani, regeert: al-Zaydani is zijn fa'il en muntaliqan zijn tweede voorwerp. Het tweede werkwoord, hasibtuhuma, heeft zijn eerste voorwerp in huma, en zijn tweede voorwerp, muntaliqayni, wordt uitgesproken.",
+    "Waarom moet het uitgesproken worden? Het boek sluit elke andere deur. Laat muntaliqayni weg, en hasibtuhuma blijft met één voorwerp over, wat een werkwoord van het hart niet mag hebben. Zet een voornaamwoord in het enkelvoud, iyyahu, en het tweede voorwerp stemt niet overeen met het eerste, huma. Zet een voornaamwoord in het tweevoud, iyyahuma, en een voornaamwoord in het tweevoud zou verwijzen naar een woord in het enkelvoud, muntaliqan. “En wanneer het weglaten en het voornaamwoord niet toegestaan zijn, is het uitdrukken noodzakelijk.”",
+    "Zo redeneert de madrasa: noem elke mogelijke weg, laat zien waarom ze op één na allemaal falen, en de weg die overblijft is de regel. Een student die deze alinea kan volgen, kan de commentaren op de Kafiya volgen."
+   ],
+   "terms": [
+    "het eerste werkwoord laten regeren: de voorkeur van de Kufiërs",
+    "het tweede werkwoord laten regeren: de voorkeur van de Basrische grammatici",
+    "het voorwerp volledig uitdrukken, als naamwoord",
+    "een werkwoord van het hart met één voorwerp laten: niet toegestaan"
+   ],
+   "examples": [
+    "het eerste regeert; een voornaamwoord in het tweede",
+    "het eerste regeert: Zaydan zijn voorwerp",
+    "het voorwerp van het tweede als voornaamwoord: de voorkeur",
+    "werkwoorden van het hart: het tweede voorwerp uitgedrukt"
+   ],
+   "tasks": [
+    {
+     "prompt": "Ontleed darabtu wa-akramani Zaydan op de Kufische manier.",
+     "answer": "Het eerste werkwoord, darabtu, regeert Zaydan als zijn voorwerp (in nasb). Het tweede, akramani, wil een fa'il, dus er wordt een voornaamwoord in gezet, verborgen, dat naar Zayd verwijst; de ya' is zijn voorwerp."
+    },
+    {
+     "prompt": "Geef beide manieren die het boek toestaat voor het voorwerp van het tweede werkwoord, en zeg welke de voorkeur heeft en waarom.",
+     "answer": "Het weglaten, darabtu wa-akramtu Zaydan, of het als voornaamwoord zetten, darabtu wa-akramtuhu Zaydan. Het voornaamwoord heeft de voorkeur, zodat wat gezegd wordt overeenstemt met wat bedoeld wordt."
+    },
+    {
+     "prompt": "Geef in hasibani wa-hasibtuhuma muntaliqayni al-Zaydani muntaliqan de fa'il en de twee voorwerpen van elk werkwoord.",
+     "answer": "Hasibani: fa'il al-Zaydani, eerste voorwerp de ya', tweede voorwerp muntaliqan. Hasibtuhuma: fa'il de ta', eerste voorwerp huma, tweede voorwerp muntaliqayni."
+    },
+    {
+     "prompt": "Waarom mag muntaliqayni niet weggelaten worden, en ook niet vervangen door iyyahu of iyyahuma?",
+     "answer": "Weggelaten zou het een werkwoord van het hart met één voorwerp laten, wat niet toegestaan is. Iyyahu, in het enkelvoud, zou niet overeenstemmen met het eerste voorwerp huma. Iyyahuma, in het tweevoud, zou verwijzen naar het woord muntaliqan in het enkelvoud. Dus moet het uitgedrukt worden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welk werkwoord regeert op de Kufische weg het naamwoord?",
+     "options": [
+      "het eerste",
+      "het tweede",
+      "beide",
+      "geen van beide"
+     ],
+     "explanation": "Omdat het eerst komt en het recht heeft."
+    },
+    {
+     "prompt": "In darabani wa-akramuni al-Zayduna is de waw van akramuni…",
+     "options": [
+      "alleen het kenteken van het meervoud",
+      "de fa'il van het tweede werkwoord, een voornaamwoord",
+      "het voorwerp",
+      "een fout"
+     ],
+     "explanation": "Het eerste werkwoord regeert al-Zayduna."
+    },
+    {
+     "prompt": "In darabtu wa-akramani Zaydan is Zaydan het voorwerp van…",
+     "options": [
+      "akramani",
+      "een verondersteld werkwoord",
+      "darabtu",
+      "beide"
+     ],
+     "explanation": "Het eerste werkwoord regeert."
+    },
+    {
+     "prompt": "Voor het voorwerp van het tweede werkwoord heeft de voorkeur…",
+     "options": [
+      "het weglaten",
+      "het uitdrukken",
+      "het herhalen van het werkwoord",
+      "het voornaamwoord"
+     ],
+     "explanation": "Zodat wat gezegd wordt overeenstemt met wat bedoeld wordt."
+    },
+    {
+     "prompt": "Darabani wa-akramtuhu Zaydun: Zaydun is…",
+     "options": [
+      "de fa'il van darabani",
+      "het voorwerp van akramtu",
+      "een mubtada'",
+      "een badal"
+     ],
+     "explanation": "Het eerste werkwoord regeert; de ha' is het voorwerp van het tweede."
+    },
+    {
+     "prompt": "Een werkwoord van het hart mag niet…",
+     "options": [
+      "twee voorwerpen nemen",
+      "met één voorwerp overblijven",
+      "eerst komen",
+      "een voornaamwoord nemen"
+     ],
+     "explanation": "Dus moet het voorwerp uitgedrukt worden."
+    },
+    {
+     "prompt": "Waarom niet iyyahuma in hasibani wa-hasibtuhuma iyyahuma al-Zaydani muntaliqan?",
+     "options": [
+      "iyyahuma is geen voornaamwoord",
+      "huma is enkelvoud",
+      "een voornaamwoord in het tweevoud zou naar het enkelvoudige muntaliqan verwijzen",
+      "het is de Basrische weg"
+     ],
+     "explanation": "De tanazu' ging om muntaliqan."
+    }
+   ],
+   "diagram": {
+    "caption": "Het eerste werkwoord laten regeren, de Kufische weg (blz. 20–22)",
+    "labels": {
+     "The second verb wants": "Het tweede werkwoord wil",
+     "What is done": "Wat er gebeurt",
+     "The book's example": "Het voorbeeld van het boek",
+     "a fāʿil, verbs agreeing": "een fa'il, werkwoorden gelijk",
+     "a pronoun in the second": "een voornaamwoord in het tweede",
+     "a fāʿil, verbs differing": "een fa'il, werkwoorden verschillend",
+     "an object": "een voorwerp",
+     "dropped": "weggelaten",
+     "an object: preferred": "een voorwerp: de voorkeur",
+     "a pronoun": "een voornaamwoord",
+     "an object, verbs differing": "een voorwerp, werkwoorden verschillend",
+     "verbs of the heart": "werkwoorden van het hart",
+     "expressed": "uitgedrukt"
+    }
+   }
+  },
+  "13": {
+   "title": "Het voorwerp waarvan de doener niet genoemd is; de mubtada' en de khabar",
+   "body": [
+    "Het tweede marfu' naamwoord is “elke maf'ul waarvan de fa'il is weggelaten en die op zijn plaats is gezet”: duriba Zaydun. Alles wat over het werkwoord met zijn fa'il geleerd is, geldt ervoor: het werkwoord is enkelvoud bij een expliciet naamwoord, het stemt overeen bij een voornaamwoord, en het is vrouwelijk op dezelfde voorwaarden. Dus duribat Hindun, zoals qamat Hindun.",
+    "De mubtada' en de khabar zijn “twee naamwoorden vrij van de uitgesproken regeerders”: het ene is datgene waarover iets gezegd wordt (musnad ilayhi), de mubtada', en het andere datgene wat gezegd wordt (musnad bihi), de khabar: Zaydun qa'imun. “De regeerder in hen is abstract: het is de ibtida'”, het geplaatst zijn van het naamwoord aan het begin, vrij van elke regeerder. Het boek kiest de opvatting dat deze ene abstracte regeerder beide in raf' zet.",
+    "Het uitgangspunt van de mubtada' is dat hij bepaald is, en van de khabar dat hij onbepaald is: men spreekt over wat de hoorder kent en vertelt hem wat hij niet kent. Maar een onbepaald woord mag de mubtada' zijn wanneer het beschreven is, wa-la-'abdun mu'minun khayrun min mushrikin (Koran 2:221), of op een andere manier toegespitst. De voorbeelden van het boek geven de manieren: een vraag met am, a-rajulun fi al-dari ami imra'atun, waarbij de spreker weet dat een van de twee er is; een ontkenning, ma ahadun khayrun minka, die iedereen omvat; sharrun aharra dha nabin, dat de commentatoren lezen als “alleen een kwaad deed de getande grommen”; de khabar een zarf die vooraan staat, fi al-dari rajulun; en een gebed, salamun 'alayka.",
+    "Als het ene naamwoord bepaald is en het andere onbepaald, is het bepaalde de mubtada' en het onbepaalde de khabar, “altijd”. Als beide bepaald zijn, mag elk van beide de mubtada' zijn: Allahu ilahuna, Muhammadun nabiyyuna, Adamu abuna."
+   ],
+   "terms": [
+    "het naamwoord waarover iets gezegd wordt, vrij van uitgesproken regeerders",
+    "wat over de mubtada' gezegd wordt",
+    "het geplaatst zijn aan het begin: de abstracte regeerder van beide",
+    "een toegespitst onbepaald woord, dat een mubtada' mag zijn"
+   ],
+   "examples": [
+    "het voorwerp op de plaats van de weggelaten fa'il",
+    "een onbepaalde mubtada' die beschreven is (Koran 2:221)",
+    "een onbepaalde mubtada' in een gebed",
+    "beide bepaald: elk van beide mag de mubtada' zijn"
+   ],
+   "tasks": [
+    {
+     "prompt": "Laat het werkwoord overeenstemmen zoals de regels van het boek vragen: duriba Hindun; duriba al-Zaydani; al-Zaydani duriba.",
+     "answer": "Duribat Hindun (een echt vrouwelijk woord vast aan zijn werkwoord). Duriba al-Zaydani is goed (bij een expliciet naamwoord is het werkwoord enkelvoud). Al-Zaydani duriba [tweevoud] (bij een voornaamwoord stemt het werkwoord overeen)."
+    },
+    {
+     "prompt": "Wat is volgens het boek de regeerder van Zaydun en van qa'imun in Zaydun qa'imun?",
+     "answer": "De abstracte regeerder, de ibtida': beide naamwoorden zijn vrij van uitgesproken regeerders, en de ibtida' zet de mubtada' Zaydun en de khabar qa'imun in raf'."
+    },
+    {
+     "prompt": "Waarom mag het onbepaalde rajulun een mubtada' zijn in a-rajulun fi al-dari ami imra'atun, en in fi al-dari rajulun?",
+     "answer": "In het eerste is het toegespitst door de vraag met am: de spreker weet dat een van de twee in het huis is. In het tweede staat de khabar, een zarf, vooraan. Hoe dan ook is het onbepaalde woord genoeg toegespitst om erover te spreken."
+    },
+    {
+     "prompt": "In Allahu ilahuna zijn beide naamwoorden bepaald. Welk is de mubtada'?",
+     "answer": "Elk van beide mag de mubtada' gemaakt worden en het andere de khabar, zegt het boek, wanneer beide bepaald zijn."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Maf'ul ma lam yusamma fa'iluhu is…",
+     "options": [
+      "een voorwerp dat vooraan staat",
+      "een voorwerp op de plaats van zijn weggelaten fa'il",
+      "een tweede voorwerp",
+      "een absoluut voorwerp"
+     ],
+     "explanation": "Duriba Zaydun."
+    },
+    {
+     "prompt": "Getal en geslacht van zijn werkwoord volgen…",
+     "options": [
+      "de regels van de mubtada'",
+      "geen regel",
+      "de regels van de fa'il",
+      "het voorwerp"
+     ],
+     "explanation": "Naar analogie van de fa'il."
+    },
+    {
+     "prompt": "De regeerder van de mubtada' en de khabar is…",
+     "options": [
+      "de mubtada'",
+      "een verborgen werkwoord",
+      "de khabar",
+      "de ibtida', een abstracte regeerder"
+     ],
+     "explanation": "Ze zijn vrij van uitgesproken regeerders."
+    },
+    {
+     "prompt": "Het uitgangspunt van de khabar is dat hij is…",
+     "options": [
+      "onbepaald",
+      "bepaald",
+      "een zin",
+      "een zarf"
+     ],
+     "explanation": "En de mubtada' bepaald."
+    },
+    {
+     "prompt": "In ma ahadun khayrun minka mag ahadun een mubtada' zijn omdat…",
+     "options": [
+      "het bepaald is",
+      "het na een ontkenning komt",
+      "het beschreven is",
+      "het achteraan komt"
+     ],
+     "explanation": "De ontkenning omvat iedereen."
+    },
+    {
+     "prompt": "Salamun 'alayka is toegestaan omdat het is…",
+     "options": [
+      "bepaald",
+      "een vraag",
+      "een gebed",
+      "een zin"
+     ],
+     "explanation": "Een van de manieren waarop een onbepaald woord toegespitst wordt."
+    },
+    {
+     "prompt": "Met één bepaald en één onbepaald naamwoord…",
+     "options": [
+      "mag elk van beide de mubtada' zijn",
+      "is het onbepaalde de mubtada'",
+      "is geen van beide de mubtada'",
+      "is het bepaalde de mubtada', altijd"
+     ],
+     "explanation": "Het onbepaalde is de khabar."
+    }
+   ],
+   "diagram": {
+    "caption": "Een onbepaalde mubtada', toegespitst (blz. 23)",
+    "labels": {
+     "Made particular by": "Toegespitst door",
+     "The book's example": "Het voorbeeld van het boek",
+     "an adjective": "een bijvoeglijk naamwoord",
+     "a question with am": "een vraag met am",
+     "a negation": "een ontkenning",
+     "its sense: “only an evil”": "zijn betekenis: “alleen een kwaad”",
+     "an adverb put first": "een zarf vooraan",
+     "a prayer": "een gebed"
+    }
+   }
+  },
+  "14": {
+   "title": "De khabar als zin; zijn volgorde; de mubtada' zonder khabar",
+   "body": [
+    "De khabar mag een hele zin zijn: een naamwoordzin, Zaydun abuhu qa'imun; een werkwoordzin, Zaydun qama abuhu; een voorwaardelijke zin, Zaydun in ja'ani fa-akramtuhu; of een zarf, Zaydun khalfaka, 'Amrun fi al-dari. De meeste grammatici zeggen dat de zarf aan een zin verbonden is, “istaqarra, bijvoorbeeld”: Zaydun fi al-dari is Zaydun istaqarra fi al-dari. Volgens deze opvatting is een khabar die een zarf is, in werkelijkheid een werkwoordzin waarvan het werkwoord niet uitgesproken wordt.",
+    "Een khabar die een zin is, “moet een voornaamwoord hebben dat naar de mubtada' terugverwijst, zoals de ha'” van abuhu. Zonder dat zou de zin helemaal niet over de mubtada' gaan. Het mag weggelaten worden wanneer de samenhang het laat zien: al-samnu manawani bi-dirhamin, “boter: twee mann voor een dirham”, en al-burru al-kurru bi-sittina dirhaman, “tarwe: de kurr voor zestig dirham”, waar minhu, “ervan”, verondersteld wordt.",
+    "De khabar mag voor de mubtada' komen: fi al-dari Zaydun. En één mubtada' mag veel khabars hebben: Zaydun 'alimun fadilun 'aqilun, “Zayd is geleerd, voortreffelijk, verstandig”.",
+    "“Ze hebben nog een soort mubtada', die niet datgene is waarover iets gezegd wordt”: een bijvoeglijk naamwoord na een partikel van ontkenning of van vraag, ma qa'imun Zaydun, a-qa'imun Zaydun, op voorwaarde dat het een expliciet naamwoord in raf' zet. Met het tweevoud is de voorwaarde duidelijk: in ma qa'imun al-Zaydani en a-qa'imun al-Zaydani is qa'imun de mubtada' en al-Zaydani zijn fa'il, die de plaats van de khabar vult. Maar ma qa'imani al-Zaydani is anders: qa'imani stemt overeen met al-Zaydani, dus het is een khabar die vooraan staat, en al-Zaydani is de mubtada'."
+   ],
+   "terms": [
+    "een khabar die een hele zin is",
+    "het voornaamwoord dat naar de mubtada' terugverwijst",
+    "waaraan de zarf verbonden is: istaqarra",
+    "een bijvoeglijk naamwoord dat een expliciet naamwoord in raf' zet: een mubtada' zonder khabar"
+   ],
+   "examples": [
+    "een voorwaardelijke zin als khabar",
+    "een zarf als khabar: istaqarra verondersteld",
+    "het voornaamwoord weggelaten: minhu",
+    "één mubtada', drie khabars",
+    "een bijvoeglijk naamwoord als mubtada', zijn fa'il in plaats van de khabar"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de soort khabar en zijn terugverwijzing: Zaydun qama abuhu; Zaydun khalfaka.",
+     "answer": "Zaydun qama abuhu: een werkwoordzin; de verwijzing is de ha' van abuhu. Zaydun khalfaka: een khabar die een zarf is, verbonden aan een veronderstelde istaqarra, waarvan het verborgen voornaamwoord naar Zayd teruggaat."
+    },
+    {
+     "prompt": "Wat is weggelaten in al-burru al-kurru bi-sittina dirhaman, en waarom mag het weggelaten worden?",
+     "answer": "Het voornaamwoord dat naar al-burru terugverwijst: al-kurru minhu bi-sittina dirhaman. Het mag weggelaten worden omdat de samenhang het laat zien: de kurr kan alleen van de tarwe zijn."
+    },
+    {
+     "prompt": "Ontleed ma qa'imun al-Zaydani en ma qa'imani al-Zaydani.",
+     "answer": "In het eerste is qa'imun een mubtada' na de ontkenning, en al-Zaydani zijn fa'il, die op de plaats van de khabar staat. In het tweede stemt qa'imani overeen met al-Zaydani, dus het is een khabar die vooraan staat, en al-Zaydani is de mubtada'."
+    },
+    {
+     "prompt": "Laat de khabar van Zaydun fi al-dari, een zarf, in zijn volledige vorm zien, zoals de meeste grammatici die geven.",
+     "answer": "Zaydun istaqarra fi al-dari: de zarf is verbonden aan het veronderstelde werkwoord istaqarra, en de zin istaqarra fi al-dari is de khabar."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Zaydun in ja'ani fa-akramtuhu heeft een khabar die is…",
+     "options": [
+      "een naamwoordzin",
+      "een zarf",
+      "voorwaardelijk",
+      "één enkel woord"
+     ],
+     "explanation": "Een voorwaarde en haar antwoord."
+    },
+    {
+     "prompt": "De meeste grammatici verbinden de zarf in Zaydun fi al-dari aan…",
+     "options": [
+      "de mubtada'",
+      "niets",
+      "het partikel fi",
+      "een zin: istaqarra"
+     ],
+     "explanation": "Zaydun istaqarra fi al-dari."
+    },
+    {
+     "prompt": "Een khabar die een zin is, moet hebben…",
+     "options": [
+      "een voornaamwoord dat naar de mubtada' verwijst",
+      "een werkwoord",
+      "de fa'",
+      "een partikel"
+     ],
+     "explanation": "Zoals de ha' van abuhu."
+    },
+    {
+     "prompt": "Wat is weggelaten in al-samnu manawani bi-dirhamin?",
+     "options": [
+      "de mubtada'",
+      "minhu, het terugverwijzende voornaamwoord",
+      "het werkwoord",
+      "het partikel"
+     ],
+     "explanation": "Twee mann ervan voor een dirham."
+    },
+    {
+     "prompt": "Mag een mubtada' meer dan één khabar hebben?",
+     "options": [
+      "nee",
+      "alleen twee",
+      "ja",
+      "alleen na inna"
+     ],
+     "explanation": "Zaydun 'alimun fadilun 'aqilun."
+    },
+    {
+     "prompt": "In a-qa'imun al-Zaydani is qa'imun…",
+     "options": [
+      "een khabar die vooraan staat",
+      "een fa'il",
+      "een hal",
+      "een mubtada' zonder khabar"
+     ],
+     "explanation": "Zijn fa'il al-Zaydani staat op de plaats van de khabar."
+    },
+    {
+     "prompt": "In ma qa'imani al-Zaydani is qa'imani…",
+     "options": [
+      "een khabar die vooraan staat",
+      "een mubtada' zonder khabar",
+      "een fa'il",
+      "een badal"
+     ],
+     "explanation": "Het stemt overeen met al-Zaydani, de mubtada'."
+    }
+   ],
+   "diagram": {
+    "caption": "De khabar als zin, en zijn verwijzing (blz. 23–24)",
+    "labels": {
+     "Kind": "Soort",
+     "The book's example": "Het voorbeeld van het boek",
+     "The link to the mubtadaʾ": "De verwijzing naar de mubtada'",
+     "nominal": "naamwoordzin",
+     "the hāʾ of abūhu": "de ha' van abuhu",
+     "verbal": "werkwoordzin",
+     "conditional": "voorwaardelijk",
+     "the pronoun in jāʾa, the hāʾ": "het voornaamwoord in ja'a, de ha'",
+     "adverbial": "zarf",
+     "the pronoun in istaqarra": "het voornaamwoord in istaqarra",
+     "the link dropped": "de verwijzing weggelaten",
+     "minhu, understood": "minhu, verondersteld"
+    }
+   }
+  },
+  "15": {
+   "title": "Inna, kana, ma en la: de khabar en het ism in raf'",
+   "body": [
+    "Inna en haar zusters, anna, ka'anna, lakinna, layta en la'alla, komen op de mubtada' en de khabar: ze zetten de mubtada' in nasb, en die heet het ism van inna, en de khabar in raf', en die heet de khabar van inna: inna Zaydan qa'imun. Deze khabar is in elke regel als de khabar van de mubtada': één woord of een zin, bepaald of onbepaald. Maar hij mag niet voor het ism komen “tenzij hij een zarf is”, inna fi al-dari Zaydan, “omdat bij zarfs meer vrijheid wordt toegestaan”.",
+    "Kana en haar zusters doen het omgekeerde: sara, asbaha, amsa, adha, zalla, bata, raha, ada, 'ada, ghada, ma zala, ma bariha, ma fati'a, ma infakka, ma dama en laysa. Ze zetten de mubtada' in raf' als het ism van kana en de khabar in nasb als de khabar van kana: kana Zaydun qa'iman. Het ism van kana, dat in raf' staat, wordt hier meegeteld; haar khabar komt bij de mansub naamwoorden.",
+    "Hun khabar mag bij allemaal voor hun ism komen: kana qa'iman Zaydun. Hij mag bij de eerste negen van de lijst zelfs voor het werkwoord zelf komen: qa'iman kana Zaydun. Niet bij die met ma beginnen: men zegt niet qa'iman ma zala Zaydun; de commentatoren geven de reden, dat de ma van de ontkenning aan het hoofd van haar zin moet staan. Over laysa verschillen de grammatici van mening. Meer over deze werkwoorden komt in het deel over het werkwoord.",
+    "Het ism van ma en la die op laysa lijken, staat in raf': ma Zaydun qa'iman, la rajulun afdala minka. La wordt alleen met onbepaalde woorden gebruikt, ma met beide. En de khabar van de la die de hele soort ontkent (la li-nafy al-jins) staat in raf': la rajula qa'imun, “er is geen man die staat”, terwijl het ism bij de mansub naamwoorden komt (les 23)."
+   ],
+   "terms": [
+    "inna en haar zusters: nasb van het ism, raf' van de khabar",
+    "kana en haar zusters: raf' van het ism, nasb van de khabar",
+    "ma en la die werken zoals laysa",
+    "de la die de hele soort ontkent"
+   ],
+   "examples": [
+    "de khabar van inna voor haar ism: een zarf",
+    "het ism van kana in raf'",
+    "de khabar voor kana zelf",
+    "la zoals laysa: haar ism onbepaald",
+    "de khabar van de la van de soort in raf'"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet inna en daarna kana voor Zaydun qa'imun, en ontleed elk.",
+     "answer": "Inna Zaydan qa'imun: Zaydan is het ism van inna, in nasb; qa'imun haar khabar, in raf'. Kana Zaydun qa'iman: Zaydun is het ism van kana, in raf'; qa'iman haar khabar, in nasb."
+    },
+    {
+     "prompt": "Wat is toegestaan? inna qa'imun Zaydan; inna fi al-dari Zaydan; qa'iman kana Zaydun; qa'iman ma zala Zaydun.",
+     "answer": "Inna qa'imun Zaydan: niet toegestaan (de khabar van inna komt alleen eerst als hij een zarf is). Inna fi al-dari Zaydan: toegestaan (een zarf). Qa'iman kana Zaydun: toegestaan (kana hoort bij de eerste negen). Qa'iman ma zala Zaydun: niet toegestaan (ma zala begint met ma)."
+    },
+    {
+     "prompt": "Waarom mag men ma Zaydun qa'iman zeggen, maar niet la Zaydun qa'iman?",
+     "answer": "Ma zoals laysa neemt bepaalde en onbepaalde woorden; la zoals laysa neemt alleen onbepaalde, zoals la rajulun afdala minka."
+    },
+    {
+     "prompt": "Welk woord in la rajula qa'imun wordt bij de marfu' naamwoorden geteld, en waarom?",
+     "answer": "Qa'imun, de khabar van de la die de hele soort ontkent, die in raf' staat. Haar ism, rajula, hoort bij de mansub naamwoorden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Inna zet haar khabar in…",
+     "options": [
+      "nasb",
+      "jarr",
+      "jazm",
+      "raf'"
+     ],
+     "explanation": "En haar ism in nasb."
+    },
+    {
+     "prompt": "De khabar van inna mag voor haar ism komen wanneer hij is…",
+     "options": [
+      "een zarf",
+      "een zin",
+      "bepaald",
+      "een werkwoord"
+     ],
+     "explanation": "Inna fi al-dari Zaydan."
+    },
+    {
+     "prompt": "Kana zet haar ism in…",
+     "options": [
+      "nasb",
+      "raf'",
+      "jarr",
+      "jazm"
+     ],
+     "explanation": "Kana Zaydun qa'iman."
+    },
+    {
+     "prompt": "Welke is GEEN van de zusters van kana in de lijst van het boek?",
+     "options": [
+      "sara",
+      "ma dama",
+      "zanna",
+      "laysa"
+     ],
+     "explanation": "Zanna is een werkwoord van het hart."
+    },
+    {
+     "prompt": "Qa'iman ma zala Zaydun is…",
+     "options": [
+      "toegestaan",
+      "alleen in poëzie toegestaan",
+      "de Kufische opvatting",
+      "niet toegestaan: ma zala begint met ma"
+     ],
+     "explanation": "De khabar komt alleen bij de eerste negen voor het werkwoord."
+    },
+    {
+     "prompt": "La zoals laysa wordt gebruikt met…",
+     "options": [
+      "alleen onbepaalde woorden",
+      "alleen bepaalde woorden",
+      "beide",
+      "werkwoorden"
+     ],
+     "explanation": "Ma dekt beide."
+    },
+    {
+     "prompt": "In la rajula qa'imun is qa'imun…",
+     "options": [
+      "het ism van la",
+      "de khabar van la, in raf'",
+      "een bijvoeglijk naamwoord",
+      "een hal"
+     ],
+     "explanation": "De khabar van de la die de hele soort ontkent."
+    }
+   ],
+   "diagram": {
+    "caption": "Wat op de mubtada' en de khabar komt (blz. 25–26)",
+    "labels": {
+     "Canceller": "Opheffer",
+     "The ism": "Het ism",
+     "The khabar": "De khabar",
+     "The book's example": "Het voorbeeld van het boek",
+     "inna and its sisters": "inna en haar zusters",
+     "naṣb": "nasb",
+     "rafʿ": "raf'",
+     "kāna and its sisters": "kana en haar zusters",
+     "mā like laysa": "ma zoals laysa",
+     "lā like laysa": "la zoals laysa",
+     "rafʿ, indefinite": "raf', onbepaald",
+     "lā of the kind": "la van de soort"
+    }
+   }
+  },
+  "16": {
+   "title": "De twaalf mansub naamwoorden; het absolute voorwerp",
+   "body": [
+    "Het tweede doel zijn de mansub naamwoorden, twaalf: de vijf voorwerpen (al-maf'ul al-mutlaq, bihi, fihi, lahu, ma'ahu), de hal, de tamyiz, de mustathna, het ism van inna en haar zusters, de khabar van kana en haar zusters, het naamwoord in nasb door de la die de hele soort ontkent, en de khabar van ma en la zoals laysa. Net als bij de marfu' naamwoorden wacht de mudari' in nasb op het deel over het werkwoord.",
+    "Het absolute voorwerp is “een masdar in de betekenis van een werkwoord dat ervoor genoemd is”. Het wordt gezegd om een van drie dingen. Voor de nadruk: darabtu darban, “ik sloeg een slaan”. Om de soort te tonen: jalastu jilsata al-qari'i, “ik zat het zitten van de Koranlezer”. Om het aantal te tonen: jalastu jalsatan, “één zitting”, jalsatayni, “twee zittingen”, jalasatin, “zittingen”. De twee patronen zijn terloops een les van de sarf: fi'la, jilsa, noemt een wijze, en fa'la, jalsa, één keer.",
+    "Het mag een andere bewoording hebben dan het werkwoord, zolang de betekenis dezelfde is: qa'adtu julusan, “ik zat een zitten”, en anbata nabatan, “Hij liet groeien een groeien”, uit wa-Allahu anbatakum mina al-ardi nabatan (Koran 71:17), waar nabat de masdar is van nabata, niet van anbata.",
+    "Zijn werkwoord mag weggelaten worden wanneer de samenhang het laat zien. Naar keuze: tegen iemand die aankomt zeg je khayra maqdamin, “de beste van de aankomsten”, dat wil zeggen qadimta quduman khayra maqdamin. En noodzakelijk, “door het horen”: saqyan, shukran, hamdan, ra'yan, dat wil zeggen saqaka Allahu saqyan, “moge God je laven”, shakartuka shukran, hamidtuka hamdan, ra'aka Allahu ra'yan. Dit zijn vaste uitdrukkingen van gebed en dank; de Arabieren zeggen hun werkwoorden er nooit bij, dus mag jij dat ook niet."
+   ],
+   "terms": [
+    "de twaalf mansub naamwoorden",
+    "een masdar in de betekenis van het werkwoord ervoor",
+    "de soort en het aantal tonen",
+    "noodzakelijk weglaten, zoals van de Arabieren gehoord"
+   ],
+   "examples": [
+    "voor de nadruk",
+    "om de soort te tonen: fi'la",
+    "om het aantal te tonen: fa'la",
+    "van een andere bewoording dan het werkwoord",
+    "het werkwoord noodzakelijk weggelaten"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zeg wat elk absoluut voorwerp toont: darabtu darban; jalastu jilsata al-qari'i; jalastu jalsatayni.",
+     "answer": "Darban: alleen nadruk. Jilsata al-qari'i: de soort, “de manier van zitten van de Koranlezer”, op het patroon fi'la. Jalsatayni: het aantal, twee zittingen, het tweevoud van fa'la."
+    },
+    {
+     "prompt": "Waarom is julusan een absoluut voorwerp in qa'adtu julusan?",
+     "answer": "Het absolute voorwerp is een masdar in de betekenis van het werkwoord ervoor. Julus heeft de betekenis van qa'ada, al is zijn bewoording een andere wortel, dus het is het absolute voorwerp."
+    },
+    {
+     "prompt": "Geef de volledige vorm van khayra maqdamin en van shukran.",
+     "answer": "Khayra maqdamin: qadimta quduman khayra maqdamin, het werkwoord naar keuze weggelaten. Shukran: shakartuka shukran, het werkwoord noodzakelijk weggelaten, zoals van de Arabieren gehoord."
+    },
+    {
+     "prompt": "Noem de twaalf mansub naamwoorden van het boek.",
+     "answer": "Het absolute voorwerp; de maf'ul bihi; de maf'ul fihi; de maf'ul lahu; de maf'ul ma'ahu; de hal; de tamyiz; de mustathna; het ism van inna en haar zusters; de khabar van kana en haar zusters; het naamwoord in nasb door de la die de hele soort ontkent; de khabar van ma en la zoals laysa."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel mansub naamwoorden telt het boek?",
+     "options": [
+      "twaalf",
+      "dertien",
+      "acht",
+      "vijf"
+     ],
+     "explanation": "De mudari' wacht op het deel over het werkwoord."
+    },
+    {
+     "prompt": "Het absolute voorwerp is…",
+     "options": [
+      "het naamwoord waarop de handeling valt",
+      "een masdar in de betekenis van een werkwoord ervoor",
+      "de tijd van de handeling",
+      "de reden van de handeling"
+     ],
+     "explanation": "Darabtu darban."
+    },
+    {
+     "prompt": "Jalastu jilsata al-qari'i toont…",
+     "options": [
+      "het aantal",
+      "alleen nadruk",
+      "de soort",
+      "de reden"
+     ],
+     "explanation": "Het patroon fi'la."
+    },
+    {
+     "prompt": "Jalastu jalsatan toont…",
+     "options": [
+      "de soort",
+      "de plaats",
+      "alleen nadruk",
+      "het aantal"
+     ],
+     "explanation": "Eén zitting: het patroon fa'la."
+    },
+    {
+     "prompt": "In anbata nabatan is nabat…",
+     "options": [
+      "van een andere bewoording dan het werkwoord",
+      "het voorwerp",
+      "een hal",
+      "een tamyiz"
+     ],
+     "explanation": "De masdar van nabata, met de betekenis van anbata."
+    },
+    {
+     "prompt": "Bij khayra maqdamin is het werkwoord weggelaten…",
+     "options": [
+      "noodzakelijk",
+      "naar keuze, met een samenhang",
+      "nooit",
+      "alleen in poëzie"
+     ],
+     "explanation": "Qadimta quduman khayra maqdamin."
+    },
+    {
+     "prompt": "Bij saqyan, shukran, hamdan zijn de werkwoorden weggelaten…",
+     "options": [
+      "naar keuze",
+      "volgens een regel",
+      "noodzakelijk, zoals gehoord",
+      "alleen in proza"
+     ],
+     "explanation": "Saqaka Allahu saqyan, en de rest."
+    }
+   ],
+   "diagram": {
+    "caption": "Het absolute voorwerp (blz. 26–27)",
+    "labels": {
+     "It shows, or how": "Het toont, of hoe",
+     "The book's example": "Het voorbeeld van het boek",
+     "emphasis": "nadruk",
+     "the kind": "de soort",
+     "the number": "het aantal",
+     "of another wording": "van een andere bewoording",
+     "verb dropped by choice": "werkwoord weggelaten naar keuze",
+     "verb dropped necessarily": "werkwoord noodzakelijk weggelaten"
+    }
+   }
+  },
+  "17": {
+   "title": "De maf'ul bihi; wanneer zijn werkwoord weggelaten moet worden",
+   "body": [
+    "De maf'ul bihi (het lijdend voorwerp) is “het naamwoord van datgene waarop de handeling van de fa'il valt”: daraba Zaydun 'Amran. Hij mag voor de fa'il komen, daraba 'Amran Zaydun (les 10). Zijn werkwoord mag naar keuze weggelaten worden wanneer de samenhang het laat zien, Zaydan als antwoord op man adribu, “wie zal ik slaan?”; en noodzakelijk op vier plaatsen.",
+    "De eerste is “door het horen”: uitdrukkingen die de Arabieren altijd zonder het werkwoord zeggen. Imra'an wa-nafsahu, “[laat] een man en zichzelf”; intahu khayran lakum, “houd op, [en doe] wat beter is voor jullie” (Koran 4:171), waar de commentatoren een werkwoord als “en doe” veronderstellen; en ahlan wa-sahlan, “welkom”, dat ze verklaren als “je bent bij familie gekomen, en hebt vlakke grond betreden”. De andere drie plaatsen gaan volgens een regel.",
+    "De tweede is de waarschuwing (tahdhir). Het naamwoord wordt geregeerd door een verondersteld ittaqi, “hoed je voor”: iyyaka wa-l-asada, “pas op voor de leeuw!”, “waarvan de onderliggende vorm ittaqika wa-l-asada is”: bescherm jezelf en de leeuw, dat wil zeggen houd die twee uit elkaar. Of het ding waarvoor gewaarschuwd wordt, wordt herhaald: al-tariqa al-tariqa, “de weg, de weg!”, gezegd tegen iemand die op het punt staat de weg op te stappen.",
+    "De derde is het naamwoord waarvan de regeerder verborgen is “op voorwaarde van uitleg” ('ala sharitat al-tafsir), wat latere boeken de ishtighal (bezetting) noemen. Het is een naamwoord gevolgd door een werkwoord dat ervan wordt “afgehouden” doordat het bezig is met zijn voornaamwoord, of met iets wat ermee verbonden is, “zodanig dat het, of wat erbij past, als het over dat naamwoord gezet werd, het in nasb zou zetten”: Zaydan darabtuhu, “Zayd, ik sloeg hem”. Darabtuhu heeft zijn voorwerp al, de ha', dus Zaydan staat in nasb door een weggelaten darabtu, dat het uitgesproken werkwoord uitlegt.",
+    "“Of wat erbij past”: in Zaydan marartu bihi veronderstellen de commentatoren jawaztu Zaydan, “ik ging Zayd voorbij”, omdat marra zelf zijn voorwerp via de ba' bereikt. “Dit hoofdstuk heeft veel vertakkingen”, zegt het boek, en het laat ze aan de Kafiya over. De vierde plaats is de munada, de volgende les."
+   ],
+   "terms": [
+    "het naamwoord waarop de handeling van de fa'il valt",
+    "de waarschuwing, geregeerd door een verondersteld ittaqi",
+    "het naamwoord waarvan het werkwoord verborgen is en uitgelegd wordt door het werkwoord erna",
+    "het werkwoord dat bezig is met het voornaamwoord van het naamwoord"
+   ],
+   "examples": [
+    "het werkwoord weggelaten, zoals van de Arabieren gehoord",
+    "de waarschuwing: ittaqi verondersteld",
+    "de waarschuwing door herhaling",
+    "de regeerder verborgen op voorwaarde van uitleg"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de onderliggende vorm van iyyaka wa-l-asada en zeg waardoor elk naamwoord geregeerd wordt.",
+     "answer": "Ittaqika wa-l-asada, “bescherm jezelf en de leeuw”. Iyyaka is het voorwerp van het veronderstelde ittaqi, en al-asada is ermee nevengeschikt, ook in nasb. In een waarschuwing moet het werkwoord weggelaten worden."
+    },
+    {
+     "prompt": "Waarom staat Zaydan in nasb in Zaydan darabtuhu, en waardoor wordt het geregeerd?",
+     "answer": "Darabtuhu is bezig met het voornaamwoord van Zayd, de ha', dus het kan Zaydan niet regeren. Zaydan is het voorwerp van een weggelaten werkwoord, darabtu, dat het uitgesproken darabtuhu uitlegt: darabtu Zaydan darabtuhu."
+    },
+    {
+     "prompt": "Welk werkwoord veronderstellen de commentatoren in Zaydan marartu bihi, en waarom niet marartu?",
+     "answer": "Jawaztu, “ik ging voorbij”. Marra zet zijn voorwerp niet zelf in nasb maar bereikt het via de ba', dus de woorden van het boek “of wat erbij past” vragen om een werkwoord met dezelfde betekenis dat wel nasb geeft."
+    },
+    {
+     "prompt": "Noem de vier plaatsen waar het werkwoord van de maf'ul bihi weggelaten moet worden.",
+     "answer": "Wat van de Arabieren gehoord is (zoals ahlan wa-sahlan); de waarschuwing (iyyaka wa-l-asada); het naamwoord waarvan de regeerder verborgen is op voorwaarde van uitleg (Zaydan darabtuhu); en de munada (ya 'Abda Allahi)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De maf'ul bihi is het naamwoord…",
+     "options": [
+      "ter wille waarvan de handeling gedaan wordt",
+      "waarop de handeling van de fa'il valt",
+      "waarin de handeling gebeurt",
+      "waarmee de handeling gebeurt"
+     ],
+     "explanation": "Daraba Zaydun 'Amran."
+    },
+    {
+     "prompt": "Op hoeveel plaatsen moet zijn werkwoord weggelaten worden?",
+     "options": [
+      "twee",
+      "drie",
+      "vier",
+      "zes"
+     ],
+     "explanation": "Het gehoorde, de waarschuwing, het uitgelegde, de munada."
+    },
+    {
+     "prompt": "Iyyaka wa-l-asada wordt geregeerd door een verondersteld…",
+     "options": [
+      "ad'u",
+      "utruk",
+      "darabtu",
+      "ittaqi"
+     ],
+     "explanation": "Zijn onderliggende vorm is ittaqika wa-l-asada."
+    },
+    {
+     "prompt": "Al-tariqa al-tariqa is…",
+     "options": [
+      "een waarschuwing door herhaling",
+      "een nadruk op de fa'il",
+      "een munada",
+      "een hal"
+     ],
+     "explanation": "Het ding waarvoor gewaarschuwd wordt, twee keer gezegd."
+    },
+    {
+     "prompt": "In Zaydan darabtuhu is Zaydan het voorwerp van…",
+     "options": [
+      "het uitgesproken darabtuhu",
+      "een weggelaten darabtu",
+      "een verondersteld ittaqi",
+      "niets"
+     ],
+     "explanation": "Het uitgesproken werkwoord is bezig met de ha'."
+    },
+    {
+     "prompt": "Bij ahlan wa-sahlan is het werkwoord weggelaten…",
+     "options": [
+      "naar keuze",
+      "als waarschuwing",
+      "zoals van de Arabieren gehoord",
+      "op voorwaarde van uitleg"
+     ],
+     "explanation": "De eerste van de vier plaatsen."
+    },
+    {
+     "prompt": "De vierde plaats waar het werkwoord weggelaten moet worden, is…",
+     "options": [
+      "de hal",
+      "de tamyiz",
+      "de mustathna",
+      "de munada"
+     ],
+     "explanation": "Ya 'Abda Allahi: ad'u 'Abda Allahi."
+    }
+   ],
+   "diagram": {
+    "caption": "Waar het werkwoord van het voorwerp weggelaten moet worden (blz. 27–28)",
+    "labels": {
+     "Place": "Plaats",
+     "The book's example": "Het voorbeeld van het boek",
+     "The verb understood": "Het veronderstelde werkwoord",
+     "heard from the Arabs": "gehoord van de Arabieren",
+     "“leave”": "“laat”",
+     "“and do”": "“en doe”",
+     "the warning": "de waarschuwing",
+     "ittaqi, “guard”": "ittaqi, “hoed je”",
+     "the warning, repeated": "de waarschuwing, herhaald",
+     "on condition of explanation": "op voorwaarde van uitleg",
+     "ḍarabtu": "darabtu",
+     "the munādā": "de munada",
+     "adʿū, “I call”": "ad'u, “ik roep”"
+    }
+   }
+  },
+  "18": {
+   "title": "De munada; de verkorting; de beklaagde",
+   "body": [
+    "De munada (de aangesprokene) is “een naamwoord dat geroepen wordt door een partikel van het roepen in de bewoording”: ya 'Abda Allahi, “dat wil zeggen ad'u 'Abda Allahi”, “ik roep 'Abd Allah”; het is dus het voorwerp van een werkwoord waarvoor het partikel staat (les 3). De partikels zijn vijf: ya, aya, haya, ay en de hamza met fatha. Het partikel mag uit de bewoording weggelaten worden: Yusufu a'rid 'an hadha, “Yusuf, wend je hiervan af” (Koran 12:29).",
+    "Een enkelvoudige bepaalde munada is gebouwd op zijn kenteken van raf': op de damma, ya Zaydu, en ya rajulu, een man die bepaald gemaakt is doordat hij geroepen wordt; op de alif, ya Zaydani; op de waw, ya Zayduna. Met de lam van de hulproep staat hij in khafd, ya la-Zaydin; met de alif van die roep erbij neemt hij fatha, ya Zaydah.",
+    "Hij staat in nasb wanneer hij mudaf is, ya 'Abda Allahi; wanneer hij “op de mudaf lijkt”, ya tali'an jabalan, “o jij die een berg beklimt!”, waar tali'an het woord jabalan regeert zoals een mudaf zijn mudaf ilayhi regeert; of wanneer hij een niet-bedoeld onbepaald woord is, “zoals de blinde zegt: ya rajulan khudh bi-yadi”, “o [een] man, neem mijn hand!”, want hij roept geen bepaalde man. Als de munada de lam van de bepaaldheid heeft, wordt ayyuha of ayyatuha ertussen gezet: ya ayyuha al-rajulu, ya ayyatuha al-mar'atu.",
+    "De munada mag verkort worden (tarkhim), “een weglating aan zijn eind omwille van de lichtheid”: Malik, ya Mali; Mansur, ya Mansu; 'Uthman, ya 'Uthma. De laatste letter die overblijft mag de damma nemen, alsof hij de hele naam was, of zijn eigen klinker houden: voor Harith, ya Haru of ya Hari.",
+    "Ya wordt ook gebruikt voor de beklaagde (mandub), degene over wie men rouwt: ya Zaydah, wa Zaydah, “ach, Zayd!”. Wa is alleen voor de klaagroep; ya dient voor beide. De mandub volgt de regels van i'rab en bina' van de munada."
+   ],
+   "terms": [
+    "de geroepene, het voorwerp van een verondersteld ad'u",
+    "wat op de mudaf lijkt: een munada die regeert wat erop volgt",
+    "het eind van een munada verkorten omwille van de lichtheid",
+    "de beklaagde, met wa of ya"
+   ],
+   "examples": [
+    "het partikel van het roepen weggelaten (Koran 12:29)",
+    "enkelvoudig en bepaald: gebouwd op de damma",
+    "wat op de mudaf lijkt: in nasb",
+    "een niet-bedoeld onbepaald woord: in nasb",
+    "met de lam: ayyuha ertussen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de toestand van elke munada en waarom: ya Zaydu; ya 'Abda Allahi; ya tali'an jabalan; ya rajulan.",
+     "answer": "Ya Zaydu: enkelvoudig en bepaald, gebouwd op de damma. Ya 'Abda Allahi: mudaf, in nasb. Ya tali'an jabalan: lijkt op de mudaf (het regeert jabalan), in nasb. Ya rajulan: een niet-bedoeld onbepaald woord, in nasb, zoals de blinde een willekeurige man roept."
+    },
+    {
+     "prompt": "Hoe verschillen ya rajulu en ya rajulan?",
+     "answer": "In ya rajulu wordt een bepaalde man geroepen, en het roepen maakt het woord bepaald: enkelvoudig en bepaald, is het gebouwd op de damma. In ya rajulan is geen bepaalde man bedoeld: het blijft onbepaald en staat in nasb."
+    },
+    {
+     "prompt": "Verkort Malik, Mansur en Harith in het roepen, en geef de twee manieren voor Harith.",
+     "answer": "Ya Mali, ya Mansu, ya Haru of ya Hari: de laatste letter die overblijft neemt de damma, alsof hij de hele naam was, of houdt zijn eigen klinker."
+    },
+    {
+     "prompt": "Waarom wordt de munada bij de mansub naamwoorden geteld, al eindigt ya Zaydu op een damma?",
+     "answer": "De munada is het voorwerp van een verondersteld werkwoord, ad'u, waarvoor het partikel staat; dus zijn plaats is nasb. Wanneer hij enkelvoudig en bepaald is, is hij gebouwd op zijn kenteken van raf', maar zijn plaats blijft nasb, en wanneer hij mudaf is, wordt de nasb zichtbaar."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het partikel van het roepen staat op de plaats van…",
+     "options": [
+      "ittaqi",
+      "een partikel van de jarr",
+      "ad'u, “ik roep”",
+      "niets"
+     ],
+     "explanation": "Dus is de munada een voorwerp."
+    },
+    {
+     "prompt": "Hoeveel partikels van het roepen geeft het boek?",
+     "options": [
+      "vier",
+      "zes",
+      "drie",
+      "vijf"
+     ],
+     "explanation": "Ya, aya, haya, ay, de hamza."
+    },
+    {
+     "prompt": "Ya Zaydani is gebouwd op…",
+     "options": [
+      "de alif",
+      "de damma",
+      "de ya'",
+      "de fatha"
+     ],
+     "explanation": "Het kenteken van raf' van het tweevoud."
+    },
+    {
+     "prompt": "Ya la-Zaydin staat in khafd vanwege…",
+     "options": [
+      "de ya",
+      "de lam van de hulproep",
+      "de alif",
+      "de idafa"
+     ],
+     "explanation": "De lam van de istighatha."
+    },
+    {
+     "prompt": "Met een naamwoord dat de lam van de bepaaldheid heeft, zegt men…",
+     "options": [
+      "ya al-rajulu",
+      "ya al-rajula",
+      "ya ayyuha al-rajulu",
+      "aya al-rajulu"
+     ],
+     "explanation": "Ayyuha wordt ertussen gezet."
+    },
+    {
+     "prompt": "Verkort wordt 'Uthman…",
+     "options": [
+      "ya 'Uthma (met lange a)",
+      "ya 'Uth",
+      "ya 'Uthman",
+      "ya 'Uthma"
+     ],
+     "explanation": "De toegevoegde alif en nun vallen weg."
+    },
+    {
+     "prompt": "Wa wordt alleen gebruikt voor…",
+     "options": [
+      "de beklaagde",
+      "wie dichtbij is",
+      "wie ver weg is",
+      "de hulproep"
+     ],
+     "explanation": "Wa Zaydah; ya dient voor beide."
+    }
+   ],
+   "diagram": {
+    "caption": "De soorten munada (blz. 28–29)",
+    "labels": {
+     "Munādā": "Munada",
+     "Its state": "Zijn toestand",
+     "The book's example": "Het voorbeeld van het boek",
+     "single and definite": "enkelvoudig en bepaald",
+     "built on its sign of rafʿ": "gebouwd op zijn kenteken van raf'",
+     "with the lām of help": "met de lam van de hulproep",
+     "khafḍ": "khafd",
+     "with the alif of the call": "met de alif van de roep",
+     "fatḥa": "fatha",
+     "muḍāf": "mudaf",
+     "naṣb": "nasb",
+     "like the muḍāf": "lijkt op de mudaf",
+     "indefinite, no one meant": "onbepaald, niemand bedoeld",
+     "with the lām of definiteness": "met de lam van de bepaaldheid",
+     "ayyuhā between": "ayyuha ertussen",
+     "shortened": "verkort",
+     "ḍamma, or its own vowel": "damma, of zijn eigen klinker"
+    }
+   }
+  },
+  "19": {
+   "title": "De maf'ul fihi, de maf'ul lahu en de maf'ul ma'ahu",
+   "body": [
+    "De maf'ul fihi is de tijd of plaats waarin de handeling gebeurt, en hij heet een zarf. Zarfs van tijd zijn vaag, zonder vaste grens, zoals dahr, “een tijdperk”, hin, “een tijdje”, of begrensd, zoals yawm, layla, shahr, sana; “ze staan allemaal in nasb door een veronderstelde fi”: sumtu dahran, safartu shahran.",
+    "Zarfs van plaats zijn van dezelfde twee soorten, maar ze gedragen zich anders. Een vage plaats staat in nasb door een veronderstelde fi: jalastu khalfaka wa-amamaka. Een begrensde plaats, een met een naam en grenzen, neemt geen nasb: “fi moet erbij genoemd worden”: jalastu fi al-dari, fi al-suqi, fi al-masjidi. Men zegt niet jalastu al-dara.",
+    "De maf'ul lahu is datgene “ter wille waarvan de handeling die ervoor genoemd is gebeurt”, in nasb door een veronderstelde lam: darabtuhu ta'diban, “ik sloeg hem ter opvoeding”, dat wil zeggen li-l-ta'dibi; qa'adtu 'ani al-harbi jubnan, “ik bleef weg van de oorlog uit lafheid”. Al-Zajjaj houdt het voor een masdar, een absoluut voorwerp van een verondersteld werkwoord: addabtuhu ta'diban, jabuntu jubnan.",
+    "De maf'ul ma'ahu is wat na een waw komt in de betekenis van ma'a, “met”, om begeleiding te tonen: ja'a al-bardu wa-l-jubbati, “de kou kwam, met de mantels”, waar de mantels niet komen, dus de waw kan ze niet aan de kou nevenschikken; en ji'tu ana wa-Zaydan. Wanneer het werkwoord in de bewoording staat en nevenschikking ('atf) toegestaan is, zijn beide toegestaan: ji'tu ana wa-Zaydan, of wa-Zaydun, nevengeschikt aan ana. Wanneer nevenschikking niet toegestaan is, is nasb de enige weg: ji'tu wa-Zaydan, omdat een naamwoord niet aan de ta' nevengeschikt wordt zonder het losse voornaamwoord.",
+    "Wanneer het werkwoord alleen in de betekenis staat, wordt de regel omgekeerd. Als nevenschikking toegestaan is, is ze verplicht: ma li-Zaydin wa-'Amrin, “wat is er met Zayd en 'Amr?”, 'Amrin nevengeschikt aan Zaydin. Zo niet, dan nasb: ma laka wa-Zaydan, ma sha'nuka wa-'Amran, “want de betekenis is ma tasna'u”, “wat doe je [met hem]?”; Zaydan kan niet aan de kaf nevengeschikt worden zonder de lam te herhalen."
+   ],
+   "terms": [
+    "de zarf: de tijd of plaats van de handeling, de maf'ul fihi",
+    "vaag en begrensd, van tijd en van plaats",
+    "datgene ter wille waarvan de handeling gebeurt, met de lam verondersteld",
+    "het naamwoord na de waw van begeleiding"
+   ],
+   "examples": [
+    "tijd, vaag en begrensd: fi verondersteld",
+    "een vage plaats: fi verondersteld",
+    "een begrensde plaats: fi moet gezegd worden",
+    "de maf'ul lahu",
+    "de maf'ul ma'ahu: geen nevenschikking mogelijk"
+   ],
+   "tasks": [
+    {
+     "prompt": "Verbeter waar nodig: jalastu al-dara; jalastu khalfaka; sumtu dahran.",
+     "answer": "Jalastu al-dara is fout: een begrensde plaats heeft fi nodig, jalastu fi al-dari. Jalastu khalfaka is goed: een vage plaats, in nasb door een veronderstelde fi. Sumtu dahran is goed: elke zarf van tijd staat in nasb door een veronderstelde fi."
+    },
+    {
+     "prompt": "Geef de twee lezingen van jubnan in qa'adtu 'ani al-harbi jubnan.",
+     "answer": "Zoals het boek het neemt: een maf'ul lahu in nasb door een veronderstelde lam: li-l-jubni, “uit lafheid”. Volgens al-Zajjaj: een masdar, het absolute voorwerp van een verondersteld werkwoord: jabuntu jubnan."
+    },
+    {
+     "prompt": "Waarom zijn nasb en raf' beide toegestaan in ji'tu ana wa-Zayd…, maar alleen nasb in ji'tu wa-Zaydan?",
+     "answer": "Met ana mag het naamwoord nevengeschikt worden aan het losse voornaamwoord (raf') of een maf'ul ma'ahu zijn (nasb). Zonder ana kan het niet nevengeschikt worden aan de ta', een aangehecht marfu' voornaamwoord, dus nasb als maf'ul ma'ahu is de enige weg."
+    },
+    {
+     "prompt": "Waarom wordt ma li-Zaydin wa-'Amrin nevengeschikt, maar staat ma laka wa-Zaydan in nasb?",
+     "answer": "Het werkwoord staat alleen in de betekenis. In het eerste kan 'Amr aan Zayd nevengeschikt worden (een naamwoord na de lam), dus de nevenschikking is verplicht. In het tweede kan Zayd niet aan de kaf, een majrur voornaamwoord, nevengeschikt worden zonder de lam te herhalen, dus het staat in nasb, met de betekenis ma tasna'u."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De maf'ul fihi heet ook…",
+     "options": [
+      "hal",
+      "tamyiz",
+      "masdar",
+      "zarf"
+     ],
+     "explanation": "De tijd of plaats van de handeling."
+    },
+    {
+     "prompt": "Wat staat in nasb door een veronderstelde fi?",
+     "options": [
+      "elke zarf van tijd",
+      "alleen vage tijd",
+      "alleen begrensde tijd",
+      "alleen plaatsen"
+     ],
+     "explanation": "Vage en begrensde tijden evenzeer."
+    },
+    {
+     "prompt": "Een begrensde plaats, zoals al-dar, heeft nodig…",
+     "options": [
+      "een veronderstelde fi",
+      "een uitgesproken fi",
+      "de lam",
+      "niets"
+     ],
+     "explanation": "Jalastu fi al-dari."
+    },
+    {
+     "prompt": "In darabtuhu ta'diban is ta'diban…",
+     "options": [
+      "de maf'ul fihi",
+      "de hal",
+      "de maf'ul lahu",
+      "de tamyiz"
+     ],
+     "explanation": "Dat wil zeggen li-l-ta'dibi."
+    },
+    {
+     "prompt": "Voor al-Zajjaj is de maf'ul lahu…",
+     "options": [
+      "een hal",
+      "een maf'ul bihi",
+      "een tamyiz",
+      "een masdar van een verondersteld werkwoord"
+     ],
+     "explanation": "Addabtuhu ta'diban."
+    },
+    {
+     "prompt": "In ja'a al-bardu wa-l-jubbati staat al-jubbati in nasb omdat…",
+     "options": [
+      "de mantels niet komen: geen nevenschikking",
+      "het een hal is",
+      "het het voorwerp van ja'a is",
+      "het vrouwelijk is"
+     ],
+     "explanation": "De waw betekent ma'a."
+    },
+    {
+     "prompt": "In ma laka wa-Zaydan is de betekenis…",
+     "options": [
+      "“je hebt niets”",
+      "ma tasna'u, “wat doe je?”",
+      "“Zayd is van jou”",
+      "“ga met Zayd”"
+     ],
+     "explanation": "Het werkwoord staat alleen in de betekenis."
+    }
+   ],
+   "diagram": {
+    "caption": "De maf'ul ma'ahu: nasb of nevenschikking (blz. 31)",
+    "labels": {
+     "The verb": "Het werkwoord",
+     "Joining": "Nevenschikking",
+     "The noun": "Het naamwoord",
+     "The book's example": "Het voorbeeld van het boek",
+     "in the wording": "in de bewoording",
+     "allowed": "toegestaan",
+     "naṣb or rafʿ": "nasb of raf'",
+     "not allowed": "niet toegestaan",
+     "naṣb": "nasb",
+     "only in meaning": "alleen in de betekenis",
+     "joined": "nevengeschikt"
+    }
+   }
+  },
+  "20": {
+   "title": "De hal",
+   "body": [
+    "De hal (de toestandsbepaling) is “een uiting die de toestand van de fa'il of van de maf'ul bihi of van beide laat zien”: ja'ani Zaydun rakiban, de toestand van de fa'il; darabtu Zaydan mashdudan, “ik sloeg Zayd vastgebonden”, de toestand van het voorwerp; laqitu 'Amran rakibayni, “ik ontmoette 'Amr, wij beiden rijdend”, de toestand van beide, getoond door het tweevoud.",
+    "De bezitter mag ook een fa'il of een voorwerp alleen in de betekenis zijn. In Zaydun fi al-dari qa'iman hoort de hal bij de verborgen fa'il van het veronderstelde istaqarra (les 14): Zaydun istaqarra fi al-dari qa'iman. In hadha Zaydun qa'iman hoort hij bij Zayd als het voorwerp van de betekenis van hadha, “ik wijs hem aan, staande”, of, zoals het boek ook zegt, “ik vestig de aandacht en wijs aan”.",
+    "Zijn regeerder is “een werkwoord of de betekenis van een werkwoord”. De hal is “altijd onbepaald”, en zijn bezitter (dhu al-hal) is meestal bepaald. Als de bezitter onbepaald is, moet de hal ervoor komen: ja'ani rakiban rajulun, “opdat hij niet verward wordt met het bijvoeglijk naamwoord in de toestand van nasb”. De reden is het bekijken waard: in raf' zien rajulun rakibun en rajulun rakiban er verschillend uit, maar in nasb kan ra'aytu rajulan rakiban “een rijdende man” zijn of “een man, rijdend”. Vooraan gezet kan het alleen een hal zijn.",
+    "De hal mag een mededelende zin zijn: ja'ani Zaydun wa-ghulamuhu rakibun, “Zayd kwam, terwijl zijn knecht reed”, of rakiba ghulamuhu. En zijn regeerder mag weggelaten worden wanneer de samenhang het laat zien: tegen een reiziger zeg je saliman ghaniman, “veilig, met buit”, dat wil zeggen tarji'u saliman ghaniman, “moge je veilig terugkeren, met buit”."
+   ],
+   "terms": [
+    "wat de toestand van de fa'il, het voorwerp of beide laat zien",
+    "de bezitter van de hal, meestal bepaald",
+    "een regeerder die de betekenis van een werkwoord is, zoals in hadha",
+    "verwarring met het bijvoeglijk naamwoord, in nasb"
+   ],
+   "examples": [
+    "de hal van het voorwerp",
+    "de hal van beide",
+    "de bezitter een fa'il in de betekenis",
+    "een onbepaalde bezitter: de hal vooraan",
+    "de regeerder weggelaten: tarji'u"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek de hal en zijn bezitter: ja'ani Zaydun rakiban; darabtu Zaydan mashdudan; laqitu 'Amran rakibayni.",
+     "answer": "Rakiban: de hal van Zayd, de fa'il. Mashdudan: de hal van Zayd, het voorwerp. Rakibayni: de hal van zowel de spreker (de ta', de fa'il) als 'Amr (het voorwerp), zoals het tweevoud laat zien."
+    },
+    {
+     "prompt": "Waarom moet de hal vooraan komen in ja'ani rakiban rajulun?",
+     "answer": "Zijn bezitter rajulun is onbepaald. Na een onbepaald woord zou een hal in nasb verward worden met een bijvoeglijk naamwoord in nasb (ra'aytu rajulan rakiban). Vooraan gezet kan het alleen een hal zijn."
+    },
+    {
+     "prompt": "Wat regeert qa'iman in hadha Zaydun qa'iman?",
+     "answer": "De betekenis van een werkwoord in hadha: “ik wijs hem aan” of “ik vestig de aandacht”. Zayd is in de betekenis zijn voorwerp, en qa'iman laat zijn toestand zien."
+    },
+    {
+     "prompt": "Vul de weggelaten regeerder aan in saliman ghaniman, gezegd tegen een reiziger.",
+     "answer": "Tarji'u saliman ghaniman, “moge je veilig terugkeren, met buit”: de twee woorden zijn hals van de verborgen fa'il van tarji'u, dat weggelaten is omdat de samenhang het laat zien."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De hal laat de toestand zien van…",
+     "options": [
+      "de fa'il, het voorwerp of beide",
+      "het werkwoord",
+      "de tijd",
+      "alleen de mubtada'"
+     ],
+     "explanation": "Laqitu 'Amran rakibayni: beide."
+    },
+    {
+     "prompt": "In laqitu 'Amran rakibayni laat het tweevoud zien dat de hal hoort bij…",
+     "options": [
+      "alleen 'Amr",
+      "zowel de spreker als 'Amr",
+      "alleen de spreker",
+      "geen van beiden"
+     ],
+     "explanation": "Beiden reden."
+    },
+    {
+     "prompt": "De regeerder van de hal is…",
+     "options": [
+      "alleen een werkwoord",
+      "een partikel",
+      "een werkwoord of de betekenis van een werkwoord",
+      "de abstracte regeerder"
+     ],
+     "explanation": "Zoals hadha, “ik wijs aan”."
+    },
+    {
+     "prompt": "De hal is altijd…",
+     "options": [
+      "bepaald",
+      "een zin",
+      "vooraan",
+      "onbepaald"
+     ],
+     "explanation": "Zijn bezitter is meestal bepaald."
+    },
+    {
+     "prompt": "Verwarring met het bijvoeglijk naamwoord ontstaat in…",
+     "options": [
+      "nasb",
+      "raf'",
+      "jarr",
+      "elke toestand"
+     ],
+     "explanation": "Ra'aytu rajulan rakiban."
+    },
+    {
+     "prompt": "In ja'ani Zaydun wa-ghulamuhu rakibun is de hal…",
+     "options": [
+      "alleen rakibun",
+      "een mededelende zin",
+      "een bijvoeglijk naamwoord",
+      "een khabar van Zayd"
+     ],
+     "explanation": "Wa-ghulamuhu rakibun, met de waw."
+    },
+    {
+     "prompt": "Saliman ghaniman wordt geregeerd door…",
+     "options": [
+      "de reiziger",
+      "niets",
+      "een weggelaten werkwoord: tarji'u",
+      "de betekenis van hadha"
+     ],
+     "explanation": "De samenhang laat het zien."
+    }
+   ],
+   "diagram": {
+    "caption": "De hal en zijn bezitter (blz. 31–32)",
+    "labels": {
+     "Owner": "Bezitter",
+     "The book's example": "Het voorbeeld van het boek",
+     "Governor": "Regeerder",
+     "the fāʿil": "de fa'il",
+     "jāʾa": "ja'a",
+     "the object": "het voorwerp",
+     "ḍarabtu": "darabtu",
+     "both": "beide",
+     "laqītu": "laqitu",
+     "a fāʿil in meaning": "een fa'il in de betekenis",
+     "istaqarra, understood": "istaqarra, verondersteld",
+     "an object in meaning": "een voorwerp in de betekenis",
+     "the meaning of hādhā": "de betekenis van hadha",
+     "indefinite: the ḥāl first": "onbepaald: de hal vooraan",
+     "governor dropped": "regeerder weggelaten",
+     "tarjiʿu, understood": "tarji'u, verondersteld"
+    }
+   }
+  },
+  "21": {
+   "title": "De tamyiz; de mustathna en wanneer hij in nasb staat",
+   "body": [
+    "De tamyiz (de specificatie) is “een onbepaald naamwoord dat genoemd wordt na een maat”, van getal, inhoud, gewicht, oppervlakte of iets anders, “waarin vaagheid is, en het neemt die vaagheid weg”. 'Indi 'ishruna dirhaman: twintig wat? Dirhams. Qafizani burran, twee qafiz tarwe (inhoud); manawani samnan, twee mann boter (gewicht); jaribani qutnan, twee jarib katoen (oppervlakte); en 'ala al-tamrati mithluha zubdan, “op de dadel zijn gelijke in boter”, waar mithl vaag is tot zubdan het uitlegt.",
+    "Hij mag ook uitleggen wat geen maat is: hadha khatamun hadidan, “een ring van ijzer”, siwarun dhahaban, “een armband van goud”; maar hier is de khafd gebruikelijker, khatamu hadidin. En hij mag na een hele zin komen, om de vaagheid van haar toeschrijving weg te nemen: taba Zaydun nafsan, 'ilman, aban, “Zayd is goed van ziel, in kennis, als vader”: de zin zegt dat Zayd goed is, en de tamyiz zegt waarin.",
+    "De mustathna is “een uiting die genoemd wordt na illa en haar zusters, opdat bekend is dat wat aan het voorafgaande wordt toegeschreven, niet aan hem wordt toegeschreven”. Hij is verbonden (muttasil) wanneer hij uit een veelheid wordt gehaald: ja'ani al-qawmu illa Zaydan, waarbij Zayd een van de mensen is. Hij is onderbroken (munqati') wanneer hij nooit inbegrepen was in datgene waaruit de uitzondering gemaakt wordt (al-mustathna minhu): ja'ani al-qawmu illa himaran, “de mensen kwamen, behalve een ezel”.",
+    "Zijn i'rab is van vier soorten, en de eerste is nasb. De mustathna staat in nasb wanneer hij verbonden is en na illa komt in bevestigende kalam; wanneer hij onderbroken is; wanneer hij komt voor datgene waaruit hij uitgezonderd wordt, ma ja'ani illa Zaydan ahadun; na khala en 'ada, “volgens de meesten”; en na ma khala, ma 'ada, laysa en la yakunu: ja'ani al-qawmu khala Zaydan. De andere drie soorten komen in de volgende les."
+   ],
+   "terms": [
+    "een onbepaald woord dat de vaagheid van een maat of een zin wegneemt",
+    "een maat: van getal, inhoud, gewicht of oppervlakte",
+    "de verbonden en de onderbroken uitzondering",
+    "bevestigende kalam, zonder ontkenning, verbod of vraag"
+   ],
+   "examples": [
+    "een tamyiz van een getal",
+    "een tamyiz van een ander vaag woord",
+    "een tamyiz van wat geen maat is",
+    "een tamyiz van de toeschrijving van een zin",
+    "de mustathna voor datgene waaruit hij uitgezonderd wordt: nasb"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek de tamyiz en zeg welke vaagheid hij wegneemt: 'indi 'ishruna dirhaman; manawani samnan; taba Zaydun 'ilman.",
+     "answer": "Dirhaman neemt de vaagheid van het getal twintig weg. Samnan neemt de vaagheid van het gewicht “twee mann” weg. 'Ilman neemt de vaagheid van de toeschrijving in taba Zaydun weg: Zayd is goed in kennis."
+    },
+    {
+     "prompt": "Geef de twee manieren om “een ring van ijzer” te zeggen, en welke volgens het boek gebruikelijker is.",
+     "answer": "Khatamun hadidan, met de tamyiz in nasb, of khatamu hadidin, in khafd door idafa. Bij wat geen maat is, is de khafd gebruikelijker."
+    },
+    {
+     "prompt": "Verbonden of onderbroken? ja'ani al-qawmu illa Zaydan; ja'ani al-qawmu illa himaran.",
+     "answer": "Illa Zaydan is verbonden: Zayd is een van de mensen en wordt uit hen gehaald. Illa himaran is onderbroken: de ezel was nooit onder de mensen. Beide staan in nasb."
+    },
+    {
+     "prompt": "Geef de gevallen waarin de mustathna in nasb staat, zoals het boek ze opsomt.",
+     "answer": "Verbonden, na illa, in bevestigende kalam; onderbroken; vooraan gezet voor datgene waaruit hij uitgezonderd wordt; na khala en 'ada (volgens de meesten); na ma khala, ma 'ada, laysa en la yakunu."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De tamyiz is altijd…",
+     "options": [
+      "bepaald",
+      "onbepaald",
+      "een zin",
+      "een masdar"
+     ],
+     "explanation": "Hij neemt vaagheid weg."
+    },
+    {
+     "prompt": "In qafizani burran zit de vaagheid in…",
+     "options": [
+      "een gewicht",
+      "een oppervlakte",
+      "een inhoudsmaat",
+      "een getal"
+     ],
+     "explanation": "Twee qafiz waarvan? Van tarwe."
+    },
+    {
+     "prompt": "In taba Zaydun nafsan neemt de tamyiz vaagheid weg uit…",
+     "options": [
+      "een maat",
+      "een getal",
+      "de naam van de fa'il",
+      "de toeschrijving van de zin"
+     ],
+     "explanation": "Goed waarin? Van ziel."
+    },
+    {
+     "prompt": "Bij wat geen maat is, zoals khatam, is de gebruikelijkere manier…",
+     "options": [
+      "khafd door idafa",
+      "nasb",
+      "raf'",
+      "een hal"
+     ],
+     "explanation": "Khatamu hadidin."
+    },
+    {
+     "prompt": "In ja'ani al-qawmu illa himaran is de uitzondering…",
+     "options": [
+      "verbonden",
+      "onderbroken",
+      "leeg",
+      "een badal"
+     ],
+     "explanation": "De ezel was niet inbegrepen."
+    },
+    {
+     "prompt": "Ma ja'ani illa Zaydan ahadun: Zaydan staat in nasb omdat…",
+     "options": [
+      "de kalam bevestigend is",
+      "hij onderbroken is",
+      "hij voor datgene komt waaruit hij uitgezonderd wordt",
+      "van khala"
+     ],
+     "explanation": "Ahadun komt erna."
+    },
+    {
+     "prompt": "Na laysa en la yakunu staat de mustathna…",
+     "options": [
+      "in jarr",
+      "in raf'",
+      "in beide",
+      "in nasb"
+     ],
+     "explanation": "Ja'ani al-qawmu laysa Zaydan."
+    }
+   ],
+   "diagram": {
+    "caption": "De tamyiz (blz. 32–33)",
+    "labels": {
+     "The vagueness is in": "De vaagheid zit in",
+     "The book's example": "Het voorbeeld van het boek",
+     "a number": "een getal",
+     "a measure of capacity": "een inhoudsmaat",
+     "a weight": "een gewicht",
+     "an area": "een oppervlakte",
+     "another vague word": "een ander vaag woord",
+     "not a measure: khafḍ commoner": "geen maat: khafd gebruikelijker",
+     "a sentence's attribution": "de toeschrijving van een zin"
+    }
+   }
+  },
+  "22": {
+   "title": "De mustathna in andere toestanden; ghayr en illa",
+   "body": [
+    "De tweede soort: na illa in kalam die niet bevestigend is, “elke kalam waarin een ontkenning, een verbod of een vraag is”, terwijl datgene waaruit uitgezonderd wordt genoemd is, zijn twee manieren toegestaan: nasb als uitzondering, of een badal van het woord ervoor: ma ja'ani ahadun illa Zaydan, of illa Zaydun, waarbij Zaydun ahadun in zijn raf' vervangt.",
+    "De derde soort is de lege uitzondering (mufarragh): na illa in kalam die niet bevestigend is, zonder dat er iets genoemd is waaruit uitgezonderd wordt. Dan “is zijn i'rab volgens de regeerders”: ma ja'ani illa Zaydun, waar Zaydun de fa'il is; ma ra'aytu illa Zaydan, het voorwerp; ma marartu illa bi-Zaydin. De regeerder is “vrijgemaakt” voor het woord na illa, dat de ontkenning alleen beperkt: “niemand kwam behalve Zayd” is “alleen Zayd kwam”.",
+    "De vierde soort: in jarr, na ghayr, siwa en sawa', en na hasha “volgens de meesten”: ja'ani al-qawmu ghayra Zaydin, siwa Zaydin, sawa'a Zaydin, hasha Zaydin. Hier is het uitgezonderde naamwoord een mudaf ilayhi. Ghayr zelf neemt dan de i'rab die het uitgezonderde naamwoord na illa zou hebben gekregen: ghayra in bevestigende kalam, ghayra himarin wanneer de uitzondering onderbroken is, ma ja'ani ghayra Zaydin al-qawmu wanneer ghayr vooraan staat, ghayru of ghayra na ahadun, en in de lege uitzondering wat de regeerder ook nodig heeft: ma ja'ani ghayru Zaydin, ma ra'aytu ghayra Zaydin, ma marartu bi-ghayri Zaydin.",
+    "“Het woord ghayr is vastgelegd voor het bijvoeglijk naamwoord en wordt soms gebruikt voor de uitzondering, zoals illa vastgelegd is voor de uitzondering en soms gebruikt wordt voor het bijvoeglijk naamwoord”: law kana fihima alihatun illa Allahu la-fasadata (Koran 21:22), “dat wil zeggen ghayru Allahi”. Het boek voegt la ilaha illa Allahu hieraan toe. Veel grammatici ontleden die uitdrukking anders, met illa als het partikel van de uitzondering en Allahu als badal van de plaats van la met haar ism; de student hoort beide te kennen."
+   ],
+   "terms": [
+    "kalam met een ontkenning, een verbod of een vraag",
+    "de mustathna die de plaats en de i'rab van het woord ervoor inneemt",
+    "de lege uitzondering: niets genoemd waaruit uitgezonderd wordt",
+    "woorden van uitzondering waarna het naamwoord in jarr staat"
+   ],
+   "examples": [
+    "niet bevestigend, het geheel genoemd: nasb of badal",
+    "de lege uitzondering: zoals de regeerder nodig heeft",
+    "het naamwoord na ghayr in jarr; ghayr in nasb",
+    "illa als bijvoeglijk naamwoord (Koran 21:22)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de i'rab van Zayd en de soort uitzondering: ma ja'ani ahadun illa Zaydun; ma ra'aytu illa Zaydan; ja'ani al-qawmu hasha Zaydin.",
+     "answer": "Illa Zaydun: kalam die niet bevestigend is, het geheel genoemd; Zaydun is een badal van ahadun, in raf' (nasb zou ook toegestaan zijn). Illa Zaydan: de lege uitzondering; Zaydan is het voorwerp van ra'aytu. Hasha Zaydin: in jarr na hasha, volgens de meesten."
+    },
+    {
+     "prompt": "Zet ghayr in plaats van illa en geef zijn i'rab: ja'ani al-qawmu illa Zaydan; ma ja'ani illa Zaydun.",
+     "answer": "Ja'ani al-qawmu ghayra Zaydin: ghayra in nasb, zoals Zaydan was. Ma ja'ani ghayru Zaydin: ghayru in raf', de fa'il, zoals Zaydun was. In beide staat Zayd na ghayr in jarr als mudaf ilayhi."
+    },
+    {
+     "prompt": "Waarom heet de uitzondering in ma marartu illa bi-Zaydin “leeg”?",
+     "answer": "Er is niets genoemd waaruit uitgezonderd wordt, dus de regeerder (marartu met zijn ba') is vrijgemaakt voor het woord na illa en werkt er rechtstreeks op: bi-Zaydin neemt de i'rab die de regeerder nodig heeft. Illa beperkt alleen de ontkenning."
+    },
+    {
+     "prompt": "Hoe leest het boek illa in Koran 21:22, en welke andere lezing van la ilaha illa Allahu geven veel grammatici?",
+     "answer": "In Koran 21:22 wordt illa gebruikt als bijvoeglijk naamwoord, “anders dan God” (ghayru Allahi), en het boek leest la ilaha illa Allahu op dezelfde manier. Veel grammatici nemen illa daar als het partikel van de uitzondering, met Allahu als badal van de plaats van la en haar ism."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Kalam die niet bevestigend is, heeft…",
+     "options": [
+      "geen werkwoord",
+      "geen fa'il",
+      "een ontkenning, een verbod of een vraag",
+      "illa"
+     ],
+     "explanation": "Kalam ghayr mujab."
+    },
+    {
+     "prompt": "In ma ja'ani ahadun illa Zaydun is Zaydun…",
+     "options": [
+      "de fa'il van ja'a",
+      "een bijvoeglijk naamwoord",
+      "een mubtada'",
+      "een badal van ahadun"
+     ],
+     "explanation": "Nasb is ook toegestaan."
+    },
+    {
+     "prompt": "In de lege uitzondering neemt het naamwoord na illa…",
+     "options": [
+      "de i'rab die de regeerder nodig heeft",
+      "altijd nasb",
+      "altijd raf'",
+      "jarr"
+     ],
+     "explanation": "Ma ja'ani illa Zaydun."
+    },
+    {
+     "prompt": "Na siwa staat het uitgezonderde naamwoord…",
+     "options": [
+      "in nasb",
+      "in jarr",
+      "in raf'",
+      "in beide"
+     ],
+     "explanation": "Siwa Zaydin."
+    },
+    {
+     "prompt": "Ghayr neemt de i'rab die…",
+     "options": [
+      "zijn naamwoord neemt",
+      "altijd nasb is",
+      "de mustathna na illa zou nemen",
+      "de fa'il heeft"
+     ],
+     "explanation": "Ma ja'ani ghayru Zaydin."
+    },
+    {
+     "prompt": "Ghayr is vastgelegd voor…",
+     "options": [
+      "de uitzondering",
+      "de ontkenning",
+      "de vraag",
+      "het bijvoeglijk naamwoord"
+     ],
+     "explanation": "Het wordt ook voor de uitzondering gebruikt."
+    },
+    {
+     "prompt": "In Koran 21:22 betekent illa Allahu…",
+     "options": [
+      "anders dan God",
+      "behalve God",
+      "alleen God",
+      "God alleen"
+     ],
+     "explanation": "Illa gebruikt als bijvoeglijk naamwoord: ghayru Allahi."
+    }
+   ],
+   "diagram": {
+    "caption": "De mustathna na illa, en ghayr (blz. 33–34)",
+    "labels": {
+     "Case": "Geval",
+     "After illā": "Na illa",
+     "With ghayr": "Met ghayr",
+     "affirmative, connected": "bevestigend, verbonden",
+     "disconnected": "onderbroken",
+     "put first": "vooraan gezet",
+     "not affirmative, whole named": "niet bevestigend, het geheel genoemd",
+     "emptied: the fāʿil": "leeg: de fa'il",
+     "emptied: the object": "leeg: het voorwerp",
+     "emptied: after a particle": "leeg: na een partikel"
+    }
+   }
+  },
+  "23": {
+   "title": "De khabar van kana, het ism van inna, het ism van la, de khabar van ma",
+   "body": [
+    "De khabar van kana en haar zusters is “wat gezegd wordt nadat ze zijn binnengekomen”: kana Zaydun qa'iman. Hij is als de khabar van de mubtada', met één vrijheid meer: hij mag voor haar ism komen “ook wanneer hij bepaald is”, kana al-qa'ima Zaydun. Een bepaalde khabar van een mubtada' zou dat niet kunnen, omdat de hoorder dan niet kan zien welk woord welk is; na kana zegt de i'rab het. Het ism van inna en haar zusters is datgene waarover iets gezegd wordt nadat ze zijn binnengekomen: inna Zaydan qa'imun.",
+    "Het naamwoord in nasb door de la die de hele soort ontkent, is een onbepaalde mudaf die erop volgt, la ghulama rajulin fi al-dari, of een die op een mudaf lijkt, la 'ishrina dirhaman fi al-kisi. Een enkelvoudig onbepaald woord na la is gebouwd op fatha: la rajula fi al-dari. Als het naamwoord bepaald is, of van la gescheiden, staat het in raf' en moet la herhaald worden met een ander naamwoord: la Zaydun fi al-dari wa-la 'Amrun; la fiha rajulun wa-la imra'atun.",
+    "Met een herhaalde la, zoals in la hawla wa-la quwwata illa bi-Allahi, zijn vijf manieren toegestaan: fatha op beide; raf' in beide; fatha op het eerste en nasb in het tweede; fatha op het eerste en raf' in het tweede; raf' in het eerste en fatha op het tweede. Het ism van la mag weggelaten worden bij een samenhang: la 'alayka, “dat wil zeggen la ba'sa 'alayka”.",
+    "De khabar van ma en la zoals laysa staat in nasb: ma Zaydun qa'iman, la rajulun hadiran. Hun werking vervalt in drie gevallen: wanneer de khabar na illa komt, ma Zaydun illa qa'imun; wanneer hij voor het ism komt, ma qa'imun Zaydun; en wanneer in na ma wordt toegevoegd, ma in Zaydun qa'imun. Dit is het dialect van de Hijaz. De Banu Tamim laten ma en la helemaal niet regeren.",
+    "Het boek bewijst dat met een vers dat gezegd is “in de taal van de Banu Tamim”: wa-muhafhafin ka-l-ghusni qultu lahu intasib, fa-ajaba ma qatlu al-muhibbi haramu, “een slanke als een tak; ik zei hem: noem je afkomst! Hij antwoordde: de minnaar doden is niet verboden”. Het antwoord is tegelijk het plagen van een geliefde en een grammaticaal bewijs: door haramu in raf' na ma te zeggen, liet hij zien dat hij van Tamim was."
+   ],
+   "terms": [
+    "de khabar van kana, in nasb; hij mag vooraan komen, ook wanneer hij bepaald is",
+    "het ism van de la van de soort: in nasb, of gebouwd wanneer het enkelvoudig is",
+    "het herhalen van la, verplicht wanneer haar naamwoord bepaald of gescheiden is",
+    "het dialect van de Hijaz, dat ma laat regeren, en dat van Tamim, dat dat niet doet"
+   ],
+   "examples": [
+    "een bepaalde khabar van kana voor haar ism",
+    "het ism van la, mudaf: in nasb",
+    "een enkelvoudig onbepaald woord: gebouwd op fatha",
+    "na illa: ma regeert niet",
+    "haramu in raf': de manier van Tamim"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de toestand van het ism van la en de reden: la rajula fi al-dari; la ghulama rajulin fi al-dari; la Zaydun fi al-dari wa-la 'Amrun.",
+     "answer": "Rajula: een enkelvoudig onbepaald woord, gebouwd op fatha. Ghulama: een onbepaalde mudaf, in nasb. Zaydun: bepaald, dus in raf', en la wordt herhaald met 'Amrun."
+    },
+    {
+     "prompt": "Waarom mag men kana al-qa'ima Zaydun zeggen, met een bepaalde khabar vooraan?",
+     "answer": "Na kana laat de i'rab zien welk woord welk is: al-qa'ima staat in nasb, de khabar, en Zaydun in raf', het ism. Bij een mubtada' en khabar, beide in raf', zou een bepaalde khabar vooraan niet te onderscheiden zijn."
+    },
+    {
+     "prompt": "Regeert ma in elk? ma Zaydun qa'iman; ma Zaydun illa qa'imun; ma qa'imun Zaydun; ma in Zaydun qa'imun.",
+     "answer": "In het eerste regeert ma (de manier van de Hijaz): qa'iman in nasb. In de andere drie niet: de khabar komt na illa, of voor het ism, of in is na ma toegevoegd; dus de khabar staat in raf'."
+    },
+    {
+     "prompt": "Hoe bewijst het vers van de dichter het dialect van Tamim?",
+     "answer": "Gevraagd naar zijn afkomst antwoordde de jongeman ma qatlu al-muhibbi haramu, met haramu in raf' na ma. In het dialect van de Hijaz zou ma de khabar in nasb zetten (haraman); de raf' toont de manier van Tamim, dus zijn grammatica verried zijn afkomst."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De khabar van kana mag voor haar ism komen…",
+     "options": [
+      "alleen wanneer hij onbepaald is",
+      "nooit",
+      "alleen als hij een zarf is",
+      "ook wanneer hij bepaald is"
+     ],
+     "explanation": "Kana al-qa'ima Zaydun."
+    },
+    {
+     "prompt": "La rajula fi al-dari: rajula is…",
+     "options": [
+      "gebouwd op fatha",
+      "in nasb door i'rab",
+      "in raf'",
+      "in jarr"
+     ],
+     "explanation": "Een enkelvoudig onbepaald woord na la."
+    },
+    {
+     "prompt": "Wanneer het ism van la bepaald is…",
+     "options": [
+      "is het gebouwd",
+      "staat het in raf' en wordt la herhaald",
+      "staat het in nasb",
+      "valt la weg"
+     ],
+     "explanation": "La Zaydun fi al-dari wa-la 'Amrun."
+    },
+    {
+     "prompt": "Hoeveel manieren staat het boek toe in la hawla wa-la quwwata?",
+     "options": [
+      "vier",
+      "drie",
+      "vijf",
+      "twee"
+     ],
+     "explanation": "Fatha, raf' en nasb in vijf combinaties."
+    },
+    {
+     "prompt": "Ma Zaydun illa qa'imun: qa'imun staat in raf' omdat…",
+     "options": [
+      "Tamim zo spreekt",
+      "het vooraan komt",
+      "in is toegevoegd",
+      "de khabar na illa komt"
+     ],
+     "explanation": "De werking van ma vervalt."
+    },
+    {
+     "prompt": "De Banu Tamim…",
+     "options": [
+      "laten ma en la nooit regeren",
+      "laten ze altijd regeren",
+      "laten alleen la regeren",
+      "laten alleen ma regeren"
+     ],
+     "explanation": "Het regeren is het dialect van de Hijaz."
+    },
+    {
+     "prompt": "In het vers van de dichter staat haramu in raf' omdat…",
+     "options": [
+      "het een mubtada' is",
+      "de spreker van Tamim is",
+      "het na illa volgt",
+      "het vooraan komt"
+     ],
+     "explanation": "Zijn grammatica verried zijn afkomst."
+    }
+   ],
+   "diagram": {
+    "caption": "Het ism van de la die de hele soort ontkent (blz. 35–36)",
+    "labels": {
+     "The ism": "Het ism",
+     "Its state": "Zijn toestand",
+     "The book's example": "Het voorbeeld van het boek",
+     "indefinite, muḍāf": "onbepaald, mudaf",
+     "naṣb": "nasb",
+     "like a muḍāf": "lijkt op een mudaf",
+     "single indefinite": "enkelvoudig onbepaald",
+     "built on fatḥa": "gebouwd op fatha",
+     "definite: lā repeated": "bepaald: la herhaald",
+     "rafʿ": "raf'",
+     "separated: lā repeated": "gescheiden: la herhaald",
+     "dropped": "weggelaten",
+     "understood": "verondersteld"
+    }
+   }
+  },
+  "24": {
+   "title": "De majrur: de mudaf ilayhi; de idafa van betekenis en van uiting",
+   "body": [
+    "Het derde doel is kort: “de majrur naamwoorden zijn alleen de mudaf ilayhi”. Het boek neemt de term ruim, zoals de Kafiya doet: hij is “elk naamwoord waaraan iets betrokken wordt door middel van een partikel van de jarr”, hetzij uitgesproken, marartu bi-Zaydin, wat de vaktaal een jarr [met lange a] en majrur noemt, hetzij verondersteld, ghulamu Zaydin, “waarvan de onderliggende vorm ghulamun li-Zaydin is”, wat de vaktaal een mudaf en mudaf ilayhi noemt. Zo zijn de partikels van de jarr en de idafa één onderwerp, van twee kanten bekeken.",
+    "De mudaf moet ontdaan worden van zijn tanwin, “of van wat op zijn plaats staat, de nun van het tweevoud en van het meervoud”: ghulamu Zaydin, ghulama Zaydin, muslimu Misra (les 6).",
+    "De idafa is van twee soorten. De idafa van betekenis (ma'nawiyya) is elke idafa waarin de mudaf geen bijvoeglijk naamwoord is dat mudaf gemaakt is aan het woord dat het regeert. Ze heeft de zin van de lam, ghulamu Zaydin, “een knecht die van Zayd is”; of van min, khatamu fiddatin, “een ring van zilver”, wanneer het tweede de stof is waarvan het eerste gemaakt is; of van fi, salatu al-layli, “het gebed in de nacht”. Ze geeft de mudaf bepaaldheid, als de mudaf ilayhi bepaald is, ghulamu Zaydin, of toespitsing, als hij onbepaald is, ghulamu rajulin, “de knecht van een man”: geen bekende knecht, maar ook niet meer zomaar een knecht.",
+    "De idafa van uiting (lafziyya) is een bijvoeglijk naamwoord dat mudaf gemaakt is aan het woord dat het regeert: daribu Zaydin, hasanu al-wajhi. Ze wordt “als gescheiden beschouwd”: in de betekenis is het nog steeds daribun Zaydan, hasanun wajhuhu. “Haar nut is alleen lichtheid in de bewoording”: een tanwin of een nun valt weg, en verder verandert er niets. Daarom blijft daribu Zaydin onbepaald; de Koran beschrijft een onbepaald woord met zo'n uitdrukking: hadyan baligha al-ka'bati (Koran 5:95)."
+   ],
+   "terms": [
+    "het naamwoord waaraan iets betrokken wordt door een partikel van de jarr, uitgesproken of verondersteld",
+    "het partikel van de jarr en het naamwoord dat het regeert",
+    "idafa van betekenis: bepaaldheid of toespitsing",
+    "idafa van uiting: een bijvoeglijk naamwoord met zijn geregeerde woord, alleen lichtheid"
+   ],
+   "examples": [
+    "een jarr [met lange a] en majrur: het partikel uitgesproken",
+    "een mudaf en mudaf ilayhi: ghulamun li-Zaydin",
+    "idafa in de zin van min",
+    "idafa in de zin van fi",
+    "idafa van uiting"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de zin van elke idafa van betekenis: ghulamu Zaydin; khatamu fiddatin; salatu al-layli.",
+     "answer": "Ghulamu Zaydin: de lam, ghulamun li-Zaydin, “een knecht die van Zayd is”. Khatamu fiddatin: min, “een ring van zilver”. Salatu al-layli: fi, “het gebed in de nacht”."
+    },
+    {
+     "prompt": "Waarom wordt ghulamu Zaydin bepaald, maar daribu Zaydin niet?",
+     "answer": "Ghulamu Zaydin is een idafa van betekenis, die de mudaf bepaald maakt wanneer de mudaf ilayhi bepaald is. Daribu Zaydin is een idafa van uiting, een bijvoeglijk naamwoord met zijn geregeerde woord; ze wordt als gescheiden beschouwd (daribun Zaydan) en geeft alleen lichtheid, dus het blijft onbepaald."
+    },
+    {
+     "prompt": "Zet elk in idafa: ghulamani li-Zaydin; muslimuna min Misra.",
+     "answer": "Ghulama Zaydin en muslimu Misra: de nun van het tweevoud en van het meervoud, die op de plaats van de tanwin staat, valt weg in de idafa."
+    },
+    {
+     "prompt": "Hoe telt het boek de majrur naamwoorden, en welke twee constructies brengt het onder één hoofd?",
+     "answer": "Maar één majrur, de mudaf ilayhi. Daaronder vallen het naamwoord na een uitgesproken partikel van de jarr (jarr [met lange a] en majrur, marartu bi-Zaydin) en het naamwoord na een verondersteld partikel (mudaf en mudaf ilayhi, ghulamu Zaydin)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het boek telt als majrur naamwoorden…",
+     "options": [
+      "alleen de mudaf ilayhi",
+      "twee",
+      "vijf",
+      "twaalf"
+     ],
+     "explanation": "Met het partikel van de jarr uitgesproken of verondersteld."
+    },
+    {
+     "prompt": "De onderliggende vorm van ghulamu Zaydin is…",
+     "options": [
+      "ghulamun min Zaydin",
+      "ghulamun li-Zaydin",
+      "ghulamun fi Zaydin",
+      "ghulamun Zaydun"
+     ],
+     "explanation": "Een veronderstelde lam."
+    },
+    {
+     "prompt": "De mudaf moet ontdaan worden van…",
+     "options": [
+      "alleen de lam",
+      "zijn klinker",
+      "de tanwin en de nun van het tweevoud en meervoud",
+      "zijn i'rab"
+     ],
+     "explanation": "Ghulama Zaydin, muslimu Misra."
+    },
+    {
+     "prompt": "Khatamu fiddatin heeft de zin van…",
+     "options": [
+      "de lam",
+      "fi",
+      "ma'a",
+      "min"
+     ],
+     "explanation": "Een ring van zilver."
+    },
+    {
+     "prompt": "Idafa van betekenis aan een onbepaald woord geeft…",
+     "options": [
+      "toespitsing",
+      "bepaaldheid",
+      "alleen lichtheid",
+      "niets"
+     ],
+     "explanation": "Ghulamu rajulin."
+    },
+    {
+     "prompt": "Idafa van uiting is…",
+     "options": [
+      "elke idafa met de lam",
+      "een bijvoeglijk naamwoord dat mudaf gemaakt is aan zijn geregeerde woord",
+      "idafa aan een voornaamwoord",
+      "idafa in de zin van fi"
+     ],
+     "explanation": "Daribu Zaydin, hasanu al-wajhi."
+    },
+    {
+     "prompt": "Het nut van de idafa van uiting is…",
+     "options": [
+      "bepaaldheid",
+      "toespitsing",
+      "alleen lichtheid in de bewoording",
+      "nadruk"
+     ],
+     "explanation": "Daarom blijft daribu Zaydin onbepaald."
+    }
+   ],
+   "diagram": {
+    "caption": "De twee soorten idafa (blz. 37)",
+    "labels": {
+     "Kind": "Soort",
+     "Sense": "Zin",
+     "The book's example": "Het voorbeeld van het boek",
+     "It gives": "Het geeft",
+     "of meaning": "van betekenis",
+     "the lām": "de lam",
+     "definiteness": "bepaaldheid",
+     "min": "min",
+     "particularity": "toespitsing",
+     "fī": "fi",
+     "of meaning, to an indefinite": "van betekenis, aan een onbepaald woord",
+     "of wording": "van uiting",
+     "taken as separated": "als gescheiden beschouwd",
+     "lightness only": "alleen lichtheid"
+    }
+   }
+  },
+  "25": {
+   "title": "Het naamwoord met de ya' van de spreker; de zes naamwoorden; dhu",
+   "body": [
+    "Een gaaf naamwoord, of een dat als het gave loopt (les 5), dat mudaf gemaakt is aan de ya' van de spreker, neemt een kasra aan zijn eind, en de ya' mag een sukun of een fatha hebben: ghulami of ghulamiya, dalwi, zabyi. Als het naamwoord op een alif eindigt, blijft de alif en neemt de ya' een fatha: 'asaya, “mijn stok”, rahaya, “mijn molen”. De stam Hudhayl zegt in plaats daarvan 'asayya en rahayya: ze veranderen de alif in een ya' en trekken die samen met het voornaamwoord.",
+    "Als het naamwoord eindigt op een ya' na een kasra, worden de twee ya's samengetrokken en neemt de tweede een fatha, “opdat er geen twee letters zonder klinker samenkomen”: qadin, qadiyya, “mijn rechter”. Als het eindigt op een waw na een damma, wordt de waw in een ya' veranderd en gebeurt hetzelfde: muslimiyya, zoals in les 6.",
+    "De zes naamwoorden met de ya' van de spreker verliezen hun letters van i'rab: akhi, abi, hami, hani; en fiyya, “mijn mond”, “volgens de meesten”, of fami “volgens sommigen”. Dhu wordt “nooit mudaf gemaakt aan een voornaamwoord”: het wordt altijd gevolgd door een naamwoord van een soort, dhu malin, dhu 'ilmin. De versregel van de dichter innama ya'rifu dha al-fadli mina al-nasi dhawuhu, “alleen wie het bezitten, kennen de man van verdienste”, met dhawuhu, is “afwijkend” (shadhdh): het is gehoord en wordt bewaard, maar niet als voorbeeld genomen.",
+    "Losgemaakt van de idafa nemen de vijf tanwin: akhun, abun, hamun, hanun, en famun, waar de mim staat voor de verloren waw van fu. Dhu wordt nooit van de idafa losgemaakt. Dit alles was idafa met een verondersteld partikel van de jarr; de partikels zelf, uitgesproken, komen in het derde deel."
+   ],
+   "terms": [
+    "de ya' van de spreker, “mijn”",
+    "het dialect van Hudhayl: 'asayya voor 'asaya",
+    "afwijkend: gehoord van de Arabieren, bewaard, maar geen voorbeeld",
+    "“bezitter van”: nooit mudaf aan een voornaamwoord, nooit losgemaakt"
+   ],
+   "examples": [
+    "een gaaf naamwoord en wat erop lijkt: de kasra voor de ya'",
+    "de alif blijft, de ya' neemt fatha",
+    "twee ya's samengetrokken, de tweede met fatha",
+    "de zes naamwoorden met de ya' van de spreker"
+   ],
+   "tasks": [
+    {
+     "prompt": "Voeg de ya' van de spreker toe zoals het boek leert: ghulam; 'asan; qadin; muslimuna.",
+     "answer": "Ghulami (of ghulamiya); 'asaya (de alif blijft, de ya' met fatha); qadiyya (de ya's samengetrokken, de tweede met fatha); muslimiyya (de waw in een ya' veranderd en samengetrokken)."
+    },
+    {
+     "prompt": "Waarom neemt de tweede ya' van qadiyya een fatha?",
+     "answer": "De ya' van het naamwoord en de ya' van de spreker worden samengetrokken; als de tweede een sukun had, zouden twee letters zonder klinker samenkomen. Dus krijgt ze een fatha."
+    },
+    {
+     "prompt": "Waarom heet dhawuhu in de versregel van de dichter afwijkend?",
+     "answer": "Dhu wordt nooit mudaf gemaakt aan een voornaamwoord, en dhawuhu is het meervoud van dhu, mudaf gemaakt aan de ha'. De Arabieren hebben het gezegd, dus het wordt bewaard, maar het breekt de regel en wordt niet nagevolgd."
+    },
+    {
+     "prompt": "Geef de zes naamwoorden losgemaakt van de idafa, en zeg welk dat niet kan.",
+     "answer": "Akhun, abun, hamun, hanun, famun. Dhu kan nooit van de idafa losgemaakt worden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Een gaaf naamwoord voor de ya' van de spreker neemt…",
+     "options": [
+      "een fatha",
+      "een kasra aan zijn eind",
+      "een damma",
+      "een sukun"
+     ],
+     "explanation": "Zoals in ghulami, “mijn knecht”."
+    },
+    {
+     "prompt": "Bij een naamwoord op een alif zeggen de meesten…",
+     "options": [
+      "'asayya",
+      "'asi",
+      "'asaya",
+      "'asay"
+     ],
+     "explanation": "Hudhayl zegt 'asayya."
+    },
+    {
+     "prompt": "Qadin met de ya' van de spreker is…",
+     "options": [
+      "qadi",
+      "qadiya",
+      "qadiya (met lange i)",
+      "qadiyya"
+     ],
+     "explanation": "De ya's samengetrokken, de tweede met fatha."
+    },
+    {
+     "prompt": "“Mijn mond” is volgens de meesten…",
+     "options": [
+      "fiyya",
+      "fami",
+      "fuya",
+      "fi"
+     ],
+     "explanation": "Fami volgens sommigen."
+    },
+    {
+     "prompt": "Dhu wordt nooit mudaf gemaakt aan…",
+     "options": [
+      "een naamwoord van een soort",
+      "een voornaamwoord",
+      "mal",
+      "'ilm"
+     ],
+     "explanation": "Dhawuhu in een vers is afwijkend."
+    },
+    {
+     "prompt": "Shadhdh betekent…",
+     "options": [
+      "fout en nooit gezegd",
+      "het beste gebruik",
+      "gehoord maar niet na te volgen",
+      "een dialect van Hudhayl"
+     ],
+     "explanation": "Het wordt bewaard zoals gehoord, niet als voorbeeld gebruikt."
+    },
+    {
+     "prompt": "Losgemaakt van de idafa wordt fu…",
+     "options": [
+      "fun",
+      "fahun",
+      "fi",
+      "famun"
+     ],
+     "explanation": "De mim staat voor de waw."
+    }
+   ],
+   "diagram": {
+    "caption": "Naamwoorden met de ya' van de spreker (blz. 38–39)",
+    "labels": {
+     "The noun ends in": "Het naamwoord eindigt op",
+     "What is done": "Wat er gebeurt",
+     "The book's example": "Het voorbeeld van het boek",
+     "a sound letter, or like one": "een gave letter, of iets dergelijks",
+     "kasra; the yāʾ with sukūn or fatḥa": "kasra; de ya' met sukun of fatha",
+     "an alif": "een alif",
+     "the alif stays; the yāʾ with fatḥa": "de alif blijft; de ya' met fatha",
+     "an alif, in Hudhayl": "een alif, bij Hudhayl",
+     "the alif turned to yāʾ, merged": "de alif wordt ya', samengetrokken",
+     "a yāʾ after kasra": "een ya' na kasra",
+     "merged; the second yāʾ with fatḥa": "samengetrokken; de tweede ya' met fatha",
+     "a wāw after ḍamma": "een waw na damma",
+     "turned to yāʾ and merged": "wordt ya' en samengetrokken",
+     "the six nouns": "de zes naamwoorden",
+     "the letters of iʿrāb dropped": "de letters van i'rab weggelaten"
+    }
+   }
+  },
+  "26": {
+   "title": "De volgers; het bijvoeglijk naamwoord",
+   "body": [
+    "Alle naamwoorden tot nu toe hadden hun i'rab “uit zichzelf” (bi-l-asala): er kwam een regeerder op elk. Een naamwoord kan zijn i'rab ook hebben “als volger” (bi-l-taba'iyya) van het woord ervoor: het is dan een volger (tabi'), “elk tweede woord dat de i'rab van het woord ervoor krijgt, vanuit één opzicht”. De commentatoren verklaren de laatste woorden: een khabar heeft dezelfde raf' als zijn mubtada', maar vanuit een ander opzicht, als wat erover gezegd wordt, dus hij is geen volger. De volgers zijn vijf: het bijvoeglijk naamwoord (na't), de 'atf met partikels, de nadruk, de badal en de verklarende 'atf ('atf al-bayan).",
+    "Het bijvoeglijk naamwoord “duidt op een betekenis in het woord dat het volgt”, ja'ani rajulun 'alimun, of “in iets wat daarmee verbonden is”, ja'ani rajulun 'alimun abuhu; het heet ook sifa. De eerste soort volgt zijn naamwoord in tien dingen: de drie toestanden van i'rab, bepaaldheid en onbepaaldheid, de drie getallen en de twee geslachten: rajulun 'alimun, rajulani 'alimani, rijalun 'alimuna, Zaydun al-'alimu, imra'atun 'alimatun. Natuurlijk laat één bijvoeglijk naamwoord er maar vier tegelijk zien, één uit elke reeks.",
+    "De tweede soort volgt alleen in “de eerste vijf”, i'rab en bepaaldheid: min hadhihi al-qaryati al-zalimi ahluha (Koran 4:75), “uit deze stad waarvan de bewoners onrechtplegers zijn”. Al-zalimi staat in jarr en is bepaald zoals al-qaryati, maar mannelijk en enkelvoud, omdat wat het beschrijft ahluha is, de bewoners, en het daarmee overeenstemt zoals een werkwoord met zijn expliciete fa'il (les 9).",
+    "Waarvoor dient het bijvoeglijk naamwoord? Om een onbepaald woord toe te spitsen, rajulun 'alimun, of een bepaald woord te verduidelijken, Zaydun al-fadilu. Of alleen voor lof, bismi Allahi al-rahmani al-rahimi; voor blaam, a'udhu bi-Allahi mina al-shaytani al-rajimi; of voor nadruk, nafkhatun wahidatun, “één enkele stoot” (Koran 69:13), waar wahida niets toevoegt wat nafkha niet al zei.",
+    "Een onbepaald woord mag beschreven worden door een mededelende zin: marartu bi-rajulin abuhu 'alimun, of qama abuhu. En “het voornaamwoord wordt niet beschreven, en er wordt ook niets door beschreven”: een voornaamwoord is al zo bepaald als een woord kan zijn, en het noemt geen eigenschap."
+   ],
+   "terms": [
+    "de volger: een tweede woord met de i'rab van het eerste, vanuit één opzicht",
+    "het bijvoeglijk naamwoord: een betekenis in wat het volgt, of in iets wat daarmee verbonden is",
+    "het naamwoord dat door het bijvoeglijk naamwoord beschreven wordt",
+    "het bijvoeglijk naamwoord van een verbonden ding, dat alleen volgt in i'rab en bepaaldheid"
+   ],
+   "examples": [
+    "het bijvoeglijk naamwoord volgt zijn naamwoord in getal",
+    "het bijvoeglijk naamwoord van een verbonden ding (Koran 4:75)",
+    "een bijvoeglijk naamwoord voor blaam",
+    "een bijvoeglijk naamwoord voor nadruk",
+    "een onbepaald woord beschreven door een zin"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke soort bijvoeglijk naamwoord, en waarin stemt het overeen? ja'ani rajulun 'alimun; ja'ani rajulun 'alimun abuhu.",
+     "answer": "In het eerste beschrijft 'alimun de man zelf en stemt het overeen in i'rab, bepaaldheid, getal en geslacht. In het tweede beschrijft het zijn vader, een verbonden ding; het stemt met rajulun alleen overeen in i'rab (raf') en onbepaaldheid, en zet abuhu als zijn fa'il in raf'."
+    },
+    {
+     "prompt": "Waarom is al-zalimi mannelijk enkelvoud in min hadhihi al-qaryati al-zalimi ahluha?",
+     "answer": "Het beschrijft de bewoners (ahluha), niet de stad: het is het bijvoeglijk naamwoord van een verbonden ding. Het volgt al-qaryati in jarr en bepaaldheid, maar in getal en geslacht gedraagt het zich als een werkwoord voor een expliciete fa'il: enkelvoud, en mannelijk bij ahl."
+    },
+    {
+     "prompt": "Zeg waarvoor elk bijvoeglijk naamwoord dient: rajulun 'alimun; Zaydun al-fadilu; al-rahmani al-rahimi; nafkhatun wahidatun.",
+     "answer": "Rajulun 'alimun: om een onbepaald woord toe te spitsen. Zaydun al-fadilu: om een bepaald woord te verduidelijken. Al-rahmani al-rahimi: alleen lof. Nafkhatun wahidatun: nadruk."
+    },
+    {
+     "prompt": "Waarom is een khabar geen volger, al heeft hij de i'rab van zijn mubtada'?",
+     "answer": "Een volger neemt de i'rab van het woord ervoor vanuit één opzicht, dezelfde rol. De khabar staat in raf' vanuit een ander opzicht: hij is wat gezegd wordt, geen tweede woord voor datgene waarover gesproken wordt."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel volgers telt het boek?",
+     "options": [
+      "vier",
+      "zes",
+      "vijf",
+      "drie"
+     ],
+     "explanation": "Na't, 'atf met partikels, nadruk, badal, verklarende 'atf."
+    },
+    {
+     "prompt": "Een volger krijgt zijn i'rab…",
+     "options": [
+      "van een eigen regeerder",
+      "van de abstracte regeerder",
+      "nooit",
+      "van het woord ervoor, vanuit één opzicht"
+     ],
+     "explanation": "Bi-l-taba'iyya, niet bi-l-asala."
+    },
+    {
+     "prompt": "Het bijvoeglijk naamwoord van de eigen betekenis van het naamwoord volgt het in…",
+     "options": [
+      "tien dingen",
+      "vijf dingen",
+      "twee dingen",
+      "niets"
+     ],
+     "explanation": "I'rab, bepaaldheid, getal en geslacht."
+    },
+    {
+     "prompt": "Het bijvoeglijk naamwoord van een verbonden ding volgt alleen in…",
+     "options": [
+      "getal en geslacht",
+      "i'rab en bepaaldheid",
+      "alleen geslacht",
+      "alles"
+     ],
+     "explanation": "Al-qaryati al-zalimi ahluha."
+    },
+    {
+     "prompt": "Bij een onbepaald woord doet het bijvoeglijk naamwoord dit:…",
+     "options": [
+      "het verduidelijkt",
+      "het prijst alleen",
+      "het spitst het naamwoord toe",
+      "het laakt"
+     ],
+     "explanation": "Rajulun 'alimun."
+    },
+    {
+     "prompt": "Al-shaytani al-rajimi heeft een bijvoeglijk naamwoord voor…",
+     "options": [
+      "lof",
+      "nadruk",
+      "toespitsing",
+      "blaam"
+     ],
+     "explanation": "De vervloekte."
+    },
+    {
+     "prompt": "Wat geldt voor het voornaamwoord?",
+     "options": [
+      "het wordt niet beschreven en beschrijft niet",
+      "het kan beschreven worden",
+      "het kan beschrijven",
+      "het neemt een zin als bijvoeglijk naamwoord"
+     ],
+     "explanation": "Het is volledig bepaald en noemt geen eigenschap."
+    }
+   ],
+   "diagram": {
+    "caption": "Waarin het bijvoeglijk naamwoord zijn naamwoord volgt (blz. 39–40)",
+    "labels": {
+     "Agreement in": "Overeenstemming in",
+     "Its noun's own meaning": "De eigen betekenis van het naamwoord",
+     "A connected thing's meaning": "De betekenis van een verbonden ding",
+     "iʿrāb": "i'rab",
+     "yes": "ja",
+     "definiteness": "bepaaldheid",
+     "number": "getal",
+     "no": "nee",
+     "gender": "geslacht",
+     "the book's example": "het voorbeeld van het boek"
+    }
+   }
+  },
+  "27": {
+   "title": "De 'atf met partikels",
+   "body": [
+    "De 'atf met partikels, ook 'atf al-nasaq genoemd, is “een volger waaraan wordt toegeschreven wat aan het gevolgde woord wordt toegeschreven, terwijl beide door die toeschrijving bedoeld zijn”: qama Zaydun wa-'Amrun, waar beiden opstonden. De laatste woorden onderscheiden hem van de badal (les 29), waar alleen het tweede bedoeld is. Zijn voorwaarde is een partikel van de 'atf tussen de twee; de partikels komen in het derde deel.",
+    "Twee voornaamwoorden vragen zorg. Een naamwoord dat nevengeschikt wordt aan een aangehecht marfu' voornaamwoord, heeft eerst het losse voornaamwoord nodig: darabtu ana wa-Zaydun, niet darabtu wa-Zaydun, tenzij er iets tussen komt: darabtu al-yawma wa-Zaydun. Een naamwoord dat nevengeschikt wordt aan een majrur voornaamwoord, heeft het partikel van de jarr opnieuw nodig: marartu bika wa-bi-Zaydin. De commentatoren geven voor beide de reden: een aangehecht voornaamwoord is als een deel van het woord waaraan het vastzit, en een naamwoord kan niet aan een deel van een woord nevengeschikt worden.",
+    "“Het nevengeschikte woord heeft de regel van het woord waaraan het nevengeschikt is”: als het eerste een bijvoeglijk naamwoord, een khabar, een sila of een hal is, dan ook het tweede, en het moet aan dezelfde voorwaarden voldoen. Het boek geeft een toets: “waar de ma'tuf op de plaats van de ma'tuf 'alayhi gezet kan worden, is de nevenschikking toegestaan, en waar niet, niet.” Dus na Zaydun qama abuhu kan men wa-qa'ada 'Amrun niet als tweede khabar nevenschikken: qa'ada 'Amrun zou niet alleen de khabar van Zayd kunnen zijn, omdat het geen voornaamwoord van hem heeft.",
+    "Kan één partikel twee woorden nevenschikken aan de geregeerde woorden van twee verschillende regeerders? Alleen, zegt het boek, wanneer het eerste ervan majrur is en vooraan staat, en het tweede ook: fi al-dari Zaydun wa-l-hujrati 'Amrun, waar al-hujrati nevengeschikt is aan wat fi regeert, en 'Amrun aan wat de ibtida' regeert. Over deze kwestie bestaan nog twee andere opvattingen: al-Farra' staat het overal toe, en Sibawayh nergens."
+   ],
+   "terms": [
+    "de 'atf met partikels: beide woorden bedoeld door de toeschrijving",
+    "het nevengeschikte woord en het woord waaraan het nevengeschikt is",
+    "het partikel van de jarr herhalen na een majrur voornaamwoord",
+    "nevenschikken aan de geregeerde woorden van twee regeerders"
+   ],
+   "examples": [
+    "beide bedoeld door de toeschrijving",
+    "het losse voornaamwoord voor het nevengeschikte naamwoord",
+    "een scheiding: het losse voornaamwoord niet nodig",
+    "het partikel van de jarr herhaald",
+    "twee regeerders, de majrur vooraan"
+   ],
+   "tasks": [
+    {
+     "prompt": "Verbeter elk en geef de regel: darabtu wa-Zaydun; marartu bika wa-Zaydin.",
+     "answer": "Darabtu ana wa-Zaydun: een naamwoord nevengeschikt aan een aangehecht marfu' voornaamwoord heeft eerst het losse voornaamwoord nodig (of een scheiding, darabtu al-yawma wa-Zaydun). Marartu bika wa-bi-Zaydin: bij een majrur voornaamwoord wordt het partikel van de jarr herhaald."
+    },
+    {
+     "prompt": "Hoe verschilt de 'atf met partikels van de badal?",
+     "answer": "Bij de 'atf zijn beide woorden bedoeld door de toeschrijving: in qama Zaydun wa-'Amrun stonden beiden op. Bij de badal is alleen het tweede bedoeld, en het eerste leidt er alleen naartoe."
+    },
+    {
+     "prompt": "Pas de toets van het boek toe: mag wa-qa'ada 'Amrun als tweede khabar nevengeschikt worden na Zaydun qama abuhu?",
+     "answer": "Nee. Het nevengeschikte woord moet op de plaats van het eerste kunnen staan. Qa'ada 'Amrun heeft geen voornaamwoord dat naar Zayd verwijst, dus het zou op zichzelf niet de khabar van Zayd kunnen zijn; het kan er ook niet als een nevengeschikt worden."
+    },
+    {
+     "prompt": "Geef de drie opvattingen over het nevenschikken aan de geregeerde woorden van twee verschillende regeerders.",
+     "answer": "Het boek: alleen toegestaan wanneer het eerste geregeerde woord majrur is en vooraan staat, en het tweede evenzo (fi al-dari Zaydun wa-l-hujrati 'Amrun). Al-Farra': overal toegestaan. Sibawayh: nergens toegestaan."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Bij de 'atf met partikels…",
+     "options": [
+      "is alleen het tweede bedoeld",
+      "is alleen het eerste bedoeld",
+      "is geen van beide bedoeld",
+      "zijn beide woorden bedoeld door de toeschrijving"
+     ],
+     "explanation": "Qama Zaydun wa-'Amrun."
+    },
+    {
+     "prompt": "De 'atf met partikels heet ook…",
+     "options": [
+      "'atf al-nasaq",
+      "'atf al-bayan",
+      "badal",
+      "ta'kid"
+     ],
+     "explanation": "De nevenschikking van de rangschikking."
+    },
+    {
+     "prompt": "Om Zaydun aan de ta' van darabtu nevengeschikt te maken, zegt men…",
+     "options": [
+      "darabtu wa-Zaydun",
+      "darabtu ana wa-Zaydun",
+      "darabtu wa-Zaydan",
+      "darabtu iyyaya wa-Zaydun"
+     ],
+     "explanation": "Tenzij er iets tussen staat."
+    },
+    {
+     "prompt": "In marartu bika wa-bi-Zaydin wordt de ba' herhaald omdat…",
+     "options": [
+      "Zayd bepaald is",
+      "het werkwoord onovergankelijk is",
+      "het eerste een majrur voornaamwoord is",
+      "het nadruk is"
+     ],
+     "explanation": "Het partikel van de jarr moet herhaald worden."
+    },
+    {
+     "prompt": "Als het eerste een sila is, is het nevengeschikte woord…",
+     "options": [
+      "een khabar",
+      "vrij van regels",
+      "een hal",
+      "ook een sila"
+     ],
+     "explanation": "Het heeft de regel van het woord waaraan het nevengeschikt is."
+    },
+    {
+     "prompt": "Wie staat het nevenschikken aan de geregeerde woorden van twee regeerders overal toe?",
+     "options": [
+      "al-Farra'",
+      "Sibawayh",
+      "het boek",
+      "de Basrische grammatici"
+     ],
+     "explanation": "Sibawayh staat het nergens toe."
+    },
+    {
+     "prompt": "In fi al-dari Zaydun wa-l-hujrati 'Amrun is al-hujrati nevengeschikt aan…",
+     "options": [
+      "Zaydun",
+      "al-dari, geregeerd door fi",
+      "'Amrun",
+      "niets"
+     ],
+     "explanation": "En 'Amrun aan Zaydun."
+    }
+   ],
+   "diagram": {
+    "caption": "Regels van de 'atf met partikels (blz. 41)",
+    "labels": {
+     "Case": "Geval",
+     "Rule": "Regel",
+     "The book's example": "Het voorbeeld van het boek",
+     "to a marfūʿ joined pronoun": "aan een aangehecht marfu' voornaamwoord",
+     "the separate pronoun first": "eerst het losse voornaamwoord",
+     "the same, with a separation": "hetzelfde, met een scheiding",
+     "the separate pronoun may go": "het losse voornaamwoord mag wegblijven",
+     "to a majrūr pronoun": "aan een majrur voornaamwoord",
+     "the particle repeated": "het partikel herhaald",
+     "two governors, majrūr first": "twee regeerders, majrur vooraan",
+     "allowed in the book's view": "toegestaan volgens het boek"
+    }
+   }
+  },
+  "28": {
+   "title": "De nadruk",
+   "body": [
+    "De nadruk (tawkid) is “een volger die aanduidt dat het gevolgde woord bevestigd wordt in wat eraan wordt toegeschreven, of dat het oordeel elk individu ervan omvat”. Twee gebruiken dus: de twijfel wegnemen dat iemand anders bedoeld was (ja'ani Zaydun nafsuhu, Zayd zelf, niet zijn bode), en de twijfel wegnemen dat sommigen werden overgeslagen (ja'ani al-qawmu kulluhum).",
+    "De nadruk in de bewoording (lafzi) herhaalt het eerste woord: ja'ani Zaydun Zaydun; ja'a ja'a Zaydun. De nadruk in de betekenis (ma'nawi) gebruikt vaste woorden. Nafs en 'ayn dienen voor het enkelvoud, het tweevoud en het meervoud, en veranderen hun vorm en hun voornaamwoord: Zaydun nafsuhu; al-Zaydani anfusuhuma of nafsahuma; al-Zayduna anfusuhum; evenzo 'aynuhu, a'yunuhuma of 'aynahuma, a'yunuhum; en Hindun nafsuha, al-Hindani anfusuhuma, al-Hindatu anfusuhunna. Kila en kilta zijn alleen voor het tweevoud: al-rajulani kilahuma, al-mar'atani kiltahuma.",
+    "Kull, ajma', akta', abta' en absa' zijn voor wat geen tweevoud is; kull verandert zijn voornaamwoord en de rest hun vorm: ja'ani al-qawmu kulluhum ajma'una akta'una abta'una absa'una; qamati al-nisa'u kulluhunna juma'u kuta'u buta'u busa'u. Juma' hoorde bij de diptoten van les 7.",
+    "Een aangehecht marfu' voornaamwoord dat nadruk krijgt door nafs of 'ayn, neemt eerst het losse voornaamwoord: darabta anta nafsuka. En kull en ajma' geven alleen nadruk aan wat delen heeft die gescheiden kunnen worden, “door de zintuigen, zoals al-qawm, of door het oordeel”: ishtaraytu al-'abda kullahu, “ik kocht de slaaf, hem helemaal”, omdat een slaaf in delen gekocht kan worden; maar niet akramtu al-'abda kullahu, omdat iemand eren niet in delen gebeurt.",
+    "Akta', abta' en absa' “zijn volgers van ajma' en hebben hier zonder dat woord geen betekenis”: ze komen nooit voor ajma', en ook nooit zonder. Ze voegen iets toe aan de klank van de nadruk, niet aan haar betekenis."
+   ],
+   "terms": [
+    "de nadruk in de bewoording: het woord herhaald",
+    "de nadruk in de betekenis, met vaste woorden",
+    "“zelf”: voor één, twee of velen",
+    "“alle”: alleen voor wat scheidbare delen heeft"
+   ],
+   "examples": [
+    "nadruk in de bewoording op een naamwoord en op een werkwoord",
+    "nafs voor het tweevoud, in twee vormen",
+    "kull en ajma' met zijn volgers",
+    "het losse voornaamwoord voor nafs",
+    "kull bij delen die door het oordeel scheidbaar zijn"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef elk nadruk met nafs zoals het boek doet: ja'ani Zaydun; ja'ani al-Zaydani; ja'atni al-Hindatu.",
+     "answer": "Ja'ani Zaydun nafsuhu; ja'ani al-Zaydani anfusuhuma (of nafsahuma); ja'atni al-Hindatu anfusuhunna."
+    },
+    {
+     "prompt": "Waarom mag men ishtaraytu al-'abda kullahu zeggen, maar niet akramtu al-'abda kullahu?",
+     "answer": "Kull geeft alleen nadruk aan wat delen heeft die gescheiden kunnen worden, door de zintuigen of door het oordeel. Een slaaf kan in delen gekocht worden, dus het kopen heeft delen; iemand eren gebeurt niet in delen, dus kull heeft niets om te omvatten."
+    },
+    {
+     "prompt": "Verbeter de fout: ja'ani al-qawmu akta'una ajma'una.",
+     "answer": "Ja'ani al-qawmu ajma'una akta'una. Akta', abta' en absa' volgen ajma' en hebben zonder dat woord geen betekenis; ze komen nooit ervoor."
+    },
+    {
+     "prompt": "Geef de ta' van darabta nadruk met nafs.",
+     "answer": "Darabta anta nafsuka: een aangehecht marfu' voornaamwoord dat nadruk krijgt door nafs of 'ayn, moet eerst nadruk krijgen door het losse voornaamwoord."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De nadruk duidt aan dat het woord bevestigd wordt, of…",
+     "options": [
+      "dat het oordeel elk individu ervan omvat",
+      "een betekenis erin",
+      "zijn soort",
+      "zijn tijd"
+     ],
+     "explanation": "Zoals kulluhum."
+    },
+    {
+     "prompt": "Ja'a ja'a Zaydun is…",
+     "options": [
+      "nadruk in de betekenis",
+      "nadruk in de bewoording op een werkwoord",
+      "een badal",
+      "'atf"
+     ],
+     "explanation": "Het eerste woord herhaald."
+    },
+    {
+     "prompt": "Kila en kilta zijn voor…",
+     "options": [
+      "het meervoud",
+      "het enkelvoud",
+      "alleen het tweevoud",
+      "alle drie"
+     ],
+     "explanation": "Al-rajulani kilahuma."
+    },
+    {
+     "prompt": "De nadruk van al-nisa' met ajma' is…",
+     "options": [
+      "ajma'una",
+      "jam'a'u",
+      "ajma'u",
+      "juma'u"
+     ],
+     "explanation": "Kulluhunna juma'u kuta'u buta'u busa'u."
+    },
+    {
+     "prompt": "Darabta anta nafsuka: anta is nodig omdat…",
+     "options": [
+      "een aangehecht marfu' voornaamwoord nadruk krijgt door nafs",
+      "nafs vrouwelijk is",
+      "het werkwoord in de verleden tijd staat",
+      "het nadruk in de bewoording is"
+     ],
+     "explanation": "Het losse voornaamwoord komt eerst."
+    },
+    {
+     "prompt": "Kull wordt alleen gebruikt voor…",
+     "options": [
+      "eigennamen",
+      "wat scheidbare delen heeft",
+      "voornaamwoorden",
+      "tweevouden"
+     ],
+     "explanation": "Door de zintuigen of door het oordeel."
+    },
+    {
+     "prompt": "Absa' mag komen…",
+     "options": [
+      "alleen",
+      "voor ajma'",
+      "alleen na ajma'",
+      "met kila"
+     ],
+     "explanation": "Het heeft zonder ajma' geen betekenis."
+    }
+   ],
+   "diagram": {
+    "caption": "De nadruk in de betekenis (blz. 42)",
+    "labels": {
+     "For": "Voor",
+     "Masculine": "Mannelijk",
+     "Feminine": "Vrouwelijk",
+     "one: nafs": "één: nafs",
+     "two: nafs": "twee: nafs",
+     "many: nafs": "velen: nafs",
+     "two: kilā, kiltā": "twee: kila, kilta",
+     "many: kull, ajmaʿ": "velen: kull, ajma'"
+    }
+   }
   }
  },
  "title": "Hidayat al-nahw",

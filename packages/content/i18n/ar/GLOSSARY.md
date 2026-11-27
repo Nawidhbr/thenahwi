@@ -287,3 +287,9 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 - bināʾ: البِنَاءُ is both the fixed ending (naḥw) and, in the Binā, what a pattern is built for; the lessons say which.
 - mufrad: «المُفْرَدُ» keeps the book's word in all three senses (not dual or plural; not a sentence; in the munādā, not
   muḍāf); the lessons explain the sense where it matters.
+- Case / position (a grid head in qatr): «المَوْضِعُ», not الحَالُ (reserved for the ḥāl); “a passing state” of the ḥāl is
+  «هَيْئَةٌ عَارِضَةٌ», “a lasting quality” of the resembling adjective «مَعْنًى ثَابِتٌ» (صِفَةٌ stays the adjective).
+- Contest (mughālaba): «المُغَالَبَةُ»; the verb that tells of a great number: «كَمِ الخَبَرِيَّةُ»; turned (tamyīz):
+  «المُحَوَّلُ»; the causal adjective: «النَّعْتُ السَّبَبِيُّ»; cutting off (an adjective): «القَطْعُ» (round 4, qatr).
+- An entry of a ṭabaqāt book (Nuzhat al-alibbāʾ): «التَّرْجَمَةُ»; the scan of a print: «الصُّورَةُ» (round 4, interface).
+- Correction to the line above: «كَمِ الخَبَرِيَّةُ» is the kam (not a verb) that tells of a great number.

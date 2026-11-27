@@ -292,3 +292,11 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | The separating alif | الْأَلِفُ الْفَاصِلَةُ | الف فاصل |
 | The hamza of connection | هَمْزَةُ الْوَصْلِ | همزهٔ وصل |
 | The engine (the site's conjugation tool) | — | ابزار صرف فعل |
+| Contest (the verb of outdoing, yafʿulu) | الْمُغَالَبَةُ | مغالبه |
+| The two ways (a muḍāriʿ with either vowel) | الْوَجْهَانِ | دو وجه |
+| The noun of once / the manner (fiʿla) | اسْمُ الْمَرَّةِ / الْهَيْئَةُ | اسم مرّه / هیئت |
+| Waṣf, waṣfiyya (cause of the diptote) | الْوَصْفُ / الْوَصْفِيَّةُ | وصف / وصفیّت (not صفت) |
+| What a particle of jarr is attached to | الْمُتَعَلَّقُ | متعلَّق |
+| The settled / the idle adverb | الظَّرْفُ الْمُسْتَقَرُّ / اللَّغْوُ | ظرفِ مستقرّ / ظرفِ لغو |
+| Dropping and joining | الْحَذْفُ وَالْإِيصَالُ | حذف و ایصال |
+| Vague / limited adverb of place | ظَرْفُ مَكَانٍ مُبْهَمٌ / مَحْدُودٌ | ظرفِ مکانِ مبهم / محدود |

@@ -296,3 +296,10 @@ with this list. The concepts and their order follow the English source list, `pa
   Quotations of the book in «…»; Qurʾān references as (البقرہ 2:221); the tribe Ṭayyiʾ is طے.
 - Correction (27 November 2026, round 4): the Amthila's title is الامثلۃ المختلفہ (not الامثلہ, as in the list of titles
   above); in running text the series is امثلۂ مختلفہ.
+- al-ʿAwāmil al-jadīda of Birgivī (round 4): title العوامل الجدیدہ (العوامل in running text); عواملِ سماعیہ / قیاسیہ /
+  معنویہ (عاملِ لفظی / معنوی)؛ نوع for the five kinds of heard governor; معمولات، اصالتاً / تبعاً معمول، متبوع؛ حروفِ اضافت؛
+  کافِ زائدہ؛ واوِ قسم، تائے قسم، جوابِ قسم؛ لغتِ عقیل؛ مَا حجازیہ، بنو تمیم؛ لیس کے مشابہ ما اور لا؛ استثنائے منقطع؛
+  أَنْ مقدّرہ، لامِ كَيْ، لامِ جحود؛ کلماتِ شرط، شرط / جزا؛ اسمِ فعل؛ مسئلۂ کحل (the elative's narrow case)؛ ترکیب for
+  the madrasa's parsing of a sentence; تامُّ الاعراب / ناقصُ الاعراب؛ حرکت کا حذف، آخری حرف کا حذف، نون کا حذف (Birgivī's
+  three droppings)؛ اعرابِ لفظی / تقدیری / محلی، محلاً مجرور؛ نونِ نسوہ؛ جمع اور تثنیہ کے ملحق (أُولُو، عِشْرُونَ، اِثْنَانِ،
+  كِلَا)؛ مکبّر / مصغر. Birgivī is برکوی (برگی کے محمد برکوی at the first mention), with the respectful plural.
