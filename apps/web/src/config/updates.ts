@@ -15,6 +15,7 @@ export interface Update {
 }
 
 export const UPDATES: Update[] = [
+  { date: "2026-11-27", kind: "text", title: "Iẓhār al-asrār, with 52 lessons", body: "Imām Birgivī's second book of naḥw, read after his al-ʿAwāmil on the Ottoman path: the governors, the governed and iʿrāb in full, transcribed from the Jawāʾib print of 1302/1885 and taught in 52 lessons.", href: "/study/izhar/" },
   { date: "2026-11-27", kind: "text", title: "Mīzān al-ṣarf and Naḥw-i Mīr, the Persian primers", body: "The first books of ṣarf and naḥw of the Dars-i Niẓāmī, read side by side on the Indian path: Mīzān al-ṣarf (21 lessons, Kanpur 1905) and al-Sayyid al-Sharīf al-Jurjānī's Naḥw-i Mīr (39 lessons, Lucknow 1884), transcribed from Indian lithographs, with translations into English, Arabic, Indonesian, Turkish and Urdu.", href: "/study/mizan/" },
   { date: "2026-11-27", kind: "text", title: "Qaṭr al-nadā and al-ʿAwāmil al-miʾa", body: "Ibn Hishām's Qaṭr al-nadā in 48 lessons, the intermediate naḥw of the North-African path, from an Indian lithograph of 1261/1845; and ʿAbd al-Qāhir al-Jurjānī's hundred governors in 15 lessons, from Lockett's vowelled print (Calcutta 1814), on the Indian path.", href: "/study/qatr/" },
   { date: "2026-11-27", kind: "text", title: "al-ʿIzzī, with 32 lessons", body: "Al-Zanjānī's al-Taṣrīf, the first intermediate book of ṣarf on the Ottoman and North-African paths: the bare and augmented verb, the sound and the weak, transcribed from the Ottoman Majmūʿat al-ṣarf and taught in 32 lessons.", href: "/study/izzi/" },
