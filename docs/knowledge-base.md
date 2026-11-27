@@ -71,9 +71,9 @@ field uses the same helper.
   Dark mode is a deep green-black (`#0b1819`) with a turquoise header and the same copper. True red is kept for wrong
   answers and errors only (`--bad`, `--bad-soft`). Locked items are greyed with `--muted`, not with opacity. Tiles
   (rotated squares) mark steps.
-- Arabic is set in Baloo Bhaijaan 2 (`--font-arabic`, and `--font-kufi` for the titles: the name is older than the
-  face), rounded and playful, with clear vowel marks; the settings menu of the study portal still offers Naskh and
-  Amiri.
+- Arabic is set in Noto Kufi Arabic (`--font-arabic`, and `--font-kufi` for the titles), as on The Mantiqi (since
+  27 November 2026, the owner's choice; before it Baloo Bhaijaan 2); the settings menu of the study portal still
+  offers Naskh and Amiri.
 - Colours are CSS tokens in `apps/web/src/styles/global.css`, with light and dark values; never hard-code a colour.
 - Two looks, by area (`data-area` on `<html>`, set in `BaseLayout`): the study portal (`study`: `/study/`,
   `/complete/`, `/terms/`, `/text/`, `/practice/`) is in "Clear glass"; everything else (`kb`: the knowledge base,

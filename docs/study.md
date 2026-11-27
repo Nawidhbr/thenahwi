@@ -204,7 +204,7 @@ fold carry one "open all / close all" button (`components/FoldAll.astro`).
 
 One gear menu in the header, all stored in localStorage:
 
-- transliteration (`data-translit`) and the Arabic typeface (`data-font`: modern = Baloo Bhaijaan 2, `naskh` = Noto
+- transliteration (`data-translit`) and the Arabic typeface (`data-font`: modern = Noto Kufi Arabic, `naskh` = Noto
   Naskh Arabic, `classic` = Amiri; the Latin letters do not change; the Arabic faces scaled in
   `styles/fonts-alt.css`): shown and applied in the study portal only (`data-area="study"` on `<html>`); the
   knowledge base keeps its own faces;

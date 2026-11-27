@@ -14,12 +14,18 @@ keep that file in step with this list. The layout follows the English source lis
   ذ = dz, ث = ts, خ = kh, غ = gh, ʿayn and hamza = ' (straight apostrophe), tāʾ marbūṭa = -ah, long vowels unmarked
   in terms (fi'il madhi, fi'il mudhari', mashdar, isim fa'il, i'rab, marfu', manshub, majrur, majzum, mubtada',
   khabar, fa'il, maf'ul bih). No diacritics on terms in running text.
-- **Arabic examples** inside a passage: in transliteration, then the meaning in quotation marks: *qâma Zaidun*
-  “Zaid telah berdiri”. The transliteration of examples follows the same letters as the terms, but marks long vowels
-  with a circumflex (â, î, û) and writes the endings (*Zaidun, Zaidan, Zaidin*), so the i'rab can be seen. The
-  article is written as pronounced: *al-kitâbu*, *ar-rajulu*, *bi-zaidin*; after a vowel it is joined (*fid-dâri*,
-  *bil-qaumi*, *qâmal-qaumu*), and so is Allâh (*bismillâhi*, *lillâhi*, *ilallâhi*). The forms of the translations are
+- **Arabic examples** inside a passage: in transliteration, then the meaning in quotation marks: *qama Zaidun*
+  “Zaid telah berdiri”. The transliteration of examples follows the same letters as the terms, and like them leaves long
+  vowels unmarked; it writes the endings (*Zaidun, Zaidan, Zaidin*), so the i'rab can be seen. The
+  article is written as pronounced: *al-kitabu*, *ar-rajulu*, *bi-zaidin*; after a vowel it is joined (*fid-dari*,
+  *bil-qaumi*, *qamal-qaumu*), and so is Allah (*bismillahi*, *lillahi*, *ilallahi*). The forms of the translations are
   made with this rule by script, so they stay the same in every book.
+- No marks on Latin letters (the owner's rule, 2026-11-27): no â, î, û, neither in terms nor in examples (ila, 'ala,
+  fi, qala Zaidun); the apostrophe for ʿayn and hamza stays. Where two forms would then look alike in one place, a
+  short word in brackets tells them apart instead of a mark: a dual in a list without its meaning (nushira nushira
+  [tatsniyah] nushiru), a form with an alif beside one without (if'alla [dengan alif], fa'ala [dengan alif],
+  nushsharun [dengan alif] wa nushsharun), a ya' (fi'alan wa fi'alan [dengan ya']), a plural (nashiratun [jamak]), a
+  wawu that drops (asalnya li-yaqul [dengan wawu]).
 - Where the English gives an English word with its transliteration ("the doer (fāʿil)"), the Indonesian term is the
   Arabic word itself, so it is written once (“fa'il”); at the first mention in a definition a short Indonesian
   explanation may stand in brackets (“fa'il (pelaku)”). No Latin grammar words: do not use subjek, predikat, objek,
@@ -224,7 +230,7 @@ keep that file in step with this list. The layout follows the English source lis
 | The noun / predicate of kāna, inna | اسْمُ كَانَ، خَبَرُ كَانَ … | isim kana, khabar kana; isim inna, khabar inna | — |
 | The lā that denies the whole kind | لَا النَّافِيَةُ لِلْجِنْسِ | la nafiyah lil-jinsi | — |
 | Nawāṣib / jawāzim | النَّوَاصِبُ / الجَوَازِمُ | 'amil nawashib / 'amil jawazim | yang menashabkan / yang menjazemkan |
-| Mā and lā that resemble laysa | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | mâ dan lâ yang menyerupai laisa | — |
+| Mā and lā that resemble laysa | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | ma dan la yang menyerupai laisa | — |
 | The complete vague noun (a number before its tamyīz) | الاسْمُ المُبْهَمُ التَّامُّ | isim mubham yang tam | — |
 | The meaning of the verb (a word that governs by it) | مَعْنَى الفِعْلِ | makna fi'il | — |
 

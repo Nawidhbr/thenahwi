@@ -69,10 +69,10 @@
   --measure: 46rem;
   --font-body: "Atkinson Hyperlegible", system-ui, sans-serif;
   --font-head: "Bricolage Grotesque", system-ui, sans-serif;
-  --font-arabic: "Baloo Bhaijaan 2", sans-serif;
+  --font-arabic: "Noto Kufi Arabic", "Noto Naskh Arabic", sans-serif;
   /* Knowledge base: Arabic titles are always in the site's own Arabic face (--font-kufi, the name is older than the
      face), whatever the typeface setting; reading text is Literata. */
-  --font-kufi: "Baloo Bhaijaan 2", sans-serif;
+  --font-kufi: "Noto Kufi Arabic", sans-serif;
   --font-kb: "Literata", Georgia, serif;
   --on-dark-red: #ffb27a;
   /* The colours of Google's "G", which its sign-in button must keep (account page). */
@@ -1039,7 +1039,7 @@ html[lang="ar"] .card-current > .eyebrow { margin-bottom: 12px; }
 .font-sample { font-size: 1.15rem; line-height: 1.5; white-space: nowrap; }
 .font-sample .ar { line-height: 1.5; }
 .font-name { font-size: 0.8rem; color: var(--muted); }
-.font-modern .font-sample { font-family: "Baloo Bhaijaan 2", sans-serif; }
+.font-modern .font-sample { font-family: "Noto Kufi Arabic", sans-serif; }
 .font-naskh .ar, .font-naskh .font-sample { font-family: "Nahwi Naskh", serif; }
 .font-classic .ar, .font-classic .font-sample { font-family: "Nahwi Amiri", serif; }
 /* Amiri sets its vowel marks high: give the lines more room. */

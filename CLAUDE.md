@@ -94,8 +94,8 @@ Deep turquoise, copper orange and pale turquoise on white (since 2026-11-26): de
 knowledge base's header and main panels, the current level), copper orange for the accent (the main buttons, the
 current item, kickers; a lighter copper for text and marks on turquoise), pale turquoise for the soft surfaces (the
 bands, the masters on the home page, the second menu row, the ground of the study portal), white grounds and a deep
-green-black ink for reading text. True red only for wrong answers and errors (`--bad`). Arabic is set in Baloo
-Bhaijaan 2, rounded and playful (Naskh and Amiri stay as choices in the settings). Tiles (rotated squares) mark steps.
+green-black ink for reading text. True red only for wrong answers and errors (`--bad`). Arabic is set in Noto
+Kufi Arabic, as on The Mantiqi (since 2026-11-27; Naskh and Amiri stay as choices in the settings). Tiles (rotated squares) mark steps.
 The study portal is in "Clear glass" (a light glass header that stays at the top, frosted glass cards and round
 buttons, the current level as a turquoise glass panel); the knowledge base and the other pages outside it keep straight
 panels from edge to edge (a turquoise header, square panels, plain cards), set by `data-area` on `<html>`. The site's

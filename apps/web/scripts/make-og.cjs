@@ -24,7 +24,7 @@ const page = (photo) => `<!doctype html><html><head><meta charset="utf-8"><style
 @font-face { font-family: Literata; font-weight: 700; src: url(${font("literata", "literata-latin-700-normal.woff2")}); unicode-range: U+0000-00FF; }
 @font-face { font-family: Literata; font-weight: 400; src: url(${font("literata", "literata-latin-ext-400-normal.woff2")}); }
 @font-face { font-family: Literata; font-weight: 400; src: url(${font("literata", "literata-latin-400-normal.woff2")}); unicode-range: U+0000-00FF; }
-@font-face { font-family: Kufi; font-weight: 700; src: url(${font("baloo-bhaijaan-2", "baloo-bhaijaan-2-arabic-700-normal.woff2")}); }
+@font-face { font-family: Kufi; font-weight: 700; src: url(${font("noto-kufi-arabic", "noto-kufi-arabic-arabic-700-normal.woff2")}); }
 html, body { margin: 0; width: 1200px; height: 630px; background: #0e4f55; overflow: hidden; }
 .wrap { display: grid; grid-template-columns: 560px 640px; height: 630px; }
 .photo { background: url("file://${path.join(photos, photo + "-1600.webp")}") center / cover; filter: grayscale(1) contrast(1.12); }
@@ -49,7 +49,7 @@ p { font-size: 31px; line-height: 1.3; margin: 0; color: #fff; font-weight: 400;
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 1200, height: 630 } });
   const tmp = path.join(out, ".tmp.html");
-  for (const [name, photo] of [...names.map((n) => [n, n]), ["default", "stucco-medallion-blue"]]) {
+  for (const [name, photo] of [...names.map((n) => [n, n]), ["default", "painted-arch-allah-kafi"]]) {
     fs.writeFileSync(tmp, page(photo));
     await p.goto("file://" + tmp);
     await p.evaluate(() => document.fonts.ready);
