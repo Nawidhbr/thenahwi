@@ -1,0 +1,3637 @@
+{
+  "id": "awamilmia",
+  "title": "al-ʿAwāmil al-miʾa",
+  "arabicTitle": "الْعَوَامِلُ الْمِائَةُ",
+  "transliteration": "al-ʿAwāmil al-miʾa",
+  "author": "ʿAbd al-Qāhir al-Jurjānī",
+  "authorArabic": "عَبْدُ الْقَاهِرِ الْجُرْجَانِيُّ",
+  "authorSlug": "abd-al-qahir",
+  "died": "d. 471/1078",
+  "library": "awamil-mia",
+  "madrasa": "indian",
+  "subject": "nahw",
+  "stage": "beginner",
+  "order": 1,
+  "summary": "Al-ʿAwāmil al-miʾa, “the hundred governors”, by ʿAbd al-Qāhir al-Jurjānī (d. 471/1078), sets out naḥw as a list of the words and ideas that cause iʿrāb: ninety-one heard governors in thirteen kinds, seven analogical ones and two abstract ones. On the Indian path it is read after Naḥw-i Mīr, often with its commentary, the Sharḥ Miʾat ʿāmil; the Ottoman madrasas read it too, and Birgivī wrote his “new” ʿAwāmil after it. Each kind is named by what it does, counted, listed and shown in short examples, so that the student learns by heart a map of what governs what. The lessons follow the vowelled text printed by A. Lockett (Calcutta, 1814) a kind at a time, and explain each governor on the book's own examples.",
+  "edition": {
+    "title": "The Miʾut Amil, and Shurhoo Miʾut Amil: Two Elementary Treatises on Arabic Syntax, translated by A. Lockett (the Arabic text «نسخه مائة عامل», separately paged ١–٥)",
+    "publisher": "P. Pereira (printer)",
+    "place": "Calcutta",
+    "year": "1814",
+    "pages": "1–5",
+    "source": "https://archive.org/details/miutamilshurhoom00abdauoft"
+  },
+  "textEdition": {
+    "title": "The Miʾut Amil, and Shurhoo Miʾut Amil: Two Elementary Treatises on Arabic Syntax, translated by A. Lockett (the Arabic text «نسخه مائة عامل», separately paged ١–٥)",
+    "language": "ar",
+    "publisher": "P. Pereira (printer)",
+    "place": "Calcutta",
+    "year": "1814",
+    "pages": "1–5",
+    "source": "https://archive.org/details/miutamilshurhoom00abdauoft",
+    "note": "The print’s vowels (the text is fully vocalised), kept; hamzat al-waṣl written as plain alif, alif maqṣūra as ى, hamza added where the print leaves it out (رَأْسِهَا, عَائِدٌ). Punctuation ours. The print has no headings: our section headings are the print’s own words that open each part."
+  },
+  "parts": [
+    {
+      "id": "opening",
+      "title": "A hundred governors",
+      "arabic": "مِائَةُ عَامِلٍ",
+      "transliteration": "miʾat ʿāmil",
+      "lessons": [
+        {
+          "n": 1,
+          "title": "A hundred governors and their divisions",
+          "arabic": "مِائَةُ عَامِلٍ",
+          "transliteration": "miʾat ʿāmil",
+          "pages": "1",
+          "body": [
+            "After the basmala and the name of its author, the book gives a count: the governors (ʿawāmil) of naḥw are a hundred. A governor (ʿāmil) is whatever causes the ending of another word: the particle bi- that puts Zayd in jarr in marartu bi-Zaydin, “I passed by Zayd”, or the verb kāna that puts qāʾiman in naṣb in kāna Zaydun qāʾiman, “Zayd was standing”. The book does not define the governor; it lists the governors, so that the student who knows the list can name the cause of the endings he reads.",
+            "The first division is into expressed (lafẓiyya) and abstract (maʿnawiyya). An expressed governor is a word you can hear and point to, such as bi- or kāna. An abstract governor is not a word at all but a state of the sentence, such as a noun's standing at its head with nothing before it. Of the hundred, ninety-eight are expressed and two are abstract.",
+            "The expressed governors are again of two kinds. The heard ones (samāʿiyya) are ninety-one words whose working is known only from the usage of the Arabs: nothing but their speech tells us that rubba puts its noun in jarr or that lan puts the verb in naṣb, so these are learnt one by one, as a list. The analogical ones (qiyāsiyya) are seven classes of word governed by a rule, such as “the verb governs”: any word of the class governs in the same way without being listed. So 91 + 7 + 2 = 100.",
+            "The ninety-one heard governors fall into thirteen kinds, which the book takes in turn: six kinds of particles, three of nouns and four of verbs. Each kind is named by what it does (“particles that put only the noun in jarr”, “particles that put the noun in naṣb and the predicate in rafʿ”), then counted, listed and shown in short examples. The student learns the list by heart and then reads it with a commentary; Lockett's print, which our text follows, has the Arabic Sharḥ Miʾat ʿāmil after it.",
+            "Two cautions. “Heard” does not mean rare: the particles of jarr and inna are among the commonest words of the language; it means only that their working is learnt from usage, not worked out by a rule. And the count is a way of teaching: Birgivī, who knew this book, counted sixty governors in his al-ʿAwāmil al-jadīda, dividing much the same material another way."
+          ],
+          "terms": [
+            {
+              "arabic": "الْعَامِلُ",
+              "transliteration": "al-ʿāmil",
+              "en": "the governor: what causes another word's ending"
+            },
+            {
+              "arabic": "لَفْظِيٌّ",
+              "transliteration": "lafẓī",
+              "en": "expressed: a governor that is a word"
+            },
+            {
+              "arabic": "مَعْنَوِيٌّ",
+              "transliteration": "maʿnawī",
+              "en": "abstract: a governor that is not a word"
+            },
+            {
+              "arabic": "سَمَاعِيٌّ",
+              "transliteration": "samāʿī",
+              "en": "heard: known only from the usage of the Arabs, learnt as a list"
+            },
+            {
+              "arabic": "قِيَاسِيٌّ",
+              "transliteration": "qiyāsī",
+              "en": "analogical: governing by a rule that covers a whole class"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "مِائَةُ عَامِلٍ: مِنْهَا لَفْظِيَّةٌ، وَمِنْهَا مَعْنَوِيَّةٌ",
+              "en": "miʾatu ʿāmilin: minhā lafẓiyyatun wa-minhā maʿnawiyyatun, “a hundred governors: some expressed, some abstract”",
+              "after": 1
+            },
+            {
+              "arabic": "مَرَرْتُ بِزَيْدٍ",
+              "en": "marartu bi-Zaydin, “I passed by Zayd”: bi-, a heard governor, puts Zayd in jarr",
+              "after": 2
+            },
+            {
+              "arabic": "كَانَ زَيْدٌ قَائِمًا",
+              "en": "kāna Zaydun qāʾiman, “Zayd was standing”: kāna, a heard governor of the tenth kind",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "tree",
+            "after": 2,
+            "caption": "The hundred governors: 91 heard (41 particles, 22 nouns, 28 verbs), 7 analogical, 2 abstract.",
+            "tree": {
+              "label": "The hundred governors",
+              "ar": "الْعَوَامِلُ",
+              "children": [
+                {
+                  "label": "Expressed (lafẓī): 98",
+                  "ar": "لَفْظِيَّةٌ",
+                  "children": [
+                    {
+                      "label": "Heard (samāʿī): 91",
+                      "ar": "سَمَاعِيَّةٌ",
+                      "children": [
+                        {
+                          "label": "particles: kinds 1–6",
+                          "ar": "حُرُوفٌ"
+                        },
+                        {
+                          "label": "nouns: kinds 7–9",
+                          "ar": "أَسْمَاءٌ"
+                        },
+                        {
+                          "label": "verbs: kinds 10–13",
+                          "ar": "أَفْعَالٌ"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Analogical (qiyāsī): 7",
+                      "ar": "قِيَاسِيَّةٌ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Abstract (maʿnawī): 2",
+                  "ar": "مَعْنَوِيَّةٌ"
+                }
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Add up the hundred governors by their divisions, and the heard ones by their three groups.",
+              "answer": "Heard 91 + analogical 7 + abstract 2 = 100. The heard ones are 41 particles (kinds 1–6: 17 + 6 + 2 + 7 + 4 + 5), 22 nouns (kinds 7–9: 9 + 4 + 9) and 28 verbs (kinds 10–13: 13 + 4 + 4 + 7)."
+            },
+            {
+              "prompt": "Is each governor expressed or abstract, and if expressed, heard or analogical? (a) bi- in marartu bi-Zaydin; (b) kāna in kāna Zaydun qāʾiman; (c) what puts Zaydun in rafʿ in Zaydun fī al-dāri, “Zayd is in the house”.",
+              "arabic": "مَرَرْتُ بِزَيْدٍ — كَانَ زَيْدٌ قَائِمًا — زَيْدٌ فِي الدَّارِ",
+              "answer": "(a) Expressed and heard: a particle of jarr, the first kind. (b) Expressed and heard: an incomplete verb, the tenth kind. (c) Abstract: no word stands before Zaydun; its standing at the head of the sentence (the ibtidāʾ) puts it in rafʿ."
+            },
+            {
+              "prompt": "Why must the heard governors be learnt as a list, while the analogical ones need not be?",
+              "answer": "The working of a heard governor is known only from the usage of the Arabs: no rule tells us that rubba gives jarr or lan gives naṣb, so each word is learnt by itself. An analogical governor is a class with a rule, such as “the verb governs”, so every word of the class governs without being named."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-1-1",
+              "prompt": "How many governors does al-Jurjānī count?",
+              "options": [
+                "Sixty",
+                "A hundred",
+                "Ninety-one",
+                "Thirteen"
+              ],
+              "answer": 1,
+              "explanation": "Ninety-one heard, seven analogical and two abstract: a hundred.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-1-2",
+              "prompt": "An abstract (maʿnawī) governor is…",
+              "options": [
+                "a word that is rarely used",
+                "a particle with two meanings",
+                "not a word but a state of the sentence",
+                "a verb without a doer"
+              ],
+              "answer": 2,
+              "explanation": "It has no wording; the book's two are the ibtidāʾ and the muḍāriʿ's standing in the place of a noun.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-1-3",
+              "prompt": "How many heard (samāʿī) governors are there?",
+              "options": [
+                "Seven",
+                "Two",
+                "Ninety-eight",
+                "Ninety-one"
+              ],
+              "answer": 3,
+              "explanation": "Ninety-eight are expressed; of these, ninety-one are heard and seven analogical.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-1-4",
+              "prompt": "Into how many kinds are the heard governors divided?",
+              "options": [
+                "Thirteen",
+                "Seven",
+                "Three",
+                "Two"
+              ],
+              "answer": 0,
+              "explanation": "Thirteen kinds: six of particles, three of nouns and four of verbs.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-1-5",
+              "prompt": "Why is a governor called “heard”?",
+              "options": [
+                "It is pronounced aloud",
+                "Its working is known only from the usage of the Arabs",
+                "It is rare in speech",
+                "It governs only one word"
+              ],
+              "answer": 1,
+              "explanation": "Samāʿī means learnt from what was heard from the Arabs, not worked out by a rule.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-1-6",
+              "prompt": "Which is an analogical governor?",
+              "options": [
+                "The particle rubba",
+                "The particle lan",
+                "The verb",
+                "The particle inna"
+              ],
+              "answer": 2,
+              "explanation": "The verb governs by a rule that covers every verb; rubba, lan and inna are heard governors.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-1-7",
+              "prompt": "The governor of a word is…",
+              "options": [
+                "the word that follows it",
+                "its root",
+                "the last word of the sentence",
+                "what causes its ending"
+              ],
+              "answer": 3,
+              "explanation": "In marartu bi-Zaydin, bi- is the governor of Zaydin: it causes its jarr.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ. الْعَوَامِلُ فِي النَّحْوِ عَلَى مَا أَلَّفَهُ الشَّيْخُ الْإِمَامُ الْفَاضِلُ عَبْدُ الْقَاهِرِ بْنُ عَبْدِ الرَّحْمَنِ الْجُرْجَانِيُّ، سَقَى اللَّهُ ثَرَاهُ وَجَعَلَ الْجَنَّةَ مَثْوَاهُ، مِائَةُ عَامِلٍ: مِنْهَا لَفْظِيَّةٌ، وَمِنْهَا مَعْنَوِيَّةٌ. فَاللَّفْظِيَّةُ مِنْهَا عَلَى ضَرْبَيْنِ: سَمَاعِيَّةٌ وَقِيَاسِيَّةٌ. فَالسَّمَاعِيَّةُ مِنْهَا أَحَدٌ وَتِسْعُونَ عَامِلًا، وَالْقِيَاسِيَّةُ مِنْهَا سَبْعَةُ عَوَامِلَ، وَالْمَعْنَوِيَّةُ مِنْهَا عَدَدَانِ. فَالسَّمَاعِيَّةُ تَتَنَوَّعُ عَلَى ثَلَاثَةَ عَشَرَ نَوْعًا.",
+              "page": "1",
+              "en": "In the name of God, the Merciful, the Compassionate. The governors (al-ʿawāmil) in grammar, according to what the Shaykh, the Imam, the learned ʿAbd al-Qāhir ibn ʿAbd al-Raḥmān al-Jurjānī composed (may God water the earth of his grave and make Paradise his abode), are a hundred governors. Some of them are expressed (lafẓiyya) and some abstract (maʿnawiyya). The expressed ones are of two kinds: heard (samāʿiyya) and analogical (qiyāsiyya). The heard ones are ninety-one governors, the analogical ones seven governors, and the abstract ones two in number. The heard ones are divided into thirteen kinds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heard-particles",
+      "title": "The heard governors: the particles",
+      "arabic": "الْعَوَامِلُ السَّمَاعِيَّةُ: الْحُرُوفُ",
+      "transliteration": "al-ʿawāmil al-samāʿiyya: al-ḥurūf",
+      "lessons": [
+        {
+          "n": 2,
+          "title": "The first kind: the seventeen particles of jarr",
+          "arabic": "حُرُوفٌ تَجُرُّ الِاسْمَ",
+          "transliteration": "ḥurūf tajurru al-ism",
+          "pages": "1–2",
+          "body": [
+            "The first kind is the particles that “put only the noun in jarr”: seventeen particles, each governing the one noun after it, which takes the kasra or another sign of jarr. “Only” (faqaṭ) sets this kind apart from the next: a particle of jarr governs one word and nothing more, while inna and its sisters govern two, a noun and a predicate. And it governs nouns alone: jarr belongs to the noun and never to the verb. The particle is called jārr, the noun after it majrūr, and the two together a jārr wa-majrūr.",
+            "Most of them are everyday words with plain meanings, and the book's examples show them: marartu bi-Zaydin, “I passed by Zayd”; sirtu mina al-baṣrati ilā al-kūfati, “I travelled from Basra to Kufa”, min for the starting point and ilā for the end; ramaytu al-sahma ʿani al-qawsi, “I shot the arrow from the bow”, ʿan for moving away; Zaydun fī al-dāri, “Zayd is in the house”; al-mālu li-Zaydin, “the money is Zayd's”, li- for belonging; Zaydun ʿalā al-saṭḥi, “on the roof”; Zaydun ka-al-asadi, “like the lion”. Five of them are a single letter joined to the noun: bi-, li-, ka-, and the wāw and the tāʾ of the oath.",
+            "Some need a word more. Rubba, “many a”, comes only before an indefinite noun (rajulin, never al-rajuli), and in the book's example a sentence describes that noun: rubba rajulin laqītuhu, “many a man have I met”. Mudh and mundhu, “since”, come before a time: mā raʾaytuhu mundhu yawmi al-jumuʿati, “I have not seen him since Friday”. Ḥattā, “up to”, marks the end of a thing: akaltu al-samakata ḥattā raʾsihā, “I ate the fish up to its head”. The grammarians know this sentence with three endings: raʾsihā, as here, with ḥattā a particle of jarr; raʾsahā, with ḥattā joining the head to the fish, “I ate the fish, even its head”; and raʾsuhā, a new sentence, “even its head [was eaten]”. The book gives the first, because this is the chapter of jarr.",
+            "The wāw and the tāʾ of the oath put in jarr the name sworn by: wa-Allāhi and ta-Allāhi, “by God”. What is sworn to follows as a sentence of its own: la-afʿalanna kadhā, “I shall surely do such-and-such”. The wāw swears by any name; the tāʾ is used almost only with the name of God.",
+            "The last three, ḥāshā, khalā and ʿadā, mean “except”: they take one noun out of the rest, jāʾanī al-qawmu ḥāshā Zaydin, “the people came to me, except Zayd”. The book counts them as particles of jarr, and so they are when the noun after them is in jarr. The grammarians also use khalā and ʿadā, and some ḥāshā too, as verbs, with the noun after them in naṣb; that belongs to the chapter of exception, and the fourth kind will give illā, which puts the excepted noun in naṣb.",
+            "A trap: in marartu bi-Zaydin the governor of Zaydin is bi-, not the verb marartu. The verb reaches Zayd only through the particle, and the jarr is the particle's work. Whenever a noun follows one of the seventeen, ask first whether the particle is its governor."
+          ],
+          "terms": [
+            {
+              "arabic": "حُرُوفُ الْجَرِّ",
+              "transliteration": "ḥurūf al-jarr",
+              "en": "the particles that put a noun in jarr"
+            },
+            {
+              "arabic": "الْمَجْرُورُ",
+              "transliteration": "al-majrūr",
+              "en": "the noun put in jarr"
+            },
+            {
+              "arabic": "رُبَّ",
+              "transliteration": "rubba",
+              "en": "“many a”: only before an indefinite noun"
+            },
+            {
+              "arabic": "وَاوُ الْقَسَمِ وَتَاؤُهُ",
+              "transliteration": "wāw al-qasam wa-tāʾuhu",
+              "en": "the wāw and the tāʾ of the oath"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "سِرْتُ مِنَ الْبَصْرَةِ إِلَى الْكُوفَةِ",
+              "en": "sirtu mina al-baṣrati ilā al-kūfati: min for the start, ilā for the end",
+              "after": 1
+            },
+            {
+              "arabic": "رُبَّ رَجُلٍ لَقِيتُهُ",
+              "en": "rubba rajulin laqītuhu, “many a man have I met”: rubba before an indefinite noun",
+              "after": 2
+            },
+            {
+              "arabic": "أَكَلْتُ السَّمَكَةَ حَتَّى رَأْسِهَا",
+              "en": "akaltu al-samakata ḥattā raʾsihā, “I ate the fish up to its head”",
+              "after": 2
+            },
+            {
+              "arabic": "وَاللَّهِ لَأَفْعَلَنَّ كَذَا",
+              "en": "wa-Allāhi la-afʿalanna kadhā, “by God, I shall surely do such-and-such”",
+              "after": 3
+            },
+            {
+              "arabic": "جَاءَنِي الْقَوْمُ حَاشَا زَيْدٍ",
+              "en": "jāʾanī al-qawmu ḥāshā Zaydin, “the people came to me, except Zayd”",
+              "after": 4
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 1,
+            "grid": {
+              "caption": "The seventeen particles of jarr, with the book's examples (pp. 1–2)",
+              "head": [
+                "Particle",
+                "Meaning",
+                "The book's example"
+              ],
+              "rows": [
+                [
+                  "الْبَاءُ bi-",
+                  "by, with",
+                  "مَرَرْتُ بِزَيْدٍ"
+                ],
+                [
+                  "مِنْ min",
+                  "from",
+                  "مِنَ الْبَصْرَةِ"
+                ],
+                [
+                  "عَنْ ʿan",
+                  "away from",
+                  "عَنِ الْقَوْسِ"
+                ],
+                [
+                  "إِلَى ilā",
+                  "to",
+                  "إِلَى الْكُوفَةِ"
+                ],
+                [
+                  "فِي fī",
+                  "in",
+                  "فِي الدَّارِ"
+                ],
+                [
+                  "اللَّامُ li-",
+                  "for, belonging to",
+                  "لِزَيْدٍ"
+                ],
+                [
+                  "رُبَّ rubba",
+                  "many a",
+                  "رُبَّ رَجُلٍ"
+                ],
+                [
+                  "عَلَى ʿalā",
+                  "on",
+                  "عَلَى السَّطْحِ"
+                ],
+                [
+                  "الْكَافُ ka-",
+                  "like",
+                  "كَالْأَسَدِ"
+                ],
+                [
+                  "مُذْ، مُنْذُ mudh, mundhu",
+                  "since",
+                  "مُنْذُ يَوْمِ الْجُمُعَةِ"
+                ],
+                [
+                  "حَتَّى ḥattā",
+                  "up to",
+                  "حَتَّى رَأْسِهَا"
+                ],
+                [
+                  "وَاوُ الْقَسَمِ wa-",
+                  "by (in an oath)",
+                  "وَاللَّهِ"
+                ],
+                [
+                  "تَاءُ الْقَسَمِ ta-",
+                  "by (in an oath)",
+                  "تَاللَّهِ"
+                ],
+                [
+                  "حَاشَا ḥāshā",
+                  "except",
+                  "حَاشَا زَيْدٍ"
+                ],
+                [
+                  "خَلَا، عَدَا khalā, ʿadā",
+                  "except",
+                  "خَلَا زَيْدٍ · عَدَا زَيْدٍ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Find the particle of jarr and the noun it governs in each: ramaytu al-sahma ʿani al-qawsi; al-mālu li-Zaydin; Zaydun ʿalā al-saṭḥi.",
+              "arabic": "رَمَيْتُ السَّهْمَ عَنِ الْقَوْسِ — الْمَالُ لِزَيْدٍ — زَيْدٌ عَلَى السَّطْحِ",
+              "answer": "ʿAn governs al-qawsi; li- governs Zaydin; ʿalā governs al-saṭḥi. Each noun is in jarr, shown by the kasra. (The kasra on ʿani is only a vowel to join it to the next word.)"
+            },
+            {
+              "prompt": "Why does the book say rubba rajulin, and why would rubba al-rajuli be wrong?",
+              "arabic": "رُبَّ رَجُلٍ لَقِيتُهُ",
+              "answer": "Rubba comes only before an indefinite noun: rajulin, “a man”, not al-rajuli, “the man”. It speaks of many men of a kind, not of one known man."
+            },
+            {
+              "prompt": "Give the three readings of akaltu al-samakata ḥattā raʾs-, and say which belongs to this chapter.",
+              "arabic": "أَكَلْتُ السَّمَكَةَ حَتَّى رَأْسِهَا",
+              "answer": "Raʾsihā, in jarr: ḥattā is a particle of jarr, “up to its head”; this is the book's reading and this chapter's. Raʾsahā, in naṣb: ḥattā joins the head to al-samakata, “even its head”. Raʾsuhā, in rafʿ: a new sentence, “even its head [was eaten]”."
+            },
+            {
+              "prompt": "In marartu bi-Zaydin, what is the governor of Zaydin: the verb or the particle?",
+              "arabic": "مَرَرْتُ بِزَيْدٍ",
+              "answer": "The particle bi-. The verb marartu reaches Zayd only through it, and the jarr of Zaydin is the particle's work."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-2-1",
+              "prompt": "How many particles of jarr does this book count?",
+              "options": [
+                "Twenty",
+                "Six",
+                "Seventeen",
+                "Seven"
+              ],
+              "answer": 2,
+              "explanation": "Seventeen, from the bāʾ to ʿadā; Birgivī's al-ʿAwāmil al-jadīda counts twenty.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-2-2",
+              "prompt": "What does “only” (faqaṭ) say about this kind?",
+              "options": [
+                "They govern only verbs",
+                "They are used only in verse",
+                "Each has only one meaning",
+                "Each particle governs one noun and nothing more"
+              ],
+              "answer": 3,
+              "explanation": "A particle of jarr governs the single noun after it; the next kind governs a noun and a predicate.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-2-3",
+              "prompt": "Rubba comes only before…",
+              "options": [
+                "an indefinite noun",
+                "a definite noun",
+                "a verb",
+                "a pronoun"
+              ],
+              "answer": 0,
+              "explanation": "Rubba rajulin, “many a man”: never rubba al-rajuli.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-2-4",
+              "prompt": "In mā raʾaytuhu mundhu yawmi al-jumuʿati, mundhu means…",
+              "arabic": "مَا رَأَيْتُهُ مُنْذُ يَوْمِ الْجُمُعَةِ",
+              "options": [
+                "until",
+                "since",
+                "except",
+                "like"
+              ],
+              "answer": 1,
+              "explanation": "Mudh and mundhu come before a time: “I have not seen him since Friday”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-2-5",
+              "prompt": "Which particle is used in an oath?",
+              "options": [
+                "The kāf",
+                "ʿAlā",
+                "The tāʾ",
+                "Rubba"
+              ],
+              "answer": 2,
+              "explanation": "The wāw and the tāʾ of the oath: wa-Allāhi, ta-Allāhi, “by God”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-2-6",
+              "prompt": "In jāʾanī al-qawmu ḥāshā Zaydin, Zaydin is…",
+              "arabic": "جَاءَنِي الْقَوْمُ حَاشَا زَيْدٍ",
+              "options": [
+                "in naṣb as an object",
+                "in rafʿ as a doer",
+                "in jarr by iḍāfa",
+                "in jarr by ḥāshā"
+              ],
+              "answer": 3,
+              "explanation": "The book counts ḥāshā among the particles of jarr: the excepted noun is in jarr.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-2-7",
+              "prompt": "In al-mālu li-Zaydin, the lām means…",
+              "arabic": "الْمَالُ لِزَيْدٍ",
+              "options": [
+                "belonging",
+                "likeness",
+                "the oath",
+                "time"
+              ],
+              "answer": 0,
+              "explanation": "“The money is Zayd's”: the lām of belonging.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الْأَوَّلُ: حُرُوفٌ تَجُرُّ الِاسْمَ فَقَطْ، وَهِيَ سَبْعَةَ عَشَرَ حَرْفًا: الْبَاءُ، وَمِنْ، وَعَنْ، وَإِلَى، وَفِي، وَاللَّامُ، وَرُبَّ، وَعَلَى، وَالْكَافُ، وَمُذْ، وَمُنْذُ، وَحَتَّى، وَوَاوُ الْقَسَمِ وَتَاؤُهُ، وَحَاشَا، وَخَلَا، وَعَدَا.",
+              "page": "1",
+              "en": "The first kind: particles that put only the noun in jarr. They are seventeen particles: the bāʾ (bi-), min “from”, ʿan “away from”, ilā “to”, fī “in”, the lām (li-), rubba “many a”, ʿalā “on”, the kāf (ka-) “like”, mudh and mundhu “since”, ḥattā “up to”, the wāw and the tāʾ of the oath, ḥāshā, khalā and ʿadā “except”."
+            },
+            {
+              "original": "نَحْوُ: مَرَرْتُ بِزَيْدٍ، وَسِرْتُ مِنَ الْبَصْرَةِ إِلَى الْكُوفَةِ، وَرَمَيْتُ السَّهْمَ عَنِ الْقَوْسِ، وَزَيْدٌ فِي الدَّارِ، وَالْمَالُ لِزَيْدٍ، وَرُبَّ رَجُلٍ لَقِيتُهُ، وَزَيْدٌ عَلَى السَّطْحِ، وَزَيْدٌ كَالْأَسَدِ، وَمَا رَأَيْتُهُ مُذْ وَمُنْذُ يَوْمِ الْجُمُعَةِ، وَأَكَلْتُ السَّمَكَةَ حَتَّى رَأْسِهَا، وَوَاللَّهِ لَأَفْعَلَنَّ كَذَا، وَتَاللَّهِ لَأَفْعَلَنَّ كَذَا، وَجَاءَنِي الْقَوْمُ حَاشَا زَيْدٍ، وَرَأَيْتُ الْقَوْمَ خَلَا زَيْدٍ، وَمَرَرْتُ بِالْقَوْمِ عَدَا زَيْدٍ.",
+              "page": "1–2",
+              "en": "As marartu bi-Zaydin “I passed by Zayd”, sirtu mina al-baṣrati ilā al-kūfati “I travelled from Basra to Kufa”, ramaytu al-sahma ʿani al-qawsi “I shot the arrow from the bow”, Zaydun fī al-dāri “Zayd is in the house”, al-mālu li-Zaydin “the money belongs to Zayd”, rubba rajulin laqītuhu “many a man have I met”, Zaydun ʿalā al-saṭḥi “Zayd is on the roof”, Zaydun ka-al-asadi “Zayd is like the lion”, mā raʾaytuhu mudh and mundhu yawmi al-jumuʿati “I have not seen him since Friday”, akaltu al-samakata ḥattā raʾsihā “I ate the fish up to its head”, wa-Allāhi la-afʿalanna kadhā and ta-Allāhi la-afʿalanna kadhā “by God, I shall surely do such-and-such”, jāʾanī al-qawmu ḥāshā Zaydin “the people came to me, except Zayd”, raʾaytu al-qawma khalā Zaydin “I saw the people, except Zayd” and marartu bi-al-qawmi ʿadā Zaydin “I passed by the people, except Zayd”."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Inna and its sisters; mā and lā like laysa",
+          "arabic": "إِنَّ وَأَخَوَاتُهَا، وَمَا وَلَا الْمُشَبَّهَتَانِ بِلَيْسَ",
+          "transliteration": "inna wa-akhawātuhā, wa-mā wa-lā al-mushabbahatān bi-laysa",
+          "pages": "2",
+          "body": [
+            "The second kind governs two words at once, a noun and its predicate (khabar): six particles that “put the noun in naṣb and the predicate in rafʿ”. They come before a sentence of subject and predicate and change its first ending: Zaydun qāʾimun, “Zayd is standing”, becomes inna Zaydan qāʾimun, “Zayd is indeed standing”. The first word, now in naṣb, is called the noun (ism) of inna; the second stays in rafʿ as its predicate (khabar).",
+            "Each brings its own meaning. Inna, “indeed”, confirms the sentence. Anna, “that”, makes the whole sentence a part of another one: in balaghanī anna Zaydan munṭaliqun, “it has reached me that Zayd is setting off”, anna with its noun and predicate stands for a maṣdar, “Zayd's setting off”, and is the doer of balagha. Kaʾanna, “as if”, likens: kaʾanna Zaydan asadun. Lākinna, “but”, corrects what came before: qāma Zaydun lākinna ʿAmran jālisun, “Zayd stood up, but ʿAmr is sitting”. Layta, “if only”, wishes, even for what cannot be: layta al-shabāba ʿāʾidun, “if only youth were coming back”. Laʿalla, “perhaps”, hopes: laʿalla ʿAmran khārijun.",
+            "The madrasa calls them “the particles that resemble the verb” (al-ḥurūf al-mushabbaha bi-l-fiʿl). The commentators give the reasons: like a past verb they have three letters or more and end in a fatḥa; they carry a verb's meaning (inna is “I confirm”, layta “I wish”); and they govern two words, one in rafʿ and one in naṣb, like a verb whose object has been put before its doer.",
+            "The third kind is the mirror image of the second: two particles that “put the noun in rafʿ and the predicate in naṣb”, mā and lā, “which resemble laysa”, “is not”. Laysa, one of the incomplete verbs of the tenth kind, gives rafʿ to its noun and naṣb to its predicate; mā and lā, which also negate, borrow its work: mā Zaydun fāḍilan, “Zayd is not excellent”; lā rajulun afḍala minka, “no man is better than you”. This is the usage of the people of the Ḥijāz, in which the Qurʾān says mā hādhā basharan (Q 12:31); the Banū Tamīm leave mā without work and say mā Zaydun fāḍilun.",
+            "Two traps. The lā of this kind takes indefinite nouns and leaves them with tanwīn, rajulun; it is not the lā that denies a whole genus, lā rajula fī al-dāri, “there is no man in the house”, which takes a fatḥa without tanwīn and works like inna. And do not confuse the two mirror kinds: with inna the first noun is in naṣb (inna Zaydan qāʾimun), with mā the second (mā Zaydun fāḍilan)."
+          ],
+          "terms": [
+            {
+              "arabic": "اسْمُ إِنَّ وَخَبَرُهَا",
+              "transliteration": "ism inna wa-khabaruhā",
+              "en": "the noun of inna (in naṣb) and its predicate (in rafʿ)"
+            },
+            {
+              "arabic": "الْحُرُوفُ الْمُشَبَّهَةُ بِالْفِعْلِ",
+              "transliteration": "al-ḥurūf al-mushabbaha bi-l-fiʿl",
+              "en": "the particles that resemble the verb: inna and its sisters"
+            },
+            {
+              "arabic": "مَا وَلَا الْمُشَبَّهَتَانِ بِلَيْسَ",
+              "transliteration": "mā wa-lā al-mushabbahatān bi-laysa",
+              "en": "mā and lā that resemble laysa"
+            },
+            {
+              "arabic": "الْخَبَرُ",
+              "transliteration": "al-khabar",
+              "en": "the predicate: what is said of the noun"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "إِنَّ زَيْدًا قَائِمٌ",
+              "en": "inna Zaydan qāʾimun, “Zayd is indeed standing”: the noun in naṣb, the predicate in rafʿ",
+              "after": 0
+            },
+            {
+              "arabic": "بَلَغَنِي أَنَّ زَيْدًا مُنْطَلِقٌ",
+              "en": "balaghanī anna Zaydan munṭaliqun, “it has reached me that Zayd is setting off”",
+              "after": 1
+            },
+            {
+              "arabic": "لَيْتَ الشَّبَابَ عَائِدٌ",
+              "en": "layta al-shabāba ʿāʾidun, “if only youth were coming back”",
+              "after": 1
+            },
+            {
+              "arabic": "مَا زَيْدٌ فَاضِلًا",
+              "en": "mā Zaydun fāḍilan, “Zayd is not excellent”: the noun in rafʿ, the predicate in naṣb",
+              "after": 3
+            },
+            {
+              "arabic": "لَا رَجُلٌ أَفْضَلَ مِنْكَ",
+              "en": "lā rajulun afḍala minka, “no man is better than you”",
+              "after": 4
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The second and third kinds: two mirror images (p. 2)",
+              "head": [
+                "Particle",
+                "Meaning",
+                "Noun",
+                "Predicate",
+                "The book's example"
+              ],
+              "rows": [
+                [
+                  "إِنَّ inna",
+                  "indeed",
+                  "naṣb",
+                  "rafʿ",
+                  "إِنَّ زَيْدًا قَائِمٌ"
+                ],
+                [
+                  "أَنَّ anna",
+                  "that",
+                  "naṣb",
+                  "rafʿ",
+                  "أَنَّ زَيْدًا مُنْطَلِقٌ"
+                ],
+                [
+                  "كَأَنَّ kaʾanna",
+                  "as if",
+                  "naṣb",
+                  "rafʿ",
+                  "كَأَنَّ زَيْدًا أَسَدٌ"
+                ],
+                [
+                  "لَكِنَّ lākinna",
+                  "but",
+                  "naṣb",
+                  "rafʿ",
+                  "لَكِنَّ عَمْرًا جَالِسٌ"
+                ],
+                [
+                  "لَيْتَ layta",
+                  "if only",
+                  "naṣb",
+                  "rafʿ",
+                  "لَيْتَ الشَّبَابَ عَائِدٌ"
+                ],
+                [
+                  "لَعَلَّ laʿalla",
+                  "perhaps",
+                  "naṣb",
+                  "rafʿ",
+                  "لَعَلَّ عَمْرًا خَارِجٌ"
+                ],
+                [
+                  "مَا mā",
+                  "not",
+                  "rafʿ",
+                  "naṣb",
+                  "مَا زَيْدٌ فَاضِلًا"
+                ],
+                [
+                  "لَا lā",
+                  "not",
+                  "rafʿ",
+                  "naṣb",
+                  "لَا رَجُلٌ أَفْضَلَ مِنْكَ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the iʿrāb of kaʾanna Zaydan asadun.",
+              "arabic": "كَأَنَّ زَيْدًا أَسَدٌ",
+              "answer": "Kaʾanna: a particle that resembles the verb, of likening. Zaydan: its noun, in naṣb by the fatḥa. Asadun: its predicate, in rafʿ by the ḍamma. “It is as if Zayd were a lion.”"
+            },
+            {
+              "prompt": "Why is the predicate fāḍilan in mā Zaydun fāḍilan, but fāḍilun in Zaydun fāḍilun?",
+              "arabic": "مَا زَيْدٌ فَاضِلًا",
+              "answer": "Mā here resembles laysa and works like it: its noun Zaydun stays in rafʿ and its predicate is put in naṣb. Without mā, both subject and predicate are in rafʿ. (The Banū Tamīm, who do not let mā work, would say mā Zaydun fāḍilun.)"
+            },
+            {
+              "prompt": "In balaghanī anna Zaydan munṭaliqun, what is the doer of balagha?",
+              "arabic": "بَلَغَنِي أَنَّ زَيْدًا مُنْطَلِقٌ",
+              "answer": "Anna with its noun and predicate, taken together as a maṣdar: “Zayd's setting off has reached me”. The -nī is the object of balagha."
+            },
+            {
+              "prompt": "Name the noun and the predicate, with their states, in layta al-shabāba ʿāʾidun and lā rajulun afḍala minka.",
+              "arabic": "لَيْتَ الشَّبَابَ عَائِدٌ — لَا رَجُلٌ أَفْضَلَ مِنْكَ",
+              "answer": "Layta: al-shabāba is its noun, in naṣb; ʿāʾidun its predicate, in rafʿ. Lā (like laysa): rajulun is its noun, in rafʿ; afḍala its predicate, in naṣb (afḍal takes no tanwīn), with minka after it."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-3-1",
+              "prompt": "Inna and its sisters put…",
+              "options": [
+                "the noun in rafʿ and the predicate in naṣb",
+                "both in naṣb",
+                "only the noun in jarr",
+                "the noun in naṣb and the predicate in rafʿ"
+              ],
+              "answer": 3,
+              "explanation": "Inna Zaydan qāʾimun: the noun Zaydan in naṣb, the predicate qāʾimun in rafʿ.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-3-2",
+              "prompt": "How many particles are in the second kind?",
+              "options": [
+                "Six",
+                "Seven",
+                "Two",
+                "Four"
+              ],
+              "answer": 0,
+              "explanation": "Inna, anna, kaʾanna, lākinna, layta and laʿalla.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-3-3",
+              "prompt": "Which particle expresses a wish?",
+              "options": [
+                "Laʿalla",
+                "Layta",
+                "Lākinna",
+                "Kaʾanna"
+              ],
+              "answer": 1,
+              "explanation": "Layta al-shabāba ʿāʾidun, “if only youth were coming back”: a wish, even for what cannot be.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-3-4",
+              "prompt": "The mā and lā of the third kind resemble…",
+              "options": [
+                "inna",
+                "rubba",
+                "laysa",
+                "lam"
+              ],
+              "answer": 2,
+              "explanation": "Like laysa, they negate and give rafʿ to the noun and naṣb to the predicate.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-3-5",
+              "prompt": "In mā Zaydun fāḍilan, fāḍilan is…",
+              "arabic": "مَا زَيْدٌ فَاضِلًا",
+              "options": [
+                "the noun of mā, in naṣb",
+                "a ḥāl",
+                "an object",
+                "the predicate of mā, in naṣb"
+              ],
+              "answer": 3,
+              "explanation": "Zaydun is the noun of mā in rafʿ, fāḍilan its predicate in naṣb.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-3-6",
+              "prompt": "Kaʾanna Zaydan asadun means…",
+              "arabic": "كَأَنَّ زَيْدًا أَسَدٌ",
+              "options": [
+                "it is as if Zayd were a lion",
+                "Zayd is indeed a lion",
+                "perhaps Zayd is a lion",
+                "Zayd is not a lion"
+              ],
+              "answer": 0,
+              "explanation": "Kaʾanna is the particle of likening.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-3-7",
+              "prompt": "In lā rajulun afḍala minka, rajulun is…",
+              "arabic": "لَا رَجُلٌ أَفْضَلَ مِنْكَ",
+              "options": [
+                "the predicate of lā, in rafʿ",
+                "the noun of lā, in rafʿ",
+                "in naṣb",
+                "the doer of a verb"
+              ],
+              "answer": 1,
+              "explanation": "The lā that resembles laysa gives rafʿ to its noun and naṣb to its predicate, afḍala.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الثَّانِي: حُرُوفٌ تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ، وَهِيَ سِتَّةُ أَحْرُفٍ: إِنَّ، وَأَنَّ، وَكَأَنَّ، وَلَكِنَّ، وَلَيْتَ، وَلَعَلَّ، نَحْوُ: إِنَّ زَيْدًا قَائِمٌ، وَبَلَغَنِي أَنَّ زَيْدًا مُنْطَلِقٌ، وَكَأَنَّ زَيْدًا أَسَدٌ، وَقَامَ زَيْدٌ لَكِنَّ عَمْرًا جَالِسٌ، وَلَيْتَ الشَّبَابَ عَائِدٌ، وَلَعَلَّ عَمْرًا خَارِجٌ.",
+              "page": "2",
+              "en": "The second kind: particles that put the noun in naṣb and the predicate in rafʿ. They are six particles: inna, anna, kaʾanna, lākinna, layta and laʿalla, as inna Zaydan qāʾimun “Zayd is indeed standing”, balaghanī anna Zaydan munṭaliqun “it has reached me that Zayd is setting off”, kaʾanna Zaydan asadun “it is as if Zayd were a lion”, qāma Zaydun lākinna ʿAmran jālisun “Zayd stood up, but ʿAmr is sitting”, layta al-shabāba ʿāʾidun “if only youth were coming back” and laʿalla ʿAmran khārijun “perhaps ʿAmr is going out”."
+            },
+            {
+              "original": "النَّوْعُ الثَّالِثُ: حَرْفَانِ تَرْفَعَانِ الِاسْمَ وَتَنْصِبَانِ الْخَبَرَ، وَهُمَا مَا وَلَا الْمُشَبَّهَتَانِ بِلَيْسَ، نَحْوُ: مَا زَيْدٌ فَاضِلًا، وَلَا رَجُلٌ أَفْضَلَ مِنْكَ.",
+              "page": "2",
+              "en": "The third kind: two particles that put the noun in rafʿ and the predicate in naṣb. They are mā and lā, which resemble laysa, as mā Zaydun fāḍilan “Zayd is not excellent” and lā rajulun afḍala minka “no man is better than you”."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "The fourth kind: particles that put only the noun in naṣb",
+          "arabic": "حُرُوفٌ تَنْصِبُ الِاسْمَ فَقَطْ",
+          "transliteration": "ḥurūf tanṣibu al-ism faqaṭ",
+          "pages": "2",
+          "body": [
+            "The fourth kind is seven particles that put one noun in naṣb and do nothing more: the wāw, illā, and five particles of calling (nidāʾ), yā, ayā, hayā, ay and the hamza with fatḥa. Like the particles of jarr, each governs a single noun; but where those gave jarr, these give naṣb.",
+            "The wāw here is not the wāw of “and”, which joins a word to the one before it in the same state, nor the wāw of the oath. It is the wāw of accompaniment (al-maʿiyya), meaning “with”: istawā al-māʾu wa-al-khashabata, “the water rose level with the plank”. The water and the plank did not both rise: the water rose until it stood level with the plank, so the plank cannot share the verb with the water, and it is put in naṣb. The grammarians call it the object of accompaniment (al-mafʿūl maʿahu). Many of them say that the verb governs it, through the wāw; al-Jurjānī counts the wāw itself as its governor.",
+            "Illā, “except”, takes one out of a group: jāʾanī al-qawmu illā Zaydan, “the people came to me except Zayd”. Zayd is the excepted (al-mustathnā), in naṣb; the people are what he is taken out of (al-mustathnā minhu). Compare ḥāshā Zaydin in the first kind: the same meaning, but there the noun was in jarr. The naṣb is the rule when the sentence is positive and complete, as here; in a negative sentence (mā jāʾanī aḥadun illā Zaydun) another ending is allowed, which later books teach.",
+            "The five particles of calling put the one called (al-munādā) in naṣb when he is named by the first term of an iḍāfa, as ʿAbd Allāh: yā ʿAbda Allāhi, “O ʿAbd Allāh”. The book gives the same name with all five: ayā ʿAbda Allāhi, hayā ʿAbda Allāhi, ay ʿAbda Allāhi, a-ʿAbda Allāhi. The commentators add that ayā and hayā are for calling one who is far, the hamza and ay for one who is near, and yā for either.",
+            "A trap: the one called is not always in naṣb. A single name called by itself takes a ḍamma without tanwīn: yā Zaydu, “O Zayd!”; that ending is fixed (mabnī), not a sign of rafʿ. The book chose ʿAbd Allāh, a muḍāf, because there the naṣb shows."
+          ],
+          "terms": [
+            {
+              "arabic": "الْمَفْعُولُ مَعَهُ",
+              "transliteration": "al-mafʿūl maʿahu",
+              "en": "the object of accompaniment, after the wāw meaning “with”"
+            },
+            {
+              "arabic": "الْمُسْتَثْنَى",
+              "transliteration": "al-mustathnā",
+              "en": "the excepted noun, after illā"
+            },
+            {
+              "arabic": "الْمُنَادَى",
+              "transliteration": "al-munādā",
+              "en": "the one called"
+            },
+            {
+              "arabic": "حُرُوفُ النِّدَاءِ",
+              "transliteration": "ḥurūf al-nidāʾ",
+              "en": "the particles of calling: yā, ayā, hayā, ay, a-"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "اسْتَوَى الْمَاءُ وَالْخَشَبَةَ",
+              "en": "istawā al-māʾu wa-al-khashabata, “the water rose level with the plank”",
+              "after": 1
+            },
+            {
+              "arabic": "جَاءَنِي الْقَوْمُ إِلَّا زَيْدًا",
+              "en": "jāʾanī al-qawmu illā Zaydan, “the people came to me except Zayd”",
+              "after": 2
+            },
+            {
+              "arabic": "يَا عَبْدَ اللَّهِ — أَعَبْدَ اللَّهِ",
+              "en": "yā ʿAbda Allāhi, a-ʿAbda Allāhi, “O ʿAbd Allāh”",
+              "after": 3
+            },
+            {
+              "arabic": "يَا زَيْدُ",
+              "en": "yā Zaydu, “O Zayd!”: a single name, fixed on the ḍamma",
+              "after": 4
+            }
+          ],
+          "diagram": {
+            "type": "tree",
+            "after": 1,
+            "caption": "The seven particles of the fourth kind (p. 2)",
+            "tree": {
+              "label": "Naṣb of one noun: 7",
+              "ar": "حُرُوفٌ تَنْصِبُ الِاسْمَ",
+              "children": [
+                {
+                  "label": "the wāw: “with”",
+                  "ar": "الْوَاوُ"
+                },
+                {
+                  "label": "illā: “except”",
+                  "ar": "إِلَّا"
+                },
+                {
+                  "label": "Calling (nidāʾ)",
+                  "ar": "حُرُوفُ النِّدَاءِ",
+                  "children": [
+                    {
+                      "label": "yā",
+                      "ar": "يَا"
+                    },
+                    {
+                      "label": "ayā",
+                      "ar": "أَيَا"
+                    },
+                    {
+                      "label": "hayā",
+                      "ar": "هَيَا"
+                    },
+                    {
+                      "label": "ay",
+                      "ar": "أَيْ"
+                    },
+                    {
+                      "label": "a- (the hamza)",
+                      "ar": "أَ"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Name the governor and the noun in naṣb in each: jāʾanī al-qawmu illā Zaydan; istawā al-māʾu wa-al-khashabata; hayā ʿAbda Allāhi.",
+              "arabic": "جَاءَنِي الْقَوْمُ إِلَّا زَيْدًا — اسْتَوَى الْمَاءُ وَالْخَشَبَةَ — هَيَا عَبْدَ اللَّهِ",
+              "answer": "Illā governs Zaydan, the excepted. The wāw of accompaniment governs al-khashabata (in al-Jurjānī's count). Hayā, a particle of calling, governs ʿAbda, the one called; Allāhi is in jarr by iḍāfa."
+            },
+            {
+              "prompt": "Why is al-khashabata in naṣb, and not in rafʿ like al-māʾu?",
+              "arabic": "اسْتَوَى الْمَاءُ وَالْخَشَبَةَ",
+              "answer": "The wāw does not join the plank to the water as a second doer: only the water rose. It means “with”, and the noun after it is the mafʿūl maʿahu, in naṣb."
+            },
+            {
+              "prompt": "Compare jāʾanī al-qawmu illā Zaydan with jāʾanī al-qawmu ḥāshā Zaydin. What is the same, and what differs?",
+              "arabic": "جَاءَنِي الْقَوْمُ إِلَّا زَيْدًا — جَاءَنِي الْقَوْمُ حَاشَا زَيْدٍ",
+              "answer": "The meaning is the same: Zayd is taken out of the people who came. The ending differs: illā puts the excepted in naṣb (fourth kind), ḥāshā as a particle of jarr puts it in jarr (first kind)."
+            },
+            {
+              "prompt": "Why does the book call “O ʿAbd Allāh” and not “O Zayd” to show the naṣb?",
+              "answer": "A single name called by itself is fixed on the ḍamma: yā Zaydu. The one called shows naṣb when he is named by a muḍāf, as ʿAbda Allāhi."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-4-1",
+              "prompt": "How many particles are in the fourth kind?",
+              "options": [
+                "Seven",
+                "Five",
+                "Six",
+                "Four"
+              ],
+              "answer": 0,
+              "explanation": "The wāw, illā, and the five particles of calling.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-4-2",
+              "prompt": "The wāw in istawā al-māʾu wa-al-khashabata means…",
+              "arabic": "اسْتَوَى الْمَاءُ وَالْخَشَبَةَ",
+              "options": [
+                "and",
+                "with",
+                "by (an oath)",
+                "but"
+              ],
+              "answer": 1,
+              "explanation": "The wāw of accompaniment: the water rose level with the plank.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-4-3",
+              "prompt": "In jāʾanī al-qawmu illā Zaydan, Zaydan is…",
+              "arabic": "جَاءَنِي الْقَوْمُ إِلَّا زَيْدًا",
+              "options": [
+                "the doer",
+                "the one called",
+                "the excepted, in naṣb",
+                "the predicate"
+              ],
+              "answer": 2,
+              "explanation": "Illā takes Zayd out of the people; he is the mustathnā, in naṣb.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-4-4",
+              "prompt": "Which is NOT a particle of calling?",
+              "options": [
+                "Yā",
+                "Hayā",
+                "Ay",
+                "Illā"
+              ],
+              "answer": 3,
+              "explanation": "Illā is the particle of exception; yā, ayā, hayā, ay and the hamza call.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-4-5",
+              "prompt": "In yā ʿAbda Allāhi, ʿAbda is in naṣb because…",
+              "arabic": "يَا عَبْدَ اللَّهِ",
+              "options": [
+                "it is called and is the first term of an iḍāfa",
+                "it is the object of a verb",
+                "yā is a particle of jarr",
+                "it is a ḥāl"
+              ],
+              "answer": 0,
+              "explanation": "The one called is in naṣb when he is a muḍāf, as ʿAbd Allāh.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-4-6",
+              "prompt": "How is Zayd called by his name alone?",
+              "options": [
+                "Yā Zaydu",
+                "Yā Zaydan",
+                "Yā Zaydin"
+              ],
+              "answer": 0,
+              "explanation": "A single name is fixed on the ḍamma without tanwīn.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-4-7",
+              "prompt": "According to the commentators, hayā is used to call…",
+              "options": [
+                "one who is near",
+                "only God",
+                "one who is far",
+                "a group"
+              ],
+              "answer": 2,
+              "explanation": "Ayā and hayā for the far, the hamza and ay for the near, yā for either.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الرَّابِعُ: حُرُوفٌ تَنْصِبُ الِاسْمَ فَقَطْ، وَهِيَ سَبْعَةُ أَحْرُفٍ: الْوَاوُ، وَإِلَّا، وَيَا، وَأَيَا، وَهَيَا، وَأَيْ، وَالْهَمْزَةُ الْمَفْتُوحَةُ، نَحْوُ: اسْتَوَى الْمَاءُ وَالْخَشَبَةَ، وَجَاءَنِي الْقَوْمُ إِلَّا زَيْدًا، وَيَا عَبْدَ اللَّهِ، وَأَيَا عَبْدَ اللَّهِ، وَهَيَا عَبْدَ اللَّهِ، وَأَيْ عَبْدَ اللَّهِ، وَأَعَبْدَ اللَّهِ.",
+              "page": "2",
+              "en": "The fourth kind: particles that put only the noun in naṣb. They are seven particles: the wāw, illā, yā, ayā, hayā, ay and the hamza with fatḥa, as istawā al-māʾu wa-al-khashabata “the water rose level with the plank”, jāʾanī al-qawmu illā Zaydan “the people came to me except Zayd”, yā ʿAbda Allāhi “O ʿAbd Allāh”, ayā ʿAbda Allāhi, hayā ʿAbda Allāhi, ay ʿAbda Allāhi and a-ʿAbda Allāhi."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "The fifth kind: particles that put the muḍāriʿ in naṣb",
+          "arabic": "حُرُوفٌ تَنْصِبُ الْفِعْلَ الْمُضَارِعَ",
+          "transliteration": "ḥurūf tanṣibu al-fiʿl al-muḍāriʿ",
+          "pages": "2",
+          "body": [
+            "With the fifth kind the governors turn from the noun to the verb. Of the verbs only the muḍāriʿ, the present-future verb, takes iʿrāb: it is in rafʿ when nothing governs it (taḍribu, “you hit”), and four particles put it in naṣb: an, lan, kay and idhan. The sign of naṣb is the fatḥa on the last letter, taḍribu → an taḍriba, or, in the forms that end in a nūn, the dropping of that nūn: taḍribāni → lan taḍribā.",
+            "An, “that”, gives the verb the sense of a maṣdar: karihtu an taḍriba, “I disliked that you should hit”, is “I disliked your hitting”. An with its verb fills the place of a noun, here the object of karihtu; for this the grammarians call it al-maṣdariyya. Naḥw-i Mīr, read before this book, explains it the same way: urīdu an taqūma, “I want you to stand”, is urīdu qiyāmaka, “I want your standing”.",
+            "Lan negates the future: lan tafʿala, “you will not do it”. Kay gives the purpose, “so that”: jiʾtuka kay tuʿṭiyanī ḥaqqī, “I came to you so that you would give me my due”. There the naṣb shows as a fatḥa on the yāʾ of tuʿṭiya, before the pronoun -nī.",
+            "Idhan, “then, in that case”, begins an answer to what another has said: to a man who says aslamtu, “I have become a Muslim”, you reply idhan tadkhula al-jannata, “then you will enter Paradise”. The book's words “in answer to” are the key: idhan stands at the head of an answer, and the verb after it speaks of the future. Later books add that nothing may come between idhan and its verb but an oath or the lā of negation.",
+            "Do not confuse lan with lam. Lan yaḍriba, “he will not hit”, puts the verb in naṣb and speaks of the future; lam yaḍrib, “he did not hit”, which the next lesson gives, puts it in jazm and speaks of the past. One letter and one vowel tell them apart."
+          ],
+          "terms": [
+            {
+              "arabic": "نَوَاصِبُ الْمُضَارِعِ",
+              "transliteration": "nawāṣib al-muḍāriʿ",
+              "en": "the particles that put the muḍāriʿ in naṣb"
+            },
+            {
+              "arabic": "أَنِ الْمَصْدَرِيَّةُ",
+              "transliteration": "an al-maṣdariyya",
+              "en": "the an that gives its verb the sense of a maṣdar"
+            },
+            {
+              "arabic": "لَنْ",
+              "transliteration": "lan",
+              "en": "“will not”: negation of the future"
+            },
+            {
+              "arabic": "إِذَنْ",
+              "transliteration": "idhan",
+              "en": "“then, in that case”: at the head of an answer"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "كَرِهْتُ أَنْ تَضْرِبَ",
+              "en": "karihtu an taḍriba, “I disliked that you should hit”",
+              "after": 1
+            },
+            {
+              "arabic": "لَنْ تَفْعَلَ",
+              "en": "lan tafʿala, “you will not do it”",
+              "after": 2
+            },
+            {
+              "arabic": "جِئْتُكَ كَيْ تُعْطِيَنِي حَقِّي",
+              "en": "jiʾtuka kay tuʿṭiyanī ḥaqqī, “I came to you so that you would give me my due”",
+              "after": 2
+            },
+            {
+              "arabic": "إِذَنْ تَدْخُلَ الْجَنَّةَ",
+              "en": "idhan tadkhula al-jannata, “then you will enter Paradise”, in answer to aslamtu",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The four particles of naṣb, and taḍribu after lan (the forms from the engine)",
+              "head": [
+                "Particle",
+                "Meaning",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "أَنْ an",
+                  "that (a maṣdar)",
+                  "كَرِهْتُ أَنْ تَضْرِبَ"
+                ],
+                [
+                  "لَنْ lan",
+                  "will not",
+                  "لَنْ تَفْعَلَ"
+                ],
+                [
+                  "كَيْ kay",
+                  "so that",
+                  "كَيْ تُعْطِيَنِي حَقِّي"
+                ],
+                [
+                  "إِذَنْ idhan",
+                  "then (an answer)",
+                  "إِذَنْ تَدْخُلَ الْجَنَّةَ"
+                ],
+                [
+                  "rafʿ → naṣb",
+                  "you (one man)",
+                  "تَضْرِبُ ← لَنْ تَضْرِبَ"
+                ],
+                [
+                  "rafʿ → naṣb",
+                  "you two",
+                  "تَضْرِبَانِ ← لَنْ تَضْرِبَا"
+                ],
+                [
+                  "rafʿ → naṣb",
+                  "you (men)",
+                  "تَضْرِبُونَ ← لَنْ تَضْرِبُوا"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Put taḍribu, taḍribāni and taḍribūna after lan, and give the sign of naṣb in each.",
+              "arabic": "تَضْرِبُ — تَضْرِبَانِ — تَضْرِبُونَ",
+              "answer": "Lan taḍriba: the fatḥa. Lan taḍribā and lan taḍribū: the nūn is dropped."
+            },
+            {
+              "prompt": "What does an do in karihtu an taḍriba? Say the sentence again in English with a maṣdar.",
+              "arabic": "كَرِهْتُ أَنْ تَضْرِبَ",
+              "answer": "An puts taḍriba in naṣb and gives it the sense of a maṣdar; an with its verb is the object of karihtu: “I disliked your hitting”."
+            },
+            {
+              "prompt": "Someone says aslamtu, “I have become a Muslim”. Answer him with idhan as the book does, and say why the verb is in naṣb.",
+              "arabic": "أَسْلَمْتُ",
+              "answer": "Idhan tadkhula al-jannata, “then you will enter Paradise”. Idhan stands at the head of the answer, the verb speaks of the future and nothing comes between them, so idhan puts tadkhula in naṣb."
+            },
+            {
+              "prompt": "Lan yaḍriba and lam yaḍrib: which is in naṣb, and of what time does each speak?",
+              "arabic": "لَنْ يَضْرِبَ — لَمْ يَضْرِبْ",
+              "answer": "Lan yaḍriba is in naṣb (the fatḥa) and negates the future, “he will not hit”. Lam yaḍrib is in jazm (the sukūn) and negates the past, “he did not hit”."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-5-1",
+              "prompt": "How many particles put the muḍāriʿ in naṣb?",
+              "options": [
+                "Five",
+                "Four",
+                "Six",
+                "Nine"
+              ],
+              "answer": 1,
+              "explanation": "An, lan, kay and idhan.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-5-2",
+              "prompt": "Which particle negates the future?",
+              "options": [
+                "Lam",
+                "An",
+                "Lan",
+                "Kay"
+              ],
+              "answer": 2,
+              "explanation": "Lan tafʿala, “you will not do it”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-5-3",
+              "prompt": "Kay means…",
+              "options": [
+                "that",
+                "will not",
+                "then",
+                "so that"
+              ],
+              "answer": 3,
+              "explanation": "Jiʾtuka kay tuʿṭiyanī ḥaqqī, “I came to you so that you would give me my due”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-5-4",
+              "prompt": "In karihtu an taḍriba, an with its verb stands for…",
+              "arabic": "كَرِهْتُ أَنْ تَضْرِبَ",
+              "options": [
+                "a maṣdar: “your hitting”",
+                "a command",
+                "a condition",
+                "an oath"
+              ],
+              "answer": 0,
+              "explanation": "That is why it is called an al-maṣdariyya.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-5-5",
+              "prompt": "Idhan comes…",
+              "options": [
+                "at the end of a sentence",
+                "at the head of an answer to what another said",
+                "only before nouns",
+                "after an oath only"
+              ],
+              "answer": 1,
+              "explanation": "“In answer to aslamtu”: idhan tadkhula al-jannata.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-5-6",
+              "prompt": "The sign of naṣb in lan taḍribū is…",
+              "arabic": "لَنْ تَضْرِبُوا",
+              "options": [
+                "the fatḥa",
+                "the ḍamma",
+                "the dropping of the nūn",
+                "the sukūn"
+              ],
+              "answer": 2,
+              "explanation": "Taḍribūna loses its nūn in naṣb.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-5-7",
+              "prompt": "In jiʾtuka kay tuʿṭiyanī ḥaqqī, where does the naṣb show?",
+              "arabic": "جِئْتُكَ كَيْ تُعْطِيَنِي حَقِّي",
+              "options": [
+                "On the nūn of -nī",
+                "On ḥaqqī",
+                "It does not show",
+                "On the yāʾ of tuʿṭiya"
+              ],
+              "answer": 3,
+              "explanation": "Tuʿṭī becomes tuʿṭiya: the fatḥa shows on its last letter, the yāʾ.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الْخَامِسُ: حُرُوفٌ تَنْصِبُ الْفِعْلَ الْمُضَارِعَ، وَهِيَ أَرْبَعَةُ أَحْرُفٍ: أَنْ، وَلَنْ، وَكَيْ، وَإِذَنْ، نَحْوُ: كَرِهْتُ أَنْ تَضْرِبَ، وَلَنْ تَفْعَلَ، وَجِئْتُكَ كَيْ تُعْطِيَنِي حَقِّي، وَإِذَنْ تَدْخُلَ الْجَنَّةَ فِي جَوَابِ: أَسْلَمْتُ.",
+              "page": "2",
+              "en": "The fifth kind: particles that put the muḍāriʿ in naṣb. They are four particles: an, lan, kay and idhan, as karihtu an taḍriba “I disliked that you should hit”, lan tafʿala “you will not do [it]”, jiʾtuka kay tuʿṭiyanī ḥaqqī “I came to you so that you would give me my due”, and idhan tadkhula al-jannata “then you will enter Paradise”, in answer to aslamtu “I have become a Muslim”."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "title": "The sixth kind: particles that put the muḍāriʿ in jazm",
+          "arabic": "حُرُوفٌ تَجْزِمُ الْفِعْلَ الْمُضَارِعَ",
+          "transliteration": "ḥurūf tajzimu al-fiʿl al-muḍāriʿ",
+          "pages": "2–3",
+          "body": [
+            "Five particles put the muḍāriʿ in jazm: in, lam, lammā, the lām of command and the lā of prohibition. Jazm belongs to the verb alone, as jarr belongs to the noun. Its sign is the sukūn on the last letter, yaḍribu → lam yaḍrib, or, in the forms that end in a nūn, the dropping of that nūn: yaḍribāni → lam yaḍribā, yaḍribūna → lam yaḍribū. (A verb that ends in a weak letter loses that letter instead; that is taught in ṣarf.)",
+            "In, “if”, the particle of condition, governs two verbs: the condition (al-sharṭ) and its answer (al-jazāʾ): in tukrimnī ukrimka, “if you honour me, I shall honour you”. Both tukrim and ukrim are in jazm; the -nī and the -ka are object pronouns joined to them. Because in governs two verbs with the meaning “if”, it is the model of the next kind: nine nouns that put the verb in jazm “in the meaning of in”.",
+            "Lam and lammā both negate the past while governing a muḍāriʿ: lam yaḍrib Zaydun, “Zayd did not hit”; lammā yaḍrib Zaydun, “Zayd has not yet hit”. Lam turns the present form to a past meaning; lammā adds that the negation lasts up to now and that the hitting is still expected.",
+            "The lām of command, li-, gives an order to one who is absent: li-yaḍrib Zaydun, “let Zayd hit”. The lā of prohibition forbids: lā taḍrib Zaydan, “do not hit Zayd”. The print names it lāʾ al-nahy, speaking of the particle lā as a noun.",
+            "A trap: lā before a muḍāriʿ is not always prohibition. Lā taḍribu, with the ḍamma, only negates, “you do not hit”, and leaves the verb in rafʿ; lā taḍrib, with the sukūn, forbids, “do not hit!”. The vowel of the last letter tells you which lā you are reading."
+          ],
+          "terms": [
+            {
+              "arabic": "الْجَوَازِمُ",
+              "transliteration": "al-jawāzim",
+              "en": "the governors of jazm"
+            },
+            {
+              "arabic": "الشَّرْطُ وَالْجَزَاءُ",
+              "transliteration": "al-sharṭ wa-l-jazāʾ",
+              "en": "the condition and its answer"
+            },
+            {
+              "arabic": "لَمَّا",
+              "transliteration": "lammā",
+              "en": "“not yet”: negation of the past lasting up to now"
+            },
+            {
+              "arabic": "لَامُ الْأَمْرِ",
+              "transliteration": "lām al-amr",
+              "en": "the lām of command, to one absent"
+            },
+            {
+              "arabic": "لَا النَّاهِيَةُ",
+              "transliteration": "lā al-nāhiya",
+              "en": "the lā of prohibition"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "إِنْ تُكْرِمْنِي أُكْرِمْكَ",
+              "en": "in tukrimnī ukrimka, “if you honour me, I shall honour you”: both verbs in jazm",
+              "after": 1
+            },
+            {
+              "arabic": "لَمْ يَضْرِبْ زَيْدٌ — لَمَّا يَضْرِبْ زَيْدٌ",
+              "en": "lam yaḍrib Zaydun, “Zayd did not hit”; lammā yaḍrib Zaydun, “Zayd has not yet hit”",
+              "after": 2
+            },
+            {
+              "arabic": "لِيَضْرِبْ زَيْدٌ — لَا تَضْرِبْ زَيْدًا",
+              "en": "li-yaḍrib Zaydun, “let Zayd hit”; lā taḍrib Zaydan, “do not hit Zayd”",
+              "after": 3
+            },
+            {
+              "arabic": "لَا تَضْرِبُ — لَا تَضْرِبْ",
+              "en": "lā taḍribu, “you do not hit”; lā taḍrib, “do not hit!”",
+              "after": 4
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The five particles of jazm, with the book's examples (pp. 2–3)",
+              "head": [
+                "Particle",
+                "Meaning",
+                "The book's example"
+              ],
+              "rows": [
+                [
+                  "إِنْ in",
+                  "if (two verbs)",
+                  "إِنْ تُكْرِمْنِي أُكْرِمْكَ"
+                ],
+                [
+                  "لَمْ lam",
+                  "did not",
+                  "لَمْ يَضْرِبْ زَيْدٌ"
+                ],
+                [
+                  "لَمَّا lammā",
+                  "has not yet",
+                  "لَمَّا يَضْرِبْ زَيْدٌ"
+                ],
+                [
+                  "لَامُ الْأَمْرِ li-",
+                  "let him…",
+                  "لِيَضْرِبْ زَيْدٌ"
+                ],
+                [
+                  "لَا النَّاهِيَةُ lā",
+                  "do not…",
+                  "لَا تَضْرِبْ زَيْدًا"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "In in tukrimnī ukrimka, name the governor, the two verbs it governs and their state.",
+              "arabic": "إِنْ تُكْرِمْنِي أُكْرِمْكَ",
+              "answer": "The governor is in, the particle of condition. It governs tukrim, the condition, and ukrim, the answer; both are in jazm, shown by the sukūn."
+            },
+            {
+              "prompt": "What is the difference in meaning between lam yaḍrib Zaydun and lammā yaḍrib Zaydun?",
+              "arabic": "لَمْ يَضْرِبْ زَيْدٌ — لَمَّا يَضْرِبْ زَيْدٌ",
+              "answer": "Both deny the hitting in the past. Lam says only that it did not happen; lammā says that it has not happened up to now and is still expected: “not yet”."
+            },
+            {
+              "prompt": "Put yaḍribu, yaḍribāni and yaḍribūna after lam.",
+              "arabic": "يَضْرِبُ — يَضْرِبَانِ — يَضْرِبُونَ",
+              "answer": "Lam yaḍrib (the sukūn), lam yaḍribā and lam yaḍribū (the nūn dropped)."
+            },
+            {
+              "prompt": "Read lā taḍribu and lā taḍrib, and say which lā each has.",
+              "arabic": "لَا تَضْرِبُ — لَا تَضْرِبْ",
+              "answer": "Lā taḍribu: the lā of negation, the verb in rafʿ, “you do not hit”. Lā taḍrib: the lā of prohibition, the verb in jazm, “do not hit!”."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-6-1",
+              "prompt": "How many particles of jazm are in the sixth kind?",
+              "options": [
+                "Four",
+                "Nine",
+                "Five",
+                "Seven"
+              ],
+              "answer": 2,
+              "explanation": "In, lam, lammā, the lām of command and the lā of prohibition.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-6-2",
+              "prompt": "In in tukrimnī ukrimka, which verbs are in jazm?",
+              "arabic": "إِنْ تُكْرِمْنِي أُكْرِمْكَ",
+              "options": [
+                "Only tukrim",
+                "Only ukrim",
+                "Neither",
+                "Both tukrim and ukrim"
+              ],
+              "answer": 3,
+              "explanation": "In governs the condition and its answer.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-6-3",
+              "prompt": "Lammā yaḍrib Zaydun means…",
+              "arabic": "لَمَّا يَضْرِبْ زَيْدٌ",
+              "options": [
+                "Zayd has not yet hit",
+                "Zayd did not hit",
+                "Zayd will not hit",
+                "let Zayd hit"
+              ],
+              "answer": 0,
+              "explanation": "Lammā: the negation lasts up to now, and the act is still expected.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-6-4",
+              "prompt": "Li-yaḍrib Zaydun is…",
+              "arabic": "لِيَضْرِبْ زَيْدٌ",
+              "options": [
+                "a prohibition",
+                "a command to one absent",
+                "a negation of the past",
+                "a condition"
+              ],
+              "answer": 1,
+              "explanation": "The lām of command: “let Zayd hit”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-6-5",
+              "prompt": "The sign of jazm in lam yaḍrib is…",
+              "arabic": "لَمْ يَضْرِبْ",
+              "options": [
+                "the fatḥa",
+                "the kasra",
+                "the sukūn",
+                "the dropping of the nūn"
+              ],
+              "answer": 2,
+              "explanation": "Yaḍribu loses its ḍamma: lam yaḍrib.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-6-6",
+              "prompt": "Which of these is a prohibition?",
+              "options": [
+                "Lā taḍribu",
+                "Lan taḍriba",
+                "Lam taḍrib",
+                "Lā taḍrib"
+              ],
+              "answer": 3,
+              "explanation": "The lā of prohibition puts the verb in jazm: lā taḍrib, “do not hit!”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-6-7",
+              "prompt": "Lam turns the meaning of the muḍāriʿ to…",
+              "options": [
+                "the past",
+                "the future",
+                "a command",
+                "a wish"
+              ],
+              "answer": 0,
+              "explanation": "Lam yaḍrib Zaydun, “Zayd did not hit”.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ السَّادِسُ: حُرُوفٌ تَجْزِمُ الْفِعْلَ الْمُضَارِعَ، وَهِيَ خَمْسَةُ أَحْرُفٍ: إِنْ، وَلَمْ، وَلَمَّا، وَلَامُ الْأَمْرِ، وَلَاءُ النَّهْيِ، نَحْوُ: إِنْ تُكْرِمْنِي أُكْرِمْكَ، وَلَمْ يَضْرِبْ زَيْدٌ، وَلَمَّا يَضْرِبْ زَيْدٌ، وَلِيَضْرِبْ زَيْدٌ، وَلَا تَضْرِبْ زَيْدًا.",
+              "page": "2–3",
+              "en": "The sixth kind: particles that put the muḍāriʿ in jazm. They are five particles: in, lam, lammā, the lām of command and the lā of prohibition, as in tukrimnī ukrimka “if you honour me, I shall honour you”, lam yaḍrib Zaydun “Zayd did not hit”, lammā yaḍrib Zaydun “Zayd has not yet hit”, li-yaḍrib Zaydun “let Zayd hit” and lā taḍrib Zaydan “do not hit Zayd”."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heard-nouns",
+      "title": "The heard governors: the nouns",
+      "arabic": "الْعَوَامِلُ السَّمَاعِيَّةُ: الْأَسْمَاءُ",
+      "transliteration": "al-ʿawāmil al-samāʿiyya: al-asmāʾ",
+      "lessons": [
+        {
+          "n": 7,
+          "title": "The seventh kind: nouns that put the muḍāriʿ in jazm",
+          "arabic": "أَسْمَاءٌ تَجْزِمُ الْفِعْلَ الْمُضَارِعَ",
+          "transliteration": "asmāʾ tajzimu al-fiʿl al-muḍāriʿ",
+          "pages": "3",
+          "body": [
+            "The seventh kind brings the first governors that are nouns: nine words that put the muḍāriʿ in jazm “in the meaning of in”: man, mā, matā, mahmā, ayyun, aynamā, annā, ḥaythumā and idhmā. Each carries the meaning of “if” together with a meaning of its own, a person, a thing, a time or a place, and so, like in, it governs two verbs in jazm: the condition and its answer.",
+            "They are nouns, not particles, because each stands for something in the sentence. In man yukrimnī ukrimhu, “whoever honours me, I shall honour him”, man is “whoever”, the person who honours; in mā taṣnaʿ aṣnaʿ, “whatever you do, I shall do”, mā is “whatever”, the thing done, the object of taṣnaʿ put before it. In does nothing of the kind: it only links the two verbs.",
+            "By their meanings: man is for persons, “whoever”; mā and mahmā for things, “whatever”: mahmā takun akun, “whatever you are, I shall be”; matā and idhmā for time, “whenever”: matā tadhhab adhhab; aynamā, annā and ḥaythumā for place, “wherever”: aynamā tajlis ajlis, “wherever you sit, I shall sit”. Ayyun, “whichever”, takes its meaning from the word it is joined to: ayyahum taḍrib aḍrib, “whichever of them you hit, I shall hit”. Sībawayh held idhmā to be a particle, like in; al-Jurjānī counts it among the nouns.",
+            "Look closely at ayyahum. Of the nine, ayyun alone is declinable (muʿrab); the others keep one ending (mabnī). In the book's example it is in naṣb because it is the object of taḍrib, placed before it. So a noun of condition can govern a verb in jazm and be governed by that same verb: ayyahum puts taḍrib in jazm, and taḍrib puts ayyahum in naṣb.",
+            "A trap: man and mā are not always nouns of condition. Man jāʾaka? “who came to you?” asks a question, and mā can negate, as in mā Zaydun fāḍilan. The sign of the condition is two verbs, the second an answer to the first, both in jazm."
+          ],
+          "terms": [
+            {
+              "arabic": "أَسْمَاءُ الشَّرْطِ",
+              "transliteration": "asmāʾ al-sharṭ",
+              "en": "the nouns of condition, in the meaning of in"
+            },
+            {
+              "arabic": "جَوَابُ الشَّرْطِ",
+              "transliteration": "jawāb al-sharṭ",
+              "en": "the answer of the condition (al-jazāʾ)"
+            },
+            {
+              "arabic": "أَيٌّ",
+              "transliteration": "ayyun",
+              "en": "“whichever”: the one declinable noun of the nine"
+            },
+            {
+              "arabic": "مَهْمَا",
+              "transliteration": "mahmā",
+              "en": "“whatever”"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "مَنْ يُكْرِمْنِي أُكْرِمْهُ",
+              "en": "man yukrimnī ukrimhu, “whoever honours me, I shall honour him”",
+              "after": 1
+            },
+            {
+              "arabic": "مَا تَصْنَعْ أَصْنَعْ",
+              "en": "mā taṣnaʿ aṣnaʿ, “whatever you do, I shall do”",
+              "after": 1
+            },
+            {
+              "arabic": "أَيْنَمَا تَجْلِسْ أَجْلِسْ",
+              "en": "aynamā tajlis ajlis, “wherever you sit, I shall sit”",
+              "after": 2
+            },
+            {
+              "arabic": "أَيَّهُمْ تَضْرِبْ أَضْرِبْ",
+              "en": "ayyahum taḍrib aḍrib: ayyahum in naṣb as the object of taḍrib",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 2,
+            "grid": {
+              "caption": "The nine nouns of condition, with the book's examples (p. 3)",
+              "head": [
+                "Noun",
+                "Meaning",
+                "The book's example"
+              ],
+              "rows": [
+                [
+                  "مَنْ man",
+                  "whoever",
+                  "مَنْ يُكْرِمْنِي أُكْرِمْهُ"
+                ],
+                [
+                  "مَا mā",
+                  "whatever",
+                  "مَا تَصْنَعْ أَصْنَعْ"
+                ],
+                [
+                  "مَتَى matā",
+                  "whenever",
+                  "مَتَى تَذْهَبْ أَذْهَبْ"
+                ],
+                [
+                  "مَهْمَا mahmā",
+                  "whatever",
+                  "مَهْمَا تَكُنْ أَكُنْ"
+                ],
+                [
+                  "أَيٌّ ayyun",
+                  "whichever",
+                  "أَيَّهُمْ تَضْرِبْ أَضْرِبْ"
+                ],
+                [
+                  "أَيْنَمَا aynamā",
+                  "wherever",
+                  "أَيْنَمَا تَجْلِسْ أَجْلِسْ"
+                ],
+                [
+                  "أَنَّى annā",
+                  "wherever",
+                  "أَنَّى تَقْعُدْ أَقْعُدْ"
+                ],
+                [
+                  "حَيْثُمَا ḥaythumā",
+                  "wherever",
+                  "حَيْثُمَا تَذْهَبْ أَذْهَبْ"
+                ],
+                [
+                  "إِذْمَا idhmā",
+                  "whenever",
+                  "إِذْمَا تَفْعَلْ أَفْعَلْ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Find the condition and the answer in matā tadhhab adhhab, and give their state and governor.",
+              "arabic": "مَتَى تَذْهَبْ أَذْهَبْ",
+              "answer": "Tadhhab is the condition and adhhab the answer; both are in jazm, shown by the sukūn, and matā, a noun of condition meaning “whenever”, governs both."
+            },
+            {
+              "prompt": "Why is ayyahum in naṣb in ayyahum taḍrib aḍrib?",
+              "arabic": "أَيَّهُمْ تَضْرِبْ أَضْرِبْ",
+              "answer": "Ayyun is the only declinable noun of the nine, and here it is the object of taḍrib, placed before it. It governs taḍrib in jazm and is itself governed in naṣb by taḍrib."
+            },
+            {
+              "prompt": "Why are man and mā counted as nouns, while in is a particle?",
+              "answer": "Man and mā stand for something in the sentence: the person (“whoever”) or the thing (“whatever”); mā in mā taṣnaʿ is even the object of the verb. In only links the condition to its answer and stands for nothing."
+            },
+            {
+              "prompt": "Sort the nine by meaning: persons, things, time, place, and the one that takes its meaning from what follows it.",
+              "answer": "Persons: man. Things: mā, mahmā. Time: matā, idhmā. Place: aynamā, annā, ḥaythumā. Ayyun takes the meaning of what it is joined to (ayyuhum, “whichever of them”)."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-7-1",
+              "prompt": "How many nouns put the muḍāriʿ in jazm?",
+              "options": [
+                "Five",
+                "Seven",
+                "Four",
+                "Nine"
+              ],
+              "answer": 3,
+              "explanation": "Man, mā, matā, mahmā, ayyun, aynamā, annā, ḥaythumā and idhmā.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-7-2",
+              "prompt": "They put it in jazm “in the meaning of”…",
+              "options": [
+                "in, “if”",
+                "lam",
+                "the lā of prohibition",
+                "an"
+              ],
+              "answer": 0,
+              "explanation": "Each carries the meaning of the condition, as in does.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-7-3",
+              "prompt": "Which of the nine is declinable (muʿrab)?",
+              "options": [
+                "Man",
+                "Ayyun",
+                "Matā",
+                "Mahmā"
+              ],
+              "answer": 1,
+              "explanation": "Ayyun alone changes its ending: ayyahum in naṣb in the book's example.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-7-4",
+              "prompt": "Matā means…",
+              "options": [
+                "whoever",
+                "whatever",
+                "whenever",
+                "wherever"
+              ],
+              "answer": 2,
+              "explanation": "Matā tadhhab adhhab, “whenever you go, I shall go”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-7-5",
+              "prompt": "In mā taṣnaʿ aṣnaʿ, aṣnaʿ is…",
+              "arabic": "مَا تَصْنَعْ أَصْنَعْ",
+              "options": [
+                "the condition, in rafʿ",
+                "the object of mā",
+                "in naṣb",
+                "the answer, in jazm"
+              ],
+              "answer": 3,
+              "explanation": "Taṣnaʿ is the condition and aṣnaʿ its answer; both are in jazm.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-7-6",
+              "prompt": "How many verbs does a noun of condition govern in jazm?",
+              "options": [
+                "Two",
+                "One",
+                "Three",
+                "None"
+              ],
+              "answer": 0,
+              "explanation": "The condition and its answer, as in does.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-7-7",
+              "prompt": "Aynamā tajlis ajlis means…",
+              "arabic": "أَيْنَمَا تَجْلِسْ أَجْلِسْ",
+              "options": [
+                "whenever you sit, I shall sit",
+                "wherever you sit, I shall sit",
+                "whoever sits, I shall sit",
+                "if you do not sit, I shall sit"
+              ],
+              "answer": 1,
+              "explanation": "Aynamā is for place.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ السَّابِعُ: أَسْمَاءٌ تَجْزِمُ الْفِعْلَ الْمُضَارِعَ عَلَى مَعْنَى إِنْ، وَهِيَ تِسْعَةُ أَسْمَاءٍ: مَنْ، وَمَا، وَمَتَى، وَمَهْمَا، وَأَيٌّ، وَأَيْنَمَا، وَأَنَّى، وَحَيْثُمَا، وَإِذْمَا.",
+              "page": "3",
+              "en": "The seventh kind: nouns that put the muḍāriʿ in jazm in the meaning of in “if”. They are nine nouns: man, mā, matā, mahmā, ayyun, aynamā, annā, ḥaythumā and idhmā."
+            },
+            {
+              "original": "نَحْوُ: مَنْ يُكْرِمْنِي أُكْرِمْهُ، وَمَا تَصْنَعْ أَصْنَعْ، وَمَتَى تَذْهَبْ أَذْهَبْ، وَمَهْمَا تَكُنْ أَكُنْ، وَأَيَّهُمْ تَضْرِبْ أَضْرِبْ، وَأَيْنَمَا تَجْلِسْ أَجْلِسْ، وَأَنَّى تَقْعُدْ أَقْعُدْ، وَحَيْثُمَا تَذْهَبْ أَذْهَبْ، وَإِذْمَا تَفْعَلْ أَفْعَلْ.",
+              "page": "3",
+              "en": "As man yukrimnī ukrimhu “whoever honours me, I shall honour him”, mā taṣnaʿ aṣnaʿ “whatever you do, I shall do”, matā tadhhab adhhab “whenever you go, I shall go”, mahmā takun akun “whatever you are, I shall be”, ayyahum taḍrib aḍrib “whichever of them you hit, I shall hit”, aynamā tajlis ajlis “wherever you sit, I shall sit”, annā taqʿud aqʿud “wherever you sit down, I shall sit down”, ḥaythumā tadhhab adhhab “wherever you go, I shall go” and idhmā tafʿal afʿal “whenever you do [it], I shall do [it]”."
+            }
+          ]
+        },
+        {
+          "n": 8,
+          "title": "The eighth kind: nouns that put the tamyīz in naṣb",
+          "arabic": "أَسْمَاءٌ تَنْصِبُ عَلَى التَّمْيِيزِ",
+          "transliteration": "asmāʾ tanṣibu ʿalā al-tamyīz",
+          "pages": "3",
+          "body": [
+            "The eighth kind is four nouns that “put an indefinite noun in naṣb as a specification (tamyīz)”. A tamyīz removes a vagueness: “eleven” says how many but not of what; rajulan, “men”, says of what. The vague word is the governor; the indefinite noun after it is governed, in naṣb.",
+            "The first is ʿashara, “ten”, “when it is compounded with aḥad and ithnān”, that is, in the compound numbers from eleven to nineteen: jāʾanī aḥada ʿashara rajulan, “eleven men came to me”. The book carries the rule on “up to ninety-nine”: from eleven to ninety-nine the counted noun is a single indefinite noun in naṣb. The book itself counts this way on its first two pages: ʿalā thalāthata ʿashara nawʿan, “into thirteen kinds”; sabʿata ʿashara ḥarfan, “seventeen particles”; aḥadun wa-tisʿūna ʿāmilan, “ninety-one governors”.",
+            "Compare the numbers outside that range, also in the book's own words. After three to ten and after a hundred the counted noun is in jarr by iḍāfa, not in naṣb: sabʿatu ʿawāmila, “seven governors”, and the title itself, miʾatu ʿāmilin, “a hundred governors”. (ʿAwāmila takes a fatḥa for its jarr, as a diptote.) So miʾa is vague too, but it governs by iḍāfa, not as one of the four nouns of this kind.",
+            "Kam, “how many?”, asks a number: kam rajulan ʿindaka, “how many men are with you?”; its tamyīz is a single indefinite noun in naṣb. Kadhā, “so many”, stands for a number not named: kadhā dirhaman ʿindaka, “so many dirhams are with you”. Ka-ayyin, “how many a!”, tells of a great number: ka-ayyin rajulan ʿindaka. Naḥw-i Mīr adds that kam has a second use, telling of a great number, whose tamyīz is in jarr: kam mālin anfaqtu, “how much wealth I have spent!”; only the asking kam belongs here.",
+            "A trap: the tamyīz and the ḥāl are both indefinite nouns in naṣb, but they answer different questions. The ḥāl tells the state of someone (“how?”); the tamyīz says what a vague word means (“of what?”). Ask of aḥada ʿashara rajulan, “eleven of what?”: men. That answer is the tamyīz."
+          ],
+          "terms": [
+            {
+              "arabic": "التَّمْيِيزُ",
+              "transliteration": "al-tamyīz",
+              "en": "the specification: an indefinite noun in naṣb that removes a vagueness"
+            },
+            {
+              "arabic": "الْمُمَيَّزُ",
+              "transliteration": "al-mumayyaz",
+              "en": "the vague word that the tamyīz specifies"
+            },
+            {
+              "arabic": "كَمْ",
+              "transliteration": "kam",
+              "en": "“how many?”: its tamyīz in naṣb"
+            },
+            {
+              "arabic": "كَأَيِّنْ",
+              "transliteration": "ka-ayyin",
+              "en": "“how many a!”: telling of a great number"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "جَاءَنِي أَحَدَ عَشَرَ رَجُلًا",
+              "en": "jāʾanī aḥada ʿashara rajulan, “eleven men came to me”",
+              "after": 1
+            },
+            {
+              "arabic": "أَحَدٌ وَتِسْعُونَ عَامِلًا",
+              "en": "aḥadun wa-tisʿūna ʿāmilan, “ninety-one governors”: the book's own count",
+              "after": 1
+            },
+            {
+              "arabic": "مِائَةُ عَامِلٍ",
+              "en": "miʾatu ʿāmilin, “a hundred governors”: after a hundred, jarr by iḍāfa",
+              "after": 2
+            },
+            {
+              "arabic": "كَمْ رَجُلًا عِنْدَكَ",
+              "en": "kam rajulan ʿindaka, “how many men are with you?”",
+              "after": 3
+            },
+            {
+              "arabic": "كَذَا دِرْهَمًا عِنْدَكَ",
+              "en": "kadhā dirhaman ʿindaka, “so many dirhams are with you”",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The four vague nouns and their tamyīz (p. 3); below, the book's own counts (pp. 1–2)",
+              "head": [
+                "Vague noun",
+                "Meaning",
+                "Tamyīz in naṣb"
+              ],
+              "rows": [
+                [
+                  "أَحَدَ عَشَرَ",
+                  "eleven",
+                  "رَجُلًا"
+                ],
+                [
+                  "كَمْ",
+                  "how many?",
+                  "رَجُلًا"
+                ],
+                [
+                  "كَذَا",
+                  "so many",
+                  "دِرْهَمًا"
+                ],
+                [
+                  "كَأَيِّنْ",
+                  "how many a!",
+                  "رَجُلًا"
+                ],
+                [
+                  "ثَلَاثَةَ عَشَرَ",
+                  "thirteen",
+                  "نَوْعًا"
+                ],
+                [
+                  "سَبْعَةَ عَشَرَ",
+                  "seventeen",
+                  "حَرْفًا"
+                ],
+                [
+                  "أَحَدٌ وَتِسْعُونَ",
+                  "ninety-one",
+                  "عَامِلًا"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Find the tamyīz and the vague word it specifies in the book's own counts: thalāthata ʿashara nawʿan; sabʿata ʿashara ḥarfan; aḥadun wa-tisʿūna ʿāmilan.",
+              "arabic": "ثَلَاثَةَ عَشَرَ نَوْعًا — سَبْعَةَ عَشَرَ حَرْفًا — أَحَدٌ وَتِسْعُونَ عَامِلًا",
+              "answer": "Nawʿan specifies thalāthata ʿashara; ḥarfan specifies sabʿata ʿashara; ʿāmilan specifies aḥadun wa-tisʿūna. Each is a single indefinite noun in naṣb."
+            },
+            {
+              "prompt": "Why is ʿāmilin in jarr in miʾatu ʿāmilin, but ʿāmilan in naṣb in aḥadun wa-tisʿūna ʿāmilan?",
+              "arabic": "مِائَةُ عَامِلٍ — أَحَدٌ وَتِسْعُونَ عَامِلًا",
+              "answer": "After a hundred the counted noun is joined to the number by iḍāfa and so is in jarr. From eleven to ninety-nine the counted noun is a tamyīz, in naṣb."
+            },
+            {
+              "prompt": "In kam rajulan ʿindaka, what governs rajulan, and what question does it answer?",
+              "arabic": "كَمْ رَجُلًا عِنْدَكَ",
+              "answer": "Kam, the asking “how many?”, governs rajulan in naṣb as its tamyīz. It answers “how many of what?”: men."
+            },
+            {
+              "prompt": "How do you tell a tamyīz from a ḥāl, since both are indefinite nouns in naṣb?",
+              "answer": "The ḥāl tells the state of someone and answers “how?”. The tamyīz removes the vagueness of a word before it and answers “of what?”."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-8-1",
+              "prompt": "A tamyīz is…",
+              "options": [
+                "an indefinite noun in naṣb that removes a vagueness",
+                "a definite noun in jarr",
+                "a predicate in rafʿ",
+                "a verb in naṣb"
+              ],
+              "answer": 0,
+              "explanation": "It says “of what” after a vague word such as a number.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-8-2",
+              "prompt": "How many nouns are in the eighth kind?",
+              "options": [
+                "Nine",
+                "Four",
+                "Three",
+                "Seven"
+              ],
+              "answer": 1,
+              "explanation": "ʿAshara compounded, kam, kadhā and ka-ayyin.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-8-3",
+              "prompt": "ʿAshara governs a tamyīz when…",
+              "options": [
+                "it stands alone",
+                "it follows a hundred",
+                "it is compounded with aḥad, ithnān and the other units",
+                "it comes before a verb"
+              ],
+              "answer": 2,
+              "explanation": "Aḥada ʿashara rajulan: the compound numbers, and on to ninety-nine.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-8-4",
+              "prompt": "In kam rajulan ʿindaka, rajulan is…",
+              "arabic": "كَمْ رَجُلًا عِنْدَكَ",
+              "options": [
+                "the object of a verb",
+                "the predicate",
+                "the doer",
+                "the tamyīz of kam"
+              ],
+              "answer": 3,
+              "explanation": "Kam asks how many; rajulan says of what.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-8-5",
+              "prompt": "In the book's title miʾatu ʿāmilin, ʿāmilin is in…",
+              "arabic": "مِائَةُ عَامِلٍ",
+              "options": [
+                "jarr, by iḍāfa",
+                "naṣb, as a tamyīz",
+                "rafʿ",
+                "jazm"
+              ],
+              "answer": 0,
+              "explanation": "After a hundred the counted noun is in jarr by iḍāfa.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-8-6",
+              "prompt": "Kadhā dirhaman means…",
+              "arabic": "كَذَا دِرْهَمًا",
+              "options": [
+                "how many dirhams?",
+                "so many dirhams",
+                "like a dirham",
+                "except a dirham"
+              ],
+              "answer": 1,
+              "explanation": "Kadhā stands for a number not named.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-8-7",
+              "prompt": "In ʿalā thalāthata ʿashara nawʿan, which word is the tamyīz?",
+              "arabic": "عَلَى ثَلَاثَةَ عَشَرَ نَوْعًا",
+              "options": [
+                "Thalāthata",
+                "ʿAshara",
+                "Nawʿan",
+                "None"
+              ],
+              "answer": 2,
+              "explanation": "Nawʿan says what the thirteen are: kinds.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الثَّامِنُ: أَسْمَاءٌ تَنْصِبُ عَلَى التَّمْيِيزِ اسْمًا نَكِرَةً، وَهِيَ أَرْبَعَةُ أَسْمَاءٍ: أَوَّلُهَا عَشَرَةٌ إِذَا رُكِّبَتْ مَعَ أَحَدٍ وَاثْنَيْنِ إِلَى تِسْعَةٍ وَتِسْعِينَ، نَحْوُ: جَاءَنِي أَحَدَ عَشَرَ رَجُلًا، وَثَانِيهَا كَمْ، نَحْوُ: كَمْ رَجُلًا عِنْدَكَ، وَثَالِثُهَا كَذَا، نَحْوُ: كَذَا دِرْهَمًا عِنْدَكَ، وَرَابِعُهَا كَأَيِّنْ، نَحْوُ: كَأَيِّنْ رَجُلًا عِنْدَكَ.",
+              "page": "3",
+              "en": "The eighth kind: nouns that put an indefinite noun in naṣb as a specification (tamyīz). They are four nouns. The first of them is ʿasharatun “ten” when it is compounded with aḥadin and ithnayni, up to ninety-nine, as jāʾanī aḥada ʿashara rajulan “eleven men came to me”; the second is kam, as kam rajulan ʿindaka “how many men are with you?”; the third is kadhā, as kadhā dirhaman ʿindaka “so many dirhams are with you”; and the fourth is ka-ayyin, as ka-ayyin rajulan ʿindaka “how many a man is with you!”."
+            }
+          ]
+        },
+        {
+          "n": 9,
+          "title": "The ninth kind: the nouns of verbs",
+          "arabic": "أَسْمَاءُ الْأَفْعَالِ",
+          "transliteration": "asmāʾ al-afʿāl",
+          "pages": "3–4",
+          "body": [
+            "The ninth kind is “words that are called nouns of verbs” (asmāʾ al-afʿāl): nine words that mean what a verb means and govern as that verb governs, though they take none of a verb's forms: they do not change for past and present or for the persons, and their ending stays the same (they are mabnī). The book calls them “words” (kalimāt), as if to leave them between noun and verb; most grammarians count them nouns, as their name says.",
+            "Six put a noun in naṣb, because each means a command whose verb takes an object: ruwayda Zaydan, “give Zayd time”; balha Zaydan, “leave Zayd alone”; dūnaka Zaydan, “take Zayd”; ʿalayka Zaydan, “keep to Zayd”; ḥayyahal Zaydan, “bring Zayd”; hā Zaydan, “take Zayd”. Naḥw-i Mīr explains ruwayda Zaydan as amhilhu, “give him time”: the noun of the verb does what the verb amhil would do.",
+            "Dūnaka and ʿalayka are made of a word of place (dūna, “before”) or a preposition (ʿalā, “on”) with the pronoun “you”. The -ka changes with the one addressed, as in the Qurʾān: ʿalaykum anfusakum, “keep to yourselves” (Q 5:105). They are not the preposition ʿalā with its noun: in ʿalayka Zaydan, Zaydan is in naṣb, which no particle of jarr could give.",
+            "Three put a noun in rafʿ, because each means a past verb that has a doer and no object: hayhāta Zaydun, “how far away Zayd is!”, which Naḥw-i Mīr explains as baʿuda, “he is far”; shattāna Zaydun wa-ʿAmrun, “how different Zayd and ʿAmr are!”; sarʿāna Zaydun, “how quick Zayd is!”. The noun after them is their doer (fāʿil), in rafʿ. Shattāna needs two nouns, since a difference is always between two.",
+            "Birgivī put words like hayhāta under an analogical governor he calls “the meaning of the verb”. Al-Jurjānī lists them by name as heard governors, so the student learns them as a list: each with its meaning and with the state it gives."
+          ],
+          "terms": [
+            {
+              "arabic": "أَسْمَاءُ الْأَفْعَالِ",
+              "transliteration": "asmāʾ al-afʿāl",
+              "en": "nouns of verbs: words with a verb's meaning and work"
+            },
+            {
+              "arabic": "رُوَيْدَ",
+              "transliteration": "ruwayda",
+              "en": "“give time to”: gives naṣb"
+            },
+            {
+              "arabic": "عَلَيْكَ",
+              "transliteration": "ʿalayka",
+              "en": "“keep to”: gives naṣb"
+            },
+            {
+              "arabic": "هَيْهَاتَ",
+              "transliteration": "hayhāta",
+              "en": "“how far!”: gives rafʿ to its doer"
+            },
+            {
+              "arabic": "شَتَّانَ",
+              "transliteration": "shattāna",
+              "en": "“how different!”: gives rafʿ to two"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "رُوَيْدَ زَيْدًا",
+              "en": "ruwayda Zaydan, “give Zayd time”: Zaydan in naṣb",
+              "after": 1
+            },
+            {
+              "arabic": "عَلَيْكَ زَيْدًا",
+              "en": "ʿalayka Zaydan, “keep to Zayd”",
+              "after": 2
+            },
+            {
+              "arabic": "هَيْهَاتَ زَيْدٌ",
+              "en": "hayhāta Zaydun, “how far away Zayd is!”: Zaydun its doer, in rafʿ",
+              "after": 3
+            },
+            {
+              "arabic": "شَتَّانَ زَيْدٌ وَعَمْرٌو",
+              "en": "shattāna Zaydun wa-ʿAmrun, “how different Zayd and ʿAmr are!”",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "tree",
+            "after": 1,
+            "caption": "The nine nouns of verbs (pp. 3–4)",
+            "tree": {
+              "label": "Nouns of verbs: 9",
+              "ar": "أَسْمَاءُ الْأَفْعَالِ",
+              "children": [
+                {
+                  "label": "Giving naṣb: 6",
+                  "ar": "النَّاصِبُ",
+                  "children": [
+                    {
+                      "label": "ruwayda: give time",
+                      "ar": "رُوَيْدَ"
+                    },
+                    {
+                      "label": "balha: leave alone",
+                      "ar": "بَلْهَ"
+                    },
+                    {
+                      "label": "dūnaka: take",
+                      "ar": "دُونَكَ"
+                    },
+                    {
+                      "label": "ʿalayka: keep to",
+                      "ar": "عَلَيْكَ"
+                    },
+                    {
+                      "label": "ḥayyahal: bring",
+                      "ar": "حَيَّهَلْ"
+                    },
+                    {
+                      "label": "hā: take",
+                      "ar": "هَا"
+                    }
+                  ]
+                },
+                {
+                  "label": "Giving rafʿ: 3",
+                  "ar": "الرَّافِعُ",
+                  "children": [
+                    {
+                      "label": "hayhāta: how far!",
+                      "ar": "هَيْهَاتَ"
+                    },
+                    {
+                      "label": "shattāna: how different!",
+                      "ar": "شَتَّانَ"
+                    },
+                    {
+                      "label": "sarʿāna: how quick!",
+                      "ar": "سَرْعَانَ"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the governor and the state of Zayd in dūnaka Zaydan and in sarʿāna Zaydun.",
+              "arabic": "دُونَكَ زَيْدًا — سَرْعَانَ زَيْدٌ",
+              "answer": "Dūnaka, a noun of a verb meaning “take”, puts Zaydan in naṣb as its object. Sarʿāna, a noun of a verb meaning “how quick he is!”, puts Zaydun in rafʿ as its doer."
+            },
+            {
+              "prompt": "Why does shattāna need two nouns?",
+              "arabic": "شَتَّانَ زَيْدٌ وَعَمْرٌو",
+              "answer": "It means “how different they are!”, and a difference is between two: Zaydun is its doer and ʿAmrun is joined to him by the wāw, in rafʿ like him."
+            },
+            {
+              "prompt": "In ʿalayka Zaydan, why is ʿalā not a particle of jarr?",
+              "arabic": "عَلَيْكَ زَيْدًا",
+              "answer": "ʿAlayka here is one word, a noun of a verb meaning “keep to”. Zaydan after it is in naṣb as its object; a particle of jarr would give jarr."
+            },
+            {
+              "prompt": "Sort the nine into those that give naṣb and those that give rafʿ, and say why each group governs as it does.",
+              "answer": "Naṣb: ruwayda, balha, dūnaka, ʿalayka, ḥayyahal, hā; they mean commands whose verbs take an object. Rafʿ: hayhāta, shattāna, sarʿāna; they mean past verbs with a doer and no object."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-9-1",
+              "prompt": "The nouns of verbs are words that…",
+              "options": [
+                "are made from verbs by ṣarf",
+                "carry a verb's meaning and work",
+                "always follow a verb",
+                "are always in naṣb"
+              ],
+              "answer": 1,
+              "explanation": "They mean what a verb means and govern as it governs, without taking its forms.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-9-2",
+              "prompt": "How many nouns of verbs give naṣb?",
+              "options": [
+                "Three",
+                "Nine",
+                "Six",
+                "Four"
+              ],
+              "answer": 2,
+              "explanation": "Ruwayda, balha, dūnaka, ʿalayka, ḥayyahal and hā.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-9-3",
+              "prompt": "Hayhāta Zaydun means…",
+              "arabic": "هَيْهَاتَ زَيْدٌ",
+              "options": [
+                "take Zayd",
+                "leave Zayd alone",
+                "Zayd is near",
+                "how far away Zayd is!"
+              ],
+              "answer": 3,
+              "explanation": "Hayhāta means “he is far”, with Zaydun as its doer.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-9-4",
+              "prompt": "In hayhāta Zaydun, Zaydun is…",
+              "arabic": "هَيْهَاتَ زَيْدٌ",
+              "options": [
+                "the doer of hayhāta",
+                "its object",
+                "a subject with a predicate",
+                "in jarr"
+              ],
+              "answer": 0,
+              "explanation": "The three that give rafʿ mean past verbs with a doer.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-9-5",
+              "prompt": "Which of these gives rafʿ?",
+              "options": [
+                "Ruwayda",
+                "Sarʿāna",
+                "Dūnaka",
+                "Balha"
+              ],
+              "answer": 1,
+              "explanation": "Hayhāta, shattāna and sarʿāna give rafʿ; the other six give naṣb.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-9-6",
+              "prompt": "In ʿalayka Zaydan, Zaydan is in naṣb because ʿalayka means…",
+              "arabic": "عَلَيْكَ زَيْدًا",
+              "options": [
+                "upon",
+                "with",
+                "keep to",
+                "except"
+              ],
+              "answer": 2,
+              "explanation": "As a noun of a verb, ʿalayka means a command that takes an object.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-9-7",
+              "prompt": "Do the nouns of verbs change their form for past and present?",
+              "options": [
+                "Yes, like any verb",
+                "Only in the dual",
+                "Only after lam",
+                "No: their form stays the same"
+              ],
+              "answer": 3,
+              "explanation": "They have a verb's meaning and work, but none of its forms.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ التَّاسِعُ: كَلِمَاتٌ تُسَمَّى أَسْمَاءَ الْأَفْعَالِ، بَعْضُهَا تَرْفَعُ وَبَعْضُهَا تَنْصِبُ، وَهِيَ تِسْعُ كَلِمَاتٍ. النَّاصِبُ مِنْهَا سِتُّ كَلِمَاتٍ: رُوَيْدَ، وَبَلْهَ، وَدُونَكَ، وَعَلَيْكَ، وَحَيَّهَلْ، وَهَا، نَحْوُ: رُوَيْدَ زَيْدًا، وَبَلْهَ زَيْدًا، وَدُونَكَ زَيْدًا، وَعَلَيْكَ زَيْدًا، وَحَيَّهَلْ زَيْدًا، وَهَا زَيْدًا.",
+              "page": "3–4",
+              "en": "The ninth kind: words that are called nouns of verbs (asmāʾ al-afʿāl); some of them put in rafʿ and some in naṣb. They are nine words. Those of them that put in naṣb are six words: ruwayda, balha, dūnaka, ʿalayka, ḥayyahal and hā, as ruwayda Zaydan “give Zayd time”, balha Zaydan “leave Zayd alone”, dūnaka Zaydan “take Zayd”, ʿalayka Zaydan “keep to Zayd”, ḥayyahal Zaydan “bring Zayd” and hā Zaydan “take Zayd”."
+            },
+            {
+              "original": "وَالرَّافِعُ مِنْهَا ثَلَاثُ كَلِمَاتٍ: هَيْهَاتَ، وَشَتَّانَ، وَسَرْعَانَ، نَحْوُ: هَيْهَاتَ زَيْدٌ، وَشَتَّانَ زَيْدٌ وَعَمْرٌو، وَسَرْعَانَ زَيْدٌ.",
+              "page": "4",
+              "en": "Those of them that put in rafʿ are three words: hayhāta, shattāna and sarʿāna, as hayhāta Zaydun “how far away Zayd is!”, shattāna Zaydun wa-ʿAmrun “how different Zayd and ʿAmr are!” and sarʿāna Zaydun “how quick Zayd is!”."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heard-verbs",
+      "title": "The heard governors: the verbs",
+      "arabic": "الْعَوَامِلُ السَّمَاعِيَّةُ: الْأَفْعَالُ",
+      "transliteration": "al-ʿawāmil al-samāʿiyya: al-afʿāl",
+      "lessons": [
+        {
+          "n": 10,
+          "title": "The tenth kind: kāna and its sisters",
+          "arabic": "الْأَفْعَالُ النَّاقِصَةُ",
+          "transliteration": "al-afʿāl al-nāqiṣa",
+          "pages": "4",
+          "body": [
+            "The tenth kind brings the governors that are verbs: thirteen “incomplete verbs” (afʿāl nāqiṣa) that “put the noun in rafʿ and the predicate in naṣb”. Like inna, they come before a sentence of subject and predicate; unlike inna, they leave the subject in rafʿ and put the predicate in naṣb: Zaydun qāʾimun becomes kāna Zaydun qāʾiman, “Zayd was standing”. The first is called the noun (ism) of kāna, the second its predicate (khabar).",
+            "They are called incomplete because a noun in rafʿ does not complete them: kāna Zaydun, “Zayd was”, leaves the hearer waiting for “was what?”. A complete verb says its sense with its doer alone, as qāma Zaydun, “Zayd stood up”.",
+            "Their meanings: kāna, “was”, puts the predicate in the past; ṣāra, “became”, turns one state into another: ṣāra al-faqīru ghaniyyan, “the poor man became rich”. Aṣbaḥa, amsā and aḍḥā tie the predicate to the morning, the evening and the forenoon; ẓalla to the whole day: ẓalla Zaydun ṣāʾiman, “Zayd stayed fasting all day”; bāta to the night: bāta Zaydun nāʾiman. Laysa, “is not”, negates. The four with mā, mā bariḥa, mā fatiʾa, mā zāla and mā infakka, mean “did not cease”, that is, “still”: mā zāla Zaydun ʿāliman, “Zayd is still learned”. To deny ceasing is to say that a thing lasts.",
+            "Mā dāma, “as long as”, is different: its mā is not a negation but makes the verb a span of time: ijlis mā dāma Zaydun jālisan, “sit as long as Zayd is sitting”, that is, for the time of his sitting. So mā dāma does not begin a sentence; it hangs on a sentence before it, here ijlis, “sit!”.",
+            "Two traps. In the four verbs of continuance the mā is part of the governor: without the negation they do not work in this way. And several of these verbs can also be complete, with a doer and no predicate, when they mean “to be, to happen”: wa-in kāna dhū ʿusratin, “and if there is someone in hardship” (Q 2:280). Kāna there has only its doer, dhū ʿusratin."
+          ],
+          "terms": [
+            {
+              "arabic": "الْأَفْعَالُ النَّاقِصَةُ",
+              "transliteration": "al-afʿāl al-nāqiṣa",
+              "en": "the incomplete verbs: kāna and its sisters"
+            },
+            {
+              "arabic": "اسْمُ كَانَ وَخَبَرُهَا",
+              "transliteration": "ism kāna wa-khabaruhā",
+              "en": "the noun of kāna (in rafʿ) and its predicate (in naṣb)"
+            },
+            {
+              "arabic": "مَا دَامَ",
+              "transliteration": "mā dāma",
+              "en": "“as long as”: its mā makes a span of time"
+            },
+            {
+              "arabic": "لَيْسَ",
+              "transliteration": "laysa",
+              "en": "“is not”: the incomplete verb of negation"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "كَانَ زَيْدٌ قَائِمًا",
+              "en": "kāna Zaydun qāʾiman, “Zayd was standing”: the noun in rafʿ, the predicate in naṣb",
+              "after": 0
+            },
+            {
+              "arabic": "صَارَ الْفَقِيرُ غَنِيًّا",
+              "en": "ṣāra al-faqīru ghaniyyan, “the poor man became rich”",
+              "after": 2
+            },
+            {
+              "arabic": "مَا زَالَ زَيْدٌ عَالِمًا",
+              "en": "mā zāla Zaydun ʿāliman, “Zayd is still learned”",
+              "after": 2
+            },
+            {
+              "arabic": "اجْلِسْ مَا دَامَ زَيْدٌ جَالِسًا",
+              "en": "ijlis mā dāma Zaydun jālisan, “sit as long as Zayd is sitting”",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 2,
+            "grid": {
+              "caption": "The thirteen incomplete verbs, with the book's examples (p. 4)",
+              "head": [
+                "Verb",
+                "Meaning",
+                "The book's example"
+              ],
+              "rows": [
+                [
+                  "كَانَ",
+                  "was",
+                  "كَانَ زَيْدٌ قَائِمًا"
+                ],
+                [
+                  "صَارَ",
+                  "became",
+                  "صَارَ الْفَقِيرُ غَنِيًّا"
+                ],
+                [
+                  "أَصْبَحَ",
+                  "was in the morning",
+                  "أَصْبَحَ زَيْدٌ عَالِمًا"
+                ],
+                [
+                  "أَمْسَى",
+                  "was in the evening",
+                  "أَمْسَى زَيْدٌ قَارِئًا"
+                ],
+                [
+                  "أَضْحَى",
+                  "was in the forenoon",
+                  "أَضْحَى زَيْدٌ مُسَافِرًا"
+                ],
+                [
+                  "ظَلَّ",
+                  "stayed all day",
+                  "ظَلَّ زَيْدٌ صَائِمًا"
+                ],
+                [
+                  "بَاتَ",
+                  "spent the night",
+                  "بَاتَ زَيْدٌ نَائِمًا"
+                ],
+                [
+                  "مَا بَرِحَ",
+                  "did not cease",
+                  "مَا بَرِحَ زَيْدٌ عَالِمًا"
+                ],
+                [
+                  "مَا فَتِئَ",
+                  "did not cease",
+                  "مَا فَتِئَ زَيْدٌ قَائِمًا"
+                ],
+                [
+                  "مَا زَالَ",
+                  "is still",
+                  "مَا زَالَ زَيْدٌ عَالِمًا"
+                ],
+                [
+                  "مَا انْفَكَّ",
+                  "did not cease",
+                  "مَا انْفَكَّ بَكْرٌ عَاقِلًا"
+                ],
+                [
+                  "مَا دَامَ",
+                  "as long as",
+                  "مَا دَامَ زَيْدٌ جَالِسًا"
+                ],
+                [
+                  "لَيْسَ",
+                  "is not",
+                  "لَيْسَ زَيْدٌ قَائِمًا"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the noun and the predicate, with their states, in ṣāra al-faqīru ghaniyyan and laysa Zaydun qāʾiman.",
+              "arabic": "صَارَ الْفَقِيرُ غَنِيًّا — لَيْسَ زَيْدٌ قَائِمًا",
+              "answer": "Ṣāra: al-faqīru is its noun, in rafʿ; ghaniyyan its predicate, in naṣb. Laysa: Zaydun is its noun, in rafʿ; qāʾiman its predicate, in naṣb."
+            },
+            {
+              "prompt": "Why is the predicate qāʾiman in kāna Zaydun qāʾiman, but qāʾimun in inna Zaydan qāʾimun?",
+              "arabic": "كَانَ زَيْدٌ قَائِمًا — إِنَّ زَيْدًا قَائِمٌ",
+              "answer": "Kāna, an incomplete verb, leaves its noun in rafʿ and puts its predicate in naṣb. Inna does the reverse: its noun in naṣb, its predicate in rafʿ."
+            },
+            {
+              "prompt": "What does mā do in mā zāla Zaydun ʿāliman, and what does it do in ijlis mā dāma Zaydun jālisan?",
+              "arabic": "مَا زَالَ زَيْدٌ عَالِمًا — اجْلِسْ مَا دَامَ زَيْدٌ جَالِسًا",
+              "answer": "In mā zāla it negates ceasing, so the meaning is that Zayd is still learned. In mā dāma it is not a negation: it makes a span of time, “as long as Zayd is sitting”."
+            },
+            {
+              "prompt": "Why is kāna called incomplete, and when is it complete?",
+              "answer": "With its noun alone it does not finish its sense (“Zayd was…” what?), so it needs a predicate. It is complete when it means “to be, to happen” and has only a doer, as wa-in kāna dhū ʿusratin, “if there is someone in hardship” (Q 2:280)."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-10-1",
+              "prompt": "The incomplete verbs put…",
+              "options": [
+                "the noun in naṣb and the predicate in rafʿ",
+                "both in naṣb",
+                "the noun in rafʿ and the predicate in naṣb",
+                "one noun in rafʿ only"
+              ],
+              "answer": 2,
+              "explanation": "Kāna Zaydun qāʾiman: the noun in rafʿ, the predicate in naṣb.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-10-2",
+              "prompt": "How many verbs are in the tenth kind?",
+              "options": [
+                "Seven",
+                "Four",
+                "Six",
+                "Thirteen"
+              ],
+              "answer": 3,
+              "explanation": "From kāna to laysa, thirteen.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-10-3",
+              "prompt": "Ṣāra means…",
+              "options": [
+                "became",
+                "was in the morning",
+                "is not",
+                "is still"
+              ],
+              "answer": 0,
+              "explanation": "Ṣāra al-faqīru ghaniyyan, “the poor man became rich”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-10-4",
+              "prompt": "Mā zāla Zaydun ʿāliman means…",
+              "arabic": "مَا زَالَ زَيْدٌ عَالِمًا",
+              "options": [
+                "Zayd is not learned",
+                "Zayd is still learned",
+                "Zayd ceased to be learned",
+                "Zayd became learned"
+              ],
+              "answer": 1,
+              "explanation": "To deny ceasing is to say that the state lasts.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-10-5",
+              "prompt": "In mā dāma, the mā…",
+              "options": [
+                "negates",
+                "asks a question",
+                "makes a span of time: “as long as”",
+                "is a noun of condition"
+              ],
+              "answer": 2,
+              "explanation": "Ijlis mā dāma Zaydun jālisan: “for the time of Zayd's sitting”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-10-6",
+              "prompt": "In laysa Zaydun qāʾiman, Zaydun is…",
+              "arabic": "لَيْسَ زَيْدٌ قَائِمًا",
+              "options": [
+                "the predicate of laysa",
+                "in naṣb",
+                "the doer of qāʾiman",
+                "the noun of laysa, in rafʿ"
+              ],
+              "answer": 3,
+              "explanation": "Laysa is one of kāna's sisters: its noun in rafʿ, its predicate qāʾiman in naṣb.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-10-7",
+              "prompt": "Why are these verbs called incomplete?",
+              "options": [
+                "Their noun alone does not finish their sense",
+                "They have no past",
+                "They have two letters",
+                "They cannot take a pronoun"
+              ],
+              "answer": 0,
+              "explanation": "They need a predicate: “Zayd was…” what?",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الْعَاشِرُ: أَفْعَالٌ نَاقِصَةٌ تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ، وَهِيَ ثَلَاثَةَ عَشَرَ فِعْلًا: كَانَ، وَصَارَ، وَأَصْبَحَ، وَأَمْسَى، وَأَضْحَى، وَظَلَّ، وَبَاتَ، وَمَا بَرِحَ، وَمَا فَتِئَ، وَمَا زَالَ، وَمَا انْفَكَّ، وَمَا دَامَ، وَلَيْسَ.",
+              "page": "4",
+              "en": "The tenth kind: incomplete verbs (afʿāl nāqiṣa) that put the noun in rafʿ and the predicate in naṣb. They are thirteen verbs: kāna, ṣāra, aṣbaḥa, amsā, aḍḥā, ẓalla, bāta, mā bariḥa, mā fatiʾa, mā zāla, mā infakka, mā dāma and laysa."
+            },
+            {
+              "original": "نَحْوُ: كَانَ زَيْدٌ قَائِمًا، وَصَارَ الْفَقِيرُ غَنِيًّا، وَأَصْبَحَ زَيْدٌ عَالِمًا، وَأَمْسَى زَيْدٌ قَارِئًا، وَأَضْحَى زَيْدٌ مُسَافِرًا، وَظَلَّ زَيْدٌ صَائِمًا، وَبَاتَ زَيْدٌ نَائِمًا، وَمَا بَرِحَ زَيْدٌ عَالِمًا، وَمَا فَتِئَ زَيْدٌ قَائِمًا، وَمَا زَالَ زَيْدٌ عَالِمًا، وَمَا انْفَكَّ بَكْرٌ عَاقِلًا، وَاجْلِسْ مَا دَامَ زَيْدٌ جَالِسًا، وَلَيْسَ زَيْدٌ قَائِمًا.",
+              "page": "4",
+              "en": "As kāna Zaydun qāʾiman “Zayd was standing”, ṣāra al-faqīru ghaniyyan “the poor man became rich”, aṣbaḥa Zaydun ʿāliman “Zayd was learned in the morning”, amsā Zaydun qāriʾan “Zayd was reading in the evening”, aḍḥā Zaydun musāfiran “Zayd was travelling in the forenoon”, ẓalla Zaydun ṣāʾiman “Zayd stayed fasting all day”, bāta Zaydun nāʾiman “Zayd spent the night asleep”, mā bariḥa Zaydun ʿāliman “Zayd has not ceased to be learned”, mā fatiʾa Zaydun qāʾiman “Zayd has not ceased standing”, mā zāla Zaydun ʿāliman “Zayd is still learned”, mā infakka Bakrun ʿāqilan “Bakr has not ceased to be sensible”, ijlis mā dāma Zaydun jālisan “sit as long as Zayd is sitting” and laysa Zaydun qāʾiman “Zayd is not standing”."
+            }
+          ]
+        },
+        {
+          "n": 11,
+          "title": "The eleventh kind: the verbs of approach",
+          "arabic": "أَفْعَالُ الْمُقَارَبَةِ",
+          "transliteration": "afʿāl al-muqāraba",
+          "pages": "4",
+          "body": [
+            "The eleventh kind is four verbs “of approach” (al-muqāraba) that “put one noun in rafʿ”: ʿasā, kāda, karaba and awshaka. They say that the action of another verb is near: ʿasā Zaydun an yakhruja, “perhaps Zayd will go out”; kāda Zaydun an yakhruja, “Zayd was about to go out”; karaba Zaydun yakhruju, “Zayd was near to going out”; awshaka Zaydun yajīʾu, “Zayd was on the point of coming”. ʿAsā is the verb of hope (rajāʾ): it hopes that the act will come; the other three say that it was close.",
+            "After the noun comes a muḍāriʿ, the action that is near, and as a rule not a single noun as after kāna: the book says kāda Zaydun an yakhruja, not “kāda Zaydun khārijan”. The muḍāriʿ may come with an or without it, and the book's examples show both.",
+            "“One noun”: al-Jurjānī names only the noun they put in rafʿ, the one whose action is near. Most grammarians count them with kāna, as Naḥw-i Mīr does: Zayd is their noun, in rafʿ, and the verb after it is their predicate, standing in the place of a word in naṣb (fī maḥall naṣb). Naḥw-i Mīr adds a second way with ʿasā: ʿasā an yakhruja Zaydun, where an yakhruja is the doer of ʿasā and no predicate is needed.",
+            "On an, later books give the usual practice: with ʿasā and awshaka the muḍāriʿ mostly takes an, with kāda and karaba mostly not; so kāda Zaydun yakhruju is the commoner form, as in the Qurʾān: yakādu zaytuhā yuḍīʾu, “its oil would almost give light” (Q 24:35). The book's kāda Zaydun an yakhruja and awshaka Zaydun yajīʾu are the less common uses; both are allowed.",
+            "A trap: ʿasā is a verb, though it does not change for present or command; it is used only in this past form. Kāda changes like other verbs: the Qurʾān says yakādu."
+          ],
+          "terms": [
+            {
+              "arabic": "أَفْعَالُ الْمُقَارَبَةِ",
+              "transliteration": "afʿāl al-muqāraba",
+              "en": "the verbs of approach: ʿasā, kāda, karaba, awshaka"
+            },
+            {
+              "arabic": "عَسَى",
+              "transliteration": "ʿasā",
+              "en": "“perhaps”: the verb of hope"
+            },
+            {
+              "arabic": "كَادَ",
+              "transliteration": "kāda",
+              "en": "“was about to”"
+            },
+            {
+              "arabic": "الرَّجَاءُ",
+              "transliteration": "al-rajāʾ",
+              "en": "hope: what ʿasā expresses"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "عَسَى زَيْدٌ أَنْ يَخْرُجَ",
+              "en": "ʿasā Zaydun an yakhruja, “perhaps Zayd will go out”",
+              "after": 0
+            },
+            {
+              "arabic": "كَادَ زَيْدٌ أَنْ يَخْرُجَ",
+              "en": "kāda Zaydun an yakhruja, “Zayd was about to go out”",
+              "after": 1
+            },
+            {
+              "arabic": "كَرَبَ زَيْدٌ يَخْرُجُ",
+              "en": "karaba Zaydun yakhruju, “Zayd was near to going out”: without an",
+              "after": 3
+            },
+            {
+              "arabic": "أَوْشَكَ زَيْدٌ يَجِيءُ",
+              "en": "awshaka Zaydun yajīʾu, “Zayd was on the point of coming”: without an",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 3,
+            "grid": {
+              "caption": "The verbs of approach (p. 4): “an?” gives the usual practice of later books, the examples are the book's own",
+              "head": [
+                "Verb",
+                "Meaning",
+                "an?",
+                "The book's example"
+              ],
+              "rows": [
+                [
+                  "عَسَى",
+                  "perhaps (hope)",
+                  "mostly with",
+                  "عَسَى زَيْدٌ أَنْ يَخْرُجَ"
+                ],
+                [
+                  "كَادَ",
+                  "was about to",
+                  "mostly without",
+                  "كَادَ زَيْدٌ أَنْ يَخْرُجَ"
+                ],
+                [
+                  "كَرَبَ",
+                  "was near to",
+                  "mostly without",
+                  "كَرَبَ زَيْدٌ يَخْرُجُ"
+                ],
+                [
+                  "أَوْشَكَ",
+                  "was on the point of",
+                  "mostly with",
+                  "أَوْشَكَ زَيْدٌ يَجِيءُ"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "In ʿasā Zaydun an yakhruja, which noun is in rafʿ, and what action is hoped for?",
+              "arabic": "عَسَى زَيْدٌ أَنْ يَخْرُجَ",
+              "answer": "Zaydun is in rafʿ as the noun of ʿasā. The action hoped for is his going out, an yakhruja, which most grammarians take as the predicate of ʿasā, in the place of naṣb."
+            },
+            {
+              "prompt": "Kāda Zaydun an yakhruja and kāda Zaydun yakhruju: are both correct? Which is commoner?",
+              "arabic": "كَادَ زَيْدٌ أَنْ يَخْرُجَ",
+              "answer": "Both are correct; the book gives the first. With kāda the muḍāriʿ mostly comes without an, as in yakādu zaytuhā yuḍīʾu (Q 24:35), so the second is commoner."
+            },
+            {
+              "prompt": "How does the book's “one noun in rafʿ” differ from the way most grammarians, and Naḥw-i Mīr, describe these verbs?",
+              "answer": "The book names only the noun in rafʿ. Most grammarians count them with kāna: a noun in rafʿ and a predicate, the muḍāriʿ, in the place of naṣb. Naḥw-i Mīr also allows ʿasā an yakhruja Zaydun, with an yakhruja as the doer of ʿasā."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-11-1",
+              "prompt": "In the book, the verbs of approach put in rafʿ…",
+              "options": [
+                "two nouns",
+                "a noun and a predicate in naṣb",
+                "nothing",
+                "one noun"
+              ],
+              "answer": 3,
+              "explanation": "“They put one noun in rafʿ”: the one whose action is near.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-11-2",
+              "prompt": "How many verbs of approach does the book give?",
+              "options": [
+                "Four",
+                "Thirteen",
+                "Seven",
+                "Two"
+              ],
+              "answer": 0,
+              "explanation": "ʿAsā, kāda, karaba and awshaka.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-11-3",
+              "prompt": "What follows the noun of kāda?",
+              "options": [
+                "A noun in naṣb",
+                "A muḍāriʿ verb",
+                "A particle of jarr",
+                "A past verb"
+              ],
+              "answer": 1,
+              "explanation": "Kāda Zaydun an yakhruja: the action that was near.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-11-4",
+              "prompt": "Kāda Zaydun an yakhruja means…",
+              "arabic": "كَادَ زَيْدٌ أَنْ يَخْرُجَ",
+              "options": [
+                "Zayd went out",
+                "Zayd did not go out yet",
+                "Zayd was about to go out",
+                "perhaps Zayd will go out"
+              ],
+              "answer": 2,
+              "explanation": "Kāda says the act was close.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-11-5",
+              "prompt": "Which of them expresses hope?",
+              "options": [
+                "Kāda",
+                "Karaba",
+                "Awshaka",
+                "ʿAsā"
+              ],
+              "answer": 3,
+              "explanation": "ʿAsā Zaydun an yakhruja, “perhaps Zayd will go out”.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-11-6",
+              "prompt": "In awshaka Zaydun yajīʾu, the book uses…",
+              "arabic": "أَوْشَكَ زَيْدٌ يَجِيءُ",
+              "options": [
+                "no an before the verb",
+                "an before the verb",
+                "lam",
+                "lan"
+              ],
+              "answer": 0,
+              "explanation": "The book's examples give karaba and awshaka without an.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-11-7",
+              "prompt": "Most grammarians count the verb after them as…",
+              "options": [
+                "their doer",
+                "their predicate, in the place of naṣb",
+                "a ḥāl",
+                "a tamyīz"
+              ],
+              "answer": 1,
+              "explanation": "They put these verbs with kāna: a noun in rafʿ, a predicate in the place of naṣb.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الْحَادِي عَشَرَ: أَفْعَالُ الْمُقَارَبَةِ تَرْفَعُ اسْمًا وَاحِدًا، وَهِيَ أَرْبَعَةُ أَفْعَالٍ: عَسَى، وَكَادَ، وَكَرَبَ، وَأَوْشَكَ، نَحْوُ: عَسَى زَيْدٌ أَنْ يَخْرُجَ، وَكَادَ زَيْدٌ أَنْ يَخْرُجَ، وَكَرَبَ زَيْدٌ يَخْرُجُ، وَأَوْشَكَ زَيْدٌ يَجِيءُ.",
+              "page": "4",
+              "en": "The eleventh kind: the verbs of approach (afʿāl al-muqāraba), which put one noun in rafʿ. They are four verbs: ʿasā, kāda, karaba and awshaka, as ʿasā Zaydun an yakhruja “perhaps Zayd will go out”, kāda Zaydun an yakhruja “Zayd was about to go out”, karaba Zaydun yakhruju “Zayd was near to going out” and awshaka Zaydun yajīʾu “Zayd was on the point of coming”."
+            }
+          ]
+        },
+        {
+          "n": 12,
+          "title": "The twelfth kind: the verbs of praise and blame",
+          "arabic": "أَفْعَالُ الْمَدْحِ وَالذَّمِّ",
+          "transliteration": "afʿāl al-madḥ wa-l-dhamm",
+          "pages": "4–5",
+          "body": [
+            "The twelfth kind is four verbs of praise and blame, niʿma, biʾsa, sāʾa and ḥabbadhā, which “put in rafʿ the generic noun made definite by the lām”: niʿma al-rajulu Zaydun, “what an excellent man Zayd is!”; biʾsa al-rajulu ʿAmrun, “what a bad man ʿAmr is!”; sāʾa al-rajulu Bakrun, “what an evil man Bakr is!”; ḥabbadhā al-rajulu Zaydun, “how lovable a man Zayd is!”. Niʿma and ḥabbadhā praise; biʾsa and sāʾa blame.",
+            "The sentence has three parts. The verb, niʿma; its doer, al-rajulu, a generic noun (ism jins) with al-, “the man” in the sense of man as a kind; and the one singled out for the praise, Zaydun, called al-makhṣūṣ bi-l-madḥ (or bi-l-dhamm). The verb praises the kind, and the last noun names the one meant.",
+            "The book names only the doer, which the verb governs. Zaydun is in rafʿ too, and the commentators give two readings of it: it is a subject (mubtadaʾ) whose predicate is the sentence before it, niʿma al-rajulu; or it is the predicate of a subject left out, “he is Zayd”.",
+            "These verbs do not change: niʿma and biʾsa have no muḍāriʿ and no command, and they keep their meaning of praise and blame only in this form. Ḥabbadhā is two words joined: the verb ḥabba, “to be dear”, and dhā, “this”; Ibn Mālik names dhā as its doer (al-fāʿilu dhā). The book counts it with niʿma because it praises in the same way.",
+            "A trap: Zaydun is not the doer of niʿma, though it is the noun the sentence is about. The doer is al-rajulu; Zaydun is the one singled out. And sāʾa here is not the sāʾa of everyday speech, “it grieved”, with its full conjugation; in this use it works like biʾsa."
+          ],
+          "terms": [
+            {
+              "arabic": "أَفْعَالُ الْمَدْحِ وَالذَّمِّ",
+              "transliteration": "afʿāl al-madḥ wa-l-dhamm",
+              "en": "the verbs of praise and blame"
+            },
+            {
+              "arabic": "الْمَخْصُوصُ بِالْمَدْحِ",
+              "transliteration": "al-makhṣūṣ bi-l-madḥ",
+              "en": "the one singled out for the praise (or the blame)"
+            },
+            {
+              "arabic": "اسْمُ الْجِنْسِ",
+              "transliteration": "ism al-jins",
+              "en": "a generic noun, naming a kind"
+            },
+            {
+              "arabic": "نِعْمَ وَبِئْسَ",
+              "transliteration": "niʿma wa-biʾsa",
+              "en": "“how excellent!” and “how bad!”"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "نِعْمَ الرَّجُلُ زَيْدٌ",
+              "en": "niʿma al-rajulu Zaydun, “what an excellent man Zayd is!”",
+              "after": 0
+            },
+            {
+              "arabic": "بِئْسَ الرَّجُلُ عَمْرٌو",
+              "en": "biʾsa al-rajulu ʿAmrun, “what a bad man ʿAmr is!”",
+              "after": 1
+            },
+            {
+              "arabic": "حَبَّذَا الرَّجُلُ زَيْدٌ",
+              "en": "ḥabbadhā al-rajulu Zaydun, “how lovable a man Zayd is!”",
+              "after": 3
+            },
+            {
+              "arabic": "سَاءَ الرَّجُلُ بَكْرٌ",
+              "en": "sāʾa al-rajulu Bakrun, “what an evil man Bakr is!”",
+              "after": 4
+            }
+          ],
+          "diagram": {
+            "type": "tree",
+            "after": 2,
+            "focus": "Its doer (fāʿil)",
+            "caption": "The three parts of the sentence of praise; the two readings of the one singled out are the commentators'.",
+            "tree": {
+              "label": "niʿma al-rajulu Zaydun",
+              "ar": "نِعْمَ الرَّجُلُ زَيْدٌ",
+              "children": [
+                {
+                  "label": "The verb of praise",
+                  "ar": "نِعْمَ"
+                },
+                {
+                  "label": "Its doer (fāʿil)",
+                  "ar": "الرَّجُلُ"
+                },
+                {
+                  "label": "The one singled out",
+                  "ar": "زَيْدٌ",
+                  "children": [
+                    {
+                      "label": "a subject (mubtadaʾ), or",
+                      "ar": "مُبْتَدَأٌ"
+                    },
+                    {
+                      "label": "a predicate (khabar)",
+                      "ar": "خَبَرٌ"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Name the verb, its doer and the one singled out in biʾsa al-rajulu ʿAmrun.",
+              "arabic": "بِئْسَ الرَّجُلُ عَمْرٌو",
+              "answer": "Biʾsa is the verb of blame; al-rajulu its doer, in rafʿ; ʿAmrun the one singled out for the blame, also in rafʿ."
+            },
+            {
+              "prompt": "Why is al-rajulu, and not ʿAmrun, the doer of biʾsa?",
+              "answer": "The book says that these verbs put in rafʿ the generic noun with the lām: the verb blames the kind, “the man”, as its doer. ʿAmrun comes after to name the one meant; it is the makhṣūṣ."
+            },
+            {
+              "prompt": "Give the two readings of Zaydun in niʿma al-rajulu Zaydun.",
+              "arabic": "نِعْمَ الرَّجُلُ زَيْدٌ",
+              "answer": "(1) A subject (mubtadaʾ), with niʿma al-rajulu before it as its predicate. (2) The predicate of a subject left out: “[he is] Zayd”. In both it is in rafʿ."
+            },
+            {
+              "prompt": "What two words make ḥabbadhā, and which is its doer according to Ibn Mālik?",
+              "arabic": "حَبَّذَا",
+              "answer": "The verb ḥabba, “to be dear”, and dhā, “this”. Ibn Mālik names dhā as the doer."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-12-1",
+              "prompt": "Which verbs praise?",
+              "options": [
+                "Niʿma and ḥabbadhā",
+                "Biʾsa and sāʾa",
+                "Niʿma and biʾsa",
+                "Sāʾa and ḥabbadhā"
+              ],
+              "answer": 0,
+              "explanation": "Niʿma and ḥabbadhā praise; biʾsa and sāʾa blame.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-12-2",
+              "prompt": "The doer of niʿma in niʿma al-rajulu Zaydun is…",
+              "arabic": "نِعْمَ الرَّجُلُ زَيْدٌ",
+              "options": [
+                "Zaydun",
+                "al-rajulu",
+                "a hidden pronoun",
+                "niʿma itself"
+              ],
+              "answer": 1,
+              "explanation": "The verb puts in rafʿ the generic noun with the lām.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-12-3",
+              "prompt": "In the book, the doer of these verbs is a generic noun…",
+              "options": [
+                "left indefinite",
+                "in naṣb",
+                "made definite by the lām",
+                "in jarr"
+              ],
+              "answer": 2,
+              "explanation": "Al-rajulu, with al-.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-12-4",
+              "prompt": "Zaydun in niʿma al-rajulu Zaydun is called…",
+              "options": [
+                "the doer",
+                "the object",
+                "the tamyīz",
+                "the one singled out for praise"
+              ],
+              "answer": 3,
+              "explanation": "Al-makhṣūṣ bi-l-madḥ: it names the one meant.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-12-5",
+              "prompt": "Biʾsa al-rajulu ʿAmrun means…",
+              "arabic": "بِئْسَ الرَّجُلُ عَمْرٌو",
+              "options": [
+                "what a bad man ʿAmr is!",
+                "ʿAmr is not a man",
+                "ʿAmr became bad",
+                "perhaps ʿAmr is bad"
+              ],
+              "answer": 0,
+              "explanation": "Biʾsa is the verb of blame.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-12-6",
+              "prompt": "In ḥabbadhā, the doer, as Ibn Mālik says, is…",
+              "options": [
+                "ḥabba",
+                "dhā",
+                "al-rajulu",
+                "Zaydun"
+              ],
+              "answer": 1,
+              "explanation": "“Al-fāʿilu dhā”: ḥabba is the verb, dhā its doer.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-12-7",
+              "prompt": "How many verbs are in the twelfth kind?",
+              "options": [
+                "Seven",
+                "Thirteen",
+                "Four",
+                "Two"
+              ],
+              "answer": 2,
+              "explanation": "Niʿma, biʾsa, sāʾa and ḥabbadhā.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الثَّانِي عَشَرَ: أَفْعَالُ الْمَدْحِ وَالذَّمِّ تَرْفَعُ اسْمَ الْجِنْسِ الْمُعَرَّفَ بِاللَّامِ، وَهِيَ أَرْبَعَةُ أَفْعَالٍ: نِعْمَ، وَبِئْسَ، وَسَاءَ، وَحَبَّذَا، نَحْوُ: نِعْمَ الرَّجُلُ زَيْدٌ، وَبِئْسَ الرَّجُلُ عَمْرٌو، وَسَاءَ الرَّجُلُ بَكْرٌ، وَحَبَّذَا الرَّجُلُ زَيْدٌ.",
+              "page": "4–5",
+              "en": "The twelfth kind: the verbs of praise and blame (afʿāl al-madḥ wa-al-dhamm), which put in rafʿ the generic noun made definite by the lām. They are four verbs: niʿma, biʾsa, sāʾa and ḥabbadhā, as niʿma al-rajulu Zaydun “what an excellent man Zayd is!”, biʾsa al-rajulu ʿAmrun “what a bad man ʿAmr is!”, sāʾa al-rajulu Bakrun “what an evil man Bakr is!” and ḥabbadhā al-rajulu Zaydun “how lovable a man Zayd is!”."
+            }
+          ]
+        },
+        {
+          "n": 13,
+          "title": "The thirteenth kind: the verbs of doubt and certainty",
+          "arabic": "أَفْعَالُ الشَّكِّ وَالْيَقِينِ",
+          "transliteration": "afʿāl al-shakk wa-l-yaqīn",
+          "pages": "5",
+          "body": [
+            "The last heard kind is seven verbs “of doubt and certainty” that “come before two nouns, the second of which refers to the first, and put both in naṣb”: ḥasibtu, ẓanantu, khiltu, raʾaytu, ʿalimtu, wajadtu and zaʿamtu. The two nouns were a subject and its predicate: Zaydun fāḍilun, “Zayd is excellent”, becomes ḥasibtu Zaydan fāḍilan, “I reckoned Zayd excellent”. “The second refers to the first” means that the second says something of the same person: the excellent one is Zayd.",
+            "The book gives them in the first person, ḥasibtu “I reckoned”, ẓanantu “I thought”, because this is how they are used: the speaker reports his own judgment. The commentators divide them by the strength of that judgment: ḥasibtu, ẓanantu, khiltu and zaʿamtu for doubt or opinion; raʾaytu, ʿalimtu and wajadtu for certainty. Later books call all of them “verbs of the heart” (afʿāl al-qulūb), since they name what happens in the mind.",
+            "Read the examples with that in mind. Ẓanantu Bakran nāʾiman, “I thought Bakr asleep”, is an opinion; ʿalimtu Zaydan amīnan, “I knew Zayd to be trustworthy”, is knowledge. Zaʿamtu, “I claimed”, is said of a judgment that may well be false, and the book's example fits it: zaʿamtu al-shayṭāna shakūran, “I claimed Satan to be grateful”. The grammarians call the first noun the first object (al-mafʿūl al-awwal) and the second the second object (al-mafʿūl al-thānī).",
+            "Raʾaytu here is not seeing with the eye: raʾaytu Zaydan ʿāqilan is “I saw Zayd to be sensible”, a judgment of the mind, with two objects. Seeing with the eye takes one object, as in the first kind: raʾaytu al-qawma, “I saw the people”. Wajadtu too means “I found him to be”: wajadtu al-bayta rahīnan, “I found the house pledged”.",
+            "A trap: the second noun in naṣb looks like a ḥāl, a word of state, but it cannot be left out. Ẓanantu Zaydan alone does not say what I thought of Zayd; the sentence needs fāḍilan or nāʾiman to be complete. That is why both nouns are objects of the verb."
+          ],
+          "terms": [
+            {
+              "arabic": "أَفْعَالُ الشَّكِّ وَالْيَقِينِ",
+              "transliteration": "afʿāl al-shakk wa-l-yaqīn",
+              "en": "the verbs of doubt and certainty"
+            },
+            {
+              "arabic": "أَفْعَالُ الْقُلُوبِ",
+              "transliteration": "afʿāl al-qulūb",
+              "en": "verbs of the heart: the later name for them"
+            },
+            {
+              "arabic": "الْمَفْعُولُ الْأَوَّلُ وَالثَّانِي",
+              "transliteration": "al-mafʿūl al-awwal wa-l-thānī",
+              "en": "the first and the second object"
+            },
+            {
+              "arabic": "الْيَقِينُ",
+              "transliteration": "al-yaqīn",
+              "en": "certainty"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "حَسِبْتُ زَيْدًا فَاضِلًا",
+              "en": "ḥasibtu Zaydan fāḍilan, “I reckoned Zayd excellent”: both nouns in naṣb",
+              "after": 0
+            },
+            {
+              "arabic": "ظَنَنْتُ بَكْرًا نَائِمًا",
+              "en": "ẓanantu Bakran nāʾiman, “I thought Bakr asleep”: an opinion",
+              "after": 2
+            },
+            {
+              "arabic": "عَلِمْتُ زَيْدًا أَمِينًا",
+              "en": "ʿalimtu Zaydan amīnan, “I knew Zayd to be trustworthy”: certainty",
+              "after": 2
+            },
+            {
+              "arabic": "رَأَيْتُ الْقَوْمَ خَلَا زَيْدٍ",
+              "en": "raʾaytu al-qawma, “I saw the people”: seeing with the eye, one object",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "tree",
+            "after": 1,
+            "caption": "The seven verbs by the strength of the judgment, as the commentators divide them (p. 5)",
+            "tree": {
+              "label": "Doubt and certainty: 7",
+              "ar": "أَفْعَالُ الشَّكِّ وَالْيَقِينِ",
+              "children": [
+                {
+                  "label": "Doubt, opinion",
+                  "ar": "الشَّكُّ",
+                  "children": [
+                    {
+                      "label": "ḥasibtu: I reckoned",
+                      "ar": "حَسِبْتُ"
+                    },
+                    {
+                      "label": "ẓanantu: I thought",
+                      "ar": "ظَنَنْتُ"
+                    },
+                    {
+                      "label": "khiltu: I imagined",
+                      "ar": "خِلْتُ"
+                    },
+                    {
+                      "label": "zaʿamtu: I claimed",
+                      "ar": "زَعَمْتُ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Certainty",
+                  "ar": "الْيَقِينُ",
+                  "children": [
+                    {
+                      "label": "raʾaytu: I saw (judged)",
+                      "ar": "رَأَيْتُ"
+                    },
+                    {
+                      "label": "ʿalimtu: I knew",
+                      "ar": "عَلِمْتُ"
+                    },
+                    {
+                      "label": "wajadtu: I found",
+                      "ar": "وَجَدْتُ"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Give the two objects in ẓanantu Bakran nāʾiman, and the sentence of subject and predicate they come from.",
+              "arabic": "ظَنَنْتُ بَكْرًا نَائِمًا",
+              "answer": "Bakran is the first object, nāʾiman the second; both are in naṣb. They come from Bakrun nāʾimun, “Bakr is asleep”."
+            },
+            {
+              "prompt": "How many objects has raʾaytu in raʾaytu Zaydan ʿāqilan, and how many in raʾaytu al-qawma? Why?",
+              "arabic": "رَأَيْتُ زَيْدًا عَاقِلًا — رَأَيْتُ الْقَوْمَ",
+              "answer": "Two in the first: it is a judgment of the mind, “I saw Zayd to be sensible”, a verb of certainty. One in the second: it is seeing with the eye, “I saw the people”."
+            },
+            {
+              "prompt": "Sort the seven verbs into doubt and certainty.",
+              "answer": "Doubt or opinion: ḥasibtu, ẓanantu, khiltu, zaʿamtu. Certainty: raʾaytu, ʿalimtu, wajadtu."
+            },
+            {
+              "prompt": "Why is fāḍilan in ḥasibtu Zaydan fāḍilan not a ḥāl?",
+              "arabic": "حَسِبْتُ زَيْدًا فَاضِلًا",
+              "answer": "A ḥāl can be left out without spoiling the sentence; fāḍilan cannot. Ḥasibtu Zaydan alone does not say what I reckoned him to be. Fāḍilan is the second object, the old predicate of Zaydun fāḍilun."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-13-1",
+              "prompt": "The verbs of doubt and certainty put…",
+              "options": [
+                "the first in rafʿ and the second in naṣb",
+                "both nouns in naṣb",
+                "both in rafʿ",
+                "the second in jarr"
+              ],
+              "answer": 1,
+              "explanation": "Ḥasibtu Zaydan fāḍilan: two objects in naṣb.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-13-2",
+              "prompt": "How many verbs are in the thirteenth kind?",
+              "options": [
+                "Four",
+                "Thirteen",
+                "Seven",
+                "Nine"
+              ],
+              "answer": 2,
+              "explanation": "Ḥasibtu, ẓanantu, khiltu, raʾaytu, ʿalimtu, wajadtu and zaʿamtu.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-13-3",
+              "prompt": "“The second refers to the first” means…",
+              "options": [
+                "the second is a pronoun",
+                "the second comes first",
+                "the second is in jarr",
+                "the second says something of the same thing"
+              ],
+              "answer": 3,
+              "explanation": "In ḥasibtu Zaydan fāḍilan, the excellent one is Zayd.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-13-4",
+              "prompt": "Which verb is one of certainty?",
+              "options": [
+                "ʿAlimtu",
+                "Ẓanantu",
+                "Khiltu",
+                "Ḥasibtu"
+              ],
+              "answer": 0,
+              "explanation": "Raʾaytu, ʿalimtu and wajadtu are for certainty.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-13-5",
+              "prompt": "In ʿalimtu Zaydan amīnan, amīnan is…",
+              "arabic": "عَلِمْتُ زَيْدًا أَمِينًا",
+              "options": [
+                "a ḥāl",
+                "the second object",
+                "a tamyīz",
+                "the doer"
+              ],
+              "answer": 1,
+              "explanation": "Zaydan is the first object, amīnan the second.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-13-6",
+              "prompt": "In raʾaytu al-qawma, raʾaytu means…",
+              "arabic": "رَأَيْتُ الْقَوْمَ",
+              "options": [
+                "judging, with two objects",
+                "doubting",
+                "seeing with the eye, with one object",
+                "claiming"
+              ],
+              "answer": 2,
+              "explanation": "Only the raʾaytu of the mind takes two objects.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-13-7",
+              "prompt": "Ḥasibtu Zaydan fāḍilan is made from which sentence?",
+              "arabic": "حَسِبْتُ زَيْدًا فَاضِلًا",
+              "options": [
+                "Zaydan fāḍilun",
+                "fāḍilun Zaydan",
+                "Zaydin fāḍilin",
+                "Zaydun fāḍilun"
+              ],
+              "answer": 3,
+              "explanation": "A subject and predicate, both put in naṣb by the verb.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "النَّوْعُ الثَّالِثَ عَشَرَ: أَفْعَالُ الشَّكِّ وَالْيَقِينِ، تَدْخُلُ عَلَى اسْمَيْنِ ثَانِيهِمَا عِبَارَةٌ عَنِ الْأَوَّلِ، تَنْصِبُهُمَا، وَهِيَ سَبْعَةُ أَفْعَالٍ: حَسِبْتُ، وَظَنَنْتُ، وَخِلْتُ، وَرَأَيْتُ، وَعَلِمْتُ، وَوَجَدْتُ، وَزَعَمْتُ.",
+              "page": "5",
+              "en": "The thirteenth kind: the verbs of doubt and certainty (afʿāl al-shakk wa-al-yaqīn), which come before two nouns, the second of which refers to the first, and put both in naṣb. They are seven verbs: ḥasibtu “I reckoned”, ẓanantu “I thought”, khiltu “I imagined”, raʾaytu “I saw”, ʿalimtu “I knew”, wajadtu “I found” and zaʿamtu “I claimed”."
+            },
+            {
+              "original": "نَحْوُ: حَسِبْتُ زَيْدًا فَاضِلًا، وَظَنَنْتُ بَكْرًا نَائِمًا، وَخِلْتُ خَالِدًا قَائِمًا، وَرَأَيْتُ زَيْدًا عَاقِلًا، وَعَلِمْتُ زَيْدًا أَمِينًا، وَوَجَدْتُ الْبَيْتَ رَهِينًا، وَزَعَمْتُ الشَّيْطَانَ شَكُورًا.",
+              "page": "5",
+              "en": "As ḥasibtu Zaydan fāḍilan “I reckoned Zayd excellent”, ẓanantu Bakran nāʾiman “I thought Bakr asleep”, khiltu Khālidan qāʾiman “I imagined Khālid standing”, raʾaytu Zaydan ʿāqilan “I saw Zayd to be sensible”, ʿalimtu Zaydan amīnan “I knew Zayd to be trustworthy”, wajadtu al-bayta rahīnan “I found the house pledged” and zaʿamtu al-shayṭāna shakūran “I claimed Satan to be grateful”."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analogical-and-abstract",
+      "title": "The analogical and the abstract governors",
+      "arabic": "الْعَوَامِلُ الْقِيَاسِيَّةُ وَالْمَعْنَوِيَّةُ",
+      "transliteration": "al-ʿawāmil al-qiyāsiyya wa-l-maʿnawiyya",
+      "lessons": [
+        {
+          "n": 14,
+          "title": "The seven analogical governors",
+          "arabic": "الْعَوَامِلُ الْقِيَاسِيَّةُ",
+          "transliteration": "al-ʿawāmil al-qiyāsiyya",
+          "pages": "5",
+          "body": [
+            "After the ninety-one heard governors come seven analogical ones (qiyāsiyya). They are not single words but classes of word: whatever word belongs to the class governs by rule, without being listed. So “the verb in general” (al-fiʿl ʿalā al-iṭlāq) is one governor, though it covers countless verbs: every verb governs its doer, and a transitive verb its object as well.",
+            "The verb gives rafʿ to its doer and, if it is transitive, naṣb to its object: ḍaraba Zaydun ʿAmran, “Zayd hit ʿAmr”. Four more are nouns made from verbs that work as their verbs work. Naḥw-i Mīr, read before this book, gives an example of each: the active participle, Zaydun ḍāribun abūhu ʿAmran, “Zayd, his father is hitting ʿAmr”, where ḍārib does what ḍaraba does; the passive participle, Zaydun maḍrūbun abūhu, “Zayd, his father is beaten”; the resembling adjective (al-ṣifa al-mushabbaha), an adjective of a lasting quality, Zaydun ḥasanun ghulāmuhu, “Zayd, his servant is handsome”; and the maṣdar, aʿjabanī ḍarbu Zaydin ʿAmran, “Zayd's hitting ʿAmr pleased me”.",
+            "The last two concern nouns. “The noun annexed to another noun”, the muḍāf, puts the second in jarr: yā ʿAbda Allāhi, yawmi al-jumuʿati, and the title miʾatu ʿāmilin. “Every noun that is complete and has no need of annexation” puts its tamyīz in naṣb: a noun is complete when it ends in tanwīn or in a nūn and so cannot be joined to what follows, as tisʿūna in aḥadun wa-tisʿūna ʿāmilan. The eighth kind gave four such nouns by name; here the rule covers them all.",
+            "This is what an analogical governor gives: once you know that the active participle works like its verb, every active participle of every verb is a governor. That is why there are only seven, and why they are learnt as rules, not as lists. Later books, Naḥw-i Mīr among them, add the conditions under which each works: the active participle, for one, works when it means the present or the future and leans on a word before it, such as a subject (Zaydun ḍāribun…).",
+            "A trap: do not count a verb's work twice. In ḍaraba Zaydun ʿAmran there is one governor, ḍaraba, for both Zaydun and ʿAmran. And a muḍāf may itself be governed: in yā ʿAbda Allāhi, ʿAbda is governed by yā and governs Allāhi."
+          ],
+          "terms": [
+            {
+              "arabic": "الْعَوَامِلُ الْقِيَاسِيَّةُ",
+              "transliteration": "al-ʿawāmil al-qiyāsiyya",
+              "en": "the analogical governors: classes that govern by rule"
+            },
+            {
+              "arabic": "اسْمُ الْفَاعِلِ وَاسْمُ الْمَفْعُولِ",
+              "transliteration": "ism al-fāʿil wa-ism al-mafʿūl",
+              "en": "the active and the passive participle"
+            },
+            {
+              "arabic": "الصِّفَةُ الْمُشَبَّهَةُ",
+              "transliteration": "al-ṣifa al-mushabbaha",
+              "en": "the resembling adjective, of a lasting quality"
+            },
+            {
+              "arabic": "الْمُضَافُ",
+              "transliteration": "al-muḍāf",
+              "en": "the noun annexed to another, which puts it in jarr"
+            },
+            {
+              "arabic": "الِاسْمُ التَّامُّ",
+              "transliteration": "al-ism al-tāmm",
+              "en": "the complete noun, which puts its tamyīz in naṣb"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "ضَرَبَ زَيْدٌ عَمْرًا",
+              "en": "ḍaraba Zaydun ʿAmran, “Zayd hit ʿAmr”: the verb, with its doer and its object",
+              "after": 1
+            },
+            {
+              "arabic": "زَيْدٌ ضَارِبٌ أَبُوهُ عَمْرًا",
+              "en": "Zaydun ḍāribun abūhu ʿAmran (Naḥw-i Mīr): the active participle works like ḍaraba",
+              "after": 1
+            },
+            {
+              "arabic": "أَعْجَبَنِي ضَرْبُ زَيْدٍ عَمْرًا",
+              "en": "aʿjabanī ḍarbu Zaydin ʿAmran (Naḥw-i Mīr): the maṣdar works like its verb",
+              "after": 1
+            },
+            {
+              "arabic": "أَحَدٌ وَتِسْعُونَ عَامِلًا",
+              "en": "aḥadun wa-tisʿūna ʿāmilan: tisʿūna, complete with its nūn, governs its tamyīz",
+              "after": 2
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 2,
+            "grid": {
+              "caption": "The seven analogical governors (p. 5); the examples of the participles, the adjective and the maṣdar are Naḥw-i Mīr's",
+              "head": [
+                "Governor",
+                "It governs",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "the verb",
+                  "doer in rafʿ, object in naṣb",
+                  "ضَرَبَ زَيْدٌ عَمْرًا"
+                ],
+                [
+                  "the resembling adjective",
+                  "a noun in rafʿ",
+                  "زَيْدٌ حَسَنٌ غُلَامُهُ"
+                ],
+                [
+                  "the active participle",
+                  "as its verb",
+                  "زَيْدٌ ضَارِبٌ أَبُوهُ عَمْرًا"
+                ],
+                [
+                  "the passive participle",
+                  "as its passive verb",
+                  "زَيْدٌ مَضْرُوبٌ أَبُوهُ"
+                ],
+                [
+                  "the maṣdar",
+                  "as its verb",
+                  "أَعْجَبَنِي ضَرْبُ زَيْدٍ عَمْرًا"
+                ],
+                [
+                  "the muḍāf",
+                  "the next noun in jarr",
+                  "يَوْمِ الْجُمُعَةِ"
+                ],
+                [
+                  "the complete noun",
+                  "its tamyīz in naṣb",
+                  "تِسْعُونَ عَامِلًا"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Name the analogical governor of the word in brackets: ḍaraba Zaydun [ʿAmran]; Zaydun ḥasanun [ghulāmuhu]; yawmi [al-jumuʿati]; tisʿūna [ʿāmilan].",
+              "arabic": "ضَرَبَ زَيْدٌ عَمْرًا — زَيْدٌ حَسَنٌ غُلَامُهُ — يَوْمِ الْجُمُعَةِ — تِسْعُونَ عَامِلًا",
+              "answer": "ʿAmran: the verb ḍaraba (naṣb, its object). Ghulāmuhu: the resembling adjective ḥasanun (rafʿ). Al-jumuʿati: the muḍāf yawmi (jarr). ʿĀmilan: the complete noun tisʿūna (naṣb, as tamyīz)."
+            },
+            {
+              "prompt": "In aʿjabanī ḍarbu Zaydin ʿAmran, what does the maṣdar ḍarb govern, and how does it show that it works like its verb?",
+              "arabic": "أَعْجَبَنِي ضَرْبُ زَيْدٍ عَمْرًا",
+              "answer": "Ḍarbu is joined to Zaydin, the hitter, who is in jarr by the iḍāfa, and it puts ʿAmran, the one hit, in naṣb as its object, as the verb ḍaraba would."
+            },
+            {
+              "prompt": "Why are there only seven analogical governors, when the heard ones are ninety-one?",
+              "answer": "Each analogical governor is a class with a rule (every verb, every active participle…), so one rule covers countless words. The heard governors have no rule and must be counted one by one."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-14-1",
+              "prompt": "How many analogical governors does the book count?",
+              "options": [
+                "Nine",
+                "Ninety-one",
+                "Seven",
+                "Two"
+              ],
+              "answer": 2,
+              "explanation": "The verb, the resembling adjective, the two participles, the maṣdar, the muḍāf and the complete noun.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-14-2",
+              "prompt": "An analogical governor is…",
+              "options": [
+                "a single word heard from the Arabs",
+                "a governor that is not a word",
+                "a particle of jarr",
+                "a class of word that governs by rule"
+              ],
+              "answer": 3,
+              "explanation": "Whatever word belongs to the class governs, without being listed.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-14-3",
+              "prompt": "In ḍaraba Zaydun ʿAmran, what governs ʿAmran?",
+              "arabic": "ضَرَبَ زَيْدٌ عَمْرًا",
+              "options": [
+                "The verb ḍaraba",
+                "Zaydun",
+                "The ibtidāʾ",
+                "Nothing"
+              ],
+              "answer": 0,
+              "explanation": "The verb gives rafʿ to its doer and naṣb to its object.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-14-4",
+              "prompt": "The muḍāf puts the noun after it in…",
+              "options": [
+                "naṣb",
+                "jarr",
+                "rafʿ",
+                "jazm"
+              ],
+              "answer": 1,
+              "explanation": "Yawmi al-jumuʿati, miʾatu ʿāmilin.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-14-5",
+              "prompt": "The complete noun governs…",
+              "options": [
+                "the next noun in jarr",
+                "two objects",
+                "its tamyīz in naṣb",
+                "a verb in jazm"
+              ],
+              "answer": 2,
+              "explanation": "Tisʿūna, complete with its nūn, puts ʿāmilan in naṣb.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-14-6",
+              "prompt": "Al-ṣifa al-mushabbaha is…",
+              "options": [
+                "a particle like laysa",
+                "a noun of a verb",
+                "a verb of praise",
+                "an adjective of a lasting quality that works like its verb"
+              ],
+              "answer": 3,
+              "explanation": "Zaydun ḥasanun ghulāmuhu: ḥasan gives rafʿ to ghulāmuhu.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-14-7",
+              "prompt": "In aʿjabanī ḍarbu Zaydin ʿAmran, ʿAmran is in naṣb by…",
+              "arabic": "أَعْجَبَنِي ضَرْبُ زَيْدٍ عَمْرًا",
+              "options": [
+                "the maṣdar ḍarb",
+                "the verb aʿjaba",
+                "Zaydin",
+                "a hidden verb"
+              ],
+              "answer": 0,
+              "explanation": "The maṣdar works like its verb ḍaraba and takes an object.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَالْقِيَاسِيَّةُ مِنْهَا سَبْعَةُ عَوَامِلَ: الْفِعْلُ عَلَى الْإِطْلَاقِ، وَالصِّفَةُ الْمُشَبَّهَةُ، وَاسْمُ الْفَاعِلِ، وَاسْمُ الْمَفْعُولِ، وَالْمَصْدَرُ، وَالِاسْمُ الَّذِي أُضِيفَ إِلَى اسْمٍ آخَرَ، وَكُلُّ اسْمٍ تَمَّ وَاسْتَغْنَى عَنِ الْإِضَافَةِ.",
+              "page": "5",
+              "en": "And the analogical ones are seven governors: the verb in general; the resembling adjective (al-ṣifa al-mushabbaha); the active participle; the passive participle; the maṣdar; the noun that is annexed to another noun; and every noun that is complete and has no need of annexation."
+            }
+          ]
+        },
+        {
+          "n": 15,
+          "title": "The two abstract governors",
+          "arabic": "الْعَامِلَانِ الْمَعْنَوِيَّانِ",
+          "transliteration": "al-ʿāmilān al-maʿnawiyyān",
+          "pages": "5",
+          "body": [
+            "The book closes with two governors that are not words at all: “they have no governor visible in the wording”. Every ending has a cause; when no word stands before a noun or a verb to cause it, the grammarians name a cause in the meaning, an abstract (maʿnawī) governor.",
+            "The first governs the subject and the predicate: “the beginning” (al-ibtidāʾ), a noun's being put at the head of a sentence, free of any expressed governor, so that something may be said of it. In Zaydun fī al-dāri, “Zayd is in the house”, no word comes before Zaydun; the ibtidāʾ puts it in rafʿ. The book makes the ibtidāʾ the governor of the subject and the predicate together. This is one view among several: Ibn Mālik follows another, that the subject is put in rafʿ by the ibtidāʾ and the predicate by the subject.",
+            "The second governs the muḍāriʿ in rafʿ: “its standing in the place of the noun” (wuqūʿuhu bi-mawqiʿi al-ism). Yaḍribu in Zaydun yaḍribu, “Zayd hits”, stands where a noun could stand, as in Zaydun ḍāribun, and that is what puts it in rafʿ. This is the view of the Baṣran grammarians. Al-Farrāʾ and other Kūfans say that the muḍāriʿ is in rafʿ because it is free of any governor of naṣb or jazm; Ibn Mālik follows them in his Alfiyya.",
+            "With these two the system is closed. Every ending now has a cause: one of the ninety-one heard governors, one of the seven analogical ones, or one of these two. A student parsing Zaydun fī al-dāri says that Zaydun is a subject, in rafʿ by the ibtidāʾ; parsing Zaydun yaḍribu, he says that yaḍribu is in rafʿ because it stands in the place of a noun. When lam comes, lam yaḍrib Zaydun, an expressed governor has entered, and the abstract one gives way.",
+            "The book ends with tammat, “it is finished”: a hundred governors in a few pages. The next naḥw book of the Indian path, Hidāyat al-naḥw, takes the same matter in the order of the noun, the verb and the particle, with definitions and reasons."
+          ],
+          "terms": [
+            {
+              "arabic": "الْعَامِلُ الْمَعْنَوِيُّ",
+              "transliteration": "al-ʿāmil al-maʿnawī",
+              "en": "the abstract governor: not visible in the wording"
+            },
+            {
+              "arabic": "الِابْتِدَاءُ",
+              "transliteration": "al-ibtidāʾ",
+              "en": "the beginning: a noun's standing at the head of the sentence"
+            },
+            {
+              "arabic": "الْمُبْتَدَأُ وَالْخَبَرُ",
+              "transliteration": "al-mubtadaʾ wa-l-khabar",
+              "en": "the subject and the predicate"
+            },
+            {
+              "arabic": "وُقُوعُهُ بِمَوْقِعِ الِاسْمِ",
+              "transliteration": "wuqūʿuhu bi-mawqiʿi al-ism",
+              "en": "its standing in the place of the noun: what raises the muḍāriʿ"
+            }
+          ],
+          "examples": [
+            {
+              "arabic": "زَيْدٌ فِي الدَّارِ",
+              "en": "Zaydun fī al-dāri, “Zayd is in the house”: Zaydun in rafʿ by the ibtidāʾ",
+              "after": 1
+            },
+            {
+              "arabic": "زَيْدٌ يَضْرِبُ",
+              "en": "Zaydun yaḍribu, “Zayd hits”: yaḍribu in rafʿ, standing in a noun's place",
+              "after": 2
+            },
+            {
+              "arabic": "لَمْ يَضْرِبْ زَيْدٌ",
+              "en": "lam yaḍrib Zaydun: an expressed governor has entered, and the verb is in jazm",
+              "after": 3
+            }
+          ],
+          "diagram": {
+            "type": "grid",
+            "after": 2,
+            "grid": {
+              "caption": "The two abstract governors (p. 5), with the other views",
+              "head": [
+                "Abstract governor",
+                "It governs",
+                "Example",
+                "Another view"
+              ],
+              "rows": [
+                [
+                  "الِابْتِدَاءُ the beginning",
+                  "the subject and the predicate",
+                  "زَيْدٌ فِي الدَّارِ",
+                  "the subject governs the predicate (Ibn Mālik)"
+                ],
+                [
+                  "وُقُوعُهُ بِمَوْقِعِ الِاسْمِ standing in a noun's place",
+                  "the muḍāriʿ, in rafʿ",
+                  "زَيْدٌ يَضْرِبُ",
+                  "being free of naṣb and jazm (al-Farrāʾ, the Kūfans)"
+                ]
+              ]
+            }
+          },
+          "tasks": [
+            {
+              "prompt": "Name the governor of each word in Zaydun fī al-dāri, as this book counts them.",
+              "arabic": "زَيْدٌ فِي الدَّارِ",
+              "answer": "Zaydun: the ibtidāʾ, an abstract governor (rafʿ). Al-dāri: fī, a particle of jarr of the first kind (jarr). The predicate, fī al-dāri, is also governed by the ibtidāʾ in the book's view."
+            },
+            {
+              "prompt": "Why is yaḍribu in rafʿ in Zaydun yaḍribu, and why is it not in rafʿ in lam yaḍrib Zaydun?",
+              "arabic": "زَيْدٌ يَضْرِبُ — لَمْ يَضْرِبْ زَيْدٌ",
+              "answer": "In Zaydun yaḍribu no word governs it; it stands where a noun could stand (Zaydun ḍāribun), and that abstract governor puts it in rafʿ. In lam yaḍrib Zaydun the particle lam, an expressed governor, has entered and put it in jazm."
+            },
+            {
+              "prompt": "Give the Baṣran view and the Kūfan view of what puts the muḍāriʿ in rafʿ.",
+              "answer": "Baṣran, the view of this book: its standing in the place of a noun. Kūfan (al-Farrāʾ), followed by Ibn Mālik: its being free of any governor of naṣb or jazm."
+            },
+            {
+              "prompt": "Sum up the hundred governors of the book by their divisions.",
+              "answer": "Ninety-eight expressed and two abstract. The expressed: ninety-one heard, in thirteen kinds (six of particles, three of nouns, four of verbs), and seven analogical. The abstract: the ibtidāʾ, and the muḍāriʿ's standing in the place of a noun."
+            }
+          ],
+          "quiz": [
+            {
+              "id": "awamilmia-15-1",
+              "prompt": "How many abstract governors are there?",
+              "options": [
+                "Seven",
+                "One",
+                "Thirteen",
+                "Two"
+              ],
+              "answer": 3,
+              "explanation": "The ibtidāʾ, and the muḍāriʿ's standing in the place of a noun.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-15-2",
+              "prompt": "In the book, the governor of the subject and the predicate is…",
+              "options": [
+                "the ibtidāʾ",
+                "the verb kāna",
+                "the particle inna",
+                "the predicate"
+              ],
+              "answer": 0,
+              "explanation": "The noun's standing at the head of the sentence.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-15-3",
+              "prompt": "An abstract governor is…",
+              "options": [
+                "a particle",
+                "not visible in the wording",
+                "a verb that is not used",
+                "a noun of condition"
+              ],
+              "answer": 1,
+              "explanation": "“They have no governor visible in the wording.”",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-15-4",
+              "prompt": "In the book, what puts the muḍāriʿ in rafʿ?",
+              "options": [
+                "Its prefix",
+                "The subject before it",
+                "Its standing in the place of a noun",
+                "Lam"
+              ],
+              "answer": 2,
+              "explanation": "Wuqūʿuhu mawqiʿa al-ism, the Baṣran view.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-15-5",
+              "prompt": "Al-Farrāʾ and the Kūfans say that the muḍāriʿ is in rafʿ because…",
+              "options": [
+                "it stands in the place of a noun",
+                "it follows a noun",
+                "it begins with a prefix",
+                "it is free of any governor of naṣb or jazm"
+              ],
+              "answer": 3,
+              "explanation": "Ibn Mālik follows this view in the Alfiyya.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-15-6",
+              "prompt": "In Zaydun fī al-dāri, what puts Zaydun in rafʿ?",
+              "arabic": "زَيْدٌ فِي الدَّارِ",
+              "options": [
+                "The ibtidāʾ",
+                "Fī",
+                "Al-dāri",
+                "Nothing: it is fixed"
+              ],
+              "answer": 0,
+              "explanation": "No word stands before it; its being put first governs it.",
+              "terms": []
+            },
+            {
+              "id": "awamilmia-15-7",
+              "prompt": "How many governors does the book count in all?",
+              "options": [
+                "Ninety-one",
+                "A hundred",
+                "Sixty",
+                "Ninety-eight"
+              ],
+              "answer": 1,
+              "explanation": "Ninety-one heard, seven analogical and two abstract.",
+              "terms": []
+            }
+          ],
+          "ask": 5,
+          "text": [
+            {
+              "original": "وَالْمَعْنَوِيَّةُ مِنْهَا عَدَدَانِ: الْعَامِلُ فِي الْمُبْتَدَإِ وَالْخَبَرِ، وَهُوَ الِابْتِدَاءُ، وَالْعَامِلُ فِي الْفِعْلِ الْمُضَارِعِ، وَهُوَ وُقُوعُهُ بِمَوْقِعِ الِاسْمِ، وَلَيْسَ لَهَا عَامِلٌ ظَاهِرٌ فِي اللَّفْظِ. تَمَّتْ.",
+              "page": "5",
+              "en": "And the abstract ones are two in number: the governor of the subject and the predicate (al-mubtadaʾ wa-al-khabar), which is the beginning (al-ibtidāʾ); and the governor of the muḍāriʿ, which is its standing in the place of the noun. They have no governor visible in the wording. Finished."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

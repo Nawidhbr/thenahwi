@@ -15,6 +15,7 @@ export interface Update {
 }
 
 export const UPDATES: Update[] = [
+  { date: "2026-11-27", kind: "text", title: "Qaṭr al-nadā and al-ʿAwāmil al-miʾa", body: "Ibn Hishām's Qaṭr al-nadā in 48 lessons, the intermediate naḥw of the North-African path, from an Indian lithograph of 1261/1845; and ʿAbd al-Qāhir al-Jurjānī's hundred governors in 15 lessons, from Lockett's vowelled print (Calcutta 1814), on the Indian path.", href: "/study/qatr/" },
   { date: "2026-11-27", kind: "text", title: "al-ʿIzzī, with 32 lessons", body: "Al-Zanjānī's al-Taṣrīf, the first intermediate book of ṣarf on the Ottoman and North-African paths: the bare and augmented verb, the sound and the weak, transcribed from the Ottoman Majmūʿat al-ṣarf and taught in 32 lessons.", href: "/study/izzi/" },
   { date: "2026-11-27", kind: "feature", title: "Ṣarf and naḥw side by side, in every path", body: "After al-Mabādiʾ every level of the three madrasa paths has two lanes, ṣarf and naḥw, each with its books in order; the Ottoman path reads its first books of ṣarf before naḥw, as its madrasas did.", href: "/study/" },
   { date: "2026-11-27", kind: "feature", title: "Translations in Indonesian, Turkish, Urdu and Persian", body: "Under each passage of a book's original you can now read our translation in English, Bahasa Indonesia, Türkçe, اردو or فارسی (Arabic for a Persian original): choose it in the settings or beside the text.", href: "/study/" },
