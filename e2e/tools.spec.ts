@@ -106,10 +106,10 @@ test("the news page and the home page show The Mantiqi's news of naḥw and ṣa
   await page.goto("/en/news/");
   const list = page.locator("[data-parent-news-list]");
   await expect(list.locator("li")).toHaveCount(1);
-  await expect(list).toContainText("A new edition of al-Kāfiya");
-  await expect(list).toContainText("A gist about al-Kāfiya");
+  await expect(list).toContainText("A new edition of al-Kafiya");
+  await expect(list).toContainText("A gist about al-Kafiya");
   await expect(list.locator("a").first()).toHaveAttribute("href", "https://example.org/kafiya");
-  await expect(page.locator("a", { hasText: "All news on naḥw and ṣarf at The Mantiqi" }).first()).toHaveAttribute("href", "https://themantiqi.com/en/news/#field=nahw");
+  await expect(page.locator("a", { hasText: "All news on nahw and sarf at The Mantiqi" }).first()).toHaveAttribute("href", "https://themantiqi.com/en/news/#field=nahw");
   await page.goto("/en/");
   await expect(page.locator(".home-news [data-parent-news-list] li")).toHaveCount(1);
 });

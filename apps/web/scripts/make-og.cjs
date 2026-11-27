@@ -17,7 +17,9 @@ fs.mkdirSync(out, { recursive: true });
 const font = (pkg, file) => "file://" + path.join(root, "node_modules", "@fontsource", pkg, "files", file);
 const en = JSON.parse(fs.readFileSync(path.join(web, "src", "i18n", "en.json"), "utf8"));
 // "Ṣarf and naḥw: Arabic grammar as the madrasa teaches it" → the part after the colon, under the name.
-const tagline = en.meta.tagline.replace(/^[^:]*:\s*/, "");
+// Latin letters without marks, as the site shows them (src/lib/plain-latin.ts).
+const plain = (t) => t.replace(/[\u02BB\u02BC\u02BE\u02BF]/g, "'").replace(/[\u00C0-\u024F\u1E00-\u1EFF]/g, (m) => { const b = m.normalize("NFD").replace(/[\u0300-\u036F]/g, ""); return /^[A-Za-z]$/.test(b) ? b : m; });
+const tagline = plain(en.meta.tagline.replace(/^[^:]*:\s*/, ""));
 
 const page = (photo) => `<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face { font-family: Literata; font-weight: 700; src: url(${font("literata", "literata-latin-ext-700-normal.woff2")}); }

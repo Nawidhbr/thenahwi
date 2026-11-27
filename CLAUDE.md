@@ -71,7 +71,9 @@ Read the document for an area before changing it, and correct it in the same com
 
 - English first: build and write everything in English; translations follow in a separate pass, using each language's
   `GLOSSARY.md` (`docs/i18n.md`).
-- Arabic is always vocalised and shown with its transliteration.
+- Arabic is always vocalised and shown with its transliteration. Content is written in scholarly transliteration
+  (ALA-LC: ṣarf, iʿrāb); the site serves it without marks on Latin letters that the page's language does not have
+  (sarf, i'rab), through `src/middleware.ts` and `lib/plain-latin.ts` (decisions 2026-11-27).
 - Never reproduce a modern edition under copyright, and never translate from one: show only public-domain prints,
   and say on the page which edition the lessons follow.
 - Every explanation, test and translation is a draft until a qualified teacher has reviewed it. Say so once, on the About

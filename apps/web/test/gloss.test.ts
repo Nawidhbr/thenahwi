@@ -16,3 +16,16 @@ describe("word pop-ups", () => {
     expect(html.match(/data-g="mubtada"/g)?.length).toBe(1);
   });
 });
+
+// The owner's rule on Latin letters (lib/plain-latin.ts): no marks that the page's language does not have.
+import { plainLatin } from "../src/lib/plain-latin";
+describe("plain Latin letters", () => {
+  it("takes the transliteration marks away and makes ʿayn and hamza an apostrophe", () => {
+    expect(plainLatin("ṣarf, naḥw, iʿrāb, al-Ājurrūmiyya, Qurʾān, Ḥidāya, Molla Câmî, İzzî")).toBe("sarf, nahw, i'rab, al-Ajurrumiyya, Qur'an, Hidaya, Molla Cami, Izzi");
+  });
+  it("keeps the letters of the page's own language and never touches Arabic", () => {
+    expect(plainLatin("şart, iʿrâb", "tr")).toBe("şart, i'rab");
+    expect(plainLatin("élève, ṣarf", "fr")).toBe("élève, sarf");
+    expect(plainLatin("الْكَلَامُ أَوْ إِلَى ṣarf")).toBe("الْكَلَامُ أَوْ إِلَى sarf");
+  });
+});

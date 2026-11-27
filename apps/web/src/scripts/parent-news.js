@@ -3,6 +3,9 @@
 // [data-parent-news] block lists up to data-max items; while loading, or when there are none or the feed cannot be
 // reached, its own text stays (the link to The Mantiqi's news is always there). No content of the parent is copied into
 // this site's pages, so search engines find the news once, where it is gathered.
+// The feed is The Mantiqi's, in its scholarly transliteration; this site shows Latin letters without marks (lib/plain-latin.ts):
+// the same rule for English, ʿayn and hamza as an apostrophe.
+const plain = (t) => t.replace(/[\u02BB\u02BC\u02BE\u02BF]/g, "'").replace(/[\u00C0-\u024F\u1E00-\u1EFF]/g, (m) => { const b = m === "ı" ? "i" : m.normalize("NFD").replace(/[\u0300-\u036F]/g, ""); return /^[A-Za-z]$/.test(b) ? b : m; });
 (() => {
   const blocks = [...document.querySelectorAll("[data-parent-news]")];
   if (!blocks.length) return;
@@ -18,11 +21,11 @@
       const items = [...doc.querySelectorAll("item")]
         .filter((it) => [...it.querySelectorAll("category")].some((c) => c.textContent.trim() === field))
         .map((it) => ({
-          title: it.querySelector("title")?.textContent.trim() ?? "",
+          title: plain(it.querySelector("title")?.textContent.trim() ?? ""),
           link: it.querySelector("link")?.textContent.trim() ?? "",
           date: it.querySelector("pubDate")?.textContent.trim() ?? "",
           // The description is "<gist> — <original title>. <summary>": the gist is enough here.
-          gist: (it.querySelector("description")?.textContent ?? "").split(" — ")[0].trim(),
+          gist: plain((it.querySelector("description")?.textContent ?? "").split(" — ")[0].trim()),
         }))
         .filter((x) => x.title && /^https?:\/\//.test(x.link));
       for (const block of blocks) {

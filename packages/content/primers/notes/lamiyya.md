@@ -149,3 +149,10 @@ Done: `source.json` (13 sections, 52 passages, 114 verses), marker `READY-text`.
 
 The draft of verses 1–27 that stood here (unchecked, from the first attempt) and the hand-over in
 `transcribe/notes.txt` are replaced by this file and `source.json`.
+
+## Points raised while translating (for the teacher)
+
+- p47: the imperative of the verb in «اجْزُرْ» is transliterated ijzur in the English and ujzur / uczür in the
+  Indonesian and Turkish (a ḍamma on the third letter gives ujzur); which reading the verse means is for the teacher.
+- In the Urdu and Persian translations, words the print splits across the hemistich break are written whole and
+  vocalised (p4 حِرْتَ, p8 رَشَّ, نَبْتٌ, p31 فَعَالَة, p47 اجْزُرْ …).
