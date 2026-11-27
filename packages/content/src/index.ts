@@ -1,4 +1,4 @@
-import type { Curriculum, Reviews, ReviewState, Primer, PrimerTranslation, LibraryBook, NewsItem, Background, BackgroundArticle, BackgroundConcept, BackgroundPerson, CatalogueEntry, Commentary, ExerciseSet, Glossary, LocaleBundle, Matn, Quiz, Term } from "./schema.ts";
+import type { Curriculum, Reviews, ReviewState, Primer, PrimerTranslation, LessonDiagram, FigureTree, LibraryBook, NewsItem, Background, BackgroundArticle, BackgroundConcept, BackgroundPerson, CatalogueEntry, Commentary, ExerciseSet, Glossary, LocaleBundle, Matn, Quiz, Term } from "./schema.ts";
 import terms from "../generated/terms.json" with { type: "json" };
 import matn from "../generated/matn.json" with { type: "json" };
 import exercises from "../generated/exercises.json" with { type: "json" };
@@ -168,6 +168,8 @@ export function primerIn(p: Primer, code = "en"): Primer {
           terms: l.terms.map((x, i) => ({ ...x, en: tl.terms?.[i] ?? x.en })),
           examples: l.examples.map((x, i) => ({ ...x, en: tl.examples?.[i] ?? x.en })),
           text: l.text.map((x, i) => (tl.text?.[i] ? { ...x, en: tl.text[i], lang: code } : x)),
+          tasks: l.tasks.map((x, i) => (tl.tasks?.[i] ? { ...x, ...tl.tasks[i] } : x)),
+          diagram: l.diagram && tl.diagram ? figureIn(l.diagram, tl.diagram) : l.diagram,
           quiz: ownItems(l.quiz, (q, i) => (tl.quiz?.[i] ? { ...q, ...tl.quiz[i] } : null), code),
         };
       }),
@@ -190,6 +192,19 @@ export function primerTextVariants(id: string, n: number): Record<string, string
     if (text?.length) out[code] = text;
   }
   return out;
+}
+
+/** A lesson's own diagram in a language: its caption, and its English labels replaced where the translation gives them. */
+function figureIn(d: LessonDiagram, t: { caption?: string; labels: Record<string, string> }): LessonDiagram {
+  const L = (s: string) => t.labels[s] ?? s;
+  const tree = (n: FigureTree): FigureTree => ({ ...n, label: L(n.label), children: n.children?.map(tree) });
+  return {
+    ...d,
+    caption: t.caption ?? (d.caption ? L(d.caption) : d.caption),
+    focus: d.focus ? L(d.focus) : d.focus,
+    tree: d.tree ? tree(d.tree) : d.tree,
+    grid: d.grid ? { ...d.grid, caption: d.grid.caption ? t.caption ?? L(d.grid.caption) : d.grid.caption, head: d.grid.head.map(L), rows: d.grid.rows.map((r) => r.map(L)) } : d.grid,
+  };
 }
 
 /** Languages that write the scholars' names as the English does (al-Fārābī, Ibn Sīnā): the library keeps its byline. */

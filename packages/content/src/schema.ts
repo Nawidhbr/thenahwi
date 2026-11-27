@@ -590,6 +590,8 @@ export const PrimerTranslation = z.object({
       examples: z.array(z.string().min(1)).optional(),
       text: z.array(z.string().min(1)).optional(),
       tasks: z.array(z.object({ prompt: z.string().min(1), answer: z.string().min(1) })).optional(),
+      /** The lesson's own diagram: its caption, and each English label (tree nodes, table heads and cells) with its translation. */
+      diagram: z.object({ caption: z.string().optional(), labels: z.record(z.string(), z.string()).default({}) }).optional(),
       quiz: z.array(z.object({ prompt: z.string().min(1), options: z.array(z.string().min(1)), explanation: z.string().min(1) })).optional(),
     }),
   ),
