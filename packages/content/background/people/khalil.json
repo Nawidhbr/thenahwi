@@ -1,0 +1,63 @@
+{
+  "slug": "khalil",
+  "name": "Abū ʿAbd al-Raḥmān al-Khalīl ibn Aḥmad ibn ʿAmr ibn Tamīm al-Farāhīdī",
+  "known": "al-Khalīl ibn Aḥmad",
+  "arabic": "الخَلِيلُ بْنُ أَحْمَدَ الفَرَاهِيدِيُّ",
+  "died": "ca. 175/791",
+  "places": [
+    "Oman",
+    "Basra"
+  ],
+  "roles": [
+    "forerunner",
+    "teacher"
+  ],
+  "summary": "The Basran master who founded Arabic prosody, began the first dictionary (Kitāb al-ʿAyn) and taught Sībawayh, whose al-Kitāb preserves much of his grammar.",
+  "bio": [
+    "Al-Khalīl was born in Oman of the Azd and lived in Basra, where he learnt from ʿĪsā ibn ʿUmar and Abū ʿAmr ibn al-ʿAlāʾ. The sources remember him as poor by choice and unworldly: al-Zubaydī tells that when the governor Sulaymān ibn ʿAlī sent him gifts and invited him to his court, he kept only the fruit, sent the rest back, and answered in verse that poverty and wealth are in the soul, not in money. Al-Zubaydī adds that no one after the Prophet had been named Aḥmad before al-Khalīl's father.",
+    "He was, in al-Zubaydī's words, the one who drew out prosody (ʿarūḍ) and the causes of grammar as no one before him. He set out the metres of Arabic poetry, fifteen of them, arranged in five circles (al-Akhfash later added a sixteenth); the later biographers tell that he prayed at Mecca for a science no one had found before, and that the idea came to him from the beat of hammers in the market of the coppersmiths in Basra: both are told as stories, not as history. He also designed the vowel signs still used in Arabic writing, small letters in place of Abū al-Aswad's dots, and planned the first dictionary, Kitāb al-ʿAyn, which orders the roots by the place of their letters in the throat and mouth, beginning with ʿayn.",
+    "His grammar lives in the work of his student Sībawayh: al-Kitāb cites him on almost every page, as 'I asked him' and 'he said'. Al-Zubaydī reports that when Sībawayh came to his circle al-Khalīl greeted him with 'Welcome to a visitor who never tires us', words, one of his companions said, he heard al-Khalīl say to no one else. He died in Basra around 175/791."
+  ],
+  "works": [
+    {
+      "title": "Kitāb al-ʿAyn",
+      "arabic": "كِتَابُ العَيْن",
+      "kind": "other",
+      "note": "The first dictionary of Arabic, completed after him by his student al-Layth ibn al-Muẓaffar, as most sources say."
+    },
+    {
+      "title": "Kitāb al-ʿArūḍ",
+      "arabic": "كِتَابُ العَرُوض",
+      "kind": "other",
+      "note": "On the metres; lost, known from later books."
+    }
+  ],
+  "reception": [
+    "Every later book on the metres follows his system, and his circles are still taught; in naḥw his name stands behind most of the reasoning of al-Kitāb."
+  ],
+  "uncertain": [
+    "His death is given as 160, 170, 175 or 177 (776–793).",
+    "How much of Kitāb al-ʿAyn is his and how much his student's was disputed already in the fourth/tenth century."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 5,
+    "entry": 15
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 15 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Halîl b. Ahmed, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/halil-b-ahmed"
+    },
+    {
+      "title": "Al-Khalil ibn Ahmad al-Farahidi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Khalil_ibn_Ahmad_al-Farahidi"
+    }
+  ]
+}

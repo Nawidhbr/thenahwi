@@ -139,7 +139,7 @@ const d = lesson.diagram;
                 <p class="muted">{x.en}</p>
               </div>
             ))}
-            {d && here(d.after) && (d.type === "tree" || d.type === "grid" ? <LessonFigure tree={d.tree} grid={d.grid} focus={d.focus} caption={d.caption} /> : <Diagram type={d.type} focus={d.focus} locale={locale} />)}
+            {d && here(d.after) && (d.type === "tree" || d.type === "grid" ? <LessonFigure tree={d.tree} grid={d.grid} focus={d.focus} caption={d.caption} locale={locale} /> : <Diagram type={d.type} focus={d.focus} locale={locale} />)}
           </>
         );
       })}

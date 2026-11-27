@@ -301,7 +301,9 @@
         "title": "Terjemah Mutammimah Ajurumiyyah, archive.org",
         "url": "https://archive.org/download/etaoin/Terjemah%20Mutamimah%20Jurumiah.pdf"
       }
-    ]
+    ],
+    "authorSlug": "hattab",
+    "died": "954/1547"
   },
   {
     "id": "shadha-al-arf",
@@ -449,6 +451,893 @@
       {
         "title": "Hidāyat al-naḥw, Kanpur: Nawal Kishor 1300/1883 (Heidelberg University Library)",
         "url": "https://biblio.ub.uni-heidelberg.de/navalkishore/Record/KXP-PPN1698682336"
+      }
+    ]
+  },
+  {
+    "id": "akhbar-al-nahwiyyin",
+    "title": "Akhbār al-naḥwiyyīn al-Baṣriyyīn",
+    "arabic": "أَخْبَارُ النَّحْوِيِّينَ البَصْرِيِّين",
+    "author": "Abū Saʿīd al-Sīrāfī",
+    "authorSlug": "sirafi",
+    "died": "368/979",
+    "century": 10,
+    "kind": "biography",
+    "language": "ar",
+    "summary": "The reports of the Basran grammarians from Abū al-Aswad al-Duʾalī to al-Sīrāfī's own teachers: who learnt from whom, what they wrote and the stories told of them. The oldest ṭabaqāt of the grammarians that survives.",
+    "sources": [
+      {
+        "title": "al-Sīrāfī, Akhbār al-naḥwiyyīn al-Baṣriyyīn (Arabic text, OpenITI)",
+        "url": "https://github.com/OpenITI/0375AH/blob/master/data/0368AbuSacidSirafi/0368AbuSacidSirafi.AkhbarNahwiyyin/0368AbuSacidSirafi.AkhbarNahwiyyin.Shamela0026338-ara1.completed"
+      },
+      {
+        "title": "Sîrâfî, Ebû Saîd, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/sirafi-ebu-said"
+      }
+    ]
+  },
+  {
+    "id": "maratib-al-nahwiyyin",
+    "title": "Marātib al-naḥwiyyīn",
+    "arabic": "مَرَاتِبُ النَّحْوِيِّين",
+    "author": "Abū al-Ṭayyib al-Lughawī",
+    "authorSlug": "abu-al-tayyib-al-lughawi",
+    "died": "351/962",
+    "century": 10,
+    "kind": "biography",
+    "language": "ar",
+    "summary": "The grammarians and lexicographers of Basra and Kufa in order of time and rank, with judgements on how far each can be trusted in what he reports of the Arabs; written in Aleppo.",
+    "sources": [
+      {
+        "title": "Ebü't-Tayyib el-Lugavî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ebut-tayyib-el-lugavi"
+      }
+    ]
+  },
+  {
+    "id": "tabaqat-al-zubaydi",
+    "title": "Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn",
+    "arabic": "طَبَقَاتُ النَّحْوِيِّينَ وَاللُّغَوِيِّين",
+    "author": "Abū Bakr al-Zubaydī",
+    "authorSlug": "zubaydi",
+    "died": "379/989",
+    "century": 10,
+    "kind": "biography",
+    "language": "ar",
+    "summary": "Written in Cordoba for the caliph al-Ḥakam II: the grammarians of Basra in ten generations and of Kufa in six, the lexicographers of both cities, and the scholars of Egypt, Qayrawān and al-Andalus, each entry with teachers, books and reports. The backbone of our generations of the grammarians.",
+    "sources": [
+      {
+        "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn (Arabic text, OpenITI)",
+        "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+      },
+      {
+        "title": "Zübeydî, Ebû Bekir, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/zubeydi-ebu-bekir"
+      }
+    ]
+  },
+  {
+    "id": "nuzhat-al-alibba",
+    "title": "Nuzhat al-alibbāʾ fī ṭabaqāt al-udabāʾ",
+    "arabic": "نُزْهَةُ الأَلِبَّاءِ فِي طَبَقَاتِ الأُدَبَاء",
+    "author": "Abū al-Barakāt ibn al-Anbārī",
+    "authorSlug": "ibn-al-anbari",
+    "died": "577/1181",
+    "century": 12,
+    "kind": "biography",
+    "language": "ar",
+    "summary": "A history of the grammarians and men of letters from Abū al-Aswad, opening with the story of ʿAlī's sheet, to Ibn al-Anbārī's own time, in order of death; short entries, much read.",
+    "sources": [
+      {
+        "title": "Nüzhetü'l-elibbâ, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/nuzhetul-elibba"
+      }
+    ]
+  },
+  {
+    "id": "inbah-al-ruwat",
+    "title": "Inbāh al-ruwāt ʿalā anbāh al-nuḥāt",
+    "arabic": "إِنْبَاهُ الرُّوَاةِ عَلَى أَنْبَاهِ النُّحَاة",
+    "author": "Jamāl al-Dīn al-Qifṭī",
+    "died": "646/1248",
+    "century": 13,
+    "kind": "biography",
+    "language": "ar",
+    "summary": "A large dictionary of the grammarians and lexicographers by the vizier of Aleppo, al-Qifṭī, in alphabetical order, gathering the reports of the earlier ṭabaqāt and of sources now lost.",
+    "sources": [
+      {
+        "title": "İnbâhü'r-ruvât, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/inbahur-ruvat"
+      }
+    ]
+  },
+  {
+    "id": "bughyat-al-wuat",
+    "title": "Bughyat al-wuʿāt fī ṭabaqāt al-lughawiyyīn wa-l-nuḥāt",
+    "arabic": "بُغْيَةُ الوُعَاةِ فِي طَبَقَاتِ اللُّغَوِيِّينَ وَالنُّحَاة",
+    "author": "Jalāl al-Dīn al-Suyūṭī",
+    "authorSlug": "suyuti",
+    "died": "911/1505",
+    "century": 15,
+    "kind": "biography",
+    "language": "ar",
+    "summary": "The last and largest of the classical ṭabaqāt of the grammarians: more than two thousand grammarians and lexicographers in alphabetical order, down to al-Suyūṭī's own day.",
+    "sources": [
+      {
+        "title": "Buğyetü'l-vuât, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/bugyetul-vuat"
+      }
+    ]
+  },
+  {
+    "id": "tasrif-mazini",
+    "title": "Kitāb al-Taṣrīf",
+    "arabic": "كِتَابُ التَّصْرِيف",
+    "author": "Abū ʿUthmān al-Māzinī",
+    "authorSlug": "mazini",
+    "died": "249/863",
+    "century": 9,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "The oldest book given wholly to ṣarf that survives: the patterns, the augmented letters, the weak letters and their changes, in the Basran manner of Sībawayh.",
+    "sources": [
+      {
+        "title": "et-Tasrîf (Mâzinî), TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/et-tasrif--mazini"
+      }
+    ]
+  },
+  {
+    "id": "muqtadab",
+    "title": "al-Muqtaḍab",
+    "arabic": "المُقْتَضَب",
+    "author": "al-Mubarrad",
+    "authorSlug": "mubarrad",
+    "died": "285/898",
+    "century": 9,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "A full grammar on Sībawayh's lines by the head of the Basrans in Baghdad, often closer to analogy than al-Kitāb itself; the main book of naḥw between Sībawayh and Ibn al-Sarrāj.",
+    "sources": [
+      {
+        "title": "el-Muktedab, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/el-muktedab"
+      }
+    ]
+  },
+  {
+    "id": "usul-ibn-al-sarraj",
+    "title": "al-Uṣūl fī al-naḥw",
+    "arabic": "الأُصُولُ فِي النَّحْو",
+    "author": "Ibn al-Sarrāj",
+    "authorSlug": "ibn-al-sarraj",
+    "died": "316/929",
+    "century": 10,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "Sībawayh's grammar set out in a clear order of chapters and divisions, which most later handbooks follow: 'grammar was mad until Ibn al-Sarrāj brought it to reason with his Uṣūl'.",
+    "sources": [
+      {
+        "title": "İbnü's-Serrâc, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ibnus-serrac"
+      }
+    ]
+  },
+  {
+    "id": "sharh-sirafi-kitab",
+    "title": "Sharḥ Kitāb Sībawayh",
+    "arabic": "شَرْحُ كِتَابِ سِيبَوَيْه",
+    "author": "Abū Saʿīd al-Sīrāfī",
+    "authorSlug": "sirafi",
+    "died": "368/979",
+    "century": 10,
+    "kind": "commentary",
+    "on": "kitab-sibawayh",
+    "language": "ar",
+    "summary": "The great commentary on Sībawayh's al-Kitāb, many volumes long, explaining its words, its examples and its reasoning; the standard companion of al-Kitāb.",
+    "sources": [
+      {
+        "title": "Sîrâfî, Ebû Saîd, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/sirafi-ebu-said"
+      }
+    ]
+  },
+  {
+    "id": "jumal-zajjaji",
+    "title": "al-Jumal fī al-naḥw",
+    "arabic": "الجُمَلُ فِي النَّحْو",
+    "author": "al-Zajjājī",
+    "authorSlug": "zajjaji",
+    "died": "337/949",
+    "century": 10,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "A plain handbook of naḥw that became the first book of grammar of al-Andalus and the Maghrib, with more than a hundred commentaries, Ibn ʿUṣfūr's among them.",
+    "sources": [
+      {
+        "title": "Zeccâcî, Ebü'l-Kāsım, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/zeccaci-ebul-kasim"
+      }
+    ]
+  },
+  {
+    "id": "idah-farisi",
+    "title": "al-Īḍāḥ and al-Takmila",
+    "arabic": "الإِيضَاحُ وَالتَّكْمِلَة",
+    "author": "Abū ʿAlī al-Fārisī",
+    "authorSlug": "farisi",
+    "died": "377/987",
+    "century": 10,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "Written for the Buyid ruler ʿAḍud al-Dawla in Shiraz: al-Īḍāḥ on syntax, and al-Takmila on morphology, written, the reports say, when the ruler found al-Īḍāḥ too slight.",
+    "sources": [
+      {
+        "title": "Ebû Ali el-Fârisî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ebu-ali-el-farisi"
+      }
+    ]
+  },
+  {
+    "id": "khasais",
+    "title": "al-Khaṣāʾiṣ",
+    "arabic": "الخَصَائِص",
+    "author": "Ibn Jinnī",
+    "authorSlug": "ibn-jinni",
+    "died": "392/1002",
+    "century": 10,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "Ibn Jinnī's book on the principles and the inner workings of Arabic: whether language is given or made, evidence and analogy, the causes of grammar, and the 'greater derivation' that finds one meaning in all orders of the same root letters.",
+    "sources": [
+      {
+        "title": "el-Hasâis, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/el-hasais"
+      }
+    ]
+  },
+  {
+    "id": "munsif",
+    "title": "al-Munṣif",
+    "arabic": "المُنْصِف",
+    "author": "Ibn Jinnī",
+    "authorSlug": "ibn-jinni",
+    "died": "392/1002",
+    "century": 10,
+    "kind": "commentary",
+    "on": "tasrif-mazini",
+    "language": "ar",
+    "summary": "Ibn Jinnī's commentary on al-Māzinī's Kitāb al-Taṣrīf, explaining every rule of ṣarf with its reasons and examples; with its text, the classical treatment of ṣarf before al-Shāfiya.",
+    "sources": [
+      {
+        "title": "el-Münsıf, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/el-munsif"
+      }
+    ]
+  },
+  {
+    "id": "luma",
+    "title": "al-Lumaʿ fī al-ʿarabiyya",
+    "arabic": "اللُّمَعُ فِي العَرَبِيَّة",
+    "author": "Ibn Jinnī",
+    "authorSlug": "ibn-jinni",
+    "died": "392/1002",
+    "century": 10,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "A short handbook of naḥw in brief chapters, read and commented on for centuries in Iraq, Syria and al-Andalus.",
+    "sources": [
+      {
+        "title": "İbn Cinnî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ibn-cinni"
+      }
+    ]
+  },
+  {
+    "id": "mulhat-al-irab",
+    "title": "Mulḥat al-iʿrāb",
+    "arabic": "مُلْحَةُ الإِعْرَاب",
+    "author": "al-Ḥarīrī",
+    "authorSlug": "hariri",
+    "died": "516/1122",
+    "century": 12,
+    "kind": "verse",
+    "language": "ar",
+    "summary": "A poem of some three hundred and seventy verses that sets out naḥw for beginners, with its author's own commentary; a school text for centuries before the Alfiyya.",
+    "sources": [
+      {
+        "title": "Harîrî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/hariri"
+      }
+    ]
+  },
+  {
+    "id": "mufassal",
+    "title": "al-Mufaṣṣal",
+    "arabic": "المُفَصَّل",
+    "author": "al-Zamakhsharī",
+    "authorSlug": "zamakhshari",
+    "died": "538/1144",
+    "century": 12,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "Grammar in four parts, the noun, the verb, the particle and what they share, in short sections; read from Khwārazm to Syria, and the text of Ibn Yaʿīsh's great commentary.",
+    "sources": [
+      {
+        "title": "el-Mufassal, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/el-mufassal"
+      }
+    ]
+  },
+  {
+    "id": "insaf",
+    "title": "al-Inṣāf fī masāʾil al-khilāf",
+    "fullTitle": "al-Inṣāf fī masāʾil al-khilāf bayn al-naḥwiyyīn al-Baṣriyyīn wa-l-Kūfiyyīn",
+    "arabic": "الإِنْصَافُ فِي مَسَائِلِ الخِلَاف",
+    "author": "Abū al-Barakāt ibn al-Anbārī",
+    "authorSlug": "ibn-al-anbari",
+    "died": "577/1181",
+    "century": 12,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "One hundred and twenty-one questions disputed between the Basrans and the Kufans, each with the arguments of both sides and a judgement, usually for Basra: the book through which the debate is known.",
+    "sources": [
+      {
+        "title": "Enbârî, Kemâleddin, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/enbari-kemaleddin"
+      }
+    ]
+  },
+  {
+    "id": "radd-ala-al-nuhat",
+    "title": "al-Radd ʿalā al-nuḥāt",
+    "arabic": "الرَّدُّ عَلَى النُّحَاة",
+    "author": "Ibn Maḍāʾ",
+    "authorSlug": "ibn-mada",
+    "died": "592/1196",
+    "century": 12,
+    "kind": "refutation",
+    "language": "ar",
+    "summary": "The Ẓāhirī judge's critique of the grammarians' method: drop the governor (ʿāmil), the hidden words supplied by taqdīr, the second and third causes, and the exercises in words no Arab said.",
+    "sources": [
+      {
+        "title": "İbn Madâ, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ibn-mada"
+      }
+    ]
+  },
+  {
+    "id": "misbah-mutarrizi",
+    "title": "al-Miṣbāḥ fī al-naḥw",
+    "arabic": "المِصْبَاحُ فِي النَّحْو",
+    "author": "al-Muṭarrizī",
+    "authorSlug": "mutarrizi",
+    "died": "610/1213",
+    "century": 12,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "A short naḥw in five chapters by al-Zamakhsharī's successor in Khwārazm; a reading book in the madrasas of Iran, Central Asia, India and the Ottoman lands, printed with the primers.",
+    "sources": [
+      {
+        "title": "Mutarrizî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/mutarrizi"
+      }
+    ]
+  },
+  {
+    "id": "jazuliyya",
+    "title": "al-Muqaddima al-Jazūliyya",
+    "arabic": "المُقَدِّمَةُ الجُزُولِيَّة",
+    "author": "al-Jazūlī",
+    "authorSlug": "jazuli",
+    "died": "607/1210",
+    "century": 12,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "A compressed handbook of naḥw from the Maghrib, also called al-Qānūn, famous for its difficulty and commented on by al-Shalawbīn, Ibn ʿUṣfūr and others.",
+    "sources": [
+      {
+        "title": "Cüzûlî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/cuzuli"
+      }
+    ]
+  },
+  {
+    "id": "alfiyyat-ibn-muti",
+    "title": "al-Durra al-alfiyya",
+    "arabic": "الدُّرَّةُ الأَلْفِيَّة",
+    "author": "Ibn Muʿṭī",
+    "authorSlug": "ibn-muti",
+    "died": "628/1231",
+    "century": 13,
+    "kind": "verse",
+    "language": "ar",
+    "summary": "The first grammar in a thousand verses, naḥw and ṣarf together, which Ibn Mālik names at the opening of his own Alfiyya, first to say he surpasses it and then to grant it the merit of coming first.",
+    "sources": [
+      {
+        "title": "İbn Mu'tî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ibn-muti"
+      }
+    ]
+  },
+  {
+    "id": "miftah-al-ulum",
+    "title": "Miftāḥ al-ʿulūm",
+    "arabic": "مِفْتَاحُ العُلُوم",
+    "author": "al-Sakkākī",
+    "authorSlug": "sakkaki",
+    "died": "626/1229",
+    "century": 13,
+    "kind": "encyclopedia",
+    "language": "ar",
+    "summary": "Ṣarf, naḥw and the sciences of meaning and expression in one book; its third part, abridged by al-Qazwīnī, became the rhetoric of the madrasa.",
+    "sources": [
+      {
+        "title": "Sekkâkî, Ebû Ya'kūb, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/sekkaki-ebu-yakub"
+      }
+    ]
+  },
+  {
+    "id": "sharh-al-mufassal",
+    "title": "Sharḥ al-Mufaṣṣal",
+    "arabic": "شَرْحُ المُفَصَّل",
+    "author": "Ibn Yaʿīsh",
+    "authorSlug": "ibn-yaish",
+    "died": "643/1245",
+    "century": 13,
+    "kind": "commentary",
+    "on": "mufassal",
+    "language": "ar",
+    "summary": "The full commentary on al-Zamakhsharī's al-Mufaṣṣal: for each rule the reasons, the evidence and the views of Basra and Kufa; still the place where students look a question up.",
+    "sources": [
+      {
+        "title": "İbn Yaîş, Ebü'l-Bekā, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ibn-yais-ebul-beka"
+      }
+    ]
+  },
+  {
+    "id": "muqarrab",
+    "title": "al-Muqarrab",
+    "arabic": "المُقَرَّب",
+    "author": "Ibn ʿUṣfūr",
+    "authorSlug": "ibn-usfur",
+    "died": "669/1270",
+    "century": 13,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "The whole of naḥw in clear, numbered divisions by the last great grammarian of al-Andalus.",
+    "sources": [
+      {
+        "title": "İbn Usfûr el-İşbîlî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ibn-usfur-el-isbili"
+      }
+    ]
+  },
+  {
+    "id": "mumti",
+    "title": "al-Mumtiʿ fī al-taṣrīf",
+    "arabic": "المُمْتِعُ فِي التَّصْرِيف",
+    "author": "Ibn ʿUṣfūr",
+    "authorSlug": "ibn-usfur",
+    "died": "669/1270",
+    "century": 13,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "One of the fullest books on ṣarf: the patterns, augmentation, and the changes of the weak letters, ibdāl and idghām, case by case.",
+    "sources": [
+      {
+        "title": "İbn Usfûr el-İşbîlî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ibn-usfur-el-isbili"
+      }
+    ]
+  },
+  {
+    "id": "tashil",
+    "title": "Tashīl al-fawāʾid",
+    "fullTitle": "Tashīl al-fawāʾid wa-takmīl al-maqāṣid",
+    "arabic": "تَسْهِيلُ الفَوَائِدِ وَتَكْمِيلُ المَقَاصِد",
+    "author": "Ibn Mālik",
+    "authorSlug": "ibn-malik",
+    "died": "672/1274",
+    "century": 13,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "Ibn Mālik's prose summa of naḥw and ṣarf, denser than the Alfiyya and fuller; commented on by Abū Ḥayyān, al-Murādī and al-Damāmīnī.",
+    "sources": [
+      {
+        "title": "Ibn Malik, Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ibn_Malik"
+      }
+    ]
+  },
+  {
+    "id": "sharh-ibn-al-nazim",
+    "title": "Sharḥ Ibn al-Nāẓim",
+    "arabic": "شَرْحُ ابْنِ النَّاظِم",
+    "author": "Ibn al-Nāẓim",
+    "authorSlug": "ibn-al-nazim",
+    "died": "686/1287",
+    "century": 13,
+    "kind": "commentary",
+    "on": "alfiyya",
+    "language": "ar",
+    "summary": "The first great commentary on the Alfiyya, by Ibn Mālik's son, careful and ready to say where the poem is loose; cited by every later commentator.",
+    "sources": [
+      {
+        "title": "İbnü'n-Nâzım, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ibnun-nazim"
+      }
+    ]
+  },
+  {
+    "id": "irtishaf",
+    "title": "Irtishāf al-ḍarab min lisān al-ʿarab",
+    "arabic": "ارْتِشَافُ الضَّرَبِ مِنْ لِسَانِ العَرَب",
+    "author": "Abū Ḥayyān al-Andalusī",
+    "authorSlug": "abu-hayyan",
+    "died": "745/1344",
+    "century": 14,
+    "kind": "encyclopedia",
+    "language": "ar",
+    "summary": "Abū Ḥayyān's summa of naḥw and ṣarf, gathering the views of all the grammarians before him on every question, the Andalusians above all.",
+    "sources": [
+      {
+        "title": "Ebû Hayyân el-Endelüsî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ebu-hayyan-el-endelusi"
+      }
+    ]
+  },
+  {
+    "id": "jana-al-dani",
+    "title": "al-Janā al-dānī fī ḥurūf al-maʿānī",
+    "arabic": "الجَنَى الدَّانِي فِي حُرُوفِ المَعَانِي",
+    "author": "al-Murādī",
+    "authorSlug": "muradi",
+    "died": "749/1348",
+    "century": 14,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "The particles of Arabic, from those of one letter to those of five, with their meanings and uses; with Ibn Hishām's Mughnī, the main book on the subject.",
+    "sources": [
+      {
+        "title": "Murâdî, Hasan b. Kāsım, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/muradi-hasan-b-kasim"
+      }
+    ]
+  },
+  {
+    "id": "shudhur-al-dhahab",
+    "title": "Shudhūr al-dhahab",
+    "fullTitle": "Shudhūr al-dhahab fī maʿrifat kalām al-ʿarab",
+    "arabic": "شُذُورُ الذَّهَب",
+    "author": "Ibn Hishām al-Anṣārī",
+    "authorSlug": "ibn-hisham",
+    "died": "761/1360",
+    "century": 14,
+    "kind": "handbook",
+    "language": "ar",
+    "summary": "Ibn Hishām's middle handbook, between Qaṭr al-nadā and the Mughnī, with his own commentary; it has much on the iʿrāb of words and the evidence of the Qurʾān.",
+    "sources": [
+      {
+        "title": "Ibn Hisham al-Ansari, Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ibn_Hisham_al-Ansari"
+      }
+    ]
+  },
+  {
+    "id": "sharh-izzi-taftazani",
+    "title": "Sharḥ al-Taṣrīf al-ʿIzzī",
+    "arabic": "شَرْحُ تَصْرِيفِ العِزِّيّ",
+    "author": "Saʿd al-Dīn al-Taftāzānī",
+    "authorSlug": "taftazani",
+    "died": "792/1390",
+    "century": 14,
+    "kind": "commentary",
+    "on": "izzi",
+    "language": "ar",
+    "summary": "Al-Taftāzānī's first work, by the reports written at sixteen: al-Zanjānī's al-ʿIzzī explained phrase by phrase, read with it in the Ottoman ṣarf course as 'Saʿd al-Dīn'.",
+    "sources": [
+      {
+        "title": "Teftâzânî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/teftazani"
+      }
+    ]
+  },
+  {
+    "id": "sharh-shafiya-jarabardi",
+    "title": "Sharḥ al-Shāfiya (al-Jārabardī)",
+    "arabic": "شَرْحُ الشَّافِيَةِ لِلْجَارَبَرْدِيّ",
+    "author": "al-Jārabardī",
+    "authorSlug": "jarabardi",
+    "died": "746/1346",
+    "century": 14,
+    "kind": "commentary",
+    "on": "shafiya",
+    "language": "ar",
+    "summary": "A plain commentary on Ibn al-Ḥājib's al-Shāfiya from Tabriz; one of the three read with the text and printed in the Majmūʿat al-Shāfiya.",
+    "sources": [
+      {
+        "title": "Câberdî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/carberdi"
+      }
+    ]
+  },
+  {
+    "id": "sharh-shafiya-nizam",
+    "title": "Sharḥ al-Shāfiya (al-Niẓām)",
+    "arabic": "شَرْحُ النِّظَامِ عَلَى الشَّافِيَة",
+    "author": "Niẓām al-Dīn al-Nīsābūrī",
+    "authorSlug": "nizam-al-din-nisaburi",
+    "died": "ca. 730/1329",
+    "century": 14,
+    "kind": "commentary",
+    "on": "shafiya",
+    "language": "ar",
+    "summary": "A commentary on al-Shāfiya of middle length, known in the madrasas simply as al-Niẓām; a set book of advanced ṣarf in India.",
+    "sources": [
+      {
+        "title": "Nizâmeddin en-Nîsâbûrî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/nizameddin-en-nisaburi"
+      }
+    ]
+  },
+  {
+    "id": "maqasid-shafiya",
+    "title": "al-Maqāṣid al-shāfiya",
+    "fullTitle": "al-Maqāṣid al-shāfiya fī sharḥ al-Khulāṣa al-kāfiya",
+    "arabic": "المَقَاصِدُ الشَّافِيَة",
+    "author": "Abū Isḥāq al-Shāṭibī",
+    "authorSlug": "shatibi",
+    "died": "790/1388",
+    "century": 14,
+    "kind": "commentary",
+    "on": "alfiyya",
+    "language": "ar",
+    "summary": "A very large commentary on the Alfiyya by the jurist of Granada, verse by verse, with a jurist's care for definitions and evidence.",
+    "sources": [
+      {
+        "title": "Şâtıbî, İbrâhim b. Mûsâ, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/satibi-ibrahim-b-musa"
+      }
+    ]
+  },
+  {
+    "id": "maqasid-nahwiyya",
+    "title": "al-Maqāṣid al-naḥwiyya (al-Shawāhid al-kubrā)",
+    "arabic": "المَقَاصِدُ النَّحْوِيَّة",
+    "author": "Badr al-Dīn al-ʿAynī",
+    "authorSlug": "ayni",
+    "died": "855/1451",
+    "century": 15,
+    "kind": "commentary",
+    "on": "alfiyya",
+    "language": "ar",
+    "summary": "Every verse of poetry quoted as evidence in four commentaries on the Alfiyya, with who said it, what it means and where its point lies; printed in the margin of the Alfiyya's commentaries.",
+    "sources": [
+      {
+        "title": "Aynî, Bedreddin, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ayni-bedreddin"
+      }
+    ]
+  },
+  {
+    "id": "malah-al-alwah",
+    "title": "Malāḥ al-alwāḥ fī sharḥ Marāḥ al-arwāḥ",
+    "arabic": "مَلَاحُ الأَلْوَاحِ فِي شَرْحِ مَرَاحِ الأَرْوَاح",
+    "author": "Badr al-Dīn al-ʿAynī",
+    "authorSlug": "ayni",
+    "died": "855/1451",
+    "century": 15,
+    "kind": "commentary",
+    "on": "marah",
+    "language": "ar",
+    "summary": "Al-ʿAynī's commentary on Marāḥ al-arwāḥ, the last book of the Ottoman ṣarf course; one of its chief commentaries with Dunqūz's and Kemalpaşazâde's.",
+    "sources": [
+      {
+        "title": "Merâhu'l-ervâh, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/merahul-ervah"
+      },
+      {
+        "title": "Aynî, Bedreddin, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/ayni-bedreddin"
+      }
+    ]
+  },
+  {
+    "id": "sharh-marah-dunquz",
+    "title": "Sharḥ al-Marāḥ (Dunqūz)",
+    "arabic": "شَرْحُ المَرَاحِ لِدُنْقُوز",
+    "author": "Shams al-Dīn Aḥmad, called Dunqūz (Dikgöz)",
+    "century": 15,
+    "kind": "commentary",
+    "on": "marah",
+    "language": "ar",
+    "summary": "The commentary on Marāḥ al-arwāḥ most read in the Ottoman madrasas, printed in Istanbul (1306) and Cairo (1309).",
+    "sources": [
+      {
+        "title": "Merâhu'l-ervâh, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/merahul-ervah"
+      }
+    ]
+  },
+  {
+    "id": "falah",
+    "title": "al-Falāḥ fī sharḥ al-Marāḥ",
+    "arabic": "الفَلَاحُ فِي شَرْحِ المَرَاح",
+    "author": "Kemalpaşazâde",
+    "authorSlug": "kemalpashazade",
+    "died": "940/1534",
+    "century": 16,
+    "kind": "commentary",
+    "on": "marah",
+    "language": "ar",
+    "summary": "The Ottoman şeyhülislâm's commentary on Marāḥ al-arwāḥ, printed in Istanbul in 1289.",
+    "sources": [
+      {
+        "title": "Merâhu'l-ervâh, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/merahul-ervah"
+      },
+      {
+        "title": "Kemalpaşazâde, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/kemalpasazade"
+      }
+    ]
+  },
+  {
+    "id": "ham-al-hawami",
+    "title": "Hamʿ al-hawāmiʿ",
+    "fullTitle": "Hamʿ al-hawāmiʿ fī sharḥ Jamʿ al-jawāmiʿ",
+    "arabic": "هَمْعُ الهَوَامِع",
+    "author": "Jalāl al-Dīn al-Suyūṭī",
+    "authorSlug": "suyuti",
+    "died": "911/1505",
+    "century": 15,
+    "kind": "commentary",
+    "on": "Jamʿ al-jawāmiʿ",
+    "language": "ar",
+    "summary": "Al-Suyūṭī's own commentary on his Jamʿ al-jawāmiʿ: the views of the grammarians on every question of naḥw and ṣarf in one order, the last great summa of the subject.",
+    "sources": [
+      {
+        "title": "Hem'u'l-hevâmi', TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/hemul-hevami"
+      }
+    ]
+  },
+  {
+    "id": "iqtirah",
+    "title": "al-Iqtirāḥ fī uṣūl al-naḥw",
+    "arabic": "الِاقْتِرَاحُ فِي أُصُولِ النَّحْو",
+    "author": "Jalāl al-Dīn al-Suyūṭī",
+    "authorSlug": "suyuti",
+    "died": "911/1505",
+    "century": 15,
+    "kind": "treatise",
+    "language": "ar",
+    "summary": "The principles of grammar, after Ibn Jinnī and Ibn al-Anbārī: what counts as evidence (hearing, consensus, analogy), the causes, and the rules for weighing them.",
+    "sources": [
+      {
+        "title": "Süyûtî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/suyuti"
+      }
+    ]
+  },
+  {
+    "id": "tasrih",
+    "title": "al-Taṣrīḥ bi-maḍmūn al-Tawḍīḥ",
+    "arabic": "التَّصْرِيحُ بِمَضْمُونِ التَّوْضِيح",
+    "author": "Khālid al-Azharī",
+    "authorSlug": "khalid-al-azhari",
+    "died": "905/1499",
+    "century": 15,
+    "kind": "commentary",
+    "on": "awdah-al-masalik",
+    "language": "ar",
+    "summary": "A commentary on Ibn Hishām's Awḍaḥ al-masālik, itself on the Alfiyya; a standard book of al-Azhar.",
+    "sources": [
+      {
+        "title": "Hâlid el-Ezherî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/halid-el-ezheri"
+      }
+    ]
+  },
+  {
+    "id": "sharh-al-ushmuni",
+    "title": "Manhaj al-sālik (Sharḥ al-Ushmūnī)",
+    "arabic": "مَنْهَجُ السَّالِكِ إِلَى أَلْفِيَّةِ ابْنِ مَالِك",
+    "author": "al-Ushmūnī",
+    "authorSlug": "ushmuni",
+    "died": "918/1513",
+    "century": 15,
+    "kind": "commentary",
+    "on": "alfiyya",
+    "language": "ar",
+    "summary": "The Azhar's commentary on the Alfiyya: what Ibn al-Nāẓim, al-Murādī and Ibn Hishām had said, gathered into one clear and full text.",
+    "sources": [
+      {
+        "title": "Üşmûnî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/usmuni"
+      }
+    ]
+  },
+  {
+    "id": "hashiyat-al-sabban",
+    "title": "Ḥāshiyat al-Ṣabbān",
+    "arabic": "حَاشِيَةُ الصَّبَّانِ عَلَى شَرْحِ الأُشْمُونِيّ",
+    "author": "al-Ṣabbān",
+    "authorSlug": "sabban",
+    "died": "1206/1792",
+    "century": 18,
+    "kind": "gloss",
+    "on": "sharh-al-ushmuni",
+    "language": "ar",
+    "summary": "The gloss on al-Ushmūnī's commentary, settling its difficulties with the views of the earlier commentators: the last great work on the Alfiyya, still read in Cairo.",
+    "sources": [
+      {
+        "title": "Sabbân, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/sabban"
+      }
+    ]
+  },
+  {
+    "id": "hashiyat-abd-al-ghafur",
+    "title": "Ḥāshiyat ʿAbd al-Ghafūr",
+    "arabic": "حَاشِيَةُ عَبْدِ الغَفُور",
+    "author": "ʿAbd al-Ghafūr al-Lārī",
+    "authorSlug": "lari",
+    "died": "912/1506",
+    "century": 15,
+    "kind": "gloss",
+    "on": "fawaid-diyaiyya",
+    "language": "ar",
+    "summary": "Jāmī's disciple's gloss on al-Fawāʾid al-Ḍiyāʾiyya, read with Sharḥ Jāmī in the Dars-i Niẓāmī and printed in the margin of the Indian lithographs.",
+    "sources": [
+      {
+        "title": "Abdülgafûr-i Lârî, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/abdulgafur-i-lari"
+      }
+    ]
+  },
+  {
+    "id": "hashiyat-isam",
+    "title": "Ḥāshiyat ʿIṣām",
+    "arabic": "حَاشِيَةُ عِصَامٍ عَلَى الجَامِيّ",
+    "author": "ʿIṣām al-Dīn al-Isfarāyīnī",
+    "authorSlug": "isam-al-din",
+    "died": "944/1537",
+    "century": 16,
+    "kind": "gloss",
+    "on": "fawaid-diyaiyya",
+    "language": "ar",
+    "summary": "The gloss on Sharḥ Jāmī read after it in the Ottoman naḥw course, known simply as 'İsâm'.",
+    "sources": [
+      {
+        "title": "İsferâyînî, İsâmüddin, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/isferayini-isamuddin"
+      }
+    ]
+  },
+  {
+    "id": "hall-asrar-al-akhyar",
+    "title": "Ḥall asrār al-akhyār ʿalā iʿrāb Iẓhār al-asrār",
+    "arabic": "حَلُّ أَسْرَارِ الأَخْيَارِ عَلَى إِعْرَابِ إِظْهَارِ الأَسْرَار",
+    "author": "Zeynîzâde Hüseyin Efendi",
+    "authorSlug": "zeynizade",
+    "died": "1172/1759",
+    "century": 18,
+    "kind": "commentary",
+    "on": "izhar-al-asrar",
+    "language": "ar",
+    "summary": "The iʿrāb of Birgivī's Iẓhār al-asrār word by word, for Ottoman students to check their own analysis; printed many times in Istanbul.",
+    "sources": [
+      {
+        "title": "Zeynîzâde Hüseyin Efendi, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/zeynizade-huseyin-efendi"
+      },
+      {
+        "title": "İzhârü'l-esrâr, TDV İslâm Ansiklopedisi",
+        "url": "https://islamansiklopedisi.org.tr/izharul-esrar"
       }
     ]
   }

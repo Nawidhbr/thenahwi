@@ -1,0 +1,53 @@
+{
+  "slug": "ibn-durustawayh",
+  "name": "Abū Muḥammad ʿAbd Allāh ibn Jaʿfar ibn Durustawayh al-Fārisī",
+  "known": "Ibn Durustawayh",
+  "arabic": "ابْنُ دُرُسْتَوَيْهِ",
+  "died": "347/958",
+  "places": [
+    "Fasā",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Baghdad grammarian of Persian origin, a student of al-Mubarrad, who defended the Basrans against the Kufans and wrote a book on the writing of Arabic.",
+  "bio": [
+    "Ibn Durustawayh came from Fasā in Fārs and learnt in Baghdad from al-Mubarrad and Ibn Qutayba; al-Zubaydī places him in the ninth Basran generation. He was a sharp partisan of the Basrans and is said to have written against the Kufan views of Thaʿlab's circle.",
+    "His Kitāb al-Kuttāb, on spelling and writing, and his Taṣḥīḥ al-faṣīḥ, a commentary on Thaʿlab's al-Faṣīḥ that often corrects it, survive. He died in Baghdad in 347/958."
+  ],
+  "works": [
+    {
+      "title": "Kitāb al-Kuttāb",
+      "arabic": "كِتَابُ الكُتَّاب",
+      "kind": "other"
+    },
+    {
+      "title": "Taṣḥīḥ al-Faṣīḥ",
+      "arabic": "تَصْحِيحُ الفَصِيح",
+      "kind": "sharh",
+      "on": "thalab",
+      "note": "On Thaʿlab's al-Faṣīḥ."
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 9,
+    "entry": 43
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 43 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "İbn Dürüsteveyh, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-durusteveyh"
+    }
+  ]
+}

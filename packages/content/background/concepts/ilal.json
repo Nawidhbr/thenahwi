@@ -1,0 +1,41 @@
+{
+  "slug": "ilal",
+  "name": "Change of the weak letters (iʿlāl)",
+  "arabic": "الإِعْلَالُ",
+  "transliteration": "al-iʿlāl",
+  "alsoKnownAs": [
+    "ilal",
+    "iʿlāl",
+    "qalb",
+    "weak letter changes"
+  ],
+  "category": "sound-weak",
+  "definition": "The changes that wāw, yāʾ and alif (and hamza) undergo in a word for ease of speech: turned into another letter, made silent, or dropped.",
+  "body": [
+    "Iʿlāl has three kinds. By change (qalb) a weak letter becomes another: the wāw of the root w-z-n becomes yāʾ in mīzān, whose underlying form is miwzān. By making silent (taskīn or naql) a weak letter loses its vowel to the letter before it: yaqūlu from an underlying yaqwulu. By dropping (ḥadhf) it falls away: the wāw of waʿada in yaʿidu and ʿid.",
+    "The books of ṣarf give most of their pages to these rules, in the chapters on the mithāl, the ajwaf, the nāqiṣ and the lafīf: Marāḥ al-arwāḥ has a chapter for each, and al-Shāfiya and al-Mumtiʿ set out the rules with their conditions and exceptions. Where a form keeps its weak letter against the rule it is called shādhdh."
+  ],
+  "examples": [
+    {
+      "arabic": "مِوْزَانٌ ← مِيزَانٌ",
+      "text": "miwzān becomes mīzān: the wāw after a kasra turns to yāʾ (Marāḥ al-arwāḥ)."
+    },
+    {
+      "arabic": "وَعَدَ – يَعِدُ – عِدْ",
+      "text": "waʿada, yaʿidu, ʿid: the wāw drops in the present and the imperative."
+    }
+  ],
+  "related": [
+    "mutall",
+    "ibdal",
+    "idgham",
+    "mithal",
+    "ajwaf",
+    "naqis",
+    "asl"
+  ],
+  "books": [
+    "shafiya",
+    "izzi"
+  ]
+}

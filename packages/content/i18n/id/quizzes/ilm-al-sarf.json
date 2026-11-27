@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ilm-al-sarf-1": {
+      "prompt": "Apa yang dipelajari ilmu sharaf?",
+      "options": [
+        "Bentuk-bentuk satu kata: akarnya, wazannya dan bentuk-bentuk turunannya",
+        "Akhir kata di dalam kalimat",
+        "Makna ayat-ayat Al-Qur'an",
+        "Cara mengucapkan huruf dalam tilawah"
+      ],
+      "explanation": "Sharaf melihat kata itu sendiri: wazannya dan bentuk-bentuk yang dibuat dari akarnya. Akhir kata di dalam kalimat termasuk nahwu."
+    },
+    "ilm-al-sarf-2": {
+      "prompt": "Manakah dari kata-kata ini yang dibahas sharaf sebagai bentuk-bentuk dari satu akar?",
+      "options": [
+        "Keempatnya: satu akar, n-sh-r, dalam wazan yang berbeda",
+        "Hanya nashara; yang lain kata-kata yang berbeda",
+        "Tidak ada: sharaf tidak mempelajari fi'il",
+        "Hanya nashir dan manshur"
+      ],
+      "explanation": "Keempatnya sama-sama berhuruf asli n-sh-r. Sharaf menjelaskan wazan masing-masing."
+    },
+    "ilm-al-sarf-3": {
+      "prompt": "Mengapa di madrasah sharaf biasanya dibaca sebelum nahwu?",
+      "options": [
+        "Nahwu membicarakan akhir kata yang bentuknya sudah harus dikenali santri",
+        "Sharaf lebih mudah dihafal",
+        "Nahwu hanya untuk santri fikih tingkat lanjut",
+        "Tidak ada alasannya; urutannya acak"
+      ],
+      "explanation": "Santri yang belum bisa mengenali bentuk kata tidak bisa menilai akhirnya, maka kitab-kitab sharaf didahulukan."
+    }
+  }
+}

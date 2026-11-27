@@ -1,0 +1,65 @@
+{
+  "slug": "mubarrad",
+  "name": "Abū al-ʿAbbās Muḥammad ibn Yazīd al-Thumālī al-Azdī",
+  "known": "al-Mubarrad",
+  "arabic": "المُبَرِّدُ",
+  "died": "285/898",
+  "places": [
+    "Basra",
+    "Samarra",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "The head of the Basran school in Baghdad, author of al-Muqtaḍab and al-Kāmil, and rival of the Kufan Thaʿlab: their two circles made Baghdad the city of grammar.",
+  "bio": [
+    "Al-Mubarrad was born in Basra around 210/826 and learnt with al-Jarmī and al-Māzinī, reading al-Kitāb with both. He went to the court of al-Mutawakkil in Samarra and, after the caliph's murder in 247/861, to Baghdad, where he stayed until his death.",
+    "Al-Zubaydī tells how he made his name there. He arrived poor and unknown, and after the Friday prayer began to explain grammar aloud as if someone had asked him, until a circle gathered. Thaʿlab, the head of the Kufans, sent two of his students, al-Zajjāj and Ibn al-Ḥāʾik, to break it up. Al-Zajjāj asked a question; al-Mubarrad answered it, then refuted his own answer, then set the first answer right again, and did the same through fourteen questions. Al-Zajjāj told his companions to go back to their teacher without him: 'I speak of knowledge and reasoning, not of fame.' He became al-Mubarrad's student, paying him an allowance for his lessons.",
+    "From then on the two masters taught side by side, and their rivalry is a theme of every ṭabaqāt; al-Zubaydī reports that Thaʿlab was as sparing of words as al-Mubarrad, and wider in learning, but answered by hints where al-Mubarrad asked and answered plainly. Al-Mubarrad's al-Muqtaḍab is a full grammar on Sībawayh's lines, and al-Kāmil a book of language and letters still read; he also wrote a critique of Sībawayh, al-Radd ʿalā Sībawayh. Al-Zajjāj, Ibn al-Sarrāj, al-Akhfash al-Aṣghar, Ibn Durustawayh and Nifṭawayh were among his students. He died in Baghdad in 285/898 or 286/899."
+  ],
+  "works": [
+    {
+      "title": "al-Muqtaḍab",
+      "arabic": "المُقْتَضَب",
+      "kind": "matn"
+    },
+    {
+      "title": "al-Kāmil",
+      "arabic": "الكَامِل",
+      "kind": "other"
+    },
+    {
+      "title": "al-Radd ʿalā Sībawayh",
+      "arabic": "الرَّدُّ عَلَى سِيبَوَيْهِ",
+      "kind": "other",
+      "note": "Answered later by Ibn Wallād in al-Intiṣār."
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "The meaning of his nickname, al-Mubarrad ('the cooled') or al-Mubarrid ('who sets right'), is explained in several ways, some of them jokes of his rivals."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 8,
+    "entry": 36
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 36 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Müberred, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/muberred"
+    },
+    {
+      "title": "Al-Mubarrad, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Mubarrad"
+    }
+  ]
+}

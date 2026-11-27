@@ -264,3 +264,31 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
   (نَصَرَ یَنصُرُ، ضَرَبَ یَضرِبُ …).
 - مفعولٌ‌به, مفعولٌ‌فیه, مفعولٌ‌له, مفعولٌ‌معه with the tanwīn and the non-joiner, as the ḥawza writes them; in
   plain prose «مفعول‌به» is also accepted as a pop-up form.
+- مسند / مسند الیه: not used for mubtadaʾ and khabar in our own explanations (Style), but kept where a book itself
+  uses them as its terms (Naḥw-i Mīr: «مسند الیه … مبتدا گویند»), written as the book writes them: «مسند الیه».
+- In the lessons of the two Persian books (Mīzān al-ṣarf, Naḥw-i Mīr) a sentence the English quotes from the book is
+  given in the book's own Persian words, in « », copied from the passage; the book's terms are then the lesson's terms
+  (مستقبل beside مضارع, حاضر for the second person, ماضی قریب / بعید / استمراری / احتمالی / تمنّائی).
+
+## Words met in the books (added by the translator)
+
+| English | Arabic | فارسی: in the text |
+|---|---|---|
+| The firmly placed noun / not firmly placed | الْمُتَمَكِّنُ / غَيْرُ الْمُتَمَكِّنِ | اسم متمکّن / غیر متمکّن |
+| What is fixed in origin | مَبْنِيُّ الْأَصْلِ | مبنیّ اصل |
+| The iḍāfa / bināʾ / tanwīn-keeping compound | الْمُرَكَّبُ الْإِضَافِيُّ / الْبِنَائِيُّ / مَنْعُ الصَّرْفِ | مرکّب اضافی / بنائی / منع صرف |
+| Vague nouns; allusive nouns | الْمُبْهَمَاتُ؛ الْكِنَايَاتُ | مبهمات؛ کنایات |
+| Nouns of verbs; nouns of sounds | أَسْمَاءُ الْأَفْعَالِ؛ أَسْمَاءُ الْأَصْوَاتِ | اسمای افعال؛ اسمای اصوات |
+| Plural of few / of many; the furthest plural | جَمْعُ الْقِلَّةِ / الْكَثْرَةِ؛ مُنْتَهَى الْجُمُوعِ | جمع قلّت / کثرت؛ منتهی الجموع |
+| Maqṣūr / manqūṣ | الْمَقْصُورُ / الْمَنْقُوصُ | مقصور / منقوص |
+| Leaning (of a participle on a word before it) | الِاعْتِمَادُ | اعتماد |
+| The complete noun (before its tamyīz) | الِاسْمُ التَّامُّ | اسم تامّ |
+| Joining by a particle | عَطْفُ النَّسَقِ | عطف نسق (عطف به حرف) |
+| The passive / its marfūʿ (Indian books) | فِعْلُ / مَفْعُولُ مَا لَمْ يُسَمَّ فَاعِلُهُ | فعل / مفعول ما لم یسمّ فاعله |
+| Verbs of nearness; of praise and blame | أَفْعَالُ الْمُقَارَبَةِ؛ أَفْعَالُ الْمَدْحِ وَالذَّمِّ | افعال مقاربه؛ افعال مدح و ذمّ |
+| The particles that do not govern | الْحُرُوفُ غَيْرُ الْعَامِلَةِ | حروف غیر عامله |
+| The kinds of tanwīn | تَنْوِينُ التَّمَكُّنِ، التَّنْكِيرِ، الْعِوَضِ، الْمُقَابَلَةِ، التَّرَنُّمِ | تنوین تمکّن، تنکیر، عوض، مقابله، ترنّم |
+| The nūn of iʿrāb | نُونُ الْإِعْرَابِ | نون اعرابی |
+| The separating alif | الْأَلِفُ الْفَاصِلَةُ | الف فاصل |
+| The hamza of connection | هَمْزَةُ الْوَصْلِ | همزهٔ وصل |
+| The engine (the site's conjugation tool) | — | ابزار صرف فعل |

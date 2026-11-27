@@ -1,0 +1,34 @@
+{
+  "items": {
+    "bina-1": {
+      "prompt": "Apa arti mabni?",
+      "options": [
+        "Akhirnya tetap sama, apa pun 'amil yang masuk",
+        "Akhirnya berubah mengikuti 'amil-'amilnya",
+        "Ia fi'il mudhari'",
+        "Ia punya huruf tambahan"
+      ],
+      "explanation": "Kata mabni tetap pada satu akhir; kata mu'rab berubah."
+    },
+    "bina-2": {
+      "prompt": "Kata mana yang mabni?",
+      "options": [
+        "hadza",
+        "zaidun",
+        "yanshuru",
+        "Ketiganya"
+      ],
+      "explanation": "Isim isyarah seperti hadza itu mabni; zaidun dan yanshuru itu mu'rab."
+    },
+    "bina-3": {
+      "prompt": "Fi'il mana yang mabni?",
+      "options": [
+        "Fi'il madhi dan fi'il amar",
+        "Hanya fi'il mudhari'",
+        "Tidak ada fi'il yang mabni",
+        "Setiap fi'il sesudah lam"
+      ],
+      "explanation": "Fi'il madhi dan fi'il amar itu mabni; fi'il mudhari' itu mu'rab, kecuali dalam beberapa keadaan yang dibahas kitab-kitab kemudian."
+    }
+  }
+}

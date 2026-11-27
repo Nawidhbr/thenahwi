@@ -1,122 +1,2599 @@
 {
- "parts": {},
- "lessons": {
-  "1": {
-   "text": [
-    "Rahman ve Rahim olan Allah'ın adıyla.\nnasara “o (bir erkek) yardım etti”, yensuru “o (bir erkek) yardım eder”, nasran “yardım etmek”, fe hüve nasırun “o halde o yardım edendir”\nve zake mensurun “ve şu, yardım edilendir”, lem yensur “o (bir erkek) yardım etmedi”, lemma yensur “o (bir erkek) henüz yardım etmedi”, ma yensuru “o (bir erkek) yardım etmiyor”\nla yensuru “o (bir erkek) yardım etmeyecek”, len yensura “o (bir erkek) asla yardım etmeyecek”, li-yensur “o (bir erkek) yardım etsin”, la yensur “o (bir erkek) yardım etmesin”\nunsur “yardım et! (bir erkeğe)”, la tensur “yardım etme! (bir erkeğe)”"
-   ]
+  "title": "Emsile (el-Emsiletü'l-muhtelife)",
+  "summary": "Emsile, sarfın bütününü tek bir fiil, “yardım etmek” anlamındaki nasara üzerinde ortaya koyan, yazarı bilinmeyen kısa bir tablolar kitabıdır. Osmanlı medresesinin ilk kitabıdır; her şeyden önce ezberlenir ve ardından Bina, Maksud, İzzi ve Merahu'l-ervah gelir; Mecmuatü's-sarf'ta bunlarla birlikte basılır. Her çeşitten bir sigayı bir solukta sayan “emsile-i muhtelife” ile açılır, sonra her çeşidin “emsile-i muttaride”sini tam olarak verir: fiil-i mazi ve fiil-i muzarinin ma'lum ve meçhul on dört sigası, masdar ve ism-i fail ile ism-i mef'ul, beş nefy, emir ve nehy, fiilden türeyen isimler. Dersler her tabloyu, medresenin onu nasıl okuduğunu ve diğer sahih fiillere nasıl taşındığını, baskının ve The Nahwi'nin tasrif aracının sigalarıyla açıklar.",
+  "parts": {
+    "varied-forms": "Emsile-i muhtelife",
+    "past-present": "Mazi ve muzari",
+    "masdar-participles": "Masdar, ism-i fail ve ism-i mef'ul",
+    "negations": "Nefyler",
+    "command-prohibition": "Emir ve nehy",
+    "derived-nouns": "Fiilden türeyen isimler"
   },
-  "2": {
-   "text": [
-    "mensarun “yardım zamanı veya yeri; yardım etmek”, minsarun “yardım aleti”, nasratun “bir kere yardım etmek”, nisratun “bir çeşit yardım etmek”\nnusayrun “küçük bir yardım”, nasriyyun “yardıma mensup (bir erkek)”, nassarun “çok yardım eden (bir erkek)”, ensaru “daha çok yardım eden (bir erkek)”\nma ensarahü “o (bir erkek) ne çok yardım eder!”, ve ensır bihi “o (bir erkek) ne çok yardım eder!”"
-   ]
-  },
-  "3": {
-   "text": [
-    "nasara “o (bir erkek) yardım etti”, nasara “o ikisi (erkek) yardım ettiler”, nasaru “onlar (erkekler) yardım ettiler”, nasarat “o (bir kadın) yardım etti”\nnasarata “o ikisi (kadın) yardım ettiler”, nasarne “onlar (kadınlar) yardım ettiler”, nasarte “sen (bir erkek) yardım ettin”, nasartüma “siz ikiniz (erkek) yardım ettiniz”\nnasartüm “siz (erkekler) yardım ettiniz”, nasarti “sen (bir kadın) yardım ettin”, nasartüma “siz ikiniz (kadın) yardım ettiniz”, nasartünne “siz (kadınlar) yardım ettiniz”\nnasartü “ben yardım ettim”, nasarna “biz yardım ettik”"
-   ]
-  },
-  "4": {
-   "text": [
-    "nusıra “o (bir erkek) yardım edildi”, nusıra “o ikisi (erkek) yardım edildiler”, nusıru “onlar (erkekler) yardım edildiler”, nusırat “o (bir kadın) yardım edildi”\nnusırata “o ikisi (kadın) yardım edildiler”, nusırne “onlar (kadınlar) yardım edildiler”, nusırte “sen (bir erkek) yardım edildin”, nusırtüma “siz ikiniz (erkek) yardım edildiniz”\nnusırtüm “siz (erkekler) yardım edildiniz”, nusırti “sen (bir kadın) yardım edildin”, nusırtüma “siz ikiniz (kadın) yardım edildiniz”, nusırtünne “siz (kadınlar) yardım edildiniz”\nnusırtü “ben yardım edildim”, nusırna “biz yardım edildik”"
-   ]
-  },
-  "5": {
-   "text": [
-    "yensuru “o (bir erkek) yardım eder”, yensurani “o ikisi (erkek) yardım ederler”, yensurune “onlar (erkekler) yardım ederler”, tensuru “o (bir kadın) yardım eder”\ntensurani “o ikisi (kadın) yardım ederler”, yensurne “onlar (kadınlar) yardım ederler”, tensuru “sen (bir erkek) yardım edersin”, tensurani “siz ikiniz (erkek) yardım edersiniz”\ntensurune “siz (erkekler) yardım edersiniz”, tensurine “sen (bir kadın) yardım edersin”, tensurani “siz ikiniz (kadın) yardım edersiniz”, tensurne “siz (kadınlar) yardım edersiniz”\nensuru “ben yardım ederim”, nensuru “biz yardım ederiz”"
-   ]
-  },
-  "6": {
-   "text": [
-    "yunsaru “o (bir erkek) yardım edilir”, yunsarani “o ikisi (erkek) yardım edilirler”, yunsarune “onlar (erkekler) yardım edilirler”, tunsaru “o (bir kadın) yardım edilir”\ntunsarani “o ikisi (kadın) yardım edilirler”, yunsarne “onlar (kadınlar) yardım edilirler”, tunsaru “sen (bir erkek) yardım edilirsin”, tunsarani “siz ikiniz (erkek) yardım edilirsiniz”\ntunsarune “siz (erkekler) yardım edilirsiniz”, tunsarine “sen (bir kadın) yardım edilirsin”\ntunsarani “siz ikiniz (kadın) yardım edilirsiniz”, tunsarne “siz (kadınlar) yardım edilirsiniz”, unsaru “ben yardım edilirim”, nunsaru “biz yardım ediliriz”"
-   ]
-  },
-  "7": {
-   "text": [
-    "nasran “yardım etmek”, nasrani “iki yardım”, nasaratün “yardımlar”"
-   ]
-  },
-  "8": {
-   "text": [
-    "nasırun “yardım eden (bir erkek)”, nasırani “yardım eden iki erkek”, nasırune “yardım eden erkekler”, nussarun “yardım edenler (cem'-i mükesser)”\nve nussarun “yardım edenler (cem'-i mükesser)”, ve nasaratun “yardım edenler (cem'-i mükesser)”, nasıratun “yardım eden (bir kadın)”, nasıratani “yardım eden iki kadın”\nnasıratün “yardım eden kadınlar”, ve nevasıru “yardım eden kadınlar (cem'-i mükesser)”"
-   ]
-  },
-  "9": {
-   "text": [
-    "mensurun “yardım edilen (bir erkek)”, mensurani “yardım edilen iki erkek”, mensurune “yardım edilen erkekler”, mensuratun “yardım edilen (bir kadın)”\nmensuratani “yardım edilen iki kadın”, mensuratün “yardım edilen kadınlar”, ve menasıru “yardım edilenler (cem'-i mükesser)”"
-   ]
-  },
-  "10": {
-   "text": [
-    "lem yensur “o (bir erkek) yardım etmedi”, lem yensura “o ikisi (erkek) yardım etmediler”, lem yensuru “onlar (erkekler) yardım etmediler”, lem tensur “o (bir kadın) yardım etmedi”\nlem tensura “o ikisi (kadın) yardım etmediler”, lem yensurne “onlar (kadınlar) yardım etmediler”, lem tensur “sen (bir erkek) yardım etmedin”, lem tensura “siz ikiniz (erkek) yardım etmediniz”\nlem tensuru “siz (erkekler) yardım etmediniz”, lem tensuri “sen (bir kadın) yardım etmedin”, lem tensura “siz ikiniz (kadın) yardım etmediniz”, lem tensurne “siz (kadınlar) yardım etmediniz”\nlem ensur “ben yardım etmedim”, lem nensur “biz yardım etmedik”",
-    "lem yunsar “o (bir erkek) yardım edilmedi”, lem yunsara “o ikisi (erkek) yardım edilmediler”, lem yunsaru “onlar (erkekler) yardım edilmediler”, lem tunsar “o (bir kadın) yardım edilmedi”\nlem tunsara “o ikisi (kadın) yardım edilmediler”, lem yunsarne “onlar (kadınlar) yardım edilmediler”, lem tunsar “sen (bir erkek) yardım edilmedin”, lem tunsara “siz ikiniz (erkek) yardım edilmediniz”\nlem tunsaru “siz (erkekler) yardım edilmediniz”, lem tunsari “sen (bir kadın) yardım edilmedin”, lem tunsara “siz ikiniz (kadın) yardım edilmediniz”, lem tunsarne “siz (kadınlar) yardım edilmediniz”\nlem unsar “ben yardım edilmedim”, lem nunsar “biz yardım edilmedik”"
-   ]
-  },
-  "11": {
-   "text": [
-    "lemma yensur “o (bir erkek) henüz yardım etmedi”, lemma yensura “o ikisi (erkek) henüz yardım etmediler”, lemma yensuru “onlar (erkekler) henüz yardım etmediler”, lemma tensur “o (bir kadın) henüz yardım etmedi”\nlemma tensura “o ikisi (kadın) henüz yardım etmediler”, lemma yensurne “onlar (kadınlar) henüz yardım etmediler”, lemma tensur “sen (bir erkek) henüz yardım etmedin”, lemma tensura “siz ikiniz (erkek) henüz yardım etmediniz”\nlemma tensuru “siz (erkekler) henüz yardım etmediniz”, lemma tensuri “sen (bir kadın) henüz yardım etmedin”\nlemma tensura “siz ikiniz (kadın) henüz yardım etmediniz”, lemma tensurne “siz (kadınlar) henüz yardım etmediniz”, lemma ensur “ben henüz yardım etmedim”, lemma nensur “biz henüz yardım etmedik”",
-    "lemma yunsar “o (bir erkek) henüz yardım edilmedi”, lemma yunsara “o ikisi (erkek) henüz yardım edilmediler”, lemma yunsaru “onlar (erkekler) henüz yardım edilmediler”, lemma tunsar “o (bir kadın) henüz yardım edilmedi”\nlemma tunsara “o ikisi (kadın) henüz yardım edilmediler”, lemma yunsarne “onlar (kadınlar) henüz yardım edilmediler”, lemma tunsar “sen (bir erkek) henüz yardım edilmedin”, lemma tunsara “siz ikiniz (erkek) henüz yardım edilmediniz”\nlemma tunsaru “siz (erkekler) henüz yardım edilmediniz”, lemma tunsari “sen (bir kadın) henüz yardım edilmedin”, lemma tunsara “siz ikiniz (kadın) henüz yardım edilmediniz”, lemma tunsarne “siz (kadınlar) henüz yardım edilmediniz”\nlemma unsar “ben henüz yardım edilmedim”, lemma nunsar “biz henüz yardım edilmedik”"
-   ]
-  },
-  "12": {
-   "text": [
-    "ma yensuru “o (bir erkek) yardım etmiyor”, ma yensurani “o ikisi (erkek) yardım etmiyorlar”, ma yensurune “onlar (erkekler) yardım etmiyorlar”, ma tensuru “o (bir kadın) yardım etmiyor”\nma tensurani “o ikisi (kadın) yardım etmiyorlar”, ma yensurne “onlar (kadınlar) yardım etmiyorlar”, ma tensuru “sen (bir erkek) yardım etmiyorsun”, ma tensurani “siz ikiniz (erkek) yardım etmiyorsunuz”\nma tensurune “siz (erkekler) yardım etmiyorsunuz”, ma tensurine “sen (bir kadın) yardım etmiyorsun”, ma tensurani “siz ikiniz (kadın) yardım etmiyorsunuz”, ma tensurne “siz (kadınlar) yardım etmiyorsunuz”\nma ensuru “ben yardım etmiyorum”, ma nensuru “biz yardım etmiyoruz”",
-    "ma yunsaru “o (bir erkek) yardım edilmiyor”, ma yunsarani “o ikisi (erkek) yardım edilmiyorlar”, ma yunsarune “onlar (erkekler) yardım edilmiyorlar”, ma tunsaru “o (bir kadın) yardım edilmiyor”\nma tunsarani “o ikisi (kadın) yardım edilmiyorlar”, ma yunsarne “onlar (kadınlar) yardım edilmiyorlar”, ma tunsaru “sen (bir erkek) yardım edilmiyorsun”, ma tunsarani “siz ikiniz (erkek) yardım edilmiyorsunuz”\nma tunsarune “siz (erkekler) yardım edilmiyorsunuz”, ma tunsarine “sen (bir kadın) yardım edilmiyorsun”, ma tunsarani “siz ikiniz (kadın) yardım edilmiyorsunuz”, ma tunsarne “siz (kadınlar) yardım edilmiyorsunuz”\nma unsaru “ben yardım edilmiyorum”, ma nunsaru “biz yardım edilmiyoruz”",
-    "la yensuru “o (bir erkek) yardım etmeyecek”, la yensurani “o ikisi (erkek) yardım etmeyecekler”, la yensurune “onlar (erkekler) yardım etmeyecekler”, la tensuru “o (bir kadın) yardım etmeyecek”\nla tensurani “o ikisi (kadın) yardım etmeyecekler”, la yensurne “onlar (kadınlar) yardım etmeyecekler”, la tensuru “sen (bir erkek) yardım etmeyeceksin”, la tensurani “siz ikiniz (erkek) yardım etmeyeceksiniz”\nla tensurune “siz (erkekler) yardım etmeyeceksiniz”, la tensurine “sen (bir kadın) yardım etmeyeceksin”, la tensurani “siz ikiniz (kadın) yardım etmeyeceksiniz”\nla tensurne “siz (kadınlar) yardım etmeyeceksiniz”, la ensuru “ben yardım etmeyeceğim”, la nensuru “biz yardım etmeyeceğiz”",
-    "la yunsaru “o (bir erkek) yardım edilmeyecek”, la yunsarani “o ikisi (erkek) yardım edilmeyecekler”, la yunsarune “onlar (erkekler) yardım edilmeyecekler”\nla tunsaru “o (bir kadın) yardım edilmeyecek”, la tunsarani “o ikisi (kadın) yardım edilmeyecekler”, la yunsarne “onlar (kadınlar) yardım edilmeyecekler”\nla tunsaru “sen (bir erkek) yardım edilmeyeceksin”, la tunsarani “siz ikiniz (erkek) yardım edilmeyeceksiniz”, la tunsarune “siz (erkekler) yardım edilmeyeceksiniz”\nla tunsarine “sen (bir kadın) yardım edilmeyeceksin”, la tunsarani “siz ikiniz (kadın) yardım edilmeyeceksiniz”, la tunsarne “siz (kadınlar) yardım edilmeyeceksiniz”\nla unsaru “ben yardım edilmeyeceğim”, la nunsaru “biz yardım edilmeyeceğiz”"
-   ]
-  },
-  "13": {
-   "text": [
-    "len yensura “o (bir erkek) asla yardım etmeyecek”, len yensura “o ikisi (erkek) asla yardım etmeyecekler”, len yensuru “onlar (erkekler) asla yardım etmeyecekler”\nlen tensura “o (bir kadın) asla yardım etmeyecek”, len tensura “o ikisi (kadın) asla yardım etmeyecekler”, len yensurne “onlar (kadınlar) asla yardım etmeyecekler”\nlen tensura “sen (bir erkek) asla yardım etmeyeceksin”, len tensura “siz ikiniz (erkek) asla yardım etmeyeceksiniz”, len tensuru “siz (erkekler) asla yardım etmeyeceksiniz”\nlen tensuri “sen (bir kadın) asla yardım etmeyeceksin”, len tensura “siz ikiniz (kadın) asla yardım etmeyeceksiniz”, len tensurne “siz (kadınlar) asla yardım etmeyeceksiniz”\nlen ensura “ben asla yardım etmeyeceğim”, len nensura “biz asla yardım etmeyeceğiz”",
-    "len yunsara “o (bir erkek) asla yardım edilmeyecek”, len yunsara “o ikisi (erkek) asla yardım edilmeyecekler”, len yunsaru “onlar (erkekler) asla yardım edilmeyecekler”\nlen tunsara “o (bir kadın) asla yardım edilmeyecek”, len tunsara “o ikisi (kadın) asla yardım edilmeyecekler”, len yunsarne “onlar (kadınlar) asla yardım edilmeyecekler”\nlen tunsara “sen (bir erkek) asla yardım edilmeyeceksin”, len tunsara “siz ikiniz (erkek) asla yardım edilmeyeceksiniz”, len tunsaru “siz (erkekler) asla yardım edilmeyeceksiniz”\nlen tunsari “sen (bir kadın) asla yardım edilmeyeceksin”, len tunsara “siz ikiniz (kadın) asla yardım edilmeyeceksiniz”, len tunsarne “siz (kadınlar) asla yardım edilmeyeceksiniz”\nlen unsara “ben asla yardım edilmeyeceğim”, len nunsara “biz asla yardım edilmeyeceğiz”"
-   ]
-  },
-  "14": {
-   "text": [
-    "li-yensur “o (bir erkek) yardım etsin”, li-yensura “o ikisi (erkek) yardım etsinler”, li-yensuru “onlar (erkekler) yardım etsinler”\nli-tensur “o (bir kadın) yardım etsin”, li-tensura “o ikisi (kadın) yardım etsinler”, li-yensurne “onlar (kadınlar) yardım etsinler”",
-    "li-yunsar “o (bir erkek) yardım edilsin”, li-yunsara “o ikisi (erkek) yardım edilsinler”, li-yunsaru “onlar (erkekler) yardım edilsinler”\nli-tunsar “o (bir kadın) yardım edilsin”, li-tunsara “o ikisi (kadın) yardım edilsinler”\nli-yunsarne “onlar (kadınlar) yardım edilsinler”, li-unsar “ben yardım edileyim”, li-nunsar “biz yardım edilelim”",
-    "la yensur “o (bir erkek) yardım etmesin”, la yensura “o ikisi (erkek) yardım etmesinler”, la yensuru “onlar (erkekler) yardım etmesinler”\nla tensur “o (bir kadın) yardım etmesin”, la tensura “o ikisi (kadın) yardım etmesinler”, la yensurne “onlar (kadınlar) yardım etmesinler”",
-    "la yunsar “o (bir erkek) yardım edilmesin”, la yunsara “o ikisi (erkek) yardım edilmesinler”, la yunsaru “onlar (erkekler) yardım edilmesinler”\nla tunsar “o (bir kadın) yardım edilmesin”, la tunsara “o ikisi (kadın) yardım edilmesinler”, la yunsarne “onlar (kadınlar) yardım edilmesinler”\nla unsar “ben yardım edilmeyeyim”, la nunsar “biz yardım edilmeyelim”"
-   ]
-  },
-  "15": {
-   "text": [
-    "unsur “yardım et! (bir erkeğe)”, unsura “yardım edin! (iki erkeğe)”, unsuru “yardım edin! (erkeklere)”\nunsuri “yardım et! (bir kadına)”, unsura “yardım edin! (iki kadına)”, unsurne “yardım edin! (kadınlara)”",
-    "li-tunsar “yardım edil! (bir erkeğe)”, li-tunsara “yardım edilin! (iki erkeğe)”, li-tunsaru “yardım edilin! (erkeklere)”\nli-tunsari “yardım edil! (bir kadına)”, li-tunsara “yardım edilin! (iki kadına)”, li-tunsarne “yardım edilin! (kadınlara)”\nli-unsar “ben yardım edileyim”, li-nunsar “biz yardım edilelim”",
-    "la tensur “yardım etme! (bir erkeğe)”, la tensura “yardım etmeyin! (iki erkeğe)”, la tensuru “yardım etmeyin! (erkeklere)”\nla tensuri “yardım etme! (bir kadına)”, la tensura “yardım etmeyin! (iki kadına)”, la tensurne “yardım etmeyin! (kadınlara)”",
-    "la tunsar “yardım edilme! (bir erkeğe)”, la tunsara “yardım edilmeyin! (iki erkeğe)”, la tunsaru “yardım edilmeyin! (erkeklere)”\nla tunsari “yardım edilme! (bir kadına)”, la tunsara “yardım edilmeyin! (iki kadına)”, la tunsarne “yardım edilmeyin! (kadınlara)”\nla unsar “ben yardım edilmeyeyim”, la nunsar “biz yardım edilmeyelim”"
-   ]
-  },
-  "16": {
-   "text": [
-    "mensarun “yardım zamanı veya yeri; yardım etmek”, mensarani “iki yardım zamanı veya yeri”, menasıru “yardım zamanları veya yerleri”",
-    "minsarun “yardım aleti”, minsarani “iki yardım aleti”, menasıru “yardım aletleri”"
-   ]
-  },
-  "17": {
-   "text": [
-    "nasratun “bir kere yardım etmek”, nasratani “iki kere yardım etmek”, nasaratün “birkaç kere yardım etmek”",
-    "nisratun “bir çeşit yardım etmek”, nisratani “iki çeşit yardım etmek”, nisaratün “yardım etme çeşitleri”"
-   ]
-  },
-  "18": {
-   "text": [
-    "nusayrun “küçük bir yardım”, nusayrani “iki küçük yardım”, nusayrune “küçük yardımlar”",
-    "nasriyyun “yardıma mensup (bir erkek)”, nasriyyani “yardıma mensup (iki erkek)”, nasriyyune “yardıma mensup (erkekler)”\nnasriyyetun “yardıma mensup (bir kadın)”, nasriyyetani “yardıma mensup (iki kadın)”, nasriyyatün “yardıma mensup (kadınlar)”"
-   ]
-  },
-  "19": {
-   "text": [
-    "nassarun “çok yardım eden (bir erkek)”, nassarani “çok yardım eden iki erkek”, nassarune “çok yardım eden erkekler”\nnassaratun “çok yardım eden (bir kadın)”, nassaratani “çok yardım eden iki kadın”, nassaratün “çok yardım eden kadınlar”",
-    "ensaru “daha çok yardım eden (bir erkek)”, ensarani “daha çok yardım eden iki erkek”, ensarune “daha çok yardım eden erkekler”\nve enasıru “daha çok yardım edenler (erkek, cem'-i mükesser)”, nusra “daha çok yardım eden (bir kadın)”, nusrayani “daha çok yardım eden iki kadın”\nnusrayatün “daha çok yardım eden kadınlar”, ve nusarun “daha çok yardım edenler (kadın, cem'-i mükesser)”"
-   ]
-  },
-  "20": {
-   "text": [
-    "ma ensarahü “o (bir erkek) ne çok yardım eder!”, ma ensarahüma “o ikisi (erkek) ne çok yardım ederler!”, ma ensarahüm “onlar (erkekler) ne çok yardım ederler!”\nma ensaraha “o (bir kadın) ne çok yardım eder!”, ma ensarahüma “o ikisi (kadın) ne çok yardım ederler!”, ma ensarahünne “onlar (kadınlar) ne çok yardım ederler!”\nma ensarake “sen (bir erkek) ne çok yardım edersin!”, ma ensaraküma “siz ikiniz (erkek) ne çok yardım edersiniz!”, ma ensaraküm “siz (erkekler) ne çok yardım edersiniz!”\nma ensaraki “sen (bir kadın) ne çok yardım edersin!”, ma ensaraküma “siz ikiniz (kadın) ne çok yardım edersiniz!”, ma ensarakünne “siz (kadınlar) ne çok yardım edersiniz!”\nma ensarani “ben ne çok yardım ederim!”, ma ensarana “biz ne çok yardım ederiz!”",
-    "ve ensır bihi “o (bir erkek) ne çok yardım eder!”, ve ensır bihima “o ikisi (erkek) ne çok yardım ederler!”, ve ensır bihim “onlar (erkekler) ne çok yardım ederler!”\nve ensır biha “o (bir kadın) ne çok yardım eder!”, ve ensır bihima “o ikisi (kadın) ne çok yardım ederler!”, ve ensır bihinne “onlar (kadınlar) ne çok yardım ederler!”\nve ensır bike “sen (bir erkek) ne çok yardım edersin!”, ve ensır biküma “siz ikiniz (erkek) ne çok yardım edersiniz!”, ve ensır biküm “siz (erkekler) ne çok yardım edersiniz!”\nve ensır biki “sen (bir kadın) ne çok yardım edersin!”, ve ensır biküma “siz ikiniz (kadın) ne çok yardım edersiniz!”, ve ensır bikünne “siz (kadınlar) ne çok yardım edersiniz!”\nve ensır bi “ben ne çok yardım ederim!”, ve ensır bina “biz ne çok yardım ederiz!”"
-   ]
+  "lessons": {
+    "1": {
+      "title": "Emsile-i muhtelife: fiil ve ailesi",
+      "body": [
+        "Besmeleden sonra Emsile, “yardım etmek” anlamındaki nasara fiilinin on dört sigasını bir solukta verir: nasara, yensuru, nasran, fe hüve nasırun, ve zake mensurun, lem yensur, lemma yensur, ma yensuru, la yensuru, len yensura, li-yensur, la yensur, unsur, la tensur. Bunlar “emsile-i muhtelife”dir (el-emsiletü'l-muhtelife): her biri ayrı bir çeşittendir. Her çeşit kitapta daha sonra bütün sigalarıyla tam bir tablo olarak yeniden gelir: “emsile-i muttaride” (el-emsiletü'l-muttaride). Osmanlı medresesinde çocuk bu satırı bir ezgi gibi akıncaya kadar okur ve sonra karşılaştığı her fiili aynı sırayla okur.",
+        "İlk beşi fiili ve ilk isimlerini küçük bir cümlede birleştirerek verir: “yardım etti, yardım eder, yardım etmek; öyleyse o yardım edendir, şu da yardım edilendir”. Fe hüve (“öyleyse o”) ile ve zake (“ve şu”) sigalardan değildir. Okuyuşu bir cümle yapar ve nasır'ın işi yapanı, mensur'un ise işin kendisine yapılanı vasfettiğini hemen gösterir.",
+        "Sonra beş nefy gelir: lem yensur, “yardım etmedi”; lemma yensur, “henüz yardım etmedi”; ma yensuru, “yardım etmiyor”; la yensuru, “yardım etmeyecek”; len yensura, “asla yardım etmeyecek”. Sonlara kulak verin. Lem ve lemma'dan sonra fiil sükunla biter, ma ve la'dan sonra zammesini korur, len'den sonra fetha alır. Sarf bu sigaları kaydeder; nahiv ise onları amillerinden sonra gelen cezm ve nasb olarak açıklar.",
+        "En sonda dört emir ve nehy sigası gelir: li-yensur, “yardım etsin”, ve la yensur, “yardım etmesin”, gaib (orada olmayan) hakkında söylenir; unsur, “yardım et!”, ve la tensur, “yardım etme!”, hazıra, yani hitap edilen kişiye söylenir.",
+        "Neden nasara? Sarf kitaplarının sırasında, sülasi mücerred fiilin vezinleri olan altı babın ilkidir: fe'ale yef'ulü. Bir fiil mükemmel öğrenilir, diğerleri kıyasla (kıyas) onu izler. Aynı satır her sahih fiil için kurulabilir: ketebe, yektübü, fe hüve katibün ve zake mektubün, lem yektüb, len yektübe, üktüb."
+      ],
+      "terms": [
+        "emsile-i muhtelife: her çeşitten bir siga",
+        "emsile-i muttaride: bir çeşit, bütün sigalarıyla",
+        "sülasi mücerred fiilin altı vezninden biri",
+        "gaib: üçüncü şahıs",
+        "hazır: ikinci şahıs, muhatab",
+        "kıyas: başka fiilleri bu örneğe göre kurmak"
+      ],
+      "examples": [
+        "nasara, yensuru, nasran, fe hüve nasırun, ve zake mensurun: medresenin okuduğu şekliyle fiil ve ilk isimleri",
+        "lem yensur, “yardım etmedi”, sükunla; len yensura, “asla yardım etmeyecek”, fethayla",
+        "ketebe, yektübü, fe hüve katibün, ve zake mektubün: aynı okuyuş başka bir fiil üzerinde"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nasara'nın on dört muhtelif sigasını kitabın sırasıyla okuyun ve her birinin anlamını verin.",
+          "answer": "Nasara (yardım etti), yensuru (yardım eder), nasran (yardım etmek), fe hüve nasırun (öyleyse o yardım edendir), ve zake mensurun (şu da yardım edilendir), lem yensur (yardım etmedi), lemma yensur (henüz yardım etmedi), ma yensuru (yardım etmiyor), la yensuru (yardım etmeyecek), len yensura (asla yardım etmeyecek), li-yensur (yardım etsin), la yensur (yardım etmesin), unsur (yardım et!), la tensur (yardım etme!)."
+        },
+        {
+          "prompt": "“Vurmak” anlamındaki daraba için okuyuşun ilk satırını kurun (masdarı darb'dır).",
+          "answer": "Darabe, yadribu, darban, fe hüve daribün, ve zake madrubün."
+        },
+        {
+          "prompt": "“Yazmak” anlamındaki ketebe için lem, len ve ma ile nefyleri verin ve hangilerinin yektübü'nün sonunu değiştirdiğini söyleyin.",
+          "answer": "Lem yektüb (son sükun olur), len yektübe (fetha olur), ma yektübü (değişmez)."
+        },
+        {
+          "prompt": "On dört sigadan hangileri gaib hakkında, hangileri muhataba söylenir?",
+          "answer": "Li-yensur ve la yensur gaib içindir. Unsur ve la tensur hazıra söylenir. Satırdaki diğerlerinin hepsi, her tablonun ilk sigası olan gaib erkek içindir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "“Emsile-i muhtelife” (el-emsiletü'l-muhtelife) nedir?",
+          "options": [
+            "Mazinin on dört sigasının hepsi",
+            "Her çeşitten bir siga, bir solukta okunur",
+            "Mu'tel fiiller",
+            "Yalnız meçhulün sigaları"
+          ],
+          "explanation": "Her çeşit burada bir kez görünür; emsile-i muttaride ise sonra her çeşidi bütün sigalarıyla verir."
+        },
+        {
+          "prompt": "Nasara ne demektir?",
+          "options": [
+            "Yazdı",
+            "Vurdu",
+            "Yardım etti",
+            "Açtı"
+          ],
+          "explanation": "Bütün kitap bu tek fiil, “yardım etmek” üzerine kuruludur."
+        },
+        {
+          "prompt": "Fe hüve nasırun ve zake mensurun'da fe hüve ile ve zake nedir?",
+          "options": [
+            "Fiilin iki sigası daha",
+            "Cezm harfleri",
+            "Masdar",
+            "Okuyuşu cümle yapan sözler, siga değil"
+          ],
+          "explanation": "Nasır'ın işi yapan, mensur'un ise işe uğrayan olduğunu gösterirler."
+        },
+        {
+          "prompt": "Hangi nefy “henüz yardım etmedi” demektir?",
+          "options": [
+            "Lemma yensur",
+            "Lem yensur",
+            "La yensuru",
+            "Ma yensuru"
+          ],
+          "explanation": "Lemma şimdiye kadar olanı nefyeder; iş yine de beklenir."
+        },
+        {
+          "prompt": "Yensuru hangi harften sonra fetha alır?",
+          "options": [
+            "Lem",
+            "Len",
+            "Ma",
+            "La (istikbalin nefyi)"
+          ],
+          "explanation": "Len yensura: fiil mansubdur."
+        },
+        {
+          "prompt": "“Yardım et!” anlamındaki unsur kime söylenir?",
+          "options": [
+            "gaibe",
+            "insanın kendisine",
+            "hazıra (muhataba)",
+            "yalnız Allah'a"
+          ],
+          "explanation": "Hazıra emirdir; li-yensur ise gaibe emirdir."
+        },
+        {
+          "prompt": "Nasara neden örnek fiildir?",
+          "options": [
+            "Arapçanın en eski fiilidir",
+            "Masdarı yoktur",
+            "Mu'tel bir fiildir",
+            "Mücerred fiilin altı babının ilkidir"
+          ],
+          "explanation": "Sarf kitaplarında fe'ale yef'ulü babların başında gelir; diğerleri kıyasla onu izler."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Form": "Siga",
+          "Name": "Adı",
+          "Meaning": "Anlamı",
+          "the past": "mazi",
+          "he helped": "yardım etti",
+          "the present (muḍāriʿ)": "muzari",
+          "he helps": "yardım eder",
+          "the maṣdar": "masdar",
+          "a helping": "yardım etmek",
+          "the active participle": "ism-i fail",
+          "a helper": "yardım eden",
+          "the passive participle": "ism-i mef'ul",
+          "helped": "yardım edilen",
+          "the absolute denial (jaḥd muṭlaq)": "cahd-ı mutlak",
+          "he did not help": "yardım etmedi",
+          "the comprehensive denial (jaḥd mustaghriq)": "cahd-ı müstağrak",
+          "he has not yet helped": "henüz yardım etmedi",
+          "the negation of the present": "nefy-i hal",
+          "he is not helping": "yardım etmiyor",
+          "the negation of the future": "nefy-i istikbal",
+          "he will not help": "yardım etmeyecek",
+          "the emphatic negation of the future": "te'kid-i nefy-i istikbal",
+          "he will never help": "asla yardım etmeyecek",
+          "the command to the absent": "emr-i gaib",
+          "let him help": "yardım etsin",
+          "the prohibition to the absent": "nehy-i gaib",
+          "let him not help": "yardım etmesin",
+          "the command to the one present": "emr-i hazır",
+          "help!": "yardım et!",
+          "the prohibition to the one present": "nehy-i hazır",
+          "do not help!": "yardım etme!"
+        },
+        "caption": "Fiilin on dört muhtelif sigası, adlarıyla"
+      },
+      "text": [
+        "Rahman ve Rahim olan Allah'ın adıyla.\nnasara “o (bir erkek) yardım etti”, yensuru “o (bir erkek) yardım eder”, nasran “yardım etmek”, fe hüve nasırun “o halde o yardım edendir”\nve zake mensurun “ve şu, yardım edilendir”, lem yensur “o (bir erkek) yardım etmedi”, lemma yensur “o (bir erkek) henüz yardım etmedi”, ma yensuru “o (bir erkek) yardım etmiyor”\nla yensuru “o (bir erkek) yardım etmeyecek”, len yensura “o (bir erkek) asla yardım etmeyecek”, li-yensur “o (bir erkek) yardım etsin”, la yensur “o (bir erkek) yardım etmesin”\nunsur “yardım et! (bir erkeğe)”, la tensur “yardım etme! (bir erkeğe)”"
+      ]
+    },
+    "2": {
+      "title": "Emsile-i muhtelife: isimler ve taaccüb",
+      "body": [
+        "Emsile-i muhtelifenin ikinci yarısı aynı kökten yapılan on kelime verir; son ikisi dışında hepsi isimdir: mensar, minsar, nasra, nisra, nusayr, nasri, nassar, ensar, ma ensarahu ve ensır bihi. Her biri sarfın bir köke koyabileceği bir vezindir ve medrese onu bir kez, nasara üzerinde, fe'ale'deki ağırlığıyla öğrenir: mef'al, mif'al, fe'le, fi'le, fu'ayl, fe'li, fe''al, ef'al, ma ef'alehu, ef'il bihi.",
+        "İlk dördü işi bir şekilde adlandırır. Mensar (mef'al) yardımın zamanı ya da yeridir, ayrıca mimli bir masdardır: “yardım etmek”. Minsar (mif'al) alettir: “kendisiyle yardım edilen şey”. Nasra (fe'le) tek bir iştir: “bir yardım”; nisra (fi'le) ise tarzdır: “bir yardım etme şekli”. Çiftlere dikkat edin: mensar ile minsar, nasra ile nisra yalnız bir harekeyle ayrılır ve bütün fark o harekededir.",
+        "Sonraki dördü vasfeder. Nusayr (fu'ayl) ism-i tasgirdir: “küçük bir yardım”. -iyy sonuyla nasri, “yardımla ilgili” demektir; Mekki'nin “Mekke'den” olması gibi ism-i mensubdur (nisbe). Nassar (fe''al) mübalağa sigasıdır: “çok yardım eden”, çok yardım eden kişi. Ensar (ef'al) ism-i tafdildir: “daha yardımsever”, “en yardımsever”.",
+        "Son ikisi iki taaccüb fiilidir: ma ensarahu, “ne kadar yardımsever!”, ve aynı anlamdaki ensır bihi. İkincisi emre benzer, ama emir değildir; şaşkınlığı bildirir. Baskıda satıra ve- ile bağlanır: ve ensır bihi.",
+        "Bu vezinler nasara için eksiksiz verilir, çünkü kitap vezin öğretir. Arapların belli bir fiilin ism-i tasgirini ya da ism-i aletini gerçekten kullanıp kullanmadığı Emsile'nin değil, lügatin meselesidir. Kitabın dördüncü kısmı olan fiilden türeyen isimler, bu kelimelerin her birine kendi tablosunu verir."
+      ],
+      "terms": [
+        "vezin: fe'ale ile tartılan kalıp",
+        "ism-i alet: mif'al",
+        "ism-i tasgir: fu'ayl",
+        "-iyy ile yapılan ism-i mensub",
+        "ism-i tafdil: ef'al, daha, en",
+        "taaccüb fiili: ma ef'alehu, ef'il bihi"
+      ],
+      "examples": [
+        "mensarun, yardımın zamanı ya da yeri; minsarun, alet: bir hareke farkla",
+        "nasratün, tek bir yardım; nisratün, bir yardım etme şekli",
+        "ma ensarahu ile ve ensır bihi: “ne kadar yardımsever!”"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her birinin fe'ale'deki veznini ve adını verin: nusayr, nassar, minsar, nasri, ensar.",
+          "answer": "Nusayr: fu'ayl, ism-i tasgir. Nassar: fe''al, mübalağa sigası. Minsar: mif'al, ism-i alet. Nasri: fe'li, ism-i mensub (nisbe). Ensar: ef'al, ism-i tafdil."
+        },
+        {
+          "prompt": "Mensar ile minsar, nasra ile nisra: her biri ne demektir ve onları yalnız ne ayırır?",
+          "answer": "Mensar: yardımın zamanı ya da yeri (veya masdar-ı mimi); minsar: alet. Nasra: tek bir yardım; nisra: bir yardım etme şekli. Onları yalnız ilk hareke ayırır: fetha ya da kesre."
+        },
+        {
+          "prompt": "On kelimeyi şöyle ayırın: işi adlandıranlar, vasfedenler ve taaccüb fiilleri.",
+          "answer": "İşi adlandıranlar: mensar, minsar, nasra, nisra. Vasfedenler: nusayr, nasri, nassar, ensar. Taaccüb fiilleri: ma ensarahu, ensır bihi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Minsar nedir?",
+          "options": [
+            "İsm-i mekan",
+            "İsm-i tasgir",
+            "İsm-i alet",
+            "İsm-i tafdil"
+          ],
+          "explanation": "Mif'al: kendisiyle yardım edilen şey. Fethalı mensar ise zaman ya da yerdir."
+        },
+        {
+          "prompt": "Nasra ile nisra … ayrılır.",
+          "options": [
+            "köklerinde",
+            "harf sayılarında",
+            "hiçbir şeyde",
+            "yalnız ilk harekelerinde: tek iş ile tarz"
+          ],
+          "explanation": "Fe'le tek bir iştir (merre); fi'le tarzdır (nev')."
+        },
+        {
+          "prompt": "Hangi siga “çok yardım eden”, çok yardım eden kişi demektir?",
+          "options": [
+            "Nassar",
+            "Nusayr",
+            "Nasri",
+            "Ensar"
+          ],
+          "explanation": "Fe''al mübalağa sigasıdır."
+        },
+        {
+          "prompt": "Ma ensarahu neyi ifade eder?",
+          "options": [
+            "Nefyi: “yardım etmedi”",
+            "Taaccübü: “ne kadar yardımsever!”",
+            "Bir soruyu: “ona ne yardım etti?”",
+            "Bir emri"
+          ],
+          "explanation": "Birinci taaccüb fiilidir."
+        },
+        {
+          "prompt": "Ensır bihi emre benzer. Nedir?",
+          "options": [
+            "Ona yardım etme emri",
+            "Bir nehy",
+            "İkinci taaccüb fiili",
+            "Bir masdar"
+          ],
+          "explanation": "Sigası emir sigasıdır; anlamı taaccübdür."
+        },
+        {
+          "prompt": "Nusayr'ın vezni nedir?",
+          "options": [
+            "Fe'il",
+            "Fail",
+            "Mef'ul",
+            "Fu'ayl"
+          ],
+          "explanation": "Fu'ayl, üç harfli bir ismin tasgir veznidir."
+        },
+        {
+          "prompt": "“Yardımla ilgili” anlamındaki nasri … ile yapılır.",
+          "options": [
+            "-iyy sonu (nisbe)",
+            "kökten önce bir mim",
+            "şeddeli bir ayn",
+            "ilk harften sonra bir elif"
+          ],
+          "explanation": "Mekki'nin “Mekke'den” olması gibi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Form": "Siga",
+          "Pattern": "Vezin",
+          "Name": "Adı",
+          "Meaning": "Anlamı",
+          "time, place; maṣdar mīmī": "zaman, yer; masdar-ı mimi",
+          "a time or place of helping": "yardımın zamanı ya da yeri",
+          "instrument": "alet",
+          "a thing to help with": "kendisiyle yardım edilen şey",
+          "one act (marra)": "tek iş (merre)",
+          "one help": "bir yardım",
+          "manner (nawʿ)": "tarz (nev')",
+          "a way of helping": "bir yardım etme şekli",
+          "diminutive": "tasgir",
+          "a little help": "küçük bir yardım",
+          "relative adjective": "ism-i mensub",
+          "related to help": "yardımla ilgili",
+          "intensive": "mübalağa",
+          "a great helper": "çok yardım eden",
+          "elative": "ism-i tafdil",
+          "more helpful": "daha yardımsever",
+          "first verb of wonder": "birinci taaccüb fiili",
+          "how helpful he is!": "ne kadar yardımsever!",
+          "second verb of wonder": "ikinci taaccüb fiili"
+        },
+        "caption": "İkinci satırın on ismi ve fiili"
+      },
+      "text": [
+        "mensarun “yardım zamanı veya yeri; yardım etmek”, minsarun “yardım aleti”, nasratun “bir kere yardım etmek”, nisratun “bir çeşit yardım etmek”\nnusayrun “küçük bir yardım”, nasriyyun “yardıma mensup (bir erkek)”, nassarun “çok yardım eden (bir erkek)”, ensaru “daha çok yardım eden (bir erkek)”\nma ensarahü “o (bir erkek) ne çok yardım eder!”, ve ensır bihi “o (bir erkek) ne çok yardım eder!”"
+      ]
+    },
+    "3": {
+      "title": "Ma'lum mazi, on dört sigasıyla",
+      "body": [
+        "Şimdi emsile-i muttaride başlar ve ilki ma'lum mazidir (el-mazi'l-ma'lum), on dört sigasıyla (siyağ). Kitabın her tablosu aynı sırayı korur: gaib erkeğin üç sigası (bir, iki, çok), gaib kadının üç sigası, muhatab erkeğin üç sigası, muhatab kadının üç sigası ve mütekellimin, yalnız ve başkalarıyla, iki sigası: 3 + 3 + 3 + 3 + 2 = 14.",
+        "Medrese her sigayı adıyla okur: nasara, müfred müzekker gaib; nasara [tesniye], tesniye müzekker gaib; nasaru, cem' müzekker gaib; nasarat, müfred müennese gaibe; nasarata, tesniye müennese gaibe; nasarne, cem' müennese gaibe; nasarte, müfred müzekker muhatab; nasartüma, tesniye müzekker muhatab; nasartüm, cem' müzekker muhatab; nasarti, müfred müennese muhataba; nasartüma, tesniye müennese muhataba; nasartünne, cem' müennese muhataba; nasartü, nefs-i mütekellim vahdehu; nasarna, mütekellim ma'a'l-gayr. Baskıda her siganın altındaki Türkçe yalnız bu adı ve anlamını verir.",
+        "On dört sigadan ikisi aynı kelimedir: nasartüma hem iki muhatab erkeğe hem iki muhatab kadına hizmet eder. Nasarna da iki ya da çok için, erkek ya da kadın için “biz”dir. Böylece tablonun on dört yeri, ama on üç ayrı kelimesi vardır ve talebe bir siganın hangi yerde durduğunu söylemeyi öğrenir.",
+        "Değişen yalnız sondur. Nasar- kökü kalır ve sonlar nahivde karşılaşacağınız fail zamirleridir: -a [tesniye elifi], -u, -ne, -te, -tüma, -tüm, -ti, -tünne, -tü, -na (nasarat'taki -at bir zamir değil, te'nis alametidir). Sessiz bir harfle başlayan bir sondan önce kökün son harfi sükun alır: nasar-te, nasar-tü, nasar-na.",
+        "Aynı sonlar her sahih fiile hizmet eder. Yalnız kökün harekesi baba göre değişir: nasara, darabe ve fetaha fe'ale veznindedir; semi'a fe'ile, kerume fe'ule veznindedir. “Duydum” anlamındaki semi'tü ve “şerefli oldum” anlamındaki kerumtü tam olarak nasartü gibi kurulur."
+      ],
+      "terms": [
+        "ma'lum mazi",
+        "siga: on dört sigadan biri",
+        "müfred müzekker gaib: nasara",
+        "nefs-i mütekellim: nasartü",
+        "mütekellim ma'a'l-gayr: nasarna"
+      ],
+      "examples": [
+        "nasara, “yardım etti”; nasartü, “yardım ettim”: on dört sigadan birincisi ve sondan ikincisi",
+        "semi'a, “duydu”; semi'tü, “duydum”: fe'ile babı, aynı sonlar",
+        "kerume, “şerefli oldu”; kerumtü, “şerefli oldum”: fe'ule babı"
+      ],
+      "tasks": [
+        {
+          "prompt": "“Vurmak” anlamındaki daraba'yı ma'lum mazide on dört sigasıyla, kitabın sırasıyla tasrif edin.",
+          "answer": "Darabe, daraba [tesniye], darabu, darabat, darabata, darabne, darabte, darabtüma, darabtüm, darabti, darabtüma, darabtünne, darabtü, darabna."
+        },
+        {
+          "prompt": "Her siganın şahsını söyleyin: nasaru, nasartünne, nasarata, nasarna, nasarti.",
+          "answer": "Nasaru: cem' müzekker gaib. Nasartünne: cem' müennese muhataba. Nasarata: tesniye müennese gaibe. Nasarna: mütekellim ma'a'l-gayr. Nasarti: müfred müennese muhataba."
+        },
+        {
+          "prompt": "“Açmak” anlamındaki fetaha'yı şu sigalar için verin: o kadın, sen (kadın), ben.",
+          "answer": "Fetahat, fetahti, fetahtü."
+        },
+        {
+          "prompt": "Tabloda neden on dört yer, ama yalnız on üç ayrı kelime vardır?",
+          "answer": "Nasartüma hem iki muhatab erkek hem iki muhatab kadın için kullanılır. (Nasarna da mütekellime bir kişiyle ve çok kişiyle hizmet eder, ama tabloda yalnız bir yeri doldurur.)"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Kitabın her tablosunda kaç siga vardır?",
+          "options": [
+            "On iki",
+            "On üç",
+            "Altı",
+            "On dört"
+          ],
+          "explanation": "Gaib erkek ve kadın ile muhatab erkek ve kadının her biri için üç, mütekellim için iki."
+        },
+        {
+          "prompt": "Nasartünne …",
+          "options": [
+            "cem' müennese muhatabadır",
+            "cem' müennese gaibedir",
+            "tesniye müennese muhatabadır",
+            "mütekellim ma'a'l-gayrdır"
+          ],
+          "explanation": "-tünne muhatab kadınların zamiridir."
+        },
+        {
+          "prompt": "Hangi siga tablonun iki yerine hizmet eder?",
+          "options": [
+            "Nasara [tesniye]",
+            "Nasartüma",
+            "Nasartüm",
+            "Nasarat"
+          ],
+          "explanation": "İki muhatab erkek de iki muhatab kadın da nasartüma'dır."
+        },
+        {
+          "prompt": "“Yardım etti (o kadın)” anlamındaki nasarat'ta -at nedir?",
+          "options": [
+            "Fail zamiri",
+            "Mef'ul",
+            "Zamir değil, te'nis alameti",
+            "Tesniye alameti"
+          ],
+          "explanation": "Nasarat'ın faili gizli bir “o (kadın)”dır."
+        },
+        {
+          "prompt": "Mütekellim ma'a'l-gayr neyi adlandırır?",
+          "options": [
+            "Yalnız mütekellimi: nasartü",
+            "Muhatab erkeği",
+            "Gaibi",
+            "Başkalarıyla birlikte mütekellimi: nasarna"
+          ],
+          "explanation": "“Başkasıyla birlikte konuşan”: biz."
+        },
+        {
+          "prompt": "Mazinin on dört sigasında ne değişir?",
+          "options": [
+            "Yalnız son",
+            "İlk harf",
+            "Kök",
+            "İlk harfin harekesi"
+          ],
+          "explanation": "Nasar- kökü kalır; sonlar fail zamirleridir."
+        },
+        {
+          "prompt": "“Duydum” anlamındaki semi'tü nasıl kurulur?",
+          "options": [
+            "“ben” için farklı bir sonla",
+            "nasartü gibi, kendi babının kök harekesiyle",
+            "meçhul gibi",
+            "bir önekle"
+          ],
+          "explanation": "Sonlar her sahih fiil için aynıdır; yalnız kökün harekesi babı izler."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Person": "Şahıs",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Many": "Cem'",
+          "absent, man": "gaib, erkek",
+          "absent, woman": "gaib, kadın",
+          "addressed, man": "muhatab, erkek",
+          "addressed, woman": "muhatab, kadın",
+          "the speaker": "mütekellim"
+        },
+        "caption": "Nasara'nın ma'lum mazisi (Emsile, s. 237–238)"
+      },
+      "text": [
+        "nasara “o (bir erkek) yardım etti”, nasara “o ikisi (erkek) yardım ettiler”, nasaru “onlar (erkekler) yardım ettiler”, nasarat “o (bir kadın) yardım etti”\nnasarata “o ikisi (kadın) yardım ettiler”, nasarne “onlar (kadınlar) yardım ettiler”, nasarte “sen (bir erkek) yardım ettin”, nasartüma “siz ikiniz (erkek) yardım ettiniz”\nnasartüm “siz (erkekler) yardım ettiniz”, nasarti “sen (bir kadın) yardım ettin”, nasartüma “siz ikiniz (kadın) yardım ettiniz”, nasartünne “siz (kadınlar) yardım ettiniz”\nnasartü “ben yardım ettim”, nasarna “biz yardım ettik”"
+      ]
+    },
+    "4": {
+      "title": "Meçhul mazi",
+      "body": [
+        "İkinci tablo meçhul mazidir (el-mazi'l-meçhul, “faili bilinmeyen mazi”): “yardım edildi” anlamındaki nusıra'dan “yardım edildik” anlamındaki nusırna'ya kadar. On dört yer ve sıraları ma'lumdakilerdir; yalnız kökün harekeleri değişir.",
+        "Kural kısadır: ilk harf zamme, sondan bir önceki harf kesre alır. Nasara, nusıra olur. Her bab aynı sonucu verir: darabe durıbe, fetaha fütiha, semi'a sümi'a, ketebe kütibe olur. Ma'lumun harekesi ne olursa olsun, mücerred fiilin meçhul mazisi her zaman fu'ile veznindedir. Dört harfli fiilde de aynı kural ekreme'den ükrime'yi verir.",
+        "Sonlar ma'lumdakilerle aynıdır, ama artık işe uğrayanı gösterir: nusırtü “yardım edildim”, nusıru “yardım edildiler” demektir. Nahiv bu isme ya da zamire naib-i fail der, çünkü failin yerini ve ref'ini alır.",
+        "Yalnız mef'ul alan bir fiilin on dört sigasıyla meçhulü vardır. Sarf kitapları meçhul tablolarını nasara için verir, çünkü nasara mef'ul alır ve böylece bütün vezni gösterir. “Şerefli olmak” anlamındaki kerume gibi bir fiil mef'ul almaz ve böyle bir tablosu yoktur.",
+        "Tuzak yazıdadır. Harekesiz نصرت, nasartü, nasarte, nasarti, nasarat, yani “ben, sen, sen (kadın), o (kadın) yardım etti” olabilir; ya da nusırtü, nusırte, nusırti, nusırat, yani aynı şahıslar “yardım edildi”: dört harfin sekiz okunuşu. Yalnız harekeler karar verir ve Emsile'yi sesli okuyan talebe onları duymayı öğrenir."
+      ],
+      "terms": [
+        "meçhul mazi: faili bilinmeyen",
+        "ma'lum (faili bilinen)",
+        "naib-i fail: meçhul fiilin faili yerine geçen",
+        "müteaddi: mef'ul alan fiil"
+      ],
+      "examples": [
+        "nusıra, “yardım edildi”; nusırtü, “yardım edildim”",
+        "durıbe, fütiha, sümi'a: her bab meçhul mazide fu'ile verir",
+        "ükrime, “ikram edildi”: dört harfli fiilde aynı kural"
+      ],
+      "tasks": [
+        {
+          "prompt": "Darabe'nin meçhul mazisini şu sigalar için verin: o (erkek), o (kadın), onlar (erkekler), ben, biz.",
+          "answer": "Durıbe, durıbet, durıbu, durıbtü, durıbna."
+        },
+        {
+          "prompt": "Meçhule çevirin ve tercüme edin: ketebe, nasartü, semi'u.",
+          "answer": "Kütibe, “yazıldı”; nusırtü, “yardım edildim”; sümi'u, “duyuldular”."
+        },
+        {
+          "prompt": "Meçhul mazinin kuralını bir cümleyle söyleyin ve nasara üzerinde gösterin.",
+          "answer": "İlk harf zamme, sondan bir önceki harf kesre alır: nasara → nusıra."
+        },
+        {
+          "prompt": "نصرت kelimesini Emsile'nin iki mazi tablosunun izin verdiği bütün şekillerde, anlamlarıyla okuyun.",
+          "answer": "Ma'lum: nasartü (yardım ettim), nasarte (sen, erkek, yardım ettin), nasarti (sen, kadın, yardım ettin), nasarat (o kadın yardım etti). Meçhul: nusırtü (yardım edildim), nusırte (sen, erkek, yardım edildin), nusırti (sen, kadın, yardım edildin), nusırat (o kadın yardım edildi)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Meçhul mazinin kuralı nedir?",
+          "options": [
+            "İlk harf zamme, sondan bir önceki harf kesre",
+            "İlk harf fetha, son harf sükun",
+            "İlk harf kesre, sondan bir önceki harf fetha",
+            "Başa te- öneki eklenir"
+          ],
+          "explanation": "Nasara → nusıra."
+        },
+        {
+          "prompt": "Fetaha'nın meçhul mazisi nedir?",
+          "options": [
+            "Fetaha",
+            "Fütiha",
+            "Yüftehu",
+            "Fetüha"
+          ],
+          "explanation": "Her bab meçhul mazide fu'ile verir."
+        },
+        {
+          "prompt": "Nusıru … demektir.",
+          "options": [
+            "“yardım ettiler”",
+            "“yardım edildik”",
+            "“yardım edildiler”",
+            "“yardım edin!”"
+          ],
+          "explanation": "Gaib erkeklerin -u sonuyla meçhul."
+        },
+        {
+          "prompt": "“Şerefli olmak” anlamındaki kerume'nin neden meçhul tablosu yoktur?",
+          "options": [
+            "Mu'tel bir fiildir",
+            "Mazisi yoktur",
+            "Bir isimdir",
+            "Mef'ul almaz"
+          ],
+          "explanation": "Yalnız mef'ulü olan bir fiilin tam meçhulü vardır."
+        },
+        {
+          "prompt": "Nahiv meçhul fiilin failine ne der?",
+          "options": [
+            "Naib-i fail",
+            "Fail",
+            "Mef'ulün bih",
+            "Mübteda"
+          ],
+          "explanation": "Failin yerini ve ref'ini alır."
+        },
+        {
+          "prompt": "Bunlardan hangisi meçhuldür?",
+          "options": [
+            "Semi'a",
+            "Sümi'a",
+            "Semi'tü",
+            "Semi'u"
+          ],
+          "explanation": "İlk harfte zamme, sondan önce kesre."
+        },
+        {
+          "prompt": "Harekesiz نصرت iki mazi tablosunda kaç şekilde okunur?",
+          "options": [
+            "İki",
+            "Dört",
+            "Sekiz",
+            "On dört"
+          ],
+          "explanation": "Ma'lumda dört siga, meçhulde aynı dört siga."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Active": "Ma'lum",
+          "Passive": "Meçhul",
+          "naṣara (faʿala yafʿulu)": "nasara (fe'ale yef'ulü)",
+          "ḍaraba (faʿala yafʿilu)": "darabe (fe'ale yef'ilü)",
+          "fataḥa (faʿala yafʿalu)": "fetaha (fe'ale yef'alü)",
+          "samiʿa (faʿila yafʿalu)": "semi'a (fe'ile yef'alü)",
+          "kataba": "ketebe",
+          "akrama (afʿala)": "ekreme (ef'ale)"
+        },
+        "caption": "Ma'lum mazi ve meçhul mazi"
+      },
+      "text": [
+        "nusıra “o (bir erkek) yardım edildi”, nusıra “o ikisi (erkek) yardım edildiler”, nusıru “onlar (erkekler) yardım edildiler”, nusırat “o (bir kadın) yardım edildi”\nnusırata “o ikisi (kadın) yardım edildiler”, nusırne “onlar (kadınlar) yardım edildiler”, nusırte “sen (bir erkek) yardım edildin”, nusırtüma “siz ikiniz (erkek) yardım edildiniz”\nnusırtüm “siz (erkekler) yardım edildiniz”, nusırti “sen (bir kadın) yardım edildin”, nusırtüma “siz ikiniz (kadın) yardım edildiniz”, nusırtünne “siz (kadınlar) yardım edildiniz”\nnusırtü “ben yardım edildim”, nusırna “biz yardım edildik”"
+      ]
+    },
+    "5": {
+      "title": "Ma'lum muzari",
+      "body": [
+        "Üçüncü tablo ma'lum muzaridir (el-muzariu'l-ma'lum), “yardım eder” ya da “yardım edecek”: yensuru'dan nensuru'ya kadar, aynı on dört yerde. Maziden farklı olarak muzari iki ucunda da değişir: başta bir önek ve bazı sigalarda bir son.",
+        "Önekler eneytü'nün dört harfidir. Ye-, üç sayıda da gaib erkek için ve gaib kadınlar için (yensurne). Te-, gaib kadın ve iki gaib kadın için ve her muhatab için. E-, “ben” için (ensuru), ne- “biz” için (nensuru). Böylece tensuru hem “o kadın yardım eder” hem “sen (erkek) yardım edersin” demektir; hangisi olduğunu yalnız bağlam söyler.",
+        "Sonlar: bir kişi için -u (yensuru, tensuru, ensuru, nensuru); iki kişi için -ani (yensurani, tensurani); erkeklerin cem'i için -une (yensurune, tensurune); kadınların cem'i için -ne (yensurne, tensurne); muhatab kadın için -ine (tensurine). -ani, -une ve -ine'li sigalar, nahvin ef'al-i hamsesidir; bunlar nunlarını korur ya da kaybeder; -ne'li sigaların ise sonu sabittir (mebnidir).",
+        "Tablo kendini tekrarlar: tensuru iki yeri doldurur, gaib kadını ve muhatab erkeği; tensurani üç yeri doldurur: iki gaib kadın, iki muhatab erkek ve iki muhatab kadın. Böylece on dört yer on bir ayrı kelime taşır. Tabloyu aşağıdaki çizelgede olduğu gibi üçerli beş satır olarak öğrenin; tekrarlar kolayca görünür.",
+        "İkinci asli harfin, aynü'l-fiilin harekesi şahsa değil baba aittir: yensuru (u), yadribu (i), yeftahu (a), yesme'u (a), yekrumu (u). Bir sözlüğün her fiil için verdiği tek şey budur ve sarf kitapları babları onunla adlandırır: nasara, yensuru; darabe, yadribu; ve diğerleri."
+      ],
+      "terms": [
+        "ma'lum muzari",
+        "muzaraat harfleri: eneytü",
+        "ef'al-i hamse: -ani, -une, -ine'li sigalar",
+        "aynü'l-fiil: harekesi babı gösteren ikinci asli harf"
+      ],
+      "examples": [
+        "yensuru, ensuru, nensuru, tensuru: eneytü'nün dört harfi",
+        "tensurine, “sen (kadın) yardım edersin”: te- öneki ve -ine sonu",
+        "yadribu, yeftahu, yesme'u: aynın harekesi babı izler"
+      ],
+      "tasks": [
+        {
+          "prompt": "“Vurur” anlamındaki yadribu'yu ma'lum muzaride on dört sigasıyla tasrif edin.",
+          "answer": "Yadribu, yadribani, yadribune, tadribu, tadribani, yadribne, tadribu, tadribani, tadribune, tadribine, tadribani, tadribne, adribu, nadribu."
+        },
+        {
+          "prompt": "Her siganın tabloda doldurabileceği bütün yerleri verin: tensuru; tensurani; yensurne.",
+          "answer": "Tensuru: müfred müennese gaibe, müfred müzekker muhatab. Tensurani: tesniye müennese gaibe, tesniye müzekker muhatab, tesniye müennese muhataba. Yensurne: cem' müennese gaibe."
+        },
+        {
+          "prompt": "“Duymak” anlamındaki semi'a'nın muzarisini şu sigalar için verin: o (erkek), o (kadın), sen (kadın), biz.",
+          "answer": "Yesme'u, tesme'u, tesme'ine, nesme'u."
+        },
+        {
+          "prompt": "Tablonun hangi sigaları ef'al-i hamsedir, hangilerinin sonu sabittir?",
+          "answer": "Ef'al-i hamse: yensurani, tensurani, yensurune, tensurune, tensurine. Sonu sabit olanlar: nisa nunuyla yensurne ve tensurne."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Muzaride “biz”i hangi önek gösterir?",
+          "options": [
+            "E-",
+            "Ne-",
+            "Ye-",
+            "Te-"
+          ],
+          "explanation": "Nensuru, “yardım ederiz”."
+        },
+        {
+          "prompt": "Tensuru … demek olabilir.",
+          "options": [
+            "yalnız “yardım edersin”",
+            "yalnız “o kadın yardım eder”",
+            "“o kadın yardım eder” ya da “sen (erkek) yardım edersin”",
+            "“onlar yardım eder”"
+          ],
+          "explanation": "Te- gaib kadına ve muhatab erkeğe hizmet eder."
+        },
+        {
+          "prompt": "Yensurne … demektir.",
+          "options": [
+            "“siz (kadınlar) yardım edersiniz”",
+            "“onlar (erkekler) yardım eder”",
+            "“o ikisi yardım eder”",
+            "“onlar (kadınlar) yardım eder”"
+          ],
+          "explanation": "-ne sonuyla ye-: cem' müennese gaibe."
+        },
+        {
+          "prompt": "Muzaride babları birbirinden ne ayırır?",
+          "options": [
+            "Aynın harekesi",
+            "Önek",
+            "Son",
+            "Harf sayısı"
+          ],
+          "explanation": "Yensuru, yadribu, yeftahu: u, i, a."
+        },
+        {
+          "prompt": "Tensurani tablonun kaç yerini doldurur?",
+          "options": [
+            "Bir",
+            "Üç",
+            "İki",
+            "Dört"
+          ],
+          "explanation": "İki gaib kadın, iki muhatab erkek, iki muhatab kadın."
+        },
+        {
+          "prompt": "“Sen (kadın) yardım edersin” sigası hangisidir?",
+          "options": [
+            "Tensuru",
+            "Tensurne",
+            "Tensurine",
+            "Yensurne"
+          ],
+          "explanation": "-ine sonuyla te-."
+        },
+        {
+          "prompt": "Bunlardan hangisi ef'al-i hamseden değildir?",
+          "options": [
+            "Yensurani",
+            "Tensurune",
+            "Tensurine",
+            "Yensurne"
+          ],
+          "explanation": "Yensurne'de nisa nunu vardır ve sonu sabittir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Person": "Şahıs",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Many": "Cem'",
+          "absent, man": "gaib, erkek",
+          "absent, woman": "gaib, kadın",
+          "addressed, man": "muhatab, erkek",
+          "addressed, woman": "muhatab, kadın",
+          "the speaker": "mütekellim"
+        },
+        "caption": "Nasara'nın ma'lum muzarisi (Emsile, s. 238–239)"
+      },
+      "text": [
+        "yensuru “o (bir erkek) yardım eder”, yensurani “o ikisi (erkek) yardım ederler”, yensurune “onlar (erkekler) yardım ederler”, tensuru “o (bir kadın) yardım eder”\ntensurani “o ikisi (kadın) yardım ederler”, yensurne “onlar (kadınlar) yardım ederler”, tensuru “sen (bir erkek) yardım edersin”, tensurani “siz ikiniz (erkek) yardım edersiniz”\ntensurune “siz (erkekler) yardım edersiniz”, tensurine “sen (bir kadın) yardım edersin”, tensurani “siz ikiniz (kadın) yardım edersiniz”, tensurne “siz (kadınlar) yardım edersiniz”\nensuru “ben yardım ederim”, nensuru “biz yardım ederiz”"
+      ]
+    },
+    "6": {
+      "title": "Meçhul muzari",
+      "body": [
+        "Dördüncü tablo meçhul muzaridir: “yardım edilir” anlamındaki yunsaru'dan “yardım ediliriz” anlamındaki nunsaru'ya kadar. Önekler ve sonlar ma'lum muzarininkilerdir; yalnız iki hareke değişir.",
+        "Kural: ilk harf, yani önek, zamme alır ve sondan bir önceki harf fetha alır. Yensuru, yunsaru olur; tensurune, tunsarune olur; ensuru, unsaru olur. Meçhul mazide olduğu gibi her bab aynı sonucu verir: yudrabu, yuftahu, yusme'u, yuktebu. Mücerred fiilin meçhul muzarisi her zaman yuf'alu veznindedir.",
+        "Dört harfli fiilde önek ma'lumda zaten zammelidir (yukrimu); bu yüzden onları yalnız ikinci hareke ayırır: “ikram eder” anlamındaki yukrimu ile “ikram edilir” anlamındaki yukramu. Bu tek hareke, yapmak ile maruz kalmak arasındaki bütün farktır ve harekesiz yazıda kaybolur.",
+        "Öğrendiğiniz dört tabloyu yan yana koyun, sistem ortaya çıkar: mazi ve muzari, her biri ma'lum ve meçhul. Nusıra ile yunsaru, meçhulün alameti olan ilk harfteki zammeyi paylaşır; nusıra'da sondan önceki harf kesreli, yunsaru'da fethalıdır. Kitabın geri kalanı bu dört tablo üzerine kurulur: nefyler, emirler ve nehyler ma'lum ve meçhul muzariden yapılır."
+      ],
+      "terms": [
+        "meçhul muzari",
+        "yuf'alu: mücerred fiilin meçhul muzarisinin vezni",
+        "fu'ile: mücerred fiilin meçhul mazisinin vezni"
+      ],
+      "examples": [
+        "yunsaru, “yardım edilir”; nunsaru, “yardım ediliriz”",
+        "yudrabu, yuftahu, yusme'u: her bab yuf'alu verir",
+        "yukrimu, “ikram eder”; yukramu, “ikram edilir”: bir hareke farkla"
+      ],
+      "tasks": [
+        {
+          "prompt": "Ketebe'nin meçhul muzarisini on dört sigasıyla verin.",
+          "answer": "Yuktebu, yuktebani, yuktebune, tüktebu, tüktebani, yuktebne, tüktebu, tüktebani, tüktebune, tüktebine, tüktebani, tüktebne, uktebu, nüktebu."
+        },
+        {
+          "prompt": "Ma'lum mü, meçhul mü? Tercüme edin: yunsarune, tensurine, yukramu, udrabu.",
+          "answer": "Yunsarune: meçhul, “yardım edilirler”. Tensurine: ma'lum, “sen (kadın) yardım edersin”. Yukramu: meçhul, “ikram edilir”. Udrabu: meçhul, “vurulurum”."
+        },
+        {
+          "prompt": "Meçhul muzarinin kuralını söyleyin ve yeftahu üzerinde gösterin.",
+          "answer": "Önek zamme, sondan bir önceki harf fetha alır: yeftahu → yuftahu, “açılır”."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Meçhul muzarinin kuralı nedir?",
+          "options": [
+            "Önek fethalı, sondan önceki harf kesreli",
+            "Önek kesreli, son harf sakin",
+            "Önek zammeli, sondan önceki harf fethalı",
+            "Değişme yok"
+          ],
+          "explanation": "Yensuru → yunsaru."
+        },
+        {
+          "prompt": "Yadribu'nun meçhul muzarisi …",
+          "options": [
+            "Yudribu",
+            "Yadrabu",
+            "Durıbe",
+            "Yudrabu"
+          ],
+          "explanation": "Her bab yuf'alu verir."
+        },
+        {
+          "prompt": "Yukrimu ile yukramu … ayrılır.",
+          "options": [
+            "sondan önceki harfin harekesinde",
+            "önekte",
+            "kökte",
+            "sonda"
+          ],
+          "explanation": "Kesre: ikram eder; fetha: ikram edilir."
+        },
+        {
+          "prompt": "Nunsaru … demektir.",
+          "options": [
+            "“yardım ederiz”",
+            "“yardım ediliriz”",
+            "“yardım edilirim”",
+            "“yardım edilirler”"
+          ],
+          "explanation": "Zammeli ne- ve sondan önceki harfte fetha."
+        },
+        {
+          "prompt": "Nusıra ile yunsaru hangi alameti paylaşır?",
+          "options": [
+            "Sondan önceki harfteki kesreyi",
+            "Ye- önekini",
+            "İlk harfteki zammeyi",
+            "-u sonunu"
+          ],
+          "explanation": "İlk harfteki zamme ikisinde de meçhulü gösterir."
+        },
+        {
+          "prompt": "Hangisi ma'lumdur?",
+          "options": [
+            "Yusme'u",
+            "Tüsme'ine",
+            "Nüsme'u",
+            "Yesme'u"
+          ],
+          "explanation": "Önekte fetha: ma'lum."
+        },
+        {
+          "prompt": "Nefyler, emirler ve nehyler hangi tablolardan yapılır?",
+          "options": [
+            "Ma'lum ve meçhul muzariden",
+            "Yalnız maziden",
+            "Masdardan",
+            "İsm-i fail ve ism-i mef'ulden"
+          ],
+          "explanation": "Lem yensur, len yunsara, li-yensur: hepsi muzariden."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Active": "Ma'lum",
+          "Passive": "Meçhul",
+          "naṣara": "nasara",
+          "ḍaraba": "darabe",
+          "fataḥa": "fetaha",
+          "samiʿa": "semi'a",
+          "kataba": "ketebe",
+          "akrama": "ekreme"
+        },
+        "caption": "Ma'lum muzari ve meçhul muzari"
+      },
+      "text": [
+        "yunsaru “o (bir erkek) yardım edilir”, yunsarani “o ikisi (erkek) yardım edilirler”, yunsarune “onlar (erkekler) yardım edilirler”, tunsaru “o (bir kadın) yardım edilir”\ntunsarani “o ikisi (kadın) yardım edilirler”, yunsarne “onlar (kadınlar) yardım edilirler”, tunsaru “sen (bir erkek) yardım edilirsin”, tunsarani “siz ikiniz (erkek) yardım edilirsiniz”\ntunsarune “siz (erkekler) yardım edilirsiniz”, tunsarine “sen (bir kadın) yardım edilirsin”\ntunsarani “siz ikiniz (kadın) yardım edilirsiniz”, tunsarne “siz (kadınlar) yardım edilirsiniz”, unsaru “ben yardım edilirim”, nunsaru “biz yardım ediliriz”"
+      ]
+    },
+    "7": {
+      "title": "Masdar",
+      "body": [
+        "Masdar, işin kendisini failsiz ve zamansız adlandırır: nasr, “yardım etmek, yardım”. Kitap onu üç sigada verir: nasran, nasrani, nasaratün: bir, iki ve çok. Başlık ona “mimi olmayan masdar” der; böylece onu, daha sonra ism-i zaman ve ism-i mekanla birlikte gelen, mimle başlayan masdardan, mensar'dan ayırır.",
+        "Bir işin tesniyesi ve cem'i neden? Masdar tek başına yardımı kendisi olarak adlandırır ve böyle olunca sayısı yoktur. Tesniye ya da cem' yapıldığında yardımın çeşitlerini ya da örneklerini adlandırır: “iki yardım”, “yardımlar”. Baskı cem'de sad'ı fethayla harekeler: nasarat.",
+        "Emsile-i muhtelifenin okunuşunda masdar mansub olarak nasran'dır: nasara, yensuru, nasran. Şerhler onu önündeki fiilin mef'ul-i mutlakı diye açıklar: “bir yardımla yardım etti”. Kendi tablosunda bu nasbı yalnız ilk kelime korur; tesniye ve cem' düz isimler olarak verilir.",
+        "Mücerred fiilin masdarı kuralla değil, işitilerek öğrenilir (semai). Acurrumiyye'nin örneklerinin gösterdiği gibi nasara'nın nasr'ı, darabe'nin darb'ı, katele'nin katl'i vardır, ama diğer fiillerin başka kalıpları vardır ve onları lügat verir. Bu yüzden tasrif aracı mücerred fiilin masdarını boş bırakır. Mezid fiillerin masdarları düzenlidir: ekreme, ikram; Bina ve İzzi bunların vezinlerini verir."
+      ],
+      "terms": [
+        "masdar: işin kendisi",
+        "masdar-ı mimi: mimli masdar, mensar",
+        "semai: kuralla değil, işitilerek öğrenilen",
+        "kıyasi: kuralla yapılan"
+      ],
+      "examples": [
+        "nasran, nasrani, nasaratün: bir, iki ve çok sayıda masdar",
+        "darabe, yadribu, darban: başka bir mücerred fiil, başka bir masdar",
+        "ekreme, ikramün: dört harfli fiilin düzenli masdarı"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nasara'nın masdarını bir, iki ve çok sayıda verin ve tercüme edin.",
+          "answer": "Nasr (yardım etmek), nasrani (iki yardım), nasarat (yardımlar)."
+        },
+        {
+          "prompt": "Tasrif aracı neden ekreme için bir masdar verir de nasara için vermez?",
+          "answer": "Mücerred fiilin masdarı semaidir, işitilerek bilinir (nasr, darb, katl…); dört harfli ekreme fiilinin ise bir kuralın yapabileceği düzenli bir masdarı vardır: ikram."
+        },
+        {
+          "prompt": "Nasara, yensuru, nasran okunuşunda nasran neden mansubdur?",
+          "answer": "Şerhler onu fiilin mef'ul-i mutlakı olarak okur: “bir yardımla yardım etti”."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Masdar neyi adlandırır?",
+          "options": [
+            "Faili",
+            "İşin yerini",
+            "İşe uğrayanı",
+            "Failsiz ve zamansız olarak işin kendisini"
+          ],
+          "explanation": "Nasr: yardım etmek."
+        },
+        {
+          "prompt": "Başlık neden “mimi olmayan” der?",
+          "options": [
+            "Onu mimli masdardan, mensar'dan ayırmak için",
+            "Çünkü nasr'ın kökünde mim yoktur",
+            "Çünkü bir fiildir",
+            "Çünkü cem'dir"
+          ],
+          "explanation": "Mensar daha sonra, ism-i zaman ve ism-i mekanla gelir."
+        },
+        {
+          "prompt": "Nasarat cem'i neyi adlandırır?",
+          "options": [
+            "Yardım edenleri",
+            "Yardımın örneklerini ya da çeşitlerini",
+            "Yardım yerlerini",
+            "Yardım eden kadınları"
+          ],
+          "explanation": "Cem' yapılan bir masdar işin çeşitlerini ya da örneklerini adlandırır."
+        },
+        {
+          "prompt": "Mücerred fiilin masdarı …",
+          "options": [
+            "her zaman fa'l veznindedir",
+            "her zaman fi'al veznindedir",
+            "işitilerek öğrenilir (semai)",
+            "tasrif aracıyla yapılır"
+          ],
+          "explanation": "Nasr, darb, katl: her birini lügat verir."
+        },
+        {
+          "prompt": "Ekreme'nin masdarı nedir?",
+          "options": [
+            "Kerem",
+            "Mükram",
+            "Ekrem",
+            "İkram"
+          ],
+          "explanation": "Dört harfli fiilin düzenli bir masdarı vardır."
+        },
+        {
+          "prompt": "Bunlardan hangisi masdardır?",
+          "options": [
+            "Nasr",
+            "Nasır",
+            "Mensur",
+            "Yensuru"
+          ],
+          "explanation": "Nasır ve mensur ism-i fail ve ism-i mef'uldür; yensuru bir fiildir."
+        },
+        {
+          "prompt": "Nasara, yensuru, nasran okunuşunda nasran … diye açıklanır.",
+          "options": [
+            "hal",
+            "fiilin mef'ul-i mutlakı",
+            "fail",
+            "temyiz"
+          ],
+          "explanation": "“Bir yardımla yardım etti”."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Nouns of the act": "İşin isimleri",
+          "the maṣdar": "masdar",
+          "the maṣdar mīmī": "masdar-ı mimi",
+          "one act (marra)": "tek iş (merre)",
+          "manner (nawʿ)": "tarz (nev')"
+        },
+        "caption": "Nasara üzerinde işi adlandırmanın dört yolu; diğer üçü altıncı kısımda gelir."
+      },
+      "text": [
+        "nasran “yardım etmek”, nasrani “iki yardım”, nasaratün “yardımlar”"
+      ]
+    },
+    "8": {
+      "title": "İsm-i fail",
+      "body": [
+        "İsm-i fail (ismü'l-fail, “failin ismi”) işi yapanı adlandırır ya da vasfeder: nasır, “yardım eden, yardımcı”. Mücerred fiilde vezni faildir: ilk harften sonra bir elif ve ikinci harfin altında bir kesre. Okunuşta fe hüve nasırun, “öyleyse o yardım edendir” şeklindedir.",
+        "Tablo onu bütün sayılarında ve iki cinsiyette verir. Müzekker: nasır, tesniyesi nasırani, cem'-i salimi nasırune ve üç cem'-i mükesser: nussar, nussar ve nasara [cem']. Müennes: nasıra, nasıratani, nasırat ve cem'-i mükesser nevasır. Baskının bazı cem'-i mükesserlerin önüne koyduğu vav (ve nussarun, ve nasaratun, ve nevasıru), bunların aynı kelimenin başka cem'leri olduğunu gösterir.",
+        "Cem'-i salimler kuralla yapılır; cem'-i mükesserler ise Arapçada her zaman olduğu gibi öğrenilir. Emsile erkekler için üç vezin verir: fu''al [elifle], fu''al ve fe'ale; kadınlar için bir vezin: feva'il. İzzi ve Merahu'l-ervah bunlara geri döner.",
+        "Her sahih mücerred fiil için ism-i fail fail veznindedir: darib (vuran), fatih (açan), sami' (duyan), katib (yazan). Mezid fiillerde mü- ile başlar ve son harften önce kesre vardır: ekreme'den mükrim, “ikram eden” gelir. Nahiv, ism-i failin fiili gibi amel edebileceğini ekler: nasırun Zeyden, “Zeyd'e yardım eden”; Zeyd onun mef'ulüdür.",
+        "Tablonun bir tuzağı: üçüncü cem'-i mükesser olan nasara, “yardımcılar”, “yardım etti” anlamındaki nasara fiiliyle tam olarak aynı yazılır ve harekelenir. Yalnız cümledeki yeri ve tenvini (nasaratun) onun isim olduğunu gösterir."
+      ],
+      "terms": [
+        "ism-i fail: işi yapan",
+        "fail: mücerred fiildeki vezni",
+        "cem'-i salim: kuralla yapılan cem'",
+        "cem'-i mükesser: kelime kelime öğrenilen cem'"
+      ],
+      "examples": [
+        "nasırun, nasırani, nasırune: yardım eden bir, iki ve çok erkek",
+        "nasıratün, yardım eden bir kadın; nevasıru, onun cem'-i mükesseri",
+        "daribün, fatihun, sami'un: her babda fail",
+        "mükrimün, “ikram eden”: dört harfli fiilin ism-i faili"
+      ],
+      "tasks": [
+        {
+          "prompt": "Ketebe, celese, fetaha ve ekreme'nin ism-i failini verin.",
+          "answer": "Katib, calis, fatih, mükrim."
+        },
+        {
+          "prompt": "Katib'in müennesini, tesniyesini ve cem'-i salimini verin.",
+          "answer": "Katibe (müennes), katibani (tesniye), katibune (cem'-i müzekker-i salim) ve kadınlar için katibat."
+        },
+        {
+          "prompt": "Tablodaki her cem'-i mükesserin veznini söyleyin: nussar [elifle], nussar, nasara, nevasır.",
+          "answer": "Nussar [elifle]: fu''al [elifle]. Nussar: fu''al. Nasara: fe'ale. Nevasır: feva'il (müennes nasıra'nın cem'i)."
+        },
+        {
+          "prompt": "“Yardımcılar” anlamındaki nasaratun cem'ini “o kadın yardım etti” anlamındaki nasarat fiilinden nasıl ayırırsınız?",
+          "answer": "İsimde tenvin ve yuvarlak te vardır (nasaratun) ve isim, ismin bulunduğu yerde durur; fiil ise te'nis alameti olan sakin bir te ile biter (nasarat) ve bir faili vardır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İsm-i fail neyi adlandırır?",
+          "options": [
+            "İşi yapanı",
+            "İşin kendisine yapılanı",
+            "İşin kendisini",
+            "İşin yerini"
+          ],
+          "explanation": "Nasır: yardım eden."
+        },
+        {
+          "prompt": "Mücerred fiilin ism-i failinin vezni nedir?",
+          "options": [
+            "Mef'ul",
+            "Fail",
+            "Fe'il",
+            "Müf'il"
+          ],
+          "explanation": "Nasır, darib, katib."
+        },
+        {
+          "prompt": "Tabloda nasır'ın cem'-i mükesseri hangisidir?",
+          "options": [
+            "Nasırune",
+            "Nasırani",
+            "Nussar",
+            "Mensurune"
+          ],
+          "explanation": "Verilen cem'-i mükesserler nussar [elifle], nussar ve nasara'dır."
+        },
+        {
+          "prompt": "Ekreme'nin ism-i faili nedir?",
+          "options": [
+            "Mükram",
+            "Karim",
+            "İkram",
+            "Mükrim"
+          ],
+          "explanation": "Mü- ve son harften önce kesre; mükram ism-i mef'uldür."
+        },
+        {
+          "prompt": "Nevasır … cem'idir.",
+          "options": [
+            "müennes nasıra'nın",
+            "yalnız müzekker nasır'ın",
+            "mensur'un",
+            "nasr'ın"
+          ],
+          "explanation": "Tablo onu kadınlar satırında verir."
+        },
+        {
+          "prompt": "Baskıda bazı cem'lerin önündeki vav ne demektir?",
+          "options": [
+            "Fiil olduklarını",
+            "Aynı kelimenin başka cem'leri olduklarını",
+            "Tesniye olduklarını",
+            "Kasem vavı olduğunu"
+          ],
+          "explanation": "Ve nussarun, ve nasaratun: “ve ayrıca…”."
+        },
+        {
+          "prompt": "“Yardımcılar” anlamındaki nasara cem'i … benzer.",
+          "options": [
+            "nasr masdarına",
+            "yensuru muzarisine",
+            "nasara mazi fiiline",
+            "nusıra meçhulüne"
+          ],
+          "explanation": "Onun isim olduğunu yalnız tenvini ve cümledeki yeri gösterir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Gender": "Cinsiyet",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Sound plural": "Cem'-i salim",
+          "Broken plurals": "Cem'-i mükesserler",
+          "man": "erkek",
+          "woman": "kadın"
+        },
+        "caption": "Nasara'nın ism-i faili (Emsile, s. 240)"
+      },
+      "text": [
+        "nasırun “yardım eden (bir erkek)”, nasırani “yardım eden iki erkek”, nasırune “yardım eden erkekler”, nussarun “yardım edenler (cem'-i mükesser)”\nve nussarun “yardım edenler (cem'-i mükesser)”, ve nasaratun “yardım edenler (cem'-i mükesser)”, nasıratun “yardım eden (bir kadın)”, nasıratani “yardım eden iki kadın”\nnasıratün “yardım eden kadınlar”, ve nevasıru “yardım eden kadınlar (cem'-i mükesser)”"
+      ]
+    },
+    "9": {
+      "title": "İsm-i mef'ul",
+      "body": [
+        "İsm-i mef'ul (ismü'l-mef'ul, “işe uğrayanın ismi”) işin kendisine yapıldığı kişiyi adlandırır ya da vasfeder: mensur, “yardım edilmiş, yardım edilen”. Mücerred fiilde vezni mef'uldür: kökten önce bir mim ve son harften önce uzun bir u. Okunuşta ve zake mensurun, “şu da yardım edilendir” şeklindedir.",
+        "Tablo erkekler için mensur, mensurani, mensurune, kadınlar için mensura, mensuratani, mensurat ve bir cem'-i mükesser verir: menasır (mefa'il). İsm-i failin tablosundan kısadır: ism-i mef'ul çoğunlukla kuralla cem' yapılır.",
+        "Her sahih mücerred fiil için vezin aynıdır: madrub (vurulmuş), meftuh (açılmış), mesmu' (duyulmuş), mektub (yazılmış). Mezid fiillerde ism-i fail gibi mü- ile başlar, ama son harften önce fetha vardır: “ikram eden” anlamındaki mükrim'e karşı “ikram edilmiş” anlamındaki mükram. Yukrimu ile yukramu'da olduğu gibi, yine tek bir hareke faili işe uğrayandan ayırır.",
+        "Meçhul fiillerde olduğu gibi, yalnız mef'ulü olan bir fiilin kendine ait bir ism-i mef'ulü vardır. Bir de yeni başlayanın tuzağı: mektub aynı zamanda “mektup” demektir, Mansur da bir erkek adıdır. İsm-i mef'ul kolayca sıradan bir isim olur; sarf onun sigasını adlandırır, cümle de kullanımını gösterir."
+      ],
+      "terms": [
+        "ism-i mef'ul: işe uğrayan",
+        "mef'ul: mücerred fiildeki vezni",
+        "müf'al: ef'ale fiilindeki vezni, mükram"
+      ],
+      "examples": [
+        "mensurun, mensurani, mensurune: yardım edilen bir, iki ve çok erkek",
+        "madrubün, meftuhun, mesmu'un: her babda mef'ul",
+        "mükrimün, ikram eden; mükramün, ikram edilmiş: bir hareke farkla"
+      ],
+      "tasks": [
+        {
+          "prompt": "Ketebe, fetaha, darabe ve ekreme'nin ism-i mef'ulünü verin.",
+          "answer": "Mektub, meftuh, madrub, mükram."
+        },
+        {
+          "prompt": "Nasara'nın ism-i mef'ul tablosunu ezberden verin: erkekler için üç siga, kadınlar için üç siga ve cem'-i mükesser.",
+          "answer": "Mensur, mensurani, mensurune; mensura, mensuratani, mensurat; menasır."
+        },
+        {
+          "prompt": "İsm-i fail mi, ism-i mef'ul mü? Tercüme edin: mesmu', mükrim, fatih, mükram.",
+          "answer": "Mesmu': ism-i mef'ul, “duyulmuş”. Mükrim: ism-i fail, “ikram eden”. Fatih: ism-i fail, “açan”. Mükram: ism-i mef'ul, “ikram edilmiş”."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İsm-i mef'ul neyi adlandırır?",
+          "options": [
+            "Faili",
+            "İşin kendisine yapılanı",
+            "İşin kendisini",
+            "Aleti"
+          ],
+          "explanation": "Mensur: yardım edilmiş."
+        },
+        {
+          "prompt": "Mücerred fiilde vezni nedir?",
+          "options": [
+            "Fail",
+            "Mef'al",
+            "Mef'ul",
+            "Fu'ayl"
+          ],
+          "explanation": "Mensur, madrub, mektub."
+        },
+        {
+          "prompt": "Mükram ile mükrim … ayrılır.",
+          "options": [
+            "ilk harfte",
+            "kökte",
+            "harf sayısında",
+            "sondan önceki harfin harekesinde"
+          ],
+          "explanation": "Fetha: ikram edilmiş; kesre: ikram eden."
+        },
+        {
+          "prompt": "Tablo mensur için hangi cem'-i mükesseri verir?",
+          "options": [
+            "Menasır",
+            "Nussar",
+            "Nevasır",
+            "Ensar"
+          ],
+          "explanation": "Mefa'il: menasır."
+        },
+        {
+          "prompt": "Hangi fiilin kendine ait bir ism-i mef'ulü olamaz?",
+          "options": [
+            "Her mücerred fiilin",
+            "Mef'ul almayan fiilin",
+            "Her dört harfli fiilin",
+            "Nasara'nın"
+          ],
+          "explanation": "Meçhul fiillerde olduğu gibi."
+        },
+        {
+          "prompt": "Fetaha'nın ism-i mef'ulü nedir?",
+          "options": [
+            "Fatih",
+            "Miftah",
+            "Meftuh",
+            "Fütiha"
+          ],
+          "explanation": "Mef'ul: “açılmış”."
+        },
+        {
+          "prompt": "Okunuşta mensurun'dan önce hangi sözler gelir?",
+          "options": [
+            "Fe hüve, “öyleyse o”",
+            "Lem",
+            "Len",
+            "Ve zake, “şu da”"
+          ],
+          "explanation": "Fe hüve nasırun ve zake mensurun."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Active participle": "İsm-i fail",
+          "Passive participle": "İsm-i mef'ul"
+        },
+        "caption": "Altı fiilin ism-i fail ve ism-i mef'ulü"
+      },
+      "text": [
+        "mensurun “yardım edilen (bir erkek)”, mensurani “yardım edilen iki erkek”, mensurune “yardım edilen erkekler”, mensuratun “yardım edilen (bir kadın)”\nmensuratani “yardım edilen iki kadın”, mensuratün “yardım edilen kadınlar”, ve menasıru “yardım edilenler (cem'-i mükesser)”"
+      ]
+    },
+    "10": {
+      "title": "Cahd-ı mutlak: lem",
+      "body": [
+        "Nefyler lem ile başlar: lem yensur, “yardım etmedi”. Lem'den sonra muzari gelir, ama lem onun anlamını maziye çevirir ve fiili meczum yapar. Osmanlı kitapları bu sigaya cahd-ı mutlak (el-cahdü'l-mutlak) der: iş geçmişte nefyedilir ve ne zaman olduğuna dair bir sınır konmaz.",
+        "Tablo, her siganın önüne lem konmuş muzari tablosudur ve sonlarda üç şey olur. Müfred sigalar -u'larını kaybeder ve sükunla biter: lem yensur, lem tensur, lem ensur, lem nensur. Ef'al-i hamse nunlarını kaybeder: lem yensura [tesniye], lem yensuru, lem tensuri. Kadınların sigaları hiç değişmeyen -ne'lerini korur: lem yensurne, lem tensurne.",
+        "Meçhul tablo (s. 241–242) aynısını meçhul muzariyle yapar: lem yunsar, “yardım edilmedi”, lem yunsaru, “yardım edilmediler”, lem unsar, “yardım edilmedim”. Zammeli önek, son harften önce fetha ve cezmin sonları.",
+        "Aynısı her sahih fiil için geçerlidir: lem yadrib, lem yektüb, lem yesme', lem yadribu. Yeni başlayan bazen lem'i mazinin önüne koyar: lem nasara; bu yanlıştır. Lem her zaman muzari sigasını alır ve geçmiş anlamı lem'in kendisinden gelir. Mazi sigasıyla nefyetmek için ma nasara, “yardım etmedi” denir; Emsile bunu öğretmez."
+      ],
+      "terms": [
+        "cahd-ı mutlak: muzariyle lem, anlamca geçmiş",
+        "lem: geçmişi nefyeden ve fiili meczum yapan harf",
+        "cezm: fiilin sükunla ya da nunun düşmesiyle olan i'rabı",
+        "nunun hazfı: ef'al-i hamsenin nununun düşmesi"
+      ],
+      "examples": [
+        "lem yensur, lem yensuru, lem yensurne: sükun, düşen nun, korunan -ne",
+        "lem yunsar, “yardım edilmedi”: lem ile meçhul",
+        "lem yadrib, lem yektüb, lem yesme': her babda aynı kural"
+      ],
+      "tasks": [
+        {
+          "prompt": "Yadribu'nun önüne on dört sigada lem koyun.",
+          "answer": "Lem yadrib, lem yadriba, lem yadribu, lem tadrib, lem tadriba, lem yadribne, lem tadrib, lem tadriba, lem tadribu, lem tadribi, lem tadriba, lem tadribne, lem adrib, lem nadrib."
+        },
+        {
+          "prompt": "Her birinin önüne lem koyun ve sona ne olduğunu söyleyin: tektübine, yektübune, yektübne, ektübü.",
+          "answer": "Lem tektübi ve lem yektübu: nun düşer. Lem yektübne: kadınların -ne'si kalır. Lem ektüb: -u sükuna döner."
+        },
+        {
+          "prompt": "Meçhul tablodan Arapça söyleyin: “yardım edilmedi”, “yardım edilmediler (erkekler)”, “yardım edilmedim”.",
+          "answer": "Lem yunsar, lem yunsaru, lem unsar."
+        },
+        {
+          "prompt": "Bir talebe “yardım etmedi” için lem nasara yazıyor. Onu düzeltin ve açıklayın.",
+          "answer": "Lem yensur. Lem her zaman muzari sigasını alır ve ona geçmiş anlamı verir; ondan sonraki fiil meczumdur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Lem muzari fiile ne yapar?",
+          "options": [
+            "Onu istikbale çevirir ve mansub yapar",
+            "Sonuna hiçbir şey yapmaz",
+            "Onu maziye çevirir ve meczum yapar",
+            "Onu emir yapar"
+          ],
+          "explanation": "Lem yensur: “yardım etmedi”."
+        },
+        {
+          "prompt": "Osmanlı kitapları lem yensur'a ne der?",
+          "options": [
+            "Cahd-ı müstağrak",
+            "Nefy-i hal",
+            "Te'kid-i nefy-i istikbal",
+            "Cahd-ı mutlak"
+          ],
+          "explanation": "Geçmiş, ne zaman olduğuna sınır konmadan nefyedilir."
+        },
+        {
+          "prompt": "Lem yensuru, yensurune'den gelir. Ne oldu?",
+          "options": [
+            "Nun düştü",
+            "Vav düştü",
+            "Hiçbir şey",
+            "Bir sükun eklendi"
+          ],
+          "explanation": "Ef'al-i hamse, nunun düşmesiyle meczum olur."
+        },
+        {
+          "prompt": "Lem'den sonra yensurne'ye ne olur?",
+          "options": [
+            "Nun düşer",
+            "Hiçbir şey: kadınların -ne'si kalır",
+            "Fetha alır",
+            "Yensur olur"
+          ],
+          "explanation": "Nisa nunlu sigalar hiç değişmez."
+        },
+        {
+          "prompt": "“Yardım edilmedi” …",
+          "options": [
+            "Lem yensur",
+            "Lem nusıra",
+            "Lem yunsar",
+            "Len yunsara"
+          ],
+          "explanation": "Lem ile meczum meçhul muzari."
+        },
+        {
+          "prompt": "“Yazmadım” için hangisi doğrudur?",
+          "options": [
+            "Lem ketebtü",
+            "Lem ektübü",
+            "Len ektübe",
+            "Lem ektüb"
+          ],
+          "explanation": "Mütekellimin muzarisiyle lem, meczum."
+        },
+        {
+          "prompt": "Emsile'nin lem ile nefyi ma nasara'dan nasıl ayrılır?",
+          "options": [
+            "Lem muzari sigasını kullanır; ma burada mazi sigasını",
+            "Lem istikbal içindir",
+            "Ma fiili meczum yapar",
+            "Sigada fark yoktur"
+          ],
+          "explanation": "İkisi de geçmişi nefyeder; Emsile'nin öğrettiği siga lem yensur'dur."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Person": "Şahıs",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Many": "Cem'",
+          "absent, man": "gaib, erkek",
+          "absent, woman": "gaib, kadın",
+          "addressed, man": "muhatab, erkek",
+          "addressed, woman": "muhatab, kadın",
+          "the speaker": "mütekellim"
+        },
+        "caption": "Nasara'nın cahd-ı mutlakı, ma'lum (Emsile, s. 241)"
+      },
+      "text": [
+        "lem yensur “o (bir erkek) yardım etmedi”, lem yensura “o ikisi (erkek) yardım etmediler”, lem yensuru “onlar (erkekler) yardım etmediler”, lem tensur “o (bir kadın) yardım etmedi”\nlem tensura “o ikisi (kadın) yardım etmediler”, lem yensurne “onlar (kadınlar) yardım etmediler”, lem tensur “sen (bir erkek) yardım etmedin”, lem tensura “siz ikiniz (erkek) yardım etmediniz”\nlem tensuru “siz (erkekler) yardım etmediniz”, lem tensuri “sen (bir kadın) yardım etmedin”, lem tensura “siz ikiniz (kadın) yardım etmediniz”, lem tensurne “siz (kadınlar) yardım etmediniz”\nlem ensur “ben yardım etmedim”, lem nensur “biz yardım etmedik”",
+        "lem yunsar “o (bir erkek) yardım edilmedi”, lem yunsara “o ikisi (erkek) yardım edilmediler”, lem yunsaru “onlar (erkekler) yardım edilmediler”, lem tunsar “o (bir kadın) yardım edilmedi”\nlem tunsara “o ikisi (kadın) yardım edilmediler”, lem yunsarne “onlar (kadınlar) yardım edilmediler”, lem tunsar “sen (bir erkek) yardım edilmedin”, lem tunsara “siz ikiniz (erkek) yardım edilmediniz”\nlem tunsaru “siz (erkekler) yardım edilmediniz”, lem tunsari “sen (bir kadın) yardım edilmedin”, lem tunsara “siz ikiniz (kadın) yardım edilmediniz”, lem tunsarne “siz (kadınlar) yardım edilmediniz”\nlem unsar “ben yardım edilmedim”, lem nunsar “biz yardım edilmedik”"
+      ]
+    },
+    "11": {
+      "title": "Cahd-ı müstağrak: lemma",
+      "body": [
+        "İkinci nefy lemma'dır: lemma yensur, “henüz yardım etmedi”. Sigaları tam olarak lem'inkilerdir, meczum muzari: lemma yensur, lemma yensuru, lemma yensurne, meçhulde de lemma yunsar. Yalnız anlamı farklıdır.",
+        "Osmanlı kitapları ona cahd-ı müstağrak (el-cahdü'l-müstağrak) der: konuşma anına kadar bütün geçmişi kapsar ve işin yine olabileceğine kapıyı açık bırakır. Lem yensur kapanmış bir geçmişten söz edebilir (“o gün yardım etmedi”); lemma yensur ise “şimdiye kadar yardım etmedi ve bu beklenir” der.",
+        "Kur'an bu anlamı gösterir: ve lemma yedhuli'l-imanü fi kulubiküm, “iman henüz kalplerinize girmedi” (Hucurat 49/14). İman şimdiye kadar girmemiştir ve girmesi beklenir. Yedhul'ün sükunu orada yalnız sonraki kelimeye bağlanmak için kesre alır.",
+        "Bir tuzak: lemma'dan sonra mazi bir fiil gelirse bu bambaşka bir kelimedir, zaman bildiren lemma, “-dığı zaman”: lemma ca'e Zeydün, “Zeyd geldiği zaman”. Hiçbir şeyde amel etmez. Emsile'nin lemma'sı her zaman muzari bir fiilden önce gelir ve onu meczum yapar."
+      ],
+      "terms": [
+        "cahd-ı müstağrak: “henüz değil”",
+        "lemma: muzariden önce “henüz değil”, cezm ile",
+        "zaman bildiren lemma (lemma'l-hiniyye), maziden önce “-dığı zaman”"
+      ],
+      "examples": [
+        "lemma yensur, “henüz yardım etmedi”",
+        "lemma yunsaru, “henüz yardım edilmediler”: meçhul",
+        "ve lemma yedhuli'l-imanü fi kulubiküm, “iman henüz kalplerinize girmedi” (Hucurat 49/14)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Yektübü'nün önüne şu sigalarda lemma koyun: o (erkek), onlar (erkekler), sen (kadın), ben.",
+          "answer": "Lemma yektüb, lemma yektübu, lemma tektübi, lemma ektüb."
+        },
+        {
+          "prompt": "Lem yektüb ile lemma yektüb'ü tercüme edin ve farkı açıklayın.",
+          "answer": "Lem yektüb: “yazmadı”, fazlasını söylemeden geçmişte bir nefy. Lemma yektüb: “henüz yazmadı”, nefy şimdiye kadar uzanır ve yazması beklenir."
+        },
+        {
+          "prompt": "Ve lemma yedhuli'l-imanü'de (Hucurat 49/14) yedhul neden kesreyle biter?",
+          "answer": "Lemma'dan sonra meczumdur, bu yüzden sükunla biter; bu sükun el-iman'daki harf-i ta'rifin sükunuyla karşılaşır ve kesre yalnız iki kelimeyi birleştirmek için eklenir."
+        },
+        {
+          "prompt": "Hangi lemma'dır ve ne yapar? (a) lemma yensur; (b) lemma ca'e Zeydün.",
+          "answer": "(a) Muzariyi meczum yapan, “henüz değil” anlamındaki nefy lemma'sı. (b) Mazi bir fiilden önce gelen, “-dığı zaman” anlamındaki zaman lemma'sı; hiçbir şeyde amel etmez."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Lemma yensur ne demektir?",
+          "options": [
+            "Yardım etmedi",
+            "Yardım etmeyecek",
+            "Yardım ettiği zaman",
+            "Henüz yardım etmedi"
+          ],
+          "explanation": "Nefy şimdiye kadar uzanır ve iş beklenir."
+        },
+        {
+          "prompt": "Lemma'nın sigaları lem'inkilerden nasıl ayrılır?",
+          "options": [
+            "Ayrılmaz: ikisi de muzariyi meczum yapar",
+            "Lemma onu mansub yapar",
+            "Lemma nunu korur",
+            "Lemma maziyi alır"
+          ],
+          "explanation": "Yalnız anlam farklıdır."
+        },
+        {
+          "prompt": "Osmanlı kitapları lemma yensur'a ne der?",
+          "options": [
+            "Cahd-ı mutlak",
+            "Cahd-ı müstağrak",
+            "Nefy-i istikbal",
+            "Nehy"
+          ],
+          "explanation": "Müstağrak: şimdiye kadar bütün geçmişi kapsar."
+        },
+        {
+          "prompt": "Lemma ca'e Zeydün … demektir.",
+          "options": [
+            "“Zeyd henüz gelmedi”",
+            "“Zeyd gelmedi”",
+            "“Zeyd geldiği zaman”",
+            "“Zeyd gelsin”"
+          ],
+          "explanation": "Mazi bir fiilden önce lemma “-dığı zaman” demektir ve hiçbir şeyde amel etmez."
+        },
+        {
+          "prompt": "Hucurat 49/14'te iman henüz kalplere girmemiştir. Girmesi beklenir mi?",
+          "options": [
+            "Hayır: lemma ebediyen nefyeder",
+            "Ayet zamandan hiç söz etmez",
+            "Yalnız geçmişte",
+            "Evet: lemma onu beklenir bırakır"
+          ],
+          "explanation": "Cahd-ı müstağrakın anlamı budur."
+        },
+        {
+          "prompt": "“Onlar (kadınlar) henüz yardım etmedi” …",
+          "options": [
+            "Lemma yensurne",
+            "Lemma yensuru",
+            "Lemma yensurna",
+            "Lemma nasarne"
+          ],
+          "explanation": "Kadınların -ne'si lemma'dan sonra kalır."
+        },
+        {
+          "prompt": "Lemma yunsar …",
+          "options": [
+            "ma'lumdur: “henüz yardım etmedi”",
+            "meçhuldür: “henüz yardım edilmedi”",
+            "emirdir",
+            "istikbalin nefyidir"
+          ],
+          "explanation": "Önekte zamme, son harften önce fetha."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Point": "Nokta",
+          "lam": "lem",
+          "lammā": "lemma",
+          "example": "örnek",
+          "meaning": "anlam",
+          "he did not help": "yardım etmedi",
+          "he has not yet helped": "henüz yardım etmedi",
+          "the time denied": "nefyedilen zaman",
+          "the past, without limit": "geçmiş, sınırsız",
+          "the whole past up to now": "şimdiye kadar bütün geçmiş",
+          "the act may still come": "iş yine gelebilir",
+          "not said": "söylenmez",
+          "expected": "beklenir",
+          "the ending": "son",
+          "jazm": "cezm"
+        },
+        "caption": "Lem ile lemma karşılaştırması"
+      },
+      "text": [
+        "lemma yensur “o (bir erkek) henüz yardım etmedi”, lemma yensura “o ikisi (erkek) henüz yardım etmediler”, lemma yensuru “onlar (erkekler) henüz yardım etmediler”, lemma tensur “o (bir kadın) henüz yardım etmedi”\nlemma tensura “o ikisi (kadın) henüz yardım etmediler”, lemma yensurne “onlar (kadınlar) henüz yardım etmediler”, lemma tensur “sen (bir erkek) henüz yardım etmedin”, lemma tensura “siz ikiniz (erkek) henüz yardım etmediniz”\nlemma tensuru “siz (erkekler) henüz yardım etmediniz”, lemma tensuri “sen (bir kadın) henüz yardım etmedin”\nlemma tensura “siz ikiniz (kadın) henüz yardım etmediniz”, lemma tensurne “siz (kadınlar) henüz yardım etmediniz”, lemma ensur “ben henüz yardım etmedim”, lemma nensur “biz henüz yardım etmedik”",
+        "lemma yunsar “o (bir erkek) henüz yardım edilmedi”, lemma yunsara “o ikisi (erkek) henüz yardım edilmediler”, lemma yunsaru “onlar (erkekler) henüz yardım edilmediler”, lemma tunsar “o (bir kadın) henüz yardım edilmedi”\nlemma tunsara “o ikisi (kadın) henüz yardım edilmediler”, lemma yunsarne “onlar (kadınlar) henüz yardım edilmediler”, lemma tunsar “sen (bir erkek) henüz yardım edilmedin”, lemma tunsara “siz ikiniz (erkek) henüz yardım edilmediniz”\nlemma tunsaru “siz (erkekler) henüz yardım edilmediniz”, lemma tunsari “sen (bir kadın) henüz yardım edilmedin”, lemma tunsara “siz ikiniz (kadın) henüz yardım edilmediniz”, lemma tunsarne “siz (kadınlar) henüz yardım edilmediniz”\nlemma unsar “ben henüz yardım edilmedim”, lemma nunsar “biz henüz yardım edilmedik”"
+      ]
+    },
+    "12": {
+      "title": "Şimdiki ve gelecek zamanın nefyleri: ma ve la",
+      "body": [
+        "İki nefy fiilde hiçbir şeyi değiştirmez. Ma yensuru, “yardım etmiyor”, şimdiki zamanın nefyidir (nefy-i hal); la yensuru, “yardım etmeyecek”, gelecek zamanın nefyidir (nefy-i istikbal). Ma'lum ve meçhul dört tablosu, her siganın önüne ma ya da la konmuş muzari tablolarından ibarettir.",
+        "İkisi de fiilde amel etmediği için her son kalır: -u (ma yensuru, la ensuru) ve ef'al-i hamsenin nunu (ma yensurani, la yensurune, la tensurine). Bunu, hepsi sonu değiştiren lem, lemma ve len'in yanına koyun; beş nefy iki gruba ayrılır: amel edenler ve etmeyenler.",
+        "Emsile her nefye bir zaman verir ki talebe beşini birbirinden ayırabilsin: geçmiş için lem ve lemma, şimdiki zaman için ma, gelecek için la ve len. Nahiv daha fazlasını ekler. Muzariden önce la şimdiki zamanı da nefyedebilir, ma da maziden önce gelebilir: ma nasara, “yardım etmedi”. Emsile'nin şeması ülkenin tamamı değil, ilk haritadır.",
+        "Bu dersin büyük tuzağı, aynı görünen nehy la'sıdır. Zammeli la yensuru bir nefydir: “yardım etmeyecek”. Sükunlu la yensur bir nehydir: “yardım etmesin”. İkinci şahısta fark daha da keskindir: “yardım etmeyeceksin” anlamındaki la tensuru'ya karşı “yardım etme!” anlamındaki la tensur. Tek bir hareke bir bildirimi bir emirden ayırır.",
+        "Meçhul tablolar meçhul muzaride aynı kurala uyar: ma yunsaru, “yardım edilmiyor”, la yunsaru, “yardım edilmeyecek”; bütün sonlar korunur."
+      ],
+      "terms": [
+        "nefy-i hal: şimdiki zamanın nefyi, ma yensuru",
+        "nefy-i istikbal: gelecek zamanın nefyi, la yensuru",
+        "nefy la'sı (la-yı nafiye): hiçbir şeyde amel etmez",
+        "nehy la'sı (la-yı nahiye): fiili meczum yapar"
+      ],
+      "examples": [
+        "ma yensuru, ma yensurune: ma'dan sonra korunan son",
+        "la tensurine, “sen (kadın) yardım etmeyeceksin”: la'dan sonra korunan nun",
+        "la tensuru, “yardım etmeyeceksin”; la tensur, “yardım etme!”",
+        "la yunsaru, “yardım edilmeyecek”: meçhul"
+      ],
+      "tasks": [
+        {
+          "prompt": "Ketebe'nin şu sigalarının önüne ma ve la koyun ve tercüme edin: yektübü, yektübune, tektübine.",
+          "answer": "Ma yektübü “yazmıyor”, la yektübü “yazmayacak”; ma yektübune, la yektübune “yazmıyorlar, yazmayacaklar”; ma tektübine, la tektübine “sen (kadın) yazmıyorsun, yazmayacaksın”. Hiçbir son değişmez."
+        },
+        {
+          "prompt": "Tercüme edin ve hangisinin nefy, hangisinin nehy olduğunu söyleyin: la tensuru; la tensur; la yensurune; la yensuru.",
+          "answer": "La tensuru: nefy, “yardım etmeyeceksin”. La tensur: nehy, “yardım etme!”. La yensurune: nefy, “yardım etmeyecekler”. La yensuru: nehy, “yardım etmesinler” (cezmde nun düşmüş)."
+        },
+        {
+          "prompt": "Meçhul tablolardan verin: “onlar (erkekler) yardım edilmiyor” ve “sen (kadın) yardım edilmeyeceksin”.",
+          "answer": "Ma yunsarune; la tunsarine."
+        },
+        {
+          "prompt": "Beş nefyden hangileri fiilin sonunu değiştirir ve nasıl?",
+          "answer": "Lem ve lemma onu meczum yapar (sükun ya da nunun düşmesi); len onu mansub yapar (fetha ya da nunun düşmesi). Ma ve la hiçbir şeyi değiştirmez."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ma, yensuru'nun sonuna ne yapar?",
+          "options": [
+            "Hiçbir şey",
+            "Onu meczum yapar",
+            "Onu mansub yapar",
+            "Öneki düşürür"
+          ],
+          "explanation": "Ma yensuru: zamme kalır."
+        },
+        {
+          "prompt": "Emsile la yensuru'ya hangi zamanı verir?",
+          "options": [
+            "Şimdiki zaman",
+            "Gelecek zaman",
+            "Geçmiş zaman",
+            "Hiçbir zaman"
+          ],
+          "explanation": "Nefy-i istikbal: “yardım etmeyecek”."
+        },
+        {
+          "prompt": "Sükunlu la tensur … demektir.",
+          "options": [
+            "“yardım etmeyeceksin”",
+            "“yardım etmedin”",
+            "“yardım etme!”",
+            "“o kadın yardım etmeyecek”"
+          ],
+          "explanation": "Nehy la'sı fiili meczum yapar."
+        },
+        {
+          "prompt": "La tensurine … demektir.",
+          "options": [
+            "“yardım etme, kadın!”",
+            "“yardım etmedin”",
+            "“onlar yardım etmeyecek”",
+            "“sen (kadın) yardım etmeyeceksin”"
+          ],
+          "explanation": "Nun kalır: nehy değil nefydir (nehy la tensuri olurdu)."
+        },
+        {
+          "prompt": "Hangi nefyler fiilde amel eder?",
+          "options": [
+            "Lem, lemma ve len",
+            "Ma ve la",
+            "Beşi de",
+            "Hiçbiri"
+          ],
+          "explanation": "Ma ve la sonu olduğu gibi bırakır."
+        },
+        {
+          "prompt": "Ma mazi bir fiilden önce de gelebilir mi?",
+          "options": [
+            "Hayır, asla",
+            "Evet: ma nasara, “yardım etmedi”",
+            "Yalnız şiirde",
+            "Yalnız meçhulle"
+          ],
+          "explanation": "Nahiv buna izin verir; Emsile şemayı sade tutmak için ma'ya tek bir kullanım verir."
+        },
+        {
+          "prompt": "“Yardım edilmeyecek” …",
+          "options": [
+            "La yensuru",
+            "La yunsar",
+            "La yunsaru",
+            "Len yensura"
+          ],
+          "explanation": "Meçhul muzariyle la, son korunmuş."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Particle": "Harf",
+          "Name": "Adı",
+          "Time": "Zaman",
+          "The ending": "Son",
+          "Example": "Örnek",
+          "لَمْ lam": "لَمْ lem",
+          "absolute denial": "cahd-ı mutlak",
+          "past": "geçmiş",
+          "jazm": "cezm",
+          "لَمَّا lammā": "لَمَّا lemma",
+          "comprehensive denial": "cahd-ı müstağrak",
+          "past up to now": "şimdiye kadar geçmiş",
+          "مَا mā": "مَا ma",
+          "negation of the present": "nefy-i hal",
+          "present": "şimdiki",
+          "unchanged": "değişmez",
+          "لَا lā": "لَا la",
+          "negation of the future": "nefy-i istikbal",
+          "future": "gelecek",
+          "لَنْ lan": "لَنْ len",
+          "emphatic negation of the future": "te'kid-i nefy-i istikbal",
+          "naṣb": "nasb"
+        },
+        "caption": "Emsile'nin beş nefyi"
+      },
+      "text": [
+        "ma yensuru “o (bir erkek) yardım etmiyor”, ma yensurani “o ikisi (erkek) yardım etmiyorlar”, ma yensurune “onlar (erkekler) yardım etmiyorlar”, ma tensuru “o (bir kadın) yardım etmiyor”\nma tensurani “o ikisi (kadın) yardım etmiyorlar”, ma yensurne “onlar (kadınlar) yardım etmiyorlar”, ma tensuru “sen (bir erkek) yardım etmiyorsun”, ma tensurani “siz ikiniz (erkek) yardım etmiyorsunuz”\nma tensurune “siz (erkekler) yardım etmiyorsunuz”, ma tensurine “sen (bir kadın) yardım etmiyorsun”, ma tensurani “siz ikiniz (kadın) yardım etmiyorsunuz”, ma tensurne “siz (kadınlar) yardım etmiyorsunuz”\nma ensuru “ben yardım etmiyorum”, ma nensuru “biz yardım etmiyoruz”",
+        "ma yunsaru “o (bir erkek) yardım edilmiyor”, ma yunsarani “o ikisi (erkek) yardım edilmiyorlar”, ma yunsarune “onlar (erkekler) yardım edilmiyorlar”, ma tunsaru “o (bir kadın) yardım edilmiyor”\nma tunsarani “o ikisi (kadın) yardım edilmiyorlar”, ma yunsarne “onlar (kadınlar) yardım edilmiyorlar”, ma tunsaru “sen (bir erkek) yardım edilmiyorsun”, ma tunsarani “siz ikiniz (erkek) yardım edilmiyorsunuz”\nma tunsarune “siz (erkekler) yardım edilmiyorsunuz”, ma tunsarine “sen (bir kadın) yardım edilmiyorsun”, ma tunsarani “siz ikiniz (kadın) yardım edilmiyorsunuz”, ma tunsarne “siz (kadınlar) yardım edilmiyorsunuz”\nma unsaru “ben yardım edilmiyorum”, ma nunsaru “biz yardım edilmiyoruz”",
+        "la yensuru “o (bir erkek) yardım etmeyecek”, la yensurani “o ikisi (erkek) yardım etmeyecekler”, la yensurune “onlar (erkekler) yardım etmeyecekler”, la tensuru “o (bir kadın) yardım etmeyecek”\nla tensurani “o ikisi (kadın) yardım etmeyecekler”, la yensurne “onlar (kadınlar) yardım etmeyecekler”, la tensuru “sen (bir erkek) yardım etmeyeceksin”, la tensurani “siz ikiniz (erkek) yardım etmeyeceksiniz”\nla tensurune “siz (erkekler) yardım etmeyeceksiniz”, la tensurine “sen (bir kadın) yardım etmeyeceksin”, la tensurani “siz ikiniz (kadın) yardım etmeyeceksiniz”\nla tensurne “siz (kadınlar) yardım etmeyeceksiniz”, la ensuru “ben yardım etmeyeceğim”, la nensuru “biz yardım etmeyeceğiz”",
+        "la yunsaru “o (bir erkek) yardım edilmeyecek”, la yunsarani “o ikisi (erkek) yardım edilmeyecekler”, la yunsarune “onlar (erkekler) yardım edilmeyecekler”\nla tunsaru “o (bir kadın) yardım edilmeyecek”, la tunsarani “o ikisi (kadın) yardım edilmeyecekler”, la yunsarne “onlar (kadınlar) yardım edilmeyecekler”\nla tunsaru “sen (bir erkek) yardım edilmeyeceksin”, la tunsarani “siz ikiniz (erkek) yardım edilmeyeceksiniz”, la tunsarune “siz (erkekler) yardım edilmeyeceksiniz”\nla tunsarine “sen (bir kadın) yardım edilmeyeceksin”, la tunsarani “siz ikiniz (kadın) yardım edilmeyeceksiniz”, la tunsarne “siz (kadınlar) yardım edilmeyeceksiniz”\nla unsaru “ben yardım edilmeyeceğim”, la nunsaru “biz yardım edilmeyeceğiz”"
+      ]
+    },
+    "13": {
+      "title": "Gelecek zamanın te'kidli nefyi: len",
+      "body": [
+        "Son nefy len'dir: len yensura, “asla yardım etmeyecek”, “kesinlikle yardım etmeyecek”. Osmanlı kitapları ona te'kid-i nefy-i istikbal der: la yensuru'nun söylediğini len yensura daha kuvvetli söyler.",
+        "Len fiilde amel eder ve onu mansub yapar. Müfred sigalar fetha alır: len yensura, len tensura, len ensura, len nensura. Ef'al-i hamse nunlarını düşürür: len yensura [tesniye], len yensuru, len tensuri. Kadınların sigaları -ne'lerini korur: len yensurne, len tensurne.",
+        "Şimdi lem ile karşılaştırın. İkisi de ef'al-i hamsenin nununu düşürür; bu yüzden lem yensuru ile len yensuru aynı yazılır ve aynı söylenir: birincisi meczumdur (“yardım etmediler”), ikincisi mansubdur (“asla yardım etmeyecekler”). Onları yalnız harf ayırır. Müfred sigalarda ikisi farklıdır: lem yensur, sükun; len yensura, fetha.",
+        "Meçhul tablo, “asla yardım edilmeyecek” anlamındaki len yunsara'dan len nunsara'ya kadar verir. Kur'an mütekellimin ma'lumunu getirir: fe len ebraha'l-arda, “bu topraktan ayrılmayacağım” (Yusuf 12/80); ebraha len'den sonra mansubdur."
+      ],
+      "terms": [
+        "te'kid-i nefy-i istikbal: len",
+        "len: “asla … -meyecek”: muzariyi mansub yapar",
+        "nasb: fiilin fetha ya da nunun düşmesiyle olan i'rabı"
+      ],
+      "examples": [
+        "len yensura, len yensuru: fetha ve düşen nun",
+        "lem yensuru, “yardım etmediler”; len yensuru, “asla yardım etmeyecekler”: harf dışında aynı",
+        "fe len ebraha'l-arda, “bu topraktan ayrılmayacağım” (Yusuf 12/80)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Yadribu'nun önüne on dört sigada len koyun.",
+          "answer": "Len yadribe, len yadriba, len yadribu, len tadribe, len tadriba, len yadribne, len tadribe, len tadriba, len tadribu, len tadribi, len tadriba, len tadribne, len adribe, len nadribe."
+        },
+        {
+          "prompt": "Lem yadribu ile len yadribu aynı görünür. İkisini tercüme edin ve her birinde fiilin i'rabını söyleyin.",
+          "answer": "Lem yadribu: “vurmadılar”, meczum. Len yadribu: “asla vurmayacaklar”, mansub. İkisinde de nun düşmüştür."
+        },
+        {
+          "prompt": "Meçhul tablodan verin: “asla yardım edilmeyecek”, “sen (kadın) asla yardım edilmeyeceksin”, “asla yardım edilmeyeceğiz”.",
+          "answer": "Len yunsara, len tunsari, len nunsara."
+        },
+        {
+          "prompt": "Fe len ebraha'l-arda'da (Yusuf 12/80) ebraha'nın i'rabını yapın.",
+          "answer": "Mütekellimin muzari fiilidir (eneytü'nün hemzesi), len'den sonra mansubdur, alameti fethadır; faili gizli bir “ben”dir; el-arda onun mef'ulüdür."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Len muzari fiile ne yapar?",
+          "options": [
+            "Onu meczum yapar ve geçmişi nefyeder",
+            "Onu mansub yapar ve geleceği kuvvetle nefyeder",
+            "Hiçbir şey",
+            "Onu emir yapar"
+          ],
+          "explanation": "Len yensura: “asla yardım etmeyecek”."
+        },
+        {
+          "prompt": "Len yensurne: -ne'ye ne olur?",
+          "options": [
+            "Düşer",
+            "Fetha alır",
+            "Kalır",
+            "-na olur"
+          ],
+          "explanation": "Nisa nunu hiç değişmez."
+        },
+        {
+          "prompt": "Hangi çift aynı yazılır?",
+          "options": [
+            "Lem yensur ile len yensura",
+            "La yensuru ile len yensura",
+            "Ma yensuru ile lem yensur",
+            "Lem yensuru ile len yensuru"
+          ],
+          "explanation": "Ef'al-i hamsede hem cezm hem nasb nunu düşürür."
+        },
+        {
+          "prompt": "Osmanlı kitapları len yensura'ya ne der?",
+          "options": [
+            "Te'kid-i nefy-i istikbal",
+            "Nefy-i hal",
+            "Cahd-ı mutlak",
+            "Nehy"
+          ],
+          "explanation": "Gelecek zamanın te'kidli nefyi."
+        },
+        {
+          "prompt": "“Asla yardım etmeyeceğim” …",
+          "options": [
+            "Len ensur",
+            "Len ensura",
+            "Lem ensur",
+            "La ensuru"
+          ],
+          "explanation": "Mütekellimin muzarisiyle len, fethayla mansub."
+        },
+        {
+          "prompt": "Len yunsara …",
+          "options": [
+            "ma'lumdur: “asla yardım etmeyecek”",
+            "bir nehydir",
+            "meçhuldür: “asla yardım edilmeyecek”",
+            "meczumdur"
+          ],
+          "explanation": "Mansub meçhul muzari."
+        },
+        {
+          "prompt": "Yusuf 12/80'de, fe len ebraha'da, ebraha …",
+          "options": [
+            "sükunla meczumdur",
+            "merfudur",
+            "mahfuzdur",
+            "fethayla mansubdur"
+          ],
+          "explanation": "Len muzariyi mansub yapar."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Person": "Şahıs",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Many": "Cem'",
+          "absent, man": "gaib, erkek",
+          "absent, woman": "gaib, kadın",
+          "addressed, man": "muhatab, erkek",
+          "addressed, woman": "muhatab, kadın",
+          "the speaker": "mütekellim"
+        },
+        "caption": "Nasara'nın te'kidli nefyi, ma'lum (Emsile, s. 247–248)"
+      },
+      "text": [
+        "len yensura “o (bir erkek) asla yardım etmeyecek”, len yensura “o ikisi (erkek) asla yardım etmeyecekler”, len yensuru “onlar (erkekler) asla yardım etmeyecekler”\nlen tensura “o (bir kadın) asla yardım etmeyecek”, len tensura “o ikisi (kadın) asla yardım etmeyecekler”, len yensurne “onlar (kadınlar) asla yardım etmeyecekler”\nlen tensura “sen (bir erkek) asla yardım etmeyeceksin”, len tensura “siz ikiniz (erkek) asla yardım etmeyeceksiniz”, len tensuru “siz (erkekler) asla yardım etmeyeceksiniz”\nlen tensuri “sen (bir kadın) asla yardım etmeyeceksin”, len tensura “siz ikiniz (kadın) asla yardım etmeyeceksiniz”, len tensurne “siz (kadınlar) asla yardım etmeyeceksiniz”\nlen ensura “ben asla yardım etmeyeceğim”, len nensura “biz asla yardım etmeyeceğiz”",
+        "len yunsara “o (bir erkek) asla yardım edilmeyecek”, len yunsara “o ikisi (erkek) asla yardım edilmeyecekler”, len yunsaru “onlar (erkekler) asla yardım edilmeyecekler”\nlen tunsara “o (bir kadın) asla yardım edilmeyecek”, len tunsara “o ikisi (kadın) asla yardım edilmeyecekler”, len yunsarne “onlar (kadınlar) asla yardım edilmeyecekler”\nlen tunsara “sen (bir erkek) asla yardım edilmeyeceksin”, len tunsara “siz ikiniz (erkek) asla yardım edilmeyeceksiniz”, len tunsaru “siz (erkekler) asla yardım edilmeyeceksiniz”\nlen tunsari “sen (bir kadın) asla yardım edilmeyeceksin”, len tunsara “siz ikiniz (kadın) asla yardım edilmeyeceksiniz”, len tunsarne “siz (kadınlar) asla yardım edilmeyeceksiniz”\nlen unsara “ben asla yardım edilmeyeceğim”, len nunsara “biz asla yardım edilmeyeceğiz”"
+      ]
+    },
+    "14": {
+      "title": "Gaibe emir ve nehy",
+      "body": [
+        "Hitap edilmeyen birine emretmek ya da onu yasaklamak için Arapça muzariyi bir harfle kullanır. Emr-i gaib, meczum muzariyle li-'dir: li-yensur, “yardım etsin”, li-yensuru, “yardım etsinler”. Nehy-i gaib, meczum muzariyle la'dır: la yensur, “yardım etmesin”, la yensuru, “yardım etmesinler”.",
+        "Sonlar lem'inkilerdir: müfred sigalarda sükun, ef'al-i hamsede düşen nun, korunan kadınların -ne'si (li-yensurne, la yensurne). Emir lamı kesre alır; ve- ya da fe-'den sonra harekesini kaybeder: fe-l-yensur, “öyleyse yardım etsin”.",
+        "Bu baskıda ma'lum tablolar yalnız altı gaib sigasını verir: üçü erkeklerin, üçü kadınların. Meçhul tablolar sekiz siga verir: meçhul muzariyle altı gaib sigası, li-yunsar, “yardım edilsin”, la yunsar, “yardım edilmesin”, ve mütekellim için iki siga daha: li-unsar, “yardım edileyim”, li-nunsar, “yardım edilelim”, ve la unsar, la nunsar.",
+        "La'nın tuzağını hatırlayın. Nehyde fiil meczumdur: la yensur, la yensuru. Nefyde sonunu korur: la yensuru, la yensurune. Birincisi emreder, ikincisi yalnız bildirir."
+      ],
+      "terms": [
+        "emr-i gaib: li-yensur",
+        "nehy-i gaib: la yensur",
+        "emir lamı (lamü'l-emr): kesreli",
+        "nehy la'sı (la-yı nahiye)"
+      ],
+      "examples": [
+        "li-yensur, li-yensuru, li-yensurne: “yardım etsin, yardım etsinler, yardım etsinler (kadınlar)”",
+        "la yensur, la yensuru: “yardım etmesin, yardım etmesinler”",
+        "li-unsar, “yardım edileyim”; li-nunsar, “yardım edilelim”: meçhul mütekellimi ekler"
+      ],
+      "tasks": [
+        {
+          "prompt": "Ketebe'nin emr-i gaibini altı sigasında verin.",
+          "answer": "Li-yektüb, li-yektüba, li-yektübu, li-tektüb, li-tektüba, li-yektübne."
+        },
+        {
+          "prompt": "“Oturmak” anlamındaki celese'nin nehy-i gaibini altı sigasında verin.",
+          "answer": "La yeclis, la yeclisa, la yeclisu, la teclis, la teclisa, la yeclisne."
+        },
+        {
+          "prompt": "Meçhul tablolardan tercüme edin: li-unsar, la nunsar, li-yunsaru.",
+          "answer": "Li-unsar: “yardım edileyim”. La nunsar: “yardım edilmeyelim”. Li-yunsaru: “yardım edilsinler”."
+        },
+        {
+          "prompt": "Fe-l-yensur'da emir lamının neden harekesi yoktur?",
+          "answer": "Fe- ya da ve-'den sonra emir lamı kesresini kaybeder ve sükunla söylenir; tek başına li-yensur'dur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Emr-i gaib nasıl yapılır?",
+          "options": [
+            "Emir sigasıyla",
+            "Merfu muzariyle la",
+            "Meczum muzariyle li-",
+            "Muzariyle len"
+          ],
+          "explanation": "Li-yensur: “yardım etsin”."
+        },
+        {
+          "prompt": "La yensuru … demektir.",
+          "options": [
+            "“yardım etmeyecekler”",
+            "“yardım etmediler”",
+            "“yardım etsinler”",
+            "“yardım etmesinler”"
+          ],
+          "explanation": "Nun düşmüştür: meczum bir nehy."
+        },
+        {
+          "prompt": "La yensurune … demektir.",
+          "options": [
+            "“yardım etmeyecekler”",
+            "“yardım etmesinler”",
+            "“yardım etme!”",
+            "“henüz yardım etmediler”"
+          ],
+          "explanation": "Nun kalır: nehy değil, nefydir."
+        },
+        {
+          "prompt": "Bu baskıda gaibin ma'lum tablolarında kaç siga vardır?",
+          "options": [
+            "On dört",
+            "Altı",
+            "Sekiz",
+            "Üç"
+          ],
+          "explanation": "Üçü erkeklerin, üçü kadınların; meçhul tablolar mütekellimi ekler."
+        },
+        {
+          "prompt": "Li-nunsar … demektir.",
+          "options": [
+            "“yardım edelim”",
+            "“yardım edildik”",
+            "“yardım edilelim”",
+            "“yardım edilmeyeceğiz”"
+          ],
+          "explanation": "Mütekellim ma'a'l-gayr için meçhul bir emir."
+        },
+        {
+          "prompt": "Emir lamı tek başına hangi harekeyi alır?",
+          "options": [
+            "Fetha",
+            "Zamme",
+            "Hiçbirini",
+            "Kesre"
+          ],
+          "explanation": "Li-yensur; fe- ya da ve-'den sonra sakindir."
+        },
+        {
+          "prompt": "“Yardım etsin (o kadın)” …",
+          "options": [
+            "Li-tensur",
+            "Li-yensur",
+            "La tensur",
+            "Unsuri"
+          ],
+          "explanation": "Gaib kadın te- önekini alır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Person": "Şahıs",
+          "Command": "Emir",
+          "Prohibition": "Nehy",
+          "he": "o (erkek)",
+          "they two (men)": "o ikisi (erkekler)",
+          "they (men)": "onlar (erkekler)",
+          "she": "o (kadın)",
+          "they two (women)": "o ikisi (kadınlar)",
+          "they (women)": "onlar (kadınlar)",
+          "I (passive)": "ben (meçhul)",
+          "we (passive)": "biz (meçhul)"
+        },
+        "caption": "Gaibe emir ve nehy"
+      },
+      "text": [
+        "li-yensur “o (bir erkek) yardım etsin”, li-yensura “o ikisi (erkek) yardım etsinler”, li-yensuru “onlar (erkekler) yardım etsinler”\nli-tensur “o (bir kadın) yardım etsin”, li-tensura “o ikisi (kadın) yardım etsinler”, li-yensurne “onlar (kadınlar) yardım etsinler”",
+        "li-yunsar “o (bir erkek) yardım edilsin”, li-yunsara “o ikisi (erkek) yardım edilsinler”, li-yunsaru “onlar (erkekler) yardım edilsinler”\nli-tunsar “o (bir kadın) yardım edilsin”, li-tunsara “o ikisi (kadın) yardım edilsinler”\nli-yunsarne “onlar (kadınlar) yardım edilsinler”, li-unsar “ben yardım edileyim”, li-nunsar “biz yardım edilelim”",
+        "la yensur “o (bir erkek) yardım etmesin”, la yensura “o ikisi (erkek) yardım etmesinler”, la yensuru “onlar (erkekler) yardım etmesinler”\nla tensur “o (bir kadın) yardım etmesin”, la tensura “o ikisi (kadın) yardım etmesinler”, la yensurne “onlar (kadınlar) yardım etmesinler”",
+        "la yunsar “o (bir erkek) yardım edilmesin”, la yunsara “o ikisi (erkek) yardım edilmesinler”, la yunsaru “onlar (erkekler) yardım edilmesinler”\nla tunsar “o (bir kadın) yardım edilmesin”, la tunsara “o ikisi (kadın) yardım edilmesinler”, la yunsarne “onlar (kadınlar) yardım edilmesinler”\nla unsar “ben yardım edilmeyeyim”, la nunsar “biz yardım edilmeyelim”"
+      ]
+    },
+    "15": {
+      "title": "Hazıra emir ve nehy",
+      "body": [
+        "Hitap edilen kişiye emrin kendine ait bir sigası vardır, emir sigası: unsur, unsura [tesniye], unsuru, unsuri, unsura [tesniye], unsurne: bir erkeğe, iki kişiye, erkeklere, bir kadına, iki kadına, kadınlara “yardım et!”. Bu emr-i hazırdır (emrü'l-hazır).",
+        "İkinci şahsın muzarisinden yapılır. Tensuru'yu alın, te- önekini atın; kelime şimdi harekesiz bir harfle başlar ve Arapça bunu söyleyemez; bu yüzden başa bir hemze getirilir: ayn zammeliyse zammeyle (unsur, üktüb), kesreli ya da fethalıysa kesreyle (idrib, iftah, isme'). Sonu cezmin sonudur: sükun, düşen nun, korunan -ne. Baskı hemzeyi zammeli bir elif üzerine yazar: اُنْصُرْ.",
+        "Bu hemze bir vasl hemzesidir: yalnız sözün başında söylenir ve başka bir kelimeden sonra düşer. Kur'an'da fe'nsurna ale'l-kavmi'l-kafirin, “kafirler topluluğuna karşı bize yardım et” (Bakara 2/286) geçer; fe-'den sonra hiç hemze duyulmaz. Dört harfli fiilde hemze veznin bir parçasıdır ve her zaman fethayla söylenir: ekrim, “ikram et!”.",
+        "Meçhulün emir sigası yoktur; bu yüzden kitap emir lamını meçhul muzariyle kullanır: li-tunsar, “yardım edil!”, li-tunsaru, ve mütekellim için li-unsar ile li-nunsar'ı ekler. Nehy-i hazır meczum muzariyle la'dır: ma'lumda la tensur, “yardım etme!”, la tensurne'ye kadar; meçhulde la tunsar, “yardım edilme”, la unsar ve la nunsar ile.",
+        "Bununla fiil tabloları tamamlanır: mazi ve muzari, her biri ma'lum ve meçhul, beş nefy, gaibe ve hazıra emir ve nehy. Hepsi 3. ile 6. derslerin dört tablosundan yapılmıştır."
+      ],
+      "terms": [
+        "emr-i hazır: emir sigası",
+        "nehy-i hazır: la tensur",
+        "vasl hemzesi: başka bir kelimeden sonra düşer",
+        "kat' hemzesi: her zaman söylenen hemze, ekrim'deki gibi"
+      ],
+      "examples": [
+        "unsur, unsuri, unsurne: bir erkeğe, bir kadına, kadınlara “yardım et!”",
+        "fe'nsurna ale'l-kavmi'l-kafirin, “kafirler topluluğuna karşı bize yardım et” (Bakara 2/286): vasl hemzesi söylenmez",
+        "li-tunsar, “yardım edil!”: emir lamıyla meçhul",
+        "la tensur, “yardım etme!”; la tunsar, “yardım edilme”"
+      ],
+      "tasks": [
+        {
+          "prompt": "Darabe'nin emrini altı sigasında verin.",
+          "answer": "İdrib, idriba, idribu, idribi, idriba, idribne."
+        },
+        {
+          "prompt": "Ketebe, fetaha, celese ve ekreme'den bir erkeğe emir yapın ve ilk harekenin neden farklı olduğunu söyleyin.",
+          "answer": "Üktüb (zamme, çünkü yektübü'nün aynında zamme var); iftah (kesre, ayn fethalı); iclis (kesre, ayn kesreli); ekrim (fetha: ef'ale'nin her zaman söylenen hemzesi)."
+        },
+        {
+          "prompt": "Fetaha'nın nehy-i hazırını verin: bir erkeğe, bir kadına, erkeklere.",
+          "answer": "La teftah, la teftahi, la teftahu."
+        },
+        {
+          "prompt": "Fe'nsurna'da (Bakara 2/286) nundan önce neden hiç hemze duyulmaz?",
+          "answer": "Emrin hemzesi bir vasl hemzesidir: yalnız sözün başında söylenir. Fe-'den sonra düşer, ama elif yazıda kalır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Emir hangi sigadan yapılır?",
+          "options": [
+            "Maziden",
+            "Masdardan",
+            "İsm-i failden",
+            "İkinci şahsın muzarisinden"
+          ],
+          "explanation": "Tensuru → unsur."
+        },
+        {
+          "prompt": "Unsur neden zammeyle başlar?",
+          "options": [
+            "Yensuru'nun aynında zamme var",
+            "Her emir zammeyle başlar",
+            "Çünkü meçhuldür",
+            "Te- önekinden dolayı"
+          ],
+          "explanation": "Aynda zamme varsa zamme; yoksa kesre."
+        },
+        {
+          "prompt": "Yeftahu'nun emri …",
+          "options": [
+            "Uftuh",
+            "İftah",
+            "Eftah",
+            "Fetah"
+          ],
+          "explanation": "Ayn fethalı olunca hemze kesre alır."
+        },
+        {
+          "prompt": "Kitap hazıra meçhul emri nasıl verir?",
+          "options": [
+            "Meçhul bir emir sigasıyla",
+            "Len ile",
+            "Emir lamıyla: li-tunsar",
+            "Hiç vermez"
+          ],
+          "explanation": "Meçhulün kendine ait bir emir sigası yoktur."
+        },
+        {
+          "prompt": "Unsur hangi çeşit bir hemzeyle başlar?",
+          "options": [
+            "Her zaman söylenen bir hemze",
+            "Bir asli harf",
+            "İstifham hemzesi",
+            "Başka bir kelimeden sonra düşen bir vasl hemzesi"
+          ],
+          "explanation": "Fe'nsurna (Bakara 2/286): fe-'den sonra hemze duyulmaz."
+        },
+        {
+          "prompt": "Bir kadına “yardım etme!” …",
+          "options": [
+            "La tensuri",
+            "La tensurine",
+            "La tensur",
+            "Unsuri"
+          ],
+          "explanation": "Cezmdeki nehy: nun düşer."
+        },
+        {
+          "prompt": "Ekreme'nin emri …",
+          "options": [
+            "İkrim",
+            "Ekrim",
+            "Ukrum",
+            "Ekrem"
+          ],
+          "explanation": "Hemzesi vezne aittir ve fetha alır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Present (you)": "Muzari (sen)",
+          "Imperative": "Emir",
+          "Vowel of the hamza": "Hemzenin harekesi",
+          "ḍamma (ʿayn with ḍamma)": "zamme (ayn zammeli)",
+          "ḍamma": "zamme",
+          "kasra (ʿayn with kasra)": "kesre (ayn kesreli)",
+          "kasra (ʿayn with fatḥa)": "kesre (ayn fethalı)",
+          "kasra": "kesre",
+          "fatḥa, a hamza that is always said": "fetha, her zaman söylenen hemze"
+        },
+        "caption": "Muzariden emre"
+      },
+      "text": [
+        "unsur “yardım et! (bir erkeğe)”, unsura “yardım edin! (iki erkeğe)”, unsuru “yardım edin! (erkeklere)”\nunsuri “yardım et! (bir kadına)”, unsura “yardım edin! (iki kadına)”, unsurne “yardım edin! (kadınlara)”",
+        "li-tunsar “yardım edil! (bir erkeğe)”, li-tunsara “yardım edilin! (iki erkeğe)”, li-tunsaru “yardım edilin! (erkeklere)”\nli-tunsari “yardım edil! (bir kadına)”, li-tunsara “yardım edilin! (iki kadına)”, li-tunsarne “yardım edilin! (kadınlara)”\nli-unsar “ben yardım edileyim”, li-nunsar “biz yardım edilelim”",
+        "la tensur “yardım etme! (bir erkeğe)”, la tensura “yardım etmeyin! (iki erkeğe)”, la tensuru “yardım etmeyin! (erkeklere)”\nla tensuri “yardım etme! (bir kadına)”, la tensura “yardım etmeyin! (iki kadına)”, la tensurne “yardım etmeyin! (kadınlara)”",
+        "la tunsar “yardım edilme! (bir erkeğe)”, la tunsara “yardım edilmeyin! (iki erkeğe)”, la tunsaru “yardım edilmeyin! (erkeklere)”\nla tunsari “yardım edilme! (bir kadına)”, la tunsara “yardım edilmeyin! (iki kadına)”, la tunsarne “yardım edilmeyin! (kadınlara)”\nla unsar “ben yardım edilmeyeyim”, la nunsar “biz yardım edilmeyelim”"
+      ]
+    },
+    "16": {
+      "title": "İsm-i zaman, ism-i mekan ve ism-i alet",
+      "body": [
+        "Kitabın son kısmı fiilden yapılan isimleri, her birini kendi küçük tablosunda verir. İlki mensar'dır: mensar, mensarani, menasır. Başlık üç şeyi birden adlandırır: ism-i zaman (“yardım zamanı”), ism-i mekan (“yardım yeri”) ve masdar-ı mimi (“yardım etmek”). Tek siga, üç kullanım; hangisi olduğuna cümle karar verir.",
+        "Vezni mef'aldır: kökten önce bir mim ve son harften önce bir fetha. Sarf kitapları kuralı verir: muzarinin aynında zamme ya da fetha varsa (yensuru, yeftahu) ism-i zaman ve mekan mef'al, kesre varsa (yadribu, yeclisu) mef'il veznindedir; bilinen meclis, “oturma yeri” kelimesinde olduğu gibi. Sahih mücerred fiilin masdar-ı mimisi her babda mef'aldır.",
+        "İsm-i alet minsar'dır: minsar, minsarani, menasır: “kendisiyle yardım edilen şey”. Vezni burada mif'aldır; kitaplar iki vezin daha ekler, mif'al [elifle] ve mif'ale; birçok bilinen kelime bunları gösterir: miftah, “anahtar”, kendisiyle açılan şey.",
+        "İki tabloya birlikte bakın: mensar ile minsar yalnız mimin harekesiyle ayrılır, zaman ve mekan için fetha, alet için kesre; cem'-i mükesserleri de aynıdır: menasır. Böyle bir durumda hangi ismin kastedildiğini yalnız müfred ya da cümle gösterir."
+      ],
+      "terms": [
+        "ism-i zaman: mef'al, mef'il",
+        "ism-i mekan: mef'al, mef'il",
+        "masdar-ı mimi: mimli masdar, mef'al",
+        "ism-i alet: mif'al, mif'al [elifle], mif'ale"
+      ],
+      "examples": [
+        "mensarun, mensarani, menasıru: yardımın zamanı ya da yeri, bir, iki, çok",
+        "minsarun, minsarani, menasıru: bir yardım aleti",
+        "mef'al ve mif'al: bir hareke farkla iki vezin"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mensar hangi üç şeyi adlandırabilir? Her anlamında tercüme edin.",
+          "answer": "İsm-i zaman, “yardım zamanı”; ism-i mekan, “yardım yeri”; masdar-ı mimi, “yardım etmek”."
+        },
+        {
+          "prompt": "Muzarisi yeftahu olan bir fiil için ve muzarisi yeclisu olan bir fiil için ism-i mekanın veznini verin.",
+          "answer": "Yeftahu için mef'al (aynda fetha); yeclisu için mef'il (aynda kesre), meclis'te olduğu gibi."
+        },
+        {
+          "prompt": "Mensar'ın cem'i menasır ile minsar'ın cem'i menasır nasıl ayırt edilir?",
+          "answer": "Aynı kelimedir; yerlerin mi aletlerin mi kastedildiğini yalnız cümle ya da akıldaki müfred gösterir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Minsar nedir?",
+          "options": [
+            "İsm-i alet",
+            "İsm-i mekan",
+            "Masdar-ı mimi",
+            "İsm-i tasgir"
+          ],
+          "explanation": "Mif'al: kendisiyle yardım edilen şey."
+        },
+        {
+          "prompt": "Başlık mensar için hangi üç kullanımı verir?",
+          "options": [
+            "Fail, mef'ul, alet",
+            "Zaman, mekan ve masdar-ı mimi",
+            "Merre, nev', tasgir",
+            "Tafdil, mübalağa, nisbe"
+          ],
+          "explanation": "Tek siga üçüne de hizmet eder."
+        },
+        {
+          "prompt": "İsm-i mekan ne zaman mef'il veznindedir?",
+          "options": [
+            "Muzaride zamme olunca",
+            "Her zaman",
+            "Muzarinin aynında kesre olunca",
+            "Hiçbir zaman"
+          ],
+          "explanation": "Yeclisu → meclis; yensuru → mensar."
+        },
+        {
+          "prompt": "Kitapta hem mensar'ın hem minsar'ın cem'i nedir?",
+          "options": [
+            "Mensarat",
+            "Nussar",
+            "Minasır",
+            "Menasır"
+          ],
+          "explanation": "İkisi için de mefa'il."
+        },
+        {
+          "prompt": "“Anahtar” anlamındaki miftah, aletin hangi veznindedir?",
+          "options": [
+            "Mif'al [elifle]",
+            "Mif'al",
+            "Mef'al",
+            "Mef'ul"
+          ],
+          "explanation": "Kitaplar mif'al, mif'al [elifle] ve mif'ale'yi verir."
+        },
+        {
+          "prompt": "Mensar'ı minsar'dan yalnız ne ayırır?",
+          "options": [
+            "Kök",
+            "Mimin harekesi",
+            "Son",
+            "Harf sayısı"
+          ],
+          "explanation": "Fetha: zaman ya da mekan; kesre: alet."
+        },
+        {
+          "prompt": "Sahih mücerred fiilin masdar-ı mimisi … veznindedir.",
+          "options": [
+            "her babda mef'il",
+            "mif'al",
+            "her babda mef'al",
+            "mef'ul"
+          ],
+          "explanation": "İsm-i mekandan farklı olarak muzarinin harekesine uymaz."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Noun": "İsim",
+          "Pattern": "Vezin",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Many": "Cem'",
+          "time, place, maṣdar mīmī": "zaman, mekan, masdar-ı mimi",
+          "instrument": "alet"
+        },
+        "caption": "Nasara'nın ism-i zaman, ism-i mekan ve ism-i aleti (Emsile, s. 253)"
+      },
+      "text": [
+        "mensarun “yardım zamanı veya yeri; yardım etmek”, mensarani “iki yardım zamanı veya yeri”, menasıru “yardım zamanları veya yerleri”",
+        "minsarun “yardım aleti”, minsarani “iki yardım aleti”, menasıru “yardım aletleri”"
+      ]
+    },
+    "17": {
+      "title": "Tek iş ve tarzı: merre ve nev'",
+      "body": [
+        "İki siga işi sayar ya da niteler. Bina-i merre nasra'dır: nasra, nasratani, nasarat, “bir yardım, iki, birkaç”. Vezni fe'ledir. Bina-i nev' nisra'dır: nisra, nisratani, nisarat, “bir yardım etme şekli”. Vezni fi'ledir.",
+        "İkisi de masdar üzerine yapılır ve ondan da birbirinden de küçük işaretlerle ayrılır: nasr, işin kendisi; te ile nasra, bir kez sayılan iş; kesre ve te ile nisra, belli bir çeşitten iş. Baskı iki cem'de de sad'ı fethayla harekeler: nasarat, nisarat.",
+        "Cümlede Acurrumiyye'nin (26. dersi) mef'ul-i mutlakı olarak kullanılırlar; o da işin sayısını ya da çeşidini gösterir: nasartühü nasraten, “ona bir kez yardım ettim”; nasartühü nasrateyni, “iki kez”; nasartühü nisraten, “ona belli bir şekilde yardım ettim”; arkasından genellikle hangi şekil olduğunu söyleyen bir kelime gelir.",
+        "Tuzak: nasra ile nisra, mensar ile minsar gibi, bir hareke farklıdır. Nasra'nın te'si de, mazi fiil nasarat'ın sakin te'si değil, harekeli ve tenvinli bir ismin yuvarlak te'sidir (nasratun)."
+      ],
+      "terms": [
+        "bina-i merre: bir kez, fe'le",
+        "bina-i nev': tarz, fi'le",
+        "fe'le: tek işin vezni",
+        "fi'le: tarzın vezni"
+      ],
+      "examples": [
+        "nasratun, nasratani, nasaratün: bir, iki, birkaç yardım",
+        "nisratun, nisratani, nisaratün: bir yardım etme şekli, iki, birkaç",
+        "nasartühü nasraten, “ona bir kez yardım ettim”: mef'ul-i mutlak olarak bina-i merre"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tercüme edin ve sigayı adlandırın: nasratun, nisratun, nasratani, nisaratün.",
+          "answer": "Nasratun: bir yardım (merre). Nisratun: bir yardım etme şekli (nev'). Nasratani: iki yardım (merre, tesniye). Nisaratün: yardım etme şekilleri (nev', cem')."
+        },
+        {
+          "prompt": "Bina-i merre ile “ona iki kez yardım ettim” deyin ve cümledeki son kelimenin görevini açıklayın.",
+          "answer": "Nasartühü nasrateyni. Nasrateyni bina-i merrenin tesniyesidir; işin sayısını veren, ya ile mansub bir mef'ul-i mutlaktır."
+        },
+        {
+          "prompt": "Nasratun ismini nasarat fiilinden nasıl ayırırsınız?",
+          "answer": "İsimde sad sakindir, te yuvarlaktır, harekelidir ve tenvin alır (nasratun); fiilde sad ve ra fethalıdır ve sakin bir te ile biter (nasarat), “o kadın yardım etti”."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Nasra neyi adlandırır?",
+          "options": [
+            "Bir yardım etme şeklini",
+            "Tek bir yardımı",
+            "Bir yardım yerini",
+            "Bir yardımcıyı"
+          ],
+          "explanation": "Bina-i merre, fe'le."
+        },
+        {
+          "prompt": "Nisra neyi adlandırır?",
+          "options": [
+            "Tek bir yardımı",
+            "Bir aleti",
+            "Bir yardım etme şeklini",
+            "Masdar-ı mimiyi"
+          ],
+          "explanation": "Bina-i nev', fi'le."
+        },
+        {
+          "prompt": "Bina-i merrenin vezni nedir?",
+          "options": [
+            "Fi'le",
+            "Fu'le",
+            "Mef'ale",
+            "Fe'le"
+          ],
+          "explanation": "Tek bir yardım olan nasra fe'le veznindedir; fi'le tarzdır."
+        },
+        {
+          "prompt": "Nasartühü nasraten'de nasraten …",
+          "options": [
+            "işin sayısını veren bir mef'ul-i mutlaktır",
+            "faildir",
+            "haldir",
+            "temyizdir"
+          ],
+          "explanation": "Acurrumiyye'nin masdar babında olduğu gibi."
+        },
+        {
+          "prompt": "Baskı nasarat cem'ini nasıl harekeler?",
+          "options": [
+            "Sad'da sükunla",
+            "Sad'da fethayla",
+            "Sad'da kesreyle",
+            "Harekesiz"
+          ],
+          "explanation": "Nasarat, nisarat."
+        },
+        {
+          "prompt": "Hangi çift yalnız bir harekeyle ayrılır?",
+          "options": [
+            "Nasra ile nasr",
+            "Nasr ile nasır",
+            "Nasra ile nisra",
+            "Nisra ile mensar"
+          ],
+          "explanation": "İlk harfte fetha ya da kesre."
+        },
+        {
+          "prompt": "Bina-i merrenin tesniyesi nedir?",
+          "options": [
+            "Nasrani",
+            "Nisratani",
+            "Nasırani",
+            "Nasratani"
+          ],
+          "explanation": "Nasrani masdarın, nisratani tarzın tesniyesidir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Form": "Siga",
+          "Pattern": "Vezin",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Many": "Cem'",
+          "once (marra)": "bir kez (merre)",
+          "manner (nawʿ)": "tarz (nev')"
+        },
+        "caption": "Merre ve nev' (Emsile, s. 253)"
+      },
+      "text": [
+        "nasratun “bir kere yardım etmek”, nasratani “iki kere yardım etmek”, nasaratün “birkaç kere yardım etmek”",
+        "nisratun “bir çeşit yardım etmek”, nisratani “iki çeşit yardım etmek”, nisaratün “yardım etme çeşitleri”"
+      ]
+    },
+    "18": {
+      "title": "İsm-i tasgir ve ism-i mensub",
+      "body": [
+        "İsm-i tasgir bir ismi küçültür: nusayr, “küçük bir yardım”, tesniyesi nusayrani ve cem'i nusayrune ile; bu baskı yalnız bu üçünü verir. Vezni fu'ayldır: ilk harfte zamme, ikincide fetha ve ondan sonra eklenen sakin bir ya. Şerhler, tasgirin sevgiyi ya da küçümsemeyi de gösterebileceğini ekler; birçok Arapça ad da tasgirdir: Amr'dan Umeyr, Zehr'den Züheyr.",
+        "İsm-i mensub (nisbe) bir ismi bir sıfata, “ile ilgili”, “-e ait” anlamına çevirir: şeddeli bir ya, -iyy eklenerek nasri, “yardımla ilgili”. Tablo iki cinsiyeti ve üç sayıyı verir: nasri, nasriyyani, nasriyyune; nasriyye, nasriyyetani, nasriyyat. Aynı son Mekki'yi, “Mekke'den”, ve Arabi'yi, “Arap, Arapça” yapar.",
+        "İkisi de fiil üzerine değil, isim üzerine yapılır: nusayr ve nasri masdar olan nasr'dan başlar. Emsile onları buraya koyar, çünkü talebenin karşılaşacağı her vezni, fiil olsun isim olsun, tek bir kök üzerinde toplar.",
+        "Nisbenin -iyy'ini “benim” anlamındaki -i ile karıştırmayın: nasri, “yardımla ilgili” anlamında nasriyy olarak ya da “yardımım” anlamında nasri olarak okunabilir. Şeddeli ya ve tenvin, nasriyyun, sıfatı gösterir."
+      ],
+      "terms": [
+        "ism-i tasgir: fu'ayl",
+        "fu'ayl: üç harfli ismin tasgir vezni",
+        "ism-i mensub (nisbe): -iyy ile",
+        "nisbe ya'sı: nisbenin şeddeli ya'sı"
+      ],
+      "examples": [
+        "nusayrun, nusayrani, nusayrune: bir, iki, çok sayıda tasgir",
+        "nasriyyun, nasriyyetün: “yardımla ilgili”, müzekker ve müennes",
+        "nasriyyani, nasriyyune: nisbenin tesniyesi ve cem'i"
+      ],
+      "tasks": [
+        {
+          "prompt": "Fu'ayl veznini sözle anlatın ve nusayr üzerinde gösterin.",
+          "answer": "İlk harfte zamme, ikincide fetha ve eklenmiş sakin bir ya: nu-say-r."
+        },
+        {
+          "prompt": "Nasr'ın nisbesini bir kadın, iki kadın ve çok kadın için verin.",
+          "answer": "Nasriyye, nasriyyetani, nasriyyat."
+        },
+        {
+          "prompt": "Harekesiz نصري kelimesini iki şekilde okuyun ve harekelerin nisbeyi nasıl gösterdiğini söyleyin.",
+          "answer": "Nasri, “yardımım” (mütekellim zamiri), ya da nasriyyun, “yardımla ilgili” (nisbe). Nisbede şeddeli bir ya vardır ve tenvin alır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İsm-i tasgir ne yapar?",
+          "options": [
+            "Cem' yapar",
+            "Nisbe sıfatı yapar",
+            "Bir ismi küçültür (ya da sevimli kılar)",
+            "Fiil yapar"
+          ],
+          "explanation": "Nusayr: “küçük bir yardım”."
+        },
+        {
+          "prompt": "Nusayr'ın vezni nedir?",
+          "options": [
+            "Fe'il",
+            "Fu'al",
+            "Fe''al",
+            "Fu'ayl"
+          ],
+          "explanation": "Zamme, fetha ve eklenmiş bir ya."
+        },
+        {
+          "prompt": "Nisbe nasıl yapılır?",
+          "options": [
+            "Şeddeli bir ya, -iyy eklenerek",
+            "Kökten önce bir mim eklenerek",
+            "Ayn şeddelenerek",
+            "-at eklenerek"
+          ],
+          "explanation": "Nasr → nasriyy; Mekke → Mekki."
+        },
+        {
+          "prompt": "Nasriyye …",
+          "options": [
+            "tasgirdir",
+            "nisbenin müennesidir",
+            "bina-i merredir",
+            "ism-i tafdildir"
+          ],
+          "explanation": "Bir erkek için nasri, bir kadın için nasriyye."
+        },
+        {
+          "prompt": "Tasgir ve nisbe ne üzerine yapılır?",
+          "options": [
+            "Mazi fiil üzerine",
+            "Emir üzerine",
+            "Bir isim üzerine, burada nasr masdarı",
+            "İsm-i mef'ul üzerine"
+          ],
+          "explanation": "İsimden yapılan isimlerdir."
+        },
+        {
+          "prompt": "Bu baskı tasgirin kaç sigasını verir?",
+          "options": [
+            "Altı",
+            "On dört",
+            "Bir",
+            "Üç"
+          ],
+          "explanation": "Nusayr, nusayrani, nusayrune."
+        },
+        {
+          "prompt": "Hangi ad bir tasgirdir?",
+          "options": [
+            "Umeyr",
+            "Amr",
+            "Ahmed",
+            "Muhammed"
+          ],
+          "explanation": "Umeyr, Amr'ın fu'ayl veznindeki tasgiridir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Form": "Siga",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Many": "Cem'",
+          "diminutive": "tasgir",
+          "nisba, man": "nisbe, erkek",
+          "nisba, woman": "nisbe, kadın"
+        },
+        "caption": "Nasara'nın tasgiri ve nisbesi (Emsile, s. 253–254)"
+      },
+      "text": [
+        "nusayrun “küçük bir yardım”, nusayrani “iki küçük yardım”, nusayrune “küçük yardımlar”",
+        "nasriyyun “yardıma mensup (bir erkek)”, nasriyyani “yardıma mensup (iki erkek)”, nasriyyune “yardıma mensup (erkekler)”\nnasriyyetun “yardıma mensup (bir kadın)”, nasriyyetani “yardıma mensup (iki kadın)”, nasriyyatün “yardıma mensup (kadınlar)”"
+      ]
+    },
+    "19": {
+      "title": "Mübalağa ve ism-i tafdil",
+      "body": [
+        "İsm-i failin mübalağası (mübalağatü ismi'l-fail), işi çok ya da sık yapanı vasfeder: nassar, “çok yardım eden”. Vezni burada fe''aldır: ayn şeddeli ve uzun bir a ile; tablo erkekler için nassar, nassarani, nassarune, kadınlar için nassare, nassaretani, nassarat verir. Kitaplar mübalağanın fe'ul ve fe'il gibi başka vezinlerini de sayar; el-Gaffar, el-Gafur ve er-Rahim ilahi isimlerinin hepsi mübalağadır.",
+        "İsm-i tafdil (“üstün tutma ismi”) birinin bir özelliğe ötekinden daha çok sahip olduğunu söyler: ensar, “daha yardımsever”, “en yardımsever”. Vezni erkek için ef'aldır, tesniyesi ensarani, cem'leri ensarune ve enasır; kadın için fu'la'dır: nusra, nusrayani, nusrayat ve nusar ile.",
+        "Kullanımını nahiv verir. Arkasından “-den” anlamındaki min gelince ism-i tafdil, kimi vasfederse vasfetsin olduğu gibi kalır: Zeydün ensaru min Amrin, “Zeyd Amr'dan daha yardımseverdir”; bir kadın ya da çok kişi için de aynı ensaru. Müennes ve cem' sigaları elif-lam ile ya da izafette kullanılır: en-nusra, “en yardımsever (kadın)”.",
+        "Bilinen çiftler vezni gösterir: ekber ve kübra, “daha büyük, en büyük”, asğar ve suğra, “daha küçük, en küçük”; medrese bunları es-Suğra ve el-Kübra gibi kitap adlarından bilir. İsm-i tafdil ensaru gayr-i munsariftir: mahfuz olunca tenvinsiz fetha alır."
+      ],
+      "terms": [
+        "ism-i failin mübalağası: işi çok yapan",
+        "fe''al: kitaptaki mübalağa vezni",
+        "ism-i tafdil: daha, en",
+        "ef'alü ve fu'la: erkek ve kadın için vezinleri"
+      ],
+      "examples": [
+        "nassarun, nassaretün: çok yardım eden bir erkek, bir kadın",
+        "ensaru, nusra: daha yardımsever, erkek ve kadın",
+        "Zeydün ensaru min Amrin, “Zeyd Amr'dan daha yardımseverdir”"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nassar, ensar ve nusra'nın fe'ale üzerindeki veznini verin ve her birinin ne demek olduğunu söyleyin.",
+          "answer": "Nassar: fe''al, mübalağa, “çok yardım eden”. Ensar: ef'al, erkek için ism-i tafdil, “daha yardımsever”. Nusra: fu'la, kadın için ism-i tafdil, “en yardımsever”."
+        },
+        {
+          "prompt": "“Hind Zeyd'den daha yardımseverdir” deyin ve ism-i tafdilin neden müennes olmadığını açıklayın.",
+          "answer": "Hindün ensaru min Zeydin. Arkasından min gelince ism-i tafdil, kimi vasfederse vasfetsin müfred müzekker sigasında kalır."
+        },
+        {
+          "prompt": "Tablodaki ensar ve nusra'nın iki cem'ini verin.",
+          "answer": "Ensar: ensarune ve enasır. Nusra: nusrayat ve nusar."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Nassar neyi vasfeder?",
+          "options": [
+            "Yardım edileni",
+            "Daha yardımseveri",
+            "Küçük bir yardımı",
+            "Çok yardım edeni"
+          ],
+          "explanation": "İsm-i failin mübalağası."
+        },
+        {
+          "prompt": "Erkek için ism-i tafdilin vezni nedir?",
+          "options": [
+            "Ef'al",
+            "Fu'la",
+            "Fe''al",
+            "Fail"
+          ],
+          "explanation": "“Daha yardımsever” anlamındaki ensar ef'al veznindedir; fu'la kadın içindir."
+        },
+        {
+          "prompt": "Tabloda kadın için ism-i tafdil hangisidir?",
+          "options": [
+            "Nassare",
+            "Nusra",
+            "Nasıra",
+            "Ensara"
+          ],
+          "explanation": "Fu'la: nusra."
+        },
+        {
+          "prompt": "Zeydün ensaru min Amrin'de ensaru neden değişmez?",
+          "options": [
+            "Çünkü Zeyd erkektir",
+            "Çünkü fiildir",
+            "Arkasından min gelince ism-i tafdil tek sigayı korur",
+            "Çünkü Amr mahfuzdur"
+          ],
+          "explanation": "Aynı ensaru bir kadına ya da çok kişiye de hizmet eder."
+        },
+        {
+          "prompt": "Hangi çift ism-i tafdilin iki veznini gösterir?",
+          "options": [
+            "Kebir ve kebire",
+            "Katib ve katibe",
+            "Kitab ve kütüb",
+            "Ekber ve kübra"
+          ],
+          "explanation": "Ef'al ve fu'la, asğar ve suğra gibi."
+        },
+        {
+          "prompt": "El-Gaffar …",
+          "options": [
+            "fe''al vezninde bir mübalağadır",
+            "bir ism-i tafdildir",
+            "bir tasgirdir",
+            "bir ism-i mef'uldür"
+          ],
+          "explanation": "Çok bağışlayan."
+        },
+        {
+          "prompt": "Enasır … cem'idir.",
+          "options": [
+            "nassar'ın",
+            "ensar'ın",
+            "nasır'ın",
+            "mensar'ın"
+          ],
+          "explanation": "Tablo ensarune ve enasır'ı verir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Form": "Siga",
+          "One": "Müfred",
+          "Two": "Tesniye",
+          "Plurals": "Cem'ler",
+          "intensive, man": "mübalağa, erkek",
+          "intensive, woman": "mübalağa, kadın",
+          "elative, man": "tafdil, erkek",
+          "elative, woman": "tafdil, kadın"
+        },
+        "caption": "Nasara'nın mübalağası ve ism-i tafdili (Emsile, s. 254–255)"
+      },
+      "text": [
+        "nassarun “çok yardım eden (bir erkek)”, nassarani “çok yardım eden iki erkek”, nassarune “çok yardım eden erkekler”\nnassaratun “çok yardım eden (bir kadın)”, nassaratani “çok yardım eden iki kadın”, nassaratün “çok yardım eden kadınlar”",
+        "ensaru “daha çok yardım eden (bir erkek)”, ensarani “daha çok yardım eden iki erkek”, ensarune “daha çok yardım eden erkekler”\nve enasıru “daha çok yardım edenler (erkek, cem'-i mükesser)”, nusra “daha çok yardım eden (bir kadın)”, nusrayani “daha çok yardım eden iki kadın”\nnusrayatün “daha çok yardım eden kadınlar”, ve nusarun “daha çok yardım edenler (kadın, cem'-i mükesser)”"
+      ]
+    },
+    "20": {
+      "title": "İki taaccüb fiili",
+      "body": [
+        "Kitap, her biri on dört yerde, iki taaccüb fiiliyle biter. Birincisi ma ef'alehu'dur: ma ensarahu, “ne kadar yardımsever!”. İkincisi ef'il bihi'dir: aynı anlamdaki ensır bihi. İkisinde de fiil hiç değişmez; şahıslar boyunca yalnız kendisine taaccüb edilenin zamiri değişir: ma ensarahu, ma ensarahüma, ma ensarahüm … ma ensarani, ma ensarana; ensır bihi, ensır bihima … ensır bi, ensır bina.",
+        "Parçaları nahiv açıklar. Ma ensarahu'da ma, cümlenin başında bir isimdir; Basralılar onu “büyük bir şey” diye açıklar; ensara ef'ale vezninde mazi bir fiildir, faili gizli bir zamirdir; -hu onun mef'ulüdür, kendisine taaccüb edilendir. Kelimesi kelimesine: “büyük bir şey onu yardımsever kıldı”. Bu yüzden zamir bir mef'ul zamiridir: vikaye nunuyla ma ensarani, “ne kadar yardımseverim!”.",
+        "İkinci siga ensır bihi, şekilce emir, anlamca bildirimdir. Sabittir: çok kişi için ensıru bihim denmez; bütün değişmeyi bi- ve zamiri taşır. Baskı her sigayı okuyuşa ve- ile bağlar: ve ensır bihi.",
+        "Kur'an ikisini de kullanır: kutile'l-insanü ma ekferahu, “kahrolsun insan! ne kadar nankör!” (Abese 80/17), ve esmi' bihim ve ebsır, “ne iyi duyacaklar ve görecekler!” (Meryem 19/38).",
+        "Bununla Emsile tamamlanır: tek bir fiil, yeni başlayanın ihtiyaç duyduğu her sigada ortaya konmuş, bilininceye kadar sesli okunmuş. Osmanlı medresesinde sırada Bina ve Maksud vardır; bunlar bu sigaların nasıl kurulduğunu ve diğer babların ve vezinlerin onları nasıl izlediğini açıklar; İzzi ve Merahu'l-ervah aynı konuyu daha ileri götürür."
+      ],
+      "terms": [
+        "taaccüb: “ne kadar …!”",
+        "ma ef'alehu: birinci taaccüb fiili",
+        "ef'il bihi: yalnız şekilce emir olan ikinci taaccüb fiili",
+        "müteaccebün minh: kendisine taaccüb edilen, değişen zamir"
+      ],
+      "examples": [
+        "ma ensarahu, “ne kadar yardımsever!”; ma ensarani, “ne kadar yardımseverim!”",
+        "ve ensır bihim, “ne kadar yardımseverler!”: fiil sabit, zamir değişir",
+        "kutile'l-insanü ma ekferahu, “kahrolsun insan! ne kadar nankör!” (Abese 80/17)",
+        "esmi' bihim ve ebsır, “ne iyi duyacaklar ve görecekler!” (Meryem 19/38)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tercüme edin: ma ensaraha; ma ensaraküm; ensır bihinne; ensır bina.",
+          "answer": "“O kadın ne kadar yardımsever!”; “siz (erkekler) ne kadar yardımseversiniz!”; “onlar (kadınlar) ne kadar yardımsever!”; “biz ne kadar yardımseveriz!”."
+        },
+        {
+          "prompt": "Basralıların görüşüne göre ma ensarahu'yu kelime kelime i'rab edin.",
+          "answer": "Ma: cümlenin başında “büyük bir şey” anlamında bir isim (mübteda). Ensara: ef'ale vezninde mazi bir fiil, faili ma'ya dönen gizli bir zamir. -hu: muttasıl bir zamir, mef'ulü. Faili ve mef'uluyle fiil, ma'nın haberidir."
+        },
+        {
+          "prompt": "Her taaccüb fiilinin hangi kısmı on dört şahıs boyunca değişir, hangisi hiç değişmez?",
+          "answer": "Ma ef'alehu'da yalnız fiilden sonraki mef'ul zamiri değişir (-hu, -hüma, -hüm …); ma ensara kalır. Ef'il bihi'de yalnız bi-'den sonraki zamir değişir; ensır sayı ya da cinsiyet sonu hiç almaz."
+        },
+        {
+          "prompt": "Abese 80/17'deki taaccüb fiilini bulun ve veznini verin.",
+          "answer": "Ma ekferahu, “ne kadar nankör!”: birinci taaccüb fiili, ma ef'alehu, küfr kökünden."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ma ensarahu ne demektir?",
+          "options": [
+            "Ne kadar yardımsever!",
+            "Ona yardım etmedi",
+            "Ona ne yardım etti?",
+            "Ona yardım et!"
+          ],
+          "explanation": "Birinci taaccüb fiili."
+        },
+        {
+          "prompt": "Ma ensarahu'nun şahısları boyunca ne değişir?",
+          "options": [
+            "Fiilin sonu",
+            "Yalnız fiilden sonraki zamir",
+            "Ma",
+            "Kök"
+          ],
+          "explanation": "Ma ensarahu, ma ensarahüm, ma ensarani…"
+        },
+        {
+          "prompt": "Ensır bihi şekilce …",
+          "options": [
+            "mazi bir fiildir",
+            "bir masdardır",
+            "bir emirdir, ama anlamca bir taaccüb bildirimidir",
+            "bir nefydir"
+          ],
+          "explanation": "Sabittir; yalnız bi-'den sonraki zamir değişir."
+        },
+        {
+          "prompt": "“Ne kadar yardımseverim!” …",
+          "options": [
+            "Ma ensari",
+            "Ma ensartü",
+            "Ensır bike",
+            "Ma ensarani"
+          ],
+          "explanation": "Vikaye nunuyla -ni mef'ul zamiri."
+        },
+        {
+          "prompt": "Basralıların görüşüne göre ma ensarahu'da ma nedir?",
+          "options": [
+            "“Büyük bir şey” anlamında bir isim",
+            "Bir nefy harfi",
+            "Bir soru kelimesi",
+            "Bir şart harfi"
+          ],
+          "explanation": "“Büyük bir şey onu yardımsever kıldı.”"
+        },
+        {
+          "prompt": "Hangi Kur'an ibaresi ikinci taaccüb fiilini kullanır?",
+          "options": [
+            "Ma ekferahu (Abese 80/17)",
+            "Esmi' bihim ve ebsır (Meryem 19/38)",
+            "La raybe fih (Bakara 2/2)",
+            "İyyake na'büdü (Fatiha 1/5)"
+          ],
+          "explanation": "Ef'il bihi: esmi' bihim."
+        },
+        {
+          "prompt": "Osmanlı yolunda sırada hangi kitaplar gelir?",
+          "options": [
+            "Elfiyye ve Katrü'n-neda",
+            "Yalnız Acurrumiyye",
+            "Bina ve Maksud",
+            "Hiçbiri"
+          ],
+          "explanation": "Emsile'nin sigalarının nasıl kurulduğunu açıklarlar."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Of whom": "Kimin için",
+          "First form": "Birinci siga",
+          "Second form": "İkinci siga",
+          "him": "o (erkek)",
+          "them two (men)": "o ikisi (erkekler)",
+          "them (men)": "onlar (erkekler)",
+          "her": "o (kadın)",
+          "them two (women)": "o ikisi (kadınlar)",
+          "them (women)": "onlar (kadınlar)",
+          "you (man)": "sen (erkek)",
+          "you two (men)": "siz ikiniz (erkekler)",
+          "you (men)": "siz (erkekler)",
+          "you (woman)": "sen (kadın)",
+          "you two (women)": "siz ikiniz (kadınlar)",
+          "you (women)": "siz (kadınlar)",
+          "me": "ben",
+          "us": "biz"
+        },
+        "caption": "Nasara'nın iki taaccüb fiili (Emsile, s. 255–256)"
+      },
+      "text": [
+        "ma ensarahü “o (bir erkek) ne çok yardım eder!”, ma ensarahüma “o ikisi (erkek) ne çok yardım ederler!”, ma ensarahüm “onlar (erkekler) ne çok yardım ederler!”\nma ensaraha “o (bir kadın) ne çok yardım eder!”, ma ensarahüma “o ikisi (kadın) ne çok yardım ederler!”, ma ensarahünne “onlar (kadınlar) ne çok yardım ederler!”\nma ensarake “sen (bir erkek) ne çok yardım edersin!”, ma ensaraküma “siz ikiniz (erkek) ne çok yardım edersiniz!”, ma ensaraküm “siz (erkekler) ne çok yardım edersiniz!”\nma ensaraki “sen (bir kadın) ne çok yardım edersin!”, ma ensaraküma “siz ikiniz (kadın) ne çok yardım edersiniz!”, ma ensarakünne “siz (kadınlar) ne çok yardım edersiniz!”\nma ensarani “ben ne çok yardım ederim!”, ma ensarana “biz ne çok yardım ederiz!”",
+        "ve ensır bihi “o (bir erkek) ne çok yardım eder!”, ve ensır bihima “o ikisi (erkek) ne çok yardım ederler!”, ve ensır bihim “onlar (erkekler) ne çok yardım ederler!”\nve ensır biha “o (bir kadın) ne çok yardım eder!”, ve ensır bihima “o ikisi (kadın) ne çok yardım ederler!”, ve ensır bihinne “onlar (kadınlar) ne çok yardım ederler!”\nve ensır bike “sen (bir erkek) ne çok yardım edersin!”, ve ensır biküma “siz ikiniz (erkek) ne çok yardım edersiniz!”, ve ensır biküm “siz (erkekler) ne çok yardım edersiniz!”\nve ensır biki “sen (bir kadın) ne çok yardım edersin!”, ve ensır biküma “siz ikiniz (kadın) ne çok yardım edersiniz!”, ve ensır bikünne “siz (kadınlar) ne çok yardım edersiniz!”\nve ensır bi “ben ne çok yardım ederim!”, ve ensır bina “biz ne çok yardım ederiz!”"
+      ]
+    }
   }
- }
 }

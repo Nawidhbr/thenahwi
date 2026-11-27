@@ -1,0 +1,34 @@
+{
+  "items": {
+    "kalam-1": {
+      "prompt": "Manakah yang termasuk kalam?",
+      "options": [
+        "Zaidun qa'imun (Zaid berdiri)",
+        "in qama Zaidun (jika Zaid berdiri)",
+        "fil-baiti (di dalam rumah)",
+        "Zaidun (Zaid)"
+      ],
+      "explanation": "Hanya Zaidun qa'imun yang memberi makna sempurna; yang lain membuat pendengar menunggu."
+    },
+    "kalam-2": {
+      "prompt": "Bagaimana Jurumiyah mendefinisikan kalam?",
+      "options": [
+        "Lafazh yang tersusun yang memberi faedah dengan wadh'i",
+        "Satu kata dengan satu makna",
+        "Suara apa pun yang diucapkan orang",
+        "Kata yang menamai waktu"
+      ],
+      "explanation": "Definisinya meminta lafazh yang tersusun dari kata-kata, yang memberi faedah sempurna, menurut wadh'i (ketentuan) orang Arab."
+    },
+    "kalam-3": {
+      "prompt": "Paling sedikit apa yang dibutuhkan kalam?",
+      "options": [
+        "Dua kata yang menyempurnakan makna",
+        "Satu kata",
+        "Fi'il dan maf'ul bih",
+        "Tiga kata dan satu huruf"
+      ],
+      "explanation": "Isim dengan isim (Zaidun qa'imun) atau fi'il dengan isim (qama Zaidun) sudah cukup."
+    }
+  }
+}

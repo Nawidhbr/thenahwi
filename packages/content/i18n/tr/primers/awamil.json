@@ -1,118 +1,2436 @@
 {
- "parts": {},
- "lessons": {
-  "1": {
-   "text": [
-    "Rahman ve Rahim olan Allah'ın adıyla. Hamd, alemlerin Rabbi olan Allah'adır; salat ve selam Muhammed'e ve onun bütün aline olsun. Bundan sonra bil ki i'rabı bilmek isteyen herkesin yüz şeyi bilmesi gerekir: bunların altmışına amil, otuzuna ma'mul, onuna da amel ve i'rab denir.",
-    "Allah Teala'nın izniyle bu üçünü sana kısaca üç babda açıklayacağım: birinci bab amil hakkında, ikinci bab ma'mul hakkında, üçüncü bab i'rab hakkındadır.",
-    "Amil iki çeşittir: lafzi ve ma'nevi. Lafzi iki kısımdır: semai ve kıyasi. Semai olanlar kırk dokuzdur ve beş nevidir."
-   ]
+  "title": "Avamil (el-Avamilü'l-cedide)",
+  "summary": "Osmanlı medresesinin ilk nahiv kitabı; Birgili Mehmed Efendi'nin (İmam Birgivi, ö. 981/1573) eseridir, sarfa giriş kitaplarından sonra ve onun İzharu'l-esrar'ından önce okunur. İ'rabın bütününü bilinmesi gereken yüz şey olarak ortaya koyar: altmış amil, otuz ma'mul ve on i'rab alameti, üç kısa babda; neredeyse her örnek nahvin yanında bir inanç ya da ahlak noktası da öğretir. Dersler amilleri çeşit çeşit, sonra ma'mulleri ve alametleri ele alır, her kuralı Birgivi'nin kendi cümleleri üzerinde açıklar ve iki kitabın ayrıldığı yerlerde Acurrumiyye ile karşılaştırır.",
+  "parts": {
+    "opening": "Yüz şey",
+    "governor": "Birinci bab: amil",
+    "governed": "İkinci bab: ma'mul",
+    "irab": "Üçüncü bab: i'rab"
   },
-  "2": {
-   "text": [
-    "Birinci nevi: yalnız bir ismi cerr eden harflerdir; bunlara cerr harfleri ve izafet harfleri denir ve yirmidir. Birincisi ba'dır (bi-); amentü billahi ve bihi la bi-ğayrihi “Allah'a, O'na iman ettim, başkasına değil” gibi. İkincisi min'dir; tübtü min külli zenbin “her günahtan tövbe ettim” gibi. Üçüncüsü ila'dır; tübtü ilallahi te'ala “Allah Teala'ya tövbe ettim” gibi. Dördüncüsü an'dır; kefeftü 'ani'l-harami “haramdan el çektim” gibi.",
-    "Beşincisi ala'dır; tecibü't-tevbetu 'ala külli müznibin “tövbe her günahkara vaciptir” gibi. Altıncısı lam'dır (li-); ena 'ubeydün lillahi te'ala “ben Allah Teala'nın küçük bir kuluyum” gibi. Yedincisi fi'dir; el-muti'u fi'l-cenneti “itaat eden cennettedir” gibi. Sekizincisi kaf'tır (ke-); Allah Teala'nın leyse ke-mislihi şey'un “O'nun benzeri hiçbir şey yoktur” sözü gibi. Dokuzuncusu hatta'dır; e'büdüllahe te'ala hatta'l-mevti “ölünceye kadar Allah Teala'ya ibadet ederim” gibi. Onuncusu rubbe'dir; rubbe talin yel'anühü'l-kur'anü “nice okuyucu vardır ki Kur'an ona lanet eder” gibi."
-   ]
-  },
-  "3": {
-   "text": [
-    "On birincisi kasem vavıdır; vellahi la ef'alü'l-keba'ira “Allah'a yemin olsun ki büyük günahları işlemem” gibi. On ikincisi kasem tasıdır; tellahi le-ef'alenne'l-fera'ida “Allah'a yemin olsun ki farzları mutlaka yapacağım” gibi. On üçüncüsü haşa'dır; heleke'n-nasü haşa'l-'alimi “alim hariç insanlar helak oldu” gibi. On dördüncüsü müz'dür; tübtü min külli zenbin fe'altühü müz yevmi'l-büluğı “buluğ gününden beri işlediğim her günahtan tövbe ettim” gibi. On beşincisi münzü'dür; tecibü's-salatu münzü yevmi'l-büluğı “namaz buluğ gününden itibaren farzdır” gibi.",
-    "On altıncısı hala'dır; heleke'l-'alimune hala'l-'amili bi-'amelihi “ameliyle amel eden hariç alimler helak oldu” gibi. On yedincisi ada'dır; heleke'l-'amilune 'ada'l-muhlisı “ihlaslı olan hariç amel edenler helak oldu” gibi. On sekizincisi levla'dır; levlake ya rahmetellahi le-heleke'n-nasü “ey Allah'ın rahmeti, sen olmasaydın insanlar helak olurdu” gibi. On dokuzuncusu key'dir; keymeh 'asayte “ne için isyan ettin?” gibi. Yirmincisi Ukayl lügatinde lealle'dir; le'allellahi te'ala yağfiru zenbi “umulur ki Allah Teala günahımı bağışlar” gibi."
-   ]
-  },
-  "4": {
-   "text": [
-    "İkinci nevi: ismi nasb, haberi ref' eden harflerdir ve sekizdir. Birincisi inne'dir; innellahe te'ala 'alimü külli şey'in “şüphesiz Allah Teala her şeyi bilendir” gibi. İkincisi enne'dir; e'takıdü ennellahe te'ala kadirun 'ala külli şey'in “Allah Teala'nın her şeye kadir olduğuna inanırım” gibi. Üçüncüsü keenne'dir; ke'enne'l-harame narun “haram sanki ateştir” gibi. Dördüncüsü lakinne'dir; ma faze'l-cahilü lakinne'l-'alime fa'izün “cahil kurtuluşa ermedi, fakat alim kurtuluşa erendir” gibi.",
-    "Beşincisi leyte'dir; leyte'l-'ilme merzukun li-külli ahadin “keşke ilim herkese nasip olsa” gibi. Altıncısı lealle'dir; le'allellahe te'ala ğafirun zenbi “umulur ki Allah Teala günahımı bağışlayandır” gibi. Bu altısına fiile benzeyen harfler (huruf-ı müşebbehe bi'l-fiil) denir. Yedincisi istisna-i munkatı'daki illa'dır; el-me'sıyetu müb'idetun 'ani'l-cenneti illa't-ta'ate mukarribetun minha “isyan cennetten uzaklaştırır, fakat itaat ona yaklaştırır” gibi. Sekizincisi cinsi nefyeden la'dır; la fa'ile şerrin fa'izün “hiçbir kötülük işleyen kurtuluşa eren değildir” gibi."
-   ]
-  },
-  "5": {
-   "text": [
-    "Üçüncü nevi: ismi ref', haberi nasb eden iki harftir; bunlar leyse'ye benzeyen ma ve la'dır; mallahü te'ala mütemekkinen bi-mekanin “Allah Teala bir mekanda yerleşmiş değildir”, ve la şey'un müşabihen lillahi te'ala “hiçbir şey Allah Teala'ya benzer değildir” gibi.",
-    "Dördüncü nevi: fiil-i muzariyi nasb eden harflerdir ve dörttür. Birincisi en'dir; uhibbü en uti'allahe te'ala “Allah Teala'ya itaat etmeyi severim” gibi. İkincisi len'dir; len yağfirallahü te'ala li'l-kafirine “Allah Teala kafirleri asla bağışlamayacaktır” gibi. Üçüncüsü key'dir; uhibbü tule'l-'umüri key uhassıle'l-'ilme “ilim tahsil edeyim diye uzun ömrü severim” gibi. Dördüncüsü izen'dir; uti'ullahe te'ala “Allah Teala'ya itaat ederim” diyene söylediğin izen tedhule'l-cennete “o halde cennete girersin” sözün gibi."
-   ]
-  },
-  "6": {
-   "text": [
-    "Beşinci nevi: fiil-i muzariyi cezm eden kelimelerdir ve on beştir. Birincisi lem'dir; Allah Teala'nın lem yelid ve lem yuled “doğurmadı ve doğurulmadı” sözü gibi. İkincisi lemma'dır; lemma yenfe' 'umüri “ömrüm henüz fayda vermedi” gibi. Üçüncüsü emr lamıdır; li-ye'mel 'amelen salihan “salih bir amel işlesin” gibi. Dördüncüsü nehiydeki la'dır; la tüznib “günah işleme” gibi. Bu dördü bir fiili cezm eder.",
-    "Beşincisi in'dir; in tetüb tuğfer zünubüke “tövbe edersen günahların bağışlanır” gibi. Altıncısı mehma'dır; mehma tef'al tüs'el 'anhü “ne yaparsan ondan sorulursun” gibi. Yedincisi ma'dır; ma tef'al min hayrin tecidhü 'indellahi te'ala “hayırdan ne yaparsan onu Allah Teala katında bulursun” gibi. Sekizincisi men'dir; men ye'mel 'amelen salihan yekün naciyen “kim salih bir amel işlerse kurtulan olur” gibi. Dokuzuncusu eyne'dir; eyne tekün yudrikke'l-mevtü “nerede olursan ölüm sana erişir” gibi. Onuncusu meta'dır; meta tahsüd tehlik “ne zaman hased edersen helak olursun” gibi.",
-    "On birincisi enna'dır; enna tüznib ye'lemkellahü te'ala “nerede günah işlersen Allah Teala seni bilir” gibi. On ikincisi eyyün'dür; eyyu 'alimin yetekebber yubğıdhüllahü te'ala “hangi alim kibirlenirse Allah Teala ona buğzeder” gibi. On üçüncüsü haysüma'dır; haysüma tef'al yukteb fi'lüke “nerede bir iş yaparsan işin yazılır” gibi. On dördüncüsü izma'dır; izma tetüb tukbel tevbetüke “tövbe edersen tövben kabul olunur” gibi. On beşincisi iza ma'dır; iza ma te'mel bi-'ilmike tekün hayra'n-nasi “ilminle amel edersen insanların en hayırlısı olursun” gibi. Bu on biri, şart ve ceza diye adlandırılan iki fiili cezm eder."
-   ]
-  },
-  "7": {
-   "text": [
-    "Kıyasi olanlar dokuzdur. Birincisi mutlak olarak fiildir: her fiil ref' ve nasb eder; halakallahü te'ala külle şey'in “Allah Teala her şeyi yarattı”, ve nezele'l-kur'anü nüzulen “Kur'an bir inişle indi” gibi. Her fiilin mutlaka bir merfuu vardır; eğer onunla kelam tamam olursa fiil-i tam denir; 'alimellahü te'ala “Allah Teala bildi” gibi.",
-    "Eğer onunla tamam olmaz da mansub bir habere muhtaç olursa fiil-i nakıs denir; kanellahü te'ala 'alimen hakimen “Allah Teala Alim ve Hakim'dir”, ve sara'l-'asi müstahikkan li'l-'azabi “asi azaba müstahak oldu”, ve ma zale'l-müznibü be'iden minellahi te'ala “günahkar Allah Teala'dan uzak olmaya devam etti”, ve tukbelü't-tevbetu ma dame'r-ruhu dahılen fi'l-bedeni “ruh bedende bulundukça tövbe kabul olunur”, ve leysellahü te'ala cismen “Allah Teala cisim değildir” gibi."
-   ]
-  },
-  "8": {
-   "text": [
-    "İkincisi ism-i faildir: ma'lum fiilinin amelini yapar; küllü hasudin muhrikun hasedühü 'amelehü “her hasetçinin hasedi amelini yakar” gibi. Üçüncüsü ism-i mef'uldür: meçhul fiilinin amelini yapar; küllü ta'ibin makbuletun tevbetühü “her tövbe edenin tövbesi kabul olunur” gibi. Dördüncüsü sıfat-ı müşebbehedir: o da fiilinin amelini yapar; el-'ibadetu hasenün sevabüha “ibadetin sevabı güzeldir”, ve'l-me'sıyetu kabihun 'azabüha “isyanın azabı çirkindir” gibi.",
-    "Beşincisi ism-i tafdildir: o da fiilinin amelini yapar; ma min raculin ahsene fihi'l-hilmü minhü fi'l-'alimi “hilmin kendisinde, alimdeki hilimden daha güzel olduğu hiçbir adam yoktur” gibi. Altıncısı masdardır: o da fiilinin amelini yapar; yuhibbüllahü te'ala i'ta'ehü 'abdehü fakiran dirhemen “Allah Teala, onun fakir kölesine bir dirhem vermesini sever” gibi."
-   ]
-  },
-  "9": {
-   "text": [
-    "Yedincisi muzaf isimdir: cerr ameli yapar; 'ibadetullahi te'ala hayrun “Allah Teala'ya ibadet hayırdır” gibi. Sekizincisi tam mübhem isimdir: nasb ameli yapar; et-teravihu 'işrune rak'aten “teravih yirmi rek'attır” gibi.",
-    "Dokuzuncusu fiil ma'nasıdır, yani kendisinden bir fiil ma'nası anlaşılan her lafızdır; heyhate'l-müznibü minellahi te'ala “günahkar Allah Teala'dan ne kadar uzaktır!”, ve teraki zenben “günahı bırak!”, ma fi'd-dünya rahatun “dünyada rahat yoktur” ve yenbaği li'l-'alimi en yekune muhammediyyen hulukuhü “alimin ahlakının Muhammedi olması gerekir” gibi.",
-    "Ma'nevi olanlar ikidir. Birincisi mübteda ve haberi ref' edendir; Muhammedün rasulüllahi “Muhammed Allah'ın Resulüdür” gibi. İkincisi fiil-i muzariyi ref' edendir; yerhamüllahü te'ala't-ta'ibe “Allah Teala tövbe edene merhamet eder” gibi."
-   ]
-  },
-  "10": {
-   "text": [
-    "Ma'mul iki çeşittir: asaleten ma'mul ve tebeiyyetle ma'mul; yani i'rabı, tabi olduğu kelimenin i'rabı gibi olan. Birinci çeşit dört nevidir: merfu, mansub, isme mahsus olan mecrur ve fiile mahsus olan meczum.",
-    "Merfu olanlar dokuzdur. Birincisi faildir; rahimellahü te'ala't-ta'ibe “Allah Teala tövbe edene merhamet etti” gibi. İkincisi naib-i faildir; ruhime't-ta'ibü “tövbe edene merhamet edildi” gibi. Üçüncüsü mübteda, dördüncüsü haberdir; Muhammedün hatemü'l-enbiya'i 'aleyhimü's-salatu ve's-selamü “Muhammed, peygamberlerin sonuncusudur; onlara salat ve selam olsun” gibi. Beşincisi kane ve kardeşleri babının ismidir; kanellahü te'ala 'alimen hakimen “Allah Teala Alim ve Hakim'dir” gibi.",
-    "Altıncısı inne babının haberidir; inne'l-be'se hakkun “şüphesiz öldükten sonra dirilme haktır” gibi. Yedincisi cinsi nefyeden la'nın haberidir; la 'amele müra'in makbulün “riyakarın hiçbir ameli kabul olunmaz” gibi. Sekizincisi leyse'ye benzeyen ma ve la'nın ismidir; ma't-tekebbüru la'ikan li'l-'alimi “kibir alime yakışan değildir”, ve la hasedün halalen “hiçbir haset helal değildir” gibi. Dokuzuncusu nevasıb ve cevazimden boş olan fiil-i muzaridir; yuhibbüllahü te'ala't-tevadu'a “Allah Teala tevazuu sever” gibi."
-   ]
-  },
-  "11": {
-   "text": [
-    "Mansub olanlar on üçtür. Birincisi mef'ul-i mutlaktır; tübtü tevbeten nasuhan “samimi bir tövbe ile tövbe ettim” gibi. İkincisi mef'ulün bihtir; u'büdillahe te'ala “Allah Teala'ya ibadet et” gibi. Üçüncüsü mef'ulün fihtir; sum şehra Ramadane “Ramazan ayında oruç tut” gibi. Dördüncüsü mef'ulün lehtir; i'mel taleben li-merdatillahi te'ala “Allah Teala'nın rızasını isteyerek amel et” gibi. Beşincisi mef'ulün maahtır; yefna'l-malü ve tebka ve 'ameleke “mal yok olur, sen amelinle beraber kalırsın” gibi.",
-    "Altıncısı haldir; u'büdillahe te'ala ha'ifen raciyen “Allah Teala'ya korkarak ve umarak ibadet et” gibi. Yedincisi temyizdir; tabe'l-'alimü 'ibadeten “alim ibadetçe güzel oldu” gibi. Sekizincisi müstesnadır; yedhulü'l-cennete'n-nasü illa'l-kafira “kafir hariç insanlar cennete girer” gibi. Dokuzuncusu kane babının haberidir; kane'l-mela'iketu 'ibadellahi te'ala “melekler Allah Teala'nın kullarıdır” gibi. Onuncusu inne babının ismidir; inne's-sü'ale hakkun “şüphesiz (kabirdeki) sual haktır” gibi."
-   ]
-  },
-  "12": {
-   "text": [
-    "On birincisi cinsi nefyeden la'nın ismidir; la ta'ate muğtabin makbuletun “gıybet edenin hiçbir itaati kabul olunmaz” gibi. On ikincisi leyse'ye benzeyen ma ve la'nın haberidir; ma'l-ğibetu halalen “gıybet helal değildir”, ve la nemimetun ca'izeten “hiçbir koğuculuk caiz değildir” gibi. On üçüncüsü kendisine nevasıbdan biri giren fiil-i muzaridir; uhibbü en tuğfera zünubi “günahlarımın bağışlanmasını severim” gibi.",
-    "Mecrur olanlar ikidir. Birincisi cerr harfiyle mecrur olandır; i'mel bi-ihlasın “ihlasla amel et” gibi. İkincisi izafetle mecrur olandır; zenbü'l-'abdi yusevvidü kalbehü “kulun günahı kalbini karartır” gibi. Meczum olan ise birdir: kendisine cevazimden biri giren fiil-i muzaridir; in tuhlis yukbel 'amelüke “ihlaslı olursan amelin kabul olunur” gibi."
-   ]
-  },
-  "13": {
-   "text": [
-    "İkinci çeşit beştir. Birincisi sıfattır; u'büdillahe'l-'azime “Azim olan Allah'a ibadet et” gibi. İkincisi on harften biriyle olan atftır: vav; uti'ullahe ve'r-rasule “Allah'a ve Resul'e itaat ederim” gibi; fa; tecibü tekbiratu'l-iftitahi fe'l-kıyamü “iftitah tekbiri, ardından da kıyam farzdır” gibi; sümme; yecibü'l-'ilmü sümme'l-'amelü “ilim, sonra amel farzdır” gibi; hatta; mate'n-nasü hatta'l-enbiya'u 'aleyhimü's-salatu ve's-selamü “insanlar, peygamberler bile, öldü; onlara salat ve selam olsun” gibi; ev; salli'd-duha erbe'an ev semaniyen “kuşluk namazını dört veya sekiz rek'at kıl” gibi; imma; i'mel imma vaciben ve imma müstahabben “ya farz olanı ya da müstehap olanı işle” gibi; em; e-rida'ellahi te'ala tatlübü em sahatahü “Allah Teala'nın rızasını mı istiyorsun, yoksa gazabını mı?” gibi; la; i'mel salihan la seyyi'en “kötüyü değil, iyiyi işle” gibi; bel; utlüb halalen bel tayyiben “helali, hatta temiz olanı iste” gibi; ve lakin; la yahillü riya'un lakin ihlasun “riya helal değildir, fakat ihlas (helaldir)” gibi.",
-    "Üçüncüsü te'kiddir; utlübi'l-ihlasa'l-ihlasa “ihlası, ihlası iste” ve utruki'z-zünube külleha “günahların hepsini bırak” gibi. Dördüncüsü bedeldir; u'büd rabbeke ilahe'l-'alemine “Rabbine, alemlerin İlahına ibadet et”, ubğıdu'n-nase men 'asallahe te'ala minhüm “insanlardan Allah Teala'ya isyan edenlere buğzederim” ve ihfazıllahe te'ala hakkahü “Allah Teala'nın hakkını gözet” gibi. Beşincisi atf-ı beyandır; amenna bi-nebiyyina Muhammedin 'aleyhi's-salatu ve's-selamü “Peygamberimiz Muhammed'e iman ettik; ona salat ve selam olsun” gibi."
-   ]
-  },
-  "14": {
-   "text": [
-    "İ'rab ya hareke ya harf ya da hazftır. Hareke üçtür: zamme, fetha ve kesre. Harf dörttür: vav, ya, elif ve nun. Hazf, fiile mahsus olmak üzere üçtür: harekenin hazfi, son harfin hazfi ve nunun hazfi. Hepsi ondur.",
-    "Mu'reb nevileri, bu ondan kendilerine verilene göre dokuzdur; çünkü bunların i'rabı ya yalnız hareke ile ya da yalnız harflerle olur, bu ikisi isme mahsustur; ya da hazif ile birlikte hareke veya hazif ile birlikte harflerle olur, bu ikisi de fiile mahsustur."
-   ]
-  },
-  "15": {
-   "text": [
-    "Birincisi ya tam i'rablıdır (tammü'l-i'rab): ref'i zamme ile, nasbı fetha ile, cerri kesre ile olandır; bu, munsarif müfred ile munsarif cem'-i mükesserdir; ca'ena'r-rasulü 'aleyhi's-selamü “Resul, ona selam olsun, bize geldi”, ve saddakna'r-rasule 'aleyhi's-selamü “Resul'ü, ona selam olsun, tasdik ettik”, ve amenna bi'r-rasuli 'aleyhi's-selamü “Resul'e, ona selam olsun, iman ettik” ve nezele mine's-sema'i kütübün “gökten kitaplar indi”, ve saddakna'l-kütübe “kitapları tasdik ettik”, ve amenna bi'l-kütübi “kitaplara iman ettik” gibi.",
-    "Ya da nakıs i'rablıdır (nakısü'l-i'rab) ve iki kısımdır. Bir kısmın ref'i zamme ile, nasb ve cerri fetha iledir; bu gayr-i munsariftir; ca'ena Ahmedü 'aleyhi's-selamü “Ahmed, ona selam olsun, bize geldi”, ve saddakna Ahmede 'aleyhi's-selamü “Ahmed'i, ona selam olsun, tasdik ettik”, ve amenna bi-Ahmede 'aleyhi's-selamü “Ahmed'e, ona selam olsun, iman ettik” gibi. Bir kısmın da ref'i zamme ile, nasb ve cerri kesre iledir; bu cem'-i müennes-i salimdir; ca'ena mu'cizatün “bize mucizeler geldi”, ve saddakna mu'cizatin “mucizeleri tasdik ettik”, ve amenna bi-mu'cizatin “mucizelere iman ettik” gibi."
-   ]
-  },
-  "16": {
-   "text": [
-    "İkincisi ya tam i'rablıdır: ref'i vav ile, nasbı elif ile, cerri ya ile olandır; bu, mütekellim yasından başkasına muzaf olan, müfred ve tasgirsiz, mu'tel esma-i sittedir. Bunlar: ebuhü “babası”, ahuhü “kardeşi”, hamuha “onun (kadının) kayınpederi”, henuhü “onun şeyi”, fuhü “ağzı” ve zu malin “mal sahibi”dir; ca'ena ebu'l-Kasimi 'aleyhi's-selamü “Ebü'l-Kasım, ona selam olsun, bize geldi”, ve saddakna eba'l-Kasimi 'aleyhi's-selamü “Ebü'l-Kasım'ı, ona selam olsun, tasdik ettik”, ve amenna bi-ebi'l-Kasimi 'aleyhi's-selamü “Ebü'l-Kasım'a, ona selam olsun, iman ettik” gibi.",
-    "Ya da nakıs i'rablıdır ve iki kısımdır. Bir kısmın ref'i vav ile, nasb ve cerri ya iledir; bu, cem'-i müzekker-i salim, ulu “sahipler” ve 'işrune “yirmi” ile kardeşleridir; ca'ena'l-mürselune 'aleyhimü's-selamü “resuller, onlara selam olsun, bize geldi”, ve saddakna'l-mürseline 'aleyhimü's-selamü “resulleri, onlara selam olsun, tasdik ettik”, ve amenna bi'l-mürseline 'aleyhimü's-selamü “resullere, onlara selam olsun, iman ettik” gibi.",
-    "Bir kısmın da ref'i elif ile, nasb ve cerri ya iledir; bu tesniye, isnani “iki” ve zamire muzaf olan kila “her ikisi”dir; ca'ena'l-isnani kilahüma “o ikisi, her ikisi de bize geldi”, yani Kitap ve Sünnet; ve ittebe'na'l-isneyni kileyhima “o ikisine, her ikisine de uyduk”, ve 'amilna bi'l-isneyni kileyhima “o ikisiyle, her ikisiyle de amel ettik” gibi."
-   ]
-  },
-  "17": {
-   "text": [
-    "Üçüncüsü ancak tam i'rablı olur ve iki kısımdır. Bir kısmın ref'i zamme ile, nasbı fetha ile, cezmi harekenin hazfi iledir; bu, sonuna zamir bitişmeyen ve son harfi sahih olan fiil-i muzaridir; nuhibbü en neşfe'a ve lem nuhram “şefaat etmeyi ve mahrum kalmamayı severiz” gibi.",
-    "Bir kısmın da ref'i zamme ile, nasbı fetha ile, cezmi son harfin hazfi iledir; bu, sonuna zamir bitişmeyen ve son harfi illet harfi olan fiil-i muzaridir; ned'ullahe te'ala en ye'füvena ve lem yermina fi'n-nari “Allah Teala'ya bizi affetmesi ve bizi ateşe atmaması için dua ederiz” gibi.",
-    "Dördüncüsü ancak nakıs i'rablı olur: bu, sonuna nundan başka bir zamir bitişen fiil-i muzaridir; ref'i nun ile, nasb ve cezmi onun hazfi iledir; el-evliya'u ve'l-'ulema'u yeşfe'ani yevme'l-kıyameti “veliler ve alimler kıyamet günü şefaat ederler”, fe nercu en yeşfe'a lena ve lem yu'rida 'anna “bu yüzden ikisinin bize şefaat etmesini ve bizden yüz çevirmemesini umarız” gibi."
-   ]
-  },
-  "18": {
-   "text": [
-    "Sonra i'rab, lafızda görünürse lafzi diye adlandırılır, zikredilen misallerde olduğu gibi; lafızda görünmez de sonunda takdir edilirse takdiri diye adlandırılır, ena'l-'asi “ben asiyim” gibi; ne görünür ne de sonunda takdir edilirse mahalli diye adlandırılır, tevekkelna 'ala men la ye'ti'l-hayru illa min cihetihi “hayrın ancak O'nun tarafından geldiği Zat'a tevekkül ettik” gibi."
-   ]
+  "lessons": {
+    "1": {
+      "title": "Yüz şey: amiller, ma'muller, i'rab",
+      "body": [
+        "Birgivi bir vaatle ve bir sayıyla açar: i'rabı bilmek isteyen yüz şeyi bilmelidir. Altmışı amildir, bir sona sebep olan kelimeler ya da ma'nalar; otuzu ma'muldür, sonlarına sebep olunan kelimeler; onu da eserin kendisidir, i'rab alametleri. Bu seviyede bütün nahiv bir sebep ve eser meselesidir: bir amil bir ma'mulde amel eder ve son, onun yaptığıdır.",
+        "Kitaba el-Avamilü'l-cedide, “yeni Avamil” denir, çünkü medrese daha eski bir amiller kitabı, Abdülkahir el-Cürcani'nin el-Avamilü'l-mie'sini, “yüz amil”i zaten okurdu. Birgivi yüz sayısını korur ama onu farklı böler: amiller, ma'muller ve i'rab; her birine bir bab verir: birincisi amil, ikincisi ma'mul, üçüncüsü i'rab üzerine.",
+        "Amil iki çeşittir. Lafzi: bi- harfi ya da fiil gibi duyduğunuz bir kelime. Ma'nevi: hiç kelime olmayan, bir ismin cümlenin başına konması gibi bir ma'na. Lafzi amil de iki kısımdır. Semai: yalnız Arapların kullanımından bilinen, bir liste olarak öğrenilmesi gereken kelimeler, beş çeşitte kırk dokuz tane. Kıyasi: “her fiil amel eder” gibi bütün kelime sınıflarını kapsayan bir kural, hepsi dokuz. İki ma'nevi amille altmış eder.",
+        "Örnekleri okurken okuyun. Birgivi'nin verdiği neredeyse her cümle nahivden başka bir şey de öğretir: tübtü min külli zenbin, “her günahtan tövbe ettim”; Muhammedün rasulullahi, “Muhammed Allah'ın Resulüdür”. Nahvi öğrenen çocuk onunla birlikte akideyi ve ahlakı da öğrenir ve medrese kitaba her ikisi için de her zaman değer vermiştir."
+      ],
+      "terms": [
+        "amil: bir sona sebep olan",
+        "ma'mul: sonuna sebep olunan",
+        "amel: amel etmenin eseri, i'rab",
+        "lafzi ve ma'nevi: lafzi (bir kelime) ve ma'nevi (bir ma'na)",
+        "semai ve kıyasi: semai (bir liste) ve kıyasi (bir kural)"
+      ],
+      "examples": [
+        "altmışına amil, otuzuna ma'mul, onuna eser ve i'rab denir: kitabın planı",
+        "tübtü min külli zenbin, “her günahtan tövbe ettim”: semai bir amil olan min, külli'yi mecrur yapar",
+        "Muhammedün rasulullahi, “Muhammed Allah'ın Resulüdür”: ma'nevi bir amille merfu mübteda"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tübtü min külli zenbin'de amili, ma'mulü ve min'in sebep olduğu i'rabı söyleyin.",
+          "answer": "Amil, bir cer harfi olan min'dir (semai). Ma'mul külli'dir. Eser cerdir, kesreyle görünür. (Zenbin de mecrurdur, ama izafetle: onda küllü amel eder.)"
+        },
+        {
+          "prompt": "Birgivi'nin altmış amilini çeşitlerine göre toplayın.",
+          "answer": "Semai: 20 cer harfi + ismi mansub, haberi merfu yapan 8 + ismi merfu, haberi mansub yapan 2 + muzariyi mansub yapan 4 + onu meczum yapan 15 = 49. Kıyasi: 9. Ma'nevi: 2. 49 + 9 + 2 = 60."
+        },
+        {
+          "prompt": "Lafzi mi, ma'nevi mi? (a) Muhammedün rasulullahi'de Muhammedün'ün amili; (b) min külli zenbin'de külli'nin amili.",
+          "answer": "(a) Ma'nevi: Muhammed'den önce hiçbir kelime yoktur; ref'i başa konmasından gelir. (b) Lafzi: min harfi."
+        },
+        {
+          "prompt": "Semai bir amil ile kıyasi bir amil arasındaki fark nedir? Her birinden birini verin.",
+          "answer": "Semai amil, Arapların kullanımından bilinen ve bir listeden tek tek öğrenilen bir kelimedir (örneğin min harfi). Kıyasi amil, bütün bir kelime sınıfını kapsayan bir kuraldır (örneğin: her fiil ref' ve nasb verir)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi'ye göre i'rab talebesi kaç şey bilmelidir?",
+          "options": [
+            "Altmış",
+            "Yüz",
+            "Otuz",
+            "On"
+          ],
+          "explanation": "Altmış amil, otuz ma'mul ve on i'rab alameti."
+        },
+        {
+          "prompt": "Kaç amil vardır?",
+          "options": [
+            "Kırk dokuz",
+            "Otuz",
+            "Altmış",
+            "Yüz"
+          ],
+          "explanation": "Kırk dokuz semai, dokuz kıyasi, iki ma'nevi."
+        },
+        {
+          "prompt": "Ma'nevi amil nedir?",
+          "options": [
+            "İşitilerek bilinen bir amil",
+            "Fiil olan bir amil",
+            "Eseri olmayan bir amil",
+            "Kelime değil, bir ma'na olan amil"
+          ],
+          "explanation": "Örneğin mübtedanın başa konması; onu merfu yapar."
+        },
+        {
+          "prompt": "Kitaba neden el-Avamilü'l-cedide, “yeni” denir?",
+          "options": [
+            "Onu Cürcani'nin daha eski el-Avamilü'l-mie'sinin yanına koymak için",
+            "Geçen yüzyılda yazıldığı için",
+            "Önceden bilinmeyen yeni amiller öğrettiği için",
+            "Türkçe olduğu için"
+          ],
+          "explanation": "Birgivi yüz sayısını korur ama onu amiller, ma'muller ve i'rab olarak böler."
+        },
+        {
+          "prompt": "Kitabın üç babı nedir?",
+          "options": [
+            "İsim, fiil, harf",
+            "Amil, ma'mul, i'rab",
+            "Ref', nasb, cer",
+            "Sarf, nahiv, belagat"
+          ],
+          "explanation": "Yüzün üç kısmının her biri için bir bab."
+        },
+        {
+          "prompt": "Kaç semai amil vardır?",
+          "options": [
+            "Dokuz",
+            "İki",
+            "Kırk dokuz",
+            "Yirmi"
+          ],
+          "explanation": "Beş çeşitte: 20 + 8 + 2 + 4 + 15."
+        },
+        {
+          "prompt": "Kıyasi amil ne demektir?",
+          "options": [
+            "Bir listeden öğrenilen kelime",
+            "Kelimesi olmayan bir ma'na",
+            "Eseri olmayan bir kelime",
+            "Bütün bir kelime sınıfını kapsayan bir kural"
+          ],
+          "explanation": "Örneğin: her fiil ref' ve nasb verir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The governor": "Amil",
+          "Expressed (lafẓī)": "Lafzi",
+          "Heard (samāʿī): 49": "Semai: 49",
+          "particles of jarr: 20": "cer harfleri: 20",
+          "inna and its kind: 8": "inne ve benzerleri: 8",
+          "mā and lā like laysa: 2": "leyse'ye benzeyen ma ve la: 2",
+          "naṣb of the verb: 4": "fiili mansub yapanlar: 4",
+          "jazm of the verb: 15": "fiili meczum yapanlar: 15",
+          "Analogical (qiyāsī): 9": "Kıyasi: 9",
+          "Abstract (maʿnawī): 2": "Ma'nevi: 2"
+        },
+        "caption": "Altmış amil: 49 semai, 9 kıyasi, 2 ma'nevi."
+      },
+      "text": [
+        "Rahman ve Rahim olan Allah'ın adıyla. Hamd, alemlerin Rabbi olan Allah'adır; salat ve selam Muhammed'e ve onun bütün aline olsun. Bundan sonra bil ki i'rabı bilmek isteyen herkesin yüz şeyi bilmesi gerekir: bunların altmışına amil, otuzuna ma'mul, onuna da amel ve i'rab denir.",
+        "Allah Teala'nın izniyle bu üçünü sana kısaca üç babda açıklayacağım: birinci bab amil hakkında, ikinci bab ma'mul hakkında, üçüncü bab i'rab hakkındadır.",
+        "Amil iki çeşittir: lafzi ve ma'nevi. Lafzi iki kısımdır: semai ve kıyasi. Semai olanlar kırk dokuzdur ve beş nevidir."
+      ]
+    },
+    "2": {
+      "title": "Cer harfleri (1)",
+      "body": [
+        "Semai amilin birinci çeşidi, tek bir ismi, yalnız birini mecrur yapan harflerdir: yirmi tane, “cer harfleri ve izafet harfleri diye adlandırılır”. İkinci ad ma'nada ne yaptıklarını söyler: tübtü ilallahi'de ila'nın “tövbe etmeyi” Allah'a bağladığı gibi, bir fiilin ma'nasını bir isme izafe ederler (bağlarlar). Acurrumiyye'nin hafz dediği yerde Birgivi, çoğu kitabın kelimesi olan cer der.",
+        "İlk on, her biri örneğiyle: bi-, “ile, -de”: amentü billahi ve bihi la bi-ğayrihi, “Allah'a iman ettim, O'na, başkasına değil”; min, “-den”: tübtü min külli zenbin; ila, “-e”: tübtü ilallahi teala, “Allah'a tövbe ettim”; an, “-den uzak”: kefeftü ani'l-harami, “haramdan uzak durdum”; ala, “üzerine”: tecibü't-tevbetü ala külli müznibin, “tövbe her günahkara vaciptir”.",
+        "Li-, “için, ait”: ene ubeydün lillahi teala, “ben Allah'ın küçük bir kuluyum”; burada ubeyd, Emsile'nin öğrettiği abd'ın tasgiridir. Fi, “içinde”: el-mutiu fi'l-cenneti, “itaatkar cennettedir”. Ke-, “gibi”: leyse ke-mislihi şey'ün, “O'nun benzeri hiçbir şey yoktur” (Şura 42/11); birçok nahivci, “gibi” zaten misl ile söylendiği için bu ke-'yi te'kid için zaid sayar. Hatta, “-e kadar”: a'büdüllahe teala hatte'l-mevti, “ölünceye kadar Allah'a ibadet ederim”. Rubbe, “nice”: rubbe talin yel'anühü'l-Kur'anü, “nice okuyucu vardır ki Kur'an ona lanet eder”.",
+        "İki not. Rubbe yalnız nekre bir isimden, burada talin, “bir okuyucu”dan önce gelir. Ya'sı düşmüş ve tenvin bir kesre üzerinde durmaktadır: isim mecrurdur, ama cer düşen ya üzerinde takdiridir. Hatta'nın da medrese kitaplarında üç yüzü vardır: burada cer harfi, Acurrumiyye'de atf harfi (kadime'l-huccacü hatte'l-müşatü) ve muzari fiilin amili (hatta tahruce). Hatte'l-mevti'deki gibi mecrur bir isimden önce birincisidir."
+      ],
+      "terms": [
+        "cer harfleri: tek bir ismi mecrur yapan harfler",
+        "izafet harfleri: diğer adları; bir fiilin ma'nasını bir isme bağlarlar",
+        "mecrur: cerre giren isim",
+        "zaid kef: te'kid için eklenen ke- (Şura 42/11)"
+      ],
+      "examples": [
+        "amentü billahi ve bihi la bi-ğayrihi, “Allah'a iman ettim, O'na, başkasına değil”: bi-",
+        "kefeftü ani'l-harami, “haramdan uzak durdum”: an",
+        "leyse ke-mislihi şey'ün, “O'nun benzeri hiçbir şey yoktur” (Şura 42/11): ke-",
+        "rubbe talin yel'anühü'l-Kur'anü, “nice okuyucu vardır ki Kur'an ona lanet eder”: nekre bir isimden önce rubbe"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her birinde cer harfini ve amel ettiği ismi bulun: tübtü ilallahi teala; el-mutiu fi'l-cenneti; tecibü't-tevbetü ala külli müznibin.",
+          "answer": "İla Allahi'de amel eder; fi el-cenneti'de; ala külli'de (külli de izafetle müznibin'de amel eder). Harften sonraki her isim kesreyle mecrurdur."
+        },
+        {
+          "prompt": "Ene ubeydün lillahi'de ubeyd nedir ve ma'naya ne katar?",
+          "answer": "Abd'ın fu'ayl veznindeki tasgiridir: “küçük bir kul”. Tevazu ifade eder; arkasından gelen li- Allah'ı mecrur yapar."
+        },
+        {
+          "prompt": "Şimdiye kadar okunan kitaplarda hatta'nın üç kullanımını birer örnekle verin ve hatte'l-mevti'nin hangisi olduğunu söyleyin.",
+          "answer": "Cer harfi: a'büdüllahe hatte'l-mevti (Birgivi). Atf harfi: kadime'l-huccacü hatte'l-müşatü (Acurrumiyye). Muzariyi mansub yapan amil: eclisü hatta tahruce. Hatte'l-mevti birincisidir: el-mevti mecrurdur."
+        },
+        {
+          "prompt": "Rubbe talin'de lam üzerinde neden tenvinli kesre vardır da ya yoktur?",
+          "answer": "“Bir okuyucu” anlamındaki talin, son harfi ya olan bir isimdir (tali). Tenvinle ya düşer ve tenvin ondan önceki kesre üzerinde durur. Rubbe ile mecrurdur; cer düşen ya üzerinde takdiridir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi kaç cer harfi sayar?",
+          "options": [
+            "On",
+            "On beş",
+            "Yirmi",
+            "Sekiz"
+          ],
+          "explanation": "Bu ders ilk onu alır; sonraki ders diğer onu."
+        },
+        {
+          "prompt": "Onlara neden izafet harfleri de denir?",
+          "options": [
+            "Yalnız izafet yapılarında gelirler",
+            "İsimdirler",
+            "Fiili meczum yaparlar",
+            "Bir fiilin ma'nasını bir isme bağlarlar"
+          ],
+          "explanation": "Tübtü ilallahi'de ila tövbe etmeyi Allah'a bağlar."
+        },
+        {
+          "prompt": "Hangi harf “-den uzak” demektir?",
+          "options": [
+            "An",
+            "Ala",
+            "İla",
+            "Fi"
+          ],
+          "explanation": "Kefeftü ani'l-harami: “haramdan uzak durdum”."
+        },
+        {
+          "prompt": "Leyse ke-mislihi şey'ün'de (Şura 42/11) birçok nahivci ke-'yi … sayar.",
+          "options": [
+            "bir kasem harfi",
+            "te'kid için zaid",
+            "bir isim",
+            "bir te'nis alameti"
+          ],
+          "explanation": "“Gibi” zaten misl ile söylenmiştir."
+        },
+        {
+          "prompt": "Rubbe … önce gelir.",
+          "options": [
+            "ma'rife bir isimden",
+            "bir fiilden",
+            "nekre bir isimden",
+            "yalnız bir zamirden"
+          ],
+          "explanation": "Rubbe talin: “nice okuyucu”."
+        },
+        {
+          "prompt": "A'büdüllahe teala hatte'l-mevti'de hatta …",
+          "options": [
+            "bir atf harfidir",
+            "fiili mansub yapan bir amildir",
+            "bir kasem harfidir",
+            "bir cer harfidir"
+          ],
+          "explanation": "El-mevti'yi mecrur yapar."
+        },
+        {
+          "prompt": "Birgivi kesreli i'rab için hangi kelimeyi kullanır?",
+          "options": [
+            "Cer",
+            "Hafz",
+            "Cezm",
+            "Nasb"
+          ],
+          "explanation": "Acurrumiyye hafz der; Birgivi, çoğu kitap gibi, cer."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Particle": "Harf",
+          "Meaning": "Anlamı",
+          "Birgivī's example": "Birgivi'nin örneği",
+          "الْبَاءُ bi-": "الْبَاءُ bi-",
+          "with, in": "ile, -de",
+          "مِنْ min": "مِنْ min",
+          "from, of": "-den",
+          "إِلَى ilā": "إِلَى ila",
+          "to": "-e",
+          "عَنْ ʿan": "عَنْ an",
+          "away from": "-den uzak",
+          "عَلَى ʿalā": "عَلَى ala",
+          "on, upon": "üzerine",
+          "اللَّامُ li-": "اللَّامُ li-",
+          "for, belonging to": "için, ait",
+          "فِي fī": "فِي fi",
+          "in": "içinde",
+          "الْكَافُ ka-": "الْكَافُ ke-",
+          "like": "gibi",
+          "حَتَّى ḥattā": "حَتَّى hatta",
+          "until": "-e kadar",
+          "رُبَّ rubba": "رُبَّ rubbe",
+          "many a": "nice"
+        },
+        "caption": "İlk on cer harfi"
+      },
+      "text": [
+        "Birinci nevi: yalnız bir ismi cerr eden harflerdir; bunlara cerr harfleri ve izafet harfleri denir ve yirmidir. Birincisi ba'dır (bi-); amentü billahi ve bihi la bi-ğayrihi “Allah'a, O'na iman ettim, başkasına değil” gibi. İkincisi min'dir; tübtü min külli zenbin “her günahtan tövbe ettim” gibi. Üçüncüsü ila'dır; tübtü ilallahi te'ala “Allah Teala'ya tövbe ettim” gibi. Dördüncüsü an'dır; kefeftü 'ani'l-harami “haramdan el çektim” gibi.",
+        "Beşincisi ala'dır; tecibü't-tevbetu 'ala külli müznibin “tövbe her günahkara vaciptir” gibi. Altıncısı lam'dır (li-); ena 'ubeydün lillahi te'ala “ben Allah Teala'nın küçük bir kuluyum” gibi. Yedincisi fi'dir; el-muti'u fi'l-cenneti “itaat eden cennettedir” gibi. Sekizincisi kaf'tır (ke-); Allah Teala'nın leyse ke-mislihi şey'un “O'nun benzeri hiçbir şey yoktur” sözü gibi. Dokuzuncusu hatta'dır; e'büdüllahe te'ala hatta'l-mevti “ölünceye kadar Allah Teala'ya ibadet ederim” gibi. Onuncusu rubbe'dir; rubbe talin yel'anühü'l-kur'anü “nice okuyucu vardır ki Kur'an ona lanet eder” gibi."
+      ]
+    },
+    "3": {
+      "title": "Cer harfleri (2)",
+      "body": [
+        "İkinci on karışık bir topluluktur: iki kasem harfi, üç istisna kelimesi, iki zaman kelimesi ve bir ismi yalnız belli kullanımlarda mecrur yapan üç kelime. Birlikte öğrenildiklerinde yirmiyi tamamlarlar.",
+        "Kasem: vallahi la ef'alü'l-kebaire, “Allah'a yemin ederim, büyük günahları işlemem”, vav ile; tallahi le-ef'alenne'l-feraide, “Allah'a yemin ederim, farzları mutlaka yapacağım”, yalnız Allah'ın adıyla kullanılan te ile. İkincisinde le-ef'alenne, lam ve te'kid nunuyla kasemin cevabıdır. İstisna: heleke'n-nasü haşe'l-alimi, “insanlar helak olur, alim hariç”; heleke'l-alimune hale'l-amili bi-amelihi, “alimler helak olur, ameliyle amel eden hariç”; heleke'l-amilune ade'l-muhlisı, “amel edenler helak olur, ihlaslı olan hariç”. Üçü bir zincir gibi sürer, her adım öncekinden daha dardır. (Bir Osmanlı taş baskısı ikincisinde daha iyi ma'na veren bi-ilmihi, “ilmiyle” okur.)",
+        "Zaman: tübtü min külli zenbin fe'altühü müz yevmi'l-büluğı, “bülüğ gününden beri işlediğim her günahtan tövbe ettim”; tecibü's-salatü münzü yevmi'l-büluğı, “namaz bülüğ gününden itibaren farzdır”. Müz ve münzü bir zamanın başlangıcını verir.",
+        "Son üçü bir ismi yalnız özel durumlarda mecrur yapar. Muttasıl bir zamirle levla: levlake ya rahmetallahi le-heleke'n-nasü, “ey Allah'ın rahmeti, sen olmasaydın insanlar helak olurdu”; Sibeveyh levla'nın o zaman bir cer harfi olduğunu söyledi, başkaları ise zamirin ref' mahallinde olduğunu söyler. Soru ma'sından önce gelip keymeh diye kısalan key: keymeh asayte, “neden isyan ettin?”. Ve Ukayl kabilesinin lehçesinde le'alle; onlar cerle le'allallahi teala yağfiru zenbi, “umulur ki Allah günahımı bağışlar” derdi; ortak dilde le'alle inne'nin bir kardeşidir (sonraki ders).",
+        "Yani aynı kelime farklı şekillerde amel edebilir: haşa, hala ve ada burada bir ismi mecrur yapar, ama Acurrumiyye onlardan sonra nasba da izin vermişti; le'alle ismini bir lehçede mecrur, bütün diğerlerinde mansub yapar. Birgivi bir kelimeyi cer verdiği her yerde cer harfleri arasında sayar."
+      ],
+      "terms": [
+        "kasem vavı ve te'si",
+        "kasemin cevabı",
+        "haşa, hala, ada: bir ismi mecrur yapan istisna kelimeleri",
+        "müz ve münzü: -den beri, bir zamanın başlangıcı",
+        "Ukayl lehçesi: le'alle'den sonra cer ile"
+      ],
+      "examples": [
+        "tallahi le-ef'alenne'l-feraide, “Allah'a yemin ederim, farzları mutlaka yapacağım”: kasem te'si",
+        "heleke'n-nasü haşe'l-alimi, “insanlar helak olur, alim hariç”",
+        "tecibü's-salatü münzü yevmi'l-büluğı, “namaz bülüğ gününden itibaren farzdır”",
+        "le'allallahi teala yağfiru zenbi: Ukayl lehçesinde cerle le'alle"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her birinde cer harfini ve ismini bulun: heleke'l-amilune ade'l-muhlisı; vallahi la ef'alü'l-kebaire; müz yevmi'l-büluğı.",
+          "answer": "Ada el-muhlisı'de amel eder; kasem vavı Allahi'de; müz yevmi'de (yevmi de izafetle el-büluğı'de)."
+        },
+        {
+          "prompt": "Haşa, hala ve ada'lı üç cümleyi sırayla okuyun ve nasıl bir zincir oluşturduklarını açıklayın.",
+          "answer": "İnsanlar helak olur, alim hariç; alimler helak olur, bildiğiyle amel eden hariç; amel edenler helak olur, ihlaslı olan hariç. Her cümle öncekinin istisnasını yeni mübtedası olarak alır ve onu her seferinde daraltır."
+        },
+        {
+          "prompt": "Keymeh nedir ve keymeh asayte ne demektir?",
+          "answer": "Burada bir cer harfi olan key, ma'ya kısalan soru ma'sı ve bir sekt he'si ile: “ne için?”, “neden?”. Keymeh asayte: “neden isyan ettin?”."
+        },
+        {
+          "prompt": "Sonraki derste le'allallahe varken burada le'allallahi'de Allah'ın adında neden kesre vardır?",
+          "answer": "Ukayl kabilesinin lehçesinde le'alle bir cer harfidir ve kendisinden sonraki ismi mecrur yapar. Ortak dilde inne'nin kardeşidir ve ismini mansub yapar: le'allallahe teala gafirun zenbi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Kasem te'si … kullanılır.",
+          "options": [
+            "her isimle",
+            "zamirlerle",
+            "fiillerle",
+            "yalnız Allah'ın adıyla"
+          ],
+          "explanation": "Tallahi; başka isimlerle vav ya da be kullanılır."
+        },
+        {
+          "prompt": "Heleke'n-nasü haşe'l-alimi'de haşa …",
+          "options": [
+            "istisna için kullanılan bir cer harfidir",
+            "mazi bir fiildir",
+            "bir kasem harfidir",
+            "bir ism-i mekandır"
+          ],
+          "explanation": "El-alimi onunla mecrurdur."
+        },
+        {
+          "prompt": "Müz ve münzü neyi verir?",
+          "options": [
+            "Bir zamanın sonunu: -e kadar",
+            "Bir zamanın başlangıcını: -den beri",
+            "Bir yeri",
+            "Bir kasemi"
+          ],
+          "explanation": "Müz yevmi'l-büluğı: bülüğ gününden beri."
+        },
+        {
+          "prompt": "Ukayl lehçesinde le'alle …",
+          "options": [
+            "ismini mansub yapar",
+            "fiili meczum yapar",
+            "ismini mecrur yapar",
+            "hiçbir şeyde amel etmez"
+          ],
+          "explanation": "Le'allallahi teala yağfiru zenbi."
+        },
+        {
+          "prompt": "Sibeveyh zamirli levla (levlake) hakkında ne dedi?",
+          "options": [
+            "Fiil olduğunu",
+            "Zamirin mansub olduğunu",
+            "Bir hata olduğunu",
+            "Levla'nın o zaman bir cer harfi olduğunu"
+          ],
+          "explanation": "Başkaları zamirin ref' mahallinde olduğunu söyler."
+        },
+        {
+          "prompt": "Keymeh asayte ne demektir?",
+          "options": [
+            "Neden isyan ettin?",
+            "İsyan edesin diye",
+            "İsyan etmedin",
+            "İsyan ettiğin zaman"
+          ],
+          "explanation": "Soru ma'sıyla key: “ne için?”."
+        },
+        {
+          "prompt": "Tallahi le-ef'alenne'l-feraide'de le-ef'alenne …",
+          "options": [
+            "bir cer harfidir",
+            "kasemin cevabıdır",
+            "mecrur bir isimdir",
+            "Allahi'nin amilidir"
+          ],
+          "explanation": "Kasem, lam ve te'kid nunuyla cevaplanır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Particle": "Harf",
+          "Use": "Kullanım",
+          "Birgivī's example": "Birgivi'nin örneği",
+          "وَاوُ الْقَسَمِ wa-": "وَاوُ الْقَسَمِ ve-",
+          "oath": "kasem",
+          "تَاءُ الْقَسَمِ ta-": "تَاءُ الْقَسَمِ te-",
+          "oath, with God's name only": "kasem, yalnız Allah'ın adıyla",
+          "حَاشَا ḥāshā": "حَاشَا haşa",
+          "exception": "istisna",
+          "مُذْ mudh": "مُذْ müz",
+          "since": "-den beri",
+          "مُنْذُ mundhu": "مُنْذُ münzü",
+          "خَلَا khalā": "خَلَا hala",
+          "عَدَا ʿadā": "عَدَا ada",
+          "لَوْلَا lawlā": "لَوْلَا levla",
+          "with a pronoun": "bir zamirle",
+          "كَيْ kay": "كَيْ key",
+          "with the mā of the question": "soru ma'sıyla",
+          "لَعَلَّ laʿalla": "لَعَلَّ le'alle",
+          "in the dialect of ʿUqayl": "Ukayl lehçesinde"
+        },
+        "caption": "İkinci on cer harfi"
+      },
+      "text": [
+        "On birincisi kasem vavıdır; vellahi la ef'alü'l-keba'ira “Allah'a yemin olsun ki büyük günahları işlemem” gibi. On ikincisi kasem tasıdır; tellahi le-ef'alenne'l-fera'ida “Allah'a yemin olsun ki farzları mutlaka yapacağım” gibi. On üçüncüsü haşa'dır; heleke'n-nasü haşa'l-'alimi “alim hariç insanlar helak oldu” gibi. On dördüncüsü müz'dür; tübtü min külli zenbin fe'altühü müz yevmi'l-büluğı “buluğ gününden beri işlediğim her günahtan tövbe ettim” gibi. On beşincisi münzü'dür; tecibü's-salatu münzü yevmi'l-büluğı “namaz buluğ gününden itibaren farzdır” gibi.",
+        "On altıncısı hala'dır; heleke'l-'alimune hala'l-'amili bi-'amelihi “ameliyle amel eden hariç alimler helak oldu” gibi. On yedincisi ada'dır; heleke'l-'amilune 'ada'l-muhlisı “ihlaslı olan hariç amel edenler helak oldu” gibi. On sekizincisi levla'dır; levlake ya rahmetellahi le-heleke'n-nasü “ey Allah'ın rahmeti, sen olmasaydın insanlar helak olurdu” gibi. On dokuzuncusu key'dir; keymeh 'asayte “ne için isyan ettin?” gibi. Yirmincisi Ukayl lügatinde lealle'dir; le'allellahi te'ala yağfiru zenbi “umulur ki Allah Teala günahımı bağışlar” gibi."
+      ]
+    },
+    "4": {
+      "title": "İnne ve kardeşleri, illa ve la",
+      "body": [
+        "Semai amilin ikinci çeşidi, ismi mansub, haberi merfu yapan sekiz harftir. Altısı Acurrumiyye'ninkilerdir, “fiile benzeyen harfler diye adlandırılır”: inne, enne, keenne, lakinne, leyte, le'alle. Birgivi aynı işi gören iki tane daha ekler: munkatı' istisnadaki illa ve cinsin tamamını nefyeden la. Onun listesi bir kelimenin ma'nasına göre değil, ne yaptığına göre çizilmiştir.",
+        "Örnekleri akideyi öğretir. İnnallahe teala alimü külli şey'in, “Yüce Allah her şeyi bilendir”; a'tekıdü ennallahe teala kadirun ala külli şey'in, “Yüce Allah'ın her şeye kadir olduğuna inanırım”; burada enne cümlenin içinde, a'tekıdü'nün mef'ulü olarak durur. Keenne'l-harame narun, “haram sanki ateştir”. Ma faze'l-cahilü lakinne'l-alime faizün, “cahil kurtuluşa ermez, ama alim kurtuluşa erer”. Leyte'l-ilme merzukun li-külli ehadin, “keşke ilim herkese nasip olsa”. Le'allallahe teala gafirun zenbi, “umulur ki Yüce Allah günahımı bağışlar”.",
+        "Munkatı' istisnada (el-istisnaü'l-munkatı'), müstesnanın önceki şeyin cinsinden olmadığı yerde illa: el-ma'sıyetü müb'idetün ani'l-cenneti ille't-taate mukarribetün minha, “günah cennetten uzaklaştırır, ama itaat ona yaklaştırır”. İtaat bir günah çeşidi değildir, bu yüzden ondan çıkarılmaz; illa burada “ama” demektir ve Birgivi onu lakinne ile birlikte sayar: et-taate ismidir, mansub; mukarribetün haberidir, merfu.",
+        "Cinsin tamamını nefyeden la: la faile şerrin faizün, “hiçbir şer işleyen kurtuluşa ermez”. İsmi faile şerrin, kendisinden sonraki kelimeye bağlıdır (muzaftır), bu yüzden düz bir fetha gösterir (Acurrumiyye'nin müfred ismi la racüle tenvinsiz sabit bir sonla gelmişti); haberi faizün merfudur.",
+        "İ'rabda medrese her kısmı adlandırır: inne, te'kid için fiile benzeyen bir harf; Allahe, ismi, mansub; alimü, haberi, merfu ve bir izafetin muzafı; külli, muzafun ileyh olarak mecrur; şey'in, ikinci bir izafetin muzafun ileyhi olarak mecrur."
+      ],
+      "terms": [
+        "huruf-ı müşebbehe bi'l-fiil: fiile benzeyen altı harf",
+        "istisna-i munkatı': müstesna başka cinstendir",
+        "la-yı nefy-i cins: cinsin tamamını nefyeden la",
+        "inne'nin ismi ve haberi: inne'nin ismi (mansub) ve haberi (merfu)"
+      ],
+      "examples": [
+        "innallahe teala alimü külli şey'in, “Yüce Allah her şeyi bilendir”",
+        "keenne'l-harame narun, “haram sanki ateştir”",
+        "günah cennetten uzaklaştırır, ama itaat ona yaklaştırır: “ama” anlamında illa",
+        "la faile şerrin faizün, “hiçbir şer işleyen kurtuluşa ermez”: ismi sonraki kelimeye bağlı la"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her harfin ismini ve haberini i'rablarıyla verin: keenne'l-harame narun; leyte'l-ilme merzukun li-külli ehadin; la faile şerrin faizün.",
+          "answer": "Keenne: ismi el-harame (mansub), haberi narun (merfu). Leyte: ismi el-ilme (mansub), haberi merzukun (merfu). La: ismi faile (mansub, şerrin'e bağlı), haberi faizün (merfu)."
+        },
+        {
+          "prompt": "Birgivi el-ma'sıyetü müb'idetün ani'l-cenneti ille't-taate mukarribetün minha'da illa'yı neden bu amiller arasında sayar?",
+          "answer": "İstisna munkatı'dır: itaat bir günah çeşidi değildir, bu yüzden ilk sözden hiçbir şey çıkarılmaz. İlla o zaman lakinne gibi “ama” demektir ve onun gibi amel eder: et-taate mansub ismi, mukarribetün merfu haberidir."
+        },
+        {
+          "prompt": "İnnallahe teala alimü külli şey'in'in tam i'rabını verin.",
+          "answer": "İnne: te'kid için fiile benzeyen bir harf. Allahe: ismi, fethayla mansub. Teala: gizli failiyle bir fiil, araya giren bir tenzih cümlesi (“O yücedir”). Alimü: inne'nin haberi, zammeyle merfu ve bir izafetin muzafı. Külli: muzafun ileyh olarak mecrur ve kendisi başka bir izafetin muzafı. Şey'in: muzafun ileyh olarak mecrur."
+        },
+        {
+          "prompt": "Birgivi'nin bu amiller listesi Acurrumiyye'deki inne'nin kardeşlerinden nasıl ayrılır?",
+          "answer": "Acurrumiyye fiile benzeyen altı harfi verir. Birgivi munkatı' istisnadaki illa ile cinsi nefyeden la'yı ekler, çünkü aynı işi görürler: ismin nasbı, haberin ref'i."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Bu çeşidin sekiz harfi ne yapar?",
+          "options": [
+            "İsmi mansub, haberi merfu",
+            "İsmi merfu, haberi mansub",
+            "Tek bir ismi mecrur",
+            "Muzariyi mansub"
+          ],
+          "explanation": "İnnallahe … alimü."
+        },
+        {
+          "prompt": "Birgivi Acurrumiyye'nin altısına hangi ikisini ekler?",
+          "options": [
+            "Leyse'ye benzeyen ma ve la",
+            "Munkatı' istisnadaki illa ve cinsin la'sı",
+            "Lem ve lemma",
+            "Kane ve sara"
+          ],
+          "explanation": "Inne ile aynı işi görürler."
+        },
+        {
+          "prompt": "Munkatı' istisna nedir?",
+          "options": [
+            "Müstesna minhi olmayan",
+            "Nefyli olan",
+            "Müstesnanın önceki şeyin cinsinden olmadığı",
+            "Gayr ile olan"
+          ],
+          "explanation": "İtaat bir günah çeşidi değildir."
+        },
+        {
+          "prompt": "La faile şerrin faizün'de faile neden düz bir fetha gösterir?",
+          "options": [
+            "Fiildir",
+            "Gayr-i munsariftir",
+            "Merfudur",
+            "Sonraki kelimeye bağlıdır (muzaftır)"
+          ],
+          "explanation": "La'dan sonraki müfred ismin sabit bir sonu vardır; muzaf isim ise mansubdur."
+        },
+        {
+          "prompt": "A'tekıdü ennallahe teala kadirun'da enne'li cümle …",
+          "options": [
+            "a'tekıdü'nün mef'ulüdür",
+            "a'tekıdü'nün failidir",
+            "haldir",
+            "haberdir"
+          ],
+          "explanation": "Enne cümlenin içinde durur; cümlesi bir isim yerindedir."
+        },
+        {
+          "prompt": "Hangi harf “keşke” demektir?",
+          "options": [
+            "Le'alle",
+            "Leyte",
+            "Keenne",
+            "Lakinne"
+          ],
+          "explanation": "Leyte'l-ilme merzukun li-külli ehadin."
+        },
+        {
+          "prompt": "Birgivi amillerini neye göre gruplar?",
+          "options": [
+            "Ma'nalarına göre",
+            "Uzunluklarına göre",
+            "Amel ettikleri kelimelere ne yaptıklarına göre",
+            "Kökenlerine göre"
+          ],
+          "explanation": "Bu yüzden illa ve la inne'nin yanında durur."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Particle": "Harf",
+          "Meaning": "Anlamı",
+          "Birgivī's example": "Birgivi'nin örneği",
+          "إِنَّ inna": "إِنَّ inne",
+          "emphasis": "te'kid",
+          "أَنَّ anna": "أَنَّ enne",
+          "emphasis, inside a sentence": "te'kid, cümle içinde",
+          "كَأَنَّ kaʾanna": "كَأَنَّ keenne",
+          "as if": "sanki",
+          "لَكِنَّ lākinna": "لَكِنَّ lakinne",
+          "but": "ama",
+          "لَيْتَ layta": "لَيْتَ leyte",
+          "if only": "keşke",
+          "لَعَلَّ laʿalla": "لَعَلَّ le'alle",
+          "perhaps": "umulur ki",
+          "إِلَّا illā": "إِلَّا illa",
+          "but (cut-off exception)": "ama (munkatı' istisna)",
+          "لَا lā": "لَا la",
+          "no … at all": "hiç … yok"
+        },
+        "caption": "İsmi mansub, haberi merfu yapan sekiz harf"
+      },
+      "text": [
+        "İkinci nevi: ismi nasb, haberi ref' eden harflerdir ve sekizdir. Birincisi inne'dir; innellahe te'ala 'alimü külli şey'in “şüphesiz Allah Teala her şeyi bilendir” gibi. İkincisi enne'dir; e'takıdü ennellahe te'ala kadirun 'ala külli şey'in “Allah Teala'nın her şeye kadir olduğuna inanırım” gibi. Üçüncüsü keenne'dir; ke'enne'l-harame narun “haram sanki ateştir” gibi. Dördüncüsü lakinne'dir; ma faze'l-cahilü lakinne'l-'alime fa'izün “cahil kurtuluşa ermedi, fakat alim kurtuluşa erendir” gibi.",
+        "Beşincisi leyte'dir; leyte'l-'ilme merzukun li-külli ahadin “keşke ilim herkese nasip olsa” gibi. Altıncısı lealle'dir; le'allellahe te'ala ğafirun zenbi “umulur ki Allah Teala günahımı bağışlayandır” gibi. Bu altısına fiile benzeyen harfler (huruf-ı müşebbehe bi'l-fiil) denir. Yedincisi istisna-i munkatı'daki illa'dır; el-me'sıyetu müb'idetun 'ani'l-cenneti illa't-ta'ate mukarribetun minha “isyan cennetten uzaklaştırır, fakat itaat ona yaklaştırır” gibi. Sekizincisi cinsi nefyeden la'dır; la fa'ile şerrin fa'izün “hiçbir kötülük işleyen kurtuluşa eren değildir” gibi."
+      ]
+    },
+    "5": {
+      "title": "Leyse'ye benzeyen ma ve la; nasbın dört amili",
+      "body": [
+        "Üçüncü çeşit, inne'nin tersini yapan iki harftir: ismi merfu, haberi mansub yaparlar, “değildir” anlamındaki leyse gibi. Bunlar “leyse'ye benzeyen” ma ve la'dır: mallahu teala mütemekkinen bi-mekanin, “Yüce Allah bir mekanda yerleşmiş değildir”; la şey'ün müşabihen lillahi teala, “hiçbir şey Yüce Allah'a benzer değildir”. İki cümle de akidenin noktalarıdır: Allah bir mekanda değildir ve hiçbir şey O'na benzemez.",
+        "Bu şekilde kullanılan ma, Kur'an'ın dili olan Hicaz halkının kullanımıdır ve nahivciler ona ma-yı Hicaziyye der; Temim kabilesi ma'yı hiçbir şeyde amel ettirmezdi. La, buradaki şey'ün gibi nekre bir isimle leyse gibi amel eder. Bunu önceki dersin yanına koyun, aynı la zıt etkilerle görünür: la faile şerrin faizün, ism mansub ve haber merfu (cins la'sı); la şey'ün müşabihen, ism merfu ve haber mansub (leyse'ye benzeyen la). Hangi la'nın elinizde olduğunu sonlar söyler.",
+        "Dördüncü çeşit, muzari fiili mansub yapan dört harftir: en: uhibbü en utiallahe teala, “Yüce Allah'a itaat etmeyi severim”; len: len yağfirallahü teala li'l-kafirine, “Yüce Allah kafirleri asla bağışlamayacak”; key: uhibbü tule'l-umüri key uhassıle'l-ilme, “ilim elde edeyim diye uzun ömrü severim”; izen: izen tedhule'l-cennete, “öyleyse cennete girersin”, “Allah'a itaat ediyorum” diyene söylenir.",
+        "Acurrumiyye nasbın on amilini saydı; Birgivi dört sayar. Key lamı, cuhud lamı, hatta ve cevabın fe, vav ve ev'inden sonra fiilin takdir edilen bir en ile mansub olduğunu söyleyen Basralıların görüşünü izler; bu yüzden onlar kendi başlarına amil değildir. İki kitabı da okuyan medrese talebesi iki sayımı ve neden farklı olduklarını öğrenir."
+      ],
+      "terms": [
+        "leyse'ye benzeyen ma ve la: ismin ref'i, haberin nasbı",
+        "ma-yı Hicaziyye: leyse gibi amel eden Hicaz ma'sı",
+        "nevasıb: muzariyi mansub yapanlar: en, len, key, izen",
+        "en-i mukaddere: Basralıların görüşünde takdir edilen en"
+      ],
+      "examples": [
+        "mallahu teala mütemekkinen bi-mekanin, “Yüce Allah bir mekanda yerleşmiş değildir”",
+        "la şey'ün müşabihen lillahi teala, “hiçbir şey Yüce Allah'a benzer değildir”",
+        "uhibbü en utiallahe teala, “Yüce Allah'a itaat etmeyi severim”: mansub fiille en",
+        "izen tedhule'l-cennete, “öyleyse cennete girersin”: söyleneni cevaplayan izen"
+      ],
+      "tasks": [
+        {
+          "prompt": "İsmi ve haberi i'rablarıyla verin: mallahu teala mütemekkinen bi-mekanin; la şey'ün müşabihen lillahi teala.",
+          "answer": "Ma: ismi Allahu (merfu), haberi mütemekkinen (mansub). La: ismi şey'ün (merfu), haberi müşabihen (mansub)."
+        },
+        {
+          "prompt": "La faile şerrin faizün ve la şey'ün müşabihen: her biri hangi la'dır ve sonlar bunu nasıl gösterir?",
+          "answer": "Birincisi cinsin tamamını nefyeden la'dır: ismi mansub (faile), haberi merfudur (faizün). İkincisi leyse'ye benzeyen la'dır: ismi merfu (şey'ün), haberi mansubdur (müşabihen)."
+        },
+        {
+          "prompt": "Nasb amilini ve amel ettiği fiili bulun: len yağfirallahü teala li'l-kafirine; uhibbü tule'l-umüri key uhassıle'l-ilme.",
+          "answer": "Len, yağfira'da amel eder; fethayla mansub. Key, uhassıla'da amel eder; fethayla mansub."
+        },
+        {
+          "prompt": "Acurrumiyye on nasb amili sayarken Birgivi neden dört sayar?",
+          "answer": "Basralıların görüşünü izler: yalnız en, len, key ve izen kendi başlarına amel eder. Key lamı, cuhud lamı, hatta ve cevabın fe, vav ve ev'inden sonra fiil takdir edilen bir en ile mansubdur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Leyse'ye benzeyen ma ve la ne yapar?",
+          "options": [
+            "İsmi mansub, haberi merfu",
+            "İsmi merfu, haberi mansub",
+            "İsmi mecrur",
+            "Fiili meczum"
+          ],
+          "explanation": "Mallahu … mütemekkinen."
+        },
+        {
+          "prompt": "Leyse gibi amel eden ma … kullanımıdır.",
+          "options": [
+            "Temim kabilesinin",
+            "Ukayl kabilesinin",
+            "Hicaz halkının",
+            "Farsça konuşanların"
+          ],
+          "explanation": "Adı ma-yı Hicaziyye buradan gelir."
+        },
+        {
+          "prompt": "La şey'ün müşabihen lillahi'de müşabihen …",
+          "options": [
+            "la'nın ismidir, mansub",
+            "haldir",
+            "mef'uldür",
+            "la'nın haberidir, mansub"
+          ],
+          "explanation": "Leyse'ye benzeyen la haberi mansub yapar."
+        },
+        {
+          "prompt": "Birgivi muzarinin kaç nasb amili sayar?",
+          "options": [
+            "Dört",
+            "On",
+            "On beş",
+            "İki"
+          ],
+          "explanation": "En, len, key, izen."
+        },
+        {
+          "prompt": "İzen tedhule'l-cennete … söylenir.",
+          "options": [
+            "bir sözün başında",
+            "“Allah'a itaat ediyorum” diyene cevap olarak",
+            "yasaklamak için",
+            "bir kasemde"
+          ],
+          "explanation": "İzen söyleneni cevaplar: “öyleyse cennete girersin”."
+        },
+        {
+          "prompt": "Hangisi leyse'ye benzeyen la'dır?",
+          "options": [
+            "La faile şerrin faizün",
+            "La tüznib",
+            "La şey'ün müşabihen",
+            "La ef'alü'l-kebaire"
+          ],
+          "explanation": "İsim merfu, haber mansub."
+        },
+        {
+          "prompt": "Basralıların görüşünde hatta'dan sonra fiil … ile mansubdur.",
+          "options": [
+            "hatta'nın kendisi",
+            "hiçbir şey",
+            "len",
+            "takdir edilen bir en"
+          ],
+          "explanation": "Bu yüzden Birgivi hatta'yı nasb amilleri arasında saymaz."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Governor": "Amil",
+          "What it does": "Ne yapar",
+          "Birgivī's example": "Birgivi'nin örneği",
+          "مَا mā": "مَا ma",
+          "rafʿ of the noun, naṣb of the khabar": "ismin ref'i, haberin nasbı",
+          "لَا lā": "لَا la",
+          "the same, with an indefinite noun": "aynısı, nekre bir isimle",
+          "أَنْ an": "أَنْ en",
+          "naṣb of the present": "muzarinin nasbı",
+          "لَنْ lan": "لَنْ len",
+          "كَيْ kay": "كَيْ key",
+          "إِذَنْ idhan": "إِذَنْ izen"
+        },
+        "caption": "Semai amilin üçüncü ve dördüncü çeşidi"
+      },
+      "text": [
+        "Üçüncü nevi: ismi ref', haberi nasb eden iki harftir; bunlar leyse'ye benzeyen ma ve la'dır; mallahü te'ala mütemekkinen bi-mekanin “Allah Teala bir mekanda yerleşmiş değildir”, ve la şey'un müşabihen lillahi te'ala “hiçbir şey Allah Teala'ya benzer değildir” gibi.",
+        "Dördüncü nevi: fiil-i muzariyi nasb eden harflerdir ve dörttür. Birincisi en'dir; uhibbü en uti'allahe te'ala “Allah Teala'ya itaat etmeyi severim” gibi. İkincisi len'dir; len yağfirallahü te'ala li'l-kafirine “Allah Teala kafirleri asla bağışlamayacaktır” gibi. Üçüncüsü key'dir; uhibbü tule'l-'umüri key uhassıle'l-'ilme “ilim tahsil edeyim diye uzun ömrü severim” gibi. Dördüncüsü izen'dir; uti'ullahe te'ala “Allah Teala'ya itaat ederim” diyene söylediğin izen tedhule'l-cennete “o halde cennete girersin” sözün gibi."
+      ]
+    },
+    "6": {
+      "title": "Cezmin on beş amili",
+      "body": [
+        "Semai amilin beşinci çeşidi, muzari fiili meczum yapan on beş kelimedir. Dördü yalnız bir fiilde amel eder: lem: lem yelid ve lem yuled, “doğurmadı ve doğurulmadı” (İhlas 112/3); lemma: lemma yenfa' umüri, “ömrüm henüz fayda vermedi”; emir lamı: li-ya'mel amelen salihan, “salih bir amel işlesin”; ve nehy la'sı: la tüznib, “günah işleme”.",
+        "On biri iki fiilde amel eder, “şart ve ceza diye adlandırılır”: in, mehma, ma, men, eyne, meta, enna, eyy, haysüma, izma ve iza ma. İn tetüb tuğfer zünubüke, “tövbe edersen günahların bağışlanır”: tetüb şart, tuğfer cezadır, ikisi de meczum. Men ya'mel amelen salihan yekün naciyen, “salih bir amel işleyen kurtulur”. Eyne tekün yüdrikke'l-mevtü, “nerede olursan ol, ölüm sana yetişir”. Meta tahsüd tehlik, “ne zaman haset edersen helak olursun”.",
+        "Her şart kelimesi kendi ma'nasını katar: in “eğer”, men “kim”, ma ve mehma “ne”, eyne, enna ve haysüma “nerede”, meta “ne zaman”, eyy “hangisi”: eyyü alimin yetekebber yubğıdhüllahü teala, “hangi alim kibirlenirse Yüce Allah ona buğzeder”. İzma ve iza ma “ne zaman, eğer” demektir: iza ma ta'mel bi-ilmike tekün hayre'n-nasi, “ilminle amel edersen insanların en hayırlısı olursun”.",
+        "Acurrumiyye'nin on sekizi ile karşılaştırın. Birgivi, soru hemzeli lem ve lemma olan elem ve elemma'yı, Basralıların saymadığı keyfema'yı ve eyyane'yi dışarıda bırakır; Acurrumiyye'nin şiirde verdiği iza'nın yerine iza ma'yı koyar. İki listenin arkasında da aynı kural durur: ilk dördünden sonra bir fiil, şart kelimelerinden sonra iki fiil meczumdur.",
+        "Meczum fiillere bakın: birkaçı mu'teldir. Tetübü'den tetüb ve tekunü'den tekün, sükundan önce uzun ünlülerini kaybeder; lem yelid kökünün vavını muzaride zaten kaybetmiştir. Sarf kitapları, Bina ve Maksud, bu değişmeleri açıklar; burada cezmin alametinin son harfteki sükun olması yeter."
+      ],
+      "terms": [
+        "cevazim: cezm amilleri, bu kitapta on beş",
+        "şart: birinci fiil",
+        "ceza: ikinci fiil, cevap",
+        "şart edatları: in, men, ma …"
+      ],
+      "examples": [
+        "lem yelid ve lem yuled, “doğurmadı ve doğurulmadı” (İhlas 112/3): lem, bir fiil",
+        "la tüznib, “günah işleme”: nehy la'sı",
+        "in tetüb tuğfer zünubüke, “tövbe edersen günahların bağışlanır”: şart ve ceza",
+        "men ya'mel amelen salihan yekün naciyen, “salih bir amel işleyen kurtulur”"
+      ],
+      "tasks": [
+        {
+          "prompt": "Şartı ve cezayı ve her birinin cezm alametini söyleyin: men ya'mel amelen salihan yekün naciyen; meta tahsüd tehlik.",
+          "answer": "Men: şart ya'mel, ceza yekün; ikisi de sükunla meczum (yekün sükundan önce uzun u'sunu kaybetmiştir). Meta: şart tahsüd, ceza tehlik; ikisi de sükunla meczum."
+        },
+        {
+          "prompt": "On beşten hangi dördü yalnız bir fiili meczum yapar? Her birinin Birgivi'deki örneğini verin.",
+          "answer": "Lem (lem yelid ve lem yuled), lemma (lemma yenfa' umüri), emir lamı (li-ya'mel amelen salihan) ve nehy la'sı (la tüznib)."
+        },
+        {
+          "prompt": "İn tetüb tuğfer zünubüke'de zünubüke nedir ve tuğfer neden meçhuldür?",
+          "answer": "Tuğfer meczum meçhul muzaridir (ceza): “bağışlanır”. Zünubüke onun naib-i failidir, merfudur: “günahların”. Bağışlayan zikredilmez."
+        },
+        {
+          "prompt": "Birgivi Acurrumiyye'nin hangi cezm amillerini dışarıda bırakır ve iza'nın yerine ne koyar?",
+          "answer": "Elem ve elemma'yı (soru hemzeli lem ve lemma), keyfema'yı ve eyyane'yi dışarıda bırakır. İza'nın (yalnız şiirde) yerine iza ma'yı koyar."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi kaç cezm amili sayar?",
+          "options": [
+            "On sekiz",
+            "Dört",
+            "On beş",
+            "On bir"
+          ],
+          "explanation": "Dördü bir fiilde, on biri iki fiilde."
+        },
+        {
+          "prompt": "Hangisi iki fiilde amel eder?",
+          "options": [
+            "Lem",
+            "Lemma",
+            "Nehy la'sı",
+            "Men"
+          ],
+          "explanation": "Şart kelimeleri şartta ve cezada amel eder."
+        },
+        {
+          "prompt": "Birgivi şart kelimesinden sonraki iki fiile ne der?",
+          "options": [
+            "Şart ve ceza",
+            "Mübteda ve haber",
+            "Fail ve mef'ul",
+            "İsim ve haber"
+          ],
+          "explanation": "İkincisi cevaptır; ona ceza der."
+        },
+        {
+          "prompt": "Eyne tekün yüdrikke'l-mevtü'de el-mevtü …",
+          "options": [
+            "mef'uldür",
+            "yüdrik'in failidir, merfu",
+            "şarttır",
+            "meczumdur"
+          ],
+          "explanation": "Ölüm sana yetişir: el-mevtü fail; -ke mef'uldür."
+        },
+        {
+          "prompt": "Bunlardan hangisi Birgivi'nin listesinde yoktur?",
+          "options": [
+            "Mehma",
+            "İzma",
+            "Keyfema",
+            "Haysüma"
+          ],
+          "explanation": "Basralılar keyfema'yı saymaz; Acurrumiyye Kufelileri izler."
+        },
+        {
+          "prompt": "Meta tahsüd tehlik … demektir.",
+          "options": [
+            "Haset ettiysen helak oldun",
+            "Haset etme",
+            "Asla haset etmeyeceksin",
+            "Ne zaman haset edersen helak olursun"
+          ],
+          "explanation": "Meta: “ne zaman”."
+        },
+        {
+          "prompt": "La tüznib'de cezmin alameti nedir?",
+          "options": [
+            "Sükun",
+            "Nunun düşmesi",
+            "Fetha",
+            "Bir illet harfinin düşmesi"
+          ],
+          "explanation": "Tüznibü → la tüznib."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Governor": "Amil",
+          "Verbs": "Fiiller",
+          "Birgivī's example": "Birgivi'nin örneği",
+          "لَمْ lam": "لَمْ lem",
+          "one": "bir",
+          "لَمَّا lammā": "لَمَّا lemma",
+          "لَامُ الْأَمْرِ li-": "لَامُ الْأَمْرِ li-",
+          "لَا النَّاهِيَةُ lā": "لَا النَّاهِيَةُ la",
+          "إِنْ in": "إِنْ in",
+          "two": "iki",
+          "مَهْمَا mahmā": "مَهْمَا mehma",
+          "مَا mā": "مَا ma",
+          "مَنْ man": "مَنْ men",
+          "أَيْنَ ayna": "أَيْنَ eyne",
+          "مَتَى matā": "مَتَى meta",
+          "أَنَّى annā": "أَنَّى enna",
+          "أَيٌّ ayy": "أَيٌّ eyy",
+          "حَيْثُمَا ḥaythumā": "حَيْثُمَا haysüma",
+          "إِذْمَا idhmā": "إِذْمَا izma",
+          "إِذَا مَا idhā mā": "إِذَا مَا iza ma"
+        },
+        "caption": "Birgivi'nin on beş cezm amili"
+      },
+      "text": [
+        "Beşinci nevi: fiil-i muzariyi cezm eden kelimelerdir ve on beştir. Birincisi lem'dir; Allah Teala'nın lem yelid ve lem yuled “doğurmadı ve doğurulmadı” sözü gibi. İkincisi lemma'dır; lemma yenfe' 'umüri “ömrüm henüz fayda vermedi” gibi. Üçüncüsü emr lamıdır; li-ye'mel 'amelen salihan “salih bir amel işlesin” gibi. Dördüncüsü nehiydeki la'dır; la tüznib “günah işleme” gibi. Bu dördü bir fiili cezm eder.",
+        "Beşincisi in'dir; in tetüb tuğfer zünubüke “tövbe edersen günahların bağışlanır” gibi. Altıncısı mehma'dır; mehma tef'al tüs'el 'anhü “ne yaparsan ondan sorulursun” gibi. Yedincisi ma'dır; ma tef'al min hayrin tecidhü 'indellahi te'ala “hayırdan ne yaparsan onu Allah Teala katında bulursun” gibi. Sekizincisi men'dir; men ye'mel 'amelen salihan yekün naciyen “kim salih bir amel işlerse kurtulan olur” gibi. Dokuzuncusu eyne'dir; eyne tekün yudrikke'l-mevtü “nerede olursan ölüm sana erişir” gibi. Onuncusu meta'dır; meta tahsüd tehlik “ne zaman hased edersen helak olursun” gibi.",
+        "On birincisi enna'dır; enna tüznib ye'lemkellahü te'ala “nerede günah işlersen Allah Teala seni bilir” gibi. On ikincisi eyyün'dür; eyyu 'alimin yetekebber yubğıdhüllahü te'ala “hangi alim kibirlenirse Allah Teala ona buğzeder” gibi. On üçüncüsü haysüma'dır; haysüma tef'al yukteb fi'lüke “nerede bir iş yaparsan işin yazılır” gibi. On dördüncüsü izma'dır; izma tetüb tukbel tevbetüke “tövbe edersen tövben kabul olunur” gibi. On beşincisi iza ma'dır; iza ma te'mel bi-'ilmike tekün hayra'n-nasi “ilminle amel edersen insanların en hayırlısı olursun” gibi. Bu on biri, şart ve ceza diye adlandırılan iki fiili cezm eder."
+      ]
+    },
+    "7": {
+      "title": "Amil olarak fiil: tam ve nakıs",
+      "body": [
+        "Şimdi kıyasi amiller, her biri bütün bir kelime sınıfını kapsayan dokuz kural. Birincisi ve en büyüğü fiildir: “her fiil ref' ve nasb verir”. Halakallahü teala külle şey'in, “Yüce Allah her şeyi yarattı” cümlesinde fiil failine ref', mef'ulüne nasb verir. Mef'ulsüz bir fiil bile bir şeye nasb verir: nezele'l-Kur'anü nüzulen, “Kur'an bir iniş iniş indi”; burada nüzulen bir mef'ul-i mutlaktır. Bir fiilin mef'ulü olmayabilir, ama bir şeyi mansub yapma gücü asla eksik olmaz: masdarı, bir zaman, bir mekan, bir hal.",
+        "“Her fiilin merfu bir ismi olmalıdır.” Söz o isimle tamamlanıyorsa fiil tamdır: alimallahü teala, “Yüce Allah bildi”. Tamamlanmıyor da mansub bir habere de ihtiyaç duyuyorsa fiil nakıstır: kanallahü teala alimen hakimen, “Yüce Allah alim ve hakimdir”.",
+        "Nakıs fiiller Acurrumiyye'deki kane'nin kardeşleridir ve Birgivi birkaçını akide ve fıkıh cümleleriyle verir: sara'l-asi müstahikkan li'l-azabi, “isyankar azaba müstahak oldu”; ma zale'l-müznibü baiden minallahi teala, “günahkar hep Yüce Allah'tan uzaktır”; tukbelü't-tevbetü ma dame'r-ruhu dahilen fi'l-bedeni, “ruh bedende olduğu sürece tövbe kabul edilir”; leysellahü teala cismen, “Yüce Allah bir cisim değildir”.",
+        "Yani Acurrumiyye kane'yi mübteda ve habere giren kelimeler arasında ele alırken Birgivi onu, her fiil gibi aynı kurala tabi bir fiil olarak ele alır; tam ile nakıs arasındaki fark yalnız merfu ismin yetip yetmemesidir. Kanallahü alimen'de merfu isim Allahu'dur, kane'nin ismi; alimen de mansub haberi."
+      ],
+      "terms": [
+        "fiil-i tam: merfu ismi onu tamamlar",
+        "fiil-i nakıs: mansub bir habere ihtiyaç duyar",
+        "kıyasi amil: bir kelime sınıfı için bir kural",
+        "mef'ul-i mutlak: nezele … nüzulen'deki nüzulen"
+      ],
+      "examples": [
+        "halakallahü teala külle şey'in, “Yüce Allah her şeyi yarattı”: failin ref'i, mef'ulün nasbı",
+        "nezele'l-Kur'anü nüzulen, “Kur'an indi”: mef'ulsüz bir fiil de nasb verir",
+        "kanallahü teala alimen hakimen: ismi ve haberiyle nakıs bir fiil",
+        "leysellahü teala cismen, “Yüce Allah bir cisim değildir”"
+      ],
+      "tasks": [
+        {
+          "prompt": "Halakallahü teala külle şey'in'de ve nezele'l-Kur'anü nüzulen'de fiil neye ref' ve nasb verir?",
+          "answer": "Halaka: Allahu'ya ref' (faili), külle'ye nasb (mef'ulü). Nezele: el-Kur'anü'ye ref' (faili), nüzulen'e nasb (mef'ul-i mutlakı)."
+        },
+        {
+          "prompt": "Tam mı, nakıs mı? alimallahü teala; sara'l-asi müstahikkan li'l-azabi; tukbelü't-tevbetü.",
+          "answer": "Alime: tam; söz failiyle bütündür. Sara: nakıs; mansub haber müstahikkan'a ihtiyaç duyar. Tukbelü: tam; naib-i faili et-tevbetü ile meçhul bir fiil."
+        },
+        {
+          "prompt": "Tukbelü't-tevbetü ma dame'r-ruhu dahilen fi'l-bedeni'deki nakıs fiilin ismini ve haberini verin ve tercüme edin.",
+          "answer": "Nakıs fiil ma dame'dir: ismi er-ruhu (merfu), haberi dahilen (mansub). “Ruh bedende olduğu sürece tövbe kabul edilir.”"
+        },
+        {
+          "prompt": "Birgivi'nin kane'yi ele alışı Acurrumiyye'ninkinden nasıl ayrılır?",
+          "answer": "Acurrumiyye kane'yi ve kardeşlerini mübteda ve habere giren kelimeler arasına koyar. Birgivi onları her fiilin amel ettiği kuralın altında fiiller olarak sayar ve merfu isimleri mansub bir haber olmadan yetmediği için onlara nakıs der."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birinci kıyasi amil nedir?",
+          "options": [
+            "Cer harfi",
+            "Masdar",
+            "Ma'nevi amil",
+            "Fiil, her fiil"
+          ],
+          "explanation": "Her fiil ref' ve nasb verir."
+        },
+        {
+          "prompt": "Lazım bir fiil hiç nasb verir mi?",
+          "options": [
+            "Evet: masdarına, bir zamana, bir mekana, bir hale",
+            "Hayır, asla",
+            "Yalnız meçhulde",
+            "Yalnız bir harfle"
+          ],
+          "explanation": "Nezele'l-Kur'anü nüzulen."
+        },
+        {
+          "prompt": "Bir fiili nakıs yapan nedir?",
+          "options": [
+            "Failinin olmaması",
+            "Merfu isminin yanında mansub bir habere ihtiyaç duyması",
+            "Mu'tel olması",
+            "Mazisinin olmaması"
+          ],
+          "explanation": "Kanallahü alimen."
+        },
+        {
+          "prompt": "Leysellahü teala cismen'de cismen …",
+          "options": [
+            "leyse'nin ismidir",
+            "mef'uldür",
+            "leyse'nin haberidir, mansub",
+            "haldir"
+          ],
+          "explanation": "Leyse nakıs bir fiildir."
+        },
+        {
+          "prompt": "“Her fiilin … olmalıdır.”",
+          "options": [
+            "bir mef'ulü",
+            "bir haberi",
+            "bir masdarı",
+            "merfu bir ismi"
+          ],
+          "explanation": "Faili, naib-i faili ya da ismi."
+        },
+        {
+          "prompt": "Alimallahü teala …",
+          "options": [
+            "failiyle tam bir fiildir",
+            "nakıs bir fiildir",
+            "bir cümle-i ismiyyedir",
+            "failsiz bir fiildir"
+          ],
+          "explanation": "Söz merfu isimle bütündür."
+        },
+        {
+          "prompt": "Ma zale'l-müznibü baiden … demektir.",
+          "options": [
+            "Günahkar artık uzak değildir",
+            "Günahkar hep uzaktır",
+            "Günahkar uzak oldu",
+            "Günahkar uzak değildir"
+          ],
+          "explanation": "Ma zale: “olmaktan geri kalmadı”."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Every verb governs": "Her fiil amel eder",
+          "Complete (tāmm)": "Tam",
+          "with doer and object": "fail ve mef'ulle",
+          "with its maṣdar": "masdarıyla",
+          "complete with its doer": "failiyle tam",
+          "Incomplete (nāqiṣ)": "Nakıs",
+          "kāna": "kane",
+          "ṣāra": "sara",
+          "mā zāla": "ma zale",
+          "mā dāma": "ma dame",
+          "laysa": "leyse"
+        }
+      },
+      "text": [
+        "Kıyasi olanlar dokuzdur. Birincisi mutlak olarak fiildir: her fiil ref' ve nasb eder; halakallahü te'ala külle şey'in “Allah Teala her şeyi yarattı”, ve nezele'l-kur'anü nüzulen “Kur'an bir inişle indi” gibi. Her fiilin mutlaka bir merfuu vardır; eğer onunla kelam tamam olursa fiil-i tam denir; 'alimellahü te'ala “Allah Teala bildi” gibi.",
+        "Eğer onunla tamam olmaz da mansub bir habere muhtaç olursa fiil-i nakıs denir; kanellahü te'ala 'alimen hakimen “Allah Teala Alim ve Hakim'dir”, ve sara'l-'asi müstahikkan li'l-'azabi “asi azaba müstahak oldu”, ve ma zale'l-müznibü be'iden minellahi te'ala “günahkar Allah Teala'dan uzak olmaya devam etti”, ve tukbelü't-tevbetu ma dame'r-ruhu dahılen fi'l-bedeni “ruh bedende bulundukça tövbe kabul olunur”, ve leysellahü te'ala cismen “Allah Teala cisim değildir” gibi."
+      ]
+    },
+    "8": {
+      "title": "Fiili gibi amel eden kelimeler",
+      "body": [
+        "Sonraki beş kıyasi amil, fiillerinin amel ettiği gibi amel eden isimlerdir. İsm-i fail ma'lum fiilinin işini görür: küllü hasudin muhrikun hasedühü amelehü, “her hasetçinin hasedi amelini yakar”. “Yakmak” anlamındaki ahraka'nın ism-i faili olan muhrikun, tam yuhriku'nun yapacağı gibi faili hasedühü'ye ref', mef'ulü amelehü'ye nasb verir.",
+        "İsm-i mef'ul meçhul fiilinin işini görür: küllü taibin makbuletün tevbetühü, “her tövbe edenin tövbesi kabul edilir”. Makbuletün, tukbelü'nün yapacağı gibi naib-i fail tevbetühü'ye ref' verir; tevbe müennes olduğu için müennestir. Kalıcı bir özelliği adlandıran sıfat-ı müşebbehe de aynısını yapar: el-ibadetü hasenün sevabüha, “ibadetin sevabı güzeldir”; el-ma'sıyetü kabihun azabüha, “günahın azabı çirkindir”: hasen ve kabih kendilerinden sonraki isme ref' verir.",
+        "İsm-i tafdil de amel eder, ama yalnız dar bir durumda: ma min racülin ahsene fihi'l-hilmü minhü fi'l-alimi, “hilmin kendisinde alimdekinden daha güzel olduğu hiçbir adam yoktur”. Ahsene açık isim el-hilmü'ye ref' verir; bir ism-i tafdil bunu yalnız bu şekilde, nefyli ve bir şeyi iki yerde kendisiyle karşılaştıran bir cümlede yapar; nahivciler bunu standart örneklerinden dolayı kühl meselesi diye bilir.",
+        "Masdar fiili gibi amel eder: yuhibbüllahü teala i'taehü abdehü fakiran dirhemen, “Yüce Allah onun fakir kuluna bir dirhem vermesini sever”. “Vermek” anlamındaki a'ta'nın masdarı i'ta, fiili gibi iki mef'ul alır, abdehü ve dirhemen; ona bitişik -hü vereni adlandırır; fakiran kulun halini vasfeder. Medrese cümleyi bir sadaka dersi olarak da okur.",
+        "Bu beşini birleştiren: her biri fiilden yapılmış bir isimdir ve her biri fiilin gücünden bir kısmını korur. Emsile onların sigalarını öğretti; Avamil ne yaptıklarını öğretir."
+      ],
+      "terms": [
+        "ism-i fail: ma'lum fiili gibi amel eder",
+        "ism-i mef'ul: meçhul fiili gibi amel eder",
+        "sıfat-ı müşebbehe: kalıcı bir özellik",
+        "ism-i tafdil: dar bir durumda amel eder",
+        "masdar: fiili gibi amel eder"
+      ],
+      "examples": [
+        "küllü hasudin muhrikun hasedühü amelehü: faili ve mef'uluyle ism-i fail muhrikun",
+        "küllü taibin makbuletün tevbetühü: naib-i failiyle ism-i mef'ul",
+        "el-ibadetü hasenün sevabüha, “ibadetin sevabı güzeldir”: sıfat-ı müşebbehe",
+        "fiili a'ta gibi iki mef'ulüyle masdar i'ta"
+      ],
+      "tasks": [
+        {
+          "prompt": "Küllü hasudin muhrikun hasedühü amelehü'de amili, merfu ismini ve mansub ismini bulun ve tercüme edin.",
+          "answer": "Amil: ahraka'nın ism-i faili muhrikun. Merfu: faili hasedühü. Mansub: mef'ulü amelehü. “Her hasetçinin hasedi amelini yakar.”"
+        },
+        {
+          "prompt": "Küllü taibin makbuletün tevbetühü'de taib müzekker olmasına rağmen makbuletün neden müennestir?",
+          "answer": "İsm-i mef'ul fiili gibi amel eder ve fiil merfu yaptığı isme uyar: burada müennes olan tevbetühü, “onun tövbesi” (tukbelü tevbetühü gibi)."
+        },
+        {
+          "prompt": "El-ibadetü hasenün sevabüha ve'l-ma'sıyetü kabihun azabüha'da hasenün ve kabihun neyde amel eder?",
+          "answer": "Her biri bir sıfat-ı müşebbehedir ve kendisinden sonraki isme ref' verir: hasenün sevabüha'ya, kabihun azabüha'ya."
+        },
+        {
+          "prompt": "Beşinden hangisi yalnız dar bir durumda amel eder ve o durum nedir?",
+          "answer": "İsm-i tafdil. Açık bir isme yalnız, bir şeyi iki yerde kendisiyle karşılaştıran nefyli bir cümlede ref' verir: ma min racülin ahsene fihi'l-hilmü minhü fi'l-alimi gibi (kühl meselesi)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İsm-i fail … gibi amel eder.",
+          "options": [
+            "ma'lum fiili",
+            "meçhul fiili",
+            "bir cer harfi",
+            "masdar"
+          ],
+          "explanation": "Muhrikun hasedühü amelehü: fail ve mef'ul."
+        },
+        {
+          "prompt": "İsm-i mef'ul … gibi amel eder.",
+          "options": [
+            "ma'lum fiili",
+            "meçhul fiili",
+            "inne",
+            "kane"
+          ],
+          "explanation": "Makbuletün tevbetühü: naib-i fail."
+        },
+        {
+          "prompt": "Sıfat-ı müşebbehe neyi adlandırır?",
+          "options": [
+            "Bir kez yapılan bir işi",
+            "Bir yeri",
+            "Kalıcı bir özelliği",
+            "Bir aleti"
+          ],
+          "explanation": "Hasen, kabih."
+        },
+        {
+          "prompt": "El-ibadetü hasenün sevabüha'da sevabüha …",
+          "options": [
+            "hasenün ile mansubdur",
+            "mübtedadır",
+            "mecrurdur",
+            "hasenün ile merfudur"
+          ],
+          "explanation": "Sıfat kendisinden sonraki isme ref' verir."
+        },
+        {
+          "prompt": "İsm-i tafdil açık bir isme ne zaman ref' verir?",
+          "options": [
+            "Yalnız dar bir durumda, kühl meselesinde",
+            "Her zaman",
+            "Hiçbir zaman",
+            "Yalnız min'den sonra"
+          ],
+          "explanation": "Ma min racülin ahsene fihi'l-hilmü minhü fi'l-alimi."
+        },
+        {
+          "prompt": "Yuhibbüllahü i'taehü abdehü fakiran dirhemen'de dirhemen'de ne amel eder?",
+          "options": [
+            "Yuhibbü fiili",
+            "Masdar i'ta",
+            "Abdehü",
+            "Fakiran"
+          ],
+          "explanation": "İ'ta, a'ta gibi iki mef'ul alır."
+        },
+        {
+          "prompt": "Bu beş amili birleştiren nedir?",
+          "options": [
+            "Her biri bir harftir",
+            "Her biri bir fiili meczum yapar",
+            "Her biri gücünün bir kısmını koruyan, fiilden yapılmış bir isimdir",
+            "Her biri ma'nevidir"
+          ],
+          "explanation": "Emsile onların sigalarını öğretti; Avamil ne yaptıklarını."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Governor": "Amil",
+          "Works like": "Gibi amel eder",
+          "What it governs": "Neyde amel eder",
+          "Example": "Örnek",
+          "active participle": "ism-i fail",
+          "its active verb": "ma'lum fiili",
+          "doer, object": "fail, mef'ul",
+          "passive participle": "ism-i mef'ul",
+          "its passive verb": "meçhul fiili",
+          "deputy of the doer": "naib-i fail",
+          "adjective like the participle": "sıfat-ı müşebbehe",
+          "its verb": "fiili",
+          "a noun in rafʿ": "merfu bir isim",
+          "elative": "ism-i tafdil",
+          "its verb, in one case": "fiili, bir durumda",
+          "a visible noun in rafʿ": "merfu açık bir isim",
+          "maṣdar": "masdar",
+          "doer, objects": "fail, mef'uller"
+        },
+        "caption": "Fiilleri gibi amel eden beş isim"
+      },
+      "text": [
+        "İkincisi ism-i faildir: ma'lum fiilinin amelini yapar; küllü hasudin muhrikun hasedühü 'amelehü “her hasetçinin hasedi amelini yakar” gibi. Üçüncüsü ism-i mef'uldür: meçhul fiilinin amelini yapar; küllü ta'ibin makbuletun tevbetühü “her tövbe edenin tövbesi kabul olunur” gibi. Dördüncüsü sıfat-ı müşebbehedir: o da fiilinin amelini yapar; el-'ibadetu hasenün sevabüha “ibadetin sevabı güzeldir”, ve'l-me'sıyetu kabihun 'azabüha “isyanın azabı çirkindir” gibi.",
+        "Beşincisi ism-i tafdildir: o da fiilinin amelini yapar; ma min raculin ahsene fihi'l-hilmü minhü fi'l-'alimi “hilmin kendisinde, alimdeki hilimden daha güzel olduğu hiçbir adam yoktur” gibi. Altıncısı masdardır: o da fiilinin amelini yapar; yuhibbüllahü te'ala i'ta'ehü 'abdehü fakiran dirhemen “Allah Teala, onun fakir kölesine bir dirhem vermesini sever” gibi."
+      ]
+    },
+    "9": {
+      "title": "Muzaf, mübhem isim, fiil ma'nası; ma'nevi amiller",
+      "body": [
+        "Yedinci kıyasi amil başka bir isme bağlanan isimdir (el-muzaf); ikincisini mecrur yapar: ibadetullahi teala hayrun, “Yüce Allah'a ibadet hayırdır”. Burada ibade, Allah'ın amilidir. Acurrumiyye “izafetle mahfuz” isimden söz etmişti; Birgivi izafetin ilk kısmının kendisini amil olarak adlandırır.",
+        "Sekizincisi tam mübhem isimdir (el-ismü'l-mübhemü't-tamm); temyizini mansub yapar: et-teravihu işrune rek'aten, “teravih yirmi rek'attir”. İşrune mübhemdir, neyin yirmisi?, ve tamdır, nunuyla biter, bu yüzden rek'aten'i mansub yapar. Örnek, Hanefi fıkhının bir noktasıdır, Ramazan gece namazının yirmi rek'atı, sayılar dersine konmuş.",
+        "Dokuzuncusu fiil ma'nasıdır (ma'na'l-fiil): “kendisinden bir fiilin ma'nası anlaşılan her kelime”. Heyhate'l-müznibü minallahi teala, “günahkar Yüce Allah'tan ne kadar uzak!”: heyhate “uzaktır” demektir ve el-müznibü'ye ref' verir. Teraki zenben, “günahı bırak!”: teraki “bırak!” demektir ve zenben'e nasb verir. Ma fi'd-dünya rahatün, “dünyada rahat yoktur”: fi'd-dünya “bulunur” ma'nasını taşır ve şerhler rahatün'ü onunla merfu okur. Ve yenbaği li'l-alimi en yekune muhammediyyen hulukuhu, “alimin ahlakı Muhammedi olmalıdır”: “Muhammed'e mensup” anlamındaki ism-i mensub muhammediyyen, hulukuhu'ya ref' verir.",
+        "İki ma'nevi amil altmışı kapatır. Birincisi “mübteda ve haberi merfu yapan”dır: Muhammedün rasulullahi; burada Muhammed'den önce hiçbir kelime durmaz; onun başa konması amel eden şeydir. İkincisi “muzari fiili merfu yapan”dır: yerhamüllahü teala't-taibe, “Yüce Allah tövbe edene merhamet eder”; burada yerhamü, kendisine hiçbir nasb ya da cezm amili girmediği için merfudur.",
+        "Bunlarla birinci bab biter: kırk dokuz semai amil, dokuz kıyasi, iki ma'nevi. Birgivi'nin cümlelerindeki her kelimenin amilini söyleyebilen talebe babı öğrenmiştir."
+      ],
+      "terms": [
+        "ism-i muzaf: sonraki ismi mecrur yapan isim",
+        "tam mübhem isim: temyizini mansub yapar",
+        "fiil ma'nası: bir fiilin ma'nasıyla amel eden kelimeler",
+        "ism-i fiil: fiil ma'nalı isim, heyhate, teraki",
+        "ma'nevi amil: hepsi iki"
+      ],
+      "examples": [
+        "ibadetullahi teala hayrun, “Yüce Allah'a ibadet hayırdır”: muzaf Allah'ta amel eder",
+        "et-teravihu işrune rek'aten, “teravih yirmi rek'attir”: mübhem isim temyizinde amel eder",
+        "heyhate'l-müznibü minallahi teala, “günahkar Allah'tan ne kadar uzak!”: fiil ma'nalı bir isim",
+        "yerhamüllahü teala't-taibe: ma'nevi bir amille merfu muzari"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her birinde ikinci kelimenin amilini ve verdiği i'rabı söyleyin: ibadetullahi; işrune rek'aten; heyhate'l-müznibü; teraki zenben.",
+          "answer": "Allahi: muzaf olan ibade (cer). Rek'aten: tam mübhem isim olan işrune (temyiz olarak nasb). El-müznibü: “uzaktır” anlamındaki isim heyhate (faili olarak ref'). Zenben: “bırak!” anlamındaki isim teraki (mef'ulü olarak nasb)."
+        },
+        {
+          "prompt": "İşrune'ye neden “mübhem” ve “tam” denir?",
+          "answer": "Mübhem, çünkü “yirmi” temyiz gelene kadar neyin sayıldığını söylemez. Tam, çünkü nunuyla biter ve sonraki bir kelimeye bağlanmaz; bu yüzden temyizi mansub yapar."
+        },
+        {
+          "prompt": "Muhammedün rasulullahi'de Muhammedün'de ve yerhamüllahü teala't-taibe'de yerhamü'de ne amel eder?",
+          "answer": "İkisinde de ma'nevi amiller amel eder. Muhammedün: hakkında konuşulmak üzere başa konması (mübteda ve haberde amel eden). Yerhamü: her nasb ve cezm amilinden boş olması."
+        },
+        {
+          "prompt": "Yenbaği li'l-alimi en yekune muhammediyyen hulukuhu'da muhammediyyen neyde amel eder ve neden edebilir?",
+          "answer": "Hulukuhu'ya ref' verir. Muhammediyyen, “Muhammed'e mensup” anlamında bir ism-i mensubdur; ondan bir fiilin ma'nası anlaşılır ve bu yüzden fiil ma'nasıyla amel eder."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İbadetullahi'de Allah'ta ne amel eder?",
+          "options": [
+            "Takdir edilen bir cer harfi",
+            "Muzaf olan ibade",
+            "Ma'nevi amil",
+            "Hiçbir şey"
+          ],
+          "explanation": "Birgivi izafetin ilk kısmını amil olarak adlandırır."
+        },
+        {
+          "prompt": "Tam mübhem isim neyde amel eder?",
+          "options": [
+            "Meczum bir fiilde",
+            "Merfu failinde",
+            "Mansub temyizinde",
+            "Mecrur bir isimde"
+          ],
+          "explanation": "İşrune rek'aten."
+        },
+        {
+          "prompt": "Heyhate ne demektir?",
+          "options": [
+            "Bırak!",
+            "Yoktur",
+            "Umulur ki",
+            "Uzaktır"
+          ],
+          "explanation": "El-müznibü'ye faili olarak ref' verir."
+        },
+        {
+          "prompt": "Teraki zenben … demektir.",
+          "options": [
+            "Günahı bırak!",
+            "Günahın uzaktır",
+            "Günah yoktur",
+            "Günah seni bıraktı"
+          ],
+          "explanation": "“Bırak!” anlamındaki bir isim olan teraki, zenben'e nasb verir."
+        },
+        {
+          "prompt": "Kaç ma'nevi amil vardır?",
+          "options": [
+            "Bir",
+            "İki",
+            "Dokuz",
+            "Altmış"
+          ],
+          "explanation": "Mübteda ve haberi merfu yapan ve muzari fiili merfu yapan."
+        },
+        {
+          "prompt": "Yerhamüllahü'de yerhamü'yü merfu yapan nedir?",
+          "options": [
+            "Faili Allahu",
+            "Ya harfi",
+            "Her nasb ve cezm amilinden boş olması",
+            "Mübtedanın ma'nevi amili"
+          ],
+          "explanation": "İkinci ma'nevi amil."
+        },
+        {
+          "prompt": "Et-teravihu işrune rek'aten ayrıca … öğretir.",
+          "options": [
+            "bir akide noktası",
+            "bir sarf kuralı",
+            "bir Kur'an ayeti",
+            "bir Hanefi fıkıh noktası: yirmi rek'at"
+          ],
+          "explanation": "Birgivi'nin örnekleri nahvin yanında ahlak da öğretir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Governor": "Amil",
+          "Kind": "Çeşit",
+          "It governs": "Neyde amel eder",
+          "Example": "Örnek",
+          "the muḍāf": "muzaf",
+          "analogical": "kıyasi",
+          "the next noun in jarr": "sonraki isimde, cer",
+          "the complete vague noun": "tam mübhem isim",
+          "its tamyīz in naṣb": "temyizinde, nasb",
+          "the meaning of the verb": "fiil ma'nası",
+          "rafʿ or naṣb, as its verb": "fiili gibi ref' ya da nasb",
+          "being put first": "başa konmak",
+          "abstract": "ma'nevi",
+          "the subject and the predicate": "mübteda ve haber",
+          "being free of governors": "amillerden boş olmak",
+          "the present in rafʿ": "muzaride, ref'"
+        },
+        "caption": "Son kıyasi amiller ve iki ma'nevi amil"
+      },
+      "text": [
+        "Yedincisi muzaf isimdir: cerr ameli yapar; 'ibadetullahi te'ala hayrun “Allah Teala'ya ibadet hayırdır” gibi. Sekizincisi tam mübhem isimdir: nasb ameli yapar; et-teravihu 'işrune rak'aten “teravih yirmi rek'attır” gibi.",
+        "Dokuzuncusu fiil ma'nasıdır, yani kendisinden bir fiil ma'nası anlaşılan her lafızdır; heyhate'l-müznibü minellahi te'ala “günahkar Allah Teala'dan ne kadar uzaktır!”, ve teraki zenben “günahı bırak!”, ma fi'd-dünya rahatun “dünyada rahat yoktur” ve yenbaği li'l-'alimi en yekune muhammediyyen hulukuhü “alimin ahlakının Muhammedi olması gerekir” gibi.",
+        "Ma'nevi olanlar ikidir. Birincisi mübteda ve haberi ref' edendir; Muhammedün rasulüllahi “Muhammed Allah'ın Resulüdür” gibi. İkincisi fiil-i muzariyi ref' edendir; yerhamüllahü te'ala't-ta'ibe “Allah Teala tövbe edene merhamet eder” gibi."
+      ]
+    },
+    "10": {
+      "title": "Ma'mul; dokuz merfu",
+      "body": [
+        "İkinci bab amillerden onların amel ettiği kelimelere döner ve onları önce ikiye ayırır. Bazıları asaleten (bi'l-asale) ma'muldür: bir amil onlarda doğrudan amel eder. Diğerleri tebeiyyetle (bi't-tebeiyye) ma'muldür: “i'rabları uydukları şeyin i'rabı gibidir”: na't, atf ve diğerleri. Birinci çeşit dört kısımdır: merfu, mansub, mecrur (yalnız isimler) ve meczum (yalnız fiiller).",
+        "Dokuzu merfudur. Fail: rahimallahü teala't-taibe, “Yüce Allah tövbe edene merhamet etti”. Naib-i fail: ruhime't-taibü, “tövbe edene merhamet edildi”. Mübteda ve haber: Muhammedün hatemü'l-enbiyai, “Muhammed peygamberlerin sonuncusudur”. Kane ve kardeşlerinin ismi: kanallahü teala alimen hakimen.",
+        "İnne ve kardeşlerinin haberi: inne'l-ba'se hakkun, “ba's haktır”. Cins la'sının haberi: la amele müra'in makbulün, “riyakarın hiçbir ameli kabul edilmez”. Leyse'ye benzeyen ma ve la'nın ismi: ma't-tekebbürü laikan li'l-alimi, “kibir alime yakışmaz”, ve la hasedün halalen, “ve hiçbir haset helal değildir”. Ve nasb ve cezm amillerinden boş muzari fiil: yuhibbüllahü teala't-tevadua, “Yüce Allah tevazuu sever”.",
+        "Listeyi Acurrumiyye'nin yedisinin yanına koyun. Birgivi üç tane ekler: cins la'sının haberi ve leyse'ye benzeyen ma ve la'nın ismi, çünkü o amilleri saymıştı; ve merfu muzari fiil, çünkü onun ma'mulleri fiilleri de içerir. Tabileri babın sonuna, ikinci çeşit olarak bırakır. Buradaki her madde birinci babdaki bir amilin öbür yüzüdür: fiilin faili, inne'nin haberi, ma'nın ismi."
+      ],
+      "terms": [
+        "asaleten ma'mul: kendi başına ma'mul",
+        "tebeiyyetle ma'mul: uyarak ma'mul, tabiler",
+        "metbu': uyulan kelime",
+        "merfuat: merfu kelimeler, bu kitapta dokuz"
+      ],
+      "examples": [
+        "fail ve naib-i fail: “Allah tövbe edene merhamet etti”, “tövbe edene merhamet edildi”",
+        "inne'l-ba'se hakkun, “ba's haktır”: inne'nin haberi",
+        "la amele müra'in makbulün, “riyakarın hiçbir ameli kabul edilmez”: la'nın haberi",
+        "yuhibbüllahü teala't-tevadua, “Yüce Allah tevazuu sever”: merfu muzari fiil"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her merfu kelimeyi bulun ve dokuzdan hangisi olduğunu söyleyin: Muhammedün hatemü'l-enbiyai; inne'l-ba'se hakkun; ma't-tekebbürü laikan li'l-alimi.",
+          "answer": "Muhammedün: mübteda; hatemü: haber. Hakkun: inne'nin haberi. Et-tekebbürü: leyse'ye benzeyen ma'nın ismi."
+        },
+        {
+          "prompt": "Yuhibbüllahü teala't-tevadua'daki iki merfu kelimeyi bulun ve her birinin amilini söyleyin.",
+          "answer": "Muzari fiil yuhibbü, her nasb ve cezm amilinden boş olmasıyla (ma'nevi bir amil) merfudur. Allahu, faili, fiille merfudur."
+        },
+        {
+          "prompt": "Asaleten ma'mul olan kelime ile tebeiyyetle ma'mul olan arasındaki fark nedir?",
+          "answer": "Asaleten ma'mul olan kelimenin onda doğrudan amel eden bir amili vardır (fiiliyle fail). Tebeiyyetle ma'mul olan kelime, uyduğu kelimenin i'rabını alır (na't isminin i'rabını alır)."
+        },
+        {
+          "prompt": "Birgivi'nin Acurrumiyye'nin yedisinde olmayan hangi üç merfuu vardır ve neden?",
+          "answer": "Cins la'sının haberi, leyse'ye benzeyen ma ve la'nın ismi ve merfu muzari fiil. Birinci babda o amilleri saymıştı ve ma'mulleri isimlerin yanında fiilleri de içerir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi kaç merfu sayar?",
+          "options": [
+            "Yedi",
+            "On üç",
+            "Dokuz",
+            "İki"
+          ],
+          "explanation": "Acurrumiyye'nin yedisine üç ekler."
+        },
+        {
+          "prompt": "Ruhime't-taibü'de et-taibü …",
+          "options": [
+            "faildir",
+            "mef'uldür",
+            "mübtedadır",
+            "naib-i faildir"
+          ],
+          "explanation": "Meçhul fiil faili zikretmez."
+        },
+        {
+          "prompt": "La amele müra'in makbulün'de merfu olan nedir?",
+          "options": [
+            "La'nın haberi makbulün",
+            "La'nın ismi amele",
+            "Müra'in",
+            "Hiçbir şey"
+          ],
+          "explanation": "Cins la'sı: ismi mansub, haberi merfu."
+        },
+        {
+          "prompt": "Ma't-tekebbürü laikan'da bunlardan hangisi merfudur?",
+          "options": [
+            "Haber laikan",
+            "Ma'nın ismi et-tekebbürü",
+            "İkisi de",
+            "Hiçbiri"
+          ],
+          "explanation": "Leyse'ye benzeyen ma: ismi merfu, haberi mansub."
+        },
+        {
+          "prompt": "Hangi ma'mullere “tebeiyyetle ma'mul” denir?",
+          "options": [
+            "Fail ve mef'ul",
+            "Fiiller",
+            "Tabiler: na't, atf ve diğerleri",
+            "Mecrur kelimeler"
+          ],
+          "explanation": "İ'rabları uydukları kelimenin i'rabıdır."
+        },
+        {
+          "prompt": "Hangi ma'mul çeşidi yalnız fiillere aittir?",
+          "options": [
+            "Mecrur",
+            "Merfu",
+            "Mansub",
+            "Meczum"
+          ],
+          "explanation": "Cer yalnız isimlere, cezm yalnız fiillere aittir."
+        },
+        {
+          "prompt": "Birgivi merfular arasında neden bir fiil sayar?",
+          "options": [
+            "Ma'mulleri isimlerin yanında fiilleri de içerir",
+            "Yanlışlıkla",
+            "Fiiller isim olduğu için",
+            "Kane'den dolayı"
+          ],
+          "explanation": "Yuhibbü her nasb ve cezm amilinden boş olduğu için merfudur."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Word in rafʿ": "Merfu kelime",
+          "Its governor": "Amili",
+          "Birgivī's example": "Birgivi'nin örneği",
+          "the doer": "fail",
+          "the verb": "fiil",
+          "the deputy of the doer": "naib-i fail",
+          "the passive verb": "meçhul fiil",
+          "the subject": "mübteda",
+          "being put first": "başa konmak",
+          "the predicate": "haber",
+          "the noun of kāna": "kane'nin ismi",
+          "kāna": "kane",
+          "the predicate of inna": "inne'nin haberi",
+          "inna": "inne",
+          "the predicate of lā of the kind": "cins la'sının haberi",
+          "lā": "la",
+          "the noun of mā, lā like laysa": "leyse'ye benzeyen ma, la'nın ismi",
+          "mā, lā": "ma, la",
+          "the present verb": "muzari fiil",
+          "freedom from governors": "amillerden boş olmak"
+        },
+        "caption": "Dokuz merfu"
+      },
+      "text": [
+        "Ma'mul iki çeşittir: asaleten ma'mul ve tebeiyyetle ma'mul; yani i'rabı, tabi olduğu kelimenin i'rabı gibi olan. Birinci çeşit dört nevidir: merfu, mansub, isme mahsus olan mecrur ve fiile mahsus olan meczum.",
+        "Merfu olanlar dokuzdur. Birincisi faildir; rahimellahü te'ala't-ta'ibe “Allah Teala tövbe edene merhamet etti” gibi. İkincisi naib-i faildir; ruhime't-ta'ibü “tövbe edene merhamet edildi” gibi. Üçüncüsü mübteda, dördüncüsü haberdir; Muhammedün hatemü'l-enbiya'i 'aleyhimü's-salatu ve's-selamü “Muhammed, peygamberlerin sonuncusudur; onlara salat ve selam olsun” gibi. Beşincisi kane ve kardeşleri babının ismidir; kanellahü te'ala 'alimen hakimen “Allah Teala Alim ve Hakim'dir” gibi.",
+        "Altıncısı inne babının haberidir; inne'l-be'se hakkun “şüphesiz öldükten sonra dirilme haktır” gibi. Yedincisi cinsi nefyeden la'nın haberidir; la 'amele müra'in makbulün “riyakarın hiçbir ameli kabul olunmaz” gibi. Sekizincisi leyse'ye benzeyen ma ve la'nın ismidir; ma't-tekebbüru la'ikan li'l-'alimi “kibir alime yakışan değildir”, ve la hasedün halalen “hiçbir haset helal değildir” gibi. Dokuzuncusu nevasıb ve cevazimden boş olan fiil-i muzaridir; yuhibbüllahü te'ala't-tevadu'a “Allah Teala tevazuu sever” gibi."
+      ]
+    },
+    "11": {
+      "title": "Mansublar (1): beş mef'ul ve diğerleri",
+      "body": [
+        "On üçü mansubdur ve Birgivi sonraki kitapların kullandığı adlarla beş mef'ulle başlar. Mef'ul-i mutlak: tübtü tevbeten nasuhan, “nasuh bir tövbeyle tövbe ettim”. Mef'ulün bih: u'büdillahe teala, “Yüce Allah'a ibadet et”. Mef'ulün fih, zaman ya da mekan zarfı: sum şehre Ramazane, “Ramazan ayında oruç tut”. Mef'ulün leh: i'mel taleben li-merdatillahi teala, “Yüce Allah'ın rızasını isteyerek amel et”. Mef'ulün maah: yefna'l-malü ve tebka ve ameleke, “mal fani olur, sen ise amelinle birlikte kalırsın”.",
+        "Son örnekte ameleke'den önceki vav “ile birlikte” demektir: sen amellerinle birlikte kalırsın, bu yüzden ameleke mansubdur. Bizim baskımız bu noktada açık değildir; cümle aynı kitabın bir Osmanlı taş baskısından okunmuştur.",
+        "Sonra beş tane daha. Hal: u'büdillahe teala haifen raciyen, “Yüce Allah'a korkarak ve umarak ibadet et”: ibadet edenin aynı anda iki hali. Temyiz: tabe'l-alimü ibadeten, “alim ibadet bakımından iyidir”. Müstesna: yedhulü'l-cennete'n-nasü ille'l-kafire, “insanlar cennete girer, kafir hariç”. Kane'nin haberi: kane'l-melaiketü ibadellahi, “melekler Allah'ın kullarıydı”. İnne'nin ismi: inne's-süale hakkun, “(kabirdeki) sual haktır”.",
+        "Dikkatli okuyucu için iki ayrıntı. Yedhulü'l-cennete'n-nasü'de mef'ul el-cennete, fail en-nasü'den önce gelir: kelime sırası serbesttir ve kimin ne yaptığını yalnız sonlar gösterir. Kane'l-melaiketü'de ise fiil, meleklerin cem'inden önce müzekker ve müfreddir; bir cem'-i mükesser böyle bir fiil alabilir. Her cümle yine inancı öğretir: nasuh tövbe, korku ve ümit, kabirdeki sual."
+      ],
+      "terms": [
+        "mef'ul-i mutlak: tevbeten",
+        "mef'ulün fih: zarf",
+        "mef'ulün leh: sebep",
+        "mef'ulün maah: “ile birlikte” vavından sonra",
+        "hal: haifen raciyen"
+      ],
+      "examples": [
+        "tübtü tevbeten nasuhan, “nasuh bir tövbeyle tövbe ettim”: mef'ul-i mutlak",
+        "sum şehre Ramazane, “Ramazan ayında oruç tut”: mef'ulün fih",
+        "yefna'l-malü ve tebka ve ameleke: “ile birlikte” vavından sonra mef'ulün maah",
+        "u'büdillahe teala haifen raciyen, “Allah'a korkarak ve umarak ibadet et”: iki hal",
+        "yedhulü'l-cennete'n-nasü ille'l-kafire: failden önce mef'ul ve mansub müstesna"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mansub kelimeyi ve çeşidini söyleyin: i'mel taleben li-merdatillahi teala; tabe'l-alimü ibadeten; inne's-süale hakkun.",
+          "answer": "Taleben: mef'ulün leh (neden amel? Allah'ın rızasını isteyerek). İbadeten: temyiz (ne bakımdan iyi? ibadet bakımından). Es-süale: inne'nin ismi."
+        },
+        {
+          "prompt": "Yedhulü'l-cennete'n-nasü ille'l-kafire'de hangi kelime fail, hangisi mef'uldür ve nasıl bilirsiniz?",
+          "answer": "En-nasü faildir (merfu, zamme); el-cennete, önce gelse de mef'uldür (mansub, fetha). Görevleri sonlar gösterir; el-kafire müstesnadır, mansubdur."
+        },
+        {
+          "prompt": "Yefna'l-malü ve tebka ve ameleke'de ameleke'nin nasbını açıklayın.",
+          "answer": "Vav “ile birlikte” demektir: sen amellerinle birlikte kalırsın. Bu vavdan sonraki isim mef'ulün maahtır, mansubdur."
+        },
+        {
+          "prompt": "U'büdillahe teala haifen raciyen'de haifen ve raciyen kimin halini vasfeder ve neye cevap verir?",
+          "answer": "Hitap edilenin, u'büd'ün failinin (“sen”) halini. “Nasıl?” sorusuna cevap verirler: aynı anda korkarak ve umarak."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi kaç mansub sayar?",
+          "options": [
+            "On beş",
+            "Dokuz",
+            "Beş",
+            "On üç"
+          ],
+          "explanation": "Bu ders ilk onu alır."
+        },
+        {
+          "prompt": "Tübtü tevbeten nasuhan'da tevbeten …",
+          "options": [
+            "mef'ul-i mutlaktır",
+            "mef'ulün bihtir",
+            "haldir",
+            "temyizdir"
+          ],
+          "explanation": "Sıfatı nasuhan ile fiilin masdarı."
+        },
+        {
+          "prompt": "Sum şehre Ramazane'de şehre …",
+          "options": [
+            "mef'ulün bihtir",
+            "mef'ulün fihtir (zaman zarfı)",
+            "mef'ulün lehtir",
+            "müstesnadır"
+          ],
+          "explanation": "Ramazan ayında oruç tut."
+        },
+        {
+          "prompt": "Mef'ulün leh hangi soruya cevap verir?",
+          "options": [
+            "Ne ile?",
+            "Ne zaman?",
+            "Neden?",
+            "Nasıl?"
+          ],
+          "explanation": "İ'mel taleben li-merdatillahi: Allah'ın rızasını isteyerek amel et."
+        },
+        {
+          "prompt": "Yedhulü'l-cennete'n-nasü'de mef'ul olmasına rağmen hangi kelime önce gelir?",
+          "options": [
+            "En-nasü",
+            "Yedhulü",
+            "Hiçbiri",
+            "El-cennete"
+          ],
+          "explanation": "Kimin ne yaptığını yalnız sonlar gösterir."
+        },
+        {
+          "prompt": "Kane'l-melaiketü ibadellahi'de kane'nin haberi nedir?",
+          "options": [
+            "İbade",
+            "El-melaiketü",
+            "Allahi",
+            "Kane"
+          ],
+          "explanation": "İbade, mansub, Allahi'ye bağlı."
+        },
+        {
+          "prompt": "U'büdillahe haifen raciyen'de … vardır.",
+          "options": [
+            "iki mef'ul",
+            "iki hal",
+            "bir temyiz ve bir hal",
+            "iki mef'ul-i mutlak"
+          ],
+          "explanation": "Korkarak ve umarak: aynı anda iki hal."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Word in naṣb": "Mansub kelime",
+          "Birgivī's example": "Birgivi'nin örneği",
+          "the absolute object": "mef'ul-i mutlak",
+          "the object": "mef'ulün bih",
+          "the object in which": "mef'ulün fih",
+          "the object for which": "mef'ulün leh",
+          "the object with which": "mef'ulün maah",
+          "the state": "hal",
+          "the specification": "temyiz",
+          "the excepted": "müstesna",
+          "the predicate of kāna": "kane'nin haberi",
+          "the noun of inna": "inne'nin ismi"
+        },
+        "caption": "İlk on mansub"
+      },
+      "text": [
+        "Mansub olanlar on üçtür. Birincisi mef'ul-i mutlaktır; tübtü tevbeten nasuhan “samimi bir tövbe ile tövbe ettim” gibi. İkincisi mef'ulün bihtir; u'büdillahe te'ala “Allah Teala'ya ibadet et” gibi. Üçüncüsü mef'ulün fihtir; sum şehra Ramadane “Ramazan ayında oruç tut” gibi. Dördüncüsü mef'ulün lehtir; i'mel taleben li-merdatillahi te'ala “Allah Teala'nın rızasını isteyerek amel et” gibi. Beşincisi mef'ulün maahtır; yefna'l-malü ve tebka ve 'ameleke “mal yok olur, sen amelinle beraber kalırsın” gibi.",
+        "Altıncısı haldir; u'büdillahe te'ala ha'ifen raciyen “Allah Teala'ya korkarak ve umarak ibadet et” gibi. Yedincisi temyizdir; tabe'l-'alimü 'ibadeten “alim ibadetçe güzel oldu” gibi. Sekizincisi müstesnadır; yedhulü'l-cennete'n-nasü illa'l-kafira “kafir hariç insanlar cennete girer” gibi. Dokuzuncusu kane babının haberidir; kane'l-mela'iketu 'ibadellahi te'ala “melekler Allah Teala'nın kullarıdır” gibi. Onuncusu inne babının ismidir; inne's-sü'ale hakkun “şüphesiz (kabirdeki) sual haktır” gibi."
+      ]
+    },
+    "12": {
+      "title": "Mansublar (2); mecrurlar; meczum",
+      "body": [
+        "Üç mansub daha on üçü tamamlar. Cins la'sının ismi: la taate muğtabin makbuletün, “gıybet edenin hiçbir itaati kabul edilmez”. Leyse'ye benzeyen ma ve la'nın haberi: ma'l-gıybetü halalen, “gıybet helal değildir”, ve la nemimetün caizeten, “ve hiçbir koğuculuk caiz değildir”. Ve bir nasb amiliyle muzari fiil: uhibbü en tuğfere zünubi, “günahlarımın bağışlanmasını severim”.",
+        "Mecrurlar ikidir: bir harfle mecrur isim, i'mel bi-ihlasin, “ihlasla amel et”; ve izafetle mecrur isim, zenbü'l-abdi yüsevvidü kalbehu, “kulun günahı kalbini karartır”. Meczum ise birdir: bir cezm amiliyle muzari fiil, in tuhlıs yukbel amelüke, “ihlaslı olursan amelin kabul edilir”.",
+        "Asaleten ma'mulleri sayın: dokuz merfu, on üç mansub, iki mecrur, bir meczum: yirmi beş. Sonraki dersin beş tabisiyle, açılışın vaat ettiği otuzu yaparlar.",
+        "Birinci babdaki bir amilin burada nasıl iki kez göründüğüne dikkat edin. Cins la'sı ismine nasb (bu ders), haberine ref' verir (10. ders); leyse'ye benzeyen ma ve la ismine ref' (10. ders), haberine nasb verir (bu ders). Ma'mulleri öğrenmek, amilleri öbür taraftan yeniden öğrenmektir ve medrese iki babı sık sık yan yana okur."
+      ],
+      "terms": [
+        "la-yı nefy-i cinsin ismi: mansub",
+        "ma ve la'nın haberi: leyse'ye benzeyen ma ve la'nın haberi, mansub",
+        "harfle mecrur",
+        "izafetle mecrur",
+        "meczum: meczum fiil"
+      ],
+      "examples": [
+        "la taate muğtabin makbuletün, “gıybet edenin hiçbir itaati kabul edilmez”: la'nın ismi mansub",
+        "ma'l-gıybetü halalen, “gıybet helal değildir”: ma'nın haberi mansub",
+        "zenbü'l-abdi yüsevvidü kalbehu, “kulun günahı kalbini karartır”: el-abdi izafetle mecrur",
+        "in tuhlıs yukbel amelüke, “ihlaslı olursan amelin kabul edilir”: iki meczum fiil"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mansub kelimeyi ve çeşidini söyleyin: la taate muğtabin makbuletün; ve la nemimetün caizeten; uhibbü en tuğfere zünubi.",
+          "answer": "Taate: cins la'sının ismi. Caizeten: leyse'ye benzeyen la'nın haberi. Tuğfere: bir nasb amili olan en'den sonraki muzari fiil."
+        },
+        {
+          "prompt": "Zenbü'l-abdi yüsevvidü kalbehu ve i'mel bi-ihlasin'deki iki mecruru bulun ve her birini neyin mecrur yaptığını söyleyin.",
+          "answer": "El-abdi: izafetle mecrur (amili muzaf olan zenbü). İhlasin: bi- harfiyle mecrur. (Kalbehu'nun -hu'su da izafetle cer mahallindedir.)"
+        },
+        {
+          "prompt": "Kitabın otuz ma'mulünü sayın.",
+          "answer": "Asaleten ma'mul: 9 merfu + 13 mansub + 2 mecrur + 1 meczum = 25. Tebeiyyetle ma'mul: 5 (na't, atf, te'kid, bedel, atf-ı beyan). 25 + 5 = 30."
+        },
+        {
+          "prompt": "La faile şerrin faizün ve la şey'ün müşabihen: her la için ismi ve haberi ikinci babın neresinde görünür?",
+          "answer": "Cins la'sı: ismi mansublar arasında (bu ders), haberi merfular arasında (10. ders). Leyse'ye benzeyen la: ismi merfular arasında, haberi mansublar arasında."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi kaç mecrur sayar?",
+          "options": [
+            "İki",
+            "Yirmi",
+            "Üç",
+            "Bir"
+          ],
+          "explanation": "Bir harfle ve izafetle."
+        },
+        {
+          "prompt": "Kaç meczum?",
+          "options": [
+            "On beş",
+            "Bir: cezm amiliyle muzari fiil",
+            "İki",
+            "Hiç"
+          ],
+          "explanation": "İn tuhlıs yukbel amelüke."
+        },
+        {
+          "prompt": "La taate muğtabin makbuletün'de taate …",
+          "options": [
+            "la'nın haberidir",
+            "mecrurdur",
+            "la'nın ismidir, mansub",
+            "mef'uldür"
+          ],
+          "explanation": "Cins la'sı ismini mansub yapar."
+        },
+        {
+          "prompt": "Ma'l-gıybetü halalen'de halalen …",
+          "options": [
+            "ma'nın ismidir",
+            "haldir",
+            "temyizdir",
+            "ma'nın haberidir, mansub"
+          ],
+          "explanation": "Leyse'ye benzeyen ma: ismi merfu, haberi mansub."
+        },
+        {
+          "prompt": "Uhibbü en tuğfere zünubi'de tuğfere …",
+          "options": [
+            "en'den sonra mansub bir meçhul muzaridir",
+            "mazi bir fiildir",
+            "meczumdur",
+            "merfudur"
+          ],
+          "explanation": "On üçüncü mansub."
+        },
+        {
+          "prompt": "Kaç asaleten ma'mul vardır?",
+          "options": [
+            "Otuz",
+            "Yirmi beş",
+            "On üç",
+            "Dokuz"
+          ],
+          "explanation": "9 + 13 + 2 + 1."
+        },
+        {
+          "prompt": "İn tuhlıs yukbel amelüke'de amelüke …",
+          "options": [
+            "meczumdur",
+            "mef'uldür",
+            "yukbel'in naib-i failidir, merfu",
+            "mecrurdur"
+          ],
+          "explanation": "Yukbel meçhuldür: “amelin kabul edilir”."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "State": "İ'rab",
+          "How many": "Kaç",
+          "Belongs to": "Ait olduğu",
+          "rafʿ": "ref'",
+          "9": "9",
+          "nouns and the present verb": "isimler ve muzari fiil",
+          "naṣb": "nasb",
+          "13": "13",
+          "jarr": "cer",
+          "2": "2",
+          "nouns only": "yalnız isimler",
+          "jazm": "cezm",
+          "1": "1",
+          "the present verb only": "yalnız muzari fiil"
+        },
+        "caption": "Asaleten ma'muller: 9 + 13 + 2 + 1 = 25"
+      },
+      "text": [
+        "On birincisi cinsi nefyeden la'nın ismidir; la ta'ate muğtabin makbuletun “gıybet edenin hiçbir itaati kabul olunmaz” gibi. On ikincisi leyse'ye benzeyen ma ve la'nın haberidir; ma'l-ğibetu halalen “gıybet helal değildir”, ve la nemimetun ca'izeten “hiçbir koğuculuk caiz değildir” gibi. On üçüncüsü kendisine nevasıbdan biri giren fiil-i muzaridir; uhibbü en tuğfera zünubi “günahlarımın bağışlanmasını severim” gibi.",
+        "Mecrur olanlar ikidir. Birincisi cerr harfiyle mecrur olandır; i'mel bi-ihlasın “ihlasla amel et” gibi. İkincisi izafetle mecrur olandır; zenbü'l-'abdi yusevvidü kalbehü “kulun günahı kalbini karartır” gibi. Meczum olan ise birdir: kendisine cevazimden biri giren fiil-i muzaridir; in tuhlis yukbel 'amelüke “ihlaslı olursan amelin kabul olunur” gibi."
+      ]
+    },
+    "13": {
+      "title": "Beş tabi",
+      "body": [
+        "Tebeiyyetle ma'mul olanlar beştir. Sıfat: u'büdillahe'l-azime, “Azim olan Allah'a ibadet et”. On harften biriyle atf, her biri Birgivi'nin örneğiyle: ve-, utiullahe ve'r-rasule, “Allah'a ve Resule itaat ederim”; fe-, tecibü tekbiretü'l-iftitahi fe'l-kıyamü, “iftitah tekbiri farzdır, sonra kıyam”; sümme, yecibü'l-ilmü sümme'l-amelü, “ilim farzdır, sonra amel”; hatta, mate'n-nasü hatte'l-enbiyaü, “insanlar ölür, peygamberler bile”; ev, salli'd-duha erbaan ev semaniyen, “kuşluk namazını dört ya da sekiz rek'at kıl”.",
+        "Ve imma: i'mel imma vaciben ve imma müstehabben, “ya vacibi ya müstehabı işle”; em: e-rizaallahi tatlübü em sehatahu?, “Allah'ın rızasını mı istiyorsun, yoksa gazabını mı?”; la: i'mel salihan la seyyien, “iyiyi işle, kötüyü değil”; bel: utlüb halalen bel tayyiben, “helali iste, hatta temizini”; lakin: la yahillü riyaün lakin ihlasun, “riya helal değildir, ama ihlas helaldir”. Örneklerin fıkhı gerçektir: namaz rükünlerinin sırası, kuşluk namazının rek'at sayısı.",
+        "Te'kid, iki çeşittir: kelimeyi tekrarlayarak, utlübi'l-ihlase'l-ihlase, “ihlası iste, ihlası”; ve bir te'kid kelimesiyle, utruki'z-zünube külleha, “günahları bırak, hepsini”. Bedel, üç çeşittir: küll, u'büd rabbeke ilahe'l-alemine, “Rabbine, alemlerin ilahına ibadet et”; ba'z, ubğıdu'n-nase men asallahe teala minhüm, “insanlardan Allah'a isyan edenlere buğzederim”; iştimal, ihfazıllahe teala hakkahu, “Allah'ın hakkını koru”, kelimesi kelimesine “Allah'ı, O'nun hakkını koru”.",
+        "Acurrumiyye'de olmayan beşinci tabi atf-ı beyandır: amenna bi-nebiyyina Muhammedin, “Peygamberimiz Muhammed'e iman ettik”. Muhammed, nebiyyina'yı cerde izler ve onu daha iyi bilinen adla açıklar. Bedel-i küll'e benzer ve sonraki kitaplar ikisinin nasıl ayrıldığını tartışır; şimdilik ikisinin de isimlerini her i'rab alametinde izlemesi yeter."
+      ],
+      "terms": [
+        "sıfat: na't (Acurrumiyye'nin na't'ı)",
+        "harflerle atf: on harften biriyle atf",
+        "te'kid: tekrarla ya da küll ve benzerleriyle",
+        "bedel: küll, ba'z, iştimal",
+        "atf-ı beyan: daha açık bir ad"
+      ],
+      "examples": [
+        "u'büdillahe'l-azime, “Azim olan Allah'a ibadet et”: sıfat",
+        "yecibü'l-ilmü sümme'l-amelü, “ilim farzdır, sonra amel”: sümme ile atf",
+        "utruki'z-zünube külleha, “günahları bırak, hepsini”: te'kid",
+        "ihfazıllahe teala hakkahu, “Allah'ın hakkını koru”: bedel-i iştimal",
+        "amenna bi-nebiyyina Muhammedin, “Peygamberimiz Muhammed'e iman ettik”: atf-ı beyan"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tabiyi ve uyduğu kelimeyi söyleyin: utiullahe ve'r-rasule; utlübi'l-ihlase'l-ihlase; u'büd rabbeke ilahe'l-alemine.",
+          "answer": "Er-rasule: ve- ile Allahe'ye atf edilmiş, mansub. İkinci el-ihlase: birincinin tekrarıyla te'kid, mansub. İlahe: rabbeke'den bedel-i küll, mansub."
+        },
+        {
+          "prompt": "Ubğıdu'n-nase men asallahe teala minhüm'de bedel nedir ve hangi çeşittendir?",
+          "answer": "Men asallahe minhüm, “onlardan Allah'a isyan edenler”, en-nase'den bedel-i ba'zdır; minhüm onu insanlara geri bağlar. Mebni bir kelime olarak men nasb mahallindedir."
+        },
+        {
+          "prompt": "Harfin ma'nasını verin: salli'd-duha erbaan ev semaniyen; utlüb halalen bel tayyiben; i'mel salihan la seyyien.",
+          "answer": "Ev: tercih, “dört ya da sekiz”. Bel: daha iyi bir şeye dönme, “hatta temizini”. La: birinci için söyleneni ikinciden nefyetme, “iyiyi, kötüyü değil”."
+        },
+        {
+          "prompt": "Birgivi'nin Acurrumiyye'de olmayan hangi tabisi vardır? Örneğini verin ve açıklayın.",
+          "answer": "Atf-ı beyan: amenna bi-nebiyyina Muhammedin. Muhammedin cerde nebiyyina'yı izler ve onu daha iyi bilinen adla açıklar."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi kaç tabi sayar?",
+          "options": [
+            "Dört",
+            "Beş",
+            "On",
+            "Üç"
+          ],
+          "explanation": "Acurrumiyye'nin dördüne atf-ı beyanı ekler."
+        },
+        {
+          "prompt": "Utlübi'l-ihlase'l-ihlase'de ikinci el-ihlase …",
+          "options": [
+            "bedeldir",
+            "sıfattır",
+            "tekrarla te'kiddir",
+            "mef'uldür"
+          ],
+          "explanation": "Kelimenin kendisi tekrarlanır."
+        },
+        {
+          "prompt": "İhfazıllahe hakkahu'da … bedeli vardır.",
+          "options": [
+            "küll",
+            "ba'z",
+            "galat",
+            "iştimal"
+          ],
+          "explanation": "Allah'ın hakkı O'na aittir: iştimal."
+        },
+        {
+          "prompt": "Amenna bi-nebiyyina Muhammedin'de Muhammedin …",
+          "options": [
+            "bir atf-ı beyandır, mecrur",
+            "bir sıfattır",
+            "bi- ile mecrurdur",
+            "mef'uldür"
+          ],
+          "explanation": "Nebiyyina'yı izler ve onu açıklar."
+        },
+        {
+          "prompt": "Yecibü'l-ilmü sümme'l-amelü'de hangi harf gecikmeli bir sıra verir?",
+          "options": [
+            "Fe-",
+            "Sümme",
+            "Ve-",
+            "Hatta"
+          ],
+          "explanation": "Önce ilim, sonra amel."
+        },
+        {
+          "prompt": "E-rizaallahi tatlübü em sehatahu? em'i … için kullanır.",
+          "options": [
+            "ikinciyi nefyetmek",
+            "ikinciye dönmek",
+            "ikisinden hangisi olduğunu sormak",
+            "sırasız bağlamak"
+          ],
+          "explanation": "Soru hemzesinden sonra: “bu mu, şu mu?”."
+        },
+        {
+          "prompt": "Tabiler i'rablarını nasıl alır?",
+          "options": [
+            "Kendi amillerinden",
+            "Her zaman ref'",
+            "Her zaman nasb",
+            "Uydukları kelimeden"
+          ],
+          "explanation": "Tebeiyyetle ma'muldürler."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The five followers": "Beş tabi",
+          "Adjective (ṣifa)": "Sıfat (na't)",
+          "Conjunction (ʿaṭf)": "Atf",
+          "Emphasis (taʾkīd)": "Te'kid",
+          "Substitute (badal)": "Bedel",
+          "Explanatory apposition": "Atf-ı beyan"
+        }
+      },
+      "text": [
+        "İkinci çeşit beştir. Birincisi sıfattır; u'büdillahe'l-'azime “Azim olan Allah'a ibadet et” gibi. İkincisi on harften biriyle olan atftır: vav; uti'ullahe ve'r-rasule “Allah'a ve Resul'e itaat ederim” gibi; fa; tecibü tekbiratu'l-iftitahi fe'l-kıyamü “iftitah tekbiri, ardından da kıyam farzdır” gibi; sümme; yecibü'l-'ilmü sümme'l-'amelü “ilim, sonra amel farzdır” gibi; hatta; mate'n-nasü hatta'l-enbiya'u 'aleyhimü's-salatu ve's-selamü “insanlar, peygamberler bile, öldü; onlara salat ve selam olsun” gibi; ev; salli'd-duha erbe'an ev semaniyen “kuşluk namazını dört veya sekiz rek'at kıl” gibi; imma; i'mel imma vaciben ve imma müstahabben “ya farz olanı ya da müstehap olanı işle” gibi; em; e-rida'ellahi te'ala tatlübü em sahatahü “Allah Teala'nın rızasını mı istiyorsun, yoksa gazabını mı?” gibi; la; i'mel salihan la seyyi'en “kötüyü değil, iyiyi işle” gibi; bel; utlüb halalen bel tayyiben “helali, hatta temiz olanı iste” gibi; ve lakin; la yahillü riya'un lakin ihlasun “riya helal değildir, fakat ihlas (helaldir)” gibi.",
+        "Üçüncüsü te'kiddir; utlübi'l-ihlasa'l-ihlasa “ihlası, ihlası iste” ve utruki'z-zünube külleha “günahların hepsini bırak” gibi. Dördüncüsü bedeldir; u'büd rabbeke ilahe'l-'alemine “Rabbine, alemlerin İlahına ibadet et”, ubğıdu'n-nase men 'asallahe te'ala minhüm “insanlardan Allah Teala'ya isyan edenlere buğzederim” ve ihfazıllahe te'ala hakkahü “Allah Teala'nın hakkını gözet” gibi. Beşincisi atf-ı beyandır; amenna bi-nebiyyina Muhammedin 'aleyhi's-salatu ve's-selamü “Peygamberimiz Muhammed'e iman ettik; ona salat ve selam olsun” gibi."
+      ]
+    },
+    "14": {
+      "title": "On alamet ve dokuz çeşit",
+      "body": [
+        "Üçüncü bab yüzün son onunu verir: i'rab alametleri. “O ya bir hareke, ya bir harf ya da bir hazftır.” Üç hareke: zamme, fetha, kesre. Dört harf: vav, ya, elif, nun. Yalnız fiile ait üç hazf: harekenin hazfı, son harfin hazfı ve nunun hazfı. Hepsi on.",
+        "Sükunun nereye gittiğine dikkat edin. Acurrumiyye onu harekelerin yanında bir cezm alameti saymıştı; Birgivi ona “harekenin hazfı” der: lem yadrib, zammesi alınmış yadribu'dur. Aynı şekilde son harfin hazfı mu'tel bir fiilin cezmidir, nunun hazfı da ef'al-i hamsenin nasbı ve cezmi.",
+        "Sonra mu'reb kelimeler aldıkları alametlere göre dört grupta dokuz çeşide ayrılır. Yalnız harekelerle ve yalnız harflerle: bu ikisi isme aittir. Harekeler ve bir hazfla, harfler ve bir hazfla: bu ikisi fiile aittir. Sonraki dört ders grupları teker teker ele alır.",
+        "İçlerinden iki terim geçer. Bir çeşit, her durumu için ayrı bir alameti olunca “tammü'l-i'rab”, iki durumu bir alameti paylaşınca “nakısü'l-i'rab”tır. Müfred isim tamdır: Zeydün, Zeyden, Zeydin. Tesniye nakıstır: ez-Zeydeyni nasba ve cerre hizmet eder."
+      ],
+      "terms": [
+        "hareke: zamme, fetha, kesre",
+        "harf: burada alamet olarak bir harf: vav, ya, elif, nun",
+        "hazf: harekenin, son harfin, nunun düşmesi",
+        "tammü'l-i'rab: her durum için ayrı bir alamet",
+        "nakısü'l-i'rab: iki durum bir alameti paylaşır"
+      ],
+      "examples": [
+        "zammetün, fethatün, kesratün: üç hareke",
+        "vavün, yaün, elifün, nunün: dört harf",
+        "yalnız fiile ait üç hazf"
+      ],
+      "tasks": [
+        {
+          "prompt": "Birgivi'nin terimleriyle i'rab alametini söyleyin: lem yadrib; el-müslimune; lem yadribu; kitabün.",
+          "answer": "Lem yadrib: harekenin hazfı. El-müslimune: vav harfi. Lem yadribu: nunun hazfı. Kitabün: zamme harekesi."
+        },
+        {
+          "prompt": "Birgivi sükunu neden alametler arasında saymaz ve ona ne der?",
+          "answer": "Ona göre cezmin sükunu eklenmiş bir alamet değil, alınmış bir harekedir: “harekenin hazfı”, yalnız fiile ait üç hazftan biri."
+        },
+        {
+          "prompt": "Mu'reb kelimelerin hangi grupları isme, hangileri fiile aittir?",
+          "answer": "Yalnız harekelerle ve yalnız harflerle: isim. Harekeler ve bir hazfla, harfler ve bir hazfla: fiil."
+        },
+        {
+          "prompt": "Cem'-i müzekker-i salim i'rabda tam mıdır, nakıs mıdır? Açıklayın.",
+          "answer": "Nakıstır: üç durum için yalnız iki alameti vardır (ref'de vav, hem nasbda hem cerde ya)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi kaç i'rab alameti sayar?",
+          "options": [
+            "On dört",
+            "Dört",
+            "On",
+            "Dokuz"
+          ],
+          "explanation": "Üç hareke, dört harf, üç hazf."
+        },
+        {
+          "prompt": "Birgivi cezmin sükununa ne der?",
+          "options": [
+            "Dördüncü bir hareke",
+            "Bir harf",
+            "Nunun hazfı",
+            "Harekenin hazfı"
+          ],
+          "explanation": "Lem yadrib: zammesi alınmış yadribu."
+        },
+        {
+          "prompt": "Üç hazf neye aittir?",
+          "options": [
+            "Yalnız fiile",
+            "Yalnız isme",
+            "İkisine",
+            "Hiçbirine"
+          ],
+          "explanation": "Fiillerde hareke, son harf ve nun düşer."
+        },
+        {
+          "prompt": "Kaç çeşit mu'reb kelime vardır?",
+          "options": [
+            "On",
+            "Dokuz",
+            "Dört",
+            "İki"
+          ],
+          "explanation": "Aldıkları alametlere göre dört grupta."
+        },
+        {
+          "prompt": "“Tammü'l-i'rab” ne demektir?",
+          "options": [
+            "Harekelerle mu'reb",
+            "Dört durumun hepsine sahip",
+            "Her durum için ayrı bir alamet",
+            "İstisnası olmayan"
+          ],
+          "explanation": "Zeydün, Zeyden, Zeydin."
+        },
+        {
+          "prompt": "Bunlardan hangisi i'rabda nakıstır?",
+          "options": [
+            "Müfred isim",
+            "Cem'-i mükesser",
+            "Esma-i sitte",
+            "Tesniye"
+          ],
+          "explanation": "Ya'sı nasba ve cerre hizmet eder."
+        },
+        {
+          "prompt": "İ'rabın dört harfi hangileridir?",
+          "options": [
+            "Vav, ya, elif, nun",
+            "Hemze, nun, ya, te",
+            "Elif, lam, mim, ra",
+            "Be, te, vav, kef"
+          ],
+          "explanation": "Hemze, nun, ya, te eneytü'nün önekleridir, i'rab alametleri değil."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The ten signs of iʿrāb": "On i'rab alameti",
+          "Vowels": "Harekeler",
+          "ḍamma": "zamme",
+          "fatḥa": "fetha",
+          "kasra": "kesre",
+          "Letters": "Harfler",
+          "wāw": "vav",
+          "yāʾ": "ya",
+          "alif": "elif",
+          "nūn": "nun",
+          "Droppings (verb only)": "Hazflar (yalnız fiil)",
+          "of the vowel": "harekenin",
+          "of the last letter": "son harfin",
+          "of the nūn": "nunun"
+        }
+      },
+      "text": [
+        "İ'rab ya hareke ya harf ya da hazftır. Hareke üçtür: zamme, fetha ve kesre. Harf dörttür: vav, ya, elif ve nun. Hazf, fiile mahsus olmak üzere üçtür: harekenin hazfi, son harfin hazfi ve nunun hazfi. Hepsi ondur.",
+        "Mu'reb nevileri, bu ondan kendilerine verilene göre dokuzdur; çünkü bunların i'rabı ya yalnız hareke ile ya da yalnız harflerle olur, bu ikisi isme mahsustur; ya da hazif ile birlikte hareke veya hazif ile birlikte harflerle olur, bu ikisi de fiile mahsustur."
+      ]
+    },
+    "15": {
+      "title": "Harekelerle mu'reb isimler",
+      "body": [
+        "Yalnız harekelerle mu'reb olan birinci grubun üç çeşidi vardır. Biri i'rabda tamdır: ref'de zamme, nasbda fetha, cerde kesre. Bu, munsarif müfred ve munsarif cem'-i mükesserdir: caena'r-rasulü, saddakna'r-rasule, amenna bi'r-rasuli, “Resul bize geldi, onu tasdik ettik, ona iman ederiz”; nezele mine's-semai kütübün, saddakna'l-kütübe, amenna bi'l-kütübi, “gökten kitaplar indi, kitapları tasdik ettik, kitaplara iman ederiz”.",
+        "İkisi nakıstır. Gayr-i munsarif ref'de zamme, hem nasbda hem cerde fetha alır: caena Ahmedü, saddakna Ahmede, amenna bi-Ahmede. Cem'-i müennes-i salim ref'de zamme, hem nasbda hem cerde kesre alır: caena mu'cizatün, saddakna mu'cizatin, amenna bi-mu'cizatin, “bize mucizeler geldi, mucizeleri tasdik ettik”.",
+        "Örnekler bir takım olarak kurulmuştur: her çeşit aynı üç fiille gösterilir, caena (ref': fail), saddakna (nasb: mef'ul) ve amenna bi- (cer: harften sonra). Bu kalıp alametleri göze çarptırır ve akide kelimelerdedir: Resul, kitaplar, Peygamber Ahmed, mucizeler.",
+        "Bu, Acurrumiyye'nin harekelerle mu'reb kelimeler babı ve istisnalarıdır, başka sözlerle söylenmiş. Acurrumiyye'nin iki istisna dediğini (mahfuz gayr-i munsarif, mansub müennes cem'i), Birgivi iki nakıs çeşit diye adlandırır, çünkü her birinde iki durum bir alameti paylaşır."
+      ],
+      "terms": [
+        "müfred munsarif: i'rabda tam",
+        "cem'-i mükesser",
+        "gayr-i munsarif: nasbda ve cerde fetha",
+        "cem'-i müennes-i salim: nasbda ve cerde kesre"
+      ],
+      "examples": [
+        "munsarif müfred: zamme, fetha, kesre",
+        "gayr-i munsarif: nasbda ve cerde fetha",
+        "cem'-i müennes-i salim: nasbda ve cerde kesre"
+      ],
+      "tasks": [
+        {
+          "prompt": "Kütübün'ü elif-lamsız olarak Birgivi'nin üç fiilinden (caena, saddakna, amenna bi-) geçirin ve alametleri adlandırın.",
+          "answer": "Caena kütübün (zamme), saddakna kütüben (fetha), amenna bi-kütübin (kesre). Cem'-i mükesser i'rabda tamdır."
+        },
+        {
+          "prompt": "Gayr-i munsarif neden i'rabda nakıstır? Ahmed üzerinde gösterin.",
+          "answer": "İki durumu bir alameti paylaşır: ref'de Ahmedü, ama hem nasbda hem cerde Ahmede (saddakna Ahmede, amenna bi-Ahmede)."
+        },
+        {
+          "prompt": "Saddakna mu'cizatin'de mu'cizatin kesreyle bitmesine rağmen neden mansubdur?",
+          "answer": "Saddakna'nın mef'ulüdür. Cem'-i müennes-i salim nasbda da cerde olduğu gibi kesre alır; i'rabda nakıs olmasının sebebi budur."
+        },
+        {
+          "prompt": "Birgivi'nin bu grubun iki nakıs çeşidi dediğine Acurrumiyye ne der?",
+          "answer": "Harekelerle mu'reb kelimelerin istisnaları: kesreyle mansub cem'-i müennes-i salim ve fethayla mahfuz gayr-i munsarif isim."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Harekelerle hangi isimler i'rabda tamdır?",
+          "options": [
+            "Gayr-i munsarif ve müennes cem'i",
+            "Tesniye ve cem'",
+            "Esma-i sitte",
+            "Munsarif müfred ve munsarif cem'-i mükesser"
+          ],
+          "explanation": "Zamme, fetha, kesre: her durum için bir alamet."
+        },
+        {
+          "prompt": "Amenna bi-Ahmede: cerin alameti nedir?",
+          "options": [
+            "Fetha",
+            "Kesre",
+            "Ya",
+            "Zamme"
+          ],
+          "explanation": "Gayr-i munsarif cerde fetha alır."
+        },
+        {
+          "prompt": "Saddakna mu'cizatin: nasbın alameti …",
+          "options": [
+            "fethadır",
+            "kesredir",
+            "ya'dır",
+            "eliftir"
+          ],
+          "explanation": "Cem'-i müennes-i salim."
+        },
+        {
+          "prompt": "Birgivi'nin örnekleri neden caena, saddakna ve amenna bi- üzerine kurulmuştur?",
+          "options": [
+            "Bildiği tek fiiller onlardır",
+            "Meçhulü göstermek için",
+            "Her çeşidi ref', nasb ve cerde yan yana gösterirler",
+            "Cezmi göstermek için"
+          ],
+          "explanation": "Fail, mef'ul ve harften sonraki isim."
+        },
+        {
+          "prompt": "Harekelerle mu'reb grupta kaç çeşit vardır?",
+          "options": [
+            "İki",
+            "Dört",
+            "Dokuz",
+            "Üç: biri tam, ikisi nakıs"
+          ],
+          "explanation": "Müfred ve cem'-i mükesser tek bir tam çeşit sayılır."
+        },
+        {
+          "prompt": "Saddakna'l-kütübe'de el-kütübe …",
+          "options": [
+            "fethayla mansubdur",
+            "mecrurdur",
+            "merfudur",
+            "kesreyle mansubdur"
+          ],
+          "explanation": "Cem'-i mükesser i'rabda tamdır."
+        },
+        {
+          "prompt": "Acurrumiyye müennes cem'inin nasbdaki kesresine ne der?",
+          "options": [
+            "Bir cer alameti",
+            "Harekeler kuralının bir istisnası",
+            "Nakıs i'rab",
+            "Bir hazf"
+          ],
+          "explanation": "Birgivi ona nakıs i'rab der."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Kind": "Çeşit",
+          "Rafʿ": "Ref'",
+          "Naṣb": "Nasb",
+          "Jarr": "Cer",
+          "Iʿrāb": "İ'rab",
+          "declinable singular": "munsarif müfred",
+          "complete": "tam",
+          "broken plural": "cem'-i mükesser",
+          "diptote": "gayr-i munsarif",
+          "incomplete": "nakıs",
+          "sound feminine plural": "cem'-i müennes-i salim"
+        },
+        "caption": "Birgivi'nin örnekleriyle harekelerle mu'reb isimler"
+      },
+      "text": [
+        "Birincisi ya tam i'rablıdır (tammü'l-i'rab): ref'i zamme ile, nasbı fetha ile, cerri kesre ile olandır; bu, munsarif müfred ile munsarif cem'-i mükesserdir; ca'ena'r-rasulü 'aleyhi's-selamü “Resul, ona selam olsun, bize geldi”, ve saddakna'r-rasule 'aleyhi's-selamü “Resul'ü, ona selam olsun, tasdik ettik”, ve amenna bi'r-rasuli 'aleyhi's-selamü “Resul'e, ona selam olsun, iman ettik” ve nezele mine's-sema'i kütübün “gökten kitaplar indi”, ve saddakna'l-kütübe “kitapları tasdik ettik”, ve amenna bi'l-kütübi “kitaplara iman ettik” gibi.",
+        "Ya da nakıs i'rablıdır (nakısü'l-i'rab) ve iki kısımdır. Bir kısmın ref'i zamme ile, nasb ve cerri fetha iledir; bu gayr-i munsariftir; ca'ena Ahmedü 'aleyhi's-selamü “Ahmed, ona selam olsun, bize geldi”, ve saddakna Ahmede 'aleyhi's-selamü “Ahmed'i, ona selam olsun, tasdik ettik”, ve amenna bi-Ahmede 'aleyhi's-selamü “Ahmed'e, ona selam olsun, iman ettik” gibi. Bir kısmın da ref'i zamme ile, nasb ve cerri kesre iledir; bu cem'-i müennes-i salimdir; ca'ena mu'cizatün “bize mucizeler geldi”, ve saddakna mu'cizatin “mucizeleri tasdik ettik”, ve amenna bi-mu'cizatin “mucizelere iman ettik” gibi."
+      ]
+    },
+    "16": {
+      "title": "Harflerle mu'reb isimler",
+      "body": [
+        "Yalnız harflerle mu'reb olan ikinci grubun da bir tam ve iki nakıs çeşidi vardır. Tam çeşit esma-i sittedir: ref'de vav, nasbda elif, cerde ya. Bunlar ebuhu (babası), ehuhu (kardeşi), hamuha (kocasının akrabası), henuhu (onun şeyi), fuhu (ağzı) ve zu malin'dir (mal sahibi): caena Ebu'l-Kasımı, saddakna Ebe'l-Kasımı, amenna bi-Ebi'l-Kasımı, “Ebu'l-Kasım bize geldi, onu tasdik ettik, ona iman ederiz”; Ebu'l-Kasım Peygamber'in künyesidir.",
+        "Birgivi, Acurrumiyye'nin beş saydığı yerde altı sayar: “bir şey” anlamındaki (adı anılmak istenmeyen bir şey için kullanılan) hen'i ekler. Ve Acurrumiyye'nin yalnız gösterdiği şartları verir: isim mütekellim ya'sından başka bir kelimeye muzaf olmalı (ebi, “babam”, sayılmaz), müfred olmalı (ebevani değil) ve tasgir olmamalıdır (übeyy değil).",
+        "Birinci nakıs çeşit ref'de vav, nasbda ve cerde ya alır: cem'-i müzekker-i salim ve onunla birlikte “sahipler” anlamındaki ulu ile işrune ve kardeşleri, yirmiden doksana kadar onluklar: caena'l-mürselune, saddakna'l-mürseline, amenna bi'l-mürseline, “resuller bize geldi…”.",
+        "İkinci nakıs çeşit ref'de elif, nasbda ve cerde ya alır: tesniye ve onunla birlikte “iki” anlamındaki isnani ile bir zamire muzaf olunca “ikisi de” anlamındaki kila: caena'l-isnani kilahüma, eyi'l-Kitabü ve's-Sünnetü, “ikisi bize geldi, ikisi de, yani Kitap ve Sünnet”; ittebe'na'l-isneyni kileyhima, amilna bi'l-isneyni kileyhima. Açık bir isme muzaf kila elifini korur (kila'r-raculeyni); yalnız zamirle değişir.",
+        "Yani cem' ya da tesniyeye benzeyip öyle olmayan kelimeler (ulu, işrune, isnani, kilahüma) onlarmış gibi i'rab edilir. Medrese bunlara cem'e ve tesniyeye “mülhak” der."
+      ],
+      "terms": [
+        "esma-i sitte: vav, elif, ya",
+        "mükebbere: tasgir olmamak, esma-i sittenin bir şartı",
+        "ulu: sahipler, cem'-i salim gibi i'rab edilir",
+        "işrune ve kardeşleri: cem'-i salim gibi i'rab edilen onluklar",
+        "kila: ikisi de; zamire muzaf olunca tesniye gibi"
+      ],
+      "examples": [
+        "esma-i sitteden biri: vav, elif, ya",
+        "cem'-i müzekker-i salim: ref'de vav, nasbda ve cerde ya",
+        "el-isnani kilahüma, “ikisi, ikisi de”: tesniye gibi",
+        "ittebe'na'l-isneyni kileyhima: nasbda ya"
+      ],
+      "tasks": [
+        {
+          "prompt": "Zu malin'i caena, saddakna ve amenna bi- ile üç durumdan geçirin.",
+          "answer": "Caena zu malin; saddakna za malin; amenna bi-zi malin: vav, elif, ya."
+        },
+        {
+          "prompt": "Esma-i sittenin harf alması için üç şartı ve her birini bozan bir örnek verin.",
+          "answer": "Mütekellim ya'sından başka bir kelimeye muzaf olmak (ebi, “babam”, bozar); müfred olmak (ebevani, “iki baba”, bozar); tasgir olmamak (übeyy, “küçük baba”, bozar)."
+        },
+        {
+          "prompt": "İşrune neden el-müslimune gibi, kilahüma neden ez-Zeydani gibi i'rab edilir?",
+          "answer": "Cem'e ve tesniyeye mülhaktırlar: işrune ve kardeşleri ile ulu, cem'-i müzekker-i salim gibi vav ve ya alır; isnani ve zamire muzaf kila, tesniye gibi elif ve ya alır."
+        },
+        {
+          "prompt": "Birgivi Acurrumiyye'nin beşine hangi ismi ekler?",
+          "answer": "Adı anılmak istenmeyen bir şey için kullanılan, “bir şey” anlamındaki hen'i (henuhu)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Acurrumiyye'nin beş saydığı yerde Birgivi kaç isim sayar?",
+          "options": [
+            "Altı",
+            "Beş",
+            "Yedi",
+            "Dört"
+          ],
+          "explanation": "Hen'i ekler."
+        },
+        {
+          "prompt": "Amenna bi-Ebi'l-Kasımı: cerin alameti …",
+          "options": [
+            "kesredir",
+            "ya'dır",
+            "eliftir",
+            "vavdır"
+          ],
+          "explanation": "Esma-i sitte: vav, elif, ya."
+        },
+        {
+          "prompt": "Bunlardan hangisi cem'-i müzekker-i salim gibi i'rab edilir?",
+          "options": [
+            "İsnani",
+            "Kilahüma",
+            "İşrune",
+            "Ebuhu"
+          ],
+          "explanation": "İşrune ve kardeşleri, ve ulu."
+        },
+        {
+          "prompt": "Kila ne zaman tesniye gibi i'rab edilir?",
+          "options": [
+            "Her zaman",
+            "Hiçbir zaman",
+            "Açık bir isme muzaf olunca",
+            "Bir zamire muzaf olunca"
+          ],
+          "explanation": "Kilahüma, kileyhima."
+        },
+        {
+          "prompt": "Hangisi esma-i sittenin şartlarını bozar?",
+          "options": [
+            "Ebi, “babam”",
+            "Ebuhu, “babası”",
+            "Ebu'l-Kasımı",
+            "Ebake"
+          ],
+          "explanation": "Mütekellim ya'sına muzaf olunca harf almaz."
+        },
+        {
+          "prompt": "Saddakna'l-mürseline: nasbın alameti …",
+          "options": [
+            "fethadır",
+            "ya'dır",
+            "eliftir",
+            "vavdır"
+          ],
+          "explanation": "Cem'-i müzekker-i salim ya'yı nasb ile cer arasında paylaştırır."
+        },
+        {
+          "prompt": "Bu grubun hangi çeşidi i'rabda tamdır?",
+          "options": [
+            "Tesniye",
+            "Cem'-i müzekker-i salim",
+            "Esma-i sitte",
+            "Hiçbiri"
+          ],
+          "explanation": "Her durumunun kendi harfi vardır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Kind": "Çeşit",
+          "Rafʿ": "Ref'",
+          "Naṣb": "Nasb",
+          "Jarr": "Cer",
+          "Iʿrāb": "İ'rab",
+          "the six nouns": "esma-i sitte",
+          "complete": "tam",
+          "sound masc. plural, ūlū, ʿishrūna": "cem'-i müzekker-i salim, ulu, işrune",
+          "incomplete": "nakıs",
+          "dual, ithnāni, kilā + pronoun": "tesniye, isnani, kila + zamir"
+        },
+        "caption": "Harflerle mu'reb isimler"
+      },
+      "text": [
+        "İkincisi ya tam i'rablıdır: ref'i vav ile, nasbı elif ile, cerri ya ile olandır; bu, mütekellim yasından başkasına muzaf olan, müfred ve tasgirsiz, mu'tel esma-i sittedir. Bunlar: ebuhü “babası”, ahuhü “kardeşi”, hamuha “onun (kadının) kayınpederi”, henuhü “onun şeyi”, fuhü “ağzı” ve zu malin “mal sahibi”dir; ca'ena ebu'l-Kasimi 'aleyhi's-selamü “Ebü'l-Kasım, ona selam olsun, bize geldi”, ve saddakna eba'l-Kasimi 'aleyhi's-selamü “Ebü'l-Kasım'ı, ona selam olsun, tasdik ettik”, ve amenna bi-ebi'l-Kasimi 'aleyhi's-selamü “Ebü'l-Kasım'a, ona selam olsun, iman ettik” gibi.",
+        "Ya da nakıs i'rablıdır ve iki kısımdır. Bir kısmın ref'i vav ile, nasb ve cerri ya iledir; bu, cem'-i müzekker-i salim, ulu “sahipler” ve 'işrune “yirmi” ile kardeşleridir; ca'ena'l-mürselune 'aleyhimü's-selamü “resuller, onlara selam olsun, bize geldi”, ve saddakna'l-mürseline 'aleyhimü's-selamü “resulleri, onlara selam olsun, tasdik ettik”, ve amenna bi'l-mürseline 'aleyhimü's-selamü “resullere, onlara selam olsun, iman ettik” gibi.",
+        "Bir kısmın da ref'i elif ile, nasb ve cerri ya iledir; bu tesniye, isnani “iki” ve zamire muzaf olan kila “her ikisi”dir; ca'ena'l-isnani kilahüma “o ikisi, her ikisi de bize geldi”, yani Kitap ve Sünnet; ve ittebe'na'l-isneyni kileyhima “o ikisine, her ikisine de uyduk”, ve 'amilna bi'l-isneyni kileyhima “o ikisiyle, her ikisiyle de amel ettik” gibi."
+      ]
+    },
+    "17": {
+      "title": "Fiilin i'rabı",
+      "body": [
+        "Bir hareke ve bir hazfla mu'reb olan üçüncü grup fiile aittir ve her zaman i'rabda tamdır, çünkü fiilin üç durumu ve her birinde ayrı bir alameti vardır. İki çeşidi vardır. Ona hiçbir zamir bitişmemiş, son harfi sahih muzari fiil: ref'de zamme, nasbda fetha ve cezmde harekenin hazfı: nuhibbü en neşfea ve lem nuhram, “şefaat etmeyi severiz ve mahrum kalmadık”. Nuhibbü merfu, neşfea en'den sonra mansub, nuhram lem'den sonra meczum.",
+        "Ona hiçbir zamir bitişmemiş, son harfi illetli muzari fiil: cezmde son harfin hazfı: ned'ullahe teala en ya'füvena ve lem yermina fi'n-nari, “Yüce Allah'a bizi affetmesi için dua ederiz; ve O bizi ateşe atmadı”. Ned'u merfudur, zammesi vav üzerinde takdiridir; ya'füve en'den sonra mansubdur, fetha vav üzerinde görünür; yermi lem'den sonra meczumdur, ya'sı düşmüştür.",
+        "Bir harf ve bir hazfla mu'reb olan dördüncü grup her zaman i'rabda nakıstır: nundan başka bir zamir bitişmiş muzari fiil, Acurrumiyye'nin ef'al-i hamsesi. Ref' nunla, nasb ve cezm onun hazfıyla: el-evliyaü ve'l-ulemaü yeşfeani yevme'l-kıyameti, fe-nercu en yeşfea lena ve lem yu'rıda anna, “Allah'ın velileri ve alimler kıyamet günü şefaat ederler; bu yüzden bize şefaat etmelerini ve bizden yüz çevirmemelerini umarız”.",
+        "“Nundan başka” kaydı, sonu sabit olan ve bu yüzden hiç i'rab edilmeyen nisa nununu, yadribne'yi dışarıda tutar. Ve iki cem' mübtedadan sonra tesniye yeşfeani'ye dikkat edin: iki çeşit insan, Allah'ın velileri ve alimler, iki olarak ele alınır.",
+        "Şimdi çeşitleri sayın: harekelerle üç, harflerle üç, bir hareke ve bir hazfla iki, bir harf ve bir hazfla bir: babın vaat ettiği gibi dokuz."
+      ],
+      "terms": [
+        "harekenin hazfı: sahih fiilin cezmi",
+        "son harfin hazfı: mu'tel fiilin cezmi",
+        "illet harfi: vav, ya, elif",
+        "ef'al-i hamse: nundan başka bir zamirli muzari"
+      ],
+      "examples": [
+        "nuhibbü en neşfea ve lem nuhram: ref', nasb ve cezmde birer fiil",
+        "en ya'füvena ve lem yermina: nasbda mu'tel fiil ve ya'sı düşerek cezmde",
+        "yeşfeani, en yeşfea, lem yu'rıda: korunan, sonra düşen nun"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nuhibbü en neşfea ve lem nuhram'daki her fiilin i'rabını ve alametini verin.",
+          "answer": "Nuhibbü: zammeyle merfu (nasb ya da cezm amili yok). Neşfea: en'den sonra fethayla mansub. Nuhram: lem'den sonra harekenin hazfıyla meczum (meçhul bir fiil)."
+        },
+        {
+          "prompt": "Ned'ullahe … en ya'füvena ve lem yermina'da ned'u'nun zammesi neden duyulmaz da ya'füve'nin fethası duyulur?",
+          "answer": "Son vav üzerindeki zamme ağırdır, bu yüzden ref'de söylenmez, takdir edilir (ned'u). Fetha hafiftir ve vav üzerinde söylenir (ya'füve). Cezmde illet harfinin kendisi düşer (yermi)."
+        },
+        {
+          "prompt": "Yeşfeani'yi len'den ve lem'den sonraya koyun ve alametleri adlandırın.",
+          "answer": "Len yeşfea; lem yeşfea. İkisinde de nun düşer: nasb ve cezm tek bir alameti paylaşır, bu yüzden ef'al-i hamse i'rabda nakıstır."
+        },
+        {
+          "prompt": "Dokuz mu'reb kelime çeşidini gruplarına göre sayın.",
+          "answer": "Harekelerle: munsarif müfred ve cem'-i mükesser (tam), gayr-i munsarif, cem'-i müennes-i salim (3). Harflerle: esma-i sitte (tam), mülhaklarıyla cem'-i müzekker-i salim, mülhaklarıyla tesniye (3). Bir hareke ve bir hazfla: sahih sonlu muzari, illetli sonlu muzari (2). Bir harf ve bir hazfla: ef'al-i hamse (1)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Birgivi'nin terimleriyle sahih sonlu muzari fiil nasıl meczum olur?",
+          "options": [
+            "Dördüncü bir hareke olarak sükunla",
+            "Harekenin hazfıyla",
+            "Nunun hazfıyla",
+            "Fethayla"
+          ],
+          "explanation": "Lem nuhram."
+        },
+        {
+          "prompt": "İlletli sonlu muzari fiil nasıl meczum olur?",
+          "options": [
+            "Sükunla",
+            "Fethayla",
+            "Son harfinin hazfıyla",
+            "Nunla"
+          ],
+          "explanation": "Lem yermina: yermi'nin ya'sı düşer."
+        },
+        {
+          "prompt": "“Dua ederiz” anlamındaki ned'u'da ref'in zammesi …",
+          "options": [
+            "vav üzerinde söylenir",
+            "vavla birlikte düşer",
+            "dal üzerindedir",
+            "vav üzerinde takdiridir"
+          ],
+          "explanation": "Son vav üzerindeki zamme söylenemeyecek kadar ağırdır."
+        },
+        {
+          "prompt": "“Bir hareke ve bir hazfla” grubu i'rabda tam mıdır, nakıs mı?",
+          "options": [
+            "Her zaman tam",
+            "Her zaman nakıs",
+            "Bazen ikisi",
+            "İ'rabı yoktur"
+          ],
+          "explanation": "Üç durum, üç ayrı alamet."
+        },
+        {
+          "prompt": "Hangi fiil dördüncü gruptadır?",
+          "options": [
+            "Nuhibbü",
+            "Yeşfeani",
+            "Ned'u",
+            "Yadribne"
+          ],
+          "explanation": "Nundan başka bir zamirli muzari; yadribne'nin sonu sabittir."
+        },
+        {
+          "prompt": "El-evliyaü ve'l-ulemaü'den sonra yeşfeani neden tesniyedir?",
+          "options": [
+            "Bir hatadır",
+            "Vavdan dolayı",
+            "İki çeşit insan iki olarak ele alınır",
+            "İkisi de cem' olduğu için"
+          ],
+          "explanation": "Allah'ın velileri ve alimler: iki grup."
+        },
+        {
+          "prompt": "En yeşfea lena'da nasbın alameti …",
+          "options": [
+            "fethadır",
+            "eliftir",
+            "sükundur",
+            "nunun hazfıdır"
+          ],
+          "explanation": "Ef'al-i hamse nasb ile cezm arasında tek bir alameti paylaşır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Kind": "Çeşit",
+          "Rafʿ": "Ref'",
+          "Naṣb": "Nasb",
+          "Jazm": "Cezm",
+          "sound last letter": "son harfi sahih",
+          "weak last letter": "son harfi illetli",
+          "with a pronoun (five verbs)": "zamirli (ef'al-i hamse)"
+        },
+        "caption": "Birgivi'nin örnekleriyle muzari fiilin i'rabı"
+      },
+      "text": [
+        "Üçüncüsü ancak tam i'rablı olur ve iki kısımdır. Bir kısmın ref'i zamme ile, nasbı fetha ile, cezmi harekenin hazfi iledir; bu, sonuna zamir bitişmeyen ve son harfi sahih olan fiil-i muzaridir; nuhibbü en neşfe'a ve lem nuhram “şefaat etmeyi ve mahrum kalmamayı severiz” gibi.",
+        "Bir kısmın da ref'i zamme ile, nasbı fetha ile, cezmi son harfin hazfi iledir; bu, sonuna zamir bitişmeyen ve son harfi illet harfi olan fiil-i muzaridir; ned'ullahe te'ala en ye'füvena ve lem yermina fi'n-nari “Allah Teala'ya bizi affetmesi ve bizi ateşe atmaması için dua ederiz” gibi.",
+        "Dördüncüsü ancak nakıs i'rablı olur: bu, sonuna nundan başka bir zamir bitişen fiil-i muzaridir; ref'i nun ile, nasb ve cezmi onun hazfi iledir; el-evliya'u ve'l-'ulema'u yeşfe'ani yevme'l-kıyameti “veliler ve alimler kıyamet günü şefaat ederler”, fe nercu en yeşfe'a lena ve lem yu'rida 'anna “bu yüzden ikisinin bize şefaat etmesini ve bizden yüz çevirmemesini umarız” gibi."
+      ]
+    },
+    "18": {
+      "title": "Lafzi, takdiri ve mahalli",
+      "body": [
+        "Kitap her i'rabı üçe ayıran tek bir bölümle biter. Alamet telaffuzda görünürse lafzidir, şimdiye kadarki bütün örneklerde olduğu gibi: er-rasulü, er-rasule, er-rasuli. Görünmez de kelimenin sonunda farz edilirse takdiridir: ene'l-ası, “isyankar olan benim”; burada el-ası merfu haberdir, ama zammesi ya üzerinde farz edilir ve söylenmez.",
+        "Ne görünür ne de sonda farz edilirse mahallidir: tevekkelna ala men la ye'ti'l-hayrü illa min cihetihi, “hayrın yalnız O'nun tarafından geldiği Zat'a tevekkül ettik”. “Kim ki, o ki” anlamındaki men'in sonu sabittir; onda hiçbir şey değişmez ve değişemez. Yine de ala'dan sonra mecrur bir ismin durduğu yerde durur ve bu yüzden “cer mahallinde” (fi mahalli cerr) olduğu söylenir.",
+        "Şerhler takdiri i'rabın sebebini verir. Son elif üzerinde hiçbir hareke söylenemez (Acurrumiyye'nin gösterdiği gibi el-feta), bu yüzden orada üçü de takdiridir. Son ya ya da vav üzerinde zamme ve kesre ağırdır ve takdir edilir (el-ası, ned'u), ama fetha hafiftir ve söylenir: raeytü'l-asıye, en ya'füve.",
+        "Mahalli i'rab ise medresenin, ma'mul bir yerdeki sonu sabit her kelime için söylediğidir: zamirler (ene, “ref' mahallinde”), ism-i işaretler, men ve ellezi gibi ism-i mevsuller ve tek bir kelimenin duracağı yerde duran bütün cümleler. Avamil'i okumuş talebe artık bir cümlenin her kelimesi için amilini, i'rabını, alametini ve o alametin lafzi mi, takdiri mi, mahalli mi olduğunu söyleyebilir.",
+        "Osmanlı yolunda Avamil'i, aynı üç babı daha uzun ele alan Birgivi'nin kendi İzharu'l-esrar'ı, sonra Molla Cami'nin şerhiyle İbnü'l-Hacib'in Kafiye'si izler."
+      ],
+      "terms": [
+        "lafzi i'rab: alamet söylenir",
+        "takdiri i'rab: alamet sonda farz edilir",
+        "mahalli i'rab: ma'mul bir yerdeki sabit bir kelime",
+        "fi mahalli cerr: cer mahallinde"
+      ],
+      "examples": [
+        "ene'l-ası, “isyankar olan benim”: el-ası'nin zammesi takdiridir",
+        "“hayrın yalnız O'ndan geldiği Zat'a tevekkül ettik”: men cer mahallindedir",
+        "raeytü'l-asıye, “isyankarı gördüm”: fetha ya üzerinde söylenir"
+      ],
+      "tasks": [
+        {
+          "prompt": "Lafzi mi, takdiri mi, mahalli mi? (a) amenna bi'r-rasuli'de er-rasuli; (b) ene'l-ası'de el-ası; (c) ene'l-ası'de ene; (d) ala men la ye'ti'l-hayrü'de men.",
+          "answer": "(a) Lafzi: kesre söylenir. (b) Takdiri: zamme ya üzerinde farz edilir. (c) Mahalli: ene sonu sabit bir zamirdir, mübteda olarak ref' mahallindedir. (d) Mahalli: men'in sonu sabittir, ala'dan sonra cer mahallindedir."
+        },
+        {
+          "prompt": "El-ası'nin i'rabı neden ref'de takdiri, nasbda lafzidir?",
+          "answer": "Son ya üzerindeki zamme ağırdır ve söylenmez, bu yüzden farz edilir (ene'l-ası). Fetha hafiftir ve ya üzerinde söylenir (raeytü'l-asıye)."
+        },
+        {
+          "prompt": "Takdiri i'rab ile mahalli i'rab arasındaki fark nedir?",
+          "answer": "Takdiri i'rab, mu'reb olup alametini gösteremeyen bir kelimenin sonunda farz edilir (el-ası, el-feta). Mahalli i'rab, sonu sabit, hiç değişmeyen bir kelimeye aittir; yalnız yeri bir i'rab durumundadır (men, ene)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Lafzi i'rab nedir?",
+          "options": [
+            "Sonda farz edilen bir alamet",
+            "Ma'mul bir yerde sabit bir kelime",
+            "Söylenen bir alamet",
+            "Hiç alamet olmaması"
+          ],
+          "explanation": "Er-rasulü, er-rasule, er-rasuli."
+        },
+        {
+          "prompt": "Ene'l-ası'de el-ası'nin i'rabı …",
+          "options": [
+            "lafzidir",
+            "mahallidir",
+            "yoktur",
+            "takdiridir"
+          ],
+          "explanation": "Zammesi ya üzerinde farz edilir."
+        },
+        {
+          "prompt": "Tevekkelna ala men …'de men …",
+          "options": [
+            "cer mahallindedir",
+            "kesreyle mecrurdur",
+            "merfudur",
+            "mansubdur"
+          ],
+          "explanation": "Sonu sabit bir kelime: mahalli i'rab."
+        },
+        {
+          "prompt": "Son ya üzerinde hangi hareke söylenir?",
+          "options": [
+            "Zamme",
+            "Fetha",
+            "Kesre",
+            "Hiçbiri"
+          ],
+          "explanation": "Raeytü'l-asıye; zamme ve kesre ağırdır ve takdiridir."
+        },
+        {
+          "prompt": "El-feta'daki gibi son elif üzerinde hangi alametler takdiridir?",
+          "options": [
+            "Yalnız zamme",
+            "Yalnız kesre",
+            "Üçü de",
+            "Hiçbiri"
+          ],
+          "explanation": "Elif hareke taşıyamaz."
+        },
+        {
+          "prompt": "Ene'l-ası'de ene'nin i'rabı …",
+          "options": [
+            "takdiridir",
+            "lafzidir",
+            "hiç yoktur",
+            "mahallidir: ref' mahallinde"
+          ],
+          "explanation": "Mübteda olarak duran, sonu sabit bir zamir."
+        },
+        {
+          "prompt": "Osmanlı yolunda Avamil'i hangi kitap izler?",
+          "options": [
+            "Birgivi'nin İzharu'l-esrar'ı",
+            "Acurrumiyye",
+            "Emsile",
+            "Elfiyye"
+          ],
+          "explanation": "Aynı üç babı daha uzun ele alır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Kind": "Çeşit",
+          "The sign": "Alamet",
+          "Birgivī's example": "Birgivi'nin örneği",
+          "heard (lafẓī)": "lafzi",
+          "said on the last letter": "son harfte söylenir",
+          "implied (taqdīrī)": "takdiri",
+          "supposed on the last letter": "son harfte farz edilir",
+          "by place (maḥallī)": "mahalli",
+          "neither said nor supposed": "ne söylenir ne farz edilir"
+        },
+        "caption": "Bir i'rab alametinin bulunmasının üç yolu"
+      },
+      "text": [
+        "Sonra i'rab, lafızda görünürse lafzi diye adlandırılır, zikredilen misallerde olduğu gibi; lafızda görünmez de sonunda takdir edilirse takdiri diye adlandırılır, ena'l-'asi “ben asiyim” gibi; ne görünür ne de sonunda takdir edilirse mahalli diye adlandırılır, tevekkelna 'ala men la ye'ti'l-hayru illa min cihetihi “hayrın ancak O'nun tarafından geldiği Zat'a tevekkül ettik” gibi."
+      ]
+    }
   }
- }
 }

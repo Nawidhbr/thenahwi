@@ -1,8 +1,8 @@
 {
   "slug": "ibn-malik",
-  "name": "Ibn Mālik",
+  "name": "Jamāl al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh ibn Mālik al-Ṭāʾī al-Jayyānī",
   "arabic": "ابْنُ مَالِكٍ",
-  "known": "Jamāl al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh al-Ṭāʾī al-Jayyānī",
+  "known": "Ibn Mālik",
   "born": "600/1203–04",
   "died": "672/1274",
   "places": [
@@ -19,7 +19,8 @@
   "summary": "Andalusian grammarian who settled in Damascus; his thousand-verse Alfiyya became the most studied poem of Arabic grammar.",
   "bio": [
     "Born in Jaén in al-Andalus, Ibn Mālik went east, studied in Aleppo with Ibn al-Ḥājib and Ibn Yaʿīsh, taught in Aleppo and Hama, and spent his most productive years in Damascus, where he died in 672/1274.",
-    "Beside the Alfiyya he wrote Tashīl al-fawāʾid on naḥw and Lāmiyyat al-afʿāl, a poem on the verb that is read in ṣarf. His son Badr al-Dīn wrote a commentary on the Alfiyya."
+    "Beside the Alfiyya he wrote Tashīl al-fawāʾid on naḥw and Lāmiyyat al-afʿāl, a poem on the verb that is read in ṣarf. His son Badr al-Dīn wrote a commentary on the Alfiyya.",
+    "The Alfiyya opens by naming the poem it means to surpass, the Alfiyya of Ibn Muʿṭī, and then grants Ibn Muʿṭī the merit of coming first. Later teachers tell a story about those verses: Ibn Mālik, having written that his poem surpassed Ibn Muʿṭī's, found he could not go on, until Ibn Muʿṭī appeared to him in a dream and reproached him; he then added the verse of acknowledgement and the poem flowed again. It is told in the commentaries as a lesson in courtesy, not as history."
   ],
   "works": [
     {
@@ -43,6 +44,7 @@
   "books": [
     "alfiyya"
   ],
+  "school": "andalus",
   "sources": [
     {
       "title": "Ibn Malik, Wikipedia",
@@ -51,6 +53,10 @@
     {
       "title": "Alfiyya of Ibn Malik, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Alfiyya_of_Ibn_Malik"
+    },
+    {
+      "title": "İbn Mu'tî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-muti"
     }
   ]
 }

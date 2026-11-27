@@ -1,0 +1,34 @@
+{
+  "items": {
+    "jumla-filiyya-1": {
+      "prompt": "Jumlah mana yang fi'liyyah?",
+      "options": [
+        "qama Zaidun",
+        "Zaidun qa'imun",
+        "Keduanya",
+        "Tidak keduanya"
+      ],
+      "explanation": "Qama Zaidun diawali fi'il."
+    },
+    "jumla-filiyya-2": {
+      "prompt": "Apa bagian-bagian jumlah fi'liyyah yang paling sederhana?",
+      "options": [
+        "Fi'il dan fa'ilnya",
+        "Mubtada' dan khabar",
+        "Huruf dan isim",
+        "Dua fi'il"
+      ],
+      "explanation": "Fi'il dan fa'il: qama Zaidun."
+    },
+    "jumla-filiyya-3": {
+      "prompt": "Jika fa'ilnya isim jamak yang datang sesudah fi'il, kitab-kitab memakai…",
+      "options": [
+        "fi'il dalam bentuk mufrad: qamar-rijalu",
+        "fi'il dalam bentuk jamak: qamur-rijalu",
+        "tanpa fi'il sama sekali",
+        "fi'il mutsanna"
+      ],
+      "explanation": "Jika fa'ilnya isim yang datang sesudah fi'il, fi'ilnya tetap mufrad."
+    }
+  }
+}

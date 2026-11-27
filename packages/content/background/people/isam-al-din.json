@@ -1,0 +1,50 @@
+{
+  "slug": "isam-al-din",
+  "name": "ʿIṣām al-Dīn Ibrāhīm ibn Muḥammad ibn ʿArabshāh al-Isfarāyīnī",
+  "known": "ʿIṣām al-Dīn al-Isfarāyīnī",
+  "arabic": "عِصَامُ الدِّينِ الإِسْفَرَايِينِيُّ",
+  "died": "944/1537",
+  "places": [
+    "Isfarāyin (Khurasan)",
+    "Herat",
+    "Bukhara",
+    "Samarqand"
+  ],
+  "roles": [
+    "glossator",
+    "commentator"
+  ],
+  "summary": "Khurasanian master of grammar, rhetoric and logic whose gloss on Jāmī's commentary on al-Kāfiya, 'ʿIṣām', was a set book of the Ottoman madrasas.",
+  "bio": [
+    "ʿIṣām al-Dīn was born in Isfarāyin in Khurasan, taught in Herat and Bukhara and died in Samarqand. He wrote glosses on many of the standard books of the madrasa, in grammar, rhetoric, logic and theology.",
+    "His gloss on Jāmī's al-Fawāʾid al-Ḍiyāʾiyya, known in Ottoman Turkish simply as 'İsâm', was read after Sharḥ Jāmī in the Ottoman course of naḥw; he also commented on al-Taftāzānī's rhetoric (al-Aṭwal) and on al-Kāfiya itself."
+  ],
+  "works": [
+    {
+      "title": "Ḥāshiya ʿalā al-Fawāʾid al-Ḍiyāʾiyya",
+      "arabic": "حَاشِيَةٌ عَلَى الفَوَائِدِ الضِّيَائِيَّة",
+      "kind": "hashiya",
+      "on": "jami"
+    },
+    {
+      "title": "Sharḥ al-Kāfiya",
+      "arabic": "شَرْحُ الكَافِيَة",
+      "kind": "sharh",
+      "on": "kafiya"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "His death is given as 943, 944, 945 or 951 (1536–1544)."
+  ],
+  "books": [
+    "kafiya"
+  ],
+  "school": "persia-central-asia",
+  "sources": [
+    {
+      "title": "İsferâyînî, İsâmüddin, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/isferayini-isamuddin"
+    }
+  ]
+}

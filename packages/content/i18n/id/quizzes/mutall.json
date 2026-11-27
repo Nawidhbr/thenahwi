@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mutall-1": {
+      "prompt": "Di mana huruf 'illat dalam qala (akar q-w-l)?",
+      "options": [
+        "Di tengah: fi'il ajwaf",
+        "Di awal: fi'il mitsal",
+        "Di akhir: fi'il naqish",
+        "Tidak ada"
+      ],
+      "explanation": "Wawu adalah huruf asli kedua, maka qala adalah ajwaf."
+    },
+    "mutall-2": {
+      "prompt": "Apa yang terjadi pada wawu fi'il ini dalam mudhari'?",
+      "options": [
+        "Gugur: ya'idu",
+        "Menjadi ya'",
+        "Tetap: yau'idu",
+        "Menjadi alif"
+      ],
+      "explanation": "Pada fi'il mitsal dari bab fa'ala yaf'ilu, wawu-nya gugur dalam mudhari': ya'idu."
+    },
+    "mutall-3": {
+      "prompt": "Disebut apa fi'il ini?",
+      "options": [
+        "naqish: huruf 'illat di akhir",
+        "ajwaf: huruf 'illat di tengah",
+        "mitsal: huruf 'illat di awal",
+        "salim"
+      ],
+      "explanation": "Rama berasal dari r-m-y: huruf 'illat-nya yang ketiga."
+    }
+  }
+}

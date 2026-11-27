@@ -58,7 +58,7 @@
   },
   "home": {
     "title": "Learn ṣarf and naḥw, the <em>grammar of the madrasa</em>",
-    "lead": "A rule-governed instrument that protects the mind from error in thinking, taught from the books of the madrasa: choose the Indian, Ottoman or North-African path and read its texts level by level, with the Arabic and a short test for every lesson.",
+    "lead": "Arabic grammar as the madrasa teaches it, from its own books: choose the Indian, Ottoman or North-African path and read its texts level by level, ṣarf and naḥw side by side, with the Arabic and a short test for every lesson.",
     "start": "Choose your path",
     "readText": "Read the text",
     "factTerms": "terms",
@@ -230,7 +230,7 @@
     "questions": "{chapter} · {n} questions"
   },
   "search": {
-    "placeholder": "Search: genus, jins, جنس…",
+    "placeholder": "Search: verb, fiʿl, فعل…",
     "hint": "Search in this language, in transliteration or in Arabic, with or without vowel marks.",
     "none": "Nothing found. Try another spelling, or the Arabic.",
     "close": "Close search",
@@ -949,7 +949,8 @@
       "mastersKicker": "The masters",
       "mastersLead": "From Sībawayh to al-Azhar: the grammarians whose books were read.",
       "library": "The whole library",
-      "newsLead": "Gathered each week by The Mantiqi."
+      "newsLead": "Gathered each week by The Mantiqi.",
+      "generationsLink": "The generations of the grammarians"
     },
     "curricula": {
       "title": "Curricula",
@@ -1025,7 +1026,9 @@
         "teacher": "Teachers",
         "voice": "Voices on grammar",
         "modern": "Modern scholarship"
-      }
+      },
+      "generationsLink": "The generations of the grammarians",
+      "generationsLead": "The same scholars by school and generation, as the old ṭabaqāt books set them out, and by century."
     },
     "scholar": {
       "life": "Life",
@@ -1035,7 +1038,9 @@
       "places": "Places",
       "writtenOn": "Written on his works",
       "books": "In the books",
-      "sources": "Sources"
+      "sources": "Sources",
+      "school": "School",
+      "tabaqa": "In al-Zubaydī's Ṭabaqāt"
     },
     "news": {
       "title": "News of naḥw and ṣarf",
@@ -1110,7 +1115,8 @@
         "verse": "Verse",
         "refutation": "Critique",
         "modern": "Modern textbook",
-        "translation": "Translation"
+        "translation": "Translation",
+        "biography": "Lives of the grammarians"
       },
       "languages": {
         "ar": "Arabic",
@@ -1154,7 +1160,8 @@
         "sentence": "The sentence",
         "governors": "Governors (ʿawāmil)",
         "followers": "Followers (tawābiʿ)",
-        "accusatives": "Words in naṣb"
+        "accusatives": "Words in naṣb",
+        "jargon": "The language of the books and the debate"
       },
       "pageTitle": "{name} ({transliteration}): meaning in Arabic grammar",
       "pageTitleShort": "{name}: meaning in Arabic grammar",
@@ -1171,6 +1178,60 @@
     "nahw": {
       "title": "About naḥw and ṣarf",
       "lead": "What naḥw and ṣarf are, why ṣarf comes first, and how the madrasa reads their books."
+    },
+    "generations": {
+      "title": "The generations of the grammarians",
+      "lead": "The grammarians of naḥw and ṣarf by school and generation, as the old ṭabaqāt books set them out, and by the century they died in.",
+      "description": "The grammarians of Arabic by school and ṭabaqa after al-Zubaydī's Ṭabaqāt al-naḥwiyyīn, and by century: their hijri year of death, city and books.",
+      "count": "{n} grammarians",
+      "introKicker": "The ṭabaqāt",
+      "introTitle": "How the old books order the grammarians",
+      "intro": [
+        "From the fourth/tenth century on, the grammarians wrote the history of their own science as ṭabaqāt, 'layers' or generations: the students of one generation's teachers form the next, so that a book of ṭabaqāt is a chain from the founder down to the author's own teachers. The oldest that survive were written within a few decades of each other: al-Sīrāfī's Akhbār al-naḥwiyyīn al-Baṣriyyīn, Abū al-Ṭayyib al-Lughawī's Marātib al-naḥwiyyīn and al-Zubaydī's Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn.",
+        "This page follows al-Zubaydī, who wrote in Cordoba at the command of the caliph al-Ḥakam II. He divides the scholars by city and by science: the grammarians of Basra in ten generations, from Abū al-Aswad al-Duʾalī to the students of al-Zajjāj; the grammarians of Kufa in six, from al-Ruʾāsī to the students of Thaʿlab; the lexicographers of both cities; then the men of Egypt, of Qayrawān and of al-Andalus. Each entry gives a scholar's teachers, books and the reports about him; the generations below, and the numbers of the entries, are his.",
+        "For the later centuries the ṭabaqāt go by name: Ibn al-Anbārī's Nuzhat al-alibbāʾ, al-Qifṭī's Inbāh al-ruwāt and al-Suyūṭī's Bughyat al-wuʿāt, which gathers more than two thousand grammarians and lexicographers down to the end of the ninth/fifteenth century. Here the grammarians after al-Zubaydī are set out by the school or land the histories place them in, with the books they wrote, down to the authors read on the three study paths."
+      ],
+      "worksTitle": "The ṭabaqāt works in the library",
+      "bySchool": "By school and generation",
+      "byCentury": "By century",
+      "zubaydiTitle": "In al-Zubaydī's Ṭabaqāt",
+      "zubaydiLead": "Al-Zubaydī (d. 379/989) sets out the scholars of each city generation by generation, the students of one generation forming the next; only the grammarians and lexicographers who have a page here are shown.",
+      "laterTitle": "After al-Zubaydī: the schools and the lands",
+      "laterLead": "The grammarians who lived after him, or whom he does not list, by the school or land the histories place them in, and by date of death.",
+      "centuryTitle": "By century of death",
+      "centuryLead": "Every grammarian of the encyclopedia under the hijri century he died in, with his school and city.",
+      "lists": {
+        "basra-nahw": "The grammarians of Basra",
+        "kufa-nahw": "The grammarians of Kufa",
+        "basra-lugha": "The lexicographers of Basra",
+        "kufa-lugha": "The lexicographers of Kufa",
+        "egypt": "The grammarians of Egypt",
+        "qayrawan": "The grammarians of Qayrawān",
+        "andalus": "The grammarians of al-Andalus"
+      },
+      "schools": {
+        "basra": "Basra",
+        "kufa": "Kufa",
+        "baghdad": "Baghdad and Iraq",
+        "egypt-sham": "Egypt and Syria",
+        "andalus": "al-Andalus",
+        "maghrib": "The Maghrib",
+        "hijaz-yemen": "The Ḥijāz and Yemen",
+        "persia-central-asia": "Persia and Central Asia",
+        "ottoman": "The Ottoman lands",
+        "india": "India",
+        "none": "Land not known"
+      },
+      "generation": "{n} generation",
+      "inGeneration": "{list}, {n} generation",
+      "entry": "entry {n}",
+      "century": "{n} century AH",
+      "years": "AH {from}–{to} · {n}",
+      "yearsOne": "AH {from}–{to} · 1 grammarian",
+      "grammarians": "{n} grammarians",
+      "died": "d.",
+      "undated": "Year of death not known",
+      "grammarianOne": "1 grammarian"
     }
   },
   "preview": {

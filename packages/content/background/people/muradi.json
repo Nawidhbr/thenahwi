@@ -1,0 +1,43 @@
+{
+  "slug": "muradi",
+  "name": "Badr al-Dīn al-Ḥasan ibn Qāsim al-Murādī, Ibn Umm Qāsim",
+  "known": "al-Murādī",
+  "arabic": "المُرَادِيُّ",
+  "died": "749/1348",
+  "places": [
+    "Cairo"
+  ],
+  "roles": [
+    "commentator",
+    "author"
+  ],
+  "summary": "Egyptian grammarian, a student of Abū Ḥayyān, author of al-Janā al-dānī on the particles and of a commentary on the Alfiyya that Ibn Hishām and al-Ushmūnī used.",
+  "bio": [
+    "Al-Murādī, known as Ibn Umm Qāsim after his grandmother, learnt grammar in Cairo from Abū Ḥayyān and taught there. His al-Janā al-dānī fī ḥurūf al-maʿānī treats the particles of Arabic, from one letter to five, with their meanings and uses, and is the main book on the subject beside Ibn Hishām's Mughnī. His Tawḍīḥ al-maqāṣid wa-l-masālik comments on the Alfiyya, and he also commented on Ibn Mālik's al-Tashīl. He died in 749/1348, the year of the Black Death in Egypt."
+  ],
+  "works": [
+    {
+      "title": "al-Janā al-dānī fī ḥurūf al-maʿānī",
+      "arabic": "الجَنَى الدَّانِي فِي حُرُوفِ المَعَانِي",
+      "kind": "other"
+    },
+    {
+      "title": "Tawḍīḥ al-maqāṣid wa-l-masālik",
+      "arabic": "تَوْضِيحُ المَقَاصِدِ وَالمَسَالِك",
+      "kind": "sharh",
+      "on": "alfiyya"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [
+    "alfiyya"
+  ],
+  "school": "egypt-sham",
+  "sources": [
+    {
+      "title": "Murâdî, Hasan b. Kāsım, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/muradi-hasan-b-kasim"
+    }
+  ]
+}

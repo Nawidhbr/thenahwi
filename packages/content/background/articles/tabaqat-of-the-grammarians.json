@@ -1,0 +1,59 @@
+{
+  "slug": "tabaqat-of-the-grammarians",
+  "book": "nahw",
+  "title": "The ṭabaqāt of the grammarians",
+  "order": 4,
+  "summary": "How the grammarians wrote the history of their own science, generation by generation, from al-Sīrāfī and al-Zubaydī in the fourth/tenth century to al-Suyūṭī's Bughyat al-wuʿāt; and how our generations of the grammarians follow them.",
+  "sections": [
+    {
+      "heading": "Generations of teachers",
+      "paragraphs": [
+        "A ṭabaqa is a layer: in the books of ṭabaqāt, the scholars of one generation, the students of the generation before. The form was used for the Companions and the transmitters of hadith, for the jurists of each school and for the poets; the grammarians used it for themselves from the fourth/tenth century on. A grammarian's place in it says whose student he was, and so whose teaching he carried.",
+        "The books do more than list names. Each entry gives a scholar's name and lineage, his teachers and students, his books, his death, and the reports told of him: a judgement of his learning, a debate, a saying, a few verses. Much of what we know of the early grammarians, and all the stories they told of each other, comes from these entries."
+      ]
+    },
+    {
+      "heading": "The three oldest",
+      "paragraphs": [
+        "Three works of the fourth/tenth century survive. Al-Sīrāfī's Akhbār al-naḥwiyyīn al-Baṣriyyīn tells of the Basrans from Abū al-Aswad to al-Sīrāfī's own teachers. Abū al-Ṭayyib al-Lughawī's Marātib al-naḥwiyyīn, written in Aleppo, ranks the grammarians and lexicographers of Basra and Kufa and judges how far each can be trusted in what he reports of the Arabs.",
+        "Al-Zubaydī's Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, written in Cordoba for the caliph al-Ḥakam II, is the most ordered. It divides the scholars by city and by science, each list in generations: the grammarians of Basra in ten, from Abū al-Aswad to the students of al-Zajjāj; the grammarians of Kufa in six, from al-Ruʾāsī and Muʿādh al-Harrāʾ to the students of Thaʿlab; the lexicographers of Basra in seven and of Kufa in five; then the scholars of Egypt, of Qayrawān and of al-Andalus, each land in its own generations. It is the backbone of our page on the generations of the grammarians, which gives each scholar's generation and entry number in it."
+      ]
+    },
+    {
+      "heading": "The later dictionaries",
+      "paragraphs": [
+        "Later centuries wrote fuller books, ordered by death or by the alphabet rather than by generation. Ibn al-Anbārī's Nuzhat al-alibbāʾ (sixth/twelfth century) runs from Abū al-Aswad to his own time in order of death. Al-Qifṭī's Inbāh al-ruwāt and Yāqūt's dictionary of men of letters, both of the seventh/thirteenth century, gather the older reports with many from books now lost. Al-Suyūṭī's Bughyat al-wuʿāt, at the end of the ninth/fifteenth century, holds more than two thousand grammarians and lexicographers in alphabetical order and is the one most consulted today.",
+        "Our generations of the grammarians use al-Zubaydī for the centuries he covers and, after him, arrange the grammarians by the school or land the histories place them in, with their year of death in the hijri calendar and their city, as the ṭabaqāt do; beside each name stand the books of his that the library describes."
+      ]
+    }
+  ],
+  "people": [
+    "sirafi",
+    "abu-al-tayyib-al-lughawi",
+    "zubaydi",
+    "ibn-al-anbari",
+    "suyuti"
+  ],
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Zübeydî, Ebû Bekir, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/zubeydi-ebu-bekir"
+    },
+    {
+      "title": "Nüzhetü'l-elibbâ, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/nuzhetul-elibba"
+    },
+    {
+      "title": "İnbâhü'r-ruvât, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/inbahur-ruvat"
+    },
+    {
+      "title": "Buğyetü'l-vuât, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/bugyetul-vuat"
+    }
+  ]
+}

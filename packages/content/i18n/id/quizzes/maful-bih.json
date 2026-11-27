@@ -1,0 +1,34 @@
+{
+  "items": {
+    "maful-bih-1": {
+      "prompt": "Apa kedudukan 'amran di sini?",
+      "options": [
+        "maf'ul bih",
+        "fa'il",
+        "mubtada'",
+        "khabar"
+      ],
+      "explanation": "Pukulan itu mengenai 'Amr, dan ia manshub: maf'ul bih."
+    },
+    "maful-bih-2": {
+      "prompt": "Fi'il mana yang tidak membutuhkan maf'ul bih?",
+      "options": [
+        "qama",
+        "kataba",
+        "nashara",
+        "Semuanya membutuhkan"
+      ],
+      "explanation": "Qama, dia telah berdiri, adalah fi'il lazim: perbuatannya tidak mengenai siapa pun."
+    },
+    "maful-bih-3": {
+      "prompt": "Apa kedudukan -ni dalam fi'il ini?",
+      "options": [
+        "maf'ul bih: dia telah menolongku",
+        "fa'il: aku telah menolong",
+        "khabar",
+        "huruf khafadh"
+      ],
+      "explanation": "Dhamir -ni adalah yang dikenai pertolongan: maf'ul bih."
+    }
+  }
+}

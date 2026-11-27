@@ -1,0 +1,34 @@
+{
+  "items": {
+    "irab-1": {
+      "prompt": "Apa itu i'rab?",
+      "options": [
+        "Perubahan di akhir kata yang disebabkan 'amil-'amil yang masuk kepadanya",
+        "Harakat di tengah kata",
+        "Wazan huruf-huruf asli",
+        "Makna kata dalam kamus"
+      ],
+      "explanation": "I'rab membahas akhir kata, dan 'amil yang mengubahnya."
+    },
+    "irab-2": {
+      "prompt": "Mengapa akhir kata Zaid berbeda dalam dua kalimat ini?",
+      "options": [
+        "'Amilnya berbeda: fa'il dari ja'a, maf'ul bih dari ra'aitu",
+        "Salah satunya keliru",
+        "Nama bebas mengubah akhirnya",
+        "Karena salah satu kalimat berzaman lampau"
+      ],
+      "explanation": "'Amilnya berubah: sebagai fa'il Zaid marfu', sebagai maf'ul bih manshub."
+    },
+    "irab-3": {
+      "prompt": "Disebut apa kata yang akhirnya berubah dengan cara ini?",
+      "options": [
+        "mu'rab",
+        "mabni",
+        "mujarrad",
+        "mazid"
+      ],
+      "explanation": "Kata yang menerima i'rab disebut mu'rab; kata yang akhirnya tetap disebut mabni."
+    }
+  }
+}

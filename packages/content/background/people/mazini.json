@@ -1,0 +1,54 @@
+{
+  "slug": "mazini",
+  "name": "Abū ʿUthmān Bakr ibn Muḥammad al-Māzinī",
+  "known": "Abū ʿUthmān al-Māzinī",
+  "arabic": "أَبُو عُثْمَانَ المَازِنِيُّ",
+  "died": "249/863",
+  "places": [
+    "Basra",
+    "Samarra"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Basran master of the generation after Sībawayh's students, author of al-Taṣrīf, the oldest book on ṣarf that survives, and teacher of al-Mubarrad.",
+  "bio": [
+    "Al-Māzinī read al-Kitāb with al-Akhfash and learnt from al-Aṣmaʿī and Abū ʿUbayda; al-Zubaydī puts him first in the seventh Basran generation. Al-Mubarrad was his student, and through al-Mubarrad his teaching reached the Baghdad of the next century.",
+    "His Kitāb al-Taṣrīf is the first book given wholly to ṣarf that has come down to us: the patterns, augmentation, the weak letters and their changes. Ibn Jinnī wrote a commentary on it, al-Munṣif, and the two together became the classical treatment of the subject before Ibn al-Ḥājib's al-Shāfiya.",
+    "The biographers (Yāqūt and Ibn Khallikān among them) tell a story of reward. A non-Muslim offered him a hundred dinars to read Sībawayh's book with him, and al-Māzinī refused, since the book quotes the Qurʾān. Soon after, a slave-girl sang before the caliph al-Wāthiq the line 'O wronging one, your striking down a man (rajulan) who greeted you…', and was corrected to rajulun; she held to rajulan and named al-Māzinī as her teacher. He was summoned to Samarra, explained why rajulan is right, the object of the maṣdar muṣābakum, and went home with a thousand dinars. He died in Basra in 249/863."
+  ],
+  "works": [
+    {
+      "title": "Kitāb al-Taṣrīf",
+      "arabic": "كِتَابُ التَّصْرِيف",
+      "kind": "matn",
+      "note": "The oldest surviving book on ṣarf; commented on by Ibn Jinnī in al-Munṣif."
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "His death is also given as 248/862."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 7,
+    "entry": 30
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 30 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ebû Osman el-Mâzinî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ebu-osman-el-mazini"
+    },
+    {
+      "title": "et-Tasrîf (Mâzinî), TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/et-tasrif--mazini"
+    }
+  ]
+}

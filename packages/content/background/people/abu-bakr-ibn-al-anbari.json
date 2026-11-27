@@ -1,0 +1,55 @@
+{
+  "slug": "abu-bakr-ibn-al-anbari",
+  "name": "Abū Bakr Muḥammad ibn al-Qāsim ibn Muḥammad ibn Bashshār al-Anbārī",
+  "known": "Abū Bakr ibn al-Anbārī",
+  "arabic": "أَبُو بَكْرِ بْنُ الأَنْبَارِيِّ",
+  "died": "328/940",
+  "places": [
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Thaʿlab's student and the last great Kufan of Baghdad, famed for his memory; author of books on the pause in the Qurʾān, on words of opposite meanings and on the masculine and feminine.",
+  "bio": [
+    "Abū Bakr ibn al-Anbārī learnt from his father and from Thaʿlab and taught in Baghdad; al-Zubaydī places him in the sixth Kufan generation. The sources tell of his memory: thousands of verses cited as evidence for the Qurʾān, and the commentaries of the Qurʾān with their chains, all from memory. He is not the later Abū al-Barakāt ibn al-Anbārī, author of al-Inṣāf.",
+    "His Īḍāḥ al-waqf wa-l-ibtidāʾ, on where a reader of the Qurʾān may pause and begin, his al-Aḍdād and his al-Mudhakkar wa-l-muʾannath are still printed. Abū ʿAlī al-Qālī was his student and carried his books to Cordoba. He died in 328/940."
+  ],
+  "works": [
+    {
+      "title": "Īḍāḥ al-waqf wa-l-ibtidāʾ",
+      "arabic": "إِيضَاحُ الوَقْفِ وَالِابْتِدَاء",
+      "kind": "other"
+    },
+    {
+      "title": "al-Aḍdād",
+      "arabic": "الأَضْدَاد",
+      "kind": "other"
+    },
+    {
+      "title": "al-Mudhakkar wa-l-muʾannath",
+      "arabic": "المُذَكَّرُ وَالمُؤَنَّث",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "kufa",
+  "tabaqa": {
+    "list": "kufa-nahw",
+    "n": 6,
+    "entry": 79
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 79 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "İbnü'l-Enbârî, Ebû Bekir, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibnul-enbari-ebu-bekir"
+    }
+  ]
+}

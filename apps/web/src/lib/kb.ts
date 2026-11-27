@@ -30,6 +30,7 @@ export const KB_SECTIONS = {
   curricula: { arabic: "المَناهِج", photo: "shahada-over-door" },
   books: { arabic: "المَكْتَبَة", photo: "painted-arch-panel" },
   scholars: { arabic: "الأَعْلام", photo: "stone-inscription" },
+  generations: { arabic: "طَبَقَاتُ النَّحْوِيِّين", photo: "painted-chamber-gold-script" },
   news: { arabic: "الجَدِيد", photo: "gilded-wall-inscriptions" },
   glossary: { arabic: "مُعْجَمُ النَّحْوِ وَالصَّرْف", photo: "tiled-portal-verse" },
   study: { arabic: "ادْرُسْ دَرْسًا دَرْسًا", photo: "tile-niche-inscription" },
@@ -56,6 +57,7 @@ export const kbPath = {
   catalogue: (l: string, id: string) => `/${l}/books/${id}/catalogue/`,
   scholars: (l: string) => `/${l}/scholars/`,
   scholar: (l: string, slug: string) => `/${l}/scholars/${slug}/`,
+  generations: (l: string, hash = "") => `/${l}/scholars/generations/${hash ? `#${hash}` : ""}`,
   news: (l: string) => `/${l}/news/`,
   glossary: (l: string, slug?: string) => `/${l}/glossary/${slug ? `${slug}/` : ""}`,
   study: (l: string) => `/${l}/study/`,
@@ -98,6 +100,34 @@ export function century(p: BackgroundPerson): number | null {
 }
 
 export { shortName, diedYear };
+
+/**
+ * The hijri year a person died, from the date as written ("180/796", "ca. 311/923", "before 90/708, or 129/746": the first
+ * year before a slash); null when there is none.
+ */
+export function diedHijri(p: Pick<BackgroundPerson, "died">): number | null {
+  const m = (p.died ?? "").match(/(\d{1,4})\s*\/\s*\d/);
+  return m ? Number(m[1]) : null;
+}
+/** The hijri century of a death (AH 1–100 is the first); from "early 8th/14th century" too. Null when unknown. */
+export function hijriCentury(p: Pick<BackgroundPerson, "died">): number | null {
+  const y = diedHijri(p);
+  if (y !== null) return Math.max(1, Math.ceil(y / 100));
+  const c = (p.died ?? "").match(/(\d{1,2})(?:st|nd|rd|th)\s*\/\s*\d{1,2}(?:st|nd|rd|th) century/);
+  return c ? Number(c[1]) : null;
+}
+/** The city a person is placed at in lists: the last of his places (where he died or ended), without its note in brackets. */
+export const lastPlace = (p: Pick<BackgroundPerson, "places">) => (p.places.at(-1) ?? "").replace(/\s*\(.*\)\s*$/, "");
+/** The Arabic headings of al-Zubaydī's lists (data, always set in Kufi). */
+export const TABAQA_ARABIC: Record<string, string> = {
+  "basra-nahw": "النَّحْوِيُّونَ البَصْرِيُّون",
+  "kufa-nahw": "النَّحْوِيُّونَ الكُوفِيُّون",
+  "basra-lugha": "اللُّغَوِيُّونَ البَصْرِيُّون",
+  "kufa-lugha": "اللُّغَوِيُّونَ الكُوفِيُّون",
+  egypt: "النَّحْوِيُّونَ المِصْرِيُّون",
+  qayrawan: "النَّحْوِيُّونَ القَرَوِيُّون",
+  andalus: "النَّحْوِيُّونَ الأَنْدَلُسِيُّون",
+};
 
 /** A short death date for labels: "766/1365" out of "Ramaḍān 766/1365 (other sources: …)"; otherwise the text before any note. */
 export function shortDied(d?: string, locale = "en"): string {

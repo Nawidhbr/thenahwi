@@ -1,0 +1,34 @@
+{
+  "items": {
+    "sahih-1": {
+      "prompt": "Fi'il mana yang shahih?",
+      "options": [
+        "kataba",
+        "qala",
+        "rama",
+        "Tidak satu pun"
+      ],
+      "explanation": "Kataba tidak punya huruf 'illat. Qala (q-w-l) dan rama (r-m-y) mu'tal."
+    },
+    "sahih-2": {
+      "prompt": "Apa yang menjadikan sebuah akar mu'tal?",
+      "options": [
+        "Wawu, ya' atau alif di antara huruf aslinya",
+        "Hamzah di awal",
+        "Punya empat huruf",
+        "Berakhir dengan ta'"
+      ],
+      "explanation": "Huruf 'illat adalah wawu, ya' dan alif; hamzah tidak menjadikan fi'il mu'tal."
+    },
+    "sahih-3": {
+      "prompt": "Disebut apa fi'il ini (dia telah membentangkan) dalam kitab-kitab?",
+      "options": [
+        "mudha'af: huruf kedua dan ketiganya sama",
+        "mahmuz: ada hamzahnya",
+        "salim: tanpa hamzah dan tanpa huruf yang dobel",
+        "mu'tal: ada huruf 'illat-nya"
+      ],
+      "explanation": "Madda berasal dari m-d-d: huruf asli kedua dan ketiganya sama."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "abwab",
+  "name": "The six bābs of the bare verb",
+  "arabic": "الأَبْوَابُ السِّتَّةُ",
+  "transliteration": "al-abwāb al-sitta",
+  "alsoKnownAs": [
+    "abwab",
+    "abwāb",
+    "bab",
+    "bāb",
+    "six patterns",
+    "conjugation classes"
+  ],
+  "category": "verb",
+  "definition": "The six patterns of vowels by which the bare three-letter verb is conjugated, each named after its model verb: naṣara, ḍaraba, fataḥa, samiʿa, karuma, ḥasiba.",
+  "body": [
+    "A bare triliteral verb has a in its first and third letters in the past; what varies is the vowel of the middle letter in the past and in the present. The six combinations the Arabs use are the six bābs: a–u (naṣara, yanṣuru), a–i (ḍaraba, yaḍribu), a–a (fataḥa, yaftaḥu), i–a (samiʿa, yasmaʿu), u–u (karuma, yakrumu) and i–i (ḥasiba, yaḥsibu). Which bāb a verb belongs to is learnt by hearing, not by rule, though the books give tendencies: fataḥa needs a throat letter in the middle or last place, karuma gives verbs of lasting qualities.",
+    "The Ottoman primers drill them in al-Amthila and Bināʾ al-afʿāl, al-ʿIzzī lists them in its first chapter, and our engine conjugates each verb by its bāb."
+  ],
+  "examples": [
+    {
+      "arabic": "نَصَرَ – يَنْصُرُ",
+      "text": "a–u: the bāb of naṣara."
+    },
+    {
+      "arabic": "ضَرَبَ – يَضْرِبُ",
+      "text": "a–i: the bāb of ḍaraba."
+    },
+    {
+      "arabic": "فَتَحَ – يَفْتَحُ",
+      "text": "a–a: the bāb of fataḥa."
+    },
+    {
+      "arabic": "عَلِمَ – يَعْلَمُ",
+      "text": "i–a: the bāb of samiʿa."
+    },
+    {
+      "arabic": "كَرُمَ – يَكْرُمُ",
+      "text": "u–u: the bāb of karuma."
+    },
+    {
+      "arabic": "حَسِبَ – يَحْسِبُ",
+      "text": "i–i: the bāb of ḥasiba."
+    }
+  ],
+  "related": [
+    "mujarrad",
+    "mizan",
+    "madi",
+    "mudari"
+  ],
+  "books": [
+    "izzi",
+    "shafiya"
+  ]
+}

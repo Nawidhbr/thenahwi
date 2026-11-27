@@ -46,6 +46,7 @@ const bookList = KB_BOOKS.filter((b) => people.some((p) => p.books.includes(b.id
   <KbHero locale={locale} photo={KB_SECTIONS.scholars.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }]} kicker={fmt(S.count, { n: people.length })} arabic={KB_SECTIONS.scholars.arabic} title={S.title} sub={S.lead} />
   <div class="kb-wrap">
     <section class="kb-section">
+      <a class="kb-link gen-link" href={kbPath.generations(locale)}><strong>{S.generationsLink} →</strong><span class="muted">{S.generationsLead}</span></a>
       <div class="kb-toolbar" role="search">
         <input type="search" class="kb-filter" placeholder={S.filter} aria-label={S.filter} data-kb-filter />
         <label class="kb-select"><span class="visually-hidden">{S.period}</span>

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mazid-1": {
+      "prompt": "Apa yang ditambahkan untuk membentuk fi'il kedua?",
+      "options": [
+        "Hamzah di awal",
+        "'Ain fi'il yang ditasydid",
+        "Ta' di awal",
+        "Tidak ada: wazannya sama"
+      ],
+      "explanation": "Akrama berwazan af'ala: hamzah ditambahkan sebelum huruf asli."
+    },
+    "mazid-2": {
+      "prompt": "Apa wazan mashdar bab fa''ala?",
+      "options": [
+        "taf'il",
+        "if'al",
+        "istif'al",
+        "mufa'alah"
+      ],
+      "explanation": "'Allama bermashdar ta'lim, berwazan taf'il; karena itu dinamai bab taf'il."
+    },
+    "mazid-3": {
+      "prompt": "Fi'il mana yang mazid?",
+      "options": [
+        "'allama",
+        "'alima",
+        "Keduanya",
+        "Tidak keduanya"
+      ],
+      "explanation": "'Allama mentasydid 'ain fi'il akarnya; 'alima mujarrad."
+    }
+  }
+}

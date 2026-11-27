@@ -1,0 +1,37 @@
+{
+  "slug": "idgham",
+  "name": "Merging (idghām)",
+  "arabic": "الإِدْغَامُ",
+  "transliteration": "al-idghām",
+  "alsoKnownAs": [
+    "idgham",
+    "idghām",
+    "assimilation",
+    "merging",
+    "tashdid"
+  ],
+  "category": "sound-weak",
+  "definition": "Joining two like letters into one doubled letter, the first silent and the second voweled; in ṣarf above all the doubled verb, whose second and third root letters are the same.",
+  "body": [
+    "In the doubled verb (muḍāʿaf) the underlying madada becomes madda: the first dāl loses its vowel and merges into the second. When the second letter must be silent, as in the jussive and the imperative, the merging can be undone (lam yamdud) or kept with a helping vowel (lam yamudda), and the books set out both usages.",
+    "The rules of idghām belong to ṣarf and to the recitation of the Qurʾān (tajwīd), where letters that are near in place of articulation also merge; al-Shāfiya ends with a long chapter on it."
+  ],
+  "examples": [
+    {
+      "arabic": "مَدَّ – يَمُدُّ",
+      "text": "madda, yamuddu: from m-d-d, the two dāls merged."
+    },
+    {
+      "arabic": "مَدَدَ ← مَدَّ",
+      "text": "The underlying madada becomes madda."
+    }
+  ],
+  "related": [
+    "mudaaf",
+    "ilal",
+    "ibdal"
+  ],
+  "books": [
+    "shafiya"
+  ]
+}

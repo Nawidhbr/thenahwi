@@ -1,0 +1,49 @@
+{
+  "slug": "ibn-al-sikkit",
+  "name": "Abū Yūsuf Yaʿqūb ibn Isḥāq ibn al-Sikkīt",
+  "known": "Ibn al-Sikkīt",
+  "arabic": "ابْنُ السِّكِّيتِ",
+  "died": "244/858",
+  "places": [
+    "Kufa",
+    "Baghdad",
+    "Samarra"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Kufan lexicographer and grammarian, author of Iṣlāḥ al-manṭiq, the book on the correct forms of words; tutor of al-Mutawakkil's sons, killed at the caliph's order.",
+  "bio": [
+    "Ibn al-Sikkīt learnt from al-Farrāʾ's circle and from the Bedouin, and al-Zubaydī counts him in the third generation of the Kufan lexicographers. His Iṣlāḥ al-manṭiq, 'the setting right of speech', lists words that people got wrong, by their patterns, and was so esteemed that a later scholar said no book of its kind had crossed the bridge of Baghdad.",
+    "He taught the sons of the caliph al-Mutawakkil in Samarra. The story of his death is told in several sources: the caliph asked him whether his own sons were dearer to him or al-Ḥasan and al-Ḥusayn, and he answered that Qanbar, ʿAlī's servant, was better than the two princes; al-Mutawakkil had him killed. He died in 244/858."
+  ],
+  "works": [
+    {
+      "title": "Iṣlāḥ al-manṭiq",
+      "arabic": "إِصْلَاحُ المَنْطِق",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "The details of his death differ between the sources; some doubt the story."
+  ],
+  "books": [],
+  "school": "kufa",
+  "tabaqa": {
+    "list": "kufa-lugha",
+    "n": 3,
+    "entry": 124
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 124 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "İbnü's-Sikkît, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibnus-sikkit"
+    }
+  ]
+}

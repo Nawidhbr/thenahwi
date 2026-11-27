@@ -1,0 +1,61 @@
+{
+  "slug": "khalid-al-azhari",
+  "name": "Zayn al-Dīn Khālid ibn ʿAbd Allāh ibn Abī Bakr al-Jirjāwī al-Azharī",
+  "known": "Khālid al-Azharī",
+  "arabic": "خَالِدٌ الأَزْهَرِيُّ",
+  "died": "905/1499",
+  "places": [
+    "Jirjā (Upper Egypt)",
+    "Cairo"
+  ],
+  "roles": [
+    "commentator",
+    "author",
+    "teacher"
+  ],
+  "summary": "The lamp-lighter of al-Azhar who became its grammarian: author of al-Taṣrīḥ on Ibn Hishām's Awḍaḥ al-masālik, a commentary on al-Ājurrūmiyya and the beginners' books of iʿrāb.",
+  "bio": [
+    "Khālid was born in Jirjā in Upper Egypt in 838/1434 and grew up in Cairo. The biographers tell that he served as a lamp-lighter in al-Azhar, and that one night a wick fell from his hand onto a student's notes; the student called him ignorant, and he set himself to learn, beginning, by these reports, at thirty-six. He became one of the best-known teachers of grammar of the mosque, and died on his way back from the pilgrimage in 905/1499.",
+    "His al-Taṣrīḥ bi-maḍmūn al-Tawḍīḥ comments on Ibn Hishām's Awḍaḥ al-masālik, itself a commentary on the Alfiyya, and became a standard book of the Azhar. For beginners he wrote a commentary on al-Ājurrūmiyya, al-Muqaddima al-Azhariyya with its commentary, Mūṣil al-ṭullāb on Ibn Hishām's rules of iʿrāb, and Tamrīn al-ṭullāb, the iʿrāb of the Alfiyya verse by verse."
+  ],
+  "works": [
+    {
+      "title": "al-Taṣrīḥ bi-maḍmūn al-Tawḍīḥ",
+      "arabic": "التَّصْرِيحُ بِمَضْمُونِ التَّوْضِيح",
+      "kind": "sharh",
+      "on": "alfiyya"
+    },
+    {
+      "title": "Sharḥ al-Ājurrūmiyya",
+      "arabic": "شَرْحُ الآجُرُّومِيَّة",
+      "kind": "sharh",
+      "on": "ajurrumiyya"
+    },
+    {
+      "title": "al-Muqaddima al-Azhariyya",
+      "arabic": "المُقَدِّمَةُ الأَزْهَرِيَّة",
+      "kind": "matn"
+    },
+    {
+      "title": "Tamrīn al-ṭullāb",
+      "arabic": "تَمْرِينُ الطُّلَّاب",
+      "kind": "other",
+      "on": "alfiyya"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "The age at which he began to study is given only by later biographers."
+  ],
+  "books": [
+    "alfiyya",
+    "ajurrumiyya"
+  ],
+  "school": "egypt-sham",
+  "sources": [
+    {
+      "title": "Hâlid el-Ezherî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/halid-el-ezheri"
+    }
+  ]
+}

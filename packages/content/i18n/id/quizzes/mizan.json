@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mizan-1": {
+      "prompt": "Apa wazan fi'il ini?",
+      "options": [
+        "fa'ala",
+        "fa'ila",
+        "af'ala",
+        "fa'ala [dengan alif]"
+      ],
+      "explanation": "Nashara berharakat fathah pada ketiga huruf aslinya: fa'ala."
+    },
+    "mizan-2": {
+      "prompt": "Dalam wazan fa'ala, 'ain mewakili apa?",
+      "options": [
+        "Huruf asli kedua",
+        "Huruf asli pertama",
+        "Huruf asli ketiga",
+        "Huruf tambahan"
+      ],
+      "explanation": "Fa', 'ain dan lam mewakili huruf asli pertama, kedua dan ketiga."
+    },
+    "mizan-3": {
+      "prompt": "Apa wazan fi'il ini?",
+      "options": [
+        "istaf'ala",
+        "if'alla",
+        "tafa''ala",
+        "infa'ala"
+      ],
+      "explanation": "Akarnya gh-f-r; alif, sin dan ta' sebelumnya adalah tambahan: istaf'ala."
+    }
+  }
+}

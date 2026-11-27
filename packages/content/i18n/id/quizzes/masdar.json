@@ -1,0 +1,34 @@
+{
+  "items": {
+    "masdar-1": {
+      "prompt": "Apa mashdar dari fi'il ini?",
+      "options": [
+        "إِكْرَامٌ",
+        "تَكْرِيمٌ",
+        "مُكْرِمٌ",
+        "كَرَامَةٌ"
+      ],
+      "explanation": "Wazan af'ala mashdarnya berwazan if'al: ikram. Takrim milik karrama, dan mukrim adalah isim fa'il."
+    },
+    "masdar-2": {
+      "prompt": "Apa yang dinamai mashdar?",
+      "options": [
+        "Perbuatan itu sendiri, tanpa waktu",
+        "Orang yang melakukan perbuatan",
+        "Orang yang dikenai perbuatan",
+        "Tempat perbuatan"
+      ],
+      "explanation": "Mashdar menamai perbuatan: nashr, menolong."
+    },
+    "masdar-3": {
+      "prompt": "Bagaimana mashdar fi'il tsulatsi mujarrad diketahui?",
+      "options": [
+        "Dengan sima' (mendengar dari orang Arab): ia datang dalam banyak wazan",
+        "Dengan satu kaidah tetap",
+        "Selalu berwazan fa'l",
+        "Ia tidak punya mashdar"
+      ],
+      "explanation": "Nashr, 'ilm, dukhul, kitabah: mashdar fi'il mujarrad dipelajari dari pemakaian."
+    }
+  }
+}

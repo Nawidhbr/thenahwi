@@ -1,0 +1,34 @@
+{
+  "slug": "hadd",
+  "name": "Definition (ḥadd)",
+  "arabic": "الحَدُّ",
+  "transliteration": "al-ḥadd",
+  "alsoKnownAs": [
+    "hadd",
+    "ḥadd",
+    "hudud",
+    "ḥudūd",
+    "taʿrif",
+    "definition",
+    "jami mani"
+  ],
+  "category": "jargon",
+  "definition": "A definition of a term of grammar that takes in everything it names and keeps out everything else (jāmiʿ māniʿ), in the way of the logicians.",
+  "body": [
+    "Handbooks open their chapters with a ḥadd, and the commentaries test it word by word: each word is a 'genus' (jins) or a 'difference' (faṣl) that excludes something, and the commentator asks what it keeps out. Al-Ājurrūmiyya's first line is the classic case: 'speech is the utterance, composed, useful, by convention', and its commentators explain why each of the four words is there. Al-Rummānī's Kitāb al-Ḥudūd collects the definitions of grammar."
+  ],
+  "examples": [
+    {
+      "arabic": "الكَلَامُ هُوَ اللَّفْظُ المُرَكَّبُ المُفِيدُ بِالوَضْعِ",
+      "text": "Al-Ājurrūmiyya's definition of speech: utterance, composed, useful, by convention; each word keeps something out."
+    }
+  ],
+  "related": [
+    "kalam",
+    "fihi-nazar"
+  ],
+  "books": [
+    "ajurrumiyya",
+    "kafiya"
+  ]
+}

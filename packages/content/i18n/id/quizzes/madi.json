@@ -1,0 +1,34 @@
+{
+  "items": {
+    "madi-1": {
+      "prompt": "Bentuk mana yang fi'il madhi?",
+      "options": [
+        "nashara",
+        "yanshuru",
+        "unshur",
+        "Tidak satu pun"
+      ],
+      "explanation": "Nashara adalah madhi; yanshuru mudhari' dan unshur amar."
+    },
+    "madi-2": {
+      "prompt": "Apa arti bentuk ini?",
+      "options": [
+        "mereka (laki-laki) telah menolong",
+        "kami telah menolong",
+        "dia sedang menolong",
+        "tolonglah! (kepada laki-laki banyak)"
+      ],
+      "explanation": "Wawu jamak bersama bentuk madhi: nasharu, mereka telah menolong."
+    },
+    "madi-3": {
+      "prompt": "Bagaimana nahwu menggolongkan fi'il madhi?",
+      "options": [
+        "Mabni: akhirnya tidak berubah mengikuti kalimat",
+        "Mu'rab: marfu', manshub atau majzum",
+        "Majrur sesudah huruf jar",
+        "Sebagai isim"
+      ],
+      "explanation": "Fi'il madhi itu mabni; di antara fi'il hanya mudhari' yang mu'rab."
+    }
+  }
+}

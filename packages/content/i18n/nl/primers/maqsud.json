@@ -1,0 +1,3593 @@
+{
+ "parts": {
+  "verbs-and-babs": "De werkwoorden en hun babs",
+  "derived-forms": "De vormen die van de masdar zijn afgeleid",
+  "sound-conjugation": "De vervoeging van de gave werkwoorden",
+  "useful-points": "Nuttige punten",
+  "weak-verbs": "De zwakke, verdubbelde en mahmuz-werkwoorden"
+ },
+ "lessons": {
+  "1": {
+   "title": "Waarom tasrif; het kale drieletterige werkwoord",
+   "body": [
+    "De Maqsud opent met lof aan God en zegeningen over de Profeet in rijmproza (al-sawab, al-adhnab, al-thawab, al-ashab), en noemt dan zijn doel in één zin: “het Arabisch is een middel tot de wetenschappen van de shari'a, en een van zijn pijlers is de tasrif, omdat daardoor de weinige werkwoorden veel worden.” Uit één wortel maakt de sarf tientallen vormen; de student die de regels kent, kan ze allemaal lezen en maken.",
+    "De werkwoorden zijn van twee soorten: oorspronkelijk (asli), met alleen stamletters, en met toevoeging (dhu ziyada). Het oorspronkelijke werkwoord is drieletterig of vierletterig. Het drieletterige werkwoord, “waarvan de madi drie letters heeft”, heeft zes babs, en het boek geeft elk naar de klinker van zijn 'ayn: fa'ala yaf'ulu, met een fatha in de madi en een damma in de mudari' (al-ghabir); fa'ala yaf'ilu, fatha en kasra; fa'ala yaf'alu, fatha in beide.",
+    "De werkwijze van de Maqsud is kort en gaat uit van regels: het noemt het patroon en de klinkers, niet voor elk een modelwerkwoord. De student die de Bina gelezen heeft, kent de modellen al (nasara, daraba, fataha); de Maqsud verwacht dat hij ze zelf aanvult. Zijn titel, “het doel”, is die van een boek dat snel wil bereiken wat nodig is.",
+    "De toeschrijving aan Abu Hanifa, de stichter van de Hanafitische school, is de overlevering van de madrasa; veel geleerden betwijfelen haar, en het boek zelf noemt in onze druk zijn auteur niet. Zeker is zijn plaats: in de Ottomaanse madrasa is het het derde boek van de sarf, na de Amthila en de Bina."
+   ],
+   "terms": [
+    "vervoeging: veel vormen maken uit één wortel",
+    "het oorspronkelijke werkwoord: alleen stamletters",
+    "het werkwoord met toegevoegde letters",
+    "de mudari' (een oudere naam)"
+   ],
+   "examples": [
+    "“het Arabisch is een middel tot de wetenschappen van de shari'a”",
+    "“omdat daardoor de weinige werkwoorden veel worden”: het nut van de tasrif",
+    "de eerste drie babs: fatha in de madi, en u, i, a in de mudari'"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de reden die de Maqsud geeft om de tasrif te bestuderen, en leg haar uit met nasara.",
+     "answer": "De tasrif is een pijler van het Arabisch, het middel tot de wetenschappen van de shari'a, omdat daardoor de weinige werkwoorden veel worden. Uit nasara komen yansuru, nasr, nasir, mansur, unsur, lam yansur en de rest: één wortel, veel vormen."
+    },
+    {
+     "prompt": "Vul voor elk van de eerste drie babs een modelwerkwoord aan.",
+     "answer": "Fa'ala yaf'ulu: nasara yansuru. Fa'ala yaf'ilu: daraba yadribu. Fa'ala yaf'alu: fataha yaftahu."
+    },
+    {
+     "prompt": "Wat is het verschil tussen een oorspronkelijk werkwoord en een werkwoord met toevoeging? Geef van elk een voorbeeld.",
+     "answer": "Een oorspronkelijk werkwoord heeft alleen stamletters (nasara, dahraja). Een werkwoord met toevoeging heeft letters die aan de wortel zijn toegevoegd (akrama, istakhraja)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarom is de tasrif volgens de Maqsud een pijler van het Arabisch?",
+     "options": [
+      "Ze leert de uitgangen",
+      "Door haar worden de weinige werkwoorden veel",
+      "Ze verklaart de Koran",
+      "Ze is de oudste wetenschap"
+     ],
+     "explanation": "Eén wortel levert veel vormen op."
+    },
+    {
+     "prompt": "In welke twee soorten verdeelt het boek de werkwoorden?",
+     "options": [
+      "Madi en mudari'",
+      "Gaaf en zwak",
+      "Oorspronkelijk en met toevoeging",
+      "Overgankelijk en onovergankelijk"
+     ],
+     "explanation": "Het boek verdeelt de werkwoorden in de asli, gemaakt van alleen stamletters, en de dhu ziyada, die letters aan de wortel toegevoegd heeft."
+    },
+    {
+     "prompt": "Hoeveel babs heeft het kale drieletterige werkwoord?",
+     "options": [
+      "Drie",
+      "Veertien",
+      "Eén",
+      "Zes"
+     ],
+     "explanation": "Naar de klinkers van de 'ayn in madi en mudari'."
+    },
+    {
+     "prompt": "Fa'ala yaf'ilu heeft…",
+     "options": [
+      "fatha in de madi, kasra in de mudari'",
+      "kasra in beide",
+      "fatha in beide",
+      "damma in beide"
+     ],
+     "explanation": "Zijn model in de Bina is daraba yadribu."
+    },
+    {
+     "prompt": "Aan wie wordt de Maqsud volgens de overlevering toegeschreven?",
+     "options": [
+      "Ibn Malik",
+      "Abu Hanifa",
+      "al-Birgivi",
+      "Sibawayh"
+     ],
+     "explanation": "Een overgeleverde toeschrijving waaraan veel geleerden twijfelen."
+    },
+    {
+     "prompt": "Waar staat de Maqsud in de Ottomaanse madrasa?",
+     "options": [
+      "Als allereerste",
+      "Na de Kafiya",
+      "Na de Amthila en de Bina, voor al-'Izzi",
+      "Na de Alfiyya"
+     ],
+     "explanation": "Het is het derde boek van de sarf: na de tabellen van de Amthila en de patronen van de Bina, en voor al-'Izzi."
+    },
+    {
+     "prompt": "Wat betekent al-ghabir in het boek?",
+     "options": [
+      "De madi",
+      "De masdar",
+      "De gebiedende wijs",
+      "De mudari'"
+     ],
+     "explanation": "Een oudere naam voor de mudari'."
+    }
+   ],
+   "diagram": {
+    "labels": {
+     "The verbs": "De werkwoorden",
+     "Original (aṣlī)": "Oorspronkelijk (asli)",
+     "three-letter: 6 bābs": "drieletterig: 6 babs",
+     "four-letter: 1 bāb": "vierletterig: 1 bab",
+     "With addition": "Met toevoeging",
+     "on the three-letter: 14": "op het drieletterige: 14",
+     "on the four-letter: 3": "op het vierletterige: 3"
+    }
+   }
+  },
+  "2": {
+   "title": "De andere drie babs; het vierletterige werkwoord",
+   "body": [
+    "De vierde bab is fa'ila yaf'alu, kasra in de madi en fatha in de mudari'; de vijfde fa'ula yaf'ulu, damma in beide; de zesde fa'ila yaf'ilu, kasra in beide. Met de drie van de vorige les vormen ze de zes babs van het kale werkwoord.",
+    "Dan de voorwaarde van de derde bab, die ook de Bina gaf: “wat bij de derde bab hoort, heeft als 'ayn of als lam een van de keelletters”, ha' (de zware h), kha', 'ayn, ghayn, ha' (de lichte h) en hamza. De Maqsud voegt de uitzondering toe die de Bina weglaat: aba ya'ba, “weigeren”, dat van deze bab is zonder keelletter (zijn alif en zijn ya' zijn zwak, geen keelletters), “en het is onregelmatig” (shadhdh).",
+    "Het vierletterige werkwoord, “waarvan de madi vier letters heeft”, heeft één bab, fa'lala. “En het kunnen zes babs zijn, die aangehecht aan het vierletterige werkwoord heten”: faw'ala (hawqala), fa'wala (jahwara), fay'ala (baytara), fa'yala ('athyara), fa'la [met alif] (salqa) en fa'lala (jalbaba). Dit zijn de zes van de Bina, in een andere volgorde; de Maqsud telt ze onder het vierletterige werkwoord in plaats van als eigen babs.",
+    "Het woord shadhdh, “onregelmatig”, is het waard nu te leren. Een regel in de sarf geldt voor wat de Arabieren zeiden; als een woord ertegen ingaat, leggen de boeken het vast als shadhdh, bewaren het, en maken geen andere woorden naar zijn model."
+   ],
+   "terms": [
+    "de vierde, vijfde en zesde bab",
+    "de zes keelletters",
+    "onregelmatig: tegen de regel, bewaard maar niet nagevolgd",
+    "aangehecht aan het vierletterige werkwoord"
+   ],
+   "examples": [
+    "aba ya'ba, “weigeren”: van de derde bab zonder keelletter, onregelmatig",
+    "de zes die aan het vierletterige werkwoord zijn aangehecht, in de volgorde van de Maqsud"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de bab van elk: sami'a yasma'u; karuma yakrumu; hasiba yahsibu; fataha yaftahu.",
+     "answer": "Sami'a yasma'u: de vierde (fa'ila yaf'alu). Karuma yakrumu: de vijfde (fa'ula yaf'ulu). Hasiba yahsibu: de zesde (fa'ila yaf'ilu). Fataha yaftahu: de derde (fa'ala yaf'alu)."
+    },
+    {
+     "prompt": "Waarom noemt de Maqsud aba ya'ba onregelmatig?",
+     "answer": "Het is van de derde bab (fatha in madi en mudari'), waarvan de werkwoorden een keelletter als 'ayn of lam hebben; aba heeft er geen (zijn ba' is geen keelletter, en zijn alif en ya' zijn zwakke letters). Het gaat dus tegen de regel in en wordt vastgelegd als shadhdh."
+    },
+    {
+     "prompt": "Noem de zes die aan het vierletterige werkwoord zijn aangehecht, met hun modellen.",
+     "answer": "Faw'ala (hawqala), fa'wala (jahwara), fay'ala (baytara), fa'yala ('athyara), fa'la [met alif] (salqa), fa'lala (jalbaba)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welke bab heeft een damma in zowel madi als mudari'?",
+     "options": [
+      "Fa'ala yaf'ulu",
+      "Fa'ila yaf'alu",
+      "Fa'ula yaf'ulu",
+      "Fa'ila yaf'ilu"
+     ],
+     "explanation": "Fa'ula yaf'ulu, zoals karuma yakrumu, heeft een damma in beide; het is de vijfde van de zes babs."
+    },
+    {
+     "prompt": "Welke uitzondering op de regel van de derde bab geeft de Maqsud?",
+     "options": [
+      "Dakhala yadkhulu",
+      "Dhahaba yadhhabu",
+      "Fataha yaftahu",
+      "Aba ya'ba"
+     ],
+     "explanation": "Van die bab zonder keelletter: shadhdh."
+    },
+    {
+     "prompt": "Wat betekent shadhdh?",
+     "options": [
+      "Onregelmatig: tegen de regel, bewaard maar niet nagevolgd",
+      "Zwak",
+      "Verdubbeld",
+      "Zeer gewoon"
+     ],
+     "explanation": "De boeken bewaren zulke woorden maar maken er geen andere naar."
+    },
+    {
+     "prompt": "Hoeveel babs heeft het vierletterige werkwoord in de Maqsud?",
+     "options": [
+      "Zes",
+      "Eén, en zes eraan aangehecht",
+      "Drie",
+      "Veertien"
+     ],
+     "explanation": "Fa'lala, met zes aangehechte."
+    },
+    {
+     "prompt": "Welke is aangehecht aan het vierletterige werkwoord?",
+     "options": [
+      "Dahraja",
+      "Akrama",
+      "Jalbaba",
+      "Tadahraja"
+     ],
+     "explanation": "Drieletterige wortel j-l-b met de lam herhaald."
+    },
+    {
+     "prompt": "Fa'ila yaf'ilu heeft…",
+     "options": [
+      "kasra, dan fatha",
+      "fatha in beide",
+      "damma in beide",
+      "kasra in beide"
+     ],
+     "explanation": "De zesde bab (hasiba yahsibu)."
+    },
+    {
+     "prompt": "Welke is geen keelletter?",
+     "options": [
+      "Qaf",
+      "Ha' (de zware h)",
+      "Ghayn",
+      "Hamza"
+     ],
+     "explanation": "De zes: h, kh, ', gh, h, '."
+    }
+   ],
+   "diagram": {
+    "caption": "De zes babs van het kale drieletterige werkwoord, zoals de Maqsud ze geeft",
+    "labels": {
+     "Bāb": "Bab",
+     "Past ʿayn": "'Ayn in de madi",
+     "Present ʿayn": "'Ayn in de mudari'",
+     "fatḥa": "fatha",
+     "ḍamma": "damma",
+     "kasra": "kasra"
+    }
+   }
+  },
+  "3": {
+   "title": "De vermeerderde werkwoorden geteld naar hun letters",
+   "body": [
+    "Het vermeerderde werkwoord is van twee soorten: toegevoegd aan het drieletterige werkwoord, en toegevoegd aan het vierletterige. De Maqsud telt veertien babs voor het eerste en drie voor het tweede, en deelt ze in naar het aantal letters van de madi: vierletterig (ruba'i), vijfletterig (khumasi) en zesletterig (sudasi).",
+    "Vier letters, drie babs: af'ala, fa''ala “met de 'ayn verdubbeld”, en fa'ala [met alif]. Vijf letters, vijf babs: infa'ala, ifta'ala, if'alla “met de lam verdubbeld”, tafa''ala en tafa'ala. Zes letters, zes babs: istaf'ala, if'aw'ala, if'awwala, if'anlala, if'anla [met alif] en if'alla [met alif]. En het vermeerderde vierletterige werkwoord heeft er drie: if'anlala, if'alalla en tafa'lala.",
+    "Vergelijk de Bina, die twaalf vermeerderde drieletterige babs telde naar het aantal toegevoegde letters. De Maqsud telt er veertien omdat hij if'anlala en if'anla [met alif] (iq'ansasa en islanqa), die de Bina aangehecht aan ihranjama noemde, onder de zesletterige vormen van het drieletterige werkwoord plaatst. Zo komt if'anlala twee keer in zijn lijst voor: één keer voor de drieletterige wortel (iq'ansasa) en één keer voor de vierletterige (ihranjama). Beide boeken beschrijven dezelfde werkwoorden; ze rangschikken ze anders.",
+    "Let ook op de woorden ruba'i, khumasi, sudasi hier: ze tellen de letters van de madi, niet van de wortel. Akrama is volgens deze telling “vierletterig”, hoewel zijn wortel drie letters heeft. Lees het woord in zijn verband: op de ene plaats betekent ruba'i een vierletterige wortel, op een andere een vierletterige madi."
+   ],
+   "terms": [
+    "vier-, vijf- en zesletterig (letters van de madi)",
+    "het vermeerderde drieletterige werkwoord: hier veertien babs",
+    "het vermeerderde vierletterige werkwoord: drie babs",
+    "met de 'ayn verdubbeld"
+   ],
+   "examples": [
+    "af'ala, fa''ala, fa'ala [met alif]: de vierletterige vermeerderde vormen",
+    "de zes zesletterige vormen van het drieletterige werkwoord",
+    "de drie vormen van het vermeerderde vierletterige werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Deel deze in naar het aantal letters van hun madi (vier, vijf, zes): istakhraja, akrama, inkasara, qatala [met alif], takallama, istaghfara.",
+     "answer": "Vier: akrama, qatala [met alif]. Vijf: inkasara, takallama. Zes: istakhraja, istaghfara. Tel de letters van de madi, niet van de wortel: alle zes hebben drieletterige wortels."
+    },
+    {
+     "prompt": "Waarom telt de Maqsud veertien vermeerderde drieletterige babs waar de Bina er twaalf telt?",
+     "answer": "Hij plaatst if'anlala (iq'ansasa) en if'anla [met alif] (islanqa) onder de zesletterige vormen van het drieletterige werkwoord; de Bina noemde ze vormen die aan ihranjama zijn aangehecht."
+    },
+    {
+     "prompt": "Akrama heet hier ruba'i. Heeft zijn wortel vier letters? Leg uit.",
+     "answer": "Nee. Zijn wortel heeft drie letters, k-r-m. Ruba'i telt hier bij de Maqsud de letters van de madi (a-k-r-m), niet de wortel."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel vermeerderde babs van het drieletterige werkwoord telt de Maqsud?",
+     "options": [
+      "Twaalf",
+      "Zes",
+      "Drie",
+      "Veertien"
+     ],
+     "explanation": "Drie van vier letters, vijf van vijf, zes van zes."
+    },
+    {
+     "prompt": "Waarnaar deelt hij ze in?",
+     "options": [
+      "Het aantal letters van de madi",
+      "Het aantal toegevoegde letters",
+      "Hun betekenis",
+      "Hun masdar"
+     ],
+     "explanation": "Ruba'i, khumasi, sudasi."
+    },
+    {
+     "prompt": "Welk van deze is khumasi (vijfletterig)?",
+     "options": [
+      "Fa'ala [met alif]",
+      "Tafa'ala",
+      "Istaf'ala",
+      "Af'ala"
+     ],
+     "explanation": "Ta-fa-'a-la: vijf letters."
+    },
+    {
+     "prompt": "Welke vorm komt twee keer voor in de lijsten van de Maqsud?",
+     "options": [
+      "Istaf'ala",
+      "Af'ala",
+      "If'anlala",
+      "Tafa''ala"
+     ],
+     "explanation": "Voor de drieletterige wortel (iq'ansasa) en de vierletterige (ihranjama)."
+    },
+    {
+     "prompt": "Hoeveel vermeerderde babs van het vierletterige werkwoord?",
+     "options": [
+      "Zes",
+      "Eén",
+      "Vijf",
+      "Drie"
+     ],
+     "explanation": "If'anlala, if'alalla, tafa'lala."
+    },
+    {
+     "prompt": "Hoeveel letters heeft istaf'ala in zijn madi?",
+     "options": [
+      "Zes",
+      "Vijf",
+      "Vier",
+      "Zeven"
+     ],
+     "explanation": "Tel de letters van de madi: i-s-t-f-'-l, zes. Istaf'ala is dus de eerste van de zesletterige babs."
+    },
+    {
+     "prompt": "Ruba'i telt in dit stuk…",
+     "options": [
+      "de stamletters",
+      "de letters van de madi",
+      "de toegevoegde letters",
+      "de klinkers"
+     ],
+     "explanation": "Dus akrama is hier ruba'i."
+    }
+   ],
+   "diagram": {
+    "labels": {
+     "The augmented verb": "Het vermeerderde werkwoord",
+     "On the three-letter: 14": "Op het drieletterige: 14",
+     "four-letter past: 3": "vierletterige madi: 3",
+     "five-letter past: 5": "vijfletterige madi: 5",
+     "six-letter past: 6": "zesletterige madi: 6",
+     "On the four-letter: 3": "Op het vierletterige: 3",
+     "three patterns": "drie patronen"
+    }
+   }
+  },
+  "4": {
+   "title": "De zes vormen; de masdar mimi en het naamwoord van plaats",
+   "body": [
+    "Het tweede deel noemt “de vormen die het meest van de masdar afgeleid moeten worden”: zes, de madi, de mudari', de gebiedende wijs, het verbod, het actief deelwoord en het passief deelwoord. De Maqsud neemt de masdar als de bron van het werkwoord, de opvatting van Basra, en bouwt alles daaruit op.",
+    "De masdar zelf is mimi of niet. Als hij niet mimi is, “is hij gehoord (sama'i)”: elke masdar wordt bewaard zoals de Arabieren hem zeiden, “want er is geen regel voor de masdar van het drieletterige werkwoord”; de masdar van werkwoorden met meer dan drie letters volgt regels (qiyasi). Dit is de reden waarom het vervoegingshulpmiddel de masdar van het kale werkwoord leeg laat.",
+    "Als hij mimi is, kijk dan naar de 'ayn van de mudari'. Heeft die een fatha of een damma, dan zijn de masdar mimi en het naamwoord van tijd en plaats maf'al, “met fatha op de mim en de 'ayn en sukun op de fa'”: van yansuru, mansar. Dan komen de beroemde uitzonderingen, met een kasra uitgesproken hoewel de regel een fatha wil: al-matli' (plaats van opkomst), al-mankhir (neusgat), al-masjid (moskee), al-mansik (plaats van de riten), al-mashriq (oosten), al-majzir (slachtplaats), al-maskin (woning), al-manbit (plaats van groei), al-mafriq (scheiding in het haar), al-masqit (plaats van vallen), al-majmi' (plaats van samenkomst).",
+    "De lijst wordt in de madrasa uit het hoofd geleerd, en ze verklaart woorden die de student al kent: masjid, “de plaats van de neerwerping”, van sajada yasjudu, zou volgens de regel masjad moeten zijn, maar de Arabieren zeiden masjid, en daarom leggen de boeken het vast onder de uitzonderingen."
+   ],
+   "terms": [
+    "de zes vormen die van de masdar zijn afgeleid",
+    "de masdar met een mim: maf'al",
+    "het naamwoord van tijd en plaats",
+    "geleerd door horen; gevormd volgens een regel"
+   ],
+   "examples": [
+    "de zes vormen die van de masdar zijn afgeleid",
+    "maf'al: de masdar mimi en het naamwoord van tijd en plaats als de mudari' een fatha of damma heeft",
+    "al-masjid, al-mashriq, al-maskin: uitzonderingen met kasra"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de zes vormen die de Maqsud van de masdar afleidt.",
+     "answer": "De madi, de mudari', de gebiedende wijs, het verbod, het actief deelwoord en het passief deelwoord."
+    },
+    {
+     "prompt": "Wat zou volgens de regel het naamwoord van plaats van sajada yasjudu zijn, en wat zeiden de Arabieren?",
+     "answer": "De mudari' heeft een damma op de 'ayn, dus de regel geeft maf'al, masjad. De Arabieren zeiden masjid, met een kasra, en het boek legt het vast onder de uitzonderingen."
+    },
+    {
+     "prompt": "Waarom is de masdar van het kale werkwoord sama'i, en die van akrama qiyasi?",
+     "answer": "Er is geen regel voor de masdar van het drieletterige werkwoord: elke wordt bewaard zoals de Arabieren hem zeiden. De masdar van werkwoorden met meer dan drie letters volgt zijn patroon: akrama, ikram."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waaruit leidt de Maqsud de zes vormen af?",
+     "options": [
+      "De masdar",
+      "De madi",
+      "Alleen de wortel",
+      "De gebiedende wijs"
+     ],
+     "explanation": "De opvatting van Basra: de masdar is de bron."
+    },
+    {
+     "prompt": "Welke is geen van de zes vormen?",
+     "options": [
+      "Het verbod",
+      "Het naamwoord van het werktuig",
+      "Het passief deelwoord",
+      "De mudari'"
+     ],
+     "explanation": "De zes: madi, mudari', gebiedende wijs, verbod, twee deelwoorden."
+    },
+    {
+     "prompt": "De masdar van het kale drieletterige werkwoord is…",
+     "options": [
+      "gevormd volgens een regel",
+      "altijd fa'l",
+      "gehoord (sama'i)",
+      "altijd maf'al"
+     ],
+     "explanation": "“Er is geen regel voor de masdar van het drieletterige werkwoord.”"
+    },
+    {
+     "prompt": "Als de mudari' een fatha of damma op de 'ayn heeft, is het naamwoord van plaats…",
+     "options": [
+      "maf'il",
+      "mif'al",
+      "maf'ul",
+      "maf'al"
+     ],
+     "explanation": "Met fatha op de mim en de 'ayn."
+    },
+    {
+     "prompt": "Welke is een uitzondering die met kasra wordt uitgesproken?",
+     "options": [
+      "Al-masjid",
+      "Al-mansar",
+      "Al-maktab",
+      "Al-madkhal"
+     ],
+     "explanation": "De regel zou masjad geven."
+    },
+    {
+     "prompt": "Wat betekent al-mashriq?",
+     "options": [
+      "De plaats van het drinken",
+      "De plaats van de zonsopgang, het oosten",
+      "Het westen",
+      "Een moskee"
+     ],
+     "explanation": "Van sharaqa yashruqu; de regel zou mashraq geven."
+    },
+    {
+     "prompt": "De masdar van werkwoorden met meer dan drie letters is…",
+     "options": [
+      "alleen gehoord",
+      "altijd mimi",
+      "gevormd volgens een regel (qiyasi)",
+      "niet gebruikt"
+     ],
+     "explanation": "Akrama, ikram; istakhraja, istikhraj."
+    }
+   ],
+   "diagram": {
+    "caption": "De uitzonderingen met kasra (al-Maqsud, p. 182)",
+    "labels": {
+     "Word": "Woord",
+     "Meaning": "Betekenis",
+     "place of rising": "plaats van opkomst",
+     "nostril": "neusgat",
+     "place of prostration, mosque": "plaats van neerwerping, moskee",
+     "place of rites": "plaats van de riten",
+     "place of sunrise, east": "plaats van de zonsopgang, oosten",
+     "place of slaughter": "slachtplaats",
+     "dwelling": "woning",
+     "place of growth": "plaats van groei",
+     "parting of the hair": "scheiding in het haar",
+     "place of falling": "plaats van vallen",
+     "place of gathering": "plaats van samenkomst"
+    }
+   }
+  },
+  "5": {
+   "title": "De mimi-vormen in de andere gevallen",
+   "body": [
+    "Als de 'ayn van de mudari' een kasra heeft, is de masdar mimi nog steeds maf'al, “behalve al-marji' en al-masir, die masdars zijn en met een kasra gekomen zijn”, maar het naamwoord van tijd en plaats krijgt een kasra: maf'il, zoals in majlis, “een plaats van zitten”, van yajlisu. “Dit geldt voor het gave, het holle, het verdubbelde en het mahmuz-werkwoord.”",
+    "De zwakke werkwoorden hebben eigen regels. Bij het gebrekkige werkwoord (naqis) zijn de masdar en het naamwoord van tijd en plaats maf'al “in alle babs”, wat de klinker van de mudari' ook is. Bij het werkwoord dat zwak is in zijn fa' (de mithal) zijn ze maf'il in alle babs. De verbonden lafif volgt het gebrekkige werkwoord, de gescheiden lafif volgt de mithal, omdat elk de zwakke letter volgt die aan zijn eind of zijn begin het zwaarst weegt.",
+    "Voor de werkwoorden met meer dan drie letters is de regel kort en volledig: de masdar mimi, het naamwoord van tijd en plaats en het passief deelwoord staan alle op het patroon van de passieve mudari' van die bab, met het voorvoegsel vervangen door een mim met damma; het actief deelwoord is hetzelfde met een kasra op de 'ayn. Van yukramu komt mukram, “geëerd” en ook “een plaats of tijd van eren”; van yukrimu, mukrim, “wie eert”.",
+    "Eén vorm kan bij de vermeerderde werkwoorden dus vier dingen betekenen: mustakhraj is “gewonnen”, “een plaats van winnen”, “een tijd van winnen” en “het winnen”. De zin beslist. Het vervoegingshulpmiddel geeft het passief deelwoord (ismMaful) van elk vermeerderd patroon, en volgens deze regel is het ook de andere drie."
+   ],
+   "terms": [
+    "het naamwoord van tijd en plaats als de mudari' een kasra heeft",
+    "twee masdars mimi die met kasra worden uitgesproken",
+    "op het patroon van de passieve mudari', met mu-"
+   ],
+   "examples": [
+    "al-marji', “de terugkeer”, en al-masir, “de afloop”: masdars met kasra",
+    "mukram, passief deelwoord, masdar mimi en naamwoord van tijd en plaats; mukrim, actief deelwoord",
+    "mustakhraj: gewonnen; een plaats, een tijd, of het winnen zelf"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het passief deelwoord van akrama, istakhraja en akhraja (uit het vervoegingshulpmiddel), en de andere betekenissen die elk volgens de regel van de Maqsud heeft.",
+     "answer": "Mukram, mustakhraj, mukhraj. Elk is ook de masdar mimi en het naamwoord van tijd en plaats van zijn werkwoord (mukhraj: “naar buiten gebracht”, “een uitweg”, “een tijd van naar buiten brengen”, “het naar buiten brengen”)."
+    },
+    {
+     "prompt": "Wat is het naamwoord van plaats van yajlisu, en waarom?",
+     "answer": "Majlis: de mudari' heeft een kasra op de 'ayn, dus het naamwoord van tijd en plaats is maf'il."
+    },
+    {
+     "prompt": "Welk patroon nemen het gebrekkige werkwoord en de mithal voor het naamwoord van plaats, wat hun bab ook is?",
+     "answer": "Het gebrekkige werkwoord (en de verbonden lafif): maf'al in alle babs. De mithal (en de gescheiden lafif): maf'il in alle babs."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Als de mudari' een kasra heeft, is het naamwoord van tijd en plaats…",
+     "options": [
+      "maf'al",
+      "maf'il",
+      "muf'al",
+      "mif'al"
+     ],
+     "explanation": "Een mudari' met kasra op de 'ayn geeft maf'il voor tijd en plaats: yajlisu, dus majlis, een plaats van zitten."
+    },
+    {
+     "prompt": "Welke twee masdars mimi worden met kasra uitgesproken?",
+     "options": [
+      "Al-masjid en al-mashriq",
+      "Al-mansar en al-madkhal",
+      "Al-marji' en al-masir",
+      "Al-majlis en al-maskin"
+     ],
+     "explanation": "Volgens de regel zouden ze maf'al zijn; het boek noemt al-marji' en al-masir als masdars die met kasra gekomen zijn."
+    },
+    {
+     "prompt": "Bij het gebrekkige werkwoord (naqis) is het naamwoord van plaats…",
+     "options": [
+      "maf'il in alle babs",
+      "zoals bij het gave werkwoord",
+      "muf'al",
+      "maf'al in alle babs"
+     ],
+     "explanation": "Wat de klinker van de mudari' ook is."
+    },
+    {
+     "prompt": "De gescheiden lafif volgt…",
+     "options": [
+      "de mithal",
+      "het gebrekkige werkwoord",
+      "het gave werkwoord",
+      "het verdubbelde"
+     ],
+     "explanation": "De gescheiden lafif, zoals waqa, volgt het werkwoord dat zwak is in zijn fa': maf'il, met kasra, in alle babs."
+    },
+    {
+     "prompt": "Bij werkwoorden met meer dan drie letters staat het naamwoord van plaats op het patroon van…",
+     "options": [
+      "de madi",
+      "de passieve mudari' met mu- voor het voorvoegsel",
+      "het actief deelwoord",
+      "de masdar"
+     ],
+     "explanation": "Neem de passieve mudari' en zet een mim met damma in plaats van zijn voorvoegsel: yukramu geeft mukram."
+    },
+    {
+     "prompt": "Mukrim (met kasra) is…",
+     "options": [
+      "het passief deelwoord",
+      "het naamwoord van plaats",
+      "het actief deelwoord",
+      "de masdar mimi"
+     ],
+     "explanation": "Het actief deelwoord heeft een kasra op de 'ayn."
+    },
+    {
+     "prompt": "Hoeveel betekenissen kan mustakhraj volgens deze regel hebben?",
+     "options": [
+      "Eén",
+      "Twee",
+      "Zes",
+      "Vier"
+     ],
+     "explanation": "Passief deelwoord, masdar mimi, naamwoord van tijd, naamwoord van plaats."
+    }
+   ],
+   "diagram": {
+    "caption": "Het patroon van de masdar mimi en het naamwoord van tijd en plaats",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Maṣdar mīmī": "Masdar mimi",
+     "Time and place": "Tijd en plaats",
+     "sound, present with u or a": "gaaf, mudari' met u of a",
+     "sound, present with i": "gaaf, mudari' met i",
+     "defective (nāqiṣ), joined lafīf": "gebrekkig (naqis), verbonden lafif",
+     "mithāl, separated lafīf": "mithal, gescheiden lafif",
+     "above three letters": "meer dan drie letters"
+    }
+   }
+  },
+  "6": {
+   "title": "De madi; de hamza van verbinding",
+   "body": [
+    "De madi is actief (ma'ruf) of passief (majhul). In het actief ligt zijn laatste letter “vast op de fatha in het enkelvoud en het tweevoud, mannelijk of vrouwelijk” (nasara, nasara [met alif], nasarat, nasarata), “met damma in het meervoud van de afwezige mannen” (nasaru), “en met sukun in de rest” (nasarna, nasartu …). Dit is de regel die de Ajurrumiyya vereenvoudigde tot “altijd met fatha”. En zijn eerste letter heeft een fatha in alle babs, behalve de vijf- en zesletterige die met een hamza van verbinding beginnen.",
+    "De hamza van verbinding (hamzat al-wasl) “staat aan het begin en valt weg in het doorlopende spreken”. Het boek somt haar op: de hamza van ibn (zoon), ibnum, ibna (dochter), imru' (man), imra'a (vrouw), ithnan en ithnatan (twee), ism (naam), ist (achterste), ayman (in de eed ayman allahi), de hamza van de madi, de masdar en de gebiedende wijs van de vijf- en zesletterige werkwoorden, van de gebiedende wijs van het kale werkwoord, en de hamza die aan het lidwoord al- vastzit.",
+    "Haar klinker aan het begin is een kasra (ibn, inkasara, istakhraja), met drie uitzonderingen: de hamza van het lidwoord en van ayman hebben een fatha (al-, ayman); de hamza van de gebiedende wijs van een werkwoord waarvan de mudari' een damma op de 'ayn heeft, neemt een damma om die te volgen (unsur); en de hamza van de passieve madi van de vijf- en zesletterige werkwoorden neemt een damma.",
+    "Een beginner leest elke alif aan het begin van een woord als een hamza die uitgesproken moet worden. De madrasa oefent het oor: in wa-stakhraja, fa-nkasara, bi-smi llahi wordt de hamza als alif geschreven en niet uitgesproken, omdat er iets voor staat."
+   ],
+   "terms": [
+    "actief en passief",
+    "de hamza van verbinding: uitgesproken aan het begin, weggevallen in het doorlopende spreken",
+    "doorlopend spreken",
+    "het begin van het spreken"
+   ],
+   "examples": [
+    "fatha in het enkelvoud, damma voor de waw van de mannen, sukun voor de voornaamwoorden met klinker",
+    "naamwoorden die met een hamza van verbinding beginnen",
+    "de hamza van verbinding in de madi van de vijf- en zesletterige werkwoorden, kasra aan het begin"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de uitgang van de laatste stamletter in elk, volgens de regel van de Maqsud: nasarat; nasaru; nasartum; nasara [met alif].",
+     "answer": "Nasarat: fatha (enkelvoud). Nasaru: damma (meervoud van de afwezige mannen). Nasartum: sukun (de rest). Nasara [met alif]: fatha (tweevoud)."
+    },
+    {
+     "prompt": "Met welke klinker begint elk aan het begin van het spreken: ism; unsur; al-kitab; istaghfara?",
+     "answer": "Ism: kasra. Unsur: damma (de mudari' yansuru heeft een damma op de 'ayn). Al-kitab: fatha (het lidwoord). Istaghfara: kasra."
+    },
+    {
+     "prompt": "Waarom is in fa-nkasara en bi-smi llahi geen hamza te horen?",
+     "answer": "De hamza van verbinding wordt alleen aan het begin van het spreken uitgesproken; hier staan fa- en bi- ervoor, dus valt ze weg in het doorlopende spreken, al blijft de alif in het schrift staan (in bi-smi wordt ze ook niet geschreven)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In de actieve madi heeft de laatste letter een damma in…",
+     "options": [
+      "het enkelvoud",
+      "het tweevoud",
+      "het meervoud van de afwezige mannen",
+      "de spreker"
+     ],
+     "explanation": "In het meervoud van de afwezige mannen krijgt de laatste letter een damma voor de waw: nasaru."
+    },
+    {
+     "prompt": "In nasartu heeft de ra'…",
+     "options": [
+      "een fatha",
+      "een damma",
+      "een kasra",
+      "een sukun"
+     ],
+     "explanation": "De laatste letter heeft een fatha in het enkelvoud en tweevoud, een damma in het meervoud van de mannen, en een sukun in de rest: nasartu."
+    },
+    {
+     "prompt": "Wat doet de hamza van verbinding in het doorlopende spreken?",
+     "options": [
+      "Ze valt weg",
+      "Ze wordt met kasra uitgesproken",
+      "Ze wordt met fatha uitgesproken",
+      "Ze verdubbelt"
+     ],
+     "explanation": "Ze staat alleen aan het begin."
+    },
+    {
+     "prompt": "Welk woord begint met een hamza van verbinding?",
+     "options": [
+      "Akrama",
+      "Ibn",
+      "Ahmad",
+      "Amr"
+     ],
+     "explanation": "Ibn begint met een hamza van verbinding: die wordt uitgesproken als het woord het spreken begint, en valt in het midden weg."
+    },
+    {
+     "prompt": "De hamza van het lidwoord al- heeft aan het begin…",
+     "options": [
+      "een kasra",
+      "een damma",
+      "een fatha",
+      "geen klinker"
+     ],
+     "explanation": "Met de hamza van ayman de uitzonderingen met fatha."
+    },
+    {
+     "prompt": "Waarom begint unsur met een damma?",
+     "options": [
+      "Omdat het passief is",
+      "Vanwege het lidwoord",
+      "Dat doet het niet",
+      "Om de damma van de 'ayn van yansuru te volgen"
+     ],
+     "explanation": "Anders heeft de hamza van de gebiedende wijs een kasra."
+    },
+    {
+     "prompt": "De eerste letter van de actieve madi heeft in alle babs een fatha, behalve…",
+     "options": [
+      "de vijf- en zesletterige met een hamza van verbinding",
+      "de vierletterige",
+      "het kale werkwoord",
+      "het passief"
+     ],
+     "explanation": "Hun madi begint met die hamza."
+    }
+   ],
+   "diagram": {
+    "caption": "De klinker van de hamza van verbinding aan het begin van het spreken",
+    "labels": {
+     "Where": "Waar",
+     "Vowel": "Klinker",
+     "Example": "Voorbeeld",
+     "nouns (ibn, ism …)": "naamwoorden (ibn, ism …)",
+     "kasra": "kasra",
+     "past and maṣdar of five- and six-letter verbs": "madi en masdar van vijf- en zesletterige werkwoorden",
+     "imperative, present with i or a": "gebiedende wijs, mudari' met i of a",
+     "imperative, present with u": "gebiedende wijs, mudari' met u",
+     "ḍamma": "damma",
+     "the article; ayman": "het lidwoord; ayman",
+     "fatḥa": "fatha",
+     "passive past of five- and six-letter verbs": "passieve madi van vijf- en zesletterige werkwoorden"
+    }
+   }
+  },
+  "7": {
+   "title": "De passieve madi; de mudari'",
+   "body": [
+    "De passieve madi in één zin: “zijn laatste letter is zoals hij in het actief was, de voorlaatste letter heeft een kasra, een letter met sukun blijft zoals hij is, en de rest krijgt een damma.” Deze algemene regel dekt elke bab tegelijk: nusira; ukrima; ustukhrija, “het werd gewonnen”, waarin elke letter met klinker voor de voorlaatste een damma krijgt, de hamza van verbinding inbegrepen.",
+    "De mudari' is het werkwoord dat begint met een van de letters van atayna (dezelfde vier letters als anaytu, in een andere volgorde), “op voorwaarde dat de letter aan de madi is toegevoegd”. Het voorvoegsel heeft een fatha in het actief van alle babs, “behalve bij het vierletterige werkwoord, welk vierletterig werkwoord het ook is”: yukrimu, yufarrihu, yuqatilu, yudahriju, allemaal vierletterig in de madi. De letter voor de lam heeft een kasra bij de vier-, vijf- en zesletterige werkwoorden (yukrimu, yankasiru, yastakhriju), behalve bij tafa''ala, tafa'ala en tafa'lala, waar hij een fatha heeft (yatakallamu, yataba'adu, yatadahraju).",
+    "In de passieve mudari' heeft het voorvoegsel een damma, een letter met sukun blijft, en “alle andere hebben een fatha”, behalve de lam, die in actief en passief gelijkelijk in raf' staat tot er een regeerder van de nasb of de jazm op inwerkt: yunsaru, yukramu, yustakhraju.",
+    "Met de twee regels kan de student het passief van elk werkwoord uit zijn actief maken, zonder tabel: het werk dat de Amthila voor één werkwoord deed, wordt hier in één keer voor allemaal gedaan."
+   ],
+   "terms": [
+    "de voorvoegsels van de mudari' (anaytu in een andere volgorde)",
+    "het voorvoegsel van de mudari'",
+    "de passieve madi",
+    "de passieve mudari'"
+   ],
+   "examples": [
+    "nusira, ukrima: kasra op de voorlaatste letter, damma op de rest",
+    "kasra voor de lam bij de vier-, vijf- en zesletterige werkwoorden",
+    "fatha voor de lam bij tafa''ala, tafa'ala en tafa'lala",
+    "de passieve mudari': damma op het voorvoegsel, fatha op de rest"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak met de regel van de Maqsud de passieve madi en de passieve mudari' van istaghfara, en controleer ze met het vervoegingshulpmiddel.",
+     "answer": "Passieve madi: ustughfira (de laatste letter zoals in het actief, kasra ervoor, de sukun van de sin behouden, damma op de rest). Passieve mudari': yustaghfaru. Het hulpmiddel geeft hetzelfde."
+    },
+    {
+     "prompt": "Welke klinker neemt het voorvoegsel van de actieve mudari' in elk: yaktubu, yukrimu, yatadahraju (tadahraja), yudahriju?",
+     "answer": "Yaktubu: fatha. Yukrimu: damma (vierletterige madi). Yatadahraju: fatha (vijfletterig). Yudahriju: damma (vierletterige madi)."
+    },
+    {
+     "prompt": "Waarom heeft de letter voor de lam in yatakallamu een fatha, maar in yankasiru een kasra?",
+     "answer": "De regel van de Maqsud: die letter heeft een kasra bij de vier-, vijf- en zesletterige werkwoorden, behalve bij tafa''ala, tafa'ala en tafa'lala, die een fatha houden. Takallama is tafa''ala; inkasara is infa'ala."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In de passieve madi heeft de voorlaatste letter…",
+     "options": [
+      "een fatha",
+      "een damma",
+      "een sukun",
+      "een kasra"
+     ],
+     "explanation": "In de passieve madi krijgt de voorlaatste letter een kasra, een letter met sukun blijft, de rest krijgt een damma: nusira, ukrima."
+    },
+    {
+     "prompt": "In de passieve madi blijft een letter met sukun…",
+     "options": [
+      "zoals hij is",
+      "krijgt een damma",
+      "krijgt een kasra",
+      "valt weg"
+     ],
+     "explanation": "Ustukhrija: de sin houdt zijn sukun."
+    },
+    {
+     "prompt": "Het voorvoegsel van de actieve mudari' heeft een damma bij…",
+     "options": [
+      "alle werkwoorden",
+      "werkwoorden waarvan de madi vier letters heeft",
+      "het kale werkwoord",
+      "vijfletterige werkwoorden"
+     ],
+     "explanation": "Yukrimu, yuqatilu, yudahriju."
+    },
+    {
+     "prompt": "Welke houdt in de mudari' een fatha voor de lam?",
+     "options": [
+      "Yastakhriju",
+      "Yankasiru",
+      "Yatakallamu",
+      "Yukrimu"
+     ],
+     "explanation": "Tafa''ala, tafa'ala en tafa'lala."
+    },
+    {
+     "prompt": "Wat zijn de letters van atayna?",
+     "options": [
+      "De letters van de toevoeging",
+      "De zwakke letters",
+      "De keelletters",
+      "De voorvoegsels van de mudari'"
+     ],
+     "explanation": "Dezelfde vier als anaytu."
+    },
+    {
+     "prompt": "In de passieve mudari' hebben alle letters behalve het voorvoegsel, de sukun en de lam…",
+     "options": [
+      "een fatha",
+      "een kasra",
+      "een damma",
+      "een sukun"
+     ],
+     "explanation": "In de passieve mudari' krijgt het voorvoegsel een damma, blijft een letter met sukun, en krijgen de andere voor de lam een fatha: yunsaru, yustakhraju."
+    },
+    {
+     "prompt": "De passieve madi van istakhraja is…",
+     "options": [
+      "Istukhrija",
+      "Ustukhrija",
+      "Yustakhraju",
+      "Mustakhraj"
+     ],
+     "explanation": "Damma op elke letter met klinker voor de voorlaatste, de hamza inbegrepen."
+    }
+   ],
+   "diagram": {
+    "caption": "Actief en passief volgens de regels van de Maqsud",
+    "labels": {
+     "Bāb": "Bab",
+     "Past active": "Madi actief",
+     "Past passive": "Madi passief",
+     "Present active": "Mudari' actief",
+     "Present passive": "Mudari' passief",
+     "naṣara": "nasara",
+     "afʿala": "af'ala",
+     "faʿʿala": "fa''ala",
+     "istafʿala": "istaf'ala"
+    }
+   }
+  },
+  "8": {
+   "title": "Gebod en verbod",
+   "body": [
+    "“Het gebod en het verbod staan op de vorm van de mudari', behalve dat beide in jazm staan.” Het teken van de jazm is het wegvallen van de nun in het tweevoud, het meervoud van de mannen en de aangesproken vrouw (li-yansura, la tansuru, unsuri), de sukun op een gave lam en het wegvallen van een zwakke lam in de rest (li-yansur; voor het zwakke werkwoord, het volgende hoofdstuk), behalve de nun van de vrouwen, die blijft “in de jazm en daarbuiten” (li-yansurna, unsurna).",
+    "Het gebod aan de aanwezige (amr al-hadir) in het actief wordt uit de mudari' gemaakt door het voorvoegsel te laten vallen. Heeft de letter na het voorvoegsel een sukun, dan komt er een hamza van verbinding bij: tadribu → idrib, tansuru → unsur. Heeft hij een klinker, dan is er niets nodig en wordt alleen het eind zonder klinker gemaakt: tukrimu → akrim, zoals het akrim van de Bina laat zien, tudahriju → dahrij, tata'allamu → ta'allam.",
+    "Dan een leerstellig punt: de gebiedende wijs “ligt vast op de pauze (mabni 'ala al-waqf), en wat op de pauze vastligt, is in de uitspraak als het majzum”. Dat is de opvatting van Basra, die de Ajurrumiyya niet volgt: voor de Ajurrumiyya is de gebiedende wijs majzum; voor de Maqsud klinkt hij alleen zo. Beide boeken geven dezelfde vormen.",
+    "Het verbod, en het gebod aan de afwezige, houden hun voorvoegsel: la tansur, li-yansur. Alleen het gebod aan de aanwezige in het actief verliest het; het passieve gebod aan de aanwezige houdt het met de lam, li-tunsar, zoals de Amthila liet zien."
+   ],
+   "terms": [
+    "gebod en verbod: de mudari' in jazm",
+    "het gebod aan de aanwezige: de gebiedende wijs",
+    "vast op de pauze: de opvatting van Basra over de gebiedende wijs",
+    "het wegvallen van de nun"
+   ],
+   "examples": [
+    "unsuri, de nun weggevallen; unsurna, de nun van de vrouwen behouden",
+    "idrib: een hamza van verbinding voor de sukun; akrim: de letter na het voorvoegsel heeft een klinker",
+    "ta'allam, “leer!”: van tata'allamu, het voorvoegsel weggelaten, geen hamza nodig"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak uit elke mudari' de gebiedende wijs tegen één man, en zeg of er een hamza van verbinding nodig is: tafarrihu (van faraha, vorm II), tata'allamu, tastaghfiru, tajlisu.",
+     "answer": "Farrih (geen hamza: de letter na het voorvoegsel heeft een klinker). Ta'allam (geen hamza). Istaghfir (hamza: de sin heeft een sukun). Ijlis (hamza: de jim heeft een sukun)."
+    },
+    {
+     "prompt": "Wat is het teken van de jazm in elk gebod: li-yansuru; li-yansur; li-yansurna?",
+     "answer": "Li-yansuru: het wegvallen van de nun. Li-yansur: de sukun op de gave lam. Li-yansurna: geen; de nun van de vrouwen blijft."
+    },
+    {
+     "prompt": "Hoe verschillen de Ajurrumiyya en de Maqsud over de gebiedende wijs?",
+     "answer": "De Ajurrumiyya zegt dat de gebiedende wijs altijd majzum is (de opvatting van Kufa). De Maqsud zegt dat hij vastligt op de pauze en alleen in de uitspraak op het majzum lijkt (de opvatting van Basra). De vormen zijn dezelfde."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Gebod en verbod staan op de vorm van…",
+     "options": [
+      "de mudari', in jazm",
+      "de madi",
+      "de masdar",
+      "het deelwoord"
+     ],
+     "explanation": "Daarom zijn hun uitgangen die van de jazm."
+    },
+    {
+     "prompt": "Wanneer komt er een hamza van verbinding bij de gebiedende wijs?",
+     "options": [
+      "Altijd",
+      "Als de letter na het voorvoegsel een sukun heeft",
+      "Nooit",
+      "Alleen in het passief"
+     ],
+     "explanation": "Tadribu → idrib; tukrimu → akrim."
+    },
+    {
+     "prompt": "De gebiedende wijs van tata'allamu is…",
+     "options": [
+      "Ita'allam",
+      "Uta'allam",
+      "Ta'allam",
+      "Tata'allam"
+     ],
+     "explanation": "De letter na het voorvoegsel heeft een klinker."
+    },
+    {
+     "prompt": "Wat zegt de Maqsud dat de gebiedende wijs is?",
+     "options": [
+      "Majzum",
+      "In nasb",
+      "In raf'",
+      "Vast op de pauze, in klank als het majzum"
+     ],
+     "explanation": "De gebiedende wijs ligt vast op de pauze en lijkt alleen op het majzum; hij heeft geen i'rab. Dit is de opvatting van Basra."
+    },
+    {
+     "prompt": "Welke nun blijft in de jazm?",
+     "options": [
+      "De nun van de vrouwen",
+      "De nun van het tweevoud",
+      "De nun van het meervoud",
+      "De nun van de aangesproken vrouw"
+     ],
+     "explanation": "De nun van het vrouwelijk meervoud is een voornaamwoord, geen teken van de raf', dus hij blijft in de jazm: li-yansurna, unsurna."
+    },
+    {
+     "prompt": "Welk gebod houdt zijn voorvoegsel?",
+     "options": [
+      "Het actieve gebod aan de aanwezige",
+      "Het gebod aan de afwezige, li-yansur",
+      "Geen",
+      "Alle"
+     ],
+     "explanation": "Alleen het actieve gebod aan de aanwezige laat het vallen."
+    },
+    {
+     "prompt": "De gebiedende wijs van tuqatilu is…",
+     "options": [
+      "Iqtil",
+      "Uqatil",
+      "Qatil",
+      "Aqatil"
+     ],
+     "explanation": "De qaf na het voorvoegsel heeft een klinker; geen hamza."
+    }
+   ],
+   "diagram": {
+    "caption": "Van de mudari' naar de gebiedende wijs",
+    "labels": {
+     "Present": "Mudari'",
+     "After the prefix": "Na het voorvoegsel",
+     "Imperative": "Gebiedende wijs",
+     "sukūn: hamza added": "sukun: hamza toegevoegd",
+     "vowel: no hamza of joining": "klinker: geen hamza van verbinding",
+     "vowel: no hamza": "klinker: geen hamza"
+    }
+   }
+  },
+  "9": {
+   "title": "De deelwoorden en de intensieve patronen",
+   "body": [
+    "Voor het actief deelwoord van het kale werkwoord “kijk naar de 'ayn van de madi”. Heeft die een fatha, dan is het patroon nasir (fa'il). Heeft die een damma, dan staat het bijvoeglijk naamwoord op 'azim of dakhm (fa'il met lange i, fa'l): een werkwoord als karuma noemt een blijvende eigenschap, en zijn beschrijvende woord is geen deelwoord op fa'il. Heeft die een kasra: van het overgankelijke 'alim (fa'il); van het onovergankelijke vier patronen: marid (ziek), zamin (chronisch ziek), ahmar (rood) en 'atshan (dorstig).",
+    "Het boek geeft hun vrouwelijke vormen, tweevouden en meervouden volledig, want ze zijn onregelmatig op manieren die een beginner niet kan raden: ahmar, vrouwelijk hamra', meervoud van beide humr; tweevouden ahmarani en hamrawani. 'Atshan, vrouwelijk 'atsha, meervoud van beide 'itash; tweevouden 'atshanani en 'atshayani. “Ik heb me gehouden aan wat van het actief deelwoord volgens een regel kan worden vastgelegd, en de rest gelaten.”",
+    "Het passief deelwoord van elk kaal werkwoord is majbur (maf'ul), en ook kasir (fa'il met lange i, met de betekenis van maf'ul, “gebroken”). Voor de vermeerderde werkwoorden werden beide deelwoorden met de masdar mimi gegeven (les 5). Dan de patronen van de intensiteit (mubalagha): jahul (zeer onwetend), siddiq (zeer waarachtig), kadhdhab (grote leugenaar), ghufl, yaquz (zeer waakzaam), midrar (overvloedig gietend), mikthir, en lu'ana (wie veel vervloekt); “als je een sukun op de 'ayn van het laatste patroon zet, neemt het de betekenis van het passief aan”: lu'na, wie veel vervloekt wordt.",
+    "De les sluit aan bij wat de student kent: de Amthila had één intensieve vorm, nassar; hier zijn er acht patronen; en de 'Awamil liet de sifa mushabbaha (hasan) aan het werk zien. De bijvoeglijke naamwoorden van het kale werkwoord hebben vele vormen, en de Maqsud onderwijst alleen wat een regel kan vatten."
+   ],
+   "terms": [
+    "de patronen van het actief deelwoord en de bijvoeglijke naamwoorden",
+    "kleuren en gebreken: ahmar, hamra'",
+    "toestanden van honger en dorst: 'atshan, 'atsha",
+    "de patronen van de intensiteit: jahul, siddiq, kadhdhab …"
+   ],
+   "examples": [
+    "nasir (madi met fatha), 'azim (met damma), 'alim (met kasra, overgankelijk)",
+    "ahmar, hamra', humr: rood, man, vrouw, meervoud",
+    "'atshan, 'atsha, 'itash: dorstig",
+    "jahul, siddiq, kadhdhab: patronen van de intensiteit"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het vrouwelijk, de tweevouden en het meervoud van ahmar en 'atshan zoals het boek ze geeft.",
+     "answer": "Ahmar: vrouwelijk hamra'; tweevouden ahmarani, hamrawani; meervoud van beide humr. 'Atshan: vrouwelijk 'atsha; tweevouden 'atshanani, 'atshayani; meervoud van beide 'itash."
+    },
+    {
+     "prompt": "Waarom staat het bijvoeglijk naamwoord van een werkwoord op fa'ula (karuma, 'azuma) niet op fa'il?",
+     "answer": "Werkwoorden van die bab noemen blijvende eigenschappen en zijn onovergankelijk; hun bijvoeglijke naamwoorden zijn van de soort die de 'Awamil de sifa mushabbaha noemde, op patronen zoals fa'il met lange i ('azim, karim) en fa'l (dakhm)."
+    },
+    {
+     "prompt": "Wat is het verschil tussen lu'ana en lu'na?",
+     "answer": "Lu'ana, met een fatha op de 'ayn, is wie veel vervloekt (intensief, actieve betekenis). Met een sukun, lu'na, neemt het de passieve betekenis aan: wie veel vervloekt wordt."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Voor het actief deelwoord van het kale werkwoord kijkt de Maqsud naar…",
+     "options": [
+      "het voorvoegsel van de mudari'",
+      "de 'ayn van de madi",
+      "de masdar",
+      "de laatste letter"
+     ],
+     "explanation": "Fatha, damma of kasra."
+    },
+    {
+     "prompt": "Het bijvoeglijk naamwoord van een werkwoord met damma in de madi staat op…",
+     "options": [
+      "nasir",
+      "majbur",
+      "'azim of dakhm",
+      "alleen ahmar"
+     ],
+     "explanation": "Een werkwoord met damma in zijn madi, zoals 'azuma, geeft een bijvoeglijk naamwoord op fa'il met lange i of fa'l: 'azim, dakhm."
+    },
+    {
+     "prompt": "Wat is het vrouwelijk van ahmar?",
+     "options": [
+      "Ahmara",
+      "Humra",
+      "Hamra",
+      "Hamra'"
+     ],
+     "explanation": "Ahmar heeft het vrouwelijk hamra', met madd; het meervoud van beide is humr."
+    },
+    {
+     "prompt": "Wat is het meervoud van 'atshan?",
+     "options": [
+      "'Itash",
+      "'Atshanuna",
+      "'Atsha",
+      "'Utsh"
+     ],
+     "explanation": "Meervoud van zowel 'atshan als 'atsha."
+    },
+    {
+     "prompt": "Het passief deelwoord van elk kaal werkwoord staat op…",
+     "options": [
+      "nasir",
+      "majbur (maf'ul), en ook fa'il met lange i zoals kasir",
+      "muf'al",
+      "af'al"
+     ],
+     "explanation": "Kasir: fa'il met lange i met de betekenis van maf'ul."
+    },
+    {
+     "prompt": "Welk is een patroon van de intensiteit?",
+     "options": [
+      "Marid",
+      "'Alim",
+      "Siddiq",
+      "Majbur"
+     ],
+     "explanation": "Siddiq, zeer waarachtig, is een van de patronen van de intensiteit van het boek, met jahul en kadhdhab."
+    },
+    {
+     "prompt": "Wat gebeurt er met lu'ana met een sukun op de 'ayn?",
+     "options": [
+      "Het wordt een werkwoord",
+      "Het wordt meervoud",
+      "Niets",
+      "Het neemt de passieve betekenis aan"
+     ],
+     "explanation": "Lu'ana betekent wie veel vervloekt; met een 'ayn zonder klinker, lu'na, neemt het de passieve betekenis aan: veel vervloekt."
+    }
+   ],
+   "diagram": {
+    "caption": "Het bijvoeglijk naamwoord van het kale werkwoord naar de klinker van de madi",
+    "labels": {
+     "ʿAyn of the past": "'Ayn van de madi",
+     "Verb": "Werkwoord",
+     "Pattern": "Patroon",
+     "Example": "Voorbeeld",
+     "fatḥa": "fatha",
+     "any": "elk",
+     "ḍamma": "damma",
+     "intransitive": "onovergankelijk",
+     "kasra": "kasra",
+     "transitive": "overgankelijk"
+    }
+   }
+  },
+  "10": {
+   "title": "De veertien vormen; de nun van nadruk",
+   "body": [
+    "Het deel over de gave werkwoorden begint met de telling van de vormen. De madi, de mudari' (hier al-mustaqbal genoemd), het gebod en het verbod, actief en passief, lopen elk door veertien vormen: drie van de afwezige man, drie van de afwezige vrouw, drie van de aangesproken man, drie van de aangesproken vrouw, en twee van de spreker, “man of vrouw”. Maar het actieve gebod en verbod hebben geen vormen van de spreker, omdat men zichzelf geen bevel geeft; de tabellen van de Amthila lieten hetzelfde zien.",
+    "Het actief deelwoord heeft tien vormen, “waarvan het meervoud van de mannen vier woorden heeft” (nasiruna, nussar [met alif], nussar, nasara) “en het meervoud van de vrouwen twee” (nasirat, nawasir). Het passief deelwoord heeft er zeven, met twee meervouden voor de mannen (mansuruna, manasir) en één voor de vrouwen (mansurat). Zo worden de tabellen van de Amthila geteld en uitgelegd.",
+    "Dan de nun van nadruk (nun al-ta'kid), die een gebod of een verbod versterkt, actief of passief. Ze is zwaar, -anna, of licht, -an; de lichte komt niet in het tweevoud en het meervoud van de vrouwen. De lichte nun heeft een sukun; de zware een fatha, behalve in het tweevoud en het meervoud van de vrouwen, waar ze een kasra heeft (li-yansuranni, li-yansurnanni). Ervoor krijgt het werkwoord een kasra voor de aangesproken vrouw (unsurinna), een damma voor de mannen (li-yansurunna), en een fatha elders (li-yansuranna).",
+    "Het boek geeft dan de voorbeelden op nasara: de madi, de mudari', de geboden en verboden met “enz.” (ilakh), omdat de Amthila ze volledig gegeven heeft, en de vormen met de zware en de lichte nun: li-yansuranna, li-yansuranni, li-yansurunna, li-tansuranna, li-tansuranni, li-yansurnanni, unsuranna, unsuranni, unsurunna, unsurinna, unsuranni, unsurnanni; en li-yansuran, li-yansurun, li-tansuran, unsuran, unsurun, unsurin. Deze vormen staan niet in het vervoegingshulpmiddel; leer ze uit de druk."
+   ],
+   "terms": [
+    "hier: de mudari'",
+    "de zware nun van nadruk: -anna",
+    "de lichte nun van nadruk: -an",
+    "“enz.”: de rest zoals in de tabellen"
+   ],
+   "examples": [
+    "li-yansuranna, li-yansurunna, unsurinna: fatha, damma, kasra voor de zware nun",
+    "de zware nun met kasra in het tweevoud en het meervoud van de vrouwen",
+    "li-yansuran, unsurun: de lichte nun met sukun"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom hebben het actieve gebod en verbod geen vormen van de spreker?",
+     "answer": "Omdat men zichzelf in het actief geen gebod of verbod geeft; het passieve gebod heeft ze wel (li-unsar, li-nunsar), zoals de Amthila liet zien."
+    },
+    {
+     "prompt": "Geef de klinker van de nun van nadruk en van de letter ervoor in: unsuranna; unsurinna; unsurunna; unsuranni.",
+     "answer": "Unsuranna: nun met fatha, fatha ervoor. Unsurinna: fatha op de nun, kasra ervoor (de aangesproken vrouw). Unsurunna: fatha op de nun, damma ervoor (de mannen). Unsuranni: kasra op de nun (het tweevoud)."
+    },
+    {
+     "prompt": "Tel de tien vormen van het actief deelwoord van nasara zoals het boek ze telt.",
+     "answer": "Nasir, nasirani, en vier meervouden voor de mannen (nasiruna, nussar [met alif], nussar, nasara); nasira, nasiratani, en twee meervouden voor de vrouwen (nasirat, nawasir): tien."
+    },
+    {
+     "prompt": "In welke vormen komt de lichte nun niet?",
+     "answer": "Het tweevoud en het meervoud van de vrouwen."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoe noemt de Maqsud de mudari' in dit deel?",
+     "options": [
+      "Alleen al-ghabir",
+      "Al-madi",
+      "Al-mustaqbal",
+      "Al-amr"
+     ],
+     "explanation": "Het gebruikt verschillende namen voor de mudari'."
+    },
+    {
+     "prompt": "Hoeveel vormen heeft het actief deelwoord?",
+     "options": [
+      "Zeven",
+      "Veertien",
+      "Zes",
+      "Tien"
+     ],
+     "explanation": "Met vier meervouden voor de mannen en twee voor de vrouwen."
+    },
+    {
+     "prompt": "Hoeveel vormen heeft het passief deelwoord?",
+     "options": [
+      "Zeven",
+      "Tien",
+      "Veertien",
+      "Drie"
+     ],
+     "explanation": "Twee meervouden voor de mannen, één voor de vrouwen."
+    },
+    {
+     "prompt": "De zware nun heeft een kasra in…",
+     "options": [
+      "het enkelvoud",
+      "het tweevoud en het meervoud van de vrouwen",
+      "het meervoud van de mannen",
+      "de aangesproken vrouw"
+     ],
+     "explanation": "Li-yansuranni, li-yansurnanni."
+    },
+    {
+     "prompt": "Voor de nun van nadruk krijgt het werkwoord een damma in…",
+     "options": [
+      "het enkelvoud",
+      "de aangesproken vrouw",
+      "het meervoud van de mannen",
+      "het tweevoud"
+     ],
+     "explanation": "Voor de nun van nadruk komt een kasra voor de aangesproken vrouw, een damma in het meervoud van de mannen, een fatha elders: li-yansurunna."
+    },
+    {
+     "prompt": "De lichte nun van nadruk heeft…",
+     "options": [
+      "een fatha",
+      "een kasra",
+      "een damma",
+      "een sukun"
+     ],
+     "explanation": "De lichte nun heeft geen klinker, li-yansuran; de zware heeft een fatha, li-yansuranna, maar een kasra in het tweevoud en het vrouwelijk meervoud."
+    },
+    {
+     "prompt": "Welke vormen hebben geen spreker?",
+     "options": [
+      "Het actieve gebod en verbod",
+      "De madi",
+      "De mudari'",
+      "Het passieve gebod"
+     ],
+     "explanation": "Men geeft zichzelf geen bevel."
+    }
+   ],
+   "diagram": {
+    "caption": "Het gebod aan de aanwezige met de nun van nadruk (al-Maqsud, p. 190)",
+    "labels": {
+     "Person": "Persoon",
+     "Plain": "Gewoon",
+     "Heavy nūn": "Zware nun",
+     "Light nūn": "Lichte nun",
+     "one man": "één man",
+     "two": "twee",
+     "men": "mannen",
+     "one woman": "één vrouw",
+     "women": "vrouwen"
+    }
+   }
+  },
+  "11": {
+   "title": "De deelwoorden volledig; het vierletterige werkwoord",
+   "body": [
+    "De deelwoorden van nasara worden volledig gegeven, en het boek schrijft de klinkers van de minder voor de hand liggende woorden uit: nussar [met alif] en nussar “met damma op de nun, fatha op de sad en verdubbeling in beide”, en nasara “met fatha op de nun, de sad en de ra', zonder verdubbeling”; manasir “met fatha op de mim en kasra op de sad”. De klinkers in woorden uitschrijven is de oude manier om ze te bewaken, voordat men in elk handschrift op de klinkertekens kon vertrouwen.",
+    "Dan het kale vierletterige werkwoord in het opzeggen van de verschillende vormen: dahraja, yudahriju, dahrajatan, dihrajan, fa-huwa mudahrijun wa-dhaka mudahrajun; het gebod dahrij, het verbod la tudahrij. Opnieuw worden de klinkers uitgeschreven: yudahriju “met damma op de ya', kasra op de ra' en sukun op de ha'”, het gebod “met fatha op de dal en kasra op de ra'”. “En zo is de vervoeging van de aangehechte vormen”: hawqala, yuhawqilu, hawqalatan, fa-huwa muhawqilun, en de rest.",
+    "Let erop dat het gebod dahrij geen hamza heeft: de dal na het voorvoegsel van tudahriju heeft een klinker (les 8). En de deelwoorden worden gemaakt met de regel van les 5: de passieve mudari' yudahraju met mu- geeft mudahraj, de actieve met kasra mudahrij.",
+    "Het opzeggen van dahraja is het model voor elk vierletterig werkwoord, gaaf of aangehecht; het vervoegingshulpmiddel, dat met drieletterige wortels werkt, geeft het niet."
+   ],
+   "terms": [
+    "het model van het kale vierletterige werkwoord: dahraja",
+    "het actief en het passief deelwoord van dahraja",
+    "de klinkers in woorden uitschrijven"
+   ],
+   "examples": [
+    "nussar [met alif] en nussar, met damma en verdubbeling; nasara, met fatha en zonder verdubbeling",
+    "dahraja, yudahriju, dahrajatan, dihrajan",
+    "fa-huwa mudahrijun wa-dhaka mudahrajun: de twee deelwoorden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zeg dahraja op in de volgorde van het boek.",
+     "answer": "Dahraja, yudahriju, dahrajatan wa-dihrajan, fa-huwa mudahrijun wa-dhaka mudahrajun; het gebod dahrij, het verbod la tudahrij."
+    },
+    {
+     "prompt": "Waarom heeft het gebod dahrij geen hamza aan het begin?",
+     "answer": "De letter na het voorvoegsel van tudahriju (de dal) heeft een klinker, dus kan het woord beginnen nadat het voorvoegsel is weggelaten; er is geen hamza van verbinding nodig."
+    },
+    {
+     "prompt": "Schrijf in woorden, zoals de Maqsud doet, de klinkers van manasir.",
+     "answer": "Met fatha op de mim en kasra op de sad (bi-fath al-mim wa-kasr al-sad)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarom schrijft het boek klinkers in woorden uit?",
+     "options": [
+      "Omdat de druk geen klinkers heeft",
+      "Voor de schoonheid",
+      "Omdat ze onregelmatig zijn",
+      "Om ze te bewaken in handschriften waar tekens verloren kunnen gaan"
+     ],
+     "explanation": "Bi-damm al-nun wa-fath al-sad …"
+    },
+    {
+     "prompt": "Wat is het actief deelwoord van dahraja?",
+     "options": [
+      "Mudahrij",
+      "Mudahraj",
+      "Dahrij",
+      "Dahraj"
+     ],
+     "explanation": "Met kasra op de voorlaatste letter."
+    },
+    {
+     "prompt": "Wat zijn de twee masdars van dahraja?",
+     "options": [
+      "Dahraj en tadahruj",
+      "Dahraja en dihraj",
+      "Mudahraj en dahraj",
+      "Alleen dahraja"
+     ],
+     "explanation": "Dahrajatan wa-dihrajan."
+    },
+    {
+     "prompt": "Het gebod van dahraja is…",
+     "options": [
+      "Idharij",
+      "Udahrij",
+      "Dahrij",
+      "Dahraj"
+     ],
+     "explanation": "Met fatha op de dal en kasra op de ra'."
+    },
+    {
+     "prompt": "Nasara als meervoud van nasir wordt uitgesproken…",
+     "options": [
+      "met verdubbeling van de sad",
+      "met damma op de nun",
+      "met sukun op de sad",
+      "met fatha op alle drie en zonder verdubbeling"
+     ],
+     "explanation": "Anders dan nussar [met alif] en nussar."
+    },
+    {
+     "prompt": "“En zo is de vervoeging van de aangehechte vormen” betekent…",
+     "options": [
+      "hawqala en de andere worden vervoegd zoals dahraja",
+      "ze hebben geen vervoeging",
+      "ze worden vervoegd zoals nasara",
+      "ze zijn onregelmatig"
+     ],
+     "explanation": "Hawqala, yuhawqilu, hawqalatan…"
+    },
+    {
+     "prompt": "Het voorvoegsel van yudahriju heeft…",
+     "options": [
+      "een fatha",
+      "een damma",
+      "een kasra",
+      "een sukun"
+     ],
+     "explanation": "De vierletterige madi geeft een damma op het voorvoegsel."
+    }
+   ],
+   "diagram": {
+    "caption": "Het opzeggen van dahraja (al-Maqsud, p. 191)",
+    "labels": {
+     "Form": "Vorm",
+     "Daḥraja": "Dahraja",
+     "past": "madi",
+     "present": "mudari'",
+     "maṣdars": "masdars",
+     "active participle": "actief deelwoord",
+     "passive participle": "passief deelwoord",
+     "command": "gebod",
+     "prohibition": "verbod"
+    }
+   }
+  },
+  "12": {
+   "title": "De vierletterige vermeerderde vormen: akhraja, kharraja, khasama",
+   "body": [
+    "De vermeerderde vormen met een vierletterige madi worden opgezegd op nieuwe modellen: akhraja (af'ala), kharraja (fa''ala), khasama (fa'ala [met alif]). Akhraja, yukhriju, ikhrajan, fa-huwa mukhrijun wa-dhaka mukhrajun; het gebod akhrij, het verbod la tukhrij.",
+    "Dan legt het boek een vorm uit die de student als vanzelfsprekend aanneemt. Waarom is de mudari' yukhriju en niet yu'akhriju, met de hamza van af'ala? “De hamza werd uit de mudari' van deze bab weggelaten, zodat er geen twee hamza's samenkomen in de vorm van de spreker”: de vorm voor “ik” zou u'akhriju zijn, een hamza op een hamza. “En ze werd ook weggelaten uit het actief en het passief deelwoord, het gebod aan de afwezige en het verbod, om de bab regelmatig te houden (ittiradan li-l-bab).” Eén reden voor één vorm, en regelmaat voor de rest.",
+    "Kharraja, yukharriju, takhrijan en takhrijatan, “met kasra op de ra' en fatha op de ta' in beide”, fa-huwa mukharrijun wa-dhaka mukharrajun; het gebod kharrij. Khasama, yukhasimu, mukhasamatan en khisaman, fa-huwa mukhasimun wa-dhaka mukhasamun; het gebod khasim. En zijn passief: khusima, “met damma op de kha'”, waarin de alif van fa'ala [met alif] na de damma een waw wordt, en yukhasamu.",
+    "Alle drie zijn regelmatig, en het vervoegingshulpmiddel geeft ze als de patronen 4, 2 en 3 voor elke gave wortel. Khusima laat een regel zien die de zwakke werkwoorden nodig zullen hebben: een lange a na een damma wordt een lange u."
+   ],
+   "terms": [
+    "om de bab regelmatig te houden",
+    "het samenkomen van twee hamza's, vermeden",
+    "de twee masdars van fa''ala",
+    "het passief van khasama: de alif wordt waw"
+   ],
+   "examples": [
+    "akhraja: af'ala, volledig opgezegd",
+    "kharraja: fa''ala, met twee masdars",
+    "khusima, yukhasamu: het passief van khasama"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom is de mudari' van akhraja yukhriju en niet yu'akhriju?",
+     "answer": "De hamza van af'ala werd in de mudari' weggelaten, zodat er geen twee hamza's samenkomen in de vorm van de spreker (u'akhriju). Daarna werd ze in alle andere vormen van de mudari' en in de deelwoorden weggelaten om de bab regelmatig te houden."
+    },
+    {
+     "prompt": "Zeg kataba [met alif] (fa'ala van kataba) en 'allama (fa''ala van 'alima) op zoals het boek khasama en kharraja opzegt, met de vormen van het vervoegingshulpmiddel.",
+     "answer": "Kataba [met alif], yukatibu, mukatabatan, fa-huwa mukatibun wa-dhaka mukatabun, katib, la tukatib. 'Allama, yu'allimu, ta'liman, fa-huwa mu'allimun wa-dhaka mu'allamun, 'allim, la tu'allim."
+    },
+    {
+     "prompt": "Wat gebeurt er met de alif van khasama in de passieve madi?",
+     "answer": "De eerste letter krijgt een damma (passief), en de lange a erna wordt een lange u, geschreven met een waw: khusima."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarom werd de hamza van af'ala in de mudari' weggelaten?",
+     "options": [
+      "Zodat er geen twee hamza's samenkomen in de vorm van de spreker",
+      "Omdat het een hamza van verbinding is",
+      "Vanwege het passief",
+      "Per vergissing"
+     ],
+     "explanation": "U'akhriju zou twee hamza's hebben."
+    },
+    {
+     "prompt": "Waarom wordt ze ook in de andere vormen weggelaten?",
+     "options": [
+      "Omdat die ook twee hamza's hebben",
+      "Om de bab regelmatig te houden",
+      "Omdat ze passief zijn",
+      "Dat wordt ze niet"
+     ],
+     "explanation": "Ze werd in de mudari' weggelaten zodat er geen twee hamza's samenkomen in de vorm van de spreker, en in de andere vormen om de bab regelmatig te houden."
+    },
+    {
+     "prompt": "Wat zijn in het boek de twee masdars van kharraja?",
+     "options": [
+      "Ikhraj en khuruj",
+      "Mukharraj en takhrij",
+      "Takhrij en takhrija",
+      "Alleen takhrij"
+     ],
+     "explanation": "Met kasra op de ra' en fatha op de ta'."
+    },
+    {
+     "prompt": "De passieve madi van khasama is…",
+     "options": [
+      "Khusima (met korte u)",
+      "Khasima",
+      "Yukhasamu",
+      "Khusima [met waw]"
+     ],
+     "explanation": "De alif wordt na de damma een waw."
+    },
+    {
+     "prompt": "Het gebod van akhraja is…",
+     "options": [
+      "Akhrij",
+      "Ukhruj",
+      "Ikhrij",
+      "Khrij"
+     ],
+     "explanation": "Zijn hamza wordt altijd uitgesproken."
+    },
+    {
+     "prompt": "Wat zijn de twee masdars van khasama?",
+     "options": [
+      "Takhasum en khisam",
+      "Mukhasama en khisam",
+      "Mukhasim en mukhasam",
+      "Alleen khasm"
+     ],
+     "explanation": "Zoals qatala [met alif] muqatala en qital heeft."
+    },
+    {
+     "prompt": "Welk patroon is kharraja?",
+     "options": [
+      "Af'ala",
+      "Fa'ala [met alif]",
+      "Fa''ala",
+      "Tafa''ala"
+     ],
+     "explanation": "Kharraja verdubbelt de 'ayn van kharaja: het staat op fa''ala."
+    }
+   ],
+   "diagram": {
+    "caption": "De drie vierletterige vermeerderde vormen (al-Maqsud, pp. 191–192)",
+    "labels": {
+     "Form": "Vorm",
+     "afʿala": "af'ala",
+     "faʿʿala": "fa''ala",
+     "fāʿala": "fa'ala [met alif]",
+     "past": "madi",
+     "present": "mudari'",
+     "maṣdar": "masdar",
+     "active participle": "actief deelwoord",
+     "passive participle": "passief deelwoord",
+     "command": "gebod"
+    }
+   }
+  },
+  "13": {
+   "title": "De vijfletterige vormen",
+   "body": [
+    "De vijfletterige vormen worden een voor een opgezegd, met de klinker van de voorlaatste letter uitgeschreven, want daar verschillen ze. Inkasara, yankasiru “met kasra op de sin”, inkisaran, munkasir, inkasir, la tankasir. Iktasaba, yaktasibu, iktisaban, muktasib en muktasab. Isfarra, “geel worden”, yasfarru “met fatha op de fa'”, isfiraran, musfarr; het gebod isfarra, het verbod la tasfarra. Takassara, yatakassaru “met fatha op de sin”, takassuran “met damma op de sin”, mutakassir “met kasra op de sin”. Tasalaha, yatasalahu, tasaluhan, mutasalih en mutasalah.",
+    "De regel achter de lijst: bij infa'ala en ifta'ala heeft de voorlaatste letter een kasra in de mudari', het deelwoord en het gebod; bij tafa''ala en tafa'ala heeft hij een fatha in de mudari' en het gebod, een damma in de masdar, een kasra in het actief deelwoord. Leer het één keer op deze modellen en elk werkwoord van de vijf babs volgt.",
+    "Dan twee vormen die er vreemd uitzien: iddaththara en iththaqala. “De grondvorm van de eerste is tadaththara, en van de tweede tathaqala, zoals tasalaha; de ta' werd samengetrokken in wat erop volgt, en toen werd er een hamza van verbinding bijgebracht om ermee te kunnen beginnen, omdat men niet met een letter zonder klinker kan beginnen.” De Koran heeft beide: ya ayyuha al-muddaththiru, “o jij die in je mantel gehuld bent” (Koran 74:1), het actief deelwoord van iddaththara; en ma lakum idha qila lakumu nfiru fi sabili llahi ththaqaltum ila al-ardi, “wat is er met jullie dat jullie, als jullie gezegd wordt: trekt uit op de weg van God, zwaar aan de aarde blijven hangen?” (Koran 9:38).",
+    "En het vermeerderde vierletterige werkwoord tadahraja: yatadahraju “met fatha op de ra'”, tadahrujan “met damma op de ra'”, mutadahrij “met kasra op de ra'”, het gebod tadahraj. Het volgt tafa''ala precies, zoals zijn vorm doet vermoeden."
+   ],
+   "terms": [
+    "de vijfletterige werkwoorden: infa'ala, ifta'ala, if'alla, tafa''ala, tafa'ala",
+    "samentrekking van de ta': tadaththara → iddaththara",
+    "men kan niet met een letter zonder klinker beginnen"
+   ],
+   "examples": [
+    "inkasara: kasra op de sin in de mudari'",
+    "takassara: fatha in de mudari', damma in de masdar",
+    "ya ayyuha al-muddaththiru (Koran 74:1): het deelwoord van iddaththara, van tadaththara",
+    "iththaqaltum ila al-ardi (Koran 9:38): iththaqala, van tathaqala"
+   ],
+   "tasks": [
+    {
+     "prompt": "Leg stap voor stap uit hoe tadaththara iddaththara wordt.",
+     "answer": "De ta' van tafa''ala wordt samengetrokken in de dal erna: de twee worden een verdubbelde dal, en het woord begint nu met een letter zonder klinker. Omdat men niet met een letter zonder klinker kan beginnen, wordt er een hamza van verbinding bijgebracht: iddaththara."
+    },
+    {
+     "prompt": "Geef de klinker van de voorlaatste letter in de mudari', de masdar en het actief deelwoord van takassara en tasalaha.",
+     "answer": "Takassara: fatha in de mudari' (yatakassaru), damma in de masdar (takassur), kasra in het deelwoord (mutakassir). Tasalaha: fatha (yatasalahu), damma (tasaluh), kasra (mutasalih)."
+    },
+    {
+     "prompt": "Zeg inqata'a en intaqala (uit het vervoegingshulpmiddel) op in de volgorde van het boek: madi, mudari', masdar, actief deelwoord, gebod.",
+     "answer": "Inqata'a, yanqati'u, inqita', munqati', inqati'. Intaqala, yantaqilu, intiqal, muntaqil, intaqil."
+    },
+    {
+     "prompt": "Zoek het deelwoord van iddaththara in Koran 74:1 en geef zijn patroon.",
+     "answer": "Al-muddaththir, “wie in een mantel gehuld is”: het actief deelwoord van iddaththara (van tadaththara, tafa''ala), met mu- en een kasra op de voorlaatste letter."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welke klinker heeft de sin in de mudari' van inkasara?",
+     "options": [
+      "Fatha",
+      "Kasra",
+      "Damma",
+      "Sukun"
+     ],
+     "explanation": "Infa'ala en ifta'ala: kasra op de voorlaatste letter."
+    },
+    {
+     "prompt": "Welke klinker heeft de sin in de masdar van takassara?",
+     "options": [
+      "Fatha",
+      "Kasra",
+      "Damma",
+      "Sukun"
+     ],
+     "explanation": "Takassara is tafa''ala, waarvan de masdar tafa''ul is met een damma op de 'ayn: takassur."
+    },
+    {
+     "prompt": "Wat is de grondvorm van iththaqala?",
+     "options": [
+      "Thaqula",
+      "Athqala",
+      "Istathqala",
+      "Tathaqala"
+     ],
+     "explanation": "De ta' samengetrokken, dan een hamza van verbinding."
+    },
+    {
+     "prompt": "Waarom komt er in iddaththara een hamza van verbinding bij?",
+     "options": [
+      "Men kan niet met een letter zonder klinker beginnen",
+      "Om het overgankelijk te maken",
+      "Voor het passief",
+      "Voor de nadruk"
+     ],
+     "explanation": "Na de samentrekking begint het woord met een verdubbelde dal zonder klinker."
+    },
+    {
+     "prompt": "Al-muddaththir in Koran 74:1 is…",
+     "options": [
+      "een masdar",
+      "het actief deelwoord van iddaththara",
+      "een passief deelwoord",
+      "een werkwoord"
+     ],
+     "explanation": "“Wie in zijn mantel gehuld is.”"
+    },
+    {
+     "prompt": "Het gebod van isfarra is…",
+     "options": [
+      "Isfarir",
+      "Usfur",
+      "Isfarra",
+      "Tasfarra"
+     ],
+     "explanation": "Het verdubbelde eind houdt zijn fatha."
+    },
+    {
+     "prompt": "Welke vijfletterige vorm volgt het klinkerpatroon van tadahraja?",
+     "options": [
+      "Infa'ala",
+      "Ifta'ala",
+      "If'alla",
+      "Tafa''ala"
+     ],
+     "explanation": "Fatha in de mudari', damma in de masdar, kasra in het deelwoord."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijfletterige vormen opgezegd (al-Maqsud, pp. 192–194)",
+    "labels": {
+     "Past": "Madi",
+     "Present": "Mudari'",
+     "Maṣdar": "Masdar",
+     "Active participle": "Actief deelwoord",
+     "Command": "Gebod"
+    }
+   }
+  },
+  "14": {
+   "title": "De zesletterige vormen",
+   "body": [
+    "De zesletterige vormen, op dezelfde manier. Istaghfara, yastaghfiru “met kasra op de fa'”, istighfaran, mustaghfir “met kasra op de fa'” en mustaghfar “met fatha”, istaghfir, la tastaghfir. Ishhabba, “grijs worden”, yashhabbu, ishhibaban, mushhabb, ishhabba, la tashhabba, “met de ba' overal verdubbeld behalve in de masdar”.",
+    "Ighdawdana, “lang en dik worden” (van haar), yaghdawdinu “met kasra op de tweede dal”, ighdidanan, mughdawdin, ighdawdin. Ijlawwadha, yajlawwidhu “met kasra op de waw”, ijliwwadhan, mujlawwidh, ijlawwidh, “en de waw is overal verdubbeld”. Ishankaka, “pikdonker zijn”, yashankiku “met kasra op de eerste kaf”, ishinkakan, mushankik. Islanqa, yaslanqi, islinqa'an, muslanqin; het gebod islanqi, het verbod la taslanqi, met zijn zwakke eind weggevallen.",
+    "En de vermeerderde vierletterige werkwoorden: iqsha'arra, yaqsha'irru “met kasra op de 'ayn”, iqshi'raran, muqsha'irr, iqsha'irra, “en de ra' overal verdubbeld behalve in de masdar”; ihranjama, yahranjimu “met kasra op de jim”, ihrinjaman, muhranjim, ihranjim.",
+    "Twee dingen om te zien. Bij elk zesletterig werkwoord heeft de voorlaatste letter een kasra in de mudari', het deelwoord en het gebod, zoals de regel van les 7 zei. En in de masdar wordt een verdubbelde letter ongedaan gemaakt en verschijnt er een lange i: ishhabba, ishhibab; iqsha'arra, iqshi'rar. Het vervoegingshulpmiddel geeft hiervan alleen istaf'ala; de andere worden uit de druk opgezegd."
+   ],
+   "terms": [
+    "de zesletterige werkwoorden",
+    "behalve in de masdar, waar de verdubbeling ongedaan wordt gemaakt",
+    "met kasra op de 'ayn: de klinker van de voorlaatste letter"
+   ],
+   "examples": [
+    "istaghfara: kasra op de fa' in de mudari'",
+    "ishhabba, “grijs worden”: de ba' verdubbeld behalve in de masdar",
+    "islanqa: een zwak eind; het deelwoord muslanqin",
+    "ihranjama: een vermeerderd vierletterig werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zeg istakhraja uit het vervoegingshulpmiddel op in de volgorde van het boek, met beide deelwoorden.",
+     "answer": "Istakhraja, yastakhriju, istikhrajan, fa-huwa mustakhrijun wa-dhaka mustakhrajun; istakhrij, la tastakhrij."
+    },
+    {
+     "prompt": "Wat gebeurt er in de masdar met de verdubbelde letter van ishhabba en iqsha'arra?",
+     "answer": "De verdubbeling wordt ongedaan gemaakt: ishhibab (met een lange i en twee gescheiden ba's) en iqshi'rar (twee gescheiden ra's). Overal elders blijft de letter verdubbeld."
+    },
+    {
+     "prompt": "Welke klinker krijgt de voorlaatste letter in de mudari' van elk zesletterig werkwoord? Laat het zien op drie.",
+     "answer": "Een kasra: yastaghfiru (fa'), yaghdawdinu (tweede dal), yahranjimu (jim)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In yastaghfiru heeft de fa'…",
+     "options": [
+      "een fatha",
+      "een damma",
+      "een kasra",
+      "een sukun"
+     ],
+     "explanation": "De voorlaatste letter in de mudari' van de zesletterige werkwoorden."
+    },
+    {
+     "prompt": "Wat betekent ishhabba?",
+     "options": [
+      "Rood worden",
+      "Pikdonker zijn",
+      "Lang worden",
+      "Grijs worden"
+     ],
+     "explanation": "Ishhabba staat op if'alla [met alif], van shuhba, grijsheid: grijs worden."
+    },
+    {
+     "prompt": "Waar is de ba' van ishhabba niet verdubbeld?",
+     "options": [
+      "In de masdar",
+      "In de mudari'",
+      "In het deelwoord",
+      "In het gebod"
+     ],
+     "explanation": "In de masdar ishhibab staat de lange i tussen de twee ba's, dus kunnen ze niet samengetrokken worden."
+    },
+    {
+     "prompt": "Ishankaka betekent…",
+     "options": [
+      "Grijs worden",
+      "Pikdonker zijn",
+      "Huiveren",
+      "Samenkomen"
+     ],
+     "explanation": "If'anlala, met de lam herhaald."
+    },
+    {
+     "prompt": "Het actief deelwoord van islanqa is…",
+     "options": [
+      "Muslanqa",
+      "Muslanqiyy",
+      "Muslanqin",
+      "Islinqa'"
+     ],
+     "explanation": "Zijn zwakke eind valt voor de tanwin weg."
+    },
+    {
+     "prompt": "Welke van deze zesletterige vormen geeft het vervoegingshulpmiddel?",
+     "options": [
+      "If'alla [met alif]",
+      "If'aw'ala",
+      "If'anlala",
+      "Istaf'ala"
+     ],
+     "explanation": "De andere worden uit de druk opgezegd."
+    },
+    {
+     "prompt": "Het gebod van ihranjama is…",
+     "options": [
+      "Ihranjim",
+      "Ihranjam",
+      "Harjim",
+      "Uhrunjum"
+     ],
+     "explanation": "Met kasra op de jim."
+    }
+   ],
+   "diagram": {
+    "caption": "De zesletterige vormen opgezegd (al-Maqsud, pp. 194–195)",
+    "labels": {
+     "Past": "Madi",
+     "Present": "Mudari'",
+     "Maṣdar": "Masdar",
+     "Active participle": "Actief deelwoord",
+     "Command": "Gebod"
+    }
+   }
+  },
+  "15": {
+   "title": "Een werkwoord overgankelijk of onovergankelijk maken",
+   "body": [
+    "Het deel met nuttige punten (fawa'id) begint met de overgankelijkheid. Een onovergankelijk werkwoord wordt overgankelijk “door een van drie oorzaken”: een hamza vooraan toegevoegd, akhrajtuhu, “ik bracht hem naar buiten”; zijn 'ayn verdubbeld, kharrajtuhu; of een partikel van de jarr erna, kharajtu bihi min al-dari, “ik ging met hem het huis uit”, dat wil zeggen: nam hem mee naar buiten. En ook door de ta' van tafa''ala en tafa'lala weg te laten: ta'allama, “leren”, wordt 'allama, “onderwijzen”; tadahraja wordt dahraja.",
+    "Het omgekeerde: een overgankelijk werkwoord wordt onovergankelijk door de oorzaken van de overgankelijkheid weg te nemen, of door het naar de bab van inkasara te verplaatsen (kasara → inkasara), en fa'lala wordt onovergankelijk door een ta' vooraan toe te voegen (dahraja → tadahraja). De meegaandheid, de mutawa'a van de Bina, is een van de manieren waarop een werkwoord zijn voorwerp verliest.",
+    "Dan een regel met een gevolg voor de nahw: “het voorwerp en het passief komen niet van het onovergankelijke, omdat het onovergankelijke werkwoord het werkwoord is dat geen voorwerp nodig heeft, en het overgankelijke het tegendeel”. Dus kharaja heeft geen passief deelwoord met de betekenis “naar buiten gebracht”, en geen passieve madi in de veertien personen; om dat te zeggen gebruikt het Arabisch akhraja, ukhrija, mukhraj.",
+    "Samen genomen zijn de drie oorzaken de sarf achter wat de 'Awamil en de Ajurrumiyya de maf'ul bihi noemen. Een partikel van de jarr laat een werkwoord een naamwoord bereiken (kharajtu bihi); de hamza en de verdubbeling laten het het naamwoord direct bereiken (akhrajtuhu, kharrajtuhu)."
+   ],
+   "terms": [
+    "de oorzaken van de overgankelijkheid: hamza, verdubbeling, een partikel",
+    "het onovergankelijke werkwoord",
+    "het overgankelijke werkwoord",
+    "geen passief van het onovergankelijke"
+   ],
+   "examples": [
+    "drie manieren om kharaja overgankelijk te maken: hamza, verdubbeling, een partikel",
+    "ta'allama, “leren”, wordt 'allama, “onderwijzen”, door de ta' weg te laten",
+    "kasara, “breken”, wordt inkasara, “breken (onovergankelijk)”: verplaatst naar de bab van inkasara"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak jalasa, “zitten”, op twee manieren overgankelijk met de vormen van het vervoegingshulpmiddel, en vertaal.",
+     "answer": "Ajlasa (af'ala), “iemand laten zitten”: ajlastu Zaydan, “ik liet Zayd zitten”; en met een partikel, jalasa bi- of ila, zoals jalastu ila Zaydin, “ik ging bij Zayd zitten”."
+    },
+    {
+     "prompt": "Waarom heeft kharaja volgens de Maqsud geen passief in de veertien personen?",
+     "answer": "Omdat het onovergankelijk is: het onovergankelijke werkwoord heeft geen voorwerp nodig, en het passief en het passief deelwoord komen alleen van een werkwoord met een voorwerp. Om “hij werd naar buiten gebracht” te zeggen, gebruikt het Arabisch het overgankelijke akhraja: ukhrija."
+    },
+    {
+     "prompt": "Noem de verandering in elk paar: kasara → inkasara; ta'allama → 'allama; dahraja → tadahraja.",
+     "answer": "Kasara → inkasara: van overgankelijk naar onovergankelijk door verplaatsing naar de bab van inkasara. Ta'allama → 'allama: van onovergankelijk naar overgankelijk door de ta' weg te laten. Dahraja → tadahraja: van overgankelijk naar onovergankelijk door een ta' aan fa'lala toe te voegen."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel oorzaken maken een onovergankelijk werkwoord in het boek overgankelijk?",
+     "options": [
+      "Eén",
+      "Vijf",
+      "Twee",
+      "Drie: hamza, verdubbeling, een partikel"
+     ],
+     "explanation": "En ook het weglaten van de ta' van tafa''ala en tafa'lala."
+    },
+    {
+     "prompt": "Welke oorzaak gebruikt kharajtu bihi min al-dari?",
+     "options": [
+      "Een partikel van de jarr",
+      "Een hamza",
+      "Verdubbeling",
+      "Geen"
+     ],
+     "explanation": "Bi- laat het werkwoord een naamwoord bereiken."
+    },
+    {
+     "prompt": "Hoe wordt ta'allama overgankelijk?",
+     "options": [
+      "Door een hamza toe te voegen",
+      "Door zijn ta' weg te laten: 'allama",
+      "Door bi- toe te voegen",
+      "Het kan niet"
+     ],
+     "explanation": "“Leren” wordt “onderwijzen”."
+    },
+    {
+     "prompt": "Hoe wordt dahraja onovergankelijk?",
+     "options": [
+      "Door een letter weg te laten",
+      "Door een hamza",
+      "Door een ta' toe te voegen: tadahraja",
+      "Door verplaatsing naar af'ala"
+     ],
+     "explanation": "Tafa'lala is zijn meegaandheid."
+    },
+    {
+     "prompt": "Welke vormen komen niet van het onovergankelijke?",
+     "options": [
+      "De mudari'",
+      "De masdar",
+      "Het gebod",
+      "Het passief en het passief deelwoord"
+     ],
+     "explanation": "Het passief en het passief deelwoord hebben een voorwerp nodig, dus een onovergankelijk werkwoord geeft ze niet."
+    },
+    {
+     "prompt": "Kasara → inkasara verandert het werkwoord…",
+     "options": [
+      "van overgankelijk naar onovergankelijk",
+      "van onovergankelijk naar overgankelijk",
+      "van madi naar mudari'",
+      "van actief naar passief"
+     ],
+     "explanation": "Door verplaatsing naar de bab van inkasara."
+    },
+    {
+     "prompt": "Akhrajtuhu betekent…",
+     "options": [
+      "Ik ging naar buiten",
+      "Ik bracht hem naar buiten",
+      "Hij bracht mij naar buiten",
+      "Ik werd naar buiten gebracht"
+     ],
+     "explanation": "De hamza van af'ala maakte kharaja overgankelijk."
+    }
+   ],
+   "diagram": {
+    "labels": {
+     "Changing transitivity": "Overgankelijkheid veranderen",
+     "Intransitive to transitive": "Onovergankelijk naar overgankelijk",
+     "a hamza at the start": "een hamza vooraan",
+     "the ʿayn doubled": "de 'ayn verdubbeld",
+     "a particle of jarr": "een partikel van de jarr",
+     "the tāʾ dropped": "de ta' weggelaten",
+     "Transitive to intransitive": "Overgankelijk naar onovergankelijk",
+     "the causes removed": "de oorzaken weggenomen",
+     "moved to inkasara": "verplaatst naar inkasara",
+     "a tāʾ added to faʿlala": "een ta' toegevoegd aan fa'lala"
+    }
+   }
+  },
+  "16": {
+   "title": "Wederkerigheid; de veranderingen van ifta'ala; de letters van de toevoeging",
+   "body": [
+    "Fa'ala [met alif] is voor de wederkerigheid tussen twee: nadaltuhu, “ik wedijverde met hem in het schieten”, “behalve in een paar gevallen”: taraqtu al-na'la, “ik naaide een tweede zool op de sandaal”, 'aqabtu al-lissa, “ik strafte de dief”, waar maar één persoon handelt. Tafa'ala is voor de wederkerigheid tussen twee of meer: tadafa'na, “wij duwden elkaar”, tasalaha al-qawmu, “het volk sloot vrede”; en het kan laten zien wat er van binnen niet is: tamaradtu, “ik veinsde ziekte”, dat wil zeggen: ik toonde ziekte en had die niet.",
+    "Dan de ta' van ifta'ala, die naast sommige letters verandert. Als de fa' van het werkwoord een van de bedekte letters (huruf al-itbaq) is, sad, dad, de zware ta' en za', wordt de ta' een zware ta': istabara, idtaraba, ittarada, izzahara. Als de fa' een dal, een dhal of een zay is, wordt de ta' een dal: iddama'a, iddakara (met de dhal in de dal samengetrokken), izdajara. De zware, “bedekte” letters trekken de lichte ta' naar zich toe.",
+    "Als de fa' een waw, een ya' of een tha' is, verandert hij in een ta' en wordt hij samengetrokken in de ta' van ifta'ala: ittaqa, “zich behoeden, God vrezen” (van w-q-y), ittasara, “maysir spelen” (van y-s-r), ittaghara, “de melktanden verliezen” (van th-gh-r). Het bekende woord taqwa en het werkwoord ittaqa in de Koran komen uit deze verandering.",
+    "Ten slotte de tien letters die in naamwoorden en werkwoorden worden toegevoegd, samengebracht in de zin al-yawma tansahu, “vandaag vergeet je het”: hamza, lam, ya', waw, mim, ta', nun, sin, alif en ha'. Elke toegevoegde letter in de patronen van de Bina is er een van. Een beginner kan elk patroon controleren: de hamza van af'ala, de sin en ta' van istaf'ala, de nun van infa'ala, de mim van maf'al."
+   ],
+   "terms": [
+    "de bedekte letters: sad, dad, de zware ta', za'",
+    "laten zien wat er van binnen niet is: tamarada",
+    "de tien letters van de toevoeging: al-yawma tansahu",
+    "de verandering van de ta' van ifta'ala"
+   ],
+   "examples": [
+    "tamaradtu, “ik veinsde ziekte”: tafa'ala om te laten zien wat er van binnen niet is",
+    "de ta' van ifta'ala wordt een zware ta' na de bedekte letters",
+    "de ta' wordt een dal na dal, dhal en zay",
+    "een fa' die een waw, ya' of tha' is, wordt een ta' en wordt samengetrokken"
+   ],
+   "tasks": [
+    {
+     "prompt": "Wat zou ifta'ala van sabara volgens het gewone patroon zijn, en wat zegt het Arabisch? Leg uit.",
+     "answer": "Volgens het gewone patroon zou het istabara (met gewone ta') zijn. Omdat de fa' een sad is, een bedekte letter, wordt de ta' een zware ta': istabara (met zware ta'), “geduldig zijn, volharden”."
+    },
+    {
+     "prompt": "Van welke wortels komen ittaqa en iddakara, en wat is er in elk gebeurd?",
+     "answer": "Ittaqa komt van w-q-y: de waw veranderde in een ta' en werd samengetrokken in de ta' van ifta'ala. Iddakara komt van dh-k-r: de ta' werd een dal na de dhal, en de dhal werd in de dal samengetrokken."
+    },
+    {
+     "prompt": "Noem de tien letters van de toevoeging en zoek de toegevoegde letters van istakhraja en mukram daaronder.",
+     "answer": "Al-yawma tansahu: hamza, lam, ya', waw, mim, ta', nun, sin, alif, ha'. Istakhraja: de hamza, sin en ta'. Mukram: de mim."
+    },
+    {
+     "prompt": "Tamaradtu: wat voegt tafa'ala hier toe, en hoe verschilt het van tasalaha al-qawmu?",
+     "answer": "Tamaradtu betekent laten zien wat er van binnen niet is: “ik veinsde ziekte”. Tasalaha al-qawmu is wederkerigheid: het volk sloot onderling vrede."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Taraqtu al-na'la laat fa'ala [met alif] zien…",
+     "options": [
+      "zonder wederkerigheid: één persoon handelt",
+      "voor wederkerigheid tussen twee",
+      "voor meegaandheid",
+      "voor zoeken"
+     ],
+     "explanation": "Een van de “paar gevallen”."
+    },
+    {
+     "prompt": "Wat betekent tamaradtu?",
+     "options": [
+      "Ik werd ziek",
+      "Ik veinsde ziekte",
+      "Ik verzorgde de zieke",
+      "Wij waren allemaal ziek"
+     ],
+     "explanation": "Tafa'ala om te laten zien wat er van binnen niet is."
+    },
+    {
+     "prompt": "Na een sad als fa' wordt de ta' van ifta'ala…",
+     "options": [
+      "een dal",
+      "een tha'",
+      "een zware ta'",
+      "hij blijft"
+     ],
+     "explanation": "Na een sad wordt de ta' van ifta'ala een zware ta': istabara met zware ta', niet met gewone ta'."
+    },
+    {
+     "prompt": "Na een zay als fa' wordt de ta'…",
+     "options": [
+      "een zware ta'",
+      "een zay",
+      "hij blijft",
+      "een dal"
+     ],
+     "explanation": "Na een zay wordt de ta' van ifta'ala een dal: izdajara, niet iztajara."
+    },
+    {
+     "prompt": "Ittaqa komt van de wortel…",
+     "options": [
+      "w-q-y",
+      "t-q-y",
+      "'-t-q",
+      "t-q-w"
+     ],
+     "explanation": "De waw werd een ta' en werd samengetrokken."
+    },
+    {
+     "prompt": "Welke zin brengt de letters van de toevoeging samen?",
+     "options": [
+      "Anaytu",
+      "Al-yawma tansahu",
+      "Atayna",
+      "Sahih-ast"
+     ],
+     "explanation": "Hamza, lam, ya', waw, mim, ta', nun, sin, alif, ha'."
+    },
+    {
+     "prompt": "Welke zijn de bedekte letters (itbaq)?",
+     "options": [
+      "Dal, dhal, zay",
+      "Waw, ya', alif",
+      "Sad, dad, de zware ta', za'",
+      "Ha', kha', 'ayn, ghayn"
+     ],
+     "explanation": "Ze trekken de ta' naar de zware ta'."
+    }
+   ],
+   "diagram": {
+    "caption": "De ta' van ifta'ala naast de eerste stamletter",
+    "labels": {
+     "First root letter": "Eerste stamletter",
+     "The tāʾ becomes": "De ta' wordt",
+     "Examples": "Voorbeelden",
+     "d, dh, z": "d, dh, z",
+     "dāl": "dal",
+     "w, y, th": "w, y, th",
+     "the fāʾ becomes tāʾ, doubled": "de fa' wordt ta', verdubbeld",
+     "any other": "elke andere",
+     "stays tāʾ": "blijft ta'"
+    }
+   }
+  },
+  "17": {
+   "title": "Hoe je een toegevoegde letter beoordeelt; welke babs een voorwerp nemen",
+   "body": [
+    "Een praktische regel: “als een woord meer dan drie letters heeft en een van deze letters erin staat, beoordeel haar dan als toegevoegd, tenzij het woord zonder haar geen betekenis heeft”, zoals in waswasa, waarvan de waws stamletters zijn, omdat er zonder hen niets overblijft. In akrama is de hamza dus toegevoegd (k-r-m betekent zonder haar edelheid), en in maktub de mim en de waw; maar in waswasa is niets toegevoegd.",
+    "Dan een overzicht van de babs. “De babs van de vierletterige madi zijn allemaal overgankelijk, behalve darbakha.” De vijfletterige babs zijn allemaal onovergankelijk behalve drie, ifta'ala, tafa''ala en tafa'ala, die tussen beide gedeeld zijn. De zesletterige babs zijn allemaal onovergankelijk behalve istaf'ala, dat gedeeld is, en twee woorden van if'anla [met alif] die overgankelijk zijn: israndahu en ighrandahu, “hij overwon hem en onderwierp hem”.",
+    "Het overzicht is een gids voor de beginner, geen wet zonder uitzonderingen: de Bina gaf asbaha al-rajulu als een onovergankelijk af'ala, en de Maqsud zelf zal het in de volgende les onder de betekenissen van de hamza noemen. Lees “allemaal” als “bijna allemaal”, en verwacht dat het woordenboek het laatste woord heeft.",
+    "Wat het overzicht wel laat zien, is de vorm van het systeem. De korte vermeerderde vormen voegen meestal een voorwerp toe (akrama, 'allama, qatala [met alif]); de langere nemen het meestal weg (inkasara, ihmarra, iqsha'arra). Letters vooraan een werkwoord toevoegen keert zijn handeling meestal terug naar de doener."
+   ],
+   "terms": [
+    "een letter als toegevoegd beoordelen",
+    "gedeeld: overgankelijk of onovergankelijk",
+    "onovergankelijk (meervoud van lazim)"
+   ],
+   "examples": [
+    "waswasa, “fluisteren”: zijn waws zijn stamletters, omdat het zonder hen geen betekenis heeft",
+    "“allemaal overgankelijk behalve darbakha”: de vierletterige babs",
+    "israndahu en ighrandahu, “hij overwon hem”: twee overgankelijke woorden van if'anla [met alif]"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke letters zijn in elk toegevoegd: maktub; istakhraja; waswasa; inkasara?",
+     "answer": "Maktub: de mim en de waw (wortel k-t-b). Istakhraja: de hamza, sin en ta' (wortel kh-r-j). Waswasa: geen; alle vier zijn stamletters. Inkasara: de hamza en de nun (wortel k-s-r)."
+    },
+    {
+     "prompt": "Welke vijfletterige babs kunnen overgankelijk zijn? Geef een voorbeeld van een met een voorwerp, uit de eerdere lessen.",
+     "answer": "Ifta'ala, tafa''ala en tafa'ala. Voorbeeld: ta'allamtu al-'ilma, “ik leerde de kennis” (tafa''ala met een voorwerp)."
+    },
+    {
+     "prompt": "Waarom moet “allemaal” in dit overzicht gelezen worden als “bijna allemaal”?",
+     "answer": "Omdat er bekende uitzonderingen zijn naast die welke het boek noemt: de Bina gaf asbaha al-rajulu, een onovergankelijk af'ala, hoewel de Maqsud de vierletterige babs overgankelijk noemt; en de Maqsud zelf noemt asbaha onder de betekenissen van de hamza."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wanneer wordt een letter van de toevoeging in een lang woord als toegevoegd beoordeeld?",
+     "options": [
+      "Altijd",
+      "Tenzij het woord zonder haar geen betekenis heeft",
+      "Nooit",
+      "Alleen vooraan"
+     ],
+     "explanation": "Waswasa is de uitzondering die het boek geeft."
+    },
+    {
+     "prompt": "Welke vierletterige bab wordt als onovergankelijk genoemd?",
+     "options": [
+      "Dahraja",
+      "Akrama",
+      "Darbakha",
+      "Qatala [met alif]"
+     ],
+     "explanation": "“Allemaal overgankelijk behalve darbakha.”"
+    },
+    {
+     "prompt": "Welke vijfletterige babs zijn gedeeld tussen overgankelijk en onovergankelijk?",
+     "options": [
+      "Infa'ala, if'alla, tafa'ala",
+      "Alle vijf",
+      "Geen",
+      "Ifta'ala, tafa''ala, tafa'ala"
+     ],
+     "explanation": "De andere twee zijn onovergankelijk."
+    },
+    {
+     "prompt": "Welke zesletterige bab is gedeeld?",
+     "options": [
+      "Istaf'ala",
+      "If'aw'ala",
+      "If'alla [met alif]",
+      "If'awwala"
+     ],
+     "explanation": "Istakhraja al-mala, istahjara al-tinu."
+    },
+    {
+     "prompt": "Wat betekenen israndahu en ighrandahu?",
+     "options": [
+      "Hij vreesde hem",
+      "Hij overwon hem en onderwierp hem",
+      "Hij volgde hem",
+      "Hij schreef hem"
+     ],
+     "explanation": "Twee overgankelijke woorden van if'anla [met alif]."
+    },
+    {
+     "prompt": "In waswasa zijn de waws…",
+     "options": [
+      "toegevoegde letters",
+      "zwak en weggevallen",
+      "stamletters",
+      "de nun van nadruk"
+     ],
+     "explanation": "Zonder hen heeft het woord geen betekenis."
+    },
+    {
+     "prompt": "De langere vermeerderde vormen…",
+     "options": [
+      "voegen meestal een voorwerp toe",
+      "hebben geen masdar",
+      "zijn passief",
+      "nemen meestal het voorwerp weg"
+     ],
+     "explanation": "Inkasara, ihmarra, iqsha'arra."
+    }
+   ],
+   "diagram": {
+    "caption": "Overgankelijke en onovergankelijke babs, zoals de Maqsud ze overziet",
+    "labels": {
+     "Bābs": "Babs",
+     "Mostly": "Meestal",
+     "Exceptions": "Uitzonderingen",
+     "four-letter past": "vierletterige madi",
+     "transitive": "overgankelijk",
+     "five-letter past": "vijfletterige madi",
+     "intransitive": "onovergankelijk",
+     "افْتَعَلَ، تَفَعَّلَ، تَفَاعَلَ (both)": "افْتَعَلَ، تَفَعَّلَ، تَفَاعَلَ (beide)",
+     "six-letter past": "zesletterige madi",
+     "اسْتَفْعَلَ (both); اسْرَنْدَاهُ، اغْرَنْدَاهُ": "اسْتَفْعَلَ (beide); اسْرَنْدَاهُ، اغْرَنْدَاهُ"
+    }
+   }
+  },
+  "18": {
+   "title": "De betekenissen van af'ala en istaf'ala",
+   "body": [
+    "“De hamza van af'ala komt voor verschillende betekenissen.” Overgankelijk maken: akramtuhu, “ik eerde hem”. Worden (sayrura): amsha al-rajulu, “de man kwam vee (mashiya) te bezitten”. Vinden (wijdan): abkhaltuhu, “ik vond hem gierig”. Het aanbreken van de tijd (haynuna): ahsada al-zar'u, “het gewas was rijp voor de oogst”. Wegnemen (izala): ashkaytuhu, “ik nam zijn klacht weg”. Binnengaan (dukhul): asbaha al-rajulu, “de man kwam in de ochtend”. Overvloed (kathra): albana al-rajulu, “de man had veel melk”.",
+    "“De sin van istaf'ala komt voor verschillende betekenissen.” Zoeken (talab): astaghfiru llaha, “ik vraag God om vergeving”. Vragen (su'al): istakhbara, “hij vroeg om nieuws”. Veranderen in (tahawwul): istakhalla al-khamru, “de wijn werd azijn (khall)”. Houden voor (i'tiqad): istakramtuhu, “ik hield hem voor edel”. Vinden (wijdan): istajadtu shay'an, “ik vond iets goeds”. De formule zeggen (taslim): istarja'a al-qawmu 'inda al-musibati, “de mensen zeiden bij het onheil: inna li-llahi wa-inna ilayhi raji'un”, “wij behoren aan God toe en tot Hem keren wij terug”.",
+    "Deze lijsten zijn het begin van de studie van de betekenis in de sarf. Ze leren de student bij elk vermeerderd werkwoord te vragen wat zijn toegevoegde letter met de wortel heeft gedaan: hem overgankelijk gemaakt, er een toestand van gemaakt, een oordeel, een verzoek. Een woordenboek geeft de betekenis van een woord; de patronen verklaren haar.",
+    "Let erop dat sommige betekenissen in meerdere patronen terugkomen: “vinden” staat in beide lijsten (abkhaltuhu, istajadtu), en “zoeken” staat bij istaf'ala, zoals de Bina al zei. De madrasa leert de lijsten uit het hoofd met hun voorbeelden, zoals hier."
+   ],
+   "terms": [
+    "worden: amsha, “kwam vee te bezitten”",
+    "iets zo bevinden: abkhaltuhu",
+    "het aanbreken van de tijd: ahsada al-zar'u",
+    "wegnemen: ashkaytuhu",
+    "zoeken; veranderen in",
+    "houden voor: istakramtuhu"
+   ],
+   "examples": [
+    "abkhaltuhu, “ik vond hem gierig”: af'ala voor vinden",
+    "ahsada al-zar'u, “het gewas was rijp voor de oogst”: het aanbreken van de tijd",
+    "istakhalla al-khamru, “de wijn werd azijn”: istaf'ala voor veranderen in",
+    "istarja'a al-qawmu 'inda al-musibati: zij zeiden “wij behoren aan God toe en tot Hem keren wij terug”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de betekenis van de toegevoegde letter in elk: abkhaltuhu; istakramtuhu; asbaha al-rajulu; istakhbara.",
+     "answer": "Abkhaltuhu: vinden (ik vond hem gierig). Istakramtuhu: houden voor (ik hield hem voor edel). Asbaha: binnengaan (in de ochtend). Istakhbara: vragen (hij vroeg om nieuws)."
+    },
+    {
+     "prompt": "Wat betekent istarja'a, en van welk woord van de formule komt het?",
+     "answer": "Bij een onheil inna li-llahi wa-inna ilayhi raji'un zeggen; het is gemaakt van raji'un, de wortel r-j-', “terugkeren”."
+    },
+    {
+     "prompt": "Welke betekenis staat in beide lijsten? Geef van elk een voorbeeld.",
+     "answer": "Vinden (wijdan): abkhaltuhu, “ik vond hem gierig” (af'ala), en istajadtu shay'an, “ik vond iets goeds” (istaf'ala)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Amsha al-rajulu betekent…",
+     "options": [
+      "De man liep",
+      "De man kwam in de avond",
+      "De man kwam vee te bezitten",
+      "De man vond een loper"
+     ],
+     "explanation": "Af'ala voor worden (sayrura)."
+    },
+    {
+     "prompt": "Ahsada al-zar'u laat zien…",
+     "options": [
+      "wegnemen",
+      "vinden",
+      "overvloed",
+      "het aanbreken van de tijd van een handeling"
+     ],
+     "explanation": "Het gewas was rijp voor de oogst."
+    },
+    {
+     "prompt": "Ashkaytuhu betekent…",
+     "options": [
+      "Ik nam zijn klacht weg",
+      "Ik klaagde over hem",
+      "Ik liet hem klagen",
+      "Ik vond hem klagend"
+     ],
+     "explanation": "Af'ala voor wegnemen (izala)."
+    },
+    {
+     "prompt": "Albana al-rajulu laat zien…",
+     "options": [
+      "wit worden",
+      "overvloed: de man had veel melk",
+      "binnengaan",
+      "melk zoeken"
+     ],
+     "explanation": "Af'ala kan betekenen dat zijn onderwerp veel van iets heeft: albana al-rajulu, de man had veel melk."
+    },
+    {
+     "prompt": "Istakhalla al-khamru betekent…",
+     "options": [
+      "Hij zocht azijn",
+      "De wijn werd geschonken",
+      "De wijn werd azijn",
+      "Hij hield het voor wijn"
+     ],
+     "explanation": "Istaf'ala voor veranderen in."
+    },
+    {
+     "prompt": "Istakramtuhu betekent…",
+     "options": [
+      "Ik eerde hem",
+      "Ik zocht zijn eer",
+      "Hij was edel",
+      "Ik hield hem voor edel"
+     ],
+     "explanation": "Istaf'ala voor houden voor (i'tiqad)."
+    },
+    {
+     "prompt": "Astaghfiru llaha laat istaf'ala zien voor…",
+     "options": [
+      "zoeken",
+      "veranderen in",
+      "vinden",
+      "een formule zeggen"
+     ],
+     "explanation": "Ik vraag God om vergeving."
+    }
+   ],
+   "diagram": {
+    "caption": "De betekenissen van de hamza van af'ala en de sin van istaf'ala",
+    "labels": {
+     "Meaning": "Betekenis",
+     "afʿala": "af'ala",
+     "istafʿala": "istaf'ala",
+     "making transitive": "overgankelijk maken",
+     "becoming": "worden",
+     "finding": "vinden",
+     "the time arriving": "het aanbreken van de tijd",
+     "removing": "wegnemen",
+     "entering": "binnengaan",
+     "abundance": "overvloed",
+     "seeking, asking": "zoeken, vragen",
+     "turning into": "veranderen in",
+     "holding to be": "houden voor",
+     "saying the formula": "de formule zeggen"
+    }
+   }
+  },
+  "19": {
+   "title": "De zwakke letters en de klassen",
+   "body": [
+    "“De letters van de lengte (madd), van de zachtheid (lin), van de toevoeging en van de zwakte ('illa) zijn één: de waw, de ya' en de alif.” Vier namen voor drie letters, elke naam voor een van hun kanten: ze verlengen een klinker, ze zijn zacht om uit te spreken, ze zijn de meest voorkomende toegevoegde letters, en ze veranderen en vallen weg.",
+    "Een madi met een van hen vooraan heet zwak en mithal, “lijkend”, “omdat hij op het gave werkwoord lijkt in het dragen van de klinkers”: wa'ada, yasara. Met een in het midden, ajwaf, “hol”: qala, ba'a. Aan het eind, naqis, “gebrekkig”: ghaza, rama. Met twee, verbonden lafif als het de 'ayn en de lam zijn (rawiya, shawa), gescheiden lafif als het de fa' en de lam zijn (waqa).",
+    "“Elk werkwoord waarvan de 'ayn en de lam van één soort zijn, waarbij de eerste vanwege de zwaarte in de tweede is samengetrokken, heet verdubbeld”: madda. En elk werkwoord met een hamza is mahmuz al-fa', al-'ayn of al-lam naar haar plaats: akhadha, sa'ala, qara'a. “Elk werkwoord dat vrij is van deze zes klassen heet gaaf (sahih)”, en zijn vervoeging is gegeven; “we geven nu kort de behandeling van de zes klassen.”",
+    "De klassen van de Maqsud zijn die van de Bina, en zijn laatste hoofdstuk is de reden voor deze les: vanaf hier wordt elke verandering van een zwakke letter vanuit haar grondvorm uitgelegd. Het vervoegingshulpmiddel, dat alleen gave wortels geeft, houdt hier op; elke vorm in de volgende elf lessen komt uit de druk."
+   ],
+   "terms": [
+    "de letters van lengte en zachtheid: w, y, a",
+    "zwak in de fa'; hij lijkt op het gave werkwoord",
+    "hol: zwak in de 'ayn",
+    "gebrekkig: zwak in de lam",
+    "twee zwakke letters, verbonden of gescheiden"
+   ],
+   "examples": [
+    "wa'ada, yasara: mithal",
+    "qala, ba'a: ajwaf",
+    "ghaza, rama: naqis",
+    "rawiya, shawa: verbonden lafif; waqa: gescheiden lafif"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de vier namen van de waw, de ya' en de alif en wat elke naam over hen zegt.",
+     "answer": "Letters van de lengte (madd): ze verlengen een klinker. Van de zachtheid (lin): ze zijn zacht om uit te spreken. Van de toevoeging (zawa'id): ze behoren tot de meest voorkomende toegevoegde letters. Van de zwakte ('illa): ze veranderen en vallen weg."
+    },
+    {
+     "prompt": "Waarom heet het werkwoord dat zwak is in zijn fa' mithal?",
+     "answer": "Omdat het lijkt (yumathilu) op het gave werkwoord in het dragen van de klinkers: in zijn madi, wa'ada, neemt de waw een klinker zoals elke gave letter."
+    },
+    {
+     "prompt": "Noem de klasse: ba'a; rawiya; sa'ala; waqa; madda; kataba.",
+     "answer": "Ba'a: ajwaf. Rawiya: verbonden lafif. Sa'ala: mahmuz al-'ayn. Waqa: gescheiden lafif. Madda: verdubbeld. Kataba: gaaf."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welke letters zijn de letters van de zwakte?",
+     "options": [
+      "Hamza en ha'",
+      "De keelletters",
+      "Nun en mim",
+      "Waw, ya' en alif"
+     ],
+     "explanation": "Ook letters van de lengte, de zachtheid en de toevoeging genoemd."
+    },
+    {
+     "prompt": "Waarom heet de mithal zo?",
+     "options": [
+      "Hij lijkt op het gave werkwoord in het dragen van de klinkers",
+      "Hij is een voorbeeld",
+      "Hij heeft twee zwakke letters",
+      "Hij is hol"
+     ],
+     "explanation": "Wa'ada neemt zijn klinkers zoals nasara."
+    },
+    {
+     "prompt": "Ba'a is…",
+     "options": [
+      "mithal",
+      "ajwaf",
+      "naqis",
+      "lafif"
+     ],
+     "explanation": "Zwak in de 'ayn (b-y-')."
+    },
+    {
+     "prompt": "Shawa is…",
+     "options": [
+      "gescheiden lafif",
+      "alleen naqis",
+      "verbonden lafif",
+      "ajwaf"
+     ],
+     "explanation": "Zwakke 'ayn en lam naast elkaar."
+    },
+    {
+     "prompt": "Waarom wordt het verdubbelde werkwoord samengetrokken?",
+     "options": [
+      "Vanwege een regeerder",
+      "Omdat het zwak is",
+      "Vanwege de hamza",
+      "Vanwege de zwaarte"
+     ],
+     "explanation": "“Vanwege de zwaarte” (li-thiqal)."
+    },
+    {
+     "prompt": "Wat is een gaaf (sahih) werkwoord in de Maqsud?",
+     "options": [
+      "Een dat vrij is van de zes klassen",
+      "Een zonder hamza alleen",
+      "Elk kaal werkwoord",
+      "Elk overgankelijk werkwoord"
+     ],
+     "explanation": "Geen zwakke letter, verdubbeling of hamza."
+    },
+    {
+     "prompt": "Waar komen de vormen van de zwakke werkwoorden in de volgende lessen vandaan?",
+     "options": [
+      "Het vervoegingshulpmiddel",
+      "De druk",
+      "De Amthila",
+      "Nergens vandaan"
+     ],
+     "explanation": "Het hulpmiddel geeft alleen gave wortels."
+    }
+   ],
+   "diagram": {
+    "labels": {}
+   }
+  },
+  "20": {
+   "title": "Waw en ya' worden alif",
+   "body": [
+    "De eerste regel van de zwakke werkwoorden: “de waw en de ya' worden een alif als ze een klinker hebben en de letter ervoor een fatha heeft”. Zo qala en kala, van wortels met waw en ya' in het midden; en bij het gebrekkige werkwoord ghaza en rama, van wortels die op waw en ya' eindigen. De alif die je ziet, is geen stamletter maar een vermomde waw of ya'.",
+    "Waar de regel niet geldt, laat de letter zich zien. In het tweevoud: ghazawa, ramaya, de waw en ya' houden hun plaats. In het meervoud van de vrouwen, de vormen van de aangesprokene en van de spreker hebben de waw en ya' een eigen sukun, en “een waw of ya' zonder klinker wordt alleen een alif waar haar sukun niet oorspronkelijk is”, waar haar klinker is overgegaan naar de letter ervoor, zoals in aqama en aba'a.",
+    "Het meervoud van de mannen: ghazaw en ramaw. Hun grondvorm is ghazawu en ramayu. Volgens de regel worden de waw en ya' alif; dan komen twee letters zonder klinker samen, de alif en de waw van het meervoud; en de alif valt weg. Wat overblijft is ghazaw, ramaw, met een fatha voor de waw van het meervoud die aangeeft waar de verloren letter stond.",
+    "Het tweevoud van de vrouwen: ghazata en ramata, van ghazawata en ramayata. De waw en ya' worden alif; de alif valt weg omdat ze de ta' ontmoet, waarvan de sukun oorspronkelijk is (zoals in ghazat, ramat); de ta' kreeg alleen een klinker vanwege de alif van het tweevoud, “en haar klinker is bijkomend, en het bijkomende is alsof het er niet is”. Dit laatste gezegde is een sleutel tot veel veranderingen in de sarf."
+   ],
+   "terms": [
+    "de ene letter in de andere veranderen",
+    "een oorspronkelijke sukun",
+    "het bijkomende is alsof het er niet is",
+    "het samenkomen van twee letters zonder klinker"
+   ],
+   "examples": [
+    "qala, kala, ghaza, rama: een waw of ya' met klinker na een fatha wordt alif",
+    "ghazawa, ramaya: het tweevoud, geen verandering",
+    "ghazaw, ramaw, van ghazawu en ramayu",
+    "ghazata, ramata, van ghazawata en ramayata"
+   ],
+   "tasks": [
+    {
+     "prompt": "Leg uit, zoals de Maqsud doet, hoe ramayu ramaw wordt.",
+     "answer": "De ya' heeft een klinker en een fatha ervoor, dus wordt ze een alif; de alif ontmoet de waw van het meervoud zonder klinker; twee letters zonder klinker kunnen niet samenkomen, dus valt de alif weg: ramaw."
+    },
+    {
+     "prompt": "Waarom houden ghazawa en ramaya hun waw en ya'?",
+     "answer": "Het boek zegt alleen dat ze in het tweevoud niet in alif veranderen. De gebruikelijke reden: in alif veranderd zou de alif van de wortel de alif van het tweevoud ontmoeten, een ervan zou wegvallen, en het tweevoud zou eruitzien als het enkelvoud, ghaza."
+    },
+    {
+     "prompt": "Waarom valt de alif weg in ghazata, hoewel de ta' daar een klinker heeft?",
+     "answer": "De sukun van de ta' is oorspronkelijk (ghazat); ze kreeg alleen een fatha vanwege de alif van het tweevoud. Die klinker is bijkomend, en het bijkomende telt alsof het er niet is, dus valt de alif weg zoals voor een letter zonder klinker."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wanneer worden de waw en ya' alif?",
+     "options": [
+      "Als ze een klinker hebben en er een fatha voor staat",
+      "Altijd",
+      "Als ze geen klinker hebben",
+      "Aan het begin van een woord"
+     ],
+     "explanation": "Qala, kala, ghaza, rama."
+    },
+    {
+     "prompt": "Wat is de grondvorm van ghazaw?",
+     "options": [
+      "Ghaza",
+      "Ghazawu",
+      "Ghazawa",
+      "Ghazuw"
+     ],
+     "explanation": "De waw werd alif, en daarna viel de alif weg."
+    },
+    {
+     "prompt": "Ramaya is…",
+     "options": [
+      "het meervoud",
+      "in alif veranderd",
+      "het tweevoud, onveranderd",
+      "het vrouwelijk tweevoud"
+     ],
+     "explanation": "Geen verandering in het tweevoud."
+    },
+    {
+     "prompt": "Wat verklaart “het bijkomende is alsof het er niet is” hier?",
+     "options": [
+      "Waarom het tweevoud onveranderd is",
+      "Waarom qala een alif heeft",
+      "Waarom de hamza wegvalt",
+      "Waarom de alif wegvalt in ghazata"
+     ],
+     "explanation": "De klinker van de ta' kwam er alleen voor het tweevoud."
+    },
+    {
+     "prompt": "Ghazata betekent…",
+     "options": [
+      "zij tweeën (vrouwen) trokken ten strijde",
+      "zij (mannen) trokken ten strijde",
+      "zij trok ten strijde",
+      "jullie tweeën trokken ten strijde"
+     ],
+     "explanation": "Ghazata is het tweevoud van de afwezige vrouwen, van ghazawata, met de waw in alif veranderd en weggevallen."
+    },
+    {
+     "prompt": "In welke vorm wordt een waw zonder klinker alif?",
+     "options": [
+      "In ghazawtu",
+      "Waar haar klinker naar de letter ervoor is overgegaan, zoals in aqama",
+      "In het tweevoud",
+      "Nooit"
+     ],
+     "explanation": "Haar sukun mag niet oorspronkelijk zijn."
+    },
+    {
+     "prompt": "De alif van qala is…",
+     "options": [
+      "een stamalif",
+      "een toegevoegde letter",
+      "een waw die alif is geworden",
+      "de alif van het tweevoud"
+     ],
+     "explanation": "De wortel van qala is q-w-l: zijn alif is een waw met klinker na een fatha, in alif veranderd."
+    }
+   ],
+   "diagram": {
+    "caption": "Grondvorm en vorm in de madi van het gebrekkige werkwoord (al-Maqsud, p. 200)",
+    "labels": {
+     "Base": "Grondvorm",
+     "Change": "Verandering",
+     "Form": "Vorm",
+     "wāw → alif, alif dropped": "waw → alif, alif weggevallen",
+     "yāʾ → alif, alif dropped": "ya' → alif, alif weggevallen",
+     "wāw → alif, dropped before the tāʾ": "waw → alif, weggevallen voor de ta'",
+     "yāʾ → alif, dropped before the tāʾ": "ya' → alif, weggevallen voor de ta'"
+    }
+   }
+  },
+  "21": {
+   "title": "Qulna en kilna; de ya' na kasra en damma",
+   "body": [
+    "Het meervoud van de vrouwen van het holle werkwoord: qulna en kilna, “zij (vrouwen) zeiden, maten”. Hun grondvorm is qawalna en kayalna. De waw en ya' worden alif (met klinker, na een fatha); de alif valt weg omdat ze de lam zonder klinker ontmoet; dat laat qalna en kalna over, met een fatha op de eerste letter.",
+    "“Toen werd de fatha van de qaf in een damma veranderd, en die van de kaf in een kasra, zodat de damma naar de weggevallen waw zou wijzen en de kasra naar de weggevallen ya'; want wat uit de damma geboren wordt, is de waw, uit de kasra de ya', en uit de fatha de alif.” De klinker die achterblijft, is een teken van de letter die verdwenen is: qulna vertelt je dat de wortel een waw heeft, kilna dat hij een ya' heeft. Hetzelfde geldt voor qultu, “ik zei”, en kiltu.",
+    "Nog twee regels. Een ya' na een kasra blijft zoals ze is, zonder klinker, of met een klinker als die klinker een fatha is: khashiya, “hij vreesde”, khashitu, “ik vreesde”. En een ya' zonder klinker na een damma wordt een waw: aysara yusiru, “welgesteld zijn”, waarvan de grondvorm yuysiru is.",
+    "Achter al deze regels ligt één gedachte die het boek net heeft uitgesproken: elke korte klinker heeft zijn lange letter, damma met waw, kasra met ya', fatha met alif. Een zwakke letter volgt meestal de klinker ervoor; en als ze wegvalt, blijft de klinker om haar te gedenken."
+   ],
+   "terms": [
+    "wat uit de damma geboren wordt: de waw",
+    "hol met waw, hol met ya'",
+    "wijzen naar de weggevallen letter"
+   ],
+   "examples": [
+    "qulna, kilna: van qawalna en kayalna",
+    "qalna, kalna: de stap ervoor, met de alif weggevallen",
+    "khashiya, khashitu: een ya' na kasra blijft",
+    "aysara yusiru: een ya' zonder klinker na damma wordt waw"
+   ],
+   "tasks": [
+    {
+     "prompt": "Leg stap voor stap uit hoe qawalna qulna wordt.",
+     "answer": "De waw heeft een klinker en een fatha ervoor, dus wordt ze een alif; de alif ontmoet de lam zonder klinker en valt weg, zodat qalna overblijft; dan wordt de fatha van de qaf een damma om naar de weggevallen waw te wijzen: qulna."
+    },
+    {
+     "prompt": "Waarom kilna met een kasra en niet kulna?",
+     "answer": "Omdat de weggevallen letter van k-y-l een ya' is, en de klinker die bij de ya' hoort, is de kasra; de damma zou naar een waw wijzen."
+    },
+    {
+     "prompt": "Wat is de grondvorm van yusiru, en welke regel verandert hem?",
+     "answer": "Yuysiru. Een ya' zonder klinker na een damma wordt een waw: yusiru."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is de grondvorm van qulna?",
+     "options": [
+      "Qalna [met alif]",
+      "Qawalna",
+      "Quluna",
+      "Qaylna"
+     ],
+     "explanation": "Qulna is fa'alna op q-w-l: qawalna, voordat de waw in alif veranderde en wegviel."
+    },
+    {
+     "prompt": "Waarom heeft qulna een damma op de qaf?",
+     "options": [
+      "Omdat het passief is",
+      "Vanwege de nun",
+      "Om naar de weggevallen waw te wijzen",
+      "Bij toeval"
+     ],
+     "explanation": "Wat uit de damma geboren wordt, is de waw."
+    },
+    {
+     "prompt": "Welke klinker hoort volgens het boek bij de ya'?",
+     "options": [
+      "Damma",
+      "Fatha",
+      "Sukun",
+      "Kasra"
+     ],
+     "explanation": "Het boek zegt dat de ya' uit de kasra geboren wordt, de waw uit de damma, de alif uit de fatha: vandaar kilna."
+    },
+    {
+     "prompt": "In khashitu blijft de ya'…",
+     "options": [
+      "staan, na een kasra",
+      "wordt alif",
+      "valt weg",
+      "wordt waw"
+     ],
+     "explanation": "Een ya' na kasra blijft."
+    },
+    {
+     "prompt": "Wat is de grondvorm van yusiru?",
+     "options": [
+      "Yawsiru",
+      "Yuysiru",
+      "Yaysiru",
+      "Yusaru"
+     ],
+     "explanation": "Ya' zonder klinker na damma → waw."
+    },
+    {
+     "prompt": "Wat blijft er over nadat de alif uit qalna [met alif] is weggevallen?",
+     "options": [
+      "Qulna",
+      "Qilna",
+      "Qalna",
+      "Qawlna"
+     ],
+     "explanation": "Daarna wordt de klinker veranderd: qulna."
+    },
+    {
+     "prompt": "Kilna betekent…",
+     "options": [
+      "zij (vrouwen) zeiden",
+      "ik mat",
+      "meet!",
+      "zij (vrouwen) maten"
+     ],
+     "explanation": "Van kala, wortel k-y-l."
+    }
+   ],
+   "diagram": {
+    "caption": "Van qawalna naar qulna (al-Maqsud, pp. 200–201)",
+    "labels": {
+     "Step": "Stap",
+     "Wāw root": "Wortel met waw",
+     "Yāʾ root": "Wortel met ya'",
+     "base": "grondvorm",
+     "weak letter to alif, then dropped": "zwakke letter naar alif, dan weggevallen",
+     "first vowel changed to point to it": "eerste klinker veranderd om ernaar te wijzen"
+    }
+   }
+  },
+  "22": {
+   "title": "Het passief van de zwakke werkwoorden: qila, du'iya, ghuzu",
+   "body": [
+    "Het passief van het holle werkwoord: qila, “er werd gezegd”, van quwila. “De damma van de qaf voor de kasra van de waw werd zwaar gevonden; de qaf kreeg een sukun en de kasra van de waw ging naar hem over; zo kreeg de qaf een kasra en de waw een sukun; toen werd de waw een ya', omdat een waw zonder klinker na een kasra een ya' wordt.” Drie stappen: de klinker gaat terug, de waw blijft zonder klinker achter, en de waw volgt de kasra.",
+    "Een waw met klinker aan het eind van een woord na een kasra wordt een ya': ghabiya, “dom zijn”, van ghabiwa, de wortel van al-ghabawa, domheid, “het tegendeel van begrip”. En zo du'iya, het passief van da'a, “roepen”, van du'iwa. De ya' die je in du'iya ziet, is een waw die de kasra volgde.",
+    "Het meervoud van de mannen van het passieve gebrekkige werkwoord: ghuzu, “zij werden aangevallen”, van ghuziyu (de waw was in ghuziya al ya' geworden). “De zay kreeg een sukun, de damma van de ya' ging over naar de zay, en de ya' viel weg omdat ze de waw van het meervoud zonder klinker ontmoette”: ghuzu.",
+    "Let op de werkwijze. Elke vorm wordt uitgelegd vanuit een grondvorm die op het regelmatige patroon gebouwd is, fu'ila en fu'ilu, en een of twee korte regels leiden van de grondvorm naar de vorm. Een student die de regels kent, heeft geen aparte tabel voor elk zwak werkwoord nodig; hij heeft het regelmatige patroon en de regels nodig."
+   ],
+   "terms": [
+    "een opeenvolging zwaar vinden",
+    "een klinker naar de letter ervoor verplaatsen",
+    "de grondvorm op het regelmatige patroon"
+   ],
+   "examples": [
+    "qila, “er werd gezegd”, van quwila",
+    "ghabiya, van ghabiwa; du'iya, van du'iwa: een waw aan het eind na kasra wordt ya'",
+    "ghuzu, “zij werden aangevallen”, van ghuziyu"
+   ],
+   "tasks": [
+    {
+     "prompt": "Leg stap voor stap uit hoe quwila qila wordt.",
+     "answer": "De damma van de qaf voor de kasra van de waw is zwaar: de qaf verliest zijn damma en neemt de kasra van de waw; de waw staat nu zonder klinker na een kasra, dus wordt ze een ya': qila."
+    },
+    {
+     "prompt": "Waarom wordt het passief van da'a du'iya geschreven met een ya', hoewel de wortel op een waw eindigt?",
+     "answer": "Zijn grondvorm is du'iwa: een waw met klinker aan het eind van het woord na een kasra wordt een ya'."
+    },
+    {
+     "prompt": "Geef de grondvorm van ghuzu en de twee veranderingen die ertoe leiden.",
+     "answer": "Ghuziyu. De damma van de ya' gaat over naar de zay (die zijn kasra verliest), en de ya', nu zonder klinker, valt weg voor de waw van het meervoud zonder klinker: ghuzu."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is de grondvorm van qila?",
+     "options": [
+      "Qawala",
+      "Qayila",
+      "Quwila",
+      "Qula"
+     ],
+     "explanation": "Wortel q-w-l, passief fu'ila."
+    },
+    {
+     "prompt": "Een waw zonder klinker na een kasra…",
+     "options": [
+      "wordt een alif",
+      "blijft",
+      "valt weg",
+      "wordt een ya'"
+     ],
+     "explanation": "Vandaar de ya' van qila."
+    },
+    {
+     "prompt": "Wat is de grondvorm van ghabiya?",
+     "options": [
+      "Ghabiwa",
+      "Ghabaya",
+      "Ghaba",
+      "Ghabuwa"
+     ],
+     "explanation": "Van al-ghabawa, “domheid”."
+    },
+    {
+     "prompt": "Du'iya is het passief van…",
+     "options": [
+      "da'iya",
+      "da'a, “roepen”",
+      "ad'a",
+      "da''a"
+     ],
+     "explanation": "Du'iya is fu'ila op d-'-w: du'iwa, waarvan de waw aan het eind na een kasra een ya' werd."
+    },
+    {
+     "prompt": "Ghuzu betekent…",
+     "options": [
+      "zij vielen aan",
+      "val aan!",
+      "zij werden aangevallen",
+      "hij werd aangevallen"
+     ],
+     "explanation": "Het passieve meervoud van ghaza."
+    },
+    {
+     "prompt": "Welke opeenvolging werd in quwila zwaar gevonden?",
+     "options": [
+      "Twee fatha's",
+      "Een sukun voor een klinker",
+      "Een hamza",
+      "Een damma voor de kasra van de waw"
+     ],
+     "explanation": "Daarom ging de kasra terug naar de qaf."
+    },
+    {
+     "prompt": "De werkwijze van het hoofdstuk is om elke vorm uit te leggen…",
+     "options": [
+      "vanuit een grondvorm op het regelmatige patroon, met korte regels",
+      "met een aparte tabel",
+      "uit het woordenboek",
+      "naar analogie van het naamwoord"
+     ],
+     "explanation": "Patroon plus regels, geen lijsten."
+    }
+   ],
+   "diagram": {
+    "caption": "Grondvorm en vorm in het passief van de zwakke werkwoorden (al-Maqsud, p. 201)",
+    "labels": {
+     "Base": "Grondvorm",
+     "Rule": "Regel",
+     "Form": "Vorm",
+     "vowel moved back; quiescent wāw after kasra → yāʾ": "klinker teruggeplaatst; waw zonder klinker na kasra → ya'",
+     "final wāw after kasra → yāʾ": "waw aan het eind na kasra → ya'",
+     "vowel moved back; yāʾ dropped before the wāw": "klinker teruggeplaatst; ya' weggevallen voor de waw"
+    }
+   }
+  },
+  "23": {
+   "title": "De mudari' van het holle en het gebrekkige werkwoord",
+   "body": [
+    "De holle mudari': “elke waw en ya' met klinker, met daarvoor een gave letter zonder klinker, geeft haar klinker aan de gave letter”. Yaqulu van yaqwulu, yakilu van yakyilu, yakhafu van yakhwafu. De waw en ya', nu zonder klinker na hun eigen klinker, worden lange klinkers; in yakhafu werd de waw een alif, “omdat haar sukun niet oorspronkelijk is en er een fatha voor staat”.",
+    "De gebrekkige mudari': een waw of ya' met klinker aan het eind, na een letter met klinker, krijgt een sukun, tenzij ze in nasb staat: yaghzu, yarmi, yakhsha, van yaghzuwu, yarmiyu, yakhshayu, “omdat de damma op de waw en de ya' zwaar gevonden wordt”; en de ya' van yakhsha werd een alif, omdat ze een klinker had na een fatha. In nasb houden ze hun klinker, “omdat de fatha op hen licht is”: lan yaghzuwa, lan yarmiya; maar lan yakhsha, want een alif neemt geen klinker. De tweevouden: yaghzuwani, yarmiyani, yakhshayani.",
+    "Het meervoud van de mannen: yaghzuna, yarmuna, yakhshawna, van yaghzuwuna, yarmiyuna, yakhshayuna. De waw en ya' kregen een sukun (de damma is op hen zwaar); twee letters zonder klinker kwamen samen, de zwakke letter en de waw van het meervoud, en de eerste viel weg. In yakhshayuna werd de ya' eerst alif en viel daarna weg, waarbij de fatha achterbleef: yakhshawna; en in yarmuna kreeg de mim een damma “zodat de waw van het meervoud gaaf zou zijn”.",
+    "De aangesproken vrouw: taghzina, van taghzuwina. De zay kreeg een sukun, omdat zijn damma voor de kasra van de waw zwaar was, en nam die kasra; de waw viel weg voor de ya' zonder klinker van de aangesproken vrouw. Elke stap is een van de regels die we al tegenkwamen: een zware klinker weggenomen, een klinker teruggeplaatst, een letter weggevallen waar twee letters zonder klinker samenkomen."
+   ],
+   "terms": [
+    "de klinker geven aan de letter zonder klinker ervoor",
+    "de zwakke letter een sukun geven",
+    "de lichtheid van de fatha, uitgesproken op waw en ya'"
+   ],
+   "examples": [
+    "yaqulu, yakilu, yakhafu: van yaqwulu, yakyilu, yakhwafu",
+    "yaghzu, yarmi, yakhsha: de zwakke letter aan het eind krijgt een sukun",
+    "in nasb wordt de fatha op waw en ya' uitgesproken, niet op alif",
+    "het meervoud: de zwakke letter valt weg voor de waw van het meervoud",
+    "taghzina, van taghzuwina"
+   ],
+   "tasks": [
+    {
+     "prompt": "Leg uit hoe yakhwafu yakhafu wordt.",
+     "answer": "De waw met klinker staat na een gave letter zonder klinker (de kha'), dus geeft ze haar fatha aan de kha'; de waw is nu zonder klinker met een fatha ervoor, en haar sukun is niet oorspronkelijk, dus wordt ze een alif: yakhafu."
+    },
+    {
+     "prompt": "Waarom zeggen we lan yarmiya met een fatha op de ya', maar yarmi zonder damma?",
+     "answer": "De damma wordt op de ya' zwaar gevonden, dus in raf' krijgt de ya' een sukun (yarmi); de fatha is licht, dus in nasb wordt ze uitgesproken (lan yarmiya)."
+    },
+    {
+     "prompt": "Leg de fatha voor de waw in yakhshawna uit en de damma in yarmuna.",
+     "answer": "Yakhshayuna: de ya' werd alif (met klinker na een fatha) en viel weg voor de waw van het meervoud, waarbij de fatha achterbleef: yakhshawna. Yarmiyuna: de ya' kreeg een sukun en viel weg, en de mim kreeg een damma zodat de waw van het meervoud gaaf zou zijn: yarmuna."
+    },
+    {
+     "prompt": "Geef de grondvorm van taghzina en zijn veranderingen.",
+     "answer": "Taghzuwina. De damma van de zay voor de kasra van de waw is zwaar: de zay neemt de kasra van de waw; de waw, nu zonder klinker, valt weg voor de ya' zonder klinker: taghzina."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is de grondvorm van yaqulu?",
+     "options": [
+      "Yaqulu zelf",
+      "Yaqawwulu",
+      "Yaqwalu",
+      "Yaqwulu"
+     ],
+     "explanation": "De waw gaf haar damma aan de qaf."
+    },
+    {
+     "prompt": "Waarom is de waw van yakhafu een alif?",
+     "options": [
+      "Haar sukun is niet oorspronkelijk en er staat een fatha voor",
+      "Het is een stamalif",
+      "Vanwege de kha'",
+      "Omdat het passief is"
+     ],
+     "explanation": "De waw van yakhwafu gaf haar fatha aan de kha'; een waw zonder klinker waarvan de sukun niet oorspronkelijk is, na een fatha, wordt alif."
+    },
+    {
+     "prompt": "Welke klinker wordt uitgesproken op de waw en ya' aan het eind van de mudari'?",
+     "options": [
+      "Alleen de damma",
+      "Alleen de fatha",
+      "Alle drie",
+      "Geen"
+     ],
+     "explanation": "Lan yaghzuwa, lan yarmiya."
+    },
+    {
+     "prompt": "Waarom is lan yakhsha zonder fatha?",
+     "options": [
+      "Lan regeert het niet",
+      "Het staat in raf'",
+      "Een alif neemt geen klinker",
+      "Het is een fout"
+     ],
+     "explanation": "De nasb wordt op de alif verondersteld."
+    },
+    {
+     "prompt": "Wat is de grondvorm van yarmuna?",
+     "options": [
+      "Yarmawna",
+      "Yarmuyna",
+      "Yaramuna",
+      "Yarmiyuna"
+     ],
+     "explanation": "De ya' viel weg en de mim kreeg een damma."
+    },
+    {
+     "prompt": "Yakhshayani is…",
+     "options": [
+      "het tweevoud, met de ya' behouden",
+      "het meervoud",
+      "in nasb",
+      "passief"
+     ],
+     "explanation": "In het tweevoud laat de zwakke letter zich zien."
+    },
+    {
+     "prompt": "Taghzina is de vorm van…",
+     "options": [
+      "het meervoud van de vrouwen",
+      "de aangesproken vrouw",
+      "de afwezige vrouw",
+      "het tweevoud"
+     ],
+     "explanation": "Taghzina wordt tegen een vrouw gezegd, van taghzuwina: de waw viel weg voor de ya' van de aangesproken vrouw."
+    }
+   ],
+   "diagram": {
+    "caption": "De mudari' van het gebrekkige werkwoord (al-Maqsud, pp. 202–203)",
+    "labels": {
+     "Form": "Vorm",
+     "wāw: ghazā": "waw: ghaza",
+     "yāʾ: ramā": "ya': rama",
+     "alif: khashiya": "alif: khashiya",
+     "rafʿ": "raf'",
+     "naṣb": "nasb",
+     "dual": "tweevoud",
+     "plural of men": "meervoud van de mannen"
+    }
+   }
+  },
+  "24": {
+   "title": "De deelwoorden van de zwakke werkwoorden",
+   "body": [
+    "Het actief deelwoord van het holle werkwoord: qa'il en ka'il. In de madi heeft men qala en kala; de alif van fa'il wordt toegevoegd, en “twee alifs komen samen: de alif van het deelwoord en de alif die uit de 'ayn van het werkwoord is ontstaan; daarom werd de alif uit de 'ayn een hamza”. Daarom heeft het deelwoord van qala een hamza die zijn wortel niet heeft.",
+    "Het actief deelwoord van het gebrekkige werkwoord houdt zijn ya' in nasb: ra'aytu ghaziyan wa-ramiyan, “ik zag een aanvaller en een werper”. In raf' en jarr: hadha ghazin wa-ramin, marartu bi-ghazin wa-ramin, van ghaziyun en ramiyun: de ya' kreeg een sukun, ontmoette de tanwin, en viel weg; de tanwin blijft. Met het lidwoord verdwijnt de tanwin en komt de ya' terug, zonder klinker: hadha al-ghazi wa-l-rami, marartu bi-l-ghazi wa-l-rami.",
+    "Het passief deelwoord van het holle werkwoord: maqul, van maqwul, “behandeld zoals we zeiden”: de klinker van de waw ging terug, en een van de twee letters zonder klinker viel weg. Van de werkwoorden met ya': makil, van makyul; de klinker van de ya' ging naar de kaf, de ya' viel weg, en de kaf kreeg een kasra om naar de ya' te wijzen, “en toen de kaf een kasra kreeg, werd de waw van het deelwoord een ya'”.",
+    "Het passief deelwoord van het gebrekkige werkwoord: als twee waws samenkomen, de eerste zonder klinker, worden ze samengetrokken: maghzuww, van maghzuw. Als een waw en een ya' samenkomen, de eerste zonder klinker, wordt de waw een ya', krijgt de letter ervoor een kasra, en worden de twee ya's samengetrokken: marmiyy en makhshiyy, van marmuy en makhshuy."
+   ],
+   "terms": [
+    "de alif in een hamza veranderen: qa'il",
+    "een naamwoord dat op ya' na kasra eindigt: ghazin, al-ghazi",
+    "wortels met een ya'",
+    "samentrekking: maghzuww, marmiyy"
+   ],
+   "examples": [
+    "qa'il, ka'il: de alif van de wortel in hamza veranderd",
+    "ra'aytu ghaziyan wa-ramiyan: de ya' behouden in nasb",
+    "de ya' valt weg voor de tanwin; ze komt terug met het lidwoord",
+    "maqul van maqwul; makil van makyul",
+    "maghzuww, marmiyy: samentrekking"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom heeft qa'il een hamza?",
+     "answer": "De alif van fa'il wordt toegevoegd aan qala, waarvan het midden al een alif is (uit de waw). Twee alifs kunnen niet samen staan, dus werd de alif uit de wortel een hamza: qa'il."
+    },
+    {
+     "prompt": "Geef ghazi in de drie toestanden zonder lidwoord, en met lidwoord.",
+     "answer": "Zonder lidwoord: hadha ghazin (raf'), ra'aytu ghaziyan (nasb), marartu bi-ghazin (jarr). Met lidwoord: hadha al-ghazi, ra'aytu al-ghaziya, marartu bi-l-ghazi."
+    },
+    {
+     "prompt": "Leg uit hoe makyul makil wordt.",
+     "answer": "De ya' geeft haar klinker aan de kaf; de ya', nu zonder klinker, valt weg voor de waw zonder klinker; de kaf krijgt een kasra om naar de weggevallen ya' te wijzen; en de waw na een kasra wordt een ya': makil."
+    },
+    {
+     "prompt": "Waarom is het passief deelwoord van rama marmiyy en niet marmuy?",
+     "answer": "In marmuy ontmoet een waw zonder klinker een ya': de waw wordt een ya', de mim ervoor krijgt een kasra, en de twee ya's worden samengetrokken: marmiyy."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarom wordt qa'il met een hamza geschreven?",
+     "options": [
+      "Twee alifs kwamen samen en de alif van de wortel werd hamza",
+      "Het is een stamhamza",
+      "Voor het meervoud",
+      "Per vergissing"
+     ],
+     "explanation": "Alif van fa'il + alif uit de waw."
+    },
+    {
+     "prompt": "Hadha ghazin: wat gebeurde er met de ya'?",
+     "options": [
+      "Ze werd alif",
+      "Ze viel weg voor de tanwin",
+      "Ze bleef",
+      "Ze werd waw"
+     ],
+     "explanation": "In ghaziyun kreeg de ya' een sukun, ontmoette de tanwin zonder klinker, en viel weg: ghazin."
+    },
+    {
+     "prompt": "In ra'aytu ghaziyan wordt de ya'…",
+     "options": [
+      "weggelaten",
+      "alif",
+      "behouden, met een fatha",
+      "zonder klinker"
+     ],
+     "explanation": "De fatha is licht op de ya'."
+    },
+    {
+     "prompt": "Met het lidwoord wordt ghazin…",
+     "options": [
+      "al-ghazin",
+      "al-ghazu",
+      "al-ghaziyy",
+      "al-ghazi"
+     ],
+     "explanation": "De tanwin verdwijnt en de ya' komt terug, zonder klinker."
+    },
+    {
+     "prompt": "De grondvorm van maqul is…",
+     "options": [
+      "Maqwul",
+      "Maqyul",
+      "Maqawwal",
+      "Maquwl"
+     ],
+     "explanation": "Maqul is maf'ul op q-w-l: maqwul, met een van de twee letters zonder klinker weggevallen."
+    },
+    {
+     "prompt": "Maghzuww komt van…",
+     "options": [
+      "maghziyy",
+      "maghzuw, twee waws samengetrokken",
+      "maghzaw",
+      "maghzuy"
+     ],
+     "explanation": "De eerste waw zonder klinker, de tweede met klinker."
+    },
+    {
+     "prompt": "Wat is het passief deelwoord van khashiya?",
+     "options": [
+      "Makhshuw",
+      "Makhsha",
+      "Makhshiyy",
+      "Khashin"
+     ],
+     "explanation": "Makhshuy: de waw werd ya', de shin kreeg een kasra, en de twee ya's werden samengetrokken: makhshiyy."
+    }
+   ],
+   "diagram": {
+    "caption": "De deelwoorden van de zwakke werkwoorden (al-Maqsud, pp. 203–204)",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Active participle": "Actief deelwoord",
+     "Passive participle": "Passief deelwoord",
+     "Base of the passive": "Grondvorm van het passief"
+    }
+   }
+  },
+  "25": {
+   "title": "Gebod en verbod van de zwakke werkwoorden",
+   "body": [
+    "Het gebod aan de afwezige van het holle werkwoord: li-yaqul, van li-yaqul [met lange u]. In de jazm heeft de lam geen klinker; de lange u ontmoet haar; twee letters zonder klinker kunnen niet samenkomen, dus wordt de lange klinker verkort. Het gebod aan de aanwezige: qul, van uqwul. “De klinker van de waw ging over naar de qaf; de waw viel weg omdat ze de lam zonder klinker ontmoette; en de hamza viel weg omdat de qaf nu een klinker had.”",
+    "“En in het tweevoud zeg je qula, omdat de waw terugkomt door de klinker van de lam.” Zodra de lam een klinker heeft (de alif van het tweevoud heeft die nodig), zijn er geen twee letters zonder klinker meer, en de lange u komt terug. Dus qul voor één man en qula [met lange u] voor twee: de zwakke letter valt weg als de lam geen klinker heeft en komt terug als hij een klinker krijgt.",
+    "Het gebrekkige werkwoord: li-yaghzu en li-yarmi, en tegen de aanwezige ughzu en irmi, “door de waw en de ya' weg te laten, omdat de jazm van het gebrekkige werkwoord, en zijn pauze, het wegvallen van de laatste letter van het werkwoord is”. Dit is het teken van de jazm door wegvallen dat de Ajurrumiyya noemde; hier zijn de vormen ervan.",
+    "Nog één regel voor het gebrekkige werkwoord met waw: in de passieve mudari', het gebod en het verbod wordt de waw een ya', “omdat ze takken van de madi zijn”, en in de passieve madi wordt de waw een ya' omdat ze aan het eind na een kasra staat: ghuziya, van ghuziwa. Het passief neemt zijn ya' van de madi en houdt haar in zijn andere vormen."
+   ],
+   "terms": [
+    "de pauze; de gebiedende wijs is erop gebouwd",
+    "het wegvallen van de laatste stamletter: de jazm van het gebrekkige werkwoord",
+    "de terugkeer van de weggevallen letter: qula"
+   ],
+   "examples": [
+    "li-yaqul, van li-yaqul [met lange u]; qul, van uqwul",
+    "qula [met lange u], “zeg! (tegen twee)”: de waw komt terug als de lam een klinker krijgt",
+    "het gebrekkige werkwoord in jazm: zijn laatste letter weggevallen",
+    "ghuziya, “hij werd aangevallen”, van ghuziwa"
+   ],
+   "tasks": [
+    {
+     "prompt": "Leg stap voor stap uit hoe uqwul qul wordt.",
+     "answer": "De damma van de waw gaat over naar de qaf; de waw, nu zonder klinker, valt weg omdat ze de lam zonder klinker ontmoet; de qaf heeft nu een klinker, dus is de hamza van verbinding niet meer nodig en valt weg: qul."
+    },
+    {
+     "prompt": "Waarom is het qul voor één man maar qula [met lange u] voor twee?",
+     "answer": "In qul heeft de lam geen klinker, dus moest de lange u ervoor wegvallen. In qula heeft de lam een klinker voor de alif van het tweevoud; er zijn geen twee letters zonder klinker meer, en de waw komt terug."
+    },
+    {
+     "prompt": "Wat is het teken van de jazm in li-yarmi en irmi?",
+     "answer": "Het wegvallen van de laatste stamletter (de ya' van yarmi): de jazm en de pauze van het gebrekkige werkwoord zijn het wegvallen van zijn lam."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is de grondvorm van qul?",
+     "options": [
+      "Qal",
+      "Uqwul",
+      "Yaqulu",
+      "Qawl"
+     ],
+     "explanation": "Het patroon van de gebiedende wijs uf'ul op q-w-l."
+    },
+    {
+     "prompt": "Waarom valt de hamza weg in qul?",
+     "options": [
+      "Het is een stamhamza",
+      "Vanwege de waw",
+      "De qaf heeft nu een klinker",
+      "Dat doet ze niet"
+     ],
+     "explanation": "Een hamza van verbinding is alleen nodig voor een letter zonder klinker."
+    },
+    {
+     "prompt": "Qula heeft een lange u omdat…",
+     "options": [
+      "het passief is",
+      "het meervoud is",
+      "vanwege de hamza",
+      "de lam een klinker heeft, dus de waw terugkomt"
+     ],
+     "explanation": "De waw komt terug door de klinker van de lam."
+    },
+    {
+     "prompt": "Het gebod tegen één man van ghaza is…",
+     "options": [
+      "Ughzu",
+      "Ughzu [met lange u]",
+      "Ghaza",
+      "Ighzi"
+     ],
+     "explanation": "De waw viel weg in de pauze."
+    },
+    {
+     "prompt": "Li-yarmi laat jazm zien door…",
+     "options": [
+      "sukun",
+      "het wegvallen van de laatste letter",
+      "het wegvallen van de nun",
+      "een fatha"
+     ],
+     "explanation": "De jazm van het gebrekkige werkwoord."
+    },
+    {
+     "prompt": "Ghuziya komt van…",
+     "options": [
+      "ghazawa",
+      "ghuzuwa",
+      "ghuziwa",
+      "ghaza"
+     ],
+     "explanation": "Een waw aan het eind na kasra wordt ya'."
+    },
+    {
+     "prompt": "Waarom hebben de passieve vormen van een gebrekkig werkwoord met waw een ya'?",
+     "options": [
+      "Vanwege het lidwoord",
+      "Door het tweevoud",
+      "Dat hebben ze niet",
+      "Ze volgen de passieve madi, hun bron"
+     ],
+     "explanation": "“Omdat ze takken van de madi zijn.”"
+    }
+   ],
+   "diagram": {
+    "caption": "Geboden van het holle en het gebrekkige werkwoord (al-Maqsud, pp. 204–205)",
+    "labels": {
+     "Verb": "Werkwoord",
+     "To the absent": "Aan de afwezige",
+     "To the one present": "Aan de aanwezige",
+     "Base": "Grondvorm"
+    }
+   }
+  },
+  "26": {
+   "title": "De mithal: de waw die wegvalt",
+   "body": [
+    "Het werkwoord dat zwak is in zijn fa': “zijn fa' valt weg in de actieve mudari', het gebod en het verbod als zijn fa' een waw is, in drie babs”. Fa'ala yaf'ilu: wa'ada ya'idu, “beloven”. Fa'ala yaf'alu: wahaba yahabu, “geven”. Fa'ila yaf'ilu: waritha yarithu, “erven”. In elk is de waw van de wortel uit de mudari' verdwenen.",
+    "Het gebod en het verbod volgen de mudari': 'id, la ta'id; hab, la tahab; rith, la tarith. Dit zijn een van de kortste woorden van het Arabisch: een hele wortel teruggebracht tot twee letters, de waw vooraan weggevallen en de laatste letter zonder klinker. 'Id, “beloof!”, is ya'idu zonder zijn voorvoegsel.",
+    "“En de waw kan wegvallen uit de bab van fa'ila yaf'alu in twee woorden”: wati'a yata'u, “betreden”, en wasi'a yasa'u, “ruim zijn, bevatten”. Buiten deze drie babs en twee woorden blijft de waw.",
+    "Waarom valt de waw weg? De commentaren leggen uit dat een waw tussen de ya' van het voorvoegsel en een kasra zwaar is; de Maqsud zegt alleen waar ze wegvalt, en zijn drie babs en twee woorden zijn wat de student moet onthouden. Het passief houdt de waw: de Maqsud zegt “de actieve” mudari'."
+   ],
+   "terms": [
+    "het werkwoord dat zwak is in zijn fa'",
+    "het wegvallen van de eerste stamletter",
+    "de actieve vormen, waarin de waw wegvalt"
+   ],
+   "examples": [
+    "de waw weggevallen in de mudari', in drie babs",
+    "gebod en verbod zonder de waw",
+    "wati'a yata'u, wasi'a yasa'u: twee woorden van fa'ila yaf'alu"
+   ],
+   "tasks": [
+    {
+     "prompt": "In welke drie babs valt de waw van de mithal in de mudari' weg, en met welke voorbeelden?",
+     "answer": "Fa'ala yaf'ilu (wa'ada ya'idu), fa'ala yaf'alu (wahaba yahabu) en fa'ila yaf'ilu (waritha yarithu)."
+    },
+    {
+     "prompt": "Hoeveel letters heeft 'id, en waar zijn de andere stamletters?",
+     "answer": "Twee: 'ayn en dal. De waw van de wortel (w-'-d) viel weg in de mudari' ya'idu, en het voorvoegsel valt weg in de gebiedende wijs."
+    },
+    {
+     "prompt": "Noem de twee woorden van de bab fa'ila yaf'alu waarin de waw wegvalt.",
+     "answer": "Wati'a yata'u, “betreden”, en wasi'a yasa'u, “ruim zijn, bevatten”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In welke vormen valt de waw van de mithal weg?",
+     "options": [
+      "De madi",
+      "Het passief",
+      "De actieve mudari', het gebod en het verbod",
+      "Alleen de masdar"
+     ],
+     "explanation": "Ya'idu, 'id, la ta'id."
+    },
+    {
+     "prompt": "De mudari' van wahaba is…",
+     "options": [
+      "Yawhabu",
+      "Yahibu",
+      "Yuhibu",
+      "Yahabu"
+     ],
+     "explanation": "Fa'ala yaf'alu, de waw weggevallen."
+    },
+    {
+     "prompt": "Het gebod van waritha is…",
+     "options": [
+      "Rith",
+      "Irith",
+      "Warith",
+      "Urith"
+     ],
+     "explanation": "De mudari' is yarithu, zonder de waw; het gebod laat het voorvoegsel vallen: rith."
+    },
+    {
+     "prompt": "Welk is een van de twee woorden van fa'ila yaf'alu met de waw weggevallen?",
+     "options": [
+      "Wahaba yahabu",
+      "Wasi'a yasa'u",
+      "Wa'ada ya'idu",
+      "Waqa yaqi"
+     ],
+     "explanation": "Het boek noemt twee woorden van fa'ila yaf'alu die de waw laten vallen: wasi'a yasa'u en wati'a yata'u."
+    },
+    {
+     "prompt": "In hoeveel babs valt de waw volgens de regel weg?",
+     "options": [
+      "Zes",
+      "Eén",
+      "Drie",
+      "Twee"
+     ],
+     "explanation": "Fa'ala yaf'ilu, fa'ala yaf'alu, fa'ila yaf'ilu."
+    },
+    {
+     "prompt": "'Id betekent…",
+     "options": [
+      "keer terug!",
+      "tel!",
+      "hij beloofde",
+      "beloof!"
+     ],
+     "explanation": "Het gebod van wa'ada."
+    },
+    {
+     "prompt": "La tahab betekent…",
+     "options": [
+      "geef niet!",
+      "hij zal niet geven",
+      "jij gaf niet",
+      "vrees niet!"
+     ],
+     "explanation": "Het verbod van wahaba."
+    }
+   ],
+   "diagram": {
+    "caption": "De mithal met waw (al-Maqsud, p. 205)",
+    "labels": {
+     "Bāb": "Bab",
+     "Past": "Madi",
+     "Present": "Mudari'",
+     "Command": "Gebod",
+     "Prohibition": "Verbod",
+     "فَعِلَ يَفْعَلُ (two words)": "فَعِلَ يَفْعَلُ (twee woorden)"
+    }
+   }
+  },
+  "27": {
+   "title": "De lafif: rawa en waqa",
+   "body": [
+    "De verbonden lafif heeft zijn twee zwakke letters naast elkaar, 'ayn en lam. “De regel van zijn 'ayn is die van het gave werkwoord: ze verandert niet”, zoals in tawa; “en de regel van zijn lam is die van de lam van het gebrekkige werkwoord”: rawa yarwi, “overleveren”, zoals rama yarmi; en het gebod irwi, “door de lam van het werkwoord weg te laten”, zoals irmi. Maar één van de twee zwakke letters gedraagt zich als zwak.",
+    "De gescheiden lafif heeft zijn zwakke letters aan het begin en het eind, fa' en lam: waqa yaqi, “beschermen”. Zijn fa' volgt de mithal en valt weg in de mudari' (yaqi, zoals ya'idu); zijn lam volgt het gebrekkige werkwoord en valt weg in de jazm. Dus het gebod: qi. “Zijn fa' viel weg zoals bij de mithal, zijn lam viel weg in de jazm zoals bij het gebrekkige werkwoord, en alleen de qaf bleef over, met een kasra; en in de pauze wordt in het mannelijk enkelvoud een ha' toegevoegd”: qih.",
+    "De andere personen van het gebod: qiya tegen twee, qu tegen mannen, qi [met lange i] tegen een vrouw, qina tegen vrouwen. In qiya komt de ya' van de wortel terug voor de alif van het tweevoud; in qu, qi [met lange i] en qina volgt de uitgang direct op de qaf. Een woord van één letter, qi, is zo kort als een Arabisch werkwoord maar kan zijn.",
+    "De lafif leert dus niets nieuws: het zijn twee regels die al geleerd zijn, die van de mithal en die van het gebrekkige werkwoord, samen toegepast. Dat is de werkwijze van de Maqsud in het hele hoofdstuk: de zwakke werkwoorden zijn combinaties van een paar regels, geen lijst van uitzonderingen."
+   ],
+   "terms": [
+    "de verbonden lafif: zwakke 'ayn en lam",
+    "de gescheiden lafif: zwakke fa' en lam",
+    "de ha' van de pauze: qih"
+   ],
+   "examples": [
+    "rawa yarwi, “overleveren”; irwi, “lever over!”: de verbonden lafif",
+    "waqa yaqi, “beschermen”; qi, “bescherm!”: de gescheiden lafif",
+    "qiya, qu, qi [met lange i], qina: het gebod tegen twee, tegen mannen, tegen een vrouw, tegen vrouwen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke van de twee zwakke letters van rawa gedraagt zich als zwak, en hoe?",
+     "answer": "Alleen de lam: die volgt het gebrekkige werkwoord (yarwi, irwi). De 'ayn, de waw, volgt het gave werkwoord en verandert niet."
+    },
+    {
+     "prompt": "Leg uit hoe waqa het gebod qi geeft.",
+     "answer": "De fa' (waw) valt weg in de mudari', zoals bij de mithal (yaqi); in de gebiedende wijs valt de lam (ya') weg in de jazm, zoals bij het gebrekkige werkwoord; alleen de qaf blijft over, met zijn kasra. In de pauze wordt een ha' toegevoegd: qih."
+    },
+    {
+     "prompt": "Geef het gebod van waqa tegen twee, tegen mannen, tegen een vrouw en tegen vrouwen.",
+     "answer": "Qiya, qu, qi [met lange i], qina."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De verbonden lafif heeft zwakke…",
+     "options": [
+      "fa' en lam",
+      "fa' en 'ayn",
+      "alle drie",
+      "'ayn en lam"
+     ],
+     "explanation": "In de verbonden lafif staan de zwakke letters naast elkaar, 'ayn en lam: rawa, tawa."
+    },
+    {
+     "prompt": "De 'ayn van de verbonden lafif…",
+     "options": [
+      "verandert niet, zoals bij het gave werkwoord",
+      "valt weg",
+      "wordt alif",
+      "wordt hamza"
+     ],
+     "explanation": "Alleen de lam wordt als zwak behandeld."
+    },
+    {
+     "prompt": "Het gebod van rawa is…",
+     "options": [
+      "Irwi [met lange i]",
+      "Irwi",
+      "Ru",
+      "Arwi"
+     ],
+     "explanation": "De lam weggevallen, zoals in irmi."
+    },
+    {
+     "prompt": "Het gebod van waqa tegen één man is…",
+     "options": [
+      "Iqi",
+      "Waqi",
+      "Qi",
+      "Qi [met lange i]"
+     ],
+     "explanation": "Fa' en lam allebei weggevallen."
+    },
+    {
+     "prompt": "Wat wordt er in de pauze aan qi toegevoegd?",
+     "options": [
+      "Een alif",
+      "Een hamza",
+      "Niets",
+      "Een ha': qih"
+     ],
+     "explanation": "Qi is één letter; in de pauze krijgt het mannelijk enkelvoud een ha': qih."
+    },
+    {
+     "prompt": "Qu is het gebod van waqa tegen…",
+     "options": [
+      "mannen",
+      "één man",
+      "twee",
+      "een vrouw"
+     ],
+     "explanation": "Qiya tegen twee, qu tegen mannen, qi [met lange i] tegen een vrouw."
+    },
+    {
+     "prompt": "De gescheiden lafif combineert de regels van…",
+     "options": [
+      "het holle en het verdubbelde",
+      "de mithal en het gebrekkige werkwoord",
+      "het gave en het mahmuz-werkwoord",
+      "het verdubbelde en het gebrekkige"
+     ],
+     "explanation": "Fa' zoals in wa'ada, lam zoals in rama."
+    }
+   ],
+   "diagram": {
+    "caption": "Het gebod van waqa (al-Maqsud, p. 206)",
+    "labels": {
+     "To": "Tegen",
+     "Command": "Gebod",
+     "one man": "één man",
+     "two": "twee",
+     "men": "mannen",
+     "one woman": "één vrouw",
+     "women": "vrouwen"
+    }
+   }
+  },
+  "28": {
+   "title": "Het verdubbelde werkwoord",
+   "body": [
+    "Als de 'ayn van het verdubbelde werkwoord geen klinker heeft en zijn lam wel, of als beide een klinker hebben, is de idgham verplicht: madda yamuddu, van madada yamdudu; “de klinker van de eerste dal ging over naar de mim, zodat de dal zonder klinker achterbleef en in de tweede werd samengetrokken”. Als de 'ayn een klinker heeft en de lam niet, is de idgham onmogelijk en zijn beide letters te zien: madadna.",
+    "Als beide geen klinker hebben, zoals in de jazm (lam yamdud, zodra de klinker van de eerste dal naar de mim is gegaan), “krijgt de tweede een klinker en wordt de eerste erin samengetrokken”: lam yamudda. De klinker is een fatha, “omdat de fatha de lichtste van de klinkers is”; het mag een damma zijn, die de 'ayn volgt; of een kasra, “omdat een letter zonder klinker, als hij een klinker krijgt, een kasra neemt”. Lam yamudd- heeft drie mogelijke uitgangen.",
+    "Het gebod volgt. Van een werkwoord op yaf'ulu: mudda, muddu, muddi, “en de mim heeft in alle drie een damma”, of umdud zonder idgham. Van yaf'ilu: firri en firra, “vlucht!”, of ifrir. Van yaf'alu: 'adda en 'addi, “bijt!”, of i'dad. Elke bab staat de klinkers toe die erbij passen, en elk verdubbeld werkwoord staat ook de vorm zonder idgham toe.",
+    "Het vermeerderde verdubbelde werkwoord: ahabba yuhibbu, “liefhebben”, van ahbaba yuhbibu: de klinker van de eerste ba' ging naar de ha', en de ba' werd in de ba' samengetrokken. Zijn gebod: ahibba of ahbib, “met idgham en zonder”. “En telkens als je een letter in een letter samentrekt, zet je een shadda op zijn plaats.”"
+   ],
+   "terms": [
+    "idgham verplicht",
+    "de twee letters gescheiden laten",
+    "de fatha is de lichtste klinker",
+    "de shadda op de plaats van de samengetrokken letter"
+   ],
+   "examples": [
+    "madda yamuddu, samengetrokken; madadna, gescheiden gehouden",
+    "lam yamudda, van lam yamdud: de tweede dal krijgt een fatha",
+    "het gebod van madda op vier manieren",
+    "ahabba yuhibbu, van ahbaba yuhbibu; zijn gebod met of zonder idgham"
+   ],
+   "tasks": [
+    {
+     "prompt": "Leg uit hoe lam yamdud lam yamudda wordt, en geef de andere klinkers die op de laatste dal zijn toegestaan, met hun redenen.",
+     "answer": "De klinker van de eerste dal gaat naar de mim; beide dals zijn nu zonder klinker; de tweede krijgt een klinker en de eerste wordt erin samengetrokken. De klinker is een fatha, de lichtste; een damma is toegestaan, die de 'ayn volgt; en een kasra, de klinker die een letter zonder klinker neemt als hij er een krijgt."
+    },
+    {
+     "prompt": "Geef het gebod van madda, farra en 'adda op elke manier die het boek toestaat.",
+     "answer": "Madda: muddu, mudda, muddi, of umdud. Farra: firri, firra, of ifrir. 'Adda: 'adda, 'addi, of i'dad."
+    },
+    {
+     "prompt": "Wat is de grondvorm van yuhibbu, en wat is er gebeurd?",
+     "answer": "Yuhbibu. De klinker van de eerste ba' ging naar de ha', en de eerste ba', nu zonder klinker, werd in de tweede samengetrokken; er staat een shadda op zijn plaats: yuhibbu."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wanneer is de idgham onmogelijk bij het verdubbelde werkwoord?",
+     "options": [
+      "Als de 'ayn een klinker heeft en de lam niet",
+      "Als beide een klinker hebben",
+      "Als de 'ayn geen klinker heeft",
+      "Nooit"
+     ],
+     "explanation": "Als de lam geen klinker heeft na een 'ayn met klinker, zoals in madadna, kunnen de twee letters niet samengetrokken worden."
+    },
+    {
+     "prompt": "Waarom krijgt lam yamudda een fatha?",
+     "options": [
+      "Vanwege lam",
+      "De fatha is de lichtste klinker",
+      "Het is passief",
+      "Het is een fout"
+     ],
+     "explanation": "Een damma of kasra is ook toegestaan."
+    },
+    {
+     "prompt": "Welk gebod van madda houdt de dals gescheiden?",
+     "options": [
+      "Mudda",
+      "Muddu",
+      "Umdud",
+      "Muddi"
+     ],
+     "explanation": "Umdud houdt de twee dals gescheiden; mudda, muddu en muddi trekken ze samen."
+    },
+    {
+     "prompt": "Welke klinkers staat het boek toe in het gebod van farra?",
+     "options": [
+      "Alleen damma",
+      "Alle drie",
+      "Geen",
+      "Kasra en fatha: firri, firra"
+     ],
+     "explanation": "En ifrir zonder idgham."
+    },
+    {
+     "prompt": "Wat is de grondvorm van ahabba?",
+     "options": [
+      "Ahbaba",
+      "Hababa",
+      "Ahabbaba",
+      "Habba"
+     ],
+     "explanation": "Ahabba is af'ala op h-b-b: ahbaba, met de eerste ba' in de tweede samengetrokken."
+    },
+    {
+     "prompt": "Wat zet men op de plaats van een samengetrokken letter?",
+     "options": [
+      "Een sukun",
+      "Een shadda",
+      "Een hamza",
+      "Een alif"
+     ],
+     "explanation": "“Je zet een shadda op zijn plaats.”"
+    },
+    {
+     "prompt": "Het gebod van 'adda zonder idgham is…",
+     "options": [
+      "'Udud",
+      "'Adad",
+      "I'dad",
+      "A'did"
+     ],
+     "explanation": "'Adda is van de bab yaf'alu; zonder idgham is zijn gebod i'dad, met de twee dads gescheiden."
+    }
+   ],
+   "diagram": {
+    "caption": "Het gebod van het verdubbelde werkwoord naar zijn bab (al-Maqsud, p. 207)",
+    "labels": {
+     "Bāb": "Bab",
+     "Assimilated": "Samengetrokken",
+     "Not assimilated": "Niet samengetrokken",
+     "يَفْعُلُ (madda)": "يَفْعُلُ (madda)",
+     "يَفْعِلُ (farra)": "يَفْعِلُ (farra)",
+     "يَفْعَلُ (ʿaḍḍa)": "يَفْعَلُ ('adda)",
+     "أَفْعَلَ (aḥabba)": "أَفْعَلَ (ahabba)"
+    }
+   }
+  },
+  "29": {
+   "title": "Het mahmuz-werkwoord",
+   "body": [
+    "Een hamza zonder klinker “mag gelaten worden zoals ze is, of veranderd”: na een fatha in een alif, na een kasra in een ya', na een damma in een waw. Zo kan ya'kulu als yakulu worden uitgesproken, yu'minu als yuminu, en i'dhan, “geef toestemming!”, van adhina, als idhan; de druk schrijft ze met opzet zonder hamza, om de verandering te laten zien.",
+    "Een hamza met klinker na een letter met klinker verandert niet: qara'a, zoals een gaaf werkwoord. Na een letter zonder klinker mag ze blijven, of mag haar klinker naar de letter ervoor gaan en de hamza wegvallen: “Zijn woord, de Verhevene: wa-sali al-qaryata, waarvan de grondvorm wa-s'ali al-qaryata is” (Koran 12:82, geschreven وَاسْأَلِ). De klinker van de hamza ging naar de sin, en de hamza viel weg “vanwege haar sukun en de sukun van de lam erna”; “en het is zowel met de hamza als zonder haar gereciteerd”.",
+    "Drie veelgebruikte werkwoorden maken hun gebod tegen de regel in: khudh, kul en mur, “neem!, eet!, beveel!”, van akhadha, akala en amara, allemaal met een hamza als fa'. Volgens de regel “wordt een hamza zonder klinker na een damma van de soort van de klinker ervoor gemaakt”, dus de hamza van de wortel zou als waw blijven na de damma van de hamza van verbinding. “Maar in deze voorbeelden wordt ertegen ingegaan, vanwege de frequentie van hun gebruik in de taal van de Arabieren.” Korte, veelgebruikte woorden slijten.",
+    "“De rest van de vervoeging van het mahmuz-werkwoord gaat volgens de regel van het gave werkwoord.” De hamza is geen zwakke letter; ze verandert alleen in deze gevallen, en verder wordt het mahmuz-werkwoord vervoegd zoals nasara."
+   ],
+   "terms": [
+    "de hamza verlichten: haar veranderen of laten wegvallen",
+    "een hamza zonder klinker veranderen in de lange letter van de klinker ervoor",
+    "de klinker van de hamza terugplaatsen en haar laten wegvallen",
+    "tegen de regel: khudh, kul, mur"
+   ],
+   "examples": [
+    "yakulu, yuminu, idhan: een hamza zonder klinker veranderd door de klinker ervoor",
+    "wa-sali al-qaryata (Koran 12:82), van wa-s'ali: de klinker van de hamza naar de sin",
+    "khudh, kul, mur: geboden tegen de regel, gesleten door gebruik"
+   ],
+   "tasks": [
+    {
+     "prompt": "Wat wordt de hamza zonder klinker na elke klinker? Geef van elk het voorbeeld van het boek.",
+     "answer": "Na een fatha een alif (yakulu, van ya'kulu); na een damma een waw (yuminu, van yu'minu); na een kasra een ya' (idhan, van i'dhan)."
+    },
+    {
+     "prompt": "Leg wa-sali al-qaryata (Koran 12:82) uit vanuit zijn grondvorm.",
+     "answer": "De grondvorm is wa-s'ali (van sa'ala). De hamza heeft een klinker na een sin zonder klinker: haar klinker gaat naar de sin, en de hamza valt weg. Het vers wordt zowel met de hamza als zonder haar gereciteerd."
+    },
+    {
+     "prompt": "Waarom heten khudh, kul en mur “tegen de regel”?",
+     "answer": "Volgens de regel neemt een hamza zonder klinker na een damma de letter van die klinker, een waw, en zou ze blijven. Bij deze drie gingen de Arabieren tegen de regel in en lieten haar weg, samen met de hamza van verbinding, omdat ze zo vaak gebruikt worden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Een hamza zonder klinker na een damma kan worden…",
+     "options": [
+      "een alif",
+      "een waw",
+      "een ya'",
+      "een nun"
+     ],
+     "explanation": "De hamza zonder klinker neemt de letter van de klinker ervoor: na een damma een waw, zoals yu'minu, yuminu."
+    },
+    {
+     "prompt": "Een hamza met klinker na een letter met klinker…",
+     "options": [
+      "wordt alif",
+      "valt weg",
+      "verandert niet",
+      "wordt waw"
+     ],
+     "explanation": "Qara'a, zoals een gaaf werkwoord."
+    },
+    {
+     "prompt": "Wat is de grondvorm van wa-sali (Koran 12:82)?",
+     "options": [
+      "Wa-sili",
+      "Wa-salli",
+      "Wa-as'il",
+      "Wa-s'ali"
+     ],
+     "explanation": "De klinker van de hamza ging naar de sin."
+    },
+    {
+     "prompt": "Waarom zijn khudh, kul en mur verkort?",
+     "options": [
+      "Door de frequentie van hun gebruik",
+      "Door de regel van de hamza",
+      "Omdat ze passief zijn",
+      "Omdat ze zwak zijn"
+     ],
+     "explanation": "“Li-kathrat al-isti'mal.”"
+    },
+    {
+     "prompt": "Idhan is het gebod van…",
+     "options": [
+      "'-dh-n als naamwoord",
+      "adhina, “toestemming geven”",
+      "dhahaba",
+      "amana"
+     ],
+     "explanation": "Van i'dhan, de hamza verlicht na een kasra."
+    },
+    {
+     "prompt": "De rest van het mahmuz-werkwoord wordt vervoegd…",
+     "options": [
+      "zoals het holle werkwoord",
+      "zoals het gebrekkige",
+      "volgens de regel van het gave werkwoord",
+      "onregelmatig"
+     ],
+     "explanation": "De hamza verandert alleen in deze gevallen."
+    },
+    {
+     "prompt": "Yakulu is…",
+     "options": [
+      "een ander werkwoord",
+      "het passief",
+      "het meervoud",
+      "ya'kulu met de hamza verlicht"
+     ],
+     "explanation": "Na een fatha wordt de hamza een alif."
+    }
+   ],
+   "diagram": {
+    "caption": "Het verlichten van de hamza zonder klinker (al-Maqsud, p. 208)",
+    "labels": {
+     "Vowel before": "Klinker ervoor",
+     "Hamza becomes": "Hamza wordt",
+     "Example": "Voorbeeld",
+     "fatḥa": "fatha",
+     "alif": "alif",
+     "ḍamma": "damma",
+     "wāw": "waw",
+     "kasra": "kasra",
+     "yāʾ": "ya'"
+    }
+   }
+  },
+  "30": {
+   "title": "Meet het zwakke aan het gave",
+   "body": [
+    "Het boek eindigt met de methode die het bijeenhoudt. “Telkens als je een werkwoord vindt dat niet gaaf is, meet het dan aan het gave in alle vormen die we in het hoofdstuk van het gave werkwoord gaven. Als de regel vraagt om een letter te veranderen, een klinker te verplaatsen of een letter zonder klinker te maken, doe dat dan; behandel anders het werkwoord dat niet gaaf is zoals het gave.” Begin bij het regelmatige patroon; pas de paar regels van de zwakke letters toe; stop als er geen regel geldt.",
+    "Dat is precies wat de laatste tien lessen hebben gedaan. Qala is fa'ala op q-w-l, met één regel; qul is uf'ul met drie; ghazaw is fa'alu met twee. Een student die de patronen van de Amthila en de Bina en de regels van de Maqsud heeft, kan de vorm van elk zwak werkwoord maken, en uitleggen.",
+    "Maar het boek is eerlijk over de grenzen: “op sommige plaatsen veranderen de zwakke letters niet, hoewel de oorzaak er is”: 'awira, “eenogig zijn”, i'tawara, “elkaar afwisselen”, istawa, “zich vestigen, zich verheffen boven”. In 'awira heeft de waw een klinker na een fatha en wordt toch geen alif. “Sommige veranderen niet vanwege het gaaf zijn van het patroon, en sommige om een andere reden.” Het boek zegt niet welke welke is. De gebruikelijke verklaring van 'awira is zijn betekenis: het staat voor i'warra, waarin de waw geen klinker heeft en niet kan veranderen, dus houdt ook 'awira haar.",
+    "Hiermee is de sarf voor beginners van het Ottomaanse pad compleet: de tabellen van de Amthila op één werkwoord, de patronen van de Bina, de regels van de Maqsud om vormen te maken en te veranderen. Al-'Izzi en Marah al-arwah volgen op het gevorderde niveau."
+   ],
+   "terms": [
+    "het zwakke werkwoord aan het gave meten",
+    "een letter veranderen, een klinker verplaatsen, zonder klinker maken",
+    "het gaaf zijn van het patroon, dat een zwakke letter bewaart"
+   ],
+   "examples": [
+    "“meet het aan het gave in alle vormen”",
+    "'awira, i'tawara, istawa: zwakke letters die niet veranderen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de methode van de Maqsud voor elk werkwoord dat niet gaaf is, in je eigen woorden.",
+     "answer": "Begin bij het regelmatige patroon van het gave werkwoord; pas de regels van de zwakke letters toe waar ze vragen om een letter te veranderen, een klinker te verplaatsen of een letter zonder klinker te maken; waar geen regel geldt, laat je het werkwoord zoals het gave patroon het geeft."
+    },
+    {
+     "prompt": "Laat de methode zien op qul: van welk patroon, en met welke regels?",
+     "answer": "Van het patroon van de gebiedende wijs uf'ul op q-w-l: uqwul. De klinker van de waw gaat naar de qaf (een klinker verplaatsen); de waw valt weg voor de lam zonder klinker (twee letters zonder klinker); de hamza valt weg omdat de qaf een klinker heeft."
+    },
+    {
+     "prompt": "Waarom houdt 'awira zijn waw, hoewel die een klinker heeft na een fatha?",
+     "answer": "Het boek zegt alleen dat sommige van zulke werkwoorden hun zwakke letter houden vanwege het gaaf zijn van het patroon en sommige om een andere reden. De gebruikelijke verklaring van 'awira: het staat voor i'warra, waarin de waw geen klinker heeft en niet kan veranderen, dus houdt ook 'awira haar."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat zegt de Maqsud dat de student moet doen met een werkwoord dat niet gaaf is?",
+     "options": [
+      "Het uit een lijst leren",
+      "Het vermijden",
+      "Het aan het gave werkwoord meten",
+      "Het als naamwoord behandelen"
+     ],
+     "explanation": "En het alleen veranderen waar een regel dat vereist."
+    },
+    {
+     "prompt": "Welke drie handelingen noemt het boek?",
+     "options": [
+      "Toevoegen, verdubbelen, de wortel laten vallen",
+      "Voorvoegen, achtervoegen, invoegen",
+      "Raf', nasb, jazm",
+      "Een letter veranderen, een klinker verplaatsen, zonder klinker maken"
+     ],
+     "explanation": "Ibdal, naql en iskan: een letter veranderen, een klinker verplaatsen, een letter zonder klinker maken."
+    },
+    {
+     "prompt": "Welk werkwoord houdt zijn zwakke letter, hoewel de oorzaak er is?",
+     "options": [
+      "'Awira",
+      "Qala",
+      "Ghaza",
+      "Rama"
+     ],
+     "explanation": "Met i'tawara en istawa."
+    },
+    {
+     "prompt": "Waarom houden sommige van zulke werkwoorden hun zwakke letter?",
+     "options": [
+      "Omdat ze passief zijn",
+      "Vanwege het gaaf zijn van het patroon, of om een andere reden",
+      "Omdat ze zeldzaam zijn",
+      "Vanwege de hamza"
+     ],
+     "explanation": "Het boek zegt dat sommige hun zwakke letter houden vanwege het gaaf zijn van het patroon, en sommige om een andere reden."
+    },
+    {
+     "prompt": "Welk boek komt hierna op het Ottomaanse pad?",
+     "options": [
+      "De Amthila",
+      "De Ajurrumiyya",
+      "Al-'Izzi",
+      "De Qatr al-nada"
+     ],
+     "explanation": "Al-'Izzi volgt op de Maqsud op het Ottomaanse pad, en Marah al-arwah volgt op al-'Izzi."
+    },
+    {
+     "prompt": "“Behandel het anders zoals het gave” betekent…",
+     "options": [
+      "alle zwakke werkwoorden zijn gaaf",
+      "de zwakke letters veranderen nooit",
+      "gebruik het passief",
+      "waar geen regel geldt, volgt het zwakke werkwoord het gave patroon"
+     ],
+     "explanation": "Verander alleen wat een regel vereist."
+    },
+    {
+     "prompt": "Wat laat het hoofdstuk zien dat de zwakke werkwoorden zijn?",
+     "options": [
+      "De regelmatige patronen, veranderd door een paar regels",
+      "Een lijst van uitzonderingen",
+      "Vreemde woorden",
+      "Naamwoorden"
+     ],
+     "explanation": "De werkwijze van de Maqsud overal."
+    }
+   ],
+   "diagram": {
+    "caption": "De methode van de Maqsud voor elk werkwoord dat niet gaaf is.",
+    "labels": {
+     "A verb that is not sound": "Een werkwoord dat niet gaaf is",
+     "Measure on the sound pattern": "Meet aan het gave patroon",
+     "change a letter": "verander een letter",
+     "move a vowel": "verplaats een klinker",
+     "make a letter quiescent": "maak een letter zonder klinker",
+     "If no rule applies": "Als geen regel geldt",
+     "treat it like the sound": "behandel het zoals het gave",
+     "Exceptions": "Uitzonderingen"
+    }
+   }
+  }
+ },
+ "title": "al-Maqsud",
+ "summary": "De Maqsud (Turks Maksud), een kort Arabisch boek over de sarf dat volgens de overlevering aan Abu Hanifa wordt toegeschreven, een toeschrijving waaraan veel geleerden twijfelen; in de Ottomaanse madrasa wordt het gelezen na de Amthila en de Bina en voor al-'Izzi. Waar de Bina de patronen opsomt, leert de Maqsud hoe je de vormen maakt: de zes vormen die van de masdar zijn afgeleid en hun regels, de volledige vervoeging van het gave werkwoord in elk patroon met de klinkers uitgeschreven, een hoofdstuk met nuttige punten over overgankelijkheid, de betekenissen van de toegevoegde letters en de veranderingen van ifta'ala, en een lang laatste hoofdstuk over de zwakke, verdubbelde en mahmuz-werkwoorden, waarin elke verandering (i'lal) stap voor stap vanuit haar grondvorm wordt uitgelegd. De lessen volgen zijn volgorde, laten de regelmatige vormen zien met het vervoegingshulpmiddel van The Nahwi, en geven de zwakke vormen alleen zoals de druk ze geeft."
+}

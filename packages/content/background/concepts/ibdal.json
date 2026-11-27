@@ -1,0 +1,40 @@
+{
+  "slug": "ibdal",
+  "name": "Substitution (ibdāl)",
+  "arabic": "الإِبْدَالُ",
+  "transliteration": "al-ibdāl",
+  "alsoKnownAs": [
+    "ibdal",
+    "ibdāl",
+    "substitution"
+  ],
+  "category": "sound-weak",
+  "definition": "Putting one letter in the place of another in a word, for ease of pronunciation, outside the changes of the weak letters: above all the tāʾ of the pattern iftaʿala after certain letters.",
+  "body": [
+    "The best-known case is the pattern iftaʿala. After ṣād, ḍād, ṭāʾ and ẓāʾ its tāʾ becomes ṭāʾ (iṣṭabara from ṣ-b-r); after dāl, dhāl and zāy it becomes dāl (izdajara from z-j-r); and a first-letter wāw or yāʾ becomes tāʾ and merges with it (ittaʿada from w-ʿ-d). Ibdāl also names the change of a weak letter to hamza (qāʾil from q-w-l).",
+    "The books separate ibdāl from iʿlāl, though they overlap, and list the letters of substitution; Ibn ʿUṣfūr's al-Mumtiʿ and al-Shāfiya treat them in full, and Abū al-Ṭayyib al-Lughawī wrote a book of substituted words."
+  ],
+  "examples": [
+    {
+      "arabic": "اصْطَبَرَ",
+      "text": "iṣṭabara, from ṣ-b-r on iftaʿala: the tāʾ becomes ṭāʾ after ṣād."
+    },
+    {
+      "arabic": "ازْدَجَرَ",
+      "text": "izdajara, from z-j-r: the tāʾ becomes dāl after zāy."
+    },
+    {
+      "arabic": "اتَّعَدَ",
+      "text": "ittaʿada, from w-ʿ-d: the wāw becomes tāʾ and merges with the tāʾ of the pattern."
+    }
+  ],
+  "related": [
+    "ilal",
+    "idgham",
+    "mazid"
+  ],
+  "books": [
+    "shafiya",
+    "izzi"
+  ]
+}

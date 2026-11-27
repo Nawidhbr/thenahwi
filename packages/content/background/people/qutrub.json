@@ -1,0 +1,51 @@
+{
+  "slug": "qutrub",
+  "name": "Abū ʿAlī Muḥammad ibn al-Mustanīr",
+  "known": "Quṭrub",
+  "arabic": "قُطْرُبٌ",
+  "died": "206/821",
+  "places": [
+    "Basra",
+    "Baghdad"
+  ],
+  "roles": [
+    "teacher"
+  ],
+  "summary": "Sībawayh's student, who named him after a restless creature of the night; author of al-Muthallath, the words that change their meaning with the vowel of their first letter.",
+  "bio": [
+    "Muḥammad ibn al-Mustanīr learnt grammar with Sībawayh, who called him quṭrub, a small creature said to be restless all night, because he came to his door before dawn. He also learnt from ʿĪsā ibn ʿUmar's circle and from Muʿtazilī teachers, and tutored the sons of the general Abū Dulaf.",
+    "His best-known book, al-Muthallath, lists words that take three meanings with the three vowels of their first letter (al-ghamr, al-ghimr, al-ghumr); it was put into verse and studied for centuries. He also wrote on the meanings and the iʿrāb of the Qurʾān and on the causes of grammar. Al-Zubaydī places him in the seventh Basran generation, with al-Māzinī."
+  ],
+  "works": [
+    {
+      "title": "al-Muthallath",
+      "arabic": "المُثَلَّث",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "He died in 206/821 according to most; the TDV gives 210/825."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 7,
+    "entry": 35
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 35 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Kutrub, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/kutrub"
+    },
+    {
+      "title": "Qutrub, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Qutrub"
+    }
+  ]
+}

@@ -58,7 +58,7 @@
   },
   "home": {
     "title": "Belajar sharaf dan nahwu, <em>tata bahasa Arab madrasah</em>",
-    "lead": "Alat yang berkaidah, yang menjaga akal dari kesalahan berpikir, diajarkan dari kitab-kitab madrasah: pilih jalur India, Utsmani atau Afrika Utara dan baca teks-teksnya tingkat demi tingkat, dengan lafazh Arab dan tes singkat di setiap pelajaran.",
+    "lead": "Tata bahasa Arab sebagaimana diajarkan madrasah dari kitab-kitabnya sendiri: pilih jalur India, Utsmani, atau Afrika Utara dan baca teks-teksnya tingkat demi tingkat, sharaf dan nahwu berdampingan, dengan teks Arab dan ujian singkat untuk setiap pelajaran.",
     "start": "Pilih jalur Anda",
     "readText": "Baca teksnya",
     "factTerms": "istilah",
@@ -230,7 +230,7 @@
     "questions": "{chapter} · {n} soal"
   },
   "search": {
-    "placeholder": "Cari: fa'il, i'rab, فاعل…",
+    "placeholder": "Cari: fi'il, kata kerja, فعل…",
     "hint": "Cari dalam bahasa ini, dalam transliterasi, atau dalam bahasa Arab, dengan atau tanpa harakat.",
     "none": "Tidak ditemukan. Coba ejaan lain, atau tulisan Arabnya.",
     "close": "Tutup pencarian",
@@ -949,7 +949,8 @@
       "mastersKicker": "Para guru besar",
       "mastersLead": "Dari Sibawaih sampai al-Azhar: para ahli nahwu yang kitabnya dibaca.",
       "library": "Seluruh perpustakaan",
-      "newsLead": "Dikumpulkan setiap pekan oleh The Mantiqi."
+      "newsLead": "Dikumpulkan setiap pekan oleh The Mantiqi.",
+      "generationsLink": "Thabaqat para ahli nahwu"
     },
     "curricula": {
       "title": "Kurikulum",
@@ -1025,7 +1026,9 @@
         "teacher": "Guru",
         "voice": "Suara tentang tata bahasa",
         "modern": "Kajian modern"
-      }
+      },
+      "generationsLink": "Thabaqat para ahli nahwu",
+      "generationsLead": "Para ulama yang sama menurut mazhab dan generasi, sebagaimana disusun kitab-kitab thabaqat lama, dan menurut abad."
     },
     "scholar": {
       "life": "Riwayat hidup",
@@ -1035,7 +1038,9 @@
       "places": "Tempat",
       "writtenOn": "Yang ditulis atas karyanya",
       "books": "Dalam kitab-kitab",
-      "sources": "Sumber"
+      "sources": "Sumber",
+      "school": "Mazhab",
+      "tabaqa": "Dalam Thabaqat az-Zubaidi"
     },
     "news": {
       "title": "Berita nahwu dan sharaf",
@@ -1110,7 +1115,8 @@
         "verse": "Nazham",
         "refutation": "Kritik",
         "modern": "Buku ajar modern",
-        "translation": "Terjemahan"
+        "translation": "Terjemahan",
+        "biography": "Riwayat hidup para ahli nahwu"
       },
       "languages": {
         "ar": "Arab",
@@ -1154,7 +1160,8 @@
         "sentence": "Jumlah",
         "governors": "'Amil-'amil ('awamil)",
         "followers": "Tawabi'",
-        "accusatives": "Isim-isim yang manshub"
+        "accusatives": "Isim-isim yang manshub",
+        "jargon": "Bahasa kitab-kitab dan perdebatan"
       },
       "pageTitle": "{name} ({transliteration}): maknanya dalam tata bahasa Arab",
       "pageTitleShort": "{name}: maknanya dalam tata bahasa Arab",
@@ -1171,6 +1178,60 @@
     "nahw": {
       "title": "Tentang nahwu dan sharaf",
       "lead": "Apa itu nahwu dan sharaf, mengapa sharaf didahulukan, dan bagaimana madrasah membaca kitab-kitabnya."
+    },
+    "generations": {
+      "title": "Thabaqat para ahli nahwu",
+      "lead": "Para ahli nahwu dan sharaf menurut mazhab dan thabaqah (generasi), sebagaimana disusun kitab-kitab thabaqat lama, dan menurut abad wafatnya.",
+      "description": "Para ahli tata bahasa Arab menurut mazhab dan thabaqah mengikuti Thabaqat an-Nahwiyyin karya az-Zubaidi, dan menurut abad: tahun wafat hijriah, kota dan kitab-kitabnya.",
+      "count": "{n} ahli nahwu",
+      "introKicker": "Thabaqat",
+      "introTitle": "Bagaimana kitab-kitab lama menyusun para ahli nahwu",
+      "intro": [
+        "Sejak abad keempat/kesepuluh, para ahli nahwu menulis sejarah ilmu mereka sendiri sebagai thabaqat, “lapisan-lapisan” atau generasi: murid-murid dari guru-guru satu generasi membentuk generasi berikutnya, sehingga sebuah kitab thabaqat adalah rantai dari sang pendiri sampai guru-guru pengarangnya sendiri. Yang tertua yang masih ada ditulis dalam selang beberapa dasawarsa: Akhbar an-Nahwiyyin al-Bashriyyin karya as-Sirafi, Maratib an-Nahwiyyin karya Abu ath-Thayyib al-Lughawi dan Thabaqat an-Nahwiyyin wal-Lughawiyyin karya az-Zubaidi.",
+        "Halaman ini mengikuti az-Zubaidi, yang menulis di Kordoba atas perintah khalifah al-Hakam II. Ia membagi para ulama menurut kota dan ilmunya: para ahli nahwu Bashrah dalam sepuluh generasi, dari Abul Aswad ad-Du'ali sampai murid-murid az-Zajjaj; para ahli nahwu Kufah dalam enam, dari ar-Ru'asi sampai murid-murid Tsa'lab; para ahli lughah kedua kota itu; lalu para ulama Mesir, Qairawan dan Andalusia. Setiap entri menyebutkan guru-guru seorang ulama, kitab-kitabnya dan riwayat-riwayat tentangnya; generasi-generasi di bawah ini, dan nomor-nomor entrinya, adalah miliknya.",
+        "Untuk abad-abad sesudahnya, kitab-kitab thabaqat disusun menurut nama: Nuzhat al-Alibba' karya Ibnul Anbari, Inbah ar-Ruwat karya al-Qifthi dan Bughyat al-Wu'at karya as-Suyuthi, yang menghimpun lebih dari dua ribu ahli nahwu dan ahli lughah sampai akhir abad kesembilan/kelima belas. Di sini para ahli nahwu sesudah az-Zubaidi disusun menurut mazhab atau negeri tempat kitab-kitab sejarah meletakkan mereka, beserta kitab-kitab yang mereka tulis, sampai para pengarang yang dibaca di tiga jalur belajar."
+      ],
+      "worksTitle": "Kitab-kitab thabaqat di perpustakaan",
+      "bySchool": "Menurut mazhab dan generasi",
+      "byCentury": "Menurut abad",
+      "zubaydiTitle": "Dalam Thabaqat az-Zubaidi",
+      "zubaydiLead": "Az-Zubaidi (w. 379/989) menyusun para ulama setiap kota generasi demi generasi, murid-murid satu generasi membentuk generasi berikutnya; hanya ahli nahwu dan ahli lughah yang punya halaman di sini yang ditampilkan.",
+      "laterTitle": "Sesudah az-Zubaidi: mazhab-mazhab dan negeri-negeri",
+      "laterLead": "Para ahli nahwu yang hidup sesudahnya, atau yang tidak disebutnya, menurut mazhab atau negeri tempat kitab-kitab sejarah meletakkan mereka, dan menurut tanggal wafat.",
+      "centuryTitle": "Menurut abad wafat",
+      "centuryLead": "Setiap ahli nahwu dalam ensiklopedia di bawah abad hijriah wafatnya, beserta mazhab dan kotanya.",
+      "lists": {
+        "basra-nahw": "Para ahli nahwu Bashrah",
+        "kufa-nahw": "Para ahli nahwu Kufah",
+        "basra-lugha": "Para ahli lughah Bashrah",
+        "kufa-lugha": "Para ahli lughah Kufah",
+        "egypt": "Para ahli nahwu Mesir",
+        "qayrawan": "Para ahli nahwu Qairawan",
+        "andalus": "Para ahli nahwu Andalusia"
+      },
+      "schools": {
+        "basra": "Bashrah",
+        "kufa": "Kufah",
+        "baghdad": "Baghdad dan Irak",
+        "egypt-sham": "Mesir dan Syam",
+        "andalus": "Andalusia",
+        "maghrib": "Maghrib",
+        "hijaz-yemen": "Hijaz dan Yaman",
+        "persia-central-asia": "Persia dan Asia Tengah",
+        "ottoman": "Negeri Utsmani",
+        "india": "India",
+        "none": "Negeri tidak diketahui"
+      },
+      "generation": "generasi ke-{n}",
+      "inGeneration": "{list}, generasi ke-{n}",
+      "entry": "entri {n}",
+      "century": "abad ke-{n} H",
+      "years": "{from}–{to} H · {n}",
+      "yearsOne": "{from}–{to} H · 1 ahli nahwu",
+      "grammarians": "{n} ahli nahwu",
+      "died": "w.",
+      "undated": "Tahun wafat tidak diketahui",
+      "grammarianOne": "1 ahli nahwu"
     }
   },
   "preview": {

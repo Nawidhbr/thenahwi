@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ilm-al-nahw-1": {
+      "prompt": "Apa yang dipelajari ilmu nahwu?",
+      "options": [
+        "Bagaimana kata-kata tersusun menjadi kalimat, dan akhir kata yang menunjukkan kedudukannya",
+        "Bagaimana fi'il ditashrif menurut dhamir-dhamirnya",
+        "Wazan-wazan huruf asli",
+        "Sejarah tulisan Arab"
+      ],
+      "explanation": "Nahwu membahas kata di dalam kalimat: kedudukannya dan akhir kata yang menunjukkannya."
+    },
+    "ilm-al-nahw-2": {
+      "prompt": "Mengapa 'Amr berakhir dengan -an dalam kalimat ini?",
+      "options": [
+        "Ia yang dikenai pukulan, maf'ul bih",
+        "Ia pelaku pukulan",
+        "Namanya datang sesudah huruf jar",
+        "Nama selalu berakhir dengan -an"
+      ],
+      "explanation": "'Amran adalah maf'ul bih, dan maf'ul bih itu manshub, dengan fathah."
+    },
+    "ilm-al-nahw-3": {
+      "prompt": "Manakah kitab nahwu tingkat pertama?",
+      "options": [
+        "al-Ajurrumiyyah (Jurumiyah)",
+        "asy-Syafiyah",
+        "Lamiyatul Af'al",
+        "al-Amtsilah"
+      ],
+      "explanation": "Jurumiyah karya Ibnu Ajurrum adalah kitab nahwu pertama yang ringkas. Tiga yang lain adalah kitab sharaf."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "ibn-wallad",
+  "name": "Abū al-ʿAbbās Aḥmad ibn Muḥammad ibn al-Walīd ibn Wallād al-Tamīmī",
+  "known": "Ibn Wallād",
+  "arabic": "ابْنُ وَلَّادٍ",
+  "died": "332/944",
+  "places": [
+    "Egypt",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Egyptian grammarian, a student of al-Zajjāj, who answered al-Mubarrad's critique of Sībawayh in al-Intiṣār.",
+  "bio": [
+    "Ibn Wallād came of a family of Egyptian grammarians: their forebear Wallād is the first Egyptian in al-Zubaydī's list, and Abū al-ʿAbbās stands in its third generation with Abū al-Qāsim ibn Wallād of the same family and Abū Jaʿfar al-Naḥḥās. He studied in Baghdad with al-Zajjāj and brought his teaching back to Egypt.",
+    "His al-Intiṣār li-Sībawayh ʿalā al-Mubarrad takes up the points al-Mubarrad had raised against al-Kitāb and defends Sībawayh one by one; his book on the nouns ending in short and long alif (al-Maqṣūr wa-l-mamdūd) also survives. The sources tell of his rivalry with al-Naḥḥās. He died in 332/944."
+  ],
+  "works": [
+    {
+      "title": "al-Intiṣār li-Sībawayh ʿalā al-Mubarrad",
+      "arabic": "الِانْتِصَارُ لِسِيبَوَيْهِ عَلَى المُبَرِّد",
+      "kind": "other",
+      "on": "mubarrad"
+    },
+    {
+      "title": "al-Maqṣūr wa-l-mamdūd",
+      "arabic": "المَقْصُورُ وَالمَمْدُود",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "egypt-sham",
+  "tabaqa": {
+    "list": "egypt",
+    "n": 3,
+    "entry": 159
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 159 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "İbn Vellâd, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-vellad"
+    }
+  ]
+}

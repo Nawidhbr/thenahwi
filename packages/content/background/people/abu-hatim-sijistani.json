@@ -1,0 +1,44 @@
+{
+  "slug": "abu-hatim-sijistani",
+  "name": "Abū Ḥātim Sahl ibn Muḥammad al-Sijistānī",
+  "known": "Abū Ḥātim al-Sijistānī",
+  "arabic": "أَبُو حَاتِمٍ السِّجِسْتَانِيُّ",
+  "died": "255/869",
+  "places": [
+    "Basra"
+  ],
+  "roles": [
+    "teacher"
+  ],
+  "summary": "Basran lexicographer, reader and grammarian, student of al-Aṣmaʿī and al-Akhfash and teacher of al-Mubarrad and Ibn Durayd.",
+  "bio": [
+    "Abū Ḥātim came from Sijistān and spent his life in Basra, learning from al-Aṣmaʿī, Abū ʿUbayda, Abū Zayd al-Anṣārī and al-Akhfash; al-Zubaydī places him in the seventh Basran generation. He was a reader of the Qurʾān and the imam of the mosque of Basra, and the sources say he knew the Qurʾān readings and rare words better than grammar.",
+    "His books on words of opposite meanings (al-Aḍdād), on the masculine and feminine and on the long-lived (al-Muʿammarūn) survive. Al-Mubarrad and Ibn Durayd were his students. He died in 255/869."
+  ],
+  "works": [
+    {
+      "title": "al-Aḍdād",
+      "arabic": "الأَضْدَاد",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 7,
+    "entry": 31
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 31 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ebû Hâtim es-Sicistânî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ebu-hatim-es-sicistani"
+    }
+  ]
+}

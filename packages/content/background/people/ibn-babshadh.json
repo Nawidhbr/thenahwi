@@ -1,0 +1,43 @@
+{
+  "slug": "ibn-babshadh",
+  "name": "Abū al-Ḥasan Ṭāhir ibn Aḥmad ibn Bābashādh",
+  "known": "Ibn Bābashādh",
+  "arabic": "ابْنُ بَابَشَاذ",
+  "died": "469/1077",
+  "places": [
+    "Cairo",
+    "Fusṭāṭ"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Egyptian grammarian of Persian family who corrected the Arabic of the Fāṭimid chancery, wrote al-Muqaddima al-muḥsiba, and, the biographers tell, left it all after watching two cats.",
+  "bio": [
+    "Ibn Bābashādh studied in Iraq and taught in Egypt, where he held the office of checking the language of the letters of the Fāṭimid chancery before they went out. His al-Muqaddima al-muḥsiba is a short handbook of naḥw, with his own commentary, and he commented on al-Zajjājī's al-Jumal; his notes, gathered from his room in the mosque, made a large book known as Taʿlīq al-ghurfa.",
+    "The biographers tell that one day he saw a cat carry food to a blind cat on a roof, day after day, and took it as a lesson in God's care: he gave up his post and his salary and lived on in devotion. He died in 469/1077 after a fall from the roof of the mosque of ʿAmr in Fusṭāṭ."
+  ],
+  "works": [
+    {
+      "title": "al-Muqaddima al-muḥsiba",
+      "arabic": "المُقَدِّمَةُ المُحْسِبَة",
+      "kind": "matn"
+    },
+    {
+      "title": "Sharḥ al-Jumal",
+      "arabic": "شَرْحُ الجُمَل",
+      "kind": "sharh",
+      "on": "zajjaji"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "egypt-sham",
+  "sources": [
+    {
+      "title": "İbn Bâbeşâz, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-babesaz"
+    }
+  ]
+}

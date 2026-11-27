@@ -1,0 +1,2627 @@
+{
+  "title": "Lâmiyyat al-af'âl",
+  "summary": "La Lâmiyyat al-af'âl, le poème d'Ibn Mâlik sur le verbe, compte 114 vers dans le mètre basît, qui riment tous en lâm (d'où son nom). C'est le poème de sarf du Maghreb et d'al-Azhar, appris par cœur et lu avec un commentaire, entre autres celui du fils du poète, Badr al-Dîn. En quelques vers chaque fois, il expose les schèmes du verbe nu et augmenté et la voyelle du mudâri', le mudâri', le passif et l'impératif, les participes, les masdars, les noms de temps et de lieu, le nom du lieu d'abondance et l'instrument, en serrant dans ses vers de longues listes de verbes et de noms. Les leçons donnent les vers tels que les a l'édition du Caire de 1896, vocalisés selon le mètre, expliquent chaque règle avec des exemples tirés des vers, des livres ottomans de sarf et de l'outil de conjugaison de The Nahwi, et signalent où l'édition est douteuse.",
+  "parts": {
+    "bare-verb": "Les schèmes du verbe nu et leurs conjugaisons",
+    "augmented-verb": "Le verbe augmenté, le mudâri', le passif et l'impératif",
+    "participles": "Les schèmes des participes",
+    "masdars": "Les schèmes des masdars",
+    "mafal": "Maf'al et maf'il, maf'ala et l'instrument"
+  },
+  "lessons": {
+    "1": {
+      "title": "L'ouverture : qui maîtrise le verbe",
+      "body": [
+        "La Lâmiyyat al-af'âl est un poème d'Ibn Mâlik (m. 672/1274), l'auteur de l'Alfiyya, sur les formes du verbe et les noms qu'on en tire. Il compte 114 vers dans le mètre appelé basît, et chaque vers se termine par la même rime, lâm avec un a long : badalâ, al-amalâ, al-fudalâ. Un poème qui rime en lâm est une lâmiyya ; celui-ci est « la lâmiyya des verbes ».",
+        "Il s'ouvre comme s'ouvrent de tels poèmes : par la louange d'Allah, « je ne lui cherche pas de substitut », et la prière sur « le meilleur des créatures », le Prophète, sa famille et ses compagnons. Puis, après wa-ba'du, le sujet : « le verbe : qui en maîtrise la conjugaison acquiert de la langue ses chapitres et ses voies ». Le verbe est le pivot du sarf : les participes, les masdars et les noms de lieu et d'instrument qui remplissent la seconde moitié du poème en sont tous tirés.",
+        "Le second vers de l'ouverture énonce la méthode de tout poème didactique (nazm) : « prends un poème qui embrasse l'essentiel ; et celui qui garde à l'esprit les résumés peut saisir les détails ». Les vers sont de courts résumés, à apprendre par cœur ; les détails sont déployés par un maître ou un commentaire. La Lâmiyya est si condensée qu'on la lit presque toujours avec un commentaire, et les leçons font ici le même travail : chacune prend quelques vers et les ouvre.",
+        "Quelques habitudes du vers à connaître avant de poursuivre. Un mot peut être coupé entre les deux moitiés d'un vers (nous écrivons les moitiés avec « * » entre elles). Une hamza est parfois omise pour le mètre, sa voyelle donnée à la lettre qui précède (aw et aydan s'écrivent alors avec un alif nu). Un schème est souvent nommé par un verbe exemple plutôt que par son nom, et les listes de verbes sont données avec un mot de sens (« c'est-à-dire … ») pour que le bon sens soit visé.",
+        "Notre texte est l'édition du Caire de 1896, un recueil des mutûn les plus employés ; elle n'a presque pas de voyelles ; les voyelles sont donc les nôtres, fixées par le mètre et, à partir du vers 62 et aux endroits douteux, par l'édition de W. Volck de 1866 avec le commentaire du fils d'Ibn Mâlik, Badr al-Dîn."
+      ],
+      "terms": [
+        "un poème dont chaque vers rime en lâm",
+        "le mètre du poème : mustaf'ilun fâ'ilun, deux fois dans chaque moitié",
+        "la versification : un texte d'enseignement mis en vers pour être appris par cœur",
+        "la conjugaison du verbe : son passage dans ses formes",
+        "les résumés et les détails"
+      ],
+      "examples": [
+        "al-hamdu li-llâhi lâ abghî bihi badalâ : le premier hémistiche, terminé par la rime -lâ",
+        "fa-l-fi'lu man yuhkim tasarrufahu : « le verbe : qui en maîtrise la conjugaison »",
+        "celui qui garde à l'esprit les résumés peut saisir les détails"
+      ],
+      "tasks": [
+        {
+          "prompt": "Expliquez le nom Lâmiyyat al-af'âl.",
+          "answer": "Une lâmiyya est un poème dont chaque vers rime en lâm ; celui-ci porte sur les verbes (al-af'âl) : « le poème rimant en lâm des verbes ». Chaque vers se termine par -lâ."
+        },
+        {
+          "prompt": "Scandez le premier hémistiche en ses quatre pieds.",
+          "answer": "Al-hamdu lil- (mustaf'ilun), lâhi lâ (fâ'ilun), abghî bihî (mustaf'ilun), badalâ (fa'ilun) : le mètre basît."
+        },
+        {
+          "prompt": "Que dit le poème de sa propre méthode, et comment faut-il l'étudier ?",
+          "answer": "C'est un poème qui embrasse l'essentiel, et celui qui garde à l'esprit les résumés peut saisir les détails. On apprend donc les vers par cœur comme des résumés, et l'on en tire les détails avec un maître ou un commentaire."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qui a écrit la Lâmiyyat al-af'âl ?",
+          "options": [
+            "Ibn Âjurrûm",
+            "Ibn Mâlik",
+            "al-Zanjânî",
+            "Ibn Hishâm"
+          ],
+          "explanation": "L'auteur de l'Alfiyya, m. 672/1274."
+        },
+        {
+          "prompt": "Pourquoi l'appelle-t-on une lâmiyya ?",
+          "options": [
+            "Elle commence par un lâm",
+            "Elle porte sur le lâm de l'ordre",
+            "Chaque vers rime en lâm",
+            "Le nom de son auteur contient un lâm"
+          ],
+          "explanation": "Badalâ, al-amalâ, al-fudalâ …"
+        },
+        {
+          "prompt": "Son mètre est…",
+          "options": [
+            "al-rajaz",
+            "al-tawîl",
+            "al-kâmil",
+            "al-basît"
+          ],
+          "explanation": "Mustaf'ilun fâ'ilun mustaf'ilun fa'ilun dans chaque moitié."
+        },
+        {
+          "prompt": "Combien de vers compte le poème ?",
+          "options": [
+            "114",
+            "1000",
+            "52",
+            "144"
+          ],
+          "explanation": "Notre édition et celle de Volck en comptent 114."
+        },
+        {
+          "prompt": "Qui maîtrise la conjugaison du verbe, dit le poème, acquiert…",
+          "options": [
+            "les seules règles du nahw",
+            "les chapitres et les voies de la langue",
+            "le sens du Coran",
+            "la rime"
+          ],
+          "explanation": "Yahuz min al-lughati al-abwâba wa-l-subulâ."
+        },
+        {
+          "prompt": "Qui peut saisir les détails, selon l'ouverture ?",
+          "options": [
+            "Celui qui lit vite",
+            "Celui qui connaît le nahw",
+            "Celui qui garde à l'esprit les résumés",
+            "Celui qui écrit des vers"
+          ],
+          "explanation": "Les vers sont des résumés à apprendre par cœur."
+        },
+        {
+          "prompt": "Quel commentaire est imprimé dans l'édition de Volck ?",
+          "options": [
+            "Celui d'Ibn Hishâm",
+            "Celui d'al-Akhdarî",
+            "Celui de Sîbawayh",
+            "Celui de Badr al-Dîn, le fils du poète"
+          ],
+          "explanation": "Ibn Mâlik's Lâmiyya mit Badraddîn's Commentar, Leipzig 1866."
+        }
+      ],
+      "diagram": {
+        "caption": "Le premier hémistiche scandé dans le mètre basît",
+        "labels": {
+          "The first half-line scanned in the basīṭ metre": "Le premier hémistiche scandé dans le mètre basît",
+          "Foot": "Pied",
+          "Syllables": "Syllabes",
+          "Measure": "Mesure",
+          "al-ḥam-du lil-": "al-ham-du lil-",
+          "long long short long": "longue longue brève longue",
+          "mustafʿilun": "mustaf'ilun",
+          "lā-hi lā": "lâ-hi lâ",
+          "long short long": "longue brève longue",
+          "fāʿilun": "fâ'ilun",
+          "ab-ghī bi-hī": "ab-ghî bi-hî",
+          "ba-da-lā": "ba-da-lâ",
+          "short short long": "brève brève longue",
+          "faʿilun": "fa'ilun"
+        }
+      },
+      "text": [
+        "Louange à Allah — je ne Lui cherche pas de substitut — / une louange qui [me] mène à ce que j'espère de Son agrément ;\npuis la prière sur le meilleur des créatures, et sur / nos maîtres, sa famille et ses compagnons, les vertueux.",
+        "Et ensuite : le verbe — qui en maîtrise la conjugaison / acquiert de la langue ses chapitres et ses voies.\nPrends donc un poème qui embrasse l'essentiel ; et peut / saisir les détails celui qui garde à l'esprit les résumés."
+      ]
+    },
+    "2": {
+      "title": "Les quatre schèmes nus, et le mudâri' de fa'ula et de fa'ila",
+      "body": [
+        "Le verbe nu, commence Ibn Mâlik, vient sur fa'lala, sur fa'ula, « avec une kasra sur le 'ayn » (fa'ila), ou sur fa'ala. Le schème de quatre lettres vient d'abord, puis les trois passés du trilitère, qui ne se distinguent que par la voyelle du 'ayn. Dahraja yudahriju est le modèle de fa'lala, tel que le récitent les livres ottomans.",
+        "Puis le mudâri'. « Garde la damma de fa'ula au mudâri' » : karuma yakrumu, u dans les deux. « Et donne une fatha à la place de la kasra dans ce qui est bâti sur fa'ila » : 'alima ya'lamu, la kasra du passé changée en fatha. Ce sont deux règles sans exception pour fa'ula, et avec des exceptions pour fa'ila, qui suivent aussitôt.",
+        "« Deux façons y sont » dans un groupe de verbes fa'ila dont le mudâri' peut prendre une fatha ou une kasra : hasiba (nommé par son impératif ihsib), waghira, hâra, na'ima (in'im), ba'isa, ya'isa, waliha (iwlah), yabisa et wahila. Avec l'outil de conjugaison : yahsabu et yahsibu, yan'amu et yan'imu.",
+        "« Et garde la kasra seule » dans un autre groupe : waritha, waliya, warima, wari'a, wamiqa, wafiqa, wathiqa et wariya al-mukhkhu, « la moelle était pleine ». Ce sont des fa'ila yaf'ilu, la classe rare de hasiba. Regardez-les : chacun commence par un wâw. Ce sont des verbes mithâl, et leur wâw tombe au futur devant la kasra (yarithu, yamiqu), comme l'explique le Marâh ; le Marâh nomme wamiqa yamiqu parmi les classes du mithâl.",
+        "Remarquez comment le vers nomme les verbes : certains par le passé en -ta (waghirta, hirta, ba'ista), certains par l'impératif (ihsib, in'im, iwlah), certains par le passé nu (yabis, wahilâ). La forme est choisie pour le mètre ; ce qui est visé chaque fois, c'est le verbe et sa racine."
+      ],
+      "terms": [
+        "le verbe nu : toutes ses lettres sont radicales",
+        "le schème du quadrilitère nu",
+        "les deux façons : un mudâri' permis avec fatha ou avec kasra",
+        "garder la kasra seule : fa'ila yaf'ilu"
+      ],
+      "examples": [
+        "garde la damma de fa'ula au mudâri'",
+        "karuma yakrumu, 'alima ya'lamu (outil de conjugaison)",
+        "les deux façons de hasiba et de na'ima (outil de conjugaison)",
+        "warima, wari'ta, wamiqta : fa'ila avec la kasra seule"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les quatre schèmes nus tels que le poème les énumère, et le mudâri' de fa'ula et de fa'ila.",
+          "answer": "Fa'lala, fa'ula, fa'ila (« avec une kasra sur le 'ayn ») et fa'ala. Fa'ula garde sa damma au mudâri' (yaf'ulu) ; fa'ila change sa kasra en fatha (yaf'alu)."
+        },
+        {
+          "prompt": "Donnez les deux futurs de hasiba et de na'ima avec l'outil de conjugaison.",
+          "answer": "Yahsabu et yahsibu ; yan'amu et yan'imu (يَحْسَبُ، يَحْسِبُ، يَنْعَمُ، يَنْعِمُ) : ces verbes fa'ila ont les deux façons."
+        },
+        {
+          "prompt": "Qu'ont en commun les verbes de la liste de la kasra seule, et qu'en résulte-t-il pour leur futur ?",
+          "answer": "Tous commencent par un wâw (waritha, waliya, warima, wari'a, wamiqa, wafiqa, wathiqa, wariya) : ce sont des verbes mithâl sur fa'ila yaf'ilu, et leur wâw tombe au futur devant la kasra."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quel schème le poème nomme-t-il en premier ?",
+          "options": [
+            "fa'ala",
+            "fa'ila",
+            "fa'lala",
+            "fa'ula"
+          ],
+          "explanation": "Bi-fa'lala al-fi'lu dhû al-tajrîdi …"
+        },
+        {
+          "prompt": "Le mudâri' de fa'ula a…",
+          "options": [
+            "une fatha",
+            "une kasra",
+            "l'une ou l'autre",
+            "une damma sur le 'ayn"
+          ],
+          "explanation": "Karuma yakrumu."
+        },
+        {
+          "prompt": "Au mudâri' de fa'ila, la kasra devient…",
+          "options": [
+            "une fatha",
+            "une damma",
+            "un sukûn",
+            "rien : elle reste"
+          ],
+          "explanation": "'Alima ya'lamu, selon la règle."
+        },
+        {
+          "prompt": "Quel verbe a les deux façons à son mudâri' ?",
+          "options": [
+            "waritha",
+            "hasiba",
+            "karuma",
+            "'alima"
+          ],
+          "explanation": "Yahsabu et yahsibu."
+        },
+        {
+          "prompt": "Quel verbe garde la kasra seule ?",
+          "options": [
+            "na'ima",
+            "ya'isa",
+            "wamiqa",
+            "'alima"
+          ],
+          "explanation": "Wamiqa yamiqu, fa'ila yaf'ilu."
+        },
+        {
+          "prompt": "Les verbes qui gardent la kasra seule commencent tous par…",
+          "options": [
+            "une hamza",
+            "un yâ'",
+            "une lettre gutturale",
+            "un wâw"
+          ],
+          "explanation": "Waritha, waliya, warima, wari'a …"
+        },
+        {
+          "prompt": "Pourquoi le vers nomme-t-il ihsib et in'im par leur impératif ?",
+          "options": [
+            "Pour le mètre : la forme importe peu, c'est le verbe qui compte",
+            "Parce que ce ne sont que des impératifs",
+            "Parce qu'ils sont passifs",
+            "Parce qu'ils sont irréguliers"
+          ],
+          "explanation": "Le poème emploie la forme du verbe qui convient au vers."
+        }
+      ],
+      "diagram": {
+        "caption": "Le verbe nu et la voyelle de son mudâri' (Lâmiyya, v. 5–9 ; formes de l'outil de conjugaison et du Maqsûd)",
+        "labels": {
+          "The bare verb and the vowel of its muḍāriʿ (Lāmiyya vv. 5–9; forms from the conjugation tool and the Maqṣūd)": "Le verbe nu et la voyelle de son mudâri' (Lâmiyya, v. 5–9 ; formes de l'outil de conjugaison et du Maqsûd)",
+          "Past": "Passé",
+          "Muḍāriʿ": "Mudâri'",
+          "Examples": "Exemples",
+          "faʿlala": "fa'lala",
+          "yufaʿlilu": "yufa'lilu",
+          "faʿula": "fa'ula",
+          "yafʿulu": "yaf'ulu",
+          "faʿila": "fa'ila",
+          "yafʿalu": "yaf'alu",
+          "faʿila, two ways": "fa'ila, deux façons",
+          "yafʿalu or yafʿilu": "yaf'alu ou yaf'ilu",
+          "faʿila, kasra alone": "fa'ila, kasra seule",
+          "yafʿilu": "yaf'ilu",
+          "faʿala": "fa'ala",
+          "see the next lessons": "voir les leçons suivantes"
+        }
+      },
+      "text": [
+        "Sur fa'lala vient le verbe nu, ou sur fa'ula, / ou avec une kasra sur le 'ayn, ou sur fa'ala.\nGarde la damma de fa'ula au mudâri', et donne / une fatha à la place de la kasra dans ce qui est bâti sur fa'ila.",
+        "Deux façons y sont dans ihsib « suppose ! », avec waghirta « tu t'es irrité » et hirta « tu as été perplexe », / in'im « vis dans l'aisance ! », ba'ista « tu as été misérable », ya'ista « tu as désespéré », iwlah « sois éperdu ! », yabis « il a séché » et wahilâ « il a été saisi d'effroi » ;\net garde la kasra seule dans [les verbes] de warith « il a hérité », walî « il a été proche », / warim « il a enflé », wari'ta « tu as été pieux », wamiqta « tu as aimé », avec wafiqta « tu as été d'accord » — [cela est] doux —"
+      ]
+    },
+    "3": {
+      "title": "Le mudâri' de fa'ala : lettres faibles et verbe géminé",
+      "body": [
+        "Fa'ala, le passé le plus courant, peut prendre chacune des trois voyelles à son mudâri', et le poème dit maintenant ce qui en décide. « Garde une kasra au 'ayn du mudâri' qui suit fa'ala » dans quatre sortes : avec un wâw pour fâ' (wa'ada ya'idu), avec un yâ' pour 'ayn (bâ'a yabî'u), « comme atâ », avec un yâ' pour lâm (ramâ yarmî), et le verbe géminé « quand il est intransitif », comme hanna talâ, « un petit a langui ».",
+        "« Et donne une damma au 'ayn de son transitif » : le verbe géminé qui prend un objet a yaf'ulu. Les exemples du Marâh montrent la paire : sarra yasurru, « réjouir » (quelqu'un), et farra yafirru, « fuir », qui ne prend pas d'objet. Le mudâri' d'un verbe géminé se reconnaît donc à sa transitivité.",
+        "Les deux règles ont de rares exceptions : « celui qui a la kasra est rare », un transitif avec yaf'ilu ; « comme on a admis un intransitif avec damma ». Le premier est habbahu, « il l'a aimé », avec yaf'ilu. Certains ont « deux façons » : harra, « il a détesté », shadda, « il a lié », et 'allahu 'alalan, « il lui a donné à boire une seconde fois », et batta, « il a coupé ». Les intransitifs avec damma sont la longue liste de la leçon suivante.",
+        "Pourquoi les lettres faibles en décident-elles ? Un wâw pour fâ' tombe devant la kasra de yaf'ilu (ya'idu), et c'est à cette kasra qu'on reconnaît le mithâl ; un yâ' pour 'ayn ou pour lâm ne garde son yâ' qu'après une kasra (yabî'u, yarmî), là où une damma le changerait en wâw. La voyelle du mudâri' n'est donc pas choisie librement : les lettres faibles de la racine l'attirent.",
+        "Retenez la première moitié du tableau : fa'ala prend yaf'ilu avec un fâ' wâw, un 'ayn yâ', un lâm yâ', ou la gémination sans objet ; yaf'ulu avec la gémination et un objet. Le reste de fa'ala est le sujet des leçons 5 et 6."
+      ],
+      "terms": [
+        "intransitif : un verbe qui ne prend pas d'objet",
+        "transitif : un verbe qui prend un objet",
+        "le verbe géminé : son 'ayn et son lâm semblables",
+        "« comme atâ » : un verbe dont le lâm est un yâ'"
+      ],
+      "examples": [
+        "ka-hanna talâ : un intransitif géminé avec kasra",
+        "les trois sortes faibles avec yaf'ilu (le Marâh)",
+        "transitif avec damma, intransitif avec kasra (le Marâh)",
+        "habbahu : un transitif avec kasra, rare"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez les quatre sortes de fa'ala qui gardent la kasra au mudâri', avec un exemple de chacune.",
+          "answer": "Avec un wâw pour fâ' (wa'ada ya'idu) ; avec un yâ' pour 'ayn (bâ'a yabî'u) ; avec un yâ' pour lâm, comme atâ (ramâ yarmî) ; et le verbe géminé quand il est intransitif (hanna, comme farra yafirru)."
+        },
+        {
+          "prompt": "Qu'est-ce qui décide de la voyelle du mudâri' d'un verbe géminé ? Servez-vous de sarra et de farra.",
+          "answer": "La transitivité : le transitif prend une damma (sarra yasurru, « réjouir quelqu'un »), l'intransitif une kasra (farra yafirru, « fuir »)."
+        },
+        {
+          "prompt": "Quels verbes géminés sont des exceptions dans ces vers ?",
+          "answer": "Habbahu, un transitif avec kasra (rare) ; et, avec deux façons, harra, shadda, 'alla (dans 'allahu 'alalan) et batta."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fa'ala avec un wâw pour fâ' a un mudâri' sur…",
+          "options": [
+            "yaf'ulu",
+            "yaf'alu",
+            "l'un ou l'autre",
+            "yaf'ilu"
+          ],
+          "explanation": "Wa'ada ya'idu."
+        },
+        {
+          "prompt": "« Comme atâ » représente fa'ala avec…",
+          "options": [
+            "un yâ' pour lâm",
+            "une hamza pour fâ'",
+            "un wâw pour 'ayn",
+            "la gémination"
+          ],
+          "explanation": "Atâ ya'tî, comme ramâ yarmî."
+        },
+        {
+          "prompt": "Un fa'ala géminé intransitif prend…",
+          "options": [
+            "yaf'ulu",
+            "yaf'ilu",
+            "yaf'alu",
+            "pas de mudâri'"
+          ],
+          "explanation": "Hanna talâ, comme farra yafirru dans le Marâh."
+        },
+        {
+          "prompt": "Un fa'ala géminé transitif prend…",
+          "options": [
+            "yaf'ilu",
+            "yaf'alu",
+            "yaf'ulu",
+            "toujours l'un ou l'autre"
+          ],
+          "explanation": "Sarra yasurru."
+        },
+        {
+          "prompt": "Habbahu, « il l'a aimé », est…",
+          "options": [
+            "un intransitif avec damma",
+            "un verbe à deux façons",
+            "non géminé",
+            "un transitif rare avec kasra"
+          ],
+          "explanation": "« Celui qui a la kasra est rare. »"
+        },
+        {
+          "prompt": "Quel verbe a deux façons, d'après ces vers ?",
+          "options": [
+            "harra",
+            "hanna",
+            "farra",
+            "wa'ada"
+          ],
+          "explanation": "Harra, shadda et 'alla."
+        },
+        {
+          "prompt": "Bâ'a yabî'u garde la kasra parce que son…",
+          "options": [
+            "fâ' est un wâw",
+            "'ayn est un yâ'",
+            "lâm est un wâw",
+            "'ayn est une lettre gutturale"
+          ],
+          "explanation": "Un 'ayn yâ' garde yaf'ilu."
+        }
+      ],
+      "diagram": {
+        "caption": "Quand le mudâri' de fa'ala a une kasra ou une damma (Lâmiyya, v. 9–12 ; exemples du Marâh dans l'édition ottomane)",
+        "labels": {
+          "When the muḍāriʿ of faʿala has kasra or ḍamma (Lāmiyya vv. 9–12; examples from the Marāḥ in the Ottoman print)": "Quand le mudâri' de fa'ala a une kasra ou une damma (Lâmiyya, v. 9–12 ; exemples du Marâh dans l'édition ottomane)",
+          "Kind of faʿala": "Sorte de fa'ala",
+          "Muḍāriʿ": "Mudâri'",
+          "Example": "Exemple",
+          "wāw as fāʾ": "wâw pour fâ'",
+          "yafʿilu": "yaf'ilu",
+          "yāʾ as ʿayn": "yâ' pour 'ayn",
+          "yāʾ as lām, like atā": "yâ' pour lâm, comme atâ",
+          "doubled, intransitive": "géminé, intransitif",
+          "doubled, transitive": "géminé, transitif",
+          "yafʿulu": "yaf'ulu",
+          "doubled, transitive, rare": "géminé, transitif, rare"
+        }
+      },
+      "text": [
+        "wathiqta « tu as eu confiance », avec wariya al-mukhkhu « la moelle était pleine » : retiens-les ! Et garde / une kasra au 'ayn du mudâri' qui suit fa'ala,\navec un wâw pour fâ', ou un yâ' pour 'ayn, ou comme atâ « il est venu » ; / de même le géminé quand il est intransitif, comme hanna talâ « un petit a langui ».",
+        "Et donne une damma au 'ayn de son transitif ; celui qui a / la kasra est rare, comme on a admis [rarement] un intransitif avec damma.\nLe transitif avec kasra est habbahu « il l'a aimé » ; et tiens pour ayant / deux façons harra « il a détesté », shadda « il a lié » et 'allahu 'alalâ « il lui a donné à boire une seconde fois »,"
+      ]
+    },
+    "4": {
+      "title": "Les verbes géminés qui enfreignent la règle",
+      "body": [
+        "Trois vers énumèrent les verbes géminés intransitifs qui prennent une damma contre la règle (yaf'ulu, non yaf'ilu), puis les verbes qui ont les deux voyelles. Le premier hémistiche, « donne une damma à namma … avec l'intransitivité », ne se scande pas dans notre édition, et l'édition de Volck le lit autrement ; nous le donnons tel qu'il est imprimé. La liste qu'il ouvre est claire : umrur bihi, « passe près de lui », jalla « comme jalâ », « il a émigré », habbat, « le vent a soufflé », dharrat, « le soleil s'est levé », ajja, « le feu a flambé », karra, « il est revenu à la charge », hamma bihi, « il s'y est résolu », 'amma, zamma, sahha, « il s'est déversé », et d'autres.",
+        "Certaines entrées portent une glose avec ay, « c'est-à-dire » : malla ay dhamalâ, « il est allé d'un pas vif » ; shadda ay 'adâ, « il a couru » ; ghalla ay dakhalâ, « il est entré » ; thalla ay râtha. La glose compte, car le même verbe dans un autre sens suit la règle : shadda « il a lié », transitif, était parmi les verbes à deux façons du vers 12 ; shadda « il a couru », intransitif, prend ici la damma. La liste continue avec qashsha, janna, « la nuit l'a couvert », rashsha et tashsha, « le nuage a aspergé, a bruiné », talla, « le sang est resté sans vengeance », khabba, « le cheval a trotté », kamma et 'assat, « la chamelle a été avare de son lait ».",
+        "Puis « prends les deux façons » de sadda, « il s'est détourné », atta (la leçon de l'édition ; Volck a aththa), kharra, « le rocher est tombé avec fracas », haddat, « elle a pris le deuil », tharrat et darrat, « le pis, le lait a coulé », jadda, jamma, shabba, « le cheval s'est cabré », 'anna, « il est apparu », fahhat, « le serpent a sifflé », et, dans le vers suivant, shattat al-dâru, nassa et harra. Shahha ay bakhila, « il a été avare », est marqué comme irrégulier. (Le vers 15 est lui aussi incertain : « sarkhan » dans notre édition, « sawtan » chez Volck.)",
+        "Comment un élève doit-il se servir de telles listes ? Il les apprend par cœur comme il apprend le vers, et avec elles les sens que fixent les gloses ; le commentaire donne le mudâri' de chaque verbe. La règle reste simple, et la liste en contient les exceptions : le verbe géminé prend yaf'ulu s'il est transitif et yaf'ilu s'il est intransitif, sauf les verbes nommés ici.",
+        "L'outil de conjugaison ne conjugue pas les verbes géminés, et notre édition ne donne pas de futurs pour ceux-ci ; la leçon ne les nomme donc que par leurs passés."
+      ],
+      "terms": [
+        "l'irrégulier, comme shahha au sens de bakhila",
+        "« c'est-à-dire » : la glose qui fixe le sens visé",
+        "les deux façons : yaf'ulu et yaf'ilu tous deux permis",
+        "avec l'intransitivité : la condition de la liste de la damma"
+      ],
+      "examples": [
+        "habbat, dharrat, ajja, karra, hamma bihi : des intransitifs avec damma",
+        "malla ay dhamalâ : la glose qui fixe le sens",
+        "khabba al-hisânu : « le cheval a trotté »",
+        "haddat, tharrat : deux façons"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le poème ajoute-t-il « c'est-à-dire 'adâ » après shadda ?",
+          "answer": "Pour fixer le sens : shadda au sens de « il a couru » est intransitif et figure avec la damma ; shadda au sens de « il a lié » est transitif et a été compté parmi les verbes à deux façons. La glose dit quel verbe est visé."
+        },
+        {
+          "prompt": "Énoncez la règle du mudâri' du verbe géminé et les deux sortes d'exceptions qu'énumèrent ces vers.",
+          "answer": "Le transitif prend yaf'ulu, l'intransitif yaf'ilu. Ces vers énumèrent des intransitifs qui prennent yaf'ulu contre la règle (habbat, dharrat, ajja …) et des verbes admis avec les deux voyelles (sadda, kharra, haddat …)."
+        },
+        {
+          "prompt": "Quelles leçons de ces vers sont incertaines, et comment sont-elles données ?",
+          "answer": "Le premier hémistiche du vers 13 ne se scande pas dans l'édition, et Volck le lit autrement ; le vers 15 a sarkhan dans notre édition et sawtan chez Volck ; le vers 18 a atta, là où Volck a aththa. Elles sont données telles que les a l'édition."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Habbat, dharrat et ajja figurent comme…",
+          "options": [
+            "des intransitifs avec damma",
+            "des transitifs avec kasra",
+            "des verbes à deux façons",
+            "des verbes hamzés irréguliers"
+          ],
+          "explanation": "Des exceptions à la kasra de l'intransitif."
+        },
+        {
+          "prompt": "Malla est glosé par…",
+          "options": [
+            "bakhilâ",
+            "dhamalâ, « il est allé d'un pas vif »",
+            "dakhalâ",
+            "'adâ"
+          ],
+          "explanation": "Malla ay dhamalâ."
+        },
+        {
+          "prompt": "Ghalla est glosé par…",
+          "options": [
+            "'adâ",
+            "râtha",
+            "dakhalâ, « il est entré »",
+            "dhamalâ"
+          ],
+          "explanation": "Ghalla ay dakhalâ."
+        },
+        {
+          "prompt": "Khabba al-hisânu veut dire…",
+          "options": [
+            "le cheval s'est cabré",
+            "la pluie s'est déversée",
+            "la nuit est tombée",
+            "le cheval a trotté"
+          ],
+          "explanation": "L'un des intransitifs avec damma."
+        },
+        {
+          "prompt": "Haddat et tharrat appartiennent…",
+          "options": [
+            "aux verbes à deux façons",
+            "à la liste de la damma",
+            "aux transitifs rares",
+            "aux irréguliers"
+          ],
+          "explanation": "« Prends les deux façons de … »"
+        },
+        {
+          "prompt": "Quel verbe est marqué comme irrégulier ?",
+          "options": [
+            "hanna",
+            "shahha au sens de bakhila",
+            "sarra",
+            "farra"
+          ],
+          "explanation": "Wa-shadhdha shahha ay bakhilâ."
+        },
+        {
+          "prompt": "Pourquoi la glose dans shadda ay 'adâ ?",
+          "options": [
+            "Pour la rime seulement",
+            "Pour montrer le passif",
+            "Le même verbe dans un autre sens suit une autre règle",
+            "Parce que 'adâ est un verbe géminé"
+          ],
+          "explanation": "Shadda « lier » était parmi les verbes à deux façons."
+        }
+      ],
+      "diagram": {
+        "caption": "Le mudâri' du verbe géminé : règle et exceptions (Lâmiyya, v. 10–20)",
+        "labels": {
+          "The doubled verb's muḍāriʿ: rule and exceptions (Lāmiyya vv. 10–20)": "Le mudâri' du verbe géminé : règle et exceptions (Lâmiyya, v. 10–20)",
+          "Group": "Groupe",
+          "Muḍāriʿ": "Mudâri'",
+          "Some verbs": "Quelques verbes",
+          "intransitive, by rule": "intransitif, selon la règle",
+          "yafʿilu": "yaf'ilu",
+          "intransitive, listed exceptions": "intransitif, exceptions énumérées",
+          "yafʿulu": "yaf'ulu",
+          "listed, both ways": "énumérés, deux façons",
+          "yafʿilu or yafʿulu": "yaf'ilu ou yaf'ulu",
+          "transitive, by rule": "transitif, selon la règle",
+          "transitive, rare exception": "transitif, exception rare"
+        }
+      },
+      "text": [
+        "et batta « il a coupé », au sens de couper ; et donne une damma à namma « il a colporté des propos », avec / l'intransitivité, dans umrur bihi « passe près de lui ! », et jalla [quand il est] comme jalâ « il a émigré »,\nhabbat « [le vent] a soufflé », dharrat « [le soleil] s'est levé », ajja « [le feu] a flambé », karra « il est revenu [à la charge] », hamma bihi « il s'y est résolu », / 'amma « ce fut général », zamma « il a levé [la tête] », sahha « il s'est déversé », malla c'est-à-dire dhamalâ « il est allé d'un pas vif »,\nalla au sens de briller et de crier, shakka, abba « il s'est apprêté à partir » et shadda / c'est-à-dire 'adâ « il a couru », shaqqa, khashsha et ghalla c'est-à-dire dakhalâ « il est entré » ;",
+        "et qashsha qawmun, 'alayhi al-laylu janna « la nuit l'a couvert », et rashsha / al-muznu « le nuage de pluie a aspergé », tashsha « il a bruiné », et thalla, dont l'origine est thalalâ,\nc'est-à-dire râtha « [la bête] a fienté » ; talla damun « le sang est resté sans vengeance », khabba al-hisânu « le cheval a trotté », et nabtun / kamma nakhlun, et 'assat nâqatun « une chamelle », [c'est-à-dire] bakhilâ « a été avare [de son lait] » ;",
+        "qassat ; de même, prends les deux façons de sadda « il s'est détourné », atta, et kharra / al-saldu « le rocher dur est tombé avec fracas », haddat « elle a pris le deuil », tharrat « [le pis] a coulé », jadda dit de celui qui a travaillé [avec ardeur] ;\ntarrat, tarrat « [la moustache] a poussé », darrat « [le lait] a coulé », jamma « il a été abondant », shabba dit d'un cheval « il s'est cabré », / 'anna « il est apparu », fahhat « [le serpent] a sifflé » ; et shahha c'est-à-dire bakhilâ « il a été avare » est irrégulier ;"
+      ]
+    },
+    "5": {
+      "title": "Fa'ala avec un wâw, les verbes de rivalité, et les lettres gutturales",
+      "body": [
+        "Vient maintenant la damma. « Le mudâri' de fa'altu, s'il a le wâw pour 'ayn ou pour lâm, se donne avec une damma sur le 'ayn » : qâla yaqûlu, ghazâ yaghzû. La raison répond à celle de la kasra : un wâw garde sa lettre après une damma, comme un yâ' après une kasra.",
+        "« Et cette règle a été donnée à ce qui indique une rivalité de gloire » : le verbe de surpassement, quand on dit qu'on a rivalisé avec quelqu'un dans une qualité et qu'on l'a emporté (les grammairiens l'appellent mughâlaba). Son mudâri' prend une damma, quelle que soit sa classe habituelle, à condition qu'il « n'ait pas ce qui appelle nécessairement une kasra sur le 'ayn » : un wâw pour fâ', ou un yâ' pour 'ayn ou pour lâm, garde la kasra même ici.",
+        "Puis la fatha. « Une fatha [sur le 'ayn du mudâri'] d'un verbe qui a une lettre gutturale autre que sa première a été rapportée d'al-Kisâ'î dans cette sorte » : dans les verbes de rivalité, il admettait la fatha de la lettre gutturale. « Hors de cela », en dehors de la rivalité, le verbe dont le 'ayn ou le lâm est une lettre gutturale prend une fatha « d'un commun accord », comme yas'alu de sa'ala, et yaftahu de fataha.",
+        "« Autre que sa première » : une lettre gutturale pour fâ' ne compte pas ('atala, leçon 6). Et la fatha n'est la règle que « s'il n'est pas géminé et n'est pas connu avec une kasra ou une damma » : baghâ a un ghayn mais fait yabghî, et dakhala a un khâ' mais fait yadkhulu, parce que l'usage les a fixés.",
+        "Pour fa'ala, le poème donne donc un ordre des causes : une lettre faible ou la gémination d'abord, puis la rivalité, puis une lettre gutturale, et au-dessus de toutes l'usage. La leçon suivante donne ce qui reste quand aucune d'elles ne s'applique."
+      ],
+      "terms": [
+        "la rivalité : le verbe où l'on surpasse quelqu'un dans une qualité, avec yaf'ulu",
+        "les lettres gutturales, qui amènent une fatha",
+        "le grammairien et lecteur du Coran de Koufa, dont le poème rapporte l'avis",
+        "le fait d'être bien connu : l'usage fixé, qui l'emporte sur les règles"
+      ],
+      "examples": [
+        "qâla yaqûlu, yaghzû : wâw pour 'ayn ou pour lâm (le Marâh)",
+        "'an al-Kisâ'î : la fatha dans les verbes de rivalité",
+        "une lettre gutturale avec fatha ; dakhala connu avec damma (outil de conjugaison)",
+        "ka-yabghî : une lettre gutturale, mais connu avec kasra"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelles sortes de fa'ala prennent une damma au mudâri', d'après ces vers ?",
+          "answer": "Ceux qui ont un wâw pour 'ayn ou pour lâm (qâla yaqûlu, ghazâ yaghzû), et les verbes de rivalité (mughâlaba), sauf si une cause exige la kasra."
+        },
+        {
+          "prompt": "Quand une lettre gutturale amène-t-elle une fatha, et quand non ?",
+          "answer": "Quand elle est le 'ayn ou le lâm de fa'ala (sa'ala yas'alu, fataha yaftahu), le verbe n'étant pas géminé ni connu avec une autre voyelle. Une lettre gutturale pour fâ' ne compte pas ; yabghî et yadkhulu gardent la voyelle que leur donne l'usage."
+        },
+        {
+          "prompt": "Que rapporte le poème d'al-Kisâ'î ?",
+          "answer": "Que, dans les verbes de rivalité, une lettre gutturale (autre que la première) peut amener une fatha, là où d'autres gardent la damma de la rivalité."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fa'ala avec un wâw pour 'ayn prend…",
+          "options": [
+            "yaf'ilu",
+            "yaf'ulu",
+            "yaf'alu",
+            "l'un ou l'autre"
+          ],
+          "explanation": "Qâla yaqûlu."
+        },
+        {
+          "prompt": "Le verbe de rivalité (mughâlaba) prend…",
+          "options": [
+            "toujours yaf'alu",
+            "toujours yaf'ilu",
+            "yaf'ulu, sauf si une lettre faible exige la kasra",
+            "pas de mudâri'"
+          ],
+          "explanation": "« Cette règle a été donnée à ce qui indique une rivalité. »"
+        },
+        {
+          "prompt": "De qui rapporte-t-on l'avis sur la lettre gutturale dans les verbes de rivalité ?",
+          "options": [
+            "Sîbawayh",
+            "al-Akhfash",
+            "Yûnus",
+            "al-Kisâ'î"
+          ],
+          "explanation": "'An al-Kisâ'î … qad hasalâ."
+        },
+        {
+          "prompt": "Hors de la rivalité, une lettre gutturale pour 'ayn ou pour lâm amène…",
+          "options": [
+            "une fatha, d'un commun accord",
+            "une damma",
+            "une kasra",
+            "rien"
+          ],
+          "explanation": "Comme yas'alu de sa'ala."
+        },
+        {
+          "prompt": "Pourquoi une lettre gutturale pour fâ' n'amène-t-elle pas de fatha ?",
+          "options": [
+            "Elle est faible",
+            "Le poème dit « autre que sa première »",
+            "Elle est géminée",
+            "Elle est rare"
+          ],
+          "explanation": "Seuls le 'ayn ou le lâm comptent."
+        },
+        {
+          "prompt": "Dakhala a une lettre gutturale, mais son mudâri' est…",
+          "options": [
+            "yadkhalu",
+            "yadkhilu",
+            "yadkhulu, connu par l'usage",
+            "l'un ou l'autre"
+          ],
+          "explanation": "« N'est pas connu avec une kasra ou une damma » est la condition."
+        },
+        {
+          "prompt": "Yabghî garde sa kasra parce que…",
+          "options": [
+            "il est géminé",
+            "il a un wâw",
+            "c'est une rivalité",
+            "il est connu avec kasra"
+          ],
+          "explanation": "L'usage l'emporte sur la lettre gutturale."
+        }
+      ],
+      "diagram": {
+        "caption": "Fa'ala : la damma et la fatha (Lâmiyya, v. 20–25 ; formes du Marâh et de l'outil de conjugaison)",
+        "labels": {
+          "Faʿala: the ḍamma and the fatḥa (Lāmiyya vv. 20–25; forms from the Marāḥ and the conjugation tool)": "Fa'ala : la damma et la fatha (Lâmiyya, v. 20–25 ; formes du Marâh et de l'outil de conjugaison)",
+          "Faʿala": "Fa'ala",
+          "Muḍāriʿ": "Mudâri'",
+          "Example": "Exemple",
+          "wāw as ʿayn": "wâw pour 'ayn",
+          "yafʿulu": "yaf'ulu",
+          "wāw as lām": "wâw pour lâm",
+          "a verb of contest": "un verbe de rivalité",
+          "throat letter as ʿayn or lām": "lettre gutturale pour 'ayn ou lâm",
+          "yafʿalu": "yaf'alu",
+          "the same, known with kasra": "le même, connu avec kasra",
+          "yafʿilu": "yaf'ilu",
+          "the same, known with ḍamma": "le même, connu avec damma"
+        }
+      },
+      "text": [
+        "et shattati al-dâru « la maison était éloignée », nassa al-shay'u « la chose s'est desséchée », harra dit d'un jour « il a fait chaud ». / Et le mudâri' de fa'altu, s'il a\nle wâw pour 'ayn ou pour lâm, se donne / avec une damma sur le 'ayn ; et cette règle a été donnée\nà ce qui indique une rivalité de gloire et n'a pas / ce qui appelle nécessairement une kasra sur le 'ayn, comme qalâ « il a haï ».",
+        "Une fatha [sur le 'ayn du mudâri'] d'un verbe qui a une lettre gutturale autre que sa première / a été rapportée d'al-Kisâ'î dans cette sorte.\nHors de cela, une fatha [est donnée à] celui qui a une lettre gutturale — répands-la / d'un commun accord — comme le mudâri' formé de sa'alâ « il a demandé »,"
+      ]
+    },
+    "6": {
+      "title": "Kasra ou damma ; et le verbe concave avec -tu et -na",
+      "body": [
+        "Que reste-t-il de fa'ala ? « Le 'ayn du mudâri' de fa'altu, là où il est libre de tout ce qui amène la fatha, comme ce qui est bâti sur 'atala, donne-lui une kasra ou une damma, quand le choix de l'une d'elles est tombé faute d'usage connu ou de cause. » Si l'usage a fixé une voyelle, suis-le ; si une lettre faible, la gémination ou une rivalité la fixe, suis cela ; sinon, les deux sont justes. 'Atala, « traîner », est l'exemple : sa lettre gutturale est sa première, qui ne compte pas, et l'outil de conjugaison donne donc à la fois ya'tilu et ya'tulu.",
+        "Voici donc la réponse complète du poème pour fa'ala : la kasra avec un fâ' wâw, un 'ayn ou un lâm yâ', ou la gémination sans objet ; la damma avec la gémination avec objet, un 'ayn ou un lâm wâw, ou une rivalité ; la fatha avec une lettre gutturale pour 'ayn ou pour lâm ; et, à défaut de tout cela et à défaut d'usage, la kasra ou la damma librement.",
+        "La section suivante, un vers et demi, passe au verbe concave avec les pronoms -tu et -na. « Transporte sur le fâ' du trilitère la voyelle du 'ayn quand il est faible et que le verbe est joint au tâ' du pronom ou à son nûn » : khawifna devient khifna, la kasra du wâw passant sur le khâ' ; tawulna devient tulna, sa damma passant sur le tâ'.",
+        "« Et quand c'est une fatha, prends à sa place une voyelle de la nature de ce 'ayn » : qawalna et baya'na ont une fatha sur la lettre faible, qu'on ne peut transporter sur un fâ' qui en a déjà une ; le fâ' prend donc la voyelle qui va avec la lettre faible, une damma pour le wâw, une kasra pour le yâ' : qulna, bi'na ; qultu, bi'tu.",
+        "Le Marâh donne la même règle avec toutes ses étapes (sa leçon sur qulna et khifna) ; la Lâmiyya la met en deux hémistiches. Comparez les deux : la raison est la même, à savoir que la voyelle laissée sur la première lettre indique la lettre faible qui a disparu."
+      ],
+      "terms": [
+        "l'usage et la cause : les deux choses qui fixent la voyelle",
+        "transporter la voyelle du 'ayn faible sur le fâ'",
+        "le tâ' et le nûn du pronom : -tu, -ta, -na",
+        "de même nature : damma pour wâw, kasra pour yâ'"
+      ],
+      "examples": [
+        "ka-l-mabnî min 'atalâ : l'exemple du libre choix",
+        "ya'tilu, ya'tulu : les deux sont permis (outil de conjugaison)",
+        "khifna, tulna : la voyelle propre du 'ayn transportée (le Marâh)",
+        "qultu, bi'na : une voyelle de la nature de la lettre faible (le Marâh)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quand le mudâri' de fa'ala peut-il prendre soit la kasra, soit la damma ?",
+          "answer": "Quand il n'a pas de lettre gutturale pour 'ayn ou pour lâm, ni lettre faible, gémination ou rivalité qui fixe une voyelle, et que l'usage n'en a pas fixé ; comme 'atala : ya'tilu ou ya'tulu."
+        },
+        {
+          "prompt": "Résumez les règles du poème pour la voyelle du mudâri' de fa'ala.",
+          "answer": "Kasra : wâw pour fâ', yâ' pour 'ayn ou lâm, géminé intransitif. Damma : géminé transitif, wâw pour 'ayn ou lâm, un verbe de rivalité. Fatha : une lettre gutturale pour 'ayn ou lâm. L'usage l'emporte ; à défaut de tout, kasra ou damma."
+        },
+        {
+          "prompt": "Expliquez khifna et qulna par la règle des vers 27–28.",
+          "answer": "Khawifna : le 'ayn faible a une kasra, qui passe sur le fâ' : khifna. Qawalna : le 'ayn a une fatha, qu'on ne peut transporter sur le fâ' ; le fâ' prend donc la voyelle de la nature du wâw, une damma : qulna."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "'Atala, « traîner », est l'exemple que donne le poème…",
+          "options": [
+            "d'une fatha due à une lettre gutturale",
+            "d'un verbe de rivalité",
+            "d'un libre choix entre kasra et damma",
+            "d'un verbe géminé"
+          ],
+          "explanation": "Sa lettre gutturale est sa première, qui ne compte pas."
+        },
+        {
+          "prompt": "Qu'est-ce qui l'emporte sur les règles du mudâri' de fa'ala ?",
+          "options": [
+            "Le mètre",
+            "La rime",
+            "Le pluriel",
+            "L'usage (shuhra)"
+          ],
+          "explanation": "« Faute d'usage connu ou de cause. »"
+        },
+        {
+          "prompt": "Dans khifna, la kasra sur le khâ' est…",
+          "options": [
+            "la kasra propre du 'ayn faible, transportée",
+            "de la nature du yâ'",
+            "la kasra du passif",
+            "un usage dialectal"
+          ],
+          "explanation": "De khawifna."
+        },
+        {
+          "prompt": "Dans qulna, le qâf a une damma parce que…",
+          "options": [
+            "il est au passif",
+            "la fatha du 'ayn est remplacée par une voyelle de la nature du wâw",
+            "la damma du wâw a été transportée",
+            "à cause de la rivalité"
+          ],
+          "explanation": "« Prends une voyelle de la nature de ce 'ayn. »"
+        },
+        {
+          "prompt": "Bi'na a une kasra sur le bâ' parce que…",
+          "options": [
+            "le 'ayn avait une kasra",
+            "il est au passif",
+            "la lettre faible est un yâ'",
+            "c'est le féminin pluriel"
+          ],
+          "explanation": "La kasra va avec le yâ'."
+        },
+        {
+          "prompt": "La règle du transport de la voyelle s'applique quand le verbe concave est joint…",
+          "options": [
+            "à l'alif du duel",
+            "au wâw du pluriel",
+            "au tâ' du féminin",
+            "au tâ' ou au nûn du pronom"
+          ],
+          "explanation": "Bi-tâ al-idmâri … aw nûnihi."
+        },
+        {
+          "prompt": "Tulna vient de…",
+          "options": [
+            "tawulna",
+            "tawalna",
+            "tawilna",
+            "tâlna"
+          ],
+          "explanation": "La damma du wâw est passée sur le tâ'."
+        }
+      ],
+      "diagram": {
+        "caption": "Le verbe concave avec -tu et -na (Lâmiyya, v. 27–28 ; formes du Marâh dans l'édition ottomane, p. 94–96)",
+        "labels": {
+          "The hollow verb with -tu and -na (Lāmiyya vv. 27–28; forms from the Marāḥ in the Ottoman print, pp. 94–96)": "Le verbe concave avec -tu et -na (Lâmiyya, v. 27–28 ; formes du Marâh dans l'édition ottomane, p. 94–96)",
+          "Base": "Base",
+          "Vowel of the ʿayn": "Voyelle du 'ayn",
+          "Form": "Forme",
+          "Vowel of the fāʾ": "Voyelle du fâ'",
+          "fatḥa": "fatha",
+          "ḍamma, of the kind of the wāw": "damma, de la nature du wâw",
+          "kasra, of the kind of the yāʾ": "kasra, de la nature du yâ'",
+          "kasra": "kasra",
+          "the kasra moved": "la kasra transportée",
+          "ḍamma": "damma",
+          "the ḍamma moved": "la damma transportée"
+        }
+      },
+      "text": [
+        "s'il n'est pas géminé et n'est pas connu avec une kasra ou / une damma, comme yabghî « il cherche », et ce que tu conjugues de dakhalâ « il est entré ».\nLe 'ayn du mudâri' de fa'altu, là où il est libre / de tout ce qui amène la fatha, comme ce qui est bâti sur 'atalâ « il a traîné »,",
+        "donne-lui une kasra ou une damma, quand le choix de l'une d'elles / est tombé faute que [l'une] soit bien connue, ou faute de cause.",
+        "Et transporte sur le fâ' du trilitère la voyelle du 'ayn quand il est / faible et que le verbe est joint au tâ' du pronom\nou à son nûn ; et quand c'est une fatha, alors à sa / place prends une voyelle de la nature de ce 'ayn, en [la] transportant."
+      ]
+    },
+    "7": {
+      "title": "Les schèmes augmentés, nommés par l'exemple",
+      "body": [
+        "Le chapitre du verbe augmenté énumère ses schèmes par l'exemple, d'une seule traite : « comme a'lama vient le verbe avec augmentation, avec wâlâ, wallâ, istaqâma, ihranjama, infasala ». Lisez chaque verbe comme son schème : a'lama est af'ala, wâlâ fâ'ala, wallâ fa''ala, istaqâma istaf'ala, infasala infa'ala, i'tadala ifta'ala ; ihranjama est if'anlala, un quadrilitère auquel deux lettres sont ajoutées.",
+        "Certains schèmes sont nommés tels quels : « if'alla, avec un alif au milieu comme quatrième lettre et sans lui », c'est-à-dire if'âlla et if'alla, comme ihmârra et ihmarra dans le Marâh. D'autres viennent sous forme de verbes : ihbayyakha, « il a marché avec fierté », est if'ayyala ; tadahrajat est tafa'lala ; ihlawlâ, « ce fut très doux », est if'aw'ala ; isbatarra, « il s'est étendu », est if'alalla, comme iqsha'arra ; tawallâ et tawâlâ sont tafa''ala et tafâ'ala.",
+        "Beaucoup des exemples sont des formes rattachées (mulhaq), des racines trilitères façonnées pour ressembler à des verbes de quatre lettres (voir les trente-cinq classes du Marâh) : jawrabat, « elle a mis des chaussettes », est faw'ala ; harwaltu, « je me suis hâté », fa'wala ; qalnasat, « elle a mis un bonnet », fa'nala ; salqâ, fa'lâ ; tamaskana, « il s'est humilié », tamaf'ala ; islanqâ, « il s'est couché sur le dos », if'anlâ ; ittasala est ifta'ala avec son wâw changé en tâ', comme dans itta'ada.",
+        "Les trois derniers vers rassemblent des schèmes plus rares encore (zahzaqtu, « j'ai ri aux éclats », baytartu, « j'ai exercé le métier de maréchal-ferrant », intakhala, « il a tamisé », et beaucoup de mots que seul un dictionnaire connaît). Leurs voyelles dans notre texte sont faites d'après les schèmes et n'ont pas encore été vérifiées sur l'édition de Volck ; apprenez-les donc avec votre maître ; la leçon ne les teste pas.",
+        "Ce qu'Ibn Mâlik veut montrer en énumérant tant de choses, c'est que chaque schème est une classe de verbes : connaître ihlawlâ, c'est savoir lire tout if'aw'ala. L'outil de conjugaison donne les plus courants de ces schèmes pour les racines saines."
+      ],
+      "terms": [
+        "le verbe augmenté : des lettres radicales avec des lettres ajoutées",
+        "la forme rattachée, façonnée comme un verbe de quatre lettres",
+        "un schème de lettres et de voyelles, nommé ici par un exemple",
+        "les schèmes des couleurs, sans et avec l'alif"
+      ],
+      "examples": [
+        "comme a'lama vient le verbe avec augmentation",
+        "ihbayyakha, i'tadala : if'ayyala et ifta'ala",
+        "jawrabat, harwaltu : des formes rattachées",
+        "tadâraba, tafaddala : tafâ'ala et tafa''ala (outil de conjugaison)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le schème de chaque exemple : a'lama, wâlâ, wallâ, istaqâma, infasala.",
+          "answer": "A'lama : af'ala ; wâlâ : fâ'ala ; wallâ : fa''ala ; istaqâma : istaf'ala ; infasala : infa'ala."
+        },
+        {
+          "prompt": "Quels exemples sont des quadrilitères augmentés, et lesquels des formes rattachées ?",
+          "answer": "Quadrilitères augmentés : ihranjama (if'anlala), tadahrajat (tafa'lala), isbatarra (if'alalla). Formes rattachées : jawrabat (faw'ala), harwaltu (fa'wala), qalnasat (fa'nala), salqâ (fa'lâ), tamaskana (tamaf'ala), islanqâ (if'anlâ)."
+        },
+        {
+          "prompt": "Pourquoi ittasala a-t-il un tâ' redoublé ?",
+          "answer": "C'est l'ifta'ala de w-s-l ; le wâw s'est changé en tâ' et s'est assimilé au tâ' de l'ifti'âl, comme dans itta'ada."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A'lama représente le schème…",
+          "options": [
+            "fa''ala",
+            "fâ'ala",
+            "istaf'ala",
+            "af'ala"
+          ],
+          "explanation": "Le premier exemple du verbe augmenté."
+        },
+        {
+          "prompt": "Wâlâ représente…",
+          "options": [
+            "fâ'ala",
+            "af'ala",
+            "tafâ'ala",
+            "fa''ala"
+          ],
+          "explanation": "Un alif après le fâ'."
+        },
+        {
+          "prompt": "Istaqâma représente…",
+          "options": [
+            "ifta'ala",
+            "istaf'ala",
+            "infa'ala",
+            "if'alla"
+          ],
+          "explanation": "Trois lettres ajoutées : hamza, sîn, tâ'."
+        },
+        {
+          "prompt": "I'tadala représente…",
+          "options": [
+            "infa'ala",
+            "tafâ'ala",
+            "ifta'ala",
+            "af'ala"
+          ],
+          "explanation": "'-d-l avec le tâ' après le fâ'."
+        },
+        {
+          "prompt": "Ihranjama est…",
+          "options": [
+            "un trilitère augmenté",
+            "une forme rattachée",
+            "un verbe nu",
+            "un quadrilitère augmenté"
+          ],
+          "explanation": "If'anlala de h-r-j-m."
+        },
+        {
+          "prompt": "Jawrabat, « elle a mis des chaussettes », est…",
+          "options": [
+            "une forme rattachée sur faw'ala",
+            "un quadrilitère nu",
+            "if'aw'ala",
+            "tafa'lala"
+          ],
+          "explanation": "Un trilitère avec un wâw ajouté."
+        },
+        {
+          "prompt": "Tadahrajat représente…",
+          "options": [
+            "tafâ'ala",
+            "tafa'lala",
+            "tafa''ala",
+            "if'anlala"
+          ],
+          "explanation": "Dahraja avec le tâ'."
+        }
+      ],
+      "diagram": {
+        "caption": "Schèmes augmentés nommés par les exemples du poème (Lâmiyya, v. 29–32 ; tadâraba d'après l'outil de conjugaison)",
+        "labels": {
+          "Augmented patterns named by the poem's examples (Lāmiyya vv. 29–32; taḍāraba from the conjugation tool)": "Schèmes augmentés nommés par les exemples du poème (Lâmiyya, v. 29–32 ; tadâraba d'après l'outil de conjugaison)",
+          "Example": "Exemple",
+          "Pattern": "Schème",
+          "Kind": "Sorte",
+          "afʿala": "af'ala",
+          "augmented triliteral": "trilitère augmenté",
+          "fāʿala": "fâ'ala",
+          "faʿʿala": "fa''ala",
+          "infaʿala": "infa'ala",
+          "iftaʿala": "ifta'ala",
+          "istafʿala": "istaf'ala",
+          "tafaʿʿala": "tafa''ala",
+          "tafāʿala": "tafâ'ala",
+          "ifʿayyala": "if'ayyala",
+          "ifʿawʿala": "if'aw'ala",
+          "ifʿanlala": "if'anlala",
+          "augmented quadriliteral": "quadrilitère augmenté",
+          "tafaʿlala": "tafa'lala",
+          "ifʿalalla": "if'alalla",
+          "fawʿala": "faw'ala",
+          "attached": "rattaché",
+          "tamafʿala": "tamaf'ala",
+          "ifʿanlā": "if'anlâ"
+        }
+      },
+      "text": [
+        "Comme a'lama « il a informé » vient le verbe avec augmentation, avec / wâlâ « il a pris pour ami », wallâ « il s'est détourné », istaqâma « il s'est tenu droit », ihranjama « ils se sont pressés en foule », infasalâ « il s'est séparé »,\net if'alla, avec un alif au milieu comme quatrième [lettre] / et sans lui, et de même ihbayyakha « il a marché avec fierté » et i'tadalâ « il a été égal »,",
+        "tadahrajat « elle a roulé », 'adhyata, ihlawlâ « ce fut très doux », isbatarra « il s'est étendu », tawâlâ / « cela s'est suivi », avec tawallâ « il s'est détourné », wa-khalbas « et gagne-[le] ! », sanbasa « il s'est hâté », ittasalâ « cela a été joint »,\net ihbanta'a « il a été gonflé [de colère] », ihwansala, islanqâ « il s'est couché sur le dos », tamaskana « il s'est humilié », salqâ / « il [l']a jeté sur le dos », qalnasat « elle a mis un bonnet », jawrabat « elle a mis des chaussettes », harwaltu murtahilâ « je me suis hâté en partant »,",
+        "zahzaqtu « j'ai ri aux éclats », halqamtu « j'ai avalé d'un trait », rahmastu « j'ai parlé en secret », ikwa'alla « il a été petit », tarahshafa / « il a bu à petites gorgées », ijfa'azza « il a enflé », islahamma « il a changé de couleur », qatrana al-jamalâ « il a enduit le chameau de goudron »,\ntarmastu « je me suis caché », kaltabtu, jalmattu « j'ai rasé », et wa-ghalsama « et il a tranché la gorge », puis / idlammasa « ce fut très sombre », ihramma'at « elle s'est hâtée », et wa-i'lankasa « et ce fut épais », intakhalâ « il a tamisé »,\net wa-i'lawwata « et il s'est agrippé [au cou du chameau] », i'thawjajat, baytartu « j'ai soigné [la bête] en maréchal-ferrant », sanbala « il a produit des épis », zamlaqa ; / donne la damma pour tasalqâ, et évite le défaut."
+      ]
+    },
+    "8": {
+      "title": "Les préfixes du mudâri', et la voyelle de l'avant-dernière lettre",
+      "body": [
+        "« Commence le mudâri' par l'une des lettres de na'tî » : le nûn, la hamza, le tâ', le yâ', les quatre préfixes que le Marâh rassemble dans atayna. Le préfixe « a une damma quand il est joint au quadrilitère, absolument » : à tout verbe dont le passé a quatre lettres, nu, augmenté ou rattaché, comme yudahriju, yukrimu, yuqatti'u, yuqâtilu. « Et donne-lui une fatha quand il est joint à autre que lui » : yadribu, yastakhriju, yatafaddalu.",
+        "Un parler met une kasra sur les préfixes « autres que le yâ' » dans trois sortes : « le futur de fa'ila », comme ti'lamu, ni'lamu ; les verbes qui commencent « par la hamza de liaison », comme tistansiru ; et les verbes qui commencent par un tâ' ajouté, « comme tazakkâ ». Le Marâh donne le même parler, avec sa raison : la kasra rappelle la kasra du passé ('alima, istansara).",
+        "« Et cela a été rapporté pour le yâ' » aussi, dans des verbes comme abâ, « il a refusé », et dans les verbes mithâl à wâw comme wajila, « il a eu peur ». La formulation de ce vers dans notre édition est douteuse (il ne se scande pas, et l'édition de Volck le lit autrement) ; n'en retenez donc que ceci : on donne parfois la kasra au yâ' dans ces verbes.",
+        "Puis la voyelle de l'avant-dernière lettre, dans les verbes augmentés de ce chapitre. C'est une kasra, nécessairement, « si son passé a été privé d'un tâ' ajouté à son début » : yukrimu, yuqatti'u, yuqâtilu, yansarifu, yastakhriju. Si le passé commence par un tâ' ajouté, « donne une fatha à ce qui précède la dernière » : yatafaddalu, yatadârabu, yatadahraju.",
+        "Deux questions décident donc du mudâri' de tout verbe augmenté : le passé a-t-il quatre lettres (alors le préfixe prend une damma) ? Et commence-t-il par un tâ' (alors l'avant-dernière lettre prend une fatha) ? L'outil de conjugaison suit les deux règles."
+      ],
+      "terms": [
+        "les préfixes du mudâri' : nûn, hamza, tâ', yâ'",
+        "ici : tout verbe dont le passé a quatre lettres",
+        "le tâ' ajouté au début de tafa''ala, tafâ'ala, tafa'lala",
+        "la kasra sur le préfixe, un parler"
+      ],
+      "examples": [
+        "commence le mudâri' par l'une des lettres de na'tî",
+        "le parler à kasra sur le préfixe (le Marâh)",
+        "ka-tazakkâ : un verbe qui commence par un tâ' ajouté",
+        "yukrimu, yatafaddalu : kasra et fatha avant la dernière lettre (outil de conjugaison)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quels préfixes prennent une damma, et lesquels une fatha ?",
+          "answer": "Une damma quand le passé a quatre lettres, nu ou augmenté (yudahriju, yukrimu, yuqatti'u, yuqâtilu) ; une fatha dans tous les autres verbes (yadribu, yastakhriju, yatafaddalu)."
+        },
+        {
+          "prompt": "Dans quels verbes un parler admet-il une kasra sur le préfixe, et sur quels préfixes ?",
+          "answer": "Sur les préfixes autres que le yâ', au futur de fa'ila (ti'lamu), dans les verbes qui commencent par une hamza de liaison (tistansiru), et dans les verbes qui commencent par un tâ' ajouté (comme tazakkâ)."
+        },
+        {
+          "prompt": "Donnez le mudâri' d'istakhraja et de tadâraba avec l'outil de conjugaison, et expliquez la voyelle de l'avant-dernière lettre.",
+          "answer": "Yastakhriju, avec une kasra avant la dernière, parce que le passé n'a pas de tâ' ajouté à son début ; yatadârabu, avec une fatha, parce que son passé commence par un tâ' ajouté."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Les lettres du mudâri' sont rassemblées dans…",
+          "options": [
+            "na'tî",
+            "hawîtu al-simâna",
+            "sa'altumûnîhâ",
+            "istanjadahu"
+          ],
+          "explanation": "Nûn, hamza, tâ', yâ'."
+        },
+        {
+          "prompt": "Le préfixe de yukrimu a une damma parce que…",
+          "options": [
+            "il est au passif",
+            "son passé a quatre lettres",
+            "il a une lettre gutturale",
+            "c'est un parler"
+          ],
+          "explanation": "« Une damma quand il est joint au quadrilitère, absolument. »"
+        },
+        {
+          "prompt": "Le préfixe de yastakhriju a…",
+          "options": [
+            "une damma",
+            "une kasra",
+            "une fatha",
+            "un sukûn"
+          ],
+          "explanation": "Son passé a six lettres."
+        },
+        {
+          "prompt": "La kasra du parler sur le préfixe est admise, d'après le poème, dans…",
+          "options": [
+            "le futur de fa'ula",
+            "le passé",
+            "le passif",
+            "le futur de fa'ila"
+          ],
+          "explanation": "Comme ti'lamu, ni'lamu."
+        },
+        {
+          "prompt": "Quel préfixe est exclu de cette kasra, en règle générale ?",
+          "options": [
+            "le yâ'",
+            "le tâ'",
+            "le nûn",
+            "la hamza"
+          ],
+          "explanation": "« Pour autre que le yâ', admets une kasra. »"
+        },
+        {
+          "prompt": "L'avant-dernière lettre de yatafaddalu a…",
+          "options": [
+            "une kasra",
+            "une fatha",
+            "une damma",
+            "un sukûn"
+          ],
+          "explanation": "Son passé commence par un tâ' ajouté."
+        },
+        {
+          "prompt": "L'avant-dernière lettre de yuqatti'u a…",
+          "options": [
+            "une fatha",
+            "une damma",
+            "une kasra",
+            "un sukûn"
+          ],
+          "explanation": "Pas de tâ' ajouté au début de son passé."
+        }
+      ],
+      "diagram": {
+        "caption": "Le préfixe et l'avant-dernière lettre (outil de conjugaison ; dahraja d'après le Maqsûd dans l'édition ottomane)",
+        "labels": {
+          "The prefix and the letter before the last (conjugation tool; daḥraja from the Maqṣūd in the Ottoman print)": "Le préfixe et l'avant-dernière lettre (outil de conjugaison ; dahraja d'après le Maqsûd dans l'édition ottomane)",
+          "Past": "Passé",
+          "Muḍāriʿ": "Mudâri'",
+          "Prefix": "Préfixe",
+          "Before the last": "Avant-dernière",
+          "ḍamma": "damma",
+          "kasra": "kasra",
+          "fatḥa": "fatha"
+        }
+      },
+      "text": [
+        "Commence le mudâri' par l'une [des lettres] de na'tî ; et il a / une damma quand il est joint au quadrilitère, absolument,\net donne-lui une fatha quand il est joint à autre que lui ; et pour ce qui est autre / que le yâ', admets une kasra au futur de fa'ila,",
+        "ou [dans] ce qui commence par la hamza de liaison, ou [par] le tâ' / comme [lettre] ajoutée, comme tazakkâ « il s'est purifié » ; et cela a été rapporté\npour le yâ', et pour autre que lui, si [le verbe] est joint à abâ « il a refusé », / ou [est] ce qui a le wâw pour fâ', [comme] wajilâ « il a eu peur ».",
+        "Une kasra sur ce qui précède la dernière [lettre] du mudâri' de / ce chapitre est nécessaire, si son passé a été privé\nd'un tâ' ajouté à son début ; et si [ce tâ'] lui / est venu, donne une fatha à ce qui précède la dernière, constamment."
+      ]
+    },
+    "9": {
+      "title": "Le verbe dont l'agent n'est pas nommé",
+      "body": [
+        "« Si tu attribues le verbe à l'objet, donne-le avec une damma sur la première » lettre : duriba, yudrabu. « Et donne-lui une kasra quand il est joint à un 'ayn faible » : dans le verbe concave, la première lettre prend une kasra, qîla, bî'a, les formes que le Marâh tire de quwila et buyi'a. « Et mets avant la dernière, au passé, une kasra, et une fatha dans ce qui suit d'autre » : duriba et ukrima avec kasra, yudrabu et yukramu avec fatha.",
+        "Deux sortes de verbes ont besoin d'une damma de plus. « La troisième lettre de celui qui a la hamza de liaison : donne-lui une damma avec elle », avec la première : ustukhrija, uhtuqira, la hamza et le tâ' tous deux avec damma. « Et avec le tâ' de l'acceptation (mutâwa'a), donne une damma à ce qui le suit » : tufuddila, tudûriba, le tâ' et la lettre qui le suit. Le tâ' de tafa''ala et de tafâ'ala s'appelle le tâ' de l'acceptation parce que ces schèmes répondent souvent à fa''ala et à fâ'ala : celui qui subit l'acte l'accepte.",
+        "Enfin, les verbes concaves à hamza de liaison. « Ce qui est donné au fâ' de ce qui est comme bâ'a, donne-le à la troisième de ce qui est comme ikhtâra et inqâda » : comme bâ'a donne bî'a, ikhtâra donne ikhtîra, « il a été choisi », et inqâda inqîda, « il a été mené », avec la kasra sur la troisième lettre. Le poème ajoute « ce qui est le meilleur » : le Marâh rapporte d'autres parlers (avec une touche de damma, ou avec û), et celui-ci est préféré.",
+        "Le passif demande donc trois choses : une damma au début (ou une kasra, dans le verbe concave), la bonne voyelle avant la dernière (kasra au passé, fatha au mudâri'), et, dans les schèmes longs, une seconde damma sur la lettre que nomme le poème. L'outil de conjugaison donne le passif de tout schème sain qui prend un objet."
+      ],
+      "terms": [
+        "le verbe dont l'agent n'est pas nommé : le passif",
+        "le tâ' de l'acceptation, de tafa''ala et de tafâ'ala",
+        "la hamza de liaison, dont la troisième lettre prend une damma au passif",
+        "le verbe concave, dont le passif a une kasra sur la première"
+      ],
+      "examples": [
+        "duriba, yudrabu : damma d'abord ; kasra ou fatha avant la dernière (outil de conjugaison)",
+        "qîla, bî'a : le passif concave avec kasra (le Marâh)",
+        "ustukhrija, tufuddila : la seconde damma (outil de conjugaison)",
+        "ka-ikhtîra alladhî fadalâ : comme ikhtîra, ce qui est le meilleur"
+      ],
+      "tasks": [
+        {
+          "prompt": "Formez le passé et le mudâri' passifs d'akrama avec l'outil de conjugaison, et énoncez la règle.",
+          "answer": "Ukrima, yukramu (أُكْرِمَ، يُكْرَمُ) : une damma sur la première lettre ; avant la dernière, une kasra au passé, une fatha au mudâri'."
+        },
+        {
+          "prompt": "Quelles lettres prennent une damma dans ustukhrija et dans tudûriba, et pourquoi ?",
+          "answer": "Ustukhrija : la hamza (la première) et le tâ' (la troisième lettre d'un verbe à hamza de liaison). Tudûriba : le tâ' de l'acceptation et la lettre qui le suit (le dâd), l'alif après la damma se prononçant û."
+        },
+        {
+          "prompt": "Comment se forme le passif d'ikhtâra, et que veut dire « ce qui est le meilleur » ?",
+          "answer": "Comme bâ'a donne bî'a avec une kasra sur son fâ', ikhtâra donne ikhtîra avec une kasra sur sa troisième lettre. « Le meilleur » : parmi les parlers admis (avec ishmâm, ou avec û), la kasra est préférée."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le passif a sur sa première lettre…",
+          "options": [
+            "une fatha",
+            "une damma (une kasra dans le verbe concave)",
+            "un sukûn",
+            "toujours une kasra"
+          ],
+          "explanation": "Duriba ; qîla."
+        },
+        {
+          "prompt": "Avant la dernière, le passé passif a…",
+          "options": [
+            "une fatha",
+            "une damma",
+            "une kasra",
+            "un sukûn"
+          ],
+          "explanation": "Duriba, ukrima."
+        },
+        {
+          "prompt": "Avant la dernière, le mudâri' passif a…",
+          "options": [
+            "une kasra",
+            "une damma",
+            "un sukûn",
+            "une fatha"
+          ],
+          "explanation": "Yudrabu, yukramu."
+        },
+        {
+          "prompt": "Dans ustukhrija, outre la première, la damma tombe sur…",
+          "options": [
+            "la troisième lettre",
+            "la deuxième lettre",
+            "la dernière lettre",
+            "aucune autre lettre"
+          ],
+          "explanation": "« La troisième lettre de celui qui a la hamza de liaison. »"
+        },
+        {
+          "prompt": "Le tâ' de tafa''ala s'appelle le tâ'…",
+          "options": [
+            "du féminin",
+            "de l'acceptation (mutâwa'a)",
+            "du pluriel",
+            "du futur"
+          ],
+          "explanation": "Avec lui, la lettre qui le suit prend une damma : tufuddila."
+        },
+        {
+          "prompt": "Ikhtîra, « il a été choisi », a sa kasra sur…",
+          "options": [
+            "la première lettre",
+            "la dernière lettre",
+            "la troisième lettre",
+            "la hamza"
+          ],
+          "explanation": "Comme le fâ' de bî'a."
+        },
+        {
+          "prompt": "La première lettre du passif d'un verbe concave prend…",
+          "options": [
+            "une damma",
+            "une fatha",
+            "rien",
+            "une kasra"
+          ],
+          "explanation": "« Donne-lui une kasra quand il est joint à un 'ayn faible. »"
+        }
+      ],
+      "diagram": {
+        "caption": "Passés passifs et voyelles que prescrit le poème (outil de conjugaison ; bî'a d'après le Marâh)",
+        "labels": {
+          "Passive pasts and the vowels the poem prescribes (conjugation tool; bīʿa from the Marāḥ)": "Passés passifs et voyelles que prescrit le poème (outil de conjugaison ; bî'a d'après le Marâh)",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "Vowels to note": "Voyelles à noter",
+          "ḍamma on the first, kasra before the last": "damma sur la première, kasra avant la dernière",
+          "the same": "de même",
+          "ḍamma on the first and the third": "damma sur la première et la troisième",
+          "ḍamma on the tāʾ and the letter after it": "damma sur le tâ' et la lettre qui le suit",
+          "kasra on the first: weak ʿayn": "kasra sur la première : 'ayn faible",
+          "kasra on the third": "kasra sur la troisième"
+        }
+      },
+      "text": [
+        "Si tu attribues le verbe à l'objet, donne-le / avec une damma sur la première, et donne-lui une kasra quand il est joint\nà un 'ayn faible ; et mets avant la dernière, au / passé, une kasra, et une fatha dans ce qui suit d'autre.",
+        "La troisième [lettre] de celui qui a la hamza de liaison : donne-lui une damma avec elle ; et avec / le tâ' de l'acceptation, donne une damma à ce qui le suit, constamment ;\net ce qui [est donné] au fâ' de ce qui est comme bâ'a « il a vendu », donne-le à la troisième de ce qui est comme / ikhtâra « il a choisi » et inqâda « il s'est soumis », comme ikhtîra « il a été choisi », ce qui est le meilleur."
+      ]
+    },
+    "10": {
+      "title": "L'impératif",
+      "body": [
+        "« D'af'ala, l'impératif est af'il » : akrim, « honore ! », avec une hamza de coupure, la hamza du schème lui-même, que le Marâh montre tombée dans tukrimu et revenue dans l'impératif. « Et, pour ce qui est autre que lui, prends-le comme le mudâri' majzûm qui a été retranché de sa première [lettre] » : l'impératif est le mudâri' au jazm sans son préfixe. Tuqatti' donne qatti', tuqâtil donne qâtil.",
+        "« Et commence-le par une hamza de liaison qui a une kasra, si c'est une lettre sans voyelle qui était jointe à ce qui a été supprimé » : tadrib perd son tâ' et laisse un dâd quiescent, d'où idrib. « Donne à la hamza une damma devant une damma nécessaire » : tansur donne unsur, le 'ayn ayant une damma qui appartient à la forme. Ughzî, « fais une razzia ! (femme) », est la pierre de touche : son zây a une kasra, bien que sa classe ait une damma ; la damma devant laquelle se tient la hamza n'est donc pas là ; on le prononce « avec une kasra teintée de damma », et cela « a été accepté ». Al-'Izzî, dans l'édition ottomane, l'écrit avec une damma.",
+        "Trois verbes enfreignent la règle : mur, « ordonne ! », khudh, « prends ! », et kul, « mange ! », sont irréguliers « par suppression » : des racines '-m-r, '-kh-dh, '-k-l, ils perdent leur première hamza et n'ont pas besoin de hamza de liaison. Mais après wa ou fa, « wa-'mur s'est répandu », avec la hamza gardée, comme dans le Coran : wa-'mur ahlaka bi-l-salâti (20:132). Les formes pleines de khudh et de kul, avec la hamza, sont « rares ».",
+        "La règle en bref : prends le mudâri' au jazm, retire le préfixe ; si la première lettre qui reste est quiescente, ajoute une hamza de liaison, avec une damma si le 'ayn a une damma durable, et sinon avec une kasra ; seul af'ala garde sa propre hamza avec une fatha.",
+        "L'outil de conjugaison donne l'impératif de tout schème sain ; vérifiez la hamza de chacun d'après cette règle."
+      ],
+      "terms": [
+        "le verbe de l'ordre",
+        "le mudâri' au jazm, dont on retranche l'impératif",
+        "une damma nécessaire sur le 'ayn, devant laquelle la hamza prend la damma",
+        "une touche de damma sur une kasra, comme dans ughzî"
+      ],
+      "examples": [
+        "d'af'ala, l'impératif est af'il",
+        "tadrib, idrib : le préfixe retiré, une hamza avec kasra (outil de conjugaison)",
+        "tansur, unsur : la hamza avec damma devant une damma (outil de conjugaison)",
+        "mur, khudh, kul : irréguliers, la hamza supprimée"
+      ],
+      "tasks": [
+        {
+          "prompt": "Formez l'impératif de tuqatti'u, tadribu et tansuru, et expliquez le début de chacun.",
+          "answer": "Qatti' : après la chute du préfixe, le qâf a une voyelle ; donc pas de hamza. Idrib : le dâd est quiescent ; donc une hamza de liaison avec kasra. Unsur : de même, mais le 'ayn a une damma durable ; la hamza prend donc une damma."
+        },
+        {
+          "prompt": "Pourquoi l'impératif d'akrama est-il akrim, avec une fatha sur la hamza ?",
+          "answer": "D'af'ala, l'impératif est af'il : sa hamza est la hamza du schème, une hamza de coupure avec fatha, qui était tombée dans tukrimu et revient à l'impératif."
+        },
+        {
+          "prompt": "Que dit le poème de mur, khudh et kul, et de wa-'mur ?",
+          "answer": "Mur, khudh et kul sont irréguliers et perdent leur hamza ; après wa (et fa), la hamza est gardée, wa-'mur, ce qui s'est répandu ; les formes pleines de khudh et de kul sont rares."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "L'impératif d'akrama est…",
+          "options": [
+            "ikrim",
+            "ukrim",
+            "akrim",
+            "karrim"
+          ],
+          "explanation": "D'af'ala, l'impératif est af'il."
+        },
+        {
+          "prompt": "L'impératif des autres verbes se forme à partir…",
+          "options": [
+            "du passé",
+            "du masdar",
+            "du participe",
+            "du mudâri' au jazm, sans son préfixe"
+          ],
+          "explanation": "« Comme le mudâri' majzûm retranché de sa première. »"
+        },
+        {
+          "prompt": "Quand ajoute-t-on une hamza de liaison ?",
+          "options": [
+            "Quand la lettre qui reste après le préfixe est quiescente",
+            "Toujours",
+            "Jamais dans le trilitère",
+            "Seulement dans af'ala"
+          ],
+          "explanation": "Idrib, mais qatti'."
+        },
+        {
+          "prompt": "La hamza de liaison prend une damma…",
+          "options": [
+            "devant une kasra",
+            "devant une damma nécessaire",
+            "dans af'ala",
+            "jamais"
+          ],
+          "explanation": "Unsur, uktub."
+        },
+        {
+          "prompt": "Ughzî se prononce avec…",
+          "options": [
+            "une simple fatha",
+            "pas de hamza",
+            "une kasra teintée de damma, d'après le poème",
+            "une hamza de coupure"
+          ],
+          "explanation": "Al-'Izzî écrit une damma."
+        },
+        {
+          "prompt": "Mur, khudh et kul sont…",
+          "options": [
+            "la règle",
+            "au passif",
+            "koufiens",
+            "irréguliers, par suppression"
+          ],
+          "explanation": "Leur hamza est supprimée."
+        },
+        {
+          "prompt": "Lequel s'est répandu, d'après le poème ?",
+          "options": [
+            "wa-'mur",
+            "wa-ukhudh",
+            "ukul",
+            "u'mur"
+          ],
+          "explanation": "Comme en 20:132."
+        }
+      ],
+      "diagram": {
+        "caption": "Du mudâri' au jazm à l'impératif (outil de conjugaison ; ughzî d'après al-'Izzî dans l'édition ottomane)",
+        "labels": {
+          "From the jussive to the command (conjugation tool; ughzī from al-ʿIzzī in the Ottoman print)": "Du mudâri' au jazm à l'impératif (outil de conjugaison ; ughzî d'après al-'Izzî dans l'édition ottomane)",
+          "Jussive": "Jussif",
+          "Command": "Impératif",
+          "Rule": "Règle",
+          "afʿala: afʿil, a hamza of cutting": "af'ala : af'il, une hamza de coupure",
+          "the letter left has a vowel: no hamza": "la lettre qui reste a une voyelle : pas de hamza",
+          "quiescent letter left: hamza with kasra": "lettre quiescente restante : hamza avec kasra",
+          "before a necessary ḍamma: hamza with ḍamma": "devant une damma nécessaire : hamza avec damma",
+          "kasra on the zāy: the hamza said with a touch of ḍamma": "kasra sur le zây : la hamza prononcée avec une touche de damma",
+          "irregular: the hamza dropped": "irrégulier : la hamza supprimée"
+        }
+      },
+      "text": [
+        "D'af'ala, l'impératif est af'il ; et, pour ce qui est autre que lui, prends-le / comme le mudâri' majzûm qui a été retranché\nde sa première [lettre] ; et par une hamza de liaison qui a une kasra / commence-[le] si c'est une [lettre] sans voyelle qui était jointe à ce qui a été supprimé.",
+        "Donne à la hamza une damma devant une damma nécessaire ; et ce qui est comme / ughzî « fais une razzia ! (f.) », avec une kasra teintée de damma, a été accepté.\nIrréguliers par suppression sont mur « ordonne ! », khudh « prends ! » et kul « mange ! », et wa-'mur « et ordonne ! » s'est répandu ; / et rare est de donner à khudh et à kul leur forme pleine."
+      ]
+    },
+    "11": {
+      "title": "Le participe actif et les adjectifs du trilitère",
+      "body": [
+        "« Sur la mesure de fâ'il se fait le participe actif du trilitère dont la mesure n'est pas fa'ula » : dârib de daraba, 'âlim de 'alima. Fa'ula est laissé de côté : il s'emploie, comme le dit le Marâh, pour les natures et les qualités, non pour les actes, et ses adjectifs prennent d'autres schèmes.",
+        "« Et de celui-là », de fa'ula, « il se forme comme sahl et al-zarîf » : fa'l et fa'îl, les deux plus courants, « facile », « élégant ». Moins souvent « af'al, ou fa'âl, ou fu'ul », et comme al-furât, « l'eau douce » (fu'âl), 'afr (fa'l), al-hasûr, « le chaste » (fa'ûl), ghumr, « inexpérimenté » (fu'l), 'âqir, « stérile » (fâ'il), junub, « en état d'impureté majeure » (fu'ul), et ce qui ressemble à thamil, « ivre » (fa'il). Ce sont les schèmes que le Marâh appelle « l'adjectif assimilé au participe ».",
+        "« Et d'un intransitif sur la mesure fa'ila, il se forme sur sa propre mesure » : fa'il, comme shaj, « affligé », et comme 'ajil, « pressé » ; et aussi fa'l (al-sha'z, « le rude »), af'al (al-ashnab, « celui aux dents fines et blanches ») et fa'lân (al-jazlân, « le joyeux », tel que l'écrit notre édition ; le mot habituel a un dhâl).",
+        "Puis le poème permet d'emprunter un schème à une autre classe « par analogie avec un autre, pour un rapport » de sens : fânin, « périssable », sur fâ'il, et le singulier d'al-bukhalâ, c'est-à-dire bakhîl, « avare », sur fa'îl ; et, dans la formation à partir de fa'ula, khafîf, tayyib et ashyab. Un mot prend le schème des mots auxquels il ressemble par le sens.",
+        "La leçon pour le lecteur : le schème d'un adjectif dit quelque chose de son verbe. Fâ'il renvoie à un acte (fa'ala, fa'ila transitif) ; fa'l, fa'îl et leurs sœurs à une qualité (fa'ula) ; fa'il, af'al et fa'lân à un état (fa'ila intransitif). La leçon suivante ajoute que fâ'il peut se former de chacun d'eux quand un événement est visé."
+      ],
+      "terms": [
+        "le participe actif : fâ'il du trilitère",
+        "l'adjectif assimilé au participe : une qualité durable",
+        "intransitif, comme fa'ila dans shajin",
+        "traiter un mot comme un autre pour une ressemblance de sens"
+      ],
+      "examples": [
+        "dârib, 'âlim : fâ'il de fa'ala et de fa'ila (outil de conjugaison)",
+        "ka-sahlin wa-l-zarîfi : fa'l et fa'îl de fa'ula",
+        "ka-shajin : fa'il d'un fa'ila intransitif",
+        "ka-fânin : fâ'il emprunté pour une ressemblance de sens"
+      ],
+      "tasks": [
+        {
+          "prompt": "De quels verbes trilitères se fait fâ'il, d'après le premier vers, et pourquoi fa'ula est-il laissé de côté ?",
+          "answer": "Du trilitère dont la mesure n'est pas fa'ula : fa'ala et fa'ila (dârib, 'âlim). Fa'ula signifie une qualité durable, et ses adjectifs prennent d'autres schèmes (sahl, zarîf …)."
+        },
+        {
+          "prompt": "Donnez les deux schèmes les plus courants de l'adjectif tiré de fa'ula, avec les exemples du poème.",
+          "answer": "Fa'l, comme sahl, « facile », et fa'îl, comme zarîf, « élégant »."
+        },
+        {
+          "prompt": "Quels schèmes le poème donne-t-il pour un fa'ila intransitif ?",
+          "answer": "Sa propre mesure, fa'il (shajin, 'ajil) ; et aussi fa'l (al-sha'z), af'al (al-ashnab) et fa'lân (al-jazlân)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fâ'il se fait du trilitère dont la mesure n'est pas…",
+          "options": [
+            "fa'ala",
+            "fa'ila",
+            "fa'lala",
+            "fa'ula"
+          ],
+          "explanation": "Fa'ula a ses propres adjectifs."
+        },
+        {
+          "prompt": "Sahl, « facile », est sur le schème…",
+          "options": [
+            "fa'l",
+            "fa'îl",
+            "fâ'il",
+            "fa'il"
+          ],
+          "explanation": "L'un des deux plus courants tirés de fa'ula."
+        },
+        {
+          "prompt": "Al-zarîf est sur le schème…",
+          "options": [
+            "fa'l",
+            "fa'îl",
+            "fa'ûl",
+            "fu'âl"
+          ],
+          "explanation": "De zarufa, fa'ula."
+        },
+        {
+          "prompt": "Shajin, « affligé », vient…",
+          "options": [
+            "de fa'ula",
+            "de fa'ala",
+            "d'un fa'ila intransitif, sur sa propre mesure",
+            "d'af'ala"
+          ],
+          "explanation": "Fa'il de fa'ila."
+        },
+        {
+          "prompt": "Al-ashnab est sur le schème…",
+          "options": [
+            "fa'lân",
+            "fa'il",
+            "fâ'il",
+            "af'al"
+          ],
+          "explanation": "L'un des schèmes de fa'ila intransitif."
+        },
+        {
+          "prompt": "Fânin, « périssable », est donné comme exemple…",
+          "options": [
+            "d'un schème emprunté pour une ressemblance de sens",
+            "de l'adjectif propre à fa'ula",
+            "du participe passif",
+            "du masdar"
+          ],
+          "explanation": "« Par analogie avec un autre, pour un rapport. »"
+        },
+        {
+          "prompt": "Junub, « en état d'impureté majeure », est sur…",
+          "options": [
+            "fa'il",
+            "fu'ul",
+            "fâ'il",
+            "fa'îl"
+          ],
+          "explanation": "Parmi les schèmes d'adjectifs plus rares."
+        }
+      ],
+      "diagram": {
+        "caption": "Participes et adjectifs du trilitère (Lâmiyya, v. 51–57 ; dârib et 'âlim d'après l'outil de conjugaison)",
+        "labels": {
+          "Participles and adjectives of the triliteral (Lāmiyya vv. 51–57; ḍārib and ʿālim from the conjugation tool)": "Participes et adjectifs du trilitère (Lâmiyya, v. 51–57 ; dârib et 'âlim d'après l'outil de conjugaison)",
+          "Verb": "Verbe",
+          "Patterns": "Schèmes",
+          "Examples": "Exemples",
+          "faʿala; faʿila transitive": "fa'ala ; fa'ila transitif",
+          "fāʿil": "fâ'il",
+          "faʿula": "fa'ula",
+          "faʿl, faʿīl": "fa'l, fa'îl",
+          "faʿula, less often": "fa'ula, moins souvent",
+          "fuʿāl, faʿl, faʿūl …": "fu'âl, fa'l, fa'ûl …",
+          "faʿila intransitive": "fa'ila intransitif",
+          "faʿil": "fa'il",
+          "faʿl, afʿal, faʿlān": "fa'l, af'al, fa'lân"
+        }
+      },
+      "text": [
+        "Sur la mesure de fâ'il se fait le participe actif / du trilitère dont la mesure n'est pas fa'ula ;\net de celui-là il se forme comme sahlin « facile » et al-zarîfi « l'élégant » ; et il peut / être af'al, ou fa'âl, ou fu'ul,",
+        "et comme al-furâti « la [l'eau] douce », 'afrin « méchant », al-hasûri « le chaste » et ghumr / « inexpérimenté », 'âqirin « stérile », junubin « en état d'impureté rituelle », et ce qui ressemble à thamilâ « ivre » ;\net d'un intransitif sur la mesure fa'ila, il se forme / sur sa [propre] mesure, comme shajin « affligé », et ce qui ressemble à 'ajilâ « pressé »,",
+        "al-sha'zi « le rude » et al-ashnabi « celui aux dents fines et blanches », al-jazlâni « le joyeux » ; puis il peut / venir comme fânin « périssable », et comme le singulier d'al-bukhalâ « les avares »,\npar analogie avec un autre, pour un rapport [de sens], comme khafîf / « léger », tayyibin « bon » et ashyabin « grisonnant », dans la formation à partir de fa'ula."
+      ]
+    },
+    "12": {
+      "title": "Fâ'il pour l'événement ; les participes des verbes plus longs ; maf'ûl",
+      "body": [
+        "« Fâ'il convient à tous, si ce qui est visé est un événement » : tout trilitère, même celui dont l'adjectif est une sifa mushabbaha, peut former fâ'il quand on parle d'une qualité comme d'une chose qui arrive à un moment. L'exemple : ghadan dhâ jâdhilin, « demain celui-ci sera en joie », de jadhila, dont l'adjectif habituel est jadhil, « joyeux ». Jâdhil, sur fâ'il, parle de la joie qui adviendra demain.",
+        "« Avec le participe actif de ce qui n'est pas de trois lettres vient la mesure du mudâri', mais à son début on met un mîm qui prend une damma » : yukrimu, mukrim ; yastakhriju, mustakhrij. « Et si tu donnes une fatha à ce qui précède sa dernière, il devient un participe passif » : mukram, mustakhraj. Le Marâh donne la même règle et ses raisons.",
+        "Du trilitère, le participe passif est « sur la mesure maf'ûl » : madrûb. « Et ce qui vient comme fa'îl a été détourné par lui de l'origine » : qatîl, jarîh, « tué, blessé », valent pour maqtûl, majrûh, mais ils sont un écart par rapport à la règle, non une seconde règle.",
+        "« Et ils se sont contentés de ce qui est comme najan et al-nisy à la place de la mesure maf'ûl » : najan, « peau écorchée », et nisy, « chose oubliée », portent un sens passif sans son schème. « Et cela n'est pas pris pour règle » : on ne peut pas former de tels mots pour d'autres verbes ; on les connaît par l'usage.",
+        "Les paires à retenir : fâ'il et maf'ûl pour le trilitère ; muf'il et muf'al (une voyelle d'écart) pour tout verbe plus long. L'outil de conjugaison donne les deux pour tout schème sain."
+      ],
+      "terms": [
+        "l'advenue : une qualité dont on parle comme d'un événement dans le temps",
+        "le participe passif : maf'ûl, ou muf'al pour les verbes plus longs",
+        "le mîm avec damma qui commence les participes des verbes plus longs",
+        "le détournement de l'origine : fa'îl pour maf'ûl"
+      ],
+      "examples": [
+        "ghadan dhâ jâdhilin : fâ'il pour un événement à venir",
+        "mukrim, mukram : une voyelle d'écart (outil de conjugaison)",
+        "mustakhrij, mustakhraj (outil de conjugaison)",
+        "qatîl, jarîh : fa'îl détourné de maf'ûl (le Marâh)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le poème dit-il ghadan dhâ jâdhilin et non jadhilun ?",
+          "answer": "Parce qu'un événement à venir est visé : « demain il sera en joie ». Fâ'il convient à tout verbe quand un événement est visé ; jadhil, l'adjectif habituel, décrirait une qualité durable."
+        },
+        {
+          "prompt": "Formez les deux participes de qâtala et de tafaddala avec l'outil de conjugaison, et énoncez la règle.",
+          "answer": "Muqâtil, muqâtal ; mutafaddil, mutafaddal. La mesure du mudâri' avec un mîm à damma à la place du préfixe ; une kasra avant la dernière pour l'actif, une fatha pour le passif."
+        },
+        {
+          "prompt": "Que dit le poème de qatîl, et de najan et nisy ?",
+          "answer": "Fa'îl, comme qatîl, est détourné de l'origine maf'ûl ; najan et nisy s'emploient à la place de maf'ûl ; ni l'un ni l'autre n'est une règle à appliquer à d'autres verbes."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fâ'il peut se former de tout trilitère quand…",
+          "options": [
+            "un événement est visé",
+            "le verbe est au passif",
+            "le verbe est géminé",
+            "il est au pluriel"
+          ],
+          "explanation": "Ghadan dhâ jâdhilin."
+        },
+        {
+          "prompt": "Le participe actif d'un verbe plus long commence par…",
+          "options": [
+            "un mîm avec fatha",
+            "un mîm avec damma",
+            "le préfixe du mudâri'",
+            "une hamza"
+          ],
+          "explanation": "Sur la mesure du mudâri'."
+        },
+        {
+          "prompt": "Qu'est-ce qui change mukrim en mukram ?",
+          "options": [
+            "Une damma sur le mîm",
+            "Un wâw",
+            "Une fatha avant la dernière",
+            "Un tâ'"
+          ],
+          "explanation": "« Si tu donnes une fatha à ce qui précède sa dernière. »"
+        },
+        {
+          "prompt": "Le participe passif du trilitère est sur…",
+          "options": [
+            "muf'al",
+            "toujours fa'îl",
+            "fâ'il",
+            "maf'ûl"
+          ],
+          "explanation": "Comme madrûb de daraba."
+        },
+        {
+          "prompt": "Qatîl au sens de maqtûl est…",
+          "options": [
+            "un écart par rapport à l'origine",
+            "la règle",
+            "un participe actif",
+            "un masdar"
+          ],
+          "explanation": "« Il a été détourné par lui de l'origine. »"
+        },
+        {
+          "prompt": "Najan et nisy sont des mots qui…",
+          "options": [
+            "sont des participes actifs",
+            "ont un sens passif sans le schème maf'ûl",
+            "sont des verbes",
+            "sont des masdars des verbes plus longs"
+          ],
+          "explanation": "« Ils s'en sont contentés à la place de maf'ûl. »"
+        },
+        {
+          "prompt": "Peut-on former des mots comme najan pour n'importe quel verbe ?",
+          "options": [
+            "Oui, librement",
+            "Seulement de fa'ula",
+            "Non : ce n'est pas pris pour règle",
+            "Seulement en vers"
+          ],
+          "explanation": "Wa-mâ 'umilâ."
+        }
+      ],
+      "diagram": {
+        "caption": "Les deux participes (outil de conjugaison)",
+        "labels": {
+          "The two participles (conjugation tool)": "Les deux participes (outil de conjugaison)",
+          "Verb": "Verbe",
+          "Active": "Actif",
+          "Passive": "Passif"
+        }
+      },
+      "text": [
+        "Fâ'il convient à tous, si ce qui est visé est / un événement, comme ghadan dhâ jâdhilin « demain celui-ci [sera] en joie », [de] jadhilâ « il s'est réjoui ».\nAvec le participe actif de ce qui n'est pas de trois [lettres] vient / la mesure du mudâri', mais à son début on met",
+        "un mîm qui prend une damma ; et si tu donnes une fatha à ce qui précède sa dernière, / il devient un participe passif ; et on l'obtient\ndu trilitère sur la mesure maf'ûl ; / et ce qui vient comme fa'îl a été détourné\npar lui de l'origine ; et ils se sont contentés de ce qui est comme najan « peau écorchée » / et al-nisyi « la chose oubliée » à la place de la mesure maf'ûl ; et cela n'est pas pris pour règle."
+      ]
+    },
+    "13": {
+      "title": "Les schèmes du masdar du trilitère",
+      "body": [
+        "« Les masdars ont des mesures que je vais exposer », et pour le trilitère le poème donne une longue liste, quatre vers de noms de schèmes. Elle commence par fa'l, fi'l, fu'l, puis les mêmes « avec le tâ' du féminin ou joints à l'alif abrégé », puis fa'lân, fi'lân, fu'lân. Le fils du poète, Badr al-Dîn, dans son commentaire (l'édition de Volck), donne des exemples comme darb, 'ilm, shughl, et layyân, hirmân, shukrân.",
+        "Puis des schèmes nommés par l'exemple : jalan, ridan, hudan et salâh, c'est-à-dire fa'al, fi'al, fu'al et fa'âl. « Puis ajoute fa'il, nu ou avec le tâ' » : kadhib et sariqa. Puis fa'âla, et des formes avec l'alif abrégé et sur fa'lâ' ; fi'âla et fu'âla, « et tous deux dépourvus du tâ' » ; fu'ûl ; fa'îl, et fa'îla et fu'ûla avec le tâ' ; fa'alân ; fay'alûla, « comme baynûna » ; et fu'ul, « comme shughul ».",
+        "Les deux derniers vers ajoutent les plus rares : fu'lal, fa'ûl, fa'âliya, fa'îliyya, fu'ulla, fa'alâ, fa'alût, fu'ullâ, fu'alniya, fu'ûliyya (« et la fatha a été rapportée » : fa'ûliyya aussi), et maf'al, maf'il, maf'ul, avec et sans le tâ', « et une damma est rarement admise ». Les exemples de Badr al-Dîn comprennent sûdad pour fu'lal, qabûl pour fa'ûl, karâhiya pour fa'âliya, ghulubba pour fu'ulla et khusûsiyya pour fu'ûliyya.",
+        "Le Marâh rapporte que Sîbawayh comptait trente-deux de ces schèmes, et donne sa propre liste d'exemples (sa leçon 4) ; beaucoup d'entre eux illustrent ici les mêmes schèmes, et le tableau ci-dessous prend ses exemples là et dans le poème.",
+        "Ces vers sont un catalogue : ils vous disent qu'un mot sur tel schème peut être un masdar, non quel masdar a un verbe. La leçon suivante en donne les règles."
+      ],
+      "terms": [
+        "le nom verbal",
+        "l'alif abrégé du féminin, comme dans dhikrâ",
+        "le fils du poète, dont le commentaire donne les exemples",
+        "le masdar à mîm : maf'al, maf'il"
+      ],
+      "examples": [
+        "fa'l, fi'l, fu'l : les premiers schèmes nommés",
+        "ridan, hudan, salâh : des schèmes nommés par l'exemple (après jalan)",
+        "ka-baynûnatin : fay'alûla",
+        "maf'al, maf'il, maf'ul : des masdars à mîm"
+      ],
+      "tasks": [
+        {
+          "prompt": "Classez ces masdars par schème : shughl, hirmân, hudan, sariqa, baynûna, madkhal.",
+          "answer": "Shughl : fu'l. Hirmân : fi'lân. Hudan : fu'al. Sariqa : fa'ila (fa'il avec le tâ'). Baynûna : fay'alûla. Madkhal : maf'al, un masdar à mîm."
+        },
+        {
+          "prompt": "Que veut dire le poème par « puis ajoute fa'il, nu ou avec le tâ' du féminin » ? Donnez les exemples du commentaire.",
+          "answer": "Que fa'il est un schème de masdar, seul (kadhib, « le mensonge ») et avec le tâ' (sariqa, « le vol »), comme l'illustre le commentaire de Badr al-Dîn."
+        },
+        {
+          "prompt": "Pourquoi ces vers ne suffisent-ils pas à dire quel masdar a un verbe donné ?",
+          "answer": "C'est un catalogue des schèmes attestés ; la plupart des masdars trilitères se connaissent par l'écoute. Les règles sur le schème que prend un verbe, là où il y en a, viennent dans les vers suivants."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quels noms de schèmes ouvrent la liste ?",
+          "options": [
+            "fa'lân, fi'lân, fu'lân",
+            "fa'l, fi'l, fu'l",
+            "maf'al, maf'il",
+            "fi'âla, fu'âla"
+          ],
+          "explanation": "Fa'lun wa-fi'lun wa-fu'lun."
+        },
+        {
+          "prompt": "Hudan, « la guidance », illustre…",
+          "options": [
+            "fa'al",
+            "fi'al",
+            "fu'al",
+            "fa'âl"
+          ],
+          "explanation": "Jalan, ridan, hudan : fa'al, fi'al, fu'al."
+        },
+        {
+          "prompt": "Baynûna illustre…",
+          "options": [
+            "fa'ûla",
+            "fu'ûla",
+            "fa'lûna",
+            "fay'alûla"
+          ],
+          "explanation": "« Ou comme baynûnatin. »"
+        },
+        {
+          "prompt": "Hirmân, « la privation », est sur…",
+          "options": [
+            "fi'lân",
+            "fa'lân",
+            "fu'lân",
+            "fa'alân"
+          ],
+          "explanation": "L'un des trois schèmes en -ân."
+        },
+        {
+          "prompt": "Dhikrâ, « le souvenir », a…",
+          "options": [
+            "le tâ'",
+            "l'alif abrégé du féminin",
+            "un mîm",
+            "la terminaison -ân"
+          ],
+          "explanation": "Fi'l avec l'alif abrégé."
+        },
+        {
+          "prompt": "De qui est le commentaire qui donne les exemples cités ici ?",
+          "options": [
+            "Sîbawayh",
+            "al-Kisâ'î",
+            "Badr al-Dîn, le fils du poète",
+            "al-Akhdarî"
+          ],
+          "explanation": "Dans l'édition de Volck de 1866."
+        },
+        {
+          "prompt": "Madkhal comme masdar est sur…",
+          "options": [
+            "maf'il",
+            "muf'al",
+            "maf'ûl",
+            "maf'al"
+          ],
+          "explanation": "Un masdar à mîm."
+        }
+      ],
+      "diagram": {
+        "caption": "Schèmes du masdar du trilitère (Lâmiyya, v. 62–70 ; exemples du poème et de la liste du Marâh)",
+        "labels": {
+          "Maṣdar patterns of the triliteral (Lāmiyya vv. 62–70; examples from the poem and the Marāḥ's list)": "Schèmes du masdar du trilitère (Lâmiyya, v. 62–70 ; exemples du poème et de la liste du Marâh)",
+          "Patterns": "Schèmes",
+          "Examples": "Exemples",
+          "faʿl, fiʿl, fuʿl": "fa'l, fi'l, fu'l",
+          "the same with the tāʾ": "les mêmes avec le tâ'",
+          "with the shortened alif": "avec l'alif abrégé",
+          "faʿlān, fiʿlān, fuʿlān": "fa'lân, fi'lân, fu'lân",
+          "fiʿal, fuʿal, faʿāl (and faʿal: jalan)": "fi'al, fu'al, fa'âl (et fa'al : jalan)",
+          "faʿil, faʿila": "fa'il, fa'ila",
+          "faʿāla, fiʿāla": "fa'âla, fi'âla",
+          "faʿāl, fiʿāl, fuʿāl": "fa'âl, fi'âl, fu'âl",
+          "fuʿūl, faʿūl, faʿīl": "fu'ûl, fa'ûl, fa'îl",
+          "fayʿalūla": "fay'alûla",
+          "fuʿul": "fu'ul",
+          "with the mīm": "avec le mîm"
+        }
+      },
+      "text": [
+        "Les masdars ont des mesures que je vais exposer : / pour le trilitère, ce que je vais montrer, soigneusement choisi :\nfa'l, fi'l et fu'l, ou [ceux-ci] avec le tâ' du féminin / ou joints à l'alif abrégé,",
+        "fa'lân, fi'lân, fu'lân ; et ce qui est comme jalan « clarté », / ridan « contentement », hudan « guidance » et salâhin « rectitude » ; puis ajoute fa'il,\nnu ou avec le tâ' du féminin ; puis fa'âla ; / et, avec l'[alif] abrégé et [comme] fa'lâ', [ils] ont été acceptés ;",
+        "fi'âla et fu'âla, et donne-les tous deux / dépourvus du tâ' ; et joins al-fu'ûl ;\npuis al-fa'îl, et ces deux-là avec le tâ' ; et al-fa'alân, / ou comme baynûnatin « séparation », et ce qui ressemble à shughulâ « occupation » ;",
+        "et fu'lal et fa'ûl, avec fa'âliya, / de même fa'îliyya, fu'ulla, fa'al,\navec fa'alût, fu'ullâ, avec fu'alniya, / de même fu'ûliyya — et la fatha a été rapportée —\net maf'al, maf'il et maf'ul, et avec le tâ' du féminin / en eux ; et une damma est rarement admise."
+      ]
+    },
+    "14": {
+      "title": "Quel masdar prend un verbe trilitère",
+      "body": [
+        "Viennent maintenant les règles (qiyâs), là où l'usage ne tranche pas. « Fa'l est la règle pour le transitif » : daraba darban, comme le donne le Marâh. « Et fu'ûl pour ce qui est autre que lui », le fa'ala intransitif : dakhala dukhûlan. « Sauf un verbe de son : pour lui, fu'âl est manifeste » : un verbe intransitif de cri ou d'appel prend fu'âl.",
+        "« Et ce qui est sur fa'ila, son masdar mérite, s'il n'est pas transitif, d'être fa'al » : wajila wajalan, « il a eu peur, une peur », d'après le Marâh. « Et prends fa'âla ou fu'ûla pour règle de fa'ula » : al-shajâ'a, « le courage », de shaju'a, et le masdar de sahula, « ce fut facile », suhûla.",
+        "« Tout ce qui est autre que cela est transmis par l'écoute » : un verbe hors de ces règles a le masdar que lui ont donné les Arabes, appris par l'usage. Puis une série de schèmes selon le sens. Fa'îl « est fréquent pour le son » : les verbes de bruits (hennir, braire) l'ont souvent. « Pour la maladie douloureuse, la mesure fu'âl », comme noms de maux ; « et pour ce qui a le sens de fuir, ou est semblable à la fuite », le refus, le départ, fi'âl, comme firâr, « la fuite ».",
+        "« Fa'âla est pour les qualités, et laisse fi'âla pour un métier ou une charge » : fa'âla nomme un trait de caractère, fi'âla un métier ou une fonction de gouvernement. Les exemples de Badr al-Dîn pour ces schèmes comprennent ailleurs zarâfa, « l'élégance », et kitâba, « l'écriture, le métier de scribe ». Enfin, « pour une seule fois ils ont posé fa'la, et fi'la pour une manière, le plus souvent, comme mishyat al-khuyalâ », « la démarche des orgueilleux » : darba, « un coup », mais mishya, « une manière de marcher ». Le Marâh énonce la même paire : « fa'la pour la fois unique, fi'la pour la manière ».",
+        "Ces règles permettent de bien deviner pour un verbe inconnu ; l'usage, là où il est connu, l'emporte toujours."
+      ],
+      "terms": [
+        "la règle : le masdar attendu d'après le schème du verbe",
+        "l'écoute : les masdars connus seulement par l'usage",
+        "fa'la pour une seule fois",
+        "fi'la pour la manière"
+      ],
+      "examples": [
+        "darabtu darban : fa'l pour le transitif (le Marâh)",
+        "wajila wajalan : fa'al pour un fa'ila intransitif (le Marâh)",
+        "ka-l-shajâ'ati : fa'âla pour fa'ula",
+        "ka-mishyati al-khuyalâ : fi'la pour la manière"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le schème de masdar attendu pour : un fa'ala transitif ; un fa'ala intransitif ; un fa'ila intransitif ; fa'ula.",
+          "answer": "Transitif : fa'l (darb). Fa'ala intransitif : fu'ûl (dukhûl), ou fu'âl pour un verbe de son. Fa'ila intransitif : fa'al (wajal). Fa'ula : fa'âla ou fu'ûla (shajâ'a, suhûla)."
+        },
+        {
+          "prompt": "Quels schèmes le poème lie-t-il à des sens plutôt qu'à des schèmes de verbe ?",
+          "answer": "Fa'îl, fréquent pour les sons ; fu'âl pour la maladie douloureuse ; fi'âl pour la fuite et ce qui lui ressemble ; fa'âla pour les qualités ; fi'âla pour les métiers et les charges ; fa'la pour une seule fois ; fi'la pour une manière."
+        },
+        {
+          "prompt": "Quelle est la différence entre fa'la et fi'la ? Servez-vous de l'exemple du poème.",
+          "answer": "Fa'la nomme une seule occurrence de l'acte (un coup, une marche) ; fi'la en nomme la manière, comme mishyat al-khuyalâ, « la démarche des orgueilleux »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le masdar d'un trilitère transitif est, selon la règle…",
+          "options": [
+            "fu'ûl",
+            "fa'al",
+            "fa'l",
+            "fi'âla"
+          ],
+          "explanation": "Fa'lun maqîsu al-mu'addâ."
+        },
+        {
+          "prompt": "Dakhala dukhûlan illustre…",
+          "options": [
+            "fa'l pour le transitif",
+            "fa'al pour fa'ila",
+            "fu'âl pour le son",
+            "fu'ûl pour le fa'ala intransitif"
+          ],
+          "explanation": "« Fu'ûl pour ce qui est autre que lui. »"
+        },
+        {
+          "prompt": "Wajila wajalan illustre…",
+          "options": [
+            "fa'al pour un fa'ila intransitif",
+            "fa'l",
+            "fu'ûl",
+            "fa'âla"
+          ],
+          "explanation": "Comme le vers 72 du poème."
+        },
+        {
+          "prompt": "Al-shajâ'a, « le courage », illustre…",
+          "options": [
+            "fi'âla pour un métier",
+            "fa'âla pour fa'ula",
+            "fa'la pour une fois",
+            "fu'âl pour la maladie"
+          ],
+          "explanation": "De shaju'a."
+        },
+        {
+          "prompt": "Firâr, « la fuite », est sur…",
+          "options": [
+            "fu'âl, pour la maladie",
+            "fa'âl",
+            "fi'âl, pour la fuite",
+            "fu'ûl"
+          ],
+          "explanation": "« Pour ce qui a le sens de fuir, fi'âl. »"
+        },
+        {
+          "prompt": "Fi'âla est pour…",
+          "options": [
+            "une qualité",
+            "une seule fois",
+            "un son",
+            "un métier ou une charge"
+          ],
+          "explanation": "Fa'âla est pour les qualités."
+        },
+        {
+          "prompt": "Qu'est-ce qui l'emporte sur les règles ?",
+          "options": [
+            "L'usage (samâ')",
+            "Le mètre",
+            "Le parler de Tayyi'",
+            "Rien"
+          ],
+          "explanation": "« Tout ce qui est autre que cela est transmis par l'écoute. »"
+        }
+      ],
+      "diagram": {
+        "caption": "Les règles du masdar trilitère (Lâmiyya, v. 71–77 ; exemples du poème et du Marâh)",
+        "labels": {
+          "The rules of the triliteral maṣdar (Lāmiyya vv. 71–77; examples from the poem and the Marāḥ)": "Les règles du masdar trilitère (Lâmiyya, v. 71–77 ; exemples du poème et du Marâh)",
+          "Verb or meaning": "Verbe ou sens",
+          "Maṣdar": "Masdar",
+          "Example": "Exemple",
+          "transitive": "transitif",
+          "faʿl": "fa'l",
+          "faʿala, intransitive": "fa'ala, intransitif",
+          "fuʿūl": "fu'ûl",
+          "a verb of sound": "un verbe de son",
+          "fuʿāl; faʿīl frequent": "fu'âl ; fa'îl fréquent",
+          "faʿila, intransitive": "fa'ila, intransitif",
+          "faʿal": "fa'al",
+          "faʿula": "fa'ula",
+          "faʿāla, fuʿūla": "fa'âla, fu'ûla",
+          "a painful illness": "une maladie douloureuse",
+          "fuʿāl": "fu'âl",
+          "fleeing and its like": "la fuite et ce qui lui ressemble",
+          "fiʿāl": "fi'âl",
+          "a quality": "une qualité",
+          "faʿāla": "fa'âla",
+          "a craft or an office": "un métier ou une charge",
+          "fiʿāla": "fi'âla",
+          "one time": "une seule fois",
+          "faʿla": "fa'la",
+          "a manner": "une manière",
+          "fiʿla": "fi'la"
+        }
+      },
+      "text": [
+        "Fa'l est la règle pour le transitif, et fu'ûl pour ce qui est autre / que lui, sauf un verbe de son : pour lui fu'âl est manifeste ;\net ce qui est sur fa'ila, son masdar mérite, / s'il n'est pas transitif, d'être fa'al ;\net prends fa'âla ou fu'ûla pour règle de fa'ulta, / comme al-shajâ'ati « le courage » et ce qui se forme sur sahulâ « ce fut facile ».",
+        "Tout ce qui est autre que cela est transmis par l'écoute ; et fréquent est / al-fa'îl pour le son ; et pour la maladie douloureuse, ce qui en fait paraître\nle sens est la mesure fu'âl ; qu'on la prenne donc pour règle ; et pour ce qui a / [le sens de] la fuite, ou est semblable à la fuite, fi'âl ressort.",
+        "Fa'âla est pour les qualités ; et al-fi'âla laisse-la / pour un métier ou une charge ; et ne te trompe pas :\npour une seule fois ils ont posé fa'la, et fi'la / pour une manière, le plus souvent, comme mishyati al-khuyalâ « la démarche des orgueilleux »."
+      ]
+    },
+    "15": {
+      "title": "Les masdars des verbes plus longs",
+      "body": [
+        "Les verbes plus longs ont des masdars réguliers, et le poème les énonce en quelques règles. D'abord les verbes à hamza de liaison : leur masdar se fait « avec une kasra sur la troisième lettre » et « un allongement de ce que suit la dernière », un â long avant la dernière lettre. Ihtaqara donne ihtiqâr, inkasara inkisâr, istakhraja istikhrâj : comptez la hamza comme première lettre, et la troisième (le tâ', le kâf, le tâ') a la kasra.",
+        "« Et donne-lui une damma dans un verbe au début duquel le tâ' est ajouté » : le masdar de tafa''ala, tafâ'ala et tafa'lala est le passé lui-même avec une damma sur l'avant-dernière lettre : tafaddala, tafaddul ; tadâraba, tadârub. « Et donne-lui une kasra devant une lettre qui admet la faiblesse » : quand la dernière lettre radicale est faible, la damma qui la précède devient une kasra.",
+        "« Pour fa'lala, donne fi'lâl et fa'lala » : zalzala, zilzâl, comme le note le Marâh ; dahraja, dahraja et dihrâj, comme le récite le Maqsûd.",
+        "« Et pour fa''ala fais al-taf'îl, là où il est libre d'un lâm faible » : qatta'a, taqtî'. « Pour celui qui en a un, rends taf'ila obligatoire » : un verbe fa''ala à lâm faible prend taf'ila, avec le tâ', et jamais taf'îl. « Et à celui qui en est libre, taf'ila a parfois été donné » : un verbe fa''ala sain peut avoir taf'ila à côté de taf'îl.",
+        "Ce sont ces règles que suit l'outil de conjugaison quand il donne le masdar d'un schème augmenté. Pour le trilitère, comme l'ont montré les dernières leçons, il n'en donne pas : ces masdars s'apprennent."
+      ],
+      "terms": [
+        "le masdar régulier d'un verbe plus long",
+        "l'allongement : le â long avant la dernière lettre d'ifti'âl, d'istif'âl",
+        "les deux masdars de fa''ala",
+        "un verbe dont la dernière lettre radicale est faible"
+      ],
+      "examples": [
+        "ihtiqâr, inkisâr, istikhrâj : kasra sur la troisième, â avant la dernière (outil de conjugaison)",
+        "tafaddul, tadârub : damma avant la dernière (outil de conjugaison)",
+        "zilzâl, de zalzala : fi'lâl (le Marâh)",
+        "taqtî', de qatta'a : taf'îl (outil de conjugaison)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Formez le masdar d'ihtaqara et d'istakhraja avec l'outil de conjugaison, et dites quelle lettre prend la kasra.",
+          "answer": "Ihtiqâr et istikhrâj (اِحْتِقَارٌ، اِسْتِخْرَاجٌ). En comptant la hamza comme première lettre, la troisième (le tâ' dans les deux) prend la kasra, et un â long se tient avant la dernière lettre."
+        },
+        {
+          "prompt": "Comment se forme le masdar de tafa''ala et de tafâ'ala ?",
+          "answer": "À partir du passé lui-même, avec une damma sur l'avant-dernière lettre : tafaddul, tadârub (et une kasra à la place, devant une dernière lettre faible)."
+        },
+        {
+          "prompt": "Quand fa''ala prend-il taf'îl, et quand taf'ila ?",
+          "answer": "Taf'îl quand sa dernière lettre radicale est saine (qatta'a, taqtî') ; taf'ila, obligatoirement, quand elle est faible ; et un fa''ala sain a parfois aussi taf'ila."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Dans le masdar d'un verbe à hamza de liaison, la kasra tombe sur…",
+          "options": [
+            "la première lettre",
+            "la deuxième lettre",
+            "la dernière lettre",
+            "la troisième lettre"
+          ],
+          "explanation": "Ihtiqâr, istikhrâj."
+        },
+        {
+          "prompt": "Avant la dernière lettre de ce masdar se tient…",
+          "options": [
+            "un â long",
+            "un î long",
+            "un û long",
+            "rien"
+          ],
+          "explanation": "« Avec un allongement de ce que suit la dernière. »"
+        },
+        {
+          "prompt": "Le masdar de tafaddala est…",
+          "options": [
+            "tafdîl",
+            "tafaddul",
+            "tafaddâl",
+            "tifiddâl"
+          ],
+          "explanation": "Une damma avant la dernière lettre."
+        },
+        {
+          "prompt": "Fa'lala prend comme masdar…",
+          "options": [
+            "taf'îl",
+            "if'ilâl",
+            "fi'lâl et fa'lala",
+            "mufâ'ala"
+          ],
+          "explanation": "Zilzâl ; dahraja, dihrâj."
+        },
+        {
+          "prompt": "Fa''ala à dernière lettre saine prend…",
+          "options": [
+            "taf'ila obligatoirement",
+            "fi''âl seulement",
+            "mufa''al",
+            "taf'îl"
+          ],
+          "explanation": "Qatta'a, taqtî'."
+        },
+        {
+          "prompt": "Fa''ala à dernière lettre faible prend…",
+          "options": [
+            "taf'ila, obligatoirement",
+            "taf'îl",
+            "fi'lâl",
+            "pas de masdar"
+          ],
+          "explanation": "« Pour celui qui en a un, rends taf'ila obligatoire. »"
+        },
+        {
+          "prompt": "Devant une dernière lettre faible, la damma de tafa''ul devient…",
+          "options": [
+            "une fatha",
+            "une kasra",
+            "un sukûn",
+            "un wâw"
+          ],
+          "explanation": "« Donne-lui une kasra devant une lettre qui admet la faiblesse. »"
+        }
+      ],
+      "diagram": {
+        "caption": "Masdars des verbes plus longs (outil de conjugaison ; zalzala d'après le Marâh, dahraja d'après le Maqsûd)",
+        "labels": {
+          "Maṣdars of the longer verbs (conjugation tool; zalzala from the Marāḥ, daḥraja from the Maqṣūd)": "Masdars des verbes plus longs (outil de conjugaison ; zalzala d'après le Marâh, dahraja d'après le Maqsûd)",
+          "Past": "Passé",
+          "Maṣdar": "Masdar",
+          "Rule": "Règle",
+          "kasra on the third, ā before the last": "kasra sur la troisième, â avant la dernière",
+          "the same": "de même",
+          "ḍamma before the last": "damma avant la dernière",
+          "faʿlala: fiʿlāl": "fa'lala : fi'lâl",
+          "faʿlala: faʿlala and fiʿlāl": "fa'lala : fa'lala et fi'lâl",
+          "faʿʿala: tafʿīl": "fa''ala : taf'îl"
+        }
+      },
+      "text": [
+        "Avec une kasra sur la troisième [lettre] de [celui qui a] la hamza de liaison, le masdar d'un verbe / qui l'a [se fait], avec un allongement de ce que suit la dernière ;\net donne-lui une damma dans un verbe au début duquel le tâ' est ajouté, / et donne-lui une kasra devant une lettre qui admet la faiblesse.",
+        "Pour fa'lala, donne fi'lâl et fa'lala ; / et pour fa''ala fais al-taf'îl, là où il est libre\nd'un lâm faible ; pour celui qui en a un, rends taf'ila / obligatoire ; et à celui qui en est libre, [taf'ila] a parfois été donné."
+      ]
+    },
+    "16": {
+      "title": "D'autres masdars des verbes plus longs, et le tâ' de la fois",
+      "body": [
+        "Certains masdars moins courants sont eux aussi corrects, et le poème loue qui les emploie : « qui joint tafa''ala à tifi''âl, et fa''ala à al-fi''âl, loue-le pour ce qu'il a fait ». Le Marâh donne tihimmâl de tahammala et killâm de kallama ; le Coran a wa-kadhdhabû bi-âyâtinâ kidhdhâban (78:28), kidhdhâb de kadhdhaba.",
+        "« Et l'on peut donner taf'âl pour fa''ala, dans la multiplication d'un acte, comme tasyâr », « beaucoup de voyages ». Le Marâh énumère al-tahdâr et al-tal'âb parmi les masdars d'intensité. Et fi''îlâ se fait « pour le trilitère, pour l'intensité », comme al-hiththîthâ et al-dillîlâ dans le Marâh ; il peut aussi tenir lieu de tafâ'ul.",
+        "« Par al-fu'allîla, ils ont dispensé if'alalla » [de son masdar], « non obligatoirement » : à côté de son masdar régulier, if'alalla peut prendre fu'allîla, comme l'illustre le commentaire de Badr al-Dîn avec qusha'rîra, « le frisson », et tuma'nîna, « la quiétude ». « Pour fâ'ala, fais fi'âl ou mufâ'ala », comme qâtala, muqâtala et qitâl ; « et fi'la a tenu lieu des deux ».",
+        "Puis le tâ'. Dans le verbe concave, if'âl et istif'âl prennent un tâ' « et par lui se fait la compensation de ce qui a été retiré » : aqâma, iqâma ; istaqâma, istiqâma. La lettre faible tombée est compensée par le tâ' (le Marâh traite du même tâ', et de l'iqâma du Coran sans lui).",
+        "Ajouté à tout autre masdar, le tâ' fait un nom de fois : « une seule fois de celui qui a agi est rendue claire par lui ». Et quand le masdar a déjà un tâ' qui lui est propre, la seule fois « apparaît, pour qui comprend, par la mention de wâhida », « une » : on ajoute alors le mot « une »."
+      ],
+      "terms": [
+        "masdars plus rares de tafa''ala et de fa''ala : tihimmâl, kidhdhâb",
+        "la multiplication d'un acte : le sens de taf'âl",
+        "le tâ' de compensation, comme dans iqâma",
+        "le nom de fois, formé avec le tâ'"
+      ],
+      "examples": [
+        "tihimmâl, killâm : tifi''âl et fi''âl (le Marâh)",
+        "al-tahdâr, al-tal'âb : taf'âl pour l'acte répété (le Marâh)",
+        "muqâtala, de qâtala : mufâ'ala (outil de conjugaison)",
+        "al-iqâma, al-istiqâma : le tâ' de compensation (le Marâh)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les masdars moins courants qu'approuve le poème pour tafa''ala et fa''ala, avec un exemple de chacun.",
+          "answer": "Tifi''âl pour tafa''ala (tihimmâl, de tahammala) et fi''âl pour fa''ala (killâm de kallama ; kidhdhâb de kadhdhaba, en 78:28). Aussi taf'âl pour fa''ala dans la multiplication d'un acte (tasyâr)."
+        },
+        {
+          "prompt": "Pourquoi iqâma a-t-il un tâ' ?",
+          "answer": "C'est l'if'âl d'un verbe concave : sa lettre faible a été retirée dans la transformation, et le tâ' est ajouté en compensation. Istiqâma est de même."
+        },
+        {
+          "prompt": "Comment forme-t-on un nom de fois à partir d'un masdar, et à partir d'un masdar qui a déjà un tâ' ?",
+          "answer": "En ajoutant le tâ' au masdar ; et si le masdar a déjà un tâ' (comme iqâma), en ajoutant le mot wâhida, « une »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Tihimmâl est un masdar de…",
+          "options": [
+            "tahammala",
+            "hamala",
+            "hammala",
+            "ihtamala"
+          ],
+          "explanation": "Tifi''âl pour tafa''ala."
+        },
+        {
+          "prompt": "Kidhdhâb en 78:28 est un masdar de…",
+          "options": [
+            "kadhaba, sur fi''âl",
+            "kadhdhaba, sur fi''âl",
+            "takâdhaba",
+            "akdhaba"
+          ],
+          "explanation": "Fi''âl pour fa''ala, approuvé par le poème."
+        },
+        {
+          "prompt": "Taf'âl, comme tasyâr, exprime…",
+          "options": [
+            "une seule fois",
+            "une manière",
+            "la multiplication d'un acte",
+            "un métier"
+          ],
+          "explanation": "Fî takthîri fi'lin."
+        },
+        {
+          "prompt": "Le masdar régulier de qâtala dans l'outil de conjugaison est…",
+          "options": [
+            "taqtîl",
+            "qitlâl",
+            "iqtitâl",
+            "muqâtala"
+          ],
+          "explanation": "Le poème admet aussi fi'âl."
+        },
+        {
+          "prompt": "Le tâ' d'iqâma est…",
+          "options": [
+            "une compensation de la lettre retirée",
+            "un signe de la fois",
+            "un signe du féminin pluriel",
+            "une lettre radicale"
+          ],
+          "explanation": "Dans l'if'âl et l'istif'âl des verbes concaves."
+        },
+        {
+          "prompt": "Ajouté aux autres masdars, le tâ' forme…",
+          "options": [
+            "un nom de lieu",
+            "un nom de fois",
+            "un pluriel",
+            "un diminutif"
+          ],
+          "explanation": "« Une seule fois … est rendue claire par lui. »"
+        },
+        {
+          "prompt": "Comment montre-t-on la fois pour un masdar qui a déjà un tâ' ?",
+          "options": [
+            "Par un second tâ'",
+            "Par un mîm",
+            "En ajoutant wâhida",
+            "On ne le peut pas"
+          ],
+          "explanation": "« Par la mention de wâhida. »"
+        }
+      ],
+      "diagram": {
+        "caption": "Masdars plus rares et le tâ' (Lâmiyya, v. 81–89 ; exemples du Marâh et de l'outil de conjugaison)",
+        "labels": {
+          "Rarer maṣdars and the tāʾ (Lāmiyya vv. 81–89; examples from the Marāḥ and the conjugation tool)": "Masdars plus rares et le tâ' (Lâmiyya, v. 81–89 ; exemples du Marâh et de l'outil de conjugaison)",
+          "Verb": "Verbe",
+          "Maṣdar": "Masdar",
+          "Note": "Remarque",
+          "tifiʿʿāl for tafaʿʿala": "tifi''âl pour tafa''ala",
+          "fiʿʿāl for faʿʿala": "fi''âl pour fa''ala",
+          "tafʿāl: much doing": "taf'âl : l'acte répété",
+          "fiʿʿīlā: intensity": "fi''îlâ : intensité",
+          "mufāʿala; also fiʿāl": "mufâ'ala ; aussi fi'âl",
+          "the tāʾ for the dropped letter": "le tâ' pour la lettre tombée"
+        }
+      },
+      "text": [
+        "Qui joint tafa''ala à tifi''âl, et / fa''ala à al-fi''âl, loue-le pour ce qu'il a fait ;\net l'on peut donner taf'âl pour fa''ala, dans / la multiplication d'un acte, comme tasyârin « beaucoup de voyages » ; et l'on a fait\npour le trilitère fi''îlâ, pour l'intensité ; / et de tafâ'ul aussi on peut le voir comme substitut.",
+        "Par al-fu'allîla, ils ont dispensé if'alalla / [de son propre masdar], non obligatoirement ; connais donc les exemples.\nPour fâ'ala, fais fi'âl ou mufâ'ala ; / et fi'la a tenu lieu des deux : prends-[le] donc.",
+        "Ce qui a un 'ayn faible : l'if'âl qu'on en tire et l'istif'âl / [prennent] le tâ', et par lui se fait la compensation\nde ce qui a été retiré ; et s'il est joint à d'autres que ces deux, / une seule fois de celui qui a agi est rendue claire par lui ;\net la seule fois du masdar auquel il [le tâ'] est attaché / apparaît, pour qui comprend, par la mention de wâhida « une »."
+      ]
+    },
+    "17": {
+      "title": "Maf'al et maf'il : la règle et ses exceptions",
+      "body": [
+        "Un même schème à mîm sert à trois choses : le masdar (« le masdar à mîm »), le lieu et le temps. « Du trilitère qui n'a pas yaf'ilu, donne maf'al », les deux « pour le masdar, ou pour ce en quoi [l'acte] se fait » : là où le mudâri' a une fatha ou une damma, tout est maf'al, comme madhhab, madkhal, maqtal dans le Marâh.",
+        "« De même ce qui a un lâm faible, absolument » : marmâ, de ramâ yarmî, a une fatha bien que son mudâri' ait une kasra. « Et quand le fâ' est un wâw », le nom « vient avec une kasra, absolument » : maw'id, mawjil, même là où le mudâri' a une fatha (wajila yawjalu). Mais « le fait que le wâw soit le fâ' n'a pas d'effet quand le lâm est faible », comme mawlan : la fatha du lâm faible l'emporte (et le poète ajoute un jeu de mots sur walâ', « garde donc l'amitié sincère »).",
+        "« Hors de cela », le verbe à yaf'ilu, à lâm sain et sans wâw : « donne au 'ayn une fatha pour un masdar, et dans ce qui est autre que lui une kasra ». Ainsi, de jalasa yajlisu, le lieu est al-majlis, avec une kasra, comme l'a al-'Izzî, tandis que son masdar à mîm prend la fatha. Une seule voyelle distingue le masdar du lieu. Le Maqsûd énonce la même règle, et nomme al-marji' et al-masîr comme des masdars venus malgré tout avec une kasra.",
+        "« Et irrégulier est ce qui s'écarte de cela » : suit une longue liste, mazlama, matla', majma', mahmada, madhamma, mansak, madanna, mazalla, mafraq, madalla, madabb, mahshar, maskan, mahall, ma'jaz, mahlaka, ma'taba ; maf'al de wada'a et de wajila ; maf'ala de hasiba et de daraba, et mawqa'a. « Tous ceux-là ont reçu deux façons » : on les entend avec les deux voyelles, contre la règle. Nos voyelles suivent Volck, qui les donne avec fatha ; le commentaire dit que chacun a les deux.",
+        "Comparez le Marâh (sa leçon 27) : il donne la même règle à partir du futur (maf'al de yaf'alu, maf'il de yaf'ilu, le mithâl et le défectueux comme exceptions) et sa propre liste de noms à kasra. La Lâmiyya ajoute l'emploi pour le masdar, et les mots aux deux voyelles."
+      ],
+      "terms": [
+        "le masdar à mîm, comme madkhal",
+        "les noms de temps et de lieu, comme al-majlis",
+        "faible en son lâm : toujours maf'al",
+        "les deux façons : des mots entendus avec fatha et avec kasra"
+      ],
+      "examples": [
+        "al-madhhab, al-marmâ : maf'al (le Marâh)",
+        "maw'id : maf'il quand le fâ' est un wâw (le Marâh)",
+        "ka-mawlan : le lâm faible l'emporte sur le wâw",
+        "mazlama, matla', majma', mahmada : des mots à deux façons"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le schème du masdar et du lieu pour : dhahaba yadhhabu ; ramâ yarmî ; wa'ada ya'idu ; jalasa yajlisu.",
+          "answer": "Dhahaba : maf'al pour les deux (madhhab). Ramâ : maf'al pour les deux, le lâm étant faible (marmâ). Wa'ada : maf'il pour les deux, le fâ' étant un wâw (maw'id). Jalasa : maf'al pour le masdar, maf'il pour le lieu et le temps (al-majlis)."
+        },
+        {
+          "prompt": "Pourquoi mawlan est-il sur maf'al, bien que son fâ' soit un wâw ?",
+          "answer": "Parce que son lâm est faible lui aussi, et le poème dit que le wâw pour fâ' n'a pas d'effet quand le lâm est faible : la fatha du lâm faible l'emporte."
+        },
+        {
+          "prompt": "Que dit le poème de mazlama, matla', majma' et du reste de sa liste ?",
+          "answer": "Qu'ils s'écartent de la règle (ils sont irréguliers), et que tous s'entendent avec deux façons, fatha et kasra."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "D'un trilitère sans yaf'ilu, le masdar et le lieu sont…",
+          "options": [
+            "maf'il",
+            "maf'al",
+            "muf'al",
+            "mif'al"
+          ],
+          "explanation": "Comme madhhab."
+        },
+        {
+          "prompt": "Un verbe à lâm faible forme…",
+          "options": [
+            "maf'il, absolument",
+            "maf'al pour le lieu seulement",
+            "maf'al, absolument",
+            "pas de nom de lieu"
+          ],
+          "explanation": "Marmâ, de ramâ yarmî, bien que son mudâri' ait une kasra."
+        },
+        {
+          "prompt": "Quand le fâ' est un wâw, le nom est…",
+          "options": [
+            "maf'al",
+            "muf'al",
+            "mif'âl",
+            "maf'il, absolument"
+          ],
+          "explanation": "Maw'id, mawjil."
+        },
+        {
+          "prompt": "Mawlan montre que…",
+          "options": [
+            "un lâm faible l'emporte sur le wâw pour fâ'",
+            "le wâw donne toujours la kasra",
+            "le lieu a une damma",
+            "c'est irrégulier"
+          ],
+          "explanation": "« Le fait que le wâw soit le fâ' n'a pas d'effet quand le lâm est faible. »"
+        },
+        {
+          "prompt": "D'un verbe à yaf'ilu, le masdar à mîm est, selon la règle…",
+          "options": [
+            "maf'il",
+            "maf'al",
+            "muf'al",
+            "mif'al"
+          ],
+          "explanation": "Une fatha pour le masdar ; le Maqsûd excepte al-marji' et al-masîr."
+        },
+        {
+          "prompt": "Al-majlis, de jalasa yajlisu, est un nom de lieu sur…",
+          "options": [
+            "maf'al",
+            "muf'il",
+            "maf'il",
+            "mif'al"
+          ],
+          "explanation": "Une kasra pour ce qui est autre que le masdar, comme dans al-'Izzî."
+        },
+        {
+          "prompt": "Maw'id, de wa'ada, est sur maf'il parce que…",
+          "options": [
+            "son lâm est faible",
+            "son mudâri' a une fatha",
+            "il est irrégulier",
+            "son fâ' est un wâw"
+          ],
+          "explanation": "Quand le fâ' est un wâw, le nom vient avec une kasra, absolument."
+        }
+      ],
+      "diagram": {
+        "caption": "Maf'al et maf'il (Lâmiyya, v. 90–97 ; exemples du poème et du Marâh)",
+        "labels": {
+          "Mafʿal and mafʿil (Lāmiyya vv. 90–97; examples from the poem and the Marāḥ)": "Maf'al et maf'il (Lâmiyya, v. 90–97 ; exemples du poème et du Marâh)",
+          "Verb": "Verbe",
+          "Maṣdar": "Masdar",
+          "Place, time": "Lieu, temps",
+          "Example": "Exemple",
+          "yafʿalu or yafʿulu": "yaf'alu ou yaf'ulu",
+          "mafʿal": "maf'al",
+          "weak lām": "lâm faible",
+          "wāw as fāʾ": "wâw pour fâ'",
+          "mafʿil": "maf'il",
+          "wāw as fāʾ, weak lām": "wâw pour fâ', lâm faible",
+          "yafʿilu, the rest": "yaf'ilu, le reste",
+          "the listed words": "les mots énumérés",
+          "both ways": "les deux façons"
+        }
+      },
+      "text": [
+        "Du trilitère qui n'a pas yaf'ilu, donne maf'al / pour le masdar, ou pour ce en quoi [l'acte] se fait ;\nde même ce qui a un lâm faible, absolument ; et quand le / fâ' est un wâw, [le nom] vient avec une kasra, absolument.",
+        "Le fait que le wâw soit le fâ' n'a pas d'effet quand / le lâm est faible, comme mawlan « maître » : garde donc l'amitié sincère.\nHors de cela, donne au 'ayn une fatha pour un masdar, et dans ce qui est autre / que lui une kasra ; et irrégulier est ce qui s'écarte de cela :",
+        "mazlamatun « tort fait », matla'u « lever », al-majma'u « le rassemblement », mahmadatun « louange », / madhammatun « blâme », mansakun « rite », madannatu al-bukhalâ « l'avarice des avares »,\nmazallatun « glissade », mafraqun « séparation », madallatun « égarement » et madabb / « rampement », mahsharun « rassemblement », maskanun « demeure », mahallu man nazalâ « le lieu de halte de celui qui fait halte »,",
+        "et ma'jazun « impuissance », aussi avec un tâ' ; puis mahlakatun « perdition », / ma'tabatun « reproche » ; maf'al de da' « pose ! » et de wajilâ « il a eu peur »,\net avec lui, de ihsib « suppose ! » et de darbin « frappe », la mesure maf'ala, / [comme] mawqa'atun « chute » : tous ceux-là ont reçu deux façons."
+      ]
+    },
+    "18": {
+      "title": "Les mots à kasra seule, et les autres verbes",
+      "body": [
+        "« Garde la kasra seule » dans une autre série : marfiq, « coude », ma'siya, « désobéissance », masjid, « mosquée », makbir, « vieillesse », et ma'win, l'abri « qui contient les chameaux ». Puis les mots maf'ila tirés des verbes que le vers nomme par leurs impératifs : d'ighfir, maghfira, « pardon » ; d'i'rif, ma'rifa, « connaissance » ; de 'udhr, ihmi, razâ et uznun, de même ; et manbit, « lieu de pousse ».",
+        "« Et joins à maf'il » les noms tirés de ushruq, ughrub, usqut, raja'a et ijzur, « lève-toi, couche-toi, tombe, il est revenu, égorge » : mashriq, maghrib, masqit, marji', majzir. Plusieurs d'entre eux font partie des onze noms à kasra que le Marâh énumère pour des verbes à damma au futur. Puis maf'ila d'iqdir, ushruq et uqbur, et d'arib, et l'un d'eux prend les trois voyelles (le vers dit « sa quatrième » ; notre lecture de la fin de ce vers est douteuse). « De même, à mahlik les trois voyelles ont été données » : mahlak, mahlik et mahluk, « perdition ».",
+        "« Comme le sain est celui dont le 'ayn est un yâ' » : un verbe concave à yâ' suit la règle du verbe sain, maf'al pour le masdar et maf'il pour le lieu, comme mabî', « lieu de vente », dans le Marâh. « Et sur un avis, arrête-toi » : certains tiennent autrement ; « ne dépasse pas ce qui a été rapporté ».",
+        "Enfin, les verbes plus longs : « comme le participe passif de ce qui n'est pas trilitère, forme à partir de lui » le nom de lieu, de temps ou le masdar. D'istakhraja, mustakhraj veut dire « extrait », et aussi « un lieu, un temps, ou un acte d'extraction ».",
+        "Les listes de ces vers s'apprennent telles quelles, comme les verbes géminés de la leçon 4. La règle qui les sous-tend est simple ; les mots à kasra sont l'usage qui s'en écarte."
+      ],
+      "terms": [
+        "garder la kasra seule, contre la règle",
+        "le schème de maghfira, ma'rifa",
+        "donner à une lettre les trois voyelles, comme dans mahlik",
+        "le verbe concave à yâ', traité comme le sain"
+      ],
+      "examples": [
+        "marfiq, ma'siya : la kasra seule",
+        "masjid, makbir : la kasra seule",
+        "mahlik : les trois voyelles admises",
+        "mustakhraj : le nom de lieu d'un verbe plus long, comme son participe passif (outil de conjugaison)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez quatre mots que le poème garde avec la kasra seule.",
+          "answer": "Marfiq (coude), ma'siya (désobéissance), masjid (mosquée), makbir (vieillesse) ; aussi ma'win, l'abri des chameaux."
+        },
+        {
+          "prompt": "Comment se forment le masdar et le lieu d'un verbe concave à yâ' ?",
+          "answer": "Comme pour le verbe sain : maf'al pour le masdar, maf'il pour le lieu et le temps ; le mabî' du Marâh, « lieu de vente », est maf'il."
+        },
+        {
+          "prompt": "Formez le nom de lieu d'istakhraja, et énoncez la règle.",
+          "answer": "Mustakhraj, identique à son participe passif : pour les verbes de plus de trois lettres, le nom de lieu, de temps et le masdar prennent la forme du participe passif."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Masjid est un mot…",
+          "options": [
+            "à fatha seule",
+            "à deux façons",
+            "à kasra seule",
+            "à trois voyelles"
+          ],
+          "explanation": "Contre la règle pour sajada yasjudu."
+        },
+        {
+          "prompt": "Maghfira est sur le schème…",
+          "options": [
+            "maf'ala",
+            "muf'ala",
+            "mif'ala",
+            "maf'ila"
+          ],
+          "explanation": "Parmi les mots maf'ila du poème."
+        },
+        {
+          "prompt": "Mahlik, « perdition », est admis avec…",
+          "options": [
+            "les trois voyelles",
+            "la kasra seulement",
+            "la fatha seulement",
+            "la damma seulement"
+          ],
+          "explanation": "« Les trois voyelles ont été données. »"
+        },
+        {
+          "prompt": "Un verbe concave à yâ' forme son nom de lieu…",
+          "options": [
+            "toujours sur maf'al",
+            "comme le verbe sain",
+            "toujours sur muf'al",
+            "avec un wâw"
+          ],
+          "explanation": "« Comme le sain est celui dont le 'ayn est un yâ'. »"
+        },
+        {
+          "prompt": "Pour un verbe plus long, le nom de lieu est comme…",
+          "options": [
+            "son participe actif",
+            "son impératif",
+            "son participe passif",
+            "son passé"
+          ],
+          "explanation": "Mustakhraj."
+        },
+        {
+          "prompt": "Mashriq, « l'orient », est sur…",
+          "options": [
+            "maf'al",
+            "maf'ula",
+            "muf'il",
+            "maf'il"
+          ],
+          "explanation": "Joint à maf'il par le poème, comme dans la liste du Marâh."
+        },
+        {
+          "prompt": "« Ne dépasse pas ce qui a été rapporté » veut dire…",
+          "options": [
+            "suis les mots entendus ; n'invente pas",
+            "emploie n'importe quelle voyelle",
+            "suis les Koufiens",
+            "emploie toujours maf'al"
+          ],
+          "explanation": "Ces mots se connaissent par l'usage."
+        }
+      ],
+      "diagram": {
+        "caption": "Les mots à kasra, et les noms de lieu des autres verbes (Lâmiyya, v. 98–103 ; avec le Marâh)",
+        "labels": {
+          "Words with kasra, and the nouns of place of other verbs (Lāmiyya vv. 98–103; with the Marāḥ)": "Les mots à kasra, et les noms de lieu des autres verbes (Lâmiyya, v. 98–103 ; avec le Marâh)",
+          "Kind": "Sorte",
+          "Pattern": "Schème",
+          "Words": "Mots",
+          "kasra alone": "kasra seule",
+          "mafʿil": "maf'il",
+          "mafʿila": "maf'ila",
+          "joined to mafʿil": "joints à maf'il",
+          "three vowels": "trois voyelles",
+          "mahlak, mahlik, mahluk": "mahlak, mahlik, mahluk",
+          "ʿayn a yāʾ": "'ayn yâ'",
+          "as the sound verb": "comme le verbe sain",
+          "longer verbs": "verbes plus longs",
+          "as the passive participle": "comme le participe passif"
+        }
+      },
+      "text": [
+        "Garde la kasra seule pour marfiqin « coude », ma'siyatin « désobéissance », / masjidin « mosquée », makbirin « vieillesse », et un ma'win « abri » qui contient les chameaux,\nde îwi « donne asile ! », wa-ighfir « et pardonne ! », wa-'udhrin « et excuse », wa-ihmi « et protège ! », maf'ila, / et de razâ « il a frappé de malheur », wa-i'rifi « et connais ! », uznun « suppose ! » ; et manbitin « lieu de pousse », et joins",
+        "à maf'il ushruq « lève-toi ! » avec ughrub « couche-toi ! », wa-usqutan « et tombe ! », raja'a « il est revenu », ijzur « égorge ! » ; / puis [joins] à maf'ila iqdir « sois capable ! » et wa-ushruqan « et lève-toi ! », sans manque,\net wa-uqbur « et enterre ! », et d'aribin « qui a besoin » ; et donne trois [voyelles] à sa quatrième ; / de même, à mahlik les trois [voyelles] ont été données.",
+        "Comme le sain est celui dont le 'ayn est un yâ' ; et sur / un avis, arrête-toi, et ne dépasse pas ce qui a été rapporté.\nEt comme le participe passif de ce qui n'est pas trilitère, forme / à partir de lui [le nom] pour lequel on fait maf'al ou maf'il."
+      ]
+    },
+    "19": {
+      "title": "La terre d'abondance, et le nom d'instrument",
+      "body": [
+        "Une courte section sur un nom particulier : « du nom de ce qui abonde, le nom de la terre est maf'ala, comme masba'a », « une terre aux nombreux lions », de sabu', « lion ». Le schème se fait à partir d'un nom, non d'un verbe : il nomme un lieu où cette chose se trouve en abondance.",
+        "D'un nom qui a une lettre ajoutée, « l'ajoutée est retranchée », comme maf'ât, « une terre aux nombreuses vipères », d'af'â, « vipère », dont la hamza est ajoutée. « Et muf'ila et af'alat ont été admis par eux en cela » : une terre peut aussi s'appeler muf'ila, et l'on peut dire d'elle af'alat, « elle s'est remplie de … ». Badr al-Dîn illustre cela par mudibba, « une terre aux nombreux lézards », et muqthi'a, « une terre aux nombreux concombres ».",
+        "« Ce qui n'est pas trilitère est exclu de ce schème » : un nom de quatre lettres radicales ne forme pas de maf'ala ; « et parfois un cas rare en est venu et a été accepté ».",
+        "La dernière section, sur l'instrument : « comme mif'al, et comme mif'âl et mif'ala, forme à partir du trilitère le nom de ce par quoi [l'acte] se fait » : le miqrâd, « les ciseaux », et le miftâh, « la clé », du Marâh. « Irréguliers sont al-muduqq », le pilon, mus'ut, mukhula, mudhun, munsul, et celui qui vient de nakhala, le tamis (notre lecture de ce dernier mot est douteuse) : des instruments avec une damma.",
+        "« Et qui entend [par eux] un instrument peut leur donner une kasra, et l'on ne fait pas cas de celui qui le blâme. » Le Marâh rapporte Sîbawayh sur les mêmes mots : ce sont des noms de récipients, non des instruments selon la règle. Les deux livres s'accordent donc : prononcés avec une damma, ce sont des noms fixés ; formés comme instruments, ils prennent la kasra de l'instrument."
+      ],
+      "terms": [
+        "la terre d'abondance : masba'a",
+        "le nom d'instrument : mif'al, mif'âl, mif'ala",
+        "la lettre ajoutée, retranchée dans maf'ât",
+        "les instruments irréguliers à damma, comme al-muduqq"
+      ],
+      "examples": [
+        "ka-mithli masba'atin : une terre aux nombreux lions",
+        "ka-maf'âtin : une terre aux nombreuses vipères, la lettre ajoutée retranchée",
+        "miqrâd, miftâh : des instruments sur mif'âl (le Marâh)",
+        "al-muduqq, mus'ut, mukhula : irréguliers, avec damma"
+      ],
+      "tasks": [
+        {
+          "prompt": "Qu'est-ce que masba'a, et de quoi est-il formé ?",
+          "answer": "Une terre aux nombreux lions : le schème maf'ala formé du nom sabu', « lion », pour un lieu où il abonde."
+        },
+        {
+          "prompt": "Pourquoi la terre aux nombreuses vipères est-elle maf'ât, et non formée de toutes les lettres d'af'â ?",
+          "answer": "Parce qu'af'â a une lettre ajoutée (sa hamza), et le poème dit que la lettre ajoutée est retranchée quand on forme ce schème à partir d'un tel nom."
+        },
+        {
+          "prompt": "Que dit le poème d'al-muduqq et de ses sœurs, et en quoi le Marâh s'accorde-t-il avec lui ?",
+          "answer": "Ce sont des instruments irréguliers avec une damma ; qui les entend comme instruments peut leur donner la kasra de l'instrument. Le Marâh rapporte Sîbawayh : ce sont des noms de récipients, non des instruments selon la règle."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le maf'ala d'abondance se forme à partir…",
+          "options": [
+            "d'un verbe",
+            "d'un masdar",
+            "d'un participe",
+            "d'un nom de ce qui abonde"
+          ],
+          "explanation": "Min ismi mâ kathura."
+        },
+        {
+          "prompt": "Masba'a veut dire…",
+          "options": [
+            "une terre aux nombreux lions",
+            "une tanière de lion",
+            "sept",
+            "un lieu de chasse"
+          ],
+          "explanation": "De sabu'."
+        },
+        {
+          "prompt": "D'un nom qui a une lettre ajoutée, la lettre ajoutée est…",
+          "options": [
+            "gardée",
+            "retranchée",
+            "redoublée",
+            "changée en mîm"
+          ],
+          "explanation": "Comme maf'ât d'af'â."
+        },
+        {
+          "prompt": "Forme-t-on maf'ala à partir de noms de quatre lettres ?",
+          "options": [
+            "Oui, toujours",
+            "Seulement des pluriels",
+            "Non, sauf de rares cas acceptés",
+            "Seulement des verbes"
+          ],
+          "explanation": "« Ce qui n'est pas trilitère est exclu de ce schème. »"
+        },
+        {
+          "prompt": "Le nom d'instrument du trilitère est sur…",
+          "options": [
+            "maf'al",
+            "muf'il",
+            "fâ'il",
+            "mif'al, mif'âl, mif'ala"
+          ],
+          "explanation": "Miqrâd, miftâh."
+        },
+        {
+          "prompt": "Al-muduqq, « le pilon », est…",
+          "options": [
+            "un instrument irrégulier à damma",
+            "le schème régulier",
+            "un nom de lieu",
+            "un masdar"
+          ],
+          "explanation": "Shadhdha al-muduqqu …"
+        },
+        {
+          "prompt": "Peut-on prononcer ces mots irréguliers avec une kasra ?",
+          "options": [
+            "Jamais",
+            "Oui, si on les entend comme instruments",
+            "Seulement en vers",
+            "Seulement au pluriel"
+          ],
+          "explanation": "« L'on ne fait pas cas de celui qui le blâme. »"
+        }
+      ],
+      "diagram": {
+        "caption": "La terre d'abondance et l'instrument (Lâmiyya, v. 104–109 ; miqrâd et miftâh d'après le Marâh)",
+        "labels": {
+          "The land of abundance and the instrument (Lāmiyya vv. 104–109; miqrāḍ and miftāḥ from the Marāḥ)": "La terre d'abondance et l'instrument (Lâmiyya, v. 104–109 ; miqrâd et miftâh d'après le Marâh)",
+          "Pattern": "Schème",
+          "Meaning": "Sens",
+          "Examples": "Exemples",
+          "mafʿala": "maf'ala",
+          "a land where a thing abounds": "une terre où une chose abonde",
+          "mafʿala, added letter cut off": "maf'ala, lettre ajoutée retranchée",
+          "the same": "de même",
+          "mufʿila; afʿalat": "muf'ila ; af'alat",
+          "allowed too": "admis aussi",
+          "mifʿal, mifʿāl, mifʿala": "mif'al, mif'âl, mif'ala",
+          "the instrument": "l'instrument",
+          "mufʿul, mufʿula": "muf'ul, muf'ula",
+          "irregular instruments": "instruments irréguliers"
+        }
+      },
+      "text": [
+        "Du nom de ce qui abonde, le nom de la terre est maf'ala, / comme masba'atin « une terre aux nombreux lions », et l'[lettre] ajoutée est retranchée\nde l'augmenté, comme maf'âtin « une terre aux nombreuses vipères » ; et muf'ila / et af'alat ont été admis par eux en cela ;\nce qui n'est pas trilitère est exclu de ce schème, / et parfois une [forme] rare en est venue et a été acceptée.",
+        "Comme mif'al, et comme mif'âl et mif'ala, / forme à partir du trilitère le nom de ce par quoi [l'acte] se fait.\nIrréguliers sont al-muduqqu « le pilon », mus'utun « la tabatière », mukhulatun « le pot à khôl », / mudhunun « le flacon d'huile », munsulun « l'épée » et ce qui vient de nakhalâ « il a tamisé » ;\net qui entend [par eux] un instrument peut / leur donner une kasra, et l'on ne fait pas cas de celui qui [le] blâme."
+      ]
+    },
+    "20": {
+      "title": "La conclusion, et le poème dans son ensemble",
+      "body": [
+        "« J'ai accompli ce que je visais, en arrivant au terme ; et louange à Allah, puisque ce que je visais est achevé. » La conclusion répond à l'ouverture : la louange d'Allah, puis la prière et le salut « sur le noble Messager, le sceau des messagers », sur « sa famille rayonnante et ses nobles compagnons », et sur quiconque les a suivis « sur le chemin des actions nobles ».",
+        "Puis deux prières. L'une demande « un beau voile qui couvre les faux pas », la requête du savant qu'Allah couvre les erreurs de son œuvre : une modestie que l'on trouve à la fin de beaucoup de poèmes de ce genre. L'autre demande un effort par lequel il sera « joyeux et réjoui, non renfrogné et craintif ». Le dernier mot, jadhilâ, « réjoui », termine le poème sur sa rime en lâm.",
+        "Regardez le plan en arrière. Le poème va du verbe aux noms qu'on en tire : les schèmes nus et la voyelle de leur mudâri', les schèmes augmentés, le mudâri', le passif et l'impératif ; puis les participes, les masdars, les noms de temps et de lieu, la terre d'abondance et l'instrument. Le Marâh est ordonné selon la sorte de racine (saine, géminée, hamzée, faible) ; la Lâmiyya selon la sorte de forme. Lus ensemble, ils répondent aux deux questions du sarf : quels sont les schèmes, et que fait chaque racine en eux.",
+        "Dans notre édition, la Lâmiyya est directement suivie du Matn al-Sullam, le poème d'al-Akhdarî sur la logique, enseigné sur The Mantiqi : le même volume rassemblait les mutûn les plus employés de plusieurs sciences.",
+        "Ce qui reste est ce que promettait l'ouverture : « celui qui garde à l'esprit les résumés peut saisir les détails ». Apprenez les vers par cœur ; les détails viendront avec chaque texte que vous lirez."
+      ],
+      "terms": [
+        "la conclusion d'un poème ou d'un livre",
+        "le voile sur les faux pas : la prière pour ses erreurs",
+        "le sceau des messagers",
+        "le texte de base, appris par cœur et lu avec un commentaire"
+      ],
+      "examples": [
+        "louange à Allah, puisque ce que je visais est achevé",
+        "un beau voile qui couvre les faux pas",
+        "joyeux et réjoui, non renfrogné et craintif"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelles deux choses le poète demande-t-il à Allah dans la conclusion ?",
+          "answer": "Un beau voile qui couvre ses faux pas (que ses erreurs soient couvertes), et un effort par lequel il sera joyeux et réjoui, non renfrogné et craintif."
+        },
+        {
+          "prompt": "Donnez l'ordre des chapitres du poème.",
+          "answer": "Le verbe nu et la voyelle de son mudâri' (avec le verbe concave devant -tu) ; le verbe augmenté ; le mudâri' ; le passif ; l'impératif ; les participes ; les masdars du trilitère et des verbes plus longs ; maf'al et maf'il ; la terre d'abondance ; l'instrument ; et la conclusion."
+        },
+        {
+          "prompt": "En quoi la Lâmiyya et le Marâh diffèrent-ils dans leur ordre ?",
+          "answer": "Le Marâh est ordonné selon la sorte de racine (saine, géminée, hamzée, mithâl, concave, défectueuse, lafîf), chacune prise à travers toutes ses formes ; la Lâmiyya est ordonnée selon la sorte de forme (schèmes, mudâri', passif, impératif, participes, masdars, noms de lieu, instrument)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "La conclusion commence par…",
+          "options": [
+            "« J'ai accompli ce que je visais »",
+            "« Louange à Allah, je ne Lui cherche pas de substitut »",
+            "« Le verbe : qui le maîtrise »",
+            "« Prends un poème »"
+          ],
+          "explanation": "Wa-qad wafaytu bi-mâ qad rumtu."
+        },
+        {
+          "prompt": "Le poète demande un voile sur…",
+          "options": [
+            "son livre",
+            "ses faux pas",
+            "sa famille",
+            "ses élèves"
+          ],
+          "explanation": "Sitran jamîlan 'alâ al-zallâti."
+        },
+        {
+          "prompt": "Le Prophète est appelé dans la conclusion…",
+          "options": [
+            "seulement le meilleur des créatures",
+            "le maître des Arabes",
+            "le sceau des messagers",
+            "le maître"
+          ],
+          "explanation": "Al-khâtim al-rusulâ."
+        },
+        {
+          "prompt": "Qu'est-ce qui vient en premier dans le poème ?",
+          "options": [
+            "Les masdars",
+            "Les participes",
+            "L'instrument",
+            "Le verbe"
+          ],
+          "explanation": "Du verbe aux noms qu'on en tire."
+        },
+        {
+          "prompt": "Quelle section vient en dernier avant la conclusion ?",
+          "options": [
+            "L'instrument",
+            "Les masdars",
+            "L'impératif",
+            "Le passif"
+          ],
+          "explanation": "Fasl fî binâ' al-âla."
+        },
+        {
+          "prompt": "La Lâmiyya est ordonnée selon…",
+          "options": [
+            "la sorte de racine",
+            "la sorte de forme",
+            "l'alphabet",
+            "la classe du mudâri'"
+          ],
+          "explanation": "Le Marâh est ordonné selon la sorte de racine."
+        },
+        {
+          "prompt": "Dans notre édition, la Lâmiyya est suivie…",
+          "options": [
+            "de l'Alfiyya",
+            "de l'Âjurrûmiyya",
+            "du Matn al-Sullam",
+            "du Marâh"
+          ],
+          "explanation": "Le volume rassemble des mutûn de plusieurs sciences."
+        }
+      ],
+      "diagram": {
+        "caption": "Le plan de la Lâmiyya",
+        "labels": {
+          "The plan of the Lāmiyya": "Le plan de la Lâmiyya",
+          "Nouns from the verb": "Noms tirés du verbe",
+          "Lāmiyyat al-afʿāl": "Lâmiyyat al-af'âl",
+          "The verb": "Le verbe",
+          "Bare patterns": "Schèmes nus",
+          "Augmented patterns": "Schèmes augmentés",
+          "The muḍāriʿ": "Le mudâri'",
+          "The passive": "Le passif",
+          "The command": "L'impératif",
+          "Participles": "Participes",
+          "Maṣdars": "Masdars",
+          "Mafʿal and mafʿil": "Maf'al et maf'il",
+          "Land of abundance": "Terre d'abondance",
+          "Instrument": "Instrument"
+        }
+      },
+      "text": [
+        "J'ai accompli ce que je visais, en arrivant au terme ; / et louange à Allah, puisque ce que je visais est achevé ;\npuis la prière, et un salut de paix qui l'accompagne, / sur le noble Messager, le sceau des messagers,",
+        "et sur sa famille rayonnante et ses nobles compagnons, et quiconque / les a suivis sur le chemin des actions nobles.\nJe demande à Allah, des vêtements de Sa miséricorde, / un beau voile qui couvre les faux pas ;\net qu'Il me facilite un effort par lequel je serai / joyeux et réjoui, non renfrogné et craintif."
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "lazim-mutaaddi",
+  "name": "Intransitive and transitive (lāzim, mutaʿaddī)",
+  "arabic": "اللَّازِمُ وَالمُتَعَدِّي",
+  "transliteration": "al-lāzim wa-l-mutaʿaddī",
+  "alsoKnownAs": [
+    "lazim",
+    "lāzim",
+    "mutaaddi",
+    "mutaʿaddī",
+    "transitive",
+    "intransitive",
+    "taʿdiya"
+  ],
+  "category": "verb",
+  "definition": "A verb is intransitive (lāzim) when its meaning stays with the doer and takes no direct object, transitive (mutaʿaddī) when it passes to an object.",
+  "body": [
+    "Karuma, 'to be noble', is lāzim; ḍaraba, 'to strike', is mutaʿaddī. An intransitive verb can be made transitive in three ways the ṣarf books list: by the pattern afʿala (karuma, akrama, 'to honour'), by the pattern faʿʿala, or by a particle of jarr (dhahaba bihi, 'he took him away'). The muṭāwaʿa patterns go the other way and make a transitive verb intransitive."
+  ],
+  "examples": [
+    {
+      "arabic": "كَرُمَ",
+      "text": "karuma, 'he was noble': lāzim."
+    },
+    {
+      "arabic": "أَكْرَمَ",
+      "text": "akrama, 'he honoured': made transitive by the pattern afʿala."
+    },
+    {
+      "arabic": "ضَرَبَ",
+      "text": "ḍaraba, 'he struck': mutaʿaddī."
+    }
+  ],
+  "related": [
+    "mutawaa",
+    "maful-bih",
+    "mazid"
+  ],
+  "books": [
+    "izzi"
+  ]
+}

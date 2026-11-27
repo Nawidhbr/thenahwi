@@ -1,0 +1,2522 @@
+{
+ "parts": {
+  "varied-forms": "De verschillende vormen",
+  "past-present": "De madi en de mudari'",
+  "masdar-participles": "De masdar en de deelwoorden",
+  "negations": "De ontkenningen",
+  "command-prohibition": "Gebod en verbod",
+  "derived-nouns": "De naamwoorden die van het werkwoord zijn afgeleid"
+ },
+ "lessons": {
+  "1": {
+   "title": "De verschillende vormen: het werkwoord en zijn familie",
+   "body": [
+    "Na de basmala geeft de Amthila in één adem veertien vormen van het werkwoord nasara, “helpen”: nasara, yansuru, nasran, fa-huwa nasirun, wa-dhaka mansurun, lam yansur, lamma yansur, ma yansuru, la yansuru, lan yansura, li-yansur, la yansur, unsur, la tansur. Dit zijn “de verschillende vormen” (al-amthila al-mukhtalifa): elk is van een andere soort. Elke soort komt later in het boek terug als een volledige tabel in al haar personen, “de regelmatige vormen” (al-amthila al-muttarida). In de Ottomaanse madrasa zegt het kind deze regel op tot hij loopt als een lied, en elk werkwoord dat hij daarna tegenkomt, zegt hij in dezelfde volgorde op.",
+    "De eerste vijf geven het werkwoord en zijn eerste naamwoorden, samengevoegd tot een kleine zin: “hij hielp, hij helpt, een helpen; dus hij is een helper, en die is geholpen”. Fa-huwa (“dus hij is”) en wa-dhaka (“en die”) horen niet bij de vormen. Ze maken van het opzeggen een zin en laten meteen zien dat nasir degene beschrijft die de handeling verricht en mansur degene die haar ondergaat.",
+    "Dan komen vijf ontkenningen: lam yansur, “hij hielp niet”; lamma yansur, “hij heeft nog niet geholpen”; ma yansuru, “hij helpt niet (nu)”; la yansuru, “hij zal niet helpen”; lan yansura, “hij zal nooit helpen”. Luister naar de uitgangen. Na lam en lamma eindigt het werkwoord op sukun, na ma en la houdt het zijn damma, na lan krijgt het een fatha. De sarf legt deze vormen vast; de nahw verklaart ze, als jazm en nasb na hun regeerders.",
+    "Als laatste komen vier vormen van gebod en verbod: li-yansur, “laat hem helpen”, en la yansur, “laat hem niet helpen”, gezegd over iemand die afwezig is (gha'ib); unsur, “help!”, en la tansur, “help niet!”, gezegd tegen wie aanwezig is (hadir), de aangesproken persoon.",
+    "Waarom nasara? Het is de eerste van de zes babs, de patronen van het kale drieletterige werkwoord, in de volgorde van de boeken van de sarf: fa'ala, yaf'ulu. Eén werkwoord wordt volmaakt geleerd, en de andere volgen het naar analogie (qiyas). Dezelfde regel kan voor elk gaaf werkwoord gemaakt worden: kataba, yaktubu, fa-huwa katibun wa-dhaka maktubun, lam yaktub, lan yaktuba, uktub."
+   ],
+   "terms": [
+    "de verschillende vormen: één vorm van elke soort",
+    "de regelmatige vormen: één soort in al haar personen",
+    "een van de zes patronen van het kale drieletterige werkwoord",
+    "de afwezige: de derde persoon",
+    "de aanwezige: de tweede persoon",
+    "analogie: andere werkwoorden naar het model vormen"
+   ],
+   "examples": [
+    "nasara, yansuru, nasran, fa-huwa nasirun, wa-dhaka mansurun: het werkwoord en zijn eerste naamwoorden, zoals de madrasa ze opzegt",
+    "lam yansur, “hij hielp niet”, met sukun; lan yansura, “hij zal nooit helpen”, met fatha",
+    "kataba, yaktubu, fa-huwa katibun, wa-dhaka maktubun: hetzelfde opzeggen op een ander werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zeg de veertien verschillende vormen van nasara op in de volgorde van het boek en geef de betekenis van elk.",
+     "answer": "Nasara (hij hielp), yansuru (hij helpt), nasran (een helpen), fa-huwa nasirun (dus hij is een helper), wa-dhaka mansurun (en die is geholpen), lam yansur (hij hielp niet), lamma yansur (hij heeft nog niet geholpen), ma yansuru (hij helpt niet), la yansuru (hij zal niet helpen), lan yansura (hij zal nooit helpen), li-yansur (laat hem helpen), la yansur (laat hem niet helpen), unsur (help!), la tansur (help niet!)."
+    },
+    {
+     "prompt": "Maak de eerste regel van het opzeggen voor daraba, “slaan” (zijn masdar is darb).",
+     "answer": "Daraba, yadribu, darban, fa-huwa daribun, wa-dhaka madrubun."
+    },
+    {
+     "prompt": "Geef de ontkenningen met lam, lan en ma voor kataba, “schrijven”, en zeg welke de uitgang van yaktubu veranderen.",
+     "answer": "Lam yaktub (de uitgang wordt een sukun), lan yaktuba (ze wordt een fatha), ma yaktubu (geen verandering)."
+    },
+    {
+     "prompt": "Welke van de veertien worden gezegd over iemand die afwezig is, en welke tegen de aangesproken persoon?",
+     "answer": "Li-yansur en la yansur gaan over de afwezige (gha'ib). Unsur en la tansur zijn tegen de aanwezige (hadir). De andere in de regel gaan allemaal over de afwezige man, de eerste persoon van elke tabel."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat zijn “de verschillende vormen” (al-amthila al-mukhtalifa)?",
+     "options": [
+      "Alle veertien personen van de madi",
+      "Eén vorm van elke soort, in één adem opgezegd",
+      "De zwakke werkwoorden",
+      "Alleen de vormen van het passief"
+     ],
+     "explanation": "Elke soort verschijnt hier één keer; de regelmatige vormen geven daarna elke soort in al haar personen."
+    },
+    {
+     "prompt": "Wat betekent nasara?",
+     "options": [
+      "Hij schreef",
+      "Hij sloeg",
+      "Hij hielp",
+      "Hij opende"
+     ],
+     "explanation": "Het hele boek is gebouwd op dit ene werkwoord, “helpen”."
+    },
+    {
+     "prompt": "Wat zijn fa-huwa en wa-dhaka in fa-huwa nasirun wa-dhaka mansurun?",
+     "options": [
+      "Nog twee vormen van het werkwoord",
+      "Partikels van de jazm",
+      "De masdar",
+      "Woorden die van het opzeggen een zin maken, geen vormen"
+     ],
+     "explanation": "Ze laten zien dat nasir de doener is en mansur wie de handeling ondergaat."
+    },
+    {
+     "prompt": "Welke ontkenning betekent “hij heeft nog niet geholpen”?",
+     "options": [
+      "Lamma yansur",
+      "Lam yansur",
+      "La yansuru",
+      "Ma yansuru"
+     ],
+     "explanation": "Lamma ontkent tot nu, terwijl de handeling nog verwacht wordt."
+    },
+    {
+     "prompt": "Na welk partikel krijgt yansuru een fatha?",
+     "options": [
+      "Lam",
+      "Lan",
+      "Ma",
+      "La (ontkenning van de toekomst)"
+     ],
+     "explanation": "Lan yansura: het werkwoord staat in nasb."
+    },
+    {
+     "prompt": "Unsur, “help!”, wordt gezegd tegen…",
+     "options": [
+      "iemand die afwezig is",
+      "jezelf",
+      "de aanwezige (hadir)",
+      "alleen God"
+     ],
+     "explanation": "Het gebod aan de aanwezige; li-yansur is het gebod aan de afwezige."
+    },
+    {
+     "prompt": "Waarom is nasara het modelwerkwoord?",
+     "options": [
+      "Het is het oudste werkwoord in het Arabisch",
+      "Het heeft geen masdar",
+      "Het is een zwak werkwoord",
+      "Het is de eerste van de zes babs van het kale werkwoord"
+     ],
+     "explanation": "Fa'ala, yaf'ulu staat in de boeken van de sarf bovenaan de babs; de andere volgen naar analogie."
+    }
+   ],
+   "diagram": {
+    "caption": "De veertien verschillende vormen van het werkwoord, met hun namen",
+    "labels": {
+     "Form": "Vorm",
+     "Name": "Naam",
+     "Meaning": "Betekenis",
+     "the past": "de madi",
+     "he helped": "hij hielp",
+     "the present (muḍāriʿ)": "de mudari'",
+     "he helps": "hij helpt",
+     "the maṣdar": "de masdar",
+     "a helping": "een helpen",
+     "the active participle": "het actief deelwoord",
+     "a helper": "een helper",
+     "the passive participle": "het passief deelwoord",
+     "helped": "geholpen",
+     "the absolute denial (jaḥd muṭlaq)": "de absolute ontkenning (jahd mutlaq)",
+     "he did not help": "hij hielp niet",
+     "the comprehensive denial (jaḥd mustaghriq)": "de alomvattende ontkenning (jahd mustaghriq)",
+     "he has not yet helped": "hij heeft nog niet geholpen",
+     "the negation of the present": "de ontkenning van het heden",
+     "he is not helping": "hij helpt niet",
+     "the negation of the future": "de ontkenning van de toekomst",
+     "he will not help": "hij zal niet helpen",
+     "the emphatic negation of the future": "de nadrukkelijke ontkenning van de toekomst",
+     "he will never help": "hij zal nooit helpen",
+     "the command to the absent": "het gebod aan de afwezige",
+     "let him help": "laat hem helpen",
+     "the prohibition to the absent": "het verbod aan de afwezige",
+     "let him not help": "laat hem niet helpen",
+     "the command to the one present": "het gebod aan de aanwezige",
+     "help!": "help!",
+     "the prohibition to the one present": "het verbod aan de aanwezige",
+     "do not help!": "help niet!"
+    }
+   }
+  },
+  "2": {
+   "title": "De verschillende vormen: de naamwoorden en de verwondering",
+   "body": [
+    "De tweede helft van de verschillende vormen geeft tien woorden uit dezelfde wortel, op de laatste twee na allemaal naamwoorden: mansar, minsar, nasra, nisra, nusayr, nasri, nassar, ansar, ma ansarahu en ansir bihi. Elk is een patroon (wazn) dat de sarf op een wortel kan leggen, en de madrasa leert het één keer, op nasara, naar zijn gewicht op fa'ala: maf'al, mif'al, fa'la, fi'la, fu'ayl, fa'li, fa''al, af'al, ma af'alahu, af'il bihi.",
+    "De eerste vier noemen de handeling op een of andere manier. Mansar (maf'al) is de tijd of de plaats van het helpen, en ook een masdar met een mim, “een helpen”. Minsar (mif'al) is het werktuig, “iets om mee te helpen”. Nasra (fa'la) is één enkele handeling, “één hulp”; nisra (fi'la) de wijze, “een manier van helpen”. Let op de paren: mansar en minsar, nasra en nisra, verschillen maar in één klinker, en die klinker is het hele verschil.",
+    "De volgende vier beschrijven. Nusayr (fu'ayl) is het verkleinwoord, “een kleine hulp”. Nasri, met de uitgang -iyy, is “betrekking hebbend op hulp”, de nisba, zoals Makki “uit Makka” is. Nassar (fa''al) is de intensieve vorm, “een grote helper”, iemand die veel helpt. Ansar (af'al) is de overtreffende vorm, “behulpzamer”, “het behulpzaamst”.",
+    "De laatste twee zijn de twee werkwoorden van verwondering (ta'ajjub): ma ansarahu, “wat is hij behulpzaam!”, en ansir bihi, dat hetzelfde betekent. Het tweede lijkt op een gebod, maar is het niet; het drukt iemands verwondering uit. In de druk is het met wa- aan de regel verbonden, als wa-ansir bihi.",
+    "Deze patronen worden voor nasara volledig gegeven omdat het boek patronen onderwijst. Of de Arabieren van een bepaald werkwoord werkelijk een verkleinwoord of een werktuig gebruikten, is een vraag voor het woordenboek, niet voor de Amthila. Het vierde deel van het boek, de afgeleide naamwoorden, geeft elk van deze woorden een eigen tabel."
+   ],
+   "terms": [
+    "het patroon, gewogen op fa'ala",
+    "het naamwoord van het werktuig: mif'al",
+    "het verkleinwoord: fu'ayl",
+    "de nisba op -iyy",
+    "de overtreffende vorm: af'al, meer, meest",
+    "het werkwoord van verwondering: ma af'alahu, af'il bihi"
+   ],
+   "examples": [
+    "mansarun, de tijd of plaats van het helpen; minsarun, het werktuig: één klinker verschil",
+    "nasratun, één keer helpen; nisratun, een manier van helpen",
+    "ma ansarahu en wa-ansir bihi: “wat is hij behulpzaam!”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het patroon op fa'ala en de naam van elk: nusayr, nassar, minsar, nasri, ansar.",
+     "answer": "Nusayr: fu'ayl, het verkleinwoord. Nassar: fa''al, de intensieve vorm. Minsar: mif'al, het werktuig. Nasri: fa'li, de nisba. Ansar: af'al, de overtreffende vorm."
+    },
+    {
+     "prompt": "Mansar en minsar, nasra en nisra: wat betekent elk, en wat alleen onderscheidt ze?",
+     "answer": "Mansar: de tijd of plaats van het helpen (of de masdar mimi); minsar: het werktuig. Nasra: één keer helpen; nisra: een manier van helpen. Alleen de eerste klinker onderscheidt ze: fatha of kasra."
+    },
+    {
+     "prompt": "Verdeel de tien in: woorden die de handeling noemen, woorden die beschrijven, en werkwoorden van verwondering.",
+     "answer": "De handeling noemend: mansar, minsar, nasra, nisra. Beschrijvend: nusayr, nasri, nassar, ansar. Werkwoorden van verwondering: ma ansarahu, ansir bihi."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is minsar?",
+     "options": [
+      "Het naamwoord van plaats",
+      "Het verkleinwoord",
+      "Het naamwoord van het werktuig",
+      "De overtreffende vorm"
+     ],
+     "explanation": "Mif'al: iets om mee te helpen. Mansar, met fatha, is de tijd of plaats."
+    },
+    {
+     "prompt": "Nasra en nisra verschillen in…",
+     "options": [
+      "hun wortel",
+      "hun aantal letters",
+      "niets",
+      "alleen hun eerste klinker: één keer tegenover een wijze"
+     ],
+     "explanation": "Fa'la is één keer (marra); fi'la de wijze (naw')."
+    },
+    {
+     "prompt": "Welke vorm betekent “een grote helper”, iemand die veel helpt?",
+     "options": [
+      "Nassar",
+      "Nusayr",
+      "Nasri",
+      "Ansar"
+     ],
+     "explanation": "Fa''al is de intensieve vorm (mubalagha)."
+    },
+    {
+     "prompt": "Wat drukt ma ansarahu uit?",
+     "options": [
+      "Ontkenning: “hij hielp niet”",
+      "Verwondering: “wat is hij behulpzaam!”",
+      "Een vraag: “wat hielp hem?”",
+      "Een gebod"
+     ],
+     "explanation": "Het is het eerste werkwoord van verwondering (ta'ajjub)."
+    },
+    {
+     "prompt": "Ansir bihi lijkt op een gebod. Wat is het?",
+     "options": [
+      "Een gebod om hem te helpen",
+      "Een verbod",
+      "Het tweede werkwoord van verwondering",
+      "Een masdar"
+     ],
+     "explanation": "Zijn vorm is die van een gebod; zijn betekenis is verwondering."
+    },
+    {
+     "prompt": "Wat is het patroon van nusayr?",
+     "options": [
+      "Fa'il (met lange i)",
+      "Fa'il (met lange a)",
+      "Maf'ul",
+      "Fu'ayl"
+     ],
+     "explanation": "Fu'ayl is het patroon van het verkleinwoord van een drieletterig naamwoord."
+    },
+    {
+     "prompt": "Nasri, “betrekking hebbend op hulp”, wordt gemaakt met…",
+     "options": [
+      "de uitgang -iyy (de nisba)",
+      "een mim voor de wortel",
+      "een verdubbelde 'ayn",
+      "een alif na de eerste letter"
+     ],
+     "explanation": "Zoals Makki “uit Makka” is."
+    }
+   ],
+   "diagram": {
+    "caption": "De tien naamwoorden en werkwoorden van de tweede regel",
+    "labels": {
+     "Form": "Vorm",
+     "Pattern": "Patroon",
+     "Name": "Naam",
+     "Meaning": "Betekenis",
+     "time, place; maṣdar mīmī": "tijd, plaats; masdar mimi",
+     "a time or place of helping": "een tijd of plaats van helpen",
+     "instrument": "werktuig",
+     "a thing to help with": "iets om mee te helpen",
+     "one act (marra)": "één keer (marra)",
+     "one help": "één hulp",
+     "manner (nawʿ)": "wijze (naw')",
+     "a way of helping": "een manier van helpen",
+     "diminutive": "verkleinwoord",
+     "a little help": "een kleine hulp",
+     "relative adjective": "nisba",
+     "related to help": "betrekking hebbend op hulp",
+     "intensive": "intensieve vorm",
+     "a great helper": "een grote helper",
+     "elative": "overtreffende vorm",
+     "more helpful": "behulpzamer",
+     "first verb of wonder": "eerste werkwoord van verwondering",
+     "how helpful he is!": "wat is hij behulpzaam!",
+     "second verb of wonder": "tweede werkwoord van verwondering"
+    }
+   }
+  },
+  "3": {
+   "title": "De actieve madi in zijn veertien personen",
+   "body": [
+    "Nu beginnen de regelmatige vormen, en de eerste is de actieve madi (al-madi al-ma'lum) in zijn veertien personen (siyagh). Elke tabel van het boek houdt dezelfde volgorde aan: drie vormen van de afwezige man (één, twee, velen), drie van de afwezige vrouw, drie van de aangesproken man, drie van de aangesproken vrouw, en twee van de spreker, alleen en met anderen: 3 + 3 + 3 + 3 + 2 = 14.",
+    "De madrasa zegt elke vorm op met zijn naam: nasara, één afwezige man (mufrad mudhakkar gha'ib); nasara [met alif], twee afwezige mannen; nasaru, veel afwezige mannen; nasarat, één afwezige vrouw; nasarata, twee vrouwen; nasarna, veel vrouwen; nasarta, één aangesproken man; nasartuma, twee aangesproken mannen; nasartum, veel mannen; nasarti, één aangesproken vrouw; nasartuma, twee vrouwen; nasartunna, veel vrouwen; nasartu, de spreker alleen (al-mutakallim wahdahu); nasarna [met alif], de spreker met anderen (al-mutakallim ma'a al-ghayr). In de druk geeft het Turks onder elke vorm precies deze naam en zijn betekenis.",
+    "Twee van de veertien zijn hetzelfde woord: nasartuma dient voor twee aangesproken mannen en twee aangesproken vrouwen. En nasarna [met alif] is “wij” voor twee of voor velen, mannen of vrouwen. De tabel heeft dus veertien plaatsen maar dertien verschillende woorden, en de student leert te zeggen op welke plaats een vorm staat.",
+    "Wat verandert, is alleen het eind. De stam nasar- blijft, en de uitgangen zijn de voornaamwoorden van de fa'il die je in de nahw tegenkomt: -a, -u, -na, -ta, -tuma, -tum, -ti, -tunna, -tu, -na [met alif] (de -at van nasarat is het teken van het vrouwelijke, geen voornaamwoord). Voor een uitgang die met een medeklinker begint, krijgt de laatste letter van de stam een sukun: nasar-ta, nasar-tu, nasar-na [met alif].",
+    "Dezelfde uitgangen dienen voor elk gaaf werkwoord. Alleen de klinker van de stam verschilt met de bab: nasara, daraba en fataha hebben fa'ala; sami'a heeft fa'ila; karuma heeft fa'ula. Sami'tu, “ik hoorde”, en karumtu, “ik was edel”, zijn precies zo gebouwd als nasartu."
+   ],
+   "terms": [
+    "de actieve madi",
+    "een vorm: een van de veertien personen",
+    "één afwezige man: nasara",
+    "de spreker alleen: nasartu",
+    "de spreker met anderen: nasarna"
+   ],
+   "examples": [
+    "nasara, “hij hielp”; nasartu, “ik hielp”: de eerste en de voorlaatste van de veertien",
+    "sami'a, “hij hoorde”; sami'tu, “ik hoorde”: de bab van fa'ila, dezelfde uitgangen",
+    "karuma, “hij was edel”; karumtu, “ik was edel”: de bab van fa'ula"
+   ],
+   "tasks": [
+    {
+     "prompt": "Vervoeg daraba, “slaan”, in de actieve madi in de veertien personen, in de volgorde van het boek.",
+     "answer": "Daraba, daraba [met alif], darabu, darabat, darabata, darabna, darabta, darabtuma, darabtum, darabti, darabtuma, darabtunna, darabtu, darabna [met alif]."
+    },
+    {
+     "prompt": "Noem de persoon van elke vorm: nasaru, nasartunna, nasarata, nasarna [met alif], nasarti.",
+     "answer": "Nasaru: veel afwezige mannen. Nasartunna: veel aangesproken vrouwen. Nasarata: twee afwezige vrouwen. Nasarna [met alif]: de spreker met anderen. Nasarti: één aangesproken vrouw."
+    },
+    {
+     "prompt": "Geef fataha, “openen”, voor: zij, jij (een vrouw), ik.",
+     "answer": "Fatahat, fatahti, fatahtu."
+    },
+    {
+     "prompt": "Waarom zijn er veertien plaatsen in de tabel maar maar dertien verschillende woorden?",
+     "answer": "Nasartuma wordt zowel voor twee aangesproken mannen als voor twee aangesproken vrouwen gebruikt. (Nasarna [met alif] dient ook voor de spreker met één ander en met velen, maar vult maar één plaats in de tabel.)"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel personen heeft elke tabel van het boek?",
+     "options": [
+      "Twaalf",
+      "Dertien",
+      "Zes",
+      "Veertien"
+     ],
+     "explanation": "Elk drie voor de afwezige man en vrouw en de aangesproken man en vrouw, en twee voor de spreker."
+    },
+    {
+     "prompt": "Nasartunna is…",
+     "options": [
+      "veel aangesproken vrouwen",
+      "veel afwezige vrouwen",
+      "twee aangesproken vrouwen",
+      "de spreker met anderen"
+     ],
+     "explanation": "-tunna is het voornaamwoord van de aangesproken vrouwen."
+    },
+    {
+     "prompt": "Welke vorm dient voor twee personen van de tabel?",
+     "options": [
+      "Nasara [met alif]",
+      "Nasartuma",
+      "Nasartum",
+      "Nasarat"
+     ],
+     "explanation": "Twee aangesproken mannen en twee aangesproken vrouwen zijn allebei nasartuma."
+    },
+    {
+     "prompt": "Wat is de -at in nasarat, “zij hielp”?",
+     "options": [
+      "Het voornaamwoord van de fa'il",
+      "De maf'ul bihi",
+      "Het teken van het vrouwelijke, geen voornaamwoord",
+      "Het teken van het tweevoud"
+     ],
+     "explanation": "De fa'il van nasarat is een verborgen “zij”."
+    },
+    {
+     "prompt": "Wat noemt al-mutakallim ma'a al-ghayr?",
+     "options": [
+      "De spreker alleen: nasartu",
+      "De aangesproken man",
+      "De afwezige",
+      "De spreker met anderen: nasarna [met alif]"
+     ],
+     "explanation": "“De spreker met iemand anders”: wij."
+    },
+    {
+     "prompt": "Wat verandert er in de veertien vormen van de madi?",
+     "options": [
+      "Alleen de uitgang",
+      "De eerste letter",
+      "De wortel",
+      "De klinker van de eerste letter"
+     ],
+     "explanation": "De stam nasar- blijft; de uitgangen zijn de voornaamwoorden van de fa'il."
+    },
+    {
+     "prompt": "Sami'tu, “ik hoorde”, is gebouwd…",
+     "options": [
+      "met een andere uitgang voor “ik”",
+      "zoals nasartu, met de stamklinker van zijn bab",
+      "zoals het passief",
+      "met een voorvoegsel"
+     ],
+     "explanation": "De uitgangen zijn voor elk gaaf werkwoord dezelfde; alleen de klinker van de stam volgt de bab."
+    }
+   ],
+   "diagram": {
+    "caption": "De actieve madi van nasara (al-Amthila, pp. 237–238)",
+    "labels": {
+     "Person": "Persoon",
+     "One": "Eén",
+     "Two": "Twee",
+     "Many": "Meer",
+     "absent, man": "afwezig, man",
+     "absent, woman": "afwezig, vrouw",
+     "addressed, man": "aangesproken, man",
+     "addressed, woman": "aangesproken, vrouw",
+     "the speaker": "de spreker"
+    }
+   }
+  },
+  "4": {
+   "title": "De passieve madi",
+   "body": [
+    "De tweede tabel is de passieve madi (al-madi al-majhul, “de madi waarvan de doener onbekend is”): nusira, “hij werd geholpen”, tot en met nusirna, “wij werden geholpen”. De veertien plaatsen en hun volgorde zijn die van het actief; alleen de klinkers van de stam veranderen.",
+    "De regel is kort: de eerste letter krijgt een damma en de voorlaatste letter een kasra. Nasara wordt nusira. Elke bab komt er hetzelfde uit: daraba wordt duriba, fataha futiha, sami'a sumi'a, kataba kutiba. Wat de klinker van het actief ook is, de passieve madi van het kale werkwoord is altijd fu'ila. Bij het vierletterige werkwoord geeft dezelfde regel akrama, ukrima.",
+    "De uitgangen zijn dezelfde als in het actief, maar ze staan nu voor wie de handeling ondergaat: nusirtu is “ik werd geholpen”, nusiru “zij werden geholpen”. De nahw noemt dit naamwoord of voornaamwoord de plaatsvervanger van de fa'il (na'ib al-fa'il), omdat het de plaats en de raf' van de doener inneemt.",
+    "Alleen een werkwoord dat een maf'ul bihi neemt, heeft een passief met alle veertien personen. De boeken van de sarf geven de passieve tabellen voor nasara omdat nasara een maf'ul bihi neemt en zo het hele patroon laat zien. Een werkwoord als karuma, “edel zijn”, neemt geen maf'ul bihi en heeft zo'n tabel niet.",
+    "De valkuil zit in het schrift. Zonder klinkers kan نصرت nasartu, nasarta, nasarti, nasarat zijn, “ik, jij, jij (v.), zij hielp”, of nusirtu, nusirta, nusirti, nusirat, dezelfde personen “werden geholpen”: acht lezingen van vier letters. Alleen de klinkers beslissen, en de student die de Amthila hardop opzegt, leert ze te horen."
+   ],
+   "terms": [
+    "de passieve madi: zijn doener onbekend",
+    "het actief (zijn doener bekend)",
+    "de plaatsvervanger van de fa'il: het onderwerp van een passief werkwoord",
+    "overgankelijk: een werkwoord dat een maf'ul bihi neemt"
+   ],
+   "examples": [
+    "nusira, “hij werd geholpen”; nusirtu, “ik werd geholpen”",
+    "duriba, futiha, sumi'a: elke bab geeft fu'ila in de passieve madi",
+    "ukrima, “hij werd geëerd”: dezelfde regel bij het vierletterige werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de passieve madi van daraba voor: hij, zij (vrouw), zij (mannen), ik, wij.",
+     "answer": "Duriba, duribat, duribu, duribtu, duribna [met alif]."
+    },
+    {
+     "prompt": "Zet in het passief en vertaal: kataba, nasartu, sami'u.",
+     "answer": "Kutiba, “het werd geschreven”; nusirtu, “ik werd geholpen”; sumi'u, “zij werden gehoord”."
+    },
+    {
+     "prompt": "Geef de regel voor de passieve madi in één zin, en laat hem zien op nasara.",
+     "answer": "De eerste letter krijgt een damma en de voorlaatste letter een kasra: nasara → nusira."
+    },
+    {
+     "prompt": "Lees نصرت op alle manieren die de twee tabellen van de madi in de Amthila toestaan, met hun betekenis.",
+     "answer": "Actief: nasartu (ik hielp), nasarta (jij, m., hielp), nasarti (jij, v., hielp), nasarat (zij hielp). Passief: nusirtu (ik werd geholpen), nusirta (jij, m., werd geholpen), nusirti (jij, v., werd geholpen), nusirat (zij werd geholpen)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is de regel van de passieve madi?",
+     "options": [
+      "Eerste letter damma, voorlaatste letter kasra",
+      "Eerste letter fatha, laatste letter sukun",
+      "Eerste letter kasra, voorlaatste letter fatha",
+      "Er komt een voorvoegsel ta- bij"
+     ],
+     "explanation": "Nasara → nusira."
+    },
+    {
+     "prompt": "Wat is de passieve madi van fataha?",
+     "options": [
+      "Fataha",
+      "Futiha",
+      "Yuftahu",
+      "Fatuha"
+     ],
+     "explanation": "Elke bab geeft fu'ila in de passieve madi."
+    },
+    {
+     "prompt": "Nusiru betekent…",
+     "options": [
+      "“zij hielpen”",
+      "“wij werden geholpen”",
+      "“zij werden geholpen”",
+      "“help!”"
+     ],
+     "explanation": "Het passief met de uitgang -u van de afwezige mannen."
+    },
+    {
+     "prompt": "Waarom heeft karuma, “edel zijn”, geen passieve tabel?",
+     "options": [
+      "Het is een zwak werkwoord",
+      "Het heeft geen madi",
+      "Het is een naamwoord",
+      "Het neemt geen maf'ul bihi"
+     ],
+     "explanation": "Alleen een werkwoord met een maf'ul bihi heeft een volledig passief."
+    },
+    {
+     "prompt": "Hoe noemt de nahw het onderwerp van een passief werkwoord?",
+     "options": [
+      "De plaatsvervanger van de fa'il (na'ib al-fa'il)",
+      "De fa'il",
+      "De maf'ul bihi",
+      "De mubtada'"
+     ],
+     "explanation": "Het neemt de plaats en de raf' van de doener in."
+    },
+    {
+     "prompt": "Welk van deze is passief?",
+     "options": [
+      "Sami'a",
+      "Sumi'a",
+      "Sami'tu",
+      "Sami'u"
+     ],
+     "explanation": "Damma op de eerste letter en kasra op de voorlaatste."
+    },
+    {
+     "prompt": "Hoeveel lezingen heeft نصرت zonder klinkers in de twee tabellen van de madi?",
+     "options": [
+      "Twee",
+      "Vier",
+      "Acht",
+      "Veertien"
+     ],
+     "explanation": "Vier personen in het actief en dezelfde vier in het passief."
+    }
+   ],
+   "diagram": {
+    "caption": "Actieve madi en passieve madi",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "naṣara (faʿala yafʿulu)": "nasara (fa'ala yaf'ulu)",
+     "ḍaraba (faʿala yafʿilu)": "daraba (fa'ala yaf'ilu)",
+     "fataḥa (faʿala yafʿalu)": "fataha (fa'ala yaf'alu)",
+     "samiʿa (faʿila yafʿalu)": "sami'a (fa'ila yaf'alu)",
+     "kataba": "kataba",
+     "akrama (afʿala)": "akrama (af'ala)"
+    }
+   }
+  },
+  "5": {
+   "title": "De actieve mudari'",
+   "body": [
+    "De derde tabel is de actieve mudari' (al-mudari' al-ma'lum), “hij helpt” of “hij zal helpen”: yansuru tot en met nansuru, op dezelfde veertien plaatsen. Anders dan de madi verandert de mudari' aan beide kanten: een voorvoegsel vooraan en, bij sommige personen, een uitgang.",
+    "De voorvoegsels zijn de vier letters van anaytu. Ya- voor de afwezige man in alle drie de getallen, en voor de afwezige vrouwen (yansurna). Ta- voor de afwezige vrouw en de twee afwezige vrouwen, en voor elke aangesproken persoon. A- voor “ik” (ansuru), na- voor “wij” (nansuru). Tansuru is dus zowel “zij helpt” als “jij (een man) helpt”; alleen het verband zegt welke.",
+    "De uitgangen: -u voor één persoon (yansuru, tansuru, ansuru, nansuru); -ani voor twee (yansurani, tansurani); -una voor mannen in het meervoud (yansuruna, tansuruna); -na voor vrouwen in het meervoud (yansurna, tansurna); en -ina voor de aangesproken vrouw (tansurina). De vormen op -ani, -una en -ina zijn de vijf werkwoorden van de nahw, die hun nun houden of verliezen; de vormen op -na hebben een vaste uitgang.",
+    "De tabel herhaalt zichzelf: tansuru vult twee plaatsen, de afwezige vrouw en de aangesproken man, en tansurani drie, de twee afwezige vrouwen, de twee aangesproken mannen en de twee aangesproken vrouwen. De veertien plaatsen bevatten dus elf verschillende woorden. Leer de tabel als vijf rijen van drie, zoals in het schema hieronder, en de herhalingen worden makkelijk te zien.",
+    "De klinker van de tweede stamletter, de 'ayn, hoort bij de bab, niet bij de persoon: yansuru (u), yadribu (i), yaftahu (a), yasma'u (a), yakrumu (u). Het is het enige wat een woordenboek voor elk werkwoord geeft, en de boeken van de sarf noemen de babs ernaar: nasara, yansuru; daraba, yadribu; enzovoort."
+   ],
+   "terms": [
+    "de actieve mudari'",
+    "de voorvoegsels van de mudari': anaytu",
+    "de vijf werkwoorden: de vormen op -ani, -una, -ina",
+    "de tweede stamletter, waarvan de klinker de bab aangeeft"
+   ],
+   "examples": [
+    "yansuru, ansuru, nansuru, tansuru: de vier letters van anaytu",
+    "tansurina, “jij (een vrouw) helpt”: het voorvoegsel ta- en de uitgang -ina",
+    "yadribu, yaftahu, yasma'u: de klinker van de 'ayn volgt de bab"
+   ],
+   "tasks": [
+    {
+     "prompt": "Vervoeg yadribu, “hij slaat”, in de actieve mudari' in de veertien personen.",
+     "answer": "Yadribu, yadribani, yadribuna, tadribu, tadribani, yadribna, tadribu, tadribani, tadribuna, tadribina, tadribani, tadribna, adribu, nadribu."
+    },
+    {
+     "prompt": "Geef elke plaats in de tabel die elke vorm kan vullen: tansuru; tansurani; yansurna.",
+     "answer": "Tansuru: één afwezige vrouw, één aangesproken man. Tansurani: twee afwezige vrouwen, twee aangesproken mannen, twee aangesproken vrouwen. Yansurna: veel afwezige vrouwen."
+    },
+    {
+     "prompt": "Geef de mudari' van sami'a, “horen”, voor: hij, zij (vrouw), jij (een vrouw), wij.",
+     "answer": "Yasma'u, tasma'u, tasma'ina, nasma'u."
+    },
+    {
+     "prompt": "Welke vormen van de tabel zijn de vijf werkwoorden, en welke hebben een vaste uitgang?",
+     "answer": "De vijf werkwoorden: yansurani, tansurani, yansuruna, tansuruna, tansurina. Vast: yansurna en tansurna, met de nun van de vrouwen."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welk voorvoegsel geeft in de mudari' “wij” aan?",
+     "options": [
+      "A-",
+      "Na-",
+      "Ya-",
+      "Ta-"
+     ],
+     "explanation": "Nansuru, “wij helpen”."
+    },
+    {
+     "prompt": "Tansuru kan betekenen…",
+     "options": [
+      "alleen “jij helpt”",
+      "alleen “zij helpt”",
+      "“zij helpt” of “jij (een man) helpt”",
+      "“zij helpen”"
+     ],
+     "explanation": "Ta- dient de afwezige vrouw en de aangesproken man."
+    },
+    {
+     "prompt": "Yansurna betekent…",
+     "options": [
+      "“jullie (vrouwen) helpen”",
+      "“zij (mannen) helpen”",
+      "“zij tweeën helpen”",
+      "“zij (vrouwen) helpen”"
+     ],
+     "explanation": "Ya- met de uitgang -na: veel afwezige vrouwen."
+    },
+    {
+     "prompt": "Wat onderscheidt de babs in de mudari'?",
+     "options": [
+      "De klinker van de 'ayn",
+      "Het voorvoegsel",
+      "De uitgang",
+      "Het aantal letters"
+     ],
+     "explanation": "Yansuru, yadribu, yaftahu: u, i, a."
+    },
+    {
+     "prompt": "Hoeveel plaatsen van de tabel vult tansurani?",
+     "options": [
+      "Eén",
+      "Drie",
+      "Twee",
+      "Vier"
+     ],
+     "explanation": "Twee afwezige vrouwen, twee aangesproken mannen, twee aangesproken vrouwen."
+    },
+    {
+     "prompt": "Welke is de vorm voor “jij (een vrouw) helpt”?",
+     "options": [
+      "Tansuru",
+      "Tansurna",
+      "Tansurina",
+      "Yansurna"
+     ],
+     "explanation": "Ta- met de uitgang -ina."
+    },
+    {
+     "prompt": "Welk van deze is geen van de vijf werkwoorden?",
+     "options": [
+      "Yansurani",
+      "Tansuruna",
+      "Tansurina",
+      "Yansurna"
+     ],
+     "explanation": "Yansurna heeft de nun van de vrouwen en een vaste uitgang."
+    }
+   ],
+   "diagram": {
+    "caption": "De actieve mudari' van nasara (al-Amthila, pp. 238–239)",
+    "labels": {
+     "Person": "Persoon",
+     "One": "Eén",
+     "Two": "Twee",
+     "Many": "Meer",
+     "absent, man": "afwezig, man",
+     "absent, woman": "afwezig, vrouw",
+     "addressed, man": "aangesproken, man",
+     "addressed, woman": "aangesproken, vrouw",
+     "the speaker": "de spreker"
+    }
+   }
+  },
+  "6": {
+   "title": "De passieve mudari'",
+   "body": [
+    "De vierde tabel is de passieve mudari': yunsaru, “hij wordt geholpen”, tot en met nunsaru, “wij worden geholpen”. De voorvoegsels en de uitgangen zijn die van de actieve mudari'; alleen twee klinkers veranderen.",
+    "De regel: de eerste letter, het voorvoegsel, krijgt een damma, en de voorlaatste letter een fatha. Yansuru wordt yunsaru; tansuruna wordt tunsaruna; ansuru wordt unsaru. Net als bij de passieve madi komt elke bab er hetzelfde uit: yudrabu, yuftahu, yusma'u, yuktabu. De passieve mudari' van het kale werkwoord is altijd yuf'alu.",
+    "Bij het vierletterige werkwoord heeft het voorvoegsel in het actief al een damma (yukrimu), dus alleen de tweede klinker onderscheidt ze: yukrimu, “hij eert”, tegenover yukramu, “hij wordt geëerd”. Deze ene klinker is het hele verschil tussen doen en ondergaan, en in schrift zonder klinkers verdwijnt hij.",
+    "Zet de vier tabellen die je geleerd hebt naast elkaar en het systeem verschijnt: madi en mudari', elk actief en passief. Nusira en yunsaru delen de damma op de eerste letter, het kenmerk van het passief; nusira heeft een kasra op de voorlaatste letter, yunsaru een fatha. De rest van het boek bouwt op deze vier tabellen: de ontkenningen, geboden en verboden worden gemaakt uit de mudari', actief en passief."
+   ],
+   "terms": [
+    "de passieve mudari'",
+    "het patroon van de passieve mudari' van het kale werkwoord",
+    "het patroon van de passieve madi van het kale werkwoord"
+   ],
+   "examples": [
+    "yunsaru, “hij wordt geholpen”; nunsaru, “wij worden geholpen”",
+    "yudrabu, yuftahu, yusma'u: elke bab geeft yuf'alu",
+    "yukrimu, “hij eert”; yukramu, “hij wordt geëerd”: één klinker verschil"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de passieve mudari' van kataba in de veertien personen.",
+     "answer": "Yuktabu, yuktabani, yuktabuna, tuktabu, tuktabani, yuktabna, tuktabu, tuktabani, tuktabuna, tuktabina, tuktabani, tuktabna, uktabu, nuktabu."
+    },
+    {
+     "prompt": "Actief of passief? Vertaal: yunsaruna, tansurina, yukramu, udrabu.",
+     "answer": "Yunsaruna: passief, “zij worden geholpen”. Tansurina: actief, “jij (een vrouw) helpt”. Yukramu: passief, “hij wordt geëerd”. Udrabu: passief, “ik word geslagen”."
+    },
+    {
+     "prompt": "Geef de regel van de passieve mudari' en laat hem zien op yaftahu.",
+     "answer": "Het voorvoegsel krijgt een damma en de voorlaatste letter een fatha: yaftahu → yuftahu, “het wordt geopend”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is de regel van de passieve mudari'?",
+     "options": [
+      "Voorvoegsel met fatha, voorlaatste letter met kasra",
+      "Voorvoegsel met kasra, laatste letter met sukun",
+      "Voorvoegsel met damma, voorlaatste letter met fatha",
+      "Geen verandering"
+     ],
+     "explanation": "Yansuru → yunsaru."
+    },
+    {
+     "prompt": "De passieve mudari' van yadribu is…",
+     "options": [
+      "Yudribu",
+      "Yadrabu",
+      "Duriba",
+      "Yudrabu"
+     ],
+     "explanation": "Elke bab geeft yuf'alu."
+    },
+    {
+     "prompt": "Yukrimu en yukramu verschillen in…",
+     "options": [
+      "de klinker van de voorlaatste letter",
+      "het voorvoegsel",
+      "de wortel",
+      "de uitgang"
+     ],
+     "explanation": "Kasra: hij eert; fatha: hij wordt geëerd."
+    },
+    {
+     "prompt": "Nunsaru betekent…",
+     "options": [
+      "“wij helpen”",
+      "“wij worden geholpen”",
+      "“ik word geholpen”",
+      "“zij worden geholpen”"
+     ],
+     "explanation": "Na- met damma, en fatha op de voorlaatste letter."
+    },
+    {
+     "prompt": "Welk kenmerk delen nusira en yunsaru?",
+     "options": [
+      "De kasra op de voorlaatste letter",
+      "Het voorvoegsel ya-",
+      "De damma op de eerste letter",
+      "De uitgang -u"
+     ],
+     "explanation": "De damma op de eerste letter is in beide het kenmerk van het passief."
+    },
+    {
+     "prompt": "Welke is actief?",
+     "options": [
+      "Yusma'u",
+      "Tusma'ina",
+      "Nusma'u",
+      "Yasma'u"
+     ],
+     "explanation": "Fatha op het voorvoegsel: actief."
+    },
+    {
+     "prompt": "Uit welke tabellen worden de ontkenningen, geboden en verboden gemaakt?",
+     "options": [
+      "Uit de mudari', actief en passief",
+      "Alleen uit de madi",
+      "Uit de masdar",
+      "Uit de deelwoorden"
+     ],
+     "explanation": "Lam yansur, lan yunsara, li-yansur: allemaal uit de mudari'."
+    }
+   ],
+   "diagram": {
+    "caption": "Actieve mudari' en passieve mudari'",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "naṣara": "nasara",
+     "ḍaraba": "daraba",
+     "fataḥa": "fataha",
+     "samiʿa": "sami'a",
+     "kataba": "kataba",
+     "akrama": "akrama"
+    }
+   }
+  },
+  "7": {
+   "title": "De masdar",
+   "body": [
+    "De masdar, het verbaal naamwoord, noemt de handeling zelf zonder doener of tijd: nasr, “het helpen, hulp”. Het boek geeft hem in drie vormen: nasran, nasrani, nasaratun: één, twee en veel. Het opschrift noemt hem “de masdar die niet mimi is”, om hem te onderscheiden van mansar, de masdar die met een mim begint en die later komt bij de naamwoorden van tijd en plaats.",
+    "Waarom een tweevoud en een meervoud van een handeling? De masdar op zichzelf noemt het helpen als zodanig, en als zodanig heeft het geen getal. In het tweevoud of meervoud gezet noemt hij soorten of gevallen van helpen: “twee keer helpen”, “hulpbetoningen”. In het meervoud vocaliseert de druk de sad met een fatha: nasarat.",
+    "In het opzeggen van de verschillende vormen is de masdar nasran, in nasb: nasara, yansuru, nasran. De commentaren verklaren het als het absolute voorwerp van het werkwoord ervoor: “hij hielp een helpen”. In zijn eigen tabel houdt alleen het eerste woord die nasb; het tweevoud en het meervoud worden als gewone naamwoorden gegeven.",
+    "De masdar van het kale werkwoord leer je door horen, niet door een regel (sama'i). Nasara heeft nasr, daraba heeft darb, qatala heeft qatl, zoals de voorbeelden van de Ajurrumiyya laten zien, maar andere werkwoorden hebben andere vormen, en het woordenboek geeft ze. Daarom laat het vervoegingshulpmiddel de masdar van het kale werkwoord leeg. De vermeerderde werkwoorden hebben regelmatige masdars: akrama, ikram; de Bina en al-'Izzi geven hun patronen."
+   ],
+   "terms": [
+    "het verbaal naamwoord: de handeling zelf",
+    "de masdar met een mim: mansar",
+    "geleerd door horen, niet door een regel",
+    "gevormd volgens een regel"
+   ],
+   "examples": [
+    "nasran, nasrani, nasaratun: de masdar in één, twee en veel",
+    "daraba, yadribu, darban: een ander kaal werkwoord, een andere masdar",
+    "akrama, ikramun: de regelmatige masdar van het vierletterige werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de masdar van nasara in één, twee en veel, en vertaal.",
+     "answer": "Nasr (het helpen), nasrani (twee keer helpen), nasarat (hulpbetoningen)."
+    },
+    {
+     "prompt": "Waarom geeft het vervoegingshulpmiddel een masdar voor akrama maar niet voor nasara?",
+     "answer": "De masdar van het kale werkwoord is sama'i, gekend door horen (nasr, darb, qatl…); het vierletterige werkwoord akrama heeft een regelmatige masdar, ikram, die een regel kan vormen."
+    },
+    {
+     "prompt": "Waarom staat nasran in nasb in het opzeggen nasara, yansuru, nasran?",
+     "answer": "De commentaren lezen het als het absolute voorwerp (maf'ul mutlaq) van het werkwoord: “hij hielp een helpen”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat noemt de masdar?",
+     "options": [
+      "De doener",
+      "De plaats van de handeling",
+      "Wie de handeling ondergaat",
+      "De handeling zelf, zonder doener of tijd"
+     ],
+     "explanation": "Nasr: het helpen."
+    },
+    {
+     "prompt": "Waarom zegt het opschrift “niet mimi”?",
+     "options": [
+      "Om hem te onderscheiden van de masdar met een mim, mansar",
+      "Omdat nasr geen mim in de wortel heeft",
+      "Omdat het een werkwoord is",
+      "Omdat het een meervoud is"
+     ],
+     "explanation": "Mansar komt later, bij de naamwoorden van tijd en plaats."
+    },
+    {
+     "prompt": "Wat noemt het meervoud nasarat?",
+     "options": [
+      "Helpers",
+      "Gevallen of soorten van helpen",
+      "Plaatsen van hulp",
+      "Vrouwen die helpen"
+     ],
+     "explanation": "Een masdar in het meervoud noemt soorten of gevallen van de handeling."
+    },
+    {
+     "prompt": "De masdar van het kale werkwoord is…",
+     "options": [
+      "altijd fa'l",
+      "altijd fi'al",
+      "geleerd door horen (sama'i)",
+      "gevormd door het vervoegingshulpmiddel"
+     ],
+     "explanation": "Nasr, darb, qatl: het woordenboek geeft elk."
+    },
+    {
+     "prompt": "Wat is de masdar van akrama?",
+     "options": [
+      "Karam",
+      "Mukram",
+      "Akram",
+      "Ikram"
+     ],
+     "explanation": "Het vierletterige werkwoord heeft een regelmatige masdar."
+    },
+    {
+     "prompt": "Welk van deze is een masdar?",
+     "options": [
+      "Nasr",
+      "Nasir",
+      "Mansur",
+      "Yansuru"
+     ],
+     "explanation": "Nasir en mansur zijn deelwoorden; yansuru een werkwoord."
+    },
+    {
+     "prompt": "In het opzeggen nasara, yansuru, nasran wordt nasran verklaard als…",
+     "options": [
+      "een hal",
+      "het absolute voorwerp van het werkwoord",
+      "de fa'il",
+      "een tamyiz"
+     ],
+     "explanation": "“Hij hielp een helpen”."
+    }
+   ],
+   "diagram": {
+    "caption": "Vier manieren om de handeling op nasara te noemen; de andere drie komen in deel zes.",
+    "labels": {
+     "Nouns of the act": "Naamwoorden van de handeling",
+     "the maṣdar": "de masdar",
+     "the maṣdar mīmī": "de masdar mimi",
+     "one act (marra)": "één keer (marra)",
+     "manner (nawʿ)": "wijze (naw')"
+    }
+   }
+  },
+  "8": {
+   "title": "Het actief deelwoord",
+   "body": [
+    "Het actief deelwoord (ism al-fa'il, “het naamwoord van de doener”) noemt of beschrijft degene die de handeling verricht: nasir, “wie helpt, een helper”. Bij het kale werkwoord is zijn patroon fa'il: een alif na de eerste letter en een kasra onder de tweede. In het opzeggen is het fa-huwa nasirun, “dus hij is een helper”.",
+    "De tabel geeft het in al zijn getallen en beide geslachten. Mannelijk: nasir, het tweevoud nasirani, het gave meervoud nasiruna, en drie gebroken meervouden, nussar [met alif], nussar en nasara. Vrouwelijk: nasira, nasiratani, nasirat, en het gebroken meervoud nawasir. De waw die de druk voor sommige gebroken meervouden zet (wa-nussarun, wa-nasaratun, wa-nawasiru), geeft aan dat het nog meer meervouden van hetzelfde woord zijn.",
+    "De gave meervouden worden volgens een regel gevormd; de gebroken meervouden worden, zoals altijd in het Arabisch, geleerd. De Amthila geeft drie patronen voor de mannen, fu''al [met alif], fu''al en fa'ala, en één voor de vrouwen, fawa'il. Al-'Izzi en Marah al-arwah komen erop terug.",
+    "Voor elk gaaf kaal werkwoord is het deelwoord fa'il: darib (slaand), fatih (openend), sami' (horend), katib (schrijvend). Bij de vermeerderde werkwoorden begint het met mu- en heeft het een kasra op de voorlaatste letter: akrama geeft mukrim, “wie eert”. De nahw voegt eraan toe dat het deelwoord kan werken zoals zijn werkwoord: nasirun Zaydan, “Zayd helpend”, met Zayd als zijn maf'ul bihi.",
+    "Een valkuil van de tabel: nasara, het derde gebroken meervoud, “helpers”, wordt precies zo geschreven en gevocaliseerd als de madi nasara, “hij hielp”. Alleen zijn plaats in de zin, en zijn tanwin (nasaratun), laten zien dat het een naamwoord is."
+   ],
+   "terms": [
+    "het actief deelwoord: wie de handeling verricht",
+    "zijn patroon bij het kale werkwoord",
+    "het gave meervoud, volgens een regel gevormd",
+    "het gebroken meervoud, woord voor woord geleerd"
+   ],
+   "examples": [
+    "nasirun, nasirani, nasiruna: één, twee en veel mannen die helpen",
+    "nasiratun, een vrouw die helpt; nawasiru, het gebroken meervoud ervan",
+    "daribun, fatihun, sami'un: fa'il in elke bab",
+    "mukrimun, “wie eert”: het deelwoord van het vierletterige werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het actief deelwoord van kataba, jalasa, fataha en akrama.",
+     "answer": "Katib, jalis, fatih, mukrim."
+    },
+    {
+     "prompt": "Geef het vrouwelijk, het tweevoud en het gave meervoud van katib.",
+     "answer": "Katiba (vrouwelijk), katibani (tweevoud), katibuna (gaaf mannelijk meervoud), en katibat voor de vrouwen."
+    },
+    {
+     "prompt": "Noem het patroon van elk gebroken meervoud in de tabel: nussar [met alif], nussar, nasara, nawasir.",
+     "answer": "Nussar [met alif]: fu''al [met alif]. Nussar: fu''al. Nasara: fa'ala. Nawasir: fawa'il (het meervoud van het vrouwelijke nasira)."
+    },
+    {
+     "prompt": "Hoe onderscheid je het meervoud nasaratun, “helpers”, van het werkwoord nasarat, “zij hielp”?",
+     "answer": "Het naamwoord heeft tanwin en een ronde ta' (nasaratun) en staat waar een naamwoord staat; het werkwoord eindigt op een ta' met sukun (nasarat), het teken van het vrouwelijke, en heeft een fa'il."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat noemt het actief deelwoord?",
+     "options": [
+      "Wie de handeling verricht",
+      "Wie de handeling ondergaat",
+      "De handeling zelf",
+      "De plaats van de handeling"
+     ],
+     "explanation": "Nasir: wie helpt."
+    },
+    {
+     "prompt": "Wat is het patroon van het actief deelwoord van het kale werkwoord?",
+     "options": [
+      "Maf'ul",
+      "Fa'il (met lange a)",
+      "Fa'il (met lange i)",
+      "Muf'il"
+     ],
+     "explanation": "Nasir, darib, katib."
+    },
+    {
+     "prompt": "Welke is in de tabel een gebroken meervoud van nasir?",
+     "options": [
+      "Nasiruna",
+      "Nasirani",
+      "Nussar [met alif]",
+      "Mansuruna"
+     ],
+     "explanation": "Nussar [met alif], nussar en nasara zijn de gegeven gebroken meervouden."
+    },
+    {
+     "prompt": "Wat is het actief deelwoord van akrama?",
+     "options": [
+      "Mukram",
+      "Karim",
+      "Ikram",
+      "Mukrim"
+     ],
+     "explanation": "Mu- en een kasra op de voorlaatste letter; mukram is het passief deelwoord."
+    },
+    {
+     "prompt": "Nawasir is het meervoud van…",
+     "options": [
+      "nasira, het vrouwelijke",
+      "alleen nasir, het mannelijke",
+      "mansur",
+      "nasr"
+     ],
+     "explanation": "De tabel geeft het in de rij van de vrouwen."
+    },
+    {
+     "prompt": "Wat betekent de waw voor sommige meervouden in de druk?",
+     "options": [
+      "Het zijn werkwoorden",
+      "Het zijn nog meer meervouden van hetzelfde woord",
+      "Ze staan in het tweevoud",
+      "Het is de waw van de eed"
+     ],
+     "explanation": "Wa-nussarun, wa-nasaratun: “en ook…”."
+    },
+    {
+     "prompt": "Het meervoud nasara, “helpers”, lijkt op…",
+     "options": [
+      "de masdar nasr",
+      "de mudari' yansuru",
+      "de madi nasara",
+      "het passief nusira"
+     ],
+     "explanation": "Alleen zijn tanwin en zijn plaats in de zin laten zien dat het een naamwoord is."
+    }
+   ],
+   "diagram": {
+    "caption": "Het actief deelwoord van nasara (al-Amthila, p. 240)",
+    "labels": {
+     "Gender": "Geslacht",
+     "One": "Eén",
+     "Two": "Twee",
+     "Sound plural": "Gaaf meervoud",
+     "Broken plurals": "Gebroken meervouden",
+     "man": "man",
+     "woman": "vrouw"
+    }
+   }
+  },
+  "9": {
+   "title": "Het passief deelwoord",
+   "body": [
+    "Het passief deelwoord (ism al-maf'ul, “het naamwoord van wie de handeling ondergaat”) noemt of beschrijft degene aan wie de handeling gedaan wordt: mansur, “geholpen, wie geholpen wordt”. Bij het kale werkwoord is zijn patroon maf'ul: een mim voor de wortel en een lange u voor de laatste letter. In het opzeggen is het wa-dhaka mansurun, “en die is geholpen”.",
+    "De tabel geeft mansur, mansurani, mansuruna voor de mannen, mansura, mansuratani, mansurat voor de vrouwen, en één gebroken meervoud, manasir (mafa'il). Ze is korter dan de tabel van het actief deelwoord: het passief deelwoord krijgt zijn meervoud meestal volgens een regel.",
+    "Voor elk gaaf kaal werkwoord is het patroon hetzelfde: madrub (geslagen), maftuh (geopend), masmu' (gehoord), maktub (geschreven). Bij de vermeerderde werkwoorden begint het met mu-, zoals het actief deelwoord, maar heeft het een fatha op de voorlaatste letter: mukram, “geëerd”, tegenover mukrim, “wie eert”. Weer scheidt één klinker de doener van wie de handeling ondergaat, zoals in yukrimu en yukramu.",
+    "Net als bij de passieve werkwoorden heeft alleen een werkwoord met een maf'ul bihi een eigen passief deelwoord. En een valkuil voor de beginner: maktub betekent ook “een brief” en Mansur is ook een mannennaam. Een deelwoord wordt gemakkelijk een gewoon naamwoord; de sarf noemt zijn vorm, en de zin laat zijn gebruik zien."
+   ],
+   "terms": [
+    "het passief deelwoord: wie de handeling ondergaat",
+    "zijn patroon bij het kale werkwoord",
+    "zijn patroon bij het werkwoord af'ala: mukram"
+   ],
+   "examples": [
+    "mansurun, mansurani, mansuruna: één, twee en veel geholpen mannen",
+    "madrubun, maftuhun, masmu'un: maf'ul in elke bab",
+    "mukrimun, wie eert; mukramun, geëerd: één klinker verschil"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het passief deelwoord van kataba, fataha, daraba en akrama.",
+     "answer": "Maktub, maftuh, madrub, mukram."
+    },
+    {
+     "prompt": "Geef de tabel van het passief deelwoord van nasara uit het hoofd: drie vormen voor de mannen, drie voor de vrouwen, en het gebroken meervoud.",
+     "answer": "Mansur, mansurani, mansuruna; mansura, mansuratani, mansurat; manasir."
+    },
+    {
+     "prompt": "Actief of passief deelwoord? Vertaal: masmu', mukrim, fatih, mukram.",
+     "answer": "Masmu': passief, “gehoord”. Mukrim: actief, “wie eert”. Fatih: actief, “wie opent”. Mukram: passief, “geëerd”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat noemt het passief deelwoord?",
+     "options": [
+      "De doener",
+      "Degene aan wie de handeling gedaan wordt",
+      "De handeling zelf",
+      "Het werktuig"
+     ],
+     "explanation": "Mansur: geholpen."
+    },
+    {
+     "prompt": "Wat is zijn patroon bij het kale werkwoord?",
+     "options": [
+      "Fa'il",
+      "Maf'al",
+      "Maf'ul",
+      "Fu'ayl"
+     ],
+     "explanation": "Mansur, madrub, maktub."
+    },
+    {
+     "prompt": "Mukram en mukrim verschillen in…",
+     "options": [
+      "de eerste letter",
+      "de wortel",
+      "het aantal letters",
+      "de klinker van de voorlaatste letter"
+     ],
+     "explanation": "Fatha: geëerd; kasra: wie eert."
+    },
+    {
+     "prompt": "Welk gebroken meervoud geeft de tabel voor mansur?",
+     "options": [
+      "Manasir",
+      "Nussar",
+      "Nawasir",
+      "Ansar"
+     ],
+     "explanation": "Mafa'il: manasir."
+    },
+    {
+     "prompt": "Welk werkwoord kan geen eigen passief deelwoord hebben?",
+     "options": [
+      "Elk kaal werkwoord",
+      "Een werkwoord dat geen maf'ul bihi neemt",
+      "Elk vierletterig werkwoord",
+      "Nasara"
+     ],
+     "explanation": "Net als bij de passieve werkwoorden."
+    },
+    {
+     "prompt": "Wat is het passief deelwoord van fataha?",
+     "options": [
+      "Fatih",
+      "Miftah",
+      "Maftuh",
+      "Futiha"
+     ],
+     "explanation": "Maf'ul: “geopend”."
+    },
+    {
+     "prompt": "Welke woorden komen in het opzeggen voor mansurun?",
+     "options": [
+      "Fa-huwa, “dus hij is”",
+      "Lam",
+      "Lan",
+      "Wa-dhaka, “en die (is)”"
+     ],
+     "explanation": "Fa-huwa nasirun wa-dhaka mansurun."
+    }
+   ],
+   "diagram": {
+    "caption": "De twee deelwoorden van zes werkwoorden",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Active participle": "Actief deelwoord",
+     "Passive participle": "Passief deelwoord"
+    }
+   }
+  },
+  "10": {
+   "title": "De absolute ontkenning: lam",
+   "body": [
+    "De ontkenningen beginnen met lam: lam yansur, “hij hielp niet”. Na lam komt de mudari', maar lam draait de betekenis naar het verleden, en het zet het werkwoord in jazm. De Ottomaanse boeken noemen deze vorm de absolute ontkenning (al-jahd al-mutlaq): de handeling wordt in het verleden ontkend, zonder dat er een grens aan het wanneer gesteld wordt.",
+    "De tabel is de tabel van de mudari' met lam voor elke vorm, en er gebeuren drie dingen met de uitgangen. De vormen voor één persoon verliezen hun -u en eindigen op sukun: lam yansur, lam tansur, lam ansur, lam nansur. De vijf werkwoorden verliezen hun nun: lam yansura, lam yansuru, lam tansuri. De vormen van de vrouwen houden hun -na, die nooit verandert: lam yansurna, lam tansurna.",
+    "De passieve tabel (p. 241–242) doet hetzelfde met de passieve mudari': lam yunsar, “hij werd niet geholpen”, lam yunsaru, “zij werden niet geholpen”, lam unsar, “ik werd niet geholpen”. Voorvoegsel met damma, fatha op de voorlaatste letter, en de uitgangen van de jazm.",
+    "Hetzelfde geldt voor elk gaaf werkwoord: lam yadrib, lam yaktub, lam yasma', lam yadribu. Een beginner zet lam soms voor de madi, lam nasara; dat is fout. Lam neemt altijd de vorm van de mudari', en de betekenis van het verleden komt van lam zelf. Om met de vorm van de madi te ontkennen, zegt men ma nasara, “hij hielp niet”, wat de Amthila niet onderwijst."
+   ],
+   "terms": [
+    "de absolute ontkenning: lam met de mudari', verleden in betekenis",
+    "het partikel dat het verleden ontkent en het werkwoord in jazm zet",
+    "de toestand van het werkwoord met sukun of een weggevallen nun",
+    "het wegvallen van de nun van de vijf werkwoorden"
+   ],
+   "examples": [
+    "lam yansur, lam yansuru, lam yansurna: sukun, de nun weggevallen, de -na behouden",
+    "lam yunsar, “hij werd niet geholpen”: het passief met lam",
+    "lam yadrib, lam yaktub, lam yasma': dezelfde regel in elke bab"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet lam voor yadribu in de veertien personen.",
+     "answer": "Lam yadrib, lam yadriba, lam yadribu, lam tadrib, lam tadriba, lam yadribna, lam tadrib, lam tadriba, lam tadribu, lam tadribi, lam tadriba, lam tadribna, lam adrib, lam nadrib."
+    },
+    {
+     "prompt": "Zet lam voor elk en zeg wat er met de uitgang gebeurt: taktubina, yaktubuna, yaktubna, aktubu.",
+     "answer": "Lam taktubi en lam yaktubu: de nun valt weg. Lam yaktubna: de -na van de vrouwen blijft. Lam aktub: de -u wordt een sukun."
+    },
+    {
+     "prompt": "Zeg in het Arabisch, uit de passieve tabel: “hij werd niet geholpen”, “zij (mannen) werden niet geholpen”, “ik werd niet geholpen”.",
+     "answer": "Lam yunsar, lam yunsaru, lam unsar."
+    },
+    {
+     "prompt": "Een student schrijft lam nasara voor “hij hielp niet”. Verbeter hem en leg uit.",
+     "answer": "Lam yansur. Lam neemt altijd de vorm van de mudari' en geeft die de betekenis van het verleden; het werkwoord erna staat in jazm."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat doet lam met de mudari'?",
+     "options": [
+      "Het draait hem naar de toekomst en zet hem in nasb",
+      "Niets met zijn uitgang",
+      "Het draait hem naar het verleden en zet hem in jazm",
+      "Het maakt er een gebod van"
+     ],
+     "explanation": "Lam yansur: “hij hielp niet”."
+    },
+    {
+     "prompt": "Hoe noemen de Ottomaanse boeken lam yansur?",
+     "options": [
+      "De alomvattende ontkenning",
+      "De ontkenning van het heden",
+      "De nadrukkelijke ontkenning van de toekomst",
+      "De absolute ontkenning (jahd mutlaq)"
+     ],
+     "explanation": "Het verleden wordt ontkend zonder grens aan het wanneer."
+    },
+    {
+     "prompt": "Lam yansuru komt van yansuruna. Wat is er gebeurd?",
+     "options": [
+      "De nun is weggevallen",
+      "De waw is weggevallen",
+      "Niets",
+      "Er is een sukun toegevoegd"
+     ],
+     "explanation": "De vijf werkwoorden staan in jazm doordat de nun wegvalt."
+    },
+    {
+     "prompt": "Wat gebeurt er met yansurna na lam?",
+     "options": [
+      "De nun valt weg",
+      "Niets: de -na van de vrouwen blijft",
+      "Het krijgt een fatha",
+      "Het wordt yansur"
+     ],
+     "explanation": "De vormen met de nun van de vrouwen veranderen nooit."
+    },
+    {
+     "prompt": "“Hij werd niet geholpen” is…",
+     "options": [
+      "Lam yansur",
+      "Lam nusira",
+      "Lam yunsar",
+      "Lan yunsara"
+     ],
+     "explanation": "Lam met de passieve mudari' in jazm."
+    },
+    {
+     "prompt": "Welke is juist voor “ik schreef niet”?",
+     "options": [
+      "Lam katabtu",
+      "Lam aktubu",
+      "Lan aktuba",
+      "Lam aktub"
+     ],
+     "explanation": "Lam met de mudari' van de spreker, in jazm."
+    },
+    {
+     "prompt": "Waarin verschilt de ontkenning met lam van de Amthila van ma nasara?",
+     "options": [
+      "Lam gebruikt de vorm van de mudari'; ma gebruikt hier de vorm van de madi",
+      "Lam is voor de toekomst",
+      "Ma zet het werkwoord in jazm",
+      "Er is geen verschil in vorm"
+     ],
+     "explanation": "Beide ontkennen het verleden; lam yansur is de vorm die de Amthila onderwijst."
+    }
+   ],
+   "diagram": {
+    "caption": "De absolute ontkenning van nasara, actief (al-Amthila, p. 241)",
+    "labels": {
+     "Person": "Persoon",
+     "One": "Eén",
+     "Two": "Twee",
+     "Many": "Meer",
+     "absent, man": "afwezig, man",
+     "absent, woman": "afwezig, vrouw",
+     "addressed, man": "aangesproken, man",
+     "addressed, woman": "aangesproken, vrouw",
+     "the speaker": "de spreker"
+    }
+   }
+  },
+  "11": {
+   "title": "De alomvattende ontkenning: lamma",
+   "body": [
+    "De tweede ontkenning is lamma: lamma yansur, “hij heeft nog niet geholpen”. Haar vormen zijn precies die van lam, de mudari' in jazm: lamma yansur, lamma yansuru, lamma yansurna, en in het passief lamma yunsar. Alleen haar betekenis is anders.",
+    "De Ottomaanse boeken noemen haar de alomvattende ontkenning (al-jahd al-mustaghriq): ze omvat het hele verleden tot aan het moment van spreken, en laat open dat de handeling nog kan gebeuren. Lam yansur kan spreken over een verleden dat nu afgesloten is (“hij hielp die dag niet”); lamma yansur zegt “tot nu toe heeft hij niet geholpen, en men wacht erop”.",
+    "De Koran laat de betekenis zien: wa-lamma yadkhuli al-imanu fi qulubikum, “het geloof is jullie harten nog niet binnengegaan” (Koran 49:14). Het geloof is tot nu toe niet binnengegaan, en het wordt verwacht. De sukun van yadkhul krijgt daar alleen een kasra om aan het volgende woord te verbinden.",
+    "Een valkuil: lamma gevolgd door een madi is een heel ander woord, de lamma van de tijd, “toen”: lamma ja'a Zaydun, “toen Zayd kwam”. Die regeert niets. De lamma van de Amthila komt altijd voor een mudari', en zet die in jazm."
+   ],
+   "terms": [
+    "de alomvattende ontkenning: “nog niet”",
+    "voor de mudari': “nog niet”, met jazm",
+    "lamma van de tijd, “toen”, voor de madi"
+   ],
+   "examples": [
+    "lamma yansur, “hij heeft nog niet geholpen”",
+    "lamma yunsaru, “zij zijn nog niet geholpen”: het passief",
+    "wa-lamma yadkhuli al-imanu fi qulubikum, “het geloof is jullie harten nog niet binnengegaan” (Koran 49:14)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet lamma voor yaktubu in deze personen: hij, zij (mannen), jij (een vrouw), ik.",
+     "answer": "Lamma yaktub, lamma yaktubu, lamma taktubi, lamma aktub."
+    },
+    {
+     "prompt": "Vertaal lam yaktub en lamma yaktub en leg het verschil uit.",
+     "answer": "Lam yaktub: “hij schreef niet”, een ontkenning in het verleden zonder meer te zeggen. Lamma yaktub: “hij heeft nog niet geschreven”, de ontkenning loopt tot nu en het schrijven wordt nog verwacht."
+    },
+    {
+     "prompt": "Waarom eindigt yadkhul in wa-lamma yadkhuli al-imanu (Koran 49:14) op een kasra?",
+     "answer": "Het staat in jazm na lamma, dus het eindigt op sukun; die sukun ontmoet de sukun van het lidwoord in al-iman, en de kasra wordt alleen toegevoegd om de twee woorden te verbinden."
+    },
+    {
+     "prompt": "Welke lamma is het, en wat doet ze? (a) lamma yansur; (b) lamma ja'a Zaydun.",
+     "answer": "(a) De lamma van de ontkenning, “nog niet”, die de mudari' in jazm zet. (b) De lamma van de tijd, “toen”, voor een madi; die regeert niets."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat betekent lamma yansur?",
+     "options": [
+      "Hij hielp niet",
+      "Hij zal niet helpen",
+      "Toen hij hielp",
+      "Hij heeft nog niet geholpen"
+     ],
+     "explanation": "De ontkenning loopt tot nu, en de handeling wordt verwacht."
+    },
+    {
+     "prompt": "Hoe verschillen de vormen van lamma van die van lam?",
+     "options": [
+      "Niet: beide zetten de mudari' in jazm",
+      "Lamma zet hem in nasb",
+      "Lamma houdt de nun",
+      "Lamma neemt de madi"
+     ],
+     "explanation": "Alleen de betekenis verschilt."
+    },
+    {
+     "prompt": "Hoe noemen de Ottomaanse boeken lamma yansur?",
+     "options": [
+      "De absolute ontkenning",
+      "De alomvattende ontkenning (jahd mustaghriq)",
+      "De ontkenning van de toekomst",
+      "Het verbod"
+     ],
+     "explanation": "Mustaghriq: het omvat het hele verleden tot nu."
+    },
+    {
+     "prompt": "Lamma ja'a Zaydun betekent…",
+     "options": [
+      "“Zayd is nog niet gekomen”",
+      "“Zayd kwam niet”",
+      "“Toen Zayd kwam”",
+      "“Laat Zayd komen”"
+     ],
+     "explanation": "Voor een madi betekent lamma “toen” en regeert het niets."
+    },
+    {
+     "prompt": "In Koran 49:14 is het geloof de harten nog niet binnengegaan. Wordt dat verwacht?",
+     "options": [
+      "Nee: lamma ontkent voor altijd",
+      "Het vers zegt niets over de tijd",
+      "Alleen in het verleden",
+      "Ja: lamma laat het verwacht"
+     ],
+     "explanation": "Dat is de betekenis van de alomvattende ontkenning."
+    },
+    {
+     "prompt": "“Zij (vrouwen) hebben nog niet geholpen” is…",
+     "options": [
+      "Lamma yansurna",
+      "Lamma yansuru",
+      "Lamma yansurna [met alif]",
+      "Lamma nasarna"
+     ],
+     "explanation": "De -na van de vrouwen blijft na lamma."
+    },
+    {
+     "prompt": "Lamma yunsar is…",
+     "options": [
+      "actief: “hij heeft nog niet geholpen”",
+      "passief: “hij is nog niet geholpen”",
+      "een gebod",
+      "een ontkenning van de toekomst"
+     ],
+     "explanation": "Damma op het voorvoegsel, fatha op de voorlaatste letter."
+    }
+   ],
+   "diagram": {
+    "caption": "Lam en lamma vergeleken",
+    "labels": {
+     "Point": "Punt",
+     "lam": "lam",
+     "lammā": "lamma",
+     "example": "voorbeeld",
+     "meaning": "betekenis",
+     "he did not help": "hij hielp niet",
+     "he has not yet helped": "hij heeft nog niet geholpen",
+     "the time denied": "de ontkende tijd",
+     "the past, without limit": "het verleden, zonder grens",
+     "the whole past up to now": "het hele verleden tot nu",
+     "the act may still come": "de handeling kan nog komen",
+     "not said": "niet gezegd",
+     "expected": "verwacht",
+     "the ending": "de uitgang",
+     "jazm": "jazm"
+    }
+   }
+  },
+  "12": {
+   "title": "De ontkenningen van het heden en de toekomst: ma en la",
+   "body": [
+    "Twee ontkenningen veranderen niets aan het werkwoord. Ma yansuru, “hij helpt niet”, is de ontkenning van het heden (nafy al-hal); la yansuru, “hij zal niet helpen”, is de ontkenning van de toekomst (nafy al-istiqbal). Hun vier tabellen, actief en passief, zijn gewoon de tabellen van de mudari' met ma of la voor elke vorm.",
+    "Omdat geen van beide het werkwoord regeert, blijft elke uitgang staan: de -u (ma yansuru, la ansuru), en de nun van de vijf werkwoorden (ma yansurani, la yansuruna, la tansurina). Zet dit naast lam, lamma en lan, die allemaal de uitgang veranderen, en de vijf ontkenningen vallen in twee groepen: die welke regeren en die welke niet regeren.",
+    "De Amthila geeft elke ontkenning één tijd, zodat de student de vijf kan onderscheiden: lam en lamma voor het verleden, ma voor het heden, la en lan voor de toekomst. De nahw voegt meer toe. La voor de mudari' kan ook het heden ontkennen, en ma kan ook voor de madi staan, ma nasara, “hij hielp niet”. Het schema van de Amthila is een eerste kaart, niet het hele land.",
+    "De grote valkuil van deze les is de la van het verbod, die er hetzelfde uitziet. La yansuru, met damma, is een ontkenning: “hij zal niet helpen”. La yansur, met sukun, is een verbod: “laat hem niet helpen”. In de tweede persoon is het verschil nog scherper: la tansuru, “jij zult niet helpen”, tegenover la tansur, “help niet!”. Eén klinker scheidt een mededeling van een bevel.",
+    "De passieve tabellen volgen dezelfde regel op de passieve mudari': ma yunsaru, “hij wordt niet geholpen”, la yunsaru, “hij zal niet geholpen worden”, met alle uitgangen behouden."
+   ],
+   "terms": [
+    "de ontkenning van het heden: ma yansuru",
+    "de ontkenning van de toekomst: la yansuru",
+    "de la van de ontkenning, die niets regeert",
+    "de la van het verbod, die het werkwoord in jazm zet"
+   ],
+   "examples": [
+    "ma yansuru, ma yansuruna: de uitgang behouden na ma",
+    "la tansurina, “jij (een vrouw) zult niet helpen”: de nun behouden na la",
+    "la tansuru, “jij zult niet helpen”; la tansur, “help niet!”",
+    "la yunsaru, “hij zal niet geholpen worden”: het passief"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet ma en la voor deze vormen van kataba en vertaal: yaktubu, yaktubuna, taktubina.",
+     "answer": "Ma yaktubu “hij schrijft niet”, la yaktubu “hij zal niet schrijven”; ma yaktubuna, la yaktubuna “zij schrijven niet, zullen niet schrijven”; ma taktubina, la taktubina “jij (een vrouw) schrijft niet, zult niet schrijven”. Geen uitgang verandert."
+    },
+    {
+     "prompt": "Vertaal en zeg wat ontkenning is en wat verbod: la tansuru; la tansur; la yansuruna; la yansuru [meervoud].",
+     "answer": "La tansuru: ontkenning, “jij zult niet helpen”. La tansur: verbod, “help niet!”. La yansuruna: ontkenning, “zij zullen niet helpen”. La yansuru [meervoud]: verbod, “laat hen niet helpen” (de nun valt in jazm weg)."
+    },
+    {
+     "prompt": "Geef uit de passieve tabellen: “zij (mannen) worden niet geholpen” en “jij (een vrouw) zult niet geholpen worden”.",
+     "answer": "Ma yunsaruna; la tunsarina."
+    },
+    {
+     "prompt": "Welke van de vijf ontkenningen veranderen de uitgang van het werkwoord, en hoe?",
+     "answer": "Lam en lamma zetten het in jazm (sukun, of de nun valt weg); lan zet het in nasb (fatha, of de nun valt weg). Ma en la veranderen niets."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat doet ma met de uitgang van yansuru?",
+     "options": [
+      "Niets",
+      "Het zet hem in jazm",
+      "Het zet hem in nasb",
+      "Het laat het voorvoegsel wegvallen"
+     ],
+     "explanation": "Ma yansuru: de damma blijft."
+    },
+    {
+     "prompt": "Welke tijd geeft de Amthila aan la yansuru?",
+     "options": [
+      "Het heden",
+      "De toekomst",
+      "Het verleden",
+      "Geen tijd"
+     ],
+     "explanation": "Nafy al-istiqbal: “hij zal niet helpen”."
+    },
+    {
+     "prompt": "La tansur, met sukun, betekent…",
+     "options": [
+      "“jij zult niet helpen”",
+      "“jij hielp niet”",
+      "“help niet!”",
+      "“zij zal niet helpen”"
+     ],
+     "explanation": "De la van het verbod zet het werkwoord in jazm."
+    },
+    {
+     "prompt": "La tansurina betekent…",
+     "options": [
+      "“help niet, vrouw!”",
+      "“jij hielp niet”",
+      "“zij zullen niet helpen”",
+      "“jij (een vrouw) zult niet helpen”"
+     ],
+     "explanation": "De nun blijft: het is een ontkenning, geen verbod (dat zou la tansuri zijn)."
+    },
+    {
+     "prompt": "Welke ontkenningen regeren het werkwoord?",
+     "options": [
+      "Lam, lamma en lan",
+      "Ma en la",
+      "Alle vijf",
+      "Geen"
+     ],
+     "explanation": "Ma en la laten de uitgang zoals ze is."
+    },
+    {
+     "prompt": "Kan ma ook voor een madi komen?",
+     "options": [
+      "Nee, nooit",
+      "Ja: ma nasara, “hij hielp niet”",
+      "Alleen in poëzie",
+      "Alleen bij het passief"
+     ],
+     "explanation": "De nahw staat het toe; de Amthila geeft ma één gebruik om het schema eenvoudig te houden."
+    },
+    {
+     "prompt": "“Hij zal niet geholpen worden” is…",
+     "options": [
+      "La yansuru",
+      "La yunsar",
+      "La yunsaru",
+      "Lan yansura"
+     ],
+     "explanation": "La met de passieve mudari', de uitgang behouden."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijf ontkenningen van de Amthila",
+    "labels": {
+     "Particle": "Partikel",
+     "Name": "Naam",
+     "Time": "Tijd",
+     "The ending": "De uitgang",
+     "Example": "Voorbeeld",
+     "لَمْ lam": "لَمْ lam",
+     "absolute denial": "absolute ontkenning",
+     "past": "verleden",
+     "jazm": "jazm",
+     "لَمَّا lammā": "لَمَّا lamma",
+     "comprehensive denial": "alomvattende ontkenning",
+     "past up to now": "verleden tot nu",
+     "مَا mā": "مَا ma",
+     "negation of the present": "ontkenning van het heden",
+     "present": "heden",
+     "unchanged": "onveranderd",
+     "لَا lā": "لَا la",
+     "negation of the future": "ontkenning van de toekomst",
+     "future": "toekomst",
+     "لَنْ lan": "لَنْ lan",
+     "emphatic negation of the future": "nadrukkelijke ontkenning van de toekomst",
+     "naṣb": "nasb"
+    }
+   }
+  },
+  "13": {
+   "title": "De nadrukkelijke ontkenning van de toekomst: lan",
+   "body": [
+    "De laatste ontkenning is lan: lan yansura, “hij zal nooit helpen”, “hij zal zeker niet helpen”. De Ottomaanse boeken noemen haar de nadrukkelijke ontkenning van de toekomst (ta'kid nafy al-istiqbal): wat la yansuru zegt, zegt lan yansura sterker.",
+    "Lan regeert het werkwoord en zet het in nasb. De vormen voor één persoon krijgen een fatha: lan yansura, lan tansura, lan ansura, lan nansura. De vijf werkwoorden laten hun nun vallen: lan yansura [tweevoud], lan yansuru, lan tansuri. De vormen van de vrouwen houden hun -na: lan yansurna, lan tansurna.",
+    "Vergelijk nu lam. Beide laten de nun van de vijf werkwoorden vallen, dus lam yansuru en lan yansuru worden hetzelfde geschreven en uitgesproken, het eerste in jazm (“zij hielpen niet”), het tweede in nasb (“zij zullen nooit helpen”). Alleen het partikel onderscheidt ze. In de vormen voor één persoon verschillen de twee: lam yansur, sukun; lan yansura, fatha.",
+    "De passieve tabel geeft lan yunsara, “hij zal nooit geholpen worden”, tot en met lan nunsara. De Koran heeft het actief van de spreker: fa-lan abraha al-arda, “ik zal het land niet verlaten” (Koran 12:80), abraha in nasb na lan."
+   ],
+   "terms": [
+    "de nadrukkelijke ontkenning van de toekomst: lan",
+    "“zal nooit”: zet de mudari' in nasb",
+    "de toestand van het werkwoord met fatha of een weggevallen nun"
+   ],
+   "examples": [
+    "lan yansura, lan yansuru: de fatha, en de nun weggevallen",
+    "lam yansuru, “zij hielpen niet”; lan yansuru, “zij zullen nooit helpen”: gelijk op het partikel na",
+    "fa-lan abraha al-arda, “ik zal het land niet verlaten” (Koran 12:80)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet lan voor yadribu in de veertien personen.",
+     "answer": "Lan yadriba, lan yadriba [tweevoud], lan yadribu, lan tadriba, lan tadriba [tweevoud], lan yadribna, lan tadriba, lan tadriba [tweevoud], lan tadribu, lan tadribi, lan tadriba [tweevoud], lan tadribna, lan adriba, lan nadriba."
+    },
+    {
+     "prompt": "Lam yadribu en lan yadribu zien er hetzelfde uit. Vertaal beide en noem in elk de toestand van het werkwoord.",
+     "answer": "Lam yadribu: “zij sloegen niet”, in jazm. Lan yadribu: “zij zullen nooit slaan”, in nasb. In beide is de nun weggevallen."
+    },
+    {
+     "prompt": "Geef uit de passieve tabel: “hij zal nooit geholpen worden”, “jij (een vrouw) zult nooit geholpen worden”, “wij zullen nooit geholpen worden”.",
+     "answer": "Lan yunsara, lan tunsari, lan nunsara."
+    },
+    {
+     "prompt": "Ontleed abraha in fa-lan abraha al-arda (Koran 12:80).",
+     "answer": "Een mudari' van de spreker (de hamza van anaytu), in nasb na lan, het teken de fatha; zijn fa'il is een verborgen “ik”; al-arda is zijn maf'ul bihi."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat doet lan met de mudari'?",
+     "options": [
+      "Het zet hem in jazm en ontkent het verleden",
+      "Het zet hem in nasb en ontkent de toekomst krachtig",
+      "Niets",
+      "Het maakt er een gebod van"
+     ],
+     "explanation": "Lan yansura: “hij zal nooit helpen”."
+    },
+    {
+     "prompt": "Lan yansurna: wat gebeurt er met de -na?",
+     "options": [
+      "Hij valt weg",
+      "Hij krijgt een fatha",
+      "Hij blijft",
+      "Hij wordt -na [met alif]"
+     ],
+     "explanation": "De nun van de vrouwen verandert nooit."
+    },
+    {
+     "prompt": "Welk paar wordt hetzelfde geschreven?",
+     "options": [
+      "Lam yansur en lan yansura",
+      "La yansuru en lan yansura",
+      "Ma yansuru en lam yansur",
+      "Lam yansuru en lan yansuru"
+     ],
+     "explanation": "Bij de vijf werkwoorden laten zowel jazm als nasb de nun vallen."
+    },
+    {
+     "prompt": "Hoe noemen de Ottomaanse boeken lan yansura?",
+     "options": [
+      "De nadrukkelijke ontkenning van de toekomst",
+      "De ontkenning van het heden",
+      "De absolute ontkenning",
+      "Het verbod"
+     ],
+     "explanation": "Ta'kid nafy al-istiqbal."
+    },
+    {
+     "prompt": "“Ik zal nooit helpen” is…",
+     "options": [
+      "Lan ansur",
+      "Lan ansura",
+      "Lam ansur",
+      "La ansuru"
+     ],
+     "explanation": "Lan met de mudari' van de spreker, in nasb met de fatha."
+    },
+    {
+     "prompt": "Lan yunsara is…",
+     "options": [
+      "actief: “hij zal nooit helpen”",
+      "een verbod",
+      "passief: “hij zal nooit geholpen worden”",
+      "in jazm"
+     ],
+     "explanation": "De passieve mudari' in nasb."
+    },
+    {
+     "prompt": "In Koran 12:80, fa-lan abraha, staat abraha in…",
+     "options": [
+      "jazm met de sukun",
+      "raf'",
+      "khafd",
+      "nasb met de fatha"
+     ],
+     "explanation": "Lan zet de mudari' in nasb."
+    }
+   ],
+   "diagram": {
+    "caption": "De nadrukkelijke ontkenning van nasara, actief (al-Amthila, pp. 247–248)",
+    "labels": {
+     "Person": "Persoon",
+     "One": "Eén",
+     "Two": "Twee",
+     "Many": "Meer",
+     "absent, man": "afwezig, man",
+     "absent, woman": "afwezig, vrouw",
+     "addressed, man": "aangesproken, man",
+     "addressed, woman": "aangesproken, vrouw",
+     "the speaker": "de spreker"
+    }
+   }
+  },
+  "14": {
+   "title": "Gebod en verbod aan de afwezige",
+   "body": [
+    "Om iemand die niet wordt aangesproken iets te bevelen of te verbieden, gebruikt het Arabisch de mudari' met een partikel. Het gebod aan de afwezige (amr al-gha'ib) is li- met de mudari' in jazm: li-yansur, “laat hem helpen”, li-yansuru, “laat hen helpen”. Het verbod aan de afwezige (nahy al-gha'ib) is la met de mudari' in jazm: la yansur, “laat hem niet helpen”, la yansuru [meervoud], “laat hen niet helpen”.",
+    "De uitgangen zijn die van lam: sukun in de vormen voor één persoon, de nun weggevallen in de vijf werkwoorden, de -na van de vrouwen behouden (li-yansurna, la yansurna). De lam van het gebod krijgt een kasra; na wa- of fa- verliest hij zijn klinker, zoals in fa-l-yansur, “laat hem dan helpen”.",
+    "In deze druk geven de actieve tabellen alleen de zes afwezige personen, drie van de mannen en drie van de vrouwen. De passieve tabellen geven er acht: de zes afwezigen met de passieve mudari', li-yunsar, “laat hem geholpen worden”, la yunsar, “laat hem niet geholpen worden”, en nog twee voor de spreker, li-unsar, “laat mij geholpen worden”, li-nunsar, “laat ons geholpen worden”, en la unsar, la nunsar.",
+    "Denk aan de valkuil van de la. In het verbod staat het werkwoord in jazm: la yansur, la yansuru [meervoud]. In de ontkenning houdt het zijn uitgang: la yansuru, la yansuruna. Het eerste beveelt, het tweede deelt alleen mee."
+   ],
+   "terms": [
+    "het gebod aan de afwezige: li-yansur",
+    "het verbod aan de afwezige: la yansur",
+    "de lam van het gebod, met kasra",
+    "de la van het verbod"
+   ],
+   "examples": [
+    "li-yansur, li-yansuru, li-yansurna: “laat hem, laat hen, laat hen (vrouwen) helpen”",
+    "la yansur, la yansuru [meervoud]: “laat hem, laat hen niet helpen”",
+    "li-unsar, “laat mij geholpen worden”; li-nunsar, “laat ons geholpen worden”: het passief voegt de spreker toe"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het gebod aan de afwezige van kataba in zijn zes personen.",
+     "answer": "Li-yaktub, li-yaktuba, li-yaktubu, li-taktub, li-taktuba, li-yaktubna."
+    },
+    {
+     "prompt": "Geef het verbod aan de afwezige van jalasa, “zitten”, in zijn zes personen.",
+     "answer": "La yajlis, la yajlisa, la yajlisu, la tajlis, la tajlisa, la yajlisna."
+    },
+    {
+     "prompt": "Vertaal uit de passieve tabellen: li-unsar, la nunsar, li-yunsaru.",
+     "answer": "Li-unsar: “laat mij geholpen worden”. La nunsar: “laat ons niet geholpen worden”. Li-yunsaru: “laat hen geholpen worden”."
+    },
+    {
+     "prompt": "Waarom heeft de lam van het gebod in fa-l-yansur geen klinker?",
+     "answer": "Na fa- of wa- verliest de lam van het gebod zijn kasra en wordt hij met sukun uitgesproken; op zichzelf is het li-yansur."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoe wordt het gebod aan de afwezige gemaakt?",
+     "options": [
+      "Met de vorm van de gebiedende wijs",
+      "La met de mudari' in raf'",
+      "Li- met de mudari' in jazm",
+      "Lan met de mudari'"
+     ],
+     "explanation": "Li-yansur: “laat hem helpen”."
+    },
+    {
+     "prompt": "La yansuru [meervoud] betekent…",
+     "options": [
+      "“zij zullen niet helpen”",
+      "“zij hielpen niet”",
+      "“laat hen helpen”",
+      "“laat hen niet helpen”"
+     ],
+     "explanation": "De nun is weggevallen: een verbod in jazm."
+    },
+    {
+     "prompt": "La yansuruna betekent…",
+     "options": [
+      "“zij zullen niet helpen”",
+      "“laat hen niet helpen”",
+      "“help niet!”",
+      "“zij hebben nog niet geholpen”"
+     ],
+     "explanation": "De nun blijft: een ontkenning, geen verbod."
+    },
+    {
+     "prompt": "Hoeveel personen hebben de actieve tabellen van de afwezige in deze druk?",
+     "options": [
+      "Veertien",
+      "Zes",
+      "Acht",
+      "Drie"
+     ],
+     "explanation": "Drie van de mannen, drie van de vrouwen; de passieve tabellen voegen de spreker toe."
+    },
+    {
+     "prompt": "Li-nunsar betekent…",
+     "options": [
+      "“laat ons helpen”",
+      "“wij werden geholpen”",
+      "“laat ons geholpen worden”",
+      "“wij zullen niet geholpen worden”"
+     ],
+     "explanation": "Een passief gebod voor de spreker met anderen."
+    },
+    {
+     "prompt": "Welke klinker heeft de lam van het gebod op zichzelf?",
+     "options": [
+      "Fatha",
+      "Damma",
+      "Geen",
+      "Kasra"
+     ],
+     "explanation": "Li-yansur; na fa- of wa- is hij stil."
+    },
+    {
+     "prompt": "“Laat haar helpen” is…",
+     "options": [
+      "Li-tansur",
+      "Li-yansur",
+      "La tansur",
+      "Unsuri"
+     ],
+     "explanation": "De afwezige vrouw krijgt het voorvoegsel ta-."
+    }
+   ],
+   "diagram": {
+    "caption": "Gebod en verbod aan de afwezige",
+    "labels": {
+     "Person": "Persoon",
+     "Command": "Gebod",
+     "Prohibition": "Verbod",
+     "he": "hij",
+     "they two (men)": "zij tweeën (mannen)",
+     "they (men)": "zij (mannen)",
+     "she": "zij (één vrouw)",
+     "they two (women)": "zij tweeën (vrouwen)",
+     "they (women)": "zij (vrouwen)",
+     "I (passive)": "ik (passief)",
+     "we (passive)": "wij (passief)"
+    }
+   }
+  },
+  "15": {
+   "title": "Gebod en verbod aan de aanwezige",
+   "body": [
+    "Voor de aangesproken persoon heeft het gebod een eigen vorm, de gebiedende wijs: unsur, unsura, unsuru, unsuri, unsura, unsurna: “help!” tegen een man, tegen twee, tegen mannen, tegen een vrouw, tegen twee vrouwen, tegen vrouwen. Dit is het gebod aan de aanwezige (amr al-hadir).",
+    "Hij wordt gemaakt uit de mudari' van de tweede persoon. Neem tansuru, laat het voorvoegsel ta- vallen, en het woord begint nu met een letter zonder klinker, wat het Arabisch niet kan uitspreken; dus komt er een hamza voor, met een damma als de 'ayn een damma heeft (unsur, uktub) en met een kasra als hij een kasra of een fatha heeft (idrib, iftah, isma'). Het eind is dat van de jazm: sukun, de nun weggevallen, de -na behouden. De druk schrijft de hamza op een alif met een damma: اُنْصُرْ.",
+    "Deze hamza is een hamza van verbinding (wasl): ze wordt alleen aan het begin van het spreken uitgesproken en valt weg na een ander woord. De Koran heeft fa-nsurna 'ala al-qawmi al-kafirina, “help ons dan tegen het ongelovige volk” (Koran 2:286), waarin na fa- geen hamza te horen is. Bij het vierletterige werkwoord hoort de hamza bij het patroon en wordt hij altijd uitgesproken, met een fatha: akrim, “eer!”.",
+    "Het passief heeft geen vorm van de gebiedende wijs, dus gebruikt het boek de lam van het gebod met de passieve mudari': li-tunsar, “word geholpen!”, li-tunsaru, en voegt het li-unsar en li-nunsar toe voor de spreker. Het verbod aan de aanwezige is la met de mudari' in jazm, in het actief la tansur, “help niet!”, tot en met la tansurna, en in het passief la tunsar, “word niet geholpen”, met la unsar en la nunsar.",
+    "Hiermee zijn de tabellen van het werkwoord compleet: madi en mudari', elk actief en passief, vijf ontkenningen, en gebod en verbod aan de afwezige en aan de aanwezige. Elk ervan is gemaakt uit de vier tabellen van de lessen 3 tot 6."
+   ],
+   "terms": [
+    "het gebod aan de aanwezige: de gebiedende wijs",
+    "het verbod aan de aanwezige: la tansur",
+    "de hamza van verbinding, die na een ander woord wegvalt",
+    "de hamza die altijd uitgesproken wordt, zoals in akrim"
+   ],
+   "examples": [
+    "unsur, unsuri, unsurna: “help!” tegen een man, een vrouw, vrouwen",
+    "fa-nsurna 'ala al-qawmi al-kafirina, “help ons dan tegen het ongelovige volk” (Koran 2:286): de hamza van verbinding wordt niet uitgesproken",
+    "li-tunsar, “word geholpen!”: het passief met de lam van het gebod",
+    "la tansur, “help niet!”; la tunsar, “word niet geholpen”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de gebiedende wijs van daraba in zijn zes personen.",
+     "answer": "Idrib, idriba, idribu, idribi, idriba, idribna."
+    },
+    {
+     "prompt": "Maak de gebiedende wijs tegen één man van kataba, fataha, jalasa en akrama, en zeg waarom de eerste klinker verschilt.",
+     "answer": "Uktub (damma, omdat yaktubu een damma op de 'ayn heeft); iftah (kasra, de 'ayn heeft een fatha); ijlis (kasra, de 'ayn heeft een kasra); akrim (fatha: de hamza van af'ala, altijd uitgesproken)."
+    },
+    {
+     "prompt": "Geef het verbod aan de aanwezige van fataha: tegen een man, tegen een vrouw, tegen mannen.",
+     "answer": "La taftah, la taftahi, la taftahu."
+    },
+    {
+     "prompt": "Waarom is in fa-nsurna (Koran 2:286) geen hamza te horen voor de nun?",
+     "answer": "De hamza van de gebiedende wijs is een hamza van verbinding: ze wordt alleen aan het begin van het spreken uitgesproken. Na fa- valt ze weg, al blijft de alif in het schrift staan."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Uit welke vorm wordt de gebiedende wijs gemaakt?",
+     "options": [
+      "De madi",
+      "De masdar",
+      "Het actief deelwoord",
+      "De mudari' van de tweede persoon"
+     ],
+     "explanation": "Tansuru → unsur."
+    },
+    {
+     "prompt": "Waarom begint unsur met een damma?",
+     "options": [
+      "De 'ayn van yansuru heeft een damma",
+      "Elke gebiedende wijs begint met een damma",
+      "Omdat hij passief is",
+      "Door het voorvoegsel ta-"
+     ],
+     "explanation": "Damma bij een damma op de 'ayn; anders kasra."
+    },
+    {
+     "prompt": "De gebiedende wijs van yaftahu is…",
+     "options": [
+      "Uftuh",
+      "Iftah",
+      "Aftah",
+      "Fatah"
+     ],
+     "explanation": "Met een fatha op de 'ayn krijgt de hamza een kasra."
+    },
+    {
+     "prompt": "Hoe geeft het boek het passieve gebod aan de aanwezige?",
+     "options": [
+      "Met een passieve vorm van de gebiedende wijs",
+      "Met lan",
+      "Met de lam van het gebod: li-tunsar",
+      "Het heeft er geen"
+     ],
+     "explanation": "Het passief heeft geen eigen vorm van de gebiedende wijs."
+    },
+    {
+     "prompt": "Wat voor hamza begint unsur?",
+     "options": [
+      "Een hamza die altijd uitgesproken wordt",
+      "Een stamletter",
+      "De hamza van de vraag",
+      "Een hamza van verbinding, die na een ander woord wegvalt"
+     ],
+     "explanation": "Fa-nsurna (Koran 2:286): na fa- is geen hamza te horen."
+    },
+    {
+     "prompt": "“Help niet!” tegen een vrouw is…",
+     "options": [
+      "La tansuri",
+      "La tansurina",
+      "La tansur",
+      "Unsuri"
+     ],
+     "explanation": "Het verbod in jazm: de nun valt weg."
+    },
+    {
+     "prompt": "De gebiedende wijs van akrama is…",
+     "options": [
+      "Ikrim",
+      "Akrim",
+      "Ukrum",
+      "Akram"
+     ],
+     "explanation": "Zijn hamza hoort bij het patroon en krijgt een fatha."
+    }
+   ],
+   "diagram": {
+    "caption": "Van de mudari' naar de gebiedende wijs",
+    "labels": {
+     "Present (you)": "Mudari' (jij)",
+     "Imperative": "Gebiedende wijs",
+     "Vowel of the hamza": "Klinker van de hamza",
+     "ḍamma (ʿayn with ḍamma)": "damma ('ayn met damma)",
+     "ḍamma": "damma",
+     "kasra (ʿayn with kasra)": "kasra ('ayn met kasra)",
+     "kasra (ʿayn with fatḥa)": "kasra ('ayn met fatha)",
+     "kasra": "kasra",
+     "fatḥa, a hamza that is always said": "fatha, een hamza die altijd uitgesproken wordt"
+    }
+   }
+  },
+  "16": {
+   "title": "De naamwoorden van tijd, plaats en werktuig",
+   "body": [
+    "Het laatste deel van het boek geeft de naamwoorden die van het werkwoord gemaakt worden, elk in een eigen kleine tabel. Het eerste is mansar: mansar, mansarani, manasir. Het opschrift noemt drie dingen tegelijk: het naamwoord van tijd (“een tijd van helpen”), het naamwoord van plaats (“een plaats van helpen”) en de masdar mimi (“een helpen”). Eén vorm, drie gebruiken; de zin beslist welk.",
+    "Zijn patroon is maf'al: een mim voor de wortel en een fatha op de voorlaatste letter. De boeken van de sarf geven de regel: het naamwoord van tijd en plaats is maf'al als de mudari' een damma of een fatha op de 'ayn heeft (yansuru, yaftahu), en maf'il als hij een kasra heeft (yadribu, yajlisu), zoals in het bekende majlis, “een plaats van zitten”. De masdar mimi van het gave kale werkwoord is in elke bab maf'al.",
+    "Het naamwoord van het werktuig (ism al-ala) is minsar: minsar, minsarani, manasir: “iets om mee te helpen”. Zijn patroon is hier mif'al; de boeken voegen er nog twee toe, mif'al [met alif] en mif'ala, die veel gewone woorden laten zien: miftah, “een sleutel”, het ding om mee te openen.",
+    "Bekijk de twee tabellen samen: mansar en minsar verschillen alleen in de klinker van de mim, fatha voor tijd en plaats, kasra voor het werktuig, en hun gebroken meervouden zijn hetzelfde, manasir. In zo'n geval laat alleen het enkelvoud, of de zin, zien welk naamwoord bedoeld is."
+   ],
+   "terms": [
+    "het naamwoord van tijd: maf'al, maf'il",
+    "het naamwoord van plaats: maf'al, maf'il",
+    "de masdar met een mim: maf'al",
+    "het naamwoord van het werktuig: mif'al, mif'al [met alif], mif'ala"
+   ],
+   "examples": [
+    "mansarun, mansarani, manasiru: een tijd of plaats van helpen, één, twee, veel",
+    "minsarun, minsarani, manasiru: een werktuig om mee te helpen",
+    "maf'al en mif'al: de twee patronen, een klinker verschil"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke drie dingen kan mansar noemen? Vertaal het in elke betekenis.",
+     "answer": "Een naamwoord van tijd, “een tijd van helpen”; een naamwoord van plaats, “een plaats van helpen”; en een masdar mimi, “een helpen”."
+    },
+    {
+     "prompt": "Geef het patroon van het naamwoord van plaats voor een werkwoord met de mudari' yaftahu, en voor een met de mudari' yajlisu.",
+     "answer": "Maf'al voor yaftahu (fatha op de 'ayn); maf'il voor yajlisu (kasra op de 'ayn), zoals in majlis."
+    },
+    {
+     "prompt": "Hoe onderscheid je manasir als meervoud van mansar van manasir als meervoud van minsar?",
+     "answer": "Het is hetzelfde woord; alleen de zin, of het enkelvoud dat men bedoelt, laat zien of plaatsen of werktuigen bedoeld zijn."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is minsar?",
+     "options": [
+      "Het naamwoord van het werktuig",
+      "Het naamwoord van plaats",
+      "De masdar mimi",
+      "Het verkleinwoord"
+     ],
+     "explanation": "Mif'al: iets om mee te helpen."
+    },
+    {
+     "prompt": "Welke drie gebruiken geeft het opschrift voor mansar?",
+     "options": [
+      "Doener, voorwerp, werktuig",
+      "Tijd, plaats, en de masdar mimi",
+      "Eén keer, wijze, verkleinwoord",
+      "Overtreffende vorm, intensieve vorm, nisba"
+     ],
+     "explanation": "Eén vorm dient voor alle drie."
+    },
+    {
+     "prompt": "Wanneer is het naamwoord van plaats maf'il?",
+     "options": [
+      "Als de mudari' een damma heeft",
+      "Altijd",
+      "Als de mudari' een kasra op de 'ayn heeft",
+      "Nooit"
+     ],
+     "explanation": "Yajlisu → majlis; yansuru → mansar."
+    },
+    {
+     "prompt": "Wat is in het boek het meervoud van zowel mansar als minsar?",
+     "options": [
+      "Mansarat",
+      "Nussar",
+      "Minasir",
+      "Manasir"
+     ],
+     "explanation": "Mafa'il voor beide."
+    },
+    {
+     "prompt": "Op welk patroon van het werktuig staat miftah, “sleutel”?",
+     "options": [
+      "Mif'al [met alif]",
+      "Mif'al",
+      "Maf'al",
+      "Maf'ul"
+     ],
+     "explanation": "De boeken geven mif'al, mif'al [met alif] en mif'ala."
+    },
+    {
+     "prompt": "Wat alleen onderscheidt mansar van minsar?",
+     "options": [
+      "De wortel",
+      "De klinker van de mim",
+      "De uitgang",
+      "Het aantal letters"
+     ],
+     "explanation": "Fatha: tijd of plaats; kasra: werktuig."
+    },
+    {
+     "prompt": "De masdar mimi van het gave kale werkwoord staat op…",
+     "options": [
+      "maf'il in elke bab",
+      "mif'al",
+      "maf'al in elke bab",
+      "maf'ul"
+     ],
+     "explanation": "Anders dan het naamwoord van plaats volgt hij de klinker van de mudari' niet."
+    }
+   ],
+   "diagram": {
+    "caption": "De naamwoorden van tijd, plaats en werktuig van nasara (al-Amthila, p. 253)",
+    "labels": {
+     "Noun": "Naamwoord",
+     "Pattern": "Patroon",
+     "One": "Eén",
+     "Two": "Twee",
+     "Many": "Meer",
+     "time, place, maṣdar mīmī": "tijd, plaats, masdar mimi",
+     "instrument": "werktuig"
+    }
+   }
+  },
+  "17": {
+   "title": "Eén keer en de wijze: marra en naw'",
+   "body": [
+    "Twee vormen tellen of kenmerken de handeling. De vorm van één keer (bina' al-marra) is nasra: nasra, nasratani, nasarat, “één keer helpen, twee keer, meerdere keren”. Zijn patroon is fa'la. De vorm van de wijze (bina' al-naw') is nisra: nisra, nisratani, nisarat, “een manier van helpen”. Zijn patroon is fi'la.",
+    "Beide worden op de masdar gemaakt en verschillen ervan, en van elkaar, door kleine tekens: nasr, de handeling als zodanig; nasra, met een ta', de handeling één keer geteld; nisra, met een kasra en een ta', de handeling van een bepaalde soort. In beide meervouden vocaliseert de druk de sad met een fatha: nasarat, nisarat.",
+    "In de zin dienen ze als het absolute voorwerp van de Ajurrumiyya (haar les 26), dat het aantal of de soort van de handeling laat zien: nasartuhu nasratan, “ik hielp hem één keer”; nasartuhu nasratayni, “twee keer”; nasartuhu nisratan, “ik hielp hem op een bepaalde manier”, meestal gevolgd door een woord dat zegt welke manier.",
+    "De valkuil: nasra en nisra liggen één klinker uit elkaar, zoals mansar en minsar. En de ta' van nasra is de ronde ta' van een naamwoord, met klinker en met tanwin (nasratun), niet de ta' met sukun van de madi nasarat."
+   ],
+   "terms": [
+    "de vorm van één keer: fa'la",
+    "de vorm van de wijze: fi'la",
+    "het patroon van één keer",
+    "het patroon van de wijze"
+   ],
+   "examples": [
+    "nasratun, nasratani, nasaratun: één, twee, meerdere keren helpen",
+    "nisratun, nisratani, nisaratun: een manier van helpen, twee, meerdere",
+    "nasartuhu nasratan, “ik hielp hem één keer”: de vorm van één keer als absoluut voorwerp"
+   ],
+   "tasks": [
+    {
+     "prompt": "Vertaal en noem de vorm: nasratun, nisratun, nasratani, nisaratun.",
+     "answer": "Nasratun: één keer helpen (marra). Nisratun: een manier van helpen (naw'). Nasratani: twee keer helpen (marra, tweevoud). Nisaratun: manieren van helpen (naw', meervoud)."
+    },
+    {
+     "prompt": "Zeg “ik hielp hem twee keer” met de vorm van één keer, en leg de rol van het laatste woord in de zin uit.",
+     "answer": "Nasartuhu nasratayni. Nasratayni is het tweevoud van de vorm van één keer, een absoluut voorwerp in nasb met de ya', dat het aantal van de handeling geeft."
+    },
+    {
+     "prompt": "Hoe onderscheid je het naamwoord nasratun van het werkwoord nasarat?",
+     "answer": "Het naamwoord heeft een sukun op de sad, een ronde ta' met klinker en tanwin (nasratun); het werkwoord heeft een fatha op de sad en de ra' en eindigt op een ta' met sukun (nasarat), “zij hielp”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat noemt nasra?",
+     "options": [
+      "Een manier van helpen",
+      "Eén keer helpen",
+      "Een plaats van helpen",
+      "Een helper"
+     ],
+     "explanation": "De vorm van één keer, fa'la."
+    },
+    {
+     "prompt": "Wat noemt nisra?",
+     "options": [
+      "Eén keer helpen",
+      "Een werktuig",
+      "Een manier van helpen",
+      "De masdar mimi"
+     ],
+     "explanation": "De vorm van de wijze, fi'la."
+    },
+    {
+     "prompt": "Wat is het patroon van de vorm van één keer?",
+     "options": [
+      "Fi'la",
+      "Fu'la",
+      "Maf'ala",
+      "Fa'la"
+     ],
+     "explanation": "Nasra, één keer helpen, staat op fa'la; fi'la is de wijze."
+    },
+    {
+     "prompt": "In nasartuhu nasratan is nasratan…",
+     "options": [
+      "een absoluut voorwerp dat het aantal van de handeling geeft",
+      "de fa'il",
+      "een hal",
+      "een tamyiz"
+     ],
+     "explanation": "Zoals in het hoofdstuk van de Ajurrumiyya over de masdar."
+    },
+    {
+     "prompt": "Hoe vocaliseert de druk het meervoud nasarat?",
+     "options": [
+      "Met een sukun op de sad",
+      "Met een fatha op de sad",
+      "Met een kasra op de sad",
+      "Zonder klinkers"
+     ],
+     "explanation": "Nasarat, nisarat."
+    },
+    {
+     "prompt": "Welk paar verschilt maar in één klinker?",
+     "options": [
+      "Nasra en nasr",
+      "Nasr en nasir",
+      "Nasra en nisra",
+      "Nisra en mansar"
+     ],
+     "explanation": "Fatha of kasra op de eerste letter."
+    },
+    {
+     "prompt": "Wat is het tweevoud van de vorm van één keer?",
+     "options": [
+      "Nasrani",
+      "Nisratani",
+      "Nasirani",
+      "Nasratani"
+     ],
+     "explanation": "Nasrani is het tweevoud van de masdar, nisratani van de wijze."
+    }
+   ],
+   "diagram": {
+    "caption": "Eén keer en wijze (al-Amthila, p. 253)",
+    "labels": {
+     "Form": "Vorm",
+     "Pattern": "Patroon",
+     "One": "Eén",
+     "Two": "Twee",
+     "Many": "Meer",
+     "once (marra)": "één keer (marra)",
+     "manner (nawʿ)": "wijze (naw')"
+    }
+   }
+  },
+  "18": {
+   "title": "Het verkleinwoord en de nisba",
+   "body": [
+    "Het verkleinwoord (ism al-tasghir) maakt een naamwoord klein: nusayr, “een kleine hulp”, met zijn tweevoud nusayrani en meervoud nusayruna; deze druk geeft alleen deze drie. Het patroon is fu'ayl: een damma op de eerste letter, een fatha op de tweede, en een ya' met sukun erna toegevoegd. De commentaren voegen eraan toe dat het verkleinwoord ook genegenheid of geringschatting kan uitdrukken, en veel Arabische namen zijn verkleinwoorden: 'Umayr van 'Amr, Zuhayr van Zahr.",
+    "De nisba (al-ism al-mansub) maakt van een naamwoord een bijvoeglijk naamwoord, “betrekking hebbend op”, “van”: nasri, “betrekking hebbend op hulp”, door een verdubbelde ya' toe te voegen, -iyy. De tabel geeft beide geslachten en drie getallen: nasri, nasriyyani, nasriyyuna; nasriyya, nasriyyatani, nasriyyat. Dezelfde uitgang maakt Makki, “uit Makka”, en 'Arabi, “Arabisch, Arabier”.",
+    "Beide worden op een naamwoord gemaakt, niet op het werkwoord: nusayr en nasri gaan uit van nasr, de masdar. De Amthila zet ze hier omdat ze op één wortel elk patroon verzamelt dat een student zal tegenkomen, werkwoorden en naamwoorden.",
+    "Verwar de -iyy van de nisba niet met de -i van “mijn”: nasri kan gelezen worden als nasriyy, “betrekking hebbend op hulp”, of als nasri, “mijn hulp”. De verdubbelde ya' (geschreven met een shadda) en de tanwin, nasriyyun, laten het bijvoeglijk naamwoord zien."
+   ],
+   "terms": [
+    "het verkleinwoord: fu'ayl",
+    "het patroon van het verkleinwoord van een drieletterig naamwoord",
+    "de nisba, met -iyy",
+    "de verdubbelde ya' van de nisba"
+   ],
+   "examples": [
+    "nusayrun, nusayrani, nusayruna: het verkleinwoord in één, twee, veel",
+    "nasriyyun, nasriyyatun: “betrekking hebbend op hulp”, mannelijk en vrouwelijk",
+    "nasriyyani, nasriyyuna: het tweevoud en het meervoud van de nisba"
+   ],
+   "tasks": [
+    {
+     "prompt": "Beschrijf het patroon fu'ayl in woorden, en laat het zien op nusayr.",
+     "answer": "Een damma op de eerste letter, een fatha op de tweede, en een toegevoegde ya' met sukun: nu-say-r."
+    },
+    {
+     "prompt": "Geef de nisba van nasr voor een vrouw, twee vrouwen en veel vrouwen.",
+     "answer": "Nasriyya, nasriyyatani, nasriyyat."
+    },
+    {
+     "prompt": "Lees نصري zonder klinkers op twee manieren en zeg hoe de klinkers de nisba laten zien.",
+     "answer": "Nasri, “mijn hulp” (het voornaamwoord van de spreker), of nasriyyun, “betrekking hebbend op hulp” (de nisba). De nisba heeft een verdubbelde ya' met shadda en neemt tanwin aan."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat doet het verkleinwoord?",
+     "options": [
+      "Het maakt het meervoud",
+      "Het maakt een bijvoeglijk naamwoord van betrekking",
+      "Het maakt een naamwoord klein (of lief)",
+      "Het maakt er een werkwoord van"
+     ],
+     "explanation": "Nusayr: “een kleine hulp”."
+    },
+    {
+     "prompt": "Wat is het patroon van nusayr?",
+     "options": [
+      "Fa'il",
+      "Fu'al",
+      "Fa''al",
+      "Fu'ayl"
+     ],
+     "explanation": "Damma, fatha, en een toegevoegde ya'."
+    },
+    {
+     "prompt": "Hoe wordt de nisba gemaakt?",
+     "options": [
+      "Door een verdubbelde ya' toe te voegen, -iyy",
+      "Door een mim voor de wortel te zetten",
+      "Door de 'ayn te verdubbelen",
+      "Door -at toe te voegen"
+     ],
+     "explanation": "Nasr → nasriyy; Makka → Makki."
+    },
+    {
+     "prompt": "Nasriyya is…",
+     "options": [
+      "het verkleinwoord",
+      "het vrouwelijke van de nisba",
+      "de vorm van één keer",
+      "de overtreffende vorm"
+     ],
+     "explanation": "Nasri voor een man, nasriyya voor een vrouw."
+    },
+    {
+     "prompt": "Waarop worden het verkleinwoord en de nisba gemaakt?",
+     "options": [
+      "Op de madi",
+      "Op de gebiedende wijs",
+      "Op een naamwoord, hier de masdar nasr",
+      "Op het passief deelwoord"
+     ],
+     "explanation": "Het zijn naamwoorden gemaakt van een naamwoord."
+    },
+    {
+     "prompt": "Hoeveel vormen van het verkleinwoord geeft deze druk?",
+     "options": [
+      "Zes",
+      "Veertien",
+      "Eén",
+      "Drie"
+     ],
+     "explanation": "Nusayr, nusayrani, nusayruna."
+    },
+    {
+     "prompt": "Welke naam is een verkleinwoord?",
+     "options": [
+      "'Umayr",
+      "'Amr",
+      "Ahmad",
+      "Muhammad"
+     ],
+     "explanation": "'Umayr is het verkleinwoord van 'Amr, op fu'ayl."
+    }
+   ],
+   "diagram": {
+    "caption": "Het verkleinwoord en de nisba van nasara (al-Amthila, pp. 253–254)",
+    "labels": {
+     "Form": "Vorm",
+     "One": "Eén",
+     "Two": "Twee",
+     "Many": "Meer",
+     "diminutive": "verkleinwoord",
+     "nisba, man": "nisba, man",
+     "nisba, woman": "nisba, vrouw"
+    }
+   }
+  },
+  "19": {
+   "title": "De intensieve vorm en de overtreffende vorm",
+   "body": [
+    "De intensieve vorm van het actief deelwoord (mubalaghat ism al-fa'il) beschrijft iemand die de handeling veel of vaak verricht: nassar, “een grote helper”. Zijn patroon is hier fa''al, met de 'ayn verdubbeld en een lange a; de tabel geeft nassar, nassarani, nassaruna voor de mannen en nassara, nassaratani, nassarat voor de vrouwen. De boeken noemen ook andere patronen van de intensieve vorm, zoals fa'ul en fa'il (met lange i); de goddelijke namen al-Ghaffar, al-Ghafur en al-Rahim zijn allemaal intensieve vormen.",
+    "De overtreffende vorm (ism al-tafdil, “het naamwoord van de voorkeur”) zegt dat iemand meer van een eigenschap heeft dan een ander: ansar, “behulpzamer”, “het behulpzaamst”. Zijn patroon is af'al voor de man, met het tweevoud ansarani en de meervouden ansaruna en anasir; en fu'la [met alif] voor de vrouw, nusra [met alif], met nusrayani, nusrayat en nusar.",
+    "De nahw geeft het gebruik. Gevolgd door min, “dan”, blijft de overtreffende vorm zoals hij is, wie hij ook beschrijft: Zaydun ansaru min 'Amrin, “Zayd is behulpzamer dan 'Amr”, en dezelfde ansaru voor een vrouw of voor velen. De vrouwelijke en meervoudige vormen worden gebruikt met het lidwoord of in een idafa: al-nusra, “de behulpzaamste (vrouw)”.",
+    "De bekende paren laten het patroon zien: akbar en kubra, “groter, grootst”, asghar en sughra, “kleiner, kleinst”, die de madrasa kent van boektitels zoals al-Sughra en al-Kubra. De overtreffende vorm ansaru is een diptoot: in khafd neemt hij een fatha aan, zonder tanwin."
+   ],
+   "terms": [
+    "de intensieve vorm: iemand die de handeling veel verricht",
+    "het patroon van de intensieve vorm in het boek",
+    "de overtreffende vorm: meer, meest",
+    "zijn patronen voor de man en de vrouw"
+   ],
+   "examples": [
+    "nassarun, nassaratun: een man, een vrouw die veel helpt",
+    "ansaru, nusra [met alif]: behulpzamer, de man en de vrouw",
+    "Zaydun ansaru min 'Amrin, “Zayd is behulpzamer dan 'Amr”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de patronen van nassar, ansar en nusra [met alif] op fa'ala, en zeg wat elk betekent.",
+     "answer": "Nassar: fa''al, de intensieve vorm, “een grote helper”. Ansar: af'al, de overtreffende vorm voor een man, “behulpzamer”. Nusra [met alif]: fu'la [met alif], de overtreffende vorm voor een vrouw, “de behulpzaamste”."
+    },
+    {
+     "prompt": "Zeg “Hind is behulpzamer dan Zayd” en leg uit waarom de overtreffende vorm niet vrouwelijk wordt.",
+     "answer": "Hindun ansaru min Zaydin. Gevolgd door min blijft de overtreffende vorm in zijn mannelijke enkelvoudige vorm, wie hij ook beschrijft."
+    },
+    {
+     "prompt": "Geef de twee meervouden van ansar en van nusra [met alif] in de tabel.",
+     "answer": "Ansar: ansaruna en anasir. Nusra [met alif]: nusrayat en nusar."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat beschrijft nassar?",
+     "options": [
+      "Iemand die geholpen wordt",
+      "Behulpzamer",
+      "Een kleine hulp",
+      "Iemand die veel helpt"
+     ],
+     "explanation": "De intensieve vorm van het actief deelwoord."
+    },
+    {
+     "prompt": "Wat is het patroon van de overtreffende vorm voor een man?",
+     "options": [
+      "Af'al",
+      "Fu'la [met alif]",
+      "Fa''al",
+      "Fa'il"
+     ],
+     "explanation": "Ansar, “behulpzamer”, staat op af'al; fu'la [met alif] is voor de vrouw."
+    },
+    {
+     "prompt": "Wat is in de tabel de overtreffende vorm voor een vrouw?",
+     "options": [
+      "Nassara",
+      "Nusra [met alif]",
+      "Nasira",
+      "Ansara"
+     ],
+     "explanation": "Fu'la [met alif]: nusra [met alif]."
+    },
+    {
+     "prompt": "Waarom verandert ansaru niet in Zaydun ansaru min 'Amrin?",
+     "options": [
+      "Omdat Zayd een man is",
+      "Omdat het een werkwoord is",
+      "Gevolgd door min houdt de overtreffende vorm één vorm",
+      "Omdat 'Amr in khafd staat"
+     ],
+     "explanation": "Dezelfde ansaru dient voor een vrouw of voor velen."
+    },
+    {
+     "prompt": "Welk paar laat de twee patronen van de overtreffende vorm zien?",
+     "options": [
+      "Kabir en kabira",
+      "Katib en katiba",
+      "Kitab en kutub",
+      "Akbar en kubra"
+     ],
+     "explanation": "Af'al en fu'la [met alif], zoals asghar en sughra."
+    },
+    {
+     "prompt": "Al-Ghaffar is…",
+     "options": [
+      "een intensieve vorm op fa''al",
+      "een overtreffende vorm",
+      "een verkleinwoord",
+      "een passief deelwoord"
+     ],
+     "explanation": "Wie veel vergeeft."
+    },
+    {
+     "prompt": "Anasir is een meervoud van…",
+     "options": [
+      "nassar",
+      "ansar",
+      "nasir",
+      "mansar"
+     ],
+     "explanation": "De tabel geeft ansaruna en anasir."
+    }
+   ],
+   "diagram": {
+    "caption": "De intensieve vorm en de overtreffende vorm van nasara (al-Amthila, pp. 254–255)",
+    "labels": {
+     "Form": "Vorm",
+     "One": "Eén",
+     "Two": "Twee",
+     "Plurals": "Meervouden",
+     "intensive, man": "intensieve vorm, man",
+     "intensive, woman": "intensieve vorm, vrouw",
+     "elative, man": "overtreffende vorm, man",
+     "elative, woman": "overtreffende vorm, vrouw"
+    }
+   }
+  },
+  "20": {
+   "title": "De twee werkwoorden van verwondering",
+   "body": [
+    "Het boek eindigt met de twee werkwoorden van verwondering (ta'ajjub), elk op veertien plaatsen. Het eerste is ma af'alahu: ma ansarahu, “wat is hij behulpzaam!”. Het tweede is af'il bihi: ansir bihi, dat hetzelfde betekent. In beide verandert het werkwoord nooit; alleen het voornaamwoord van degene over wie men zich verwondert, gaat door de personen heen: ma ansarahu, ma ansarahuma, ma ansarahum … ma ansarani, ma ansarana; ansir bihi, ansir bihima … ansir bi, ansir bina.",
+    "De nahw verklaart de delen. In ma ansarahu is ma een naamwoord aan het begin van de zin, dat de grammatici van Basra uitleggen als “iets groots”; ansara is een madi op het patroon af'ala, met een verborgen voornaamwoord als fa'il; -hu is zijn maf'ul bihi, degene over wie men zich verwondert. Letterlijk: “iets groots heeft hem behulpzaam gemaakt”. Daarom is het voornaamwoord een voornaamwoord als voorwerp: ma ansarani, met de nun van bescherming, “wat ben ik behulpzaam!”.",
+    "De tweede vorm, ansir bihi, is naar de vorm een gebiedende wijs, maar naar de betekenis een mededeling. Hij ligt vast: men zegt niet ansiru bihim voor velen; de bi- en zijn voornaamwoord dragen alle verandering. De druk verbindt elke vorm met wa- aan het opzeggen: wa-ansir bihi.",
+    "De Koran gebruikt beide: qutila al-insanu ma akfarahu, “vervloekt zij de mens! wat is hij ondankbaar!” (Koran 80:17), en asmi' bihim wa-absir, “hoe goed zullen zij horen en zien!” (Koran 19:38).",
+    "Hiermee is de Amthila compleet: één werkwoord, uitgezet in elke vorm die een beginner nodig heeft, hardop opgezegd tot het gekend wordt. In de Ottomaanse madrasa komen daarna de Bina en de Maqsud, die uitleggen hoe deze vormen gebouwd worden en hoe de andere babs en patronen ze volgen; al-'Izzi en Marah al-arwah gaan met dezelfde stof verder."
+   ],
+   "terms": [
+    "verwondering: “wat is hij …!”",
+    "het eerste werkwoord van verwondering",
+    "het tweede werkwoord van verwondering, alleen naar de vorm een gebod",
+    "degene over wie men zich verwondert: het voornaamwoord dat verandert"
+   ],
+   "examples": [
+    "ma ansarahu, “wat is hij behulpzaam!”; ma ansarani, “wat ben ik behulpzaam!”",
+    "wa-ansir bihim, “wat zijn zij behulpzaam!”: het werkwoord vast, het voornaamwoord veranderend",
+    "qutila al-insanu ma akfarahu, “vervloekt zij de mens! wat is hij ondankbaar!” (Koran 80:17)",
+    "asmi' bihim wa-absir, “hoe goed zullen zij horen en zien!” (Koran 19:38)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Vertaal: ma ansaraha; ma ansarakum; ansir bihinna; ansir bina.",
+     "answer": "“Wat is zij behulpzaam!”; “wat zijn jullie (mannen) behulpzaam!”; “wat zijn zij (vrouwen) behulpzaam!”; “wat zijn wij behulpzaam!”."
+    },
+    {
+     "prompt": "Ontleed ma ansarahu woord voor woord, volgens de opvatting van Basra.",
+     "answer": "Ma: een naamwoord, “iets groots”, aan het begin van de zin (mubtada'). Ansara: een madi op af'ala, zijn fa'il een verborgen voornaamwoord dat naar ma verwijst. -hu: een aangehecht voornaamwoord, zijn maf'ul bihi. Het werkwoord met zijn fa'il en maf'ul bihi is de khabar van ma."
+    },
+    {
+     "prompt": "Welk deel van elk werkwoord van verwondering verandert door de veertien personen heen, en welk nooit?",
+     "answer": "In ma af'alahu verandert alleen het voornaamwoord als voorwerp na het werkwoord (-hu, -huma, -hum …); ma ansara blijft. In af'il bihi verandert alleen het voornaamwoord na bi-; ansir neemt nooit een uitgang van getal of geslacht aan."
+    },
+    {
+     "prompt": "Zoek het werkwoord van verwondering in Koran 80:17 en geef zijn patroon.",
+     "answer": "Ma akfarahu, “wat is hij ondankbaar!”: het eerste werkwoord van verwondering, ma af'alahu, op de wortel van kufr."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat betekent ma ansarahu?",
+     "options": [
+      "Wat is hij behulpzaam!",
+      "Hij hielp hem niet",
+      "Wat hielp hem?",
+      "Help hem!"
+     ],
+     "explanation": "Het eerste werkwoord van verwondering."
+    },
+    {
+     "prompt": "Wat verandert er door de personen van ma ansarahu heen?",
+     "options": [
+      "De uitgang van het werkwoord",
+      "Alleen het voornaamwoord na het werkwoord",
+      "De ma",
+      "De wortel"
+     ],
+     "explanation": "Ma ansarahu, ma ansarahum, ma ansarani…"
+    },
+    {
+     "prompt": "Ansir bihi is naar de vorm…",
+     "options": [
+      "een madi",
+      "een masdar",
+      "een gebiedende wijs, maar naar de betekenis een uitroep van verwondering",
+      "een ontkenning"
+     ],
+     "explanation": "Het ligt vast; alleen het voornaamwoord na bi- verandert."
+    },
+    {
+     "prompt": "“Wat ben ik behulpzaam!” is…",
+     "options": [
+      "Ma ansari",
+      "Ma ansartu",
+      "Ansir bika",
+      "Ma ansarani"
+     ],
+     "explanation": "Het voornaamwoord als voorwerp -ni, met de nun van bescherming."
+    },
+    {
+     "prompt": "Wat is ma in ma ansarahu volgens de opvatting van Basra?",
+     "options": [
+      "Een naamwoord dat “iets groots” betekent",
+      "Een partikel van ontkenning",
+      "Een vraagwoord",
+      "Een partikel van de voorwaarde"
+     ],
+     "explanation": "“Iets groots heeft hem behulpzaam gemaakt.”"
+    },
+    {
+     "prompt": "Welke uitdrukking uit de Koran gebruikt het tweede werkwoord van verwondering?",
+     "options": [
+      "Ma akfarahu (Koran 80:17)",
+      "Asmi' bihim wa-absir (Koran 19:38)",
+      "La rayba fihi (Koran 2:2)",
+      "Iyyaka na'budu (Koran 1:5)"
+     ],
+     "explanation": "Af'il bihi: asmi' bihim."
+    },
+    {
+     "prompt": "Welke boeken komen hierna op het Ottomaanse pad?",
+     "options": [
+      "De Alfiyya en de Qatr al-nada",
+      "Alleen de Ajurrumiyya",
+      "De Bina en de Maqsud",
+      "Geen"
+     ],
+     "explanation": "Ze leggen uit hoe de vormen van de Amthila gebouwd worden."
+    }
+   ],
+   "diagram": {
+    "caption": "De twee werkwoorden van verwondering van nasara (al-Amthila, pp. 255–256)",
+    "labels": {
+     "Of whom": "Over wie",
+     "First form": "Eerste vorm",
+     "Second form": "Tweede vorm",
+     "him": "hem",
+     "them two (men)": "hen tweeën (mannen)",
+     "them (men)": "hen (mannen)",
+     "her": "haar",
+     "them two (women)": "hen tweeën (vrouwen)",
+     "them (women)": "hen (vrouwen)",
+     "you (man)": "jou (man)",
+     "you two (men)": "jullie tweeën (mannen)",
+     "you (men)": "jullie (mannen)",
+     "you (woman)": "jou (vrouw)",
+     "you two (women)": "jullie tweeën (vrouwen)",
+     "you (women)": "jullie (vrouwen)",
+     "me": "mij",
+     "us": "ons"
+    }
+   }
+  }
+ },
+ "title": "al-Amthila al-mukhtalifa",
+ "summary": "De Amthila (Turks Emsile), een kort anoniem boek met tabellen dat de hele sarf uitzet op één werkwoord, nasara, “helpen”. Het is het eerste boek van de Ottomaanse madrasa, uit het hoofd geleerd voor elk ander, en gevolgd door de Bina, de Maqsud, al-'Izzi en Marah al-arwah, waarmee het samen gedrukt wordt in de Majmu'at al-sarf. Het opent met de “verschillende vormen”, één vorm van elke soort in één adem opgezegd, en geeft dan de “regelmatige vormen” van elke soort volledig: de veertien personen van de madi en de mudari', actief en passief, de masdar en de deelwoorden, de vijf ontkenningen, gebod en verbod, en de naamwoorden die van het werkwoord zijn afgeleid. De lessen leggen elke tabel uit, hoe de madrasa haar opzegt, en hoe ze overgaat op andere gave werkwoorden, met de vormen van de druk en van het vervoegingshulpmiddel van The Nahwi."
+}

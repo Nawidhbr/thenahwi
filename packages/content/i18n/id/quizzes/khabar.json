@@ -1,0 +1,34 @@
+{
+  "items": {
+    "khabar-1": {
+      "prompt": "Apa kedudukan qa'imun di sini?",
+      "options": [
+        "khabar",
+        "mubtada'",
+        "fa'il",
+        "maf'ul bih"
+      ],
+      "explanation": "Qa'imun memberitahukan keadaan Zaid: ia khabar."
+    },
+    "khabar-2": {
+      "prompt": "Apa khabar di sini?",
+      "options": [
+        "syibhul jumlah fid-dari",
+        "zaidun",
+        "ad-dari saja",
+        "Tidak ada"
+      ],
+      "explanation": "Syibhul jumlah fid-dari menyempurnakan makna: ia menjadi khabar."
+    },
+    "khabar-3": {
+      "prompt": "Kata mana yang melengkapi kalimat ini dengan sesuai?",
+      "options": [
+        "مُجْتَهِدَانِ",
+        "مُجْتَهِدٌ",
+        "مُجْتَهِدُونَ",
+        "مُجْتَهِدَةٌ"
+      ],
+      "explanation": "Mubtada'-nya mutsanna mudzakkar, maka khabarnya juga: mujtahidani."
+    }
+  }
+}

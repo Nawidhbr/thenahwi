@@ -1,0 +1,2000 @@
+{
+ "parts": {
+  "bare-triliteral": "De zes babs van het kale drieletterige werkwoord",
+  "augmented-triliteral": "De twaalf babs van het vermeerderde drieletterige werkwoord",
+  "quadriliteral": "Het vierletterige werkwoord en de aangehechte vormen",
+  "divisions": "De acht indelingen en de zeven klassen"
+ },
+ "lessons": {
+  "1": {
+   "title": "Vijfendertig babs; de bab van nasara",
+   "body": [
+    "De Bina begint met een telling: “de babs van de vervoeging zijn vijfendertig”. Een bab (letterlijk “deur”) is een patroon waarop werkwoorden gebouwd worden: het kale drieletterige werkwoord heeft er zes, het vermeerderde drieletterige werkwoord twaalf, het kale vierletterige werkwoord één, het vermeerderde vierletterige werkwoord drie, en nog dertien zijn “aangehecht” aan de vierletterige patronen. De Amthila leerde één werkwoord in al zijn vormen; de Bina leert de patronen waarop alle werkwoorden staan.",
+    "Elke bab wordt in dezelfde volgorde gegeven, en die volgorde is het leren waard. Eerst het patroon (wazn) op fa'ala: fa'ala yaf'ulu. Dan zijn model (mawzun), een echt werkwoord dat erop gewogen wordt: nasara yansuru. Dan zijn teken ('alama), waaraan je het herkent: hier heeft de 'ayn een fatha in de madi en een damma in de mudari'. Dan waarvoor hij gebouwd is, wat het boek zijn bina' noemt: “meestal om overgankelijk te maken, en hij kan onovergankelijk zijn”. Ten slotte een voorbeeld van elk gebruik: nasara Zaydun 'Amran, “Zayd hielp 'Amr”; kharaja Zaydun, “Zayd ging naar buiten”.",
+    "Let op het woord bina'. In de nahw betekent het de vaste uitgang van een woord (les 3 van de Ajurrumiyya). Hier, in de titel van het boek en in elke bab, betekent het waarvoor het patroon gebouwd is, zijn gebruik en betekenis. Hetzelfde woord dient twee wetenschappen in twee betekenissen.",
+    "Het boek definieert dan de twee gebruiken. Het overgankelijke werkwoord (muta'addi) is het werkwoord waarvan de handeling “voorbij de doener overgaat naar het voorwerp”: nasara Zaydun 'Amran, het helpen bereikt 'Amr. Het onovergankelijke werkwoord (lazim) is het werkwoord waarvan de handeling “niet voorbij de doener gaat, maar in hemzelf plaatsvindt”: kharaja Zaydun, het naar buiten gaan blijft bij Zayd. De twee woorden komen terug in elke bab die volgt."
+   ],
+   "terms": [
+    "een patroon waarop werkwoorden gebouwd worden: vijfendertig in totaal",
+    "het patroon, geschreven op fa'ala",
+    "het model: een echt werkwoord dat op het patroon gewogen wordt",
+    "het teken waaraan een bab herkend wordt",
+    "overgankelijk: de handeling gaat over naar een voorwerp",
+    "onovergankelijk: de handeling blijft bij de doener"
+   ],
+   "examples": [
+    "fa'ala yaf'ulu, het patroon; nasara yansuru, zijn model",
+    "nasara Zaydun 'Amran, “Zayd hielp 'Amr”: overgankelijk",
+    "kharaja Zaydun, “Zayd ging naar buiten”: onovergankelijk, in dezelfde bab"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de vijf dingen die de Bina over de eerste bab zegt, in zijn volgorde.",
+     "answer": "Het patroon: fa'ala yaf'ulu. Het model: nasara yansuru. Het teken: de 'ayn heeft een fatha in de madi en een damma in de mudari'. Waarvoor hij gebouwd is: meestal overgankelijk, soms onovergankelijk. De voorbeelden: nasara Zaydun 'Amran (overgankelijk), kharaja Zaydun (onovergankelijk)."
+    },
+    {
+     "prompt": "Overgankelijk of onovergankelijk? kataba Zaydun al-darsa; jalasa Zaydun; fataha Zaydun al-baba; dhahaba Zaydun.",
+     "answer": "Kataba: overgankelijk (het schrijven gaat over naar de les). Jalasa: onovergankelijk. Fataha: overgankelijk. Dhahaba: onovergankelijk."
+    },
+    {
+     "prompt": "Geef de madi en de mudari' van drie andere werkwoorden van de bab van nasara: kataba, kharaja, dakhala.",
+     "answer": "Kataba, yaktubu; kharaja, yakhruju; dakhala, yadkhulu: fatha op de 'ayn in de madi, damma in de mudari'."
+    },
+    {
+     "prompt": "Wat betekent bina' in dit boek, en wat betekent het in de nahw?",
+     "answer": "In de Bina is het waarvoor een patroon gebouwd is, zijn gebruik (overgankelijk maken, versterken …). In de nahw is het de vaste uitgang van een woord dat geen i'rab aanneemt."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel babs telt de Bina?",
+     "options": [
+      "Zes",
+      "Vijfendertig",
+      "Twaalf",
+      "Veertien"
+     ],
+     "explanation": "6 + 12 + 1 + 3 + 13 aangehechte."
+    },
+    {
+     "prompt": "Wat is het teken van de bab van nasara?",
+     "options": [
+      "Fatha in beide",
+      "Kasra in de madi, fatha in de mudari'",
+      "Fatha op de 'ayn in de madi, damma in de mudari'",
+      "Damma in beide"
+     ],
+     "explanation": "Nasara, yansuru."
+    },
+    {
+     "prompt": "Wat is de mawzun van een bab?",
+     "options": [
+      "Het patroon op fa'ala",
+      "Zijn masdar",
+      "Zijn teken",
+      "Een echt werkwoord dat op zijn patroon gewogen wordt"
+     ],
+     "explanation": "Nasara yansuru is de mawzun van fa'ala yaf'ulu."
+    },
+    {
+     "prompt": "Wat betekent “bina'” in de Bina?",
+     "options": [
+      "Waarvoor een patroon gebouwd is: zijn gebruik",
+      "De vaste uitgang van een woord",
+      "De wortel",
+      "De masdar"
+     ],
+     "explanation": "In de nahw betekent hetzelfde woord de vaste uitgang."
+    },
+    {
+     "prompt": "Kharaja Zaydun is…",
+     "options": [
+      "overgankelijk",
+      "onovergankelijk",
+      "passief",
+      "een naamwoordzin"
+     ],
+     "explanation": "Het naar buiten gaan blijft bij Zayd."
+    },
+    {
+     "prompt": "Hoe wordt het overgankelijke werkwoord gedefinieerd?",
+     "options": [
+      "Het heeft een doener",
+      "Het staat in de madi",
+      "Zijn handeling gaat voorbij de doener over naar het voorwerp",
+      "Zijn handeling blijft in de doener"
+     ],
+     "explanation": "Nasara Zaydun 'Amran."
+    },
+    {
+     "prompt": "Hoeveel babs heeft het kale drieletterige werkwoord?",
+     "options": [
+      "Twaalf",
+      "Eén",
+      "Dertien",
+      "Zes"
+     ],
+     "explanation": "Nasara, daraba, fataha, 'alima, hasuna, hasiba."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijfendertig babs van de Bina.",
+    "labels": {
+     "The thirty-five bābs": "De vijfendertig babs",
+     "Three-letter verb": "Drieletterig werkwoord",
+     "bare: 6": "kaal: 6",
+     "augmented: 12": "vermeerderd: 12",
+     "Four-letter verb": "Vierletterig werkwoord",
+     "bare: 1": "kaal: 1",
+     "augmented: 3": "vermeerderd: 3",
+     "Attached (mulḥaq)": "Aangehecht (mulhaq)",
+     "to daḥraja: 6": "aan dahraja: 6",
+     "to tadaḥraja: 5": "aan tadahraja: 5",
+     "to iḥranjama: 2": "aan ihranjama: 2"
+    }
+   }
+  },
+  "2": {
+   "title": "De babs van daraba en fataha",
+   "body": [
+    "De tweede bab is fa'ala yaf'ilu, met als model daraba yadribu, “slaan”. Zijn teken: de 'ayn heeft een fatha in de madi en een kasra in de mudari' (het boek noemt de mudari' hier al-ghabir, een oudere naam die het naast al-mudari' gebruikt). Ook hij is meestal overgankelijk, daraba Zaydun 'Amran, “Zayd sloeg 'Amr”, en soms onovergankelijk, jalasa Zaydun, “Zayd ging zitten”.",
+    "De derde bab is fa'ala yaf'alu, met als model fataha yaftahu, “openen”: een fatha op de 'ayn in zowel de madi als de mudari'. Hij heeft een voorwaarde die de andere missen: de 'ayn of de lam van het werkwoord moet een van de zes keelletters (huruf al-halq) zijn: ha' (de zware h), kha', 'ayn, ghayn, ha' (de lichte h) en hamza. In fataha is de lam een ha' (de zware h); in dhahaba, “gaan”, het onovergankelijke voorbeeld, is de 'ayn een ha' (de lichte h).",
+    "De commentaren leggen uit waarom: een keelletter is zwaar, en de lichte fatha ernaast maakt het woord makkelijker. Maar de voorwaarde werkt maar één kant op. Elk werkwoord van deze bab heeft een keelletter, maar niet elk werkwoord met een keelletter is van deze bab: dakhala, “binnengaan”, heeft een kha' als 'ayn en is van de bab van nasara, dakhala yadkhulu. De bab van een werkwoord wordt dus nog steeds uit het woordenboek geleerd; de voorwaarde zegt alleen wat mogelijk is.",
+    "De drie babs van deze les en de vorige hebben allemaal een fatha in de madi (fa'ala) en verschillen alleen in de mudari': yaf'ulu, yaf'ilu, yaf'alu. Die ene klinker van de mudari' is wat de student van elk nieuw werkwoord moet weten, en daarom vraagt het vervoegingshulpmiddel van The Nahwi naar de bab."
+   ],
+   "terms": [
+    "de bab van daraba: kasra in de mudari'",
+    "de bab van fataha: fatha in beide",
+    "de zes keelletters: h, kh, ', gh, h, '",
+    "een oudere naam voor de mudari'"
+   ],
+   "examples": [
+    "daraba Zaydun 'Amran, overgankelijk; jalasa Zaydun, onovergankelijk: de bab van daraba",
+    "fataha Zaydun al-baba, “Zayd opende de deur”; dhahaba Zaydun, “Zayd ging”: de bab van fataha",
+    "dakhala, yadkhulu: een keelletter, en toch de bab van nasara"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke bab? Geef het patroon: jalasa yajlisu; fataha yaftahu; kharaja yakhruju; daraba yadribu.",
+     "answer": "Jalasa yajlisu: fa'ala yaf'ilu (de bab van daraba). Fataha yaftahu: fa'ala yaf'alu. Kharaja yakhruju: fa'ala yaf'ulu (de bab van nasara). Daraba yadribu: fa'ala yaf'ilu."
+    },
+    {
+     "prompt": "Noem de keelletter en zijn plaats ('ayn of lam) in fataha en dhahaba.",
+     "answer": "Fataha: de ha' (de zware h), zijn lam. Dhahaba: de ha' (de lichte h), zijn 'ayn."
+    },
+    {
+     "prompt": "Dakhala heeft een keelletter. Waarom is het niet van de bab van fataha?",
+     "answer": "De keelletter is een voorwaarde van de bab van fataha, geen oorzaak: elk werkwoord van die bab heeft er een, maar een werkwoord met een keelletter kan bij een andere bab horen. Dakhala wordt gehoord als dakhala yadkhulu, de bab van nasara."
+    },
+    {
+     "prompt": "Geef de gebiedende wijs tegen één man van jalasa en van fataha.",
+     "answer": "Ijlis; iftah."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is het teken van de bab van daraba?",
+     "options": [
+      "Fatha in beide",
+      "Kasra in beide",
+      "Fatha op de 'ayn in de madi, kasra in de mudari'",
+      "Damma in beide"
+     ],
+     "explanation": "Daraba, yadribu."
+    },
+    {
+     "prompt": "Welke voorwaarde heeft de bab van fataha?",
+     "options": [
+      "Hij moet overgankelijk zijn",
+      "Zijn fa' is een zwakke letter",
+      "Hij heeft vier letters",
+      "Zijn 'ayn of lam is een keelletter"
+     ],
+     "explanation": "Ha' (de zware h), kha', 'ayn, ghayn, ha' (de lichte h) of hamza."
+    },
+    {
+     "prompt": "Welke is een keelletter?",
+     "options": [
+      "Ghayn",
+      "Qaf",
+      "Kaf",
+      "Mim"
+     ],
+     "explanation": "De zes: h, kh, ', gh, h, '."
+    },
+    {
+     "prompt": "Dakhala yadkhulu hoort bij de bab van…",
+     "options": [
+      "fataha",
+      "nasara",
+      "daraba",
+      "'alima"
+     ],
+     "explanation": "Een keelletter dwingt de bab van fataha niet af."
+    },
+    {
+     "prompt": "Wat is al-ghabir in de Bina?",
+     "options": [
+      "De madi",
+      "De gebiedende wijs",
+      "De mudari'",
+      "De masdar"
+     ],
+     "explanation": "Een oudere naam die het boek naast al-mudari' gebruikt."
+    },
+    {
+     "prompt": "Jalasa Zaydun is het voorbeeld van het boek van…",
+     "options": [
+      "het overgankelijke in de bab van daraba",
+      "de bab van fataha",
+      "de bab van nasara",
+      "het onovergankelijke in de bab van daraba"
+     ],
+     "explanation": "Jalasa, yajlisu: fa'ala yaf'ilu."
+    },
+    {
+     "prompt": "Wat hebben nasara, daraba en fataha gemeen?",
+     "options": [
+      "Een fatha op de 'ayn in de madi",
+      "De klinker van de mudari'",
+      "Een keelletter",
+      "Dat ze onovergankelijk zijn"
+     ],
+     "explanation": "Ze verschillen alleen in de mudari': yaf'ulu, yaf'ilu, yaf'alu."
+    }
+   ],
+   "diagram": {
+    "caption": "De drie babs met een fatha in de madi",
+    "labels": {
+     "Bāb": "Bab",
+     "Past": "Madi",
+     "Present": "Mudari'",
+     "Transitive": "Overgankelijk",
+     "Intransitive": "Onovergankelijk"
+    }
+   }
+  },
+  "3": {
+   "title": "De babs van 'alima, hasuna en hasiba",
+   "body": [
+    "De vierde bab is fa'ila yaf'alu, met als model 'alima ya'lamu, “weten”: een kasra op de 'ayn in de madi, een fatha in de mudari'. Overgankelijk: 'alima Zaydun al-mas'alata, “Zayd kende de kwestie”; onovergankelijk: wajila Zaydun, “Zayd was bang”. Andere boeken nemen sami'a yasma'u, “horen”, als model van deze bab, en het vervoegingshulpmiddel van The Nahwi noemt hem naar sami'a; het patroon is hetzelfde.",
+    "De vijfde bab is fa'ula yaf'ulu, met als model hasuna yahsunu, “mooi, goed zijn”: een damma op de 'ayn in beide. Hij is “alleen onovergankelijk”: hasuna Zaydun, “Zayd was goed”. Zijn werkwoorden noemen eigenschappen die iemand van nature heeft, schoonheid, edelheid, grootte, en daarom nemen ze geen maf'ul bihi; het vervoegingshulpmiddel noemt deze bab naar karuma, “edel zijn”. Zijn bijvoeglijk naamwoord staat meestal niet op fa'il maar op een ander patroon, hasan, karim, de sifa mushabbaha die de 'Awamil onderwijst.",
+    "De zesde bab is fa'ila yaf'ilu, met als model hasiba yahsibu, “rekenen, menen”: een kasra op de 'ayn in beide. Het is de zeldzaamste van de zes. Zijn overgankelijke voorbeeld is een werkwoord van het hart met twee voorwerpen: hasiba Zaydun 'Amran fadilan, “Zayd hield 'Amr voor voortreffelijk”, zoals bij de zusters van zanantu in de Ajurrumiyya. Het onovergankelijke voorbeeld dat de druk geeft, is waritha Zaydun, “Zayd erfde”.",
+    "Nu kunnen de zes naast elkaar gezet worden. Drie hebben een fatha in de madi (fa'ala), en hun mudari' heeft u, i, a. Twee hebben een kasra in de madi (fa'ila), met a en i in de mudari'. Eén heeft een damma in de madi (fa'ula), met u in de mudari'. Zes paren klinkers, en elk kaal drieletterig werkwoord in het Arabisch staat in een daarvan."
+   ],
+   "terms": [
+    "de bab van 'alima (sami'a)",
+    "de bab van hasuna (karuma): alleen onovergankelijk",
+    "de bab van hasiba",
+    "het kale drieletterige werkwoord"
+   ],
+   "examples": [
+    "'alima Zaydun al-mas'alata, overgankelijk; wajila Zaydun, onovergankelijk",
+    "hasuna Zaydun, “Zayd was goed”: de bab die alleen onovergankelijk is",
+    "hasiba Zaydun 'Amran fadilan, “Zayd hield 'Amr voor voortreffelijk”: twee voorwerpen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de bab van elk naar zijn patroon: sami'a yasma'u; karuma yakrumu; hasiba yahsibu; 'alima ya'lamu.",
+     "answer": "Sami'a yasma'u: fa'ila yaf'alu. Karuma yakrumu: fa'ula yaf'ulu. Hasiba yahsibu: fa'ila yaf'ilu. 'Alima ya'lamu: fa'ila yaf'alu (dezelfde bab als sami'a)."
+    },
+    {
+     "prompt": "Waarom kan een werkwoord van de bab van hasuna nooit een maf'ul bihi nemen?",
+     "answer": "Zijn werkwoorden noemen eigenschappen die de doener van nature heeft (goed, edel, groot zijn); er gaat niets van de doener over naar een ander. De Bina zegt dat hij alleen onovergankelijk is."
+    },
+    {
+     "prompt": "Noem in hasiba Zaydun 'Amran fadilan de fa'il en de twee voorwerpen, en zeg bij welke groep van de nahw hasiba hoort.",
+     "answer": "Fa'il: Zaydun. Eerste voorwerp: 'Amran; tweede voorwerp: fadilan. Hasiba is een van de zusters van zanantu, de werkwoorden van het hart die twee voorwerpen nemen."
+    },
+    {
+     "prompt": "Zeg de zes babs op met hun modellen.",
+     "answer": "Fa'ala yaf'ulu (nasara yansuru); fa'ala yaf'ilu (daraba yadribu); fa'ala yaf'alu (fataha yaftahu); fa'ila yaf'alu ('alima ya'lamu); fa'ula yaf'ulu (hasuna yahsunu); fa'ila yaf'ilu (hasiba yahsibu)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is het teken van de bab van 'alima?",
+     "options": [
+      "Fatha in beide",
+      "Kasra in beide",
+      "Damma in beide",
+      "Kasra in de madi, fatha in de mudari'"
+     ],
+     "explanation": "'Alima, ya'lamu."
+    },
+    {
+     "prompt": "Welke bab is alleen onovergankelijk?",
+     "options": [
+      "Fa'ula yaf'ulu (hasuna)",
+      "Fa'ala yaf'ulu (nasara)",
+      "Fa'ila yaf'alu ('alima)",
+      "Fa'ila yaf'ilu (hasiba)"
+     ],
+     "explanation": "Zijn werkwoorden noemen eigenschappen van nature."
+    },
+    {
+     "prompt": "Wat is in de Bina het model van fa'ila yaf'ilu?",
+     "options": [
+      "'Alima ya'lamu",
+      "Hasiba yahsibu",
+      "Hasuna yahsunu",
+      "Fataha yaftahu"
+     ],
+     "explanation": "Kasra in zowel madi als mudari'."
+    },
+    {
+     "prompt": "Hoe noemt het hulpmiddel van The Nahwi de bab van 'alima?",
+     "options": [
+      "Naar karuma",
+      "Naar hasiba",
+      "Naar sami'a",
+      "Naar fataha"
+     ],
+     "explanation": "Sami'a yasma'u heeft hetzelfde patroon."
+    },
+    {
+     "prompt": "Hasiba Zaydun 'Amran fadilan heeft…",
+     "options": [
+      "één voorwerp",
+      "geen voorwerp",
+      "een hal en geen voorwerp",
+      "twee voorwerpen"
+     ],
+     "explanation": "Hasiba is een werkwoord van het hart, een zuster van zanantu."
+    },
+    {
+     "prompt": "Hoeveel babs hebben een kasra op de 'ayn in de madi?",
+     "options": [
+      "Twee",
+      "Drie",
+      "Eén",
+      "Zes"
+     ],
+     "explanation": "'Alima ya'lamu en hasiba yahsibu."
+    },
+    {
+     "prompt": "Wat is het gebruikelijke bijvoeglijk naamwoord van een werkwoord van de bab van hasuna?",
+     "options": [
+      "Een actief deelwoord op fa'il",
+      "Een sifa mushabbaha zoals hasan",
+      "Een passief deelwoord",
+      "Alleen een overtreffende vorm"
+     ],
+     "explanation": "Hasan, karim: het bijvoeglijk naamwoord dat op het deelwoord lijkt."
+    }
+   ],
+   "diagram": {
+    "caption": "De zes babs van het kale drieletterige werkwoord",
+    "labels": {
+     "Bāb": "Bab",
+     "Model": "Model",
+     "Past ʿayn": "'Ayn in de madi",
+     "Present ʿayn": "'Ayn in de mudari'",
+     "Name in the tool": "Naam in het hulpmiddel",
+     "a": "a",
+     "u": "u",
+     "nasara": "nasara",
+     "i": "i",
+     "daraba": "daraba",
+     "fataha": "fataha",
+     "samia": "samia",
+     "karuma": "karuma",
+     "hasiba": "hasiba"
+    }
+   }
+  },
+  "4": {
+   "title": "Eén letter toegevoegd: af'ala, fa''ala, fa'ala [met alif]",
+   "body": [
+    "Twaalf babs zijn voor het drieletterige werkwoord met toegevoegde letters (al-mazid fihi), in drie soorten: één letter toegevoegd (drie babs), twee letters (vijf), drie letters (vier). Vanaf hier geeft het boek elke bab ook met zijn masdar, want de masdars van de vermeerderde werkwoorden volgen regels: af'ala yuf'ilu if'alan.",
+    "De eerste bab voegt een hamza vooraan toe: af'ala yuf'ilu if'alan, met als model akrama yukrimu ikraman. Hij is meestal om overgankelijk te maken (ta'diya): karuma Zaydun, “Zayd was edel”, wordt akrama Zaydun 'Amran, “Zayd eerde 'Amr”, maakte hem tot voorwerp van edelheid. Soms is hij onovergankelijk: asbaha al-rajulu, “de man kwam in de ochtend”.",
+    "De tweede bab verdubbelt de 'ayn: fa''ala yufa''ilu taf'ilan, met als model farraha yufarrihu tafrihan, “verblijden”. De toegevoegde letter staat “tussen de fa' en de 'ayn, van dezelfde soort als de 'ayn”, en zo beschrijft het boek een verdubbeling. Hij is meestal voor het vermenigvuldigen (takthir): in de handeling, tawwafa Zaydun al-ka'bata, “Zayd ging vele malen rond de Ka'ba”; in de doeners, mawwata al-ibilu, “de kamelen stierven in groten getale”; in het voorwerp, ghallaqa Zaydun al-baba, “Zayd sloot de deur keer op keer”. Veel werkwoorden van deze bab maken ook overgankelijk: 'alima, “weten”, 'allama, “onderwijzen”.",
+    "De derde bab voegt een alif na de fa' toe: fa'ala yufa'ilu mufa'alatan, met als model qatala yuqatilu muqatalatan, met nog twee masdars, qitalan en qitalan [met lange i]. Hij is meestal voor de wederkerigheid tussen twee (musharaka): qatala Zaydun 'Amran, “Zayd vocht met 'Amr”, waarbij elk de ander aandoet wat de ander hem aandoet; soms voor één alleen: qatalahumu llahu, “moge God hen bestrijden” (Koran 9:30).",
+    "In alle drie heeft de mudari' een damma op zijn voorvoegsel, yukrimu, yufarrihu, yuqatilu, zoals elke vierletterige madi heeft (de les van de Amthila over de mudari'). Het vervoegingshulpmiddel geeft deze drie babs volledig als de patronen 4, 2 en 3."
+   ],
+   "terms": [
+    "het vermeerderde werkwoord: letters toegevoegd aan de wortel",
+    "overgankelijk maken",
+    "vermenigvuldigen: in de handeling, de doeners of de voorwerpen",
+    "wederkerigheid tussen twee",
+    "de masdars waarnaar de drie babs genoemd worden"
+   ],
+   "examples": [
+    "akrama Zaydun 'Amran, “Zayd eerde 'Amr”: af'ala, overgankelijk maken",
+    "tawwafa Zaydun al-ka'bata, “Zayd ging vele malen rond de Ka'ba”: fa''ala, vermenigvuldigen",
+    "'allama, yu'allimu, ta'lim, “onderwijzen”: fa''ala maakt 'alima overgankelijk",
+    "qatala Zaydun 'Amran, “Zayd vocht met 'Amr”: fa'ala [met alif], wederkerigheid"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de madi, mudari', masdar, het actief deelwoord en de gebiedende wijs van akhraja (af'ala van kharaja), 'allama (fa''ala van 'alima) en kataba [met alif] (fa'ala van kataba).",
+     "answer": "Akhraja, yukhriju, ikhraj, mukhrij, akhrij. 'Allama, yu'allimu, ta'lim, mu'allim, 'allim. Kataba [met alif], yukatibu, mukataba, mukatib, katib [gebiedende wijs]."
+    },
+    {
+     "prompt": "Noem de bab en waarvoor hij gebouwd is: akrama Zaydun 'Amran; mawwata al-ibilu; qatala Zaydun 'Amran.",
+     "answer": "Akrama: af'ala, overgankelijk maken. Mawwata: fa''ala, vermenigvuldigen in de doeners (veel kamelen stierven). Qatala [met alif]: fa'ala [met alif], wederkerigheid tussen twee."
+    },
+    {
+     "prompt": "Kharaja Zaydun betekent “Zayd ging naar buiten”. Wat betekent akhraja Zaydun 'Amran, en wat heeft de hamza gedaan?",
+     "answer": "“Zayd bracht 'Amr naar buiten.” De hamza van af'ala heeft een onovergankelijk werkwoord overgankelijk gemaakt: wie naar buiten ging, wordt het voorwerp, en een nieuwe doener laat hem naar buiten gaan."
+    },
+    {
+     "prompt": "Waarom zegt het boek dat de toegevoegde letter van fa''ala “van dezelfde soort als de 'ayn” is?",
+     "answer": "Omdat de toevoeging een tweede 'ayn is: in farraha is de ra' verdubbeld. Het boek beschrijft de verdubbeling als een letter zoals de 'ayn, toegevoegd tussen de fa' en de 'ayn."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarvoor is af'ala meestal gebouwd?",
+     "options": [
+      "Overgankelijk maken",
+      "Wederkerigheid",
+      "Vermenigvuldigen",
+      "Meegaandheid"
+     ],
+     "explanation": "Akrama Zaydun 'Amran."
+    },
+    {
+     "prompt": "Wat voegt fa''ala toe?",
+     "options": [
+      "Een hamza vooraan",
+      "Een verdubbelde 'ayn",
+      "Een alif na de fa'",
+      "Een ta' vooraan"
+     ],
+     "explanation": "Farraha, tawwafa, 'allama."
+    },
+    {
+     "prompt": "Tawwafa Zaydun al-ka'bata laat vermenigvuldigen zien in…",
+     "options": [
+      "de doeners",
+      "het voorwerp",
+      "de handeling",
+      "niets"
+     ],
+     "explanation": "Hij ging vele malen rond."
+    },
+    {
+     "prompt": "Waarvoor is fa'ala [met alif] meestal gebouwd?",
+     "options": [
+      "Overgankelijk maken",
+      "Versterken",
+      "Zoeken",
+      "Wederkerigheid tussen twee"
+     ],
+     "explanation": "Qatala Zaydun 'Amran."
+    },
+    {
+     "prompt": "Wat is de masdar van qatala [met alif] die het boek als eerste geeft?",
+     "options": [
+      "Muqatala",
+      "Taqtil",
+      "Iqtal",
+      "Taqatul"
+     ],
+     "explanation": "Met qital en qital [met lange i] ernaast."
+    },
+    {
+     "prompt": "Qatalahumu llahu (Koran 9:30) laat fa'ala [met alif] zien…",
+     "options": [
+      "voor wederkerigheid",
+      "voor één alleen, zonder wederkerigheid",
+      "voor vermenigvuldigen",
+      "voor meegaandheid"
+     ],
+     "explanation": "Het voorbeeld van het boek voor fa'ala [met alif] voor één."
+    },
+    {
+     "prompt": "Wat hebben yukrimu, yufarrihu en yuqatilu gemeen?",
+     "options": [
+      "Een fatha op het voorvoegsel",
+      "Een verdubbelde 'ayn",
+      "Een damma op het voorvoegsel",
+      "Dezelfde masdar"
+     ],
+     "explanation": "De mudari' van een vierletterige madi heeft een damma op zijn voorvoegsel."
+    }
+   ],
+   "diagram": {
+    "caption": "Eén letter toegevoegd aan het drieletterige werkwoord",
+    "labels": {
+     "Pattern": "Patroon",
+     "Model": "Model",
+     "Added letter": "Toegevoegde letter",
+     "Built mostly for": "Meestal gebouwd voor",
+     "hamza at the start": "hamza vooraan",
+     "making transitive": "overgankelijk maken",
+     "the ʿayn doubled": "de 'ayn verdubbeld",
+     "multiplying": "vermenigvuldigen",
+     "alif after the fāʾ": "alif na de fa'",
+     "sharing between two": "wederkerigheid tussen twee"
+    }
+   }
+  },
+  "5": {
+   "title": "Meegaandheid: infa'ala en ifta'ala",
+   "body": [
+    "De tweede soort voegt twee letters toe, in vijf babs, en de eerste twee zijn gebouwd voor de meegaandheid (mutawa'a). Het boek definieert haar zorgvuldig: “het tot stand komen van de uitwerking van iets door het verband met het overgankelijke werkwoord”. Eén werkwoord werkt op iets in; een tweede werkwoord zegt dat het ding de handeling ontving. Kasartu al-zujaja fa-nkasara dhalika al-zujaju, “ik brak het glas, en dat glas brak”: het breken (kasr) is de overgankelijke handeling, en het gebroken worden van het glas (inkisar) is de uitwerking die eruit voortkwam.",
+    "De eerste bab is infa'ala yanfa'ilu infi'alan, met als model inkasara yankasiru inkisaran: een hamza en een nun vooraan toegevoegd. De tweede is ifta'ala yafta'ilu ifti'alan, met als model ijtama'a yajtami'u ijtima'an: een hamza vooraan en een ta' tussen de fa' en de 'ayn. Zijn voorbeeld: jama'tu al-ibila fa-jtama'a dhalika al-ibilu, “ik bracht de kamelen bijeen, en de kamelen kwamen bijeen”.",
+    "Een werkwoord van meegaandheid is onovergankelijk: het heeft geen maf'ul bihi, want zijn doener is juist het ding waarop het eerste werkwoord inwerkte. Dat is het punt van de zinsparen. Kasartu al-zujaja heeft een maf'ul bihi; inkasara heeft er geen, en al-zujaju is nu zijn fa'il, in raf'.",
+    "De hamza aan het begin van deze patronen is een hamza van verbinding, zoals die van de gebiedende wijs: ze wordt alleen aan het begin van het spreken gehoord. In fa-nkasara en fa-jtama'a wordt ze geschreven maar niet uitgesproken. En in de mudari' verdwijnt ze helemaal: yankasiru, yajtami'u. Het vervoegingshulpmiddel geeft de twee babs als de patronen 7 en 8."
+   ],
+   "terms": [
+    "meegaandheid: het ding ontvangt de handeling",
+    "de bab van inkasara",
+    "de bab van ijtama'a",
+    "de hamza van verbinding aan het begin van deze patronen"
+   ],
+   "examples": [
+    "kasartu al-zujaja fa-nkasara dhalika al-zujaju, “ik brak het glas, en het glas brak”",
+    "jama'tu al-ibila fa-jtama'a dhalika al-ibilu, “ik bracht de kamelen bijeen, en ze kwamen bijeen”",
+    "inqata'a, yanqati'u, inqita', “afgesneden worden”: infa'ala van qata'a"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de madi, mudari', masdar, het actief deelwoord en de gebiedende wijs van inkasara en ijtama'a.",
+     "answer": "Inkasara, yankasiru, inkisar, munkasir, inkasir. Ijtama'a, yajtami'u, ijtima', mujtami', ijtami'."
+    },
+    {
+     "prompt": "Wat is al-zujaj in elke helft van kasartu al-zujaja fa-nkasara dhalika al-zujaju, en waarom?",
+     "answer": "In kasartu al-zujaja is het de maf'ul bihi, in nasb: het breken valt erop. In inkasara … al-zujaju is het de fa'il, in raf': het werkwoord van meegaandheid heeft geen maf'ul bihi, en zijn fa'il is het ding dat de handeling ontving."
+    },
+    {
+     "prompt": "Geef de definitie van meegaandheid van de Bina in je eigen woorden.",
+     "answer": "Eén werkwoord werkt op een ding in (het is overgankelijk); meegaandheid is de uitwerking van die handeling die in het ding tot stand komt, gezegd met een tweede werkwoord waarvan dat ding de fa'il is."
+    },
+    {
+     "prompt": "Waar staat de toegevoegde ta' van ifta'ala, en waar staan de toegevoegde letters van infa'ala?",
+     "answer": "Ifta'ala: een hamza vooraan en een ta' tussen de fa' en de 'ayn (ij-t-ama'a). Infa'ala: een hamza en een nun vooraan (i-n-kasara)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is meegaandheid (mutawa'a)?",
+     "options": [
+      "Wederkerigheid tussen twee",
+      "De uitwerking van een overgankelijke handeling die tot stand komt in het ding waarop gehandeld werd",
+      "Een handeling zoeken",
+      "Een handeling vermenigvuldigen"
+     ],
+     "explanation": "Kasartu al-zujaja fa-nkasara."
+    },
+    {
+     "prompt": "Welke letters voegt infa'ala toe?",
+     "options": [
+      "Een hamza en een ta'",
+      "Een verdubbelde 'ayn",
+      "Een hamza en een nun vooraan",
+      "Een alif na de fa'"
+     ],
+     "explanation": "Inkasara: een hamza en een nun voor de wortel k-s-r."
+    },
+    {
+     "prompt": "Waar staat de ta' van ifta'ala?",
+     "options": [
+      "Vooraan",
+      "Aan het eind",
+      "Tussen de 'ayn en de lam",
+      "Tussen de fa' en de 'ayn"
+     ],
+     "explanation": "Ij-t-ama'a."
+    },
+    {
+     "prompt": "Is een werkwoord van meegaandheid overgankelijk?",
+     "options": [
+      "Nee: zijn doener is het ding dat de handeling ontving",
+      "Ja, altijd",
+      "Alleen in de madi",
+      "Alleen met een partikel"
+     ],
+     "explanation": "Inkasara al-zujaju heeft geen maf'ul bihi."
+    },
+    {
+     "prompt": "In fa-jtama'a is de hamza aan het begin…",
+     "options": [
+      "uitgesproken met een kasra",
+      "geschreven maar niet uitgesproken",
+      "uitgesproken met een fatha",
+      "een stamletter"
+     ],
+     "explanation": "Een hamza van verbinding."
+    },
+    {
+     "prompt": "Wat is de mudari' van ijtama'a?",
+     "options": [
+      "Yujtami'u",
+      "Yajtama'u",
+      "Yajtami'u",
+      "Ajtami'u"
+     ],
+     "explanation": "De hamza van verbinding verdwijnt in de mudari'."
+    },
+    {
+     "prompt": "Welke is de meegaandheid van qata'a, “snijden”?",
+     "options": [
+      "Qatta'a",
+      "Aqta'a",
+      "Qata'a [met alif]",
+      "Inqata'a"
+     ],
+     "explanation": "Infa'ala van qata'a: “afgesneden worden”."
+    }
+   ],
+   "diagram": {
+    "caption": "Handeling en meegaandheid in de Bina",
+    "labels": {
+     "The act": "De handeling",
+     "Its compliance": "Haar meegaandheid",
+     "Bāb of the compliance": "Bab van de meegaandheid"
+    }
+   }
+  },
+  "6": {
+   "title": "Kleuren, moeite en wederkerigheid: if'alla, tafa''ala, tafa'ala",
+   "body": [
+    "De derde bab met twee toegevoegde letters is if'alla yaf'allu if'ilalan, met als model ihmarra yahmarru ihmiraran, “rood worden”: een hamza vooraan en een tweede lam aan het eind, zodat de laatste letter verdubbeld is. Hij is gebouwd om het onovergankelijke te versterken: “men zegt hamira Zaydun als hij wat roodheid heeft, en ihmarra Zaydun als zijn roodheid sterk is”. Anderen zeggen dat hij voor kleuren en gebreken is: ihmarra, “rood zijn”, en i'warra, “eenogig zijn”. Door zijn verdubbelde eind is het een verdubbeld werkwoord, dat het vervoegingshulpmiddel nog niet geeft.",
+    "De vierde is tafa''ala yatafa''alu tafa''ulan, met als model takallama yatakallamu takalluman: een ta' vooraan en de 'ayn verdubbeld. Hij is gebouwd voor de moeite (takalluf), die het boek definieert als “het verkrijgen van wat gezocht wordt, het ene na het andere”: ta'allamtu al-'ilma mas'alatan ba'da mas'alatin, “ik leerde de kennis kwestie na kwestie”. Kennis wordt niet in één keer genomen; ze wordt stukje bij beetje verworven, en het patroon zegt dat. Tafa''ala is ook de meegaandheid van fa''ala: 'allamtuhu fa-ta'allama, “ik onderwees hem, en hij leerde”.",
+    "De vijfde is tafa'ala yatafa'alu tafa'ulan, met als model taba'ada yataba'adu taba'udan, “uit elkaar gaan”: een ta' vooraan en een alif na de fa'. Hij is gebouwd voor de wederkerigheid tussen twee en meer. Vergelijk fa'ala [met alif] van les 4: in qatala Zaydun 'Amran is de een de doener en de ander het voorwerp, al vechten beiden; bij tafa'ala worden meestal beiden als doeners genoemd, taba'ada Zaydun wa-'Amrun. Onze druk geeft de voorbeelden met een voorwerp, taba'ada Zaydun 'Amran en tasalaha al-qawmu qawman, “het volk sloot vrede met een volk”; de meeste handschriften hebben taba'ada Zaydun wa-'Amrun.",
+    "Tafa''ala en tafa'ala beginnen met een ta' die een echte letter is, geen hamza van verbinding, en hun mudari' houdt een fatha op het voorvoegsel: yatakallamu, yataba'adu. Het hulpmiddel geeft ze als de patronen 5 en 6."
+   ],
+   "terms": [
+    "kleuren en gebreken; het onovergankelijke versterken",
+    "moeite: verkrijgen wat gezocht wordt, stukje bij beetje",
+    "de bab van takallama",
+    "de bab van taba'ada: wederkerigheid",
+    "kleuren en gebreken"
+   ],
+   "examples": [
+    "hamira Zaydun, wat roodheid; ihmarra Zaydun, sterke roodheid",
+    "ta'allamtu al-'ilma mas'alatan ba'da mas'alatin, “ik leerde de kennis kwestie na kwestie”: moeite",
+    "ta'allama, yata'allamu, ta'allum, “leren”: tafa''ala",
+    "takataba, yatakatabu, takatub, “elkaar schrijven”: tafa'ala"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de madi, mudari', masdar, het actief deelwoord en de gebiedende wijs van ta'allama en takataba.",
+     "answer": "Ta'allama, yata'allamu, ta'allum, muta'allim, ta'allam. Takataba, yatakatabu, takatub, mutakatib, takatab."
+    },
+    {
+     "prompt": "Wat is het verschil tussen hamira Zaydun en ihmarra Zaydun?",
+     "answer": "Hamira: Zayd heeft wat roodheid. Ihmarra: zijn roodheid is sterk. If'alla versterkt het onovergankelijke werkwoord."
+    },
+    {
+     "prompt": "Qatala Zaydun 'Amran en taba'ada Zaydun wa-'Amrun: hoe wordt de wederkerigheid in elk uitgedrukt?",
+     "answer": "Bij fa'ala [met alif] is de een de doener en de ander het voorwerp, al doet elk de handeling aan de ander. Bij tafa'ala worden meestal beiden als doeners genoemd, verbonden door wa-."
+    },
+    {
+     "prompt": "Waarom geeft de Bina ta'allamtu al-'ilma mas'alatan ba'da mas'alatin als voorbeeld van moeite?",
+     "answer": "Omdat tafa''ala betekent: verwerven wat gezocht wordt, het ene na het andere; kennis wordt kwestie na kwestie verworven, niet in één keer."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarvoor is if'alla gebouwd?",
+     "options": [
+      "Wederkerigheid",
+      "Moeite",
+      "Het onovergankelijke versterken; kleuren en gebreken",
+      "Zoeken"
+     ],
+     "explanation": "Ihmarra, i'warra."
+    },
+    {
+     "prompt": "Wat betekent takalluf in de Bina?",
+     "options": [
+      "Een handeling vele malen doen",
+      "Een handeling delen",
+      "Een handeling ontvangen",
+      "Verkrijgen wat gezocht wordt, stukje bij beetje"
+     ],
+     "explanation": "Ta'allamtu al-'ilma mas'alatan ba'da mas'alatin."
+    },
+    {
+     "prompt": "Welke letters voegt tafa''ala toe?",
+     "options": [
+      "Een ta' vooraan en een verdubbelde 'ayn",
+      "Een hamza en een nun",
+      "Een hamza en een verdubbelde lam",
+      "Een ta' en een alif"
+     ],
+     "explanation": "Takallama."
+    },
+    {
+     "prompt": "Waarvoor is tafa'ala gebouwd?",
+     "options": [
+      "Moeite",
+      "Wederkerigheid tussen twee of meer",
+      "Kleuren",
+      "Overgankelijk maken"
+     ],
+     "explanation": "Taba'ada, tasalaha."
+    },
+    {
+     "prompt": "I'warra betekent…",
+     "options": [
+      "rood worden",
+      "leren",
+      "eenogig zijn",
+      "spreken"
+     ],
+     "explanation": "Een voorbeeld van een gebrek bij if'alla."
+    },
+    {
+     "prompt": "Wat is de mudari' van takallama?",
+     "options": [
+      "Yukallimu",
+      "Yatakallimu",
+      "Takallamu",
+      "Yatakallamu"
+     ],
+     "explanation": "De ta' is een echte letter, en het voorvoegsel heeft een fatha."
+    },
+    {
+     "prompt": "Welk werkwoord is de meegaandheid van 'allama, “onderwijzen”?",
+     "options": [
+      "Ta'allama",
+      "I'talama",
+      "In'alama",
+      "Ta'alama"
+     ],
+     "explanation": "'Allamtuhu fa-ta'allama: “ik onderwees hem, en hij leerde”."
+    }
+   ],
+   "diagram": {
+    "caption": "Drie van de vijf babs met twee toegevoegde letters",
+    "labels": {
+     "Pattern": "Patroon",
+     "Model": "Model",
+     "Added letters": "Toegevoegde letters",
+     "Built for": "Gebouwd voor",
+     "hamza; a second lām": "hamza; een tweede lam",
+     "intensifying; colours, defects": "versterken; kleuren, gebreken",
+     "tāʾ; the ʿayn doubled": "ta'; de 'ayn verdubbeld",
+     "effort, bit by bit": "moeite, stukje bij beetje",
+     "tāʾ; alif after the fāʾ": "ta'; alif na de fa'",
+     "sharing between two or more": "wederkerigheid tussen twee of meer"
+    }
+   }
+  },
+  "7": {
+   "title": "Drie letters toegevoegd: istaf'ala en de versterkende babs",
+   "body": [
+    "De derde soort voegt drie letters toe, in vier babs. De eerste en verreweg de meest gebruikte is istaf'ala yastaf'ilu istif'alan, met als model istakhraja yastakhriju istikhrajan, “naar buiten brengen, winnen”: een hamza, een sin en een ta' vooraan toegevoegd. Hij is meestal overgankelijk, istakhraja Zaydun al-mala, “Zayd haalde de rijkdom boven”; soms onovergankelijk, istahjara al-tinu, “de klei werd steen”, een verandering in wat de wortel noemt. “En er wordt gezegd: om de handeling te zoeken”: astaghfiru llaha, “ik vraag God om vergeving”, het zoeken van ghufran.",
+    "De andere drie zijn gebouwd om een onovergankelijk werkwoord te versterken, en het boek laat elk zien tegenover zijn kale werkwoord. If'aw'ala, met als model i'shawshaba: “men zegt 'ashuba al-ardu als er op het oppervlak van de aarde wat planten groeien, en i'shawshaba al-ardu als de planten van de aarde talrijk zijn”. If'awwala, met als model ijlawwadha: jaladha al-ibilu, “de kamelen liepen snel”, en ijlawwadha al-ibilu, “de kamelen joegen voort”.",
+    "If'alla [met alif], met als model ihmarra [met alif], met een alif voor een verdubbelde lam, is de sterkste: “deze bab is sterker dan de bab van if'ilal”. Het Arabisch heeft dus drie trappen van rood: hamira Zaydun, wat roodheid; ihmarra Zaydun, sterke roodheid; ihmarra [met alif] Zaydun, nog sterkere roodheid. Hoe meer letters, hoe meer betekenis, zoals de boeken van de sarf graag zeggen.",
+    "Alleen istaf'ala is regelmatig genoeg voor het vervoegingshulpmiddel (patroon 10); de drie versterkende babs zijn zeldzaam, en hun vormen worden uit de druk geleerd. De student moet ze kennen wanneer hij ze tegenkomt, vooral in poëzie en in de woordenboeken."
+   ],
+   "terms": [
+    "de bab van istakhraja",
+    "de handeling zoeken: astaghfiru, “ik vraag om vergeving”",
+    "het onovergankelijke versterken",
+    "de drie versterkende babs"
+   ],
+   "examples": [
+    "istakhraja Zaydun al-mala, “Zayd haalde de rijkdom boven”: overgankelijk",
+    "astaghfiru llaha, “ik vraag God om vergeving”: de handeling zoeken",
+    "de aarde bracht wat planten voort; de aarde bracht veel planten voort",
+    "hamira, ihmarra, ihmarra [met alif]: drie trappen van rood"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de madi, mudari', masdar, het actief deelwoord en de gebiedende wijs van istaghfara en istakhraja.",
+     "answer": "Istaghfara, yastaghfiru, istighfar, mustaghfir, istaghfir. Istakhraja, yastakhriju, istikhraj, mustakhrij, istakhrij."
+    },
+    {
+     "prompt": "Wat voegt istaf'ala in elk toe: istakhraja Zaydun al-mala; istahjara al-tinu; astaghfiru llaha?",
+     "answer": "Istakhraja: een overgankelijke handeling, “haalde boven”. Istahjara: een onovergankelijke verandering in wat de wortel noemt, “werd steen”. Astaghfiru: zoeken, “ik vraag om vergeving”."
+    },
+    {
+     "prompt": "Zet hamira, ihmarra en ihmarra [met alif] in volgorde van sterkte en noem de bab van elk.",
+     "answer": "Hamira (het kale werkwoord, fa'ila): wat roodheid. Ihmarra (if'alla): sterke roodheid. Ihmarra [met alif] (if'alla [met alif]): nog sterkere roodheid."
+    },
+    {
+     "prompt": "Wat versterken i'shawshaba en ijlawwadha, en wat zijn hun kale werkwoorden?",
+     "answer": "I'shawshaba versterkt 'ashuba (planten die groeien): de aarde bracht veel planten voort. Ijlawwadha versterkt jaladha (kamelen die snel lopen): de kamelen joegen voort."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welke letters voegt istaf'ala toe?",
+     "options": [
+      "Hamza en nun",
+      "Ta' en een verdubbelde 'ayn",
+      "Hamza en een verdubbelde lam",
+      "Hamza, sin en ta' vooraan"
+     ],
+     "explanation": "Istakhraja."
+    },
+    {
+     "prompt": "Astaghfiru llaha laat istaf'ala zien voor…",
+     "options": [
+      "het zoeken van de handeling",
+      "wederkerigheid",
+      "meegaandheid",
+      "vermenigvuldigen"
+     ],
+     "explanation": "“Ik vraag God om vergeving.”"
+    },
+    {
+     "prompt": "Wat betekent istahjara al-tinu?",
+     "options": [
+      "De klei werd gewonnen",
+      "De klei werd steen",
+      "Hij zocht de steen",
+      "De steen brak"
+     ],
+     "explanation": "Het onovergankelijke voorbeeld van het boek bij istaf'ala."
+    },
+    {
+     "prompt": "Welke is de sterkste van de drie trappen van rood?",
+     "options": [
+      "Ihmarra",
+      "Hamira",
+      "Ihmarra [met alif]",
+      "Ahmara"
+     ],
+     "explanation": "If'alla [met alif] is sterker dan if'alla."
+    },
+    {
+     "prompt": "Waarvoor zijn if'aw'ala, if'awwala en if'alla [met alif] gebouwd?",
+     "options": [
+      "Overgankelijk maken",
+      "Wederkerigheid",
+      "Meegaandheid",
+      "Het onovergankelijke versterken"
+     ],
+     "explanation": "Elk tegenover zijn kale werkwoord."
+    },
+    {
+     "prompt": "I'shawshaba al-ardu betekent…",
+     "options": [
+      "De aarde bracht veel planten voort",
+      "De aarde droogde op",
+      "De aarde werd rood",
+      "De aarde werd geploegd"
+     ],
+     "explanation": "'Ashuba is wat groei; i'shawshaba veel."
+    },
+    {
+     "prompt": "Welke van de vier babs geeft het vervoegingshulpmiddel?",
+     "options": [
+      "If'aw'ala",
+      "Istaf'ala (patroon 10)",
+      "If'awwala",
+      "If'alla [met alif]"
+     ],
+     "explanation": "De drie versterkende babs worden uit de druk geleerd."
+    }
+   ],
+   "diagram": {
+    "caption": "Drie letters toegevoegd aan het drieletterige werkwoord",
+    "labels": {
+     "Pattern": "Patroon",
+     "Model": "Model",
+     "Built for": "Gebouwd voor",
+     "making transitive; seeking": "overgankelijk maken; zoeken",
+     "intensifying": "versterken",
+     "the strongest intensifying": "het sterkste versterken"
+    }
+   }
+  },
+  "8": {
+   "title": "Het vierletterige werkwoord; de eerste aangehechte vormen",
+   "body": [
+    "Het kale vierletterige werkwoord heeft één bab: fa'lala yufa'lilu fa'lalatan wa-fi'lalan, met als model dahraja yudahriju dahrajatan wa-dihrajan, “rollen”. Zijn teken is dat zijn madi vier letters heeft, “op voorwaarde dat al zijn letters stamletters zijn”: er is niets toegevoegd. Zijn patroon voegt een tweede lam toe aan fa'ala om plaats te maken voor de vierde stamletter. Overgankelijk: dahraja Zaydun al-hajara, “Zayd rolde de steen”; onovergankelijk: darbakha Zaydun, “Zayd boog zijn hoofd”.",
+    "Dan komen zes babs “aangehecht aan dahraja” (al-mulhaq bi-dahraja), ook “aangehecht aan het vierletterige werkwoord” genoemd. Elk is een drieletterige wortel met één letter toegevoegd, zodat hij precies de vorm van dahraja aanneemt, in zijn madi, zijn mudari' en zijn masdar. De toegevoegde letter kan een waw of een ya' op verschillende plaatsen zijn, of een herhaalde letter.",
+    "De eerste drie: faw'ala, met een waw na de fa': hawqala yuhawqilu hawqalatan, “oud en zwak worden”, alleen onovergankelijk. Fay'ala, met een ya' na de fa': baytara yubaytiru baytaratan, “splijten”, alleen overgankelijk: baytara Zaydun al-qalama, ay shaqqahu, “Zayd spleet de pen, dat wil zeggen: hij kliefde hem”. Fa'wala, met een waw na de 'ayn: jahwara yujahwiru jahwaratan, “hardop zeggen”, alleen overgankelijk: jahwara Zaydun al-qur'ana, “Zayd reciteerde de Koran hardop”.",
+    "Hoe onderscheid je een aangehecht werkwoord van een echt vierletterig werkwoord? Aan de wortel. In dahraja zijn alle vier de letters stamletters (d-h-r-j). In hawqala is de wortel drieletterig (h-q-l), en de waw is toegevoegd; in baytara de ya', in jahwara de waw. Weeg elk op fa'ala met zijn toegevoegde letter op zijn plaats: faw'ala, fay'ala, fa'wala. Het vervoegingshulpmiddel geeft deze patronen niet; hun vormen komen uit de druk."
+   ],
+   "terms": [
+    "het kale vierletterige werkwoord: fa'lala",
+    "zijn patroon, met als model dahraja",
+    "aangehecht aan het vierletterige werkwoord: een drieletterige wortel in de vorm van dahraja",
+    "een stamletter, tegenover een toegevoegde"
+   ],
+   "examples": [
+    "dahraja Zaydun al-hajara, “Zayd rolde de steen”: het kale vierletterige werkwoord",
+    "hawqala Zaydun, “Zayd werd oud en zwak”: faw'ala, aangehecht aan dahraja",
+    "jahwara Zaydun al-qur'ana, “Zayd reciteerde de Koran hardop”: fa'wala"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de wortel en de toegevoegde letter van hawqala, baytara en jahwara, en weeg elk op fa'ala.",
+     "answer": "Hawqala: wortel h-q-l, waw toegevoegd na de fa': faw'ala. Baytara: wortel b-t-r, ya' toegevoegd na de fa': fay'ala. Jahwara: wortel j-h-r, waw toegevoegd na de 'ayn: fa'wala."
+    },
+    {
+     "prompt": "Waarom is dahraja een kaal (mujarrad) werkwoord, hoewel het vier letters heeft?",
+     "answer": "Al zijn vier letters zijn stamletters; er is niets toegevoegd. Een werkwoord is kaal of vermeerderd naar zijn wortel, niet naar zijn aantal letters."
+    },
+    {
+     "prompt": "Geef de madi, de mudari' en de twee masdars van dahraja zoals het boek ze geeft.",
+     "answer": "Dahraja, yudahriju, dahrajatan en dihrajan."
+    },
+    {
+     "prompt": "Overgankelijk of onovergankelijk, zoals het boek zegt: hawqala, baytara, jahwara?",
+     "answer": "Hawqala: alleen onovergankelijk. Baytara: alleen overgankelijk (baytara Zaydun al-qalama). Jahwara: alleen overgankelijk (jahwara Zaydun al-qur'ana)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel babs heeft het kale vierletterige werkwoord?",
+     "options": [
+      "Eén",
+      "Zes",
+      "Drie",
+      "Twee"
+     ],
+     "explanation": "Fa'lala: dahraja."
+    },
+    {
+     "prompt": "Wat maakt dahraja kaal (mujarrad)?",
+     "options": [
+      "Het heeft een hamza",
+      "Alle vier de letters zijn stamletters",
+      "Het is overgankelijk",
+      "Het heeft geen masdar"
+     ],
+     "explanation": "De voorwaarde van het boek: al zijn letters stamletters."
+    },
+    {
+     "prompt": "Wat is “aangehecht aan dahraja”?",
+     "options": [
+      "Een vierletterige wortel met een toegevoegde letter",
+      "Elk overgankelijk werkwoord",
+      "Een drieletterige wortel met een letter toegevoegd om de vorm van dahraja aan te nemen",
+      "Het passief van dahraja"
+     ],
+     "explanation": "Hawqala, baytara, jahwara…"
+    },
+    {
+     "prompt": "Wat is de toegevoegde letter van hawqala?",
+     "options": [
+      "De ha'",
+      "De qaf",
+      "De lam",
+      "De waw"
+     ],
+     "explanation": "Wortel h-q-l; faw'ala."
+    },
+    {
+     "prompt": "Baytara Zaydun al-qalama betekent…",
+     "options": [
+      "Zayd spleet de pen",
+      "Zayd rolde de pen",
+      "Zayd reciteerde hardop",
+      "Zayd werd oud"
+     ],
+     "explanation": "Ay shaqqahu: hij kliefde hem."
+    },
+    {
+     "prompt": "Wat is het patroon van jahwara?",
+     "options": [
+      "Faw'ala",
+      "Fa'wala",
+      "Fay'ala",
+      "Fa'lala"
+     ],
+     "explanation": "De waw staat na de 'ayn."
+    },
+    {
+     "prompt": "Waar komen in de lessen de vormen van deze aangehechte werkwoorden vandaan?",
+     "options": [
+      "Uit het vervoegingshulpmiddel",
+      "Uit de Amthila",
+      "Uit de druk",
+      "Ze hebben geen vormen"
+     ],
+     "explanation": "Het hulpmiddel geeft alleen de regelmatige patronen."
+    }
+   ],
+   "diagram": {
+    "caption": "Dahraja en de eerste drie vormen die eraan aangehecht zijn",
+    "labels": {
+     "Pattern": "Patroon",
+     "Model": "Model",
+     "Root": "Wortel",
+     "Added letter": "Toegevoegde letter",
+     "Use": "Gebruik",
+     "none": "geen",
+     "both": "beide",
+     "wāw after the fāʾ": "waw na de fa'",
+     "intransitive": "onovergankelijk",
+     "yāʾ after the fāʾ": "ya' na de fa'",
+     "transitive": "overgankelijk",
+     "wāw after the ʿayn": "waw na de 'ayn"
+    }
+   }
+  },
+  "9": {
+   "title": "De andere aangehechte vormen; wat aanhechting betekent",
+   "body": [
+    "Nog drie babs zijn aangehecht aan dahraja. Fa'yala, met een ya' na de 'ayn: 'athyara yu'athyiru 'athyaratan, “stof opwerpen”, alleen onovergankelijk: 'athyara Zaydun. Fa'lala, met de lam herhaald: jalbaba yujalbibu jalbabatan wa-jilbaban, “in een jilbab kleden”, overgankelijk: jalbaba Zaydun al-jilbaba. Fa'la [met alif], met een ya' aan het eind: salqa yusalqi salqayatan wa-silqa'an, “op zijn rug liggen”, onovergankelijk: salqa Zaydun, ay nama 'ala qafahu, “Zayd lag op zijn rug, dat wil zeggen: hij sliep op zijn achterhoofd”.",
+    "Kijk naar jalbaba: zijn patroon ziet er precies zo uit als dat van dahraja, fa'lala. Het verschil zit in de wortel. Dahraja heeft vier stamletters; jalbaba heeft er drie, j-l-b, en zijn tweede ba' is een herhaling van de lam, toegevoegd. Daarom beschrijft het boek het als “één letter van dezelfde soort als de lam, aan het eind toegevoegd”. Twee werkwoorden kunnen een patroon delen en toch van een verschillende soort zijn.",
+    "En salqa eindigt op een ya' die als alif geschreven wordt (salqa), waardoor zijn vormen zich gedragen als die van een zwak werkwoord: yusalqi in de mudari', salqayatan in de masdar. Zijn vormen komen alleen uit de druk.",
+    "Het stuk eindigt met de definitie van de aanhechting (ilhaq): “de eenheid van de twee masdars, dat wil zeggen van het aangehechte en van datgene waaraan het is aangehecht”. Een drieletterig werkwoord met een toegevoegde letter geldt als aangehecht aan dahraja omdat zijn masdar op hetzelfde patroon loopt als dat van dahraja: hawqala, hawqalatan zoals dahraja, dahrajatan; jalbaba, jalbabatan. Een vermeerderd werkwoord als akrama is niet aangehecht, want zijn masdar, ikram, heeft een eigen vorm."
+   ],
+   "terms": [
+    "aanhechting: de masdars delen één patroon",
+    "het aangehechte werkwoord en het werkwoord waaraan het is aangehecht",
+    "de laatste drie patronen die aan dahraja zijn aangehecht"
+   ],
+   "examples": [
+    "'athyara Zaydun, “Zayd wierp stof op”: fa'yala",
+    "jalbaba Zaydun al-jilbaba, “Zayd deed iemand de jilbab aan”: fa'lala met de lam herhaald",
+    "salqa Zaydun, “Zayd lag op zijn rug”: fa'la [met alif]",
+    "dahraja dahrajatan, hawqala hawqalatan: hetzelfde patroon van de masdar, het teken van aanhechting"
+   ],
+   "tasks": [
+    {
+     "prompt": "Dahraja en jalbaba zijn allebei fa'lala. Waarom is het ene kaal en het andere aangehecht?",
+     "answer": "Dahraja heeft vier stamletters (d-h-r-j). Jalbaba heeft er drie (j-l-b); zijn tweede ba' herhaalt de lam en is toegevoegd, waardoor het een drieletterig werkwoord is dat aan dahraja is aangehecht."
+    },
+    {
+     "prompt": "Geef de definitie van aanhechting van de Bina en laat haar zien op hawqala.",
+     "answer": "Aanhechting is de eenheid van de twee masdars, van het aangehechte en van datgene waaraan het is aangehecht. Hawqala heeft de masdar hawqalatan op het patroon van dahrajatan, dus hawqala is aangehecht aan dahraja."
+    },
+    {
+     "prompt": "Waarom is akrama, ook met vier letters, niet aangehecht aan dahraja?",
+     "answer": "Zijn masdar is ikram, die het patroon van dahraja (dahrajatan, dihrajan) niet deelt; en zijn mudari' yukrimu en zijn patroon af'ala zijn eigen vormen."
+    },
+    {
+     "prompt": "Welke van de zes aangehechte vormen zijn volgens het boek overgankelijk?",
+     "answer": "Baytara, jahwara en jalbaba. Hawqala, 'athyara en salqa zijn onovergankelijk."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is aanhechting (ilhaq) volgens de Bina?",
+     "options": [
+      "Een hamza toevoegen",
+      "De eenheid van de masdars van het aangehechte en het model",
+      "Een werkwoord overgankelijk maken",
+      "De 'ayn verdubbelen"
+     ],
+     "explanation": "Hawqalatan op het patroon van dahrajatan."
+    },
+    {
+     "prompt": "Wat is er in jalbaba toegevoegd?",
+     "options": [
+      "Een waw",
+      "Een ya'",
+      "Een tweede ba', die de lam herhaalt",
+      "Niets"
+     ],
+     "explanation": "Wortel j-l-b."
+    },
+    {
+     "prompt": "Salqa Zaydun betekent…",
+     "options": [
+      "Zayd wierp stof op",
+      "Zayd deed een jilbab aan",
+      "Zayd werd oud",
+      "Zayd lag op zijn rug"
+     ],
+     "explanation": "Ay nama 'ala qafahu."
+    },
+    {
+     "prompt": "'Athyara staat op het patroon…",
+     "options": [
+      "Fa'yala",
+      "Fay'ala",
+      "Fa'wala",
+      "Faw'ala"
+     ],
+     "explanation": "Een ya' na de 'ayn."
+    },
+    {
+     "prompt": "Hoeveel vormen zijn aangehecht aan dahraja?",
+     "options": [
+      "Vijf",
+      "Zes",
+      "Twee",
+      "Drie"
+     ],
+     "explanation": "Faw'ala, fay'ala, fa'wala, fa'yala, fa'lala, fa'la [met alif]."
+    },
+    {
+     "prompt": "Twee werkwoorden op hetzelfde patroon fa'lala kunnen verschillen in…",
+     "options": [
+      "niets",
+      "hun klinkers",
+      "hun wortel: vier stamletters of drie",
+      "alleen hun betekenis"
+     ],
+     "explanation": "Dahraja is kaal, jalbaba aangehecht."
+    },
+    {
+     "prompt": "Is akrama aangehecht aan dahraja?",
+     "options": [
+      "Ja: het heeft vier letters",
+      "Ja: het is overgankelijk",
+      "Alleen in het passief",
+      "Nee: zijn masdar ikram heeft een eigen patroon"
+     ],
+     "explanation": "Aanhechting wordt beoordeeld naar de masdar."
+    }
+   ],
+   "diagram": {
+    "caption": "De zes vormen die aan dahraja zijn aangehecht",
+    "labels": {
+     "Pattern": "Patroon",
+     "Model": "Model",
+     "Maṣdar": "Masdar",
+     "Added letter": "Toegevoegde letter",
+     "Use": "Gebruik",
+     "wāw after the fāʾ": "waw na de fa'",
+     "intransitive": "onovergankelijk",
+     "yāʾ after the fāʾ": "ya' na de fa'",
+     "transitive": "overgankelijk",
+     "wāw after the ʿayn": "waw na de 'ayn",
+     "yāʾ after the ʿayn": "ya' na de 'ayn",
+     "the lām repeated": "de lam herhaald",
+     "yāʾ at the end": "ya' aan het eind"
+    }
+   }
+  },
+  "10": {
+   "title": "Het vermeerderde vierletterige werkwoord",
+   "body": [
+    "Het vierletterige werkwoord met toegevoegde letters heeft drie babs in twee soorten. Met één letter toegevoegd: tafa'lala yatafa'lalu tafa'lulan, met als model tadahraja yatadahraju tadahrujan, een ta' vooraan toegevoegd. Hij is gebouwd voor de meegaandheid, zoals infa'ala dat was bij het drieletterige werkwoord: dahrajtu al-hajara fa-tadahraja dhalika al-hajaru, “ik rolde de steen, en de steen rolde”.",
+    "Met twee letters toegevoegd, twee babs. If'anlala yaf'anlilu if'inlalan, met als model ihranjama yahranjimu ihrinjaman: een hamza vooraan en een nun tussen de 'ayn en de eerste lam. Ook hij is voor de meegaandheid: harjamtu al-ibila fa-hranjama dhalika al-ibilu, “ik dreef de kamelen bijeen, en de kamelen dromden samen”.",
+    "If'alalla yaf'alillu if'illalan, met als model iqsha'arra yaqsha'irru iqshi'raran: een hamza vooraan en een tweede lam aan het eind, verdubbeld. Hij is gebouwd om het onovergankelijke te versterken, en het boek zet hem weer tegenover zijn kale werkwoord: “men zegt qash'ara jildu al-rajuli als het haar van zijn huid wat overeind komt, en iqsha'arra jildu al-rajuli als het sterk overeind komt”: de huid van de man huiverde, of kreeg kippenvel.",
+    "Het vierletterige werkwoord herhaalt het systeem van het drieletterige. Zijn kale vorm heeft een vermeerderde vorm voor de meegaandheid (tadahraja naast inkasara), nog een voor de meegaandheid met een nun (ihranjama naast inkasara), en een om te versterken met een verdubbeld eind (iqsha'arra naast ihmarra). De parallellen leren is makkelijker dan de patronen een voor een leren."
+   ],
+   "terms": [
+    "de bab van tadahraja: meegaandheid",
+    "de bab van ihranjama: meegaandheid",
+    "de bab van iqsha'arra: versterken",
+    "het vermeerderde vierletterige werkwoord"
+   ],
+   "examples": [
+    "“ik rolde de steen, en de steen rolde”: tadahraja, meegaandheid",
+    "“ik dreef de kamelen bijeen, en ze dromden samen”: ihranjama, meegaandheid",
+    "de huid van de man huiverde wat; ze huiverde sterk: iqsha'arra, versterken"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef in elk paar het kale werkwoord en het werkwoord van meegaandheid, en hun babs: dahrajtu al-hajara fa-tadahraja; harjamtu al-ibila fa-hranjama.",
+     "answer": "Dahraja (fa'lala) en tadahraja (tafa'lala, een ta' toegevoegd). Harjama (fa'lala) en ihranjama (if'anlala, een hamza en een nun toegevoegd)."
+    },
+    {
+     "prompt": "Waar staat de toegevoegde nun van ihranjama?",
+     "answer": "Tussen de 'ayn en de eerste lam: h-r-n-j-m, met de wortel h-r-j-m."
+    },
+    {
+     "prompt": "Wat is het verschil tussen qash'ara en iqsha'arra?",
+     "answer": "Qash'ara: de huid huiverde wat. Iqsha'arra: ze huiverde sterk. If'alalla versterkt het onovergankelijke."
+    },
+    {
+     "prompt": "Welke bab van het drieletterige werkwoord is de parallel van elk: tadahraja, ihranjama, iqsha'arra?",
+     "answer": "Tadahraja lijkt op de babs van meegaandheid met ta' (ta'allama van 'allama); ihranjama op infa'ala (inkasara); iqsha'arra op if'alla (ihmarra)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarvoor is tadahraja gebouwd?",
+     "options": [
+      "Wederkerigheid",
+      "Versterken",
+      "Meegaandheid",
+      "Zoeken"
+     ],
+     "explanation": "Dahrajtu al-hajara fa-tadahraja."
+    },
+    {
+     "prompt": "Welke letters voegt if'anlala toe?",
+     "options": [
+      "Een ta'",
+      "Een hamza en een verdubbelde lam",
+      "Een sin en een ta'",
+      "Een hamza en een nun"
+     ],
+     "explanation": "Ihranjama."
+    },
+    {
+     "prompt": "Waarvoor is iqsha'arra gebouwd?",
+     "options": [
+      "Het onovergankelijke versterken",
+      "Meegaandheid",
+      "Overgankelijk maken",
+      "Wederkerigheid"
+     ],
+     "explanation": "Sterk huiveren van de huid."
+    },
+    {
+     "prompt": "Hoeveel babs heeft het vermeerderde vierletterige werkwoord?",
+     "options": [
+      "Eén",
+      "Drie",
+      "Vijf",
+      "Twaalf"
+     ],
+     "explanation": "Eén met een letter toegevoegd, twee met twee."
+    },
+    {
+     "prompt": "In fa-tadahraja dhalika al-hajaru is al-hajaru…",
+     "options": [
+      "de maf'ul bihi",
+      "een hal",
+      "de fa'il van het werkwoord van meegaandheid",
+      "een tamyiz"
+     ],
+     "explanation": "De steen die het rollen ontving."
+    },
+    {
+     "prompt": "Welke drieletterige bab is de parallel van ihranjama?",
+     "options": [
+      "Istaf'ala",
+      "Af'ala",
+      "Fa'ala [met alif]",
+      "Infa'ala"
+     ],
+     "explanation": "Beide zijn meegaandheid met een toegevoegde nun."
+    },
+    {
+     "prompt": "Wat is in het boek de mudari' van iqsha'arra?",
+     "options": [
+      "Yaqsha'irru",
+      "Yuqash'iru",
+      "Yaqsha'arru",
+      "Tuqash'iru"
+     ],
+     "explanation": "If'alalla yaf'alillu."
+    }
+   ],
+   "diagram": {
+    "caption": "Het vierletterige werkwoord naast het drieletterige",
+    "labels": {
+     "Use": "Gebruik",
+     "Four-letter bāb": "Vierletterige bab",
+     "Three-letter parallel": "Drieletterige parallel",
+     "bare": "kaal",
+     "compliance with tāʾ": "meegaandheid met ta'",
+     "compliance with nūn": "meegaandheid met nun",
+     "intensifying, doubled end": "versterken, verdubbeld eind"
+    }
+   }
+  },
+  "11": {
+   "title": "De vormen die aan tadahraja zijn aangehecht",
+   "body": [
+    "Vijf babs zijn aangehecht aan tadahraja: elk is een van de vormen die aan dahraja zijn aangehecht, met een ta' ervoor. Tafa'lala, met als model tajalbaba, “een jilbab aandoen”, gebouwd voor de meegaandheid: jalbaba Zaydun fa-tajalbaba fi dhalika al-jilbabi, “Zayd kleedde hem in een jilbab, en hij deed die jilbab aan”. Tafaw'ala, met als model tajawraba, “sokken aantrekken”, ook meegaandheid: jawrabtuhu fa-tajawraba, “ik trok hem sokken aan, en hij trok ze aan”.",
+    "Drie zijn alleen onovergankelijk: tafay'ala, met als model tashaytana, “zich als een duivel gedragen”: tashaytana Zaydun; tafa'wala, met als model tarahwaka, “wiegend lopen”: tarahwaka Zaydun; en tafa'la [met alif], met als model tasalqa, “op zijn rug liggen”: tasalqa Zaydun.",
+    "Het boek voegt dan een opmerking toe die een beginsel leert: “de werkelijkheid van de aanhechting in deze aangehechte vormen is alleen door de toevoeging van wat niet de ta' is”. In tajalbaba is de aanhechting door de herhaalde ba', zoals in jalbaba; “de ta' kwam er alleen bij voor de betekenis van de meegaandheid, zoals hij in tadahraja kwam”. Want, zegt het boek, aanhechting staat nooit aan het begin van een woord, alleen in het midden of aan het eind, “zoals in het commentaar op de Mufassal staat”, het grote handboek van de nahw van al-Zamakhshari.",
+    "Elke vorm heeft dus twee toevoegingen met twee taken: één letter in het midden of aan het eind die de wortel de vorm van een vierletterig werkwoord geeft, en een ta' vooraan die de betekenis van de meegaandheid geeft. Tajawraba: de waw hecht aan, de ta' geeft de meegaandheid. Dat is het soort ontleding dat de Bina oefent: elke toegevoegde letter heeft zijn plaats en zijn reden."
+   ],
+   "terms": [
+    "aangehecht aan tadahraja: vijf babs",
+    "de werkelijkheid van de aanhechting: door een letter die niet de ta' is",
+    "de ta' van de meegaandheid vooraan",
+    "het commentaar op de Mufassal van al-Zamakhshari, door het boek aangehaald"
+   ],
+   "examples": [
+    "“Zayd kleedde hem in een jilbab, en hij deed hem aan”: tajalbaba, meegaandheid",
+    "jawrabtuhu fa-tajawraba, “ik trok hem sokken aan, en hij trok ze aan”",
+    "tashaytana Zaydun, “Zayd gedroeg zich als een duivel”: alleen onovergankelijk",
+    "tasalqa Zaydun, “Zayd lag op zijn rug”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke toegevoegde letter maakt in tajawraba de aanhechting, en welke geeft de meegaandheid?",
+     "answer": "De waw na de fa' maakt de aanhechting (zoals in jawraba, faw'ala); de ta' vooraan geeft de betekenis van de meegaandheid."
+    },
+    {
+     "prompt": "Waarom zegt het boek dat aanhechting nooit door de ta' is?",
+     "answer": "Omdat aanhechting nooit aan het begin van een woord staat, alleen in het midden of aan het eind. De ta' vooraan deze vormen kwam erbij voor de meegaandheid, zoals in tadahraja."
+    },
+    {
+     "prompt": "Noem het patroon van elk: tashaytana, tarahwaka, tasalqa.",
+     "answer": "Tashaytana: tafay'ala. Tarahwaka: tafa'wala. Tasalqa: tafa'la [met alif]."
+    },
+    {
+     "prompt": "Vertaal jawrabtuhu fa-tajawraba en zeg wat de twee werkwoorden laten zien.",
+     "answer": "“Ik trok hem sokken aan, en hij trok ze aan.” Jawraba is de overgankelijke handeling; tajawraba haar meegaandheid, waarvan de fa'il degene is die de handeling ontving."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel vormen zijn aangehecht aan tadahraja?",
+     "options": [
+      "Zes",
+      "Twee",
+      "Drie",
+      "Vijf"
+     ],
+     "explanation": "Tajalbaba, tajawraba, tashaytana, tarahwaka, tasalqa."
+    },
+    {
+     "prompt": "In tajalbaba is de aanhechting door…",
+     "options": [
+      "de herhaalde ba'",
+      "de ta'",
+      "de jim",
+      "de lam"
+     ],
+     "explanation": "Zoals in jalbaba; de ta' is voor de meegaandheid."
+    },
+    {
+     "prompt": "Waar kan aanhechting volgens het boek nooit staan?",
+     "options": [
+      "In het midden",
+      "Aan het begin van een woord",
+      "Aan het eind",
+      "In de masdar"
+     ],
+     "explanation": "Alleen in het midden of aan het eind."
+    },
+    {
+     "prompt": "Tashaytana Zaydun betekent…",
+     "options": [
+      "Zayd trok sokken aan",
+      "Zayd lag op zijn rug",
+      "Zayd gedroeg zich als een duivel",
+      "Zayd liep wiegend"
+     ],
+     "explanation": "Alleen onovergankelijk."
+    },
+    {
+     "prompt": "Tarahwaka betekent…",
+     "options": [
+      "een jilbab aandoen",
+      "stof opwerpen",
+      "splijten",
+      "wiegend lopen"
+     ],
+     "explanation": "Tafa'wala."
+    },
+    {
+     "prompt": "Welk boek haalt de Bina aan voor zijn regel over aanhechting?",
+     "options": [
+      "Een commentaar op de Mufassal van al-Zamakhshari",
+      "De Ajurrumiyya",
+      "De Alfiyya",
+      "Al-'Izzi"
+     ],
+     "explanation": "“Zoals in het commentaar op de Mufassal staat.”"
+    },
+    {
+     "prompt": "Wat geeft de ta' vooraan deze vormen?",
+     "options": [
+      "De aanhechting",
+      "De betekenis van de meegaandheid",
+      "Het vrouwelijke",
+      "Het passief"
+     ],
+     "explanation": "Zoals in tadahraja."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijf vormen die aan tadahraja zijn aangehecht",
+    "labels": {
+     "Pattern": "Patroon",
+     "Model": "Model",
+     "From": "Van",
+     "Letter of attachment": "Letter van de aanhechting",
+     "Use": "Gebruik",
+     "the lām repeated": "de lam herhaald",
+     "compliance": "meegaandheid",
+     "wāw after the fāʾ": "waw na de fa'",
+     "yāʾ after the fāʾ": "ya' na de fa'",
+     "intransitive": "onovergankelijk",
+     "wāw after the ʿayn": "waw na de 'ayn",
+     "yāʾ at the end": "ya' aan het eind"
+    }
+   }
+  },
+  "12": {
+   "title": "De vormen die aan ihranjama zijn aangehecht",
+   "body": [
+    "De laatste twee babs zijn aangehecht aan ihranjama, het vierletterige werkwoord met een hamza en een nun toegevoegd. De eerste: if'anlala yaf'anlilu if'inlalan, met als model iq'ansasa yaq'ansisu iq'insasan: een hamza vooraan, een nun tussen de 'ayn en de lam, en de lam herhaald aan het eind. Zijn wortel heeft drie letters, q-'-s; de herhaalde sin hecht hem aan ihranjama.",
+    "Hij is gebouwd om het onovergankelijke te versterken: “men zegt qa'isa al-rajulu als hij zijn borst vooruitsteekt en zijn rug wat naar binnen gaat, en iq'ansasa al-rajulu als hij dat sterk doet”: de man stak zijn borst vooruit.",
+    "De tweede: if'anla [met alif] yaf'anli if'inla'an, met als model islanqa yaslanqi islinqa'an: een hamza vooraan, een nun tussen de 'ayn en de lam, en een ya' aan het eind. Hij is gebouwd voor de meegaandheid: salqaytuhu fa-slanqa, ay waqa'a 'ala qafahu, “ik legde hem op zijn rug, en hij lag op zijn rug”, dat wil zeggen: hij viel op zijn achterhoofd.",
+    "Hiermee zijn de vijfendertig babs compleet. Tel ze terug: 6 kale drieletterige, 12 vermeerderde drieletterige, 1 kale vierletterige, 6 aangehecht aan dahraja, 3 vermeerderde vierletterige, 5 aangehecht aan tadahraja, 2 aangehecht aan ihranjama. Een student die van elk werkwoord kan zeggen bij welke van de vijfendertig het hoort, heeft geleerd wat de Bina onderwijst."
+   ],
+   "terms": [
+    "aangehecht aan ihranjama: twee babs",
+    "met de lam herhaald: versterken",
+    "met een ya' aan het eind: meegaandheid"
+   ],
+   "examples": [
+    "de man stak zijn borst wat vooruit; hij stak hem sterk vooruit",
+    "salqaytuhu fa-slanqa, “ik legde hem op zijn rug, en hij lag op zijn rug”: meegaandheid"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de wortel van iq'ansasa en zeg welke letters toegevoegd zijn en waarom.",
+     "answer": "Wortel q-'-s. Toegevoegd: de hamza vooraan en de nun na de 'ayn (zoals in ihranjama), en de herhaalde sin aan het eind, waardoor de drieletterige wortel de vorm van het vierletterige ihranjama aanneemt."
+    },
+    {
+     "prompt": "Ihranjama en islanqa zijn allebei voor de meegaandheid. Geef in elk de handeling en de meegaandheid, zoals het boek doet.",
+     "answer": "Harjamtu al-ibila fa-hranjama: ik dreef de kamelen bijeen, en ze dromden samen. Salqaytuhu fa-slanqa: ik legde hem op zijn rug, en hij lag op zijn rug."
+    },
+    {
+     "prompt": "Tel de vijfendertig babs per groep.",
+     "answer": "6 kale drieletterige + 12 vermeerderde drieletterige + 1 kale vierletterige + 6 aangehecht aan dahraja + 3 vermeerderde vierletterige + 5 aangehecht aan tadahraja + 2 aangehecht aan ihranjama = 35."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel babs zijn aangehecht aan ihranjama?",
+     "options": [
+      "Twee",
+      "Vijf",
+      "Zes",
+      "Drie"
+     ],
+     "explanation": "Iq'ansasa en islanqa."
+    },
+    {
+     "prompt": "Waarvoor is iq'ansasa gebouwd?",
+     "options": [
+      "Meegaandheid",
+      "Het onovergankelijke versterken",
+      "Overgankelijk maken",
+      "Wederkerigheid"
+     ],
+     "explanation": "Qa'isa wat; iq'ansasa sterk."
+    },
+    {
+     "prompt": "Waarvoor is islanqa gebouwd?",
+     "options": [
+      "Versterken",
+      "Zoeken",
+      "Meegaandheid",
+      "Moeite"
+     ],
+     "explanation": "Salqaytuhu fa-slanqa."
+    },
+    {
+     "prompt": "Wat hecht iq'ansasa aan ihranjama?",
+     "options": [
+      "De hamza",
+      "De nun",
+      "De qaf",
+      "De herhaalde sin"
+     ],
+     "explanation": "Wortel q-'-s; de tweede sin is toegevoegd."
+    },
+    {
+     "prompt": "Wat is het totaal van de babs?",
+     "options": [
+      "Vijfendertig",
+      "Dertig",
+      "Twaalf",
+      "Zes"
+     ],
+     "explanation": "6 + 12 + 1 + 6 + 3 + 5 + 2."
+    },
+    {
+     "prompt": "Welke groep heeft twaalf babs?",
+     "options": [
+      "De aangehechte vormen",
+      "Het vermeerderde drieletterige werkwoord",
+      "Het kale drieletterige werkwoord",
+      "Het vierletterige werkwoord"
+     ],
+     "explanation": "Drie met één letter, vijf met twee, vier met drie."
+    },
+    {
+     "prompt": "Hoeveel letters heeft de wortel van islanqa?",
+     "options": [
+      "Vier",
+      "Vijf",
+      "Drie",
+      "Zes"
+     ],
+     "explanation": "S-l-q, met een hamza, een nun en een ya' aan het eind toegevoegd."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijfendertig babs geteld",
+    "labels": {
+     "Group": "Groep",
+     "Bābs": "Babs",
+     "Example": "Voorbeeld",
+     "bare three-letter": "kaal drieletterig",
+     "augmented three-letter": "vermeerderd drieletterig",
+     "bare four-letter": "kaal vierletterig",
+     "attached to daḥraja": "aangehecht aan dahraja",
+     "augmented four-letter": "vermeerderd vierletterig",
+     "attached to tadaḥraja": "aangehecht aan tadahraja",
+     "attached to iḥranjama": "aangehecht aan ihranjama"
+    }
+   }
+  },
+  "13": {
+   "title": "De acht indelingen van het werkwoord",
+   "body": [
+    "Na de babs deelt het boek elk werkwoord dat eronder valt op een andere manier in, in acht indelingen, met drie vragen. Is het drieletterig of vierletterig? Kaal of vermeerderd? Volkomen gaaf (salim) of niet? Twee antwoorden op elk van drie vragen geven acht.",
+    "De acht met de voorbeelden van het boek: drieletterig, kaal, gaaf: karuma, “edel zijn”; drieletterig, kaal, niet gaaf: wa'ada, “beloven”; vierletterig, kaal, gaaf: dahraja; vierletterig, kaal, niet gaaf: waswasa, “fluisteren”; drieletterig, vermeerderd, gaaf: akrama; drieletterig, vermeerderd, niet gaaf: aw'ada, “dreigen”; vierletterig, vermeerderd, gaaf: tadahraja; vierletterig, vermeerderd, niet gaaf: tawaswasa.",
+    "“Niet gaaf” betekent hier dat een stamletter zwak is, een hamza, of verdubbeld, zoals het volgende hoofdstuk uitlegt: wa'ada en waswasa hebben een waw onder hun stamletters. Let erop dat de voorbeelden in paren komen die alleen op dit ene punt verschillen: karuma en wa'ada, akrama en aw'ada, dahraja en waswasa, tadahraja en tawaswasa. Dezelfde bab kan gave en zwakke werkwoorden bevatten; de bab geeft het patroon, de wortel geeft het gaaf zijn.",
+    "Het vervoegingshulpmiddel werkt alleen in de gave indelingen, en bij het drieletterige werkwoord, kaal en vermeerderd. Elke les die een zwak werkwoord laat zien, neemt zijn vormen uit een druk."
+   ],
+   "terms": [
+    "de acht indelingen van het werkwoord",
+    "gaaf: geen zwakke letter, hamza of verdubbeling in de wortel",
+    "niet gaaf",
+    "kaal en vermeerderd"
+   ],
+   "examples": [
+    "karuma, gaaf; wa'ada, niet gaaf: twee kale drieletterige werkwoorden",
+    "akrama, gaaf; aw'ada, niet gaaf: twee vermeerderde drieletterige werkwoorden",
+    "dahraja, gaaf; waswasa, niet gaaf: twee kale vierletterige werkwoorden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Plaats elk werkwoord in een van de acht indelingen: nasara; istakhraja; waswasa; tadahraja; wa'ada.",
+     "answer": "Nasara: drieletterig, kaal, gaaf. Istakhraja: drieletterig, vermeerderd, gaaf. Waswasa: vierletterig, kaal, niet gaaf. Tadahraja: vierletterig, vermeerderd, gaaf. Wa'ada: drieletterig, kaal, niet gaaf."
+    },
+    {
+     "prompt": "Welke drie vragen geven de acht indelingen?",
+     "answer": "Drieletterig of vierletterig? Kaal of vermeerderd? Gaaf of niet gaaf? Twee antwoorden op elk van drie vragen maken acht."
+    },
+    {
+     "prompt": "Waarom zijn wa'ada en waswasa “niet gaaf”?",
+     "answer": "Een stamletter is zwak: de waw van wa'ada (zijn fa'), en de waws van waswasa."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel indelingen geeft de Bina in dit hoofdstuk?",
+     "options": [
+      "Zeven",
+      "Acht",
+      "Zes",
+      "Vijfendertig"
+     ],
+     "explanation": "Met drie vragen met elk twee antwoorden."
+    },
+    {
+     "prompt": "Wa'ada is…",
+     "options": [
+      "drieletterig, kaal, gaaf",
+      "vierletterig, kaal",
+      "drieletterig, kaal, niet gaaf",
+      "vermeerderd"
+     ],
+     "explanation": "Zijn fa' is een waw."
+    },
+    {
+     "prompt": "Tawaswasa is…",
+     "options": [
+      "drieletterig, vermeerderd, gaaf",
+      "vierletterig, kaal, gaaf",
+      "drieletterig, kaal, niet gaaf",
+      "vierletterig, vermeerderd, niet gaaf"
+     ],
+     "explanation": "Waswasa met een ta' toegevoegd."
+    },
+    {
+     "prompt": "Wat betekent “niet gaaf” (ghayr salim) hier?",
+     "options": [
+      "Een stamletter is zwak, een hamza, of verdubbeld",
+      "Het is passief",
+      "Het is onovergankelijk",
+      "Het heeft toegevoegde letters"
+     ],
+     "explanation": "Het volgende hoofdstuk geeft de zeven klassen."
+    },
+    {
+     "prompt": "Welk paar verschilt alleen in het gaaf zijn?",
+     "options": [
+      "Akrama en dahraja",
+      "Akrama en aw'ada",
+      "Karuma en akrama",
+      "Dahraja en tadahraja"
+     ],
+     "explanation": "Beide vermeerderde drieletterige werkwoorden."
+    },
+    {
+     "prompt": "Dahraja hoort bij…",
+     "options": [
+      "drieletterig, vermeerderd, gaaf",
+      "vierletterig, vermeerderd",
+      "vierletterig, kaal, gaaf",
+      "drieletterig, kaal"
+     ],
+     "explanation": "Alle vier de letters zijn stamletters, geen ervan zwak."
+    },
+    {
+     "prompt": "In welke indelingen werkt het vervoegingshulpmiddel?",
+     "options": [
+      "Alle acht",
+      "Alleen het vierletterige werkwoord",
+      "Alleen het zwakke werkwoord",
+      "Het gave drieletterige werkwoord, kaal en vermeerderd"
+     ],
+     "explanation": "Zwakke vormen komen uit een druk."
+    }
+   ],
+   "diagram": {
+    "caption": "De acht indelingen met de voorbeelden van het boek",
+    "labels": {
+     "Division": "Indeling",
+     "Sound": "Gaaf",
+     "Not sound": "Niet gaaf",
+     "three-letter, bare": "drieletterig, kaal",
+     "four-letter, bare": "vierletterig, kaal",
+     "three-letter, augmented": "drieletterig, vermeerderd",
+     "four-letter, augmented": "vierletterig, vermeerderd"
+    }
+   }
+  },
+  "14": {
+   "title": "De zeven klassen: gaaf en zwak",
+   "body": [
+    "De laatste indeling gaat naar de letters van de wortel, in zeven klassen, en het is die welke in elk later boek van de sarf gebruikt wordt. Het gave werkwoord (sahih) is het werkwoord “in wiens fa', 'ayn en lam geen zwakke letter (waw, ya', alif), geen hamza en geen verdubbeling is”: nasara. Let erop dat de sahih van de Bina de strikte is, die andere boeken salim noemen; sommige boeken noemen een werkwoord met een hamza of een verdubbeling ook sahih.",
+    "De zwakke werkwoorden, naar de plaats van de zwakke letter. De mithal, zwak in zijn fa': wa'ada, yasara (hij “lijkt” in zijn madi op het gave werkwoord, vandaar de naam). De ajwaf, “hol”, zwak in zijn 'ayn: qala, kala. De naqis, “gebrekkig”, zwak in zijn lam: ghaza, rama; de druk schrijft ghaza met een ya', hoewel zijn wortel op een waw eindigt.",
+    "De lafif, “omwikkeld”, heeft twee zwakke letters, op twee manieren. Verbonden (maqrun), de 'ayn en de lam allebei zwak, naast elkaar: tawa, qawiya. Gescheiden (mafruq), de fa' en de lam zwak, met een gave letter ertussen: waqa yaqi, “beschermen”, waarvan de mudari' de waw van zijn wortel al verloren heeft.",
+    "Waarom doet dit ertoe? Omdat de zwakke letters veranderen: ze gaan in elkaar over, vallen weg, of nemen geen klinker. Qala komt van q-w-l, maar zijn waw is een alif geworden; rama komt van r-m-y, met zijn ya' als alif geschreven. De regels van deze veranderingen (i'lal) vullen de latere boeken, al-Maqsud en al-'Izzi, en het vervoegingshulpmiddel van The Nahwi laat ze terzijde: het geeft alleen gave wortels."
+   ],
+   "terms": [
+    "gaaf: geen zwakke letter, hamza of verdubbeling (hier)",
+    "zwak in zijn fa': wa'ada",
+    "hol, zwak in zijn 'ayn: qala",
+    "gebrekkig, zwak in zijn lam: rama",
+    "twee zwakke letters, verbonden of gescheiden",
+    "de zwakke letters: waw, ya', alif"
+   ],
+   "examples": [
+    "wa'ada, yasara: mithal, zwak in de fa'",
+    "qala, kala: ajwaf, zwak in de 'ayn",
+    "ghaza, rama: naqis, zwak in de lam (geschreven zoals in de druk)",
+    "tawa, qawiya: lafif verbonden; waqa yaqi: lafif gescheiden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de klasse van elk werkwoord en de plaats van de zwakke letter: wa'ada; qala; rama; tawa; waqa.",
+     "answer": "Wa'ada: mithal (waw in de fa'). Qala: ajwaf (zwakke 'ayn). Rama: naqis (zwakke lam). Tawa: lafif maqrun (zwakke 'ayn en lam). Waqa: lafif mafruq (zwakke fa' en lam)."
+    },
+    {
+     "prompt": "Wat is het verschil tussen de verbonden en de gescheiden lafif? Geef de voorbeelden van het boek.",
+     "answer": "Verbonden (maqrun): de twee zwakke letters staan naast elkaar, de 'ayn en de lam (tawa, qawiya). Gescheiden (mafruq): de fa' en de lam zijn zwak, met een gave 'ayn ertussen (waqa yaqi)."
+    },
+    {
+     "prompt": "Waarom is nasara sahih in de zin van de Bina, maar akhadha niet?",
+     "answer": "De sahih van de Bina heeft geen zwakke letter, geen hamza en geen verdubbeling. Nasara heeft geen van drieën; akhadha heeft een hamza als fa', dus het is mahmuz."
+    },
+    {
+     "prompt": "Welke van deze kan het vervoegingshulpmiddel volledig geven: kataba, qala, rama, jalasa?",
+     "answer": "Kataba en jalasa, die gaaf zijn. Qala (ajwaf) en rama (naqis) zijn zwak; hun vormen komen uit een druk."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is het gave werkwoord (sahih) van de Bina?",
+     "options": [
+      "Elk werkwoord zonder zwakke letter",
+      "Elk kaal werkwoord",
+      "Geen zwakke letter, hamza of verdubbeling in de wortel",
+      "Elk overgankelijk werkwoord"
+     ],
+     "explanation": "Zijn strikte betekenis, die andere boeken salim noemen."
+    },
+    {
+     "prompt": "Qala is…",
+     "options": [
+      "mithal",
+      "naqis",
+      "lafif",
+      "ajwaf, zwak in zijn 'ayn"
+     ],
+     "explanation": "Wortel q-w-l."
+    },
+    {
+     "prompt": "Wa'ada is…",
+     "options": [
+      "mithal, zwak in zijn fa'",
+      "ajwaf",
+      "naqis",
+      "mahmuz"
+     ],
+     "explanation": "Zijn fa' is een waw."
+    },
+    {
+     "prompt": "Welk werkwoord is lafif mafruq?",
+     "options": [
+      "Tawa",
+      "Waqa",
+      "Qawiya",
+      "Rama"
+     ],
+     "explanation": "Zwakke fa' en lam, gescheiden door de qaf."
+    },
+    {
+     "prompt": "Wat zijn de zwakke letters?",
+     "options": [
+      "Hamza en nun",
+      "De keelletters",
+      "Waw, ya' en alif",
+      "Alif, lam, mim"
+     ],
+     "explanation": "Huruf al-'illa."
+    },
+    {
+     "prompt": "Rama is…",
+     "options": [
+      "ajwaf",
+      "mithal",
+      "muda'af",
+      "naqis, zwak in zijn lam"
+     ],
+     "explanation": "Wortel r-m-y."
+    },
+    {
+     "prompt": "Waarom geeft het vervoegingshulpmiddel alleen gave wortels?",
+     "options": [
+      "Zwakke letters veranderen volgens regels (i'lal) die de latere boeken onderwijzen",
+      "Zwakke werkwoorden zijn zeldzaam",
+      "Zwakke werkwoorden hebben geen madi",
+      "Zwakke werkwoorden zijn naamwoorden"
+     ],
+     "explanation": "Al-Maqsud en al-'Izzi behandelen ze."
+    }
+   ],
+   "diagram": {
+    "labels": {
+     "The seven classes": "De zeven klassen",
+     "Sound (ṣaḥīḥ)": "Gaaf (sahih)",
+     "With a weak letter": "Met een zwakke letter",
+     "mithāl: in the fāʾ": "mithal: in de fa'",
+     "ajwaf: in the ʿayn": "ajwaf: in de 'ayn",
+     "nāqiṣ: in the lām": "naqis: in de lam",
+     "lafīf joined": "lafif verbonden",
+     "lafīf separated": "lafif gescheiden",
+     "Doubled (muḍāʿaf)": "Verdubbeld (muda'af)",
+     "With hamza (mahmūz)": "Met hamza (mahmuz)"
+    }
+   }
+  },
+  "15": {
+   "title": "Het verdubbelde werkwoord en de idgham",
+   "body": [
+    "Het verdubbelde werkwoord (muda'af) is het werkwoord “waarvan de 'ayn en de lam van één soort zijn”: madda, “strekken”. Zijn grondvorm is madada; de klinker van de eerste dal werd weggelaten, en daarna werd die in de tweede samengetrokken. De idgham (samentrekking) is “een van twee gelijke letters in de andere zetten”, zodat ze als één verdubbelde letter worden uitgesproken, met een shadda: madda.",
+    "De idgham is van drie soorten. Verplicht (wajib): als beide gelijke letters een klinker hebben, of als de eerste een sukun heeft en de tweede een klinker: madda yamuddu. Hier moet men samentrekken; madada en yamdudu worden niet gezegd.",
+    "Toegestaan (ja'iz): als de eerste een klinker heeft en de tweede een sukun die alleen bijkomend is, zoals in de jazm: lam yamudda, van lam yamdud. De klinker van de eerste dal ging over naar de mim, twee sukuns kwamen samen, en de tweede dal kreeg een klinker, een damma, een fatha of een kasra, “omdat zijn sukun bijkomend is”: lam yamuddu, lam yamudda, lam yamuddi. Of men laat hem ongesamentrokken: lam yamdud. Beide zijn goed Arabisch.",
+    "Onmogelijk (mumtani'): als de tweede een sukun heeft die oorspronkelijk is, zoals voor de voornaamwoorden met klinker van de madi: madadtu, “ik strekte”, madadna, “zij (vrouwen) strekten”. De dal voor -tu en -na is altijd zonder klinker, dus blijven de twee dals gescheiden. Daarom ziet het verdubbelde werkwoord er in sommige personen verdubbeld uit (madda, yamuddu) en in andere onverdubbeld (madadtu, madadna).",
+    "De drie soorten berusten op één gedachte: twee gelijke letters naast elkaar smelten samen als niets dat verhindert, mogen samensmelten als het beletsel voorbijgaat, en kunnen niet samensmelten als het blijvend is."
+   ],
+   "terms": [
+    "het verdubbelde werkwoord: 'ayn en lam gelijk",
+    "idgham: de ene gelijke letter in de andere",
+    "verplicht, toegestaan, onmogelijk",
+    "een bijkomende sukun, zoals die van de jazm",
+    "een oorspronkelijke sukun, zoals voor -tu"
+   ],
+   "examples": [
+    "madda, yamuddu: idgham verplicht",
+    "lam yamudda of lam yamdud: idgham toegestaan",
+    "madadtu, madadna: idgham onmogelijk"
+   ],
+   "tasks": [
+    {
+     "prompt": "Wat is de grondvorm van madda, en welke twee stappen maken er madda van?",
+     "answer": "De grondvorm is madada. De klinker van de eerste dal wordt weggelaten (madda zonder klinker op de eerste dal), en de eerste dal wordt in de tweede samengetrokken: madda, met een shadda."
+    },
+    {
+     "prompt": "Verplicht, toegestaan of onmogelijk? madda; madadtu; lam yamudda; yamuddu.",
+     "answer": "Madda: verplicht. Madadtu: onmogelijk (oorspronkelijke sukun voor -tu). Lam yamudda: toegestaan (bijkomende sukun van de jazm). Yamuddu: verplicht."
+    },
+    {
+     "prompt": "Geef de vier manieren die de Bina toestaat voor “hij strekte niet”.",
+     "answer": "Lam yamdud (ongesamentrokken), en gesamentrokken met elk van de drie klinkers: lam yamuddu, lam yamudda, lam yamuddi."
+    },
+    {
+     "prompt": "Waarom kunnen de dals van madadtu nooit samensmelten?",
+     "answer": "De tweede dal heeft een oorspronkelijke sukun voor het voornaamwoord met klinker -tu; hij kan nooit een klinker nemen, dus kan hij de shadda van de idgham niet dragen."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is het verdubbelde werkwoord?",
+     "options": [
+      "Een werkwoord met een toegevoegde verdubbelde 'ayn",
+      "Een werkwoord met twee zwakke letters",
+      "Een werkwoord met een hamza",
+      "Een werkwoord waarvan de 'ayn en de lam gelijk zijn"
+     ],
+     "explanation": "Madda, van madada."
+    },
+    {
+     "prompt": "Wat is idgham?",
+     "options": [
+      "Een van twee gelijke letters in de andere zetten",
+      "Een zwakke letter laten wegvallen",
+      "Een waw in een alif veranderen",
+      "Een hamza toevoegen"
+     ],
+     "explanation": "Uitgesproken als één verdubbelde letter."
+    },
+    {
+     "prompt": "Madadtu laat een idgham zien die…",
+     "options": [
+      "verplicht is",
+      "onmogelijk is",
+      "toegestaan is",
+      "alleen in poëzie vrij is"
+     ],
+     "explanation": "De tweede dal heeft een oorspronkelijke sukun."
+    },
+    {
+     "prompt": "Lam yamudda en lam yamdud zijn…",
+     "options": [
+      "allebei fout",
+      "alleen het eerste juist",
+      "allebei juist: de idgham is toegestaan",
+      "alleen het tweede juist"
+     ],
+     "explanation": "De sukun van de jazm is bijkomend."
+    },
+    {
+     "prompt": "Welke klinkers mag de laatste dal van lam yamudd- nemen?",
+     "options": [
+      "Alleen fatha",
+      "Alleen kasra",
+      "Geen",
+      "Damma, fatha of kasra"
+     ],
+     "explanation": "Omdat zijn sukun bijkomend is."
+    },
+    {
+     "prompt": "Yamuddu laat een idgham zien die…",
+     "options": [
+      "verplicht is",
+      "onmogelijk is",
+      "toegestaan is",
+      "ontbreekt"
+     ],
+     "explanation": "De eerste dal had een sukun en de tweede een klinker."
+    },
+    {
+     "prompt": "Wat is een oorspronkelijke sukun?",
+     "options": [
+      "De sukun van de jazm",
+      "Een die nooit verandert, zoals voor -tu",
+      "De sukun van een pauze",
+      "Elke sukun"
+     ],
+     "explanation": "Hij blokkeert de idgham."
+    }
+   ],
+   "diagram": {
+    "caption": "De drie soorten idgham",
+    "labels": {
+     "Kind": "Soort",
+     "The two like letters": "De twee gelijke letters",
+     "Example": "Voorbeeld",
+     "obligatory": "verplicht",
+     "both vowelled, or sukūn then vowel": "beide met klinker, of sukun dan klinker",
+     "permitted": "toegestaan",
+     "vowel, then an accidental sukūn": "klinker, dan een bijkomende sukun",
+     "impossible": "onmogelijk",
+     "vowel, then an original sukūn": "klinker, dan een oorspronkelijke sukun"
+    }
+   }
+  },
+  "16": {
+   "title": "Het werkwoord met hamza; het vers van de zeven",
+   "body": [
+    "De laatste klasse is het werkwoord met hamza (mahmuz), “waarvan een van de stamletters een hamza is”: akhadha, “nemen”, sa'ala, “vragen”, qara'a, “lezen”. Het wordt genoemd naar de plaats van de hamza: mahmuz al-fa' als de hamza de eerste stamletter is (akhadha), mahmuz al-'ayn als ze de tweede is (sa'ala), mahmuz al-lam als ze de derde is (qara'a).",
+    "De hamza is geen zwakke letter, maar ze is zwaar, en in sommige vormen wordt ze verzacht of valt ze weg, en daarom zet de Bina haar apart van het gave werkwoord. Zulke vormen worden geleerd uit de boeken die elke klasse behandelen, niet gemaakt met de regel van het gave werkwoord.",
+    "De zeven klassen worden, zegt het boek, samengebracht in één vers, en het vers dat het geeft, is Perzisch: sahih-ast, mithal-ast, muda'af / lafif, naqis, mahmuz, ajwaf, “het is sahih, het is mithal, muda'af, lafif, naqis, mahmuz, ajwaf”. Een Arabisch beginnersboek, gelezen in Ottomaanse landen, dat eindigt met een Perzisch geheugenvers: de madrasa leerde in alle drie haar talen.",
+    "Hiermee is de Bina klaar: vijfendertig babs, acht indelingen, zeven klassen. Op het Ottomaanse pad komt daarna de Maqsud, en dan al-'Izzi, die de zwakke en verdubbelde werkwoorden klasse voor klasse behandelen en laten zien hoe hun vormen veranderen."
+   ],
+   "terms": [
+    "het werkwoord met een hamza onder zijn stamletters",
+    "hamza als eerste stamletter: akhadha",
+    "hamza als tweede: sa'ala",
+    "hamza als derde: qara'a"
+   ],
+   "examples": [
+    "akhadha, sa'ala, qara'a: de hamza als fa', 'ayn en lam",
+    "het Perzische vers dat de zeven klassen samenbrengt"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de soort mahmuz: akhadha; sa'ala; qara'a.",
+     "answer": "Akhadha: mahmuz al-fa'. Sa'ala: mahmuz al-'ayn. Qara'a: mahmuz al-lam."
+    },
+    {
+     "prompt": "Zeg de zeven klassen op in de volgorde van het Perzische vers, en geef van elk een voorbeeld uit de Bina.",
+     "answer": "Sahih (nasara), mithal (wa'ada), muda'af (madda), lafif (tawa, waqa), naqis (rama), mahmuz (akhadha), ajwaf (qala)."
+    },
+    {
+     "prompt": "Plaats elk werkwoord in zijn klasse: madda; yasara; kala; qawiya; sa'ala; nasara.",
+     "answer": "Madda: muda'af. Yasara: mithal. Kala: ajwaf. Qawiya: lafif maqrun. Sa'ala: mahmuz al-'ayn. Nasara: sahih."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is het mahmuz-werkwoord?",
+     "options": [
+      "Een met een hamza onder zijn stamletters",
+      "Een met een zwakke letter",
+      "Een met een verdubbelde letter",
+      "Een met een toegevoegde hamza"
+     ],
+     "explanation": "Akhadha, sa'ala, qara'a."
+    },
+    {
+     "prompt": "Sa'ala is…",
+     "options": [
+      "mahmuz al-fa'",
+      "mahmuz al-'ayn",
+      "mahmuz al-lam",
+      "ajwaf"
+     ],
+     "explanation": "De hamza is zijn tweede stamletter."
+    },
+    {
+     "prompt": "Qara'a is…",
+     "options": [
+      "mahmuz al-fa'",
+      "naqis",
+      "mahmuz al-lam",
+      "sahih"
+     ],
+     "explanation": "De hamza is zijn derde stamletter."
+    },
+    {
+     "prompt": "In welke taal is het vers waarmee de Bina eindigt?",
+     "options": [
+      "Arabisch",
+      "Turks",
+      "Urdu",
+      "Perzisch"
+     ],
+     "explanation": "Sahih-ast, mithal-ast …"
+    },
+    {
+     "prompt": "Is de hamza een zwakke letter?",
+     "options": [
+      "Nee, maar ze is zwaar en kan verzacht worden of wegvallen",
+      "Ja, net als waw en ya'",
+      "Alleen aan het eind",
+      "Alleen in de mudari'"
+     ],
+     "explanation": "Daarom geeft de Bina haar een eigen klasse."
+    },
+    {
+     "prompt": "Hoeveel klassen brengt het vers samen?",
+     "options": [
+      "Acht",
+      "Zeven",
+      "Zes",
+      "Vijfendertig"
+     ],
+     "explanation": "Sahih, mithal, muda'af, lafif, naqis, mahmuz, ajwaf."
+    },
+    {
+     "prompt": "Welk boek komt hierna op het Ottomaanse pad?",
+     "options": [
+      "De Alfiyya",
+      "De Ajurrumiyya",
+      "De Maqsud",
+      "De Qatr al-nada"
+     ],
+     "explanation": "Daarna al-'Izzi, die de zwakke werkwoorden klasse voor klasse behandelen."
+    }
+   ],
+   "diagram": {
+    "labels": {
+     "The seven classes": "De zeven klassen",
+     "Sound (ṣaḥīḥ)": "Gaaf (sahih)",
+     "With a weak letter": "Met een zwakke letter",
+     "mithāl": "mithal",
+     "ajwaf": "ajwaf",
+     "nāqiṣ": "naqis",
+     "lafīf": "lafif",
+     "Doubled (muḍāʿaf)": "Verdubbeld (muda'af)",
+     "With hamza (mahmūz)": "Met hamza (mahmuz)",
+     "in the fāʾ": "in de fa'",
+     "in the ʿayn": "in de 'ayn",
+     "in the lām": "in de lam"
+    }
+   }
+  }
+ },
+ "title": "Bina' al-af'al",
+ "summary": "De Bina (Turks Bina), een kort anoniem Arabisch beginnersboek dat in de Ottomaanse madrasa na de Amthila gelezen wordt: waar de Amthila de vormen van één werkwoord opzegt, laat de Bina zien hoe werkwoorden gebouwd worden. Het telt vijfendertig babs, de patronen waarop elk Arabisch werkwoord gemaakt wordt: zes voor het kale drieletterige werkwoord, twaalf voor het vermeerderde, één voor het kale vierletterige werkwoord, drie voor het vermeerderde vierletterige werkwoord, en dertien die “aangehecht” zijn aan de vierletterige patronen. Voor elk geeft het het patroon, een modelwerkwoord, het teken dat het aangeeft en waarvoor het gebouwd is (een werkwoord overgankelijk maken, versterken, wederkerigheid, meegaandheid), en het eindigt met de acht indelingen van het werkwoord en de zeven klassen van gave en zwakke wortels. De lessen leggen elke bab uit en laten de regelmatige volledig zien met het vervoegingshulpmiddel van The Nahwi."
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "kisai",
+  "name": "Abū al-Ḥasan ʿAlī ibn Ḥamza al-Kisāʾī",
+  "known": "al-Kisāʾī",
+  "arabic": "الكِسَائِيُّ",
+  "died": "189/805",
+  "places": [
+    "Kufa",
+    "Baghdad",
+    "Ranbūya (near Rayy)"
+  ],
+  "roles": [
+    "teacher"
+  ],
+  "summary": "One of the seven readers of the Qurʾān and the founder of the Kufan school of grammar, tutor of the caliph's sons, who faced Sībawayh in the masʾala zunbūriyya.",
+  "bio": [
+    "Al-Kisāʾī was a Persian client who grew up in Kufa; the sources explain his name by a cloak (kisāʾ) he wore when he entered the state of pilgrimage. He learnt grammar late, from Muʿādh al-Harrāʾ and al-Ruʾāsī in Kufa and from al-Khalīl in Basra. The biographers tell that when he asked al-Khalīl where his knowledge came from, al-Khalīl named the Bedouin of the Ḥijāz, Najd and Tihāma, and that al-Kisāʾī went to them and came back having used up fifteen bottles of ink on what he heard.",
+    "He is one of the seven readers whose readings of the Qurʾān are canonical, and in Baghdad he tutored the caliph Hārūn al-Rashīd's sons al-Amīn and al-Maʾmūn. Al-Zubaydī puts him alone in the second Kufan generation. Against the Basrans he allowed more of what the Arabs were heard to say, even where analogy objected, and this is the stamp of the Kufan school; the masʾala zunbūriyya, in which the Bedouin he called in took his side against Sībawayh, became its emblem (see Sībawayh). Al-Akhfash, by his own account, then faulted his answers to a hundred questions, and al-Kisāʾī made him his sons' teacher.",
+    "He died in 189/805 at Ranbūya near Rayy, travelling with al-Rashīd to Khurasan, on the same day, the reports say, as the jurist Muḥammad ibn al-Ḥasan al-Shaybānī, so that the caliph said he had buried law and grammar together. Al-Farrāʾ, al-Aḥmar and Hishām al-Ḍarīr were his students."
+  ],
+  "works": [
+    {
+      "title": "Maʿānī al-Qurʾān",
+      "arabic": "مَعَانِي القُرْآن",
+      "kind": "other",
+      "note": "Lost."
+    },
+    {
+      "title": "Mā talḥanu fīhi al-ʿāmma",
+      "arabic": "مَا تَلْحَنُ فِيهِ العَامَّة",
+      "kind": "other",
+      "note": "On the mistakes of common speech."
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "His death is also given as 182/798, 192/808 or 193/809."
+  ],
+  "books": [],
+  "school": "kufa",
+  "tabaqa": {
+    "list": "kufa-nahw",
+    "n": 2,
+    "entry": 59
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 59 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Kisâî, Ali b. Hamza, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/kisai-ali-b-hamza"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "majhul",
+  "name": "The verb in the passive (al-majhūl)",
+  "arabic": "الفِعْلُ المَجْهُولُ",
+  "transliteration": "al-fiʿl al-majhūl",
+  "alsoKnownAs": [
+    "majhul",
+    "majhūl",
+    "passive",
+    "mabni lil-majhul",
+    "mabnī li-l-majhūl"
+  ],
+  "category": "verb",
+  "definition": "The verb whose doer is not named, built for its object: in the past with u on the first letter and i before the last (nuṣira), in the present with u on the prefix and a before the last (yunṣaru).",
+  "body": [
+    "The books call it the verb 'built for the unknown' (al-mabnī li-l-majhūl) or 'for the object' (li-l-mafʿūl), and the noun that takes the doer's place the nāʾib al-fāʿil. Its forms are made from the active by changing the vowels, and every bāb gives the same pattern; the engine of the conjugation tables makes them from the active verb."
+  ],
+  "examples": [
+    {
+      "arabic": "نُصِرَ – يُنْصَرُ",
+      "text": "nuṣira, yunṣaru: the passive of naṣara."
+    },
+    {
+      "arabic": "ضُرِبَ – يُضْرَبُ",
+      "text": "ḍuriba, yuḍrabu: the passive of ḍaraba."
+    }
+  ],
+  "related": [
+    "naib-al-fail",
+    "madi",
+    "mudari"
+  ],
+  "books": [
+    "izzi",
+    "kafiya"
+  ]
+}

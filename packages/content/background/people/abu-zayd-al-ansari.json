@@ -1,0 +1,44 @@
+{
+  "slug": "abu-zayd-al-ansari",
+  "name": "Abū Zayd Saʿīd ibn Aws al-Anṣārī",
+  "known": "Abū Zayd al-Anṣārī",
+  "arabic": "أَبُو زَيْدٍ الأَنْصَارِيُّ",
+  "died": "215/830",
+  "places": [
+    "Basra"
+  ],
+  "roles": [
+    "teacher"
+  ],
+  "summary": "Basran lexicographer, trusted above all for what he heard from the Arabs; his al-Nawādir is one of the oldest books of the language, and Sībawayh is said to mean him when he cites 'one I trust'.",
+  "bio": [
+    "Abū Zayd belonged to the Khazraj of Medina by descent and lived in Basra, where he learnt from Abū ʿAmr ibn al-ʿAlāʾ and collected the speech of the Bedouin. Al-Zubaydī places him in the third generation of the Basran lexicographers. Of the three great lexicographers of his age, al-Aṣmaʿī, Abū ʿUbayda and Abū Zayd, the sources call him the most trustworthy, and Sībawayh's 'I was told by one I trust' is said to refer to him.",
+    "His Kitāb al-Nawādir, rare words and usages with the verses that attest them, survives, with books on hamza and on rain. He died in Basra in 215/830, said to be over ninety."
+  ],
+  "works": [
+    {
+      "title": "Kitāb al-Nawādir fī al-lugha",
+      "arabic": "كِتَابُ النَّوَادِرِ فِي اللُّغَة",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-lugha",
+    "n": 3,
+    "entry": 90
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 90 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ebû Zeyd el-Ensârî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ebu-zeyd-el-ensari"
+    }
+  ]
+}

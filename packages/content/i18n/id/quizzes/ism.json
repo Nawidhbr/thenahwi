@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-1": {
+      "prompt": "Manakah tanda isim?",
+      "options": [
+        "Ia dapat menerima alif lam",
+        "Ia dapat didahului qad",
+        "Ia dapat menerima sin untuk masa depan",
+        "Ia selalu berakhir dengan sukun"
+      ],
+      "explanation": "Alif lam, tanwin dan khafadh menandai isim; qad dan sin untuk masa depan menandai fi'il."
+    },
+    "ism-2": {
+      "prompt": "Apa yang membedakan isim dari fi'il?",
+      "options": [
+        "Isim menunjukkan makna tanpa terikat dengan waktu",
+        "Isim selalu terdiri dari tiga huruf",
+        "Isim tidak pernah bisa menjadi fa'il",
+        "Isim tidak pernah menerima tanwin"
+      ],
+      "explanation": "Fi'il mengandung waktu; isim tidak."
+    },
+    "ism-3": {
+      "prompt": "Kata mana yang isim?",
+      "options": [
+        "kitabun (sebuah kitab)",
+        "kataba (dia telah menulis)",
+        "qad",
+        "Tidak satu pun"
+      ],
+      "explanation": "Kitabun bertanwin, salah satu tanda isim. Kataba adalah fi'il dan qad adalah huruf."
+    }
+  }
+}

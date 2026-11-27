@@ -1,0 +1,35 @@
+{
+  "slug": "mahall",
+  "name": "The place in iʿrāb (maḥall)",
+  "arabic": "المَحَلُّ",
+  "transliteration": "al-maḥall",
+  "alsoKnownAs": [
+    "mahall",
+    "maḥall",
+    "fi mahall",
+    "in the place of",
+    "irab mahalli",
+    "iʿrāb maḥallī"
+  ],
+  "category": "jargon",
+  "definition": "The case a word or a sentence would have if it showed iʿrāb: said of mabnī words and of whole sentences that stand where a declinable word would stand.",
+  "body": [
+    "A mabnī word cannot change its ending, but it still fills a place in the sentence: in jāʾa hāʾulāʾi the demonstrative is 'mabnī on the kasra, in the place of rafʿ' (fī maḥalli rafʿin) as the doer. A sentence that stands as a predicate, an adjective or a ḥāl has a place too: in zaydun abūhu karīmun the sentence abūhu karīmun is 'in the place of rafʿ' as the predicate of zaydun. A sentence that takes no such place 'has no place in iʿrāb' (lā maḥalla lahā min al-iʿrāb), and Ibn Hishām's Mughnī lists the sentences of both kinds.",
+    "Maḥall (place) and taqdīr (assumption) are kept apart: the assumed iʿrāb belongs to a declinable word whose ending cannot be pronounced, the place to a word that does not decline at all."
+  ],
+  "examples": [
+    {
+      "arabic": "جَاءَ هٰؤُلَاءِ",
+      "text": "These came: hāʾulāʾi is mabnī on the kasra, in the place of rafʿ as the doer."
+    }
+  ],
+  "related": [
+    "taqdir",
+    "bina",
+    "irab"
+  ],
+  "books": [
+    "qatr",
+    "alfiyya"
+  ]
+}

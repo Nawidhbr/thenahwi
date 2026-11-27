@@ -1,0 +1,34 @@
+{
+  "items": {
+    "amr-1": {
+      "prompt": "Apa fi'il amar dari fi'il ini?",
+      "options": [
+        "اُنْصُرْ",
+        "اِنْصُرْ",
+        "نَصَرَ",
+        "أَنْصُرُ"
+      ],
+      "explanation": "Buang ta'-nya, sukunkan akhirnya, dan beri hamzah di depannya dengan dhammah 'ain fi'il: unshur."
+    },
+    "amr-2": {
+      "prompt": "Mengapa fi'il amar ini diawali kasrah?",
+      "options": [
+        "Karena 'ain fi'il tadhribu berharakat kasrah",
+        "Karena ia muannats",
+        "Karena setiap fi'il amar diawali i",
+        "Karena dharaba itu mazid"
+      ],
+      "explanation": "Hamzahnya berharakat dhammah jika 'ain fi'il mudhari'-nya berharakat dhammah, dan kasrah jika tidak."
+    },
+    "amr-3": {
+      "prompt": "Kepada siapa fi'il amar ditujukan?",
+      "options": [
+        "Kepada orang yang diajak bicara, dalam enam bentuk",
+        "Kepada siapa saja: keempat belas dhamir",
+        "Hanya kepada pembicara",
+        "Hanya kepada orang yang tidak hadir"
+      ],
+      "explanation": "Fi'il amar dibentuk dari orang kedua: dua bentuk mudzakkar, dua bentuk muannats, dan mutsanna."
+    }
+  }
+}

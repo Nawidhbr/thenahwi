@@ -16,6 +16,9 @@ list when it is made. The layout follows the English source list, `packages/cont
   mâdî, masdar, binâ', 'âmil, ma'mûl, tanwîn, hâl, tamyîz. Digraphs stay as in the English (sh, kh, dh, th, gh): khabar,
   shart, dhahaba. No other marks on Latin letters (no ā, ṣ, ḥ, ʿ, ʾ). The French accents (é è ê à ç ô ï) stay in
   French words. The article is written as in the English: al-fâ'il, al-mubtada', ism al-fâ'il, fî l-bayti.
+- Two letter names fall together without the dots: ṭāʾ and tāʾ (« tâ' »), ḥāʾ and hāʾ (« hâ' »). Where the text
+  speaks of the letter itself and both could be meant, the Arabic letter follows in brackets: « le tâ' [ط] »,
+  « le hâ' [ح] », « le hâ' [ه] ». sâd / sîn, dâd / dâl and zâ' / zây stay apart by their names.
 - **Arabic examples** inside a passage: in this transliteration with the case endings, then the meaning in French
   quotation marks: qâma Zaydun « Zayd s'est levé », ra'aytu Zaydan « j'ai vu Zayd », marartu bi-Zaydin « je suis passé
   près de Zayd ». The Arabic script is copied, never retyped.
@@ -86,6 +89,8 @@ list when it is made. The layout follows the English source list, `packages/cont
 | The five nouns / the six nouns | الأَسْمَاءُ الخَمْسَةُ / السِّتَّةُ | les cinq noms / les six noms | — |
 | The five verbs | الأَفْعَالُ الخَمْسَةُ | les cinq verbes | — |
 | The diptote | مَا لَا يَنْصَرِفُ، غَيْرُ المُنْصَرِفِ | le diptote (ghayr al-munsarif) | nom qui ne prend pas le tanwîn |
+| Deflection (a cause of the diptote) | العَدْلُ | la déviation ('adl) | — |
+| The pause / the hamza of connection | الوَقْفُ / هَمْزَةُ الوَصْلِ | la pause (waqf) / la hamza de liaison (hamzat al-wasl) | — |
 
 ### Root and pattern
 
@@ -158,6 +163,7 @@ list when it is made. The layout follows the English source list, `packages/cont
 | English | Arabic | in the text | pop-up |
 |---|---|---|---|
 | The verbal noun | المَصْدَرُ | le nom verbal (masdar) | nom de l'action |
+| The noun of a verb | اسْمُ الفِعْلِ | le nom de verbe (ism al-fi'l), never « nom verbal », which is the masdar | — |
 | The active participle | اسْمُ الفَاعِلِ | le participe actif (ism al-fâ'il) | celui qui fait |
 | The passive participle | اسْمُ المَفْعُولِ | le participe passif (ism al-maf'ûl) | celui qui subit |
 | The derived noun | المُشْتَقُّ | le nom dérivé (mushtaqq) | — |
@@ -231,6 +237,7 @@ list when it is made. The layout follows the English source list, `packages/cont
 | The absolute object | المَفْعُولُ المُطْلَقُ | le complément absolu (maf'ûl mutlaq) | — |
 | The adverb of time / of place | ظَرْفُ الزَّمَانِ / المَكَانِ | le complément de temps / de lieu (zarf, maf'ûl fîhi) | — |
 | The object of purpose | المَفْعُولُ مِنْ أَجْلِهِ (لَهُ) | le complément de but (maf'ûl li-ajlihi) | — |
+| The object of reason (Qatr's name for it) | المَفْعُولُ لَهُ | le complément de cause (maf'ûl lahu) | — |
 | The object of accompaniment | المَفْعُولُ مَعَهُ | le complément d'accompagnement (maf'ûl ma'ahu) | — |
 | The state | الحَالُ | le hâl (complément d'état) | — |
 | The specification | التَّمْيِيزُ | la spécification (tamyîz) | — |
@@ -252,6 +259,8 @@ list when it is made. The layout follows the English source list, `packages/cont
 | The substitute | البَدَلُ | le permutatif (badal) | — |
 | The explicative apposition | عَطْفُ البَيَانِ | l'apposition explicative ('atf al-bayân) | — |
 | The kinds of badal | بَدَلُ الكُلِّ … | le badal du tout, de la partie, d'inclusion, d'erreur | — |
+| The badal of turning away / of forgetting | بَدَلُ الإِضْرَابِ / بَدَلُ النِّسْيَانِ | le permutatif de revirement (idrâb) / d'oubli (nisyân); mistake (ghalat) « d'erreur » | — |
+| Number / the counted noun / the ordinal | العَدَدُ / المَعْدُودُ / فَاعِلٌ مِنَ العَدَدِ | le nombre ('adad) / le nom compté (ma'dûd) / l'ordinal (sur le schème fâ'il) | — |
 
 ## Choices between competing terms
 

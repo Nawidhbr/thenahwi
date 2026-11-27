@@ -1,0 +1,45 @@
+{
+  "slug": "jarmi",
+  "name": "Abū ʿUmar Ṣāliḥ ibn Isḥāq al-Jarmī",
+  "known": "al-Jarmī",
+  "arabic": "أَبُو عُمَرَ الجَرْمِيُّ",
+  "died": "225/840",
+  "places": [
+    "Basra",
+    "Baghdad"
+  ],
+  "roles": [
+    "teacher"
+  ],
+  "summary": "Basran grammarian who read al-Kitāb with al-Akhfash and taught it, author of a short grammar called 'the chick' of Sībawayh's book.",
+  "bio": [
+    "Al-Jarmī learnt from al-Akhfash, Yūnus ibn Ḥabīb and the lexicographers al-Aṣmaʿī and Abū ʿUbayda, and stands in al-Zubaydī's sixth Basran generation. He and al-Māzinī are the two who read Sībawayh's al-Kitāb with al-Akhfash and passed it on.",
+    "His Mukhtaṣar, a short grammar, was known as al-Farkh, 'the chick', since it was hatched from al-Kitāb. The sources report his saying that for thirty years he had given legal answers from Sībawayh's book, meaning that its way of reasoning served him in law. He also debated the Kufan al-Farrāʾ in Baghdad. He died in 225/840."
+  ],
+  "works": [
+    {
+      "title": "al-Mukhtaṣar (al-Farkh)",
+      "arabic": "المُخْتَصَر",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 6,
+    "entry": 24
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 24 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Cermî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/cermi"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "farisi",
+  "name": "Abū ʿAlī al-Ḥasan ibn Aḥmad ibn ʿAbd al-Ghaffār al-Fārisī al-Fasawī",
+  "known": "Abū ʿAlī al-Fārisī",
+  "arabic": "أَبُو عَلِيٍّ الفَارِسِيُّ",
+  "died": "377/987",
+  "places": [
+    "Fasā",
+    "Baghdad",
+    "Aleppo",
+    "Shiraz",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "The great grammarian of the Buyid courts, author of al-Īḍāḥ and al-Takmila for ʿAḍud al-Dawla, and the teacher of Ibn Jinnī.",
+  "bio": [
+    "Abū ʿAlī was born in Fasā in Fārs in 288/900 and came to Baghdad young, where he learnt from al-Zajjāj, Ibn al-Sarrāj and al-Akhfash al-Aṣghar. Al-Zubaydī, writing in his lifetime, puts him in the tenth Basran generation and sums up his career in a line: he was with Ibn Ḥamdān (Sayf al-Dawla, in Aleppo), the Daylamite ruler called him to teach his nephews, he stayed in Baghdad, then went to Shiraz.",
+    "In Shiraz he taught the Buyid ʿAḍud al-Dawla and wrote for him al-Īḍāḥ, on syntax, and al-Takmila, on morphology. The biographers tell that the ruler found al-Īḍāḥ too slight, 'fit for boys', and that al-Fārisī answered with al-Takmila. His collections of questions, named after the cities where they were asked (al-Baghdādiyyāt, al-Ḥalabiyyāt, al-Shīrāziyyāt, al-ʿAskariyyāt), and his al-Ḥujja on the causes of the seven Qurʾān readings show him at his best, a master of qiyās.",
+    "His meeting with Ibn Jinnī is one of the best-known stories of the grammarians. As Yāqūt tells it, he passed through the mosque of Mosul and found a young man teaching, explaining how wāw turns to alif in qāla and qāma; he put an objection the young man could not answer and said, 'You have turned to raisin while still a sour grape' (tazabbabta wa-anta ḥiṣrim). Ibn Jinnī asked who he was, left his circle and followed him for the rest of his teacher's life, some forty years. Ibn Khallikān tells it otherwise: Ibn Jinnī had studied with him before and set up on his own too soon. Al-Fārisī died in Baghdad in 377/987."
+  ],
+  "works": [
+    {
+      "title": "al-Īḍāḥ",
+      "arabic": "الإِيضَاح",
+      "kind": "matn"
+    },
+    {
+      "title": "al-Takmila",
+      "arabic": "التَّكْمِلَة",
+      "kind": "matn",
+      "note": "The ṣarf that completes al-Īḍāḥ."
+    },
+    {
+      "title": "al-Ḥujja li-l-qurrāʾ al-sabʿa",
+      "arabic": "الحُجَّةُ لِلْقُرَّاءِ السَّبْعَة",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "Al-Zubaydī and the TDV count him a Basran; later histories of the schools count him among the Baghdadis who joined Basra and Kufa."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 10,
+    "entry": 50
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 50 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ebû Ali el-Fârisî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ebu-ali-el-farisi"
+    },
+    {
+      "title": "Abu Ali al-Farisi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abu_Ali_al-Farisi"
+    },
+    {
+      "title": "The meeting with Ibn Jinnī, after Yāqūt and Ibn Khallikān: introduction to Ibn Jinnī's al-Muḥtasab (al-Maktaba al-Shāmila)",
+      "url": "https://shamela.ws/book/704/44"
+    }
+  ]
+}

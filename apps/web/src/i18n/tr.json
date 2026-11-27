@@ -58,7 +58,7 @@
   },
   "home": {
     "title": "Sarf ve nahvi, <em>medresenin dil bilgisini</em> öğrenin",
-    "lead": "Zihni düşünürken hataya düşmekten koruyan, kurallara dayalı bir alet; medresenin kitaplarıyla öğretilir: Hint, Osmanlı ya da Kuzey Afrika yolunu seçin ve metinlerini seviye seviye okuyun, her derste Arapçasıyla ve kısa bir testle.",
+    "lead": "Medresenin kendi kitaplarından okuttuğu şekliyle Arapça sarf ve nahiv: Hint, Osmanlı veya Kuzey Afrika yolunu seçin, metinlerini seviye seviye okuyun; sarf ve nahiv yan yana, Arapça metin ve her ders için kısa bir sınavla.",
     "start": "Yolunuzu seçin",
     "readText": "Metni oku",
     "factTerms": "terim",
@@ -230,7 +230,7 @@
     "questions": "{chapter} · {n} soru"
   },
   "search": {
-    "placeholder": "Ara: cins, جنس…",
+    "placeholder": "Ara: fiil, fi'l, فعل…",
     "hint": "Bu dilde, çeviriyazıyla ya da Arapça arayın; harekeli veya harekesiz.",
     "none": "Sonuç yok. Başka bir yazım ya da Arapçasını deneyin.",
     "close": "Aramayı kapat",
@@ -623,7 +623,7 @@
     "shSound": "Sahih",
     "shSoundSub": "illet harfi yok: ketebe",
     "shWeak": "Mu'tel",
-    "shWeakSub": "vav, ya ya da elif: kale, rema",
+    "shWeakSub": "vav, ya ya da elif: kale, rama",
     "msMasdar": "Masdar",
     "msMasdarSub": "işin kendisi: nasr",
     "msFail": "İsm-i fail",
@@ -949,7 +949,8 @@
       "mastersKicker": "Üstatlar",
       "mastersLead": "Sibeveyh'ten Ezher'e: kitapları okunan nahivciler.",
       "library": "Bütün kütüphane",
-      "newsLead": "Her hafta The Mantiqi tarafından toplanır."
+      "newsLead": "Her hafta The Mantiqi tarafından toplanır.",
+      "generationsLink": "Nahivcilerin tabakaları"
     },
     "curricula": {
       "title": "Müfredatlar",
@@ -1025,7 +1026,9 @@
         "teacher": "Hocalar",
         "voice": "Dil bilgisi üzerine sesler",
         "modern": "Modern araştırma"
-      }
+      },
+      "generationsLink": "Nahivcilerin tabakaları",
+      "generationsLead": "Aynı alimler, eski tabakat kitaplarının düzenlediği gibi ekol ve tabakaya göre, bir de yüzyıllara göre."
     },
     "scholar": {
       "life": "Hayatı",
@@ -1035,7 +1038,9 @@
       "places": "Yerler",
       "writtenOn": "Eserleri üzerine yazılanlar",
       "books": "Kitaplarda",
-      "sources": "Kaynaklar"
+      "sources": "Kaynaklar",
+      "school": "Ekol",
+      "tabaqa": "Zübeydi'nin Tabakat'ında"
     },
     "news": {
       "title": "Nahiv ve sarf havadisi",
@@ -1110,7 +1115,8 @@
         "verse": "Manzume",
         "refutation": "Eleştiri",
         "modern": "Modern ders kitabı",
-        "translation": "Çeviri"
+        "translation": "Çeviri",
+        "biography": "Nahivcilerin hayatları"
       },
       "languages": {
         "ar": "Arapça",
@@ -1154,7 +1160,8 @@
         "sentence": "Cümle",
         "governors": "Amiller (avamil)",
         "followers": "Tabiler (tevabi')",
-        "accusatives": "Mansub kelimeler"
+        "accusatives": "Mansub kelimeler",
+        "jargon": "Kitapların ve münazaranın dili"
       },
       "pageTitle": "{name} ({transliteration}): Arapça dil bilgisinde anlamı",
       "pageTitleShort": "{name}: Arapça dil bilgisinde anlamı",
@@ -1171,6 +1178,60 @@
     "nahw": {
       "title": "Nahiv ve sarf hakkında",
       "lead": "Nahiv ve sarf nedir, sarf neden önce gelir ve medrese kitaplarını nasıl okur."
+    },
+    "generations": {
+      "title": "Nahivcilerin tabakaları",
+      "lead": "Nahiv ve sarf alimleri, eski tabakat kitaplarının düzenlediği gibi ekol ve tabakaya göre, bir de vefat ettikleri yüzyıla göre.",
+      "description": "Arap dili nahivcileri, Zübeydi'nin Tabakatü'n-nahviyyin'ine göre ekol ve tabaka sırasıyla ve yüzyıllara göre: hicri vefat yılları, şehirleri ve kitapları.",
+      "count": "{n} nahivci",
+      "introKicker": "Tabakat",
+      "introTitle": "Eski kitaplar nahivcileri nasıl sıralar",
+      "intro": [
+        "Dördüncü/onuncu yüzyıldan itibaren nahivciler kendi ilimlerinin tarihini tabakat, yani “katmanlar” ya da nesiller olarak yazdılar: bir neslin hocalarının talebeleri sonraki nesli oluşturur; böylece bir tabakat kitabı, kurucudan yazarın kendi hocalarına kadar uzanan bir zincirdir. Günümüze ulaşan en eskileri birbirinden birkaç on yıl arayla yazılmıştır: Sirafi'nin Ahbarü'n-nahviyyine'l-Basriyyin'i, Ebu't-Tayyib el-Lugavi'nin Meratibü'n-nahviyyin'i ve Zübeydi'nin Tabakatü'n-nahviyyin ve'l-lugaviyyin'i.",
+        "Bu sayfa, Kurtuba'da Halife II. Hakem'in emriyle yazan Zübeydi'yi izler. Zübeydi alimleri şehre ve ilme göre ayırır: Ebu'l-Esved ed-Düeli'den Zeccac'ın talebelerine kadar on tabakada Basra nahivcileri; Ruasi'den Sa'leb'in talebelerine kadar altı tabakada Kufe nahivcileri; iki şehrin lügatçileri; sonra Mısır'ın, Kayrevan'ın ve Endülüs'ün alimleri. Her madde bir alimin hocalarını, kitaplarını ve onun hakkındaki rivayetleri verir; aşağıdaki tabakalar ve madde numaraları onunkilerdir.",
+        "Sonraki yüzyıllar için tabakat kitapları ada göre gider: İbnü'l-Enbari'nin Nüzhetü'l-elibba'sı, Kıfti'nin İnbahü'r-ruvat'ı ve dokuzuncu/on beşinci yüzyılın sonuna kadar iki binden fazla nahivci ve lügatçiyi toplayan Süyuti'nin Buğyetü'l-vuat'ı. Burada Zübeydi'den sonraki nahivciler, tarihlerin onları yerleştirdiği ekol ya da ülkeye göre, yazdıkları kitaplarla, üç çalışma yolunda okunan yazarlara kadar sıralanır."
+      ],
+      "worksTitle": "Kütüphanedeki tabakat eserleri",
+      "bySchool": "Ekol ve tabakaya göre",
+      "byCentury": "Yüzyıla göre",
+      "zubaydiTitle": "Zübeydi'nin Tabakat'ında",
+      "zubaydiLead": "Zübeydi (ö. 379/989) her şehrin alimlerini tabaka tabaka sıralar; bir tabakanın talebeleri sonrakini oluşturur; yalnız burada sayfası olan nahivciler ve lügatçiler gösterilir.",
+      "laterTitle": "Zübeydi'den sonra: ekoller ve ülkeler",
+      "laterLead": "Ondan sonra yaşayan ya da onun saymadığı nahivciler, tarihlerin onları yerleştirdiği ekol ya da ülkeye göre ve vefat tarihine göre.",
+      "centuryTitle": "Vefat yüzyılına göre",
+      "centuryLead": "Ansiklopedinin her nahivcisi, vefat ettiği hicri yüzyılın altında, ekolü ve şehriyle.",
+      "lists": {
+        "basra-nahw": "Basra nahivcileri",
+        "kufa-nahw": "Kufe nahivcileri",
+        "basra-lugha": "Basra lügatçileri",
+        "kufa-lugha": "Kufe lügatçileri",
+        "egypt": "Mısır nahivcileri",
+        "qayrawan": "Kayrevan nahivcileri",
+        "andalus": "Endülüs nahivcileri"
+      },
+      "schools": {
+        "basra": "Basra",
+        "kufa": "Kufe",
+        "baghdad": "Bağdat ve Irak",
+        "egypt-sham": "Mısır ve Şam",
+        "andalus": "Endülüs",
+        "maghrib": "Mağrib",
+        "hijaz-yemen": "Hicaz ve Yemen",
+        "persia-central-asia": "İran ve Orta Asya",
+        "ottoman": "Osmanlı toprakları",
+        "india": "Hindistan",
+        "none": "Ülkesi bilinmiyor"
+      },
+      "generation": "{n}. tabaka",
+      "inGeneration": "{list}, {n}. tabaka",
+      "entry": "{n}. madde",
+      "century": "Hicri {n}. yüzyıl",
+      "years": "H. {from}–{to} · {n}",
+      "yearsOne": "H. {from}–{to} · 1 nahivci",
+      "grammarians": "{n} nahivci",
+      "died": "ö.",
+      "undated": "Vefat yılı bilinmiyor",
+      "grammarianOne": "1 nahivci"
     }
   },
   "preview": {

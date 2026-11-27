@@ -1,0 +1,36 @@
+{
+  "slug": "mudaaf",
+  "name": "The doubled verb (muḍāʿaf)",
+  "arabic": "المُضَاعَفُ",
+  "transliteration": "al-muḍāʿaf",
+  "alsoKnownAs": [
+    "mudaaf",
+    "muḍāʿaf",
+    "doubled verb",
+    "geminate",
+    "asamm"
+  ],
+  "category": "sound-weak",
+  "definition": "A verb whose second and third root letters are the same, such as madda (m-d-d) and marra (m-r-r); also called aṣamm, 'the deaf', for its hardness.",
+  "body": [
+    "The two like letters merge (idghām) wherever the second is voweled: madda, yamuddu. Where the last must be silent, in the jussive, the imperative and the past with a suffix, they are written apart (madadtu) or kept merged with a vowel added. The ṣarf books count it among the 'unsound' verbs though it has no weak letter, and Marāḥ al-arwāḥ treats it first, before the hamzated and the weak."
+  ],
+  "examples": [
+    {
+      "arabic": "مَدَّ – يَمُدُّ",
+      "text": "madda, yamuddu, from m-d-d."
+    },
+    {
+      "arabic": "مَرَّ",
+      "text": "marra, 'he passed', from m-r-r."
+    }
+  ],
+  "related": [
+    "idgham",
+    "sahih",
+    "mahmuz"
+  ],
+  "books": [
+    "izzi"
+  ]
+}

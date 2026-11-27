@@ -1,0 +1,34 @@
+{
+  "items": {
+    "harf-1": {
+      "prompt": "Bagaimana Jurumiyah mendefinisikan huruf?",
+      "options": [
+        "Kalimah yang tidak menerima satu pun tanda isim atau tanda fi'il",
+        "Kalimah yang menamai sesuatu",
+        "Kalimah yang mengandung zaman",
+        "Kalimah yang terdiri dari tiga huruf hijaiyah"
+      ],
+      "explanation": "Huruf dikenali dari apa yang tidak ada padanya: tidak ada tanda isim, tidak ada tanda fi'il."
+    },
+    "harf-2": {
+      "prompt": "Apa yang dilakukan fi di sini?",
+      "options": [
+        "Menjadikan al-bait khafadh",
+        "Menjadikan al-bait rafa'",
+        "Menjadikan al-bait fi'il",
+        "Tidak ada: ia tidak beramal"
+      ],
+      "explanation": "Fi adalah huruf khafadh: al-baiti berakhir dengan kasrah sesudahnya."
+    },
+    "harf-3": {
+      "prompt": "Kata mana yang merupakan huruf?",
+      "options": [
+        "lam",
+        "kitab",
+        "nashara",
+        "Zaid"
+      ],
+      "explanation": "Lam adalah huruf yang menjazemkan fi'il mudhari'."
+    }
+  }
+}

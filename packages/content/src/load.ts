@@ -1,6 +1,6 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { z } from "zod";
-import { BackgroundArticle, BackgroundConcept, BackgroundPerson, CatalogueEntry, Curriculum, Reviews, CHAPTER_ORDER, Commentary, ExerciseSet, ExerciseTranslation, Glossary, LessonExplain, LessonExplainTranslation, LessonGroup, LessonPlan, LessonQuiz, Matn, LibraryBook, NewsItem, Outline, Primer, PrimerTranslation, Quiz, type Lesson, Term, TermTranslation, type LocaleBundle } from "./schema.ts";
+import { BackgroundArticle, TABAQA_GENERATIONS, BackgroundConcept, BackgroundPerson, CatalogueEntry, Curriculum, Reviews, CHAPTER_ORDER, Commentary, ExerciseSet, ExerciseTranslation, Glossary, LessonExplain, LessonExplainTranslation, LessonGroup, LessonPlan, LessonQuiz, Matn, LibraryBook, NewsItem, Outline, Primer, PrimerTranslation, Quiz, type Lesson, Term, TermTranslation, type LocaleBundle } from "./schema.ts";
 
 /** Node-only loader used by the content build script. The site imports the generated bundle instead. */
 
@@ -464,6 +464,18 @@ export function loadBackground(codes: readonly string[]): { background: { people
   const conceptSlugs = new Set(concepts.map((c) => c.slug));
   for (const c of concepts) for (const r of c.related) if (!conceptSlugs.has(r)) errors.push(`background/concepts/${c.slug}: related "${r}" has no page`);
   const slugs = new Set(people.map((p) => p.slug));
+  // The backbone of the generations page: al-Zubaydī's generation must exist in its list, and the list fit the school;
+  // the grammarians of Basra and Kufa are all in his book, so each of them has his place there.
+  for (const p of people) {
+    if (p.tabaqa) {
+      const list = TABAQA_GENERATIONS[p.tabaqa.list];
+      if (p.tabaqa.n > list.generations) errors.push(`background/people/${p.slug}: al-Zubaydī's list ${p.tabaqa.list} has ${list.generations} generations, not ${p.tabaqa.n}`);
+      if (!p.school) errors.push(`background/people/${p.slug}: a scholar with a ṭabaqa needs a school`);
+      else if (!list.schools.includes(p.school)) errors.push(`background/people/${p.slug}: the list ${p.tabaqa.list} does not fit the school ${p.school}`);
+    }
+    if ((p.school === "basra" || p.school === "kufa") && !p.tabaqa) errors.push(`background/people/${p.slug}: a scholar of ${p.school} needs his ṭabaqa in al-Zubaydī`);
+    if (!p.school) notes.push(`background: ${p.slug} has no school, so the generations page lists him apart`);
+  }
   for (const p of people) {
     for (const w of p.works) if (w.on && !["mabadi", "kafiya", "shafiya", "izzi", "alfiyya", "ajurrumiyya", "qatr", "nahw"].includes(w.on) && !slugs.has(w.on)) notes.push(`background: ${p.slug} has a work on "${w.on}", who has no page yet`);
   }

@@ -2,7 +2,8 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import KbHero from "../../../components/KbHero.astro";
 import { getBackground, getLibrary, type BackgroundPerson } from "@nahwi/content";
-import { LIVE_LOCALES, t } from "../../../i18n";
+import { fmt, LIVE_LOCALES, t } from "../../../i18n";
+import { ord } from "../../../lib/ord";
 import { gloss } from "../../../lib/gloss";
 import { KB_BOOKS, kbBook, kbPath, scholarPhoto, shortDied, shortName } from "../../../lib/kb";
 import { bookPath, coursesOn, pathLevel } from "../../../lib/course";
@@ -24,6 +25,7 @@ const { person: p, people } = Astro.props;
 const ui = t(locale);
 const B = ui.book;
 const K = ui.kb.scholar;
+const G = ui.kb.generations;
 const kinds = B.kinds as Record<string, string>;
 const roles = B.roles as Record<string, string>;
 const target = (on: string) => {
@@ -110,6 +112,13 @@ const pageTitle = withDate && withDate.length <= 51 ? withDate : shortName(p);
                 <li><span class="muted">{kinds[w.kind] ?? w.kind}:</span> <a href={kbPath.scholar(locale, w.by.slug)}>{shortName(w.by)}</a>{w.by.died && <span class="muted"> ({locale === "en" ? w.by.died.split(/ \(/)[0] : shortDied(w.by.died, locale)})</span>}</li>
               ))}
             </ul>
+          </div>
+        )}
+        {p.school && (
+          <div>
+            <p class="kb-kicker u-c7486a">{K.school}</p>
+            <p class="u-m0"><a href={kbPath.generations(locale, p.tabaqa ? p.tabaqa.list : `school-${p.school}`)}>{(G.schools as Record<string, string>)[p.school]}</a></p>
+            {p.tabaqa && <p class="muted u-m0">{K.tabaqa}: {fmt(G.inGeneration, { list: (G.lists as Record<string, string>)[p.tabaqa.list], n: ord(p.tabaqa.n, locale) })}{p.tabaqa.entry ? ` (${fmt(G.entry, { n: p.tabaqa.entry })})` : ""}</p>}
           </div>
         )}
         {p.places.length > 0 && (

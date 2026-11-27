@@ -1,0 +1,1288 @@
+{
+  "title": "al-'Izzî",
+  "summary": "Al-Tasrîf, connu sous le nom de son auteur 'Izz al-Dîn al-Zanjânî comme al-'Izzî, est le livre de sarf qu'on lit après al-Amthila, le Binâ' et le Maqsûd dans la madrasa ottomane, et dans bien d'autres madrasas encore. En quelques pages, il expose les schèmes du verbe nu et augmenté, la transitivité, la conjugaison du verbe sâlim avec le jazm, le nasb, l'impératif et les deux nûn d'insistance, les participes, puis chaque sorte de verbe qui n'est pas sâlim : le géminé, le mithâl, le concave, le défectueux, les deux lafîf et le hamzé, pour finir avec les noms de temps, de lieu, d'instrument, de fois et de manière. Il est court et exact, et ses règles sont données avec leurs raisons. Les leçons suivent son ordre et donnent chaque forme faible comme l'impression la donne.",
+  "parts": {
+    "patterns": "Le tasrîf et les schèmes du verbe",
+    "sound-verb": "La conjugaison du verbe sâlim",
+    "doubled": "Le verbe géminé",
+    "mithal-and-hollow": "Le mithâl et le verbe concave",
+    "defective-and-lafif": "Le verbe défectueux et le lafîf",
+    "hamzated": "Le verbe hamzé",
+    "nouns": "Les noms de temps, de lieu, d'instrument et de fois"
+  },
+  "lessons": {
+    "1": {
+      "title": "Ce qu'est le tasrîf, et les divisions du verbe",
+      "body": [
+        "Al-'Izzî s'ouvre sur une définition en deux moitiés. Dans la langue, le tasrîf est « le changement » (al-taghyîr) ; dans la discipline (al-sinâ'a), c'est « transformer une origine unique en formes différentes, pour des sens visés qu'on n'obtient que par elles ». Chaque terme de la seconde moitié compte : une seule origine, de nombreuses formes (amthila), et chaque forme est là pour un sens qu'aucune autre forme ne donne.",
+        "Prenez une origine, darb, « le fait de frapper ». D'elle viennent daraba, « il a frappé », yadribu, « il frappe », idrib, « frappe ! », dârib, « celui qui frappe », et madrûb, « celui qui est frappé ». Le temps passé, le temps présent, un ordre, celui qui fait, celui qui subit : chaque sens n'est atteint que par sa propre forme. Les commentateurs d'al-'Izzî tiennent cette origine unique pour le masdar, comme les Basriens. C'est ce que tout le livre va enseigner : comment les formes se construisent et comment elles changent.",
+        "Puis trois divisions, chacune en deux. Le verbe est trilitère ou quadrilitère, selon le nombre de ses lettres radicales ; chacun est nu (mujarrad) ou augmenté (mazîd fîhi), selon que des lettres s'ajoutent ou non aux radicales ; et chacun est sâlim ou non sâlim. Trois divisions de deux donnent huit sortes, les huit mêmes sur lesquelles le Binâ' se terminait.",
+        "Le verbe sâlim est défini exactement : c'est le verbe « dont les lettres radicales, qui correspondent au fâ', au 'ayn et au lâm, sont exemptes des lettres faibles, de la hamza et du redoublement ». Les radicales se mesurent sur f-'-l : dans nasara, le nûn est le fâ', le sâd le 'ayn, le râ' le lâm. Ainsi sa'ala, avec une hamza, madda, avec un redoublement, et wa'ada, avec un wâw, ne sont pas sâlim, bien que seul wa'ada ait une lettre faible.",
+        "Un piège pour le débutant : le caractère sâlim ne regarde que les radicales. Akrama a une hamza, mais sa hamza est ajoutée, non radicale ; ses radicales k-r-m sont exemptes des trois ; akrama est donc un trilitère sâlim augmenté. L'ordre du livre suit ces divisions : d'abord le verbe sâlim dans tous ses schèmes, puis chaque sorte qui n'est pas sâlim."
+      ],
+      "terms": [
+        "transformer une origine unique en formes différentes pour des sens visés",
+        "le verbe nu et le verbe augmenté",
+        "sâlim : des radicales exemptes de lettres faibles, de hamza et de redoublement",
+        "les lettres radicales, qui correspondent à f-'-l"
+      ],
+      "examples": [
+        "« transformer une origine unique en formes différentes »",
+        "daraba, yadribu, idrib, dârib, madrûb : une origine, cinq sens",
+        "sa'ala, madda, wa'ada : non sâlim, par la hamza, le redoublement et une lettre faible"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez cinq formes qui viennent de l'origine nasr, « le fait d'aider », et le sens que donne chacune.",
+          "answer": "Nasara, « il a aidé » (passé) ; yansuru, « il aide » (présent) ; unsur, « aide ! » (impératif) ; nâsir, « un aide » (celui qui fait) ; mansûr, « aidé » (celui qui subit). Chaque sens n'est atteint que par sa propre forme."
+        },
+        {
+          "prompt": "Lequel est sâlim, et pourquoi les autres ne le sont-ils pas : akrama, sa'ala, madda, wa'ada ?",
+          "answer": "Seul akrama : ses radicales k-r-m sont exemptes de lettres faibles, de hamza et de redoublement ; sa hamza est ajoutée. Sa'ala a une hamza radicale, madda une radicale redoublée, wa'ada une lettre faible (wâw)."
+        },
+        {
+          "prompt": "Akrama a quatre lettres à son passé. Pourquoi est-ce encore un verbe trilitère ?",
+          "answer": "La division en trilitère et quadrilitère compte les radicales, et akrama en a trois : k-r-m. La hamza est ajoutée ; akrama est donc un trilitère augmenté dont le passé se trouve avoir quatre lettres."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que le tasrîf dans la langue ?",
+          "options": [
+            "Le discours",
+            "Le changement",
+            "La dérivation à partir du verbe",
+            "La finale du nom"
+          ],
+          "explanation": "Al-taghyîr, le changement ; le sens technique est une sorte de changement : une origine transformée en de nombreuses formes."
+        },
+        {
+          "prompt": "Dans la discipline, le tasrîf transforme une origine en…",
+          "options": [
+            "des langues différentes",
+            "une seule forme aux nombreux sens",
+            "des formes différentes pour des sens visés",
+            "des noms seulement"
+          ],
+          "explanation": "« Pour des sens visés qu'on n'obtient que par elles » : chaque forme porte son propre sens."
+        },
+        {
+          "prompt": "Combien de divisions en deux du verbe al-'Izzî donne-t-il ?",
+          "options": [
+            "Deux",
+            "Sept",
+            "Une",
+            "Trois"
+          ],
+          "explanation": "Trilitère ou quadrilitère, nu ou augmenté, sâlim ou non : trois divisions, huit sortes en tout."
+        },
+        {
+          "prompt": "Quel verbe est sâlim ?",
+          "options": [
+            "Nasara",
+            "Sa'ala",
+            "Madda",
+            "Wa'ada"
+          ],
+          "explanation": "Les radicales n-s-r n'ont ni lettre faible, ni hamza, ni redoublement ; sa'ala a une hamza, madda un redoublement, wa'ada un wâw."
+        },
+        {
+          "prompt": "Akrama est…",
+          "options": [
+            "un quadrilitère nu",
+            "un trilitère augmenté",
+            "un quadrilitère augmenté",
+            "un trilitère nu"
+          ],
+          "explanation": "Trois radicales, k-r-m, et une hamza ajoutée : trilitère augmenté."
+        },
+        {
+          "prompt": "Les lettres radicales correspondent…",
+          "options": [
+            "à la hamza, au nûn, au yâ' et au tâ'",
+            "aux lettres faibles",
+            "au fâ', au 'ayn et au lâm",
+            "aux lettres ajoutées"
+          ],
+          "explanation": "Sur la mesure f-'-l, la première radicale est le fâ', la deuxième le 'ayn, la troisième le lâm."
+        },
+        {
+          "prompt": "Quelles radicales empêchent un verbe d'être sâlim ?",
+          "options": [
+            "Seulement une lettre faible",
+            "Toute lettre ajoutée",
+            "Une lettre gutturale",
+            "Une lettre faible, une hamza ou une lettre redoublée"
+          ],
+          "explanation": "Sâlim est plus étroit que « non faible » : la hamza et le redoublement l'excluent aussi."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trois divisions du verbe (al-'Izzî, p. 124–125)",
+        "labels": {
+          "The three divisions of the verb (al-ʿIzzī, pp. 124–125)": "Les trois divisions du verbe (al-'Izzî, p. 124–125)",
+          "Division by": "Division selon",
+          "One side": "Un côté",
+          "Other side": "L'autre côté",
+          "the number of radicals": "le nombre de radicales",
+          "letters added": "lettres ajoutées",
+          "weak letter, hamza, doubling": "lettre faible, hamza, redoublement"
+        }
+      },
+      "text": [
+        "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux. Louange à Dieu, Seigneur des mondes, et la prière et la paix sur notre maître Muhammad et sur toute sa famille. Sache que le tasrîf, dans la langue, est le changement, et dans l'usage technique, c'est transformer une origine unique en formes différentes, pour des sens visés qu'on n'obtient que par elles.",
+        "Ensuite, le verbe est soit trilitère, soit quadrilitère ; chacun d'eux est soit nu (mujarrad), soit augmenté (mazîd fîhi) ; et chacun d'eux est soit sâlim, soit non sâlim. Par sâlim, nous entendons ce dont les lettres radicales, qui correspondent au fâ', au 'ayn et au lâm, sont exemptes des lettres faibles, de la hamza et du redoublement."
+      ]
+    },
+    "2": {
+      "title": "Les classes du trilitère nu",
+      "body": [
+        "Le trilitère sâlim nu se classe selon la voyelle de son 'ayn, d'abord au passé, puis au présent. Un passé sur fa'ala, avec fatha sur le 'ayn, a son présent sur yaf'ulu ou yaf'ilu : nasara yansuru, « aider », et daraba yadribu, « frapper ». Lequel des deux prend un verbe n'est pas donné par une règle ; on l'apprend par l'usage et par le dictionnaire.",
+        "Un troisième présent est possible pour fa'ala : yaf'alu, avec fatha, « quand le 'ayn ou le lâm de son verbe est l'une des lettres gutturales ». Elles sont six : la hamza, le hâ' [ه], le 'ayn, le hâ' [ح], le ghayn et le khâ'. Ainsi sa'ala yas'alu, « demander », avec une hamza pour 'ayn, et mana'a yamna'u, « empêcher », avec un 'ayn pour lâm. Abâ ya'bâ, « refuser », est irrégulier (shâdhdh) : sa hamza est le fâ', et ni son 'ayn ni son lâm n'est une gutturale.",
+        "La règle ne joue que dans un sens. Une lettre gutturale permet yaf'alu mais ne l'exige pas : dakhala yadkhulu, « entrer », a un khâ' pour 'ayn et reste sur yaf'ulu. Ce qu'al-'Izzî exclut, c'est yaf'alu sans lettre gutturale, et abâ ya'bâ est l'exception qu'il nomme.",
+        "Un passé sur fa'ila a son présent sur yaf'alu : 'alima ya'lamu, « savoir », « sauf ce qui est irrégulier, comme hasiba yahsibu et ses sœurs », avec kasra dans les deux : na'ima yan'imu et waritha yarithu. Un passé sur fa'ula a son présent sur yaf'ulu, la damma étant gardée : hasuna yahsunu, karuma yakrumu. Les grammairiens ajoutent que fa'ula est la classe des qualités durables, et qu'il est intransitif.",
+        "Cela donne en tout les six classes que connaît tout étudiant de madrasa : fa'ala yaf'ulu, fa'ala yaf'ilu, fa'ala yaf'alu, fa'ila yaf'alu, fa'ila yaf'ilu et fa'ula yaf'ulu. Al-'Izzî ne les numérote pas comme le fait le Maqsûd ; il les groupe par le passé, et donne la raison de chacune."
+      ],
+      "terms": [
+        "les six lettres gutturales",
+        "la deuxième radicale, dont la voyelle classe les classes",
+        "irrégulier : contre la règle, gardé tel qu'on l'a entendu"
+      ],
+      "examples": [
+        "nasara yansuru, daraba yadribu : fa'ala avec yaf'ulu et yaf'ilu",
+        "sa'ala yas'alu, mana'a yamna'u : une gutturale pour 'ayn ou pour lâm",
+        "'alima ya'lamu, la règle ; hasiba yahsibu, l'exception",
+        "hasuna yahsunu, karuma yakrumu : fa'ula yaf'ulu"
+      ],
+      "tasks": [
+        {
+          "prompt": "Qu'ont en commun sa'ala yas'alu et mana'a yamna'u, qui permet leur présent sur yaf'alu ?",
+          "answer": "Une lettre gutturale au 'ayn ou au lâm : la hamza est le 'ayn de sa'ala, le 'ayn est le lâm de mana'a."
+        },
+        {
+          "prompt": "Pourquoi al-'Izzî dit-il abâ ya'bâ irrégulier ?",
+          "answer": "Son présent est sur yaf'alu, alors que ni son 'ayn (le bâ') ni son lâm n'est une gutturale. Sa hamza est le fâ', et la règle ne regarde que le 'ayn et le lâm."
+        },
+        {
+          "prompt": "Dakhala a un khâ' pour 'ayn, et pourtant son présent est yadkhulu. Enfreint-il la règle ?",
+          "answer": "Non. La règle dit que yaf'alu ne vient qu'avec une gutturale, non que tout verbe qui en a une prend yaf'alu. La gutturale est une condition, non une cause."
+        },
+        {
+          "prompt": "Donnez le présent de 'alima, hasiba et karuma, chacun avec sa classe.",
+          "answer": "Ya'lamu (fa'ila yaf'alu, la règle) ; yahsibu (fa'ila yaf'ilu, le groupe irrégulier) ; yakrumu (fa'ula yaf'ulu)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quand fa'ala peut-il prendre un présent sur yaf'alu ?",
+          "options": [
+            "Toujours",
+            "Quand son fâ' est une gutturale",
+            "Quand son 'ayn ou son lâm est une gutturale",
+            "Jamais"
+          ],
+          "explanation": "Sa'ala yas'alu, mana'a yamna'u ; une gutturale au fâ' ne compte pas."
+        },
+        {
+          "prompt": "Combien de lettres gutturales al-'Izzî compte-t-il ?",
+          "options": [
+            "Quatre",
+            "Trois",
+            "Sept",
+            "Six"
+          ],
+          "explanation": "La hamza, le hâ' [ه], le 'ayn, le hâ' [ح], le ghayn et le khâ'."
+        },
+        {
+          "prompt": "Quel présent est irrégulier ?",
+          "options": [
+            "Abâ ya'bâ",
+            "Mana'a yamna'u",
+            "Sa'ala yas'alu",
+            "'Alima ya'lamu"
+          ],
+          "explanation": "Il est sur yaf'alu sans gutturale à son 'ayn ou à son lâm."
+        },
+        {
+          "prompt": "Le présent régulier de fa'ila est…",
+          "options": [
+            "yaf'ulu",
+            "yaf'alu",
+            "yaf'ilu",
+            "yuf'ilu"
+          ],
+          "explanation": "'Alima ya'lamu ; hasiba yahsibu et ses sœurs sont les exceptions."
+        },
+        {
+          "prompt": "Hasiba yahsibu est…",
+          "options": [
+            "la règle pour fa'ila",
+            "un verbe fa'ula",
+            "une exception à fa'ila yaf'alu",
+            "un verbe augmenté"
+          ],
+          "explanation": "Avec kasra au passé et au présent, comme na'ima yan'imu et waritha yarithu."
+        },
+        {
+          "prompt": "Le présent de fa'ula est…",
+          "options": [
+            "yaf'alu",
+            "yaf'ilu",
+            "yaf'ulu ou yaf'ilu",
+            "toujours yaf'ulu"
+          ],
+          "explanation": "Hasuna yahsunu, karuma yakrumu : la damma du passé reste au présent."
+        },
+        {
+          "prompt": "Quelle paire sont des sœurs de hasiba ?",
+          "options": [
+            "Na'ima yan'imu et waritha yarithu",
+            "Nasara yansuru et daraba yadribu",
+            "Sa'ala yas'alu et mana'a yamna'u",
+            "Hasuna yahsunu et karuma yakrumu"
+          ],
+          "explanation": "Elles partagent sa kasra au passé et au présent."
+        }
+      ],
+      "diagram": {
+        "caption": "Les six classes du trilitère nu (al-'Izzî, p. 125–126)",
+        "labels": {
+          "The six bābs of the bare triliteral (al-ʿIzzī, pp. 125–126)": "Les six classes du trilitère nu (al-'Izzî, p. 125–126)",
+          "Past": "Passé",
+          "Present": "Présent",
+          "Example": "Exemple",
+          "Note": "Remarque",
+          "learnt by hearing": "appris par l'écoute",
+          "throat letter as ʿayn or lām": "gutturale pour 'ayn ou lâm",
+          "the rule for faʿila": "la règle pour fa'ila",
+          "irregular, with its sisters": "irrégulier, avec ses sœurs",
+          "the ḍamma kept": "la damma gardée"
+        }
+      },
+      "text": [
+        "Quant au trilitère nu et sâlim : si son passé a une fatha sur le 'ayn, sur le schème fa'ala, son mudâri' est yaf'ulu ou yaf'ilu, avec damma ou kasra sur le 'ayn, comme nasara yansuru « aider » et daraba yadribu « frapper ». Son mudâri' vient sur la mesure yaf'alu, avec fatha sur le 'ayn, quand le 'ayn ou le lâm de son verbe est l'une des lettres gutturales (hurûf al-halq), qui sont six : la hamza, le hâ' [ه], le 'ayn, le hâ' [ح], le ghayn et le khâ', comme sa'ala yas'alu « demander » et mana'a yamna'u « empêcher » ; et abâ ya'bâ « refuser » est irrégulier (shâdhdh).",
+        "Si son passé est sur fa'ila, avec kasra sur le 'ayn, son mudâri' vient sur yaf'alu, avec fatha sur le 'ayn, comme 'alima ya'lamu « savoir », sauf ce qui est irrégulier, comme hasiba yahsibu « estimer » et ses sœurs, telles que na'ima yan'imu « vivre dans l'aisance » et waritha yarithu « hériter ». Si son passé est sur fa'ula, avec damma sur le 'ayn, son mudâri' est yaf'ulu, avec damma sur le 'ayn, comme hasuna yahsunu « être bon » et karuma yakrumu « être noble »."
+      ]
+    },
+    "3": {
+      "title": "Le quadrilitère nu ; les passés augmentés de quatre et cinq lettres",
+      "body": [
+        "Le quadrilitère nu « a un seul schème : fa'lala yufa'lilu fa'lalatan wa-fi'lâlan, comme dahraja yudahriju dahrajatan », « rouler ». Le schème porte deux masdars, fa'lala et fi'lâl ; l'impression ne donne l'exemple qu'avec le premier. Quatre radicales, aucune ajoutée : le schème répète le lâm pour figurer la quatrième.",
+        "Le trilitère augmenté se classe, non par ce qui est ajouté, mais par le nombre de lettres de son passé. Les passés de quatre lettres sont trois : af'ala, comme akrama yukrimu ikrâman, « honorer » ; fa''ala, comme farraha yufarrihu tafrîhan, « réjouir » ; et fâ'ala, comme qâtala yuqâtilu muqâtalatan wa-qitâlan, « combattre », avec deux masdars.",
+        "Les passés de cinq lettres sont cinq, en deux groupes. Deux commencent par le tâ' : tafa''ala, comme takassara yatakassaru takassuran, « se briser en morceaux », et tafâ'ala, comme tabâ'ada, « s'éloigner l'un de l'autre ». Trois commencent par la hamza : infa'ala, comme inqata'a yanqati'u inqitâ'an, « être coupé » ; ifta'ala, comme ijtama'a yajtami'u ijtimâ'an, « se réunir » ; et if'alla, comme ihmarra yahmarru ihmirâran, « rougir ».",
+        "Pourquoi compter les lettres du passé ? Parce que le compte décide des voyelles, comme le montrent les leçons suivantes : tout verbe dont le passé a quatre lettres, nu ou augmenté, donne à son présent une damma sur le préfixe (yudahriju, yukrimu, yufarrihu, yuqâtilu), et tout autre verbe une fatha (yatakassaru, yanqati'u). Le groupe de quatre lettres est la clé.",
+        "Un piège : la hamza de akrama et la hamza de inqata'a ne sont pas les mêmes. La première fait partie du schème et se prononce toujours ; la seconde est une hamza de liaison (wasl), prononcée seulement quand on commence par le mot, et qui tombe dans le discours enchaîné. Al-'Izzî le dira quand il en viendra au passé."
+      ],
+      "terms": [
+        "le quadrilitère nu : fa'lala",
+        "le trilitère augmenté",
+        "un schème du verbe"
+      ],
+      "examples": [
+        "le schème unique du quadrilitère nu",
+        "akrama yukrimu ikrâman, « honorer » : af'ala",
+        "qâtala yuqâtilu muqâtalatan wa-qitâlan, « combattre » : fâ'ala",
+        "ihmarra yahmarru ihmirâran, « rougir » : if'alla"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le passé, le présent et le masdar de chaque schème à quatre lettres, comme le fait le livre.",
+          "answer": "Akrama yukrimu ikrâman (af'ala) ; farraha yufarrihu tafrîhan (fa''ala) ; qâtala yuqâtilu muqâtalatan wa-qitâlan (fâ'ala)."
+        },
+        {
+          "prompt": "Classez selon la première lettre du passé : takassara, inqata'a, tabâ'ada, ijtama'a, ihmarra.",
+          "answer": "Commençant par le tâ' : takassara, tabâ'ada. Commençant par la hamza : inqata'a, ijtama'a, ihmarra."
+        },
+        {
+          "prompt": "Dahraja et akrama ont tous deux quatre lettres au passé. Quelle est la différence ?",
+          "answer": "Les quatre lettres de dahraja sont toutes radicales : c'est le quadrilitère nu. Akrama a trois radicales et une hamza ajoutée : c'est un trilitère augmenté."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de schèmes a le quadrilitère nu ?",
+          "options": [
+            "Deux",
+            "Six",
+            "Trois",
+            "Un"
+          ],
+          "explanation": "Fa'lala yufa'lilu, comme dahraja yudahriju."
+        },
+        {
+          "prompt": "Quels masdars appartiennent au schème fa'lala ?",
+          "options": [
+            "Fa'lala et fi'lâl",
+            "Taf'îl",
+            "If'âl",
+            "Mufâ'ala"
+          ],
+          "explanation": "« Fa'lalatan wa-fi'lâlan » : dahraja, dahrajatan."
+        },
+        {
+          "prompt": "Akrama est sur le schème…",
+          "options": [
+            "fa''ala",
+            "af'ala",
+            "fâ'ala",
+            "fa'lala"
+          ],
+          "explanation": "Une hamza ajoutée devant les trois radicales k-r-m."
+        },
+        {
+          "prompt": "Quels masdars le livre donne-t-il pour qâtala ?",
+          "options": [
+            "Taqtîl",
+            "Iqtâl",
+            "Muqâtala et qitâl",
+            "Qatl seulement"
+          ],
+          "explanation": "Fâ'ala a deux masdars : muqâtalatan wa-qitâlan."
+        },
+        {
+          "prompt": "Quel schème de cinq lettres commence par le tâ' ?",
+          "options": [
+            "Infa'ala",
+            "Ifta'ala",
+            "If'alla",
+            "Tafâ'ala"
+          ],
+          "explanation": "Tafa''ala et tafâ'ala commencent par le tâ' ; les trois autres par une hamza."
+        },
+        {
+          "prompt": "Ihmarra, « rougir », est sur…",
+          "options": [
+            "if'alla",
+            "ifta'ala",
+            "if'âlla",
+            "infa'ala"
+          ],
+          "explanation": "Ihmarra yahmarru ihmirâran : cinq lettres, le lâm redoublé."
+        },
+        {
+          "prompt": "Le trilitère augmenté se classe selon…",
+          "options": [
+            "la voyelle de son 'ayn",
+            "le nombre de lettres de son passé",
+            "son sens",
+            "son masdar"
+          ],
+          "explanation": "Quatre, cinq ou six lettres au passé : le compte qui décide ensuite des voyelles."
+        }
+      ],
+      "diagram": {
+        "caption": "Le trilitère augmenté à quatre et cinq lettres au passé (al-'Izzî, p. 127).",
+        "labels": {
+          "The augmented triliteral with four and five letters in its past (al-ʿIzzī, p. 127).": "Le trilitère augmenté à quatre et cinq lettres au passé (al-'Izzî, p. 127).",
+          "Augmented triliteral": "Trilitère augmenté",
+          "Past of four letters": "Passé de quatre lettres",
+          "afʿala: akrama": "af'ala : akrama",
+          "faʿʿala: farraḥa": "fa''ala : farraha",
+          "fāʿala: qātala": "fâ'ala : qâtala",
+          "Five, with the tāʾ": "Cinq, avec le tâ'",
+          "tafaʿʿala: takassara": "tafa''ala : takassara",
+          "tafāʿala: tabāʿada": "tafâ'ala : tabâ'ada",
+          "Five, with the hamza": "Cinq, avec la hamza",
+          "infaʿala: inqaṭaʿa": "infa'ala : inqata'a",
+          "iftaʿala: ijtamaʿa": "ifta'ala : ijtama'a",
+          "ifʿalla: iḥmarra": "if'alla : ihmarra"
+        }
+      },
+      "text": [
+        "Quant au quadrilitère nu, il a un seul schème : fa'lala yufa'lilu fa'lalatan wa-fi'lâlan, comme dahraja yudahriju dahrajatan « rouler ».",
+        "Quant au trilitère augmenté, il est de trois sortes. La première est celle dont le passé a quatre lettres : comme af'ala, ainsi akrama yukrimu ikrâman « honorer » ; fa''ala, ainsi farraha yufarrihu tafrîhan « réjouir » ; et fâ'ala, ainsi qâtala yuqâtilu muqâtalatan wa-qitâlan « combattre ».",
+        "La deuxième est celle dont le passé a cinq lettres. Soit elle commence par le tâ', comme tafa''ala, ainsi takassara yatakassaru takassuran « se briser en morceaux », et tafâ'ala, ainsi tabâ'ada « s'éloigner l'un de l'autre » ; soit elle commence par la hamza, comme infa'ala, ainsi inqata'a yanqati'u inqitâ'an « être coupé », ifta'ala, ainsi ijtama'a yajtami'u ijtimâ'an « se réunir », et if'alla, ainsi ihmarra yahmarru ihmirâran « rougir »."
+      ]
+    },
+    "4": {
+      "title": "Les passés de six lettres ; le quadrilitère augmenté",
+      "body": [
+        "La troisième sorte de trilitère augmenté a six lettres à son passé, et les six schèmes commencent tous par une hamza de liaison. Istaf'ala : istakhraja yastakhriju istikhrâjan, « faire sortir ». If'âlla : ihmârra yahmârru ihmîrâran, « devenir d'un rouge profond ». If'awwala : ijlawwadha yajlawwidhu ijliwwâdhan, « aller vite sans s'arrêter ». If'aw'ala : i'shawshaba ya'shawshibu i'shîshâban, « être couvert d'herbe drue ».",
+        "Les deux derniers ajoutent un nûn : if'anlala, comme iq'ansasa yaq'ansisu iq'insâsan, « rester en arrière », et if'anlâ, comme islanqâ yaslanqî islinqâ'an, « se coucher sur le dos ». Dans islanqâ, la dernière radicale est un yâ', qui paraît en alif au passé et en yâ' au présent : ces formes faibles sont données comme l'impression les donne, et leurs règles viennent plus tard.",
+        "Le quadrilitère augmenté a trois schèmes : tafa'lala, comme tadahraja yatadahraju tadahrujan, « rouler » ; if'anlala, comme ihranjama yahranjimu ihrinjâman, « se presser en foule » ; et if'alalla, comme iqsha'arra yaqsha'irru iqshi'râran, « frissonner ».",
+        "Un schème paraît deux fois : if'anlala. Iq'ansasa est trilitère, de q-'-s, le nûn étant ajouté et le sîn répété ; ihranjama est quadrilitère, de h-r-j-m, avec seulement le nûn ajouté. Le schème est le même, les racines ne le sont pas. Pour les distinguer, comptez les radicales différentes : trois dans iq'ansasa, quatre dans ihranjama.",
+        "Le compte est maintenant complet : le trilitère augmenté a quatorze schèmes (trois de quatre lettres, cinq de cinq, six de six), le quadrilitère nu un, le quadrilitère augmenté trois. Avec les six classes du trilitère nu, ce sont tous les schèmes que le livre va conjuguer."
+      ],
+      "terms": [
+        "le quadrilitère augmenté",
+        "la hamza de liaison, au début des schèmes plus longs",
+        "le schème à nûn ajouté, pour trois ou quatre radicales"
+      ],
+      "examples": [
+        "istakhraja yastakhriju istikhrâjan, « faire sortir »",
+        "ihmârra yahmârru ihmîrâran, « devenir d'un rouge profond »",
+        "iq'ansasa, « rester en arrière » : if'anlala sur une racine trilitère",
+        "ihranjama, « se presser en foule » : if'anlala sur une racine quadrilitère"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le présent et le masdar de istakhraja, i'shawshaba et iqsha'arra, comme le livre les donne.",
+          "answer": "Istakhraja yastakhriju istikhrâjan ; i'shawshaba ya'shawshibu i'shîshâban ; iqsha'arra yaqsha'irru iqshi'râran."
+        },
+        {
+          "prompt": "Iq'ansasa et ihranjama sont tous deux sur if'anlala. Pourquoi l'un est-il trilitère et l'autre quadrilitère ?",
+          "answer": "Iq'ansasa a trois radicales différentes, q-'-s, le nûn étant ajouté et le sîn répété ; ihranjama en a quatre, h-r-j-m, avec seulement le nûn ajouté."
+        },
+        {
+          "prompt": "Combien de schèmes augmentés al-'Izzî donne-t-il pour le trilitère et pour le quadrilitère ?",
+          "answer": "Quatorze pour le trilitère (trois à quatre lettres au passé, cinq à cinq, six à six) et trois pour le quadrilitère."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Comment commencent tous les schèmes de six lettres ?",
+          "options": [
+            "Par une hamza de liaison",
+            "Par un tâ'",
+            "Par un mîm",
+            "Par un nûn"
+          ],
+          "explanation": "Istaf'ala, if'âlla, if'awwala, if'aw'ala, if'anlala, if'anlâ."
+        },
+        {
+          "prompt": "I'shawshaba, « être couvert d'herbe drue », est sur…",
+          "options": [
+            "if'awwala",
+            "if'aw'ala",
+            "istaf'ala",
+            "if'anlala"
+          ],
+          "explanation": "Le 'ayn est répété avec un wâw entre les deux : i'shawshaba ya'shawshibu."
+        },
+        {
+          "prompt": "Sur quel schème est ihmârra ?",
+          "options": [
+            "if'alla",
+            "if'alalla",
+            "if'âlla",
+            "if'awwala"
+          ],
+          "explanation": "Ihmârra yahmârru ihmîrâran : un alif avant le lâm redoublé."
+        },
+        {
+          "prompt": "Combien de schèmes a le quadrilitère augmenté ?",
+          "options": [
+            "Un",
+            "Six",
+            "Cinq",
+            "Trois"
+          ],
+          "explanation": "Tafa'lala, if'anlala et if'alalla."
+        },
+        {
+          "prompt": "Tadahraja est sur…",
+          "options": [
+            "tafa'lala",
+            "tafa''ala",
+            "fa'lala",
+            "tafâ'ala"
+          ],
+          "explanation": "Dahraja avec un tâ' ajouté : tadahraja yatadahraju tadahrujan."
+        },
+        {
+          "prompt": "Quel schème est partagé par un exemple trilitère et un exemple quadrilitère ?",
+          "options": [
+            "Istaf'ala",
+            "If'anlala",
+            "If'alalla",
+            "Tafa'lala"
+          ],
+          "explanation": "Iq'ansasa de q-'-s, ihranjama de h-r-j-m."
+        },
+        {
+          "prompt": "Combien de schèmes augmentés a le trilitère dans al-'Izzî ?",
+          "options": [
+            "Douze",
+            "Six",
+            "Quatorze",
+            "Neuf"
+          ],
+          "explanation": "Trois à quatre lettres, cinq à cinq, six à six."
+        }
+      ],
+      "diagram": {
+        "caption": "Les schèmes plus longs du verbe (al-'Izzî, p. 127–128).",
+        "labels": {
+          "The longer patterns of the verb (al-ʿIzzī, pp. 127–128).": "Les schèmes plus longs du verbe (al-'Izzî, p. 127–128).",
+          "Longer patterns": "Schèmes plus longs",
+          "Triliteral, six letters": "Trilitère, six lettres",
+          "istafʿala: istakhraja": "istaf'ala : istakhraja",
+          "ifʿālla: iḥmārra": "if'âlla : ihmârra",
+          "ifʿawwala: ijlawwadha": "if'awwala : ijlawwadha",
+          "ifʿawʿala: iʿshawshaba": "if'aw'ala : i'shawshaba",
+          "ifʿanlala: iqʿansasa": "if'anlala : iq'ansasa",
+          "ifʿanlā: islanqā": "if'anlâ : islanqâ",
+          "Augmented quadriliteral": "Quadrilitère augmenté",
+          "tafaʿlala: tadaḥraja": "tafa'lala : tadahraja",
+          "ifʿanlala: iḥranjama": "if'anlala : ihranjama",
+          "ifʿalalla: iqshaʿarra": "if'alalla : iqsha'arra"
+        }
+      },
+      "text": [
+        "La troisième est celle dont le passé a six lettres, comme istaf'ala, ainsi istakhraja yastakhriju istikhrâjan « faire sortir » ; if'âlla, ainsi ihmârra yahmârru ihmîrâran « devenir d'un rouge profond » ; if'awwala, ainsi ijlawwadha yajlawwidhu ijliwwâdhan « aller vite sans s'arrêter » ; if'aw'ala, ainsi i'shawshaba ya'shawshibu i'shîshâban « être couvert d'herbe drue » ; if'anlala, ainsi iq'ansasa yaq'ansisu iq'insâsan « rester en arrière » ; et if'anlâ, ainsi islanqâ yaslanqî islinqâ'an « se coucher sur le dos ».",
+        "Quant au quadrilitère augmenté, ses schèmes sont : tafa'lala, comme tadahraja yatadahraju tadahrujan « rouler » ; if'anlala, comme ihranjama yahranjimu ihrinjâman « se presser en foule » ; et if'alalla, comme iqsha'arra yaqsha'irru iqshi'râran « frissonner »."
+      ]
+    },
+    "5": {
+      "title": "Le transitif et l'intransitif",
+      "body": [
+        "Une courte remarque (tanbîh) avant les tableaux. Le verbe est soit transitif (muta'addî), « celui qui passe jusqu'au complément d'objet », comme daraba Zaydan, « il a frappé Zayd », appelé aussi « tombant » (wâqi'), parce que son action tombe sur quelqu'un, et « qui dépasse » (mujâwiz) ; soit intransitif, « celui qui ne dépasse pas l'agent », comme hasuna Zaydun, « Zayd a été bon », appelé lâzim, « attaché » à son agent, et « non tombant ».",
+        "Le critère est simple : l'action a-t-elle besoin de quelqu'un ou de quelque chose qui la subisse ? Frapper a besoin de quelqu'un qu'on frappe ; être bon n'a besoin de personne d'autre que de celui qui est bon. Dans daraba Zaydan, Zayd est l'objet, au nasb ; dans hasuna Zaydun, Zayd est l'agent, au raf'.",
+        "Un verbe intransitif peut être rendu transitif. Dans le trilitère nu, cela se fait « par le redoublement du 'ayn et par l'ajout de la hamza » : fariha, « être content », donne farrahtu Zaydan, « j'ai réjoui Zayd » ; jalasa, « s'asseoir », donne ajlastuhu, « je l'ai fait asseoir ». Ce sont fa''ala et af'ala, les deux premiers schèmes à quatre lettres, et le Binâ' nommait la ta'diya en premier parmi leurs sens.",
+        "« Et dans toutes [les sortes] par une préposition » : dhahabtu bi-Zaydin, « je suis parti avec Zayd », c'est-à-dire je l'ai emmené ; intalaqtu bi-hi, « je me suis mis en route avec lui ». Une préposition laisse le verbe tel qu'il est ; elle peut donc servir à tout verbe, nu ou augmenté : intalaqa est infa'ala. Le redoublement et la hamza changent le schème ; ils appartiennent donc au trilitère nu.",
+        "Cette remarque compte pour la suite : le passif (leçon 6) et le participe passif (leçon 12) se forment des verbes qui ont un objet, et al-'Izzî montrera comment un verbe intransitif avec une préposition forme son participe passif."
+      ],
+      "terms": [
+        "transitif : qui passe jusqu'à l'objet",
+        "intransitif : qui ne dépasse pas l'agent",
+        "rendre un verbe transitif",
+        "le complément d'objet"
+      ],
+      "examples": [
+        "daraba Zaydan, « il a frappé Zayd » : transitif",
+        "hasuna Zaydun, « Zayd a été bon » : intransitif",
+        "farrahtu Zaydan wa-ajlastuhu : par le redoublement du 'ayn et par la hamza",
+        "dhahabtu bi-Zaydin wa-ntalaqtu bi-hi : par une préposition"
+      ],
+      "tasks": [
+        {
+          "prompt": "Hasuna est-il transitif ? Expliquez avec la définition du livre.",
+          "answer": "Non. Il ne dépasse pas son agent : Zayd est bon, et personne d'autre n'est touché par l'action. Il est lâzim, « non tombant »."
+        },
+        {
+          "prompt": "Nommez le moyen de la ta'diya dans : farrahtu Zaydan ; ajlastuhu ; dhahabtu bi-Zaydin.",
+          "answer": "Le redoublement du 'ayn (fa''ala) ; l'ajout de la hamza (af'ala) ; une préposition (bi-)."
+        },
+        {
+          "prompt": "Pourquoi la préposition agit-elle « dans toutes », mais le redoublement et la hamza seulement dans le trilitère nu ?",
+          "answer": "Le redoublement et la hamza font du verbe nu un nouveau schème, fa''ala ou af'ala. Une préposition laisse le verbe tel qu'il est ; elle peut donc suivre tout verbe, nu ou augmenté, comme intalaqtu bi-hi avec intalaqa, qui est infa'ala."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le verbe transitif est celui qui…",
+          "options": [
+            "n'a pas d'agent",
+            "passe jusqu'au complément d'objet",
+            "est au passif",
+            "a quatre lettres"
+          ],
+          "explanation": "Comme daraba Zaydan : le coup tombe sur Zayd."
+        },
+        {
+          "prompt": "Quel nom n'est PAS donné au verbe transitif ?",
+          "options": [
+            "Wâqi'",
+            "Mujâwiz",
+            "Lâzim",
+            "Muta'addî"
+          ],
+          "explanation": "Lâzim est l'intransitif : il reste attaché à son agent."
+        },
+        {
+          "prompt": "Dans hasuna Zaydun, Zayd est…",
+          "options": [
+            "l'objet",
+            "un hâl",
+            "le prédicat",
+            "l'agent"
+          ],
+          "explanation": "Le verbe ne le dépasse pas ; il est donc l'agent, au raf'."
+        },
+        {
+          "prompt": "Farrahtu Zaydan est rendu transitif par…",
+          "options": [
+            "le redoublement du 'ayn",
+            "la hamza",
+            "une préposition",
+            "le tâ'"
+          ],
+          "explanation": "Fariha devient farraha, sur fa''ala."
+        },
+        {
+          "prompt": "Ajlastuhu est rendu transitif par…",
+          "options": [
+            "le redoublement du 'ayn",
+            "l'ajout de la hamza",
+            "une préposition",
+            "un nûn"
+          ],
+          "explanation": "Jalasa devient ajlasa, sur af'ala : « je l'ai fait asseoir »."
+        },
+        {
+          "prompt": "Quel moyen peut rendre transitif n'importe quel verbe ?",
+          "options": [
+            "Le redoublement du 'ayn",
+            "La hamza",
+            "Une préposition",
+            "Le sîn"
+          ],
+          "explanation": "« Et dans toutes par une préposition » : dhahabtu bi-Zaydin, intalaqtu bi-hi."
+        },
+        {
+          "prompt": "Dhahabtu bi-Zaydin veut dire…",
+          "options": [
+            "Zayd est parti",
+            "je suis allé chez Zayd",
+            "j'ai envoyé Zayd",
+            "je suis parti avec Zayd, je l'ai emmené"
+          ],
+          "explanation": "Avec bi-, le départ tombe aussi sur Zayd."
+        }
+      ],
+      "diagram": {
+        "caption": "Trois manières de rendre un verbe transitif (al-'Izzî, p. 129)",
+        "labels": {
+          "Three ways of making a verb transitive (al-ʿIzzī, p. 129)": "Trois manières de rendre un verbe transitif (al-'Izzî, p. 129)",
+          "Means": "Moyen",
+          "Intransitive": "Intransitif",
+          "Transitive": "Transitif",
+          "doubling the ʿayn": "le redoublement du 'ayn",
+          "adding the hamza": "l'ajout de la hamza",
+          "a preposition": "une préposition"
+        }
+      },
+      "text": [
+        "Le verbe est soit transitif (muta'addî), c'est-à-dire celui qui passe jusqu'au complément d'objet (al-maf'ûl bihi), comme quand tu dis daraba Zaydan « il a frappé Zayd » ; on l'appelle aussi « tombant » (wâqi') et « qui dépasse » (mujâwiz). Soit il n'est pas transitif, c'est-à-dire celui qui ne dépasse pas l'agent, comme quand tu dis hasuna Zaydun « Zayd a été bon » ; on l'appelle intransitif (lâzim) et « non tombant » (ghayr wâqi').",
+        "Dans le trilitère nu, il est rendu transitif par le redoublement du 'ayn et par l'ajout de la hamza, comme quand tu dis farrahtu Zaydan « j'ai réjoui Zayd » et ajlastuhu « je l'ai fait asseoir » ; et dans toutes [les sortes] par une préposition (harf al-jarr), comme dhahabtu bi-Zaydin « je suis parti avec Zayd » et intalaqtu bi-hi « je me suis mis en route avec lui »."
+      ]
+    },
+    "6": {
+      "title": "Le passé, construit pour l'agent et pour celui qui subit",
+      "body": [
+        "Le passé « est ce qui indique un sens qui a eu lieu dans le temps passé ». Sa forme construite pour l'agent a une fatha sur sa première lettre, « et de même la première lettre voyellée qu'il contient a une fatha » : nasara nasarâ nasarû, et ainsi de suite à travers les personnes. Il en va de même pour fa'lala, tafa'lala, infa'ala, ifta'ala, istaf'ala et les autres.",
+        "Pourquoi ajouter « la première lettre voyellée » ? À cause des alifs au début des schèmes plus longs. « Les voyelles des alifs du début ne sont pas prises en compte, car ils sont ajoutés : ils se maintiennent quand on commence par eux et tombent dans le discours enchaîné. » Dans inqata'a, la première lettre, la hamza de liaison, ne compte pas ; la première lettre voyellée est le qâf, et il a une fatha.",
+        "La forme construite pour celui qui subit, « dont l'agent n'est pas nommé », a une damma sur sa première lettre : fu'ila, uf'ila, fû'ila, tufu''ila, tufû'ila, fu'lila, tufu'lila ; ou sur sa première lettre voyellée : uftu'ila, ustuf'ila, « et la hamza de liaison suit cette lettre dans la damma ». Dans tous les cas, « la lettre qui précède la dernière a toujours une kasra » : nusira Zaydun, « Zayd a été aidé », ustukhrija al-mâlu, « l'argent a été extrait ».",
+        "Attention aux voyelles longues. Dans fû'ila, l'alif de fâ'ala, après une damma, se prononce û : qâtala donne qûtila. Dans tufu''ila, le tâ' et le fâ' prennent tous deux une damma : takassara donne tukussira. Dans ustuf'ila, le sîn est quiescent ; la damma tombe donc sur le tâ', et la hamza de liaison prend une damma avec lui : istakhraja donne ustukhrija.",
+        "Un piège : la hamza de akrama fait partie du schème et prend elle-même la damma, ukrima, comme première lettre ; la hamza de istakhraja est une hamza de liaison et ne fait que suivre la damma du tâ'. Elles se ressemblent dans ukrima et ustukhrija, mais pour des raisons différentes."
+      ],
+      "terms": [
+        "construit pour l'agent : l'actif",
+        "construit pour celui qui subit : le passif, dont l'agent n'est pas nommé",
+        "la première lettre voyellée",
+        "le discours enchaîné, où tombe la hamza de liaison"
+      ],
+      "examples": [
+        "nasara nasarâ nasarû : le passé actif",
+        "nusira Zaydun, ustukhrija al-mâlu : le passé passif",
+        "qûtila, tukussira, ukrima : fû'ila, tufu''ila, uf'ila"
+      ],
+      "tasks": [
+        {
+          "prompt": "Formez le passif de akrama, qâtala et istakhraja, et dites quelle lettre prend la damma.",
+          "answer": "Ukrima : la première lettre, la hamza de af'ala. Qûtila : la première lettre, l'alif se prononçant û. Ustukhrija : la première lettre voyellée, le tâ', la hamza de liaison la suivant dans la damma. Dans les trois, la lettre qui précède la dernière a une kasra."
+        },
+        {
+          "prompt": "Pourquoi la voyelle de la hamza de inqata'a n'est-elle pas comptée ?",
+          "answer": "C'est une hamza de liaison : ajoutée, prononcée seulement quand on commence par le mot, et qui tombe dans le discours enchaîné. La première lettre voyellée qui compte est donc le qâf, avec sa fatha."
+        },
+        {
+          "prompt": "Dans nusira Zaydun, que veut dire « construit pour celui qui subit » ?",
+          "answer": "L'agent du verbe n'est pas nommé. Zayd est celui qui a été aidé, et il se tient au raf' à la place de l'agent."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Au passé actif, la première lettre a…",
+          "options": [
+            "une damma",
+            "une kasra",
+            "une fatha",
+            "un sukûn"
+          ],
+          "explanation": "De même la première lettre voyellée : nasara, inqata'a."
+        },
+        {
+          "prompt": "Pourquoi les voyelles des alifs du début ne sont-elles pas comptées ?",
+          "options": [
+            "Ce sont des radicales",
+            "Ils n'ont pas de voyelle",
+            "Ils ne sont qu'écrits",
+            "Ils sont ajoutés et tombent dans le discours enchaîné"
+          ],
+          "explanation": "La hamza de liaison se maintient au début du discours et tombe au milieu."
+        },
+        {
+          "prompt": "Au passé passif, la lettre qui précède la dernière a…",
+          "options": [
+            "toujours une kasra",
+            "une fatha",
+            "une damma",
+            "un sukûn"
+          ],
+          "explanation": "Nusira, ukrima, ustukhrija : la kasra avant la dernière est la marque du passé passif."
+        },
+        {
+          "prompt": "Le passif de qâtala est…",
+          "options": [
+            "Qutila",
+            "Qûtila",
+            "Quttila",
+            "Uqtila"
+          ],
+          "explanation": "Fû'ila : après la damma, l'alif se prononce û."
+        },
+        {
+          "prompt": "Dans ustukhrija, quelle lettre porte la damma qui compte ?",
+          "options": [
+            "Le sîn",
+            "Le khâ'",
+            "Le tâ', la première lettre voyellée",
+            "Le jîm"
+          ],
+          "explanation": "La hamza de liaison ne fait que la suivre."
+        },
+        {
+          "prompt": "Quel schème passif a une damma sur deux lettres avant le 'ayn redoublé ?",
+          "options": [
+            "Fu'ila",
+            "Uf'ila",
+            "Fû'ila",
+            "Tufu''ila"
+          ],
+          "explanation": "Takassara donne tukussira : le tâ' et le fâ' prennent tous deux la damma."
+        },
+        {
+          "prompt": "On appelle le passif le verbe…",
+          "options": [
+            "dont l'agent n'est pas nommé",
+            "sans objet",
+            "du présent",
+            "à hamza"
+          ],
+          "explanation": "Alladhî lam yusamma fâ'iluhu : celui qui subit prend la place de l'agent."
+        }
+      ],
+      "diagram": {
+        "caption": "Le passé construit pour l'agent et pour celui qui subit",
+        "labels": {
+          "The past built for the doer and for the one done to": "Le passé construit pour l'agent et pour celui qui subit",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "Passive pattern": "Schème passif"
+        }
+      },
+      "text": [
+        "Quant au passé, c'est ce qui indique un sens qui a eu lieu dans le temps passé. Sa forme construite pour l'agent (al-mabnî li-al-fâ'il) est celle dont la première lettre a une fatha, et de même la première lettre voyellée qu'il contient a une fatha. Son exemple : nasara nasarâ nasarû, etc. Mesure sur cela fa'lala, tafa'lala, infa'ala, ifta'ala, istaf'ala, if'âlla, if'aw'ala, if'anlala, if'anlâ et if'awwala. Les voyelles des alifs du début ne sont pas prises en compte, car ils sont ajoutés : ils se maintiennent quand on commence par eux et tombent dans le discours enchaîné.",
+        "Sa forme construite pour celui qui subit (al-mabnî li-al-maf'ûl), c'est-à-dire celle dont l'agent n'est pas nommé, est celle dont la première lettre a une damma, comme fu'ila, uf'ila, fû'ila, tufu''ila, tufû'ila, fu'lila et tufu'lila ; ou dont la première lettre voyellée a une damma, comme uftu'ila et ustuf'ila, et la hamza de liaison suit cette lettre dans la damma. La lettre qui précède sa dernière a toujours une kasra, comme quand tu dis nusira Zaydun « Zayd a été aidé » et ustukhrija al-mâlu « l'argent a été extrait »."
+      ]
+    },
+    "7": {
+      "title": "Le mudâri' et ses lettres",
+      "body": [
+        "Le mudâri' est le verbe qui a à son début l'une de quatre lettres ajoutées : la hamza, le nûn, le yâ' et le tâ', réunies dans atayna, anaytu ou na'tî. La hamza est pour celui qui parle seul ; le nûn, pour celui qui parle avec un autre ; le tâ', pour celui à qui l'on parle, quel qu'en soit le nombre, masculin ou féminin, et pour l'absente, au singulier et au duel ; le yâ', pour l'absent, quel qu'en soit le nombre, et pour le pluriel des absentes.",
+        "Il sert à deux temps : yaf'alu al-âna, « il fait maintenant », le présent (hâl), et yaf'alu ghadan, « il fera demain », le futur (mustaqbal). Avec sa- ou sawfa, il est réservé au futur : sa-yaf'alu, sawfa yaf'alu.",
+        "Construit pour l'agent, son préfixe a une fatha, « sauf le verbe dont le passé a quatre lettres : chez lui la lettre du mudâri' a toujours une damma » : yudahriju, yukrimu, yufarrihu, yuqâtilu. C'est ici que le compte de la leçon 3 sert : dahraja, akrama, farraha et qâtala ont tous quatre lettres. « Le signe que ces quatre sont construits pour l'agent est que la lettre qui précède la dernière a toujours une kasra. » Tout autre verbe a une fatha sur son préfixe : yansuru, yatakassaru, yanqati'u, yastakhriju, yatadahraju.",
+        "Construit pour celui qui subit, « la lettre du mudâri' a une damma et la lettre qui précède la dernière a une fatha » : yunsaru, yudahraju, yukramu, yufarrahu, yuqâtalu, yustakhraju. Ainsi, dans les verbes à quatre lettres, le préfixe est le même aux deux voix, et seule la voyelle qui précède la dernière les distingue : yukrimu, « il honore », yukramu, « il est honoré ».",
+        "Deux pièges. D'abord, le tâ' sert à la fois pour « tu » et pour « elle » : tansuru, c'est « tu aides » ou « elle aide », et seule la phrase décide. Ensuite, le yâ' sert aussi pour le pluriel des absentes : yansurna, « elles aident », avec un yâ', bien que le singulier soit tansuru."
+      ],
+      "terms": [
+        "les lettres du mudâri' : hamza, nûn, yâ', tâ'",
+        "le présent et le futur",
+        "particule qui réserve le mudâri' au futur, comme sa-"
+      ],
+      "examples": [
+        "atayna, anaytu, na'tî : des mots qui réunissent les quatre lettres",
+        "sa-yaf'alu, sawfa yaf'alu : réservé au futur",
+        "damma sur le préfixe : les passés de quatre lettres",
+        "le passif : damma sur le préfixe, fatha avant la dernière"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelle lettre et quelle personne : ansuru, nansuru, tansuru, yansurna ?",
+          "answer": "Ansuru : la hamza, « j'aide ». Nansuru : le nûn, « nous aidons ». Tansuru : le tâ', « tu aides » ou « elle aide ». Yansurna : le yâ', « elles aident »."
+        },
+        {
+          "prompt": "Pourquoi yudahriju a-t-il une damma sur son préfixe et yatadahraju une fatha ?",
+          "answer": "Dahraja a quatre lettres à son passé, et tout verbe de ce genre a une damma sur le préfixe de son mudâri' actif. Tadahraja en a cinq ; son préfixe prend donc une fatha."
+        },
+        {
+          "prompt": "Distinguez l'actif du passif : yukrimu, yukramu, yastakhriju, yustakhraju.",
+          "answer": "Yukrimu actif, yukramu passif : le préfixe est le même, la kasra ou la fatha avant la dernière décide. Yastakhriju actif (fatha sur le préfixe, kasra avant la dernière), yustakhraju passif (damma sur le préfixe, fatha avant la dernière)."
+        },
+        {
+          "prompt": "Que fait sa- à yansuru ?",
+          "answer": "Il le réserve au futur : sa-yansuru, « il aidera », ne peut plus vouloir dire « il aide maintenant »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quelles lettres commencent le mudâri' ?",
+          "options": [
+            "Hamza, sîn, tâ'",
+            "Mîm, nûn, tâ'",
+            "Alif, wâw, yâ'",
+            "Hamza, nûn, yâ', tâ'"
+          ],
+          "explanation": "Réunies dans atayna, anaytu ou na'tî."
+        },
+        {
+          "prompt": "Le nûn est pour…",
+          "options": [
+            "celui qui parle avec un autre",
+            "celui qui parle seul",
+            "l'absent",
+            "les femmes"
+          ],
+          "explanation": "Le nûn est pour celui qui parle avec un autre : nansuru, « nous aidons » ; la hamza est pour celui qui parle seul."
+        },
+        {
+          "prompt": "Tansuru peut vouloir dire…",
+          "options": [
+            "seulement « tu aides »",
+            "« tu aides » ou « elle aide »",
+            "seulement « elle aide »",
+            "« ils aident »"
+          ],
+          "explanation": "Le tâ' sert pour celui à qui l'on parle et pour l'absente."
+        },
+        {
+          "prompt": "Qu'est-ce qui restreint le mudâri' au futur ?",
+          "options": [
+            "Lam",
+            "Mâ",
+            "Sa- ou sawfa",
+            "Al-âna"
+          ],
+          "explanation": "Sa- et sawfa le réservent au futur : sa-yaf'alu, sawfa yaf'alu, « il fera »."
+        },
+        {
+          "prompt": "Quel mudâri' actif a une damma sur son préfixe ?",
+          "options": [
+            "Yatakassaru",
+            "Yanqati'u",
+            "Yastakhriju",
+            "Yuqâtilu"
+          ],
+          "explanation": "Qâtala a quatre lettres à son passé."
+        },
+        {
+          "prompt": "Le mudâri' passif a…",
+          "options": [
+            "une damma sur le préfixe, une fatha avant la dernière",
+            "une fatha sur le préfixe, une kasra avant la dernière",
+            "une kasra sur le préfixe",
+            "une damma avant la dernière"
+          ],
+          "explanation": "Yunsaru, yukramu, yustakhraju."
+        },
+        {
+          "prompt": "Qu'est-ce qui distingue yukrimu de yukramu ?",
+          "options": [
+            "Le préfixe",
+            "La voyelle avant la dernière lettre",
+            "La dernière lettre",
+            "Rien"
+          ],
+          "explanation": "Kasra pour l'agent, fatha pour celui qui subit."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatre lettres du mudâri' (al-'Izzî, p. 131)",
+        "labels": {
+          "The four letters of the muḍāriʿ (al-ʿIzzī, p. 131)": "Les quatre lettres du mudâri' (al-'Izzî, p. 131)",
+          "Letter": "Lettre",
+          "For": "Pour",
+          "Example": "Exemple",
+          "the speaker alone": "celui qui parle seul",
+          "the speaker with another": "celui qui parle avec un autre",
+          "the one addressed; the absent woman, one or two": "celui à qui l'on parle ; l'absente, une ou deux",
+          "the absent man, any number; absent women": "l'absent, tout nombre ; les absentes"
+        }
+      },
+      "text": [
+        "Quant au mudâri', c'est ce qui a à son début l'une des quatre lettres ajoutées, qui sont la hamza, le nûn, le yâ' et le tâ' ; elles sont réunies dans atayna, ou anaytu, ou na'tî. La hamza est pour celui qui parle seul ; le nûn est pour lui quand un autre est avec lui ; le tâ' est pour celui à qui l'on parle, singulier, duel ou pluriel, masculin ou féminin, et pour l'absente, au singulier et au duel ; et le yâ' est pour l'absent, singulier, duel ou pluriel, et pour le pluriel des absentes.",
+        "Cette [forme] sert pour le présent et le futur. Tu dis yaf'alu al-âna « il fait maintenant », et on l'appelle présent (hâl, hâdir), et yaf'alu ghadan « il fera demain », et on l'appelle futur (mustaqbal). Quand tu mets le sîn ou sawfa devant lui et dis sa-yaf'alu ou sawfa yaf'alu « il fera », il est réservé au temps futur.",
+        "Sa forme construite pour l'agent est celle où la lettre du mudâri' (harf al-mudâra'a) a une fatha, sauf le verbe dont le passé a quatre lettres : chez lui la lettre du mudâri' a toujours une damma, comme yudahriju, yukrimu, yufarrihu et yuqâtilu. Le signe que ces quatre sont construits pour l'agent est que la lettre qui précède la dernière a toujours une kasra.",
+        "Son exemple, de yaf'ulu : yansuru yansurâni yansurûna, etc. Mesure sur cela yadribu, ya'lamu, yudahriju, yukrimu, yufarrihu, yuqâtilu, yatakassaru, yatabâ'adu, yanqati'u, yajtami'u, yahmarru, yahmârru, yastakhriju, ya'shawshibu, yajlawwidhu, yaq'ansisu, yaslanqî, yatadahraju, yahranjimu et yaqsha'irru.",
+        "Sa forme construite pour celui qui subit est celle où la lettre du mudâri' a une damma et la lettre qui précède la dernière une fatha, comme yunsaru, yudahraju, yukramu, yufarrahu, yuqâtalu et yustakhraju ; mesure les autres sur celles-ci."
+      ]
+    },
+    "8": {
+      "title": "La négation, le jazm, le nasb, le lâm de l'ordre et l'interdiction",
+      "body": [
+        "Le mâ et le lâ de négation se placent devant le mudâri' « et ne changent pas sa forme » : lâ yansuru lâ yansurâni lâ yansurûna, « il n'aide pas… ». Le verbe reste au raf'.",
+        "Les particules du jazm (al-jawâzim), elles, le changent : elles ôtent « la voyelle du singulier, et le nûn du duel, du pluriel masculin et du féminin singulier à qui l'on parle » : lam yansur, lam yansurâ, lam yansurû, lam tansurî. Le nûn du pluriel féminin n'est pas ôté, « parce que c'est un pronom, comme le wâw au pluriel masculin » : lam yansurna. Un pronom fait partie du sens et ne peut pas être supprimé ; les autres nûn ne sont que des signes du raf'.",
+        "La particule du nasb « remplace la damma par la fatha et fait tomber les nûn autres que le nûn du pluriel féminin » : lan yansura, lan yansurâ, lan yansurû. Le nasb et le jazm se ressemblent donc partout où un nûn tombe ; ils ne diffèrent qu'aux personnes du singulier et aux premières personnes, fatha contre sukûn.",
+        "Deux particules du jazm font des ordres. Le lâm de l'ordre donne l'ordre à l'absent : li-yansur, « qu'il aide », li-yadrib, li-ya'lam, li-yudahrij. Le lâ de l'interdiction interdit : lâ yansur, « qu'il n'aide pas », à l'absent, et lâ tansur, « n'aide pas ! », à celui qui est présent.",
+        "Un piège à l'écrit : lâ yansuru, « il n'aide pas », et lâ yansur, « qu'il n'aide pas », sont les mêmes lettres, à une voyelle près. Le premier lâ nie et laisse le verbe au raf' ; le second interdit et le met au jazm. La voyelle de la dernière lettre vous dit quel lâ vous lisez."
+      ],
+      "terms": [
+        "les particules du jazm",
+        "une particule du nasb, comme lan",
+        "le lâm de l'ordre",
+        "le lâ de l'interdiction"
+      ],
+      "examples": [
+        "la négation : la forme inchangée",
+        "le jazm : la voyelle et les nûn ôtés",
+        "le nasb : fatha pour damma, les nûn tombés",
+        "l'ordre à l'absent ; l'interdiction à l'absent et au présent"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le nûn de yansurna reste-t-il après lam, alors que le nûn de yansurûna tombe ?",
+          "answer": "Le nûn de yansurna est un pronom, l'agent, comme le wâw de yansurûna ; un pronom ne peut pas être supprimé. Le nûn de yansurûna n'est que le signe du raf' ; la particule du jazm l'ôte donc."
+        },
+        {
+          "prompt": "Mettez tansurîna après lan et après lam. Pourquoi les deux sont-ils identiques ?",
+          "answer": "Lan tansurî et lam tansurî. Les deux particules font tomber le nûn de la femme à qui l'on parle ; là où le nûn est le signe, le nasb et le jazm se ressemblent."
+        },
+        {
+          "prompt": "Lisez lâ yansuru et lâ yansur, et dites quel lâ a chacun.",
+          "answer": "Lâ yansuru, « il n'aide pas » : le lâ de négation, le verbe au raf'. Lâ yansur, « qu'il n'aide pas » : le lâ de l'interdiction, le verbe au jazm."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que font le mâ et le lâ de négation au mudâri' ?",
+          "options": [
+            "Rien : ils ne changent pas sa forme",
+            "Ils le mettent au jazm",
+            "Ils le mettent au nasb",
+            "Ils en font un passé"
+          ],
+          "explanation": "La négation laisse la forme inchangée : lâ yansuru reste au raf', avec sa damma."
+        },
+        {
+          "prompt": "Qu'ôte le jazm au singulier ?",
+          "options": [
+            "Son préfixe",
+            "Sa voyelle",
+            "Sa première radicale",
+            "Rien"
+          ],
+          "explanation": "Le jazm ôte la voyelle du singulier : yansuru devient lam yansur."
+        },
+        {
+          "prompt": "Pourquoi le nûn du pluriel féminin est-il gardé au jazm ?",
+          "options": [
+            "C'est une radicale",
+            "C'est le signe du raf'",
+            "C'est un pronom",
+            "Il est lourd"
+          ],
+          "explanation": "Comme le wâw du pluriel masculin, c'est l'agent lui-même."
+        },
+        {
+          "prompt": "Lan yansurû : qu'a fait lan ?",
+          "options": [
+            "Il lui a donné une fatha",
+            "Il lui a donné un sukûn",
+            "Rien",
+            "Il a fait tomber le nûn de yansurûna"
+          ],
+          "explanation": "La particule du nasb fait tomber les nûn autres que celui des femmes."
+        },
+        {
+          "prompt": "Li-yansur veut dire…",
+          "options": [
+            "qu'il aide",
+            "il a aidé",
+            "afin qu'il aide",
+            "il n'aidera pas"
+          ],
+          "explanation": "Le lâm de l'ordre, une particule du jazm : l'ordre à l'absent."
+        },
+        {
+          "prompt": "Lâ tansur est…",
+          "options": [
+            "une négation",
+            "l'interdiction à celui qui est présent",
+            "l'ordre",
+            "le passé"
+          ],
+          "explanation": "Le lâ de l'interdiction met le verbe au jazm."
+        },
+        {
+          "prompt": "Où le nasb et le jazm diffèrent-ils de forme ?",
+          "options": [
+            "Au duel",
+            "Au pluriel masculin",
+            "Là où aucun nûn ne tombe : fatha contre sukûn",
+            "Nulle part"
+          ],
+          "explanation": "Lan yansura, lam yansur ; mais lan yansurâ et lam yansurâ sont identiques."
+        }
+      ],
+      "diagram": {
+        "caption": "Raf', nasb et jazm de yansuru",
+        "labels": {
+          "Rafʿ, naṣb and jazm of yanṣuru": "Raf', nasb et jazm de yansuru",
+          "Person": "Personne",
+          "Rafʿ": "Raf'",
+          "After lan": "Après lan",
+          "After lam": "Après lam",
+          "he": "il",
+          "they two": "eux deux",
+          "they (men)": "eux (hommes)",
+          "you (woman)": "toi (femme)",
+          "they (women)": "elles (femmes)"
+        }
+      },
+      "text": [
+        "Sache que le mâ et le lâ de négation se placent devant le mudâri' et ne changent pas sa forme ; tu dis lâ yansuru lâ yansurâni lâ yansurûna « il n'aide pas, eux deux n'aident pas, ils n'aident pas », etc.",
+        "Les particules du jazm (al-jawâzim) se placent devant le mudâri', et alors la voyelle du singulier est supprimée, ainsi que le nûn du duel, du pluriel masculin et du féminin singulier à qui l'on parle. Le nûn du pluriel féminin n'est pas supprimé, parce que c'est un pronom, comme le wâw au pluriel masculin. Tu dis donc dans tous les cas : lam yansur lam yansurâ lam yansurû « il n'a pas aidé, eux deux n'ont pas aidé, ils n'ont pas aidé », etc.",
+        "La particule du nasb (al-nâsib) se place devant lui : elle remplace la damma par la fatha et fait tomber les nûn autres que le nûn du pluriel féminin. Tu dis lan yansura lan yansurâ lan yansurû « il n'aidera pas, eux deux n'aideront pas, ils n'aideront pas », etc.",
+        "Parmi les particules du jazm est le lâm de l'ordre. Tu dis, dans l'ordre à l'absent : li-yansur li-yansurâ li-yansurû « qu'il aide, qu'eux deux aident, qu'ils aident », etc., et de même li-yadrib, li-ya'lam, li-yudahrij et les autres. Parmi elles est le lâ de l'interdiction. Tu dis, dans l'interdiction à l'absent : lâ yansur lâ yansurâ lâ yansurû « qu'il n'aide pas, qu'eux deux n'aident pas, qu'ils n'aident pas », etc., et dans l'interdiction à celui qui est présent : lâ tansur lâ tansurâ lâ tansurû « n'aide pas ! », etc. La règle pour toutes les autres formes va de la même manière."
+      ]
+    },
+    "9": {
+      "title": "L'impératif à celui qui est présent",
+      "body": [
+        "L'impératif à celui qui est présent s'appelle « l'ordre par la forme » (al-amr bi-l-sîgha) : il se fait par une forme qui lui est propre, non par une particule comme le lâm de li-yansur. Il « suit la forme du mudâri' au jazm » : prenez tansuru, mettez-le au jazm, tansur, et changez seulement son début. Ce qui se passe au début dépend de la lettre qui suit le préfixe.",
+        "Si cette lettre a une voyelle, supprimez le préfixe et gardez le reste tel qu'il est au jazm. De tudahriju : dahrij dahrijâ dahrijû dahrijî dahrijâ dahrijna, « roule ! ». De même farrih, qâtil, takassar, tabâ'ad, tadahraj : dans chacun, la lettre qui suit le préfixe est voyellée, et l'impératif commence par elle.",
+        "Si cette lettre est quiescente, supprimez le préfixe et ajoutez une hamza de liaison, puisqu'un mot ne peut pas commencer par une lettre quiescente. La hamza a une kasra, « sauf si le 'ayn de son mudâri' a une damma : alors tu lui donnes la damma » : unsur unsurâ unsurû, « aide ! », mais idrib, i'lam, inqati', ijtami', istakhrij. La voyelle suit le 'ayn du présent, non celui du passé : nasara a une fatha à son passé, et pourtant unsur prend la damma à cause de yansuru ; 'alima ya'lamu a une fatha à son présent ; la hamza garde donc la kasra habituelle, i'lam.",
+        "Akrim, « honore ! », est l'exception. Sa hamza a une fatha et ne tombe jamais, « en se fondant sur la forme originelle rejetée, car l'origine de tukrimu est tu'akrimu ». La hamza de af'ala a été supprimée du mudâri' ; ôtez le préfixe de tu'akrimu, et la hamza propre du schème revient. Ce n'est pas une hamza de liaison, mais une partie de af'ala.",
+        "Une vérification qui attrape la plupart des erreurs : dites l'impératif au milieu d'une phrase. Fa-nsur et wa-stakhrij perdent leur hamza ; fa-akrim la garde. Si la hamza reste, elle appartient au schème."
+      ],
+      "terms": [
+        "l'ordre par la forme : à celui qui est présent",
+        "l'impératif à celui qui est présent",
+        "l'origine rejetée, tu'akrimu"
+      ],
+      "examples": [
+        "de tudahriju : la lettre qui suit le préfixe est voyellée",
+        "des impératifs sans hamza",
+        "une hamza de liaison : damma après yaf'ulu, kasra sinon",
+        "akrim, « honore ! » : la hamza de af'ala, de tu'akrimu"
+      ],
+      "tasks": [
+        {
+          "prompt": "Formez l'impératif à un homme de tuqâtilu, tastakhriju et tanqati'u, et dites si une hamza est nécessaire.",
+          "answer": "Qâtil : pas de hamza, le qâf qui suit le préfixe est voyellé. Istakhrij et inqati' : une hamza de liaison avec kasra, parce que la lettre qui suit le préfixe est quiescente et que le 'ayn du présent a une kasra."
+        },
+        {
+          "prompt": "Pourquoi est-ce unsur avec damma, mais i'lam avec kasra ?",
+          "answer": "La hamza suit le 'ayn du mudâri' : yansuru a une damma, d'où unsur ; ya'lamu a une fatha ; la hamza prend donc la kasra habituelle : i'lam."
+        },
+        {
+          "prompt": "Pourquoi la hamza de akrim se prononce-t-elle avec fatha et se garde-t-elle dans le discours enchaîné ?",
+          "answer": "Ce n'est pas une hamza de liaison, mais la hamza de af'ala. Le mudâri' l'a supprimée, mais son origine rejetée est tu'akrimu ; une fois le préfixe ôté, la hamza du schème revient, avec sa fatha."
+        },
+        {
+          "prompt": "Donnez l'impératif de dahraja aux six personnes.",
+          "answer": "Dahrij, dahrijâ, dahrijû, dahrijî, dahrijâ, dahrijna."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "L'ordre par la forme se construit sur…",
+          "options": [
+            "le passé",
+            "le mudâri' au jazm",
+            "le masdar",
+            "le participe actif"
+          ],
+          "explanation": "« Il suit la forme du mudâri' au jazm » : tansur donne unsur."
+        },
+        {
+          "prompt": "Quand n'ajoute-t-on pas de hamza ?",
+          "options": [
+            "Quand le verbe est nu",
+            "Quand le 'ayn a une damma",
+            "Quand la lettre qui suit le préfixe est voyellée",
+            "Jamais"
+          ],
+          "explanation": "Dahrij, farrih, qâtil, takassar."
+        },
+        {
+          "prompt": "La hamza de liaison prend la damma quand…",
+          "options": [
+            "le 'ayn du passé a une damma",
+            "le verbe est augmenté",
+            "le verbe est passif",
+            "le 'ayn du mudâri' a une damma"
+          ],
+          "explanation": "Yansuru donne unsur ; yadribu donne idrib."
+        },
+        {
+          "prompt": "L'impératif de ijtama'a est…",
+          "options": [
+            "Ijtami'",
+            "Ujtami'",
+            "Jtami'",
+            "Ajtami'"
+          ],
+          "explanation": "Le jîm qui suit le préfixe est quiescent ; le 'ayn de yajtami'u a une kasra."
+        },
+        {
+          "prompt": "Pourquoi la hamza de akrim a-t-elle une fatha ?",
+          "options": [
+            "C'est une hamza de liaison",
+            "C'est la hamza de af'ala, de tu'akrimu",
+            "À cause du kâf",
+            "C'est une question"
+          ],
+          "explanation": "Fondée sur la forme originelle rejetée."
+        },
+        {
+          "prompt": "L'impératif de takassara est…",
+          "options": [
+            "Itakassar",
+            "Tukassir",
+            "Takassar",
+            "Ukassir"
+          ],
+          "explanation": "Le tâ' qui suit le préfixe de tatakassaru est voyellé ; donc pas de hamza."
+        },
+        {
+          "prompt": "Quel impératif garde sa hamza au milieu du discours ?",
+          "options": [
+            "Unsur",
+            "Idrib",
+            "Istakhrij",
+            "Akrim"
+          ],
+          "explanation": "Fa-akrim la garde ; fa-nsur la perd."
+        }
+      ],
+      "diagram": {
+        "caption": "Du mudâri' à l'impératif (al-'Izzî, p. 135–137)",
+        "labels": {
+          "From the muḍāriʿ to the command (al-ʿIzzī, pp. 135–137)": "Du mudâri' à l'impératif (al-'Izzî, p. 135–137)",
+          "Muḍāriʿ": "Mudâri'",
+          "Letter after the prefix": "Lettre après le préfixe",
+          "Command": "Impératif",
+          "vowelled": "voyellée",
+          "quiescent; ʿayn with ḍamma": "quiescente ; 'ayn avec damma",
+          "quiescent": "quiescente",
+          "from tuʾakrimu": "de tu'akrimu"
+        }
+      },
+      "text": [
+        "Quant à l'ordre par la forme (al-amr bi-al-sîgha), qui est l'ordre à celui qui est présent, il suit la forme du mudâri' au jazm. Si la lettre qui suit la lettre du mudâri' est voyellée, tu supprimes la lettre du mudâri' et tu donnes ce qui reste sous sa forme au jazm. Tu dis donc, dans l'ordre à celui qui est présent, de tudahriju : dahrij dahrijâ dahrijû dahrijî dahrijâ dahrijna « roule ! » ; la règle des autres formes va de la même manière : tu dis farrih, qâtil, takassar, tabâ'ad et tadahraj.",
+        "Si elle a un sukûn, tu supprimes la lettre du mudâri' et tu donnes ce qui reste sous sa forme au jazm, avec une hamza de liaison ajoutée à son début, avec kasra, sauf si le 'ayn de son mudâri' a une damma : alors tu lui donnes la damma. Tu dis unsur unsurâ unsurû « aide ! », et de même idrib, i'lam, inqati', ijtami' et istakhrij. Ils ont donné une fatha à la hamza de akrim « honore ! », en se fondant sur la forme originelle rejetée, car l'origine de tukrimu est tu'akrimu."
+      ]
+    },
+    "10": {
+      "title": "Deux tâ', et les changements de ifta'ala",
+      "body": [
+        "Au mudâri' de tafa''ala, tafâ'ala et tafa'lala, deux tâ' se rencontrent quand le préfixe est un tâ' : celui du préfixe et celui du schème. On peut garder les deux, comme tatajannabu, « tu t'écartes », tatabâ'adu, tatadahraju ; ou en supprimer un, comme dans le Coran : fa-anta lahu tasaddâ, « c'est à lui que tu t'empresses » (80:6), nâran talazzâ, « un feu qui flambe » (92:14), et tanazzalu al-malâ'ikatu, « les anges descendent » (97:4).",
+        "Voici un piège pour le lecteur du Coran. Un tâ' supprimé, le mudâri' ressemble au passé du même schème. Tanazzalu se termine par une damma, le raf' d'un mudâri' ; le passé serait tanazzala, ou tanazzalat avec un sujet féminin. La dernière voyelle montre que le verset parle de ce que font les anges, non de ce qu'ils ont fait.",
+        "Quand le fâ' de ifta'ala est l'une des quatre lettres sâd, dâd, tâ' [ط], zâ', son tâ' devient tâ' [ط] : de al-sulh, istalaha, « faire la paix » ; de al-darb, idtaraba ; de al-tard, ittarada ; de al-zulm, izzalama. Le changement passe dans toutes les formes : istalaha yastalihu istilâhan, mustalih, mustalah, istalih, lâ tastalih.",
+        "Quand le fâ' est dâl, dhâl ou zây, le tâ' devient dâl : iddara'a, iddakara, izdajara, de al-dar', al-dhikr, al-zajr ; dans iddakara, le dhâl est entré dans le dâl. Quand le fâ' est wâw, yâ' ou thâ', le fâ' lui-même devient tâ' et s'assimile au tâ' de ifta'ala : ittaqâ, « se prémunir », ittasara, ittaghara.",
+        "Le livre donne les règles sans leur raison ; les commentateurs la donnent comme l'aisance de la prononciation. Le tâ' [ط] partage le son lourd, « couvert », du sâd, du dâd, du tâ' [ط] et du zâ' ; le dâl partage la sonorité du dâl, du dhâl et du zây, qui manque au tâ'. Une conséquence pratique : ittaqâ se trouve dans le dictionnaire sous w-q-y, istalaha sous s-l-h, izdajara sous z-j-r. Ne cherchez jamais une racine avec un tâ' [ط] ou un dâl qui n'est que le tâ' de ifta'ala."
+      ],
+      "terms": [
+        "la suppression de l'un des deux tâ'",
+        "le tâ' de ifta'ala",
+        "le tâ' changé en tâ' [ط] ou en dâl"
+      ],
+      "examples": [
+        "les deux tâ' gardés",
+        "tanazzalu al-malâ'ikatu (Coran 97:4) : un tâ' supprimé",
+        "le tâ' [ط] dans toutes les formes de istalaha",
+        "iddara'a, iddakara, izdajara : le tâ' changé en dâl",
+        "ittaqâ, ittasara, ittaghara : le fâ' changé en tâ' et assimilé"
+      ],
+      "tasks": [
+        {
+          "prompt": "Formez ifta'ala de al-sulh et donnez toutes ses formes comme le fait le livre.",
+          "answer": "Istalaha yastalihu istilâhan, il est donc mustalih et cela est mustalah ; l'impératif istalih, l'interdiction lâ tastalih."
+        },
+        {
+          "prompt": "Pourquoi izdajara s'écrit-il avec un dâl, alors que ifta'ala a un tâ' ?",
+          "answer": "Son fâ' est un zây, et quand le fâ' de ifta'ala est dâl, dhâl ou zây, le tâ' est changé en dâl."
+        },
+        {
+          "prompt": "Dans tanazzalu al-malâ'ikatu (Coran 97:4), tanazzalu est-il passé ou présent ? Comment le savez-vous ?",
+          "answer": "Présent : c'est le mudâri' de tanazzala avec l'un des deux tâ' supprimé. Sa damma finale est le raf' du mudâri' ; le passé se terminerait par une fatha."
+        },
+        {
+          "prompt": "Quelle est la racine de ittaqâ, et où est passée sa première radicale ?",
+          "answer": "W-q-y. Le wâw, comme fâ' de ifta'ala, a été changé en tâ' et assimilé au tâ' du schème : d'où le tâ' redoublé."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Dans quels schèmes deux tâ' peuvent-ils se rencontrer au début du mudâri' ?",
+          "options": [
+            "Ifta'ala et istaf'ala",
+            "Af'ala et fa''ala",
+            "Tafa''ala, tafâ'ala, tafa'lala",
+            "Tous les schèmes"
+          ],
+          "explanation": "Leur propre tâ' rencontre le tâ' du préfixe."
+        },
+        {
+          "prompt": "Dans nâran talazzâ (Coran 92:14)…",
+          "options": [
+            "le verbe est au passé",
+            "le verbe est passif",
+            "le tâ' est une radicale",
+            "l'un des deux tâ' est supprimé"
+          ],
+          "explanation": "Un mudâri' de tafa''ala : « un feu qui flambe »."
+        },
+        {
+          "prompt": "Après quelles lettres comme fâ' le tâ' de ifta'ala devient-il tâ' [ط] ?",
+          "options": [
+            "Sâd, dâd, tâ' [ط], zâ'",
+            "Dâl, dhâl, zây",
+            "Wâw, yâ', thâ'",
+            "Les lettres gutturales"
+          ],
+          "explanation": "Istalaha, idtaraba, ittarada, izzalama."
+        },
+        {
+          "prompt": "Iddakara vient de…",
+          "options": [
+            "al-dakr",
+            "al-dhikr",
+            "al-dar'",
+            "al-zajr"
+          ],
+          "explanation": "Le tâ' est devenu dâl et le dhâl y est entré."
+        },
+        {
+          "prompt": "Dans ittaqâ, qu'est-ce qui est devenu le tâ' ?",
+          "options": [
+            "Le qâf",
+            "Une hamza",
+            "Le wâw de la racine",
+            "Rien : il a deux tâ'"
+          ],
+          "explanation": "Un wâw, un yâ' ou un thâ' comme fâ' devient tâ' et s'assimile."
+        },
+        {
+          "prompt": "Le changement de ifta'ala vaut-il aussi dans les participes ?",
+          "options": [
+            "Seulement au passé",
+            "Seulement au mudâri'",
+            "Non",
+            "Oui, dans toutes ses formes"
+          ],
+          "explanation": "Mustalih, mustalah, istalih, lâ tastalih."
+        },
+        {
+          "prompt": "Sous quelle racine trouve-t-on izdajara ?",
+          "options": [
+            "Z-j-r",
+            "Z-d-j",
+            "D-j-r",
+            "Z-d-r"
+          ],
+          "explanation": "Le dâl n'est que le tâ' de ifta'ala changé."
+        }
+      ],
+      "diagram": {
+        "caption": "Les changements de ifta'ala selon son fâ' (al-'Izzî, p. 137–139)",
+        "labels": {
+          "The changes of iftaʿala by its fāʾ (al-ʿIzzī, pp. 137–139)": "Les changements de ifta'ala selon son fâ' (al-'Izzî, p. 137–139)",
+          "Fāʾ of the verb": "Fâ' du verbe",
+          "Change": "Changement",
+          "Examples": "Exemples",
+          "tāʾ → ṭāʾ": "tâ' → tâ' [ط]",
+          "tāʾ → dāl": "tâ' → dâl",
+          "fāʾ → tāʾ, merged": "fâ' → tâ', assimilé"
+        }
+      },
+      "text": [
+        "Sache que, quand deux tâ' se rencontrent au début du mudâri' de tafa''ala, tafâ'ala et tafa'lala, on peut garder les deux, comme tatajannabu « tu t'écartes », tatabâ'adu « tu t'éloignes » et tatadahraju « tu roules », et l'on peut supprimer l'un d'eux, comme dans la Révélation : fa-anta lahu tasaddâ « c'est à lui que tu t'empresses » [80:6], nâran talazzâ « un feu qui flambe » [92:14] et tanazzalu al-malâ'ikatu « les anges descendent » [97:4].",
+        "Quand le fâ' de ifta'ala est sâd, dâd, tâ' [ط] ou zâ', son tâ' est changé en tâ' [ط]. Tu dis donc, à ifta'ala de al-sulhi « la paix » : istalaha « faire la paix » ; de al-darbi « le fait de frapper » : idtaraba « s'agiter » ; de al-tardi « le fait de chasser » : ittarada « se poursuivre régulièrement » ; et de al-zulmi « l'injustice » : izzalama « supporter une injustice ». De même toutes ses autres formes dérivées, comme istalaha yastalihu istilâhan, il est donc mustalihun « celui qui fait la paix » et cela est mustalahun « convenu » ; l'impératif est istalih et l'interdiction lâ tastalih.",
+        "Quand le fâ' de ifta'ala est dâl, dhâl ou zây, son tâ' est changé en dâl. Tu dis donc, à ifta'ala de al-dar'i « le fait d'écarter », al-dhikri « le fait de se souvenir » et al-zajri « le fait de retenir » : iddara'a « écarter », iddakara « se souvenir » et izdajara « être retenu ». Quand le fâ' de ifta'ala est wâw, yâ' ou thâ', le wâw, le yâ' et le thâ' sont changés en tâ', puis ce tâ' est assimilé au tâ' de ifta'ala, comme ittaqâ « se prémunir », ittasara « jouer au maysir » et ittaghara « perdre ses dents de devant »."
+      ]
+    }
+  }
+}

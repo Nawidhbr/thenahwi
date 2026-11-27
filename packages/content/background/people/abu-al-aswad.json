@@ -1,0 +1,48 @@
+{
+  "slug": "abu-al-aswad",
+  "name": "Abū al-Aswad Ẓālim ibn ʿAmr ibn Sufyān al-Duʾalī",
+  "known": "Abū al-Aswad al-Duʾalī",
+  "arabic": "أَبُو الأَسْوَدِ الدُّؤَلِيُّ",
+  "died": "69/688",
+  "places": [
+    "Basra"
+  ],
+  "roles": [
+    "forerunner"
+  ],
+  "summary": "The Basran of the first Islamic century whom the tradition names as the founder of naḥw and the first to mark the vowels of the Qurʾān with dots; the first entry of every ṭabaqāt of the grammarians.",
+  "bio": [
+    "Abū al-Aswad was a man of Kināna who lived in Basra in the first century of Islam, a poet and a partisan of ʿAlī ibn Abī Ṭālib; al-Zubaydī reports that Ibn ʿAbbās left him as his deputy over Basra. He died, by al-Zubaydī's account, in the plague of 69/688, aged eighty-five.",
+    "Every history of naḥw begins with him. Al-Zubaydī opens his Ṭabaqāt with Abū al-Aswad as 'the first to found Arabic, open its ways and lay down its analogy', when the speech of the Arabs had grown unsteady and even the notables made mistakes: he is said to have set out the chapters of the doer, the object, the possessive construction and the particles of naṣb, rafʿ, jarr and jazm. Asked who had shown him the way, he answered, in al-Mubarrad's report, that he had it from ʿAlī: 'ʿAlī gave me principles, and I followed them.' A later and fuller form of the story, in Ibn al-Anbārī's Nuzhat al-alibbāʾ, has ʿAlī hand him a sheet that begins with the division of speech into noun, verb and particle and tell him to 'follow this way' (unḥu hādhā al-naḥw), which would explain the science's name.",
+    "Al-Zubaydī also gathers the other reasons the sources give for his work, told as anecdotes about mistakes he heard: his daughter, meaning to wonder at the heat, said mā ashaddu al-ḥarri, 'what is the hottest part of the heat?', instead of mā ashadda al-ḥarra, 'how hot it is!', and he wrote the chapter of wonder (taʿajjub); a man before the governor Ziyād said tuwuffiya abānā wa-taraka banūn, getting both endings wrong, and Ziyād, who had refused him before, now told him to write for the people; a Persian client said his horse was ḍāliʿ, 'crooked', when he meant ẓāliʿ, 'lame'. The same sources credit him with the dots that first marked the vowels in copies of the Qurʾān: a dot above a letter for a, below it for i, beside it for u, the system his students refined."
+  ],
+  "works": [],
+  "reception": [
+    "The ṭabaqāt works all begin with him and trace the line of Basran teachers from his students; the Kufans traced their own teachers back to him as well."
+  ],
+  "uncertain": [
+    "What he actually wrote is unknown: no text of his grammar survives, and the reports of his first chapters were written down a century and more after him.",
+    "Al-Zubaydī gives his death as 69/688 in the plague; other sources give 67/686 or later."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 1,
+    "entry": 1
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 1 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ebü'l-Esved ed-Düelî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ebul-esved-ed-dueli"
+    },
+    {
+      "title": "Abu al-Aswad al-Du'ali, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abu_al-Aswad_al-Du%27ali"
+    }
+  ]
+}

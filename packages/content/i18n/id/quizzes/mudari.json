@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mudari-1": {
+      "prompt": "Huruf-huruf mana yang dapat mengawali fi'il mudhari'?",
+      "options": [
+        "Yang terkumpul dalam anaitu: alif, nun, ya' dan ta'",
+        "Yang terkumpul dalam salamtu",
+        "Hanya ya'",
+        "Huruf apa pun"
+      ],
+      "explanation": "Jurumiyah mengumpulkannya dalam anaitu: a-, na-, ya-, ta-."
+    },
+    "mudari-2": {
+      "prompt": "Apa keadaan i'rab fi'il di sini?",
+      "options": [
+        "majzum, sesudah lam",
+        "manshub, sesudah lam",
+        "marfu', seperti biasa",
+        "mabni atas sukun"
+      ],
+      "explanation": "Lam menjazemkan fi'il mudhari', ditandai dengan sukun."
+    },
+    "mudari-3": {
+      "prompt": "Apa arti bentuk ini?",
+      "options": [
+        "engkau (seorang perempuan) menolong",
+        "dia (perempuan) menolong",
+        "kalian (laki-laki) menolong",
+        "mereka (perempuan) menolong"
+      ],
+      "explanation": "Ta- dengan akhiran -ina adalah orang kedua muannats mufrad."
+    }
+  }
+}

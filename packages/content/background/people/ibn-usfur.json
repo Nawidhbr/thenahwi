@@ -1,0 +1,53 @@
+{
+  "slug": "ibn-usfur",
+  "name": "Abū al-Ḥasan ʿAlī ibn Muʾmin ibn Muḥammad al-Ḥaḍramī al-Ishbīlī",
+  "known": "Ibn ʿUṣfūr",
+  "arabic": "ابْنُ عُصْفُورٍ",
+  "died": "669/1270",
+  "places": [
+    "Seville",
+    "Tunis"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Al-Shalawbīn's student and the last great grammarian of al-Andalus, author of al-Muqarrab on naḥw and al-Mumtiʿ on ṣarf.",
+  "bio": [
+    "Ibn ʿUṣfūr was born in Seville in 597/1200 and studied with al-Shalawbīn for some ten years. He taught in the cities of al-Andalus as they fell one by one to Castile, and then in Tunis at the court of the Ḥafṣids, where he died in 669/1270; the reports of his end differ, and some tie it to his losing the ruler's favour.",
+    "His al-Muqarrab gives the whole of naḥw in clear, numbered divisions and was much studied; his al-Mumtiʿ fī al-taṣrīf is one of the fullest books on ṣarf, with the changes of the weak letters, ibdāl and idghām set out case by case. He wrote three commentaries on al-Zajjājī's al-Jumal and a book on the licences of the poets (Ḍarāʾir al-shiʿr). Abū Ḥayyān, a generation later, quotes him constantly."
+  ],
+  "works": [
+    {
+      "title": "al-Muqarrab",
+      "arabic": "المُقَرَّب",
+      "kind": "matn"
+    },
+    {
+      "title": "al-Mumtiʿ fī al-taṣrīf",
+      "arabic": "المُمْتِعُ فِي التَّصْرِيف",
+      "kind": "matn"
+    },
+    {
+      "title": "Sharḥ Jumal al-Zajjājī",
+      "arabic": "شَرْحُ جُمَلِ الزَّجَّاجِيّ",
+      "kind": "sharh",
+      "on": "zajjaji"
+    },
+    {
+      "title": "Ḍarāʾir al-shiʿr",
+      "arabic": "ضَرَائِرُ الشِّعْر",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "andalus",
+  "sources": [
+    {
+      "title": "İbn Usfûr el-İşbîlî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-usfur-el-isbili"
+    }
+  ]
+}

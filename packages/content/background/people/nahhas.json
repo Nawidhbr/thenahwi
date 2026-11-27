@@ -1,0 +1,52 @@
+{
+  "slug": "nahhas",
+  "name": "Abū Jaʿfar Aḥmad ibn Muḥammad ibn Ismāʿīl al-Naḥḥās al-Murādī",
+  "known": "Abū Jaʿfar al-Naḥḥās",
+  "arabic": "أَبُو جَعْفَرٍ النَّحَّاسُ",
+  "died": "338/950",
+  "places": [
+    "Egypt",
+    "Baghdad",
+    "Fusṭāṭ"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Egyptian grammarian who studied in Baghdad and wrote the first full iʿrāb of the Qurʾān; the biographers tell that he drowned in the Nile.",
+  "bio": [
+    "Al-Naḥḥās, 'the coppersmith's son', learnt in Baghdad from al-Zajjāj, al-Akhfash al-Aṣghar, Nifṭawayh and Abū Bakr ibn al-Anbārī, and went back to Egypt; al-Zubaydī places him in the third Egyptian generation, and quotes him in Sībawayh's entry for the story of the masʾala zunbūriyya as Thaʿlab and al-Mubarrad told it.",
+    "His Iʿrāb al-Qurʾān analyses the grammar of the Qurʾān verse by verse, and his books on its meanings and on abrogation and his commentary on the nine long odes (al-Qaṣāʾid al-tisʿ) are still read. The biographers, Ibn Khallikān among them, tell that in 338/950 he sat on the steps of the Nilometer reciting verses to scan them, and a man who heard him thought he was casting a spell to keep the Nile from rising, and pushed him into the river, where he drowned."
+  ],
+  "works": [
+    {
+      "title": "Iʿrāb al-Qurʾān",
+      "arabic": "إِعْرَابُ القُرْآن",
+      "kind": "other"
+    },
+    {
+      "title": "Maʿānī al-Qurʾān",
+      "arabic": "مَعَانِي القُرْآن",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "egypt-sham",
+  "tabaqa": {
+    "list": "egypt",
+    "n": 3,
+    "entry": 161
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 161 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Nehhâs, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/nehhas"
+    }
+  ]
+}

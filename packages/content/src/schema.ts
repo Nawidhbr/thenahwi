@@ -383,6 +383,19 @@ export type Commentary = z.infer<typeof Commentary> & {
 
 /** Background section ("The book"): the people around the al-Mabādiʾ and articles about it (background/). */
 const Source = z.object({ title: z.string().min(1), url: z.string().url() });
+/** The schools and lands of naḥw, in the order the generations page shows them. */
+export const SCHOOLS = ["basra", "kufa", "baghdad", "egypt-sham", "andalus", "maghrib", "hijaz-yemen", "persia-central-asia", "ottoman", "india"] as const;
+/** The lists of al-Zubaydī's Ṭabaqāt, with the number of generations in each and the schools they fit. */
+export const TABAQA_LISTS = ["basra-nahw", "kufa-nahw", "basra-lugha", "kufa-lugha", "egypt", "qayrawan", "andalus"] as const;
+export const TABAQA_GENERATIONS: Record<(typeof TABAQA_LISTS)[number], { generations: number; schools: (typeof SCHOOLS)[number][] }> = {
+  "basra-nahw": { generations: 10, schools: ["basra", "baghdad"] },
+  "kufa-nahw": { generations: 6, schools: ["kufa", "baghdad"] },
+  "basra-lugha": { generations: 7, schools: ["basra", "baghdad"] },
+  "kufa-lugha": { generations: 5, schools: ["kufa", "baghdad"] },
+  egypt: { generations: 3, schools: ["egypt-sham"] },
+  qayrawan: { generations: 4, schools: ["maghrib"] },
+  andalus: { generations: 6, schools: ["andalus"] },
+};
 export const BackgroundPerson = z.object({
   slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   name: z.string().min(1),
@@ -401,6 +414,19 @@ export const BackgroundPerson = z.object({
   uncertain: z.array(z.string()).default([]),
   /** The books in "The book" section this person belongs to (mabadi, mirqat, …). */
   books: z.array(z.string()).default([]),
+  /**
+   * The school or land of naḥw the histories place him in (the backbone of /scholars/generations/): Basra and Kufa for
+   * the first centuries, Baghdad for those who joined the two and for Iraq after them, then the lands. Someone formed
+   * in al-Andalus who taught in Cairo stays Andalusian, as in the histories; `places` says where he worked and died.
+   */
+  school: z.enum(SCHOOLS).optional(),
+  /**
+   * Where al-Zubaydī (d. 379/989) places him in his Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn: the list (the grammarians
+   * or the lexicographers of Basra and Kufa, the Egyptians, the men of Qayrawān, the Andalusians), the generation in it
+   * and the number of his entry in the printed edition. Checked by loadBackground: the generation must exist in that
+   * list, and the list must fit the school.
+   */
+  tabaqa: z.object({ list: z.enum(TABAQA_LISTS), n: z.number().int().min(1), entry: z.number().int().min(1).optional() }).optional(),
   sources: z.array(Source).min(1),
 });
 export const BackgroundArticle = z.object({
@@ -417,11 +443,12 @@ export const BackgroundArticle = z.object({
   sources: z.array(Source).min(1),
 });
 /**
- * A concept of the glossary (background/concepts/): one free page per technical word of manṭiq, with its Arabic, a
+ * A concept of the glossary (background/concepts/): one free page per technical word of ṣarf and naḥw, with its Arabic, a
  * definition and a short explanation. `term` names the lesson of the study path that teaches it, `books` the handbooks
- * of the knowledge base that treat it.
+ * of the knowledge base that treat it. The category `jargon` holds the words of the commentaries and of the Baṣran–Kūfan
+ * debate (samāʿ and qiyās, ʿilla, taqdīr, "fa-in qīla … qultu …").
  */
-export const CONCEPT_CATEGORIES = ["foundations", "word", "root", "verb", "sound-weak", "derived", "irab", "sentence", "governors", "followers", "accusatives"] as const;
+export const CONCEPT_CATEGORIES = ["foundations", "word", "root", "verb", "sound-weak", "derived", "irab", "sentence", "governors", "followers", "accusatives", "jargon"] as const;
 export const BackgroundConcept = z.object({
   slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   name: z.string().min(1),
@@ -489,7 +516,7 @@ export const NewsItem = z.object({
 });
 export type NewsItem = z.infer<typeof NewsItem>;
 
-/** A book of the library (background/library.json): a work on logic beside the six handbooks, with a short page of its own. */
+/** A book of the library (background/library.json): a work of naḥw or ṣarf beside the six handbooks (or a ṭabaqāt of the grammarians, kind `biography`), with a short page of its own. */
 export const LibraryBook = z.object({
   id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   title: z.string().min(1),
@@ -502,7 +529,7 @@ export const LibraryBook = z.object({
   died: z.string().optional(),
   /** The century (CE) the work was written in. */
   century: z.number().int().min(8).max(21),
-  kind: z.enum(["handbook", "commentary", "gloss", "treatise", "encyclopedia", "verse", "refutation", "modern", "translation"]),
+  kind: z.enum(["handbook", "commentary", "gloss", "treatise", "encyclopedia", "verse", "refutation", "modern", "translation", "biography"]),
   /** What it comments on: a handbook id, another library id, or a plain title. */
   on: z.string().optional(),
   language: z.enum(["ar", "fa", "ot", "ur", "other"]).default("ar"),

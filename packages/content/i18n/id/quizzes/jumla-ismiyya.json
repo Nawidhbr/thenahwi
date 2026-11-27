@@ -1,0 +1,34 @@
+{
+  "items": {
+    "jumla-ismiyya-1": {
+      "prompt": "Jumlah mana yang ismiyyah?",
+      "options": [
+        "Zaidun qa'imun",
+        "qama Zaidun",
+        "Keduanya",
+        "Tidak keduanya"
+      ],
+      "explanation": "Zaidun qa'imun diawali isim; qama Zaidun diawali fi'il."
+    },
+    "jumla-ismiyya-2": {
+      "prompt": "Apa dua bagian jumlah ismiyyah yang asal?",
+      "options": [
+        "mubtada' dan khabar",
+        "fi'il dan fa'il",
+        "fa'il dan maf'ul",
+        "huruf dan isim"
+      ],
+      "explanation": "Jumlah ismiyyah terdiri dari mubtada' dan khabarnya."
+    },
+    "jumla-ismiyya-3": {
+      "prompt": "Apa keadaan i'rab kedua bagian di sini?",
+      "options": [
+        "Keduanya marfu'",
+        "Keduanya manshub",
+        "Yang pertama marfu', yang kedua manshub",
+        "Keduanya majrur"
+      ],
+      "explanation": "Mubtada' dan khabar keduanya marfu': al-'ilmu, nurun."
+    }
+  }
+}

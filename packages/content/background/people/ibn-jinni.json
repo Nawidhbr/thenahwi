@@ -1,0 +1,76 @@
+{
+  "slug": "ibn-jinni",
+  "name": "Abū al-Fatḥ ʿUthmān ibn Jinnī al-Mawṣilī",
+  "known": "Ibn Jinnī",
+  "arabic": "ابْنُ جِنِّي",
+  "died": "392/1002",
+  "places": [
+    "Mosul",
+    "Aleppo",
+    "Shiraz",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "commentator",
+    "teacher"
+  ],
+  "summary": "Abū ʿAlī al-Fārisī's student for forty years and the boldest mind of Arabic grammar: author of al-Khaṣāʾiṣ on the principles of the language, Sirr ṣināʿat al-iʿrāb on its sounds, and al-Munṣif on al-Māzinī's ṣarf.",
+  "bio": [
+    "Ibn Jinnī was born in Mosul before 330/941, the son of a Greek slave of the Azd, and was teaching grammar in its mosque when Abū ʿAlī al-Fārisī came by. The story of their meeting, as Yāqūt tells it, is that al-Fārisī heard him explain how wāw becomes alif in qāla and qāma, put a question he could not answer, and said, 'You have turned to raisin while still a sour grape'; Ibn Jinnī asked who he was and followed him from then on, to Aleppo, Shiraz and Baghdad, for some forty years. After al-Fārisī's death he took his place in Baghdad. He was also the friend of the poet al-Mutanabbī, who is reported to have said that Ibn Jinnī knew his poetry better than he did, and he wrote two commentaries on his Dīwān.",
+    "His al-Khaṣāʾiṣ asks why Arabic is as it is: whether language is given or made, how its rules relate to the speech of the Arabs, what counts as evidence, and how sound and sense meet, with his 'greater derivation' (al-ishtiqāq al-akbar), the meaning shared by all the orders of the same three letters. Sirr ṣināʿat al-iʿrāb describes the letters and their sounds. In ṣarf his al-Munṣif comments on al-Māzinī's al-Taṣrīf and his al-Taṣrīf al-mulūkī gives a short course; in naḥw his short al-Lumaʿ was read and commented on for centuries. His al-Muḥtasab defends the irregular readings of the Qurʾān by grammar. He died in Baghdad in 392/1002."
+  ],
+  "works": [
+    {
+      "title": "al-Khaṣāʾiṣ",
+      "arabic": "الخَصَائِص",
+      "kind": "other"
+    },
+    {
+      "title": "Sirr ṣināʿat al-iʿrāb",
+      "arabic": "سِرُّ صِنَاعَةِ الإِعْرَاب",
+      "kind": "other"
+    },
+    {
+      "title": "al-Munṣif",
+      "arabic": "المُنْصِف",
+      "kind": "sharh",
+      "on": "mazini",
+      "note": "On al-Māzinī's al-Taṣrīf."
+    },
+    {
+      "title": "al-Lumaʿ fī al-ʿarabiyya",
+      "arabic": "اللُّمَعُ فِي العَرَبِيَّة",
+      "kind": "matn"
+    },
+    {
+      "title": "al-Taṣrīf al-mulūkī",
+      "arabic": "التَّصْرِيفُ المُلُوكِيّ",
+      "kind": "matn"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "Ibn Khallikān tells the meeting differently: Ibn Jinnī had already studied with al-Fārisī and parted from him, and the rebuke was for setting up on his own too soon."
+  ],
+  "books": [],
+  "school": "baghdad",
+  "sources": [
+    {
+      "title": "İbn Cinnî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-cinni"
+    },
+    {
+      "title": "el-Hasâis, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/el-hasais"
+    },
+    {
+      "title": "el-Münsıf, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/el-munsif"
+    },
+    {
+      "title": "The meeting with Abū ʿAlī, after Yāqūt and Ibn Khallikān: introduction to Ibn Jinnī's al-Muḥtasab (al-Maktaba al-Shāmila)",
+      "url": "https://shamela.ws/book/704/44"
+    }
+  ]
+}

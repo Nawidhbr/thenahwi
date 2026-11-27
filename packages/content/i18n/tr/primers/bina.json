@@ -1,115 +1,2085 @@
 {
- "parts": {},
- "lessons": {
-  "1": {
-   "text": [
-    "Rahman ve Rahim olan Allah'ın adıyla. Bil ki tasrif babları otuz beş babdır; bunlardan altısı sülasi-i mücerred içindir.",
-    "Birinci bab: fe'ale yef'ulü; mevzunu nasara yensuru “yardım etmek”. Alameti, fiilinin ayn'ının mazide meftuh, muzaride mazmum olmasıdır. Binası çoğunlukla ta'diye (müteaddi) içindir; bazen de lazım olur. Müteaddi misali nasara Zeydün 'Amran “Zeyd Amr'a yardım etti”, lazım misali harace Zeydün “Zeyd çıktı”.",
-    "Müteaddi, failin fiilinin mef'ulün bihe geçtiği fiildir; lazım ise failin fiilinin mef'ulün bihe geçmeyip failin kendisinde kaldığı fiildir."
-   ]
+  "title": "Bina (Binau'l-ef'al)",
+  "summary": "Bina, Osmanlı medresesinde Emsile'den sonra okunan, yazarı bilinmeyen kısa bir Arapça ilk kitaptır: Emsile tek bir fiilin sigalarını okurken Bina fiillerin nasıl kurulduğunu gösterir. Her Arapça fiilin üzerine yapıldığı vezinler olan otuz beş babı sayar: sülasi mücerred için altı, sülasi mezid için on iki, rubai mücerred için bir, rubai mezid için üç ve rubai vezinlerine “mülhak” on üç bab. Her biri için vezni, örnek fiili, onu belirten alameti ve ne için kurulduğunu (ta'diye, teksir, müşareket, mutavaat) verir; fiilin sekiz kısmı ile sahih ve mu'tel köklerin yedi kısmıyla biter. Dersler her babı açıklar ve düzenli babları The Nahwi'nin tasrif aracıyla eksiksiz gösterir.",
+  "parts": {
+    "bare-triliteral": "Sülasi mücerredin altı babı",
+    "augmented-triliteral": "Sülasi mezidin on iki babı",
+    "quadriliteral": "Rubai fiil ve mülhak babları",
+    "divisions": "Sekiz kısım ve yedi kısım"
   },
-  "2": {
-   "text": [
-    "İkinci bab: fe'ale yef'ilü; mevzunu darabe yadribü “dövmek”. Alameti, fiilinin ayn'ının mazide meftuh, gabirde (muzaride) meksur olmasıdır. Binası da çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali darabe Zeydün 'Amran “Zeyd Amr'ı dövdü”, lazım misali celese Zeydün “Zeyd oturdu”.",
-    "Üçüncü bab: fe'ale yef'alü; mevzunu fetaha yeftahu “açmak”. Alameti, fiilinin ayn'ının mazide ve muzaride meftuh olmasıdır; şu şartla ki fiilinin ayn'ı veya lam'ı halk harflerinden (huruf-ı halk) biri olsun; bunlar altıdır: ha, hı, ayn, ğayn, he ve hemze. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali fetaha Zeydün el-babe “Zeyd kapıyı açtı”, lazım misali zehebe Zeydün “Zeyd gitti”."
-   ]
-  },
-  "3": {
-   "text": [
-    "Dördüncü bab: fe'ile yef'alü; mevzunu 'alime ye'lemü “bilmek”. Alameti, fiilinin ayn'ının mazide meksur, gabirde meftuh olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali 'alime Zeydün el-mes'elete “Zeyd meseleyi bildi”, lazım misali vecile Zeydün “Zeyd korktu”.",
-    "Beşinci bab: fe'ule yef'ulü; mevzunu hasüne yahsünü “güzel olmak”. Alameti, fiilinin ayn'ının mazide ve muzaride mazmum olmasıdır. Binası ancak lazım olur; hasüne Zeydün “Zeyd güzel oldu” gibi.",
-    "Altıncı bab: fe'ile yef'ilü; mevzunu hasibe yahsibü “sanmak”. Alameti, fiilinin ayn'ının mazide ve muzaride meksur olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali hasibe Zeydün 'Amran fadılen “Zeyd Amr'ı fazilet sahibi sandı”, lazım misali verise Zeydün “Zeyd mirasçı oldu”."
-   ]
-  },
-  "4": {
-   "text": [
-    "Bablardan on ikisi sülasiden fazla olanlar içindir ve bu üç nevidir. Birinci nevi, sülasiye bir harf ziyade edilendir; bu üç babdır. Birinci bab: ef'ale yuf'ilü if'alen; mevzunu ekrame yukrimü ikramen “ikram etmek”. Alameti, mazisinin başına hemze ziyadesiyle dört harfli olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali ekrame Zeydün 'Amran “Zeyd Amr'a ikram etti”, lazım misali asbaha'r-raculü “adam sabaha erdi”.",
-    "İkinci bab: fe''ale yufe''ilü tef'ilen; mevzunu ferraha yuferrihu tefrihan “sevindirmek”. Alameti, mazisinin fa ile ayn arasına, fiilinin ayn'ı cinsinden bir harf ziyadesiyle dört harfli olmasıdır. Binası çoğunlukla teksir içindir. Bu bazen fiilde olur, tavvefe Zeydün el-Ke'bete “Zeyd Kabe'yi çokça tavaf etti” gibi; bazen failde olur, mevvete'l-ibilü “develer çokça öldü” gibi; bazen de mef'ulde olur, ğallaka Zeydün el-babe “Zeyd kapıyı defalarca kilitledi” gibi.",
-    "Üçüncü bab: fa'ale yufa'ilü müfa'aleten ve fi'alen ve fi'alen [fadan sonra ye ile]; mevzunu katele yukatilü mukateleten ve kıtalen ve kitalen [ye ile] “savaşmak”. Alameti, mazisinin fa ile ayn arasına elif ziyadesiyle dört harfli olmasıdır. Binası çoğunlukla iki kişi arasında müşareket içindir; bazen de tek kişi için olur. Müşareket misali katele Zeydün 'Amran “Zeyd Amr ile savaştı”, tek kişi misali katelehümüllahü “Allah onları kahretsin”."
-   ]
-  },
-  "5": {
-   "text": [
-    "İkinci nevi, sülasi-i mücerrede iki harf ziyade edilendir; bu beş babdır. Birinci bab: infe'ale yenfe'ilü infi'alen; mevzunu inkesera yenkesiru inkisaran “kırılmak”. Alameti, mazisinin başına hemze ve nun ziyadesiyle beş harfli olmasıdır. Binası mutavaat içindir. Mutavaatın ma'nası, müteaddi fiilin taalluku sebebiyle bir şeyin eserinin meydana gelmesidir; kesertü'z-zücace fe inkesera zalike'z-zücacu “camı kırdım, o cam da kırıldı” gibi; çünkü camın kırılması, müteaddi fiil olan kırmanın taallukundan meydana gelen bir eserdir.",
-    "İkinci bab: ifte'ale yefte'ilü ifti'alen; mevzunu icteme'a yectemi'u ictima'an “toplanmak”. Alameti, mazisinin başına hemze, fa ile ayn arasına ta ziyadesiyle beş harfli olmasıdır. Binası da mutavaat içindir; ceme'tü'l-ibile fe icteme'a zalike'l-ibilü “develeri topladım, o develer de toplandı” gibi."
-   ]
-  },
-  "6": {
-   "text": [
-    "Üçüncü bab: if'alle yef'allü if'ilalen; mevzunu ihmerra yahmerru ihmiraran “kızarmak”. Alameti, mazisinin başına hemze, sonuna da fiilinin lam'ı cinsinden başka bir harf ziyadesiyle beş harfli olmasıdır. Binası lazımın mübalağası içindir; çünkü Zeyd'de biraz kırmızılık olduğunda hamira Zeydün “Zeyd kızıl oldu” denir, Zeyd'de mübalağalı bir kırmızılık olduğunda ihmerra Zeydün “Zeyd iyice kızardı” denir. Renkler ve kusurlar içindir de denilmiştir; renkler misali ihmerra Zeydün “Zeyd kızardı”, kusurlar misali i'verra Zeydün “Zeyd tek gözlü oldu”.",
-    "Dördüncü bab: tefe''ale yetefe''alü tefe''ulen; mevzunu tekelleme yetekellemü tekellümen “konuşmak”. Alameti, mazisinin başına ta, fa ile ayn arasına da fiilinin ayn'ı cinsinden başka bir harf ziyadesiyle beş harfli olmasıdır. Binası tekellüf içindir. Tekellüfün ma'nası, istenen şeyi azar azar elde etmektir; te'allemtü'l-'ilme mes'eleten be'de mes'eletin “ilmi mesele mesele öğrendim” gibi.",
-    "Beşinci bab: tefa'ale yetefa'alü tefa'ulen; mevzunu teba'ade yeteba'adü teba'uden “birbirinden uzaklaşmak”. Alameti, mazisinin başına ta, fa ile ayn arasına elif ziyadesiyle beş harfli olmasıdır. Binası iki ve daha fazla kişi arasında müşareket içindir. İki kişi arasında müşareket misali teba'ade Zeydün 'Amran “Zeyd ile Amr birbirinden uzaklaştı”, daha fazla kişi arasında müşareket misali tasalaha'l-kavmü kavmen “kavim bir kavimle barıştı”."
-   ]
-  },
-  "7": {
-   "text": [
-    "Üçüncü nevi, sülasiye üç harf ziyade edilendir; bu dört babdır. Birinci bab: istef'ale yestef'ilü istif'alen; mevzunu istahrace yestahricu istihracen “çıkarmak”. Alameti, mazisinin başına hemze, sin ve ta ziyadesiyle altı harfli olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali istahrace Zeydün el-male “Zeyd malı çıkardı”, lazım misali istahcera't-tinü “çamur taşlaştı”. Fiili talep etmek içindir de denilmiştir; estağfirullahe “Allah'tan mağfiret dilerim” gibi.",
-    "İkinci bab: if'av'ale yef'av'ilü if'i'alen; mevzunu i'şevşebe ye'şevşibü i'şişaben “otu bol olmak”. Alameti, mazisinin başına hemze, ayn ile lam arasına da fiilinin ayn'ı cinsinden başka bir harf ile vav ziyadesiyle altı harfli olmasıdır. Binası lazımın mübalağası içindir; çünkü yeryüzünde biraz bitki bittiğinde 'aşübe'l-erdu “yer otlandı” denir, yeryüzünün bitkisi çoğaldığında i'şevşebe'l-erdu “yer ot ile doldu” denir.",
-    "Üçüncü bab: if'avvele yef'avvilü if'ivvalen; mevzunu iclevveze yeclevvizü iclivvazen “hızla yol almak”. Alameti, mazisinin başına hemze, ayn ile lam arasına iki vav ziyadesiyle altı harfli olmasıdır. Binası da lazımın mübalağası içindir; çünkü deve biraz hızlı yürüdüğünde celeze'l-ibilü “deve hızlı yürüdü” denir, daha fazla hızla yürüdüğünde iclevveze'l-ibilü “deve çok hızlı yürüdü” denir.",
-    "Dördüncü bab: if'alle [elifle] yef'allü if'ilalen [ye ile]; mevzunu ihmarra yahmarru ihmiraran [ye ile] “kıpkırmızı olmak”. Alameti, mazisinin başına hemze, ayn ile lam arasına elif, sonuna da fiilinin lam'ı cinsinden başka bir harf ziyadesiyle altı harfli olmasıdır. Binası da lazımın mübalağası içindir; fakat bu bab if'ilal babından daha mübalağalıdır; çünkü Zeyd'de biraz kırmızılık olduğunda hamira Zeydün “Zeyd kızıl oldu”, mübalağalı bir kırmızılık olduğunda ihmerra Zeydün “Zeyd iyice kızardı”, daha da mübalağalı bir kırmızılık olduğunda ihmarra Zeydün “Zeyd kıpkırmızı oldu” denir."
-   ]
-  },
-  "8": {
-   "text": [
-    "Biri rubai-i mücerred içindir ve bu bir babdır. Vezni fe'lele yufe'lilü fe'leleten ve fi'lalen; mevzunu dahrace yudahricu dahraceten ve dihracen “yuvarlamak”. Alameti, mazisinin, bütün harfleri asli olmak şartıyla, dört harfli olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali dahrace Zeydün el-hacera “Zeyd taşı yuvarladı”, lazım misali derbaha Zeydün “Zeyd başını eğdi”.",
-    "Altısı dahrace'ye mülhak olanlar içindir; bu altısına rubaiye mülhak (mülhak bi'r-rubai) denir. Bunların birinci babı: fev'ale yufev'ilü fev'aleten ve fi'alen; mevzunu havkale yuhavkılü havkaleten ve hikalen “yaşlanıp zayıflamak”. Alameti, mazisinin fa ile ayn arasına vav ziyadesiyle dört harfli olmasıdır. Binası yalnız lazım içindir; havkale Zeydün “Zeyd yaşlanıp zayıfladı” gibi.",
-    "İkinci bab: fey'ale yufey'ilü fey'aleten ve fi'alen; mevzunu beytara yubeytıru beytaraten ve bitaran “yarmak”. Alameti, mazisinin fa ile ayn arasına ya ziyadesiyle dört harfli olmasıdır. Binası yalnız ta'diye içindir; beytara Zeydün el-kaleme “Zeyd kalemi yardı”, yani onu çatlattı, gibi.",
-    "Üçüncü bab: fe'vele yufe'vilü fe'veleten ve fi'valen; mevzunu cehvera yucehviru cehveraten ve cihvaran “sesli söylemek”. Alameti, mazisinin ayn ile lam arasına vav ziyadesiyle dört harfli olmasıdır. Binası da yalnız ta'diye içindir; cehvera Zeydün el-kur'ane “Zeyd Kur'an'ı sesli okudu” gibi."
-   ]
-  },
-  "9": {
-   "text": [
-    "Dördüncü bab: fe'yele yufe'yilü fe'yeleten ve fi'yalen; mevzunu 'asyera yu'asyiru 'asyeraten ve 'isyaran “toz kaldırmak”. Alameti, mazisinin ayn ile lam arasına ya ziyadesiyle dört harfli olmasıdır. Binası yalnız lazım içindir; 'asyera Zeydün “Zeyd toz kaldırdı” gibi.",
-    "Beşinci bab: fe'lele yufe'lilü fe'leleten ve fi'lalen; mevzunu celbebe yucelbibü celbebeten ve cilbaben “cilbab giydirmek”. Alameti, mazisinin sonuna fiilinin lam'ı cinsinden bir harf ziyadesiyle dört harfli olmasıdır. Binası ta'diye içindir; celbebe Zeydün el-cilbabe “Zeyd cilbabı giydirdi” gibi.",
-    "Altıncı bab: fe'la yufe'li fe'leyeten ve fi'la'en; mevzunu selka yuselki selkayeten ve silka'en “sırt üstü yatırmak”. Alameti, mazisinin sonuna ya ziyadesiyle dört harfli olmasıdır. Binası lazım içindir; selka Zeydün “Zeyd sırt üstü yattı”, yani ensesi üzerine uyudu, gibi. Bu altısına rubaiye mülhak denir; ilhakın ma'nası iki masdarın, yani mülhak ile mülhakun bihin masdarlarının bir olmasıdır."
-   ]
-  },
-  "10": {
-   "text": [
-    "Üçü rubai-i mücerredden fazla olanlar içindir ve bu iki nevidir. Birinci nevi, rubaiye bir harf ziyade edilendir; bu bir babdır. Vezni tefe'lele yetefe'lelü tefe'lülen; mevzunu tedahrace yetedahracu tedahrucen “yuvarlanmak”. Alameti, mazisinin başına ta ziyadesiyle beş harfli olmasıdır. Binası mutavaat içindir; dahractü'l-hacera fe tedahrace zalike'l-haceru “taşı yuvarladım, o taş da yuvarlandı” gibi.",
-    "İkinci nevi, rubaiye iki harf ziyade edilendir; bu iki babdır. Birinci bab: if'anlele yef'anlilü if'inlalen; mevzunu ihranceme yahrancimü ihrincamen “toplanıp yığılmak”. Alameti, mazisinin başına hemze, ayn ile birinci lam arasına nun ziyadesiyle altı harfli olmasıdır. Binası da mutavaat içindir; harcemtü'l-ibile fe ihranceme zalike'l-ibilü “develeri bir araya topladım, o develer de toplanıp yığıldı” gibi.",
-    "İkinci bab: if'alelle yef'alillü if'illalen; mevzunu ikşe'arra yakşe'irru ikşi'raran “ürpermek”. Alameti, mazisinin başına hemze, sonuna da fiilinin ikinci lam'ı cinsinden başka bir harf ziyadesiyle altı harfli olmasıdır. Binası lazımın mübalağası içindir; çünkü adamın derisinin tüyleri biraz kalktığında kaş'ara cildü'r-raculi “adamın derisi ürperdi” denir, derisinin tüyleri mübalağalı biçimde kalktığında ikşe'arra cildü'r-raculi “adamın derisi iyice ürperdi” denir."
-   ]
-  },
-  "11": {
-   "text": [
-    "Beşi tedahrace'ye mülhak olanlar içindir. Birinci bab: tefe'lele yetefe'lelü tefe'lülen; mevzunu tecelbebe yetecelbebü tecelbüben “cilbab giymek”. Alameti, mazisinin başına ta, sonuna da fiilinin lam'ı cinsinden başka bir harf ziyadesiyle beş harfli olmasıdır. Binası mutavaat içindir; celbebe Zeydün fe tecelbebe fi zalike'l-cilbabi “Zeyd ona cilbab giydirdi, o da o cilbabı giydi” gibi.",
-    "İkinci bab: tefev'ale yetefev'alü tefev'ulen; mevzunu tecevrabe yetecevrabü tecevruben “çorap giymek”. Alameti, mazisinin başına ta, fa ile ayn arasına vav ziyadesiyle beş harfli olmasıdır. Binası da mutavaat içindir; cevrabtühü fe tecevrabe “ona çorap giydirdim, o da giydi” gibi.",
-    "Üçüncü bab: tefey'ale yetefey'alü tefey'ulen; mevzunu teşeytane yeteşeytanü teşeytunen “şeytanlık etmek”. Alameti, mazisinin başına ta, fa ile ayn arasına ya ziyadesiyle beş harfli olmasıdır. Binası yalnız lazım içindir; teşeytane Zeydün “Zeyd şeytanlık etti” gibi.",
-    "Dördüncü bab: tefe'vele yetefe'velü tefe'vulen; mevzunu terahveke yeterahvekü terahvuken “salınarak yürümek”. Alameti, mazisinin başına ta, ayn ile lam arasına vav ziyadesiyle beş harfli olmasıdır. Binası yalnız lazım içindir; terahveke Zeydün “Zeyd salınarak yürüdü” gibi.",
-    "Beşinci bab: tefe'la yetefe'la tefe'liyen; mevzunu teselka yeteselka teselkıyen “sırt üstü yatmak”. Alameti, mazisinin başına ta, sonuna ya ziyadesiyle beş harfli olmasıdır. Binası lazım içindir; teselka Zeydün “Zeyd sırt üstü yattı”, yani ensesi üzerine uyudu, gibi.",
-    "Bil ki bu mülhaklarda ilhakın hakikati ancak ta'dan başkasının ziyadesiyledir. Mesela tecelbebe'deki ilhak ancak ba'nın tekrarıyladır; ta ise ancak mutavaat ma'nası için girmiştir, tedahrace'ye girdiği gibi; çünkü ilhak kelimenin başında olmaz, ortasında veya sonunda olur; Şerhu'l-Mufassal'da açıklandığı üzere."
-   ]
-  },
-  "12": {
-   "text": [
-    "İkisi ihranceme'ye mülhak olanlar içindir. Birinci bab: if'anlele yef'anlilü if'inlalen; mevzunu ik'ansese yak'ansisü ik'insasen “göğsünü dışarı çıkarmak”. Alameti, mazisinin başına hemze, ayn ile lam arasına nun, sonuna da fiilinin lam'ı cinsinden başka bir harf ziyadesiyle altı harfli olmasıdır. Binası lazımın mübalağası içindir; çünkü adam göğsünü çıkarıp sırtı biraz içeri girdiğinde ka'ise'r-raculü “adamın göğsü çıktı” denir, göğsünü çıkarıp sırtı mübalağalı biçimde içeri girdiğinde ik'ansese'r-raculü “adam göğsünü iyice çıkardı” denir.",
-    "İkinci bab: if'anla yef'anli if'inla'en; mevzunu islenka yeslenki islinka'en “sırt üstü düşmek”. Alameti, mazisinin başına hemze, ayn ile lam arasına nun, sonuna ya ziyadesiyle altı harfli olmasıdır. Binası mutavaat içindir; selkaytühü fe islenka “onu sırt üstü yatırdım, o da sırt üstü düştü”, yani ensesi üzerine düştü, gibi."
-   ]
-  },
-  "13": {
-   "text": [
-    "Sonra bil ki bu bablarda sınırlı olan fiil ya sülasi-i mücerred salimdir, kerume “şerefli olmak” gibi; ya sülasi-i mücerred gayr-i salimdir, ve'ade “vaat etmek” gibi; ya rubai-i mücerred salimdir, dahrace “yuvarlamak” gibi; ya rubai-i mücerred gayr-i salimdir, vesvese “vesvese vermek” gibi; ya sülasi-i mezidün fih salimdir, ekrame “ikram etmek” gibi; ya sülasi-i mezidün fih gayr-i salimdir, ev'ade “tehdit etmek” gibi; ya rubai-i mezidün fih salimdir, tedahrace “yuvarlanmak” gibi; ya da rubai-i mezidün fih gayr-i salimdir, tevesvese “vesveseye düşmek” gibi. Bu kısımlara aksam-ı semaniye (sekiz kısım) denir."
-   ]
-  },
-  "14": {
-   "text": [
-    "Sonra bil ki her fiil ya sahihtir: fa, ayn ve lam mukabilinde illet harflerinden (bunlar vav, ya ve eliftir) bir harf, hemze ve tad'if bulunmayandır; nasara “yardım etmek” gibi. Ya misaldir: fası mukabilinde illet harflerinden bir harf bulunandır; ve'ade “vaat etmek” ve yesera “kolay olmak” gibi. Ya ecveftir: ayn'ı mukabilinde illet harflerinden bir harf bulunandır; kale “demek” ve kale “ölçmek” gibi.",
-    "Ya nakıstır: lam'ı mukabilinde illet harflerinden bir harf bulunandır; ğaza “gaza etmek” ve rama “atmak” gibi. Ya leftir: içinde illet harflerinden iki harf bulunandır ve iki kısımdır: birincisi lefif-i makrundur, ayn'ı ve lam'ı mukabilinde bu harflerden iki harf bulunandır; tava “dürmek” ve kaviye “kuvvetli olmak” gibi; ikincisi lefif-i mefruktur, fası ve lam'ı mukabilinde bu harflerden iki harf bulunandır; vaka yaki “korumak” gibi."
-   ]
-  },
-  "15": {
-   "text": [
-    "Ya muzaaftır: ayn'ı ve lam'ı bir cinsten olandır; medde “uzatmak” gibi; aslı medede'dir; birinci dalin harekesi hazfedildi, sonra ikinci dale idğam edildi. İdğam, iki mütecanisten birini diğerine sokmaktır ve üç nevidir.",
-    "Birinci nevi vaciptir: iki mütecanis harfin ikisinin de harekeli olması veya birinci harfin sakin, ikincinin harekeli olmasıdır; medde yemüddü gibi. İkinci nevi caizdir: iki mütecanisten birinci harfin harekeli, ikinci harfin arızi bir sükunla sakin olmasıdır; dalin harekeleriyle lem yemüdde gibi; aslı lem yemdüd'dir; birinci dalin harekesi mime nakledildi, iki sakin bir araya geldi, sonra ikinci dal, sükunu arızi olduğu için ya zamme ya fetha ya da kesre ile harekelendi.",
-    "Üçüncü nevi mümteni'dir: iki mütecanisten birinci harfin harekeli, ikinci harfin asli bir sükunla sakin olmasıdır; mededtü “uzattım” ve mededne “(kadınlar) uzattılar” gibi."
-   ]
-  },
-  "16": {
-   "text": [
-    "Ya mehmuzdur: asli harflerinden biri hemze olandır; ahaze “almak”, se'ele “sormak” ve kara'e “okumak” gibi. Hemze fası mukabilinde olursa mehmuzü'l-fa, ayn'ı mukabilinde olursa mehmuzü'l-ayn, lam'ı mukabilinde olursa mehmuzü'l-lam denir. Bu kısımlara aksam-ı seb'a (yedi kısım) denir; onları şu beyit toplar:",
-    "[Farsça:] sahih-est, misal-est, muzaaf / lefif, nakıs, mehmuz, ecvef: “sahihtir, misaldir, muzaaf, / lefif, nakıs, mehmuz, ecvef”."
-   ]
+  "lessons": {
+    "1": {
+      "title": "Otuz beş bab; nasara babı",
+      "body": [
+        "Bina bir sayımla başlar: “tasrif babları otuz beştir”. Bab (kelime anlamı “kapı”) fiillerin üzerine kurulduğu bir vezindir: sülasi mücerredin altı, sülasi mezidin on iki, rubai mücerredin bir, rubai mezidin üç babı vardır ve on üç bab daha rubai vezinlerine “mülhak”tır. Emsile tek bir fiili bütün sigalarıyla öğretti; Bina bütün fiillerin üzerinde durduğu vezinleri öğretir.",
+        "Her bab aynı sırayla verilir ve bu sıra öğrenilmeye değer. Önce fe'ale üzerindeki vezni: fe'ale yef'ulü. Sonra onun mevzunu, bu vezinle tartılan gerçek bir fiil: nasara yensuru. Sonra alameti, onu nasıl tanıyacağınız: burada aynü'l-fiil mazide fethalı, muzaride zammelidir. Sonra ne için kurulduğu; kitap buna onun binası der: “çoğunlukla ta'diye içindir, lazım da olabilir”. En sonda her kullanımın bir örneği: nasara Zeydün Amran, “Zeyd Amr'a yardım etti”; harace Zeydün, “Zeyd çıktı”.",
+        "Bina kelimesine dikkat edin. Nahivde bir kelimenin sabit sonu demektir (Acurrumiyye'nin 3. dersi). Burada, kitabın adında ve her babda, veznin ne için kurulduğu, kullanımı ve ma'nası demektir. Aynı kelime iki ilimde iki anlamda kullanılır.",
+        "Kitap sonra iki kullanımı tanımlar. Müteaddi, işi “failden mef'ule geçen” fiildir: nasara Zeydün Amran, yardım Amr'a ulaşır. Lazım, işi “failden geçmeyen, onun kendisinde olan” fiildir: harace Zeydün, çıkış Zeyd'de kalır. Bu iki kelime sonraki her babda tekrar gelir."
+      ],
+      "terms": [
+        "bab: fiillerin üzerine kurulduğu vezin; hepsi otuz beş",
+        "vezin: fe'ale ile yazılan kalıp",
+        "mevzun: vezne göre tartılan gerçek bir fiil",
+        "alamet: bir babın tanındığı işaret",
+        "müteaddi: iş bir mef'ule geçer",
+        "lazım: iş failde kalır"
+      ],
+      "examples": [
+        "fe'ale yef'ulü, vezin; nasara yensuru, mevzunu",
+        "nasara Zeydün Amran, “Zeyd Amr'a yardım etti”: müteaddi",
+        "harace Zeydün, “Zeyd çıktı”: aynı babda lazım"
+      ],
+      "tasks": [
+        {
+          "prompt": "Bina'nın birinci bab hakkında söylediği beş şeyi kitabın sırasıyla verin.",
+          "answer": "Vezin: fe'ale yef'ulü. Mevzun: nasara yensuru. Alamet: aynü'l-fiil mazide fethalı, muzaride zammelidir. Ne için kurulduğu: çoğunlukla müteaddi, bazen lazım. Örnekler: nasara Zeydün Amran (müteaddi), harace Zeydün (lazım)."
+        },
+        {
+          "prompt": "Müteaddi mi, lazım mı? ketebe Zeydün ed-derse; celese Zeydün; fetaha Zeydün el-babe; zehebe Zeydün.",
+          "answer": "Ketebe: müteaddi (yazma işi derse geçer). Celese: lazım. Fetaha: müteaddi. Zehebe: lazım."
+        },
+        {
+          "prompt": "Nasara babından üç fiilin daha mazisini ve muzarisini verin: ketebe, harace, dahale.",
+          "answer": "Ketebe, yektübü; harace, yahrucu; dahale, yedhulü: aynda mazide fetha, muzaride zamme."
+        },
+        {
+          "prompt": "Bu kitapta bina ne demektir, nahivde ne demektir?",
+          "answer": "Bina'da bir veznin ne için kurulduğu, kullanımıdır (ta'diye, mübalağa …). Nahivde i'rab almayan bir kelimenin sabit sonudur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Bina kaç bab sayar?",
+          "options": [
+            "Altı",
+            "Otuz beş",
+            "On iki",
+            "On dört"
+          ],
+          "explanation": "6 + 12 + 1 + 3 + 13 mülhak."
+        },
+        {
+          "prompt": "Nasara babının alameti nedir?",
+          "options": [
+            "İkisinde de fetha",
+            "Mazide kesre, muzaride fetha",
+            "Aynda mazide fetha, muzaride zamme",
+            "İkisinde de zamme"
+          ],
+          "explanation": "Nasara, yensuru."
+        },
+        {
+          "prompt": "Bir babın mevzunu nedir?",
+          "options": [
+            "Fe'ale üzerindeki vezin",
+            "Masdarı",
+            "Alameti",
+            "Vezniyle tartılan gerçek bir fiil"
+          ],
+          "explanation": "Nasara yensuru, fe'ale yef'ulü'nün mevzunudur."
+        },
+        {
+          "prompt": "Bina kitabında “bina” ne demektir?",
+          "options": [
+            "Bir veznin ne için kurulduğu: kullanımı",
+            "Bir kelimenin sabit sonu",
+            "Kök",
+            "Masdar"
+          ],
+          "explanation": "Nahivde aynı kelime sabit son demektir."
+        },
+        {
+          "prompt": "Harace Zeydün …",
+          "options": [
+            "müteaddidir",
+            "lazımdır",
+            "meçhuldür",
+            "bir cümle-i ismiyyedir"
+          ],
+          "explanation": "Çıkış Zeyd'de kalır."
+        },
+        {
+          "prompt": "Müteaddi fiil nasıl tanımlanır?",
+          "options": [
+            "Faili vardır",
+            "Mazidedir",
+            "İşi failden mef'ule geçer",
+            "İşi failde kalır"
+          ],
+          "explanation": "Nasara Zeydün Amran."
+        },
+        {
+          "prompt": "Sülasi mücerredin kaç babı vardır?",
+          "options": [
+            "On iki",
+            "Bir",
+            "On üç",
+            "Altı"
+          ],
+          "explanation": "Nasara, darabe, fetaha, alime, hasüne, hasibe."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The thirty-five bābs": "Otuz beş bab",
+          "Three-letter verb": "Sülasi fiil",
+          "bare: 6": "mücerred: 6",
+          "augmented: 12": "mezid: 12",
+          "Four-letter verb": "Rubai fiil",
+          "bare: 1": "mücerred: 1",
+          "augmented: 3": "mezid: 3",
+          "Attached (mulḥaq)": "Mülhak",
+          "to daḥraja: 6": "dahrace'ye: 6",
+          "to tadaḥraja: 5": "tedahrace'ye: 5",
+          "to iḥranjama: 2": "ihranceme'ye: 2"
+        },
+        "caption": "Bina'nın otuz beş babı."
+      },
+      "text": [
+        "Rahman ve Rahim olan Allah'ın adıyla. Bil ki tasrif babları otuz beş babdır; bunlardan altısı sülasi-i mücerred içindir.",
+        "Birinci bab: fe'ale yef'ulü; mevzunu nasara yensuru “yardım etmek”. Alameti, fiilinin ayn'ının mazide meftuh, muzaride mazmum olmasıdır. Binası çoğunlukla ta'diye (müteaddi) içindir; bazen de lazım olur. Müteaddi misali nasara Zeydün 'Amran “Zeyd Amr'a yardım etti”, lazım misali harace Zeydün “Zeyd çıktı”.",
+        "Müteaddi, failin fiilinin mef'ulün bihe geçtiği fiildir; lazım ise failin fiilinin mef'ulün bihe geçmeyip failin kendisinde kaldığı fiildir."
+      ]
+    },
+    "2": {
+      "title": "Darabe ve fetaha babları",
+      "body": [
+        "İkinci bab fe'ale yef'ilü'dür, mevzunu “vurmak” anlamındaki darabe yadribu. Alameti: aynü'l-fiil mazide fethalı, muzaride kesrelidir (kitap burada muzariye, fiil-i muzari adının yanında kullandığı daha eski bir ad olan gabir der). O da çoğunlukla müteaddidir: darabe Zeydün Amran, “Zeyd Amr'ı dövdü”; bazen de lazımdır: celese Zeydün, “Zeyd oturdu”.",
+        "Üçüncü bab fe'ale yef'alü'dür, mevzunu “açmak” anlamındaki fetaha yeftahu: aynü'l-fiilde hem mazide hem muzaride fetha. Diğerlerinde olmayan bir şartı vardır: fiilin aynı ya da lamı altı halk harfinden (huruf-ı halk) biri olmalıdır: ha, hı, ayn, gayn, he ve hemze. Fetaha'da lam bir ha'dır; lazım örnek olan “gitmek” anlamındaki zehebe'de ayn bir he'dir.",
+        "Şerhler sebebini açıklar: halk harfi ağırdır ve yanındaki hafif fetha kelimeyi kolaylaştırır. Ama şart tek yönlü işler. Bu babın her fiilinde bir halk harfi vardır, ama halk harfi olan her fiil bu babdan değildir: “girmek” anlamındaki dahale'nin aynı bir hı'dır ve o nasara babındandır: dahale yedhulü. Yani bir fiilin babı yine lügatten öğrenilir; şart yalnız neyin mümkün olduğunu söyler.",
+        "Bu dersin ve önceki dersin üç babının hepsinde mazide fetha vardır (fe'ale) ve yalnız muzaride ayrılırlar: yef'ulü, yef'ilü, yef'alü. Muzarinin bu tek harekesi talebenin her yeni fiil hakkında bilmesi gereken şeydir ve The Nahwi'nin tasrif aracının babı sormasının sebebi budur."
+      ],
+      "terms": [
+        "fe'ale yef'ilü: darabe babı, muzaride kesre",
+        "fe'ale yef'alü: fetaha babı, ikisinde de fetha",
+        "huruf-ı halk: altı boğaz harfi: ha, hı, ayn, gayn, he, hemze",
+        "gabir: muzarinin (fiil-i muzari) daha eski bir adı"
+      ],
+      "examples": [
+        "darabe Zeydün Amran, müteaddi; celese Zeydün, lazım: darabe babı",
+        "fetaha Zeydün el-babe, “Zeyd kapıyı açtı”; zehebe Zeydün, “Zeyd gitti”: fetaha babı",
+        "dahale, yedhulü: bir halk harfi, ama nasara babı"
+      ],
+      "tasks": [
+        {
+          "prompt": "Hangi bab? Veznini verin: celese yeclisü; fetaha yeftahu; harace yahrucu; darabe yadribu.",
+          "answer": "Celese yeclisü: fe'ale yef'ilü (darabe babı). Fetaha yeftahu: fe'ale yef'alü. Harace yahrucu: fe'ale yef'ulü (nasara babı). Darabe yadribu: fe'ale yef'ilü."
+        },
+        {
+          "prompt": "Fetaha ve zehebe'deki halk harfini ve yerini (ayn mı lam mı) söyleyin.",
+          "answer": "Fetaha: ha, lamıdır. Zehebe: he, aynıdır."
+        },
+        {
+          "prompt": "Dahale'de bir halk harfi var. Neden fetaha babından değildir?",
+          "answer": "Halk harfi fetaha babının sebebi değil şartıdır: o babın her fiilinde bir halk harfi vardır, ama halk harfi olan bir fiil başka bir babdan olabilir. Dahale, dahale yedhulü diye işitilmiştir: nasara babı."
+        },
+        {
+          "prompt": "Celese ve fetaha'nın bir erkeğe emrini verin.",
+          "answer": "İclis; iftah."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Darabe babının alameti nedir?",
+          "options": [
+            "İkisinde de fetha",
+            "İkisinde de kesre",
+            "Aynda mazide fetha, muzaride kesre",
+            "İkisinde de zamme"
+          ],
+          "explanation": "Darabe, yadribu."
+        },
+        {
+          "prompt": "Fetaha babının hangi şartı vardır?",
+          "options": [
+            "Müteaddi olmalıdır",
+            "Fa'sı bir illet harfidir",
+            "Dört harflidir",
+            "Aynı ya da lamı bir halk harfidir"
+          ],
+          "explanation": "Ha, hı, ayn, gayn, he ya da hemze."
+        },
+        {
+          "prompt": "Hangisi bir halk harfidir?",
+          "options": [
+            "Gayn",
+            "Kaf",
+            "Kef",
+            "Mim"
+          ],
+          "explanation": "Altısı: ha, hı, ayn, gayn, he, hemze."
+        },
+        {
+          "prompt": "Dahale yedhulü … babındandır.",
+          "options": [
+            "fetaha",
+            "nasara",
+            "darabe",
+            "alime"
+          ],
+          "explanation": "Halk harfi fetaha babını zorunlu kılmaz."
+        },
+        {
+          "prompt": "Bina'da gabir nedir?",
+          "options": [
+            "Mazi",
+            "Emir",
+            "Muzari (fiil-i muzari)",
+            "Masdar"
+          ],
+          "explanation": "Kitabın fiil-i muzarinin yanında kullandığı daha eski bir ad."
+        },
+        {
+          "prompt": "Celese Zeydün, kitabın … örneğidir.",
+          "options": [
+            "darabe babında müteaddinin",
+            "fetaha babının",
+            "nasara babının",
+            "darabe babında lazımın"
+          ],
+          "explanation": "Celese, yeclisü: fe'ale yef'ilü."
+        },
+        {
+          "prompt": "Nasara, darabe ve fetaha neyi paylaşır?",
+          "options": [
+            "Mazide aynda fethayı",
+            "Muzarinin harekesini",
+            "Bir halk harfini",
+            "Lazım olmayı"
+          ],
+          "explanation": "Yalnız muzaride ayrılırlar: yef'ulü, yef'ilü, yef'alü."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Bāb": "Bab",
+          "Past": "Mazi",
+          "Present": "Muzari",
+          "Transitive": "Müteaddi",
+          "Intransitive": "Lazım"
+        },
+        "caption": "Mazide fethalı üç bab"
+      },
+      "text": [
+        "İkinci bab: fe'ale yef'ilü; mevzunu darabe yadribü “dövmek”. Alameti, fiilinin ayn'ının mazide meftuh, gabirde (muzaride) meksur olmasıdır. Binası da çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali darabe Zeydün 'Amran “Zeyd Amr'ı dövdü”, lazım misali celese Zeydün “Zeyd oturdu”.",
+        "Üçüncü bab: fe'ale yef'alü; mevzunu fetaha yeftahu “açmak”. Alameti, fiilinin ayn'ının mazide ve muzaride meftuh olmasıdır; şu şartla ki fiilinin ayn'ı veya lam'ı halk harflerinden (huruf-ı halk) biri olsun; bunlar altıdır: ha, hı, ayn, ğayn, he ve hemze. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali fetaha Zeydün el-babe “Zeyd kapıyı açtı”, lazım misali zehebe Zeydün “Zeyd gitti”."
+      ]
+    },
+    "3": {
+      "title": "Alime, hasüne ve hasibe babları",
+      "body": [
+        "Dördüncü bab fe'ile yef'alü'dür, mevzunu “bilmek” anlamındaki alime ya'lemü: aynda mazide kesre, muzaride fetha. Müteaddi: alime Zeydün el-mes'elete, “Zeyd meseleyi bildi”; lazım: vecile Zeydün, “Zeyd korktu”. Başka kitaplar bu babın mevzunu olarak “duymak” anlamındaki semi'a yesme'u'yu alır ve The Nahwi'nin tasrif aracı onu semi'a ile adlandırır; vezin aynıdır.",
+        "Beşinci bab fe'ule yef'ulü'dür, mevzunu “güzel, iyi olmak” anlamındaki hasüne yahsünü: aynda ikisinde de zamme. “Yalnız lazımdır”: hasüne Zeydün, “Zeyd iyi oldu”. Fiilleri, birine tabiatıyla ait olan özellikleri, güzelliği, şerefi, büyüklüğü adlandırır ve bu yüzden mef'ul almaz; tasrif aracı bu babı “şerefli olmak” anlamındaki kerume ile adlandırır. Sıfatı genellikle fail vezninde değil, başka bir vezindedir: hasen, kerim, Avamil'in öğrettiği sıfat-ı müşebbehe.",
+        "Altıncı bab fe'ile yef'ilü'dür, mevzunu “saymak, sanmak” anlamındaki hasibe yahsibü: aynda ikisinde de kesre. Altısının en azıdır. Müteaddi örneği iki mef'ullü bir kalp fiilidir: hasibe Zeydün Amran fadılen, “Zeyd Amr'ı faziletli saydı”, Acurrumiyye'deki zanentü'nün kardeşlerinde olduğu gibi. Baskının verdiği lazım örnek verise Zeydün, “Zeyd mirasçı oldu”dur.",
+        "Şimdi altısı yan yana konabilir. Üçünün mazisinde fetha vardır (fe'ale) ve muzarileri u, i, a alır. İkisinin mazisinde kesre vardır (fe'ile), muzaride a ve i ile. Birinin mazisinde zamme vardır (fe'ule), muzaride u ile. Altı hareke çifti ve Arapçadaki her sülasi mücerred fiil bunlardan birinde durur."
+      ],
+      "terms": [
+        "fe'ile yef'alü: alime (semi'a) babı",
+        "fe'ule yef'ulü: hasüne (kerume) babı, yalnız lazım",
+        "fe'ile yef'ilü: hasibe babı",
+        "sülasi mücerred"
+      ],
+      "examples": [
+        "alime Zeydün el-mes'elete, müteaddi; vecile Zeydün, lazım",
+        "hasüne Zeydün, “Zeyd iyi oldu”: yalnız lazım olan bab",
+        "hasibe Zeydün Amran fadılen, “Zeyd Amr'ı faziletli saydı”: iki mef'ul"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her birinin babını vezniyle verin: semi'a yesme'u; kerume yekrumü; hasibe yahsibü; alime ya'lemü.",
+          "answer": "Semi'a yesme'u: fe'ile yef'alü. Kerume yekrumü: fe'ule yef'ulü. Hasibe yahsibü: fe'ile yef'ilü. Alime ya'lemü: fe'ile yef'alü (semi'a ile aynı bab)."
+        },
+        {
+          "prompt": "Hasüne babından bir fiil neden hiç mef'ul alamaz?",
+          "answer": "Fiilleri faile tabiatıyla ait olan özellikleri (iyi, şerefli, büyük olmak) adlandırır; failden başkasına hiçbir şey geçmez. Bina onun yalnız lazım olduğunu söyler."
+        },
+        {
+          "prompt": "Hasibe Zeydün Amran fadılen'de faili ve iki mef'ulü söyleyin ve hasibe'nin nahivde hangi gruba ait olduğunu belirtin.",
+          "answer": "Fail: Zeydün. Birinci mef'ul: Amran; ikinci mef'ul: fadılen. Hasibe, iki mef'ul alan kalp fiilleri olan zanentü'nün kardeşlerindendir."
+        },
+        {
+          "prompt": "Altı babı mevzunlarıyla okuyun.",
+          "answer": "Fe'ale yef'ulü (nasara yensuru); fe'ale yef'ilü (darabe yadribu); fe'ale yef'alü (fetaha yeftahu); fe'ile yef'alü (alime ya'lemü); fe'ule yef'ulü (hasüne yahsünü); fe'ile yef'ilü (hasibe yahsibü)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Alime babının alameti nedir?",
+          "options": [
+            "İkisinde de fetha",
+            "İkisinde de kesre",
+            "İkisinde de zamme",
+            "Mazide kesre, muzaride fetha"
+          ],
+          "explanation": "Alime, ya'lemü."
+        },
+        {
+          "prompt": "Hangi bab yalnız lazımdır?",
+          "options": [
+            "Fe'ule yef'ulü (hasüne)",
+            "Fe'ale yef'ulü (nasara)",
+            "Fe'ile yef'alü (alime)",
+            "Fe'ile yef'ilü (hasibe)"
+          ],
+          "explanation": "Fiilleri tabii özellikleri adlandırır."
+        },
+        {
+          "prompt": "Bina'da fe'ile yef'ilü'nün mevzunu nedir?",
+          "options": [
+            "Alime ya'lemü",
+            "Hasibe yahsibü",
+            "Hasüne yahsünü",
+            "Fetaha yeftahu"
+          ],
+          "explanation": "Hem mazide hem muzaride kesre."
+        },
+        {
+          "prompt": "The Nahwi'nin aracı alime babını nasıl adlandırır?",
+          "options": [
+            "Kerume ile",
+            "Hasibe ile",
+            "Semi'a ile",
+            "Fetaha ile"
+          ],
+          "explanation": "Semi'a yesme'u aynı veznindedir."
+        },
+        {
+          "prompt": "Hasibe Zeydün Amran fadılen'de …",
+          "options": [
+            "bir mef'ul vardır",
+            "mef'ul yoktur",
+            "bir hal vardır, mef'ul yoktur",
+            "iki mef'ul vardır"
+          ],
+          "explanation": "Hasibe bir kalp fiilidir, zanentü'nün kardeşidir."
+        },
+        {
+          "prompt": "Kaç babın mazisinde aynda kesre vardır?",
+          "options": [
+            "İki",
+            "Üç",
+            "Bir",
+            "Altı"
+          ],
+          "explanation": "Alime ya'lemü ve hasibe yahsibü."
+        },
+        {
+          "prompt": "Hasüne babından bir fiilin olağan sıfatı nedir?",
+          "options": [
+            "Fail vezninde bir ism-i fail",
+            "Hasen gibi bir sıfat-ı müşebbehe",
+            "Bir ism-i mef'ul",
+            "Yalnız bir ism-i tafdil"
+          ],
+          "explanation": "Hasen, kerim: ism-i faile benzeyen sıfat."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Bāb": "Bab",
+          "Model": "Mevzun",
+          "Past ʿayn": "Mazide ayn",
+          "Present ʿayn": "Muzaride ayn",
+          "Name in the tool": "Araçtaki adı",
+          "a": "a",
+          "u": "u",
+          "nasara": "nasara",
+          "i": "i",
+          "daraba": "darabe",
+          "fataha": "fetaha",
+          "samia": "semi'a",
+          "karuma": "kerume",
+          "hasiba": "hasibe"
+        },
+        "caption": "Sülasi mücerredin altı babı"
+      },
+      "text": [
+        "Dördüncü bab: fe'ile yef'alü; mevzunu 'alime ye'lemü “bilmek”. Alameti, fiilinin ayn'ının mazide meksur, gabirde meftuh olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali 'alime Zeydün el-mes'elete “Zeyd meseleyi bildi”, lazım misali vecile Zeydün “Zeyd korktu”.",
+        "Beşinci bab: fe'ule yef'ulü; mevzunu hasüne yahsünü “güzel olmak”. Alameti, fiilinin ayn'ının mazide ve muzaride mazmum olmasıdır. Binası ancak lazım olur; hasüne Zeydün “Zeyd güzel oldu” gibi.",
+        "Altıncı bab: fe'ile yef'ilü; mevzunu hasibe yahsibü “sanmak”. Alameti, fiilinin ayn'ının mazide ve muzaride meksur olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali hasibe Zeydün 'Amran fadılen “Zeyd Amr'ı fazilet sahibi sandı”, lazım misali verise Zeydün “Zeyd mirasçı oldu”."
+      ]
+    },
+    "4": {
+      "title": "Bir harf eklenen: ef'ale, fe''ale, fa'ale",
+      "body": [
+        "On iki bab, harf eklenmiş sülasi fiil (mezidün fih) içindir ve üç çeşittir: bir harf eklenen (üç bab), iki harf eklenen (beş), üç harf eklenen (dört). Buradan itibaren kitap her babı masdarıyla da verir, çünkü mezid fiillerin masdarları kurallara uyar: ef'ale yuf'ilü if'alen.",
+        "Birinci bab başa bir hemze ekler: ef'ale yuf'ilü if'alen, mevzunu ekreme yukrimü ikramen. Çoğunlukla ta'diye içindir: kerume Zeydün, “Zeyd şerefli oldu”, ekreme Zeydün Amran, “Zeyd Amr'a ikram etti” olur; onu şerefin mef'ulü yaptı. Bazen lazımdır: asbaha'r-racülü, “adam sabaha girdi”.",
+        "İkinci bab aynı şeddeler: fe''ale yufe''ilü tef'ilen, mevzunu “sevindirmek” anlamındaki ferraha yuferrihu tefrihan. Eklenen harf “fa ile aynın arasında, aynın cinsinden”dir; kitap şeddeyi böyle anlatır. Çoğunlukla teksir içindir: işte, tavvefe Zeydün el-Ka'bete, “Zeyd Kabe'yi çok kez tavaf etti”; faillerde, mevvete'l-ibilü, “develer çok sayıda öldü”; mef'ulde, ğallaka Zeydün el-babe, “Zeyd kapıyı tekrar tekrar kilitledi”. Bu babın birçok fiili ta'diye de yapar: “bilmek” anlamındaki alime, “öğretmek” anlamındaki alleme.",
+        "Üçüncü bab fa'dan sonra bir elif ekler: fa'ale yufa'ilü müfa'aleten, mevzunu katele yukatilü mukateleten, iki masdarı daha ile: kıtalen ve kitalen [ye ile]. Çoğunlukla iki kişi arasında müşareket içindir: katele Zeydün Amran, “Zeyd Amr'la savaştı”, her biri ötekine onun kendisine yaptığını yaparak; bazen yalnız bir kişi içindir: katelehümüllah, “Allah onları kahretsin” (Tevbe 9/30).",
+        "Üçünde de muzarinin öneki zammelidir: yukrimü, yuferrihu, yukatilü; dört harfli her mazininki gibi (Emsile'nin muzari dersi). Tasrif aracı bu üç babı 4, 2 ve 3. vezinler olarak eksiksiz verir."
+      ],
+      "terms": [
+        "mezidün fih: köke harf eklenmiş fiil",
+        "ta'diye: müteaddi yapmak",
+        "teksir: işte, faillerde ya da mef'ullerde çokluk",
+        "müşareket: iki kişi arasında ortaklık",
+        "if'al, tef'il, müfa'ale: üç babın adlandırıldığı masdarlar"
+      ],
+      "examples": [
+        "ekreme Zeydün Amran, “Zeyd Amr'a ikram etti”: ef'ale, ta'diye",
+        "tavvefe Zeydün el-Ka'bete, “Zeyd Kabe'yi çok kez tavaf etti”: fe''ale, teksir",
+        "alleme, yu'allimü, ta'lim, “öğretmek”: alime'yi müteaddi yapan fe''ale",
+        "katele Zeydün Amran, “Zeyd Amr'la savaştı”: fa'ale, müşareket"
+      ],
+      "tasks": [
+        {
+          "prompt": "Ahrace (harace'nin ef'ale'si), alleme (alime'nin fe''ale'si) ve katebe (ketebe'nin fa'ale'si) için mazi, muzari, masdar, ism-i fail ve emri verin.",
+          "answer": "Ahrace, yuhricu, ihrac, muhric, ahric. Alleme, yu'allimü, ta'lim, mu'allim, allim. Katebe, yukatibü, mükatebe, mükatib, katib."
+        },
+        {
+          "prompt": "Babı ve ne için kurulduğunu söyleyin: ekreme Zeydün Amran; mevvete'l-ibilü; katele Zeydün Amran.",
+          "answer": "Ekreme: ef'ale, ta'diye. Mevvete: fe''ale, faillerde teksir (çok deve öldü). Katele: fa'ale, iki kişi arasında müşareket."
+        },
+        {
+          "prompt": "Harace Zeydün “Zeyd çıktı” demektir. Ahrace Zeydün Amran ne demektir ve hemze ne yapmıştır?",
+          "answer": "“Zeyd Amr'ı çıkardı.” Ef'ale'nin hemzesi lazım bir fiili müteaddi yapmıştır: çıkan kişi mef'ul olur ve yeni bir fail onu çıkarır."
+        },
+        {
+          "prompt": "Kitap neden fe''ale'nin eklenen harfinin “aynın cinsinden” olduğunu söyler?",
+          "answer": "Çünkü ek ikinci bir ayndır: ferraha'da ra şeddelidir. Kitap şeddeyi, fa ile aynın arasına eklenen ayna benzer bir harf olarak anlatır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ef'ale çoğunlukla ne için kurulur?",
+          "options": [
+            "Ta'diye",
+            "Müşareket",
+            "Teksir",
+            "Mutavaat"
+          ],
+          "explanation": "Ekreme Zeydün Amran."
+        },
+        {
+          "prompt": "Fe''ale ne ekler?",
+          "options": [
+            "Başa bir hemze",
+            "Şeddeli bir ayn",
+            "Fa'dan sonra bir elif",
+            "Başa bir te"
+          ],
+          "explanation": "Ferraha, tavvefe, alleme."
+        },
+        {
+          "prompt": "Tavvefe Zeydün el-Ka'bete … teksiri gösterir.",
+          "options": [
+            "faillerde",
+            "mef'ulde",
+            "işte",
+            "hiçbir şeyde"
+          ],
+          "explanation": "Çok kez tavaf etti."
+        },
+        {
+          "prompt": "Fa'ale çoğunlukla ne için kurulur?",
+          "options": [
+            "Ta'diye",
+            "Mübalağa",
+            "Taleb",
+            "İki kişi arasında müşareket"
+          ],
+          "explanation": "Katele Zeydün Amran."
+        },
+        {
+          "prompt": "Kitabın katele için ilk verdiği masdar hangisidir?",
+          "options": [
+            "Mukatele",
+            "Taktil",
+            "İktal",
+            "Tekatül"
+          ],
+          "explanation": "Yanında kıtal ve kital [ye ile]."
+        },
+        {
+          "prompt": "Katelehümüllah (Tevbe 9/30) fa'ale'yi … gösterir.",
+          "options": [
+            "müşareket için",
+            "müşareketsiz, yalnız bir kişi için",
+            "teksir için",
+            "mutavaat için"
+          ],
+          "explanation": "Kitabın tek kişi için fa'ale örneği."
+        },
+        {
+          "prompt": "Yukrimü, yuferrihu ve yukatilü neyi paylaşır?",
+          "options": [
+            "Önekte fethayı",
+            "Şeddeli bir aynı",
+            "Önekte zammeyi",
+            "Aynı masdarı"
+          ],
+          "explanation": "Dört harfli bir mazinin muzarisinde önek zammelidir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Pattern": "Vezin",
+          "Model": "Mevzun",
+          "Added letter": "Eklenen harf",
+          "Built mostly for": "Çoğunlukla ne için",
+          "hamza at the start": "başta hemze",
+          "making transitive": "ta'diye",
+          "the ʿayn doubled": "aynın şeddelenmesi",
+          "multiplying": "teksir",
+          "alif after the fāʾ": "fa'dan sonra elif",
+          "sharing between two": "iki kişi arasında müşareket"
+        },
+        "caption": "Sülasi fiile bir harf eklenmesi"
+      },
+      "text": [
+        "Bablardan on ikisi sülasiden fazla olanlar içindir ve bu üç nevidir. Birinci nevi, sülasiye bir harf ziyade edilendir; bu üç babdır. Birinci bab: ef'ale yuf'ilü if'alen; mevzunu ekrame yukrimü ikramen “ikram etmek”. Alameti, mazisinin başına hemze ziyadesiyle dört harfli olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali ekrame Zeydün 'Amran “Zeyd Amr'a ikram etti”, lazım misali asbaha'r-raculü “adam sabaha erdi”.",
+        "İkinci bab: fe''ale yufe''ilü tef'ilen; mevzunu ferraha yuferrihu tefrihan “sevindirmek”. Alameti, mazisinin fa ile ayn arasına, fiilinin ayn'ı cinsinden bir harf ziyadesiyle dört harfli olmasıdır. Binası çoğunlukla teksir içindir. Bu bazen fiilde olur, tavvefe Zeydün el-Ke'bete “Zeyd Kabe'yi çokça tavaf etti” gibi; bazen failde olur, mevvete'l-ibilü “develer çokça öldü” gibi; bazen de mef'ulde olur, ğallaka Zeydün el-babe “Zeyd kapıyı defalarca kilitledi” gibi.",
+        "Üçüncü bab: fa'ale yufa'ilü müfa'aleten ve fi'alen ve fi'alen [fadan sonra ye ile]; mevzunu katele yukatilü mukateleten ve kıtalen ve kitalen [ye ile] “savaşmak”. Alameti, mazisinin fa ile ayn arasına elif ziyadesiyle dört harfli olmasıdır. Binası çoğunlukla iki kişi arasında müşareket içindir; bazen de tek kişi için olur. Müşareket misali katele Zeydün 'Amran “Zeyd Amr ile savaştı”, tek kişi misali katelehümüllahü “Allah onları kahretsin”."
+      ]
+    },
+    "5": {
+      "title": "Mutavaat: infe'ale ve ifte'ale",
+      "body": [
+        "İkinci çeşit, beş babda iki harf ekler ve ilk ikisi mutavaat için kurulmuştur. Kitap onu dikkatle tanımlar: “müteaddi fiilin taalluku sebebiyle bir şeyin eserinin hasıl olması”. Bir fiil bir şeye etki eder; ikinci bir fiil o şeyin bu işi kabul ettiğini söyler. Kesertü'z-zücace fe'nkesera zalike'z-zücacü, “camı kırdım, o cam da kırıldı”: kırmak (kesr) müteaddi iştir, camın kırılması (inkisar) ise ondan hasıl olan eserdir.",
+        "Birinci bab infe'ale yenfe'ilü infi'alen'dir, mevzunu inkesera yenkesiru inkisaran: başa bir hemze ve bir nun eklenir. İkincisi ifte'ale yefte'ilü ifti'alen'dir, mevzunu icteme'a yectemi'u ictima'an: başa bir hemze ve fa ile aynın arasına bir te eklenir. Örneği: ceme'tü'l-ibile fe'cteme'a zalike'l-ibilü, “develeri topladım, develer de toplandı”.",
+        "Mutavaat fiili lazımdır: mef'ulü yoktur, çünkü faili, birinci fiilin etki ettiği şeyin ta kendisidir. Cümle çiftlerinin amacı budur. Kesertü'z-zücace'nin mef'ulü vardır; inkesera'nın yoktur ve ez-zücacü artık onun failidir, merfudur.",
+        "Bu vezinlerin başındaki hemze, emrinki gibi bir vasl hemzesidir: yalnız sözün başında duyulur. Fe'nkesera ve fe'cteme'a'da yazılır ama söylenmez. Muzaride ise tamamen kaybolur: yenkesiru, yectemi'u. Tasrif aracı bu iki babı 7. ve 8. vezinler olarak verir."
+      ],
+      "terms": [
+        "mutavaat: şeyin işi kabul etmesi",
+        "infe'ale yenfe'ilü infi'alen: inkesera babı",
+        "ifte'ale yefte'ilü ifti'alen: icteme'a babı",
+        "vasl hemzesi: bu vezinlerin başındaki hemze"
+      ],
+      "examples": [
+        "kesertü'z-zücace fe'nkesera zalike'z-zücacü, “camı kırdım, cam da kırıldı”",
+        "ceme'tü'l-ibile fe'cteme'a zalike'l-ibilü, “develeri topladım, onlar da toplandı”",
+        "inkata'a, yenkatı'u, inkıta', “kesilmek”: kata'a'nın infe'ale'si"
+      ],
+      "tasks": [
+        {
+          "prompt": "İnkesera ve icteme'a'nın mazi, muzari, masdar, ism-i fail ve emrini verin.",
+          "answer": "İnkesera, yenkesiru, inkisar, münkesir, inkesir. İcteme'a, yectemi'u, ictima', müctemi', ictemi'."
+        },
+        {
+          "prompt": "Kesertü'z-zücace fe'nkesera zalike'z-zücacü'de ez-zücac her yarıda nedir ve neden?",
+          "answer": "Kesertü'z-zücace'de mef'uldür, mansubdur: kırma onun üzerine düşer. İnkesera … ez-zücacü'de faildir, merfudur: mutavaat fiilinin mef'ulü yoktur ve faili işi kabul eden şeydir."
+        },
+        {
+          "prompt": "Bina'nın mutavaat tanımını kendi sözlerinizle söyleyin.",
+          "answer": "Bir fiil bir şeye etki eder (müteaddidir); mutavaat, o işin eserinin o şeyde hasıl olmasıdır ve faili o şey olan ikinci bir fiille söylenir."
+        },
+        {
+          "prompt": "İfte'ale'nin eklenen te'si nerededir, infe'ale'nin eklenen harfleri nerededir?",
+          "answer": "İfte'ale: başta bir hemze ve fa ile ayn arasında bir te (ic-t-eme'a). İnfe'ale: başta bir hemze ve bir nun (i-n-kesera)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Mutavaat nedir?",
+          "options": [
+            "İki kişi arasında ortaklık",
+            "Müteaddi bir işin eserinin, işe uğrayan şeyde hasıl olması",
+            "Bir işi talep etmek",
+            "Bir işi çoğaltmak"
+          ],
+          "explanation": "Kesertü'z-zücace fe'nkesera."
+        },
+        {
+          "prompt": "İnfe'ale hangi harfleri ekler?",
+          "options": [
+            "Bir hemze ve bir te",
+            "Şeddeli bir ayn",
+            "Başa bir hemze ve bir nun",
+            "Fa'dan sonra bir elif"
+          ],
+          "explanation": "İnkesera: k-s-r kökünden önce bir hemze ve bir nun."
+        },
+        {
+          "prompt": "İfte'ale'nin te'si nerededir?",
+          "options": [
+            "Başta",
+            "Sonda",
+            "Ayn ile lam arasında",
+            "Fa ile ayn arasında"
+          ],
+          "explanation": "İc-t-eme'a."
+        },
+        {
+          "prompt": "Mutavaat fiili müteaddi midir?",
+          "options": [
+            "Hayır: faili işi kabul eden şeydir",
+            "Evet, her zaman",
+            "Yalnız mazide",
+            "Yalnız bir harfle"
+          ],
+          "explanation": "İnkesera'z-zücacü'nün mef'ulü yoktur."
+        },
+        {
+          "prompt": "Fe'cteme'a'da baştaki hemze …",
+          "options": [
+            "kesreyle söylenir",
+            "yazılır ama söylenmez",
+            "fethayla söylenir",
+            "bir asli harftir"
+          ],
+          "explanation": "Bir vasl hemzesidir."
+        },
+        {
+          "prompt": "İcteme'a'nın muzarisi nedir?",
+          "options": [
+            "Yuctemi'u",
+            "Yecteme'u",
+            "Yectemi'u",
+            "Ectemi'u"
+          ],
+          "explanation": "Vasl hemzesi muzaride kaybolur."
+        },
+        {
+          "prompt": "“Kesmek” anlamındaki kata'a'nın mutavaatı hangisidir?",
+          "options": [
+            "Katta'a",
+            "Akta'a",
+            "Kata'a [elifle]",
+            "İnkata'a"
+          ],
+          "explanation": "Kata'a'nın infe'ale'si: “kesilmek”."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The act": "İş",
+          "Its compliance": "Mutavaatı",
+          "Bāb of the compliance": "Mutavaatın babı"
+        },
+        "caption": "Bina'da iş ve mutavaatı"
+      },
+      "text": [
+        "İkinci nevi, sülasi-i mücerrede iki harf ziyade edilendir; bu beş babdır. Birinci bab: infe'ale yenfe'ilü infi'alen; mevzunu inkesera yenkesiru inkisaran “kırılmak”. Alameti, mazisinin başına hemze ve nun ziyadesiyle beş harfli olmasıdır. Binası mutavaat içindir. Mutavaatın ma'nası, müteaddi fiilin taalluku sebebiyle bir şeyin eserinin meydana gelmesidir; kesertü'z-zücace fe inkesera zalike'z-zücacu “camı kırdım, o cam da kırıldı” gibi; çünkü camın kırılması, müteaddi fiil olan kırmanın taallukundan meydana gelen bir eserdir.",
+        "İkinci bab: ifte'ale yefte'ilü ifti'alen; mevzunu icteme'a yectemi'u ictima'an “toplanmak”. Alameti, mazisinin başına hemze, fa ile ayn arasına ta ziyadesiyle beş harfli olmasıdır. Binası da mutavaat içindir; ceme'tü'l-ibile fe icteme'a zalike'l-ibilü “develeri topladım, o develer de toplandı” gibi."
+      ]
+    },
+    "6": {
+      "title": "Renkler, tekellüf ve müşareket: if'alle, tefe''ale, tefa'ale",
+      "body": [
+        "İki harf eklenen babların üçüncüsü if'alle yef'allü if'ilalen'dir, mevzunu “kızarmak” anlamındaki ihmerra yahmerru ihmiraran: başta bir hemze ve sonda ikinci bir lam, böylece son harf şeddeli olur. Lazımı mübalağa için kurulmuştur: “Zeyd'de biraz kırmızılık olunca hamira Zeydün, kırmızılığı kuvvetli olunca ihmerra Zeydün denir”. Başkaları onun renkler ve kusurlar için olduğunu söyler: ihmerra, “kırmızı olmak”, ve i'verra, “tek gözlü olmak”. Şeddeli sonu onu muzaaf bir fiil yapar; tasrif aracı bunu henüz vermez.",
+        "Dördüncüsü tefe''ale yetefe''alü tefe''ulen'dir, mevzunu tekelleme yetekellemü tekellümen: başta bir te ve şeddeli ayn. Tekellüf için kurulmuştur; kitap bunu “istenen şeyi birbiri ardınca elde etmek” diye tanımlar: te'allemtü'l-ilme mes'eleten ba'de mes'eletin, “ilmi mesele mesele öğrendim”. İlim bir anda alınmaz; azar azar kazanılır ve vezin bunu söyler. Tefe''ale aynı zamanda fe''ale'nin mutavaatıdır: allemtühü fe-te'alleme, “ona öğrettim, o da öğrendi”.",
+        "Beşincisi tefa'ale yetefa'alü tefa'ulen'dir, mevzunu “birbirinden uzaklaşmak” anlamındaki teba'ade yeteba'adü teba'uden: başta bir te ve fa'dan sonra bir elif. İki ve daha çok kişi arasında müşareket için kurulmuştur. 4. dersteki fa'ale ile karşılaştırın: katele Zeydün Amran'da, ikisi de savaşsa da biri fail, öteki mef'uldür; tefa'ale'de ise ikisi genellikle fail olarak adlandırılır: teba'ade Zeydün ve Amrun. Bizim baskımız örnekleri mef'ulle verir: teba'ade Zeydün Amran ve tesalaha'l-kavmü kavmen, “topluluk bir toplulukla barıştı”; nüshaların çoğunda teba'ade Zeydün ve Amrun vardır.",
+        "Tefe''ale ve tefa'ale, vasl hemzesi değil gerçek bir harf olan bir te ile başlar ve muzarileri önekte fethayı korur: yetekellemü, yeteba'adü. Araç onları 5. ve 6. vezinler olarak verir."
+      ],
+      "terms": [
+        "if'alle: renkler ve kusurlar; lazımın mübalağası",
+        "tekellüf: istenen şeyi azar azar elde etmek",
+        "tefe''ale yetefe''alü tefe''ulen: tekelleme babı",
+        "tefa'ale yetefa'alü tefa'ulen: teba'ade babı, müşareket",
+        "elvan ve uyub: renkler ve kusurlar"
+      ],
+      "examples": [
+        "hamira Zeydün, biraz kırmızılık; ihmerra Zeydün, kuvvetli kırmızılık",
+        "te'allemtü'l-ilme mes'eleten ba'de mes'eletin, “ilmi mesele mesele öğrendim”: tekellüf",
+        "te'alleme, yete'allemü, te'allüm, “öğrenmek”: tefe''ale",
+        "tekatebe, yetekatebü, tekatüb, “birbirine yazmak”: tefa'ale"
+      ],
+      "tasks": [
+        {
+          "prompt": "Te'alleme ve tekatebe'nin mazi, muzari, masdar, ism-i fail ve emrini verin.",
+          "answer": "Te'alleme, yete'allemü, te'allüm, müte'allim, te'allem. Tekatebe, yetekatebü, tekatüb, mütekatib, tekateb."
+        },
+        {
+          "prompt": "Hamira Zeydün ile ihmerra Zeydün arasındaki fark nedir?",
+          "answer": "Hamira: Zeyd'de biraz kırmızılık var. İhmerra: kırmızılığı kuvvetli. If'alle lazım fiili mübalağalı yapar."
+        },
+        {
+          "prompt": "Katele Zeydün Amran ve teba'ade Zeydün ve Amrun: her birinde müşareket nasıl ifade edilir?",
+          "answer": "Fa'ale'de, her biri işi ötekine yapsa da biri fail, öteki mef'uldür. Tefa'ale'de ikisi genellikle fail olarak adlandırılır ve birbirine “ve” harfiyle bağlanır."
+        },
+        {
+          "prompt": "Bina neden tekellüfün örneği olarak te'allemtü'l-ilme mes'eleten ba'de mes'eletin'i verir?",
+          "answer": "Çünkü tefe''ale istenen şeyi birbiri ardınca kazanmak demektir; ilim bir anda değil, mesele mesele kazanılır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "If'alle ne için kurulmuştur?",
+          "options": [
+            "Müşareket",
+            "Tekellüf",
+            "Lazımın mübalağası; renkler ve kusurlar",
+            "Taleb"
+          ],
+          "explanation": "İhmerra, i'verra."
+        },
+        {
+          "prompt": "Bina'da tekellüf ne demektir?",
+          "options": [
+            "Bir işi çok kez yapmak",
+            "Bir işi paylaşmak",
+            "Bir işi kabul etmek",
+            "İstenen şeyi azar azar elde etmek"
+          ],
+          "explanation": "Te'allemtü'l-ilme mes'eleten ba'de mes'eletin."
+        },
+        {
+          "prompt": "Tefe''ale hangi harfleri ekler?",
+          "options": [
+            "Başta bir te ve şeddeli bir ayn",
+            "Bir hemze ve bir nun",
+            "Bir hemze ve şeddeli bir lam",
+            "Bir te ve bir elif"
+          ],
+          "explanation": "Tekelleme."
+        },
+        {
+          "prompt": "Tefa'ale ne için kurulmuştur?",
+          "options": [
+            "Tekellüf",
+            "İki ya da daha çok kişi arasında müşareket",
+            "Renkler",
+            "Ta'diye"
+          ],
+          "explanation": "Teba'ade, tesalaha."
+        },
+        {
+          "prompt": "İ'verra … demektir.",
+          "options": [
+            "kızarmak",
+            "öğrenmek",
+            "tek gözlü olmak",
+            "konuşmak"
+          ],
+          "explanation": "If'alle'de bir kusur örneği."
+        },
+        {
+          "prompt": "Tekelleme'nin muzarisi nedir?",
+          "options": [
+            "Yukellimü",
+            "Yetekellimü",
+            "Tekellemü",
+            "Yetekellemü"
+          ],
+          "explanation": "Te gerçek bir harftir ve önek fethalıdır."
+        },
+        {
+          "prompt": "“Öğretmek” anlamındaki alleme'nin mutavaatı hangi fiildir?",
+          "options": [
+            "Te'alleme",
+            "İ'teleme",
+            "İn'aleme",
+            "Te'aleme"
+          ],
+          "explanation": "Allemtühü fe-te'alleme: “ona öğrettim, o da öğrendi”."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Pattern": "Vezin",
+          "Model": "Mevzun",
+          "Added letters": "Eklenen harfler",
+          "Built for": "Ne için",
+          "hamza; a second lām": "hemze; ikinci bir lam",
+          "intensifying; colours, defects": "mübalağa; renkler, kusurlar",
+          "tāʾ; the ʿayn doubled": "te; şeddeli ayn",
+          "effort, bit by bit": "tekellüf, azar azar",
+          "tāʾ; alif after the fāʾ": "te; fa'dan sonra elif",
+          "sharing between two or more": "iki ya da daha çok kişi arasında müşareket"
+        },
+        "caption": "İki harf eklenen beş babdan üçü"
+      },
+      "text": [
+        "Üçüncü bab: if'alle yef'allü if'ilalen; mevzunu ihmerra yahmerru ihmiraran “kızarmak”. Alameti, mazisinin başına hemze, sonuna da fiilinin lam'ı cinsinden başka bir harf ziyadesiyle beş harfli olmasıdır. Binası lazımın mübalağası içindir; çünkü Zeyd'de biraz kırmızılık olduğunda hamira Zeydün “Zeyd kızıl oldu” denir, Zeyd'de mübalağalı bir kırmızılık olduğunda ihmerra Zeydün “Zeyd iyice kızardı” denir. Renkler ve kusurlar içindir de denilmiştir; renkler misali ihmerra Zeydün “Zeyd kızardı”, kusurlar misali i'verra Zeydün “Zeyd tek gözlü oldu”.",
+        "Dördüncü bab: tefe''ale yetefe''alü tefe''ulen; mevzunu tekelleme yetekellemü tekellümen “konuşmak”. Alameti, mazisinin başına ta, fa ile ayn arasına da fiilinin ayn'ı cinsinden başka bir harf ziyadesiyle beş harfli olmasıdır. Binası tekellüf içindir. Tekellüfün ma'nası, istenen şeyi azar azar elde etmektir; te'allemtü'l-'ilme mes'eleten be'de mes'eletin “ilmi mesele mesele öğrendim” gibi.",
+        "Beşinci bab: tefa'ale yetefa'alü tefa'ulen; mevzunu teba'ade yeteba'adü teba'uden “birbirinden uzaklaşmak”. Alameti, mazisinin başına ta, fa ile ayn arasına elif ziyadesiyle beş harfli olmasıdır. Binası iki ve daha fazla kişi arasında müşareket içindir. İki kişi arasında müşareket misali teba'ade Zeydün 'Amran “Zeyd ile Amr birbirinden uzaklaştı”, daha fazla kişi arasında müşareket misali tasalaha'l-kavmü kavmen “kavim bir kavimle barıştı”."
+      ]
+    },
+    "7": {
+      "title": "Üç harf eklenen: istef'ale ve mübalağalar",
+      "body": [
+        "Üçüncü çeşit, dört babda üç harf ekler. İlki ve açık ara en çok kullanılanı istef'ale yestef'ilü istif'alen'dir, mevzunu “çıkarmak” anlamındaki istahrace yestahricu istihracen: başa bir hemze, bir sin ve bir te eklenir. Çoğunlukla müteaddidir: istahrace Zeydün el-male, “Zeyd malı çıkardı”; bazen lazımdır: istahcera't-tinü, “çamur taşlaştı”, kökün adlandırdığı şeye dönüşme. “Ve fiili talep için olduğu da söylenir”: estağfirullahe, “Allah'tan mağfiret dilerim”, gufranı talep etmek.",
+        "Diğer üçü lazım bir fiili mübalağalı yapmak için kurulmuştur ve kitap her birini mücerred fiilinin karşısında gösterir. If'av'ale, mevzunu i'şevşebe: “yeryüzünde biraz bitki bitince aşübe'l-erdu, yerin bitkileri çok olunca i'şevşebe'l-erdu denir”. If'avvele, mevzunu iclevveze: celeze'l-ibilü, “develer hızlı gitti”, ve iclevveze'l-ibilü, “develer hızla ilerledi”.",
+        "Elif ve şeddeli lam ile if'alle [elifle], mevzunu ihmarra [elifle], en kuvvetlisidir: “bu bab if'ilal babından daha mübalağalıdır”. Böylece Arapçada kırmızının üç basamağı vardır: hamira Zeydün, biraz kırmızılık; ihmerra Zeydün, kuvvetli kırmızılık; ihmarra [elifle] Zeydün, daha da kuvvetli kırmızılık. Sarf kitaplarının sevdiği sözdeki gibi: harfler çoğaldıkça ma'na da çoğalır.",
+        "Tasrif aracı için yalnız istef'ale yeterince düzenlidir (10. vezin); üç mübalağa babı nadirdir ve sigaları baskıdan öğrenilir. Talebe onları, özellikle şiirde ve lügatlerde karşılaştığında tanımalıdır."
+      ],
+      "terms": [
+        "istef'ale yestef'ilü istif'alen: istahrace babı",
+        "fiili talep: estağfiru, “mağfiret dilerim”",
+        "lazımın mübalağası",
+        "if'av'ale, if'avvele, if'alle [elifle]: üç mübalağa babı"
+      ],
+      "examples": [
+        "istahrace Zeydün el-male, “Zeyd malı çıkardı”: müteaddi",
+        "estağfirullahe, “Allah'tan mağfiret dilerim”: fiili talep",
+        "yer biraz bitki bitirdi; yer çok bitki bitirdi",
+        "hamira, ihmerra, ihmarra [elifle]: kırmızının üç basamağı"
+      ],
+      "tasks": [
+        {
+          "prompt": "İstağfera ve istahrace'nin mazi, muzari, masdar, ism-i fail ve emrini verin.",
+          "answer": "İstağfera, yestağfiru, istiğfar, müstağfir, istağfir. İstahrace, yestahricu, istihrac, müstahric, istahric."
+        },
+        {
+          "prompt": "İstef'ale her birinde neyi ekler: istahrace Zeydün el-male; istahcera't-tinü; estağfirullahe?",
+          "answer": "İstahrace: müteaddi bir iş, “çıkardı”. İstahcera: kökün adlandırdığı şeye lazım bir dönüşme, “taşlaştı”. Estağfiru: talep, “mağfiret dilerim”."
+        },
+        {
+          "prompt": "Hamira, ihmerra ve ihmarra [elifle]'yı kuvvet sırasına koyun ve her birinin babını söyleyin.",
+          "answer": "Hamira (mücerred fiil, fe'ile): biraz kırmızılık. İhmerra (if'alle): kuvvetli kırmızılık. İhmarra [elifle] (if'alle [elifle]): daha da kuvvetli kırmızılık."
+        },
+        {
+          "prompt": "İ'şevşebe ve iclevveze neyi mübalağalı yapar ve mücerred fiilleri nedir?",
+          "answer": "İ'şevşebe, aşübe'yi (bitkilerin bitmesi) mübalağalı yapar: yer çok bitki bitirdi. İclevveze, celeze'yi (develerin hızlı gitmesi) mübalağalı yapar: develer hızla ilerledi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İstef'ale hangi harfleri ekler?",
+          "options": [
+            "Hemze ve nun",
+            "Te ve şeddeli ayn",
+            "Hemze ve şeddeli lam",
+            "Başta hemze, sin ve te"
+          ],
+          "explanation": "İstahrace."
+        },
+        {
+          "prompt": "Estağfirullahe istef'ale'yi … gösterir.",
+          "options": [
+            "fiili talep için",
+            "müşareket için",
+            "mutavaat için",
+            "teksir için"
+          ],
+          "explanation": "“Allah'tan mağfiret dilerim.”"
+        },
+        {
+          "prompt": "İstahcera't-tinü ne demektir?",
+          "options": [
+            "Çamur çıkarıldı",
+            "Çamur taşlaştı",
+            "Taşı istedi",
+            "Taş kırıldı"
+          ],
+          "explanation": "Kitabın istef'ale için lazım örneği."
+        },
+        {
+          "prompt": "Kırmızının üç basamağından en kuvvetlisi hangisidir?",
+          "options": [
+            "İhmerra",
+            "Hamira",
+            "İhmarra [elifle]",
+            "Ahmara"
+          ],
+          "explanation": "If'alle [elifle], if'alle'den daha mübalağalıdır."
+        },
+        {
+          "prompt": "If'av'ale, if'avvele ve if'alle [elifle] ne için kurulmuştur?",
+          "options": [
+            "Ta'diye",
+            "Müşareket",
+            "Mutavaat",
+            "Lazımın mübalağası"
+          ],
+          "explanation": "Her biri mücerred fiilinin karşısında."
+        },
+        {
+          "prompt": "İ'şevşebe'l-arzu … demektir.",
+          "options": [
+            "Yer çok bitki bitirdi",
+            "Yer kurudu",
+            "Yer kızardı",
+            "Yer sürüldü"
+          ],
+          "explanation": "Aşübe biraz bitme, i'şevşebe çok bitmedir."
+        },
+        {
+          "prompt": "Tasrif aracı dört babdan hangisini verir?",
+          "options": [
+            "If'av'ale",
+            "İstef'ale (10. vezin)",
+            "If'avvele",
+            "If'alle [elifle]"
+          ],
+          "explanation": "Üç mübalağa babı baskıdan öğrenilir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Pattern": "Vezin",
+          "Model": "Mevzun",
+          "Built for": "Ne için",
+          "making transitive; seeking": "ta'diye; taleb",
+          "intensifying": "mübalağa",
+          "the strongest intensifying": "en kuvvetli mübalağa"
+        },
+        "caption": "Sülasi fiile üç harf eklenmesi"
+      },
+      "text": [
+        "Üçüncü nevi, sülasiye üç harf ziyade edilendir; bu dört babdır. Birinci bab: istef'ale yestef'ilü istif'alen; mevzunu istahrace yestahricu istihracen “çıkarmak”. Alameti, mazisinin başına hemze, sin ve ta ziyadesiyle altı harfli olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali istahrace Zeydün el-male “Zeyd malı çıkardı”, lazım misali istahcera't-tinü “çamur taşlaştı”. Fiili talep etmek içindir de denilmiştir; estağfirullahe “Allah'tan mağfiret dilerim” gibi.",
+        "İkinci bab: if'av'ale yef'av'ilü if'i'alen; mevzunu i'şevşebe ye'şevşibü i'şişaben “otu bol olmak”. Alameti, mazisinin başına hemze, ayn ile lam arasına da fiilinin ayn'ı cinsinden başka bir harf ile vav ziyadesiyle altı harfli olmasıdır. Binası lazımın mübalağası içindir; çünkü yeryüzünde biraz bitki bittiğinde 'aşübe'l-erdu “yer otlandı” denir, yeryüzünün bitkisi çoğaldığında i'şevşebe'l-erdu “yer ot ile doldu” denir.",
+        "Üçüncü bab: if'avvele yef'avvilü if'ivvalen; mevzunu iclevveze yeclevvizü iclivvazen “hızla yol almak”. Alameti, mazisinin başına hemze, ayn ile lam arasına iki vav ziyadesiyle altı harfli olmasıdır. Binası da lazımın mübalağası içindir; çünkü deve biraz hızlı yürüdüğünde celeze'l-ibilü “deve hızlı yürüdü” denir, daha fazla hızla yürüdüğünde iclevveze'l-ibilü “deve çok hızlı yürüdü” denir.",
+        "Dördüncü bab: if'alle [elifle] yef'allü if'ilalen [ye ile]; mevzunu ihmarra yahmarru ihmiraran [ye ile] “kıpkırmızı olmak”. Alameti, mazisinin başına hemze, ayn ile lam arasına elif, sonuna da fiilinin lam'ı cinsinden başka bir harf ziyadesiyle altı harfli olmasıdır. Binası da lazımın mübalağası içindir; fakat bu bab if'ilal babından daha mübalağalıdır; çünkü Zeyd'de biraz kırmızılık olduğunda hamira Zeydün “Zeyd kızıl oldu”, mübalağalı bir kırmızılık olduğunda ihmerra Zeydün “Zeyd iyice kızardı”, daha da mübalağalı bir kırmızılık olduğunda ihmarra Zeydün “Zeyd kıpkırmızı oldu” denir."
+      ]
+    },
+    "8": {
+      "title": "Rubai fiil; ilk mülhak babları",
+      "body": [
+        "Rubai mücerredin bir babı vardır: fa'lele yufa'lilü fa'leleten ve fi'lalen, mevzunu “yuvarlamak” anlamındaki dahrace yudahricu dahraceten ve dihracen. Alameti, mazisinin dört harfli olmasıdır, “bütün harflerinin asli olması şartıyla”: hiçbir şey eklenmez. Vezni, dördüncü asli harfe yer açmak için fe'ale'ye ikinci bir lam ekler. Müteaddi: dahrace Zeydün el-hacere, “Zeyd taşı yuvarladı”; lazım: derbaha Zeydün, “Zeyd başını eğdi”.",
+        "Sonra “dahrace'ye mülhak” (el-mülhak bi-dahrace), “rubaiye mülhak” da denen altı bab gelir. Her biri, mazisinde, muzarisinde ve masdarında tam olarak dahrace'nin şeklini alsın diye bir harf eklenmiş sülasi bir köktür. Eklenen harf, farklı yerlerde bir vav ya da bir ya olabilir ya da tekrarlanan bir harf olabilir.",
+        "İlk üçü: fa'dan sonra vav ile fev'ale: havkale yuhavkılü havkaleten, “yaşlanıp zayıflamak”, yalnız lazım. Fa'dan sonra ya ile fey'ale: beytara yubeytıru beytaraten, “yarmak”, yalnız müteaddi: beytara Zeydün el-kaleme, ey şakkahü, “Zeyd kalemi yardı, yani onu ikiye ayırdı”. Ayn'dan sonra vav ile fe'vele: cehvera yucehviru cehveraten, “yüksek sesle söylemek”, yalnız müteaddi: cehvera Zeydün el-Kur'ane, “Zeyd Kur'an'ı yüksek sesle okudu”.",
+        "Mülhak bir fiil gerçek bir rubai fiilden nasıl ayırt edilir? Kökle. Dahrace'de dört harfin dördü de asli harftir (d-h-r-c). Havkale'de kök üçtür (h-k-l) ve vav eklenmiştir; beytara'da ya, cehvera'da vav. Her birini eklenen harfi yerinde olarak fe'ale ile tartın: fev'ale, fey'ale, fe'vele. Tasrif aracı bu vezinleri vermez; sigaları baskıdan gelir."
+      ],
+      "terms": [
+        "rubai mücerred: fa'lele",
+        "fa'lele yufa'lilü fa'leleten: vezni, mevzunu dahrace",
+        "rubaiye mülhak: dahrace şeklindeki sülasi kök",
+        "asli harf: eklenen harfin karşıtı"
+      ],
+      "examples": [
+        "dahrace Zeydün el-hacere, “Zeyd taşı yuvarladı”: rubai mücerred",
+        "havkale Zeydün, “Zeyd yaşlanıp zayıfladı”: fev'ale, dahrace'ye mülhak",
+        "cehvera Zeydün el-Kur'ane, “Zeyd Kur'an'ı yüksek sesle okudu”: fe'vele"
+      ],
+      "tasks": [
+        {
+          "prompt": "Havkale, beytara ve cehvera'nın kökünü ve eklenen harfini verin ve her birini fe'ale ile tartın.",
+          "answer": "Havkale: kök h-k-l, fa'dan sonra vav eklenmiş: fev'ale. Beytara: kök b-t-r, fa'dan sonra ya eklenmiş: fey'ale. Cehvera: kök c-h-r, ayn'dan sonra vav eklenmiş: fe'vele."
+        },
+        {
+          "prompt": "Dahrace dört harfli olmasına rağmen neden mücerred bir fiildir?",
+          "answer": "Dört harfinin dördü de asli harftir; hiçbir şey eklenmemiştir. Bir fiil harf sayısıyla değil, köküyle mücerred ya da mezid olur."
+        },
+        {
+          "prompt": "Dahrace'nin mazisini, muzarisini ve iki masdarını kitabın verdiği gibi verin.",
+          "answer": "Dahrace, yudahricu, dahraceten ve dihracen."
+        },
+        {
+          "prompt": "Kitabın söylediğine göre müteaddi mi, lazım mı: havkale, beytara, cehvera?",
+          "answer": "Havkale: yalnız lazım. Beytara: yalnız müteaddi (beytara Zeydün el-kaleme). Cehvera: yalnız müteaddi (cehvera Zeydün el-Kur'ane)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Rubai mücerredin kaç babı vardır?",
+          "options": [
+            "Bir",
+            "Altı",
+            "Üç",
+            "İki"
+          ],
+          "explanation": "Fa'lele: dahrace."
+        },
+        {
+          "prompt": "Dahrace'yi mücerred yapan nedir?",
+          "options": [
+            "Hemzesi vardır",
+            "Dört harfinin dördü de asli harftir",
+            "Müteaddidir",
+            "Masdarı yoktur"
+          ],
+          "explanation": "Kitabın şartı: bütün harfleri asli."
+        },
+        {
+          "prompt": "“Dahrace'ye mülhak” nedir?",
+          "options": [
+            "Bir harf eklenmiş rubai bir kök",
+            "Herhangi bir müteaddi fiil",
+            "Dahrace şeklini alsın diye bir harf eklenmiş sülasi bir kök",
+            "Dahrace'nin meçhulü"
+          ],
+          "explanation": "Havkale, beytara, cehvera…"
+        },
+        {
+          "prompt": "Havkale'nin eklenen harfi nedir?",
+          "options": [
+            "Ha",
+            "Kaf",
+            "Lam",
+            "Vav"
+          ],
+          "explanation": "Kök h-k-l; fev'ale."
+        },
+        {
+          "prompt": "Beytara Zeydün el-kaleme … demektir.",
+          "options": [
+            "Zeyd kalemi yardı",
+            "Zeyd kalemi yuvarladı",
+            "Zeyd yüksek sesle okudu",
+            "Zeyd yaşlandı"
+          ],
+          "explanation": "Ey şakkahü: onu ikiye ayırdı."
+        },
+        {
+          "prompt": "Cehvera'nın vezni nedir?",
+          "options": [
+            "Fev'ale",
+            "Fe'vele",
+            "Fey'ale",
+            "Fa'lele"
+          ],
+          "explanation": "Vav ayn'dan sonradır."
+        },
+        {
+          "prompt": "Derslerde bu mülhak fiillerin sigaları nereden gelir?",
+          "options": [
+            "Tasrif aracından",
+            "Emsile'den",
+            "Baskıdan",
+            "Sigaları yoktur"
+          ],
+          "explanation": "Araç yalnız düzenli vezinleri verir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Pattern": "Vezin",
+          "Model": "Mevzun",
+          "Root": "Kök",
+          "Added letter": "Eklenen harf",
+          "Use": "Kullanım",
+          "none": "yok",
+          "both": "ikisi de",
+          "wāw after the fāʾ": "fa'dan sonra vav",
+          "intransitive": "lazım",
+          "yāʾ after the fāʾ": "fa'dan sonra ya",
+          "transitive": "müteaddi",
+          "wāw after the ʿayn": "ayn'dan sonra vav"
+        },
+        "caption": "Dahrace ve ona mülhak ilk üç siga"
+      },
+      "text": [
+        "Biri rubai-i mücerred içindir ve bu bir babdır. Vezni fe'lele yufe'lilü fe'leleten ve fi'lalen; mevzunu dahrace yudahricu dahraceten ve dihracen “yuvarlamak”. Alameti, mazisinin, bütün harfleri asli olmak şartıyla, dört harfli olmasıdır. Binası çoğunlukla ta'diye içindir; bazen de lazım olur. Müteaddi misali dahrace Zeydün el-hacera “Zeyd taşı yuvarladı”, lazım misali derbaha Zeydün “Zeyd başını eğdi”.",
+        "Altısı dahrace'ye mülhak olanlar içindir; bu altısına rubaiye mülhak (mülhak bi'r-rubai) denir. Bunların birinci babı: fev'ale yufev'ilü fev'aleten ve fi'alen; mevzunu havkale yuhavkılü havkaleten ve hikalen “yaşlanıp zayıflamak”. Alameti, mazisinin fa ile ayn arasına vav ziyadesiyle dört harfli olmasıdır. Binası yalnız lazım içindir; havkale Zeydün “Zeyd yaşlanıp zayıfladı” gibi.",
+        "İkinci bab: fey'ale yufey'ilü fey'aleten ve fi'alen; mevzunu beytara yubeytıru beytaraten ve bitaran “yarmak”. Alameti, mazisinin fa ile ayn arasına ya ziyadesiyle dört harfli olmasıdır. Binası yalnız ta'diye içindir; beytara Zeydün el-kaleme “Zeyd kalemi yardı”, yani onu çatlattı, gibi.",
+        "Üçüncü bab: fe'vele yufe'vilü fe'veleten ve fi'valen; mevzunu cehvera yucehviru cehveraten ve cihvaran “sesli söylemek”. Alameti, mazisinin ayn ile lam arasına vav ziyadesiyle dört harfli olmasıdır. Binası da yalnız ta'diye içindir; cehvera Zeydün el-kur'ane “Zeyd Kur'an'ı sesli okudu” gibi."
+      ]
+    },
+    "9": {
+      "title": "Diğer mülhak babları; ilhak ne demektir",
+      "body": [
+        "Üç bab daha dahrace'ye mülhaktır. Ayn'dan sonra ya ile fe'yele: asyera yu'asyiru asyeraten, “toz kaldırmak”, yalnız lazım: asyera Zeydün. Lamın tekrarıyla fa'lele: celbebe yucelbibü celbebeten ve cilbaben, “cilbab giydirmek”, müteaddi: celbebe Zeydün el-cilbabe. Sonda ya ile fa'la: selka yuselki selkayeten ve silka'en, “sırtüstü yatmak”, lazım: selka Zeydün, ey name ala kafahü, “Zeyd sırtüstü yattı, yani ensesi üzerine uyudu”.",
+        "Celbebe'ye bakın: vezni tam olarak dahrace'ninkine benzer: fa'lele. Fark köktedir. Dahrace'nin dört asli harfi vardır; celbebe'nin üç asli harfi vardır, c-l-b, ve ikinci be lamın tekrarıdır, eklenmiştir. Bu yüzden kitap onu “sona lamın cinsinden bir harf eklenmiş” diye anlatır. İki fiil bir vezni paylaşıp yine de farklı çeşitlerden olabilir.",
+        "Selka ise elif olarak yazılan bir ya ile biter (selka) ve bu, sigalarının mu'tel bir fiil gibi davranmasına yol açar: muzaride yuselki, masdarda selkayeten. Sigaları yalnız baskıdan gelir.",
+        "Bölüm ilhakın tanımıyla biter: “iki masdarın, yani mülhakın ve kendisine ilhak edilenin masdarlarının birliği”. Eklenmiş bir harfi olan sülasi bir fiil dahrace'ye mülhak sayılır, çünkü masdarı dahrace'ninkiyle aynı vezinde gider: dahrace, dahraceten gibi havkale, havkaleten; celbebe, celbebeten. Ekreme gibi mezid bir fiil mülhak değildir, çünkü masdarı ikram'ın kendine ait bir şekli vardır."
+      ],
+      "terms": [
+        "ilhak: masdarların tek bir vezni paylaşması",
+        "mülhak ve mülhakun bih: mülhak fiil ve kendisine ilhak edilen fiil",
+        "fe'yele, fa'lele, fa'la: dahrace'ye mülhak son üç vezin"
+      ],
+      "examples": [
+        "asyera Zeydün, “Zeyd toz kaldırdı”: fe'yele",
+        "celbebe Zeydün el-cilbabe, “Zeyd birine cilbab giydirdi”: lamın tekrarıyla fa'lele",
+        "selka Zeydün, “Zeyd sırtüstü yattı”: fa'la",
+        "dahrace dahraceten, havkale havkaleten: aynı masdar vezni, ilhakın alameti"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dahrace ve celbebe ikisi de fa'lele'dir. Neden biri mücerred, öteki mülhaktır?",
+          "answer": "Dahrace'nin dört asli harfi vardır (d-h-r-c). Celbebe'nin üç asli harfi vardır (c-l-b); ikinci be lamı tekrarlar ve eklenmiştir; bu onu dahrace'ye mülhak sülasi bir fiil yapar."
+        },
+        {
+          "prompt": "Bina'nın ilhak tanımını söyleyin ve havkale üzerinde gösterin.",
+          "answer": "İlhak, mülhakın ve kendisine ilhak edilenin iki masdarının birliğidir. Havkale'nin masdarı havkaleten, dahraceten vezninde olduğundan havkale dahrace'ye mülhaktır."
+        },
+        {
+          "prompt": "Yine dört harfli olan ekreme neden dahrace'ye mülhak değildir?",
+          "answer": "Masdarı ikram'dır ve dahrace'nin veznini (dahraceten, dihracen) paylaşmaz; muzarisi yukrimü ve vezni ef'ale de kendine aittir."
+        },
+        {
+          "prompt": "Kitaba göre altı mülhak siganın hangileri müteaddidir?",
+          "answer": "Beytara, cehvera ve celbebe. Havkale, asyera ve selka lazımdır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Bina'ya göre ilhak nedir?",
+          "options": [
+            "Bir hemze eklemek",
+            "Mülhakın ve örneğinin masdarlarının birliği",
+            "Bir fiili müteaddi yapmak",
+            "Aynı şeddelemek"
+          ],
+          "explanation": "Dahraceten vezninde havkaleten."
+        },
+        {
+          "prompt": "Celbebe'de ne eklenmiştir?",
+          "options": [
+            "Bir vav",
+            "Bir ya",
+            "Lamı tekrarlayan ikinci bir be",
+            "Hiçbir şey"
+          ],
+          "explanation": "Kök c-l-b."
+        },
+        {
+          "prompt": "Selka Zeydün … demektir.",
+          "options": [
+            "Zeyd toz kaldırdı",
+            "Zeyd cilbab giydi",
+            "Zeyd yaşlandı",
+            "Zeyd sırtüstü yattı"
+          ],
+          "explanation": "Ey name ala kafahü."
+        },
+        {
+          "prompt": "Asyera … veznindedir.",
+          "options": [
+            "Fe'yele",
+            "Fey'ale",
+            "Fe'vele",
+            "Fev'ale"
+          ],
+          "explanation": "Ayn'dan sonra bir ya."
+        },
+        {
+          "prompt": "Dahrace'ye kaç siga mülhaktır?",
+          "options": [
+            "Beş",
+            "Altı",
+            "İki",
+            "Üç"
+          ],
+          "explanation": "Fev'ale, fey'ale, fe'vele, fe'yele, fa'lele, fa'la."
+        },
+        {
+          "prompt": "Aynı fa'lele veznindeki iki fiil … ayrılabilir.",
+          "options": [
+            "hiçbir şeyde",
+            "harekelerinde",
+            "köklerinde: dört asli harf ya da üç",
+            "yalnız ma'nalarında"
+          ],
+          "explanation": "Dahrace mücerred, celbebe mülhaktır."
+        },
+        {
+          "prompt": "Ekreme dahrace'ye mülhak mıdır?",
+          "options": [
+            "Evet: dört harflidir",
+            "Evet: müteaddidir",
+            "Yalnız meçhulde",
+            "Hayır: masdarı ikram'ın kendine ait bir vezni vardır"
+          ],
+          "explanation": "İlhak masdara göre hükmedilir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Pattern": "Vezin",
+          "Model": "Mevzun",
+          "Maṣdar": "Masdar",
+          "Added letter": "Eklenen harf",
+          "Use": "Kullanım",
+          "wāw after the fāʾ": "fa'dan sonra vav",
+          "intransitive": "lazım",
+          "yāʾ after the fāʾ": "fa'dan sonra ya",
+          "transitive": "müteaddi",
+          "wāw after the ʿayn": "ayn'dan sonra vav",
+          "yāʾ after the ʿayn": "ayn'dan sonra ya",
+          "the lām repeated": "lamın tekrarı",
+          "yāʾ at the end": "sonda ya"
+        },
+        "caption": "Dahrace'ye mülhak altı siga"
+      },
+      "text": [
+        "Dördüncü bab: fe'yele yufe'yilü fe'yeleten ve fi'yalen; mevzunu 'asyera yu'asyiru 'asyeraten ve 'isyaran “toz kaldırmak”. Alameti, mazisinin ayn ile lam arasına ya ziyadesiyle dört harfli olmasıdır. Binası yalnız lazım içindir; 'asyera Zeydün “Zeyd toz kaldırdı” gibi.",
+        "Beşinci bab: fe'lele yufe'lilü fe'leleten ve fi'lalen; mevzunu celbebe yucelbibü celbebeten ve cilbaben “cilbab giydirmek”. Alameti, mazisinin sonuna fiilinin lam'ı cinsinden bir harf ziyadesiyle dört harfli olmasıdır. Binası ta'diye içindir; celbebe Zeydün el-cilbabe “Zeyd cilbabı giydirdi” gibi.",
+        "Altıncı bab: fe'la yufe'li fe'leyeten ve fi'la'en; mevzunu selka yuselki selkayeten ve silka'en “sırt üstü yatırmak”. Alameti, mazisinin sonuna ya ziyadesiyle dört harfli olmasıdır. Binası lazım içindir; selka Zeydün “Zeyd sırt üstü yattı”, yani ensesi üzerine uyudu, gibi. Bu altısına rubaiye mülhak denir; ilhakın ma'nası iki masdarın, yani mülhak ile mülhakun bihin masdarlarının bir olmasıdır."
+      ]
+    },
+    "10": {
+      "title": "Rubai mezid",
+      "body": [
+        "Harf eklenmiş rubai fiilin iki çeşitte üç babı vardır. Bir harf eklenen: tefa'lele yetefa'lelü tefa'lülen, mevzunu tedahrace yetedahracu tedahrucen; başa bir te eklenir. İnfe'ale'nin sülasi için olduğu gibi mutavaat için kurulmuştur: dahractü'l-hacere fe-tedahrace zalike'l-hacerü, “taşı yuvarladım, taş da yuvarlandı”.",
+        "İki harf eklenen, iki bab. If'anlele yef'anlilü if'inlalen, mevzunu ihranceme yahrancimü ihrincamen: başta bir hemze ve ayn ile birinci lam arasında bir nun. O da mutavaat içindir: harcemtü'l-ibile fe'hranceme zalike'l-ibilü, “develeri bir araya topladım, develer de birbirine sokuldu”.",
+        "If'alelle yef'alillü if'illalen, mevzunu ikşe'arra yakşe'irru ikşi'raran: başta bir hemze ve sonda ikinci bir lam, şeddeli. Lazımı mübalağa için kurulmuştur ve kitap onu yine mücerred fiilinin karşısına koyar: “adamın derisinin tüyleri biraz kalkınca kaş'ara cildü'r-raculi, kuvvetle kalkınca ikşe'arra cildü'r-raculi denir”: adamın derisi ürperdi ya da diken diken oldu.",
+        "Rubai fiil sülasi fiilin sistemini tekrarlar. Mücerred şeklinin mutavaat için bir mezidi (inkesera'nın yanında tedahrace), nunla mutavaat için başka bir mezidi (inkesera'nın yanında ihranceme) ve şeddeli sonla mübalağa için bir mezidi (ihmerra'nın yanında ikşe'arra) vardır. Benzerlikleri öğrenmek, vezinleri tek tek öğrenmekten kolaydır."
+      ],
+      "terms": [
+        "tefa'lele yetefa'lelü tefa'lülen: tedahrace babı, mutavaat",
+        "if'anlele yef'anlilü if'inlalen: ihranceme babı, mutavaat",
+        "if'alelle yef'alillü if'illalen: ikşe'arra babı, mübalağa",
+        "rubai mezidün fih: harf eklenmiş rubai fiil"
+      ],
+      "examples": [
+        "“Taşı yuvarladım, taş da yuvarlandı”: tedahrace, mutavaat",
+        "“Develeri topladım, onlar da birbirine sokuldu”: ihranceme, mutavaat",
+        "adamın derisi biraz ürperdi; kuvvetle ürperdi: ikşe'arra, mübalağa"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her çiftte mücerred fiili ve mutavaat fiilini ve bablarını verin: dahractü'l-hacere fe-tedahrace; harcemtü'l-ibile fe'hranceme.",
+          "answer": "Dahrace (fa'lele) ve tedahrace (tefa'lele, bir te eklenmiş). Harceme (fa'lele) ve ihranceme (if'anlele, bir hemze ve bir nun eklenmiş)."
+        },
+        {
+          "prompt": "İhranceme'nin eklenen nunu nerededir?",
+          "answer": "Ayn ile birinci lam arasında: h-r-n-c-m; kök h-r-c-m."
+        },
+        {
+          "prompt": "Kaş'ara ile ikşe'arra arasındaki fark nedir?",
+          "answer": "Kaş'ara: deri biraz ürperdi. İkşe'arra: kuvvetle ürperdi. If'alelle lazım fiili mübalağalı yapar."
+        },
+        {
+          "prompt": "Sülasi fiilin hangi babı her birinin benzeridir: tedahrace, ihranceme, ikşe'arra?",
+          "answer": "Tedahrace, mutavaatın te'li bablarına benzer (alleme'den te'alleme); ihranceme infe'ale'ye (inkesera); ikşe'arra if'alle'ye (ihmerra)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Tedahrace ne için kurulmuştur?",
+          "options": [
+            "Müşareket",
+            "Mübalağa",
+            "Mutavaat",
+            "Taleb"
+          ],
+          "explanation": "Dahractü'l-hacere fe-tedahrace."
+        },
+        {
+          "prompt": "If'anlele hangi harfleri ekler?",
+          "options": [
+            "Bir te",
+            "Bir hemze ve şeddeli bir lam",
+            "Bir sin ve bir te",
+            "Bir hemze ve bir nun"
+          ],
+          "explanation": "İhranceme."
+        },
+        {
+          "prompt": "İkşe'arra ne için kurulmuştur?",
+          "options": [
+            "Lazımın mübalağası",
+            "Mutavaat",
+            "Ta'diye",
+            "Müşareket"
+          ],
+          "explanation": "Derinin kuvvetle ürpermesi."
+        },
+        {
+          "prompt": "Rubai mezidin kaç babı vardır?",
+          "options": [
+            "Bir",
+            "Üç",
+            "Beş",
+            "On iki"
+          ],
+          "explanation": "Biri bir harf, ikisi iki harf eklenmiş."
+        },
+        {
+          "prompt": "Fe-tedahrace zalike'l-hacerü'de el-hacerü …",
+          "options": [
+            "mef'uldür",
+            "haldir",
+            "mutavaat fiilinin failidir",
+            "temyizdir"
+          ],
+          "explanation": "Yuvarlanmayı kabul eden taş."
+        },
+        {
+          "prompt": "Sülasinin hangi babı ihranceme'nin benzeridir?",
+          "options": [
+            "İstef'ale",
+            "Ef'ale",
+            "Fa'ale",
+            "İnfe'ale"
+          ],
+          "explanation": "İkisi de eklenmiş bir nunla mutavaattır."
+        },
+        {
+          "prompt": "Kitapta ikşe'arra'nın muzarisi nedir?",
+          "options": [
+            "Yakşe'irru",
+            "Yukaş'iru",
+            "Yakşe'arru",
+            "Tukaş'iru"
+          ],
+          "explanation": "If'alelle yef'alillü."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Use": "Kullanım",
+          "Four-letter bāb": "Rubai bab",
+          "Three-letter parallel": "Sülasideki benzeri",
+          "bare": "mücerred",
+          "compliance with tāʾ": "te ile mutavaat",
+          "compliance with nūn": "nun ile mutavaat",
+          "intensifying, doubled end": "mübalağa, şeddeli son"
+        },
+        "caption": "Rubai fiil sülasi fiilin yanında"
+      },
+      "text": [
+        "Üçü rubai-i mücerredden fazla olanlar içindir ve bu iki nevidir. Birinci nevi, rubaiye bir harf ziyade edilendir; bu bir babdır. Vezni tefe'lele yetefe'lelü tefe'lülen; mevzunu tedahrace yetedahracu tedahrucen “yuvarlanmak”. Alameti, mazisinin başına ta ziyadesiyle beş harfli olmasıdır. Binası mutavaat içindir; dahractü'l-hacera fe tedahrace zalike'l-haceru “taşı yuvarladım, o taş da yuvarlandı” gibi.",
+        "İkinci nevi, rubaiye iki harf ziyade edilendir; bu iki babdır. Birinci bab: if'anlele yef'anlilü if'inlalen; mevzunu ihranceme yahrancimü ihrincamen “toplanıp yığılmak”. Alameti, mazisinin başına hemze, ayn ile birinci lam arasına nun ziyadesiyle altı harfli olmasıdır. Binası da mutavaat içindir; harcemtü'l-ibile fe ihranceme zalike'l-ibilü “develeri bir araya topladım, o develer de toplanıp yığıldı” gibi.",
+        "İkinci bab: if'alelle yef'alillü if'illalen; mevzunu ikşe'arra yakşe'irru ikşi'raran “ürpermek”. Alameti, mazisinin başına hemze, sonuna da fiilinin ikinci lam'ı cinsinden başka bir harf ziyadesiyle altı harfli olmasıdır. Binası lazımın mübalağası içindir; çünkü adamın derisinin tüyleri biraz kalktığında kaş'ara cildü'r-raculi “adamın derisi ürperdi” denir, derisinin tüyleri mübalağalı biçimde kalktığında ikşe'arra cildü'r-raculi “adamın derisi iyice ürperdi” denir."
+      ]
+    },
+    "11": {
+      "title": "Tedahrace'ye mülhak sigalar",
+      "body": [
+        "Beş bab tedahrace'ye mülhaktır: her biri, önüne bir te gelmiş, dahrace'ye mülhak sigalardan biridir. Tefa'lele, mevzunu “cilbab giymek” anlamındaki tecelbebe, mutavaat için kurulmuştur: celbebe Zeydün fe-tecelbebe fi zalike'l-cilbabi, “Zeyd ona cilbab giydirdi, o da o cilbabı giydi”. Tefev'ale, mevzunu “çorap giymek” anlamındaki tecevrabe, o da mutavaattır: cevrabtühü fe-tecevrabe, “ona çorap giydirdim, o da giydi”.",
+        "Üçü yalnız lazımdır: tefey'ale, mevzunu “şeytanca davranmak” anlamındaki teşeytane: teşeytane Zeydün; tefe'vele, mevzunu “salınarak yürümek” anlamındaki terahveke: terahveke Zeydün; ve tefe'la, mevzunu “sırtüstü yatmak” anlamındaki teselka: teselka Zeydün.",
+        "Kitap sonra bir ilke öğreten bir not ekler: “bu mülhaklarda ilhakın hakikati ancak te'den başkasının ziyadesiyledir”. Tecelbebe'de ilhak, celbebe'de olduğu gibi tekrarlanan be iledir; “te ise, tedahrace'de geldiği gibi, yalnız mutavaat ma'nası için gelmiştir”. Çünkü, der kitap, ilhak hiçbir zaman kelimenin başında olmaz, yalnız ortasında ya da sonunda olur, “Mufassal şerhinde belirtildiği gibi”; Mufassal, Zemahşeri'nin büyük nahiv el kitabıdır.",
+        "Yani her siganın iki iş gören iki eki vardır: kökü rubai bir fiilin şekline sokan, ortada ya da sonda bir harf, ve mutavaat ma'nasını veren, başta bir te. Tecevrabe: vav ilhak eder, te mutavaat verir. Bina'nın yetiştirdiği tahlil budur: her eklenen harfin bir yeri ve bir sebebi vardır."
+      ],
+      "terms": [
+        "tedahrace'ye mülhak: beş bab",
+        "ilhakın hakikati: te olmayan bir harfle",
+        "mutavaat te'si: baştaki te",
+        "Şerhu'l-Mufassal: kitabın andığı, Zemahşeri'nin Mufassal'ı üzerine şerh"
+      ],
+      "examples": [
+        "“Zeyd ona cilbab giydirdi, o da giydi”: tecelbebe, mutavaat",
+        "cevrabtühü fe-tecevrabe, “ona çorap giydirdim, o da giydi”",
+        "teşeytane Zeydün, “Zeyd şeytanca davrandı”: yalnız lazım",
+        "teselka Zeydün, “Zeyd sırtüstü yattı”"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tecevrabe'de eklenen hangi harf ilhakı yapar, hangisi mutavaat verir?",
+          "answer": "Fa'dan sonraki vav ilhakı yapar (cevrabe'de olduğu gibi, fev'ale); baştaki te mutavaat ma'nasını verir."
+        },
+        {
+          "prompt": "Kitap neden ilhakın hiçbir zaman te ile olmadığını söyler?",
+          "answer": "Çünkü ilhak hiçbir zaman kelimenin başında olmaz, yalnız ortasında ya da sonunda olur. Bu sigaların başındaki te, tedahrace'de olduğu gibi mutavaat için gelmiştir."
+        },
+        {
+          "prompt": "Her birinin veznini söyleyin: teşeytane, terahveke, teselka.",
+          "answer": "Teşeytane: tefey'ale. Terahveke: tefe'vele. Teselka: tefe'la."
+        },
+        {
+          "prompt": "Cevrabtühü fe-tecevrabe'yi tercüme edin ve iki fiilin neyi gösterdiğini söyleyin.",
+          "answer": "“Ona çorap giydirdim, o da giydi.” Cevrabe müteaddi iştir; tecevrabe onun mutavaatıdır, faili işi kabul edendir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Tedahrace'ye kaç siga mülhaktır?",
+          "options": [
+            "Altı",
+            "İki",
+            "Üç",
+            "Beş"
+          ],
+          "explanation": "Tecelbebe, tecevrabe, teşeytane, terahveke, teselka."
+        },
+        {
+          "prompt": "Tecelbebe'de ilhak … iledir.",
+          "options": [
+            "tekrarlanan be",
+            "te",
+            "cim",
+            "lam"
+          ],
+          "explanation": "Celbebe'de olduğu gibi; te mutavaat içindir."
+        },
+        {
+          "prompt": "Kitaba göre ilhak hiçbir zaman nerede olamaz?",
+          "options": [
+            "Ortada",
+            "Kelimenin başında",
+            "Sonda",
+            "Masdarda"
+          ],
+          "explanation": "Yalnız ortada ya da sonda."
+        },
+        {
+          "prompt": "Teşeytane Zeydün … demektir.",
+          "options": [
+            "Zeyd çorap giydi",
+            "Zeyd sırtüstü yattı",
+            "Zeyd şeytanca davrandı",
+            "Zeyd salınarak yürüdü"
+          ],
+          "explanation": "Yalnız lazım."
+        },
+        {
+          "prompt": "Terahveke … demektir.",
+          "options": [
+            "cilbab giymek",
+            "toz kaldırmak",
+            "yarmak",
+            "salınarak yürümek"
+          ],
+          "explanation": "Tefe'vele."
+        },
+        {
+          "prompt": "Bina ilhak kuralı için hangi kitabı anar?",
+          "options": [
+            "Zemahşeri'nin Mufassal'ı üzerine bir şerhi",
+            "Acurrumiyye'yi",
+            "Elfiyye'yi",
+            "İzzi'yi"
+          ],
+          "explanation": "“Mufassal şerhinde belirtildiği gibi.”"
+        },
+        {
+          "prompt": "Bu sigaların başındaki te ne verir?",
+          "options": [
+            "İlhakı",
+            "Mutavaat ma'nasını",
+            "Müennesliği",
+            "Meçhulü"
+          ],
+          "explanation": "Tedahrace'de verdiği gibi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Pattern": "Vezin",
+          "Model": "Mevzun",
+          "From": "Nereden",
+          "Letter of attachment": "İlhak harfi",
+          "Use": "Kullanım",
+          "the lām repeated": "lamın tekrarı",
+          "compliance": "mutavaat",
+          "wāw after the fāʾ": "fa'dan sonra vav",
+          "—": "—",
+          "yāʾ after the fāʾ": "fa'dan sonra ya",
+          "intransitive": "lazım",
+          "wāw after the ʿayn": "ayn'dan sonra vav",
+          "yāʾ at the end": "sonda ya"
+        },
+        "caption": "Tedahrace'ye mülhak beş siga"
+      },
+      "text": [
+        "Beşi tedahrace'ye mülhak olanlar içindir. Birinci bab: tefe'lele yetefe'lelü tefe'lülen; mevzunu tecelbebe yetecelbebü tecelbüben “cilbab giymek”. Alameti, mazisinin başına ta, sonuna da fiilinin lam'ı cinsinden başka bir harf ziyadesiyle beş harfli olmasıdır. Binası mutavaat içindir; celbebe Zeydün fe tecelbebe fi zalike'l-cilbabi “Zeyd ona cilbab giydirdi, o da o cilbabı giydi” gibi.",
+        "İkinci bab: tefev'ale yetefev'alü tefev'ulen; mevzunu tecevrabe yetecevrabü tecevruben “çorap giymek”. Alameti, mazisinin başına ta, fa ile ayn arasına vav ziyadesiyle beş harfli olmasıdır. Binası da mutavaat içindir; cevrabtühü fe tecevrabe “ona çorap giydirdim, o da giydi” gibi.",
+        "Üçüncü bab: tefey'ale yetefey'alü tefey'ulen; mevzunu teşeytane yeteşeytanü teşeytunen “şeytanlık etmek”. Alameti, mazisinin başına ta, fa ile ayn arasına ya ziyadesiyle beş harfli olmasıdır. Binası yalnız lazım içindir; teşeytane Zeydün “Zeyd şeytanlık etti” gibi.",
+        "Dördüncü bab: tefe'vele yetefe'velü tefe'vulen; mevzunu terahveke yeterahvekü terahvuken “salınarak yürümek”. Alameti, mazisinin başına ta, ayn ile lam arasına vav ziyadesiyle beş harfli olmasıdır. Binası yalnız lazım içindir; terahveke Zeydün “Zeyd salınarak yürüdü” gibi.",
+        "Beşinci bab: tefe'la yetefe'la tefe'liyen; mevzunu teselka yeteselka teselkıyen “sırt üstü yatmak”. Alameti, mazisinin başına ta, sonuna ya ziyadesiyle beş harfli olmasıdır. Binası lazım içindir; teselka Zeydün “Zeyd sırt üstü yattı”, yani ensesi üzerine uyudu, gibi.",
+        "Bil ki bu mülhaklarda ilhakın hakikati ancak ta'dan başkasının ziyadesiyledir. Mesela tecelbebe'deki ilhak ancak ba'nın tekrarıyladır; ta ise ancak mutavaat ma'nası için girmiştir, tedahrace'ye girdiği gibi; çünkü ilhak kelimenin başında olmaz, ortasında veya sonunda olur; Şerhu'l-Mufassal'da açıklandığı üzere."
+      ]
+    },
+    "12": {
+      "title": "İhranceme'ye mülhak sigalar",
+      "body": [
+        "Son iki bab, bir hemze ve bir nun eklenmiş rubai fiil olan ihranceme'ye mülhaktır. Birincisi: if'anlele yef'anlilü if'inlalen, mevzunu ik'ansese yak'ansisü ik'insasen: başta bir hemze, ayn ile lam arasında bir nun ve sonda tekrarlanan lam. Kökü üç harflidir, k-'-s; tekrarlanan sin onu ihranceme'ye mülhak yapar.",
+        "Lazımı mübalağa için kurulmuştur: “adam göğsünü çıkarıp sırtı biraz içeri girince ka'ise'r-raculü, bunu kuvvetle yapınca ik'ansese'r-raculü denir”: adam göğsünü dışarı itti.",
+        "İkincisi: if'anla yef'anli if'inla'en, mevzunu islenka yeslenki islinka'en: başta bir hemze, ayn ile lam arasında bir nun ve sonda bir ya. Mutavaat için kurulmuştur: selkaytühü fe'slenka, ey veka'a ala kafahü, “onu sırtüstü yatırdım, o da sırtüstü yattı”, yani ensesinin üzerine düştü.",
+        "Bunlarla otuz beş bab tamamlanır. Geriye doğru sayın: 6 sülasi mücerred, 12 sülasi mezid, 1 rubai mücerred, 6 dahrace'ye mülhak, 3 rubai mezid, 5 tedahrace'ye mülhak, 2 ihranceme'ye mülhak. Her fiil için otuz beşten hangisine ait olduğunu söyleyebilen talebe, Bina'nın öğrettiğini öğrenmiştir."
+      ],
+      "terms": [
+        "ihranceme'ye mülhak: iki bab",
+        "if'anlele (ik'ansese): lamın tekrarıyla, mübalağa",
+        "if'anla (islenka): sonda ya ile, mutavaat"
+      ],
+      "examples": [
+        "adam göğsünü biraz çıkardı; kuvvetle dışarı itti",
+        "selkaytühü fe'slenka, “onu sırtüstü yatırdım, o da sırtüstü yattı”: mutavaat"
+      ],
+      "tasks": [
+        {
+          "prompt": "İk'ansese'nin kökünü verin ve hangi harflerin neden eklendiğini söyleyin.",
+          "answer": "Kök k-'-s. Eklenenler: baştaki hemze ve ayn'dan sonraki nun (ihranceme'de olduğu gibi) ve sondaki tekrarlanan sin; bu sin üç harfli kökü dört harfli ihranceme'nin şekline sokar."
+        },
+        {
+          "prompt": "İhranceme ve islenka ikisi de mutavaat içindir. Her birinde işi ve mutavaatı kitabın yaptığı gibi verin.",
+          "answer": "Harcemtü'l-ibile fe'hranceme: develeri topladım, onlar da birbirine sokuldu. Selkaytühü fe'slenka: onu sırtüstü yatırdım, o da sırtüstü yattı."
+        },
+        {
+          "prompt": "Otuz beş babı gruplarına göre sayın.",
+          "answer": "6 sülasi mücerred + 12 sülasi mezid + 1 rubai mücerred + 6 dahrace'ye mülhak + 3 rubai mezid + 5 tedahrace'ye mülhak + 2 ihranceme'ye mülhak = 35."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İhranceme'ye kaç bab mülhaktır?",
+          "options": [
+            "İki",
+            "Beş",
+            "Altı",
+            "Üç"
+          ],
+          "explanation": "İk'ansese ve islenka."
+        },
+        {
+          "prompt": "İk'ansese ne için kurulmuştur?",
+          "options": [
+            "Mutavaat",
+            "Lazımın mübalağası",
+            "Ta'diye",
+            "Müşareket"
+          ],
+          "explanation": "Ka'ise biraz; ik'ansese kuvvetle."
+        },
+        {
+          "prompt": "İslenka ne için kurulmuştur?",
+          "options": [
+            "Mübalağa",
+            "Taleb",
+            "Mutavaat",
+            "Tekellüf"
+          ],
+          "explanation": "Selkaytühü fe'slenka."
+        },
+        {
+          "prompt": "İk'ansese'yi ihranceme'ye mülhak yapan nedir?",
+          "options": [
+            "Hemze",
+            "Nun",
+            "Kaf",
+            "Tekrarlanan sin"
+          ],
+          "explanation": "Kök k-'-s; ikinci sin eklenmiştir."
+        },
+        {
+          "prompt": "Babların toplamı nedir?",
+          "options": [
+            "Otuz beş",
+            "Otuz",
+            "On iki",
+            "Altı"
+          ],
+          "explanation": "6 + 12 + 1 + 6 + 3 + 5 + 2."
+        },
+        {
+          "prompt": "Hangi grubun on iki babı vardır?",
+          "options": [
+            "Mülhak sigaların",
+            "Sülasi mezidin",
+            "Sülasi mücerredin",
+            "Rubai fiilin"
+          ],
+          "explanation": "Üçü bir harfli, beşi iki harfli, dördü üç harfli."
+        },
+        {
+          "prompt": "İslenka'nın kökü kaç harflidir?",
+          "options": [
+            "Dört",
+            "Beş",
+            "Üç",
+            "Altı"
+          ],
+          "explanation": "S-l-k; bir hemze, bir nun ve sonda bir ya eklenmiş."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Group": "Grup",
+          "Bābs": "Bablar",
+          "Example": "Örnek",
+          "bare three-letter": "sülasi mücerred",
+          "6": "6",
+          "augmented three-letter": "sülasi mezid",
+          "12": "12",
+          "bare four-letter": "rubai mücerred",
+          "1": "1",
+          "attached to daḥraja": "dahrace'ye mülhak",
+          "augmented four-letter": "rubai mezid",
+          "3": "3",
+          "attached to tadaḥraja": "tedahrace'ye mülhak",
+          "5": "5",
+          "attached to iḥranjama": "ihranceme'ye mülhak",
+          "2": "2"
+        },
+        "caption": "Otuz beş babın sayımı"
+      },
+      "text": [
+        "İkisi ihranceme'ye mülhak olanlar içindir. Birinci bab: if'anlele yef'anlilü if'inlalen; mevzunu ik'ansese yak'ansisü ik'insasen “göğsünü dışarı çıkarmak”. Alameti, mazisinin başına hemze, ayn ile lam arasına nun, sonuna da fiilinin lam'ı cinsinden başka bir harf ziyadesiyle altı harfli olmasıdır. Binası lazımın mübalağası içindir; çünkü adam göğsünü çıkarıp sırtı biraz içeri girdiğinde ka'ise'r-raculü “adamın göğsü çıktı” denir, göğsünü çıkarıp sırtı mübalağalı biçimde içeri girdiğinde ik'ansese'r-raculü “adam göğsünü iyice çıkardı” denir.",
+        "İkinci bab: if'anla yef'anli if'inla'en; mevzunu islenka yeslenki islinka'en “sırt üstü düşmek”. Alameti, mazisinin başına hemze, ayn ile lam arasına nun, sonuna ya ziyadesiyle altı harfli olmasıdır. Binası mutavaat içindir; selkaytühü fe islenka “onu sırt üstü yatırdım, o da sırt üstü düştü”, yani ensesi üzerine düştü, gibi."
+      ]
+    },
+    "13": {
+      "title": "Fiilin sekiz kısmı",
+      "body": [
+        "Bablardan sonra kitap, onların altına giren her fiili başka bir şekilde, üç soruyla sekiz kısma ayırır. Sülasi mi, rubai mi? Mücerred mi, mezid mi? Salim mi, değil mi? Üç sorunun her birine iki cevap sekiz eder.",
+        "Kitabın örnekleriyle sekizi: sülasi, mücerred, salim: “şerefli olmak” anlamındaki kerume; sülasi, mücerred, gayr-i salim: “va'detmek” anlamındaki va'ade; rubai, mücerred, salim: dahrace; rubai, mücerred, gayr-i salim: “vesvese vermek” anlamındaki vesvese; sülasi, mezid, salim: ekreme; sülasi, mezid, gayr-i salim: “tehdit etmek” anlamındaki ev'ade; rubai, mezid, salim: tedahrace; rubai, mezid, gayr-i salim: tevesvese.",
+        "Burada “salim olmayan”, sonraki bölümün açıkladığı gibi, bir asli harfin illetli, hemzeli ya da şeddeli olması demektir: va'ade ve vesvese'nin asli harfleri arasında bir vav vardır. Örneklerin yalnız bu tek noktada ayrılan çiftler olarak geldiğine dikkat edin: kerume ile va'ade, ekreme ile ev'ade, dahrace ile vesvese, tedahrace ile tevesvese. Aynı bab salim ve mu'tel fiilleri birlikte taşıyabilir; bab vezni, kök ise salimliği verir.",
+        "Tasrif aracı yalnız salim kısımlarda ve sülasi fiilin mücerred ve mezidinde çalışır. Mu'tel bir fiil gösteren her ders sigalarını bir baskıdan alır."
+      ],
+      "terms": [
+        "aksam-ı semaniye: fiilin sekiz kısmı",
+        "salim: kökte illet harfi, hemze ya da şedde yok",
+        "gayr-i salim: salim olmayan",
+        "mücerred ve mezidün fih"
+      ],
+      "examples": [
+        "kerume, salim; va'ade, gayr-i salim: iki sülasi mücerred fiil",
+        "ekreme, salim; ev'ade, gayr-i salim: iki sülasi mezid fiil",
+        "dahrace, salim; vesvese, gayr-i salim: iki rubai mücerred fiil"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her fiili sekiz kısımdan birine yerleştirin: nasara; istahrace; vesvese; tedahrace; va'ade.",
+          "answer": "Nasara: sülasi, mücerred, salim. İstahrace: sülasi, mezid, salim. Vesvese: rubai, mücerred, gayr-i salim. Tedahrace: rubai, mezid, salim. Va'ade: sülasi, mücerred, gayr-i salim."
+        },
+        {
+          "prompt": "Hangi üç soru sekiz kısmı verir?",
+          "answer": "Sülasi mi rubai mi? Mücerred mi mezid mi? Salim mi gayr-i salim mi? Üç sorunun her birine iki cevap sekiz eder."
+        },
+        {
+          "prompt": "Va'ade ve vesvese neden “salim değildir”?",
+          "answer": "Bir asli harf illetlidir: va'ade'nin vavı (fa'sı) ve vesvese'nin vavları."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Bina bu bölümde kaç kısım verir?",
+          "options": [
+            "Yedi",
+            "Sekiz",
+            "Altı",
+            "Otuz beş"
+          ],
+          "explanation": "Her birinin iki cevabı olan üç soruyla."
+        },
+        {
+          "prompt": "Va'ade …",
+          "options": [
+            "sülasi, mücerred, salimdir",
+            "rubai, mücerreddir",
+            "sülasi, mücerred, gayr-i salimdir",
+            "mezittir"
+          ],
+          "explanation": "Fa'sı bir vavdır."
+        },
+        {
+          "prompt": "Tevesvese …",
+          "options": [
+            "sülasi, mezid, salimdir",
+            "rubai, mücerred, salimdir",
+            "sülasi, mücerred, gayr-i salimdir",
+            "rubai, mezid, gayr-i salimdir"
+          ],
+          "explanation": "Bir te eklenmiş vesvese."
+        },
+        {
+          "prompt": "Burada “gayr-i salim” ne demektir?",
+          "options": [
+            "Bir asli harf illetli, hemzeli ya da şeddelidir",
+            "Meçhuldür",
+            "Lazımdır",
+            "Zaid harfleri vardır"
+          ],
+          "explanation": "Sonraki bölüm yedi kısmı verir."
+        },
+        {
+          "prompt": "Hangi çift yalnız salimlikte ayrılır?",
+          "options": [
+            "Ekreme ve dahrace",
+            "Ekreme ve ev'ade",
+            "Kerume ve ekreme",
+            "Dahrace ve tedahrace"
+          ],
+          "explanation": "İkisi de sülasi mezid fiil."
+        },
+        {
+          "prompt": "Dahrace … aittir.",
+          "options": [
+            "sülasi, mezid, salime",
+            "rubai, mezide",
+            "rubai, mücerred, salime",
+            "sülasi, mücerrede"
+          ],
+          "explanation": "Dört harfinin dördü de asli, hiçbiri illetli değil."
+        },
+        {
+          "prompt": "Tasrif aracı hangi kısımlarda çalışır?",
+          "options": [
+            "Sekizinde de",
+            "Yalnız rubai fiilde",
+            "Yalnız mu'tel fiilde",
+            "Sülasi fiilin salim mücerred ve mezidinde"
+          ],
+          "explanation": "Mu'tel sigalar bir baskıdan gelir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Division": "Kısım",
+          "Sound": "Salim",
+          "Not sound": "Gayr-i salim",
+          "three-letter, bare": "sülasi, mücerred",
+          "four-letter, bare": "rubai, mücerred",
+          "three-letter, augmented": "sülasi, mezid",
+          "four-letter, augmented": "rubai, mezid"
+        },
+        "caption": "Kitabın örnekleriyle sekiz kısım"
+      },
+      "text": [
+        "Sonra bil ki bu bablarda sınırlı olan fiil ya sülasi-i mücerred salimdir, kerume “şerefli olmak” gibi; ya sülasi-i mücerred gayr-i salimdir, ve'ade “vaat etmek” gibi; ya rubai-i mücerred salimdir, dahrace “yuvarlamak” gibi; ya rubai-i mücerred gayr-i salimdir, vesvese “vesvese vermek” gibi; ya sülasi-i mezidün fih salimdir, ekrame “ikram etmek” gibi; ya sülasi-i mezidün fih gayr-i salimdir, ev'ade “tehdit etmek” gibi; ya rubai-i mezidün fih salimdir, tedahrace “yuvarlanmak” gibi; ya da rubai-i mezidün fih gayr-i salimdir, tevesvese “vesveseye düşmek” gibi. Bu kısımlara aksam-ı semaniye (sekiz kısım) denir."
+      ]
+    },
+    "14": {
+      "title": "Yedi kısım: sahih ve mu'tel",
+      "body": [
+        "Son ayırma kökün harflerine göre, yedi kısımdır ve sonraki her sarf kitabında kullanılan budur. Sahih fiil, “fa'sında, aynında ve lamında illet harfi (vav, ya, elif), hemze ve şedde bulunmayan” fiildir: nasara. Bina'nın sahihinin dar anlamlı olduğuna dikkat edin; başka kitaplar buna salim der; bazı kitaplar hemzeli ya da şeddeli bir fiile de sahih der.",
+        "Mu'tel fiiller, illet harfinin yerine göre. Misal, fa'sı illetli: va'ade, yesera (mazisinde sahih fiile “benzer”, adı buradan gelir). Ecvef, “içi boş”, aynı illetli: kale (k-v-l), kale (k-y-l). Nakıs, “eksik”, lamı illetli: ğaza, rama; baskı ğaza'yı ya ile yazar, oysa kökü vavla biter.",
+        "Lefif, “sarılmış”, iki illet harfi taşır, iki şekilde. Makrun (bitişik): ayn ile lamın ikisi de illetli, yan yana: tava, kaviye. Mefruk (ayrık): fa ile lam illetli, aralarında sahih bir harf: “korumak” anlamındaki veka yeki; muzarisi kökünün vavını çoktan kaybetmiştir.",
+        "Bu neden önemlidir? Çünkü illet harfleri değişir: birbirine döner, düşer ya da hareke almaz. Kale k-v-l'dendir, ama vavı elife dönmüştür; rama r-m-y'dendir, ya'sı elif şeklinde yazılır. Bu değişmelerin kuralları (i'lal) sonraki kitapları, Maksud'u ve İzzi'yi doldurur ve The Nahwi'nin tasrif aracı onları bir yana bırakır: yalnız sahih kökleri verir."
+      ],
+      "terms": [
+        "sahih: illet harfi, hemze ya da şedde yok (burada)",
+        "misal: fa'sı illetli, va'ade",
+        "ecvef: içi boş, aynı illetli, kale",
+        "nakıs: eksik, lamı illetli, rama",
+        "lefif-i makrun ve mefruk: iki illet harfi, bitişik ya da ayrık",
+        "illet harfleri: vav, ya, elif"
+      ],
+      "examples": [
+        "va'ade, yesera: misal, fa'sı illetli",
+        "kale (k-v-l), kale (k-y-l): ecvef, aynı illetli",
+        "ğaza, rama: nakıs, lamı illetli (baskıdaki gibi yazılmış)",
+        "tava, kaviye: lefif-i makrun; veka yeki: lefif-i mefruk"
+      ],
+      "tasks": [
+        {
+          "prompt": "Her fiilin kısmını ve illet harfinin yerini söyleyin: va'ade; kale; rama; tava; veka.",
+          "answer": "Va'ade: misal (fa'da vav). Kale: ecvef (aynı illetli). Rama: nakıs (lamı illetli). Tava: lefif-i makrun (aynı ve lamı illetli). Veka: lefif-i mefruk (fa'sı ve lamı illetli)."
+        },
+        {
+          "prompt": "Lefif-i makrun ile lefif-i mefruk arasındaki fark nedir? Kitabın örneklerini verin.",
+          "answer": "Makrun: iki illet harfi yan yanadır, ayn ve lam (tava, kaviye). Mefruk: fa ve lam illetlidir, aralarında sahih bir ayn vardır (veka yeki)."
+        },
+        {
+          "prompt": "Nasara neden Bina'nın anlamında sahihtir de ahaze değildir?",
+          "answer": "Bina'nın sahihinde illet harfi, hemze ve şedde yoktur. Nasara'da hiçbiri yoktur; ahaze'nin fa'sı ise hemzedir, bu yüzden mehmuzdur."
+        },
+        {
+          "prompt": "Tasrif aracı bunlardan hangilerini eksiksiz verebilir: ketebe, kale, rama, celese?",
+          "answer": "Sahih olan ketebe ve celese'yi. Kale (ecvef) ve rama (nakıs) mu'teldir; sigaları bir baskıdan gelir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Bina'nın sahih fiili nedir?",
+          "options": [
+            "İllet harfi olmayan her fiil",
+            "Her mücerred fiil",
+            "Kökünde illet harfi, hemze ya da şedde olmayan fiil",
+            "Her müteaddi fiil"
+          ],
+          "explanation": "Başka kitapların salim dediği dar anlamı."
+        },
+        {
+          "prompt": "Kale …",
+          "options": [
+            "misaldir",
+            "nakıstır",
+            "lefiftir",
+            "ecveftir, aynı illetlidir"
+          ],
+          "explanation": "Kök k-v-l."
+        },
+        {
+          "prompt": "Va'ade …",
+          "options": [
+            "misaldir, fa'sı illetlidir",
+            "ecveftir",
+            "nakıstır",
+            "mehmuzdur"
+          ],
+          "explanation": "Fa'sı bir vavdır."
+        },
+        {
+          "prompt": "Hangi fiil lefif-i mefruktur?",
+          "options": [
+            "Tava",
+            "Veka",
+            "Kaviye",
+            "Rama"
+          ],
+          "explanation": "Fa'sı ve lamı illetli, araya kaf girer."
+        },
+        {
+          "prompt": "İllet harfleri nelerdir?",
+          "options": [
+            "Hemze ve nun",
+            "Halk harfleri",
+            "Vav, ya ve elif",
+            "Elif, lam, mim"
+          ],
+          "explanation": "Huruf-ı illet."
+        },
+        {
+          "prompt": "Rama …",
+          "options": [
+            "ecveftir",
+            "misaldir",
+            "muzaaftır",
+            "nakıstır, lamı illetlidir"
+          ],
+          "explanation": "Kök r-m-y."
+        },
+        {
+          "prompt": "Tasrif aracı neden yalnız sahih kökleri verir?",
+          "options": [
+            "İllet harfleri, sonraki kitapların öğrettiği kurallarla (i'lal) değişir",
+            "Mu'tel fiiller nadirdir",
+            "Mu'tel fiillerin mazisi yoktur",
+            "Mu'tel fiiller isimdir"
+          ],
+          "explanation": "Maksud ve İzzi onları ele alır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The seven classes": "Yedi kısım",
+          "Sound (ṣaḥīḥ)": "Sahih",
+          "With a weak letter": "İllet harfli",
+          "mithāl: in the fāʾ": "misal: fa'da",
+          "ajwaf: in the ʿayn": "ecvef: aynda",
+          "nāqiṣ: in the lām": "nakıs: lamda",
+          "lafīf joined": "lefif-i makrun",
+          "lafīf separated": "lefif-i mefruk",
+          "Doubled (muḍāʿaf)": "Muzaaf",
+          "With hamza (mahmūz)": "Mehmuz"
+        }
+      },
+      "text": [
+        "Sonra bil ki her fiil ya sahihtir: fa, ayn ve lam mukabilinde illet harflerinden (bunlar vav, ya ve eliftir) bir harf, hemze ve tad'if bulunmayandır; nasara “yardım etmek” gibi. Ya misaldir: fası mukabilinde illet harflerinden bir harf bulunandır; ve'ade “vaat etmek” ve yesera “kolay olmak” gibi. Ya ecveftir: ayn'ı mukabilinde illet harflerinden bir harf bulunandır; kale “demek” ve kale “ölçmek” gibi.",
+        "Ya nakıstır: lam'ı mukabilinde illet harflerinden bir harf bulunandır; ğaza “gaza etmek” ve rama “atmak” gibi. Ya leftir: içinde illet harflerinden iki harf bulunandır ve iki kısımdır: birincisi lefif-i makrundur, ayn'ı ve lam'ı mukabilinde bu harflerden iki harf bulunandır; tava “dürmek” ve kaviye “kuvvetli olmak” gibi; ikincisi lefif-i mefruktur, fası ve lam'ı mukabilinde bu harflerden iki harf bulunandır; vaka yaki “korumak” gibi."
+      ]
+    },
+    "15": {
+      "title": "Muzaaf fiil ve idğam",
+      "body": [
+        "Muzaaf fiil, “aynı ve lamı aynı cinsten olan” fiildir: “uzatmak” anlamındaki medde. Aslı medede'dir; birinci dalın harekesi düşürülmüş, sonra ikinciye idğam edilmiştir. İdğam, “iki mütecanis harften birini ötekine sokmak”tır; böylece tek bir şeddeli harf gibi, şeddeyle söylenirler: medde.",
+        "İdğam üç çeşittir. Vacip: iki mütecanis harf de harekeli olunca ya da birincisi sakin, ikincisi harekeli olunca: medde yemüddü. Burada idğam etmek gerekir; medede ve yemdüdü denmez.",
+        "Caiz: birincisi harekeli, ikincisi cezmdeki gibi yalnız arızi bir sükunla sakin olunca: lem yemdüd'den lem yemüdde. Birinci dalın harekesi mime geçti, iki sükun karşılaştı ve ikinci dala bir hareke verildi, zamme, fetha ya da kesre, “çünkü sükunu arızidir”: lem yemüddü, lem yemüdde, lem yemüddi. Ya da idğamsız bırakılır: lem yemdüd. İkisi de doğru Arapçadır.",
+        "Mümteni': ikincisi, mazinin harekeli zamirlerinden önceki gibi asli bir sükunla sakin olunca: mededtü, “uzattım”, mededne, “onlar (kadınlar) uzattı”. -tü ve -ne'den önceki dal her zaman harekesizdir; bu yüzden iki dal ayrı kalır. Muzaaf fiilin bazı sigalarda şeddeli (medde, yemüddü), bazılarında şeddesiz (mededtü, mededne) görünmesinin sebebi budur.",
+        "Üç çeşit tek bir fikre dayanır: yan yana iki mütecanis harf, hiçbir şey engellemediğinde birleşir, engel geçici olduğunda birleşebilir, kalıcı olduğunda birleşemez."
+      ],
+      "terms": [
+        "muzaaf: aynı ve lamı aynı cinsten fiil",
+        "idğam: bir mütecanis harfi ötekine sokmak",
+        "vacip, caiz, mümteni': gerekli, izin verilen, imkansız",
+        "sükun-ı arızi: cezmdeki gibi geçici sükun",
+        "sükun-ı asli: -tü'den önceki gibi asli sükun"
+      ],
+      "examples": [
+        "medde, yemüddü: idğam vacip",
+        "lem yemüdde ya da lem yemdüd: idğam caiz",
+        "mededtü, mededne: idğam mümteni'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Medde'nin aslı nedir ve onu hangi iki adım medde yapar?",
+          "answer": "Aslı medede'dir. Birinci dalın harekesi düşürülür ve birinci dal ikinciye idğam edilir: şeddeli medde."
+        },
+        {
+          "prompt": "Vacip mi, caiz mi, mümteni' mi? medde; mededtü; lem yemüdde; yemüddü.",
+          "answer": "Medde: vacip. Mededtü: mümteni' (-tü'den önce asli sükun). Lem yemüdde: caiz (cezmin arızi sükunu). Yemüddü: vacip."
+        },
+        {
+          "prompt": "Bina'nın “uzatmadı” için izin verdiği dört şekli verin.",
+          "answer": "Lem yemdüd (idğamsız) ve üç harekeden biriyle idğamlı: lem yemüddü, lem yemüdde, lem yemüddi."
+        },
+        {
+          "prompt": "Mededtü'nün dalları neden hiçbir zaman birleşemez?",
+          "answer": "İkinci dal harekeli -tü zamirinden önce asli bir sükunla sakindir; hiçbir zaman hareke alamaz, bu yüzden idğamın şeddesini taşıyamaz."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Muzaaf fiil nedir?",
+          "options": [
+            "Şeddeli bir ayn eklenmiş fiil",
+            "İki illet harfli fiil",
+            "Hemzeli fiil",
+            "Aynı ve lamı aynı cinsten olan fiil"
+          ],
+          "explanation": "Medede'den medde."
+        },
+        {
+          "prompt": "İdğam nedir?",
+          "options": [
+            "İki mütecanis harften birini ötekine sokmak",
+            "Bir illet harfini düşürmek",
+            "Bir vavı elife çevirmek",
+            "Bir hemze eklemek"
+          ],
+          "explanation": "Tek bir şeddeli harf gibi söylenir."
+        },
+        {
+          "prompt": "Mededtü … idğamı gösterir.",
+          "options": [
+            "vacip",
+            "mümteni'",
+            "caiz",
+            "yalnız şiirde isteğe bağlı"
+          ],
+          "explanation": "İkinci dalın asli bir sükunu vardır."
+        },
+        {
+          "prompt": "Lem yemüdde ve lem yemdüd …",
+          "options": [
+            "ikisi de yanlıştır",
+            "yalnız birincisi doğrudur",
+            "ikisi de doğrudur: idğam caizdir",
+            "yalnız ikincisi doğrudur"
+          ],
+          "explanation": "Cezmin sükunu arızidir."
+        },
+        {
+          "prompt": "Lem yemüdd-'ün son dalı hangi harekeleri alabilir?",
+          "options": [
+            "Yalnız fetha",
+            "Yalnız kesre",
+            "Hiçbirini",
+            "Zamme, fetha ya da kesre"
+          ],
+          "explanation": "Çünkü sükunu arızidir."
+        },
+        {
+          "prompt": "Yemüddü … idğamı gösterir.",
+          "options": [
+            "vacip",
+            "mümteni'",
+            "caiz",
+            "olmayan"
+          ],
+          "explanation": "Birinci dal sakin, ikincisi harekeliydi."
+        },
+        {
+          "prompt": "Asli sükun nedir?",
+          "options": [
+            "Cezmin sükunu",
+            "-tü'den önceki gibi hiç değişmeyen sükun",
+            "Vakfın sükunu",
+            "Herhangi bir sükun"
+          ],
+          "explanation": "İdğamı engeller."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Kind": "Çeşit",
+          "The two like letters": "İki mütecanis harf",
+          "Example": "Örnek",
+          "obligatory": "vacip",
+          "both vowelled, or sukūn then vowel": "ikisi harekeli, ya da sükun sonra hareke",
+          "permitted": "caiz",
+          "vowel, then an accidental sukūn": "hareke, sonra arızi bir sükun",
+          "impossible": "mümteni'",
+          "vowel, then an original sukūn": "hareke, sonra asli bir sükun"
+        },
+        "caption": "İdğamın üç çeşidi"
+      },
+      "text": [
+        "Ya muzaaftır: ayn'ı ve lam'ı bir cinsten olandır; medde “uzatmak” gibi; aslı medede'dir; birinci dalin harekesi hazfedildi, sonra ikinci dale idğam edildi. İdğam, iki mütecanisten birini diğerine sokmaktır ve üç nevidir.",
+        "Birinci nevi vaciptir: iki mütecanis harfin ikisinin de harekeli olması veya birinci harfin sakin, ikincinin harekeli olmasıdır; medde yemüddü gibi. İkinci nevi caizdir: iki mütecanisten birinci harfin harekeli, ikinci harfin arızi bir sükunla sakin olmasıdır; dalin harekeleriyle lem yemüdde gibi; aslı lem yemdüd'dir; birinci dalin harekesi mime nakledildi, iki sakin bir araya geldi, sonra ikinci dal, sükunu arızi olduğu için ya zamme ya fetha ya da kesre ile harekelendi.",
+        "Üçüncü nevi mümteni'dir: iki mütecanisten birinci harfin harekeli, ikinci harfin asli bir sükunla sakin olmasıdır; mededtü “uzattım” ve mededne “(kadınlar) uzattılar” gibi."
+      ]
+    },
+    "16": {
+      "title": "Mehmuz fiil; yedi kısmın beyti",
+      "body": [
+        "Son kısım mehmuz fiildir, “asli harflerinden biri hemze olan”: “almak” anlamındaki ahaze, “sormak” anlamındaki se'ele, “okumak” anlamındaki kara'e. Hemzenin yerine göre adlandırılır: hemze birinci asli harf olunca mehmuzü'l-fa (ahaze), ikinci olunca mehmuzü'l-ayn (se'ele), üçüncü olunca mehmuzü'l-lam (kara'e).",
+        "Hemze bir illet harfi değildir, ama ağırdır ve bazı sigalarda hafifler ya da düşer; Bina'nın onu sahih fiilden ayırmasının sebebi budur. Böyle sigalar sahih fiilin kuralıyla yapılmaz, her kısmı ele alan kitaplardan öğrenilir.",
+        "Kitaba göre yedi kısım tek bir beyitte toplanır ve verdiği beyit Farsçadır: sahih-est, misal-est, muzaaf / lefif, nakıs, mehmuz, ecvef, “sahihtir, misaldir, muzaaf, lefif, nakıs, mehmuz, ecvef”. Osmanlı topraklarında okunan Arapça bir ilk kitap, Farsça bir ezber beytiyle biter: medrese üç dilinin üçüyle de öğrenirdi.",
+        "Bununla Bina biter: otuz beş bab, sekiz kısım, yedi kısım. Osmanlı yolunda sırada Maksud, sonra İzzi vardır; bunlar mu'tel ve muzaaf fiilleri kısım kısım ele alır ve sigalarının nasıl değiştiğini gösterir."
+      ],
+      "terms": [
+        "mehmuz: asli harfleri arasında hemze bulunan fiil",
+        "mehmuzü'l-fa: birinci asli harf hemze, ahaze",
+        "mehmuzü'l-ayn: ikincisi hemze, se'ele",
+        "mehmuzü'l-lam: üçüncüsü hemze, kara'e"
+      ],
+      "examples": [
+        "ahaze, se'ele, kara'e: fa, ayn ve lam olarak hemze",
+        "yedi kısmı toplayan Farsça beyit"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mehmuzun çeşidini söyleyin: ahaze; se'ele; kara'e.",
+          "answer": "Ahaze: mehmuzü'l-fa. Se'ele: mehmuzü'l-ayn. Kara'e: mehmuzü'l-lam."
+        },
+        {
+          "prompt": "Yedi kısmı Farsça beytin sırasıyla okuyun ve her birine Bina'dan bir örnek verin.",
+          "answer": "Sahih (nasara), misal (va'ade), muzaaf (medde), lefif (tava, veka), nakıs (rama), mehmuz (ahaze), ecvef (kale)."
+        },
+        {
+          "prompt": "Her fiili kısmına yerleştirin: medde; yesera; kale (k-y-l); kaviye; se'ele; nasara.",
+          "answer": "Medde: muzaaf. Yesera: misal. Kale: ecvef. Kaviye: lefif-i makrun. Se'ele: mehmuzü'l-ayn. Nasara: sahih."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Mehmuz fiil nedir?",
+          "options": [
+            "Asli harfleri arasında hemze bulunan fiil",
+            "İllet harfli fiil",
+            "Şeddeli fiil",
+            "Hemze eklenmiş fiil"
+          ],
+          "explanation": "Ahaze, se'ele, kara'e."
+        },
+        {
+          "prompt": "Se'ele …",
+          "options": [
+            "mehmuzü'l-fa'dır",
+            "mehmuzü'l-ayn'dır",
+            "mehmuzü'l-lam'dır",
+            "ecveftir"
+          ],
+          "explanation": "Hemze ikinci asli harfidir."
+        },
+        {
+          "prompt": "Kara'e …",
+          "options": [
+            "mehmuzü'l-fa'dır",
+            "nakıstır",
+            "mehmuzü'l-lam'dır",
+            "sahihtir"
+          ],
+          "explanation": "Hemze üçüncü asli harfidir."
+        },
+        {
+          "prompt": "Bina'yı kapatan beyit hangi dildedir?",
+          "options": [
+            "Arapça",
+            "Türkçe",
+            "Urduca",
+            "Farsça"
+          ],
+          "explanation": "Sahih-est, misal-est …"
+        },
+        {
+          "prompt": "Hemze bir illet harfi midir?",
+          "options": [
+            "Hayır, ama ağırdır ve hafifleyebilir ya da düşebilir",
+            "Evet, vav ve ya gibi",
+            "Yalnız sonda",
+            "Yalnız muzaride"
+          ],
+          "explanation": "Bu yüzden Bina ona ayrı bir kısım verir."
+        },
+        {
+          "prompt": "Beyit kaç kısmı toplar?",
+          "options": [
+            "Sekiz",
+            "Yedi",
+            "Altı",
+            "Otuz beş"
+          ],
+          "explanation": "Sahih, misal, muzaaf, lefif, nakıs, mehmuz, ecvef."
+        },
+        {
+          "prompt": "Osmanlı yolunda sırada hangi kitap gelir?",
+          "options": [
+            "Elfiyye",
+            "Acurrumiyye",
+            "Maksud",
+            "Katrü'n-neda"
+          ],
+          "explanation": "Sonra İzzi; ikisi mu'tel fiilleri kısım kısım ele alır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The seven classes": "Yedi kısım",
+          "Sound (ṣaḥīḥ)": "Sahih",
+          "With a weak letter": "İllet harfli",
+          "mithāl": "misal",
+          "ajwaf": "ecvef",
+          "nāqiṣ": "nakıs",
+          "lafīf": "lefif",
+          "Doubled (muḍāʿaf)": "Muzaaf",
+          "With hamza (mahmūz)": "Mehmuz",
+          "in the fāʾ": "fa'da",
+          "in the ʿayn": "aynda",
+          "in the lām": "lamda"
+        }
+      },
+      "text": [
+        "Ya mehmuzdur: asli harflerinden biri hemze olandır; ahaze “almak”, se'ele “sormak” ve kara'e “okumak” gibi. Hemze fası mukabilinde olursa mehmuzü'l-fa, ayn'ı mukabilinde olursa mehmuzü'l-ayn, lam'ı mukabilinde olursa mehmuzü'l-lam denir. Bu kısımlara aksam-ı seb'a (yedi kısım) denir; onları şu beyit toplar:",
+        "[Farsça:] sahih-est, misal-est, muzaaf / lefif, nakıs, mehmuz, ecvef: “sahihtir, misaldir, muzaaf, / lefif, nakıs, mehmuz, ecvef”."
+      ]
+    }
   }
- }
 }

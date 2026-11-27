@@ -1,0 +1,38 @@
+{
+  "slug": "mahmuz",
+  "name": "The hamzated verb (mahmūz)",
+  "arabic": "المَهْمُوزُ",
+  "transliteration": "al-mahmūz",
+  "alsoKnownAs": [
+    "mahmuz",
+    "mahmūz",
+    "hamzated verb"
+  ],
+  "category": "sound-weak",
+  "definition": "A verb with a hamza among its root letters: first (akhadha), middle (saʾala) or last (qaraʾa).",
+  "body": [
+    "The hamza counts as a sound letter but is softened or dropped in some forms. Three verbs with a first hamza lose it in the imperative, by a usage the books take from the Arabs: khudh from akhadha, kul from akala and mur from amara. A middle hamza may drop and give its vowel to the letter before it, as in sal, an imperative of saʾala; a final one makes the verb behave in places like a defective."
+  ],
+  "examples": [
+    {
+      "arabic": "خُذْ – كُلْ – مُرْ",
+      "text": "khudh, kul, mur: the imperatives of akhadha, akala and amara, without their hamza."
+    },
+    {
+      "arabic": "سَأَلَ – يَسْأَلُ",
+      "text": "saʾala, yasʾalu: middle hamza."
+    },
+    {
+      "arabic": "قَرَأَ",
+      "text": "qaraʾa: final hamza."
+    }
+  ],
+  "related": [
+    "mudaaf",
+    "sahih",
+    "ilal"
+  ],
+  "books": [
+    "izzi"
+  ]
+}

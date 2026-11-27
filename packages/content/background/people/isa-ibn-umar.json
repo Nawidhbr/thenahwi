@@ -1,0 +1,54 @@
+{
+  "slug": "isa-ibn-umar",
+  "name": "Abū ʿUmar ʿĪsā ibn ʿUmar al-Thaqafī",
+  "known": "ʿĪsā ibn ʿUmar al-Thaqafī",
+  "arabic": "عِيسَى بْنُ عُمَرَ الثَّقَفِيُّ",
+  "died": "149/766",
+  "places": [
+    "Basra"
+  ],
+  "roles": [
+    "forerunner",
+    "teacher"
+  ],
+  "summary": "Basran grammarian and reader, student of Ibn Abī Isḥāq and teacher of al-Khalīl, said to have written the first two books of grammar, al-Jāmiʿ and al-Ikmāl.",
+  "bio": [
+    "ʿĪsā ibn ʿUmar was a client of Thaqīf in Basra, a reader of the Qurʾān and a student of Ibn Abī Isḥāq, whose taste for analogy he shared: like him he corrected the poets. Al-Zubaydī places him in the fourth Basran generation, with Abū ʿAmr ibn al-ʿAlāʾ and al-Akhfash al-Akbar.",
+    "The sources name him as the author of two books, al-Jāmiʿ and al-Ikmāl (in al-Zubaydī al-Mukammal). In al-Zubaydī's account he was the first to build a book on what most Arabs say and to call the rest 'dialects' (lughāt), and al-Khalīl praised the two books in a couplet: 'All grammar is gone, except what ʿĪsā ibn ʿUmar made: this the Completion and that the Collection, a sun and a moon for the people.' Neither book survives. He died in 149/766."
+  ],
+  "works": [
+    {
+      "title": "al-Jāmiʿ",
+      "arabic": "الجَامِع",
+      "kind": "other",
+      "note": "Lost."
+    },
+    {
+      "title": "al-Ikmāl",
+      "arabic": "الإِكْمَال",
+      "kind": "other",
+      "note": "Lost; al-Zubaydī calls it al-Mukammal."
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "Later authors doubt whether al-Khalīl's couplet on the two books is really his; and some think Sībawayh's al-Kitāb drew on al-Jāmiʿ, which cannot be checked."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 4,
+    "entry": 12
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 12 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Îsâ b. Ömer es-Sekafî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/isa-b-omer-es-sekafi"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "ibn-yaish",
+  "name": "Muwaffaq al-Dīn Abū al-Baqāʾ Yaʿīsh ibn ʿAlī ibn Yaʿīsh al-Ḥalabī",
+  "known": "Ibn Yaʿīsh",
+  "arabic": "ابْنُ يَعِيشَ",
+  "died": "643/1245",
+  "places": [
+    "Aleppo",
+    "Mosul",
+    "Damascus",
+    "Aleppo"
+  ],
+  "roles": [
+    "commentator",
+    "teacher"
+  ],
+  "summary": "The grammarian of Aleppo whose Sharḥ al-Mufaṣṣal, a full commentary on al-Zamakhsharī's grammar, is one of the great reference works of naḥw.",
+  "bio": [
+    "Ibn Yaʿīsh was born in Aleppo in 553/1158, studied there and in Mosul and Damascus, and taught in Aleppo for most of his long life; Ibn Khallikān, who studied with him there, describes his teaching and his gentleness with students. Ibn Mālik is said to have attended his lessons.",
+    "His Sharḥ al-Mufaṣṣal explains al-Zamakhsharī's al-Mufaṣṣal section by section, giving for each rule the reasons, the evidence and the views of the Basrans and the Kufans; printed in ten volumes, it is still the place where students look up a question. He also wrote a commentary on Ibn Jinnī's al-Taṣrīf al-mulūkī. He died in Aleppo in 643/1245."
+  ],
+  "works": [
+    {
+      "title": "Sharḥ al-Mufaṣṣal",
+      "arabic": "شَرْحُ المُفَصَّل",
+      "kind": "sharh",
+      "on": "zamakhshari"
+    },
+    {
+      "title": "Sharḥ al-Mulūkī",
+      "arabic": "شَرْحُ المُلُوكِيّ",
+      "kind": "sharh",
+      "on": "ibn-jinni"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "egypt-sham",
+  "sources": [
+    {
+      "title": "İbn Yaîş, Ebü'l-Bekā, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-yais-ebul-beka"
+    }
+  ]
+}

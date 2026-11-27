@@ -1,0 +1,47 @@
+{
+  "slug": "ibn-al-damamini",
+  "name": "Badr al-Dīn Muḥammad ibn Abī Bakr ibn ʿUmar al-Makhzūmī al-Damāmīnī",
+  "known": "Ibn al-Damāmīnī",
+  "arabic": "ابْنُ الدَّمَامِينِيِّ",
+  "died": "827/1424",
+  "places": [
+    "Alexandria",
+    "Cairo",
+    "Zabīd (Yemen)",
+    "Gujarat",
+    "Gulbarga (Deccan)"
+  ],
+  "roles": [
+    "commentator",
+    "author"
+  ],
+  "summary": "Alexandrian grammarian and judge who ended his life in India; his commentaries on Ibn Mālik's al-Tashīl and Ibn Hishām's Mughnī carried Egyptian grammar to the Deccan.",
+  "bio": [
+    "Ibn al-Damāmīnī was born in Alexandria in 763/1362, taught there and in Cairo, and served as a judge. Debts and misfortune, the sources say, sent him travelling: to Yemen, where he taught in Zabīd, and in 820/1417 to India, first to Gujarat and then to the Bahmanī court of Gulbarga in the Deccan, where he died in 827/1424.",
+    "His Taʿlīq al-farāʾid comments on Ibn Mālik's al-Tashīl; his commentary on Ibn Hishām's Mughnī, finished in India, criticised Ibn Hishām so often that al-Shumunnī wrote al-Munṣif to answer him. He also wrote on prosody (al-ʿUyūn al-ghāmiza) and commented on al-Bukhārī."
+  ],
+  "works": [
+    {
+      "title": "Taʿlīq al-farāʾid ʿalā Tashīl al-fawāʾid",
+      "arabic": "تَعْلِيقُ الفَرَائِد",
+      "kind": "sharh",
+      "on": "ibn-malik"
+    },
+    {
+      "title": "Sharḥ Mughnī al-labīb",
+      "arabic": "شَرْحُ مُغْنِي اللَّبِيب",
+      "kind": "sharh",
+      "on": "ibn-hisham"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "egypt-sham",
+  "sources": [
+    {
+      "title": "İbnü'd-Demâmînî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibnud-demamini"
+    }
+  ]
+}

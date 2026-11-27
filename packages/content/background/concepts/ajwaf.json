@@ -1,0 +1,40 @@
+{
+  "slug": "ajwaf",
+  "name": "The hollow verb (ajwaf)",
+  "arabic": "الأَجْوَفُ",
+  "transliteration": "al-ajwaf",
+  "alsoKnownAs": [
+    "ajwaf",
+    "hollow verb",
+    "middle-weak verb"
+  ],
+  "category": "sound-weak",
+  "definition": "A verb whose middle root letter is wāw or yāʾ, such as qāla (q-w-l) and bāʿa (b-y-ʿ); called 'hollow' because its middle is empty of a sound letter.",
+  "body": [
+    "In the past the weak middle letter becomes alif (qāla, bāʿa); in the present it shows as a long vowel (yaqūlu, yabīʿu); in the imperative and the jussive, when the last letter is silent, it drops (qul). The active participle puts a hamza in its place (qāʾil). The books also call it dhū al-thalātha, 'the one of three', since its first-person past has three letters (qultu)."
+  ],
+  "examples": [
+    {
+      "arabic": "قَالَ – يَقُولُ – قُلْ",
+      "text": "qāla, yaqūlu, qul: from q-w-l."
+    },
+    {
+      "arabic": "بَاعَ – يَبِيعُ",
+      "text": "bāʿa, yabīʿu: from b-y-ʿ."
+    },
+    {
+      "arabic": "قَائِلٌ",
+      "text": "qāʾil, the active participle: hamza in place of the wāw."
+    }
+  ],
+  "related": [
+    "mutall",
+    "ilal",
+    "mithal",
+    "naqis"
+  ],
+  "books": [
+    "izzi",
+    "shafiya"
+  ]
+}

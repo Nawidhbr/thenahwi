@@ -268,3 +268,18 @@ with this list. The concepts and their order follow the English source list, `pa
   everyday Urdu نعت is a poem in praise of the Prophet ﷺ; the term page and running prose say صفت.
 - Arabic examples in a translation keep their vowels; the names of particles and terms written in Urdu (اِنّ، ثُمّ، اِلّا)
   carry only the marks a reader needs.
+- Site and course names (27 November 2026): The Nahwi and The Mantiqi stay in Latin letters, as in The Mantiqi's Urdu
+  interface; al-Mabādiʾ is المبادی. The other titles: میزان الصرف، نحوِ میر، مأۃ عامل، ہدایۃ النحو، کافیہ، شرحِ جامی،
+  شافیہ، الامثلہ، بناء الافعال، المقصود، العزی، مراح الارواح، العوامل (of Birgivī)، اظہار الاسرار، آجرومیہ، لامیۃ
+  الافعال، قطر الندیٰ، الفیہ. The article stays where the bare word is an everyday word (المبادی، الامثلہ، المقصود،
+  العزی، العوامل).
+- The madrasa paths: ہندوستانی، عثمانی، مغاربی (مدرسہ، راستہ); the stages ابتدائی، متوسط، اعلیٰ.
+- Vowel marks (tashkīl) are حرکات, never اعراب, which is only the term iʿrāb.
+- In tables the column of persons is صیغہ; the persons are named واحد مذکر غائب، تثنیہ مذکر غائب، جمع مذکر غائب،
+  واحد مؤنث غائبہ، تثنیہ مؤنث غائبہ، جمع مؤنث غائبہ، واحد مذکر حاضر … واحد مؤنث حاضرہ، تثنیہ مؤنث حاضرہ، جمع مؤنث
+  حاضرہ، واحد متکلم، جمع متکلم; in running text "the speaker with others" is متکلم مع الغیر.
+- A form that the English gives only in transliteration (faʿalū, fī l-bayti) is written in Arabic script, vocalised;
+  a root is written with spaced letters (ن ص ر); a pattern as an Arabic word (فَعَلَ، اِسْتَفْعَلَ).
+- Mīzān al-ṣarf: its tense names as in the book (مستقبل، حال، ماضی مطلق / قریب / بعید / استمراری / احتمالی /
+  تمنائی); نفیِ تاکید بلن، نفیِ جحد بلم؛ نونِ ثقیلہ / خفیفہ؛ الفِ فاصلہ؛ ہمزۂ وصل؛ لامِ امر؛ لائے نہی، لائے نافیہ؛
+  the mnemonic of the weak letters «آی» (as the print), the signs of the muḍāriʿ أَتَيْنَ.

@@ -1,0 +1,37 @@
+{
+  "slug": "naqis",
+  "name": "The defective verb (nāqiṣ)",
+  "arabic": "النَّاقِصُ",
+  "transliteration": "al-nāqiṣ",
+  "alsoKnownAs": [
+    "naqis",
+    "nāqiṣ",
+    "defective verb",
+    "last-weak verb"
+  ],
+  "category": "sound-weak",
+  "definition": "A verb whose last root letter is wāw or yāʾ, such as ghazā (gh-z-w) and ramā (r-m-y); 'defective' because it lacks the last vowel or letter in some forms.",
+  "body": [
+    "The final weak letter becomes alif in the past (ghazā, ramā), stays as a long vowel in the present (yaghzū, yarmī), and drops in the jussive and the imperative (lam yarmi, irmi). The present in rafʿ has its ḍamma assumed, not pronounced, so the books speak of taqdīr here too. In naḥw the same word nāqiṣ names a different thing: kāna and its sisters, the 'incomplete' verbs that need a predicate."
+  ],
+  "examples": [
+    {
+      "arabic": "رَمَى – يَرْمِي",
+      "text": "ramā, yarmī: from r-m-y."
+    },
+    {
+      "arabic": "غَزَا – يَغْزُو",
+      "text": "ghazā, yaghzū: from gh-z-w."
+    }
+  ],
+  "related": [
+    "mutall",
+    "ilal",
+    "lafif",
+    "kana-wa-akhawatuha"
+  ],
+  "books": [
+    "izzi",
+    "shafiya"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "zajjaji",
+  "name": "Abū al-Qāsim ʿAbd al-Raḥmān ibn Isḥāq al-Zajjājī",
+  "known": "al-Zajjājī",
+  "arabic": "أَبُو القَاسِمِ الزَّجَّاجِيُّ",
+  "died": "337/949",
+  "places": [
+    "Nihāwand",
+    "Baghdad",
+    "Damascus",
+    "Tiberias"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Al-Zajjāj's student, whose al-Jumal became the first book of grammar of al-Andalus and the Maghrib, and whose al-Īḍāḥ fī ʿilal al-naḥw is the first book on the causes of grammar.",
+  "bio": [
+    "Al-Zajjājī was born in Nihāwand and took his name from his teacher al-Zajjāj, with whom he studied in Baghdad; he also heard Ibn al-Sarrāj, al-Akhfash al-Aṣghar, Ibn Kaysān and Nifṭawayh, Kufans as well as Basrans. Al-Zubaydī places him in the tenth Basran generation, 'the companions of al-Zajjāj'. He settled in Syria, taught in Damascus, and died in Tiberias.",
+    "His al-Jumal fī al-naḥw, a plain handbook, had a fortune few grammars have had: in al-Andalus and the Maghrib it was the book every student read, and more than a hundred commentaries are counted on it, Ibn ʿUṣfūr's among them. The biographers tell that he wrote it in Mecca and walked round the Kaʿba after each chapter, praying that it would be of use. His al-Īḍāḥ fī ʿilal al-naḥw sorts the reasons grammarians give into three kinds, the teaching cause, the analogical and the speculative, and his Majālis al-ʿulamāʾ gathers debates between grammarians, the masʾala zunbūriyya among them."
+  ],
+  "works": [
+    {
+      "title": "al-Jumal fī al-naḥw",
+      "arabic": "الجُمَلُ فِي النَّحْوِ",
+      "kind": "matn"
+    },
+    {
+      "title": "al-Īḍāḥ fī ʿilal al-naḥw",
+      "arabic": "الإِيضَاحُ فِي عِلَلِ النَّحْوِ",
+      "kind": "other"
+    },
+    {
+      "title": "Majālis al-ʿulamāʾ",
+      "arabic": "مَجَالِسُ العُلَمَاء",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "He died in 337/949 by most accounts; 339 and 340 are also given, and Damascus as well as Tiberias."
+  ],
+  "books": [],
+  "school": "baghdad",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 10,
+    "entry": 48
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 48 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Zeccâcî, Ebü'l-Kāsım, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/zeccaci-ebul-kasim"
+    }
+  ]
+}

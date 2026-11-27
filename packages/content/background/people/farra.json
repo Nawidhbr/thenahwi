@@ -1,0 +1,52 @@
+{
+  "slug": "farra",
+  "name": "Abū Zakariyyā Yaḥyā ibn Ziyād al-Farrāʾ",
+  "known": "al-Farrāʾ",
+  "arabic": "الفَرَّاءُ",
+  "died": "207/822",
+  "places": [
+    "Kufa",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Al-Kisāʾī's student and the great systematiser of Kufan grammar, whose Maʿānī al-Qurʾān is the main book of the school that survives; tutor of al-Maʾmūn's sons.",
+  "bio": [
+    "Al-Farrāʾ was a client from Kufa who learnt from al-Kisāʾī and heard Yūnus ibn Ḥabīb in Basra; al-Zubaydī puts him first in the third Kufan generation. The sources say his name means 'the one who shapes speech' (from farā, to cut out leather), not a seller of furs. The caliph al-Maʾmūn gave him his sons to teach and a room in the palace to write in, and the reports tell that the princes vied to bring him his sandals.",
+    "His Maʿānī al-Qurʾān, dictated in the mosque, goes through the Qurʾān by its grammar and is the fullest witness of Kufan method: much hearing, analogy within it, and the Kufan terms that later books set beside the Basran ones (khafḍ for jarr, ʿimād for the pronoun of separation, the 'naming' of the verb). Thaʿlab is quoted as saying that without al-Farrāʾ there would be no Arabic, since he fixed and kept it. Al-Zubaydī reports that a part of Sībawayh's book was found under the cushion he sat on. He died in 207/822 on the way to Mecca."
+  ],
+  "works": [
+    {
+      "title": "Maʿānī al-Qurʾān",
+      "arabic": "مَعَانِي القُرْآن",
+      "kind": "other"
+    },
+    {
+      "title": "al-Ḥudūd",
+      "arabic": "الحُدُود",
+      "kind": "other",
+      "note": "Definitions of grammar; lost."
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "kufa",
+  "tabaqa": {
+    "list": "kufa-nahw",
+    "n": 3,
+    "entry": 60
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 60 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ferrâ, Yahyâ b. Ziyâd, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ferra-yahya-b-ziyad"
+    }
+  ]
+}

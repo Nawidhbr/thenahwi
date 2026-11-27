@@ -1,0 +1,58 @@
+{
+  "slug": "ibn-durayd",
+  "name": "Abū Bakr Muḥammad ibn al-Ḥasan ibn Durayd al-Azdī",
+  "known": "Ibn Durayd",
+  "arabic": "ابْنُ دُرَيْدٍ",
+  "died": "321/933",
+  "places": [
+    "Basra",
+    "Oman",
+    "Fārs",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Basran lexicographer and poet, author of the dictionary Jamharat al-lugha and of the poem al-Maqṣūra; the last master of the Basran lexicographers and teacher of al-Sīrāfī and al-Qālī.",
+  "bio": [
+    "Ibn Durayd was born in Basra in 223/838 and learnt from Abū Ḥātim al-Sijistānī, al-Riyāshī and al-Aṣmaʿī's nephew. When the Zanj took Basra he went to Oman, then to Fārs, where he served the governors of the Mīkālī family, and at last to Baghdad, where he taught until his death. Al-Zubaydī places him in the sixth generation of the Basran lexicographers, and gives the seventh to his companions.",
+    "His Jamharat al-lugha arranges the roots by the order of their letters, more simply than Kitāb al-ʿAyn; his al-Ishtiqāq explains the names of the tribes; his al-Maqṣūra, a long poem in which every verse ends in a short alif, was much commented on. The biographers tell that he died in 321/933 on the same day as the theologian Abū Hāshim al-Jubbāʾī, so that people said language and theology had died together."
+  ],
+  "works": [
+    {
+      "title": "Jamharat al-lugha",
+      "arabic": "جَمْهَرَةُ اللُّغَة",
+      "kind": "other"
+    },
+    {
+      "title": "al-Maqṣūra",
+      "arabic": "المَقْصُورَة",
+      "kind": "nazm"
+    },
+    {
+      "title": "al-Ishtiqāq",
+      "arabic": "الِاشْتِقَاق",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-lugha",
+    "n": 6,
+    "entry": 106
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 106 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "İbn Düreyd, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-dureyd"
+    }
+  ]
+}

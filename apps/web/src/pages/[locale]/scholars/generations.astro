@@ -1,0 +1,153 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KbHero from "../../../components/KbHero.astro";
+import { getBackground, getLibrary, SCHOOLS, TABAQA_LISTS, TABAQA_GENERATIONS, type BackgroundPerson } from "@nahwi/content";
+import { fmt, localePaths, t } from "../../../i18n";
+import { diedHijri, diedYear, hijriCentury, KB_BOOKS, KB_SECTIONS, kbPath, lastPlace, shortName, TABAQA_ARABIC } from "../../../lib/kb";
+import { ord } from "../../../lib/ord";
+import { breadcrumbs } from "../../../lib/structured-data";
+
+/**
+ * The generations of the grammarians (/<locale>/scholars/generations/): the backbone of the scholars made visible, in
+ * the manner of the ṭabaqāt books. First al-Zubaydī's lists, generation by generation (`tabaqa` of each person), then
+ * the later grammarians by school or land (`school`), then everyone by the hijri century of his death; beside each name
+ * the hijri year of death, the city and the books he wrote that have a page here. No script: the two views are anchors.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const G = ui.kb.generations;
+const listName = G.lists as Record<string, string>;
+const schoolName = G.schools as Record<string, string>;
+const people = [...getBackground(locale).people].sort((a, b) => diedYear(a) - diedYear(b));
+const library = getLibrary(locale);
+// The books beside a name: his handbooks and his works in the library, each with its page.
+const booksOf = (p: BackgroundPerson) => [
+  ...KB_BOOKS.filter((b) => b.authorSlug === p.slug).map((b) => ({ id: b.id, title: b.title })),
+  ...library.filter((b) => b.authorSlug === p.slug).map((b) => ({ id: b.id, title: b.title })),
+];
+// The hijri year as written, with its "ca." or "before" ("before 90/708, or 129/746" gives "before 90").
+const yearOf = (p: BackgroundPerson) => {
+  if (diedHijri(p) === null) return "";
+  const m = (p.died ?? "").split(/[,;(]/)[0].match(/^(.*?\d{1,4})\s*\//);
+  return m ? m[1].replace(/^ca\. /, `${ui.book.circa} `) : String(diedHijri(p));
+};
+// al-Zubaydī's lists in his order, each with the generations that have someone here.
+const lists = TABAQA_LISTS.map((list) => {
+  const inList = people.filter((p) => p.tabaqa?.list === list);
+  const generations = Array.from({ length: TABAQA_GENERATIONS[list].generations }, (_, i) => i + 1)
+    .map((n) => ({ n, people: inList.filter((p) => p.tabaqa!.n === n).sort((a, b) => (a.tabaqa!.entry ?? 0) - (b.tabaqa!.entry ?? 0)) }))
+    .filter((g) => g.people.length > 0);
+  return { list, generations };
+}).filter((l) => l.generations.length > 0);
+// After al-Zubaydī: everyone without a place in his book, by school (in the order of SCHOOLS), then those whose land is not known.
+const later = [...SCHOOLS, "none" as const]
+  .map((school) => ({ school, people: people.filter((p) => !p.tabaqa && (p.school ?? "none") === school) }))
+  .filter((s) => s.people.length > 0);
+// By the hijri century of death.
+const centuries = [...new Set(people.map(hijriCentury))].filter((c): c is number => c !== null).sort((a, b) => a - b).map((c) => ({ c, people: people.filter((p) => hijriCentury(p) === c) }));
+const undated = people.filter((p) => hijriCentury(p) === null);
+const workPages = ["akhbar-al-nahwiyyin", "maratib-al-nahwiyyin", "tabaqat-al-zubaydi", "nuzhat-al-alibba", "inbah-al-ruwat", "bughyat-al-wuat"].map((id) => library.find((b) => b.id === id)).filter((b) => b !== undefined);
+const path = kbPath.generations(locale);
+---
+
+<BaseLayout image={KB_SECTIONS.generations.photo} title={G.title} description={G.description} path="/scholars/generations/" locale={locale} bleed jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.kb.scholars.title, path: kbPath.scholars(locale) }, { name: G.title, path }])]}>
+  <KbHero locale={locale} photo={KB_SECTIONS.generations.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: ui.kb.scholars.title, href: kbPath.scholars(locale) }]} kicker={fmt(G.count, { n: people.length })} arabic={KB_SECTIONS.generations.arabic} title={G.title} sub={G.lead} />
+  <div class="kb-wrap">
+    <section class="kb-section gen-intro" aria-labelledby="gen-intro-h">
+      <div>
+        <p class="kb-kicker">{G.introKicker}</p>
+        <h2 id="gen-intro-h">{G.introTitle}</h2>
+        {(G.intro as string[]).map((x) => <p>{x}</p>)}
+      </div>
+      <aside>
+        {workPages.length > 0 && (
+          <>
+            <p class="kb-kicker u-c7486a">{G.worksTitle}</p>
+            <ul class="gen-works">{workPages.map((b) => <li><a href={kbPath.book(locale, b.id)}>{b.title}</a> <span class="muted">· {b.author}</span></li>)}</ul>
+          </>
+        )}
+        <nav class="kb-chips gen-jump" aria-label={G.title}>
+          <a class="kb-chip" href="#by-school">{G.bySchool}</a>
+          <a class="kb-chip" href="#by-century">{G.byCentury}</a>
+        </nav>
+      </aside>
+    </section>
+
+    <section class="kb-section" id="by-school" aria-labelledby="gen-zub-h">
+      <div class="kb-head"><div><p class="kb-kicker">{G.bySchool}</p><h2 id="gen-zub-h">{G.zubaydiTitle}</h2></div><p class="kufi" lang="ar">طَبَقَاتُ الزُّبَيْدِيّ</p></div>
+      <p class="muted gen-lead">{G.zubaydiLead}</p>
+      {lists.map((l) => (
+        <section class="gen-list" id={l.list} aria-labelledby={`gen-${l.list}`}>
+          <h3 class="gen-list-h" id={`gen-${l.list}`}><span>{listName[l.list]}</span> <span class="kufi" lang="ar">{TABAQA_ARABIC[l.list]}</span></h3>
+          <ol class="gen-steps">
+            {l.generations.map((g) => (
+              <li class="gen-step">
+                <span class="gen-tile" aria-hidden="true"><span>{g.n}</span></span>
+                <div>
+                  <p class="gen-step-h">{fmt(G.generation, { n: ord(g.n, locale) })}</p>
+                  <ul class="gen-names">
+                    {g.people.map((p) => (
+                      <li>
+                        <a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>
+                        {p.arabic && <span class="kufi" lang="ar"> {p.arabic}</span>}
+                        <span class="muted"> · {[yearOf(p) && `${G.died} ${yearOf(p)}`, lastPlace(p), p.tabaqa?.entry && fmt(G.entry, { n: p.tabaqa.entry })].filter(Boolean).join(" · ")}</span>
+                        {booksOf(p).length > 0 && <span class="gen-books">{booksOf(p).map((b) => <a href={kbPath.book(locale, b.id)}>{b.title}</a>)}</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+
+      <div class="kb-head gen-later-head"><div><p class="kb-kicker">{G.bySchool}</p><h2>{G.laterTitle}</h2></div><p class="kufi" lang="ar">المَدَارِسُ وَالبُلْدَان</p></div>
+      <p class="muted gen-lead">{G.laterLead}</p>
+      <div class="gen-schools">
+        {later.map((s) => (
+          <section class="gen-school" id={`school-${s.school}`} aria-labelledby={`gen-s-${s.school}`}>
+            <h3 class="gen-list-h" id={`gen-s-${s.school}`}>{schoolName[s.school]} <span class="muted">· {s.people.length === 1 ? G.grammarianOne : fmt(G.grammarians, { n: s.people.length })}</span></h3>
+            <ul class="gen-names">
+              {s.people.map((p) => (
+                <li>
+                  <a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>
+                  <span class="muted"> · {[yearOf(p) ? `${G.died} ${yearOf(p)}` : "", lastPlace(p)].filter(Boolean).join(" · ")}</span>
+                  {booksOf(p).length > 0 && <span class="gen-books">{booksOf(p).map((b) => <a href={kbPath.book(locale, b.id)}>{b.title}</a>)}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+    </section>
+
+    <section class="kb-section" id="by-century" aria-labelledby="gen-c-h">
+      <div class="kb-head"><div><p class="kb-kicker">{G.byCentury}</p><h2 id="gen-c-h">{G.centuryTitle}</h2></div><p class="kufi" lang="ar">عَلَى القُرُون</p></div>
+      <p class="muted gen-lead">{G.centuryLead}</p>
+      <div class="gen-centuries">
+        {centuries.map(({ c, people: ps }) => (
+          <section class="gen-century" id={`c${c}`} aria-labelledby={`gen-c${c}`}>
+            <h3 id={`gen-c${c}`}>{fmt(G.century, { n: ord(c, locale) })}</h3>
+            <p class="muted gen-years">{fmt(ps.length === 1 ? G.yearsOne : G.years, { from: (c - 1) * 100 + 1, to: c * 100, n: fmt(G.grammarians, { n: ps.length }) })}</p>
+            <ol class="gen-names">
+              {ps.map((p) => (
+                <li>
+                  <a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>
+                  <span class="muted"> · {[yearOf(p) && `${G.died} ${yearOf(p)}`, schoolName[p.school ?? "none"], lastPlace(p)].filter(Boolean).join(" · ")}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+        {undated.length > 0 && (
+          <section class="gen-century" aria-labelledby="gen-c0">
+            <h3 id="gen-c0">{G.undated}</h3>
+            <ol class="gen-names">{undated.map((p) => <li><a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>{p.died && <span class="muted"> · {p.died}</span>}</li>)}</ol>
+          </section>
+        )}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

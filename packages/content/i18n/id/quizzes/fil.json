@@ -1,0 +1,34 @@
+{
+  "items": {
+    "fil-1": {
+      "prompt": "Apa yang ditunjukkan fi'il?",
+      "options": [
+        "Suatu makna beserta salah satu dari tiga zaman",
+        "Suatu makna yang hanya tampak bersama kata lain",
+        "Nama orang atau benda",
+        "Hanya perintah"
+      ],
+      "explanation": "Fi'il menggabungkan perbuatan dengan waktu: lampau, sekarang atau akan datang."
+    },
+    "fil-2": {
+      "prompt": "Kata mana yang menjadi fi'il karena tandanya di sini?",
+      "options": [
+        "nashara, karena qad datang sebelumnya",
+        "qad, karena ia pendek",
+        "Tidak keduanya: ini isim",
+        "Keduanya fi'il"
+      ],
+      "explanation": "Qad adalah huruf; karena datang sebelum nashara, ia menjadi tanda bahwa nashara adalah fi'il."
+    },
+    "fil-3": {
+      "prompt": "Manakah tanda fi'il dalam Jurumiyah?",
+      "options": [
+        "Ta' ta'nits yang sukun, seperti dalam nasharat",
+        "Tanwin",
+        "Alif lam",
+        "Kasrah sesudah huruf jar"
+      ],
+      "explanation": "Tanwin, alif lam dan khafadh milik isim; ta' yang sukun milik fi'il."
+    }
+  }
+}

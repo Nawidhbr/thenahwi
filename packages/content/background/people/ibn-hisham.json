@@ -1,8 +1,8 @@
 {
   "slug": "ibn-hisham",
-  "name": "Ibn Hishām al-Anṣārī",
+  "name": "Jamāl al-Dīn Abū Muḥammad ʿAbd Allāh ibn Yūsuf ibn Hishām al-Anṣārī",
   "arabic": "ابْنُ هِشَامٍ الأَنْصَارِيُّ",
-  "known": "Jamāl al-Dīn Abū Muḥammad ʿAbd Allāh ibn Yūsuf",
+  "known": "Ibn Hishām al-Anṣārī",
   "born": "708/1309",
   "died": "761/1360",
   "places": [
@@ -16,7 +16,8 @@
   "summary": "Cairene grammarian, author of Qaṭr al-nadā, Shudhūr al-dhahab, Awḍaḥ al-masālik and Mughnī al-labīb, a graded series still at the heart of the Azhar path.",
   "bio": [
     "Ibn Hishām was born in Cairo in 708/1309 and spent his life there. He studied with the leading teachers of his day, among them Abū Ḥayyān, and his fame spread in his lifetime as far as the Maghrib.",
-    "His books form a ladder: Qaṭr al-nadā for the intermediate student, then Shudhūr al-dhahab, then Awḍaḥ al-masālik on the Alfiyya, and Mughnī al-labīb for advanced study of the particles and sentences."
+    "His books form a ladder: Qaṭr al-nadā for the intermediate student, then Shudhūr al-dhahab, then Awḍaḥ al-masālik on the Alfiyya, and Mughnī al-labīb for advanced study of the particles and sentences.",
+    "Ibn Khaldūn, writing in the Maghrib some years after his death, records in his Muqaddima that word had reached them of a scholar of Arabic in Egypt called Ibn Hishām, 'more learned in grammar than Sībawayh', and praises his Mughnī al-labīb. Ibn Hishām had heard Abū Ḥayyān in Cairo, and the Mughnī argues with his views on many pages."
   ],
   "works": [
     {
@@ -42,6 +43,7 @@
     "qatr",
     "alfiyya"
   ],
+  "school": "egypt-sham",
   "sources": [
     {
       "title": "Ibn Hisham al-Ansari, Wikipedia",
@@ -50,6 +52,10 @@
     {
       "title": "Qaṭr al-Nadā, English translation, RISSC",
       "url": "https://rissc.jo/wp-content/uploads/2024/10/QatrNada_21-10-24.pdf"
+    },
+    {
+      "title": "Muğni'l-lebîb, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/mugnil-lebib"
     }
   ]
 }

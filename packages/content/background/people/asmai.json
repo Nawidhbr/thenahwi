@@ -1,0 +1,48 @@
+{
+  "slug": "asmai",
+  "name": "Abū Saʿīd ʿAbd al-Malik ibn Qurayb al-Aṣmaʿī",
+  "known": "al-Aṣmaʿī",
+  "arabic": "الأَصْمَعِيُّ",
+  "died": "216/831",
+  "places": [
+    "Basra",
+    "Baghdad",
+    "Basra"
+  ],
+  "roles": [
+    "teacher"
+  ],
+  "summary": "The great Basran collector of the poetry and speech of the Bedouin, a favourite of Hārūn al-Rashīd's court; he debated Sībawayh and was the rival of Abū ʿUbayda.",
+  "bio": [
+    "Al-Aṣmaʿī learnt from Abū ʿAmr ibn al-ʿAlāʾ and spent years among the Bedouin; his memory for poetry was famous, and his anthology al-Aṣmaʿiyyāt and his books on horses, camels, plants and the words of opposite meaning are among the oldest books of the language. He was called to Baghdad to tutor at Hārūn al-Rashīd's court, and the anecdotes of his wit there are many. Al-Zubaydī places him first in the fourth generation of the Basran lexicographers.",
+    "He was careful with the Qurʾān and hadith and is reported to have refused to explain their rare words. Al-Zubaydī tells, through Yūnus ibn Ḥabīb, of a debate between him and Sībawayh that Yūnus judged for Sībawayh, though al-Aṣmaʿī had the readier tongue. His rivalry with Abū ʿUbayda is a theme of the ṭabaqāt. He died in Basra in 216/831."
+  ],
+  "works": [
+    {
+      "title": "al-Aṣmaʿiyyāt",
+      "arabic": "الأَصْمَعِيَّات",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "His death is given between 213/828 and 217/832."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-lugha",
+    "n": 4,
+    "entry": 91
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 91 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Asmaî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/asmai"
+    }
+  ]
+}

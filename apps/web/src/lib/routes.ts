@@ -32,6 +32,7 @@ export function offlinePages(locale = "en"): string[] {
     `/${locale}/curricula/`,
     `/${locale}/books/`,
     `/${locale}/scholars/`,
+    `/${locale}/scholars/generations/`,
     `/${locale}/news/`,
     ...KB_BOOKS.map((b) => kbPath.book(locale, b.id)),
     ...KB_BOOKS.filter((b) => getCatalogue(b.id).length > 0).map((b) => kbPath.catalogue(locale, b.id)),

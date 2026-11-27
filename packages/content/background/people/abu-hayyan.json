@@ -1,0 +1,60 @@
+{
+  "slug": "abu-hayyan",
+  "name": "Athīr al-Dīn Abū Ḥayyān Muḥammad ibn Yūsuf al-Gharnāṭī al-Andalusī",
+  "known": "Abū Ḥayyān al-Andalusī",
+  "arabic": "أَبُو حَيَّانَ الأَنْدَلُسِيُّ",
+  "died": "745/1344",
+  "places": [
+    "Granada",
+    "Tunis",
+    "Alexandria",
+    "Cairo"
+  ],
+  "roles": [
+    "author",
+    "commentator",
+    "teacher"
+  ],
+  "summary": "Andalusian grammarian who taught in Cairo for half a century; author of the Qurʾān commentary al-Baḥr al-muḥīṭ, of Irtishāf al-ḍarab, and of the great commentary on Ibn Mālik's Tashīl, and the teacher of Ibn Hishām's generation.",
+  "bio": [
+    "Abū Ḥayyān was born in Granada in 654/1256 and left al-Andalus as a young man; the sources tell of a quarrel with one of his teachers there. He travelled through the Maghrib to Egypt, studied with the grammarians of Alexandria and Cairo and taught grammar and the Qurʾān in Cairo until his death in 745/1344. He was curious about every language he met and wrote grammars of Turkish, Persian and Ethiopic.",
+    "His Irtishāf al-ḍarab min lisān al-ʿarab gathers the views of all the grammarians before him on every question; al-Tadhyīl wa-l-takmīl comments on Ibn Mālik's al-Tashīl, often to correct it; Manhaj al-sālik comments on the Alfiyya; and al-Baḥr al-muḥīṭ is the most grammatical of the great Qurʾān commentaries. Ibn Hishām, al-Murādī, al-Samīn al-Ḥalabī and Ibn ʿAqīl learnt from him, and Ibn Hishām's Mughnī argues with him on many pages.",
+    "Ibn Ḥajar, in al-Durar al-kāmina, tells that he praised Ibn Taymiyya in verse when they first met, and turned against him when Ibn Taymiyya said that Sībawayh was not a prophet of grammar and had erred in many places."
+  ],
+  "works": [
+    {
+      "title": "Irtishāf al-ḍarab min lisān al-ʿarab",
+      "arabic": "ارْتِشَافُ الضَّرَبِ مِنْ لِسَانِ العَرَب",
+      "kind": "matn"
+    },
+    {
+      "title": "al-Tadhyīl wa-l-takmīl fī sharḥ al-Tashīl",
+      "arabic": "التَّذْيِيلُ وَالتَّكْمِيل",
+      "kind": "sharh",
+      "on": "ibn-malik"
+    },
+    {
+      "title": "Manhaj al-sālik",
+      "arabic": "مَنْهَجُ السَّالِك",
+      "kind": "sharh",
+      "on": "alfiyya"
+    },
+    {
+      "title": "al-Baḥr al-muḥīṭ",
+      "arabic": "البَحْرُ المُحِيط",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [
+    "alfiyya"
+  ],
+  "school": "andalus",
+  "sources": [
+    {
+      "title": "Ebû Hayyân el-Endelüsî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ebu-hayyan-el-endelusi"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "ayni",
+  "name": "Badr al-Dīn Abū Muḥammad Maḥmūd ibn Aḥmad al-ʿAynī",
+  "known": "Badr al-Dīn al-ʿAynī",
+  "arabic": "بَدْرُ الدِّينِ العَيْنِيُّ",
+  "died": "855/1451",
+  "places": [
+    "ʿAyntāb",
+    "Aleppo",
+    "Cairo"
+  ],
+  "roles": [
+    "commentator",
+    "author"
+  ],
+  "summary": "Ḥanafī scholar of Turkish origin in Mamluk Cairo, commentator on al-Bukhārī, who explained the verses quoted as evidence in the commentaries on the Alfiyya and wrote on Marāḥ al-arwāḥ.",
+  "bio": [
+    "Al-ʿAynī was born in ʿAyntāb in 762/1361 and came to Cairo, where he was market inspector, judge and a familiar of the Mamluk sultans; his ʿUmdat al-qārī on al-Bukhārī is one of the great commentaries of hadith.",
+    "In grammar his al-Maqāṣid al-naḥwiyya, known as al-Shawāhid al-kubrā, explains every verse of poetry that the four commentaries on the Alfiyya quote as evidence: who said it, what it means and where its point lies; it is printed in the margin of the Alfiyya's commentaries. In ṣarf he commented on Aḥmad ibn ʿAlī ibn Masʿūd's Marāḥ al-arwāḥ (Malāḥ al-alwāḥ). He died in Cairo in 855/1451."
+  ],
+  "works": [
+    {
+      "title": "al-Maqāṣid al-naḥwiyya (al-Shawāhid al-kubrā)",
+      "arabic": "المَقَاصِدُ النَّحْوِيَّة",
+      "kind": "sharh",
+      "on": "alfiyya"
+    },
+    {
+      "title": "Malāḥ al-alwāḥ fī sharḥ Marāḥ al-arwāḥ",
+      "arabic": "مَلَاحُ الأَلْوَاح",
+      "kind": "sharh",
+      "on": "ahmad-ibn-masud"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [
+    "alfiyya"
+  ],
+  "school": "egypt-sham",
+  "sources": [
+    {
+      "title": "Aynî, Bedreddin, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ayni-bedreddin"
+    },
+    {
+      "title": "Merâhu'l-ervâh, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/merahul-ervah"
+    }
+  ]
+}

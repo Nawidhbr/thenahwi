@@ -1,0 +1,54 @@
+{
+  "slug": "abu-ubayda",
+  "name": "Abū ʿUbayda Maʿmar ibn al-Muthannā al-Taymī",
+  "known": "Abū ʿUbayda",
+  "arabic": "أَبُو عُبَيْدَةَ",
+  "died": "209/824",
+  "places": [
+    "Basra",
+    "Baghdad",
+    "Basra"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Basran scholar of the language, the poetry and the history of the Arabs, author of Majāz al-Qurʾān, the first book on the figurative language of the Qurʾān, and al-Aṣmaʿī's rival.",
+  "bio": [
+    "Abū ʿUbayda was a client of Taym in Basra who learnt from Abū ʿAmr ibn al-ʿAlāʾ and Yūnus ibn Ḥabīb. He knew the days and genealogies of the Arabs better than anyone of his time, and was said to sympathise with the claims of the non-Arab Muslims, which made him enemies. Al-Zubaydī places him in the fourth generation of the Basran lexicographers beside al-Aṣmaʿī.",
+    "His Majāz al-Qurʾān explains the expressions of the Qurʾān by the usage of the Arabs, and his Naqāʾiḍ collects the exchanged satires of Jarīr and al-Farazdaq. The sources contrast him with al-Aṣmaʿī: Abū ʿUbayda the wider in history, al-Aṣmaʿī the better at reciting. He died around 209/824."
+  ],
+  "works": [
+    {
+      "title": "Majāz al-Qurʾān",
+      "arabic": "مَجَازُ القُرْآن",
+      "kind": "other"
+    },
+    {
+      "title": "al-Naqāʾiḍ",
+      "arabic": "النَّقَائِض",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "His death is given between 207/822 and 213/828."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-lugha",
+    "n": 4,
+    "entry": 92
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 92 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ma'mer b. Müsennâ, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/mamer-b-musenna"
+    }
+  ]
+}

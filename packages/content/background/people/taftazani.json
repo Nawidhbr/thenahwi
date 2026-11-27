@@ -1,0 +1,54 @@
+{
+  "slug": "taftazani",
+  "name": "Saʿd al-Dīn Masʿūd ibn ʿUmar al-Taftāzānī",
+  "known": "Saʿd al-Dīn al-Taftāzānī",
+  "arabic": "سَعْدُ الدِّينِ التَّفْتَازَانِيُّ",
+  "died": "792/1390",
+  "places": [
+    "Taftāzān (Khurasan)",
+    "Herat",
+    "Khwārazm",
+    "Samarqand"
+  ],
+  "roles": [
+    "commentator",
+    "author"
+  ],
+  "summary": "The Khurasanian master of the madrasa sciences, whose first book, written in his youth, was the commentary on al-Zanjānī's al-ʿIzzī that the Ottoman madrasas read as 'Saʿd al-Dīn'.",
+  "bio": [
+    "Al-Taftāzānī was born in Taftāzān near Nasā in Khurasan in 722/1322 and studied with ʿAḍud al-Dīn al-Ījī and Quṭb al-Dīn al-Rāzī's circle. He taught in Herat, Khwārazm and Sarakhs and spent his last years at Tīmūr's court in Samarqand, where he died in 792/1390.",
+    "His Sharḥ al-Taṣrīf al-ʿIzzī is, by the reports, his first work, finished in 738/1338 when he was sixteen; it explains al-Zanjānī's al-ʿIzzī phrase by phrase and was read with it in the Ottoman madrasas as part of the ṣarf course. His later books on rhetoric (al-Muṭawwal and al-Mukhtaṣar on al-Qazwīnī's Talkhīṣ), logic (Tahdhīb al-manṭiq) and theology made him one of the most read authors of the madrasa, and his Irshād al-hādī is a short naḥw."
+  ],
+  "works": [
+    {
+      "title": "Sharḥ al-Taṣrīf al-ʿIzzī",
+      "arabic": "شَرْحُ تَصْرِيفِ العِزِّيّ",
+      "kind": "sharh",
+      "on": "izzi"
+    },
+    {
+      "title": "Irshād al-hādī",
+      "arabic": "إِرْشَادُ الهَادِي",
+      "kind": "matn"
+    },
+    {
+      "title": "al-Muṭawwal",
+      "arabic": "المُطَوَّل",
+      "kind": "sharh"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "His death is also given as 791 or 793; the age at which he wrote the commentary on al-ʿIzzī comes from the biographers."
+  ],
+  "books": [
+    "izzi"
+  ],
+  "school": "persia-central-asia",
+  "sources": [
+    {
+      "title": "Teftâzânî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/teftazani"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "lafif",
+  "name": "The doubly weak verb (lafīf)",
+  "arabic": "اللَّفِيفُ",
+  "transliteration": "al-lafīf",
+  "alsoKnownAs": [
+    "lafif",
+    "lafīf",
+    "mafruq",
+    "mafrūq",
+    "maqrun",
+    "maqrūn",
+    "doubly weak"
+  ],
+  "category": "sound-weak",
+  "definition": "A verb with two weak root letters: 'separated' (mafrūq) when they are the first and third, as in waqā; 'joined' (maqrūn) when they are the second and third, as in ṭawā.",
+  "body": [
+    "The lafīf mafrūq takes the changes of the mithāl and the nāqiṣ together, so that its imperative can shrink to one letter: from waqā, 'to guard', the imperative is qi. The lafīf maqrūn keeps its middle letter and treats its last as in the nāqiṣ (ṭawā, yaṭwī). The ṣarf books close the weak verbs with this chapter."
+  ],
+  "examples": [
+    {
+      "arabic": "وَقَى – قِ",
+      "text": "waqā, imperative qi: one letter left."
+    },
+    {
+      "arabic": "طَوَى – يَطْوِي",
+      "text": "ṭawā, yaṭwī: the middle wāw stays."
+    }
+  ],
+  "related": [
+    "mithal",
+    "naqis",
+    "mutall"
+  ],
+  "books": [
+    "izzi"
+  ]
+}

@@ -1,11 +1,13 @@
 {
   "slug": "sibawayh",
-  "name": "Sībawayh",
+  "name": "Abū Bishr ʿAmr ibn ʿUthmān ibn Qanbar Sībawayh",
+  "known": "Sībawayh",
   "arabic": "سِيبَوَيْهِ",
-  "known": "Abū Bishr ʿAmr ibn ʿUthmān ibn Qanbar",
   "died": "ca. 180/796",
   "places": [
+    "al-Bayḍāʾ (near Shiraz)",
     "Basra",
+    "Baghdad",
     "Shiraz"
   ],
   "roles": [
@@ -14,8 +16,9 @@
   ],
   "summary": "The Basran grammarian whose al-Kitāb, the first written grammar of Arabic, became the reference of every later book of naḥw and ṣarf.",
   "bio": [
-    "Sībawayh was of Persian origin and studied in Basra, above all with al-Khalīl ibn Aḥmad. Reports differ on the details of his life; he died young, around 180/796, probably near Shiraz.",
-    "His one work has no title: later scholars simply call it al-Kitāb, the Book. It treats syntax, morphology and phonology in that order, and it was edited after his death by his student al-Akhfash."
+    "Sībawayh was a Persian client, born, al-Zubaydī says, in al-Bayḍāʾ, a village of the province of Shiraz. He came to Basra to write down hadith in the circle of Ḥammād ibn Salama, and grammar, by the story al-Zubaydī tells, came to him through a mistake: reading out a hadith with the words laysa Abā al-Dardāʾ, he corrected it to laysa Abū al-Dardāʾ, and Ḥammād told him he was wrong, since laysa here is a particle of exception. 'I shall seek a knowledge in which you cannot fault me,' Sībawayh said, and he joined al-Khalīl. He learnt also from Yūnus ibn Ḥabīb, ʿĪsā ibn ʿUmar and al-Akhfash al-Akbar. His name is Persian; al-Zubaydī explains it as 'thirty scents', others as 'scent of apples'.",
+    "In Baghdad he met the Kufan al-Kisāʾī, tutor of the caliph's sons, before the Barmakid vizier Yaḥyā ibn Khālid. The story of that meeting, the masʾala zunbūriyya, is told in several versions (al-Zubaydī gives three): al-Kisāʾī asked whether one says 'I thought the scorpion stung harder than the hornet, and lo, it is he (fa-idhā huwa hiya)' or 'and lo, it is her (fa-idhā huwa iyyāhā)'. Sībawayh allowed only the first; al-Kisāʾī allowed both. Bedouin waiting at the door were called in and sided with al-Kisāʾī; Sībawayh was given ten thousand dirhams and left Iraq. Sībawayh's followers, al-Zubaydī adds, have always held that his answer was right, and that the Bedouin were men al-Kisāʾī knew and relied on. He went to Persia and died there young, by al-Zubaydī's account at thirty-three, in 180/796; the reports say grief had a part in it.",
+    "His one work has no title: later scholars call it simply al-Kitāb, the Book, or 'the Qurʾān of grammar'. It treats syntax, then morphology and phonology, quoting al-Khalīl, Yūnus and the speech and poetry of the Arabs. No one read it with him; it was handed on by his student al-Akhfash al-Awsaṭ, and every later Basran, from al-Mubarrad to al-Sīrāfī, wrote on it."
   ],
   "works": [
     {
@@ -25,10 +28,29 @@
       "note": "The first comprehensive grammar of Arabic."
     }
   ],
-  "reception": [],
-  "uncertain": [],
+  "reception": [
+    "Al-Kitāb was commented on by al-Mubarrad, Ibn al-Sarrāj, al-Sīrāfī, al-Rummānī and many others; later handbooks are summaries of it more often than they say."
+  ],
+  "uncertain": [
+    "His year of death is given between 161/778 and 194/810; 180/796 is the most common.",
+    "The details of the masʾala zunbūriyya differ in each version, and later grammarians defended both answers."
+  ],
   "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 6,
+    "entry": 22
+  },
   "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 22 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Sîbeveyhi, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/sibeveyhi"
+    },
     {
       "title": "Sibawayh, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Sibawayh"

@@ -1,0 +1,51 @@
+{
+  "slug": "abu-ali-al-qali",
+  "name": "Abū ʿAlī Ismāʿīl ibn al-Qāsim ibn ʿAydhūn al-Qālī al-Baghdādī",
+  "known": "Abū ʿAlī al-Qālī",
+  "arabic": "أَبُو عَلِيٍّ القَالِيُّ",
+  "died": "356/967",
+  "places": [
+    "Manāzgird (Armenia)",
+    "Baghdad",
+    "Cordoba"
+  ],
+  "roles": [
+    "teacher"
+  ],
+  "summary": "Baghdad-trained lexicographer and grammarian who brought the learning of Iraq to Cordoba; author of al-Amālī and teacher of al-Zubaydī.",
+  "bio": [
+    "Al-Qālī was born in Manāzgird in Armenia in 288/901 and studied for more than twenty years in Baghdad, with Ibn Durayd, Abū Bakr ibn al-Anbārī, al-Zajjāj, Nifṭawayh and Ibn Durustawayh. In 330/942 he went to al-Andalus at the invitation of the Umayyad court and taught in Cordoba until his death in 356/967.",
+    "He brought with him the books and chains of transmission of the Iraqi grammarians and lexicographers. His al-Amālī, dictated in the mosque of Cordoba, is a classic of Arabic letters, and his dictionary al-Bāriʿ followed al-Khalīl's order. Al-Zubaydī was his student and opens the Ṭabaqāt with a chain that begins 'Abū ʿAlī al-Qālī said'; he lists his teacher twice, among the Basran grammarians of the tenth generation and among the lexicographers."
+  ],
+  "works": [
+    {
+      "title": "al-Amālī",
+      "arabic": "الأَمَالِي",
+      "kind": "other"
+    },
+    {
+      "title": "al-Bāriʿ fī al-lugha",
+      "arabic": "البَارِعُ فِي اللُّغَة",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "baghdad",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 10,
+    "entry": 55
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 55 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ebû Ali el-Kālî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ebu-ali-el-kali"
+    }
+  ]
+}

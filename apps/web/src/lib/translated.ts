@@ -11,6 +11,8 @@ export function isTranslated(locale: string, path: string): boolean {
   if (locale === "en") return true;
   if (path !== "/" && !KB.test(path)) return true; // the study portal, about, privacy: translated with the interface
   const parts = path.split("/").filter(Boolean);
+  // The generations of the grammarians gather every scholar, like the scholars page.
+  if (parts[0] === "scholars" && parts[1] === "generations" && parts.length === 2) return groupTranslated(locale, () => true, () => false);
   if (parts[0] === "scholars" && parts.length === 2) return hasBackgroundTranslation(locale, "people", parts[1]);
   if (parts[0] === "glossary") {
     const concepts = getBackground("en").concepts;

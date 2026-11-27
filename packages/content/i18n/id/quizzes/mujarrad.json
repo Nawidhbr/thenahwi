@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mujarrad-1": {
+      "prompt": "Fi'il mana yang mujarrad?",
+      "options": [
+        "nashara",
+        "akrama",
+        "ta'allama",
+        "Ketiganya"
+      ],
+      "explanation": "Nashara hanya berisi huruf-huruf aslinya; akrama dan ta'allama mendapat huruf tambahan."
+    },
+    "mujarrad-2": {
+      "prompt": "Berapa bab fi'il tsulatsi mujarrad dalam kitab-kitab?",
+      "options": [
+        "Enam",
+        "Tiga",
+        "Sepuluh",
+        "Empat belas"
+      ],
+      "explanation": "Nashara, dharaba, fataha, sami'a, karuma dan hasiba: enam bab."
+    },
+    "mujarrad-3": {
+      "prompt": "Fi'il ini termasuk bab yang mana?",
+      "options": [
+        "i pada madhi, a pada mudhari'",
+        "a pada madhi, u pada mudhari'",
+        "a pada madhi, i pada mudhari'",
+        "u pada madhi, u pada mudhari'"
+      ],
+      "explanation": "Sami'a berharakat kasrah pada 'ain fi'il di madhi, dan yasma'u berharakat fathah di mudhari'."
+    }
+  }
+}

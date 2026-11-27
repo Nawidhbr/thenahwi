@@ -27,6 +27,20 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
   الجُرْجَانِيُّ، السَّيِّدُ الشَّرِيفُ الجُرْجَانِيُّ، البِرْكِوِيُّ. Dates: “723هـ/1323م”; “d.” becomes “تُوُفِّيَ” or
   “ت”.
 - Headings of the book are translated: «بَابُ الكَلَامِ»، «فَصْلٌ»، «فَصْلٌ فِي …».
+- **The lessons, the terms and the interface** (round of 27 November 2026) are written in plain modern fuṣḥā, as the
+  Azhar and madrasa textbooks of naḥw are: the technical terms and every Arabic example vocalised, the rest of the prose
+  vowelled only where a reader could misread it (above all where two forms differ by one vowel: مَنْصَرٌ / مِنْصَرٌ).
+  Titles, diagram labels and table cells are vocalised; SEO titles and descriptions are not (people search unvowelled).
+  The full vocalisation above stays the rule for the translations of the two Persian primers.
+- The site names: The Nahwi = النَّحْوِيّ (مَوْقِعُ النَّحْوِيِّ where a noun is needed), The Mantiqi = المَنْطِقِيّ.
+- In the lessons an Arabic phrase that the English gives in transliteration is written in Arabic script, and its English
+  gloss is dropped; conjugated forms come from the taṣrīf engine (`translator-tools/ar/forms.ts`), Qurʾān from the muṣḥaf,
+  with the reference as (السورة: الآية). Exercise labels (a) (b) … become (أ) (ب) (ج) (د).
+- Persons are named the madrasa way: المُفْرَدُ المُذَكَّرُ الغَائِبُ، المُفْرَدَةُ المُؤَنَّثَةُ الغَائِبَةُ، المُخَاطَبُ،
+  المُخَاطَبَةُ، المُتَكَلِّمُ وَحْدَهُ، المُتَكَلِّمُ مَعَ الغَيْرِ. The English “meaning” of a form becomes a short Arabic
+  gloss (وَقَعَ مِنْهُ النَّصْرُ فِيمَا مَضَى) or the name of its ṣīgha.
+- نَحْوَ is not used for “about, circa” (حَوَالَيْ), so that the word naḥw keeps its technical sense; نَحْوُ “for example”
+  stays, as in the books.
 - **Reserved words**: a term is not used in a loose everyday sense: كَلِمَةٌ only for the word of the grammarians
   (لَفْظٌ for an utterance in general); حَالٌ only for the ḥāl (شَأْنٌ، صُورَةٌ for a state in general); بَابٌ only for a
   chapter and a conjugation class; صِفَةٌ only for the adjective (naʿt); خَبَرٌ only for the predicate.
@@ -67,6 +81,10 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Sound masc. / fem. plural, broken plural | جمع مذکّر سالم … جمع مکسّر | جَمْعُ المُذَكَّرِ السَّالِمُ، جَمْعُ المُؤَنَّثِ السَّالِمُ، جَمْعُ التَّكْسِيرِ (المُكَسَّرُ) | — |
 | The five (six) nouns / five verbs | اسماء ستّه / افعال خمسه | الأَسْمَاءُ السِّتَّةُ (الخَمْسَةُ) / الأَفْعَالُ الخَمْسَةُ | — |
 | The diptote | غیر منصرف | غَيْرُ المُنْصَرِفِ (مَا لَا يَنْصَرِفُ) | — |
+| The vague noun (demonstrative) | — | الاسْمُ المُبْهَمُ | — |
+| The particle that came for a meaning | — | حَرْفٌ جَاءَ لِمَعْنًى | — |
+| Fully declinable / the diptote | — | المُنْصَرِفُ / الاسْمُ الَّذِي لَا يَنْصَرِفُ (المَمْنُوعُ مِنَ الصَّرْفِ) | — |
+| The nūn of protection (in ḍarabanī) | — | نُونُ الوِقَايَةِ | — |
 
 ### Root and pattern
 
@@ -86,6 +104,10 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Attached form (mulḥaq) / attachment (ilḥāq) | ملحق / الحاق | المُلْحَقُ / الإِلْحَاقُ | — |
 | The meanings of the bābs: transitivity, multiplying, sharing, compliance, effort, intensifying the intransitive | تعدیه، تکثیر، مشارکت، مطاوعه، تکلّف، مبالغهٔ لازم | التَّعْدِيَةُ، التَّكْثِيرُ، المُشَارَكَةُ، المُطَاوَعَةُ، التَّكَلُّفُ، مُبَالَغَةُ اللَّازِمِ | — |
 | The eight divisions (bare / augmented, triliteral / quadriliteral, sound / not sound) | اقسام هشتگانه | الأَقْسَامُ الثَّمَانِيَةُ | — |
+| The bābs of conjugation (the thirty-five of the Binā) | — | أَبْوَابُ التَّصْرِيفِ | — |
+| The letters of the throat (six) | — | حُرُوفُ الحَلْقِ | — |
+| Analogy (forming other verbs on the model) | — | القِيَاسُ | — |
+| The varied / the regular forms (al-Amthila) | — | الأَمْثِلَةُ المُخْتَلِفَةُ / الأَمْثِلَةُ المُطَّرِدَةُ | — |
 
 ### The verb and its tenses
 
@@ -110,6 +132,11 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | The verb of wonder (how … !) | فعل تعجّب | فِعْلُ التَّعَجُّبِ | — |
 | The ghābir (an old name of the muḍāriʿ) | غابر | الغَابِرُ | — |
 | Complete / incomplete verb | فعل تامّ / فعل ناقص | الفِعْلُ التَّامُّ / النَّاقِصُ | — |
+| The hamza of joining / that is always said | — | هَمْزَةُ الوَصْلِ / هَمْزَةُ القَطْعِ | — |
+| The lām of command (and of prayer) | — | لَامُ الأَمْرِ (وَالدُّعَاءِ) | — |
+| The lā of prohibition / of negation | — | لَا النَّاهِيَةُ / لَا النَّافِيَةُ | — |
+| Lammā of time (“when”) | — | لَمَّا الحِينِيَّةُ | — |
+| Prayer (a command addressed to God) | — | الدُّعَاءُ | — |
 
 ### Sound and weak
 
@@ -142,6 +169,9 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | The noun of one act / of the manner | بنای مرّه / بنای نوع | بِنَاءُ المَرَّةِ / بِنَاءُ النَّوْعِ | — |
 | The diminutive | اسم تصغیر | اسْمُ التَّصْغِيرِ | — |
 | The relative adjective (nisba) | اسم منسوب | الاسْمُ المَنْسُوبُ | — |
+| The pattern of once / of the manner | — | فَعْلَةٌ / فِعْلَةٌ | — |
+| The intensive of the active participle | — | مُبَالَغَةُ اسْمِ الفَاعِلِ | — |
+| The verb of wonder, first / second form | — | مَا أَفْعَلَهُ / أَفْعِلْ بِهِ؛ المُتَعَجَّبُ مِنْهُ | — |
 
 ### Iʿrāb and bināʾ
 
@@ -159,6 +189,10 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Of complete / incomplete iʿrāb | تامّ‌الاعراب / ناقص‌الاعراب | تَامُّ الإِعْرَابِ / نَاقِصُ الإِعْرَابِ | — |
 | Governed in itself / by following; the word followed | معمول به اصالت / به تبعیّت؛ متبوع | مَعْمُولٌ بِالأَصَالَةِ / بِالتَّبَعِيَّةِ؛ المَتْبُوعُ | — |
 | The six nouns (the five nouns with hanū) | اسماء ستّه | الأَسْمَاءُ السِّتَّةُ | — |
+| The original sign / the signs standing in for it | — | العَلَامَةُ الأَصْلِيَّةُ / العَلَامَاتُ النَّائِبَةُ | — |
+| The staying / the dropping of the nūn | — | ثُبُوتُ النُّونِ / حَذْفُ النُّونِ | — |
+| Sound / weak in the last letter | — | الصَّحِيحُ الآخِرِ / المُعْتَلُّ الآخِرِ | — |
+| Doing the iʿrāb (parsing aloud) | — | الإِعْرَابُ (إِعْرَابُ الجُمْلَةِ) | — |
 
 ### The sentence
 
@@ -169,6 +203,11 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Fāʿil / mafʿūl bihi / nāʾib al-fāʿil | فاعل / مفعول به / مفعول ما لم یسمّ فاعله | الفَاعِلُ / المَفْعُولُ بِهِ / نَائِبُ الفَاعِلِ (مَفْعُولُ مَا لَمْ يُسَمَّ فَاعِلُهُ) | — |
 | Condition / its answer | شرط / جزا | الشَّرْطُ / الجَزَاءُ | — |
 | Muḍāf / muḍāf ilayhi | مضاف / مضاف الیه | المُضَافُ / المُضَافُ إِلَيْهِ | — |
+| Like a sentence (a particle with its noun, an adverb) | — | شِبْهُ الجُمْلَةِ (الجَارُّ وَالمَجْرُورُ، الظَّرْفُ) | — |
+| The link back to the mubtadaʾ | — | الرَّابِطُ | — |
+| Being put first (the abstract governor of the mubtadaʾ) | — | الابْتِدَاءُ | — |
+| A pillar / an addition of the sentence | — | العُمْدَةُ / الفَضْلَةُ | — |
+| The completeness of speech | — | تَمَامُ الكَلَامِ | — |
 
 ### The governors (ʿawāmil)
 
@@ -183,6 +222,11 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Mā and lā that resemble laysa | ما و لای مشبّه به لیس | مَا وَلَا المُشَبَّهَتَانِ بِلَيْسَ | — |
 | The complete vague noun (a number before its tamyīz) | اسم مبهم تامّ | الاسْمُ المُبْهَمُ التَّامُّ | — |
 | The meaning of the verb (a word that governs by it) | معنای فعل | مَعْنَى الفِعْلِ | — |
+| The cancellers (kāna, inna, ẓanantu and their sisters) | — | النَّوَاسِخُ | — |
+| The lām of kay / the lām of denial | — | لَامُ كَيْ / لَامُ الجُحُودِ | — |
+| An understood an (the Baṣran view) | — | أَنْ مُضْمَرَةٌ | — |
+| The verbs of thinking / knowing / making into | — | أَفْعَالُ الظَّنِّ / اليَقِينِ / التَّصْيِيرِ | — |
+| Leaving lā without effect / its repetition | — | الإِلْغَاءُ / التَّكْرَارُ | — |
 
 ### The objects and other manṣūb nouns
 
@@ -197,6 +241,11 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | The disconnected exception | استثنای منقطع | الاسْتِثْنَاءُ المُنْقَطِعُ | — |
 | The one the ḥāl belongs to | ذوالحال | صَاحِبُ الحَالِ | — |
 | The kinds of munādā: single proper name, intended / unintended indefinite, muḍāf, like the muḍāf | مفرد عَلَم، نکرهٔ مقصوده / غیر مقصوده، مضاف، شبیه به مضاف | المُفْرَدُ العَلَمُ، النَّكِرَةُ المَقْصُودَةُ وَغَيْرُ المَقْصُودَةِ، المُضَافُ، المُشَبَّهُ بِالمُضَافِ | — |
+| The emptied exception | — | الاسْتِثْنَاءُ المُفَرَّغُ | — |
+| Restriction (“none but”) | — | الحَصْرُ | — |
+| The wāw of accompaniment | — | وَاوُ المَعِيَّةِ | — |
+| The specification of a relation / of a single word | — | تَمْيِيزُ النِّسْبَةِ / تَمْيِيزُ المُفْرَدِ | — |
+| The five objects | — | المَفَاعِيلُ الخَمْسَةُ | — |
 
 ### The followers (tawābiʿ)
 
@@ -206,6 +255,9 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Naʿt / ʿaṭf / tawkīd / badal | صفت، نعت / عطف / تأکید / بدل | النَّعْتُ (الصِّفَةُ) / العَطْفُ / التَّأْكِيدُ (التَّوْكِيدُ) / البَدَلُ | — |
 | The explicative apposition | عطف بیان | عَطْفُ البَيَانِ | — |
 | The kinds of badal: of the whole, of the part, of inclusion, of mistake | بدل کل، بدل بعض، بدل اشتمال، بدل غلط | بَدَلُ الكُلِّ، بَدَلُ البَعْضِ، بَدَلُ الاشْتِمَالِ، بَدَلُ الغَلَطِ | — |
+| Emphasis by meaning / by repeating the word | — | التَّوْكِيدُ المَعْنَوِيُّ / التَّوْكِيدُ اللَّفْظِيُّ | — |
+| The word emphasised / joined to / replaced | — | المُؤَكَّدُ / المَعْطُوفُ عَلَيْهِ / المُبْدَلُ مِنْهُ | — |
+| The meanings of the particles of ʿaṭf: plain joining, order at once, order with delay, turning away, correction | — | مُطْلَقُ الجَمْعِ، التَّرْتِيبُ مَعَ التَّعْقِيبِ، التَّرْتِيبُ مَعَ التَّرَاخِي، الإِضْرَابُ، الاسْتِدْرَاكُ | — |
 
 ## Choices between competing terms
 
@@ -217,3 +269,8 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
   (نُونُ التَّوْكِيدِ), as the books do.
 - The forms of a paradigm: صِيغَةُ الوَاحِدِ المُذَكَّرِ الغَائِبِ، التَّثْنِيَةُ المُذَكَّرُ الغَائِبُ، الجَمْعُ المُذَكَّرُ
   الغَائِبُ … المُتَكَلِّمُ وَحْدَهُ، المُتَكَلِّمُ مَعَ الغَيْرِ.
+- Hamzat al-waṣl of the imperative is written with the vowel of the source (اُنْصُرْ، اِضْرِبْ), copied from the English
+  Arabic and from the engine; elsewhere plain ا.
+- bināʾ: البِنَاءُ is both the fixed ending (naḥw) and, in the Binā, what a pattern is built for; the lessons say which.
+- mufrad: «المُفْرَدُ» keeps the book's word in all three senses (not dual or plural; not a sentence; in the munādā, not
+  muḍāf); the lessons explain the sense where it matters.

@@ -1,0 +1,50 @@
+{
+  "slug": "zajjaj",
+  "name": "Abū Isḥāq Ibrāhīm ibn al-Sarī ibn Sahl al-Zajjāj",
+  "known": "al-Zajjāj",
+  "arabic": "أَبُو إِسْحَاقَ الزَّجَّاجُ",
+  "died": "311/923",
+  "places": [
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "The glass-cutter of Baghdad who left Thaʿlab's circle for al-Mubarrad's; author of Maʿānī al-Qurʾān wa-iʿrābuh and teacher of al-Zajjājī and Abū ʿAlī al-Fārisī.",
+  "bio": [
+    "Al-Zajjāj earned his living cutting glass, as his name says. He began with the Kufan Thaʿlab and went over to al-Mubarrad, as al-Zubaydī tells in the story of al-Mubarrad's first circle in Baghdad: sent to break it up, he found the newcomer the better reasoner and stayed with him, working at his trade a few days a month to live and paying his teacher an allowance. Al-Zubaydī places him first in the ninth Basran generation, 'the companions of al-Mubarrad'.",
+    "He later taught the son of the vizier ʿUbayd Allāh ibn Sulaymān and became a boon companion of the caliph al-Muktafī. His Maʿānī al-Qurʾān wa-iʿrābuh explains the Qurʾān verse by verse as grammar, and his short book on the nouns that take or refuse tanwīn (Mā yanṣarif wa-mā lā yanṣarif) is still printed. Al-Zajjājī took his name from him, and Abū ʿAlī al-Fārisī was his student. He died in Baghdad in 311/923."
+  ],
+  "works": [
+    {
+      "title": "Maʿānī al-Qurʾān wa-iʿrābuh",
+      "arabic": "مَعَانِي القُرْآنِ وَإِعْرَابُهُ",
+      "kind": "other"
+    },
+    {
+      "title": "Mā yanṣarif wa-mā lā yanṣarif",
+      "arabic": "مَا يَنْصَرِفُ وَمَا لَا يَنْصَرِفُ",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 9,
+    "entry": 38
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 38 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Zeccâc, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/zeccac"
+    }
+  ]
+}

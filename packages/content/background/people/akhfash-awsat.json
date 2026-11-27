@@ -1,0 +1,54 @@
+{
+  "slug": "akhfash-awsat",
+  "name": "Abū al-Ḥasan Saʿīd ibn Masʿada al-Mujāshiʿī",
+  "known": "al-Akhfash al-Awsaṭ",
+  "arabic": "الأَخْفَشُ الأَوْسَطُ",
+  "died": "215/830",
+  "places": [
+    "Balkh",
+    "Basra",
+    "Baghdad"
+  ],
+  "roles": [
+    "teacher",
+    "editor"
+  ],
+  "summary": "Sībawayh's student, through whom al-Kitāb was handed on; author of Maʿānī al-Qurʾān, who went on to teach al-Kisāʾī's sons in Baghdad.",
+  "bio": [
+    "Saʿīd ibn Masʿada came from Balkh, lived in Basra and was the 'middle' of the three Akhfashes. He was older than Sībawayh but learnt from him, and al-Kitāb reached the later grammarians only through him: Sībawayh read it with no one, and al-Jarmī and al-Māzinī read it with al-Akhfash.",
+    "Al-Zubaydī tells what followed the masʾala zunbūriyya in al-Akhfash's own words. Sībawayh sent for him on his way out of Iraq and told him what had happened; al-Akhfash went to Baghdad, prayed behind al-Kisāʾī, and put a hundred questions to him, faulting every answer. When al-Kisāʾī's students made to rise against him, al-Kisāʾī asked, 'By God, are you Abū al-Ḥasan Saʿīd ibn Masʿada?', embraced him, sat him at his side and asked him to teach his sons. At al-Kisāʾī's request al-Akhfash wrote his Maʿānī al-Qurʾān, on which al-Kisāʾī and then al-Farrāʾ modelled their own books.",
+    "He held views of his own against Sībawayh on many points, and later books quote 'al-Akhfash' as a voice between the two schools; in prosody he is credited with the sixteenth metre, the mutadārak. He died around 215/830."
+  ],
+  "works": [
+    {
+      "title": "Maʿānī al-Qurʾān",
+      "arabic": "مَعَانِي القُرْآن",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "His death is given as 210, 211, 215 or 221 (825–836)."
+  ],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 6,
+    "entry": 23
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 23 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ahfeş el-Evsat, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ahfes-el-evsat"
+    },
+    {
+      "title": "Al-Akhfash al-Awsat, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Akhfash_al-Awsat"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "sirafi",
+  "name": "Abū Saʿīd al-Ḥasan ibn ʿAbd Allāh ibn al-Marzubān al-Sīrāfī",
+  "known": "Abū Saʿīd al-Sīrāfī",
+  "arabic": "أَبُو سَعِيدٍ السِّيرَافِيُّ",
+  "died": "368/979",
+  "places": [
+    "Sīrāf",
+    "Oman",
+    "ʿAskar Mukram",
+    "Baghdad"
+  ],
+  "roles": [
+    "commentator",
+    "author",
+    "teacher"
+  ],
+  "summary": "Basran grammarian and Ḥanafī judge of Baghdad, author of the great commentary on Sībawayh's al-Kitāb and of the first history of the Basran grammarians; remembered for his debate with the logician Mattā.",
+  "bio": [
+    "Al-Sīrāfī was born in Sīrāf on the Persian Gulf, studied in Oman and ʿAskar Mukram and settled in Baghdad, where he read grammar with Ibn al-Sarrāj and Ibn Durayd and served as deputy judge. Al-Zubaydī, his contemporary, describes him in the tenth Basran generation: the man who explained Sībawayh's book, who laid claim to the Almagest, Euclid and logic, who followed Abū Ḥanīfa in law and lived in al-Ruṣāfa. The sources add that he lived from copying books and would eat only what he had earned by his own hand.",
+    "His Sharḥ Kitāb Sībawayh, many volumes long, became the standard commentary on al-Kitāb. His Akhbār al-naḥwiyyīn al-Baṣriyyīn, the reports of the Basran grammarians, is the oldest of the ṭabaqāt works that survive: from Abū al-Aswad to the teachers of his own time, with their teachers, students and anecdotes.",
+    "In 326/938, at the court of the vizier Ibn al-Furāt, he debated the Christian logician Abū Bishr Mattā, who held that logic was needed to tell sound speech from faulty. Al-Sīrāfī answered that logic was the grammar of Greek and that sense in Arabic was weighed by the grammar of Arabic. The debate is known from Abū Ḥayyān al-Tawḥīdī's report of it, which leaves al-Sīrāfī the winner. He died in Baghdad in 368/979."
+  ],
+  "works": [
+    {
+      "title": "Sharḥ Kitāb Sībawayh",
+      "arabic": "شَرْحُ كِتَابِ سِيبَوَيْهِ",
+      "kind": "sharh",
+      "on": "sibawayh"
+    },
+    {
+      "title": "Akhbār al-naḥwiyyīn al-Baṣriyyīn",
+      "arabic": "أَخْبَارُ النَّحْوِيِّينَ البَصْرِيِّينَ",
+      "kind": "other",
+      "note": "The oldest surviving ṭabaqāt of the grammarians."
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 10,
+    "entry": 49
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 49 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Sîrâfî, Ebû Saîd, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/sirafi-ebu-said"
+    },
+    {
+      "title": "Arabic and Islamic Philosophy of Language and Logic, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/arabic-islamic-language/"
+    }
+  ]
+}

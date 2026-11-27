@@ -35,7 +35,7 @@ const rows: Row[] = [
   ...getLibrary(locale).map((b) => ({ id: b.id, title: b.title, arabic: b.arabic, author: b.author, died: b.died, century: b.century, kind: b.kind, language: b.language, on: b.on && KB_BOOKS.some((k) => k.id === b.on) ? [b.on] : [], summary: b.summary })),
 ].sort((a, b) => a.century - b.century || (gYear(a.died) || 9999) - (gYear(b.died) || 9999));
 const centuries = [...new Set(rows.map((r) => r.century))];
-const kindOrder = ["handbook", "commentary", "gloss", "treatise", "encyclopedia", "verse", "refutation", "modern", "translation"];
+const kindOrder = ["handbook", "commentary", "gloss", "treatise", "encyclopedia", "verse", "refutation", "biography", "modern", "translation"];
 const presentKinds = kindOrder.filter((k) => rows.some((r) => r.kind === k));
 const presentLangs = Object.keys(langs).filter((k) => rows.some((r) => r.language === k));
 const periods = ["early", "middle", "later", "modern"].filter((p) => rows.some((r) => periodOf(r.century) === p));

@@ -1,0 +1,45 @@
+{
+  "slug": "makkudi",
+  "name": "Abū Zayd ʿAbd al-Raḥmān ibn ʿAlī ibn Ṣāliḥ al-Makkūdī",
+  "known": "al-Makkūdī",
+  "arabic": "المَكُّودِيُّ",
+  "died": "807/1405",
+  "places": [
+    "Fez"
+  ],
+  "roles": [
+    "commentator",
+    "teacher"
+  ],
+  "summary": "Grammarian of Fez whose short commentaries on the Alfiyya and on al-Ājurrūmiyya were the first commentaries read on them in the Maghrib.",
+  "bio": [
+    "Al-Makkūdī taught in Fez under the Marīnids. His commentary on the Alfiyya explains each verse in plain prose, short enough to be read with the poem, and was glossed in turn by the Egyptian and Maghribi teachers; his commentary on al-Ājurrūmiyya served the beginners of the same madrasas. He died in Fez in 807/1405."
+  ],
+  "works": [
+    {
+      "title": "Sharḥ al-Alfiyya",
+      "arabic": "شَرْحُ الأَلْفِيَّة",
+      "kind": "sharh",
+      "on": "alfiyya"
+    },
+    {
+      "title": "Sharḥ al-Ājurrūmiyya",
+      "arabic": "شَرْحُ الآجُرُّومِيَّة",
+      "kind": "sharh",
+      "on": "ajurrumiyya"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [
+    "alfiyya",
+    "ajurrumiyya"
+  ],
+  "school": "maghrib",
+  "sources": [
+    {
+      "title": "Mekkûdî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/mekkudi"
+    }
+  ]
+}

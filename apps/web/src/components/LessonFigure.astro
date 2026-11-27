@@ -9,12 +9,16 @@
 import type { FigureTree } from "@nahwi/content";
 
 interface Props {
+  /** In Arabic the labels are the Arabic terms themselves, so a node's Arabic name is left out (as in Diagram.astro). */
+  locale?: string;
   tree?: FigureTree;
   grid?: { caption?: string; head: string[]; rows: string[][] };
   focus?: string;
   caption?: string;
 }
-const { tree, grid, focus, caption } = Astro.props;
+const { tree: given, grid, focus, caption, locale = "en" } = Astro.props;
+const strip = (n: FigureTree): FigureTree => ({ ...n, ar: undefined, children: n.children?.map(strip) });
+const tree = given && locale === "ar" ? strip(given) : given;
 const AR = /[؀-ۿ]/;
 
 type Box = { x: number; y: number; w: number; h: number; lines: string[]; ar?: string; on: boolean; anchor: "middle" | "start" };

@@ -1,0 +1,50 @@
+{
+  "slug": "ibn-al-sarraj",
+  "name": "Abū Bakr Muḥammad ibn al-Sarī ibn al-Sarrāj",
+  "known": "Ibn al-Sarrāj",
+  "arabic": "ابْنُ السَّرَّاجِ",
+  "died": "316/929",
+  "places": [
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Al-Mubarrad's youngest student, whose al-Uṣūl fī al-naḥw set Sībawayh's grammar out in a clear order: 'grammar was mad until Ibn al-Sarrāj brought it to reason with his Uṣūl'.",
+  "bio": [
+    "Ibn al-Sarrāj read al-Kitāb with al-Mubarrad and was, the sources say, the youngest of his circle; al-Zubaydī places him in the ninth Basran generation. He taught al-Zajjājī, al-Sīrāfī, Abū ʿAlī al-Fārisī and al-Rummānī, so that the whole Baghdad grammar of the fourth/tenth century passed through him. The sources also tell that the philosopher al-Fārābī read grammar with him and taught him logic in return.",
+    "His al-Uṣūl fī al-naḥw does not add much to Sībawayh's matter but orders it: the kinds of word, the governed nouns by their cases, the followers, then the forms, each chapter with its divisions and rules. The saying the biographers repeat, that grammar had been mad until his Uṣūl brought it to reason, is about that order, which most later handbooks follow. He also wrote a short grammar, al-Mūjaz, and a commentary on al-Kitāb that he did not finish. He died young, in 316/929."
+  ],
+  "works": [
+    {
+      "title": "al-Uṣūl fī al-naḥw",
+      "arabic": "الأُصُولُ فِي النَّحْوِ",
+      "kind": "matn"
+    },
+    {
+      "title": "al-Mūjaz fī al-naḥw",
+      "arabic": "المُوجَزُ فِي النَّحْوِ",
+      "kind": "matn"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-nahw",
+    "n": 9,
+    "entry": 39
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 39 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "İbnü's-Serrâc, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibnus-serrac"
+    }
+  ]
+}

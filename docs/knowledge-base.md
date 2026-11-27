@@ -9,7 +9,8 @@ pipeline is in `docs/news.md`.
   six handbooks (al-Kāfiya, al-Shāfiya, al-ʿIzzī, the Alfiyya, al-Ājurrūmiyya, Qaṭr al-nadā; turquoise panel, with
   their photos) beside the masters (a line of the main scholars), then the news in
   its three sections side by side, the curricula and the study portal.
-- **Articles**: `/nahw/` (About naḥw and ṣarf: what each is, why ṣarf comes first) and `/curricula/` (articles
+- **Articles**: `/nahw/` (About naḥw and ṣarf: what each is, why ṣarf comes first, the stories of the grammarians,
+  the ṭabaqāt of the grammarians, Basra and Kufa) and `/curricula/` (articles
   with `book: "nahw"` or `"curricula"`). A curriculum article
   with `madrasa` ends with the books of that study path (`pathBooks` in `lib/course.ts`).
 - **Library** `/books/`: the six handbooks of `lib/kb.ts` `KB_BOOKS` and the works of `background/library.json` in one
@@ -22,11 +23,27 @@ pipeline is in `docs/news.md`.
 - **Scholars** `/scholars/` and `/scholars/<slug>/` (`background/people/`): a search field and three dropdowns, kept
   in the hash (`#period=pre&role=translator`): period (before Islam, died before 632; early, to 1200; post-classical,
   1200–1500; later madrasa, 1500–1900; modern), six broad role groups, and handbook.
+- **Generations of the grammarians** `/scholars/generations/` (`pages/[locale]/scholars/generations.astro`, text in
+  `kb.generations`, styles `.gen-…`): the backbone of the scholars, after the idea of Hanafiatlas's scholars by century
+  and region. An introduction on the ṭabaqāt works (with links to them in the library, kind `biography`); then
+  al-Zubaydī's lists (Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn: the grammarians and lexicographers of Basra and Kufa, the
+  Egyptians, the men of Qayrawān, the Andalusians), each generation a copper tile with its scholars in the order of his
+  entries; then the later grammarians by `school`; then everyone by the hijri century of his death. Beside each name the
+  hijri year of death (`diedHijri` in `lib/kb.ts`), his city (the last of his `places`: list a scholar's places in the
+  order of his life, the place of death last) and his books with a page. Each person has `school` (`SCHOOLS` in the
+  schema: basra, kufa, baghdad, egypt-sham, andalus, maghrib, hijaz-yemen, persia-central-asia, ottoman, india) and,
+  where al-Zubaydī lists him, `tabaqa` `{ list, n, entry }`; `loadBackground` checks that the generation exists in the
+  list, that the list fits the school, and that every Basran and Kufan has his place (`TABAQA_GENERATIONS`). Linked
+  from the scholars page, the home page (under the masters) and each scholar's aside (his school and generation). A
+  person's `name` is his full name and `known` the short one the lists show (`shortName`).
 - **Glossary** `/glossary/` and `/glossary/<slug>/` (`background/concepts/`, schema `BackgroundConcept`): every concept
   of ṣarf and naḥw, free to read without an account, as the knowledge base's way into search: one page per concept with its
   vocalised Arabic and transliteration, a one-sentence definition, an explanation, examples, related concepts, the
   handbooks that treat it and, through `term`, the lesson of the study path that teaches it (which may ask for an
-  account). The A–Z list has a search field and a topic dropdown (`category`, through `scripts/scholars-filter.js`).
+  account). The A–Z list has a search field and a topic dropdown (`category`, through `scripts/scholars-filter.js`); the
+  category `jargon` holds the words of the commentaries and of the Baṣran–Kūfan debate (samāʿ, qiyās, ʿilla, taqdīr,
+  maḥall, wa-fīhi naẓar, fa-in qīla … qultu …). A verb form in an example comes from the engine
+  (`scripts/tasrif.ts`) or is found in a transcribed print (`primers/`), never typed by hand.
   Each term lesson links to its free entry. The header has Glossary as a main item; on a phone it takes the place of
   the Home tab (the logo leads home). It is the site's only A–Z list: `/terms/` redirects here, the term lessons are
   `noindex`, and the word pop-ups link here.

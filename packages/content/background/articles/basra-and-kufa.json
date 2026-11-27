@@ -1,0 +1,57 @@
+{
+  "slug": "basra-and-kufa",
+  "book": "nahw",
+  "title": "Basra and Kufa: the two schools",
+  "order": 5,
+  "summary": "The two schools of early Arabic grammar, what divided them, how their rivalry played out in Baghdad, and how the later books settled the 121 questions of al-Inṣāf.",
+  "sections": [
+    {
+      "heading": "Two cities",
+      "paragraphs": [
+        "Basra and Kufa were the two garrison cities of Iraq, founded in the first years of Islam, and both became centres of learning. Grammar grew up in Basra first: from Abū al-Aswad through Ibn Abī Isḥāq, ʿĪsā ibn ʿUmar and al-Khalīl to Sībawayh, whose al-Kitāb is the book of the Basran school. Kufa came to grammar a generation later, with al-Ruʾāsī, Muʿādh al-Harrāʾ and above all al-Kisāʾī and his student al-Farrāʾ.",
+        "The difference the sources stress is one of method. The Basrans held to analogy (qiyās) and to the speech heard most widely among the Arabs, and set aside what went against it as irregular, poetic licence, or something to be interpreted. The Kufans gave more weight to what was heard (samāʿ), even from a single poet or tribe, and would build a rule on it. The schools also named things differently: khafḍ for jarr, ʿimād for the pronoun of separation, and others."
+      ]
+    },
+    {
+      "heading": "Rivalry in Baghdad",
+      "paragraphs": [
+        "When Baghdad became the capital, the masters of both cities met at court. The masʾala zunbūriyya between Sībawayh and al-Kisāʾī, before the Barmakid vizier, became the emblem of the Kufans' victory at court and of the Basrans' conviction that they had been right. A century later al-Mubarrad and Thaʿlab, the heads of the two schools, taught side by side in Baghdad for decades.",
+        "Their students began to take from both. Ibn Kaysān and al-Akhfash al-Aṣghar heard both masters, and the grammarians of the next century, al-Zajjājī, Abū ʿAlī al-Fārisī and Ibn Jinnī, are often called the Baghdadis, for joining what they found best in the two."
+      ]
+    },
+    {
+      "heading": "The 121 questions",
+      "paragraphs": [
+        "In the sixth/twelfth century Abū al-Barakāt ibn al-Anbārī, teaching at the Niẓāmiyya of Baghdad, gathered the disputed questions into al-Inṣāf fī masāʾil al-khilāf: 121 of them, each with the Kufans' view and arguments, the Basrans' view and arguments, and his own judgement. He modelled the book on the books of legal disagreement, and usually sided with Basra. Among the questions: whether the maṣdar or the past verb is the origin of derivation; whether niʿma and biʾsa are nouns or verbs; which of two verbs governs a noun they both need (tanāzuʿ).",
+        "The later handbooks follow Basra on most points, but Kufan views did not disappear: al-Ājurrūmiyya uses the Kufan khafḍ, Ibn Mālik follows Kufa on some questions, and the commentaries quote 'the Kufans' to the end. A student of the Alfiyya or of Sharḥ Jāmī still meets the two cities on almost every page."
+      ]
+    }
+  ],
+  "people": [
+    "sibawayh",
+    "kisai",
+    "farra",
+    "mubarrad",
+    "thalab",
+    "ibn-kaysan",
+    "ibn-al-anbari"
+  ],
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Enbârî, Kemâleddin, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/enbari-kemaleddin"
+    },
+    {
+      "title": "Kisâî, Ali b. Hamza, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/kisai-ali-b-hamza"
+    },
+    {
+      "title": "Ferrâ, Yahyâ b. Ziyâd, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ferra-yahya-b-ziyad"
+    }
+  ]
+}

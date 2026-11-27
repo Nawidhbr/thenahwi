@@ -1,0 +1,34 @@
+{
+  "items": {
+    "fail-1": {
+      "prompt": "Apa kedudukan zaidun di sini?",
+      "options": [
+        "fa'il",
+        "mubtada'",
+        "maf'ul bih",
+        "khabar"
+      ],
+      "explanation": "Zaidun datang sesudah fi'ilnya dan marfu': fa'il."
+    },
+    "fail-2": {
+      "prompt": "Apa fa'il di sini?",
+      "options": [
+        "-tu di akhirnya",
+        "fi'il qama",
+        "Tidak ada",
+        "huwa yang tersembunyi"
+      ],
+      "explanation": "Dhamir -tu adalah pelakunya: aku telah berdiri."
+    },
+    "fail-3": {
+      "prompt": "Apa keadaan i'rab fa'il?",
+      "options": [
+        "marfu'",
+        "manshub",
+        "majrur",
+        "majzum"
+      ],
+      "explanation": "Fa'il selalu marfu'."
+    }
+  }
+}

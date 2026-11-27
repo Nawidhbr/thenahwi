@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-fail-1": {
+      "prompt": "Apa isim fa'il dari fi'il ini?",
+      "options": [
+        "نَاصِرٌ",
+        "مَنْصُورٌ",
+        "نَصْرٌ",
+        "يَنْصُرُ"
+      ],
+      "explanation": "Dari fi'il mujarrad, isim fa'il berwazan fa'il: nashir."
+    },
+    "ism-fail-2": {
+      "prompt": "Apa isim fa'il dari fi'il ini?",
+      "options": [
+        "مُسْتَغْفِرٌ",
+        "مُسْتَغْفَرٌ",
+        "اِسْتِغْفَارٌ",
+        "يَسْتَغْفِرُ"
+      ],
+      "explanation": "Dari wazan mazid: mim berharakat dhammah di tempat huruf mudhara'ah, dan kasrah sebelum huruf terakhir."
+    },
+    "ism-fail-3": {
+      "prompt": "Apa arti kata ini?",
+      "options": [
+        "yang memuliakan",
+        "yang dimuliakan",
+        "memuliakan",
+        "dia telah memuliakan"
+      ],
+      "explanation": "Kasrah sebelum huruf terakhir menjadikannya isim fa'il dari akrama."
+    }
+  }
+}

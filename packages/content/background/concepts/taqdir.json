@@ -1,0 +1,37 @@
+{
+  "slug": "taqdir",
+  "name": "Supplying what is understood (taqdīr)",
+  "arabic": "التَّقْدِيرُ",
+  "transliteration": "al-taqdīr",
+  "alsoKnownAs": [
+    "taqdir",
+    "taqdīr",
+    "muqaddar",
+    "muqaddara",
+    "irab taqdiri",
+    "iʿrāb taqdīrī",
+    "assumed"
+  ],
+  "category": "jargon",
+  "definition": "Assuming a word, a vowel or a governor that is not pronounced but is needed to explain the iʿrāb: the vowel 'assumed' on a word ending in alif, the hidden subject of a verb, the governor of an adverbial phrase.",
+  "body": [
+    "Taqdīr works at two levels. On the ending of a word it gives the assumed iʿrāb (iʿrāb taqdīrī): in jāʾa al-fatā the ḍamma cannot be pronounced on the final alif and is said to be muqaddara. In the sentence it supplies what is understood: in zaydun fī al-dāri the phrase fī al-dāri hangs on an unspoken word such as 'is settled' (kāʾinun or istaqarra), and a verb has a hidden pronoun as its subject when none is expressed.",
+    "The commentaries are full of it ('its taqdīr is…', 'by the taqdīr of…'), and its overuse was one of Ibn Maḍāʾ's charges against the grammarians."
+  ],
+  "examples": [
+    {
+      "arabic": "جَاءَ الفَتَى",
+      "text": "The young man came: al-fatā is in rafʿ by an assumed ḍamma (muqaddara) on the alif."
+    },
+    {
+      "arabic": "زَيْدٌ فِي الدَّارِ",
+      "text": "Zayd is in the house: the predicate is the phrase fī al-dāri, attached to an understood word ('is settled')."
+    }
+  ],
+  "related": [
+    "mahall",
+    "irab",
+    "tawil"
+  ],
+  "books": []
+}

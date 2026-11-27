@@ -46,6 +46,12 @@ de Engelse bronlijst, `packages/content/i18n/GLOSSARY.md`: Stijl, Woorden onder 
 - **Typografie**: aanhalingstekens "…" (in de JSON: “…”), daarbinnen '…' (‘…’); gedachtestreepje – met spaties;
   rechte apostrof ' ook in "zo'n", "madrasa's". Data zoals in het Engels: "723/1323"; "d." wordt "gest.", "c." wordt
   "ca."; eeuwen als "de 8e/14e eeuw". Geen markdown in JSON-teksten.
+- **Vormen die zonder tekens gelijk worden.** Waar twee vormen of letternamen zonder tekens hetzelfde zouden lezen en
+  geen betekenis ernaast ze onderscheidt, staat een kort woord tussen haken: "[tweevoud]" (qama [tweevoud]
+  al-Zaydani, lan yadriba [tweevoud]), "[meervoud]" (la yansuru [meervoud]), "[met alif]" (nasarna [met alif] = wij
+  hielpen, fa'ala [met alif] = faa'ala, nusra [met alif] = fu'la), "[met lange i]", "[met lange u]", "[met waw]";
+  in toetsopties ook "(met lange a)", "(met lange i)". Letters: ha' (de zware h) = ح, ha' (de lichte h) = ه, de
+  zware ta' = ط naast de ta' = ت, za' (de zware z) = ظ, dad (de zware d), sad (de zware s) waar nodig.
 - **Gereserveerde woorden** (een pop-up herkent het woord overal, dus niet in de gewone betekenis gebruiken):
   - "kalima" en "kalam" alleen als vaktermen; een gewoon woord is een "woord", een uitspraak een "uitspraak";
   - "khabar" alleen voor het gezegde van de mubtada', nooit voor nieuws ("nieuws", "bericht");

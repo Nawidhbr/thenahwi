@@ -1,0 +1,52 @@
+{
+  "slug": "abu-ubayd",
+  "name": "Abū ʿUbayd al-Qāsim ibn Sallām al-Harawī",
+  "known": "Abū ʿUbayd al-Qāsim ibn Sallām",
+  "arabic": "أَبُو عُبَيْدٍ القَاسِمُ بْنُ سَلَّامٍ",
+  "died": "224/838",
+  "places": [
+    "Herat",
+    "Baghdad",
+    "Tarsus",
+    "Mecca"
+  ],
+  "roles": [
+    "author"
+  ],
+  "summary": "Scholar of language, hadith and law, author of Gharīb al-ḥadīth and al-Gharīb al-muṣannaf; judge of Tarsus, who died in Mecca.",
+  "bio": [
+    "Abū ʿUbayd was born in Herat, the son of a Byzantine slave, and learnt the language from the Basrans and the Kufans alike, from al-Aṣmaʿī and Abū ʿUbayda as from al-Kisāʾī and al-Farrāʾ; al-Zubaydī places him in the third generation of the Kufan lexicographers. He served as judge of Tarsus on the Byzantine frontier for eighteen years.",
+    "His Gharīb al-ḥadīth explains the rare words of the hadith and was the model of later books of its kind; al-Gharīb al-muṣannaf arranges the rare words of Arabic by subject; his Kitāb al-Amwāl, on public finance in Islamic law, and his Faḍāʾil al-Qurʾān are classics of their fields. He died in Mecca in 224/838."
+  ],
+  "works": [
+    {
+      "title": "Gharīb al-ḥadīth",
+      "arabic": "غَرِيبُ الحَدِيث",
+      "kind": "other"
+    },
+    {
+      "title": "al-Gharīb al-muṣannaf",
+      "arabic": "الغَرِيبُ المُصَنَّف",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "kufa",
+  "tabaqa": {
+    "list": "kufa-lugha",
+    "n": 3,
+    "entry": 123
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 123 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Ebû Ubeyd, Kāsım b. Sellâm, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ebu-ubeyd-kasim-b-sellam"
+    }
+  ]
+}

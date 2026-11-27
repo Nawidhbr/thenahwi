@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mubtada-1": {
+      "prompt": "Kata mana yang menjadi mubtada' di sini?",
+      "options": [
+        "al-kitabu",
+        "jadidun",
+        "Keduanya",
+        "Tidak keduanya"
+      ],
+      "explanation": "Al-kitabu mengawali jumlah dan dibicarakan: ia mubtada'."
+    },
+    "mubtada-2": {
+      "prompt": "Menurut pendapat yang diikuti kebanyakan kitab, apa yang menjadikan mubtada' marfu'?",
+      "options": [
+        "Keberadaannya di awal (ibtida'), sebuah 'amil ma'nawi",
+        "Fi'il sebelumnya",
+        "Huruf jar",
+        "Khabar sesudahnya"
+      ],
+      "explanation": "Mubtada' tidak punya 'amil lafzhi; keberadaannya di awal itulah 'amilnya."
+    },
+    "mubtada-3": {
+      "prompt": "Mubtada' biasanya…",
+      "options": [
+        "ma'rifah: sesuatu yang dikenal",
+        "nakirah",
+        "fi'il",
+        "huruf"
+      ],
+      "explanation": "Jumlah itu memberitahukan sesuatu tentang apa yang dikenal pendengar, maka mubtada' biasanya ma'rifah."
+    }
+  }
+}

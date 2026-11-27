@@ -1,0 +1,59 @@
+{
+  "slug": "zubaydi",
+  "name": "Abū Bakr Muḥammad ibn al-Ḥasan ibn ʿUbayd Allāh al-Zubaydī al-Ishbīlī",
+  "known": "al-Zubaydī",
+  "arabic": "أَبُو بَكْرٍ الزُّبَيْدِيُّ",
+  "died": "379/989",
+  "places": [
+    "Seville",
+    "Cordoba",
+    "Seville"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Andalusian grammarian, the student of al-Qālī, whose Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, written for the caliph al-Ḥakam II, is the backbone of our generations of the grammarians.",
+  "bio": [
+    "Al-Zubaydī was born in Seville in 316/928 to a family that traced itself to Zubayd in Yemen by way of Ḥimṣ. He learnt from Abū ʿAlī al-Qālī in Cordoba and from Andalusian teachers, became tutor of the future caliph Hishām II, and ended his life as judge of Seville, where he died in 379/989.",
+    "He wrote his Ṭabaqāt at the command of al-Ḥakam II, who, he says in the preface, asked for a book on the grammarians and lexicographers from Abū al-Aswad to his own day. He sets them out by city and generation: the grammarians of Basra in ten generations, those of Kufa in six, the lexicographers of each city, and then the scholars of Egypt, Qayrawān and al-Andalus, in each entry the scholar's teachers and students, books and the reports told of him. The book is the main source of our page on the generations, and its numbering of the entries is given there.",
+    "He also abridged al-Khalīl's Kitāb al-ʿAyn (Mukhtaṣar al-ʿAyn), wrote the earliest Andalusian book on the mistakes of common speech (Laḥn al-ʿawāmm) and a handbook of grammar, al-Wāḍiḥ, and listed the patterns that Sībawayh had left out of al-Kitāb (al-Istidrāk)."
+  ],
+  "works": [
+    {
+      "title": "Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn",
+      "arabic": "طَبَقَاتُ النَّحْوِيِّينَ وَاللُّغَوِيِّين",
+      "kind": "other"
+    },
+    {
+      "title": "Mukhtaṣar al-ʿAyn",
+      "arabic": "مُخْتَصَرُ العَيْن",
+      "kind": "other",
+      "on": "khalil"
+    },
+    {
+      "title": "Laḥn al-ʿawāmm",
+      "arabic": "لَحْنُ العَوَامّ",
+      "kind": "other"
+    },
+    {
+      "title": "al-Wāḍiḥ",
+      "arabic": "الوَاضِح",
+      "kind": "matn"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "andalus",
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Zübeydî, Ebû Bekir, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/zubeydi-ebu-bekir"
+    }
+  ]
+}

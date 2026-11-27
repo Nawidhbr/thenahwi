@@ -196,6 +196,9 @@ keep that file in step with this list. The layout follows the English source lis
 | Jazm / majzūm | الجَزْمُ / مَجْزُومٌ | jazem / majzum | keadaan sukun (fi'il) |
 | The governor / the governed | العَامِلُ / المَعْمُولُ | 'amil / ma'mul | yang mempengaruhi akhir kata / yang dipengaruhi |
 | Verbal / abstract governor | العَامِلُ اللَّفْظِيُّ / المَعْنَوِيُّ | 'amil lafzhi / 'amil ma'nawi | — |
+| Explicit noun / pronoun | الظَّاهِرُ / المُضْمَرُ | isim zhahir / isim dhamir (mudhmar) | — |
+| Attached / separate pronoun | المُتَّصِلُ / المُنْفَصِلُ | dhamir muttashil / munfashil | — |
+| A phrase (jar-majrur or zharaf) as khabar | شِبْهُ الجُمْلَةِ | syibhul jumlah | — |
 | Dropping | الحَذْفُ | hadzf (dibuang) | — |
 | Implied | التَّقْدِيرُ، مُقَدَّرٌ | taqdir, muqaddar (dikira-kirakan) | — |
 | In the place of | فِي مَحَلِّ … | pada tempat (fi mahalli) rafa' / nashab … | — |
@@ -275,3 +278,19 @@ keep that file in step with this list. The layout follows the English source lis
 - Jamak, not “jama'”, in running text; “jama'” only inside a term already used so in the pesantren (jama' taksir is
   also heard: write jamak taksir).
 - Indonesian “-nya” is joined to a term as usual (fa'ilnya, khabarnya).
+- The reader is addressed as **Anda** everywhere (interface, lessons, tasks, tests; decided 2026-11-27): “kemajuan
+  Anda”, never -mu or kamu, except inside the meaning of an Arabic example (أَبُوكَ “bapakmu”, نَصَرَنِي “dia telah
+  menolongku”).
+- Book names in running text and titles: al-Mabadi', Jurumiyah (title: al-Ajurrumiyyah), al-Amtsilah (Emsile), Bina'
+  al-Af'al, al-Maqshud, al-'Izzi, Marah al-Arwah, al-'Awamil (Imam Birgivi), Izhar al-Asrar, al-'Awamil al-Mi'ah
+  (al-Jurjani), Mizan ash-Sharf, Nahw-i Mir, Hidayatun Nahwi, al-Kafiyah, asy-Syafiyah, Syarh Jami (Mulla Jami),
+  Qathrun Nada, Lamiyatul Af'al, Alfiyah. People: Ibnul Hajib, Ibnu 'Aqil, az-Zanjani, 'Abdul Qahir al-Jurjani, al-Jami,
+  Radhiyuddin al-Astarabadzi, Imam Birgivi.
+- Site words: a test is “tes”, the exam before a certificate “ujian”, the exercises of a lesson “tamrin”, a model answer
+  “contoh jawaban”, the encyclopedia's glossary “Glosarium”, the study list of terms “Istilah”, transliteration
+  “transliterasi”, Arabic grammar “tata bahasa Arab”.
+- Patterns that look alike without marks are told apart by a bracketed word: fa'il [dengan alif] (فَاعِل) beside
+  fa'il [dengan ya'] (فَعِيل), fa'ala [dengan alif] (فَاعَلَ) beside fa'ala (فَعَلَ).
+- In meanings of verb forms, the past is “telah …” and the muḍāriʿ “sedang …” or plain (“dia menolong”), as the
+  Amtsilah's translations do; a person is made clear in brackets where the Indonesian pronoun does not show it:
+  “dia (seorang perempuan) menolong”, “kalian (laki-laki)”.

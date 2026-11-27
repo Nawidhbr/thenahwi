@@ -1,0 +1,42 @@
+{
+  "slug": "shalawbin",
+  "name": "Abū ʿAlī ʿUmar ibn Muḥammad al-Azdī al-Ishbīlī al-Shalawbīn",
+  "known": "al-Shalawbīn",
+  "arabic": "الشَّلَوْبِينُ",
+  "died": "645/1247",
+  "places": [
+    "Seville"
+  ],
+  "roles": [
+    "teacher",
+    "commentator"
+  ],
+  "summary": "The teacher of Seville for some sixty years, master of Ibn ʿUṣfūr and of the last great generation of Andalusian grammarians.",
+  "bio": [
+    "Al-Shalawbīn was born in Seville in 562/1166; his name is a Romance word of al-Andalus meaning 'the fair'. He taught grammar in Seville for about sixty years, and most of the Andalusian grammarians of the next generation, Ibn ʿUṣfūr above all, sat with him.",
+    "His short al-Tawṭiʾa is a handbook, and he wrote two commentaries on al-Jazūlī's difficult al-Muqaddima. He left Seville shortly before it fell to Castile and died in 645/1247."
+  ],
+  "works": [
+    {
+      "title": "al-Tawṭiʾa",
+      "arabic": "التَّوْطِئَة",
+      "kind": "matn"
+    },
+    {
+      "title": "Sharḥ al-Muqaddima al-Jazūliyya",
+      "arabic": "شَرْحُ المُقَدِّمَةِ الجُزُولِيَّة",
+      "kind": "sharh",
+      "on": "jazuli"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "andalus",
+  "sources": [
+    {
+      "title": "Şelevbîn, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/selevbin"
+    }
+  ]
+}

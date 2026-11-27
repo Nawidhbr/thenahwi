@@ -1,0 +1,1728 @@
+{
+ "parts": {
+  "opening": "De honderd dingen",
+  "governor": "Hoofdstuk één: de regeerder",
+  "governed": "Hoofdstuk twee: het geregeerde woord",
+  "irab": "Hoofdstuk drie: de i'rab"
+ },
+ "lessons": {
+  "1": {
+   "title": "Honderd dingen: regeerders, geregeerden, i'rab",
+   "body": [
+    "Birgivi opent met een belofte en een getal: wie de i'rab wil kennen, moet honderd dingen kennen. Zestig zijn regeerders ('amil), de woorden of ideeën die een uitgang veroorzaken; dertig zijn geregeerde woorden (ma'mul), de woorden waarvan de uitgang veroorzaakt wordt; tien zijn de uitwerking zelf, de tekens van de i'rab. De hele nahw op dit niveau is een kwestie van oorzaak en gevolg: een regeerder werkt op een geregeerd woord, en de uitgang is wat hij doet.",
+    "Het boek heet al-'Awamil al-jadida, “de nieuwe 'Awamil”, omdat de madrasa al een ouder boek over de regeerders las, al-'Awamil al-mi'a van 'Abd al-Qahir al-Jurjani, “de honderd regeerders”. Birgivi houdt het getal honderd maar verdeelt het anders, in regeerders, geregeerden en i'rab, en geeft elk een hoofdstuk: het eerste over de regeerder, het tweede over het geregeerde woord, het derde over de i'rab.",
+    "De regeerder is van twee soorten. Uitgesproken (lafzi): een woord dat je hoort, zoals het partikel bi- of het werkwoord. Abstract (ma'nawi): helemaal geen woord, maar een idee, zoals dat een naamwoord aan het begin van een zin wordt gezet. De uitgesproken regeerder is weer in tweeën verdeeld. Gehoord (sama'i): woorden die alleen uit het gebruik van de Arabieren bekend zijn en als lijst geleerd moeten worden, negenenveertig in vijf soorten. Naar analogie (qiyasi): een regel die hele klassen van woorden dekt, zoals “elk werkwoord regeert”, negen in totaal. Met de twee abstracte regeerders maakt dat zestig.",
+    "Lees de voorbeelden terwijl je verdergaat. Bijna elke zin die Birgivi geeft, leert iets naast de grammatica: tubtu min kulli dhanbin, “ik heb berouw getoond over elke zonde”; Muhammadun rasulu llahi, “Muhammad is de Gezant van God”. Het kind dat de grammatica leert, leert er de geloofsleer en het gedrag mee, en de madrasa heeft het boek altijd om beide gewaardeerd."
+   ],
+   "terms": [
+    "de regeerder: wat een uitgang veroorzaakt",
+    "het geregeerde woord: waarvan de uitgang veroorzaakt wordt",
+    "de werking van het regeren: de i'rab",
+    "uitgesproken (een woord) en abstract (een idee)",
+    "gehoord (een lijst) en naar analogie (een regel)"
+   ],
+   "examples": [
+    "zestig heten regeerder, dertig geregeerd, tien de werking en de i'rab: het plan van het boek",
+    "tubtu min kulli dhanbin, “ik heb berouw getoond over elke zonde”: min, een gehoorde regeerder, zet kulli in jarr",
+    "Muhammadun rasulu llahi, “Muhammad is de Gezant van God”: de mubtada' in raf' door een abstracte regeerder"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem in tubtu min kulli dhanbin de regeerder, het geregeerde woord en de i'rab die min veroorzaakt.",
+     "answer": "De regeerder is min, een partikel van de jarr (gehoord). Het geregeerde woord is kulli. De werking is jarr, te zien aan de kasra. (Dhanbin staat ook in jarr, maar door idafa: kullu regeert het.)"
+    },
+    {
+     "prompt": "Tel de zestig regeerders van Birgivi op naar hun soorten.",
+     "answer": "Gehoord: 20 partikels van de jarr + 8 die het ism nasb en de khabar raf' geven + 2 die het ism raf' en de khabar nasb geven + 4 die de mudari' in nasb zetten + 15 die hem in jazm zetten = 49. Naar analogie: 9. Abstract: 2. 49 + 9 + 2 = 60."
+    },
+    {
+     "prompt": "Uitgesproken of abstract? (a) de regeerder van Muhammadun in Muhammadun rasulu llahi; (b) de regeerder van kulli in min kulli dhanbin.",
+     "answer": "(a) Abstract: er staat geen woord voor Muhammad; zijn raf' komt doordat hij vooraan gezet is. (b) Uitgesproken: het partikel min."
+    },
+    {
+     "prompt": "Wat is het verschil tussen een gehoorde regeerder en een regeerder naar analogie? Geef van elk een voorbeeld.",
+     "answer": "Een gehoorde regeerder is een woord dat bekend is uit het gebruik van de Arabieren en een voor een uit een lijst geleerd wordt (bijvoorbeeld het partikel min). Een regeerder naar analogie is een regel die een hele klasse van woorden dekt (bijvoorbeeld: elk werkwoord geeft raf' en nasb)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel dingen moet de student van de i'rab volgens Birgivi kennen?",
+     "options": [
+      "Zestig",
+      "Honderd",
+      "Dertig",
+      "Tien"
+     ],
+     "explanation": "Zestig regeerders, dertig geregeerde woorden en tien tekens van de i'rab."
+    },
+    {
+     "prompt": "Hoeveel regeerders zijn er?",
+     "options": [
+      "Negenenveertig",
+      "Dertig",
+      "Zestig",
+      "Honderd"
+     ],
+     "explanation": "Negenenveertig gehoorde, negen naar analogie, twee abstracte."
+    },
+    {
+     "prompt": "Wat is een abstracte (ma'nawi) regeerder?",
+     "options": [
+      "Een regeerder die door horen gekend wordt",
+      "Een regeerder die een werkwoord is",
+      "Een regeerder zonder werking",
+      "Een regeerder die een idee is, geen woord"
+     ],
+     "explanation": "Bijvoorbeeld dat de mubtada' vooraan staat, wat hem in raf' zet."
+    },
+    {
+     "prompt": "Waarom heet het boek al-'Awamil al-jadida, “de nieuwe”?",
+     "options": [
+      "Om het naast al-'Awamil al-mi'a, het oudere boek van al-Jurjani, te zetten",
+      "Omdat het in de vorige eeuw geschreven is",
+      "Omdat het nieuwe, eerder onbekende regeerders onderwijst",
+      "Omdat het in het Turks is"
+     ],
+     "explanation": "Birgivi houdt het getal honderd maar verdeelt het in regeerders, geregeerden en i'rab."
+    },
+    {
+     "prompt": "Wat zijn de drie hoofdstukken van het boek?",
+     "options": [
+      "Het naamwoord, het werkwoord, het partikel",
+      "De regeerder, het geregeerde woord, de i'rab",
+      "Raf', nasb, jarr",
+      "Sarf, nahw, balagha"
+     ],
+     "explanation": "Eén hoofdstuk voor elk van de drie delen van de honderd."
+    },
+    {
+     "prompt": "Hoeveel gehoorde (sama'i) regeerders zijn er?",
+     "options": [
+      "Negen",
+      "Twee",
+      "Negenenveertig",
+      "Twintig"
+     ],
+     "explanation": "In vijf soorten: 20 + 8 + 2 + 4 + 15."
+    },
+    {
+     "prompt": "Wat betekent een regeerder naar analogie (qiyasi)?",
+     "options": [
+      "Een woord dat uit een lijst geleerd wordt",
+      "Een idee zonder woord",
+      "Een woord zonder werking",
+      "Een regel die een hele klasse van woorden dekt"
+     ],
+     "explanation": "Bijvoorbeeld: elk werkwoord geeft raf' en nasb."
+    }
+   ],
+   "diagram": {
+    "caption": "De zestig regeerders: 49 gehoord, 9 naar analogie, 2 abstract.",
+    "labels": {
+     "The governor": "De regeerder",
+     "Expressed (lafẓī)": "Uitgesproken (lafzi)",
+     "Heard (samāʿī): 49": "Gehoord (sama'i): 49",
+     "particles of jarr: 20": "partikels van de jarr: 20",
+     "inna and its kind: 8": "inna en haar soort: 8",
+     "mā and lā like laysa: 2": "ma en la zoals laysa: 2",
+     "naṣb of the verb: 4": "nasb van het werkwoord: 4",
+     "jazm of the verb: 15": "jazm van het werkwoord: 15",
+     "Analogical (qiyāsī): 9": "Naar analogie (qiyasi): 9",
+     "Abstract (maʿnawī): 2": "Abstract (ma'nawi): 2"
+    }
+   }
+  },
+  "2": {
+   "title": "De partikels van de jarr (1)",
+   "body": [
+    "De eerste soort gehoorde regeerder zijn de partikels die één naamwoord in jarr zetten, en maar één: twintig ervan, “de partikels van de jarr en de partikels van de idafa genoemd”. De tweede naam zegt wat ze in betekenis doen: ze verbinden (adafa) de betekenis van een werkwoord met een naamwoord, zoals in tubtu ila llahi, waar ila het “berouw tonen” met God verbindt. Birgivi zegt jarr, het woord van de meeste boeken, waar de Ajurrumiyya khafd zegt.",
+    "De eerste tien, elk met zijn voorbeeld: bi-, “met, in”: amantu bi-llahi wa-bihi la bi-ghayrihi, “ik geloof in God, in Hem en niet in een ander”; min, “van, uit”: tubtu min kulli dhanbin; ila, “naar”: tubtu ila llahi ta'ala, “ik heb mij in berouw tot God gewend”; 'an, “weg van”: kafaftu 'an al-harami, “ik heb mij van het verbodene afgehouden”; 'ala, “op”: tajibu al-tawbatu 'ala kulli mudhnibin, “berouw is een plicht voor elke zondaar”.",
+    "Li-, “voor, behorend aan”: ana 'ubaydun li-llahi ta'ala, “ik ben een kleine dienaar van God”, waarin 'ubayd het verkleinwoord van 'abd is dat de Amthila leerde. Fi, “in”: al-muti'u fi al-jannati, “de gehoorzame is in het Paradijs”. Ka-, “zoals”: laysa ka-mithlihi shay'un, “niets is aan Hem gelijk” (Koran 42:11); veel grammatici houden deze ka- voor toegevoegd ter nadruk, omdat “zoals” al door mithl gezegd wordt. Hatta, “tot”: a'budu llaha ta'ala hatta al-mawti, “ik aanbid God tot de dood”. Rubba, “menig”: rubba talin yal'anuhu al-qur'anu, “menige reciteerder wordt door de Koran vervloekt”.",
+    "Twee opmerkingen. Rubba komt alleen voor een onbepaald naamwoord, hier talin, “een reciteerder”. Zijn ya' is weggevallen en de tanwin staat op een kasra: het naamwoord staat in jarr, maar de jarr wordt op de verloren ya' verondersteld. En hatta heeft in de boeken van de madrasa drie gezichten: een partikel van de jarr hier, een partikel van de 'atf in de Ajurrumiyya (qadima al-hujjaju hatta al-mushatu), en een regeerder van de mudari' (hatta takhruja). Voor een naamwoord in jarr, zoals in hatta al-mawti, is het het eerste."
+   ],
+   "terms": [
+    "de partikels die één naamwoord in jarr zetten",
+    "hun andere naam: ze verbinden de betekenis van een werkwoord met een naamwoord",
+    "het naamwoord in jarr",
+    "de ka- die ter nadruk is toegevoegd (Koran 42:11)"
+   ],
+   "examples": [
+    "amantu bi-llahi wa-bihi la bi-ghayrihi, “ik geloof in God, in Hem en niet in een ander”: bi-",
+    "kafaftu 'an al-harami, “ik heb mij van het verbodene afgehouden”: 'an",
+    "laysa ka-mithlihi shay'un, “niets is aan Hem gelijk” (Koran 42:11): ka-",
+    "rubba talin yal'anuhu al-qur'anu, “menige reciteerder wordt door de Koran vervloekt”: rubba voor een onbepaald naamwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek elk partikel van de jarr en het naamwoord dat het regeert: tubtu ila llahi ta'ala; al-muti'u fi al-jannati; tajibu al-tawbatu 'ala kulli mudhnibin.",
+     "answer": "Ila regeert Allahi; fi regeert al-jannati; 'ala regeert kulli (en kulli regeert mudhnibin door idafa). Elk naamwoord na het partikel staat in jarr met de kasra."
+    },
+    {
+     "prompt": "Wat is 'ubayd in ana 'ubaydun li-llahi, en wat voegt het aan de betekenis toe?",
+     "answer": "Het verkleinwoord van 'abd op het patroon fu'ayl: “een kleine dienaar”. Het drukt nederigheid uit; de li- die volgt, zet Allah in jarr."
+    },
+    {
+     "prompt": "Geef de drie gebruiken van hatta in de tot nu toe gelezen boeken, met van elk een voorbeeld, en zeg welk hatta al-mawti is.",
+     "answer": "Partikel van de jarr: a'budu llaha hatta al-mawti (Birgivi). Partikel van de 'atf: qadima al-hujjaju hatta al-mushatu (de Ajurrumiyya). Regeerder van de nasb van de mudari': ajlisu hatta takhruja. Hatta al-mawti is het eerste: al-mawti staat in jarr."
+    },
+    {
+     "prompt": "Waarom staat er in rubba talin een kasra met tanwin op de lam en geen ya'?",
+     "answer": "Talin, “een reciteerder”, is een naamwoord waarvan de laatste letter een ya' was (tali). Met tanwin valt de ya' weg en staat de tanwin op de kasra ervoor. Het staat in jarr door rubba, waarbij de jarr op de weggevallen ya' verondersteld wordt."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel partikels van de jarr telt Birgivi?",
+     "options": [
+      "Tien",
+      "Vijftien",
+      "Twintig",
+      "Acht"
+     ],
+     "explanation": "Deze les behandelt de eerste tien; de volgende les de andere tien."
+    },
+    {
+     "prompt": "Waarom heten ze ook de partikels van de idafa?",
+     "options": [
+      "Ze komen alleen in idafa-verbindingen",
+      "Het zijn naamwoorden",
+      "Ze zetten het werkwoord in jazm",
+      "Ze verbinden de betekenis van een werkwoord met een naamwoord"
+     ],
+     "explanation": "In tubtu ila llahi verbindt ila het berouw met God."
+    },
+    {
+     "prompt": "Welk partikel betekent “weg van”?",
+     "options": [
+      "'An",
+      "'Ala",
+      "Ila",
+      "Fi"
+     ],
+     "explanation": "Kafaftu 'an al-harami: “ik heb mij van het verbodene afgehouden”."
+    },
+    {
+     "prompt": "In laysa ka-mithlihi shay'un (Koran 42:11) houden veel grammatici de ka- voor…",
+     "options": [
+      "een partikel van de eed",
+      "toegevoegd ter nadruk",
+      "een naamwoord",
+      "een teken van het vrouwelijke"
+     ],
+     "explanation": "“Zoals” wordt al door mithl gezegd."
+    },
+    {
+     "prompt": "Rubba komt voor…",
+     "options": [
+      "een bepaald naamwoord",
+      "een werkwoord",
+      "een onbepaald naamwoord",
+      "alleen een voornaamwoord"
+     ],
+     "explanation": "Rubba talin: “menige reciteerder”."
+    },
+    {
+     "prompt": "In a'budu llaha hatta al-mawti is hatta…",
+     "options": [
+      "een partikel van de 'atf",
+      "een regeerder van de nasb van het werkwoord",
+      "een partikel van de eed",
+      "een partikel van de jarr"
+     ],
+     "explanation": "Het zet al-mawti in jarr."
+    },
+    {
+     "prompt": "Welk woord gebruikt Birgivi voor de toestand op -i?",
+     "options": [
+      "Jarr",
+      "Khafd",
+      "Jazm",
+      "Nasb"
+     ],
+     "explanation": "De Ajurrumiyya zegt khafd; Birgivi, zoals de meeste boeken, jarr."
+    }
+   ],
+   "diagram": {
+    "caption": "De eerste tien partikels van de jarr",
+    "labels": {
+     "Particle": "Partikel",
+     "Meaning": "Betekenis",
+     "Birgivī's example": "Voorbeeld van Birgivi",
+     "الْبَاءُ bi-": "الْبَاءُ bi-",
+     "with, in": "met, in",
+     "مِنْ min": "مِنْ min",
+     "from, of": "van, uit",
+     "إِلَى ilā": "إِلَى ila",
+     "to": "naar",
+     "عَنْ ʿan": "عَنْ 'an",
+     "away from": "weg van",
+     "عَلَى ʿalā": "عَلَى 'ala",
+     "on, upon": "op",
+     "اللَّامُ li-": "اللَّامُ li-",
+     "for, belonging to": "voor, behorend aan",
+     "فِي fī": "فِي fi",
+     "in": "in",
+     "الْكَافُ ka-": "الْكَافُ ka-",
+     "like": "zoals",
+     "حَتَّى ḥattā": "حَتَّى hatta",
+     "until": "tot",
+     "رُبَّ rubba": "رُبَّ rubba",
+     "many a": "menig"
+    }
+   }
+  },
+  "3": {
+   "title": "De partikels van de jarr (2)",
+   "body": [
+    "De tweede tien zijn een gemengd gezelschap: twee partikels van de eed, drie woorden van uitzondering, twee van tijd, en drie die een naamwoord alleen in bepaalde gebruiken in jarr zetten. Samen geleerd maken ze de twintig compleet.",
+    "De eed: wa-llahi la af'alu al-kaba'ira, “bij God, ik bega de grote zonden niet”, met de waw; ta-llahi la-af'alanna al-fara'ida, “bij God, ik zal zeker de verplichtingen doen”, met de ta', die alleen met de naam van God gebruikt wordt. In de tweede is la-af'alanna het antwoord op de eed, met een lam en een nun van nadruk. De uitzondering: halaka al-nasu hasha al-'alimi, “de mensen gaan ten onder, behalve de geleerde”; halaka al-'alimuna khala al-'amili bi-'amalihi, “de geleerden gaan ten onder, behalve wie naar zijn daden handelt”; halaka al-'amiluna 'ada al-mukhlisi, “wie handelen gaan ten onder, behalve de oprechte”. De drie lopen door als een ketting, elke stap nauwer dan de vorige. (Een Ottomaanse lithografie leest in de tweede bi-'ilmihi, “naar zijn kennis”, wat de betere betekenis geeft.)",
+    "Tijd: tubtu min kulli dhanbin fa'altuhu mudh yawmi al-bulughi, “ik heb berouw getoond over elke zonde die ik heb gedaan sinds de dag dat ik volwassen werd”; tajibu al-salatu mundhu yawmi al-bulughi, “het gebed is een plicht vanaf de dag dat men volwassen wordt”. Mudh en mundhu geven het begin van een tijd.",
+    "De laatste drie zetten een naamwoord alleen in bijzondere gevallen in jarr. Lawla met een aangehecht voornaamwoord: lawlaka ya rahmata llahi la-halaka al-nasu, “als jij er niet was, o barmhartigheid van God, waren de mensen ten onder gegaan”; Sibawayh meende dat lawla dan een partikel van de jarr is, terwijl anderen zeggen dat het voornaamwoord op de plaats van de raf' staat. Kay voor de ma van de vraag, verkort tot kaymah: kaymah 'asayta, “waarom was je ongehoorzaam?”. En la'alla in het dialect van de stam 'Uqayl, die zeiden: la'alla llahi ta'ala yaghfiru dhanbi, “misschien vergeeft God mijn zonde”, met jarr; in de gewone taal is la'alla een zuster van inna (volgende les).",
+    "Hetzelfde woord kan dus op verschillende manieren regeren: hasha, khala en 'ada zetten hier een naamwoord in jarr, maar de Ajurrumiyya stond na hen ook nasb toe; la'alla zet zijn naamwoord in het ene dialect in jarr en in alle andere in nasb. Birgivi telt een woord onder de partikels van de jarr overal waar het jarr geeft."
+   ],
+   "terms": [
+    "de waw en de ta' van de eed",
+    "het antwoord op de eed",
+    "woorden van uitzondering die een naamwoord in jarr zetten",
+    "sinds: het begin van een tijd",
+    "het dialect van 'Uqayl, met jarr na la'alla"
+   ],
+   "examples": [
+    "ta-llahi la-af'alanna al-fara'ida, “bij God, ik zal zeker de verplichtingen doen”: de ta' van de eed",
+    "halaka al-nasu hasha al-'alimi, “de mensen gaan ten onder, behalve de geleerde”",
+    "tajibu al-salatu mundhu yawmi al-bulughi, “het gebed is een plicht vanaf de dag dat men volwassen wordt”",
+    "la'alla llahi ta'ala yaghfiru dhanbi: la'alla met jarr, in het dialect van 'Uqayl"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek in elk het partikel van de jarr en zijn naamwoord: halaka al-'amiluna 'ada al-mukhlisi; wa-llahi la af'alu al-kaba'ira; mudh yawmi al-bulughi.",
+     "answer": "'Ada regeert al-mukhlisi; de waw van de eed regeert Allahi; mudh regeert yawmi (en yawmi regeert al-bulughi door idafa)."
+    },
+    {
+     "prompt": "Lees de drie zinnen met hasha, khala en 'ada op volgorde en leg uit hoe ze een ketting vormen.",
+     "answer": "De mensen gaan ten onder behalve de geleerde; de geleerden gaan ten onder behalve wie handelt naar wat hij weet; wie handelen gaan ten onder behalve de oprechte. Elke zin neemt de uitzondering van de vorige als nieuw onderwerp en maakt haar telkens nauwer."
+    },
+    {
+     "prompt": "Wat is kaymah, en wat betekent kaymah 'asayta?",
+     "answer": "Kay, hier een partikel van de jarr, met de ma van de vraag verkort tot ma en een ha' van de pauze: “waarvoor?”, “waarom?”. Kaymah 'asayta: “waarom was je ongehoorzaam?”."
+    },
+    {
+     "prompt": "Waarom heeft la'alla llahi een kasra op de naam van God, terwijl de volgende les la'alla llaha heeft?",
+     "answer": "In het dialect van de stam 'Uqayl is la'alla een partikel van de jarr en zet het het naamwoord erna in jarr. In de gewone taal is het een zuster van inna en zet het zijn ism in nasb: la'alla llaha ta'ala ghafirun dhanbi."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De ta' van de eed wordt gebruikt met…",
+     "options": [
+      "elk naamwoord",
+      "voornaamwoorden",
+      "werkwoorden",
+      "alleen de naam van God"
+     ],
+     "explanation": "Ta-llahi; met andere naamwoorden worden de waw of de ba' gebruikt."
+    },
+    {
+     "prompt": "In halaka al-nasu hasha al-'alimi is hasha…",
+     "options": [
+      "een partikel van de jarr dat voor uitzondering gebruikt wordt",
+      "een madi",
+      "een partikel van de eed",
+      "een naamwoord van plaats"
+     ],
+     "explanation": "Al-'alimi staat erdoor in jarr."
+    },
+    {
+     "prompt": "Wat geven mudh en mundhu?",
+     "options": [
+      "Het eind van een tijd: tot",
+      "Het begin van een tijd: sinds",
+      "Een plaats",
+      "Een eed"
+     ],
+     "explanation": "Mudh yawmi al-bulughi: sinds de dag van het volwassen worden."
+    },
+    {
+     "prompt": "In het dialect van 'Uqayl…",
+     "options": [
+      "zet la'alla zijn naamwoord in nasb",
+      "zet la'alla het werkwoord in jazm",
+      "zet la'alla zijn naamwoord in jarr",
+      "regeert la'alla niets"
+     ],
+     "explanation": "La'alla llahi ta'ala yaghfiru dhanbi."
+    },
+    {
+     "prompt": "Wat meende Sibawayh over lawla met een voornaamwoord (lawlaka)?",
+     "options": [
+      "Dat het een werkwoord is",
+      "Dat het voornaamwoord in nasb staat",
+      "Dat het een fout is",
+      "Dat lawla dan een partikel van de jarr is"
+     ],
+     "explanation": "Anderen zeggen dat het voornaamwoord op de plaats van de raf' staat."
+    },
+    {
+     "prompt": "Wat betekent kaymah 'asayta?",
+     "options": [
+      "Waarom was je ongehoorzaam?",
+      "Opdat je ongehoorzaam bent",
+      "Je was niet ongehoorzaam",
+      "Toen je ongehoorzaam was"
+     ],
+     "explanation": "Kay met de ma van de vraag: “waarvoor?”."
+    },
+    {
+     "prompt": "In ta-llahi la-af'alanna al-fara'ida is la-af'alanna…",
+     "options": [
+      "een partikel van de jarr",
+      "het antwoord op de eed",
+      "een naamwoord in jarr",
+      "de regeerder van Allahi"
+     ],
+     "explanation": "De eed wordt beantwoord met een lam en een nun van nadruk."
+    }
+   ],
+   "diagram": {
+    "caption": "De tweede tien partikels van de jarr",
+    "labels": {
+     "Particle": "Partikel",
+     "Use": "Gebruik",
+     "Birgivī's example": "Voorbeeld van Birgivi",
+     "وَاوُ الْقَسَمِ wa-": "وَاوُ الْقَسَمِ wa-",
+     "oath": "eed",
+     "تَاءُ الْقَسَمِ ta-": "تَاءُ الْقَسَمِ ta-",
+     "oath, with God's name only": "eed, alleen met de naam van God",
+     "حَاشَا ḥāshā": "حَاشَا hasha",
+     "exception": "uitzondering",
+     "مُذْ mudh": "مُذْ mudh",
+     "since": "sinds",
+     "مُنْذُ mundhu": "مُنْذُ mundhu",
+     "خَلَا khalā": "خَلَا khala",
+     "عَدَا ʿadā": "عَدَا 'ada",
+     "لَوْلَا lawlā": "لَوْلَا lawla",
+     "with a pronoun": "met een voornaamwoord",
+     "كَيْ kay": "كَيْ kay",
+     "with the mā of the question": "met de ma van de vraag",
+     "لَعَلَّ laʿalla": "لَعَلَّ la'alla",
+     "in the dialect of ʿUqayl": "in het dialect van 'Uqayl"
+    }
+   }
+  },
+  "4": {
+   "title": "Inna en haar zusters, illa en la",
+   "body": [
+    "De tweede soort gehoorde regeerder zijn acht partikels die het ism in nasb zetten en de khabar in raf'. Zes zijn die van de Ajurrumiyya, “de partikels die op het werkwoord lijken genoemd”: inna, anna, ka'anna, lakinna, layta, la'alla. Birgivi voegt er nog twee toe die hetzelfde werk doen: illa in de onderbroken uitzondering, en la die de hele soort ontkent. Zijn lijst is opgesteld naar wat een woord doet, niet naar wat het betekent.",
+    "Zijn voorbeelden leren de geloofsleer. Inna llaha ta'ala 'alimu kulli shay'in, “God de Verhevene kent alle dingen”; a'taqidu anna llaha ta'ala qadirun 'ala kulli shay'in, “ik geloof dat God de Verhevene macht heeft over alle dingen”, waarin anna binnen de zin staat als maf'ul bihi van a'taqidu. Ka'anna al-harama narun, “het is alsof het verbodene vuur is”. Ma faza al-jahilu lakinna al-'alima fa'izun, “de onwetende slaagt niet, maar de geleerde slaagt”. Layta al-'ilma marzuqun li-kulli ahadin, “was kennis maar aan iedereen geschonken”. La'alla llaha ta'ala ghafirun dhanbi, “misschien vergeeft God de Verhevene mijn zonde”.",
+    "Illa in de onderbroken uitzondering (al-istithna' al-munqati'), waarin het uitgezonderde niet van de soort is van wat ervoor kwam: al-ma'siyatu mub'idatun 'an al-jannati illa al-ta'ata muqarribatun minha, “zonde brengt ver van het Paradijs, maar gehoorzaamheid brengt er dichtbij”. Gehoorzaamheid is geen soort zonde, dus wordt ze er niet uit gehaald; illa betekent hier “maar”, en Birgivi telt het bij lakinna: al-ta'ata zijn ism in nasb, muqarribatun zijn khabar in raf'.",
+    "La die de hele soort ontkent: la fa'ila sharrin fa'izun, “geen kwaaddoener slaagt”. Haar ism fa'ila sharrin is verbonden met het woord erna, dus laat het een gewone fatha zien (het enkelvoudige naamwoord van de Ajurrumiyya, la rajula, had een vaste uitgang zonder tanwin); haar khabar fa'izun staat in raf'.",
+    "Bij de i'rab benoemt de madrasa elk deel: inna, een partikel dat op het werkwoord lijkt, van nadruk; llaha, zijn ism, in nasb; 'alimu, zijn khabar, in raf', en het eerste lid van een idafa; kulli, in jarr als tweede lid; shay'in, in jarr als tweede lid van een tweede idafa."
+   ],
+   "terms": [
+    "de zes partikels die op het werkwoord lijken",
+    "de onderbroken uitzondering: het uitgezonderde is van een andere soort",
+    "de la die de hele soort ontkent",
+    "het ism van inna (nasb) en zijn khabar (raf')"
+   ],
+   "examples": [
+    "inna llaha ta'ala 'alimu kulli shay'in, “God de Verhevene kent alle dingen”",
+    "ka'anna al-harama narun, “het is alsof het verbodene vuur is”",
+    "zonde brengt ver van het Paradijs, maar gehoorzaamheid brengt er dichtbij: illa met de betekenis “maar”",
+    "la fa'ila sharrin fa'izun, “geen kwaaddoener slaagt”: la met een ism dat met het volgende woord verbonden is"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het ism en de khabar van elk partikel, met hun toestanden: ka'anna al-harama narun; layta al-'ilma marzuqun li-kulli ahadin; la fa'ila sharrin fa'izun.",
+     "answer": "Ka'anna: ism al-harama (nasb), khabar narun (raf'). Layta: ism al-'ilma (nasb), khabar marzuqun (raf'). La: ism fa'ila (nasb, verbonden met sharrin), khabar fa'izun (raf')."
+    },
+    {
+     "prompt": "Waarom telt Birgivi illa onder deze regeerders in al-ma'siyatu mub'idatun 'an al-jannati illa al-ta'ata muqarribatun minha?",
+     "answer": "De uitzondering is onderbroken: gehoorzaamheid is geen soort zonde, dus wordt er niets uit de eerste uitspraak gehaald. Illa betekent dan “maar”, zoals lakinna, en werkt zoals het: al-ta'ata is zijn ism in nasb en muqarribatun zijn khabar in raf'."
+    },
+    {
+     "prompt": "Geef de volledige i'rab van inna llaha ta'ala 'alimu kulli shay'in.",
+     "answer": "Inna: een partikel dat op het werkwoord lijkt, van nadruk. Llaha: zijn ism, in nasb met de fatha. Ta'ala: een werkwoord met zijn verborgen fa'il, een zin van lof die ertussen staat (“verheven is Hij”). 'Alimu: de khabar van inna, in raf' met de damma, en het eerste lid van een idafa. Kulli: in jarr als tweede lid, en zelf het eerste lid van een andere. Shay'in: in jarr als tweede lid."
+    },
+    {
+     "prompt": "Hoe verschilt de lijst van deze regeerders bij Birgivi van de zusters van inna in de Ajurrumiyya?",
+     "answer": "De Ajurrumiyya geeft de zes partikels die op het werkwoord lijken. Birgivi voegt illa in de onderbroken uitzondering en de la van de soort toe, omdat ze hetzelfde werk doen: nasb van het ism, raf' van de khabar."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat doen de acht partikels van deze soort?",
+     "options": [
+      "Nasb van het ism, raf' van de khabar",
+      "Raf' van het ism, nasb van de khabar",
+      "Jarr van één naamwoord",
+      "Nasb van de mudari'"
+     ],
+     "explanation": "Inna llaha … 'alimu."
+    },
+    {
+     "prompt": "Welke twee voegt Birgivi toe aan de zes van de Ajurrumiyya?",
+     "options": [
+      "Ma en la zoals laysa",
+      "Illa in de onderbroken uitzondering en de la van de soort",
+      "Lam en lamma",
+      "Kana en sara"
+     ],
+     "explanation": "Ze doen hetzelfde werk als inna."
+    },
+    {
+     "prompt": "Wat is een onderbroken (munqati') uitzondering?",
+     "options": [
+      "Een zonder mustathna minhu",
+      "Een met een ontkenning",
+      "Een waarin het uitgezonderde niet van de soort is van wat ervoor kwam",
+      "Een met ghayr"
+     ],
+     "explanation": "Gehoorzaamheid is geen soort zonde."
+    },
+    {
+     "prompt": "Waarom laat fa'ila in la fa'ila sharrin fa'izun een gewone fatha zien?",
+     "options": [
+      "Het is een werkwoord",
+      "Het is een diptoot",
+      "Het staat in raf'",
+      "Het is verbonden met het volgende woord (mudaf)"
+     ],
+     "explanation": "Een enkelvoudig naamwoord na la heeft een vaste uitgang; een mudaf-naamwoord staat in nasb."
+    },
+    {
+     "prompt": "In a'taqidu anna llaha ta'ala qadirun is de bijzin met anna…",
+     "options": [
+      "de maf'ul bihi van a'taqidu",
+      "de fa'il van a'taqidu",
+      "een hal",
+      "een khabar"
+     ],
+     "explanation": "Anna staat binnen de zin, met zijn bijzin op de plaats van een naamwoord."
+    },
+    {
+     "prompt": "Welk partikel betekent “was … maar”?",
+     "options": [
+      "La'alla",
+      "Layta",
+      "Ka'anna",
+      "Lakinna"
+     ],
+     "explanation": "Layta al-'ilma marzuqun li-kulli ahadin."
+    },
+    {
+     "prompt": "Waarnaar groepeert Birgivi zijn regeerders?",
+     "options": [
+      "Naar hun betekenis",
+      "Naar hun lengte",
+      "Naar wat ze doen met de woorden die ze regeren",
+      "Naar hun herkomst"
+     ],
+     "explanation": "Daarom staan illa en la naast inna."
+    }
+   ],
+   "diagram": {
+    "caption": "De acht die het ism in nasb zetten en de khabar in raf'",
+    "labels": {
+     "Particle": "Partikel",
+     "Meaning": "Betekenis",
+     "Birgivī's example": "Voorbeeld van Birgivi",
+     "إِنَّ inna": "إِنَّ inna",
+     "emphasis": "nadruk",
+     "أَنَّ anna": "أَنَّ anna",
+     "emphasis, inside a sentence": "nadruk, binnen een zin",
+     "كَأَنَّ kaʾanna": "كَأَنَّ ka'anna",
+     "as if": "alsof",
+     "لَكِنَّ lākinna": "لَكِنَّ lakinna",
+     "but": "maar",
+     "لَيْتَ layta": "لَيْتَ layta",
+     "if only": "was … maar",
+     "لَعَلَّ laʿalla": "لَعَلَّ la'alla",
+     "perhaps": "misschien",
+     "إِلَّا illā": "إِلَّا illa",
+     "but (cut-off exception)": "maar (onderbroken uitzondering)",
+     "لَا lā": "لَا la",
+     "no … at all": "geen enkel …"
+    }
+   }
+  },
+  "5": {
+   "title": "Ma en la zoals laysa; de vier regeerders van de nasb",
+   "body": [
+    "De derde soort zijn twee partikels die het omgekeerde van inna doen: ze zetten het ism in raf' en de khabar in nasb, zoals laysa, “is niet”. Het zijn ma en la “die op laysa lijken”: ma llahu ta'ala mutamakkinan bi-makanin, “God de Verhevene is niet gevestigd op een plaats”; la shay'un mushabihan li-llahi ta'ala, “niets lijkt op God de Verhevene”. Beide zinnen zijn punten van de geloofsleer: God is niet op een plaats, en niets lijkt op Hem.",
+    "Ma op deze manier gebruikt is het gebruik van de mensen van de Hijaz, de taal van de Koran, en de grammatici noemen het ma al-hijaziyya; de stam Tamim liet ma niets regeren. La werkt zoals laysa met een onbepaald naamwoord, zoals shay'un hier. Zet dit naast de vorige les en dezelfde la verschijnt met tegengestelde werkingen: la fa'ila sharrin fa'izun, ism in nasb en khabar in raf' (de la van de soort); la shay'un mushabihan, ism in raf' en khabar in nasb (de la zoals laysa). De uitgangen zeggen je welke la je voor je hebt.",
+    "De vierde soort zijn vier partikels die de mudari' in nasb zetten: an: uhibbu an uti'a llaha ta'ala, “ik houd ervan God de Verhevene te gehoorzamen”; lan: lan yaghfira llahu ta'ala li-l-kafirina, “God de Verhevene zal de ongelovigen nooit vergeven”; kay: uhibbu tula al-'umuri kay uhassila al-'ilma, “ik houd van een lang leven opdat ik kennis verwerf”; idhan: idhan tadkhula al-jannata, “dan zul je het Paradijs binnengaan”, gezegd tegen iemand die zegt “ik gehoorzaam God”.",
+    "De Ajurrumiyya telde tien regeerders van de nasb; Birgivi telt er vier. Hij volgt de opvatting van Basra dat de lam van kay, de lam van de ontkenning, hatta en de fa', de waw en aw van het antwoord het werkwoord in nasb zetten via een an die verondersteld wordt, dus zijn het geen regeerders op zichzelf. De student in de madrasa die beide boeken leest, leert de twee tellingen en waarom ze verschillen."
+   ],
+   "terms": [
+    "ma en la zoals laysa: raf' van het ism, nasb van de khabar",
+    "de ma van de Hijaz, die werkt zoals laysa",
+    "de regeerders van de nasb van de mudari': an, lan, kay, idhan",
+    "de veronderstelde an, volgens de opvatting van Basra"
+   ],
+   "examples": [
+    "ma llahu ta'ala mutamakkinan bi-makanin, “God de Verhevene is niet gevestigd op een plaats”",
+    "la shay'un mushabihan li-llahi ta'ala, “niets lijkt op God de Verhevene”",
+    "uhibbu an uti'a llaha ta'ala, “ik houd ervan God de Verhevene te gehoorzamen”: an met het werkwoord in nasb",
+    "idhan tadkhula al-jannata, “dan zul je het Paradijs binnengaan”: idhan als antwoord op wat gezegd werd"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het ism en de khabar, met hun toestanden: ma llahu ta'ala mutamakkinan bi-makanin; la shay'un mushabihan li-llahi ta'ala.",
+     "answer": "Ma: ism llahu (raf'), khabar mutamakkinan (nasb). La: ism shay'un (raf'), khabar mushabihan (nasb)."
+    },
+    {
+     "prompt": "La fa'ila sharrin fa'izun en la shay'un mushabihan: welke la is elk, en hoe laten de uitgangen het zien?",
+     "answer": "De eerste is de la van de hele soort: haar ism staat in nasb (fa'ila) en haar khabar in raf' (fa'izun). De tweede is de la zoals laysa: haar ism staat in raf' (shay'un) en haar khabar in nasb (mushabihan)."
+    },
+    {
+     "prompt": "Zoek de regeerder van de nasb en het werkwoord dat hij regeert: lan yaghfira llahu ta'ala li-l-kafirina; uhibbu tula al-'umuri kay uhassila al-'ilma.",
+     "answer": "Lan regeert yaghfira, in nasb met de fatha. Kay regeert uhassila, in nasb met de fatha."
+    },
+    {
+     "prompt": "Waarom telt Birgivi vier regeerders van de nasb waar de Ajurrumiyya er tien telt?",
+     "answer": "Hij volgt de opvatting van Basra: alleen an, lan, kay en idhan regeren uit zichzelf. Na de lam van kay, de lam van de ontkenning, hatta en de fa', de waw en aw van het antwoord staat het werkwoord in nasb door een veronderstelde an."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat doen ma en la zoals laysa?",
+     "options": [
+      "Nasb van het ism, raf' van de khabar",
+      "Raf' van het ism, nasb van de khabar",
+      "Jarr van het naamwoord",
+      "Jazm van het werkwoord"
+     ],
+     "explanation": "Ma llahu … mutamakkinan."
+    },
+    {
+     "prompt": "Ma die werkt zoals laysa is het gebruik van…",
+     "options": [
+      "de stam Tamim",
+      "de stam 'Uqayl",
+      "de mensen van de Hijaz",
+      "Perzischsprekenden"
+     ],
+     "explanation": "Vandaar zijn naam, ma al-hijaziyya."
+    },
+    {
+     "prompt": "In la shay'un mushabihan li-llahi is mushabihan…",
+     "options": [
+      "het ism van la, in nasb",
+      "een hal",
+      "de maf'ul bihi",
+      "de khabar van la, in nasb"
+     ],
+     "explanation": "La zoals laysa zet de khabar in nasb."
+    },
+    {
+     "prompt": "Hoeveel regeerders van de nasb van de mudari' telt Birgivi?",
+     "options": [
+      "Vier",
+      "Tien",
+      "Vijftien",
+      "Twee"
+     ],
+     "explanation": "An, lan, kay, idhan."
+    },
+    {
+     "prompt": "Idhan tadkhula al-jannata wordt gezegd…",
+     "options": [
+      "aan het begin van een toespraak",
+      "als antwoord aan iemand die zegt “ik gehoorzaam God”",
+      "om te verbieden",
+      "in een eed"
+     ],
+     "explanation": "Idhan beantwoordt wat gezegd werd: “dan zul je het Paradijs binnengaan”."
+    },
+    {
+     "prompt": "Welke is de la zoals laysa?",
+     "options": [
+      "La fa'ila sharrin fa'izun",
+      "La tudhnib",
+      "La shay'un mushabihan",
+      "La af'alu al-kaba'ira"
+     ],
+     "explanation": "Ism in raf', khabar in nasb."
+    },
+    {
+     "prompt": "Volgens de opvatting van Basra staat het werkwoord na hatta in nasb door…",
+     "options": [
+      "hatta zelf",
+      "niets",
+      "lan",
+      "een veronderstelde an"
+     ],
+     "explanation": "Daarom telt Birgivi hatta niet onder de regeerders van de nasb."
+    }
+   ],
+   "diagram": {
+    "caption": "De derde en vierde soort gehoorde regeerder",
+    "labels": {
+     "Governor": "Regeerder",
+     "What it does": "Wat hij doet",
+     "Birgivī's example": "Voorbeeld van Birgivi",
+     "مَا mā": "مَا ma",
+     "rafʿ of the noun, naṣb of the khabar": "raf' van het ism, nasb van de khabar",
+     "لَا lā": "لَا la",
+     "the same, with an indefinite noun": "hetzelfde, met een onbepaald naamwoord",
+     "أَنْ an": "أَنْ an",
+     "naṣb of the present": "nasb van de mudari'",
+     "لَنْ lan": "لَنْ lan",
+     "كَيْ kay": "كَيْ kay",
+     "إِذَنْ idhan": "إِذَنْ idhan"
+    }
+   }
+  },
+  "6": {
+   "title": "De vijftien regeerders van de jazm",
+   "body": [
+    "De vijfde soort gehoorde regeerder zijn vijftien woorden die de mudari' in jazm zetten. Vier regeren maar één werkwoord: lam: lam yalid wa-lam yulad, “Hij verwekte niet en werd niet verwekt” (Koran 112:3); lamma: lamma yanfa' 'umuri, “mijn leven is nog niet van nut geweest”; de lam van het gebod: li-ya'mal 'amalan salihan, “laat hem een goede daad doen”; en de la van het verbod: la tudhnib, “zondig niet”.",
+    "Elf regeren twee werkwoorden, “voorwaarde en vergelding genoemd” (shart en jaza'): in, mahma, ma, man, ayna, mata, anna, ayy, haythuma, idhma en idha ma. In in tatub tughfar dhunubuka, “als je berouw toont, worden je zonden vergeven”, is tatub de voorwaarde en tughfar de vergelding, beide in jazm. Man ya'mal 'amalan salihan yakun najiyan, “wie een goede daad doet, zal gered worden”. Ayna takun yudrikka al-mawtu, “waar je ook bent, de dood zal je inhalen”. Mata tahsud tahlik, “wanneer je ook afgunstig bent, ga je ten onder”.",
+    "Elk woord van de voorwaarde voegt zijn betekenis toe: in “als”, man “wie ook”, ma en mahma “wat ook”, ayna, anna en haythuma “waar ook”, mata “wanneer ook”, ayy “welke ook”: ayyu 'alimin yatakabbar yubghidhu llahu ta'ala, “welke geleerde ook hoogmoedig is, God haat hem”. Idhma en idha ma betekenen “wanneer ook, als”: idha ma ta'mal bi-'ilmika takun khayra al-nasi, “als je naar je kennis handelt, zul je de beste van de mensen zijn”.",
+    "Vergelijk de achttien van de Ajurrumiyya. Birgivi laat alam en alamma weg, die lam en lamma met de hamza van de vraag zijn, kayfama, dat Basra niet meetelt, en ayyana; en waar de Ajurrumiyya idha in poëzie heeft, heeft hij idha ma. Achter beide lijsten staat dezelfde regel: één werkwoord in jazm na de eerste vier, twee na de woorden van de voorwaarde.",
+    "Kijk naar de werkwoorden in jazm: verscheidene zijn zwak. Tatub van tatubu en takun van takunu verliezen de lange klinker voor de sukun; lam yalid heeft de waw van zijn wortel al in de mudari' verloren. De boeken van de sarf, de Bina en de Maqsud, leggen deze veranderingen uit; hier is het genoeg dat het teken van de jazm de sukun op de laatste letter is."
+   ],
+   "terms": [
+    "de regeerders van de jazm: vijftien in dit boek",
+    "de voorwaarde: het eerste werkwoord",
+    "de vergelding: het tweede werkwoord, het antwoord",
+    "de woorden van de voorwaarde: in, man, ma …"
+   ],
+   "examples": [
+    "lam yalid wa-lam yulad, “Hij verwekte niet en werd niet verwekt” (Koran 112:3): lam, één werkwoord",
+    "la tudhnib, “zondig niet”: de la van het verbod",
+    "in tatub tughfar dhunubuka, “als je berouw toont, worden je zonden vergeven”: voorwaarde en vergelding",
+    "man ya'mal 'amalan salihan yakun najiyan, “wie een goede daad doet, zal gered worden”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de voorwaarde en de vergelding, en het teken van de jazm van elk: man ya'mal 'amalan salihan yakun najiyan; mata tahsud tahlik.",
+     "answer": "Man: voorwaarde ya'mal, vergelding yakun; beide in jazm met de sukun (yakun heeft zijn lange u voor de sukun verloren). Mata: voorwaarde tahsud, vergelding tahlik; beide in jazm met de sukun."
+    },
+    {
+     "prompt": "Welke vier van de vijftien zetten maar één werkwoord in jazm? Geef van elk het voorbeeld van Birgivi.",
+     "answer": "Lam (lam yalid wa-lam yulad), lamma (lamma yanfa' 'umuri), de lam van het gebod (li-ya'mal 'amalan salihan) en de la van het verbod (la tudhnib)."
+    },
+    {
+     "prompt": "Wat is dhunubuka in in tatub tughfar dhunubuka, en waarom is tughfar passief?",
+     "answer": "Tughfar is de passieve mudari' in jazm (de vergelding): “zal vergeven worden”. Dhunubuka is zijn na'ib al-fa'il, in raf': “je zonden”. Wie vergeeft, wordt niet genoemd."
+    },
+    {
+     "prompt": "Welke regeerders van de jazm van de Ajurrumiyya laat Birgivi weg, en wat heeft hij in plaats van idha?",
+     "answer": "Hij laat alam en alamma weg (lam en lamma met de hamza van de vraag), kayfama en ayyana. In plaats van idha (alleen in poëzie) heeft hij idha ma."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel regeerders van de jazm telt Birgivi?",
+     "options": [
+      "Achttien",
+      "Vier",
+      "Vijftien",
+      "Elf"
+     ],
+     "explanation": "Vier van één werkwoord en elf van twee."
+    },
+    {
+     "prompt": "Welke regeert twee werkwoorden?",
+     "options": [
+      "Lam",
+      "Lamma",
+      "De la van het verbod",
+      "Man"
+     ],
+     "explanation": "De woorden van de voorwaarde regeren de voorwaarde en de vergelding."
+    },
+    {
+     "prompt": "Hoe noemt Birgivi de twee werkwoorden na een woord van de voorwaarde?",
+     "options": [
+      "Voorwaarde en vergelding (shart en jaza')",
+      "Mubtada' en khabar",
+      "Fa'il en maf'ul bihi",
+      "Ism en khabar"
+     ],
+     "explanation": "Het tweede is het antwoord, dat hij vergelding noemt."
+    },
+    {
+     "prompt": "In ayna takun yudrikka al-mawtu is al-mawtu…",
+     "options": [
+      "de maf'ul bihi",
+      "de fa'il van yudrik, in raf'",
+      "de voorwaarde",
+      "in jazm"
+     ],
+     "explanation": "De dood haalt je in: al-mawtu is de fa'il; -ka is de maf'ul bihi."
+    },
+    {
+     "prompt": "Welke van deze staat niet in de lijst van Birgivi?",
+     "options": [
+      "Mahma",
+      "Idhma",
+      "Kayfama",
+      "Haythuma"
+     ],
+     "explanation": "Basra telt kayfama niet mee; de Ajurrumiyya volgt Kufa."
+    },
+    {
+     "prompt": "Mata tahsud tahlik betekent…",
+     "options": [
+      "Als je afgunstig was, ging je ten onder",
+      "Wees niet afgunstig",
+      "Je zult nooit afgunstig zijn",
+      "Wanneer je ook afgunstig bent, ga je ten onder"
+     ],
+     "explanation": "Mata: “wanneer ook”."
+    },
+    {
+     "prompt": "Wat is het teken van de jazm in la tudhnib?",
+     "options": [
+      "De sukun",
+      "Het wegvallen van de nun",
+      "De fatha",
+      "Het wegvallen van een zwakke letter"
+     ],
+     "explanation": "Tudhnibu → la tudhnib."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijftien regeerders van de jazm van Birgivi",
+    "labels": {
+     "Governor": "Regeerder",
+     "Verbs": "Werkwoorden",
+     "Birgivī's example": "Voorbeeld van Birgivi",
+     "لَمْ lam": "لَمْ lam",
+     "one": "één",
+     "لَمَّا lammā": "لَمَّا lamma",
+     "لَامُ الْأَمْرِ li-": "لَامُ الْأَمْرِ li-",
+     "لَا النَّاهِيَةُ lā": "لَا النَّاهِيَةُ la",
+     "إِنْ in": "إِنْ in",
+     "two": "twee",
+     "مَهْمَا mahmā": "مَهْمَا mahma",
+     "مَا mā": "مَا ma",
+     "مَنْ man": "مَنْ man",
+     "أَيْنَ ayna": "أَيْنَ ayna",
+     "مَتَى matā": "مَتَى mata",
+     "أَنَّى annā": "أَنَّى anna",
+     "أَيٌّ ayy": "أَيٌّ ayy",
+     "حَيْثُمَا ḥaythumā": "حَيْثُمَا haythuma",
+     "إِذْمَا idhmā": "إِذْمَا idhma",
+     "إِذَا مَا idhā mā": "إِذَا مَا idha ma"
+    }
+   }
+  },
+  "7": {
+   "title": "Het werkwoord als regeerder: volledig en onvolledig",
+   "body": [
+    "Nu de regeerders naar analogie, negen regels die elk een hele klasse van woorden dekken. De eerste en grootste is het werkwoord: “elk werkwoord geeft raf' en nasb”. In khalaqa llahu ta'ala kulla shay'in, “God de Verhevene schiep alle dingen”, geeft het werkwoord raf' aan zijn fa'il en nasb aan zijn maf'ul bihi. En zelfs een werkwoord zonder voorwerp geeft iets nasb: nazala al-qur'anu nuzulan, “de Koran daalde neer, een neerdalen”, waarin nuzulan een absoluut voorwerp is. Een werkwoord kan een maf'ul bihi missen, maar nooit de kracht om iets in nasb te zetten: zijn masdar, een tijd, een plaats, een toestand.",
+    "“Elk werkwoord moet een naamwoord in raf' hebben.” Is de uitspraak met dat naamwoord volledig, dan is het werkwoord volledig (tamm): 'alima llahu ta'ala, “God de Verhevene wist”. Is ze dat niet, maar heeft ze ook een khabar in nasb nodig, dan is het werkwoord onvolledig (naqis): kana llahu ta'ala 'aliman hakiman, “God de Verhevene is Alwetend, Alwijs”.",
+    "De onvolledige werkwoorden zijn de zusters van kana van de Ajurrumiyya, en Birgivi geeft er verscheidene van met zinnen uit de geloofsleer en de fiqh: sara al-'asi mustahiqqan li-l-'adhabi, “de ongehoorzame is de straf waardig geworden”; ma zala al-mudhnibu ba'idan min allahi ta'ala, “de zondaar is nog steeds ver van God”; tuqbalu al-tawbatu ma dama al-ruhu dakhilan fi al-badani, “berouw wordt aanvaard zolang de ziel in het lichaam is”; laysa llahu ta'ala jisman, “God de Verhevene is geen lichaam”.",
+    "Waar de Ajurrumiyya kana behandelde onder de woorden die op de mubtada' en de khabar inwerken, behandelt Birgivi het als een werkwoord, geregeerd door dezelfde regel als elk werkwoord, en het verschil tussen volledig en onvolledig is alleen of het naamwoord in raf' genoeg is. In kana llahu 'aliman is het naamwoord in raf' llahu, het ism van kana, en 'aliman zijn khabar in nasb."
+   ],
+   "terms": [
+    "het volledige werkwoord: zijn naamwoord in raf' maakt het volledig",
+    "het onvolledige werkwoord: het heeft een khabar in nasb nodig",
+    "de regeerder naar analogie: een regel voor een klasse van woorden",
+    "het absolute voorwerp: nuzulan in nazala … nuzulan"
+   ],
+   "examples": [
+    "khalaqa llahu ta'ala kulla shay'in, “God de Verhevene schiep alle dingen”: raf' van de fa'il, nasb van de maf'ul bihi",
+    "nazala al-qur'anu nuzulan, “de Koran daalde neer”: een werkwoord zonder voorwerp geeft toch nasb",
+    "kana llahu ta'ala 'aliman hakiman: een onvolledig werkwoord met zijn ism en khabar",
+    "laysa llahu ta'ala jisman, “God de Verhevene is geen lichaam”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waaraan geeft het werkwoord raf' en nasb in khalaqa llahu ta'ala kulla shay'in en in nazala al-qur'anu nuzulan?",
+     "answer": "Khalaqa: raf' aan llahu (zijn fa'il), nasb aan kulla (zijn maf'ul bihi). Nazala: raf' aan al-qur'anu (zijn fa'il), nasb aan nuzulan (zijn absolute voorwerp)."
+    },
+    {
+     "prompt": "Volledig of onvolledig? 'alima llahu ta'ala; sara al-'asi mustahiqqan li-l-'adhabi; tuqbalu al-tawbatu.",
+     "answer": "'Alima: volledig; de uitspraak is heel met zijn fa'il. Sara: onvolledig; het heeft de khabar mustahiqqan in nasb nodig. Tuqbalu: volledig; een passief werkwoord met zijn na'ib al-fa'il, al-tawbatu."
+    },
+    {
+     "prompt": "Geef het ism en de khabar van het onvolledige werkwoord in tuqbalu al-tawbatu ma dama al-ruhu dakhilan fi al-badani, en vertaal.",
+     "answer": "Het onvolledige werkwoord is ma dama: zijn ism al-ruhu (raf'), zijn khabar dakhilan (nasb). “Berouw wordt aanvaard zolang de ziel in het lichaam is.”"
+    },
+    {
+     "prompt": "Hoe verschilt de behandeling van kana door Birgivi van die van de Ajurrumiyya?",
+     "answer": "De Ajurrumiyya zet kana en haar zusters onder de woorden die op de mubtada' en de khabar inwerken. Birgivi telt ze als werkwoorden onder de regel dat elk werkwoord regeert, en noemt ze onvolledig omdat hun naamwoord in raf' niet genoeg is zonder een khabar in nasb."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is de eerste regeerder naar analogie?",
+     "options": [
+      "Het partikel van de jarr",
+      "De masdar",
+      "De abstracte regeerder",
+      "Het werkwoord, elk werkwoord"
+     ],
+     "explanation": "Elk werkwoord geeft raf' en nasb."
+    },
+    {
+     "prompt": "Geeft een onovergankelijk werkwoord eigenlijk nasb?",
+     "options": [
+      "Ja: aan zijn masdar, een tijd, een plaats, een toestand",
+      "Nee, nooit",
+      "Alleen in het passief",
+      "Alleen met een partikel"
+     ],
+     "explanation": "Nazala al-qur'anu nuzulan."
+    },
+    {
+     "prompt": "Wat maakt een werkwoord onvolledig (naqis)?",
+     "options": [
+      "Het heeft geen fa'il",
+      "Het heeft naast zijn naamwoord in raf' een khabar in nasb nodig",
+      "Het is zwak",
+      "Het heeft geen madi"
+     ],
+     "explanation": "Kana llahu 'aliman."
+    },
+    {
+     "prompt": "In laysa llahu ta'ala jisman is jisman…",
+     "options": [
+      "het ism van laysa",
+      "de maf'ul bihi",
+      "de khabar van laysa, in nasb",
+      "een hal"
+     ],
+     "explanation": "Laysa is een onvolledig werkwoord."
+    },
+    {
+     "prompt": "“Elk werkwoord moet … hebben”",
+     "options": [
+      "een maf'ul bihi",
+      "een khabar",
+      "een masdar",
+      "een naamwoord in raf'"
+     ],
+     "explanation": "Zijn fa'il, zijn plaatsvervanger, of zijn ism."
+    },
+    {
+     "prompt": "'Alima llahu ta'ala is…",
+     "options": [
+      "een volledig werkwoord met zijn fa'il",
+      "een onvolledig werkwoord",
+      "een naamwoordzin",
+      "een werkwoord zonder fa'il"
+     ],
+     "explanation": "De uitspraak is heel met het naamwoord in raf'."
+    },
+    {
+     "prompt": "Ma zala al-mudhnibu ba'idan betekent…",
+     "options": [
+      "De zondaar is niet meer ver",
+      "De zondaar is nog steeds ver",
+      "De zondaar werd ver",
+      "De zondaar is niet ver"
+     ],
+     "explanation": "Ma zala: “hield niet op te zijn”."
+    }
+   ],
+   "diagram": {
+    "labels": {
+     "Every verb governs": "Elk werkwoord regeert",
+     "Complete (tāmm)": "Volledig (tamm)",
+     "with doer and object": "met fa'il en maf'ul bihi",
+     "with its maṣdar": "met zijn masdar",
+     "complete with its doer": "volledig met zijn fa'il",
+     "Incomplete (nāqiṣ)": "Onvolledig (naqis)",
+     "kāna": "kana",
+     "ṣāra": "sara",
+     "mā zāla": "ma zala",
+     "mā dāma": "ma dama",
+     "laysa": "laysa"
+    }
+   }
+  },
+  "8": {
+   "title": "De woorden die werken zoals hun werkwoord",
+   "body": [
+    "De volgende vijf regeerders naar analogie zijn naamwoorden die werken zoals hun werkwoorden werken. Het actief deelwoord (ism al-fa'il) doet het werk van zijn actieve werkwoord: kullu hasudin muhriqun hasaduhu 'amalahu, “elke afgunstige, zijn afgunst verbrandt zijn daden”. Muhriqun, het deelwoord van ahraqa, “verbranden”, geeft raf' aan hasaduhu, zijn fa'il, en nasb aan 'amalahu, zijn maf'ul bihi, precies zoals yuhriqu zou doen.",
+    "Het passief deelwoord (ism al-maf'ul) doet het werk van zijn passieve werkwoord: kullu ta'ibin maqbulatun tawbatuhu, “elke berouwvolle, zijn berouw wordt aanvaard”. Maqbulatun geeft raf' aan tawbatuhu, de na'ib al-fa'il, zoals tuqbalu zou doen; het is vrouwelijk omdat tawba dat is. Het bijvoeglijk naamwoord dat op het deelwoord lijkt (al-sifa al-mushabbaha), dat een blijvende eigenschap noemt, doet hetzelfde: al-'ibadatu hasanun thawabuha, “de aanbidding, haar beloning is schoon”; al-ma'siyatu qabihun 'adhabuha, “de zonde, haar straf is lelijk”: hasan en qabih geven raf' aan het naamwoord erna.",
+    "Ook de overtreffende vorm (ism al-tafdil) werkt, maar alleen in een nauw geval: ma min rajulin ahsana fihi al-hilmu minhu fi al-'alimi, “er is geen man in wie verdraagzaamheid schoner is dan zij in de geleerde is”. Ahsana geeft raf' aan het zichtbare naamwoord al-hilmu, wat een overtreffende vorm alleen doet in een zin van deze vorm, ontkend en een ding op twee plaatsen met zichzelf vergelijkend; de grammatici kennen het als het geval van al-kuhl, naar hun standaardvoorbeeld.",
+    "De masdar werkt zoals zijn werkwoord: yuhibbu llahu ta'ala i'ta'ahu 'abdahu faqiran dirhaman, “God de Verhevene houdt ervan dat hij zijn dienaar, arm, een dirham geeft”. I'ta', de masdar van a'ta, “geven”, neemt twee voorwerpen zoals zijn werkwoord, 'abdahu en dirhaman; de -hu eraan noemt de gever; faqiran beschrijft de toestand van de dienaar. De madrasa leest de zin ook als een les in liefdadigheid.",
+    "Wat deze vijf verbindt: elk is een naamwoord dat van een werkwoord gemaakt is, en elk houdt iets van de kracht van het werkwoord. De Amthila leerde hun vormen; de 'Awamil leert wat ze doen."
+   ],
+   "terms": [
+    "het actief deelwoord: werkt zoals zijn actieve werkwoord",
+    "het passief deelwoord: werkt zoals zijn passieve werkwoord",
+    "het bijvoeglijk naamwoord dat op het deelwoord lijkt: een blijvende eigenschap",
+    "de overtreffende vorm: werkt in een nauw geval",
+    "het verbaal naamwoord: werkt zoals zijn werkwoord"
+   ],
+   "examples": [
+    "kullu hasudin muhriqun hasaduhu 'amalahu: het deelwoord muhriqun met zijn fa'il en zijn maf'ul bihi",
+    "kullu ta'ibin maqbulatun tawbatuhu: het passief deelwoord met zijn na'ib al-fa'il",
+    "al-'ibadatu hasanun thawabuha, “de aanbidding, haar beloning is schoon”: het bijvoeglijk naamwoord dat op het deelwoord lijkt",
+    "de masdar i'ta' met zijn twee voorwerpen, zoals zijn werkwoord a'ta ze heeft"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek in kullu hasudin muhriqun hasaduhu 'amalahu de regeerder, zijn naamwoord in raf' en zijn naamwoord in nasb, en vertaal.",
+     "answer": "Regeerder: muhriqun, het actief deelwoord van ahraqa. In raf': hasaduhu, zijn fa'il. In nasb: 'amalahu, zijn maf'ul bihi. “Elke afgunstige, zijn afgunst verbrandt zijn daden.”"
+    },
+    {
+     "prompt": "Waarom is maqbulatun vrouwelijk in kullu ta'ibin maqbulatun tawbatuhu, hoewel ta'ib mannelijk is?",
+     "answer": "Het passief deelwoord werkt zoals zijn werkwoord, en een werkwoord komt overeen met het naamwoord dat het in raf' regeert: hier tawbatuhu, “zijn berouw”, dat vrouwelijk is (zoals tuqbalu tawbatuhu)."
+    },
+    {
+     "prompt": "Wat regeren hasanun en qabihun in al-'ibadatu hasanun thawabuha wa-l-ma'siyatu qabihun 'adhabuha?",
+     "answer": "Elk is een bijvoeglijk naamwoord dat op het deelwoord lijkt en geeft raf' aan het naamwoord erna: hasanun aan thawabuha, qabihun aan 'adhabuha."
+    },
+    {
+     "prompt": "Welke van de vijf werkt alleen in een nauw geval, en wat is dat geval?",
+     "answer": "De overtreffende vorm. Hij geeft alleen raf' aan een zichtbaar naamwoord in een ontkende zin die een ding op twee plaatsen met zichzelf vergelijkt, zoals ma min rajulin ahsana fihi al-hilmu minhu fi al-'alimi (het geval van al-kuhl)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het actief deelwoord werkt zoals…",
+     "options": [
+      "zijn actieve werkwoord",
+      "zijn passieve werkwoord",
+      "een partikel van de jarr",
+      "de masdar"
+     ],
+     "explanation": "Muhriqun hasaduhu 'amalahu: fa'il en maf'ul bihi."
+    },
+    {
+     "prompt": "Het passief deelwoord werkt zoals…",
+     "options": [
+      "zijn actieve werkwoord",
+      "zijn passieve werkwoord",
+      "inna",
+      "kana"
+     ],
+     "explanation": "Maqbulatun tawbatuhu: de na'ib al-fa'il."
+    },
+    {
+     "prompt": "Wat noemt het bijvoeglijk naamwoord dat op het deelwoord lijkt (al-sifa al-mushabbaha)?",
+     "options": [
+      "Een handeling die één keer gedaan wordt",
+      "Een plaats",
+      "Een blijvende eigenschap",
+      "Een werktuig"
+     ],
+     "explanation": "Hasan, qabih."
+    },
+    {
+     "prompt": "In al-'ibadatu hasanun thawabuha is thawabuha…",
+     "options": [
+      "in nasb door hasanun",
+      "de mubtada'",
+      "in jarr",
+      "in raf' door hasanun"
+     ],
+     "explanation": "Het bijvoeglijk naamwoord geeft raf' aan het naamwoord erna."
+    },
+    {
+     "prompt": "Wanneer geeft de overtreffende vorm raf' aan een zichtbaar naamwoord?",
+     "options": [
+      "Alleen in een nauw geval, het geval van al-kuhl",
+      "Altijd",
+      "Nooit",
+      "Alleen na min"
+     ],
+     "explanation": "Ma min rajulin ahsana fihi al-hilmu minhu fi al-'alimi."
+    },
+    {
+     "prompt": "Wat regeert dirhaman in yuhibbu llahu i'ta'ahu 'abdahu faqiran dirhaman?",
+     "options": [
+      "Het werkwoord yuhibbu",
+      "De masdar i'ta'",
+      "'Abdahu",
+      "Faqiran"
+     ],
+     "explanation": "I'ta' neemt twee voorwerpen, zoals a'ta."
+    },
+    {
+     "prompt": "Wat verbindt deze vijf regeerders?",
+     "options": [
+      "Elk is een partikel",
+      "Elk zet een werkwoord in jazm",
+      "Elk is een naamwoord gemaakt van een werkwoord dat iets van zijn kracht houdt",
+      "Elk is abstract"
+     ],
+     "explanation": "De Amthila leerde hun vormen; de 'Awamil wat ze doen."
+    }
+   ],
+   "diagram": {
+    "caption": "Vijf naamwoorden die werken zoals hun werkwoorden",
+    "labels": {
+     "Governor": "Regeerder",
+     "Works like": "Werkt zoals",
+     "What it governs": "Wat hij regeert",
+     "Example": "Voorbeeld",
+     "active participle": "actief deelwoord",
+     "its active verb": "zijn actieve werkwoord",
+     "doer, object": "fa'il, maf'ul bihi",
+     "passive participle": "passief deelwoord",
+     "its passive verb": "zijn passieve werkwoord",
+     "deputy of the doer": "na'ib al-fa'il",
+     "adjective like the participle": "bijvoeglijk naamwoord dat op het deelwoord lijkt",
+     "its verb": "zijn werkwoord",
+     "a noun in rafʿ": "een naamwoord in raf'",
+     "elative": "overtreffende vorm",
+     "its verb, in one case": "zijn werkwoord, in één geval",
+     "a visible noun in rafʿ": "een zichtbaar naamwoord in raf'",
+     "maṣdar": "masdar",
+     "doer, objects": "fa'il, voorwerpen"
+    }
+   }
+  },
+  "9": {
+   "title": "De mudaf, het vage naamwoord, de betekenis van het werkwoord; de abstracte regeerders",
+   "body": [
+    "De zevende regeerder naar analogie is het naamwoord dat met een ander verbonden is (al-mudaf), dat het tweede in jarr zet: 'ibadatu llahi ta'ala khayrun, “de aanbidding van God de Verhevene is goed”. Hier is 'ibada de regeerder van Allah. De Ajurrumiyya sprak van het naamwoord “in khafd door idafa”; Birgivi noemt het eerste lid zelf de regeerder.",
+    "De achtste is het volledige vage naamwoord (al-ism al-mubham al-tamm), dat zijn tamyiz in nasb zet: al-tarawihu 'ishruna rak'atan, “het tarawih-gebed is twintig rak'as”. 'Ishruna is vaag, twintig wat?, en volledig, eindigend op zijn nun, dus regeert het rak'atan in nasb. Het voorbeeld is een punt van de Hanafitische fiqh, de twintig rak'as van het nachtgebed van de Ramadan, in een les over getallen gezet.",
+    "De negende is de betekenis van het werkwoord (ma'na al-fi'l): “elk woord waaruit de betekenis van een werkwoord begrepen wordt”. Hayhata al-mudhnibu min allahi ta'ala, “hoe ver is de zondaar van God!”: hayhata betekent “het is ver” en geeft raf' aan al-mudhnibu. Taraki dhanban, “laat de zonde!”: taraki betekent “laat!” en geeft nasb aan dhanban. Ma fi al-dunya rahatun, “er is geen rust in deze wereld”: fi al-dunya draagt de betekenis van “wordt gevonden”, en de commentaren lezen rahatun als erdoor geregeerd. En yanbaghi li-l-'alimi an yakuna muhammadiyyan khuluquhu, “de geleerde behoort iemand te zijn wiens karakter Mohammedaans is”: de nisba muhammadiyyan, “betrekking hebbend op Muhammad”, geeft raf' aan khuluquhu.",
+    "De twee abstracte regeerders sluiten de zestig af. De eerste is “wat de mubtada' en de khabar in raf' zet”: Muhammadun rasulu llahi, waar geen woord voor Muhammad staat; dat hij vooraan gezet is, regeert hem. De tweede is “wat de mudari' in raf' zet”: yarhamu llahu ta'ala al-ta'iba, “God de Verhevene ontfermt Zich over wie berouw toont”, waarin yarhamu in raf' staat omdat er geen regeerder van de nasb of de jazm op ingewerkt heeft.",
+    "Hiermee is het eerste hoofdstuk klaar: negenenveertig gehoorde regeerders, negen naar analogie, twee abstracte. Een student die van elk woord in de zinnen van Birgivi de regeerder kan noemen, heeft het hoofdstuk geleerd."
+   ],
+   "terms": [
+    "het verbonden naamwoord: het zet het volgende naamwoord in jarr",
+    "het volledige vage naamwoord: het zet zijn tamyiz in nasb",
+    "de betekenis van het werkwoord: woorden die door de betekenis van een werkwoord werken",
+    "een naamwoord met de betekenis van een werkwoord: hayhata, taraki",
+    "de abstracte regeerder: twee in totaal"
+   ],
+   "examples": [
+    "'ibadatu llahi ta'ala khayrun, “de aanbidding van God de Verhevene is goed”: de mudaf regeert Allah",
+    "al-tarawihu 'ishruna rak'atan, “het tarawih-gebed is twintig rak'as”: het vage naamwoord regeert zijn tamyiz",
+    "hayhata al-mudhnibu min allahi ta'ala, “hoe ver is de zondaar van God!”: een naamwoord met de betekenis van een werkwoord",
+    "yarhamu llahu ta'ala al-ta'iba: de mudari' in raf' door een abstracte regeerder"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem in elk de regeerder van het tweede woord, en de toestand die hij geeft: 'ibadatu llahi; 'ishruna rak'atan; hayhata al-mudhnibu; taraki dhanban.",
+     "answer": "Llahi: 'ibada, de mudaf (jarr). Rak'atan: 'ishruna, het volledige vage naamwoord (nasb als tamyiz). Al-mudhnibu: hayhata, een naamwoord dat “het is ver” betekent (raf' als zijn fa'il). Dhanban: taraki, een naamwoord dat “laat!” betekent (nasb als zijn maf'ul bihi)."
+    },
+    {
+     "prompt": "Waarom heet 'ishruna “vaag” en “volledig”?",
+     "answer": "Vaag, omdat “twintig” niets zegt over wat er geteld wordt tot de tamyiz komt. Volledig, omdat het op zijn nun eindigt en niet met een volgend woord verbonden is; dus zet het de tamyiz in nasb."
+    },
+    {
+     "prompt": "Wat regeert Muhammadun in Muhammadun rasulu llahi, en yarhamu in yarhamu llahu ta'ala al-ta'iba?",
+     "answer": "Beide worden geregeerd door abstracte regeerders. Muhammadun: dat het vooraan gezet is om erover te spreken (wat mubtada' en khabar regeert). Yarhamu: dat het vrij is van elke regeerder van nasb en jazm."
+    },
+    {
+     "prompt": "Wat regeert muhammadiyyan in yanbaghi li-l-'alimi an yakuna muhammadiyyan khuluquhu, en waarom kan het dat?",
+     "answer": "Het geeft raf' aan khuluquhu. Muhammadiyyan is een nisba, met de betekenis “betrekking hebbend op Muhammad”; er wordt een werkwoordelijke betekenis uit begrepen, en daarom regeert het door de betekenis van het werkwoord."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat regeert Allah in 'ibadatu llahi?",
+     "options": [
+      "Een verondersteld partikel van de jarr",
+      "'Ibada, de mudaf",
+      "De abstracte regeerder",
+      "Niets"
+     ],
+     "explanation": "Birgivi noemt het eerste lid van de idafa de regeerder."
+    },
+    {
+     "prompt": "Wat regeert het volledige vage naamwoord?",
+     "options": [
+      "Een werkwoord in jazm",
+      "Zijn fa'il, in raf'",
+      "Zijn tamyiz, in nasb",
+      "Een naamwoord in jarr"
+     ],
+     "explanation": "'Ishruna rak'atan."
+    },
+    {
+     "prompt": "Wat betekent hayhata?",
+     "options": [
+      "Laat!",
+      "Er is geen",
+      "Misschien",
+      "Het is ver"
+     ],
+     "explanation": "Het geeft raf' aan al-mudhnibu als zijn fa'il."
+    },
+    {
+     "prompt": "Taraki dhanban betekent…",
+     "options": [
+      "Laat de zonde!",
+      "Je zonde is ver",
+      "Er is geen zonde",
+      "De zonde liet je"
+     ],
+     "explanation": "Taraki, een naamwoord met de betekenis “laat!”, geeft nasb aan dhanban."
+    },
+    {
+     "prompt": "Hoeveel abstracte regeerders zijn er?",
+     "options": [
+      "Eén",
+      "Twee",
+      "Negen",
+      "Zestig"
+     ],
+     "explanation": "Wat de mubtada' en de khabar in raf' zet, en wat de mudari' in raf' zet."
+    },
+    {
+     "prompt": "Wat zet yarhamu in raf' in yarhamu llahu?",
+     "options": [
+      "Llahu, zijn fa'il",
+      "Het partikel ya",
+      "Dat het vrij is van elke regeerder van nasb en jazm",
+      "De abstracte regeerder van de mubtada'"
+     ],
+     "explanation": "De tweede abstracte regeerder."
+    },
+    {
+     "prompt": "Al-tarawihu 'ishruna rak'atan leert ook…",
+     "options": [
+      "een punt van de geloofsleer",
+      "een regel van de sarf",
+      "een vers van de Koran",
+      "een punt van de Hanafitische fiqh: twintig rak'as"
+     ],
+     "explanation": "De voorbeelden van Birgivi leren gedrag naast grammatica."
+    }
+   ],
+   "diagram": {
+    "caption": "De laatste regeerders naar analogie en de twee abstracte",
+    "labels": {
+     "Governor": "Regeerder",
+     "Kind": "Soort",
+     "It governs": "Hij regeert",
+     "Example": "Voorbeeld",
+     "the muḍāf": "de mudaf",
+     "analogical": "naar analogie",
+     "the next noun in jarr": "het volgende naamwoord in jarr",
+     "the complete vague noun": "het volledige vage naamwoord",
+     "its tamyīz in naṣb": "zijn tamyiz in nasb",
+     "the meaning of the verb": "de betekenis van het werkwoord",
+     "rafʿ or naṣb, as its verb": "raf' of nasb, zoals zijn werkwoord",
+     "being put first": "vooraan gezet zijn",
+     "abstract": "abstract",
+     "the subject and the predicate": "de mubtada' en de khabar",
+     "being free of governors": "vrij zijn van regeerders",
+     "the present in rafʿ": "de mudari' in raf'"
+    }
+   }
+  },
+  "10": {
+   "title": "Het geregeerde woord; de negen in raf'",
+   "body": [
+    "Het tweede hoofdstuk gaat van de regeerders naar de woorden die zij regeren, en verdeelt die eerst in tweeën. Sommige zijn uit zichzelf geregeerd (bi-l-asala): een regeerder werkt rechtstreeks op hen. Andere zijn als volger geregeerd (bi-l-taba'iyya): “hun i'rab is als de i'rab van wat zij volgen”, het bijvoeglijk naamwoord, de nevenschikking en de rest. De eerste soort kent vier groepen: in raf', in nasb, in jarr (alleen naamwoorden) en in jazm (alleen werkwoorden).",
+    "Negen staan in raf'. De fa'il, de doener: rahima llahu ta'ala al-ta'iba, “God de Verhevene was de berouwvolle genadig”. De na'ib al-fa'il, de plaatsvervanger van de doener: ruhima al-ta'ibu, “de berouwvolle werd genade betoond”. De mubtada' en de khabar: Muhammadun khatamu al-anbiya'i, “Muhammad is het zegel van de profeten”. Het ism van kana en haar zusters: kana llahu ta'ala 'aliman hakiman.",
+    "De khabar van inna en haar zusters: inna al-ba'tha haqqun, “de opstanding is waar”. De khabar van de la van de soort: la 'amala mura'in maqbulun, “geen daad van een pronker wordt aanvaard”. Het ism van ma en la zoals laysa: ma al-takabburu la'iqan li-l-'alimi, “hoogmoed past de geleerde niet”, wa-la hasadun halalan, “en geen afgunst is geoorloofd”. En de mudari' die vrij is van de regeerders van de nasb en de jazm: yuhibbu llahu ta'ala al-tawadu'a, “God de Verhevene houdt van nederigheid”.",
+    "Leg de lijst naast de zeven van de Ajurrumiyya. Birgivi voegt er drie toe: de khabar van de la van de soort en het ism van ma en la zoals laysa, omdat hij die regeerders meetelde, en de mudari' in raf', omdat zijn geregeerde woorden ook werkwoorden omvatten. De volgers bewaart hij voor het eind van het hoofdstuk, als de tweede soort. Elk punt hier is de andere kant van een regeerder uit hoofdstuk één: de fa'il van het werkwoord, de khabar van inna, het ism van ma."
+   ],
+   "terms": [
+    "uit zichzelf geregeerd",
+    "als volger geregeerd: de volgers",
+    "het gevolgde woord (matbu')",
+    "de woorden in raf': negen in dit boek"
+   ],
+   "examples": [
+    "de fa'il en de na'ib al-fa'il: “God was de berouwvolle genadig”, “de berouwvolle werd genade betoond”",
+    "inna al-ba'tha haqqun, “de opstanding is waar”: de khabar van inna",
+    "la 'amala mura'in maqbulun, “geen daad van een pronker wordt aanvaard”: de khabar van la",
+    "yuhibbu llahu ta'ala al-tawadu'a, “God de Verhevene houdt van nederigheid”: de mudari' in raf'"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek elk woord in raf' en zeg welke van de negen het is: Muhammadun khatamu al-anbiya'i; inna al-ba'tha haqqun; ma al-takabburu la'iqan li-l-'alimi.",
+     "answer": "Muhammadun: de mubtada'; khatamu: de khabar. Haqqun: de khabar van inna. Al-takabburu: het ism van ma zoals laysa."
+    },
+    {
+     "prompt": "Zoek de twee woorden in raf' in yuhibbu llahu ta'ala al-tawadu'a, en noem de regeerder van elk.",
+     "answer": "Yuhibbu, de mudari', in raf' doordat hij vrij is van elke regeerder van de nasb en de jazm (een abstracte regeerder). Llahu, zijn fa'il, in raf' door het werkwoord."
+    },
+    {
+     "prompt": "Wat is het verschil tussen een woord dat uit zichzelf geregeerd is en een woord dat als volger geregeerd is?",
+     "answer": "Een woord dat uit zichzelf geregeerd is, heeft een regeerder die rechtstreeks op het woord werkt (de fa'il door zijn werkwoord). Een woord dat als volger geregeerd is, heeft de i'rab van het woord dat het volgt (een bijvoeglijk naamwoord neemt de toestand van zijn naamwoord)."
+    },
+    {
+     "prompt": "Welke drie woorden in raf' heeft Birgivi die de zeven van de Ajurrumiyya niet hebben, en waarom?",
+     "answer": "De khabar van de la van de soort, het ism van ma en la zoals laysa, en de mudari' in raf'. Hij telde die regeerders mee in hoofdstuk één, en zijn geregeerde woorden omvatten werkwoorden zowel als naamwoorden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel woorden in raf' telt Birgivi?",
+     "options": [
+      "Zeven",
+      "Dertien",
+      "Negen",
+      "Twee"
+     ],
+     "explanation": "Hij voegt er drie toe aan de zeven van de Ajurrumiyya."
+    },
+    {
+     "prompt": "In ruhima al-ta'ibu is al-ta'ibu…",
+     "options": [
+      "de fa'il",
+      "de maf'ul bihi",
+      "de mubtada'",
+      "de na'ib al-fa'il"
+     ],
+     "explanation": "Het passieve werkwoord laat de fa'il ongenoemd."
+    },
+    {
+     "prompt": "Wat staat in raf' in la 'amala mura'in maqbulun?",
+     "options": [
+      "Maqbulun, de khabar van la",
+      "'Amala, het ism van la",
+      "Mura'in",
+      "Niets"
+     ],
+     "explanation": "De la van de soort: het ism in nasb, de khabar in raf'."
+    },
+    {
+     "prompt": "Welk van deze staat in raf' in ma al-takabburu la'iqan?",
+     "options": [
+      "La'iqan, de khabar",
+      "Al-takabburu, het ism van ma",
+      "Allebei",
+      "Geen van beide"
+     ],
+     "explanation": "Ma zoals laysa: het ism in raf', de khabar in nasb."
+    },
+    {
+     "prompt": "Welke geregeerde woorden zijn “als volger geregeerd”?",
+     "options": [
+      "De fa'il en de maf'ul bihi",
+      "De werkwoorden",
+      "De volgers: bijvoeglijk naamwoord, nevenschikking en de rest",
+      "De woorden in jarr"
+     ],
+     "explanation": "Hun i'rab is die van wat zij volgen."
+    },
+    {
+     "prompt": "Welke groep geregeerde woorden hoort alleen bij werkwoorden?",
+     "options": [
+      "Het woord in jarr",
+      "Het woord in raf'",
+      "Het woord in nasb",
+      "Het woord in jazm"
+     ],
+     "explanation": "De jarr hoort alleen bij naamwoorden, de jazm alleen bij werkwoorden."
+    },
+    {
+     "prompt": "Waarom neemt Birgivi een werkwoord op onder de woorden in raf'?",
+     "options": [
+      "Zijn geregeerde woorden omvatten werkwoorden zowel als naamwoorden",
+      "Per vergissing",
+      "Omdat werkwoorden naamwoorden zijn",
+      "Vanwege kana"
+     ],
+     "explanation": "Yuhibbu staat in raf', vrij van elke regeerder van de nasb en de jazm."
+    }
+   ],
+   "diagram": {
+    "caption": "De negen in raf'",
+    "labels": {
+     "Word in rafʿ": "Woord in raf'",
+     "Its governor": "Zijn regeerder",
+     "Birgivī's example": "Voorbeeld van Birgivi",
+     "the doer": "fa'il",
+     "the verb": "het werkwoord",
+     "the deputy of the doer": "na'ib al-fa'il",
+     "the passive verb": "het passieve werkwoord",
+     "the subject": "mubtada'",
+     "being put first": "het vooropstaan",
+     "the predicate": "khabar",
+     "the noun of kāna": "ism van kana",
+     "kāna": "kana",
+     "the predicate of inna": "khabar van inna",
+     "inna": "inna",
+     "the predicate of lā of the kind": "khabar van de la van de soort",
+     "lā": "la",
+     "the noun of mā, lā like laysa": "ism van ma, la zoals laysa",
+     "mā, lā": "ma, la",
+     "the present verb": "mudari'",
+     "freedom from governors": "vrij zijn van regeerders"
+    }
+   }
+  },
+  "11": {
+   "title": "De woorden in nasb (1): de vijf voorwerpen en meer",
+   "body": [
+    "Dertien staan in nasb, en Birgivi begint met de vijf voorwerpen (maf'ul), onder de namen die de latere boeken gebruiken. De maf'ul mutlaq, het absolute voorwerp: tubtu tawbatan nasuhan, “ik heb mij bekeerd met een oprechte bekering”. De maf'ul bihi, het lijdend voorwerp: u'budi llaha ta'ala, “aanbid God de Verhevene”. De maf'ul fihi, de zarf (het bijwoord) van tijd of plaats: sum shahra ramadana, “vast de maand Ramadan”. De maf'ul lahu, het voorwerp van het doel: i'mal talaban li-mardati llahi ta'ala, “handel uit streven naar het welbehagen van God de Verhevene”. De maf'ul ma'ahu, het voorwerp van begeleiding: yafna al-malu wa-tabqa wa-'amalaka, “rijkdom vergaat, en jij blijft, met je daden”.",
+    "In het laatste voorbeeld betekent de waw voor 'amalaka “met”: jij blijft samen met je daden, en daarom staat 'amalaka in nasb. Onze druk is op deze plaats niet duidelijk; de zin is gelezen uit een Osmaanse lithografie van hetzelfde boek.",
+    "Dan nog vijf. De hal (de toestandsbepaling): u'budi llaha ta'ala kha'ifan rajiyan, “aanbid God de Verhevene, vrezend en hopend”: twee toestanden van de aanbidder tegelijk. De tamyiz (de specificatie): taba al-'alimu 'ibadatan, “de geleerde is goed in aanbidding”. Het uitgezonderde (mustathna): yadkhulu al-jannata al-nasu illa al-kafira, “de mensen gaan het Paradijs binnen, behalve de ongelovige”. De khabar van kana: kana al-mala'ikatu 'ibada llahi, “de engelen waren dienaren van God”. Het ism van inna: inna al-su'ala haqqun, “de ondervraging (in het graf) is waar”.",
+    "Twee details voor de oplettende lezer. In yadkhulu al-jannata al-nasu komt de maf'ul bihi al-jannata voor de fa'il al-nasu: de woordvolgorde is vrij, en alleen de uitgangen tonen wie wat doet. En in kana al-mala'ikatu is het werkwoord mannelijk en enkelvoud voor een meervoud van engelen; een gebroken meervoud mag zo'n werkwoord nemen. Elke zin leert opnieuw geloof: oprecht berouw, vrees en hoop, de ondervraging in het graf."
+   ],
+   "terms": [
+    "de maf'ul mutlaq (het absolute voorwerp): tawbatan",
+    "de maf'ul fihi: de zarf (het bijwoord)",
+    "de maf'ul lahu: de reden",
+    "de maf'ul ma'ahu: na de waw van “met”",
+    "de hal: kha'ifan rajiyan"
+   ],
+   "examples": [
+    "tubtu tawbatan nasuhan, “ik heb mij bekeerd met een oprechte bekering”: de maf'ul mutlaq",
+    "sum shahra ramadana, “vast de maand Ramadan”: de maf'ul fihi",
+    "yafna al-malu wa-tabqa wa-'amalaka: de maf'ul ma'ahu, na de waw van “met”",
+    "u'budi llaha ta'ala kha'ifan rajiyan, “aanbid God, vrezend en hopend”: twee keer een hal",
+    "yadkhulu al-jannata al-nasu illa al-kafira: de maf'ul bihi voor de fa'il, en het uitgezonderde in nasb"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem het woord in nasb en zijn soort: i'mal talaban li-mardati llahi ta'ala; taba al-'alimu 'ibadatan; inna al-su'ala haqqun.",
+     "answer": "Talaban: de maf'ul lahu (waarom handelen? uit streven naar Gods welbehagen). 'Ibadatan: de tamyiz (goed in welk opzicht? in aanbidding). Al-su'ala: het ism van inna."
+    },
+    {
+     "prompt": "Welk woord in yadkhulu al-jannata al-nasu illa al-kafira is de fa'il, welk de maf'ul bihi, en hoe weet je dat?",
+     "answer": "Al-nasu is de fa'il (raf', damma); al-jannata is de maf'ul bihi (nasb, fatha), al komt het eerst. De uitgangen tonen de rollen; al-kafira is het uitgezonderde, in nasb."
+    },
+    {
+     "prompt": "Verklaar de nasb van 'amalaka in yafna al-malu wa-tabqa wa-'amalaka.",
+     "answer": "De waw betekent “met”: jij blijft samen met je daden. Het naamwoord na deze waw is de maf'ul ma'ahu (het voorwerp van begeleiding), in nasb."
+    },
+    {
+     "prompt": "Wiens toestand beschrijven kha'ifan en rajiyan in u'budi llaha ta'ala kha'ifan rajiyan, en op welke vraag antwoorden ze?",
+     "answer": "De toestand van degene die aangesproken wordt, de fa'il van u'bud (“jij”). Ze antwoorden op “hoe?”: vrezend en hopend tegelijk."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel woorden in nasb telt Birgivi?",
+     "options": [
+      "Vijftien",
+      "Negen",
+      "Vijf",
+      "Dertien"
+     ],
+     "explanation": "Deze les neemt de eerste tien."
+    },
+    {
+     "prompt": "In tubtu tawbatan nasuhan is tawbatan…",
+     "options": [
+      "de maf'ul mutlaq",
+      "de maf'ul bihi",
+      "een hal",
+      "een tamyiz"
+     ],
+     "explanation": "De masdar van het werkwoord, met zijn bijvoeglijk naamwoord nasuhan."
+    },
+    {
+     "prompt": "In sum shahra ramadana is shahra…",
+     "options": [
+      "de maf'ul bihi",
+      "de maf'ul fihi (zarf van tijd)",
+      "de maf'ul lahu",
+      "het uitgezonderde"
+     ],
+     "explanation": "Vast in de maand Ramadan."
+    },
+    {
+     "prompt": "Op welke vraag antwoordt de maf'ul lahu?",
+     "options": [
+      "Waarmee?",
+      "Wanneer?",
+      "Waarom?",
+      "Hoe?"
+     ],
+     "explanation": "I'mal talaban li-mardati llahi: handel uit streven naar Gods welbehagen."
+    },
+    {
+     "prompt": "Welk woord komt in yadkhulu al-jannata al-nasu eerst, hoewel het de maf'ul bihi is?",
+     "options": [
+      "Al-nasu",
+      "Yadkhulu",
+      "Geen enkel",
+      "Al-jannata"
+     ],
+     "explanation": "Alleen de uitgangen tonen wie wat doet."
+    },
+    {
+     "prompt": "Wat is de khabar van kana in kana al-mala'ikatu 'ibada llahi?",
+     "options": [
+      "'Ibada",
+      "Al-mala'ikatu",
+      "Llahi",
+      "Kana"
+     ],
+     "explanation": "'Ibada, in nasb, in idafa met llahi."
+    },
+    {
+     "prompt": "U'budi llaha kha'ifan rajiyan heeft…",
+     "options": [
+      "twee keer een maf'ul bihi",
+      "twee keer een hal",
+      "een tamyiz en een hal",
+      "twee keer een maf'ul mutlaq"
+     ],
+     "explanation": "Vrezend en hopend: twee toestanden tegelijk."
+    }
+   ],
+   "diagram": {
+    "caption": "De eerste tien woorden in nasb",
+    "labels": {
+     "Word in naṣb": "Woord in nasb",
+     "Birgivī's example": "Voorbeeld van Birgivi",
+     "the absolute object": "maf'ul mutlaq",
+     "the object": "maf'ul bihi",
+     "the object in which": "maf'ul fihi",
+     "the object for which": "maf'ul lahu",
+     "the object with which": "maf'ul ma'ahu",
+     "the state": "hal",
+     "the specification": "tamyiz",
+     "the excepted": "mustathna (het uitgezonderde)",
+     "the predicate of kāna": "khabar van kana",
+     "the noun of inna": "ism van inna"
+    }
+   }
+  },
+  "12": {
+   "title": "De woorden in nasb (2); in jarr; in jazm",
+   "body": [
+    "Nog drie woorden in nasb maken de dertien vol. Het ism van de la van de soort: la ta'ata mughtabin maqbulatun, “geen gehoorzaamheid van een kwaadspreker wordt aanvaard”. De khabar van ma en la zoals laysa: ma al-ghibatu halalan, “kwaadspreken is niet geoorloofd”, wa-la namimatun ja'izatan, “en geen roddel is toegestaan”. En de mudari' met een regeerder van de nasb: uhibbu an tughfara dhunubi, “ik houd ervan dat mijn zonden vergeven worden”.",
+    "Er zijn twee woorden in jarr: het naamwoord in jarr door een partikel, i'mal bi-ikhlasin, “handel met oprechtheid”; en het naamwoord in jarr door idafa, dhanbu al-'abdi yusawwidu qalbahu, “de zonde van de dienaar maakt zijn hart zwart”. En er is één woord in jazm: de mudari' met een regeerder van de jazm, in tukhlis yuqbal 'amaluka, “als je oprecht bent, wordt je daad aanvaard”.",
+    "Tel de woorden die uit zichzelf geregeerd zijn: negen in raf', dertien in nasb, twee in jarr, één in jazm: vijfentwintig. Met de vijf volgers van de volgende les maken ze de dertig die het begin van het boek beloofde.",
+    "Let erop hoe één regeerder uit hoofdstuk één hier twee keer verschijnt. De la van de soort geeft haar ism nasb (deze les) en haar khabar raf' (les 10); ma en la zoals laysa geven hun ism raf' (les 10) en hun khabar nasb (deze les). De geregeerde woorden leren is de regeerders opnieuw leren, van de andere kant, en de madrasa zegt de twee hoofdstukken vaak naast elkaar op."
+   ],
+   "terms": [
+    "het ism van de la van de soort, in nasb",
+    "de khabar van ma en la zoals laysa, in nasb",
+    "in jarr door een partikel",
+    "in jarr door idafa",
+    "het werkwoord in jazm"
+   ],
+   "examples": [
+    "la ta'ata mughtabin maqbulatun, “geen gehoorzaamheid van een kwaadspreker wordt aanvaard”: het ism van la in nasb",
+    "ma al-ghibatu halalan, “kwaadspreken is niet geoorloofd”: de khabar van ma in nasb",
+    "dhanbu al-'abdi yusawwidu qalbahu, “de zonde van de dienaar maakt zijn hart zwart”: al-'abdi in jarr door idafa",
+    "in tukhlis yuqbal 'amaluka, “als je oprecht bent, wordt je daad aanvaard”: twee werkwoorden in jazm"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem het woord in nasb en zijn soort: la ta'ata mughtabin maqbulatun; wa-la namimatun ja'izatan; uhibbu an tughfara dhunubi.",
+     "answer": "Ta'ata: het ism van de la van de soort. Ja'izatan: de khabar van la zoals laysa. Tughfara: de mudari' na an, een regeerder van de nasb."
+    },
+    {
+     "prompt": "Zoek de twee woorden in jarr in dhanbu al-'abdi yusawwidu qalbahu en i'mal bi-ikhlasin, en zeg wat elk in jarr zet.",
+     "answer": "Al-'abdi: in jarr door idafa (zijn regeerder is dhanbu, de mudaf). Ikhlasin: in jarr door het partikel bi-. (Ook de -hu van qalbahu staat op de plaats van de jarr, door idafa.)"
+    },
+    {
+     "prompt": "Tel de dertig geregeerde woorden van het boek.",
+     "answer": "Uit zichzelf geregeerd: 9 in raf' + 13 in nasb + 2 in jarr + 1 in jazm = 25. Als volger geregeerd: 5 (bijvoeglijk naamwoord, nevenschikking, nadruk, badal, verklarende bijstelling). 25 + 5 = 30."
+    },
+    {
+     "prompt": "La fa'ila sharrin fa'izun en la shay'un mushabihan: waar in hoofdstuk twee verschijnen het ism en de khabar van elke la?",
+     "answer": "De la van de soort: haar ism bij de woorden in nasb (deze les), haar khabar bij de woorden in raf' (les 10). De la zoals laysa: haar ism bij de woorden in raf', haar khabar bij de woorden in nasb."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel woorden in jarr telt Birgivi?",
+     "options": [
+      "Twee",
+      "Twintig",
+      "Drie",
+      "Eén"
+     ],
+     "explanation": "Door een partikel, en door idafa."
+    },
+    {
+     "prompt": "Hoeveel woorden in jazm?",
+     "options": [
+      "Vijftien",
+      "Eén: de mudari' met een regeerder van de jazm",
+      "Twee",
+      "Geen"
+     ],
+     "explanation": "In tukhlis yuqbal 'amaluka."
+    },
+    {
+     "prompt": "In la ta'ata mughtabin maqbulatun is ta'ata…",
+     "options": [
+      "de khabar van la",
+      "in jarr",
+      "het ism van la, in nasb",
+      "de maf'ul bihi"
+     ],
+     "explanation": "De la van de soort zet haar ism in nasb."
+    },
+    {
+     "prompt": "In ma al-ghibatu halalan is halalan…",
+     "options": [
+      "het ism van ma",
+      "een hal",
+      "een tamyiz",
+      "de khabar van ma, in nasb"
+     ],
+     "explanation": "Ma zoals laysa: het ism in raf', de khabar in nasb."
+    },
+    {
+     "prompt": "In uhibbu an tughfara dhunubi is tughfara…",
+     "options": [
+      "een passieve mudari' in nasb na an",
+      "een madi (verleden tijd)",
+      "in jazm",
+      "in raf'"
+     ],
+     "explanation": "Het dertiende woord in nasb."
+    },
+    {
+     "prompt": "Hoeveel woorden zijn er die uit zichzelf geregeerd zijn?",
+     "options": [
+      "Dertig",
+      "Vijfentwintig",
+      "Dertien",
+      "Negen"
+     ],
+     "explanation": "9 + 13 + 2 + 1."
+    },
+    {
+     "prompt": "In in tukhlis yuqbal 'amaluka is 'amaluka…",
+     "options": [
+      "in jazm",
+      "de maf'ul bihi",
+      "de na'ib al-fa'il van yuqbal, in raf'",
+      "in jarr"
+     ],
+     "explanation": "Yuqbal is passief: “je daad wordt aanvaard”."
+    }
+   ],
+   "diagram": {
+    "caption": "De woorden die uit zichzelf geregeerd zijn: 9 + 13 + 2 + 1 = 25",
+    "labels": {
+     "State": "Toestand",
+     "How many": "Hoeveel",
+     "Belongs to": "Hoort bij",
+     "rafʿ": "raf'",
+     "nouns and the present verb": "naamwoorden en de mudari'",
+     "naṣb": "nasb",
+     "jarr": "jarr",
+     "nouns only": "alleen naamwoorden",
+     "jazm": "jazm",
+     "the present verb only": "alleen de mudari'"
+    }
+   }
+  },
+  "13": {
+   "title": "De vijf volgers",
+   "body": [
+    "De woorden die als volger geregeerd zijn, zijn vijf. Het bijvoeglijk naamwoord (sifa): u'budi llaha al-'azima, “aanbid God, de Geweldige”. De nevenschikking ('atf) met een van de tien partikels, elk met het voorbeeld van Birgivi: wa-, uti'u llaha wa-l-rasula, “ik gehoorzaam God en de Gezant”; fa-, tajibu takbiratu al-iftitahi fa-l-qiyamu, “de openingstakbir is een plicht, daarna het staan”; thumma, yajibu al-'ilmu thumma al-'amalu, “kennis is een plicht, daarna het handelen”; hatta, mata al-nasu hatta al-anbiya'u, “de mensen sterven, zelfs de profeten”; aw, salli al-duha arba'an aw thamaniyan, “bid het voormiddaggebed, vier of acht”.",
+    "En imma: i'mal imma wajiban wa-imma mustahabban, “doe ofwel wat verplicht is, ofwel wat aanbevolen is”; am: a-rida'a llahi tatlubu am sakhatahu?, “is het Gods welbehagen dat je zoekt, of Zijn toorn?”; la: i'mal salihan la sayyi'an, “doe goed, geen kwaad”; bal: utlub halalan bal tayyiban, “zoek wat geoorloofd is, of liever wat zuiver is”; lakin: la yahillu riya'un lakin ikhlasun, “vertoon is niet geoorloofd, maar oprechtheid wel”. De fiqh in de voorbeelden klopt: de volgorde van de handelingen van het gebed, het aantal rak'a's van het voormiddaggebed.",
+    "De nadruk (tawkid), van twee soorten: door het woord te herhalen, utlubi al-ikhlasa al-ikhlasa, “zoek oprechtheid, oprechtheid”; en door een woord van nadruk, utruki al-dhunuba kullaha, “laat de zonden, allemaal”. De badal (de vervanging), in drie soorten: van het geheel, u'bud rabbaka ilaha al-'alamina, “aanbid je Heer, de God van de werelden”; van het deel, ubghidu al-nasa man 'asa llaha ta'ala minhum, “ik verafschuw, van de mensen, degenen onder hen die God ongehoorzaam zijn”; van de insluiting, ihfazi llaha ta'ala haqqahu, “bewaar Gods recht”, letterlijk “bewaar God, Zijn recht”.",
+    "De vijfde volger, die de Ajurrumiyya niet heeft, is de verklarende bijstelling ('atf al-bayan): amanna bi-nabiyyina Muhammadin, “wij geloven in onze Profeet, Muhammad”. Muhammad volgt nabiyyina in de jarr en maakt het duidelijk met de bekendere naam. Het lijkt op de badal van het geheel, en latere boeken bespreken hoe de twee verschillen; voorlopig is het genoeg dat beide hun naamwoord volgen in elk kenteken van de i'rab."
+   ],
+   "terms": [
+    "het bijvoeglijk naamwoord (de na't van de Ajurrumiyya)",
+    "de nevenschikking met een van de tien partikels",
+    "de nadruk: door herhaling, of door kull en wat erop lijkt",
+    "de badal: van het geheel, van het deel, van de insluiting",
+    "de verklarende bijstelling: een duidelijkere naam"
+   ],
+   "examples": [
+    "u'budi llaha al-'azima, “aanbid God, de Geweldige”: het bijvoeglijk naamwoord",
+    "yajibu al-'ilmu thumma al-'amalu, “kennis is een plicht, daarna het handelen”: 'atf met thumma",
+    "utruki al-dhunuba kullaha, “laat de zonden, allemaal”: de nadruk",
+    "ihfazi llaha ta'ala haqqahu, “bewaar Gods recht”: de badal van de insluiting",
+    "amanna bi-nabiyyina Muhammadin, “wij geloven in onze Profeet, Muhammad”: de verklarende bijstelling"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de volger en het woord dat hij volgt: uti'u llaha wa-l-rasula; utlubi al-ikhlasa al-ikhlasa; u'bud rabbaka ilaha al-'alamina.",
+     "answer": "Al-rasula: met wa- verbonden aan llaha, in nasb. De tweede al-ikhlasa: nadruk door herhaling van de eerste, in nasb. Ilaha: badal van het geheel van rabbaka, in nasb."
+    },
+    {
+     "prompt": "Wat is de badal in ubghidu al-nasa man 'asa llaha ta'ala minhum, en van welke soort?",
+     "answer": "Man 'asa llaha minhum, “degenen onder hen die God ongehoorzaam zijn”, is een badal van het deel van al-nasa; minhum verbindt het terug met de mensen. Als woord met een vaste uitgang staat man op de plaats van de nasb."
+    },
+    {
+     "prompt": "Geef de betekenis van het partikel in: salli al-duha arba'an aw thamaniyan; utlub halalan bal tayyiban; i'mal salihan la sayyi'an.",
+     "answer": "Aw: keuze, “vier of acht”. Bal: overgaan naar iets beters, “of liever wat zuiver is”. La: van het tweede ontkennen wat van het eerste gezegd wordt, “goed, geen kwaad”."
+    },
+    {
+     "prompt": "Welke volger heeft Birgivi die de Ajurrumiyya mist? Geef zijn voorbeeld en leg het uit.",
+     "answer": "De verklarende bijstelling ('atf al-bayan): amanna bi-nabiyyina Muhammadin. Muhammadin volgt nabiyyina in de jarr en maakt het duidelijk met de bekendere naam."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel volgers telt Birgivi?",
+     "options": [
+      "Vier",
+      "Vijf",
+      "Tien",
+      "Drie"
+     ],
+     "explanation": "Hij voegt de verklarende bijstelling toe aan de vier van de Ajurrumiyya."
+    },
+    {
+     "prompt": "In utlubi al-ikhlasa al-ikhlasa is de tweede al-ikhlasa…",
+     "options": [
+      "een badal",
+      "een bijvoeglijk naamwoord",
+      "nadruk door herhaling",
+      "een maf'ul bihi"
+     ],
+     "explanation": "Het woord zelf wordt herhaald."
+    },
+    {
+     "prompt": "Ihfazi llaha haqqahu heeft een badal van…",
+     "options": [
+      "het geheel",
+      "het deel",
+      "de vergissing",
+      "de insluiting"
+     ],
+     "explanation": "Gods recht hoort bij Hem: ishtimal."
+    },
+    {
+     "prompt": "In amanna bi-nabiyyina Muhammadin is Muhammadin…",
+     "options": [
+      "een verklarende bijstelling, in jarr",
+      "een bijvoeglijk naamwoord",
+      "in jarr door bi-",
+      "de maf'ul bihi"
+     ],
+     "explanation": "Het volgt nabiyyina en maakt het duidelijk."
+    },
+    {
+     "prompt": "Welk partikel geeft volgorde met vertraging in yajibu al-'ilmu thumma al-'amalu?",
+     "options": [
+      "Fa-",
+      "Thumma",
+      "Wa-",
+      "Hatta"
+     ],
+     "explanation": "Eerst kennis, daarna handelen."
+    },
+    {
+     "prompt": "A-rida'a llahi tatlubu am sakhatahu? gebruikt am om…",
+     "options": [
+      "het tweede te ontkennen",
+      "naar het tweede over te gaan",
+      "te vragen welke van twee",
+      "zonder volgorde te verbinden"
+     ],
+     "explanation": "Na de hamza van de vraag: “dit of dat?”."
+    },
+    {
+     "prompt": "Hoe krijgen de volgers hun i'rab?",
+     "options": [
+      "Van hun eigen regeerder",
+      "Altijd raf'",
+      "Altijd nasb",
+      "Van het woord dat ze volgen"
+     ],
+     "explanation": "Ze zijn als volger geregeerd (bi-l-taba'iyya)."
+    }
+   ],
+   "diagram": {
+    "labels": {
+     "The five followers": "De vijf volgers",
+     "Adjective (ṣifa)": "Bijvoeglijk naamwoord (sifa)",
+     "Conjunction (ʿaṭf)": "Nevenschikking ('atf)",
+     "Emphasis (taʾkīd)": "Nadruk (ta'kid)",
+     "Substitute (badal)": "Badal (vervanging)",
+     "Explanatory apposition": "Verklarende bijstelling"
+    }
+   }
+  }
+ },
+ "title": "al-'Awamil al-jadida",
+ "summary": "Het eerste boek van de nahw in de Ottomaanse madrasa, van Mehmed Birgivi uit Birgi (gest. 981/1573), gelezen na de beginnersboeken van de sarf en voor zijn Izhar al-asrar. Het zet de hele i'rab uiteen als honderd dingen om te weten: zestig regeerders ('awamil), dertig geregeerde woorden (ma'mulat) en tien tekens van de i'rab, in drie korte hoofdstukken, en bijna elk voorbeeld leert behalve grammatica ook een punt van geloof of gedrag. De lessen behandelen de regeerders soort voor soort, dan de geregeerde woorden en de tekens, leggen elke regel uit op de eigen zinnen van Birgivi en vergelijken hem met de Ajurrumiyya waar de twee boeken verschillen."
+}

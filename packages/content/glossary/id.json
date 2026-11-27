@@ -1,0 +1,195 @@
+{
+  "entries": [
+    {
+      "id": "irab",
+      "forms": [
+        "i'rab"
+      ],
+      "plain": "perubahan akhir kata",
+      "note": "Akhir yang diterima sebuah kata dari kata yang menjadi 'amilnya.",
+      "term": "irab"
+    },
+    {
+      "id": "mabni",
+      "forms": [
+        "mabni",
+        "bina'"
+      ],
+      "plain": "akhir kata yang tetap",
+      "note": "Kata yang akhirnya tidak pernah berubah.",
+      "term": "bina"
+    },
+    {
+      "id": "murab",
+      "forms": [
+        "mu'rab"
+      ],
+      "plain": "akhirnya berubah",
+      "note": "Kata yang akhirnya berubah mengikuti 'amilnya.",
+      "term": "irab"
+    },
+    {
+      "id": "marfu",
+      "forms": [
+        "marfu'",
+        "rafa'"
+      ],
+      "plain": "keadaan -u",
+      "note": "Rafa': keadaan yang ditandai dhammah, seperti zaidun.",
+      "term": "anwa-al-irab"
+    },
+    {
+      "id": "mansub",
+      "forms": [
+        "manshub",
+        "nashab"
+      ],
+      "plain": "keadaan -a",
+      "note": "Nashab: keadaan yang ditandai fathah, seperti zaidan.",
+      "term": "anwa-al-irab"
+    },
+    {
+      "id": "makhfud",
+      "forms": [
+        "makhfudh",
+        "khafadh",
+        "majrur",
+        "jar"
+      ],
+      "plain": "keadaan -i",
+      "note": "Khafadh (jar): keadaan yang ditandai kasrah, seperti bi-zaidin.",
+      "term": "anwa-al-irab"
+    },
+    {
+      "id": "majzum",
+      "forms": [
+        "majzum",
+        "jazem"
+      ],
+      "plain": "keadaan sukun (fi'il)",
+      "note": "Jazem: keadaan fi'il mudhari' sesudah lam, ditandai sukun.",
+      "term": "anwa-al-irab"
+    },
+    {
+      "id": "mubtada",
+      "forms": [
+        "mubtada'"
+      ],
+      "plain": "pokok kalimat",
+      "note": "Isim yang mengawali jumlah ismiyyah.",
+      "term": "mubtada"
+    },
+    {
+      "id": "khabar",
+      "forms": [
+        "khabar"
+      ],
+      "plain": "sebutan bagi mubtada'",
+      "note": "Apa yang dikatakan tentang mubtada'.",
+      "term": "khabar"
+    },
+    {
+      "id": "fail",
+      "forms": [
+        "fa'il"
+      ],
+      "plain": "pelaku",
+      "note": "Isim marfu' sesudah fi'ilnya.",
+      "term": "fail"
+    },
+    {
+      "id": "maful-bih",
+      "forms": [
+        "maf'ul bih"
+      ],
+      "plain": "yang dikenai pekerjaan",
+      "note": "Isim manshub yang dikenai perbuatan.",
+      "term": "maful-bih"
+    },
+    {
+      "id": "masdar",
+      "forms": [
+        "mashdar"
+      ],
+      "plain": "kata dasar (nama perbuatan)",
+      "note": "Isim yang menamai perbuatan itu sendiri.",
+      "term": "masdar"
+    },
+    {
+      "id": "mujarrad",
+      "forms": [
+        "mujarrad"
+      ],
+      "plain": "hanya huruf asli",
+      "note": "Terdiri dari huruf-huruf asli saja.",
+      "term": "mujarrad"
+    },
+    {
+      "id": "mazid",
+      "forms": [
+        "mazid"
+      ],
+      "plain": "ada huruf tambahan",
+      "note": "Ada huruf yang ditambahkan pada huruf aslinya.",
+      "term": "mazid"
+    },
+    {
+      "id": "madi",
+      "forms": [
+        "madhi"
+      ],
+      "plain": "kata kerja lampau",
+      "term": "madi"
+    },
+    {
+      "id": "mudari",
+      "forms": [
+        "mudhari'"
+      ],
+      "plain": "kata kerja sekarang dan akan datang",
+      "term": "mudari"
+    },
+    {
+      "id": "sigha",
+      "forms": [
+        "shighat"
+      ],
+      "plain": "bentuk kata (menurut dhamir dan bilangan)",
+      "note": "Salah satu dari empat belas bentuk fi'il yang ditashrif."
+    },
+    {
+      "id": "bab",
+      "forms": [
+        "abwab"
+      ],
+      "plain": "golongan tashrif",
+      "note": "Golongan fi'il, dinamai menurut harakatnya atau mashdarnya.",
+      "term": "mujarrad"
+    },
+    {
+      "id": "ilal",
+      "forms": [
+        "i'lal"
+      ],
+      "plain": "perubahan huruf 'illat",
+      "note": "Kaidah-kaidah berubah atau gugurnya wawu, ya' dan alif.",
+      "term": "mutall"
+    },
+    {
+      "id": "amil",
+      "forms": [
+        "'amil",
+        "'awamil"
+      ],
+      "plain": "yang mempengaruhi akhir kata",
+      "note": "Kata yang menyebabkan akhir kata lain.",
+      "term": "irab"
+    }
+  ],
+  "ignore": [
+    "isim fa'il",
+    "isim maf'ul",
+    "naibul fa'il",
+    "Bina' al-Af'al"
+  ]
+}

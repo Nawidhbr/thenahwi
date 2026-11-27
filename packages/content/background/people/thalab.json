@@ -1,0 +1,51 @@
+{
+  "slug": "thalab",
+  "name": "Abū al-ʿAbbās Aḥmad ibn Yaḥyā ibn Zayd al-Shaybānī",
+  "known": "Thaʿlab",
+  "arabic": "ثَعْلَبٌ",
+  "died": "291/904",
+  "places": [
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "The head of the Kufan grammarians in Baghdad and al-Mubarrad's rival for half a century; author of al-Faṣīḥ and of the Majālis, records of his teaching.",
+  "bio": [
+    "Thaʿlab was born in Baghdad in 200/816, a client of Shaybān, and learnt al-Farrāʾ's books from his students, above all Salama ibn ʿĀṣim; al-Zubaydī places him alone in the fifth Kufan generation, 'the companions of Salama'. He knew al-Farrāʾ's books by heart and was famous for his memory of poetry and rare words.",
+    "For decades he and al-Mubarrad taught in the same city, and the ṭabaqāt are full of their rivalry: students passed between them, al-Zajjāj went over to al-Mubarrad, Ibn Kaysān and al-Akhfash al-Aṣghar heard both. Al-Zubaydī reports a judgement that Thaʿlab was as sparing of words as al-Mubarrad and wider in learning, but that he answered by hints, never plainly. His al-Faṣīḥ, a short list of the correct forms of common words, became one of the most commented books of the language, and his Majālis record what was said in his circle.",
+    "He became deaf in old age. The biographers tell that in 291/904, leaving the mosque with a book in his hand, he did not hear a horse behind him, was knocked into a ditch and died the next day."
+  ],
+  "works": [
+    {
+      "title": "al-Faṣīḥ",
+      "arabic": "الفَصِيح",
+      "kind": "matn"
+    },
+    {
+      "title": "Majālis Thaʿlab",
+      "arabic": "مَجَالِسُ ثَعْلَب",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "kufa",
+  "tabaqa": {
+    "list": "kufa-nahw",
+    "n": 5,
+    "entry": 74
+  },
+  "sources": [
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn, entry 74 (Arabic text, OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Sa'leb, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/saleb"
+    }
+  ]
+}

@@ -1287,6 +1287,49 @@ button.kb-chip { background: none; font: inherit; font-family: var(--font-kb); c
 @media (max-width: 720px) { .kb-toolbar { grid-template-columns: repeat(3, minmax(0, 1fr)); } .kb-toolbar .kb-filter { grid-column: 1 / -1; } .kb-select select { padding: 11px 30px 11px 12px; font-size: 0.95rem; } .kb-select::after { inset-inline-end: 12px; } }
 .kb-person .muted { font-size: 0.95rem; }
 .kb-person:hover strong { color: var(--red-ink); }
+/* The generations of the grammarians (scholars/generations.astro): al-Zubaydī's lists as steps, each generation a tile;
+   the later schools and the centuries as plain cards. */
+.gen-link { margin: 0 0 22px; padding: 14px 18px; border: 1px solid var(--line); border-inline-start: 3px solid var(--red); background: var(--sky-soft); }
+.gen-link:hover strong { color: var(--red-ink); }
+.gen-intro { display: grid; grid-template-columns: minmax(0, 2fr) minmax(240px, 1fr); gap: 28px 56px; }
+.gen-intro h2 { margin: 6px 0 14px; }
+.gen-intro p:not(.kb-kicker) { font-size: 1.1rem; line-height: 1.65; margin: 0 0 14px; }
+.gen-intro aside { border-inline-start: 2px solid var(--line); padding-inline-start: 24px; }
+.gen-works { list-style: none; margin: 10px 0 22px; padding: 0; }
+.gen-works li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.gen-jump { margin-top: 8px; }
+.gen-lead { max-width: 60rem; margin: 12px 0 8px; }
+.gen-list { margin-top: 30px; }
+.gen-list-h { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin: 0 0 8px; padding: 10px 0; border-bottom: 2px solid var(--ink); font-size: 1.25rem; }
+.gen-list-h .kufi { font-size: 1.3rem; color: var(--muted); }
+.gen-steps { list-style: none; margin: 0; padding: 0; }
+.gen-step { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.gen-tile { width: 30px; height: 30px; margin: 6px 7px 0; display: grid; place-items: center; transform: rotate(45deg); border: 2px solid var(--red); border-radius: 3px; background: var(--surface); }
+.gen-tile span { transform: rotate(-45deg); font-weight: 700; font-size: 0.9rem; color: var(--red-ink); }
+.gen-step-h { margin: 0 0 4px; font-family: var(--font-kb); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.gen-names { list-style: none; margin: 0; padding: 0; }
+.gen-names li { padding: 5px 0; line-height: 1.5; }
+.gen-names a { color: var(--ink); text-decoration: none; }
+.gen-names a:hover strong { color: var(--red-ink); }
+.gen-names .kufi { margin-inline-start: 8px; font-size: 1rem; color: var(--muted); }
+.gen-books { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 4px; }
+.gen-books a { padding: 2px 10px; border: 1px solid var(--line); font-size: 0.88rem; color: var(--ink); }
+.gen-books a:hover { border-color: var(--ink); }
+.gen-later-head { margin-top: 56px; }
+.gen-schools { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 8px 40px; margin-top: 18px; }
+.gen-school { padding-bottom: 18px; }
+.gen-school .gen-list-h { display: block; }
+.gen-centuries { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 22px; }
+.gen-century { border: 1px solid var(--line); border-top: 3px solid var(--panel); padding: 18px 20px; background: var(--surface); }
+.gen-century h3 { margin: 0; font-size: 1.25rem; }
+.gen-years { margin: 2px 0 10px; font-size: 0.9rem; }
+.gen-century .gen-names li { border-top: 1px solid var(--line); font-size: 0.95rem; }
+@media (max-width: 760px) {
+  .gen-intro { grid-template-columns: 1fr; }
+  .gen-intro aside { border-inline-start: 0; padding-inline-start: 0; }
+  .gen-step { grid-template-columns: 36px minmax(0, 1fr); gap: 10px; }
+  .gen-tile { width: 26px; height: 26px; margin: 6px 4px 0; }
+}
 .kb-news { list-style: none; margin: 0; padding: 0; }
 .kb-news li { padding: 18px 0; border-bottom: 1px solid var(--line); }
 .kb-news h3 { margin: 4px 0 4px; font-size: 1.2rem; }

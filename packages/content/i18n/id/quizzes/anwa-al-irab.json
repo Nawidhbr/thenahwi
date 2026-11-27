@@ -1,0 +1,34 @@
+{
+  "items": {
+    "anwa-al-irab-1": {
+      "prompt": "Keadaan i'rab mana yang hanya diterima isim?",
+      "options": [
+        "khafadh (jar)",
+        "rafa'",
+        "nashab",
+        "jazem"
+      ],
+      "explanation": "Isim menerima rafa', nashab dan khafadh, tetapi tidak jazem; fi'il tidak menerima khafadh."
+    },
+    "anwa-al-irab-2": {
+      "prompt": "Keadaan i'rab mana yang hanya diterima fi'il?",
+      "options": [
+        "jazem",
+        "khafadh",
+        "rafa'",
+        "nashab"
+      ],
+      "explanation": "Jazem milik fi'il mudhari', seperti dalam lam yanshur."
+    },
+    "anwa-al-irab-3": {
+      "prompt": "Apa tanda asal nashab?",
+      "options": [
+        "fathah",
+        "dhammah",
+        "kasrah",
+        "sukun"
+      ],
+      "explanation": "Zaidan dan lan yanshura sama-sama berakhir dengan fathah, tanda asal nashab."
+    }
+  }
+}
