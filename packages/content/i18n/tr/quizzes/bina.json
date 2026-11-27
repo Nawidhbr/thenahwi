@@ -1,0 +1,34 @@
+{
+  "items": {
+    "bina-1": {
+      "prompt": "Mebni ne demektir?",
+      "options": [
+        "Hangi amil gelirse gelsin sonu aynı kalır",
+        "Sonu amillere göre değişir",
+        "Fiil-i muzaridir",
+        "Zaid harfleri vardır"
+      ],
+      "explanation": "Mebni kelimeler tek bir sonu korur; mu'reb kelimeler değişir."
+    },
+    "bina-2": {
+      "prompt": "Bu kelimelerden hangisi mebnidir?",
+      "options": [
+        "haza",
+        "zeydün",
+        "yensuru",
+        "Üçü de"
+      ],
+      "explanation": "Haza gibi ism-i işaretler mebnidir; Zeyd ve yensuru mu'rebdir."
+    },
+    "bina-3": {
+      "prompt": "Hangi fiiller mebnidir?",
+      "options": [
+        "Fiil-i mazi ve emir",
+        "Yalnız fiil-i muzari",
+        "Hiçbir fiil mebni değildir",
+        "Lem'den sonraki her fiil"
+      ],
+      "explanation": "Fiil-i mazi ve emir mebnidir; fiil-i muzari ise, kitapların sonra ele aldığı birkaç durum dışında, mu'rebdir."
+    }
+  }
+}

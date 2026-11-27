@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mizan-1": {
+      "prompt": "Op welk patroon staat dit werkwoord?",
+      "options": [
+        "fa'ala",
+        "fa'ila",
+        "af'ala",
+        "fa'ala (met lange a)"
+      ],
+      "explanation": "Nasara heeft een fatha op elk van zijn drie stamletters: fa'ala."
+    },
+    "mizan-2": {
+      "prompt": "Waar staat in het patroon fa'ala de 'ayn voor?",
+      "options": [
+        "De tweede stamletter",
+        "De eerste stamletter",
+        "De derde stamletter",
+        "Een toegevoegde letter"
+      ],
+      "explanation": "Fa', 'ayn en lam staan voor de eerste, tweede en derde stamletter."
+    },
+    "mizan-3": {
+      "prompt": "Op welk patroon staat dit werkwoord?",
+      "options": [
+        "istaf'ala",
+        "if'alla",
+        "tafa''ala",
+        "infa'ala"
+      ],
+      "explanation": "De wortel is gh-f-r; de alif, de sin en de ta' ervoor zijn toegevoegd: istaf'ala."
+    }
+  }
+}

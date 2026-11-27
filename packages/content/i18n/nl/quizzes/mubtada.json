@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mubtada-1": {
+      "prompt": "Welk woord is hier de mubtada'?",
+      "options": [
+        "al-kitabu",
+        "jadidun",
+        "Beide",
+        "Geen van beide"
+      ],
+      "explanation": "Al-kitabu begint de zin en er wordt over gesproken: het is de mubtada'."
+    },
+    "mubtada-2": {
+      "prompt": "Wat maakt de mubtada', volgens de opvatting die de meeste boeken volgen, marfu'?",
+      "options": [
+        "Zijn plaats aan het begin (ibtida'), een abstracte regeerder",
+        "Een werkwoord ervoor",
+        "Een voorzetsel",
+        "De khabar erna"
+      ],
+      "explanation": "De mubtada' heeft geen regeerder in de woorden; dat hij aan het begin staat, regeert hem."
+    },
+    "mubtada-3": {
+      "prompt": "De mubtada' is meestal…",
+      "options": [
+        "bepaald: iets bekends",
+        "onbepaald",
+        "een werkwoord",
+        "een partikel"
+      ],
+      "explanation": "De zin vertelt iets over wat de luisteraar kent, dus is de mubtada' meestal bepaald."
+    }
+  }
+}

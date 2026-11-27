@@ -1,0 +1,34 @@
+{
+  "items": {
+    "jumla-ismiyya-1": {
+      "prompt": "Welke zin is een naamwoordzin?",
+      "options": [
+        "zaydun qa'imun",
+        "qama zaydun",
+        "Beide",
+        "Geen van beide"
+      ],
+      "explanation": "Zaydun qa'imun begint met een naamwoord; qama zaydun begint met een werkwoord."
+    },
+    "jumla-ismiyya-2": {
+      "prompt": "Wat zijn de twee delen van de eenvoudige naamwoordzin?",
+      "options": [
+        "mubtada' en khabar",
+        "fi'l en fa'il",
+        "fa'il en maf'ul",
+        "harf en ism"
+      ],
+      "explanation": "De naamwoordzin bestaat uit de mubtada' en zijn khabar."
+    },
+    "jumla-ismiyya-3": {
+      "prompt": "Wat is hier de toestand van beide delen?",
+      "options": [
+        "Beide marfu'",
+        "Beide mansub",
+        "Het eerste marfu', het tweede mansub",
+        "Beide majrur"
+      ],
+      "explanation": "Mubtada' en khabar zijn beide marfu': al-'ilmu, nurun."
+    }
+  }
+}

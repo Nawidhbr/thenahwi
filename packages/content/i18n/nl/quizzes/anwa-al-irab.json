@@ -1,0 +1,34 @@
+{
+  "items": {
+    "anwa-al-irab-1": {
+      "prompt": "Welke toestand nemen alleen naamwoorden aan?",
+      "options": [
+        "khafd (jarr)",
+        "raf'",
+        "nasb",
+        "jazm"
+      ],
+      "explanation": "Naamwoorden nemen raf', nasb en khafd aan, maar geen jazm; werkwoorden nemen geen khafd aan."
+    },
+    "anwa-al-irab-2": {
+      "prompt": "Welke toestand nemen alleen werkwoorden aan?",
+      "options": [
+        "jazm",
+        "khafd",
+        "raf'",
+        "nasb"
+      ],
+      "explanation": "De jazm hoort bij de mudari', zoals in lam yansur."
+    },
+    "anwa-al-irab-3": {
+      "prompt": "Wat is het basisteken van de nasb?",
+      "options": [
+        "fatha",
+        "damma",
+        "kasra",
+        "sukun"
+      ],
+      "explanation": "Zaydan en lan yansura eindigen allebei op fatha, het basisteken van de nasb."
+    }
+  }
+}

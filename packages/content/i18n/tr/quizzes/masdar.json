@@ -1,0 +1,34 @@
+{
+  "items": {
+    "masdar-1": {
+      "prompt": "Bu fiilin masdarı hangisidir?",
+      "options": [
+        "إِكْرَامٌ",
+        "تَكْرِيمٌ",
+        "مُكْرِمٌ",
+        "كَرَامَةٌ"
+      ],
+      "explanation": "Ef'ale babının masdarı if'al veznindedir: ikram. Tekrim kerrame'ye aittir, mükrim ise ism-i faildir."
+    },
+    "masdar-2": {
+      "prompt": "Masdar neyi adlandırır?",
+      "options": [
+        "İşin kendisini, zamansız olarak",
+        "İşi yapanı",
+        "İşin kendisine yapıldığını",
+        "İşin yerini"
+      ],
+      "explanation": "Masdar işi adlandırır: nasr, yardım etmek."
+    },
+    "masdar-3": {
+      "prompt": "Sülasi mücerred fiilin masdarı nasıl bilinir?",
+      "options": [
+        "İşitilerek (sema'): birçok vezinde gelir",
+        "Sabit tek bir kuralla",
+        "Her zaman fa'l veznindedir",
+        "Masdarı yoktur"
+      ],
+      "explanation": "Nasr, ilm, duhul, kitabe: mücerred fiilin masdarı kullanımdan öğrenilir."
+    }
+  }
+}

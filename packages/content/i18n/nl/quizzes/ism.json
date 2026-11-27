@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-1": {
+      "prompt": "Welk van deze is een kenteken van het naamwoord?",
+      "options": [
+        "Het kan het lidwoord al- aannemen",
+        "Het kan qad voor zich nemen",
+        "Het kan de sin van de toekomst aannemen",
+        "Het eindigt altijd op sukun"
+      ],
+      "explanation": "Het lidwoord al-, de tanwin en de khafd kenmerken het naamwoord; qad en de sin van de toekomst kenmerken het werkwoord."
+    },
+    "ism-2": {
+      "prompt": "Wat onderscheidt een naamwoord van een werkwoord?",
+      "options": [
+        "Een naamwoord geeft een betekenis aan zonder die aan een tijd te binden",
+        "Een naamwoord heeft altijd drie letters",
+        "Een naamwoord kan nooit de fa'il zijn",
+        "Een naamwoord neemt nooit tanwin aan"
+      ],
+      "explanation": "Het werkwoord draagt een tijd; het naamwoord niet."
+    },
+    "ism-3": {
+      "prompt": "Welk woord is een naamwoord?",
+      "options": [
+        "kitabun (een boek)",
+        "kataba (hij schreef)",
+        "qad",
+        "Geen van alle"
+      ],
+      "explanation": "Kitabun heeft tanwin, een kenteken van het naamwoord. Kataba is een werkwoord en qad een partikel."
+    }
+  }
+}

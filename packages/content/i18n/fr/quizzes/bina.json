@@ -1,0 +1,34 @@
+{
+  "items": {
+    "bina-1": {
+      "prompt": "Que signifie mabnî ?",
+      "options": [
+        "Sa finale reste la même quel que soit ce qui le régit",
+        "Sa finale change avec les régissants",
+        "C'est un verbe au présent",
+        "Il a des lettres ajoutées"
+      ],
+      "explanation": "Les mots mabnî gardent une seule finale ; les mots mu'rab changent."
+    },
+    "bina-2": {
+      "prompt": "Lequel de ces mots est mabnî ?",
+      "options": [
+        "hâdhâ",
+        "zaydun",
+        "yansuru",
+        "Les trois"
+      ],
+      "explanation": "Les démonstratifs comme hâdhâ sont mabnî ; Zayd et yansuru sont mu'rab."
+    },
+    "bina-3": {
+      "prompt": "Quels verbes sont mabnî ?",
+      "options": [
+        "Le passé et l'impératif",
+        "Seulement le présent",
+        "Aucun verbe n'est mabnî",
+        "Tout verbe après lam"
+      ],
+      "explanation": "Le passé et l'impératif sont mabnî ; le présent est mu'rab, sauf dans quelques cas que les livres traitent plus loin."
+    }
+  }
+}

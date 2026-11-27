@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mubtada-1": {
+      "prompt": "Quel mot est ici le mubtada' ?",
+      "options": [
+        "al-kitâbu",
+        "jadîdun",
+        "Les deux",
+        "Aucun"
+      ],
+      "explanation": "Al-kitâbu ouvre la phrase et c'est de lui qu'on parle : c'est le mubtada'."
+    },
+    "mubtada-2": {
+      "prompt": "Selon l'avis que suivent la plupart des livres, qu'est-ce qui met le mubtada' au raf' ?",
+      "options": [
+        "Sa position en tête (ibtidâ'), un régissant abstrait",
+        "Un verbe devant lui",
+        "Une préposition",
+        "Le khabar qui le suit"
+      ],
+      "explanation": "Le mubtada' n'a pas de régissant exprimé ; c'est le fait d'être en tête qui le régit."
+    },
+    "mubtada-3": {
+      "prompt": "Le mubtada' est d'ordinaire…",
+      "options": [
+        "défini : une chose connue",
+        "indéfini",
+        "un verbe",
+        "une particule"
+      ],
+      "explanation": "La phrase dit quelque chose de ce que l'auditeur connaît ; le mubtada' est donc d'ordinaire défini."
+    }
+  }
+}

@@ -1,0 +1,1740 @@
+{
+  "meta": {
+    "tagline": "Sharaf dan nahwu: tata bahasa Arab sebagaimana diajarkan di madrasah",
+    "homeDescription": "Belajar sharaf dan nahwu, ilmu tashrif dan susunan kalimat bahasa Arab klasik, mengikuti jalur madrasah: mulai gratis dengan al-Mabadi', lalu kitab-kitab klasik, dengan tes singkat.",
+    "glossaryName": "Glosarium sharaf dan nahwu (tata bahasa Arab)"
+  },
+  "nav": {
+    "learn": "Belajar",
+    "text": "Teks",
+    "practice": "Latihan",
+    "main": "Utama",
+    "home": "Beranda",
+    "book": "Kitab",
+    "glossary": "Glosarium",
+    "about": "Tentang"
+  },
+  "header": {
+    "search": "Cari istilah dan teks",
+    "translit": "Transliterasi",
+    "translitTitle": "Transliterasi aktif atau nonaktif",
+    "tashkil": "Harakat (tasykil)",
+    "tashkilTitle": "Harakat aktif atau nonaktif",
+    "theme": "Ganti tema terang atau gelap",
+    "language": "Bahasa",
+    "inPreparation": "Sedang disiapkan",
+    "langNote": "Terjemahan masih berupa draf, seperti versi bahasa Inggrisnya, sampai diperiksa oleh seorang guru.",
+    "settings": "Pengaturan",
+    "darkTheme": "Tema gelap",
+    "install": "Pasang sebagai aplikasi",
+    "installIos": "Di iPhone atau iPad: ketuk Bagikan, lalu “Tambah ke Layar Utama”.",
+    "installOther": "Buka menu browser Anda dan pilih “Instal aplikasi” atau “Tambahkan ke layar utama”.",
+    "font": "Huruf Arab",
+    "fonts": {
+      "modern": "Kufi",
+      "naskh": "Naskh",
+      "classic": "Amiri"
+    },
+    "hijri": "Tanggal Hijriah dulu",
+    "ah": "H",
+    "trLang": "Terjemahan teks",
+    "trLangNote": "Di bawah setiap bagian teks asli sebuah kitab, jika sudah diterjemahkan.",
+    "trLangs": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "tr": "Turkce",
+      "ur": "اردو",
+      "fa": "فارسی",
+      "ar": "العربية"
+    }
+  },
+  "footer": {
+    "draft": "{site} sedang dikembangkan. Semua penjelasan masih berupa draf yang menunggu pemeriksaan seorang guru tata bahasa Arab yang berwenang.",
+    "privacy": "Privasi",
+    "pricing": "Harga",
+    "terms": "Ketentuan",
+    "refunds": "Pengembalian dana",
+    "email": "Email"
+  },
+  "home": {
+    "title": "Belajar sharaf dan nahwu, <em>tata bahasa Arab madrasah</em>",
+    "lead": "Alat yang berkaidah, yang menjaga akal dari kesalahan berpikir, diajarkan dari kitab-kitab madrasah: pilih jalur India, Utsmani atau Afrika Utara dan baca teks-teksnya tingkat demi tingkat, dengan lafazh Arab dan tes singkat di setiap pelajaran.",
+    "start": "Pilih jalur Anda",
+    "readText": "Baca teksnya",
+    "factTerms": "istilah",
+    "factChapters": "bab",
+    "factParts": "bagian",
+    "yourStudy": "Belajar Anda",
+    "continue": "Lanjutkan",
+    "continueTo": "Lanjutkan: {name}",
+    "termsStudied": "{n} dari {total} istilah sudah dipelajari",
+    "howItWorks": "Cara kerjanya",
+    "howTitle": "Teks lebih dahulu",
+    "howBody": "Setiap istilah mengikuti urutan al-Mabadi', dasar-dasar sharaf dan nahwu, beserta lafazh Arabnya, penjelasan yang sederhana, dan contoh-contoh klasik. Kemajuan Anda disimpan di perangkat ini.",
+    "levelsTitle": "Tingkat-tingkat Anda",
+    "levelsLead": "Setiap tingkat terbuka setelah Anda lulus tingkat sebelumnya di jalur Anda.",
+    "levelProgress": "{n} dari {total} lulus",
+    "levelLocked": "Terbuka setelah tingkat {prev}",
+    "levelSoon": "Sedang disiapkan",
+    "termsCount": "{n} istilah",
+    "aboutLink": "Tentang The Nahwi dan gurunya"
+  },
+  "parts": {
+    "introduction": {
+      "title": "Pendahuluan",
+      "summary": "Dua ilmu, kalimah dan kalam, serta tiga macam kalimah."
+    },
+    "sarf": {
+      "title": "Ilmu sharaf",
+      "summary": "Kata itu sendiri: huruf asli dan wazannya, zaman-zaman fi'il, kata yang shahih dan mu'tal, serta isim-isim yang dibentuk dari fi'il."
+    },
+    "nahw": {
+      "title": "Ilmu nahwu",
+      "summary": "Kata dalam kalimat: i'rab dan bina', empat macam i'rab, serta jumlah ismiyyah dan jumlah fi'liyyah."
+    }
+  },
+  "chapters": {
+    "introduction": "Dua ilmu dan kalam",
+    "word": "Macam-macam kalimah",
+    "root": "Huruf asli dan wazan",
+    "verb": "Fi'il dan zamannya",
+    "sound-weak": "Shahih dan mu'tal",
+    "derived": "Isim musytaq",
+    "irab": "I'rab dan bina'",
+    "sentence": "Jumlah"
+  },
+  "structure": {
+    "part": "Bagian {n}",
+    "chapter": "Bab {n}",
+    "about": "Tentang {name}",
+    "toggle": "Tampilkan atau sembunyikan {name}",
+    "close": "Tutup",
+    "upNext": "Berikutnya",
+    "practise": "Latihan {chapter} · {n} soal",
+    "expandAll": "Buka semua",
+    "collapseAll": "Tutup semua"
+  },
+  "term": {
+    "nOfM": "{n} dari {m}",
+    "secondReading": "Bacaan kedua",
+    "fromCommentaries": "Dari kitab-kitab syarah",
+    "draft": "Draf · menunggu pemeriksaan",
+    "inAPicture": "Dalam gambar",
+    "explanation": "Penjelasan",
+    "alsoWritten": "Juga ditulis: {list}.",
+    "inTheText": "Dalam teks",
+    "examples": "Contoh",
+    "related": "Istilah terkait",
+    "practise": "Latihan",
+    "practiseThis": "{n} soal tentang istilah ini, dalam latihan {chapter}.",
+    "practiseChapter": "Uji diri Anda tentang {chapter}.",
+    "goToPractice": "Ke latihan · {n} soal",
+    "endOf": "Akhir {name}.",
+    "takeStock": "Tinjau dulu sebelum bagian berikutnya.",
+    "lastTerm": "Ini istilah terakhir dalam kitab ini.",
+    "finish": "Selesaikan {name} →",
+    "finishPart": "Selesaikan bagian ini →",
+    "next": "Berikutnya:",
+    "continue": "Lanjutkan →",
+    "reviewedBy": "Ditinjau oleh {name} · {date}",
+    "reviewedCount": "Ditinjau guru: {n} dari {m} pelajaran",
+    "metaMore": "Dijelaskan dalam al-Mabadi', dasar-dasar sharaf dan nahwu, beserta lafazh Arab, contoh, dan tes singkat.",
+    "inGlossary": "Gratis dibaca: {name} di daftar istilah →"
+  },
+  "text": {
+    "title": "Teks {title}",
+    "pageTitle": "{title}: teks Arab dan terjemahannya",
+    "description": "{title} karya {author}, kalimat demi kalimat: teks Arab berharakat beserta terjemahannya, setiap kalimat terhubung dengan istilah yang diperkenalkannya.",
+    "about": "Tentang teks dan edisi ini",
+    "eyebrow": "Teks",
+    "author": "Pengarang:",
+    "arabicAfter": "Teks Arab menurut:",
+    "note": "Terjemahan ini milik The Nahwi sendiri. Nomor halaman merujuk pada edisi ini.",
+    "draft": "Draf · terjemahan menunggu pemeriksaan",
+    "preparing": "Teks ini sedang disiapkan dari edisi cetak dan akan muncul di sini kalimat demi kalimat.",
+    "sentence": "Kalimat {n}",
+    "library": "Teks",
+    "libraryLead": "Pilih teks untuk dibaca. Teks lain akan menyusul.",
+    "read": "Baca",
+    "passages": "{n} bagian",
+    "commentary": "Syarah",
+    "commentaryNote": "Teks Arab mengikuti edisi cetak di bawah, tanpa catatan pentahkik modern.",
+    "onMatn": "Pada matan: {n}",
+    "page": "hlm. {n}"
+  },
+  "practice": {
+    "title": "Latihan: tikrar",
+    "description": "Ulangi pelajaran yang sudah lulus: pilih bagiannya, acak soal dan jawaban, lalu uji diri Anda.",
+    "lead": "Tikrar artinya mengulang: ulangi apa yang sudah Anda luluskan, seperti santri madrasah membaca ulang pelajaran sebelum pelajaran berikutnya. Setiap pelajaran yang Anda luluskan masuk ke dalamnya.",
+    "questions": "{n} soal",
+    "notStarted": "belum dimulai",
+    "score": "{right} dari {total} benar",
+    "setTitle": "Latihan: {chapter}",
+    "setDescription": "{n} soal singkat tentang {chapter} dalam tata bahasa Arab (sharaf dan nahwu), masing-masing dengan penjelasan.",
+    "progress": "<span data-progress>0</span> dari {n} dijawab · <span data-right>0</span> benar",
+    "question": "Soal {n}",
+    "answersTo": "Jawaban untuk soal {n}",
+    "right": "Benar.",
+    "wrong": "Belum tepat.",
+    "see": "Lihat:",
+    "again": "Ulangi dari awal",
+    "nextSet": "Berikutnya: {chapter} →",
+    "all": "Semua latihan →",
+    "selectAll": "Pilih semua",
+    "shuffleQuestions": "Acak soal",
+    "shuffleAnswers": "Acak jawaban",
+    "count": "{n} soal",
+    "none": "Pilih minimal satu pelajaran",
+    "start": "Mulai",
+    "reshuffle": "Acak dan mulai lagi",
+    "choose": "Pilih pelajaran lain",
+    "locked": "luluskan dulu pelajarannya",
+    "howTitle": "Cara kerjanya",
+    "how": [
+      "Buka sebuah kitab dan centang pelajaran yang ingin diulang, atau satu bab atau kitab penuh",
+      "Acak soal dan jawabannya jika Anda mau",
+      "Tekan Mulai dan jawab: setiap soal menjelaskan dirinya sendiri"
+    ],
+    "emptyTitle": "Belum ada yang bisa diulang",
+    "emptyBody": "Tikrar terbuka dengan pelajaran pertama yang Anda luluskan: luluskan tes sebuah pelajaran dengan minimal dua bintang, lalu pelajaran itu muncul di sini.",
+    "emptyCta": "Ke portal belajar",
+    "passedOf": "{n} dari {m} lulus",
+    "notYet": "Belum lulus: {n}. Pelajaran itu masuk tikrar begitu Anda meluluskannya.",
+    "chosen": "Dipilih: {n}",
+    "options": "Pilihan",
+    "yourPath": "Jalur Anda",
+    "selectBook": "Semua pelajaran yang lulus dari kitab ini",
+    "toBook": "Ke {book}",
+    "otherPaths": "Jalur lain",
+    "dueTitle": "Waktunya mengulang",
+    "dueToday": "Diulang hari ini: {list}",
+    "dueNext": "Tidak ada yang perlu diulang hari ini. Pengulangan berikutnya: {date}.",
+    "dueHow": "Setiap pelajaran yang Anda luluskan kembali setelah 1, 3, 7, 14, 30, dan 60 hari, lalu setiap 120 hari; setelah pengulangan dengan kurang dari dua bintang, keesokan harinya. Jadwal ini disimpan di browser ini.",
+    "dueStart": "Ulangi sekarang",
+    "dueSaved": "Pengulangan berikutnya untuk pelajaran ini: {date}."
+  },
+  "complete": {
+    "title": "{name}: selesai",
+    "description": "Anda telah menyelesaikan {name} dalam al-Mabadi'.",
+    "eyebrow": "{name} selesai",
+    "finished": "Anda telah menyelesaikan {name}",
+    "finishedBook": "Anda telah menyelesaikan al-Mabadi'",
+    "count": "{n} istilah dalam bagian ini.",
+    "read": "Anda telah membaca {read} dari {total} istilah dalam bagian ini.",
+    "notRead": "Belum dibaca:",
+    "continueTo": "Lanjut ke {name} →",
+    "readWhole": "Baca seluruh teks →",
+    "practise": "Latihan bagian ini",
+    "home": "Kembali ke beranda",
+    "testYourself": "Uji diri Anda",
+    "questions": "{chapter} · {n} soal"
+  },
+  "search": {
+    "placeholder": "Cari: fa'il, i'rab, فاعل…",
+    "hint": "Cari dalam bahasa ini, dalam transliterasi, atau dalam bahasa Arab, dengan atau tanpa harakat.",
+    "none": "Tidak ditemukan. Coba ejaan lain, atau tulisan Arabnya.",
+    "close": "Tutup pencarian",
+    "results": "Hasil",
+    "where": "{part} · {chapter}",
+    "textWhere": "Teks · {chapter} · {n}"
+  },
+  "privacy": {
+    "title": "Privasi",
+    "description": "Apa yang disimpan dan diukur The Nahwi: tanpa akun, tanpa cookie, tanpa pelacakan lintas situs.",
+    "intro": "The Nahwi tidak memakai akun dan tidak memasang cookie.",
+    "deviceTitle": "Di perangkat Anda",
+    "device": "Kemajuan Anda, jalur madrasah yang Anda pilih, jawaban latihan Anda, jadwal pengulangan setiap pelajaran, jumlah tes yang Anda kerjakan setiap hari dan target harian Anda, pilihan Anda untuk tema, transliterasi, harakat dan jenis huruf, serta tanggal berita terbaru yang Anda lihat (untuk menandai yang baru) disimpan di penyimpanan lokal browser Anda. Semua itu tidak pernah keluar dari perangkat Anda. Menghapus data browser akan menghapusnya.",
+    "offline": "Agar Anda bisa membaca secara offline, situs ini menyimpan kursus, teks-teks dan halaman yang sudah Anda baca di cache browser Anda.",
+    "statsTitle": "Statistik pengunjung",
+    "stats": "Untuk melihat halaman mana yang dipakai, kami menghitung kunjungan halaman dengan Vercel Web Analytics. Layanan ini tidak memakai cookie, tidak mengikuti Anda ke situs lain, dan tidak menyimpan alamat IP Anda; kunjungan hanya dihitung secara keseluruhan. Font disajikan dari situs ini sendiri, jadi browser Anda tidak menghubungi Google atau layanan font lainnya. Tombol “Google Terjemahan” di bawah teks-teks lama mengirim bagian teks itu ke Google Terjemahan hanya jika Anda mengekliknya.",
+    "contactTitle": "Formulir kontak",
+    "contact": "Apa yang Anda tulis di formulir kontak (nama, alamat email, subjek dan pesan Anda) dikirim lewat email ke {email}, melalui layanan email Resend, agar kami bisa membaca dan membalasnya. Data itu tidak disimpan di situs ini dan tidak dipakai untuk keperluan lain.",
+    "errorsTitle": "Laporan galat",
+    "errors": "Jika sebuah skrip di halaman mengalami galat di browser Anda, laporan singkat dikirim ke situs agar kami bisa memperbaikinya: halamannya, pesan galatnya, letaknya di skrip, dan nama browser Anda. Laporan itu tidak memuat apa pun tentang Anda, bahkan alamat IP pun tidak; ia hanya tersimpan sebentar di log server dan tidak dipakai untuk keperluan lain.",
+    "descriptionAccounts": "Apa yang disimpan dan diukur The Nahwi: akun pilihan yang disimpan di Uni Eropa, tanpa cookie, tanpa pelacakan lintas situs.",
+    "introAccounts": "The Nahwi tidak memasang cookie. Akun bersifat pilihan: semua yang terbuka tetap terbuka tanpa akun, dan kemajuan Anda cukup tersimpan di perangkat ini.",
+    "deviceAccounts": "Kemajuan Anda, jalur madrasah yang Anda pilih, jawaban latihan Anda, jadwal pengulangan setiap pelajaran, jumlah tes yang Anda kerjakan setiap hari dan target harian Anda, pilihan Anda untuk tema, transliterasi, harakat dan jenis huruf, serta tanggal berita terbaru yang Anda lihat (untuk menandai yang baru) disimpan di penyimpanan lokal browser Anda. Semua itu tetap di perangkat Anda kecuali Anda masuk (lihat di bawah). Menghapus data browser akan menghapusnya dari perangkat ini.",
+    "hearts": "Hati Anda (berapa tes yang dapat Anda ikuti sekarang dan kapan hati berikutnya kembali), soal-soal yang ditanyakan tes terakhir setiap pelajaran, dan apakah suatu pelajaran harus dibaca ulang juga disimpan di sana. Dengan akun, hati Anda juga disimpan di akun, agar sama di setiap perangkat; isi ulang yang dibeli melalui Paddle dicatat di sana.",
+    "accountTitle": "Jika Anda masuk",
+    "account": "Saat Anda masuk, dengan alamat email atau dengan Google, akun Anda menyimpan alamat email Anda, nilai tes Anda, langkah yang telah Anda lihat dan jalur madrasah yang Anda pilih, agar Anda dapat melanjutkan di perangkat lain. Jika Anda masuk dengan Google, Google juga memberi kami nama Anda dan alamat foto profil Anda; kami tidak meminta lebih. Akun disimpan di Supabase di Uni Eropa (Frankfurt), yang juga menyimpan catatan masuk (waktu dan alamat IP) untuk keamanan selama waktu terbatas; email masuk dikirim melalui Resend. Sesi Anda disimpan di penyimpanan lokal browser, bukan di cookie. Di halaman akun Anda dapat mengunduh semua yang disimpan tentang Anda, atau menghapus akun Anda, yang menghapusnya beserta seluruh isinya seketika.",
+    "accountApple": "Jika Anda masuk dengan Apple, Apple hanya memberi kami alamat email Anda, atau, jika Anda memilih menyembunyikannya, sebuah alamat Apple yang meneruskan email kami kepada Anda; nama Anda tidak diteruskan.",
+    "accountPassword": "Jika Anda memilih kata sandi, Supabase hanya menyimpan bentuk acaknya (hash), tidak pernah kata sandinya sendiri; kami tidak dapat melihatnya.",
+    "supportStore": "Agar sesekali, dan tidak pernah sering, meminta dukungan, browser Anda juga menyimpan berapa halaman yang telah Anda baca di sini dan kapan situs terakhir meminta; tidak ada yang keluar dari perangkat Anda.",
+    "app": "Jika Anda membuka The Nahwi dari aplikasi Android-nya, situs mencatatnya selama sesi (di penyimpanan sesi browser Anda), agar aplikasi tidak menampilkan pembayaran; Google Play hanya mengizinkan pembayaran di dalam aplikasi melalui sistem tagihannya sendiri. Catatan itu terhapus saat aplikasi ditutup.",
+    "appIos": "Di aplikasi iPhone, pengingat harian dan pemberitahuan bahwa hati Anda sudah penuh lagi diatur di ponsel Anda, pada jam yang Anda pilih; aplikasi juga mengingat bahasa Anda untuk pembukaan berikutnya. Semua itu tidak keluar dari ponsel Anda.",
+    "accountCodes": "Jika Anda menukarkan kode akses, akun Anda juga menyimpan akses yang diberikannya dan dari kode mana akses itu berasal, agar satu kode hanya berlaku sekali untuk setiap akun, serta selama seminggu berapa kode yang dicoba tiap hari (paling banyak sepuluh), untuk mencegah tebakan. Kode dari tautan (?redeem= atau ?discount=) disimpan di penyimpanan sesi browser Anda sampai Anda memakainya atau menutup browser.",
+    "comments": "Jika Anda menulis pertanyaan atau catatan di bawah sebuah pelajaran, akun Anda menyimpan pesan itu, nama yang Anda isi (atau bahwa Anda memilih menulis tanpa nama), pelajarannya, dan bahasanya. Seorang moderator membacanya sebelum diterbitkan; setelah diterbitkan, semua orang melihat pesan itu dengan nama yang Anda isi, atau sebagai “seorang santri”, tetapi tidak pernah alamat email Anda. Anda dapat menghapus pesan kapan saja, dan menghapus akun akan menghapus semuanya.",
+    "paymentsTitle": "Jika Anda membayar",
+    "payments": "Akses penuh dijual oleh Paddle sebagai merchant of record, berdasarkan kebijakan privasi Paddle sendiri: Paddle mengelola detail pembayaran, alamat penagihan, dan tanda terima Anda, dan kami tidak pernah melihat nomor kartu Anda; di dasbor Paddle kami melihat apa yang dibutuhkan penjual, seperti alamat email, negara, dan pembayaran Anda. Untuk menampilkan harga bagi negara Anda, halaman harga dan jendela berlangganan memuat skrip Paddle dari server Paddle, yang melihat alamat IP Anda. Akun Anda hanya menyimpan apa yang diperlukan akses penuh: nomor langganan Anda, status dan tanggalnya, serta tautan Paddle untuk membatalkannya atau mengubah cara pembayaran. Jika Anda menghapus akun, data ini terhapus dari pihak kami; Paddle menyimpan catatan pembayarannya selama yang diwajibkan hukum.",
+    "appStore": "Di aplikasi iPhone, akses penuh dibeli melalui Apple. RevenueCat, yang mengurus pembelian ini untuk kami, menerima nomor akun Anda (id acak, bukan nama atau alamat Anda) dan apa yang Anda beli; Apple mengurus pembayarannya, dan kami tidak pernah melihat detail pembayaran Anda. Akun Anda menyimpan data yang sama seperti untuk langganan di situs web: nomornya, status dan tanggalnya, serta tautan Apple untuk mengelolanya.",
+    "gifts": "Hadiah melalui tombol dukungan dibayar di halaman Stripe sendiri, berdasarkan kebijakan privasi Stripe; situs ini sendiri tidak menyimpan apa pun darinya."
+  },
+  "account": {
+    "link": "Akun",
+    "signIn": "Masuk",
+    "kicker": "Akun The Nahwi",
+    "heroTitle": "Belajar di mana pun Anda berada",
+    "perks": [
+      "Kemajuan Anda di ponsel, tablet, dan laptop",
+      "Tidak ada yang hilang: nilai tertinggi selalu dihitung",
+      "Data Anda milik Anda: unduh atau hapus kapan saja"
+    ],
+    "formTitle": "Masuk atau buat akun",
+    "signedInKicker": "Sudah masuk",
+    "statTests": "Tes tersimpan",
+    "statSteps": "Langkah dilihat",
+    "planTitle": "Akses Anda",
+    "planFree": "Akun gratis: seluruh al-Mabadi' dan pelajaran contoh setiap kitab.",
+    "planPaid": "Akses penuh, sampai {date}.",
+    "planPaidOpen": "Akses penuh.",
+    "planManage": "Kelola langganan",
+    "planUpdate": "Ubah metode pembayaran",
+    "planUpgrade": "Lihat akses penuh",
+    "title": "Akun Anda",
+    "description": "Masuk dengan email, Google, atau Apple untuk menyimpan kemajuan Anda dan melanjutkan di perangkat lain. Akun bersifat pilihan.",
+    "lead": "Akun bersifat pilihan. Akun menyimpan kemajuan Anda dengan aman dan memungkinkan Anda melanjutkan di perangkat lain. Ensiklopedia dan pelajaran contoh tetap terbuka tanpa akun.",
+    "google": "Lanjutkan dengan Google",
+    "apple": "Lanjutkan dengan Apple",
+    "or": "atau dengan email Anda",
+    "email": "Alamat email",
+    "send": "Kirimi saya email masuk",
+    "sending": "Mengirim…",
+    "sentTitle": "Periksa email Anda",
+    "sent": "Kami telah mengirim email ke {email}. Klik tautan di dalamnya, atau ketik di sini kode 6 angka dari email itu. Belum ada setelah satu menit? Periksa juga folder spam atau sampah Anda.",
+    "code": "Kode dari email",
+    "verify": "Masuk",
+    "verifying": "Sedang masuk…",
+    "resend": "Kirim email baru",
+    "resendIn": "Anda dapat meminta email baru dalam {s} detik.",
+    "other": "Gunakan alamat email lain",
+    "privacyNote": "Apa yang disimpan akun, dan di mana, ada di {link}.",
+    "privacyLink": "halaman privasi",
+    "signedInAs": "Masuk sebagai {email}",
+    "viaGoogle": "lewat Google",
+    "viaApple": "lewat Apple",
+    "viaEmail": "lewat email",
+    "welcome": "Anda sudah masuk. Kemajuan Anda kini disimpan di akun Anda.",
+    "progressTitle": "Kemajuan Anda",
+    "progress": "Tersimpan di akun Anda: {tests} dan {steps}.",
+    "savedAt": "Terakhir disimpan: {time}.",
+    "saveNow": "Simpan sekarang",
+    "saving": "Menyimpan…",
+    "continue": "Lanjutkan belajar",
+    "signOut": "Keluar",
+    "signOutNote": "Setelah keluar, kemajuan Anda tetap ada di perangkat ini juga.",
+    "dataTitle": "Data Anda",
+    "dataBody": "Unduh semua yang disimpan tentang Anda, atau hapus akun Anda.",
+    "download": "Unduh data saya",
+    "delete": "Hapus akun saya",
+    "deleteConfirm": "Ini menghapus akun Anda dan kemajuan yang tersimpan di dalamnya, seketika dan untuk selamanya. Kemajuan di browser ini tetap ada.",
+    "deleteYes": "Hapus selamanya",
+    "cancel": "Batal",
+    "deleted": "Akun Anda telah dihapus.",
+    "loading": "Sebentar…",
+    "offline": "Untuk masuk diperlukan koneksi internet.",
+    "errors": {
+      "invalidEmail": "Masukkan alamat email yang valid.",
+      "invalidCode": "Kode itu tidak benar atau sudah kedaluwarsa. Ketik lagi, atau minta email baru.",
+      "rate": "Terlalu banyak percobaan. Tunggu semenit lalu coba lagi.",
+      "link": "Tautan ini tidak dapat dipakai di sini. Buka di browser tempat Anda memintanya, atau ketik kode dari email.",
+      "generic": "Terjadi kesalahan. Coba lagi sebentar lagi.",
+      "wrongPassword": "Alamat email dan kata sandi itu tidak cocok. Belum punya kata sandi? Masuk dengan kode lalu pilih kata sandi di halaman akun Anda.",
+      "weakPassword": "Pilih kata sandi 8 sampai 72 karakter.",
+      "exists": "Alamat ini sudah punya akun. Masuk dengan kata sandi Anda, atau dengan kode lalu pilih kata sandi di halaman akun Anda.",
+      "samePassword": "Itu sudah kata sandi Anda.",
+      "reauth": "Demi keamanan, keluar, masuk lagi dengan kode, lalu pilih kata sandi Anda."
+    },
+    "paidThanks": "Terima kasih! Akses penuh Anda sedang disiapkan dan akan muncul di sini dalam satu menit.",
+    "paidDone": "Anda memiliki akses penuh: setiap jalur, kitab, dan tingkat terbuka.",
+    "redeemTitle": "Punya kode?",
+    "redeemLabel": "Kode akses",
+    "redeem": "Tukarkan",
+    "redeeming": "Memeriksa…",
+    "redeemNote": "Kode dari The Nahwi memberi akses penuh tanpa membayar, selama yang tertulis pada kode itu. Kode diskon untuk langganan dimasukkan saat Anda membayar.",
+    "redeemOk": "Berhasil: Anda punya akses penuh sampai {date}.",
+    "redeemOkOpen": "Berhasil: Anda punya akses penuh, tanpa tanggal berakhir.",
+    "redeemSignIn": "Silakan masuk; kode Anda {code} sudah terisi.",
+    "redeemErrors": {
+      "unknown": "Kode ini tidak dikenal. Periksa lagi, atau tanyakan kepada yang memberikannya.",
+      "expired": "Kode ini sudah kedaluwarsa.",
+      "used-up": "Kode ini sudah dipakai sebanyak yang diizinkan.",
+      "already": "Anda sudah menukarkan kode ini.",
+      "too-many": "Terlalu banyak percobaan hari ini. Coba lagi besok.",
+      "signed-out": "Masuk dulu untuk menukarkan kode.",
+      "other": "Kode tidak dapat diperiksa. Coba lagi sebentar lagi."
+    },
+    "modeLabel": "Cara masuk dengan email Anda",
+    "modeCode": "Kode lewat email",
+    "modePassword": "Kata sandi",
+    "password": "Kata sandi",
+    "passwordHint": "8 sampai 72 karakter.",
+    "signingIn": "Sedang masuk…",
+    "create": "Buat akun",
+    "creating": "Akun Anda sedang dibuat…",
+    "toCreate": "Baru di sini? Buat akun dengan kata sandi",
+    "toSignIn": "Saya sudah punya akun",
+    "forgot": "Lupa kata sandi?",
+    "forgotNote": "Tidak apa-apa: masuk dengan kode dari email Anda, lalu pilih kata sandi baru di halaman akun Anda.",
+    "unconfirmed": "Alamat Anda belum dikonfirmasi, jadi kami mengirimkan kode baru ke email Anda.",
+    "passwordTitle": "Kata sandi",
+    "passwordBody": "Pilih kata sandi agar lain kali bisa masuk tanpa menunggu email. Masuk dengan kode, Google, atau Apple tetap bisa.",
+    "newPassword": "Kata sandi baru",
+    "savePassword": "Simpan kata sandi",
+    "savingPassword": "Menyimpan…",
+    "passwordSaved": "Kata sandi Anda tersimpan. Lain kali Anda bisa masuk dengan email dan kata sandi ini."
+  },
+  "pricing": {
+    "title": "Harga",
+    "description": "Belajar sharaf dan nahwu gratis dengan akun, atau buka setiap jalur dan tingkat dengan akses penuh. Harga yang adil di setiap negara.",
+    "kicker": "Akses",
+    "heroTitle": "Belajar tata bahasa Arab sebagaimana diajarkan di madrasah",
+    "heroSub": "Ensiklopedia gratis untuk semua orang. Akun gratis membuka seluruh al-Mabadi', dasar-dasar sharaf dan nahwu; akses penuh membuka setiap jalur, kitab, dan tingkat.",
+    "plans": {
+      "anon": {
+        "name": "Tanpa akun",
+        "price": "Gratis",
+        "items": [
+          "Seluruh ensiklopedia: kitab pegangan, ulama, perpustakaan, dan berita",
+          "Tiga pelajaran contoh di setiap kitab",
+          "Kemajuan Anda tetap di perangkat ini"
+        ],
+        "unit": "selalu"
+      },
+      "free": {
+        "name": "Akun gratis",
+        "price": "Gratis",
+        "items": [
+          "Semua yang ada tanpa akun",
+          "Seluruh al-Mabadi': setiap istilah beserta tesnya",
+          "Kemajuan Anda di semua perangkat"
+        ],
+        "cta": "Buat akun gratis",
+        "ctaIn": "Anda sudah punya akun gratis",
+        "unit": "dengan akun"
+      },
+      "full": {
+        "name": "Akses penuh",
+        "perYear": "atau {price} per tahun: gratis dua bulan",
+        "items": [
+          "Setiap jalur madrasah: India, Utsmani, dan Afrika Utara",
+          "Setiap kitab dan tingkat, dari kitab dasar pertama sampai al-Kafiyah dan Alfiyah",
+          "Tikrar atas semua yang telah Anda lulusi",
+          "Kitab dan pelajaran baru saat ditambahkan"
+        ],
+        "cta": "Berlangganan",
+        "soon": "Segera dibuka",
+        "cancel": "Bisa dibatalkan kapan saja.",
+        "unit": "per bulan",
+        "unitYear": "per tahun",
+        "ctaYearly": "Berlangganan setahun",
+        "ctaMonthly": "Atau bulanan",
+        "yearlyFine": "Tahunan: sekali bayar setahun, diperpanjang sampai Anda membatalkannya.",
+        "signInFirst": "Anda masuk atau membuat akun gratis terlebih dahulu, agar akses Anda terhubung dengannya.",
+        "opening": "Membuka halaman pembayaran…",
+        "error": "Halaman pembayaran tidak dapat dibuka. Coba lagi, atau tulis kepada kami.",
+        "yourPrice": "Harga Anda"
+      }
+    },
+    "regionalTitle": "Harga yang adil di setiap negara",
+    "regionalBody": "Harga di atas berlaku untuk Eropa, Amerika Utara, dan Teluk; di Inggris akses penuh berharga {uk} per bulan, dalam pound. Di tempat lain lebih rendah: {middle} per bulan atau {middleYear} per tahun di negara seperti Turki, Malaysia, dan Afrika Selatan, dan {low} per tahun di negara seperti India, Pakistan, Indonesia, Mesir, dan Nigeria. Halaman pembayaran menampilkan harga untuk negara Anda.",
+    "madrasaTitle": "Untuk madrasah atau kelas",
+    "madrasaBody": "Seorang guru atau madrasah dapat membuka akses penuh untuk satu kelas, dengan tempat untuk setiap siswa.",
+    "madrasaCta": "Tanyakan lisensi kelas",
+    "faqTitle": "Pertanyaan",
+    "faq": [
+      [
+        "Siapa yang menangani pembayaran?",
+        "Proses pemesanan kami dijalankan oleh penjual daring kami, Paddle.com. Paddle.com adalah Merchant of Record untuk semua pesanan kami. Paddle melayani semua pertanyaan pelanggan dan menangani pengembalian."
+      ],
+      [
+        "Bisakah saya membatalkan?",
+        "Ya, kapan saja. Akses Anda berlanjut sampai akhir periode yang telah Anda bayar."
+      ],
+      [
+        "Bisakah uang saya dikembalikan?",
+        "Kami tidak mengembalikan pembayaran. Pengembalian dana ditangani oleh Paddle, penjual kami, menurut kebijakan pengembalian dana Paddle, yang mempertahankan hak pembatalan yang diberikan hukum kepada konsumen di beberapa negara. Lihat kebijakan pengembalian dana."
+      ],
+      [
+        "Apakah isinya diperiksa?",
+        "Semua penjelasan masih berupa draf sampai diperiksa oleh seorang guru tata bahasa Arab yang berwenang; setiap pelajaran menyebutkan apakah sudah diperiksa."
+      ]
+    ],
+    "terms": "Ketentuan layanan",
+    "refunds": "Kebijakan pengembalian dana",
+    "localNote": "Harga untuk Eropa, Amerika Utara, dan Teluk. Halaman pembayaran menampilkan harga untuk negara Anda: dalam pound di Inggris, dan lebih rendah di banyak negara lain."
+  },
+  "access": {
+    "freeKicker": "Gratis dengan akun",
+    "freeBody": "Seluruh al-Mabadi' gratis begitu Anda punya akun: setiap istilah beserta tesnya. Hanya semenit, dengan email, Google, atau Apple.",
+    "freeCta": "Buat akun gratis",
+    "paidKicker": "Akses penuh",
+    "paidBody": "Pelajaran ini termasuk akses penuh, yang membuka setiap jalur madrasah, kitab, dan tingkat. Tiga pelajaran dari setiap kitab dapat dibaca gratis sebagai contoh.",
+    "paidCta": "Lihat harga",
+    "signIn": "Masuk",
+    "previews": "Baca pelajaran contoh gratis"
+  },
+  "subscribe": {
+    "kicker": "Akses penuh",
+    "title": "Setiap jalur, kitab, dan tingkat",
+    "perks": [
+      "Setiap jalur madrasah: India, Utsmani, dan Afrika Utara",
+      "Setiap kitab dan tingkat, dengan tes dan tikrar",
+      "Kitab dan pelajaran baru saat ditambahkan"
+    ],
+    "fine": "Bisa dibatalkan kapan saja. Harga sudah termasuk PPN. Bank Anda mungkin menampilkan otorisasi berlaku sampai 31-12-9999: artinya hanya sampai Anda membatalkannya.",
+    "close": "Tutup",
+    "planLegend": "Pilih cara membayar",
+    "yearly": "Tahunan",
+    "yearlyNote": "gratis dua bulan",
+    "monthly": "Bulanan",
+    "perMonth": "per bulan",
+    "perYear": "per tahun",
+    "continue": "Lanjut",
+    "signinTitle": "Pertama, akun gratis Anda",
+    "signinBody": "Agar akses penuh terhubung dengan Anda, di setiap perangkat. Hanya semenit.",
+    "signedInAs": "Masuk sebagai {email}",
+    "toCheckout": "Lanjut ke pembayaran",
+    "opening": "Membuka pembayaran…",
+    "error": "Pembayaran tidak dapat dibuka. Coba lagi, atau tulis kepada kami.",
+    "localNote": "Harga ini untuk negara Anda.",
+    "back": "Kembali"
+  },
+  "support": {
+    "link": "Dukung",
+    "kicker": "Dukung The Nahwi",
+    "title": "Bantu agar tata bahasa madrasah tetap mudah dijangkau",
+    "body": "The Nahwi dibuat oleh satu orang, bersama seorang guru yang memeriksa pelajarannya. Ensiklopedia tetap gratis untuk semua orang; dukungan Anda membiayai kitab baru, terjemahan, dan waktu sang guru.",
+    "donateTitle": "Berikan donasi",
+    "donateBody": "Berapa pun jumlah yang Anda pilih, sekali.",
+    "donateCta": "Berdonasi",
+    "thanks": "Jazakumullahu khairan — semoga Allah membalas Anda dengan kebaikan.",
+    "close": "Tutup",
+    "notNow": "Nanti saja"
+  },
+  "legal": {
+    "updated": "Terakhir diperbarui: {date}",
+    "draft": "Teks ini adalah draf dan dapat berubah.",
+    "translation": "Ini adalah terjemahan; jika berbeda, teks bahasa Inggris yang berlaku.",
+    "terms": {
+      "title": "Ketentuan layanan",
+      "description": "Ketentuan penggunaan The Nahwi, akun gratisnya, dan akses penuhnya yang berbayar.",
+      "sections": [
+        [
+          "Layanan",
+          "The Nahwi (thenahwi.com) adalah situs web untuk mempelajari sharaf dan nahwu, tata bahasa Arab klasik di madrasah: sebuah ensiklopedia yang terbuka untuk semua orang, dan portal belajar dengan kursus, teks, dan tes. Situs ini dijalankan oleh {owner}. Anda dapat menghubungi kami di {email}."
+        ],
+        [
+          "Akun",
+          "Akun bersifat pilihan. Anda masuk dengan alamat email atau dengan Google. Jaga keamanan akses ke email Anda, karena email masuk membuka akun Anda. Anda dapat menghapus akun kapan saja di halaman akun."
+        ],
+        [
+          "Akses gratis dan berbayar",
+          "Tanpa akun Anda dapat membaca ensiklopedia dan tiga pelajaran contoh di setiap kitab. Akun gratis juga membuka seluruh al-Mabadi'. Akses penuh, yaitu langganan berbayar, membuka setiap jalur, kitab, dan tingkat. Sebuah madrasah atau guru dapat membeli akses untuk satu kelas. Akses penuh adalah langganan, bulanan atau tahunan, yang diperpanjang sampai Anda membatalkannya. Akses seumur hidup yang dibeli sebelum 25 November 2026 tetap berlaku selama situs ini berjalan; kami tidak dapat menjamin masa depan, tetapi kami akan berusaha sebaik mungkin menjaga situs tetap berjalan dan mendukung Anda."
+        ],
+        [
+          "Pembayaran",
+          "Proses pemesanan kami dijalankan oleh penjual daring kami, Paddle.com. Paddle.com adalah Merchant of Record untuk semua pesanan kami. Paddle melayani semua pertanyaan pelanggan dan menangani pengembalian dan pengembalian dana. Harga sudah termasuk PPN atau pajak penjualan dan dapat berbeda per negara. Langganan diperpanjang pada akhir setiap periode sampai Anda membatalkannya."
+        ],
+        [
+          "Pembatalan dan pengembalian dana",
+          "Anda dapat membatalkan langganan kapan saja; akses Anda berlanjut sampai akhir periode yang telah dibayar, dan tidak ada bagian periode yang dikembalikan. Kami sendiri tidak memberikan pengembalian dana: pengembalian dana ditangani oleh Paddle menurut kebijakannya (paddle.com/legal/refund-policy), termasuk hak pembatalan yang diberikan hukum negara Anda. Lihat kebijakan pengembalian dana. Akses seumur hidup bukan langganan: tidak ada yang perlu dibatalkan."
+        ],
+        [
+          "Isi",
+          "Penjelasan, terjemahan, dan tes ditulis untuk belajar dan masih berupa draf sampai diperiksa oleh seorang guru yang berwenang; setiap pelajaran menyebutkan apakah sudah diperiksa. Semua itu tidak menggantikan guru. Teks-teks lama disajikan dari cetakan berdomain publik; terjemahan, penjelasan, dan tes kami adalah milik The Nahwi. Anda boleh mengutipnya untuk belajar dan mengajar dengan menyebut situs ini, tetapi tidak boleh menyalin kursusnya secara utuh atau menawarkannya di tempat lain."
+        ],
+        [
+          "Penggunaan wajar",
+          "Jangan membagikan akun Anda, mencoba mengakali aturan akses, atau membebani situs secara tidak wajar. Kami dapat menutup akun yang melakukannya."
+        ],
+        [
+          "Perubahan dan ketersediaan",
+          "Kami menjaga situs berjalan sebaik mungkin, tetapi tidak dapat menjanjikan bahwa situs selalu tersedia atau bebas kesalahan. Kami dapat mengubah ketentuan ini; perubahan yang penting bagi pelanggan akan kami beritahukan lebih dulu melalui email."
+        ],
+        [
+          "Tanggung jawab dan hukum",
+          "Sejauh diizinkan hukum, The Nahwi tidak bertanggung jawab atas kerugian tidak langsung akibat penggunaan situs. Hukum Belanda yang berlaku. Jika Anda tinggal di Uni Eropa, hukum perlindungan konsumen negara Anda sendiri juga melindungi Anda."
+        ]
+      ]
+    },
+    "refunds": {
+      "title": "Kebijakan pengembalian dana",
+      "description": "Cara kerja pengembalian dana untuk The Nahwi: pembayaran ditangani oleh Paddle, berdasarkan kebijakan pengembalian dana Paddle.",
+      "sections": [
+        [
+          "Kebijakan pengembalian dana Paddle",
+          "Proses pemesanan kami dijalankan oleh penjual daring kami, Paddle.com, Merchant of Record untuk semua pesanan kami. Pengembalian dana ditangani oleh Paddle menurut kebijakannya di paddle.com/legal/refund-policy. Di luar itu kami tidak menawarkan pengembalian dana sendiri."
+        ],
+        [
+          "Hak Anda menurut hukum",
+          "Jika hukum negara Anda memberi konsumen hak untuk membatalkan pembelian konten atau layanan digital, seperti di Uni Eropa dan Britania Raya, hak itu berlaku sebagaimana dijelaskan dalam kebijakan pengembalian dana Paddle."
+        ],
+        [
+          "Pembatalan",
+          "Anda dapat membatalkan langganan kapan saja, melalui tautan di tanda terima dari Paddle atau dari halaman akun Anda. Akses Anda berlanjut sampai akhir periode yang telah dibayar; sisa periode yang sudah berjalan tidak dikembalikan. Pembelian seumur hidup sebelum 25 November 2026 dikembalikan dananya oleh Paddle sesuai kebijakan pengembaliannya; akses penuh lalu berakhir."
+        ],
+        [
+          "Cara mengajukan",
+          "Ajukan ke Paddle di paddle.net, atau balas tanda terima dari Paddle. Anda juga dapat menulis ke {email}."
+        ]
+      ]
+    }
+  },
+  "offline": {
+    "title": "Anda sedang offline",
+    "description": "Halaman ini belum tersimpan di perangkat ini.",
+    "body": "Halaman ini belum tersimpan di perangkat ini. Kursus, semua istilah, dan latihan tersimpan begitu Anda membuka The Nahwi secara online, sehingga Anda dapat terus membaca.",
+    "back": "Kembali ke kursus"
+  },
+  "diagram": {
+    "scWord": "Kata bahasa Arab",
+    "scSarf": "Sharaf",
+    "scSarfSub": "bentuknya: kata itu sendiri",
+    "scNahw": "Nahwu",
+    "scNahwSub": "akhirnya: kata dalam kalimat",
+    "kWord": "Kalimah",
+    "kNoun": "Isim",
+    "kNounSub": "bermakna, tanpa waktu",
+    "kVerb": "Fi'il",
+    "kVerbSub": "bermakna, dengan waktu",
+    "kParticle": "Huruf",
+    "kParticleSub": "bermakna hanya bersama kata lain",
+    "kSpeech": "Kalam",
+    "kSpeechSub": "kata-kata yang tersusun dengan makna sempurna",
+    "mzScale": "Mizan",
+    "mzLam": "lam",
+    "mzLamSub": "huruf asli ke-3",
+    "mzAyn": "'ain",
+    "mzAynSub": "huruf asli ke-2",
+    "mzFa": "fa'",
+    "mzFaSub": "huruf asli ke-1",
+    "mzBare": "Mujarrad",
+    "mzBareSub": "hanya huruf asli: nashara",
+    "mzAdded": "Mazid",
+    "mzAddedSub": "ada huruf tambahan: akrama",
+    "fVerb": "Fi'il",
+    "fPast": "Madhi",
+    "fPastSub": "nashara, dia telah menolong",
+    "fPresent": "Mudhari'",
+    "fPresentSub": "yanshuru, dia sedang menolong",
+    "fCommand": "Amar",
+    "fCommandSub": "unshur, tolonglah!",
+    "shRoot": "Huruf asli",
+    "shSound": "Shahih",
+    "shSoundSub": "tanpa huruf 'illat: kataba",
+    "shWeak": "Mu'tal",
+    "shWeakSub": "ada wawu, ya' atau alif: qala, rama",
+    "msMasdar": "Mashdar",
+    "msMasdarSub": "perbuatan itu sendiri: nashr",
+    "msFail": "Isim fa'il",
+    "msFailSub": "pelakunya: nashir",
+    "msMaful": "Isim maf'ul",
+    "msMafulSub": "yang dikenai: manshur",
+    "irEnd": "Akhir kata",
+    "irChanges": "Mu'rab",
+    "irChangesSub": "akhirnya berubah",
+    "irFixed": "Mabni",
+    "irFixedSub": "akhirnya tetap",
+    "irRaf": "Rafa'",
+    "irRafSub": "dhammah",
+    "irNasb": "Nashab",
+    "irNasbSub": "fathah",
+    "irJarr": "Khafadh",
+    "irJarrSub": "kasrah, pada isim",
+    "irJazm": "Jazem",
+    "irJazmSub": "sukun, pada fi'il",
+    "jSentence": "Jumlah",
+    "jNominal": "Ismiyyah",
+    "jNominalSub": "diawali isim",
+    "jVerbal": "Fi'liyyah",
+    "jVerbalSub": "diawali fi'il",
+    "jMubtada": "Mubtada'",
+    "jKhabar": "Khabar",
+    "jVerb": "Fi'il",
+    "jDoer": "Fa'il",
+    "jObject": "Maf'ul bih",
+    "cap": {
+      "sciences.all": "Sharaf mempelajari kata itu sendiri, nahwu mempelajari kata dalam kalimat.",
+      "sciences.sarf": "Sharaf: bentuk kata itu sendiri, huruf asli dan wazannya.",
+      "sciences.nahw": "Nahwu: kata dalam kalimat, kedudukannya dan akhirnya.",
+      "kalima.all": "Setiap kalimah adalah isim, fi'il atau huruf; kata-kata yang tersusun dengan makna sempurna disebut kalam.",
+      "kalima.kalima": "Kalimah terbagi menjadi tiga macam, dan tidak ada yang keluar darinya.",
+      "kalima.kalam": "Kalam: kata-kata yang tersusun sehingga maknanya sempurna.",
+      "kalima.ism": "Isim: makna tanpa waktu.",
+      "kalima.fil": "Fi'il: makna yang disertai waktu.",
+      "kalima.harf": "Huruf: maknanya hanya tampak bersama kata lain.",
+      "mizan.all": "Setiap kata ditimbang dengan fa'ala: fa', 'ain dan lam mewakili tiga huruf aslinya.",
+      "mizan.mizan": "Mizan fa'ala: fa', 'ain dan lam mewakili huruf asli pertama, kedua dan ketiga.",
+      "mizan.mujarrad": "Mujarrad: hanya huruf asli.",
+      "mizan.mazid": "Mazid: ada huruf yang ditambahkan pada huruf asli.",
+      "fil.all": "Fi'il punya tiga bentuk: madhi, mudhari' dan amar.",
+      "fil.madi": "Fi'il madhi: perbuatan sebelum waktu berbicara.",
+      "fil.mudari": "Fi'il mudhari': perbuatan sekarang atau yang akan datang.",
+      "fil.amr": "Fi'il amar: dibentuk dari fi'il mudhari' untuk orang yang diajak bicara.",
+      "sahih.all": "Huruf asli sebuah kata itu shahih, atau mu'tal jika ada wawu, ya' atau alif.",
+      "sahih.sahih": "Fi'il shahih: tidak ada huruf 'illat di antara huruf aslinya.",
+      "sahih.mutall": "Fi'il mu'tal: ada wawu, ya' atau alif di antara huruf aslinya.",
+      "mushtaqq.all": "Dari satu akar: perbuatannya, pelakunya, dan yang dikenai.",
+      "mushtaqq.masdar": "Mashdar menamai perbuatan itu sendiri.",
+      "mushtaqq.fail": "Isim fa'il menamai pelakunya.",
+      "mushtaqq.maful": "Isim maf'ul menamai yang dikenai perbuatan.",
+      "irab.all": "Akhir kata bisa berubah (mu'rab) atau tetap (mabni); perubahannya adalah rafa', nashab, khafadh dan jazem.",
+      "irab.irab": "I'rab: akhir kata berubah karena 'amil.",
+      "irab.bina": "Bina': akhir kata tetap, apa pun 'amil yang masuk.",
+      "irab.anwa": "Empat macam i'rab dan tanda-tanda asalnya.",
+      "jumla.all": "Jumlah diawali isim atau diawali fi'il.",
+      "jumla.ismiyya": "Jumlah ismiyyah: mubtada' dan khabarnya.",
+      "jumla.mubtada": "Mubtada': isim yang mengawali jumlah dan yang dibicarakan.",
+      "jumla.khabar": "Khabar: apa yang dikatakan tentang mubtada'.",
+      "jumla.filiyya": "Jumlah fi'liyyah: fi'il, fa'ilnya, dan maf'ul bih jika fi'ilnya membutuhkannya.",
+      "jumla.fail": "Fa'il: pelaku sesudah fi'ilnya.",
+      "jumla.maful": "Maf'ul bih: yang dikenai perbuatan."
+    }
+  },
+  "gloss": {
+    "label": "Penjelasan “{word}”",
+    "open": "Buka istilah",
+    "close": "Tutup"
+  },
+  "lock": {
+    "title": "Terkunci",
+    "termBody": "Istilah terbuka satu per satu: raih minimal dua bintang (6 dari 10) pada tes sebuah istilah untuk membuka yang berikutnya. Anda sekarang di {name}.",
+    "linkBody": "Istilah terbuka satu per satu. Raih dulu minimal dua bintang (6 dari 10) pada tes {name}.",
+    "practiceBody": "Latihan ini terbuka setelah semua istilah di bab ini lulus. Anda sekarang di {name}.",
+    "commentary": "Istilah ini berasal dari syarah; ia datang setelah bacaan pertama.",
+    "sources": "Dibahas dalam: {list}.",
+    "cta": "Ke {name}"
+  },
+  "quiz": {
+    "title": "Uji diri Anda",
+    "intro": "{n} soal. Dengan nilai 6 dari 10 atau lebih (dua bintang), istilah berikutnya terbuka.",
+    "score": "{score} dari 10",
+    "passed": "Lulus: istilah berikutnya sudah terbuka.",
+    "failed": "Belum: perlu minimal 6 dari 10. Baca lagi istilah ini lalu coba sekali lagi.",
+    "again": "Coba lagi",
+    "best": "Nilai terbaik: {score}",
+    "starsLabel": "{n} dari 3 bintang",
+    "hearts": "{n} dari 5 hati.",
+    "heartsNext": "Setiap tes memakai satu hati; hati berikutnya kembali dalam {time}.",
+    "heartsFull": "Setiap tes memakai satu hati; satu hati kembali setiap dua jam.",
+    "heartsEmpty": "Hati Anda habis. Beristirahatlah sejenak dan baca pelajaran sekali lagi: hati baru datang dalam {time}.",
+    "refill": "Isi ulang semua hati (€0.99)",
+    "refilling": "Hati Anda sedang diisi ulang…",
+    "reread": "Kali ini belum lulus. Baca lagi pelajaran dari awal, lalu centang kotak di bawah untuk mengikuti tes sekali lagi.",
+    "rereadLabel": "Saya sudah membaca seluruh pelajaran lagi",
+    "examTitle": "Ujian",
+    "examFailed": "Belum: Anda perlu menjawab benar 20 dari 25 soal. Ulangi pelajaran dan coba lagi.",
+    "start": "Mulai tes",
+    "startExam": "Mulai ujian",
+    "heartsTitle": "Hati",
+    "heartsHelp": "Anda punya lima hati. Memulai tes atau ujian memakai satu, dan satu hati kembali setiap dua jam, sampai lima. Hati ada agar Anda mengambil pelajaran satu per satu dan membiarkan setiap pelajaran mengendap sebelum yang berikutnya. Mengulang (tikrar) tidak memakai hati.",
+    "heartsHelpRefill": "Hati habis dan tidak ingin menunggu? Anda dapat mengisi ulang kelimanya sekaligus.",
+    "refillsCount": "Isi ulang gratis: {n}",
+    "freeRefill": "Pakai isi ulang gratis (sisa {n})",
+    "earned": "Tiga bintang pada lima pelajaran berturut-turut: Anda mendapat isi ulang gratis untuk semua hati.",
+    "heartsHelpFree": "Setiap akun mulai dengan satu isi ulang gratis, dan mendapat satu lagi dengan tiga bintang pada lima pelajaran berturut-turut."
+  },
+  "book": {
+    "title": "Kitab",
+    "lead": "Segala sesuatu seputar kitab-kitab pegangan sharaf dan nahwu: asal-usulnya, orang-orang yang menulis, menjelaskan dan mengajarkannya, syarah, hasyiyah, cetakan dan terjemahannya.",
+    "articles": "Artikel",
+    "scholars": "Ulama",
+    "tree": "Dari matan ke hasyiyah",
+    "treeLead": "Kitab pegangan, syarah-syarah yang ditulis atasnya, dan hasyiyah-hasyiyah yang ditulis atas syarah itu.",
+    "people": "Tokoh dalam artikel ini",
+    "sources": "Sumber",
+    "born": "lahir",
+    "died": "w.",
+    "life": "Riwayat hidup",
+    "works": "Karya",
+    "on": "atas",
+    "onHisWork": "Ditulis atas karyanya",
+    "reception": "Penerimaan",
+    "uncertain": "tidak pasti",
+    "preparing": "Bagian ini sedang disiapkan.",
+    "kinds": {
+      "matn": "matan",
+      "sharh": "syarah",
+      "hashiya": "hasyiyah",
+      "taliq": "ta'liqat",
+      "nazm": "nazham",
+      "translation": "terjemahan",
+      "edition": "cetakan",
+      "other": "karya",
+      "iraab": "i'rab",
+      "mukhtasar": "mukhtashar",
+      "modern": "buku modern"
+    },
+    "roles": {
+      "author": "Pengarang",
+      "forerunner": "Pendahulu",
+      "translator": "Penerjemah",
+      "commentator": "Pensyarah",
+      "glossator": "Penulis hasyiyah",
+      "versifier": "Penazham",
+      "teacher": "Guru",
+      "editor": "Pentahkik",
+      "modern-scholar": "Kajian modern",
+      "voice": "Suara tentang tata bahasa"
+    },
+    "booksLabel": "Kitab-kitab",
+    "books": {},
+    "circa": "sek.",
+    "or": "atau",
+    "bce": "{y} SM",
+    "ceYear": "{y} M"
+  },
+  "catalogue": {
+    "title": "Katalog karya",
+    "lead": "Setiap karya yang diketahui ditulis atas kitab ini: syarah, hasyiyah dan hasyiyah atas hasyiyah, catatan, nazham, ringkasan, terjemahan, cetakan dan buku modern — dengan asal-usulnya, apakah sudah dicetak, dan sumbernya. Masih dikerjakan: beri tahu kami apa yang belum ada.",
+    "search": "Cari",
+    "kind": "Jenis",
+    "region": "Wilayah",
+    "language": "Bahasa",
+    "status": "Status",
+    "all": "Semua",
+    "count": "{n} karya",
+    "countOne": "1 karya",
+    "more": "Rincian dan sumber",
+    "editions": "Cetakan",
+    "unplaced": "Ditulis atas karya yang belum ada di katalog",
+    "link": "Semua karya di katalog",
+    "statuses": {
+      "printed": "tercetak",
+      "manuscript": "manuskrip",
+      "lost": "hilang",
+      "unknown": "status tidak diketahui"
+    },
+    "regions": {
+      "ottoman": "Wilayah Utsmani",
+      "kurdistan": "Kurdistan",
+      "caucasus-volga": "Kaukasus dan Volga",
+      "central-asia": "Asia Tengah",
+      "indian-subcontinent": "Anak benua India",
+      "levant-iraq": "Syam dan Irak",
+      "west-africa": "Afrika Barat",
+      "sudan-east-africa": "Sudan dan Afrika Timur",
+      "yemen-hijaz": "Yaman dan Hijaz",
+      "malay-indonesia": "Dunia Melayu-Indonesia",
+      "iran": "Iran",
+      "egypt": "Mesir",
+      "maghrib": "Maghrib",
+      "west": "Eropa dan Amerika",
+      "other": "Lainnya"
+    }
+  },
+  "track": {
+    "nav": "Tingkat 2",
+    "title": "Tingkat-tingkat sesudah al-Mabadi'",
+    "lead": "Sesudah al-Mabadi', bacalah kitab-kitab jalur madrasah Anda pelajaran demi pelajaran: teksnya, penjelasan kami dengan contoh dan diagram, serta tes singkat.",
+    "lockedNote": "Tingkat 2 terbuka setelah Anda meluluskan semua istilah bacaan pertama.",
+    "trackName": "Tingkat {track}",
+    "lessons": "{n} pelajaran",
+    "lessonOf": "Pelajaran {n} dari {m}",
+    "matnRange": "Matan {range}",
+    "theMatn": "Matan",
+    "theCommentary": "Syarah",
+    "readFull": "Baca syarah selengkapnya",
+    "quizIntro": "{n} soal tentang apa yang dijelaskan syarah. Dengan nilai 6 dari 10 atau lebih (dua bintang), pelajaran berikutnya terbuka.",
+    "passed": "Lulus: pelajaran berikutnya sudah terbuka.",
+    "failed": "Belum: perlu minimal 6 dari 10. Baca lagi syarahnya lalu coba sekali lagi.",
+    "next": "Pelajaran berikutnya:",
+    "trackDone": "Ini pelajaran terakhir lajur {track}.",
+    "back": "Kembali ke Tingkat {level}",
+    "lockBase": "Tingkat 2 terbuka setelah seluruh bacaan pertama. Anda sekarang di {name}.",
+    "lockLesson": "Pelajaran terbuka satu per satu. Raih dulu minimal dua bintang (6 dari 10) pada tes pelajaran {name}.",
+    "lockPage": "Pelajaran terbuka satu per satu: raih minimal dua bintang (6 dari 10) pada tes sebuah pelajaran untuk membuka yang berikutnya.",
+    "readAsTrack": "Kaji pelajaran demi pelajaran: Tingkat {track}",
+    "translationNote": "Terjemahan sementara dalam bahasa Inggris.",
+    "blurbs": {},
+    "topics": {},
+    "lockLevel": "Tingkat {level} terbuka setelah Anda lulus semua pelajaran tingkat {prev}.",
+    "levels": {
+      "1": {
+        "title": "Tingkat 1: al-Mabadi'",
+        "lead": "Dasar-dasar sharaf dan nahwu, istilah demi istilah: setiap istilah beserta lafazh Arabnya, penjelasan yang sederhana, dan tes singkat."
+      }
+    },
+    "theText": "Teks",
+    "lessonN": "Pelajaran {n}",
+    "lockBook": "Kitab ini terbuka setelah Anda meluluskan setiap pelajaran {book}."
+  },
+  "glossaryPage": {
+    "title": "Daftar istilah",
+    "description": "Istilah-istilah jalur belajar, dari A sampai Z, beserta lafazh Arab dan definisi singkatnya.",
+    "lead": "Istilah-istilah bacaan pertama, dari A sampai Z, beserta lafazh Arab dan definisi singkatnya. Buka sebuah istilah untuk pelajarannya. Setiap konsep sharaf dan nahwu ada di glosarium, gratis dibaca.",
+    "filter": "Cari istilah",
+    "none": "Tidak ada istilah yang cocok.",
+    "showLabel": "Tampilkan",
+    "showAll": "Semua",
+    "showOpen": "Sudah terbuka",
+    "showLocked": "Belum terbuka"
+  },
+  "about": {
+    "title": "Tentang The Nahwi",
+    "description": "Apa itu The Nahwi, bagaimana jalur belajarnya bekerja, siapa yang memeriksanya, dan siapa di baliknya.",
+    "intro": "The Nahwi adalah tempat untuk belajar sharaf dan nahwu, tata bahasa Arab madrasah, dari kitab-kitabnya sendiri, dan untuk membaca tentang kitab-kitab itu, para ulamanya, dan kurikulum yang menyusunnya.",
+    "teacherTitle": "Guru",
+    "teacherRole": "Memeriksa penjelasan",
+    "teacherBody": "Seorang guru tata bahasa Arab yang berwenang akan memeriksa apa yang diajarkan The Nahwi. Sampai seorang guru memeriksanya, semua yang ada di situs ini, baik penjelasan, tes, maupun terjemahan, masih berupa draf.",
+    "teacherBio": "Akan diumumkan.",
+    "teachersTitle": "Di antara guru-guru beliau",
+    "teacherSource": "Dari halaman pengajar Madrasah Hanafiya",
+    "ownerTitle": "Pemilik situs",
+    "ownerRole": "Membangun dan mendukung The Nahwi",
+    "ownerBody": "The Nahwi dibuat oleh {owner}, pemilik proyek ini, yang menekuni mazhab Hanafi.",
+    "partsTitle": "Dua bagian",
+    "parts": [
+      "Ensiklopedia: kitab-kitab pegangan sharaf dan nahwu dan perpustakaan karya per abad, para ulama yang menulis dan mengajarkannya, kurikulum madrasah, serta berita dari ilmu-ilmu bahasa.",
+      "Portal belajar: tiga jalur madrasah, dibaca tingkat demi tingkat, semuanya dibuka dengan al-Mabadi'. Jalur India berlanjut dengan kitab-kitab dasar berbahasa Persia dari Dars-i Nizami, jalur Utsmani dengan al-Amtsilah dan Imam Birgivi, dan jalur Afrika Utara dengan al-Ajurrumiyyah. Setiap pelajaran diakhiri tes singkat; pelajaran berikutnya terbuka setelah Anda lulus."
+    ],
+    "nameTitle": "Mengapa nama ini",
+    "nameBody": "An-Nahwi (النَّحْوِيّ) berarti “ahli nahwu”: gelar yang diberikan para penulis biografi kepada ulama nahwu, dari {sibawayh} sampai {ibnHisham}, seperti dalam kamus-kamus klasik para ahli nahwu, Thabaqat an-Nahwiyyin.",
+    "textTitle": "Teks dulu",
+    "textBody": "Pelajaran mengikuti urutan kitab-kitab itu sendiri, dan teksnya disajikan dalam bahasa aslinya, dari cetakan berdomain publik yang disebut di setiap halaman, dengan terjemahan kami di sampingnya. Kemajuan Anda hanya disimpan di perangkat ini.",
+    "contact": "Ada pertanyaan, koreksi atau saran? Gunakan formulir kontak.",
+    "parentTitle": "The Nahwi dan The Mantiqi",
+    "parentBody": "The Nahwi adalah situs dari {mantiqi}, yang mengajarkan mantiq, ilmu logika madrasah, dengan cara yang sama: kitab-kitab tiga jalur madrasah, pelajaran demi pelajaran, di samping ensiklopedia yang gratis. Di madrasah keduanya dibaca berdampingan, maka kedua situs berbagi alamat, akun, dan berita: setiap pekan The Mantiqi mengumpulkan berita tentang nahwu dan sharaf, dan Anda dapat menulis kepada keduanya di {email}."
+  },
+  "kb": {
+    "nav": {
+      "books": "Perpustakaan",
+      "scholars": "Ulama",
+      "curricula": "Kurikulum",
+      "concepts": "Glosarium",
+      "news": "Berita",
+      "study": "Portal belajar",
+      "studyShort": "Belajar",
+      "home": "Beranda",
+      "levels": "Tingkat",
+      "text": "Teks",
+      "practice": "Latihan",
+      "glossary": "Istilah",
+      "encyclopedia": "Ensiklopedia",
+      "encyclopediaShort": "Ensiklopedia",
+      "about": "Tentang",
+      "aboutSite": "The Nahwi",
+      "contact": "Kontak",
+      "privacy": "Privasi",
+      "updates": "Pembaruan",
+      "nahw": "Tentang nahwu dan sharaf"
+    },
+    "draft": "Draf · menunggu tinjauan guru yang berwenang",
+    "home": {
+      "kicker": "Pusat pengetahuan sharaf dan nahwu",
+      "title": "Ensiklopedia <em>sharaf dan nahwu</em>",
+      "lead": "Tata bahasa Arab klasik dalam tradisi keilmuan Islam: kitab-kitabnya beserta syarahnya, para ulama dan kurikulumnya, serta terbitan terbarunya.",
+      "search": "Cari kitab, ulama, artikel atau istilah",
+      "searchButton": "Cari",
+      "startHere": "Mulai di sini",
+      "booksKicker": "I · Kitab",
+      "booksTitle": "Kitab-kitab pegangan dan syarahnya",
+      "allWorks": "Semua karya dalam katalog",
+      "curriculaKicker": "II · Kurikulum",
+      "curriculaTitle": "Apa yang dibaca, dan di mana?",
+      "newsKicker": "III · Berita",
+      "newsTitle": "Berita nahwu dan sharaf",
+      "allNews": "Semua berita",
+      "scholarsKicker": "III · Ulama",
+      "scholarsTitle": "Ulama dari abad ke abad",
+      "allScholars": "Semua ulama",
+      "studyKicker": "Portal belajar",
+      "studyTitle": "Bacalah sendiri kitab-kitabnya, pelajaran demi pelajaran, di tiga jalur madrasah: kitab-kitab dasar berbahasa Persia dan al-Kafiyah di India, al-Amtsilah dan Imam Birgivi di negeri Utsmani, al-Ajurrumiyyah dan Alfiyah di dunia Arab.",
+      "studyCta": "Ke portal belajar",
+      "works": "{n} karya",
+      "worksOne": "1 karya",
+      "latestKicker": "Berita terbaru",
+      "handbooksKicker": "Kitab-kitab pegangan",
+      "handbooksLead": "Kitab-kitab yang dibaca di madrasah, dari al-Kafiyah sampai Qathrun Nada, masing-masing dengan syarah, hasyiyah dan katalognya.",
+      "mastersKicker": "Para guru besar",
+      "mastersLead": "Dari Sibawaih sampai al-Azhar: para ahli nahwu yang kitabnya dibaca.",
+      "library": "Seluruh perpustakaan",
+      "newsLead": "Dikumpulkan setiap pekan oleh The Mantiqi."
+    },
+    "curricula": {
+      "title": "Kurikulum",
+      "lead": "Kitab-kitab tata bahasa mana yang dibaca, dengan urutan apa, di madrasah-madrasah Asia Selatan, negeri Utsmani, al-Azhar dan Maghrib."
+    },
+    "books": {
+      "title": "Perpustakaan",
+      "lead": "Karya-karya nahwu dan sharaf dari Sibawaih sampai madrasah modern: enam kitab pegangan yang dibaca di madrasah, dengan syarah dan hasyiyahnya, serta kitab-kitab di sekitarnya. Cari menurut judul, pengarang atau pokok bahasan.",
+      "kicker": "Kitab {n}",
+      "by": "{author} · w. {died}",
+      "overview": "Ikhtisar",
+      "articles": "Artikel",
+      "tree": "Syarah",
+      "catalogue": "Katalog",
+      "scholars": "Ulama",
+      "readText": "Baca teksnya",
+      "study": "Pelajari di tingkat {n}",
+      "treeLead": "Syarah yang paling banyak dibaca di madrasah, beserta hasyiyah yang ditulis atasnya.",
+      "catalogueLead": "Segala yang ditulis atas kitab ini yang dapat kami telusuri, dengan edisi dan sumbernya.",
+      "openCatalogue": "Buka katalog",
+      "counts": {
+        "sharh": "Syarah",
+        "hashiya": "Hasyiyah",
+        "other": "Catatan, nazham dan karya lain",
+        "translation": "Terjemahan",
+        "modern": "Kajian modern"
+      },
+      "fullTitle": "Judul lengkap",
+      "author": "Pengarang",
+      "died": "Wafat",
+      "allScholars": "Semua ulama kitab ini",
+      "more": "{n} lagi"
+    },
+    "article": {
+      "of": "{section} · artikel {n} dari {m}",
+      "inThis": "Dalam artikel ini",
+      "people": "Tokoh di dalamnya",
+      "sources": "Sumber ({n})",
+      "next": "Artikel berikutnya",
+      "prev": "Artikel sebelumnya",
+      "related": "Baca lebih lanjut",
+      "studyPath": "Pelajari kurikulum ini: {path} di portal belajar"
+    },
+    "scholars": {
+      "title": "Ulama",
+      "lead": "Para ahli nahwu, pensyarah dan guru nahwu dan sharaf, menurut abad wafatnya.",
+      "filter": "Cari ulama",
+      "none": "Tidak ada ulama yang cocok.",
+      "century": "abad ke-{n}",
+      "centuryBce": "abad ke-{n} SM",
+      "undated": "Tanggal tidak diketahui",
+      "count": "{n} ulama",
+      "period": "Periode",
+      "role": "Peran",
+      "book": "Kitab pegangan",
+      "all": "Semua",
+      "shown": "{n} dari {m} ulama",
+      "periods": {
+        "pre": "Sebelum Islam",
+        "early": "Awal (sampai 1200)",
+        "middle": "Pascaklasik (1200–1500)",
+        "later": "Madrasah akhir (1500–1900)",
+        "modern": "Modern (sejak 1900)"
+      },
+      "allPeriods": "Periode",
+      "allRoles": "Peran",
+      "allBooks": "Kitab",
+      "clear": "Hapus filter",
+      "roleGroups": {
+        "author": "Pengarang kitab pegangan",
+        "commentary": "Pensyarah dan penulis hasyiyah",
+        "translator": "Penerjemah dan perintis",
+        "teacher": "Guru",
+        "voice": "Suara tentang tata bahasa",
+        "modern": "Kajian modern"
+      }
+    },
+    "scholar": {
+      "life": "Riwayat hidup",
+      "works": "Karya",
+      "uncertain": "Tidak pasti atau diperselisihkan",
+      "reception": "Penerimaan",
+      "places": "Tempat",
+      "writtenOn": "Yang ditulis atas karyanya",
+      "books": "Dalam kitab-kitab",
+      "sources": "Sumber"
+    },
+    "news": {
+      "title": "Berita nahwu dan sharaf",
+      "lead": "Kajian, cetakan, terjemahan dan ceramah baru tentang nahwu dan sharaf, dikumpulkan setiap pekan oleh The Mantiqi dari lembaga-lembaga Islam Sunni; masing-masing dengan tautan ke sumbernya.",
+      "rss": "Umpan RSS",
+      "kinds": {
+        "edition": "Edisi",
+        "translation": "Terjemahan",
+        "study": "Kajian",
+        "digital": "Digital",
+        "event": "Acara",
+        "media": "Podcast atau video"
+      },
+      "open": "Buka",
+      "feedTitle": "The Nahwi — berita tentang nahwu, sharaf dan ilmu-ilmu bahasa",
+      "feedDescription": "Cetakan, terjemahan, kajian dan acara baru tentang nahwu dan sharaf, tata bahasa Arab klasik dalam tradisi keilmuan Islam, serta tentang balaghah dan ilmu-ilmu di sekitarnya.",
+      "filter": "Tampilkan berita tentang",
+      "fields": {
+        "all": "Semua",
+        "nahw": "Nahwu",
+        "sarf": "Sharaf",
+        "balagha": "Balaghah",
+        "lugha": "Ilmu lughah (perkamusan)",
+        "mantiq": "Mantiq",
+        "usul": "Ushul fikih",
+        "tafsir": "Tafsir"
+      },
+      "newDot": "baru",
+      "sections": {
+        "academic": "Akademik",
+        "publications": "Terbitan",
+        "talks": "Ceramah & media"
+      },
+      "sectionLeads": {
+        "academic": "Kajian, artikel, tesis dan ulasan",
+        "publications": "Edisi baru, terjemahan dan teks digital",
+        "talks": "Kuliah, konferensi, podcast dan video"
+      },
+      "allSections": "Semuanya",
+      "sectionsLabel": "Bagian berita",
+      "readAt": "Baca di {source}",
+      "more": "Selengkapnya",
+      "originalTitle": "Judul asli",
+      "fromParent": "Berita dikumpulkan oleh {mantiqi}, situs induk The Nahwi, dan ditampilkan di sini seperti di sana.",
+      "allAtParent": "Semua berita nahwu dan sharaf di The Mantiqi",
+      "parentRss": "Umpan RSS (The Mantiqi)",
+      "loading": "Memuat berita terbaru dari The Mantiqi…",
+      "none": "Saat ini belum ada berita nahwu dan sharaf untuk ditampilkan di sini: lihat semua berita di The Mantiqi."
+    },
+    "books_meta": {
+      "kafiya": "Nahwu ringkas karya Ibnul Hajib, dibaca dengan syarah al-Jami di madrasah India dan Utsmani, dan dengan syarah Radhiyuddin oleh santri tingkat lanjut.",
+      "shafiya": "Kitab pegangan sharaf karya Ibnul Hajib, puncak sharaf di setiap jalur, dibaca dengan syarah Radhiyuddin al-Astarabadzi.",
+      "izzi": "Kitab ringkas az-Zanjani tentang wazan-wazan fi'il dan maknanya: kitab sharaf bersama madrasah Utsmani dan al-Azhar.",
+      "alfiyya": "Seribu bait nahwu dan sharaf karya Ibnu Malik, dihafal dari Maghrib sampai Indonesia dan dibaca dengan syarah Ibnu 'Aqil.",
+      "ajurrumiyya": "Beberapa halaman yang menjelaskan i'rab: kitab nahwu pertama yang paling banyak dihafal, dari Maghrib sampai pesantren di Jawa.",
+      "qatr": "Nahwu tingkat menengah karya Ibnu Hisyam, langkah sesudah al-Ajurrumiyyah di al-Azhar, lebih panjang darinya dan lebih pendek dari Alfiyah."
+    },
+    "library": {
+      "title": "Perpustakaan",
+      "lead": "Di luar enam kitab pegangan: karya-karya besar nahwu dan sharaf dalam bahasa Arab dan Persia, dari Sibawaih sampai buku ajar madrasah modern — kitab pegangan, syarah, nazham dan risalah, per abad.",
+      "handbooks": "Enam kitab pegangan",
+      "handbooksLead": "Kitab-kitab yang dibaca madrasah, masing-masing dengan artikel, syarah dan katalognya.",
+      "count": "{n} kitab",
+      "filter": "Tampilkan",
+      "all": "Semua",
+      "kinds": {
+        "handbook": "Kitab pegangan",
+        "commentary": "Syarah",
+        "gloss": "Hasyiyah",
+        "treatise": "Risalah",
+        "encyclopedia": "Bagian dari karya yang lebih besar",
+        "verse": "Nazham",
+        "refutation": "Kritik",
+        "modern": "Buku ajar modern",
+        "translation": "Terjemahan"
+      },
+      "languages": {
+        "ar": "Arab",
+        "fa": "Persia",
+        "ot": "Turki Utsmani",
+        "ur": "Urdu",
+        "other": "Lainnya"
+      },
+      "written": "Ditulis",
+      "language": "Bahasa",
+      "on": "Ditulis atas",
+      "editions": "Edisi dan terjemahan",
+      "writtenOn": "Yang ditulis atasnya",
+      "byAuthor": "Karya lain {author}",
+      "inLibrary": "Di perpustakaan",
+      "search": "Cari di perpustakaan",
+      "kind": "Jenis",
+      "onHandbook": "Atas kitab pegangan",
+      "shown": "{n} dari {m} kitab",
+      "none": "Tidak ada kitab yang cocok.",
+      "handbookOfSix": "Salah satu dari enam kitab pegangan"
+    },
+    "glossary": {
+      "title": "Glosarium sharaf dan nahwu",
+      "lead": "Istilah-istilah teknis sharaf dan nahwu, tata bahasa madrasah: masing-masing dengan lafazh Arab, definisi yang sederhana dan penjelasan singkat, gratis dibaca.",
+      "description": "Glosarium gratis sharaf dan nahwu, tata bahasa Arab klasik: setiap istilah teknis dengan lafazh Arab berharakat, transliterasi, definisi dan penjelasan.",
+      "count": "{n} istilah",
+      "filter": "Cari istilah",
+      "none": "Tidak ada istilah yang cocok.",
+      "shown": "{n} dari {m} istilah",
+      "allCategories": "Topik",
+      "clear": "Hapus filter",
+      "categories": {
+        "foundations": "Dasar-dasar",
+        "word": "Macam-macam kalimah",
+        "root": "Huruf asli dan wazan",
+        "verb": "Fi'il",
+        "sound-weak": "Shahih dan mu'tal",
+        "derived": "Isim musytaq",
+        "irab": "I'rab dan bina'",
+        "sentence": "Jumlah",
+        "governors": "'Amil-'amil ('awamil)",
+        "followers": "Tawabi'",
+        "accusatives": "Isim-isim yang manshub"
+      },
+      "pageTitle": "{name} ({transliteration}): maknanya dalam tata bahasa Arab",
+      "pageTitleShort": "{name}: maknanya dalam tata bahasa Arab",
+      "explanation": "Penjelasan",
+      "examples": "Contoh",
+      "related": "Istilah terkait",
+      "lesson": "Pelajari langkah demi langkah",
+      "lessonText": "Konsep ini adalah sebuah pelajaran di jalur belajar, dengan penjelasan yang lebih lengkap, diagram dan tes.",
+      "lessonLink": "Buka pelajaran",
+      "books": "Dibahas dalam",
+      "topic": "Topik",
+      "all": "Semua istilah"
+    },
+    "nahw": {
+      "title": "Tentang nahwu dan sharaf",
+      "lead": "Apa itu nahwu dan sharaf, mengapa sharaf didahulukan, dan bagaimana madrasah membaca kitab-kitabnya."
+    }
+  },
+  "preview": {
+    "button": "Intip sebuah pelajaran",
+    "eyebrow": "Pratinjau",
+    "note": "Sekilas pelajaran {n} dari tingkat {level}. Tingkat {level} terbuka setelah tingkat {prev}; sampai saat itu Anda bisa membaca pelajaran ini, tetapi tesnya dan jalan selanjutnya tetap tertutup.",
+    "start": "Mulai dengan istilah pertama",
+    "levels": "Semua tingkat",
+    "close": "Tutup",
+    "dialogLocked": "Terbuka setelah tingkat {prev}.",
+    "dialogSoon": "Tingkat ini sedang disiapkan.",
+    "lessons": "{n} pelajaran"
+  },
+  "seo": {
+    "/": {
+      "title": "The Nahwi – belajar nahwu dan sharaf, tata bahasa Arab klasik",
+      "description": "Belajar nahwu dan sharaf (tata bahasa Arab) secara online mengikuti jalur madrasah: mulai gratis dengan al-Mabadi', lalu kitab klasik; ulama, perpustakaan, berita."
+    },
+    "/study/": {
+      "title": "Belajar nahwu dan sharaf online: kursus tata bahasa madrasah",
+      "description": "Kursus online nahwu dan sharaf, tata bahasa Arab klasik: tiga jalur madrasah, India, Utsmani dan Afrika Utara, pelajaran demi pelajaran dengan tes. Mulai gratis."
+    },
+    "/nahw/": {
+      "title": "Apa itu nahwu dan sharaf? Tata bahasa Arab dijelaskan",
+      "description": "Apa itu nahwu (susunan kalimat) dan sharaf (perubahan bentuk kata), mengapa madrasah mengajarkan sharaf lebih dulu, dan bagaimana kitab klasiknya dibaca."
+    },
+    "/curricula/": {
+      "title": "Nahwu dan sharaf di madrasah: kurikulum tata bahasa",
+      "description": "Kitab tata bahasa mana yang dibaca di madrasah, dan dengan urutan apa: Dars-i Nizami, madrasah Utsmani, al-Azhar dan Maghrib."
+    },
+    "/books/": {
+      "title": "Perpustakaan nahwu dan sharaf: kitab-kitab tata bahasa Arab",
+      "description": "Perpustakaan nahwu dan sharaf: enam kitab pegangan madrasah, dari al-Ajurrumiyyah sampai Alfiyah dan al-Kafiyah, dengan syarahnya, per abad."
+    },
+    "/scholars/": {
+      "title": "Ulama nahwu dan sharaf: para ahli tata bahasa Arab",
+      "description": "Para ahli nahwu, pensyarah dan guru nahwu dan sharaf, dari Sibawaih sampai Ibnu Hisyam dan ulama madrasah, per abad."
+    },
+    "/glossary/": {
+      "title": "Glosarium nahwu dan sharaf: istilah tata bahasa Arab A–Z",
+      "description": "Setiap istilah nahwu dan sharaf yang diajarkan di The Nahwi, dari A sampai Z, dengan lafazh Arab berharakat, transliterasi dan definisi singkat."
+    },
+    "/updates/": {
+      "description": "Kursus, teks, alat dan fitur baru di The Nahwi, situs belajar nahwu dan sharaf (tata bahasa Arab klasik), yang terbaru lebih dulu."
+    },
+    "/study/mabadi/": {
+      "title": "Al-Mabadi': kursus pertama sharaf dan nahwu",
+      "description": "Mulai tata bahasa Arab dengan al-Mabadi': dasar-dasar sharaf dan nahwu istilah demi istilah, dengan lafazh Arab, penjelasan sederhana dan tes singkat."
+    },
+    "/pricing/": {
+      "title": "Harga: belajar nahwu dan sharaf gratis, atau buka setiap kursus",
+      "description": "Belajar nahwu dan sharaf gratis dengan akun: seluruh al-Mabadi' dan tiga pelajaran contoh setiap kitab. Akses penuh membuka setiap jalur madrasah."
+    }
+  },
+  "madrasa": {
+    "title": "Pilih madrasah Anda",
+    "lead": "Tiga jalur melalui sharaf dan nahwu, tingkat demi tingkat, mengikuti kitab-kitab yang dibaca di madrasah-madrasah besar. Ketiganya dibuka dengan al-Mabadi'; sesudahnya, setiap tingkat punya dua lajur berdampingan, sharaf dan nahwu. Pilih satu untuk memulai; Anda dapat menggantinya kapan saja, dan apa yang sudah Anda luluskan tetap lulus.",
+    "choose": "Pilih jalur ini",
+    "chosen": "Jalur Anda",
+    "none": "Pilih jalur di atas untuk melihat tingkat-tingkatnya.",
+    "pathLevel": "{path} · tingkat {n}",
+    "subLevel": "{n}{k}",
+    "subLetters": "a b c d",
+    "levelN": "Tingkat {n}",
+    "paths": {
+      "indian": {
+        "name": "Madrasah India",
+        "short": "Jalur India",
+        "arabic": "المَدْرَسَةُ الهِنْدِيَّة",
+        "lead": "Dars-i Nizami dari Farangi Mahall, Deoband, Bareli dan Khairabad: Mizan ash-Sharf berdampingan dengan Nahw-i Mir dan seratus 'amil, lalu Hidayatun Nahwi, lalu al-Kafiyah dengan Syarh Jami dan asy-Syafiyah."
+      },
+      "ottoman": {
+        "name": "Madrasah Utsmani",
+        "short": "Jalur Utsmani",
+        "arabic": "المَدْرَسَةُ العُثْمانِيَّة",
+        "lead": "Sharaf lebih dulu, seperti di madrasah Utsmani, Syam dan Kurdi: al-Amtsilah, Bina' al-Af'al dan al-Maqshud; lalu al-'Izzi dan Marah al-Arwah berdampingan dengan al-'Awamil karya Birgivi dan Izhar al-Asrar; lalu al-Kafiyah dengan Mulla Jami."
+      },
+      "north-african": {
+        "name": "Madrasah Afrika Utara",
+        "short": "Jalur Afrika Utara",
+        "arabic": "المَدْرَسَةُ المَغارِبِيَّة",
+        "lead": "Nahwu lebih dulu: al-Ajurrumiyyah; lalu Qathrun Nada berdampingan dengan al-'Izzi dan Lamiyatul Af'al; lalu Alfiyah: tata bahasa al-Azhar, al-Qarawiyyin, az-Zaitunah dan mahadhir Mauritania."
+      }
+    },
+    "traditions": {
+      "farangi-mahall": "Farangi Mahall",
+      "khayrabadi": "Khairabad",
+      "deobandi": "Deoband",
+      "istanbul": "Istanbul",
+      "balkans": "Balkan",
+      "shami": "Damaskus",
+      "kurdish": "Kurdistan",
+      "azhari": "al-Azhar",
+      "qarawiyyin": "al-Qarawiyyin",
+      "zaytuna": "az-Zaitunah",
+      "shinqiti": "Syinqith",
+      "barelwi": "Bareli"
+    },
+    "levels": {
+      "indian-1": {
+        "title": "al-Mabadi'",
+        "arabic": "المَبَادِئ",
+        "lead": "Dasar-dasar sharaf dan nahwu, istilah demi istilah, gratis dengan akun: kalimah dan macam-macamnya, huruf asli dan wazan, zaman-zaman fi'il, i'rab dan jumlah."
+      },
+      "ottoman-1": {
+        "title": "al-Mabadi'",
+        "arabic": "المَبَادِئ",
+        "lead": "Dasar-dasar sharaf dan nahwu, istilah demi istilah, gratis dengan akun: kalimah dan macam-macamnya, huruf asli dan wazan, zaman-zaman fi'il, i'rab dan jumlah."
+      },
+      "north-african-1": {
+        "title": "al-Mabadi'",
+        "arabic": "المَبَادِئ",
+        "lead": "Dasar-dasar sharaf dan nahwu, istilah demi istilah, gratis dengan akun: kalimah dan macam-macamnya, huruf asli dan wazan, zaman-zaman fi'il, i'rab dan jumlah."
+      },
+      "indian-2": {
+        "title": "Mizan ash-Sharf dan Nahw-i Mir",
+        "arabic": "مِيزَانُ الصَّرْفِ · نَحْوِ مِير",
+        "lead": "Kitab-kitab dasar berbahasa Persia dari Dars-i Nizami, dibaca berdampingan di tahun pertama: mizan fa'ala dan wazan-wazan fi'il; macam-macam kalimah, i'rab dan jumlah, bersama seratus 'amil karya 'Abdul Qahir al-Jurjani."
+      },
+      "indian-3": {
+        "title": "Hidayatun Nahwi",
+        "arabic": "هِدَايَةُ النَّحْوِ",
+        "lead": "Kitab pegangan nahwu berbahasa Arab yang dibaca sebelum al-Kafiyah di Dars-i Nizami: isim, fi'il dan huruf, beserta i'rabnya, dengan urutan al-Kafiyah."
+      },
+      "indian-4": {
+        "title": "al-Kafiyah, Syarh Jami dan asy-Syafiyah",
+        "arabic": "الْكَافِيَةُ · شَرْحُ جَامِي · الشَّافِيَةُ",
+        "lead": "Dua kitab pegangan Ibnul Hajib, puncak nahwu dan sharaf, dengan syarah al-Jami atas al-Kafiyah."
+      },
+      "ottoman-2": {
+        "title": "al-Amtsilah, Bina' al-Af'al dan al-Maqshud",
+        "arabic": "الْأَمْثِلَةُ · الْبِنَاءُ · الْمَقْصُودُ",
+        "lead": "Emsile, Bina dan Maksud, kitab-kitab pertama madrasah Utsmani, semuanya sharaf: bentuk-bentuk nashara yang dijabarkan, pembentukan fi'il, dan wazan-wazan fi'il mujarrad dan mazid."
+      },
+      "ottoman-3": {
+        "title": "al-'Izzi, Marah al-Arwah, al-'Awamil dan Izhar",
+        "arabic": "الْعِزِّيُّ · الْمَرَاحُ · الْعَوَامِلُ · الْإِظْهَارُ",
+        "lead": "Sharaf berlanjut dengan al-'Izzi dan Marah al-Arwah, termasuk fi'il-fi'il mu'tal; di sampingnya nahwu dimulai, dengan al-'Awamil dan Izhar al-Asrar karya Imam Birgivi: 'amil, ma'mul dan i'rab."
+      },
+      "ottoman-4": {
+        "title": "al-Kafiyah dengan Mulla Jami",
+        "arabic": "الْكَافِيَةُ · مُلَّا جَامِي",
+        "lead": "Al-Kafiyah karya Ibnul Hajib dengan syarah al-Jami, sebagaimana dibaca di madrasah Utsmani."
+      },
+      "north-african-2": {
+        "title": "al-Ajurrumiyyah",
+        "arabic": "الْآجُرُّومِيَّةُ",
+        "lead": "Kitab nahwu pertama yang ringkas karya Ibnu Ajurrum, dihafal dari Maghrib sampai Jawa: kalam, i'rab dan tanda-tandanya, fi'il-fi'il, serta isim-isim yang marfu', manshub dan makhfudh."
+      },
+      "north-african-3": {
+        "title": "Qathrun Nada, al-'Izzi dan Lamiyatul Af'al",
+        "arabic": "قَطْرُ النَّدَى · الْعِزِّيُّ · لَامِيَّةُ الْأَفْعَالِ",
+        "lead": "Nahwu tingkat menengah karya Ibnu Hisyam berdampingan dengan sharaf az-Zanjani dan nazham Ibnu Malik tentang fi'il."
+      },
+      "north-african-4": {
+        "title": "Alfiyah",
+        "arabic": "الْأَلْفِيَّةُ",
+        "lead": "Seribu bait Ibnu Malik, puncak jalur ini."
+      }
+    },
+    "startWith": "Mulai: {name}",
+    "leadShort": "Tiga jalur madrasah, dibaca tingkat demi tingkat, dengan sharaf dan nahwu berdampingan. Pilih jalur yang kitab-kitabnya ingin Anda baca; Anda dapat menggantinya kapan saja, dan apa yang sudah Anda luluskan tetap lulus.",
+    "change": "Ganti jalur",
+    "stages": {
+      "foundations": "Dasar",
+      "beginner": "Pemula",
+      "intermediate": "Menengah",
+      "advanced": "Lanjutan"
+    },
+    "levelStage": "Tingkat {n} · {stage}",
+    "lanes": {
+      "sarf": {
+        "name": "Sharaf",
+        "arabic": "الصَّرْفُ",
+        "lead": "perubahan bentuk kata"
+      },
+      "nahw": {
+        "name": "Nahwu",
+        "arabic": "النَّحْوُ",
+        "lead": "harakat akhir dan susunan kalimat"
+      }
+    },
+    "laneNone": "Tidak ada kitab {lane} di tingkat ini.",
+    "laneOrder": "Dua lajur dibaca berdampingan; di setiap lajur, satu kitab sesudah yang lain.",
+    "soonBooks": {
+      "mizan": {
+        "title": "Mizan ash-Sharf",
+        "arabic": "مِيزَانُ الصَّرْفِ"
+      },
+      "nahwmir": {
+        "title": "Nahw-i Mir",
+        "arabic": "نَحْوِ مِير"
+      },
+      "awamilmia": {
+        "title": "al-'Awamil al-Mi'ah",
+        "arabic": "الْعَوَامِلُ الْمِائَةُ"
+      },
+      "hidaya": {
+        "title": "Hidayatun Nahwi",
+        "arabic": "هِدَايَةُ النَّحْوِ"
+      },
+      "shafiya": {
+        "title": "asy-Syafiyah",
+        "arabic": "الشَّافِيَةُ"
+      },
+      "kafiya": {
+        "title": "al-Kafiyah",
+        "arabic": "الْكَافِيَةُ"
+      },
+      "jami": {
+        "title": "Syarh Jami (Mulla Jami)",
+        "arabic": "الْفَوَائِدُ الضِّيَائِيَّةُ"
+      },
+      "amthila": {
+        "title": "al-Amtsilah (Emsile)",
+        "arabic": "الْأَمْثِلَةُ الْمُخْتَلِفَةُ"
+      },
+      "bina": {
+        "title": "Bina' al-Af'al (Bina)",
+        "arabic": "بِنَاءُ الْأَفْعَالِ"
+      },
+      "maqsud": {
+        "title": "al-Maqshud (Maksud)",
+        "arabic": "الْمَقْصُودُ"
+      },
+      "izzi": {
+        "title": "al-'Izzi",
+        "arabic": "التَّصْرِيفُ الْعِزِّيُّ"
+      },
+      "marah": {
+        "title": "Marah al-Arwah",
+        "arabic": "مَرَاحُ الْأَرْوَاحِ"
+      },
+      "awamil": {
+        "title": "al-'Awamil (Avamil)",
+        "arabic": "الْعَوَامِلُ الْجَدِيدَةُ"
+      },
+      "izhar": {
+        "title": "Izhar al-Asrar",
+        "arabic": "إِظْهَارُ الْأَسْرَارِ"
+      },
+      "ajurrumiyya": {
+        "title": "al-Ajurrumiyyah",
+        "arabic": "الْآجُرُّومِيَّةُ"
+      },
+      "lamiyya": {
+        "title": "Lamiyatul Af'al",
+        "arabic": "لَامِيَّةُ الْأَفْعَالِ"
+      },
+      "qatr": {
+        "title": "Qathrun Nada",
+        "arabic": "قَطْرُ النَّدَى"
+      },
+      "alfiyya": {
+        "title": "Alfiyah",
+        "arabic": "الْأَلْفِيَّةُ"
+      }
+    },
+    "laneStarts": "{lane} dimulai di tingkat {n}."
+  },
+  "primer": {
+    "theLesson": "Pelajaran",
+    "terms": "Istilah",
+    "examples": "Contoh",
+    "pages": "hlm. {pages}",
+    "page": "hlm. {pages}",
+    "lessons": "{n} pelajaran",
+    "quizIntro": "{n} soal tentang pelajaran ini. Dengan nilai 6 dari 10 atau lebih (dua bintang), pelajaran berikutnya terbuka.",
+    "passed": "Lulus: pelajaran berikutnya terbuka.",
+    "failed": "Belum: Anda perlu minimal 6 dari 10. Baca lagi pelajarannya dan coba sekali lagi.",
+    "bookDone": "Ini pelajaran terakhir {book}.",
+    "nextBook": "Berikutnya: {book}",
+    "back": "Kembali ke {book}",
+    "edition": "Edisi yang diikuti",
+    "editionNote": "Pelajaran ini adalah penjelasan kami sendiri, mengikuti urutan kitab ini dan contoh-contohnya; teks edisinya tidak dimuat di sini.",
+    "aboutBook": "Tentang kitab ini",
+    "course": "Pelajari sebagai kursus",
+    "courseLead": "{book} adalah kursus di portal belajar: {n} pelajaran, masing-masing dengan tes singkat.",
+    "badge": "Kursus dengan pelajaran kami sendiri",
+    "open": "Buka kursus",
+    "theText": "Teks",
+    "original": "Teks asli bahasa {language}, {edition}",
+    "languages": {
+      "fa": "Persia",
+      "ar": "Arab"
+    },
+    "translation": "Terjemahan",
+    "wholeText": "Baca seluruh teks",
+    "textEdition": "Teks",
+    "textNote": "Teks aslinya disalin dari cetakan ini, tanpa catatan pinggirnya, dan diterjemahkan untuk The Nahwi.",
+    "scan": "Pindaian cetakannya",
+    "badgeText": "Kursus dengan teks bahasa {language}",
+    "copy": "Salin",
+    "copied": "Tersalin",
+    "textTitle": "{title}: teks bahasa {language}",
+    "textDescription": "{title} karya {author}: teks asli bahasa {language}, disalin dari cetakan berdomain publik, dengan terjemahan Inggris (dan Arab) yang bisa dibuka di bawah setiap bagian.",
+    "textLead": "Teks asli bahasa {language}, dalam {n} bagian, disalin dari cetakannya. Di bawah setiap bagian Anda bisa membuka terjemahan kami, menyalin teksnya, atau mengirimnya ke Google Terjemahan.",
+    "studyCourse": "Pelajari sebagai kursus ({level})",
+    "englishTranslation": "Terjemahan Inggris",
+    "readText": "Baca seluruh teks bahasa {language}",
+    "quotesTitle": "Dalam kata-kata {author}",
+    "quotedFrom": "Dikutip dari teks bahasa {language} {edition}",
+    "copyText": "Salin teks",
+    "copyTranslation": "Salin terjemahan",
+    "aiNote": "Diterjemahkan dengan bantuan AI dan belum diperiksa. Yang menjadi pegangan adalah teks aslinya: selalu baca dan kutip teks asli.",
+    "courseTitle": "{book}: kursus tata bahasa Arab",
+    "courseTitleJurjani": "{book} karya al-Jurjani: kursus tata bahasa Arab",
+    "tasks": "Tamrin",
+    "tasksIntro": "Kerjakan dulu secara tertulis, lalu buka contoh jawabannya.",
+    "showAnswer": "Contoh jawaban",
+    "trChoose": "Terjemahan"
+  },
+  "source": {
+    "title": "Tentang teks ini",
+    "text": "Teks",
+    "lessonsFollow": "Pelajaran mengikuti",
+    "translation": "Terjemahan",
+    "review": "Tinjauan",
+    "scan": "Lihat pindaian",
+    "languages": {
+      "ar": "Arab",
+      "fa": "Persia"
+    },
+    "vocalised": "berharakat seperti dalam cetakan",
+    "transcribed": "disalin oleh The Nahwi dari cetakan ini",
+    "inPreparation": "Teks asli bahasa {language} sedang disiapkan, akan disalin dari",
+    "notShown": "Tidak ditampilkan: satu-satunya edisi yang diikuti adalah edisi modern yang dilindungi hak cipta.",
+    "lessonsOwn": "Pelajarannya adalah penjelasan The Nahwi sendiri sesuai urutan edisi ini; teksnya dilindungi hak cipta dan tidak dimuat.",
+    "translationOwn": "Milik The Nahwi sendiri.",
+    "reviewDraft": "Draf, menunggu tinjauan {teacher}.",
+    "pages": "hlm. {pages}",
+    "shortLine": "Teks {language} menurut cetakan {edition} · terjemahan oleh The Nahwi",
+    "shortLessons": "Pelajaran kami sendiri sesuai urutan edisi {edition} · draf",
+    "translationOwnAr": "Milik The Nahwi sendiri, ke dalam bahasa Inggris dan bahasa Arab berharakat. Bahasa Arabnya diterjemahkan dari bahasa Persia, bukan diambil dari versi Arab yang tercetak.",
+    "transcribedLitho": "disalin oleh The Nahwi dari cetakan litografi, tanpa catatan pinggirnya",
+    "lessonsOwnText": "Pelajarannya adalah penjelasan The Nahwi sendiri, bab demi bab dari teks itu sendiri.",
+    "quoted": "bagian-bagian yang dikutip dalam pelajaran, disalin oleh The Nahwi dari cetakan ini (teksnya tidak dimuat seluruhnya)",
+    "lessonsAfter": "Pelajarannya adalah penjelasan The Nahwi sendiri atas teks itu, mengikuti {author}; kata-katanya dikutip di bagian yang paling penting.",
+    "shortQuoted": "Pelajaran kami sendiri dengan kutipan dari cetakan {edition} · terjemahan oleh The Nahwi, draf",
+    "ownCourse": "Kursus The Nahwi sendiri tentang dasar-dasar sharaf dan nahwu, bersumber dari kitab-kitab dasar klasik; tidak ada teks asli yang ditampilkan.",
+    "translationLanguages": "Milik The Nahwi sendiri, dari teks asli bahasa {language}: ke dalam {languages}. Pilih bahasanya di bawah bagian-bagian teks.",
+    "and": "dan"
+  },
+  "contact": {
+    "title": "Kontak",
+    "description": "Cara menghubungi The Nahwi: pertanyaan, koreksi atas teks dan terjemahan, kursus dan berita untuk ditambahkan.",
+    "lead": "The Nahwi adalah proyek yang masih muda, dan semua isinya masih draf sampai seorang guru memeriksanya. Situs ini bagian dari The Mantiqi: pesan ke salah satunya sampai ke tim yang sama. Kami senang mendengar dari Anda.",
+    "emailLabel": "Atau tulis langsung",
+    "followLabel": "Ikuti The Mantiqi",
+    "reasonsTitle": "Yang bisa Anda tulis kepada kami",
+    "reasons": [
+      "Pertanyaan tentang sebuah pelajaran, istilah atau teks",
+      "Kesalahan dalam salinan, terjemahan atau penjelasan (sebutkan halamannya dan, jika bisa, letaknya dalam cetakan)",
+      "Kursus, guru atau lembaga pengajar sharaf dan nahwu yang sebaiknya kami cantumkan",
+      "Berita tentang nahwu, sharaf atau ilmu-ilmu bahasa: buku, cetakan, artikel atau ceramah baru"
+    ],
+    "reply": "Kami membaca setiap pesan, tetapi tidak bisa menjanjikan balasan cepat untuk semuanya.",
+    "form": {
+      "title": "Kirim pesan",
+      "name": "Nama",
+      "email": "Alamat email",
+      "emailHint": "Agar kami bisa membalas. Tidak kami pakai untuk keperluan lain.",
+      "topic": "Subjek",
+      "topics": {
+        "question": "Pertanyaan tentang pelajaran, istilah atau teks",
+        "correction": "Kesalahan dalam salinan, terjemahan atau penjelasan",
+        "course": "Kursus, guru atau lembaga untuk dicantumkan",
+        "news": "Berita nahwu atau sharaf untuk halaman berita",
+        "other": "Lainnya"
+      },
+      "page": "Halaman mana? (opsional)",
+      "pageHint": "Alamat atau nama halamannya, dan jika bisa letaknya dalam cetakan.",
+      "message": "Pesan Anda",
+      "send": "Kirim",
+      "sending": "Mengirim…",
+      "sent": "Terima kasih, pesan Anda sudah terkirim. Kami membaca setiap pesan, tetapi tidak bisa menjanjikan balasan cepat untuk semuanya.",
+      "invalid": "Isi nama Anda, alamat email yang valid dan sebuah pesan.",
+      "failed": "Pesan tidak bisa dikirim dari sini. Program email Anda akan terbuka dengan pesan yang sudah terisi; atau tulis langsung kepada kami di {email}.",
+      "note": "Pesan Anda dikirim ke {email}. Pesan itu tidak disimpan di situs ini."
+    }
+  },
+  "updates": {
+    "title": "Pembaruan",
+    "description": "Apa yang telah ditambahkan ke The Nahwi: teks, kursus, bahasa dan fitur baru, yang terbaru lebih dulu.",
+    "lead": "Apa yang telah ditambahkan ke The Nahwi, yang terbaru lebih dulu: teks dan kursus, bahasa, ensiklopedia dan alat-alat situs.",
+    "kinds": {
+      "text": "Teks baru",
+      "course": "Kursus",
+      "language": "Bahasa",
+      "encyclopedia": "Ensiklopedia",
+      "feature": "Situs"
+    }
+  },
+  "help": {
+    "lead": "Lebih suka menulis secara pribadi?",
+    "ask": "Ajukan pertanyaan",
+    "mistake": "Laporkan kesalahan"
+  },
+  "certificate": {
+    "title": "Sertifikat: {book}",
+    "description": "Sertifikat penyelesaian {book} di The Nahwi, dibuat dari nilai tes Anda sendiri.",
+    "crumb": "Sertifikat",
+    "link": "Sertifikat penyelesaian",
+    "kicker": "Sertifikat penyelesaian",
+    "record": "Dengan ini dicatat bahwa",
+    "nameLabel": "Nama Anda",
+    "namePlaceholder": "Ketik nama Anda",
+    "passed": "telah lulus semua pelajaran dan tes dari",
+    "lessons": "{n} pelajaran",
+    "score": "{stars} Nilai rata-rata: {score} dari 10",
+    "note": "Catatan belajar Anda sendiri di The Nahwi, dibuat di browser Anda dari nilai tes Anda. Ini bukan ijazah sanad dan bukan diploma: ijazah sanad diberikan oleh seorang guru yang telah membaca kitab itu bersama Anda.",
+    "reviewed": "Pelajaran kitab ini yang sejauh ini sudah ditinjau guru: {n} dari {m}.",
+    "print": "Cetak atau simpan sebagai PDF",
+    "back": "Kembali ke {book}",
+    "hint": "Nama Anda tidak disimpan: ketik lagi setiap kali mencetak.",
+    "notYet": "Sertifikat muncul di sini setelah Anda lulus setiap pelajaran kitab ini dengan minimal dua bintang.",
+    "passedOf": "Sejauh ini lulus: {n} dari {m}.",
+    "examTitle": "Ujian",
+    "examLead": "Semua pelajaran sudah lulus. Tinggal satu langkah sebelum sertifikat: ujian {n} soal dari semua pelajaran kitab ini, dengan urutan baru dan jawaban diacak. Anda perlu {pass} jawaban benar.",
+    "examIntro": "25 soal dari seluruh kitab; lulus dengan {pass} jawaban benar. Ujian memakai satu hati.",
+    "examPassed": "Lulus: sertifikat Anda sudah siap di bawah."
+  },
+  "reminder": {
+    "title": "Pengingat harian di kalender Anda",
+    "body": "Tambahkan ke kalender Anda sendiri, di ponsel atau komputer, sebuah acara yang berulang setiap hari pada jam yang Anda pilih, dengan tautan ke portal belajar. Tidak ada yang dikirim kepada kami.",
+    "time": "Jam",
+    "add": "Tambahkan ke kalender saya",
+    "done": "Buka berkas yang diunduh untuk menambahkan acara ke kalender Anda.",
+    "eventTitle": "Belajar sharaf dan nahwu: The Nahwi",
+    "eventBody": "Pelajaran hari ini dan pelajaran yang sudah waktunya diulang:"
+  },
+  "today": {
+    "title": "Hari ini",
+    "tests": "Tes hari ini: {n} dari {goal}.",
+    "done": "Target hari ini tercapai.",
+    "streak": "Hari berturut-turut: {n}",
+    "due": "Waktunya diulang: {n}",
+    "dueLink": "Ulangi sekarang",
+    "goal": "Target harian (tes)",
+    "note": "Tes adalah tes sebuah pelajaran atau pengulangan di tikrar. Semua ini tetap di browser ini."
+  },
+  "overview": {
+    "title": "Kemajuan Anda",
+    "description": "Seberapa jauh Anda di jalur madrasah Anda: pelajaran yang lulus, nilai Anda, hari-hari Anda belajar, dan pelajaran yang layak dilihat lagi, dihitung di browser Anda.",
+    "lead": "Jalur madrasah Anda kitab demi kitab, dari tes yang Anda kerjakan di browser ini.",
+    "emptyTitle": "Belum ada yang lulus",
+    "emptyBody": "Kemajuan Anda tampil di sini begitu Anda lulus tes sebuah pelajaran dengan sedikitnya dua bintang.",
+    "emptyCta": "Ke portal belajar",
+    "pathNote": "Jalur Anda: {path}. Anda bisa menggantinya di halaman belajar.",
+    "noPath": "Pilih jalur madrasah Anda di halaman belajar untuk melihat kitab-kitabnya di sini.",
+    "passed": "Pelajaran yang lulus",
+    "average": "Nilai rata-rata",
+    "days": "Hari belajar dalam 30 hari terakhir",
+    "due": "Diulang hari ini",
+    "activityTitle": "30 hari terakhir",
+    "activityDay": "{date}: {n} tes",
+    "booksTitle": "Kitab demi kitab",
+    "continue": "Lanjutkan",
+    "weakTitle": "Untuk diperkuat",
+    "weakLead": "Sudah lulus, tetapi dengan kurang dari tiga bintang. Kerjakan lagi tes pelajarannya: nilai terbaik Anda yang disimpan.",
+    "weakNone": "Setiap pelajaran yang Anda luluskan punya tiga bintang.",
+    "review": "Ulangi di tikrar",
+    "note": "Semua ini dihitung di browser ini dari tes Anda sendiri; tidak ada yang dikirim.",
+    "link": "Kemajuan Anda",
+    "of": "{n} dari {total}"
+  },
+  "comments": {
+    "kicker": "Pertanyaan dan catatan",
+    "title": "Tanyakan tentang pelajaran ini",
+    "lead": "Ajukan pertanyaan atau bagikan catatan. Setiap pesan dibaca sebelum tampil di sini, dan ustadz dapat menjawabnya.",
+    "loading": "Memuat pesan…",
+    "empty": "Belum ada pertanyaan tentang pelajaran ini.",
+    "loadFailed": "Pesan tidak dapat dimuat. Coba lagi nanti.",
+    "learner": "Seorang santri",
+    "answer": "Jawaban",
+    "inLanguage": "Dalam bahasa {language}",
+    "pending": "Menunggu dibaca: untuk sementara hanya Anda yang melihatnya.",
+    "hiddenOwn": "Tidak diterbitkan: hanya Anda yang melihatnya.",
+    "remove": "Hapus",
+    "removeSure": "Hapus selamanya?",
+    "signinLead": "Untuk menulis di sini Anda perlu akun; akun gratis sudah cukup.",
+    "signin": "Masuk",
+    "write": "Tulis pertanyaan atau catatan",
+    "message": "Pesan Anda",
+    "placeholder": "Pertanyaan atau catatan Anda tentang pelajaran ini",
+    "name": "Nama yang ditampilkan",
+    "nameHint": "Ditampilkan bersama pesan Anda.",
+    "anonymous": "Kirim tanpa nama saya (ditampilkan sebagai “seorang santri”)",
+    "send": "Kirim",
+    "sending": "Mengirim…",
+    "sent": "Terima kasih. Pesan Anda tampil di sini setelah dibaca.",
+    "tooShort": "Tulis sedikit lebih banyak.",
+    "needName": "Isi nama, atau kirim tanpa nama.",
+    "tooMany": "Anda mengirim banyak pesan dalam waktu singkat. Coba lagi nanti.",
+    "failed": "Gagal mengirim. Coba lagi.",
+    "note": "Pesan Anda dan nama yang Anda isi disimpan bersama akun Anda; Anda dapat menghapusnya kapan saja. Selengkapnya di {privacy}.",
+    "privacyLink": "pernyataan privasi",
+    "count": "{n} pesan",
+    "countOne": "1 pesan"
+  },
+  "moderate": {
+    "title": "Moderasi",
+    "description": "Baca pertanyaan dan catatan di bawah pelajaran, terbitkan dan jawablah.",
+    "kicker": "Pertanyaan dan catatan",
+    "lead": "Pesan baru menunggu di sini sampai Anda menerbitkannya. Tidak ada yang tampil di bawah pelajaran sebelum itu.",
+    "loading": "Memuat…",
+    "signin": "Masuk dengan akun moderator untuk membaca pesan-pesan.",
+    "signinLink": "Masuk",
+    "notModerator": "Akun ini bukan moderator. Moderator ditambahkan di Supabase (lihat docs/study.md).",
+    "tabs": {
+      "pending": "Menunggu",
+      "published": "Diterbitkan",
+      "hidden": "Disembunyikan"
+    },
+    "empty": "Tidak ada apa-apa di sini.",
+    "anonymous": "dikirim tanpa nama",
+    "openLesson": "Buka pelajaran",
+    "publish": "Terbitkan",
+    "hide": "Sembunyikan",
+    "unpublish": "Kembalikan ke menunggu",
+    "answerLabel": "Jawaban (ditampilkan di bawah pesan; biarkan kosong jika tidak ada)",
+    "saveAnswer": "Simpan jawaban",
+    "saved": "Tersimpan.",
+    "failed": "Tidak berhasil: {error}"
+  },
+  "app": {
+    "offlineTitle": "Tidak ada koneksi",
+    "offlineBody": "The Nahwi memerlukan internet saat pertama kali dibuka. Sesudah itu, kursus, istilah dan latihan terbuka tanpa internet.",
+    "retry": "Coba lagi",
+    "reminderTitle": "Pengingat harian",
+    "reminderBody": "Aplikasi mengingatkan Anda setiap hari pada jam yang Anda pilih, dengan jumlah pelajaran yang waktunya diulang. Pengingat diatur di ponsel Anda; tidak ada yang dikirim kepada kami.",
+    "reminderOn": "Ingatkan saya setiap hari",
+    "reminderOff": "Matikan pengingat",
+    "reminderSet": "Setiap hari pukul {time}.",
+    "reminderDenied": "Notifikasi untuk The Nahwi dimatikan. Nyalakan di Pengaturan → Notifikasi → The Nahwi, lalu coba lagi.",
+    "notifyTitle": "Waktunya sharaf dan nahwu",
+    "notifyBody": "Pelajaran hari ini menunggu Anda.",
+    "notifyDue": "Waktunya diulang hari ini: {n}. Beberapa menit tikrar menjaganya tetap segar.",
+    "heartsTitle": "Hati Anda sudah penuh lagi",
+    "heartsBody": "Kelima hati sudah kembali: tes berikutnya menunggu Anda.",
+    "shortcutContinue": "Lanjutkan pelajaran",
+    "shortcutTikrar": "Tikrar",
+    "shortcutGlossary": "Glosarium",
+    "store": {
+      "loading": "Memuat harga dari App Store…",
+      "unavailable": "App Store tidak menjawab. Coba lagi sebentar lagi.",
+      "renewsMonth": "diperpanjang setiap bulan",
+      "renewsYear": "diperpanjang setiap tahun",
+      "fine": "Pembayaran ditagihkan ke Apple ID Anda saat Anda mengonfirmasi. Langganan diperpanjang otomatis, setiap bulan atau setiap tahun, kecuali Anda membatalkannya paling lambat 24 jam sebelum akhir periode; Anda dapat membatalkannya kapan saja di pengaturan Apple ID Anda, di bagian Langganan.",
+      "buying": "Membuka App Store…",
+      "thanks": "Terima kasih! Akses penuh Anda sedang disiapkan.",
+      "error": "Pembelian tidak berhasil. Coba lagi, atau tulis kepada kami.",
+      "restore": "Pulihkan pembelian",
+      "restoring": "Memulihkan…",
+      "nothing": "Tidak ditemukan pembelian untuk Apple ID ini.",
+      "email": "Dengan email Anda",
+      "eula": "Ketentuan penggunaan (Apple)",
+      "terms": "Ketentuan layanan",
+      "privacy": "Privasi"
+    }
+  },
+  "parent": {
+    "line": "Sebuah situs dari {mantiqi}",
+    "lineLong": "The Nahwi adalah situs dari {mantiqi}, ensiklopedia dan portal belajar ilmu mantiq. Berita, alamat dan akunnya digunakan bersama.",
+    "visit": "Kunjungi The Mantiqi"
+  }
+}

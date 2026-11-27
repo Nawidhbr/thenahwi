@@ -1,0 +1,34 @@
+{
+  "items": {
+    "khabar-1": {
+      "prompt": "Burada ka'imün nedir?",
+      "options": [
+        "haber",
+        "mübteda",
+        "fail",
+        "mef'ulün bih"
+      ],
+      "explanation": "Ka'imün Zeyd'in ne olduğunu bildirir: haberdir."
+    },
+    "khabar-2": {
+      "prompt": "Burada haber nedir?",
+      "options": [
+        "fi'd-dari şibh-i cümlesi",
+        "zeydün",
+        "yalnız ed-dari",
+        "Haber yoktur"
+      ],
+      "explanation": "Fi'd-dari şibh-i cümlesi ma'nayı tamamlar: haber yerindedir."
+    },
+    "khabar-3": {
+      "prompt": "Hangi kelime cümleyi uyumla tamamlar?",
+      "options": [
+        "مُجْتَهِدَانِ",
+        "مُجْتَهِدٌ",
+        "مُجْتَهِدُونَ",
+        "مُجْتَهِدَةٌ"
+      ],
+      "explanation": "Mübteda müzekker tesniyedir, haber de öyledir: müctehidani."
+    }
+  }
+}

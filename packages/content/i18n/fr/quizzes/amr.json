@@ -1,0 +1,34 @@
+{
+  "items": {
+    "amr-1": {
+      "prompt": "Quel est l'impératif de ce verbe ?",
+      "options": [
+        "اُنْصُرْ",
+        "اِنْصُرْ",
+        "نَصَرَ",
+        "أَنْصُرُ"
+      ],
+      "explanation": "On retire le tâ', on termine par un sukûn, et on place devant une hamza avec la damma du 'ayn : unsur."
+    },
+    "amr-2": {
+      "prompt": "Pourquoi cet impératif commence-t-il par une kasra ?",
+      "options": [
+        "Parce que le 'ayn de tadribu a une kasra",
+        "Parce qu'il est féminin",
+        "Parce que tout impératif commence par i",
+        "Parce que daraba est mazîd"
+      ],
+      "explanation": "La hamza prend une damma quand le 'ayn du présent en a une, et une kasra sinon."
+    },
+    "amr-3": {
+      "prompt": "À qui s'adresse l'impératif ?",
+      "options": [
+        "À la personne à qui l'on parle, en six formes",
+        "À tous : les quatorze personnes",
+        "Seulement à celui qui parle",
+        "Seulement à un absent"
+      ],
+      "explanation": "L'impératif est formé sur la deuxième personne : deux formes masculines, deux féminines, et le duel."
+    }
+  }
+}

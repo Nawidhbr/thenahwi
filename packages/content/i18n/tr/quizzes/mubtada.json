@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mubtada-1": {
+      "prompt": "Burada mübteda hangi kelimedir?",
+      "options": [
+        "el-kitabü",
+        "cedidün",
+        "İkisi de",
+        "Hiçbiri"
+      ],
+      "explanation": "El-kitabü cümleyi başlatır ve hakkında konuşulur: mübtedadır."
+    },
+    "mubtada-2": {
+      "prompt": "Kitapların çoğunun izlediği görüşe göre mübtedayı merfu yapan nedir?",
+      "options": [
+        "Başta bulunması (ibtida), ma'nevi bir amil",
+        "Önündeki bir fiil",
+        "Bir cer harfi",
+        "Ondan sonraki haber"
+      ],
+      "explanation": "Mübtedanın lafzi bir amili yoktur; onda başta bulunması amel eder."
+    },
+    "mubtada-3": {
+      "prompt": "Mübteda genellikle…",
+      "options": [
+        "ma'rifedir: bilinen bir şey",
+        "nekredir",
+        "bir fiildir",
+        "bir harftir"
+      ],
+      "explanation": "Cümle dinleyenin bildiği bir şey hakkında bilgi verir, bu yüzden mübteda genellikle ma'rifedir."
+    }
+  }
+}

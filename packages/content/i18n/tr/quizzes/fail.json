@@ -1,0 +1,34 @@
+{
+  "items": {
+    "fail-1": {
+      "prompt": "Burada zeydün nedir?",
+      "options": [
+        "fail",
+        "mübteda",
+        "mef'ulün bih",
+        "haber"
+      ],
+      "explanation": "Zeydün fiilinden sonra gelir ve merfudur: faildir."
+    },
+    "fail-2": {
+      "prompt": "Burada fail nedir?",
+      "options": [
+        "sondaki -tü",
+        "kame fiili",
+        "Fail yoktur",
+        "gizli bir hüve"
+      ],
+      "explanation": "-tü zamiri işi yapandır: kalktım."
+    },
+    "fail-3": {
+      "prompt": "Failin i'rabı nedir?",
+      "options": [
+        "merfu",
+        "mansub",
+        "mecrur",
+        "meczum"
+      ],
+      "explanation": "Fail her zaman merfudur."
+    }
+  }
+}

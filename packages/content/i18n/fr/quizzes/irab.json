@@ -1,0 +1,34 @@
+{
+  "items": {
+    "irab-1": {
+      "prompt": "Qu'est-ce que l'i'râb ?",
+      "options": [
+        "Le changement à la fin d'un mot causé par les régissants qui entrent sur lui",
+        "La voyelle au milieu d'un mot",
+        "Le schème des lettres radicales",
+        "Le sens d'un mot dans un dictionnaire"
+      ],
+      "explanation": "L'i'râb concerne la fin du mot, et le régissant qui la change."
+    },
+    "irab-2": {
+      "prompt": "Pourquoi Zayd se termine-t-il différemment dans ces deux phrases ?",
+      "options": [
+        "Des régissants différents : l'agent de jâ'a, l'objet de ra'aytu",
+        "L'une des deux est une faute",
+        "Les noms changent librement de finale",
+        "Parce qu'une des phrases est au passé"
+      ],
+      "explanation": "Le régissant change : comme agent, Zayd est marfû' ; comme objet, mansûb."
+    },
+    "irab-3": {
+      "prompt": "Comment appelle-t-on un mot dont la finale change ainsi ?",
+      "options": [
+        "mu'rab",
+        "mabnî",
+        "mujarrad",
+        "mazîd"
+      ],
+      "explanation": "Un mot qui prend l'i'râb est mu'rab ; celui dont la finale reste est mabnî."
+    }
+  }
+}

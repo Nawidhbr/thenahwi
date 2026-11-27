@@ -1,0 +1,1740 @@
+{
+  "meta": {
+    "tagline": "Sarf ve nahiv: medresenin öğrettiği şekliyle Arapça dil bilgisi",
+    "homeDescription": "Sarf ve nahvi, klasik Arapçanın kelime ve cümle ilmini, medresenin yollarında öğrenin: Mebadi ile ücretsiz başlayın, sonra klasik kitaplar, kısa testlerle.",
+    "glossaryName": "Sarf ve nahiv terimleri sözlüğü (Arapça dil bilgisi)"
+  },
+  "nav": {
+    "learn": "Öğren",
+    "text": "Metin",
+    "practice": "Alıştırma",
+    "main": "Ana menü",
+    "home": "Ana sayfa",
+    "book": "Kitap",
+    "glossary": "Terimler",
+    "about": "Hakkında"
+  },
+  "header": {
+    "search": "Terimlerde ve metinde ara",
+    "translit": "Çeviriyazı",
+    "translitTitle": "Çeviriyazıyı aç veya kapat",
+    "tashkil": "Harekeler (teşkil)",
+    "tashkilTitle": "Harekeleri aç veya kapat",
+    "theme": "Açık ve koyu tema arasında geçiş yap",
+    "language": "Dil",
+    "inPreparation": "Hazırlanıyor",
+    "langNote": "Çeviriler, İngilizce metin gibi, bir hoca inceleyene kadar taslaktır.",
+    "settings": "Ayarlar",
+    "darkTheme": "Koyu tema",
+    "install": "Uygulama olarak yükle",
+    "installIos": "iPhone veya iPad'de: Paylaş'a dokunun, sonra “Ana Ekrana Ekle”yi seçin.",
+    "installOther": "Tarayıcı menüsünü açın ve “Uygulamayı yükle” ya da “Ana ekrana ekle”yi seçin.",
+    "font": "Arapça yazı tipi",
+    "fonts": {
+      "modern": "Kufi",
+      "naskh": "Nesih",
+      "classic": "Amiri"
+    },
+    "hijri": "Önce hicri tarih",
+    "ah": "H.",
+    "trLang": "Metinlerin çevirisi",
+    "trLangNote": "Bir kitabın aslındaki her pasajın altında, çevrildiği yerde.",
+    "trLangs": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "ur": "اردو",
+      "fa": "فارسی",
+      "ar": "العربية"
+    }
+  },
+  "footer": {
+    "draft": "{site} geliştirme aşamasındadır. Bütün açıklamalar, Arapça dil bilgisinde yetkin bir hocanın incelemesini bekleyen taslaklardır.",
+    "privacy": "Gizlilik",
+    "pricing": "Fiyatlar",
+    "terms": "Koşullar",
+    "refunds": "İadeler",
+    "email": "E-posta"
+  },
+  "home": {
+    "title": "Sarf ve nahvi, <em>medresenin dil bilgisini</em> öğrenin",
+    "lead": "Zihni düşünürken hataya düşmekten koruyan, kurallara dayalı bir alet; medresenin kitaplarıyla öğretilir: Hint, Osmanlı ya da Kuzey Afrika yolunu seçin ve metinlerini seviye seviye okuyun, her derste Arapçasıyla ve kısa bir testle.",
+    "start": "Yolunuzu seçin",
+    "readText": "Metni oku",
+    "factTerms": "terim",
+    "factChapters": "bölüm",
+    "factParts": "kısım",
+    "yourStudy": "Çalışmanız",
+    "continue": "Devam et",
+    "continueTo": "Devam et: {name}",
+    "termsStudied": "{total} terimden {n} tanesi çalışıldı",
+    "howItWorks": "Nasıl işler?",
+    "howTitle": "Önce metin",
+    "howBody": "Her terim, sarf ve nahvin temelleri olan Mebadi'nin sırasını izler; Arapçası, sade bir açıklaması ve klasik örnekleriyle. İlerlemeniz bu cihazda tutulur.",
+    "levelsTitle": "Seviyeleriniz",
+    "levelsLead": "Her seviye, yolunuzda ondan önceki seviyeyi geçtiğinizde açılır.",
+    "levelProgress": "{total} içinden {n} tanesi geçildi",
+    "levelLocked": "{prev}. seviyeden sonra açılır",
+    "levelSoon": "Hazırlanıyor",
+    "termsCount": "{n} terim",
+    "aboutLink": "The Nahwi ve hoca hakkında"
+  },
+  "parts": {
+    "introduction": {
+      "title": "Giriş",
+      "summary": "İki ilim, kelime ve kelam, kelimenin üç çeşidi."
+    },
+    "sarf": {
+      "title": "Sarf",
+      "summary": "Kelime tek başına: kökü ve vezni, fiilin zamanları, sahih ve mu'tel kökler, fiilden türeyen isimler."
+    },
+    "nahw": {
+      "title": "Nahiv",
+      "summary": "Kelime cümlede: i'rab ve bina, i'rabın dört çeşidi, cümle-i ismiyye ve cümle-i fi'liyye."
+    }
+  },
+  "chapters": {
+    "introduction": "İki ilim ve kelam",
+    "word": "Kelimenin çeşitleri",
+    "root": "Kök ve vezin",
+    "verb": "Fiil ve zamanları",
+    "sound-weak": "Sahih ve mu'tel",
+    "derived": "Türemiş isimler",
+    "irab": "İ'rab ve bina",
+    "sentence": "Cümle"
+  },
+  "structure": {
+    "part": "{n}. Kısım",
+    "chapter": "{n}. Bölüm",
+    "about": "{name} hakkında",
+    "toggle": "{name}: göster veya gizle",
+    "close": "Kapat",
+    "upNext": "Sıradaki",
+    "practise": "{chapter} alıştırması · {n} soru",
+    "expandAll": "Tümünü aç",
+    "collapseAll": "Tümünü kapat"
+  },
+  "term": {
+    "nOfM": "{n} / {m}",
+    "secondReading": "İkinci okuma",
+    "fromCommentaries": "Şerhlerden",
+    "draft": "Taslak · inceleme bekliyor",
+    "inAPicture": "Görselle",
+    "explanation": "Açıklama",
+    "alsoWritten": "Şöyle de yazılır: {list}.",
+    "inTheText": "Metinde",
+    "examples": "Örnekler",
+    "related": "İlgili terimler",
+    "practise": "Alıştırma",
+    "practiseThis": "Bu terimle ilgili {n} soru, {chapter} alıştırma setinde.",
+    "practiseChapter": "Kendinizi sınayın: {chapter}.",
+    "goToPractice": "Alıştırmaya git · {n} soru",
+    "endOf": "{name} burada bitiyor.",
+    "takeStock": "Sonraki kısma geçmeden önce durumunuza bakın.",
+    "lastTerm": "Bu, kitabın son terimi.",
+    "finish": "{name} kısmını bitir →",
+    "finishPart": "Bu kısmı bitir →",
+    "next": "Sıradaki:",
+    "continue": "Devam et →",
+    "reviewedBy": "İnceleyen: {name} · {date}",
+    "reviewedCount": "Hoca tarafından incelendi: {m} dersten {n}",
+    "metaMore": "Sarf ve nahvin temelleri olan Mebadi'de açıklanır; Arapçası, örnekleri ve kısa bir testiyle.",
+    "inGlossary": "Ücretsiz: {name}, terimler sözlüğünde →"
+  },
+  "text": {
+    "title": "{title} metni",
+    "pageTitle": "{title}: Arapça metin ve tercümesi",
+    "description": "{title} ({author}), cümle cümle: harekeli Arapça metin ve çevirisi; her cümle, tanıttığı terimlere bağlıdır.",
+    "about": "Bu metin ve baskı hakkında",
+    "eyebrow": "Metin",
+    "author": "Yazar:",
+    "arabicAfter": "Arapça metnin kaynağı:",
+    "note": "Çeviri The Nahwi'ye aittir. Sayfa numaraları bu baskıya göredir.",
+    "draft": "Taslak · çeviri inceleme bekliyor",
+    "preparing": "Metin basılı bir baskıdan hazırlanıyor ve burada cümle cümle yer alacak.",
+    "sentence": "Cümle {n}",
+    "library": "Metinler",
+    "libraryLead": "Okumak için bir metin seçin. Başka metinler de eklenecek.",
+    "read": "Oku",
+    "passages": "{n} bölüm",
+    "commentary": "Şerh",
+    "commentaryNote": "Arapça metin aşağıdaki baskıya dayanır; modern muhakkikin notları alınmamıştır.",
+    "onMatn": "Metne göre: {n}",
+    "page": "s. {n}"
+  },
+  "practice": {
+    "title": "Alıştırma: tikrar",
+    "description": "Geçtiğiniz dersleri tekrar edin: bölümleri seçin, soruları ve cevapları karıştırın, kendinizi sınayın.",
+    "lead": "Tikrar tekrardır: medrese talebesinin bir sonraki dersten önce dersini yeniden okuması gibi, geçtiğiniz dersleri tekrar edin. Geçtiğiniz her ders buraya eklenir.",
+    "questions": "{n} soru",
+    "notStarted": "başlanmadı",
+    "score": "{total} sorudan {right} doğru",
+    "setTitle": "Alıştırma: {chapter}",
+    "setDescription": "Arapça dil bilgisinde (sarf ve nahiv) {chapter} üzerine {n} kısa soru, her biri açıklamasıyla.",
+    "progress": "<span data-progress>0</span> / {n} cevaplandı · <span data-right>0</span> doğru",
+    "question": "Soru {n}",
+    "answersTo": "Soru {n} için cevaplar",
+    "right": "Doğru.",
+    "wrong": "Tam değil.",
+    "see": "Bakınız:",
+    "again": "Baştan başla",
+    "nextSet": "Sıradaki: {chapter} →",
+    "all": "Tüm alıştırmalar →",
+    "selectAll": "Hepsini seç",
+    "shuffleQuestions": "Soruları karıştır",
+    "shuffleAnswers": "Cevapları karıştır",
+    "count": "{n} soru",
+    "none": "En az bir ders seçin",
+    "start": "Başla",
+    "reshuffle": "Karıştır ve yeniden başla",
+    "choose": "Başka dersler seç",
+    "locked": "önce dersi geçin",
+    "howTitle": "Nasıl çalışır",
+    "how": [
+      "Bir kitabı açın ve tekrar edeceğiniz dersleri ya da bütün bir bölümü veya kitabı işaretleyin",
+      "İsterseniz soruları ve cevapları karıştırın",
+      "Başla'ya basın ve cevaplayın: her soru kendi açıklamasıyla gelir"
+    ],
+    "emptyTitle": "Henüz tekrar edilecek bir şey yok",
+    "emptyBody": "Tikrar, geçtiğiniz ilk dersle açılır: bir dersin testini en az iki yıldızla geçin, o ders burada görünür.",
+    "emptyCta": "Çalışma portalına git",
+    "passedOf": "{m} dersten {n} geçildi",
+    "notYet": "Henüz geçilmedi: {n}. Geçtikçe tikrara eklenirler.",
+    "chosen": "Seçilen: {n}",
+    "options": "Seçenekler",
+    "yourPath": "Yolunuz",
+    "selectBook": "Bu kitabın geçilen bütün dersleri",
+    "toBook": "{book} kitabına git",
+    "otherPaths": "Diğer yollar",
+    "dueTitle": "Tekrar zamanı",
+    "dueToday": "Bugün tekrar edilecekler: {list}",
+    "dueNext": "Bugün tekrar edilecek bir şey yok. Sonraki tekrar: {date}.",
+    "dueHow": "Geçtiğiniz her ders 1, 3, 7, 14, 30 ve 60 gün sonra, ardından her 120 günde bir geri gelir; iki yıldızdan az alınan bir tekrardan sonra ertesi gün gelir. Bu takvim bu tarayıcıda tutulur.",
+    "dueStart": "Şimdi tekrar et",
+    "dueSaved": "Bu derslerin sonraki tekrarı: {date}."
+  },
+  "complete": {
+    "title": "{name}: tamamlandı",
+    "description": "Mebadi'de {name} kısmını bitirdiniz.",
+    "eyebrow": "{name} tamamlandı",
+    "finished": "{name} kısmını bitirdiniz",
+    "finishedBook": "Mebadi'yi bitirdiniz",
+    "count": "Bu kısımda {n} terim var.",
+    "read": "Bu kısımdaki {total} terimden {read} tanesini okudunuz.",
+    "notRead": "Henüz okunmayanlar:",
+    "continueTo": "{name} ile devam et →",
+    "readWhole": "Metnin tamamını oku →",
+    "practise": "Bu kısmın alıştırmaları",
+    "home": "Ana sayfaya dön",
+    "testYourself": "Kendinizi sınayın",
+    "questions": "{chapter} · {n} soru"
+  },
+  "search": {
+    "placeholder": "Ara: cins, جنس…",
+    "hint": "Bu dilde, çeviriyazıyla ya da Arapça arayın; harekeli veya harekesiz.",
+    "none": "Sonuç yok. Başka bir yazım ya da Arapçasını deneyin.",
+    "close": "Aramayı kapat",
+    "results": "Sonuçlar",
+    "where": "{part} · {chapter}",
+    "textWhere": "Metin · {chapter} · {n}"
+  },
+  "privacy": {
+    "title": "Gizlilik",
+    "description": "The Nahwi neyi saklar ve neyi ölçer: hesap yok, çerez yok, siteler arası izleme yok.",
+    "intro": "The Nahwi'de hesap yoktur ve çerez kullanılmaz.",
+    "deviceTitle": "Cihazınızda",
+    "device": "İlerlemeniz, seçtiğiniz medrese yolu, alıştırma cevaplarınız, her dersin tekrar zamanı, her gün kaç test yaptığınız ve günlük hedefiniz, tema, çeviriyazı, hareke ve yazı tipi tercihleriniz ve gördüğünüz en yeni havadisin tarihi (neyin yeni olduğunu göstermek için) tarayıcınızın yerel deposunda tutulur. Cihazınızdan hiç çıkmazlar. Tarayıcı verilerinizi silerseniz bunlar da silinir.",
+    "offline": "Çevrimdışı okuyabilmeniz için site kursu, metinleri ve okuduğunuz sayfaları tarayıcınızın önbelleğine kaydeder.",
+    "statsTitle": "Ziyaretçi istatistikleri",
+    "stats": "Hangi sayfaların kullanıldığını görmek için sayfa görüntülemelerini Vercel Web Analytics ile sayıyoruz. Bu hizmet çerez kullanmaz, sizi başka sitelerde izlemez ve IP adresinizi saklamaz; ziyaretler yalnızca toplu olarak sayılır. Yazı tipleri bu siteden sunulur; bu yüzden tarayıcınız Google'a ya da başka bir yazı tipi hizmetine bağlanmaz. Eski metinlerin altındaki “Google Çeviri” düğmeleri, o pasajı Google Çeviri'ye yalnızca siz tıkladığınızda gönderir.",
+    "contactTitle": "İletişim formu",
+    "contact": "İletişim formuna yazdıklarınız (adınız, e-posta adresiniz, konu ve mesaj), okuyup cevaplayabilmemiz için Resend e-posta hizmeti aracılığıyla {email} adresine e-postayla gönderilir. Bu sitede saklanmaz ve başka hiçbir şey için kullanılmaz.",
+    "errorsTitle": "Hata raporları",
+    "errors": "Bir sayfadaki bir betik tarayıcınızda hata verirse, onarabilmemiz için siteye kısa bir rapor gönderilir: sayfa, hata mesajı, hatanın betikte nerede olduğu ve tarayıcınızın adı. Rapor sizin hakkınızda hiçbir şey içermez, IP adresinizi bile; yalnızca kısa bir süre sunucu kaydında tutulur ve başka hiçbir şey için kullanılmaz.",
+    "descriptionAccounts": "The Nahwi neyi saklar ve neyi ölçer: AB'de tutulan isteğe bağlı hesaplar, çerez yok, siteler arası izleme yok.",
+    "introAccounts": "The Nahwi çerez kullanmaz. Hesap isteğe bağlıdır: açık olan her şey hesapsız da açık kalır; ilerlemeniz o zaman yalnızca bu cihazda kalır.",
+    "deviceAccounts": "İlerlemeniz, seçtiğiniz medrese yolu, alıştırma cevaplarınız, her dersin tekrar zamanı, her gün kaç test yaptığınız ve günlük hedefiniz, tema, çeviriyazı, hareke ve yazı tipi tercihleriniz ve gördüğünüz en yeni havadisin tarihi (neyin yeni olduğunu göstermek için) tarayıcınızın yerel deposunda tutulur. Giriş yapmadığınız sürece cihazınızda kalır (aşağıya bakın). Tarayıcı verilerinizi silerseniz bu cihazdan silinir.",
+    "hearts": "Kalpleriniz (şu an kaç sınava girebileceğiniz ve sonrakinin ne zaman geri geleceği), her dersin son sınavında hangi soruların sorulduğu ve bir dersin yeniden okunması gerekip gerekmediği de orada saklanır. Hesabınız varsa kalpleriniz onunla da saklanır, böylece her cihazda aynıdır; Paddle'dan satın alınan bir doldurma oraya yazılır.",
+    "accountTitle": "Giriş yaparsanız",
+    "account": "E-posta adresinizle ya da Google ile giriş yaptığınızda hesabınız e-posta adresinizi, sınav puanlarınızı, gördüğünüz adımları ve seçtiğiniz medrese yolunu saklar; böylece başka bir cihazda devam edebilirsiniz. Google ile giriş yaparsanız Google bize adınızı ve profil fotoğrafınızın adresini de verir; bundan fazlasını istemeyiz. Hesap, Avrupa Birliği'nde (Frankfurt) Supabase'te tutulur; Supabase güvenlik için bir süre girişlerin kaydını da (zaman ve IP adresi) saklar. Giriş e-postaları Resend ile gönderilir. Oturumunuz çerezde değil, tarayıcınızın yerel deposunda durur. Hesap sayfanızda hakkınızda saklanan her şeyi indirebilir ya da hesabınızı silebilirsiniz; hesap, içindeki her şeyle birlikte hemen silinir.",
+    "accountApple": "Apple ile giriş yaparsanız Apple bize yalnızca e-posta adresinizi verir; adresinizi gizlemeyi seçerseniz e-postalarımızı size ileten bir Apple adresi verir. Adınızı iletmez.",
+    "accountPassword": "Bir şifre belirlerseniz Supabase yalnızca onun karıştırılmış bir biçimini (hash) saklar, şifrenin kendisini asla; biz onu göremeyiz.",
+    "supportStore": "Ara sıra ve asla sık olmamak üzere destek isteyebilmek için tarayıcınız burada kaç sayfa okuduğunuzu ve sitenin en son ne zaman sorduğunu da saklar; bunların hiçbiri cihazınızdan çıkmaz.",
+    "app": "The Nahwi'yi Android uygulamasından açtığınızda site bunu oturum boyunca not eder (tarayıcınızın oturum deposunda), böylece uygulama hiçbir ödeme göstermez; Google Play bir uygulamada ödemeye yalnızca kendi faturalandırması üzerinden izin verir. Uygulama kapanınca bu not unutulur.",
+    "appIos": "iPhone uygulamasında günlük hatırlatma ve kalplerinizin yeniden dolduğu bildirimi, seçtiğiniz saatte telefonunuzda kurulur; uygulama bir sonraki açılış için dilinizi de hatırlar. Bunların hiçbiri telefonunuzdan çıkmaz.",
+    "accountCodes": "Bir erişim kodu kullanırsanız hesabınız, kodun verdiği erişimi ve hangi koddan geldiğini de saklar; böylece bir kod her hesapta bir kez işe yarar. Tahmine karşı, bir hafta boyunca her gün kaç kod denendiğini de (en fazla on) tutar. Bir bağlantıdan gelen kod (?redeem= ya da ?discount=), siz kullanana ya da tarayıcıyı kapatana kadar tarayıcınızın oturum deposunda kalır.",
+    "comments": "Bir dersin altına soru ya da not yazarsanız hesabınız mesajı, yazdığınız adı (ya da adsız yazmayı seçtiğinizi), dersi ve dili saklar. Mesaj yayımlanmadan önce bir moderatör tarafından okunur; yayımlandıktan sonra herkes mesajı yazdığınız adla ya da “bir talebe” olarak görür, ama e-posta adresinizi asla görmez. Bir mesajı istediğiniz zaman silebilirsiniz; hesabınızı silmek hepsini siler.",
+    "paymentsTitle": "Ödeme yaparsanız",
+    "payments": "Tam erişimi, kayıtlı satıcı (merchant of record) olarak Paddle satar ve Paddle'ın kendi gizlilik politikası geçerlidir: ödeme bilgilerinizi, fatura adresinizi ve makbuzlarınızı Paddle işler; kart numaranızı hiçbir zaman görmeyiz. Paddle'ın panelinde bir satıcının ihtiyaç duyduğunu görürüz: e-posta adresiniz, ülkeniz ve ödemeleriniz gibi. Ülkenizin fiyatını göstermek için fiyatlar sayfası ve abonelik penceresi Paddle'ın betiğini Paddle'ın sunucularından yükler; bu sunucular IP adresinizi görür. Hesabınız yalnızca tam erişimin gerektirdiğini saklar: aboneliğinizin numarası, durumu ve tarihleri, ayrıca Paddle'ın aboneliği iptal etme veya ödeme yöntemini değiştirme bağlantıları. Hesabınızı silerseniz bunlar bizim tarafımızdan silinir; Paddle ödeme kayıtlarını yasanın gerektirdiği süre boyunca saklar.",
+    "appStore": "iPhone uygulamasında tam erişim Apple üzerinden satın alınır. Bu satın almaları bizim için yürüten RevenueCat, hesabınızın numarasını (adınız ya da adresiniz değil, rastgele bir kimlik) ve neyi satın aldığınızı alır; ödemeyi Apple yürütür ve ödeme bilgilerinizi biz hiçbir zaman görmeyiz. Hesabınız, web sitesindeki bir abonelikte olduğu gibi aynı şeyleri saklar: numarasını, durumunu ve tarihlerini, bir de Apple'ın yönetme bağlantısını.",
+    "gifts": "Destek düğmesiyle verilen bir hediye, Stripe'ın kendi sayfasında ve Stripe'ın gizlilik politikasına göre ödenir; sitenin kendisi bundan hiçbir şey saklamaz."
+  },
+  "account": {
+    "link": "Hesap",
+    "signIn": "Giriş yap",
+    "kicker": "The Nahwi hesabı",
+    "heroTitle": "Nerede olursanız olun, çalışmanız yanınızda",
+    "perks": [
+      "İlerlemeniz telefonunuzda, tabletinizde ve bilgisayarınızda",
+      "Hiçbir şey kaybolmaz: her zaman en yüksek puan sayılır",
+      "Verileriniz sizindir: istediğiniz zaman indirin ya da silin"
+    ],
+    "formTitle": "Giriş yapın ya da hesap oluşturun",
+    "signedInKicker": "Giriş yapıldı",
+    "statTests": "Kaydedilen sınavlar",
+    "statSteps": "Görülen adımlar",
+    "planTitle": "Erişiminiz",
+    "planFree": "Ücretsiz hesap: Mebadi'nin tamamı ve her kitabın örnek dersleri.",
+    "planPaid": "Tam erişim, {date} tarihine kadar.",
+    "planPaidOpen": "Tam erişim.",
+    "planManage": "Aboneliği yönet",
+    "planUpdate": "Ödeme yöntemini değiştir",
+    "planUpgrade": "Tam erişime bakın",
+    "title": "Hesabınız",
+    "description": "İlerlemenizi saklamak ve başka bir cihazda devam etmek için e-postanızla, Google ya da Apple ile giriş yapın. Hesap isteğe bağlıdır.",
+    "lead": "Hesap isteğe bağlıdır. İlerlemenizi güvende tutar ve başka bir cihazda devam etmenizi sağlar. Ansiklopedi ve örnek dersler hesap olmadan da açık kalır.",
+    "google": "Google ile devam et",
+    "apple": "Apple ile devam et",
+    "or": "ya da e-postanızla",
+    "email": "E-posta adresi",
+    "send": "Bana giriş e-postası gönder",
+    "sending": "Gönderiliyor…",
+    "sentTitle": "E-postanıza bakın",
+    "sent": "{email} adresine bir e-posta gönderdik. İçindeki bağlantıya tıklayın ya da e-postadaki 6 haneli kodu buraya yazın. Bir dakika içinde bir şey gelmediyse spam veya gereksiz klasörünüze de bakın.",
+    "code": "E-postadaki kod",
+    "verify": "Giriş yap",
+    "verifying": "Giriş yapılıyor…",
+    "resend": "Yeni e-posta gönder",
+    "resendIn": "{s} saniye sonra yeni bir e-posta isteyebilirsiniz.",
+    "other": "Başka bir e-posta adresi kullan",
+    "privacyNote": "Hesabın neleri ve nerede sakladığı {link} yazılıdır.",
+    "privacyLink": "gizlilik sayfasında",
+    "signedInAs": "{email} olarak giriş yapıldı",
+    "viaGoogle": "Google ile",
+    "viaApple": "Apple ile",
+    "viaEmail": "e-posta ile",
+    "welcome": "Giriş yaptınız. İlerlemeniz artık hesabınızda saklanıyor.",
+    "progressTitle": "İlerlemeniz",
+    "progress": "Hesabınızda saklanan: {tests} ve {steps}.",
+    "savedAt": "Son kayıt: {time}.",
+    "saveNow": "Şimdi kaydet",
+    "saving": "Kaydediliyor…",
+    "continue": "Çalışmaya devam et",
+    "signOut": "Çıkış yap",
+    "signOutNote": "Çıkış yaptıktan sonra ilerlemeniz bu cihazda da kalır.",
+    "dataTitle": "Verileriniz",
+    "dataBody": "Hakkınızda saklanan her şeyi indirin ya da hesabınızı silin.",
+    "download": "Verilerimi indir",
+    "delete": "Hesabımı sil",
+    "deleteConfirm": "Bu işlem hesabınızı ve içinde saklanan ilerlemeyi hemen ve kalıcı olarak siler. Bu tarayıcıdaki ilerleme kalır.",
+    "deleteYes": "Kalıcı olarak sil",
+    "cancel": "Vazgeç",
+    "deleted": "Hesabınız silindi.",
+    "loading": "Bir dakika…",
+    "offline": "Giriş yapmak için internet bağlantısı gerekir.",
+    "errors": {
+      "invalidEmail": "Lütfen geçerli bir e-posta adresi yazın.",
+      "invalidCode": "Bu kod doğru değil ya da süresi doldu. Yeniden yazın ya da yeni bir e-posta isteyin.",
+      "rate": "Çok fazla deneme. Bir dakika bekleyip yeniden deneyin.",
+      "link": "Bu bağlantı burada kullanılamadı. Onu istediğiniz tarayıcıda açın ya da e-postadaki kodu yazın.",
+      "generic": "Bir şeyler ters gitti. Biraz sonra yeniden deneyin.",
+      "wrongPassword": "Bu e-posta adresi ile şifre eşleşmiyor. Henüz şifreniz yok mu? Kodla giriş yapın ve hesap sayfanızda bir şifre belirleyin.",
+      "weakPassword": "8 ile 72 karakter arasında bir şifre seçin.",
+      "exists": "Bu adresin zaten bir hesabı var. Şifrenizle ya da kodla giriş yapın, sonra hesap sayfanızda bir şifre belirleyin.",
+      "samePassword": "Bu zaten sizin şifreniz.",
+      "reauth": "Güvenliğiniz için çıkış yapın, kodla yeniden giriş yapın ve sonra şifrenizi belirleyin."
+    },
+    "paidThanks": "Teşekkürler! Tam erişiminiz hazırlanıyor ve bir dakika içinde burada görünecek.",
+    "paidDone": "Tam erişiminiz var: her yol, kitap ve seviye açık.",
+    "redeemTitle": "Kodunuz var mı?",
+    "redeemLabel": "Erişim kodu",
+    "redeem": "Kullan",
+    "redeeming": "Kontrol ediliyor…",
+    "redeemNote": "The Nahwi'den alınan bir kod, kodda yazan süre boyunca ödeme yapmadan tam erişim verir. Bir abonelik için indirim kodu ödeme sırasında girilir.",
+    "redeemOk": "Tamam: {date} tarihine kadar tam erişiminiz var.",
+    "redeemOkOpen": "Tamam: bitiş tarihi olmadan tam erişiminiz var.",
+    "redeemSignIn": "Giriş yapın; {code} kodunuz sizin için doldurulmuş olacak.",
+    "redeemErrors": {
+      "unknown": "Bu kod bilinmiyor. Kontrol edin ya da size veren kişiye sorun.",
+      "expired": "Bu kodun süresi dolmuş.",
+      "used-up": "Bu kod izin verilen sayıda kullanılmış.",
+      "already": "Bu kodu zaten kullandınız.",
+      "too-many": "Bugün çok fazla deneme yapıldı. Yarın yeniden deneyin.",
+      "signed-out": "Kod kullanmak için önce giriş yapın.",
+      "other": "Kod kontrol edilemedi. Biraz sonra yeniden deneyin."
+    },
+    "modeLabel": "E-postanızla nasıl giriş yapacağınız",
+    "modeCode": "E-postayla kod",
+    "modePassword": "Şifre",
+    "password": "Şifre",
+    "passwordHint": "8 ile 72 karakter arası.",
+    "signingIn": "Giriş yapılıyor…",
+    "create": "Hesap oluştur",
+    "creating": "Hesabınız oluşturuluyor…",
+    "toCreate": "Yeni misiniz? Şifreyle hesap oluşturun",
+    "toSignIn": "Zaten bir hesabım var",
+    "forgot": "Şifrenizi mi unuttunuz?",
+    "forgotNote": "Sorun değil: e-postanızdaki kodla giriş yapın, sonra hesap sayfanızda yeni bir şifre belirleyin.",
+    "unconfirmed": "Adresiniz henüz onaylanmadı, bu yüzden size yeni bir kod gönderdik.",
+    "passwordTitle": "Şifre",
+    "passwordBody": "Bir dahaki sefere e-posta beklemeden giriş yapmak için bir şifre belirleyin. Kodla, Google ya da Apple ile giriş yapmak da çalışmaya devam eder.",
+    "newPassword": "Yeni şifre",
+    "savePassword": "Şifreyi kaydet",
+    "savingPassword": "Kaydediliyor…",
+    "passwordSaved": "Şifreniz kaydedildi. Bir dahaki sefere e-postanız ve bu şifreyle giriş yapabilirsiniz."
+  },
+  "pricing": {
+    "title": "Fiyatlar",
+    "description": "Sarf ve nahvi bir hesapla ücretsiz çalışın ya da tam erişimle her yolu ve seviyeyi açın. Her ülkede adil fiyatlar.",
+    "kicker": "Erişim",
+    "heroTitle": "Arapça dil bilgisini medreselerin öğrettiği gibi çalışın",
+    "heroSub": "Ansiklopedi herkese ücretsizdir. Ücretsiz bir hesap, sarf ve nahvin temelleri olan Mebadi'nin tamamını açar; tam erişim her yolu, kitabı ve seviyeyi açar.",
+    "plans": {
+      "anon": {
+        "name": "Hesap olmadan",
+        "price": "Ücretsiz",
+        "items": [
+          "Ansiklopedinin tamamı: el kitapları, alimler, kütüphane ve havadis",
+          "Her kitapta üç örnek ders",
+          "İlerlemeniz bu cihazda kalır"
+        ],
+        "unit": "her zaman"
+      },
+      "free": {
+        "name": "Ücretsiz hesap",
+        "price": "Ücretsiz",
+        "items": [
+          "Hesapsız olan her şey",
+          "Mebadi'nin tamamı: her terim ve testi",
+          "İlerlemeniz tüm cihazlarınızda"
+        ],
+        "cta": "Ücretsiz hesap oluştur",
+        "ctaIn": "Ücretsiz bir hesabınız var",
+        "unit": "hesapla"
+      },
+      "full": {
+        "name": "Tam erişim",
+        "perYear": "ya da yıllık {price}: iki ay bedava",
+        "items": [
+          "Her medrese yolu: Hint, Osmanlı ve Kuzey Afrika",
+          "İlk kitaplardan Kafiye'ye ve Elfiyye'ye kadar her kitap ve seviye",
+          "Geçtiğiniz her şeyde tikrar",
+          "Eklendikçe yeni kitaplar ve dersler"
+        ],
+        "cta": "Abone ol",
+        "soon": "Yakında",
+        "cancel": "İstediğiniz zaman iptal edin.",
+        "unit": "aylık",
+        "unitYear": "yıllık",
+        "ctaYearly": "Yıllık abone ol",
+        "ctaMonthly": "Ya da aylık",
+        "yearlyFine": "Yıllık: yılda bir ödeme, iptal edene kadar yenilenir.",
+        "signInFirst": "Erişiminiz hesabınıza bağlansın diye önce giriş yaparsınız ya da ücretsiz bir hesap oluşturursunuz.",
+        "opening": "Ödeme ekranı açılıyor…",
+        "error": "Ödeme ekranı açılamadı. Lütfen yeniden deneyin ya da bize yazın.",
+        "yourPrice": "Sizin fiyatınız"
+      }
+    },
+    "regionalTitle": "Her ülkede adil bir fiyat",
+    "regionalBody": "Yukarıdaki fiyatlar Avrupa, Kuzey Amerika ve Körfez içindir; Birleşik Krallık'ta tam erişimin aylık fiyatı sterlin olarak {uk}. Başka yerlerde daha düşüktür: Türkiye, Malezya ve Güney Afrika gibi ülkelerde aylık {middle} ya da yıllık {middleYear}, Hindistan, Pakistan, Endonezya, Mısır ve Nijerya gibi ülkelerde yıllık {low}. Ödeme ekranı ülkenizin fiyatını gösterir.",
+    "madrasaTitle": "Bir medrese ya da sınıf için",
+    "madrasaBody": "Bir öğretmen ya da medrese, her öğrenciye bir yer ayırarak bütün bir sınıf için tam erişim açabilir.",
+    "madrasaCta": "Sınıf lisansı hakkında sorun",
+    "faqTitle": "Sorular",
+    "faq": [
+      [
+        "Ödemeyi kim yapıyor?",
+        "Sipariş sürecimiz çevrimiçi satıcımız Paddle.com tarafından yürütülür. Paddle.com tüm siparişlerimizin Merchant of Record'udur. Paddle tüm müşteri sorularını yanıtlar ve iadeleri yürütür."
+      ],
+      [
+        "İptal edebilir miyim?",
+        "Evet, istediğiniz zaman. Erişiminiz ödediğiniz dönemin sonuna kadar sürer."
+      ],
+      [
+        "Paramı geri alabilir miyim?",
+        "Ödemeleri biz iade etmeyiz. İadeler, satıcımız Paddle tarafından, bazı ülkelerde yasanın tüketicilere tanıdığı cayma hakkını koruyan Paddle iade politikasına göre yapılır. İade politikasına bakın."
+      ],
+      [
+        "İçerik kontrol ediliyor mu?",
+        "Bütün açıklamalar, Arapça dil bilgisinde yetkin bir hoca inceleyene kadar taslaktır; her ders incelenip incelenmediğini belirtir."
+      ]
+    ],
+    "terms": "Kullanım koşulları",
+    "refunds": "İade politikası",
+    "localNote": "Fiyatlar Avrupa, Kuzey Amerika ve Körfez içindir. Ödeme ekranı ülkenizin fiyatını gösterir: Birleşik Krallık'ta sterlin olarak, diğer pek çok ülkede daha düşük."
+  },
+  "access": {
+    "freeKicker": "Hesapla ücretsiz",
+    "freeBody": "Bir hesabınız olduğunda Mebadi'nin tamamı ücretsizdir: her terim ve testi. E-postanız, Google ya da Apple ile bir dakika sürer.",
+    "freeCta": "Ücretsiz hesap oluştur",
+    "paidKicker": "Tam erişim",
+    "paidBody": "Bu ders, her medrese yolunu, kitabı ve seviyeyi açan tam erişime dahildir. Her kitabın üç dersi örnek olarak ücretsiz okunabilir.",
+    "paidCta": "Fiyatlara bakın",
+    "signIn": "Giriş yap",
+    "previews": "Ücretsiz örnek dersleri okuyun"
+  },
+  "subscribe": {
+    "kicker": "Tam erişim",
+    "title": "Her yol, kitap ve seviye",
+    "perks": [
+      "Her medrese yolu: Hint, Osmanlı ve Kuzey Afrika",
+      "Testleri ve tikrarıyla her kitap ve seviye",
+      "Eklendikçe yeni kitaplar ve dersler"
+    ],
+    "fine": "İstediğiniz zaman iptal edin. Fiyatlara KDV dahildir. Bankanız talimatı 31-12-9999 tarihine kadar geçerli gösterebilir: bu yalnızca iptal edene kadar demektir.",
+    "close": "Kapat",
+    "planLegend": "Nasıl ödeyeceğinizi seçin",
+    "yearly": "Yıllık",
+    "yearlyNote": "iki ay bedava",
+    "monthly": "Aylık",
+    "perMonth": "aylık",
+    "perYear": "yıllık",
+    "continue": "Devam",
+    "signinTitle": "Önce ücretsiz hesabınız",
+    "signinBody": "Tam erişim her cihazda size bağlı olsun diye. Bir dakika sürer.",
+    "signedInAs": "{email} olarak giriş yapıldı",
+    "toCheckout": "Ödemeye devam et",
+    "opening": "Ödeme açılıyor…",
+    "error": "Ödeme açılamadı. Lütfen yeniden deneyin ya da bize yazın.",
+    "localNote": "Fiyat ülkeniz içindir.",
+    "back": "Geri"
+  },
+  "support": {
+    "link": "Destek ol",
+    "kicker": "The Nahwi'ye destek olun",
+    "title": "Medresenin dil bilgisinin herkesin ulaşabileceği yerde kalmasına yardım edin",
+    "body": "The Nahwi'yi tek bir kişi, dersleri kontrol eden bir hocayla birlikte hazırlıyor. Ansiklopedi herkese ücretsiz kalır; desteğiniz yeni kitapları, çevirileri ve hocanın vaktini karşılar.",
+    "donateTitle": "Bağış yapın",
+    "donateBody": "Seçtiğiniz herhangi bir tutar, bir kez.",
+    "donateCta": "Bağış yap",
+    "thanks": "Cezakumullahu hayran — Allah sizi hayırla mükafatlandırsın.",
+    "close": "Kapat",
+    "notNow": "Şimdi değil"
+  },
+  "legal": {
+    "updated": "Son güncelleme: {date}",
+    "draft": "Bu metin bir taslaktır ve değişebilir.",
+    "translation": "Bu bir çeviridir; İngilizce metinden ayrıldığı yerde İngilizce metin geçerlidir.",
+    "terms": {
+      "title": "Kullanım koşulları",
+      "description": "The Nahwi'yi, ücretsiz hesabını ve ücretli tam erişimini kullanma koşulları.",
+      "sections": [
+        [
+          "Hizmet",
+          "The Nahwi (thenahwi.com), sarf ve nahvi, medresenin klasik Arapça dil bilgisini çalışmak için bir web sitesidir: herkese açık bir ansiklopedi ile kurslar, metinler ve testler içeren bir çalışma portalı. Site {owner} tarafından işletilir. Bize {email} adresinden ulaşabilirsiniz."
+        ],
+        [
+          "Hesaplar",
+          "Hesap isteğe bağlıdır. E-posta adresinizle ya da Google ile giriş yaparsınız. Bir giriş e-postası hesabınızı açtığı için e-postanıza erişimi güvende tutun. Hesabınızı istediğiniz zaman hesap sayfanızdan silebilirsiniz."
+        ],
+        [
+          "Ücretsiz ve ücretli erişim",
+          "Hesap olmadan ansiklopediyi ve her kitapta üç örnek dersi okuyabilirsiniz. Ücretsiz bir hesap ayrıca Mebadi'nin tamamını açar. Ücretli bir abonelik olan tam erişim her yolu, kitabı ve seviyeyi açar. Bir medrese ya da öğretmen bir sınıf için erişim satın alabilir. Tam erişim aylık ya da yıllık bir aboneliktir ve siz iptal edene kadar yenilenir. 25 Kasım 2026'dan önce satın alınan ömür boyu erişim, site çalıştığı sürece geçerli kalır; geleceği garanti edemeyiz, ama siteyi sürdürmek ve size destek olmak için elimizden geleni yaparız."
+        ],
+        [
+          "Ödeme",
+          "Sipariş sürecimiz çevrimiçi satıcımız Paddle.com tarafından yürütülür. Paddle.com tüm siparişlerimizin Merchant of Record'udur. Paddle tüm müşteri sorularını yanıtlar, iadeleri ve geri ödemeleri yürütür. Fiyatlara KDV ya da satış vergisi dahildir ve ülkeye göre değişebilir. Abonelik, siz iptal edene kadar her dönemin sonunda yenilenir."
+        ],
+        [
+          "İptal ve iade",
+          "Aboneliğinizi istediğiniz zaman iptal edebilirsiniz; erişiminiz ödediğiniz dönemin sonuna kadar sürer ve bir dönemin hiçbir kısmı iade edilmez. Biz kendimiz iade yapmayız: iadeler, ülkenizin yasasının size tanıdığı cayma hakkı dahil, Paddle tarafından iade politikasına göre yapılır (paddle.com/legal/refund-policy). İade politikasına bakın. Ömür boyu erişim bir abonelik değildir: iptal edilecek bir şey yoktur."
+        ],
+        [
+          "İçerik",
+          "Açıklamalar, çeviriler ve testler çalışma için yazılmıştır ve yetkin bir hoca inceleyene kadar taslaktır; her ders incelenip incelenmediğini belirtir. Bir hocanın yerini tutmazlar. Eski metinler telifsiz baskılardan verilir; çevirilerimiz, açıklamalarımız ve testlerimiz The Nahwi'ye aittir. Siteyi kaynak göstererek çalışma ve öğretim için onlardan alıntı yapabilirsiniz, ama kursları bütün olarak kopyalayamaz ya da başka yerde sunamazsınız."
+        ],
+        [
+          "Makul kullanım",
+          "Hesabınızı paylaşmayın, erişim kurallarını aşmaya çalışmayın ve siteye makul olmayan bir yük bindirmeyin. Bunu yapan bir hesabı kapatabiliriz."
+        ],
+        [
+          "Değişiklikler ve erişilebilirlik",
+          "Siteyi olabildiğince iyi çalışır tutarız, ancak her zaman erişilebilir ya da hatasız olacağına söz veremeyiz. Bu koşulları değiştirebiliriz; aboneleri ilgilendiren bir değişikliği önceden e-postayla bildiririz."
+        ],
+        [
+          "Sorumluluk ve hukuk",
+          "Yasanın izin verdiği ölçüde The Nahwi, sitenin kullanımından doğan dolaylı zararlardan sorumlu değildir. Hollanda hukuku uygulanır. Avrupa Birliği'nde yaşıyorsanız kendi ülkenizin tüketici hukuku da sizi korur."
+        ]
+      ]
+    },
+    "refunds": {
+      "title": "İade politikası",
+      "description": "The Nahwi'de iadeler nasıl işler: ödemeleri Paddle yürütür, Paddle'ın iade politikasına göre.",
+      "sections": [
+        [
+          "Paddle'ın iade politikası",
+          "Sipariş sürecimiz, tüm siparişlerimizin Merchant of Record'u olan çevrimiçi satıcımız Paddle.com tarafından yürütülür. İadeler Paddle tarafından, paddle.com/legal/refund-policy adresindeki iade politikasına göre yapılır. Bunun dışında kendimiz iade sunmayız."
+        ],
+        [
+          "Yasal haklarınız",
+          "Ülkenizin yasası, Avrupa Birliği ve Birleşik Krallık'ta olduğu gibi, tüketicilere dijital içerik ya da hizmet alımından cayma hakkı tanıyorsa, bu hak Paddle'ın iade politikasında anlatıldığı şekilde geçerlidir."
+        ],
+        [
+          "İptal",
+          "Bir aboneliği istediğiniz zaman, Paddle'dan gelen makbuzdaki bağlantıdan ya da hesap sayfanızdan iptal edebilirsiniz. Erişiminiz ödediğiniz dönemin sonuna kadar sürer; başlamış bir dönemin kalanı iade edilmez. 25 Kasım 2026'dan önceki ömür boyu satın alma, Paddle tarafından iade politikasına göre iade edilir; tam erişim o zaman sona erer."
+        ],
+        [
+          "Nasıl başvurulur",
+          "paddle.net üzerinden Paddle'a başvurun ya da Paddle'dan gelen makbuzu yanıtlayın. {email} adresine de yazabilirsiniz."
+        ]
+      ]
+    }
+  },
+  "offline": {
+    "title": "Çevrimdışısınız",
+    "description": "Bu sayfa henüz bu cihaza kaydedilmedi.",
+    "body": "Bu sayfa henüz bu cihaza kaydedilmedi. The Nahwi'yi bir kez çevrimiçi açtığınızda kurs, bütün terimler ve alıştırmalar kaydedilir; böylece okumaya devam edebilirsiniz.",
+    "back": "Derse dön"
+  },
+  "diagram": {
+    "scWord": "Arapça kelime",
+    "scSarf": "Sarf",
+    "scSarfSub": "yapısı: kelime tek başına",
+    "scNahw": "Nahiv",
+    "scNahwSub": "sonu: kelime cümlede",
+    "kWord": "Kelime",
+    "kNoun": "İsim",
+    "kNounSub": "bir anlam, zamansız",
+    "kVerb": "Fiil",
+    "kVerbSub": "bir anlam ve bir zaman",
+    "kParticle": "Harf",
+    "kParticleSub": "anlamı başka kelimeyle",
+    "kSpeech": "Kelam",
+    "kSpeechSub": "tam bir anlam veren kelimeler",
+    "mzScale": "Mizan",
+    "mzLam": "lam",
+    "mzLamSub": "3. asli harf",
+    "mzAyn": "ayn",
+    "mzAynSub": "2. asli harf",
+    "mzFa": "fa",
+    "mzFaSub": "1. asli harf",
+    "mzBare": "Mücerred",
+    "mzBareSub": "yalnız asli harfler: nasara",
+    "mzAdded": "Mezid",
+    "mzAddedSub": "harf eklenmiş: ekreme",
+    "fVerb": "Fiil",
+    "fPast": "Mazi",
+    "fPastSub": "nasara, yardım etti",
+    "fPresent": "Muzari",
+    "fPresentSub": "yensuru, yardım eder",
+    "fCommand": "Emir",
+    "fCommandSub": "unsur, yardım et!",
+    "shRoot": "Asli harfler",
+    "shSound": "Sahih",
+    "shSoundSub": "illet harfi yok: ketebe",
+    "shWeak": "Mu'tel",
+    "shWeakSub": "vav, ya ya da elif: kale, rema",
+    "msMasdar": "Masdar",
+    "msMasdarSub": "işin kendisi: nasr",
+    "msFail": "İsm-i fail",
+    "msFailSub": "işi yapan: nasır",
+    "msMaful": "İsm-i mef'ul",
+    "msMafulSub": "işe uğrayan: mansur",
+    "irEnd": "Kelimenin sonu",
+    "irChanges": "Mu'reb",
+    "irChangesSub": "sonu değişir",
+    "irFixed": "Mebni",
+    "irFixedSub": "sonu değişmez",
+    "irRaf": "Ref'",
+    "irRafSub": "zamme",
+    "irNasb": "Nasb",
+    "irNasbSub": "fetha",
+    "irJarr": "Hafz",
+    "irJarrSub": "kesre, isimlerde",
+    "irJazm": "Cezm",
+    "irJazmSub": "sükun, fiillerde",
+    "jSentence": "Cümle",
+    "jNominal": "İsmiyye",
+    "jNominalSub": "isimle başlar",
+    "jVerbal": "Fi'liyye",
+    "jVerbalSub": "fiille başlar",
+    "jMubtada": "Mübteda",
+    "jKhabar": "Haber",
+    "jVerb": "Fiil",
+    "jDoer": "Fail",
+    "jObject": "Mef'ul",
+    "cap": {
+      "sciences.all": "Sarf kelimeyi tek başına, nahiv kelimeyi cümle içinde inceler.",
+      "sciences.sarf": "Sarf: kelimenin tek başına yapısı, kökü ve vezni.",
+      "sciences.nahw": "Nahiv: kelime cümlede, görevi ve sonu.",
+      "kalima.all": "Her kelime ya isim, ya fiil ya da harftir; tam bir anlam verecek şekilde birleşen kelimeler kelamdır.",
+      "kalima.kalima": "Kelime üç çeşide ayrılır; hiçbir şey bunların dışında kalmaz.",
+      "kalima.kalam": "Kelam: anlam tamamlanacak şekilde birleşen kelimeler.",
+      "kalima.ism": "İsim: zamansız bir anlam.",
+      "kalima.fil": "Fiil: bir zamanla birlikte bir anlam.",
+      "kalima.harf": "Harf: anlamı ancak başka bir kelimeyle ortaya çıkar.",
+      "mizan.all": "Her kelime fe'ale ile tartılır: fa, ayn ve lam onun üç asli harfinin yerini tutar.",
+      "mizan.mizan": "Fe'ale mizanı: fa, ayn ve lam birinci, ikinci ve üçüncü asli harfin yerini tutar.",
+      "mizan.mujarrad": "Mücerred: yalnız asli harfler.",
+      "mizan.mazid": "Mezid: köke harfler eklenmiş.",
+      "fil.all": "Fiilin üç sigası vardır: mazi, muzari ve emir.",
+      "fil.madi": "Fiil-i mazi: konuşma vaktinden önceki bir iş.",
+      "fil.mudari": "Fiil-i muzari: şimdiki ya da gelecek bir iş.",
+      "fil.amr": "Emir: muhatabın fiil-i muzarisinden yapılır.",
+      "sahih.all": "Bir kök sahihtir; vav, ya ya da elif bulunursa mu'teldir.",
+      "sahih.sahih": "Sahih fiil: asli harfleri arasında illet harfi yoktur.",
+      "sahih.mutall": "Mu'tel fiil: asli harfleri arasında vav, ya ya da elif vardır.",
+      "mushtaqq.all": "Tek bir kökten: iş, işi yapan ve işe uğrayan.",
+      "mushtaqq.masdar": "Masdar işin kendisini adlandırır.",
+      "mushtaqq.fail": "İsm-i fail işi yapanı adlandırır.",
+      "mushtaqq.maful": "İsm-i mef'ul işe uğrayanı adlandırır.",
+      "irab.all": "Kelimenin sonu ya değişir (mu'reb) ya da değişmez (mebni); değişmeler ref', nasb, hafz ve cezmdir.",
+      "irab.irab": "İ'rab: son, amile göre değişir.",
+      "irab.bina": "Bina: kelimeye hangi amil gelirse gelsin son değişmez.",
+      "irab.anwa": "İ'rabın dört çeşidi ve asıl alametleri.",
+      "jumla.all": "Cümle ya bir isimle ya da bir fiille başlar.",
+      "jumla.ismiyya": "Cümle-i ismiyye: bir mübteda ve haberi.",
+      "jumla.mubtada": "Mübteda: cümlenin kendisiyle başladığı ve hakkında konuştuğu isim.",
+      "jumla.khabar": "Haber: mübteda hakkında söylenen.",
+      "jumla.filiyya": "Cümle-i fi'liyye: bir fiil, faili ve, alıyorsa, bir mef'ul.",
+      "jumla.fail": "Fail: fiilinden sonra gelen, işi yapan.",
+      "jumla.maful": "Mef'ulün bih: işin üzerine düştüğü."
+    }
+  },
+  "gloss": {
+    "label": "“{word}” açıklaması",
+    "open": "Terime git",
+    "close": "Kapat"
+  },
+  "lock": {
+    "title": "Kilitli",
+    "termBody": "Terimler sırayla açılır: bir terimin testinde en az iki yıldız (10 üzerinden 6) alınca sonraki açılır. Şu an bulunduğunuz yer: {name}.",
+    "linkBody": "Terimler sırayla açılır. Önce {name} testinde en az iki yıldız (10 üzerinden 6) alın.",
+    "practiceBody": "Bu alıştırma, bölümün bütün terimlerini geçtiğinizde açılır. Şu an bulunduğunuz yer: {name}.",
+    "commentary": "Bu terim şerhlerden gelir; ilk okumadan sonra gelir.",
+    "sources": "Geçtiği yer: {list}.",
+    "cta": "{name} terimine git"
+  },
+  "quiz": {
+    "title": "Kendinizi sınayın",
+    "intro": "{n} soru. 10 üzerinden 6 veya daha fazlasıyla (iki yıldız) sonraki terim açılır.",
+    "score": "10 üzerinden {score}",
+    "passed": "Geçtiniz: sonraki terim açıldı.",
+    "failed": "Henüz değil: en az 10 üzerinden 6 gerekir. Terimi yeniden okuyun ve bir daha deneyin.",
+    "again": "Tekrar dene",
+    "best": "En iyi puan: {score}",
+    "starsLabel": "3 yıldızdan {n}",
+    "hearts": "5 kalpten {n} tane.",
+    "heartsNext": "Her sınav bir kalp alır; sonraki {time} sonra geri gelir.",
+    "heartsFull": "Her sınav bir kalp alır; her iki saatte bir kalp geri gelir.",
+    "heartsEmpty": "Kalpleriniz bitti. Biraz ara verin ve dersi bir kez daha okuyun: {time} sonra yeni bir kalp gelir.",
+    "refill": "Bütün kalpleri doldur (0,99 €)",
+    "refilling": "Kalpleriniz dolduruluyor…",
+    "reread": "Bu sefer geçemediniz. Dersi baştan yeniden okuyun, sonra sınava bir daha girmek için aşağıdaki kutuyu işaretleyin.",
+    "rereadLabel": "Dersin tamamını yeniden okudum",
+    "examTitle": "Sınav",
+    "examFailed": "Henüz değil: 25 sorudan 20'sini doğru cevaplamanız gerekir. Dersleri tekrar edin ve yeniden deneyin.",
+    "start": "Sınavı başlat",
+    "startExam": "Sınavı başlat",
+    "heartsTitle": "Kalpler",
+    "heartsHelp": "Beş kalbiniz var. Bir testi ya da bir sınavı başlatmak bir kalp alır; her iki saatte bir kalp geri gelir, beşe kadar. Kalpler, dersleri birer birer almanız ve her dersin bir sonrakinden önce oturması içindir. Tekrar (tikrar) kalp almaz.",
+    "heartsHelpRefill": "Kalpleriniz bitti ve beklemek istemiyor musunuz? Beşini birden doldurabilirsiniz.",
+    "refillsCount": "Ücretsiz doldurma: {n}",
+    "freeRefill": "Ücretsiz doldurma kullan ({n} kaldı)",
+    "earned": "Art arda beş derste üç yıldız: bütün kalplerinizi dolduran ücretsiz bir hak kazandınız.",
+    "heartsHelpFree": "Her hesap bir ücretsiz doldurmayla başlar ve art arda beş derste üç yıldızla bir tane daha kazanır."
+  },
+  "book": {
+    "title": "Kitap",
+    "lead": "Sarf ve nahiv el kitaplarıyla ilgili her şey: nereden geldikleri, onları yazan, şerh eden ve okutan kişiler, şerhleri, haşiyeleri, baskıları ve çevirileri.",
+    "articles": "Makaleler",
+    "scholars": "Alimler",
+    "tree": "Metinden haşiyeye",
+    "treeLead": "El kitabı, üzerine yazılan şerhler ve o şerhlere yazılan haşiyeler.",
+    "people": "Bu makaledeki kişiler",
+    "sources": "Kaynaklar",
+    "born": "doğ.",
+    "died": "ö.",
+    "life": "Hayatı",
+    "works": "Eserleri",
+    "on": "üzerine",
+    "onHisWork": "Eseri üzerine yazılanlar",
+    "reception": "Kabulü",
+    "uncertain": "kesin değil",
+    "preparing": "Bu bölüm hazırlanıyor.",
+    "kinds": {
+      "matn": "metin",
+      "sharh": "şerh",
+      "hashiya": "haşiye",
+      "taliq": "ta'likat",
+      "nazm": "nazım",
+      "translation": "tercüme",
+      "edition": "baskı",
+      "other": "eser",
+      "iraab": "i'rab",
+      "mukhtasar": "muhtasar",
+      "modern": "modern kitap"
+    },
+    "roles": {
+      "author": "Müellif",
+      "forerunner": "Öncüler",
+      "translator": "Mütercimler",
+      "commentator": "Şarihler",
+      "glossator": "Haşiye yazarları",
+      "versifier": "Nazımlar",
+      "teacher": "Müderrisler",
+      "editor": "Muhakkikler",
+      "modern-scholar": "Modern araştırmalar",
+      "voice": "Dil bilgisi üzerine sesler"
+    },
+    "booksLabel": "Kitaplar",
+    "books": {},
+    "circa": "y.",
+    "or": "veya",
+    "bce": "MÖ {y}",
+    "ceYear": "MS {y}"
+  },
+  "catalogue": {
+    "title": "Eserler kataloğu",
+    "lead": "Bu kitap üzerine yazılmış bilinen her eser: şerhler, haşiyeler ve haşiyelere haşiyeler, notlar, manzumeler, muhtasarlar, çeviriler, baskılar ve modern kitaplar; nereden geldikleri, basılıp basılmadıkları ve kaynaklarıyla. Çalışma sürüyor: eksik olanı bize bildirin.",
+    "search": "Ara",
+    "kind": "Tür",
+    "region": "Bölge",
+    "language": "Dil",
+    "status": "Durum",
+    "all": "Hepsi",
+    "count": "{n} eser",
+    "countOne": "1 eser",
+    "more": "Ayrıntılar ve kaynaklar",
+    "editions": "Baskılar",
+    "unplaced": "Henüz katalogda olmayan eserler üzerine yazılanlar",
+    "link": "Katalogdaki bütün eserler",
+    "statuses": {
+      "printed": "basılı",
+      "manuscript": "yazma",
+      "lost": "kayıp",
+      "unknown": "durumu bilinmiyor"
+    },
+    "regions": {
+      "ottoman": "Osmanlı coğrafyası",
+      "kurdistan": "Kürdistan",
+      "caucasus-volga": "Kafkasya ve İdil",
+      "central-asia": "Orta Asya",
+      "indian-subcontinent": "Hint altkıtası",
+      "levant-iraq": "Şam ve Irak",
+      "west-africa": "Batı Afrika",
+      "sudan-east-africa": "Sudan ve Doğu Afrika",
+      "yemen-hijaz": "Yemen ve Hicaz",
+      "malay-indonesia": "Malay-Endonezya dünyası",
+      "iran": "İran",
+      "egypt": "Mısır",
+      "maghrib": "Mağrib",
+      "west": "Avrupa ve Amerika",
+      "other": "Diğer"
+    }
+  },
+  "track": {
+    "nav": "2. seviye",
+    "title": "Mebadi'den sonraki seviyeler",
+    "lead": "Mebadi'den sonra medrese yolunuzun kitaplarını ders ders okuyun: metin, örnekler ve şemalarla açıklamamız ve kısa bir test.",
+    "lockedNote": "2. seviye, ilk okumanın bütün terimlerini geçtiğinizde açılır.",
+    "trackName": "{track}. seviye",
+    "lessons": "{n} ders",
+    "lessonOf": "Ders {n} / {m}",
+    "matnRange": "Metin {range}",
+    "theMatn": "Metin",
+    "theCommentary": "Şerh",
+    "readFull": "Şerhin tamamını oku",
+    "quizIntro": "Şerhin açıkladıkları üzerine {n} soru. 10 üzerinden 6 veya daha fazlasıyla (iki yıldız) sonraki ders açılır.",
+    "passed": "Geçtiniz: sonraki ders açıldı.",
+    "failed": "Henüz değil: en az 10 üzerinden 6 gerekir. Şerhi yeniden okuyun ve bir daha deneyin.",
+    "next": "Sıradaki ders:",
+    "trackDone": "Bu, {track}. seviyenin son dersiydi.",
+    "back": "{level}. seviyeye dön",
+    "lockBase": "2. seviye, ilk okumanın tamamından sonra açılır. Şu an bulunduğunuz yer: {name}.",
+    "lockLesson": "Dersler sırayla açılır. Önce {name} dersinin testinde en az iki yıldız (10 üzerinden 6) alın.",
+    "lockPage": "Dersler sırayla açılır: bir dersin testinde en az iki yıldız (10 üzerinden 6) alınca sonraki açılır.",
+    "readAsTrack": "Ders ders çalış: {track}. seviye",
+    "translationNote": "Çeviri şimdilik İngilizce.",
+    "blurbs": {},
+    "topics": {},
+    "lockLevel": "{level}. seviye, {prev}. seviyenin bütün derslerini geçtiğinizde açılır.",
+    "levels": {
+      "1": {
+        "title": "1. seviye: Mebadi",
+        "lead": "Sarf ve nahvin temelleri, terim terim: her terim Arapçası, sade bir açıklaması ve kısa bir testiyle."
+      }
+    },
+    "theText": "Metin",
+    "lessonN": "Ders {n}",
+    "lockBook": "Bu kitap, {book} kitabının bütün derslerini geçtiğinizde açılır."
+  },
+  "glossaryPage": {
+    "title": "Terimler",
+    "description": "Çalışma yolunun terimleri, A'dan Z'ye, Arapçası ve kısa bir tanımıyla.",
+    "lead": "İlk okumanın terimleri, A'dan Z'ye, Arapçası ve kısa bir tanımıyla. Dersi için bir terimi açın. Sarf ve nahvin bütün terimleri, ücretsiz okunmak üzere sözlükte yer alır.",
+    "filter": "Terimlerde ara",
+    "none": "Eşleşen terim yok.",
+    "showLabel": "Göster",
+    "showAll": "Tümü",
+    "showOpen": "Açılanlar",
+    "showLocked": "Henüz açılmayanlar"
+  },
+  "about": {
+    "title": "The Nahwi hakkında",
+    "description": "The Nahwi nedir, çalışma yolları nasıl işler, onu kim inceler ve arkasında kim vardır.",
+    "intro": "The Nahwi, sarf ve nahvi, medresenin Arapça dil bilgisini kendi kitaplarından öğrenmek ve bu kitaplar, alimleri ve onları sıraya koyan müfredatlar hakkında okumak için bir yerdir.",
+    "teacherTitle": "Hoca",
+    "teacherRole": "Açıklamaları inceler",
+    "teacherBody": "Arapça dil bilgisinde yetkin bir hoca, The Nahwi'nin öğrettiklerini inceleyecek. Bir hoca inceleyene kadar sitedeki her şey, açıklamalar, testler ve çeviriler, taslaktır.",
+    "teacherBio": "Daha sonra duyurulacak.",
+    "teachersTitle": "Hocalarından bazıları",
+    "teacherSource": "Madrasah Hanafiya'nın hocalar sayfasından",
+    "ownerTitle": "Site sahibi",
+    "ownerRole": "The Nahwi'yi kurar ve destekler",
+    "ownerBody": "The Nahwi'yi, projenin sahibi olan ve Hanefi mezhebini tahsil eden {owner} hazırlıyor.",
+    "partsTitle": "İki bölüm",
+    "parts": [
+      "Ansiklopedi: sarf ve nahvin el kitapları ve yüzyıllara göre bir eserler kütüphanesi, onları yazan ve okutan alimler, medrese müfredatları ve dil ilimlerinden havadis.",
+      "Çalışma portalı: seviye seviye okunan ve hepsi Mebadi ile başlayan üç medrese yolu. Hint yolu Ders-i Nizami'nin Farsça ilk kitaplarıyla, Osmanlı yolu Emsile ve Birgivi ile, Kuzey Afrika yolu Acurrumiyye ile devam eder. Her ders kısa bir testle biter; onu geçtiğinizde sonraki ders açılır."
+    ],
+    "nameTitle": "Neden bu isim",
+    "nameBody": "en-Nahvi (النَّحْوِيّ) “nahivci” demektir: tabakat yazarlarının, {sibawayh}'ten {ibnHisham}'a kadar nahiv alimlerine verdiği unvan; nahivcilerin klasik biyografi sözlüklerinde, Tabakatü'n-nahviyyin'de olduğu gibi.",
+    "textTitle": "Önce metin",
+    "textBody": "Dersler kitapların kendi sırasını izler; metinler, her sayfada adı verilen telifsiz baskılardan aslıyla, yanlarında çevirilerimizle verilir. İlerlemeniz yalnızca bu cihazda tutulur.",
+    "contact": "Soru, düzeltme ya da öneriniz mi var? İletişim formunu kullanın.",
+    "parentTitle": "The Nahwi ve The Mantiqi",
+    "parentBody": "The Nahwi, medresenin mantığını aynı şekilde öğreten {mantiqi} sitesinin bir parçasıdır: üç medrese yolunun kitapları ders ders, ücretsiz bir ansiklopedinin yanında. Medresede ikisi yan yana okunurdu; bu yüzden iki site adreslerini, hesaplarını ve havadisini paylaşır: The Mantiqi her hafta nahiv ve sarf havadisini toplar ve ikisine de {email} adresinden yazabilirsiniz."
+  },
+  "kb": {
+    "nav": {
+      "books": "Kütüphane",
+      "scholars": "Alimler",
+      "curricula": "Müfredatlar",
+      "concepts": "Terimler",
+      "news": "Havadis",
+      "study": "Çalışma portalı",
+      "studyShort": "Çalış",
+      "home": "Ana sayfa",
+      "levels": "Seviyeler",
+      "text": "Metin",
+      "practice": "Alıştırma",
+      "glossary": "Terimler",
+      "encyclopedia": "Ansiklopedi",
+      "encyclopediaShort": "Ansiklopedi",
+      "about": "Hakkında",
+      "aboutSite": "The Nahwi",
+      "contact": "İletişim",
+      "privacy": "Gizlilik",
+      "updates": "Yenilikler",
+      "nahw": "Nahiv ve sarf hakkında"
+    },
+    "draft": "Taslak · yetkin bir hocanın incelemesini bekliyor",
+    "home": {
+      "kicker": "Sarf ve nahvin bilgi bankası",
+      "title": "<em>Sarf ve nahvin</em> ansiklopedisi",
+      "lead": "İslami ilim geleneğinde klasik Arapça dil bilgisi: kitapları ve şerhleri, alimleri ve müfredatları, yeni yayımlananlar.",
+      "search": "Bir kitap, alim, makale veya terim ara",
+      "searchButton": "Ara",
+      "startHere": "Buradan başla",
+      "booksKicker": "I · Kitaplar",
+      "booksTitle": "El kitapları ve şerhleri",
+      "allWorks": "Katalogdaki bütün eserler",
+      "curriculaKicker": "II · Müfredatlar",
+      "curriculaTitle": "Ne okundu, nerede?",
+      "newsKicker": "III · Havadis",
+      "newsTitle": "Nahiv ve sarf havadisi",
+      "allNews": "Bütün havadis",
+      "scholarsKicker": "III · Alimler",
+      "scholarsTitle": "Yüzyıllar boyunca alimler",
+      "allScholars": "Bütün alimler",
+      "studyKicker": "Çalışma portalı",
+      "studyTitle": "Kitapları kendiniz, ders ders, üç medrese yolunda okuyun: Hindistan'da Farsça ilk kitaplar ve Kafiye, Osmanlı topraklarında Emsile ve Birgivi, Arap dünyasında Acurrumiyye ve Elfiyye.",
+      "studyCta": "Çalışma portalına git",
+      "works": "{n} eser",
+      "worksOne": "1 eser",
+      "latestKicker": "Son havadis",
+      "handbooksKicker": "El kitapları",
+      "handbooksLead": "Medreselerin okuduğu kitaplar, Kafiye'den Katrü'n-neda'ya, her biri şerhleri, haşiyeleri ve kataloğuyla.",
+      "mastersKicker": "Üstatlar",
+      "mastersLead": "Sibeveyh'ten Ezher'e: kitapları okunan nahivciler.",
+      "library": "Bütün kütüphane",
+      "newsLead": "Her hafta The Mantiqi tarafından toplanır."
+    },
+    "curricula": {
+      "title": "Müfredatlar",
+      "lead": "Güney Asya, Osmanlı toprakları, Ezher ve Mağrib medreselerinde hangi dil bilgisi kitaplarının hangi sırayla okunduğu."
+    },
+    "books": {
+      "title": "Kütüphane",
+      "lead": "Sibeveyh'ten modern medreseye nahiv ve sarf eserleri: medreselerin okuduğu altı el kitabı, şerhleri ve haşiyeleriyle, bir de çevrelerindeki kitaplar. Başlığa, yazara ya da konuya göre arayın.",
+      "kicker": "Kitap {n}",
+      "by": "{author} · ö. {died}",
+      "overview": "Genel bakış",
+      "articles": "Makaleler",
+      "tree": "Şerhler",
+      "catalogue": "Katalog",
+      "scholars": "Alimler",
+      "readText": "Metni oku",
+      "study": "{n}. seviyede çalış",
+      "treeLead": "Medreselerde en çok okunan şerhler ve üzerlerine yazılan haşiyeler.",
+      "catalogueLead": "Bu kitap üzerine yazılmış, izini sürebildiğimiz her şey, baskıları ve kaynaklarıyla.",
+      "openCatalogue": "Kataloğu aç",
+      "counts": {
+        "sharh": "Şerhler",
+        "hashiya": "Haşiyeler",
+        "other": "Notlar, manzumeler ve diğer eserler",
+        "translation": "Çeviriler",
+        "modern": "Modern çalışmalar"
+      },
+      "fullTitle": "Tam adı",
+      "author": "Yazar",
+      "died": "Vefatı",
+      "allScholars": "Kitabın bütün alimleri",
+      "more": "{n} daha"
+    },
+    "article": {
+      "of": "{section} · {m} makaleden {n}.",
+      "inThis": "Bu makalede",
+      "people": "Geçen kişiler",
+      "sources": "Kaynaklar ({n})",
+      "next": "Sonraki makale",
+      "prev": "Önceki makale",
+      "related": "Devamını oku",
+      "studyPath": "Bu müfredatı okuyun: çalışma portalında {path}"
+    },
+    "scholars": {
+      "title": "Alimler",
+      "lead": "Nahiv ve sarfın alimleri, şarihleri ve hocaları, vefat ettikleri yüzyıla göre.",
+      "filter": "Alimlerde ara",
+      "none": "Eşleşen alim yok.",
+      "century": "{n} yüzyıl",
+      "centuryBce": "MÖ {n} yüzyıl",
+      "undated": "Tarihi bilinmiyor",
+      "count": "{n} alim",
+      "period": "Dönem",
+      "role": "Rol",
+      "book": "El kitabı",
+      "all": "Hepsi",
+      "shown": "{m} alimden {n}",
+      "periods": {
+        "pre": "İslam'dan önce",
+        "early": "Erken dönem (1200'e kadar)",
+        "middle": "Klasik sonrası (1200–1500)",
+        "later": "Geç medrese (1500–1900)",
+        "modern": "Modern (1900'den beri)"
+      },
+      "allPeriods": "Dönem",
+      "allRoles": "Rol",
+      "allBooks": "Kitap",
+      "clear": "Filtreleri temizle",
+      "roleGroups": {
+        "author": "El kitaplarının yazarları",
+        "commentary": "Şarihler ve muhaşşiler",
+        "translator": "Mütercimler ve öncüler",
+        "teacher": "Hocalar",
+        "voice": "Dil bilgisi üzerine sesler",
+        "modern": "Modern araştırma"
+      }
+    },
+    "scholar": {
+      "life": "Hayatı",
+      "works": "Eserleri",
+      "uncertain": "Belirsiz veya tartışmalı",
+      "reception": "Etkisi",
+      "places": "Yerler",
+      "writtenOn": "Eserleri üzerine yazılanlar",
+      "books": "Kitaplarda",
+      "sources": "Kaynaklar"
+    },
+    "news": {
+      "title": "Nahiv ve sarf havadisi",
+      "lead": "Nahiv ve sarf üzerine yeni çalışmalar, tahkikler, çeviriler ve konuşmalar; The Mantiqi tarafından her hafta Sünni İslami kurumlardan toplanır, her biri kaynağının bağlantısıyla.",
+      "rss": "RSS beslemesi",
+      "kinds": {
+        "edition": "Tahkik",
+        "translation": "Çeviri",
+        "study": "Çalışma",
+        "digital": "Dijital",
+        "event": "Etkinlik",
+        "media": "Podcast veya video"
+      },
+      "open": "Aç",
+      "feedTitle": "The Nahwi — nahiv, sarf ve dil ilimleri havadisi",
+      "feedDescription": "İslami ilim geleneğinde klasik Arapça dil bilgisi olan nahiv ve sarf ile belagat ve komşu ilimler üzerine yeni baskılar, çeviriler, çalışmalar ve etkinlikler.",
+      "filter": "Şu konudaki havadis",
+      "fields": {
+        "all": "Hepsi",
+        "nahw": "Nahiv",
+        "sarf": "Sarf",
+        "balagha": "Belagat",
+        "lugha": "Lügat",
+        "mantiq": "Mantık",
+        "usul": "Fıkıh usulü",
+        "tafsir": "Tefsir"
+      },
+      "newDot": "yeni",
+      "sections": {
+        "academic": "Akademik",
+        "publications": "Yayınlar",
+        "talks": "Konuşmalar ve medya"
+      },
+      "sectionLeads": {
+        "academic": "Çalışmalar, makaleler, tezler ve değerlendirmeler",
+        "publications": "Yeni tahkikler, çeviriler ve dijitalleştirilmiş metinler",
+        "talks": "Dersler, konferanslar, podcastler ve videolar"
+      },
+      "allSections": "Hepsi",
+      "sectionsLabel": "Havadis bölümleri",
+      "readAt": "{source} sitesinde oku",
+      "more": "Daha fazla",
+      "originalTitle": "Asıl başlık",
+      "fromParent": "Havadis, The Nahwi'nin ana sitesi {mantiqi} tarafından toplanır ve burada orada olduğu gibi gösterilir.",
+      "allAtParent": "The Mantiqi'de nahiv ve sarf üzerine bütün havadis",
+      "parentRss": "RSS beslemesi (The Mantiqi)",
+      "loading": "The Mantiqi'den son havadis yükleniyor…",
+      "none": "Şu anda burada gösterilecek nahiv ve sarf havadisi yok: bütün havadise The Mantiqi'den bakın."
+    },
+    "books_meta": {
+      "kafiya": "İbnü'l-Hacib'in özlü nahiv kitabı; Hint ve Osmanlı medreselerinde Molla Cami'nin şerhiyle, ileri talebeler tarafından Radiyyüddin'in şerhiyle okunur.",
+      "shafiya": "İbnü'l-Hacib'in sarf el kitabı; her yolda sarfın zirvesi, Radiyyüddin el-Esterabadi'nin şerhiyle okunur.",
+      "izzi": "Zencani'nin fiil vezinleri ve ma'naları üzerine kısa kitabı: Osmanlı medresesinin ve Ezher'in ortak sarf metni.",
+      "alfiyya": "İbn Malik'in nahiv ve sarf üzerine bin beyti; Mağrib'den Endonezya'ya ezberlenir ve İbn Akil'in şerhiyle okunur.",
+      "ajurrumiyya": "İ'rabı ortaya koyan birkaç sayfa: Mağrib'den Cava'nın pesantrenlerine kadar en çok ezberlenen ilk nahiv kitabı.",
+      "qatr": "İbn Hişam'ın orta seviye nahiv kitabı; Ezher'de Acurrumiyye'den sonraki adım, ondan uzun, Elfiyye'den kısa."
+    },
+    "library": {
+      "title": "Kütüphane",
+      "lead": "Altı el kitabının ötesinde: Sibeveyh'ten modern medrese ders kitaplarına, Arapça ve Farsça büyük nahiv ve sarf eserleri; el kitapları, şerhler, manzumeler ve risaleler, yüzyıllara göre.",
+      "handbooks": "Altı el kitabı",
+      "handbooksLead": "Medreselerin okuduğu kitaplar, her biri makaleleri, şerhleri ve kataloğuyla.",
+      "count": "{n} kitap",
+      "filter": "Göster",
+      "all": "Hepsi",
+      "kinds": {
+        "handbook": "El kitabı",
+        "commentary": "Şerh",
+        "gloss": "Haşiye",
+        "treatise": "Risale",
+        "encyclopedia": "Daha büyük bir eserin parçası",
+        "verse": "Manzume",
+        "refutation": "Eleştiri",
+        "modern": "Modern ders kitabı",
+        "translation": "Çeviri"
+      },
+      "languages": {
+        "ar": "Arapça",
+        "fa": "Farsça",
+        "ot": "Osmanlı Türkçesi",
+        "ur": "Urduca",
+        "other": "Diğer"
+      },
+      "written": "Yazılışı",
+      "language": "Dil",
+      "on": "Üzerine yazıldığı eser",
+      "editions": "Baskılar ve çeviriler",
+      "writtenOn": "Üzerine yazılanlar",
+      "byAuthor": "{author} müellifinin diğer eserleri",
+      "inLibrary": "Kütüphanede",
+      "search": "Kütüphanede ara",
+      "kind": "Tür",
+      "onHandbook": "Bir el kitabı üzerine",
+      "shown": "{m} kitaptan {n}",
+      "none": "Eşleşen kitap yok.",
+      "handbookOfSix": "Altı el kitabından biri"
+    },
+    "glossary": {
+      "title": "Sarf ve nahiv terimleri sözlüğü",
+      "lead": "Medresenin dil bilgisi olan sarf ve nahvin terimleri: her biri Arapçası, sade bir tanımı ve kısa bir açıklamasıyla, ücretsiz okunur.",
+      "description": "Klasik Arapça dil bilgisi olan sarf ve nahiv için ücretsiz bir terimler sözlüğü: her terim harekeli Arapçası, çeviriyazısı, tanımı ve açıklamasıyla.",
+      "count": "{n} terim",
+      "filter": "Terim ara",
+      "none": "Eşleşen terim yok.",
+      "shown": "{m} terimden {n}",
+      "allCategories": "Konu",
+      "clear": "Filtreleri temizle",
+      "categories": {
+        "foundations": "Esaslar",
+        "word": "Kelimenin çeşitleri",
+        "root": "Kök ve vezin",
+        "verb": "Fiil",
+        "sound-weak": "Sahih ve mu'tel",
+        "derived": "Türemiş isimler",
+        "irab": "İ'rab ve bina",
+        "sentence": "Cümle",
+        "governors": "Amiller (avamil)",
+        "followers": "Tabiler (tevabi')",
+        "accusatives": "Mansub kelimeler"
+      },
+      "pageTitle": "{name} ({transliteration}): Arapça dil bilgisinde anlamı",
+      "pageTitleShort": "{name}: Arapça dil bilgisinde anlamı",
+      "explanation": "Açıklama",
+      "examples": "Örnekler",
+      "related": "İlgili terimler",
+      "lesson": "Adım adım öğrenin",
+      "lessonText": "Bu terim çalışma yolunda bir derstir; daha geniş bir açıklama, bir şema ve bir testle.",
+      "lessonLink": "Dersi aç",
+      "books": "Ele alındığı kitaplar",
+      "topic": "Konu",
+      "all": "Bütün terimler"
+    },
+    "nahw": {
+      "title": "Nahiv ve sarf hakkında",
+      "lead": "Nahiv ve sarf nedir, sarf neden önce gelir ve medrese kitaplarını nasıl okur."
+    }
+  },
+  "preview": {
+    "button": "Bir derse göz at",
+    "eyebrow": "Önizleme",
+    "note": "{level}. seviyenin {n}. dersine bir bakış. {level}. seviye, {prev}. seviyeden sonra açılır; o zamana kadar bu dersi okuyabilirsiniz, ama testi ve devamı kapalı kalır.",
+    "start": "İlk terimle başla",
+    "levels": "Bütün seviyeler",
+    "close": "Kapat",
+    "dialogLocked": "{prev}. seviyeden sonra açılır.",
+    "dialogSoon": "Bu seviye hazırlanıyor.",
+    "lessons": "{n} ders"
+  },
+  "seo": {
+    "/": {
+      "title": "The Nahwi – nahiv ve sarf, klasik Arapça dil bilgisi öğrenin",
+      "description": "Nahiv ve sarfı (Arapça cümle ve kelime bilgisi) medrese yollarında çevrimiçi öğrenin: Mebadi ile ücretsiz başlayın, sonra klasik kitaplar; alimler, kütüphane, havadis."
+    },
+    "/study/": {
+      "title": "Çevrimiçi nahiv ve sarf: medrese dil bilgisi kursları",
+      "description": "Klasik Arapça dil bilgisi olan nahiv ve sarf üzerine çevrimiçi kurslar: Hint, Osmanlı ve Kuzey Afrika medrese yolları, testlerle ders ders. Ücretsiz başlayın."
+    },
+    "/nahw/": {
+      "title": "Nahiv ve sarf nedir? Arapça dil bilgisinin anlatımı",
+      "description": "Nahiv (cümle bilgisi) ve sarf (kelime bilgisi) nedir, medrese sarfı neden önce öğretir ve klasik dil bilgisi kitapları nasıl okunur."
+    },
+    "/curricula/": {
+      "title": "Medresede nahiv ve sarf: dil bilgisi müfredatları",
+      "description": "Medreselerin hangi dil bilgisi kitaplarını hangi sırayla okuduğu: Ders-i Nizami, Osmanlı medresesi, Ezher ve Mağrib."
+    },
+    "/books/": {
+      "title": "Nahiv ve sarf kütüphanesi: klasik Arapça dil bilgisi kitapları",
+      "description": "Aranabilir bir nahiv ve sarf kütüphanesi: Acurrumiyye'den Elfiyye'ye ve Kafiye'ye altı medrese el kitabı, şerhleriyle, yüzyıllara göre."
+    },
+    "/scholars/": {
+      "title": "Nahiv ve sarf alimleri: Arap dili nahivcileri",
+      "description": "Sibeveyh'ten İbn Hişam'a ve medrese alimlerine, nahiv ve sarfın alimleri, şarihleri ve hocaları, yüzyıllara göre."
+    },
+    "/glossary/": {
+      "title": "Nahiv ve sarf sözlüğü: A'dan Z'ye Arapça dil bilgisi terimleri",
+      "description": "The Nahwi'de öğretilen her nahiv ve sarf terimi, A'dan Z'ye, harekeli Arapçası, çeviriyazısı ve kısa bir tanımıyla."
+    },
+    "/updates/": {
+      "description": "Nahiv ve sarf (klasik Arapça dil bilgisi) öğrenme sitesi The Nahwi'de yeni kurslar, metinler, araçlar ve özellikler, en yenisi başta."
+    },
+    "/study/mabadi/": {
+      "title": "Mebadi: sarf ve nahivde ilk kurs",
+      "description": "Arapça dil bilgisine Mebadi ile başlayın: sarf ve nahvin temelleri terim terim, Arapçası, sade bir açıklaması ve kısa bir testiyle."
+    },
+    "/pricing/": {
+      "title": "Fiyatlar: nahiv ve sarfı ücretsiz çalışın ya da her kursu açın",
+      "description": "Nahiv ve sarfı bir hesapla ücretsiz çalışın: Mebadi'nin tamamı ve her kitaptan üç örnek ders. Tam erişim her medrese yolunu açar."
+    }
+  },
+  "madrasa": {
+    "title": "Medresenizi seçin",
+    "lead": "Büyük medreselerin okuduğu kitapları izleyen, sarf ve nahiv boyunca seviye seviye üç yol. Üçü de Mebadi ile başlar; ondan sonra her seviyede yan yana iki kol vardır, sarf ve nahiv. Başlamak için birini seçin; istediğiniz zaman değiştirebilirsiniz ve geçtikleriniz geçilmiş kalır.",
+    "choose": "Bu yolu seç",
+    "chosen": "Yolunuz",
+    "none": "Seviyelerini görmek için yukarıdan bir yol seçin.",
+    "pathLevel": "{path} · {n}. seviye",
+    "subLevel": "{n}{k}",
+    "subLetters": "a b c d",
+    "levelN": "{n}. seviye",
+    "paths": {
+      "indian": {
+        "name": "Hint medresesi",
+        "short": "Hint yolu",
+        "arabic": "المَدْرَسَةُ الهِنْدِيَّة",
+        "lead": "Ferengi Mahal, Deoband, Bareli ve Hayrabad'ın Ders-i Nizami'si: Mizanü's-sarf ile yan yana Nahv-i Mir ve yüz amil, sonra Hidayetü'n-nahv, sonra Molla Cami şerhiyle Kafiye ve Şafiye."
+      },
+      "ottoman": {
+        "name": "Osmanlı medresesi",
+        "short": "Osmanlı yolu",
+        "arabic": "المَدْرَسَةُ العُثْمانِيَّة",
+        "lead": "Osmanlı, Şam ve Kürt medreselerinde olduğu gibi önce sarf: Emsile, Bina ve Maksud; sonra Birgivi'nin Avamil'i ve İzhar'ı ile yan yana İzzi ve Merah; sonra Molla Cami ile Kafiye."
+      },
+      "north-african": {
+        "name": "Kuzey Afrika medresesi",
+        "short": "Kuzey Afrika yolu",
+        "arabic": "المَدْرَسَةُ المَغارِبِيَّة",
+        "lead": "Önce nahiv: Acurrumiyye; sonra İzzi ve Lamiyyetü'l-ef'al ile yan yana Katrü'n-neda; sonra Elfiyye: Ezher'in, Karaviyyin'in, Zeytune'nin ve Moritanya mahdaralarının dil bilgisi."
+      }
+    },
+    "traditions": {
+      "farangi-mahall": "Ferengi Mahal",
+      "khayrabadi": "Hayrabad",
+      "deobandi": "Deoband",
+      "istanbul": "İstanbul",
+      "balkans": "Balkanlar",
+      "shami": "Şam",
+      "kurdish": "Kürdistan",
+      "azhari": "Ezher",
+      "qarawiyyin": "Karaviyyin",
+      "zaytuna": "Zeytune",
+      "shinqiti": "Şinkit",
+      "barelwi": "Bareli"
+    },
+    "levels": {
+      "indian-1": {
+        "title": "Mebadi",
+        "arabic": "المَبَادِئ",
+        "lead": "Sarf ve nahvin temelleri, terim terim, bir hesapla ücretsiz: kelime ve çeşitleri, kök ve vezin, zamanlar, i'rab ve cümle."
+      },
+      "ottoman-1": {
+        "title": "Mebadi",
+        "arabic": "المَبَادِئ",
+        "lead": "Sarf ve nahvin temelleri, terim terim, bir hesapla ücretsiz: kelime ve çeşitleri, kök ve vezin, zamanlar, i'rab ve cümle."
+      },
+      "north-african-1": {
+        "title": "Mebadi",
+        "arabic": "المَبَادِئ",
+        "lead": "Sarf ve nahvin temelleri, terim terim, bir hesapla ücretsiz: kelime ve çeşitleri, kök ve vezin, zamanlar, i'rab ve cümle."
+      },
+      "indian-2": {
+        "title": "Mizanü's-sarf ve Nahv-i Mir",
+        "arabic": "مِيزَانُ الصَّرْفِ · نَحْوِ مِير",
+        "lead": "Ders-i Nizami'nin ilk yılda yan yana okunan Farsça ilk kitapları: fe'ale mizanı ve fiilin vezinleri; Abdülkahir el-Cürcani'nin yüz amiliyle kelimenin çeşitleri, i'rab ve cümle."
+      },
+      "indian-3": {
+        "title": "Hidayetü'n-nahv",
+        "arabic": "هِدَايَةُ النَّحْوِ",
+        "lead": "Ders-i Nizami'de Kafiye'den önce okunan Arapça nahiv el kitabı: isim, fiil ve harf, i'rablarıyla, Kafiye'nin sırasıyla."
+      },
+      "indian-4": {
+        "title": "Kafiye, Molla Cami ve Şafiye",
+        "arabic": "الْكَافِيَةُ · شَرْحُ جَامِي · الشَّافِيَةُ",
+        "lead": "İbnü'l-Hacib'in nahiv ve sarfın zirvesi olan iki el kitabı, Kafiye üzerine Molla Cami'nin şerhiyle."
+      },
+      "ottoman-2": {
+        "title": "Emsile, Bina ve Maksud",
+        "arabic": "الْأَمْثِلَةُ · الْبِنَاءُ · الْمَقْصُودُ",
+        "lead": "Osmanlı medresesinin ilk kitapları olan Emsile, Bina ve Maksud, hepsi sarf: nasara'nın sigalarının dizilişi, fiillerin binası ve mücerred ile mezid fiilin vezinleri."
+      },
+      "ottoman-3": {
+        "title": "İzzi, Merah, Avamil ve İzhar",
+        "arabic": "الْعِزِّيُّ · الْمَرَاحُ · الْعَوَامِلُ · الْإِظْهَارُ",
+        "lead": "Sarf, mu'tel fiiller de dahil olmak üzere İzzi ve Merah ile devam eder; yanında nahiv, İmam Birgivi'nin Avamil'i ve İzhar'ı ile başlar: amiller, ma'muller ve i'rab."
+      },
+      "ottoman-4": {
+        "title": "Molla Cami ile Kafiye",
+        "arabic": "الْكَافِيَةُ · مُلَّا جَامِي",
+        "lead": "İbnü'l-Hacib'in Kafiye'si, Osmanlı medresesinde okunduğu gibi Molla Cami'nin şerhiyle."
+      },
+      "north-african-2": {
+        "title": "Acurrumiyye",
+        "arabic": "الْآجُرُّومِيَّةُ",
+        "lead": "İbn Acurrum'un Mağrib'den Cava'ya ezberlenen kısa ilk nahiv kitabı: kelam, i'rab ve alametleri, fiiller, merfu, mansub ve mahfuz isimler."
+      },
+      "north-african-3": {
+        "title": "Katrü'n-neda, İzzi ve Lamiyyetü'l-ef'al",
+        "arabic": "قَطْرُ النَّدَى · الْعِزِّيُّ · لَامِيَّةُ الْأَفْعَالِ",
+        "lead": "İbn Hişam'ın orta seviye nahvi, yanında Zencani'nin sarfı ve İbn Malik'in fiil üzerine manzumesi."
+      },
+      "north-african-4": {
+        "title": "Elfiyye",
+        "arabic": "الْأَلْفِيَّةُ",
+        "lead": "İbn Malik'in bin beyti, yolun zirvesi."
+      }
+    },
+    "startWith": "Başla: {name}",
+    "leadShort": "Sarf ve nahvin yan yana okunduğu, seviye seviye üç medrese yolu. Kitaplarını okumak istediğinizi seçin; istediğiniz zaman değiştirebilirsiniz ve geçtikleriniz geçilmiş kalır.",
+    "change": "Yolu değiştir",
+    "stages": {
+      "foundations": "Temeller",
+      "beginner": "Başlangıç",
+      "intermediate": "Orta",
+      "advanced": "İleri"
+    },
+    "levelStage": "{n}. seviye · {stage}",
+    "lanes": {
+      "sarf": {
+        "name": "Sarf",
+        "arabic": "الصَّرْفُ",
+        "lead": "kelimenin yapısı: kelimenin sigaları"
+      },
+      "nahw": {
+        "name": "Nahiv",
+        "arabic": "النَّحْوُ",
+        "lead": "cümle bilgisi: son harekeler ve cümle"
+      }
+    },
+    "laneNone": "Bu seviyede {lane} kitabı yok.",
+    "laneOrder": "İki kol yan yana okunur; her birinde kitaplar birbiri ardınca.",
+    "soonBooks": {
+      "mizan": {
+        "title": "Mizanü's-sarf",
+        "arabic": "مِيزَانُ الصَّرْفِ"
+      },
+      "nahwmir": {
+        "title": "Nahv-i Mir",
+        "arabic": "نَحْوِ مِير"
+      },
+      "awamilmia": {
+        "title": "el-Avamilü'l-mie",
+        "arabic": "الْعَوَامِلُ الْمِائَةُ"
+      },
+      "hidaya": {
+        "title": "Hidayetü'n-nahv",
+        "arabic": "هِدَايَةُ النَّحْوِ"
+      },
+      "shafiya": {
+        "title": "Şafiye",
+        "arabic": "الشَّافِيَةُ"
+      },
+      "kafiya": {
+        "title": "Kafiye",
+        "arabic": "الْكَافِيَةُ"
+      },
+      "jami": {
+        "title": "Molla Cami (Şerh-i Cami)",
+        "arabic": "الْفَوَائِدُ الضِّيَائِيَّةُ"
+      },
+      "amthila": {
+        "title": "Emsile",
+        "arabic": "الْأَمْثِلَةُ الْمُخْتَلِفَةُ"
+      },
+      "bina": {
+        "title": "Bina (Binau'l-ef'al)",
+        "arabic": "بِنَاءُ الْأَفْعَالِ"
+      },
+      "maqsud": {
+        "title": "Maksud",
+        "arabic": "الْمَقْصُودُ"
+      },
+      "izzi": {
+        "title": "İzzi",
+        "arabic": "التَّصْرِيفُ الْعِزِّيُّ"
+      },
+      "marah": {
+        "title": "Merahu'l-ervah",
+        "arabic": "مَرَاحُ الْأَرْوَاحِ"
+      },
+      "awamil": {
+        "title": "Avamil",
+        "arabic": "الْعَوَامِلُ الْجَدِيدَةُ"
+      },
+      "izhar": {
+        "title": "İzharu'l-esrar",
+        "arabic": "إِظْهَارُ الْأَسْرَارِ"
+      },
+      "ajurrumiyya": {
+        "title": "Acurrumiyye",
+        "arabic": "الْآجُرُّومِيَّةُ"
+      },
+      "lamiyya": {
+        "title": "Lamiyyetü'l-ef'al",
+        "arabic": "لَامِيَّةُ الْأَفْعَالِ"
+      },
+      "qatr": {
+        "title": "Katrü'n-neda",
+        "arabic": "قَطْرُ النَّدَى"
+      },
+      "alfiyya": {
+        "title": "Elfiyye",
+        "arabic": "الْأَلْفِيَّةُ"
+      }
+    },
+    "laneStarts": "{lane} {n}. seviyede başlar."
+  },
+  "primer": {
+    "theLesson": "Ders",
+    "terms": "Terimler",
+    "examples": "Örnekler",
+    "pages": "s. {pages}",
+    "page": "s. {pages}",
+    "lessons": "{n} ders",
+    "quizIntro": "Bu ders üzerine {n} soru. 10 üzerinden 6 veya daha fazlasıyla (iki yıldız) sonraki ders açılır.",
+    "passed": "Geçtiniz: sonraki ders açık.",
+    "failed": "Henüz değil: en az 10 üzerinden 6 gerekir. Dersi yeniden okuyun ve bir daha deneyin.",
+    "bookDone": "Bu, {book} kitabının son dersiydi.",
+    "nextBook": "Sıradaki: {book}",
+    "back": "{book} kitabına dön",
+    "edition": "Takip edilen baskı",
+    "editionNote": "Bu dersler, bu kitabın sırasıyla ve örnekleriyle kendi açıklamalarımızdır; baskının metni burada aktarılmaz.",
+    "aboutBook": "Kitap hakkında",
+    "course": "Kurs olarak çalış",
+    "courseLead": "{book}, çalışma portalında bir kurstur: {n} ders, her biri kısa bir testle.",
+    "badge": "Kendi derslerimizle kurs",
+    "open": "Kursu aç",
+    "theText": "Metin",
+    "original": "{language} asıl metin, {edition}",
+    "languages": {
+      "fa": "Farsça",
+      "ar": "Arapça"
+    },
+    "translation": "Çeviri",
+    "wholeText": "Metnin tamamını oku",
+    "textEdition": "Metin",
+    "textNote": "Asıl metin bu baskıdan, kenar haşiyeleri olmadan aktarılmış ve The Nahwi için çevrilmiştir.",
+    "scan": "Baskının taraması",
+    "badgeText": "{language} metinli kurs",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "textTitle": "{title}: {language} metin",
+    "textDescription": "{author} müellifinin {title} eseri: telifsiz bir baskıdan aktarılmış {language} asıl metin, her pasajın altında açılan İngilizce (ve Arapça) çevirilerle.",
+    "textLead": "{n} pasajda, baskıdan aktarılmış {language} asıl metin. Her pasajın altında çevirimizi açabilir, metni kopyalayabilir veya Google Çeviri'ye gönderebilirsiniz.",
+    "studyCourse": "Kurs olarak çalış ({level})",
+    "englishTranslation": "İngilizce çeviri",
+    "readText": "{language} metnin tamamını oku",
+    "quotesTitle": "{author} kendi sözleriyle",
+    "quotedFrom": "{edition} baskısının {language} metninden alıntı",
+    "copyText": "Metni kopyala",
+    "copyTranslation": "Çeviriyi kopyala",
+    "aiNote": "Yapay zeka yardımıyla çevrildi ve henüz gözden geçirilmedi. Esas olan asıl metindir: her zaman aslını okuyun ve ondan aktarın.",
+    "courseTitle": "{book}: Arapça dil bilgisi kursu",
+    "courseTitleJurjani": "Cürcani'nin {book} eseri: Arapça dil bilgisi kursu",
+    "tasks": "Alıştırmalar",
+    "tasksIntro": "Bunları önce yazılı yapın, sonra örnek cevabı açın.",
+    "showAnswer": "Örnek cevap",
+    "trChoose": "Çeviri"
+  },
+  "source": {
+    "title": "Bu metin hakkında",
+    "text": "Metin",
+    "lessonsFollow": "Derslerin takip ettiği",
+    "translation": "Çeviri",
+    "review": "İnceleme",
+    "scan": "Taramayı gör",
+    "languages": {
+      "ar": "Arapça",
+      "fa": "Farsça"
+    },
+    "vocalised": "baskıdaki gibi harekeli",
+    "transcribed": "The Nahwi tarafından bu baskıdan aktarıldı",
+    "inPreparation": "{language} asıl metin hazırlanıyor; aktarılacağı baskı",
+    "notShown": "Gösterilmiyor: takip edilen tek baskı, telif hakkı süren modern bir baskıdır.",
+    "lessonsOwn": "Dersler, bu baskının sırasıyla The Nahwi'nin kendi açıklamalarıdır; baskının metni telif hakkı altındadır ve burada aktarılmaz.",
+    "translationOwn": "The Nahwi'ye ait.",
+    "reviewDraft": "Taslak, {teacher} tarafından incelenmeyi bekliyor.",
+    "pages": "s. {pages}",
+    "shortLine": "{edition} baskısına göre {language} metin · çeviri: The Nahwi",
+    "shortLessons": "{edition} baskısının sırasıyla kendi derslerimiz · taslak",
+    "translationOwnAr": "The Nahwi'ye ait; İngilizceye ve harekeli Arapçaya. Arapça çeviri Farsçadan yapılmıştır, basılı bir Arapça versiyondan alınmamıştır.",
+    "transcribedLitho": "The Nahwi tarafından taş baskıdan, kenar haşiyeleri olmadan aktarıldı",
+    "lessonsOwnText": "Dersler, metnin kendisinin bölüm bölüm sırasıyla The Nahwi'nin kendi açıklamalarıdır.",
+    "quoted": "derslerde alıntılanan pasajlar, The Nahwi tarafından bu baskıdan aktarıldı (metnin tamamı aktarılmaz)",
+    "lessonsAfter": "Dersler, {author} müellifini izleyen, metnin The Nahwi'ye ait açıklamalarıdır; onun sözleri en önemli yerlerde alıntılanır.",
+    "shortQuoted": "{edition} baskısından alıntılarla kendi derslerimiz · çeviri: The Nahwi, taslak",
+    "ownCourse": "The Nahwi'nin, klasik ilk kitaplardan yararlanan, sarf ve nahvin temelleri üzerine kendi kursu; hiçbir asıl metin gösterilmez.",
+    "translationLanguages": "The Nahwi'ye ait, {language} aslından: {languages} dillerine. Dili pasajların altında seçin.",
+    "and": "ve"
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "The Nahwi'ye nasıl ulaşılır: sorular, metin ve çevirilerdeki düzeltmeler, eklenecek kurslar ve havadis.",
+    "lead": "The Nahwi genç bir projedir ve buradaki her şey, bir hoca inceleyene kadar taslaktır. The Mantiqi'nin bir sitesidir: ikisine gönderilen mesajlar aynı ekibe gider. Mesajlarınızı memnuniyetle bekliyoruz.",
+    "emailLabel": "Ya da doğrudan yazın",
+    "followLabel": "The Mantiqi'yi takip edin",
+    "reasonsTitle": "Ne hakkında yazabilirsiniz",
+    "reasons": [
+      "Bir ders, terim veya metin hakkında bir soru",
+      "Bir aktarımda, çeviride veya açıklamada bir hata (lütfen sayfayı ve mümkünse baskıdaki yerini belirtin)",
+      "Listelememiz gereken, sarf ve nahiv okutan bir kurs, hoca veya enstitü",
+      "Nahiv, sarf ya da dil ilimleriyle ilgili havadis: yeni bir kitap, baskı, makale veya ders"
+    ],
+    "reply": "Her mesajı okuyoruz, ama hepsine hızla cevap vereceğimize söz veremeyiz.",
+    "form": {
+      "title": "Mesaj gönder",
+      "name": "Ad",
+      "email": "E-posta adresi",
+      "emailHint": "Size cevap verebilmemiz için. Başka hiçbir şey için kullanmayız.",
+      "topic": "Konu",
+      "topics": {
+        "question": "Bir ders, terim veya metin hakkında soru",
+        "correction": "Aktarım, çeviri veya açıklamada bir hata",
+        "course": "Listelenecek bir kurs, hoca veya kurum",
+        "news": "Havadis sayfası için nahiv ya da sarfla ilgili havadis",
+        "other": "Başka bir şey"
+      },
+      "page": "Hangi sayfa? (isteğe bağlı)",
+      "pageHint": "Sayfanın adresi veya adı, ve mümkünse baskıdaki yeri.",
+      "message": "Mesajınız",
+      "send": "Gönder",
+      "sending": "Gönderiliyor…",
+      "sent": "Teşekkürler, mesajınız gönderildi. Her mesajı okuyoruz, ama hepsine hızla cevap vereceğimize söz veremeyiz.",
+      "invalid": "Lütfen adınızı, geçerli bir e-posta adresini ve bir mesaj yazın.",
+      "failed": "Mesaj buradan gönderilemedi. E-posta programınız mesaj doldurulmuş olarak açılacak; ya da bize doğrudan {email} adresine yazın.",
+      "note": "Mesajınız {email} adresine gönderilir. Bu sitede saklanmaz."
+    }
+  },
+  "updates": {
+    "title": "Yenilikler",
+    "description": "The Nahwi'ye neler eklendi: yeni metinler, kurslar, diller ve özellikler, en yenisi başta.",
+    "lead": "The Nahwi'ye eklenenler, en yenisi başta: metinler ve kurslar, diller, ansiklopedi ve sitenin araçları.",
+    "kinds": {
+      "text": "Yeni metin",
+      "course": "Kurs",
+      "language": "Diller",
+      "encyclopedia": "Ansiklopedi",
+      "feature": "Site"
+    }
+  },
+  "help": {
+    "lead": "Özel olarak yazmayı mı tercih edersiniz?",
+    "ask": "Soru sor",
+    "mistake": "Hata bildir"
+  },
+  "certificate": {
+    "title": "Belge: {book}",
+    "description": "The Nahwi'de {book} için, kendi test puanlarınızdan hazırlanan bir tamamlama belgesi.",
+    "crumb": "Belge",
+    "link": "Tamamlama belgesi",
+    "kicker": "Tamamlama belgesi",
+    "record": "Bu belge, adı aşağıda yazılı kişinin",
+    "nameLabel": "Adınız",
+    "namePlaceholder": "Adınızı yazın",
+    "passed": "şu kitabın bütün derslerini ve testlerini geçtiğini kaydeder:",
+    "lessons": "{n} ders",
+    "score": "{stars} Ortalama puan: 10 üzerinden {score}",
+    "note": "The Nahwi'deki kendi çalışmanızın bir kaydı; tarayıcınızda test puanlarınızdan hazırlanır. Bir icazet ya da diploma değildir: icazeti, kitabı sizinle okumuş bir hoca verir.",
+    "reviewed": "Bu kitabın şimdiye kadar bir hoca tarafından gözden geçirilen dersleri: {m} dersten {n}.",
+    "print": "Yazdır veya PDF olarak kaydet",
+    "back": "{book} sayfasına dön",
+    "hint": "Adınız kaydedilmez: her yazdırışta yeniden yazın.",
+    "notYet": "Bu kitabın her dersini en az iki yıldızla geçtiğinizde belge burada görünür.",
+    "passedOf": "Şimdiye kadar geçilen: {m} dersten {n}.",
+    "examTitle": "Sınav",
+    "examLead": "Bütün dersleri geçtiniz. Belgeden önce bir adım kaldı: bu kitabın bütün derslerinden {n} soruluk, yeni sırada ve cevapları karıştırılmış bir sınav. {pass} doğru cevap gerekir.",
+    "examIntro": "Bütün kitaptan 25 soru; {pass} doğru cevapla geçersiniz. Sınav bir kalp alır.",
+    "examPassed": "Geçtiniz: belgeniz aşağıda hazır."
+  },
+  "reminder": {
+    "title": "Takviminizde günlük bir hatırlatıcı",
+    "body": "Telefonunuzdaki veya bilgisayarınızdaki kendi takviminize, seçtiğiniz saatte her gün tekrarlanan ve çalışma portalına bağlantı içeren bir etkinlik ekleyin. Bize hiçbir şey gönderilmez.",
+    "time": "Saat",
+    "add": "Takvimime ekle",
+    "done": "Etkinliği takviminize eklemek için indirilen dosyayı açın.",
+    "eventTitle": "Sarf ve nahiv çalış: The Nahwi",
+    "eventBody": "Bugünün dersi ve tekrar zamanı gelen dersler:"
+  },
+  "today": {
+    "title": "Bugün",
+    "tests": "Bugünkü testler: {goal} testten {n}.",
+    "done": "Bugünün hedefine ulaştınız.",
+    "streak": "Art arda günler: {n}",
+    "due": "Tekrar zamanı gelen: {n}",
+    "dueLink": "Şimdi tekrar et",
+    "goal": "Günlük hedef (test)",
+    "note": "Test, bir dersin testi ya da tikrarda bir tekrardır. Bunların hepsi bu tarayıcıda kalır."
+  },
+  "overview": {
+    "title": "İlerlemeniz",
+    "description": "Medrese yolunuzda ne kadar ilerlediğiniz: geçtiğiniz dersler, puanlarınız, çalıştığınız günler ve yeniden bakmaya değer dersler, tarayıcınızda hesaplanır.",
+    "lead": "Medrese yolunuz kitap kitap, bu tarayıcıda çözdüğünüz testlere göre.",
+    "emptyTitle": "Henüz geçilen ders yok",
+    "emptyBody": "Bir dersin testini en az iki yıldızla geçtiğinizde ilerlemeniz burada görünür.",
+    "emptyCta": "Çalışma portalına git",
+    "pathNote": "Yolunuz: {path}. Çalışma sayfasında değiştirebilirsiniz.",
+    "noPath": "Kitaplarını burada görmek için çalışma sayfasında medrese yolunuzu seçin.",
+    "passed": "Geçilen dersler",
+    "average": "Ortalama puan",
+    "days": "Son 30 günde çalışılan günler",
+    "due": "Bugün tekrar edilecek",
+    "activityTitle": "Son 30 gün",
+    "activityDay": "{date}: {n} test",
+    "booksTitle": "Kitap kitap",
+    "continue": "Devam et",
+    "weakTitle": "Güçlendirilecekler",
+    "weakLead": "Geçildi, ama üçten az yıldızla. Dersin testini yeniden çözün: en iyi puanınız saklanır.",
+    "weakNone": "Geçtiğiniz her dersin üç yıldızı var.",
+    "review": "Tikrarda tekrar et",
+    "note": "Bunların hepsi bu tarayıcıda kendi testlerinizden hesaplanır; hiçbir şey gönderilmez.",
+    "link": "İlerlemeniz",
+    "of": "{total} içinden {n}"
+  },
+  "comments": {
+    "kicker": "Sorular ve notlar",
+    "title": "Bu ders hakkında sorun",
+    "lead": "Bir soru sorun ya da bir not paylaşın. Her mesaj burada görünmeden önce okunur ve hoca cevap verebilir.",
+    "loading": "Mesajlar yükleniyor…",
+    "empty": "Bu ders hakkında henüz soru yok.",
+    "loadFailed": "Mesajlar yüklenemedi. Daha sonra tekrar deneyin.",
+    "learner": "Bir talebe",
+    "answer": "Cevap",
+    "inLanguage": "{language} dilinde",
+    "pending": "Okunmayı bekliyor: şimdilik yalnızca siz görüyorsunuz.",
+    "hiddenOwn": "Yayımlanmadı: yalnızca siz görüyorsunuz.",
+    "remove": "Sil",
+    "removeSure": "Kalıcı olarak silinsin mi?",
+    "signinLead": "Buraya yazmak için bir hesap gerekir; ücretsiz bir hesap yeterlidir.",
+    "signin": "Giriş yap",
+    "write": "Soru ya da not yazın",
+    "message": "Mesajınız",
+    "placeholder": "Bu ders hakkındaki sorunuz ya da notunuz",
+    "name": "Görünen ad",
+    "nameHint": "Mesajınızla birlikte gösterilir.",
+    "anonymous": "Adım olmadan yayımla (“bir talebe” olarak görünür)",
+    "send": "Gönder",
+    "sending": "Gönderiliyor…",
+    "sent": "Teşekkürler. Mesajınız okunduktan sonra burada görünecek.",
+    "tooShort": "Biraz daha yazın.",
+    "needName": "Bir ad yazın ya da adınız olmadan yayımlayın.",
+    "tooMany": "Kısa sürede çok mesaj gönderdiniz. Daha sonra tekrar deneyin.",
+    "failed": "Gönderilemedi. Tekrar deneyin.",
+    "note": "Mesajınız ve yazdığınız ad hesabınızla birlikte saklanır; istediğiniz zaman silebilirsiniz. Ayrıntılar {privacy} sayfasında.",
+    "privacyLink": "gizlilik bildirimi",
+    "count": "{n} mesaj",
+    "countOne": "1 mesaj"
+  },
+  "moderate": {
+    "title": "Moderasyon",
+    "description": "Derslerin altındaki soruları ve notları okuyun, yayımlayın ve cevaplayın.",
+    "kicker": "Sorular ve notlar",
+    "lead": "Yeni mesajlar siz yayımlayana kadar burada bekler. Ondan önce bir dersin altında hiçbir şey görünmez.",
+    "loading": "Yükleniyor…",
+    "signin": "Mesajları okumak için bir moderatör hesabıyla giriş yapın.",
+    "signinLink": "Giriş yap",
+    "notModerator": "Bu hesap bir moderatör değil. Moderatör Supabase'te eklenir (bkz. docs/study.md).",
+    "tabs": {
+      "pending": "Bekleyenler",
+      "published": "Yayımlananlar",
+      "hidden": "Gizlenenler"
+    },
+    "empty": "Burada bir şey yok.",
+    "anonymous": "adsız gönderildi",
+    "openLesson": "Dersi aç",
+    "publish": "Yayımla",
+    "hide": "Gizle",
+    "unpublish": "Beklemeye geri al",
+    "answerLabel": "Cevap (mesajın altında gösterilir; cevap yoksa boş bırakın)",
+    "saveAnswer": "Cevabı kaydet",
+    "saved": "Kaydedildi.",
+    "failed": "Bu işe yaramadı: {error}"
+  },
+  "app": {
+    "offlineTitle": "Bağlantı yok",
+    "offlineBody": "The Nahwi ilk açılışta internete ihtiyaç duyar. Ondan sonra kurs, terimler ve alıştırmalar internetsiz de açılır.",
+    "retry": "Yeniden dene",
+    "reminderTitle": "Günlük bir hatırlatıcı",
+    "reminderBody": "Uygulama size her gün seçtiğiniz saatte, tekrar zamanı gelen derslerin sayısıyla hatırlatır. Hatırlatmalar telefonunuzda kurulur; bize hiçbir şey gönderilmez.",
+    "reminderOn": "Bana her gün hatırlat",
+    "reminderOff": "Hatırlatıcıyı kapat",
+    "reminderSet": "Her gün saat {time}.",
+    "reminderDenied": "The Nahwi için bildirimler kapalı. Ayarlar → Bildirimler → The Nahwi yolundan açın, sonra yeniden deneyin.",
+    "notifyTitle": "Sarf ve nahiv vakti",
+    "notifyBody": "Bugünün dersi sizi bekliyor.",
+    "notifyDue": "Bugün tekrar zamanı gelen: {n}. Birkaç dakikalık tikrar onları taze tutar.",
+    "heartsTitle": "Kalpleriniz yeniden dolu",
+    "heartsBody": "Beş kalbin hepsi geri geldi: sonraki testiniz sizi bekliyor.",
+    "shortcutContinue": "Derse devam et",
+    "shortcutTikrar": "Tikrar",
+    "shortcutGlossary": "Terimler",
+    "store": {
+      "loading": "Fiyatlar App Store'dan yükleniyor…",
+      "unavailable": "App Store cevap vermedi. Lütfen birazdan yeniden deneyin.",
+      "renewsMonth": "her ay yenilenir",
+      "renewsYear": "her yıl yenilenir",
+      "fine": "Ödeme, onayladığınızda Apple kimliğinizden alınır. Abonelik, dönemin bitiminden en az 24 saat önce iptal etmediğiniz sürece her ay ya da her yıl kendiliğinden yenilenir; Apple kimliğinizin ayarlarında, Abonelikler altında istediğiniz zaman iptal edebilirsiniz.",
+      "buying": "App Store açılıyor…",
+      "thanks": "Teşekkürler! Tam erişiminiz hazırlanıyor.",
+      "error": "Satın alma gerçekleşmedi. Lütfen yeniden deneyin ya da bize yazın.",
+      "restore": "Satın almaları geri yükle",
+      "restoring": "Geri yükleniyor…",
+      "nothing": "Bu Apple kimliği için satın alma bulunamadı.",
+      "email": "E-postanızla",
+      "eula": "Kullanım koşulları (Apple)",
+      "terms": "Hizmet koşulları",
+      "privacy": "Gizlilik"
+    }
+  },
+  "parent": {
+    "line": "{mantiqi} sitesinin bir parçası",
+    "lineLong": "The Nahwi, mantığın ansiklopedisi ve çalışma portalı olan {mantiqi} sitesinin bir parçasıdır. Havadis, adres ve hesaplar ortaktır.",
+    "visit": "The Mantiqi'yi ziyaret edin"
+  }
+}

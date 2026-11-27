@@ -1,0 +1,34 @@
+{
+  "items": {
+    "harf-1": {
+      "prompt": "Hoe definieert de Ajurrumiyya het partikel?",
+      "options": [
+        "Een woord dat geen van de kentekens van het naamwoord of het werkwoord aanneemt",
+        "Een woord dat een ding noemt",
+        "Een woord met een tijd erin",
+        "Een woord van drie letters"
+      ],
+      "explanation": "Het partikel herken je aan wat het mist: geen kenteken van het naamwoord, geen kenteken van het werkwoord."
+    },
+    "harf-2": {
+      "prompt": "Wat doet fi hier?",
+      "options": [
+        "Het zet al-bayt in khafd",
+        "Het zet al-bayt in raf'",
+        "Het maakt van al-bayt een werkwoord",
+        "Niets: het heeft geen werking"
+      ],
+      "explanation": "Fi is een partikel van de khafd: al-bayti eindigt erna op kasra."
+    },
+    "harf-3": {
+      "prompt": "Welk van deze woorden is een partikel?",
+      "options": [
+        "lam",
+        "kitab",
+        "nasara",
+        "Zayd"
+      ],
+      "explanation": "Lam is een partikel dat de mudari' in jazm zet."
+    }
+  }
+}

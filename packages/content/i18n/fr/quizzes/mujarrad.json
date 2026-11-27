@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mujarrad-1": {
+      "prompt": "Quel verbe est mujarrad (nu) ?",
+      "options": [
+        "nasara",
+        "akrama",
+        "ta'allama",
+        "Les trois"
+      ],
+      "explanation": "Nasara n'a que ses lettres radicales ; akrama et ta'allama ont des lettres ajoutées."
+    },
+    "mujarrad-2": {
+      "prompt": "Combien de classes (abwâb) le verbe nu de trois lettres a-t-il dans les livres ?",
+      "options": [
+        "Six",
+        "Trois",
+        "Dix",
+        "Quatorze"
+      ],
+      "explanation": "Nasara, daraba, fataha, sami'a, karuma et hasiba : six classes."
+    },
+    "mujarrad-3": {
+      "prompt": "Dans quelle classe est ce verbe ?",
+      "options": [
+        "i au passé, a au présent",
+        "a au passé, u au présent",
+        "a au passé, i au présent",
+        "u au passé, u au présent"
+      ],
+      "explanation": "Sami'a a une kasra sur le 'ayn au passé, et yasma'u une fatha au présent."
+    }
+  }
+}

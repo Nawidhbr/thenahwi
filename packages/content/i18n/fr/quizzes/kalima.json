@@ -1,0 +1,34 @@
+{
+  "items": {
+    "kalima-1": {
+      "prompt": "En combien de sortes les grammairiens divisent-ils tout mot ?",
+      "options": [
+        "Trois : nom, verbe et particule",
+        "Deux : nom et verbe",
+        "Quatre : nom, verbe, particule et pronom",
+        "Cinq, une pour chaque voyelle"
+      ],
+      "explanation": "Le nom, le verbe et la particule : les livres disent que rien ne sort de ces trois."
+    },
+    "kalima-2": {
+      "prompt": "Qu'est-ce qu'une kalima ?",
+      "options": [
+        "Une seule énonciation faite pour un seul sens",
+        "Un énoncé complet au sens plein",
+        "N'importe quelle lettre de l'alphabet",
+        "Une phrase avec un verbe et un agent"
+      ],
+      "explanation": "Une kalima est un seul mot porteur d'un seul sens ; un énoncé complet est du kalâm."
+    },
+    "kalima-3": {
+      "prompt": "Lequel de ces mots est une particule (harf) ?",
+      "options": [
+        "fî (dans)",
+        "rajulun (un homme)",
+        "dhahaba (il est allé)",
+        "Aucun d'eux"
+      ],
+      "explanation": "Fî ne montre son sens qu'avec un autre mot, comme dans fî l-bayti : c'est ce qui en fait une particule."
+    }
+  }
+}

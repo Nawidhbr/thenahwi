@@ -1,0 +1,34 @@
+{
+  "items": {
+    "masdar-1": {
+      "prompt": "Quel est le masdar de ce verbe ?",
+      "options": [
+        "إِكْرَامٌ",
+        "تَكْرِيمٌ",
+        "مُكْرِمٌ",
+        "كَرَامَةٌ"
+      ],
+      "explanation": "Le schème af'ala a son masdar sur if'âl : ikrâm. Takrîm appartient à karrama, et mukrim est le participe actif."
+    },
+    "masdar-2": {
+      "prompt": "Que nomme le masdar ?",
+      "options": [
+        "L'acte lui-même, sans temps",
+        "Celui qui fait l'acte",
+        "Celui à qui il est fait",
+        "Le lieu de l'acte"
+      ],
+      "explanation": "Le masdar nomme l'acte : nasr, le fait d'aider."
+    },
+    "masdar-3": {
+      "prompt": "Comment connaît-on le masdar d'un verbe nu de trois lettres ?",
+      "options": [
+        "Par l'écoute (samâ') : il se présente sous beaucoup de schèmes",
+        "Par une seule règle fixe",
+        "Il est toujours sur fa'l",
+        "Il n'en a pas"
+      ],
+      "explanation": "Nasr, 'ilm, dukhûl, kitâba : le masdar du verbe nu s'apprend par l'usage."
+    }
+  }
+}

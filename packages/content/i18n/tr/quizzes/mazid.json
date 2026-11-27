@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mazid-1": {
+      "prompt": "İkinci fiili yapmak için ne eklenmiştir?",
+      "options": [
+        "Başa bir hemze",
+        "Şeddeli bir ayn",
+        "Başa bir te",
+        "Hiçbir şey: vezinleri aynıdır"
+      ],
+      "explanation": "Ekreme ef'ale veznindedir: kökün önüne bir hemze eklenir."
+    },
+    "mazid-2": {
+      "prompt": "Fe''ale babının masdarı hangi veznindedir?",
+      "options": [
+        "tef'il",
+        "if'al",
+        "istif'al",
+        "müfa'ale"
+      ],
+      "explanation": "Alleme'nin masdarı ta'lim'dir, tef'il veznindedir; tef'il babı adı buradan gelir."
+    },
+    "mazid-3": {
+      "prompt": "Bu fiillerden hangisi mezittir?",
+      "options": [
+        "alleme",
+        "alime",
+        "İkisi de",
+        "Hiçbiri"
+      ],
+      "explanation": "Alleme kökün aynını şeddeli yapar; alime mücerreddir."
+    }
+  }
+}

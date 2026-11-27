@@ -1,0 +1,34 @@
+{
+  "items": {
+    "kalam-1": {
+      "prompt": "Lequel de ces énoncés est du kalâm ?",
+      "options": [
+        "zaydun qâ'imun (Zayd est debout)",
+        "in qâma zaydun (si Zayd s'est levé)",
+        "fî l-bayti (dans la maison)",
+        "zaydun (Zayd)"
+      ],
+      "explanation": "Seul zaydun qâ'imun donne un sens complet ; les autres laissent l'auditeur dans l'attente."
+    },
+    "kalam-2": {
+      "prompt": "Comment al-Âjurrûmiyya définit-elle le kalâm ?",
+      "options": [
+        "L'énonciation composée qui donne un sens utile par convention",
+        "Un seul mot porteur d'un seul sens",
+        "Tout son que produit une personne",
+        "Un mot qui nomme un temps"
+      ],
+      "explanation": "La définition demande une énonciation, composée de mots, qui donne un sens utile complet, par la convention des Arabes."
+    },
+    "kalam-3": {
+      "prompt": "De quoi le kalâm a-t-il besoin au minimum ?",
+      "options": [
+        "Deux mots qui complètent un sens",
+        "Un seul mot",
+        "Un verbe et un objet",
+        "Trois mots et une particule"
+      ],
+      "explanation": "Un nom avec un nom (zaydun qâ'imun) ou un verbe avec un nom (qâma zaydun) suffit."
+    }
+  }
+}

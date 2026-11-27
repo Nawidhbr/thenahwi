@@ -1,0 +1,34 @@
+{
+  "items": {
+    "maful-bih-1": {
+      "prompt": "Qu'est 'amran ici ?",
+      "options": [
+        "le maf'ûl bihi",
+        "le fâ'il",
+        "le mubtada'",
+        "le khabar"
+      ],
+      "explanation": "Le coup tombe sur 'Amr, et il est mansûb : c'est l'objet."
+    },
+    "maful-bih-2": {
+      "prompt": "Quel verbe ne prend pas d'objet ?",
+      "options": [
+        "qâma",
+        "kataba",
+        "nasara",
+        "Tous en prennent un"
+      ],
+      "explanation": "Qâma, il s'est levé, est intransitif : il ne tombe sur personne."
+    },
+    "maful-bih-3": {
+      "prompt": "Qu'est le -nî dans ce verbe ?",
+      "options": [
+        "l'objet : il m'a aidé",
+        "l'agent : j'ai aidé",
+        "le khabar",
+        "une particule du khafd"
+      ],
+      "explanation": "Le pronom -nî est celui sur qui est tombée l'aide : l'objet."
+    }
+  }
+}

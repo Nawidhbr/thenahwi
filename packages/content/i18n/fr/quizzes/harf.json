@@ -1,0 +1,34 @@
+{
+  "items": {
+    "harf-1": {
+      "prompt": "Comment al-Âjurrûmiyya définit-elle la particule ?",
+      "options": [
+        "Un mot qui ne prend aucun des signes du nom ni du verbe",
+        "Un mot qui nomme une chose",
+        "Un mot qui contient un temps",
+        "Un mot de trois lettres"
+      ],
+      "explanation": "La particule se reconnaît à ce qui lui manque : aucun signe du nom, aucun signe du verbe."
+    },
+    "harf-2": {
+      "prompt": "Que fait fî ici ?",
+      "options": [
+        "Il met al-bayt au khafd",
+        "Il met al-bayt au raf'",
+        "Il fait d'al-bayt un verbe",
+        "Rien : il n'a aucun effet"
+      ],
+      "explanation": "Fî est une particule du khafd : al-bayti se termine par une kasra après lui."
+    },
+    "harf-3": {
+      "prompt": "Lequel de ces mots est une particule ?",
+      "options": [
+        "lam",
+        "kitâb",
+        "nasara",
+        "Zayd"
+      ],
+      "explanation": "Lam est une particule qui met le présent au jazm."
+    }
+  }
+}

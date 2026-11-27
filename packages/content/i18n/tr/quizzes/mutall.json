@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mutall-1": {
+      "prompt": "Kale (kökü k-v-l) fiilinde illet harfi nerededir?",
+      "options": [
+        "Ortada: ecvef bir fiil",
+        "Başta: misal bir fiil",
+        "Sonda: nakıs bir fiil",
+        "İllet harfi yoktur"
+      ],
+      "explanation": "Vav ikinci asli harftir, bu yüzden kale ecveftir."
+    },
+    "mutall-2": {
+      "prompt": "Bu fiilin vavına muzaride ne olur?",
+      "options": [
+        "Düşer: ye'idü",
+        "Ya'ya döner",
+        "Kalır: yev'idü",
+        "Elife döner"
+      ],
+      "explanation": "Fe'ale yef'ilü babının misalinde vav muzaride düşer: ye'idü."
+    },
+    "mutall-3": {
+      "prompt": "Bu fiile ne denir?",
+      "options": [
+        "nakıs: son harfi illetli",
+        "ecvef: ortası illetli",
+        "misal: ilk harfi illetli",
+        "salim"
+      ],
+      "explanation": "Rema, r-m-y kökündendir: illet harfi üçüncüsüdür."
+    }
+  }
+}

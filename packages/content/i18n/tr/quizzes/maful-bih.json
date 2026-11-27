@@ -1,0 +1,34 @@
+{
+  "items": {
+    "maful-bih-1": {
+      "prompt": "Burada amran nedir?",
+      "options": [
+        "mef'ulün bih",
+        "fail",
+        "mübteda",
+        "haber"
+      ],
+      "explanation": "Dövme Amr'ın üzerine düşer ve o mansubdur: mef'uldür."
+    },
+    "maful-bih-2": {
+      "prompt": "Hangi fiil mef'ul almaz?",
+      "options": [
+        "kame",
+        "ketebe",
+        "nasara",
+        "Hepsi alır"
+      ],
+      "explanation": "Kame, kalktı, lazımdır: hiç kimsenin üzerine düşmez."
+    },
+    "maful-bih-3": {
+      "prompt": "Bu fiildeki -ni nedir?",
+      "options": [
+        "mef'ul: bana yardım etti",
+        "fail: yardım ettim",
+        "haber",
+        "bir hafz harfi"
+      ],
+      "explanation": "-ni zamiri yardımın üzerine düştüğü kişidir: mef'uldür."
+    }
+  }
+}

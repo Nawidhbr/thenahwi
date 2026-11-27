@@ -1,0 +1,34 @@
+{
+  "items": {
+    "madi-1": {
+      "prompt": "Quelle forme est le passé ?",
+      "options": [
+        "nasara",
+        "yansuru",
+        "unsur",
+        "Aucune d'elles"
+      ],
+      "explanation": "Nasara est le passé ; yansuru le présent et unsur l'impératif."
+    },
+    "madi-2": {
+      "prompt": "Que signifie cette forme ?",
+      "options": [
+        "ils (des hommes) ont aidé",
+        "nous avons aidé",
+        "il aide",
+        "aidez ! (des hommes)"
+      ],
+      "explanation": "Le wâw du pluriel avec le radical du passé : nasarû, ils ont aidé."
+    },
+    "madi-3": {
+      "prompt": "Comment le nahw classe-t-il le passé ?",
+      "options": [
+        "Mabnî : sa finale ne change pas avec la phrase",
+        "Mu'rab : marfû', mansûb ou majzûm",
+        "Majrûr après les prépositions",
+        "Comme un nom"
+      ],
+      "explanation": "Le passé est mabnî ; parmi les verbes, seul le présent est mu'rab."
+    }
+  }
+}

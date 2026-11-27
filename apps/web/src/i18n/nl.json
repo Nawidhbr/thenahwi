@@ -1,0 +1,1740 @@
+{
+  "meta": {
+    "tagline": "Sarf en nahw: Arabische grammatica zoals de madrasa die onderwijst",
+    "homeDescription": "Leer sarf en nahw, de klassieke Arabische vormleer en zinsleer, langs de paden van de madrasa: begin gratis met al-Mabadi', daarna de klassieke boeken, met korte toetsen.",
+    "glossaryName": "Woordenlijst van sarf en nahw (Arabische grammatica)"
+  },
+  "nav": {
+    "learn": "Leren",
+    "text": "Tekst",
+    "practice": "Oefenen",
+    "main": "Hoofdmenu",
+    "home": "Home",
+    "book": "Het boek",
+    "glossary": "Begrippen",
+    "about": "Over"
+  },
+  "header": {
+    "search": "Zoek in begrippen en tekst",
+    "translit": "Uitspraak",
+    "translitTitle": "Uitspraak in Latijnse letters aan of uit",
+    "tashkil": "Klinkertekens",
+    "tashkilTitle": "Klinkertekens aan of uit",
+    "theme": "Wissel tussen licht en donker thema",
+    "language": "Taal",
+    "inPreparation": "In voorbereiding",
+    "langNote": "Vertalingen zijn, net als het Engels, concepten tot een leraar ze heeft nagekeken.",
+    "settings": "Instellingen",
+    "darkTheme": "Donker thema",
+    "install": "Installeren als app",
+    "installIos": "Op iPhone of iPad: tik op Delen en kies “Zet op beginscherm”.",
+    "installOther": "Open het menu van je browser en kies “App installeren” of “Toevoegen aan startscherm”.",
+    "font": "Arabisch lettertype",
+    "fonts": {
+      "modern": "Kufi",
+      "naskh": "Naskh",
+      "classic": "Amiri"
+    },
+    "hijri": "Hidjra-jaartal eerst",
+    "ah": "AH",
+    "trLang": "Vertaling van de teksten",
+    "trLangNote": "Onder elke passage van het origineel van een boek, waar die vertaald is.",
+    "trLangs": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "ur": "اردو",
+      "fa": "فارسی",
+      "ar": "العربية"
+    }
+  },
+  "footer": {
+    "draft": "{site} is in ontwikkeling. Alle uitleg is een concept dat wacht op controle door een bevoegde leraar Arabische grammatica.",
+    "privacy": "Privacy",
+    "pricing": "Prijzen",
+    "terms": "Voorwaarden",
+    "refunds": "Terugbetaling",
+    "email": "E-mail"
+  },
+  "home": {
+    "title": "Leer sarf en nahw, de <em>grammatica van de madrasa</em>",
+    "lead": "Een hulpmiddel met vaste regels dat het verstand beschermt tegen denkfouten, onderwezen uit de boeken van de madrasa: kies het Indiase, Ottomaanse of Noord-Afrikaanse pad en lees de teksten niveau voor niveau, met het Arabisch en een korte toets bij elke les.",
+    "start": "Begin bij het eerste begrip",
+    "readText": "Lees de tekst",
+    "factTerms": "begrippen",
+    "factChapters": "hoofdstukken",
+    "factParts": "delen",
+    "yourStudy": "Je studie",
+    "continue": "Verder",
+    "continueTo": "Verder: {name}",
+    "termsStudied": "{n} van {total} begrippen bestudeerd",
+    "howItWorks": "Zo werkt het",
+    "howTitle": "Eerst de tekst",
+    "howBody": "Elk begrip volgt de volgorde van al-Mabadi', de grondslagen van sarf en nahw, met het Arabisch, een heldere uitleg en klassieke voorbeelden. Je voortgang wordt op dit apparaat bewaard.",
+    "levelsTitle": "Kies je niveau",
+    "levelsLead": "The Mantiqi lees je in niveaus. Elk niveau gaat open zodra je het niveau ervoor hebt gehaald.",
+    "levelProgress": "{n} van {total} gehaald",
+    "levelLocked": "Gaat open na niveau {prev}",
+    "levelSoon": "In voorbereiding",
+    "termsCount": "{n} begrippen",
+    "aboutLink": "Over The Nahwi en de leraar"
+  },
+  "parts": {
+    "introduction": {
+      "title": "Inleiding",
+      "summary": "De twee wetenschappen, het woord en de kalam, en de drie soorten woord."
+    },
+    "sarf": {
+      "title": "Vormleer (sarf)",
+      "summary": "Het woord op zichzelf: zijn wortel en patroon, de tijden van het werkwoord, gave en zwakke wortels, en de naamwoorden die van een werkwoord zijn afgeleid."
+    },
+    "nahw": {
+      "title": "Zinsleer (nahw)",
+      "summary": "Het woord in de zin: i'rab en bina', de vier toestanden, en de naamwoordzin en de werkwoordzin."
+    }
+  },
+  "chapters": {
+    "introduction": "De twee wetenschappen en de kalam",
+    "word": "De soorten woord",
+    "root": "Wortel en patroon",
+    "verb": "Het werkwoord en zijn tijden",
+    "sound-weak": "Gaaf en zwak",
+    "derived": "Afgeleide naamwoorden",
+    "irab": "I'rab en bina'",
+    "sentence": "De zin"
+  },
+  "structure": {
+    "part": "Deel {n}",
+    "chapter": "Hoofdstuk {n}",
+    "about": "Over {name}",
+    "toggle": "{name} tonen of verbergen",
+    "close": "Sluiten",
+    "upNext": "Hierna",
+    "practise": "{chapter} oefenen · {n} vragen",
+    "expandAll": "Alles openklappen",
+    "collapseAll": "Alles dichtklappen"
+  },
+  "term": {
+    "nOfM": "{n} van {m}",
+    "secondReading": "Tweede lezing",
+    "fromCommentaries": "Uit de commentaren",
+    "draft": "Concept · nog niet nagekeken",
+    "inAPicture": "In beeld",
+    "explanation": "Uitleg",
+    "alsoWritten": "Ook geschreven als: {list}.",
+    "inTheText": "In de tekst",
+    "examples": "Voorbeelden",
+    "related": "Verwante begrippen",
+    "practise": "Oefenen",
+    "practiseThis": "{n} vraag/vragen over dit begrip, in de oefenset voor {chapter}.",
+    "practiseChapter": "Test jezelf op {chapter}.",
+    "goToPractice": "Naar de oefening · {n} vragen",
+    "endOf": "Einde van {name}.",
+    "takeStock": "Kijk even terug voordat het volgende deel begint.",
+    "lastTerm": "Dit is het laatste begrip van het boek.",
+    "finish": "{name} afronden →",
+    "finishPart": "Dit deel afronden →",
+    "next": "Volgende:",
+    "continue": "Verder →",
+    "reviewedBy": "Nagekeken door {name} · {date}",
+    "reviewedCount": "Nagekeken door een leraar: {n} van {m} lessen",
+    "metaMore": "Uitgelegd in al-Mabadi', de grondslagen van sarf en nahw, met het Arabisch, voorbeelden en een korte toets.",
+    "inGlossary": "Vrij te lezen: {name} in de begrippenlijst →"
+  },
+  "text": {
+    "title": "De tekst van de {title}",
+    "pageTitle": "{title}: Arabische tekst en vertaling",
+    "description": "De {title} van {author}, zin voor zin: het Arabisch met klinkertekens en een vertaling, elke zin gekoppeld aan de begrippen die erin voorkomen.",
+    "about": "Over deze tekst en uitgave",
+    "eyebrow": "De tekst",
+    "author": "Auteur:",
+    "arabicAfter": "Arabische tekst volgens:",
+    "note": "De vertaling is van The Nahwi zelf. Paginanummers verwijzen naar deze uitgave.",
+    "draft": "Concept · vertaling nog niet nagekeken",
+    "preparing": "De tekst wordt voorbereid op basis van een gedrukte uitgave en verschijnt hier zin voor zin.",
+    "sentence": "Zin {n}",
+    "library": "Teksten",
+    "libraryLead": "Kies een tekst om te lezen. Er komen later meer teksten bij.",
+    "read": "Lezen",
+    "passages": "{n} passages",
+    "commentary": "Commentaar",
+    "commentaryNote": "Het Arabisch volgt de gedrukte editie hieronder, zonder de noten van de moderne bezorger.",
+    "onMatn": "Bij de matn: {n}",
+    "page": "p. {n}"
+  },
+  "practice": {
+    "title": "Oefenen: tikrar",
+    "description": "Herhaal de lessen die je hebt gehaald: kies de onderdelen, hussel vragen en antwoorden en test jezelf.",
+    "lead": "Herhaal wat je hebt gehaald. Kies één of meer lessen (of alles tegelijk), hussel en maak een herhalingstoets. Lessen die je nog niet hebt gehaald, blijven op slot.",
+    "questions": "{n} vragen",
+    "notStarted": "niet begonnen",
+    "score": "{right} van {total} goed",
+    "setTitle": "Oefenen: {chapter}",
+    "setDescription": "{n} korte vragen over {chapter} in de Arabische grammatica (sarf en nahw), elk met uitleg.",
+    "progress": "<span data-progress>0</span> van {n} beantwoord · <span data-right>0</span> goed",
+    "question": "Vraag {n}",
+    "answersTo": "Antwoorden op vraag {n}",
+    "right": "Goed.",
+    "wrong": "Niet helemaal.",
+    "see": "Zie:",
+    "again": "Opnieuw beginnen",
+    "nextSet": "Volgende: {chapter} →",
+    "all": "Alle oefeningen →",
+    "selectAll": "Alles selecteren",
+    "shuffleQuestions": "Vragen husselen",
+    "shuffleAnswers": "Antwoorden husselen",
+    "count": "{n} vragen",
+    "none": "Kies minstens één les",
+    "start": "Start",
+    "reshuffle": "Opnieuw husselen en starten",
+    "choose": "Andere lessen kiezen",
+    "locked": "eerst de les halen",
+    "howTitle": "Zo werkt het",
+    "how": [
+      "Open een boek en vink de lessen aan die je wilt herhalen, of een heel hoofdstuk of boek",
+      "Hussel de vragen en antwoorden als je wilt",
+      "Druk op Start en antwoord: elke vraag legt zichzelf uit"
+    ],
+    "emptyTitle": "Nog niets om te herhalen",
+    "emptyBody": "Tikrar gaat open met je eerste gehaalde les: haal de toets van een les met minstens twee sterren, en die les verschijnt hier.",
+    "emptyCta": "Naar het studieportaal",
+    "passedOf": "{n} van {m} gehaald",
+    "notYet": "Nog niet gehaald: {n}. Ze komen bij tikrar zodra je ze haalt.",
+    "chosen": "Gekozen: {n}",
+    "options": "Opties",
+    "yourPath": "Jouw pad",
+    "selectBook": "Alle gehaalde lessen van dit boek",
+    "toBook": "Naar {book}",
+    "otherPaths": "Andere paden",
+    "dueTitle": "Te herhalen",
+    "dueToday": "Vandaag te herhalen: {list}",
+    "dueNext": "Vandaag niets te herhalen. Volgende herhaling: {date}.",
+    "dueHow": "Elke gehaalde les komt terug na 1, 3, 7, 14, 30 en 60 dagen, daarna elke 120; na een herhaling met minder dan twee sterren de volgende dag. Het schema wordt in deze browser bewaard.",
+    "dueStart": "Nu herhalen",
+    "dueSaved": "Volgende herhaling van deze lessen: {date}."
+  },
+  "complete": {
+    "title": "{name}: afgerond",
+    "description": "Je hebt {name} in al-Mabadi' afgerond.",
+    "eyebrow": "{name} afgerond",
+    "finished": "Je hebt {name} afgerond",
+    "finishedBook": "Je hebt al-Mabadi' afgerond",
+    "count": "{n} begrippen in dit deel.",
+    "read": "Je hebt {read} van de {total} begrippen in dit deel gelezen.",
+    "notRead": "Nog niet gelezen:",
+    "continueTo": "Verder met {name} →",
+    "readWhole": "Lees de hele tekst →",
+    "practise": "Oefen dit deel",
+    "home": "Terug naar de startpagina",
+    "testYourself": "Test jezelf",
+    "questions": "{chapter} · {n} vragen"
+  },
+  "search": {
+    "placeholder": "Zoek: geslacht, jins, جنس…",
+    "hint": "Zoek in deze taal, in de uitspraak in Latijnse letters of in het Arabisch, met of zonder klinkertekens.",
+    "none": "Niets gevonden. Probeer een andere spelling, of het Arabisch.",
+    "close": "Zoeken sluiten",
+    "results": "Resultaten",
+    "where": "{part} · {chapter}",
+    "textWhere": "Tekst · {chapter} · {n}"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "description": "Wat The Nahwi bewaart en meet: geen accounts, geen cookies, geen volgen over sites heen.",
+    "intro": "The Nahwi heeft geen accounts en plaatst geen cookies.",
+    "deviceTitle": "Op je apparaat",
+    "device": "Je voortgang, het madrasapad dat je koos, je antwoorden bij de oefeningen, wanneer elke les weer aan de beurt is voor herhaling, hoeveel toetsen je per dag maakt en je dagdoel, je keuzes voor het thema, de transliteratie, de klinkertekens en het lettertype, en de datum van het nieuwste nieuws dat je hebt gezien (om te tonen wat nieuw is) worden bewaard in de lokale opslag van je browser. Ze verlaten je apparaat nooit. Als je je browsergegevens wist, zijn ze weg.",
+    "offline": "Zodat je offline kunt lezen, bewaart de site de cursus, de teksten en de pagina's die je hebt gelezen in de cache van je browser.",
+    "statsTitle": "Bezoekersstatistieken",
+    "stats": "Om te zien welke pagina's worden gebruikt, tellen we paginaweergaven met Vercel Web Analytics. Dat gebruikt geen cookies, volgt je niet naar andere sites en slaat je IP-adres niet op; bezoeken worden alleen in totalen geteld. De lettertypen komen van deze site zelf, dus je browser maakt geen contact met Google of een andere letterdienst. De knoppen “Google Translate” onder de oude teksten sturen die passage alleen naar Google Translate als je erop klikt.",
+    "contactTitle": "Het contactformulier",
+    "contact": "Wat je in het contactformulier schrijft (je naam, e-mailadres, onderwerp en bericht) wordt per e-mail naar {email} gestuurd, via de maildienst Resend, zodat we het kunnen lezen en beantwoorden. Het wordt niet op deze site bewaard en nergens anders voor gebruikt.",
+    "errorsTitle": "Foutmeldingen",
+    "errors": "Als een script op een pagina in je browser misgaat, wordt een kort bericht naar de site gestuurd zodat we het kunnen herstellen: de pagina, de foutmelding, waar in het script het gebeurde en de naam van je browser. Er staat niets over jou in, ook niet je IP-adres; het blijft alleen korte tijd in het serverlog staan en wordt nergens anders voor gebruikt.",
+    "descriptionAccounts": "Wat The Nahwi bewaart en meet: accounts naar keuze, bewaard in de EU, geen cookies, geen volgen over sites heen.",
+    "introAccounts": "The Nahwi plaatst geen cookies. Een account is niet verplicht: alles wat open is, blijft ook zonder account open, en je voortgang blijft dan gewoon op dit apparaat.",
+    "deviceAccounts": "Je voortgang, het gekozen madrasapad, je oefenantwoorden, wanneer elke les weer aan de beurt is voor herhaling, hoeveel toetsen je per dag maakt en je dagdoel, je keuzes voor thema, transliteratie, klinkertekens en lettertype, en de datum van het nieuwste nieuws dat je zag (om te tonen wat nieuw is) staan in de lokale opslag van je browser. Ze blijven op je apparaat, tenzij je inlogt (zie hieronder). Wis je je browsergegevens, dan verdwijnen ze van dit apparaat.",
+    "hearts": "Je hartjes (hoeveel toetsen je nu kunt maken en wanneer het volgende terugkomt), welke vragen je laatste toets van elke les stelde en of een les opnieuw gelezen moet worden, worden daar ook bewaard. Met een account worden je hartjes ook daarbij bewaard, zodat ze op elk apparaat gelijk zijn; een bijvulling die je bij Paddle koopt, wordt daar genoteerd.",
+    "accountTitle": "Als je inlogt",
+    "account": "Als je inlogt, met je e-mailadres of met Google, bewaart je account je e-mailadres, de scores van je toetsen, de stappen die je zag en het madrasapad dat je koos, zodat je op een ander apparaat verder kunt. Log je in met Google, dan geeft Google ons ook je naam en het adres van je profielfoto; meer vragen we niet. Het account staat bij Supabase in de Europese Unie (Frankfurt), dat voor de veiligheid ook een tijd een logboek van inlogpogingen bijhoudt (tijdstip en IP-adres); de inlogmails gaan via Resend. Je sessie staat in de lokale opslag van je browser, niet in een cookie. Op je accountpagina kun je alles downloaden wat over je is opgeslagen, of je account verwijderen; dan verdwijnt het met alles erin meteen.",
+    "accountApple": "Log je in met Apple, dan geeft Apple ons alleen je e-mailadres, of, als je ervoor kiest het te verbergen, een adres van Apple dat onze mails naar je doorstuurt; je naam geeft Apple niet door.",
+    "accountPassword": "Als je een wachtwoord kiest, bewaart Supabase daar alleen een versleutelde vorm van (een hash), nooit het wachtwoord zelf; wij kunnen het niet zien.",
+    "supportStore": "Om af en toe, en nooit vaak, om steun te vragen, houdt je browser ook bij hoeveel pagina's je hier hebt gelezen en wanneer de site het laatst vroeg; daarvan verlaat niets je apparaat.",
+    "app": "Als je The Nahwi opent vanuit de Android-app, noteert de site dat voor de sessie (in de sessie-opslag van je browser), zodat de app geen betalingen toont; Google Play staat betalingen in een app alleen toe via zijn eigen betaalsysteem. Dit wordt vergeten zodra de app sluit.",
+    "appIos": "In de iPhone-app worden de dagelijkse herinnering en het bericht dat je hartjes weer vol zijn op je telefoon ingesteld, op het tijdstip dat je hebt gekozen; de app onthoudt ook je taal voor de volgende keer dat hij start. Niets hiervan verlaat je telefoon.",
+    "accountCodes": "Verzilver je een toegangscode, dan bewaart je account ook de toegang die hij geeft en van welke code die komt, zodat een code per account één keer werkt, en een week lang hoeveel codes er per dag zijn geprobeerd (hoogstens tien), tegen raden. Een code uit een link (?redeem= of ?discount=) blijft in de sessieopslag van je browser tot je hem gebruikt of de browser sluit.",
+    "comments": "Als je onder een les een vraag of opmerking schrijft, bewaart je account het bericht, de naam die je opgeeft (of dat je zonder naam schreef), de les en de taal. Een moderator leest het voordat het verschijnt; daarna ziet iedereen het bericht met de naam die je opgaf, of als ‘een leerling’, maar nooit je e-mailadres. Je kunt een bericht altijd verwijderen, en wie zijn account verwijdert, verwijdert ze allemaal.",
+    "paymentsTitle": "Als je betaalt",
+    "payments": "Volledige toegang wordt verkocht door Paddle, de merchant of record, onder Paddles eigen privacybeleid: Paddle verwerkt je betaalgegevens, factuuradres en bonnen, en wij zien je kaartnummer nooit; in het dashboard van Paddle zien wij wat een verkoper nodig heeft, zoals je e-mailadres, je land en je betalingen. Om de prijs voor jouw land te tonen, laden de prijspagina en het abonneervenster het script van Paddle vanaf de servers van Paddle, die je IP-adres zien. Je account bewaart alleen wat volledige toegang nodig heeft: het nummer van je abonnement, de status en de data, en de links van Paddle om het op te zeggen of je betaalwijze te wijzigen. Verwijder je je account, dan verdwijnt dit aan onze kant; Paddle bewaart zijn betalingsgegevens zo lang als de wet vereist.",
+    "appStore": "In de iPhone-app koop je volledige toegang via Apple. RevenueCat, dat deze aankopen voor ons afhandelt, ontvangt het nummer van je account (een willekeurige id, niet je naam of adres) en wat je hebt gekocht; Apple handelt de betaling af, en wij zien je betaalgegevens nooit. Je account bewaart hetzelfde als bij een abonnement op de website: het nummer, de status en de data, en de link van Apple om het te beheren.",
+    "gifts": "Een gift via de steunknop wordt betaald op de eigen pagina van Stripe, onder het privacybeleid van Stripe; de site zelf bewaart er niets van."
+  },
+  "account": {
+    "link": "Account",
+    "signIn": "Inloggen",
+    "kicker": "Account bij The Nahwi",
+    "heroTitle": "Je studie, waar je ook bent",
+    "perks": [
+      "Je voortgang op je telefoon, tablet en laptop",
+      "Niets gaat verloren: de hoogste score telt altijd",
+      "Je gegevens blijven van jou: download of verwijder ze wanneer je wilt"
+    ],
+    "formTitle": "Inloggen of een account maken",
+    "signedInKicker": "Ingelogd",
+    "statTests": "Toetsen bewaard",
+    "statSteps": "Stappen gezien",
+    "planTitle": "Je toegang",
+    "planFree": "Gratis account: heel al-Mabadi' en de voorbeeldlessen van elk boek.",
+    "planPaid": "Volledige toegang, tot {date}.",
+    "planPaidOpen": "Volledige toegang.",
+    "planManage": "Abonnement beheren",
+    "planUpdate": "Betaalmethode wijzigen",
+    "planUpgrade": "Bekijk volledige toegang",
+    "title": "Je account",
+    "description": "Log in met je e-mail, Google of Apple om je voortgang te bewaren en op een ander apparaat verder te gaan. Een account is niet verplicht.",
+    "lead": "Een account is niet verplicht. Het bewaart je voortgang en laat je verdergaan op een ander apparaat. De encyclopedie en de voorbeeldlessen blijven ook zonder account open.",
+    "google": "Doorgaan met Google",
+    "apple": "Doorgaan met Apple",
+    "or": "of met je e-mail",
+    "email": "E-mailadres",
+    "send": "Stuur me een inlogmail",
+    "sending": "Versturen…",
+    "sentTitle": "Kijk in je mail",
+    "sent": "We hebben een mail gestuurd naar {email}. Klik op de link erin, of typ hier de code van 6 cijfers uit de mail. Niets binnen na een minuut? Kijk ook in je spammap of map met ongewenste mail.",
+    "code": "Code uit de mail",
+    "verify": "Inloggen",
+    "verifying": "Inloggen…",
+    "resend": "Stuur een nieuwe mail",
+    "resendIn": "Over {s} seconden kun je een nieuwe mail vragen.",
+    "other": "Ander e-mailadres gebruiken",
+    "privacyNote": "Wat een account bewaart, en waar, staat op de {link}.",
+    "privacyLink": "privacypagina",
+    "signedInAs": "Ingelogd als {email}",
+    "viaGoogle": "via Google",
+    "viaApple": "via Apple",
+    "viaEmail": "via e-mail",
+    "welcome": "Je bent ingelogd. Je voortgang wordt nu in je account bewaard.",
+    "progressTitle": "Je voortgang",
+    "progress": "Bewaard in je account: {tests} en {steps}.",
+    "savedAt": "Laatst bewaard: {time}.",
+    "saveNow": "Nu bewaren",
+    "saving": "Bewaren…",
+    "continue": "Verder studeren",
+    "signOut": "Uitloggen",
+    "signOutNote": "Na het uitloggen blijft je voortgang ook op dit apparaat staan.",
+    "dataTitle": "Je gegevens",
+    "dataBody": "Download alles wat over je is opgeslagen, of verwijder je account.",
+    "download": "Mijn gegevens downloaden",
+    "delete": "Mijn account verwijderen",
+    "deleteConfirm": "Dit verwijdert je account en de voortgang die erin staat, meteen en voorgoed. De voortgang in deze browser blijft staan.",
+    "deleteYes": "Voorgoed verwijderen",
+    "cancel": "Annuleren",
+    "deleted": "Je account is verwijderd.",
+    "loading": "Een moment…",
+    "offline": "Om in te loggen heb je internet nodig.",
+    "errors": {
+      "invalidEmail": "Vul een geldig e-mailadres in.",
+      "invalidCode": "Die code klopt niet of is verlopen. Typ hem opnieuw, of vraag een nieuwe mail.",
+      "rate": "Te veel pogingen. Wacht een minuut en probeer het opnieuw.",
+      "link": "Deze link werkt hier niet. Open hem in de browser waarin je hem aanvroeg, of typ de code uit de mail.",
+      "generic": "Er ging iets mis. Probeer het zo nog eens.",
+      "wrongPassword": "Dat e-mailadres en wachtwoord horen niet bij elkaar. Nog geen wachtwoord? Log in met een code en kies er een op je accountpagina.",
+      "weakPassword": "Kies een wachtwoord van 8 tot 72 tekens.",
+      "exists": "Dit adres heeft al een account. Log in met je wachtwoord, of met een code en kies daarna een wachtwoord op je accountpagina.",
+      "samePassword": "Dat is al je wachtwoord.",
+      "reauth": "Voor je veiligheid: log uit, log opnieuw in met een code en kies daarna je wachtwoord."
+    },
+    "paidThanks": "Dank je wel! Je volledige toegang wordt ingesteld en staat hier binnen een minuut.",
+    "paidDone": "Je hebt volledige toegang: elk pad, elk boek en elk niveau staat open.",
+    "redeemTitle": "Heb je een code?",
+    "redeemLabel": "Toegangscode",
+    "redeem": "Verzilveren",
+    "redeeming": "Controleren…",
+    "redeemNote": "Een code van The Nahwi geeft volledige toegang zonder te betalen, zo lang als de code aangeeft. Een kortingscode voor een abonnement vul je in bij het betalen.",
+    "redeemOk": "Gelukt: je hebt volledige toegang tot {date}.",
+    "redeemOkOpen": "Gelukt: je hebt volledige toegang, zonder einddatum.",
+    "redeemSignIn": "Log in, dan staat je code {code} al ingevuld.",
+    "redeemErrors": {
+      "unknown": "Deze code is niet bekend. Controleer hem, of vraag het aan wie je hem gaf.",
+      "expired": "Deze code is verlopen.",
+      "used-up": "Deze code is al zo vaak gebruikt als mag.",
+      "already": "Je hebt deze code al verzilverd.",
+      "too-many": "Te veel pogingen vandaag. Probeer het morgen opnieuw.",
+      "signed-out": "Log eerst in om een code te verzilveren.",
+      "other": "De code kon niet worden gecontroleerd. Probeer het zo opnieuw."
+    },
+    "modeLabel": "Hoe je met je e-mail inlogt",
+    "modeCode": "Code per e-mail",
+    "modePassword": "Wachtwoord",
+    "password": "Wachtwoord",
+    "passwordHint": "8 tot 72 tekens.",
+    "signingIn": "Bezig met inloggen…",
+    "create": "Account maken",
+    "creating": "Je account wordt gemaakt…",
+    "toCreate": "Nieuw hier? Maak een account met een wachtwoord",
+    "toSignIn": "Ik heb al een account",
+    "forgot": "Wachtwoord vergeten?",
+    "forgotNote": "Geen probleem: log in met een code uit je mail en kies daarna een nieuw wachtwoord op je accountpagina.",
+    "unconfirmed": "Je adres is nog niet bevestigd, dus we hebben je een nieuwe code gemaild.",
+    "passwordTitle": "Wachtwoord",
+    "passwordBody": "Kies een wachtwoord om de volgende keer in te loggen zonder op een mail te wachten. Inloggen met een code, Google of Apple blijft werken.",
+    "newPassword": "Nieuw wachtwoord",
+    "savePassword": "Wachtwoord opslaan",
+    "savingPassword": "Bezig met opslaan…",
+    "passwordSaved": "Je wachtwoord is opgeslagen. De volgende keer kun je inloggen met je e-mail en dit wachtwoord."
+  },
+  "pricing": {
+    "title": "Prijzen",
+    "description": "Bestudeer sarf en nahw gratis met een account, of open elk pad en elk niveau met volledige toegang. Eerlijke prijzen in elk land.",
+    "kicker": "Toegang",
+    "heroTitle": "Bestudeer de Arabische grammatica zoals de madrasa's die onderwezen",
+    "heroSub": "De encyclopedie is gratis voor iedereen. Een gratis account opent heel al-Mabadi', de grondslagen van sarf en nahw; volledige toegang opent elk pad, elk boek en elk niveau.",
+    "plans": {
+      "anon": {
+        "name": "Zonder account",
+        "price": "Gratis",
+        "items": [
+          "De hele encyclopedie: handboeken, geleerden, bibliotheek en nieuws",
+          "Drie voorbeeldlessen in elk boek",
+          "Je voortgang blijft op dit apparaat"
+        ],
+        "unit": "altijd"
+      },
+      "free": {
+        "name": "Gratis account",
+        "price": "Gratis",
+        "items": [
+          "Alles wat zonder account open is",
+          "Heel al-Mabadi': elk begrip met zijn toets",
+          "Je voortgang op al je apparaten"
+        ],
+        "cta": "Maak een gratis account",
+        "ctaIn": "Je hebt een gratis account",
+        "unit": "met een account"
+      },
+      "full": {
+        "name": "Volledige toegang",
+        "perYear": "of {price} per jaar: twee maanden gratis",
+        "items": [
+          "Elk madrasapad: Indiaas, Ottomaans en Noord-Afrikaans",
+          "Elk boek en elk niveau, van de eerste beginnersboeken tot al-Kafiya en de Alfiyya",
+          "Tikrar over alles wat je hebt gehaald",
+          "Nieuwe boeken en lessen zodra ze erbij komen"
+        ],
+        "cta": "Abonneren",
+        "soon": "Binnenkort",
+        "cancel": "Altijd opzegbaar.",
+        "unit": "per maand",
+        "unitYear": "per jaar",
+        "ctaYearly": "Neem een jaarabonnement",
+        "ctaMonthly": "Of per maand",
+        "yearlyFine": "Per jaar: één betaling per jaar, verlengd tot je opzegt.",
+        "signInFirst": "Je logt eerst in of maakt een gratis account, zodat je toegang daaraan gekoppeld wordt.",
+        "opening": "Het afrekenscherm wordt geopend…",
+        "error": "Het afrekenscherm kon niet worden geopend. Probeer het opnieuw, of schrijf ons.",
+        "yourPrice": "Jouw prijs"
+      }
+    },
+    "regionalTitle": "Een eerlijke prijs in elk land",
+    "regionalBody": "De prijzen hierboven gelden voor Europa, Noord-Amerika en de Golf; in het Verenigd Koninkrijk kost volledige toegang {uk} per maand, in ponden. Elders is het lager: {middle} per maand of {middleYear} per jaar in landen als Turkije, Maleisië en Zuid-Afrika, en {low} per jaar in landen als India, Pakistan, Indonesië, Egypte en Nigeria. Bij het afrekenen zie je de prijs voor jouw land.",
+    "madrasaTitle": "Voor een madrasa of een klas",
+    "madrasaBody": "Een leraar of een madrasa kan volledige toegang openen voor een hele klas, met een plek voor elke leerling.",
+    "madrasaCta": "Vraag naar een klaslicentie",
+    "faqTitle": "Vragen",
+    "faq": [
+      [
+        "Wie verzorgt de betaling?",
+        "Onze bestellingen lopen via onze online wederverkoper Paddle.com. Paddle.com is de Merchant of Record voor al onze bestellingen. Paddle beantwoordt alle vragen van klanten en handelt retouren af."
+      ],
+      [
+        "Kan ik opzeggen?",
+        "Ja, op elk moment. Je toegang loopt door tot het einde van de periode waarvoor je hebt betaald."
+      ],
+      [
+        "Kan ik mijn geld terugkrijgen?",
+        "Wij betalen geen betalingen terug. Terugbetalingen lopen via Paddle, onze wederverkoper, volgens het terugbetaalbeleid van Paddle, dat het herroepingsrecht behoudt dat de wet consumenten in sommige landen geeft. Zie het terugbetaalbeleid."
+      ],
+      [
+        "Is de inhoud nagekeken?",
+        "Alle uitleg is een concept tot een bevoegde leraar Arabische grammatica die heeft gecontroleerd; bij elke les staat of die al gecontroleerd is."
+      ]
+    ],
+    "terms": "Algemene voorwaarden",
+    "refunds": "Terugbetaalbeleid",
+    "localNote": "Prijzen voor Europa, Noord-Amerika en de Golf. Bij het afrekenen zie je de prijs voor jouw land: in ponden in het Verenigd Koninkrijk en lager in veel andere landen."
+  },
+  "access": {
+    "freeKicker": "Gratis met een account",
+    "freeBody": "Heel al-Mabadi' is gratis zodra je een account hebt: elk begrip met zijn toets. Het kost een minuut, met je e-mail, Google of Apple.",
+    "freeCta": "Maak een gratis account",
+    "paidKicker": "Volledige toegang",
+    "paidBody": "Deze les hoort bij volledige toegang, die elk madrasapad, elk boek en elk niveau opent. Van elk boek kun je drie lessen gratis bekijken als voorbeeld.",
+    "paidCta": "Bekijk de prijzen",
+    "signIn": "Inloggen",
+    "previews": "Lees de gratis voorbeeldlessen"
+  },
+  "subscribe": {
+    "kicker": "Volledige toegang",
+    "title": "Elk pad, elk boek en elk niveau",
+    "perks": [
+      "Elk madrasapad: Indiaas, Ottomaans en Noord-Afrikaans",
+      "Elk boek en elk niveau, met de toetsen en tikrar",
+      "Nieuwe boeken en lessen zodra ze erbij komen"
+    ],
+    "fine": "Altijd opzegbaar. Prijzen inclusief btw. Je bank kan de machtiging tonen als geldig tot 31-12-9999: dat betekent alleen ‘tot je opzegt’.",
+    "close": "Sluiten",
+    "planLegend": "Kies hoe je betaalt",
+    "yearly": "Per jaar",
+    "yearlyNote": "twee maanden gratis",
+    "monthly": "Per maand",
+    "perMonth": "per maand",
+    "perYear": "per jaar",
+    "continue": "Verder",
+    "signinTitle": "Eerst je gratis account",
+    "signinBody": "Zodat volledige toegang aan jou gekoppeld is, op elk apparaat. Het kost een minuut.",
+    "signedInAs": "Ingelogd als {email}",
+    "toCheckout": "Verder naar betalen",
+    "opening": "Het betalen wordt geopend…",
+    "error": "Het betalen kon niet worden geopend. Probeer het opnieuw, of schrijf ons.",
+    "localNote": "De prijs geldt voor jouw land.",
+    "back": "Terug"
+  },
+  "support": {
+    "link": "Steun ons",
+    "kicker": "Steun The Nahwi",
+    "title": "Help de grammatica van de madrasa binnen bereik te houden",
+    "body": "The Nahwi wordt gemaakt door één persoon, met een leraar die de lessen controleert. De encyclopedie blijft gratis voor iedereen; je steun betaalt nieuwe boeken, vertalingen en de tijd van de leraar.",
+    "donateTitle": "Geef een gift",
+    "donateBody": "Elk bedrag dat je kiest, eenmalig.",
+    "donateCta": "Geven",
+    "thanks": "Jazakum Allahu khayran — moge God je met het goede belonen.",
+    "close": "Sluiten",
+    "notNow": "Nu niet"
+  },
+  "legal": {
+    "updated": "Laatst bijgewerkt: {date}",
+    "draft": "Deze tekst is een concept en kan nog veranderen.",
+    "translation": "Dit is een vertaling; bij verschil geldt de Engelse tekst.",
+    "terms": {
+      "title": "Algemene voorwaarden",
+      "description": "De voorwaarden voor het gebruik van The Nahwi, het gratis account en de betaalde volledige toegang.",
+      "sections": [
+        [
+          "De dienst",
+          "The Nahwi (thenahwi.com) is een website om sarf en nahw te bestuderen, de klassieke Arabische grammatica van de madrasa: een encyclopedie die voor iedereen open is, en een studieportaal met cursussen, teksten en toetsen. De site wordt beheerd door {owner}. Je bereikt ons via {email}."
+        ],
+        [
+          "Accounts",
+          "Een account is niet verplicht. Je logt in met je e-mailadres of met Google. Houd de toegang tot je e-mail veilig, want een inlogmail opent je account. Je kunt je account altijd verwijderen op je accountpagina."
+        ],
+        [
+          "Gratis en betaalde toegang",
+          "Zonder account kun je de encyclopedie lezen en drie voorbeeldlessen in elk boek. Een gratis account opent daarnaast heel al-Mabadi'. Volledige toegang, een betaald abonnement, opent elk pad, elk boek en elk niveau. Een madrasa of leraar kan toegang kopen voor een klas. Volledige toegang is een abonnement, per maand of per jaar, dat wordt verlengd tot je het opzegt. Levenslange toegang die voor 25 november 2026 is gekocht, blijft geldig zolang de site bestaat; we kunnen de toekomst niet garanderen, maar we doen ons best om de site in de lucht te houden en je te ondersteunen."
+        ],
+        [
+          "Betaling",
+          "Onze bestellingen lopen via onze online wederverkoper Paddle.com. Paddle.com is de Merchant of Record voor al onze bestellingen. Paddle beantwoordt alle vragen van klanten en handelt retouren en terugbetalingen af. Prijzen zijn inclusief btw of omzetbelasting en kunnen per land verschillen. Een abonnement wordt aan het eind van elke periode verlengd tot je het opzegt."
+        ],
+        [
+          "Opzeggen en terugbetalen",
+          "Je kunt je abonnement altijd opzeggen; je toegang loopt door tot het einde van de periode waarvoor je hebt betaald, en geen deel van een periode wordt terugbetaald. Wij betalen zelf niets terug: terugbetalingen lopen via Paddle volgens zijn terugbetaalbeleid (paddle.com/legal/refund-policy), inclusief een herroepingsrecht dat de wet van jouw land je geeft. Zie het terugbetaalbeleid. Levenslange toegang is geen abonnement: er valt niets op te zeggen."
+        ],
+        [
+          "De inhoud",
+          "De uitleg, vertalingen en toetsen zijn geschreven om te studeren en zijn concepten tot een bevoegde leraar ze heeft gecontroleerd; bij elke les staat of die gecontroleerd is. Ze vervangen geen leraar. De oude teksten worden gegeven naar drukken die in het publieke domein zijn; onze vertalingen, uitleg en toetsen zijn van The Nahwi. Je mag ze citeren voor studie en onderwijs met een verwijzing naar de site, maar de cursussen niet als geheel overnemen of elders aanbieden."
+        ],
+        [
+          "Redelijk gebruik",
+          "Deel je account niet, probeer de toegangsregels niet te omzeilen en belast de site niet onredelijk. Een account dat dat doet, kunnen we sluiten."
+        ],
+        [
+          "Wijzigingen en beschikbaarheid",
+          "We houden de site zo goed mogelijk in de lucht, maar kunnen niet beloven dat hij altijd beschikbaar of foutloos is. We kunnen deze voorwaarden wijzigen; een wijziging die voor abonnees van belang is, laten we je vooraf per e-mail weten."
+        ],
+        [
+          "Aansprakelijkheid en recht",
+          "Voor zover de wet dat toestaat, is The Nahwi niet aansprakelijk voor indirecte schade door het gebruik van de site. Het Nederlands recht is van toepassing. Woon je in de Europese Unie, dan beschermt ook het consumentenrecht van je eigen land je."
+        ]
+      ]
+    },
+    "refunds": {
+      "title": "Terugbetaalbeleid",
+      "description": "Hoe terugbetalingen werken bij The Nahwi: betalingen worden afgehandeld door Paddle, volgens het terugbetalingsbeleid van Paddle.",
+      "sections": [
+        [
+          "Het terugbetaalbeleid van Paddle",
+          "Onze bestellingen lopen via onze online wederverkoper Paddle.com, de Merchant of Record voor al onze bestellingen. Terugbetalingen lopen via Paddle volgens zijn terugbetaalbeleid, op paddle.com/legal/refund-policy. Daarbuiten bieden wij zelf geen terugbetalingen."
+        ],
+        [
+          "Je rechten volgens de wet",
+          "Waar de wet van jouw land consumenten een recht geeft om een aankoop van digitale inhoud of diensten te herroepen, zoals in de Europese Unie en het Verenigd Koninkrijk, geldt dat recht zoals beschreven in het terugbetaalbeleid van Paddle."
+        ],
+        [
+          "Opzeggen",
+          "Je kunt een abonnement altijd opzeggen, via de link in je bon van Paddle of via je accountpagina. Je toegang loopt door tot het einde van de periode waarvoor je hebt betaald; de rest van een begonnen periode wordt niet terugbetaald. Een levenslange aankoop van voor 25 november 2026 wordt door Paddle terugbetaald volgens zijn terugbetalingsbeleid; de volledige toegang stopt dan."
+        ],
+        [
+          "Hoe vraag je het aan",
+          "Vraag het aan Paddle op paddle.net, of antwoord op je bon van Paddle. Je kunt ook schrijven naar {email}."
+        ]
+      ]
+    }
+  },
+  "offline": {
+    "title": "Je bent offline",
+    "description": "Deze pagina is nog niet op dit apparaat opgeslagen.",
+    "body": "Deze pagina is nog niet op dit apparaat bewaard. De cursus, alle begrippen en de oefeningen worden bewaard zodra je The Nahwi online hebt geopend, zodat je verder kunt lezen.",
+    "back": "Terug naar de cursus"
+  },
+  "diagram": {
+    "scWord": "Het Arabische woord",
+    "scSarf": "Sarf",
+    "scSarfSub": "zijn vorm: het woord op zichzelf",
+    "scNahw": "Nahw",
+    "scNahwSub": "zijn uitgang: het woord in de zin",
+    "kWord": "Het woord",
+    "kNoun": "Naamwoord",
+    "kNounSub": "een betekenis, geen tijd",
+    "kVerb": "Werkwoord",
+    "kVerbSub": "een betekenis en een tijd",
+    "kParticle": "Partikel",
+    "kParticleSub": "betekenis alleen met een ander woord",
+    "kSpeech": "Kalam",
+    "kSpeechSub": "woorden samen tot een volledige uitspraak",
+    "mzScale": "De weegschaal",
+    "mzLam": "lam",
+    "mzLamSub": "3e stamletter",
+    "mzAyn": "'ayn",
+    "mzAynSub": "2e stamletter",
+    "mzFa": "fa'",
+    "mzFaSub": "1e stamletter",
+    "mzBare": "Kaal",
+    "mzBareSub": "alleen stamletters: nasara",
+    "mzAdded": "Vermeerderd",
+    "mzAddedSub": "letters erbij: akrama",
+    "fVerb": "Het werkwoord",
+    "fPast": "Verleden",
+    "fPastSub": "nasara, hij hielp",
+    "fPresent": "Heden",
+    "fPresentSub": "yansuru, hij helpt",
+    "fCommand": "Gebod",
+    "fCommandSub": "unsur, help!",
+    "shRoot": "De stamletters",
+    "shSound": "Gaaf",
+    "shSoundSub": "geen zwakke letter: kataba",
+    "shWeak": "Zwak",
+    "shWeakSub": "een waw, ya' of alif: qala, rama",
+    "msMasdar": "Masdar",
+    "msMasdarSub": "de handeling zelf: nasr",
+    "msFail": "Actief deelwoord",
+    "msFailSub": "de doener: nasir",
+    "msMaful": "Passief deelwoord",
+    "msMafulSub": "wie de handeling ondergaat: mansur",
+    "irEnd": "Het eind van het woord",
+    "irChanges": "Mu'rab",
+    "irChangesSub": "de uitgang verandert",
+    "irFixed": "Mabni",
+    "irFixedSub": "de uitgang blijft",
+    "irRaf": "Raf'",
+    "irRafSub": "damma",
+    "irNasb": "Nasb",
+    "irNasbSub": "fatha",
+    "irJarr": "Khafd",
+    "irJarrSub": "kasra, naamwoorden",
+    "irJazm": "Jazm",
+    "irJazmSub": "sukun, werkwoorden",
+    "jSentence": "De zin",
+    "jNominal": "Naamwoordzin",
+    "jNominalSub": "begint met een naamwoord",
+    "jVerbal": "Werkwoordzin",
+    "jVerbalSub": "begint met een werkwoord",
+    "jMubtada": "Mubtada'",
+    "jKhabar": "Khabar",
+    "jVerb": "Werkwoord",
+    "jDoer": "Fa'il",
+    "jObject": "Maf'ul bihi",
+    "cap": {
+      "sciences.all": "Sarf bestudeert het woord op zichzelf, nahw het woord in de zin.",
+      "sciences.sarf": "Sarf: de vorm van het woord op zichzelf, zijn wortel en patroon.",
+      "sciences.nahw": "Nahw: het woord in de zin, zijn rol en zijn uitgang.",
+      "kalima.all": "Elk woord is een naamwoord, een werkwoord of een partikel; woorden die samen een volledige uitspraak vormen, zijn kalam.",
+      "kalima.kalima": "Het woord valt in drie soorten uiteen, en niets valt daarbuiten.",
+      "kalima.kalam": "Kalam: woorden zo samengevoegd dat de betekenis volledig is.",
+      "kalima.ism": "Het naamwoord: een betekenis zonder tijd.",
+      "kalima.fil": "Het werkwoord: een betekenis samen met een tijd.",
+      "kalima.harf": "Het partikel: zijn betekenis verschijnt pas met een ander woord.",
+      "mizan.all": "Elk woord wordt gewogen tegen fa'ala: fa', 'ayn en lam staan voor zijn drie stamletters.",
+      "mizan.mizan": "De weegschaal fa'ala: fa', 'ayn en lam staan voor de eerste, tweede en derde stamletter.",
+      "mizan.mujarrad": "De kale vorm: alleen stamletters.",
+      "mizan.mazid": "De vermeerderde vorm: letters toegevoegd aan de wortel.",
+      "fil.all": "Het werkwoord heeft drie vormen: verleden, heden en gebod.",
+      "fil.madi": "De madi: een handeling voor het moment van spreken.",
+      "fil.mudari": "De mudari': een handeling nu of straks.",
+      "fil.amr": "De gebiedende wijs: gevormd uit de mudari' van de aangesproken persoon.",
+      "sahih.all": "Een wortel is gaaf, of zwak als hij een waw, ya' of alif heeft.",
+      "sahih.sahih": "Het gave werkwoord: geen zwakke letter onder zijn stamletters.",
+      "sahih.mutall": "Het zwakke werkwoord: een waw, ya' of alif onder zijn stamletters.",
+      "mushtaqq.all": "Uit één wortel: de handeling, de doener en wie de handeling ondergaat.",
+      "mushtaqq.masdar": "De masdar noemt de handeling zelf.",
+      "mushtaqq.fail": "Het actief deelwoord noemt de doener.",
+      "mushtaqq.maful": "Het passief deelwoord noemt wie de handeling ondergaat.",
+      "irab.all": "De uitgang van een woord verandert (mu'rab) of blijft (mabni); de veranderingen zijn raf', nasb, khafd en jazm.",
+      "irab.irab": "I'rab: de uitgang verandert met de regeerder.",
+      "irab.bina": "Bina': de uitgang blijft, wat het woord ook regeert.",
+      "irab.anwa": "De vier toestanden en hun basistekens.",
+      "jumla.all": "Een zin begint met een naamwoord of met een werkwoord.",
+      "jumla.ismiyya": "De naamwoordzin: een mubtada' en zijn khabar.",
+      "jumla.mubtada": "De mubtada': het naamwoord waarmee de zin begint en waarover hij spreekt.",
+      "jumla.khabar": "De khabar: wat over de mubtada' wordt gezegd.",
+      "jumla.filiyya": "De werkwoordzin: een werkwoord, zijn fa'il en, als het er een neemt, een maf'ul bihi.",
+      "jumla.fail": "De fa'il: de doener na zijn werkwoord.",
+      "jumla.maful": "De maf'ul bihi: degene op wie de handeling valt."
+    }
+  },
+  "gloss": {
+    "label": "Uitleg bij “{word}”",
+    "open": "Naar het begrip",
+    "close": "Sluiten"
+  },
+  "lock": {
+    "title": "Op slot",
+    "termBody": "De begrippen gaan één voor één open: haal bij de toets van een begrip minstens twee sterren (6 van de 10) om het volgende te openen. Je bent nu bij {name}.",
+    "linkBody": "De begrippen gaan één voor één open. Haal eerst minstens twee sterren (6 van de 10) bij de toets van {name}.",
+    "practiceBody": "Deze oefening gaat open als je alle begrippen van dit hoofdstuk hebt gehaald. Je bent nu bij {name}.",
+    "commentary": "Dit begrip komt uit de commentaren; het volgt na de eerste lezing.",
+    "sources": "Behandeld in: {list}.",
+    "cta": "Naar {name}"
+  },
+  "quiz": {
+    "title": "Test jezelf",
+    "intro": "{n} vragen. Met 6 of meer van de 10 (twee sterren) gaat het volgende begrip open.",
+    "score": "{score} van de 10",
+    "passed": "Gehaald: het volgende begrip is open.",
+    "failed": "Nog niet: je hebt minstens 6 van de 10 nodig. Lees het begrip nog eens en probeer het opnieuw.",
+    "again": "Opnieuw",
+    "best": "Beste score: {score}",
+    "starsLabel": "{n} van de 3 sterren",
+    "hearts": "{n} van 5 hartjes.",
+    "heartsNext": "Elke toets kost een hartje; het volgende komt terug over {time}.",
+    "heartsFull": "Elke toets kost een hartje; elke twee uur komt er een terug.",
+    "heartsEmpty": "Je hartjes zijn op. Neem even pauze en lees de les nog eens: over {time} komt er een nieuw hartje.",
+    "refill": "Alle hartjes bijvullen (€0,99)",
+    "refilling": "Je hartjes worden bijgevuld…",
+    "reread": "Deze keer niet gehaald. Lees de les opnieuw vanaf het begin en vink daarna het vakje hieronder aan om de toets nog eens te maken.",
+    "rereadLabel": "Ik heb de hele les opnieuw gelezen",
+    "examTitle": "Het examen",
+    "examFailed": "Nog niet: je hebt 20 van de 25 antwoorden goed nodig. Herhaal de lessen en probeer het opnieuw.",
+    "start": "Start de toets",
+    "startExam": "Start het examen",
+    "heartsTitle": "Hartjes",
+    "heartsHelp": "Je hebt vijf hartjes. Een toets of examen starten kost er één, en elke twee uur komt er één terug, tot vijf. Ze zijn er zodat je de lessen één voor één neemt en elke les laat bezinken voor de volgende. Herhalen (tikrar) kost niets.",
+    "heartsHelpRefill": "Hartjes op en geen zin om te wachten? Je kunt ze alle vijf tegelijk bijvullen.",
+    "refillsCount": "Gratis bijvullingen: {n}",
+    "freeRefill": "Gebruik een gratis bijvulling (nog {n})",
+    "earned": "Drie sterren op vijf lessen achter elkaar: je hebt een gratis bijvulling van al je hartjes verdiend.",
+    "heartsHelpFree": "Elk account begint met één gratis bijvulling, en verdient er een bij met drie sterren op vijf lessen achter elkaar."
+  },
+  "book": {
+    "title": "Het boek",
+    "lead": "Alles rond de handboeken van sarf en nahw: waar ze vandaan komen, de mensen die ze schreven, uitlegden en onderwezen, hun commentaren, glossen, edities en vertalingen.",
+    "articles": "Artikelen",
+    "scholars": "Geleerden",
+    "tree": "Van matn tot glosse",
+    "treeLead": "Het handboek, de commentaren die erop geschreven zijn, en de glossen die op die commentaren geschreven zijn.",
+    "people": "Personen in dit artikel",
+    "sources": "Bronnen",
+    "born": "geb.",
+    "died": "gest.",
+    "life": "Leven",
+    "works": "Werken",
+    "on": "op",
+    "onHisWork": "Geschreven op zijn werk",
+    "reception": "Ontvangst",
+    "uncertain": "onzeker",
+    "preparing": "Dit onderdeel wordt voorbereid.",
+    "kinds": {
+      "matn": "matn",
+      "sharh": "commentaar",
+      "hashiya": "glosse",
+      "taliq": "aantekeningen",
+      "nazm": "berijming",
+      "translation": "vertaling",
+      "edition": "editie",
+      "other": "werk",
+      "iraab": "grammaticale analyse",
+      "mukhtasar": "samenvatting",
+      "modern": "modern boek"
+    },
+    "roles": {
+      "author": "Auteur",
+      "forerunner": "Voorlopers",
+      "translator": "Vertalers",
+      "commentator": "Commentatoren",
+      "glossator": "Glossatoren",
+      "versifier": "Berijmers",
+      "teacher": "Leraren",
+      "editor": "Bezorgers",
+      "modern-scholar": "Moderne wetenschap",
+      "voice": "Stemmen over grammatica"
+    },
+    "booksLabel": "Boeken",
+    "books": {},
+    "circa": "ca.",
+    "or": "of",
+    "bce": "{y} v.Chr.",
+    "ceYear": "{y} n.Chr."
+  },
+  "catalogue": {
+    "title": "Catalogus van werken",
+    "lead": "Elk bekend werk dat over dit boek geschreven is: commentaren, glossen en glossen op glossen, aantekeningen, berijmingen, samenvattingen, vertalingen, edities en moderne boeken – met hun herkomst, of ze gedrukt zijn, en de bronnen. Werk in uitvoering: laat ons weten wat ontbreekt.",
+    "search": "Zoeken",
+    "kind": "Soort",
+    "region": "Regio",
+    "language": "Taal",
+    "status": "Status",
+    "all": "Alle",
+    "count": "{n} werken",
+    "countOne": "1 werk",
+    "more": "Details en bronnen",
+    "editions": "Edities",
+    "unplaced": "Geschreven op werken die (nog) niet in de catalogus staan",
+    "link": "Alle werken in de catalogus",
+    "statuses": {
+      "printed": "gedrukt",
+      "manuscript": "handschrift",
+      "lost": "verloren",
+      "unknown": "status onbekend"
+    },
+    "regions": {
+      "ottoman": "Osmaanse rijk",
+      "kurdistan": "Koerdistan",
+      "caucasus-volga": "Kaukasus en Wolga",
+      "central-asia": "Centraal-Azië",
+      "indian-subcontinent": "Indisch subcontinent",
+      "levant-iraq": "Levant en Irak",
+      "west-africa": "West-Afrika",
+      "sudan-east-africa": "Soedan en Oost-Afrika",
+      "yemen-hijaz": "Jemen en de Hidjaz",
+      "malay-indonesia": "Maleis-Indonesische wereld",
+      "iran": "Iran",
+      "egypt": "Egypte",
+      "maghrib": "Maghreb",
+      "west": "Europa en Amerika",
+      "other": "Overig"
+    }
+  },
+  "track": {
+    "nav": "Niveau 2",
+    "title": "De niveaus na al-Mabadi'",
+    "lead": "Lees na al-Mabadi' de boeken van je madrasapad les voor les: de tekst, onze uitleg met voorbeelden en schema's, en een korte toets.",
+    "lockedNote": "Niveau 2 gaat open zodra je elk begrip van de eerste lezing hebt gehaald.",
+    "trackName": "Niveau {track}",
+    "lessons": "{n} lessen",
+    "lessonOf": "Les {n} van {m}",
+    "matnRange": "Matn {range}",
+    "theMatn": "De matn",
+    "theCommentary": "Het commentaar",
+    "readFull": "Lees het hele commentaar",
+    "quizIntro": "{n} vragen over wat het commentaar uitlegt. Met 6 van de 10 of meer (twee sterren) gaat de volgende les open.",
+    "passed": "Gehaald: de volgende les is open.",
+    "failed": "Nog niet: je hebt minstens 6 van de 10 nodig. Lees het commentaar nog eens en probeer het opnieuw.",
+    "next": "Volgende les:",
+    "trackDone": "Dit was de laatste les van spoor {track}.",
+    "back": "Terug naar niveau {level}",
+    "lockBase": "Niveau 2 gaat open na de hele eerste lezing. Je bent nu bij {name}.",
+    "lockLesson": "Lessen gaan één voor één open. Haal eerst minstens twee sterren (6 van de 10) op de toets van les {name}.",
+    "lockPage": "Lessen gaan één voor één open: haal minstens twee sterren (6 van de 10) op de toets van een les om de volgende te openen.",
+    "readAsTrack": "Bestudeer het les voor les: niveau {track}",
+    "translationNote": "Vertaling voorlopig in het Engels.",
+    "blurbs": {},
+    "topics": {},
+    "lockLevel": "Niveau {level} gaat open zodra je elke les van niveau {prev} hebt gehaald.",
+    "levels": {
+      "1": {
+        "title": "Niveau 1: al-Mabadi'",
+        "lead": "De grondslagen van sarf en nahw, begrip voor begrip: elk begrip met zijn Arabisch, een heldere uitleg en een korte toets."
+      }
+    },
+    "theText": "De tekst",
+    "lessonN": "Les {n}",
+    "lockBook": "Dit boek gaat open zodra je elke les van {book} hebt gehaald."
+  },
+  "glossaryPage": {
+    "title": "Begrippen",
+    "description": "Alle begrippen van The Mantiqi van A tot Z, met het Arabisch en een korte definitie.",
+    "lead": "De begrippen van de eerste lezing, van A tot Z, met het Arabisch en een korte definitie. Open een begrip voor zijn les. Elk begrip van sarf en nahw staat, vrij te lezen, in de woordenlijst.",
+    "filter": "Zoek een begrip",
+    "none": "Geen begrip gevonden.",
+    "showLabel": "Toon",
+    "showAll": "Alle",
+    "showOpen": "Geopend",
+    "showLocked": "Nog niet geopend"
+  },
+  "about": {
+    "title": "Over The Nahwi",
+    "description": "Wat The Nahwi is, hoe de studiepaden werken, wie de inhoud controleert en wie erachter zit.",
+    "intro": "The Nahwi is een plek om sarf en nahw te leren, de Arabische grammatica van de madrasa, uit haar eigen boeken, en om te lezen over die boeken, hun geleerden en de leerplannen die ze ordenen.",
+    "teacherTitle": "De leraar",
+    "teacherRole": "Kijkt de uitleg na",
+    "teacherBody": "Een bevoegde leraar Arabische grammatica zal controleren wat The Nahwi onderwijst. Tot een leraar het heeft gecontroleerd, is alles op de site, de uitleg, de toetsen en de vertalingen, een concept.",
+    "teacherBio": "Wordt nog bekendgemaakt.",
+    "teachersTitle": "Enkele van zijn leraren",
+    "teacherSource": "Van de docentenpagina van Madrasah Hanafiya",
+    "ownerTitle": "Eigenaar van de site",
+    "ownerRole": "Bouwt en onderhoudt The Nahwi",
+    "ownerBody": "The Nahwi wordt gemaakt door {owner}, de eigenaar van het project, die de Hanafitische school bestudeert.",
+    "partsTitle": "Twee delen",
+    "parts": [
+      "De encyclopedie: de handboeken van sarf en nahw en een bibliotheek van werken per eeuw, de geleerden die ze schreven en onderwezen, de leerplannen van de madrasa, en nieuws uit de taalwetenschappen.",
+      "Het studieportaal: drie madrasapaden, niveau voor niveau gelezen, die alle drie beginnen met al-Mabadi'. Het Indiase pad gaat verder met de Perzische beginnersboeken van de Dars-i Nizami, het Ottomaanse pad met al-Amthila en Birgivi, en het Noord-Afrikaanse pad met al-Ajurrumiyya. Elke les eindigt met een korte toets; de volgende gaat open als je die haalt."
+    ],
+    "nameTitle": "Waarom deze naam",
+    "nameBody": "al-Nahwi (النَّحْوِيّ) betekent “de grammaticus”: de titel die de biografen geven aan de geleerden van de nahw, van {sibawayh} tot {ibnHisham}, zoals in de klassieke woordenboeken van grammatici, de Tabaqat al-nahwiyyin.",
+    "textTitle": "Eerst de tekst",
+    "textBody": "De lessen volgen de volgorde van de boeken zelf, en de teksten staan er in het origineel, uit rechtenvrije drukken die op elke pagina genoemd worden, met onze vertalingen ernaast. Je voortgang blijft alleen op dit apparaat.",
+    "contact": "Vragen, verbeteringen of suggesties? Gebruik het contactformulier.",
+    "parentTitle": "The Nahwi en The Mantiqi",
+    "parentBody": "The Nahwi is een site van {mantiqi}, dat op dezelfde manier mantiq onderwijst, de logica van de madrasa: de boeken van drie madrasapaden, les voor les, naast een gratis encyclopedie. In de madrasa werden de twee naast elkaar gelezen, en daarom delen de twee sites hun adres, hun accounts en hun nieuws: The Mantiqi verzamelt elke week het nieuws over nahw en sarf, en je kunt beide schrijven via {email}."
+  },
+  "kb": {
+    "nav": {
+      "books": "Bibliotheek",
+      "scholars": "Geleerden",
+      "curricula": "Leerplannen",
+      "concepts": "Begrippen",
+      "news": "Nieuws",
+      "study": "Studieportaal",
+      "studyShort": "Studie",
+      "home": "Home",
+      "levels": "Niveaus",
+      "text": "Tekst",
+      "practice": "Oefenen",
+      "glossary": "Begrippen",
+      "encyclopedia": "Encyclopedie",
+      "encyclopediaShort": "Encyclopedie",
+      "about": "Over",
+      "aboutSite": "The Nahwi",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "updates": "Updates",
+      "nahw": "Over nahw en sarf"
+    },
+    "draft": "Concept · wacht op controle door een bevoegde leraar",
+    "home": {
+      "kicker": "De kennisbank van sarf en nahw",
+      "title": "De encyclopedie van <em>sarf en nahw</em>",
+      "lead": "Klassieke Arabische grammatica in de islamitische wetenschappelijke traditie: haar boeken en hun commentaren, haar geleerden en leerplannen, en wat er nieuw verschijnt.",
+      "search": "Zoek een boek, geleerde, artikel of begrip",
+      "searchButton": "Zoeken",
+      "startHere": "Begin hier",
+      "booksKicker": "I · Boeken",
+      "booksTitle": "De handboeken en hun commentaren",
+      "allWorks": "Alle werken in de catalogus",
+      "curriculaKicker": "II · Leerplannen",
+      "curriculaTitle": "Wat werd er gelezen, en waar?",
+      "newsKicker": "III · Nieuws",
+      "newsTitle": "Nieuws over nahw en sarf",
+      "allNews": "Al het nieuws",
+      "scholarsKicker": "III · Geleerden",
+      "scholarsTitle": "Geleerden door de eeuwen heen",
+      "allScholars": "Alle geleerden",
+      "studyKicker": "Studieportaal",
+      "studyTitle": "Lees de boeken zelf, les voor les, langs drie madrasapaden: de Perzische beginnersboeken en al-Kafiya in India, al-Amthila en Birgivi in de Ottomaanse landen, al-Ajurrumiyya en de Alfiyya in de Arabische wereld.",
+      "studyCta": "Naar het studieportaal",
+      "works": "{n} werken",
+      "worksOne": "1 werk",
+      "latestKicker": "Laatste nieuws",
+      "handbooksKicker": "De handboeken",
+      "handbooksLead": "De boeken die de madrasa's lazen, van al-Kafiya tot Qatr al-nada, elk met zijn commentaren, glossen en catalogus.",
+      "mastersKicker": "De meesters",
+      "mastersLead": "Van Sibawayh tot al-Azhar: de grammatici wier boeken gelezen werden.",
+      "library": "De hele bibliotheek",
+      "newsLead": "Elke week verzameld door The Mantiqi."
+    },
+    "curricula": {
+      "title": "Leerplannen",
+      "lead": "Welke grammaticaboeken er gelezen werden, in welke volgorde, in de madrasa's van Zuid-Azië, de Ottomaanse landen, al-Azhar en de Maghreb."
+    },
+    "books": {
+      "title": "Bibliotheek",
+      "lead": "De werken van nahw en sarf van Sibawayh tot de moderne madrasa: de zes handboeken die de madrasa's lazen, met hun commentaren en glossen, en de boeken eromheen. Zoek op titel, auteur of onderwerp.",
+      "kicker": "Boek {n}",
+      "by": "{author} · gest. {died}",
+      "overview": "Overzicht",
+      "articles": "Artikelen",
+      "tree": "Commentaren",
+      "catalogue": "Catalogus",
+      "scholars": "Geleerden",
+      "readText": "Lees de tekst",
+      "study": "Bestudeer het op niveau {n}",
+      "treeLead": "De commentaren die in de madrasa's het meest gelezen werden, met de glossen die erop geschreven zijn.",
+      "catalogueLead": "Alles wat over dit boek geschreven is en dat we konden vinden, met edities en bronnen.",
+      "openCatalogue": "Open de catalogus",
+      "counts": {
+        "sharh": "Commentaren (sharh)",
+        "hashiya": "Glossen (hashiya)",
+        "other": "Aantekeningen, berijmingen en andere werken",
+        "translation": "Vertalingen",
+        "modern": "Moderne studies"
+      },
+      "fullTitle": "Volledige titel",
+      "author": "Auteur",
+      "died": "Gestorven",
+      "allScholars": "Alle geleerden van het boek",
+      "more": "nog {n}"
+    },
+    "article": {
+      "of": "{section} · artikel {n} van {m}",
+      "inThis": "In dit artikel",
+      "people": "Personen erin",
+      "sources": "Bronnen ({n})",
+      "next": "Volgend artikel",
+      "prev": "Vorig artikel",
+      "related": "Lees verder",
+      "studyPath": "Bestudeer dit leerplan: het {path} in het studieportaal"
+    },
+    "scholars": {
+      "title": "Geleerden",
+      "lead": "De grammatici, commentatoren en leraren van nahw en sarf, per eeuw van hun overlijden.",
+      "filter": "Zoek een geleerde",
+      "none": "Geen geleerde gevonden.",
+      "century": "{n} eeuw",
+      "centuryBce": "{n} eeuw v.Chr.",
+      "undated": "Datum onbekend",
+      "count": "{n} geleerden",
+      "period": "Periode",
+      "role": "Rol",
+      "book": "Handboek",
+      "all": "Alle",
+      "shown": "{n} van {m} geleerden",
+      "periods": {
+        "pre": "Voor de islam",
+        "early": "Vroeg (tot 1200)",
+        "middle": "Postklassiek (1200–1500)",
+        "later": "Latere madrasa (1500–1900)",
+        "modern": "Modern (sinds 1900)"
+      },
+      "allPeriods": "Periode",
+      "allRoles": "Rol",
+      "allBooks": "Boek",
+      "clear": "Filters wissen",
+      "roleGroups": {
+        "author": "Auteurs van de handboeken",
+        "commentary": "Commentatoren en glossatoren",
+        "translator": "Vertalers en voorlopers",
+        "teacher": "Leraren",
+        "voice": "Stemmen over grammatica",
+        "modern": "Modern onderzoek"
+      }
+    },
+    "scholar": {
+      "life": "Leven",
+      "works": "Werken",
+      "uncertain": "Onzeker of omstreden",
+      "reception": "Receptie",
+      "places": "Plaatsen",
+      "writtenOn": "Geschreven over zijn werken",
+      "books": "In de boeken",
+      "sources": "Bronnen"
+    },
+    "news": {
+      "title": "Nieuws over nahw en sarf",
+      "lead": "Nieuwe studies, edities, vertalingen en lezingen over nahw en sarf, elke week door The Mantiqi verzameld bij soennitische islamitische instellingen; elk met een link naar de bron.",
+      "rss": "RSS-feed",
+      "kinds": {
+        "edition": "Editie",
+        "translation": "Vertaling",
+        "study": "Studie",
+        "digital": "Digitaal",
+        "event": "Evenement",
+        "media": "Podcast of video"
+      },
+      "open": "Openen",
+      "feedTitle": "The Nahwi – nieuws over nahw, sarf en de taalwetenschappen",
+      "feedDescription": "Nieuwe edities, vertalingen, studies en evenementen over nahw en sarf, de klassieke Arabische grammatica in de islamitische wetenschappelijke traditie, en over balagha en de verwante wetenschappen.",
+      "filter": "Toon nieuws over",
+      "fields": {
+        "all": "Alles",
+        "nahw": "Nahw",
+        "sarf": "Sarf",
+        "balagha": "Balagha",
+        "lugha": "Lexicografie",
+        "mantiq": "Mantiq",
+        "usul": "Usul al-fiqh",
+        "tafsir": "Tafsir"
+      },
+      "newDot": "nieuw",
+      "sections": {
+        "academic": "Wetenschap",
+        "publications": "Uitgaven",
+        "talks": "Lezingen & media"
+      },
+      "sectionLeads": {
+        "academic": "Studies, artikelen, proefschriften en recensies",
+        "publications": "Nieuwe edities, vertalingen en gedigitaliseerde teksten",
+        "talks": "Lezingen, congressen, podcasts en video's"
+      },
+      "allSections": "Alles",
+      "sectionsLabel": "Rubrieken van het nieuws",
+      "readAt": "Lees bij {source}",
+      "more": "Meer",
+      "originalTitle": "Oorspronkelijke titel",
+      "fromParent": "Het nieuws wordt verzameld door {mantiqi}, de moedersite van The Nahwi, en hier getoond zoals het daar staat.",
+      "allAtParent": "Al het nieuws over nahw en sarf op The Mantiqi",
+      "parentRss": "RSS-feed (The Mantiqi)",
+      "loading": "Het laatste nieuws van The Mantiqi wordt geladen…",
+      "none": "Er is op dit moment geen nieuws over nahw en sarf om hier te tonen: bekijk al het nieuws op The Mantiqi."
+    },
+    "books_meta": {
+      "kafiya": "De beknopte nahw van Ibn al-Hajib, gelezen met het commentaar van Jami in de Indiase en Ottomaanse madrasa's, en met dat van Radi al-Din door gevorderde studenten.",
+      "shafiya": "Het handboek van de vormleer van Ibn al-Hajib, het hoogtepunt van de sarf op elk pad, gelezen met het commentaar van Radi al-Din al-Astarabadhi.",
+      "izzi": "Het korte boek van al-Zanjani over de patronen van het werkwoord en hun betekenissen: de gedeelde sarf-tekst van de Ottomaanse madrasa en al-Azhar.",
+      "alfiyya": "De duizend verzen van Ibn Malik over nahw en sarf, uit het hoofd geleerd van de Maghreb tot Indonesië en gelezen met het commentaar van Ibn 'Aqil.",
+      "ajurrumiyya": "Een paar bladzijden die de i'rab uiteenzetten: het meest uit het hoofd geleerde eerste boek van de nahw, van de Maghreb tot de pesantren van Java.",
+      "qatr": "De nahw voor gevorderde beginners van Ibn Hisham, de stap na al-Ajurrumiyya aan al-Azhar, langer dan dat boek en korter dan de Alfiyya."
+    },
+    "library": {
+      "title": "De bibliotheek",
+      "lead": "Voorbij de zes handboeken: de grote werken van nahw en sarf in het Arabisch en Perzisch, van Sibawayh tot de moderne lesboeken van de madrasa – handboeken, commentaren, gedichten en verhandelingen, per eeuw.",
+      "handbooks": "De zes handboeken",
+      "handbooksLead": "De boeken die de madrasa's lazen, elk met zijn artikelen, commentaren en catalogus.",
+      "count": "{n} boeken",
+      "filter": "Toon",
+      "all": "Alle",
+      "kinds": {
+        "handbook": "Handboek",
+        "commentary": "Commentaar",
+        "gloss": "Glosse",
+        "treatise": "Verhandeling",
+        "encyclopedia": "Deel van een groter werk",
+        "verse": "Berijming",
+        "refutation": "Kritiek",
+        "modern": "Modern leerboek",
+        "translation": "Vertaling"
+      },
+      "languages": {
+        "ar": "Arabisch",
+        "fa": "Perzisch",
+        "ot": "Ottomaans-Turks",
+        "ur": "Urdu",
+        "other": "Overig"
+      },
+      "written": "Geschreven",
+      "language": "Taal",
+      "on": "Geschreven over",
+      "editions": "Edities en vertalingen",
+      "writtenOn": "Erover geschreven",
+      "byAuthor": "Ook van {author}",
+      "inLibrary": "In de bibliotheek",
+      "search": "Zoek in de bibliotheek",
+      "kind": "Soort",
+      "onHandbook": "Over een handboek",
+      "shown": "{n} van {m} boeken",
+      "none": "Geen boek gevonden.",
+      "handbookOfSix": "Een van de zes handboeken"
+    },
+    "glossary": {
+      "title": "Woordenlijst van sarf en nahw",
+      "lead": "De vaktermen van sarf en nahw, de grammatica van de madrasa: elk met zijn Arabisch, een eenvoudige definitie en een korte uitleg, vrij te lezen.",
+      "description": "Een gratis woordenlijst van sarf en nahw, de klassieke Arabische grammatica: elke vakterm met het gevocaliseerde Arabisch, de transliteratie, een definitie en uitleg.",
+      "count": "{n} begrippen",
+      "filter": "Zoek een begrip",
+      "none": "Geen begrip gevonden.",
+      "shown": "{n} van {m} begrippen",
+      "allCategories": "Onderwerp",
+      "clear": "Filters wissen",
+      "categories": {
+        "foundations": "Grondslagen",
+        "word": "De soorten woord",
+        "root": "Wortel en patroon",
+        "verb": "Het werkwoord",
+        "sound-weak": "Gaaf en zwak",
+        "derived": "Afgeleide naamwoorden",
+        "irab": "I'rab en bina'",
+        "sentence": "De zin",
+        "governors": "Regeerders ('awamil)",
+        "followers": "Volgers (tawabi')",
+        "accusatives": "Woorden in nasb"
+      },
+      "pageTitle": "{name} ({transliteration}): betekenis in de Arabische grammatica",
+      "pageTitleShort": "{name}: betekenis in de Arabische grammatica",
+      "explanation": "Uitleg",
+      "examples": "Voorbeelden",
+      "related": "Verwante begrippen",
+      "lesson": "Stap voor stap leren",
+      "lessonText": "Dit begrip is een les van het studiepad, met een uitgebreidere uitleg, een schema en een toets.",
+      "lessonLink": "Open de les",
+      "books": "Behandeld in",
+      "topic": "Onderwerp",
+      "all": "Alle begrippen"
+    },
+    "nahw": {
+      "title": "Over nahw en sarf",
+      "lead": "Wat nahw en sarf zijn, waarom sarf eerst komt, en hoe de madrasa hun boeken leest."
+    }
+  },
+  "preview": {
+    "button": "Bekijk een les",
+    "eyebrow": "Voorproefje",
+    "note": "Een blik op les {n} van niveau {level}. Niveau {level} gaat open na niveau {prev}; tot die tijd kun je deze les lezen, maar de toets en de weg verder blijven dicht.",
+    "start": "Begin met het eerste begrip",
+    "levels": "Alle niveaus",
+    "close": "Sluiten",
+    "dialogLocked": "Gaat open na niveau {prev}.",
+    "dialogSoon": "Dit niveau is in voorbereiding.",
+    "lessons": "{n} lessen"
+  },
+  "seo": {
+    "/": {
+      "title": "The Nahwi – leer nahw en sarf, klassieke Arabische grammatica",
+      "description": "Leer nahw en sarf (Arabische zinsleer en vormleer) online langs de madrasapaden: begin gratis met al-Mabadi', daarna de klassieke boeken; geleerden, bibliotheek, nieuws."
+    },
+    "/study/": {
+      "title": "Leer nahw en sarf online: grammaticacursussen van de madrasa",
+      "description": "Online cursussen nahw en sarf, klassieke Arabische grammatica: drie madrasapaden, Indiaas, Ottomaans en Noord-Afrikaans, les voor les met toetsen. Begin gratis."
+    },
+    "/nahw/": {
+      "title": "Wat zijn nahw en sarf? Arabische grammatica uitgelegd",
+      "description": "Wat nahw (zinsleer) en sarf (vormleer) zijn, waarom de madrasa eerst sarf onderwijst, en hoe de klassieke grammaticaboeken gelezen worden."
+    },
+    "/curricula/": {
+      "title": "Nahw en sarf in de madrasa: de leerplannen van de grammatica",
+      "description": "Welke grammaticaboeken de madrasa's lazen, en in welke volgorde: de Dars-i Nizami, de Ottomaanse medrese, al-Azhar en de Maghreb."
+    },
+    "/books/": {
+      "title": "Bibliotheek van nahw en sarf: de klassieke Arabische grammatica's",
+      "description": "Een doorzoekbare bibliotheek van nahw en sarf: de zes handboeken van de madrasa, van al-Ajurrumiyya tot de Alfiyya en al-Kafiya, met commentaren, per eeuw."
+    },
+    "/scholars/": {
+      "title": "Geleerden van nahw en sarf: de Arabische grammatici",
+      "description": "De grammatici, commentatoren en leraren van nahw en sarf, van Sibawayh tot Ibn Hisham en de geleerden van de madrasa, per eeuw."
+    },
+    "/glossary/": {
+      "title": "Woordenlijst nahw en sarf: Arabische grammaticatermen A–Z",
+      "description": "Elk begrip van nahw en sarf dat The Nahwi onderwijst, van A tot Z, met het gevocaliseerde Arabisch, de transliteratie en een korte definitie."
+    },
+    "/updates/": {
+      "description": "Nieuwe cursussen, teksten, hulpmiddelen en functies op The Nahwi, de site om nahw en sarf te leren (klassieke Arabische grammatica), nieuwste eerst."
+    },
+    "/study/mabadi/": {
+      "title": "Al-Mabadi': een eerste cursus sarf en nahw",
+      "description": "Begin met de Arabische grammatica met al-Mabadi': de grondslagen van sarf en nahw, begrip voor begrip, met het Arabisch, een heldere uitleg en een korte toets."
+    },
+    "/pricing/": {
+      "title": "Prijzen: bestudeer nahw en sarf gratis, of open elke cursus",
+      "description": "Bestudeer nahw en sarf gratis met een account: heel al-Mabadi' en drie voorbeeldlessen van elk boek. Volledige toegang opent elk madrasapad."
+    }
+  },
+  "madrasa": {
+    "title": "Kies je madrasa",
+    "lead": "Drie paden door sarf en nahw, niveau voor niveau, volgens de boeken die de grote madrasa's lazen. Alle drie beginnen met al-Mabadi'; daarna heeft elk niveau twee banen naast elkaar, sarf en nahw. Kies er een om te beginnen; je kunt altijd wisselen, en wat je gehaald hebt, blijft gehaald.",
+    "choose": "Kies dit pad",
+    "chosen": "Jouw pad",
+    "none": "Kies hierboven een pad om de niveaus te zien.",
+    "pathLevel": "{path} · niveau {n}",
+    "subLevel": "{n}{k}",
+    "subLetters": "a b c d",
+    "levelN": "Niveau {n}",
+    "paths": {
+      "indian": {
+        "name": "Indiase madrasa",
+        "short": "Indiaas pad",
+        "arabic": "المَدْرَسَةُ الهِنْدِيَّة",
+        "lead": "De Dars-i Nizami van Farangi Mahall, Deoband, Bareli en Khayrabad: Mizan al-sarf naast Nahw-i Mir en de honderd regeerders, daarna Hidayat al-nahw, daarna al-Kafiya met Sharh Jami en al-Shafiya."
+      },
+      "ottoman": {
+        "name": "Ottomaanse madrasa",
+        "short": "Ottomaans pad",
+        "arabic": "المَدْرَسَةُ العُثْمانِيَّة",
+        "lead": "Eerst sarf, zoals in de Ottomaanse, Syrische en Koerdische madrasa's: al-Amthila, Bina' al-af'al en al-Maqsud; daarna al-'Izzi en Marah al-arwah naast al-'Awamil en Izhar al-asrar van Birgivi; daarna al-Kafiya met Molla Cami."
+      },
+      "north-african": {
+        "name": "Noord-Afrikaanse madrasa",
+        "short": "Noord-Afrikaans pad",
+        "arabic": "المَدْرَسَةُ المَغارِبِيَّة",
+        "lead": "Eerst nahw: al-Ajurrumiyya; daarna Qatr al-nada naast al-'Izzi en Lamiyyat al-af'al; daarna de Alfiyya: de grammatica van al-Azhar, al-Qarawiyyin, al-Zaytuna en de Mauritaanse mahadir."
+      }
+    },
+    "traditions": {
+      "farangi-mahall": "Farangi Mahall",
+      "khayrabadi": "Khayrabad",
+      "deobandi": "Deoband",
+      "istanbul": "Istanbul",
+      "balkans": "de Balkan",
+      "shami": "Damascus",
+      "kurdish": "Koerdistan",
+      "azhari": "al-Azhar",
+      "qarawiyyin": "al-Qarawiyyin",
+      "zaytuna": "al-Zaytuna",
+      "shinqiti": "Shinqit",
+      "barelwi": "Bareli"
+    },
+    "levels": {
+      "indian-1": {
+        "title": "al-Mabadi'",
+        "arabic": "المَبَادِئ",
+        "lead": "De grondslagen van sarf en nahw, begrip voor begrip, gratis met een account: het woord en zijn soorten, wortel en patroon, de tijden, de i'rab en de zin."
+      },
+      "ottoman-1": {
+        "title": "al-Mabadi'",
+        "arabic": "المَبَادِئ",
+        "lead": "De grondslagen van sarf en nahw, begrip voor begrip, gratis met een account: het woord en zijn soorten, wortel en patroon, de tijden, de i'rab en de zin."
+      },
+      "north-african-1": {
+        "title": "al-Mabadi'",
+        "arabic": "المَبَادِئ",
+        "lead": "De grondslagen van sarf en nahw, begrip voor begrip, gratis met een account: het woord en zijn soorten, wortel en patroon, de tijden, de i'rab en de zin."
+      },
+      "indian-2": {
+        "title": "Mizan al-sarf en Nahw-i Mir",
+        "arabic": "مِيزَانُ الصَّرْفِ · نَحْوِ مِير",
+        "lead": "De Perzische beginnersboeken van de Dars-i Nizami, in het eerste jaar naast elkaar gelezen: de weegschaal fa'ala en de patronen van het werkwoord; de woordsoorten, de i'rab en de zin, met de honderd regeerders van 'Abd al-Qahir al-Jurjani."
+      },
+      "indian-3": {
+        "title": "Hidayat al-nahw",
+        "arabic": "هِدَايَةُ النَّحْوِ",
+        "lead": "Het Arabische handboek van de nahw dat in de Dars-i Nizami voor al-Kafiya gelezen wordt: het naamwoord, het werkwoord en het partikel, met hun i'rab, in de volgorde van al-Kafiya."
+      },
+      "indian-4": {
+        "title": "al-Kafiya, Sharh Jami en al-Shafiya",
+        "arabic": "الْكَافِيَةُ · شَرْحُ جَامِي · الشَّافِيَةُ",
+        "lead": "De twee handboeken van Ibn al-Hajib, de hoogtepunten van nahw en sarf, met het commentaar van Jami op al-Kafiya."
+      },
+      "ottoman-2": {
+        "title": "al-Amthila, Bina' al-af'al en al-Maqsud",
+        "arabic": "الْأَمْثِلَةُ · الْبِنَاءُ · الْمَقْصُودُ",
+        "lead": "Emsile, Bina en Maksud, de eerste boeken van de Ottomaanse madrasa, allemaal sarf: de vormen van nasara op een rij, de bouw van de werkwoorden, en de patronen van het kale en het vermeerderde werkwoord."
+      },
+      "ottoman-3": {
+        "title": "al-'Izzi, Marah al-arwah, al-'Awamil en Izhar",
+        "arabic": "الْعِزِّيُّ · الْمَرَاحُ · الْعَوَامِلُ · الْإِظْهَارُ",
+        "lead": "De sarf gaat verder met al-'Izzi en Marah al-arwah, de zwakke werkwoorden inbegrepen; daarnaast begint de nahw, met al-'Awamil en Izhar al-asrar van Imam Birgivi: de regeerders, het geregeerde en de i'rab."
+      },
+      "ottoman-4": {
+        "title": "al-Kafiya met Molla Cami",
+        "arabic": "الْكَافِيَةُ · مُلَّا جَامِي",
+        "lead": "Al-Kafiya van Ibn al-Hajib met het commentaar van Jami, zoals gelezen in de Ottomaanse madrasa."
+      },
+      "north-african-2": {
+        "title": "al-Ajurrumiyya",
+        "arabic": "الْآجُرُّومِيَّةُ",
+        "lead": "Het korte eerste boek van de nahw van Ibn Ajurrum, uit het hoofd geleerd van de Maghreb tot Java: de kalam, de i'rab en zijn tekens, de werkwoorden, en de naamwoorden in raf', nasb en khafd."
+      },
+      "north-african-3": {
+        "title": "Qatr al-nada, al-'Izzi en Lamiyyat al-af'al",
+        "arabic": "قَطْرُ النَّدَى · الْعِزِّيُّ · لَامِيَّةُ الْأَفْعَالِ",
+        "lead": "De nahw voor gevorderde beginners van Ibn Hisham, naast de sarf van al-Zanjani en het gedicht van Ibn Malik over het werkwoord."
+      },
+      "north-african-4": {
+        "title": "al-Alfiyya",
+        "arabic": "الْأَلْفِيَّةُ",
+        "lead": "De duizend verzen van Ibn Malik, het hoogtepunt van het pad."
+      }
+    },
+    "startWith": "Begin: {name}",
+    "leadShort": "Drie madrasapaden, niveau voor niveau gelezen, met sarf en nahw naast elkaar. Kies het pad waarvan je de boeken wilt lezen; je kunt altijd wisselen, en wat je gehaald hebt, blijft gehaald.",
+    "change": "Ander pad kiezen",
+    "stages": {
+      "foundations": "Grondslagen",
+      "beginner": "Beginner",
+      "intermediate": "Gevorderd",
+      "advanced": "Ver gevorderd"
+    },
+    "levelStage": "Niveau {n} · {stage}",
+    "lanes": {
+      "sarf": {
+        "name": "Sarf",
+        "arabic": "الصَّرْفُ",
+        "lead": "vormleer: de vormen van het woord"
+      },
+      "nahw": {
+        "name": "Nahw",
+        "arabic": "النَّحْوُ",
+        "lead": "zinsleer: de uitgangen en de zin"
+      }
+    },
+    "laneNone": "Geen boek van {lane} op dit niveau.",
+    "laneOrder": "De twee banen worden naast elkaar gelezen; in elke baan het ene boek na het andere.",
+    "soonBooks": {
+      "mizan": {
+        "title": "Mizan al-sarf",
+        "arabic": "مِيزَانُ الصَّرْفِ"
+      },
+      "nahwmir": {
+        "title": "Nahw-i Mir",
+        "arabic": "نَحْوِ مِير"
+      },
+      "awamilmia": {
+        "title": "al-'Awamil al-mi'a",
+        "arabic": "الْعَوَامِلُ الْمِائَةُ"
+      },
+      "hidaya": {
+        "title": "Hidayat al-nahw",
+        "arabic": "هِدَايَةُ النَّحْوِ"
+      },
+      "shafiya": {
+        "title": "al-Shafiya",
+        "arabic": "الشَّافِيَةُ"
+      },
+      "kafiya": {
+        "title": "al-Kafiya",
+        "arabic": "الْكَافِيَةُ"
+      },
+      "jami": {
+        "title": "Sharh Jami (Molla Cami)",
+        "arabic": "الْفَوَائِدُ الضِّيَائِيَّةُ"
+      },
+      "amthila": {
+        "title": "al-Amthila (Emsile)",
+        "arabic": "الْأَمْثِلَةُ الْمُخْتَلِفَةُ"
+      },
+      "bina": {
+        "title": "Bina' al-af'al (Bina)",
+        "arabic": "بِنَاءُ الْأَفْعَالِ"
+      },
+      "maqsud": {
+        "title": "al-Maqsud (Maksud)",
+        "arabic": "الْمَقْصُودُ"
+      },
+      "izzi": {
+        "title": "al-'Izzi",
+        "arabic": "التَّصْرِيفُ الْعِزِّيُّ"
+      },
+      "marah": {
+        "title": "Marah al-arwah",
+        "arabic": "مَرَاحُ الْأَرْوَاحِ"
+      },
+      "awamil": {
+        "title": "al-'Awamil (Avamil)",
+        "arabic": "الْعَوَامِلُ الْجَدِيدَةُ"
+      },
+      "izhar": {
+        "title": "Izhar al-asrar",
+        "arabic": "إِظْهَارُ الْأَسْرَارِ"
+      },
+      "ajurrumiyya": {
+        "title": "al-Ajurrumiyya",
+        "arabic": "الْآجُرُّومِيَّةُ"
+      },
+      "lamiyya": {
+        "title": "Lamiyyat al-af'al",
+        "arabic": "لَامِيَّةُ الْأَفْعَالِ"
+      },
+      "qatr": {
+        "title": "Qatr al-nada",
+        "arabic": "قَطْرُ النَّدَى"
+      },
+      "alfiyya": {
+        "title": "al-Alfiyya",
+        "arabic": "الْأَلْفِيَّةُ"
+      }
+    },
+    "laneStarts": "{lane} begint op niveau {n}."
+  },
+  "primer": {
+    "theLesson": "De les",
+    "terms": "Begrippen",
+    "examples": "Voorbeelden",
+    "pages": "pp. {pages}",
+    "page": "p. {pages}",
+    "lessons": "{n} lessen",
+    "quizIntro": "{n} vragen over deze les. Met 6 of meer van de 10 (twee sterren) gaat de volgende les open.",
+    "passed": "Gehaald: de volgende les is open.",
+    "failed": "Nog niet: je hebt minstens 6 van de 10 nodig. Lees de les nog eens en probeer het opnieuw.",
+    "bookDone": "Dit was de laatste les van {book}.",
+    "nextBook": "Volgende: {book}",
+    "back": "Terug naar {book}",
+    "edition": "De gevolgde editie",
+    "editionNote": "Deze lessen zijn onze eigen uitleg, in de volgorde van dit boek en met zijn voorbeelden; de tekst van de editie wordt hier niet overgenomen.",
+    "aboutBook": "Over het boek",
+    "course": "Bestudeer het als cursus",
+    "courseLead": "{book} is een cursus in het studieportaal: {n} lessen, elk met een korte toets.",
+    "badge": "Cursus in eigen lessen",
+    "open": "Open de cursus",
+    "theText": "De tekst",
+    "original": "Origineel in het {language}, {edition}",
+    "languages": {
+      "fa": "Perzisch",
+      "ar": "Arabisch"
+    },
+    "translation": "Vertaling",
+    "wholeText": "Lees de hele tekst",
+    "textEdition": "De tekst",
+    "textNote": "Het origineel is uit deze druk overgeschreven, zonder de randglossen, en voor The Nahwi vertaald.",
+    "scan": "De scan van de druk",
+    "badgeText": "Cursus met de tekst in het {language}",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd",
+    "textTitle": "{title}: de tekst in het {language}",
+    "textDescription": "{title} van {author}: het origineel in het {language}, overgeschreven uit een rechtenvrije druk, met Engelse (en Arabische) vertalingen om onder elke passage te openen.",
+    "textLead": "Het origineel in het {language}, in {n} passages, overgeschreven uit de druk. Onder elke passage kun je onze vertaling openen, de tekst kopiëren of naar Google Translate sturen.",
+    "studyCourse": "Bestudeer het als cursus ({level})",
+    "englishTranslation": "Engelse vertaling",
+    "readText": "Lees de hele tekst in het {language}",
+    "quotesTitle": "In de woorden van {author}",
+    "quotedFrom": "Geciteerd uit het {language} van {edition}",
+    "copyText": "Tekst kopiëren",
+    "copyTranslation": "Vertaling kopiëren",
+    "aiNote": "Vertaald met hulp van AI en nog niet nagekeken. De oorspronkelijke tekst is wat telt: lees en citeer altijd het origineel.",
+    "courseTitle": "{book}: een cursus Arabische grammatica",
+    "courseTitleJurjani": "{book} van al-Jurjani: een cursus Arabische grammatica",
+    "tasks": "Opdrachten",
+    "tasksIntro": "Maak ze eerst op papier en open dan het modelantwoord.",
+    "showAnswer": "Modelantwoord",
+    "trChoose": "Vertaling"
+  },
+  "source": {
+    "title": "Over deze tekst",
+    "text": "Tekst",
+    "lessonsFollow": "De lessen volgen",
+    "translation": "Vertaling",
+    "review": "Controle",
+    "scan": "Bekijk de scan",
+    "languages": {
+      "ar": "Arabisch",
+      "fa": "Perzisch"
+    },
+    "vocalised": "gevocaliseerd zoals in de druk",
+    "transcribed": "door The Nahwi overgeschreven uit deze druk",
+    "inPreparation": "Origineel in het {language} in voorbereiding, over te schrijven uit",
+    "notShown": "Niet getoond: de enige gevolgde editie is een moderne, auteursrechtelijk beschermde uitgave.",
+    "lessonsOwn": "De lessen zijn de eigen uitleg van The Nahwi in de volgorde van deze editie; de tekst ervan is auteursrechtelijk beschermd en wordt niet overgenomen.",
+    "translationOwn": "Van The Nahwi zelf.",
+    "reviewDraft": "Concept, wacht op controle door {teacher}.",
+    "pages": "pp. {pages}",
+    "shortLine": "Tekst in het {language} naar de druk van {edition} · vertaling door The Nahwi",
+    "shortLessons": "Eigen lessen in de volgorde van de editie van {edition} · concept",
+    "translationOwnAr": "Van The Nahwi zelf, in het Engels en in gevocaliseerd Arabisch. Het Arabisch is vertaald uit het Perzisch, niet overgenomen uit een gedrukte Arabische versie.",
+    "transcribedLitho": "door The Nahwi overgeschreven uit de lithografie, zonder de randglossen",
+    "lessonsOwnText": "De lessen zijn de eigen uitleg van The Nahwi, hoofdstuk voor hoofdstuk van de tekst zelf.",
+    "quoted": "passages die in de lessen geciteerd worden, door The Nahwi overgeschreven uit deze druk (de hele tekst wordt niet overgenomen)",
+    "lessonsAfter": "De lessen zijn de eigen uitleg van The Nahwi bij de tekst, in navolging van {author}; zijn woorden worden geciteerd waar ze het meest ertoe doen.",
+    "shortQuoted": "Eigen lessen met citaten uit de druk van {edition} · vertaling door The Nahwi, concept",
+    "ownCourse": "De eigen cursus van The Nahwi over de grondslagen van sarf en nahw, gebaseerd op de klassieke beginnersboeken; er wordt geen originele tekst getoond.",
+    "translationLanguages": "Van The Nahwi zelf, uit het {language} origineel: in het {languages}. Kies de taal onder de passages.",
+    "and": "en"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Hoe je The Nahwi bereikt: vragen, verbeteringen in de teksten en vertalingen, cursussen en nieuws om toe te voegen.",
+    "lead": "The Nahwi is een jong project, en alles erop is een concept tot een leraar het heeft gecontroleerd. Het is een site van The Mantiqi: berichten aan een van beide gaan naar hetzelfde team. We horen graag van je.",
+    "emailLabel": "Of schrijf direct",
+    "followLabel": "Volg The Mantiqi",
+    "reasonsTitle": "Waarover je kunt schrijven",
+    "reasons": [
+      "Een vraag over een les, een begrip of een tekst",
+      "Een fout in een transcriptie, een vertaling of een uitleg (noem de pagina en, als het kan, de plaats in de druk)",
+      "Een cursus, leraar of instituut voor sarf en nahw die we zouden moeten vermelden",
+      "Nieuws over nahw, sarf of de taalwetenschappen: een nieuw boek, een editie, een artikel of een lezing"
+    ],
+    "reply": "We lezen elk bericht, maar kunnen niet beloven dat we op elk bericht snel antwoorden.",
+    "form": {
+      "title": "Stuur een bericht",
+      "name": "Naam",
+      "email": "E-mailadres",
+      "emailHint": "Zodat we je kunnen antwoorden. We gebruiken het nergens anders voor.",
+      "topic": "Onderwerp",
+      "topics": {
+        "question": "Een vraag over een les, begrip of tekst",
+        "correction": "Een fout in een transcriptie, vertaling of uitleg",
+        "course": "Een cursus, leraar of instituut om te noemen",
+        "news": "Nieuws over nahw of sarf voor de nieuwspagina",
+        "other": "Iets anders"
+      },
+      "page": "Welke pagina? (optioneel)",
+      "pageHint": "Het adres of de naam van de pagina, en als het kan de plaats in de druk.",
+      "message": "Je bericht",
+      "send": "Versturen",
+      "sending": "Bezig met versturen…",
+      "sent": "Dank je, je bericht is verstuurd. We lezen elk bericht, maar kunnen niet beloven dat we op elk bericht snel antwoorden.",
+      "invalid": "Vul je naam, een geldig e-mailadres en een bericht in.",
+      "failed": "Het bericht kon hiervandaan niet verstuurd worden. Je mailprogramma gaat open met het bericht ingevuld; of schrijf ons direct op {email}.",
+      "note": "Je bericht gaat naar {email}. Het wordt niet op deze site bewaard."
+    }
+  },
+  "updates": {
+    "title": "Updates",
+    "description": "Wat er bij The Nahwi is toegevoegd: nieuwe teksten, cursussen, talen en functies, nieuwste eerst.",
+    "lead": "Wat er bij The Nahwi is toegevoegd, nieuwste eerst: teksten en cursussen, talen, de encyclopedie en de hulpmiddelen van de site.",
+    "kinds": {
+      "text": "Nieuwe tekst",
+      "course": "Cursus",
+      "language": "Talen",
+      "encyclopedia": "Encyclopedie",
+      "feature": "Site"
+    }
+  },
+  "help": {
+    "lead": "Liever privé schrijven?",
+    "ask": "Stel een vraag",
+    "mistake": "Meld een fout"
+  },
+  "certificate": {
+    "title": "Certificaat: {book}",
+    "description": "Een certificaat van voltooiing voor {book} op The Nahwi, gemaakt uit je eigen toetsscores.",
+    "crumb": "Certificaat",
+    "link": "Certificaat van afronding",
+    "kicker": "Certificaat van afronding",
+    "record": "Hierbij wordt vastgelegd dat",
+    "nameLabel": "Je naam",
+    "namePlaceholder": "Typ je naam",
+    "passed": "elke les en toets heeft gehaald van",
+    "lessons": "{n} lessen",
+    "score": "{stars} Gemiddelde score: {score} van 10",
+    "note": "Een verslag van je eigen studie op The Nahwi, in je browser gemaakt uit je toetsscores. Het is geen ijaza en geen diploma: een ijaza wordt gegeven door een leraar die het boek met je heeft gelezen.",
+    "reviewed": "Lessen van dit boek die tot nu toe door een leraar zijn nagekeken: {n} van {m}.",
+    "print": "Afdrukken of opslaan als pdf",
+    "back": "Terug naar {book}",
+    "hint": "Je naam wordt niet bewaard: typ hem opnieuw wanneer je afdrukt.",
+    "notYet": "Het certificaat verschijnt hier zodra je elke les van dit boek met minstens twee sterren hebt gehaald.",
+    "passedOf": "Tot nu toe gehaald: {n} van {m}.",
+    "examTitle": "Het examen",
+    "examLead": "Alle lessen zijn gehaald. Nog één stap voor het certificaat: een examen van {n} vragen uit alle lessen van dit boek, in een nieuwe volgorde en met geschudde antwoorden. Je hebt {pass} goede antwoorden nodig.",
+    "examIntro": "25 vragen uit het hele boek; met {pass} goede antwoorden ben je geslaagd. Het examen kost een hartje.",
+    "examPassed": "Geslaagd: je certificaat staat hieronder klaar."
+  },
+  "reminder": {
+    "title": "Een dagelijkse herinnering in je agenda",
+    "body": "Zet een afspraak in je eigen agenda, op je telefoon of computer, die elke dag terugkomt op het tijdstip dat je kiest, met een link naar het studieportaal. Er wordt niets naar ons gestuurd.",
+    "time": "Tijd",
+    "add": "Zet in mijn agenda",
+    "done": "Open het gedownloade bestand om de afspraak aan je agenda toe te voegen.",
+    "eventTitle": "Bestudeer sarf en nahw: The Nahwi",
+    "eventBody": "De les van vandaag en de lessen die aan de beurt zijn voor herhaling:"
+  },
+  "today": {
+    "title": "Vandaag",
+    "tests": "Toetsen vandaag: {n} van {goal}.",
+    "done": "Het doel van vandaag is gehaald.",
+    "streak": "Dagen op rij: {n}",
+    "due": "Te herhalen: {n}",
+    "dueLink": "Nu herhalen",
+    "goal": "Dagdoel (toetsen)",
+    "note": "Een toets is de toets van een les of een herhaling in tikrar. Dit alles blijft in deze browser."
+  },
+  "overview": {
+    "title": "Je voortgang",
+    "description": "Hoe ver je bent op je madrasapad: gehaalde lessen, je scores, de dagen dat je studeerde en de lessen die nog aandacht verdienen, berekend in je browser.",
+    "lead": "Je madrasapad boek voor boek, op basis van de toetsen die je in deze browser maakte.",
+    "emptyTitle": "Nog niets gehaald",
+    "emptyBody": "Je voortgang verschijnt hier zodra je de toets van een les haalt met minstens twee sterren.",
+    "emptyCta": "Naar het studieportaal",
+    "pathNote": "Jouw pad: {path}. Je kunt het wijzigen op de studiepagina.",
+    "noPath": "Kies je madrasapad op de studiepagina om de boeken ervan hier te zien.",
+    "passed": "Gehaalde lessen",
+    "average": "Gemiddelde score",
+    "days": "Dagen gestudeerd in de laatste 30",
+    "due": "Vandaag te herhalen",
+    "activityTitle": "De laatste 30 dagen",
+    "activityDay": "{date}: {n} toetsen",
+    "booksTitle": "Boek voor boek",
+    "continue": "Verder",
+    "weakTitle": "Om te versterken",
+    "weakLead": "Gehaald, maar met minder dan drie sterren. Maak de toets van de les opnieuw: je beste score blijft bewaard.",
+    "weakNone": "Elke les die je hebt gehaald heeft drie sterren.",
+    "review": "Herhalen in tikrar",
+    "note": "Dit alles wordt in deze browser berekend uit je eigen toetsen; er wordt niets verstuurd.",
+    "link": "Je voortgang",
+    "of": "{n} van {total}"
+  },
+  "comments": {
+    "kicker": "Vragen en opmerkingen",
+    "title": "Vraag iets over deze les",
+    "lead": "Stel een vraag of deel een opmerking. Elk bericht wordt gelezen voordat het hier verschijnt, en de leraar kan het beantwoorden.",
+    "loading": "Berichten laden…",
+    "empty": "Nog geen vragen over deze les.",
+    "loadFailed": "De berichten konden niet worden geladen. Probeer het later opnieuw.",
+    "learner": "Een leerling",
+    "answer": "Antwoord",
+    "inLanguage": "In het {language}",
+    "pending": "Wacht om gelezen te worden: voorlopig zie alleen jij het.",
+    "hiddenOwn": "Niet gepubliceerd: alleen jij ziet het.",
+    "remove": "Verwijderen",
+    "removeSure": "Echt verwijderen?",
+    "signinLead": "Om hier te schrijven heb je een account nodig; een gratis account is genoeg.",
+    "signin": "Inloggen",
+    "write": "Schrijf een vraag of opmerking",
+    "message": "Je bericht",
+    "placeholder": "Je vraag of opmerking over deze les",
+    "name": "Getoonde naam",
+    "nameHint": "Staat bij je bericht.",
+    "anonymous": "Plaatsen zonder mijn naam (getoond als ‘een leerling’)",
+    "send": "Versturen",
+    "sending": "Versturen…",
+    "sent": "Dank je. Je bericht verschijnt hier zodra het gelezen is.",
+    "tooShort": "Schrijf iets meer.",
+    "needName": "Vul een naam in, of plaats zonder je naam.",
+    "tooMany": "Je hebt in korte tijd veel berichten gestuurd. Probeer het later opnieuw.",
+    "failed": "Versturen is mislukt. Probeer het opnieuw.",
+    "note": "Je bericht en de naam die je opgeeft worden bij je account bewaard; je kunt ze altijd verwijderen. Meer in de {privacy}.",
+    "privacyLink": "privacyverklaring",
+    "count": "{n} berichten",
+    "countOne": "1 bericht"
+  },
+  "moderate": {
+    "title": "Moderatie",
+    "description": "Lees de vragen en opmerkingen onder de lessen, publiceer ze en beantwoord ze.",
+    "kicker": "Vragen en opmerkingen",
+    "lead": "Nieuwe berichten wachten hier tot je ze publiceert. Daarvoor verschijnt er niets onder een les.",
+    "loading": "Laden…",
+    "signin": "Log in met een moderatoraccount om de berichten te lezen.",
+    "signinLink": "Inloggen",
+    "notModerator": "Dit account is geen moderator. Een moderator wordt toegevoegd in Supabase (zie docs/study.md).",
+    "tabs": {
+      "pending": "Wachtend",
+      "published": "Gepubliceerd",
+      "hidden": "Verborgen"
+    },
+    "empty": "Hier staat niets.",
+    "anonymous": "zonder naam verstuurd",
+    "openLesson": "Open de les",
+    "publish": "Publiceren",
+    "hide": "Verbergen",
+    "unpublish": "Terug naar wachtend",
+    "answerLabel": "Antwoord (getoond onder het bericht; laat leeg voor geen)",
+    "saveAnswer": "Antwoord bewaren",
+    "saved": "Bewaard.",
+    "failed": "Dat lukte niet: {error}"
+  },
+  "app": {
+    "offlineTitle": "Geen verbinding",
+    "offlineBody": "The Nahwi heeft de eerste keer dat hij opent internet nodig. Daarna openen de cursus, de begrippen en de oefeningen ook zonder.",
+    "retry": "Opnieuw proberen",
+    "reminderTitle": "Een dagelijkse herinnering",
+    "reminderBody": "De app herinnert je elke dag op het tijdstip dat je kiest, met het aantal lessen dat aan herhaling toe is. De herinneringen worden op je telefoon ingesteld; er wordt niets naar ons gestuurd.",
+    "reminderOn": "Herinner me elke dag",
+    "reminderOff": "Zet de herinnering uit",
+    "reminderSet": "Elke dag om {time}.",
+    "reminderDenied": "Meldingen staan uit voor The Nahwi. Zet ze aan in Instellingen → Meldingen → The Nahwi en probeer het opnieuw.",
+    "notifyTitle": "Tijd voor sarf en nahw",
+    "notifyBody": "De les van vandaag wacht op je.",
+    "notifyDue": "Vandaag aan herhaling toe: {n}. Een paar minuten tikrar houdt ze vers.",
+    "heartsTitle": "Je hartjes zijn weer vol",
+    "heartsBody": "Alle vijf hartjes zijn terug: je volgende toets wacht op je.",
+    "shortcutContinue": "Ga verder met de les",
+    "shortcutTikrar": "Tikrar",
+    "shortcutGlossary": "Woordenlijst",
+    "store": {
+      "loading": "De prijzen worden uit de App Store geladen…",
+      "unavailable": "De App Store gaf geen antwoord. Probeer het zo meteen opnieuw.",
+      "renewsMonth": "wordt elke maand verlengd",
+      "renewsYear": "wordt elk jaar verlengd",
+      "fine": "De betaling wordt bij bevestiging van je Apple ID afgeschreven. Een abonnement wordt automatisch verlengd, elke maand of elk jaar, tenzij je het ten minste 24 uur voor het einde van de periode opzegt; je kunt het op elk moment opzeggen in de instellingen van je Apple ID, onder Abonnementen.",
+      "buying": "De App Store wordt geopend…",
+      "thanks": "Dank je! Je volledige toegang wordt ingesteld.",
+      "error": "De aankoop is niet gelukt. Probeer het opnieuw, of schrijf ons.",
+      "restore": "Aankopen herstellen",
+      "restoring": "Herstellen…",
+      "nothing": "Er is geen aankoop gevonden voor deze Apple ID.",
+      "email": "Met je e-mail",
+      "eula": "Gebruiksvoorwaarden (Apple)",
+      "terms": "Servicevoorwaarden",
+      "privacy": "Privacy"
+    }
+  },
+  "parent": {
+    "line": "Een site van {mantiqi}",
+    "lineLong": "The Nahwi is een site van {mantiqi}, de encyclopedie en het studieportaal van de mantiq. Het nieuws, het adres en de accounts worden gedeeld.",
+    "visit": "Bezoek The Mantiqi"
+  }
+}

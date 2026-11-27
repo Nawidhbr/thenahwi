@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mizan-1": {
+      "prompt": "Bu fiil hangi veznindedir?",
+      "options": [
+        "fe'ale",
+        "fe'ile",
+        "ef'ale",
+        "fa'ale"
+      ],
+      "explanation": "Nasara'nın üç asli harfinin her birinde fetha vardır: fe'ale."
+    },
+    "mizan-2": {
+      "prompt": "Fe'ale vezninde ayn neyin yerini tutar?",
+      "options": [
+        "İkinci asli harfin",
+        "Birinci asli harfin",
+        "Üçüncü asli harfin",
+        "Zaid bir harfin"
+      ],
+      "explanation": "Fa, ayn ve lam birinci, ikinci ve üçüncü asli harfin yerini tutar."
+    },
+    "mizan-3": {
+      "prompt": "Bu fiil hangi veznindedir?",
+      "options": [
+        "istef'ale",
+        "if'alle",
+        "tefa''ale",
+        "infe'ale"
+      ],
+      "explanation": "Kök ğ-f-r'dir; önündeki elif, sin ve te zaiddir: istef'ale."
+    }
+  }
+}

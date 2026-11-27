@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mutall-1": {
+      "prompt": "Waar staat de zwakke letter in qala (wortel q-w-l)?",
+      "options": [
+        "In het midden: een ajwaf-werkwoord",
+        "Aan het begin: een mithal-werkwoord",
+        "Aan het eind: een naqis-werkwoord",
+        "Er is er geen"
+      ],
+      "explanation": "De waw is de tweede stamletter, dus qala is ajwaf."
+    },
+    "mutall-2": {
+      "prompt": "Wat gebeurt er met de waw van dit werkwoord in de mudari'?",
+      "options": [
+        "Hij valt weg: ya'idu",
+        "Hij wordt een ya'",
+        "Hij blijft: yaw'idu",
+        "Hij wordt een alif"
+      ],
+      "explanation": "Bij de mithal van het patroon fa'ala yaf'ilu valt de waw in de mudari' weg: ya'idu."
+    },
+    "mutall-3": {
+      "prompt": "Hoe heet dit werkwoord?",
+      "options": [
+        "naqis: zwak in de laatste letter",
+        "ajwaf: zwak in het midden",
+        "mithal: zwak in de eerste letter",
+        "salim"
+      ],
+      "explanation": "Rama komt van r-m-y: de zwakke letter is de derde."
+    }
+  }
+}

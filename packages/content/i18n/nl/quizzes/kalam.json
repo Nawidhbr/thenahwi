@@ -1,0 +1,34 @@
+{
+  "items": {
+    "kalam-1": {
+      "prompt": "Welk van deze is kalam?",
+      "options": [
+        "zaydun qa'imun (Zayd staat)",
+        "in qama zaydun (als Zayd opstond)",
+        "fi l-bayti (in het huis)",
+        "zaydun (Zayd)"
+      ],
+      "explanation": "Alleen zaydun qa'imun geeft een volledige betekenis; de andere laten de luisteraar wachten."
+    },
+    "kalam-2": {
+      "prompt": "Hoe definieert de Ajurrumiyya de kalam?",
+      "options": [
+        "De samengestelde uiting die volgens afspraak iets nuttigs meedeelt",
+        "Eén woord met één betekenis",
+        "Elk geluid dat een mens maakt",
+        "Een woord dat een tijd noemt"
+      ],
+      "explanation": "De definitie vraagt om een uiting, samengesteld uit woorden, die iets volledigs meedeelt, volgens de afspraak van de Arabieren."
+    },
+    "kalam-3": {
+      "prompt": "Wat heeft de kalam minstens nodig?",
+      "options": [
+        "Twee woorden die een betekenis volledig maken",
+        "Eén woord",
+        "Een werkwoord en een maf'ul bihi",
+        "Drie woorden en een partikel"
+      ],
+      "explanation": "Een naamwoord met een naamwoord (zaydun qa'imun) of een werkwoord met een naamwoord (qama zaydun) is genoeg."
+    }
+  }
+}

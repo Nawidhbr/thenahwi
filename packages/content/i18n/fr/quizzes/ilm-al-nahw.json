@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ilm-al-nahw-1": {
+      "prompt": "Qu'étudie le nahw ?",
+      "options": [
+        "La manière dont les mots se joignent en phrases, et les finales qui montrent leur rôle",
+        "La conjugaison d'un verbe à travers les personnes",
+        "Les schèmes des lettres radicales",
+        "L'histoire de l'écriture arabe"
+      ],
+      "explanation": "Le nahw porte sur le mot dans la phrase : son rôle et la finale qui le montre."
+    },
+    "ilm-al-nahw-2": {
+      "prompt": "Pourquoi 'Amr se termine-t-il en -an dans cette phrase ?",
+      "options": [
+        "Il est celui sur qui tombe le coup, l'objet",
+        "Il est l'agent du coup",
+        "Son nom suit une préposition",
+        "Les noms se terminent toujours en -an"
+      ],
+      "explanation": "'Amran est l'objet (maf'ûl bihi), et l'objet est mansûb, avec une fatha."
+    },
+    "ilm-al-nahw-3": {
+      "prompt": "Lequel de ces livres est un premier livre de nahw ?",
+      "options": [
+        "al-Âjurrûmiyya",
+        "al-Shâfiya",
+        "Lâmiyyat al-af'âl",
+        "al-Amthila"
+      ],
+      "explanation": "Al-Âjurrûmiyya d'Ibn Âjurrûm est un court premier livre de nahw. Les trois autres sont des livres de sarf."
+    }
+  }
+}

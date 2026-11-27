@@ -1,0 +1,34 @@
+{
+  "items": {
+    "fil-1": {
+      "prompt": "Qu'indique un verbe ?",
+      "options": [
+        "Un sens joint à l'un des trois temps",
+        "Un sens seulement avec un autre mot",
+        "Le nom d'une personne ou d'une chose",
+        "Seulement un ordre"
+      ],
+      "explanation": "Le verbe joint un acte à un temps : passé, présent ou futur."
+    },
+    "fil-2": {
+      "prompt": "Quel mot est ici un verbe par son signe ?",
+      "options": [
+        "nasara, parce que qad vient devant lui",
+        "qad, parce qu'il est court",
+        "Aucun : c'est un nom",
+        "Les deux sont des verbes"
+      ],
+      "explanation": "Qad est une particule ; venant devant nasara, il est le signe que nasara est un verbe."
+    },
+    "fil-3": {
+      "prompt": "Lequel de ces signes est un signe du verbe dans al-Âjurrûmiyya ?",
+      "options": [
+        "Le tâ' du féminin avec sukûn, comme dans nasarat",
+        "Le tanwîn",
+        "L'article al-",
+        "Une kasra après une préposition"
+      ],
+      "explanation": "Le tanwîn, al- et le khafd appartiennent au nom ; le tâ' avec sukûn appartient au verbe."
+    }
+  }
+}

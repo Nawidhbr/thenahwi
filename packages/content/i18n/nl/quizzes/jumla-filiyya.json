@@ -1,0 +1,34 @@
+{
+  "items": {
+    "jumla-filiyya-1": {
+      "prompt": "Welke zin is een werkwoordzin?",
+      "options": [
+        "qama zaydun",
+        "zaydun qa'imun",
+        "Beide",
+        "Geen van beide"
+      ],
+      "explanation": "Qama zaydun begint met een werkwoord."
+    },
+    "jumla-filiyya-2": {
+      "prompt": "Wat zijn de delen van de eenvoudigste werkwoordzin?",
+      "options": [
+        "Een werkwoord en zijn fa'il",
+        "Een mubtada' en een khabar",
+        "Een partikel en een naamwoord",
+        "Twee werkwoorden"
+      ],
+      "explanation": "Fi'l en fa'il: qama zaydun."
+    },
+    "jumla-filiyya-3": {
+      "prompt": "Met een meervoudig naamwoord als fa'il na het werkwoord gebruiken de boeken…",
+      "options": [
+        "het werkwoord in het enkelvoud: qama l-rijalu",
+        "het werkwoord in het meervoud: qamu l-rijalu",
+        "helemaal geen werkwoord",
+        "een werkwoord in het tweevoud"
+      ],
+      "explanation": "Als de fa'il een naamwoord erna is, blijft het werkwoord enkelvoud."
+    }
+  }
+}

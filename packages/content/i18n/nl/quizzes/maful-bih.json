@@ -1,0 +1,34 @@
+{
+  "items": {
+    "maful-bih-1": {
+      "prompt": "Wat is 'amran hier?",
+      "options": [
+        "de maf'ul bihi",
+        "de fa'il",
+        "de mubtada'",
+        "de khabar"
+      ],
+      "explanation": "Het slaan valt op 'Amr, en hij is mansub: de maf'ul bihi."
+    },
+    "maful-bih-2": {
+      "prompt": "Welk werkwoord neemt geen maf'ul bihi?",
+      "options": [
+        "qama",
+        "kataba",
+        "nasara",
+        "Ze nemen er allemaal een"
+      ],
+      "explanation": "Qama, hij stond op, is onovergankelijk: het valt op niemand."
+    },
+    "maful-bih-3": {
+      "prompt": "Wat is de -ni in dit werkwoord?",
+      "options": [
+        "de maf'ul bihi: hij hielp mij",
+        "de fa'il: ik hielp",
+        "de khabar",
+        "een partikel van de khafd"
+      ],
+      "explanation": "Het voornaamwoord -ni is degene op wie het helpen viel: de maf'ul bihi."
+    }
+  }
+}

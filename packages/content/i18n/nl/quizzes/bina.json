@@ -1,0 +1,34 @@
+{
+  "items": {
+    "bina-1": {
+      "prompt": "Wat betekent mabni?",
+      "options": [
+        "De uitgang blijft gelijk, wat het woord ook regeert",
+        "De uitgang verandert met de regeerders",
+        "Het is een werkwoord in de mudari'",
+        "Het heeft toegevoegde letters"
+      ],
+      "explanation": "Mabni-woorden houden één uitgang; mu'rab-woorden veranderen."
+    },
+    "bina-2": {
+      "prompt": "Welk van deze woorden is mabni?",
+      "options": [
+        "hadha",
+        "zaydun",
+        "yansuru",
+        "Alle drie"
+      ],
+      "explanation": "Aanwijzende naamwoorden zoals hadha zijn mabni; Zayd en yansuru zijn mu'rab."
+    },
+    "bina-3": {
+      "prompt": "Welke werkwoorden zijn mabni?",
+      "options": [
+        "De madi en de gebiedende wijs",
+        "Alleen de mudari'",
+        "Geen enkel werkwoord is mabni",
+        "Elk werkwoord na lam"
+      ],
+      "explanation": "De madi en de gebiedende wijs zijn mabni; de mudari' is mu'rab, behalve in een paar gevallen die de boeken later behandelen."
+    }
+  }
+}

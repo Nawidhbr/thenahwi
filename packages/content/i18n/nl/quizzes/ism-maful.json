@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-maful-1": {
+      "prompt": "Wat is het passief deelwoord van dit werkwoord?",
+      "options": [
+        "مَكْتُوبٌ",
+        "كَاتِبٌ",
+        "كِتَابَةٌ",
+        "يُكْتَبُ"
+      ],
+      "explanation": "Van het kale werkwoord staat het passief deelwoord op maf'ul: maktub."
+    },
+    "ism-maful-2": {
+      "prompt": "Hoe verschilt het eerste woord van het tweede?",
+      "options": [
+        "De fatha voor de laatste letter maakt het eerste passief: geëerd",
+        "Het is hetzelfde woord",
+        "Mukram is een werkwoord",
+        "Mukrim is de masdar"
+      ],
+      "explanation": "Fatha voor de laatste letter: passief deelwoord; kasra: actief deelwoord."
+    },
+    "ism-maful-3": {
+      "prompt": "Op welk patroon staat het passief deelwoord van het kale werkwoord?",
+      "options": [
+        "maf'ul",
+        "fa'il (met lange a)",
+        "muf'il",
+        "fa'il (met lange i)"
+      ],
+      "explanation": "Mansur, madrub, maktub: allemaal op maf'ul."
+    }
+  }
+}

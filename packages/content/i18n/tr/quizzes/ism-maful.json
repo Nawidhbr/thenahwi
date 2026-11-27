@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-maful-1": {
+      "prompt": "Bu fiilin ism-i mef'ulü hangisidir?",
+      "options": [
+        "مَكْتُوبٌ",
+        "كَاتِبٌ",
+        "كِتَابَةٌ",
+        "يُكْتَبُ"
+      ],
+      "explanation": "Mücerred fiilden ism-i mef'ul mef'ul veznindedir: mektub."
+    },
+    "ism-maful-2": {
+      "prompt": "Birinci kelime ikinciden nasıl ayrılır?",
+      "options": [
+        "Son harften önceki fetha birinciyi ism-i mef'ul yapar: ikram edilen",
+        "İkisi aynı kelimedir",
+        "Mükram bir fiildir",
+        "Mükrim masdardır"
+      ],
+      "explanation": "Son harften önce fetha: ism-i mef'ul; kesre: ism-i fail."
+    },
+    "ism-maful-3": {
+      "prompt": "Mücerred fiilin ism-i mef'ulü hangi veznindedir?",
+      "options": [
+        "mef'ul",
+        "fail",
+        "müf'il",
+        "fe'il"
+      ],
+      "explanation": "Mansur, madrub, mektub: hepsi mef'ul veznindedir."
+    }
+  }
+}

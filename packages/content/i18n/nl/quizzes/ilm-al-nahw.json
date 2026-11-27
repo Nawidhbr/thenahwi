@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ilm-al-nahw-1": {
+      "prompt": "Wat bestudeert de nahw?",
+      "options": [
+        "Hoe woorden samenkomen tot zinnen, en de uitgangen die hun rol laten zien",
+        "Hoe een werkwoord door de personen heen wordt vervoegd",
+        "De patronen van de stamletters",
+        "De geschiedenis van het Arabische schrift"
+      ],
+      "explanation": "De nahw gaat over het woord in de zin: zijn rol en de uitgang die die laat zien."
+    },
+    "ilm-al-nahw-2": {
+      "prompt": "Waarom eindigt 'Amr in deze zin op -an?",
+      "options": [
+        "Hij is degene op wie het slaan valt, de maf'ul bihi",
+        "Hij is de doener van het slaan",
+        "Zijn naam volgt op een voorzetsel",
+        "Namen eindigen altijd op -an"
+      ],
+      "explanation": "'Amran is de maf'ul bihi, en de maf'ul bihi is mansub, met fatha."
+    },
+    "ilm-al-nahw-3": {
+      "prompt": "Welk van deze is een eerste boek van de nahw?",
+      "options": [
+        "al-Ajurrumiyya",
+        "al-Shafiya",
+        "Lamiyyat al-af'al",
+        "al-Amthila"
+      ],
+      "explanation": "De Ajurrumiyya van Ibn Ajurrum is een kort eerste boek van de nahw. De andere drie zijn boeken van de sarf."
+    }
+  }
+}

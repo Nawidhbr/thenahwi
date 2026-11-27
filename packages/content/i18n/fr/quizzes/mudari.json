@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mudari-1": {
+      "prompt": "Quelles lettres peuvent commencer le présent ?",
+      "options": [
+        "Celles qu'on rassemble dans anaytu : alif, nûn, yâ' et tâ'",
+        "Celles qu'on rassemble dans salamtu",
+        "Seulement le yâ'",
+        "N'importe quelle lettre"
+      ],
+      "explanation": "Al-Âjurrûmiyya les rassemble dans anaytu : a-, na-, ya-, ta-."
+    },
+    "mudari-2": {
+      "prompt": "Quel est ici l'état du verbe ?",
+      "options": [
+        "majzûm, après lam",
+        "mansûb, après lam",
+        "marfû', comme d'ordinaire",
+        "mabnî sur le sukûn"
+      ],
+      "explanation": "Lam met le présent au jazm, que montre le sukûn."
+    },
+    "mudari-3": {
+      "prompt": "Que signifie cette forme ?",
+      "options": [
+        "tu aides (une femme)",
+        "elle aide",
+        "vous aidez (des hommes)",
+        "elles aident"
+      ],
+      "explanation": "Ta- avec la terminaison -îna est la deuxième personne du féminin singulier."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mudari-1": {
+      "prompt": "Met welke letters kan de mudari' beginnen?",
+      "options": [
+        "Die samengebracht in anaytu: alif, nun, ya' en ta'",
+        "Die samengebracht in salamtu",
+        "Alleen ya'",
+        "Elke letter"
+      ],
+      "explanation": "De Ajurrumiyya brengt ze samen in anaytu: a-, na-, ya-, ta-."
+    },
+    "mudari-2": {
+      "prompt": "Wat is hier de toestand van het werkwoord?",
+      "options": [
+        "majzum, na lam",
+        "mansub, na lam",
+        "marfu', zoals gewoonlijk",
+        "mabni op sukun"
+      ],
+      "explanation": "Lam zet de mudari' in jazm, wat de sukun laat zien."
+    },
+    "mudari-3": {
+      "prompt": "Wat betekent deze vorm?",
+      "options": [
+        "jij (één vrouw) helpt",
+        "zij helpt",
+        "jullie (mannen) helpen",
+        "zij (vrouwen) helpen"
+      ],
+      "explanation": "Ta- met de uitgang -ina is de tweede persoon vrouwelijk enkelvoud."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "amr-1": {
+      "prompt": "Wat is de gebiedende wijs van dit werkwoord?",
+      "options": [
+        "اُنْصُرْ",
+        "اِنْصُرْ",
+        "نَصَرَ",
+        "أَنْصُرُ"
+      ],
+      "explanation": "Neem de ta' weg, eindig op sukun, en zet er een hamza voor met de damma van de 'ayn: unsur."
+    },
+    "amr-2": {
+      "prompt": "Waarom begint deze gebiedende wijs met een kasra?",
+      "options": [
+        "Omdat de 'ayn van tadribu een kasra heeft",
+        "Omdat hij vrouwelijk is",
+        "Omdat elke gebiedende wijs met i begint",
+        "Omdat daraba mazid is"
+      ],
+      "explanation": "De hamza krijgt een damma als de 'ayn van de mudari' er een heeft, en anders een kasra."
+    },
+    "amr-3": {
+      "prompt": "Tot wie richt de gebiedende wijs zich?",
+      "options": [
+        "Tot de aangesprokene, in zes vormen",
+        "Tot iedereen: alle veertien personen",
+        "Alleen tot de spreker",
+        "Alleen tot een afwezige"
+      ],
+      "explanation": "De gebiedende wijs wordt gevormd uit de tweede persoon: twee mannelijke vormen, twee vrouwelijke, en het tweevoud."
+    }
+  }
+}

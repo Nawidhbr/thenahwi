@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-1": {
+      "prompt": "Bunlardan hangisi ismin alametidir?",
+      "options": [
+        "Elif-lam alabilmesi",
+        "Önüne kad alabilmesi",
+        "İstikbal sin'i alabilmesi",
+        "Her zaman sükunla bitmesi"
+      ],
+      "explanation": "Elif-lam, tenvin ve hafz ismi gösterir; kad ve istikbal sin'i fiili gösterir."
+    },
+    "ism-2": {
+      "prompt": "İsmi fiilden ayıran nedir?",
+      "options": [
+        "İsim bir ma'nayı bir zamana bağlamadan gösterir",
+        "İsim her zaman üç harflidir",
+        "İsim asla fail olamaz",
+        "İsim asla tenvin almaz"
+      ],
+      "explanation": "Fiil zaman taşır; isim taşımaz."
+    },
+    "ism-3": {
+      "prompt": "Hangi kelime isimdir?",
+      "options": [
+        "kitabün (bir kitap)",
+        "ketebe (yazdı)",
+        "kad",
+        "Hiçbiri"
+      ],
+      "explanation": "Kitabün'de ismin alameti olan tenvin vardır. Ketebe fiil, kad ise harftir."
+    }
+  }
+}

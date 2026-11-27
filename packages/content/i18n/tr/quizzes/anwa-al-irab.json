@@ -1,0 +1,34 @@
+{
+  "items": {
+    "anwa-al-irab-1": {
+      "prompt": "Hangi i'rabı yalnız isimler alır?",
+      "options": [
+        "hafz (cerr)",
+        "ref'",
+        "nasb",
+        "cezm"
+      ],
+      "explanation": "İsimler ref', nasb ve hafz alır, ama cezm almaz; fiiller hafz almaz."
+    },
+    "anwa-al-irab-2": {
+      "prompt": "Hangi i'rabı yalnız fiiller alır?",
+      "options": [
+        "cezm",
+        "hafz",
+        "ref'",
+        "nasb"
+      ],
+      "explanation": "Cezm, lem yensur örneğinde olduğu gibi fiil-i muzariye aittir."
+    },
+    "anwa-al-irab-3": {
+      "prompt": "Nasbın asıl alameti nedir?",
+      "options": [
+        "fetha",
+        "zamme",
+        "kesre",
+        "sükun"
+      ],
+      "explanation": "Zeyden ve len yensura, ikisi de nasbın asıl alameti olan fethayla biter."
+    }
+  }
+}

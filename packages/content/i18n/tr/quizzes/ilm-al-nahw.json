@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ilm-al-nahw-1": {
+      "prompt": "Nahiv neyi inceler?",
+      "options": [
+        "Kelimelerin nasıl cümle oluşturduğunu ve görevlerini gösteren sonlarını",
+        "Bir fiilin sigalar boyunca nasıl tasrif edildiğini",
+        "Asli harflerin vezinlerini",
+        "Arap yazısının tarihini"
+      ],
+      "explanation": "Nahiv kelimeyi cümle içinde ele alır: görevini ve onu gösteren sonu."
+    },
+    "ilm-al-nahw-2": {
+      "prompt": "Bu cümlede Amr neden -en ile biter?",
+      "options": [
+        "Dövmenin üzerine düştüğü kişidir, yani mef'uldür",
+        "Dövme işini yapandır",
+        "Adı bir cer harfinden sonra gelir",
+        "İsimler her zaman -en ile biter"
+      ],
+      "explanation": "Amran mef'ulün bihtir ve mef'ul fethayla mansubdur."
+    },
+    "ilm-al-nahw-3": {
+      "prompt": "Bunlardan hangisi ilk nahiv kitaplarındandır?",
+      "options": [
+        "Acurrumiyye",
+        "Şafiye",
+        "Lamiyyetü'l-ef'al",
+        "Emsile"
+      ],
+      "explanation": "İbn Acurrum'un Acurrumiyye'si kısa bir ilk nahiv kitabıdır. Diğer üçü sarf kitaplarıdır."
+    }
+  }
+}

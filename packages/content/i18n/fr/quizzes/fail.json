@@ -1,0 +1,34 @@
+{
+  "items": {
+    "fail-1": {
+      "prompt": "Qu'est zaydun ici ?",
+      "options": [
+        "le fâ'il",
+        "le mubtada'",
+        "le maf'ûl bihi",
+        "le khabar"
+      ],
+      "explanation": "Zaydun vient après son verbe et il est marfû' : c'est le fâ'il."
+    },
+    "fail-2": {
+      "prompt": "Quel est le fâ'il ici ?",
+      "options": [
+        "le -tu à la fin",
+        "le verbe qâma",
+        "Il n'y en a pas",
+        "un huwa caché"
+      ],
+      "explanation": "Le pronom -tu est l'agent : je me suis levé."
+    },
+    "fail-3": {
+      "prompt": "Quel est l'état du fâ'il ?",
+      "options": [
+        "marfû'",
+        "mansûb",
+        "majrûr",
+        "majzûm"
+      ],
+      "explanation": "Le fâ'il est toujours marfû'."
+    }
+  }
+}

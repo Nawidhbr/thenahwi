@@ -1,0 +1,34 @@
+{
+  "items": {
+    "jumla-filiyya-1": {
+      "prompt": "Quelle phrase est verbale ?",
+      "options": [
+        "qâma zaydun",
+        "zaydun qâ'imun",
+        "Les deux",
+        "Aucune"
+      ],
+      "explanation": "Qâma zaydun commence par un verbe."
+    },
+    "jumla-filiyya-2": {
+      "prompt": "Quelles sont les parties de la phrase verbale la plus simple ?",
+      "options": [
+        "Un verbe et son agent",
+        "Un mubtada' et un khabar",
+        "Une particule et un nom",
+        "Deux verbes"
+      ],
+      "explanation": "Le fi'l et le fâ'il : qâma zaydun."
+    },
+    "jumla-filiyya-3": {
+      "prompt": "Avec un nom pluriel comme agent après le verbe, les livres emploient…",
+      "options": [
+        "le verbe au singulier : qâma l-rijâlu",
+        "le verbe au pluriel : qâmû l-rijâlu",
+        "aucun verbe",
+        "un verbe au duel"
+      ],
+      "explanation": "Quand l'agent est un nom placé après lui, le verbe reste au singulier."
+    }
+  }
+}

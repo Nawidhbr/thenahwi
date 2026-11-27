@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ilm-al-sarf-1": {
+      "prompt": "Sarf neyi inceler?",
+      "options": [
+        "Tek bir kelimenin yapısını: kökünü, veznini ve türeyen sigalarını",
+        "Cümle içindeki kelimelerin sonlarını",
+        "Kur'an ayetlerinin ma'nalarını",
+        "Kıraatte harflerin telaffuzunu"
+      ],
+      "explanation": "Sarf kelimeye tek başına bakar: veznine ve kökünden yapılan sigalara. Cümle içindeki sonlar nahve aittir."
+    },
+    "ilm-al-sarf-2": {
+      "prompt": "Sarf bu kelimelerden hangilerini tek bir kökün sigaları olarak ele alır?",
+      "options": [
+        "Dördünü de: farklı vezinlerde tek bir kök, n-s-r",
+        "Yalnız nasara'yı; diğerleri farklı kelimelerdir",
+        "Hiçbirini: sarf fiilleri incelemez",
+        "Yalnız nasır ve mansur'u"
+      ],
+      "explanation": "Dördünün de asli harfleri n-s-r'dir. Sarf her birinin veznini açıklar."
+    },
+    "ilm-al-sarf-3": {
+      "prompt": "Medresede sarf neden genellikle nahivden önce okunur?",
+      "options": [
+        "Nahiv, sigalarını talebenin önceden tanıması gereken kelimelerin sonlarından söz eder",
+        "Sarfı ezberlemek daha kolaydır",
+        "Nahiv yalnız fıkhın ileri talebeleri içindir",
+        "Bir sebebi yoktur; sıra rastgeledir"
+      ],
+      "explanation": "Bir kelimenin sigasını tanıyamayan talebe onun sonu hakkında hüküm veremez; bu yüzden sarf kitapları önce gelir."
+    }
+  }
+}

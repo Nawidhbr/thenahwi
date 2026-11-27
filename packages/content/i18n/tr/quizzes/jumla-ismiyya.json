@@ -1,0 +1,34 @@
+{
+  "items": {
+    "jumla-ismiyya-1": {
+      "prompt": "Hangi cümle ismiyyedir?",
+      "options": [
+        "zeydün ka'imün",
+        "kame zeydün",
+        "İkisi de",
+        "Hiçbiri"
+      ],
+      "explanation": "Zeydün ka'imün bir isimle başlar; kame zeydün bir fiille başlar."
+    },
+    "jumla-ismiyya-2": {
+      "prompt": "Temel cümle-i ismiyyenin iki kısmı nedir?",
+      "options": [
+        "mübteda ve haber",
+        "fiil ve fail",
+        "fail ve mef'ul",
+        "harf ve isim"
+      ],
+      "explanation": "Cümle-i ismiyye mübteda ile haberinden oluşur."
+    },
+    "jumla-ismiyya-3": {
+      "prompt": "Burada iki kısmın i'rabı nedir?",
+      "options": [
+        "İkisi de merfu",
+        "İkisi de mansub",
+        "Birincisi merfu, ikincisi mansub",
+        "İkisi de mecrur"
+      ],
+      "explanation": "Mübteda ve haberin ikisi de merfudur: el-ilmü, nurun."
+    }
+  }
+}

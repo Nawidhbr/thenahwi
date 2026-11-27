@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ilm-al-sarf-1": {
+      "prompt": "Wat bestudeert de sarf?",
+      "options": [
+        "De vormen van een los woord: zijn wortel, patroon en afgeleide vormen",
+        "De uitgangen van woorden binnen een zin",
+        "De betekenissen van Koranverzen",
+        "De uitspraak van letters bij het reciteren"
+      ],
+      "explanation": "De sarf bekijkt het woord op zichzelf: zijn patroon en de vormen die uit zijn wortel gemaakt worden. De uitgangen in de zin horen bij de nahw."
+    },
+    "ilm-al-sarf-2": {
+      "prompt": "Welke van deze woorden behandelt de sarf als vormen van één wortel?",
+      "options": [
+        "Alle vier: één wortel, n-s-r, in verschillende patronen",
+        "Alleen nasara; de andere zijn andere woorden",
+        "Geen: de sarf bestudeert geen werkwoorden",
+        "Alleen nasir en mansur"
+      ],
+      "explanation": "Alle vier delen de stamletters n-s-r. De sarf verklaart het patroon van elk."
+    },
+    "ilm-al-sarf-3": {
+      "prompt": "Waarom wordt de sarf in de madrasa meestal voor de nahw gelezen?",
+      "options": [
+        "De nahw spreekt over de uitgangen van woorden waarvan de student de vormen al moet herkennen",
+        "De sarf is makkelijker uit het hoofd te leren",
+        "De nahw is alleen voor gevorderde studenten van de fiqh",
+        "Er is geen reden; de volgorde is willekeurig"
+      ],
+      "explanation": "Een student die de vorm van een woord niet herkent, kan niet over zijn uitgang oordelen, dus komen de boeken van de sarf eerst."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "khabar-1": {
+      "prompt": "Qu'est qâ'imun ici ?",
+      "options": [
+        "le khabar",
+        "le mubtada'",
+        "le fâ'il",
+        "le maf'ûl bihi"
+      ],
+      "explanation": "Qâ'imun dit ce qu'est Zayd : c'est le khabar."
+    },
+    "khabar-2": {
+      "prompt": "Quel est le khabar ici ?",
+      "options": [
+        "le groupe fî l-dâri",
+        "zaydun",
+        "al-dâri seul",
+        "Il n'y en a pas"
+      ],
+      "explanation": "Le groupe fî l-dâri complète le sens : il tient lieu de khabar."
+    },
+    "khabar-3": {
+      "prompt": "Quel mot complète la phrase en s'accordant ?",
+      "options": [
+        "مُجْتَهِدَانِ",
+        "مُجْتَهِدٌ",
+        "مُجْتَهِدُونَ",
+        "مُجْتَهِدَةٌ"
+      ],
+      "explanation": "Le mubtada' est un duel masculin, le khabar l'est donc aussi : mujtahidâni."
+    }
+  }
+}

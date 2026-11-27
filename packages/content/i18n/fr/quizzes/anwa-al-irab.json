@@ -1,0 +1,34 @@
+{
+  "items": {
+    "anwa-al-irab-1": {
+      "prompt": "Quel état seuls les noms prennent-ils ?",
+      "options": [
+        "le khafd (jarr)",
+        "le raf'",
+        "le nasb",
+        "le jazm"
+      ],
+      "explanation": "Les noms prennent le raf', le nasb et le khafd, mais pas le jazm ; les verbes ne prennent pas le khafd."
+    },
+    "anwa-al-irab-2": {
+      "prompt": "Quel état seuls les verbes prennent-ils ?",
+      "options": [
+        "le jazm",
+        "le khafd",
+        "le raf'",
+        "le nasb"
+      ],
+      "explanation": "Le jazm appartient au présent, comme dans lam yansur."
+    },
+    "anwa-al-irab-3": {
+      "prompt": "Quel est le signe de base du nasb ?",
+      "options": [
+        "la fatha",
+        "la damma",
+        "la kasra",
+        "le sukûn"
+      ],
+      "explanation": "Zaydan et lan yansura se terminent tous deux par une fatha, le signe de base du nasb."
+    }
+  }
+}

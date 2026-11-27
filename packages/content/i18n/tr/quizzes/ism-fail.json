@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-fail-1": {
+      "prompt": "Bu fiilin ism-i faili hangisidir?",
+      "options": [
+        "نَاصِرٌ",
+        "مَنْصُورٌ",
+        "نَصْرٌ",
+        "يَنْصُرُ"
+      ],
+      "explanation": "Mücerred fiilden ism-i fail fail veznindedir: nasır."
+    },
+    "ism-fail-2": {
+      "prompt": "Bu fiilin ism-i faili hangisidir?",
+      "options": [
+        "مُسْتَغْفِرٌ",
+        "مُسْتَغْفَرٌ",
+        "اِسْتِغْفَارٌ",
+        "يَسْتَغْفِرُ"
+      ],
+      "explanation": "Mezid bir babdan: muzaraat harfinin yerine zammeli bir mim ve son harften önce bir kesre."
+    },
+    "ism-fail-3": {
+      "prompt": "Bu kelime ne demektir?",
+      "options": [
+        "ikram eden",
+        "ikram edilen",
+        "ikram etmek",
+        "ikram etti"
+      ],
+      "explanation": "Son harften önceki kesre onu ekreme'nin ism-i faili yapar."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Le verbe sain",
+  "alsoKnownAs": [
+    "sahih",
+    "sahîh",
+    "verbe sain",
+    "sâlim"
+  ],
+  "definition": "Un verbe dont les lettres radicales ne comprennent aucune des lettres faibles : le wâw, le yâ' et l'alif.",
+  "explanation": [
+    "نَصَرَ، ضَرَبَ، كَتَبَ sont sains. Leurs lettres restent telles quelles dans chaque forme ; leur conjugaison suit donc exactement les schèmes.",
+    "Parmi les verbes sains, les livres distinguent le sâlim (sans hamza ni lettre redoublée, comme نَصَرَ), le mahmûz (avec une hamza, comme أَكَلَ) et le mudâ'af (dont la deuxième et la troisième lettre radicale sont identiques, comme مَدَّ). L'outil de conjugaison de The Nahwi travaille sur le sâlim."
+  ],
+  "examples": [
+    {
+      "text": "kataba yaktubu : sain ; chaque lettre reste."
+    },
+    {
+      "text": "akala, il a mangé : sain, avec une hamza (mahmûz)."
+    }
+  ]
+}

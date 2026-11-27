@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mutall-1": {
+      "prompt": "Où est la lettre faible dans qâla (racine q-w-l) ?",
+      "options": [
+        "Au milieu : un verbe ajwaf",
+        "Au début : un verbe mithâl",
+        "À la fin : un verbe nâqis",
+        "Il n'y en a pas"
+      ],
+      "explanation": "Le wâw est la deuxième lettre radicale ; qâla est donc ajwaf."
+    },
+    "mutall-2": {
+      "prompt": "Que devient le wâw de ce verbe au présent ?",
+      "options": [
+        "Il tombe : ya'idu",
+        "Il devient un yâ'",
+        "Il reste : yaw'idu",
+        "Il devient un alif"
+      ],
+      "explanation": "Dans le mithâl de la classe fa'ala yaf'ilu, le wâw tombe au présent : ya'idu."
+    },
+    "mutall-3": {
+      "prompt": "Comment appelle-t-on ce verbe ?",
+      "options": [
+        "nâqis : faible à la dernière lettre",
+        "ajwaf : faible au milieu",
+        "mithâl : faible à la première lettre",
+        "sâlim"
+      ],
+      "explanation": "Ramâ vient de r-m-y : la lettre faible est la troisième."
+    }
+  }
+}

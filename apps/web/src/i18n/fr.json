@@ -1,0 +1,1740 @@
+{
+  "meta": {
+    "tagline": "Sarf et nahw : la grammaire arabe telle que l'enseigne la madrasa",
+    "homeDescription": "Apprenez le sarf et le nahw, la morphologie et la syntaxe de l'arabe classique, selon les cursus de la madrasa : commencez gratuitement avec al-Mabâdi', puis les livres classiques, avec de courts tests.",
+    "glossaryName": "Glossaire du sarf et du nahw (grammaire arabe)"
+  },
+  "nav": {
+    "learn": "Apprendre",
+    "text": "Texte",
+    "practice": "S'exercer",
+    "main": "Principal",
+    "home": "Accueil",
+    "book": "Le livre",
+    "glossary": "Glossaire",
+    "about": "À propos"
+  },
+  "header": {
+    "search": "Rechercher des termes et du texte",
+    "translit": "Translittération",
+    "translitTitle": "Afficher ou masquer la translittération",
+    "tashkil": "Voyelles (tashkîl)",
+    "tashkilTitle": "Afficher ou masquer les voyelles",
+    "theme": "Passer du thème clair au thème sombre",
+    "language": "Langue",
+    "inPreparation": "En préparation",
+    "langNote": "Les traductions sont des brouillons, comme l'anglais, jusqu'à leur relecture par un enseignant.",
+    "settings": "Réglages",
+    "darkTheme": "Thème sombre",
+    "install": "Installer comme application",
+    "installIos": "Sur iPhone ou iPad : touchez Partager, puis « Sur l'écran d'accueil ».",
+    "installOther": "Ouvrez le menu de votre navigateur et choisissez « Installer l'application » ou « Ajouter à l'écran d'accueil ».",
+    "font": "Police arabe",
+    "fonts": {
+      "modern": "Kufi",
+      "naskh": "Naskh",
+      "classic": "Amiri"
+    },
+    "hijri": "Dates de l'hégire en premier",
+    "ah": "H",
+    "trLang": "Traduction des textes",
+    "trLangNote": "Sous chaque passage de l'original d'un livre, là où il est traduit.",
+    "trLangs": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "ur": "اردو",
+      "fa": "فارسی",
+      "ar": "العربية"
+    }
+  },
+  "footer": {
+    "draft": "{site} est en cours de développement. Toutes les explications sont des brouillons en attente de relecture par un enseignant qualifié de grammaire arabe.",
+    "privacy": "Confidentialité",
+    "pricing": "Tarifs",
+    "terms": "Conditions",
+    "refunds": "Remboursements",
+    "email": "E-mail"
+  },
+  "home": {
+    "title": "Apprenez le sarf et le nahw, la <em>grammaire de la madrasa</em>",
+    "lead": "Un instrument régi par des règles qui préserve l'esprit de l'erreur dans la pensée, enseigné à partir des livres de la madrasa : choisissez le cursus indien, ottoman ou nord-africain et lisez ses textes niveau par niveau, avec l'arabe et un court test pour chaque leçon.",
+    "start": "Choisissez votre cursus",
+    "readText": "Lire le texte",
+    "factTerms": "termes",
+    "factChapters": "chapitres",
+    "factParts": "parties",
+    "yourStudy": "Votre étude",
+    "continue": "Continuer",
+    "continueTo": "Continuer : {name}",
+    "termsStudied": "{n} termes étudiés sur {total}",
+    "howItWorks": "Comment ça marche",
+    "howTitle": "Le texte d'abord",
+    "howBody": "Chaque terme suit l'ordre d'al-Mabâdi', les fondements du sarf et du nahw, avec l'arabe, une explication simple et des exemples classiques. Votre progression est conservée sur cet appareil.",
+    "levelsTitle": "Vos niveaux",
+    "levelsLead": "Chaque niveau s'ouvre une fois que vous avez réussi le précédent dans votre cursus.",
+    "levelProgress": "{n} réussis sur {total}",
+    "levelLocked": "S'ouvre après le niveau {prev}",
+    "levelSoon": "En préparation",
+    "termsCount": "{n} termes",
+    "aboutLink": "À propos de The Nahwi et de l'enseignant"
+  },
+  "parts": {
+    "introduction": {
+      "title": "Introduction",
+      "summary": "Les deux sciences, le mot et le discours, et les trois sortes de mots."
+    },
+    "sarf": {
+      "title": "Morphologie (sarf)",
+      "summary": "Le mot seul : sa racine et son schème, les temps du verbe, les racines saines et faibles, et les noms dérivés d'un verbe."
+    },
+    "nahw": {
+      "title": "Syntaxe (nahw)",
+      "summary": "Le mot dans la phrase : l'i'râb et le binâ', les quatre états, la phrase nominale et la phrase verbale."
+    }
+  },
+  "chapters": {
+    "introduction": "Les deux sciences et le discours",
+    "word": "Les sortes de mots",
+    "root": "Racine et schème",
+    "verb": "Le verbe et ses temps",
+    "sound-weak": "Sain et faible",
+    "derived": "Les noms dérivés",
+    "irab": "I'râb et binâ'",
+    "sentence": "La phrase"
+  },
+  "structure": {
+    "part": "Partie {n}",
+    "chapter": "Chapitre {n}",
+    "about": "À propos de {name}",
+    "toggle": "Afficher ou masquer {name}",
+    "close": "Fermer",
+    "upNext": "À suivre",
+    "practise": "S'exercer : {chapter} · {n} questions",
+    "expandAll": "Tout ouvrir",
+    "collapseAll": "Tout fermer"
+  },
+  "term": {
+    "nOfM": "{n} sur {m}",
+    "secondReading": "Seconde lecture",
+    "fromCommentaries": "Tiré des commentaires",
+    "draft": "Brouillon · en attente de relecture",
+    "inAPicture": "En image",
+    "explanation": "Explication",
+    "alsoWritten": "S'écrit aussi : {list}.",
+    "inTheText": "Dans le texte",
+    "examples": "Exemples",
+    "related": "Termes liés",
+    "practise": "S'exercer",
+    "practiseThis": "{n} question(s) sur ce terme, dans la série d'exercices de {chapter}.",
+    "practiseChapter": "Testez-vous sur {chapter}.",
+    "goToPractice": "Aller aux exercices · {n} questions",
+    "endOf": "Fin de {name}.",
+    "takeStock": "Faites le point avant la partie suivante.",
+    "lastTerm": "C'est le dernier terme du livre.",
+    "finish": "Terminer {name} →",
+    "finishPart": "Terminer cette partie →",
+    "next": "Suivant :",
+    "continue": "Continuer →",
+    "reviewedBy": "Relu par {name} · {date}",
+    "reviewedCount": "Relues par un enseignant : {n} leçons sur {m}",
+    "metaMore": "Expliqué dans al-Mabâdi', les fondements du sarf et du nahw, avec l'arabe, des exemples et un court test.",
+    "inGlossary": "En libre lecture : {name} dans le glossaire →"
+  },
+  "text": {
+    "title": "Le texte de {title}",
+    "pageTitle": "{title} : texte arabe et traduction",
+    "description": "{title} de {author}, phrase par phrase : l'arabe vocalisé avec une traduction, chaque phrase reliée aux termes qu'elle introduit.",
+    "about": "À propos de ce texte et de cette édition",
+    "eyebrow": "Le texte",
+    "author": "Auteur :",
+    "arabicAfter": "Arabe d'après :",
+    "note": "La traduction est celle de The Nahwi. Les numéros de page renvoient à cette édition.",
+    "draft": "Brouillon · traduction en attente de relecture",
+    "preparing": "Le texte est en cours de préparation à partir d'une édition imprimée et apparaîtra ici phrase par phrase.",
+    "sentence": "Phrase {n}",
+    "library": "Textes",
+    "libraryLead": "Choisissez un texte à lire. D'autres textes suivront.",
+    "read": "Lire",
+    "passages": "{n} passages",
+    "commentary": "Commentaire",
+    "commentaryNote": "L'arabe suit l'édition imprimée ci-dessous, sans les notes de l'éditeur moderne.",
+    "onMatn": "Sur le matn : {n}",
+    "page": "p. {n}"
+  },
+  "practice": {
+    "title": "S'exercer : le tikrâr",
+    "description": "Révisez les leçons que vous avez réussies : choisissez les parties, mélangez questions et réponses, et testez-vous.",
+    "lead": "Le tikrâr, c'est la répétition : révisez ce que vous avez réussi, comme l'élève de la madrasa relit une leçon avant la suivante. Chaque leçon réussie s'y ajoute.",
+    "questions": "{n} questions",
+    "notStarted": "non commencé",
+    "score": "{right} bonnes réponses sur {total}",
+    "setTitle": "S'exercer : {chapter}",
+    "setDescription": "{n} courtes questions sur {chapter} en grammaire arabe (sarf et nahw), chacune avec une explication.",
+    "progress": "<span data-progress>0</span> sur {n} répondues · <span data-right>0</span> justes",
+    "question": "Question {n}",
+    "answersTo": "Réponses à la question {n}",
+    "right": "Juste.",
+    "wrong": "Pas tout à fait.",
+    "see": "Voir :",
+    "again": "Recommencer",
+    "nextSet": "Suivant : {chapter} →",
+    "all": "Tous les exercices →",
+    "selectAll": "Tout sélectionner",
+    "shuffleQuestions": "Mélanger les questions",
+    "shuffleAnswers": "Mélanger les réponses",
+    "count": "{n} questions",
+    "none": "Cochez au moins une leçon",
+    "start": "Commencer",
+    "reshuffle": "Mélanger et recommencer",
+    "choose": "Choisir d'autres leçons",
+    "locked": "réussissez d'abord la leçon",
+    "howTitle": "Comment ça marche",
+    "how": [
+      "Ouvrez un livre et cochez les leçons à réviser, ou tout un chapitre ou un livre",
+      "Mélangez les questions et les réponses si vous le souhaitez",
+      "Appuyez sur Commencer et répondez : chaque question s'explique d'elle-même"
+    ],
+    "emptyTitle": "Rien à réviser pour l'instant",
+    "emptyBody": "Le tikrâr s'ouvre avec votre première leçon réussie : réussissez le test d'une leçon avec au moins deux étoiles et elle apparaît ici.",
+    "emptyCta": "Aller à l'espace d'étude",
+    "passedOf": "{n} réussies sur {m}",
+    "notYet": "Pas encore réussies : {n}. Elles rejoignent le tikrâr à mesure que vous les réussissez.",
+    "chosen": "Choisies : {n}",
+    "options": "Options",
+    "yourPath": "Votre cursus",
+    "selectBook": "Toutes les leçons réussies de ce livre",
+    "toBook": "Aller à {book}",
+    "otherPaths": "Autres cursus",
+    "dueTitle": "À réviser",
+    "dueToday": "À réviser aujourd'hui : {list}",
+    "dueNext": "Rien à réviser aujourd'hui. Prochaine révision : {date}.",
+    "dueHow": "Chaque leçon réussie revient après 1, 3, 7, 14, 30 et 60 jours, puis tous les 120 jours ; après une révision avec moins de deux étoiles, le lendemain. Le calendrier est conservé dans ce navigateur.",
+    "dueStart": "Réviser maintenant",
+    "dueSaved": "Prochaine révision de ces leçons : {date}."
+  },
+  "complete": {
+    "title": "{name} : terminé",
+    "description": "Vous avez terminé {name} dans al-Mabâdi'.",
+    "eyebrow": "{name} terminé",
+    "finished": "Vous avez terminé {name}",
+    "finishedBook": "Vous avez terminé al-Mabâdi'",
+    "count": "{n} termes dans cette partie.",
+    "read": "Vous avez lu {read} termes sur {total} dans cette partie.",
+    "notRead": "Pas encore lus :",
+    "continueTo": "Continuer vers {name} →",
+    "readWhole": "Lire tout le texte →",
+    "practise": "S'exercer sur cette partie",
+    "home": "Retour à l'accueil",
+    "testYourself": "Testez-vous",
+    "questions": "{chapter} · {n} questions"
+  },
+  "search": {
+    "placeholder": "Rechercher : genre, jins, جنس…",
+    "hint": "Cherchez dans cette langue, en translittération ou en arabe, avec ou sans voyelles.",
+    "none": "Rien trouvé. Essayez une autre graphie, ou l'arabe.",
+    "close": "Fermer la recherche",
+    "results": "Résultats",
+    "where": "{part} · {chapter}",
+    "textWhere": "Texte · {chapter} · {n}"
+  },
+  "privacy": {
+    "title": "Confidentialité",
+    "description": "Ce que The Nahwi conserve et mesure : pas de comptes, pas de cookies, aucun suivi d'un site à l'autre.",
+    "intro": "The Nahwi n'a pas de comptes et ne dépose aucun cookie.",
+    "deviceTitle": "Sur votre appareil",
+    "device": "Votre progression, le cursus de madrasa que vous avez choisi, vos réponses aux exercices, la date à laquelle chaque leçon doit être révisée, le nombre de tests que vous faites chaque jour et votre objectif quotidien, vos choix de thème, de translittération, de voyelles et de police, ainsi que la date de la dernière actualité que vous avez vue (pour signaler ce qui est nouveau) sont conservés dans le stockage local de votre navigateur. Ils ne quittent jamais votre appareil. Effacer les données de votre navigateur les supprime.",
+    "offline": "Pour que vous puissiez lire hors ligne, le site enregistre le cours, les textes et les pages que vous avez lues dans le cache de votre navigateur.",
+    "statsTitle": "Statistiques de visite",
+    "stats": "Pour savoir quelles pages sont utilisées, nous comptons les pages vues avec Vercel Web Analytics. Ce service n'utilise pas de cookies, ne vous suit pas sur d'autres sites et ne conserve pas votre adresse IP ; les visites ne sont comptées que de façon globale. Les polices sont servies par ce site, si bien que votre navigateur ne contacte ni Google ni aucun autre service de polices. Les boutons « Google Traduction » sous les textes anciens n'envoient le passage à Google Traduction que lorsque vous cliquez dessus.",
+    "contactTitle": "Le formulaire de contact",
+    "contact": "Ce que vous écrivez dans le formulaire de contact (votre nom, votre adresse e-mail, l'objet et le message) est envoyé par e-mail à {email}, par le service d'envoi Resend, afin que nous puissions le lire et y répondre. Il n'est pas conservé sur ce site et ne sert à rien d'autre.",
+    "errorsTitle": "Rapports d'erreur",
+    "errors": "Si un script d'une page tombe en erreur dans votre navigateur, un court rapport est envoyé au site pour que nous puissions le réparer : la page, le message d'erreur, l'endroit du script où l'erreur s'est produite et le nom de votre navigateur. Il ne contient rien sur vous, pas même votre adresse IP, n'est gardé que peu de temps dans le journal du serveur et ne sert à rien d'autre.",
+    "descriptionAccounts": "Ce que The Nahwi conserve et mesure : des comptes facultatifs hébergés dans l'UE, pas de cookies, aucun suivi d'un site à l'autre.",
+    "introAccounts": "The Nahwi ne dépose aucun cookie. Un compte est facultatif : tout ce qui est ouvert reste ouvert sans compte, et votre progression reste alors simplement sur cet appareil.",
+    "deviceAccounts": "Votre progression, le cursus de madrasa que vous avez choisi, vos réponses aux exercices, la date à laquelle chaque leçon doit être révisée, le nombre de tests que vous faites chaque jour et votre objectif quotidien, vos choix de thème, de translittération, de voyelles et de police, ainsi que la date de la dernière actualité que vous avez vue (pour signaler ce qui est nouveau) sont conservés dans le stockage local de votre navigateur. Ils restent sur votre appareil, sauf si vous vous connectez (voir ci-dessous). Effacer les données de votre navigateur les supprime de cet appareil.",
+    "hearts": "Vos cœurs (le nombre de tests que vous pouvez faire maintenant, et quand le prochain revient), les questions posées par votre dernier test de chaque leçon, et le fait qu'une leçon soit à relire y sont aussi conservés. Avec un compte, vos cœurs sont aussi gardés dans le compte, si bien qu'ils sont les mêmes sur chaque appareil ; une recharge achetée avec Paddle y est inscrite.",
+    "accountTitle": "Si vous vous connectez",
+    "account": "Lorsque vous vous connectez, avec votre adresse e-mail ou avec Google, votre compte conserve votre adresse e-mail, les résultats de vos tests, les étapes que vous avez vues et le cursus de madrasa que vous avez choisi, afin que vous puissiez continuer sur un autre appareil. Si vous vous connectez avec Google, Google nous transmet aussi votre nom et l'adresse de votre photo de profil ; nous ne demandons rien de plus. Le compte est hébergé chez Supabase dans l'Union européenne (Francfort), qui garde aussi, pour la sécurité et pour une durée limitée, un journal des connexions (heure et adresse IP) ; les e-mails de connexion sont envoyés par Resend. Votre session est conservée dans le stockage local de votre navigateur, non dans un cookie. Sur la page de votre compte, vous pouvez télécharger tout ce qui est conservé à votre sujet, ou supprimer votre compte, ce qui l'efface aussitôt avec tout son contenu.",
+    "accountApple": "Si vous vous connectez avec Apple, Apple ne nous transmet que votre adresse e-mail, ou, si vous choisissez de la masquer, une adresse d'Apple qui vous fait suivre nos e-mails ; Apple ne transmet pas votre nom.",
+    "accountPassword": "Si vous définissez un mot de passe, Supabase n'en conserve qu'une forme brouillée (un hachage), jamais le mot de passe lui-même ; nous ne pouvons pas le voir.",
+    "supportStore": "Pour vous demander un soutien de temps en temps, et jamais souvent, votre navigateur conserve aussi le nombre de pages que vous avez lues ici et la date de la dernière demande du site ; rien de cela ne quitte votre appareil.",
+    "app": "Lorsque vous ouvrez The Nahwi depuis son application Android, le site le note pour la session (dans le stockage de session de votre navigateur), afin que l'application n'affiche aucun paiement ; Google Play n'autorise les paiements dans une application que par sa propre facturation. Cette information est oubliée à la fermeture de l'application.",
+    "appIos": "Dans l'application iPhone, le rappel quotidien et l'avis que vos cœurs sont de nouveau pleins sont programmés sur votre téléphone, à l'heure que vous avez choisie ; l'application retient aussi votre langue pour son prochain démarrage. Rien de cela ne quitte votre téléphone.",
+    "accountCodes": "Si vous utilisez un code d'accès, votre compte conserve aussi l'accès qu'il donne et le code dont il vient, afin qu'un code ne serve qu'une fois par compte, et, pendant une semaine, le nombre de codes essayés chaque jour (dix au plus), contre les tentatives au hasard. Un code venu d'un lien (?redeem= ou ?discount=) est conservé dans le stockage de session de votre navigateur jusqu'à ce que vous l'utilisiez ou que vous fermiez le navigateur.",
+    "comments": "Si vous écrivez une question ou une remarque sous une leçon, votre compte conserve le message, le nom que vous donnez (ou votre choix d'écrire sans nom), la leçon et la langue. Un modérateur le lit avant sa publication ; une fois publié, tout le monde voit le message avec le nom que vous avez donné, ou comme « un apprenant », mais jamais votre adresse e-mail. Vous pouvez supprimer un message à tout moment, et la suppression de votre compte les supprime tous.",
+    "paymentsTitle": "Si vous payez",
+    "payments": "L'accès complet est vendu par Paddle, le revendeur officiel (merchant of record), selon la politique de confidentialité de Paddle : Paddle traite vos données de paiement, votre adresse de facturation et vos reçus, et nous ne voyons jamais votre numéro de carte ; dans le tableau de bord de Paddle, nous voyons ce dont un vendeur a besoin, comme votre adresse e-mail, votre pays et vos paiements. Pour afficher le prix de votre pays, la page des tarifs et la fenêtre d'abonnement chargent le script de Paddle depuis les serveurs de Paddle, qui voient votre adresse IP. Votre compte ne conserve que ce dont l'accès complet a besoin : le numéro de votre abonnement, son statut et ses dates, et les liens de Paddle pour le résilier ou changer de moyen de paiement. Supprimer votre compte efface ces données de notre côté ; Paddle conserve ses relevés de paiement aussi longtemps que la loi l'exige.",
+    "appStore": "Dans l'application iPhone, l'accès complet s'achète par Apple. RevenueCat, qui gère ces achats pour nous, reçoit le numéro de votre compte (un identifiant aléatoire, ni votre nom ni votre adresse) et ce que vous avez acheté ; Apple traite le paiement, et nous ne voyons jamais vos données de paiement. Votre compte conserve la même chose que pour un abonnement sur le site : son numéro, son statut et ses dates, et le lien d'Apple pour le gérer.",
+    "gifts": "Un don par le bouton de soutien se paie sur la page de Stripe, selon la politique de confidentialité de Stripe ; le site lui-même n'en conserve rien."
+  },
+  "account": {
+    "link": "Compte",
+    "signIn": "Se connecter",
+    "kicker": "Le compte The Nahwi",
+    "heroTitle": "Votre étude, où que vous soyez",
+    "perks": [
+      "Votre progression sur votre téléphone, votre tablette et votre ordinateur",
+      "Rien ne se perd : le meilleur résultat compte toujours",
+      "Vos données restent les vôtres : téléchargez-les ou supprimez-les à tout moment"
+    ],
+    "formTitle": "Se connecter ou créer un compte",
+    "signedInKicker": "Connecté",
+    "statTests": "Tests enregistrés",
+    "statSteps": "Étapes vues",
+    "planTitle": "Votre accès",
+    "planFree": "Compte gratuit : tout al-Mabâdi' et les aperçus de chaque livre.",
+    "planPaid": "Accès complet, jusqu'au {date}.",
+    "planPaidOpen": "Accès complet.",
+    "planManage": "Gérer votre abonnement",
+    "planUpdate": "Changer de moyen de paiement",
+    "planUpgrade": "Voir l'accès complet",
+    "title": "Votre compte",
+    "description": "Connectez-vous avec votre e-mail, Google ou Apple pour garder votre progression et continuer sur un autre appareil. Un compte est facultatif.",
+    "lead": "Un compte est facultatif. Il met votre progression à l'abri et vous permet de continuer sur un autre appareil. L'encyclopédie et les leçons d'aperçu restent ouvertes sans compte.",
+    "google": "Continuer avec Google",
+    "apple": "Continuer avec Apple",
+    "or": "ou avec votre e-mail",
+    "email": "Adresse e-mail",
+    "send": "M'envoyer un e-mail de connexion",
+    "sending": "Envoi…",
+    "sentTitle": "Consultez vos e-mails",
+    "sent": "Nous avons envoyé un e-mail à {email}. Cliquez sur le lien qu'il contient, ou saisissez ici le code à 6 chiffres de l'e-mail. Rien après une minute ? Regardez aussi dans vos courriers indésirables.",
+    "code": "Code de l'e-mail",
+    "verify": "Se connecter",
+    "verifying": "Connexion…",
+    "resend": "Envoyer un nouvel e-mail",
+    "resendIn": "Vous pourrez demander un nouvel e-mail dans {s} secondes.",
+    "other": "Utiliser une autre adresse e-mail",
+    "privacyNote": "Ce qu'un compte conserve, et où, est indiqué sur la {link}.",
+    "privacyLink": "page de confidentialité",
+    "signedInAs": "Connecté en tant que {email}",
+    "viaGoogle": "par Google",
+    "viaApple": "par Apple",
+    "viaEmail": "par e-mail",
+    "welcome": "Vous êtes connecté. Votre progression est désormais enregistrée dans votre compte.",
+    "progressTitle": "Votre progression",
+    "progress": "Enregistré dans votre compte : {tests} et {steps}.",
+    "savedAt": "Dernier enregistrement : {time}.",
+    "saveNow": "Enregistrer maintenant",
+    "saving": "Enregistrement…",
+    "continue": "Continuer l'étude",
+    "signOut": "Se déconnecter",
+    "signOutNote": "Après la déconnexion, votre progression reste aussi sur cet appareil.",
+    "dataTitle": "Vos données",
+    "dataBody": "Téléchargez tout ce qui est conservé à votre sujet, ou supprimez votre compte.",
+    "download": "Télécharger mes données",
+    "delete": "Supprimer mon compte",
+    "deleteConfirm": "Cela supprime votre compte et la progression qui y est enregistrée, aussitôt et définitivement. La progression dans ce navigateur reste.",
+    "deleteYes": "Supprimer définitivement",
+    "cancel": "Annuler",
+    "deleted": "Votre compte a été supprimé.",
+    "loading": "Un instant…",
+    "offline": "La connexion nécessite un accès à Internet.",
+    "errors": {
+      "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
+      "invalidCode": "Ce code n'est pas correct ou a expiré. Saisissez-le de nouveau, ou demandez un nouvel e-mail.",
+      "rate": "Trop de tentatives. Attendez une minute et réessayez.",
+      "link": "Ce lien ne peut pas être utilisé ici. Ouvrez-le dans le navigateur où vous l'avez demandé, ou saisissez le code de l'e-mail.",
+      "generic": "Une erreur s'est produite. Réessayez dans un instant.",
+      "wrongPassword": "Cette adresse e-mail et ce mot de passe ne correspondent pas. Pas encore de mot de passe ? Connectez-vous avec un code et définissez-en un sur la page de votre compte.",
+      "weakPassword": "Choisissez un mot de passe de 8 à 72 caractères.",
+      "exists": "Cette adresse a déjà un compte. Connectez-vous avec votre mot de passe, ou avec un code puis définissez un mot de passe sur la page de votre compte.",
+      "samePassword": "C'est déjà votre mot de passe.",
+      "reauth": "Pour votre sécurité, déconnectez-vous, reconnectez-vous avec un code, puis définissez votre mot de passe."
+    },
+    "paidThanks": "Merci ! Votre accès complet est en cours d'activation et s'affichera ici d'ici une minute.",
+    "paidDone": "L'accès complet est à vous : chaque cursus, chaque livre et chaque niveau est ouvert.",
+    "redeemTitle": "Vous avez un code ?",
+    "redeemLabel": "Code d'accès",
+    "redeem": "Utiliser",
+    "redeeming": "Vérification…",
+    "redeemNote": "Un code de The Nahwi donne l'accès complet sans payer, pour la durée qu'indique le code. Un code de réduction pour un abonnement se saisit au moment du paiement.",
+    "redeemOk": "C'est fait : vous avez l'accès complet jusqu'au {date}.",
+    "redeemOkOpen": "C'est fait : vous avez l'accès complet, sans date de fin.",
+    "redeemSignIn": "Connectez-vous, et votre code {code} sera rempli pour vous.",
+    "redeemErrors": {
+      "unknown": "Ce code est inconnu. Vérifiez-le, ou demandez à la personne qui vous l'a donné.",
+      "expired": "Ce code a expiré.",
+      "used-up": "Ce code a déjà été utilisé autant de fois que permis.",
+      "already": "Vous avez déjà utilisé ce code.",
+      "too-many": "Trop d'essais aujourd'hui. Réessayez demain.",
+      "signed-out": "Connectez-vous d'abord pour utiliser un code.",
+      "other": "Le code n'a pas pu être vérifié. Réessayez dans un instant."
+    },
+    "modeLabel": "Comment vous connecter avec votre e-mail",
+    "modeCode": "Code par e-mail",
+    "modePassword": "Mot de passe",
+    "password": "Mot de passe",
+    "passwordHint": "8 à 72 caractères.",
+    "signingIn": "Connexion…",
+    "create": "Créer un compte",
+    "creating": "Création de votre compte…",
+    "toCreate": "Nouveau ici ? Créez un compte avec un mot de passe",
+    "toSignIn": "J'ai déjà un compte",
+    "forgot": "Mot de passe oublié ?",
+    "forgotNote": "Pas de souci : connectez-vous avec un code reçu par e-mail, puis définissez un nouveau mot de passe sur la page de votre compte.",
+    "unconfirmed": "Votre adresse n'est pas encore confirmée ; nous vous avons donc envoyé un nouveau code.",
+    "passwordTitle": "Mot de passe",
+    "passwordBody": "Définissez un mot de passe pour vous connecter sans attendre d'e-mail la prochaine fois. La connexion avec un code, Google ou Apple continue de fonctionner.",
+    "newPassword": "Nouveau mot de passe",
+    "savePassword": "Enregistrer le mot de passe",
+    "savingPassword": "Enregistrement…",
+    "passwordSaved": "Votre mot de passe est enregistré. La prochaine fois, vous pourrez vous connecter avec votre e-mail et ce mot de passe."
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "description": "Étudiez le sarf et le nahw gratuitement avec un compte, ou ouvrez chaque cursus et chaque niveau avec l'accès complet. Des prix justes dans chaque pays.",
+    "kicker": "Accès",
+    "heroTitle": "Étudiez la grammaire arabe comme l'enseignaient les madrasas",
+    "heroSub": "L'encyclopédie est gratuite pour tous. Un compte gratuit ouvre tout al-Mabâdi', les fondements du sarf et du nahw ; l'accès complet ouvre chaque cursus, chaque livre et chaque niveau.",
+    "plans": {
+      "anon": {
+        "name": "Sans compte",
+        "price": "Gratuit",
+        "items": [
+          "Toute l'encyclopédie : manuels, savants, bibliothèque et actualités",
+          "Trois leçons d'aperçu dans chaque livre",
+          "Votre progression reste sur cet appareil"
+        ],
+        "unit": "toujours"
+      },
+      "free": {
+        "name": "Compte gratuit",
+        "price": "Gratuit",
+        "items": [
+          "Tout ce qui est ouvert sans compte",
+          "Tout al-Mabâdi' : chaque terme et son test",
+          "Votre progression sur tous vos appareils"
+        ],
+        "cta": "Créer un compte gratuit",
+        "ctaIn": "Vous avez un compte gratuit",
+        "unit": "avec un compte"
+      },
+      "full": {
+        "name": "Accès complet",
+        "perYear": "ou {price} par an : deux mois offerts",
+        "items": [
+          "Chaque cursus de madrasa : indien, ottoman et nord-africain",
+          "Chaque livre et chaque niveau, des premiers manuels à al-Kâfiya et à l'Alfiyya",
+          "Le tikrâr sur tout ce que vous avez réussi",
+          "Les nouveaux livres et leçons à mesure qu'ils sont ajoutés"
+        ],
+        "cta": "S'abonner",
+        "soon": "Bientôt ouvert",
+        "cancel": "Résiliable à tout moment.",
+        "unit": "par mois",
+        "unitYear": "par an",
+        "ctaYearly": "S'abonner pour un an",
+        "ctaMonthly": "Ou au mois",
+        "yearlyFine": "Annuel : un paiement par an, renouvelé jusqu'à ce que vous résiliiez.",
+        "signInFirst": "Vous vous connectez d'abord ou créez un compte gratuit, afin que votre accès y soit lié.",
+        "opening": "Ouverture du paiement…",
+        "error": "Le paiement n'a pas pu s'ouvrir. Veuillez réessayer, ou écrivez-nous.",
+        "yourPrice": "Votre prix"
+      }
+    },
+    "regionalTitle": "Un prix juste dans chaque pays",
+    "regionalBody": "Les prix ci-dessus valent pour l'Europe, l'Amérique du Nord et le Golfe ; au Royaume-Uni, l'accès complet coûte {uk} par mois, en livres. Ailleurs, il est moins cher : {middle} par mois ou {middleYear} par an dans des pays comme la Turquie, la Malaisie et l'Afrique du Sud, et {low} par an dans des pays comme l'Inde, le Pakistan, l'Indonésie, l'Égypte et le Nigeria. Le paiement affiche le prix de votre pays.",
+    "madrasaTitle": "Pour une madrasa ou une classe",
+    "madrasaBody": "Un enseignant ou une madrasa peut ouvrir l'accès complet pour toute une classe, avec une place pour chaque élève.",
+    "madrasaCta": "Se renseigner sur une licence de classe",
+    "faqTitle": "Questions",
+    "faq": [
+      [
+        "Qui gère le paiement ?",
+        "Notre processus de commande est géré par notre revendeur en ligne Paddle.com. Paddle.com est le revendeur officiel (Merchant of Record) de toutes nos commandes. Paddle traite toutes les demandes du service client et gère les retours."
+      ],
+      [
+        "Puis-je résilier ?",
+        "Oui, à tout moment. Votre accès continue jusqu'à la fin de la période que vous avez payée."
+      ],
+      [
+        "Puis-je être remboursé ?",
+        "Nous ne remboursons pas nous-mêmes les paiements. Les remboursements sont gérés par Paddle, notre revendeur, selon la politique de remboursement de Paddle, qui préserve le droit de rétractation que la loi accorde aux consommateurs dans certains pays. Voir la politique de remboursement."
+      ],
+      [
+        "Le contenu est-il vérifié ?",
+        "Toutes les explications sont des brouillons jusqu'à leur relecture par un enseignant qualifié de grammaire arabe ; chaque leçon indique si elle a été relue."
+      ]
+    ],
+    "terms": "Conditions d'utilisation",
+    "refunds": "Politique de remboursement",
+    "localNote": "Prix pour l'Europe, l'Amérique du Nord et le Golfe. Le paiement affiche le prix de votre pays : en livres au Royaume-Uni, et moins cher dans beaucoup d'autres pays."
+  },
+  "access": {
+    "freeKicker": "Gratuit avec un compte",
+    "freeBody": "Tout al-Mabâdi' est gratuit dès que vous avez un compte : chaque terme et son test. Cela prend une minute, avec votre e-mail, Google ou Apple.",
+    "freeCta": "Créer un compte gratuit",
+    "paidKicker": "Accès complet",
+    "paidBody": "Cette leçon fait partie de l'accès complet, qui ouvre chaque cursus de madrasa, chaque livre et chaque niveau. Trois leçons de chaque livre peuvent être lues gratuitement en aperçu.",
+    "paidCta": "Voir les tarifs",
+    "signIn": "Se connecter",
+    "previews": "Lire les aperçus gratuits"
+  },
+  "subscribe": {
+    "kicker": "Accès complet",
+    "title": "Chaque cursus, chaque livre, chaque niveau",
+    "perks": [
+      "Chaque cursus de madrasa : indien, ottoman et nord-africain",
+      "Chaque livre et chaque niveau, avec ses tests et le tikrâr",
+      "Les nouveaux livres et leçons à mesure qu'ils sont ajoutés"
+    ],
+    "fine": "Résiliable à tout moment. Prix TVA comprise. Votre banque peut afficher l'autorisation comme valable jusqu'au 31-12-9999 : cela signifie seulement jusqu'à ce que vous résiliiez.",
+    "close": "Fermer",
+    "planLegend": "Choisissez comment payer",
+    "yearly": "Annuel",
+    "yearlyNote": "deux mois offerts",
+    "monthly": "Mensuel",
+    "perMonth": "par mois",
+    "perYear": "par an",
+    "continue": "Continuer",
+    "signinTitle": "D'abord, votre compte gratuit",
+    "signinBody": "Pour que l'accès complet vous soit lié, sur chaque appareil. Cela prend une minute.",
+    "signedInAs": "Connecté en tant que {email}",
+    "toCheckout": "Passer au paiement",
+    "opening": "Ouverture du paiement…",
+    "error": "Le paiement n'a pas pu s'ouvrir. Veuillez réessayer, ou écrivez-nous.",
+    "localNote": "Le prix est celui de votre pays.",
+    "back": "Retour"
+  },
+  "support": {
+    "link": "Soutenir",
+    "kicker": "Soutenir The Nahwi",
+    "title": "Aidez à garder la grammaire de la madrasa à portée de main",
+    "body": "The Nahwi est fait par une seule personne, avec un enseignant qui vérifie les leçons. L'encyclopédie reste gratuite pour tous ; votre soutien paie de nouveaux livres, des traductions et le temps de l'enseignant.",
+    "donateTitle": "Faire un don",
+    "donateBody": "Le montant de votre choix, donné une fois.",
+    "donateCta": "Donner",
+    "thanks": "Jazâkum Allâhu khayran — qu'Allah vous récompense par le bien.",
+    "close": "Fermer",
+    "notNow": "Pas maintenant"
+  },
+  "legal": {
+    "updated": "Dernière mise à jour : {date}",
+    "draft": "Ce texte est un brouillon et peut changer.",
+    "translation": "Ceci est une traduction ; là où elle diffère du texte anglais, c'est le texte anglais qui fait foi.",
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "description": "Les conditions d'utilisation de The Nahwi, de son compte gratuit et de son accès complet payant.",
+      "sections": [
+        [
+          "Le service",
+          "The Nahwi (thenahwi.com) est un site pour étudier le sarf et le nahw, la grammaire arabe classique de la madrasa : une encyclopédie ouverte à tous, et un espace d'étude avec des cours, des textes et des tests. Il est exploité par {owner}. Vous pouvez nous joindre à {email}."
+        ],
+        [
+          "Comptes",
+          "Un compte est facultatif. Vous vous connectez avec votre adresse e-mail ou avec Google. Protégez l'accès à votre messagerie, car un e-mail de connexion ouvre votre compte. Vous pouvez supprimer votre compte à tout moment sur la page de votre compte."
+        ],
+        [
+          "Accès gratuit et payant",
+          "Sans compte, vous pouvez lire l'encyclopédie et trois leçons d'aperçu dans chaque livre. Un compte gratuit ouvre en outre tout al-Mabâdi'. L'accès complet, un abonnement payant, ouvre chaque cursus, chaque livre et chaque niveau. Une madrasa ou un enseignant peut acheter un accès pour une classe. L'accès complet est un abonnement, mensuel ou annuel, qui se renouvelle jusqu'à ce que vous le résiliiez. Un accès à vie acheté avant le 25 novembre 2026 reste valable aussi longtemps que le site fonctionne ; nous ne pouvons pas garantir l'avenir, mais nous ferons de notre mieux pour faire vivre le site et vous accompagner."
+        ],
+        [
+          "Paiement",
+          "Notre processus de commande est géré par notre revendeur en ligne Paddle.com. Paddle.com est le revendeur officiel (Merchant of Record) de toutes nos commandes. Paddle traite toutes les demandes du service client et gère les retours et les remboursements. Les prix incluent la TVA ou la taxe de vente éventuelle et peuvent varier selon le pays. Un abonnement se renouvelle à la fin de chaque période jusqu'à ce que vous le résiliiez."
+        ],
+        [
+          "Résiliation et remboursements",
+          "Vous pouvez résilier votre abonnement à tout moment ; votre accès continue jusqu'à la fin de la période que vous avez payée, et aucune partie d'une période n'est remboursée. Nous ne remboursons pas nous-mêmes : les remboursements sont gérés par Paddle selon sa politique de remboursement (paddle.com/legal/refund-policy), y compris tout droit de rétractation que vous donne la loi de votre pays. Voir la politique de remboursement. L'accès à vie n'est pas un abonnement : il n'y a rien à résilier."
+        ],
+        [
+          "Le contenu",
+          "Les explications, traductions et tests sont écrits pour l'étude et sont des brouillons jusqu'à leur relecture par un enseignant qualifié ; chaque leçon indique si elle a été relue. Ils ne remplacent pas un enseignant. Les textes anciens sont donnés d'après des éditions du domaine public ; nos traductions, explications et tests appartiennent à The Nahwi. Vous pouvez les citer pour l'étude et l'enseignement en mentionnant le site, mais non copier les cours dans leur ensemble ni les proposer ailleurs."
+        ],
+        [
+          "Usage loyal",
+          "Ne partagez pas votre compte, n'essayez pas de contourner les règles d'accès et n'imposez pas au site une charge déraisonnable. Nous pouvons fermer un compte qui le fait."
+        ],
+        [
+          "Modifications et disponibilité",
+          "Nous faisons fonctionner le site du mieux que nous pouvons, mais ne pouvons promettre qu'il soit toujours disponible ni exempt d'erreurs. Nous pouvons modifier ces conditions ; pour un changement qui importe aux abonnés, nous vous prévenons à l'avance par e-mail."
+        ],
+        [
+          "Responsabilité et droit applicable",
+          "Dans la mesure permise par la loi, The Nahwi n'est pas responsable des dommages indirects liés à l'utilisation du site. Le droit néerlandais s'applique. Si vous vivez dans l'Union européenne, le droit de la consommation de votre propre pays vous protège aussi."
+        ]
+      ]
+    },
+    "refunds": {
+      "title": "Politique de remboursement",
+      "description": "Comment fonctionnent les remboursements de The Nahwi : les paiements sont gérés par Paddle, selon la politique de remboursement de Paddle.",
+      "sections": [
+        [
+          "La politique de remboursement de Paddle",
+          "Notre processus de commande est géré par notre revendeur en ligne Paddle.com, revendeur officiel (Merchant of Record) de toutes nos commandes. Les remboursements sont gérés par Paddle selon sa politique de remboursement, à l'adresse paddle.com/legal/refund-policy. Nous n'offrons pas de remboursements propres au-delà de celle-ci."
+        ],
+        [
+          "Vos droits selon la loi",
+          "Lorsque la loi de votre pays donne aux consommateurs un droit de rétractation pour l'achat de contenus ou de services numériques, comme dans l'Union européenne et au Royaume-Uni, ce droit s'applique comme le décrit la politique de remboursement de Paddle."
+        ],
+        [
+          "Résilier",
+          "Vous pouvez résilier un abonnement à tout moment, par le lien de votre reçu Paddle ou depuis la page de votre compte. Votre accès continue jusqu'à la fin de la période que vous avez payée ; le reste d'une période commencée n'est pas remboursé. Un achat à vie effectué avant le 25 novembre 2026 est remboursé par Paddle selon sa politique de remboursement ; l'accès complet prend alors fin."
+        ],
+        [
+          "Comment demander",
+          "Adressez-vous à Paddle sur paddle.net, ou répondez à votre reçu Paddle. Vous pouvez aussi écrire à {email}."
+        ]
+      ]
+    }
+  },
+  "offline": {
+    "title": "Vous êtes hors ligne",
+    "description": "Cette page n'est pas encore enregistrée sur cet appareil.",
+    "body": "Cette page n'est pas encore enregistrée sur cet appareil. Le cours, tous les termes et les exercices sont enregistrés dès que vous avez ouvert The Nahwi en ligne, pour que vous puissiez continuer à lire.",
+    "back": "Retour au cours"
+  },
+  "diagram": {
+    "scWord": "Le mot arabe",
+    "scSarf": "Sarf",
+    "scSarfSub": "sa forme : le mot seul",
+    "scNahw": "Nahw",
+    "scNahwSub": "sa finale : le mot dans la phrase",
+    "kWord": "Le mot",
+    "kNoun": "Nom",
+    "kNounSub": "un sens, sans temps",
+    "kVerb": "Verbe",
+    "kVerbSub": "un sens et un temps",
+    "kParticle": "Particule",
+    "kParticleSub": "un sens avec un autre mot",
+    "kSpeech": "Discours",
+    "kSpeechSub": "des mots joints en un énoncé complet",
+    "mzScale": "La balance",
+    "mzLam": "lâm",
+    "mzLamSub": "3e radicale",
+    "mzAyn": "'ayn",
+    "mzAynSub": "2e radicale",
+    "mzFa": "fâ'",
+    "mzFaSub": "1re radicale",
+    "mzBare": "Nu",
+    "mzBareSub": "radicales seules : nasara",
+    "mzAdded": "Augmenté",
+    "mzAddedSub": "lettres ajoutées : akrama",
+    "fVerb": "Le verbe",
+    "fPast": "Passé",
+    "fPastSub": "nasara, il a aidé",
+    "fPresent": "Présent",
+    "fPresentSub": "yansuru, il aide",
+    "fCommand": "Impératif",
+    "fCommandSub": "unsur, aide !",
+    "shRoot": "Les lettres radicales",
+    "shSound": "Sain",
+    "shSoundSub": "sans lettre faible : kataba",
+    "shWeak": "Faible",
+    "shWeakSub": "un wâw, yâ' ou alif : qâla, ramâ",
+    "msMasdar": "Nom verbal",
+    "msMasdarSub": "l'acte lui-même : nasr",
+    "msFail": "Participe actif",
+    "msFailSub": "celui qui fait : nâsir",
+    "msMaful": "Participe passif",
+    "msMafulSub": "celui qui subit : mansûr",
+    "irEnd": "La fin du mot",
+    "irChanges": "Mu'rab",
+    "irChangesSub": "sa finale change",
+    "irFixed": "Mabnî",
+    "irFixedSub": "sa finale reste",
+    "irRaf": "Raf'",
+    "irRafSub": "damma",
+    "irNasb": "Nasb",
+    "irNasbSub": "fatha",
+    "irJarr": "Khafd",
+    "irJarrSub": "kasra, noms",
+    "irJazm": "Jazm",
+    "irJazmSub": "sukûn, verbes",
+    "jSentence": "La phrase",
+    "jNominal": "Nominale",
+    "jNominalSub": "commence par un nom",
+    "jVerbal": "Verbale",
+    "jVerbalSub": "commence par un verbe",
+    "jMubtada": "Sujet",
+    "jKhabar": "Prédicat",
+    "jVerb": "Verbe",
+    "jDoer": "Agent",
+    "jObject": "Objet",
+    "cap": {
+      "sciences.all": "Le sarf étudie le mot seul, le nahw le mot dans la phrase.",
+      "sciences.sarf": "Le sarf : la forme du mot seul, sa racine et son schème.",
+      "sciences.nahw": "Le nahw : le mot dans la phrase, son rôle et sa finale.",
+      "kalima.all": "Tout mot est un nom, un verbe ou une particule ; des mots joints en un énoncé complet forment le discours.",
+      "kalima.kalima": "Le mot se divise en trois sortes, et rien n'en sort.",
+      "kalima.kalam": "Le discours : des mots joints de sorte que le sens soit complet.",
+      "kalima.ism": "Le nom : un sens sans temps.",
+      "kalima.fil": "Le verbe : un sens joint à un temps.",
+      "kalima.harf": "La particule : son sens n'apparaît qu'avec un autre mot.",
+      "mizan.all": "Chaque mot est pesé sur fa'ala : le fâ', le 'ayn et le lâm représentent ses trois lettres radicales.",
+      "mizan.mizan": "La balance fa'ala : le fâ', le 'ayn et le lâm représentent la première, la deuxième et la troisième radicale.",
+      "mizan.mujarrad": "La forme nue : les lettres radicales seules.",
+      "mizan.mazid": "La forme augmentée : des lettres ajoutées à la racine.",
+      "fil.all": "Le verbe a trois formes : le passé, le présent et l'impératif.",
+      "fil.madi": "Le passé : un acte antérieur au moment où l'on parle.",
+      "fil.mudari": "Le présent : un acte actuel ou à venir.",
+      "fil.amr": "L'impératif : formé sur le présent de la personne à qui l'on parle.",
+      "sahih.all": "Une racine est saine, ou faible quand elle contient un wâw, un yâ' ou un alif.",
+      "sahih.sahih": "Le verbe sain : aucune lettre faible parmi ses lettres radicales.",
+      "sahih.mutall": "Le verbe faible : un wâw, un yâ' ou un alif parmi ses lettres radicales.",
+      "mushtaqq.all": "D'une même racine : l'acte, celui qui le fait et celui qui le subit.",
+      "mushtaqq.masdar": "Le nom verbal nomme l'acte lui-même.",
+      "mushtaqq.fail": "Le participe actif nomme celui qui fait l'acte.",
+      "mushtaqq.maful": "Le participe passif nomme celui qui le subit.",
+      "irab.all": "La finale d'un mot change (mu'rab) ou reste (mabnî) ; ses changements sont le raf', le nasb, le khafd et le jazm.",
+      "irab.irab": "L'i'râb : la finale change avec le régissant.",
+      "irab.bina": "Le binâ' : la finale reste, quel que soit ce qui régit le mot.",
+      "irab.anwa": "Les quatre états et leurs signes de base.",
+      "jumla.all": "Une phrase commence par un nom ou par un verbe.",
+      "jumla.ismiyya": "La phrase nominale : un mubtada' et son khabar.",
+      "jumla.mubtada": "Le mubtada' : le nom par lequel la phrase commence et dont elle parle.",
+      "jumla.khabar": "Le khabar : ce que l'on dit du mubtada'.",
+      "jumla.filiyya": "La phrase verbale : un verbe, son agent et, s'il en prend un, un objet.",
+      "jumla.fail": "Le fâ'il : l'agent, après son verbe.",
+      "jumla.maful": "Le maf'ûl bihi : ce sur quoi tombe l'acte."
+    }
+  },
+  "gloss": {
+    "label": "Explication de « {word} »",
+    "open": "Aller au terme",
+    "close": "Fermer"
+  },
+  "lock": {
+    "title": "Verrouillé",
+    "termBody": "Les termes s'ouvrent un par un : obtenez au moins deux étoiles (6 sur 10) au test d'un terme pour ouvrir le suivant. Vous en êtes à {name}.",
+    "linkBody": "Les termes s'ouvrent un par un. Obtenez d'abord au moins deux étoiles (6 sur 10) au test de {name}.",
+    "practiceBody": "Cet exercice s'ouvre une fois que vous avez réussi tous les termes de son chapitre. Vous en êtes à {name}.",
+    "commentary": "Ce terme vient des commentaires ; il vient après la première lecture.",
+    "sources": "Traité dans : {list}.",
+    "cta": "Aller à {name}"
+  },
+  "quiz": {
+    "title": "Testez-vous",
+    "intro": "{n} questions. Avec 6 sur 10 ou plus (deux étoiles), le terme suivant s'ouvre.",
+    "score": "{score} sur 10",
+    "passed": "Réussi : le terme suivant est ouvert.",
+    "failed": "Pas encore : il vous faut au moins 6 sur 10. Relisez le terme et réessayez.",
+    "again": "Réessayer",
+    "best": "Meilleur résultat : {score}",
+    "starsLabel": "{n} étoiles sur 3",
+    "hearts": "{n} cœurs sur 5.",
+    "heartsNext": "Chaque test prend un cœur ; le prochain revient dans {time}.",
+    "heartsFull": "Chaque test prend un cœur ; un cœur revient toutes les deux heures.",
+    "heartsEmpty": "Plus de cœurs. Faites une pause et relisez la leçon : un nouveau cœur arrive dans {time}.",
+    "refill": "Recharger tous les cœurs (0,99 €)",
+    "refilling": "Recharge de vos cœurs…",
+    "reread": "Pas réussi cette fois. Relisez la leçon depuis le début, puis cochez la case ci-dessous pour refaire le test.",
+    "rereadLabel": "J'ai relu toute la leçon",
+    "examTitle": "L'examen",
+    "examFailed": "Pas encore : il vous faut 20 bonnes réponses sur 25. Révisez les leçons et réessayez.",
+    "start": "Commencer le test",
+    "startExam": "Commencer l'examen",
+    "heartsTitle": "Cœurs",
+    "heartsHelp": "Vous avez cinq cœurs. Commencer un test ou un examen en prend un, et un cœur revient toutes les deux heures, jusqu'à cinq. Ils sont là pour que vous preniez les leçons une à une et laissiez chacune se déposer avant la suivante. La révision (tikrâr) n'en prend aucun.",
+    "heartsHelpRefill": "Plus de cœurs et pas envie d'attendre ? Vous pouvez recharger les cinq d'un coup.",
+    "refillsCount": "Recharges gratuites : {n}",
+    "freeRefill": "Utiliser une recharge gratuite (il en reste {n})",
+    "earned": "Trois étoiles à cinq leçons d'affilée : vous avez gagné une recharge gratuite de tous vos cœurs.",
+    "heartsHelpFree": "Chaque compte commence avec une recharge gratuite, et en gagne une autre pour trois étoiles à cinq leçons d'affilée."
+  },
+  "book": {
+    "title": "Le livre",
+    "lead": "Tout ce qui entoure les manuels de sarf et de nahw : leur origine, ceux qui les ont écrits, expliqués et enseignés, leurs commentaires, gloses, éditions et traductions.",
+    "articles": "Articles",
+    "scholars": "Savants",
+    "tree": "Du matn à la glose",
+    "treeLead": "Le manuel, les commentaires écrits sur lui, et les gloses écrites sur ces commentaires.",
+    "people": "Personnes dans cet article",
+    "sources": "Sources",
+    "born": "n.",
+    "died": "m.",
+    "life": "Vie",
+    "works": "Œuvres",
+    "on": "sur",
+    "onHisWork": "Écrit sur son œuvre",
+    "reception": "Réception",
+    "uncertain": "incertain",
+    "preparing": "Cette section est en préparation.",
+    "kinds": {
+      "matn": "matn",
+      "sharh": "commentaire",
+      "hashiya": "glose",
+      "taliq": "notes",
+      "nazm": "versification",
+      "translation": "traduction",
+      "edition": "édition",
+      "other": "œuvre",
+      "iraab": "analyse grammaticale",
+      "mukhtasar": "abrégé",
+      "modern": "livre moderne"
+    },
+    "roles": {
+      "author": "Auteur",
+      "forerunner": "Précurseurs",
+      "translator": "Traducteurs",
+      "commentator": "Commentateurs",
+      "glossator": "Glossateurs",
+      "versifier": "Versificateurs",
+      "teacher": "Enseignants",
+      "editor": "Éditeurs",
+      "modern-scholar": "Recherche moderne",
+      "voice": "Voix sur la grammaire"
+    },
+    "booksLabel": "Livres",
+    "books": {},
+    "circa": "v.",
+    "or": "ou",
+    "bce": "{y} av. J.-C.",
+    "ceYear": "{y} apr. J.-C."
+  },
+  "catalogue": {
+    "title": "Catalogue des œuvres",
+    "lead": "Toutes les œuvres connues écrites sur ce livre : commentaires, gloses et gloses de gloses, notes, versifications, abrégés, traductions, éditions et livres modernes — avec leur origine, le fait qu'elles soient imprimées ou non, et les sources. Travail en cours : dites-nous ce qui manque.",
+    "search": "Rechercher",
+    "kind": "Genre",
+    "region": "Région",
+    "language": "Langue",
+    "status": "Statut",
+    "all": "Tous",
+    "count": "{n} œuvres",
+    "countOne": "1 œuvre",
+    "more": "Détails et sources",
+    "editions": "Éditions",
+    "unplaced": "Écrit sur des œuvres qui ne sont pas (encore) au catalogue",
+    "link": "Toutes les œuvres du catalogue",
+    "statuses": {
+      "printed": "imprimé",
+      "manuscript": "manuscrit",
+      "lost": "perdu",
+      "unknown": "statut inconnu"
+    },
+    "regions": {
+      "ottoman": "Terres ottomanes",
+      "kurdistan": "Kurdistan",
+      "caucasus-volga": "Caucase et Volga",
+      "central-asia": "Asie centrale",
+      "indian-subcontinent": "Sous-continent indien",
+      "levant-iraq": "Levant et Irak",
+      "west-africa": "Afrique de l'Ouest",
+      "sudan-east-africa": "Soudan et Afrique de l'Est",
+      "yemen-hijaz": "Yémen et Hedjaz",
+      "malay-indonesia": "Monde malais et indonésien",
+      "iran": "Iran",
+      "egypt": "Égypte",
+      "maghrib": "Maghreb",
+      "west": "Europe et Amériques",
+      "other": "Autre"
+    }
+  },
+  "track": {
+    "nav": "Niveau 2",
+    "title": "Les niveaux après al-Mabâdi'",
+    "lead": "Après al-Mabâdi', lisez les livres de votre cursus de madrasa leçon par leçon : le texte, notre explication avec des exemples et des schémas, et un court test.",
+    "lockedNote": "Le niveau 2 s'ouvre une fois que vous avez réussi tous les termes de la première lecture.",
+    "trackName": "Niveau {track}",
+    "lessons": "{n} leçons",
+    "lessonOf": "Leçon {n} sur {m}",
+    "matnRange": "Matn {range}",
+    "theMatn": "Le matn",
+    "theCommentary": "Le commentaire",
+    "readFull": "Lire tout le commentaire",
+    "quizIntro": "{n} questions sur ce qu'explique le commentaire. Avec 6 sur 10 ou plus (deux étoiles), la leçon suivante s'ouvre.",
+    "passed": "Réussi : la leçon suivante est ouverte.",
+    "failed": "Pas encore : il vous faut au moins 6 sur 10. Relisez le commentaire et réessayez.",
+    "next": "Leçon suivante :",
+    "trackDone": "C'était la dernière leçon du parcours {track}.",
+    "back": "Retour au niveau {level}",
+    "lockBase": "Le niveau 2 s'ouvre après toute la première lecture. Vous en êtes à {name}.",
+    "lockLesson": "Les leçons s'ouvrent une par une. Obtenez d'abord au moins deux étoiles (6 sur 10) au test de la leçon {name}.",
+    "lockPage": "Les leçons s'ouvrent une par une : obtenez au moins deux étoiles (6 sur 10) au test d'une leçon pour ouvrir la suivante.",
+    "readAsTrack": "L'étudier leçon par leçon : niveau {track}",
+    "translationNote": "Traduction en anglais pour l'instant.",
+    "blurbs": {},
+    "topics": {},
+    "lockLevel": "Le niveau {level} s'ouvre une fois que vous avez réussi toutes les leçons du niveau {prev}.",
+    "levels": {
+      "1": {
+        "title": "Niveau 1 : al-Mabâdi'",
+        "lead": "Les fondements du sarf et du nahw, terme par terme : chaque terme avec son arabe, une explication simple et un court test."
+      }
+    },
+    "theText": "Le texte",
+    "lessonN": "Leçon {n}",
+    "lockBook": "Ce livre s'ouvre une fois que vous avez réussi toutes les leçons de {book}."
+  },
+  "glossaryPage": {
+    "title": "Termes",
+    "description": "Les termes du cursus d'étude, de A à Z, avec l'arabe et une courte définition.",
+    "lead": "Les termes de la première lecture, de A à Z, avec l'arabe et une courte définition. Ouvrez un terme pour sa leçon. Toutes les notions du sarf et du nahw, en libre lecture, se trouvent dans le glossaire.",
+    "filter": "Rechercher dans les termes",
+    "none": "Aucun terme ne correspond.",
+    "showLabel": "Afficher",
+    "showAll": "Tous",
+    "showOpen": "Ouverts",
+    "showLocked": "Pas encore ouverts"
+  },
+  "about": {
+    "title": "À propos de The Nahwi",
+    "description": "Ce qu'est The Nahwi, comment fonctionnent ses cursus d'étude, qui le relit et qui se trouve derrière.",
+    "intro": "The Nahwi est un lieu pour apprendre le sarf et le nahw, la grammaire arabe de la madrasa, à partir de ses propres livres, et pour lire sur ces livres, leurs savants et les cursus qui les ordonnent.",
+    "teacherTitle": "L'enseignant",
+    "teacherRole": "Relit les explications",
+    "teacherBody": "Un enseignant qualifié de grammaire arabe relira ce qu'enseigne The Nahwi. Tant qu'un enseignant ne l'a pas relu, tout ce qui se trouve sur le site, les explications, les tests et les traductions, est un brouillon.",
+    "teacherBio": "À annoncer.",
+    "teachersTitle": "Parmi ses maîtres",
+    "teacherSource": "D'après la page des enseignants de la Madrasah Hanafiya",
+    "ownerTitle": "Propriétaire du site",
+    "ownerRole": "Construit et fait vivre The Nahwi",
+    "ownerBody": "The Nahwi est réalisé par {owner}, le propriétaire du projet, qui étudie l'école hanafite.",
+    "partsTitle": "Deux parties",
+    "parts": [
+      "L'encyclopédie : les manuels de sarf et de nahw et une bibliothèque des œuvres par siècle, les savants qui les ont écrits et enseignés, les cursus des madrasas, et des actualités des sciences de la langue.",
+      "L'espace d'étude : trois cursus de madrasa, lus niveau par niveau, qui s'ouvrent tous avec al-Mabâdi'. Le cursus indien continue avec les manuels persans du Dars-i Nizâmî, le cursus ottoman avec al-Amthila et Birgivî, et le cursus nord-africain avec al-Âjurrûmiyya. Chaque leçon se termine par un court test ; la suivante s'ouvre quand vous le réussissez."
+    ],
+    "nameTitle": "Pourquoi ce nom",
+    "nameBody": "al-Nahwî (النَّحْوِيّ) signifie « le grammairien » : le titre que les biographes donnent aux savants du nahw, de {sibawayh} à {ibnHisham}, comme dans les dictionnaires classiques des grammairiens, les Tabaqât al-nahwiyyîn.",
+    "textTitle": "Le texte d'abord",
+    "textBody": "Les leçons suivent l'ordre des livres eux-mêmes, et les textes sont donnés dans l'original, d'après des éditions du domaine public nommées sur chaque page, avec nos traductions en regard. Votre progression n'est conservée que sur cet appareil.",
+    "contact": "Des questions, des corrections ou des suggestions ? Utilisez le formulaire de contact.",
+    "parentTitle": "The Nahwi et The Mantiqi",
+    "parentBody": "The Nahwi est un site de {mantiqi}, qui enseigne le mantiq, la logique de la madrasa, de la même manière : les livres de trois cursus de madrasa, leçon par leçon, à côté d'une encyclopédie gratuite. Dans la madrasa, les deux se lisaient côte à côte ; les deux sites partagent donc leur adresse, leurs comptes et leurs actualités : The Mantiqi rassemble chaque semaine les actualités du nahw et du sarf, et vous pouvez écrire aux deux à {email}."
+  },
+  "kb": {
+    "nav": {
+      "books": "Bibliothèque",
+      "scholars": "Savants",
+      "curricula": "Cursus",
+      "concepts": "Glossaire",
+      "news": "Actualités",
+      "study": "Espace d'étude",
+      "studyShort": "Étude",
+      "home": "Accueil",
+      "levels": "Niveaux",
+      "text": "Texte",
+      "practice": "S'exercer",
+      "glossary": "Termes",
+      "encyclopedia": "Encyclopédie",
+      "encyclopediaShort": "Encyclopédie",
+      "about": "À propos",
+      "aboutSite": "The Nahwi",
+      "contact": "Contact",
+      "privacy": "Confidentialité",
+      "updates": "Nouveautés",
+      "nahw": "À propos du nahw et du sarf"
+    },
+    "draft": "Brouillon · en attente de relecture par un enseignant qualifié",
+    "home": {
+      "kicker": "La base de connaissances du sarf et du nahw",
+      "title": "L'encyclopédie du <em>sarf et du nahw</em>",
+      "lead": "La grammaire arabe classique dans la tradition savante islamique : ses livres et leurs commentaires, ses savants et ses cursus, et ce qui vient de paraître.",
+      "search": "Rechercher un livre, un savant, un article ou un terme",
+      "searchButton": "Rechercher",
+      "startHere": "Commencez ici",
+      "booksKicker": "I · Livres",
+      "booksTitle": "Les manuels et leurs commentaires",
+      "allWorks": "Toutes les œuvres du catalogue",
+      "curriculaKicker": "II · Cursus",
+      "curriculaTitle": "Que lisait-on, et où ?",
+      "newsKicker": "III · Actualités",
+      "newsTitle": "Actualités du nahw et du sarf",
+      "allNews": "Toutes les actualités",
+      "scholarsKicker": "III · Savants",
+      "scholarsTitle": "Les savants à travers les siècles",
+      "allScholars": "Tous les savants",
+      "studyKicker": "Espace d'étude",
+      "studyTitle": "Lisez vous-même les livres, leçon par leçon, selon trois cursus de madrasa : les manuels persans et al-Kâfiya en Inde, al-Amthila et Birgivî dans les terres ottomanes, al-Âjurrûmiyya et l'Alfiyya dans le monde arabe.",
+      "studyCta": "Aller à l'espace d'étude",
+      "works": "{n} œuvres",
+      "worksOne": "1 œuvre",
+      "latestKicker": "Dernières actualités",
+      "handbooksKicker": "Les manuels",
+      "handbooksLead": "Les livres que lisaient les madrasas, d'al-Kâfiya à Qatr al-nadâ, chacun avec ses commentaires, ses gloses et son catalogue.",
+      "mastersKicker": "Les maîtres",
+      "mastersLead": "De Sîbawayh à al-Azhar : les grammairiens dont on lisait les livres.",
+      "library": "Toute la bibliothèque",
+      "newsLead": "Rassemblées chaque semaine par The Mantiqi."
+    },
+    "curricula": {
+      "title": "Cursus",
+      "lead": "Quels livres de grammaire on lisait, et dans quel ordre, dans les madrasas d'Asie du Sud, des terres ottomanes, d'al-Azhar et du Maghreb."
+    },
+    "books": {
+      "title": "Bibliothèque",
+      "lead": "Les œuvres de nahw et de sarf, de Sîbawayh à la madrasa moderne : les six manuels que lisaient les madrasas, avec leurs commentaires et leurs gloses, et les livres qui les entourent. Recherchez par titre, auteur ou sujet.",
+      "kicker": "Livre {n}",
+      "by": "{author} · m. {died}",
+      "overview": "Vue d'ensemble",
+      "articles": "Articles",
+      "tree": "Commentaires",
+      "catalogue": "Catalogue",
+      "scholars": "Savants",
+      "readText": "Lire le texte",
+      "study": "L'étudier au niveau {n}",
+      "treeLead": "Les commentaires les plus lus dans les madrasas, avec les gloses écrites sur eux.",
+      "catalogueLead": "Tout ce qui a été écrit sur ce livre et que nous avons pu retrouver, avec les éditions et les sources.",
+      "openCatalogue": "Ouvrir le catalogue",
+      "counts": {
+        "sharh": "Commentaires (sharh)",
+        "hashiya": "Gloses (hâshiya)",
+        "other": "Notes, versifications et autres œuvres",
+        "translation": "Traductions",
+        "modern": "Études modernes"
+      },
+      "fullTitle": "Titre complet",
+      "author": "Auteur",
+      "died": "Mort",
+      "allScholars": "Tous les savants du livre",
+      "more": "{n} de plus"
+    },
+    "article": {
+      "of": "{section} · article {n} sur {m}",
+      "inThis": "Dans cet article",
+      "people": "Personnes citées",
+      "sources": "Sources ({n})",
+      "next": "Article suivant",
+      "prev": "Article précédent",
+      "related": "Pour aller plus loin",
+      "studyPath": "Étudier ce cursus : le {path} de l'espace d'étude"
+    },
+    "scholars": {
+      "title": "Savants",
+      "lead": "Les grammairiens, commentateurs et enseignants du nahw et du sarf, selon le siècle de leur mort.",
+      "filter": "Rechercher dans les savants",
+      "none": "Aucun savant ne correspond.",
+      "century": "{n} siècle",
+      "centuryBce": "{n} siècle av. J.-C.",
+      "undated": "Date inconnue",
+      "count": "{n} savants",
+      "period": "Période",
+      "role": "Rôle",
+      "book": "Manuel",
+      "all": "Tous",
+      "shown": "{n} savants sur {m}",
+      "periods": {
+        "pre": "Avant l'islam",
+        "early": "Ancienne (jusqu'à 1200)",
+        "middle": "Post-classique (1200–1500)",
+        "later": "Madrasa tardive (1500–1900)",
+        "modern": "Moderne (depuis 1900)"
+      },
+      "allPeriods": "Période",
+      "allRoles": "Rôle",
+      "allBooks": "Livre",
+      "clear": "Effacer les filtres",
+      "roleGroups": {
+        "author": "Auteurs des manuels",
+        "commentary": "Commentateurs et glossateurs",
+        "translator": "Traducteurs et précurseurs",
+        "teacher": "Enseignants",
+        "voice": "Voix sur la grammaire",
+        "modern": "Recherche moderne"
+      }
+    },
+    "scholar": {
+      "life": "Vie",
+      "works": "Œuvres",
+      "uncertain": "Incertain ou discuté",
+      "reception": "Réception",
+      "places": "Lieux",
+      "writtenOn": "Écrit sur ses œuvres",
+      "books": "Dans les livres",
+      "sources": "Sources"
+    },
+    "news": {
+      "title": "Actualités du nahw et du sarf",
+      "lead": "Nouvelles études, éditions, traductions et conférences sur le nahw et le sarf, rassemblées chaque semaine par The Mantiqi auprès d'institutions islamiques sunnites ; chacune avec un lien vers sa source.",
+      "rss": "Flux RSS",
+      "kinds": {
+        "edition": "Édition",
+        "translation": "Traduction",
+        "study": "Étude",
+        "digital": "Numérique",
+        "event": "Événement",
+        "media": "Podcast ou vidéo"
+      },
+      "open": "Ouvrir",
+      "feedTitle": "The Nahwi — actualités du nahw, du sarf et des sciences de la langue",
+      "feedDescription": "Nouvelles éditions, traductions, études et événements sur le nahw et le sarf, la grammaire arabe classique dans la tradition savante islamique, et sur la balâgha et les sciences voisines.",
+      "filter": "Afficher les actualités sur",
+      "fields": {
+        "all": "Tout",
+        "nahw": "Nahw",
+        "sarf": "Sarf",
+        "balagha": "Balâgha",
+        "lugha": "Lexicographie",
+        "mantiq": "Mantiq",
+        "usul": "Usûl al-fiqh",
+        "tafsir": "Tafsîr"
+      },
+      "newDot": "nouveau",
+      "sections": {
+        "academic": "Recherche",
+        "publications": "Publications",
+        "talks": "Conférences et médias"
+      },
+      "sectionLeads": {
+        "academic": "Études, articles, thèses et comptes rendus",
+        "publications": "Nouvelles éditions, traductions et textes numérisés",
+        "talks": "Cours, colloques, podcasts et vidéos"
+      },
+      "allSections": "Tout",
+      "sectionsLabel": "Rubriques des actualités",
+      "readAt": "Lire sur {source}",
+      "more": "Plus",
+      "originalTitle": "Titre original",
+      "fromParent": "Les actualités sont rassemblées par {mantiqi}, le site parent de The Nahwi, et affichées ici telles qu'elles y figurent.",
+      "allAtParent": "Toutes les actualités du nahw et du sarf sur The Mantiqi",
+      "parentRss": "Flux RSS (The Mantiqi)",
+      "loading": "Chargement des dernières actualités de The Mantiqi…",
+      "none": "Aucune actualité du nahw et du sarf à afficher ici pour le moment : voyez toutes les actualités sur The Mantiqi."
+    },
+    "books_meta": {
+      "kafiya": "La syntaxe concise d'Ibn al-Hâjib, lue avec le commentaire de Jâmî dans les madrasas indiennes et ottomanes, et avec celui de Radî al-Dîn par les étudiants avancés.",
+      "shafiya": "Le manuel de morphologie d'Ibn al-Hâjib, sommet du sarf dans chaque cursus, lu avec le commentaire de Radî al-Dîn al-Astarâbâdhî.",
+      "izzi": "Le court livre d'al-Zanjânî sur les schèmes du verbe et leurs sens : le texte de sarf commun à la madrasa ottomane et à al-Azhar.",
+      "alfiyya": "Les mille vers de nahw et de sarf d'Ibn Mâlik, appris par cœur du Maghreb à l'Indonésie et lus avec le commentaire d'Ibn 'Aqîl.",
+      "ajurrumiyya": "Quelques pages qui exposent l'i'râb : le premier livre de nahw le plus appris par cœur, du Maghreb aux pesantren de Java.",
+      "qatr": "Le nahw intermédiaire d'Ibn Hishâm, l'étape qui suit al-Âjurrûmiyya à al-Azhar, plus long qu'elle et plus court que l'Alfiyya."
+    },
+    "library": {
+      "title": "La bibliothèque",
+      "lead": "Au-delà des six manuels : les grandes œuvres de nahw et de sarf en arabe et en persan, de Sîbawayh aux manuels des madrasas modernes — manuels, commentaires, poèmes et traités, par siècle.",
+      "handbooks": "Les six manuels",
+      "handbooksLead": "Les livres que lisaient les madrasas, chacun avec ses articles, ses commentaires et son catalogue.",
+      "count": "{n} livres",
+      "filter": "Afficher",
+      "all": "Tous",
+      "kinds": {
+        "handbook": "Manuel",
+        "commentary": "Commentaire",
+        "gloss": "Glose",
+        "treatise": "Traité",
+        "encyclopedia": "Partie d'une œuvre plus vaste",
+        "verse": "Poème didactique",
+        "refutation": "Critique",
+        "modern": "Manuel moderne",
+        "translation": "Traduction"
+      },
+      "languages": {
+        "ar": "Arabe",
+        "fa": "Persan",
+        "ot": "Turc ottoman",
+        "ur": "Ourdou",
+        "other": "Autre"
+      },
+      "written": "Rédigé",
+      "language": "Langue",
+      "on": "Écrit sur",
+      "editions": "Éditions et traductions",
+      "writtenOn": "Écrit sur lui",
+      "byAuthor": "Du même auteur ({author})",
+      "inLibrary": "Dans la bibliothèque",
+      "search": "Rechercher dans la bibliothèque",
+      "kind": "Genre",
+      "onHandbook": "Sur un manuel",
+      "shown": "{n} livres sur {m}",
+      "none": "Aucun livre ne correspond.",
+      "handbookOfSix": "L'un des six manuels"
+    },
+    "glossary": {
+      "title": "Glossaire du sarf et du nahw",
+      "lead": "Les mots techniques du sarf et du nahw, la grammaire de la madrasa : chacun avec son arabe, une définition simple et une courte explication, en libre lecture.",
+      "description": "Un glossaire gratuit du sarf et du nahw, la grammaire arabe classique : chaque terme technique avec son arabe vocalisé, sa translittération, sa définition et son explication.",
+      "count": "{n} notions",
+      "filter": "Rechercher dans le glossaire",
+      "none": "Aucune notion ne correspond.",
+      "shown": "{n} notions sur {m}",
+      "allCategories": "Thème",
+      "clear": "Effacer les filtres",
+      "categories": {
+        "foundations": "Fondements",
+        "word": "Les sortes de mots",
+        "root": "Racine et schème",
+        "verb": "Le verbe",
+        "sound-weak": "Sain et faible",
+        "derived": "Les noms dérivés",
+        "irab": "I'râb et binâ'",
+        "sentence": "La phrase",
+        "governors": "Les régissants ('awâmil)",
+        "followers": "Les suivants (tawâbi')",
+        "accusatives": "Les mots au nasb"
+      },
+      "pageTitle": "{name} ({transliteration}) : sens en grammaire arabe",
+      "pageTitleShort": "{name} : sens en grammaire arabe",
+      "explanation": "Explication",
+      "examples": "Exemples",
+      "related": "Notions liées",
+      "lesson": "L'apprendre pas à pas",
+      "lessonText": "Cette notion est une leçon du cursus d'étude, avec une explication plus complète, un schéma et un test.",
+      "lessonLink": "Ouvrir la leçon",
+      "books": "Traité dans",
+      "topic": "Thème",
+      "all": "Toutes les notions"
+    },
+    "nahw": {
+      "title": "À propos du nahw et du sarf",
+      "lead": "Ce que sont le nahw et le sarf, pourquoi le sarf vient d'abord, et comment la madrasa lit leurs livres."
+    }
+  },
+  "preview": {
+    "button": "Aperçu d'une leçon",
+    "eyebrow": "Aperçu",
+    "note": "Un aperçu de la leçon {n} du niveau {level}. Le niveau {level} s'ouvre après le niveau {prev} ; d'ici là, vous pouvez lire cette leçon, mais son test et la suite restent fermés.",
+    "start": "Commencer par le premier terme",
+    "levels": "Tous les niveaux",
+    "close": "Fermer",
+    "dialogLocked": "S'ouvre après le niveau {prev}.",
+    "dialogSoon": "Ce niveau est en préparation.",
+    "lessons": "{n} leçons"
+  },
+  "seo": {
+    "/": {
+      "title": "The Nahwi – apprendre le nahw et le sarf, la grammaire arabe",
+      "description": "Apprenez en ligne le nahw et le sarf (syntaxe et morphologie arabes) selon les cursus de la madrasa : al-Mabadi gratuit, puis les livres classiques ; savants, bibliothèque."
+    },
+    "/study/": {
+      "title": "Apprendre le nahw et le sarf en ligne : cours de madrasa",
+      "description": "Cours en ligne de nahw et de sarf, la grammaire arabe classique : trois cursus de madrasa, indien, ottoman et nord-africain, leçon par leçon avec des tests. Gratuit pour commencer."
+    },
+    "/nahw/": {
+      "title": "Que sont le nahw et le sarf ? La grammaire arabe expliquée",
+      "description": "Ce que sont le nahw (syntaxe) et le sarf (morphologie), pourquoi la madrasa enseigne le sarf en premier, et comment se lisent les livres classiques de grammaire."
+    },
+    "/curricula/": {
+      "title": "Le nahw et le sarf à la madrasa : les cursus de grammaire",
+      "description": "Quels livres de grammaire lisaient les madrasas, et dans quel ordre : le Dars-i Nizami, la medrese ottomane, al-Azhar et le Maghreb."
+    },
+    "/books/": {
+      "title": "Bibliothèque de nahw et de sarf : les livres classiques",
+      "description": "Une bibliothèque consultable de nahw et de sarf : les six manuels de la madrasa, d'al-Ajurrumiyya à l'Alfiyya et à al-Kafiya, avec leurs commentaires, par siècle."
+    },
+    "/scholars/": {
+      "title": "Les savants du nahw et du sarf : les grammairiens arabes",
+      "description": "Les grammairiens, commentateurs et enseignants du nahw et du sarf, de Sibawayh à Ibn Hisham et aux savants des madrasas, par siècle."
+    },
+    "/glossary/": {
+      "title": "Glossaire du nahw et du sarf : termes de grammaire de A à Z",
+      "description": "Tous les termes de nahw et de sarf enseignés sur The Nahwi, de A à Z, avec l'arabe vocalisé, la translittération et une courte définition."
+    },
+    "/updates/": {
+      "description": "Nouveaux cours, textes, outils et fonctions sur The Nahwi, le site pour apprendre le nahw et le sarf (grammaire arabe classique), du plus récent au plus ancien."
+    },
+    "/study/mabadi/": {
+      "title": "Al-Mabadi : un premier cours de sarf et de nahw",
+      "description": "Commencez la grammaire arabe avec al-Mabadi : les fondements du sarf et du nahw terme par terme, avec l'arabe, une explication simple et un court test."
+    },
+    "/pricing/": {
+      "title": "Tarifs : le nahw et le sarf gratuits, ou tous les cours",
+      "description": "Étudiez le nahw et le sarf gratuitement avec un compte : tout al-Mabadi et trois leçons d'aperçu de chaque livre. L'accès complet ouvre chaque cursus de madrasa."
+    }
+  },
+  "madrasa": {
+    "title": "Choisissez votre madrasa",
+    "lead": "Trois cursus à travers le sarf et le nahw, niveau par niveau, selon les livres que lisaient les grandes madrasas. Tous trois s'ouvrent avec al-Mabâdi' ; ensuite, chaque niveau a deux voies côte à côte, le sarf et le nahw. Choisissez-en un pour commencer ; vous pouvez en changer à tout moment, et ce que vous avez réussi reste réussi.",
+    "choose": "Choisir ce cursus",
+    "chosen": "Votre cursus",
+    "none": "Choisissez un cursus ci-dessus pour voir ses niveaux.",
+    "pathLevel": "{path} · niveau {n}",
+    "subLevel": "{n}{k}",
+    "subLetters": "a b c d",
+    "levelN": "Niveau {n}",
+    "paths": {
+      "indian": {
+        "name": "Madrasa indienne",
+        "short": "Cursus indien",
+        "arabic": "المَدْرَسَةُ الهِنْدِيَّة",
+        "lead": "Le Dars-i Nizâmî de Farangî Mahall, Deoband, Barelî et Khayrâbâd : Mîzân al-sarf à côté du Nahw-i Mîr et des cent régissants, puis Hidâyat al-nahw, puis al-Kâfiya avec le Sharh Jâmî et al-Shâfiya."
+      },
+      "ottoman": {
+        "name": "Madrasa ottomane",
+        "short": "Cursus ottoman",
+        "arabic": "المَدْرَسَةُ العُثْمانِيَّة",
+        "lead": "Le sarf d'abord, comme dans les madrasas ottomanes, syriennes et kurdes : al-Amthila, Binâ' al-af'âl et al-Maqsûd ; puis al-'Izzî et Marâh al-arwâh à côté d'al-'Awâmil et d'Izhâr al-asrâr de Birgivî ; puis al-Kâfiya avec Molla Câmî."
+      },
+      "north-african": {
+        "name": "Madrasa nord-africaine",
+        "short": "Cursus nord-africain",
+        "arabic": "المَدْرَسَةُ المَغارِبِيَّة",
+        "lead": "Le nahw d'abord : al-Âjurrûmiyya ; puis Qatr al-nadâ à côté d'al-'Izzî et de la Lâmiyyat al-af'âl ; puis l'Alfiyya : la grammaire d'al-Azhar, d'al-Qarawiyyîn, d'al-Zaytûna et des mahâdir de Mauritanie."
+      }
+    },
+    "traditions": {
+      "farangi-mahall": "Farangî Mahall",
+      "khayrabadi": "Khayrâbâd",
+      "deobandi": "Deoband",
+      "istanbul": "Istanbul",
+      "balkans": "les Balkans",
+      "shami": "Damas",
+      "kurdish": "le Kurdistan",
+      "azhari": "al-Azhar",
+      "qarawiyyin": "al-Qarawiyyîn",
+      "zaytuna": "al-Zaytûna",
+      "shinqiti": "Shinqît",
+      "barelwi": "Barelî"
+    },
+    "levels": {
+      "indian-1": {
+        "title": "al-Mabâdi'",
+        "arabic": "المَبَادِئ",
+        "lead": "Les fondements du sarf et du nahw, terme par terme, gratuits avec un compte : le mot et ses sortes, la racine et le schème, les temps, l'i'râb et la phrase."
+      },
+      "ottoman-1": {
+        "title": "al-Mabâdi'",
+        "arabic": "المَبَادِئ",
+        "lead": "Les fondements du sarf et du nahw, terme par terme, gratuits avec un compte : le mot et ses sortes, la racine et le schème, les temps, l'i'râb et la phrase."
+      },
+      "north-african-1": {
+        "title": "al-Mabâdi'",
+        "arabic": "المَبَادِئ",
+        "lead": "Les fondements du sarf et du nahw, terme par terme, gratuits avec un compte : le mot et ses sortes, la racine et le schème, les temps, l'i'râb et la phrase."
+      },
+      "indian-2": {
+        "title": "Mîzân al-sarf et Nahw-i Mîr",
+        "arabic": "مِيزَانُ الصَّرْفِ · نَحْوِ مِير",
+        "lead": "Les manuels persans du Dars-i Nizâmî, lus côte à côte la première année : la balance fa'ala et les schèmes du verbe ; les parties du discours, l'i'râb et la phrase, avec les cent régissants de 'Abd al-Qâhir al-Jurjânî."
+      },
+      "indian-3": {
+        "title": "Hidâyat al-nahw",
+        "arabic": "هِدَايَةُ النَّحْوِ",
+        "lead": "Le manuel arabe de nahw lu avant al-Kâfiya dans le Dars-i Nizâmî : le nom, le verbe et la particule, avec leur i'râb, dans l'ordre d'al-Kâfiya."
+      },
+      "indian-4": {
+        "title": "al-Kâfiya, le Sharh Jâmî et al-Shâfiya",
+        "arabic": "الْكَافِيَةُ · شَرْحُ جَامِي · الشَّافِيَةُ",
+        "lead": "Les deux manuels d'Ibn al-Hâjib, sommets du nahw et du sarf, avec le commentaire de Jâmî sur al-Kâfiya."
+      },
+      "ottoman-2": {
+        "title": "al-Amthila, Binâ' al-af'âl et al-Maqsûd",
+        "arabic": "الْأَمْثِلَةُ · الْبِنَاءُ · الْمَقْصُودُ",
+        "lead": "Emsile, Binâ et Maksûd, les premiers livres de la madrasa ottomane, tous de sarf : les formes de nasara exposées, la construction des verbes, et les schèmes du verbe nu et augmenté."
+      },
+      "ottoman-3": {
+        "title": "al-'Izzî, Marâh al-arwâh, al-'Awâmil et Izhâr",
+        "arabic": "الْعِزِّيُّ · الْمَرَاحُ · الْعَوَامِلُ · الْإِظْهَارُ",
+        "lead": "Le sarf se poursuit avec al-'Izzî et Marâh al-arwâh, verbes faibles compris ; à côté commence le nahw, avec al-'Awâmil et Izhâr al-asrâr de l'imam Birgivî : les régissants, les régis et l'i'râb."
+      },
+      "ottoman-4": {
+        "title": "al-Kâfiya avec Molla Câmî",
+        "arabic": "الْكَافِيَةُ · مُلَّا جَامِي",
+        "lead": "Al-Kâfiya d'Ibn al-Hâjib avec le commentaire de Jâmî, telle qu'on la lisait dans la madrasa ottomane."
+      },
+      "north-african-2": {
+        "title": "al-Âjurrûmiyya",
+        "arabic": "الْآجُرُّومِيَّةُ",
+        "lead": "Le court premier livre de nahw d'Ibn Âjurrûm, appris par cœur du Maghreb à Java : le discours, l'i'râb et ses signes, les verbes, et les noms au raf', au nasb et au khafd."
+      },
+      "north-african-3": {
+        "title": "Qatr al-nadâ, al-'Izzî et la Lâmiyyat al-af'âl",
+        "arabic": "قَطْرُ النَّدَى · الْعِزِّيُّ · لَامِيَّةُ الْأَفْعَالِ",
+        "lead": "Le nahw intermédiaire d'Ibn Hishâm à côté du sarf d'al-Zanjânî et du poème d'Ibn Mâlik sur le verbe."
+      },
+      "north-african-4": {
+        "title": "al-Alfiyya",
+        "arabic": "الْأَلْفِيَّةُ",
+        "lead": "Les mille vers d'Ibn Mâlik, sommet du cursus."
+      }
+    },
+    "startWith": "Commencer : {name}",
+    "leadShort": "Trois cursus de madrasa, lus niveau par niveau, avec le sarf et le nahw côte à côte. Choisissez celui dont vous voulez lire les livres ; vous pouvez en changer à tout moment, et ce que vous avez réussi reste réussi.",
+    "change": "Changer de cursus",
+    "stages": {
+      "foundations": "Fondements",
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé"
+    },
+    "levelStage": "Niveau {n} · {stage}",
+    "lanes": {
+      "sarf": {
+        "name": "Sarf",
+        "arabic": "الصَّرْفُ",
+        "lead": "morphologie : les formes du mot"
+      },
+      "nahw": {
+        "name": "Nahw",
+        "arabic": "النَّحْوُ",
+        "lead": "syntaxe : les finales et la phrase"
+      }
+    },
+    "laneNone": "Aucun livre de {lane} à ce niveau.",
+    "laneOrder": "Les deux voies se lisent côte à côte ; dans chacune, un livre après l'autre.",
+    "soonBooks": {
+      "mizan": {
+        "title": "Mîzân al-sarf",
+        "arabic": "مِيزَانُ الصَّرْفِ"
+      },
+      "nahwmir": {
+        "title": "Nahw-i Mîr",
+        "arabic": "نَحْوِ مِير"
+      },
+      "awamilmia": {
+        "title": "al-'Awâmil al-mi'a",
+        "arabic": "الْعَوَامِلُ الْمِائَةُ"
+      },
+      "hidaya": {
+        "title": "Hidâyat al-nahw",
+        "arabic": "هِدَايَةُ النَّحْوِ"
+      },
+      "shafiya": {
+        "title": "al-Shâfiya",
+        "arabic": "الشَّافِيَةُ"
+      },
+      "kafiya": {
+        "title": "al-Kâfiya",
+        "arabic": "الْكَافِيَةُ"
+      },
+      "jami": {
+        "title": "Sharh Jâmî (Molla Câmî)",
+        "arabic": "الْفَوَائِدُ الضِّيَائِيَّةُ"
+      },
+      "amthila": {
+        "title": "al-Amthila (Emsile)",
+        "arabic": "الْأَمْثِلَةُ الْمُخْتَلِفَةُ"
+      },
+      "bina": {
+        "title": "Binâ' al-af'âl (Binâ)",
+        "arabic": "بِنَاءُ الْأَفْعَالِ"
+      },
+      "maqsud": {
+        "title": "al-Maqsûd (Maksûd)",
+        "arabic": "الْمَقْصُودُ"
+      },
+      "izzi": {
+        "title": "al-'Izzî",
+        "arabic": "التَّصْرِيفُ الْعِزِّيُّ"
+      },
+      "marah": {
+        "title": "Marâh al-arwâh",
+        "arabic": "مَرَاحُ الْأَرْوَاحِ"
+      },
+      "awamil": {
+        "title": "al-'Awâmil (Avâmil)",
+        "arabic": "الْعَوَامِلُ الْجَدِيدَةُ"
+      },
+      "izhar": {
+        "title": "Izhâr al-asrâr",
+        "arabic": "إِظْهَارُ الْأَسْرَارِ"
+      },
+      "ajurrumiyya": {
+        "title": "al-Âjurrûmiyya",
+        "arabic": "الْآجُرُّومِيَّةُ"
+      },
+      "lamiyya": {
+        "title": "Lâmiyyat al-af'âl",
+        "arabic": "لَامِيَّةُ الْأَفْعَالِ"
+      },
+      "qatr": {
+        "title": "Qatr al-nadâ",
+        "arabic": "قَطْرُ النَّدَى"
+      },
+      "alfiyya": {
+        "title": "al-Alfiyya",
+        "arabic": "الْأَلْفِيَّةُ"
+      }
+    },
+    "laneStarts": "Le {lane} commence au niveau {n}."
+  },
+  "primer": {
+    "theLesson": "La leçon",
+    "terms": "Termes",
+    "examples": "Exemples",
+    "pages": "p. {pages}",
+    "page": "p. {pages}",
+    "lessons": "{n} leçons",
+    "quizIntro": "{n} questions sur cette leçon. Avec 6 sur 10 ou plus (deux étoiles), la leçon suivante s'ouvre.",
+    "passed": "Réussi : la leçon suivante est ouverte.",
+    "failed": "Pas encore : il vous faut au moins 6 sur 10. Relisez la leçon et réessayez.",
+    "bookDone": "C'était la dernière leçon de {book}.",
+    "nextBook": "Suivant : {book}",
+    "back": "Retour à {book}",
+    "edition": "L'édition suivie",
+    "editionNote": "Ces leçons sont nos propres explications, dans l'ordre de ce livre et avec ses exemples ; le texte de l'édition n'est pas reproduit ici.",
+    "aboutBook": "À propos du livre",
+    "course": "L'étudier comme un cours",
+    "courseLead": "{book} est un cours de l'espace d'étude : {n} leçons, chacune avec un court test.",
+    "badge": "Cours en leçons propres",
+    "open": "Ouvrir le cours",
+    "theText": "Le texte",
+    "original": "Original {language}, {edition}",
+    "languages": {
+      "fa": "persan",
+      "ar": "arabe"
+    },
+    "translation": "Traduction",
+    "wholeText": "Lire tout le texte",
+    "textEdition": "Le texte",
+    "textNote": "L'original est transcrit d'après cette édition, sans ses gloses marginales, et traduit pour The Nahwi.",
+    "scan": "Le scan de l'édition",
+    "badgeText": "Cours avec le texte {language}",
+    "copy": "Copier",
+    "copied": "Copié",
+    "textTitle": "{title} : le texte {language}",
+    "textDescription": "{title} de {author} : l'original {language}, transcrit d'après une édition du domaine public, avec des traductions anglaise (et arabe) à ouvrir sous chaque passage.",
+    "textLead": "L'original {language}, en {n} passages, transcrit d'après l'édition. Sous chaque passage, vous pouvez ouvrir notre traduction, copier le texte ou l'envoyer à Google Traduction.",
+    "studyCourse": "L'étudier comme un cours ({level})",
+    "englishTranslation": "Traduction anglaise",
+    "readText": "Lire tout le texte {language}",
+    "quotesTitle": "Dans les mots de {author}",
+    "quotedFrom": "Cité d'après le texte {language} de {edition}",
+    "copyText": "Copier le texte",
+    "copyTranslation": "Copier la traduction",
+    "aiNote": "Traduit avec l'aide de l'IA et pas encore vérifié. C'est le texte original qui fait foi : lisez et citez toujours l'original.",
+    "courseTitle": "{book} : un cours de grammaire arabe",
+    "courseTitleJurjani": "{book} d'al-Jurjânî : un cours de grammaire arabe",
+    "tasks": "Exercices",
+    "tasksIntro": "Faites-les d'abord par écrit, puis ouvrez la réponse modèle.",
+    "showAnswer": "Réponse modèle",
+    "trChoose": "Traduction"
+  },
+  "source": {
+    "title": "À propos de ce texte",
+    "text": "Texte",
+    "lessonsFollow": "Les leçons suivent",
+    "translation": "Traduction",
+    "review": "Relecture",
+    "scan": "Voir le scan",
+    "languages": {
+      "ar": "arabe",
+      "fa": "persan"
+    },
+    "vocalised": "vocalisé comme dans l'édition",
+    "transcribed": "transcrit par The Nahwi d'après cette édition",
+    "inPreparation": "Original {language} en préparation, à transcrire d'après",
+    "notShown": "Non affiché : la seule édition suivie est une édition moderne protégée par le droit d'auteur.",
+    "lessonsOwn": "Les leçons sont les propres explications de The Nahwi, dans l'ordre de cette édition ; son texte est protégé par le droit d'auteur et n'est pas reproduit.",
+    "translationOwn": "Celle de The Nahwi.",
+    "reviewDraft": "Brouillon, en attente de relecture par {teacher}.",
+    "pages": "p. {pages}",
+    "shortLine": "Texte {language} d'après l'édition {edition} · traduction de The Nahwi",
+    "shortLessons": "Nos propres leçons dans l'ordre de l'édition {edition} · brouillon",
+    "translationOwnAr": "Celle de The Nahwi, en anglais et en arabe vocalisé. L'arabe est traduit du persan, non tiré d'une version arabe imprimée.",
+    "transcribedLitho": "transcrit par The Nahwi d'après la lithographie, sans ses gloses marginales",
+    "lessonsOwnText": "Les leçons sont les propres explications de The Nahwi, chapitre par chapitre du texte lui-même.",
+    "quoted": "passages cités dans les leçons, transcrits par The Nahwi d'après cette édition (le texte entier n'est pas reproduit)",
+    "lessonsAfter": "Les leçons sont les propres explications du texte par The Nahwi, à la suite de {author} ; ses mots sont cités là où ils comptent le plus.",
+    "shortQuoted": "Nos propres leçons avec des citations de l'édition {edition} · traduction de The Nahwi, brouillon",
+    "ownCourse": "Le cours propre de The Nahwi sur les fondements du sarf et du nahw, puisé dans les manuels classiques ; aucun texte original n'est affiché.",
+    "translationLanguages": "Celle de The Nahwi, d'après l'original {language} : en {languages}. Choisissez la langue sous les passages.",
+    "and": "et"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Comment joindre The Nahwi : questions, corrections des textes et des traductions, cours et actualités à ajouter.",
+    "lead": "The Nahwi est un jeune projet, et tout ce qu'il contient est un brouillon jusqu'à la relecture par un enseignant. C'est un site de The Mantiqi : les messages adressés à l'un ou à l'autre parviennent à la même équipe. Nous sommes heureux d'avoir de vos nouvelles.",
+    "emailLabel": "Ou écrivez directement",
+    "followLabel": "Suivre The Mantiqi",
+    "reasonsTitle": "À quel sujet écrire",
+    "reasons": [
+      "Une question sur une leçon, un terme ou un texte",
+      "Une erreur dans une transcription, une traduction ou une explication (indiquez la page et, si possible, l'endroit dans l'édition)",
+      "Un cours, un enseignant ou un institut qui enseigne le sarf et le nahw et que nous devrions mentionner",
+      "Une actualité du nahw, du sarf ou des sciences de la langue : un nouveau livre, une édition, un article ou une conférence"
+    ],
+    "reply": "Nous lisons chaque message, mais ne pouvons promettre de répondre rapidement à chacun.",
+    "form": {
+      "title": "Envoyer un message",
+      "name": "Nom",
+      "email": "Adresse e-mail",
+      "emailHint": "Pour que nous puissions vous répondre. Nous ne l'utilisons pour rien d'autre.",
+      "topic": "Objet",
+      "topics": {
+        "question": "Une question sur une leçon, un terme ou un texte",
+        "correction": "Une erreur dans une transcription, une traduction ou une explication",
+        "course": "Un cours, un enseignant ou un institut à mentionner",
+        "news": "Une actualité du nahw ou du sarf pour la page des actualités",
+        "other": "Autre chose"
+      },
+      "page": "Quelle page ? (facultatif)",
+      "pageHint": "L'adresse ou le nom de la page, et si possible l'endroit dans l'édition.",
+      "message": "Votre message",
+      "send": "Envoyer",
+      "sending": "Envoi…",
+      "sent": "Merci, votre message a été envoyé. Nous lisons chaque message, mais ne pouvons promettre de répondre rapidement à chacun.",
+      "invalid": "Veuillez indiquer votre nom, une adresse e-mail valide et un message.",
+      "failed": "Le message n'a pas pu être envoyé d'ici. Votre logiciel de messagerie va s'ouvrir avec le message déjà rempli ; ou écrivez-nous directement à {email}.",
+      "note": "Votre message est envoyé à {email}. Il n'est pas conservé sur ce site."
+    }
+  },
+  "updates": {
+    "title": "Nouveautés",
+    "description": "Ce qui a été ajouté à The Nahwi : nouveaux textes, cours, langues et fonctions, du plus récent au plus ancien.",
+    "lead": "Ce qui a été ajouté à The Nahwi, du plus récent au plus ancien : textes et cours, langues, l'encyclopédie et les outils du site.",
+    "kinds": {
+      "text": "Nouveau texte",
+      "course": "Cours",
+      "language": "Langues",
+      "encyclopedia": "Encyclopédie",
+      "feature": "Site"
+    }
+  },
+  "help": {
+    "lead": "Vous préférez écrire en privé ?",
+    "ask": "Poser une question",
+    "mistake": "Signaler une erreur"
+  },
+  "certificate": {
+    "title": "Certificat : {book}",
+    "description": "Un certificat de fin d'étude de {book} sur The Nahwi, établi d'après vos propres résultats aux tests.",
+    "crumb": "Certificat",
+    "link": "Certificat de fin d'étude",
+    "kicker": "Certificat de fin d'étude",
+    "record": "Il est attesté que",
+    "nameLabel": "Votre nom",
+    "namePlaceholder": "Saisissez votre nom",
+    "passed": "a réussi toutes les leçons et tous les tests de",
+    "lessons": "{n} leçons",
+    "score": "{stars} Résultat moyen : {score} sur 10",
+    "note": "Une trace de votre propre étude sur The Nahwi, établie dans votre navigateur d'après vos résultats aux tests. Ce n'est ni une ijâza ni un diplôme : une ijâza est donnée par un enseignant qui a lu le livre avec vous.",
+    "reviewed": "Leçons de ce livre relues par un enseignant à ce jour : {n} sur {m}.",
+    "print": "Imprimer ou enregistrer en PDF",
+    "back": "Retour à {book}",
+    "hint": "Votre nom n'est pas conservé : saisissez-le de nouveau à chaque impression.",
+    "notYet": "Le certificat apparaît ici une fois que vous avez réussi toutes les leçons de ce livre avec au moins deux étoiles.",
+    "passedOf": "Réussies à ce jour : {n} sur {m}.",
+    "examTitle": "L'examen",
+    "examLead": "Toutes les leçons sont réussies. Il reste une étape avant le certificat : un examen de {n} questions tirées de toutes les leçons de ce livre, dans un nouvel ordre et avec les réponses mélangées. Il vous faut {pass} bonnes réponses.",
+    "examIntro": "25 questions sur tout le livre ; {pass} bonnes réponses suffisent. L'examen prend un cœur.",
+    "examPassed": "Réussi : votre certificat est prêt ci-dessous."
+  },
+  "reminder": {
+    "title": "Un rappel quotidien dans votre agenda",
+    "body": "Ajoutez à votre propre agenda, sur votre téléphone ou votre ordinateur, un événement qui revient chaque jour à l'heure de votre choix, avec un lien vers l'espace d'étude. Rien ne nous est envoyé.",
+    "time": "Heure",
+    "add": "Ajouter à mon agenda",
+    "done": "Ouvrez le fichier téléchargé pour ajouter l'événement à votre agenda.",
+    "eventTitle": "Étudier le sarf et le nahw : The Nahwi",
+    "eventBody": "La leçon du jour et les leçons à réviser :"
+  },
+  "today": {
+    "title": "Aujourd'hui",
+    "tests": "Tests aujourd'hui : {n} sur {goal}.",
+    "done": "Objectif du jour atteint.",
+    "streak": "Jours d'affilée : {n}",
+    "due": "À réviser : {n}",
+    "dueLink": "Réviser maintenant",
+    "goal": "Objectif quotidien (tests)",
+    "note": "Un test est le test d'une leçon ou une révision dans le tikrâr. Tout cela reste dans ce navigateur."
+  },
+  "overview": {
+    "title": "Votre progression",
+    "description": "Où vous en êtes dans votre cursus de madrasa : leçons réussies, résultats, jours d'étude et leçons à revoir, calculés dans votre navigateur.",
+    "lead": "Votre cursus de madrasa livre par livre, d'après les tests que vous avez faits dans ce navigateur.",
+    "emptyTitle": "Rien de réussi pour l'instant",
+    "emptyBody": "Votre progression s'affiche ici dès que vous réussissez le test d'une leçon avec au moins deux étoiles.",
+    "emptyCta": "Aller à l'espace d'étude",
+    "pathNote": "Votre cursus : {path}. Vous pouvez le changer sur la page d'étude.",
+    "noPath": "Choisissez votre cursus de madrasa sur la page d'étude pour voir ici ses livres.",
+    "passed": "Leçons réussies",
+    "average": "Résultat moyen",
+    "days": "Jours d'étude sur les 30 derniers",
+    "due": "À réviser aujourd'hui",
+    "activityTitle": "Les 30 derniers jours",
+    "activityDay": "{date} : {n} tests",
+    "booksTitle": "Livre par livre",
+    "continue": "Continuer",
+    "weakTitle": "À consolider",
+    "weakLead": "Réussies, mais avec moins de trois étoiles. Refaites le test de la leçon : c'est votre meilleur résultat qui est conservé.",
+    "weakNone": "Toutes les leçons que vous avez réussies ont trois étoiles.",
+    "review": "Réviser dans le tikrâr",
+    "note": "Tout cela est calculé dans ce navigateur d'après vos propres tests ; rien n'est envoyé.",
+    "link": "Votre progression",
+    "of": "{n} sur {total}"
+  },
+  "comments": {
+    "kicker": "Questions et remarques",
+    "title": "Une question sur cette leçon",
+    "lead": "Posez une question ou partagez une remarque. Chaque message est lu avant d'apparaître ici, et l'enseignant peut y répondre.",
+    "loading": "Chargement des messages…",
+    "empty": "Aucune question sur cette leçon pour l'instant.",
+    "loadFailed": "Les messages n'ont pas pu être chargés. Réessayez plus tard.",
+    "learner": "Un apprenant",
+    "answer": "Réponse",
+    "inLanguage": "En {language}",
+    "pending": "En attente de lecture : vous seul le voyez pour l'instant.",
+    "hiddenOwn": "Non publié : vous seul le voyez.",
+    "remove": "Supprimer",
+    "removeSure": "Supprimer définitivement ?",
+    "signinLead": "Pour écrire ici, il vous faut un compte ; un compte gratuit suffit.",
+    "signin": "Se connecter",
+    "write": "Écrire une question ou une remarque",
+    "message": "Votre message",
+    "placeholder": "Votre question ou remarque sur cette leçon",
+    "name": "Nom affiché",
+    "nameHint": "Affiché avec votre message.",
+    "anonymous": "Publier sans mon nom (affiché comme « un apprenant »)",
+    "send": "Envoyer",
+    "sending": "Envoi…",
+    "sent": "Merci. Votre message apparaîtra ici une fois lu.",
+    "tooShort": "Écrivez un peu plus.",
+    "needName": "Indiquez un nom, ou publiez sans votre nom.",
+    "tooMany": "Vous avez envoyé plusieurs messages en peu de temps. Réessayez plus tard.",
+    "failed": "L'envoi a échoué. Réessayez.",
+    "note": "Votre message et le nom que vous donnez sont conservés avec votre compte ; vous pouvez les supprimer à tout moment. Plus de détails dans la {privacy}.",
+    "privacyLink": "déclaration de confidentialité",
+    "count": "{n} messages",
+    "countOne": "1 message"
+  },
+  "moderate": {
+    "title": "Modération",
+    "description": "Lire les questions et remarques sous les leçons, les publier et y répondre.",
+    "kicker": "Questions et remarques",
+    "lead": "Les nouveaux messages attendent ici jusqu'à ce que vous les publiiez. Rien n'apparaît sous une leçon avant cela.",
+    "loading": "Chargement…",
+    "signin": "Connectez-vous avec un compte de modérateur pour lire les messages.",
+    "signinLink": "Se connecter",
+    "notModerator": "Ce compte n'est pas modérateur. Un modérateur s'ajoute dans Supabase (voir docs/study.md).",
+    "tabs": {
+      "pending": "En attente",
+      "published": "Publiés",
+      "hidden": "Masqués"
+    },
+    "empty": "Rien ici.",
+    "anonymous": "envoyé sans nom",
+    "openLesson": "Ouvrir la leçon",
+    "publish": "Publier",
+    "hide": "Masquer",
+    "unpublish": "Remettre en attente",
+    "answerLabel": "Réponse (affichée sous le message ; laissez vide pour aucune)",
+    "saveAnswer": "Enregistrer la réponse",
+    "saved": "Enregistré.",
+    "failed": "Cela n'a pas fonctionné : {error}"
+  },
+  "app": {
+    "offlineTitle": "Pas de connexion",
+    "offlineBody": "The Nahwi a besoin d'Internet la première fois qu'il s'ouvre. Ensuite, le cours, les termes et les exercices s'ouvrent sans connexion.",
+    "retry": "Réessayer",
+    "reminderTitle": "Un rappel quotidien",
+    "reminderBody": "L'application vous le rappelle chaque jour à l'heure de votre choix, avec le nombre de leçons à réviser. Les rappels sont programmés sur votre téléphone ; rien ne nous est envoyé.",
+    "reminderOn": "Me le rappeler chaque jour",
+    "reminderOff": "Désactiver le rappel",
+    "reminderSet": "Chaque jour à {time}.",
+    "reminderDenied": "Les notifications sont désactivées pour The Nahwi. Activez-les dans Réglages → Notifications → The Nahwi, puis réessayez.",
+    "notifyTitle": "C'est l'heure du sarf et du nahw",
+    "notifyBody": "La leçon du jour vous attend.",
+    "notifyDue": "À réviser aujourd'hui : {n}. Quelques minutes de tikrâr les gardent fraîches.",
+    "heartsTitle": "Vos cœurs sont de nouveau pleins",
+    "heartsBody": "Les cinq cœurs sont revenus : votre prochain test vous attend.",
+    "shortcutContinue": "Continuer la leçon",
+    "shortcutTikrar": "Tikrâr",
+    "shortcutGlossary": "Glossaire",
+    "store": {
+      "loading": "Chargement des prix depuis l'App Store…",
+      "unavailable": "L'App Store n'a pas répondu. Veuillez réessayer dans un instant.",
+      "renewsMonth": "renouvelé chaque mois",
+      "renewsYear": "renouvelé chaque année",
+      "fine": "Le paiement est débité de votre identifiant Apple lorsque vous confirmez. Un abonnement se renouvelle automatiquement, chaque mois ou chaque année, sauf si vous le résiliez au moins 24 heures avant la fin de la période ; vous pouvez le résilier à tout moment dans les réglages de votre identifiant Apple, sous Abonnements.",
+      "buying": "Ouverture de l'App Store…",
+      "thanks": "Merci ! Votre accès complet est en cours d'activation.",
+      "error": "L'achat n'a pas abouti. Veuillez réessayer, ou écrivez-nous.",
+      "restore": "Restaurer les achats",
+      "restoring": "Restauration…",
+      "nothing": "Aucun achat n'a été trouvé pour cet identifiant Apple.",
+      "email": "Avec votre e-mail",
+      "eula": "Conditions d'utilisation (Apple)",
+      "terms": "Conditions d'utilisation",
+      "privacy": "Confidentialité"
+    }
+  },
+  "parent": {
+    "line": "Un site de {mantiqi}",
+    "lineLong": "The Nahwi est un site de {mantiqi}, l'encyclopédie et l'espace d'étude du mantiq. Les actualités, l'adresse et les comptes sont partagés.",
+    "visit": "Visiter The Mantiqi"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mizan-1": {
+      "prompt": "Sur quel schème est ce verbe ?",
+      "options": [
+        "fa'ala",
+        "fa'ila",
+        "af'ala",
+        "fâ'ala"
+      ],
+      "explanation": "Nasara a une fatha sur chacune de ses trois lettres radicales : fa'ala."
+    },
+    "mizan-2": {
+      "prompt": "Dans le schème fa'ala, que représente le 'ayn ?",
+      "options": [
+        "La deuxième lettre radicale",
+        "La première lettre radicale",
+        "La troisième lettre radicale",
+        "Une lettre ajoutée"
+      ],
+      "explanation": "Le fâ', le 'ayn et le lâm représentent la première, la deuxième et la troisième lettre radicale."
+    },
+    "mizan-3": {
+      "prompt": "Sur quel schème est ce verbe ?",
+      "options": [
+        "istaf'ala",
+        "if'alla",
+        "tafa''ala",
+        "infa'ala"
+      ],
+      "explanation": "La racine est gh-f-r ; l'alif, le sîn et le tâ' qui la précèdent sont ajoutés : istaf'ala."
+    }
+  }
+}

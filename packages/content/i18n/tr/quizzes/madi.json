@@ -1,0 +1,34 @@
+{
+  "items": {
+    "madi-1": {
+      "prompt": "Hangi siga fiil-i mazidir?",
+      "options": [
+        "nasara",
+        "yensuru",
+        "unsur",
+        "Hiçbiri"
+      ],
+      "explanation": "Nasara mazidir; yensuru muzari, unsur ise emirdir."
+    },
+    "madi-2": {
+      "prompt": "Bu siga ne demektir?",
+      "options": [
+        "onlar (erkekler) yardım etti",
+        "yardım ettik",
+        "yardım ediyor",
+        "yardım edin! (erkekler)"
+      ],
+      "explanation": "Mazi kökü ile cem' vavı: nasaru, onlar yardım etti."
+    },
+    "madi-3": {
+      "prompt": "Nahiv fiil-i maziyi nasıl sınıflar?",
+      "options": [
+        "Mebni: sonu cümleye göre değişmez",
+        "Mu'reb: merfu, mansub ya da meczum",
+        "Cer harflerinden sonra mecrur",
+        "İsim olarak"
+      ],
+      "explanation": "Fiil-i mazi mebnidir; fiiller içinde yalnız fiil-i muzari mu'rebdir."
+    }
+  }
+}

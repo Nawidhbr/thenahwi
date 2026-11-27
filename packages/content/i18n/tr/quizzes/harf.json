@@ -1,0 +1,34 @@
+{
+  "items": {
+    "harf-1": {
+      "prompt": "Acurrumiyye harfi nasıl tanımlar?",
+      "options": [
+        "İsmin ya da fiilin alametlerinden hiçbirini almayan kelime",
+        "Bir şeyi adlandıran kelime",
+        "İçinde zaman bulunan kelime",
+        "Üç harfli kelime"
+      ],
+      "explanation": "Harf, sahip olmadığıyla bilinir: ne ismin alameti vardır ne de fiilin."
+    },
+    "harf-2": {
+      "prompt": "Burada fi ne yapar?",
+      "options": [
+        "el-beyt'i mahfuz yapar",
+        "el-beyt'i merfu yapar",
+        "el-beyt'i fiil yapar",
+        "Hiçbir şey: etkisi yoktur"
+      ],
+      "explanation": "Fi bir hafz harfidir: el-beyti ondan sonra kesreyle biter."
+    },
+    "harf-3": {
+      "prompt": "Bu kelimelerden hangisi harftir?",
+      "options": [
+        "lem",
+        "kitab",
+        "nasara",
+        "Zeyd"
+      ],
+      "explanation": "Lem, fiil-i muzariyi meczum yapan bir harftir."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "sahih-1": {
+      "prompt": "Welk werkwoord is gaaf (sahih)?",
+      "options": [
+        "kataba",
+        "qala",
+        "rama",
+        "Geen van alle"
+      ],
+      "explanation": "Kataba heeft geen zwakke letter. Qala (q-w-l) en rama (r-m-y) zijn zwak."
+    },
+    "sahih-2": {
+      "prompt": "Wat maakt een wortel zwak?",
+      "options": [
+        "Een waw, ya' of alif onder zijn stamletters",
+        "Een hamza aan het begin",
+        "Vier letters hebben",
+        "Op ta' eindigen"
+      ],
+      "explanation": "De zwakke letters zijn waw, ya' en alif; een hamza maakt een werkwoord niet zwak."
+    },
+    "sahih-3": {
+      "prompt": "Hoe noemen de boeken dit werkwoord (hij strekte)?",
+      "options": [
+        "muda'af: zijn tweede en derde letter zijn gelijk",
+        "mahmuz: het heeft een hamza",
+        "salim: geen hamza en geen verdubbelde letter",
+        "mu'tall: het heeft een zwakke letter"
+      ],
+      "explanation": "Madda komt van m-d-d: de tweede en derde stamletter zijn gelijk."
+    }
+  }
+}

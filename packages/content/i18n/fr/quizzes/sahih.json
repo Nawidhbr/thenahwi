@@ -1,0 +1,34 @@
+{
+  "items": {
+    "sahih-1": {
+      "prompt": "Quel verbe est sain (sahîh) ?",
+      "options": [
+        "kataba",
+        "qâla",
+        "ramâ",
+        "Aucun d'eux"
+      ],
+      "explanation": "Kataba n'a pas de lettre faible. Qâla (q-w-l) et ramâ (r-m-y) sont faibles."
+    },
+    "sahih-2": {
+      "prompt": "Qu'est-ce qui rend une racine faible ?",
+      "options": [
+        "Un wâw, un yâ' ou un alif parmi ses lettres radicales",
+        "Une hamza au début",
+        "Le fait d'avoir quatre lettres",
+        "Le fait de se terminer par un tâ'"
+      ],
+      "explanation": "Les lettres faibles sont le wâw, le yâ' et l'alif ; une hamza ne rend pas un verbe faible."
+    },
+    "sahih-3": {
+      "prompt": "Comment les livres appellent-ils ce verbe (il a étendu) ?",
+      "options": [
+        "mudâ'af : sa deuxième et sa troisième lettre sont identiques",
+        "mahmûz : il a une hamza",
+        "sâlim : sans hamza ni lettre redoublée",
+        "mu'tall : il a une lettre faible"
+      ],
+      "explanation": "Madda vient de m-d-d : la deuxième et la troisième lettre radicale sont identiques."
+    }
+  }
+}

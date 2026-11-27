@@ -1,0 +1,34 @@
+{
+  "items": {
+    "irab-1": {
+      "prompt": "Wat is de i'rab?",
+      "options": [
+        "De verandering aan het eind van een woord, veroorzaakt door de regeerders die erop inwerken",
+        "De klinker in het midden van een woord",
+        "Het patroon van de stamletters",
+        "De betekenis van een woord in een woordenboek"
+      ],
+      "explanation": "De i'rab gaat over het eind van het woord, en de regeerder die het verandert."
+    },
+    "irab-2": {
+      "prompt": "Waarom eindigt Zayd in deze twee zinnen verschillend?",
+      "options": [
+        "Verschillende regeerders: de fa'il van ja'a, de maf'ul bihi van ra'aytu",
+        "Een van beide is een fout",
+        "Namen veranderen hun uitgang vrij",
+        "Omdat een van de zinnen in de verleden tijd staat"
+      ],
+      "explanation": "De regeerder verandert: als fa'il is Zayd marfu', als maf'ul bihi mansub."
+    },
+    "irab-3": {
+      "prompt": "Hoe heet een woord waarvan de uitgang zo verandert?",
+      "options": [
+        "mu'rab",
+        "mabni",
+        "mujarrad",
+        "mazid"
+      ],
+      "explanation": "Een woord dat i'rab aanneemt, is mu'rab; een woord waarvan de uitgang blijft, is mabni."
+    }
+  }
+}

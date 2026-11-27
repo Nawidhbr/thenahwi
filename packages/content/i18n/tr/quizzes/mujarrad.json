@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mujarrad-1": {
+      "prompt": "Hangi fiil mücerreddir?",
+      "options": [
+        "nasara",
+        "ekreme",
+        "te'alleme",
+        "Üçü de"
+      ],
+      "explanation": "Nasara'nın yalnız asli harfleri vardır; ekreme ve te'alleme'ye harf eklenmiştir."
+    },
+    "mujarrad-2": {
+      "prompt": "Kitaplarda sülasi mücerred fiilin kaç babı vardır?",
+      "options": [
+        "Altı",
+        "Üç",
+        "On",
+        "On dört"
+      ],
+      "explanation": "Nasara, daraba, feteha, semi'a, kerüme ve hasibe: altı bab."
+    },
+    "mujarrad-3": {
+      "prompt": "Bu fiil hangi babdandır?",
+      "options": [
+        "mazide i, muzaride a",
+        "mazide a, muzaride u",
+        "mazide a, muzaride i",
+        "mazide u, muzaride u"
+      ],
+      "explanation": "Semi'a'nın aynında mazide kesre, yesme'u'da muzaride fetha vardır."
+    }
+  }
+}

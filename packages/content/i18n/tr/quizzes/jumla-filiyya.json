@@ -1,0 +1,34 @@
+{
+  "items": {
+    "jumla-filiyya-1": {
+      "prompt": "Hangi cümle fi'liyyedir?",
+      "options": [
+        "kame zeydün",
+        "zeydün ka'imün",
+        "İkisi de",
+        "Hiçbiri"
+      ],
+      "explanation": "Kame zeydün bir fiille başlar."
+    },
+    "jumla-filiyya-2": {
+      "prompt": "En basit cümle-i fi'liyyenin kısımları nelerdir?",
+      "options": [
+        "Bir fiil ve faili",
+        "Bir mübteda ve bir haber",
+        "Bir harf ve bir isim",
+        "İki fiil"
+      ],
+      "explanation": "Fiil ve fail: kame zeydün."
+    },
+    "jumla-filiyya-3": {
+      "prompt": "Fiilden sonra fail olarak cem' bir isim geldiğinde kitaplar…",
+      "options": [
+        "fiili müfred kullanır: kame'r-ricalü",
+        "fiili cem' kullanır: kamu'r-ricalü",
+        "hiç fiil kullanmaz",
+        "tesniye bir fiil kullanır"
+      ],
+      "explanation": "Fail kendisinden sonra gelen bir isim olduğunda fiil müfred kalır."
+    }
+  }
+}

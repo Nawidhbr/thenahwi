@@ -1,0 +1,34 @@
+{
+  "items": {
+    "khabar-1": {
+      "prompt": "Wat is qa'imun hier?",
+      "options": [
+        "de khabar",
+        "de mubtada'",
+        "de fa'il",
+        "de maf'ul bihi"
+      ],
+      "explanation": "Qa'imun zegt wat Zayd is: het is de khabar."
+    },
+    "khabar-2": {
+      "prompt": "Wat is hier de khabar?",
+      "options": [
+        "de woordgroep fi l-dari",
+        "zaydun",
+        "al-dari op zichzelf",
+        "Er is er geen"
+      ],
+      "explanation": "De woordgroep fi l-dari maakt de betekenis volledig: ze staat als khabar."
+    },
+    "khabar-3": {
+      "prompt": "Welk woord maakt de zin af met overeenstemming?",
+      "options": [
+        "مُجْتَهِدَانِ",
+        "مُجْتَهِدٌ",
+        "مُجْتَهِدُونَ",
+        "مُجْتَهِدَةٌ"
+      ],
+      "explanation": "De mubtada' is een mannelijk tweevoud, dus de khabar ook: mujtahidani."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mudari-1": {
+      "prompt": "Fiil-i muzari hangi harflerle başlayabilir?",
+      "options": [
+        "Eneytü'de toplananlarla: elif, nun, ya ve te",
+        "Selemtü'de toplananlarla",
+        "Yalnız ya ile",
+        "Herhangi bir harfle"
+      ],
+      "explanation": "Acurrumiyye onları eneytü'de toplar: e-, ne-, ye-, te-."
+    },
+    "mudari-2": {
+      "prompt": "Burada fiilin i'rabı nedir?",
+      "options": [
+        "lem'den sonra meczum",
+        "lem'den sonra mansub",
+        "olağan şekliyle merfu",
+        "sükun üzere mebni"
+      ],
+      "explanation": "Lem fiil-i muzariyi meczum yapar; bunu sükun gösterir."
+    },
+    "mudari-3": {
+      "prompt": "Bu siga ne demektir?",
+      "options": [
+        "sen (bir kadın) yardım ediyorsun",
+        "o kadın yardım ediyor",
+        "siz (erkekler) yardım ediyorsunuz",
+        "onlar (kadınlar) yardım ediyor"
+      ],
+      "explanation": "-ine sonuyla birlikte te- müfred müennes muhatabdır."
+    }
+  }
+}

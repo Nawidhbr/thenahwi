@@ -1,0 +1,34 @@
+{
+  "items": {
+    "fil-1": {
+      "prompt": "Fiil neyi gösterir?",
+      "options": [
+        "Üç zamandan biriyle birlikte bir ma'nayı",
+        "Ancak başka bir kelimeyle birlikte bir ma'nayı",
+        "Bir kişinin ya da şeyin adını",
+        "Yalnız bir emri"
+      ],
+      "explanation": "Fiil bir işi bir zamana bağlar: geçmiş, şimdiki ya da gelecek."
+    },
+    "fil-2": {
+      "prompt": "Burada hangi kelime alametinden dolayı fiildir?",
+      "options": [
+        "nasara, çünkü önüne kad gelir",
+        "kad, çünkü kısadır",
+        "Hiçbiri: bu bir isimdir",
+        "İkisi de fiildir"
+      ],
+      "explanation": "Kad bir harftir; nasara'nın önüne gelmesi, nasara'nın fiil olduğunun alametidir."
+    },
+    "fil-3": {
+      "prompt": "Acurrumiyye'de bunlardan hangisi fiilin alametidir?",
+      "options": [
+        "nasarat'ta olduğu gibi sakin te'nis tası",
+        "Tenvin",
+        "Elif-lam",
+        "Bir cer harfinden sonraki kesre"
+      ],
+      "explanation": "Tenvin, elif-lam ve hafz isme aittir; sakin te ise fiile aittir."
+    }
+  }
+}

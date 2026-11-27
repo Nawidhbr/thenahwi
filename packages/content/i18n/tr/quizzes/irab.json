@@ -1,0 +1,34 @@
+{
+  "items": {
+    "irab-1": {
+      "prompt": "İ'rab nedir?",
+      "options": [
+        "Bir kelimenin sonunda, kendisine giren amillerin sebep olduğu değişme",
+        "Bir kelimenin ortasındaki hareke",
+        "Asli harflerin vezni",
+        "Bir kelimenin sözlükteki ma'nası"
+      ],
+      "explanation": "İ'rab kelimenin sonuyla ve onu değiştiren amille ilgilidir."
+    },
+    "irab-2": {
+      "prompt": "Bu iki cümlede Zeyd neden farklı biter?",
+      "options": [
+        "Farklı amiller: ca'e'nin faili, raeytü'nün mef'ulü",
+        "Biri hatadır",
+        "İsimler sonlarını serbestçe değiştirir",
+        "Çünkü cümlelerden biri geçmiş zamandadır"
+      ],
+      "explanation": "Amil değişir: fail olarak Zeyd merfu, mef'ul olarak mansubdur."
+    },
+    "irab-3": {
+      "prompt": "Sonu bu şekilde değişen kelimeye ne denir?",
+      "options": [
+        "mu'reb",
+        "mebni",
+        "mücerred",
+        "mezid"
+      ],
+      "explanation": "İ'rab alan kelime mu'rebdir; sonu aynı kalan kelime mebnidir."
+    }
+  }
+}

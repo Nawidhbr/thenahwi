@@ -1,0 +1,34 @@
+{
+  "items": {
+    "amr-1": {
+      "prompt": "Bu fiilin emri hangisidir?",
+      "options": [
+        "اُنْصُرْ",
+        "اِنْصُرْ",
+        "نَصَرَ",
+        "أَنْصُرُ"
+      ],
+      "explanation": "Te'yi atın, sonunu sakin yapın ve başa aynü'l-fiilin zammesiyle bir hemze getirin: unsur."
+    },
+    "amr-2": {
+      "prompt": "Bu emir neden kesreyle başlar?",
+      "options": [
+        "Çünkü tadribu'nun aynında kesre vardır",
+        "Çünkü müennestir",
+        "Çünkü her emir i ile başlar",
+        "Çünkü daraba mezittir"
+      ],
+      "explanation": "Muzarinin aynında zamme varsa hemze zamme alır, yoksa kesre alır."
+    },
+    "amr-3": {
+      "prompt": "Emir kime hitap eder?",
+      "options": [
+        "Muhataba, altı sigada",
+        "Herkese: on dört sigaya",
+        "Yalnız mütekellime",
+        "Yalnız gaibe"
+      ],
+      "explanation": "Emir muhatabın sigalarından yapılır: iki müzekker, iki müennes siga ve tesniye."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "masdar-1": {
+      "prompt": "Wat is de masdar van dit werkwoord?",
+      "options": [
+        "إِكْرَامٌ",
+        "تَكْرِيمٌ",
+        "مُكْرِمٌ",
+        "كَرَامَةٌ"
+      ],
+      "explanation": "Het patroon af'ala heeft zijn masdar op if'al: ikram. Takrim hoort bij karrama, en mukrim is het actief deelwoord."
+    },
+    "masdar-2": {
+      "prompt": "Wat noemt de masdar?",
+      "options": [
+        "De handeling zelf, zonder tijd",
+        "Degene die de handeling verricht",
+        "Degene die de handeling ondergaat",
+        "De plaats van de handeling"
+      ],
+      "explanation": "De masdar noemt de handeling: nasr, helpen."
+    },
+    "masdar-3": {
+      "prompt": "Hoe ken je de masdar van een kaal drieletterig werkwoord?",
+      "options": [
+        "Door horen (sama'): hij komt in veel patronen voor",
+        "Door één vaste regel",
+        "Hij staat altijd op fa'l",
+        "Het heeft er geen"
+      ],
+      "explanation": "Nasr, 'ilm, dukhul, kitaba: de masdar van het kale werkwoord leer je uit het gebruik."
+    }
+  }
+}

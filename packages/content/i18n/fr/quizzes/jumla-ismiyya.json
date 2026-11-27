@@ -1,0 +1,34 @@
+{
+  "items": {
+    "jumla-ismiyya-1": {
+      "prompt": "Quelle phrase est nominale ?",
+      "options": [
+        "zaydun qâ'imun",
+        "qâma zaydun",
+        "Les deux",
+        "Aucune"
+      ],
+      "explanation": "Zaydun qâ'imun commence par un nom ; qâma zaydun commence par un verbe."
+    },
+    "jumla-ismiyya-2": {
+      "prompt": "Quelles sont les deux parties de la phrase nominale de base ?",
+      "options": [
+        "le mubtada' et le khabar",
+        "le fi'l et le fâ'il",
+        "le fâ'il et le maf'ûl",
+        "le harf et l'ism"
+      ],
+      "explanation": "La phrase nominale se compose du mubtada' et de son khabar."
+    },
+    "jumla-ismiyya-3": {
+      "prompt": "Quel est ici l'état des deux parties ?",
+      "options": [
+        "Les deux marfû'",
+        "Les deux mansûb",
+        "La première marfû', la seconde mansûb",
+        "Les deux majrûr"
+      ],
+      "explanation": "Le mubtada' et le khabar sont tous deux marfû' : al-'ilmu, nûrun."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ilm-al-sarf-1": {
+      "prompt": "Qu'étudie le sarf ?",
+      "options": [
+        "Les formes d'un mot pris seul : sa racine, son schème et ses formes dérivées",
+        "Les finales des mots à l'intérieur d'une phrase",
+        "Le sens des versets du Coran",
+        "La prononciation des lettres dans la récitation"
+      ],
+      "explanation": "Le sarf regarde le mot seul : son schème et les formes tirées de sa racine. Les finales dans la phrase relèvent du nahw."
+    },
+    "ilm-al-sarf-2": {
+      "prompt": "Lesquels de ces mots le sarf traite-t-il comme des formes d'une même racine ?",
+      "options": [
+        "Les quatre : une racine, n-s-r, en différents schèmes",
+        "Seulement nasara ; les autres sont des mots différents",
+        "Aucun : le sarf n'étudie pas les verbes",
+        "Seulement nâsir et mansûr"
+      ],
+      "explanation": "Les quatre ont en commun les lettres radicales n-s-r. Le sarf explique le schème de chacun."
+    },
+    "ilm-al-sarf-3": {
+      "prompt": "Pourquoi lit-on d'ordinaire le sarf avant le nahw dans la madrasa ?",
+      "options": [
+        "Le nahw parle des finales de mots dont l'élève doit déjà reconnaître les formes",
+        "Le sarf est plus facile à apprendre par cœur",
+        "Le nahw est réservé aux étudiants avancés en fiqh",
+        "Il n'y a pas de raison ; l'ordre est arbitraire"
+      ],
+      "explanation": "Un élève qui ne reconnaît pas la forme d'un mot ne peut pas juger de sa finale ; les livres de sarf viennent donc en premier."
+    }
+  }
+}

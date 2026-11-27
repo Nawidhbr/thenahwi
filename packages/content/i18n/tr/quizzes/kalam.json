@@ -1,0 +1,34 @@
+{
+  "items": {
+    "kalam-1": {
+      "prompt": "Bunlardan hangisi kelamdır?",
+      "options": [
+        "zeydün ka'imün (Zeyd ayaktadır)",
+        "in kame zeydün (Zeyd kalkarsa)",
+        "fi'l-beyti (evde)",
+        "zeydün (Zeyd)"
+      ],
+      "explanation": "Yalnız zeydün ka'imün tam bir ma'na verir; diğerleri dinleyeni bekletir."
+    },
+    "kalam-2": {
+      "prompt": "Acurrumiyye kelamı nasıl tanımlar?",
+      "options": [
+        "Vaz' ile müfid olan mürekkeb lafız",
+        "Tek bir ma'na için tek bir kelime",
+        "İnsanın çıkardığı her ses",
+        "Bir zamanı adlandıran kelime"
+      ],
+      "explanation": "Tanım, kelimelerden mürekkeb olan, tam bir fayda veren ve Arapların vaz'ına uygun bir lafız ister."
+    },
+    "kalam-3": {
+      "prompt": "Kelam için en az ne gerekir?",
+      "options": [
+        "Bir ma'nayı tamamlayan iki kelime",
+        "Tek bir kelime",
+        "Bir fiil ve bir mef'ul",
+        "Üç kelime ve bir harf"
+      ],
+      "explanation": "Bir isimle bir isim (zeydün ka'imün) ya da bir fiille bir isim (kame zeydün) yeterlidir."
+    }
+  }
+}

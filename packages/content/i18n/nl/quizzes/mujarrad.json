@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mujarrad-1": {
+      "prompt": "Welk werkwoord is mujarrad (kaal)?",
+      "options": [
+        "nasara",
+        "akrama",
+        "ta'allama",
+        "Alle drie"
+      ],
+      "explanation": "Nasara heeft alleen zijn stamletters; akrama en ta'allama hebben toegevoegde letters."
+    },
+    "mujarrad-2": {
+      "prompt": "Hoeveel patronen (abwab) heeft het kale drieletterige werkwoord in de boeken?",
+      "options": [
+        "Zes",
+        "Drie",
+        "Tien",
+        "Veertien"
+      ],
+      "explanation": "Nasara, daraba, fataha, sami'a, karuma en hasiba: zes patronen."
+    },
+    "mujarrad-3": {
+      "prompt": "In welk patroon staat dit werkwoord?",
+      "options": [
+        "i in de madi, a in de mudari'",
+        "a in de madi, u in de mudari'",
+        "a in de madi, i in de mudari'",
+        "u in de madi, u in de mudari'"
+      ],
+      "explanation": "Sami'a heeft in de madi een kasra op de 'ayn, en yasma'u in de mudari' een fatha."
+    }
+  }
+}

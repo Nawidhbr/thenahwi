@@ -1,0 +1,34 @@
+{
+  "items": {
+    "fil-1": {
+      "prompt": "Wat geeft een werkwoord aan?",
+      "options": [
+        "Een betekenis samen met een van de drie tijden",
+        "Een betekenis alleen samen met een ander woord",
+        "De naam van een persoon of ding",
+        "Alleen een gebod"
+      ],
+      "explanation": "Het werkwoord verbindt een handeling met een tijd: verleden, heden of toekomst."
+    },
+    "fil-2": {
+      "prompt": "Welk woord is hier door zijn kenteken een werkwoord?",
+      "options": [
+        "nasara, omdat qad ervoor komt",
+        "qad, omdat het kort is",
+        "Geen van beide: dit is een naamwoord",
+        "Beide zijn werkwoorden"
+      ],
+      "explanation": "Qad is een partikel; doordat het voor nasara komt, is het een kenteken dat nasara een werkwoord is."
+    },
+    "fil-3": {
+      "prompt": "Welk van deze is in de Ajurrumiyya een kenteken van het werkwoord?",
+      "options": [
+        "De vrouwelijke ta' met sukun, zoals in nasarat",
+        "De tanwin",
+        "Het lidwoord al-",
+        "Een kasra na een voorzetsel"
+      ],
+      "explanation": "De tanwin, al- en de khafd horen bij het naamwoord; de ta' met sukun hoort bij het werkwoord."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "madi-1": {
+      "prompt": "Welke vorm is de madi?",
+      "options": [
+        "nasara",
+        "yansuru",
+        "unsur",
+        "Geen van alle"
+      ],
+      "explanation": "Nasara is de madi; yansuru de mudari' en unsur de gebiedende wijs."
+    },
+    "madi-2": {
+      "prompt": "Wat betekent deze vorm?",
+      "options": [
+        "zij (mannen) hielpen",
+        "wij hielpen",
+        "hij helpt",
+        "help! (mannen)"
+      ],
+      "explanation": "De waw van het meervoud met de stam van de madi: nasaru, zij hielpen."
+    },
+    "madi-3": {
+      "prompt": "Hoe deelt de nahw de madi in?",
+      "options": [
+        "Mabni: zijn uitgang verandert niet met de zin",
+        "Mu'rab: marfu', mansub of majzum",
+        "Majrur na voorzetsels",
+        "Als naamwoord"
+      ],
+      "explanation": "De madi is mabni; van de werkwoorden is alleen de mudari' mu'rab."
+    }
+  }
+}

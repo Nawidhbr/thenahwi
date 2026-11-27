@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mazid-1": {
+      "prompt": "Qu'a-t-on ajouté pour former le second verbe ?",
+      "options": [
+        "Une hamza au début",
+        "Un 'ayn redoublé",
+        "Un tâ' au début",
+        "Rien : ils ont le même schème"
+      ],
+      "explanation": "Akrama est sur af'ala : une hamza est ajoutée avant la racine."
+    },
+    "mazid-2": {
+      "prompt": "Sur quel schème est le masdar de la classe de fa''ala ?",
+      "options": [
+        "taf'îl",
+        "if'âl",
+        "istif'âl",
+        "mufâ'ala"
+      ],
+      "explanation": "'Allama a pour masdar ta'lîm, sur taf'îl ; d'où le nom de bâb al-taf'îl."
+    },
+    "mazid-3": {
+      "prompt": "Lequel de ces verbes est mazîd ?",
+      "options": [
+        "'allama",
+        "'alima",
+        "Les deux",
+        "Aucun"
+      ],
+      "explanation": "'Allama redouble le 'ayn de la racine ; 'alima est nu."
+    }
+  }
+}

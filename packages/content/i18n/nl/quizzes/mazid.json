@@ -1,0 +1,34 @@
+{
+  "items": {
+    "mazid-1": {
+      "prompt": "Wat is er toegevoegd om het tweede werkwoord te maken?",
+      "options": [
+        "Een hamza aan het begin",
+        "Een verdubbelde 'ayn",
+        "Een ta' aan het begin",
+        "Niets: ze hebben hetzelfde patroon"
+      ],
+      "explanation": "Akrama staat op af'ala: er is een hamza voor de wortel gezet."
+    },
+    "mazid-2": {
+      "prompt": "Op welk patroon staat de masdar van de bab van fa''ala?",
+      "options": [
+        "taf'il",
+        "if'al",
+        "istif'al",
+        "mufa'ala"
+      ],
+      "explanation": "'Allama heeft de masdar ta'lim, op taf'il; vandaar de naam bab al-taf'il."
+    },
+    "mazid-3": {
+      "prompt": "Welk van deze werkwoorden is mazid?",
+      "options": [
+        "'allama",
+        "'alima",
+        "Beide",
+        "Geen van beide"
+      ],
+      "explanation": "'Allama verdubbelt de 'ayn van de wortel; 'alima is kaal."
+    }
+  }
+}

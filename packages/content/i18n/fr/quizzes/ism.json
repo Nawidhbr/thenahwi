@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-1": {
+      "prompt": "Lequel de ces signes est un signe du nom ?",
+      "options": [
+        "Il peut prendre l'article al-",
+        "Il peut prendre qad devant lui",
+        "Il peut prendre le sîn du futur",
+        "Il se termine toujours par un sukûn"
+      ],
+      "explanation": "L'article al-, le tanwîn et le khafd signalent le nom ; qad et le sîn du futur signalent le verbe."
+    },
+    "ism-2": {
+      "prompt": "Qu'est-ce qui distingue un nom d'un verbe ?",
+      "options": [
+        "Un nom indique un sens sans le lier à un temps",
+        "Un nom a toujours trois lettres",
+        "Un nom ne peut jamais être l'agent",
+        "Un nom ne prend jamais le tanwîn"
+      ],
+      "explanation": "Le verbe porte un temps ; le nom, non."
+    },
+    "ism-3": {
+      "prompt": "Quel mot est un nom ?",
+      "options": [
+        "kitâbun (un livre)",
+        "kataba (il a écrit)",
+        "qad",
+        "Aucun d'eux"
+      ],
+      "explanation": "Kitâbun a le tanwîn, un signe du nom. Kataba est un verbe et qad une particule."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "items": {
+    "sahih-1": {
+      "prompt": "Hangi fiil sahihtir?",
+      "options": [
+        "ketebe",
+        "kale",
+        "rema",
+        "Hiçbiri"
+      ],
+      "explanation": "Ketebe'de illet harfi yoktur. Kale (k-v-l) ve rema (r-m-y) mu'teldir."
+    },
+    "sahih-2": {
+      "prompt": "Bir kökü mu'tel yapan nedir?",
+      "options": [
+        "Asli harfleri arasında bir vav, ya ya da elif bulunması",
+        "Başında bir hemze bulunması",
+        "Dört harfli olması",
+        "Te ile bitmesi"
+      ],
+      "explanation": "İllet harfleri vav, ya ve eliftir; hemze bir fiili mu'tel yapmaz."
+    },
+    "sahih-3": {
+      "prompt": "Kitaplar bu fiile (uzattı) ne der?",
+      "options": [
+        "muzaaf: ikinci ve üçüncü harfi aynıdır",
+        "mehmuz: hemzesi vardır",
+        "salim: hemzesi ve şeddeli harfi yoktur",
+        "mu'tel: illet harfi vardır"
+      ],
+      "explanation": "Medde, m-d-d kökündendir: ikinci ve üçüncü asli harf aynıdır."
+    }
+  }
+}

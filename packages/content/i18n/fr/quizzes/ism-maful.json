@@ -1,0 +1,34 @@
+{
+  "items": {
+    "ism-maful-1": {
+      "prompt": "Quel est le participe passif de ce verbe ?",
+      "options": [
+        "مَكْتُوبٌ",
+        "كَاتِبٌ",
+        "كِتَابَةٌ",
+        "يُكْتَبُ"
+      ],
+      "explanation": "Du verbe nu, le participe passif est sur le schème maf'ûl : maktûb."
+    },
+    "ism-maful-2": {
+      "prompt": "En quoi le premier mot diffère-t-il du second ?",
+      "options": [
+        "La fatha avant la dernière lettre rend le premier passif : honoré",
+        "C'est le même mot",
+        "Mukram est un verbe",
+        "Mukrim est le masdar"
+      ],
+      "explanation": "Une fatha avant la dernière lettre : participe passif ; une kasra : participe actif."
+    },
+    "ism-maful-3": {
+      "prompt": "Sur quel schème est le participe passif du verbe nu ?",
+      "options": [
+        "maf'ûl",
+        "fâ'il",
+        "muf'il",
+        "fa'îl"
+      ],
+      "explanation": "Mansûr, madrûb, maktûb : tous sur le schème maf'ûl."
+    }
+  }
+}

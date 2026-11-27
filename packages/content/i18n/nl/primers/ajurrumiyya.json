@@ -1,0 +1,389 @@
+{
+ "parts": {
+  "speech": "De kalam en het woord",
+  "irab": "De i'rab en haar tekens",
+  "verbs": "De werkwoorden",
+  "marfuat": "De naamwoorden in raf'",
+  "mansubat": "De naamwoorden in nasb",
+  "makhfudat": "De naamwoorden in khafd"
+ },
+ "lessons": {
+  "1": {
+   "title": "De kalam en zijn drie delen",
+   "body": [
+    "De Ajurrumiyya begint meteen met haar eerste definitie, en de student in de madrasa leert die voor al het andere uit het hoofd. Een definitie in de grammaticaboeken is zo gebouwd dat elk woord werk doet: het laat iets toe en houdt iets buiten. De kalam is “een uiting, samengesteld, met een volledige betekenis, volgens afspraak”: vier voorwaarden, en alleen wat aan alle vier voldoet, is kalam in de zin van de grammatici. In het gewone Arabisch is kalam gewoon “praten”; hier is het een vakterm: de volledige uitspraak.",
+    "Een uiting (lafz) is een klank die met de mond wordt gemaakt en letters bevat, dus een gebaar of een stuk geschreven tekst is geen kalam, hoe duidelijk ook. Samengesteld (murakkab) betekent: uit twee woorden of meer: één woord zoals zaydun, “Zayd”, is geen kalam. Met een volledige betekenis (mufid) betekent: een betekenis waarbij de luisteraar kan blijven, zonder op meer te wachten: qama Zaydun, “Zayd stond op”, is volledig, maar in qama Zaydun, “als Zayd opstond…”, is samengesteld en toch geen kalam, omdat de hoorder op de rest wacht. Volgens afspraak (bi-l-wad'): de commentatoren lezen dit op twee manieren, als “volgens de afspraak van de Arabieren”, zodat alleen Arabische woorden tellen, of als “met opzet”, zodat de woorden van iemand die slaapt of van een papegaai niet tellen.",
+    "De kleinste kalam bestaat dus uit twee woorden: twee naamwoorden, zoals in Zaydun qa'imun, “Zayd staat”, of een werkwoord en een naamwoord, zoals in qama Zaydun. Al het langere is op deze twee vormen gebouwd, die de latere hoofdstukken een naam geven: de naamwoordzin en de werkwoordzin.",
+    "Dan komen de delen waaruit de kalam bestaat, de drie soorten woord: het naamwoord (ism), het werkwoord (fi'l) en het partikel (harf) “dat voor een betekenis kwam”. Die laatste woorden doen ertoe. Het woord harf noemt ook een letter van het alfabet, zoals de zay van Zayd, die geen eigen betekenis heeft; het partikel dat hier bedoeld is, zoals fi, “in”, of in, “als”, heeft er wel een, al laat het die alleen samen met andere woorden zien. Niets in het Arabisch valt buiten deze drie soorten, en de volgende les geeft de kentekens waaraan je elk ervan herkent."
+   ],
+   "terms": [
+    "kalam: een samengestelde uiting die een volledige betekenis geeft",
+    "uiting: een klank met letters",
+    "samengesteld: uit twee woorden of meer",
+    "met een betekenis waarbij de luisteraar kan blijven",
+    "afspraak (het vastleggen van woorden door de Arabieren), of opzet",
+    "het partikel, dat voor een betekenis kwam"
+   ],
+   "examples": [
+    "qama Zaydun, “Zayd stond op”: een werkwoord en een naamwoord, volledig: kalam",
+    "Zaydun qa'imun, “Zayd staat”: twee naamwoorden, volledig: kalam",
+    "in qama Zaydun, “als Zayd opstond…”: samengesteld, maar de betekenis is niet volledig: geen kalam"
+   ],
+   "tasks": [
+    {
+     "prompt": "Is elk van deze kalam in de zin van de Ajurrumiyya? Zo niet, zeg welke voorwaarde ontbreekt: (a) zaydun alleen; (b) qama Zaydun; (c) in qama Zaydun; (d) een knik met het hoofd die “ja” betekent.",
+     "answer": "(a) Geen kalam: één woord, dus niet samengesteld (murakkab). (b) Kalam: een uiting, samengesteld uit een werkwoord en een naamwoord, met een volledige betekenis, in het Arabisch. (c) Geen kalam: het is samengesteld, maar niet mufid, want de luisteraar wacht op wat na “als” komt. (d) Geen kalam: een gebaar is geen uiting (lafz)."
+    },
+    {
+     "prompt": "Loop de vier woorden van de definitie een voor een na en zeg wat elk buitenhoudt.",
+     "answer": "Lafz (uiting) houdt gebaren en geschreven tekst buiten. Murakkab (samengesteld) houdt het losse woord buiten. Mufid (met een volledige betekenis) houdt samenstellingen buiten die de luisteraar laten wachten, zoals een voorwaarde zonder antwoord. Bi-l-wad' (volgens afspraak) houdt woorden buiten die niet door de Arabieren zijn vastgelegd, of, volgens de andere lezing, woorden die zonder opzet worden gezegd, zoals door iemand die slaapt."
+    },
+    {
+     "prompt": "Noem de drie soorten woord en geef van elk een voorbeeld uit deze les.",
+     "answer": "Het naamwoord (ism): zaydun. Het werkwoord (fi'l): qama, “hij stond op”. Het partikel (harf): in, “als”."
+    },
+    {
+     "prompt": "Waarom zegt Ibn Ajurrum “een partikel dat voor een betekenis kwam” en niet gewoon “een partikel”?",
+     "answer": "Omdat het woord harf ook een letter van het alfabet betekent, zoals de zay of de dal van Zayd, die geen eigen betekenis heeft. Het partikel dat een soort woord is, zoals fi of in, kwam voor een betekenis, die het samen met andere woorden laat zien."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoe definieert de Ajurrumiyya de kalam?",
+     "options": [
+      "Elk los woord dat een betekenis heeft",
+      "Een uiting, samengesteld, met een volledige betekenis, volgens afspraak",
+      "Alles wat in Arabische letters geschreven is",
+      "Een zin die met een werkwoord begint"
+     ],
+     "explanation": "Vier voorwaarden: lafz, murakkab, mufid, bi-l-wad'. Alleen wat aan alle vier voldoet, is kalam."
+    },
+    {
+     "prompt": "Is zaydun, op zichzelf gezegd, kalam?",
+     "options": [
+      "Ja: het is een naamwoord met een betekenis",
+      "Nee: het is geen uiting",
+      "Nee: het is niet samengesteld",
+      "Ja, als het met opzet wordt gezegd"
+     ],
+     "explanation": "De kalam heeft minstens twee woorden nodig. Eén woord is een kalima, geen kalam."
+    },
+    {
+     "prompt": "Welke voorwaarde van de kalam mist “in qama Zaydun”, “als Zayd opstond…”?",
+     "options": [
+      "Lafz: het is geen uiting",
+      "Murakkab: het is één woord",
+      "Wad': het is geen Arabisch",
+      "Mufid: de betekenis is niet volledig"
+     ],
+     "explanation": "Het is samengesteld, maar de luisteraar wacht op het antwoord op “als”: het geeft geen betekenis waarbij hij kan blijven."
+    },
+    {
+     "prompt": "Waarom is een knik met het hoofd geen kalam, ook al wordt hij begrepen?",
+     "options": [
+      "Het is geen uiting (lafz)",
+      "Het is niet samengesteld",
+      "Het heeft geen betekenis",
+      "Het is niet volgens afspraak"
+     ],
+     "explanation": "Lafz is een klank met letters. Gebaren en geschreven tekst vallen door deze eerste voorwaarde af."
+    },
+    {
+     "prompt": "Hoeveel soorten woord noemt het boek?",
+     "options": [
+      "Twee: naamwoord en werkwoord",
+      "Drie: naamwoord, werkwoord en partikel",
+      "Vier: naamwoord, werkwoord, partikel en zin",
+      "Vijf, met het voornaamwoord en het lidwoord"
+     ],
+     "explanation": "De kalam bestaat uit drie soorten woord, en niets valt daarbuiten."
+    },
+    {
+     "prompt": "Wat houdt “dat voor een betekenis kwam” buiten?",
+     "options": [
+      "Werkwoorden die geen fa'il hebben",
+      "Naamwoorden zonder tanwin",
+      "De letters van het alfabet, die ook harf heten",
+      "Woorden die uit het Perzisch zijn overgenomen"
+     ],
+     "explanation": "Een letter zoals de zay van Zayd heeft geen eigen betekenis; het partikel dat een soort woord is, heeft er wel een."
+    },
+    {
+     "prompt": "Welk van deze is de kleinste kalam?",
+     "options": [
+      "Eén naamwoord, zoals zaydun",
+      "Eén partikel, zoals fi",
+      "Een partikel met een werkwoord, zoals in qama",
+      "Een werkwoord met een naamwoord, zoals qama Zaydun"
+     ],
+     "explanation": "De kleinste kalam bestaat uit twee woorden: twee naamwoorden, of een werkwoord en een naamwoord."
+    }
+   ],
+   "diagram": {
+    "labels": {}
+   }
+  },
+  "2": {
+   "title": "Hoe je een naamwoord, een werkwoord en een partikel herkent",
+   "body": [
+    "Ibn Ajurrum definieert het naamwoord en het werkwoord niet; hij geeft hun kentekens ('alamat), dingen die je aan een woord kunt zien of horen en die je zeggen wat voor woord het is. Dat is de weg van de beginner: je deelt een woord in door het te testen. Eén kenteken is genoeg. Een naamwoord hoeft niet al zijn kentekens te tonen, en sommige komen nooit samen: het lidwoord al- en de tanwin sluiten elkaar uit, dus je zegt rajulun, “een man”, of al-rajulu, “de man”, maar nooit beide tegelijk.",
+    "Het naamwoord heeft vier kentekens. De khafd, de uitgang op -i die een regeerder veroorzaakt, zoals in bi-Zaydin, “met Zayd”. De tanwin, de -n die na de laatste klinker klinkt, zoals in zaydun of kitabun. Het lidwoord al-, zoals in al-rajulu. En de partikels van de khafd die ervoor komen: min (van, uit), ila (naar), 'an (weg van), 'ala (op), fi (in), rubba (menig), bi- (met), ka- (zoals), li- (voor), en de partikels van de eed, wa-, bi- en ta-, zoals in wa-llahi, “bij God”. De khafd en de partikels van de khafd zijn twee kentekens, niet één: een woord kan in khafd staan zonder partikel (ghulamu Zaydin, “de knecht van Zayd”), en een partikel kan een naamwoord aanwijzen waarvan de uitgang nooit verandert, zoals in min hadha, “hiervan”.",
+    "Ook het werkwoord heeft vier kentekens: qad, dat voor de madi en de mudari' komt (qad daraba, “hij heeft geslagen”); de sin en sawfa, die alleen voor de mudari' komen en hem een toekomstige betekenis geven (sawfa yaktubu, “hij zal schrijven”); en de vrouwelijke ta' met sukun, die alleen aan de madi komt: darabat, “zij sloeg”. Die ta' moet sukun hebben: de ta' met klinker van een naamwoord, zoals in qa'imatun, of de ta' van het voornaamwoord in darabtu, “ik sloeg”, is iets anders.",
+    "Het partikel heeft geen eigen kenteken: het is het woord waarbij geen kenteken van het naamwoord en geen kenteken van het werkwoord past. Leraren vergelijken het met de letter ha' (ح), die je tussen de jim (ج) en de kha' (خ) herkent doordat hij helemaal geen punt heeft. Hal (is het zo dat?), fi (in) en lam (niet) nemen geen tanwin en geen al- aan, geen qad en geen ta', en dus zijn het partikels.",
+    "Eén leemte is goed om te kennen: geen van deze kentekens past bij de gebiedende wijs, zoals idrib, “sla!”. De Ajurrumiyya rekent die tot de werkwoorden (les 9) zonder er een kenteken voor te geven; latere boeken zoals de Qatr al-nada van Ibn Hisham voegen er een toe: hij vraagt om een handeling en neemt de ya' van de aangesproken vrouw aan, zoals in idribi."
+   ],
+   "terms": [
+    "een kenteken waaraan je de soort van een woord herkent",
+    "de -n na de laatste klinker van een naamwoord",
+    "de toestand op -i van een naamwoord (latere boeken: jarr)",
+    "de partikels die een naamwoord in khafd zetten",
+    "de partikels van de eed: wa-, bi-, ta-",
+    "de vrouwelijke -t met sukun van de madi"
+   ],
+   "examples": [
+    "bi-Zaydin, “met Zayd”: een partikel van de khafd en de khafd zelf, twee kentekens van het naamwoord",
+    "al-rajulu, “de man”: het lidwoord, een kenteken van het naamwoord",
+    "qad daraba, “hij heeft geslagen”: qad, een kenteken van het werkwoord",
+    "sawfa yaktubu, “hij zal schrijven”: sawfa, een kenteken van de mudari'",
+    "darabat, “zij sloeg”: de ta' met sukun, een kenteken van de madi"
+   ],
+   "tasks": [
+    {
+     "prompt": "Deel deze woorden in naamwoorden, werkwoorden en partikels in, en geef het kenteken dat het laat zien: kitabun, fi, yaktubu, al-qalami, darabat, hal.",
+     "answer": "Kitabun: een naamwoord (tanwin). Fi: een partikel (het neemt geen kenteken van het naamwoord of het werkwoord aan). Yaktubu: een werkwoord (het neemt sawfa en qad aan: sawfa yaktubu). Al-qalami: een naamwoord (het lidwoord, en de khafd). Darabat: een werkwoord (de vrouwelijke ta' met sukun). Hal: een partikel (geen kenteken)."
+    },
+    {
+     "prompt": "Welk kenteken van het naamwoord laat elke woordgroep zien? (a) bi-Zaydin; (b) rajulun; (c) al-ghulamu; (d) wa-llahi.",
+     "answer": "(a) Het partikel van de khafd bi-, en de khafd (-in) met tanwin. (b) Tanwin. (c) Het lidwoord al-. (d) Het partikel van de eed wa-, en de khafd van de naam."
+    },
+    {
+     "prompt": "Welke kentekens van het werkwoord komen voor de madi, en welke voor de mudari'?",
+     "answer": "Qad komt voor beide (qad daraba, qad yadribu). De sin en sawfa komen alleen voor de mudari' (sawfa yaktubu). De vrouwelijke ta' met sukun komt alleen aan de madi (darabat)."
+    },
+    {
+     "prompt": "Een student schrijft al-rajulun voor “de man”. Wat is er fout?",
+     "answer": "Het lidwoord al- en de tanwin komen nooit samen op één naamwoord. Met het lidwoord is het al-rajulu; zonder lidwoord rajulun, “een man”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel kentekens van het naamwoord geeft de Ajurrumiyya?",
+     "options": [
+      "Drie: tanwin, het lidwoord en qad",
+      "Twee: khafd en tanwin",
+      "Vier: khafd, tanwin, het lidwoord, de partikels van de khafd",
+      "Geen: het naamwoord herken je aan zijn betekenis"
+     ],
+     "explanation": "De khafd, de tanwin, het intreden van al-, en het intreden van de partikels van de khafd (en van de eed)."
+    },
+    {
+     "prompt": "Welk van deze is een kenteken van het werkwoord?",
+     "options": [
+      "De tanwin",
+      "Het lidwoord al-",
+      "Rubba",
+      "Qad"
+     ],
+     "explanation": "Qad, de sin, sawfa en de vrouwelijke ta' met sukun zijn de kentekens van het werkwoord; de andere drie horen bij het naamwoord."
+    },
+    {
+     "prompt": "Hoe herken je het partikel?",
+     "options": [
+      "Er past geen kenteken van het naamwoord of van het werkwoord bij",
+      "Het eindigt altijd op sukun",
+      "Het neemt de vrouwelijke ta' aan",
+      "Het heeft minstens drie letters"
+     ],
+     "explanation": "Het partikel heeft geen eigen kenteken: het is het woord waarbij noch de kentekens van het naamwoord noch die van het werkwoord passen, zoals je de letter ha' herkent doordat hij geen punt heeft."
+    },
+    {
+     "prompt": "Je weet dat darabat, “zij sloeg”, een werkwoord is door…",
+     "options": [
+      "de tanwin",
+      "de vrouwelijke ta' met sukun",
+      "het partikel van de khafd ervoor",
+      "het lidwoord"
+     ],
+     "explanation": "De ta' met sukun aan het eind van een madi geeft een vrouwelijke fa'il aan; het is een kenteken van het werkwoord."
+    },
+    {
+     "prompt": "Waarom is al-rajulun fout?",
+     "options": [
+      "Een naamwoord kan het lidwoord niet aannemen",
+      "Rajul is een werkwoord",
+      "Het lidwoord en de tanwin komen nooit samen",
+      "De tanwin is een kenteken van het werkwoord"
+     ],
+     "explanation": "Een naamwoord toont één kenteken of meer, maar al- en de tanwin sluiten elkaar uit: al-rajulu of rajulun."
+    },
+    {
+     "prompt": "Welke kentekens komen alleen voor de mudari'?",
+     "options": [
+      "Qad",
+      "De ta' met sukun",
+      "De tanwin",
+      "De sin en sawfa"
+     ],
+     "explanation": "Sa- en sawfa geven de mudari' een toekomstige betekenis en komen alleen voor hem; qad komt voor de madi en de mudari', de ta' alleen aan de madi."
+    },
+    {
+     "prompt": "Voor welk soort woord geeft de Ajurrumiyya geen kenteken, hoewel het boek het als werkwoord telt?",
+     "options": [
+      "De gebiedende wijs",
+      "De madi",
+      "De mudari'",
+      "Het partikel van de eed"
+     ],
+     "explanation": "Geen van de vier kentekens past bij idrib, “sla!”. Latere boeken voegen er een toe: hij vraagt om een handeling en neemt de ya' van de aangesproken vrouw aan (idribi)."
+    }
+   ],
+   "diagram": {
+    "caption": "Eén kenteken is genoeg om de soort van een woord te kennen.",
+    "labels": {
+     "The three kinds of word": "De drie soorten woord",
+     "Noun": "Naamwoord",
+     "Khafḍ": "Khafd",
+     "Tanwīn": "Tanwin",
+     "The article al-": "Het lidwoord al-",
+     "Particles of khafḍ": "Partikels van de khafd",
+     "Verb": "Werkwoord",
+     "qad": "qad",
+     "sa- and sawfa": "sa- en sawfa",
+     "Quiescent feminine tāʾ": "Vrouwelijke ta' met sukun",
+     "Particle": "Partikel",
+     "No sign of either": "Geen kenteken van beide"
+    }
+   }
+  },
+  "3": {
+   "title": "De i'rab: de verandering van de uitgang",
+   "body": [
+    "De i'rab is “de verandering van de uitgangen van woorden door de verschillende regeerders die erop inwerken, in de uitspraak of door veronderstelling”. Neem één naamwoord in drie zinnen: ja'a Zaydun, “Zayd kwam”; ra'aytu Zaydan, “ik zag Zayd”; marartu bi-Zaydin, “ik kwam langs Zayd”. Het woord is hetzelfde; alleen de laatste klinker verandert: -un, -an, -in. Die verandering aan het eind is de i'rab. Een verandering binnen het woord, zoals van daraba naar yadribu, hoort bij de sarf, niet bij de i'rab.",
+    "De verandering heeft een oorzaak: de regeerder ('amil) die op het woord “inwerkt”. In de eerste zin regeert het werkwoord ja'a Zayd als zijn fa'il, in de tweede regeert het werkwoord ra'aytu hem als zijn maf'ul bihi, in de derde regeert het partikel bi- hem. In de madrasa blijft geen uitgang zonder regeerder: de student die een zin leest, vraagt bij elk woord wat zijn uitgang daar heeft gezet. Die vraag loopt door de hele nahw heen, en door de 'Awamil van al-Birgivi, die de regeerders een voor een opsomt.",
+    "In de uitspraak (lafzan) of door veronderstelling (taqdiran): sommige woorden kunnen de verandering niet laten zien. Al-fata, “de jongeman”, eindigt op een alif die geen klinker draagt, dus in ja'a al-fata, ra'aytu al-fata en marartu bi-l-fata klinkt het hetzelfde; de grammatici zeggen dat zijn raf', nasb en khafd er door veronderstelling zijn (muqaddar). De regel is dezelfde als bij Zayd; alleen de klank ontbreekt.",
+    "De i'rab heeft vier soorten (toestanden): raf', nasb, khafd en jazm. Raf' en nasb delen naamwoorden en werkwoorden; de khafd hoort alleen bij naamwoorden, de jazm alleen bij werkwoorden. Dus yadribu, “hij slaat”, staat in raf'; lan yadriba, “hij zal niet slaan”, in nasb; lam yadrib, “hij sloeg niet”, in jazm; maar een werkwoord staat nooit in khafd, en een naamwoord nooit in jazm. Khafd is het woord van de Ajurrumiyya; de meeste latere boeken noemen het jarr.",
+    "Twee valkuilen. De i'rab is de verandering, niet de klinker: de damma is het teken van de raf', en de volgende lessen laten zien dat de raf' ook andere tekens kan hebben. En niet elk woord neemt i'rab aan: de madi, de partikels en sommige naamwoorden (hadha, “dit”) houden één uitgang, wat hen ook regeert; die vaste uitgang heet bina'. In de madrasa betekent “de i'rab doen” van een zin ook: hem hardop ontleden, woord voor woord, met de toestand en de regeerder van elk woord."
+   ],
+   "terms": [
+    "de verandering van de uitgang van een woord, veroorzaakt door zijn regeerder",
+    "de regeerder: wat de uitgang veroorzaakt",
+    "verondersteld: een uitgang die er is maar niet te horen is",
+    "de toestand op -u, bij naamwoorden en werkwoorden",
+    "de toestand op -i, alleen bij naamwoorden (jarr)",
+    "de toestand van het werkwoord met sukun, alleen bij werkwoorden"
+   ],
+   "examples": [
+    "ja'a Zaydun, ra'aytu Zaydan, marartu bi-Zaydin: één naamwoord, drie regeerders, drie uitgangen",
+    "ja'a al-fata, “de jongeman kwam”: raf' door veronderstelling op de alif",
+    "yadribu, lan yadriba, lam yadrib: de mudari' in raf', nasb en jazm"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de toestand van Zayd in elke zin en de regeerder die die veroorzaakte.",
+     "answer": "Ja'a Zaydun: raf', geregeerd door het werkwoord ja'a, waarvan hij de fa'il is. Ra'aytu Zaydan: nasb, geregeerd door het werkwoord ra'aytu, waarvan hij de maf'ul bihi is. Marartu bi-Zaydin: khafd, geregeerd door het partikel bi-."
+    },
+    {
+     "prompt": "Is elke verandering i'rab of sarf? (a) yadribu → lam yadrib; (b) daraba → yadribu.",
+     "answer": "(a) I'rab: alleen de uitgang verandert, omdat de regeerder lam is ingetreden. (b) Sarf: de vorm van het woord verandert (madi naar mudari'), niet door een regeerder."
+    },
+    {
+     "prompt": "Waar is in ja'a al-fata de i'rab van al-fata, en waarom kun je die niet horen?",
+     "answer": "Al-fata staat in raf' als fa'il van ja'a, maar zijn uitgang is een alif, die geen klinker kan dragen. De damma wordt op de alif verondersteld (muqaddar): de i'rab is er door veronderstelling, niet in de uitspraak."
+    },
+    {
+     "prompt": "Welke toestanden delen naamwoorden en werkwoorden, en welke hoort bij elk alleen?",
+     "answer": "Raf' en nasb worden gedeeld. De khafd hoort alleen bij naamwoorden, de jazm alleen bij werkwoorden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat verandert er bij de i'rab?",
+     "options": [
+      "De eerste letter van het woord",
+      "De klinker van de middelste letter",
+      "Het aantal letters",
+      "De uitgang van het woord"
+     ],
+     "explanation": "De i'rab is de verandering van de uitgangen (awakhir) van woorden; veranderingen binnen het woord horen bij de sarf."
+    },
+    {
+     "prompt": "Wat veroorzaakt de verandering van de i'rab?",
+     "options": [
+      "De regeerders ('awamil) die op het woord inwerken",
+      "De keuze van de spreker",
+      "Alleen de betekenis van het woord",
+      "De lengte van de zin"
+     ],
+     "explanation": "Elke uitgang wordt veroorzaakt door een regeerder, zoals een werkwoord of een partikel, die op het woord inwerkt."
+    },
+    {
+     "prompt": "Welke toestand komt bij naamwoorden voor, maar nooit bij werkwoorden?",
+     "options": [
+      "Raf'",
+      "Khafd",
+      "Nasb",
+      "Jazm"
+     ],
+     "explanation": "Naamwoorden nemen raf', nasb en khafd aan; werkwoorden nemen raf', nasb en jazm aan."
+    },
+    {
+     "prompt": "Welke toestand komt bij werkwoorden voor, maar nooit bij naamwoorden?",
+     "options": [
+      "Khafd",
+      "Raf'",
+      "Jazm",
+      "Nasb"
+     ],
+     "explanation": "Er is geen jazm bij naamwoorden, zoals het boek zegt: la jazma fiha."
+    },
+    {
+     "prompt": "In ja'a al-fata is de uitgang van al-fata niet te horen. Wat zeggen de grammatici?",
+     "options": [
+      "Het heeft helemaal geen i'rab",
+      "Het staat in jazm",
+      "Het staat in nasb, omdat het op alif eindigt",
+      "Zijn raf' is er door veronderstelling (taqdiran)"
+     ],
+     "explanation": "De alif kan geen klinker dragen, dus wordt het teken van de raf' erop verondersteld: i'rab door veronderstelling."
+    },
+    {
+     "prompt": "Hoeveel toestanden (soorten) i'rab zijn er?",
+     "options": [
+      "Vier",
+      "Drie",
+      "Twee",
+      "Vijf"
+     ],
+     "explanation": "Raf', nasb, khafd en jazm."
+    },
+    {
+     "prompt": "Daraba wordt yadribu. Is dit i'rab?",
+     "options": [
+      "Ja: de uitgang veranderde van -a in -u",
+      "Nee: de vorm verandert, niet de uitgang door een regeerder",
+      "Ja: het is jazm",
+      "Nee: het is khafd"
+     ],
+     "explanation": "Van madi naar mudari' is een verandering van vorm, de zaak van de sarf. I'rab is de uitgang die door een regeerder verandert, zoals in yadribu → lam yadrib."
+    }
+   ],
+   "diagram": {
+    "caption": "De vier toestanden van de i'rab",
+    "labels": {
+     "State": "Toestand",
+     "In nouns": "Bij naamwoorden",
+     "In verbs": "Bij werkwoorden",
+     "Examples": "Voorbeelden",
+     "رَفْعٌ rafʿ": "رَفْعٌ raf'",
+     "yes": "ja",
+     "نَصْبٌ naṣb": "نَصْبٌ nasb",
+     "خَفْضٌ khafḍ": "خَفْضٌ khafd",
+     "no": "nee",
+     "جَزْمٌ jazm": "جَزْمٌ jazm"
+    }
+   }
+  }
+ },
+ "title": "al-Muqaddima al-Ajurrumiyya",
+ "summary": "De korte inleiding in proza tot de nahw van Ibn Ajurrum uit Fez (gest. 723/1323): het eerste grammaticaboek van de Noord-Afrikaanse madrasa's, en van vele andere van West-Afrika tot de pesantren van Indonesië, eerst uit het hoofd geleerd en daarna met een commentaar gelezen. In zesentwintig korte hoofdstukken definieert het de kalam en de drie soorten woord, zet het de i'rab en haar tekens uiteen, het werkwoord en wat het in nasb en jazm zet, en daarna de naamwoorden in raf', in nasb en in khafd. De lessen volgen de gevocaliseerde druk van J. J. S. Perowne (Cambridge, 1852), een of twee hoofdstukken tegelijk: de passage en haar vertaling, een uitleg met uitgewerkte voorbeelden, opdrachten met modelantwoorden, en een korte toets."
+}
