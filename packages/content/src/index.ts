@@ -1,4 +1,4 @@
-import type { Curriculum, Reviews, ReviewState, Primer, PrimerTranslation, LessonDiagram, FigureTree, LibraryBook, NewsItem, Background, BackgroundArticle, BackgroundConcept, BackgroundPerson, CatalogueEntry, Commentary, ExerciseSet, Glossary, LocaleBundle, Matn, Quiz, Term } from "./schema.ts";
+import type { TabaqatBook, TabaqatEntry, Curriculum, Reviews, ReviewState, Primer, PrimerTranslation, LessonDiagram, FigureTree, LibraryBook, NewsItem, Background, BackgroundArticle, BackgroundConcept, BackgroundPerson, CatalogueEntry, Commentary, ExerciseSet, Glossary, LocaleBundle, Matn, Quiz, Term } from "./schema.ts";
 import terms from "../generated/terms.json" with { type: "json" };
 import matn from "../generated/matn.json" with { type: "json" };
 import exercises from "../generated/exercises.json" with { type: "json" };
@@ -15,6 +15,7 @@ import libraryData from "../generated/library.json" with { type: "json" };
 import libraryI18n from "../generated/library-i18n.json" with { type: "json" };
 import curriculumData from "../generated/curriculum.json" with { type: "json" };
 import reviewData from "../generated/reviews.json" with { type: "json" };
+import tabaqatData from "../generated/tabaqat.json" with { type: "json" };
 
 export * from "./schema.ts";
 
@@ -249,4 +250,14 @@ export function getReview(key: string): ReviewState {
   const all = reviewData as unknown as Reviews;
   const r = all.reviewed.find((x) => x.key === key);
   return r ? { status: "reviewed", by: all.reviewers.find((p) => p.id === r.by)?.name ?? r.by, date: r.date } : { status: "draft" };
+}
+
+/** The ṭabaqāt works on the site whole, entry by entry (tabaqat/<id>.json): Ibn al-Anbārī's Nuzhat al-alibbāʾ. */
+export function getTabaqat(): TabaqatBook[] {
+  return tabaqatData as unknown as TabaqatBook[];
+}
+
+/** The entries of the ṭabaqāt works on a scholar (by his page's slug), each with its book. */
+export function tabaqatEntriesOf(slug: string): { book: TabaqatBook; entry: TabaqatEntry }[] {
+  return getTabaqat().flatMap((book) => book.entries.filter((e) => e.person === slug).map((entry) => ({ book, entry })));
 }

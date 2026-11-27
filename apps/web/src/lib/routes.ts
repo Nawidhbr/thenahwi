@@ -33,6 +33,8 @@ export function offlinePages(locale = "en"): string[] {
     `/${locale}/books/`,
     `/${locale}/scholars/`,
     `/${locale}/scholars/generations/`,
+    // Ibn al-Anbārī's Nuzhat al-alibbāʾ: the book's page; its entries are saved once read, like the scholars.
+    `/${locale}/tabaqat/`,
     `/${locale}/news/`,
     ...KB_BOOKS.map((b) => kbPath.book(locale, b.id)),
     ...KB_BOOKS.filter((b) => getCatalogue(b.id).length > 0).map((b) => kbPath.catalogue(locale, b.id)),

@@ -304,3 +304,12 @@ follows the English source list, `packages/content/i18n/GLOSSARY.md`.
   stay «мунсариф / гайр мунсариф» where the book names them, otherwise «двухпадежное имя».
 - The paradigm glosses (`/home/claude/ru-tools/para.py`): «он делает / сделает / непременно сделает», passive «с ним
   делают / сделают», imperative «сделай!», «пусть он сделает», prohibition «не делай!», «пусть он не делает».
+- tanāzuʿ is «состязание (таназу)»; mughālaba (the verb of outdoing, Lāmiyya) «соперничество», so the two stay apart.
+  ishtighāl «занятость (иштигаль)»; the ṣifa mushabbaha «уподобленное прилагательное» in every book (also where the
+  English says "the adjective like the participle"); the waṣf «описательное слово»; jāmid «непроизводное».
+- The mustathnā «исключаемое», al-mustathnā minhu «то, из чего исключают»; muttaṣil / munqaṭiʿ «связанное /
+  отделённое исключение»; mufarragh «опустошённое исключение».
+- iḍāfa maʿnawiyya / lafẓiyya «смысловая / словесная идафа»; tawkīd lafẓī / maʿnawī «словесное / смысловое усиление»;
+  the badal of iḍrāb, ghalaṭ, nisyān «отступления, ошибки, забывчивости»; ʿadl (of the diptote) «отклонение».
+- hamzat al-qaṭʿ «разделительная хамза» (beside «соединительная хамза»); the jussive muḍāriʿ «мудари в джазме».
+- A vowel "of the kind of" a letter (min jinsihi) is «однородная с ним огласовка», never «того рода».

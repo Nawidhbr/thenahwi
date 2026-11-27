@@ -1,0 +1,49 @@
+{
+  "slug": "ibn-sallam-al-jumahi",
+  "name": "Abū ʿAbd Allāh Muḥammad ibn Sallām al-Jumaḥī al-Baṣrī",
+  "known": "Ibn Sallām al-Jumaḥī",
+  "arabic": "ابْنُ سَلَّامٍ الْجُمَحِيُّ",
+  "died": "232/847",
+  "places": [
+    "Basra",
+    "Baghdad"
+  ],
+  "roles": [
+    "author"
+  ],
+  "summary": "Basran man of letters, pupil of Ḥammād ibn Salama, author of Ṭabaqāt fuḥūl al-shuʿarāʾ, the first book to sort the poets into classes; Aḥmad ibn Ḥanbal and Thaʿlab transmitted from him.",
+  "bio": [
+    "Ibn al-Anbārī counts Muḥammad ibn Sallām among the men of letters and names his book on the classes of the poets (Ṭabaqāt al-shuʿarāʾ). He learned from Ḥammād ibn Salama, and the imam Aḥmad ibn Ḥanbal and Thaʿlab transmitted from him.",
+    "Al-Zubaydī counts him in the fifth generation of the lexicographers of Basra. He died in Baghdad in 232/847."
+  ],
+  "works": [
+    {
+      "title": "Ṭabaqāt fuḥūl al-shuʿarāʾ",
+      "arabic": "طَبَقَاتُ فُحُولِ الشُّعَرَاءِ",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [],
+  "books": [],
+  "school": "basra",
+  "tabaqa": {
+    "list": "basra-lugha",
+    "n": 5,
+    "entry": 96
+  },
+  "sources": [
+    {
+      "title": "Ibn al-Anbārī, Nuzhat al-alibbāʾ fī ṭabaqāt al-udabāʾ (Cairo 1294/1877), pp. 216–218",
+      "url": "https://sites.dlib.nyu.edu/viewer/node/4307"
+    },
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn (OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "İbn Sellâm el-Cumahî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-sellam-el-cumahi"
+    }
+  ]
+}

@@ -57,3 +57,4 @@
 ## Sections
 
 5 sections, 90 passages (15–58 words).
+- Lesson 8, task 1: the present of form II is tufarriḥu (ḍamma on the prefix), not tafarriḥu; corrected in the English after the Persian and Indonesian translators noticed it (27 Nov 2026).

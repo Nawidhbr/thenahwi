@@ -85,6 +85,8 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | The particle that came for a meaning | — | حَرْفٌ جَاءَ لِمَعْنًى | — |
 | Fully declinable / the diptote | — | المُنْصَرِفُ / الاسْمُ الَّذِي لَا يَنْصَرِفُ (المَمْنُوعُ مِنَ الصَّرْفِ) | — |
 | The nūn of protection (in ḍarabanī) | — | نُونُ الوِقَايَةِ | — |
+| Al- of what is known / of the kind / taking in all | — | أَلِ العَهْدِيَّةُ / الجِنْسِيَّةُ / الاسْتِغْرَاقُ (اسْتِغْرَاقُ الأَفْرَادِ، الصِّفَاتِ) | — |
+| Like a muḍāf (a noun that governs what follows) | — | الشَّبِيهُ بِالمُضَافِ | — |
 
 ### Root and pattern
 
@@ -154,6 +156,10 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Doubling (of the last two root letters) | تضعیف | التَّضْعِيفُ | — |
 | Two like letters / assimilation necessary, permitted, impossible | دو حرف همجنس / ادغام واجب، جایز، ممتنع | المُتَجَانِسَانِ / إِدْغَامٌ وَاجِبٌ، جَائِزٌ، مُمْتَنِعٌ | — |
 | Accidental / original sukūn | سکون عارضی / اصلی | سُكُونٌ عَارِضٌ / أَصْلِيٌّ | — |
+| Change by moving a vowel / by changing a letter | — | الإِعْلَالُ بِالنَّقْلِ / بِالقَلْبِ (بِالنَّقْلِ وَالقَلْبِ) | — |
+| Undoing the merging | — | فَكُّ الإِدْغَامِ | — |
+| The hāʾ of pause (qih, rah) | — | هَاءُ السَّكْتِ | — |
+| A kasra with a touch of ḍamma (qīla) | — | الإِشْمَامُ | — |
 
 ### Derived nouns
 
@@ -208,6 +214,9 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | Being put first (the abstract governor of the mubtadaʾ) | — | الابْتِدَاءُ | — |
 | A pillar / an addition of the sentence | — | العُمْدَةُ / الفَضْلَةُ | — |
 | The completeness of speech | — | تَمَامُ الكَلَامِ | — |
+| The pronoun of the matter / the separating pronoun | — | ضَمِيرُ الشَّأْنِ / ضَمِيرُ الفَصْلِ | — |
+| The lām of beginning | — | لَامُ الابْتِدَاءِ | — |
+| The returner (in the ṣila) | — | العَائِدُ | — |
 
 ### The governors (ʿawāmil)
 
@@ -227,6 +236,10 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
 | An understood an (the Baṣran view) | — | أَنْ مُضْمَرَةٌ | — |
 | The verbs of thinking / knowing / making into | — | أَفْعَالُ الظَّنِّ / اليَقِينِ / التَّصْيِيرِ | — |
 | Leaving lā without effect / its repetition | — | الإِلْغَاءُ / التَّكْرَارُ | — |
+| The stopping mā (innamā) | — | مَا الكَافَّةُ | — |
+| Anna / in lightened | — | أَنِ المُخَفَّفَةُ / إِنِ المُخَفَّفَةُ | — |
+| Cancelling / suspension (verbs of the heart) | — | الإِلْغَاءُ / التَّعْلِيقُ | — |
+| The mā of the Ḥijāz (like laysa) | — | مَا الحِجَازِيَّةُ | — |
 
 ### The objects and other manṣūb nouns
 

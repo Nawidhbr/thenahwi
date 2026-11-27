@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { CHAPTER_PART, getBackground, getTerms, getLibrary } from "@nahwi/content";
+import { CHAPTER_PART, getBackground, getTerms, getLibrary, getTabaqat } from "@nahwi/content";
 import { articleHref, KB_BOOKS, kbBook, kbPath, shortName } from "../../lib/kb";
 import { fmt, localePaths, t } from "../../i18n";
 import { chapterTitle, localMatn, localTerms } from "../../lib/localize";
@@ -49,9 +49,14 @@ export const GET: APIRoute = ({ params }) => {
   const G = K.glossary;
   const concepts = bg.concepts.map((c) => ({ k: "kb", u: kbPath.glossary(locale, c.slug), t: c.name, tr: c.transliteration, ar: c.arabic, w: `${G.title} · ${(G.categories as Record<string, string>)[c.category]}`, n: [c.name, c.transliteration, c.arabic, ...c.alsoKnownAs, c.slug.replace(/-/g, " ")], d: c.definition }));
   const people = bg.people.map((p) => ({ k: "kb", u: kbPath.scholar(locale, p.slug), t: shortName(p), ar: p.arabic, w: `${K.nav.scholars}${p.died ? ` · ${p.died.split(/ \(/)[0]}` : ""}`, n: [p.name, p.known ?? "", p.arabic ?? "", p.slug.replace(/-/g, " ")], d: p.summary }));
+  // The entries of Ibn al-Anbārī's Nuzhat al-alibbāʾ (/tabaqat/), with the opening of each in English.
+  const cut = (x: string) => (x.length > 300 ? `${x.slice(0, 300)}…` : x);
+  const tabaqat = getTabaqat().flatMap((b) => [
+    { k: "kb", u: kbPath.tabaqat(locale), t: b.title, ar: b.arabicTitle, w: `${K.nav.tabaqat} · ${b.author}`, n: [b.title, b.arabicTitle, b.author, "tabaqat", "nuzhat"], d: K.tabaqat.lead },
+    ...b.entries.map((e) => ({ k: "kb", u: kbPath.tabaqat(locale, e.id), t: e.name, ar: e.heading, w: `${b.title} · ${fmt(K.tabaqat.entryN, { n: e.n })}`, n: [e.name, e.heading, e.id.replace(/-/g, " ")], d: cut(e.paragraphs.map((x) => x.en).join(" ")) })),
+  ]);
   // The lessons of the courses (the primers and the books read lesson by lesson), with the opening of each.
   const topics = ui.track.topics as Record<string, string>;
-  const cut = (x: string) => (x.length > 300 ? `${x.slice(0, 300)}…` : x);
   const primerHits = primers().flatMap((p) =>
     primerLessons(p).map((l) => ({ k: "kb", u: primerLessonPath(locale, p.id, l.n), t: l.title, ar: l.arabic, w: `${pathLevel(ui, p.id)} · ${p.title} · ${l.n}`, n: [l.title, l.arabic, l.transliteration, p.title], d: cut(l.body.join(" ")) })),
   );
@@ -60,5 +65,5 @@ export const GET: APIRoute = ({ params }) => {
     const tr = x.book.translations[locale] ?? x.book.translations.en ?? {};
     return x.lessons.map((l) => ({ k: "kb", u: `/${locale}/study/${x.book.id}/${l.n}/`, t: lessonTitle(l, locale, topics), w: `${pathLevel(ui, x.book.id)} · ${name} · ${l.index}`, n: [lessonTitle(l, locale, topics), name], d: cut(l.blocks.map((b) => tr[b] ?? "").join(" ")) }));
   });
-  return new Response(JSON.stringify([...terms, ...concepts, ...books, ...library, ...people, ...articles, ...primerHits, ...trackHits, ...text]), { headers: { "Content-Type": "application/json; charset=utf-8" } });
+  return new Response(JSON.stringify([...terms, ...concepts, ...books, ...library, ...people, ...tabaqat, ...articles, ...primerHits, ...trackHits, ...text]), { headers: { "Content-Type": "application/json; charset=utf-8" } });
 };

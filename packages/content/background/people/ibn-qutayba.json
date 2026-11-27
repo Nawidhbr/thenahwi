@@ -1,0 +1,63 @@
+{
+  "slug": "ibn-qutayba",
+  "name": "Abū Muḥammad ʿAbd Allāh ibn Muslim ibn Qutayba al-Dīnawarī",
+  "known": "Ibn Qutayba",
+  "arabic": "ابْنُ قُتَيْبَةَ",
+  "died": "276/889",
+  "places": [
+    "Kufa",
+    "Dinawar",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Philologist and man of letters of Baghdad, judge of Dīnawar, pupil of Abū Ḥātim al-Sijistānī, author of Adab al-kātib, ʿUyūn al-akhbār, al-Maʿārif and the books on the rare words of the Qurʾān and ḥadīth.",
+  "bio": [
+    "Ibn al-Anbārī calls him a Kufan by birth, named al-Dīnawarī because he was judge of Dīnawar. He took from Abū Ḥātim al-Sijistānī and others, and Ibn Durustawayh took from him. He excelled in language, grammar and poetry.",
+    "His books are among the best known of the third/ninth century: Gharīb al-Qurʾān, Gharīb al-ḥadīth, Mushkil al-Qurʾān, Mushkil al-ḥadīth, Adab al-kātib, al-Maʿārif and ʿUyūn al-akhbār. Al-Zubaydī counts him with the lexicographers of Basra; he lived and taught in Baghdad, where he died in 276/889 (some say 270/884)."
+  ],
+  "works": [
+    {
+      "title": "Adab al-kātib",
+      "arabic": "أَدَبُ الْكَاتِبِ",
+      "kind": "other"
+    },
+    {
+      "title": "ʿUyūn al-akhbār",
+      "arabic": "عُيُونُ الْأَخْبَارِ",
+      "kind": "other"
+    },
+    {
+      "title": "al-Maʿārif",
+      "arabic": "الْمَعَارِفُ",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "The year of his death: 276/889 in most sources, 270/884 in others (Ibn al-Anbārī gives both)."
+  ],
+  "books": [],
+  "school": "baghdad",
+  "tabaqa": {
+    "list": "basra-lugha",
+    "n": 6,
+    "entry": 103
+  },
+  "sources": [
+    {
+      "title": "Ibn al-Anbārī, Nuzhat al-alibbāʾ fī ṭabaqāt al-udabāʾ (Cairo 1294/1877), pp. 272–274",
+      "url": "https://sites.dlib.nyu.edu/viewer/node/4307"
+    },
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn (OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "İbn Kuteybe, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/ibn-kuteybe"
+    }
+  ]
+}

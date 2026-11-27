@@ -305,3 +305,11 @@ keep that file in step with this list. The layout follows the English source lis
   al-'Awamil al-Jadidah (the Birgivi 'Awamil, title), al-'Awamil al-Mi'ah, Mizan ash-Sharf; the author Mehmed Birgivi.
 - Look-alikes met in the Mizan: [tatsniyah], [jamak] and [pr.] beside a twin form (la taf'ula [tatsniyah], fa'ilatun
   [jamak]); [dengan alif] / [dengan ya'] for mif'al [dengan alif] (مِفْعَالٌ) and mafa'ilu [dengan ya'] (مَفَاعِيلُ).
+- The particle هَلْ, which looks like the reserved “hal” without marks, is always written “hal (هَلْ)” (Nahw-i Mir);
+  likewise anna (أَنَّى) beside anna (أَنَّ). In the Nahw-i Mir: lam juhud (lām al-jaḥd), wawu sharf, fa' sababiyyah,
+  kam istifhamiyyah / khabariyyah, isim tam, ibtida', the nine causes as 'adl, washf, ta'nits, 'alamiyyah, 'ujmah, jamak
+  (muntahal jumu'), tarkib, wazan fi'il, alif dan nun tambahan; badal kull, ba'dh, isytimal, ghalath.
+- Patterns in the Lamiyatul Af'al, where three look alike without marks: fa'il [dengan alif] (فَاعِل), fa'il [dengan
+  ya'] (فَعِيل) and fa'il [pendek] (فَعِل); fu'ul [dengan wawu] (فُعُول) beside fu'ul (فُعُل); maf'ul [tanpa wawu]
+  (مَفْعُل) beside maf'ul; fa'al [dengan alif] (فَعَال) beside fa'al (فَعَل), likewise fi'al, fu'al; fa'ala [dengan alif
+  maqshurah] (فَعَلَى). Metre: fa'ilun [dengan alif] (فَاعِلُن) beside fa'ilun (فَعِلُن). The poem itself: Lamiyah.

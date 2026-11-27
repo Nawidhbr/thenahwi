@@ -917,7 +917,8 @@
       "contact": "Kontak",
       "privacy": "Privasi",
       "updates": "Pembaruan",
-      "nahw": "Tentang nahwu dan sharaf"
+      "nahw": "Tentang nahwu dan sharaf",
+      "tabaqat": "Thabaqat"
     },
     "draft": "Draf · menunggu tinjauan guru yang berwenang",
     "home": {
@@ -950,7 +951,8 @@
       "mastersLead": "Dari Sibawaih sampai al-Azhar: para ahli nahwu yang kitabnya dibaca.",
       "library": "Seluruh perpustakaan",
       "newsLead": "Dikumpulkan setiap pekan oleh The Mantiqi.",
-      "generationsLink": "Thabaqat para ahli nahwu"
+      "generationsLink": "Thabaqat para ahli nahwu",
+      "tabaqatLink": "Nuzhatul Alibba', entri demi entri"
     },
     "curricula": {
       "title": "Kurikulum",
@@ -1028,7 +1030,10 @@
         "modern": "Kajian modern"
       },
       "generationsLink": "Thabaqat para ahli nahwu",
-      "generationsLead": "Para ulama yang sama menurut mazhab dan generasi, sebagaimana disusun kitab-kitab thabaqat lama, dan menurut abad."
+      "generationsLead": "Para ulama yang sama menurut mazhab dan generasi, sebagaimana disusun kitab-kitab thabaqat lama, dan menurut abad.",
+      "tabaqatLink": "Nuzhatul Alibba', seluruh kitab",
+      "tabaqatLead": "Sejarah para ahli nahwu karya Ibnul Anbari, entri demi entri, dalam bahasa Arab dan Inggris, masing-masing terhubung dengan halaman ulamanya.",
+      "inNuzhat": "Nuzhatul Alibba', entri {n}"
     },
     "scholar": {
       "life": "Riwayat hidup",
@@ -1040,7 +1045,9 @@
       "books": "Dalam kitab-kitab",
       "sources": "Sumber",
       "school": "Mazhab",
-      "tabaqa": "Dalam Thabaqat az-Zubaidi"
+      "tabaqa": "Dalam Thabaqat az-Zubaidi",
+      "inNuzhat": "Dalam Nuzhatul Alibba'",
+      "nuzhatEntry": "Entri {n}, {pages}"
     },
     "news": {
       "title": "Berita nahwu dan sharaf",
@@ -1231,7 +1238,60 @@
       "grammarians": "{n} ahli nahwu",
       "died": "w.",
       "undated": "Tahun wafat tidak diketahui",
-      "grammarianOne": "1 ahli nahwu"
+      "grammarianOne": "1 ahli nahwu",
+      "nuzhatShort": "Nuzhah {n}",
+      "nuzhatLabel": "Entrinya dalam Nuzhatul Alibba' (entri {n})"
+    },
+    "tabaqat": {
+      "title": "Nuzhatul Alibba': thabaqat para ahli nahwu",
+      "description": "Sejarah para ahli nahwu karya Ibnul Anbari, seluruh kitab: setiap entri dalam bahasa Arab berharakat dari cetakan Kairo tahun 1294/1877, dengan terjemahan Inggris kami.",
+      "kicker": "Thabaqat para ahli nahwu",
+      "lead": "Sejarah para ahli nahwu karya Ibnul Anbari, dari Abul Aswad ad-Du'ali sampai gurunya Ibnusy Syajari: seluruh kitab, entri demi entri, dalam bahasa Arab cetakan pertamanya dengan terjemahan Inggris kami.",
+      "count": "{n} entri",
+      "countOne": "1 entri",
+      "introKicker": "Kitab ini",
+      "introTitle": "Sejarah para ahli nahwu karya Ibnul Anbari",
+      "facts": {
+        "author": "Pengarang",
+        "printTitle": "Judul cetakan",
+        "printed": "Dicetak",
+        "pages": "Halaman",
+        "copy": "Naskah yang dipindai",
+        "scan": "Pindaian",
+        "scanLink": "Cetakannya, halaman demi halaman"
+      },
+      "preface": "Muqaddimah pengarang",
+      "closing": "Penutup pengarang: sanad guru-gurunya",
+      "entriesKicker": "Entri-entri",
+      "entriesTitle": "Para ahli nahwu menurut abad",
+      "entriesLead": "Setiap entri di bawah abad hijriah tempat tokohnya wafat, dengan nomornya dalam kitab, tahun wafat dan kotanya; kitab itu sendiri berjalan menurut urutan wafat mereka.",
+      "filter": "Cari nama, kota atau kitab",
+      "allCenturies": "Semua abad",
+      "centuryLabel": "Abad",
+      "shown": "{n} dari {m} entri",
+      "none": "Tidak ada entri yang cocok.",
+      "clear": "Hapus",
+      "undated": "Tahun wafat tidak disebutkan",
+      "inPreparation": "Entri-entri sedang disalin dari cetakannya dan diterjemahkan, dan tampil di sini setelah selesai.",
+      "entryN": "Entri {n}",
+      "entryOf": "Entri {n} dari {m}",
+      "entryTitle": "{name} dalam Nuzhatul Alibba'",
+      "entryDescription": "{name}{died} dalam Nuzhatul Alibba' karya Ibnul Anbari (entri {n}): bahasa Arab cetakan Kairo tahun 1294/1877, berharakat, dengan terjemahan Inggris kami.",
+      "diedIn": " (w. {died})",
+      "scholar": "Halamannya dalam ensiklopedia",
+      "scholarLead": "Riwayat hidup, karya, mazhab dan sumber",
+      "noScholar": "Ia belum punya halaman dalam ensiklopedia.",
+      "notes": "Catatan tentang bacaan",
+      "prev": "Entri sebelumnya",
+      "next": "Entri berikutnya",
+      "all": "Semua entri",
+      "scanPage": "Entri ini dalam pindaian",
+      "scanPageLead": "Halaman {page} cetakannya",
+      "readBook": "Baca seluruh kitab",
+      "readBookLead": "Setiap entri Nuzhah dalam bahasa Arab dan Inggris, terhubung dengan halaman-halaman para ulama.",
+      "facet": "Abad",
+      "years": "{from}–{to} H",
+      "pageInScan": "hlm. {page} dalam pindaian"
     }
   },
   "preview": {
@@ -1573,7 +1633,8 @@
     "shortQuoted": "Pelajaran kami sendiri dengan kutipan dari cetakan {edition} · terjemahan oleh The Nahwi, draf",
     "ownCourse": "Kursus The Nahwi sendiri tentang dasar-dasar sharaf dan nahwu, bersumber dari kitab-kitab dasar klasik; tidak ada teks asli yang ditampilkan.",
     "translationLanguages": "Milik The Nahwi sendiri, dari teks asli bahasa {language}: ke dalam {languages}. Pilih bahasanya di bawah bagian-bagian teks.",
-    "and": "dan"
+    "and": "dan",
+    "transcribedVocalised": "disalin oleh The Nahwi dari cetakan litografi dan diberi harakat oleh kami (cetakannya sedikit berharakat), tanpa catatan pembaca di pinggirnya"
   },
   "contact": {
     "title": "Kontak",

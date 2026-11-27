@@ -510,30 +510,30 @@
    }
   },
   "5": {
-   "title": "Fa'ala met een waw, werkwoorden van wedijver, en de keelletters",
+   "title": "Fa'ala met een waw, werkwoorden van overtreffing, en de keelletters",
    "body": [
     "Nu de damma. “De mudari' van fa'altu, als er de waw is als zijn 'ayn of als zijn lam, wordt gebracht met een damma op de 'ayn”: qala yaqulu, ghaza yaghzu. De reden is het spiegelbeeld van die van de kasra: een waw houdt zijn letter na een damma, zoals een ya' dat doet na een kasra.",
-    "“En deze regel is gegeven aan wat op een wedijver in roem wijst”: het werkwoord van het overtreffen, wanneer je zegt dat je met iemand wedijverde in een eigenschap en hem versloeg (de grammatici noemen het mughalaba). Zijn mudari' neemt een damma, wat zijn gewone bab ook is, mits het “niet heeft wat vraagt dat de 'ayn noodzakelijk een kasra heeft”: een waw als fa', of een ya' als 'ayn of lam, houdt zelfs hier de kasra.",
-    "Dan de fatha. “Een fatha op [de 'ayn van de mudari' van] een werkwoord dat een keelletter heeft anders dan zijn eerste, is overgeleverd van al-Kisa'i in deze soort”: bij de werkwoorden van wedijver stond hij de fatha van de keelletter toe. “Bij andere dan deze”, buiten de wedijver, neemt het werkwoord waarvan de 'ayn of lam een keelletter is een fatha “met algemene instemming”, zoals yas'alu van sa'ala, en yaftahu van fataha.",
+    "“En deze regel is gegeven aan wat op een overtreffing in roem wijst”: het werkwoord van het overtreffen, wanneer je zegt dat je met iemand wedijverde in een eigenschap en hem versloeg (de grammatici noemen het mughalaba). Zijn mudari' neemt een damma, wat zijn gewone bab ook is, mits het “niet heeft wat vraagt dat de 'ayn noodzakelijk een kasra heeft”: een waw als fa', of een ya' als 'ayn of lam, houdt zelfs hier de kasra.",
+    "Dan de fatha. “Een fatha op [de 'ayn van de mudari' van] een werkwoord dat een keelletter heeft anders dan zijn eerste, is overgeleverd van al-Kisa'i in deze soort”: bij de werkwoorden van overtreffing stond hij de fatha van de keelletter toe. “Bij andere dan deze”, buiten de overtreffing, neemt het werkwoord waarvan de 'ayn of lam een keelletter is een fatha “met algemene instemming”, zoals yas'alu van sa'ala, en yaftahu van fataha.",
     "“Anders dan zijn eerste”: een keelletter als fa' telt niet ('atala, les 6). En de fatha is alleen de regel “als het niet verdubbeld is en niet bekend is met een kasra of een damma”: bagha heeft een ghayn maar is yabghi, en dakhala heeft een kha' maar is yadkhulu, omdat het gebruik ze heeft vastgelegd.",
-    "Voor fa'ala geeft het gedicht dus een volgorde van oorzaken: eerst een zwakke letter of verdubbeling, dan de wedijver, dan een keelletter, en boven alle het gebruik. De volgende les geeft wat overblijft wanneer geen van deze van toepassing is."
+    "Voor fa'ala geeft het gedicht dus een volgorde van oorzaken: eerst een zwakke letter of verdubbeling, dan de overtreffing, dan een keelletter, en boven alle het gebruik. De volgende les geeft wat overblijft wanneer geen van deze van toepassing is."
    ],
    "terms": [
-    "wedijver: het werkwoord van iemand overtreffen in een eigenschap, met yaf'ulu",
+    "overtreffing: het werkwoord van iemand overtreffen in een eigenschap, met yaf'ulu",
     "de keelletters, die een fatha brengen",
     "de Kufische grammaticus en Koranlezer, wiens opvatting het gedicht overlevert",
     "bekend zijn: vast gebruik, dat boven de regels gaat"
    ],
    "examples": [
     "qala yaqulu, yaghzu: waw als 'ayn of lam (de Marah)",
-    "'an al-Kisa'i: de fatha bij de werkwoorden van wedijver",
+    "'an al-Kisa'i: de fatha bij de werkwoorden van overtreffing",
     "een keelletter met fatha; dakhala bekend met damma (vervoegingsengine)",
     "ka-yabghi: een keelletter, maar bekend met kasra"
    ],
    "tasks": [
     {
      "prompt": "Welke soorten fa'ala nemen volgens deze verzen een damma in de mudari'?",
-     "answer": "Die met een waw als 'ayn of lam (qala yaqulu, ghaza yaghzu), en de werkwoorden van wedijver (mughalaba), tenzij een oorzaak de kasra eist."
+     "answer": "Die met een waw als 'ayn of lam (qala yaqulu, ghaza yaghzu), en de werkwoorden van overtreffing (mughalaba), tenzij een oorzaak de kasra eist."
     },
     {
      "prompt": "Wanneer brengt een keelletter een fatha, en wanneer niet?",
@@ -541,7 +541,7 @@
     },
     {
      "prompt": "Wat levert het gedicht over van al-Kisa'i?",
-     "answer": "Dat bij de werkwoorden van wedijver een keelletter (anders dan de eerste) een fatha kan brengen, waar anderen de damma van de wedijver houden."
+     "answer": "Dat bij de werkwoorden van overtreffing een keelletter (anders dan de eerste) een fatha kan brengen, waar anderen de damma van de overtreffing houden."
     }
    ],
    "quiz": [
@@ -556,17 +556,17 @@
      "explanation": "Qala yaqulu."
     },
     {
-     "prompt": "Het werkwoord van wedijver (mughalaba) neemt…",
+     "prompt": "Het werkwoord van overtreffing (mughalaba) neemt…",
      "options": [
       "altijd yaf'alu",
       "altijd yaf'ilu",
       "yaf'ulu, tenzij een zwakke letter kasra eist",
       "geen mudari'"
      ],
-     "explanation": "“Deze regel is gegeven aan wat op een wedijver wijst.”"
+     "explanation": "“Deze regel is gegeven aan wat op een overtreffing wijst.”"
     },
     {
-     "prompt": "Wiens opvatting wordt overgeleverd over de keelletter bij werkwoorden van wedijver?",
+     "prompt": "Wiens opvatting wordt overgeleverd over de keelletter bij werkwoorden van overtreffing?",
      "options": [
       "Sibawayh",
       "al-Akhfash",
@@ -576,7 +576,7 @@
      "explanation": "'An al-Kisa'i … qad hasala."
     },
     {
-     "prompt": "Buiten de wedijver brengt een keelletter als 'ayn of lam…",
+     "prompt": "Buiten de overtreffing brengt een keelletter als 'ayn of lam…",
      "options": [
       "een fatha, met algemene instemming",
       "een damma",
@@ -610,7 +610,7 @@
      "options": [
       "het verdubbeld is",
       "het een waw heeft",
-      "het een wedijver is",
+      "het een overtreffing is",
       "het met kasra bekend is"
      ],
      "explanation": "Het gebruik gaat boven de keelletter."
@@ -625,7 +625,7 @@
      "wāw as ʿayn": "waw als 'ayn",
      "yafʿulu": "yaf'ulu",
      "wāw as lām": "waw als lam",
-     "a verb of contest": "een werkwoord van wedijver",
+     "a verb of contest": "een werkwoord van overtreffing",
      "throat letter as ʿayn or lām": "keelletter als 'ayn of lam",
      "yafʿalu": "yaf'alu",
      "the same, known with kasra": "hetzelfde, bekend met kasra",
@@ -637,8 +637,8 @@
   "6": {
    "title": "Kasra of damma; en het holle werkwoord met -tu en -na",
    "body": [
-    "Wat blijft er van fa'ala over? “De 'ayn van de mudari' van fa'altu, waar hij vrij is van alles wat de fatha brengt, zoals wat van 'atala gebouwd is, geef hem een kasra of een damma, wanneer de keuze voor een van beide is weggevallen bij gebrek aan bekendheid of aan een oorzaak.” Heeft het gebruik een klinker vastgelegd, volg die; legt een zwakke letter, verdubbeling of een wedijver hem vast, volg dat; zo niet, dan zijn beide juist. 'Atala, “slepen”, is het voorbeeld: zijn keelletter is zijn eerste, die niet telt, en dus geeft de vervoegingsengine zowel ya'tilu als ya'tulu.",
-    "Het volledige antwoord van het gedicht voor fa'ala is dus: kasra met een waw als fa', een ya' als 'ayn of lam, of verdubbeling zonder voorwerp; damma met verdubbeling met voorwerp, een waw als 'ayn of lam, of een wedijver; fatha met een keelletter als 'ayn of lam; en, als dit alles ontbreekt en het gebruik ontbreekt, vrij kasra of damma.",
+    "Wat blijft er van fa'ala over? “De 'ayn van de mudari' van fa'altu, waar hij vrij is van alles wat de fatha brengt, zoals wat van 'atala gebouwd is, geef hem een kasra of een damma, wanneer de keuze voor een van beide is weggevallen bij gebrek aan bekendheid of aan een oorzaak.” Heeft het gebruik een klinker vastgelegd, volg die; legt een zwakke letter, verdubbeling of een overtreffing hem vast, volg dat; zo niet, dan zijn beide juist. 'Atala, “slepen”, is het voorbeeld: zijn keelletter is zijn eerste, die niet telt, en dus geeft de vervoegingsengine zowel ya'tilu als ya'tulu.",
+    "Het volledige antwoord van het gedicht voor fa'ala is dus: kasra met een waw als fa', een ya' als 'ayn of lam, of verdubbeling zonder voorwerp; damma met verdubbeling met voorwerp, een waw als 'ayn of lam, of een overtreffing; fatha met een keelletter als 'ayn of lam; en, als dit alles ontbreekt en het gebruik ontbreekt, vrij kasra of damma.",
     "De volgende afdeling, één vers en een half, gaat over het holle werkwoord met de voornaamwoorden -tu en -na. “Verplaats naar de fa' van het drieletterige werkwoord de klinker van de 'ayn wanneer die zwak is, en het werkwoord verbonden is met de ta' van het voornaamwoord of zijn nun”: khawifna wordt khifna, de kasra van de waw gaat naar de kha'; tawulna wordt tulna, zijn damma gaat naar de zware ta'.",
     "“En wanneer het een fatha is, neem dan op haar plaats een klinker van de soort van die 'ayn”: qawalna en baya'na hebben een fatha op de zwakke letter, die niet verplaatst kan worden naar een fa' die er al een heeft; dus neemt de fa' de klinker die bij de zwakke letter hoort, een damma voor de waw, een kasra voor de ya': qulna, bi'na; qultu, bi'tu.",
     "De Marah geeft dezelfde regel met al zijn stappen (zijn les over qulna en khifna); de Lamiyya zet hem in twee halve regels. Vergelijk de twee: de reden is dezelfde, dat de klinker die op de eerste letter achterblijft naar de zwakke letter wijst die is verdwenen."
@@ -658,11 +658,11 @@
    "tasks": [
     {
      "prompt": "Wanneer mag de mudari' van fa'ala kasra of damma nemen?",
-     "answer": "Wanneer hij geen keelletter als 'ayn of lam heeft, geen zwakke letter of verdubbeling of wedijver die een klinker vastlegt, en het gebruik er geen heeft vastgelegd; zoals 'atala: ya'tilu of ya'tulu."
+     "answer": "Wanneer hij geen keelletter als 'ayn of lam heeft, geen zwakke letter of verdubbeling of overtreffing die een klinker vastlegt, en het gebruik er geen heeft vastgelegd; zoals 'atala: ya'tilu of ya'tulu."
     },
     {
      "prompt": "Vat de regels van het gedicht voor de klinker van de mudari' van fa'ala samen.",
-     "answer": "Kasra: waw als fa', ya' als 'ayn of lam, verdubbeld onovergankelijk. Damma: verdubbeld overgankelijk, waw als 'ayn of lam, een werkwoord van wedijver. Fatha: een keelletter als 'ayn of lam. Het gebruik gaat voor; als alles ontbreekt, kasra of damma."
+     "answer": "Kasra: waw als fa', ya' als 'ayn of lam, verdubbeld onovergankelijk. Damma: verdubbeld overgankelijk, waw als 'ayn of lam, een werkwoord van overtreffing. Fatha: een keelletter als 'ayn of lam. Het gebruik gaat voor; als alles ontbreekt, kasra of damma."
     },
     {
      "prompt": "Verklaar khifna en qulna met de regel van de verzen 27–28.",
@@ -674,7 +674,7 @@
      "prompt": "'Atala, “slepen”, is het voorbeeld van het gedicht voor…",
      "options": [
       "een fatha door een keelletter",
-      "een werkwoord van wedijver",
+      "een werkwoord van overtreffing",
       "een vrije keuze tussen kasra en damma",
       "een verdubbeld werkwoord"
      ],
@@ -706,7 +706,7 @@
       "het passief is",
       "de fatha van de 'ayn vervangen wordt door een klinker van de soort van de waw",
       "de damma van de waw verplaatst is",
-      "vanwege de wedijver"
+      "vanwege de overtreffing"
      ],
      "explanation": "“Neem een klinker van de soort van die 'ayn.”"
     },
@@ -2129,6 +2129,383 @@
      "yafʿilu, the rest": "yaf'ilu, de rest",
      "the listed words": "de genoemde woorden",
      "both ways": "beide manieren"
+    }
+   }
+  },
+  "18": {
+   "title": "Woorden met alleen kasra, en de andere werkwoorden",
+   "body": [
+    "“Houd alleen de kasra” in een andere reeks: marfiq, “elleboog”, ma'siya, “ongehoorzaamheid”, masjid, “moskee”, makbir, “ouderdom”, en ma'win, de schuilplaats “die de kamelen bevat”. Dan de maf'ila-woorden van de werkwoorden die het vers met hun bevel noemt: van ighfir, maghfira, “vergeving”; van i'rif, ma'rifa, “kennis”; van 'udhr, ihmi, raza en uznun hetzelfde; en manbit, “plaats van groei”.",
+    "“En voeg bij maf'il” de naamwoorden van ushruq, ughrub, usqut, raja'a en ijzur, “opkomen, ondergaan, vallen, terugkeren, slachten”: mashriq, maghrib, masqit, marji', majzir. Verschillende hiervan horen bij de elf naamwoorden met kasra die de Marah opsomt van werkwoorden met damma in de toekomende vorm. Dan maf'ila van iqdir, ushruq en uqbur, en van arib, en een ervan neemt alle drie de klinkers (het vers zegt “zijn vierde”; onze lezing van het eind van die regel is twijfelachtig). “Evenzo zijn aan mahlik de drie klinkers gegeven”: mahlak, mahlik en mahluk, “ondergang”.",
+    "“Zoals het gave is het werkwoord waarvan de 'ayn een ya' is”: een hol werkwoord met ya' volgt de regel van het gave werkwoord, maf'al voor de masdar en maf'il voor de plaats, zoals mabi', “plaats van verkoop”, in de Marah. “En bij een opvatting: stop”: sommigen denken er anders over; “ga niet verder dan wat overgeleverd is”.",
+    "Ten slotte de langere werkwoorden: “zoals het passief deelwoord van wat niet drieletterig is, vorm daaruit” het naamwoord van plaats, tijd of masdar. Van istakhraja is mustakhraj “naar buiten gebracht”, en ook “een plaats, een tijd, of een handeling van naar buiten brengen”.",
+    "De lijsten van deze verzen worden geleerd zoals ze staan, zoals de verdubbelde werkwoorden van les 4. De regel erachter is eenvoudig; de woorden met kasra zijn het gebruik dat ervan afwijkt."
+   ],
+   "terms": [
+    "alleen de kasra houden, tegen de regel in",
+    "het patroon van maghfira, ma'rifa",
+    "een letter alle drie de klinkers geven, zoals in mahlik",
+    "het holle werkwoord met ya', behandeld als het gave"
+   ],
+   "examples": [
+    "marfiq, ma'siya: alleen kasra",
+    "masjid, makbir: alleen kasra",
+    "mahlik: alle drie de klinkers toegestaan",
+    "mustakhraj: het naamwoord van plaats van een langer werkwoord, zoals zijn passief deelwoord (vervoegingsengine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem vier woorden die het gedicht alleen met kasra houdt.",
+     "answer": "Marfiq (elleboog), ma'siya (ongehoorzaamheid), masjid (moskee), makbir (ouderdom); ook ma'win, de schuilplaats van de kamelen."
+    },
+    {
+     "prompt": "Hoe worden de masdar en de plaats gemaakt van een hol werkwoord met ya'?",
+     "answer": "Zoals bij het gave werkwoord: maf'al voor de masdar, maf'il voor de plaats en de tijd; mabi' van de Marah, “plaats van verkoop”, is maf'il."
+    },
+    {
+     "prompt": "Maak het naamwoord van plaats van istakhraja, en geef de regel.",
+     "answer": "Mustakhraj, hetzelfde als zijn passief deelwoord: bij werkwoorden van meer dan drie letters neemt het naamwoord van plaats, tijd en masdar de vorm van het passief deelwoord."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Masjid is een woord met…",
+     "options": [
+      "alleen fatha",
+      "twee manieren",
+      "alleen kasra",
+      "drie klinkers"
+     ],
+     "explanation": "Tegen de regel voor sajada yasjudu in."
+    },
+    {
+     "prompt": "Maghfira staat op het patroon…",
+     "options": [
+      "maf'ala",
+      "muf'ala",
+      "mif'ala",
+      "maf'ila"
+     ],
+     "explanation": "Onder de maf'ila-woorden van het gedicht."
+    },
+    {
+     "prompt": "Mahlik, “ondergang”, is toegestaan met…",
+     "options": [
+      "alle drie de klinkers",
+      "alleen kasra",
+      "alleen fatha",
+      "alleen damma"
+     ],
+     "explanation": "“De drie klinkers zijn gegeven.”"
+    },
+    {
+     "prompt": "Een hol werkwoord met ya' maakt zijn naamwoord van plaats…",
+     "options": [
+      "altijd maf'al",
+      "zoals het gave werkwoord",
+      "altijd muf'al",
+      "met een waw"
+     ],
+     "explanation": "“Zoals het gave is het werkwoord waarvan de 'ayn een ya' is.”"
+    },
+    {
+     "prompt": "Bij een langer werkwoord is het naamwoord van plaats zoals…",
+     "options": [
+      "zijn actief deelwoord",
+      "zijn bevel",
+      "zijn passief deelwoord",
+      "zijn madi"
+     ],
+     "explanation": "Mustakhraj."
+    },
+    {
+     "prompt": "Mashriq, “oosten”, staat op…",
+     "options": [
+      "maf'al",
+      "maf'ula",
+      "muf'il",
+      "maf'il"
+     ],
+     "explanation": "Door het gedicht bij maf'il gevoegd, zoals in de lijst van de Marah."
+    },
+    {
+     "prompt": "“Ga niet verder dan wat overgeleverd is” betekent…",
+     "options": [
+      "volg de gehoorde woorden; verzin niets",
+      "gebruik elke klinker",
+      "volg de Kufiërs",
+      "gebruik altijd maf'al"
+     ],
+     "explanation": "Deze woorden zijn uit het gebruik bekend."
+    }
+   ],
+   "diagram": {
+    "caption": "Woorden met kasra, en de naamwoorden van plaats van andere werkwoorden (Lamiyya vv. 98–103; met de Marah)",
+    "labels": {
+     "Kind": "Soort",
+     "Pattern": "Patroon",
+     "Words": "Woorden",
+     "kasra alone": "alleen kasra",
+     "mafʿil": "maf'il",
+     "mafʿila": "maf'ila",
+     "joined to mafʿil": "bij maf'il gevoegd",
+     "three vowels": "drie klinkers",
+     "mahlak, mahlik, mahluk": "mahlak, mahlik, mahluk",
+     "ʿayn a yāʾ": "'ayn een ya'",
+     "as the sound verb": "zoals het gave werkwoord",
+     "longer verbs": "langere werkwoorden",
+     "as the passive participle": "zoals het passief deelwoord"
+    }
+   }
+  },
+  "19": {
+   "title": "Het land van overvloed, en het naamwoord van het werktuig",
+   "body": [
+    "Een korte afdeling over een bijzonder naamwoord: “van het naamwoord van wat overvloedig is, is de naam van het land maf'ala, zoals masba'a”, “een land met veel leeuwen”, van sabu', “leeuw”. Het patroon wordt gemaakt uit een naamwoord, niet uit een werkwoord: het noemt een plaats waar dat ding in overvloed te vinden is.",
+    "Bij een naamwoord met een toegevoegde letter “wordt het toegevoegde afgesneden”, zoals maf'at, “een land met veel adders”, van af'a, “adder”, waarvan de hamza toegevoegd is. “En muf'ila en af'alat zijn hierin door hen toegestaan”: een land kan ook muf'ila heten, en men kan ervan zeggen af'alat, “het raakte vol van …”. Badr al-Din illustreert dit met mudibba, “een land met veel hagedissen”, en muqthi'a, “een land met veel komkommers”.",
+    "“Wat niet drieletterig is, is van dit patroon uitgesloten”: een naamwoord van vier stamletters maakt geen maf'ala; “en soms is er een zeldzaam gekomen en aanvaard”.",
+    "De laatste afdeling, over het werktuig: “zoals mif'al, en zoals mif'al [met lange a] en mif'ala, vorm van het drieletterige werkwoord de naam van waarmee [de handeling] gedaan wordt”: miqrad, “schaar”, en miftah, “sleutel”, van de Marah. “Onregelmatig zijn al-muduqq”, de stamper, mus'ut, mukhula, mudhun, munsul, en het woord van nakhala, de zeef (onze lezing van dat laatste woord is twijfelachtig): werktuigen met een damma.",
+    "“En wie [ermee] een werktuig bedoelt, mag ze een kasra geven, en op wie hem berispt, wordt niet gelet.” De Marah vermeldt Sibawayh over dezelfde woorden: het zijn namen van vaten, geen werktuigen volgens de regel. Dus zijn de twee boeken het eens: met een damma uitgesproken zijn het vaste namen; als werktuig gemaakt, nemen ze de kasra van het werktuig."
+   ],
+   "terms": [
+    "het land van overvloed: masba'a",
+    "het naamwoord van het werktuig: mif'al, mif'al [met lange a], mif'ala",
+    "de toegevoegde letter, afgesneden in maf'at",
+    "de onregelmatige werktuigen met damma, zoals al-muduqq"
+   ],
+   "examples": [
+    "ka-mithli masba'atin: een land met veel leeuwen",
+    "ka-maf'atin: een land met veel adders, de toegevoegde letter afgesneden",
+    "miqrad, miftah: werktuigen op mif'al [met lange a] (de Marah)",
+    "al-muduqq, mus'ut, mukhula: onregelmatig, met damma"
+   ],
+   "tasks": [
+    {
+     "prompt": "Wat is masba'a, en waaruit wordt het gemaakt?",
+     "answer": "Een land met veel leeuwen: het patroon maf'ala gemaakt uit het naamwoord sabu', “leeuw”, voor een plaats waar het in overvloed is."
+    },
+    {
+     "prompt": "Waarom is het land met veel adders maf'at, en niet gemaakt uit alle letters van af'a?",
+     "answer": "Omdat af'a een toegevoegde letter heeft (zijn hamza), en het gedicht zegt dat de toegevoegde letter afgesneden wordt wanneer dit patroon uit zo'n naamwoord gemaakt wordt."
+    },
+    {
+     "prompt": "Wat zegt het gedicht over al-muduqq en zijn zusters, en hoe stemt de Marah ermee in?",
+     "answer": "Het zijn onregelmatige werktuigen met een damma; wie ze als werktuigen bedoelt, mag ze de kasra van het werktuig geven. De Marah vermeldt Sibawayh: dit zijn namen van vaten, geen werktuigen volgens de regel."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Maf'ala van overvloed wordt gemaakt uit…",
+     "options": [
+      "een werkwoord",
+      "een masdar",
+      "een deelwoord",
+      "een naamwoord van wat overvloedig is"
+     ],
+     "explanation": "Min ismi ma kathura."
+    },
+    {
+     "prompt": "Masba'a betekent…",
+     "options": [
+      "een land met veel leeuwen",
+      "een leeuwenhol",
+      "zeven",
+      "een jachtplaats"
+     ],
+     "explanation": "Van sabu'."
+    },
+    {
+     "prompt": "Bij een naamwoord met een toegevoegde letter wordt de toegevoegde letter…",
+     "options": [
+      "behouden",
+      "afgesneden",
+      "verdubbeld",
+      "een mim gemaakt"
+     ],
+     "explanation": "Zoals maf'at van af'a."
+    },
+    {
+     "prompt": "Wordt maf'ala gemaakt van naamwoorden van vier letters?",
+     "options": [
+      "Ja, altijd",
+      "Alleen van meervouden",
+      "Nee, behalve zeldzame aanvaarde gevallen",
+      "Alleen van werkwoorden"
+     ],
+     "explanation": "“Wat niet drieletterig is, is van dit patroon uitgesloten.”"
+    },
+    {
+     "prompt": "Het naamwoord van het werktuig van het drieletterige werkwoord staat op…",
+     "options": [
+      "maf'al",
+      "muf'il",
+      "fa'il",
+      "mif'al, mif'al [met lange a], mif'ala"
+     ],
+     "explanation": "Miqrad, miftah."
+    },
+    {
+     "prompt": "Al-muduqq, “de stamper”, is…",
+     "options": [
+      "een onregelmatig werktuig met damma",
+      "het regelmatige patroon",
+      "een naamwoord van plaats",
+      "een masdar"
+     ],
+     "explanation": "Shadhdha al-muduqqu …"
+    },
+    {
+     "prompt": "Mag men deze onregelmatige woorden met kasra zeggen?",
+     "options": [
+      "Nooit",
+      "Ja, als men ze als werktuigen bedoelt",
+      "Alleen in poëzie",
+      "Alleen in het meervoud"
+     ],
+     "explanation": "“Op wie hem berispt, wordt niet gelet.”"
+    }
+   ],
+   "diagram": {
+    "caption": "Het land van overvloed en het werktuig (Lamiyya vv. 104–109; miqrad en miftah uit de Marah)",
+    "labels": {
+     "Pattern": "Patroon",
+     "Meaning": "Betekenis",
+     "Examples": "Voorbeelden",
+     "mafʿala": "maf'ala",
+     "a land where a thing abounds": "een land waar een ding in overvloed is",
+     "mafʿala, added letter cut off": "maf'ala, toegevoegde letter afgesneden",
+     "the same": "hetzelfde",
+     "mufʿila; afʿalat": "muf'ila; af'alat",
+     "allowed too": "ook toegestaan",
+     "mifʿal, mifʿāl, mifʿala": "mif'al, mif'al [met lange a], mif'ala",
+     "the instrument": "het werktuig",
+     "mufʿul, mufʿula": "muf'ul, muf'ula",
+     "irregular instruments": "onregelmatige werktuigen"
+    }
+   }
+  },
+  "20": {
+   "title": "Het slot, en het gedicht als geheel",
+   "body": [
+    "“Ik heb volbracht wat ik beoogde, het eind bereikend; en God zij geprezen, want wat ik beoogde, is voltooid.” Het slot antwoordt op de opening: lof aan God, dan zegen en vrede “over de edele Boodschapper, het zegel van de boodschappers”, over “zijn stralende familie en zijn edele metgezellen”, en over wie hen volgde “op de weg van de edele daden”.",
+    "Dan twee gebeden. Het ene is om “een mooie bedekking die de misstappen omhult”, het verzoek van de geleerde dat God de fouten in zijn werk bedekt: een bescheidenheid die je aan het eind van veel zulke gedichten vindt. Het andere is om een inspanning waardoor hij “verheugd en blij zal zijn, niet fronsend en bevreesd”. Het laatste woord, jadhila, “blij”, eindigt het gedicht op zijn rijm op lam.",
+    "Kijk terug naar het plan. Het gedicht gaat van het werkwoord naar de naamwoorden die eruit gemaakt worden: de kale patronen en de klinker van hun mudari', de vermeerderde patronen, de mudari', het passief en de gebiedende wijs; dan de deelwoorden, de masdars, de naamwoorden van tijd en plaats, het land van overvloed en het werktuig. De Marah is geordend naar de soort wortel (gaaf, verdubbeld, met hamza, zwak); de Lamiyya naar de soort vorm. Samen gelezen beantwoorden ze de twee vragen van de sarf: wat zijn de patronen, en wat doet elke wortel erin.",
+    "In onze druk wordt de Lamiyya direct gevolgd door de Matn al-Sullam, het gedicht van al-Akhdari over de logica, dat op The Mantiqi onderwezen wordt: hetzelfde deel bracht de veelgebruikte mutun van verschillende wetenschappen samen.",
+    "Wat overblijft, is wat de opening beloofde: “de bijzonderheden kan begrijpen wie de samenvattingen in gedachten houdt”. Leer de verzen uit het hoofd; de bijzonderheden komen met elke tekst die je leest."
+   ],
+   "terms": [
+    "het slot van een gedicht of boek",
+    "de bedekking van de misstappen: het gebed voor de eigen fouten",
+    "het zegel van de boodschappers",
+    "de grondtekst, uit het hoofd geleerd en met een commentaar gelezen"
+   ],
+   "examples": [
+    "God zij geprezen, want wat ik beoogde, is voltooid",
+    "een mooie bedekking die de misstappen omhult",
+    "verheugd en blij, niet fronsend en bevreesd"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke twee dingen vraagt de dichter in het slot aan God?",
+     "answer": "Een mooie bedekking die zijn misstappen omhult (dat zijn fouten bedekt worden), en een inspanning waardoor hij verheugd en blij zal zijn, niet fronsend en bevreesd."
+    },
+    {
+     "prompt": "Geef de volgorde van de hoofdstukken van het gedicht.",
+     "answer": "Het kale werkwoord en de klinker van zijn mudari' (met het holle werkwoord voor -tu); het vermeerderde werkwoord; de mudari'; het passief; de gebiedende wijs; de deelwoorden; de masdars van het drieletterige werkwoord en van de langere werkwoorden; maf'al en maf'il; het land van overvloed; het werktuig; en het slot."
+    },
+    {
+     "prompt": "Hoe verschillen de Lamiyya en de Marah in hun volgorde?",
+     "answer": "De Marah is geordend naar de soort wortel (gaaf, verdubbeld, met hamza, mithal, ajwaf, naqis, lafif), elk door al zijn vormen heen; de Lamiyya is geordend naar de soort vorm (patronen, mudari', passief, gebiedende wijs, deelwoorden, masdars, naamwoorden van plaats, werktuig)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het slot begint met…",
+     "options": [
+      "“Ik heb volbracht wat ik beoogde”",
+      "“God zij geprezen, ik zoek geen vervanging”",
+      "“Het werkwoord: wie het beheerst”",
+      "“Neem een gedicht”"
+     ],
+     "explanation": "Wa-qad wafaytu bi-ma qad rumtu."
+    },
+    {
+     "prompt": "De dichter vraagt om een bedekking van…",
+     "options": [
+      "zijn boek",
+      "zijn misstappen",
+      "zijn familie",
+      "zijn studenten"
+     ],
+     "explanation": "Sitran jamilan 'ala al-zallati."
+    },
+    {
+     "prompt": "De Profeet heet in het slot…",
+     "options": [
+      "alleen de beste der schepselen",
+      "de heer van de Arabieren",
+      "het zegel van de boodschappers",
+      "de leraar"
+     ],
+     "explanation": "Al-khatim al-rusula."
+    },
+    {
+     "prompt": "Wat komt eerst in het gedicht?",
+     "options": [
+      "De masdars",
+      "De deelwoorden",
+      "Het werktuig",
+      "Het werkwoord"
+     ],
+     "explanation": "Van het werkwoord naar de naamwoorden die eruit gemaakt worden."
+    },
+    {
+     "prompt": "Welke afdeling komt als laatste voor het slot?",
+     "options": [
+      "Het werktuig",
+      "De masdars",
+      "De gebiedende wijs",
+      "Het passief"
+     ],
+     "explanation": "Fasl fi bina' al-ala."
+    },
+    {
+     "prompt": "De Lamiyya is geordend naar…",
+     "options": [
+      "de soort wortel",
+      "de soort vorm",
+      "het alfabet",
+      "de bab van de mudari'"
+     ],
+     "explanation": "De Marah is geordend naar de soort wortel."
+    },
+    {
+     "prompt": "In onze druk wordt de Lamiyya gevolgd door…",
+     "options": [
+      "de Alfiyya",
+      "de Ajurrumiyya",
+      "de Matn al-Sullam",
+      "de Marah"
+     ],
+     "explanation": "Het deel brengt mutun van verschillende wetenschappen samen."
+    }
+   ],
+   "diagram": {
+    "caption": "Het plan van de Lamiyya",
+    "labels": {
+     "Lāmiyyat al-afʿāl": "Lamiyyat al-af'al",
+     "The verb": "Het werkwoord",
+     "Bare patterns": "Kale patronen",
+     "Augmented patterns": "Vermeerderde patronen",
+     "The muḍāriʿ": "De mudari'",
+     "The passive": "Het passief",
+     "The command": "De gebiedende wijs",
+     "Nouns from the verb": "Naamwoorden uit het werkwoord",
+     "Participles": "Deelwoorden",
+     "Maṣdars": "Masdars",
+     "Mafʿal and mafʿil": "Maf'al en maf'il",
+     "Land of abundance": "Land van overvloed",
+     "Instrument": "Werktuig"
     }
    }
   }

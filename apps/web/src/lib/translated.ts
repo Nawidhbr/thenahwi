@@ -6,7 +6,7 @@ import { getBackground, getLibrary, hasBackgroundTranslation, hasLibraryTranslat
  * so that search engines do not see eight copies of the same text.
  * `path` is the path within the locale, e.g. "/scholars/abhari/".
  */
-const KB = /^\/(nahw|curricula|books|scholars|news|updates|glossary)\//;
+const KB = /^\/(nahw|curricula|books|scholars|news|updates|glossary|tabaqat)\//;
 export function isTranslated(locale: string, path: string): boolean {
   if (locale === "en") return true;
   if (path !== "/" && !KB.test(path)) return true; // the study portal, about, privacy: translated with the interface
@@ -28,7 +28,7 @@ export function isTranslated(locale: string, path: string): boolean {
   // A book of the library, once its summary is translated; the books page once every book on it is.
   if (parts[0] === "books" && parts.length === 2 && getLibrary().some((b) => b.id === parts[1])) return hasLibraryTranslation(locale, parts[1]);
   if (parts[0] === "books" && parts.length === 1) return getLibrary().every((b) => hasLibraryTranslation(locale, b.id)) && [...handbooks()].every((h) => isTranslated(locale, `/books/${h}/`));
-  return false; // catalogues, the commentaries' editions pages and news: English
+  return false; // catalogues, the commentaries' editions pages, news and the ṭabaqāt (our English, translated later): English
 }
 
 type En = ReturnType<typeof getBackground>;

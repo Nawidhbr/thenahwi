@@ -1,6 +1,6 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { z } from "zod";
-import { BackgroundArticle, TABAQA_GENERATIONS, BackgroundConcept, BackgroundPerson, CatalogueEntry, Curriculum, Reviews, CHAPTER_ORDER, Commentary, ExerciseSet, ExerciseTranslation, Glossary, LessonExplain, LessonExplainTranslation, LessonGroup, LessonPlan, LessonQuiz, Matn, LibraryBook, NewsItem, Outline, Primer, PrimerTranslation, Quiz, type Lesson, Term, TermTranslation, type LocaleBundle } from "./schema.ts";
+import { BackgroundArticle, TABAQA_GENERATIONS, BackgroundConcept, BackgroundPerson, CatalogueEntry, Curriculum, Reviews, CHAPTER_ORDER, Commentary, ExerciseSet, ExerciseTranslation, Glossary, LessonExplain, LessonExplainTranslation, LessonGroup, LessonPlan, LessonQuiz, Matn, LibraryBook, NewsItem, Outline, Primer, PrimerTranslation, Quiz, type Lesson, Term, TermTranslation, type LocaleBundle, TabaqatBook } from "./schema.ts";
 
 /** Node-only loader used by the content build script. The site imports the generated bundle instead. */
 
@@ -697,4 +697,61 @@ export function loadReviews(keys: Set<string>): { reviews: Reviews | null; error
     if (!people.has(r.by)) errors.push(`reviews.json ${r.key}: unknown reviewer "${r.by}" (add it to reviewers)`);
   }
   return { reviews: parsed.data, errors };
+}
+
+/**
+ * The ṭabaqāt works (tabaqat/<id>.json; docs/tabaqat-pipeline.md): each validated against TabaqatBook, with its entries
+ * numbered 1, 2, 3 … in order, ids unique, every `person` and the author a scholar page, the library entry existing, and
+ * every paragraph's page inside its entry's pages. The Arabic must be Arabic and vocalised (a paragraph with few vowel
+ * marks is reported), the English free of Arabic script.
+ */
+export function loadTabaqat(peopleSlugs: Set<string>, libraryIds: Set<string>): { books: TabaqatBook[]; errors: string[]; notes: string[] } {
+  const dir = new URL("../tabaqat/", import.meta.url);
+  const errors: string[] = [];
+  const notes: string[] = [];
+  const books: TabaqatBook[] = [];
+  if (!existsSync(dir)) return { books, errors, notes };
+  const ARABIC = /[\u0621-\u064A]/g;
+  const MARKS = /[\u064B-\u0652]/g;
+  for (const f of readdirSync(dir).filter((f) => f.endsWith(".json")).sort()) {
+    const label = `tabaqat/${f}`;
+    let raw: unknown;
+    try { raw = JSON.parse(readFileSync(new URL(f, dir), "utf8")); } catch (e) { errors.push(`${label}: ${(e as Error).message}`); continue; }
+    const r = TabaqatBook.safeParse(raw);
+    if (!r.success) { errors.push(...r.error.issues.slice(0, 10).map((i) => `${label} ${i.path.join(".")}: ${i.message}`)); continue; }
+    const b = r.data;
+    if (`${b.id}.json` !== f) errors.push(`${label}: id "${b.id}" does not match the file name`);
+    if (!peopleSlugs.has(b.authorSlug)) errors.push(`${label}: author "${b.authorSlug}" has no scholar page`);
+    if (!libraryIds.has(b.library)) errors.push(`${label}: library entry "${b.library}" does not exist`);
+    const range = (pages: string) => { const [a, z2] = pages.split("–").map(Number); return [a, z2 ?? a] as const; };
+    const checkParagraph = (where: string, p: { ar: string; page: string; en: string }, lo: number, hi: number) => {
+      const page = Number(p.page);
+      if (page < lo || page > hi) errors.push(`${label} ${where}: page ${p.page} is outside ${lo}–${hi}`);
+      const letters = (p.ar.match(ARABIC) ?? []).length;
+      if (letters === 0) errors.push(`${label} ${where}: the Arabic has no Arabic letters`);
+      else if ((p.ar.match(MARKS) ?? []).length / letters < 0.35) notes.push(`${label} ${where}: the Arabic looks unvocalised`);
+      if (/[\u0600-\u06FF]/.test(p.en)) notes.push(`${label} ${where}: the English has Arabic script in it`);
+    };
+    b.preface.forEach((p, i) => checkParagraph(`preface ${i + 1}`, p, 1, 9));
+    const ids = new Set<string>();
+    let lastPage = 0;
+    b.entries.forEach((e, i) => {
+      const where = `entry ${e.n} (${e.id})`;
+      if (e.n !== i + 1) errors.push(`${label} ${where}: entry number ${e.n} where ${i + 1} was expected (entries are numbered 1, 2, 3 … in order)`);
+      if (ids.has(e.id)) errors.push(`${label} ${where}: duplicate id "${e.id}"`);
+      ids.add(e.id);
+      if (e.person && !peopleSlugs.has(e.person)) errors.push(`${label} ${where}: person "${e.person}" has no scholar page`);
+      if (e.died !== undefined && !/\d/.test(e.died)) errors.push(`${label} ${where}: died "${e.died}" has no year`);
+      const [lo, hi] = range(e.pages);
+      if (hi < lo) errors.push(`${label} ${where}: pages ${e.pages} run backwards`);
+      if (lo < lastPage) errors.push(`${label} ${where}: begins on page ${lo}, before the entry before it (${lastPage})`);
+      lastPage = lo;
+      e.paragraphs.forEach((p, k) => checkParagraph(`${where} paragraph ${k + 1}`, p, lo, hi));
+    });
+    b.closing.forEach((p, i) => checkParagraph(`closing ${i + 1}`, p, lastPage, 999));
+    const linked = b.entries.filter((e) => e.person).length;
+    notes.push(`ṭabaqāt ${b.id}: ${b.entries.length} entries, ${linked} tied to a scholar page`);
+    books.push(b);
+  }
+  return { books, errors, notes };
 }

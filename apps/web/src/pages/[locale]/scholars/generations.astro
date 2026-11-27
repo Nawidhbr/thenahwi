@@ -6,6 +6,7 @@ import { fmt, localePaths, t } from "../../../i18n";
 import { diedHijri, diedYear, hijriCentury, KB_BOOKS, KB_SECTIONS, kbPath, lastPlace, shortName, TABAQA_ARABIC } from "../../../lib/kb";
 import { ord } from "../../../lib/ord";
 import { breadcrumbs } from "../../../lib/structured-data";
+import { nuzhatEntryOf } from "../../../lib/tabaqat";
 
 /**
  * The generations of the grammarians (/<locale>/scholars/generations/): the backbone of the scholars made visible, in
@@ -48,6 +49,8 @@ const later = [...SCHOOLS, "none" as const]
 const centuries = [...new Set(people.map(hijriCentury))].filter((c): c is number => c !== null).sort((a, b) => a - b).map((c) => ({ c, people: people.filter((p) => hijriCentury(p) === c) }));
 const undated = people.filter((p) => hijriCentury(p) === null);
 const workPages = ["akhbar-al-nahwiyyin", "maratib-al-nahwiyyin", "tabaqat-al-zubaydi", "nuzhat-al-alibba", "inbah-al-ruwat", "bughyat-al-wuat"].map((id) => library.find((b) => b.id === id)).filter((b) => b !== undefined);
+// Beside each name, his entry in Nuzhat al-alibbāʾ (the book on the site whole, /tabaqat/), where he has one.
+const nz = (p: BackgroundPerson) => nuzhatEntryOf(p.slug, locale);
 const path = kbPath.generations(locale);
 ---
 
@@ -91,7 +94,7 @@ const path = kbPath.generations(locale);
                       <li>
                         <a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>
                         {p.arabic && <span class="kufi" lang="ar"> {p.arabic}</span>}
-                        <span class="muted"> · {[yearOf(p) && `${G.died} ${yearOf(p)}`, lastPlace(p), p.tabaqa?.entry && fmt(G.entry, { n: p.tabaqa.entry })].filter(Boolean).join(" · ")}</span>
+                        <span class="muted"> · {[yearOf(p) && `${G.died} ${yearOf(p)}`, lastPlace(p), p.tabaqa?.entry && fmt(G.entry, { n: p.tabaqa.entry })].filter(Boolean).join(" · ")}</span>{nz(p) && <a class="gen-nuzhat" href={nz(p)!.href} title={fmt(G.nuzhatLabel, { n: nz(p)!.entry.n })}>{fmt(G.nuzhatShort, { n: nz(p)!.entry.n })}</a>}
                         {booksOf(p).length > 0 && <span class="gen-books">{booksOf(p).map((b) => <a href={kbPath.book(locale, b.id)}>{b.title}</a>)}</span>}
                       </li>
                     ))}
@@ -113,7 +116,7 @@ const path = kbPath.generations(locale);
               {s.people.map((p) => (
                 <li>
                   <a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>
-                  <span class="muted"> · {[yearOf(p) ? `${G.died} ${yearOf(p)}` : "", lastPlace(p)].filter(Boolean).join(" · ")}</span>
+                  <span class="muted"> · {[yearOf(p) ? `${G.died} ${yearOf(p)}` : "", lastPlace(p)].filter(Boolean).join(" · ")}</span>{nz(p) && <a class="gen-nuzhat" href={nz(p)!.href} title={fmt(G.nuzhatLabel, { n: nz(p)!.entry.n })}>{fmt(G.nuzhatShort, { n: nz(p)!.entry.n })}</a>}
                   {booksOf(p).length > 0 && <span class="gen-books">{booksOf(p).map((b) => <a href={kbPath.book(locale, b.id)}>{b.title}</a>)}</span>}
                 </li>
               ))}
@@ -135,7 +138,7 @@ const path = kbPath.generations(locale);
               {ps.map((p) => (
                 <li>
                   <a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>
-                  <span class="muted"> · {[yearOf(p) && `${G.died} ${yearOf(p)}`, schoolName[p.school ?? "none"], lastPlace(p)].filter(Boolean).join(" · ")}</span>
+                  <span class="muted"> · {[yearOf(p) && `${G.died} ${yearOf(p)}`, schoolName[p.school ?? "none"], lastPlace(p)].filter(Boolean).join(" · ")}</span>{nz(p) && <a class="gen-nuzhat" href={nz(p)!.href} title={fmt(G.nuzhatLabel, { n: nz(p)!.entry.n })}>{fmt(G.nuzhatShort, { n: nz(p)!.entry.n })}</a>}
                 </li>
               ))}
             </ol>
@@ -144,7 +147,7 @@ const path = kbPath.generations(locale);
         {undated.length > 0 && (
           <section class="gen-century" aria-labelledby="gen-c0">
             <h3 id="gen-c0">{G.undated}</h3>
-            <ol class="gen-names">{undated.map((p) => <li><a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>{p.died && <span class="muted"> · {p.died}</span>}</li>)}</ol>
+            <ol class="gen-names">{undated.map((p) => <li><a href={kbPath.scholar(locale, p.slug)}><strong>{shortName(p)}</strong></a>{p.died && <span class="muted"> · {p.died}</span>}{nz(p) && <a class="gen-nuzhat" href={nz(p)!.href} title={fmt(G.nuzhatLabel, { n: nz(p)!.entry.n })}>{fmt(G.nuzhatShort, { n: nz(p)!.entry.n })}</a>}</li>)}</ol>
           </section>
         )}
       </div>

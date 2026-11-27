@@ -8,6 +8,7 @@ import { gloss } from "../../../lib/gloss";
 import { KB_BOOKS, kbBook, kbPath, scholarPhoto, shortDied, shortName } from "../../../lib/kb";
 import { bookPath, coursesOn, pathLevel } from "../../../lib/course";
 import { breadcrumbs, person } from "../../../lib/structured-data";
+import { nuzhatEntryOf } from "../../../lib/tabaqat";
 
 /** A scholar: life, works, what others wrote on them, what is uncertain, and the sources. */
 export function getStaticPaths() {
@@ -41,6 +42,8 @@ const books = p.books.map(kbBook).filter((b) => b !== undefined);
 const inLibrary = getLibrary(locale).filter((b) => b.authorSlug === p.slug);
 // The courses of the study portal on this scholar's works (a handbook or a library entry), each once.
 const courses = [...new Map([...KB_BOOKS.filter((b) => b.authorSlug === p.slug).map((b) => b.id), ...inLibrary.map((b) => b.id)].flatMap((id) => coursesOn(id, false)).map((c) => [c.id, c])).values()];
+// His entry in Ibn al-Anbārī's Nuzhat al-alibbāʾ, the book on the site whole (/tabaqat/).
+const nuzhatEntry = nuzhatEntryOf(p.slug, locale);
 const path = kbPath.scholar(locale, p.slug);
 // The search title adds the year of death in the reader's language ("al-Abharī (d. 663/1265)"): it tells namesakes
 // apart and keeps the title of one scholar different in each language, where the Latin name alone is the same.
@@ -119,6 +122,12 @@ const pageTitle = withDate && withDate.length <= 51 ? withDate : shortName(p);
             <p class="kb-kicker u-c7486a">{K.school}</p>
             <p class="u-m0"><a href={kbPath.generations(locale, p.tabaqa ? p.tabaqa.list : `school-${p.school}`)}>{(G.schools as Record<string, string>)[p.school]}</a></p>
             {p.tabaqa && <p class="muted u-m0">{K.tabaqa}: {fmt(G.inGeneration, { list: (G.lists as Record<string, string>)[p.tabaqa.list], n: ord(p.tabaqa.n, locale) })}{p.tabaqa.entry ? ` (${fmt(G.entry, { n: p.tabaqa.entry })})` : ""}</p>}
+          </div>
+        )}
+        {nuzhatEntry && (
+          <div>
+            <p class="kb-kicker u-c7486a">{K.inNuzhat}</p>
+            <p class="u-m0"><a href={nuzhatEntry.href}>{fmt(K.nuzhatEntry, { n: nuzhatEntry.entry.n, pages: fmt(nuzhatEntry.entry.pages.includes("–") ? ui.primer.pages : ui.primer.page, { pages: nuzhatEntry.entry.pages }) })}</a></p>
           </div>
         )}
         {p.places.length > 0 && (

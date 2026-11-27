@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import KbHero from "./KbHero.astro";
-import { getLibrary, type LibraryBook } from "@nahwi/content";
+import { getLibrary, getTabaqat, type LibraryBook } from "@nahwi/content";
 import { fmt, t } from "../i18n";
 import { kbBook, kbPath, photoFor } from "../lib/kb";
 import { ord } from "../lib/ord";
@@ -35,6 +35,8 @@ const path = kbPath.book(locale, entry.id);
 const paragraphs = entry.summary.split(/\n\n+/);
 // The work as a course in the study portal (packages/content/primers/), where there is one.
 const courses = coursesOn(entry.id, false);
+// The whole work on the site, entry by entry (a ṭabaqāt book, /tabaqat/), where it is.
+const whole = getTabaqat().find((b) => b.library === entry.id);
 ---
 
 <BaseLayout image={photoFor(entry.id)} title={`${entry.title} – ${entry.author}`} description={paragraphs[0]} path={path.slice(locale.length + 1)} locale={locale} bleed jsonLd={[libraryBook(entry, locale, photoFor(entry.id), !!(onBook || onEntry)), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: B.title, path: kbPath.books(locale) }, { name: entry.title, path }])]}>
@@ -61,6 +63,12 @@ const courses = coursesOn(entry.id, false);
         {entry.on && <><dt>{L.on}</dt><dd>{onHref ? <a href={onHref}>{onLabel}</a> : onLabel}</dd></>}
       </dl>
     </section>
+
+    {whole && (
+      <section class="kb-section">
+        <a class="kb-link gen-link" href={kbPath.tabaqat(locale)}><strong>{ui.kb.tabaqat.readBook} →</strong><span class="muted">{ui.kb.tabaqat.readBookLead}</span></a>
+      </section>
+    )}
 
     {courses.length > 0 && (
       <section class="kb-section">

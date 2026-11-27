@@ -917,7 +917,8 @@
       "contact": "Contact",
       "privacy": "Confidentialité",
       "updates": "Nouveautés",
-      "nahw": "À propos du nahw et du sarf"
+      "nahw": "À propos du nahw et du sarf",
+      "tabaqat": "Tabaqât"
     },
     "draft": "Brouillon · en attente de relecture par un enseignant qualifié",
     "home": {
@@ -950,7 +951,8 @@
       "mastersLead": "De Sîbawayh à al-Azhar : les grammairiens dont on lisait les livres.",
       "library": "Toute la bibliothèque",
       "newsLead": "Rassemblées chaque semaine par The Mantiqi.",
-      "generationsLink": "Les générations des grammairiens"
+      "generationsLink": "Les générations des grammairiens",
+      "tabaqatLink": "La Nuzhat al-alibbâ', notice par notice"
     },
     "curricula": {
       "title": "Cursus",
@@ -1028,7 +1030,10 @@
         "modern": "Recherche moderne"
       },
       "generationsLink": "Les générations des grammairiens",
-      "generationsLead": "Les mêmes savants par école et par génération, comme les anciens livres de tabaqât les présentent, et par siècle."
+      "generationsLead": "Les mêmes savants par école et par génération, comme les anciens livres de tabaqât les présentent, et par siècle.",
+      "tabaqatLink": "La Nuzhat al-alibbâ', le livre entier",
+      "tabaqatLead": "L'histoire des grammairiens d'Ibn al-Anbârî, notice par notice, en arabe et en anglais, chacune reliée à la page de son savant.",
+      "inNuzhat": "Nuzhat al-alibbâ', notice {n}"
     },
     "scholar": {
       "life": "Vie",
@@ -1040,7 +1045,9 @@
       "books": "Dans les livres",
       "sources": "Sources",
       "school": "École",
-      "tabaqa": "Dans les Tabaqât d'al-Zubaydî"
+      "tabaqa": "Dans les Tabaqât d'al-Zubaydî",
+      "inNuzhat": "Dans la Nuzhat al-alibbâ'",
+      "nuzhatEntry": "Notice {n}, {pages}"
     },
     "news": {
       "title": "Actualités du nahw et du sarf",
@@ -1231,7 +1238,60 @@
       "grammarians": "{n} grammairiens",
       "died": "m.",
       "undated": "Année de mort inconnue",
-      "grammarianOne": "1 grammairien"
+      "grammarianOne": "1 grammairien",
+      "nuzhatShort": "Nuzhat {n}",
+      "nuzhatLabel": "Sa notice dans la Nuzhat al-alibbâ' (notice {n})"
+    },
+    "tabaqat": {
+      "title": "La Nuzhat al-alibbâ' : les tabaqât des grammairiens",
+      "description": "L'histoire des grammairiens d'Ibn al-Anbârî, le livre entier : chaque notice en arabe vocalisé d'après l'édition du Caire de 1294/1877, avec notre anglais.",
+      "kicker": "Les tabaqât des grammairiens",
+      "lead": "L'histoire des grammairiens d'Ibn al-Anbârî, d'Abû al-Aswad al-Du'alî à son maître Ibn al-Shajarî : le livre entier, notice par notice, dans l'arabe de sa première édition, avec notre traduction anglaise.",
+      "count": "{n} notices",
+      "countOne": "1 notice",
+      "introKicker": "Le livre",
+      "introTitle": "L'histoire des grammairiens d'Ibn al-Anbârî",
+      "facts": {
+        "author": "Auteur",
+        "printTitle": "Titre de l'édition",
+        "printed": "Imprimé",
+        "pages": "Pages",
+        "copy": "Exemplaire numérisé",
+        "scan": "Scan",
+        "scanLink": "L'édition, page par page"
+      },
+      "preface": "La préface de l'auteur",
+      "closing": "La conclusion de l'auteur : sa chaîne de maîtres",
+      "entriesKicker": "Les notices",
+      "entriesTitle": "Les grammairiens par siècle",
+      "entriesLead": "Chaque notice sous le siècle de l'hégire où son homme est mort, avec son numéro dans le livre, l'année de sa mort et sa ville ; le livre lui-même suit l'ordre de leurs morts.",
+      "filter": "Chercher un nom, une ville ou un livre",
+      "allCenturies": "Tous les siècles",
+      "centuryLabel": "Siècle",
+      "shown": "{n} notices sur {m}",
+      "none": "Aucune notice ne correspond.",
+      "clear": "Effacer",
+      "undated": "Année de mort non indiquée",
+      "inPreparation": "Les notices sont transcrites d'après l'édition et traduites, et paraissent ici à mesure qu'elles sont achevées.",
+      "entryN": "Notice {n}",
+      "entryOf": "Notice {n} sur {m}",
+      "entryTitle": "{name} dans la Nuzhat al-alibbâ'",
+      "entryDescription": "{name}{died} : notice {n} de la Nuzhat al-alibbâ' d'Ibn al-Anbârî, en arabe vocalisé d'après l'édition du Caire de 1294/1877, avec notre traduction anglaise.",
+      "diedIn": " (m. {died})",
+      "scholar": "Sa page dans l'encyclopédie",
+      "scholarLead": "Vie, œuvres, école et sources",
+      "noScholar": "Il n'a pas encore de page dans l'encyclopédie.",
+      "notes": "Notes sur la lecture",
+      "prev": "Notice précédente",
+      "next": "Notice suivante",
+      "all": "Toutes les notices",
+      "scanPage": "Cette notice dans le scan",
+      "scanPageLead": "Page {page} de l'édition",
+      "readBook": "Lire le livre entier",
+      "readBookLead": "Chaque notice de la Nuzhat en arabe et en anglais, reliée aux pages des savants.",
+      "facet": "Siècle",
+      "years": "{from}–{to} de l'hégire",
+      "pageInScan": "p. {page} dans le scan"
     }
   },
   "preview": {
@@ -1573,7 +1633,8 @@
     "shortQuoted": "Nos propres leçons avec des citations de l'édition {edition} · traduction de The Nahwi, brouillon",
     "ownCourse": "Le cours propre de The Nahwi sur les fondements du sarf et du nahw, puisé dans les manuels classiques ; aucun texte original n'est affiché.",
     "translationLanguages": "Celle de The Nahwi, d'après l'original {language} : en {languages}. Choisissez la langue sous les passages.",
-    "and": "et"
+    "and": "et",
+    "transcribedVocalised": "transcrit par The Nahwi d'après la lithographie et vocalisé par nous (l'édition porte peu de voyelles), sans les notes du lecteur dans ses marges"
   },
   "contact": {
     "title": "Contact",

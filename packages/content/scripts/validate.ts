@@ -1,5 +1,5 @@
 import { mkdirSync, writeFileSync } from "node:fs";
-import { TRANSLATION_LOCALES, loadExercises, loadGlossary, loadLocale, loadMatn, loadQuizTranslations, loadQuizzes, loadTerms, loadCommentaries, loadBackground, loadCatalogue, loadNews, loadLibrary, loadLibraryTranslations, loadPrimers, loadPrimerTranslations, loadCurriculum, loadReviews } from "../src/load.ts";
+import { TRANSLATION_LOCALES, loadExercises, loadGlossary, loadLocale, loadMatn, loadQuizTranslations, loadQuizzes, loadTerms, loadCommentaries, loadBackground, loadCatalogue, loadNews, loadLibrary, loadLibraryTranslations, loadPrimers, loadPrimerTranslations, loadCurriculum, loadReviews, loadTabaqat } from "../src/load.ts";
 
 const { terms, errors: termErrors } = loadTerms();
 const { matn, errors: matnErrors } = loadMatn(terms);
@@ -16,6 +16,7 @@ const { catalogue, errors: catalogueErrors, notes: catalogueNotes } = loadCatalo
 const { news, errors: newsErrors } = loadNews();
 const { library, errors: libraryErrors, notes: libraryNotes } = loadLibrary(new Set(background.people.map((p) => p.slug)), ["kafiya", "shafiya", "izzi", "alfiyya", "ajurrumiyya", "qatr"]);
 const { translations: libraryTranslations, errors: libraryTrErrors } = loadLibraryTranslations(library, TRANSLATION_LOCALES);
+const { books: tabaqat, errors: tabaqatErrors, notes: tabaqatNotes } = loadTabaqat(new Set(background.people.map((p) => p.slug)), new Set(library.map((b) => b.id)));
 const { primers, errors: primerErrors } = loadPrimers();
 const { translations: primerTranslations, errors: primerTrErrors, notes: primerTrNotes } = loadPrimerTranslations(primers);
 const { curriculum, errors: curriculumErrors } = loadCurriculum([{ id: "mabadi", kind: "first reading" }, ...primers.map((p) => ({ id: p.id, kind: "primer", subject: p.subject })), ...commentaries.filter((c) => c.track).map((c) => ({ id: c.id, kind: "book" }))]);
@@ -25,7 +26,7 @@ const reviewKeys = new Set<string>([
   ...["mabadi", ...primers.map((p) => p.id), ...commentaries.map((c) => c.id)].map((id) => `text:${id}`),
 ]);
 const { reviews, errors: reviewErrors } = loadReviews(reviewKeys);
-const errors = [...reviewErrors, ...curriculumErrors, ...primerErrors, ...primerTrErrors, ...libraryErrors, ...libraryTrErrors, ...newsErrors, ...termErrors, ...matnErrors, ...exerciseErrors, ...quizErrors, ...commentaryErrors, ...backgroundErrors, ...catalogueErrors];
+const errors = [...tabaqatErrors, ...reviewErrors, ...curriculumErrors, ...primerErrors, ...primerTrErrors, ...libraryErrors, ...libraryTrErrors, ...newsErrors, ...termErrors, ...matnErrors, ...exerciseErrors, ...quizErrors, ...commentaryErrors, ...backgroundErrors, ...catalogueErrors];
 
 if (errors.length > 0) {
   console.error(`Content check failed with ${errors.length} error(s):`);
@@ -51,6 +52,8 @@ writeFileSync(new URL("primer-i18n.json", out), `${JSON.stringify(primerTranslat
 for (const n of primerTrNotes) console.log(`  ${n}`);
 writeFileSync(new URL("curriculum.json", out), `${JSON.stringify(curriculum)}\n`);
 writeFileSync(new URL("reviews.json", out), `${JSON.stringify(reviews)}\n`);
+writeFileSync(new URL("tabaqat.json", out), `${JSON.stringify(tabaqat)}\n`);
+for (const n of tabaqatNotes) console.log(`  ${n}`);
 for (const n of libraryNotes) console.log(`  ${n}`);
 for (const n of catalogueNotes) console.log(`  ${n}`);
 if (quizMissing.length) console.log(`  tests: ${quizMissing.length} term${quizMissing.length === 1 ? "" : "s"} without a test yet (${quizMissing.slice(0, 5).join(", ")}${quizMissing.length > 5 ? ", …" : ""})`);

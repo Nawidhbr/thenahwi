@@ -1,0 +1,1897 @@
+{
+ "parts": {
+  "sound-verb": "Hoofdstuk een: het gave werkwoord, zijn masdar en zijn babs",
+  "past": "De verleden tijd",
+  "future": "De toekomende tijd (al-mudari')",
+  "command": "Het bevel en het verbod",
+  "derived-nouns": "De deelwoorden en de naamwoorden van tijd, plaats en werktuig",
+  "doubled": "Hoofdstuk twee: het verdubbelde werkwoord",
+  "hamzated": "Hoofdstuk drie: het werkwoord met hamza",
+  "mithal": "Hoofdstuk vier: de mithal",
+  "hollow": "Hoofdstuk vijf: het holle werkwoord",
+  "defective": "Hoofdstuk zes: het gebrekkige werkwoord, en de vervangen letters",
+  "lafif": "Hoofdstuk zeven: de lafif"
+ },
+ "lessons": {
+  "1": {
+   "title": "Het voorwoord: de sarf, de moeder van de wetenschappen",
+   "body": [
+    "Het boek opent met de naam van de schrijver, een gebed voor hem en zijn ouders, en een spreuk die de madrasa nog steeds herhaalt: “de sarf is de moeder van de wetenschappen en de nahw hun vader”. De sarf vormt het woord, de nahw zet het aan het werk in een zin, en elke wetenschap die Arabische teksten leest, is uit die twee geboren. Wie de sarf kent, “wordt sterk in begrip”, en wie haar mist, “dwaalt in de overlevering”: hij leest verkeerd wat hij doorgeeft.",
+    "Dan noemt en prijst de schrijver zijn boek in rijmproza: Marah al-arwah, “de rustplaats van de geesten”. Een marah is de plaats waar de kudden 's avonds terugkomen om te rusten, en de rijmen spelen met dezelfde klank: najah, rahrah, rah, tuffah. Het boek wordt aangeboden “voor de jongen”: het werd voor jonge studenten geschreven, en het werd in de Ottomaanse madrasa gelezen als het laatste van haar vijf boeken van de sarf.",
+    "De tweede passage geeft het plan. De sarraf, de geldwisselaar, hier de student van de sarf (beide woorden komen van s-r-f, “wenden, veranderen”), heeft twee dingen nodig. Ten eerste zeven babs “om de patronen te kennen”: het gave, het verdubbelde, het werkwoord met hamza, de mithal, het holle, het gebrekkige en de lafif. Ten tweede “de afleiding van negen dingen uit elke masdar”: de verleden tijd, de toekomende tijd, het bevel, het verbod, en de naamwoorden van de doener, van degene die ondergaat, van tijd, van plaats en van het werktuig.",
+    "Daarom is het boek in zeven hoofdstukken verdeeld, één voor elke soort wortel. Het eerste, over het gave werkwoord, heeft eigen afdelingen voor de negen dingen; elk later hoofdstuk neemt een wortel met een verdubbelde letter, een hamza of een zwakke letter, voert hem door dezelfde negen dingen en laat zien wat verandert en waarom.",
+    "Twee woorden om nu vast te leggen. Bab betekent hier een hoofdstuk naar soort wortel; in les 5 betekent hetzelfde woord een vervoegingsklasse, zoals daraba yadribu. En “de toekomende tijd” (al-mustaqbal) is de gebruikelijke naam in dit boek voor de vorm die andere boeken de mudari' noemen; les 15 geeft beide namen en hun redenen."
+   ],
+   "terms": [
+    "de vormleer: de wetenschap van de vormen van woorden",
+    "de geldwisselaar: de naam die de schrijver aan de student van de sarf geeft",
+    "de zeven hoofdstukken, één voor elke soort wortel",
+    "de afleiding: het nemen van de negen dingen uit de masdar"
+   ],
+   "examples": [
+    "al-sarf umm al-'ulum wa-l-nahw abuha: de sarf de moeder van de wetenschappen, de nahw hun vader",
+    "de zeven babs: gaaf, verdubbeld, met hamza, mithal, hol, gebrekkig, lafif",
+    "al-madi, al-mustaqbal, al-amr, al-nahy: de eerste vier van de negen afgeleide dingen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de zeven babs in de volgorde van het boek.",
+     "answer": "Het gave (al-sahih), het verdubbelde (al-muda'af), het werkwoord met hamza (al-mahmuz), de mithal, het holle (al-ajwaf), het gebrekkige (al-naqis) en de lafif."
+    },
+    {
+     "prompt": "Som de negen dingen op die uit elke masdar afgeleid worden.",
+     "answer": "De verleden tijd, de toekomende tijd, het bevel, het verbod, het actief deelwoord (naamwoord van de doener), het passief deelwoord (naamwoord van degene die ondergaat), het naamwoord van tijd, het naamwoord van plaats en het naamwoord van het werktuig."
+    },
+    {
+     "prompt": "Waarom noemt de schrijver de student een sarraf?",
+     "answer": "Sarraf is de geldwisselaar, en het woord heeft dezelfde wortel, s-r-f, als sarf. Zoals de wisselaar één munt in andere omzet, zet de student van de sarf één masdar om in de verleden tijd, de toekomende tijd en de rest; de woordspeling noemt de student naar zijn wetenschap."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "“De sarf is de moeder van de wetenschappen, en de nahw…”",
+     "options": [
+      "hun dochter",
+      "hun vader",
+      "hun zuster",
+      "hun dienaar"
+     ],
+     "explanation": "Al-nahw abuha: samen brengen de twee de wetenschappen van het Arabisch voort."
+    },
+    {
+     "prompt": "Hoeveel babs heeft de sarraf nodig om de patronen te kennen?",
+     "options": [
+      "Vijf",
+      "Negen",
+      "Zeven",
+      "Vijfendertig"
+     ],
+     "explanation": "Zeven, één voor elke soort wortel, en het boek heeft zeven hoofdstukken die daarbij passen."
+    },
+    {
+     "prompt": "Hoeveel dingen leidt het boek uit elke masdar af?",
+     "options": [
+      "Zeven",
+      "Zes",
+      "Veertien",
+      "Negen"
+     ],
+     "explanation": "De verleden tijd, de toekomende tijd, het bevel, het verbod, en de naamwoorden van doener, voorwerp, tijd, plaats en werktuig."
+    },
+    {
+     "prompt": "Welk hiervan hoort NIET bij de negen afgeleide dingen?",
+     "options": [
+      "De masdar zelf",
+      "Het verbod",
+      "Het naamwoord van het werktuig",
+      "Het naamwoord van tijd"
+     ],
+     "explanation": "De masdar is de bron waaruit de negen afgeleid worden, niet een ervan."
+    },
+    {
+     "prompt": "Marah al-arwah betekent…",
+     "options": [
+      "de vleugel van het succes",
+      "de rustplaats van de geesten",
+      "de moeder van de wetenschappen",
+      "de sleutel van de patronen"
+     ],
+     "explanation": "Een marah is waar de kudden 's avonds terugkomen om te rusten; het boek is een rustplaats voor de geesten."
+    },
+    {
+     "prompt": "Welk hiervan is een van de zeven babs?",
+     "options": [
+      "Het vierletterige",
+      "Het passief",
+      "De lafif",
+      "De masdar"
+     ],
+     "explanation": "De lafif, met twee zwakke letters, is het zevende en laatste hoofdstuk."
+    },
+    {
+     "prompt": "De sarraf van het voorwoord is…",
+     "options": [
+      "een leraar van de nahw",
+      "de vader van de schrijver",
+      "een boek van patronen",
+      "de student van de sarf, genoemd naar de geldwisselaar"
+     ],
+     "explanation": "Sarraf en sarf delen de wortel s-r-f; de schrijver speelt met de geldwisselaar."
+    }
+   ],
+   "diagram": {
+    "caption": "De zeven babs van de Marah (blz. 3)",
+    "labels": {
+     "The seven bābs": "De zeven babs",
+     "Sound": "Gaaf",
+     "Doubled or hamzated": "Verdubbeld of met hamza",
+     "Doubled": "Verdubbeld",
+     "Hamzated": "Met hamza",
+     "With a weak letter": "Met een zwakke letter",
+     "Mithāl": "Mithal",
+     "Hollow": "Hol",
+     "Defective": "Gebrekkig",
+     "Lafīf": "Lafif"
+    }
+   }
+  },
+  "2": {
+   "title": "Het gave werkwoord, en de masdar als oorsprong",
+   "body": [
+    "Het eerste hoofdstuk begint met een definitie. Het gave werkwoord is er een waarin “op de plaats van de fa', de 'ayn en de lam geen zwakke letter, geen verdubbeling en geen hamza staat”: daraba, “hij sloeg”. Dit is enger dan het alledaagse woord “gaaf”: madda, met zijn verdubbelde dal, en akhadha, met zijn hamza, hebben geen zwakke letter, maar dit boek noemt ze niet gaaf. De hoofdstukken twee en drie zeggen waarom.",
+    "Waarom worden de drie wortelletters genoemd naar de letters van fa'ala? “Opdat er iets in zou zijn van de letters van de lippen, van het midden en van de keel”: de fa' wordt met de lippen gevormd, de 'ayn diep in de keel, de lam in het midden van de mond. Het maatwoord omvat elk gebied waar letters gevormd worden.",
+    "Vervolgens de masdar. Al-darb, “het slaan”, is de masdar “waaruit de negen dingen geboren worden”, en hij is voor de Basrische grammatici de oorsprong van de afleiding, om drie redenen. Zijn betekenis is één, alleen de gebeurtenis, terwijl het werkwoord twee dingen betekent, de gebeurtenis en haar tijd; en het ene komt voor het vele. Hij is een naamwoord, en “het naamwoord heeft het werkwoord niet nodig”: een naamwoord kan zonder werkwoord staan, terwijl een werkwoord een naamwoord nodig heeft voor zijn doener, zoals de gebruikelijke uitleg luidt. En zijn naam zelf zegt het: een masdar is een “bron”, de plaats waaruit deze dingen voortkomen (tasduru).",
+    "De afleiding (ishtiqaq) wordt gedefinieerd als het vinden van “een overeenkomst in bewoording en betekenis” tussen twee woorden, en ze is van drie soorten. De kleine: dezelfde letters in dezelfde volgorde, daraba uit al-darb. De grote: dezelfde letters in een andere volgorde, jabadha, “hij trok”, uit al-jadhb, “het trekken”. De grootste: letters die dicht bij elkaar liggen in de plaats waar ze gevormd worden, na'aqa, “hij schreeuwde”, uit al-nahq, “het balken”, waar de 'ayn en de ha' beide letters van de keel zijn.",
+    "“De afleiding die hier bedoeld is, is de kleine afleiding.” Elk van de negen dingen houdt de letters van zijn masdar in hun volgorde: daraba, yadribu, idrib, darib, madrub zijn alle d-r-b. Een beginner die “afleiding” hoort, moet alleen aan deze soort denken."
+   ],
+   "terms": [
+    "het gave werkwoord: geen zwakke letter, verdubbeling of hamza onder zijn wortelletters",
+    "het verbaalnaamwoord: de bron van de negen afgeleide dingen",
+    "kleine afleiding: dezelfde letters in dezelfde volgorde",
+    "grote afleiding: dezelfde letters in een andere volgorde",
+    "grootste afleiding: letters die dicht bij elkaar liggen in hun plaats van vorming",
+    "de grammatici van Basra"
+   ],
+   "examples": [
+    "daraba min al-darb: kleine afleiding",
+    "jabadha min al-jadhb: grote afleiding, de letters anders geordend",
+    "na'aqa min al-nahq: grootste afleiding, 'ayn en ha' beide van de keel"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom is daraba in dit boek gaaf, terwijl madda en akhadha het niet zijn?",
+     "answer": "Het gave werkwoord heeft onder zijn fa', 'ayn en lam geen zwakke letter, geen verdubbeling en geen hamza. Daraba heeft geen ervan; madda heeft een verdubbelde letter (d-d) en akhadha een hamza, dus horen ze bij de hoofdstukken over het verdubbelde en het werkwoord met hamza."
+    },
+    {
+     "prompt": "Geef de drie redenen van de Basrische grammatici om de masdar tot oorsprong van de afleiding te maken.",
+     "answer": "Zijn betekenis is één (de gebeurtenis), terwijl die van het werkwoord meervoudig is (gebeurtenis en tijd), en het ene komt eerst; hij is een naamwoord, en het naamwoord heeft het werkwoord niet nodig; en zijn naam, masdar, “bron”, zegt dat de dingen eruit voortkomen."
+    },
+    {
+     "prompt": "Zeg welke soort afleiding elk paar toont: jabadha / al-jadhb; daraba / al-darb; na'aqa / al-nahq.",
+     "answer": "Jabadha en al-jadhb: groot (dezelfde letters, een andere volgorde). Daraba en al-darb: klein (dezelfde letters, dezelfde volgorde). Na'aqa en al-nahq: grootst ('ayn en ha' liggen dicht bij elkaar in de keel)."
+    },
+    {
+     "prompt": "Waarom werden de fa', de 'ayn en de lam voor de maat gekozen?",
+     "answer": "Omdat ze samen uit de drie gebieden komen waar letters gevormd worden: de fa' van de lippen, de lam uit het midden van de mond en de 'ayn uit de keel."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welk werkwoord is in dit boek gaaf (sahih)?",
+     "options": [
+      "madda",
+      "akhadha",
+      "daraba",
+      "qala"
+     ],
+     "explanation": "Madda is verdubbeld, akhadha heeft hamza en qala is hol; daraba heeft geen van deze."
+    },
+    {
+     "prompt": "Voor de Basrische grammatici is de oorsprong van de afleiding…",
+     "options": [
+      "de verleden tijd",
+      "het bevel",
+      "het actief deelwoord",
+      "de masdar"
+     ],
+     "explanation": "Al-darb is de masdar waaruit de negen dingen geboren worden."
+    },
+    {
+     "prompt": "Waarom komt het werkwoord volgens de eerste reden na de masdar?",
+     "options": [
+      "Het werkwoord betekent gebeurtenis en tijd, de masdar alleen de gebeurtenis",
+      "Het werkwoord is korter",
+      "Het werkwoord heeft geen wortel",
+      "De masdar heeft meer letters"
+     ],
+     "explanation": "Het ene komt voor het vele: de betekenis van de masdar is één, die van het werkwoord twee."
+    },
+    {
+     "prompt": "Jabadha uit al-jadhb is…",
+     "options": [
+      "kleine afleiding",
+      "grote afleiding",
+      "grootste afleiding",
+      "geen afleiding"
+     ],
+     "explanation": "Dezelfde letters, maar de dhal en de ba' hebben van plaats gewisseld."
+    },
+    {
+     "prompt": "Welke afleiding bedoelt de sarf in dit boek?",
+     "options": [
+      "De grote",
+      "De grootste",
+      "De kleine",
+      "Alle drie evenzeer"
+     ],
+     "explanation": "“De afleiding die hier bedoeld is, is de kleine afleiding.”"
+    },
+    {
+     "prompt": "De fa', 'ayn en lam van de maat komen van…",
+     "options": [
+      "alleen de keel",
+      "alleen de lippen",
+      "de neus en de keel",
+      "de lippen, de keel en het midden van de mond"
+     ],
+     "explanation": "Fa' van de lippen, 'ayn van de keel, lam van het midden."
+    },
+    {
+     "prompt": "Het woord masdar betekent…",
+     "options": [
+      "een bron, waaruit dingen voortkomen",
+      "een patroon",
+      "een verleden handeling",
+      "een sterke letter"
+     ],
+     "explanation": "Deze dingen komen eruit voort (tasduru)."
+    }
+   ],
+   "diagram": {
+    "caption": "De drie soorten afleiding (Marah, blz. 5)",
+    "labels": {
+     "Derivation": "Afleiding",
+     "Small: letters and order": "Klein: letters en volgorde",
+     "Great: letters, not order": "Groot: letters, niet de volgorde",
+     "Greatest: near articulation": "Grootst: nabije plaats van vorming"
+    }
+   }
+  },
+  "3": {
+   "title": "Het betoog van de Kufiërs voor het werkwoord, en het antwoord",
+   "body": [
+    "De Kufiërs hielden het tegendeel: “het werkwoord moet de oorsprong zijn”. Hun eerste argument is de verandering van zwakke letters (i'lal). Waar het werkwoord verandert, verandert de masdar ook: ya'idu verliest zijn waw en 'idatan ook; qama maakt van zijn waw een alif en qiyaman maakt er een ya' van. Waar het werkwoord zijn letter houdt, houdt de masdar haar: wajila wajalan, qawama qiwaman, niet qiyaman. De masdar volgt het werkwoord, en wat gevolgd wordt, is de oorsprong.",
+    "Hun tweede argument: de masdar benadrukt het werkwoord. Darabtu darban, “ik sloeg een slaan”, is alsof je zei darabtu darabtu, “ik sloeg, ik sloeg”; en “wat benadrukt wordt, is de oorsprong, niet wat benadrukt”. Hun derde: masdar betekent niet “bron” maar “voortgekomen”, zoals een passief deelwoord; de Arabieren zeggen mashrabun 'adhbun, “een zoete drank”, en gebruiken een patroon van plaats in de betekenis van mashrub, “gedronken”. Dus is de masdar wat uit het werkwoord voortkomt.",
+    "“Wij zeggen hun als antwoord”: de schrijver kiest de Basrische kant. De verandering in de masdar komt van de gelijkvormigheid (mushakala), niet van het feit dat het werkwoord haar spil is. Gelijkvormigheid verandert voortdurend vormen zonder de een tot oorsprong van de ander te maken: ta'idu laat zijn waw alleen vallen om bij ya'idu te passen, en tukrimu laat zijn hamza alleen vallen om bij ukrimu te passen (lessen 16 en 19).",
+    "Benadrukt worden toont een voorrang in de i'rab, niet in de afleiding: in ja'ani Zaydun Zaydun, “Zayd, Zayd kwam naar mij”, benadrukt de tweede Zayd de eerste, maar niemand leidt de ene Zayd uit de andere af. En mashrabun 'adhbun is een beeldspraak, “van de soort jara al-nahru, ‘de rivier stroomde’”: het is het water dat stroomt, niet de rivier, en het is de drank die zoet is, niet de plaats van het drinken.",
+    "Onthoud de uitkomst: de masdar is de oorsprong van alle negen. In de praktijk leidt het boek ze echter in een keten af, zoals de komende afdelingen laten zien: de verleden tijd uit de masdar, de toekomende tijd uit de verleden tijd, het bevel en het actief deelwoord uit de toekomende tijd, het passief deelwoord uit de passieve toekomende tijd."
+   ],
+   "terms": [
+    "de grammatici van Kufa, tegenspelers van de Basrische",
+    "de verandering van een zwakke letter",
+    "de spil zijn waarom de verandering van een ander draait",
+    "gelijkvormigheid: een vorm veranderd om bij zijn soortgenoten te passen",
+    "wat benadrukt wordt en wat benadrukt"
+   ],
+   "examples": [
+    "ya'idu 'idatan, qama qiyaman: werkwoord en masdar beide veranderd",
+    "wajila wajalan, qawama qiwaman: werkwoord en masdar beide onveranderd",
+    "darabtu darban: de masdar die het werkwoord benadrukt",
+    "ja'ani Zaydun Zaydun: nadruk zonder afleiding"
+   ],
+   "tasks": [
+    {
+     "prompt": "Verklaar het argument van de Kufiërs uit qama qiyaman en qawama qiwaman.",
+     "answer": "In qama verandert de waw van q-w-m, en de masdar qiyam verandert haar ook (in ya'); in qawama blijft de waw, en dus blijft ze in qiwam. De verandering van de masdar volgt die van het werkwoord, dus, zeggen zij, is het werkwoord de oorsprong."
+    },
+    {
+     "prompt": "Hoe beantwoordt de schrijver dat argument?",
+     "answer": "De masdar verandert uit gelijkvormigheid met zijn werkwoord, niet omdat het werkwoord zijn oorsprong is; gelijkvormigheid verandert vormen op dezelfde manier in ta'idu, dat zijn waw laat vallen om bij ya'idu te passen, en in tukrimu, dat zijn hamza laat vallen om bij ukrimu te passen."
+    },
+    {
+     "prompt": "Waarom bewijst darabtu darban niet dat het werkwoord de oorsprong is?",
+     "answer": "Benadrukt worden geeft een voorrang in de i'rab, niet in de afleiding: in ja'ani Zaydun Zaydun wordt de eerste Zayd door de tweede benadrukt, maar geen van beide is uit de ander afgeleid."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Voor de Kufiërs is de oorsprong van de afleiding…",
+     "options": [
+      "de masdar",
+      "het deelwoord",
+      "het bevel",
+      "het werkwoord"
+     ],
+     "explanation": "“Het werkwoord moet de oorsprong zijn.”"
+    },
+    {
+     "prompt": "Welk paar toont dat werkwoord en masdar beide de waw houden?",
+     "options": [
+      "wajila wajalan",
+      "ya'idu 'idatan",
+      "qama qiyaman",
+      "ta'idu 'idatan"
+     ],
+     "explanation": "Yawjalu houdt zijn waw, en wajal ook."
+    },
+    {
+     "prompt": "Het antwoord van de schrijver: de masdar verandert vanwege…",
+     "options": [
+      "zijn zwaarte",
+      "de gelijkvormigheid (mushakala)",
+      "de keelletter",
+      "de Kufiërs"
+     ],
+     "explanation": "Hij verandert om bij zijn werkwoord te passen, zoals ta'idu bij ya'idu past."
+    },
+    {
+     "prompt": "In ja'ani Zaydun Zaydun toont de nadruk…",
+     "options": [
+      "dat de eerste Zayd afgeleid is",
+      "dat de tweede Zayd de oorsprong is",
+      "een voorrang in de i'rab, niet in de afleiding",
+      "een fout"
+     ],
+     "explanation": "De ene Zayd is niet uit de andere afgeleid."
+    },
+    {
+     "prompt": "Mashrabun 'adhbun wordt beantwoord als…",
+     "options": [
+      "een passief deelwoord",
+      "een fout van de Kufiërs",
+      "een masdar",
+      "een beeldspraak, zoals “de rivier stroomde”"
+     ],
+     "explanation": "Het is de drank die zoet is, zoals het het water is dat stroomt."
+    },
+    {
+     "prompt": "Welke kant kiest de schrijver?",
+     "options": [
+      "Die van de Basrische grammatici",
+      "Die van de Kufiërs",
+      "Geen van beide",
+      "Beide evenzeer"
+     ],
+     "explanation": "“Wij zeggen hun als antwoord”: hij beantwoordt de Kufiërs."
+    },
+    {
+     "prompt": "Van darabtu darban wordt gezegd dat het staat als…",
+     "options": [
+      "darabtu Zaydan",
+      "darabtu darabtu",
+      "duribtu",
+      "adribu"
+     ],
+     "explanation": "De masdar herhaalt de betekenis van het werkwoord als nadruk."
+    }
+   ],
+   "diagram": {
+    "caption": "De argumenten van de Kufiërs en de Basrische antwoorden (Marah, blz. 5–7)",
+    "labels": {
+     "Kūfan argument": "Kufisch argument",
+     "Their example": "Hun voorbeeld",
+     "Answer": "Antwoord",
+     "Its example": "Zijn voorbeeld",
+     "the maṣdar changes as the verb does": "de masdar verandert zoals het werkwoord",
+     "conformity, not origin": "gelijkvormigheid, geen oorsprong",
+     "the maṣdar emphasises the verb": "de masdar benadrukt het werkwoord",
+     "priority in iʿrāb only": "alleen voorrang in de i'rab",
+     "maṣdar means “issued”": "masdar betekent “voortgekomen”",
+     "a figure of speech": "een beeldspraak"
+    }
+   }
+  },
+  "4": {
+   "title": "De masdars van het drieletterige en van de langere werkwoorden",
+   "body": [
+    "“De masdar van het drieletterige is talrijk”: een werkwoord van drie letters heeft niet één patroon van de masdar, en “volgens Sibawayh loopt het op tot tweeëndertig”. Het boek noemt ze aan de hand van voorbeelden: qatl, fisq en shughl (fa'l, fi'l, fu'l); rahma, nishda, kudra met de ta'; da'wa, dhikra, bushra met de korte alif; layyan, hirman, ghufran, nazawan met -an; en zo verder tot madkhal, marji', mas'at en mahmida met een mim.",
+    "Geen regel zegt welke daarvan een bepaald werkwoord neemt; de madrasa leert ze door te horen en uit het woordenboek. Wat de lijst leert, is een masdar herkennen wanneer je hem in een van deze vormen tegenkomt.",
+    "De masdar komt ook op de patronen van de twee deelwoorden: qumtu qa'iman, “ik stond een staan”, gebruikt het patroon fa'il; en in het vers bi-ayyikumu al-maftunu (Koran 68:6) wordt al-maftun, op het patroon maf'ul, als masdar opgevat: “wie van jullie de beproeving heeft”. Hij komt ook voor intensiteit: al-tahdar en al-tal'ab, “veel gebabbel, veel gespeel”, op taf'al, en al-hiththitha en al-dillila op fi''ila.",
+    "“De masdar van het niet-drieletterige komt op één weg”: elk vermeerderd patroon heeft zijn regelmatige masdar, zoals de vervoegingsengine die geeft: akrama, ikram; qatta'a, taqti'; istakhraja, istikhraj. De genoemde uitzonderingen zijn zeldzame vormen: killam van kallama (wiens gewone masdar taklim is), qittal en qital van qatala, tihimmal van tahammala, en zilzal van zalzala.",
+    "Een valkuil: de qa'iman van qumtu qa'iman lijkt een actief deelwoord, en in veel zinnen is het er een (een hal, “staande”). Hier telt het boek het als masdar, omdat het staat waar qiyaman zou staan: “ik stond een staan”."
+   ],
+   "terms": [
+    "de masdar van het werkwoord van drie letters: veel patronen, geleerd door te horen",
+    "de masdar van de langere werkwoorden: elk één regelmatig patroon",
+    "intensiteit, zoals in tahdar en hiththitha",
+    "de grote Basrische grammaticus, die tweeëndertig patronen telde"
+   ],
+   "examples": [
+    "qatl, fisq, shughl: fa'l, fi'l, fu'l",
+    "qumtu qa'iman: een masdar op het patroon fa'il",
+    "al-tahdar, al-tal'ab, al-hiththitha, al-dillila: masdars van intensiteit",
+    "ikram, taqti', istikhraj: de regelmatige masdars van akrama, qatta'a, istakhraja (vervoegingsengine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Orden deze masdars naar hun patroon: rahma, ghufran, dhikra, dukhul, madkhal.",
+     "answer": "Rahma: fa'la, met de ta'. Ghufran: fu'lan. Dhikra: fi'la, met de korte alif. Dukhul: fu'ul. Madkhal: maf'al, met de mim."
+    },
+    {
+     "prompt": "Geef de regelmatige masdar van akrama, qatta'a en istakhraja (uit de vervoegingsengine), en de zeldzame vormen die het boek noemt voor qatala en kallama.",
+     "answer": "Akrama: ikram; qatta'a: taqti'; istakhraja: istikhraj. Voor qatala noemt het boek qittal en qital, voor kallama killam: uitzonderingen op de ene regelmatige weg."
+    },
+    {
+     "prompt": "Waarom wordt qa'iman in qumtu qa'iman als masdar geteld?",
+     "answer": "Het staat waar de masdar qiyaman zou staan, “ik stond een staan”: de masdar is hier gekomen op het patroon van het actief deelwoord, fa'il."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel patronen van de masdar van het drieletterige telde Sibawayh, volgens het boek?",
+     "options": [
+      "Tweeëndertig",
+      "Zes",
+      "Vijfendertig",
+      "Twaalf"
+     ],
+     "explanation": "“Volgens Sibawayh loopt het op tot tweeëndertig.”"
+    },
+    {
+     "prompt": "Welke masdar heeft het patroon met mim?",
+     "options": [
+      "dukhul",
+      "madkhal",
+      "ghufran",
+      "rahma"
+     ],
+     "explanation": "Madkhal, marji', mas'at en mahmida sluiten de lijst af: masdars met een mim."
+    },
+    {
+     "prompt": "Al-tahdar, “veel gebabbel”, is een masdar van…",
+     "options": [
+      "het passief",
+      "plaats",
+      "intensiteit",
+      "het vierletterige"
+     ],
+     "explanation": "Taf'al wordt gegeven als patroon van intensiteit (mubalagha)."
+    },
+    {
+     "prompt": "De masdar van het niet-drieletterige komt…",
+     "options": [
+      "op tweeëndertig patronen",
+      "alleen met een mim",
+      "nooit met een ta'",
+      "op één weg, met weinig uitzonderingen"
+     ],
+     "explanation": "Elk vermeerderd patroon heeft zijn regelmatige masdar."
+    },
+    {
+     "prompt": "Welke wordt genoemd als zeldzame masdar van qatala?",
+     "options": [
+      "qittal",
+      "taqtil",
+      "qatl",
+      "maqtal"
+     ],
+     "explanation": "Qittal en qital, naast het regelmatige patroon."
+    },
+    {
+     "prompt": "In bi-ayyikumu al-maftunu wordt al-maftun opgevat als…",
+     "options": [
+      "een naamwoord van plaats",
+      "een masdar op het patroon maf'ul",
+      "een bevel",
+      "een actief deelwoord"
+     ],
+     "explanation": "“Wie van jullie de beproeving heeft”: de masdar op het patroon van het passief deelwoord."
+    },
+    {
+     "prompt": "De regelmatige masdar van istakhraja is…",
+     "options": [
+      "takhrij",
+      "ikhraj",
+      "istikhraj",
+      "makhraj"
+     ],
+     "explanation": "Istaf'ala geeft istif'al: istikhraj."
+    }
+   ],
+   "diagram": {
+    "caption": "Enkele van de tweeëndertig patronen van de masdar van het drieletterige (Marah, blz. 7)",
+    "labels": {
+     "Patterns": "Patronen",
+     "Examples": "Voorbeelden",
+     "faʿl, fiʿl, fuʿl": "fa'l, fi'l, fu'l",
+     "faʿla, fiʿla, fuʿla": "fa'la, fi'la, fu'la",
+     "faʿlā, fiʿlā, fuʿlā": "fa'la, fi'la, fu'la [met korte alif]",
+     "-ān": "-an",
+     "faʿal, faʿil, fiʿal, fuʿal": "fa'al, fa'il, fi'al, fu'al",
+     "faʿala, faʿila": "fa'ala, fa'ila",
+     "faʿāl, fiʿāl, fuʿāl": "fa'al, fi'al, fu'al [met lange a]",
+     "faʿāla, fiʿāla": "fa'ala, fi'ala [met lange a]",
+     "fuʿūl, faʿūl, faʿīl, fuʿūla": "fu'ul, fa'ul, fa'il, fu'ula [met lange u en i]",
+     "with mīm": "met mim"
+    }
+   }
+  },
+  "5": {
+   "title": "De zes babs van het drieletterige, en de drie pijlers",
+   "body": [
+    "“De werkwoorden die van de masdar zijn afgeleid, zijn vijfendertig babs”, en zes daarvan horen bij het kale drieletterige. Een bab is hier een paar klinkers op de 'ayn in de verleden en de toekomende tijd: daraba yadribu (a–i), qatala yaqtulu (a–u), 'alima ya'lamu (i–a), fataha yaftahu (a–a), karuma yakrumu (u–u) en hasiba yahsibu (i–i). De vervoegingsengine noemt de tweede bab naar nasara yansuru; qatala yaqtulu is dezelfde klasse.",
+    "“De eerste drie heten de pijlers van de babs” (da'a'im al-abwab), om twee redenen: hun klinkers verschillen in de verleden en de toekomende tijd, en ze zijn talrijk. Fataha yaftahu is geen pijler: zijn klinkers verschillen niet, en hij “komt niet zonder een keelletter”: een hamza, ha' (de lichte h), 'ayn, ha' (de zware h), ghayn of kha' als zijn 'ayn of lam, zoals de ha' (de zware h) van fataha.",
+    "En werkwoorden met a–a zonder keelletter? Rakana yarkanu, “leunen”, en aba ya'ba, “weigeren”, zijn “uit vermengde dialecten en uit het onregelmatige”: zoals de term gewoonlijk wordt uitgelegd, is de verleden tijd van het ene dialect verbonden met de toekomende tijd van een ander. Baqa yabqa, fana yafna en qala yaqla zijn het dialect van Tayyi', “die van de kasra naar de fatha vluchtten”: zij zeggen baqa waar anderen baqiya zeggen, dus dit zijn eigenlijk fa'ila yaf'alu.",
+    "Karuma yakrumu is evenmin een pijler, “omdat hij alleen van aard en eigenschappen komt”: edel zijn, mooi zijn, nooit een handeling die iemand wordt aangedaan. Hasiba yahsibu is geen pijler “omdat hij zeldzaam is”. Een zevende paar, fa'ila yaf'ulu, is slechts een onregelmatigheid, zoals fadila yafdulu, “overblijven”.",
+    "De pijlers zijn van belang omdat een leerling die een nieuw werkwoord tegenkomt, meestal een van hen tegenkomt. Als je alleen de verleden tijd hoort, kun je de bab niet zien: daraba en qatala hebben allebei fatha. De toekomende tijd beslist; daarom zegt de madrasa de twee altijd samen op: daraba yadribu, qatala yaqtulu."
+   ],
+   "terms": [
+    "een vervoegingsklasse: de klinker van de 'ayn in verleden en toekomende tijd",
+    "de pijlers van de babs: daraba, qatala, 'alima",
+    "de keelletters: hamza, ha' (de lichte h), 'ayn, ha' (de zware h), ghayn, kha'",
+    "vermengde dialecten: een verleden en een toekomende tijd uit verschillende dialecten",
+    "het onregelmatige: wat de regel breekt"
+   ],
+   "examples": [
+    "rakana yarkanu, aba ya'ba: a–a zonder keelletter, uit vermengde dialecten",
+    "baqa yabqa, fana yafna, qala yaqla: het dialect van Tayyi'",
+    "fadila yafdulu: fa'ila yaf'ulu, onregelmatig",
+    "de verleden tijd, de toekomende tijd en het bevel van twee pijlers (vervoegingsengine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef twee redenen waarom fataha yaftahu niet een van de pijlers is.",
+     "answer": "Zijn klinkers verschillen niet tussen verleden en toekomende tijd (a–a), en hij komt niet zonder een keelletter als zijn 'ayn of lam."
+    },
+    {
+     "prompt": "Waarom breekt baqa yabqa de regel niet dat a–a een keelletter nodig heeft?",
+     "answer": "Het is het dialect van Tayyi', die de kasra in een fatha veranderen: in andere dialecten is het baqiya yabqa, fa'ila yaf'alu, dat geen keelletter nodig heeft."
+    },
+    {
+     "prompt": "Geef de verleden tijd, de toekomende tijd en het bevel van 'alima en qatala uit de vervoegingsengine.",
+     "answer": "'Alima ya'lamu i'lam (uit de engine: عَلِمَ يَعْلَمُ اِعْلَمْ); qatala yaqtulu uqtul (قَتَلَ يَقْتُلُ اُقْتُلْ)."
+    },
+    {
+     "prompt": "Waarom is karuma yakrumu geen pijler?",
+     "answer": "Hij komt alleen voor aard en eigenschappen (edel zijn, knap zijn), nooit voor handelingen; het is dus een smalle klasse en niet een van de hoofdklassen."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel babs horen bij het kale drieletterige?",
+     "options": [
+      "Drie",
+      "Zes",
+      "Twaalf",
+      "Vijfendertig"
+     ],
+     "explanation": "Daraba, qatala, 'alima, fataha, karuma en hasiba."
+    },
+    {
+     "prompt": "Welke is GEEN van de drie pijlers?",
+     "options": [
+      "daraba yadribu",
+      "qatala yaqtulu",
+      "fataha yaftahu",
+      "'alima ya'lamu"
+     ],
+     "explanation": "Zijn klinkers verschillen niet, en hij heeft een keelletter nodig."
+    },
+    {
+     "prompt": "Waarom heten de pijlers pijlers?",
+     "options": [
+      "Ze zijn het oudst",
+      "Ze hebben keelletters",
+      "Ze zijn zeldzaam",
+      "Hun klinkers verschillen in verleden en toekomende tijd, en ze zijn talrijk"
+     ],
+     "explanation": "Beide redenen staan in de passage."
+    },
+    {
+     "prompt": "Baqa yabqa wordt uitgelegd als…",
+     "options": [
+      "het dialect van Tayyi', dat van kasra naar fatha vlucht",
+      "een werkwoord met een keelletter",
+      "een pijler",
+      "fa'ula yaf'ulu"
+     ],
+     "explanation": "Anderen zeggen baqiya; Tayyi' maken van de kasra een fatha."
+    },
+    {
+     "prompt": "Karuma yakrumu komt alleen voor…",
+     "options": [
+      "handelingen van het lichaam",
+      "aard en eigenschappen",
+      "het passief",
+      "werkwoorden met een keelletter"
+     ],
+     "explanation": "Edel zijn, knap zijn: toestanden, geen handelingen die anderen worden aangedaan."
+    },
+    {
+     "prompt": "Hasiba yahsibu is geen pijler omdat hij…",
+     "options": [
+      "onregelmatig is",
+      "een dialectvorm is",
+      "zeldzaam is",
+      "verdubbeld is"
+     ],
+     "explanation": "“Omdat hij zeldzaam is.”"
+    },
+    {
+     "prompt": "Rakana yarkanu is…",
+     "options": [
+      "een pijler",
+      "een werkwoord met een keelletter",
+      "het dialect van Tayyi'",
+      "uit vermengde dialecten en het onregelmatige"
+     ],
+     "explanation": "A–a zonder keelletter: het boek noemt het vermengde dialecten en onregelmatig."
+    }
+   ],
+   "diagram": {
+    "caption": "De zes babs van het drieletterige (Marah, blz. 8)",
+    "labels": {
+     "Vowels": "Klinkers",
+     "Past": "Verleden tijd",
+     "Future": "Toekomende tijd",
+     "Standing": "Rang",
+     "a – i": "a – i",
+     "pillar": "pijler",
+     "a – u": "a – u",
+     "i – a": "i – a",
+     "a – a": "a – a",
+     "needs a throat letter": "heeft een keelletter nodig",
+     "u – u": "u – u",
+     "natures and qualities": "aard en eigenschappen",
+     "i – i": "i – i",
+     "rare": "zeldzaam"
+    }
+   }
+  },
+  "6": {
+   "title": "De vijfendertig babs: vermeerderde, vierletterige en aangehechte werkwoorden",
+   "body": [
+    "De vijfendertig babs tellen op zoals de druk ze telt: zes voor het kale drieletterige (les 5), twaalf voor zijn vertakkingen, één voor het kale vierletterige, drie voor zijn vertakkingen, en dertien aangehechte vormen. De twaalf “vertakkingen van het drieletterige” (munsha'ibat al-thulathi) zijn de vermeerderde patronen: akrama, qatta'a, qatala, tafaddala, tadaraba, insarafa, ihtaqara, istakhraja, ikhshawshana, ijlawwadha, ihmarra [met alif] en ihmarra.",
+    "De laatste twee verbergen hun patroon. Hun grondvormen zijn ihmarara [met alif] en ihmarara; de twee ra's “zijn samengetrokken omdat ze van één soort zijn”. Het bewijs is ir'awa, “hij liet af”: een gebrekkig werkwoord van hetzelfde patroon if'alla, waarvan de laatste twee letters, van verschillende soort, niet worden samengetrokken. Ir'awa toont openlijk de vorm die ihmarra verbergt.",
+    "Het vierletterige heeft één kale bab, dahraja, “hij rolde”, en drie vertakkingen: ihranjama, iqsha'arra en tadahraja. Dan komen de aangehechte vormen (mulhaq): drieletterige wortels die één toegevoegde letter krijgen, zodat ze de vorm van een vierletterig werkwoord aannemen en zoals dat vervoegd worden. Zes zijn aangehecht aan dahraja (shamlala, hawqala, baytara, jahwara, qalnasa, qalsa), vijf aan tadahraja (tajalbaba, tajawraba, tashaytana, tarahwaka, tamaskana) en twee aan ihranjama (iq'ansasa, islanqa).",
+    "“Het bewijs van de aanhechting is dat de twee masdars één zijn”: hawqala maakt hawqala(tan) zoals dahraja dahraja(tan) maakt, dus hawqala is aangehecht. Volgens dezelfde toets is akrama, hoewel het vier letters heeft, niet aan dahraja aangehecht: zijn masdar is ikram, geen fa'lala. Het is een vermeerderd drieletterig werkwoord met een eigen betekenis.",
+    "De vervoegingsengine geeft de twaalf vertakkingen waar de wortel gaaf is: akrama yukrimu ikram, istakhraja yastakhriju istikhraj. Het vierletterige en de aangehechte vormen geeft hij niet; daarvoor zegt de madrasa dahraja, yudahriju, dahrajatan op, zoals de Maqsud doet."
+   ],
+   "terms": [
+    "de vertakkingen van het drieletterige: zijn vermeerderde patronen",
+    "het vierletterige: een werkwoord van vier stamletters, dahraja",
+    "het aangehechte: een drieletterig werkwoord dat een letter krijgt om een vierletterige vorm aan te nemen",
+    "samentrekking omdat de twee letters van één soort zijn",
+    "het bewijs van de aanhechting: hetzelfde patroon van de masdar"
+   ],
+   "examples": [
+    "akrama, qatta'a, qatala: de eerste drie vertakkingen van het drieletterige",
+    "ihmarara [met alif], ihmarara: de grondvormen van ihmarra [met alif] en ihmarra",
+    "shamlala, hawqala, baytara: aangehecht aan dahraja",
+    "twee vertakkingen met verleden tijd, toekomende tijd en masdar (vervoegingsengine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Tel de vijfendertig babs op zoals het boek ze telt.",
+     "answer": "Zes voor het kale drieletterige, twaalf voor zijn vertakkingen, één voor het kale vierletterige, drie voor zijn vertakkingen, zes aangehecht aan dahraja, vijf aangehecht aan tadahraja en twee aangehecht aan ihranjama: 6 + 12 + 1 + 3 + 6 + 5 + 2 = 35."
+    },
+    {
+     "prompt": "Wat is de grondvorm van ihmarra, en wat bewijst die?",
+     "answer": "Ihmarara: de twee ra's, van één soort, zijn samengetrokken. Het bewijs is ir'awa, een gebrekkig werkwoord van hetzelfde patroon, waarvan de laatste letters niet van één soort zijn en dus gescheiden blijven, zodat de volle vorm van het patroon te zien is."
+    },
+    {
+     "prompt": "Is hawqala aangehecht aan dahraja? En akrama? Gebruik de toets van het boek.",
+     "answer": "De toets is dat de twee masdars één zijn. Hawqala heeft een masdar op het patroon van dahraja, dus het is aangehecht. De masdar van akrama is ikram, niet op dat patroon, dus het is niet aangehecht: het is een vermeerderd drieletterig werkwoord."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel vertakkingen van het drieletterige telt het boek?",
+     "options": [
+      "Zes",
+      "Drie",
+      "Twaalf",
+      "Dertien"
+     ],
+     "explanation": "Van akrama tot ihmarra."
+    },
+    {
+     "prompt": "De grondvorm van ihmarra is…",
+     "options": [
+      "hamara",
+      "ihmarara [met alif]",
+      "ahmara",
+      "ihmarara"
+     ],
+     "explanation": "De twee ra's van ihmarara zijn samengetrokken."
+    },
+    {
+     "prompt": "Wat bewijst ir'awa?",
+     "options": [
+      "de niet-samengetrokken vorm van het patroon if'alla",
+      "dat ihmarra vierletterig is",
+      "dat gebrekkige werkwoorden zeldzaam zijn",
+      "dat samentrekking altijd verplicht is"
+     ],
+     "explanation": "Zijn laatste letters zijn niet van één soort, dus blijven ze gescheiden."
+    },
+    {
+     "prompt": "Het bewijs van de aanhechting (ilhaq) is…",
+     "options": [
+      "dat het werkwoord vier letters heeft",
+      "dat de twee masdars één zijn",
+      "dat het zeldzaam is",
+      "dat het een hamza heeft"
+     ],
+     "explanation": "“Het bewijs van de aanhechting is dat de twee masdars één zijn.”"
+    },
+    {
+     "prompt": "Hawqala is aangehecht aan…",
+     "options": [
+      "tadahraja",
+      "ihranjama",
+      "dahraja",
+      "akrama"
+     ],
+     "explanation": "Het is een van de zes die aan dahraja zijn aangehecht."
+    },
+    {
+     "prompt": "Welke is een vertakking van het vierletterige?",
+     "options": [
+      "qatala",
+      "hawqala",
+      "istakhraja",
+      "iqsha'arra"
+     ],
+     "explanation": "Ihranjama, iqsha'arra en tadahraja zijn de drie."
+    },
+    {
+     "prompt": "Tajalbaba, “zij deed een jilbab aan”, is aangehecht aan…",
+     "options": [
+      "tadahraja",
+      "dahraja",
+      "ihranjama",
+      "tafaddala"
+     ],
+     "explanation": "Het is een van de vijf die aan tadahraja zijn aangehecht."
+    }
+   ],
+   "diagram": {
+    "caption": "Hoe de vijfendertig babs optellen (Marah, blz. 8–10)",
+    "labels": {
+     "The thirty-five bābs": "De vijfendertig babs",
+     "Bare triliteral: 6": "Kaal drieletterig: 6",
+     "Its branches: 12": "Zijn vertakkingen: 12",
+     "Bare quadriliteral: 1": "Kaal vierletterig: 1",
+     "Its branches: 3": "Zijn vertakkingen: 3",
+     "Attached forms: 13": "Aangehechte vormen: 13",
+     "To daḥraja: 6": "Aan dahraja: 6",
+     "To tadaḥraja: 5": "Aan tadahraja: 5",
+     "To iḥranjama: 2": "Aan ihranjama: 2"
+    }
+   }
+  },
+  "7": {
+   "title": "Waarom de verleden tijd op fatha gebouwd is",
+   "body": [
+    "De verleden tijd “komt in veertien vormen, zoals daraba tot darabna [met alif]”, en het boek stelt drie vragen over zijn uitgang. Waarom is hij gebouwd (mabni), zodat zijn laatste klinker nooit verandert? Waarom op een klinker en niet op een sukun? En waarom op de fatha? De antwoorden draaien om één idee: in hoeverre een werkwoord op een naamwoord lijkt, vooral op het actief deelwoord.",
+    "Hij is mabni “omdat wat de i'rab vereist ontbreekt”: het actief deelwoord heeft zijn vermogen om te regeren niet van de verleden tijd gekregen, zoals wel van de toekomende tijd, dus kreeg de verleden tijd daarvoor geen i'rab terug. Of, andersom gezegd: de mudari' krijgt i'rab omdat hij veel op het deelwoord lijkt, en de verleden tijd lijkt er weinig op. Toch lijkt hij een beetje op het naamwoord, doordat hij een onbepaald naamwoord kan beschrijven: marartu bi-rajulin daraba wa-daribin, “ik kwam langs een man die sloeg, en langs een die slaat”. Die kleine gelijkenis levert hem een klinker op in plaats van een sukun.",
+    "Waarom fatha? “Omdat zij de broer van de sukun is: de fatha is een deel van de alif, en de alif is de broer van de sukun.” Van de klinkers is de fatha de lichtste en het dichtst bij helemaal geen klinker, dus past zij bij een werkwoord dat maar één stap van de sukun af staat.",
+    "“Het bevel is mabni op de sukun gemaakt omdat het er niet op lijkt”, helemaal niet. Er zijn dus drie graden: de mudari', die veel op het naamwoord lijkt, krijgt i'rab; de verleden tijd, die er een beetje op lijkt, is gebouwd op de fatha; het bevel, dat er niet op lijkt, is gebouwd op de sukun.",
+    "Dan de uitgangen van de verleden tijd. Een alif, een waw en een nun werden toegevoegd om huma, hum en hunna aan te duiden: daraba [tweevoud], darabu, darabna. De ba' van darabu krijgt een damma ter wille van de waw. Niet zo in ramaw: de letter die voor de waw stond, was de ya' van ramayu, die is weggevallen, dus houdt de mim zijn fatha. In radu, van radiyu, krijgt de dad toch een damma, “zodat niet van een kasra naar een damma gegaan hoeft te worden”."
+   ],
+   "terms": [
+    "gebouwd: een woord waarvan de uitgang niet verandert",
+    "met veranderlijke uitgang: een woord waarvan de uitgang met zijn regeerder verandert",
+    "gelijkenis, hier van een werkwoord met het naamwoord",
+    "de broer van de sukun: de fatha, de lichtste klinker"
+   ],
+   "examples": [
+    "marartu bi-rajulin daraba wa-daribin: de verleden tijd die een onbepaald naamwoord beschrijft, zoals het deelwoord",
+    "darabu: de ba' krijgt damma voor de waw",
+    "ramaw: de mim houdt zijn fatha, want de ya' stond ertussen",
+    "radu: toch damma, om de overgang van kasra naar damma te vermijden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom is de verleden tijd op een klinker gebouwd en niet op een sukun?",
+     "answer": "Omdat hij een beetje op het naamwoord lijkt: zoals het actief deelwoord kan hij een onbepaald naamwoord beschrijven (marartu bi-rajulin daraba wa-daribin). Die kleine gelijkenis geeft hem een klinker, maar geen i'rab."
+    },
+    {
+     "prompt": "Waarom de fatha, van alle klinkers?",
+     "answer": "Omdat de fatha “de broer van de sukun” is: zij is een deel van de alif, en de alif is de broer van de sukun. Het is de lichtste klinker, het dichtst bij geen klinker."
+    },
+    {
+     "prompt": "Verklaar de klinker voor de waw in darabu, ramaw en radu.",
+     "answer": "Darabu: de ba' staat voor de waw en krijgt daarvoor een damma. Ramaw: de mim was niet de letter voor de waw (dat was de ya' van ramayu, en die is weggevallen), dus houdt hij zijn fatha. Radu: de dad stond evenmin voor de waw, maar krijgt een damma, zodat het woord niet van een kasra naar een damma gaat."
+    },
+    {
+     "prompt": "Rangschik de mudari', de verleden tijd en het bevel naar hoeveel ze op het naamwoord lijken, en geef de uitgang van elk.",
+     "answer": "De mudari' lijkt er veel op en is mu'rab; de verleden tijd lijkt er een beetje op en is gebouwd op de fatha; het bevel lijkt er niet op en is gebouwd op de sukun."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In hoeveel vormen komt de verleden tijd?",
+     "options": [
+      "Twaalf",
+      "Zes",
+      "Negen",
+      "Veertien"
+     ],
+     "explanation": "Daraba tot darabna [met alif]: veertien vormen."
+    },
+    {
+     "prompt": "De verleden tijd is mabni op…",
+     "options": [
+      "de fatha",
+      "de sukun",
+      "de damma",
+      "de kasra"
+     ],
+     "explanation": "Op een klinker, en wel op de fatha, de broer van de sukun."
+    },
+    {
+     "prompt": "Waarom heeft de verleden tijd überhaupt een klinker?",
+     "options": [
+      "Hij is mu'rab",
+      "Hij lijkt een beetje op het naamwoord: hij beschrijft een onbepaald naamwoord",
+      "Hij heeft een keelletter",
+      "Hij is de oorsprong"
+     ],
+     "explanation": "Marartu bi-rajulin daraba wa-daribin."
+    },
+    {
+     "prompt": "Het bevel is mabni op de sukun omdat…",
+     "options": [
+      "het veel op het naamwoord lijkt",
+      "het de oorsprong is",
+      "het niet op het naamwoord lijkt",
+      "het kort is"
+     ],
+     "explanation": "Geen gelijkenis, dus geen klinker."
+    },
+    {
+     "prompt": "Welke vorm is mu'rab, volgens het boek?",
+     "options": [
+      "de verleden tijd",
+      "het bevel",
+      "geen van alle",
+      "de mudari'"
+     ],
+     "explanation": "Hij lijkt veel op het actief deelwoord."
+    },
+    {
+     "prompt": "Waarom houdt de mim in ramaw zijn fatha?",
+     "options": [
+      "De ya', nu weggevallen, stond voor de waw",
+      "Vanwege de keel",
+      "Het is een dialect",
+      "Het is passief"
+     ],
+     "explanation": "De grondvorm is ramayu."
+    },
+    {
+     "prompt": "De toegevoegde alif, waw en nun van de verleden tijd duiden op…",
+     "options": [
+      "ana, nahnu en anta",
+      "huma, hum en hunna",
+      "de verleden tijd",
+      "het passief"
+     ],
+     "explanation": "Daraba [tweevoud], darabu, darabna."
+    }
+   ],
+   "diagram": {
+    "caption": "Drie graden van gelijkenis met het naamwoord (Marah, blz. 11–12; vormen uit de vervoegingsengine)",
+    "labels": {
+     "Form": "Vorm",
+     "Example": "Voorbeeld",
+     "Resemblance": "Gelijkenis",
+     "Ending": "Uitgang",
+     "the future (muḍāriʿ)": "de toekomende tijd (mudari')",
+     "much": "veel",
+     "muʿrab": "mu'rab",
+     "the past": "de verleden tijd",
+     "a little": "een beetje",
+     "mabnī on the fatḥa": "mabni op de fatha",
+     "the command": "het bevel",
+     "none": "geen",
+     "mabnī on the sukūn": "mabni op de sukun"
+    }
+   }
+  },
+  "8": {
+   "title": "De ta' van het vrouwelijke, en de sukun voor het voornaamwoord",
+   "body": [
+    "Vier passages lopen de veertien vormen door. Eerst de spelling: na de waw van darabu wordt een alif geschreven om aan te geven waar het woord eindigt, zodat de waw van het meervoud niet wordt aangezien voor de waw “en” in een zinsdeel als hadaru wa-takallama Zaydun; of, zoals anderen zeggen, om haar te onderscheiden van de waw die bij de wortel hoort, zoals in lan yad'uwa, dat zonder alif geschreven wordt.",
+    "De ta' van darabat duidt het vrouwelijke aan “omdat de ta' van de tweede uitspraakplaats is, en het vrouwelijke is ook het tweede in de schepping”: Eva werd na Adam geschapen. Deze ta' “is geen voornaamwoord”; les 14 laat zien waarom. Dan een regel van ritme: in darabna en darabta wordt de ba' zonder klinker gemaakt “zodat er geen vier klinkers achter elkaar samenkomen in wat als één woord is”. Het voornaamwoord van de doener is zo aan het werkwoord gebonden dat da-ra-ba-ta vier klinkers in één woord zouden zijn.",
+    "Hieruit leidt het boek een regel van de nahw af: je kunt geen naamwoord aan dat voornaamwoord nevenschikken zonder een nadruk; niet darabtu wa-Zaydun maar darabtu ana wa-Zaydun, “ik en Zayd sloegen”. Drie gevallen breken de regel niet. In darabata “telt de ta' als zonder klinker”: haar fatha is alleen geleend van de alif; daarom laat ramata de alif van rama vallen (ramata [met alif] is “een slecht dialect”). In darabaka is het voornaamwoord een lijdend voorwerp, geen deel van het werkwoord. En hudabid en 'ulabit zijn ingekort uit hudabid [met alif] en 'ulabit [met alif], zoals mikhyat uit mikhyat [met alif].",
+    "De ta' valt weg in darabna, “zodat er geen twee kentekens van het vrouwelijke samenkomen”. In muslimat valt de ta' van muslima weg voor -at, omdat de twee van één soort zijn; in hublayat blijft de alif van hubla, want alif en ta' zijn niet van één soort. De ta' en de nun van darabna zijn evenmin van één soort, maar de ta' gaat weg “vanwege de zwaarte van het werkwoord”.",
+    "Ten slotte de gedeelde vormen: het tweevoud van “jij” is darabtuma voor mannen en vrouwen gelijk, en de spreker heeft darabtu en darabna [met alif] voor beide, omdat het tweevoud weinig gebruikt wordt, voornaamwoorden voor beknoptheid gemaakt zijn, en over de spreker, gezien of gehoord, nooit twijfel bestaat."
+   ],
+   "terms": [
+    "de vrouwelijke ta' met sukun: darabat",
+    "een reeks klinkers, die de taal boven de drie vermijdt",
+    "als één woord: het werkwoord met het voornaamwoord van zijn doener",
+    "de twee kentekens van het vrouwelijke, die niet samenkomen"
+   ],
+   "examples": [
+    "darabtu ana wa-Zaydun: nevenschikking aan het voornaamwoord na een nadruk",
+    "ramata, en ramata [met alif] van het slechte dialect",
+    "hudabid [met alif] en 'ulabit [met alif]: de grondvormen van hudabid en 'ulabit",
+    "muslimat laat de ta' van muslima vallen; hublayat houdt de alif van hubla"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom is de ba' zonder klinker in darabna en darabta, maar niet in darabaka?",
+     "answer": "Het voornaamwoord van de doener is als een deel van het werkwoord, dus da-ra-ba-na zouden vier klinkers achter elkaar in één woord zijn; de ba' wordt zonder klinker gemaakt om dat te vermijden. In darabaka is het voornaamwoord een lijdend voorwerp (mansub), niet als een deel van het woord, dus zijn de vier klinkers toegestaan."
+    },
+    {
+     "prompt": "Waarom heeft ramata geen alif na de mim?",
+     "answer": "De ta' telt als zonder klinker, want haar fatha is geleend van de alif van het tweevoud; de alif van rama ontmoet haar als voor een letter zonder klinker en valt weg. Alleen een slecht dialect zegt ramata [met alif]."
+    },
+    {
+     "prompt": "Waarom kun je niet darabtu wa-Zaydun zeggen?",
+     "answer": "Het voornaamwoord -tu is als een deel van het werkwoord, dus een naamwoord kan er niet rechtstreeks met “en” aan nevengeschikt worden; eerst is de nadruk nodig: darabtu ana wa-Zaydun."
+    },
+    {
+     "prompt": "Welke personen delen in de verleden tijd één vorm, en waarom?",
+     "answer": "Het tweevoud van “jij” (darabtuma, mannen en vrouwen) en de spreker (darabtu, darabna [met alif], mannen en vrouwen). Het tweevoud wordt weinig gebruikt, voornaamwoorden worden kort gemaakt, en over een spreker, die gezien of gehoord wordt, bestaat geen twijfel."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarom wordt na de waw van darabu een alif geschreven?",
+     "options": [
+      "Om de waw van het meervoud te onderscheiden van de waw “en”",
+      "Om de klinker te verlengen",
+      "Omdat hij uitgesproken wordt",
+      "Om het tweevoud aan te geven"
+     ],
+     "explanation": "Zoals in hadaru wa-takallama Zaydun; anderen zeggen: om haar te onderscheiden van de waw van lan yad'uwa."
+    },
+    {
+     "prompt": "De ta' van darabat is…",
+     "options": [
+      "het voornaamwoord van de doener",
+      "een kenteken van het vrouwelijke, geen voornaamwoord",
+      "een voornaamwoord van het lijdend voorwerp",
+      "een deel van de wortel"
+     ],
+     "explanation": "Het boek zegt het hier en bewijst het op blz. 25."
+    },
+    {
+     "prompt": "Waarom is de ba' van darabta zonder klinker?",
+     "options": [
+      "Vanwege de keel",
+      "Omdat het passief is",
+      "Om vier klinkers te vermijden in wat als één woord is",
+      "Om het vrouwelijke aan te geven"
+     ],
+     "explanation": "Het voornaamwoord van de doener telt als deel van het woord."
+    },
+    {
+     "prompt": "Wat is correct Arabisch, volgens het boek?",
+     "options": [
+      "darabtu wa-Zaydun",
+      "darabtu Zaydun wa",
+      "ana wa-Zaydun darabtu wa",
+      "darabtu ana wa-Zaydun"
+     ],
+     "explanation": "Nevenschikking aan het aangehechte voornaamwoord vraagt de nadruk ana."
+    },
+    {
+     "prompt": "Waarom valt de ta' weg in darabna?",
+     "options": [
+      "Zodat er geen twee kentekens van het vrouwelijke samenkomen",
+      "Zodat er geen vier klinkers samenkomen",
+      "Omdat de nun een stamletter is",
+      "Zij valt niet weg"
+     ],
+     "explanation": "Het werkwoord is zwaar, dus gaat de ta' weg, hoewel zij en de nun niet van één soort zijn."
+    },
+    {
+     "prompt": "Ramata [met alif] is…",
+     "options": [
+      "de gewone vorm",
+      "een slecht dialect",
+      "een passief",
+      "een naamwoord"
+     ],
+     "explanation": "De gewone vorm is ramata, zonder de alif."
+    },
+    {
+     "prompt": "Darabtuma wordt gebruikt voor…",
+     "options": [
+      "alleen twee mannen",
+      "alleen twee vrouwen",
+      "twee aangesproken mannen en twee aangesproken vrouwen",
+      "de spreker"
+     ],
+     "explanation": "De tweevouden van de aangesproken man en vrouw zijn gelijk gemaakt."
+    }
+   ],
+   "diagram": {
+    "caption": "De veertien vormen van de verleden tijd van daraba (vervoegingsengine)",
+    "labels": {
+     "Person": "Persoon",
+     "Masculine": "Mannelijk",
+     "Feminine": "Vrouwelijk",
+     "he, she": "hij, zij",
+     "they two": "zij tweeën",
+     "they": "zij",
+     "you": "jij",
+     "you two": "jullie tweeën",
+     "you (plural)": "jullie",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "9": {
+   "title": "De vormen van “jij” en “ik” in de verleden tijd",
+   "body": [
+    "Waarom darabtuma en niet darabta [met alif]? Zonder de mim zou de alif aangezien kunnen worden voor “de alif van de verlenging”, de lange klinker die een dichter aan het eind van een versregel toevoegt, zoals in fa-kayfa anta [met alif], “hoe gaat het dan met jou?”, waar anta [met alif] alleen een uitgerekte anta is. De mim werd gekozen “omdat eronder antuma verondersteld is”: elke uitgang weerspiegelt zijn losse voornaamwoord. Haar ta' heeft een damma “omdat zij het voornaamwoord van de doener is”; het enkelvoud darabta heeft alleen een fatha om het van darabtu te onderscheiden, een gevaar dat het tweevoud niet kent.",
+    "In darabtum houdt de mim gelijke tred met het tweevoud, en het eigen voornaamwoord van het meervoud, de waw, is weggevallen: de grondvorm is darabtumu. De mim “staat als een naamwoord”, en geen naamwoord eindigt op een waw na een damma behalve huwa; zo wordt adluwun, het meervoud van dalw, “emmer”, adlin. De waw blijft in darabu, waarvan de ba' niet als een naamwoord is, en zij komt terug in darabtumuhu, “jullie sloegen hem”, waar het aangehechte voornaamwoord van het lijdend voorwerp haar van het eind weghoudt.",
+    "Darabtunna heeft een verdubbelde nun, anders dan darabna, omdat de grondvorm darabtumna is: de mim is in de nun samengetrokken, omdat de twee dicht bij elkaar liggen; dezelfde nabijheid laat 'ambar zeggen voor 'anbar, “amber”. Een andere opvatting: de grondvorm was darabtuna; elke nun van de vrouwen wil een letter zonder klinker voor zich, de ta' kon niet zonder klinker gemaakt of weggelaten worden, dus werd er een nun ingevoegd en samengetrokken.",
+    "Darabtu heeft een ta' “omdat eronder ana verondersteld is”: een letter van ana zelf zou verwarring geven (een alif zou op het tweevoud lijken, een nun op het meervoud van de vrouwen), dus werd de ta' genomen van haar zusters darabta en darabti. Darabna [met alif] heeft de nun van nahnu, en een alif erna “zodat het niet verward wordt met darabna”.",
+    "Geen van deze redenen is nodig om te vervoegen; de vormen worden uit de tabel geleerd. De madrasa leest ze om de gewoonte te oefenen die het hele boek leert: elke letter van een vorm is er om een reden, en die reden kan genoemd worden."
+   ],
+   "terms": [
+    "de alif van de verlenging aan het eind van een versregel",
+    "het aangehechte voornaamwoord: -tuma, -tum, -tunna, -tu, -na",
+    "staan als een naamwoord: gezegd van de mim van -tum",
+    "samentrekking: de mim van darabtumna in de nun"
+   ],
+   "examples": [
+    "fa-kayfa anta [met alif]: anta verlengd aan het eind van een versregel",
+    "darabtumu, de grondvorm van darabtum; darabtumuhu, waar de waw terugkomt",
+    "adlin, met als grondvorm adluwun: geen naamwoord eindigt op waw na damma",
+    "darabtumna: de grondvorm van darabtunna"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom heeft darabtuma een mim?",
+     "answer": "Zonder mim zou darabta [met alif] aangezien kunnen worden voor darabta met de alif van de verlenging die dichters aan het eind van een versregel toevoegen (fa-kayfa anta [met alif]). De mim werd gekozen omdat antuma eronder verondersteld is."
+    },
+    {
+     "prompt": "Geef de grondvorm van darabtum en zeg waarom de waw wegviel.",
+     "answer": "Darabtumu. De mim staat als een naamwoord, en geen naamwoord eindigt op een waw na een damma behalve huwa, dus werd de waw weggelaten, zoals adluwun adlin werd."
+    },
+    {
+     "prompt": "Waarom komt de waw terug in darabtumuhu?",
+     "answer": "Omdat het voornaamwoord van het lijdend voorwerp -hu erachter vastzit, zodat de waw niet meer aan het eind van het woord staat; alleen een laatste waw na een damma wordt vermeden."
+    },
+    {
+     "prompt": "Geef beide opvattingen over de grondvorm van darabtunna.",
+     "answer": "Ten eerste: darabtumna, met de mim in de nun samengetrokken omdat de twee dicht bij elkaar liggen. Ten tweede: darabtuna; omdat elke nun van de vrouwen een letter zonder klinker voor zich nodig heeft en de ta' niet zonder klinker gemaakt of weggelaten kon worden, werd een nun toegevoegd en samengetrokken."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De mim van darabtuma onderscheidt het van…",
+     "options": [
+      "het tweevoud van de afwezige",
+      "de alif van de verlenging",
+      "het passief",
+      "het bevel"
+     ],
+     "explanation": "Zoals in het vers dat eindigt op fa-kayfa anta [met alif]."
+    },
+    {
+     "prompt": "Waarom heeft de ta' van darabtuma een damma?",
+     "options": [
+      "Zij volgt de keelletter",
+      "Zij is een kenteken van het vrouwelijke",
+      "Zij is het voornaamwoord van de doener",
+      "Het is een dialect"
+     ],
+     "explanation": "Het enkelvoud darabta krijgt alleen fatha om van darabtu te verschillen."
+    },
+    {
+     "prompt": "De grondvorm van darabtum is…",
+     "options": [
+      "darabtuma",
+      "darabtumna",
+      "darabu",
+      "darabtumu"
+     ],
+     "explanation": "De laatste waw viel weg na de mim, die als een naamwoord staat."
+    },
+    {
+     "prompt": "Adlin, het meervoud van dalw, laat zien dat…",
+     "options": [
+      "geen naamwoord eindigt op een waw na een damma",
+      "de waw altijd blijft",
+      "meervouden geen waw hebben",
+      "de mim als een werkwoord staat"
+     ],
+     "explanation": "Adluwun werd adlin."
+    },
+    {
+     "prompt": "De eerste opvatting geeft als grondvorm van darabtunna…",
+     "options": [
+      "darabtuna [met alif]",
+      "darabtumna",
+      "darabna [met alif]",
+      "darabtum"
+     ],
+     "explanation": "De mim is in de nun samengetrokken."
+    },
+    {
+     "prompt": "Waarom werd de ta' gekozen voor darabtu?",
+     "options": [
+      "Zij is een letter van ana",
+      "Zij duidt het vrouwelijke aan",
+      "Een letter van ana zou verwarring geven, en de ta' staat in haar zusters",
+      "Zij is een keelletter"
+     ],
+     "explanation": "Darabta en darabti hebben ook de ta'."
+    },
+    {
+     "prompt": "De alif van darabna [met alif] onderscheidt het van…",
+     "options": [
+      "daraba [tweevoud]",
+      "darabtuma",
+      "darabat",
+      "darabna"
+     ],
+     "explanation": "“Zodat het niet verward wordt met darabna.”"
+    }
+   ],
+   "diagram": {
+    "caption": "Waarom de vormen van “jij” en “ik” eruitzien zoals ze eruitzien (Marah, blz. 14–17)",
+    "labels": {
+     "Form": "Vorm",
+     "Feature": "Kenmerk",
+     "Reason": "Reden",
+     "the mīm": "de mim",
+     "not to be taken for the alif of lengthening": "niet aan te zien voor de alif van de verlenging",
+     "ḍamma on the tāʾ": "damma op de ta'",
+     "the doer's pronoun; no confusion in the dual": "het voornaamwoord van de doener; geen verwarring in het tweevoud",
+     "the wāw dropped (ḍarabtumū)": "de waw weggevallen (darabtumu)",
+     "no noun ends in wāw after ḍamma": "geen naamwoord eindigt op waw na damma",
+     "the doubled nūn (ḍarabtumna)": "de verdubbelde nun (darabtumna)",
+     "the mīm assimilated into the nūn": "de mim in de nun samengetrokken",
+     "the tāʾ": "de ta'",
+     "anā implied; the tāʾ taken from its sisters": "ana verondersteld; de ta' genomen van haar zusters",
+     "the alif after the nūn": "de alif na de nun",
+     "not to be confused with ḍarabna": "niet te verwarren met darabna"
+    }
+   }
+  },
+  "10": {
+   "title": "De zestig voornaamwoorden",
+   "body": [
+    "“De voornaamwoorden komen in de verleden tijd en haar zusters, en ze lopen op tot zestig soorten.” Het boek komt tot het getal door een berekening, zoals de madrasa een indeling graag stap voor stap opgebouwd ziet. In oorsprong zijn er drie: marfu', mansub en majrur, de voornaamwoorden van de drie toestanden. Elk is aan een woord aangehecht (muttasil) of los (munfasil): drie maal twee is zes.",
+    "Een van de zes is onmogelijk: het losse majrur. Een woord in jarr komt altijd na het partikel of naamwoord dat het in jarr zet, eraan verbonden; een los woord zou op zichzelf moeten staan, als voor zijn regeerder, dus “de majrur plaatsen voor wat hem in jarr zet” zou nodig zijn. Er blijven vijf klassen over: het aangehechte en het losse marfu', het aangehechte en het losse mansub, en het aangehechte majrur.",
+    "Vervolgens: hoeveel in één klasse? “Volgens de rede” achttien: zes voor de afwezige (hij, zij; de twee; zij, mannen en vrouwen), zes voor de aangesprokene, zes voor de spreker. Maar de afwezige man en vrouw delen één tweevoud, en zo ook de aangesproken man en vrouw: elk vijf. De spreker heeft er maar twee nodig, ik en wij, “omdat de spreker in de meeste gevallen gezien wordt, of het aan de stem bekend is” of een man of een vrouw spreekt. Vijf en vijf en twee is twaalf.",
+    "Twaalf in elk van vijf klassen: zestig. De twaalf aangehechte marfu' zijn de uitgangen van daraba tot darabna; de twaalf losse marfu' zijn huwa, huma, hum, hiya, hunna, anta, antuma, antum, anti, antunna, ana en nahnu, voor het werkwoord gezet: huwa daraba tot nahnu darabna. De volgende lessen behandelen de rest.",
+    "Verwar de twaalf niet met de veertien vormen van de verleden tijd (les 8). Het werkwoord heeft er veertien omdat het tweevoud van de afwezige twee vormen heeft, daraba [tweevoud] en darabata, en het tweevoud van “jij” twee keer geteld wordt; het voornaamwoord van het tweevoud, de alif, is één."
+   ],
+   "terms": [
+    "het aangehechte voornaamwoord, aan een woord verbonden",
+    "het losse voornaamwoord, een woord op zichzelf",
+    "de afwezige persoon: hij, zij (vrouw), zij (meervoud)",
+    "de sprekende persoon: ik, wij"
+   ],
+   "examples": [
+    "daraba tot darabna: de twaalf aangehechte marfu'",
+    "huwa daraba tot nahnu darabna: de twaalf losse marfu'"
+   ],
+   "tasks": [
+    {
+     "prompt": "Laat zien hoe het boek tot zestig voornaamwoorden komt.",
+     "answer": "Drie toestanden (marfu', mansub, majrur) maal aangehecht en los geeft zes; het losse majrur is onmogelijk, dus blijven er vijf klassen. Elke klasse heeft er twaalf (vijf voor de afwezige, vijf voor de aangesprokene, twee voor de spreker). Vijf maal twaalf is zestig."
+    },
+    {
+     "prompt": "Waarom is er geen los majrur voornaamwoord?",
+     "answer": "Een woord in jarr moet na, en verbonden met, wat het in jarr zet komen; een los majrur zou betekenen dat het voor (of los van) zijn regeerder komt, en dat is niet toegestaan."
+    },
+    {
+     "prompt": "Waarom heeft de spreker maar twee vormen, en de afwezige vijf?",
+     "answer": "De afwezige man en vrouw delen één tweevoud, dus hebben ze er vijf; de spreker wordt gezien of aan de stem herkend, dus is er geen vorm nodig voor een mannelijke of vrouwelijke spreker: alleen ik en wij."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel klassen van voornaamwoorden zijn er na de berekening?",
+     "options": [
+      "Zes",
+      "Drie",
+      "Vijf",
+      "Twaalf"
+     ],
+     "explanation": "Zes, min het losse majrur."
+    },
+    {
+     "prompt": "Welke klasse bestaat niet?",
+     "options": [
+      "Het losse mansub",
+      "Het aangehechte majrur",
+      "Het losse marfu'",
+      "Het losse majrur"
+     ],
+     "explanation": "Het majrur kan niet los staan van wat het in jarr zet."
+    },
+    {
+     "prompt": "Volgens de rede laat één klasse hoeveel vormen toe?",
+     "options": [
+      "Achttien",
+      "Twaalf",
+      "Veertien",
+      "Zes"
+     ],
+     "explanation": "Zes afwezig, zes aangesproken, zes sprekend, voor de vermindering tot twaalf."
+    },
+    {
+     "prompt": "Waarom heeft de spreker maar twee vormen nodig?",
+     "options": [
+      "Sprekers zijn altijd mannen",
+      "De spreker wordt gezien of aan de stem herkend",
+      "Het tweevoud is gewoon",
+      "Het werkwoord is zwaar"
+     ],
+     "explanation": "Dus hoeft de spreker niet als man of vrouw aangeduid te worden."
+    },
+    {
+     "prompt": "Hoeveel voornaamwoorden zijn er in totaal?",
+     "options": [
+      "Veertien",
+      "Vijfendertig",
+      "Zestig",
+      "Tweeënzeventig"
+     ],
+     "explanation": "Vijf klassen van twaalf."
+    },
+    {
+     "prompt": "Huwa daraba tot nahnu darabna toont…",
+     "options": [
+      "het aangehechte mansub",
+      "het aangehechte majrur",
+      "het losse mansub",
+      "het losse marfu'"
+     ],
+     "explanation": "Losse voornaamwoorden in de toestand van de doener."
+    },
+    {
+     "prompt": "Al-hikaya is in deze passage…",
+     "options": [
+      "de sprekende persoon",
+      "de afwezige persoon",
+      "het tweevoud",
+      "een verhaal"
+     ],
+     "explanation": "Zes volgens de rede voor de spreker, twee in gebruik."
+    }
+   ],
+   "diagram": {
+    "caption": "Vijf klassen van twaalf: de zestig voornaamwoorden (Marah, blz. 17–19)",
+    "labels": {
+     "Sixty pronouns": "Zestig voornaamwoorden",
+     "Marfūʿ": "Marfu'",
+     "Attached: 12": "Aangehecht: 12",
+     "Separate: 12": "Los: 12",
+     "Manṣūb": "Mansub",
+     "Majrūr": "Majrur",
+     "Attached only: 12": "Alleen aangehecht: 12"
+    }
+   }
+  },
+  "11": {
+   "title": "Huwa en hiya: de losse voornaamwoorden verklaard",
+   "body": [
+    "Als huwa zijn tweevoud en meervoud op de gewone manier maakte, zouden die huwa [met alif] en huwu zijn. In plaats daarvan “werd de waw in het meervoud een mim, omdat hun uitspraakplaats één is en er twee waws samenkomen”: waw en mim worden allebei met de lippen gevormd. Dat gaf humu; daarna viel de laatste waw weg, zoals in darabtumu (les 9), en het resultaat is hum. Het tweevoud huma “werd zo behandeld”; of de mim werd daar gezet “zodat de fatha op de krachtige mim valt” in plaats van op een zwakke waw. Antuma heeft zijn mim zoals darabtuma, en antum volgt dat.",
+    "Waarom houdt huwa zelf zijn waw? Een woord van twee letters, h en w, heeft minder dan “de juiste maat”: laat de waw weg en er blijft bijna niets over. Maar wanneer het door een ander woord “omarmd” wordt, valt zij wel weg: lahu, “aan hem”, is la + hu, want de letters van de twee samen zijn genoeg. De ha' houdt haar damma, lahu, tenzij er een kasra of een ya' zonder klinker voor staat: dan krijgt zij een kasra, ghulamihi, fihi, “zodat niet van een kasra naar een damma gegaan hoeft te worden”.",
+    "Hiya wordt behandeld als huwa. Haar ya' kan een alif worden, zoals de Arabieren ya ghulama zeggen voor ya ghulami, “o mijn knecht”, en ya badatu voor ya badiyatu. In het tweevoud wordt de ya' een mim, huma, “zodat de fatha niet op de zwakke ya' valt”. En hunna heeft een verdubbelde nun om dezelfde reden als darabtunna.",
+    "Twee regels reiken hier veel verder dan de voornaamwoorden. De taal vermijdt het om van een kasra rechtstreeks naar een damma te gaan: dat veranderde de buren van darabu in les 7 en verandert hier de ha' van ghulamihi. En een zwakke letter, waw of ya', is een slechte drager van een klinker, dus zet de taal de klinker liever op een krachtige letter. Beide komen terug in elk hoofdstuk over de zwakke werkwoorden."
+   ],
+   "terms": [
+    "het losse voornaamwoord: huwa, hiya, huma, hum, hunna",
+    "de juiste maat: het kleinste aantal letters dat een woord mag hebben",
+    "omarmen: een voornaamwoord verbonden met een ander woord, zoals lahu",
+    "van een kasra naar een damma gaan, wat de taal vermijdt"
+   ],
+   "examples": [
+    "huwa [met alif], huwu: de gewone tweevouden en meervouden die de taal niet gebruikte",
+    "humu: de stap tussen huwu en hum",
+    "lahu: de waw van huwa weggevallen bij het omarmen",
+    "ghulamihi, fihi: de ha' met kasra na kasra of ya'",
+    "ya ghulami, ya ghulama: een ya' die een alif is geworden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Volg hum stap voor stap terug tot zijn grondvorm.",
+     "answer": "Huwu (het gewone meervoud van huwa); de waw werd een mim omdat waw en mim hun uitspraakplaats delen en er twee waws samenkwamen: humu; daarna viel de laatste waw weg, zoals in darabtumu: hum."
+    },
+    {
+     "prompt": "Waarom houdt huwa op zichzelf zijn waw, maar verliest het die in lahu?",
+     "answer": "Op zichzelf heeft huwa minder letters dan de juiste maat, dus kan de waw niet weg. Omarmd door de lam hebben de twee woorden samen letters genoeg, en de waw staat aan het eind, dus valt zij weg, terwijl de ha' haar damma houdt."
+    },
+    {
+     "prompt": "Waarom ghulamihi en fihi, maar lahu?",
+     "answer": "Na een kasra (ghulami-) of een ya' zonder klinker (fi-) krijgt de ha' een kasra, om niet van een kasra naar een damma te gaan; na een fatha (la-) houdt zij haar damma."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het gewone meervoud van huwa zou geweest zijn…",
+     "options": [
+      "humu",
+      "hunna",
+      "huwa [met alif]",
+      "huwu"
+     ],
+     "explanation": "Daarna werd de waw een mim: humu, hum."
+    },
+    {
+     "prompt": "Waarom werd de waw in hum een mim?",
+     "options": [
+      "Ze delen een uitspraakplaats, en er kwamen twee waws samen",
+      "De mim is een keelletter",
+      "Voor het vrouwelijke",
+      "Vanwege het tweevoud"
+     ],
+     "explanation": "Waw en mim zijn allebei letters van de lippen."
+    },
+    {
+     "prompt": "De waw van huwa valt niet weg wanneer het op zichzelf staat, omdat…",
+     "options": [
+      "zij een stamletter is",
+      "het woord onder de juiste maat zou komen",
+      "zij een fatha heeft",
+      "het vrouwelijk is"
+     ],
+     "explanation": "Twee letters zijn te weinig om er een te verliezen."
+    },
+    {
+     "prompt": "Wat gebeurt er in lahu met de waw van huwa?",
+     "options": [
+      "Zij blijft",
+      "Zij wordt een ya'",
+      "Zij valt weg, omdat het voornaamwoord omarmd is",
+      "Zij wordt een mim"
+     ],
+     "explanation": "De verbonden letters zijn genoeg, en de waw staat aan het eind."
+    },
+    {
+     "prompt": "De ha' van fihi heeft een kasra omdat…",
+     "options": [
+      "zij vrouwelijk is",
+      "het een dialect is",
+      "zij de doener is",
+      "er een ya' zonder klinker voor staat"
+     ],
+     "explanation": "Om niet van kasra naar damma te gaan."
+    },
+    {
+     "prompt": "In het tweevoud van hiya wordt de ya'…",
+     "options": [
+      "een mim",
+      "een alif",
+      "een waw",
+      "een nun"
+     ],
+     "explanation": "Huma: de fatha mag niet op de zwakke ya' vallen."
+    },
+    {
+     "prompt": "Ya ghulama voor ya ghulami toont…",
+     "options": [
+      "een waw die een mim werd",
+      "een ya' die een alif werd",
+      "een weggevallen ha'",
+      "een verdubbelde nun"
+     ],
+     "explanation": "Zoals de ya' van hiya een alif mag worden."
+    }
+   ],
+   "diagram": {
+    "caption": "Hoe de losse voornaamwoorden ontstonden (Marah, blz. 19–21)",
+    "labels": {
+     "Form": "Vorm",
+     "From": "Van",
+     "Change": "Verandering",
+     "huwū → humū": "huwu → humu",
+     "wāw made mīm, final wāw dropped": "waw werd mim, laatste waw weggevallen",
+     "huwā": "huwa [met alif]",
+     "follows the plural; fatḥa on the strong mīm": "volgt het meervoud; fatha op de krachtige mim",
+     "la + huwa": "la + huwa",
+     "the wāw dropped when embraced": "de waw weggevallen bij het omarmen",
+     "ghulāmi + hu": "ghulami + hu",
+     "ḍamma to kasra after a kasra": "damma wordt kasra na een kasra",
+     "from hiya": "van hiya",
+     "yāʾ made mīm in the dual": "ya' werd mim in het tweevoud",
+     "as ḍarabtunna": "zoals darabtunna",
+     "the doubled nūn": "de verdubbelde nun"
+    }
+   }
+  },
+  "12": {
+   "title": "De voornaamwoorden van het lijdend voorwerp en de voornaamwoorden in jarr",
+   "body": [
+    "Twaalf aangehechte mansub voornaamwoorden volgen het werkwoord als zijn lijdend voorwerp: darabahu, “hij sloeg hem”, tot darabana, “hij sloeg ons”. Eén combinatie is niet toegestaan: het voornaamwoord van de doener en het voornaamwoord van het lijdend voorwerp voor dezelfde persoon, zoals darabtaka, “jij sloeg jou”, of darabtuni, “ik sloeg mij”, “zodat één persoon niet in één toestand doener en lijdend voorwerp wordt”. Om zichzelf te slaan gebruikt het Arabisch een naamwoord: darabta nafsaka, “jij sloeg jezelf”.",
+    "De uitzondering zijn “de werkwoorden van het hart” (af'al al-qulub), werkwoorden van weten en denken met twee voorwerpen: 'alimtaka fadilan, “jij wist dat jijzelf voortreffelijk was”, 'alimtuni fadilan, “ik wist dat ikzelf voortreffelijk was”. Die zijn toegestaan “omdat het eerste voorwerp in werkelijkheid geen voorwerp is”: wat geweten wordt, is niet de persoon maar een feit over hem, en de zin betekent 'alimta fadlaka, “jij kende je voortreffelijkheid”.",
+    "Twaalf losse mansub voornaamwoorden zijn gebouwd op iyya-: iyyahu daraba, “hem sloeg hij”, tot iyyana daraba, “ons sloeg hij”. Ze worden gebruikt wanneer het voorwerp voorop staat of niet aangehecht kan worden. Twaalf aangehechte majrur voornaamwoorden worden verbonden met een naamwoord in idafa of met een partikel van de jarr: daribuhu, “wie hem slaat”, tot daribuna, “wie ons slaat”.",
+    "Eén vorm vraagt uitleg: daribiyya, “zij die mij slaan”. Het meervoud daribuna [meervoud] verliest zijn nun in idafa en ontmoet de ya' van “mij”: daribuya. Dan “werd de waw een ya' en samengetrokken, zoals in mahdiyy”, het passief deelwoord met als grondvorm mahduy (les 57). Een waw en een ya' naast elkaar, de eerste zonder klinker, worden een verdubbelde ya': een regel die de hoofdstukken over het holle en het gebrekkige werkwoord steeds weer gebruiken."
+   ],
+   "terms": [
+    "het voornaamwoord van het lijdend voorwerp: -hu, -ka, -ni … en iyya-",
+    "het voornaamwoord in jarr, verbonden met een naamwoord of een partikel van de jarr",
+    "de werkwoorden van het hart: weten en denken, met twee voorwerpen",
+    "de basis van de losse voornaamwoorden van het lijdend voorwerp"
+   ],
+   "examples": [
+    "darabahu tot darabana: de twaalf aangehechte mansub",
+    "'alimtaka fadilan, 'alimtuni fadilan: doener en voorwerp één persoon, met een werkwoord van het hart",
+    "'alimta fadlaka: wat de zin betekent",
+    "daribiyya: uit daribuya, de waw werd ya' en samengetrokken"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom zegt men niet darabtuni, terwijl men wel 'alimtuni fadilan zegt?",
+     "answer": "In darabtuni zou één persoon tegelijk doener en voorwerp van dezelfde handeling zijn, en dat is niet toegestaan. 'Alimtuni fadilan heeft een werkwoord van het hart, waarvan het eerste voorwerp niet werkelijk een voorwerp is: de zin betekent 'alimtu fadli, “ik kende mijn voortreffelijkheid”."
+    },
+    {
+     "prompt": "Noem de klasse van elk voornaamwoord: de -hu van darabahu, de -hu van daribuhu, iyyahu.",
+     "answer": "Darabahu: aangehecht mansub (voorwerp van het werkwoord). Daribuhu: aangehecht majrur (in idafa). Iyyahu: los mansub."
+    },
+    {
+     "prompt": "Verklaar daribiyya.",
+     "answer": "Daribuna [meervoud], in idafa met de ya' van “mij”, verliest zijn nun: daribuya. De waw zonder klinker voor de ya' wordt een ya' en daarin samengetrokken, zoals in mahdiyy uit mahduy: daribiyya."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Darabahu tot darabana zijn de twaalf…",
+     "options": [
+      "aangehechte mansub",
+      "aangehechte marfu'",
+      "losse mansub",
+      "aangehechte majrur"
+     ],
+     "explanation": "Voornaamwoorden van het lijdend voorwerp, verbonden met het werkwoord."
+    },
+    {
+     "prompt": "Waarom is darabtaka niet toegestaan?",
+     "options": [
+      "Het heeft vier klinkers",
+      "Eén persoon zou tegelijk doener en voorwerp zijn",
+      "De kaf is een keelletter",
+      "Het is een dialect"
+     ],
+     "explanation": "Behalve bij de werkwoorden van het hart."
+    },
+    {
+     "prompt": "Welk werkwoord laat 'alimtuni fadilan toe?",
+     "options": [
+      "elk overgankelijk werkwoord",
+      "een passief werkwoord",
+      "een werkwoord van het hart",
+      "een werkwoord van beweging"
+     ],
+     "explanation": "Zijn eerste voorwerp is in werkelijkheid geen voorwerp."
+    },
+    {
+     "prompt": "'Alimtaka fadilan wordt opgevat als…",
+     "options": [
+      "'alimtu fadli",
+      "darabta nafsaka",
+      "'alima Zaydun",
+      "'alimta fadlaka"
+     ],
+     "explanation": "“Jij kende je voortreffelijkheid.”"
+    },
+    {
+     "prompt": "Iyyahu daraba is een voorbeeld van het…",
+     "options": [
+      "losse mansub",
+      "losse marfu'",
+      "aangehechte mansub",
+      "aangehechte majrur"
+     ],
+     "explanation": "Het voornaamwoord van het voorwerp dat op zichzelf staat, voor het werkwoord."
+    },
+    {
+     "prompt": "Daribuhu toont het voornaamwoord…",
+     "options": [
+      "aangehecht mansub",
+      "aangehecht majrur",
+      "los marfu'",
+      "verborgen"
+     ],
+     "explanation": "Het voornaamwoord staat in jarr door idafa."
+    },
+    {
+     "prompt": "Daribiyya wordt vergeleken met…",
+     "options": [
+      "muslimat",
+      "adlin",
+      "mahdiyy",
+      "'ambar"
+     ],
+     "explanation": "In beide werd een waw voor een ya' een ya' en samengetrokken."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijf klassen van voornaamwoorden, de eerste en de laatste (Marah, blz. 18–22)",
+    "labels": {
+     "Class": "Klasse",
+     "First": "Eerste",
+     "Last": "Laatste",
+     "attached marfūʿ": "aangehecht marfu'",
+     "separate marfūʿ": "los marfu'",
+     "attached manṣūb": "aangehecht mansub",
+     "separate manṣūb": "los mansub",
+     "attached majrūr": "aangehecht majrur"
+    }
+   }
+  },
+  "13": {
+   "title": "Het verborgen voornaamwoord, en de ya' van tadribina",
+   "body": [
+    "Niet elk voornaamwoord is te zien. “Het aangehechte marfu' is op vijf plaatsen verborgen”: aanwezig in de betekenis, maar zonder een eigen letter. Drie worden hier gegeven: de afwezige man (daraba, yadribu, li-yadrib, la yadrib: “hij” sloeg, slaat, laat hem slaan, laat hem niet slaan), de afwezige vrouw (darabat, tadribu, li-tadrib, la tadrib), en de aangesproken man “buiten de verleden tijd” (tadribu, idrib, la tadrib). De spreker en het bijvoeglijk naamwoord volgen in de volgende les.",
+    "Let op de derde plaats: “buiten de verleden tijd”. In de verleden tijd heeft de aangesproken man een zichtbaar voornaamwoord, de -ta van darabta; in de toekomende tijd en het bevel heeft hij er geen, en tadribu of idrib dragen het “jij” in zich.",
+    "Dan een vraag die de grammatici verdeelde: wat is de ya' van tadribina, “jij (een vrouw) slaat”? Voor al-Akhfash is zij alleen “een kenteken van de aanspraak”, en is de doener verborgen; voor de meesten is zij “een zichtbaar voornaamwoord van de doener, zoals de waw van yadribuna”. Hoe dan ook: waarom een ya'? Omdat de ya' thuis is bij het vrouwelijke: in hadhi amatu Allahi, “dit is de dienares van God”, eindigt hadhi op ya'.",
+    "Waarom niet een letter van anti, zoals darabtu een letter nam die dicht bij ana ligt? Een alif zou lijken op het tweevoud tadribani; een nun zou twee nuns bij elkaar zetten; een ta' zou de ta' van het voorvoegsel herhalen. Waarom moet de ya' zichtbaar zijn? Om haar te onderscheiden van het meervoud van de vrouwen, tadribna. Waarom niet alleen een klinker, tadribinna? Dat zou lijken op de zware nun van nadruk. En waarom de nun houden? Zonder haar zou de vorm verward worden met de aangesproken man.",
+    "Dit is de methode van de Marah op haar volst: elk alternatief dat de taal had kunnen gebruiken, wordt genoemd en met een reden uitgesloten. Lees zo'n passage als een lijst van mogelijkheden en bezwaren, niet als een verhaal."
+   ],
+   "terms": [
+    "het verborgen voornaamwoord: bedoeld maar niet geschreven",
+    "het zichtbare voornaamwoord: geschreven en gehoord",
+    "een kenteken van de aanspraak, geen voornaamwoord: al-Akhfash over de ya' van tadribina",
+    "een Basrische grammaticus wiens opvattingen het boek weergeeft"
+   ],
+   "examples": [
+    "daraba, yadribu, wa-lyadrib, wa-la yadrib: het verborgen “hij”",
+    "tadribu, idrib, la tadrib: het verborgen “jij” buiten de verleden tijd",
+    "hadhi amatu Allahi: de ya' thuis bij het vrouwelijke"
+   ],
+   "tasks": [
+    {
+     "prompt": "In welke van deze is het voornaamwoord van de doener verborgen, en in welke zichtbaar: darabta, tadribu (“jij slaat”), idrib, darabu?",
+     "answer": "Zichtbaar in darabta (-ta) en darabu (-u); verborgen in tadribu en idrib, want de aangesproken man buiten de verleden tijd heeft een verborgen voornaamwoord."
+    },
+    {
+     "prompt": "Geef beide opvattingen over de ya' van tadribina.",
+     "answer": "Al-Akhfash: zij is alleen een kenteken van de aanspraak, en de doener is verborgen. De meeste grammatici: zij is een zichtbaar voornaamwoord van de doener, zoals de waw van yadribuna."
+    },
+    {
+     "prompt": "Waarom werd geen van de letters van anti aan tadribina toegevoegd?",
+     "answer": "De alif zou het laten lijken op het tweevoud tadribani; de nun zou twee nuns samenbrengen; de ta' zou de ta' herhalen die al aan het begin van het woord staat."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Op hoeveel plaatsen is het aangehechte marfu' verborgen?",
+     "options": [
+      "Drie",
+      "Vijf",
+      "Twaalf",
+      "Twee"
+     ],
+     "explanation": "Afwezige man, afwezige vrouw, aangesproken man buiten de verleden tijd, spreker, bijvoeglijk naamwoord."
+    },
+    {
+     "prompt": "Waar is het voornaamwoord van de aangesproken man zichtbaar?",
+     "options": [
+      "In de toekomende tijd",
+      "In het bevel",
+      "In de verleden tijd",
+      "In het verbod"
+     ],
+     "explanation": "Darabta heeft -ta; tadribu en idrib hebben er geen."
+    },
+    {
+     "prompt": "Voor al-Akhfash is de ya' van tadribina…",
+     "options": [
+      "het zichtbare voornaamwoord van de doener",
+      "een stamletter",
+      "een kenteken van het tweevoud",
+      "een kenteken van de aanspraak, met de doener verborgen"
+     ],
+     "explanation": "De meeste anderen noemen haar een zichtbaar voornaamwoord."
+    },
+    {
+     "prompt": "Waarom werd de ya' gekozen voor tadribina?",
+     "options": [
+      "Zij komt voor het vrouwelijke, zoals in hadhi",
+      "Zij is een keelletter",
+      "Zij is een letter van anti",
+      "Zij is licht"
+     ],
+     "explanation": "Hadhi amatu Allahi."
+    },
+    {
+     "prompt": "Waarom geen alif in tadribina?",
+     "options": [
+      "Het zou op het meervoud lijken",
+      "Het zou op het tweevoud lijken",
+      "Alif is zwaar",
+      "Het zou op de verleden tijd lijken"
+     ],
+     "explanation": "Tadribani is het tweevoud."
+    },
+    {
+     "prompt": "Waarom moet de ya' van tadribina zichtbaar zijn?",
+     "options": [
+      "Om het van de verleden tijd te onderscheiden",
+      "Voor het rijm",
+      "Om het te onderscheiden van het meervoud van de vrouwen, tadribna",
+      "Om de wortel te tonen"
+     ],
+     "explanation": "“De ya' werd zichtbaar gemaakt om het van zijn meervoud te onderscheiden.”"
+    },
+    {
+     "prompt": "Welke vorm heeft een verborgen “hij”?",
+     "options": [
+      "darabu",
+      "darabtu",
+      "tadribina",
+      "yadribu"
+     ],
+     "explanation": "Het voornaamwoord van de afwezige man is verborgen."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijf plaatsen van het verborgen voornaamwoord (Marah, blz. 22–24)",
+    "labels": {
+     "Place": "Plaats",
+     "Examples": "Voorbeelden",
+     "the absent man": "de afwezige man",
+     "the absent woman": "de afwezige vrouw",
+     "the man addressed, not in the past": "de aangesproken man, niet in de verleden tijd",
+     "the speaker": "de spreker",
+     "the adjective": "het bijvoeglijk naamwoord"
+    }
+   }
+  },
+  "14": {
+   "title": "Waarom het voornaamwoord verborgen is, en waar het moet",
+   "body": [
+    "De laatste twee plaatsen van het verborgen voornaamwoord: de spreker, adribu en nadribu, en het bijvoeglijk naamwoord, daribun, daribani, daribuna. Dan de redenen. Het verbergt zich in het marfu' en niet in het voornaamwoord van het voorwerp of van de jarr “omdat het staat als een deel van het werkwoord”. Het verbergt zich in het afwezige enkelvoud, niet in het tweevoud en meervoud, “omdat verbergen licht is, en het lichte geven aan het enkelvoud, dat eerst komt, passender is”.",
+    "Waarom niet bij de spreker en de aangesprokene van de verleden tijd (darabtu, darabta)? “Verbergen is een minder sterke aanwijzing en zichtbaar zijn een sterke”, en de spreker en de aangesprokene, die aanwezig zijn, zijn sterk: het sterke voornaamwoord gaat naar de sterke personen. In de toekomende tijd verbergen ze zich toch, “om het onderscheid”: adribu en tadribu, zonder toevoeging, blijven gescheiden van de verleden tijd.",
+    "Een andere opvatting zegt dat het zich verbergt overal waar iets anders ernaar wijst: de kale vorm in daraba, de ta' in darabat, de ya' van yadribu, de ta' van tadribu, de hamza van adribu, de nun van nadribu, en de eigen vorm van het bijvoeglijk naamwoord. Deze voorvoegsels “zijn letters, geen naamwoorden”: ze tonen de persoon zonder het voornaamwoord te zijn.",
+    "Twee bewijzen volgen. De ta' van darabat kan geen voornaamwoord zijn zoals de ta' van darabta, omdat zij blijft wanneer er een expliciete doener volgt: darabat Hindun, “Hind sloeg”; een voornaamwoord en een genoemde doener zouden twee doeners zijn. De alif van daribani kan geen voornaamwoord zijn, “omdat zij verandert in nasb en jarr” (daribayni), terwijl een voornaamwoord niet verandert, zoals de alif van yadribani in elke toestand alif blijft.",
+    "Ten slotte, waar verbergen noodzakelijk is: af'alu, taf'alu, if'al, naf'alu, “omdat de vorm erop wijst”. Na yadribu of daraba mag je een genoemde doener zetten, maar af'alu Zaydun, “ik doe, Zayd”, is “lelijk”: de hamza zegt al “ik”, en geen naamwoord kan haar plaats innemen. Verbergen is dus noodzakelijk bij “ik”, “wij” en “jij”, en alleen toegestaan bij “hij” en “zij”."
+   ],
+   "terms": [
+    "noodzakelijk verbergen: af'alu, taf'alu, if'al, naf'alu",
+    "het voornaamwoord zichtbaar maken: de sterke aanwijzing",
+    "de aanwijzing die naar een verborgen voornaamwoord wijst",
+    "de voorvoegsels van de toekomende tijd: letters, geen voornaamwoorden"
+   ],
+   "examples": [
+    "adribu, nadribu: het verborgen voornaamwoord van de spreker",
+    "darabat Hindun: de ta' blijft naast een genoemde doener, dus is zij geen voornaamwoord",
+    "af'alu Zaydun: “lelijk”, want de vorm zelf zegt “ik”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Bewijs dat de ta' van darabat geen voornaamwoord is.",
+     "answer": "Zij blijft wanneer er een genoemde vrouwelijke doener volgt: darabat Hindun. Als zij het voornaamwoord van de doener was, had de zin twee doeners, de ta' en Hind. Zij is dus alleen een kenteken van het vrouwelijke."
+    },
+    {
+     "prompt": "Bewijs dat de alif van daribani geen voornaamwoord is, maar de alif van yadribani wel.",
+     "answer": "De alif van daribani verandert in nasb en jarr (daribayni), dus is zij een uitgang van de i'rab; een voornaamwoord verandert nooit, zoals de alif van yadribani in elke toestand een alif blijft."
+    },
+    {
+     "prompt": "Waarom is het voornaamwoord zichtbaar in darabtu maar verborgen in adribu?",
+     "answer": "In de verleden tijd krijgt de spreker, een sterke persoon, de sterke aanwijzing, een zichtbaar voornaamwoord. In de toekomende tijd verbergt het voornaamwoord zich om het onderscheid: de hamza van adribu toont de spreker al, en de vorm verschilt van de verleden tijd."
+    },
+    {
+     "prompt": "Waarom is af'alu Zaydun lelijk, terwijl darabat Hindun goed is?",
+     "answer": "In af'alu is het verbergen noodzakelijk: de hamza toont “ik”, en geen genoemde doener kan het voornaamwoord vervangen. In darabat is het verbergen alleen toegestaan: het voornaamwoord “zij” mag plaatsmaken voor een genoemde doener."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Waarom verbergt het voornaamwoord zich alleen in het marfu'?",
+     "options": [
+      "Het is het minst sterk",
+      "Het is het voorwerp",
+      "Het staat als een deel van het werkwoord",
+      "Het is een naamwoord"
+     ],
+     "explanation": "Het voornaamwoord van de doener is aan het werkwoord gebonden."
+    },
+    {
+     "prompt": "Waarom verbergt het zich in het enkelvoud en niet in het tweevoud en meervoud?",
+     "options": [
+      "Het tweevoud is zwaar",
+      "Het meervoud heeft een waw",
+      "Toevallig",
+      "Verbergen is licht, en het lichte gaat naar het enkelvoud, dat eerst komt"
+     ],
+     "explanation": "Het enkelvoud komt eerst en krijgt de lichtere behandeling."
+    },
+    {
+     "prompt": "Waarom is het voornaamwoord zichtbaar in darabta?",
+     "options": [
+      "De sterke aangesproken persoon krijgt de sterke aanwijzing",
+      "Het staat in jarr",
+      "Het is vrouwelijk",
+      "Om vier klinkers te vermijden"
+     ],
+     "explanation": "Zichtbaarheid is de sterke aanwijzing."
+    },
+    {
+     "prompt": "Darabat Hindun bewijst dat de ta' van darabat…",
+     "options": [
+      "een voornaamwoord is",
+      "geen voornaamwoord is",
+      "een stamletter is",
+      "een voorwerp is"
+     ],
+     "explanation": "Zij valt niet weg naast een genoemde doener."
+    },
+    {
+     "prompt": "De alif van daribani is geen voornaamwoord omdat…",
+     "options": [
+      "zij lang is",
+      "zij vrouwelijk is",
+      "zij verandert in nasb en jarr",
+      "zij verborgen is"
+     ],
+     "explanation": "Daribayni; een voornaamwoord verandert niet."
+    },
+    {
+     "prompt": "Verbergen is noodzakelijk in…",
+     "options": [
+      "daraba",
+      "darabat",
+      "yadribu",
+      "naf'alu"
+     ],
+     "explanation": "De vorm wijst erop; er kan geen genoemde doener staan."
+    },
+    {
+     "prompt": "De voorvoegsels van adribu en nadribu zijn…",
+     "options": [
+      "letters, geen naamwoorden",
+      "voornaamwoorden",
+      "voorwerpen",
+      "stamletters"
+     ],
+     "explanation": "Ze wijzen naar het verborgen voornaamwoord zonder het te zijn."
+    }
+   ],
+   "diagram": {
+    "caption": "Noodzakelijk en toegestaan verbergen (Marah, blz. 25)",
+    "labels": {
+     "Form": "Vorm",
+     "Hidden pronoun": "Verborgen voornaamwoord",
+     "Hiding": "Verbergen",
+     "anā": "ana",
+     "necessary": "noodzakelijk",
+     "naḥnu": "nahnu",
+     "anta": "anta",
+     "huwa": "huwa",
+     "allowed: a named doer may follow": "toegestaan: een genoemde doener mag volgen",
+     "hiya": "hiya",
+     "allowed (ḍarabat Hindun)": "toegestaan (darabat Hindun)"
+    }
+   }
+  },
+  "15": {
+   "title": "Mustaqbal en mudari', en de letters van atayna",
+   "body": [
+    "De toekomende tijd “komt ook in veertien vormen, zoals yadribu tot het eind”. Hij heeft twee namen. Mustaqbal, “toekomend”, omdat de toekomst in zijn betekenis ligt. Mudari', “gelijkend”, omdat hij lijkt op darib, het actief deelwoord: in zijn klinkers en sukuns (ya-d-ri-bu zoals da-ri-bun: een klinker, een letter zonder klinker, twee klinkers), in het beschrijven van een onbepaald naamwoord, en in het aannemen van de lam van het begin: inna Zaydan la-qa'imun, “Zayd staat zeker”, wa-la-yaqumu, “en hij zal zeker staan”.",
+    "Hij lijkt ook op het naamwoord van de soort. Rajul, “een man”, is algemeen, en al-rajul, “de man”, wordt bijzonder gemaakt door de lam van het bekende; yadribu is algemeen, tegenwoordig of toekomend, en wordt bijzonder gemaakt door sa- of sawfa, “zal”. En hij lijkt op een woord als 'ayn, dat veel betekenissen heeft, doordat hij gedeeld wordt door twee tijden: yadribu is “hij slaat” en “hij zal slaan”.",
+    "Om hem te maken “werden de letters van atayna aan de verleden tijd toegevoegd”: alif, ta', ya' en nun. Letters, geen losse woorden, omdat een woord van één letter onder “de juiste maat” zou zijn. Aan het begin, omdat ze aan het eind op de eigen uitgangen van de verleden tijd zouden lijken (darabta, darabna). Hij wordt van de verleden tijd gemaakt omdat de verleden tijd “op vastheid wijst”: wat gebeurd is, staat vast. En de toevoegingen gaan naar de toekomende tijd, niet naar de verleden tijd, omdat het vermeerderde na het kale komt zoals de toekomende tijd na de verleden tijd komt: “het voorafgaande werd aan het voorafgaande gegeven”.",
+    "Elke letter heeft zijn reden, ontleend aan de kaart van de mond. De alif (hamza) voor de spreker: zij komt van het verste punt van de keel, waar het spreken begint, en de spreker begint het spreken; of zij komt overeen met ana. De waw voor de aangesprokene: zij komt van de lippen, waar het spreken eindigt, en het spreken eindigt bij wie het hoort; daarna werd zij een ta', zodat de waws zich niet opstapelden in wa-wawjalu, “en jij vreest”. De ya', uit het midden van de mond, voor de afwezige, die tussen spreker en hoorder staat. De nun voor “wij”, zoals in darabna; of omdat de zwakke letters op waren, en de nun, die door de neus klinkt, er dicht bij ligt.",
+    "Uit de waw komt een regel die het onthouden waard is: “de eerste letter van een woord is niet geschikt voor de toevoeging van een waw”; begint een woord dus met een waw, dan is die waw een stamletter, zoals in warantal, “ramp”. Zulke redenen zijn hulpmiddelen om te begrijpen: ze verbinden elk voorvoegsel met iets wat al bekend is."
+   ],
+   "terms": [
+    "de toekomende tijd: de naam die dit boek geeft aan de onvoltooide vorm",
+    "het gelijkende: de onvoltooide vorm, genoemd naar zijn gelijkenis met het deelwoord",
+    "de vier voorvoegsels: alif, ta', ya', nun",
+    "de lam van het begin, “zeker”, die naamwoorden en de mudari' aannemen",
+    "de juiste maat van een woord"
+   ],
+   "examples": [
+    "inna Zaydan la-qa'imun wa-la-yaqumu: de lam van het begin op het deelwoord en op de mudari'",
+    "wa-wawjalu: de waws die zich zouden opstapelen, vandaar de ta'",
+    "warantal: een woord waarvan de eerste waw een stamletter is"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef drie manieren waarop yadribu op darib lijkt.",
+     "answer": "In zijn klinkers en sukuns (een klinker, een letter zonder klinker, dan twee klinkers); in het beschrijven van een onbepaald naamwoord; en in het aannemen van de lam van het begin (inna Zaydan la-qa'imun, wa-la-yaqumu)."
+    },
+    {
+     "prompt": "Waarom werden de voorvoegsels aan het begin gezet en niet aan het eind?",
+     "answer": "Aan het eind zouden ze verward worden met de verleden tijd, waarvan de personen door uitgangen worden aangeduid (darabta, darabna)."
+    },
+    {
+     "prompt": "Verbind elk voorvoegsel met zijn persoon, met de reden van het boek.",
+     "answer": "Alif (hamza): de spreker, omdat zij van het verste punt van de keel komt, waar het spreken begint (of om overeen te komen met ana). Ta', uit waw: de aangesprokene, omdat de waw van de lippen komt, waar het spreken eindigt. Ya': de afwezige, omdat zij uit het midden van de mond komt, zoals de afwezige ertussen staat. Nun: “wij”, zoals in darabna."
+    },
+    {
+     "prompt": "Hoe wordt yadribu, dat “hij slaat” of “hij zal slaan” kan betekenen, alleen toekomend?",
+     "answer": "Met sa- of sawfa, zoals een algemeen naamwoord bijzonder gemaakt wordt door de lam van het bekende: rajul, al-rajul."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De naam mudari' betekent…",
+     "options": [
+      "toekomend",
+      "tegenwoordig",
+      "toegevoegd",
+      "gelijkend"
+     ],
+     "explanation": "Hij lijkt op het actief deelwoord darib."
+    },
+    {
+     "prompt": "Wat is GEEN gelijkenis van yadribu met darib?",
+     "options": [
+      "Beide beginnen met een ya'",
+      "Hun klinkers en sukuns",
+      "Het beschrijven van een onbepaald naamwoord",
+      "Het aannemen van de lam van het begin"
+     ],
+     "explanation": "Darib begint met zijn stamletter; de andere drie zijn die van het boek."
+    },
+    {
+     "prompt": "De letters die toegevoegd worden om de toekomende tijd te maken, zijn die van…",
+     "options": [
+      "hawitu al-simana",
+      "atayna",
+      "sa'altumuniha",
+      "istanjadahu"
+     ],
+     "explanation": "Alif, ta', ya', nun."
+    },
+    {
+     "prompt": "Waarom werd de alif gekozen voor de spreker?",
+     "options": [
+      "Zij is licht",
+      "Zij komt van de lippen",
+      "Zij komt van waar het spreken begint, de diepte van de keel",
+      "Zij is een zwakke letter"
+     ],
+     "explanation": "De spreker begint het spreken; of zij komt overeen met ana."
+    },
+    {
+     "prompt": "De ta' van tadribu was oorspronkelijk…",
+     "options": [
+      "een ya'",
+      "een hamza",
+      "een nun",
+      "een waw"
+     ],
+     "explanation": "Veranderd zodat de waws zich niet opstapelden, zoals in wa-wawjalu."
+    },
+    {
+     "prompt": "Wat maakt yadribu bijzonder voor de toekomst?",
+     "options": [
+      "sa- of sawfa",
+      "de lam van het bekende",
+      "lam",
+      "de nun van nadruk"
+     ],
+     "explanation": "Zoals het lidwoord een naamwoord van de soort bijzonder maakt."
+    },
+    {
+     "prompt": "De waw aan het begin van warantal is…",
+     "options": [
+      "een toegevoegde letter",
+      "een stamletter",
+      "een voorvoegsel van de toekomende tijd",
+      "de waw “en”"
+     ],
+     "explanation": "De eerste letter van een woord is niet geschikt voor een toegevoegde waw."
+    }
+   ],
+   "diagram": {
+    "caption": "De veertien vormen van de toekomende tijd van daraba (vervoegingsengine)",
+    "labels": {
+     "Person": "Persoon",
+     "Masculine": "Mannelijk",
+     "Feminine": "Vrouwelijk",
+     "he, she": "hij, zij",
+     "they two": "zij tweeën",
+     "they": "zij",
+     "you": "jij",
+     "you two": "jullie tweeën",
+     "you (plural)": "jullie",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  }
+ },
+ "title": "Marah al-arwah",
+ "summary": "Marah al-arwah (“de rustplaats van de geesten”) van Ahmad b. 'Ali b. Mas'ud is het laatste en volledigste van de vijf boeken van de sarf van de Ottomaanse madrasa, gelezen na de Amthila, de Bina', de Maqsud en al-'Izzi. In zeven hoofdstukken behandelt het het gave werkwoord, met zijn vijfendertig babs, zijn verleden tijd, toekomende tijd, bevel en verbod, zijn deelwoorden en zijn naamwoorden van tijd, plaats en werktuig, en daarna het verdubbelde, het werkwoord met hamza, de mithal, het holle, het gebrekkige en de lafif, en het besluit het zesde hoofdstuk met de letters die voor elkaar in de plaats komen. Het geeft voor bijna elke vorm een reden: waarom de verleden tijd op fatha gebouwd is, waarom de verbindingshamza kasra heeft, waarom qala van qawala komt, en het vermeldt de Basrische grammatici en de Kufiërs, Sibawayh en al-Akhfash waar ze verschillen. De lessen volgen zijn volgorde, nemen elke verandering (i'lal, idgham, het verlichten van de hamza) stap voor stap vanaf haar grondvorm zoals de druk die geeft, en tonen de gave vormen met de vervoegingsengine van The Nahwi."
+}

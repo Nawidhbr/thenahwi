@@ -1,0 +1,52 @@
+{
+  "slug": "mufaddal-al-dabbi",
+  "name": "Abū ʿAbd al-Raḥmān al-Mufaḍḍal ibn Muḥammad al-Ḍabbī",
+  "known": "al-Mufaḍḍal al-Ḍabbī",
+  "arabic": "الْمُفَضَّلُ الضَّبِّيُّ",
+  "died": "ca. 168/784",
+  "places": [
+    "Kufa",
+    "Baghdad"
+  ],
+  "roles": [
+    "author",
+    "teacher"
+  ],
+  "summary": "Kufan transmitter of the old poetry, trusted even by the Basran Abū Zayd, who gathered for the caliph al-Mahdī the anthology of early odes called al-Mufaḍḍaliyyāt.",
+  "bio": [
+    "Ibn al-Anbārī calls al-Mufaḍḍal trustworthy and one of the great men of Kufa: the Basran Abū Zayd al-Anṣārī took from him for his reliability. For the caliph al-Mahdī he collected the chosen odes known after him as al-Mufaḍḍaliyyāt, whose number varies from copy to copy; the soundest recension, Ibn al-Anbārī says, is the one Ibn al-Aʿrābī transmitted.",
+    "Al-Zubaydī counts him in the second generation of the lexicographers of Kufa."
+  ],
+  "works": [
+    {
+      "title": "al-Mufaḍḍaliyyāt",
+      "arabic": "الْمُفَضَّلِيَّاتُ",
+      "kind": "other"
+    }
+  ],
+  "reception": [],
+  "uncertain": [
+    "Ibn al-Anbārī gives no year of death; TDV gives about 168/784, others 170/786 or 178/794."
+  ],
+  "books": [],
+  "school": "kufa",
+  "tabaqa": {
+    "list": "kufa-lugha",
+    "n": 2,
+    "entry": 114
+  },
+  "sources": [
+    {
+      "title": "Ibn al-Anbārī, Nuzhat al-alibbāʾ fī ṭabaqāt al-udabāʾ (Cairo 1294/1877), pp. 67–69",
+      "url": "https://sites.dlib.nyu.edu/viewer/node/4307"
+    },
+    {
+      "title": "al-Zubaydī, Ṭabaqāt al-naḥwiyyīn wa-l-lughawiyyīn (OpenITI)",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0379Zubaydi/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin/0379Zubaydi.TabaqatNahwiyyinWaLughawiyyin.Sham19Y0013235-ara1.completed"
+    },
+    {
+      "title": "Mufaddal ed-Dabbî, TDV İslâm Ansiklopedisi",
+      "url": "https://islamansiklopedisi.org.tr/mufaddal-ed-dabbi"
+    }
+  ]
+}

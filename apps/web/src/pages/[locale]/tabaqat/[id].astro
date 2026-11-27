@@ -1,0 +1,92 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KbHero from "../../../components/KbHero.astro";
+import TabaqatParagraphs from "../../../components/TabaqatParagraphs.astro";
+import type { TabaqatEntry } from "@nahwi/content";
+import { fmt, LIVE_LOCALES, t } from "../../../i18n";
+import { KB_SECTIONS, kbPath, scholarPhoto, shortName } from "../../../lib/kb";
+import { breadcrumbs, tabaqatChapter } from "../../../lib/structured-data";
+import { entryDied, entryPerson, entryPlace, firstPage, nuzhat, scanHref } from "../../../lib/tabaqat";
+
+import copyTextScript from "../../../scripts/copy-text.js?url";
+/**
+ * An entry of Nuzhat al-alibbāʾ (/<locale>/tabaqat/<id>/): the Arabic of the print paragraph by paragraph, each with its
+ * page (linked to the scan) and our English behind a fold, the notes on doubtful readings, the scholar's page it is tied
+ * to, and the entries before and after it.
+ */
+export function getStaticPaths() {
+  const book = nuzhat();
+  if (!book) return [];
+  return LIVE_LOCALES.flatMap((locale) => book.entries.map((entry, i) => ({ params: { locale, id: entry.id }, props: { entry, prev: book.entries[i - 1], next: book.entries[i + 1] } })));
+}
+interface Props {
+  entry: TabaqatEntry;
+  prev?: TabaqatEntry;
+  next?: TabaqatEntry;
+}
+const { locale } = Astro.params as { locale: string };
+const { entry: e, prev, next } = Astro.props;
+const ui = t(locale);
+const T = ui.kb.tabaqat;
+const book = nuzhat()!;
+const person = entryPerson(e, locale);
+const died = entryDied(e, person);
+const place = entryPlace(e, person);
+const path = kbPath.tabaqat(locale, e.id);
+const pagesLabel = fmt(e.pages.includes("–") ? ui.primer.pages : ui.primer.page, { pages: e.pages });
+// The title names the man and the book; a long name goes alone.
+const withBook = fmt(T.entryTitle, { name: e.name });
+const title = withBook.length <= 65 ? withBook : e.name;
+const description = fmt(T.entryDescription, { name: e.name, died: died ? fmt(T.diedIn, { died }) : "", n: e.n });
+const photo = person ? scholarPhoto(person) : KB_SECTIONS.tabaqat.photo;
+---
+
+<BaseLayout image={photo} title={title} description={description} path={path.slice(locale.length + 1)} locale={locale} bleed jsonLd={[tabaqatChapter(book, e, locale, description), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: book.title, path: kbPath.tabaqat(locale) }, { name: e.name, path }])]}>
+  <KbHero
+    locale={locale}
+    photo={photo}
+    crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: book.title, href: kbPath.tabaqat(locale) }]}
+    kicker={[fmt(T.entryOf, { n: e.n, m: book.entries.length }), pagesLabel].join(" · ")}
+    arabic={e.heading}
+    title={e.name}
+    sub={[died && `${ui.kb.generations.died} ${died}`, place].filter(Boolean).join(" · ") || undefined}
+  />
+  <div class="kb-wrap">
+    <div class="kb-layout">
+      <article class="kb-body tb-body">
+        <TabaqatParagraphs book={book} paragraphs={e.paragraphs} locale={locale} />
+        {e.notes && (
+          <details class="kb-note tb-notes">
+            <summary class="kb-kicker">{T.notes}</summary>
+            <p>{e.notes}</p>
+          </details>
+        )}
+      </article>
+      <aside class="kb-aside">
+        <div class="kb-aside-dark">
+          <p class="kb-kicker u-273e41">{T.scholar}</p>
+          {person ? (
+            <p class="u-m0"><a href={kbPath.scholar(locale, person.slug)}><strong>{shortName(person)}</strong></a><br /><span class="muted">{T.scholarLead}</span></p>
+          ) : (
+            <p class="u-m0 muted">{T.noScholar}</p>
+          )}
+        </div>
+        <div>
+          <p class="kb-kicker u-c7486a">{T.scanPage}</p>
+          <p class="u-m0"><a href={scanHref(book, firstPage(e))} rel="noopener">{fmt(T.scanPageLead, { page: firstPage(e) })}</a></p>
+          <p class="muted u-m0">{book.edition.place}, {book.edition.year}</p>
+        </div>
+        <div>
+          <p class="kb-kicker u-c7486a">{book.title}</p>
+          <p class="u-m0"><a href={kbPath.tabaqat(locale)}>{T.all}</a> <span class="muted">· {fmt(T.count, { n: book.entries.length })}</span></p>
+        </div>
+      </aside>
+    </div>
+
+    <nav class="kb-pager u-pb64" aria-label={book.title}>
+      {prev ? <a href={kbPath.tabaqat(locale, prev.id)}><span class="kb-kicker">← {T.prev}</span><br /><strong>{prev.name}</strong> <span class="muted">· {fmt(T.entryN, { n: prev.n })}</span></a> : <span />}
+      {next && <a href={kbPath.tabaqat(locale, next.id)} class="u-end"><span class="kb-kicker">{T.next} →</span><br /><strong>{next.name}</strong> <span class="muted">· {fmt(T.entryN, { n: next.n })}</span></a>}
+    </nav>
+  </div>
+  <script is:inline src={copyTextScript}></script>
+</BaseLayout>

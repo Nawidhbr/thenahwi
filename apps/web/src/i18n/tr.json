@@ -917,7 +917,8 @@
       "contact": "İletişim",
       "privacy": "Gizlilik",
       "updates": "Yenilikler",
-      "nahw": "Nahiv ve sarf hakkında"
+      "nahw": "Nahiv ve sarf hakkında",
+      "tabaqat": "Tabakat"
     },
     "draft": "Taslak · yetkin bir hocanın incelemesini bekliyor",
     "home": {
@@ -950,7 +951,8 @@
       "mastersLead": "Sibeveyh'ten Ezher'e: kitapları okunan nahivciler.",
       "library": "Bütün kütüphane",
       "newsLead": "Her hafta The Mantiqi tarafından toplanır.",
-      "generationsLink": "Nahivcilerin tabakaları"
+      "generationsLink": "Nahivcilerin tabakaları",
+      "tabaqatLink": "Nüzhetü'l-elibba, madde madde"
     },
     "curricula": {
       "title": "Müfredatlar",
@@ -1028,7 +1030,10 @@
         "modern": "Modern araştırma"
       },
       "generationsLink": "Nahivcilerin tabakaları",
-      "generationsLead": "Aynı alimler, eski tabakat kitaplarının düzenlediği gibi ekol ve tabakaya göre, bir de yüzyıllara göre."
+      "generationsLead": "Aynı alimler, eski tabakat kitaplarının düzenlediği gibi ekol ve tabakaya göre, bir de yüzyıllara göre.",
+      "tabaqatLink": "Nüzhetü'l-elibba, kitabın tamamı",
+      "tabaqatLead": "İbnü'l-Enbari'nin nahivciler tarihi, madde madde, Arapça ve İngilizce; her madde kendi aliminin sayfasına bağlı.",
+      "inNuzhat": "Nüzhetü'l-elibba, madde {n}"
     },
     "scholar": {
       "life": "Hayatı",
@@ -1040,7 +1045,9 @@
       "books": "Kitaplarda",
       "sources": "Kaynaklar",
       "school": "Ekol",
-      "tabaqa": "Zübeydi'nin Tabakat'ında"
+      "tabaqa": "Zübeydi'nin Tabakat'ında",
+      "inNuzhat": "Nüzhetü'l-elibba'da",
+      "nuzhatEntry": "Madde {n}, {pages}"
     },
     "news": {
       "title": "Nahiv ve sarf havadisi",
@@ -1231,7 +1238,60 @@
       "grammarians": "{n} nahivci",
       "died": "ö.",
       "undated": "Vefat yılı bilinmiyor",
-      "grammarianOne": "1 nahivci"
+      "grammarianOne": "1 nahivci",
+      "nuzhatShort": "Nüzhe {n}",
+      "nuzhatLabel": "Nüzhetü'l-elibba'daki maddesi (madde {n})"
+    },
+    "tabaqat": {
+      "title": "Nüzhetü'l-elibba: nahivcilerin tabakatı",
+      "description": "İbnü'l-Enbari'nin nahivciler tarihi, kitabın tamamı: her madde 1294/1877 Kahire baskısından harekeli Arapçasıyla, bizim İngilizce çevirimizle.",
+      "kicker": "Nahivcilerin tabakatı",
+      "lead": "İbnü'l-Enbari'nin nahivciler tarihi, Ebu'l-Esved ed-Düeli'den hocası İbnü'ş-Şeceri'ye kadar: kitabın tamamı, madde madde, ilk baskısının Arapçasıyla ve bizim İngilizce çevirimizle.",
+      "count": "{n} madde",
+      "countOne": "1 madde",
+      "introKicker": "Kitap",
+      "introTitle": "İbnü'l-Enbari'nin nahivciler tarihi",
+      "facts": {
+        "author": "Yazar",
+        "printTitle": "Baskıdaki adı",
+        "printed": "Basım",
+        "pages": "Sayfa",
+        "copy": "Taranan nüsha",
+        "scan": "Tarama",
+        "scanLink": "Baskı, sayfa sayfa"
+      },
+      "preface": "Yazarın mukaddimesi",
+      "closing": "Yazarın hatimesi: hocalarının silsilesi",
+      "entriesKicker": "Maddeler",
+      "entriesTitle": "Yüzyıllara göre nahivciler",
+      "entriesLead": "Her madde, sahibinin vefat ettiği hicri yüzyılın altında, kitaptaki numarası, vefat yılı ve şehriyle; kitabın kendisi vefat sırasına göre gider.",
+      "filter": "Bir ad, şehir ya da kitap arayın",
+      "allCenturies": "Bütün yüzyıllar",
+      "centuryLabel": "Yüzyıl",
+      "shown": "{m} maddeden {n}",
+      "none": "Uyan madde yok.",
+      "clear": "Temizle",
+      "undated": "Vefat yılı verilmemiş",
+      "inPreparation": "Maddeler baskıdan yazıya geçiriliyor ve çevriliyor; bittikçe burada görünür.",
+      "entryN": "Madde {n}",
+      "entryOf": "Madde {n} / {m}",
+      "entryTitle": "Nüzhetü'l-elibba'da {name}",
+      "entryDescription": "İbnü'l-Enbari'nin Nüzhetü'l-elibba'sında {name}{died} (madde {n}): 1294/1877 Kahire baskısının harekeli Arapçası, bizim İngilizce çevirimizle.",
+      "diedIn": " (ö. {died})",
+      "scholar": "Ansiklopedideki sayfası",
+      "scholarLead": "Hayatı, eserleri, ekolü ve kaynakları",
+      "noScholar": "Ansiklopedide henüz sayfası yok.",
+      "notes": "Okuma üzerine notlar",
+      "prev": "Önceki madde",
+      "next": "Sonraki madde",
+      "all": "Bütün maddeler",
+      "scanPage": "Bu madde taramada",
+      "scanPageLead": "Baskının {page}. sayfası",
+      "readBook": "Kitabın tamamını okuyun",
+      "readBookLead": "Nüzhe'nin her maddesi Arapça ve İngilizce, alimlerin sayfalarına bağlı.",
+      "facet": "Yüzyıl",
+      "years": "H. {from}–{to}",
+      "pageInScan": "taramada s. {page}"
     }
   },
   "preview": {
@@ -1573,7 +1633,8 @@
     "shortQuoted": "{edition} baskısından alıntılarla kendi derslerimiz · çeviri: The Nahwi, taslak",
     "ownCourse": "The Nahwi'nin, klasik ilk kitaplardan yararlanan, sarf ve nahvin temelleri üzerine kendi kursu; hiçbir asıl metin gösterilmez.",
     "translationLanguages": "The Nahwi'ye ait, {language} aslından: {languages} dillerine. Dili pasajların altında seçin.",
-    "and": "ve"
+    "and": "ve",
+    "transcribedVocalised": "The Nahwi tarafından taş baskıdan aktarıldı ve bizim tarafımızdan harekelendi (baskıda hareke azdır); kenarlarındaki okuyucu notları olmadan"
   },
   "contact": {
     "title": "İletişim",

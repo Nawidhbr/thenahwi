@@ -1,0 +1,2631 @@
+{
+  "title": "Marâh al-arwâh",
+  "summary": "Le Marâh al-arwâh (« le lieu de repos des esprits ») d'Ahmad b. 'Alî b. Mas'ûd est le dernier et le plus complet des cinq livres de sarf de la madrasa ottomane, lu après les Amthila, le Binâ', le Maqsûd et al-'Izzî. En sept chapitres, il traite du verbe sain, avec ses trente-cinq classes, son passé, son futur, son impératif et son interdiction, ses participes et ses noms de temps, de lieu et d'instrument, puis du géminé, du hamzé, du mithâl, du concave, du défectueux et du lafîf, et il termine le sixième chapitre par les lettres qui se substituent les unes aux autres. Il donne une raison pour presque chaque forme : pourquoi le passé est fixé sur la fatha, pourquoi la hamza de liaison a la kasra, pourquoi qâla vient de qawala, et il rapporte les Basriens et les Koufiens, Sîbawayh et al-Akhfash là où ils divergent. Les leçons suivent son ordre, prennent chaque changement (i'lâl, idghâm, allègement de la hamza) pas à pas depuis sa forme de base telle que l'édition la donne, et montrent les formes saines avec l'outil de conjugaison de The Nahwi.",
+  "parts": {
+    "sound-verb": "Chapitre premier : le verbe sain, son masdar et ses classes",
+    "past": "Le passé",
+    "future": "Le futur (al-mudâri')",
+    "command": "L'impératif et l'interdiction",
+    "derived-nouns": "Les participes et les noms de temps, de lieu et d'instrument",
+    "doubled": "Chapitre deux : le verbe géminé",
+    "hamzated": "Chapitre trois : le verbe hamzé",
+    "mithal": "Chapitre quatre : le mithâl",
+    "hollow": "Chapitre cinq : le verbe concave",
+    "defective": "Chapitre six : le verbe défectueux, et les lettres substituées",
+    "lafif": "Chapitre sept : le lafîf"
+  },
+  "lessons": {
+    "1": {
+      "title": "La préface : le sarf, mère des sciences",
+      "body": [
+        "Le livre s'ouvre sur le nom de l'auteur, une prière pour lui et ses parents, et une parole que la madrasa répète encore : « le sarf est la mère des sciences et le nahw leur père ». Le sarf façonne le mot, le nahw le met à l'œuvre dans une phrase, et toute science qui lit des textes arabes naît des deux. Ceux qui connaissent le sarf « se fortifient dans la compréhension », et ceux qui en sont privés « s'égarent dans la transmission » : ils lisent mal ce qu'ils transmettent.",
+        "Puis l'auteur nomme et loue son livre en prose rimée : Marâh al-arwâh, « le lieu de repos des esprits ». Un marâh est le lieu où les troupeaux reviennent le soir se reposer, et les rimes jouent sur le même son : najâh, rahrâh, râh, tuffâh. Le livre est offert « pour l'enfant » : il a été écrit pour de jeunes élèves, et la madrasa ottomane le lisait comme le dernier de ses cinq livres de sarf.",
+        "Le second passage donne le plan. Le sarrâf, le changeur, ici l'élève du sarf (les deux mots viennent de s-r-f, « tourner, changer »), a besoin de deux choses. D'abord, de sept bâb « pour connaître les schèmes » : le sain, le géminé, le hamzé, le mithâl, le concave, le défectueux et le lafîf. Ensuite, de « la dérivation de neuf choses à partir de chaque masdar » : le passé, le futur, l'impératif, l'interdiction, et les noms de celui qui fait, de celui qui subit, de temps, de lieu et d'instrument.",
+        "Le livre est donc découpé en sept chapitres, un pour chaque sorte de racine. Le premier, sur le verbe sain, a ses propres sections pour les neuf choses ; chaque chapitre suivant prend une racine à lettre redoublée, à hamza ou à lettre faible, la fait passer par les mêmes neuf choses, et montre ce qui change et pourquoi.",
+        "Deux mots à fixer dès maintenant. Bâb désigne ici un chapitre selon la sorte de racine ; à la leçon 5, le même mot désigne une classe de conjugaison, comme daraba yadribu. Et « le futur » (al-mustaqbal) est le nom habituel, dans ce livre, de la forme que d'autres livres appellent le mudâri' ; la leçon 15 donne les deux noms et leurs raisons."
+      ],
+      "terms": [
+        "la morphologie : la science des formes des mots",
+        "le changeur : le nom que l'auteur donne à l'élève du sarf",
+        "les sept chapitres, un pour chaque sorte de racine",
+        "la dérivation : tirer les neuf choses du masdar"
+      ],
+      "examples": [
+        "al-sarf umm al-'ulûm wa-l-nahw abûhâ : le sarf mère des sciences, le nahw leur père",
+        "les sept bâb : sain, géminé, hamzé, mithâl, concave, défectueux, lafîf",
+        "al-mâdî, al-mustaqbal, al-amr, al-nahy : les quatre premières des neuf choses dérivées"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez les sept bâb dans l'ordre du livre.",
+          "answer": "Le sain (al-sahîh), le géminé (al-mudâ'af), le hamzé (al-mahmûz), le mithâl, le concave (al-ajwaf), le défectueux (al-nâqis) et le lafîf."
+        },
+        {
+          "prompt": "Énumérez les neuf choses qui sont dérivées de chaque masdar.",
+          "answer": "Le passé, le futur, l'impératif, l'interdiction, le participe actif (nom de celui qui fait), le participe passif (nom de celui qui subit), le nom de temps, le nom de lieu et le nom d'instrument."
+        },
+        {
+          "prompt": "Pourquoi l'auteur appelle-t-il l'élève un sarrâf ?",
+          "answer": "Le sarrâf est le changeur, et le mot a la même racine, s-r-f, que sarf. Comme le changeur change une pièce en d'autres, l'élève du sarf change un masdar en passé, en futur et le reste ; le jeu de mots nomme l'élève d'après sa science."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "« Le sarf est la mère des sciences, et le nahw… »",
+          "options": [
+            "leur fille",
+            "leur père",
+            "leur sœur",
+            "leur serviteur"
+          ],
+          "explanation": "Al-nahw abûhâ : les deux ensemble donnent naissance aux sciences de l'arabe."
+        },
+        {
+          "prompt": "De combien de bâb le sarrâf a-t-il besoin pour connaître les schèmes ?",
+          "options": [
+            "Cinq",
+            "Neuf",
+            "Sept",
+            "Trente-cinq"
+          ],
+          "explanation": "Sept, un pour chaque sorte de racine, et le livre a sept chapitres en conséquence."
+        },
+        {
+          "prompt": "Combien de choses le livre dérive-t-il de chaque masdar ?",
+          "options": [
+            "Sept",
+            "Six",
+            "Quatorze",
+            "Neuf"
+          ],
+          "explanation": "Le passé, le futur, l'impératif, l'interdiction, et les noms de celui qui fait, de celui qui subit, de temps, de lieu et d'instrument."
+        },
+        {
+          "prompt": "Laquelle de ces choses n'est PAS parmi les neuf choses dérivées ?",
+          "options": [
+            "Le masdar lui-même",
+            "L'interdiction",
+            "Le nom d'instrument",
+            "Le nom de temps"
+          ],
+          "explanation": "Le masdar est la source d'où les neuf sont dérivées, non l'une d'elles."
+        },
+        {
+          "prompt": "Marâh al-arwâh signifie…",
+          "options": [
+            "l'aile du succès",
+            "le lieu de repos des esprits",
+            "la mère des sciences",
+            "la clé des schèmes"
+          ],
+          "explanation": "Un marâh est le lieu où les troupeaux reviennent le soir se reposer ; le livre est un lieu de repos pour les esprits."
+        },
+        {
+          "prompt": "Lequel est l'un des sept bâb ?",
+          "options": [
+            "Le quadrilitère",
+            "Le passif",
+            "Le lafîf",
+            "Le masdar"
+          ],
+          "explanation": "Le lafîf, à deux lettres faibles, est le septième et dernier chapitre."
+        },
+        {
+          "prompt": "Le sarrâf de la préface est…",
+          "options": [
+            "un maître de nahw",
+            "le père de l'auteur",
+            "un livre de schèmes",
+            "l'élève du sarf, nommé d'après le changeur"
+          ],
+          "explanation": "Sarrâf et sarf ont la même racine s-r-f ; l'auteur joue sur le changeur."
+        }
+      ],
+      "diagram": {
+        "caption": "Les sept bâb du Marâh (p. 3)",
+        "labels": {
+          "The seven bābs of the Marāḥ (p. 3)": "Les sept bâb du Marâh (p. 3)",
+          "The seven bābs": "Les sept bâb",
+          "Sound": "Sain",
+          "Doubled or hamzated": "Géminé ou hamzé",
+          "Doubled": "Géminé",
+          "Hamzated": "Hamzé",
+          "With a weak letter": "À lettre faible",
+          "Mithāl": "Mithâl",
+          "Hollow": "Concave",
+          "Defective": "Défectueux",
+          "Lafīf": "Lafîf"
+        }
+      },
+      "text": [
+        "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux. Celui qui a besoin de Dieu, l'Affectueux, Ahmad b. 'Alî b. Mas'ûd — que Dieu lui pardonne ainsi qu'à ses parents, et qu'Il soit bon envers eux et envers lui — dit : Sache que le sarf est la mère des sciences et le nahw leur père ; ceux qui le connaissent se fortifient dans la compréhension, et ceux qui en sont privés s'égarent dans la transmission. J'ai donc réuni à son sujet un livre nommé Marâh al-arwâh (« le lieu de repos des esprits ») : pour l'enfant, il est l'aile du succès et le vin d'une large coupe, et en sa compagnie, quand il s'en va, il est comme une pomme ou du vin. En Dieu je cherche protection contre ce qui déshonore, et c'est Son aide que je cherche ; Il est le meilleur Maître et le meilleur Secours.",
+        "Sache — que Dieu te rende heureux — que le sarrâf (le changeur, ici l'élève du sarf) a besoin, pour connaître les schèmes, de sept chapitres : le sain, le géminé, le verbe à hamza, le mithâl, le concave (ajwaf), le défectueux (nâqis) et le lafîf ; et de la dérivation de neuf choses à partir de chaque masdar, qui sont le passé, le futur, l'impératif, l'interdiction, et les noms de celui qui fait, de celui qui subit, de temps, de lieu et d'instrument. Je l'ai donc divisé en sept chapitres."
+      ]
+    },
+    "2": {
+      "title": "Le verbe sain, et le masdar comme origine",
+      "body": [
+        "Le premier chapitre commence par une définition. Le verbe sain est celui où, « à la place du fâ', du 'ayn et du lâm, il n'y a ni lettre de faiblesse, ni redoublement, ni hamza » : daraba, « il a frappé ». C'est plus étroit que le mot « sain » de tous les jours : madda, avec son dâl redoublé, et akhadha, avec sa hamza, n'ont pas de lettre faible, et pourtant ce livre ne les appelle pas sains. Les chapitres deux et trois disent pourquoi.",
+        "Pourquoi les trois lettres radicales sont-elles appelées par les lettres de fa'ala ? « Afin qu'il y ait en lui quelque chose des lettres des lèvres, du milieu et de la gorge » : le fâ' se fait avec les lèvres, le 'ayn au fond de la gorge, le lâm au milieu de la bouche. Le mot de mesure embrasse toutes les régions où se font les lettres.",
+        "Ensuite, le masdar. Al-darb, « le fait de frapper », est le masdar « d'où naissent les neuf choses », et c'est l'origine de la dérivation pour les Basriens, pour trois raisons. Son sens est un, l'événement seul, tandis que le verbe signifie deux choses, l'événement et son temps ; et l'un vient avant le multiple. C'est un nom, et « le nom n'a pas besoin du verbe » : un nom peut se tenir sans verbe, tandis qu'un verbe a besoin d'un nom pour son agent, selon l'explication habituelle. Et son nom même le dit : un masdar est une « source », le lieu d'où ces choses sortent (tasduru).",
+        "La dérivation (ishtiqâq) se définit comme le fait de trouver « une correspondance d'énonciation et de sens » entre deux mots, et elle est de trois sortes. La petite : les mêmes lettres dans le même ordre, daraba de al-darb. La grande : les mêmes lettres dans un autre ordre, jabadha, « il a tiré », de al-jadhb, « le fait de tirer ». La plus grande : des lettres proches par le lieu où elles se forment, na'aqa, « il a crié », de al-nahq, « le braiment », où le 'ayn et le hâ' [ه] sont deux lettres de la gorge.",
+        "« La dérivation visée ici est la petite dérivation. » Chacune des neuf choses garde les lettres de son masdar dans leur ordre : daraba, yadribu, idrib, dârib, madrûb sont tous d-r-b. Un débutant qui entend « dérivation » doit penser à cette sorte seulement."
+      ],
+      "terms": [
+        "le verbe sain : ni lettre faible, ni redoublement, ni hamza parmi ses lettres radicales",
+        "le nom verbal : la source des neuf choses dérivées",
+        "la petite dérivation : les mêmes lettres dans le même ordre",
+        "la grande dérivation : les mêmes lettres dans un autre ordre",
+        "la plus grande dérivation : des lettres proches par leur point d'articulation",
+        "les grammairiens de Bassora"
+      ],
+      "examples": [
+        "daraba min al-darb : petite dérivation",
+        "jabadha min al-jadhb : grande dérivation, les lettres réordonnées",
+        "na'aqa min al-nahq : plus grande dérivation, 'ayn et hâ' [ه] tous deux de la gorge"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi daraba est-il sain dans ce livre, alors que madda et akhadha ne le sont pas ?",
+          "answer": "Le verbe sain n'a, parmi son fâ', son 'ayn et son lâm, ni lettre faible, ni redoublement, ni hamza. Daraba n'en a aucun ; madda a une lettre redoublée (d-d) et akhadha une hamza, si bien qu'ils appartiennent aux chapitres du géminé et du hamzé."
+        },
+        {
+          "prompt": "Donnez les trois raisons des Basriens pour faire du masdar l'origine de la dérivation.",
+          "answer": "Son sens est un (l'événement), tandis que celui du verbe est multiple (événement et temps), et l'un vient en premier ; c'est un nom, et le nom n'a pas besoin du verbe ; et son nom, masdar, « source », dit que les choses sortent de lui."
+        },
+        {
+          "prompt": "Dites quelle sorte de dérivation montre chaque paire : jabadha / al-jadhb ; daraba / al-darb ; na'aqa / al-nahq.",
+          "answer": "Jabadha et al-jadhb : grande (les mêmes lettres, un autre ordre). Daraba et al-darb : petite (les mêmes lettres, le même ordre). Na'aqa et al-nahq : la plus grande ('ayn et hâ' [ه] sont proches dans la gorge)."
+        },
+        {
+          "prompt": "Pourquoi le fâ', le 'ayn et le lâm ont-ils été choisis pour la mesure ?",
+          "answer": "Parce qu'à eux trois ils viennent des trois régions où se font les lettres : le fâ' des lèvres, le lâm du milieu de la bouche et le 'ayn de la gorge."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quel verbe est sain (sahîh) dans ce livre ?",
+          "options": [
+            "madda",
+            "akhadha",
+            "daraba",
+            "qâla"
+          ],
+          "explanation": "Madda est géminé, akhadha hamzé et qâla concave ; daraba n'est rien de cela."
+        },
+        {
+          "prompt": "Pour les Basriens, l'origine de la dérivation est…",
+          "options": [
+            "le passé",
+            "l'impératif",
+            "le participe actif",
+            "le masdar"
+          ],
+          "explanation": "Al-darb est le masdar d'où naissent les neuf choses."
+        },
+        {
+          "prompt": "Pourquoi le verbe vient-il après le masdar, selon la première raison ?",
+          "options": [
+            "Le verbe signifie l'événement et le temps, le masdar l'événement seul",
+            "Le verbe est plus court",
+            "Le verbe n'a pas de racine",
+            "Le masdar a plus de lettres"
+          ],
+          "explanation": "L'un vient avant le multiple : le sens du masdar est un, celui du verbe double."
+        },
+        {
+          "prompt": "Jabadha de al-jadhb est…",
+          "options": [
+            "une petite dérivation",
+            "une grande dérivation",
+            "la plus grande dérivation",
+            "aucune dérivation"
+          ],
+          "explanation": "Les mêmes lettres, mais le dhâl et le bâ' ont changé de place."
+        },
+        {
+          "prompt": "Quelle dérivation le sarf vise-t-il dans ce livre ?",
+          "options": [
+            "La grande",
+            "La plus grande",
+            "La petite",
+            "Les trois également"
+          ],
+          "explanation": "« La dérivation visée ici est la petite dérivation. »"
+        },
+        {
+          "prompt": "Le fâ', le 'ayn et le lâm de la mesure viennent…",
+          "options": [
+            "de la gorge seulement",
+            "des lèvres seulement",
+            "du nez et de la gorge",
+            "des lèvres, de la gorge et du milieu de la bouche"
+          ],
+          "explanation": "Le fâ' des lèvres, le 'ayn de la gorge, le lâm du milieu."
+        },
+        {
+          "prompt": "Le mot masdar signifie…",
+          "options": [
+            "une source, d'où sortent les choses",
+            "un schème",
+            "un acte passé",
+            "une lettre forte"
+          ],
+          "explanation": "Ces choses en sortent (tasduru)."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trois sortes de dérivation (Marâh, p. 5)",
+        "labels": {
+          "The three kinds of derivation (Marāḥ, p. 5)": "Les trois sortes de dérivation (Marâh, p. 5)",
+          "Small: letters and order": "Petite : lettres et ordre",
+          "Derivation": "Dérivation",
+          "Great: letters, not order": "Grande : lettres, non l'ordre",
+          "Greatest: near articulation": "Plus grande : articulation proche"
+        }
+      },
+      "text": [
+        "Le [verbe] sain est celui où, à la place du fâ', du 'ayn et du lâm, il n'y a ni lettre de faiblesse, ni redoublement, ni hamza, comme daraba « il a frappé ». Le fâ', le 'ayn et le lâm ont été choisis pour le schème afin qu'il y ait en lui quelque chose des lettres des lèvres, du milieu et de la gorge.",
+        "Nous disons donc : al-darbu « le fait de frapper » est un masdar d'où naissent les neuf choses, et c'est l'origine de la dérivation selon les Basriens : parce que son concept est un, tandis que le concept du verbe est multiple, puisqu'il indique l'événement et le temps, et que l'un vient avant le multiple ; et s'il est l'origine des verbes, il est l'origine de ce qui leur est lié ; et parce que c'est un nom, et que le nom n'a pas besoin du verbe. On l'appelle aussi masdar (« source ») parce que ces choses sortent (tasduru) de lui.",
+        "La dérivation (ishtiqâq) consiste à trouver entre deux mots une correspondance d'énonciation et de sens. Elle est de trois sortes : la petite, qui consiste en ce qu'il y ait entre eux une correspondance dans les lettres et leur ordre, comme daraba « il a frappé » de al-darbi « le fait de frapper » ; la grande, qui consiste en ce qu'il y ait entre eux une correspondance d'énonciation et de sens sans l'ordre, comme jabadha « il a tiré » de al-jadhbi « le fait de tirer » ; et la plus grande, qui consiste en ce qu'il y ait entre eux une correspondance dans le point d'articulation, comme na'aqa « il a crié » de al-nahqi « le braiment ». La dérivation visée ici est la petite dérivation."
+      ]
+    },
+    "3": {
+      "title": "La thèse des Koufiens pour le verbe, et la réponse",
+      "body": [
+        "Les Koufiens soutenaient le contraire : « c'est le verbe qui devrait être l'origine ». Leur premier argument est le changement des lettres faibles (i'lâl). Là où le verbe change, le masdar change aussi : ya'idu perd son wâw, et 'idatan aussi ; qâma change son wâw en alif et qiyâman le change en yâ'. Là où le verbe garde sa lettre, le masdar la garde : wajila wajalan, qâwama qiwâman, non qiyâman. Le masdar suit le verbe, et ce qui est suivi est l'origine.",
+        "Leur deuxième argument : le masdar renforce le verbe. Darabtu darban, « j'ai frappé une frappe », c'est comme si l'on disait darabtu darabtu, « j'ai frappé, j'ai frappé » ; et « ce qui est renforcé est l'origine, non ce qui renforce ». Leur troisième : masdar ne veut pas dire « source » mais « sorti », comme un participe passif ; les Arabes disent mashrabun 'adhbun, « une boisson douce », employant un schème de lieu au sens de mashrûb, « bu ». Le masdar est donc ce qui sort du verbe.",
+        "« Nous leur répondons » : l'auteur prend le parti des Basriens. Le changement dans le masdar vient de la conformité (mushâkala), non de ce que le verbe en serait le pivot. La conformité change des formes tout le temps sans faire de l'une l'origine de l'autre : ta'idu ne perd son wâw que pour s'accorder avec ya'idu, et tukrimu ne perd sa hamza que pour s'accorder avec ukrimu (leçons 16 et 19).",
+        "Être renforcé montre une priorité dans l'i'râb, non dans la dérivation : dans jâ'anî Zaydun Zaydun, « Zayd, Zayd est venu à moi », le second Zayd renforce le premier, et pourtant personne ne dérive un Zayd de l'autre. Et mashrabun 'adhbun est une figure de style, « du genre de jarâ al-nahru, “le fleuve a coulé” » : c'est l'eau qui coule, non le fleuve, et c'est la boisson qui est douce, non le lieu où l'on boit.",
+        "Retenez le résultat : le masdar est l'origine des neuf. En pratique, pourtant, le livre les dérive en chaîne, comme le montrent les sections suivantes : le passé du masdar, le futur du passé, l'impératif et le participe actif du futur, le participe passif du futur passif."
+      ],
+      "terms": [
+        "les grammairiens de Koufa, rivaux des Basriens",
+        "le changement d'une lettre faible",
+        "être le pivot sur lequel tourne le changement d'un autre",
+        "la conformité : une forme changée pour s'accorder à ses semblables",
+        "ce qui est renforcé et ce qui renforce"
+      ],
+      "examples": [
+        "ya'idu 'idatan, qâma qiyâman : verbe et masdar tous deux changés",
+        "wajila wajalan, qâwama qiwâman : verbe et masdar tous deux inchangés",
+        "darabtu darban : le masdar qui renforce le verbe",
+        "jâ'anî Zaydun Zaydun : renforcement sans dérivation"
+      ],
+      "tasks": [
+        {
+          "prompt": "Expliquez l'argument des Koufiens tiré de qâma qiyâman et qâwama qiwâman.",
+          "answer": "Dans qâma, le wâw de q-w-m change, et le masdar qiyâm le change aussi (en yâ') ; dans qâwama, le wâw reste, et il reste donc dans qiwâm. Le changement du masdar suit celui du verbe, si bien que, disent-ils, le verbe est l'origine."
+        },
+        {
+          "prompt": "Comment l'auteur répond-il à cet argument ?",
+          "answer": "Le masdar change par conformité avec son verbe, non parce que le verbe serait son origine ; la conformité change les formes de la même façon dans ta'idu, qui perd son wâw pour s'accorder avec ya'idu, et dans tukrimu, qui perd sa hamza pour s'accorder avec ukrimu."
+        },
+        {
+          "prompt": "Pourquoi darabtu darban ne prouve-t-il pas que le verbe est l'origine ?",
+          "answer": "Être renforcé donne une priorité dans l'i'râb, non dans la dérivation : dans jâ'anî Zaydun Zaydun, le premier Zayd est renforcé par le second, mais aucun n'est dérivé de l'autre."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pour les Koufiens, l'origine de la dérivation est…",
+          "options": [
+            "le masdar",
+            "le participe",
+            "l'impératif",
+            "le verbe"
+          ],
+          "explanation": "« C'est le verbe qui devrait être l'origine. »"
+        },
+        {
+          "prompt": "Quelle paire montre le verbe et le masdar gardant tous deux le wâw ?",
+          "options": [
+            "wajila wajalan",
+            "ya'idu 'idatan",
+            "qâma qiyâman",
+            "ta'idu 'idatan"
+          ],
+          "explanation": "Yawjalu garde son wâw, et wajal aussi."
+        },
+        {
+          "prompt": "Réponse de l'auteur : le masdar change à cause…",
+          "options": [
+            "de sa lourdeur",
+            "de la conformité (mushâkala)",
+            "de la lettre gutturale",
+            "des Koufiens"
+          ],
+          "explanation": "Il change pour s'accorder à son verbe, comme ta'idu s'accorde à ya'idu."
+        },
+        {
+          "prompt": "Dans jâ'anî Zaydun Zaydun, le renforcement montre…",
+          "options": [
+            "que le premier Zayd est dérivé",
+            "que le second Zayd est l'origine",
+            "une priorité dans l'i'râb, non dans la dérivation",
+            "une faute"
+          ],
+          "explanation": "Un Zayd n'est pas dérivé de l'autre."
+        },
+        {
+          "prompt": "À mashrabun 'adhbun, on répond que c'est…",
+          "options": [
+            "un participe passif",
+            "une faute des Koufiens",
+            "un masdar",
+            "une figure, comme « le fleuve a coulé »"
+          ],
+          "explanation": "C'est la boisson qui est douce, comme c'est l'eau qui coule."
+        },
+        {
+          "prompt": "Quel parti l'auteur prend-il ?",
+          "options": [
+            "Celui des Basriens",
+            "Celui des Koufiens",
+            "Aucun",
+            "Les deux également"
+          ],
+          "explanation": "« Nous leur répondons » : il répond aux Koufiens."
+        },
+        {
+          "prompt": "On dit que darabtu darban vaut…",
+          "options": [
+            "darabtu Zaydan",
+            "darabtu darabtu",
+            "duribtu",
+            "adribu"
+          ],
+          "explanation": "Le masdar répète le sens du verbe en guise de renforcement."
+        }
+      ],
+      "diagram": {
+        "caption": "Les arguments des Koufiens et les réponses basriennes (Marâh, p. 5-7)",
+        "labels": {
+          "The Kūfans' arguments and the Baṣran answers (Marāḥ, pp. 5–7)": "Les arguments des Koufiens et les réponses basriennes (Marâh, p. 5-7)",
+          "Kūfan argument": "Argument koufien",
+          "Their example": "Leur exemple",
+          "Answer": "Réponse",
+          "Its example": "Son exemple",
+          "the maṣdar changes as the verb does": "le masdar change comme le verbe",
+          "conformity, not origin": "conformité, non origine",
+          "the maṣdar emphasises the verb": "le masdar renforce le verbe",
+          "priority in iʿrāb only": "priorité dans l'i'râb seulement",
+          "maṣdar means “issued”": "masdar veut dire « sorti »",
+          "a figure of speech": "une figure de style"
+        }
+      },
+      "text": [
+        "Les Koufiens ont dit : c'est le verbe qui devrait être l'origine, parce que son affaiblissement (i'lâl) est le pivot de l'affaiblissement du masdar, dans la présence comme dans l'absence : dans la présence, dans ya'idu 'idatan « il promet, une promesse » et qâma qiyâman « il s'est levé, une station debout » ; dans l'absence, dans des cas comme wajila wajalan « il a eu peur, une peur » et qâwama qiwâman « il a résisté, une résistance » ; et le fait qu'il en soit le pivot montre qu'il est l'origine. De plus, le verbe est renforcé par lui, comme darabtu darban « j'ai frappé une frappe », qui vaut darabtu darabtu « j'ai frappé, j'ai frappé », et ce qui est renforcé est l'origine, non ce qui renforce. On l'appelle masdar parce qu'il est sorti (masdûr) du verbe, comme ils ont dit mashrabun 'adhbun « une boisson douce » et markabun fârihun « une belle monture », c'est-à-dire mashrûbun « bu » et markûbun « monté ».",
+        "Nous leur répondons : l'affaiblissement du masdar est dû à la conformité, non à ce que [le verbe] en serait le pivot, comme la suppression du wâw dans ta'idu « tu promets » et de la hamza dans tukrimu « tu honores ». Être renforcé ne montre pas que l'on est l'origine dans la dérivation, mais dans l'i'râb, comme dans jâ'anî Zaydun Zaydun « Zayd, Zayd est venu à moi ». Et leur parole mashrabun 'adhbun et markabun fârihun est du genre de jarâ al-nahru « le fleuve a coulé » et sâla al-mîzâbu « la gouttière a coulé »."
+      ]
+    },
+    "4": {
+      "title": "Les masdars du trilitère et des verbes plus longs",
+      "body": [
+        "« Le masdar du trilitère est abondant » : un verbe de trois lettres n'a pas un seul schème de masdar, et « selon Sîbawayh, il s'élève à trente-deux ». Le livre les énumère par des exemples : qatl, fisq et shughl (fa'l, fi'l, fu'l) ; rahma, nishda, kudra avec le tâ' ; da'wâ, dhikrâ, bushrâ avec l'alif bref ; layyân, hirmân, ghufrân, nazawân avec -ân ; et ainsi de suite jusqu'à madkhal, marji', mas'ât et mahmida avec un mîm.",
+        "Aucune règle ne dit lequel de ces schèmes prend un verbe donné ; la madrasa les apprend par l'écoute et dans le dictionnaire. Ce qu'enseigne la liste, c'est à reconnaître un masdar quand on le rencontre sous l'une de ces formes.",
+        "Le masdar vient aussi sur les schèmes des deux participes : qumtu qâ'iman, « je me suis levé d'une station debout », emploie le schème fâ'il ; et dans le verset bi-ayyikumu al-maftûnu (68:6), al-maftûn, sur le schème maf'ûl, est pris comme masdar, « lequel de vous a l'épreuve ». Il vient aussi pour l'intensité : al-tahdâr et al-tal'âb, « le grand bavardage, le grand jeu », sur taf'âl, et al-hiththîthâ et al-dillîlâ sur fi''îlâ.",
+        "« Le masdar du non-trilitère vient selon une seule voie » : chaque schème augmenté a son masdar régulier, tel que le donne l'outil de conjugaison : akrama, ikrâm ; qatta'a, taqtî' ; istakhraja, istikhrâj. Les exceptions nommées sont des formes rares : killâm de kallama (dont le masdar habituel est taklîm), qittâl et qîtâl de qâtala, tihimmâl de tahammala, et zilzâl de zalzala.",
+        "Un piège : le qâ'iman de qumtu qâ'iman ressemble à un participe actif, et dans bien des phrases c'en est un (un hâl, « debout »). Ici le livre le compte comme masdar, parce qu'il se tient là où se tiendrait qiyâman : « je me suis levé d'une station debout »."
+      ],
+      "terms": [
+        "le masdar du verbe de trois lettres : de nombreux schèmes, appris par l'écoute",
+        "le masdar des verbes plus longs : un schème régulier pour chacun",
+        "l'intensité, comme dans tahdâr et hiththîthâ",
+        "le grand grammairien basrien, qui a compté trente-deux schèmes"
+      ],
+      "examples": [
+        "qatl, fisq, shughl : fa'l, fi'l, fu'l",
+        "qumtu qâ'iman : un masdar sur le schème fâ'il",
+        "al-tahdâr, al-tal'âb, al-hiththîthâ, al-dillîlâ : masdars d'intensité",
+        "ikrâm, taqtî', istikhrâj : les masdars réguliers de akrama, qatta'a, istakhraja (outil de conjugaison)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Classez ces masdars selon leur schème : rahma, ghufrân, dhikrâ, dukhûl, madkhal.",
+          "answer": "Rahma : fa'la, avec le tâ'. Ghufrân : fu'lân. Dhikrâ : fi'lâ, avec l'alif bref. Dukhûl : fu'ûl. Madkhal : maf'al, avec le mîm."
+        },
+        {
+          "prompt": "Donnez le masdar régulier de akrama, qatta'a et istakhraja (d'après l'outil de conjugaison), et les formes rares que le livre nomme pour qâtala et kallama.",
+          "answer": "Akrama : ikrâm ; qatta'a : taqtî' ; istakhraja : istikhrâj. Pour qâtala, le livre nomme qittâl et qîtâl, pour kallama killâm : des exceptions à la voie régulière unique."
+        },
+        {
+          "prompt": "Dans qumtu qâ'iman, pourquoi qâ'iman est-il compté comme masdar ?",
+          "answer": "Il se tient là où se tiendrait le masdar qiyâman, « je me suis levé d'une station debout » : le masdar est venu ici sur le schème du participe actif, fâ'il."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de schèmes de masdar du trilitère Sîbawayh a-t-il comptés, selon le livre ?",
+          "options": [
+            "Trente-deux",
+            "Six",
+            "Trente-cinq",
+            "Douze"
+          ],
+          "explanation": "« Selon Sîbawayh, il s'élève à trente-deux. »"
+        },
+        {
+          "prompt": "Quel masdar a le schème à mîm ?",
+          "options": [
+            "dukhûl",
+            "madkhal",
+            "ghufrân",
+            "rahma"
+          ],
+          "explanation": "Madkhal, marji', mas'ât et mahmida terminent la liste : des masdars à mîm."
+        },
+        {
+          "prompt": "Al-tahdâr, « le grand bavardage », est un masdar…",
+          "options": [
+            "du passif",
+            "de lieu",
+            "d'intensité",
+            "du quadrilitère"
+          ],
+          "explanation": "Taf'âl est donné comme schème d'intensité (mubâlagha)."
+        },
+        {
+          "prompt": "Le masdar du non-trilitère vient…",
+          "options": [
+            "sur trente-deux schèmes",
+            "seulement avec un mîm",
+            "jamais avec un tâ'",
+            "selon une seule voie, avec peu d'exceptions"
+          ],
+          "explanation": "Chaque schème augmenté a son masdar régulier."
+        },
+        {
+          "prompt": "Lequel est nommé comme masdar rare de qâtala ?",
+          "options": [
+            "qittâl",
+            "taqtîl",
+            "qatl",
+            "maqtal"
+          ],
+          "explanation": "Qittâl et qîtâl, à côté du schème régulier."
+        },
+        {
+          "prompt": "Dans bi-ayyikumu al-maftûnu, al-maftûn est pris comme…",
+          "options": [
+            "un nom de lieu",
+            "un masdar sur le schème maf'ûl",
+            "un impératif",
+            "un participe actif"
+          ],
+          "explanation": "« Lequel de vous a l'épreuve » : le masdar sur le schème du participe passif."
+        },
+        {
+          "prompt": "Le masdar régulier de istakhraja est…",
+          "options": [
+            "takhrîj",
+            "ikhrâj",
+            "istikhrâj",
+            "makhraj"
+          ],
+          "explanation": "Istaf'ala donne istif'âl : istikhrâj."
+        }
+      ],
+      "diagram": {
+        "caption": "Quelques-uns des trente-deux schèmes de masdar du trilitère (Marâh, p. 7)",
+        "labels": {
+          "Some of the thirty-two maṣdar patterns of the triliteral (Marāḥ, p. 7)": "Quelques-uns des trente-deux schèmes de masdar du trilitère (Marâh, p. 7)",
+          "Patterns": "Schèmes",
+          "Examples": "Exemples",
+          "faʿl, fiʿl, fuʿl": "fa'l, fi'l, fu'l",
+          "faʿla, fiʿla, fuʿla": "fa'la, fi'la, fu'la",
+          "faʿlā, fiʿlā, fuʿlā": "fa'lâ, fi'lâ, fu'lâ",
+          "-ān": "-ân",
+          "faʿal, faʿil, fiʿal, fuʿal": "fa'al, fa'il, fi'al, fu'al",
+          "faʿala, faʿila": "fa'ala, fa'ila",
+          "faʿāl, fiʿāl, fuʿāl": "fa'âl, fi'âl, fu'âl",
+          "faʿāla, fiʿāla": "fa'âla, fi'âla",
+          "fuʿūl, faʿūl, faʿīl, fuʿūla": "fu'ûl, fa'ûl, fa'îl, fu'ûla",
+          "with mīm": "avec mîm"
+        }
+      },
+      "text": [
+        "Le masdar du trilitère est abondant ; selon Sîbawayh, il s'élève à trente-deux schèmes, comme qatlin « le meurtre », fisqin « la perversité », shughlin « l'occupation », rahmatin « la miséricorde », nishdatin « la recherche », kudratin « la turbidité », da'wâ « la prétention », dhikrâ « le rappel », bushrâ « la bonne nouvelle », layyânin « le report », hirmânin « la privation », ghufrânin « le pardon », nazawânin « le bond », talabin « la quête », khaniqin « l'étranglement », sigharin « la petitesse », hudan « la guidance », ghalabatin « la victoire », sariqatin « le vol », dhahâbin « le départ », sirâfin « le rut », su'âlin « la demande », zahâdatin « l'ascèse », dirâyatin « la connaissance », dukhûlin « l'entrée », qabûlin « l'acceptation », wajîfin « le trot », suhûbatin « la rousseur », madkhalin « l'entrée », marji'in « le retour », mas'âtin « l'effort » et mahmidatin « la louange ».",
+        "Il vient aussi sur [les schèmes du] participe actif et du participe passif, comme qumtu qâ'iman « je me suis levé, une station debout », et comme Sa parole, Très-Haut : bi-ayyikumu al-maftûnu « lequel de vous est l'éprouvé » [68:6] ; et il vient pour l'intensité, comme al-tahdâri « le grand bavardage », al-tal'âbi « le grand jeu », al-hiththîthâ « la grande incitation » et al-dillîlâ « la grande guidance ». Le masdar du non-trilitère vient selon une seule voie, sauf que de kallama « il a parlé à » vient killâman, de qâtala « il a combattu » qittâlan et qîtâlan, de tahammala « il a supporté » tihimmâlan, et de zalzala « il a secoué » zilzâlan."
+      ]
+    },
+    "5": {
+      "title": "Les six classes du trilitère, et les trois piliers",
+      "body": [
+        "« Les verbes qui sont dérivés du masdar sont trente-cinq classes », et six d'entre elles appartiennent au trilitère nu. Une classe (bâb) est ici un couple de voyelles sur le 'ayn au passé et au futur : daraba yadribu (a–i), qatala yaqtulu (a–u), 'alima ya'lamu (i–a), fataha yaftahu (a–a), karuma yakrumu (u–u) et hasiba yahsibu (i–i). L'outil de conjugaison nomme la deuxième classe d'après nasara yansuru ; qatala yaqtulu est la même classe.",
+        "« Les trois premières sont appelées les piliers des classes » (da'â'im al-abwâb), pour deux raisons : leurs voyelles diffèrent au passé et au futur, et elles sont nombreuses. Fataha yaftahu n'est pas un pilier : ses voyelles ne diffèrent pas, et elle « ne vient pas sans une lettre gutturale » : une hamza, un hâ' [ه], un 'ayn, un hâ' [ح], un ghayn ou un khâ' comme 'ayn ou lâm, comme le hâ' [ح] de fataha.",
+        "Qu'en est-il des verbes en a–a sans lettre gutturale ? Rakana yarkanu, « s'appuyer », et abâ ya'bâ, « refuser », sont « des dialectes mêlés et de l'irrégulier » : selon l'explication habituelle du terme, le passé d'un dialecte a été joint au futur d'un autre. Baqâ yabqâ, fanâ yafnâ et qalâ yaqlâ sont le dialecte de Tayyi', « qui ont fui la kasra pour la fatha » : ils disent baqâ là où d'autres disent baqiya, si bien que ce sont en réalité des fa'ila yaf'alu.",
+        "Karuma yakrumu n'est pas non plus un pilier, « parce qu'elle ne vient que des natures et des qualités » : être noble, être beau, jamais un acte fait à quelqu'un. Hasiba yahsibu n'est pas un pilier « parce qu'elle est rare ». Un septième couple, fa'ila yaf'ulu, n'est qu'une irrégularité, comme fadila yafdulu, « rester en surplus ».",
+        "Les piliers comptent parce qu'un élève qui rencontre un verbe nouveau rencontre d'ordinaire l'un d'eux. À entendre le passé seul, on ne peut dire la classe : daraba et qatala ont tous deux la fatha. C'est le futur qui décide, et c'est pourquoi la madrasa récite toujours les deux ensemble : daraba yadribu, qatala yaqtulu."
+      ],
+      "terms": [
+        "une classe de conjugaison : la voyelle du 'ayn au passé et au futur",
+        "les piliers des classes : daraba, qatala, 'alima",
+        "les lettres gutturales : hamza, hâ' [ه], 'ayn, hâ' [ح], ghayn, khâ'",
+        "les dialectes mêlés : un passé et un futur de dialectes différents",
+        "l'irrégulier : ce qui rompt la règle"
+      ],
+      "examples": [
+        "rakana yarkanu, abâ ya'bâ : a–a sans lettre gutturale, des dialectes mêlés",
+        "baqâ yabqâ, fanâ yafnâ, qalâ yaqlâ : le dialecte de Tayyi'",
+        "fadila yafdulu : fa'ila yaf'ulu, irrégulier",
+        "le passé, le futur et l'impératif de deux piliers (outil de conjugaison)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez deux raisons pour lesquelles fataha yaftahu n'est pas l'un des piliers.",
+          "answer": "Ses voyelles ne diffèrent pas entre le passé et le futur (a–a), et elle ne vient pas sans une lettre gutturale comme 'ayn ou lâm."
+        },
+        {
+          "prompt": "Pourquoi baqâ yabqâ ne rompt-il pas la règle selon laquelle a–a demande une lettre gutturale ?",
+          "answer": "C'est le dialecte de Tayyi', qui change la kasra en fatha : dans les autres dialectes, c'est baqiya yabqâ, fa'ila yaf'alu, qui ne demande pas de lettre gutturale."
+        },
+        {
+          "prompt": "Donnez le passé, le futur et l'impératif de 'alima et de qatala d'après l'outil de conjugaison.",
+          "answer": "'Alima ya'lamu i'lam (d'après l'outil : عَلِمَ يَعْلَمُ اِعْلَمْ) ; qatala yaqtulu uqtul (قَتَلَ يَقْتُلُ اُقْتُلْ)."
+        },
+        {
+          "prompt": "Pourquoi karuma yakrumu n'est-elle pas un pilier ?",
+          "answer": "Elle ne vient que pour les natures et les qualités (être noble, être beau), jamais pour des actes, si bien que c'est une classe étroite et non l'une des principales."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de classes appartiennent au trilitère nu ?",
+          "options": [
+            "Trois",
+            "Six",
+            "Douze",
+            "Trente-cinq"
+          ],
+          "explanation": "Daraba, qatala, 'alima, fataha, karuma et hasiba."
+        },
+        {
+          "prompt": "Laquelle n'est PAS l'un des trois piliers ?",
+          "options": [
+            "daraba yadribu",
+            "qatala yaqtulu",
+            "fataha yaftahu",
+            "'alima ya'lamu"
+          ],
+          "explanation": "Ses voyelles ne diffèrent pas, et elle demande une lettre gutturale."
+        },
+        {
+          "prompt": "Pourquoi les piliers sont-ils appelés piliers ?",
+          "options": [
+            "Ce sont les plus anciens",
+            "Ils ont des lettres gutturales",
+            "Ils sont rares",
+            "Leurs voyelles diffèrent au passé et au futur, et ils sont nombreux"
+          ],
+          "explanation": "Les deux raisons sont données dans le passage."
+        },
+        {
+          "prompt": "Baqâ yabqâ s'explique comme…",
+          "options": [
+            "le dialecte de Tayyi', qui fuit la kasra pour la fatha",
+            "un verbe à lettre gutturale",
+            "un pilier",
+            "fa'ula yaf'ulu"
+          ],
+          "explanation": "Les autres disent baqiya ; Tayyi' change la kasra en fatha."
+        },
+        {
+          "prompt": "Karuma yakrumu ne vient que pour…",
+          "options": [
+            "les actes du corps",
+            "les natures et les qualités",
+            "le passif",
+            "les verbes à lettre gutturale"
+          ],
+          "explanation": "Être noble, être beau : des états, non des actes faits à autrui."
+        },
+        {
+          "prompt": "Hasiba yahsibu n'est pas un pilier parce qu'elle est…",
+          "options": [
+            "irrégulière",
+            "une forme dialectale",
+            "rare",
+            "géminée"
+          ],
+          "explanation": "« Parce qu'elle est rare. »"
+        },
+        {
+          "prompt": "Rakana yarkanu est…",
+          "options": [
+            "un pilier",
+            "un verbe à lettre gutturale",
+            "le dialecte de Tayyi'",
+            "des dialectes mêlés et de l'irrégulier"
+          ],
+          "explanation": "A–a sans lettre gutturale : le livre l'appelle dialectes mêlés et irrégulier."
+        }
+      ],
+      "diagram": {
+        "caption": "Les six classes du trilitère (Marâh, p. 8)",
+        "labels": {
+          "The six bābs of the triliteral (Marāḥ, p. 8)": "Les six classes du trilitère (Marâh, p. 8)",
+          "Vowels": "Voyelles",
+          "Past": "Passé",
+          "Future": "Futur",
+          "Standing": "Rang",
+          "a – i": "a – i",
+          "pillar": "pilier",
+          "a – u": "a – u",
+          "i – a": "i – a",
+          "a – a": "a – a",
+          "needs a throat letter": "demande une lettre gutturale",
+          "u – u": "u – u",
+          "natures and qualities": "natures et qualités",
+          "i – i": "i – i",
+          "rare": "rare"
+        }
+      },
+      "text": [
+        "Les verbes qui sont dérivés du masdar sont trente-cinq schèmes. Six sont pour le trilitère, comme daraba yadribu « frapper », qatala yaqtulu « tuer », 'alima ya'lamu « savoir », fataha yaftahu « ouvrir », karuma yakrumu « être noble » et hasiba yahsibu « estimer ». Les trois premiers sont appelés les piliers des schèmes (da'â'im al-abwâb), parce que leurs voyelles diffèrent au passé et au futur, et parce qu'ils sont nombreux. Fataha yaftahu n'entre pas parmi les piliers, parce que la différence des voyelles lui manque, et parce qu'il ne vient pas sans une lettre gutturale.",
+        "Quant à rakana yarkanu « s'appuyer » et abâ ya'bâ « refuser », ils sont des dialectes mêlés et de l'irrégulier. Quant à baqâ yabqâ « demeurer », fanâ yafnâ « périr » et qalâ yaqlâ « haïr », ils sont le dialecte des Banû Tayyi', qui ont fui la kasra pour la fatha. Karuma yakrumu n'entre pas non plus parmi les piliers, parce qu'il ne vient que des natures et des qualités ; et hasiba yahsibu n'entre pas parmi les piliers parce qu'il est rare. Fa'ila yaf'ulu est venu dans le dialecte de ceux qui disent kudta takâdu « tu as failli, tu es sur le point de », et il est irrégulier, comme fadila yafdulu « rester en surplus » et dimta tadûmu « tu as duré, tu dures »."
+      ]
+    },
+    "6": {
+      "title": "Les trente-cinq classes : verbes augmentés, quadrilitères et rattachés",
+      "body": [
+        "Les trente-cinq classes s'additionnent comme l'édition les compte : six pour le trilitère nu (leçon 5), douze pour ses branches, une pour le quadrilitère nu, trois pour ses branches, et treize formes rattachées. Les douze « branches du trilitère » (munsha'ibat al-thulâthî) sont les schèmes augmentés : akrama, qatta'a, qâtala, tafaddala, tadâraba, insarafa, ihtaqara, istakhraja, ikhshawshana, ijlawwadha, ihmârra et ihmarra.",
+        "Les deux dernières cachent leur schème. Leurs origines sont ihmârara et ihmarara ; les deux râ' « ont été assimilés parce qu'ils sont d'un même genre ». La preuve en est ir'awâ, « il s'est abstenu » : un verbe défectueux du même schème if'alla, dont les deux dernières lettres, étant de genres différents, ne sont pas assimilées. Ir'awâ montre ouvertement la forme que cache ihmarra.",
+        "Le quadrilitère a une classe nue, dahraja, « il a roulé », et trois branches : ihranjama, iqsha'arra et tadahraja. Viennent ensuite les formes rattachées (mulhaq) : des racines trilitères qui reçoivent une lettre ajoutée pour prendre la forme d'un quadrilitère et se conjuguer comme lui. Six sont rattachées à dahraja (shamlala, hawqala, baytara, jahwara, qalnasa, qalsâ), cinq à tadahraja (tajalbaba, tajawraba, tashaytana, tarahwaka, tamaskana) et deux à ihranjama (iq'ansasa, islanqâ).",
+        "« La preuve du rattachement est que les deux masdars sont un » : hawqala fait hawqala(tan) comme dahraja fait dahraja(tan), si bien que hawqala est rattaché. Par le même critère, akrama, bien qu'il ait quatre lettres, n'est pas rattaché à dahraja : son masdar est ikrâm, non un fa'lala. C'est un trilitère augmenté avec un sens à lui.",
+        "L'outil de conjugaison donne les douze branches quand la racine est saine : akrama yukrimu ikrâm, istakhraja yastakhriju istikhrâj. Le quadrilitère et les formes rattachées, il ne les donne pas ; pour eux la madrasa récite dahraja, yudahriju, dahrajatan, comme le fait le Maqsûd."
+      ],
+      "terms": [
+        "les branches du trilitère : ses schèmes augmentés",
+        "le quadrilitère : un verbe de quatre lettres radicales, dahraja",
+        "le rattaché : un trilitère qui reçoit une lettre pour prendre la forme d'un quadrilitère",
+        "l'assimilation parce que les deux lettres sont d'un même genre",
+        "la preuve du rattachement : le même schème de masdar"
+      ],
+      "examples": [
+        "akrama, qatta'a, qâtala : les trois premières branches du trilitère",
+        "ihmârara, ihmarara : les origines de ihmârra et ihmarra",
+        "shamlala, hawqala, baytara : rattachés à dahraja",
+        "deux branches avec passé, futur et masdar (outil de conjugaison)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Additionnez les trente-cinq classes comme le livre les compte.",
+          "answer": "Six pour le trilitère nu, douze pour ses branches, une pour le quadrilitère nu, trois pour ses branches, six rattachées à dahraja, cinq rattachées à tadahraja et deux rattachées à ihranjama : 6 + 12 + 1 + 3 + 6 + 5 + 2 = 35."
+        },
+        {
+          "prompt": "Quelle est l'origine de ihmarra, et qu'est-ce qui la prouve ?",
+          "answer": "Ihmarara : les deux râ', étant d'un même genre, ont été assimilés. La preuve est ir'awâ, un verbe défectueux du même schème, dont les dernières lettres ne sont pas d'un même genre et restent donc séparées, montrant la forme entière du schème."
+        },
+        {
+          "prompt": "Hawqala est-il rattaché à dahraja ? Et akrama ? Employez le critère du livre.",
+          "answer": "Le critère est que les deux masdars soient un. Hawqala a un masdar du schème de dahraja, si bien qu'il est rattaché. Le masdar de akrama est ikrâm, qui n'est pas de ce schème, si bien qu'il n'est pas rattaché : c'est un trilitère augmenté."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de branches du trilitère le livre compte-t-il ?",
+          "options": [
+            "Six",
+            "Trois",
+            "Douze",
+            "Treize"
+          ],
+          "explanation": "De akrama à ihmarra."
+        },
+        {
+          "prompt": "L'origine de ihmarra est…",
+          "options": [
+            "hamara",
+            "ihmârara",
+            "ahmara",
+            "ihmarara"
+          ],
+          "explanation": "Les deux râ' de ihmarara ont été assimilés."
+        },
+        {
+          "prompt": "Que prouve ir'awâ ?",
+          "options": [
+            "la forme non assimilée du schème if'alla",
+            "que ihmarra est un quadrilitère",
+            "que les verbes défectueux sont rares",
+            "que l'assimilation est toujours nécessaire"
+          ],
+          "explanation": "Ses dernières lettres ne sont pas d'un même genre, si bien qu'elles restent séparées."
+        },
+        {
+          "prompt": "La preuve du rattachement (ilhâq) est…",
+          "options": [
+            "que le verbe a quatre lettres",
+            "que les deux masdars sont un",
+            "qu'il est rare",
+            "qu'il a une hamza"
+          ],
+          "explanation": "« La preuve du rattachement est que les deux masdars sont un. »"
+        },
+        {
+          "prompt": "Hawqala est rattaché à…",
+          "options": [
+            "tadahraja",
+            "ihranjama",
+            "dahraja",
+            "akrama"
+          ],
+          "explanation": "Il est parmi les six rattachés à dahraja."
+        },
+        {
+          "prompt": "Laquelle est une branche du quadrilitère ?",
+          "options": [
+            "qâtala",
+            "hawqala",
+            "istakhraja",
+            "iqsha'arra"
+          ],
+          "explanation": "Ihranjama, iqsha'arra et tadahraja sont les trois."
+        },
+        {
+          "prompt": "Tajalbaba, « elle a mis un jilbâb », est rattaché à…",
+          "options": [
+            "tadahraja",
+            "dahraja",
+            "ihranjama",
+            "tafaddala"
+          ],
+          "explanation": "Il est parmi les cinq rattachés à tadahraja."
+        }
+      ],
+      "diagram": {
+        "caption": "Comment s'additionnent les trente-cinq classes (Marâh, p. 8-10)",
+        "labels": {
+          "How the thirty-five bābs add up (Marāḥ, pp. 8–10)": "Comment s'additionnent les trente-cinq classes (Marâh, p. 8-10)",
+          "Attached forms: 13": "Formes rattachées : 13",
+          "The thirty-five bābs": "Les trente-cinq classes",
+          "Bare triliteral: 6": "Trilitère nu : 6",
+          "Its branches: 12": "Ses branches : 12",
+          "Bare quadriliteral: 1": "Quadrilitère nu : 1",
+          "Its branches: 3": "Ses branches : 3",
+          "To daḥraja: 6": "À dahraja : 6",
+          "To tadaḥraja: 5": "À tadahraja : 5",
+          "To iḥranjama: 2": "À ihranjama : 2"
+        }
+      },
+      "text": [
+        "Douze sont pour les branches du trilitère (munsha'ibat al-thulâthî), comme akrama « il a honoré », qatta'a « il a coupé en morceaux », qâtala « il a combattu », tafaddala « il a fait une faveur », tadâraba « ils se sont frappés l'un l'autre », insarafa « il s'en est allé », ihtaqara « il a méprisé », istakhraja « il a extrait », ikhshawshana « c'est devenu très rude », ijlawwadha « il a poursuivi vite », et ihmârra et ihmarra « c'est devenu rouge », dont les origines sont ihmârara et ihmarara ; ils ont été assimilés parce que [les deux lettres] sont d'un même genre. C'est ce que montre ir'awâ « il s'est abstenu », qui est défectueux, du schème if'alla, et n'est pas assimilé parce que [les deux lettres] ne sont pas d'un même genre.",
+        "Un est pour le quadrilitère, comme dahraja « il a roulé » ; trois pour les branches du quadrilitère, comme ihranjama « ils se sont entassés », iqsha'arra « il a frissonné » et tadahraja « il a roulé » ; six pour ce qui est rattaché (mulhaq) à dahraja, comme shamlala « il s'est hâté », hawqala « il s'est affaibli », baytara « il a soigné des bêtes », jahwara « il a parlé à voix haute », qalnasa et qalsâ « il [lui] a mis un bonnet » ; cinq pour ce qui est rattaché à tadahraja, comme tajalbaba « elle a mis un jilbâb », tajawraba « il a mis des chaussettes », tashaytana « il est devenu un démon », tarahwaka « il s'est pavané » et tamaskana « il s'est fait humble » ; et deux pour ce qui est rattaché à ihranjama, comme iq'ansasa « il a reculé » et islanqâ « il s'est couché sur le dos ». La preuve du rattachement est que les deux masdars sont un [par le schème]."
+      ]
+    },
+    "7": {
+      "title": "Pourquoi le passé est fixé sur la fatha",
+      "body": [
+        "Le passé « vient sous quatorze formes, de daraba à darabnâ », et le livre pose trois questions sur sa finale. Pourquoi est-il fixe (mabnî), sa dernière voyelle ne changeant jamais ? Pourquoi sur une voyelle et non sur un sukûn ? Et pourquoi sur la fatha ? Les réponses tournent autour d'une seule idée : à quel point un verbe ressemble à un nom, surtout au participe actif.",
+        "Il est mabnî « parce que ce qui demande l'i'râb manque » : le participe actif n'a pas pris du passé son pouvoir de régir, comme il l'a pris du futur, si bien que le passé n'a pas reçu l'i'râb en retour. Ou, dit autrement, le mudâri' reçoit l'i'râb parce qu'il ressemble beaucoup au participe, et le passé lui ressemble peu. Pourtant il ressemble un peu au nom, en ce qu'il peut qualifier un nom indéfini : marartu bi-rajulin daraba wa-dâribin, « je suis passé près d'un homme qui a frappé, et d'un qui frappe ». Cette petite ressemblance lui vaut une voyelle plutôt qu'un sukûn.",
+        "Pourquoi la fatha ? « Parce qu'elle est la sœur du sukûn : la fatha est une partie de l'alif, et l'alif est le frère du sukûn. » Des voyelles, la fatha est la plus légère et la plus proche de l'absence de voyelle, si bien qu'elle convient à un verbe qui ne se tient qu'à un pas du sukûn.",
+        "« L'impératif a été rendu mabnî sur le sukûn parce qu'il ne lui ressemble pas » du tout. Il y a donc trois degrés : le mudâri', très semblable au nom, prend l'i'râb ; le passé, un peu semblable, est fixé sur la fatha ; l'impératif, dissemblable, est fixé sur le sukûn.",
+        "Puis les finales du passé. Un alif, un wâw et un nûn ont été ajoutés pour montrer humâ, hum et hunna : darabâ, darabû, darabna. Le bâ' de darabû prend une damma à cause du wâw. Il n'en est pas ainsi dans ramaw : la lettre qui se tenait avant le wâw était le yâ' de ramayû, qui est tombé, si bien que le mîm garde sa fatha. Dans radû, de radiyû, le dâd prend tout de même une damma, « afin qu'il ne soit pas nécessaire de passer d'une kasra à une damma »."
+      ],
+      "terms": [
+        "fixe : un mot dont la finale ne change pas",
+        "déclinable : un mot dont la finale change selon son régissant",
+        "la ressemblance, ici d'un verbe au nom",
+        "la sœur du sukûn : la fatha, la voyelle la plus légère"
+      ],
+      "examples": [
+        "marartu bi-rajulin daraba wa-dâribin : le passé qualifiant un indéfini, comme le participe",
+        "darabû : le bâ' prend la damma devant le wâw",
+        "ramaw : le mîm garde sa fatha, car le yâ' se tenait entre eux",
+        "radû : la damma malgré tout, pour éviter de passer de la kasra à la damma"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le passé est-il fixé sur une voyelle et non sur un sukûn ?",
+          "answer": "Parce qu'il ressemble un peu au nom : comme le participe actif, il peut qualifier un nom indéfini (marartu bi-rajulin daraba wa-dâribin). Cette petite ressemblance lui donne une voyelle, mais non l'i'râb."
+        },
+        {
+          "prompt": "Pourquoi la fatha, parmi toutes les voyelles ?",
+          "answer": "Parce que la fatha est « la sœur du sukûn » : elle est une partie de l'alif, et l'alif est le frère du sukûn. C'est la voyelle la plus légère, la plus proche de l'absence de voyelle."
+        },
+        {
+          "prompt": "Expliquez la voyelle devant le wâw dans darabû, ramaw et radû.",
+          "answer": "Darabû : le bâ' se tient devant le wâw et prend une damma à cause de lui. Ramaw : le mîm n'était pas la lettre devant le wâw (c'était le yâ' de ramayû, qui est tombé), si bien qu'il garde sa fatha. Radû : le dâd n'était pas non plus devant le wâw, mais il prend une damma pour que le mot ne passe pas d'une kasra à une damma."
+        },
+        {
+          "prompt": "Rangez le mudâri', le passé et l'impératif selon leur ressemblance au nom, et donnez la finale de chacun.",
+          "answer": "Le mudâri' lui ressemble beaucoup et il est mu'rab ; le passé lui ressemble un peu et il est fixé sur la fatha ; l'impératif ne lui ressemble pas et il est fixé sur le sukûn."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Sous combien de formes vient le passé ?",
+          "options": [
+            "Douze",
+            "Six",
+            "Neuf",
+            "Quatorze"
+          ],
+          "explanation": "De daraba à darabnâ : quatorze formes."
+        },
+        {
+          "prompt": "Le passé est mabnî sur…",
+          "options": [
+            "la fatha",
+            "le sukûn",
+            "la damma",
+            "la kasra"
+          ],
+          "explanation": "Sur une voyelle, et sur la fatha, la sœur du sukûn."
+        },
+        {
+          "prompt": "Pourquoi le passé a-t-il seulement une voyelle ?",
+          "options": [
+            "Il est mu'rab",
+            "Il ressemble un peu au nom, qualifiant un indéfini",
+            "Il a une lettre gutturale",
+            "Il est l'origine"
+          ],
+          "explanation": "Marartu bi-rajulin daraba wa-dâribin."
+        },
+        {
+          "prompt": "L'impératif est mabnî sur le sukûn parce que…",
+          "options": [
+            "il ressemble beaucoup au nom",
+            "il est l'origine",
+            "il ne ressemble pas au nom",
+            "il est court"
+          ],
+          "explanation": "Pas de ressemblance, donc pas de voyelle."
+        },
+        {
+          "prompt": "Quelle forme est mu'rab, selon le livre ?",
+          "options": [
+            "le passé",
+            "l'impératif",
+            "aucune d'elles",
+            "le mudâri'"
+          ],
+          "explanation": "Il ressemble beaucoup au participe actif."
+        },
+        {
+          "prompt": "Dans ramaw, pourquoi le mîm garde-t-il sa fatha ?",
+          "options": [
+            "Le yâ', maintenant tombé, se tenait devant le wâw",
+            "À cause de la gorge",
+            "C'est un dialecte",
+            "C'est un passif"
+          ],
+          "explanation": "L'origine est ramayû."
+        },
+        {
+          "prompt": "L'alif, le wâw et le nûn ajoutés au passé montrent…",
+          "options": [
+            "anâ, nahnu et anta",
+            "humâ, hum et hunna",
+            "le temps passé",
+            "le passif"
+          ],
+          "explanation": "Darabâ, darabû, darabna."
+        }
+      ],
+      "diagram": {
+        "caption": "Trois degrés de ressemblance au nom (Marâh, p. 11-12 ; formes tirées de l'outil de conjugaison)",
+        "labels": {
+          "Three degrees of resemblance to the noun (Marāḥ, pp. 11–12; forms from the conjugation tool)": "Trois degrés de ressemblance au nom (Marâh, p. 11-12 ; formes tirées de l'outil de conjugaison)",
+          "Form": "Forme",
+          "Example": "Exemple",
+          "Resemblance": "Ressemblance",
+          "Ending": "Finale",
+          "the future (muḍāriʿ)": "le futur (mudâri')",
+          "much": "beaucoup",
+          "muʿrab": "mu'rab",
+          "the past": "le passé",
+          "a little": "un peu",
+          "mabnī on the fatḥa": "mabnî sur la fatha",
+          "the command": "l'impératif",
+          "none": "aucune",
+          "mabnī on the sukūn": "mabnî sur le sukûn"
+        }
+      },
+      "text": [
+        "Il vient sous quatorze formes, comme daraba « il a frappé » jusqu'à darabnâ « nous avons frappé ». Le passé n'a été rendu mabnî que parce que ce qui demande l'i'râb manque ; [il a été rendu mabnî] sur une voyelle parce qu'il ressemble au nom en venant comme épithète d'un indéfini, comme marartu bi-rajulin daraba wa-dâribin « je suis passé près d'un homme qui a frappé, et [d'un] qui frappe » ; et sur la fatha parce qu'elle est la sœur du sukûn : car la fatha est une partie de l'alif, et l'alif est le frère du sukûn.",
+        "Il n'a pas reçu l'i'râb parce que le participe actif n'a pas pris de lui la rection, à la différence du futur : le participe actif a pris de celui-ci la rection, si bien que l'i'râb lui a été donné en compensation ; ou bien parce qu'il lui ressemble beaucoup. C'est-à-dire : le mudâri' reçoit l'i'râb parce qu'il ressemble beaucoup au participe actif, et le passé a été rendu mabnî sur une voyelle parce qu'il lui ressemble peu.",
+        "L'impératif a été rendu mabnî sur le sukûn parce qu'il ne lui ressemble pas. L'alif, le wâw et le nûn ont été ajoutés à sa fin pour qu'ils indiquent humâ « eux deux », hum « eux » et hunna « elles ». Le bâ' de darabû « ils ont frappé » a reçu une damma à cause du wâw, à la différence de ramaw « ils ont lancé », parce que le mîm n'était pas ce qui se tenait devant lui ; et dans radû « ils ont été satisfaits », il a reçu une damma, bien que le dâd ne fût pas ce qui se tenait devant lui, afin qu'il ne soit pas nécessaire de passer d'une kasra à une damma."
+      ]
+    },
+    "8": {
+      "title": "Le tâ' du féminin, et le sukûn devant le pronom",
+      "body": [
+        "Quatre passages parcourent les quatorze formes. D'abord, l'orthographe : un alif est écrit après le wâw de darabû pour marquer où finit le mot, afin que le wâw du pluriel ne soit pas pris pour le wâw « et » dans une phrase comme hadarû wa-takallama Zaydun ; ou, comme d'autres le disent, pour le distinguer du wâw qui appartient à la racine, comme dans lan yad'uwa, qui s'écrit sans lui.",
+        "Le tâ' de darabat marque le féminin « parce que le tâ' est du deuxième point d'articulation, et le féminin aussi est second dans la création » : Ève a été faite après Adam. Ce tâ' « n'est pas un pronom » ; la leçon 14 montre pourquoi. Puis une règle de rythme : dans darabna et darabta, le bâ' est rendu quiescent « afin que quatre voyelles successives ne se réunissent pas dans ce qui est comme un seul mot ». Le pronom de l'agent est si lié au verbe que da-ra-ba-ta ferait quatre voyelles dans un seul mot.",
+        "De là le livre tire une règle de syntaxe : on ne peut coordonner un nom à ce pronom sans corroboration ; non darabtu wa-Zaydun mais darabtu anâ wa-Zaydun, « moi et Zayd avons frappé ». Trois cas ne rompent pas la règle. Dans darabatâ, le tâ' « compte comme non voyellé » : sa fatha n'est que prêtée par l'alif, et c'est pourquoi ramatâ perd l'alif de ramâ (ramâtâ est « un mauvais dialecte »). Dans darabaka, le pronom est un complément d'objet, non une partie du verbe. Et hudabid et 'ulabit sont abrégés de hudâbid et 'ulâbit, comme mikhyat de mikhyât.",
+        "Le tâ' est supprimé dans darabna, « afin que deux signes du féminin ne se réunissent pas ». Dans muslimât, le tâ' de muslima tombe devant -ât parce que les deux sont d'un même genre ; dans hublayât, l'alif de hublâ reste, car l'alif et le tâ' ne sont pas d'un même genre. Le tâ' et le nûn de darabna ne sont pas non plus d'un même genre, mais le tâ' s'en va « à cause de la lourdeur du verbe ».",
+        "Enfin, les formes partagées : le duel de « tu » est darabtumâ pour les hommes comme pour les femmes, et celui qui parle a darabtu et darabnâ pour les deux, parce que le duel est peu employé, que les pronoms sont faits pour la brièveté, et que celui qui parle, vu ou entendu, n'est jamais douteux."
+      ],
+      "terms": [
+        "le tâ' quiescent du féminin : darabat",
+        "une suite de voyelles, que la langue évite au-delà de trois",
+        "comme un seul mot : le verbe avec le pronom de son agent",
+        "les deux signes du féminin, qui ne se réunissent pas"
+      ],
+      "examples": [
+        "darabtu anâ wa-Zaydun : coordonner au pronom après une corroboration",
+        "ramatâ, et le ramâtâ du mauvais dialecte",
+        "hudâbid et 'ulâbit : les origines de hudabid et 'ulabit",
+        "muslimât perd le tâ' de muslima ; hublayât garde l'alif de hublâ"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le bâ' est-il quiescent dans darabna et darabta, mais non dans darabaka ?",
+          "answer": "Le pronom de l'agent est comme une partie du verbe, si bien que da-ra-ba-na ferait quatre voyelles de suite dans un seul mot ; le bâ' est rendu quiescent pour l'éviter. Dans darabaka, le pronom est un complément d'objet (mansûb), non comme une partie du mot, si bien que les quatre voyelles sont permises."
+        },
+        {
+          "prompt": "Pourquoi ramatâ n'a-t-il pas d'alif après le mîm ?",
+          "answer": "Le tâ' compte comme non voyellé, sa fatha étant prêtée par l'alif du duel ; l'alif de ramâ le rencontre comme devant une lettre quiescente et tombe. Seul un mauvais dialecte dit ramâtâ."
+        },
+        {
+          "prompt": "Pourquoi ne peut-on pas dire darabtu wa-Zaydun ?",
+          "answer": "Le pronom -tu est comme une partie du verbe, si bien qu'un nom ne peut lui être coordonné directement par « et » ; il faut d'abord la corroboration : darabtu anâ wa-Zaydun."
+        },
+        {
+          "prompt": "Quelles personnes partagent une seule forme au passé, et pourquoi ?",
+          "answer": "Le duel de « tu » (darabtumâ, hommes et femmes) et celui qui parle (darabtu, darabnâ, hommes et femmes). Le duel est peu employé, les pronoms sont faits courts, et il n'y a pas de doute sur celui qui parle, qui est vu ou entendu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pourquoi écrit-on un alif après le wâw de darabû ?",
+          "options": [
+            "Pour distinguer le wâw du pluriel du wâw « et »",
+            "Pour allonger la voyelle",
+            "Parce qu'il se prononce",
+            "Pour montrer le duel"
+          ],
+          "explanation": "Comme dans hadarû wa-takallama Zaydun ; d'autres disent : pour le distinguer du wâw de lan yad'uwa."
+        },
+        {
+          "prompt": "Le tâ' de darabat est…",
+          "options": [
+            "le pronom de l'agent",
+            "un signe du féminin, non un pronom",
+            "un pronom complément",
+            "une partie de la racine"
+          ],
+          "explanation": "Le livre le dit ici et le prouve à la p. 25."
+        },
+        {
+          "prompt": "Pourquoi le bâ' de darabta est-il quiescent ?",
+          "options": [
+            "À cause de la gorge",
+            "Parce que c'est un passif",
+            "Pour éviter quatre voyelles dans ce qui est comme un seul mot",
+            "Pour montrer le féminin"
+          ],
+          "explanation": "Le pronom de l'agent compte comme une partie du mot."
+        },
+        {
+          "prompt": "Lequel est de l'arabe correct, selon le livre ?",
+          "options": [
+            "darabtu wa-Zaydun",
+            "darabtu Zaydun wa",
+            "anâ wa-Zaydun darabtu wa",
+            "darabtu anâ wa-Zaydun"
+          ],
+          "explanation": "Coordonner au pronom attaché demande la corroboration anâ."
+        },
+        {
+          "prompt": "Pourquoi le tâ' tombe-t-il dans darabna ?",
+          "options": [
+            "Pour que deux signes du féminin ne se réunissent pas",
+            "Pour que quatre voyelles ne se réunissent pas",
+            "Parce que le nûn est une lettre radicale",
+            "Il ne tombe pas"
+          ],
+          "explanation": "Le verbe est lourd, si bien que le tâ' s'en va, bien que lui et le nûn ne soient pas d'un même genre."
+        },
+        {
+          "prompt": "Ramâtâ est…",
+          "options": [
+            "la forme correcte",
+            "un mauvais dialecte",
+            "un passif",
+            "un nom"
+          ],
+          "explanation": "La forme correcte est ramatâ, sans l'alif."
+        },
+        {
+          "prompt": "Darabtumâ s'emploie pour…",
+          "options": [
+            "deux hommes seulement",
+            "deux femmes seulement",
+            "deux hommes et deux femmes à qui l'on parle",
+            "celui qui parle"
+          ],
+          "explanation": "Les duels de l'interlocuteur et de l'interlocutrice ont été rendus semblables."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatorze formes du passé de daraba (outil de conjugaison)",
+        "labels": {
+          "The fourteen forms of the past of ḍaraba (conjugation tool)": "Les quatorze formes du passé de daraba (outil de conjugaison)",
+          "Person": "Personne",
+          "Masculine": "Masculin",
+          "Feminine": "Féminin",
+          "he, she": "il, elle",
+          "they two": "eux deux",
+          "they": "ils",
+          "you": "tu",
+          "you two": "vous deux",
+          "you (plural)": "vous (pluriel)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "L'alif a été écrit dans darabû pour distinguer le wâw du pluriel du wâw de coordination, dans des cas comme hadara wa-takallama Zaydun « Zayd est venu et a parlé » ; et l'on dit : pour distinguer le wâw du pluriel du wâw du singulier, dans des cas comme lan yad'uwa « il n'appellera pas ».",
+        "Le tâ' a été fait signe du féminin dans darabat « elle a frappé » parce que le tâ' est du deuxième point d'articulation, et que le féminin aussi est second dans la création ; ce tâ' n'est pas un pronom, comme on le verra. Le bâ' a été rendu non voyellé dans des cas comme darabna « elles ont frappé » et darabta « tu as frappé » afin que quatre voyelles successives ne se réunissent pas dans ce qui est comme un seul mot ; pour cette raison, la coordination à son pronom sans corroboration n'est pas permise : on ne dit pas darabtu wa-Zaydun, mais on dit darabtu anâ wa-Zaydun « moi et Zayd avons frappé ».",
+        "À la différence de darabatâ « elles ont frappé toutes deux », parce que le tâ' y compte comme non voyellé ; pour cette raison, l'alif tombe dans des cas comme ramatâ « elles ont lancé toutes deux », puisque la voyelle est accidentelle — sauf dans un mauvais dialecte dont les gens disent ramâtâ. Et à la différence de darabaka « il t'a frappé », parce qu'il n'est pas comme un seul mot, puisque son pronom est mansûb. Et à la différence de hudabidin « lait épais » et 'ulabitin « grand troupeau », parce que leurs origines sont hudâbidun et 'ulâbitun ; puis l'alif a été abrégé par allègement, comme dans mikhyatin « aiguille », dont l'origine est mikhyâtun.",
+        "Le tâ' a été supprimé dans darabna afin que deux signes du féminin ne se réunissent pas, comme dans muslimâtin « musulmanes », bien qu'ils ne soient pas d'un même genre, à cause de la lourdeur du verbe ; à la différence de hublayâtin « femmes enceintes », parce que [les signes] ne sont pas d'un même genre. Les duels de l'interlocuteur et de l'interlocutrice ont été rendus semblables, ainsi que les formes de celui qui parle (al-ikhbârât), parce que le duel est peu employé, parce que les pronoms sont faits pour la brièveté, et parce qu'il n'y a pas de confusion dans les formes de celui qui parle."
+      ]
+    },
+    "9": {
+      "title": "Les formes de « tu » et de « je » au passé",
+      "body": [
+        "Pourquoi darabtumâ et non darabtâ ? Sans le mîm, l'alif pourrait être pris pour « l'alif d'allongement », la voyelle longue qu'un poète ajoute à la fin d'un vers, comme dans fa-kayfa antâ, « comment vas-tu donc ? », où antâ n'est que anta étiré. Le mîm a été choisi « parce que sous lui antumâ est sous-entendu » : chaque finale reflète son pronom isolé. Son tâ' a une damma « parce que c'est le pronom de l'agent » ; le singulier darabta n'a une fatha que pour se distinguer de darabtu, danger que le duel ne connaît pas.",
+        "Dans darabtum, le mîm marche du même pas que le duel, et le pronom propre du pluriel, le wâw, est tombé : l'origine est darabtumû. Le mîm « tient lieu de nom », et aucun nom ne finit par un wâw après une damma, sauf huwa ; ainsi adluwun, pluriel de dalw, « seau », devient adlin. Le wâw reste dans darabû, dont le bâ' n'est pas comme un nom, et il revient dans darabtumûhu, « vous l'avez frappé », où le complément attaché l'éloigne de la fin.",
+        "Darabtunna a un nûn redoublé, à la différence de darabna, parce que son origine est darabtumna : le mîm a été assimilé au nûn, les deux étant proches ; la même proximité permet de dire 'ambar pour 'anbar, « l'ambre gris ». Une autre opinion : l'origine était darabtuna ; tout nûn des femmes veut une lettre quiescente devant lui, le tâ' ne pouvait être rendu quiescent ni supprimé, si bien qu'un nûn a été introduit et assimilé.",
+        "Darabtu a un tâ' « parce que sous lui anâ est sous-entendu » : une lettre de anâ lui-même causerait une confusion (un alif ressemblerait au duel, un nûn au pluriel des femmes), si bien que le tâ' a été pris à ses sœurs darabta et darabti. Darabnâ a le nûn de nahnu, et un alif après lui « afin qu'il ne soit pas confondu avec darabna ».",
+        "Aucune de ces raisons n'est nécessaire pour conjuguer ; les formes s'apprennent dans le tableau. La madrasa les lit pour former l'habitude qu'enseigne tout le livre : chaque lettre d'une forme est là pour une cause, et cette cause peut se nommer."
+      ],
+      "terms": [
+        "l'alif d'allongement à la fin d'un vers",
+        "le pronom attaché : -tumâ, -tum, -tunna, -tu, -nâ",
+        "tenir lieu de nom : se dit du mîm de -tum",
+        "l'assimilation : le mîm de darabtumna dans le nûn"
+      ],
+      "examples": [
+        "fa-kayfa antâ : anta allongé à la fin d'un vers",
+        "darabtumû, l'origine de darabtum ; darabtumûhu, où le wâw revient",
+        "adlin, dont l'origine est adluwun : aucun nom ne finit par un wâw après une damma",
+        "darabtumna : l'origine de darabtunna"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi darabtumâ a-t-il un mîm ?",
+          "answer": "Sans lui, darabtâ pourrait être pris pour darabta avec l'alif d'allongement que les poètes ajoutent à la fin d'un vers (fa-kayfa antâ). Le mîm a été choisi parce qu'antumâ est sous-entendu sous lui."
+        },
+        {
+          "prompt": "Donnez l'origine de darabtum et dites pourquoi son wâw est tombé.",
+          "answer": "Darabtumû. Le mîm tient lieu de nom, et aucun nom ne finit par un wâw après une damma, sauf huwa ; le wâw a donc été supprimé, comme adluwun est devenu adlin."
+        },
+        {
+          "prompt": "Pourquoi le wâw revient-il dans darabtumûhu ?",
+          "answer": "Parce que le pronom complément -hu est attaché après lui, si bien que le wâw n'est plus à la fin du mot, et seul un wâw final après une damma est évité."
+        },
+        {
+          "prompt": "Exposez les deux opinions sur l'origine de darabtunna.",
+          "answer": "Première : darabtumna, le mîm étant assimilé au nûn parce que les deux sont proches. Seconde : darabtuna ; puisque tout nûn des femmes demande une lettre quiescente devant lui et que le tâ' ne pouvait être ni rendu quiescent ni supprimé, un nûn a été ajouté et assimilé."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le mîm de darabtumâ le distingue…",
+          "options": [
+            "du duel de l'absent",
+            "de l'alif d'allongement",
+            "du passif",
+            "de l'impératif"
+          ],
+          "explanation": "Comme dans le vers qui finit par fa-kayfa antâ."
+        },
+        {
+          "prompt": "Pourquoi le tâ' de darabtumâ a-t-il une damma ?",
+          "options": [
+            "Il suit la lettre gutturale",
+            "C'est un signe du féminin",
+            "C'est le pronom de l'agent",
+            "C'est un dialecte"
+          ],
+          "explanation": "Le singulier darabta ne prend la fatha que pour différer de darabtu."
+        },
+        {
+          "prompt": "L'origine de darabtum est…",
+          "options": [
+            "darabtumâ",
+            "darabtumna",
+            "darabû",
+            "darabtumû"
+          ],
+          "explanation": "Le wâw final est tombé après le mîm, qui tient lieu de nom."
+        },
+        {
+          "prompt": "Adlin, pluriel de dalw, montre que…",
+          "options": [
+            "aucun nom ne finit par un wâw après une damma",
+            "le wâw est toujours gardé",
+            "les pluriels n'ont pas de wâw",
+            "le mîm tient lieu de verbe"
+          ],
+          "explanation": "Adluwun est devenu adlin."
+        },
+        {
+          "prompt": "La première opinion donne pour origine de darabtunna…",
+          "options": [
+            "darabtunâ",
+            "darabtumna",
+            "darabnâ",
+            "darabtum"
+          ],
+          "explanation": "Le mîm a été assimilé au nûn."
+        },
+        {
+          "prompt": "Pourquoi le tâ' a-t-il été choisi pour darabtu ?",
+          "options": [
+            "C'est une lettre de anâ",
+            "Il marque le féminin",
+            "Une lettre de anâ prêterait à confusion, et le tâ' est dans ses sœurs",
+            "C'est une lettre gutturale"
+          ],
+          "explanation": "Darabta et darabti ont aussi le tâ'."
+        },
+        {
+          "prompt": "L'alif de darabnâ le distingue de…",
+          "options": [
+            "darabâ",
+            "darabtumâ",
+            "darabat",
+            "darabna"
+          ],
+          "explanation": "« Afin qu'il ne soit pas confondu avec darabna. »"
+        }
+      ],
+      "diagram": {
+        "caption": "Pourquoi les formes de « tu » et de « je » sont ainsi (Marâh, p. 14-17)",
+        "labels": {
+          "Why the forms of “you” and “I” look as they do (Marāḥ, pp. 14–17)": "Pourquoi les formes de « tu » et de « je » sont ainsi (Marâh, p. 14-17)",
+          "Form": "Forme",
+          "Feature": "Trait",
+          "Reason": "Raison",
+          "the mīm": "le mîm",
+          "not to be taken for the alif of lengthening": "pour n'être pas pris pour l'alif d'allongement",
+          "ḍamma on the tāʾ": "damma sur le tâ'",
+          "the doer's pronoun; no confusion in the dual": "le pronom de l'agent ; pas de confusion au duel",
+          "the wāw dropped (ḍarabtumū)": "le wâw supprimé (darabtumû)",
+          "no noun ends in wāw after ḍamma": "aucun nom ne finit par un wâw après une damma",
+          "the doubled nūn (ḍarabtumna)": "le nûn redoublé (darabtumna)",
+          "the mīm assimilated into the nūn": "le mîm assimilé au nûn",
+          "the tāʾ": "le tâ'",
+          "anā implied; the tāʾ taken from its sisters": "anâ sous-entendu ; le tâ' pris à ses sœurs",
+          "the alif after the nūn": "l'alif après le nûn",
+          "not to be confused with ḍarabna": "pour n'être pas confondu avec darabna"
+        }
+      },
+      "text": [
+        "Le mîm a été ajouté dans darabtumâ « vous avez frappé tous deux » afin qu'il ne soit pas confondu avec l'alif d'allongement (ishbâ'), dans des cas comme la parole du poète : akhûka akhû mukâsharatin wa-dihkin / wa-hayyâka al-ilâhu fa-kayfa antâ « ton frère est un homme de sourires et de rires, et Dieu t'a salué — comment vas-tu donc ? ». Le mîm a été choisi dans darabtumâ parce que sous lui antumâ « vous deux » est sous-entendu ; et le mîm a été mis dans antumâ parce que le mîm est proche du tâ' par le point d'articulation ; et l'on dit : à la suite de humâ « eux deux ».",
+        "Le tâ' de darabtumâ a reçu une damma parce que c'est le pronom du fâ'il ; le tâ' de l'interlocuteur singulier a reçu une fatha de crainte de confusion avec celui qui parle, et il n'y a pas de confusion au duel. On dit aussi : à la suite du mîm, parce que le mîm est une lettre des lèvres, si bien qu'ils ont fait la voyelle du tâ' de son genre, c'est-à-dire la damma des lèvres.",
+        "Le mîm a été ajouté dans darabtum « vous avez frappé » pour qu'il marche de pair avec le duel. Le pronom du pluriel y est supprimé, c'est-à-dire le wâw, parce que son origine est darabtumû ; le wâw a été supprimé parce que le mîm tient lieu de nom, et qu'à la fin d'un nom il n'y a pas de wâw précédé d'une damma, sauf huwa. Pour cette raison, on dit, au pluriel de dalwin « seau », adlin, dont l'origine est adluwun. À la différence de darabû, parce que son bâ' ne tient pas lieu de nom ; et à la différence de darabtumûhu « vous l'avez frappé », parce que le wâw a quitté la fin à cause du pronom, comme dans al-'azâyati « le lézard ».",
+        "Le nûn de darabtunna « vous (f. pl.) avez frappé » a été redoublé, à la différence de darabna, parce que son origine est darabtumna ; le mîm a été assimilé au nûn parce que le mîm est proche du nûn par le point d'articulation. Pour cette raison, le mîm remplace le nûn dans des cas comme 'ambarin, parce que son origine est 'anbarun « l'ambre gris ». On dit aussi : son origine est darabtuna ; on a voulu que ce qui est avant le nûn soit non voyellé, pour marcher de pair avec tous les nûn des femmes ; rendre non voyellé le tâ' de l'interlocutrice n'est pas possible, parce que deux lettres non voyellées se rencontreraient, ni le supprimer, parce que c'est un signe, et qu'un signe ne se supprime pas ; on a donc introduit un nûn, parce que le nûn est proche du nûn, puis on l'a assimilé.",
+        "Le tâ' a été ajouté dans darabtu « j'ai frappé » parce que sous lui anâ « je » est sous-entendu ; ajouter l'une des lettres de anâ n'est pas possible à cause de la confusion, si bien que le tâ' a été choisi parce qu'il se trouve dans ses sœurs. Le nûn a été ajouté dans darabnâ « nous avons frappé » parce que sous lui nahnu « nous » est sous-entendu ; puis l'alif a été ajouté afin qu'il ne soit pas confondu avec darabna ; et l'on dit : parce que sous lui innâ est sous-entendu."
+      ]
+    },
+    "10": {
+      "title": "Les soixante pronoms",
+      "body": [
+        "« Les pronoms entrent dans le passé et ses sœurs, et ils s'élèvent à soixante sortes. » Le livre atteint ce nombre par un calcul, de la manière dont la madrasa aime voir une division se construire pas à pas. À l'origine, il y en a trois : marfû', mansûb et majrûr, les pronoms des trois cas. Chacun est soit attaché (muttasil) à un mot, soit isolé (munfasil) : trois fois deux font six.",
+        "L'une des six est impossible : le majrûr isolé. Un mot au jarr vient toujours après la préposition ou le nom qui le met au jarr, attaché à lui ; un pronom isolé devrait se tenir seul, comme devant son régissant, si bien que « placer le majrûr avant ce qui le met au jarr » serait nécessaire. Il reste cinq catégories : le marfû' attaché et isolé, le mansûb attaché et isolé, et le majrûr attaché.",
+        "Ensuite, combien en une catégorie ? « En raison », dix-huit : six pour l'absent (il, elle ; les deux ; eux, hommes et femmes), six pour la personne à qui l'on parle, six pour celui qui parle. Mais l'homme et la femme absents partagent un seul duel, de même que l'interlocuteur et l'interlocutrice : cinq chacun. Celui qui parle n'en a besoin que de deux, je et nous, « parce que celui qui parle est vu dans la plupart des cas, ou que l'on sait par la voix » si c'est un homme ou une femme qui parle. Cinq, cinq et deux font douze.",
+        "Douze dans chacune de cinq catégories : soixante. Les douze marfû' attachés sont les finales de daraba à darabnâ ; les douze marfû' isolés sont huwa, humâ, hum, hiya, hunna, anta, antumâ, antum, anti, antunna, anâ et nahnu, placés devant le verbe : de huwa daraba à nahnu darabnâ. Les leçons suivantes prennent le reste.",
+        "Ne confondez pas les douze avec les quatorze formes du passé (leçon 8). Le verbe en a quatorze parce que le duel de l'absent a deux formes, darabâ et darabatâ, et que le duel de « tu » est compté deux fois ; le pronom du duel, l'alif, est un."
+      ],
+      "terms": [
+        "le pronom attaché, joint à un mot",
+        "le pronom isolé, un mot à lui seul",
+        "la personne absente : il, elle, eux",
+        "la personne qui parle : je, nous"
+      ],
+      "examples": [
+        "de daraba à darabnâ : les douze marfû' attachés",
+        "de huwa daraba à nahnu darabnâ : les douze marfû' isolés"
+      ],
+      "tasks": [
+        {
+          "prompt": "Montrez comment le livre arrive à soixante pronoms.",
+          "answer": "Trois cas (marfû', mansûb, majrûr) fois attaché et isolé donnent six ; le majrûr isolé est impossible, ce qui laisse cinq catégories. Chaque catégorie en a douze (cinq pour l'absent, cinq pour celui à qui l'on parle, deux pour celui qui parle). Cinq fois douze font soixante."
+        },
+        {
+          "prompt": "Pourquoi n'y a-t-il pas de pronom majrûr isolé ?",
+          "answer": "Un mot au jarr doit venir après ce qui le met au jarr, et lui être attaché ; un majrûr isolé voudrait dire le placer avant son régissant (ou séparé de lui), ce qui n'est pas permis."
+        },
+        {
+          "prompt": "Pourquoi celui qui parle n'a-t-il que deux formes, et l'absent cinq ?",
+          "answer": "L'homme et la femme absents partagent un seul duel, si bien qu'ils en ont cinq ; celui qui parle est vu, ou connu par la voix, si bien qu'aucune forme n'est nécessaire pour un locuteur homme ou femme : seulement je et nous."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de catégories de pronoms y a-t-il après le calcul ?",
+          "options": [
+            "Six",
+            "Trois",
+            "Cinq",
+            "Douze"
+          ],
+          "explanation": "Six, moins le majrûr isolé."
+        },
+        {
+          "prompt": "Quelle catégorie n'existe pas ?",
+          "options": [
+            "Le mansûb isolé",
+            "Le majrûr attaché",
+            "Le marfû' isolé",
+            "Le majrûr isolé"
+          ],
+          "explanation": "Le majrûr ne peut se tenir à part de ce qui le met au jarr."
+        },
+        {
+          "prompt": "En raison, une catégorie admet combien de formes ?",
+          "options": [
+            "Dix-huit",
+            "Douze",
+            "Quatorze",
+            "Six"
+          ],
+          "explanation": "Six de l'absent, six de celui à qui l'on parle, six de celui qui parle, avant la réduction à douze."
+        },
+        {
+          "prompt": "Pourquoi celui qui parle n'a-t-il besoin que de deux formes ?",
+          "options": [
+            "Ceux qui parlent sont toujours des hommes",
+            "Celui qui parle est vu ou connu par la voix",
+            "Le duel est courant",
+            "Le verbe est lourd"
+          ],
+          "explanation": "Il n'est donc pas besoin de marquer celui qui parle comme masculin ou féminin."
+        },
+        {
+          "prompt": "Combien de pronoms y a-t-il en tout ?",
+          "options": [
+            "Quatorze",
+            "Trente-cinq",
+            "Soixante",
+            "Soixante-douze"
+          ],
+          "explanation": "Cinq catégories de douze."
+        },
+        {
+          "prompt": "De huwa daraba à nahnu darabnâ montre…",
+          "options": [
+            "le mansûb attaché",
+            "le majrûr attaché",
+            "le mansûb isolé",
+            "le marfû' isolé"
+          ],
+          "explanation": "Des pronoms isolés au cas de l'agent."
+        },
+        {
+          "prompt": "Al-hikâya, dans ce passage, est…",
+          "options": [
+            "celui qui parle",
+            "l'absent",
+            "le duel",
+            "un récit"
+          ],
+          "explanation": "Six en raison pour celui qui parle, deux dans l'usage."
+        }
+      ],
+      "diagram": {
+        "caption": "Cinq catégories de douze : les soixante pronoms (Marâh, p. 17-19)",
+        "labels": {
+          "Five classes of twelve: the sixty pronouns (Marāḥ, pp. 17–19)": "Cinq catégories de douze : les soixante pronoms (Marâh, p. 17-19)",
+          "Marfūʿ": "Marfû'",
+          "Sixty pronouns": "Soixante pronoms",
+          "Attached: 12": "Attachés : 12",
+          "Separate: 12": "Isolés : 12",
+          "Manṣūb": "Mansûb",
+          "Majrūr": "Majrûr",
+          "Attached only: 12": "Attachés seulement : 12"
+        }
+      },
+      "text": [
+        "Les pronoms entrent dans le passé et ses sœurs, et ils s'élèvent à soixante sortes, parce qu'à l'origine ils sont trois : marfû', mansûb et majrûr ; puis chacun d'eux devient deux, selon qu'il est attaché ou isolé. Multiplie le deux par le trois, pour que cela fasse six ; puis retire le majrûr isolé, afin qu'il ne soit pas nécessaire de placer le majrûr avant ce qui le met au jarr. Il te reste cinq : marfû' attaché et isolé, mansûb attaché et isolé, et majrûr attaché.",
+        "Puis regarde le marfû' attaché : en raison, il admet dix-huit formes : six pour l'absence (ghayba), six pour l'interlocuteur et l'interlocutrice, et six pour celui qui parle (hikâya). On s'est contenté de cinq pour l'homme absent et la femme absente, en leur faisant partager le duel, parce qu'il est peu employé ; et de même pour l'interlocuteur et l'interlocutrice ; et pour celui qui parle, de deux mots, parce que celui qui parle est vu dans la plupart des cas, ou que l'on sait par la voix s'il est masculin ou féminin. Il te reste donc douze sortes.",
+        "Si une seule division de cette division devient douze sortes, chacune d'elles devient semblable ; en multipliant donc le cinq par douze, tu obtiens soixante sortes : douze pour le marfû' attaché, comme daraba « il a frappé » jusqu'à darabnâ « nous avons frappé », et douze pour le marfû' isolé, comme huwa daraba « il a frappé » jusqu'à nahnu darabnâ « nous avons frappé »."
+      ]
+    },
+    "11": {
+      "title": "Huwa et hiya : les pronoms isolés expliqués",
+      "body": [
+        "Si huwa faisait son duel et son pluriel de la manière simple, ils seraient huwâ et huwû. Au lieu de cela, le wâw « a été changé en mîm au pluriel, parce que leur point d'articulation est un et que deux wâw se réunissent » : le wâw et le mîm se font tous deux avec les lèvres. Cela a donné humû ; puis le wâw final est tombé, comme dans darabtumû (leçon 9), et le résultat est hum. Le duel humâ « a été traité comme lui » ; ou bien le mîm y a été mis « afin que la fatha tombe sur le mîm fort » plutôt que sur un wâw faible. Antumâ a son mîm comme darabtumâ, et antum le suit.",
+        "Pourquoi huwa lui-même garde-t-il son wâw ? Un mot de deux lettres, h et w, en a moins que « la juste mesure » : supprimez le wâw et il ne reste presque rien. Mais quand il est « embrassé » par un autre mot, il tombe : lahu, « à lui », c'est la + hu, les lettres des deux réunis étant suffisantes. Le hâ' garde sa damma, lahu, sauf si une kasra ou un yâ' quiescent le précède : il prend alors une kasra, ghulâmihi, fîhi, « afin qu'il ne soit pas nécessaire de passer d'une kasra à une damma ».",
+        "Hiya est traité comme huwa. Son yâ' peut être changé en alif, comme les Arabes disent yâ ghulâmâ pour yâ ghulâmî, « ô mon serviteur », et yâ bâdâtu pour yâ bâdiyatu. Au duel, le yâ' devient un mîm, humâ, « afin que la fatha ne tombe pas sur le yâ' faible ». Et hunna a un nûn redoublé pour la même raison que darabtunna.",
+        "Deux règles vont ici bien au-delà des pronoms. La langue évite de passer directement d'une kasra à une damma : elle a changé les voisins de darabû à la leçon 7 et change ici le hâ' de ghulâmihi. Et une lettre faible, wâw ou yâ', porte mal une voyelle, si bien que la langue préfère mettre la voyelle sur une lettre forte. Les deux reviendront dans chaque chapitre sur les verbes faibles."
+      ],
+      "terms": [
+        "le pronom isolé : huwa, hiya, humâ, hum, hunna",
+        "la juste mesure : le moins de lettres qu'un mot peut avoir",
+        "l'embrassement : un pronom joint à un autre mot, comme lahu",
+        "passer d'une kasra à une damma, ce que la langue évite"
+      ],
+      "examples": [
+        "huwâ, huwû : les duels et pluriels simples que la langue n'a pas employés",
+        "humû : l'étape entre huwû et hum",
+        "lahu : le wâw de huwa supprimé quand il est embrassé",
+        "ghulâmihi, fîhi : le hâ' avec la kasra après une kasra ou un yâ'",
+        "yâ ghulâmî, yâ ghulâmâ : un yâ' changé en alif"
+      ],
+      "tasks": [
+        {
+          "prompt": "Remontez de hum à son origine, pas à pas.",
+          "answer": "Huwû (le pluriel simple de huwa) ; le wâw a été changé en mîm parce que le wâw et le mîm partagent leur point d'articulation et que deux wâw se rencontraient : humû ; puis le wâw final est tombé, comme dans darabtumû : hum."
+        },
+        {
+          "prompt": "Pourquoi huwa garde-t-il son wâw seul, mais le perd-il dans lahu ?",
+          "answer": "Seul, huwa a moins de lettres que la juste mesure, si bien que le wâw ne peut partir. Embrassés par le lâm, les deux mots réunis ont assez de lettres, et le wâw se trouve à la fin, si bien qu'il tombe, tandis que le hâ' garde sa damma."
+        },
+        {
+          "prompt": "Pourquoi ghulâmihi et fîhi, mais lahu ?",
+          "answer": "Après une kasra (ghulâmi-) ou un yâ' quiescent (fî-), le hâ' prend une kasra, pour ne pas passer d'une kasra à une damma ; après une fatha (la-), il garde sa damma."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le pluriel simple de huwa aurait été…",
+          "options": [
+            "humû",
+            "hunna",
+            "huwâ",
+            "huwû"
+          ],
+          "explanation": "Puis le wâw est devenu un mîm : humû, hum."
+        },
+        {
+          "prompt": "Pourquoi le wâw a-t-il été changé en mîm dans hum ?",
+          "options": [
+            "Ils partagent un point d'articulation, et deux wâw se rencontraient",
+            "Le mîm est une lettre gutturale",
+            "Pour le féminin",
+            "À cause du duel"
+          ],
+          "explanation": "Le wâw et le mîm sont tous deux des lettres des lèvres."
+        },
+        {
+          "prompt": "Le wâw de huwa n'est pas supprimé quand il est seul parce que…",
+          "options": [
+            "c'est une lettre radicale",
+            "le mot serait au-dessous de la juste mesure",
+            "il a une fatha",
+            "il est féminin"
+          ],
+          "explanation": "Deux lettres sont trop peu pour en perdre une."
+        },
+        {
+          "prompt": "Dans lahu, le wâw de huwa…",
+          "options": [
+            "reste",
+            "devient un yâ'",
+            "tombe, le pronom étant embrassé",
+            "devient un mîm"
+          ],
+          "explanation": "Les lettres réunies suffisent, et le wâw se trouve à la fin."
+        },
+        {
+          "prompt": "Le hâ' de fîhi a une kasra parce que…",
+          "options": [
+            "il est féminin",
+            "c'est un dialecte",
+            "c'est l'agent",
+            "un yâ' quiescent le précède"
+          ],
+          "explanation": "Pour ne pas passer de la kasra à la damma."
+        },
+        {
+          "prompt": "Au duel de hiya, le yâ' devient…",
+          "options": [
+            "un mîm",
+            "un alif",
+            "un wâw",
+            "un nûn"
+          ],
+          "explanation": "Humâ : la fatha ne doit pas tomber sur le yâ' faible."
+        },
+        {
+          "prompt": "Yâ ghulâmâ pour yâ ghulâmî montre…",
+          "options": [
+            "un wâw changé en mîm",
+            "un yâ' changé en alif",
+            "un hâ' supprimé",
+            "un nûn redoublé"
+          ],
+          "explanation": "Comme le yâ' de hiya peut être changé en alif."
+        }
+      ],
+      "diagram": {
+        "caption": "Comment sont nés les pronoms isolés (Marâh, p. 19-21)",
+        "labels": {
+          "How the separate pronouns came to be (Marāḥ, pp. 19–21)": "Comment sont nés les pronoms isolés (Marâh, p. 19-21)",
+          "Form": "Forme",
+          "From": "De",
+          "Change": "Changement",
+          "huwū → humū": "huwû → humû",
+          "wāw made mīm, final wāw dropped": "wâw changé en mîm, wâw final supprimé",
+          "huwā": "huwâ",
+          "follows the plural; fatḥa on the strong mīm": "suit le pluriel ; fatha sur le mîm fort",
+          "la + huwa": "la + huwa",
+          "the wāw dropped when embraced": "le wâw supprimé quand il est embrassé",
+          "ghulāmi + hu": "ghulâmi + hu",
+          "ḍamma to kasra after a kasra": "damma changée en kasra après une kasra",
+          "from hiya": "de hiya",
+          "yāʾ made mīm in the dual": "yâ' changé en mîm au duel",
+          "as ḍarabtunna": "comme darabtunna",
+          "the doubled nūn": "le nûn redoublé"
+        }
+      },
+      "text": [
+        "L'origine de huwa [au duel et au pluriel] est que l'on dise huwâ et huwû ; mais le wâw a été changé en mîm au pluriel, parce que leur point d'articulation est un et que deux wâw se réunissent, si bien que c'est devenu humû ; puis le wâw a été supprimé, comme dans darabtumû, et le duel a été traité comme lui ; et l'on dit : afin que la fatha tombe sur le mîm fort. Le mîm a été mis dans antumâ « vous deux », comme on l'a vu pour darabtumâ, et le pluriel a été traité comme lui.",
+        "Le wâw de huwa n'est pas supprimé, parce que ses lettres sont moins nombreuses que la juste mesure ; il est supprimé quand il est embrassé par autre chose, parce que de nombreuses lettres sont obtenues par l'embrassement, et que le wâw tombe à la fin ; et le hâ' reste avec sa damma comme il était, comme lahu « à lui ». Le hâ' prend une kasra quand ce qui le précède a une kasra ou est un yâ' non voyellé, afin qu'il ne soit pas nécessaire de passer d'une kasra à une damma, comme ghulâmihi « son serviteur (au jarr) » et fîhi « en lui ».",
+        "Le yâ' de hiya « elle » est changé en alif, comme il l'est dans yâ ghulâmî « ô mon serviteur » : yâ ghulâmâ, et dans yâ bâdiyatu « ô désert » : yâ bâdâtu ; et le yâ' est changé en mîm au duel, afin que la fatha ne tombe pas sur le yâ' faible, faible comme il l'est. Le nûn de hunna « elles » a été redoublé, comme on l'a vu pour darabtunna."
+      ]
+    },
+    "12": {
+      "title": "Les pronoms compléments et les pronoms au jarr",
+      "body": [
+        "Douze pronoms mansûb attachés suivent le verbe comme son complément d'objet : de darabahu, « il l'a frappé », à darabanâ, « il nous a frappés ». Une combinaison n'est pas permise : le pronom de l'agent et le pronom du complément pour la même personne, comme darabtaka, « tu t'as frappé », ou darabtunî, « je m'ai frappé », « afin qu'une seule personne ne devienne pas agent et complément dans une même situation ». Pour dire se frapper soi-même, l'arabe emploie un nom : darabta nafsaka, « tu t'es frappé toi-même ».",
+        "L'exception est celle des « verbes du cœur » (af'âl al-qulûb), verbes de savoir et de penser à deux compléments : 'alimtaka fâdilan, « tu t'es su excellent », 'alimtunî fâdilan, « je me suis su excellent ». Ils sont permis « parce que le premier complément n'est pas un complément en réalité » : ce qui est su n'est pas la personne mais un fait la concernant, et la phrase signifie 'alimta fadlaka, « tu as su ton excellence ».",
+        "Douze pronoms mansûb isolés sont bâtis sur iyyâ- : de iyyâhu daraba, « c'est lui qu'il a frappé », à iyyânâ daraba, « c'est nous qu'il a frappés ». On les emploie quand le complément vient en tête, ou ne peut être attaché. Douze pronoms majrûr attachés sont joints à un nom dans l'idâfa ou à une préposition : de dâribuhu, « celui qui le frappe », à dâribunâ, « celui qui nous frappe ».",
+        "Une forme demande explication : dâribiyya, « ceux qui me frappent ». Le pluriel dâribûna perd son nûn dans l'idâfa et rencontre le yâ' de « moi » : dâribûya. Puis « le wâw a été changé en yâ' et assimilé, comme dans mahdiyy », le participe passif dont l'origine est mahdûy (leçon 57). Un wâw et un yâ' côte à côte, le premier quiescent, deviennent un yâ' redoublé : une règle que les chapitres du concave et du défectueux emploient encore et encore."
+      ],
+      "terms": [
+        "le pronom complément : -hu, -ka, -nî … et iyyâ-",
+        "le pronom au jarr, joint à un nom ou à une préposition",
+        "les verbes du cœur : savoir et penser, à deux compléments",
+        "la base des pronoms compléments isolés"
+      ],
+      "examples": [
+        "de darabahu à darabanâ : les douze mansûb attachés",
+        "'alimtaka fâdilan, 'alimtunî fâdilan : agent et complément, une seule personne, avec un verbe du cœur",
+        "'alimta fadlaka : ce que signifie la phrase",
+        "dâribiyya : de dâribûya, le wâw changé en yâ' et assimilé"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi ne dit-on pas darabtunî, alors qu'on dit 'alimtunî fâdilan ?",
+          "answer": "Dans darabtunî, une seule personne serait à la fois agent et complément du même acte, ce qui n'est pas permis. 'Alimtunî fâdilan a un verbe du cœur, dont le premier complément n'est pas vraiment un complément : la phrase signifie 'alimtu fadlî, « j'ai su mon excellence »."
+        },
+        {
+          "prompt": "Nommez la catégorie de chaque pronom : le -hu de darabahu, le -hu de dâribuhu, iyyâhu.",
+          "answer": "Darabahu : mansûb attaché (complément du verbe). Dâribuhu : majrûr attaché (dans l'idâfa). Iyyâhu : mansûb isolé."
+        },
+        {
+          "prompt": "Expliquez dâribiyya.",
+          "answer": "Dâribûna, annexé au yâ' de « moi », perd son nûn : dâribûya. Le wâw quiescent devant le yâ' est changé en yâ' et assimilé à lui, comme dans mahdiyy de mahdûy : dâribiyya."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "De darabahu à darabanâ, ce sont les douze…",
+          "options": [
+            "mansûb attachés",
+            "marfû' attachés",
+            "mansûb isolés",
+            "majrûr attachés"
+          ],
+          "explanation": "Des pronoms compléments joints au verbe."
+        },
+        {
+          "prompt": "Pourquoi darabtaka n'est-il pas permis ?",
+          "options": [
+            "Il a quatre voyelles",
+            "Une seule personne serait agent et complément à la fois",
+            "Le kâf est une lettre gutturale",
+            "C'est un dialecte"
+          ],
+          "explanation": "Sauf avec les verbes du cœur."
+        },
+        {
+          "prompt": "Quel verbe permet 'alimtunî fâdilan ?",
+          "options": [
+            "tout verbe transitif",
+            "un verbe passif",
+            "un verbe du cœur",
+            "un verbe de mouvement"
+          ],
+          "explanation": "Son premier complément n'est pas un complément en réalité."
+        },
+        {
+          "prompt": "'Alimtaka fâdilan est compris comme…",
+          "options": [
+            "'alimtu fadlî",
+            "darabta nafsaka",
+            "'alima Zaydun",
+            "'alimta fadlaka"
+          ],
+          "explanation": "« Tu as su ton excellence. »"
+        },
+        {
+          "prompt": "Iyyâhu daraba est un exemple du…",
+          "options": [
+            "mansûb isolé",
+            "marfû' isolé",
+            "mansûb attaché",
+            "majrûr attaché"
+          ],
+          "explanation": "Le pronom complément se tenant seul, devant le verbe."
+        },
+        {
+          "prompt": "Dâribuhu montre le pronom…",
+          "options": [
+            "mansûb attaché",
+            "majrûr attaché",
+            "marfû' isolé",
+            "caché"
+          ],
+          "explanation": "Le pronom est au jarr par l'idâfa."
+        },
+        {
+          "prompt": "Dâribiyya est comparé à…",
+          "options": [
+            "muslimât",
+            "adlin",
+            "mahdiyy",
+            "'ambar"
+          ],
+          "explanation": "Dans les deux, un wâw devant un yâ' est devenu un yâ' et a été assimilé."
+        }
+      ],
+      "diagram": {
+        "caption": "Les cinq catégories de pronoms, le premier et le dernier (Marâh, p. 18-22)",
+        "labels": {
+          "The five classes of pronoun, first and last (Marāḥ, pp. 18–22)": "Les cinq catégories de pronoms, le premier et le dernier (Marâh, p. 18-22)",
+          "Class": "Catégorie",
+          "First": "Premier",
+          "Last": "Dernier",
+          "attached marfūʿ": "marfû' attaché",
+          "separate marfūʿ": "marfû' isolé",
+          "attached manṣūb": "mansûb attaché",
+          "separate manṣūb": "mansûb isolé",
+          "attached majrūr": "majrûr attaché"
+        }
+      },
+      "text": [
+        "Douze sont pour le mansûb attaché, comme darabahu « il l'a frappé » jusqu'à darabanâ « il nous a frappés ». La réunion des pronoms du fâ'il et du maf'ûl n'y est pas permise, dans des cas comme darabtaka et darabtunî, afin qu'une seule personne ne devienne pas fâ'il et maf'ûl dans une même situation — sauf dans les verbes du cœur, comme 'alimtaka fâdilan « tu t'es su excellent » et 'alimtunî fâdilan « je me suis su excellent », parce que le premier complément n'est pas un complément en réalité ; c'est pourquoi l'on dit dans leur [formulation] sous-entendue : 'alimta fadlaka « tu as su ton excellence » et 'alimtu fadlî « j'ai su mon excellence ».",
+        "Douze sont pour le mansûb isolé, comme iyyâhu daraba « c'est lui qu'il a frappé » jusqu'à iyyânâ daraba « c'est nous qu'il a frappés » ; et douze pour le majrûr attaché, comme dâribuhu « celui qui le frappe » jusqu'à dâribunâ « celui qui nous frappe ». Dans des cas comme dâribiyya « ceux qui me frappent », le wâw a été changé en yâ' puis assimilé, comme dans mahdiyyin « guidé »."
+      ]
+    },
+    "13": {
+      "title": "Le pronom caché, et le yâ' de tadribîna",
+      "body": [
+        "Tout pronom ne se voit pas. « Le marfû' attaché est caché en cinq places », présent dans le sens mais sans lettre à lui. Trois sont données ici : l'homme absent (daraba, yadribu, li-yadrib, lâ yadrib : « il » a frappé, frappe, qu'il frappe, qu'il ne frappe pas), la femme absente (darabat, tadribu, li-tadrib, lâ tadrib), et l'interlocuteur « hors du passé » (tadribu, idrib, lâ tadrib). Celui qui parle et l'adjectif suivent dans la leçon suivante.",
+        "Remarquez la troisième place : « hors du passé ». Au passé, l'interlocuteur a un pronom apparent, le -ta de darabta ; au futur et à l'impératif, il n'en a pas, et tadribu ou idrib portent le « tu » en eux.",
+        "Puis une question qui a divisé les grammairiens : qu'est-ce que le yâ' de tadribîna, « tu (une femme) frappes » ? Pour al-Akhfash, ce n'est qu'« un signe d'adresse », et l'agent est caché ; pour la plupart, c'est « un pronom apparent de l'agent, comme le wâw de yadribûna ». Dans les deux cas, pourquoi un yâ' ? Parce que le yâ' est chez lui avec le féminin : dans hâdhî amatu Allâhi, « voici la servante de Dieu », hâdhî finit par un yâ'.",
+        "Pourquoi pas une lettre de anti, comme darabtu a pris une lettre proche de anâ ? Un alif ressemblerait au duel tadribâni ; un nûn réunirait deux nûn ; un tâ' répéterait le tâ' du préfixe. Pourquoi le yâ' doit-il paraître ? Pour la distinguer du pluriel des femmes, tadribna. Pourquoi pas une voyelle seule, tadribinna ? Elle ressemblerait au nûn lourd d'insistance. Et pourquoi garder le nûn ? Sans lui, la forme serait confondue avec l'interlocuteur.",
+        "C'est la méthode du Marâh dans toute son ampleur : chaque solution que la langue aurait pu employer est nommée et écartée avec une raison. Lisez un tel passage comme une liste d'options et d'objections, non comme un récit."
+      ],
+      "terms": [
+        "le pronom caché : visé mais non écrit",
+        "le pronom apparent : écrit et entendu",
+        "un signe d'adresse, non un pronom : al-Akhfash sur le yâ' de tadribîna",
+        "un grammairien basrien dont le livre rapporte les opinions"
+      ],
+      "examples": [
+        "daraba, yadribu, wa-lyadrib, wa-lâ yadrib : le « il » caché",
+        "tadribu, idrib, lâ tadrib : le « tu » caché hors du passé",
+        "hâdhî amatu Allâhi : le yâ' chez lui avec le féminin"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dans lesquels le pronom de l'agent est-il caché, et dans lesquels apparent : darabta, tadribu (« tu frappes »), idrib, darabû ?",
+          "answer": "Apparent dans darabta (-ta) et darabû (-û) ; caché dans tadribu et idrib, car l'interlocuteur hors du passé a un pronom caché."
+        },
+        {
+          "prompt": "Donnez les deux opinions sur le yâ' de tadribîna.",
+          "answer": "Al-Akhfash : ce n'est qu'un signe d'adresse, et l'agent est caché. La plupart des grammairiens : c'est un pronom apparent de l'agent, comme le wâw de yadribûna."
+        },
+        {
+          "prompt": "Pourquoi aucune des lettres de anti n'a-t-elle été ajoutée à tadribîna ?",
+          "answer": "L'alif le ferait ressembler au duel tadribâni ; le nûn réunirait deux nûn ; le tâ' répéterait le tâ' déjà au début du mot."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "En combien de places le marfû' attaché est-il caché ?",
+          "options": [
+            "Trois",
+            "Cinq",
+            "Douze",
+            "Deux"
+          ],
+          "explanation": "L'homme absent, la femme absente, l'interlocuteur hors du passé, celui qui parle, l'adjectif."
+        },
+        {
+          "prompt": "Où le pronom de l'interlocuteur est-il apparent ?",
+          "options": [
+            "Au futur",
+            "À l'impératif",
+            "Au passé",
+            "Dans l'interdiction"
+          ],
+          "explanation": "Darabta a -ta ; tadribu et idrib n'en ont pas."
+        },
+        {
+          "prompt": "Pour al-Akhfash, le yâ' de tadribîna est…",
+          "options": [
+            "le pronom apparent de l'agent",
+            "une lettre radicale",
+            "un signe du duel",
+            "un signe d'adresse, l'agent étant caché"
+          ],
+          "explanation": "La plupart des autres l'appellent pronom apparent."
+        },
+        {
+          "prompt": "Pourquoi le yâ' a-t-il été choisi pour tadribîna ?",
+          "options": [
+            "Il vient pour le féminin, comme dans hâdhî",
+            "C'est une lettre gutturale",
+            "C'est une lettre de anti",
+            "Il est léger"
+          ],
+          "explanation": "Hâdhî amatu Allâhi."
+        },
+        {
+          "prompt": "Pourquoi pas un alif dans tadribîna ?",
+          "options": [
+            "Il ressemblerait au pluriel",
+            "Il ressemblerait au duel",
+            "L'alif est lourd",
+            "Il ressemblerait au passé"
+          ],
+          "explanation": "Tadribâni est le duel."
+        },
+        {
+          "prompt": "Pourquoi le yâ' de tadribîna doit-il paraître ?",
+          "options": [
+            "Pour le distinguer du passé",
+            "Pour la rime",
+            "Pour le distinguer du pluriel des femmes tadribna",
+            "Pour montrer la racine"
+          ],
+          "explanation": "« Le yâ' a été rendu apparent pour le distinguer de son pluriel. »"
+        },
+        {
+          "prompt": "Quelle forme a un « il » caché ?",
+          "options": [
+            "darabû",
+            "darabtu",
+            "tadribîna",
+            "yadribu"
+          ],
+          "explanation": "Le pronom de l'homme absent est caché."
+        }
+      ],
+      "diagram": {
+        "caption": "Les cinq places du pronom caché (Marâh, p. 22-24)",
+        "labels": {
+          "The five places of the hidden pronoun (Marāḥ, pp. 22–24)": "Les cinq places du pronom caché (Marâh, p. 22-24)",
+          "Place": "Place",
+          "Examples": "Exemples",
+          "the absent man": "l'homme absent",
+          "the absent woman": "la femme absente",
+          "the man addressed, not in the past": "l'interlocuteur, hors du passé",
+          "the speaker": "celui qui parle",
+          "the adjective": "l'adjectif"
+        }
+      },
+      "text": [
+        "Le marfû' attaché est caché en cinq places : dans l'homme absent, comme daraba « il a frappé », yadribu « il frappe », wa-lyadrib « et qu'il frappe ! » et wa-lâ yadrib « et qu'il ne frappe pas ! » ; dans la femme absente, comme darabat « elle a frappé », wa-tadribu « et elle frappe », wa-ltadrib « et qu'elle frappe ! » et wa-lâ tadrib « et qu'elle ne frappe pas ! » ; et dans l'interlocuteur hors du passé, comme tadribu « tu frappes », wa-idrib « et frappe ! » et wa-lâ tadrib « et ne frappe pas ! ».",
+        "Le yâ' de tadribîna « tu (f.) frappes » est un signe d'adresse, et le fâ'il est caché, selon al-Akhfash ; selon la plupart, c'est un pronom apparent du fâ'il, comme le wâw de yadribûna « ils frappent ». Le yâ' a été choisi parce qu'il vient pour le féminin dans hadhî amatu Allâhi « voici la servante de Dieu ».",
+        "Aucune des lettres de anti « tu (f.) » n'a été ajoutée dans tadribîna : [pas l'alif] à cause de la confusion avec le duel si l'alif était ajouté, [pas le nûn] parce que deux nûn se réuniraient dans le nûn, et [pas le tâ'] parce que deux tâ' se répéteraient dans le tâ'. Le yâ' a été rendu apparent pour le distinguer de son pluriel ; on ne l'a pas distingué par la voyelle de ce qui précède le nûn, afin qu'il ne soit pas confondu d'aspect avec le nûn lourd ; et le nûn n'est pas supprimé, afin qu'il ne soit pas confondu avec l'interlocuteur au mudâri'."
+      ]
+    },
+    "14": {
+      "title": "Pourquoi le pronom se cache, et où il le doit",
+      "body": [
+        "Les deux dernières places du pronom caché : celui qui parle, adribu et nadribu, et l'adjectif, dâribun, dâribâni, dâribûna. Puis les raisons. Il se cache dans le marfû' et non dans le pronom complément ou au jarr « parce qu'il tient lieu d'une partie du verbe ». Il se cache dans l'absent singulier, non dans le duel et le pluriel, « parce que se cacher est léger, et qu'il convient mieux de donner le léger au singulier, qui vient en premier ».",
+        "Pourquoi pas chez celui qui parle et celui à qui l'on parle au passé (darabtu, darabta) ? « Se cacher est un indice faible et paraître un indice fort », et celui qui parle et celui à qui l'on parle, qui sont présents, sont forts : le pronom fort va aux personnes fortes. Au futur, ils se cachent tout de même, « pour la distinction » : adribu et tadribu, sans rien d'ajouté, sont tenus à part du passé.",
+        "Une autre opinion dit qu'il se cache partout où quelque chose d'autre le montre : la forme nue dans daraba, le tâ' dans darabat, le yâ' de yadribu, le tâ' de tadribu, la hamza de adribu, le nûn de nadribu, et la forme propre de l'adjectif. Ces préfixes « sont des lettres, non des noms » : ils montrent la personne sans être le pronom.",
+        "Deux preuves suivent. Le tâ' de darabat ne peut être un pronom comme le tâ' de darabta, parce qu'il reste quand un agent explicite suit : darabat Hindun, « Hind a frappé » ; un pronom et un agent nommé feraient deux agents. L'alif de dâribâni ne peut être un pronom, « parce qu'il change au nasb et au jarr » (dâribayni), alors qu'un pronom ne change pas, comme l'alif de yadribâni reste alif dans tous les états.",
+        "Enfin, où se cacher est nécessaire : af'alu, taf'alu, if'al, naf'alu, « parce que la forme l'indique ». On peut mettre un agent nommé après yadribu ou daraba, mais af'alu Zaydun, « je fais, Zayd », est « laid » : la hamza dit déjà « je », et aucun nom ne peut prendre sa place. Se cacher est donc nécessaire avec « je », « nous » et « tu », et seulement permis avec « il » et « elle »."
+      ],
+      "terms": [
+        "se cacher nécessairement : af'alu, taf'alu, if'al, naf'alu",
+        "rendre le pronom apparent : l'indice fort",
+        "l'indice qui montre un pronom caché",
+        "les préfixes du futur : des lettres, non des pronoms"
+      ],
+      "examples": [
+        "adribu, nadribu : le pronom caché de celui qui parle",
+        "darabat Hindun : le tâ' reste à côté d'un agent nommé, il n'est donc pas pronom",
+        "af'alu Zaydun : « laid », car la forme elle-même dit « je »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Prouvez que le tâ' de darabat n'est pas un pronom.",
+          "answer": "Il reste quand un agent féminin nommé suit : darabat Hindun. S'il était le pronom de l'agent, la phrase aurait deux agents, le tâ' et Hind. Ce n'est donc qu'un signe du féminin."
+        },
+        {
+          "prompt": "Prouvez que l'alif de dâribâni n'est pas un pronom, mais que l'alif de yadribâni en est un.",
+          "answer": "L'alif de dâribâni change au nasb et au jarr (dâribayni), si bien que c'est une finale de cas ; un pronom ne change jamais, comme l'alif de yadribâni reste un alif dans tous les états."
+        },
+        {
+          "prompt": "Pourquoi le pronom est-il apparent dans darabtu mais caché dans adribu ?",
+          "answer": "Au passé, celui qui parle, une personne forte, reçoit l'indice fort, un pronom apparent. Au futur, le pronom se cache pour la distinction : la hamza de adribu montre déjà celui qui parle, et la forme diffère du passé."
+        },
+        {
+          "prompt": "Pourquoi af'alu Zaydun est-il laid, alors que darabat Hindun est bon ?",
+          "answer": "Dans af'alu, se cacher est nécessaire : la hamza montre « je », et aucun agent nommé ne peut remplacer le pronom. Dans darabat, se cacher n'est que permis : le pronom « elle » peut céder la place à un agent nommé."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pourquoi le pronom ne se cache-t-il que dans le marfû' ?",
+          "options": [
+            "C'est le plus faible",
+            "C'est le complément",
+            "Il tient lieu d'une partie du verbe",
+            "C'est un nom"
+          ],
+          "explanation": "Le pronom de l'agent est lié au verbe."
+        },
+        {
+          "prompt": "Pourquoi se cache-t-il au singulier et non au duel et au pluriel ?",
+          "options": [
+            "Le duel est lourd",
+            "Le pluriel a un wâw",
+            "Par hasard",
+            "Se cacher est léger, et le léger va au singulier, qui vient en premier"
+          ],
+          "explanation": "Le singulier vient en premier et reçoit le traitement le plus léger."
+        },
+        {
+          "prompt": "Pourquoi le pronom est-il apparent dans darabta ?",
+          "options": [
+            "La personne forte à qui l'on parle reçoit l'indice fort",
+            "Il est au jarr",
+            "Il est féminin",
+            "Pour éviter quatre voyelles"
+          ],
+          "explanation": "Paraître est l'indice fort."
+        },
+        {
+          "prompt": "Darabat Hindun prouve que le tâ' de darabat est…",
+          "options": [
+            "un pronom",
+            "non un pronom",
+            "une lettre radicale",
+            "un complément"
+          ],
+          "explanation": "Il n'est pas supprimé à côté d'un agent nommé."
+        },
+        {
+          "prompt": "L'alif de dâribâni n'est pas un pronom parce que…",
+          "options": [
+            "il est long",
+            "il est féminin",
+            "il change au nasb et au jarr",
+            "il est caché"
+          ],
+          "explanation": "Dâribayni ; un pronom ne change pas."
+        },
+        {
+          "prompt": "Se cacher est nécessaire dans…",
+          "options": [
+            "daraba",
+            "darabat",
+            "yadribu",
+            "naf'alu"
+          ],
+          "explanation": "La forme l'indique ; aucun agent nommé ne peut s'y tenir."
+        },
+        {
+          "prompt": "Les préfixes de adribu et nadribu sont…",
+          "options": [
+            "des lettres, non des noms",
+            "des pronoms",
+            "des compléments",
+            "des lettres radicales"
+          ],
+          "explanation": "Ils montrent le pronom caché sans être lui."
+        }
+      ],
+      "diagram": {
+        "caption": "Se cacher, nécessaire ou permis (Marâh, p. 25)",
+        "labels": {
+          "Necessary and allowed hiding (Marāḥ, p. 25)": "Se cacher, nécessaire ou permis (Marâh, p. 25)",
+          "Form": "Forme",
+          "Hidden pronoun": "Pronom caché",
+          "Hiding": "Se cacher",
+          "anā": "anâ",
+          "necessary": "nécessaire",
+          "naḥnu": "nahnu",
+          "anta": "anta",
+          "huwa": "huwa",
+          "allowed: a named doer may follow": "permis : un agent nommé peut suivre",
+          "hiya": "hiya",
+          "allowed (ḍarabat Hindun)": "permis (darabat Hindun)"
+        }
+      },
+      "text": [
+        "Et dans celui qui parle, comme adribu « je frappe » et nadribu « nous frappons » ; et dans l'adjectif, comme dâribun, dâribâni et dâribûna « frappant » jusqu'à la fin. Il est caché dans le marfû', non dans le mansûb et le majrûr, parce qu'il tient lieu d'une partie du verbe. Il est caché dans l'homme absent et la femme absente, non dans le duel et le pluriel, parce que se cacher est léger, et qu'il convient mieux de donner le léger au singulier, qui vient en premier ; [et] non dans celui qui parle et l'interlocuteur qui sont au passé, parce que se cacher est un indice faible et paraître un indice fort, si bien qu'il convient mieux de donner l'apparence forte à celui qui parle, qui est fort, et à l'interlocuteur, qui est fort. Il est caché dans l'interlocuteur du futur et dans celui qui parle, pour la distinction.",
+        "On dit aussi : il est caché en ces places parce qu'il y a un indice de lui : l'absence d'un [pronom] apparent dans des cas comme daraba ; le tâ' dans des cas comme darabat ; le yâ' dans des cas comme yadribu ; le tâ' dans des cas comme tadribu ; la hamza dans des cas comme adribu ; le nûn dans des cas comme nadribu — et ce sont des lettres, non des noms — ; et l'adjectif dans des cas comme dâribun, dâribâni et dâribûna.",
+        "Le tâ' de darabat ne peut être un pronom comme le tâ' de darabta, parce qu'il n'est pas supprimé avec un fâ'il féminin explicite, comme darabat Hindun « Hind a frappé » ; et l'alif de dâribâni ne peut être un pronom, parce qu'il change à l'état de nasb et de jarr, et qu'un pronom ne change pas, comme l'alif de yadribâni « ils frappent tous deux ». Se cacher est nécessaire dans des cas comme af'alu, taf'alu, if'al et naf'alu, parce que la forme l'indique ; et af'alu Zaydun, taf'alu Zaydun, if'al Zaydun et naf'alu Zaydûna sont laids."
+      ]
+    },
+    "15": {
+      "title": "Mustaqbal et mudâri', et les lettres de atayna",
+      "body": [
+        "Le futur « vient lui aussi sous quatorze formes, comme yadribu jusqu'à la fin ». Il a deux noms. Mustaqbal, « futur », parce que le futur est dans son sens. Mudâri', « ressemblant », parce qu'il ressemble à dârib, le participe actif : par ses voyelles et ses sukûn (ya-d-ri-bu comme dâ-ri-bun : une voyelle, une lettre quiescente, deux voyelles), en qualifiant un nom indéfini, et en prenant le lâm du début : inna Zaydan la-qâ'imun, « Zayd est certes debout », wa-la-yaqûmu, « et se lèvera certes ».",
+        "Il ressemble aussi au nom de genre. Rajul, « un homme », est général, et al-rajul, « l'homme », est rendu particulier par le lâm de la chose connue ; yadribu est général, présent ou futur, et il est rendu particulier par sa- ou sawfa, « il va ». Et il ressemble à un mot comme 'ayn, qui a de nombreux sens, en étant partagé entre deux temps : yadribu est « il frappe » et « il frappera ».",
+        "Pour le former, « les lettres de atayna ont été ajoutées au passé » : alif, tâ', yâ' et nûn. Des lettres, non des mots séparés, parce qu'un mot d'une lettre serait au-dessous de « la juste mesure ». Au début, parce qu'à la fin elles ressembleraient aux finales propres du passé (darabta, darabnâ). Il est formé du passé parce que le passé « indique la fermeté » : ce qui est arrivé est fixé. Et les ajouts vont au futur, non au passé, parce que l'augmenté vient après le nu comme le futur vient après le passé : « le précédent a été donné au précédent ».",
+        "Chaque lettre a sa raison, tirée de la carte de la bouche. L'alif (hamza) pour celui qui parle : il vient du point le plus profond de la gorge, où commence la parole, et celui qui parle commence la parole ; ou bien il s'accorde avec anâ. Le wâw pour la personne à qui l'on parle : il vient des lèvres, où finit la parole, et la parole finit chez celui qui l'entend ; puis il a été changé en tâ', pour que les wâw ne s'entassent pas dans wa-wawjalu, « et tu crains ». Le yâ', du milieu de la bouche, pour l'absent, qui se tient entre celui qui parle et celui qui entend. Le nûn pour « nous », comme dans darabnâ ; ou parce que les lettres faibles étaient épuisées, et que le nûn, qui sonne par le nez, leur est proche.",
+        "Du wâw vient une règle à retenir : « la première lettre d'un mot ne convient pas à l'ajout d'un wâw », si bien que si un mot commence par un wâw, ce wâw est une lettre radicale, comme dans warantal, « calamité ». De telles raisons sont des aides à la compréhension : elles rattachent chaque préfixe à quelque chose de déjà connu."
+      ],
+      "terms": [
+        "le futur : le nom que ce livre donne au mudâri'",
+        "le ressemblant : le mudâri', nommé d'après sa ressemblance au participe",
+        "les quatre préfixes : alif, tâ', yâ', nûn",
+        "le lâm du début, « certes », que prennent les noms et le mudâri'",
+        "la juste mesure d'un mot"
+      ],
+      "examples": [
+        "inna Zaydan la-qâ'imun wa-la-yaqûmu : le lâm du début sur le participe et sur le mudâri'",
+        "wa-wawjalu : les wâw qui se seraient entassés, d'où le tâ'",
+        "warantal : un mot dont le premier wâw est une lettre radicale"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez trois façons dont yadribu ressemble à dârib.",
+          "answer": "Par ses voyelles et ses sukûn (une voyelle, une lettre quiescente, puis deux voyelles) ; en qualifiant un nom indéfini ; et en prenant le lâm du début (inna Zaydan la-qâ'imun, wa-la-yaqûmu)."
+        },
+        {
+          "prompt": "Pourquoi les préfixes ont-ils été mis au début et non à la fin ?",
+          "answer": "À la fin, ils seraient confondus avec le passé, dont les personnes sont marquées par des finales (darabta, darabnâ)."
+        },
+        {
+          "prompt": "Associez chaque préfixe à sa personne, avec la raison du livre.",
+          "answer": "L'alif (hamza) : celui qui parle, parce qu'il vient du point le plus profond de la gorge, où commence la parole (ou pour s'accorder avec anâ). Le tâ', venu du wâw : la personne à qui l'on parle, parce que le wâw vient des lèvres, où finit la parole. Le yâ' : l'absent, parce qu'il vient du milieu de la bouche, comme l'absent se tient entre les deux. Le nûn : « nous », comme dans darabnâ."
+        },
+        {
+          "prompt": "Comment yadribu, qui peut signifier « il frappe » ou « il frappera », devient-il seulement futur ?",
+          "answer": "Avec sa- ou sawfa, comme un nom général est rendu particulier par le lâm de la chose connue : rajul, al-rajul."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le nom mudâri' signifie…",
+          "options": [
+            "futur",
+            "présent",
+            "ajouté",
+            "ressemblant"
+          ],
+          "explanation": "Il ressemble au participe actif dârib."
+        },
+        {
+          "prompt": "Laquelle n'est PAS une ressemblance de yadribu avec dârib ?",
+          "options": [
+            "Les deux commencent par un yâ'",
+            "Leurs voyelles et leurs sukûn",
+            "Qualifier un indéfini",
+            "Prendre le lâm du début"
+          ],
+          "explanation": "Dârib commence par sa lettre radicale ; les trois autres sont celles du livre."
+        },
+        {
+          "prompt": "Les lettres ajoutées pour former le futur sont celles de…",
+          "options": [
+            "hawîtu al-simâna",
+            "atayna",
+            "sa'altumûnîhâ",
+            "istanjadahu"
+          ],
+          "explanation": "Alif, tâ', yâ', nûn."
+        },
+        {
+          "prompt": "Pourquoi l'alif a-t-il été choisi pour celui qui parle ?",
+          "options": [
+            "Il est léger",
+            "Il vient des lèvres",
+            "Il vient de là où commence la parole, le fond de la gorge",
+            "C'est une lettre faible"
+          ],
+          "explanation": "Celui qui parle commence la parole ; ou bien il s'accorde avec anâ."
+        },
+        {
+          "prompt": "Le tâ' de tadribu était à l'origine…",
+          "options": [
+            "un yâ'",
+            "une hamza",
+            "un nûn",
+            "un wâw"
+          ],
+          "explanation": "Changé pour que les wâw ne s'entassent pas, comme dans wa-wawjalu."
+        },
+        {
+          "prompt": "Qu'est-ce qui rend yadribu particulier au futur ?",
+          "options": [
+            "sa- ou sawfa",
+            "le lâm de la chose connue",
+            "lam",
+            "le nûn d'insistance"
+          ],
+          "explanation": "Comme l'article rend particulier un nom de genre."
+        },
+        {
+          "prompt": "Le wâw au début de warantal est…",
+          "options": [
+            "une lettre ajoutée",
+            "une lettre radicale",
+            "un préfixe du futur",
+            "le wâw « et »"
+          ],
+          "explanation": "La première lettre d'un mot ne convient pas à un wâw ajouté."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatorze formes du futur de daraba (outil de conjugaison)",
+        "labels": {
+          "The fourteen forms of the future of ḍaraba (conjugation tool)": "Les quatorze formes du futur de daraba (outil de conjugaison)",
+          "Person": "Personne",
+          "Masculine": "Masculin",
+          "Feminine": "Féminin",
+          "he, she": "il, elle",
+          "they two": "eux deux",
+          "they": "ils",
+          "you": "tu",
+          "you two": "vous deux",
+          "you (plural)": "vous (pluriel)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Il vient lui aussi sous quatorze formes, comme yadribu « il frappe » jusqu'à la fin. On l'appelle mustaqbal (« futur ») parce que le sens du futur se trouve dans son sens ; et on l'appelle mudâri' (« ressemblant ») parce qu'il ressemble à dâribin « frappant » par ses voyelles et ses sukûn, en venant comme épithète d'un indéfini, et par l'entrée du lâm du début, comme inna Zaydan la-qâ'imun « Zayd est certes debout » et wa-la-yaqûmu « et se lèvera certes » ; et il ressemble au nom de genre en étant général et particulier — c'est-à-dire que le nom de genre est rendu particulier par le lâm de la chose connue, comme yadribu est rendu particulier par le sîn ou sawfa ; et il ressemble [au mot] 'ayn en étant partagé, [ici] entre le présent et le futur.",
+        "Les lettres de atayna (alif, tâ', yâ', nûn) ont été ajoutées au passé pour qu'il devienne un futur, parce que, prises comme [un mot] séparé, elles seraient moins que la juste mesure. Elles ont été ajoutées au début, non à la fin, parce qu'à la fin il serait confondu avec le passé. Il a été dérivé du passé parce que le passé indique la fermeté. Elles ont été ajoutées au futur, non au passé, parce que l'augmenté vient après le nu, et que le futur vient après le temps passé ; le précédent a donc été donné au précédent, et le suivant au suivant.",
+        "L'alif a été choisi pour celui qui parle parce que l'alif vient de la partie la plus profonde de la gorge, qui est le début des points d'articulation, et que celui qui parle est celui qui commence la parole ; et l'on dit : pour l'accord entre lui et anâ « je ». Le wâw a été choisi pour l'interlocuteur parce qu'il vient de la fin des points d'articulation, et que l'interlocuteur est celui chez qui la parole finit ; puis le wâw a été changé en tâ' afin que les wâw ne se réunissent pas, dans des cas comme wawawjalu avec le wâw de coordination. Pour cette raison, on dit : la première [lettre] d'un mot ne convient pas à l'ajout d'un wâw ; et l'on a jugé que le wâw de warantalin « calamité » est originel.",
+        "Le yâ' a été choisi pour l'absent parce que le yâ' vient du milieu de la bouche, et que l'absent est celui qui se trouve au milieu de la parole, entre celui qui parle et l'interlocuteur. Le nûn a été choisi pour celui qui parle quand un autre est avec lui, parce qu'il a été choisi pour cela dans darabnâ ; et l'on dit : le nûn a été ajouté parce qu'il ne restait rien des lettres de faiblesse, et qu'il est proche des lettres de faiblesse en sortant avec l'air du nez."
+      ]
+    },
+    "16": {
+      "title": "La voyelle du préfixe, et le double tâ'",
+      "body": [
+        "« Ces lettres ont reçu une fatha par légèreté, sauf dans le quadrilitère » : dans les quatre schèmes dont le passé a quatre lettres, fa'lala, af'ala, fa''ala et fâ'ala, le préfixe prend une damma : yudahriju, yukrimu, yuqatti'u, yuqâtilu. La raison donnée : ces quatre sont quadrilitères, le quadrilitère est une branche du trilitère, « et la damma aussi est une branche de la fatha » : la branche pour la branche. Ou : parce qu'ils sont moins employés. Les schèmes plus longs reviennent à la fatha « parce que leurs lettres sont nombreuses », et une lourde damma les alourdirait : yatafaddalu, yastakhriju.",
+        "Yuharîqu, « il verse », ressemble à un verbe de cinq lettres avec une damma, mais « son origine est yurîqu », du quadrilitère arâqa, et le hâ' « a été ajouté contre la règle » : la damma appartient à af'ala.",
+        "Certains dialectes mettent une kasra sur les préfixes quand le passé a une kasra sur son 'ayn ou sur sa hamza, « afin qu'ils indiquent la kasra du passé » : yi'lamu, ti'lamu, i'lamu, ni'lamu pour 'alima ; yistansiru pour istansara. Certains d'entre eux épargnent le yâ', « parce que la kasra est lourde sur le yâ' ». Pourquoi le préfixe et non une lettre radicale ? Une kasra sur le fâ' donnerait une suite de voyelles ; sur le 'ayn, elle brouillerait yaf'alu et yaf'ilu ; sur le lâm, elle effacerait l'i'râb.",
+        "Enfin, tataqalladu, tatabâ'adu, tatabakhtaru : le second tâ' « est supprimé », parce que deux lettres semblables se rencontrent et ne peuvent être assimilées, si bien qu'on les dit avec un seul tâ', comme dans le tanazzalu al-malâ'ikatu du Coran (97:4) pour tatanazzalu. C'est le second qui part, non le premier, « parce que le premier est un signe, et qu'un signe ne se supprime pas » : le premier tâ' montre la personne.",
+        "Pour la pratique : le préfixe d'un verbe sain a la fatha partout, sauf dans le groupe à quatre lettres, où il a la damma. L'outil de conjugaison suit cette règle ; la kasra de yi'lamu est un dialecte que la madrasa connaît mais ne récite pas."
+      ],
+      "terms": [
+        "le préfixe du futur",
+        "ici : les quatre schèmes dont le passé a quatre lettres",
+        "la branche pour la branche : la damma pour le quadrilitère",
+        "un signe ne se supprime pas"
+      ],
+      "examples": [
+        "yuharîqu, de yurîqu : le hâ' ajouté contre la règle",
+        "yi'lamu, ti'lamu, i'lamu, ni'lamu : la kasra de certains dialectes",
+        "tataqalladu, tatabâ'adu, tatabakhtaru : deux tâ', le second supprimé dans la prononciation"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quels préfixes prennent une damma, et quelles raisons le livre donne-t-il ?",
+          "answer": "Ceux des quatre schèmes à quatre lettres au passé : fa'lala, af'ala, fa''ala, fâ'ala (yudahriju, yukrimu, yuqatti'u, yuqâtilu). Le quadrilitère est une branche du trilitère et la damma une branche de la fatha ; ou bien, ils sont moins employés."
+        },
+        {
+          "prompt": "Pourquoi les schèmes de cinq et six lettres ont-ils la fatha sur le préfixe ?",
+          "answer": "Parce que leurs lettres sont nombreuses, et que la lourde damma alourdirait un long mot ; la fatha, légère, leur convient."
+        },
+        {
+          "prompt": "Pourquoi un dialecte met-il la kasra sur le préfixe de yi'lamu, et non sur une lettre radicale ?",
+          "answer": "Pour indiquer la kasra du passé 'alima. Sur le fâ', elle ferait une suite de voyelles, sur le 'ayn elle confondrait yaf'alu avec yaf'ilu, et sur le lâm elle annulerait l'i'râb ; le préfixe, étant ajouté, peut la porter."
+        },
+        {
+          "prompt": "Dans tataqalladu, quel tâ' est supprimé, et pourquoi celui-là ?",
+          "answer": "Le second. Le premier est un signe de la personne (le préfixe), et un signe ne se supprime pas."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le préfixe de yukrimu a une damma parce que akrama est…",
+          "options": [
+            "l'un des schèmes à quatre lettres",
+            "un pilier",
+            "géminé",
+            "une forme dialectale"
+          ],
+          "explanation": "Son passé a quatre lettres, comme dahraja."
+        },
+        {
+          "prompt": "Quel futur a une fatha sur son préfixe ?",
+          "options": [
+            "yuqâtilu",
+            "yastakhriju",
+            "yudahriju",
+            "yuqatti'u"
+          ],
+          "explanation": "Istakhraja a beaucoup de lettres, d'où la fatha légère."
+        },
+        {
+          "prompt": "L'origine de yuharîqu est…",
+          "options": [
+            "yahrîqu",
+            "yuhrîqu",
+            "yurîqu",
+            "yarîqu"
+          ],
+          "explanation": "Le hâ' a été ajouté contre la règle."
+        },
+        {
+          "prompt": "Dans quelle forme dialectale le préfixe prend-il une kasra ?",
+          "options": [
+            "yadribu",
+            "yukrimu",
+            "yaqtulu",
+            "yi'lamu"
+          ],
+          "explanation": "Elle indique la kasra de 'alima."
+        },
+        {
+          "prompt": "Pourquoi une kasra sur le 'ayn ne conviendrait-elle pas dans ce dialecte ?",
+          "options": [
+            "Elle confondrait yaf'alu avec yaf'ilu",
+            "Elle annulerait l'i'râb",
+            "Elle ferait une suite de voyelles",
+            "Elle est lourde sur le yâ'"
+          ],
+          "explanation": "Chaque lettre radicale est écartée avec sa propre raison."
+        },
+        {
+          "prompt": "Dans tataqalladu, le tâ' supprimé est…",
+          "options": [
+            "le premier",
+            "le second",
+            "les deux",
+            "aucun"
+          ],
+          "explanation": "Le premier est un signe, et un signe ne se supprime pas."
+        },
+        {
+          "prompt": "« La branche pour la branche » associe…",
+          "options": [
+            "le trilitère à la fatha",
+            "le passé au futur",
+            "le quadrilitère à la damma",
+            "la hamza à l'alif"
+          ],
+          "explanation": "Le quadrilitère est une branche du trilitère, la damma de la fatha."
+        }
+      ],
+      "diagram": {
+        "caption": "La voyelle du préfixe (outil de conjugaison ; dahraja d'après le Maqsûd dans la même édition, p. 191)",
+        "labels": {
+          "The vowel of the prefix (conjugation tool; daḥraja from the Maqṣūd in the same print, p. 191)": "La voyelle du préfixe (outil de conjugaison ; dahraja d'après le Maqsûd dans la même édition, p. 191)",
+          "Past": "Passé",
+          "Future": "Futur",
+          "Prefix": "Préfixe",
+          "fatḥa": "fatha",
+          "ḍamma": "damma"
+        }
+      },
+      "text": [
+        "Ces lettres ont reçu une fatha par légèreté, sauf dans le quadrilitère, qui est fa'lala, af'ala, fa''ala et fâ'ala : parce que ces quatre sont quadrilitères, que le quadrilitère est une branche du trilitère, et que la damma aussi est une branche de la fatha ; et l'on dit : parce qu'ils sont peu employés. Ce qui est au-delà d'eux a reçu une fatha parce que leurs lettres sont nombreuses. Quant à yuharîqu « il verse », son origine est yurîqu, qui est du quadrilitère, et le hâ' a été ajouté contre la règle.",
+        "Dans certains dialectes, les lettres du mudâri' prennent une kasra quand son passé a une kasra sur le 'ayn, ou une kasra sur la hamza, afin qu'elles indiquent la kasra du passé, comme yi'lamu, wa-ti'lamu, wa-i'lamu et wa-ni'lamu « il sait, et tu sais, et je sais, et nous savons », et yistansiru, wa-tistansiru, wa-istansiru et wa-nistansiru « il demande secours, et tu demandes, et je demande, et nous demandons secours » ; et dans certains dialectes le yâ' ne prend pas la kasra, parce que la kasra est lourde sur le yâ'.",
+        "Les lettres du mudâri' ont été choisies pour indiquer la kasra du 'ayn au passé parce qu'elles sont ajoutées ; et l'on dit : parce qu'avec une kasra sur le fâ', une suite de voyelles serait nécessaire, avec une kasra sur le 'ayn, la confusion entre yaf'alu et yaf'ilu serait nécessaire, et avec une kasra sur le lâm, l'annulation de l'i'râb serait nécessaire. Le second tâ' est supprimé dans des cas comme tataqalladu « tu te ceins », tatabâ'adu « tu t'éloignes » et tatabakhtaru « tu te pavanes », parce que deux lettres d'un même genre se réunissent et que l'assimilation n'est pas possible ; et le second a été choisi pour la suppression parce que le premier est un signe, et qu'un signe ne se supprime pas."
+      ]
+    },
+    "17": {
+      "title": "Le fâ' quiescent, la forme partagée et le nûn du raf'",
+      "body": [
+        "Dans yadribu, le fâ' est quiescent, « fuyant une suite de voyelles » : avec le préfixe, ya-da-ri-bu ferait quatre voyelles à la suite. Pourquoi rendre muet le fâ' ? Parce que la suite « est venue du yâ' », la lettre ajoutée, et que la lettre qu'il convient de rendre quiescente est celle qui lui est voisine. Le même raisonnement a désigné le bâ' de darabna (leçon 8) : il est voisin du nûn qui a causé la suite.",
+        "Tadribu sert pour « tu (un homme) » et pour « elle ». Les deux ont été rendus semblables au futur « parce qu'ils sont semblables au passé » : nasarta et nasarat portent tous deux un tâ'. Pour « elle », le tâ' ne pouvait être quiescent, car on ne peut commencer par une lettre quiescente ; ni prendre une damma, qui le ferait ressembler au passif (tumdahu, « elle est louée ») ; ni une kasra, qui le ferait ressembler au dialecte de ti'lamu. « Si l'on dit : la fatha aussi entraîne une confusion » (avec « tu »), on répond que la fatha s'accorde avec ses sœurs yadribu, adribu, nadribu, et qu'elle est légère.",
+        "Dans yadribâni, yadribûna et tadribîna, un nûn est mis à la fin « comme signe du raf' ». La raison : une fois attaché le pronom de l'agent (-â, -û, -î), la fin du verbe « est venue tenir la place du milieu du mot », et le milieu d'un mot ne peut montrer l'i'râb. Le nûn le montre donc, et il s'en va quand le verbe est au nasb ou au jazm.",
+        "Il n'en va pas ainsi du nûn de yadribna : il est « un signe du féminin, comme dans fa'alna », non du raf', et il reste dans tous les états. C'est aussi pourquoi le pluriel des femmes prend le préfixe yâ', yadribna, et non le tâ' de « elle » : deux signes du féminin ne doivent pas se rencontrer. Le yâ' de tadribîna, en revanche, est le pronom de l'agent.",
+        "Enfin : « quand lam entre sur le futur, son sens passe au passé » : lam yadrib, « il n'a pas frappé ». Lam ressemble à un mot de condition, qui fait passer une forme du passé au futur ; lam fait passer dans l'autre sens."
+      ],
+      "terms": [
+        "le nûn qui marque le raf' dans les cinq verbes : -âni, -ûna, -îna",
+        "le nûn des femmes : un signe du féminin, jamais supprimé",
+        "une suite de voyelles, évitée en rendant le fâ' quiescent",
+        "la particule qui met le futur au jazm et fait passer son sens au passé"
+      ],
+      "examples": [
+        "nasarta, nasarat : semblables au passé, d'où tadribu partagé au futur",
+        "tumdahu, « elle est louée » : pourquoi le tâ' de « elle » n'a pas de damma",
+        "yadribna : le nûn, signe du féminin, avec le préfixe yâ'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le fâ' de yadribu est-il quiescent, et pourquoi le fâ' plutôt qu'une autre lettre ?",
+          "answer": "Pour éviter quatre voyelles à la suite (ya-da-ri-bu). La suite est venue du yâ' ajouté, si bien que la lettre qui lui est voisine, le fâ', est celle qu'il convient de rendre quiescente."
+        },
+        {
+          "prompt": "Pourquoi le tâ' de « elle » dans tadribu a-t-il une fatha, plutôt qu'une autre voyelle ?",
+          "answer": "Il ne peut être quiescent (on ne peut commencer par lui), une damma ressemblerait au passif (tumdahu), une kasra ressemblerait au dialecte de ti'lamu ; la fatha s'accorde avec yadribu, adribu et nadribu et elle est légère, si bien qu'on la garde même si « tu » a la même forme."
+        },
+        {
+          "prompt": "Mettez yadribûna et yadribna après lan, avec l'outil de conjugaison, et expliquez la différence.",
+          "answer": "Lan yadribû et lan yadribna. Le nûn de yadribûna est le signe du raf', il tombe donc au nasb ; le nûn de yadribna est le signe du féminin, et il reste."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pourquoi le fâ' de yadribu est-il quiescent ?",
+          "options": [
+            "Parce qu'il est faible",
+            "Pour éviter une suite de voyelles",
+            "Pour marquer le futur",
+            "À cause de la gorge"
+          ],
+          "explanation": "La suite est venue du préfixe, si bien que la lettre qui lui est voisine a été rendue muette."
+        },
+        {
+          "prompt": "Tadribu est partagé par…",
+          "options": [
+            "« je » et « nous »",
+            "« il » et « ils »",
+            "« tu » (un homme) et « elle »",
+            "« tu » (une femme) et « elles »"
+          ],
+          "explanation": "Comme nasarta et nasarat sont semblables au passé."
+        },
+        {
+          "prompt": "Une damma sur le tâ' de « elle » le confondrait avec…",
+          "options": [
+            "le dialecte de ti'lamu",
+            "le passé",
+            "l'impératif",
+            "le passif, comme tumdahu"
+          ],
+          "explanation": "D'où la fatha."
+        },
+        {
+          "prompt": "Le nûn de yadribûna est…",
+          "options": [
+            "un signe du raf'",
+            "un signe du féminin",
+            "une lettre radicale",
+            "le nûn d'insistance"
+          ],
+          "explanation": "La fin du verbe est devenue comme le milieu du mot, si bien que le nûn montre l'i'râb."
+        },
+        {
+          "prompt": "Le nûn de yadribna est…",
+          "options": [
+            "un signe du raf'",
+            "un signe du féminin",
+            "le nûn d'insistance",
+            "une lettre radicale"
+          ],
+          "explanation": "Comme dans fa'alna ; il n'est jamais supprimé."
+        },
+        {
+          "prompt": "Pourquoi le pluriel des femmes prend-il le préfixe yâ' et non tâ' ?",
+          "options": [
+            "Parce que le yâ' est léger",
+            "Pour marquer le duel",
+            "Pour que deux signes du féminin ne se rencontrent pas",
+            "Par dialecte"
+          ],
+          "explanation": "Le nûn est déjà un signe du féminin."
+        },
+        {
+          "prompt": "Lam yadrib signifie…",
+          "options": [
+            "il ne frappera pas",
+            "ne frappe pas",
+            "il ne frappe pas",
+            "il n'a pas frappé"
+          ],
+          "explanation": "Lam fait passer le sens du futur au passé."
+        }
+      ],
+      "diagram": {
+        "caption": "Où le nûn tombe et où il reste (outil de conjugaison)",
+        "labels": {
+          "Where the nūn goes and where it stays (conjugation tool)": "Où le nûn tombe et où il reste (outil de conjugaison)",
+          "Person": "Personne",
+          "Rafʿ": "Raf'",
+          "Naṣb": "Nasb",
+          "Jazm": "Jazm",
+          "he": "il",
+          "they two": "eux deux",
+          "they (men)": "ils",
+          "you (a woman)": "tu (une femme)",
+          "they (women)": "elles"
+        }
+      },
+      "text": [
+        "Le fâ' a été rendu quiescent dans des cas comme yadribu, en fuyant une suite de voyelles ; et le fâ' a été désigné pour le sukûn parce que la suite de voyelles est venue du yâ', si bien qu'il convient mieux de rendre quiescente la lettre qui en est proche. Pour cette raison, le bâ' de darabna a été désigné pour être rendu quiescent, parce qu'il est proche du nûn, d'où est venue la suite de voyelles.",
+        "L'interlocuteur et la femme absente ont été rendus semblables au futur parce qu'ils sont semblables au passé, comme nasarta « tu as aidé » et nasarat « elle a aidé ». Mais [la première lettre] n'est pas rendue quiescente pour la femme absente au futur, parce qu'il faut bien commencer [par une voyelle] ; et on ne lui donne pas de damma, pour qu'elle ne soit pas confondue avec le passif dans tumdahu « elle est louée » ; ni de kasra, pour qu'elle ne soit pas confondue avec le dialecte de ti'lamu. Si l'on dit : la confusion est entraînée aussi avec la fatha, nous disons : avec la fatha, il y a accord entre elle et ses sœurs, en plus de la légèreté de la fatha.",
+        "Un nûn a été mis à la fin du futur comme signe du raf', parce que, par l'attache du pronom du fâ'il, la fin du verbe est venue tenir la place du milieu du mot — sauf le nûn de yadribna « elles frappent », qui est un signe du féminin, comme dans fa'alna ; pour cette raison on le dit avec le yâ', pour que deux signes du féminin ne se réunissent pas. Le yâ' de tadribîna est le pronom du fâ'il, comme on l'a vu. Quand lam entre sur le futur, son sens passe au passé, parce qu'il ressemble à un mot de condition."
+      ]
+    },
+    "18": {
+      "title": "L'ordre à l'absent et à l'interlocuteur",
+      "body": [
+        "« L'ordre est une forme par laquelle on demande l'acte à l'agent. » Il commence par l'absent : li-yadrib, li-yadribâ, li-yadribû, li-tadrib, li-tadribâ, li-yadribna, « qu'il frappe … qu'elles frappent ». Il est dérivé du mudâri', parce que les deux regardent vers le futur.",
+        "Pourquoi un lâm ? Il vient « du milieu des points d'articulation », et c'est l'une des lettres d'ajout, les lettres qui peuvent s'ajouter à une racine, qu'un vers rassemble : hawîtu al-simâna, « j'ai aimé les grasses ». Aucune lettre faible n'a été choisie, pour que deux lettres faibles ne se rencontrent pas avec le préfixe yâ'.",
+        "Le lâm a une kasra « parce qu'il ressemble au lâm du jarr », li-Zaydin : le jazm dans les verbes « tient la place du jarr dans les noms ». Après wa- et fa-, il devient quiescent, wa-lyadrib, fa-lyadrib, comme fakhidh, « cuisse », peut se dire avec un khâ' quiescent, et wa-huwa comme wa-hwa. Prenez-y garde en lisant : le lâm de l'ordre se cache souvent derrière un wa ou un fa.",
+        "Pour l'interlocuteur, « la lettre du futur a été supprimée » : tadrib perd son tâ', et avec une hamza de liaison (leçon suivante) devient idrib. Cela distingue son ordre de celui de l'absent, et la suppression lui a été donnée « parce qu'il est très employé » : on donne des ordres à la personne qu'on a devant soi bien plus souvent. C'est pourquoi l'ordre au passif garde tout, li-tudrab, « sois frappé ! » : il est peu employé, si bien que rien n'est raccourci.",
+        "L'ordre a donc deux formes : la longue, le lâm avec le verbe au jazm, pour l'absent et pour ce qui est rare ; et la courte, le verbe au jazm sans son préfixe, pour l'interlocuteur. Les Koufiens pensent que la courte est la longue usée (leçon 20)."
+      ],
+      "terms": [
+        "le lâm de l'ordre : li-yadrib",
+        "l'ordre à l'absent : « qu'il … »",
+        "l'ordre à l'interlocuteur : idrib",
+        "les lettres d'ajout, rassemblées dans hawîtu al-simâna"
+      ],
+      "examples": [
+        "hawîtu al-simâna : le vers qui rassemble les lettres d'ajout",
+        "wa-lyadrib, fa-lyadrib : le lâm quiescent après wa et fa",
+        "li-tudrab, « sois frappé ! » : l'ordre au passif garde son préfixe"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le lâm de l'ordre a-t-il une kasra ?",
+          "answer": "Parce qu'il ressemble au lâm du jarr : le jazm dans les verbes tient la place du jarr dans les noms, si bien que le lâm qui apporte le jazm prend la voyelle du lâm qui apporte le jarr."
+        },
+        {
+          "prompt": "Lisez et expliquez : fa-lyadrib.",
+          "answer": "Fa- avec le lâm de l'ordre, rendu quiescent après le fa (comme fakhidh peut se dire avec un khâ' quiescent) : « qu'il frappe donc »."
+        },
+        {
+          "prompt": "Pourquoi le préfixe est-il supprimé dans l'ordre à l'interlocuteur, mais gardé dans li-tudrab ?",
+          "answer": "Il est supprimé pour distinguer l'ordre à l'interlocuteur de celui de l'absent, et la suppression lui a été donnée parce qu'il est très employé. L'ordre au passif est peu employé, si bien qu'il garde le lâm et le préfixe."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "L'ordre est dérivé…",
+          "options": [
+            "du passé",
+            "directement du masdar",
+            "du mudâri'",
+            "du participe"
+          ],
+          "explanation": "Les deux regardent vers le futur."
+        },
+        {
+          "prompt": "Li-yadrib est l'ordre…",
+          "options": [
+            "à l'interlocuteur",
+            "à celui qui parle",
+            "au passif",
+            "à l'homme absent"
+          ],
+          "explanation": "« Qu'il frappe. »"
+        },
+        {
+          "prompt": "Pourquoi le lâm de l'ordre a-t-il une kasra ?",
+          "options": [
+            "Il ressemble au lâm du jarr",
+            "Il est quiescent",
+            "C'est une lettre gutturale",
+            "Il suit le yâ'"
+          ],
+          "explanation": "Le jazm dans les verbes tient la place du jarr dans les noms."
+        },
+        {
+          "prompt": "Dans fa-lyadrib, le lâm est…",
+          "options": [
+            "avec une kasra",
+            "quiescent",
+            "avec une fatha",
+            "supprimé"
+          ],
+          "explanation": "Après wa- et fa-, il perd sa voyelle."
+        },
+        {
+          "prompt": "Pourquoi aucune lettre faible n'a-t-elle été employée pour l'ordre ?",
+          "options": [
+            "Elles sont lourdes",
+            "Ce sont des lettres gutturales",
+            "Deux lettres faibles se rencontreraient",
+            "Ce sont des pronoms"
+          ],
+          "explanation": "Le préfixe yâ' est déjà faible."
+        },
+        {
+          "prompt": "Pourquoi le préfixe est-il supprimé pour l'interlocuteur ?",
+          "options": [
+            "Parce qu'il est faible",
+            "À cause du passif",
+            "Pour éviter deux hamzas",
+            "Pour distinguer son ordre de celui de l'absent, car il est très employé"
+          ],
+          "explanation": "La forme fréquente est raccourcie."
+        },
+        {
+          "prompt": "« Sois frappé ! », c'est…",
+          "options": [
+            "li-tudrab",
+            "idrib",
+            "udrub",
+            "li-tadrib"
+          ],
+          "explanation": "L'ordre au passif garde le lâm et le préfixe, car il est peu employé."
+        }
+      ],
+      "diagram": {
+        "caption": "L'ordre de daraba (absent : Marâh, p. 33 ; interlocuteur : outil de conjugaison)",
+        "labels": {
+          "The command of ḍaraba (absent: Marāḥ, p. 33; addressed: conjugation tool)": "L'ordre de daraba (absent : Marâh, p. 33 ; interlocuteur : outil de conjugaison)",
+          "Person": "Personne",
+          "Absent, with the lām": "Absent, avec le lâm",
+          "Addressed": "Interlocuteur",
+          "one man": "un homme",
+          "two men": "deux hommes",
+          "men": "des hommes",
+          "one woman": "une femme",
+          "two women": "deux femmes",
+          "women": "des femmes"
+        }
+      },
+      "text": [
+        "L'ordre est une forme par laquelle on demande l'acte à l'agent, comme li-yadrib li-yadribâ li-yadribû li-tadrib li-tadribâ li-yadribna « qu'il frappe, qu'ils frappent tous deux, qu'ils frappent, qu'elle frappe, qu'elles frappent toutes deux, qu'elles frappent ». Il est dérivé du mudâri' à cause d'une correspondance entre eux dans le futur.",
+        "Le lâm a été ajouté pour l'absent parce qu'il vient du milieu des points d'articulation, et aussi parce qu'il est l'une des lettres d'ajout, qui sont celles que contient la parole du poète : hawîtu al-simâna fa-shayyabnanî / wa-qad kuntu qidman hawîtu al-simânâ « j'ai aimé les grasses, et elles m'ont fait blanchir ; et jadis j'avais aimé les grasses », c'est-à-dire les lettres de hawîtu al-simâna. Aucune des lettres de faiblesse n'a été ajoutée, pour que deux lettres de faiblesse ne se réunissent pas. Le lâm a reçu une kasra parce qu'il ressemble au lâm du jarr, puisque le jazm dans les verbes tient la place du jarr dans les noms ; et il a été rendu quiescent après le wâw et le fâ', comme wa-lyadrib et fa-lyadrib « et qu'il frappe », comme [le khâ'] est rendu quiescent dans fakhidhin « cuisse » ; son pareil avec le wâw est wa-hwa « et lui ».",
+        "La lettre du futur a été supprimée pour l'interlocuteur, afin de distinguer l'ordre à l'interlocuteur de l'ordre à l'absent ; la suppression a été désignée pour l'interlocuteur parce qu'il est très employé. Pour cette raison, elle n'est pas supprimée [mais gardée] avec le lâm dans son passif ; je veux dire qu'on dit li-tudrab « sois frappé ! », parce qu'il est peu employé."
+      ]
+    },
+    "19": {
+      "title": "La hamza de liaison",
+      "body": [
+        "Le préfixe parti, tadrib laisse drib, et l'arabe ne commence pas un mot par une lettre quiescente. Aussi « une hamza est amenée pour commencer quand ce qui la suit est quiescent » : idrib. C'est une hamza de liaison (wasl) : prononcée quand on commence par le mot, supprimée quand le mot est joint à ce qui le précède. Elle a une kasra « parce que la kasra est l'origine dans les hamzas de liaison ».",
+        "Pas dans uktub, « écris ! » : là, elle a une damma, parce que i-k-tu passerait d'une kasra à une damma. Mais un kâf quiescent se tient entre elles ! « Chez eux, une lettre quiescente n'est pas une barrière solide », et le livre le prouve par qinwa, « acquisition », devenu qinya : la kasra du qâf a changé le wâw par-dessus le nûn quiescent. D'autres disent simplement que la hamza suit la damma du 'ayn.",
+        "Trois alif prennent une fatha. Aymun, dans les serments, bien qu'il soit une hamza de liaison : il était d'abord le pluriel de yamîn, « serment », et l'alif de tels pluriels est une hamza de coupure (qat') ; l'usage fréquent en a fait ensuite une hamza de liaison. L'article al-, à cause de sa fréquence aussi. Et akrim, « honore ! », parce que son alif n'est pas du tout une hamza de l'ordre : c'est la hamza de coupure de af'ala, tombée de tu'akrimu « à cause de la rencontre des deux hamzas dans u'akrimu », et qui revient dans l'ordre. Aussi akrim se dit-il avec sa hamza même au milieu d'une phrase.",
+        "Dans l'écriture, l'alif de liaison reste même là où il ne se prononce pas, pour que i'lam, « sache ! », ne soit pas pris pour 'allim, « enseigne ! ». On pourrait les distinguer par les signes, « mais les signes sont souvent omis » ; pour la même raison, on écrit le wâw de 'Amr pour le distinguer de 'Umar. Il est omis dans bismi Allâhi, parce que la formule est très employée, mais gardé dans iqra' bi-ismi rabbika (96:1), qui est moins employé.",
+        "La règle à retenir : un ordre dont la lettre qui suit le préfixe est quiescente prend une hamza de liaison, avec une damma si le 'ayn a une damma (uktub, unsur), sinon avec une kasra (idrib, i'lam). Un ordre dont la lettre qui suit le préfixe a une voyelle n'en prend pas : qatti', qâtil, dahrij. Akrim est celui qui a une hamza de coupure."
+      ],
+      "terms": [
+        "la hamza de liaison : prononcée au début, supprimée à l'intérieur de la parole",
+        "la hamza de coupure : toujours prononcée, comme dans akrim",
+        "suivre : une voyelle prise pour s'accorder avec une voyelle voisine",
+        "une barrière solide : ce que n'est pas une lettre quiescente",
+        "les signes (points et marques) qui distinguent les lettres et les formes"
+      ],
+      "examples": [
+        "qinwa devenu qinya : le nûn quiescent n'arrête pas la kasra",
+        "tu'akrimu, u'akrimu : les origines où se trouvait la hamza de af'ala",
+        "'Umar et 'Amr, distingués dans l'écriture par le wâw",
+        "unsur, idrib, qatti' : hamza avec damma, avec kasra, et aucune (outil de conjugaison)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi uktub a-t-il une damma sur sa hamza, alors qu'un kâf quiescent se tient entre la hamza et la damma ?",
+          "answer": "Une kasra ferait passer le mot d'une kasra à une damma (i-k-tu), et une lettre quiescente n'est pas une barrière solide entre elles, comme le montre qinwa, devenu qinya par-dessus un nûn quiescent. La hamza prend donc une damma (ou, disent d'autres, elle suit simplement la damma du 'ayn)."
+        },
+        {
+          "prompt": "Pourquoi l'alif de akrim se prononce-t-il même au milieu d'une phrase, contrairement à celui de idrib ?",
+          "answer": "L'alif de akrim est la hamza de coupure du schème af'ala, tombée de tukrimu (de tu'akrimu) et qui revient dans l'ordre ; l'alif de idrib est une hamza de liaison, amenée seulement pour commencer."
+        },
+        {
+          "prompt": "Pourquoi l'alif de liaison est-il gardé dans l'écriture ?",
+          "answer": "Pour que i'lam, l'ordre de 'alima, ne soit pas pris pour 'allim, l'ordre de 'allama ; les signes qui les distingueraient sont souvent omis."
+        },
+        {
+          "prompt": "Lesquels de ces ordres commencent par une hamza de liaison : unsur, qatti', idrib, akrim ? Utilisez l'outil de conjugaison.",
+          "answer": "Unsur (avec damma) et idrib (avec kasra) commencent par une hamza de liaison. Qatti' n'en a pas besoin, sa première lettre ayant une voyelle ; akrim a la hamza de coupure de af'ala."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pourquoi une hamza est-elle amenée pour idrib ?",
+          "options": [
+            "Pour marquer l'ordre",
+            "Pour le féminin",
+            "C'est une lettre radicale",
+            "On ne peut commencer par une lettre quiescente"
+          ],
+          "explanation": "Une fois le préfixe tombé, le dâd est quiescent."
+        },
+        {
+          "prompt": "L'origine dans la hamza de liaison est…",
+          "options": [
+            "la kasra",
+            "la fatha",
+            "la damma",
+            "le sukûn"
+          ],
+          "explanation": "D'où idrib, i'lam."
+        },
+        {
+          "prompt": "Uktub prend une damma parce que…",
+          "options": [
+            "le kâf est une lettre gutturale",
+            "une kasra passerait à une damma par-dessus une barrière faible",
+            "il est passif",
+            "il vient de af'ala"
+          ],
+          "explanation": "Une lettre quiescente n'est pas une barrière solide."
+        },
+        {
+          "prompt": "Qinya, venu de qinwa, prouve que…",
+          "options": [
+            "le nûn est faible",
+            "le wâw est une lettre radicale",
+            "une lettre quiescente n'est pas une barrière solide",
+            "la kasra est lourde"
+          ],
+          "explanation": "La kasra a agi sur le wâw par-dessus le nûn."
+        },
+        {
+          "prompt": "L'alif de akrim est…",
+          "options": [
+            "une hamza de liaison",
+            "l'article",
+            "un préfixe",
+            "une hamza de coupure"
+          ],
+          "explanation": "C'est la hamza de af'ala, tombée de tukrimu et revenue dans l'ordre."
+        },
+        {
+          "prompt": "Pourquoi aymun se dit-il avec une fatha ?",
+          "options": [
+            "C'était le pluriel de yamîn, dont l'alif était de coupure",
+            "C'est un ordre",
+            "C'est l'article",
+            "Il vient de af'ala"
+          ],
+          "explanation": "L'usage fréquent en a fait ensuite une hamza de liaison."
+        },
+        {
+          "prompt": "Où l'alif de ism est-il omis dans l'écriture ?",
+          "options": [
+            "dans iqra' bi-ismi rabbika",
+            "dans bismi Allâhi",
+            "partout",
+            "nulle part"
+          ],
+          "explanation": "Parce que bismi Allâhi est très employé."
+        }
+      ],
+      "diagram": {
+        "caption": "L'alif au début du mot (Marâh, p. 34-36)",
+        "labels": {
+          "The alif at the start of a word (Marāḥ, pp. 34–36)": "L'alif au début du mot (Marâh, p. 34-36)",
+          "Form": "Forme",
+          "Its alif": "Son alif",
+          "Why": "Pourquoi",
+          "joining, with kasra": "de liaison, avec kasra",
+          "the kasra is the origin": "la kasra est l'origine",
+          "joining, with ḍamma": "de liaison, avec damma",
+          "not to go from kasra to ḍamma": "pour ne pas passer de la kasra à la damma",
+          "joining, with fatḥa": "de liaison, avec fatha",
+          "a plural's hamza, made joining by use": "la hamza d'un pluriel, devenue de liaison par l'usage",
+          "cutting, with fatḥa": "de coupure, avec fatha",
+          "the hamza of afʿala itself": "la hamza même de af'ala",
+          "not written": "non écrit",
+          "the phrase is much used": "la formule est très employée",
+          "written": "écrit",
+          "less used": "moins employé"
+        }
+      },
+      "text": [
+        "Après la suppression de la lettre du mudâri', une hamza est amenée pour commencer quand ce qui la suit est quiescent ; et la hamza a reçu une kasra parce que la kasra est l'origine dans les hamzas de liaison (hamzat al-wasl). Elle n'a pas reçu de kasra dans des cas comme uktub « écris ! », parce qu'avec une kasra il faudrait passer d'une kasra à une damma ; et l'on ne tient pas compte du kâf quiescent, parce que, chez eux, une lettre quiescente n'est pas une barrière solide : pour cette raison, le wâw de qinwatin « acquisition » a été changé en yâ', et l'on dit qinyatun. On dit aussi : elle prend une damma pour suivre [la damma].",
+        "L'alif de aymunin « serments » a reçu une fatha bien qu'il soit de liaison, parce que c'est le pluriel de yamînin « serment », et que l'alif dans le pluriel est de coupure (qat') ; puis on en a fait un alif de liaison parce qu'il est très employé. L'alif de l'article défini a reçu une fatha parce qu'il est fréquent lui aussi. L'alif de akrim « honore ! » a reçu une fatha parce que ce n'est pas l'alif de l'ordre, mais un alif de coupure ; il a été supprimé de tu'akrimu à cause de la rencontre des deux hamzas dans u'akrimu.",
+        "L'alif de liaison n'est pas supprimé dans l'écriture, pour que l'ordre de 'alima « savoir » ne soit pas confondu avec l'ordre de 'allama « enseigner ». Si l'on dit : on le reconnaît par les signes (i'jâm), nous disons : les signes sont souvent omis ; pour cette raison, ils ont distingué 'Umara et 'Amrin par le wâw. Il a été supprimé dans bismi Allâhi « au nom de Dieu » parce que la formule est très employée, et il n'est pas supprimé dans iqra' bi-ismi rabbika « lis au nom de ton Seigneur » [96:1] parce qu'elle est peu employée."
+      ]
+    },
+    "20": {
+      "title": "L'ordre est-il au jazm ou fixe ?",
+      "body": [
+        "L'ordre à l'absent, li-yadrib, est au jazm par le lâm « par accord » : le lâm « ressemble à un mot de condition en faisant passer » le sens, et les mots de condition apportent le jazm. L'ordre à l'interlocuteur, idrib, est la question.",
+        "Les Koufiens disent qu'il est au jazm lui aussi, parce que son origine est li-tadrib. Ils s'appuient sur une lecture du Prophète : fa-bi-dhâlika fa-ltafrahû, « de cela, donc, réjouissez-vous » (10:58), avec le lâm et le tâ' de l'interlocuteur. Les étapes, selon eux : le lâm a été supprimé parce qu'il est très employé ; puis le préfixe a été supprimé pour distinguer l'ordre du mudâri' ; le dâd est resté quiescent, si bien qu'une hamza de liaison a été amenée, mise à la place du préfixe, et a reçu son effet, le jazm.",
+        "Une lettre peut-elle garder l'œuvre d'un mot qui est parti ? Oui, répondent-ils, comme dans un vers d'Imru' al-Qays : fa-mithliki hublâ qad taraqtu, « combien de femmes comme toi, enceintes, ai-je visitées la nuit » : mithliki est au jarr par rubba, « combien de », qui n'est pas là ; le fa- qui a pris sa place fait son œuvre.",
+        "Les Basriens disent que idrib est fixe (mabnî) : « l'origine dans les verbes est d'être fixe », et le mudâri' n'est déclinable que parce qu'il ressemble au nom. Supprimez le préfixe du mudâri', et la ressemblance s'en va, et l'i'râb avec elle. Ils acceptent que la lecture fa-ltafrahû soit déclinée, car là le préfixe, cause de l'i'râb, est toujours présent.",
+        "Remarquez ce que les deux camps ont en commun : la forme. Tous deux disent idrib, idribâ, idribû, idribî, idribna, faits exactement comme le verbe au jazm de l'interlocuteur sans son préfixe. Ils ne diffèrent que dans le nom qu'ils donnent à la finale : l'effet d'un régissant (le jazm) ou une finale fixe (le binâ'). La leçon 7 a déjà donné l'avis basrien : l'ordre est fixé sur le sukûn."
+      ],
+      "terms": [
+        "le jazm du verbe, apporté par un régissant",
+        "être fixe : une finale qu'aucun régissant n'apporte",
+        "un mot de condition, qui apporte le jazm",
+        "« combien de » : une particule du jarr qui peut agir sans être dite"
+      ],
+      "examples": [
+        "li-tadrib : l'origine de idrib, selon les Koufiens",
+        "fa-bi-dhâlika fa-ltafrahû : la lecture que citent les Koufiens",
+        "fa-mithliki hublâ qad taraqtu : le jarr par un rubba non dit"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les étapes des Koufiens de li-tadrib à idrib.",
+          "answer": "Le lâm a été supprimé parce qu'il est très employé (tadrib) ; le préfixe a été supprimé pour distinguer l'ordre du mudâri' (drib, avec un dâd quiescent) ; une hamza de liaison a été amenée, à la place du préfixe, et a reçu son effet, le jazm : idrib."
+        },
+        {
+          "prompt": "Quel est l'argument des Basriens pour dire que idrib est fixe ?",
+          "answer": "L'origine dans les verbes est le binâ' ; le mudâri' n'est déclinable que parce qu'il ressemble au nom, une ressemblance qui repose sur son préfixe. Idrib a perdu le préfixe : la ressemblance et l'i'râb sont donc partis."
+        },
+        {
+          "prompt": "Pourquoi les Basriens acceptent-ils que fa-ltafrahû soit décliné ?",
+          "answer": "Parce qu'il garde le préfixe tâ', cause de l'i'râb ; c'est un ordre avec le lâm, décliné comme li-yadrib."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Li-yadrib est au jazm…",
+          "options": [
+            "par accord",
+            "pour les Koufiens seulement",
+            "pour les Basriens seulement",
+            "pour personne"
+          ],
+          "explanation": "Le lâm ressemble à un mot de condition."
+        },
+        {
+          "prompt": "Pour les Koufiens, l'origine de idrib est…",
+          "options": [
+            "yadribu",
+            "li-tadrib",
+            "daraba",
+            "al-darb"
+          ],
+          "explanation": "Usé par la suppression du lâm et du préfixe."
+        },
+        {
+          "prompt": "Quelle lecture citent les Koufiens ?",
+          "options": [
+            "fa-lyafrahû",
+            "ifrahû",
+            "fa-ltafrahû",
+            "lâ tafrahû"
+          ],
+          "explanation": "Avec le lâm et le tâ' de l'interlocuteur."
+        },
+        {
+          "prompt": "Dans le récit koufien, le jazm de idrib est porté par…",
+          "options": [
+            "le dâd",
+            "le lâm",
+            "rien",
+            "la hamza de liaison, à la place du préfixe"
+          ],
+          "explanation": "Comme le fa- porte l'œuvre de rubba."
+        },
+        {
+          "prompt": "Pour les Basriens, idrib est…",
+          "options": [
+            "fixe (mabnî)",
+            "au jazm",
+            "au nasb",
+            "au raf'"
+          ],
+          "explanation": "L'origine dans les verbes est le binâ'."
+        },
+        {
+          "prompt": "Pourquoi le mudâri' a-t-il un i'râb, pour les Basriens ?",
+          "options": [
+            "C'est l'origine",
+            "Il ressemble au nom",
+            "Il a un lâm",
+            "Il est court"
+          ],
+          "explanation": "Sans le préfixe, la ressemblance s'en va."
+        },
+        {
+          "prompt": "Dans fa-mithliki hublâ, mithliki est au jarr par…",
+          "options": [
+            "le fa- comme préposition",
+            "le verbe",
+            "un rubba qui n'est pas dit",
+            "hublâ"
+          ],
+          "explanation": "Le fa- qui a remplacé rubba fait son œuvre."
+        }
+      ],
+      "diagram": {
+        "caption": "Le jazm et l'ordre à l'interlocuteur (outil de conjugaison)",
+        "labels": {
+          "The jussive and the command of the one addressed (conjugation tool)": "Le jazm et l'ordre à l'interlocuteur (outil de conjugaison)",
+          "Person": "Personne",
+          "Jussive (after lam)": "Au jazm (après lam)",
+          "Command": "Ordre",
+          "you (a man)": "tu (un homme)",
+          "you two": "vous deux",
+          "you (men)": "vous (hommes)",
+          "you (a woman)": "tu (une femme)",
+          "you (women)": "vous (femmes)"
+        }
+      },
+      "text": [
+        "Sa fin est mise au jazm par le lâm pour l'absent, par accord, parce que le lâm ressemble à un mot de condition en faisant passer [le sens] ; et de même pour l'interlocuteur, selon les Koufiens, parce que, selon eux, l'origine de idrib « frappe ! » est li-tadrib. Pour cette raison, le Prophète, sur lui la paix, a récité : fa-bi-dhâlika fa-ltafrahû « de cela, donc, réjouissez-vous » [10:58].",
+        "Le lâm a été supprimé parce qu'il est très employé ; puis le signe du futur a été supprimé pour le distinguer du mudâri', si bien que le dâd est resté quiescent ; la hamza de liaison a été amenée et mise à la place du signe du futur, et elle a reçu l'effet du signe du futur, comme le fâ' de rubba a reçu l'œuvre de rubba, dans des cas comme la parole du poète : fa-mithliki hublâ qad taraqtu wa-murdi'in / fa-alhaytuhâ 'an dhî tamâ'ima muhwili « combien de femmes comme toi, enceintes ou allaitantes, ai-je visitées la nuit, et je leur ai fait oublier leur enfant d'un an et ses amulettes ».",
+        "Selon les Basriens, il est mabnî, parce que l'origine dans les verbes est d'être mabnî, et que le mudâri' n'a reçu l'i'râb qu'à cause d'une ressemblance entre lui et le nom ; et avec la suppression de la lettre du mudâri', la ressemblance ne reste pas entre lui et l'ordre. Pour cette raison, on dit : sa parole fa-ltafrahû « réjouissez-vous donc » est mu'rab par accord, parce que la cause de l'i'râb, la lettre du mudâri', s'y trouve."
+      ]
+    }
+  }
+}

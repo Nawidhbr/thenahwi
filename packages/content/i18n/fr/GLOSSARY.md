@@ -281,3 +281,23 @@ list when it is made. The layout follows the English source list, `packages/cont
 - « catégorie » for a class of words (« catégorie de kâna »), since « classe » is the bâb. Izhâr: « la séparation
   (izhâr) ». The hamza's takhfîf: « l'allègement ». Hurûf al-itbâq: « les lettres emphatiques (itbâq) ». Darj « la
   suite de la parole », ibtidâ' « le début de la parole ». Shart / jazâ': « la condition / la rétribution ».
+- Round 3 (awamilmia, mizan, nahwmir, izhar): musnad / musnad ilayhi kept as such, introduced as « ce qui est
+  attribué (musnad) » / « ce à quoi l'on attribue (musnad ilayhi) »; mutamakkin « bien établi »; the feminine
+  haqîqî « réel » / lafzî « de forme »; qiyâsî « par règle » where the English says "by rule" (al-Birgivî), else
+  « analogique »; samâ'î « entendu », « par usage entendu »; zarf mustaqarr « adverbe établi » / zarf laghw
+  « adverbe vide »; al-hadhf wa-l-îsâl « supprimer et joindre »; muta'allaq « ce à quoi (la particule) se
+  rattache »; ilghâ' « l'annulation » / ta'lîq « la suspension » (verbs of the heart); damîr al-sha'n « le pronom
+  de l'affaire »; damîr al-fasl « le pronom de séparation »; muntahâ al-jumû' « le pluriel extrême »; the condition's
+  jazâ' « la rétribution »; the passive « le verbe dont l'agent n'est pas nommé »; lan « la négation renforcée »,
+  lam « la négation du passé (jahd) »; hâdir in the Persian tables « le masculin / féminin présent ».
+- Round 4 (izhar L27–52, marah): mustatir « caché » / bâriz « apparent », muzhar « nom visible »; wâjib / jâ'iz
+  al-istitâr « nécessairement / facultativement caché »; the follower sifa « l'épithète »; tawkîd lafzî / ma'nawî
+  « la corroboration littérale / de sens »; 'atf al-bayân « l'apposition explicative »; badal kept as « badal »
+  where the English keeps "badal"; i'râb lafzî / taqdîrî / mahallî « apparent / sous-entendu / de position »; mahkî
+  « rapporté »; mabnî « fixe », "built on the ḍamma" « fixé sur la damma », mabnî al-asl / al-'ârid « fixe par
+  origine / par accident »; munsarif « pleinement décliné »; the exception muttasil / munqati' « jointe /
+  disjointe »; nawâsikh « les abrogateurs »; the hâl's sâhib « le possesseur », hay'a « la manière d'être »; the kâf
+  of khitâb « le kâf d'adresse », the hâ' of tanbîh « le hâ' d'avertissement »; mushâkala « la conformité »; mulhaq
+  « rattaché »; jinsiyya « d'un même genre »; "the proper measure" « la juste mesure »; ishbâ' « l'alif
+  d'allongement »; af'âl al-qulûb « les verbes du cœur »; the Marâh's bâb « classe » (of conjugation) or « bâb /
+  chapitre » (by kind of root).

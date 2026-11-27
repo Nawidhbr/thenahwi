@@ -1,4 +1,4 @@
-import { getLibrary, type BackgroundArticle, type BackgroundConcept, type BackgroundPerson, type LibraryBook, type Term } from "@nahwi/content";
+import { getLibrary, type TabaqatBook, type TabaqatEntry, type BackgroundArticle, type BackgroundConcept, type BackgroundPerson, type LibraryBook, type Term } from "@nahwi/content";
 import { kbBook } from "./kb";
 import { isTranslated } from "./translated";
 import { diedYear, shortName } from "./background";
@@ -290,5 +290,51 @@ export function concept(c: BackgroundConcept, locale: string) {
     url: canonical(locale, path),
     inLanguage: languageOf(locale, path),
     inDefinedTermSet: { "@id": `${canonical(locale, `/${locale}/glossary/`)}#set` },
+  };
+}
+
+/**
+ * The ṭabaqāt book on the site (/<locale>/tabaqat/): this edition of the work, transcribed from its public-domain print
+ * with The Nahwi's translation, tied to the work's page in the library and to its author's page.
+ */
+export function tabaqatEdition(b: TabaqatBook, locale: string, description: string) {
+  const url = canonical(locale, `/${locale}/tabaqat/`);
+  return {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "@id": `${url}#text`,
+    name: b.title,
+    alternateName: b.arabicTitle,
+    author: { "@type": "Person", "@id": scholarId(locale, b.authorSlug), name: b.author },
+    inLanguage: ["ar", languageOf(locale, `/${locale}/tabaqat/`)].filter((x, i, a) => a.indexOf(x) === i),
+    translator: { "@id": `${SITE_URL}/#organization` },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    isAccessibleForFree: true,
+    about: SUBJECT,
+    description,
+    exampleOfWork: { "@id": bookId(locale, b.library) },
+    url,
+    mainEntityOfPage: url,
+  };
+}
+
+/** An entry of the ṭabaqāt book: a chapter of it, about the scholar whose page it links to. */
+export function tabaqatChapter(b: TabaqatBook, e: TabaqatEntry, locale: string, description: string) {
+  const url = canonical(locale, `/${locale}/tabaqat/${e.id}/`);
+  return {
+    "@context": "https://schema.org",
+    "@type": "Chapter",
+    "@id": `${url}#entry`,
+    name: e.name,
+    alternateName: e.heading,
+    position: e.n,
+    pagination: e.pages,
+    description,
+    isPartOf: { "@id": `${canonical(locale, `/${locale}/tabaqat/`)}#text` },
+    ...(e.person ? { about: { "@type": "Person", "@id": scholarId(locale, e.person), name: e.name } } : {}),
+    inLanguage: ["ar", languageOf(locale, `/${locale}/tabaqat/${e.id}/`)].filter((x, i, a) => a.indexOf(x) === i),
+    isAccessibleForFree: true,
+    url,
+    mainEntityOfPage: url,
   };
 }

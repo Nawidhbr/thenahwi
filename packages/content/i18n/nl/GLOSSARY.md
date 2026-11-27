@@ -306,3 +306,37 @@ de Engelse bronlijst, `packages/content/i18n/GLOSSARY.md`: Stijl, Woorden onder 
 - **Heard / analogical / abstract governor** (de 'Awamil-boeken): gehoorde regeerder (sama'i), regeerder naar analogie
   (qiyasi), abstracte regeerder (ma'nawi); "uitgesproken" voor lafzi. Dropping (hadhf) als kenteken: "het weglaten
   van de klinker / de laatste letter / de nun", mv. "weglatingen".
+- **Musnad en musnad ilayhi** (Nahw-i Mir): blijven Arabisch, "de musnad", "de musnad ilayhi"; de mededelende zin
+  (khabariyya) / de niet-mededelende zin (insha'iyya); de soorten insha': bevel, verbod, vraag, wens (tamanni), hoop
+  (tarajji), contracten ('uqud), roepen (nida'), aanbod ('ard), eed, verwondering.
+- **Voorwaarde en antwoord**: "de voorwaarde (shart)", "het antwoord (jawab)"; waar het Engels "requital (jaza')"
+  naast "answer" zet (Qatr al-nada), "de vergelding (jaza')".
+- **Verzoek (talab)**: een demand is een "verzoek", de lam / la "van het verzoek" (talabiyya); een verzoek aan God
+  is een "gebed" (du'a').
+- **Maf'ul lahu**: "het voorwerp van de reden" waar het Engels "object of reason" schrijft (Qatr); maf'ul ma'ahu "het
+  voorwerp van de begeleiding"; maf'ul fihi "het voorwerp van tijd en plaats" (ook "zarf", mv. "zarfs").
+- **Hamza**: hamzat al-wasl = "de verbindingshamza"; hamzat al-qat' = "de afsnijdende hamza".
+- **Ishtighal / tanazu'** (Qatr): "de ishtighal (bezetting)", "de tanazu' (wedijver)"; de mughalaba van de Lamiyya
+  ("contest") is "de overtreffing" (werkwoorden van overtreffing), niet "wedijver".
+- **Het dove / overeenstemmende** (de 'Izzi): al-asamm "het dove", al-mutabiq "het overeenstemmende"; dhu al-thalatha
+  "dat van drie", dhu al-arba'a "dat van vier"; de naqis "het gebrekkige werkwoord" alleen als uitleg.
+- **The conjugation tool / the engine**: "de vervoegingsengine".
+- **Haakjes bij vormen die zonder tekens samenvallen** (aanvulling): naast [tweevoud], [meervoud], [met alif],
+  [met lange i], [met lange u] ook [met lange a] (yarda [met lange a] tegenover lam yarda; fa'ala [met lange a] voor de
+  masdar fa'ala), [met korte i] / [met korte a] waar drie vormen samenvallen (fa'il [met lange a], fa'il [met lange i],
+  fa'il [met korte i]; fa'ilun [met lange a] / [met korte a] in het metrum), [met 'ayn] waar 'ayn en hamza beide een
+  apostrof worden (ra'a "zien" tegenover ra'a [met 'ayn] "grazen"), [met dad] voor ض tegenover د (yada'u [met dad]
+  "hij legt" tegenover yada'u "hij laat"). Alleen waar beide vormen in dezelfde les staan en de betekenis ze niet
+  onderscheidt; de eerste, gewone vorm blijft zonder haakjes.
+- **Izhar al-asrar** (Birgivi): zarf mustaqarr "de gevestigde zarf", zarf laghw "de ledige zarf"; muta'allaq "waaraan
+  het verbonden is"; ilgha' "opheffen", ta'liq "opschorten"; af'al al-muqaraba "de werkwoorden van nabijheid",
+  "werkwoorden van het beginnen"; damir al-sha'n "het voornaamwoord van de zaak"; het voornaamwoord mustatir
+  "verborgen" (noodzakelijk / mogelijk verborgen), bariz "uitgedrukt", tegenover het muzhar "zichtbare naamwoord";
+  "volledig verbogen (munsarif)" en "de diptoot"; verbal / understood / of place i'rab = "uitgesproken (lafzi) /
+  verondersteld (taqdiri) / van de plaats (mahalli)", "op zijn plaats" voor mahallan; mahki "weergegeven"; mabni
+  al-asl / al-'arid "oorspronkelijk gebouwd / gebouwd door wat erop komt"; "a real feminine" = "echt vrouwelijk",
+  "rational males" = "mannen met verstand"; qualified (mawsuf) = "beschreven", niet "bepaald"; the owner of the hal =
+  "de bezitter van de hal (sahib)"; muttasil / munqati' bij de uitzondering = "verbonden / onderbroken"; kinayat
+  "woorden van zinspeling"; nudba "de klaagroep", istighatha "de hulproep"; ghaya "woorden van de grens"; het
+  aanwijzend naamwoord (niet "voornaamwoord"). Ook [tweevoud] bij werkwoordsvormen (daraba [tweevoud], lan yadriba
+  [tweevoud]) en wa [met lange a] voor de wa van de klaagroep naast het voegwoord wa-.

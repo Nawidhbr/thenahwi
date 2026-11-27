@@ -36,6 +36,22 @@ pipeline is in `docs/news.md`.
   list, that the list fits the school, and that every Basran and Kufan has his place (`TABAQA_GENERATIONS`). Linked
   from the scholars page, the home page (under the masters) and each scholar's aside (his school and generation). A
   person's `name` is his full name and `known` the short one the lists show (`shortName`).
+- **Nuzhat al-alibbāʾ** `/tabaqat/` and `/tabaqat/<id>/` (`pages/[locale]/tabaqat/`, data in
+  `packages/content/tabaqat/nuzhat.json`, schema `TabaqatBook` checked by `loadTabaqat`, bundle `generated/tabaqat.json`
+  through `getTabaqat()`; helpers in `lib/tabaqat.ts`, styles `.tb-…`; how it is made: `docs/tabaqat-pipeline.md`): Ibn
+  al-Anbārī's history of the grammarians, the whole book, as the backbone of the scholars. The book page has our
+  introduction, the print and its scan (the source note, `tabaqatSource` in `lib/sources.ts`), the author's preface and
+  closing behind folds, and every entry under the hijri century in which its man died (the entry's `died`, else his
+  page's), with its number, year, city (`place`, else his last place) and pages, a search field and a century dropdown
+  (`scripts/scholars-filter.js`, `window.__hl`). An entry page shows the Arabic paragraph by paragraph (verse as
+  hemistichs side by side; `components/TabaqatParagraphs.astro`), each with a copy button and its page linked to that
+  page of the scan (PDF page = print page + `edition.offset`), our English behind a fold (`Translation.astro`), the
+  notes on doubtful readings, the scholar's page and the entries before and after. Entries are numbered 1, 2, 3 … in
+  the book's order; `person` ties an entry to `background/people/<slug>.json` (the validation fails on a slug without a
+  page). Each scholar page shows "In Nuzhat al-alibbāʾ" with his entry; the scholars list and the generations page put a
+  link to it beside his name; the home page (under the masters), the scholars page, the library entry
+  `nuzhat-al-alibba` and the second menu row (Ṭabaqāt) link to the book; the entries are in the site search. Interface
+  text in `kb.tabaqat`. The pages are English (our translation) in every language until translated (`lib/translated.ts`).
 - **Glossary** `/glossary/` and `/glossary/<slug>/` (`background/concepts/`, schema `BackgroundConcept`): every concept
   of ṣarf and naḥw, free to read without an account, as the knowledge base's way into search: one page per concept with its
   vocalised Arabic and transliteration, a one-sentence definition, an explanation, examples, related concepts, the

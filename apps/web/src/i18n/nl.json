@@ -917,7 +917,8 @@
       "contact": "Contact",
       "privacy": "Privacy",
       "updates": "Updates",
-      "nahw": "Over nahw en sarf"
+      "nahw": "Over nahw en sarf",
+      "tabaqat": "Tabaqat"
     },
     "draft": "Concept · wacht op controle door een bevoegde leraar",
     "home": {
@@ -950,7 +951,8 @@
       "mastersLead": "Van Sibawayh tot al-Azhar: de grammatici wier boeken gelezen werden.",
       "library": "De hele bibliotheek",
       "newsLead": "Elke week verzameld door The Mantiqi.",
-      "generationsLink": "De generaties van de grammatici"
+      "generationsLink": "De generaties van de grammatici",
+      "tabaqatLink": "Nuzhat al-alibba', vermelding voor vermelding"
     },
     "curricula": {
       "title": "Leerplannen",
@@ -1028,7 +1030,10 @@
         "modern": "Modern onderzoek"
       },
       "generationsLink": "De generaties van de grammatici",
-      "generationsLead": "Dezelfde geleerden per school en generatie, zoals de oude tabaqat-boeken ze ordenen, en per eeuw."
+      "generationsLead": "Dezelfde geleerden per school en generatie, zoals de oude tabaqat-boeken ze ordenen, en per eeuw.",
+      "tabaqatLink": "Nuzhat al-alibba', het hele boek",
+      "tabaqatLead": "De geschiedenis van de grammatici van Ibn al-Anbari, vermelding voor vermelding, in het Arabisch en het Engels, elk verbonden met de pagina van zijn geleerde.",
+      "inNuzhat": "Nuzhat al-alibba', vermelding {n}"
     },
     "scholar": {
       "life": "Leven",
@@ -1040,7 +1045,9 @@
       "books": "In de boeken",
       "sources": "Bronnen",
       "school": "School",
-      "tabaqa": "In de Tabaqat van al-Zubaydi"
+      "tabaqa": "In de Tabaqat van al-Zubaydi",
+      "inNuzhat": "In Nuzhat al-alibba'",
+      "nuzhatEntry": "Vermelding {n}, {pages}"
     },
     "news": {
       "title": "Nieuws over nahw en sarf",
@@ -1231,7 +1238,60 @@
       "grammarians": "{n} grammatici",
       "died": "gest.",
       "undated": "Sterfjaar onbekend",
-      "grammarianOne": "1 grammaticus"
+      "grammarianOne": "1 grammaticus",
+      "nuzhatShort": "Nuzhat {n}",
+      "nuzhatLabel": "Zijn vermelding in Nuzhat al-alibba' (vermelding {n})"
+    },
+    "tabaqat": {
+      "title": "Nuzhat al-alibba': de tabaqat van de grammatici",
+      "description": "De geschiedenis van de grammatici van Ibn al-Anbari, het hele boek: elke vermelding in gevocaliseerd Arabisch uit de Caïreense druk van 1294/1877, met ons Engels.",
+      "kicker": "De tabaqat van de grammatici",
+      "lead": "De geschiedenis van de grammatici van Ibn al-Anbari, van Abu al-Aswad al-Du'ali tot zijn leraar Ibn al-Shajari: het hele boek, vermelding voor vermelding, in het Arabisch van zijn eerste druk met ons Engels.",
+      "count": "{n} vermeldingen",
+      "countOne": "1 vermelding",
+      "introKicker": "Het boek",
+      "introTitle": "De geschiedenis van de grammatici van Ibn al-Anbari",
+      "facts": {
+        "author": "Schrijver",
+        "printTitle": "Titel van de druk",
+        "printed": "Gedrukt",
+        "pages": "Bladzijden",
+        "copy": "Gescand exemplaar",
+        "scan": "Scan",
+        "scanLink": "De druk, bladzijde voor bladzijde"
+      },
+      "preface": "Het voorwoord van de schrijver",
+      "closing": "Het slot van de schrijver: zijn keten van leraren",
+      "entriesKicker": "De vermeldingen",
+      "entriesTitle": "De grammatici per eeuw",
+      "entriesLead": "Elke vermelding onder de islamitische eeuw waarin haar man stierf, met haar nummer in het boek, het sterfjaar en de stad; het boek zelf volgt de volgorde van hun overlijden.",
+      "filter": "Zoek een naam, een stad of een boek",
+      "allCenturies": "Alle eeuwen",
+      "centuryLabel": "Eeuw",
+      "shown": "{n} van {m} vermeldingen",
+      "none": "Geen vermelding komt overeen.",
+      "clear": "Wissen",
+      "undated": "Sterfjaar niet vermeld",
+      "inPreparation": "De vermeldingen worden uit de druk overgeschreven en vertaald, en verschijnen hier zodra ze klaar zijn.",
+      "entryN": "Vermelding {n}",
+      "entryOf": "Vermelding {n} van {m}",
+      "entryTitle": "{name} in Nuzhat al-alibba'",
+      "entryDescription": "{name}{died} in Nuzhat al-alibba' van Ibn al-Anbari (vermelding {n}): het Arabisch van de Caïreense druk van 1294/1877, gevocaliseerd, met ons Engels.",
+      "diedIn": " (gest. {died})",
+      "scholar": "Zijn pagina in de encyclopedie",
+      "scholarLead": "Leven, werken, school en bronnen",
+      "noScholar": "Hij heeft nog geen pagina in de encyclopedie.",
+      "notes": "Aantekeningen bij de lezing",
+      "prev": "Vorige vermelding",
+      "next": "Volgende vermelding",
+      "all": "Alle vermeldingen",
+      "scanPage": "Deze vermelding in de scan",
+      "scanPageLead": "Bladzijde {page} van de druk",
+      "readBook": "Lees het hele boek",
+      "readBookLead": "Elke vermelding van de Nuzha in het Arabisch en het Engels, verbonden met de pagina's van de geleerden.",
+      "facet": "Eeuw",
+      "years": "AH {from}–{to}",
+      "pageInScan": "blz. {page} in de scan"
     }
   },
   "preview": {
@@ -1573,7 +1633,8 @@
     "shortQuoted": "Eigen lessen met citaten uit de druk van {edition} · vertaling door The Nahwi, concept",
     "ownCourse": "De eigen cursus van The Nahwi over de grondslagen van sarf en nahw, gebaseerd op de klassieke beginnersboeken; er wordt geen originele tekst getoond.",
     "translationLanguages": "Van The Nahwi zelf, uit het {language} origineel: in het {languages}. Kies de taal onder de passages.",
-    "and": "en"
+    "and": "en",
+    "transcribedVocalised": "door The Nahwi overgeschreven uit de lithografie en door ons gevocaliseerd (de druk heeft weinig klinkers), zonder de aantekeningen van de lezer in de marges"
   },
   "contact": {
     "title": "Contact",

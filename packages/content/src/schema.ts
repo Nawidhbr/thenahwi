@@ -665,3 +665,77 @@ export const Reviews = z.object({
 export type Reviews = z.infer<typeof Reviews>;
 /** How a page shows its review: a draft, or reviewed by someone on a date. */
 export interface ReviewState { status: "draft" | "reviewed"; by?: string; date?: string }
+
+/**
+ * A ṭabaqāt work put on the site whole, entry by entry (tabaqat/<id>.json; docs/tabaqat-pipeline.md): Ibn al-Anbārī's
+ * Nuzhat al-alibbāʾ, the backbone of the scholars. The Arabic is transcribed from a public-domain print (`edition`, with
+ * its scan; PDF page = print page + `offset`) and vocalised by us; the English is our own translation. Each entry is tied
+ * to its scholar's page (`person`) where there is one. Checked by loadTabaqat: entries numbered 1, 2, 3 … in the book's
+ * order, ids unique, every person a page, every paragraph's page inside its entry's pages.
+ */
+export const TabaqatParagraph = z.object({
+  /** The Arabic of one paragraph, fully vocalised; verse as "hemistich * hemistich", lines separated by "\n". */
+  ar: z.string().min(1),
+  /** The page of the print the paragraph begins on. */
+  page: z.string().regex(/^[0-9]{1,3}$/),
+  en: z.string().min(1),
+  /** A sub-heading of the print inside an entry (the opening section on ʿAlī and Abū al-Aswad). */
+  sub: z.boolean().optional(),
+});
+const PrintPages = z.string().regex(/^[0-9]{1,3}(–[0-9]{1,3})?$/);
+export const TabaqatEntry = z.object({
+  /** The entry's number in the book, in order through the whole book. */
+  n: z.number().int().min(1),
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+  /** The name as the print sets it in the margin, vocalised. */
+  heading: z.string().min(1),
+  /** The name in ALA-LC transliteration, as the entry is best known. */
+  name: z.string().min(1),
+  /** The death date as the entry gives it, Hijri/Common Era ("69/688"); absent when the entry gives none. */
+  died: z.string().min(1).optional(),
+  /** The city the entry ties him to, in plain English. */
+  place: z.string().min(1).optional(),
+  pages: PrintPages,
+  paragraphs: z.array(TabaqatParagraph).min(1),
+  /** The scholar's page (background/people/<slug>.json). */
+  person: z.string().optional(),
+  /** Doubtful readings and misprints; never shown as part of the text. */
+  notes: z.string().optional(),
+});
+export const TabaqatBook = z.object({
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+  /** Its entry in the library (background/library.json). */
+  library: z.string().min(1),
+  title: z.string().min(1),
+  arabicTitle: z.string().min(1),
+  /** The title as the print has it, vocalised. */
+  printTitle: z.string().optional(),
+  author: z.string().min(1),
+  authorArabic: z.string().min(1),
+  authorSlug: z.string().min(1),
+  died: z.string().min(1),
+  edition: z.object({
+    title: z.string().min(1),
+    publisher: z.string().min(1),
+    place: z.string().min(1),
+    year: z.string().min(1),
+    pages: z.string().min(1),
+    /** The library whose copy was scanned, and its shelf mark. */
+    copy: z.string().min(1),
+    /** The scan's viewer page and the file of the scan. */
+    source: z.string().url(),
+    scan: z.string().url(),
+    /** PDF page = print page + offset. */
+    offset: z.number().int(),
+  }),
+  /** Our introduction to the book (English, translated later like the articles). */
+  introduction: z.array(z.string().min(1)).min(1),
+  /** The author's preface (khuṭba). */
+  preface: z.array(TabaqatParagraph).default([]),
+  entries: z.array(TabaqatEntry).default([]),
+  /** The author's closing: his own chain of teachers back to ʿAlī. */
+  closing: z.array(TabaqatParagraph).default([]),
+});
+export type TabaqatParagraph = z.infer<typeof TabaqatParagraph>;
+export type TabaqatEntry = z.infer<typeof TabaqatEntry>;
+export type TabaqatBook = z.infer<typeof TabaqatBook>;

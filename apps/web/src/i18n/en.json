@@ -917,7 +917,8 @@
       "contact": "Contact",
       "privacy": "Privacy",
       "updates": "Updates",
-      "nahw": "About naḥw and ṣarf"
+      "nahw": "About naḥw and ṣarf",
+      "tabaqat": "Ṭabaqāt"
     },
     "draft": "Draft · awaiting review by a qualified teacher",
     "home": {
@@ -950,7 +951,8 @@
       "mastersLead": "From Sībawayh to al-Azhar: the grammarians whose books were read.",
       "library": "The whole library",
       "newsLead": "Gathered each week by The Mantiqi.",
-      "generationsLink": "The generations of the grammarians"
+      "generationsLink": "The generations of the grammarians",
+      "tabaqatLink": "Nuzhat al-alibbāʾ, entry by entry"
     },
     "curricula": {
       "title": "Curricula",
@@ -1028,7 +1030,10 @@
         "modern": "Modern scholarship"
       },
       "generationsLink": "The generations of the grammarians",
-      "generationsLead": "The same scholars by school and generation, as the old ṭabaqāt books set them out, and by century."
+      "generationsLead": "The same scholars by school and generation, as the old ṭabaqāt books set them out, and by century.",
+      "tabaqatLink": "Nuzhat al-alibbāʾ, the whole book",
+      "tabaqatLead": "Ibn al-Anbārī's history of the grammarians, entry by entry, in Arabic and English, each tied to its scholar's page.",
+      "inNuzhat": "Nuzhat al-alibbāʾ, entry {n}"
     },
     "scholar": {
       "life": "Life",
@@ -1040,7 +1045,9 @@
       "books": "In the books",
       "sources": "Sources",
       "school": "School",
-      "tabaqa": "In al-Zubaydī's Ṭabaqāt"
+      "tabaqa": "In al-Zubaydī's Ṭabaqāt",
+      "inNuzhat": "In Nuzhat al-alibbāʾ",
+      "nuzhatEntry": "Entry {n}, {pages}"
     },
     "news": {
       "title": "News of naḥw and ṣarf",
@@ -1231,7 +1238,60 @@
       "grammarians": "{n} grammarians",
       "died": "d.",
       "undated": "Year of death not known",
-      "grammarianOne": "1 grammarian"
+      "grammarianOne": "1 grammarian",
+      "nuzhatShort": "Nuzhat {n}",
+      "nuzhatLabel": "His entry in Nuzhat al-alibbāʾ (entry {n})"
+    },
+    "tabaqat": {
+      "title": "Nuzhat al-alibbāʾ: the ṭabaqāt of the grammarians",
+      "description": "Ibn al-Anbārī's history of the grammarians, the whole book: every entry in vocalised Arabic from the Cairo print of 1294/1877, with our English.",
+      "kicker": "The ṭabaqāt of the grammarians",
+      "lead": "Ibn al-Anbārī's history of the grammarians, from Abū al-Aswad al-Duʾalī to his teacher Ibn al-Shajarī: the whole book, entry by entry, in the Arabic of its first print with our English.",
+      "count": "{n} entries",
+      "countOne": "1 entry",
+      "introKicker": "The book",
+      "introTitle": "Ibn al-Anbārī's history of the grammarians",
+      "facts": {
+        "author": "Author",
+        "printTitle": "Title of the print",
+        "printed": "Printed",
+        "pages": "Pages",
+        "copy": "Copy scanned",
+        "scan": "Scan",
+        "scanLink": "The print, page by page"
+      },
+      "preface": "The author's preface",
+      "closing": "The author's closing: his chain of teachers",
+      "entriesKicker": "The entries",
+      "entriesTitle": "The grammarians by century",
+      "entriesLead": "Every entry under the hijri century in which its man died, with its number in the book, the year of death and the city; the book itself runs in the order of their deaths.",
+      "filter": "Search a name, a city or a book",
+      "allCenturies": "All centuries",
+      "centuryLabel": "Century",
+      "shown": "{n} of {m} entries",
+      "none": "No entry matches.",
+      "clear": "Clear",
+      "undated": "Year of death not given",
+      "inPreparation": "The entries are being transcribed from the print and translated, and appear here as they are finished.",
+      "entryN": "Entry {n}",
+      "entryOf": "Entry {n} of {m}",
+      "entryTitle": "{name} in Nuzhat al-alibbāʾ",
+      "entryDescription": "{name}{died} in Ibn al-Anbārī's Nuzhat al-alibbāʾ (entry {n}): the Arabic of the Cairo print of 1294/1877, vocalised, with our English.",
+      "diedIn": " (d. {died})",
+      "scholar": "His page in the encyclopedia",
+      "scholarLead": "Life, works, school and sources",
+      "noScholar": "He has no page in the encyclopedia yet.",
+      "notes": "Notes on the reading",
+      "prev": "Previous entry",
+      "next": "Next entry",
+      "all": "All entries",
+      "scanPage": "This entry in the scan",
+      "scanPageLead": "The print's page {page}",
+      "readBook": "Read the whole book",
+      "readBookLead": "Every entry of the Nuzhat in Arabic and English, tied to the scholars' pages.",
+      "facet": "Century",
+      "years": "AH {from}–{to}",
+      "pageInScan": "p. {page} in the scan"
     }
   },
   "preview": {
@@ -1573,7 +1633,8 @@
     "shortQuoted": "Our own lessons with quotations from the print of {edition} · translation by The Nahwi, draft",
     "ownCourse": "The Nahwi's own course on the foundations of ṣarf and naḥw, drawing on the classic primers; no original text is shown.",
     "translationLanguages": "The Nahwi's own, from the {language} original: into {languages}. Choose the language under the passages.",
-    "and": "and"
+    "and": "and",
+    "transcribedVocalised": "transcribed by The Nahwi from the lithograph and vocalised by us (the print has few vowels), without the reader's notes in its margins"
   },
   "contact": {
     "title": "Contact",

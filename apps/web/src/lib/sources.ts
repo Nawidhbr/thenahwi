@@ -1,4 +1,4 @@
-import { getCommentaries, getMatn, getPrimers, primerTextVariants, type Commentary, type Primer } from "@nahwi/content";
+import { getCommentaries, getMatn, getPrimers, primerTextVariants, type Commentary, type Primer, type TabaqatBook } from "@nahwi/content";
 import { TEACHER } from "../config/about";
 import { fmt, t } from "../i18n";
 import { diedIn } from "./localize";
@@ -103,6 +103,22 @@ export function primerSource(p: Primer, locale: string): SourceInfo {
         : common(locale)),
     ],
     short: te?.selection && hasText ? fmt(S.shortQuoted, { edition: shortEdition(te) }) : te && hasText ? fmt(S.shortLine, { language: lang, edition: shortEdition(te) }) : fmt(S.shortLessons, { edition: shortEdition(p.edition) }),
+  };
+}
+
+/** A ṭabaqāt work put on the site whole (Nuzhat al-alibbāʾ): the lithograph it is transcribed from, with its scan. */
+export function tabaqatSource(b: TabaqatBook, locale: string): SourceInfo {
+  const S = t(locale).source;
+  const e = b.edition;
+  return {
+    title: b.title,
+    arabic: b.arabicTitle,
+    author: diedIn(`${locale === "ar" ? b.authorArabic : b.author} (${b.died})`, locale),
+    rows: [
+      { label: S.text, value: `${esc(S.languages.ar)}, ${esc(S.transcribedVocalised)}: ${editionText(e)}`, href: e.source, linkText: S.scan },
+      ...common(locale),
+    ],
+    short: fmt(S.shortLine, { language: S.languages.ar, edition: shortEdition(e) }),
   };
 }
 
