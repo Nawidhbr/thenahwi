@@ -278,3 +278,6 @@ list when it is made. The layout follows the English source list, `packages/cont
 - « classe » is the bâb only; the seven kinds of root (sahîh, mithâl, ajwaf, nâqis, lafîf, mudâ'af, mahmûz) are « les
   sept sortes ». The meanings of the augmented bâbs: mutâwa'a « l'acceptation de l'effet », mushâraka « la
   réciprocité », takthîr « la multiplication », takalluf « l'effort », ta'diya « rendre transitif ».
+- « catégorie » for a class of words (« catégorie de kâna »), since « classe » is the bâb. Izhâr: « la séparation
+  (izhâr) ». The hamza's takhfîf: « l'allègement ». Hurûf al-itbâq: « les lettres emphatiques (itbâq) ». Darj « la
+  suite de la parole », ibtidâ' « le début de la parole ». Shart / jazâ': « la condition / la rétribution ».

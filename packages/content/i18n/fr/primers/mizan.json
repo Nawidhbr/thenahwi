@@ -1,0 +1,2788 @@
+{
+  "title": "Mîzân al-sarf",
+  "summary": "Le Mîzân al-sarf, « la balance du sarf », est le court manuel persan par lequel le Dars-i Nizâmî des madrasas indiennes commence le sarf ; son auteur n'est pas connu. Sur le modèle fa'ala yaf'ulu, il construit pas à pas, et toujours par une règle énoncée, la conjugaison du verbe trilitère sain : le passé et le mudâri' en leurs quatorze formes, à l'actif et au passif, affirmés et niés par mâ, lâ, lan et lam, avec le lâm et les deux nûns d'insistance, l'impératif et l'interdiction, puis les deux participes, les noms de lieu et d'instrument, et l'élatif. L'élève l'apprend par cœur, tableau par tableau. Les leçons suivent une lithographie de Kanpur de 1905, expliquent en français chaque règle que donne le persan, et présentent ses tableaux à côté des mêmes formes de nasara tirées du moteur.",
+  "parts": {
+    "verb": "Le verbe et ses temps",
+    "past": "Le passé",
+    "mudari": "Le mudâri'",
+    "lan-and-lam": "La négation par lan et lam",
+    "emphasis": "Le lâm et les nûns d'insistance",
+    "amr": "L'impératif",
+    "nahy": "L'interdiction",
+    "nouns": "Les noms dérivés"
+  },
+  "lessons": {
+    "1": {
+      "title": "Les trois temps, et le passé",
+      "body": [
+        "Après une hamdala arabe, le livre se tourne vers l'élève en persan, avec une prière arabe pour lui : as'adaka Allâhu ta'âlâ fî al-dârayni, « que Dieu le Très-Haut vous rende heureux dans les deux demeures ». Puis sa première règle : tous les verbes qui changent de forme (af'âl munsarifa) sont de trois sortes, le passé (mâdî), le futur (mustaqbal) et le présent (hâl), et « tout ce qui est autre que ces trois en dérive ». L'impératif, l'interdiction et les participes, qui viennent plus loin dans le livre, sont tous construits à partir d'eux.",
+        "Le passé est « un verbe qui se rapporte au temps passé, et dont la fin est fixe (mabnî) sur la fatha, que ses lettres soient peu ou nombreuses, sauf par un accident ». Fixe veut dire que sa fin ne change pas avec un régissant ; l'« accident » ('ârid), c'est ce qui lui est joint, comme les tableaux le montreront : fa'alû devant le wâw du groupe, fa'altu devant un pronom voyellé.",
+        "Il a quatre schèmes : fa'ala, fa'ila, fa'ula et fa'lala, comme daraba, « il a frappé », sami'a, « il a entendu », karuma, « il a été noble », et ba'thara, « il a dispersé ». Les trois premiers ont trois radicales et ne diffèrent que par la voyelle de celle du milieu ; le quatrième en a quatre.",
+        "Les lettres f, ' et l sont la balance (mîzân) du titre : chaque verbe est pesé sur elles. Dans daraba, le d se tient à la place du f et s'appelle le fâ' du mot ; le r est son 'ayn ; le b est son lâm. Une quatrième radicale répond à un second lâm, comme dans ba'thara, fa'lala. L'élève qui sait peser un mot peut trouver son schème, et du schème toutes ses formes."
+      ],
+      "terms": [
+        "le passé : fixe sur la fatha",
+        "le futur, nom que le livre donne au mudâri'",
+        "le présent, qui a la forme du futur",
+        "la balance f-'-l sur laquelle on pèse les mots"
+      ],
+      "examples": [
+        "as'adaka Allâhu ta'âlâ fî al-dârayni, « que Dieu vous rende heureux dans les deux demeures »",
+        "daraba, sami'a, karuma, ba'thara : les quatre passés du livre",
+        "les quatre schèmes du passé sur la balance"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pesez daraba, sami'a et karuma sur la balance, et nommez le fâ', le 'ayn et le lâm de daraba.",
+          "answer": "Daraba est fa'ala, sami'a fa'ila, karuma fa'ula. Dans daraba, le fâ' est d, le 'ayn est r, le lâm est b."
+        },
+        {
+          "prompt": "Quels sont les trois temps du verbe, et qu'est-ce qui « en dérive » ?",
+          "answer": "Le passé, le futur et le présent. Toute autre forme, l'impératif, l'interdiction, les participes et le reste, est construite à partir d'eux."
+        },
+        {
+          "prompt": "Pourquoi ba'thara est-il pesé fa'lala, avec deux lâms ?",
+          "answer": "Il a quatre radicales, b-'-th-r. La balance n'a que trois lettres ; la quatrième radicale répond donc à la répétition du lâm : fa'lala."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "En combien de sortes le livre divise-t-il les verbes conjugués ?",
+          "options": [
+            "Deux : passé et présent",
+            "Trois : passé, futur, présent",
+            "Quatre",
+            "Quatorze"
+          ],
+          "explanation": "Tout le reste dérive de ces trois."
+        },
+        {
+          "prompt": "La fin du passé est…",
+          "options": [
+            "au raf'",
+            "fixe sur le sukûn",
+            "fixe sur la fatha, sauf par un accident",
+            "au jazm"
+          ],
+          "explanation": "Fa'ala ; l'accident est ce qui lui est joint."
+        },
+        {
+          "prompt": "Sami'a est sur le schème…",
+          "options": [
+            "fa'ala",
+            "fa'ula",
+            "fa'lala",
+            "fa'ila"
+          ],
+          "explanation": "Le 'ayn prend une kasra."
+        },
+        {
+          "prompt": "Karuma signifie…",
+          "options": [
+            "il a été noble",
+            "il a frappé",
+            "il a entendu",
+            "il a dispersé"
+          ],
+          "explanation": "Fa'ula, le schème des qualités."
+        },
+        {
+          "prompt": "Dans daraba, le 'ayn du mot est…",
+          "options": [
+            "d",
+            "r",
+            "b",
+            "a"
+          ],
+          "explanation": "D est le fâ', r le 'ayn, b le lâm."
+        },
+        {
+          "prompt": "Pourquoi le livre s'appelle-t-il « la balance » ?",
+          "options": [
+            "Il pèse les bonnes et les mauvaises actions",
+            "Il traite des mesures",
+            "Chaque verbe est pesé sur f-'-l",
+            "Il compte les verbes"
+          ],
+          "explanation": "Fa'ala est la balance (mîzân) de chaque mot."
+        },
+        {
+          "prompt": "Quel passé a quatre radicales ?",
+          "options": [
+            "Daraba",
+            "Sami'a",
+            "Karuma",
+            "Ba'thara"
+          ],
+          "explanation": "Fa'lala : b-'-th-r, quatre radicales."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatre schèmes du passé (p. 3)",
+        "labels": {
+          "The four patterns of the past (p. 3)": "Les quatre schèmes du passé (p. 3)",
+          "Pattern": "Schème",
+          "The book's example": "Exemple du livre",
+          "Meaning": "Sens",
+          "he hit": "il a frappé",
+          "he heard": "il a entendu",
+          "he was noble": "il a été noble",
+          "he scattered": "il a dispersé"
+        }
+      },
+      "text": [
+        "Louange à Dieu, Seigneur des mondes ; la [bonne] fin est pour ceux qui craignent Dieu ; et la prière soit sur Son messager Muhammad, sur sa famille et sur ses Compagnons, tous.",
+        "Sachez (que Dieu le Très-Haut vous rende heureux dans les deux demeures) que tous les verbes conjugués sont de trois sortes : le passé (mâdî), le futur (mustaqbal) et le présent (hâl) ; et tout ce qui est autre que ces trois choses dérive de ces trois.",
+        "Le passé est le nom d'un verbe qui se rapporte au temps passé et dont la fin est fixe (mabnî) sur la fatha, que ses lettres soient peu ou nombreuses, sauf par un accident ('ârid) ; comme fa'ala, fa'ila, fa'ula et fa'lala, comme daraba « il a frappé », sami'a « il a entendu », karuma « il a été noble » et ba'thara « il a dispersé »."
+      ]
+    },
+    "2": {
+      "title": "Le futur et le présent ; les quatorze formes",
+      "body": [
+        "Le futur (mustaqbal) est « un verbe qui se rapporte au temps à venir, et dont la fin est marfû', sauf par un accident », un régissant comme lan ou lam, qu'apportent les tableaux suivants. Ses schèmes suivent ceux du passé : yaf'alu, yaf'ilu, yaf'ulu et yufa'lilu, comme yadribu, yasma'u, yakrumu et yuba'thiru. Le présent (hâl) « se rapporte au temps qui est maintenant », et sa forme est la même que celle du futur : yadribu, c'est « il frappe » ou « il frappera », et seul le contexte dit lequel. C'est pourquoi le livre parle d'une seule forme, que d'autres livres appellent le mudâri'.",
+        "« De chacun d'eux, le passé et le mudâri', sortent quatorze mots » : trois pour le masculin absent, trois pour le féminin absent, trois pour le masculin présent, trois pour le féminin présent, et deux pour « le récit que celui qui parle fait de lui-même » (hikâyat nafs al-mutakallim). Chaque trois, c'est un, deux et plusieurs. Les madrasas de l'Inde nomment les personnes par ces mots : ghâ'ib, « absent », pour la troisième personne ; hâdir, « présent », pour celui à qui l'on parle ; mutakallim pour celui qui parle.",
+        "Dans les deux formes de celui qui parle, le masculin et le féminin sont les mêmes : fa'altu, « j'ai fait », est dit par un homme ou par une femme ; et fa'alnâ, « nous avons fait », par deux ou plusieurs, hommes ou femmes. Ainsi 6 + 6 + 2 = 14.",
+        "Chacun du passé et du mudâri' est actif (ma'rûf), son agent connu, ou passif (majhûl), son agent non nommé ; et chacun d'eux est affirmatif (ithbât) ou négatif (nafy). Le livre suit cet ordre tableau par tableau : l'actif, le passif, l'actif nié, le passif nié. L'élève apprend chaque tableau par cœur et peut nommer chaque forme qui s'y trouve : fa'alat, c'est « le singulier féminin absent du passé actif affirmatif »."
+      ],
+      "terms": [
+        "l'absent : la troisième personne",
+        "le présent : celui à qui l'on parle, la deuxième personne",
+        "le récit que celui qui parle fait de lui-même : la première personne",
+        "l'actif et le passif"
+      ],
+      "examples": [
+        "yadribu, yasma'u, yakrumu, yuba'thiru : les quatre futurs",
+        "les quatre schèmes du futur",
+        "fa'altu, fa'alnâ : les mêmes pour les hommes et les femmes"
+      ],
+      "tasks": [
+        {
+          "prompt": "Comptez les quatorze formes par leurs groupes.",
+          "answer": "Le masculin absent 3 (un, deux, plusieurs), le féminin absent 3, le masculin présent 3, le féminin présent 3, celui qui parle 2 (seul ; avec d'autres) : 14."
+        },
+        {
+          "prompt": "Pourquoi celui qui parle n'a-t-il que deux formes, et non six ?",
+          "answer": "Dans les formes de celui qui parle, le masculin et le féminin sont les mêmes, ainsi que le duel et le pluriel : une forme pour « je », une pour « nous »."
+        },
+        {
+          "prompt": "Quel futur va avec chaque passé : daraba, sami'a, karuma, ba'thara ? Qu'est-ce qui change dans la lettre du milieu ?",
+          "answer": "Daraba → yadribu ('ayn avec kasra), sami'a → yasma'u (fatha), karuma → yakrumu (damma), ba'thara → yuba'thiru (quatre lettres, le préfixe avec damma)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le futur (mustaqbal) se rapporte…",
+          "options": [
+            "au temps passé",
+            "à aucun temps",
+            "au temps à venir",
+            "au seul moment où l'on parle"
+          ],
+          "explanation": "Sa fin est marfû', sauf par un accident."
+        },
+        {
+          "prompt": "La forme du présent (hâl) est…",
+          "options": [
+            "la même que celle du passé",
+            "l'impératif",
+            "différente des deux",
+            "la même que celle du futur"
+          ],
+          "explanation": "Yadribu : « il frappe » ou « il frappera »."
+        },
+        {
+          "prompt": "Combien de formes sortent de chacun du passé et du mudâri' ?",
+          "options": [
+            "Quatorze",
+            "Douze",
+            "Six",
+            "Huit"
+          ],
+          "explanation": "Six absents, six présents, deux de celui qui parle."
+        },
+        {
+          "prompt": "Hâdir, « présent », signifie dans le livre…",
+          "options": [
+            "le temps présent",
+            "celui à qui l'on parle",
+            "celui qui parle",
+            "celui qui est absent"
+          ],
+          "explanation": "La deuxième personne."
+        },
+        {
+          "prompt": "Fa'altu est dit par…",
+          "options": [
+            "un homme seulement",
+            "une femme seulement",
+            "un homme ou une femme",
+            "deux personnes"
+          ],
+          "explanation": "Dans les formes de celui qui parle, le masculin et le féminin sont les mêmes."
+        },
+        {
+          "prompt": "Majhûl, dans le livre, signifie…",
+          "options": [
+            "le verbe nié",
+            "le futur",
+            "un mot inconnu",
+            "le passif : l'agent non nommé"
+          ],
+          "explanation": "Ma'rûf est l'actif."
+        },
+        {
+          "prompt": "Yasma'u est le futur de…",
+          "options": [
+            "sami'a",
+            "daraba",
+            "karuma",
+            "ba'thara"
+          ],
+          "explanation": "Fa'ila → yaf'alu."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatorze formes du passé et du mudâri' (p. 4)",
+        "labels": {
+          "The fourteen forms of the past and the muḍāriʿ (p. 4)": "Les quatorze formes du passé et du mudâri' (p. 4)",
+          "Fourteen forms": "Quatorze formes",
+          "masculine absent: 3": "masculin absent : 3",
+          "feminine absent: 3": "féminin absent : 3",
+          "masculine present: 3": "masculin présent : 3",
+          "feminine present: 3": "féminin présent : 3",
+          "the speaker: 2": "celui qui parle : 2"
+        }
+      },
+      "text": [
+        "Le futur est le nom d'un verbe qui se rapporte au temps à venir et dont la fin est marfû', sauf par un accident ; comme yaf'alu, yaf'ilu, yaf'ulu et yufa'lilu, comme yadribu « il frappe », yasma'u « il entend », yakrumu « il est noble » et yuba'thiru « il disperse ». Le présent est le nom d'un verbe qui se rapporte au temps qui est maintenant, et la forme du présent est comme la forme du futur.",
+        "De chacun d'eux, le passé et le mudâri', sortent quatorze mots : trois sont pour le masculin absent, trois pour le féminin absent, trois pour le masculin présent [celui à qui l'on parle], trois pour le féminin présent, et deux pour le récit que celui qui parle fait de lui-même (hikâyat nafs al-mutakallim).",
+        "Dans la première, la forme du singulier du récit que celui qui parle fait de lui-même, le masculin et le féminin sont les mêmes ; et dans la seconde, la forme du récit que celui qui parle fait de lui-même pour le duel et le pluriel, le masculin et le féminin sont aussi les mêmes. Chacun d'eux, le passé et le mudâri', est de deux sortes : actif (ma'rûf) et passif (majhûl) ; et chacun d'eux est à son tour de deux sortes : affirmatif (ithbât) et négatif (nafy)."
+      ]
+    },
+    "3": {
+      "title": "Le passé actif affirmatif",
+      "body": [
+        "Le premier tableau est fa'ala en ses quatorze formes. Lisez-le par trois : fa'ala, fa'alâ, fa'alû, « il a fait, eux deux ont fait, ils ont fait » ; fa'alat, fa'alatâ, fa'alna, pour les femmes ; fa'alta, fa'altumâ, fa'altum, aux hommes à qui l'on parle ; fa'alti, fa'altumâ, fa'altunna, aux femmes à qui l'on parle ; et fa'altu, fa'alnâ, celui qui parle.",
+        "La base fa'al- ne change pas ; ce qui change, c'est la terminaison. Certaines terminaisons sont des pronoms, l'agent lui-même : l'alif du duel (-â), le wâw du groupe (-û), le nûn des femmes (-na), et le tâ' de celui à qui l'on parle ou de celui qui parle (-ta, -tumâ, -tum, -ti, -tunna, -tu), et -nâ. L'une n'est qu'un signe : le tâ' du féminin dans fa'alat, qui marque un agent féminin mais n'est pas l'agent.",
+        "Voici l'« accident » de la première leçon. La fin, le lâm, garde sa fatha dans fa'ala, fa'alâ, fa'alat et fa'alatâ. Devant le wâw du groupe, il prend une damma, fa'alû ; devant les pronoms voyellés, il prend un sukûn : fa'alna, fa'alta, fa'altu, fa'alnâ.",
+        "Deux formes se ressemblent : fa'altumâ est à la fois « vous deux (hommes) avez fait » et « vous deux (femmes) avez fait », et le livre l'écrit deux fois pour garder les quatorze. Une fois le tableau appris, tout verbe sain de ce schème va de la même manière : nasara, nasarâ, nasarû, « il a aidé, eux deux ont aidé, ils ont aidé »."
+      ],
+      "terms": [
+        "l'alif du duel, -â",
+        "le wâw du groupe, -û",
+        "le tâ' du féminin, -at : un signe, non un pronom",
+        "le nûn du pluriel féminin, -na"
+      ],
+      "examples": [
+        "fa'ala, fa'alâ, fa'alû : le masculin absent",
+        "fa'altu, fa'alnâ : celui qui parle",
+        "nasara, nasarâ, nasarû (le moteur) : le même tableau sur un autre verbe"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les quatorze formes de nasara, « aider », d'après le tableau de fa'ala.",
+          "answer": "نَصَرَ، نَصَرَا، نَصَرُوا، نَصَرَتْ، نَصَرَتَا، نَصَرْنَ، نَصَرْتَ، نَصَرْتُمَا، نَصَرْتُمْ، نَصَرْتِ، نَصَرْتُمَا، نَصَرْتُنَّ، نَصَرْتُ، نَصَرْنَا"
+        },
+        {
+          "prompt": "Nommez chaque forme : fa'alna ; fa'altum ; fa'alti ; fa'alnâ.",
+          "answer": "Fa'alna : pluriel féminin absent. Fa'altum : pluriel masculin présent. Fa'alti : singulier féminin présent. Fa'alnâ : celui qui parle avec d'autres."
+        },
+        {
+          "prompt": "Dans quelles formes le lâm garde-t-il sa fatha, et pourquoi la perd-il dans les autres ?",
+          "answer": "Dans fa'ala, fa'alâ, fa'alat et fa'alatâ. Devant le wâw du groupe, il prend une damma (fa'alû) ; devant un pronom voyellé (-na, -ta, -tu, -nâ…), il prend un sukûn."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fa'alû signifie…",
+          "options": [
+            "eux deux ont fait",
+            "tu as fait",
+            "nous avons fait",
+            "ils (m.) ont fait"
+          ],
+          "explanation": "Le wâw du groupe."
+        },
+        {
+          "prompt": "Fa'alat est…",
+          "options": [
+            "le singulier féminin absent",
+            "le singulier féminin présent",
+            "celui qui parle",
+            "le pluriel féminin"
+          ],
+          "explanation": "« Elle a fait » : le tâ' du féminin."
+        },
+        {
+          "prompt": "Quelle terminaison n'est qu'un signe, non un pronom ?",
+          "options": [
+            "Le wâw de fa'alû",
+            "Le tâ' de fa'alat",
+            "Le nûn de fa'alna",
+            "Le tâ' de fa'altu"
+          ],
+          "explanation": "Il marque un agent féminin ; l'agent est un pronom caché ou un nom."
+        },
+        {
+          "prompt": "Fa'altunna signifie…",
+          "options": [
+            "vous (m. pl.) avez fait",
+            "elles ont fait",
+            "vous (f. pl.) avez fait",
+            "vous deux avez fait"
+          ],
+          "explanation": "Le pluriel féminin présent."
+        },
+        {
+          "prompt": "Quelle forme est écrite deux fois dans le tableau ?",
+          "options": [
+            "Fa'alta",
+            "Fa'alnâ",
+            "Fa'alû",
+            "Fa'altumâ"
+          ],
+          "explanation": "Pour deux hommes et pour deux femmes à qui l'on parle."
+        },
+        {
+          "prompt": "Dans fa'alna, le lâm prend un sukûn parce que…",
+          "options": [
+            "un pronom voyellé suit",
+            "il est féminin",
+            "il est pluriel",
+            "il est nié"
+          ],
+          "explanation": "L'« accident » du passé."
+        },
+        {
+          "prompt": "Nasartu signifie…",
+          "options": [
+            "tu as aidé",
+            "j'ai aidé",
+            "elle a aidé",
+            "nous avons aidé"
+          ],
+          "explanation": "Comme fa'altu."
+        }
+      ],
+      "diagram": {
+        "caption": "Le passé actif affirmatif (p. 5), avec nasara tiré du moteur",
+        "labels": {
+          "The affirmative active past (p. 5), with naṣara from the engine": "Le passé actif affirmatif (p. 5), avec nasara tiré du moteur",
+          "Person": "Personne",
+          "faʿala": "fa'ala",
+          "naṣara": "nasara",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "fa'ala « il a fait », fa'alâ « eux deux (m.) ont fait », fa'alû « ils ont fait », fa'alat « elle a fait », fa'alatâ « elles deux ont fait », fa'alna « elles ont fait », fa'alta « tu (m.) as fait »\nfa'altumâ « vous deux (m.) avez fait », fa'altum « vous (m. pl.) avez fait », fa'alti « tu (f.) as fait », fa'altumâ « vous deux (f.) avez fait », fa'altunna « vous (f. pl.) avez fait », fa'altu « j'ai fait », fa'alnâ « nous avons fait »"
+      ]
+    },
+    "4": {
+      "title": "Le passé passif",
+      "body": [
+        "« Quand vous voulez construire le passif, donnez une damma au fâ' du verbe et une kasra au 'ayn du verbe dans les quatorze, et laissez le lâm du mot tel qu'il est. » Fa'ala devient fu'ila, « cela a été fait » ; fa'alû devient fu'ilû, « ils ont été faits » ; fa'altu devient fu'iltu, « j'ai été fait ».",
+        "La règle ne touche que les deux premières radicales. Les terminaisons du tableau actif restent ce qu'elles étaient, ainsi que les voyelles du lâm : fu'ilû avec damma, fu'ilna avec sukûn. Ainsi, qui connaît le tableau actif connaît le passif : changez deux voyelles et lisez la suite.",
+        "Le passif ne nomme pas l'agent. Dans nasara Zaydun 'Amran, « Zayd a aidé 'Amr », l'agent est Zayd ; dans nusira 'Amrun, « 'Amr a été aidé », celui qui est aidé se tient à sa place. La même règle donne nusira de nasara et duriba de daraba, quelle que soit la voyelle du 'ayn à l'actif.",
+        "Le livre dit « dans les quatorze » à dessein : le débutant est tenté de ne changer que la première forme et de recopier le reste sur l'actif. Toute forme du passé passif a u … i à son début : fu'iltunna, fu'ilnâ."
+      ],
+      "terms": [
+        "le passif : l'agent non nommé",
+        "la première radicale, qui répond au f",
+        "la deuxième radicale, qui répond au '",
+        "la dernière radicale, qui répond au l"
+      ],
+      "examples": [
+        "fu'ila, fu'ilâ, fu'ilû : le fâ' avec damma, le 'ayn avec kasra",
+        "nusira, duriba (le moteur) : la même règle sur d'autres verbes",
+        "fu'iltunna, fu'ilnâ : dans les quatorze"
+      ],
+      "tasks": [
+        {
+          "prompt": "Faites le passif de nasara aux quatorze formes.",
+          "answer": "نُصِرَ، نُصِرَا، نُصِرُوا، نُصِرَتْ، نُصِرَتَا، نُصِرْنَ، نُصِرْتَ، نُصِرْتُمَا، نُصِرْتُمْ، نُصِرْتِ، نُصِرْتُمَا، نُصِرْتُنَّ، نُصِرْتُ، نُصِرْنَا"
+        },
+        {
+          "prompt": "Que change le passif dans fa'ala, et que laisse-t-il ?",
+          "answer": "Il donne une damma au fâ' et une kasra au 'ayn. Il laisse le lâm et toutes les terminaisons tels qu'ils sont à l'actif."
+        },
+        {
+          "prompt": "Traduisez fu'ilna, fu'ilta et fu'ilnâ.",
+          "answer": "Fu'ilna : « elles ont été faites ». Fu'ilta : « tu (m.) as été fait ». Fu'ilnâ : « nous avons été faits »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pour construire le passé passif, le fâ' prend…",
+          "options": [
+            "une damma",
+            "une kasra",
+            "une fatha",
+            "un sukûn"
+          ],
+          "explanation": "Et le 'ayn une kasra."
+        },
+        {
+          "prompt": "Au passé passif, le 'ayn prend…",
+          "options": [
+            "une damma",
+            "une kasra",
+            "une fatha",
+            "un sukûn"
+          ],
+          "explanation": "Fu'ila : le 'ayn avec kasra."
+        },
+        {
+          "prompt": "Le lâm du passé passif…",
+          "options": [
+            "prend toujours une damma",
+            "prend toujours une kasra",
+            "reste tel qu'il était à l'actif",
+            "tombe"
+          ],
+          "explanation": "« Laissez le lâm du mot tel qu'il est. »"
+        },
+        {
+          "prompt": "Fu'ilû signifie…",
+          "options": [
+            "ils ont fait",
+            "eux deux ont été faits",
+            "tu as été fait",
+            "ils (m.) ont été faits"
+          ],
+          "explanation": "Le passif de fa'alû."
+        },
+        {
+          "prompt": "Le passif de nasartu est…",
+          "options": [
+            "nusirtu",
+            "nasirtu",
+            "nusartu",
+            "unsurtu"
+          ],
+          "explanation": "Damma sur le fâ', kasra sur le 'ayn."
+        },
+        {
+          "prompt": "Le passif…",
+          "options": [
+            "nomme deux agents",
+            "ne nomme pas l'agent",
+            "est toujours nié",
+            "n'a pas de terminaisons"
+          ],
+          "explanation": "Nusira 'Amrun, « 'Amr a été aidé »."
+        },
+        {
+          "prompt": "La règle s'applique…",
+          "options": [
+            "seulement à la première forme",
+            "seulement au singulier",
+            "aux quatorze formes",
+            "seulement à l'absent"
+          ],
+          "explanation": "Toute forme a u … i à son début."
+        }
+      ],
+      "diagram": {
+        "caption": "Le passé, actif et passif (p. 5), avec le passif de nasara tiré du moteur",
+        "labels": {
+          "The past, active and passive (p. 5), with the passive of naṣara from the engine": "Le passé, actif et passif (p. 5), avec le passif de nasara tiré du moteur",
+          "Person": "Personne",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "naṣara, passive": "nasara, passif",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur le verbe au passé actif affirmatif. Quand vous voulez construire le passif, donnez une damma au fâ' du verbe et une kasra au 'ayn du verbe dans les quatorze, et laissez le lâm du mot tel qu'il est, afin qu'il devienne le passé passif.",
+        "fu'ila « il a été fait », fu'ilâ « eux deux (m.) ont été faits », fu'ilû « ils ont été faits », fu'ilat « elle a été faite », fu'ilatâ « elles deux ont été faites », fu'ilna « elles ont été faites », fu'ilta « tu (m.) as été fait »\nfu'iltumâ « vous deux (m.) avez été faits », fu'iltum « vous (m. pl.) avez été faits », fu'ilti « tu (f.) as été faite », fu'iltumâ « vous deux (f.) avez été faites », fu'iltunna « vous (f. pl.) avez été faites », fu'iltu « j'ai été fait », fu'ilnâ « nous avons été faits »"
+      ]
+    },
+    "5": {
+      "title": "Le passé nié par mâ",
+      "body": [
+        "Pour nier le passé, « faites entrer le mâ de la négation à son début » : mâ fa'ala, « il n'a pas fait » ; mâ fu'ila, « cela n'a pas été fait ». La règle est la même pour l'actif et le passif, et pour les quatorze formes.",
+        "« Le mâ de la négation n'a aucun effet sur l'énonciation du passé » : fa'ala reste fa'ala, fa'alû reste fa'alû. « Mais il a un effet sur le sens : il tourne l'affirmatif vers le sens du négatif. » Le livre attire l'attention de l'élève sur cette distinction parce que les particules suivantes, lan et lam, changeront aussi l'énonciation.",
+        "Ainsi les deux tableaux de cette leçon sont les deux tableaux des leçons précédentes, chaque mot précédé de mâ : mâ fa'ala, mâ fa'alâ, mâ fa'alû … mâ fa'alnâ ; mâ fu'ila … mâ fu'ilnâ. Avec nasara : mâ nasara, « il n'a pas aidé » ; mâ nusira, « il n'a pas été aidé ».",
+        "Ne confondez pas ce mâ avec les autres mâ de l'arabe. Devant un verbe au passé, dans ces tableaux, il ne fait que nier ; le mâ de mâ ahsana, « que c'est beau ! », ou le mâ de « ce que » sont d'autres mots, que les livres de nahw enseignent."
+      ],
+      "terms": [
+        "le mâ de la négation",
+        "la négation",
+        "l'énonciation et le sens"
+      ],
+      "examples": [
+        "mâ fa'ala, « il n'a pas fait » ; mâ fu'ila, « cela n'a pas été fait »",
+        "mâ nasara (nasara tiré du moteur), « il n'a pas aidé »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Niez nasartu et nusirnâ.",
+          "answer": "Mâ nasartu, « je n'ai pas aidé » ; mâ nusirnâ, « nous n'avons pas été aidés ». On met mâ devant eux et les mots ne changent pas."
+        },
+        {
+          "prompt": "Que veut dire le livre quand il dit que mâ n'a pas d'effet sur l'énonciation mais un effet sur le sens ?",
+          "answer": "La forme du verbe reste exactement ce qu'elle était (fa'ala, fa'alû…), mais la phrase nie maintenant ce qu'elle affirmait : « il a fait » devient « il n'a pas fait »."
+        },
+        {
+          "prompt": "Traduisez mâ fa'altunna et mâ fu'ilat.",
+          "answer": "« Vous (femmes) n'avez pas fait » ; « elle (ou cela, f.) n'a pas été faite »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le passé se nie par…",
+          "options": [
+            "lâ",
+            "mâ",
+            "lan",
+            "lam"
+          ],
+          "explanation": "Mâ fa'ala."
+        },
+        {
+          "prompt": "Que change mâ dans l'énonciation du passé ?",
+          "options": [
+            "La dernière voyelle",
+            "La première voyelle",
+            "Rien",
+            "Les terminaisons"
+          ],
+          "explanation": "Il n'a d'effet que sur le sens."
+        },
+        {
+          "prompt": "Mâ fa'alû signifie…",
+          "options": [
+            "ils ont fait",
+            "ils ne feront pas",
+            "ne faites pas",
+            "ils (m.) n'ont pas fait"
+          ],
+          "explanation": "Le pluriel masculin absent nié."
+        },
+        {
+          "prompt": "Mâ fu'ila est…",
+          "options": [
+            "le passé passif nié",
+            "le passé actif nié",
+            "le mudâri' passif",
+            "une interdiction"
+          ],
+          "explanation": "« Cela n'a pas été fait. »"
+        },
+        {
+          "prompt": "Combien de formes a le passé nié ?",
+          "options": [
+            "Sept",
+            "Quatorze, à l'actif et au passif",
+            "Six",
+            "Une"
+          ],
+          "explanation": "Toutes les formes des deux tableaux avec mâ."
+        },
+        {
+          "prompt": "Mâ nasartu signifie…",
+          "options": [
+            "j'ai aidé",
+            "je n'aiderai pas",
+            "je n'ai pas aidé",
+            "tu n'as pas aidé"
+          ],
+          "explanation": "Mâ devant nasartu."
+        },
+        {
+          "prompt": "Quelle particule, à la différence de mâ, changera l'énonciation ?",
+          "options": [
+            "Aucune",
+            "Qad",
+            "Kâna",
+            "Lam"
+          ],
+          "explanation": "Lan et lam changent la fin du mudâri'."
+        }
+      ],
+      "diagram": {
+        "caption": "Le passé nié par mâ (p. 6)",
+        "labels": {
+          "The negated past with mā (p. 6)": "Le passé nié par mâ (p. 6)",
+          "Person": "Personne",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur le verbe au passé passif affirmatif. Quand vous voulez construire le négatif, faites entrer le mâ de la négation à son début, afin qu'il devienne le passé nié. Le mâ de la négation n'a aucun effet sur l'énonciation du passé (il reste tel qu'il était), mais il a un effet sur le sens, c'est-à-dire qu'il tourne l'affirmatif vers le sens du négatif.",
+        "mâ fa'ala « il n'a pas fait », mâ fa'alâ « eux deux (m.) n'ont pas fait », mâ fa'alû « ils n'ont pas fait », mâ fa'alat « elle n'a pas fait », mâ fa'alatâ « elles deux n'ont pas fait »\nmâ fa'alna « elles n'ont pas fait », mâ fa'alta « tu (m.) n'as pas fait », mâ fa'altumâ « vous deux (m.) n'avez pas fait », mâ fa'altum « vous (m. pl.) n'avez pas fait », mâ fa'alti « tu (f.) n'as pas fait »\nmâ fa'altumâ « vous deux (f.) n'avez pas fait », mâ fa'altunna « vous (f. pl.) n'avez pas fait », mâ fa'altu « je n'ai pas fait », mâ fa'alnâ « nous n'avons pas fait »",
+        "mâ fu'ila « il n'a pas été fait », mâ fu'ilâ « eux deux (m.) n'ont pas été faits », mâ fu'ilû « ils n'ont pas été faits », mâ fu'ilat « elle n'a pas été faite », mâ fu'ilatâ « elles deux n'ont pas été faites »\nmâ fu'ilna « elles n'ont pas été faites », mâ fu'ilta « tu (m.) n'as pas été fait », mâ fu'iltumâ « vous deux (m.) n'avez pas été faits », mâ fu'iltum « vous (m. pl.) n'avez pas été faits », mâ fu'ilti « tu (f.) n'as pas été faite »\nmâ fu'iltumâ « vous deux (f.) n'avez pas été faites », mâ fu'iltunna « vous (f. pl.) n'avez pas été faites », mâ fu'iltu « je n'ai pas été fait », mâ fu'ilnâ « nous n'avons pas été faits »"
+      ]
+    },
+    "6": {
+      "title": "Notes utiles : le passé proche, lointain, continu, supposé et souhaité",
+      "body": [
+        "Notre impression ajoute dans le texte un encadré de « notes utiles » (fawâ'id nâfi'a) ; il n'est pas dans toutes les copies du Mîzân. Ce qui a été enseigné jusqu'ici est le passé absolu (mâdî mutlaq) : fa'ala, « il a fait ». Avec un mot placé devant lui, le passé prend des nuances plus fines de temps et de mode.",
+        "Qad devant lui fait le passé proche (qarîb) : qad daraba, « il a frappé », à l'instant. Kâna devant lui fait le passé lointain (ba'îd) : kâna daraba, « il avait frappé ». Kâna devant le mudâri' fait le passé continu (istimrârî) : kâna yaf'alu, « il avait l'habitude de faire », « il faisait ».",
+        "La'allamâ devant le passé fait le passé de supposition (ihtimâlî) : la'allamâ fa'ala, « peut-être a-t-il fait ». Laytamâ fait le passé de souhait (tamannâ'î) : laytamâ daraba, « si seulement il avait frappé ». « De chacun d'eux sortent quatorze formes », comme du passé absolu.",
+        "Les six noms sont ceux des passés persans que l'élève connaît déjà par sa propre langue, le mâzî-yi mutlaq, qarîb, ba'îd, istimrârî, ihtimâlî et tamannâ'î. L'encadré s'en sert pour montrer comment chaque temps persan se dit en arabe, et c'est pourquoi il convient à un manuel persan."
+      ],
+      "terms": [
+        "le passé absolu : fa'ala",
+        "le passé proche : qad fa'ala",
+        "le passé lointain : kâna fa'ala",
+        "le passé continu : kâna yaf'alu"
+      ],
+      "examples": [
+        "qad daraba, « il a frappé » : le passé proche",
+        "kâna daraba, « il avait frappé » : le passé lointain",
+        "kâna yaf'alu, « il avait l'habitude de faire » : le passé continu",
+        "le passé de supposition et le passé de souhait"
+      ],
+      "tasks": [
+        {
+          "prompt": "Faites le passé proche et le passé lointain de nasara.",
+          "answer": "Qad nasara, « il a aidé » ; kâna nasara, « il avait aidé »."
+        },
+        {
+          "prompt": "Quelle est la différence entre kâna nasara et kâna yansuru ?",
+          "answer": "Kâna devant le passé fait le passé lointain, « il avait aidé » ; kâna devant le mudâri' fait le passé continu, « il avait l'habitude d'aider, il aidait »."
+        },
+        {
+          "prompt": "Quel mot fait chacun : le passé de supposition ; le passé de souhait ?",
+          "answer": "La'allamâ (la'allamâ fa'ala, « peut-être a-t-il fait ») et laytamâ (laytamâ daraba, « si seulement il avait frappé »)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qad daraba est le…",
+          "options": [
+            "passé lointain",
+            "passé continu",
+            "passé proche",
+            "passé absolu"
+          ],
+          "explanation": "« Il a frappé. »"
+        },
+        {
+          "prompt": "Kâna daraba est le…",
+          "options": [
+            "passé proche",
+            "passé continu",
+            "passé de souhait",
+            "passé lointain"
+          ],
+          "explanation": "« Il avait frappé. »"
+        },
+        {
+          "prompt": "Kâna yaf'alu est le…",
+          "options": [
+            "passé continu",
+            "passé lointain",
+            "futur",
+            "passé de supposition"
+          ],
+          "explanation": "« Il avait l'habitude de faire. »"
+        },
+        {
+          "prompt": "Quel mot fait le passé de supposition ?",
+          "options": [
+            "Laytamâ",
+            "La'allamâ",
+            "Qad",
+            "Kâna"
+          ],
+          "explanation": "La'allamâ fa'ala, « peut-être a-t-il fait »."
+        },
+        {
+          "prompt": "Laytamâ daraba signifie…",
+          "options": [
+            "peut-être a-t-il frappé",
+            "il avait frappé",
+            "si seulement il avait frappé",
+            "il a frappé"
+          ],
+          "explanation": "Le passé de souhait."
+        },
+        {
+          "prompt": "Fa'ala sans aucun mot devant lui est le…",
+          "options": [
+            "passé proche",
+            "passé lointain",
+            "passé continu",
+            "passé absolu"
+          ],
+          "explanation": "Al-mâdî al-mutlaq."
+        },
+        {
+          "prompt": "Les noms de ces passés viennent…",
+          "options": [
+            "des passés de la grammaire persane",
+            "du Coran",
+            "de la logique grecque",
+            "d'al-Âjurrûmiyya"
+          ],
+          "explanation": "L'encadré montre comment chaque passé persan se dit en arabe."
+        }
+      ],
+      "diagram": {
+        "caption": "Les sortes de passé (p. 7)",
+        "labels": {
+          "The kinds of past (p. 7)": "Les sortes de passé (p. 7)",
+          "Past": "Passé",
+          "Made with": "Fait avec",
+          "The book's example": "Exemple du livre",
+          "Meaning": "Sens",
+          "absolute": "absolu",
+          "he hit": "il a frappé",
+          "near": "proche",
+          "he has hit": "il a frappé (à l'instant)",
+          "far": "lointain",
+          "كَانَ + past": "كَانَ + passé",
+          "he had hit": "il avait frappé",
+          "continuous": "continu",
+          "كَانَ + muḍāriʿ": "كَانَ + mudâri'",
+          "he used to do": "il avait l'habitude de faire",
+          "of supposition": "de supposition",
+          "perhaps he did": "peut-être a-t-il fait",
+          "of wishing": "de souhait",
+          "would that he had hit": "si seulement il avait frappé"
+        }
+      },
+      "text": [
+        "Tout ce qui a été dit portait sur le passé absolu (mâdî mutlaq). Quand vous voulez construire le passé proche (qarîb), le passé lointain (ba'îd), le passé continu (istimrârî) et leurs semblables : si vous mettez le mot qad devant le passé absolu, il devient le passé proche, comme qad daraba « il a frappé » ; et si vous mettez devant lui le mot kâna, il devient le passé lointain, comme kâna daraba « il avait frappé » ;",
+        "et si vous le mettez devant le mudâri', il devient le passé continu, comme kâna yaf'alu « il avait l'habitude de faire » ; et si vous faites entrer le mot la'allamâ devant le passé absolu, il devient le passé de supposition (ihtimâlî), comme la'allamâ fa'ala « peut-être a-t-il fait » ; et de même, si à la place de la'allamâ vous mettez le mot laytamâ, il devient le passé de souhait (tamannâ'î), comme laytamâ daraba « si seulement il avait frappé ». Il faut savoir que de chacun d'eux sortent quatorze formes, comme on l'a vu pour le passé absolu."
+      ]
+    },
+    "7": {
+      "title": "Construire le mudâri' : les signes atayna et le nûn de l'i'râb",
+      "body": [
+        "« Quand vous voulez construire le mudâri', faites entrer l'un des signes du mudâri' à son début et donnez une damma à sa fin. » Les signes sont quatre lettres, l'alif, le tâ', le yâ' et le nûn, qui forment ensemble atayna, « elles sont venues », un mot pour s'en souvenir. Fa'ala devient yaf'ulu ; le modèle du Mîzân a une damma sur le 'ayn, le schème de nasara yansuru.",
+        "Chaque signe a ses formes. L'alif est pour celui qui parle seul : af'ulu, « je fais ». Le nûn est pour celui qui parle avec d'autres : naf'ulu, « nous faisons ». Le yâ' est pour quatre formes : les trois du masculin absent et le pluriel du féminin absent, yaf'ulna. Le tâ' est pour les huit autres : les six du présent, et le singulier et le duel du féminin absent, taf'ulu, « elle fait », taf'ulâni.",
+        "« En sept endroits, faites entrer le nûn de l'i'râb » : les quatre duels, avec une kasra (-âni), et les deux pluriels masculins et le singulier féminin présent, avec une fatha (-ûna, -îna). Ce nûn est le signe du raf', et il tombera sous lan et lam. Le nûn du pluriel féminin, yaf'ulna, taf'ulna, est un autre nûn : il vient dans le mudâri' comme dans le passé (fa'alna), il est l'agent lui-même, et il reste.",
+        "Lisez le tableau en gardant cela à l'esprit. Taf'ulu est écrit deux fois, pour « elle » et pour « tu (m.) » ; taf'ulâni trois fois, pour les deux femmes absentes et pour les deux hommes et les deux femmes à qui l'on parle. Le contexte les distingue. Avec nasara : yansuru, yansurâni, yansurûna."
+      ],
+      "terms": [
+        "les signes du mudâri' : alif, tâ', yâ', nûn (atayna)",
+        "le nûn de l'i'râb : -âni, -ûna, -îna, le signe du raf'",
+        "le nûn du pluriel féminin : un pronom, qui reste"
+      ],
+      "examples": [
+        "af'ulu, naf'ulu : l'alif et le nûn de celui qui parle",
+        "yaf'ulna avec le yâ' ; taf'ulu, « elle fait », avec le tâ'",
+        "le nûn de l'i'râb : avec kasra au duel, avec fatha dans les autres",
+        "yansuru, yansurâni, yansurûna (le moteur)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quel signe commence chacun : yaf'ulna ; taf'ulîna ; af'ulu ; naf'ulu ?",
+          "answer": "Yaf'ulna : le yâ' (pluriel féminin absent). Taf'ulîna : le tâ' (singulier féminin présent). Af'ulu : l'alif (celui qui parle seul). Naf'ulu : le nûn (celui qui parle avec d'autres)."
+        },
+        {
+          "prompt": "Quelles sont les sept formes avec le nûn de l'i'râb, et quelle voyelle prend-il ?",
+          "answer": "Les quatre duels, yaf'ulâni, taf'ulâni (encore deux fois), avec kasra ; et yaf'ulûna, taf'ulûna et taf'ulîna, avec fatha."
+        },
+        {
+          "prompt": "Donnez le mudâri' de nasara aux quatorze formes.",
+          "answer": "يَنْصُرُ، يَنْصُرَانِ، يَنْصُرُونَ، تَنْصُرُ، تَنْصُرَانِ، يَنْصُرْنَ، تَنْصُرُ، تَنْصُرَانِ، تَنْصُرُونَ، تَنْصُرِينَ، تَنْصُرَانِ، تَنْصُرْنَ، أَنْصُرُ، نَنْصُرُ"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Les signes du mudâri' forment…",
+          "options": [
+            "na'aytu seulement",
+            "sa'altumûnîhâ",
+            "ây",
+            "atayna"
+          ],
+          "explanation": "Alif, tâ', yâ', nûn."
+        },
+        {
+          "prompt": "L'alif est pour…",
+          "options": [
+            "celui qui parle seul",
+            "celui qui parle avec d'autres",
+            "l'absent",
+            "celui à qui l'on parle"
+          ],
+          "explanation": "Af'ulu, « je fais »."
+        },
+        {
+          "prompt": "Combien de formes commencent par le tâ' ?",
+          "options": [
+            "Quatre",
+            "Huit",
+            "Six",
+            "Deux"
+          ],
+          "explanation": "Les six du présent et deux du féminin absent."
+        },
+        {
+          "prompt": "Yaf'ulna commence par…",
+          "options": [
+            "le tâ'",
+            "le nûn",
+            "le yâ'",
+            "l'alif"
+          ],
+          "explanation": "Le pluriel féminin absent prend le yâ'."
+        },
+        {
+          "prompt": "En combien d'endroits fait-on entrer le nûn de l'i'râb ?",
+          "options": [
+            "Quatorze",
+            "Cinq",
+            "Deux",
+            "Sept"
+          ],
+          "explanation": "Quatre duels, deux pluriels masculins, le singulier féminin présent."
+        },
+        {
+          "prompt": "Le nûn de l'i'râb au duel prend…",
+          "options": [
+            "une kasra",
+            "une fatha",
+            "une damma",
+            "un sukûn"
+          ],
+          "explanation": "-âni ; dans les autres -ûna, -îna."
+        },
+        {
+          "prompt": "Le nûn de yaf'ulna est…",
+          "options": [
+            "le nûn de l'i'râb",
+            "le nûn du pluriel féminin, qui reste",
+            "le nûn d'insistance",
+            "un signe du mudâri'"
+          ],
+          "explanation": "Il vient dans le mudâri' comme dans le passé."
+        }
+      ],
+      "diagram": {
+        "caption": "Le mudâri' actif affirmatif (p. 9) : son signe et sa fin",
+        "labels": {
+          "The affirmative active muḍāriʿ (p. 9): its sign and its end": "Le mudâri' actif affirmatif (p. 9) : son signe et sa fin",
+          "Person": "Personne",
+          "Form": "Forme",
+          "Sign": "Signe",
+          "End": "Fin",
+          "he": "il",
+          "yāʾ": "yâ'",
+          "ḍamma": "damma",
+          "they two (m.)": "eux deux (m.)",
+          "nūn of iʿrāb (-āni)": "nûn de l'i'râb (-âni)",
+          "they (m.)": "ils",
+          "nūn of iʿrāb (-ūna)": "nûn de l'i'râb (-ûna)",
+          "she": "elle",
+          "tāʾ": "tâ'",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "nūn of the women": "nûn des femmes",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "nūn of iʿrāb (-īna)": "nûn de l'i'râb (-îna)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "alif": "alif",
+          "we": "nous",
+          "nūn": "nûn"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur le verbe au passé. Quand vous voulez construire le mudâri', faites entrer l'un des signes du mudâri' à son début et donnez une damma à sa fin. Les signes du mudâri' sont quatre lettres, l'alif, le tâ', le yâ' et le nûn, qui forment ensemble atayna.",
+        "L'alif est pour le singulier du récit que celui qui parle fait de lui-même. Le tâ' est pour huit mots : trois pour le masculin présent, trois pour le féminin présent, et deux pour le singulier et le duel du féminin absent. Le yâ' est pour quatre mots : trois pour le masculin absent et un pour le pluriel du féminin absent. Et le nûn est pour le duel et le pluriel du récit que celui qui parle fait de lui-même, masculin et féminin.",
+        "En sept endroits, faites entrer le nûn de l'i'râb : les quatre duels, dans lesquels le nûn de l'i'râb a une kasra ; et les deux pluriels du masculin absent et présent, et le singulier du féminin présent, dans lesquels le nûn de l'i'râb a une fatha. Le nûn du pluriel féminin vient aussi dans le mudâri', tout comme il vient dans le passé.",
+        "yaf'ulu « il fait », yaf'ulâni « eux deux (m.) font », yaf'ulûna « ils font », taf'ulu « elle fait », taf'ulâni « elles deux font », yaf'ulna « elles font », taf'ulu « tu (m.) fais »\ntaf'ulâni « vous deux (m.) faites », taf'ulûna « vous (m. pl.) faites », taf'ulîna « tu (f.) fais », taf'ulâni « vous deux (f.) faites », taf'ulna « vous (f. pl.) faites », af'ulu « je fais », naf'ulu « nous faisons »"
+      ]
+    },
+    "8": {
+      "title": "Le mudâri' passif",
+      "body": [
+        "« Quand vous voulez construire le mudâri' passif, donnez une damma au signe du mudâri' et une fatha au 'ayn du mot dans les quatorze, et laissez le lâm tel qu'il est. » Yaf'ulu devient yuf'alu, « cela est fait » ; taf'ulûna devient tuf'alûna ; af'ulu devient uf'alu.",
+        "Comparez le passé passif : là, le fâ' prenait une damma et le 'ayn une kasra (fu'ila) ; ici, le signe prend la damma et le 'ayn une fatha (yuf'alu). Le fâ' du mudâri' est déjà quiescent et le reste. De nouveau deux voyelles, mais d'autres : u … i au passé, u … a au mudâri'.",
+        "Le 'ayn du mudâri' passif est une fatha, quel qu'il ait été à l'actif : yansuru devient yunsaru, yadribu devient yudrabu, yasma'u devient yusma'u. Les terminaisons, le nûn de l'i'râb et le nûn des femmes restent tous comme dans le tableau actif.",
+        "Ainsi le débutant qui connaît yaf'ulu connaît yuf'alu : taf'ulîna → tuf'alîna, yaf'ulna → yuf'alna. Une erreur courante est de garder la fatha du signe (yaf'alu) : le mot est alors un verbe actif d'un autre schème, non un passif."
+      ],
+      "terms": [
+        "le mudâri' passif : yuf'alu",
+        "le signe du mudâri' avec damma"
+      ],
+      "examples": [
+        "yuf'alu, yuf'alâni, yuf'alûna : le signe avec damma, le 'ayn avec fatha",
+        "le passé passif et le mudâri' passif côte à côte",
+        "yunsaru, yudrabu (le moteur) : toujours une fatha sur le 'ayn"
+      ],
+      "tasks": [
+        {
+          "prompt": "Faites le passif de yansuru aux quatorze formes.",
+          "answer": "يُنْصَرُ، يُنْصَرَانِ، يُنْصَرُونَ، تُنْصَرُ، تُنْصَرَانِ، يُنْصَرْنَ، تُنْصَرُ، تُنْصَرَانِ، تُنْصَرُونَ، تُنْصَرِينَ، تُنْصَرَانِ، تُنْصَرْنَ، أُنْصَرُ، نُنْصَرُ"
+        },
+        {
+          "prompt": "En quoi le passé passif et le mudâri' passif diffèrent-ils par leurs voyelles ?",
+          "answer": "Au passé, le fâ' prend une damma et le 'ayn une kasra (fu'ila). Au mudâri', le signe prend une damma et le 'ayn une fatha (yuf'alu)."
+        },
+        {
+          "prompt": "Yaf'alu est-il un passif ? Pourquoi non ?",
+          "answer": "Non. Le mudâri' passif demande une damma sur le signe : yuf'alu. Yaf'alu, avec une fatha sur le signe, est un mudâri' actif du schème de yasma'u."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Au mudâri' passif, le signe prend…",
+          "options": [
+            "une damma",
+            "une fatha",
+            "une kasra",
+            "un sukûn"
+          ],
+          "explanation": "Yuf'alu : le yâ' avec damma."
+        },
+        {
+          "prompt": "Au mudâri' passif, le 'ayn prend…",
+          "options": [
+            "une kasra",
+            "une fatha",
+            "une damma",
+            "un sukûn"
+          ],
+          "explanation": "Quel qu'il ait été à l'actif."
+        },
+        {
+          "prompt": "Le passif de taf'ulûna est…",
+          "options": [
+            "tuf'ilûna",
+            "taf'alûna",
+            "tuf'alûna",
+            "fu'iltum"
+          ],
+          "explanation": "Damma sur le signe, fatha sur le 'ayn."
+        },
+        {
+          "prompt": "Le passif de yadribu est…",
+          "options": [
+            "yudribu",
+            "yadrabu",
+            "duriba",
+            "yudrabu"
+          ],
+          "explanation": "Le 'ayn devient une fatha."
+        },
+        {
+          "prompt": "Le nûn de l'i'râb au mudâri' passif…",
+          "options": [
+            "reste comme à l'actif",
+            "tombe",
+            "devient un sukûn",
+            "devient un nûn d'insistance"
+          ],
+          "explanation": "Yuf'alâni, yuf'alûna, tuf'alîna."
+        },
+        {
+          "prompt": "Uf'alu signifie…",
+          "options": [
+            "je fais",
+            "je suis fait",
+            "nous sommes faits",
+            "fais !"
+          ],
+          "explanation": "Celui qui parle seul, au passif."
+        },
+        {
+          "prompt": "Quelle paire est le passé et le mudâri' passifs ?",
+          "options": [
+            "fa'ala — yaf'ulu",
+            "fu'ila — yaf'ulu",
+            "fu'ila — yuf'alu",
+            "fa'ila — yuf'ilu"
+          ],
+          "explanation": "U … i au passé, u … a au mudâri'."
+        }
+      ],
+      "diagram": {
+        "caption": "Le mudâri', actif et passif (p. 9), avec le passif de nasara tiré du moteur",
+        "labels": {
+          "The muḍāriʿ, active and passive (p. 9), with the passive of naṣara from the engine": "Le mudâri', actif et passif (p. 9), avec le passif de nasara tiré du moteur",
+          "Person": "Personne",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "naṣara, passive": "nasara, passif",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur le verbe au mudâri' actif affirmatif. Quand vous voulez construire le mudâri' passif, donnez une damma au signe du mudâri' et une fatha au 'ayn du mot dans les quatorze, et laissez le lâm du mot tel qu'il est, afin qu'il devienne le mudâri' passif.",
+        "yuf'alu « il est fait », yuf'alâni « eux deux (m.) sont faits », yuf'alûna « ils sont faits », tuf'alu « elle est faite », tuf'alâni « elles deux sont faites », yuf'alna « elles sont faites », tuf'alu « tu (m.) es fait »\ntuf'alâni « vous deux (m.) êtes faits », tuf'alûna « vous (m. pl.) êtes faits », tuf'alîna « tu (f.) es faite », tuf'alâni « vous deux (f.) êtes faites », tuf'alna « vous (f. pl.) êtes faites », uf'alu « je suis fait », nuf'alu « nous sommes faits »"
+      ]
+    },
+    "9": {
+      "title": "Nier le mudâri' par lâ",
+      "body": [
+        "Pour nier le mudâri', « faites entrer le lâ de la négation à son début » : lâ yaf'ulu, « il ne fait pas », ou « il ne fera pas » ; lâ yuf'alu, « cela n'est pas fait ».",
+        "Lâ est au mudâri' ce que mâ était au passé : « il n'a aucun effet sur l'énonciation du mudâri' ». La fin garde sa damma, le nûn de l'i'râb reste : lâ yaf'ulâni, lâ yaf'ulûna, lâ taf'ulîna. « Mais il a un effet sur le sens » : l'affirmatif devient négatif.",
+        "Les deux tableaux sont les deux tableaux du mudâri' avec lâ devant chaque mot : à l'actif lâ yaf'ulu … lâ naf'ulu ; au passif lâ yuf'alu … lâ nuf'alu. Avec nasara : lâ yansuru, « il n'aide pas ».",
+        "Retenez bien ce lâ, car le livre apportera plus loin un autre lâ, le lâ de l'interdiction, qui change l'énonciation : lâ taf'ul, « ne fais pas ! ». Lâ taf'ulu, avec sa damma, ne fait que nier ; lâ taf'ul, avec un sukûn, interdit."
+      ],
+      "terms": [
+        "le lâ de la négation, qui laisse le mudâri' inchangé",
+        "la négation par lâ"
+      ],
+      "examples": [
+        "lâ yaf'ulu, « il ne fait pas » ; lâ yuf'alu, « cela n'est pas fait »",
+        "le nûn de l'i'râb reste après lâ",
+        "lâ yansuru (yansuru tiré du moteur), « il n'aide pas »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Niez yansurûna et tunsarîna par lâ.",
+          "answer": "Lâ yansurûna, « ils n'aident pas » ; lâ tunsarîna, « tu (f.) n'es pas aidée ». Les mots ne changent pas ; le nûn reste."
+        },
+        {
+          "prompt": "Qu'ont en commun mâ et lâ dans le livre ?",
+          "answer": "Chacun nie (mâ le passé, lâ le mudâri'), et aucun ne change l'énonciation du verbe, seulement son sens."
+        },
+        {
+          "prompt": "Comment distinguer lâ taf'ulu de lâ taf'ul ?",
+          "answer": "Par la fin. Lâ taf'ulu garde la damma : le lâ de la négation, « tu ne fais pas ». Lâ taf'ul a un sukûn : le lâ de l'interdiction, « ne fais pas ! », enseigné plus loin."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le mudâri' est nié ici par…",
+          "options": [
+            "mâ",
+            "lâ",
+            "lam",
+            "lan"
+          ],
+          "explanation": "Lâ yaf'ulu."
+        },
+        {
+          "prompt": "Que change lâ dans l'énonciation du mudâri' ?",
+          "options": [
+            "La fin, en sukûn",
+            "La fin, en fatha",
+            "Rien",
+            "Le nûn de l'i'râb"
+          ],
+          "explanation": "Il n'a d'effet que sur le sens."
+        },
+        {
+          "prompt": "Lâ yaf'ulûna garde…",
+          "options": [
+            "rien",
+            "un sukûn",
+            "une fatha",
+            "le nûn de l'i'râb"
+          ],
+          "explanation": "Lâ ne touche pas l'énonciation."
+        },
+        {
+          "prompt": "Lâ yuf'alu signifie…",
+          "options": [
+            "cela n'est pas fait",
+            "il ne fait pas",
+            "ne fais pas",
+            "cela n'a pas été fait"
+          ],
+          "explanation": "Le mudâri' passif nié."
+        },
+        {
+          "prompt": "Lâ taf'ulu, avec sa damma, est…",
+          "options": [
+            "une interdiction",
+            "une négation",
+            "un ordre",
+            "un passé"
+          ],
+          "explanation": "Le lâ de la négation laisse la damma."
+        },
+        {
+          "prompt": "Lâ nie le mudâri' comme … nie le passé.",
+          "options": [
+            "lam",
+            "lan",
+            "mâ",
+            "qad"
+          ],
+          "explanation": "Les deux laissent l'énonciation telle qu'elle était."
+        },
+        {
+          "prompt": "Lâ naf'ulu signifie…",
+          "options": [
+            "je ne fais pas",
+            "ils ne font pas",
+            "nous n'avons pas fait",
+            "nous ne faisons pas"
+          ],
+          "explanation": "Celui qui parle avec d'autres."
+        }
+      ],
+      "diagram": {
+        "caption": "Le mudâri' nié par lâ (p. 10)",
+        "labels": {
+          "The muḍāriʿ negated with lā (p. 10)": "Le mudâri' nié par lâ (p. 10)",
+          "Person": "Personne",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur le verbe au mudâri' passif affirmatif. Quand vous voulez construire le négatif, faites entrer le lâ de la négation à son début. Le lâ de la négation n'a aucun effet sur l'énonciation du mudâri' (il reste tel qu'il était), mais il a un effet sur le sens, c'est-à-dire qu'il tourne l'affirmatif vers le sens du négatif.",
+        "lâ yaf'ulu « il ne fait pas », lâ yaf'ulâni « eux deux (m.) ne font pas », lâ yaf'ulûna « ils ne font pas », lâ taf'ulu « elle ne fait pas », lâ taf'ulâni « elles deux ne font pas », lâ yaf'ulna « elles ne font pas », lâ taf'ulu « tu (m.) ne fais pas »\nlâ taf'ulâni « vous deux (m.) ne faites pas », lâ taf'ulûna « vous (m. pl.) ne faites pas », lâ taf'ulîna « tu (f.) ne fais pas », lâ taf'ulâni « vous deux (f.) ne faites pas », lâ taf'ulna « vous (f. pl.) ne faites pas », lâ af'ulu « je ne fais pas », lâ naf'ulu « nous ne faisons pas »",
+        "lâ yuf'alu « il n'est pas fait », lâ yuf'alâni « eux deux (m.) ne sont pas faits », lâ yuf'alûna « ils ne sont pas faits », lâ tuf'alu « elle n'est pas faite », lâ tuf'alâni « elles deux ne sont pas faites », lâ yuf'alna « elles ne sont pas faites », lâ tuf'alu « tu (m.) n'es pas fait »\nlâ tuf'alâni « vous deux (m.) n'êtes pas faits », lâ tuf'alûna « vous (m. pl.) n'êtes pas faits », lâ tuf'alîna « tu (f.) n'es pas faite », lâ tuf'alâni « vous deux (f.) n'êtes pas faites », lâ tuf'alna « vous (f. pl.) n'êtes pas faites », lâ uf'alu « je ne suis pas fait », lâ nuf'alu « nous ne sommes pas faits »"
+      ]
+    },
+    "10": {
+      "title": "La négation renforcée par lan",
+      "body": [
+        "« Faites entrer lan au début du mudâri' ; cette négation s'appelle la négation renforcée par lan (nafy-i ta'kîd ba-lan). » Lan yaf'ula, « il ne fera pas », « il ne fera jamais ». À la différence de mâ et de lâ, lan change l'énonciation, et le livre dit exactement où.",
+        "« Lan met le futur au nasb en cinq endroits » : le singulier masculin absent, le singulier féminin absent, le singulier masculin présent, et les deux formes de celui qui parle. Ce sont les cinq formes qui finissent par une damma : yaf'ulu → lan yaf'ula, taf'ulu → lan taf'ula, af'ulu → lan af'ula, naf'ulu → lan naf'ula.",
+        "« Et en sept endroits, il fait tomber le nûn de l'i'râb » : les quatre duels, les deux pluriels masculins et le singulier féminin présent : lan yaf'ulâ, lan yaf'ulû, lan taf'ulî. « Et dans deux mots, les pluriels du féminin absent et présent, il n'a pas d'effet sur l'énonciation » : lan yaf'ulna, lan taf'ulna, puisque leur nûn est le pronom des femmes, non un signe du raf'. 5 + 7 + 2 = 14.",
+        "Pour le sens, « lan tourne le mudâri' vers le sens d'un futur nié » : le sens présent de yaf'ulu disparaît, et il ne reste que « ne… pas » au futur. Le tableau passif suit les trois mêmes règles : lan yuf'ala, lan yuf'alâ, lan yuf'alna."
+      ],
+      "terms": [
+        "la négation renforcée par lan : « ne… pas » au futur",
+        "le nasb : la fatha aux cinq endroits",
+        "la chute du nûn de l'i'râb, aux sept endroits"
+      ],
+      "examples": [
+        "les cinq endroits : une fatha pour la damma",
+        "les sept endroits : le nûn de l'i'râb tombe",
+        "lan yaf'ulna : pas d'effet sur l'énonciation"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quels sont les cinq endroits où lan donne une fatha ? Montrez-les avec yansuru.",
+          "answer": "Il, elle, tu (m.), je et nous : lan yansura, lan tansura, lan tansura, lan ansura, lan nansura."
+        },
+        {
+          "prompt": "Pourquoi lan laisse-t-il yaf'ulna inchangé, alors qu'il ôte le nûn de yaf'ulûna ?",
+          "answer": "Le nûn de yaf'ulûna est le nûn de l'i'râb, le signe du raf', que lan supprime. Le nûn de yaf'ulna est le pronom des femmes, l'agent lui-même, qui reste."
+        },
+        {
+          "prompt": "Donnez lan avec les quatorze formes de yansuru.",
+          "answer": "لَنْ يَنْصُرَ، لَنْ يَنْصُرَا، لَنْ يَنْصُرُوا، لَنْ تَنْصُرَ، لَنْ تَنْصُرَا، لَنْ يَنْصُرْنَ، لَنْ تَنْصُرَ، لَنْ تَنْصُرَا، لَنْ تَنْصُرُوا، لَنْ تَنْصُرِي، لَنْ تَنْصُرَا، لَنْ تَنْصُرْنَ، لَنْ أَنْصُرَ، لَنْ نَنْصُرَ"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "La négation par lan s'appelle…",
+          "options": [
+            "la négation du passé (jahd)",
+            "l'interdiction",
+            "la négation renforcée (nafy ta'kîd)",
+            "la négation absolue"
+          ],
+          "explanation": "Nafy-i ta'kîd ba-lan."
+        },
+        {
+          "prompt": "En combien d'endroits lan donne-t-il la fatha ?",
+          "options": [
+            "Sept",
+            "Deux",
+            "Quatorze",
+            "Cinq"
+          ],
+          "explanation": "Les formes qui finissent par une damma."
+        },
+        {
+          "prompt": "Lan taf'ulî est la forme de…",
+          "options": [
+            "tu (f.)",
+            "elle",
+            "vous deux",
+            "elles"
+          ],
+          "explanation": "Taf'ulîna perd son nûn."
+        },
+        {
+          "prompt": "Dans quelles formes lan n'a-t-il pas d'effet sur l'énonciation ?",
+          "options": [
+            "Les duels",
+            "Les deux pluriels féminins",
+            "Les formes de celui qui parle",
+            "Les singuliers"
+          ],
+          "explanation": "Lan yaf'ulna, lan taf'ulna."
+        },
+        {
+          "prompt": "Lan yaf'ula signifie…",
+          "options": [
+            "il n'a pas fait",
+            "il ne fait pas",
+            "il ne fera pas",
+            "qu'il ne fasse pas"
+          ],
+          "explanation": "Un futur nié."
+        },
+        {
+          "prompt": "Combien d'endroits perdent le nûn de l'i'râb ?",
+          "options": [
+            "Cinq",
+            "Deux",
+            "Quatre",
+            "Sept"
+          ],
+          "explanation": "Quatre duels, deux pluriels masculins, le singulier féminin présent."
+        },
+        {
+          "prompt": "Lan avec le passif donne…",
+          "options": [
+            "lan yuf'ala",
+            "lan yaf'ala",
+            "lan fu'ila",
+            "lan yuf'il"
+          ],
+          "explanation": "Les mêmes règles sur le tableau passif."
+        }
+      ],
+      "diagram": {
+        "caption": "Lan avec le mudâri' (p. 11), et le nasb de nasara tiré du moteur",
+        "labels": {
+          "Lan with the muḍāriʿ (p. 11), and the naṣb of naṣara from the engine": "Lan avec le mudâri' (p. 11), et le nasb de nasara tiré du moteur",
+          "Person": "Personne",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "naṣara": "nasara",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur la négation du mudâri' par lâ. Quand vous voulez construire la négation renforcée par lan, faites entrer lan au début du verbe au mudâri' ; cette négation s'appelle la négation renforcée par lan (nafy-i ta'kîd ba-lan). Lan met le verbe au futur au nasb en cinq endroits, et ces cinq endroits sont : le singulier masculin absent, le singulier féminin absent, le singulier masculin présent, et les deux formes du récit que celui qui parle fait de lui-même ;",
+        "et en sept endroits, il fait tomber le nûn de l'i'râb : les quatre duels, les deux pluriels du masculin absent et présent, et le singulier du féminin présent ; et dans deux mots, c'est-à-dire le pluriel du féminin absent et présent, il n'a aucun effet sur l'énonciation. Lan tourne le mudâri' vers le sens du futur nié.",
+        "lan yaf'ula « il ne fera jamais », lan yaf'ulâ « eux deux (m.) ne feront jamais », lan yaf'ulû « ils ne feront jamais », lan taf'ula « elle ne fera jamais », lan taf'ulâ « elles deux ne feront jamais », lan yaf'ulna « elles ne feront jamais », lan taf'ula « tu (m.) ne feras jamais »\nlan taf'ulâ « vous deux (m.) ne ferez jamais », lan taf'ulû « vous (m. pl.) ne ferez jamais », lan taf'ulî « tu (f.) ne feras jamais », lan taf'ulâ « vous deux (f.) ne ferez jamais », lan taf'ulna « vous (f. pl.) ne ferez jamais », lan af'ula « je ne ferai jamais », lan naf'ula « nous ne ferons jamais »",
+        "lan yuf'ala « il ne sera jamais fait », lan yuf'alâ « eux deux (m.) ne seront jamais faits », lan yuf'alû « ils ne seront jamais faits », lan tuf'ala « elle ne sera jamais faite », lan tuf'alâ « elles deux ne seront jamais faites », lan yuf'alna « elles ne seront jamais faites », lan tuf'ala « tu (m.) ne seras jamais fait »\nlan tuf'alâ « vous deux (m.) ne serez jamais faits », lan tuf'alû « vous (m. pl.) ne serez jamais faits », lan tuf'alî « tu (f.) ne seras jamais faite », lan tuf'alâ « vous deux (f.) ne serez jamais faites », lan tuf'alna « vous (f. pl.) ne serez jamais faites », lan uf'ala « je ne serai jamais fait », lan nuf'ala « nous ne serons jamais faits »"
+      ]
+    },
+    "11": {
+      "title": "La négation du passé (jahd) par lam",
+      "body": [
+        "« Faites entrer lam au début du mudâri' ; cette négation s'appelle la négation du passé par lam (nafy-i jahd ba-lam). » Lam yaf'ul, « il n'a pas fait ». Comme lan, lam change l'énonciation, aux mêmes endroits, mais d'une autre manière.",
+        "« Lam met le mudâri' au jazm en cinq endroits, s'il n'y a pas de lettre faible à sa fin » : les cinq mêmes qu'avec lan, il, elle, tu (m.), je et nous, mais avec un sukûn là où lan donnait une fatha : lam yaf'ul, lam taf'ul, lam af'ul, lam naf'ul. « Et s'il y en a une, il la fait tomber » : lam yad'u, « il n'a pas appelé », lam yarmi, « il n'a pas lancé », lam yakhsha, « il n'a pas craint ». Les lettres faibles sont trois, le wâw, l'alif et le yâ', « qui forment ensemble ây ».",
+        "Aux autres endroits, lam fait ce que faisait lan : « en sept endroits, il fait tomber le nûn de l'i'râb », lam yaf'ulâ, lam yaf'ulû, lam taf'ulî ; et « en deux endroits, il n'a pas d'effet sur l'énonciation », les deux pluriels féminins, lam yaf'ulna, lam taf'ulna.",
+        "Pour le sens, « il tourne la forme du mudâri' vers le sens d'un passé nié » : lam yaf'ul, c'est « il n'a pas fait », de même sens que mâ fa'ala. Le débutant doit tenir lan et lam côte à côte : les mêmes sept et les mêmes deux ; seuls les cinq diffèrent, la fatha contre le sukûn, et « ne fera pas » contre « n'a pas fait »."
+      ],
+      "terms": [
+        "la négation du passé par lam : « n'a pas »",
+        "le jazm : le sukûn aux cinq endroits",
+        "les lettres faibles wâw, alif, yâ' (ây)"
+      ],
+      "examples": [
+        "les cinq endroits : le sukûn",
+        "une dernière lettre faible tombe",
+        "le nûn de l'i'râb tombe ; le nûn des femmes reste"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mettez yansuru, yansurâni, yansurûna et yansurna après lam.",
+          "answer": "Lam yansur (le sukûn), lam yansurâ et lam yansurû (le nûn de l'i'râb tombé), lam yansurna (aucun changement)."
+        },
+        {
+          "prompt": "Qu'arrive-t-il à une dernière lettre faible après lam ? Donnez les exemples du livre.",
+          "answer": "Elle tombe : yad'û → lam yad'u, yarmî → lam yarmi, yakhshâ → lam yakhsha. Les lettres faibles sont le wâw, l'alif et le yâ', retenus comme ây."
+        },
+        {
+          "prompt": "Comparez lan yaf'ula et lam yaf'ul par la forme et par le sens.",
+          "answer": "Lan donne une fatha et signifie un futur nié, « il ne fera pas ». Lam donne un sukûn et signifie un passé nié, « il n'a pas fait ». Dans les neuf autres formes, les deux font de même."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "La négation par lam s'appelle…",
+          "options": [
+            "la négation renforcée",
+            "l'interdiction",
+            "le passé proche",
+            "la négation du passé (nafy jahd)"
+          ],
+          "explanation": "Nafy-i jahd ba-lam."
+        },
+        {
+          "prompt": "Aux cinq endroits, lam donne…",
+          "options": [
+            "un sukûn",
+            "une fatha",
+            "une damma",
+            "une kasra"
+          ],
+          "explanation": "Lam yaf'ul."
+        },
+        {
+          "prompt": "Lam yarmi a perdu…",
+          "options": [
+            "son nûn",
+            "sa dernière lettre faible",
+            "son signe",
+            "rien"
+          ],
+          "explanation": "Yarmî → lam yarmi."
+        },
+        {
+          "prompt": "Les lettres faibles forment ensemble…",
+          "options": [
+            "atayna",
+            "na'aytu",
+            "ây",
+            "lam"
+          ],
+          "explanation": "Wâw, alif, yâ'."
+        },
+        {
+          "prompt": "Lam yaf'ul signifie…",
+          "options": [
+            "il ne fera pas",
+            "il ne fait pas",
+            "ne fais pas",
+            "il n'a pas fait"
+          ],
+          "explanation": "Lam tourne le mudâri' vers un passé nié."
+        },
+        {
+          "prompt": "Dans quelles formes lan et lam diffèrent-ils ?",
+          "options": [
+            "Dans les cinq formes qui finissent par une damma",
+            "Dans les duels",
+            "Dans les pluriels féminins",
+            "Nulle part"
+          ],
+          "explanation": "La fatha contre le sukûn."
+        },
+        {
+          "prompt": "Lam taf'ulna est…",
+          "options": [
+            "avec un sukûn ajouté",
+            "inchangé dans son énonciation",
+            "sans son nûn",
+            "une faute"
+          ],
+          "explanation": "Le nûn des femmes reste."
+        }
+      ],
+      "diagram": {
+        "caption": "Lan et lam côte à côte (p. 11-12)",
+        "labels": {
+          "Lan and lam side by side (pp. 11–12)": "Lan et lam côte à côte (p. 11-12)",
+          "Person": "Personne",
+          "With lan": "Avec lan",
+          "With lam": "Avec lam",
+          "Lam, passive": "Lam, passif",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur la négation renforcée par lan dans le verbe au futur. Quand vous voulez construire la négation du passé par lam (nafy-i jahd ba-lam), faites entrer lam au début du verbe au mudâri' ; cette négation s'appelle la négation du passé par lam. Dans le verbe au mudâri', lam met [la fin] au jazm en cinq endroits s'il n'y a pas de lettre faible à sa fin, et s'il y en a une, il la fait tomber, comme lam yad'u « il n'a pas appelé », lam yarmi « il n'a pas lancé » et lam yakhsha « il n'a pas craint ». Les lettres faibles sont trois, le wâw, l'alif et le yâ', qui forment ensemble ây.",
+        "Ces cinq endroits sont : le singulier masculin absent, le singulier féminin absent, le singulier masculin présent, et les deux mots du récit que celui qui parle fait de lui-même. En sept endroits, il fait tomber le nûn de l'i'râb : les quatre duels, les deux pluriels du masculin absent et présent, et le singulier du féminin présent. En deux endroits, il n'a aucun effet sur l'énonciation, et ces deux endroits sont le pluriel du féminin absent et présent. Dans tous les mots, il a un effet sur le sens, c'est-à-dire qu'il tourne la forme du verbe au mudâri' vers le sens du passé nié.",
+        "lam yaf'ul « il n'a pas fait », lam yaf'ulâ « eux deux (m.) n'ont pas fait », lam yaf'ulû « ils n'ont pas fait », lam taf'ul « elle n'a pas fait », lam taf'ulâ « elles deux n'ont pas fait », lam yaf'ulna « elles n'ont pas fait », lam taf'ul « tu (m.) n'as pas fait »\nlam taf'ulâ « vous deux (m.) n'avez pas fait », lam taf'ulû « vous (m. pl.) n'avez pas fait », lam taf'ulî « tu (f.) n'as pas fait », lam taf'ulâ « vous deux (f.) n'avez pas fait », lam taf'ulna « vous (f. pl.) n'avez pas fait », lam af'ul « je n'ai pas fait », lam naf'ul « nous n'avons pas fait »",
+        "lam yuf'al « il n'a pas été fait », lam yuf'alâ « eux deux (m.) n'ont pas été faits », lam yuf'alû « ils n'ont pas été faits », lam tuf'al « elle n'a pas été faite », lam tuf'alâ « elles deux n'ont pas été faites », lam yuf'alna « elles n'ont pas été faites », lam tuf'al « tu (m.) n'as pas été fait »\nlam tuf'alâ « vous deux (m.) n'avez pas été faits », lam tuf'alû « vous (m. pl.) n'avez pas été faits », lam tuf'alî « tu (f.) n'as pas été faite », lam tuf'alâ « vous deux (f.) n'avez pas été faites », lam tuf'alna « vous (f. pl.) n'avez pas été faites », lam uf'al « je n'ai pas été fait », lam nuf'al « nous n'avons pas été faits »"
+      ]
+    },
+    "12": {
+      "title": "Le lâm et les deux nûns d'insistance : les règles",
+      "body": [
+        "Pour rendre le futur insistant, « faites entrer le lâm d'insistance au début du verbe au futur et ajoutez le nûn d'insistance à sa fin » : la-yaf'ulanna, « il fera assurément ». Le lâm « a toujours une fatha ». Le nûn est de deux sortes : le nûn lourd (thaqîla), redoublé, -nna ; et le nûn léger (khafîfa), quiescent, -n.",
+        "« Le nûn lourd vient dans quatorze mots, le nûn léger dans huit. » Ce qui vient avant le nûn lourd dépend de la forme. En cinq endroits, une fatha : il, elle, tu (m.), je et nous, la-yaf'ulanna, la-taf'ulanna, la-af'ulanna, la-naf'ulanna. En six endroits, un alif : les quatre duels, la-yaf'ulânni, et les deux pluriels féminins, la-yaf'ulnânni, où l'alif « vient comme séparateur » (fâsil) entre le nûn des femmes et le nûn d'insistance.",
+        "Dans les deux pluriels masculins, le wâw est supprimé et la damma qui le précède est gardée, « pour indiquer la suppression du wâw » : la-yaf'ulunna, de la-yaf'ulûnanna. Au singulier féminin présent, le yâ' est supprimé et la kasra gardée, pour l'indiquer : la-taf'ulinna. Le nûn lourd a une kasra aux six endroits avec l'alif (-ânni) et une fatha aux huit autres (-anna, -unna, -inna).",
+        "« Le nûn léger ne vient pas là où il y a un alif » : donc ni dans les quatre duels ni dans les deux pluriels féminins, ce qui laisse huit formes. Et « le nûn de l'i'râb ne se réunit pas avec le nûn d'insistance » : yaf'ulûna perd son nûn du raf' devant le nûn d'insistance, comme devant lan et lam."
+      ],
+      "terms": [
+        "le lâm d'insistance, toujours avec fatha",
+        "le nûn lourd : redoublé, dans quatorze formes",
+        "le nûn léger : quiescent, dans huit formes",
+        "l'alif séparateur, dans la-yaf'ulnânni"
+      ],
+      "examples": [
+        "la-yaf'ulanna, « il fera assurément » : une fatha devant le nûn lourd",
+        "l'alif devant le nûn, qui prend une kasra",
+        "le wâw et le yâ' supprimés, la damma et la kasra gardées"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi est-ce la-yaf'ulunna, et non la-yaf'ulûnanna ?",
+          "answer": "Le nûn de l'i'râb ne vient pas avec le nûn d'insistance, il tombe donc ; puis le wâw du groupe tombe aussi, et la damma qui le précède est gardée pour montrer qu'il était là."
+        },
+        {
+          "prompt": "À quoi sert l'alif dans la-yaf'ulnânni ?",
+          "answer": "Il sépare le nûn des femmes du nûn d'insistance, afin que trois nûns ne se rencontrent pas."
+        },
+        {
+          "prompt": "Pourquoi le nûn léger ne vient-il que dans huit formes ?",
+          "answer": "Il ne vient pas là où il y a un alif : ni dans les quatre duels ni dans les deux pluriels féminins. Quatorze moins six laisse huit."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le lâm d'insistance prend toujours…",
+          "options": [
+            "une fatha",
+            "une kasra",
+            "une damma",
+            "un sukûn"
+          ],
+          "explanation": "La-yaf'ulanna."
+        },
+        {
+          "prompt": "Le nûn lourd est…",
+          "options": [
+            "le nûn quiescent, -n",
+            "le nûn redoublé, -nna",
+            "le nûn de l'i'râb",
+            "le nûn des femmes"
+          ],
+          "explanation": "Nûn thaqîla."
+        },
+        {
+          "prompt": "Dans combien de formes vient le nûn léger ?",
+          "options": [
+            "Quatorze",
+            "Six",
+            "Huit",
+            "Cinq"
+          ],
+          "explanation": "Pas là où il y a un alif."
+        },
+        {
+          "prompt": "Devant le nûn lourd, les duels ont…",
+          "options": [
+            "une fatha",
+            "une damma",
+            "rien",
+            "un alif"
+          ],
+          "explanation": "La-yaf'ulânni."
+        },
+        {
+          "prompt": "La-taf'ulinna est la forme de…",
+          "options": [
+            "tu (f.)",
+            "elle",
+            "elles",
+            "vous deux"
+          ],
+          "explanation": "Le yâ' est supprimé, sa kasra gardée."
+        },
+        {
+          "prompt": "Le nûn lourd prend une kasra…",
+          "options": [
+            "dans les cinq singuliers",
+            "aux six endroits avec un alif",
+            "partout",
+            "nulle part"
+          ],
+          "explanation": "-ânni ; ailleurs une fatha."
+        },
+        {
+          "prompt": "Le nûn de l'i'râb vient-il avec le nûn d'insistance ?",
+          "options": [
+            "Oui",
+            "Seulement dans les duels",
+            "Non",
+            "Seulement au passif"
+          ],
+          "explanation": "Il tombe devant lui."
+        }
+      ],
+      "diagram": {
+        "caption": "Ce qui vient avant le nûn lourd (p. 13 ; formes de la p. 14)",
+        "labels": {
+          "What comes before the heavy nūn (p. 13; forms from p. 14)": "Ce qui vient avant le nûn lourd (p. 13 ; formes de la p. 14)",
+          "Before the nūn": "Avant le nûn",
+          "Places": "Endroits",
+          "Example": "Exemple",
+          "a fatḥa": "une fatha",
+          "he, she, you (m.), I, we": "il, elle, tu (m.), je, nous",
+          "an alif; the nūn with kasra": "un alif ; le nûn avec kasra",
+          "the four duals": "les quatre duels",
+          "the separating alif": "l'alif séparateur",
+          "the two feminine plurals": "les deux pluriels féminins",
+          "a ḍamma (the wāw dropped)": "une damma (le wâw supprimé)",
+          "the two masculine plurals": "les deux pluriels masculins",
+          "a kasra (the yāʾ dropped)": "une kasra (le yâ' supprimé)",
+          "you (f.)": "tu (f.)"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur la négation du passé par lam dans le verbe au futur. Quand vous voulez construire le lâm d'insistance avec le nûn d'insistance, faites entrer le lâm d'insistance au début du verbe au futur et ajoutez le nûn d'insistance à sa fin. Le lâm d'insistance a toujours une fatha. Le nûn d'insistance est deux nûns : l'un le nûn lourd, le second le nûn léger. Le nûn lourd est le nom du nûn redoublé, et le nûn léger le nom du nûn sans voyelle.",
+        "Le nûn lourd vient dans quatorze mots, et le nûn léger dans huit mots. La lettre avant le nûn lourd a une fatha en cinq endroits, et ces cinq endroits sont : le singulier masculin absent, le singulier féminin absent, le singulier masculin présent, et les deux formes du récit que celui qui parle fait de lui-même ;",
+        "en six endroits, il y a un alif avant le nûn lourd : les quatre duels, et les deux pluriels du féminin absent et présent, et dans ces deux endroits l'alif vient comme séparateur (fâsil). Au pluriel du masculin absent et présent, le wâw est ôté, et la lettre qui le précède est laissée avec une damma, pour indiquer la suppression du wâw ; et de la forme du singulier féminin présent, le yâ' est ôté, et la lettre qui le précède est laissée avec une kasra, pour indiquer la suppression du yâ'.",
+        "Le nûn lourd a une kasra en six endroits, et ces six endroits sont ceux où vient l'alif ; aux huit autres endroits, il a une fatha. Le nûn léger ne vient pas là où il y a un alif, et il vient aux autres endroits. Le nûn de l'i'râb ne se réunit pas avec le nûn d'insistance."
+      ]
+    },
+    "13": {
+      "title": "Le futur avec le nûn lourd et le nûn léger",
+      "body": [
+        "Maintenant les tableaux. Le nûn lourd, à l'actif : la-yaf'ulanna, la-yaf'ulânni, la-yaf'ulunna, la-taf'ulanna, la-taf'ulânni, la-yaf'ulnânni, et ainsi de suite jusqu'à la-af'ulanna, la-naf'ulanna. Chaque règle de la leçon précédente s'y voit : la fatha dans les cinq, l'alif et la kasra du nûn dans les six, la damma et la kasra qui marquent le wâw et le yâ' supprimés.",
+        "Le passif va de la même manière sur yuf'alu : la-yuf'alanna, « cela sera assurément fait », la-yuf'alânni, la-yuf'alunna, la-tuf'alinna. Seules les voyelles de la base changent, u … a, comme dans tout mudâri' passif.",
+        "Le nûn léger a huit formes : la-yaf'ulan, la-yaf'ulun, la-taf'ulan, la-taf'ulan, la-taf'ulun, la-taf'ulin, la-af'ulan, la-naf'ulan. La-taf'ulan vient deux fois, comme l'écrit l'impression : une fois pour « elle », une fois pour « tu (m.) ». Son sens est le même que celui du nûn lourd, un peu moins fort.",
+        "Apprenez les deux tableaux ensemble, forme par forme, avec la grille : là où le nûn lourd a un alif devant lui, le nûn léger n'a aucune forme."
+      ],
+      "terms": [
+        "l'insistance : « assurément »",
+        "le futur insistant, avec le lâm et un nûn"
+      ],
+      "examples": [
+        "le nûn lourd, à l'actif",
+        "la-yuf'alanna, « cela sera assurément fait » : le passif",
+        "le nûn léger, à l'actif"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez chaque forme : la-yaf'ulnânni ; la-taf'ulunna ; la-naf'ulan.",
+          "answer": "La-yaf'ulnânni : pluriel féminin absent, nûn lourd. La-taf'ulunna : pluriel masculin présent, nûn lourd. La-naf'ulan : celui qui parle avec d'autres, nûn léger."
+        },
+        {
+          "prompt": "Pourquoi n'y a-t-il pas de forme à nûn léger pour « eux deux (m.) » ?",
+          "answer": "Le duel a un alif devant le nûn, et le nûn léger ne vient pas après un alif."
+        },
+        {
+          "prompt": "Faites le passif de la-taf'ulinna et de la-yaf'ulânni.",
+          "answer": "La-tuf'alinna et la-yuf'alânni : le signe prend une damma et le 'ayn une fatha ; le reste demeure."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "La-yaf'ulanna signifie…",
+          "options": [
+            "il a fait",
+            "il fera assurément",
+            "qu'il fasse",
+            "il ne fera pas"
+          ],
+          "explanation": "Le futur insistant."
+        },
+        {
+          "prompt": "Combien de formes a le tableau du nûn lourd ?",
+          "options": [
+            "Huit",
+            "Six",
+            "Quatorze",
+            "Cinq"
+          ],
+          "explanation": "Le nûn lourd vient dans les quatorze."
+        },
+        {
+          "prompt": "La-yuf'alanna est…",
+          "options": [
+            "actif",
+            "une interdiction",
+            "un passé",
+            "passif"
+          ],
+          "explanation": "U … a dans la base."
+        },
+        {
+          "prompt": "Quelle forme apparaît deux fois dans le tableau du nûn léger ?",
+          "options": [
+            "La-taf'ulan",
+            "La-yaf'ulan",
+            "La-af'ulan",
+            "La-naf'ulan"
+          ],
+          "explanation": "Pour « elle » et pour « tu (m.) »."
+        },
+        {
+          "prompt": "La-taf'ulin est la forme de…",
+          "options": [
+            "elle",
+            "tu (f.)",
+            "tu (m.)",
+            "elles"
+          ],
+          "explanation": "La kasra marque le yâ' supprimé."
+        },
+        {
+          "prompt": "Là où le nûn lourd a un alif devant lui, le nûn léger…",
+          "options": [
+            "a aussi un alif",
+            "prend une kasra",
+            "n'a pas de forme",
+            "devient lourd"
+          ],
+          "explanation": "Ainsi le nûn léger a huit formes."
+        },
+        {
+          "prompt": "La-yaf'ulun est la forme de…",
+          "options": [
+            "il",
+            "tu (m.)",
+            "nous",
+            "ils (m.)"
+          ],
+          "explanation": "La damma marque le wâw supprimé."
+        }
+      ],
+      "diagram": {
+        "caption": "Le futur avec les deux nûns (p. 14-15)",
+        "labels": {
+          "The future with the two nūns (pp. 14–15)": "Le futur avec les deux nûns (p. 14-15)",
+          "Person": "Personne",
+          "Heavy, active": "Lourd, actif",
+          "Heavy, passive": "Lourd, passif",
+          "Light, active": "Léger, actif",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "la-yaf'ulanna « il fera assurément », la-yaf'ulânni « eux deux (m.) feront assurément », la-yaf'ulunna « ils feront assurément », la-taf'ulanna « elle fera assurément », la-taf'ulânni « elles deux feront assurément », la-yaf'ulnânni « elles feront assurément », la-taf'ulanna « tu (m.) feras assurément »\nla-taf'ulânni « vous deux (m.) ferez assurément », la-taf'ulunna « vous (m. pl.) ferez assurément », la-taf'ulinna « tu (f.) feras assurément », la-taf'ulânni « vous deux (f.) ferez assurément », la-taf'ulnânni « vous (f. pl.) ferez assurément », la-af'ulanna « je ferai assurément », la-naf'ulanna « nous ferons assurément »",
+        "la-yuf'alanna « il sera assurément fait », la-yuf'alânni « eux deux (m.) seront assurément faits », la-yuf'alunna « ils seront assurément faits », la-tuf'alanna « elle sera assurément faite », la-tuf'alânni « elles deux seront assurément faites », la-yuf'alnânni « elles seront assurément faites », la-tuf'alanna « tu (m.) seras assurément fait »\nla-tuf'alânni « vous deux (m.) serez assurément faits », la-tuf'alunna « vous (m. pl.) serez assurément faits », la-tuf'alinna « tu (f.) seras assurément faite », la-tuf'alânni « vous deux (f.) serez assurément faites », la-tuf'alnânni « vous (f. pl.) serez assurément faites », la-uf'alanna « je serai assurément fait », la-nuf'alanna « nous serons assurément faits »",
+        "la-yaf'ulan « il fera assurément », la-yaf'ulun « ils feront assurément », la-taf'ulan « elle fera assurément », la-taf'ulan « tu (m.) feras assurément », la-taf'ulun « vous (m. pl.) ferez assurément », la-taf'ulin « tu (f.) feras assurément », la-af'ulan « je ferai assurément », la-naf'ulan « nous ferons assurément »",
+        "la-yuf'alan « il sera assurément fait », la-yuf'alun « ils seront assurément faits », la-tuf'alan « elle sera assurément faite », la-tuf'alan « tu (m.) seras assurément fait », la-tuf'alun « vous (m. pl.) serez assurément faits », la-tuf'alin « tu (f.) seras assurément faite », la-uf'alan « je serai assurément fait », la-nuf'alan « nous serons assurément faits »"
+      ]
+    },
+    "14": {
+      "title": "Construire l'impératif",
+      "body": [
+        "« L'impératif est tiré du mudâri' : l'absent de l'absent, le présent du présent, celui qui parle de celui qui parle, l'actif de l'actif, le passif du passif. » Il n'y a pas de racine à part pour l'ordre ; on part de taf'ulu et on le change.",
+        "Pour l'impératif actif à celui qui est présent, « supprimez le signe du mudâri', puis voyez si ce qui suit reste voyellé ou quiescent ». S'il est voyellé, rendez simplement la fin quiescente : ta'idu, « tu promets », donne 'id, « promets ! » ; tada'u donne da', « pose ! » ; et si la fin est une lettre faible, elle tombe : taqî donne qi, « préserve ! ». Ce sont des verbes dont la première radicale, un wâw, est déjà partie au mudâri'.",
+        "Si ce qui suit le signe est quiescent, un mot ne peut commencer par lui ; on ajoute donc une hamza de liaison, et sa voyelle dépend du 'ayn. Si le 'ayn a une kasra ou une fatha, la hamza prend une kasra : tasma'u → isma', « écoute ! » ; tadribu → idrib, « frappe ! » ; avec une fin faible, tarmî → irmi, takhshâ → ikhsha. Si le 'ayn a une damma, la hamza prend une damma : tansuru → unsur, « aide ! » ; tad'û → ud'u, « appelle ! ».",
+        "Pour l'impératif passif à celui qui est présent, et pour les deux impératifs à l'absent, on emploie le lâm de l'ordre, avec une kasra, et la fin est mise au jazm, ou une lettre faible tombe : li-yad'u, « qu'il appelle », li-yarmi, li-yakhsha. « Le nûn d'insistance vient aussi dans l'impératif, comme dans le mudâri' ; et dans l'impératif, le nûn de l'i'râb tombe aussi. »"
+      ],
+      "terms": [
+        "l'impératif à celui qui est présent",
+        "l'impératif à l'absent, avec le lâm",
+        "la hamza de liaison, devant une lettre quiescente",
+        "le lâm de l'ordre, avec kasra"
+      ],
+      "examples": [
+        "ce qui suit le signe est voyellé : pas de hamza",
+        "le 'ayn avec kasra ou fatha : la hamza avec kasra",
+        "le 'ayn avec damma : la hamza avec damma",
+        "le lâm de l'ordre, la lettre faible tombée"
+      ],
+      "tasks": [
+        {
+          "prompt": "Faites l'impératif de tada'u et de tansuru, et dites pourquoi l'un a une hamza et l'autre non.",
+          "answer": "Tada'u → da' : après le signe vient une lettre voyellée, on rend donc seulement la fin quiescente. Tansuru → unsur : après le signe vient un nûn quiescent, il faut donc une hamza de liaison, avec une damma parce que le 'ayn a une damma."
+        },
+        {
+          "prompt": "Pourquoi est-ce isma' avec une kasra, mais unsur avec une damma ?",
+          "answer": "La hamza suit le 'ayn : dans tasma'u, le 'ayn a une fatha, la hamza prend donc une kasra ; dans tansuru, il a une damma, la hamza prend donc une damma."
+        },
+        {
+          "prompt": "Comment se fait l'impératif à l'absent ? Donnez les exemples du livre.",
+          "answer": "Avec le lâm de l'ordre, avec kasra, devant le mudâri', sa fin au jazm ou sa lettre faible tombée : li-yad'u, li-yarmi, li-yakhsha."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "L'impératif est tiré…",
+          "options": [
+            "du passé",
+            "du masdar",
+            "du mudâri'",
+            "du participe"
+          ],
+          "explanation": "L'absent de l'absent, le présent du présent."
+        },
+        {
+          "prompt": "Ta'idu donne l'impératif…",
+          "options": [
+            "i'id",
+            "u'ud",
+            "li-ta'id",
+            "'id"
+          ],
+          "explanation": "Après le signe vient une lettre voyellée."
+        },
+        {
+          "prompt": "Pourquoi idrib commence-t-il par une hamza ?",
+          "options": [
+            "Après le signe vient une lettre quiescente",
+            "Il est passif",
+            "Il est à l'absent",
+            "Il est féminin"
+          ],
+          "explanation": "Un mot ne peut commencer par une lettre quiescente."
+        },
+        {
+          "prompt": "La hamza prend une damma quand…",
+          "options": [
+            "le 'ayn a une kasra",
+            "le 'ayn a une damma",
+            "la fin est faible",
+            "le verbe est passif"
+          ],
+          "explanation": "Tansuru → unsur."
+        },
+        {
+          "prompt": "L'impératif de tarmî est…",
+          "options": [
+            "irmî",
+            "urmu",
+            "irmi",
+            "irmiy"
+          ],
+          "explanation": "La fin faible tombe."
+        },
+        {
+          "prompt": "L'impératif à l'absent emploie…",
+          "options": [
+            "une hamza de liaison",
+            "lâ",
+            "lan",
+            "le lâm de l'ordre avec kasra"
+          ],
+          "explanation": "Li-yad'u, « qu'il appelle »."
+        },
+        {
+          "prompt": "Dans l'impératif, le nûn de l'i'râb…",
+          "options": [
+            "tombe",
+            "reste",
+            "devient lourd",
+            "prend une kasra"
+          ],
+          "explanation": "Uf'ulâ, uf'ulû, uf'ulî."
+        }
+      ],
+      "diagram": {
+        "caption": "Du mudâri' à l'impératif (p. 15-16)",
+        "labels": {
+          "From the muḍāriʿ to the imperative (pp. 15–16)": "Du mudâri' à l'impératif (p. 15-16)",
+          "Muḍāriʿ": "Mudâri'",
+          "After the sign": "Après le signe",
+          "Imperative": "Impératif",
+          "vowelled": "voyellé",
+          "vowelled, weak end": "voyellé, fin faible",
+          "quiescent; ʿayn with fatḥa": "quiescent ; 'ayn avec fatha",
+          "quiescent; ʿayn with kasra": "quiescent ; 'ayn avec kasra",
+          "quiescent; weak end": "quiescent ; fin faible",
+          "quiescent; ʿayn with ḍamma": "quiescent ; 'ayn avec damma",
+          "quiescent; ʿayn with ḍamma, weak end": "quiescent ; 'ayn avec damma, fin faible"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur le verbe au futur avec le nûn lourd et le nûn léger. Quand vous voulez construire l'impératif : l'impératif est tiré du verbe au mudâri', l'absent de l'absent, le présent du présent, celui qui parle de celui qui parle, l'actif de l'actif et le passif du passif.",
+        "Quand vous voulez construire l'impératif actif à celui qui est présent, supprimez le signe du mudâri' ; puis voyez si [ce qui suit] reste voyellé ou sans voyelle. S'il reste voyellé, rendez la fin sans voyelle si ce n'est pas une lettre faible, comme de ta'idu « tu promets » 'id « promets ! » et de tada'u « tu poses » da' « pose ! » ; et si c'en est une, elle tombe, comme de taqî « tu préserves » qi « préserve ! ».",
+        "S'il reste sans voyelle, regardez le 'ayn du mot. Si le 'ayn du mot a une kasra ou une fatha, faites entrer une hamza de liaison avec kasra au début et rendez la fin sans voyelle si ce n'est pas une lettre faible, comme de tasma'u « tu entends » isma' « écoute ! » et de tadribu « tu frappes » idrib « frappe ! » ; et si c'en est une, elle tombe, comme de tarmî « tu lances » irmi « lance ! » et de takhshâ « tu crains » ikhsha « crains ! ». Si le 'ayn du mot a une damma, faites entrer une hamza de liaison avec damma à son début et rendez la fin sans voyelle si ce n'est pas une lettre faible, comme de tansuru « tu aides » unsur « aide ! » ; et si c'en est une, elle tombe, comme de tad'û « tu appelles » ud'u « appelle ! ».",
+        "Quand vous voulez construire l'impératif passif à celui qui est présent, ou l'impératif actif ou passif à l'absent, faites entrer le lâm de l'ordre avec kasra à son début et mettez sa fin au jazm si ce n'est pas une lettre faible ; et si c'en est une, elle tombe, comme li-yad'u « qu'il appelle », li-yarmi « qu'il lance » et li-yakhsha « qu'il craigne ». Le nûn d'insistance vient aussi dans l'impératif, tout comme il vient dans le mudâri' ; et dans l'impératif, le nûn de l'i'râb tombe aussi."
+      ]
+    },
+    "15": {
+      "title": "L'impératif à celui qui est présent et à l'absent",
+      "body": [
+        "L'impératif actif à celui qui est présent a six formes : uf'ul, uf'ulâ, uf'ulû, uf'ulî, uf'ulâ, uf'ulna, « fais ! » à un homme, deux, plusieurs, à une femme, deux, plusieurs. La hamza a une damma parce que le 'ayn de yaf'ulu en a une ; chaque forme est le mudâri' au jazm sans son signe, taf'ulû → uf'ulû.",
+        "L'impératif passif à celui qui est présent prend plutôt le lâm : li-tuf'al, li-tuf'alâ, li-tuf'alû, li-tuf'alî, li-tuf'alâ, li-tuf'alna, « sois fait ! ». Une hamza ne pourrait pas faire ici ce qu'elle fait à l'actif, parce que le passif a besoin que son signe, avec sa damma, se voie.",
+        "L'impératif à l'absent, actif et passif, a huit formes, les six de l'absent et deux de celui qui parle : li-yaf'ul, li-yaf'ulâ, li-yaf'ulû, li-taf'ul, li-taf'ulâ, li-yaf'ulna, li-af'ul, li-naf'ul, « qu'il fasse … que je fasse, que nous fassions » ; et le passif li-yuf'al … li-nuf'al. Ainsi 6 + 8 = 14, comme dans chaque tableau.",
+        "La fin de chaque forme est comme après lam : un sukûn, ou le nûn de l'i'râb tombé, ou, au pluriel féminin, aucun changement. Un ordre est une demande, et la demande met le verbe au jazm."
+      ],
+      "terms": [
+        "l'impératif actif : uf'ul, li-yaf'ul",
+        "l'impératif passif : li-tuf'al, li-yuf'al"
+      ],
+      "examples": [
+        "uf'ul, uf'ulâ, uf'ulû : « fais ! »",
+        "li-tuf'al, « sois fait ! » : le passif à celui qui est présent",
+        "à l'absent et à celui qui parle",
+        "unsur, unsurâ, unsurû (le moteur)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les six formes de l'impératif de nasara à celui qui est présent.",
+          "answer": "اُنْصُرْ، اُنْصُرَا، اُنْصُرُوا، اُنْصُرِي، اُنْصُرَا، اُنْصُرْنَ"
+        },
+        {
+          "prompt": "Pourquoi l'impératif passif à celui qui est présent se fait-il avec le lâm, li-tuf'al, et non avec une hamza ?",
+          "answer": "Le passif a besoin de son signe avec une damma (tuf'alu) ; supprimer le signe et ajouter une hamza ferait perdre la marque du passif. On met donc le lâm de l'ordre devant le mudâri' entier au jazm."
+        },
+        {
+          "prompt": "Traduisez li-naf'ul et li-yuf'alû.",
+          "answer": "Li-naf'ul : « faisons », « que nous fassions ». Li-yuf'alû : « qu'ils (m.) soient faits »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Uf'ulî se dit à…",
+          "options": [
+            "un homme",
+            "deux personnes",
+            "plusieurs femmes",
+            "une femme"
+          ],
+          "explanation": "Le singulier féminin présent."
+        },
+        {
+          "prompt": "Combien de formes a l'impératif à celui qui est présent ?",
+          "options": [
+            "Six",
+            "Huit",
+            "Quatorze",
+            "Trois"
+          ],
+          "explanation": "Trois pour les hommes, trois pour les femmes."
+        },
+        {
+          "prompt": "Li-tuf'al est…",
+          "options": [
+            "l'impératif actif",
+            "l'impératif passif à celui qui est présent",
+            "une interdiction",
+            "le mudâri'"
+          ],
+          "explanation": "« Sois fait ! »"
+        },
+        {
+          "prompt": "L'impératif à l'absent comprend…",
+          "options": [
+            "seulement l'absent",
+            "seulement les singuliers",
+            "les deux formes de celui qui parle",
+            "le présent"
+          ],
+          "explanation": "Li-af'ul, li-naf'ul."
+        },
+        {
+          "prompt": "Li-yaf'ulna garde son nûn parce que…",
+          "options": [
+            "c'est le nûn de l'i'râb",
+            "le lâm donne le nasb",
+            "il est passif",
+            "c'est le nûn des femmes"
+          ],
+          "explanation": "Comme après lam."
+        },
+        {
+          "prompt": "Unsurû signifie…",
+          "options": [
+            "aidez ! (à plusieurs hommes)",
+            "ils ont aidé",
+            "qu'ils aident",
+            "aide ! (à un homme)"
+          ],
+          "explanation": "De tansurûna."
+        },
+        {
+          "prompt": "Li-naf'ul signifie…",
+          "options": [
+            "nous avons fait",
+            "que nous fassions",
+            "nous ferons",
+            "fais !"
+          ],
+          "explanation": "Celui qui parle avec d'autres."
+        }
+      ],
+      "diagram": {
+        "caption": "L'impératif, actif et passif (p. 16-17)",
+        "labels": {
+          "The imperative, active and passive (pp. 16–17)": "L'impératif, actif et passif (p. 16-17)",
+          "Person": "Personne",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "uf'ul « fais ! (à un homme) », uf'ulâ « faites ! (à deux hommes) », uf'ulû « faites ! (à des hommes) », uf'ulî « fais ! (à une femme) », uf'ulâ « faites ! (à deux femmes) », uf'ulna « faites ! (à des femmes) »",
+        "li-tuf'al « sois fait ! (à un homme) », li-tuf'alâ « soyez faits ! (à deux hommes) », li-tuf'alû « soyez faits ! (à des hommes) », li-tuf'alî « sois faite ! (à une femme) », li-tuf'alâ « soyez faites ! (à deux femmes) », li-tuf'alna « soyez faites ! (à des femmes) »",
+        "li-yaf'ul « qu'il fasse », li-yaf'ulâ « qu'eux deux (m.) fassent », li-yaf'ulû « qu'ils fassent », li-taf'ul « qu'elle fasse », li-taf'ulâ « qu'elles deux fassent », li-yaf'ulna « qu'elles fassent », li-af'ul « que je fasse », li-naf'ul « que nous fassions »",
+        "li-yuf'al « qu'il soit fait », li-yuf'alâ « qu'eux deux (m.) soient faits », li-yuf'alû « qu'ils soient faits », li-tuf'al « qu'elle soit faite »\nli-tuf'alâ « qu'elles deux soient faites », li-yuf'alna « qu'elles soient faites », li-uf'al « que je sois fait », li-nuf'al « que nous soyons faits »"
+      ]
+    },
+    "16": {
+      "title": "L'impératif avec le nûn lourd et le nûn léger",
+      "body": [
+        "Le nûn d'insistance vient dans l'impératif comme dans le mudâri', avec les mêmes règles. Avec le nûn lourd, à celui qui est présent : uf'ulanna, uf'ulânni, uf'ulunna, uf'ulinna, uf'ulânni, uf'ulnânni, « fais assurément ! ». À l'absent : li-yaf'ulanna, li-yaf'ulânni, li-yaf'ulunna, li-taf'ulanna, li-taf'ulânni, li-yaf'ulnânni, li-af'ulanna, li-naf'ulanna. Le passif va sur li-tuf'alanna et li-yuf'alanna.",
+        "Avant le nûn lourd : une fatha dans les singuliers (uf'ulanna), un alif dans les duels et les pluriels féminins, avec le nûn à la kasra (uf'ulânni, uf'ulnânni), la damma du wâw supprimé (uf'ulunna) et la kasra du yâ' supprimé (uf'ulinna). Le sukûn de l'impératif cède la place à ces voyelles, puisqu'une lettre quiescente ne peut se tenir devant le nûn redoublé.",
+        "Avec le nûn léger, il y a moins de formes, puisqu'il ne suit jamais un alif : à celui qui est présent trois, uf'ulan, uf'ulun, uf'ulin ; à l'absent cinq, li-yaf'ulan, li-yaf'ulun, li-taf'ulan, li-af'ulan, li-naf'ulan. Le passif a les trois mêmes et les cinq mêmes : li-tuf'alan, li-tuf'alun, li-tuf'alin ; li-yuf'alan … li-nuf'alan.",
+        "Huit courts tableaux, mais une seule règle : prenez l'impératif, ouvrez sa fin, et ajoutez le nûn comme dans le futur insistant. La grille met les formes actives côte à côte."
+      ],
+      "terms": [
+        "l'impératif insistant, avec un nûn d'insistance",
+        "le nûn lourd et le nûn léger"
+      ],
+      "examples": [
+        "le nûn lourd, à celui qui est présent",
+        "le nûn lourd, à l'absent et à celui qui parle",
+        "le nûn léger, à celui qui est présent : trois formes"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi l'impératif à nûn léger à celui qui est présent n'a-t-il que trois formes ?",
+          "answer": "Le nûn léger ne suit pas un alif ; il ne peut donc venir dans les deux duels ni dans le pluriel féminin (qui a un alif séparateur). Des six, il en reste trois : uf'ulan, uf'ulun, uf'ulin."
+        },
+        {
+          "prompt": "Nommez chaque forme : uf'ulinna ; li-yaf'ulnânni ; li-naf'ulan.",
+          "answer": "Uf'ulinna : à une femme, nûn lourd. Li-yaf'ulnânni : au pluriel féminin absent, nûn lourd. Li-naf'ulan : celui qui parle avec d'autres, nûn léger."
+        },
+        {
+          "prompt": "Qu'arrive-t-il au sukûn de uf'ul devant le nûn d'insistance ?",
+          "answer": "Il cède la place à une fatha : uf'ulanna. Au pluriel et au féminin, il cède la place à la damma et à la kasra qui marquent le wâw et le yâ' supprimés."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Uf'ulanna se dit à…",
+          "options": [
+            "un homme",
+            "plusieurs hommes",
+            "une femme",
+            "deux personnes"
+          ],
+          "explanation": "Une fatha devant le nûn lourd."
+        },
+        {
+          "prompt": "Uf'ulunna se dit à…",
+          "options": [
+            "un homme",
+            "plusieurs hommes",
+            "une femme",
+            "deux personnes"
+          ],
+          "explanation": "La damma marque le wâw supprimé."
+        },
+        {
+          "prompt": "Combien de formes à nûn léger a l'impératif à l'absent ?",
+          "options": [
+            "Trois",
+            "Huit",
+            "Cinq",
+            "Six"
+          ],
+          "explanation": "Li-yaf'ulan, li-yaf'ulun, li-taf'ulan, li-af'ulan, li-naf'ulan."
+        },
+        {
+          "prompt": "Uf'ulnânni a un alif parce que…",
+          "options": [
+            "c'est un duel",
+            "il est passif",
+            "c'est le lâm de l'ordre",
+            "il sépare le nûn des femmes du nûn d'insistance"
+          ],
+          "explanation": "L'alif séparateur."
+        },
+        {
+          "prompt": "Le nûn léger ne vient jamais après…",
+          "options": [
+            "un alif",
+            "une damma",
+            "une kasra",
+            "une fatha"
+          ],
+          "explanation": "D'où moins de formes légères."
+        },
+        {
+          "prompt": "Li-tuf'alanna est…",
+          "options": [
+            "actif, à l'absent",
+            "passif, à celui qui est présent",
+            "une interdiction",
+            "un passé"
+          ],
+          "explanation": "Le passif prend le lâm même à celui qui est présent."
+        },
+        {
+          "prompt": "Uf'ulin se dit à…",
+          "options": [
+            "un homme",
+            "plusieurs hommes",
+            "une femme",
+            "deux femmes"
+          ],
+          "explanation": "La kasra marque le yâ' supprimé."
+        }
+      ],
+      "diagram": {
+        "caption": "L'impératif avec les deux nûns, actif (p. 17-18)",
+        "labels": {
+          "The imperative with the two nūns, active (pp. 17–18)": "L'impératif avec les deux nûns, actif (p. 17-18)",
+          "Person": "Personne",
+          "Heavy nūn": "Nûn lourd",
+          "Light nūn": "Nûn léger",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "uf'ulanna « fais assurément ! (à un homme) », uf'ulânni « faites assurément ! (à deux hommes) », uf'ulunna « faites assurément ! (à des hommes) », uf'ulinna « fais assurément ! (à une femme) », uf'ulânni « faites assurément ! (à deux femmes) », uf'ulnânni « faites assurément ! (à des femmes) »",
+        "li-tuf'alanna « sois assurément fait ! (à un homme) », li-tuf'alânni « soyez assurément faits ! (à deux hommes) », li-tuf'alunna « soyez assurément faits ! (à des hommes) », li-tuf'alinna « sois assurément faite ! (à une femme) », li-tuf'alânni « soyez assurément faites ! (à deux femmes) », li-tuf'alnânni « soyez assurément faites ! (à des femmes) »",
+        "li-yaf'ulanna « qu'il fasse assurément », li-yaf'ulânni « qu'eux deux (m.) fassent assurément », li-yaf'ulunna « qu'ils fassent assurément », li-taf'ulanna « qu'elle fasse assurément »\nli-taf'ulânni « qu'elles deux fassent assurément », li-yaf'ulnânni « qu'elles fassent assurément », li-af'ulanna « que je fasse assurément », li-naf'ulanna « que nous fassions assurément »",
+        "li-yuf'alanna « qu'il soit assurément fait », li-yuf'alânni « qu'eux deux (m.) soient assurément faits », li-yuf'alunna « qu'ils soient assurément faits », li-tuf'alanna « qu'elle soit assurément faite »\nli-tuf'alânni « qu'elles deux soient assurément faites », li-yuf'alnânni « qu'elles soient assurément faites », li-uf'alanna « que je sois assurément fait », li-nuf'alanna « que nous soyons assurément faits »",
+        "uf'ulan « fais assurément ! (à un homme) », uf'ulun « faites assurément ! (à des hommes) », uf'ulin « fais assurément ! (à une femme) »",
+        "li-tuf'alan « sois assurément fait ! (à un homme) », li-tuf'alun « soyez assurément faits ! (à des hommes) », li-tuf'alin « sois assurément faite ! (à une femme) »",
+        "li-yaf'ulan « qu'il fasse assurément », li-yaf'ulun « qu'ils fassent assurément », li-taf'ulan « qu'elle fasse assurément », li-af'ulan « que je fasse assurément », li-naf'ulan « que nous fassions assurément »",
+        "li-yuf'alan « qu'il soit assurément fait », li-yuf'alun « qu'ils soient assurément faits », li-tuf'alan « qu'elle soit assurément faite », li-uf'alan « que je sois assurément fait », li-nuf'alan « que nous soyons assurément faits »"
+      ]
+    },
+    "17": {
+      "title": "L'interdiction",
+      "body": [
+        "« Faites entrer le lâ de l'interdiction au début du verbe au futur. » Lâ taf'ul, « ne fais pas ! ». Le lâ de l'interdiction « met sa fin au jazm en cinq endroits, comme lam » : il, elle, tu (m.), je et nous. Si la fin est une lettre faible, elle tombe : lâ tad'u, « n'appelle pas ! », lâ tarmi, « ne lance pas ! », lâ takhsha, « ne crains pas ! ».",
+        "Comme lam, il « ôte aussi le nûn de l'i'râb de sept endroits », lâ taf'ulâ, lâ taf'ulû, lâ taf'ulî ; et « en deux endroits, il n'a pas d'effet sur l'énonciation », lâ taf'ulna, lâ yaf'ulna. Les fins de l'interdiction sont les fins de l'impératif ; seuls le lâ et le signe du mudâri' se tiennent devant elles.",
+        "Les tableaux : à celui qui est présent, à l'actif, lâ taf'ul, lâ taf'ulâ, lâ taf'ulû, lâ taf'ulî, lâ taf'ulâ, lâ taf'ulna ; au passif, lâ tuf'al … ; à l'absent et à celui qui parle, lâ yaf'ul, lâ yaf'ulâ, lâ yaf'ulû, lâ taf'ul, lâ taf'ulâ, lâ yaf'ulna, lâ af'ul, lâ naf'ul, et au passif lâ yuf'al … lâ nuf'al.",
+        "Mettez cela à côté de la leçon 9. Lâ taf'ulu, avec une damma, est le lâ de la négation : « tu ne fais pas ». Lâ taf'ul, avec un sukûn, est le lâ de l'interdiction : « ne fais pas ! ». Les deux mêmes lettres, lâ, sont deux mots différents, et la fin du verbe dit lequel."
+      ],
+      "terms": [
+        "le lâ de l'interdiction : le jazm, comme lam",
+        "l'interdiction à celui qui est présent : lâ taf'ul",
+        "l'interdiction à l'absent : lâ yaf'ul"
+      ],
+      "examples": [
+        "lâ taf'ul : « ne fais pas ! »",
+        "la dernière lettre faible tombée",
+        "à l'absent et à celui qui parle",
+        "lâ tansur… (le moteur)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les six formes de l'interdiction de nasara à celui qui est présent.",
+          "answer": "لَا تَنْصُرْ، لَا تَنْصُرَا، لَا تَنْصُرُوا، لَا تَنْصُرِي، لَا تَنْصُرَا، لَا تَنْصُرْنَ"
+        },
+        {
+          "prompt": "De quelles trois manières le lâ de l'interdiction agit-il sur les quatorze formes ?",
+          "answer": "Il donne le jazm (un sukûn, ou la chute d'une lettre faible) en cinq endroits ; il ôte le nûn de l'i'râb en sept ; et dans les deux pluriels féminins, il ne change rien dans l'énonciation."
+        },
+        {
+          "prompt": "Lisez lâ tad'û et lâ tad'u et dites ce que signifie chacun.",
+          "answer": "Lâ tad'û, avec le wâw : le lâ de la négation, « tu n'appelles pas ». Lâ tad'u, le wâw tombé : le lâ de l'interdiction, « n'appelle pas ! »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le lâ de l'interdiction agit…",
+          "options": [
+            "comme lan",
+            "comme lam",
+            "comme mâ",
+            "comme le lâ de la négation"
+          ],
+          "explanation": "Le jazm en cinq endroits."
+        },
+        {
+          "prompt": "Lâ taf'ul signifie…",
+          "options": [
+            "tu ne fais pas",
+            "tu n'as pas fait",
+            "ne fais pas !",
+            "tu ne feras pas"
+          ],
+          "explanation": "L'interdiction à celui qui est présent."
+        },
+        {
+          "prompt": "Lâ tarmi a perdu…",
+          "options": [
+            "son nûn",
+            "son signe",
+            "rien",
+            "sa dernière lettre faible"
+          ],
+          "explanation": "Tarmî → lâ tarmi."
+        },
+        {
+          "prompt": "Dans lâ taf'ulna, le lâ de l'interdiction…",
+          "options": [
+            "ne change rien dans l'énonciation",
+            "fait tomber le nûn",
+            "donne un sukûn",
+            "donne une fatha"
+          ],
+          "explanation": "Le nûn des femmes reste."
+        },
+        {
+          "prompt": "Lâ yaf'ul est…",
+          "options": [
+            "le mudâri' nié",
+            "l'interdiction à l'absent",
+            "le passif",
+            "l'impératif"
+          ],
+          "explanation": "« Qu'il ne fasse pas. »"
+        },
+        {
+          "prompt": "Laquelle est une interdiction ?",
+          "options": [
+            "Lâ taf'ulîna",
+            "Lâ taf'ulu",
+            "Lâ taf'ulî",
+            "Lâ yaf'ulûna"
+          ],
+          "explanation": "Le nûn de l'i'râb a disparu."
+        },
+        {
+          "prompt": "Lâ tunsar est…",
+          "options": [
+            "une interdiction active",
+            "une négation",
+            "un ordre",
+            "une interdiction passive"
+          ],
+          "explanation": "« Ne sois pas aidé ! »"
+        }
+      ],
+      "diagram": {
+        "caption": "L'interdiction, active et passive (p. 19-20)",
+        "labels": {
+          "The prohibition, active and passive (pp. 19–20)": "L'interdiction, active et passive (p. 19-20)",
+          "Person": "Personne",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur l'impératif. Quand vous voulez construire l'interdiction, faites entrer le lâ de l'interdiction au début du verbe au futur. Le lâ de l'interdiction met sa fin au jazm en cinq endroits, comme lam, s'il n'y a pas de lettre faible à sa fin, et s'il y en a une, il la fait tomber, comme lâ tad'u « n'appelle pas », lâ tarmi « ne lance pas » et lâ takhsha « ne crains pas ». Il ôte aussi le nûn de l'i'râb de sept endroits, et en deux endroits il n'a pas d'effet sur l'énonciation. Le nûn d'insistance vient dans l'interdiction de la même manière qu'il vient dans le mudâri'.",
+        "lâ taf'ul « ne fais pas ! (à un homme) », lâ taf'ulâ « ne faites pas ! (à deux hommes) », lâ taf'ulû « ne faites pas ! (à des hommes) », lâ taf'ulî « ne fais pas ! (à une femme) », lâ taf'ulâ « ne faites pas ! (à deux femmes) », lâ taf'ulna « ne faites pas ! (à des femmes) »",
+        "lâ tuf'al « ne sois pas fait ! (à un homme) », lâ tuf'alâ « ne soyez pas faits ! (à deux hommes) », lâ tuf'alû « ne soyez pas faits ! (à des hommes) », lâ tuf'alî « ne sois pas faite ! (à une femme) », lâ tuf'alâ « ne soyez pas faites ! (à deux femmes) », lâ tuf'alna « ne soyez pas faites ! (à des femmes) »",
+        "lâ yaf'ul « qu'il ne fasse pas », lâ yaf'ulâ « qu'eux deux (m.) ne fassent pas », lâ yaf'ulû « qu'ils ne fassent pas », lâ taf'ul « qu'elle ne fasse pas », lâ taf'ulâ « qu'elles deux ne fassent pas », lâ yaf'ulna « qu'elles ne fassent pas », lâ af'ul « que je ne fasse pas », lâ naf'ul « que nous ne fassions pas »",
+        "lâ yuf'al « qu'il ne soit pas fait », lâ yuf'alâ « qu'eux deux (m.) ne soient pas faits », lâ yuf'alû « qu'ils ne soient pas faits », lâ tuf'al « qu'elle ne soit pas faite », lâ tuf'alâ « qu'elles deux ne soient pas faites », lâ yuf'alna « qu'elles ne soient pas faites », lâ uf'al « que je ne sois pas fait », lâ nuf'al « que nous ne soyons pas faits »"
+      ]
+    },
+    "18": {
+      "title": "L'interdiction avec le nûn lourd et le nûn léger",
+      "body": [
+        "« Le nûn d'insistance vient dans l'interdiction de la même manière qu'il vient dans le mudâri'. » Avec le nûn lourd, à celui qui est présent : lâ taf'ulanna, lâ taf'ulânni, lâ taf'ulunna, lâ taf'ulinna, lâ taf'ulânni, lâ taf'ulnânni, « ne fais jamais ! ». À l'absent : lâ yaf'ulanna, lâ yaf'ulânni, lâ yaf'ulunna, lâ taf'ulanna, lâ taf'ulânni, lâ yaf'ulnânni, lâ af'ulanna, lâ naf'ulanna.",
+        "Les tableaux passifs mettent la base sur yuf'alu : lâ tuf'alanna … lâ tuf'alnânni ; lâ yuf'alanna … lâ nuf'alanna. Tout ce qui vient avant le nûn suit les règles de la leçon 12.",
+        "Avec le nûn léger, trois formes à celui qui est présent, lâ taf'ulan, lâ taf'ulun, lâ taf'ulin, et cinq à l'absent, lâ yaf'ulan, lâ yaf'ulun, lâ taf'ulan, lâ af'ulan, lâ naf'ulan, avec le passif de même. Avec cela, la conjugaison du verbe est complète : chaque forme des quatorze du livre, à chaque mode, a maintenant été construite à partir de fa'ala par une règle.",
+        "Dans la madrasa, ces tableaux se récitent dans l'ordre, l'actif puis le passif, le lourd puis le léger, jusqu'à ce que l'élève puisse produire n'importe quelle forme de n'importe quel verbe sain sans le livre. La grille montre les formes actives."
+      ],
+      "terms": [
+        "l'interdiction insistante, avec un nûn d'insistance",
+        "l'absent et le présent"
+      ],
+      "examples": [
+        "le nûn lourd, à celui qui est présent",
+        "le nûn lourd, à l'absent et à celui qui parle",
+        "le nûn léger : trois formes"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez chaque forme : lâ taf'ulinna ; lâ yaf'ulnânni ; lâ af'ulan.",
+          "answer": "Lâ taf'ulinna : interdiction à une femme, nûn lourd. Lâ yaf'ulnânni : au pluriel féminin absent, nûn lourd. Lâ af'ulan : celui qui parle seul, nûn léger."
+        },
+        {
+          "prompt": "Faites le passif de lâ taf'ulunna et de lâ yaf'ulan.",
+          "answer": "Lâ tuf'alunna et lâ yuf'alan : le signe avec damma, le 'ayn avec fatha ; le lâ et le nûn restent."
+        },
+        {
+          "prompt": "Pourquoi l'interdiction avec le nûn léger a-t-elle huit formes en tout ?",
+          "answer": "Trois à celui qui est présent et cinq à l'absent et à celui qui parle : le nûn léger ne suit jamais un alif, si bien que les duels et les pluriels féminins n'ont pas de forme légère."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Lâ taf'ulanna signifie…",
+          "options": [
+            "tu feras assurément",
+            "tu n'as pas fait",
+            "ne fais jamais ! (à un homme)",
+            "fais assurément !"
+          ],
+          "explanation": "L'interdiction avec le nûn lourd."
+        },
+        {
+          "prompt": "Le nûn d'insistance dans l'interdiction suit les règles…",
+          "options": [
+            "du passé",
+            "du participe",
+            "de lan",
+            "du mudâri' insistant"
+          ],
+          "explanation": "« De la même manière qu'il vient dans le mudâri'. »"
+        },
+        {
+          "prompt": "Lâ taf'ulun se dit à…",
+          "options": [
+            "plusieurs hommes",
+            "un homme",
+            "une femme",
+            "deux personnes"
+          ],
+          "explanation": "La damma marque le wâw supprimé."
+        },
+        {
+          "prompt": "Combien de formes à nûn léger a l'interdiction à l'absent ?",
+          "options": [
+            "Trois",
+            "Cinq",
+            "Huit",
+            "Quatorze"
+          ],
+          "explanation": "Il, ils (m.), elle, je, nous."
+        },
+        {
+          "prompt": "Lâ tuf'alinna est…",
+          "options": [
+            "actif, à une femme",
+            "passif, à plusieurs hommes",
+            "passif, à une femme",
+            "une négation"
+          ],
+          "explanation": "U … a dans la base, la kasra du yâ' supprimé."
+        },
+        {
+          "prompt": "Lâ yaf'ulânni est la forme de…",
+          "options": [
+            "il",
+            "ils (m.)",
+            "nous",
+            "eux deux (m.)"
+          ],
+          "explanation": "Un alif devant le nûn, qui prend une kasra."
+        },
+        {
+          "prompt": "Après ces tableaux, le livre a construit…",
+          "options": [
+            "chaque forme du verbe à partir de fa'ala",
+            "seulement le passé",
+            "seulement les noms",
+            "les verbes faibles"
+          ],
+          "explanation": "Puis il passe aux noms dérivés."
+        }
+      ],
+      "diagram": {
+        "caption": "L'interdiction avec les deux nûns, active (p. 20-21)",
+        "labels": {
+          "The prohibition with the two nūns, active (pp. 20–21)": "L'interdiction avec les deux nûns, active (p. 20-21)",
+          "Person": "Personne",
+          "Heavy nūn": "Nûn lourd",
+          "Light nūn": "Nûn léger",
+          "you (m.)": "tu (m.)",
+          "you two (m.)": "vous deux (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "he": "il",
+          "they two (m.)": "eux deux (m.)",
+          "they (m.)": "ils",
+          "she": "elle",
+          "they two (f.)": "elles deux",
+          "they (f.)": "elles",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "lâ taf'ulanna « ne fais surtout pas ! (à un homme) », lâ taf'ulânni « ne faites surtout pas ! (à deux hommes) », lâ taf'ulunna « ne faites surtout pas ! (à des hommes) », lâ taf'ulinna « ne fais surtout pas ! (à une femme) », lâ taf'ulânni « ne faites surtout pas ! (à deux femmes) », lâ taf'ulnânni « ne faites surtout pas ! (à des femmes) »",
+        "lâ tuf'alanna « ne sois surtout pas fait ! (à un homme) », lâ tuf'alânni « ne soyez surtout pas faits ! (à deux hommes) », lâ tuf'alunna « ne soyez surtout pas faits ! (à des hommes) », lâ tuf'alinna « ne sois surtout pas faite ! (à une femme) », lâ tuf'alânni « ne soyez surtout pas faites ! (à deux femmes) », lâ tuf'alnânni « ne soyez surtout pas faites ! (à des femmes) »",
+        "lâ yaf'ulanna « qu'il ne fasse surtout pas », lâ yaf'ulânni « qu'eux deux (m.) ne fassent surtout pas », lâ yaf'ulunna « qu'ils ne fassent surtout pas », lâ taf'ulanna « qu'elle ne fasse surtout pas »\nlâ taf'ulânni « qu'elles deux ne fassent surtout pas », lâ yaf'ulnânni « qu'elles ne fassent surtout pas », lâ af'ulanna « que je ne fasse surtout pas », lâ naf'ulanna « que nous ne fassions surtout pas »",
+        "lâ yuf'alanna « qu'il ne soit surtout pas fait », lâ yuf'alânni « qu'eux deux (m.) ne soient surtout pas faits », lâ yuf'alunna « qu'ils ne soient surtout pas faits », lâ tuf'alanna « qu'elle ne soit surtout pas faite »\nlâ tuf'alânni « qu'elles deux ne soient surtout pas faites », lâ yuf'alnânni « qu'elles ne soient surtout pas faites », lâ uf'alanna « que je ne sois surtout pas fait », lâ nuf'alanna « que nous ne soyons surtout pas faits »",
+        "lâ taf'ulan « ne fais surtout pas ! (à un homme) », lâ taf'ulun « ne faites surtout pas ! (à des hommes) », lâ taf'ulin « ne fais surtout pas ! (à une femme) »",
+        "lâ tuf'alan « ne sois surtout pas fait ! (à un homme) », lâ tuf'alun « ne soyez surtout pas faits ! (à des hommes) », lâ tuf'alin « ne sois surtout pas faite ! (à une femme) »",
+        "lâ yaf'ulan « qu'il ne fasse surtout pas », lâ yaf'ulun « qu'ils ne fassent surtout pas », lâ taf'ulan « qu'elle ne fasse surtout pas », lâ af'ulan « que je ne fasse surtout pas », lâ naf'ulan « que nous ne fassions surtout pas »",
+        "lâ yuf'alan « qu'il ne soit surtout pas fait », lâ yuf'alun « qu'ils ne soient surtout pas faits », lâ tuf'alan « qu'elle ne soit surtout pas faite », lâ uf'alan « que je ne sois surtout pas fait », lâ nuf'alan « que nous ne soyons surtout pas faits »"
+      ]
+    },
+    "19": {
+      "title": "Le participe actif et le participe passif",
+      "body": [
+        "« Le participe actif est tiré du mudâri' actif. » Supprimez le signe, donnez une fatha au fâ', faites entrer « l'alif de fâ'il » entre le fâ' et le 'ayn, donnez une kasra au 'ayn et ajoutez le tanwîn : yaf'ulu → fâ'ilun, « celui qui fait ». Avec nasara : nâsirun, « un aidant », de yansuru.",
+        "Il a six formes, car le nom se décline selon le genre et le nombre, non selon la personne : fâ'ilun, fâ'ilâni, fâ'ilûna pour les hommes ; fâ'ilatun, fâ'ilatâni, fâ'ilâtun pour les femmes.",
+        "« Le participe passif est fait du mudâri' passif. » Supprimez le signe, faites entrer « le mîm de maf'ûl » avec une fatha au début, donnez une damma au 'ayn, faites entrer « le wâw de maf'ûl » entre le 'ayn et le lâm, et donnez le tanwîn au lâm : yuf'alu → maf'ûlun, « ce qui subit l'action » ; avec nasara, mansûrun, « aidé ». Ses six formes : maf'ûlun, maf'ûlâni, maf'ûlûna, maf'ûlatun, maf'ûlatâni, maf'ûlâtun.",
+        "Ces règles sont pour le trilitère nu. Le livre construit chaque nom à partir du mudâri', pas à pas, afin que l'élève voie d'où vient chaque lettre : l'alif de fâ'il, le mîm et le wâw de maf'ûl sont des lettres ajoutées ; le f, le ' et le l sont la racine."
+      ],
+      "terms": [
+        "le participe actif : fâ'il, « celui qui fait »",
+        "le participe passif : maf'ûl, « ce qui subit l'action »",
+        "l'alif ajouté après le fâ'",
+        "le mîm et le wâw ajoutés dans maf'ûl"
+      ],
+      "examples": [
+        "fâ'ilun ; nâsirun, « un aidant » (le moteur)",
+        "les formes féminines",
+        "maf'ûlun ; mansûrun, « aidé » (le moteur)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Construisez le participe actif à partir de yansuru, pas à pas.",
+          "answer": "Supprimez le signe : nsuru. Donnez une fatha au fâ' et ajoutez l'alif : nâs-. Donnez une kasra au 'ayn : nâsir-. Ajoutez le tanwîn : nâsirun."
+        },
+        {
+          "prompt": "Construisez le participe passif à partir de yunsaru, pas à pas.",
+          "answer": "Supprimez le signe : nsaru. Ajoutez le mîm avec fatha : mans-. Donnez une damma au 'ayn et ajoutez le wâw après lui : mansûr-. Ajoutez le tanwîn : mansûrun."
+        },
+        {
+          "prompt": "Pourquoi le participe a-t-il six formes, et non quatorze ?",
+          "answer": "C'est un nom : il change selon le genre et le nombre (un, deux, plusieurs ; masculin, féminin), mais non selon la personne, comme le fait le verbe."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le participe actif est tiré…",
+          "options": [
+            "du mudâri' passif",
+            "du passé",
+            "de l'impératif",
+            "du mudâri' actif"
+          ],
+          "explanation": "Yaf'ulu → fâ'ilun."
+        },
+        {
+          "prompt": "Le participe passif est fait…",
+          "options": [
+            "du mudâri' passif",
+            "du mudâri' actif",
+            "du passé",
+            "du masdar"
+          ],
+          "explanation": "Yuf'alu → maf'ûlun."
+        },
+        {
+          "prompt": "L'alif de fâ'il vient…",
+          "options": [
+            "au début",
+            "entre le fâ' et le 'ayn",
+            "à la fin",
+            "entre le 'ayn et le lâm"
+          ],
+          "explanation": "Fâ'il : l'alif après le fâ'."
+        },
+        {
+          "prompt": "Le wâw de maf'ûl vient…",
+          "options": [
+            "après le mîm",
+            "à la fin",
+            "entre le 'ayn et le lâm",
+            "entre le fâ' et le 'ayn"
+          ],
+          "explanation": "Maf'ûl : le wâw après le 'ayn."
+        },
+        {
+          "prompt": "Fâ'ilâtun est…",
+          "options": [
+            "le pluriel masculin",
+            "le duel",
+            "le singulier féminin",
+            "le pluriel féminin"
+          ],
+          "explanation": "Des femmes qui font."
+        },
+        {
+          "prompt": "Combien de formes a chaque participe dans le livre ?",
+          "options": [
+            "Six",
+            "Quatorze",
+            "Trois",
+            "Huit"
+          ],
+          "explanation": "Selon le genre et le nombre."
+        },
+        {
+          "prompt": "Le participe passif de nasara est…",
+          "options": [
+            "nâsir",
+            "mansûr",
+            "nusira",
+            "mansar"
+          ],
+          "explanation": "De yunsaru."
+        }
+      ],
+      "diagram": {
+        "caption": "Les deux participes (p. 22)",
+        "labels": {
+          "The two participles (p. 22)": "Les deux participes (p. 22)",
+          "Number and gender": "Nombre et genre",
+          "Active participle": "Participe actif",
+          "Passive participle": "Participe passif",
+          "one man": "un homme",
+          "two men": "deux hommes",
+          "men": "des hommes",
+          "one woman": "une femme",
+          "two women": "deux femmes",
+          "women": "des femmes"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur l'interdiction. Quand vous voulez construire le participe actif : le participe actif est tiré du verbe au mudâri' actif. Supprimez le signe du mudâri' ; après cela, donnez une fatha au fâ' du mot, faites entrer l'alif de fâ'il entre le fâ' et le 'ayn, donnez une kasra au 'ayn du mot, et ajoutez le tanwîn au lâm du mot, afin qu'il devienne le participe actif.",
+        "fâ'ilun « celui qui fait (m.) », fâ'ilâni « deux qui font (m.) », fâ'ilûna « ceux qui font (m.) », fâ'ilatun « celle qui fait (f.) », fâ'ilatâni « deux qui font (f.) », fâ'ilâtun « celles qui font (f.) »",
+        "Section. Tout ce qui a été dit portait sur le participe actif. Quand vous voulez construire le participe passif : le participe passif est fait du verbe au mudâri' passif. Supprimez le signe du mudâri' ; après cela, faites entrer le mîm de maf'ûl, avec fatha, à son début, donnez une damma au 'ayn du mot, faites entrer le wâw de maf'ûl entre le 'ayn et le lâm, et donnez le tanwîn au lâm du mot, afin qu'il devienne le participe passif.",
+        "maf'ûlun « une chose faite (m.) », maf'ûlâni « deux choses faites (m.) », maf'ûlûna « des choses faites (m.) », maf'ûlatun « une chose faite (f.) », maf'ûlatâni « deux choses faites (f.) », maf'ûlâtun « des choses faites (f.) »"
+      ]
+    },
+    "20": {
+      "title": "Le nom de temps et de lieu, et le nom d'instrument",
+      "body": [
+        "Notre impression finit par un complément (tatimma) sur trois autres noms, placé dans le cadre du texte ; le transcripteur note que c'est un ajout ultérieur qu'on trouve dans les impressions indiennes. Chacun est de nouveau construit à partir du mudâri'.",
+        "Le nom de temps et de lieu (ism zarf), le temps ou le lieu de l'acte : supprimez le signe, mettez un mîm avec une fatha au début, « donnez une fatha au 'ayn s'il a une damma, sinon laissez-le tel qu'il est », et ajoutez le tanwîn. De yaf'ulu, avec sa damma, vient maf'alun ; d'un mudâri' avec une kasra, la kasra resterait. Ses formes : maf'alun, maf'alâni, et le pluriel brisé mafâ'ilu.",
+        "Le nom d'instrument (ism âla), l'outil avec lequel l'acte se fait : supprimez le signe, mettez un mîm avec une kasra, donnez une fatha au 'ayn, ajoutez le tanwîn : mif'alun. « Si vous faites entrer un alif après le 'ayn, ou ajoutez un tâ' après le lâm, deux autres formes apparaissent » : mif'âlun et mif'alatun. Leurs formes : mif'alun, mif'alatun, mif'alâni, mif'alatâni, avec le pluriel mafâ'ilu ; et mif'âlun, mif'âlâni, avec le pluriel mafâ'îlu.",
+        "Le livre dit que ces formes « s'accordent le plus souvent avec la règle » : bien des noms de lieu et d'instrument en usage suivent d'autres schèmes, que les grands livres de sarf énumèrent. Ici, l'élève apprend la règle sur fa'ala ; la voyelle du mîm est la première chose à voir : ma- pour un lieu, mi- pour un outil."
+      ],
+      "terms": [
+        "le nom de temps et de lieu : maf'al",
+        "le nom d'instrument : mif'al, mif'ala, mif'âl",
+        "le complément à la fin du livre"
+      ],
+      "examples": [
+        "le nom de temps et de lieu : mîm avec fatha",
+        "les trois noms d'instrument : mîm avec kasra",
+        "leurs pluriels brisés"
+      ],
+      "tasks": [
+        {
+          "prompt": "En quoi le nom de lieu et le nom d'instrument diffèrent-ils par leur première voyelle ?",
+          "answer": "Le nom de temps et de lieu a un mîm avec fatha (maf'al) ; le nom d'instrument un mîm avec kasra (mif'al)."
+        },
+        {
+          "prompt": "Pourquoi le 'ayn de maf'al est-il une fatha dans le modèle du livre ?",
+          "answer": "La règle est de donner une fatha au 'ayn s'il a une damma au mudâri', et de le laisser sinon. Yaf'ulu a une damma, il devient donc maf'al."
+        },
+        {
+          "prompt": "Donnez les deux autres formes du nom d'instrument, et leurs pluriels.",
+          "answer": "Mif'âlun, avec un alif après le 'ayn, pluriel mafâ'îlu ; et mif'alatun, avec un tâ' après le lâm, pluriel mafâ'ilu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le nom de temps et de lieu commence par…",
+          "options": [
+            "un mîm avec fatha",
+            "un mîm avec kasra",
+            "une hamza",
+            "un tâ'"
+          ],
+          "explanation": "Maf'al : le mîm avec fatha."
+        },
+        {
+          "prompt": "Le nom d'instrument commence par…",
+          "options": [
+            "un mîm avec fatha",
+            "un mîm avec kasra",
+            "un mîm avec damma",
+            "un alif"
+          ],
+          "explanation": "Mif'al : le mîm avec kasra."
+        },
+        {
+          "prompt": "Le pluriel de maf'al dans le livre est…",
+          "options": [
+            "maf'alûna",
+            "maf'alâtun",
+            "mafâ'ilu",
+            "mafâ'îlu"
+          ],
+          "explanation": "Un pluriel brisé."
+        },
+        {
+          "prompt": "Mif'âlun a…",
+          "options": [
+            "un tâ' après le lâm",
+            "un mîm avec fatha",
+            "aucune lettre ajoutée",
+            "un alif après le 'ayn"
+          ],
+          "explanation": "L'une des deux autres formes."
+        },
+        {
+          "prompt": "Le pluriel de mif'âl est…",
+          "options": [
+            "mafâ'îlu",
+            "mafâ'ilu",
+            "mif'âlûna",
+            "mif'alâtun"
+          ],
+          "explanation": "Avec un î long."
+        },
+        {
+          "prompt": "Dans le nom de lieu, le 'ayn devient une fatha si au mudâri' il a…",
+          "options": [
+            "une kasra",
+            "une damma",
+            "une fatha",
+            "un sukûn"
+          ],
+          "explanation": "Sinon, on le laisse tel qu'il est."
+        },
+        {
+          "prompt": "Où trouve-t-on ce complément ?",
+          "options": [
+            "Dans toutes les copies du livre",
+            "Seulement dans les manuscrits",
+            "Dans les impressions indiennes, après le participe passif",
+            "Dans al-Âjurrûmiyya"
+          ],
+          "explanation": "Il est imprimé dans le cadre de notre impression."
+        }
+      ],
+      "diagram": {
+        "caption": "Les noms de lieu et d'instrument (p. 23-24)",
+        "labels": {
+          "The nouns of place and of instrument (pp. 23–24)": "Les noms de lieu et d'instrument (p. 23-24)",
+          "Noun": "Nom",
+          "Singular": "Singulier",
+          "Dual": "Duel",
+          "Plural": "Pluriel",
+          "time and place": "temps et lieu",
+          "instrument": "instrument",
+          "instrument, with tāʾ": "instrument, avec tâ'",
+          "instrument, with alif": "instrument, avec alif"
+        }
+      },
+      "text": [
+        "Section. Quand vous voulez construire le nom de temps et de lieu (ism zarf), supprimez le signe du mudâri' et faites entrer un mîm avec fatha à son début ; donnez une fatha au 'ayn du mot s'il a une damma, sinon laissez-le tel qu'il est ; et joignez le tanwîn au lâm du mot, afin qu'il devienne le nom de temps et de lieu.",
+        "maf'alun « un temps ou un lieu où l'on fait », maf'alâni « deux temps ou lieux où l'on fait », mafâ'ilu « des temps ou des lieux où l'on fait »",
+        "Section. Tout ce qui a été dit portait sur le nom de temps et de lieu. Quand vous voulez construire le nom d'instrument, supprimez le signe du mudâri' et faites entrer un mîm avec kasra à son début ; donnez une fatha au 'ayn du mot s'il n'en a pas, et joignez le tanwîn au lâm du mot, afin qu'il devienne le nom d'instrument. Si vous faites entrer un alif après le 'ayn du mot, ou ajoutez un tâ' après le lâm, deux autres formes du nom d'instrument apparaissent, qui s'accordent le plus souvent avec la règle.",
+        "mif'alun « un instrument pour faire », mif'alatun « un instrument pour faire », mif'alâni « deux instruments pour faire », mif'alatâni « deux instruments pour faire »\nmafâ'ilu « des instruments pour faire », wa-mif'âlun « un instrument pour faire », mif'âlâni « deux instruments pour faire », mafâ'îlu « des instruments pour faire »"
+      ]
+    },
+    "21": {
+      "title": "L'élatif",
+      "body": [
+        "L'élatif (ism al-tafdîl) dit que l'un a plus d'une qualité qu'un autre. Pour le masculin, « supprimez le signe du mudâri', faites entrer la hamza de l'élatif à son début, donnez une fatha au 'ayn s'il n'en a pas, et ne joignez pas le tanwîn au lâm » : yaf'ulu → af'alu, « qui fait davantage ».",
+        "Pas de tanwîn, parce que af'al est un diptote : il a le schème d'un verbe (af'alu, comme le mudâri' de celui qui parle) et c'est un adjectif. Les formes du masculin : af'alu, af'alâni, af'alûna, et le pluriel brisé afâ'ilu.",
+        "Pour le féminin, « après avoir supprimé le signe, donnez une damma au fâ', rendez le 'ayn quiescent, joignez l'alif bref (alif maqsûra) après le lâm, et donnez une fatha au lâm » : fu'lâ. Ses formes : fu'lâ, fu'layâni, fu'layâtun, et le pluriel brisé fu'alun. La paire est familière : akbar, « plus grand », et kubrâ, « la plus grande », comme dans Allâhu akbar.",
+        "Avec l'élatif, le livre se termine : « tammat », « c'est achevé ». En quelques pages, l'élève a construit à partir de fa'ala chaque forme verbale et chaque nom dérivé du trilitère sain. Les livres suivants du Dars-i Nizâmî prennent les verbes faibles et les schèmes augmentés, sur la même balance."
+      ],
+      "terms": [
+        "l'élatif : af'al, fu'lâ",
+        "la hamza de l'élatif, au début",
+        "l'alif bref de fu'lâ"
+      ],
+      "examples": [
+        "l'élatif masculin, sans tanwîn",
+        "l'élatif féminin",
+        "akbaru, al-kubrâ : le schème dans un mot de tous les jours"
+      ],
+      "tasks": [
+        {
+          "prompt": "Construisez l'élatif masculin à partir de yaf'ulu, pas à pas, et dites pourquoi il n'a pas de tanwîn.",
+          "answer": "Supprimez le signe : f'ulu. Ajoutez la hamza : af'ul-. Donnez une fatha au 'ayn : af'al-. Pas de tanwîn : af'alu. C'est un diptote, un adjectif au schème d'un verbe."
+        },
+        {
+          "prompt": "Construisez l'élatif féminin.",
+          "answer": "Supprimez le signe, donnez une damma au fâ', rendez le 'ayn quiescent, donnez une fatha au lâm et joignez l'alif bref après lui : fu'lâ."
+        },
+        {
+          "prompt": "Donnez les quatre formes de l'élatif féminin.",
+          "answer": "Fu'lâ (singulier), fu'layâni (duel), fu'layâtun (pluriel sain), fu'alun (pluriel brisé)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "L'élatif masculin commence par…",
+          "options": [
+            "un mîm",
+            "une hamza",
+            "un tâ'",
+            "un yâ'"
+          ],
+          "explanation": "Af'al : la hamza de l'élatif."
+        },
+        {
+          "prompt": "L'élatif masculin prend…",
+          "options": [
+            "le tanwîn",
+            "une kasra dans chaque état",
+            "pas de tanwîn",
+            "un nûn"
+          ],
+          "explanation": "C'est un diptote."
+        },
+        {
+          "prompt": "L'élatif féminin est sur le schème…",
+          "options": [
+            "af'alu",
+            "fâ'ilatun",
+            "maf'alatun",
+            "fu'lâ"
+          ],
+          "explanation": "Avec l'alif bref."
+        },
+        {
+          "prompt": "Le duel de fu'lâ est…",
+          "options": [
+            "fu'layâni",
+            "fu'lâni",
+            "af'alâni",
+            "fu'alâni"
+          ],
+          "explanation": "L'alif devient un yâ' devant la terminaison."
+        },
+        {
+          "prompt": "Afâ'ilu est…",
+          "options": [
+            "le duel",
+            "le pluriel brisé de af'al",
+            "le féminin",
+            "un nom de lieu"
+          ],
+          "explanation": "À côté du pluriel sain af'alûna."
+        },
+        {
+          "prompt": "Kubrâ est le féminin de…",
+          "options": [
+            "kabîr",
+            "kabura",
+            "akbar",
+            "mukabbar"
+          ],
+          "explanation": "Fu'lâ de af'al."
+        },
+        {
+          "prompt": "Le dernier mot du livre, tammat, signifie…",
+          "options": [
+            "c'est complet par le sens",
+            "la fin d'un chapitre",
+            "une prière",
+            "c'est achevé"
+          ],
+          "explanation": "Le livre se termine par l'élatif."
+        }
+      ],
+      "diagram": {
+        "caption": "L'élatif (p. 24)",
+        "labels": {
+          "The elative (p. 24)": "L'élatif (p. 24)",
+          "Number": "Nombre",
+          "Masculine": "Masculin",
+          "Feminine": "Féminin",
+          "singular": "singulier",
+          "dual": "duel",
+          "sound plural": "pluriel sain",
+          "broken plural": "pluriel brisé"
+        }
+      },
+      "text": [
+        "Section. Tout ce qui a été dit portait sur le nom d'instrument. Quand vous voulez construire l'élatif, supprimez le signe du mudâri' et faites entrer la hamza de l'élatif à son début ; donnez une fatha au 'ayn du mot s'il n'en a pas, et ne joignez pas le tanwîn au lâm. Telle est la manière de construire l'élatif masculin.",
+        "Mais quand vous construisez la forme féminine, après avoir supprimé le signe du mudâri', donnez une damma au fâ', rendez le 'ayn sans voyelle, joignez l'alif bref (alif maqsûra) après le lâm et donnez une fatha au lâm du mot, afin qu'il devienne l'élatif féminin.",
+        "af'alu « qui fait davantage (m.) », af'alâni « deux qui font davantage (m.) », af'alûna « ceux qui font davantage (m.) », afâ'ilu « ceux qui font davantage (m., pluriel brisé) »\nfu'lâ « qui fait davantage (f.) », fu'layâni « deux qui font davantage (f.) », fu'layâtun « celles qui font davantage (f.) », fu'alun « celles qui font davantage (f., pluriel brisé) »\nFin."
+      ]
+    }
+  }
+}

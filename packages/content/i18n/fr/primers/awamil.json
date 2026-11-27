@@ -1,0 +1,2447 @@
+{
+  "title": "al-'Awâmil al-jadîda",
+  "summary": "Le premier livre de nahw de la madrasa ottomane, de Mehmed al-Birgivî, de Birgi (m. 981/1573), lu après les manuels de sarf et avant son Izhâr al-asrâr. Il expose tout l'i'râb en cent choses à savoir : soixante régissants ('awâmil), trente régis (ma'mûlât) et dix signes de l'i'râb, en trois courts chapitres, et presque chaque exemple enseigne un point de croyance ou de conduite en même temps que la grammaire. Les leçons prennent les régissants sorte par sorte, puis les régis et les signes, expliquent chaque règle sur les phrases mêmes d'al-Birgivî et la comparent avec al-Âjurrûmiyya là où les deux livres diffèrent.",
+  "parts": {
+    "opening": "Les cent choses",
+    "governor": "Chapitre premier : le régissant",
+    "governed": "Chapitre deux : le régi",
+    "irab": "Chapitre trois : l'i'râb"
+  },
+  "lessons": {
+    "1": {
+      "title": "Cent choses : régissants, régis, i'râb",
+      "body": [
+        "Al-Birgivî ouvre sur une promesse et un nombre : quiconque veut connaître l'i'râb doit connaître cent choses. Soixante sont des régissants ('âmil), les mots ou les idées qui causent une finale ; trente sont des régis (ma'mûl), les mots dont les finales sont causées ; dix sont l'effet lui-même, les signes de l'i'râb. Tout le nahw de ce niveau est affaire de cause et d'effet : un régissant agit sur un régi, et la finale est ce qu'il fait.",
+        "Le livre s'appelle al-'Awâmil al-jadîda, « les nouveaux 'Awâmil », parce que la madrasa lisait déjà un livre plus ancien des régissants, al-'Awâmil al-mi'a, « les cent régissants », de 'Abd al-Qâhir al-Jurjânî. Al-Birgivî garde le nombre de cent mais le divise autrement, en régissants, régis et i'râb, et donne à chacun son chapitre : le premier sur le régissant, le deuxième sur le régi, le troisième sur l'i'râb.",
+        "Le régissant est de deux sortes. Exprimé (lafzî) : un mot que l'on entend, comme la particule bi- ou le verbe. Abstrait (ma'nawî) : aucun mot, mais une idée, comme le fait pour un nom d'être placé en tête d'une phrase. Le régissant exprimé est à son tour de deux divisions. Entendu (samâ'î) : des mots connus seulement par l'usage des Arabes, qu'il faut apprendre comme une liste, quarante-neuf en cinq sortes. Analogique (qiyâsî) : une règle qui couvre des catégories entières de mots, comme « tout verbe régit », neuf en tout. Avec les deux régissants abstraits, cela fait soixante.",
+        "Lisez les exemples au fur et à mesure. Presque chaque phrase que donne al-Birgivî enseigne autre chose que la grammaire : tubtu min kulli dhanbin, « je me suis repenti de tout péché » ; Muhammadun rasûlu llâhi, « Muhammad est le Messager de Dieu ». L'enfant qui apprend la grammaire apprend avec elle la croyance et la conduite, et la madrasa a toujours estimé le livre pour les deux."
+      ],
+      "terms": [
+        "le régissant : ce qui cause une finale",
+        "le régi : dont la finale est causée",
+        "l'effet de la rection : l'i'râb",
+        "exprimé (un mot) et abstrait (une idée)",
+        "entendu (une liste) et analogique (une règle)"
+      ],
+      "examples": [
+        "soixante sont appelés régissant, trente régi, dix l'effet et l'i'râb : le plan du livre",
+        "tubtu min kulli dhanbin, « je me suis repenti de tout péché » : min, un régissant entendu, met kulli au jarr",
+        "Muhammadun rasûlu llâhi, « Muhammad est le Messager de Dieu » : le sujet au raf' par un régissant abstrait"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dans tubtu min kulli dhanbin, nommez le régissant, le régi et l'i'râb que cause min.",
+          "answer": "Le régissant est min, une particule du jarr (entendue). Le régi est kulli. L'effet est le jarr, montré par la kasra. (Dhanbin est aussi au jarr, mais par l'idâfa : kullu le régit.)"
+        },
+        {
+          "prompt": "Additionnez les soixante régissants d'al-Birgivî selon leurs sortes.",
+          "answer": "Entendus : 20 particules du jarr + 8 qui donnent le nasb au nom et le raf' au prédicat + 2 qui donnent le raf' au nom et le nasb au prédicat + 4 qui mettent le présent-futur au nasb + 15 qui le mettent au jazm = 49. Analogiques : 9. Abstraits : 2. 49 + 9 + 2 = 60."
+        },
+        {
+          "prompt": "Exprimé ou abstrait ? (a) le régissant de Muhammadun dans Muhammadun rasûlu llâhi ; (b) le régissant de kulli dans min kulli dhanbin.",
+          "answer": "(a) Abstrait : aucun mot ne se tient avant Muhammad ; son raf' vient du fait qu'il est placé en tête. (b) Exprimé : la particule min."
+        },
+        {
+          "prompt": "Quelle est la différence entre un régissant entendu et un régissant analogique ? Donnez-en un de chaque.",
+          "answer": "Un régissant entendu est un mot connu par l'usage des Arabes, appris un à un dans une liste (par exemple la particule min). Un régissant analogique est une règle qui couvre toute une catégorie de mots (par exemple : tout verbe donne le raf' et le nasb)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de choses l'étudiant de l'i'râb doit-il connaître, selon al-Birgivî ?",
+          "options": [
+            "Soixante",
+            "Cent",
+            "Trente",
+            "Dix"
+          ],
+          "explanation": "Soixante régissants, trente régis et dix signes de l'i'râb."
+        },
+        {
+          "prompt": "Combien y a-t-il de régissants ?",
+          "options": [
+            "Quarante-neuf",
+            "Trente",
+            "Soixante",
+            "Cent"
+          ],
+          "explanation": "Quarante-neuf entendus, neuf analogiques, deux abstraits."
+        },
+        {
+          "prompt": "Qu'est-ce qu'un régissant abstrait (ma'nawî) ?",
+          "options": [
+            "Un régissant connu par l'écoute",
+            "Un régissant qui est un verbe",
+            "Un régissant qui n'a pas d'effet",
+            "Un régissant qui est une idée, non un mot"
+          ],
+          "explanation": "Par exemple le fait pour le sujet d'être placé en tête, qui le met au raf'."
+        },
+        {
+          "prompt": "Pourquoi le livre s'appelle-t-il al-'Awâmil al-jadîda, « les nouveaux » ?",
+          "options": [
+            "Pour le placer à côté de l'ancien al-'Awâmil al-mi'a d'al-Jurjânî",
+            "Parce qu'il a été écrit au siècle dernier",
+            "Parce qu'il enseigne de nouveaux régissants inconnus jusque-là",
+            "Parce qu'il est en turc"
+          ],
+          "explanation": "Al-Birgivî garde le nombre de cent mais le divise en régissants, régis et i'râb."
+        },
+        {
+          "prompt": "Quels sont les trois chapitres du livre ?",
+          "options": [
+            "Le nom, le verbe, la particule",
+            "Le régissant, le régi, l'i'râb",
+            "Raf', nasb, jarr",
+            "Sarf, nahw, balâgha"
+          ],
+          "explanation": "Un chapitre pour chacune des trois parties des cent."
+        },
+        {
+          "prompt": "Combien y a-t-il de régissants entendus (samâ'î) ?",
+          "options": [
+            "Neuf",
+            "Deux",
+            "Quarante-neuf",
+            "Vingt"
+          ],
+          "explanation": "En cinq sortes : 20 + 8 + 2 + 4 + 15."
+        },
+        {
+          "prompt": "Que signifie un régissant analogique (qiyâsî) ?",
+          "options": [
+            "Un mot appris dans une liste",
+            "Une idée sans mot",
+            "Un mot qui n'a pas d'effet",
+            "Une règle qui couvre toute une catégorie de mots"
+          ],
+          "explanation": "Par exemple : tout verbe donne le raf' et le nasb."
+        }
+      ],
+      "diagram": {
+        "caption": "Les soixante régissants : 49 entendus, 9 analogiques, 2 abstraits.",
+        "labels": {
+          "The sixty governors: 49 heard, 9 analogical, 2 abstract.": "Les soixante régissants : 49 entendus, 9 analogiques, 2 abstraits.",
+          "The governor": "Le régissant",
+          "Expressed (lafẓī)": "Exprimé (lafzî)",
+          "Heard (samāʿī): 49": "Entendu (samâ'î) : 49",
+          "particles of jarr: 20": "particules du jarr : 20",
+          "inna and its kind: 8": "inna et sa sorte : 8",
+          "mā and lā like laysa: 2": "mâ et lâ semblables à laysa : 2",
+          "naṣb of the verb: 4": "nasb du verbe : 4",
+          "jazm of the verb: 15": "jazm du verbe : 15",
+          "Analogical (qiyāsī): 9": "Analogique (qiyâsî) : 9",
+          "Abstract (maʿnawī): 2": "Abstrait (ma'nawî) : 2"
+        }
+      },
+      "text": [
+        "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux. Louange à Dieu, Seigneur des mondes, et la prière et la paix sur Muhammad et toute sa famille. Ensuite : sache que quiconque cherche à connaître l'i'râb doit connaître cent choses : soixante d'entre elles sont appelées régissant ('âmil), trente d'entre elles sont appelées régi (ma'mûl), et dix d'entre elles sont appelées l'effet de la rection ('amal) et l'i'râb.",
+        "Je vais donc t'exposer ces trois choses, avec la permission de Dieu le Très-Haut, de manière brève, en trois chapitres : le premier chapitre sur le régissant, le deuxième chapitre sur le régi, et le troisième chapitre sur l'i'râb.",
+        "Il est de deux sortes : exprimé (lafzî) et abstrait (ma'nawî). L'exprimé est de deux divisions : entendu (samâ'î) et analogique (qiyâsî). Les entendus sont quarante-neuf, et leurs sortes sont cinq."
+      ]
+    },
+    "2": {
+      "title": "Les particules du jarr (1)",
+      "body": [
+        "La première sorte de régissant entendu, ce sont les particules qui mettent un nom au jarr, et un seul : vingt, « appelées les particules du jarr et les particules de l'idâfa ». Le second nom dit ce qu'elles font pour le sens : elles joignent (adâfa) le sens d'un verbe à un nom, comme dans tubtu ilâ llâhi, où ilâ joint « se repentir » à Dieu. Al-Birgivî dit jarr, le mot de la plupart des livres, là où al-Âjurrûmiyya dit khafd.",
+        "Les dix premières, chacune avec son exemple : bi-, « avec, en » : âmantu bi-llâhi wa-bihi lâ bi-ghayrihi, « je crois en Dieu, en Lui et non en un autre » ; min, « de » : tubtu min kulli dhanbin ; ilâ, « vers » : tubtu ilâ llâhi ta'âlâ, « je suis revenu à Dieu par le repentir » ; 'an, « loin de » : kafaftu 'an al-harâmi, « je me suis tenu loin de l'interdit » ; 'alâ, « sur » : tajibu al-tawbatu 'alâ kulli mudhnibin, « le repentir est une obligation pour tout pécheur ».",
+        "Li-, « pour, appartenant à » : anâ 'ubaydun li-llâhi ta'âlâ, « je suis un humble serviteur de Dieu », où 'ubayd est le diminutif de 'abd qu'enseignait al-Amthila. Fî, « dans » : al-mutî'u fî al-jannati, « l'obéissant est au Paradis ». Ka-, « comme » : laysa ka-mithlihi shay'un, « rien n'est semblable à Lui » (Coran 42:11) ; beaucoup de grammairiens tiennent ce ka- pour ajouté pour l'insistance, puisque « comme » est déjà dit par mithl. Hattâ, « jusqu'à » : a'budu llâha ta'âlâ hattâ al-mawti, « j'adore Dieu jusqu'à la mort ». Rubba, « maint » : rubba tâlin yal'anuhu al-qur'ânu, « maint récitant, le Coran le maudit ».",
+        "Deux remarques. Rubba ne vient que devant un nom indéfini, ici tâlin, « un récitant ». Son yâ' est tombé et le tanwîn se tient sur une kasra : le nom est au jarr, mais le jarr est sous-entendu sur le yâ' perdu. Et hattâ a trois visages dans les livres de la madrasa : une particule du jarr ici, une particule de coordination dans al-Âjurrûmiyya (qadima al-hujjâju hattâ al-mushâtu), et un régissant du verbe au présent-futur (hattâ takhruja). Devant un nom au jarr, comme dans hattâ al-mawti, c'est le premier."
+      ],
+      "terms": [
+        "les particules qui mettent un seul nom au jarr",
+        "leur autre nom : elles joignent le sens d'un verbe à un nom",
+        "le nom au jarr",
+        "le ka- ajouté pour l'insistance (Coran 42:11)"
+      ],
+      "examples": [
+        "âmantu bi-llâhi wa-bihi lâ bi-ghayrihi, « je crois en Dieu, en Lui et non en un autre » : bi-",
+        "kafaftu 'an al-harâmi, « je me suis tenu loin de l'interdit » : 'an",
+        "laysa ka-mithlihi shay'un, « rien n'est semblable à Lui » (Coran 42:11) : ka-",
+        "rubba tâlin yal'anuhu al-qur'ânu, « maint récitant, le Coran le maudit » : rubba devant un nom indéfini"
+      ],
+      "tasks": [
+        {
+          "prompt": "Trouvez chaque particule du jarr et le nom qu'elle régit : tubtu ilâ llâhi ta'âlâ ; al-mutî'u fî al-jannati ; tajibu al-tawbatu 'alâ kulli mudhnibin.",
+          "answer": "Ilâ régit Allâhi ; fî régit al-jannati ; 'alâ régit kulli (et kulli régit mudhnibin par l'idâfa). Chaque nom après la particule est au jarr par la kasra."
+        },
+        {
+          "prompt": "Qu'est-ce que 'ubayd dans anâ 'ubaydun li-llâhi, et qu'ajoute-t-il au sens ?",
+          "answer": "Le diminutif de 'abd sur le schème fu'ayl : « un humble serviteur ». Il exprime l'humilité ; le li- qui suit met Allâh au jarr."
+        },
+        {
+          "prompt": "Donnez les trois emplois de hattâ dans les livres lus jusqu'ici, avec un exemple de chacun, et dites lequel est hattâ al-mawti.",
+          "answer": "Particule du jarr : a'budu llâha hattâ al-mawti (al-Birgivî). Particule de coordination : qadima al-hujjâju hattâ al-mushâtu (al-Âjurrûmiyya). Régissant du nasb du présent-futur : ajlisu hattâ takhruja. Hattâ al-mawti est le premier : al-mawti est au jarr."
+        },
+        {
+          "prompt": "Dans rubba tâlin, pourquoi y a-t-il une kasra avec tanwîn sur le lâm et pas de yâ' ?",
+          "answer": "Tâlin, « un récitant », est un nom dont la dernière lettre était un yâ' (tâlî). Avec le tanwîn, le yâ' tombe et le tanwîn se tient sur la kasra qui le précède. Il est au jarr par rubba, le jarr étant sous-entendu sur le yâ' tombé."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de particules du jarr al-Birgivî compte-t-il ?",
+          "options": [
+            "Dix",
+            "Quinze",
+            "Vingt",
+            "Huit"
+          ],
+          "explanation": "Cette leçon prend les dix premières ; la suivante, les dix autres."
+        },
+        {
+          "prompt": "Pourquoi les appelle-t-on aussi les particules de l'idâfa ?",
+          "options": [
+            "Elles ne viennent que dans des constructions d'idâfa",
+            "Ce sont des noms",
+            "Elles mettent le verbe au jazm",
+            "Elles joignent le sens d'un verbe à un nom"
+          ],
+          "explanation": "Dans tubtu ilâ llâhi, ilâ joint le repentir à Dieu."
+        },
+        {
+          "prompt": "Quelle particule signifie « loin de » ?",
+          "options": [
+            "'An",
+            "'Alâ",
+            "Ilâ",
+            "Fî"
+          ],
+          "explanation": "Kafaftu 'an al-harâmi : « je me suis tenu loin de l'interdit »."
+        },
+        {
+          "prompt": "Dans laysa ka-mithlihi shay'un (Coran 42:11), beaucoup de grammairiens tiennent le ka- pour…",
+          "options": [
+            "une particule du serment",
+            "ajouté pour l'insistance",
+            "un nom",
+            "un signe du féminin"
+          ],
+          "explanation": "« Comme » est déjà dit par mithl."
+        },
+        {
+          "prompt": "Rubba vient devant…",
+          "options": [
+            "un nom défini",
+            "un verbe",
+            "un nom indéfini",
+            "un pronom seulement"
+          ],
+          "explanation": "Rubba tâlin : « maint récitant »."
+        },
+        {
+          "prompt": "Dans a'budu llâha hattâ al-mawti, hattâ est…",
+          "options": [
+            "une particule de coordination",
+            "un régissant du nasb du verbe",
+            "une particule du serment",
+            "une particule du jarr"
+          ],
+          "explanation": "Il met al-mawti au jarr."
+        },
+        {
+          "prompt": "Quel mot al-Birgivî emploie-t-il pour l'état en -i ?",
+          "options": [
+            "Jarr",
+            "Khafd",
+            "Jazm",
+            "Nasb"
+          ],
+          "explanation": "Al-Âjurrûmiyya dit khafd ; al-Birgivî, comme la plupart des livres, jarr."
+        }
+      ],
+      "diagram": {
+        "caption": "Les dix premières particules du jarr",
+        "labels": {
+          "The first ten particles of jarr": "Les dix premières particules du jarr",
+          "Particle": "Particule",
+          "Meaning": "Sens",
+          "Birgivī's example": "Exemple d'al-Birgivî",
+          "الْبَاءُ bi-": "الْبَاءُ bi-",
+          "with, in": "avec, en",
+          "مِنْ min": "مِنْ min",
+          "from, of": "de, parmi",
+          "إِلَى ilā": "إِلَى ilâ",
+          "to": "vers",
+          "عَنْ ʿan": "عَنْ 'an",
+          "away from": "loin de",
+          "عَلَى ʿalā": "عَلَى 'alâ",
+          "on, upon": "sur",
+          "اللَّامُ li-": "اللَّامُ li-",
+          "for, belonging to": "pour, appartenant à",
+          "فِي fī": "فِي fî",
+          "in": "dans",
+          "الْكَافُ ka-": "الْكَافُ ka-",
+          "like": "comme",
+          "حَتَّى ḥattā": "حَتَّى hattâ",
+          "until": "jusqu'à",
+          "رُبَّ rubba": "رُبَّ rubba",
+          "many a": "maint"
+        }
+      },
+      "text": [
+        "La première sorte : des particules qui mettent un seul nom au jarr ; on les appelle les particules du jarr et les particules de l'idâfa, et elles sont vingt. La première est bi-, comme âmantu bi-Allâhi wa-bihi lâ bi-ghayrihi « je crois en Dieu, et en Lui, non en un autre ». La deuxième est min, comme tubtu min kulli dhanbin « je me suis repenti de tout péché ». La troisième est ilâ, comme tubtu ilâ Allâhi ta'âlâ « je suis revenu par le repentir à Dieu le Très-Haut ». La quatrième est 'an, comme kafaftu 'ani al-harâmi « je me suis tenu loin de ce qui est interdit ».",
+        "La cinquième est 'alâ, comme tajibu al-tawbatu 'alâ kulli mudhnibin « le repentir s'impose à tout pécheur ». La sixième est li-, comme anâ 'ubaydun li-Allâhi ta'âlâ « je suis un humble serviteur de Dieu le Très-Haut ». La septième est fî, comme al-mutî'u fî al-jannati « l'obéissant est au Paradis ». La huitième est ka-, comme dans Sa parole, le Très-Haut : laysa ka-mithlihi shay'un « rien n'est semblable à Lui ». La neuvième est hattâ, comme a'budu Allâha ta'âlâ hattâ al-mawti « j'adore Dieu le Très-Haut jusqu'à la mort ». La dixième est rubba, comme rubba tâlin yal'anuhu al-qur'ânu « maint récitant est maudit par le Coran »."
+      ]
+    },
+    "3": {
+      "title": "Les particules du jarr (2)",
+      "body": [
+        "Les dix suivantes forment une compagnie mêlée : deux particules du serment, trois mots d'exception, deux de temps, et trois qui ne mettent un nom au jarr que dans des emplois particuliers. Apprises ensemble, elles complètent les vingt.",
+        "Le serment : wa-llâhi lâ af'alu al-kabâ'ira, « par Dieu, je ne commets pas les grands péchés », avec le wâw ; ta-llâhi la-af'alanna al-farâ'ida, « par Dieu, je ferai certes les obligations », avec le tâ', qui ne s'emploie qu'avec le nom de Dieu. Dans la seconde, la-af'alanna est la réponse du serment, avec un lâm et un nûn d'insistance. L'exception : halaka al-nâsu hâshâ al-'âlimi, « les gens périssent, sauf le savant » ; halaka al-'âlimûna khalâ al-'âmili bi-'amalihi, « les savants périssent, sauf celui qui agit par ses œuvres » ; halaka al-'âmilûna 'adâ al-mukhlisi, « ceux qui agissent périssent, sauf le sincère ». Les trois s'enchaînent, chaque pas plus étroit que le précédent. (Une lithographie ottomane lit bi-'ilmihi, « selon sa science », dans la deuxième, ce qui donne un meilleur sens.)",
+        "Le temps : tubtu min kulli dhanbin fa'altuhu mudh yawmi al-bulûghi, « je me suis repenti de tout péché que j'ai commis depuis le jour de ma puberté » ; tajibu al-salâtu mundhu yawmi al-bulûghi, « la prière est une obligation depuis le jour de la puberté ». Mudh et mundhu donnent le début d'un temps.",
+        "Les trois dernières ne mettent un nom au jarr que dans des cas particuliers. Lawlâ avec un pronom attaché : lawlâka yâ rahmata llâhi la-halaka al-nâsu, « n'eût été toi, ô miséricorde de Dieu, les gens auraient péri » ; Sîbawayh tenait lawlâ pour une particule du jarr dans ce cas, tandis que d'autres disent que le pronom est en position de raf'. Kay devant le mâ de l'interrogation, abrégé en kaymah : kaymah 'asayta, « pourquoi as-tu désobéi ? ». Et la'alla dans le parler de la tribu de 'Uqayl, qui disait la'alla llâhi ta'âlâ yaghfiru dhanbî, « peut-être Dieu pardonnera-t-Il mon péché », avec le jarr ; dans la langue commune, la'alla est une sœur de inna (leçon suivante).",
+        "Le même mot peut donc régir de différentes manières : hâshâ, khalâ et 'adâ mettent ici un nom au jarr, mais al-Âjurrûmiyya permettait aussi le nasb après eux ; la'alla met son nom au jarr dans un parler et au nasb dans tous les autres. Al-Birgivî compte un mot parmi les particules du jarr partout où il donne le jarr."
+      ],
+      "terms": [
+        "le wâw et le tâ' du serment",
+        "la réponse du serment",
+        "des mots d'exception qui mettent un nom au jarr",
+        "depuis : le début d'un temps",
+        "le parler de 'Uqayl, avec le jarr après la'alla"
+      ],
+      "examples": [
+        "ta-llâhi la-af'alanna al-farâ'ida, « par Dieu, je ferai certes les obligations » : le tâ' du serment",
+        "halaka al-nâsu hâshâ al-'âlimi, « les gens périssent, sauf le savant »",
+        "tajibu al-salâtu mundhu yawmi al-bulûghi, « la prière est une obligation depuis le jour de la puberté »",
+        "la'alla llâhi ta'âlâ yaghfiru dhanbî : la'alla avec le jarr, dans le parler de 'Uqayl"
+      ],
+      "tasks": [
+        {
+          "prompt": "Trouvez la particule du jarr et son nom dans chacun : halaka al-'âmilûna 'adâ al-mukhlisi ; wa-llâhi lâ af'alu al-kabâ'ira ; mudh yawmi al-bulûghi.",
+          "answer": "'Adâ régit al-mukhlisi ; le wâw du serment régit Allâhi ; mudh régit yawmi (et yawmi régit al-bulûghi par l'idâfa)."
+        },
+        {
+          "prompt": "Lisez dans l'ordre les trois phrases avec hâshâ, khalâ et 'adâ et expliquez comment elles forment une chaîne.",
+          "answer": "Les gens périssent sauf le savant ; les savants périssent sauf celui qui agit selon ce qu'il sait ; ceux qui agissent périssent sauf le sincère. Chaque phrase prend l'exception de la précédente comme nouveau sujet, en la resserrant chaque fois."
+        },
+        {
+          "prompt": "Qu'est-ce que kaymah, et que signifie kaymah 'asayta ?",
+          "answer": "Kay, ici une particule du jarr, avec le mâ de l'interrogation abrégé en ma et un hâ' [ه] de pause : « pour quoi ? », « pourquoi ? ». Kaymah 'asayta : « pourquoi as-tu désobéi ? »."
+        },
+        {
+          "prompt": "Pourquoi la'alla llâhi a-t-il une kasra sur le nom de Dieu, alors que la leçon suivante a la'alla llâha ?",
+          "answer": "Dans le parler de la tribu de 'Uqayl, la'alla est une particule du jarr et met au jarr le nom qui le suit. Dans la langue commune, c'est une sœur de inna et il met son nom au nasb : la'alla llâha ta'âlâ ghâfirun dhanbî."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le tâ' du serment s'emploie avec…",
+          "options": [
+            "tout nom",
+            "les pronoms",
+            "les verbes",
+            "le nom de Dieu seulement"
+          ],
+          "explanation": "Ta-llâhi ; avec les autres noms, on emploie le wâw ou le bâ'."
+        },
+        {
+          "prompt": "Dans halaka al-nâsu hâshâ al-'âlimi, hâshâ est…",
+          "options": [
+            "une particule du jarr employée pour l'exception",
+            "un verbe au passé",
+            "une particule du serment",
+            "un nom de lieu"
+          ],
+          "explanation": "Al-'âlimi est au jarr par elle."
+        },
+        {
+          "prompt": "Que donnent mudh et mundhu ?",
+          "options": [
+            "La fin d'un temps : jusqu'à",
+            "Le début d'un temps : depuis",
+            "Un lieu",
+            "Un serment"
+          ],
+          "explanation": "Mudh yawmi al-bulûghi : depuis le jour de la puberté."
+        },
+        {
+          "prompt": "Dans le parler de 'Uqayl, la'alla…",
+          "options": [
+            "met son nom au nasb",
+            "met le verbe au jazm",
+            "met son nom au jarr",
+            "ne régit rien"
+          ],
+          "explanation": "La'alla llâhi ta'âlâ yaghfiru dhanbî."
+        },
+        {
+          "prompt": "Que tenait Sîbawayh au sujet de lawlâ avec un pronom (lawlâka) ?",
+          "options": [
+            "Que c'est un verbe",
+            "Que le pronom est au nasb",
+            "Que c'est une faute",
+            "Que lawlâ est alors une particule du jarr"
+          ],
+          "explanation": "D'autres disent que le pronom est en position de raf'."
+        },
+        {
+          "prompt": "Que signifie kaymah 'asayta ?",
+          "options": [
+            "Pourquoi as-tu désobéi ?",
+            "Afin que tu désobéisses",
+            "Tu n'as pas désobéi",
+            "Quand tu as désobéi"
+          ],
+          "explanation": "Kay avec le mâ de l'interrogation : « pour quoi ? »."
+        },
+        {
+          "prompt": "Dans ta-llâhi la-af'alanna al-farâ'ida, la-af'alanna est…",
+          "options": [
+            "une particule du jarr",
+            "la réponse du serment",
+            "un nom au jarr",
+            "le régissant de Allâhi"
+          ],
+          "explanation": "On répond au serment par un lâm et un nûn d'insistance."
+        }
+      ],
+      "diagram": {
+        "caption": "Les dix autres particules du jarr",
+        "labels": {
+          "The second ten particles of jarr": "Les dix autres particules du jarr",
+          "Particle": "Particule",
+          "Use": "Emploi",
+          "Birgivī's example": "Exemple d'al-Birgivî",
+          "وَاوُ الْقَسَمِ wa-": "وَاوُ الْقَسَمِ wa-",
+          "oath": "serment",
+          "تَاءُ الْقَسَمِ ta-": "تَاءُ الْقَسَمِ ta-",
+          "oath, with God's name only": "serment, avec le nom de Dieu seulement",
+          "حَاشَا ḥāshā": "حَاشَا hâshâ",
+          "exception": "exception",
+          "مُذْ mudh": "مُذْ mudh",
+          "since": "depuis",
+          "مُنْذُ mundhu": "مُنْذُ mundhu",
+          "خَلَا khalā": "خَلَا khalâ",
+          "عَدَا ʿadā": "عَدَا 'adâ",
+          "لَوْلَا lawlā": "لَوْلَا lawlâ",
+          "with a pronoun": "avec un pronom",
+          "كَيْ kay": "كَيْ kay",
+          "with the mā of the question": "avec le mâ de l'interrogation",
+          "لَعَلَّ laʿalla": "لَعَلَّ la'alla",
+          "in the dialect of ʿUqayl": "dans le parler de 'Uqayl"
+        }
+      },
+      "text": [
+        "La onzième est le wâw du serment, comme wa-Allâhi lâ af'alu al-kabâ'ira « par Dieu, je ne commets pas les grands péchés ». La douzième est le tâ' du serment, comme ta-Allâhi la-af'alanna al-farâ'ida « par Dieu, je ferai certes les obligations ». La treizième est hâshâ, comme halaka al-nâsu hâshâ al-'âlimi « les gens ont péri, hormis le savant ». La quatorzième est mudh, comme tubtu min kulli dhanbin fa'altuhu mudh yawmi al-bulûghi « je me suis repenti de tout péché que j'ai commis depuis le jour de ma puberté ». La quinzième est mundhu, comme tajibu al-salâtu mundhu yawmi al-bulûghi « la prière s'impose depuis le jour de la puberté ».",
+        "La seizième est khalâ, comme halaka al-'âlimûna khalâ al-'âmili bi-'amalihi « les savants ont péri, hormis celui qui agit dans ses œuvres ». La dix-septième est 'adâ, comme halaka al-'âmilûna 'adâ al-mukhlisi « ceux qui agissent ont péri, sauf le sincère ». La dix-huitième est lawlâ, comme lawlâka yâ rahmata Allâhi la-halaka al-nâsu « n'eût été toi, ô miséricorde de Dieu, les gens auraient péri ». La dix-neuvième est kay, comme kaymah 'asayta « pour quoi as-tu désobéi ? ». La vingtième est la'alla dans le parler de 'Uqayl, comme la'alla Allâhi ta'âlâ yaghfiru dhanbî « peut-être Dieu le Très-Haut pardonnera-t-Il mon péché »."
+      ]
+    },
+    "4": {
+      "title": "Inna et ses sœurs, illâ et lâ",
+      "body": [
+        "La deuxième sorte de régissant entendu, ce sont huit particules qui mettent le nom au nasb et le prédicat au raf'. Six sont celles d'al-Âjurrûmiyya, « appelées les particules semblables au verbe » : inna, anna, ka'anna, lâkinna, layta, la'alla. Al-Birgivî en ajoute deux autres qui font le même travail : illâ dans l'exception disjointe, et le lâ de négation générique. Sa liste est dressée selon ce que fait un mot, non selon ce qu'il signifie.",
+        "Ses exemples enseignent la croyance. Inna llâha ta'âlâ 'âlimu kulli shay'in, « Dieu le Très-Haut connaît toute chose » ; a'taqidu anna llâha ta'âlâ qâdirun 'alâ kulli shay'in, « je tiens que Dieu le Très-Haut a pouvoir sur toute chose », où anna se tient à l'intérieur de la phrase comme complément d'objet de a'taqidu. Ka'anna al-harâma nârun, « c'est comme si l'interdit était du feu ». Mâ fâza al-jâhilu lâkinna al-'âlima fâ'izun, « l'ignorant ne réussit pas, mais le savant réussit ». Layta al-'ilma marzûqun li-kulli ahadin, « si seulement la science était accordée à chacun ». La'alla llâha ta'âlâ ghâfirun dhanbî, « peut-être Dieu le Très-Haut pardonne-t-Il mon péché ».",
+        "Illâ dans l'exception disjointe (al-istithnâ' al-munqati'), où ce qui est excepté n'est pas de la sorte de ce qui précède : al-ma'siyatu mub'idatun 'an al-jannati illâ al-tâ'ata muqarribatun minhâ, « le péché éloigne du Paradis, mais l'obéissance en rapproche ». L'obéissance n'est pas une sorte de péché, elle n'en est donc pas retirée ; illâ signifie ici « mais », et al-Birgivî le compte avec lâkinna : al-tâ'ata son nom au nasb, muqarribatun son prédicat au raf'.",
+        "Le lâ de négation générique : lâ fâ'ila sharrin fâ'izun, « nul auteur de mal ne réussit ». Son nom fâ'ila sharrin est annexé au mot qui le suit, il montre donc une simple fatha (le nom simple d'al-Âjurrûmiyya, lâ rajula, avait une finale fixe sans tanwîn) ; son prédicat fâ'izun est au raf'.",
+        "Dans l'i'râb, la madrasa nomme chaque partie : inna, une particule semblable au verbe, d'insistance ; llâha, son nom, au nasb ; 'âlimu, son prédicat, au raf', et premier terme d'une idâfa ; kulli, au jarr comme second terme ; shay'in, au jarr comme second terme d'une seconde idâfa."
+      ],
+      "terms": [
+        "les six particules semblables au verbe",
+        "l'exception disjointe : l'excepté est d'une autre sorte",
+        "le lâ de négation générique",
+        "le nom de inna (nasb) et son prédicat (raf')"
+      ],
+      "examples": [
+        "inna llâha ta'âlâ 'âlimu kulli shay'in, « Dieu le Très-Haut connaît toute chose »",
+        "ka'anna al-harâma nârun, « c'est comme si l'interdit était du feu »",
+        "le péché éloigne du Paradis, mais l'obéissance en rapproche : illâ au sens de « mais »",
+        "lâ fâ'ila sharrin fâ'izun, « nul auteur de mal ne réussit » : lâ avec un nom annexé au mot suivant"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le nom et le prédicat de chaque particule, avec leurs états : ka'anna al-harâma nârun ; layta al-'ilma marzûqun li-kulli ahadin ; lâ fâ'ila sharrin fâ'izun.",
+          "answer": "Ka'anna : nom al-harâma (nasb), prédicat nârun (raf'). Layta : nom al-'ilma (nasb), prédicat marzûqun (raf'). Lâ : nom fâ'ila (nasb, annexé à sharrin), prédicat fâ'izun (raf')."
+        },
+        {
+          "prompt": "Pourquoi al-Birgivî compte-t-il illâ parmi ces régissants dans al-ma'siyatu mub'idatun 'an al-jannati illâ al-tâ'ata muqarribatun minhâ ?",
+          "answer": "L'exception est disjointe : l'obéissance n'est pas une sorte de péché, rien n'est donc retiré de la première affirmation. Illâ signifie alors « mais », comme lâkinna, et agit comme lui : al-tâ'ata est son nom au nasb et muqarribatun son prédicat au raf'."
+        },
+        {
+          "prompt": "Donnez l'i'râb complet de inna llâha ta'âlâ 'âlimu kulli shay'in.",
+          "answer": "Inna : particule semblable au verbe, d'insistance. Llâha : son nom, au nasb par la fatha. Ta'âlâ : un verbe avec son agent caché, une phrase de louange intercalée (« Il est exalté »). 'Âlimu : le prédicat de inna, au raf' par la damma, et premier terme d'une idâfa. Kulli : au jarr comme second terme, et lui-même premier terme d'une autre. Shay'in : au jarr comme second terme."
+        },
+        {
+          "prompt": "En quoi la liste de ces régissants d'al-Birgivî diffère-t-elle des sœurs de inna d'al-Âjurrûmiyya ?",
+          "answer": "Al-Âjurrûmiyya donne les six particules semblables au verbe. Al-Birgivî ajoute illâ dans l'exception disjointe et le lâ de négation générique, parce qu'ils font le même travail : nasb du nom, raf' du prédicat."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que font les huit particules de cette sorte ?",
+          "options": [
+            "Nasb du nom, raf' du prédicat",
+            "Raf' du nom, nasb du prédicat",
+            "Jarr d'un nom",
+            "Nasb du verbe au présent-futur"
+          ],
+          "explanation": "Inna llâha … 'âlimu."
+        },
+        {
+          "prompt": "Quelles deux particules al-Birgivî ajoute-t-il aux six d'al-Âjurrûmiyya ?",
+          "options": [
+            "Mâ et lâ semblables à laysa",
+            "Illâ dans l'exception disjointe et le lâ de négation générique",
+            "Lam et lammâ",
+            "Kâna et sâra"
+          ],
+          "explanation": "Elles font le même travail que inna."
+        },
+        {
+          "prompt": "Qu'est-ce qu'une exception disjointe (munqati') ?",
+          "options": [
+            "Une exception sans mustathnâ minhu",
+            "Une exception avec une négation",
+            "Une exception où l'excepté n'est pas de la sorte de ce qui précède",
+            "Une exception avec ghayr"
+          ],
+          "explanation": "L'obéissance n'est pas une sorte de péché."
+        },
+        {
+          "prompt": "Dans lâ fâ'ila sharrin fâ'izun, pourquoi fâ'ila montre-t-il une simple fatha ?",
+          "options": [
+            "C'est un verbe",
+            "C'est un diptote",
+            "Il est au raf'",
+            "Il est annexé au mot suivant (mudâf)"
+          ],
+          "explanation": "Un nom simple après lâ a une finale fixe ; un nom mudâf est au nasb."
+        },
+        {
+          "prompt": "Dans a'taqidu anna llâha ta'âlâ qâdirun, la proposition avec anna est…",
+          "options": [
+            "le complément d'objet de a'taqidu",
+            "l'agent de a'taqidu",
+            "un hâl",
+            "un prédicat"
+          ],
+          "explanation": "Anna se tient à l'intérieur de la phrase, sa proposition à la place d'un nom."
+        },
+        {
+          "prompt": "Quelle particule signifie « si seulement » ?",
+          "options": [
+            "La'alla",
+            "Layta",
+            "Ka'anna",
+            "Lâkinna"
+          ],
+          "explanation": "Layta al-'ilma marzûqun li-kulli ahadin."
+        },
+        {
+          "prompt": "Selon quoi al-Birgivî groupe-t-il ses régissants ?",
+          "options": [
+            "Selon leur sens",
+            "Selon leur longueur",
+            "Selon ce qu'ils font aux mots qu'ils régissent",
+            "Selon leur origine"
+          ],
+          "explanation": "C'est pourquoi illâ et lâ se tiennent à côté de inna."
+        }
+      ],
+      "diagram": {
+        "caption": "Les huit qui mettent le nom au nasb et le prédicat au raf'",
+        "labels": {
+          "The eight that put the noun in naṣb and the khabar in rafʿ": "Les huit qui mettent le nom au nasb et le prédicat au raf'",
+          "Particle": "Particule",
+          "Meaning": "Sens",
+          "Birgivī's example": "Exemple d'al-Birgivî",
+          "إِنَّ inna": "إِنَّ inna",
+          "emphasis": "insistance",
+          "أَنَّ anna": "أَنَّ anna",
+          "emphasis, inside a sentence": "insistance, à l'intérieur d'une phrase",
+          "كَأَنَّ kaʾanna": "كَأَنَّ ka'anna",
+          "as if": "comme si",
+          "لَكِنَّ lākinna": "لَكِنَّ lâkinna",
+          "but": "mais",
+          "لَيْتَ layta": "لَيْتَ layta",
+          "if only": "si seulement",
+          "لَعَلَّ laʿalla": "لَعَلَّ la'alla",
+          "perhaps": "peut-être",
+          "إِلَّا illā": "إِلَّا illâ",
+          "but (cut-off exception)": "mais (exception disjointe)",
+          "لَا lā": "لَا lâ",
+          "no … at all": "nul … du tout"
+        }
+      },
+      "text": [
+        "La deuxième sorte : des particules qui mettent le nom au nasb et le prédicat au raf' ; elles sont huit. La première est inna, comme inna Allâha ta'âlâ 'âlimu kulli shay'in « certes, Dieu le Très-Haut connaît toute chose ». La deuxième est anna, comme a'taqidu anna Allâha ta'âlâ qâdirun 'alâ kulli shay'in « je crois que Dieu le Très-Haut a pouvoir sur toute chose ». La troisième est ka'anna, comme ka'anna al-harâma nârun « c'est comme si l'interdit était du feu ». La quatrième est lâkinna, comme mâ fâza al-jâhilu lâkinna al-'âlima fâ'izun « l'ignorant n'a pas réussi, mais le savant réussit ».",
+        "La cinquième est layta, comme layta al-'ilma marzûqun li-kulli ahadin « si seulement la science était accordée à chacun ». La sixième est la'alla, comme la'alla Allâha ta'âlâ ghâfirun dhanbî « peut-être Dieu le Très-Haut pardonne-t-Il mon péché ». Ces six sont appelées les particules semblables au verbe. La septième est illâ dans l'exception disjointe (al-istithnâ' al-munqati'), comme al-ma'siyatu mub'idatun 'ani al-jannati illâ al-tâ'ata muqarribatun minhâ « la désobéissance éloigne du Paradis, mais l'obéissance en rapproche ». La huitième est le lâ qui nie toute la sorte, comme lâ fâ'ila sharrin fâ'izun « nul auteur de mal ne réussit »."
+      ]
+    },
+    "5": {
+      "title": "Mâ et lâ semblables à laysa ; les quatre régissants du nasb",
+      "body": [
+        "La troisième sorte, ce sont deux particules qui font le contraire de inna : elles mettent le nom au raf' et le prédicat au nasb, comme laysa, « n'est pas ». Ce sont mâ et lâ « semblables à laysa » : mâ llâhu ta'âlâ mutamakkinan bi-makânin, « Dieu le Très-Haut n'est pas établi dans un lieu » ; lâ shay'un mushâbihan li-llâhi ta'âlâ, « rien n'est semblable à Dieu le Très-Haut ». Les deux phrases sont des points de la croyance : Dieu n'est pas dans un lieu, et rien ne Lui ressemble.",
+        "Mâ employé de cette façon est l'usage des gens du Hijâz, la langue du Coran, et les grammairiens l'appellent mâ al-hijâziyya ; la tribu de Tamîm ne faisait régir rien à mâ. Lâ agit comme laysa avec un nom indéfini, comme shay'un ici. Mettez cela à côté de la leçon précédente, et le même lâ paraît avec des effets opposés : lâ fâ'ila sharrin fâ'izun, nom au nasb et prédicat au raf' (le lâ générique) ; lâ shay'un mushâbihan, nom au raf' et prédicat au nasb (le lâ semblable à laysa). Les finales vous disent quel lâ vous avez.",
+        "La quatrième sorte, ce sont quatre particules qui mettent le verbe au présent-futur au nasb : an : uhibbu an utî'a llâha ta'âlâ, « j'aime obéir à Dieu le Très-Haut » ; lan : lan yaghfira llâhu ta'âlâ li-l-kâfirîna, « Dieu ne pardonnera jamais aux mécréants » ; kay : uhibbu tûla al-'umuri kay uhassila al-'ilma, « j'aime une longue vie afin d'acquérir la science » ; idhan : idhan tadkhula al-jannata, « alors tu entreras au Paradis », dit à celui qui dit « j'obéis à Dieu ».",
+        "Al-Âjurrûmiyya comptait dix régissants du nasb ; al-Birgivî en compte quatre. Il suit l'avis des Basriens selon lequel le lâm de kay, le lâm de la négation, hattâ et le fâ', le wâw et aw de la réponse mettent le verbe au nasb par un an sous-entendu, et ne sont donc pas des régissants par eux-mêmes. L'élève de la madrasa qui lit les deux livres apprend les deux comptes et pourquoi ils diffèrent."
+      ],
+      "terms": [
+        "mâ et lâ semblables à laysa : raf' du nom, nasb du prédicat",
+        "le mâ du Hijâz, qui agit comme laysa",
+        "les régissants du nasb du présent-futur : an, lan, kay, idhan",
+        "le an sous-entendu, selon l'avis des Basriens"
+      ],
+      "examples": [
+        "mâ llâhu ta'âlâ mutamakkinan bi-makânin, « Dieu le Très-Haut n'est pas établi dans un lieu »",
+        "lâ shay'un mushâbihan li-llâhi ta'âlâ, « rien n'est semblable à Dieu le Très-Haut »",
+        "uhibbu an utî'a llâha ta'âlâ, « j'aime obéir à Dieu le Très-Haut » : an avec le verbe au nasb",
+        "idhan tadkhula al-jannata, « alors tu entreras au Paradis » : idhan répondant à ce qui a été dit"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le nom et le prédicat, avec leurs états : mâ llâhu ta'âlâ mutamakkinan bi-makânin ; lâ shay'un mushâbihan li-llâhi ta'âlâ.",
+          "answer": "Mâ : nom llâhu (raf'), prédicat mutamakkinan (nasb). Lâ : nom shay'un (raf'), prédicat mushâbihan (nasb)."
+        },
+        {
+          "prompt": "Lâ fâ'ila sharrin fâ'izun et lâ shay'un mushâbihan : quel lâ est chacun, et comment les finales le montrent-elles ?",
+          "answer": "Le premier est le lâ générique : son nom est au nasb (fâ'ila) et son prédicat au raf' (fâ'izun). Le second est le lâ semblable à laysa : son nom est au raf' (shay'un) et son prédicat au nasb (mushâbihan)."
+        },
+        {
+          "prompt": "Trouvez le régissant du nasb et le verbe qu'il régit : lan yaghfira llâhu ta'âlâ li-l-kâfirîna ; uhibbu tûla al-'umuri kay uhassila al-'ilma.",
+          "answer": "Lan régit yaghfira, au nasb par la fatha. Kay régit uhassila, au nasb par la fatha."
+        },
+        {
+          "prompt": "Pourquoi al-Birgivî compte-t-il quatre régissants du nasb là où al-Âjurrûmiyya en compte dix ?",
+          "answer": "Il suit l'avis des Basriens : seuls an, lan, kay et idhan régissent par eux-mêmes. Après le lâm de kay, le lâm de la négation, hattâ et le fâ', le wâw et aw de la réponse, le verbe est au nasb par un an sous-entendu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que font mâ et lâ semblables à laysa ?",
+          "options": [
+            "Nasb du nom, raf' du prédicat",
+            "Raf' du nom, nasb du prédicat",
+            "Jarr du nom",
+            "Jazm du verbe"
+          ],
+          "explanation": "Mâ llâhu … mutamakkinan."
+        },
+        {
+          "prompt": "Mâ agissant comme laysa est l'usage…",
+          "options": [
+            "de la tribu de Tamîm",
+            "de la tribu de 'Uqayl",
+            "des gens du Hijâz",
+            "des persanophones"
+          ],
+          "explanation": "D'où son nom, mâ al-hijâziyya."
+        },
+        {
+          "prompt": "Dans lâ shay'un mushâbihan li-llâhi, mushâbihan est…",
+          "options": [
+            "le nom de lâ, au nasb",
+            "un hâl",
+            "le complément d'objet",
+            "le prédicat de lâ, au nasb"
+          ],
+          "explanation": "Le lâ semblable à laysa met le prédicat au nasb."
+        },
+        {
+          "prompt": "Combien de régissants du nasb du présent-futur al-Birgivî compte-t-il ?",
+          "options": [
+            "Quatre",
+            "Dix",
+            "Quinze",
+            "Deux"
+          ],
+          "explanation": "An, lan, kay, idhan."
+        },
+        {
+          "prompt": "Idhan tadkhula al-jannata se dit…",
+          "options": [
+            "au début d'un discours",
+            "en réponse à quelqu'un qui dit « j'obéis à Dieu »",
+            "pour interdire",
+            "dans un serment"
+          ],
+          "explanation": "Idhan répond à ce qui a été dit : « alors tu entreras au Paradis »."
+        },
+        {
+          "prompt": "Lequel est le lâ semblable à laysa ?",
+          "options": [
+            "Lâ fâ'ila sharrin fâ'izun",
+            "Lâ tudhnib",
+            "Lâ shay'un mushâbihan",
+            "Lâ af'alu al-kabâ'ira"
+          ],
+          "explanation": "Nom au raf', prédicat au nasb."
+        },
+        {
+          "prompt": "Selon l'avis des Basriens, après hattâ le verbe est au nasb par…",
+          "options": [
+            "hattâ lui-même",
+            "rien",
+            "lan",
+            "un an sous-entendu"
+          ],
+          "explanation": "Al-Birgivî ne compte donc pas hattâ parmi les régissants du nasb."
+        }
+      ],
+      "diagram": {
+        "caption": "Les troisième et quatrième sortes de régissant entendu",
+        "labels": {
+          "The third and fourth kinds of heard governor": "Les troisième et quatrième sortes de régissant entendu",
+          "Governor": "Régissant",
+          "What it does": "Ce qu'il fait",
+          "Birgivī's example": "Exemple d'al-Birgivî",
+          "مَا mā": "مَا mâ",
+          "rafʿ of the noun, naṣb of the khabar": "raf' du nom, nasb du prédicat",
+          "لَا lā": "لَا lâ",
+          "the same, with an indefinite noun": "de même, avec un nom indéfini",
+          "أَنْ an": "أَنْ an",
+          "naṣb of the present": "nasb du présent-futur",
+          "لَنْ lan": "لَنْ lan",
+          "كَيْ kay": "كَيْ kay",
+          "إِذَنْ idhan": "إِذَنْ idhan"
+        }
+      },
+      "text": [
+        "La troisième sorte : deux particules qui mettent le nom au raf' et le prédicat au nasb ; ce sont mâ et lâ semblables à laysa, comme mâ Allâhu ta'âlâ mutamakkinan bi-makânin « Dieu le Très-Haut n'est pas établi dans un lieu » et wa-lâ shay'un mushâbihan li-Allâhi ta'âlâ « et rien n'est semblable à Dieu le Très-Haut ».",
+        "La quatrième sorte : des particules qui mettent le verbe au mudâri' au nasb ; elles sont quatre. La première est an, comme uhibbu an utî'a Allâha ta'âlâ « j'aime obéir à Dieu le Très-Haut ». La deuxième est lan, comme lan yaghfira Allâhu ta'âlâ li-al-kâfirîna « Dieu le Très-Haut ne pardonnera jamais aux mécréants ». La troisième est kay, comme uhibbu tûla al-'umuri kay uhassila al-'ilma « j'aime une longue vie, afin d'acquérir la science ». La quatrième est idhan, comme lorsque tu dis idhan tadkhula al-jannata « alors tu entreras au Paradis » à celui qui dit utî'u Allâha ta'âlâ « j'obéis à Dieu le Très-Haut »."
+      ]
+    },
+    "6": {
+      "title": "Les quinze régissants du jazm",
+      "body": [
+        "La cinquième sorte de régissant entendu, ce sont quinze mots qui mettent le verbe au présent-futur au jazm. Quatre ne régissent qu'un seul verbe : lam : lam yalid wa-lam yûlad, « Il n'a pas engendré et n'a pas été engendré » (Coran 112:3) ; lammâ : lammâ yanfa' 'umurî, « ma vie n'a pas encore été utile » ; le lâm de l'ordre : li-ya'mal 'amalan sâlihan, « qu'il fasse une bonne œuvre » ; et le lâ de l'interdiction : lâ tudhnib, « ne pèche pas ».",
+        "Onze régissent deux verbes, « appelés condition et rétribution » (shart et jazâ') : in, mahmâ, mâ, man, ayna, matâ, annâ, ayy, haythumâ, idhmâ et idhâ mâ. Dans in tatub tughfar dhunûbuka, « si tu te repens, tes péchés seront pardonnés », tatub est la condition, tughfar la rétribution, tous deux au jazm. Man ya'mal 'amalan sâlihan yakun nâjiyan, « quiconque fait une bonne œuvre sera sauvé ». Ayna takun yudrikka al-mawtu, « où que tu sois, la mort t'atteindra ». Matâ tahsud tahlik, « chaque fois que tu envies, tu péris ».",
+        "Chaque mot de condition ajoute son sens : in « si », man « quiconque », mâ et mahmâ « quoi que », ayna, annâ et haythumâ « où que », matâ « chaque fois que », ayy « quel que soit » : ayyu 'âlimin yatakabbar yubghidhu llâhu ta'âlâ, « quel que soit le savant qui s'enorgueillit, Dieu le Très-Haut le déteste ». Idhmâ et idhâ mâ signifient « chaque fois que, si » : idhâ mâ ta'mal bi-'ilmika takun khayra al-nâsi, « si tu agis selon ta science, tu seras le meilleur des gens ».",
+        "Comparez les dix-huit d'al-Âjurrûmiyya. Al-Birgivî laisse de côté alam et alammâ, qui sont lam et lammâ avec la hamza de l'interrogation, kayfamâ, que les Basriens ne comptent pas, et ayyâna ; et là où al-Âjurrûmiyya a idhâ en poésie, il a idhâ mâ. La même règle se tient derrière les deux listes : un verbe au jazm après les quatre premiers, deux après les mots de condition.",
+        "Regardez les verbes au jazm : plusieurs sont faibles. Tatub de tatûbu et takun de takûnu perdent la voyelle longue devant le sukûn ; lam yalid a perdu le wâw de sa racine dès le présent-futur. Les livres de sarf, le Binâ' et le Maqsûd, expliquent ces changements ; ici, il suffit que le signe du jazm soit le sukûn sur la dernière lettre."
+      ],
+      "terms": [
+        "les régissants du jazm : quinze dans ce livre",
+        "la condition : le premier verbe",
+        "la rétribution : le second verbe, la réponse",
+        "les mots de condition : in, man, mâ …"
+      ],
+      "examples": [
+        "lam yalid wa-lam yûlad, « Il n'a pas engendré et n'a pas été engendré » (Coran 112:3) : lam, un seul verbe",
+        "lâ tudhnib, « ne pèche pas » : le lâ de l'interdiction",
+        "in tatub tughfar dhunûbuka, « si tu te repens, tes péchés seront pardonnés » : condition et rétribution",
+        "man ya'mal 'amalan sâlihan yakun nâjiyan, « quiconque fait une bonne œuvre sera sauvé »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez la condition et la rétribution, et le signe du jazm de chacune : man ya'mal 'amalan sâlihan yakun nâjiyan ; matâ tahsud tahlik.",
+          "answer": "Man : condition ya'mal, rétribution yakun ; toutes deux au jazm par le sukûn (yakun a perdu son û long devant le sukûn). Matâ : condition tahsud, rétribution tahlik ; toutes deux au jazm par le sukûn."
+        },
+        {
+          "prompt": "Lesquels des quinze ne mettent qu'un seul verbe au jazm ? Donnez l'exemple d'al-Birgivî pour chacun.",
+          "answer": "Lam (lam yalid wa-lam yûlad), lammâ (lammâ yanfa' 'umurî), le lâm de l'ordre (li-ya'mal 'amalan sâlihan) et le lâ de l'interdiction (lâ tudhnib)."
+        },
+        {
+          "prompt": "Dans in tatub tughfar dhunûbuka, qu'est-ce que dhunûbuka, et pourquoi tughfar est-il passif ?",
+          "answer": "Tughfar est le présent-futur passif au jazm (la rétribution) : « seront pardonnés ». Dhunûbuka est son substitut de l'agent (nâ'ib al-fâ'il), au raf' : « tes péchés ». Celui qui pardonne n'est pas nommé."
+        },
+        {
+          "prompt": "Quels régissants du jazm d'al-Âjurrûmiyya al-Birgivî laisse-t-il de côté, et qu'a-t-il à la place de idhâ ?",
+          "answer": "Il laisse de côté alam et alammâ (lam et lammâ avec la hamza de l'interrogation), kayfamâ et ayyâna. À la place de idhâ (en poésie seulement), il a idhâ mâ."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de régissants du jazm al-Birgivî compte-t-il ?",
+          "options": [
+            "Dix-huit",
+            "Quatre",
+            "Quinze",
+            "Onze"
+          ],
+          "explanation": "Quatre d'un seul verbe et onze de deux."
+        },
+        {
+          "prompt": "Lequel régit deux verbes ?",
+          "options": [
+            "Lam",
+            "Lammâ",
+            "Le lâ de l'interdiction",
+            "Man"
+          ],
+          "explanation": "Les mots de condition régissent la condition et la rétribution."
+        },
+        {
+          "prompt": "Comment al-Birgivî appelle-t-il les deux verbes après un mot de condition ?",
+          "options": [
+            "Condition et rétribution (shart et jazâ')",
+            "Sujet et prédicat",
+            "Agent et complément d'objet",
+            "Nom et prédicat"
+          ],
+          "explanation": "Le second est la réponse, qu'il appelle rétribution."
+        },
+        {
+          "prompt": "Dans ayna takun yudrikka al-mawtu, al-mawtu est…",
+          "options": [
+            "le complément d'objet",
+            "l'agent de yudrik, au raf'",
+            "la condition",
+            "au jazm"
+          ],
+          "explanation": "La mort t'atteint : al-mawtu est l'agent ; -ka est le complément d'objet."
+        },
+        {
+          "prompt": "Lequel de ces mots n'est pas dans la liste d'al-Birgivî ?",
+          "options": [
+            "Mahmâ",
+            "Idhmâ",
+            "Kayfamâ",
+            "Haythumâ"
+          ],
+          "explanation": "Les Basriens ne comptent pas kayfamâ ; al-Âjurrûmiyya suit les Koufiens."
+        },
+        {
+          "prompt": "Matâ tahsud tahlik signifie…",
+          "options": [
+            "Si tu as envié, tu as péri",
+            "N'envie pas",
+            "Tu n'envieras jamais",
+            "Chaque fois que tu envies, tu péris"
+          ],
+          "explanation": "Matâ : « chaque fois que »."
+        },
+        {
+          "prompt": "Quel est le signe du jazm dans lâ tudhnib ?",
+          "options": [
+            "Le sukûn",
+            "La suppression du nûn",
+            "La fatha",
+            "La suppression d'une lettre faible"
+          ],
+          "explanation": "Tudhnibu → lâ tudhnib."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quinze régissants du jazm d'al-Birgivî",
+        "labels": {
+          "Birgivī's fifteen governors of jazm": "Les quinze régissants du jazm d'al-Birgivî",
+          "Governor": "Régissant",
+          "Verbs": "Verbes",
+          "Birgivī's example": "Exemple d'al-Birgivî",
+          "لَمْ lam": "لَمْ lam",
+          "one": "un",
+          "لَمَّا lammā": "لَمَّا lammâ",
+          "لَامُ الْأَمْرِ li-": "لَامُ الْأَمْرِ li-",
+          "لَا النَّاهِيَةُ lā": "لَا النَّاهِيَةُ lâ",
+          "إِنْ in": "إِنْ in",
+          "two": "deux",
+          "مَهْمَا mahmā": "مَهْمَا mahmâ",
+          "مَا mā": "مَا mâ",
+          "مَنْ man": "مَنْ man",
+          "أَيْنَ ayna": "أَيْنَ ayna",
+          "مَتَى matā": "مَتَى matâ",
+          "أَنَّى annā": "أَنَّى annâ",
+          "أَيٌّ ayy": "أَيٌّ ayy",
+          "حَيْثُمَا ḥaythumā": "حَيْثُمَا haythumâ",
+          "إِذْمَا idhmā": "إِذْمَا idhmâ",
+          "إِذَا مَا idhā mā": "إِذَا مَا idhâ mâ"
+        }
+      },
+      "text": [
+        "La cinquième sorte : des mots qui mettent le verbe au mudâri' au jazm ; ils sont quinze. Le premier est lam, comme dans Sa parole, le Très-Haut : lam yalid wa-lam yûlad « Il n'a pas engendré, et n'a pas été engendré ». Le deuxième est lammâ, comme lammâ yanfa' 'umurî « ma vie n'a pas encore été utile ». Le troisième est le lâm de l'ordre, comme li-ya'mal 'amalan sâlihan « qu'il fasse une œuvre pieuse ». Le quatrième est lâ dans l'interdiction, comme lâ tudhnib « ne pèche pas ». Ces quatre mettent un seul verbe au jazm.",
+        "Le cinquième est in, comme in tatub tughfar dhunûbuka « si tu te repens, tes péchés seront pardonnés ». Le sixième est mahmâ, comme mahmâ taf'al tus'al 'anhu « quoi que tu fasses, tu en seras interrogé ». Le septième est mâ, comme mâ taf'al min khayrin tajidhu 'inda Allâhi ta'âlâ « quelque bien que tu fasses, tu le trouveras auprès de Dieu le Très-Haut ». Le huitième est man, comme man ya'mal 'amalan sâlihan yakun nâjiyan « quiconque fait une œuvre pieuse sera sauvé ». Le neuvième est ayna, comme ayna takun yudrikka al-mawtu « où que tu sois, la mort t'atteindra ». Le dixième est matâ, comme matâ tahsud tahlik « chaque fois que tu envies, tu péris ».",
+        "Le onzième est annâ, comme annâ tudhnib ya'lamka Allâhu ta'âlâ « où que tu pèches, Dieu le Très-Haut te connaît ». Le douzième est ayy, comme ayyu 'âlimin yatakabbar yubghidhu Allâhu ta'âlâ « quel que soit le savant qui s'enorgueillit, Dieu le Très-Haut le déteste ». Le treizième est haythumâ, comme haythumâ taf'al yuktab fi'luka « où que tu agisses, ton acte est inscrit ». Le quatorzième est idhmâ, comme idhmâ tatub tuqbal tawbatuka « si tu te repens, ton repentir est accepté ». Le quinzième est idhâ mâ, comme idhâ mâ ta'mal bi-'ilmika takun khayra al-nâsi « quand tu agis selon ta science, tu es le meilleur des gens ». Ces onze mettent au jazm deux verbes, que l'on appelle la condition (shart) et la réponse (jazâ')."
+      ]
+    },
+    "7": {
+      "title": "Le verbe comme régissant : complet et incomplet",
+      "body": [
+        "Viennent maintenant les régissants analogiques, neuf règles dont chacune couvre toute une catégorie de mots. Le premier et le plus grand est le verbe : « tout verbe donne le raf' et le nasb ». Dans khalaqa llâhu ta'âlâ kulla shay'in, « Dieu le Très-Haut a créé toute chose », le verbe donne le raf' à son agent et le nasb à son complément d'objet. Et même un verbe sans complément d'objet donne le nasb à quelque chose : nazala al-qur'ânu nuzûlan, « le Coran est descendu, d'une descente », où nuzûlan est un complément absolu. Un verbe peut manquer de complément d'objet, mais jamais du pouvoir de mettre quelque chose au nasb : son masdar, un temps, un lieu, un état.",
+        "« Tout verbe doit avoir un nom au raf'. » Si l'énoncé est complet avec ce nom, le verbe est complet (tâmm) : 'alima llâhu ta'âlâ, « Dieu le Très-Haut a su ». S'il ne l'est pas, mais demande en plus un prédicat au nasb, le verbe est incomplet (nâqis) : kâna llâhu ta'âlâ 'alîman hakîman, « Dieu le Très-Haut est Omniscient, Sage ».",
+        "Les verbes incomplets sont les sœurs de kâna d'al-Âjurrûmiyya, et al-Birgivî en donne plusieurs avec des phrases de la croyance et du fiqh : sâra al-'âsî mustahiqqan li-l-'adhâbi, « le désobéissant est devenu passible du châtiment » ; mâ zâla al-mudhnibu ba'îdan min allâhi ta'âlâ, « le pécheur ne cesse d'être loin de Dieu » ; tuqbalu al-tawbatu mâ dâma al-rûhu dâkhilan fî al-badani, « le repentir est accepté tant que l'âme est dans le corps » ; laysa llâhu ta'âlâ jisman, « Dieu le Très-Haut n'est pas un corps ».",
+        "Là où al-Âjurrûmiyya traitait kâna parmi les mots qui entrent sur le sujet et le prédicat, al-Birgivî le traite donc comme un verbe, régi par la même règle que tout verbe, et la différence entre complet et incomplet est seulement de savoir si le nom au raf' suffit. Dans kâna llâhu 'alîman, le nom au raf' est llâhu, le nom de kâna, et 'alîman son prédicat au nasb."
+      ],
+      "terms": [
+        "le verbe complet : son nom au raf' le complète",
+        "le verbe incomplet : il demande un prédicat au nasb",
+        "le régissant analogique : une règle pour une catégorie de mots",
+        "le complément absolu : nuzûlan dans nazala … nuzûlan"
+      ],
+      "examples": [
+        "khalaqa llâhu ta'âlâ kulla shay'in, « Dieu le Très-Haut a créé toute chose » : raf' de l'agent, nasb du complément",
+        "nazala al-qur'ânu nuzûlan, « le Coran est descendu » : un verbe sans complément d'objet donne encore le nasb",
+        "kâna llâhu ta'âlâ 'alîman hakîman : un verbe incomplet avec son nom et son prédicat",
+        "laysa llâhu ta'âlâ jisman, « Dieu le Très-Haut n'est pas un corps »"
+      ],
+      "tasks": [
+        {
+          "prompt": "À quoi le verbe donne-t-il le raf' et le nasb dans khalaqa llâhu ta'âlâ kulla shay'in et dans nazala al-qur'ânu nuzûlan ?",
+          "answer": "Khalaqa : le raf' à llâhu (son agent), le nasb à kulla (son complément d'objet). Nazala : le raf' à al-qur'ânu (son agent), le nasb à nuzûlan (son complément absolu)."
+        },
+        {
+          "prompt": "Complet ou incomplet ? 'alima llâhu ta'âlâ ; sâra al-'âsî mustahiqqan li-l-'adhâbi ; tuqbalu al-tawbatu.",
+          "answer": "'Alima : complet ; l'énoncé est entier avec son agent. Sâra : incomplet ; il demande le prédicat mustahiqqan au nasb. Tuqbalu : complet ; un verbe passif avec son substitut de l'agent, al-tawbatu."
+        },
+        {
+          "prompt": "Donnez le nom et le prédicat du verbe incomplet dans tuqbalu al-tawbatu mâ dâma al-rûhu dâkhilan fî al-badani, et traduisez.",
+          "answer": "Le verbe incomplet est mâ dâma : son nom al-rûhu (raf'), son prédicat dâkhilan (nasb). « Le repentir est accepté tant que l'âme est dans le corps. »"
+        },
+        {
+          "prompt": "En quoi le traitement de kâna par al-Birgivî diffère-t-il de celui d'al-Âjurrûmiyya ?",
+          "answer": "Al-Âjurrûmiyya met kâna et ses sœurs parmi les mots qui entrent sur le sujet et le prédicat. Al-Birgivî les compte comme des verbes sous la règle que tout verbe régit, et les dit incomplets parce que leur nom au raf' ne suffit pas sans un prédicat au nasb."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quel est le premier régissant analogique ?",
+          "options": [
+            "La particule du jarr",
+            "Le masdar",
+            "Le régissant abstrait",
+            "Le verbe, tout verbe"
+          ],
+          "explanation": "Tout verbe donne le raf' et le nasb."
+        },
+        {
+          "prompt": "Un verbe intransitif donne-t-il le nasb à quelque chose ?",
+          "options": [
+            "Oui : à son masdar, à un temps, à un lieu, à un état",
+            "Non, jamais",
+            "Seulement au passif",
+            "Seulement avec une particule"
+          ],
+          "explanation": "Nazala al-qur'ânu nuzûlan."
+        },
+        {
+          "prompt": "Qu'est-ce qui rend un verbe incomplet (nâqis) ?",
+          "options": [
+            "Il n'a pas d'agent",
+            "Il demande un prédicat au nasb en plus de son nom au raf'",
+            "Il est faible",
+            "Il n'a pas de passé"
+          ],
+          "explanation": "Kâna llâhu 'alîman."
+        },
+        {
+          "prompt": "Dans laysa llâhu ta'âlâ jisman, jisman est…",
+          "options": [
+            "le nom de laysa",
+            "le complément d'objet",
+            "le prédicat de laysa, au nasb",
+            "un hâl"
+          ],
+          "explanation": "Laysa est un verbe incomplet."
+        },
+        {
+          "prompt": "« Tout verbe doit avoir… »",
+          "options": [
+            "un complément d'objet",
+            "un prédicat",
+            "un masdar",
+            "un nom au raf'"
+          ],
+          "explanation": "Son agent, son substitut, ou son nom."
+        },
+        {
+          "prompt": "'Alima llâhu ta'âlâ est…",
+          "options": [
+            "un verbe complet avec son agent",
+            "un verbe incomplet",
+            "une phrase nominale",
+            "un verbe sans agent"
+          ],
+          "explanation": "L'énoncé est entier avec le nom au raf'."
+        },
+        {
+          "prompt": "Mâ zâla al-mudhnibu ba'îdan signifie…",
+          "options": [
+            "Le pécheur n'est plus loin",
+            "Le pécheur ne cesse d'être loin",
+            "Le pécheur est devenu loin",
+            "Le pécheur n'est pas loin"
+          ],
+          "explanation": "Mâ zâla : « n'a pas cessé d'être »."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Incomplete (nāqiṣ)": "Incomplet (nâqis)",
+          "Every verb governs": "Tout verbe régit",
+          "Complete (tāmm)": "Complet (tâmm)",
+          "with doer and object": "avec agent et complément d'objet",
+          "with its maṣdar": "avec son masdar",
+          "complete with its doer": "complet avec son agent",
+          "kāna": "kâna",
+          "ṣāra": "sâra",
+          "mā zāla": "mâ zâla",
+          "mā dāma": "mâ dâma",
+          "laysa": "laysa"
+        }
+      },
+      "text": [
+        "Les analogiques sont neuf. Le premier est le verbe, sans restriction : tout verbe met au raf' et au nasb, comme khalaqa Allâhu ta'âlâ kulla shay'in « Dieu le Très-Haut a créé toute chose » et wa-nazala al-qur'ânu nuzûlan « et le Coran est descendu, d'une descente ». Tout verbe doit avoir un mot au raf' : s'il forme avec lui un énoncé complet, on l'appelle verbe complet (fi'l tâmm), comme 'alima Allâhu ta'âlâ « Dieu le Très-Haut a su ».",
+        "S'il n'est pas complet avec lui mais demande un prédicat au nasb, on l'appelle verbe incomplet (fi'l nâqis), comme kâna Allâhu ta'âlâ 'alîman hakîman « Dieu le Très-Haut est de tout temps Omniscient, Sage », wa-sâra al-'âsî mustahiqqan li-al-'adhâbi « et le désobéissant est devenu passible du châtiment », wa-mâ zâla al-mudhnibu ba'îdan mina Allâhi ta'âlâ « et le pécheur n'a pas cessé d'être loin de Dieu le Très-Haut », wa-tuqbalu al-tawbatu mâ dâma al-rûhu dâkhilan fî al-badani « et le repentir est accepté tant que l'âme est dans le corps », et wa-laysa Allâhu ta'âlâ jisman « et Dieu le Très-Haut n'est pas un corps »."
+      ]
+    },
+    "8": {
+      "title": "Les mots qui agissent comme leur verbe",
+      "body": [
+        "Les cinq régissants analogiques suivants sont des noms qui agissent comme agissent leurs verbes. Le participe actif (ism al-fâ'il) fait le travail de son verbe actif : kullu hasûdin muhriqun hasaduhu 'amalahu, « tout envieux, son envie consume ses œuvres ». Muhriqun, le participe de ahraqa, « brûler », donne le raf' à hasaduhu, son agent, et le nasb à 'amalahu, son complément d'objet, exactement comme le ferait yuhriqu.",
+        "Le participe passif (ism al-maf'ûl) fait le travail de son verbe passif : kullu tâ'ibin maqbûlatun tawbatuhu, « tout repentant, son repentir est accepté ». Maqbûlatun donne le raf' à tawbatuhu, le substitut de l'agent, comme le ferait tuqbalu ; il est au féminin parce que tawba l'est. L'adjectif assimilé (al-sifa al-mushabbaha), qui nomme une qualité durable, fait de même : al-'ibâdatu hasanun thawâbuhâ, « l'adoration, sa récompense est belle » ; al-ma'siyatu qabîhun 'adhâbuhâ, « le péché, son châtiment est laid » : hasan et qabîh donnent le raf' au nom qui les suit.",
+        "L'élatif (ism al-tafdîl) agit aussi, mais seulement dans un cas étroit : mâ min rajulin ahsana fîhi al-hilmu minhu fî al-'âlimi, « il n'est pas d'homme en qui la longanimité soit plus belle qu'elle ne l'est chez le savant ». Ahsana donne le raf' au nom apparent al-hilmu, ce que l'élatif ne fait que dans une phrase de cette forme, négative et comparant une chose avec elle-même en deux endroits ; les grammairiens la connaissent comme le cas d'al-kuhl, d'après leur exemple type.",
+        "Le masdar agit comme son verbe : yuhibbu llâhu ta'âlâ i'tâ'ahu 'abdahu faqîran dirhaman, « Dieu le Très-Haut aime qu'il donne à son serviteur, pauvre, un dirham ». I'tâ', le masdar de a'tâ, « donner », prend deux compléments comme son verbe, 'abdahu et dirhaman ; le -hu qui lui est joint nomme celui qui donne ; faqîran décrit l'état du serviteur. La madrasa lit la phrase aussi comme une leçon de charité.",
+        "Ce qui unit ces cinq : chacun est un nom fait à partir d'un verbe, et chacun garde une part du pouvoir du verbe. Al-Amthila enseignait leurs formes ; le 'Awâmil enseigne ce qu'ils font."
+      ],
+      "terms": [
+        "le participe actif : agit comme son verbe actif",
+        "le participe passif : agit comme son verbe passif",
+        "l'adjectif assimilé : une qualité durable",
+        "l'élatif : agit dans un cas étroit",
+        "le nom verbal : agit comme son verbe"
+      ],
+      "examples": [
+        "kullu hasûdin muhriqun hasaduhu 'amalahu : le participe muhriqun avec son agent et son complément",
+        "kullu tâ'ibin maqbûlatun tawbatuhu : le participe passif avec son substitut de l'agent",
+        "al-'ibâdatu hasanun thawâbuhâ, « l'adoration, sa récompense est belle » : l'adjectif assimilé",
+        "le masdar i'tâ' avec ses deux compléments, comme son verbe a'tâ"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dans kullu hasûdin muhriqun hasaduhu 'amalahu, trouvez le régissant, son nom au raf' et son nom au nasb, et traduisez.",
+          "answer": "Régissant : muhriqun, le participe actif de ahraqa. Au raf' : hasaduhu, son agent. Au nasb : 'amalahu, son complément d'objet. « Tout envieux, son envie consume ses œuvres. »"
+        },
+        {
+          "prompt": "Pourquoi maqbûlatun est-il au féminin dans kullu tâ'ibin maqbûlatun tawbatuhu, alors que tâ'ib est masculin ?",
+          "answer": "Le participe passif agit comme son verbe, et un verbe s'accorde avec le nom qu'il met au raf' : ici tawbatuhu, « son repentir », qui est féminin (comme tuqbalu tawbatuhu)."
+        },
+        {
+          "prompt": "Que régissent hasanun et qabîhun dans al-'ibâdatu hasanun thawâbuhâ wa-l-ma'siyatu qabîhun 'adhâbuhâ ?",
+          "answer": "Chacun est un adjectif assimilé et donne le raf' au nom qui le suit : hasanun à thawâbuhâ, qabîhun à 'adhâbuhâ."
+        },
+        {
+          "prompt": "Lequel des cinq n'agit que dans un cas étroit, et quel est ce cas ?",
+          "answer": "L'élatif. Il ne donne le raf' à un nom apparent que dans une phrase négative qui compare une chose avec elle-même en deux endroits, comme mâ min rajulin ahsana fîhi al-hilmu minhu fî al-'âlimi (le cas d'al-kuhl)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le participe actif agit comme…",
+          "options": [
+            "son verbe actif",
+            "son verbe passif",
+            "une particule du jarr",
+            "le masdar"
+          ],
+          "explanation": "Muhriqun hasaduhu 'amalahu : agent et complément."
+        },
+        {
+          "prompt": "Le participe passif agit comme…",
+          "options": [
+            "son verbe actif",
+            "son verbe passif",
+            "inna",
+            "kâna"
+          ],
+          "explanation": "Maqbûlatun tawbatuhu : le substitut de l'agent."
+        },
+        {
+          "prompt": "Que nomme l'adjectif assimilé (al-sifa al-mushabbaha) ?",
+          "options": [
+            "Un acte fait une fois",
+            "Un lieu",
+            "Une qualité durable",
+            "Un instrument"
+          ],
+          "explanation": "Hasan, qabîh."
+        },
+        {
+          "prompt": "Dans al-'ibâdatu hasanun thawâbuhâ, thawâbuhâ est…",
+          "options": [
+            "au nasb par hasanun",
+            "le mubtada'",
+            "au jarr",
+            "au raf' par hasanun"
+          ],
+          "explanation": "L'adjectif donne le raf' au nom qui le suit."
+        },
+        {
+          "prompt": "Quand l'élatif donne-t-il le raf' à un nom apparent ?",
+          "options": [
+            "Seulement dans un cas étroit, le cas d'al-kuhl",
+            "Toujours",
+            "Jamais",
+            "Seulement après min"
+          ],
+          "explanation": "Mâ min rajulin ahsana fîhi al-hilmu minhu fî al-'âlimi."
+        },
+        {
+          "prompt": "Dans yuhibbu llâhu i'tâ'ahu 'abdahu faqîran dirhaman, qu'est-ce qui régit dirhaman ?",
+          "options": [
+            "Le verbe yuhibbu",
+            "Le masdar i'tâ'",
+            "'Abdahu",
+            "Faqîran"
+          ],
+          "explanation": "I'tâ' prend deux compléments, comme a'tâ."
+        },
+        {
+          "prompt": "Qu'est-ce qui unit ces cinq régissants ?",
+          "options": [
+            "Chacun est une particule",
+            "Chacun met un verbe au jazm",
+            "Chacun est un nom fait à partir d'un verbe qui garde une part de son pouvoir",
+            "Chacun est abstrait"
+          ],
+          "explanation": "Al-Amthila enseignait leurs formes ; le 'Awâmil, ce qu'ils font."
+        }
+      ],
+      "diagram": {
+        "caption": "Cinq noms qui agissent comme leurs verbes",
+        "labels": {
+          "Five nouns that work like their verbs": "Cinq noms qui agissent comme leurs verbes",
+          "Governor": "Régissant",
+          "Works like": "Agit comme",
+          "What it governs": "Ce qu'il régit",
+          "Example": "Exemple",
+          "active participle": "participe actif",
+          "its active verb": "son verbe actif",
+          "doer, object": "agent, complément d'objet",
+          "passive participle": "participe passif",
+          "its passive verb": "son verbe passif",
+          "deputy of the doer": "substitut de l'agent",
+          "adjective like the participle": "adjectif assimilé",
+          "its verb": "son verbe",
+          "a noun in rafʿ": "un nom au raf'",
+          "elative": "élatif",
+          "its verb, in one case": "son verbe, dans un cas",
+          "a visible noun in rafʿ": "un nom apparent au raf'",
+          "maṣdar": "masdar",
+          "doer, objects": "agent, compléments"
+        }
+      },
+      "text": [
+        "Le deuxième est le participe actif (ism al-fâ'il) : il régit comme régit son verbe actif, comme kullu hasûdin muhriqun hasaduhu 'amalahu « tout envieux, son envie consume ses œuvres ». Le troisième est le participe passif (ism al-maf'ûl) : il régit comme régit son verbe passif, comme kullu tâ'ibin maqbûlatun tawbatuhu « tout repentant, son repentir est accepté ». Le quatrième est l'adjectif assimilé (al-sifa al-mushabbaha) : lui aussi régit comme régit son verbe, comme al-'ibâdatu hasanun thawâbuhâ « l'adoration, sa récompense est bonne » et wa-al-ma'siyatu qabîhun 'adhâbuhâ « et la désobéissance, son châtiment est laid ».",
+        "Le cinquième est l'élatif (ism al-tafdîl) : lui aussi régit comme régit son verbe, comme mâ min rajulin ahsana fîhi al-hilmu minhu fî al-'âlimi « il n'est pas d'homme en qui la longanimité soit plus belle qu'elle ne l'est chez le savant ». Le sixième est le masdar : lui aussi régit comme régit son verbe, comme yuhibbu Allâhu ta'âlâ i'tâ'ahu 'abdahu faqîran dirhaman « Dieu le Très-Haut aime qu'il donne à son serviteur, pauvre [comme il est], un dirham »."
+      ]
+    },
+    "9": {
+      "title": "Le mudâf, le nom vague, le sens du verbe ; les régissants abstraits",
+      "body": [
+        "Le septième régissant analogique est le nom annexé à un autre (al-mudâf), qui met le second au jarr : 'ibâdatu llâhi ta'âlâ khayrun, « l'adoration de Dieu le Très-Haut est un bien ». Ici, 'ibâda est le régissant d'Allâh. Al-Âjurrûmiyya parlait du nom « au khafd par l'idâfa » ; al-Birgivî nomme le premier terme lui-même comme régissant.",
+        "Le huitième est le nom vague complet (al-ism al-mubham al-tâmm), qui met sa spécification (tamyîz) au nasb : al-tarâwîhu 'ishrûna rak'atan, « les tarâwîh sont vingt rak'as ». 'Ishrûna est vague, vingt quoi ?, et complet, finissant par son nûn ; il régit donc rak'atan au nasb. L'exemple est un point de fiqh hanafite, les vingt rak'as de la prière nocturne du Ramadan, placé dans une leçon sur les nombres.",
+        "Le neuvième est le sens du verbe (ma'nâ al-fi'l) : « tout vocable dont on comprend le sens d'un verbe ». Hayhâta al-mudhnibu min allâhi ta'âlâ, « comme le pécheur est loin de Dieu ! » : hayhâta signifie « il est loin » et donne le raf' à al-mudhnibu. Tarâki dhanban, « laisse le péché ! » : tarâki signifie « laisse ! » et donne le nasb à dhanban. Mâ fî al-dunyâ râhatun, « il n'y a pas de repos en ce monde » : fî al-dunyâ porte le sens de « se trouve », et les commentaires lisent râhatun comme régi par lui. Et yanbaghî li-l-'âlimi an yakûna muhammadiyyan khuluquhu, « le savant doit être de ceux dont le caractère est muhammadien » : l'adjectif de relation muhammadiyyan, « qui se rapporte à Muhammad », donne le raf' à khuluquhu.",
+        "Les deux régissants abstraits ferment les soixante. Le premier est « ce qui met au raf' le sujet et le prédicat » : Muhammadun rasûlu llâhi, où aucun mot ne se tient avant Muhammad ; le fait qu'il soit placé en tête est ce qui régit. Le second est « ce qui met au raf' le verbe au présent-futur » : yarhamu llâhu ta'âlâ al-tâ'iba, « Dieu le Très-Haut fait miséricorde au repentant », où yarhamu est au raf' parce qu'aucun régissant du nasb ou du jazm n'est entré sur lui.",
+        "Avec eux, le premier chapitre est achevé : quarante-neuf régissants entendus, neuf analogiques, deux abstraits. L'élève qui sait nommer le régissant de chaque mot des phrases d'al-Birgivî a appris le chapitre."
+      ],
+      "terms": [
+        "le nom annexé : il met le nom suivant au jarr",
+        "le nom vague complet : il met sa spécification au nasb",
+        "le sens du verbe : des mots qui agissent par le sens d'un verbe",
+        "un nom au sens de verbe : hayhâta, tarâki",
+        "le régissant abstrait : deux en tout"
+      ],
+      "examples": [
+        "'ibâdatu llâhi ta'âlâ khayrun, « l'adoration de Dieu le Très-Haut est un bien » : le mudâf régit Allâh",
+        "al-tarâwîhu 'ishrûna rak'atan, « les tarâwîh sont vingt rak'as » : le nom vague régit sa spécification",
+        "hayhâta al-mudhnibu min allâhi ta'âlâ, « comme le pécheur est loin de Dieu ! » : un nom au sens de verbe",
+        "yarhamu llâhu ta'âlâ al-tâ'iba : le présent-futur au raf' par un régissant abstrait"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le régissant du second mot dans chacun, et l'état qu'il donne : 'ibâdatu llâhi ; 'ishrûna rak'atan ; hayhâta al-mudhnibu ; tarâki dhanban.",
+          "answer": "Llâhi : 'ibâda, le mudâf (jarr). Rak'atan : 'ishrûna, le nom vague complet (nasb comme spécification). Al-mudhnibu : hayhâta, un nom qui signifie « il est loin » (raf' comme son agent). Dhanban : tarâki, un nom qui signifie « laisse ! » (nasb comme son complément d'objet)."
+        },
+        {
+          "prompt": "Pourquoi 'ishrûna est-il dit « vague » et « complet » ?",
+          "answer": "Vague, parce que « vingt » ne dit rien de ce qui est compté avant que ne vienne la spécification. Complet, parce qu'il finit par son nûn et n'est pas annexé à un mot suivant ; il met donc la spécification au nasb."
+        },
+        {
+          "prompt": "Qu'est-ce qui régit Muhammadun dans Muhammadun rasûlu llâhi, et yarhamu dans yarhamu llâhu ta'âlâ al-tâ'iba ?",
+          "answer": "Les deux sont régis par des régissants abstraits. Muhammadun : le fait qu'il soit placé en tête pour qu'on en parle (ce qui régit le sujet et le prédicat). Yarhamu : le fait qu'il soit libre de tout régissant du nasb et du jazm."
+        },
+        {
+          "prompt": "Dans yanbaghî li-l-'âlimi an yakûna muhammadiyyan khuluquhu, que régit muhammadiyyan, et pourquoi le peut-il ?",
+          "answer": "Il donne le raf' à khuluquhu. Muhammadiyyan est un adjectif de relation, qui signifie « qui se rapporte à Muhammad » ; on en comprend le sens d'un verbe, et il régit donc par le sens du verbe."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Dans 'ibâdatu llâhi, qu'est-ce qui régit Allâh ?",
+          "options": [
+            "Une particule du jarr sous-entendue",
+            "'Ibâda, le mudâf",
+            "Le régissant abstrait",
+            "Rien"
+          ],
+          "explanation": "Al-Birgivî nomme le premier terme de l'idâfa comme régissant."
+        },
+        {
+          "prompt": "Que régit le nom vague complet ?",
+          "options": [
+            "Un verbe au jazm",
+            "Son agent, au raf'",
+            "Sa spécification, au nasb",
+            "Un nom au jarr"
+          ],
+          "explanation": "'Ishrûna rak'atan."
+        },
+        {
+          "prompt": "Que signifie hayhâta ?",
+          "options": [
+            "Laisse !",
+            "Il n'y a pas",
+            "Peut-être",
+            "Il est loin"
+          ],
+          "explanation": "Il donne le raf' à al-mudhnibu comme son agent."
+        },
+        {
+          "prompt": "Tarâki dhanban signifie…",
+          "options": [
+            "Laisse le péché !",
+            "Ton péché est loin",
+            "Il n'y a pas de péché",
+            "Le péché t'a quitté"
+          ],
+          "explanation": "Tarâki, un nom au sens de « laisse ! », donne le nasb à dhanban."
+        },
+        {
+          "prompt": "Combien y a-t-il de régissants abstraits ?",
+          "options": [
+            "Un",
+            "Deux",
+            "Neuf",
+            "Soixante"
+          ],
+          "explanation": "Ce qui met au raf' le sujet et le prédicat, et ce qui met au raf' le verbe au présent-futur."
+        },
+        {
+          "prompt": "Qu'est-ce qui met yarhamu au raf' dans yarhamu llâhu ?",
+          "options": [
+            "Llâhu, son agent",
+            "La particule yâ",
+            "Le fait qu'il soit libre de tout régissant du nasb et du jazm",
+            "Le régissant abstrait du sujet"
+          ],
+          "explanation": "Le second régissant abstrait."
+        },
+        {
+          "prompt": "Al-tarâwîhu 'ishrûna rak'atan enseigne aussi…",
+          "options": [
+            "un point de croyance",
+            "une règle de sarf",
+            "un verset du Coran",
+            "un point de fiqh hanafite : vingt rak'as"
+          ],
+          "explanation": "Les exemples d'al-Birgivî enseignent la conduite autant que la grammaire."
+        }
+      ],
+      "diagram": {
+        "caption": "Les derniers régissants analogiques et les deux abstraits",
+        "labels": {
+          "The last analogical governors and the two abstract ones": "Les derniers régissants analogiques et les deux abstraits",
+          "Governor": "Régissant",
+          "Kind": "Sorte",
+          "It governs": "Il régit",
+          "Example": "Exemple",
+          "the muḍāf": "le mudâf",
+          "analogical": "analogique",
+          "the next noun in jarr": "le nom suivant au jarr",
+          "the complete vague noun": "le nom vague complet",
+          "its tamyīz in naṣb": "sa spécification au nasb",
+          "the meaning of the verb": "le sens du verbe",
+          "rafʿ or naṣb, as its verb": "raf' ou nasb, comme son verbe",
+          "being put first": "le fait d'être placé en tête",
+          "abstract": "abstrait",
+          "the subject and the predicate": "le sujet et le prédicat",
+          "being free of governors": "le fait d'être libre de régissants",
+          "the present in rafʿ": "le présent-futur au raf'"
+        }
+      },
+      "text": [
+        "Le septième est le nom mudâf : il régit le jarr, comme 'ibâdatu Allâhi ta'âlâ khayrun « l'adoration de Dieu le Très-Haut est un bien ». Le huitième est le nom vague complet (al-ism al-mubham al-tâmm) : il régit le nasb, comme al-tarâwîhu 'ishrûna rak'atan « les tarâwîh sont vingt rak'as ».",
+        "Le neuvième est le sens du verbe (ma'nâ al-fi'l), c'est-à-dire tout vocable dont on comprend le sens d'un verbe, comme hayhâta al-mudhnibu mina Allâhi ta'âlâ « comme le pécheur est loin de Dieu le Très-Haut ! » et wa-tarâki dhanban « et laisse le péché ! » ; et comme mâ fî al-dunyâ râhatun « il n'y a pas de repos en ce monde » ; et comme yanbaghî li-al-'âlimi an yakûna muhammadiyyan khuluquhu « le savant doit être de ceux dont le caractère est semblable à celui de Muhammad ».",
+        "Les abstraits sont deux. Le premier est ce qui met au raf' le mubtada' et le khabar, comme Muhammadun rasûlu Allâhi « Muhammad est le Messager de Dieu » ; le second est ce qui met au raf' le verbe au mudâri', comme yarhamu Allâhu ta'âlâ al-tâ'iba « Dieu le Très-Haut fait miséricorde au repentant »."
+      ]
+    },
+    "10": {
+      "title": "Le régi ; les neuf au raf'",
+      "body": [
+        "Le deuxième chapitre passe des régissants aux mots qu'ils régissent, et les range d'abord en deux. Certains sont régis par eux-mêmes (bi-l-asâla) : un régissant agit directement sur eux. D'autres sont régis par dépendance (bi-l-taba'iyya) : « leur i'râb est comme l'i'râb de ce qu'ils suivent », l'épithète, la coordination et le reste. La première sorte est de quatre espèces : au raf', au nasb, au jarr (les noms seulement), et au jazm (les verbes seulement).",
+        "Neuf sont au raf'. L'agent : rahima llâhu ta'âlâ al-tâ'iba, « Dieu le Très-Haut a fait miséricorde au repentant ». Le substitut de l'agent : ruhima al-tâ'ibu, « le repentant a reçu miséricorde ». Le sujet et le prédicat : Muhammadun khâtamu al-anbiyâ'i, « Muhammad est le sceau des prophètes ». Le nom de kâna et de ses sœurs : kâna llâhu ta'âlâ 'alîman hakîman.",
+        "Le prédicat de inna et de ses sœurs : inna al-ba'tha haqqun, « la résurrection est vérité ». Le prédicat du lâ générique : lâ 'amala murâ'in maqbûlun, « nulle œuvre d'un ostentateur n'est acceptée ». Le nom de mâ et de lâ semblables à laysa : mâ al-takabburu lâ'iqan li-l-'âlimi, « l'orgueil ne convient pas au savant », wa-lâ hasadun halâlan, « et nulle envie n'est licite ». Et le verbe au présent-futur libre des régissants du nasb et du jazm : yuhibbu llâhu ta'âlâ al-tawâdu'a, « Dieu le Très-Haut aime l'humilité ».",
+        "Mettez la liste à côté des sept d'al-Âjurrûmiyya. Al-Birgivî en ajoute trois : le prédicat du lâ générique et le nom de mâ et de lâ semblables à laysa, parce qu'il a compté ces régissants, et le verbe au présent-futur au raf', parce que ses régis comprennent des verbes. Les suivants, il les laisse pour la fin du chapitre, comme seconde sorte. Chaque élément ici est l'autre face d'un régissant du chapitre premier : l'agent du verbe, le prédicat de inna, le nom de mâ."
+      ],
+      "terms": [
+        "régi par lui-même",
+        "régi par dépendance : les suivants",
+        "le suivi",
+        "les mots au raf' : neuf dans ce livre"
+      ],
+      "examples": [
+        "l'agent, et le substitut de l'agent : « Dieu a fait miséricorde au repentant », « le repentant a reçu miséricorde »",
+        "inna al-ba'tha haqqun, « la résurrection est vérité » : le prédicat de inna",
+        "lâ 'amala murâ'in maqbûlun, « nulle œuvre d'un ostentateur n'est acceptée » : le prédicat de lâ",
+        "yuhibbu llâhu ta'âlâ al-tawâdu'a, « Dieu le Très-Haut aime l'humilité » : le verbe au présent-futur au raf'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Trouvez chaque mot au raf' et dites lequel des neuf il est : Muhammadun khâtamu al-anbiyâ'i ; inna al-ba'tha haqqun ; mâ al-takabburu lâ'iqan li-l-'âlimi.",
+          "answer": "Muhammadun : le sujet ; khâtamu : le prédicat. Haqqun : le prédicat de inna. Al-takabburu : le nom de mâ semblable à laysa."
+        },
+        {
+          "prompt": "Trouvez les deux mots au raf' dans yuhibbu llâhu ta'âlâ al-tawâdu'a, et nommez le régissant de chacun.",
+          "answer": "Yuhibbu, le verbe au présent-futur, au raf' parce qu'il est libre de tout régissant du nasb et du jazm (un régissant abstrait). Llâhu, son agent, au raf' par le verbe."
+        },
+        {
+          "prompt": "Quelle est la différence entre un mot régi par lui-même et un mot régi par dépendance ?",
+          "answer": "Un mot régi par lui-même a un régissant qui agit directement sur lui (l'agent par son verbe). Un mot régi par dépendance a l'i'râb du mot qu'il suit (une épithète prend l'état de son nom)."
+        },
+        {
+          "prompt": "Quels trois mots au raf' al-Birgivî a-t-il que n'ont pas les sept d'al-Âjurrûmiyya, et pourquoi ?",
+          "answer": "Le prédicat du lâ générique, le nom de mâ et de lâ semblables à laysa, et le verbe au présent-futur au raf'. Il a compté ces régissants au chapitre premier, et ses régis comprennent des verbes autant que des noms."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de mots au raf' al-Birgivî compte-t-il ?",
+          "options": [
+            "Sept",
+            "Treize",
+            "Neuf",
+            "Deux"
+          ],
+          "explanation": "Il en ajoute trois aux sept d'al-Âjurrûmiyya."
+        },
+        {
+          "prompt": "Dans ruhima al-tâ'ibu, al-tâ'ibu est…",
+          "options": [
+            "l'agent",
+            "le complément d'objet",
+            "le sujet",
+            "le substitut de l'agent"
+          ],
+          "explanation": "Le verbe passif laisse l'agent non nommé."
+        },
+        {
+          "prompt": "Dans lâ 'amala murâ'in maqbûlun, qu'est-ce qui est au raf' ?",
+          "options": [
+            "Maqbûlun, le prédicat de lâ",
+            "'Amala, le nom de lâ",
+            "Murâ'in",
+            "Rien"
+          ],
+          "explanation": "Le lâ générique : nom au nasb, prédicat au raf'."
+        },
+        {
+          "prompt": "Lequel est au raf' dans mâ al-takabburu lâ'iqan ?",
+          "options": [
+            "Lâ'iqan, le prédicat",
+            "Al-takabburu, le nom de mâ",
+            "Les deux",
+            "Aucun"
+          ],
+          "explanation": "Mâ semblable à laysa : nom au raf', prédicat au nasb."
+        },
+        {
+          "prompt": "Quels régis sont « régis par dépendance » ?",
+          "options": [
+            "L'agent et le complément d'objet",
+            "Les verbes",
+            "Les suivants : épithète, coordination et le reste",
+            "Les mots au jarr"
+          ],
+          "explanation": "Leur i'râb est celui de ce qu'ils suivent."
+        },
+        {
+          "prompt": "Quelle espèce de régi appartient aux verbes seulement ?",
+          "options": [
+            "Le mot au jarr",
+            "Le mot au raf'",
+            "Le mot au nasb",
+            "Le mot au jazm"
+          ],
+          "explanation": "Le jarr n'appartient qu'aux noms, le jazm qu'aux verbes."
+        },
+        {
+          "prompt": "Pourquoi al-Birgivî range-t-il un verbe parmi les mots au raf' ?",
+          "options": [
+            "Ses régis comprennent des verbes autant que des noms",
+            "Par erreur",
+            "Parce que les verbes sont des noms",
+            "À cause de kâna"
+          ],
+          "explanation": "Yuhibbu est au raf', libre de tout régissant du nasb et du jazm."
+        }
+      ],
+      "diagram": {
+        "caption": "Les neuf au raf'",
+        "labels": {
+          "The nine in rafʿ": "Les neuf au raf'",
+          "Word in rafʿ": "Mot au raf'",
+          "Its governor": "Son régissant",
+          "Birgivī's example": "Exemple d'al-Birgivî",
+          "the doer": "l'agent",
+          "the verb": "le verbe",
+          "the deputy of the doer": "le substitut de l'agent",
+          "the passive verb": "le verbe passif",
+          "the subject": "le sujet",
+          "being put first": "le fait d'être placé en tête",
+          "the predicate": "le prédicat",
+          "the noun of kāna": "le nom de kâna",
+          "kāna": "kâna",
+          "the predicate of inna": "le prédicat de inna",
+          "inna": "inna",
+          "the predicate of lā of the kind": "le prédicat du lâ générique",
+          "lā": "lâ",
+          "the noun of mā, lā like laysa": "le nom de mâ, lâ semblables à laysa",
+          "mā, lā": "mâ, lâ",
+          "the present verb": "le verbe au présent-futur",
+          "freedom from governors": "le fait d'être libre de régissants"
+        }
+      },
+      "text": [
+        "Il est de deux sortes : régi par lui-même (bi-l-asâla) et régi par dépendance (bi-l-taba'iyya), c'est-à-dire que son i'râb est comme l'i'râb du mot qu'il suit. La première sorte est de quatre espèces : le marfû' ; le mansûb ; le majrûr, qui n'appartient qu'au nom ; et le majzûm, qui n'appartient qu'au verbe.",
+        "Quant au marfû', il est neuf. Le premier est le fâ'il, comme rahima Allâhu ta'âlâ al-tâ'iba « Dieu le Très-Haut a fait miséricorde au repentant ». Le deuxième est le substitut de l'agent (nâ'ib al-fâ'il), comme ruhima al-tâ'ibu « le repentant a reçu miséricorde ». Le troisième est le mubtada', et le quatrième le khabar, comme Muhammadun khâtamu al-anbiyâ'i 'alayhimu al-salâtu wa-al-salâmu « Muhammad est le sceau des prophètes, sur eux la prière et la paix ». Le cinquième est le nom de la catégorie de kâna et de ses sœurs, comme kâna Allâhu ta'âlâ 'alîman hakîman « Dieu le Très-Haut est de tout temps Omniscient, Sage ».",
+        "Le sixième est le khabar de la catégorie de inna, comme inna al-ba'tha haqqun « certes, la résurrection est vérité ». Le septième est le khabar du lâ qui nie toute la sorte, comme lâ 'amala murâ'in maqbûlun « nulle œuvre de celui qui agit par ostentation n'est acceptée ». Le huitième est le nom de mâ et de lâ semblables à laysa, comme mâ al-takabburu lâ'iqan li-al-'âlimi « l'orgueil ne convient pas à un savant » et wa-lâ hasadun halâlan « et nulle envie n'est licite ». Le neuvième est le verbe au mudâri' libre des nawâsib et des jawâzim, comme yuhibbu Allâhu ta'âlâ al-tawâdu'a « Dieu le Très-Haut aime l'humilité »."
+      ]
+    },
+    "11": {
+      "title": "Les mots au nasb (1) : les cinq compléments et plus",
+      "body": [
+        "Treize sont au nasb, et al-Birgivî commence par les cinq compléments, sous les noms qu'emploient les livres ultérieurs. Le complément absolu (al-maf'ûl al-mutlaq) : tubtu tawbatan nasûhan, « je me suis repenti d'un repentir sincère ». Le complément d'objet (al-maf'ûl bihi) : u'budi llâha ta'âlâ, « adore Dieu le Très-Haut ». Le complément de temps ou de lieu (al-maf'ûl fîhi), le zarf : sum shahra ramadâna, « jeûne le mois de Ramadan ». Le complément de cause (al-maf'ûl lahu) : i'mal talaban li-mardâti llâhi ta'âlâ, « agis en recherchant l'agrément de Dieu le Très-Haut ». Le complément d'accompagnement (al-maf'ûl ma'ahu) : yafnâ al-mâlu wa-tabqâ wa-'amalaka, « la richesse périt, et tu demeures, avec tes œuvres ».",
+        "Dans le dernier exemple, le wâw devant 'amalaka signifie « avec » : tu demeures en compagnie de tes œuvres, et 'amalaka est donc au nasb. Notre impression n'est pas claire à cet endroit ; la phrase est lue d'après une lithographie ottomane du même livre.",
+        "Puis cinq autres. Le hâl (complément d'état) : u'budi llâha ta'âlâ khâ'ifan râjiyan, « adore Dieu le Très-Haut en craignant et en espérant » : deux états de l'adorateur à la fois. La spécification (tamyîz) : tâba al-'âlimu 'ibâdatan, « le savant est bon en adoration ». L'excepté (mustathnâ) : yadkhulu al-jannata al-nâsu illâ al-kâfira, « les gens entrent au Paradis, sauf le mécréant ». Le prédicat de kâna : kâna al-malâ'ikatu 'ibâda llâhi, « les anges étaient des serviteurs de Dieu ». Le nom de inna : inna al-su'âla haqqun, « l'interrogatoire (dans la tombe) est vérité ».",
+        "Deux détails pour le lecteur attentif. Dans yadkhulu al-jannata al-nâsu, le complément al-jannata vient avant l'agent al-nâsu : l'ordre des mots est libre, et seules les finales montrent qui fait quoi. Et dans kâna al-malâ'ikatu, le verbe est au masculin singulier devant un pluriel d'anges ; un pluriel brisé peut prendre un tel verbe. Chaque phrase enseigne encore la croyance : le repentir sincère, la crainte et l'espérance, l'interrogatoire dans la tombe."
+      ],
+      "terms": [
+        "le complément absolu : tawbatan",
+        "le complément de temps ou de lieu : le zarf",
+        "le complément de cause : la raison",
+        "le complément d'accompagnement : après le wâw de « avec »",
+        "le hâl : khâ'ifan râjiyan"
+      ],
+      "examples": [
+        "tubtu tawbatan nasûhan, « je me suis repenti d'un repentir sincère » : le complément absolu",
+        "sum shahra ramadâna, « jeûne le mois de Ramadan » : le complément de temps",
+        "yafnâ al-mâlu wa-tabqâ wa-'amalaka : le complément d'accompagnement, après le wâw de « avec »",
+        "u'budi llâha ta'âlâ khâ'ifan râjiyan, « adore Dieu en craignant et en espérant » : deux hâl",
+        "yadkhulu al-jannata al-nâsu illâ al-kâfira : le complément avant l'agent, et l'excepté au nasb"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le mot au nasb et sa sorte : i'mal talaban li-mardâti llâhi ta'âlâ ; tâba al-'âlimu 'ibâdatan ; inna al-su'âla haqqun.",
+          "answer": "Talaban : le complément de cause (pourquoi agir ? en recherchant l'agrément de Dieu). 'Ibâdatan : la spécification (bon sous quel rapport ? en adoration). Al-su'âla : le nom de inna."
+        },
+        {
+          "prompt": "Dans yadkhulu al-jannata al-nâsu illâ al-kâfira, quel mot est l'agent, lequel le complément d'objet, et comment le savez-vous ?",
+          "answer": "Al-nâsu est l'agent (raf', damma) ; al-jannata est le complément d'objet (nasb, fatha), bien qu'il vienne en premier. Les finales montrent les rôles ; al-kâfira est l'excepté, au nasb."
+        },
+        {
+          "prompt": "Expliquez le nasb de 'amalaka dans yafnâ al-mâlu wa-tabqâ wa-'amalaka.",
+          "answer": "Le wâw signifie « avec » : tu demeures en compagnie de tes œuvres. Le nom après ce wâw est le complément d'accompagnement (maf'ûl ma'ahu), au nasb."
+        },
+        {
+          "prompt": "Dans u'budi llâha ta'âlâ khâ'ifan râjiyan, de qui khâ'ifan et râjiyan décrivent-ils l'état, et à quoi répondent-ils ?",
+          "answer": "L'état de celui à qui l'on parle, l'agent de u'bud (« toi »). Ils répondent à « comment ? » : en craignant et en espérant à la fois."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de mots au nasb al-Birgivî compte-t-il ?",
+          "options": [
+            "Quinze",
+            "Neuf",
+            "Cinq",
+            "Treize"
+          ],
+          "explanation": "Cette leçon prend les dix premiers."
+        },
+        {
+          "prompt": "Dans tubtu tawbatan nasûhan, tawbatan est…",
+          "options": [
+            "le complément absolu",
+            "le complément d'objet",
+            "un hâl",
+            "un tamyîz"
+          ],
+          "explanation": "Le masdar du verbe, avec son épithète nasûhan."
+        },
+        {
+          "prompt": "Dans sum shahra ramadâna, shahra est…",
+          "options": [
+            "le complément d'objet",
+            "le complément de temps (maf'ûl fîhi)",
+            "le complément de cause",
+            "l'excepté"
+          ],
+          "explanation": "Jeûne pendant le mois de Ramadan."
+        },
+        {
+          "prompt": "À quelle question répond le complément de cause ?",
+          "options": [
+            "Avec quoi ?",
+            "Quand ?",
+            "Pourquoi ?",
+            "Comment ?"
+          ],
+          "explanation": "I'mal talaban li-mardâti llâhi : agis en recherchant l'agrément de Dieu."
+        },
+        {
+          "prompt": "Dans yadkhulu al-jannata al-nâsu, quel mot vient en premier bien qu'il soit le complément d'objet ?",
+          "options": [
+            "Al-nâsu",
+            "Yadkhulu",
+            "Aucun",
+            "Al-jannata"
+          ],
+          "explanation": "Seules les finales montrent qui fait quoi."
+        },
+        {
+          "prompt": "Quel est le prédicat de kâna dans kâna al-malâ'ikatu 'ibâda llâhi ?",
+          "options": [
+            "'Ibâda",
+            "Al-malâ'ikatu",
+            "Llâhi",
+            "Kâna"
+          ],
+          "explanation": "'Ibâda, au nasb, annexé à llâhi."
+        },
+        {
+          "prompt": "U'budi llâha khâ'ifan râjiyan a…",
+          "options": [
+            "deux compléments d'objet",
+            "deux hâl",
+            "un tamyîz et un hâl",
+            "deux compléments absolus"
+          ],
+          "explanation": "En craignant et en espérant : deux états à la fois."
+        }
+      ],
+      "diagram": {
+        "caption": "Les dix premiers mots au nasb",
+        "labels": {
+          "The first ten words in naṣb": "Les dix premiers mots au nasb",
+          "Word in naṣb": "Mot au nasb",
+          "Birgivī's example": "Exemple d'al-Birgivî",
+          "the absolute object": "le complément absolu",
+          "the object": "le complément d'objet",
+          "the object in which": "le complément de temps ou de lieu",
+          "the object for which": "le complément de cause",
+          "the object with which": "le complément d'accompagnement",
+          "the state": "le hâl",
+          "the specification": "la spécification",
+          "the excepted": "l'excepté",
+          "the predicate of kāna": "le prédicat de kâna",
+          "the noun of inna": "le nom de inna"
+        }
+      },
+      "text": [
+        "Quant au mansûb, il est treize. Le premier est le complément absolu (al-maf'ûl al-mutlaq), comme tubtu tawbatan nasûhan « je me suis repenti d'un repentir sincère ». Le deuxième est le complément d'objet (al-maf'ûl bihi), comme u'budi Allâha ta'âlâ « adore Dieu le Très-Haut ». Le troisième est le complément de temps ou de lieu (al-maf'ûl fîhi), comme sum shahra Ramadâna « jeûne le mois de Ramadan ». Le quatrième est le complément de cause (al-maf'ûl lahu), comme i'mal talaban li-mardâti Allâhi ta'âlâ « agis en recherchant l'agrément de Dieu le Très-Haut ». Le cinquième est le complément d'accompagnement (al-maf'ûl ma'ahu), comme yafnâ al-mâlu wa-tabqâ wa-'amalaka « la richesse passe, et tu demeures avec tes œuvres ».",
+        "Le sixième est le hâl, comme u'budi Allâha ta'âlâ khâ'ifan râjiyan « adore Dieu le Très-Haut en craignant et en espérant ». Le septième est le tamyîz, comme tâba al-'âlimu 'ibâdatan « le savant a été bon en adoration ». Le huitième est le mustathnâ, comme yadkhulu al-jannata al-nâsu illâ al-kâfira « les gens entrent au Paradis, sauf le mécréant ». Le neuvième est le khabar de la catégorie de kâna, comme kâna al-malâ'ikatu 'ibâda Allâhi ta'âlâ « les anges étaient les serviteurs de Dieu le Très-Haut ». Le dixième est le nom de la catégorie de inna, comme inna al-su'âla haqqun « certes, l'interrogatoire [dans la tombe] est vérité »."
+      ]
+    },
+    "12": {
+      "title": "Les mots au nasb (2) ; au jarr ; au jazm",
+      "body": [
+        "Trois autres mots au nasb complètent les treize. Le nom du lâ générique : lâ tâ'ata mughtâbin maqbûlatun, « nulle obéissance d'un médisant n'est acceptée ». Le prédicat de mâ et de lâ semblables à laysa : mâ al-ghîbatu halâlan, « la médisance n'est pas licite », wa-lâ namîmatun jâ'izatan, « et nul colportage n'est permis ». Et le verbe au présent-futur avec un régissant du nasb : uhibbu an tughfara dhunûbî, « j'aime que mes péchés soient pardonnés ».",
+        "Les mots au jarr sont deux : le nom au jarr par une particule, i'mal bi-ikhlâsin, « agis avec sincérité » ; et le nom au jarr par l'idâfa, dhanbu al-'abdi yusawwidu qalbahu, « le péché du serviteur noircit son cœur ». Et le mot au jazm est un seul : le verbe au présent-futur avec un régissant du jazm, in tukhlis yuqbal 'amaluka, « si vous êtes sincère, votre œuvre sera acceptée ».",
+        "Comptez les mots régis par eux-mêmes : neuf au raf', treize au nasb, deux au jarr, un au jazm : vingt-cinq. Avec les cinq suivants de la leçon suivante, ils font les trente que promettait l'ouverture.",
+        "Remarquez comment un régissant du chapitre premier apparaît ici deux fois. Le lâ générique met son nom au nasb (cette leçon) et son prédicat au raf' (leçon 10) ; mâ et lâ semblables à laysa mettent leur nom au raf' (leçon 10) et leur prédicat au nasb (cette leçon). Apprendre les régis, c'est réapprendre les régissants par l'autre face, et la madrasa récite souvent les deux chapitres côte à côte."
+      ],
+      "terms": [
+        "le nom du lâ générique, au nasb",
+        "le prédicat de mâ et de lâ semblables à laysa, au nasb",
+        "au jarr par une particule",
+        "au jarr par l'idâfa",
+        "le verbe au jazm"
+      ],
+      "examples": [
+        "lâ tâ'ata mughtâbin maqbûlatun, « nulle obéissance d'un médisant n'est acceptée » : le nom de lâ au nasb",
+        "mâ al-ghîbatu halâlan, « la médisance n'est pas licite » : le prédicat de mâ au nasb",
+        "dhanbu al-'abdi yusawwidu qalbahu, « le péché du serviteur noircit son cœur » : al-'abdi au jarr par l'idâfa",
+        "in tukhlis yuqbal 'amaluka, « si vous êtes sincère, votre œuvre sera acceptée » : deux verbes au jazm"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le mot au nasb et sa sorte : lâ tâ'ata mughtâbin maqbûlatun ; wa-lâ namîmatun jâ'izatan ; uhibbu an tughfara dhunûbî.",
+          "answer": "Tâ'ata : le nom du lâ générique. Jâ'izatan : le prédicat de lâ semblable à laysa. Tughfara : le verbe au présent-futur après an, un régissant du nasb."
+        },
+        {
+          "prompt": "Trouvez les deux mots au jarr dans dhanbu al-'abdi yusawwidu qalbahu et i'mal bi-ikhlâsin, et dites ce qui met chacun au jarr.",
+          "answer": "Al-'abdi : au jarr par l'idâfa (son régissant est dhanbu, l'annexé). Ikhlâsin : au jarr par la particule bi-. (Le -hu de qalbahu est aussi en position de jarr, par l'idâfa.)"
+        },
+        {
+          "prompt": "Comptez les trente régis du livre.",
+          "answer": "Régis par eux-mêmes : 9 au raf' + 13 au nasb + 2 au jarr + 1 au jazm = 25. Régis par dépendance : 5 (épithète, coordination, corroboration, permutatif, apposition explicative). 25 + 5 = 30."
+        },
+        {
+          "prompt": "Lâ fâ'ila sharrin fâ'izun et lâ shay'un mushâbihan : pour chaque lâ, où dans le chapitre deux apparaissent son nom et son prédicat ?",
+          "answer": "Le lâ générique : son nom parmi les mots au nasb (cette leçon), son prédicat parmi les mots au raf' (leçon 10). Le lâ semblable à laysa : son nom parmi les mots au raf', son prédicat parmi les mots au nasb."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de mots au jarr al-Birgivî compte-t-il ?",
+          "options": [
+            "Deux",
+            "Vingt",
+            "Trois",
+            "Un"
+          ],
+          "explanation": "Par une particule, et par l'idâfa."
+        },
+        {
+          "prompt": "Combien de mots au jazm ?",
+          "options": [
+            "Quinze",
+            "Un : le verbe au présent-futur avec un régissant du jazm",
+            "Deux",
+            "Aucun"
+          ],
+          "explanation": "In tukhlis yuqbal 'amaluka."
+        },
+        {
+          "prompt": "Dans lâ tâ'ata mughtâbin maqbûlatun, tâ'ata est…",
+          "options": [
+            "le prédicat de lâ",
+            "au jarr",
+            "le nom de lâ, au nasb",
+            "le complément d'objet"
+          ],
+          "explanation": "Le lâ générique met son nom au nasb."
+        },
+        {
+          "prompt": "Dans mâ al-ghîbatu halâlan, halâlan est…",
+          "options": [
+            "le nom de mâ",
+            "un hâl",
+            "un tamyîz",
+            "le prédicat de mâ, au nasb"
+          ],
+          "explanation": "Mâ semblable à laysa : nom au raf', prédicat au nasb."
+        },
+        {
+          "prompt": "Dans uhibbu an tughfara dhunûbî, tughfara est…",
+          "options": [
+            "un présent-futur passif au nasb après an",
+            "un verbe au passé",
+            "au jazm",
+            "au raf'"
+          ],
+          "explanation": "Le treizième mot au nasb."
+        },
+        {
+          "prompt": "Combien y a-t-il de mots régis par eux-mêmes ?",
+          "options": [
+            "Trente",
+            "Vingt-cinq",
+            "Treize",
+            "Neuf"
+          ],
+          "explanation": "9 + 13 + 2 + 1."
+        },
+        {
+          "prompt": "Dans in tukhlis yuqbal 'amaluka, 'amaluka est…",
+          "options": [
+            "au jazm",
+            "le complément d'objet",
+            "le substitut de l'agent de yuqbal, au raf'",
+            "au jarr"
+          ],
+          "explanation": "Yuqbal est passif : « votre œuvre sera acceptée »."
+        }
+      ],
+      "diagram": {
+        "caption": "Les mots régis par eux-mêmes : 9 + 13 + 2 + 1 = 25",
+        "labels": {
+          "The governed words in their own right: 9 + 13 + 2 + 1 = 25": "Les mots régis par eux-mêmes : 9 + 13 + 2 + 1 = 25",
+          "State": "État",
+          "How many": "Combien",
+          "Belongs to": "Appartient à",
+          "rafʿ": "raf'",
+          "nouns and the present verb": "les noms et le verbe au présent-futur",
+          "naṣb": "nasb",
+          "jarr": "jarr",
+          "nouns only": "les noms seulement",
+          "jazm": "jazm",
+          "the present verb only": "le verbe au présent-futur seulement"
+        }
+      },
+      "text": [
+        "Le onzième est le nom du lâ qui nie toute la sorte, comme lâ tâ'ata mughtâbin maqbûlatun « nulle obéissance d'un médisant n'est acceptée ». Le douzième est le khabar de mâ et de lâ semblables à laysa, comme mâ al-ghîbatu halâlan « la médisance n'est pas licite » et wa-lâ namîmatun jâ'izatan « et nul colportage n'est permis ». Le treizième est le verbe au mudâri' sur lequel est entré l'un des nawâsib, comme uhibbu an tughfara dhunûbî « j'aime que mes péchés soient pardonnés ».",
+        "Quant au majrûr, il est deux. Le premier est ce qui est au jarr par une particule du jarr, comme i'mal bi-ikhlâsin « agis avec sincérité » ; le second est ce qui est au jarr par l'idâfa, comme dhanbu al-'abdi yusawwidu qalbahu « le péché du serviteur noircit son cœur ». Quant au majzûm, il est un : le verbe au mudâri' sur lequel est entré l'un des jawâzim, comme in tukhlis yuqbal 'amaluka « si tu es sincère, ton œuvre est acceptée »."
+      ]
+    },
+    "13": {
+      "title": "Les cinq suivants",
+      "body": [
+        "Les régis par dépendance sont cinq. L'épithète (sifa) : u'budi llâha al-'azîma, « adore Dieu le Puissant ». La coordination ('atf) par l'une des dix particules, chacune avec l'exemple d'al-Birgivî : wa-, utî'u llâha wa-l-rasûla, « j'obéis à Dieu et au Messager » ; fa-, tajibu takbîratu al-iftitâhi fa-l-qiyâmu, « le takbîr d'ouverture est obligatoire, puis la station debout » ; thumma, yajibu al-'ilmu thumma al-'amalu, « la science est obligatoire, puis l'action » ; hattâ, mâta al-nâsu hattâ al-anbiyâ'u, « les gens meurent, même les prophètes » ; aw, salli al-duhâ arba'an aw thamâniyan, « prie la prière du matin, quatre ou huit ».",
+        "Et immâ : i'mal immâ wâjiban wa-immâ mustahabban, « fais soit ce qui est obligatoire, soit ce qui est recommandé » ; am : a-ridâ'a llâhi tatlubu am sakhatahu ?, « est-ce l'agrément de Dieu que tu recherches, ou Sa colère ? » ; lâ : i'mal sâlihan lâ sayyi'an, « fais le bien, non le mal » ; bal : utlub halâlan bal tayyiban, « recherche ce qui est licite, et même ce qui est pur » ; lâkin : lâ yahillu riyâ'un lâkin ikhlâsun, « l'ostentation n'est pas licite, mais la sincérité l'est ». Le fiqh des exemples est réel : l'ordre des actes de la prière, le nombre de rak'as de la prière du matin.",
+        "La corroboration (tawkîd), de deux sortes : par la répétition du mot, utlubi al-ikhlâsa al-ikhlâsa, « recherche la sincérité, la sincérité » ; et par un mot de corroboration, utruki al-dhunûba kullahâ, « laisse les péchés, tous ». Le permutatif (badal), en trois sortes : du tout, u'bud rabbaka ilâha al-'âlamîna, « adore ton Seigneur, le Dieu des mondes » ; de la partie, ubghidu al-nâsa man 'asâ llâha ta'âlâ minhum, « je déteste, parmi les gens, ceux qui désobéissent à Dieu » ; d'inclusion, ihfazi llâha ta'âlâ haqqahu, « préserve le droit de Dieu », littéralement « préserve Dieu, Son droit ».",
+        "Le cinquième suivant, qu'al-Âjurrûmiyya n'a pas, est l'apposition explicative ('atf al-bayân) : âmannâ bi-nabiyyinâ Muhammadin, « nous croyons en notre Prophète, Muhammad ». Muhammad suit nabiyyinâ au jarr et l'éclaire par le nom le plus connu. Elle ressemble au permutatif du tout, et des livres ultérieurs discutent de ce qui les distingue ; pour l'instant, il suffit que tous deux suivent leur nom dans chaque signe de l'i'râb."
+      ],
+      "terms": [
+        "l'épithète (le na't d'al-Âjurrûmiyya)",
+        "la coordination par l'une des dix particules",
+        "la corroboration : par la répétition, ou par kull et ses pareils",
+        "le permutatif : du tout, de la partie, d'inclusion",
+        "l'apposition explicative : un nom plus clair"
+      ],
+      "examples": [
+        "u'budi llâha al-'azîma, « adore Dieu le Puissant » : l'épithète",
+        "yajibu al-'ilmu thumma al-'amalu, « la science est obligatoire, puis l'action » : la coordination par thumma",
+        "utruki al-dhunûba kullahâ, « laisse les péchés, tous » : la corroboration",
+        "ihfazi llâha ta'âlâ haqqahu, « préserve le droit de Dieu » : le permutatif d'inclusion",
+        "âmannâ bi-nabiyyinâ Muhammadin, « nous croyons en notre Prophète, Muhammad » : l'apposition explicative"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le suivant et le mot qu'il suit : utî'u llâha wa-l-rasûla ; utlubi al-ikhlâsa al-ikhlâsa ; u'bud rabbaka ilâha al-'âlamîna.",
+          "answer": "Al-rasûla : coordonné par wa- à llâha, au nasb. Le second al-ikhlâsa : corroboration du premier par la répétition, au nasb. Ilâha : permutatif du tout de rabbaka, au nasb."
+        },
+        {
+          "prompt": "Quel est le permutatif dans ubghidu al-nâsa man 'asâ llâha ta'âlâ minhum, et de quelle sorte ?",
+          "answer": "Man 'asâ llâha minhum, « ceux d'entre eux qui désobéissent à Dieu », est un permutatif de la partie de al-nâsa ; minhum le rattache aux gens. Mot à finale fixe, man est en position de nasb."
+        },
+        {
+          "prompt": "Donnez le sens de la particule dans : salli al-duhâ arba'an aw thamâniyan ; utlub halâlan bal tayyiban ; i'mal sâlihan lâ sayyi'an.",
+          "answer": "Aw : le choix, « quatre ou huit ». Bal : le passage à quelque chose de meilleur, « et même ce qui est pur ». Lâ : nier du second ce qui est dit du premier, « le bien, non le mal »."
+        },
+        {
+          "prompt": "Quel suivant al-Birgivî a-t-il qui manque à al-Âjurrûmiyya ? Donnez son exemple et expliquez-le.",
+          "answer": "L'apposition explicative ('atf al-bayân) : âmannâ bi-nabiyyinâ Muhammadin. Muhammadin suit nabiyyinâ au jarr et l'éclaire par le nom le plus connu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de suivants al-Birgivî compte-t-il ?",
+          "options": [
+            "Quatre",
+            "Cinq",
+            "Dix",
+            "Trois"
+          ],
+          "explanation": "Il ajoute l'apposition explicative aux quatre d'al-Âjurrûmiyya."
+        },
+        {
+          "prompt": "Dans utlubi al-ikhlâsa al-ikhlâsa, le second al-ikhlâsa est…",
+          "options": [
+            "un permutatif",
+            "une épithète",
+            "une corroboration par la répétition",
+            "un complément d'objet"
+          ],
+          "explanation": "Le mot lui-même est répété."
+        },
+        {
+          "prompt": "Ihfazi llâha haqqahu contient un permutatif…",
+          "options": [
+            "du tout",
+            "de la partie",
+            "d'erreur",
+            "d'inclusion"
+          ],
+          "explanation": "Le droit de Dieu Lui appartient : ishtimâl."
+        },
+        {
+          "prompt": "Dans âmannâ bi-nabiyyinâ Muhammadin, Muhammadin est…",
+          "options": [
+            "une apposition explicative, au jarr",
+            "une épithète",
+            "au jarr par bi-",
+            "le complément d'objet"
+          ],
+          "explanation": "Il suit nabiyyinâ et l'éclaire."
+        },
+        {
+          "prompt": "Quelle particule donne l'ordre avec un délai dans yajibu al-'ilmu thumma al-'amalu ?",
+          "options": [
+            "Fa-",
+            "Thumma",
+            "Wa-",
+            "Hattâ"
+          ],
+          "explanation": "La science d'abord, puis l'action."
+        },
+        {
+          "prompt": "A-ridâ'a llâhi tatlubu am sakhatahu ? emploie am pour…",
+          "options": [
+            "nier le second",
+            "passer au second",
+            "demander lequel des deux",
+            "joindre sans ordre"
+          ],
+          "explanation": "Après la hamza de l'interrogation : « ceci ou cela ? »."
+        },
+        {
+          "prompt": "Comment les suivants reçoivent-ils leur i'râb ?",
+          "options": [
+            "De leur propre régissant",
+            "Toujours le raf'",
+            "Toujours le nasb",
+            "Du mot qu'ils suivent"
+          ],
+          "explanation": "Ils sont régis par dépendance (bi-l-taba'iyya)."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Explanatory apposition": "Apposition explicative",
+          "The five followers": "Les cinq suivants",
+          "Adjective (ṣifa)": "Épithète (sifa)",
+          "Conjunction (ʿaṭf)": "Coordination ('atf)",
+          "Emphasis (taʾkīd)": "Corroboration (ta'kîd)",
+          "Substitute (badal)": "Permutatif (badal)"
+        }
+      },
+      "text": [
+        "La seconde sorte est cinq. Le premier est l'épithète (sifa), comme u'budi Allâha al-'azîma « adore Dieu, le Puissant ». Le deuxième est la coordination ('atf) par l'une des dix particules : wa-, comme utî'u Allâha wa-al-rasûla « j'obéis à Dieu et au Messager » ; fa-, comme tajibu takbîratu al-iftitâhi fa-al-qiyâmu « le takbîr d'ouverture est obligatoire, puis la station debout » ; thumma, comme yajibu al-'ilmu thumma al-'amalu « la science est obligatoire, puis l'action » ; hattâ, comme mâta al-nâsu hattâ al-anbiyâ'u 'alayhimu al-salâtu wa-al-salâmu « les gens sont morts, même les prophètes, sur eux la prière et la paix » ; aw, comme salli al-duhâ arba'an aw thamâniyan « prie la prière du matin, quatre ou huit [rak'as] » ; immâ, comme i'mal immâ wâjiban wa-immâ mustahabban « fais soit ce qui est obligatoire, soit ce qui est recommandé » ; am, comme a-ridâ'a Allâhi ta'âlâ tatlubu am sakhatahu « est-ce l'agrément de Dieu le Très-Haut que tu recherches, ou Sa colère ? » ; lâ, comme i'mal sâlihan lâ sayyi'an « fais le bien, non le mal » ; bal, comme utlub halâlan bal tayyiban « recherche ce qui est licite, et même ce qui est pur » ; et lâkin, comme lâ yahillu riyâ'un lâkin ikhlâsun « l'ostentation n'est pas licite, mais la sincérité [l'est] ».",
+        "Le troisième est la corroboration (ta'kîd), comme utlubi al-ikhlâsa al-ikhlâsa « recherche la sincérité, la sincérité », et comme utruki al-dhunûba kullahâ « laisse les péchés, tous ». Le quatrième est le permutatif (badal), comme u'bud rabbaka ilâha al-'âlamîna « adore ton Seigneur, le Dieu des mondes », comme ubghidu al-nâsa man 'asâ Allâha ta'âlâ minhum « je déteste les gens, ceux d'entre eux qui désobéissent à Dieu le Très-Haut », et comme ihfazi Allâha ta'âlâ haqqahu « préserve Dieu le Très-Haut, Son droit ». Le cinquième est l'apposition explicative ('atf al-bayân), comme âmannâ bi-nabiyyinâ Muhammadin 'alayhi al-salâtu wa-al-salâmu « nous croyons en notre Prophète Muhammad, sur lui la prière et la paix »."
+      ]
+    },
+    "14": {
+      "title": "Les dix signes et les neuf sortes",
+      "body": [
+        "Le troisième chapitre donne les dix dernières des cent : les signes de l'i'râb. « C'est une voyelle, ou une lettre, ou une suppression. » Trois voyelles : la damma, la fatha, la kasra. Quatre lettres : le wâw, le yâ', l'alif, le nûn. Trois suppressions, qui n'appartiennent qu'au verbe : la suppression de la voyelle, la suppression de la dernière lettre et la suppression du nûn. Dix en tout.",
+        "Remarquez où est passé le sukûn. Al-Âjurrûmiyya le comptait comme signe du jazm à côté des voyelles ; al-Birgivî l'appelle « la suppression de la voyelle » : lam yadrib, c'est yadribu dont on a ôté la damma. De même, la suppression de la dernière lettre est le jazm d'un verbe faible, et la suppression du nûn le nasb et le jazm des cinq verbes.",
+        "Puis les mots déclinables sont rangés, selon les signes qu'ils prennent, en neuf sortes, en quatre groupes. Par les voyelles seules, et par les lettres seules : ces deux appartiennent au nom. Par les voyelles avec une suppression, et par les lettres avec une suppression : ces deux appartiennent au verbe. Les quatre leçons suivantes prennent les groupes un à un.",
+        "Deux termes les traversent. Une sorte est « d'i'râb complet » (tâmm al-i'râb) quand elle a un signe différent pour chacun de ses états, et « d'i'râb incomplet » (nâqis al-i'râb) quand deux de ses états partagent un signe. Le nom singulier est complet : Zaydun, Zaydan, Zaydin. Le duel est incomplet : al-Zaydayni sert au nasb et au jarr."
+      ],
+      "terms": [
+        "une voyelle : damma, fatha, kasra",
+        "ici : une lettre comme signe : wâw, yâ', alif, nûn",
+        "une suppression : de la voyelle, de la dernière lettre, du nûn",
+        "d'i'râb complet : un signe différent pour chaque état",
+        "d'i'râb incomplet : deux états partagent un signe"
+      ],
+      "examples": [
+        "dammatun, fathatun, kasratun : les trois voyelles",
+        "wâwun, yâ'un, alifun, nûnun : les quatre lettres",
+        "les trois suppressions, du verbe seulement"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le signe de l'i'râb dans les termes d'al-Birgivî : lam yadrib ; al-muslimûna ; lam yadribû ; kitâbun.",
+          "answer": "Lam yadrib : la suppression de la voyelle. Al-muslimûna : la lettre wâw. Lam yadribû : la suppression du nûn. Kitâbun : la voyelle damma."
+        },
+        {
+          "prompt": "Pourquoi al-Birgivî ne compte-t-il pas le sukûn parmi les signes, et comment le nomme-t-il ?",
+          "answer": "Pour lui, le sukûn du jazm n'est pas un signe ajouté mais une voyelle ôtée : « la suppression de la voyelle », l'une des trois suppressions, qui n'appartiennent qu'au verbe."
+        },
+        {
+          "prompt": "Quels groupes de mots déclinables appartiennent au nom, et lesquels au verbe ?",
+          "answer": "Par les voyelles seules et par les lettres seules : le nom. Par les voyelles avec une suppression et par les lettres avec une suppression : le verbe."
+        },
+        {
+          "prompt": "Le pluriel masculin sain est-il d'i'râb complet ou incomplet ? Expliquez.",
+          "answer": "Incomplet : il n'a que deux signes pour trois états (le wâw au raf', le yâ' au nasb comme au jarr)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de signes de l'i'râb al-Birgivî compte-t-il ?",
+          "options": [
+            "Quatorze",
+            "Quatre",
+            "Dix",
+            "Neuf"
+          ],
+          "explanation": "Trois voyelles, quatre lettres, trois suppressions."
+        },
+        {
+          "prompt": "Comment al-Birgivî appelle-t-il le sukûn du jazm ?",
+          "options": [
+            "Une quatrième voyelle",
+            "Une lettre",
+            "La suppression du nûn",
+            "La suppression de la voyelle"
+          ],
+          "explanation": "Lam yadrib : yadribu dont on a ôté la damma."
+        },
+        {
+          "prompt": "À quoi appartiennent les trois suppressions ?",
+          "options": [
+            "Au verbe seulement",
+            "Au nom seulement",
+            "Aux deux",
+            "À aucun des deux"
+          ],
+          "explanation": "La voyelle, la dernière lettre et le nûn sont supprimés dans les verbes."
+        },
+        {
+          "prompt": "Combien y a-t-il de sortes de mots déclinables ?",
+          "options": [
+            "Dix",
+            "Neuf",
+            "Quatre",
+            "Deux"
+          ],
+          "explanation": "En quatre groupes, selon les signes qu'elles prennent."
+        },
+        {
+          "prompt": "Que signifie « d'i'râb complet » (tâmm) ?",
+          "options": [
+            "Décliné par les voyelles",
+            "Ayant les quatre états",
+            "Un signe différent pour chaque état",
+            "Sans exception"
+          ],
+          "explanation": "Zaydun, Zaydan, Zaydin."
+        },
+        {
+          "prompt": "Lequel de ceux-ci est d'i'râb incomplet ?",
+          "options": [
+            "Le nom singulier",
+            "Le pluriel brisé",
+            "Les six noms",
+            "Le duel"
+          ],
+          "explanation": "Son yâ' sert au nasb et au jarr."
+        },
+        {
+          "prompt": "Quelles sont les quatre lettres de l'i'râb ?",
+          "options": [
+            "Wâw, yâ', alif, nûn",
+            "Hamza, nûn, yâ', tâ'",
+            "Alif, lâm, mîm, râ'",
+            "Bâ', tâ', wâw, kâf"
+          ],
+          "explanation": "Hamza, nûn, yâ', tâ' sont les préfixes de anaytu, non des signes de l'i'râb."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The ten signs of iʿrāb": "Les dix signes de l'i'râb",
+          "Vowels": "Voyelles",
+          "ḍamma": "damma",
+          "fatḥa": "fatha",
+          "kasra": "kasra",
+          "Letters": "Lettres",
+          "wāw": "wâw",
+          "yāʾ": "yâ'",
+          "alif": "alif",
+          "nūn": "nûn",
+          "Droppings (verb only)": "Suppressions (verbe seulement)",
+          "of the vowel": "de la voyelle",
+          "of the last letter": "de la dernière lettre",
+          "of the nūn": "du nûn"
+        }
+      },
+      "text": [
+        "C'est soit une voyelle, soit une lettre, soit une suppression. Les voyelles sont trois : la damma, la fatha et la kasra. Les lettres sont quatre : le wâw, le yâ', l'alif et le nûn. Les suppressions sont trois, et n'appartiennent qu'au verbe : la suppression de la voyelle, la suppression de la dernière lettre et la suppression du nûn. En tout, ils sont donc dix.",
+        "Les sortes de mots déclinables, mesurées à ce qui leur est donné de ces dix, sont neuf ; car leur i'râb est soit par les voyelles seules, soit par les lettres seules, et ces deux n'appartiennent qu'au nom ; soit par les voyelles avec une suppression, soit par les lettres avec une suppression, et ces deux n'appartiennent qu'au verbe."
+      ]
+    },
+    "15": {
+      "title": "Les noms déclinés par les voyelles",
+      "body": [
+        "Le premier groupe, décliné par les voyelles seules, a trois sortes. L'une est d'i'râb complet : la damma au raf', la fatha au nasb, la kasra au jarr. C'est le singulier qui prend le tanwîn et le pluriel brisé qui prend le tanwîn : jâ'anâ al-rasûlu, saddaqnâ al-rasûla, âmannâ bi-l-rasûli, « le Messager est venu à nous, nous l'avons cru, nous croyons en lui » ; nazala min al-samâ'i kutubun, saddaqnâ al-kutuba, âmannâ bi-l-kutubi, « des livres sont descendus du ciel, nous avons cru les livres, nous croyons aux livres ».",
+        "Deux sont incomplètes. Le diptote (ghayr al-munsarif) a la damma au raf' et la fatha au nasb comme au jarr : jâ'anâ Ahmadu, saddaqnâ Ahmada, âmannâ bi-Ahmada. Le pluriel féminin sain a la damma au raf' et la kasra au nasb comme au jarr : jâ'anâ mu'jizâtun, saddaqnâ mu'jizâtin, âmannâ bi-mu'jizâtin, « des miracles nous sont venus, nous avons cru aux miracles ».",
+        "Les exemples sont construits en série : chaque sorte est montrée avec les trois mêmes verbes, jâ'anâ (raf' : l'agent), saddaqnâ (nasb : le complément d'objet) et âmannâ bi- (jarr : après la particule). Le modèle fait ressortir les signes, et la croyance est dans les mots : le Messager, les livres, le Prophète Ahmad, les miracles.",
+        "C'est le chapitre d'al-Âjurrûmiyya sur les mots déclinés par les voyelles et ses exceptions, dit en d'autres termes. Ce qu'al-Âjurrûmiyya appelait les deux exceptions (le diptote au khafd, le pluriel féminin au nasb), al-Birgivî l'appelle les deux sortes incomplètes, parce que dans chacune deux états partagent un signe."
+      ],
+      "terms": [
+        "le singulier qui prend le tanwîn : d'i'râb complet",
+        "le pluriel brisé",
+        "le diptote : la fatha au nasb et au jarr",
+        "le pluriel féminin sain : la kasra au nasb et au jarr"
+      ],
+      "examples": [
+        "le singulier qui prend le tanwîn : damma, fatha, kasra",
+        "le diptote : la fatha au nasb et au jarr",
+        "le pluriel féminin sain : la kasra au nasb et au jarr"
+      ],
+      "tasks": [
+        {
+          "prompt": "Faites passer kutubun par les trois verbes d'al-Birgivî (jâ'anâ, saddaqnâ, âmannâ bi-), sans l'article, et nommez les signes.",
+          "answer": "Jâ'anâ kutubun (damma), saddaqnâ kutuban (fatha), âmannâ bi-kutubin (kasra). Le pluriel brisé est d'i'râb complet."
+        },
+        {
+          "prompt": "Pourquoi le diptote est-il d'i'râb incomplet ? Montrez-le sur Ahmad.",
+          "answer": "Deux de ses états partagent un signe : Ahmadu au raf', mais Ahmada au nasb comme au jarr (saddaqnâ Ahmada, âmannâ bi-Ahmada)."
+        },
+        {
+          "prompt": "Dans saddaqnâ mu'jizâtin, pourquoi mu'jizâtin est-il au nasb alors qu'il finit par une kasra ?",
+          "answer": "C'est le complément d'objet de saddaqnâ. Le pluriel féminin sain prend la kasra au nasb comme au jarr ; c'est pourquoi il est d'i'râb incomplet."
+        },
+        {
+          "prompt": "Comment al-Âjurrûmiyya appelle-t-elle ce qu'al-Birgivî appelle les deux sortes incomplètes de ce groupe ?",
+          "answer": "Les exceptions aux mots déclinés par les voyelles : le pluriel féminin sain au nasb par la kasra, et le nom qui ne prend pas le tanwîn au khafd par la fatha."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quels noms sont d'i'râb complet par les voyelles ?",
+          "options": [
+            "Le diptote et le pluriel féminin",
+            "Le duel et le pluriel",
+            "Les six noms",
+            "Le singulier et le pluriel brisé qui prennent le tanwîn"
+          ],
+          "explanation": "Damma, fatha, kasra : un signe pour chaque état."
+        },
+        {
+          "prompt": "Âmannâ bi-Ahmada : quel est le signe du jarr ?",
+          "options": [
+            "La fatha",
+            "La kasra",
+            "Le yâ'",
+            "La damma"
+          ],
+          "explanation": "Le diptote prend la fatha au jarr."
+        },
+        {
+          "prompt": "Saddaqnâ mu'jizâtin : le signe du nasb est…",
+          "options": [
+            "la fatha",
+            "la kasra",
+            "le yâ'",
+            "l'alif"
+          ],
+          "explanation": "Le pluriel féminin sain."
+        },
+        {
+          "prompt": "Pourquoi les exemples d'al-Birgivî sont-ils construits sur jâ'anâ, saddaqnâ et âmannâ bi- ?",
+          "options": [
+            "Ce sont les seuls verbes qu'il connaît",
+            "Pour montrer le passif",
+            "Ils montrent chaque sorte au raf', au nasb et au jarr côte à côte",
+            "Pour montrer le jazm"
+          ],
+          "explanation": "L'agent, le complément d'objet, et le nom après une particule."
+        },
+        {
+          "prompt": "Combien de sortes compte le groupe décliné par les voyelles ?",
+          "options": [
+            "Deux",
+            "Quatre",
+            "Neuf",
+            "Trois : une complète, deux incomplètes"
+          ],
+          "explanation": "Le singulier et le pluriel brisé comptent pour une seule sorte complète."
+        },
+        {
+          "prompt": "Al-kutuba dans saddaqnâ al-kutuba est…",
+          "options": [
+            "au nasb par la fatha",
+            "au jarr",
+            "au raf'",
+            "au nasb par la kasra"
+          ],
+          "explanation": "Le pluriel brisé est d'i'râb complet."
+        },
+        {
+          "prompt": "Comment al-Âjurrûmiyya appelle-t-elle la kasra du pluriel féminin au nasb ?",
+          "options": [
+            "Un signe du jarr",
+            "Une exception à la règle des voyelles",
+            "Un i'râb incomplet",
+            "Une suppression"
+          ],
+          "explanation": "Al-Birgivî la nomme i'râb incomplet."
+        }
+      ],
+      "diagram": {
+        "caption": "Les noms déclinés par les voyelles, dans les exemples d'al-Birgivî",
+        "labels": {
+          "The nouns inflected by vowels, in Birgivī's examples": "Les noms déclinés par les voyelles, dans les exemples d'al-Birgivî",
+          "Kind": "Sorte",
+          "Rafʿ": "Raf'",
+          "Naṣb": "Nasb",
+          "Jarr": "Jarr",
+          "Iʿrāb": "I'râb",
+          "declinable singular": "singulier qui prend le tanwîn",
+          "complete": "complet",
+          "broken plural": "pluriel brisé",
+          "diptote": "diptote",
+          "incomplete": "incomplet",
+          "sound feminine plural": "pluriel féminin sain"
+        }
+      },
+      "text": [
+        "Le premier est soit d'i'râb complet (tâmm al-i'râb), c'est-à-dire que son raf' est par la damma, son nasb par la fatha et son jarr par la kasra ; c'est le singulier qui prend le tanwîn et le pluriel brisé qui prend le tanwîn, comme jâ'anâ al-rasûlu 'alayhi al-salâmu « le Messager, sur lui la paix, est venu à nous », wa-saddaqnâ al-rasûla 'alayhi al-salâmu « et nous avons cru le Messager, sur lui la paix », wa-âmannâ bi-al-rasûli 'alayhi al-salâmu « et nous avons cru au Messager, sur lui la paix » ; et comme nazala mina al-samâ'i kutubun « des livres sont descendus du ciel », wa-saddaqnâ al-kutuba « et nous avons cru les livres », wa-âmannâ bi-al-kutubi « et nous avons cru aux livres ».",
+        "Soit il est d'i'râb incomplet (nâqis al-i'râb), et il est de deux divisions. Une division dont le raf' est par la damma et dont le nasb et le jarr sont par la fatha ; c'est le diptote (ghayr al-munsarif), comme jâ'anâ Ahmadu 'alayhi al-salâmu « Ahmad, sur lui la paix, est venu à nous », wa-saddaqnâ Ahmada 'alayhi al-salâmu « et nous avons cru Ahmad, sur lui la paix », wa-âmannâ bi-Ahmada 'alayhi al-salâmu « et nous avons cru en Ahmad, sur lui la paix ». Et une division dont le raf' est par la damma et dont le nasb et le jarr sont par la kasra ; c'est le pluriel féminin sain, comme jâ'anâ mu'jizâtun « des miracles nous sont venus », wa-saddaqnâ mu'jizâtin « et nous avons cru des miracles », wa-âmannâ bi-mu'jizâtin « et nous avons cru à des miracles »."
+      ]
+    },
+    "16": {
+      "title": "Les noms déclinés par les lettres",
+      "body": [
+        "Le deuxième groupe, décliné par les lettres seules, a de nouveau une sorte complète et deux incomplètes. La sorte complète, ce sont les six noms : le wâw au raf', l'alif au nasb, le yâ' au jarr. Ce sont abûhu (son père), akhûhu (son frère), hamûhâ (son beau-père, à elle), hanûhu (sa chose), fûhu (sa bouche) et dhû mâlin (celui qui a des biens) : jâ'anâ Abû al-Qâsimi, saddaqnâ Abâ al-Qâsimi, âmannâ bi-Abî al-Qâsimi, « Abû al-Qâsim est venu à nous, nous l'avons cru, nous croyons en lui », Abû al-Qâsim étant la kunya du Prophète.",
+        "Al-Birgivî en compte six là où al-Âjurrûmiyya en comptait cinq : il ajoute han, « une chose » (employé pour ce qu'on ne nomme pas). Et il donne les conditions qu'al-Âjurrûmiyya se contentait de montrer : le nom doit être annexé à autre chose que le yâ' de celui qui parle (abî, « mon père », ne compte pas), singulier (non abawâni) et non diminutif (non ubayy).",
+        "La première sorte incomplète a le wâw au raf' et le yâ' au nasb et au jarr : le pluriel masculin sain, et avec lui ûlû, « ceux qui possèdent », et 'ishrûna et ses sœurs, les dizaines de vingt à quatre-vingt-dix : jâ'anâ al-mursalûna, saddaqnâ al-mursalîna, âmannâ bi-l-mursalîna, « les envoyés sont venus à nous… ».",
+        "La seconde sorte incomplète a l'alif au raf' et le yâ' au nasb et au jarr : le duel, et avec lui ithnâni, « deux », et kilâ, « tous les deux », quand il est annexé à un pronom : jâ'anâ al-ithnâni kilâhumâ, ay al-kitâbu wa-l-sunnatu, « les deux nous sont venus, tous les deux, c'est-à-dire le Livre et la Sunna » ; ittaba'nâ al-ithnayni kilayhimâ, 'amilnâ bi-l-ithnayni kilayhimâ. Kilâ annexé à un nom apparent garde son alif (kilâ al-rajulayni) ; c'est seulement avec un pronom qu'il change.",
+        "Ainsi les mots qui ressemblent à des pluriels ou à des duels sans en être (ûlû, 'ishrûna, ithnâni, kilâhumâ) sont déclinés comme s'ils en étaient. La madrasa les appelle « rattachés » au pluriel et au duel."
+      ],
+      "terms": [
+        "les six noms : wâw, alif, yâ'",
+        "non diminutif : une condition des six noms",
+        "ceux qui possèdent : décliné comme le pluriel sain",
+        "les dizaines, déclinées comme le pluriel sain",
+        "tous les deux : comme le duel quand il est annexé à un pronom"
+      ],
+      "examples": [
+        "l'un des six noms : wâw, alif, yâ'",
+        "le pluriel masculin sain : le wâw au raf', le yâ' au nasb et au jarr",
+        "al-ithnâni kilâhumâ, « les deux, tous les deux » : comme le duel",
+        "ittaba'nâ al-ithnayni kilayhimâ : le yâ' au nasb"
+      ],
+      "tasks": [
+        {
+          "prompt": "Faites passer dhû mâlin par les trois états avec jâ'anâ, saddaqnâ et âmannâ bi-.",
+          "answer": "Jâ'anâ dhû mâlin ; saddaqnâ dhâ mâlin ; âmannâ bi-dhî mâlin : wâw, alif, yâ'."
+        },
+        {
+          "prompt": "Donnez les trois conditions pour que les six noms prennent les lettres, et un exemple qui manque à chacune.",
+          "answer": "Annexé à autre chose que le yâ' de celui qui parle (abî, « mon père », y manque) ; singulier (abawâni, « deux pères », y manque) ; non diminutif (ubayy, « petit père », y manque)."
+        },
+        {
+          "prompt": "Pourquoi 'ishrûna est-il décliné comme al-muslimûna, et kilâhumâ comme al-Zaydâni ?",
+          "answer": "Ils sont rattachés au pluriel et au duel : 'ishrûna et ses sœurs, ainsi que ûlû, prennent le wâw et le yâ' comme le pluriel masculin sain ; ithnâni, et kilâ annexé à un pronom, prennent l'alif et le yâ' comme le duel."
+        },
+        {
+          "prompt": "Quel nom al-Birgivî ajoute-t-il aux cinq d'al-Âjurrûmiyya ?",
+          "answer": "Han (hanûhu), « une chose », employé pour ce qu'on ne nomme pas."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de noms al-Birgivî compte-t-il là où al-Âjurrûmiyya en comptait cinq ?",
+          "options": [
+            "Six",
+            "Cinq",
+            "Sept",
+            "Quatre"
+          ],
+          "explanation": "Il ajoute han."
+        },
+        {
+          "prompt": "Âmannâ bi-Abî al-Qâsimi : le signe du jarr est…",
+          "options": [
+            "la kasra",
+            "le yâ'",
+            "l'alif",
+            "le wâw"
+          ],
+          "explanation": "Les six noms : wâw, alif, yâ'."
+        },
+        {
+          "prompt": "Lequel de ceux-ci est décliné comme le pluriel masculin sain ?",
+          "options": [
+            "Ithnâni",
+            "Kilâhumâ",
+            "'Ishrûna",
+            "Abûhu"
+          ],
+          "explanation": "'Ishrûna et ses sœurs, et ûlû."
+        },
+        {
+          "prompt": "Quand kilâ est-il décliné comme le duel ?",
+          "options": [
+            "Toujours",
+            "Jamais",
+            "Quand il est annexé à un nom apparent",
+            "Quand il est annexé à un pronom"
+          ],
+          "explanation": "Kilâhumâ, kilayhimâ."
+        },
+        {
+          "prompt": "Lequel ne remplit pas les conditions des six noms ?",
+          "options": [
+            "Abî, « mon père »",
+            "Abûhu, « son père »",
+            "Abû al-Qâsimi",
+            "Abâka"
+          ],
+          "explanation": "Annexé au yâ' de celui qui parle, il ne prend pas les lettres."
+        },
+        {
+          "prompt": "Saddaqnâ al-mursalîna : le signe du nasb est…",
+          "options": [
+            "la fatha",
+            "le yâ'",
+            "l'alif",
+            "le wâw"
+          ],
+          "explanation": "Le pluriel masculin sain partage le yâ' entre le nasb et le jarr."
+        },
+        {
+          "prompt": "Quelle sorte de ce groupe est d'i'râb complet ?",
+          "options": [
+            "Le duel",
+            "Le pluriel masculin sain",
+            "Les six noms",
+            "Aucune"
+          ],
+          "explanation": "Chacun de ses états a sa propre lettre."
+        }
+      ],
+      "diagram": {
+        "caption": "Les noms déclinés par les lettres",
+        "labels": {
+          "The nouns inflected by letters": "Les noms déclinés par les lettres",
+          "Kind": "Sorte",
+          "Rafʿ": "Raf'",
+          "Naṣb": "Nasb",
+          "Jarr": "Jarr",
+          "Iʿrāb": "I'râb",
+          "the six nouns": "les six noms",
+          "complete": "complet",
+          "sound masc. plural, ūlū, ʿishrūna": "pluriel masc. sain, ûlû, 'ishrûna",
+          "incomplete": "incomplet",
+          "dual, ithnāni, kilā + pronoun": "duel, ithnâni, kilâ + pronom"
+        }
+      },
+      "text": [
+        "Le deuxième est soit d'i'râb complet, c'est-à-dire que son raf' est par le wâw, son nasb par l'alif et son jarr par le yâ' ; ce sont les six noms faibles, annexés à autre chose que le yâ' de la première personne, au singulier et non diminutifs. Ce sont : abûhu « son père », akhûhu « son frère », hamûhâ « son beau-père [à elle] », hanûhu « sa chose », fûhu « sa bouche » et dhû mâlin « celui qui possède des biens » ; comme jâ'anâ abû al-Qâsimi 'alayhi al-salâmu « Abû al-Qâsim, sur lui la paix, est venu à nous », wa-saddaqnâ abâ al-Qâsimi 'alayhi al-salâmu « et nous avons cru Abû al-Qâsim, sur lui la paix », wa-âmannâ bi-abî al-Qâsimi 'alayhi al-salâmu « et nous avons cru en Abû al-Qâsim, sur lui la paix ».",
+        "Soit il est d'i'râb incomplet, et il est de deux divisions. Une division dont le raf' est par le wâw et dont le nasb et le jarr sont par le yâ' ; c'est le pluriel masculin sain, ûlû « ceux qui possèdent » et 'ishrûna « vingt » et ses sœurs, comme jâ'anâ al-mursalûna 'alayhimu al-salâmu « les envoyés, sur eux la paix, sont venus à nous », wa-saddaqnâ al-mursalîna 'alayhimu al-salâmu « et nous avons cru les envoyés, sur eux la paix », wa-âmannâ bi-al-mursalîna 'alayhimu al-salâmu « et nous avons cru aux envoyés, sur eux la paix ».",
+        "Et une division dont le raf' est par l'alif et dont le nasb et le jarr sont par le yâ' ; c'est le duel, ithnâni « deux », et kilâ « tous les deux » annexé à un pronom, comme jâ'anâ al-ithnâni kilâhumâ « les deux nous sont venus, tous les deux », c'est-à-dire le Livre et la Sunna ; wa-ittaba'nâ al-ithnayni kilayhimâ « et nous avons suivi les deux, tous les deux » ; wa-'amilnâ bi-al-ithnayni kilayhimâ « et nous avons agi selon les deux, tous les deux »."
+      ]
+    },
+    "17": {
+      "title": "L'i'râb du verbe",
+      "body": [
+        "Le troisième groupe, décliné par une voyelle avec une suppression, appartient au verbe et est toujours d'i'râb complet, car le verbe a trois états et un signe différent dans chacun. Il a deux sortes. Le verbe au présent-futur sans pronom attaché, dont la dernière lettre est saine : la damma au raf', la fatha au nasb, et au jazm la suppression de la voyelle : nuhibbu an nashfa'a wa-lam nuhram, « nous aimons intercéder, et nous n'avons pas été privés ». Nuhibbu au raf', nashfa'a au nasb après an, nuhram au jazm après lam.",
+        "Le verbe au présent-futur sans pronom attaché, dont la dernière lettre est faible : au jazm, la suppression de la dernière lettre : nad'û llâha ta'âlâ an ya'fuwanâ wa-lam yarminâ fî al-nâri, « nous prions Dieu le Très-Haut qu'Il nous pardonne ; et Il ne nous a pas jetés dans le Feu ». Nad'û au raf', sa damma sous-entendue sur le wâw ; ya'fuwa au nasb après an, la fatha visible sur le wâw ; yarmi au jazm après lam, son yâ' supprimé.",
+        "Le quatrième groupe, décliné par une lettre avec une suppression, est toujours d'i'râb incomplet : le verbe au présent-futur auquel est attaché un pronom autre que le nûn, les cinq verbes d'al-Âjurrûmiyya. Le raf' par le nûn, le nasb et le jazm par sa suppression : al-awliyâ'u wa-l-'ulamâ'u yashfa'âni yawma al-qiyâmati, fa-narjû an yashfa'â lanâ wa-lam yu'ridâ 'annâ, « les amis de Dieu et les savants intercèdent au Jour de la Résurrection ; nous espérons donc qu'ils intercèdent pour nous et ne se détournent pas de nous ».",
+        "« Autre que le nûn » écarte le nûn des femmes, yadribna, dont la finale est fixe et qui n'est donc pas décliné du tout. Et remarquez le duel yashfa'âni après deux sujets au pluriel : les deux sortes de gens, les amis de Dieu et les savants, sont traitées comme deux.",
+        "Comptez maintenant les sortes : trois par les voyelles, trois par les lettres, deux par une voyelle avec une suppression, une par une lettre avec une suppression : neuf, comme le chapitre l'avait promis."
+      ],
+      "terms": [
+        "la suppression de la voyelle : le jazm du verbe sain",
+        "la suppression de la dernière lettre : le jazm du verbe faible",
+        "une lettre faible : wâw, yâ', alif",
+        "le présent-futur avec un pronom autre que le nûn"
+      ],
+      "examples": [
+        "nuhibbu an nashfa'a wa-lam nuhram : un même verbe au raf', au nasb et au jazm",
+        "an ya'fuwanâ wa-lam yarminâ : le verbe faible au nasb, et au jazm par la suppression de son yâ'",
+        "yashfa'âni, an yashfa'â, lam yu'ridâ : le nûn gardé, puis supprimé"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez l'état et le signe de chaque verbe dans nuhibbu an nashfa'a wa-lam nuhram.",
+          "answer": "Nuhibbu : raf' par la damma (aucun régissant du nasb ni du jazm). Nashfa'a : nasb par la fatha, après an. Nuhram : jazm par la suppression de la voyelle, après lam (un verbe passif)."
+        },
+        {
+          "prompt": "Dans nad'û llâha … an ya'fuwanâ wa-lam yarminâ, pourquoi la damma de nad'û ne s'entend-elle pas, alors que la fatha de ya'fuwa s'entend ?",
+          "answer": "Une damma sur un wâw final est lourde ; au raf', elle est donc sous-entendue, non prononcée (nad'û). La fatha est légère et se prononce sur le wâw (ya'fuwa). Au jazm, la lettre faible elle-même est supprimée (yarmi)."
+        },
+        {
+          "prompt": "Mettez yashfa'âni après lan et après lam, et nommez les signes.",
+          "answer": "Lan yashfa'â ; lam yashfa'â. Dans les deux, le nûn est supprimé : le nasb et le jazm partagent un signe, si bien que les cinq verbes sont d'i'râb incomplet."
+        },
+        {
+          "prompt": "Comptez les neuf sortes de mots déclinables par leurs groupes.",
+          "answer": "Par les voyelles : le singulier et le pluriel brisé qui prennent le tanwîn (complets), le diptote, le pluriel féminin sain (3). Par les lettres : les six noms (complets), le pluriel masculin sain avec ses rattachés, le duel avec ses rattachés (3). Par une voyelle avec une suppression : le présent-futur à finale saine, le présent-futur à finale faible (2). Par une lettre avec une suppression : les cinq verbes (1)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Comment le présent-futur à finale saine est-il au jazm, dans les termes d'al-Birgivî ?",
+          "options": [
+            "Par le sukûn comme quatrième voyelle",
+            "Par la suppression de la voyelle",
+            "Par la suppression du nûn",
+            "Par la fatha"
+          ],
+          "explanation": "Lam nuhram."
+        },
+        {
+          "prompt": "Comment le présent-futur à finale faible est-il au jazm ?",
+          "options": [
+            "Par le sukûn",
+            "Par la fatha",
+            "Par la suppression de sa dernière lettre",
+            "Par le nûn"
+          ],
+          "explanation": "Lam yarminâ : le yâ' de yarmî est supprimé."
+        },
+        {
+          "prompt": "Dans nad'û, « nous prions », la damma du raf' est…",
+          "options": [
+            "prononcée sur le wâw",
+            "supprimée avec le wâw",
+            "sur le dâl",
+            "sous-entendue sur le wâw"
+          ],
+          "explanation": "Une damma sur un wâw final est trop lourde à prononcer."
+        },
+        {
+          "prompt": "Le groupe « par une voyelle avec une suppression » est-il d'i'râb complet ou incomplet ?",
+          "options": [
+            "Toujours complet",
+            "Toujours incomplet",
+            "Tantôt l'un, tantôt l'autre",
+            "Il n'a pas d'i'râb"
+          ],
+          "explanation": "Trois états, trois signes différents."
+        },
+        {
+          "prompt": "Quel verbe est dans le quatrième groupe ?",
+          "options": [
+            "Nuhibbu",
+            "Yashfa'âni",
+            "Nad'û",
+            "Yadribna"
+          ],
+          "explanation": "Le présent-futur avec un pronom autre que le nûn ; yadribna a une finale fixe."
+        },
+        {
+          "prompt": "Pourquoi yashfa'âni est-il au duel après al-awliyâ'u wa-l-'ulamâ'u ?",
+          "options": [
+            "C'est une erreur",
+            "À cause du wâw",
+            "Les deux sortes de gens sont traitées comme deux",
+            "Parce que les deux sont au pluriel"
+          ],
+          "explanation": "Les amis de Dieu et les savants : deux groupes."
+        },
+        {
+          "prompt": "Dans an yashfa'â lanâ, le signe du nasb est…",
+          "options": [
+            "la fatha",
+            "l'alif",
+            "le sukûn",
+            "la suppression du nûn"
+          ],
+          "explanation": "Les cinq verbes partagent un signe entre le nasb et le jazm."
+        }
+      ],
+      "diagram": {
+        "caption": "L'i'râb du verbe au présent-futur, dans les exemples d'al-Birgivî",
+        "labels": {
+          "The iʿrāb of the present verb, in Birgivī's examples": "L'i'râb du verbe au présent-futur, dans les exemples d'al-Birgivî",
+          "Kind": "Sorte",
+          "Rafʿ": "Raf'",
+          "Naṣb": "Nasb",
+          "Jazm": "Jazm",
+          "sound last letter": "dernière lettre saine",
+          "weak last letter": "dernière lettre faible",
+          "with a pronoun (five verbs)": "avec un pronom (les cinq verbes)"
+        }
+      },
+      "text": [
+        "Le troisième n'est que d'i'râb complet, et il est de deux divisions. Une division dont le raf' est par la damma, le nasb par la fatha et le jazm par la suppression de la voyelle ; c'est le verbe au mudâri' à la fin duquel aucun pronom n'est attaché et dont la dernière lettre est une lettre saine, comme nuhibbu an nashfa'a wa-lam nuhram « nous aimons intercéder et ne pas être privés ».",
+        "Et une division dont le raf' est par la damma, le nasb par la fatha et le jazm par la suppression de la dernière lettre ; c'est le verbe au mudâri' à la fin duquel aucun pronom n'est attaché et dont la dernière lettre est une lettre faible, comme nad'û Allâha ta'âlâ an ya'fuwanâ wa-lam yarminâ fî al-nâri « nous prions Dieu le Très-Haut de nous pardonner et de ne pas nous jeter dans le Feu ».",
+        "Le quatrième n'est que d'i'râb incomplet : c'est le verbe au mudâri' à la fin duquel est attaché un pronom autre que le nûn ; son raf' est par le nûn, et son nasb et son jazm par sa suppression, comme al-awliyâ'u wa-al-'ulamâ'u yashfa'âni yawma al-qiyâmati « les saints et les savants intercéderont tous deux au Jour de la Résurrection », fa-narjû an yashfa'â lanâ wa-lam yu'ridâ 'annâ « nous espérons donc qu'ils intercéderont pour nous et ne se détourneront pas de nous »."
+      ]
+    },
+    "18": {
+      "title": "Apparent, sous-entendu et de position",
+      "body": [
+        "Le livre se termine par un passage qui range tout i'râb en trois. Si le signe apparaît dans la prononciation, il est apparent (lafzî), comme dans tous les exemples jusqu'ici : al-rasûlu, al-rasûla, al-rasûli. S'il n'apparaît pas mais est supposé sur la fin du mot, il est sous-entendu (taqdîrî) : anâ al-'âsî, « c'est moi le désobéissant », où al-'âsî est le khabar au raf', mais sa damma est supposée sur le yâ' et non prononcée.",
+        "S'il n'apparaît pas et n'est pas non plus supposé sur la fin, il est de position (mahallî) : tawakkalnâ 'alâ man lâ ya'tî al-khayru illâ min jihatihi, « nous nous en sommes remis à Celui de qui seul vient le bien ». Man, « celui qui », a une finale fixe ; rien en lui ne change ni ne pourrait changer. Pourtant il se tient là où se tient un nom au jarr, après 'alâ, et l'on dit donc qu'il est « en position de jarr » (fî mahall jarr).",
+        "Les commentaires donnent la raison de l'i'râb sous-entendu. Sur un alif final, aucune voyelle ne peut se prononcer (al-fatâ, comme l'a montré al-Âjurrûmiyya), si bien que les trois y sont sous-entendues. Sur un yâ' ou un wâw final, la damma et la kasra sont lourdes et sont sous-entendues (al-'âsî, nad'û), mais la fatha est légère et se prononce : ra'aytu al-'âsiya, an ya'fuwa.",
+        "Et l'i'râb de position est ce que la madrasa dit de chaque mot à finale fixe dans une position régie : les pronoms (anâ, « en position de raf' »), les démonstratifs, les relatifs comme man et alladhî, et les phrases entières qui se tiennent là où se tiendrait un seul mot. L'élève qui a lu les 'Awâmil peut maintenant donner, pour chaque mot d'une phrase, son régissant, son état, son signe, et dire si ce signe est apparent, sous-entendu ou de position.",
+        "Sur la voie ottomane, les 'Awâmil sont suivis de l'Izhâr al-asrâr d'al-Birgivî lui-même, qui reprend les trois mêmes chapitres plus longuement, puis de la Kâfiya d'Ibn al-Hâjib avec son commentaire par Jâmî."
+      ],
+      "terms": [
+        "l'i'râb apparent : le signe est prononcé",
+        "l'i'râb sous-entendu : le signe est supposé sur la fin",
+        "l'i'râb de position : un mot fixe dans une position régie",
+        "en position de jarr"
+      ],
+      "examples": [
+        "anâ al-'âsî, « c'est moi le désobéissant » : la damma de al-'âsî est sous-entendue",
+        "« nous nous en sommes remis à Celui de qui seul vient le bien » : man est en position de jarr",
+        "ra'aytu al-'âsiya, « j'ai vu le désobéissant » : la fatha se prononce sur le yâ'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Apparent, sous-entendu ou de position ? (a) al-rasûli dans âmannâ bi-l-rasûli ; (b) al-'âsî dans anâ al-'âsî ; (c) anâ dans anâ al-'âsî ; (d) man dans 'alâ man lâ ya'tî al-khayru.",
+          "answer": "(a) Apparent : la kasra est prononcée. (b) Sous-entendu : la damma est supposée sur le yâ'. (c) De position : anâ est un pronom à finale fixe, en position de raf' comme mubtada'. (d) De position : man a une finale fixe, en position de jarr après 'alâ."
+        },
+        {
+          "prompt": "Pourquoi l'i'râb de al-'âsî est-il sous-entendu au raf' mais apparent au nasb ?",
+          "answer": "Une damma sur un yâ' final est lourde et ne se prononce pas ; elle est donc supposée (anâ al-'âsî). Une fatha est légère et se prononce sur le yâ' (ra'aytu al-'âsiya)."
+        },
+        {
+          "prompt": "Quelle est la différence entre l'i'râb sous-entendu et l'i'râb de position ?",
+          "answer": "L'i'râb sous-entendu est supposé sur la fin d'un mot déclinable qui ne peut montrer son signe (al-'âsî, al-fatâ). L'i'râb de position appartient à un mot à finale fixe, qui ne change jamais ; seule sa position est dans un état (man, anâ)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que l'i'râb apparent (lafzî) ?",
+          "options": [
+            "Un signe supposé sur la fin",
+            "Un mot fixe dans une position régie",
+            "Un signe qui est prononcé",
+            "Aucun signe"
+          ],
+          "explanation": "Al-rasûlu, al-rasûla, al-rasûli."
+        },
+        {
+          "prompt": "Dans anâ al-'âsî, l'i'râb de al-'âsî est…",
+          "options": [
+            "apparent",
+            "de position",
+            "nul",
+            "sous-entendu (taqdîrî)"
+          ],
+          "explanation": "Sa damma est supposée sur le yâ'."
+        },
+        {
+          "prompt": "Dans tawakkalnâ 'alâ man …, man est…",
+          "options": [
+            "en position de jarr",
+            "au jarr par la kasra",
+            "au raf'",
+            "au nasb"
+          ],
+          "explanation": "Un mot à finale fixe : i'râb de position."
+        },
+        {
+          "prompt": "Quelle voyelle se prononce sur un yâ' final ?",
+          "options": [
+            "La damma",
+            "La fatha",
+            "La kasra",
+            "Aucune"
+          ],
+          "explanation": "Ra'aytu al-'âsiya ; la damma et la kasra sont lourdes et sous-entendues."
+        },
+        {
+          "prompt": "Sur un alif final, comme dans al-fatâ, quels signes sont sous-entendus ?",
+          "options": [
+            "Seulement la damma",
+            "Seulement la kasra",
+            "Les trois",
+            "Aucun"
+          ],
+          "explanation": "Un alif ne peut porter aucune voyelle."
+        },
+        {
+          "prompt": "Anâ dans anâ al-'âsî a un i'râb…",
+          "options": [
+            "sous-entendu",
+            "apparent",
+            "nul",
+            "de position : en position de raf'"
+          ],
+          "explanation": "Un pronom à finale fixe qui se tient comme mubtada'."
+        },
+        {
+          "prompt": "Quel livre suit les 'Awâmil sur la voie ottomane ?",
+          "options": [
+            "L'Izhâr al-asrâr d'al-Birgivî",
+            "Al-Âjurrûmiyya",
+            "Les Amthila",
+            "L'Alfiyya"
+          ],
+          "explanation": "Il reprend les trois mêmes chapitres plus longuement."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trois manières dont un signe de l'i'râb est présent",
+        "labels": {
+          "The three ways a sign of iʿrāb is present": "Les trois manières dont un signe de l'i'râb est présent",
+          "Kind": "Sorte",
+          "The sign": "Le signe",
+          "Birgivī's example": "Exemple d'al-Birgivî",
+          "heard (lafẓī)": "apparent (lafzî)",
+          "said on the last letter": "prononcé sur la dernière lettre",
+          "implied (taqdīrī)": "sous-entendu (taqdîrî)",
+          "supposed on the last letter": "supposé sur la dernière lettre",
+          "by place (maḥallī)": "de position (mahallî)",
+          "neither said nor supposed": "ni prononcé ni supposé"
+        }
+      },
+      "text": [
+        "Ensuite, l'i'râb, s'il apparaît dans la prononciation, est appelé apparent (lafzî), comme dans les exemples mentionnés ; s'il n'apparaît pas dans la prononciation mais est supposé sur la fin [du mot], il est appelé sous-entendu (taqdîrî), comme anâ al-'âsî « c'est moi le désobéissant » ; et s'il n'apparaît pas et n'est pas supposé sur la fin, il est appelé de position (mahallî), comme tawakkalnâ 'alâ man lâ ya'tî al-khayru illâ min jihatihi « nous nous en sommes remis à Celui de qui seul vient le bien »."
+      ]
+    }
+  }
+}

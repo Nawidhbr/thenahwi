@@ -75,3 +75,6 @@ s11 القسم الثالث في الحروف (p224–p287).
   Lesson 71 follows the sense: the added letters are signs, not pronouns.
 - p287: the print says "three nūns" but names two; lesson 72 explains that the heavy nūn, being doubled, counts as two.
 - Lesson 65 gives the book's reading of bal after a negation, which is not the more common view, and says so.
+- p211 (lesson 53): the example of a fāʿil and object that are one person is read ظَنَنْتَكَ فَاضِلًا ("you thought yourself
+  virtuous"), corrected from ظَنَنْتُكَ; translations made before the correction may still have the old vowel.
+- Lesson 39: "tisʿun wa-tisʿūna imraʾatan" (feminine counted noun), corrected in the English.

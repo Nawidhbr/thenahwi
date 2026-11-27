@@ -1,0 +1,777 @@
+{
+  "title": "Izhâr al-asrâr",
+  "summary": "L'Izhâr al-asrâr, « la mise en lumière des secrets », est le deuxième livre de nahw de Mehmed al-Birgivî, de Birgi (m. 981/1573), lu dans la madrasa ottomane après ses 'Awâmil et avant la Kâfiya d'Ibn al-Hâjib. Il expose ce dont a le plus besoin quiconque fait l'analyse, le régissant, le régi et la rection, en trois chapitres : les régissants entendus des Arabes et ceux qui régissent par règle, avec le régissant abstrait ; les mots régis, de la phrase et du pronom jusqu'aux suivants ; et l'i'râb, ses signes, ses positions, ses sortes et ses qualités, et le mabnî. Les leçons suivent l'impression de Constantinople de 1885 et expliquent chaque règle sur les exemples mêmes d'al-Birgivî.",
+  "parts": {
+    "opening": "Le mot et le régissant",
+    "heard-particles": "Chapitre premier : les régissants entendus, les particules",
+    "rule-verbs": "Les régissants par règle : les verbes",
+    "rule-nouns": "Les régissants par règle : les noms ; le régissant abstrait",
+    "governed": "Chapitre deux : le mot régi et la phrase",
+    "marfu": "Le marfû'",
+    "mansub": "Le mansûb",
+    "majrur-majzum": "Le majrûr et le majzûm",
+    "followers": "Les suivants",
+    "irab": "Chapitre trois : l'i'râb, ses signes et ses positions",
+    "kinds-of-irab": "Les sortes et la qualité de l'i'râb",
+    "mabni": "Le mabnî"
+  },
+  "lessons": {
+    "1": {
+      "title": "Les trois choses : régissant, régi, i'râb ; le mot",
+      "body": [
+        "Al-Birgivî ouvre en nommant son sujet : « ce dont a le plus besoin quiconque fait l'analyse (mu'rib) », c'est-à-dire trois choses, le régissant ('âmil), le régi (ma'mûl) et la rection ('amal), « c'est-à-dire l'i'râb ». Le livre a donc trois chapitres, un pour chacune. L'élève qui a lu ses 'Awâmil connaît le plan ; l'Izhâr remplit chaque partie de ses conditions et de ses exceptions.",
+        "D'abord le mot (kalima), « l'énonciation établie pour un sens unique », de trois sortes. Le verbe « indique, par sa forme et par convention, l'un des trois temps » ; ses signes sont qad, le sîn, sawfa, in, lam, lammâ, le lâm de l'ordre et le lâ de l'interdiction. « Et tout verbe régit » : chaque verbe a au moins un agent.",
+        "Le nom indique « un sens qui peut se comprendre par lui-même, non joint à l'un des trois temps ». Ses signes sont le tanwîn, une particule du jarr et le lâm de la définitude qui viennent sur lui, et le fait d'être mubtada', fâ'il et mudâf. Certains noms régissent, comme le participe actif ; d'autres non, comme anâ, anta et alladhî.",
+        "La particule indique « un sens qui ne peut se comprendre par lui-même, mais est un instrument pour comprendre autre chose ». Certaines particules régissent, comme les particules du jarr ; d'autres non, comme hal et qad. Ainsi la première question du livre sur tout mot n'est pas seulement ce qu'il est, mais s'il régit."
+      ],
+      "terms": [
+        "le régissant, le régi, la rection (l'i'râb)",
+        "le mot : une énonciation établie pour un sens unique",
+        "un instrument pour comprendre autre chose : la particule"
+      ],
+      "examples": [
+        "la définition du verbe",
+        "des noms qui ne régissent pas",
+        "des particules qui ne régissent pas"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez les trois choses sur lesquelles le livre est construit, et dites ce qu'est la troisième.",
+          "answer": "Le régissant ('âmil), le régi (ma'mûl) et la rection ('amal), qui est l'i'râb ; un chapitre pour chacune."
+        },
+        {
+          "prompt": "Donnez quatre signes du verbe et trois du nom tirés du livre.",
+          "answer": "Verbe : quatre parmi qad, le sîn, sawfa, in, lam, lammâ, le lâm de l'ordre, le lâ de l'interdiction. Nom : le tanwîn, une particule du jarr, le lâm de la définitude (et le fait d'être mubtada', fâ'il ou mudâf)."
+        },
+        {
+          "prompt": "Rangez entre ce qui régit et ce qui ne régit pas : alladhî, le bâ' du jarr, qad, dârib, n'importe quel verbe.",
+          "answer": "Régissent : le bâ' du jarr, dârib (un participe actif), n'importe quel verbe. Ne régissent pas : alladhî, qad."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Dans le livre, le 'amal est…",
+          "options": [
+            "le verbe",
+            "l'i'râb",
+            "le régissant",
+            "la phrase"
+          ],
+          "explanation": "« La rection, c'est-à-dire l'i'râb. »"
+        },
+        {
+          "prompt": "Combien de chapitres a le livre ?",
+          "options": [
+            "Deux",
+            "Quatre",
+            "Trois",
+            "Dix"
+          ],
+          "explanation": "Régissant, régi, i'râb."
+        },
+        {
+          "prompt": "Le verbe indique l'un des trois temps…",
+          "options": [
+            "par sa racine seulement",
+            "par une particule",
+            "par son contexte seulement",
+            "par sa forme et par convention"
+          ],
+          "explanation": "Bi-hay'atihi wad'an."
+        },
+        {
+          "prompt": "Quels verbes régissent ?",
+          "options": [
+            "Tous",
+            "Seulement les transitifs",
+            "Seulement le passé",
+            "Seulement le mudâri'"
+          ],
+          "explanation": "« Et tout verbe régit. »"
+        },
+        {
+          "prompt": "Lequel est un nom qui ne régit pas ?",
+          "options": [
+            "Dârib",
+            "Anâ",
+            "Madrûb",
+            "Afdal"
+          ],
+          "explanation": "Avec anta et alladhî."
+        },
+        {
+          "prompt": "La particule est…",
+          "options": [
+            "comprise par elle-même",
+            "jointe à un temps",
+            "un instrument pour comprendre autre chose",
+            "toujours régissante"
+          ],
+          "explanation": "Âlatun li-fahmi ghayrihi."
+        },
+        {
+          "prompt": "Quelle particule ne régit pas ?",
+          "options": [
+            "Min",
+            "Fî",
+            "Lam",
+            "Hal"
+          ],
+          "explanation": "Hal et qad ne régissent rien."
+        }
+      ],
+      "diagram": {
+        "caption": "Le mot et sa rection (p. 46-47)",
+        "labels": {
+          "The word and its governing (pp. 46–47)": "Le mot et sa rection (p. 46-47)",
+          "The word": "Le mot",
+          "verb: all of it governs": "verbe : tout verbe régit",
+          "noun": "nom",
+          "governs: active participle": "régit : le participe actif",
+          "does not govern": "ne régit pas",
+          "particle": "particule",
+          "governs: jarr": "régit : le jarr"
+        }
+      },
+      "text": [
+        "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux. Louange à Dieu, Seigneur des mondes, et la prière et la paix sur Muhammad et sur toute sa famille. Ensuite : ceci est une épître sur ce dont a le plus besoin quiconque fait l'analyse (mu'rib), et ce sont trois choses : le régissant ('âmil), le régi (ma'mûl) et la rection ('amal), c'est-à-dire l'i'râb ; il fallait donc les exposer en trois chapitres.",
+        "Sachez d'abord que le mot (kalima), qui est l'énonciation établie pour un sens unique, est de trois [sortes]. Le verbe (fi'l), qui est ce qui indique, par sa forme et par convention, l'un des trois temps ; parmi ses propriétés, il y a que qad, le sîn, sawfa, in, lam, lammâ, le lâm de l'ordre et le lâ de l'interdiction viennent sur lui ; et tout verbe régit, comme on le verra.",
+        "Le nom (ism), qui est ce qui indique un sens qui peut se comprendre par lui-même, non joint à l'un des trois temps ; parmi ses propriétés, il y a que le tanwîn, une particule du jarr et le lâm de la définitude viennent sur lui, et qu'il est mubtada', fâ'il et mudâf. Certains noms régissent, comme le participe actif, et certains ne régissent pas, comme anâ « je », anta « tu » et alladhî « qui ».",
+        "La particule (harf), qui est ce qui indique un sens qui ne peut se comprendre par lui-même, mais est un instrument pour comprendre autre chose. Certaines particules régissent, comme la particule du jarr, et certaines ne régissent pas, comme hal « est-ce que ? » et qad « déjà »."
+      ]
+    },
+    "2": {
+      "title": "Ce qu'est le régissant",
+      "body": [
+        "« Le régissant est ce qui produit, par un intermédiaire, que la fin d'un mot soit dans un état déterminé de l'i'râb. » L'intermédiaire est ce qui appelle l'i'râb, et dans les noms ce sont « les différents sens qui leur surviennent », être agent, être complément d'objet, être le second terme d'une idâfa. Ces sens sont cachés, « ils appellent donc des signes visibles afin d'être connus ».",
+        "L'exemple d'al-Birgivî : daraba Zaydun ghulâma 'Amrin. Daraba apporte la damma à la fin de Zayd et la fatha à la fin de ghulâm, par l'intermédiaire du sens de fâ'il qui survient à Zayd et de maf'ûl à ghulâm, parce que daraba est lié aux deux. Et ghulâm à son tour apporte la kasra à la fin de 'Amr, par l'intermédiaire de l'idâfa, 'Amr étant celui à qui le serviteur est rapporté.",
+        "Ainsi le régissant fait deux choses dans deux sortes de mots. Dans les noms, il produit les sens cachés, et ces sens appellent des signes, qui sont l'i'râb. Dans les verbes, il produit « la pleine ressemblance avec le nom », et elle ne se trouve que dans le mudâri', qui ressemble au participe actif « par l'énonciation, par le sens et par l'emploi ». La leçon suivante prend les trois tour à tour.",
+        "Notez qu'un même mot peut être régi et régir à la fois : ghulâma est au nasb par daraba et met 'Amrin au jarr. Le deuxième chapitre du livre reviendra sur les mots qui sont à la fois régis et régissants."
+      ],
+      "terms": [
+        "l'intermédiaire : ce qui appelle l'i'râb",
+        "les sens cachés : fâ'il, maf'ûl, idâfa",
+        "les signes visibles : l'i'râb"
+      ],
+      "examples": [
+        "une phrase, deux régissants",
+        "pourquoi le mudâri' a un i'râb"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dans daraba Zaydun ghulâma 'Amrin, nommez chaque régissant, ce qu'il régit, et le sens qui sert d'intermédiaire.",
+          "answer": "Daraba régit Zaydun (raf', par le sens de fâ'il) et ghulâma (nasb, par le sens de maf'ûl). Ghulâma régit 'Amrin (jarr, par le sens de l'idâfa)."
+        },
+        {
+          "prompt": "Pourquoi, dans le livre, les noms ont-ils besoin d'un i'râb ?",
+          "answer": "Les sens qui leur surviennent, agent, complément d'objet, idâfa, sont cachés ; ils appellent des signes visibles par lesquels on les connaît, et ces signes sont l'i'râb."
+        },
+        {
+          "prompt": "Quel verbe a un i'râb, et pourquoi ?",
+          "answer": "Le mudâri' seulement, parce qu'il ressemble pleinement au participe actif par l'énonciation, le sens et l'emploi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le régissant produit l'i'râb…",
+          "options": [
+            "directement, sans rien entre eux",
+            "seulement dans les verbes",
+            "par un intermédiaire",
+            "seulement dans les particules"
+          ],
+          "explanation": "Bi-wâsitatin."
+        },
+        {
+          "prompt": "Dans les noms, l'intermédiaire, ce sont…",
+          "options": [
+            "leurs lettres",
+            "leur schème",
+            "la seule intention de celui qui parle",
+            "les différents sens qui leur surviennent"
+          ],
+          "explanation": "Fâ'iliyya, maf'ûliyya, idâfa."
+        },
+        {
+          "prompt": "Pourquoi les sens ont-ils besoin de signes ?",
+          "options": [
+            "Ils sont cachés",
+            "Ils sont nombreux",
+            "Ce sont des verbes",
+            "Ils sont fixes"
+          ],
+          "explanation": "Les choses cachées appellent des signes visibles."
+        },
+        {
+          "prompt": "Dans daraba Zaydun ghulâma 'Amrin, qu'est-ce qui met 'Amrin au jarr ?",
+          "options": [
+            "Daraba",
+            "Ghulâma",
+            "Zaydun",
+            "Une particule cachée"
+          ],
+          "explanation": "Par l'idâfa."
+        },
+        {
+          "prompt": "Qu'est-ce qui donne à ghulâma sa fatha ?",
+          "options": [
+            "'Amrin",
+            "Zaydun",
+            "Daraba, par le sens de maf'ûl",
+            "L'idâfa"
+          ],
+          "explanation": "Daraba est lié à lui."
+        },
+        {
+          "prompt": "Dans les verbes, le régissant produit…",
+          "options": [
+            "des sens cachés",
+            "le binâ'",
+            "les temps",
+            "la pleine ressemblance avec le nom"
+          ],
+          "explanation": "Dans le mudâri' seulement."
+        },
+        {
+          "prompt": "Le mudâri' ressemble au participe actif…",
+          "options": [
+            "par l'énonciation, le sens et l'emploi",
+            "par l'énonciation seulement",
+            "par le sens seulement",
+            "en rien"
+          ],
+          "explanation": "Lafzan wa-ma'nan wa-sti'mâlan."
+        }
+      ],
+      "diagram": {
+        "caption": "Qui régit quoi dans daraba Zaydun ghulâma 'Amrin (p. 47)",
+        "labels": {
+          "Who governs what in ḍaraba Zaydun ghulāma ʿAmrin (p. 47)": "Qui régit quoi dans daraba Zaydun ghulâma 'Amrin (p. 47)",
+          "ḍaraba, the governor": "daraba, le régissant",
+          "Zayd: fāʿil, ḍamma": "Zayd : fâ'il, damma",
+          "ghulām: mafʿūl, fatḥa": "ghulâm : maf'ûl, fatha",
+          "ʿAmr: iḍāfa, kasra": "'Amr : idâfa, kasra"
+        }
+      },
+      "text": [
+        "Ensuite, le régissant est ce qui produit, par un intermédiaire, que la fin d'un mot soit dans un état déterminé de l'i'râb. Par l'intermédiaire, on entend ce qui appelle l'i'râb, et dans les noms ce sont les différents sens qui leur surviennent ; car ce sont des choses cachées qui appellent des signes visibles afin d'être connues.",
+        "Par exemple, quand nous disons daraba Zaydun ghulâma 'Amrin « Zayd a frappé le serviteur de 'Amr », daraba produit que la fin de Zayd ait une damma et la fin de ghulâm une fatha, par l'intermédiaire du sens de fâ'il qui survient à Zayd et de celui de maf'ûl à ghulâm, parce que daraba est lié à eux deux ; et ghulâm à son tour produit que la fin de 'Amr ait une kasra, par l'intermédiaire de l'idâfa qui lui survient, c'est-à-dire du fait qu'il est ce à quoi le serviteur est rapporté.",
+        "Le régissant produit donc les sens cachés dans les noms, et ceux-ci appellent l'établissement de signes, qui sont l'i'râb ; et dans les verbes, [il produit] la pleine ressemblance avec le nom, et elle n'est que dans le mudâri' ; car il ressemble au participe actif par l'énonciation, par le sens et par l'emploi."
+      ]
+    },
+    "3": {
+      "title": "Pourquoi le mudâri' a un i'râb",
+      "body": [
+        "Par l'énonciation, le mudâri' correspond au participe actif « par les voyelles et les sukûns » : dâribun et yadribu, mudahrijun et yudahriju. Comptez-les : chacun a une voyelle, un sukûn, puis des voyelles, aux mêmes places.",
+        "Par le sens, chacun admet d'être général et particulier. Le nom sans le lâm est général, dâribun, « quelqu'un qui frappe » ; avec l'article, il est particulier, al-dâribu. De même le mudâri' : seul, il peut signifier le présent ou le futur, yadribu ; avec le sîn, il est réservé au futur, sa-yadribu, et avec mâ au présent, mâ yadribu. Et dans les deux, quand rien d'autre n'indique la voie, « la compréhension va d'abord au présent ».",
+        "Par l'emploi, chacun peut être l'épithète d'un indéfini, jâ'anî rajulun dâribun aw yadribu, et le lâm du début vient sur les deux, inna Zaydan la-dâribun aw la-yadribu. Cette ressemblance fait que le mudâri' participe « en invité » (tatafful) à ce qui est originel dans le nom, l'i'râb : « son i'râb n'est donc pas originel ».",
+        "Ainsi la définition du régissant vaut aussi pour le verbe. Dans lan yadriba, lan apporte la fatha à la fin de yadriba, et l'intermédiaire n'est pas un sens caché, comme dans le nom, mais la ressemblance avec le participe actif."
+      ],
+      "terms": [
+        "la correspondance par les voyelles et les sukûns",
+        "être général et être particulier",
+        "participer en invité : l'i'râb du mudâri' n'est pas originel"
+      ],
+      "examples": [
+        "la ressemblance par l'énonciation",
+        "le mudâri' rendu particulier",
+        "le lâm du début sur les deux",
+        "lan régit par l'intermédiaire de la ressemblance"
+      ],
+      "tasks": [
+        {
+          "prompt": "Montrez la ressemblance par l'énonciation entre mudahrijun et yudahriju.",
+          "answer": "Les deux ont une voyelle sur la première lettre, une voyelle sur la deuxième, un sukûn sur la troisième, puis une voyelle et la terminaison : mu-da-h-ri-jun, yu-da-h-ri-ju."
+        },
+        {
+          "prompt": "Qu'est-ce qui rend yadribu particulier quant au temps, et à quel temps ?",
+          "answer": "Le sîn le réserve au futur ; mâ (de négation) au présent. Seul, yadribu peut être l'un ou l'autre, et il se comprend d'abord comme présent."
+        },
+        {
+          "prompt": "Dans lan yadriba, quel est le régissant et quel est l'intermédiaire ?",
+          "answer": "Lan est le régissant ; l'intermédiaire est la ressemblance du mudâri' avec le participe actif."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Dâribun et yadribu correspondent…",
+          "options": [
+            "par les lettres seulement",
+            "par le sens seulement",
+            "en rien",
+            "par les voyelles et les sukûns"
+          ],
+          "explanation": "La première ressemblance."
+        },
+        {
+          "prompt": "Le nom devient particulier par…",
+          "options": [
+            "le lâm de la définitude",
+            "le tanwîn",
+            "le sîn",
+            "une particule du jarr"
+          ],
+          "explanation": "Dâribun → al-dâribu."
+        },
+        {
+          "prompt": "Sa-yadribu est réservé…",
+          "options": [
+            "au présent",
+            "au futur",
+            "au passé",
+            "à l'ordre"
+          ],
+          "explanation": "Le sîn du futur."
+        },
+        {
+          "prompt": "Sans indices, la compréhension va d'abord…",
+          "options": [
+            "au futur",
+            "au passé",
+            "au présent",
+            "à aucun des deux"
+          ],
+          "explanation": "Dans le nom comme dans le verbe."
+        },
+        {
+          "prompt": "Lequel montre la ressemblance par l'emploi ?",
+          "options": [
+            "Daraba Zaydun",
+            "Sa-yadribu",
+            "Mudahrijun",
+            "Jâ'anî rajulun yadribu"
+          ],
+          "explanation": "Chacun peut être l'épithète d'un indéfini."
+        },
+        {
+          "prompt": "L'i'râb du mudâri' est…",
+          "options": [
+            "non originel : il y participe en invité",
+            "originel",
+            "le même que le binâ'",
+            "seulement au nasb"
+          ],
+          "explanation": "Tatafful : il participe à l'i'râb du nom."
+        },
+        {
+          "prompt": "Dans lan yadriba, l'intermédiaire est…",
+          "options": [
+            "un sens caché",
+            "la ressemblance avec le participe actif",
+            "l'agent",
+            "le temps"
+          ],
+          "explanation": "Ainsi la définition du régissant vaut."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trois ressemblances (p. 47-48)",
+        "labels": {
+          "The three resemblances (pp. 47–48)": "Les trois ressemblances (p. 47-48)",
+          "Resemblance": "Ressemblance",
+          "Noun": "Nom",
+          "Muḍāriʿ": "Mudâri'",
+          "wording: vowels and sukūns": "énonciation : voyelles et sukûns",
+          "meaning: general": "sens : général",
+          "meaning: particular": "sens : particulier",
+          "use: adjective of an indefinite": "emploi : épithète d'un indéfini",
+          "use: the lām of beginning": "emploi : le lâm du début"
+        }
+      },
+      "text": [
+        "Quant à la première, c'est parce qu'il lui correspond par les voyelles et les sukûns, comme dâribun et yadribu, mudahrijun et yudahriju. Quant à la deuxième, c'est parce que chacun d'eux admet d'être général et particulier ; car le nom, quand il est libre du lâm, donne la généralité, et quand la particule de la définitude vient sur lui, il devient particulier, comme dâribun « quelqu'un qui frappe » et al-dâribu « celui qui frappe ».",
+        "De même le mudâri' : quand il est libre de la particule du futur et du présent, il peut signifier le présent ou le futur, comme yadribu « il frappe », et quand elles viennent sur lui, il est réservé au futur ou au présent, comme sa-yadribu « il frappera » et mâ yadribu « il ne frappe pas » ; et parce que, dans les deux [nom et verbe], quand ils sont libres d'indices, la compréhension va d'abord au présent.",
+        "Quant à la troisième, c'est parce que chacun d'eux peut être l'épithète d'un indéfini, comme jâ'anî rajulun dâribun aw yadribu « un homme est venu à moi, frappant, ou qui frappe », et parce que le lâm du début vient sur les deux, comme inna Zaydan la-dâribun aw la-yadribu « Zayd est assurément frappant, ou frappe assurément ». Cette ressemblance appelle que le mudâri' participe, en invité, à ce qui est originel dans le nom, c'est-à-dire l'i'râb ; son i'râb n'est donc pas originel. Quand nous disons lan yadriba « il ne frappera pas », lan produit que la fin de yadriba ait une fatha, par l'intermédiaire de la ressemblance avec le participe actif."
+      ]
+    },
+    "4": {
+      "title": "Les sortes de régissant ; les vingt particules du jarr",
+      "body": [
+        "Le régissant est exprimé (lafzî), « celui dans lequel la langue a une part », ou abstrait (ma'nawî). L'exprimé est entendu (samâ'î), « dont la rection dépend de l'usage entendu » des Arabes, ou par règle (qiyâsî). L'entendu régit le nom ou le mudâri' ; et le régissant entendu du nom régit soit un nom, soit deux, « le mubtada' et le khabar à l'origine, qui, après que le régissant est venu sur eux, s'appellent son ism et son khabar ».",
+        "Le régissant d'un seul nom, ce sont les particules du jarr, « appelées aussi particules de l'idâfa », vingt, chacune avec son sens : le bâ' pour l'adhérence (ilsâq), min pour le début, ilâ pour le terme, 'an pour l'éloignement et le dépassement, 'alâ pour la supériorité, le lâm pour la cause et la spécification, fî pour le contenant, le kâf pour la comparaison, hattâ pour la limite, rubba pour le petit nombre, le wâw et le tâ' du serment, et hâshâ pour l'exception.",
+        "Sept de plus, chacune avec une condition : mudh et mundhu pour le début dans le temps passé, « et ils peuvent être des noms » ; khalâ et 'adâ pour l'exception, « et ils peuvent être des verbes, ce qui est plus fréquent » ; lawlâ, pour la non-existence d'une chose à cause de l'existence d'une autre, « quand un pronom lui est joint » ; kay pour la cause, quand il vient sur le mâ interrogatif ; et la'alla pour l'espoir, « dans le dialecte des 'Uqayl ».",
+        "La liste est plus longue que celle des 'Awâmil, et les conditions en sont la partie nouvelle : l'élève doit apprendre, avec chaque particule, quand elle n'est pas du tout une particule du jarr."
+      ],
+      "terms": [
+        "exprimé (la langue y a une part) et abstrait",
+        "entendu des Arabes, et par règle",
+        "un autre nom des particules du jarr"
+      ],
+      "examples": [
+        "les particules du jarr et leurs sens",
+        "khalâ et 'adâ, plus souvent des verbes",
+        "la'alla comme particule du jarr dans un dialecte"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelle est la différence entre un régissant entendu et un régissant par règle ?",
+          "answer": "La rection du régissant entendu dépend de l'usage entendu des Arabes ; le régissant par règle est celui dont on peut énoncer une règle générale (leçon 13)."
+        },
+        {
+          "prompt": "Donnez le sens que le livre attribue à 'an, 'alâ, fî et rubba.",
+          "answer": "'An : l'éloignement et le dépassement ; 'alâ : la supériorité ; fî : le contenant ; rubba : le petit nombre."
+        },
+        {
+          "prompt": "Quand lawlâ est-il une particule du jarr, et quand kay ?",
+          "answer": "Lawlâ, quand un pronom lui est joint (lawlâka) ; kay, quand il vient sur le mâ interrogatif (kaymah)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le régissant exprimé est celui…",
+          "options": [
+            "dans lequel la langue a une part",
+            "connu par l'esprit seulement",
+            "qu'on ne trouve qu'en vers",
+            "qui est une particule"
+          ],
+          "explanation": "Li-l-lisâni fîhi hazz."
+        },
+        {
+          "prompt": "Le régissant entendu est celui dont la rection dépend…",
+          "options": [
+            "d'une règle",
+            "de l'usage entendu des Arabes",
+            "du sens",
+            "de celui qui parle"
+          ],
+          "explanation": "Samâ' : l'avoir entendu des Arabes."
+        },
+        {
+          "prompt": "Combien de particules du jarr le livre compte-t-il ?",
+          "options": [
+            "Dix-sept",
+            "Treize",
+            "Vingt",
+            "Sept"
+          ],
+          "explanation": "Treize, puis sept avec des conditions."
+        },
+        {
+          "prompt": "Le bâ' est pour…",
+          "options": [
+            "le terme",
+            "la comparaison",
+            "le petit nombre",
+            "l'adhérence (ilsâq)"
+          ],
+          "explanation": "Al-bâ'u li-l-ilsâq."
+        },
+        {
+          "prompt": "Rubba est pour…",
+          "options": [
+            "le petit nombre",
+            "la limite",
+            "la cause",
+            "l'exception"
+          ],
+          "explanation": "Li-l-taqlîl."
+        },
+        {
+          "prompt": "Khalâ et 'adâ sont plus souvent…",
+          "options": [
+            "des particules",
+            "des verbes",
+            "des noms",
+            "des adverbes"
+          ],
+          "explanation": "« Ce qui est plus fréquent. »"
+        },
+        {
+          "prompt": "La'alla met un nom au jarr…",
+          "options": [
+            "toujours",
+            "jamais",
+            "dans le dialecte des 'Uqayl",
+            "dans le Coran"
+          ],
+          "explanation": "Comme dans la'alla Zaydin qâ'imun."
+        }
+      ],
+      "diagram": {
+        "caption": "Les sortes de régissant (p. 48)",
+        "labels": {
+          "The kinds of governor (p. 48)": "Les sortes de régissant (p. 48)",
+          "The governor": "Le régissant",
+          "verbal": "exprimé",
+          "heard: in one noun": "entendu : dans un nom",
+          "heard: in two nouns": "entendu : dans deux noms",
+          "heard: in the muḍāriʿ": "entendu : dans le mudâri'",
+          "by rule": "par règle",
+          "abstract": "abstrait"
+        }
+      },
+      "text": [
+        "Ensuite, le régissant est de deux sortes : exprimé (lafzî) et abstrait (ma'nawî). L'exprimé est celui dans lequel la langue a une part, et il est de deux sortes : entendu (samâ'î) et par règle (qiyâsî). L'entendu est celui dont la rection dépend de l'usage entendu [des Arabes], et il est lui aussi de deux espèces : celui qui régit le nom, et celui qui régit le verbe au mudâri'. Le régissant du nom est à son tour de deux divisions : celui qui régit un seul nom, et celui qui régit deux noms, je veux dire le mubtada' et le khabar à l'origine, qui, après que le régissant est venu sur eux, s'appellent son ism et son khabar.",
+        "Le régissant d'un seul nom, ce sont des particules qui le mettent au jarr, appelées les particules du jarr et les particules de l'idâfa. Elles sont vingt : le bâ' pour l'adhérence (ilsâq) ; min pour le début ; ilâ pour le terme ; 'an pour l'éloignement et le dépassement ; 'alâ pour la supériorité ; le lâm pour la cause et pour la spécification ; fî pour le contenant ; le kâf pour la comparaison ; hattâ pour la limite ; rubba pour le petit nombre ; le wâw et le tâ' du serment ; et hâshâ pour l'exception.",
+        "mudh et mundhu pour le début dans le temps passé, et ils peuvent être des noms ; khalâ et 'adâ pour l'exception, et ils peuvent être des verbes, ce qui est plus fréquent ; lawlâ pour la non-existence d'une chose à cause de l'existence d'une autre, quand un pronom lui est joint ; kay pour la cause, quand il vient sur le mâ interrogatif ; et la'alla pour l'espoir, dans le dialecte des 'Uqayl."
+      ]
+    },
+    "5": {
+      "title": "Ce à quoi se rattache la particule du jarr",
+      "body": [
+        "Toute particule du jarr doit avoir quelque chose à quoi elle se rattache (muta'allaq) : un verbe, ce qui ressemble à un verbe, ou un mot qui a le sens d'un verbe. Sept ne se rattachent à rien : la particule ajoutée, comme kafâ bi-llâhi, wa-bi-hasbika dirhamun, et rubba, hâshâ, khalâ, 'adâ, lawlâ et la'alla. Après la particule ajoutée et rubba, le nom garde la position qu'il avait auparavant ; après les particules d'exception, il est comme le mustathnâ par illâ ; après lawlâ et la'alla, c'est un mubtada' avec un khabar : lawlâka la-halaka Zaydun, la'alla Zaydin qâ'imun.",
+        "Après toute autre particule, le majrûr est mansûb par sa position. Avec fî ou ce qui a son sens, il est le maf'ûl fîhi de ce à quoi il se rattache : sallaytu fî al-masjidi, ou bi-l-masjidi. Avec le lâm ou ce qui a son sens, il est le maf'ûl lahu : darabtu Zaydan li-l-ta'dîbi, kaymah 'asayta ? Avec toute autre, il est « un maf'ûl bihi non explicite » : marartu bi-Zaydin.",
+        "Quand le verbe est mis au passif et attribué à la particule et à son nom, ceux-ci sont marfû' par leur position, comme substitut de l'agent : murra bi-Zaydin, « on est passé près de Zayd ». Sauf dans ce cas, ils peuvent venir avant leur verbe : bi-Zaydin marartu.",
+        "Le verbe auquel ils se rattachent peut être supprimé. Si c'est un verbe général, « contenu » dans la particule et son nom, ils forment un adverbe établi (zarf mustaqarr) : Zaydun fî al-dâri, « c'est-à-dire hasala ». Sinon, ou si le verbe n'est pas supprimé, ils forment un adverbe vide (zarf laghw) : marartu bi-Zaydin, ou Zaydun fî al-dâri au sens qu'il y a mangé."
+      ],
+      "terms": [
+        "ce à quoi se rattache la particule du jarr",
+        "l'adverbe établi : son verbe général supprimé",
+        "l'adverbe vide : son verbe nommé ou particulier",
+        "un complément d'objet non explicite : marartu bi-Zaydin"
+      ],
+      "examples": [
+        "le bâ' ajouté, rattaché à rien",
+        "après lawlâ : un mubtada'",
+        "le majrûr comme maf'ûl lahu par sa position",
+        "le substitut de l'agent par sa position"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelle est la position du majrûr dans chacun : sallaytu bi-l-masjidi ; kaymah 'asayta ?",
+          "answer": "Bi-l-masjidi : le bâ' a le sens de fî, le nom est donc un maf'ûl fîhi par sa position. Kaymah : kay a le sens du lâm, mah est donc un maf'ûl lahu par sa position."
+        },
+        {
+          "prompt": "Fî al-dâri est-il un adverbe établi ou vide dans Zaydun fî al-dâri ?",
+          "answer": "Établi (mustaqarr) si le verbe supprimé est le général hasala, « Zayd est dans la maison » ; vide (laghw) si l'on vise un verbe particulier comme akala."
+        },
+        {
+          "prompt": "Pourquoi peut-on dire bi-Zaydin marartu, mais non mettre bi-Zaydin devant murra ?",
+          "answer": "La particule et son nom peuvent venir avant leur verbe, sauf quand ils sont le substitut de l'agent, comme dans murra bi-Zaydin ; un agent et son substitut ne viennent pas avant le verbe."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Une particule du jarr se rattache à…",
+          "options": [
+            "une particule",
+            "un verbe, ce qui lui ressemble, ou son sens",
+            "le mubtada' seulement",
+            "rien"
+          ],
+          "explanation": "Sauf les sept."
+        },
+        {
+          "prompt": "Laquelle ne se rattache à rien ?",
+          "options": [
+            "Min",
+            "Fî",
+            "Rubba",
+            "'Alâ"
+          ],
+          "explanation": "Avec les ajoutées, hâshâ, khalâ, 'adâ, lawlâ, la'alla."
+        },
+        {
+          "prompt": "Dans lawlâka la-halaka Zaydun, le pronom est…",
+          "options": [
+            "un complément d'objet",
+            "un fâ'il",
+            "un hâl",
+            "un mubtada' par sa position"
+          ],
+          "explanation": "Ce qui suit est son khabar."
+        },
+        {
+          "prompt": "Dans marartu bi-Zaydin, Zayd est…",
+          "options": [
+            "un maf'ûl bihi non explicite",
+            "un maf'ûl fîhi",
+            "un maf'ûl lahu",
+            "un fâ'il"
+          ],
+          "explanation": "Le bâ' n'est ni fî ni le lâm."
+        },
+        {
+          "prompt": "Dans murra bi-Zaydin, bi-Zaydin est…",
+          "options": [
+            "mansûb par sa position",
+            "le substitut de l'agent, marfû' par sa position",
+            "un mubtada'",
+            "un hâl"
+          ],
+          "explanation": "Le verbe lui est attribué."
+        },
+        {
+          "prompt": "Un adverbe établi a…",
+          "options": [
+            "son verbe nommé",
+            "aucun verbe",
+            "un verbe général supprimé et contenu en lui",
+            "un verbe particulier supprimé"
+          ],
+          "explanation": "Zaydun fî al-dâri, hasala."
+        },
+        {
+          "prompt": "Dans marartu bi-Zaydin, l'adverbe est…",
+          "options": [
+            "établi (mustaqarr)",
+            "un hâl",
+            "un khabar",
+            "vide (laghw)"
+          ],
+          "explanation": "Son verbe n'est pas supprimé."
+        }
+      ],
+      "diagram": {
+        "caption": "La position du majrûr (p. 49)",
+        "labels": {
+          "The place of the majrūr (p. 49)": "La position du majrûr (p. 49)",
+          "After": "Après",
+          "The majrūr is": "Le majrûr est",
+          "Example": "Exemple",
+          "an added particle, rubba": "une particule ajoutée, rubba",
+          "as it was before": "tel qu'il était auparavant",
+          "ḥāshā, khalā, ʿadā": "hâshâ, khalâ, 'adâ",
+          "like the mustathnā": "comme le mustathnâ",
+          "lawlā, laʿalla": "lawlâ, la'alla",
+          "a mubtadaʾ": "un mubtada'",
+          "fī or its like": "fî ou son semblable",
+          "mafʿūl fīhi in place": "maf'ûl fîhi par sa position",
+          "the lām or its like": "le lâm ou son semblable",
+          "mafʿūl lahu in place": "maf'ûl lahu par sa position",
+          "any other": "toute autre",
+          "mafʿūl bihi, not explicit": "maf'ûl bihi, non explicite",
+          "any, after a passive": "toute, après un passif",
+          "deputy of the fāʿil": "substitut de l'agent"
+        }
+      },
+      "text": [
+        "Ces particules doivent avoir quelque chose à quoi elles se rattachent (muta'allaq) : un verbe, ce qui lui ressemble, ou son sens ; sauf les ajoutées d'entre elles, comme kafâ bi-Allâhi « Dieu suffit » et wa-bi-hasbika dirhamun « un dirham te suffit », et rubba, hâshâ, khalâ, 'adâ, lawlâ et la'alla ; car celles-ci ne se rattachent à rien. Ce qui est mis au jarr par une particule ajoutée et par rubba reste tel qu'il était avant qu'elles viennent sur lui ; ce qui est mis au jarr par les particules d'exception est comme le mustathnâ par illâ, comme on le verra ; et ce qui est mis au jarr par lawlâ et la'alla est un mubtada', et ce qui vient après lui est son khabar, comme lawlâka la-halaka Zaydun « n'eût été toi, Zayd aurait péri » et la'alla Zaydin qâ'imun « peut-être Zayd est-il debout ».",
+        "Ce qui est mis au jarr par les autres que ces sept est mansûb par sa position : comme maf'ûl fîhi de ce à quoi il se rattache, si la particule est fî ou ce qui a son sens, comme sallaytu fî al-masjidi aw bi-al-masjidi « j'ai prié dans la mosquée, ou à la mosquée » ; ou comme maf'ûl lahu, si la particule est le lâm ou ce qui a son sens, comme darabtu Zaydan li-al-ta'dîbi « j'ai frappé Zayd pour l'éduquer » et kaymah 'asayta « pourquoi as-tu désobéi ? » ; ou comme maf'ûl bihi non explicite, si la particule est autre que ces deux, comme marartu bi-Zaydin « je suis passé près de Zayd ».",
+        "Ce à quoi elle se rattache peut être attribué à la préposition et à son majrûr, et ceux-ci sont alors marfû' par leur position comme substitut de l'agent, comme murra bi-Zaydin « on est passé près de Zayd ». Il est permis de placer tout autre que celui-ci avant ce à quoi il se rattache, comme bi-Zaydin marartu « c'est près de Zayd que je suis passé ». Ce à quoi elle se rattache peut être supprimé : si ce qui est supprimé est un verbe général contenu dans la préposition et son majrûr, on les appelle un adverbe établi (zarf mustaqarr), comme Zaydun fî al-dâri « Zayd est dans la maison », c'est-à-dire hasala « se trouve » ; et s'il n'en est pas ainsi, ou si ce à quoi elle se rattache n'est pas supprimé, on les appelle un adverbe vide (zarf laghw), comme Zaydun fî al-dâri « Zayd [a mangé] dans la maison », c'est-à-dire akala « a mangé », et marartu bi-Zaydin « je suis passé près de Zayd »."
+      ]
+    },
+    "6": {
+      "title": "La suppression de la particule du jarr : le maf'ûl fîhi",
+      "body": [
+        "La particule du jarr peut être supprimée, par règle ou par usage entendu. Par règle en trois endroits, et le premier est le maf'ûl fîhi. Fî peut être supprimé de tout adverbe de temps, vague ou délimité : sirtu hînan, « j'ai voyagé un temps », sumtu shahran, « j'ai jeûné un mois ». D'un adverbe de lieu seulement s'il est vague : « celui qui a son nom à cause de quelque chose qui n'est pas compris dans ce qu'il nomme ».",
+        "Les lieux vagues : les six directions, amâm et quddâm, khalf, yamîn, yasâr et shimâl, fawq et taht ; 'inda, ladâ, wast (avec sukûn sur le sîn), bayna, izâ'a, hidhâ'a, tilqâ'a ; et les mesures de distance, farsakh, mîl, barîd. Un lieu n'est « devant » que par rapport à autre chose ; le nom ne vient donc pas du lieu lui-même.",
+        "Les exceptions : jânib, jiha, wajh et wasat (avec fatha), khârij al-dâr, dâkhil al-dâr, jawf al-bayt ; et les noms de lieu qui ne signifient pas l'établissement, al-maqtal, al-madrib. « On ne dit pas akaltu jâniba al-dâri … mais fî jânibi al-dâri. » Maqâm et makân signifient bien l'établissement ; fî peut donc être supprimé quand leur verbe le signifie aussi : qumtu maqâmahu, qa'adtu makânahu.",
+        "Un lieu délimité, « celui qui a son nom à cause de quelque chose de compris dans ce qu'il nomme », comme dâr, garde son fî : non sallaytu dâran mais fî dârin ; sauf après dakhala, nazala et sakana : dakhaltu al-dâra, nazaltu al-khâna, sakantu al-balada."
+      ],
+      "terms": [
+        "un adverbe de lieu vague : nommé d'après quelque chose hors de lui",
+        "un adverbe de lieu délimité : nommé d'après quelque chose en lui",
+        "les six directions"
+      ],
+      "examples": [
+        "des adverbes de temps sans fî",
+        "une exception : fî reste",
+        "maqâm et makân avec un verbe d'établissement",
+        "des lieux délimités après trois verbes"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi peut-on dire sumtu shahran mais non sallaytu dâran ?",
+          "answer": "Fî peut être supprimé de tout adverbe de temps, délimité ou non ; mais d'un lieu seulement s'il est vague, et dâr est un lieu délimité, nommé d'après ce qui est en lui."
+        },
+        {
+          "prompt": "Corrigez celle qui est fautive : akaltu jâniba al-dâri ; qa'adtu makânahu.",
+          "answer": "Akaltu jâniba al-dâri est fautif : jânib est une exception, donc fî jânibi al-dâri. Qa'adtu makânahu est correct : makân signifie l'établissement, et qa'ada aussi."
+        },
+        {
+          "prompt": "Pourquoi amâm est-il un lieu vague ?",
+          "answer": "Un lieu est « devant » non à cause de quelque chose en lui, mais par rapport à autre chose ; son nom vient de hors de ce qu'il nomme."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Fî peut être supprimé d'un adverbe de temps quand il est…",
+          "options": [
+            "vague seulement",
+            "délimité seulement",
+            "vague ou délimité",
+            "jamais"
+          ],
+          "explanation": "Sirtu hînan, sumtu shahran."
+        },
+        {
+          "prompt": "Un lieu vague est nommé d'après quelque chose…",
+          "options": [
+            "compris dans ce qu'il nomme",
+            "avec al-",
+            "dans le passé",
+            "non compris dans ce qu'il nomme"
+          ],
+          "explanation": "Comme les six directions."
+        },
+        {
+          "prompt": "Lequel ne peut pas supprimer fî ?",
+          "options": [
+            "Jânib",
+            "Khalf",
+            "'Inda",
+            "Farsakh"
+          ],
+          "explanation": "L'une des exceptions."
+        },
+        {
+          "prompt": "Wasat avec fatha sur le sîn…",
+          "options": [
+            "supprime son fî",
+            "garde son fî",
+            "est un temps",
+            "est un verbe"
+          ],
+          "explanation": "Wast avec sukûn le supprime."
+        },
+        {
+          "prompt": "Qumtu maqâmahu est permis parce que…",
+          "options": [
+            "maqâm est un temps",
+            "maqâm est une direction",
+            "maqâm et son verbe signifient tous deux l'établissement",
+            "c'est un vers"
+          ],
+          "explanation": "Fî peut donc être supprimé."
+        },
+        {
+          "prompt": "Dâr est…",
+          "options": [
+            "un lieu vague",
+            "un temps",
+            "une direction",
+            "un lieu délimité"
+          ],
+          "explanation": "Nommé d'après ce qui est en lui."
+        },
+        {
+          "prompt": "Après quel verbe un lieu délimité peut-il supprimer fî ?",
+          "options": [
+            "Dakhala",
+            "Sallâ",
+            "Akala",
+            "Daraba"
+          ],
+          "explanation": "Dakhala, nazala, sakana."
+        }
+      ],
+      "diagram": {
+        "caption": "Fî peut-il être supprimé ? (p. 50)",
+        "labels": {
+          "May fī be dropped? (p. 50)": "Fî peut-il être supprimé ? (p. 50)",
+          "The adverb": "L'adverbe",
+          "Dropped?": "Supprimé ?",
+          "Example": "Exemple",
+          "time, vague or limited": "temps, vague ou délimité",
+          "yes": "oui",
+          "place, vague: directions, ʿinda…, measures": "lieu, vague : directions, 'inda…, mesures",
+          "jānib, jiha, wajh, wasaṭ, khārij…": "jânib, jiha, wajh, wasat, khârij…",
+          "no": "non",
+          "a place noun not meaning settling": "un nom de lieu ne signifiant pas l'établissement",
+          "maqām, makān": "maqâm, makân",
+          "if the verb means settling": "si le verbe signifie l'établissement",
+          "place, limited": "lieu, délimité",
+          "no, except after three verbs": "non, sauf après trois verbes"
+        }
+      },
+      "text": [
+        "La particule du jarr peut être supprimée, et cela est de deux sortes : par règle et par usage entendu. Par règle, c'est en trois endroits. Le premier est le maf'ûl fîhi ; car la suppression de fî est par règle s'il est un adverbe de temps, vague ou délimité, comme sirtu hînan « j'ai voyagé un temps » et sumtu shahran « j'ai jeûné un mois », ou un adverbe de lieu vague, qui est celui qui a son nom à cause de quelque chose qui n'est pas compris dans ce qu'il nomme,",
+        "comme les six directions, qui sont amâm et quddâm « devant », khalf « derrière », yamîn « droite », yasâr et shimâl « gauche », fawq « au-dessus » et taht « en dessous » ; et comme 'inda « auprès de », ladâ « chez », wasta « au milieu », avec sukûn sur le sîn, bayna « entre », izâ'a, hidhâ'a et tilqâ'a « en face de » ; et comme les mesures de distance, comme farsakhin « une parasange », mîlin « un mille » et barîdin « une étape de poste » ; sauf jâniban « côté », jihatan « direction », wajhan « face » et wasatan, avec fatha sur le sîn, khârija al-dâri « hors de la maison », dâkhila al-dâri « à l'intérieur de la maison » et jawfa al-bayti « l'intérieur de la pièce » ; et tout nom de lieu qui n'a pas le sens de l'établissement, comme al-maqtal « le lieu du meurtre » et al-madrib « le lieu du coup » ; et de même s'il a ce sens mais que ce à quoi il se rattache ne l'a pas, comme maqâmin « lieu où l'on se tient » et makânin « lieu ».",
+        "Car fî ne peut être supprimé de ces exceptions : on ne dit pas akaltu jâniba al-dâri « j'ai mangé le côté de la maison », ni madriba Zaydin « le lieu où Zayd frappe », ni maqâmahu « le lieu où il se tient », mais fî jânibi al-dâri « dans le côté de la maison », fî madribi Zaydin « dans le lieu où Zayd frappe » ou fî maqâmihi « dans le lieu où il se tient ». Mais si le régissant de la dernière division a le sens de l'établissement, fî peut être supprimé, comme qumtu maqâmahu « je me suis tenu à sa place » et qa'adtu makânahu « je me suis assis à sa place ».",
+        "S'il est un adverbe de lieu délimité, qui est celui qui a son nom à cause de quelque chose de compris dans ce qu'il nomme, comme dârin « une maison », fî ne peut être supprimé : on ne dit pas sallaytu dâran, mais fî dârin « j'ai prié dans une maison » ; sauf après dakhala, nazala et sakana, comme dakhaltu al-dâra « je suis entré dans la maison », nazaltu al-khâna « je suis descendu à l'auberge » et sakantu al-balada « j'ai habité la ville »."
+      ]
+    }
+  }
+}

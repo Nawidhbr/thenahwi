@@ -291,3 +291,16 @@ follows the English source list, `packages/content/i18n/GLOSSARY.md`.
 - maʿlūm and maʿrūf: the word of the book; the Russian is «действительный залог» for both. mukhāṭab and ḥāḍir:
   the word of the book; «второе лицо» for both.
 - Persian verse inside an Arabic book is given in Cyrillic transliteration with its meaning, as the English does.
+- musnad / musnad ilayhi (Naḥw-i Mīr) are «муснад» / «муснад илейхи», written by hand like «мудаф илейхи» (not
+  «иляйхи» of the script); declined: «муснада», «муснадом», «муснад илейхи» indeclinable.
+- The ṣila of a relative noun is «сыла» (by hand, not the script's «сила», which is a Russian word); first time
+  «сыла (относительное предложение)».
+- khabariyya / inshāʾiyya: «повествовательное / неповествовательное предложение», «инша» for the kind.
+- The requital (jazāʾ) is «воздаяние (джаза)» in every book, as in al-Birgivī; the glossary's «ответ условия» only
+  where the English says "answer".
+- The book's own names of the objects stay in Cyrillic transliteration where the English keeps them (мафъуль мутлак,
+  мафъуль фихи, мафъуль маъаху, мафъуль лаху, мафъуль бихи), indeclinable.
+- ʿaṭf: «сочинение частицей (атф би-харф)», «пояснительное приложение (атф аль-баян)»; munṣarif / ghayr munṣarif
+  stay «мунсариф / гайр мунсариф» where the book names them, otherwise «двухпадежное имя».
+- The paradigm glosses (`/home/claude/ru-tools/para.py`): «он делает / сделает / непременно сделает», passive «с ним
+  делают / сделают», imperative «сделай!», «пусть он сделает», prohibition «не делай!», «пусть он не делает».

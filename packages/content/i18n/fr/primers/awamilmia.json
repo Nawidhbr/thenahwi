@@ -1,0 +1,2030 @@
+{
+  "title": "al-'Awâmil al-mi'a",
+  "summary": "Al-'Awâmil al-mi'a, « les cent régissants », de 'Abd al-Qâhir al-Jurjânî (m. 471/1078), expose le nahw comme une liste des mots et des idées qui causent l'i'râb : quatre-vingt-onze régissants entendus en treize sortes, sept analogiques et deux abstraits. Sur la voie indienne, on le lit après le Nahw-i Mîr, souvent avec son commentaire, le Sharh Mi'at 'âmil ; les madrasas ottomanes le lisent aussi, et al-Birgivî a écrit ses « nouveaux » 'Awâmil d'après lui. Chaque sorte est nommée par ce qu'elle fait, comptée, énumérée et montrée en de courts exemples, si bien que l'élève apprend par cœur une carte de ce qui régit quoi. Les leçons suivent le texte vocalisé imprimé par A. Lockett (Calcutta, 1814), une sorte à la fois, et expliquent chaque régissant sur les exemples mêmes du livre.",
+  "parts": {
+    "opening": "Cent régissants",
+    "heard-particles": "Les régissants entendus : les particules",
+    "heard-nouns": "Les régissants entendus : les noms",
+    "heard-verbs": "Les régissants entendus : les verbes",
+    "analogical-and-abstract": "Les régissants analogiques et abstraits"
+  },
+  "lessons": {
+    "1": {
+      "title": "Cent régissants et leurs divisions",
+      "body": [
+        "Après la basmala et le nom de son auteur, le livre donne un nombre : les régissants ('awâmil) du nahw sont cent. Un régissant ('âmil) est tout ce qui cause la finale d'un autre mot : la particule bi- qui met Zayd au jarr dans marartu bi-Zaydin, « je suis passé près de Zayd », ou le verbe kâna qui met qâ'iman au nasb dans kâna Zaydun qâ'iman, « Zayd était debout ». Le livre ne définit pas le régissant ; il énumère les régissants, afin que l'élève qui connaît la liste puisse nommer la cause des finales qu'il lit.",
+        "La première division est en exprimés (lafziyya) et abstraits (ma'nawiyya). Un régissant exprimé est un mot que l'on peut entendre et montrer, comme bi- ou kâna. Un régissant abstrait n'est pas du tout un mot, mais un état de la phrase, comme le fait pour un nom de se tenir en tête sans rien devant lui. Des cent, quatre-vingt-dix-huit sont exprimés et deux abstraits.",
+        "Les régissants exprimés sont à leur tour de deux sortes. Les entendus (samâ'iyya) sont quatre-vingt-onze mots dont l'action n'est connue que par l'usage des Arabes : rien d'autre que leur parole ne nous dit que rubba met son nom au jarr ou que lan met le verbe au nasb ; on les apprend donc un par un, comme une liste. Les analogiques (qiyâsiyya) sont sept catégories de mots régies par une règle, comme « le verbe régit » : tout mot de la catégorie régit de la même manière sans être énuméré. Ainsi, 91 + 7 + 2 = 100.",
+        "Les quatre-vingt-onze régissants entendus se répartissent en treize sortes, que le livre prend tour à tour : six sortes de particules, trois de noms et quatre de verbes. Chaque sorte est nommée par ce qu'elle fait (« des particules qui ne mettent au jarr que le nom », « des particules qui mettent le nom au nasb et le prédicat au raf' »), puis comptée, énumérée et montrée en de courts exemples. L'élève apprend la liste par cœur, puis la lit avec un commentaire ; l'impression de Lockett, que suit notre texte, a après elle le Sharh Mi'at 'âmil arabe.",
+        "Deux mises en garde. « Entendu » ne veut pas dire rare : les particules du jarr et inna sont parmi les mots les plus courants de la langue ; cela veut seulement dire que leur action s'apprend par l'usage et ne se déduit pas d'une règle. Et le nombre est une manière d'enseigner : al-Birgivî, qui connaissait ce livre, a compté soixante régissants dans ses al-'Awâmil al-jadîda, en divisant à peu près la même matière autrement."
+      ],
+      "terms": [
+        "le régissant : ce qui cause la finale d'un autre mot",
+        "exprimé : un régissant qui est un mot",
+        "abstrait : un régissant qui n'est pas un mot",
+        "entendu : connu seulement par l'usage des Arabes, appris comme une liste",
+        "analogique : qui régit par une règle couvrant toute une catégorie"
+      ],
+      "examples": [
+        "mi'atu 'âmilin : minhâ lafziyyatun wa-minhâ ma'nawiyyatun, « cent régissants : certains exprimés, certains abstraits »",
+        "marartu bi-Zaydin, « je suis passé près de Zayd » : bi-, un régissant entendu, met Zayd au jarr",
+        "kâna Zaydun qâ'iman, « Zayd était debout » : kâna, un régissant entendu de la dixième sorte"
+      ],
+      "tasks": [
+        {
+          "prompt": "Additionnez les cent régissants par leurs divisions, et les entendus par leurs trois groupes.",
+          "answer": "Entendus 91 + analogiques 7 + abstraits 2 = 100. Les entendus sont 41 particules (sortes 1 à 6 : 17 + 6 + 2 + 7 + 4 + 5), 22 noms (sortes 7 à 9 : 9 + 4 + 9) et 28 verbes (sortes 10 à 13 : 13 + 4 + 4 + 7)."
+        },
+        {
+          "prompt": "Chaque régissant est-il exprimé ou abstrait, et s'il est exprimé, entendu ou analogique ? (a) bi- dans marartu bi-Zaydin ; (b) kâna dans kâna Zaydun qâ'iman ; (c) ce qui met Zaydun au raf' dans Zaydun fî al-dâri, « Zayd est dans la maison ».",
+          "answer": "(a) Exprimé et entendu : une particule du jarr, la première sorte. (b) Exprimé et entendu : un verbe incomplet, la dixième sorte. (c) Abstrait : aucun mot ne se tient devant Zaydun ; le fait d'être en tête de la phrase (l'ibtidâ') le met au raf'."
+        },
+        {
+          "prompt": "Pourquoi faut-il apprendre les régissants entendus comme une liste, alors que ce n'est pas nécessaire pour les analogiques ?",
+          "answer": "L'action d'un régissant entendu n'est connue que par l'usage des Arabes : aucune règle ne nous dit que rubba donne le jarr ou lan le nasb, si bien que chaque mot s'apprend à part. Un régissant analogique est une catégorie avec une règle, comme « le verbe régit », si bien que chaque mot de la catégorie régit sans être nommé."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de régissants al-Jurjânî compte-t-il ?",
+          "options": [
+            "Soixante",
+            "Cent",
+            "Quatre-vingt-onze",
+            "Treize"
+          ],
+          "explanation": "Quatre-vingt-onze entendus, sept analogiques et deux abstraits : cent."
+        },
+        {
+          "prompt": "Un régissant abstrait (ma'nawî) est…",
+          "options": [
+            "un mot rarement employé",
+            "une particule à deux sens",
+            "non un mot, mais un état de la phrase",
+            "un verbe sans agent"
+          ],
+          "explanation": "Il n'a pas de forme énoncée ; les deux du livre sont l'ibtidâ' et le fait pour le mudâri' de tenir la place d'un nom."
+        },
+        {
+          "prompt": "Combien y a-t-il de régissants entendus (samâ'î) ?",
+          "options": [
+            "Sept",
+            "Deux",
+            "Quatre-vingt-dix-huit",
+            "Quatre-vingt-onze"
+          ],
+          "explanation": "Quatre-vingt-dix-huit sont exprimés ; de ceux-ci, quatre-vingt-onze sont entendus et sept analogiques."
+        },
+        {
+          "prompt": "En combien de sortes les régissants entendus sont-ils divisés ?",
+          "options": [
+            "Treize",
+            "Sept",
+            "Trois",
+            "Deux"
+          ],
+          "explanation": "Treize sortes : six de particules, trois de noms et quatre de verbes."
+        },
+        {
+          "prompt": "Pourquoi un régissant est-il dit « entendu » ?",
+          "options": [
+            "Il se prononce à voix haute",
+            "Son action n'est connue que par l'usage des Arabes",
+            "Il est rare dans la parole",
+            "Il ne régit qu'un mot"
+          ],
+          "explanation": "Samâ'î veut dire appris de ce qu'on a entendu des Arabes, non déduit d'une règle."
+        },
+        {
+          "prompt": "Lequel est un régissant analogique ?",
+          "options": [
+            "La particule rubba",
+            "La particule lan",
+            "Le verbe",
+            "La particule inna"
+          ],
+          "explanation": "Le verbe régit par une règle qui couvre tout verbe ; rubba, lan et inna sont des régissants entendus."
+        },
+        {
+          "prompt": "Le régissant d'un mot est…",
+          "options": [
+            "le mot qui le suit",
+            "sa racine",
+            "le dernier mot de la phrase",
+            "ce qui cause sa finale"
+          ],
+          "explanation": "Dans marartu bi-Zaydin, bi- est le régissant de Zaydin : il cause son jarr."
+        }
+      ],
+      "diagram": {
+        "caption": "Les cent régissants : 91 entendus (41 particules, 22 noms, 28 verbes), 7 analogiques, 2 abstraits.",
+        "labels": {
+          "The hundred governors: 91 heard (41 particles, 22 nouns, 28 verbs), 7 analogical, 2 abstract.": "Les cent régissants : 91 entendus (41 particules, 22 noms, 28 verbes), 7 analogiques, 2 abstraits.",
+          "The hundred governors": "Les cent régissants",
+          "Expressed (lafẓī): 98": "Exprimés (lafzî) : 98",
+          "Heard (samāʿī): 91": "Entendus (samâ'î) : 91",
+          "particles: kinds 1–6": "particules : sortes 1 à 6",
+          "nouns: kinds 7–9": "noms : sortes 7 à 9",
+          "verbs: kinds 10–13": "verbes : sortes 10 à 13",
+          "Analogical (qiyāsī): 7": "Analogiques (qiyâsî) : 7",
+          "Abstract (maʿnawī): 2": "Abstraits (ma'nawî) : 2"
+        }
+      },
+      "text": [
+        "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux. Les régissants (al-'awâmil) en grammaire, selon ce qu'a composé le Shaykh, l'Imam, le savant 'Abd al-Qâhir ibn 'Abd al-Rahmân al-Jurjânî (que Dieu arrose la terre de sa tombe et fasse du Paradis sa demeure), sont cent régissants. Certains sont exprimés (lafziyya) et certains abstraits (ma'nawiyya). Les exprimés sont de deux sortes : entendus (samâ'iyya) et analogiques (qiyâsiyya). Les entendus sont quatre-vingt-onze régissants, les analogiques sept régissants, et les abstraits au nombre de deux. Les entendus se divisent en treize sortes."
+      ]
+    },
+    "2": {
+      "title": "La première sorte : les dix-sept particules du jarr",
+      "body": [
+        "La première sorte, ce sont les particules qui « ne mettent au jarr que le nom » : dix-sept particules, chacune régissant le seul nom qui la suit, lequel prend la kasra ou un autre signe du jarr. « Seulement » (faqat) distingue cette sorte de la suivante : une particule du jarr régit un mot et rien de plus, alors que inna et ses sœurs en régissent deux, un nom et un prédicat. Et elle ne régit que des noms : le jarr appartient au nom et jamais au verbe. La particule s'appelle jârr, le nom après elle majrûr, et les deux ensemble un jârr wa-majrûr.",
+        "La plupart sont des mots courants aux sens simples, et les exemples du livre les montrent : marartu bi-Zaydin, « je suis passé près de Zayd » ; sirtu mina al-basrati ilâ al-kûfati, « j'ai voyagé de Bassora à Koufa », min pour le point de départ et ilâ pour le terme ; ramaytu al-sahma 'ani al-qawsi, « j'ai tiré la flèche de l'arc », 'an pour l'éloignement ; Zaydun fî al-dâri, « Zayd est dans la maison » ; al-mâlu li-Zaydin, « l'argent est à Zayd », li- pour l'appartenance ; Zaydun 'alâ al-sathi, « sur le toit » ; Zaydun ka-al-asadi, « comme le lion ». Cinq d'entre elles sont une seule lettre jointe au nom : bi-, li-, ka-, et le wâw et le tâ' du serment.",
+        "Certaines demandent un mot de plus. Rubba, « maint », ne vient que devant un nom indéfini (rajulin, jamais al-rajuli), et dans l'exemple du livre une phrase décrit ce nom : rubba rajulin laqîtuhu, « maint homme j'ai rencontré ». Mudh et mundhu, « depuis », viennent devant un temps : mâ ra'aytuhu mundhu yawmi al-jumu'ati, « je ne l'ai pas vu depuis vendredi ». Hattâ, « jusqu'à », marque le terme d'une chose : akaltu al-samakata hattâ ra'sihâ, « j'ai mangé le poisson jusqu'à sa tête ». Les grammairiens connaissent cette phrase avec trois finales : ra'sihâ, comme ici, hattâ étant une particule du jarr ; ra'sahâ, hattâ joignant la tête au poisson, « j'ai mangé le poisson, même sa tête » ; et ra'suhâ, une nouvelle phrase, « même sa tête [a été mangée] ». Le livre donne la première, parce que c'est le chapitre du jarr.",
+        "Le wâw et le tâ' du serment mettent au jarr le nom par lequel on jure : wa-Allâhi et ta-Allâhi, « par Dieu ». Ce que l'on jure suit dans une phrase à part : la-af'alanna kadhâ, « je ferai assurément telle chose ». Le wâw jure par n'importe quel nom ; le tâ' ne s'emploie presque qu'avec le nom de Dieu.",
+        "Les trois dernières, hâshâ, khalâ et 'adâ, signifient « sauf » : elles retirent un nom du reste, jâ'anî al-qawmu hâshâ Zaydin, « les gens sont venus à moi, sauf Zayd ». Le livre les compte parmi les particules du jarr, et elles le sont quand le nom qui les suit est au jarr. Les grammairiens emploient aussi khalâ et 'adâ, et certains hâshâ également, comme verbes, le nom qui les suit étant au nasb ; cela relève du chapitre de l'exception, et la quatrième sorte donnera illâ, qui met l'excepté au nasb.",
+        "Un piège : dans marartu bi-Zaydin, le régissant de Zaydin est bi-, non le verbe marartu. Le verbe n'atteint Zayd que par la particule, et le jarr est l'œuvre de la particule. Chaque fois qu'un nom suit l'une des dix-sept, demandez d'abord si la particule est son régissant."
+      ],
+      "terms": [
+        "les particules qui mettent un nom au jarr",
+        "le nom mis au jarr",
+        "« maint » : seulement devant un nom indéfini",
+        "le wâw et le tâ' du serment"
+      ],
+      "examples": [
+        "sirtu mina al-basrati ilâ al-kûfati : min pour le départ, ilâ pour le terme",
+        "rubba rajulin laqîtuhu, « maint homme j'ai rencontré » : rubba devant un nom indéfini",
+        "akaltu al-samakata hattâ ra'sihâ, « j'ai mangé le poisson jusqu'à sa tête »",
+        "wa-Allâhi la-af'alanna kadhâ, « par Dieu, je ferai assurément telle chose »",
+        "jâ'anî al-qawmu hâshâ Zaydin, « les gens sont venus à moi, sauf Zayd »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Trouvez la particule du jarr et le nom qu'elle régit dans chacune : ramaytu al-sahma 'ani al-qawsi ; al-mâlu li-Zaydin ; Zaydun 'alâ al-sathi.",
+          "answer": "'An régit al-qawsi ; li- régit Zaydin ; 'alâ régit al-sathi. Chaque nom est au jarr, montré par la kasra. (La kasra sur 'ani n'est qu'une voyelle pour la joindre au mot suivant.)"
+        },
+        {
+          "prompt": "Pourquoi le livre dit-il rubba rajulin, et pourquoi rubba al-rajuli serait-il fautif ?",
+          "answer": "Rubba ne vient que devant un nom indéfini : rajulin, « un homme », non al-rajuli, « l'homme ». Il parle de nombreux hommes d'une sorte, non d'un seul homme connu."
+        },
+        {
+          "prompt": "Donnez les trois lectures de akaltu al-samakata hattâ ra's-, et dites laquelle relève de ce chapitre.",
+          "answer": "Ra'sihâ, au jarr : hattâ est une particule du jarr, « jusqu'à sa tête » ; c'est la lecture du livre et celle de ce chapitre. Ra'sahâ, au nasb : hattâ joint la tête à al-samakata, « même sa tête ». Ra'suhâ, au raf' : une nouvelle phrase, « même sa tête [a été mangée] »."
+        },
+        {
+          "prompt": "Dans marartu bi-Zaydin, quel est le régissant de Zaydin : le verbe ou la particule ?",
+          "answer": "La particule bi-. Le verbe marartu n'atteint Zayd que par elle, et le jarr de Zaydin est l'œuvre de la particule."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de particules du jarr ce livre compte-t-il ?",
+          "options": [
+            "Vingt",
+            "Six",
+            "Dix-sept",
+            "Sept"
+          ],
+          "explanation": "Dix-sept, du bâ' à 'adâ ; les al-'Awâmil al-jadîda d'al-Birgivî en comptent vingt."
+        },
+        {
+          "prompt": "Que dit « seulement » (faqat) de cette sorte ?",
+          "options": [
+            "Elles ne régissent que des verbes",
+            "Elles ne s'emploient qu'en vers",
+            "Chacune n'a qu'un sens",
+            "Chaque particule régit un nom et rien de plus"
+          ],
+          "explanation": "Une particule du jarr régit le seul nom qui la suit ; la sorte suivante régit un nom et un prédicat."
+        },
+        {
+          "prompt": "Rubba ne vient que devant…",
+          "options": [
+            "un nom indéfini",
+            "un nom défini",
+            "un verbe",
+            "un pronom"
+          ],
+          "explanation": "Rubba rajulin, « maint homme » : jamais rubba al-rajuli."
+        },
+        {
+          "prompt": "Dans mâ ra'aytuhu mundhu yawmi al-jumu'ati, mundhu signifie…",
+          "options": [
+            "jusqu'à",
+            "depuis",
+            "sauf",
+            "comme"
+          ],
+          "explanation": "Mudh et mundhu viennent devant un temps : « je ne l'ai pas vu depuis vendredi »."
+        },
+        {
+          "prompt": "Quelle particule s'emploie dans un serment ?",
+          "options": [
+            "Le kâf",
+            "'Alâ",
+            "Le tâ'",
+            "Rubba"
+          ],
+          "explanation": "Le wâw et le tâ' du serment : wa-Allâhi, ta-Allâhi, « par Dieu »."
+        },
+        {
+          "prompt": "Dans jâ'anî al-qawmu hâshâ Zaydin, Zaydin est…",
+          "options": [
+            "au nasb comme complément d'objet",
+            "au raf' comme agent",
+            "au jarr par l'idâfa",
+            "au jarr par hâshâ"
+          ],
+          "explanation": "Le livre compte hâshâ parmi les particules du jarr : l'excepté est au jarr."
+        },
+        {
+          "prompt": "Dans al-mâlu li-Zaydin, le lâm signifie…",
+          "options": [
+            "l'appartenance",
+            "la ressemblance",
+            "le serment",
+            "le temps"
+          ],
+          "explanation": "« L'argent est à Zayd » : le lâm de l'appartenance."
+        }
+      ],
+      "diagram": {
+        "caption": "Les dix-sept particules du jarr, avec les exemples du livre (p. 1-2)",
+        "labels": {
+          "The seventeen particles of jarr, with the book's examples (pp. 1–2)": "Les dix-sept particules du jarr, avec les exemples du livre (p. 1-2)",
+          "Particle": "Particule",
+          "Meaning": "Sens",
+          "The book's example": "Exemple du livre",
+          "الْبَاءُ bi-": "الْبَاءُ bi-",
+          "by, with": "par, avec",
+          "مِنْ min": "مِنْ min",
+          "from": "de (point de départ)",
+          "عَنْ ʿan": "عَنْ 'an",
+          "away from": "loin de",
+          "إِلَى ilā": "إِلَى ilâ",
+          "to": "vers, jusqu'à",
+          "فِي fī": "فِي fî",
+          "in": "dans",
+          "اللَّامُ li-": "اللَّامُ li-",
+          "for, belonging to": "pour, appartenant à",
+          "رُبَّ rubba": "رُبَّ rubba",
+          "many a": "maint",
+          "عَلَى ʿalā": "عَلَى 'alâ",
+          "on": "sur",
+          "الْكَافُ ka-": "الْكَافُ ka-",
+          "like": "comme",
+          "مُذْ، مُنْذُ mudh, mundhu": "مُذْ، مُنْذُ mudh, mundhu",
+          "since": "depuis",
+          "حَتَّى ḥattā": "حَتَّى hattâ",
+          "up to": "jusqu'à (terme)",
+          "وَاوُ الْقَسَمِ wa-": "وَاوُ الْقَسَمِ wa-",
+          "by (in an oath)": "par (dans un serment)",
+          "تَاءُ الْقَسَمِ ta-": "تَاءُ الْقَسَمِ ta-",
+          "حَاشَا ḥāshā": "حَاشَا hâshâ",
+          "except": "sauf",
+          "خَلَا، عَدَا khalā, ʿadā": "خَلَا، عَدَا khalâ, 'adâ"
+        }
+      },
+      "text": [
+        "La première sorte : des particules qui ne mettent au jarr que le nom. Ce sont dix-sept particules : le bâ' (bi-), min « de », 'an « loin de », ilâ « vers », fî « dans », le lâm (li-), rubba « maint », 'alâ « sur », le kâf (ka-) « comme », mudh et mundhu « depuis », hattâ « jusqu'à », le wâw et le tâ' du serment, hâshâ, khalâ et 'adâ « sauf ».",
+        "Comme marartu bi-Zaydin « je suis passé près de Zayd », sirtu mina al-basrati ilâ al-kûfati « j'ai voyagé de Bassora à Koufa », ramaytu al-sahma 'ani al-qawsi « j'ai tiré la flèche de l'arc », Zaydun fî al-dâri « Zayd est dans la maison », al-mâlu li-Zaydin « l'argent appartient à Zayd », rubba rajulin laqîtuhu « maint homme j'ai rencontré », Zaydun 'alâ al-sathi « Zayd est sur le toit », Zaydun ka-al-asadi « Zayd est comme le lion », mâ ra'aytuhu mudh et mundhu yawmi al-jumu'ati « je ne l'ai pas vu depuis vendredi », akaltu al-samakata hattâ ra'sihâ « j'ai mangé le poisson jusqu'à sa tête », wa-Allâhi la-af'alanna kadhâ et ta-Allâhi la-af'alanna kadhâ « par Dieu, je ferai assurément telle chose », jâ'anî al-qawmu hâshâ Zaydin « les gens sont venus à moi, sauf Zayd », ra'aytu al-qawma khalâ Zaydin « j'ai vu les gens, sauf Zayd » et marartu bi-al-qawmi 'adâ Zaydin « je suis passé près des gens, sauf Zayd »."
+      ]
+    },
+    "3": {
+      "title": "Inna et ses sœurs ; mâ et lâ semblables à laysa",
+      "body": [
+        "La deuxième sorte régit deux mots à la fois, un nom et son prédicat (khabar) : six particules qui « mettent le nom au nasb et le prédicat au raf' ». Elles viennent devant une phrase de sujet et de prédicat et en changent la première finale : Zaydun qâ'imun, « Zayd est debout », devient inna Zaydan qâ'imun, « Zayd est certes debout ». Le premier mot, maintenant au nasb, s'appelle le nom (ism) de inna ; le second reste au raf' comme son prédicat (khabar).",
+        "Chacune apporte son propre sens. Inna, « certes », confirme la phrase. Anna, « que », fait de toute la phrase une partie d'une autre : dans balaghanî anna Zaydan muntaliqun, « il m'est parvenu que Zayd part », anna avec son nom et son prédicat tient lieu d'un masdar, « le départ de Zayd », et est l'agent de balagha. Ka'anna, « comme si », compare : ka'anna Zaydan asadun. Lâkinna, « mais », corrige ce qui précède : qâma Zaydun lâkinna 'Amran jâlisun, « Zayd s'est levé, mais 'Amr est assis ». Layta, « si seulement », souhaite, même ce qui ne peut être : layta al-shabâba 'â'idun, « si seulement la jeunesse revenait ». La'alla, « peut-être », espère : la'alla 'Amran khârijun.",
+        "La madrasa les appelle « les particules semblables au verbe » (al-hurûf al-mushabbaha bi-l-fi'l). Les commentateurs en donnent les raisons : comme un verbe au passé, elles ont trois lettres ou plus et finissent par une fatha ; elles portent le sens d'un verbe (inna, c'est « je confirme », layta « je souhaite ») ; et elles régissent deux mots, l'un au raf' et l'autre au nasb, comme un verbe dont le complément d'objet a été placé avant l'agent.",
+        "La troisième sorte est l'image inverse de la deuxième : deux particules qui « mettent le nom au raf' et le prédicat au nasb », mâ et lâ, « qui ressemblent à laysa », « n'est pas ». Laysa, l'un des verbes incomplets de la dixième sorte, donne le raf' à son nom et le nasb à son prédicat ; mâ et lâ, qui nient aussi, lui empruntent son action : mâ Zaydun fâdilan, « Zayd n'est pas excellent » ; lâ rajulun afdala minka, « nul homme n'est meilleur que vous ». C'est l'usage des gens du Hijâz, dans lequel le Coran dit mâ hâdhâ basharan (Coran 12:31) ; les Banû Tamîm laissent mâ sans action et disent mâ Zaydun fâdilun.",
+        "Deux pièges. Le lâ de cette sorte prend des noms indéfinis et leur laisse le tanwîn, rajulun ; ce n'est pas le lâ qui nie toute une espèce, lâ rajula fî al-dâri, « il n'y a aucun homme dans la maison », qui prend une fatha sans tanwîn et agit comme inna. Et ne confondez pas les deux sortes inverses : avec inna, c'est le premier nom qui est au nasb (inna Zaydan qâ'imun), avec mâ le second (mâ Zaydun fâdilan)."
+      ],
+      "terms": [
+        "le nom de inna (au nasb) et son prédicat (au raf')",
+        "les particules semblables au verbe : inna et ses sœurs",
+        "mâ et lâ semblables à laysa",
+        "le prédicat : ce qui est dit du nom"
+      ],
+      "examples": [
+        "inna Zaydan qâ'imun, « Zayd est certes debout » : le nom au nasb, le prédicat au raf'",
+        "balaghanî anna Zaydan muntaliqun, « il m'est parvenu que Zayd part »",
+        "layta al-shabâba 'â'idun, « si seulement la jeunesse revenait »",
+        "mâ Zaydun fâdilan, « Zayd n'est pas excellent » : le nom au raf', le prédicat au nasb",
+        "lâ rajulun afdala minka, « nul homme n'est meilleur que vous »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez l'i'râb de ka'anna Zaydan asadun.",
+          "answer": "Ka'anna : une particule semblable au verbe, de comparaison. Zaydan : son nom, au nasb par la fatha. Asadun : son prédicat, au raf' par la damma. « C'est comme si Zayd était un lion. »"
+        },
+        {
+          "prompt": "Pourquoi le prédicat est-il fâdilan dans mâ Zaydun fâdilan, mais fâdilun dans Zaydun fâdilun ?",
+          "answer": "Mâ ressemble ici à laysa et agit comme lui : son nom Zaydun reste au raf' et son prédicat est mis au nasb. Sans mâ, le sujet et le prédicat sont tous deux au raf'. (Les Banû Tamîm, qui ne laissent pas mâ agir, diraient mâ Zaydun fâdilun.)"
+        },
+        {
+          "prompt": "Dans balaghanî anna Zaydan muntaliqun, quel est l'agent de balagha ?",
+          "answer": "Anna avec son nom et son prédicat, pris ensemble comme un masdar : « le départ de Zayd m'est parvenu ». Le -nî est le complément d'objet de balagha."
+        },
+        {
+          "prompt": "Nommez le nom et le prédicat, avec leurs états, dans layta al-shabâba 'â'idun et lâ rajulun afdala minka.",
+          "answer": "Layta : al-shabâba est son nom, au nasb ; 'â'idun son prédicat, au raf'. Lâ (semblable à laysa) : rajulun est son nom, au raf' ; afdala son prédicat, au nasb (afdal ne prend pas le tanwîn), suivi de minka."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Inna et ses sœurs mettent…",
+          "options": [
+            "le nom au raf' et le prédicat au nasb",
+            "les deux au nasb",
+            "seulement le nom au jarr",
+            "le nom au nasb et le prédicat au raf'"
+          ],
+          "explanation": "Inna Zaydan qâ'imun : le nom Zaydan au nasb, le prédicat qâ'imun au raf'."
+        },
+        {
+          "prompt": "Combien de particules compte la deuxième sorte ?",
+          "options": [
+            "Six",
+            "Sept",
+            "Deux",
+            "Quatre"
+          ],
+          "explanation": "Inna, anna, ka'anna, lâkinna, layta et la'alla."
+        },
+        {
+          "prompt": "Quelle particule exprime un souhait ?",
+          "options": [
+            "La'alla",
+            "Layta",
+            "Lâkinna",
+            "Ka'anna"
+          ],
+          "explanation": "Layta al-shabâba 'â'idun, « si seulement la jeunesse revenait » : un souhait, même de ce qui ne peut être."
+        },
+        {
+          "prompt": "Le mâ et le lâ de la troisième sorte ressemblent à…",
+          "options": [
+            "inna",
+            "rubba",
+            "laysa",
+            "lam"
+          ],
+          "explanation": "Comme laysa, ils nient et donnent le raf' au nom et le nasb au prédicat."
+        },
+        {
+          "prompt": "Dans mâ Zaydun fâdilan, fâdilan est…",
+          "options": [
+            "le nom de mâ, au nasb",
+            "un hâl",
+            "un complément d'objet",
+            "le prédicat de mâ, au nasb"
+          ],
+          "explanation": "Zaydun est le nom de mâ au raf', fâdilan son prédicat au nasb."
+        },
+        {
+          "prompt": "Ka'anna Zaydan asadun signifie…",
+          "options": [
+            "c'est comme si Zayd était un lion",
+            "Zayd est certes un lion",
+            "peut-être Zayd est-il un lion",
+            "Zayd n'est pas un lion"
+          ],
+          "explanation": "Ka'anna est la particule de comparaison."
+        },
+        {
+          "prompt": "Dans lâ rajulun afdala minka, rajulun est…",
+          "options": [
+            "le prédicat de lâ, au raf'",
+            "le nom de lâ, au raf'",
+            "au nasb",
+            "l'agent d'un verbe"
+          ],
+          "explanation": "Le lâ semblable à laysa donne le raf' à son nom et le nasb à son prédicat, afdala."
+        }
+      ],
+      "diagram": {
+        "caption": "Les deuxième et troisième sortes : deux images inverses (p. 2)",
+        "labels": {
+          "The second and third kinds: two mirror images (p. 2)": "Les deuxième et troisième sortes : deux images inverses (p. 2)",
+          "Particle": "Particule",
+          "Meaning": "Sens",
+          "Noun": "Nom",
+          "Predicate": "Prédicat",
+          "The book's example": "Exemple du livre",
+          "إِنَّ inna": "إِنَّ inna",
+          "indeed": "certes",
+          "naṣb": "nasb",
+          "rafʿ": "raf'",
+          "أَنَّ anna": "أَنَّ anna",
+          "that": "que",
+          "كَأَنَّ kaʾanna": "كَأَنَّ ka'anna",
+          "as if": "comme si",
+          "لَكِنَّ lākinna": "لَكِنَّ lâkinna",
+          "but": "mais",
+          "لَيْتَ layta": "لَيْتَ layta",
+          "if only": "si seulement",
+          "لَعَلَّ laʿalla": "لَعَلَّ la'alla",
+          "perhaps": "peut-être",
+          "مَا mā": "مَا mâ",
+          "not": "ne… pas",
+          "لَا lā": "لَا lâ"
+        }
+      },
+      "text": [
+        "La deuxième sorte : des particules qui mettent le nom au nasb et le prédicat au raf'. Ce sont six particules : inna, anna, ka'anna, lâkinna, layta et la'alla, comme inna Zaydan qâ'imun « Zayd est certes debout », balaghanî anna Zaydan muntaliqun « il m'est parvenu que Zayd part », ka'anna Zaydan asadun « c'est comme si Zayd était un lion », qâma Zaydun lâkinna 'Amran jâlisun « Zayd s'est levé, mais 'Amr est assis », layta al-shabâba 'â'idun « si seulement la jeunesse revenait » et la'alla 'Amran khârijun « peut-être 'Amr sort-il ».",
+        "La troisième sorte : deux particules qui mettent le nom au raf' et le prédicat au nasb. Ce sont mâ et lâ, qui ressemblent à laysa, comme mâ Zaydun fâdilan « Zayd n'est pas excellent » et lâ rajulun afdala minka « nul homme n'est meilleur que toi »."
+      ]
+    },
+    "4": {
+      "title": "La quatrième sorte : les particules qui ne mettent au nasb que le nom",
+      "body": [
+        "La quatrième sorte, ce sont sept particules qui mettent un nom au nasb et ne font rien de plus : le wâw, illâ, et cinq particules de l'appel (nidâ'), yâ, ayâ, hayâ, ay et la hamza avec fatha. Comme les particules du jarr, chacune régit un seul nom ; mais là où celles-là donnaient le jarr, celles-ci donnent le nasb.",
+        "Le wâw ici n'est pas le wâw de « et », qui joint un mot au précédent dans le même état, ni le wâw du serment. C'est le wâw de l'accompagnement (al-ma'iyya), qui signifie « avec » : istawâ al-mâ'u wa-al-khashabata, « l'eau est montée au niveau de la planche ». L'eau et la planche ne sont pas montées toutes deux : l'eau est montée jusqu'à se trouver au niveau de la planche ; la planche ne peut donc partager le verbe avec l'eau, et elle est mise au nasb. Les grammairiens l'appellent le complément d'accompagnement (al-maf'ûl ma'ahu). Beaucoup d'entre eux disent que c'est le verbe qui le régit, par le wâw ; al-Jurjânî compte le wâw lui-même comme son régissant.",
+        "Illâ, « sauf », retire un élément d'un groupe : jâ'anî al-qawmu illâ Zaydan, « les gens sont venus à moi, sauf Zayd ». Zayd est l'excepté (al-mustathnâ), au nasb ; les gens sont ce dont il est retiré (al-mustathnâ minhu). Comparez hâshâ Zaydin dans la première sorte : le même sens, mais là le nom était au jarr. Le nasb est la règle quand la phrase est affirmative et complète, comme ici ; dans une phrase négative (mâ jâ'anî ahadun illâ Zaydun), une autre finale est permise, que des livres ultérieurs enseignent.",
+        "Les cinq particules de l'appel mettent l'interpellé (al-munâdâ) au nasb quand il est nommé par le premier terme d'une idâfa, comme 'Abd Allâh : yâ 'Abda Allâhi, « ô 'Abd Allâh ». Le livre donne le même nom avec les cinq : ayâ 'Abda Allâhi, hayâ 'Abda Allâhi, ay 'Abda Allâhi, a-'Abda Allâhi. Les commentateurs ajoutent que ayâ et hayâ servent à appeler celui qui est loin, la hamza et ay celui qui est près, et yâ l'un ou l'autre.",
+        "Un piège : l'interpellé n'est pas toujours au nasb. Un nom propre appelé seul prend une damma sans tanwîn : yâ Zaydu, « ô Zayd ! » ; cette finale est fixe (mabnî), ce n'est pas un signe du raf'. Le livre a choisi 'Abd Allâh, un annexé, parce que là le nasb se voit."
+      ],
+      "terms": [
+        "le complément d'accompagnement, après le wâw qui signifie « avec »",
+        "l'excepté, après illâ",
+        "l'interpellé",
+        "les particules de l'appel : yâ, ayâ, hayâ, ay, a-"
+      ],
+      "examples": [
+        "istawâ al-mâ'u wa-al-khashabata, « l'eau est montée au niveau de la planche »",
+        "jâ'anî al-qawmu illâ Zaydan, « les gens sont venus à moi, sauf Zayd »",
+        "yâ 'Abda Allâhi, a-'Abda Allâhi, « ô 'Abd Allâh »",
+        "yâ Zaydu, « ô Zayd ! » : un nom propre seul, fixe sur la damma"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le régissant et le nom au nasb dans chacune : jâ'anî al-qawmu illâ Zaydan ; istawâ al-mâ'u wa-al-khashabata ; hayâ 'Abda Allâhi.",
+          "answer": "Illâ régit Zaydan, l'excepté. Le wâw de l'accompagnement régit al-khashabata (selon le compte d'al-Jurjânî). Hayâ, une particule de l'appel, régit 'Abda, l'interpellé ; Allâhi est au jarr par l'idâfa."
+        },
+        {
+          "prompt": "Pourquoi al-khashabata est-il au nasb, et non au raf' comme al-mâ'u ?",
+          "answer": "Le wâw ne joint pas la planche à l'eau comme un second agent : seule l'eau est montée. Il signifie « avec », et le nom qui le suit est le maf'ûl ma'ahu, au nasb."
+        },
+        {
+          "prompt": "Comparez jâ'anî al-qawmu illâ Zaydan avec jâ'anî al-qawmu hâshâ Zaydin. Qu'est-ce qui est pareil, et qu'est-ce qui diffère ?",
+          "answer": "Le sens est le même : Zayd est retiré des gens qui sont venus. La finale diffère : illâ met l'excepté au nasb (quatrième sorte), hâshâ comme particule du jarr le met au jarr (première sorte)."
+        },
+        {
+          "prompt": "Pourquoi le livre appelle-t-il « ô 'Abd Allâh » et non « ô Zayd » pour montrer le nasb ?",
+          "answer": "Un nom propre appelé seul est fixe sur la damma : yâ Zaydu. L'interpellé montre le nasb quand il est nommé par un annexé, comme 'Abda Allâhi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de particules compte la quatrième sorte ?",
+          "options": [
+            "Sept",
+            "Cinq",
+            "Six",
+            "Quatre"
+          ],
+          "explanation": "Le wâw, illâ, et les cinq particules de l'appel."
+        },
+        {
+          "prompt": "Le wâw dans istawâ al-mâ'u wa-al-khashabata signifie…",
+          "options": [
+            "et",
+            "avec",
+            "par (un serment)",
+            "mais"
+          ],
+          "explanation": "Le wâw de l'accompagnement : l'eau est montée au niveau de la planche."
+        },
+        {
+          "prompt": "Dans jâ'anî al-qawmu illâ Zaydan, Zaydan est…",
+          "options": [
+            "l'agent",
+            "l'interpellé",
+            "l'excepté, au nasb",
+            "le prédicat"
+          ],
+          "explanation": "Illâ retire Zayd des gens ; il est le mustathnâ, au nasb."
+        },
+        {
+          "prompt": "Laquelle n'est PAS une particule de l'appel ?",
+          "options": [
+            "Yâ",
+            "Hayâ",
+            "Ay",
+            "Illâ"
+          ],
+          "explanation": "Illâ est la particule de l'exception ; yâ, ayâ, hayâ, ay et la hamza appellent."
+        },
+        {
+          "prompt": "Dans yâ 'Abda Allâhi, 'Abda est au nasb parce que…",
+          "options": [
+            "il est appelé et il est le premier terme d'une idâfa",
+            "il est le complément d'objet d'un verbe",
+            "yâ est une particule du jarr",
+            "c'est un hâl"
+          ],
+          "explanation": "L'interpellé est au nasb quand il est un annexé, comme 'Abd Allâh."
+        },
+        {
+          "prompt": "Comment appelle-t-on Zayd par son seul nom ?",
+          "options": [
+            "Yâ Zaydu",
+            "Yâ Zaydan",
+            "Yâ Zaydin"
+          ],
+          "explanation": "Un nom propre seul est fixe sur la damma sans tanwîn."
+        },
+        {
+          "prompt": "Selon les commentateurs, hayâ sert à appeler…",
+          "options": [
+            "celui qui est près",
+            "Dieu seulement",
+            "celui qui est loin",
+            "un groupe"
+          ],
+          "explanation": "Ayâ et hayâ pour celui qui est loin, la hamza et ay pour celui qui est près, yâ pour l'un ou l'autre."
+        }
+      ],
+      "diagram": {
+        "caption": "Les sept particules de la quatrième sorte (p. 2)",
+        "labels": {
+          "The seven particles of the fourth kind (p. 2)": "Les sept particules de la quatrième sorte (p. 2)",
+          "Naṣb of one noun: 7": "Nasb d'un seul nom : 7",
+          "the wāw: “with”": "le wâw : « avec »",
+          "illā: “except”": "illâ : « sauf »",
+          "Calling (nidāʾ)": "L'appel (nidâ')",
+          "yā": "yâ",
+          "ayā": "ayâ",
+          "hayā": "hayâ",
+          "ay": "ay",
+          "a- (the hamza)": "a- (la hamza)"
+        }
+      },
+      "text": [
+        "La quatrième sorte : des particules qui ne mettent au nasb que le nom. Ce sont sept particules : le wâw, illâ, yâ, ayâ, hayâ, ay et la hamza avec fatha, comme istawâ al-mâ'u wa-al-khashabata « l'eau est montée au niveau de la planche », jâ'anî al-qawmu illâ Zaydan « les gens sont venus à moi, sauf Zayd », yâ 'Abda Allâhi « ô 'Abd Allâh », ayâ 'Abda Allâhi, hayâ 'Abda Allâhi, ay 'Abda Allâhi et a-'Abda Allâhi."
+      ]
+    },
+    "5": {
+      "title": "La cinquième sorte : les particules qui mettent le mudâri' au nasb",
+      "body": [
+        "Avec la cinquième sorte, les régissants passent du nom au verbe. Des verbes, seul le mudâri', le présent-futur, prend l'i'râb : il est au raf' quand rien ne le régit (tadribu, « tu frappes »), et quatre particules le mettent au nasb : an, lan, kay et idhan. Le signe du nasb est la fatha sur la dernière lettre, tadribu → an tadriba, ou, dans les formes qui finissent par un nûn, la suppression de ce nûn : tadribâni → lan tadribâ.",
+        "An, « que », donne au verbe le sens d'un masdar : karihtu an tadriba, « j'ai détesté que tu frappes », c'est « j'ai détesté ton action de frapper ». An avec son verbe remplit la place d'un nom, ici le complément d'objet de karihtu ; c'est pourquoi les grammairiens l'appellent al-masdariyya. Le Nahw-i Mîr, lu avant ce livre, l'explique de la même manière : urîdu an taqûma, « je veux que tu te lèves », c'est urîdu qiyâmaka, « je veux ton lever ».",
+        "Lan nie le futur : lan taf'ala, « tu ne le feras pas ». Kay donne le but, « afin que » : ji'tuka kay tu'tiyanî haqqî, « je suis venu à toi afin que tu me donnes mon dû ». Là, le nasb se voit comme une fatha sur le yâ' de tu'tiya, devant le pronom -nî.",
+        "Idhan, « alors, dans ce cas », commence une réponse à ce qu'un autre a dit : à un homme qui dit aslamtu, « je suis devenu musulman », vous répondez idhan tadkhula al-jannata, « alors tu entreras au Paradis ». Les mots du livre « en réponse à » sont la clé : idhan se tient en tête d'une réponse, et le verbe qui le suit parle du futur. Des livres ultérieurs ajoutent que rien ne peut venir entre idhan et son verbe, sinon un serment ou le lâ de la négation.",
+        "Ne confondez pas lan avec lam. Lan yadriba, « il ne frappera pas », met le verbe au nasb et parle du futur ; lam yadrib, « il n'a pas frappé », que donne la leçon suivante, le met au jazm et parle du passé. Une lettre et une voyelle les distinguent."
+      ],
+      "terms": [
+        "les particules qui mettent le mudâri' au nasb",
+        "le an qui donne à son verbe le sens d'un masdar",
+        "« ne… pas » au futur : la négation du futur",
+        "« alors, dans ce cas » : en tête d'une réponse"
+      ],
+      "examples": [
+        "karihtu an tadriba, « j'ai détesté que tu frappes »",
+        "lan taf'ala, « tu ne le feras pas »",
+        "ji'tuka kay tu'tiyanî haqqî, « je suis venu à toi afin que tu me donnes mon dû »",
+        "idhan tadkhula al-jannata, « alors tu entreras au Paradis », en réponse à aslamtu"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mettez tadribu, tadribâni et tadribûna après lan, et donnez le signe du nasb dans chacun.",
+          "answer": "Lan tadriba : la fatha. Lan tadribâ et lan tadribû : le nûn est supprimé."
+        },
+        {
+          "prompt": "Que fait an dans karihtu an tadriba ? Redites la phrase en français avec un masdar.",
+          "answer": "An met tadriba au nasb et lui donne le sens d'un masdar ; an avec son verbe est le complément d'objet de karihtu : « j'ai détesté ton action de frapper »."
+        },
+        {
+          "prompt": "Quelqu'un dit aslamtu, « je suis devenu musulman ». Répondez-lui avec idhan comme le fait le livre, et dites pourquoi le verbe est au nasb.",
+          "answer": "Idhan tadkhula al-jannata, « alors tu entreras au Paradis ». Idhan se tient en tête de la réponse, le verbe parle du futur et rien ne vient entre eux ; idhan met donc tadkhula au nasb."
+        },
+        {
+          "prompt": "Lan yadriba et lam yadrib : lequel est au nasb, et de quel temps parle chacun ?",
+          "answer": "Lan yadriba est au nasb (la fatha) et nie le futur, « il ne frappera pas ». Lam yadrib est au jazm (le sukûn) et nie le passé, « il n'a pas frappé »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de particules mettent le mudâri' au nasb ?",
+          "options": [
+            "Cinq",
+            "Quatre",
+            "Six",
+            "Neuf"
+          ],
+          "explanation": "An, lan, kay et idhan."
+        },
+        {
+          "prompt": "Quelle particule nie le futur ?",
+          "options": [
+            "Lam",
+            "An",
+            "Lan",
+            "Kay"
+          ],
+          "explanation": "Lan taf'ala, « tu ne le feras pas »."
+        },
+        {
+          "prompt": "Kay signifie…",
+          "options": [
+            "que",
+            "ne… pas (au futur)",
+            "alors",
+            "afin que"
+          ],
+          "explanation": "Ji'tuka kay tu'tiyanî haqqî, « je suis venu à toi afin que tu me donnes mon dû »."
+        },
+        {
+          "prompt": "Dans karihtu an tadriba, an avec son verbe tient lieu…",
+          "options": [
+            "d'un masdar : « ton action de frapper »",
+            "d'un ordre",
+            "d'une condition",
+            "d'un serment"
+          ],
+          "explanation": "C'est pourquoi on l'appelle an al-masdariyya."
+        },
+        {
+          "prompt": "Idhan vient…",
+          "options": [
+            "à la fin d'une phrase",
+            "en tête d'une réponse à ce qu'un autre a dit",
+            "seulement devant des noms",
+            "seulement après un serment"
+          ],
+          "explanation": "« En réponse à aslamtu » : idhan tadkhula al-jannata."
+        },
+        {
+          "prompt": "Le signe du nasb dans lan tadribû est…",
+          "options": [
+            "la fatha",
+            "la damma",
+            "la suppression du nûn",
+            "le sukûn"
+          ],
+          "explanation": "Tadribûna perd son nûn au nasb."
+        },
+        {
+          "prompt": "Dans ji'tuka kay tu'tiyanî haqqî, où le nasb se voit-il ?",
+          "options": [
+            "Sur le nûn de -nî",
+            "Sur haqqî",
+            "Il ne se voit pas",
+            "Sur le yâ' de tu'tiya"
+          ],
+          "explanation": "Tu'tî devient tu'tiya : la fatha se voit sur sa dernière lettre, le yâ'."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatre particules du nasb, et tadribu après lan (les formes viennent du moteur)",
+        "labels": {
+          "The four particles of naṣb, and taḍribu after lan (the forms from the engine)": "Les quatre particules du nasb, et tadribu après lan (les formes viennent du moteur)",
+          "Particle": "Particule",
+          "Meaning": "Sens",
+          "Example": "Exemple",
+          "أَنْ an": "أَنْ an",
+          "that (a maṣdar)": "que (un masdar)",
+          "لَنْ lan": "لَنْ lan",
+          "will not": "ne… pas (au futur)",
+          "كَيْ kay": "كَيْ kay",
+          "so that": "afin que",
+          "إِذَنْ idhan": "إِذَنْ idhan",
+          "then (an answer)": "alors (une réponse)",
+          "rafʿ → naṣb": "raf' → nasb",
+          "you (one man)": "toi (un homme)",
+          "you two": "vous deux",
+          "you (men)": "vous (hommes)"
+        }
+      },
+      "text": [
+        "La cinquième sorte : des particules qui mettent le mudâri' au nasb. Ce sont quatre particules : an, lan, kay et idhan, comme karihtu an tadriba « j'ai détesté que tu frappes », lan taf'ala « tu ne [le] feras pas », ji'tuka kay tu'tiyanî haqqî « je suis venu à toi afin que tu me donnes mon dû », et idhan tadkhula al-jannata « alors tu entreras au Paradis », en réponse à aslamtu « je suis devenu musulman »."
+      ]
+    },
+    "6": {
+      "title": "La sixième sorte : les particules qui mettent le mudâri' au jazm",
+      "body": [
+        "Cinq particules mettent le mudâri' au jazm : in, lam, lammâ, le lâm de l'ordre et le lâ de l'interdiction. Le jazm n'appartient qu'au verbe, comme le jarr au nom. Son signe est le sukûn sur la dernière lettre, yadribu → lam yadrib, ou, dans les formes qui finissent par un nûn, la suppression de ce nûn : yadribâni → lam yadribâ, yadribûna → lam yadribû. (Un verbe qui finit par une lettre faible perd plutôt cette lettre ; cela s'enseigne dans le sarf.)",
+        "In, « si », la particule de la condition, régit deux verbes : la condition (al-shart) et sa rétribution (al-jazâ') : in tukrimnî ukrimka, « si tu m'honores, je t'honorerai ». Tukrim et ukrim sont tous deux au jazm ; le -nî et le -ka sont des pronoms compléments qui leur sont joints. Parce que in régit deux verbes avec le sens de « si », il est le modèle de la sorte suivante : neuf noms qui mettent le verbe au jazm « au sens de in ».",
+        "Lam et lammâ nient tous deux le passé tout en régissant un mudâri' : lam yadrib Zaydun, « Zayd n'a pas frappé » ; lammâ yadrib Zaydun, « Zayd n'a pas encore frappé ». Lam tourne la forme du présent vers un sens passé ; lammâ ajoute que la négation dure jusqu'à maintenant et que l'action de frapper est encore attendue.",
+        "Le lâm de l'ordre, li-, donne un ordre à l'absent : li-yadrib Zaydun, « que Zayd frappe ». Le lâ de l'interdiction interdit : lâ tadrib Zaydan, « ne frappe pas Zayd ». L'impression le nomme lâ' al-nahy, parlant de la particule lâ comme d'un nom.",
+        "Un piège : lâ devant un mudâri' n'est pas toujours une interdiction. Lâ tadribu, avec la damma, ne fait que nier, « tu ne frappes pas », et laisse le verbe au raf' ; lâ tadrib, avec le sukûn, interdit, « ne frappe pas ! ». La voyelle de la dernière lettre vous dit quel lâ vous lisez."
+      ],
+      "terms": [
+        "les régissants du jazm",
+        "la condition et sa rétribution",
+        "« pas encore » : la négation du passé qui dure jusqu'à maintenant",
+        "le lâm de l'ordre, à l'absent",
+        "le lâ de l'interdiction"
+      ],
+      "examples": [
+        "in tukrimnî ukrimka, « si tu m'honores, je t'honorerai » : les deux verbes au jazm",
+        "lam yadrib Zaydun, « Zayd n'a pas frappé » ; lammâ yadrib Zaydun, « Zayd n'a pas encore frappé »",
+        "li-yadrib Zaydun, « que Zayd frappe » ; lâ tadrib Zaydan, « ne frappe pas Zayd »",
+        "lâ tadribu, « tu ne frappes pas » ; lâ tadrib, « ne frappe pas ! »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dans in tukrimnî ukrimka, nommez le régissant, les deux verbes qu'il régit et leur état.",
+          "answer": "Le régissant est in, la particule de la condition. Il régit tukrim, la condition, et ukrim, la rétribution ; les deux sont au jazm, montré par le sukûn."
+        },
+        {
+          "prompt": "Quelle est la différence de sens entre lam yadrib Zaydun et lammâ yadrib Zaydun ?",
+          "answer": "Les deux nient l'action de frapper dans le passé. Lam dit seulement qu'elle n'a pas eu lieu ; lammâ dit qu'elle n'a pas eu lieu jusqu'à maintenant et qu'elle est encore attendue : « pas encore »."
+        },
+        {
+          "prompt": "Mettez yadribu, yadribâni et yadribûna après lam.",
+          "answer": "Lam yadrib (le sukûn), lam yadribâ et lam yadribû (le nûn supprimé)."
+        },
+        {
+          "prompt": "Lisez lâ tadribu et lâ tadrib, et dites quel lâ a chacun.",
+          "answer": "Lâ tadribu : le lâ de la négation, le verbe au raf', « tu ne frappes pas ». Lâ tadrib : le lâ de l'interdiction, le verbe au jazm, « ne frappe pas ! »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de particules du jazm compte la sixième sorte ?",
+          "options": [
+            "Quatre",
+            "Neuf",
+            "Cinq",
+            "Sept"
+          ],
+          "explanation": "In, lam, lammâ, le lâm de l'ordre et le lâ de l'interdiction."
+        },
+        {
+          "prompt": "Dans in tukrimnî ukrimka, quels verbes sont au jazm ?",
+          "options": [
+            "Seulement tukrim",
+            "Seulement ukrim",
+            "Aucun",
+            "Tukrim et ukrim"
+          ],
+          "explanation": "In régit la condition et sa rétribution."
+        },
+        {
+          "prompt": "Lammâ yadrib Zaydun signifie…",
+          "options": [
+            "Zayd n'a pas encore frappé",
+            "Zayd n'a pas frappé",
+            "Zayd ne frappera pas",
+            "que Zayd frappe"
+          ],
+          "explanation": "Lammâ : la négation dure jusqu'à maintenant, et l'acte est encore attendu."
+        },
+        {
+          "prompt": "Li-yadrib Zaydun est…",
+          "options": [
+            "une interdiction",
+            "un ordre à l'absent",
+            "une négation du passé",
+            "une condition"
+          ],
+          "explanation": "Le lâm de l'ordre : « que Zayd frappe »."
+        },
+        {
+          "prompt": "Le signe du jazm dans lam yadrib est…",
+          "options": [
+            "la fatha",
+            "la kasra",
+            "le sukûn",
+            "la suppression du nûn"
+          ],
+          "explanation": "Yadribu perd sa damma : lam yadrib."
+        },
+        {
+          "prompt": "Lequel de ceux-ci est une interdiction ?",
+          "options": [
+            "Lâ tadribu",
+            "Lan tadriba",
+            "Lam tadrib",
+            "Lâ tadrib"
+          ],
+          "explanation": "Le lâ de l'interdiction met le verbe au jazm : lâ tadrib, « ne frappe pas ! »."
+        },
+        {
+          "prompt": "Lam tourne le sens du mudâri' vers…",
+          "options": [
+            "le passé",
+            "le futur",
+            "un ordre",
+            "un souhait"
+          ],
+          "explanation": "Lam yadrib Zaydun, « Zayd n'a pas frappé »."
+        }
+      ],
+      "diagram": {
+        "caption": "Les cinq particules du jazm, avec les exemples du livre (p. 2-3)",
+        "labels": {
+          "The five particles of jazm, with the book's examples (pp. 2–3)": "Les cinq particules du jazm, avec les exemples du livre (p. 2-3)",
+          "Particle": "Particule",
+          "Meaning": "Sens",
+          "The book's example": "Exemple du livre",
+          "إِنْ in": "إِنْ in",
+          "if (two verbs)": "si (deux verbes)",
+          "لَمْ lam": "لَمْ lam",
+          "did not": "n'a pas…",
+          "لَمَّا lammā": "لَمَّا lammâ",
+          "has not yet": "n'a pas encore…",
+          "لَامُ الْأَمْرِ li-": "لَامُ الْأَمْرِ li-",
+          "let him…": "qu'il…",
+          "لَا النَّاهِيَةُ lā": "لَا النَّاهِيَةُ lâ",
+          "do not…": "ne… pas (interdiction)"
+        }
+      },
+      "text": [
+        "La sixième sorte : des particules qui mettent le mudâri' au jazm. Ce sont cinq particules : in, lam, lammâ, le lâm de l'ordre et le lâ de l'interdiction, comme in tukrimnî ukrimka « si tu m'honores, je t'honorerai », lam yadrib Zaydun « Zayd n'a pas frappé », lammâ yadrib Zaydun « Zayd n'a pas encore frappé », li-yadrib Zaydun « que Zayd frappe » et lâ tadrib Zaydan « ne frappe pas Zayd »."
+      ]
+    },
+    "7": {
+      "title": "La septième sorte : les noms qui mettent le mudâri' au jazm",
+      "body": [
+        "La septième sorte apporte les premiers régissants qui sont des noms : neuf mots qui mettent le mudâri' au jazm « au sens de in » : man, mâ, matâ, mahmâ, ayyun, aynamâ, annâ, haythumâ et idhmâ. Chacun porte le sens de « si » avec un sens qui lui est propre, une personne, une chose, un temps ou un lieu ; et ainsi, comme in, il régit deux verbes au jazm : la condition et sa rétribution.",
+        "Ce sont des noms, non des particules, parce que chacun représente quelque chose dans la phrase. Dans man yukrimnî ukrimhu, « quiconque m'honore, je l'honorerai », man est « quiconque », la personne qui honore ; dans mâ tasna' asna', « quoi que tu fasses, je le ferai », mâ est « quoi que », la chose faite, le complément d'objet de tasna' placé devant lui. In ne fait rien de tel : il ne fait que lier les deux verbes.",
+        "Selon leurs sens : man est pour les personnes, « quiconque » ; mâ et mahmâ pour les choses, « quoi que » : mahmâ takun akun, « quoi que tu sois, je le serai » ; matâ et idhmâ pour le temps, « chaque fois que » : matâ tadhhab adhhab ; aynamâ, annâ et haythumâ pour le lieu, « où que » : aynamâ tajlis ajlis, « où que tu t'assoies, je m'assiérai ». Ayyun, « lequel que », prend son sens du mot auquel il est annexé : ayyahum tadrib adrib, « lequel d'entre eux que tu frappes, je le frapperai ». Sîbawayh tenait idhmâ pour une particule, comme in ; al-Jurjânî le compte parmi les noms.",
+        "Regardez de près ayyahum. Des neuf, seul ayyun est déclinable (mu'rab) ; les autres gardent une seule finale (mabnî). Dans l'exemple du livre, il est au nasb parce qu'il est le complément d'objet de tadrib, placé devant lui. Ainsi un nom de condition peut régir un verbe au jazm et être régi par ce même verbe : ayyahum met tadrib au jazm, et tadrib met ayyahum au nasb.",
+        "Un piège : man et mâ ne sont pas toujours des noms de condition. Man jâ'aka ? « qui est venu à toi ? » pose une question, et mâ peut nier, comme dans mâ Zaydun fâdilan. Le signe de la condition, ce sont deux verbes, le second répondant au premier, tous deux au jazm."
+      ],
+      "terms": [
+        "les noms de condition, au sens de in",
+        "la rétribution de la condition (al-jazâ')",
+        "« lequel que » : le seul nom déclinable des neuf",
+        "« quoi que »"
+      ],
+      "examples": [
+        "man yukrimnî ukrimhu, « quiconque m'honore, je l'honorerai »",
+        "mâ tasna' asna', « quoi que tu fasses, je le ferai »",
+        "aynamâ tajlis ajlis, « où que tu t'assoies, je m'assiérai »",
+        "ayyahum tadrib adrib : ayyahum au nasb comme complément d'objet de tadrib"
+      ],
+      "tasks": [
+        {
+          "prompt": "Trouvez la condition et la rétribution dans matâ tadhhab adhhab, et donnez leur état et leur régissant.",
+          "answer": "Tadhhab est la condition et adhhab la rétribution ; les deux sont au jazm, montré par le sukûn, et matâ, un nom de condition qui signifie « chaque fois que », régit les deux."
+        },
+        {
+          "prompt": "Pourquoi ayyahum est-il au nasb dans ayyahum tadrib adrib ?",
+          "answer": "Ayyun est le seul nom déclinable des neuf, et ici il est le complément d'objet de tadrib, placé devant lui. Il met tadrib au jazm et est lui-même mis au nasb par tadrib."
+        },
+        {
+          "prompt": "Pourquoi man et mâ sont-ils comptés comme des noms, alors que in est une particule ?",
+          "answer": "Man et mâ représentent quelque chose dans la phrase : la personne (« quiconque ») ou la chose (« quoi que ») ; mâ dans mâ tasna' est même le complément d'objet du verbe. In ne fait que lier la condition à sa rétribution et ne représente rien."
+        },
+        {
+          "prompt": "Rangez les neuf selon leur sens : personnes, choses, temps, lieu, et celui qui prend son sens de ce qui le suit.",
+          "answer": "Personnes : man. Choses : mâ, mahmâ. Temps : matâ, idhmâ. Lieu : aynamâ, annâ, haythumâ. Ayyun prend le sens de ce à quoi il est annexé (ayyuhum, « lequel d'entre eux que »)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de noms mettent le mudâri' au jazm ?",
+          "options": [
+            "Cinq",
+            "Sept",
+            "Quatre",
+            "Neuf"
+          ],
+          "explanation": "Man, mâ, matâ, mahmâ, ayyun, aynamâ, annâ, haythumâ et idhmâ."
+        },
+        {
+          "prompt": "Ils le mettent au jazm « au sens de »…",
+          "options": [
+            "in, « si »",
+            "lam",
+            "le lâ de l'interdiction",
+            "an"
+          ],
+          "explanation": "Chacun porte le sens de la condition, comme in."
+        },
+        {
+          "prompt": "Lequel des neuf est déclinable (mu'rab) ?",
+          "options": [
+            "Man",
+            "Ayyun",
+            "Matâ",
+            "Mahmâ"
+          ],
+          "explanation": "Seul ayyun change de finale : ayyahum au nasb dans l'exemple du livre."
+        },
+        {
+          "prompt": "Matâ signifie…",
+          "options": [
+            "quiconque",
+            "quoi que",
+            "chaque fois que",
+            "où que"
+          ],
+          "explanation": "Matâ tadhhab adhhab, « chaque fois que tu iras, j'irai »."
+        },
+        {
+          "prompt": "Dans mâ tasna' asna', asna' est…",
+          "options": [
+            "la condition, au raf'",
+            "le complément d'objet de mâ",
+            "au nasb",
+            "la rétribution, au jazm"
+          ],
+          "explanation": "Tasna' est la condition et asna' sa rétribution ; les deux sont au jazm."
+        },
+        {
+          "prompt": "Combien de verbes un nom de condition met-il au jazm ?",
+          "options": [
+            "Deux",
+            "Un",
+            "Trois",
+            "Aucun"
+          ],
+          "explanation": "La condition et sa rétribution, comme in."
+        },
+        {
+          "prompt": "Aynamâ tajlis ajlis signifie…",
+          "options": [
+            "chaque fois que tu t'assiéras, je m'assiérai",
+            "où que tu t'assoies, je m'assiérai",
+            "quiconque s'assied, je m'assiérai",
+            "si tu ne t'assieds pas, je m'assiérai"
+          ],
+          "explanation": "Aynamâ est pour le lieu."
+        }
+      ],
+      "diagram": {
+        "caption": "Les neuf noms de condition, avec les exemples du livre (p. 3)",
+        "labels": {
+          "The nine nouns of condition, with the book's examples (p. 3)": "Les neuf noms de condition, avec les exemples du livre (p. 3)",
+          "Noun": "Nom",
+          "Meaning": "Sens",
+          "The book's example": "Exemple du livre",
+          "مَنْ man": "مَنْ man",
+          "whoever": "quiconque",
+          "مَا mā": "مَا mâ",
+          "whatever": "quoi que",
+          "مَتَى matā": "مَتَى matâ",
+          "whenever": "chaque fois que",
+          "مَهْمَا mahmā": "مَهْمَا mahmâ",
+          "أَيٌّ ayyun": "أَيٌّ ayyun",
+          "whichever": "lequel que",
+          "أَيْنَمَا aynamā": "أَيْنَمَا aynamâ",
+          "wherever": "où que",
+          "أَنَّى annā": "أَنَّى annâ",
+          "حَيْثُمَا ḥaythumā": "حَيْثُمَا haythumâ",
+          "إِذْمَا idhmā": "إِذْمَا idhmâ"
+        }
+      },
+      "text": [
+        "La septième sorte : des noms qui mettent le mudâri' au jazm au sens de in « si ». Ce sont neuf noms : man, mâ, matâ, mahmâ, ayyun, aynamâ, annâ, haythumâ et idhmâ.",
+        "Comme man yukrimnî ukrimhu « quiconque m'honore, je l'honorerai », mâ tasna' asna' « quoi que tu fasses, je le ferai », matâ tadhhab adhhab « chaque fois que tu iras, j'irai », mahmâ takun akun « quoi que tu sois, je le serai », ayyahum tadrib adrib « lequel d'entre eux que tu frappes, je le frapperai », aynamâ tajlis ajlis « où que tu t'assoies, je m'assiérai », annâ taq'ud aq'ud « où que tu t'asseyes, je m'assiérai », haythumâ tadhhab adhhab « où que tu ailles, j'irai » et idhmâ taf'al af'al « chaque fois que tu [le] feras, je [le] ferai »."
+      ]
+    },
+    "8": {
+      "title": "La huitième sorte : les noms qui mettent le tamyîz au nasb",
+      "body": [
+        "La huitième sorte, ce sont quatre noms qui « mettent un nom indéfini au nasb comme spécification (tamyîz) ». Un tamyîz lève une imprécision : « onze » dit combien, mais non de quoi ; rajulan, « hommes », dit de quoi. Le mot vague est le régissant ; le nom indéfini qui le suit est régi, au nasb.",
+        "Le premier est 'ashara, « dix », « quand il est composé avec ahad et ithnân », c'est-à-dire dans les nombres composés de onze à dix-neuf : jâ'anî ahada 'ashara rajulan, « onze hommes sont venus à moi ». Le livre étend la règle « jusqu'à quatre-vingt-dix-neuf » : de onze à quatre-vingt-dix-neuf, le nom compté est un seul nom indéfini au nasb. Le livre lui-même compte ainsi dans ses deux premières pages : 'alâ thalâthata 'ashara naw'an, « en treize sortes » ; sab'ata 'ashara harfan, « dix-sept particules » ; ahadun wa-tis'ûna 'âmilan, « quatre-vingt-onze régissants ».",
+        "Comparez les nombres hors de ce champ, toujours dans les propres mots du livre. Après trois à dix et après cent, le nom compté est au jarr par l'idâfa, non au nasb : sab'atu 'awâmila, « sept régissants », et le titre même, mi'atu 'âmilin, « cent régissants ». ('Awâmila prend une fatha pour son jarr, comme diptote.) Ainsi mi'a est vague aussi, mais il régit par l'idâfa, non comme l'un des quatre noms de cette sorte.",
+        "Kam, « combien ? », demande un nombre : kam rajulan 'indaka, « combien d'hommes sont chez vous ? » ; son tamyîz est un seul nom indéfini au nasb. Kadhâ, « tant », tient lieu d'un nombre non nommé : kadhâ dirhaman 'indaka, « tant de dirhams sont chez vous ». Ka-ayyin, « que de… ! », dit un grand nombre : ka-ayyin rajulan 'indaka. Le Nahw-i Mîr ajoute que kam a un second emploi, qui dit un grand nombre, et dont le tamyîz est au jarr : kam mâlin anfaqtu, « que de biens j'ai dépensés ! » ; seul le kam interrogatif relève d'ici.",
+        "Un piège : le tamyîz et le hâl sont tous deux des noms indéfinis au nasb, mais ils répondent à des questions différentes. Le hâl dit l'état de quelqu'un (« comment ? ») ; le tamyîz dit ce que signifie un mot vague (« de quoi ? »). Demandez à ahada 'ashara rajulan : « onze quoi ? » : des hommes. Cette réponse est le tamyîz."
+      ],
+      "terms": [
+        "la spécification : un nom indéfini au nasb qui lève une imprécision",
+        "le mot vague que spécifie le tamyîz",
+        "« combien ? » : son tamyîz au nasb",
+        "« que de… ! » : dire un grand nombre"
+      ],
+      "examples": [
+        "jâ'anî ahada 'ashara rajulan, « onze hommes sont venus à moi »",
+        "ahadun wa-tis'ûna 'âmilan, « quatre-vingt-onze régissants » : le compte même du livre",
+        "mi'atu 'âmilin, « cent régissants » : après cent, le jarr par l'idâfa",
+        "kam rajulan 'indaka, « combien d'hommes sont chez vous ? »",
+        "kadhâ dirhaman 'indaka, « tant de dirhams sont chez vous »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Trouvez le tamyîz et le mot vague qu'il spécifie dans les comptes mêmes du livre : thalâthata 'ashara naw'an ; sab'ata 'ashara harfan ; ahadun wa-tis'ûna 'âmilan.",
+          "answer": "Naw'an spécifie thalâthata 'ashara ; harfan spécifie sab'ata 'ashara ; 'âmilan spécifie ahadun wa-tis'ûna. Chacun est un seul nom indéfini au nasb."
+        },
+        {
+          "prompt": "Pourquoi 'âmilin est-il au jarr dans mi'atu 'âmilin, mais 'âmilan au nasb dans ahadun wa-tis'ûna 'âmilan ?",
+          "answer": "Après cent, le nom compté est joint au nombre par l'idâfa et il est donc au jarr. De onze à quatre-vingt-dix-neuf, le nom compté est un tamyîz, au nasb."
+        },
+        {
+          "prompt": "Dans kam rajulan 'indaka, qu'est-ce qui régit rajulan, et à quelle question répond-il ?",
+          "answer": "Kam, le « combien ? » interrogatif, régit rajulan au nasb comme son tamyîz. Il répond à « combien de quoi ? » : des hommes."
+        },
+        {
+          "prompt": "Comment distinguer un tamyîz d'un hâl, puisque tous deux sont des noms indéfinis au nasb ?",
+          "answer": "Le hâl dit l'état de quelqu'un et répond à « comment ? ». Le tamyîz lève l'imprécision d'un mot qui le précède et répond à « de quoi ? »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Un tamyîz est…",
+          "options": [
+            "un nom indéfini au nasb qui lève une imprécision",
+            "un nom défini au jarr",
+            "un prédicat au raf'",
+            "un verbe au nasb"
+          ],
+          "explanation": "Il dit « de quoi » après un mot vague comme un nombre."
+        },
+        {
+          "prompt": "Combien de noms compte la huitième sorte ?",
+          "options": [
+            "Neuf",
+            "Quatre",
+            "Trois",
+            "Sept"
+          ],
+          "explanation": "'Ashara composé, kam, kadhâ et ka-ayyin."
+        },
+        {
+          "prompt": "'Ashara régit un tamyîz quand…",
+          "options": [
+            "il est seul",
+            "il suit cent",
+            "il est composé avec ahad, ithnân et les autres unités",
+            "il vient devant un verbe"
+          ],
+          "explanation": "Ahada 'ashara rajulan : les nombres composés, et ainsi jusqu'à quatre-vingt-dix-neuf."
+        },
+        {
+          "prompt": "Dans kam rajulan 'indaka, rajulan est…",
+          "options": [
+            "le complément d'objet d'un verbe",
+            "le prédicat",
+            "l'agent",
+            "le tamyîz de kam"
+          ],
+          "explanation": "Kam demande combien ; rajulan dit de quoi."
+        },
+        {
+          "prompt": "Dans le titre du livre, mi'atu 'âmilin, 'âmilin est au…",
+          "options": [
+            "jarr, par l'idâfa",
+            "nasb, comme tamyîz",
+            "raf'",
+            "jazm"
+          ],
+          "explanation": "Après cent, le nom compté est au jarr par l'idâfa."
+        },
+        {
+          "prompt": "Kadhâ dirhaman signifie…",
+          "options": [
+            "combien de dirhams ?",
+            "tant de dirhams",
+            "comme un dirham",
+            "sauf un dirham"
+          ],
+          "explanation": "Kadhâ tient lieu d'un nombre non nommé."
+        },
+        {
+          "prompt": "Dans 'alâ thalâthata 'ashara naw'an, quel mot est le tamyîz ?",
+          "options": [
+            "Thalâthata",
+            "'Ashara",
+            "Naw'an",
+            "Aucun"
+          ],
+          "explanation": "Naw'an dit ce que sont les treize : des sortes."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatre noms vagues et leur tamyîz (p. 3) ; en dessous, les comptes mêmes du livre (p. 1-2)",
+        "labels": {
+          "The four vague nouns and their tamyīz (p. 3); below, the book's own counts (pp. 1–2)": "Les quatre noms vagues et leur tamyîz (p. 3) ; en dessous, les comptes mêmes du livre (p. 1-2)",
+          "Vague noun": "Nom vague",
+          "Meaning": "Sens",
+          "Tamyīz in naṣb": "Tamyîz au nasb",
+          "eleven": "onze",
+          "how many?": "combien ?",
+          "so many": "tant",
+          "how many a!": "que de… !",
+          "thirteen": "treize",
+          "seventeen": "dix-sept",
+          "ninety-one": "quatre-vingt-onze"
+        }
+      },
+      "text": [
+        "La huitième sorte : des noms qui mettent un nom indéfini au nasb comme spécification (tamyîz). Ce sont quatre noms. Le premier est 'asharatun « dix » quand il est composé avec ahadin et ithnayni, jusqu'à quatre-vingt-dix-neuf, comme jâ'anî ahada 'ashara rajulan « onze hommes sont venus à moi » ; le deuxième est kam, comme kam rajulan 'indaka « combien d'hommes sont chez toi ? » ; le troisième est kadhâ, comme kadhâ dirhaman 'indaka « tant de dirhams sont chez toi » ; et le quatrième est ka-ayyin, comme ka-ayyin rajulan 'indaka « que d'hommes sont chez toi ! »."
+      ]
+    },
+    "9": {
+      "title": "La neuvième sorte : les noms de verbes",
+      "body": [
+        "La neuvième sorte, ce sont des « vocables qu'on appelle noms de verbes » (asmâ' al-af'âl) : neuf vocables qui signifient ce que signifie un verbe et régissent comme ce verbe régit, bien qu'ils ne prennent aucune des formes d'un verbe : ils ne changent ni pour le passé et le présent ni pour les personnes, et leur finale reste la même (ils sont mabnî). Le livre les appelle « vocables » (kalimât), comme pour les laisser entre le nom et le verbe ; la plupart des grammairiens les comptent comme des noms, comme le dit leur nom.",
+        "Six mettent un nom au nasb, parce que chacun signifie un ordre dont le verbe prend un complément d'objet : ruwayda Zaydan, « laisse du temps à Zayd » ; balha Zaydan, « laisse Zayd tranquille » ; dûnaka Zaydan, « prends Zayd » ; 'alayka Zaydan, « attache-toi à Zayd » ; hayyahal Zaydan, « amène Zayd » ; hâ Zaydan, « prends Zayd ». Le Nahw-i Mîr explique ruwayda Zaydan par amhilhu, « laisse-lui du temps » : le nom de verbe fait ce que ferait le verbe amhil.",
+        "Dûnaka et 'alayka sont faits d'un mot de lieu (dûna, « devant ») ou d'une préposition ('alâ, « sur ») avec le pronom « toi ». Le -ka change selon celui à qui l'on parle, comme dans le Coran : 'alaykum anfusakum, « occupez-vous de vous-mêmes » (Coran 5:105). Ce ne sont pas la préposition 'alâ avec son nom : dans 'alayka Zaydan, Zaydan est au nasb, ce qu'aucune particule du jarr ne pourrait donner.",
+        "Trois mettent un nom au raf', parce que chacun signifie un verbe au passé qui a un agent et pas de complément d'objet : hayhâta Zaydun, « que Zayd est loin ! », que le Nahw-i Mîr explique par ba'uda, « il est loin » ; shattâna Zaydun wa-'Amrun, « que Zayd et 'Amr sont différents ! » ; sar'âna Zaydun, « que Zayd est prompt ! ». Le nom qui les suit est leur agent (fâ'il), au raf'. Shattâna a besoin de deux noms, puisqu'une différence est toujours entre deux.",
+        "Al-Birgivî a rangé des mots comme hayhâta sous un régissant analogique qu'il appelle « le sens du verbe ». Al-Jurjânî les énumère par leur nom comme régissants entendus ; l'élève les apprend donc comme une liste : chacun avec son sens et avec l'état qu'il donne."
+      ],
+      "terms": [
+        "les noms de verbes : des vocables qui ont le sens et l'action d'un verbe",
+        "« laisser du temps à » : donne le nasb",
+        "« s'attacher à » : donne le nasb",
+        "« que… est loin ! » : donne le raf' à son agent",
+        "« que… sont différents ! » : donne le raf' à deux"
+      ],
+      "examples": [
+        "ruwayda Zaydan, « laisse du temps à Zayd » : Zaydan au nasb",
+        "'alayka Zaydan, « attache-toi à Zayd »",
+        "hayhâta Zaydun, « que Zayd est loin ! » : Zaydun son agent, au raf'",
+        "shattâna Zaydun wa-'Amrun, « que Zayd et 'Amr sont différents ! »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le régissant et l'état de Zayd dans dûnaka Zaydan et dans sar'âna Zaydun.",
+          "answer": "Dûnaka, un nom de verbe qui signifie « prends », met Zaydan au nasb comme son complément d'objet. Sar'âna, un nom de verbe qui signifie « qu'il est prompt ! », met Zaydun au raf' comme son agent."
+        },
+        {
+          "prompt": "Pourquoi shattâna a-t-il besoin de deux noms ?",
+          "answer": "Il signifie « qu'ils sont différents ! », et une différence est entre deux : Zaydun est son agent et 'Amrun lui est coordonné par le wâw, au raf' comme lui."
+        },
+        {
+          "prompt": "Dans 'alayka Zaydan, pourquoi 'alâ n'est-il pas une particule du jarr ?",
+          "answer": "'Alayka est ici un seul mot, un nom de verbe qui signifie « attache-toi à ». Zaydan qui le suit est au nasb comme son complément d'objet ; une particule du jarr donnerait le jarr."
+        },
+        {
+          "prompt": "Rangez les neuf entre ceux qui donnent le nasb et ceux qui donnent le raf', et dites pourquoi chaque groupe régit comme il le fait.",
+          "answer": "Nasb : ruwayda, balha, dûnaka, 'alayka, hayyahal, hâ ; ils signifient des ordres dont les verbes prennent un complément d'objet. Raf' : hayhâta, shattâna, sar'âna ; ils signifient des verbes au passé avec un agent et sans complément d'objet."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Les noms de verbes sont des vocables qui…",
+          "options": [
+            "sont tirés des verbes par le sarf",
+            "portent le sens et l'action d'un verbe",
+            "suivent toujours un verbe",
+            "sont toujours au nasb"
+          ],
+          "explanation": "Ils signifient ce que signifie un verbe et régissent comme il régit, sans prendre ses formes."
+        },
+        {
+          "prompt": "Combien de noms de verbes donnent le nasb ?",
+          "options": [
+            "Trois",
+            "Neuf",
+            "Six",
+            "Quatre"
+          ],
+          "explanation": "Ruwayda, balha, dûnaka, 'alayka, hayyahal et hâ."
+        },
+        {
+          "prompt": "Hayhâta Zaydun signifie…",
+          "options": [
+            "prends Zayd",
+            "laisse Zayd tranquille",
+            "Zayd est proche",
+            "que Zayd est loin !"
+          ],
+          "explanation": "Hayhâta signifie « il est loin », avec Zaydun comme agent."
+        },
+        {
+          "prompt": "Dans hayhâta Zaydun, Zaydun est…",
+          "options": [
+            "l'agent de hayhâta",
+            "son complément d'objet",
+            "un sujet avec un prédicat",
+            "au jarr"
+          ],
+          "explanation": "Les trois qui donnent le raf' signifient des verbes au passé avec un agent."
+        },
+        {
+          "prompt": "Lequel de ceux-ci donne le raf' ?",
+          "options": [
+            "Ruwayda",
+            "Sar'âna",
+            "Dûnaka",
+            "Balha"
+          ],
+          "explanation": "Hayhâta, shattâna et sar'âna donnent le raf' ; les six autres donnent le nasb."
+        },
+        {
+          "prompt": "Dans 'alayka Zaydan, Zaydan est au nasb parce que 'alayka signifie…",
+          "options": [
+            "sur",
+            "avec",
+            "attache-toi à",
+            "sauf"
+          ],
+          "explanation": "Comme nom de verbe, 'alayka signifie un ordre qui prend un complément d'objet."
+        },
+        {
+          "prompt": "Les noms de verbes changent-ils de forme pour le passé et le présent ?",
+          "options": [
+            "Oui, comme tout verbe",
+            "Seulement au duel",
+            "Seulement après lam",
+            "Non : leur forme reste la même"
+          ],
+          "explanation": "Ils ont le sens et l'action d'un verbe, mais aucune de ses formes."
+        }
+      ],
+      "diagram": {
+        "caption": "Les neuf noms de verbes (p. 3-4)",
+        "labels": {
+          "The nine nouns of verbs (pp. 3–4)": "Les neuf noms de verbes (p. 3-4)",
+          "Nouns of verbs: 9": "Noms de verbes : 9",
+          "Giving naṣb: 6": "Donnant le nasb : 6",
+          "ruwayda: give time": "ruwayda : laisse du temps",
+          "balha: leave alone": "balha : laisse tranquille",
+          "dūnaka: take": "dûnaka : prends",
+          "ʿalayka: keep to": "'alayka : attache-toi à",
+          "ḥayyahal: bring": "hayyahal : amène",
+          "hā: take": "hâ : prends",
+          "Giving rafʿ: 3": "Donnant le raf' : 3",
+          "hayhāta: how far!": "hayhâta : que… est loin !",
+          "shattāna: how different!": "shattâna : que… sont différents !",
+          "sarʿāna: how quick!": "sar'âna : que… est prompt !"
+        }
+      },
+      "text": [
+        "La neuvième sorte : des vocables qu'on appelle noms de verbes (asmâ' al-af'âl) ; certains mettent au raf' et certains au nasb. Ce sont neuf vocables. Ceux d'entre eux qui mettent au nasb sont six vocables : ruwayda, balha, dûnaka, 'alayka, hayyahal et hâ, comme ruwayda Zaydan « laisse du temps à Zayd », balha Zaydan « laisse Zayd tranquille », dûnaka Zaydan « prends Zayd », 'alayka Zaydan « attache-toi à Zayd », hayyahal Zaydan « amène Zayd » et hâ Zaydan « prends Zayd ».",
+        "Ceux d'entre eux qui mettent au raf' sont trois vocables : hayhâta, shattâna et sar'âna, comme hayhâta Zaydun « que Zayd est loin ! », shattâna Zaydun wa-'Amrun « que Zayd et 'Amr sont différents ! » et sar'âna Zaydun « que Zayd est prompt ! »."
+      ]
+    },
+    "10": {
+      "title": "La dixième sorte : kâna et ses sœurs",
+      "body": [
+        "La dixième sorte apporte les régissants qui sont des verbes : treize « verbes incomplets » (af'âl nâqisa) qui « mettent le nom au raf' et le prédicat au nasb ». Comme inna, ils viennent devant une phrase de sujet et de prédicat ; à la différence de inna, ils laissent le sujet au raf' et mettent le prédicat au nasb : Zaydun qâ'imun devient kâna Zaydun qâ'iman, « Zayd était debout ». Le premier s'appelle le nom (ism) de kâna, le second son prédicat (khabar).",
+        "On les appelle incomplets parce qu'un nom au raf' ne les complète pas : kâna Zaydun, « Zayd était », laisse l'auditeur attendre « était quoi ? ». Un verbe complet dit son sens avec son seul agent, comme qâma Zaydun, « Zayd s'est levé ».",
+        "Leurs sens : kâna, « était », met le prédicat au passé ; sâra, « est devenu », change un état en un autre : sâra al-faqîru ghaniyyan, « le pauvre est devenu riche ». Asbaha, amsâ et adhâ lient le prédicat au matin, au soir et à la matinée ; zalla à toute la journée : zalla Zaydun sâ'iman, « Zayd est resté à jeûner toute la journée » ; bâta à la nuit : bâta Zaydun nâ'iman. Laysa, « n'est pas », nie. Les quatre avec mâ, mâ bariha, mâ fati'a, mâ zâla et mâ infakka, signifient « n'a pas cessé », c'est-à-dire « encore » : mâ zâla Zaydun 'âliman, « Zayd est encore savant ». Nier la cessation, c'est dire qu'une chose dure.",
+        "Mâ dâma, « tant que », est différent : son mâ n'est pas une négation, mais fait du verbe une durée : ijlis mâ dâma Zaydun jâlisan, « assieds-toi tant que Zayd est assis », c'est-à-dire pendant le temps où il est assis. Ainsi mâ dâma ne commence pas une phrase ; il dépend d'une phrase qui le précède, ici ijlis, « assieds-toi ! ».",
+        "Deux pièges. Dans les quatre verbes de la continuité, le mâ fait partie du régissant : sans la négation, ils n'agissent pas de cette manière. Et plusieurs de ces verbes peuvent aussi être complets, avec un agent et sans prédicat, quand ils signifient « être, arriver » : wa-in kâna dhû 'usratin, « et s'il y a quelqu'un dans la gêne » (Coran 2:280). Kâna n'y a que son agent, dhû 'usratin."
+      ],
+      "terms": [
+        "les verbes incomplets : kâna et ses sœurs",
+        "le nom de kâna (au raf') et son prédicat (au nasb)",
+        "« tant que » : son mâ fait une durée",
+        "« n'est pas » : le verbe incomplet de la négation"
+      ],
+      "examples": [
+        "kâna Zaydun qâ'iman, « Zayd était debout » : le nom au raf', le prédicat au nasb",
+        "sâra al-faqîru ghaniyyan, « le pauvre est devenu riche »",
+        "mâ zâla Zaydun 'âliman, « Zayd est encore savant »",
+        "ijlis mâ dâma Zaydun jâlisan, « assieds-toi tant que Zayd est assis »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le nom et le prédicat, avec leurs états, dans sâra al-faqîru ghaniyyan et laysa Zaydun qâ'iman.",
+          "answer": "Sâra : al-faqîru est son nom, au raf' ; ghaniyyan son prédicat, au nasb. Laysa : Zaydun est son nom, au raf' ; qâ'iman son prédicat, au nasb."
+        },
+        {
+          "prompt": "Pourquoi le prédicat est-il qâ'iman dans kâna Zaydun qâ'iman, mais qâ'imun dans inna Zaydan qâ'imun ?",
+          "answer": "Kâna, un verbe incomplet, laisse son nom au raf' et met son prédicat au nasb. Inna fait l'inverse : son nom au nasb, son prédicat au raf'."
+        },
+        {
+          "prompt": "Que fait mâ dans mâ zâla Zaydun 'âliman, et que fait-il dans ijlis mâ dâma Zaydun jâlisan ?",
+          "answer": "Dans mâ zâla, il nie la cessation, si bien que le sens est que Zayd est encore savant. Dans mâ dâma, ce n'est pas une négation : il fait une durée, « tant que Zayd est assis »."
+        },
+        {
+          "prompt": "Pourquoi kâna est-il dit incomplet, et quand est-il complet ?",
+          "answer": "Avec son seul nom, il n'achève pas son sens (« Zayd était… » quoi ?) ; il lui faut donc un prédicat. Il est complet quand il signifie « être, arriver » et n'a qu'un agent, comme wa-in kâna dhû 'usratin, « s'il y a quelqu'un dans la gêne » (Coran 2:280)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Les verbes incomplets mettent…",
+          "options": [
+            "le nom au nasb et le prédicat au raf'",
+            "les deux au nasb",
+            "le nom au raf' et le prédicat au nasb",
+            "un seul nom au raf'"
+          ],
+          "explanation": "Kâna Zaydun qâ'iman : le nom au raf', le prédicat au nasb."
+        },
+        {
+          "prompt": "Combien de verbes compte la dixième sorte ?",
+          "options": [
+            "Sept",
+            "Quatre",
+            "Six",
+            "Treize"
+          ],
+          "explanation": "De kâna à laysa, treize."
+        },
+        {
+          "prompt": "Sâra signifie…",
+          "options": [
+            "est devenu",
+            "était le matin",
+            "n'est pas",
+            "est encore"
+          ],
+          "explanation": "Sâra al-faqîru ghaniyyan, « le pauvre est devenu riche »."
+        },
+        {
+          "prompt": "Mâ zâla Zaydun 'âliman signifie…",
+          "options": [
+            "Zayd n'est pas savant",
+            "Zayd est encore savant",
+            "Zayd a cessé d'être savant",
+            "Zayd est devenu savant"
+          ],
+          "explanation": "Nier la cessation, c'est dire que l'état dure."
+        },
+        {
+          "prompt": "Dans mâ dâma, le mâ…",
+          "options": [
+            "nie",
+            "pose une question",
+            "fait une durée : « tant que »",
+            "est un nom de condition"
+          ],
+          "explanation": "Ijlis mâ dâma Zaydun jâlisan : « pendant le temps où Zayd est assis »."
+        },
+        {
+          "prompt": "Dans laysa Zaydun qâ'iman, Zaydun est…",
+          "options": [
+            "le prédicat de laysa",
+            "au nasb",
+            "l'agent de qâ'iman",
+            "le nom de laysa, au raf'"
+          ],
+          "explanation": "Laysa est l'une des sœurs de kâna : son nom au raf', son prédicat qâ'iman au nasb."
+        },
+        {
+          "prompt": "Pourquoi ces verbes sont-ils dits incomplets ?",
+          "options": [
+            "Leur seul nom n'achève pas leur sens",
+            "Ils n'ont pas de passé",
+            "Ils ont deux lettres",
+            "Ils ne peuvent prendre de pronom"
+          ],
+          "explanation": "Il leur faut un prédicat : « Zayd était… » quoi ?"
+        }
+      ],
+      "diagram": {
+        "caption": "Les treize verbes incomplets, avec les exemples du livre (p. 4)",
+        "labels": {
+          "The thirteen incomplete verbs, with the book's examples (p. 4)": "Les treize verbes incomplets, avec les exemples du livre (p. 4)",
+          "Verb": "Verbe",
+          "Meaning": "Sens",
+          "The book's example": "Exemple du livre",
+          "was": "était",
+          "became": "est devenu",
+          "was in the morning": "était le matin",
+          "was in the evening": "était le soir",
+          "was in the forenoon": "était dans la matinée",
+          "stayed all day": "est resté toute la journée",
+          "spent the night": "a passé la nuit",
+          "did not cease": "n'a pas cessé",
+          "is still": "est encore",
+          "as long as": "tant que",
+          "is not": "n'est pas"
+        }
+      },
+      "text": [
+        "La dixième sorte : des verbes incomplets (af'âl nâqisa) qui mettent le nom au raf' et le prédicat au nasb. Ce sont treize verbes : kâna, sâra, asbaha, amsâ, adhâ, zalla, bâta, mâ bariha, mâ fati'a, mâ zâla, mâ infakka, mâ dâma et laysa.",
+        "Comme kâna Zaydun qâ'iman « Zayd était debout », sâra al-faqîru ghaniyyan « le pauvre est devenu riche », asbaha Zaydun 'âliman « Zayd était savant au matin », amsâ Zaydun qâri'an « Zayd lisait le soir », adhâ Zaydun musâfiran « Zayd voyageait dans la matinée », zalla Zaydun sâ'iman « Zayd est resté à jeûner toute la journée », bâta Zaydun nâ'iman « Zayd a passé la nuit endormi », mâ bariha Zaydun 'âliman « Zayd n'a pas cessé d'être savant », mâ fati'a Zaydun qâ'iman « Zayd n'a pas cessé d'être debout », mâ zâla Zaydun 'âliman « Zayd est encore savant », mâ infakka Bakrun 'âqilan « Bakr n'a pas cessé d'être sensé », ijlis mâ dâma Zaydun jâlisan « assieds-toi tant que Zayd est assis » et laysa Zaydun qâ'iman « Zayd n'est pas debout »."
+      ]
+    },
+    "11": {
+      "title": "La onzième sorte : les verbes d'approche",
+      "body": [
+        "La onzième sorte, ce sont quatre verbes « d'approche » (al-muqâraba) qui « mettent un seul nom au raf' » : 'asâ, kâda, karaba et awshaka. Ils disent que l'action d'un autre verbe est proche : 'asâ Zaydun an yakhruja, « peut-être Zayd sortira-t-il » ; kâda Zaydun an yakhruja, « Zayd était sur le point de sortir » ; karaba Zaydun yakhruju, « Zayd était près de sortir » ; awshaka Zaydun yajî'u, « Zayd était sur le point de venir ». 'Asâ est le verbe de l'espoir (rajâ') : il espère que l'acte viendra ; les trois autres disent qu'il était proche.",
+        "Après le nom vient un mudâri', l'action qui est proche, et en règle générale non un seul nom comme après kâna : le livre dit kâda Zaydun an yakhruja, non « kâda Zaydun khârijan ». Le mudâri' peut venir avec an ou sans lui, et les exemples du livre montrent les deux.",
+        "« Un seul nom » : al-Jurjânî ne nomme que le nom qu'ils mettent au raf', celui dont l'action est proche. La plupart des grammairiens les comptent avec kâna, comme le fait le Nahw-i Mîr : Zayd est leur nom, au raf', et le verbe qui le suit est leur prédicat, en position de nasb (fî mahall nasb). Le Nahw-i Mîr ajoute une seconde construction avec 'asâ : 'asâ an yakhruja Zaydun, où an yakhruja est l'agent de 'asâ et où aucun prédicat n'est nécessaire.",
+        "Pour an, des livres ultérieurs donnent l'usage habituel : avec 'asâ et awshaka, le mudâri' prend le plus souvent an, avec kâda et karaba le plus souvent non ; ainsi kâda Zaydun yakhruju est la forme la plus courante, comme dans le Coran : yakâdu zaytuhâ yudî'u, « son huile éclairerait presque » (Coran 24:35). Le kâda Zaydun an yakhruja et le awshaka Zaydun yajî'u du livre sont les emplois les moins courants ; les deux sont permis.",
+        "Un piège : 'asâ est un verbe, bien qu'il ne change pas pour le présent ni pour l'impératif ; on ne l'emploie qu'à cette forme du passé. Kâda change comme les autres verbes : le Coran dit yakâdu."
+      ],
+      "terms": [
+        "les verbes d'approche : 'asâ, kâda, karaba, awshaka",
+        "« peut-être » : le verbe de l'espoir",
+        "« était sur le point de »",
+        "l'espoir : ce qu'exprime 'asâ"
+      ],
+      "examples": [
+        "'asâ Zaydun an yakhruja, « peut-être Zayd sortira-t-il »",
+        "kâda Zaydun an yakhruja, « Zayd était sur le point de sortir »",
+        "karaba Zaydun yakhruju, « Zayd était près de sortir » : sans an",
+        "awshaka Zaydun yajî'u, « Zayd était sur le point de venir » : sans an"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dans 'asâ Zaydun an yakhruja, quel nom est au raf', et quelle action est espérée ?",
+          "answer": "Zaydun est au raf' comme nom de 'asâ. L'action espérée est sa sortie, an yakhruja, que la plupart des grammairiens prennent comme prédicat de 'asâ, en position de nasb."
+        },
+        {
+          "prompt": "Kâda Zaydun an yakhruja et kâda Zaydun yakhruju : les deux sont-ils corrects ? Lequel est le plus courant ?",
+          "answer": "Les deux sont corrects ; le livre donne le premier. Avec kâda, le mudâri' vient le plus souvent sans an, comme dans yakâdu zaytuhâ yudî'u (Coran 24:35) ; le second est donc le plus courant."
+        },
+        {
+          "prompt": "En quoi le « un seul nom au raf' » du livre diffère-t-il de la manière dont la plupart des grammairiens, et le Nahw-i Mîr, décrivent ces verbes ?",
+          "answer": "Le livre ne nomme que le nom au raf'. La plupart des grammairiens les comptent avec kâna : un nom au raf' et un prédicat, le mudâri', en position de nasb. Le Nahw-i Mîr permet aussi 'asâ an yakhruja Zaydun, an yakhruja étant l'agent de 'asâ."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Dans le livre, les verbes d'approche mettent au raf'…",
+          "options": [
+            "deux noms",
+            "un nom et un prédicat au nasb",
+            "rien",
+            "un seul nom"
+          ],
+          "explanation": "« Ils mettent un seul nom au raf' » : celui dont l'action est proche."
+        },
+        {
+          "prompt": "Combien de verbes d'approche le livre donne-t-il ?",
+          "options": [
+            "Quatre",
+            "Treize",
+            "Sept",
+            "Deux"
+          ],
+          "explanation": "'Asâ, kâda, karaba et awshaka."
+        },
+        {
+          "prompt": "Qu'est-ce qui suit le nom de kâda ?",
+          "options": [
+            "Un nom au nasb",
+            "Un verbe au mudâri'",
+            "Une particule du jarr",
+            "Un verbe au passé"
+          ],
+          "explanation": "Kâda Zaydun an yakhruja : l'action qui était proche."
+        },
+        {
+          "prompt": "Kâda Zaydun an yakhruja signifie…",
+          "options": [
+            "Zayd est sorti",
+            "Zayd n'est pas encore sorti",
+            "Zayd était sur le point de sortir",
+            "peut-être Zayd sortira-t-il"
+          ],
+          "explanation": "Kâda dit que l'acte était proche."
+        },
+        {
+          "prompt": "Lequel d'entre eux exprime l'espoir ?",
+          "options": [
+            "Kâda",
+            "Karaba",
+            "Awshaka",
+            "'Asâ"
+          ],
+          "explanation": "'Asâ Zaydun an yakhruja, « peut-être Zayd sortira-t-il »."
+        },
+        {
+          "prompt": "Dans awshaka Zaydun yajî'u, le livre emploie…",
+          "options": [
+            "pas de an devant le verbe",
+            "an devant le verbe",
+            "lam",
+            "lan"
+          ],
+          "explanation": "Les exemples du livre donnent karaba et awshaka sans an."
+        },
+        {
+          "prompt": "La plupart des grammairiens comptent le verbe qui les suit comme…",
+          "options": [
+            "leur agent",
+            "leur prédicat, en position de nasb",
+            "un hâl",
+            "un tamyîz"
+          ],
+          "explanation": "Ils rangent ces verbes avec kâna : un nom au raf', un prédicat en position de nasb."
+        }
+      ],
+      "diagram": {
+        "caption": "Les verbes d'approche (p. 4) : « an ? » donne l'usage habituel des livres ultérieurs, les exemples sont ceux du livre",
+        "labels": {
+          "The verbs of approach (p. 4): “an?” gives the usual practice of later books, the examples are the book's own": "Les verbes d'approche (p. 4) : « an ? » donne l'usage habituel des livres ultérieurs, les exemples sont ceux du livre",
+          "Verb": "Verbe",
+          "Meaning": "Sens",
+          "an?": "an ?",
+          "The book's example": "Exemple du livre",
+          "perhaps (hope)": "peut-être (espoir)",
+          "mostly with": "le plus souvent avec",
+          "was about to": "était sur le point de",
+          "mostly without": "le plus souvent sans",
+          "was near to": "était près de",
+          "was on the point of": "était sur le point de (awshaka)"
+        }
+      },
+      "text": [
+        "La onzième sorte : les verbes d'approche (af'âl al-muqâraba), qui mettent un seul nom au raf'. Ce sont quatre verbes : 'asâ, kâda, karaba et awshaka, comme 'asâ Zaydun an yakhruja « peut-être Zayd sortira-t-il », kâda Zaydun an yakhruja « Zayd était sur le point de sortir », karaba Zaydun yakhruju « Zayd était près de sortir » et awshaka Zaydun yajî'u « Zayd était sur le point de venir »."
+      ]
+    },
+    "12": {
+      "title": "La douzième sorte : les verbes de l'éloge et du blâme",
+      "body": [
+        "La douzième sorte, ce sont quatre verbes de l'éloge et du blâme, ni'ma, bi'sa, sâ'a et habbadhâ, qui « mettent au raf' le nom générique rendu défini par le lâm » : ni'ma al-rajulu Zaydun, « quel excellent homme que Zayd ! » ; bi'sa al-rajulu 'Amrun, « quel mauvais homme que 'Amr ! » ; sâ'a al-rajulu Bakrun, « quel méchant homme que Bakr ! » ; habbadhâ al-rajulu Zaydun, « quel homme aimable que Zayd ! ». Ni'ma et habbadhâ louent ; bi'sa et sâ'a blâment.",
+        "La phrase a trois parties. Le verbe, ni'ma ; son agent, al-rajulu, un nom générique (ism jins) avec al-, « l'homme » au sens de l'homme comme espèce ; et celui qui est visé par l'éloge, Zaydun, appelé al-makhsûs bi-l-madh (ou bi-l-dhamm). Le verbe loue l'espèce, et le dernier nom nomme celui qui est visé.",
+        "Le livre ne nomme que l'agent, que le verbe régit. Zaydun est aussi au raf', et les commentateurs en donnent deux lectures : c'est un sujet (mubtada') dont le prédicat est la phrase qui le précède, ni'ma al-rajulu ; ou c'est le prédicat d'un sujet omis, « c'est Zayd ».",
+        "Ces verbes ne changent pas : ni'ma et bi'sa n'ont ni mudâri' ni impératif, et ils ne gardent leur sens d'éloge et de blâme qu'à cette forme. Habbadhâ est deux mots joints : le verbe habba, « être cher », et dhâ, « ceci » ; Ibn Mâlik nomme dhâ comme son agent (al-fâ'ilu dhâ). Le livre le compte avec ni'ma parce qu'il loue de la même manière.",
+        "Un piège : Zaydun n'est pas l'agent de ni'ma, bien que ce soit le nom dont parle la phrase. L'agent est al-rajulu ; Zaydun est celui qui est visé. Et sâ'a n'est pas ici le sâ'a de la parole courante, « cela a affligé », avec sa conjugaison complète ; dans cet emploi, il agit comme bi'sa."
+      ],
+      "terms": [
+        "les verbes de l'éloge et du blâme",
+        "celui qui est visé par l'éloge (ou le blâme)",
+        "un nom générique, qui nomme une espèce",
+        "« quel excellent… ! » et « quel mauvais… ! »"
+      ],
+      "examples": [
+        "ni'ma al-rajulu Zaydun, « quel excellent homme que Zayd ! »",
+        "bi'sa al-rajulu 'Amrun, « quel mauvais homme que 'Amr ! »",
+        "habbadhâ al-rajulu Zaydun, « quel homme aimable que Zayd ! »",
+        "sâ'a al-rajulu Bakrun, « quel méchant homme que Bakr ! »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le verbe, son agent et celui qui est visé dans bi'sa al-rajulu 'Amrun.",
+          "answer": "Bi'sa est le verbe du blâme ; al-rajulu son agent, au raf' ; 'Amrun celui qui est visé par le blâme, au raf' lui aussi."
+        },
+        {
+          "prompt": "Pourquoi est-ce al-rajulu, et non 'Amrun, qui est l'agent de bi'sa ?",
+          "answer": "Le livre dit que ces verbes mettent au raf' le nom générique avec le lâm : le verbe blâme l'espèce, « l'homme », comme son agent. 'Amrun vient après pour nommer celui qui est visé ; c'est le makhsûs."
+        },
+        {
+          "prompt": "Donnez les deux lectures de Zaydun dans ni'ma al-rajulu Zaydun.",
+          "answer": "(1) Un sujet (mubtada'), avec ni'ma al-rajulu devant lui comme prédicat. (2) Le prédicat d'un sujet omis : « [c'est] Zayd ». Dans les deux, il est au raf'."
+        },
+        {
+          "prompt": "Quels deux mots forment habbadhâ, et lequel est son agent selon Ibn Mâlik ?",
+          "answer": "Le verbe habba, « être cher », et dhâ, « ceci ». Ibn Mâlik nomme dhâ comme agent."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quels verbes louent ?",
+          "options": [
+            "Ni'ma et habbadhâ",
+            "Bi'sa et sâ'a",
+            "Ni'ma et bi'sa",
+            "Sâ'a et habbadhâ"
+          ],
+          "explanation": "Ni'ma et habbadhâ louent ; bi'sa et sâ'a blâment."
+        },
+        {
+          "prompt": "L'agent de ni'ma dans ni'ma al-rajulu Zaydun est…",
+          "options": [
+            "Zaydun",
+            "al-rajulu",
+            "un pronom caché",
+            "ni'ma lui-même"
+          ],
+          "explanation": "Le verbe met au raf' le nom générique avec le lâm."
+        },
+        {
+          "prompt": "Dans le livre, l'agent de ces verbes est un nom générique…",
+          "options": [
+            "laissé indéfini",
+            "au nasb",
+            "rendu défini par le lâm",
+            "au jarr"
+          ],
+          "explanation": "Al-rajulu, avec al-."
+        },
+        {
+          "prompt": "Zaydun dans ni'ma al-rajulu Zaydun s'appelle…",
+          "options": [
+            "l'agent",
+            "le complément d'objet",
+            "le tamyîz",
+            "celui qui est visé par l'éloge"
+          ],
+          "explanation": "Al-makhsûs bi-l-madh : il nomme celui qui est visé."
+        },
+        {
+          "prompt": "Bi'sa al-rajulu 'Amrun signifie…",
+          "options": [
+            "quel mauvais homme que 'Amr !",
+            "'Amr n'est pas un homme",
+            "'Amr est devenu mauvais",
+            "peut-être 'Amr est-il mauvais"
+          ],
+          "explanation": "Bi'sa est le verbe du blâme."
+        },
+        {
+          "prompt": "Dans habbadhâ, l'agent, comme le dit Ibn Mâlik, est…",
+          "options": [
+            "habba",
+            "dhâ",
+            "al-rajulu",
+            "Zaydun"
+          ],
+          "explanation": "« Al-fâ'ilu dhâ » : habba est le verbe, dhâ son agent."
+        },
+        {
+          "prompt": "Combien de verbes compte la douzième sorte ?",
+          "options": [
+            "Sept",
+            "Treize",
+            "Quatre",
+            "Deux"
+          ],
+          "explanation": "Ni'ma, bi'sa, sâ'a et habbadhâ."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trois parties de la phrase d'éloge ; les deux lectures de celui qui est visé sont celles des commentateurs.",
+        "labels": {
+          "The three parts of the sentence of praise; the two readings of the one singled out are the commentators'.": "Les trois parties de la phrase d'éloge ; les deux lectures de celui qui est visé sont celles des commentateurs.",
+          "Its doer (fāʿil)": "Son agent (fâ'il)",
+          "niʿma al-rajulu Zaydun": "ni'ma al-rajulu Zaydun",
+          "The verb of praise": "Le verbe de l'éloge",
+          "The one singled out": "Celui qui est visé",
+          "a subject (mubtadaʾ), or": "un sujet (mubtada'), ou",
+          "a predicate (khabar)": "un prédicat (khabar)"
+        }
+      },
+      "text": [
+        "La douzième sorte : les verbes de l'éloge et du blâme (af'âl al-madh wa-al-dhamm), qui mettent au raf' le nom générique rendu défini par le lâm. Ce sont quatre verbes : ni'ma, bi'sa, sâ'a et habbadhâ, comme ni'ma al-rajulu Zaydun « quel excellent homme que Zayd ! », bi'sa al-rajulu 'Amrun « quel mauvais homme que 'Amr ! », sâ'a al-rajulu Bakrun « quel méchant homme que Bakr ! » et habbadhâ al-rajulu Zaydun « quel homme aimable que Zayd ! »."
+      ]
+    },
+    "13": {
+      "title": "La treizième sorte : les verbes du doute et de la certitude",
+      "body": [
+        "La dernière sorte entendue, ce sont sept verbes « du doute et de la certitude » qui « viennent devant deux noms, dont le second se rapporte au premier, et les mettent tous deux au nasb » : hasibtu, zanantu, khiltu, ra'aytu, 'alimtu, wajadtu et za'amtu. Les deux noms étaient un sujet et son prédicat : Zaydun fâdilun, « Zayd est excellent », devient hasibtu Zaydan fâdilan, « j'ai estimé Zayd excellent ». « Le second se rapporte au premier » signifie que le second dit quelque chose de la même personne : l'excellent, c'est Zayd.",
+        "Le livre les donne à la première personne, hasibtu « j'ai estimé », zanantu « j'ai pensé », parce que c'est ainsi qu'on les emploie : celui qui parle rapporte son propre jugement. Les commentateurs les divisent selon la force de ce jugement : hasibtu, zanantu, khiltu et za'amtu pour le doute ou l'opinion ; ra'aytu, 'alimtu et wajadtu pour la certitude. Des livres ultérieurs les appellent tous « verbes du cœur » (af'âl al-qulûb), puisqu'ils nomment ce qui se passe dans l'esprit.",
+        "Lisez les exemples en gardant cela à l'esprit. Zanantu Bakran nâ'iman, « j'ai pensé Bakr endormi », est une opinion ; 'alimtu Zaydan amînan, « j'ai su Zayd digne de confiance », est une connaissance. Za'amtu, « j'ai prétendu », se dit d'un jugement qui peut fort bien être faux, et l'exemple du livre lui convient : za'amtu al-shaytâna shakûran, « j'ai prétendu Satan reconnaissant ». Les grammairiens appellent le premier nom le premier complément d'objet (al-maf'ûl al-awwal) et le second le second complément d'objet (al-maf'ûl al-thânî).",
+        "Ra'aytu n'est pas ici voir avec l'œil : ra'aytu Zaydan 'âqilan, c'est « j'ai vu Zayd sensé », un jugement de l'esprit, avec deux compléments d'objet. Voir avec l'œil prend un seul complément d'objet, comme dans la première sorte : ra'aytu al-qawma, « j'ai vu les gens ». Wajadtu aussi signifie « je l'ai trouvé être » : wajadtu al-bayta rahînan, « j'ai trouvé la maison mise en gage ».",
+        "Un piège : le second nom au nasb ressemble à un hâl, un mot d'état, mais on ne peut l'omettre. Zanantu Zaydan seul ne dit pas ce que j'ai pensé de Zayd ; la phrase a besoin de fâdilan ou de nâ'iman pour être complète. C'est pourquoi les deux noms sont des compléments d'objet du verbe."
+      ],
+      "terms": [
+        "les verbes du doute et de la certitude",
+        "les verbes du cœur : leur nom ultérieur",
+        "le premier et le second complément d'objet",
+        "la certitude"
+      ],
+      "examples": [
+        "hasibtu Zaydan fâdilan, « j'ai estimé Zayd excellent » : les deux noms au nasb",
+        "zanantu Bakran nâ'iman, « j'ai pensé Bakr endormi » : une opinion",
+        "'alimtu Zaydan amînan, « j'ai su Zayd digne de confiance » : la certitude",
+        "ra'aytu al-qawma, « j'ai vu les gens » : voir avec l'œil, un seul complément d'objet"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les deux compléments d'objet dans zanantu Bakran nâ'iman, et la phrase de sujet et de prédicat dont ils viennent.",
+          "answer": "Bakran est le premier complément d'objet, nâ'iman le second ; les deux sont au nasb. Ils viennent de Bakrun nâ'imun, « Bakr est endormi »."
+        },
+        {
+          "prompt": "Combien de compléments d'objet ra'aytu a-t-il dans ra'aytu Zaydan 'âqilan, et combien dans ra'aytu al-qawma ? Pourquoi ?",
+          "answer": "Deux dans le premier : c'est un jugement de l'esprit, « j'ai vu Zayd sensé », un verbe de certitude. Un seul dans le second : c'est voir avec l'œil, « j'ai vu les gens »."
+        },
+        {
+          "prompt": "Rangez les sept verbes entre le doute et la certitude.",
+          "answer": "Doute ou opinion : hasibtu, zanantu, khiltu, za'amtu. Certitude : ra'aytu, 'alimtu, wajadtu."
+        },
+        {
+          "prompt": "Pourquoi fâdilan dans hasibtu Zaydan fâdilan n'est-il pas un hâl ?",
+          "answer": "Un hâl peut être omis sans gâter la phrase ; fâdilan ne le peut pas. Hasibtu Zaydan seul ne dit pas ce que je l'ai estimé être. Fâdilan est le second complément d'objet, l'ancien prédicat de Zaydun fâdilun."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Les verbes du doute et de la certitude mettent…",
+          "options": [
+            "le premier au raf' et le second au nasb",
+            "les deux noms au nasb",
+            "les deux au raf'",
+            "le second au jarr"
+          ],
+          "explanation": "Hasibtu Zaydan fâdilan : deux compléments d'objet au nasb."
+        },
+        {
+          "prompt": "Combien de verbes compte la treizième sorte ?",
+          "options": [
+            "Quatre",
+            "Treize",
+            "Sept",
+            "Neuf"
+          ],
+          "explanation": "Hasibtu, zanantu, khiltu, ra'aytu, 'alimtu, wajadtu et za'amtu."
+        },
+        {
+          "prompt": "« Le second se rapporte au premier » signifie…",
+          "options": [
+            "le second est un pronom",
+            "le second vient en premier",
+            "le second est au jarr",
+            "le second dit quelque chose de la même chose"
+          ],
+          "explanation": "Dans hasibtu Zaydan fâdilan, l'excellent, c'est Zayd."
+        },
+        {
+          "prompt": "Quel verbe est un verbe de certitude ?",
+          "options": [
+            "'Alimtu",
+            "Zanantu",
+            "Khiltu",
+            "Hasibtu"
+          ],
+          "explanation": "Ra'aytu, 'alimtu et wajadtu sont pour la certitude."
+        },
+        {
+          "prompt": "Dans 'alimtu Zaydan amînan, amînan est…",
+          "options": [
+            "un hâl",
+            "le second complément d'objet",
+            "un tamyîz",
+            "l'agent"
+          ],
+          "explanation": "Zaydan est le premier complément d'objet, amînan le second."
+        },
+        {
+          "prompt": "Dans ra'aytu al-qawma, ra'aytu signifie…",
+          "options": [
+            "juger, avec deux compléments d'objet",
+            "douter",
+            "voir avec l'œil, avec un seul complément d'objet",
+            "prétendre"
+          ],
+          "explanation": "Seul le ra'aytu de l'esprit prend deux compléments d'objet."
+        },
+        {
+          "prompt": "De quelle phrase est fait hasibtu Zaydan fâdilan ?",
+          "options": [
+            "Zaydan fâdilun",
+            "fâdilun Zaydan",
+            "Zaydin fâdilin",
+            "Zaydun fâdilun"
+          ],
+          "explanation": "Un sujet et un prédicat, mis tous deux au nasb par le verbe."
+        }
+      ],
+      "diagram": {
+        "caption": "Les sept verbes selon la force du jugement, comme les divisent les commentateurs (p. 5)",
+        "labels": {
+          "The seven verbs by the strength of the judgment, as the commentators divide them (p. 5)": "Les sept verbes selon la force du jugement, comme les divisent les commentateurs (p. 5)",
+          "Doubt and certainty: 7": "Doute et certitude : 7",
+          "Doubt, opinion": "Doute, opinion",
+          "ḥasibtu: I reckoned": "hasibtu : j'ai estimé",
+          "ẓanantu: I thought": "zanantu : j'ai pensé",
+          "khiltu: I imagined": "khiltu : je me suis figuré",
+          "zaʿamtu: I claimed": "za'amtu : j'ai prétendu",
+          "Certainty": "Certitude",
+          "raʾaytu: I saw (judged)": "ra'aytu : j'ai vu (jugé)",
+          "ʿalimtu: I knew": "'alimtu : j'ai su",
+          "wajadtu: I found": "wajadtu : j'ai trouvé"
+        }
+      },
+      "text": [
+        "La treizième sorte : les verbes du doute et de la certitude (af'âl al-shakk wa-al-yaqîn), qui viennent devant deux noms, dont le second se rapporte au premier, et les mettent tous deux au nasb. Ce sont sept verbes : hasibtu « j'ai estimé », zanantu « j'ai pensé », khiltu « je me suis figuré », ra'aytu « j'ai vu », 'alimtu « j'ai su », wajadtu « j'ai trouvé » et za'amtu « j'ai prétendu ».",
+        "Comme hasibtu Zaydan fâdilan « j'ai estimé Zayd excellent », zanantu Bakran nâ'iman « j'ai pensé Bakr endormi », khiltu Khâlidan qâ'iman « je me suis figuré Khâlid debout », ra'aytu Zaydan 'âqilan « j'ai vu Zayd sensé », 'alimtu Zaydan amînan « j'ai su Zayd digne de confiance », wajadtu al-bayta rahînan « j'ai trouvé la maison mise en gage » et za'amtu al-shaytâna shakûran « j'ai prétendu Satan reconnaissant »."
+      ]
+    },
+    "14": {
+      "title": "Les sept régissants analogiques",
+      "body": [
+        "Après les quatre-vingt-onze régissants entendus viennent sept régissants analogiques (qiyâsiyya). Ce ne sont pas des mots isolés, mais des catégories de mots : tout mot qui appartient à la catégorie régit par la règle, sans être énuméré. Ainsi « le verbe en général » (al-fi'l 'alâ al-itlâq) est un seul régissant, bien qu'il couvre des verbes sans nombre : tout verbe régit son agent, et un verbe transitif régit aussi son complément d'objet.",
+        "Le verbe donne le raf' à son agent et, s'il est transitif, le nasb à son complément d'objet : daraba Zaydun 'Amran, « Zayd a frappé 'Amr ». Quatre autres sont des noms tirés des verbes qui agissent comme agissent leurs verbes. Le Nahw-i Mîr, lu avant ce livre, donne un exemple de chacun : le participe actif, Zaydun dâribun abûhu 'Amran, « Zayd, son père frappe 'Amr », où dârib fait ce que fait daraba ; le participe passif, Zaydun madrûbun abûhu, « Zayd, son père est frappé » ; l'adjectif assimilé (al-sifa al-mushabbaha), un adjectif d'une qualité durable, Zaydun hasanun ghulâmuhu, « Zayd, son serviteur est beau » ; et le masdar, a'jabanî darbu Zaydin 'Amran, « que Zayd ait frappé 'Amr m'a plu ».",
+        "Les deux derniers concernent les noms. « Le nom annexé à un autre nom », l'annexé (mudâf), met le second au jarr : yâ 'Abda Allâhi, yawmi al-jumu'ati, et le titre mi'atu 'âmilin. « Tout nom qui est complet et n'a pas besoin d'annexion » met son tamyîz au nasb : un nom est complet quand il finit par le tanwîn ou par un nûn et ne peut donc être joint à ce qui le suit, comme tis'ûna dans ahadun wa-tis'ûna 'âmilan. La huitième sorte a donné quatre de ces noms par leur nom ; ici, la règle les couvre tous.",
+        "Voilà ce que donne un régissant analogique : une fois que vous savez que le participe actif agit comme son verbe, chaque participe actif de chaque verbe est un régissant. C'est pourquoi il n'y en a que sept, et pourquoi on les apprend comme des règles, non comme des listes. Des livres ultérieurs, dont le Nahw-i Mîr, ajoutent les conditions dans lesquelles chacun agit : le participe actif, par exemple, agit quand il signifie le présent ou le futur et s'appuie sur un mot qui le précède, comme un sujet (Zaydun dâribun…).",
+        "Un piège : ne comptez pas deux fois l'action d'un verbe. Dans daraba Zaydun 'Amran, il y a un seul régissant, daraba, pour Zaydun comme pour 'Amran. Et un annexé peut lui-même être régi : dans yâ 'Abda Allâhi, 'Abda est régi par yâ et régit Allâhi."
+      ],
+      "terms": [
+        "les régissants analogiques : des catégories qui régissent par une règle",
+        "le participe actif et le participe passif",
+        "l'adjectif assimilé, d'une qualité durable",
+        "le nom annexé à un autre, qui le met au jarr",
+        "le nom complet, qui met son tamyîz au nasb"
+      ],
+      "examples": [
+        "daraba Zaydun 'Amran, « Zayd a frappé 'Amr » : le verbe, avec son agent et son complément d'objet",
+        "Zaydun dâribun abûhu 'Amran (Nahw-i Mîr) : le participe actif agit comme daraba",
+        "a'jabanî darbu Zaydin 'Amran (Nahw-i Mîr) : le masdar agit comme son verbe",
+        "ahadun wa-tis'ûna 'âmilan : tis'ûna, complet avec son nûn, régit son tamyîz"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le régissant analogique du mot entre crochets : daraba Zaydun ['Amran] ; Zaydun hasanun [ghulâmuhu] ; yawmi [al-jumu'ati] ; tis'ûna ['âmilan].",
+          "answer": "'Amran : le verbe daraba (nasb, son complément d'objet). Ghulâmuhu : l'adjectif assimilé hasanun (raf'). Al-jumu'ati : l'annexé yawmi (jarr). 'Âmilan : le nom complet tis'ûna (nasb, comme tamyîz)."
+        },
+        {
+          "prompt": "Dans a'jabanî darbu Zaydin 'Amran, que régit le masdar darb, et comment montre-t-il qu'il agit comme son verbe ?",
+          "answer": "Darbu est joint à Zaydin, celui qui frappe, qui est au jarr par l'idâfa, et il met 'Amran, celui qui est frappé, au nasb comme son complément d'objet, comme le ferait le verbe daraba."
+        },
+        {
+          "prompt": "Pourquoi n'y a-t-il que sept régissants analogiques, alors que les entendus sont quatre-vingt-onze ?",
+          "answer": "Chaque régissant analogique est une catégorie avec une règle (tout verbe, tout participe actif…), si bien qu'une seule règle couvre des mots sans nombre. Les régissants entendus n'ont pas de règle et doivent être comptés un par un."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de régissants analogiques le livre compte-t-il ?",
+          "options": [
+            "Neuf",
+            "Quatre-vingt-onze",
+            "Sept",
+            "Deux"
+          ],
+          "explanation": "Le verbe, l'adjectif assimilé, les deux participes, le masdar, l'annexé et le nom complet."
+        },
+        {
+          "prompt": "Un régissant analogique est…",
+          "options": [
+            "un seul mot entendu des Arabes",
+            "un régissant qui n'est pas un mot",
+            "une particule du jarr",
+            "une catégorie de mots qui régit par une règle"
+          ],
+          "explanation": "Tout mot qui appartient à la catégorie régit, sans être énuméré."
+        },
+        {
+          "prompt": "Dans daraba Zaydun 'Amran, qu'est-ce qui régit 'Amran ?",
+          "options": [
+            "Le verbe daraba",
+            "Zaydun",
+            "L'ibtidâ'",
+            "Rien"
+          ],
+          "explanation": "Le verbe donne le raf' à son agent et le nasb à son complément d'objet."
+        },
+        {
+          "prompt": "L'annexé met le nom qui le suit au…",
+          "options": [
+            "nasb",
+            "jarr",
+            "raf'",
+            "jazm"
+          ],
+          "explanation": "Yawmi al-jumu'ati, mi'atu 'âmilin."
+        },
+        {
+          "prompt": "Le nom complet régit…",
+          "options": [
+            "le nom suivant au jarr",
+            "deux compléments d'objet",
+            "son tamyîz au nasb",
+            "un verbe au jazm"
+          ],
+          "explanation": "Tis'ûna, complet avec son nûn, met 'âmilan au nasb."
+        },
+        {
+          "prompt": "Al-sifa al-mushabbaha est…",
+          "options": [
+            "une particule semblable à laysa",
+            "un nom de verbe",
+            "un verbe de l'éloge",
+            "un adjectif d'une qualité durable qui agit comme son verbe"
+          ],
+          "explanation": "Zaydun hasanun ghulâmuhu : hasan donne le raf' à ghulâmuhu."
+        },
+        {
+          "prompt": "Dans a'jabanî darbu Zaydin 'Amran, 'Amran est au nasb par…",
+          "options": [
+            "le masdar darb",
+            "le verbe a'jaba",
+            "Zaydin",
+            "un verbe caché"
+          ],
+          "explanation": "Le masdar agit comme son verbe daraba et prend un complément d'objet."
+        }
+      ],
+      "diagram": {
+        "caption": "Les sept régissants analogiques (p. 5) ; les exemples des participes, de l'adjectif et du masdar sont ceux du Nahw-i Mîr",
+        "labels": {
+          "The seven analogical governors (p. 5); the examples of the participles, the adjective and the maṣdar are Naḥw-i Mīr's": "Les sept régissants analogiques (p. 5) ; les exemples des participes, de l'adjectif et du masdar sont ceux du Nahw-i Mîr",
+          "Governor": "Régissant",
+          "It governs": "Il régit",
+          "Example": "Exemple",
+          "the verb": "le verbe",
+          "doer in rafʿ, object in naṣb": "l'agent au raf', le complément d'objet au nasb",
+          "the resembling adjective": "l'adjectif assimilé",
+          "a noun in rafʿ": "un nom au raf'",
+          "the active participle": "le participe actif",
+          "as its verb": "comme son verbe",
+          "the passive participle": "le participe passif",
+          "as its passive verb": "comme son verbe passif",
+          "the maṣdar": "le masdar",
+          "the muḍāf": "l'annexé",
+          "the next noun in jarr": "le nom suivant au jarr",
+          "the complete noun": "le nom complet",
+          "its tamyīz in naṣb": "son tamyîz au nasb"
+        }
+      },
+      "text": [
+        "Et les analogiques sont sept régissants : le verbe en général ; l'adjectif assimilé (al-sifa al-mushabbaha) ; le participe actif ; le participe passif ; le masdar ; le nom qui est annexé à un autre nom ; et tout nom qui est complet et n'a pas besoin d'annexion."
+      ]
+    },
+    "15": {
+      "title": "Les deux régissants abstraits",
+      "body": [
+        "Le livre se termine sur deux régissants qui ne sont pas du tout des mots : « ils n'ont pas de régissant visible dans l'énonciation ». Toute finale a une cause ; quand aucun mot ne se tient devant un nom ou un verbe pour la causer, les grammairiens nomment une cause dans le sens, un régissant abstrait (ma'nawî).",
+        "Le premier régit le sujet et le prédicat : « le début » (al-ibtidâ'), le fait pour un nom d'être placé en tête d'une phrase, libre de tout régissant exprimé, afin que quelque chose soit dit de lui. Dans Zaydun fî al-dâri, « Zayd est dans la maison », aucun mot ne vient avant Zaydun ; l'ibtidâ' le met au raf'. Le livre fait de l'ibtidâ' le régissant du sujet et du prédicat ensemble. C'est une opinion parmi plusieurs : Ibn Mâlik en suit une autre, selon laquelle le sujet est mis au raf' par l'ibtidâ' et le prédicat par le sujet.",
+        "Le second régit le mudâri' au raf' : « le fait qu'il occupe la place du nom » (wuqû'uhu bi-mawqi'i al-ism). Yadribu dans Zaydun yadribu, « Zayd frappe », se tient là où un nom pourrait se tenir, comme dans Zaydun dâribun, et c'est ce qui le met au raf'. C'est l'opinion des grammairiens de Bassora. Al-Farrâ' et d'autres Koufiens disent que le mudâri' est au raf' parce qu'il est libre de tout régissant du nasb ou du jazm ; Ibn Mâlik les suit dans son Alfiyya.",
+        "Avec ces deux, le système est clos. Toute finale a maintenant une cause : l'un des quatre-vingt-onze régissants entendus, l'un des sept analogiques, ou l'un de ces deux. Un élève qui analyse Zaydun fî al-dâri dit que Zaydun est un sujet, au raf' par l'ibtidâ' ; analysant Zaydun yadribu, il dit que yadribu est au raf' parce qu'il occupe la place d'un nom. Quand lam vient, lam yadrib Zaydun, un régissant exprimé est entré, et l'abstrait cède la place.",
+        "Le livre finit par tammat, « c'est achevé » : cent régissants en quelques pages. Le livre de nahw suivant de la voie indienne, la Hidâyat al-nahw, reprend la même matière dans l'ordre du nom, du verbe et de la particule, avec des définitions et des raisons."
+      ],
+      "terms": [
+        "le régissant abstrait : non visible dans l'énonciation",
+        "le début : le fait pour un nom de se tenir en tête de la phrase",
+        "le sujet et le prédicat",
+        "le fait qu'il occupe la place du nom : ce qui met le mudâri' au raf'"
+      ],
+      "examples": [
+        "Zaydun fî al-dâri, « Zayd est dans la maison » : Zaydun au raf' par l'ibtidâ'",
+        "Zaydun yadribu, « Zayd frappe » : yadribu au raf', occupant la place d'un nom",
+        "lam yadrib Zaydun : un régissant exprimé est entré, et le verbe est au jazm"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez le régissant de chaque mot dans Zaydun fî al-dâri, tel que ce livre les compte.",
+          "answer": "Zaydun : l'ibtidâ', un régissant abstrait (raf'). Al-dâri : fî, une particule du jarr de la première sorte (jarr). Le prédicat, fî al-dâri, est lui aussi régi par l'ibtidâ' dans l'opinion du livre."
+        },
+        {
+          "prompt": "Pourquoi yadribu est-il au raf' dans Zaydun yadribu, et pourquoi ne l'est-il pas dans lam yadrib Zaydun ?",
+          "answer": "Dans Zaydun yadribu, aucun mot ne le régit ; il se tient là où un nom pourrait se tenir (Zaydun dâribun), et ce régissant abstrait le met au raf'. Dans lam yadrib Zaydun, la particule lam, un régissant exprimé, est entrée et l'a mis au jazm."
+        },
+        {
+          "prompt": "Donnez l'opinion de Bassora et celle de Koufa sur ce qui met le mudâri' au raf'.",
+          "answer": "Bassora, l'opinion de ce livre : le fait qu'il occupe la place d'un nom. Koufa (al-Farrâ'), suivie par Ibn Mâlik : le fait qu'il est libre de tout régissant du nasb ou du jazm."
+        },
+        {
+          "prompt": "Résumez les cent régissants du livre par leurs divisions.",
+          "answer": "Quatre-vingt-dix-huit exprimés et deux abstraits. Les exprimés : quatre-vingt-onze entendus, en treize sortes (six de particules, trois de noms, quatre de verbes), et sept analogiques. Les abstraits : l'ibtidâ', et le fait pour le mudâri' d'occuper la place d'un nom."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien y a-t-il de régissants abstraits ?",
+          "options": [
+            "Sept",
+            "Un",
+            "Treize",
+            "Deux"
+          ],
+          "explanation": "L'ibtidâ', et le fait pour le mudâri' d'occuper la place d'un nom."
+        },
+        {
+          "prompt": "Dans le livre, le régissant du sujet et du prédicat est…",
+          "options": [
+            "l'ibtidâ'",
+            "le verbe kâna",
+            "la particule inna",
+            "le prédicat"
+          ],
+          "explanation": "Le fait pour le nom de se tenir en tête de la phrase."
+        },
+        {
+          "prompt": "Un régissant abstrait est…",
+          "options": [
+            "une particule",
+            "non visible dans l'énonciation",
+            "un verbe inusité",
+            "un nom de condition"
+          ],
+          "explanation": "« Ils n'ont pas de régissant visible dans l'énonciation. »"
+        },
+        {
+          "prompt": "Dans le livre, qu'est-ce qui met le mudâri' au raf' ?",
+          "options": [
+            "Son préfixe",
+            "Le sujet qui le précède",
+            "Le fait qu'il occupe la place d'un nom",
+            "Lam"
+          ],
+          "explanation": "Wuqû'uhu mawqi'a al-ism, l'opinion de Bassora."
+        },
+        {
+          "prompt": "Al-Farrâ' et les Koufiens disent que le mudâri' est au raf' parce que…",
+          "options": [
+            "il occupe la place d'un nom",
+            "il suit un nom",
+            "il commence par un préfixe",
+            "il est libre de tout régissant du nasb ou du jazm"
+          ],
+          "explanation": "Ibn Mâlik suit cette opinion dans l'Alfiyya."
+        },
+        {
+          "prompt": "Dans Zaydun fî al-dâri, qu'est-ce qui met Zaydun au raf' ?",
+          "options": [
+            "L'ibtidâ'",
+            "Fî",
+            "Al-dâri",
+            "Rien : il est fixe"
+          ],
+          "explanation": "Aucun mot ne se tient devant lui ; le fait d'être placé en premier le régit."
+        },
+        {
+          "prompt": "Combien de régissants le livre compte-t-il en tout ?",
+          "options": [
+            "Quatre-vingt-onze",
+            "Cent",
+            "Soixante",
+            "Quatre-vingt-dix-huit"
+          ],
+          "explanation": "Quatre-vingt-onze entendus, sept analogiques et deux abstraits."
+        }
+      ],
+      "diagram": {
+        "caption": "Les deux régissants abstraits (p. 5), avec les autres opinions",
+        "labels": {
+          "The two abstract governors (p. 5), with the other views": "Les deux régissants abstraits (p. 5), avec les autres opinions",
+          "Abstract governor": "Régissant abstrait",
+          "It governs": "Il régit",
+          "Example": "Exemple",
+          "Another view": "Une autre opinion",
+          "الِابْتِدَاءُ the beginning": "الِابْتِدَاءُ le début",
+          "the subject and the predicate": "le sujet et le prédicat",
+          "the subject governs the predicate (Ibn Mālik)": "le sujet régit le prédicat (Ibn Mâlik)",
+          "وُقُوعُهُ بِمَوْقِعِ الِاسْمِ standing in a noun's place": "وُقُوعُهُ بِمَوْقِعِ الِاسْمِ occuper la place d'un nom",
+          "the muḍāriʿ, in rafʿ": "le mudâri', au raf'",
+          "being free of naṣb and jazm (al-Farrāʾ, the Kūfans)": "être libre du nasb et du jazm (al-Farrâ', les Koufiens)"
+        }
+      },
+      "text": [
+        "Et les abstraits sont au nombre de deux : le régissant du sujet et du prédicat (al-mubtada' wa-al-khabar), qui est le début (al-ibtidâ') ; et le régissant du mudâri', qui est le fait qu'il occupe la place du nom. Ils n'ont pas de régissant visible dans l'énonciation. C'est achevé."
+      ]
+    }
+  }
+}

@@ -300,3 +300,8 @@ keep that file in step with this list. The layout follows the English source lis
   Arabic pattern stands in parentheses (fa'la (فَعْلَى), if'anla (افْعَنْلَى)). The two letters ح and ه are both
   written ha', so the Arabic letter follows: ha' (ح), ha' (ه).
 - The radicals are fa' fi'il, 'ain fi'il and lam fi'il; plain “lam” is the particle لَمْ.
+- The tense ḥāl (in the Mizan ash-Sharf, beside madhi and mustaqbal) is “al-hal (waktu sekarang)”, then “waktu
+  sekarang”; “hal” stays reserved for ḥāl, and the everyday “matter” is “perkara”. Book names added in round 2:
+  al-'Awamil al-Jadidah (the Birgivi 'Awamil, title), al-'Awamil al-Mi'ah, Mizan ash-Sharf; the author Mehmed Birgivi.
+- Look-alikes met in the Mizan: [tatsniyah], [jamak] and [pr.] beside a twin form (la taf'ula [tatsniyah], fa'ilatun
+  [jamak]); [dengan alif] / [dengan ya'] for mif'al [dengan alif] (مِفْعَالٌ) and mafa'ilu [dengan ya'] (مَفَاعِيلُ).

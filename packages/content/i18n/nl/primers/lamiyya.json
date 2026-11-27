@@ -1,0 +1,2138 @@
+{
+ "parts": {
+  "bare-verb": "De patronen van het kale werkwoord en hun vervoegingen",
+  "augmented-verb": "Het vermeerderde werkwoord, de mudari', het passief en de gebiedende wijs",
+  "participles": "De patronen van de deelwoorden",
+  "masdars": "De patronen van de masdars",
+  "mafal": "Maf'al en maf'il, maf'ala en het werktuig"
+ },
+ "lessons": {
+  "1": {
+   "title": "De opening: wie het werkwoord beheerst",
+   "body": [
+    "De Lamiyyat al-af'al is een gedicht van Ibn Malik (gest. 672/1274), de auteur van de Alfiyya, over de vormen van het werkwoord en de naamwoorden die eruit gemaakt worden. Het heeft 114 verzen in het metrum dat basit heet, en elk vers eindigt op hetzelfde rijm, lam met een lange a: badala, al-amala, al-fudala. Een gedicht dat op lam rijmt, is een lamiyya; dit is “de lamiyya van de werkwoorden”.",
+    "Het begint zoals zulke gedichten beginnen: met lof aan God, “ik zoek er geen vervanging voor”, en zegen over “de beste der schepselen”, de Profeet, zijn familie en zijn metgezellen. Dan, na wa-ba'du, het onderwerp: “het werkwoord: wie zijn vervoeging beheerst, wint van de taal haar hoofdstukken en haar wegen”. Het werkwoord is de spil van de sarf: de deelwoorden, de masdars en de naamwoorden van plaats en werktuig die de tweede helft van het gedicht vullen, worden er allemaal uit genomen.",
+    "De tweede regel van de opening noemt de methode van elk leerdicht (nazm): “neem een gedicht dat omvat wat ertoe doet; en de bijzonderheden kan begrijpen wie de samenvattingen in gedachten houdt”. De verzen zijn korte samenvattingen, om uit het hoofd te leren; de bijzonderheden worden ontvouwd door een leraar of een commentaar. De Lamiyya is zo beknopt dat zij bijna altijd met een commentaar gelezen wordt, en de lessen hier doen hetzelfde werk: elk neemt een paar verzen en vouwt ze open.",
+    "Enkele gewoonten van het vers om te kennen voor je verder leest. Een woord kan over de twee helften van een regel verdeeld zijn (we schrijven de helften met “ * ” ertussen). Een hamza wordt soms voor het metrum weggelaten, en haar klinker gaat naar de letter ervoor (aw en aydan worden dan met een kale alif geschreven). Een patroon wordt vaak genoemd met een voorbeeldwerkwoord in plaats van met zijn naam, en lijsten van werkwoorden worden gegeven met een woord van betekenis (“dat wil zeggen …”) zodat de juiste betekenis bedoeld is.",
+    "Onze tekst is de Caïrese druk van 1896, een verzameling van de veelgebruikte mutun; hij heeft bijna geen klinkertekens, dus zijn de klinkers van ons, vastgesteld door het metrum en, vanaf vers 62 en op twijfelachtige plaatsen, door de uitgave van W. Volck van 1866 met het commentaar van Badr al-Din, de zoon van Ibn Malik."
+   ],
+   "terms": [
+    "een gedicht waarvan elk vers op lam rijmt",
+    "het metrum van het gedicht: mustaf'ilun fa'ilun [met lange a], tweemaal in elke helft",
+    "het berijmen: een leertekst in verzen gezet om uit het hoofd te leren",
+    "de vervoeging van het werkwoord: zijn omzetting in zijn vormen",
+    "de samenvattingen en de bijzonderheden"
+   ],
+   "examples": [
+    "al-hamdu li-llahi la abghi bihi badala: de eerste halve regel, eindigend op het rijm -la",
+    "fa-l-fi'lu man yuhkim tasarrufahu: “het werkwoord: wie zijn vervoeging beheerst”",
+    "de bijzonderheden kan begrijpen wie de samenvattingen in gedachten houdt"
+   ],
+   "tasks": [
+    {
+     "prompt": "Verklaar de naam Lamiyyat al-af'al.",
+     "answer": "Een lamiyya is een gedicht waarvan elk vers op lam rijmt; dit gaat over de werkwoorden (al-af'al): “het op lam rijmende gedicht van de werkwoorden”. Elk vers eindigt op -la."
+    },
+    {
+     "prompt": "Verdeel de eerste halve regel in zijn vier voeten.",
+     "answer": "Al-hamdu lil- (mustaf'ilun), lahi la (fa'ilun [met lange a]), abghi bihi (mustaf'ilun), badala (fa'ilun [met korte a]): het metrum basit."
+    },
+    {
+     "prompt": "Wat zegt het gedicht over zijn eigen methode, en hoe moet het bestudeerd worden?",
+     "answer": "Het is een gedicht dat omvat wat ertoe doet, en wie de samenvattingen in gedachten houdt, kan de bijzonderheden begrijpen. Dus worden de verzen als samenvattingen uit het hoofd geleerd, en de bijzonderheden worden er met een leraar of een commentaar uit gehaald."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wie schreef de Lamiyyat al-af'al?",
+     "options": [
+      "Ibn Ajurrum",
+      "Ibn Malik",
+      "al-Zanjani",
+      "Ibn Hisham"
+     ],
+     "explanation": "De auteur van de Alfiyya, gest. 672/1274."
+    },
+    {
+     "prompt": "Waarom heet het een lamiyya?",
+     "options": [
+      "Het begint met lam",
+      "Het gaat over de lam van het bevel",
+      "Elk vers rijmt op lam",
+      "De naam van zijn auteur heeft een lam"
+     ],
+     "explanation": "Badala, al-amala, al-fudala …"
+    },
+    {
+     "prompt": "Zijn metrum is…",
+     "options": [
+      "al-rajaz",
+      "al-tawil",
+      "al-kamil",
+      "al-basit"
+     ],
+     "explanation": "Mustaf'ilun fa'ilun [met lange a] mustaf'ilun fa'ilun [met korte a] in elke helft."
+    },
+    {
+     "prompt": "Hoeveel verzen heeft het gedicht?",
+     "options": [
+      "114",
+      "1000",
+      "52",
+      "144"
+     ],
+     "explanation": "Onze druk en de uitgave van Volck tellen er 114."
+    },
+    {
+     "prompt": "Wie de vervoeging van het werkwoord beheerst, zegt het gedicht, wint…",
+     "options": [
+      "alleen de regels van de nahw",
+      "de hoofdstukken en wegen van de taal",
+      "de betekenis van de Koran",
+      "het rijm"
+     ],
+     "explanation": "Yahuz min al-lughati al-abwaba wa-l-subula."
+    },
+    {
+     "prompt": "Wie kan volgens de opening de bijzonderheden begrijpen?",
+     "options": [
+      "Wie snel leest",
+      "Wie de nahw kent",
+      "Wie de samenvattingen in gedachten houdt",
+      "Wie verzen schrijft"
+     ],
+     "explanation": "De verzen zijn samenvattingen om uit het hoofd te leren."
+    },
+    {
+     "prompt": "Wiens commentaar staat in de uitgave van Volck?",
+     "options": [
+      "Ibn Hisham",
+      "al-Akhdari",
+      "Sibawayh",
+      "Badr al-Din, de zoon van de dichter"
+     ],
+     "explanation": "Ibn Malik's Lamiyya mit Badraddin's Commentar, Leipzig 1866."
+    }
+   ],
+   "diagram": {
+    "caption": "De eerste halve regel ingedeeld in het metrum basit",
+    "labels": {
+     "Foot": "Voet",
+     "Syllables": "Lettergrepen",
+     "Measure": "Maat",
+     "al-ḥam-du lil-": "al-ham-du lil-",
+     "long long short long": "lang lang kort lang",
+     "mustafʿilun": "mustaf'ilun",
+     "lā-hi lā": "la-hi la",
+     "long short long": "lang kort lang",
+     "fāʿilun": "fa'ilun [met lange a]",
+     "ab-ghī bi-hī": "ab-ghi bi-hi",
+     "ba-da-lā": "ba-da-la",
+     "short short long": "kort kort lang",
+     "faʿilun": "fa'ilun [met korte a]"
+    }
+   }
+  },
+  "2": {
+   "title": "De vier kale patronen, en de mudari' van fa'ula en fa'ila",
+   "body": [
+    "Het kale werkwoord, begint Ibn Malik, komt op fa'lala, op fa'ula, “met een kasra op de 'ayn” (fa'ila), of op fa'ala. Het patroon van vier letters komt eerst, dan de drie madi's van het drieletterige werkwoord, alleen te onderscheiden door de klinker van de 'ayn. Dahraja yudahriju is het model van fa'lala, zoals de Ottomaanse boeken het opzeggen.",
+    "Dan de mudari'. “Houd de damma van fa'ula in de mudari'”: karuma yakrumu, u in beide. “En geef een fatha aan de plaats van de kasra in wat van fa'ila gebouwd is”: 'alima ya'lamu, de kasra van de madi veranderd in een fatha. Dit zijn twee regels zonder uitzonderingen voor fa'ula, en met uitzonderingen voor fa'ila, die meteen volgen.",
+    "“Twee manieren zijn erin” bij een groep fa'ila-werkwoorden, waarvan de mudari' een fatha of een kasra mag nemen: hasiba (genoemd met zijn bevel ihsib), waghira, hara, na'ima (in'im), ba'isa, ya'isa, waliha (iwlah), yabisa en wahila. Met de vervoegingsengine: yahsabu en yahsibu, yan'amu en yan'imu.",
+    "“En houd alleen de kasra” bij een andere groep: waritha, waliya, warima, wari'a, wamiqa, wafiqa, wathiqa en wariya al-mukhkhu, “het merg was vol”. Dit zijn fa'ila yaf'ilu, de zeldzame bab van hasiba. Kijk ernaar: elk ervan begint met een waw. Het zijn mithal-werkwoorden, en hun waw valt in de toekomende vorm weg voor de kasra (yarithu, yamiqu), zoals de Marah uitlegt; de Marah noemt wamiqa yamiqu als een van de babs van de mithal.",
+    "Let op hoe het vers de werkwoorden noemt: sommige met de madi op -ta (waghirta, hirta, ba'ista), sommige met het bevel (ihsib, in'im, iwlah), sommige met de kale madi (yabis, wahila). De vorm wordt gekozen voor het metrum; wat telkens bedoeld is, is het werkwoord en zijn wortel."
+   ],
+   "terms": [
+    "het kale werkwoord: al zijn letters zijn stamletters",
+    "het patroon van het kale vierletterige werkwoord",
+    "de twee manieren: een mudari' toegestaan met fatha of met kasra",
+    "alleen de kasra houden: fa'ila yaf'ilu"
+   ],
+   "examples": [
+    "houd de damma van fa'ula in de mudari'",
+    "karuma yakrumu, 'alima ya'lamu (vervoegingsengine)",
+    "de twee manieren van hasiba en na'ima (vervoegingsengine)",
+    "warima, wari'ta, wamiqta: fa'ila met alleen de kasra"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de vier kale patronen zoals het gedicht ze opsomt, en de mudari' van fa'ula en fa'ila.",
+     "answer": "Fa'lala, fa'ula, fa'ila (“met een kasra op de 'ayn”) en fa'ala. Fa'ula houdt zijn damma in de mudari' (yaf'ulu); fa'ila verandert zijn kasra in een fatha (yaf'alu)."
+    },
+    {
+     "prompt": "Geef de twee toekomende vormen van hasiba en na'ima met de vervoegingsengine.",
+     "answer": "Yahsabu en yahsibu; yan'amu en yan'imu (يَحْسَبُ، يَحْسِبُ، يَنْعَمُ، يَنْعِمُ): deze fa'ila-werkwoorden hebben de twee manieren."
+    },
+    {
+     "prompt": "Wat hebben de werkwoorden van de lijst met alleen de kasra gemeen, en wat volgt daaruit voor hun toekomende vorm?",
+     "answer": "Alle beginnen met een waw (waritha, waliya, warima, wari'a, wamiqa, wafiqa, wathiqa, wariya): het zijn mithal-werkwoorden op fa'ila yaf'ilu, en hun waw valt in de toekomende vorm weg voor de kasra."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welk patroon noemt het gedicht eerst?",
+     "options": [
+      "fa'ala",
+      "fa'ila",
+      "fa'lala",
+      "fa'ula"
+     ],
+     "explanation": "Bi-fa'lala al-fi'lu dhu al-tajridi …"
+    },
+    {
+     "prompt": "De mudari' van fa'ula heeft…",
+     "options": [
+      "een fatha",
+      "een kasra",
+      "een van beide",
+      "een damma op de 'ayn"
+     ],
+     "explanation": "Karuma yakrumu."
+    },
+    {
+     "prompt": "In de mudari' van fa'ila wordt de kasra…",
+     "options": [
+      "een fatha",
+      "een damma",
+      "een sukun",
+      "niets: zij blijft"
+     ],
+     "explanation": "'Alima ya'lamu, als regel."
+    },
+    {
+     "prompt": "Welk werkwoord heeft de twee manieren in zijn mudari'?",
+     "options": [
+      "waritha",
+      "hasiba",
+      "karuma",
+      "'alima"
+     ],
+     "explanation": "Yahsabu en yahsibu."
+    },
+    {
+     "prompt": "Welk werkwoord houdt alleen de kasra?",
+     "options": [
+      "na'ima",
+      "ya'isa",
+      "wamiqa",
+      "'alima"
+     ],
+     "explanation": "Wamiqa yamiqu, fa'ila yaf'ilu."
+    },
+    {
+     "prompt": "De werkwoorden die alleen de kasra houden, beginnen alle met…",
+     "options": [
+      "een hamza",
+      "een ya'",
+      "een keelletter",
+      "een waw"
+     ],
+     "explanation": "Waritha, waliya, warima, wari'a …"
+    },
+    {
+     "prompt": "Waarom noemt het vers ihsib en in'im met hun bevel?",
+     "options": [
+      "Voor het metrum: de vorm doet er niet toe, het werkwoord wel",
+      "Omdat het alleen bevelen zijn",
+      "Omdat ze passief zijn",
+      "Omdat ze onregelmatig zijn"
+     ],
+     "explanation": "Het gedicht gebruikt de vorm van het werkwoord die in de regel past."
+    }
+   ],
+   "diagram": {
+    "caption": "Het kale werkwoord en de klinker van zijn mudari' (Lamiyya vv. 5–9; vormen uit de vervoegingsengine en de Maqsud)",
+    "labels": {
+     "Past": "Madi",
+     "Muḍāriʿ": "Mudari'",
+     "Examples": "Voorbeelden",
+     "faʿlala": "fa'lala",
+     "yufaʿlilu": "yufa'lilu",
+     "faʿula": "fa'ula",
+     "yafʿulu": "yaf'ulu",
+     "faʿila": "fa'ila",
+     "yafʿalu": "yaf'alu",
+     "faʿila, two ways": "fa'ila, twee manieren",
+     "yafʿalu or yafʿilu": "yaf'alu of yaf'ilu",
+     "faʿila, kasra alone": "fa'ila, alleen kasra",
+     "yafʿilu": "yaf'ilu",
+     "faʿala": "fa'ala",
+     "see the next lessons": "zie de volgende lessen"
+    }
+   }
+  },
+  "3": {
+   "title": "De mudari' van fa'ala: zwakke letters en het verdubbelde werkwoord",
+   "body": [
+    "Fa'ala, de gewoonste madi, kan elk van de drie klinkers nemen in zijn mudari', en het gedicht zegt nu wat beslist. “Houd een kasra voor de 'ayn van de mudari' die op fa'ala volgt” in vier soorten: met een waw als fa' (wa'ada ya'idu), met een ya' als 'ayn (ba'a yabi'u), “zoals ata”, met een ya' als lam (rama yarmi), en het verdubbelde werkwoord “wanneer het onovergankelijk is”, zoals hanna tala, “een jong verlangde”.",
+    "“En geef een damma aan de 'ayn van zijn overgankelijke”: het verdubbelde werkwoord dat een voorwerp neemt, heeft yaf'ulu. De voorbeelden van de Marah tonen het paar: sarra yasurru, “verblijden” (iemand), en farra yafirru, “vluchten”, dat geen voorwerp neemt. De mudari' van een verdubbeld werkwoord wordt dus herkend aan zijn overgankelijkheid.",
+    "Beide regels hebben zeldzame uitzonderingen: “een met kasra is zeldzaam”, een overgankelijk werkwoord met yaf'ilu; “zoals een onovergankelijk met damma is toegestaan”. Het eerste is habbahu, “hij had hem lief”, met yaf'ilu. Sommige hebben “twee manieren”: harra, “hij had een afkeer”, shadda, “hij bond”, en 'allahu 'alalan, “hij gaf hem een tweede dronk”, en batta, “hij sneed”. De onovergankelijke met damma zijn de lange lijst van de volgende les.",
+    "Waarom beslissen zwakke letters? Een waw als fa' valt weg voor de kasra van yaf'ilu (ya'idu), en die kasra is waaraan de mithal herkend wordt; een ya' als 'ayn of lam houdt zijn ya' alleen na een kasra (yabi'u, yarmi), waar een damma hem in een waw zou veranderen. De klinker van de mudari' wordt dus niet vrij gekozen: de zwakke letters van de wortel trekken eraan.",
+    "Onthoud de eerste helft van het beeld: fa'ala neemt yaf'ilu met een waw als fa', een ya' als 'ayn, een ya' als lam, of verdubbeling zonder voorwerp; yaf'ulu met verdubbeling en een voorwerp. De rest van fa'ala is het onderwerp van les 5 en 6."
+   ],
+   "terms": [
+    "onovergankelijk: een werkwoord dat geen voorwerp neemt",
+    "overgankelijk: een werkwoord dat een voorwerp neemt",
+    "het verdubbelde werkwoord: zijn 'ayn en lam gelijk",
+    "“zoals ata”: een werkwoord waarvan de lam een ya' is"
+   ],
+   "examples": [
+    "ka-hanna tala: een verdubbeld onovergankelijk werkwoord met kasra",
+    "de drie zwakke soorten met yaf'ilu (de Marah)",
+    "overgankelijk met damma, onovergankelijk met kasra (de Marah)",
+    "habbahu: een overgankelijk werkwoord met kasra, zeldzaam"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de vier soorten fa'ala die de kasra in de mudari' houden, met een voorbeeld van elk.",
+     "answer": "Met een waw als fa' (wa'ada ya'idu); met een ya' als 'ayn (ba'a yabi'u); met een ya' als lam, zoals ata (rama yarmi); en het verdubbelde werkwoord wanneer het onovergankelijk is (hanna, zoals farra yafirru)."
+    },
+    {
+     "prompt": "Wat beslist over de klinker van de mudari' van een verdubbeld werkwoord? Gebruik sarra en farra.",
+     "answer": "De overgankelijkheid: het overgankelijke neemt een damma (sarra yasurru, “iemand verblijden”), het onovergankelijke een kasra (farra yafirru, “vluchten”)."
+    },
+    {
+     "prompt": "Welke verdubbelde werkwoorden zijn in deze verzen uitzonderingen?",
+     "answer": "Habbahu, een overgankelijk werkwoord met een kasra (zeldzaam); en, met twee manieren, harra, shadda, 'alla (in 'allahu 'alalan) en batta."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Fa'ala met een waw als fa' heeft een mudari' op…",
+     "options": [
+      "yaf'ulu",
+      "yaf'alu",
+      "een van beide",
+      "yaf'ilu"
+     ],
+     "explanation": "Wa'ada ya'idu."
+    },
+    {
+     "prompt": "“Zoals ata” staat voor fa'ala met…",
+     "options": [
+      "een ya' als lam",
+      "een hamza als fa'",
+      "een waw als 'ayn",
+      "verdubbeling"
+     ],
+     "explanation": "Ata ya'ti, zoals rama yarmi."
+    },
+    {
+     "prompt": "Een verdubbeld onovergankelijk fa'ala neemt…",
+     "options": [
+      "yaf'ulu",
+      "yaf'ilu",
+      "yaf'alu",
+      "geen mudari'"
+     ],
+     "explanation": "Hanna tala, zoals farra yafirru in de Marah."
+    },
+    {
+     "prompt": "Een verdubbeld overgankelijk fa'ala neemt…",
+     "options": [
+      "yaf'ilu",
+      "yaf'alu",
+      "yaf'ulu",
+      "altijd een van beide"
+     ],
+     "explanation": "Sarra yasurru."
+    },
+    {
+     "prompt": "Habbahu, “hij had hem lief”, is…",
+     "options": [
+      "een onovergankelijk werkwoord met damma",
+      "een werkwoord met twee manieren",
+      "niet verdubbeld",
+      "een zeldzaam overgankelijk werkwoord met kasra"
+     ],
+     "explanation": "“Een met kasra is zeldzaam.”"
+    },
+    {
+     "prompt": "Welk werkwoord heeft volgens deze verzen twee manieren?",
+     "options": [
+      "harra",
+      "hanna",
+      "farra",
+      "wa'ada"
+     ],
+     "explanation": "Harra, shadda en 'alla."
+    },
+    {
+     "prompt": "Ba'a yabi'u houdt de kasra omdat zijn…",
+     "options": [
+      "fa' een waw is",
+      "'ayn een ya' is",
+      "lam een waw is",
+      "'ayn een keelletter is"
+     ],
+     "explanation": "Een ya' als 'ayn houdt yaf'ilu."
+    }
+   ],
+   "diagram": {
+    "caption": "Wanneer de mudari' van fa'ala kasra of damma heeft (Lamiyya vv. 9–12; voorbeelden uit de Marah in de Ottomaanse druk)",
+    "labels": {
+     "Kind of faʿala": "Soort fa'ala",
+     "Muḍāriʿ": "Mudari'",
+     "Example": "Voorbeeld",
+     "wāw as fāʾ": "waw als fa'",
+     "yafʿilu": "yaf'ilu",
+     "yāʾ as ʿayn": "ya' als 'ayn",
+     "yāʾ as lām, like atā": "ya' als lam, zoals ata",
+     "doubled, intransitive": "verdubbeld, onovergankelijk",
+     "doubled, transitive": "verdubbeld, overgankelijk",
+     "yafʿulu": "yaf'ulu",
+     "doubled, transitive, rare": "verdubbeld, overgankelijk, zeldzaam"
+    }
+   }
+  },
+  "4": {
+   "title": "Verdubbelde werkwoorden die de regel breken",
+   "body": [
+    "Drie verzen sommen de onovergankelijke verdubbelde werkwoorden op die tegen de regel een damma nemen (yaf'ulu, niet yaf'ilu), en dan de werkwoorden met beide klinkers. De eerste halve regel, “geef een damma aan namma … samen met de onovergankelijkheid”, klopt in onze druk niet met het metrum, en de uitgave van Volck leest hem anders; we geven hem zoals hij gedrukt is. De lijst die hij opent, is duidelijk: umrur bihi, “ga langs hem”, jalla “zoals jala”, “hij emigreerde”, habbat, “de wind waaide”, dharrat, “de zon kwam op”, ajja, “het vuur laaide op”, karra, “hij keerde terug om aan te vallen”, hamma bihi, “hij nam het zich voor”, 'amma, zamma, sahha, “het stroomde”, en meer.",
+    "Sommige woorden dragen een glosse met ay, “dat wil zeggen”: malla ay dhamala, “hij ging in een vlot tempo”; shadda ay 'ada, “hij rende”; ghalla ay dakhala, “hij ging binnen”; thalla ay ratha. De glosse is belangrijk, omdat hetzelfde werkwoord in een andere betekenis de regel volgt: shadda “hij bond”, overgankelijk, hoorde bij de werkwoorden met twee manieren van vers 12; shadda “hij rende”, onovergankelijk, neemt hier de damma. De lijst gaat verder met qashsha, janna, “de nacht bedekte hem”, rashsha en tashsha, “de wolk sprenkelde, motregende”, talla, “bloed bleef ongewroken”, khabba, “het paard draafde”, kamma en 'assat, “de kamelin was zuinig met haar melk”.",
+    "Dan “neem de twee manieren” van sadda, “hij keerde zich af”, atta (de lezing van de druk; Volck heeft aththa), kharra, “de rots viel met een klap”, haddat, “zij rouwde”, tharrat en darrat, “de uier, de melk stroomde”, jadda, jamma, shabba, “het paard steigerde”, 'anna, “het verscheen”, fahhat, “de slang siste”, en, in het volgende vers, shattat al-daru, nassa en harra. Shahha ay bakhila, “hij was gierig”, wordt als onregelmatig aangemerkt. (Ook vers 15 is onzeker: “sarkhan” in onze druk, “sawtan” bij Volck.)",
+    "Hoe moet een student zulke lijsten gebruiken? Hij leert ze uit het hoofd zoals hij het vers leert, en daarmee de betekenissen die de glossen vastleggen; het commentaar geeft de mudari' van elk werkwoord. De regel blijft eenvoudig, en de lijst bevat zijn uitzonderingen: het verdubbelde werkwoord neemt yaf'ulu als het overgankelijk is en yaf'ilu als het onovergankelijk is, behalve de werkwoorden die hier genoemd worden.",
+    "De vervoegingsengine vervoegt geen verdubbelde werkwoorden, en onze druk geeft voor deze geen toekomende vormen, dus noemt de les ze alleen met hun madi."
+   ],
+   "terms": [
+    "het onregelmatige, zoals shahha in de betekenis van bakhila",
+    "“dat wil zeggen”: de glosse die de bedoelde betekenis vastlegt",
+    "de twee manieren: yaf'ulu en yaf'ilu beide toegestaan",
+    "samen met de onovergankelijkheid: de voorwaarde van de lijst met damma"
+   ],
+   "examples": [
+    "habbat, dharrat, ajja, karra, hamma bihi: onovergankelijke met damma",
+    "malla ay dhamala: de glosse die de betekenis vastlegt",
+    "khabba al-hisanu: “het paard draafde”",
+    "haddat, tharrat: twee manieren"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom voegt het gedicht “dat wil zeggen 'ada” toe na shadda?",
+     "answer": "Om de betekenis vast te leggen: shadda in de betekenis “hij rende” is onovergankelijk en staat bij de damma; shadda in de betekenis “hij bond” is overgankelijk en werd bij de werkwoorden met twee manieren gerekend. De glosse zegt welk werkwoord bedoeld is."
+    },
+    {
+     "prompt": "Geef de regel voor de mudari' van het verdubbelde werkwoord en de twee soorten uitzondering die deze verzen opsommen.",
+     "answer": "Overgankelijk neemt yaf'ulu, onovergankelijk yaf'ilu. Deze verzen noemen onovergankelijke die tegen de regel yaf'ulu nemen (habbat, dharrat, ajja …) en werkwoorden die met beide klinkers toegestaan zijn (sadda, kharra, haddat …)."
+    },
+    {
+     "prompt": "Welke lezingen in deze verzen zijn onzeker, en hoe worden ze gegeven?",
+     "answer": "De eerste helft van vers 13 klopt in de druk niet met het metrum, en Volck leest hem anders; vers 15 heeft sarkhan in onze druk en sawtan bij Volck; vers 18 heeft atta, waar Volck aththa heeft. Ze worden gegeven zoals de druk ze heeft."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Habbat, dharrat en ajja worden genoemd als…",
+     "options": [
+      "onovergankelijke met damma",
+      "overgankelijke met kasra",
+      "werkwoorden met twee manieren",
+      "onregelmatige werkwoorden met hamza"
+     ],
+     "explanation": "Uitzonderingen op de kasra van het onovergankelijke."
+    },
+    {
+     "prompt": "Malla wordt verklaard als…",
+     "options": [
+      "bakhila",
+      "dhamala, “hij ging in een vlot tempo”",
+      "dakhala",
+      "'ada"
+     ],
+     "explanation": "Malla ay dhamala."
+    },
+    {
+     "prompt": "Ghalla wordt verklaard als…",
+     "options": [
+      "'ada",
+      "ratha",
+      "dakhala, “hij ging binnen”",
+      "dhamala"
+     ],
+     "explanation": "Ghalla ay dakhala."
+    },
+    {
+     "prompt": "Khabba al-hisanu betekent…",
+     "options": [
+      "het paard steigerde",
+      "de regen stroomde",
+      "de nacht viel",
+      "het paard draafde"
+     ],
+     "explanation": "Een van de onovergankelijke met damma."
+    },
+    {
+     "prompt": "Haddat en tharrat horen bij…",
+     "options": [
+      "de werkwoorden met twee manieren",
+      "de lijst met damma",
+      "de zeldzame overgankelijke",
+      "de onregelmatige"
+     ],
+     "explanation": "“Neem de twee manieren van …”"
+    },
+    {
+     "prompt": "Welk werkwoord wordt als onregelmatig aangemerkt?",
+     "options": [
+      "hanna",
+      "shahha in de betekenis van bakhila",
+      "sarra",
+      "farra"
+     ],
+     "explanation": "Wa-shadhdha shahha ay bakhila."
+    },
+    {
+     "prompt": "Waarom de glosse in shadda ay 'ada?",
+     "options": [
+      "Alleen voor het rijm",
+      "Om het passief te tonen",
+      "Hetzelfde werkwoord in een andere betekenis volgt een andere regel",
+      "Omdat 'ada een verdubbeld werkwoord is"
+     ],
+     "explanation": "Shadda “bond” hoorde bij de werkwoorden met twee manieren."
+    }
+   ],
+   "diagram": {
+    "caption": "De mudari' van het verdubbelde werkwoord: regel en uitzonderingen (Lamiyya vv. 10–20)",
+    "labels": {
+     "Group": "Groep",
+     "Muḍāriʿ": "Mudari'",
+     "Some verbs": "Enkele werkwoorden",
+     "intransitive, by rule": "onovergankelijk, volgens de regel",
+     "yafʿilu": "yaf'ilu",
+     "intransitive, listed exceptions": "onovergankelijk, genoemde uitzonderingen",
+     "yafʿulu": "yaf'ulu",
+     "listed, both ways": "genoemd, beide manieren",
+     "yafʿilu or yafʿulu": "yaf'ilu of yaf'ulu",
+     "transitive, by rule": "overgankelijk, volgens de regel",
+     "transitive, rare exception": "overgankelijk, zeldzame uitzondering"
+    }
+   }
+  },
+  "5": {
+   "title": "Fa'ala met een waw, werkwoorden van wedijver, en de keelletters",
+   "body": [
+    "Nu de damma. “De mudari' van fa'altu, als er de waw is als zijn 'ayn of als zijn lam, wordt gebracht met een damma op de 'ayn”: qala yaqulu, ghaza yaghzu. De reden is het spiegelbeeld van die van de kasra: een waw houdt zijn letter na een damma, zoals een ya' dat doet na een kasra.",
+    "“En deze regel is gegeven aan wat op een wedijver in roem wijst”: het werkwoord van het overtreffen, wanneer je zegt dat je met iemand wedijverde in een eigenschap en hem versloeg (de grammatici noemen het mughalaba). Zijn mudari' neemt een damma, wat zijn gewone bab ook is, mits het “niet heeft wat vraagt dat de 'ayn noodzakelijk een kasra heeft”: een waw als fa', of een ya' als 'ayn of lam, houdt zelfs hier de kasra.",
+    "Dan de fatha. “Een fatha op [de 'ayn van de mudari' van] een werkwoord dat een keelletter heeft anders dan zijn eerste, is overgeleverd van al-Kisa'i in deze soort”: bij de werkwoorden van wedijver stond hij de fatha van de keelletter toe. “Bij andere dan deze”, buiten de wedijver, neemt het werkwoord waarvan de 'ayn of lam een keelletter is een fatha “met algemene instemming”, zoals yas'alu van sa'ala, en yaftahu van fataha.",
+    "“Anders dan zijn eerste”: een keelletter als fa' telt niet ('atala, les 6). En de fatha is alleen de regel “als het niet verdubbeld is en niet bekend is met een kasra of een damma”: bagha heeft een ghayn maar is yabghi, en dakhala heeft een kha' maar is yadkhulu, omdat het gebruik ze heeft vastgelegd.",
+    "Voor fa'ala geeft het gedicht dus een volgorde van oorzaken: eerst een zwakke letter of verdubbeling, dan de wedijver, dan een keelletter, en boven alle het gebruik. De volgende les geeft wat overblijft wanneer geen van deze van toepassing is."
+   ],
+   "terms": [
+    "wedijver: het werkwoord van iemand overtreffen in een eigenschap, met yaf'ulu",
+    "de keelletters, die een fatha brengen",
+    "de Kufische grammaticus en Koranlezer, wiens opvatting het gedicht overlevert",
+    "bekend zijn: vast gebruik, dat boven de regels gaat"
+   ],
+   "examples": [
+    "qala yaqulu, yaghzu: waw als 'ayn of lam (de Marah)",
+    "'an al-Kisa'i: de fatha bij de werkwoorden van wedijver",
+    "een keelletter met fatha; dakhala bekend met damma (vervoegingsengine)",
+    "ka-yabghi: een keelletter, maar bekend met kasra"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke soorten fa'ala nemen volgens deze verzen een damma in de mudari'?",
+     "answer": "Die met een waw als 'ayn of lam (qala yaqulu, ghaza yaghzu), en de werkwoorden van wedijver (mughalaba), tenzij een oorzaak de kasra eist."
+    },
+    {
+     "prompt": "Wanneer brengt een keelletter een fatha, en wanneer niet?",
+     "answer": "Wanneer hij de 'ayn of de lam van fa'ala is (sa'ala yas'alu, fataha yaftahu), terwijl het werkwoord niet verdubbeld is en niet met een andere klinker bekend is. Een keelletter als fa' telt niet; yabghi en yadkhulu houden de klinker die het gebruik ze geeft."
+    },
+    {
+     "prompt": "Wat levert het gedicht over van al-Kisa'i?",
+     "answer": "Dat bij de werkwoorden van wedijver een keelletter (anders dan de eerste) een fatha kan brengen, waar anderen de damma van de wedijver houden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Fa'ala met een waw als 'ayn neemt…",
+     "options": [
+      "yaf'ilu",
+      "yaf'ulu",
+      "yaf'alu",
+      "een van beide"
+     ],
+     "explanation": "Qala yaqulu."
+    },
+    {
+     "prompt": "Het werkwoord van wedijver (mughalaba) neemt…",
+     "options": [
+      "altijd yaf'alu",
+      "altijd yaf'ilu",
+      "yaf'ulu, tenzij een zwakke letter kasra eist",
+      "geen mudari'"
+     ],
+     "explanation": "“Deze regel is gegeven aan wat op een wedijver wijst.”"
+    },
+    {
+     "prompt": "Wiens opvatting wordt overgeleverd over de keelletter bij werkwoorden van wedijver?",
+     "options": [
+      "Sibawayh",
+      "al-Akhfash",
+      "Yunus",
+      "al-Kisa'i"
+     ],
+     "explanation": "'An al-Kisa'i … qad hasala."
+    },
+    {
+     "prompt": "Buiten de wedijver brengt een keelletter als 'ayn of lam…",
+     "options": [
+      "een fatha, met algemene instemming",
+      "een damma",
+      "een kasra",
+      "niets"
+     ],
+     "explanation": "Zoals yas'alu van sa'ala."
+    },
+    {
+     "prompt": "Waarom brengt een keelletter als fa' geen fatha?",
+     "options": [
+      "Hij is zwak",
+      "Het gedicht zegt “anders dan zijn eerste”",
+      "Hij is verdubbeld",
+      "Hij is zeldzaam"
+     ],
+     "explanation": "Alleen de 'ayn of de lam telt."
+    },
+    {
+     "prompt": "Dakhala heeft een keelletter, maar zijn mudari' is…",
+     "options": [
+      "yadkhalu",
+      "yadkhilu",
+      "yadkhulu, bekend door het gebruik",
+      "een van beide"
+     ],
+     "explanation": "“Niet bekend met een kasra of een damma” is de voorwaarde."
+    },
+    {
+     "prompt": "Yabghi houdt zijn kasra omdat…",
+     "options": [
+      "het verdubbeld is",
+      "het een waw heeft",
+      "het een wedijver is",
+      "het met kasra bekend is"
+     ],
+     "explanation": "Het gebruik gaat boven de keelletter."
+    }
+   ],
+   "diagram": {
+    "caption": "Fa'ala: de damma en de fatha (Lamiyya vv. 20–25; vormen uit de Marah en de vervoegingsengine)",
+    "labels": {
+     "Faʿala": "Fa'ala",
+     "Muḍāriʿ": "Mudari'",
+     "Example": "Voorbeeld",
+     "wāw as ʿayn": "waw als 'ayn",
+     "yafʿulu": "yaf'ulu",
+     "wāw as lām": "waw als lam",
+     "a verb of contest": "een werkwoord van wedijver",
+     "throat letter as ʿayn or lām": "keelletter als 'ayn of lam",
+     "yafʿalu": "yaf'alu",
+     "the same, known with kasra": "hetzelfde, bekend met kasra",
+     "yafʿilu": "yaf'ilu",
+     "the same, known with ḍamma": "hetzelfde, bekend met damma"
+    }
+   }
+  },
+  "6": {
+   "title": "Kasra of damma; en het holle werkwoord met -tu en -na",
+   "body": [
+    "Wat blijft er van fa'ala over? “De 'ayn van de mudari' van fa'altu, waar hij vrij is van alles wat de fatha brengt, zoals wat van 'atala gebouwd is, geef hem een kasra of een damma, wanneer de keuze voor een van beide is weggevallen bij gebrek aan bekendheid of aan een oorzaak.” Heeft het gebruik een klinker vastgelegd, volg die; legt een zwakke letter, verdubbeling of een wedijver hem vast, volg dat; zo niet, dan zijn beide juist. 'Atala, “slepen”, is het voorbeeld: zijn keelletter is zijn eerste, die niet telt, en dus geeft de vervoegingsengine zowel ya'tilu als ya'tulu.",
+    "Het volledige antwoord van het gedicht voor fa'ala is dus: kasra met een waw als fa', een ya' als 'ayn of lam, of verdubbeling zonder voorwerp; damma met verdubbeling met voorwerp, een waw als 'ayn of lam, of een wedijver; fatha met een keelletter als 'ayn of lam; en, als dit alles ontbreekt en het gebruik ontbreekt, vrij kasra of damma.",
+    "De volgende afdeling, één vers en een half, gaat over het holle werkwoord met de voornaamwoorden -tu en -na. “Verplaats naar de fa' van het drieletterige werkwoord de klinker van de 'ayn wanneer die zwak is, en het werkwoord verbonden is met de ta' van het voornaamwoord of zijn nun”: khawifna wordt khifna, de kasra van de waw gaat naar de kha'; tawulna wordt tulna, zijn damma gaat naar de zware ta'.",
+    "“En wanneer het een fatha is, neem dan op haar plaats een klinker van de soort van die 'ayn”: qawalna en baya'na hebben een fatha op de zwakke letter, die niet verplaatst kan worden naar een fa' die er al een heeft; dus neemt de fa' de klinker die bij de zwakke letter hoort, een damma voor de waw, een kasra voor de ya': qulna, bi'na; qultu, bi'tu.",
+    "De Marah geeft dezelfde regel met al zijn stappen (zijn les over qulna en khifna); de Lamiyya zet hem in twee halve regels. Vergelijk de twee: de reden is dezelfde, dat de klinker die op de eerste letter achterblijft naar de zwakke letter wijst die is verdwenen."
+   ],
+   "terms": [
+    "gebruik en oorzaak: de twee dingen die de klinker vastleggen",
+    "de klinker van de zwakke 'ayn naar de fa' verplaatsen",
+    "de ta' en de nun van het voornaamwoord: -tu, -ta, -na",
+    "van dezelfde soort: damma voor waw, kasra voor ya'"
+   ],
+   "examples": [
+    "ka-l-mabni min 'atala: het voorbeeld van de vrije keuze",
+    "ya'tilu, ya'tulu: beide toegestaan (vervoegingsengine)",
+    "khifna, tulna: de eigen klinker van de 'ayn verplaatst (de Marah)",
+    "qultu, bi'na: een klinker van de soort van de zwakke letter (de Marah)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Wanneer mag de mudari' van fa'ala kasra of damma nemen?",
+     "answer": "Wanneer hij geen keelletter als 'ayn of lam heeft, geen zwakke letter of verdubbeling of wedijver die een klinker vastlegt, en het gebruik er geen heeft vastgelegd; zoals 'atala: ya'tilu of ya'tulu."
+    },
+    {
+     "prompt": "Vat de regels van het gedicht voor de klinker van de mudari' van fa'ala samen.",
+     "answer": "Kasra: waw als fa', ya' als 'ayn of lam, verdubbeld onovergankelijk. Damma: verdubbeld overgankelijk, waw als 'ayn of lam, een werkwoord van wedijver. Fatha: een keelletter als 'ayn of lam. Het gebruik gaat voor; als alles ontbreekt, kasra of damma."
+    },
+    {
+     "prompt": "Verklaar khifna en qulna met de regel van de verzen 27–28.",
+     "answer": "Khawifna: de zwakke 'ayn heeft een kasra, die naar de fa' gaat: khifna. Qawalna: de 'ayn heeft een fatha, die niet naar de fa' verplaatst kan worden; dus neemt de fa' de klinker van de soort van de waw, een damma: qulna."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "'Atala, “slepen”, is het voorbeeld van het gedicht voor…",
+     "options": [
+      "een fatha door een keelletter",
+      "een werkwoord van wedijver",
+      "een vrije keuze tussen kasra en damma",
+      "een verdubbeld werkwoord"
+     ],
+     "explanation": "Zijn keelletter is zijn eerste, die niet telt."
+    },
+    {
+     "prompt": "Wat gaat boven de regels voor de mudari' van fa'ala?",
+     "options": [
+      "Het metrum",
+      "Het rijm",
+      "Het meervoud",
+      "Het gebruik (shuhra)"
+     ],
+     "explanation": "“Bij gebrek aan bekendheid of aan een oorzaak.”"
+    },
+    {
+     "prompt": "In khifna is de kasra op de kha'…",
+     "options": [
+      "de eigen kasra van de zwakke 'ayn, verplaatst",
+      "van de soort van de ya'",
+      "de passieve kasra",
+      "een dialect"
+     ],
+     "explanation": "Uit khawifna."
+    },
+    {
+     "prompt": "In qulna heeft de qaf een damma omdat…",
+     "options": [
+      "het passief is",
+      "de fatha van de 'ayn vervangen wordt door een klinker van de soort van de waw",
+      "de damma van de waw verplaatst is",
+      "vanwege de wedijver"
+     ],
+     "explanation": "“Neem een klinker van de soort van die 'ayn.”"
+    },
+    {
+     "prompt": "Bi'na heeft een kasra op de ba' omdat…",
+     "options": [
+      "de 'ayn een kasra had",
+      "het passief is",
+      "de zwakke letter een ya' is",
+      "het de vrouwen is"
+     ],
+     "explanation": "De kasra hoort bij de ya'."
+    },
+    {
+     "prompt": "De regel van het verplaatsen van de klinker geldt wanneer het holle werkwoord verbonden is met…",
+     "options": [
+      "de alif van het tweevoud",
+      "de waw van het meervoud",
+      "de vrouwelijke ta'",
+      "de ta' of de nun van het voornaamwoord"
+     ],
+     "explanation": "Bi-ta al-idmari … aw nunihi."
+    },
+    {
+     "prompt": "Tulna komt van…",
+     "options": [
+      "tawulna",
+      "tawalna",
+      "tawilna",
+      "talna"
+     ],
+     "explanation": "De damma van de waw verplaatst naar de zware ta'."
+    }
+   ],
+   "diagram": {
+    "caption": "Het holle werkwoord met -tu en -na (Lamiyya vv. 27–28; vormen uit de Marah in de Ottomaanse druk, blz. 94–96)",
+    "labels": {
+     "Base": "Basis",
+     "Vowel of the ʿayn": "Klinker van de 'ayn",
+     "Form": "Vorm",
+     "Vowel of the fāʾ": "Klinker van de fa'",
+     "fatḥa": "fatha",
+     "ḍamma, of the kind of the wāw": "damma, van de soort van de waw",
+     "kasra, of the kind of the yāʾ": "kasra, van de soort van de ya'",
+     "kasra": "kasra",
+     "the kasra moved": "de kasra verplaatst",
+     "ḍamma": "damma",
+     "the ḍamma moved": "de damma verplaatst"
+    }
+   }
+  },
+  "7": {
+   "title": "De vermeerderde patronen, genoemd met een voorbeeld",
+   "body": [
+    "Het hoofdstuk over het vermeerderde werkwoord somt zijn patronen op met voorbeelden, in één reeks: “zoals a'lama komt het werkwoord met vermeerdering, met wala, walla, istaqama, ihranjama, infasala”. Lees elk werkwoord als zijn patroon: a'lama is af'ala, wala fa'ala [met alif], walla fa''ala, istaqama istaf'ala, infasala infa'ala, i'tadala ifta'ala; ihranjama is if'anlala, een vierletterig werkwoord met twee toegevoegde letters.",
+    "Sommige patronen worden met name genoemd: “if'alla, met een alif in het midden als de vierde en zonder”, dat wil zeggen if'alla [met alif] en if'alla, zoals ihmarra [met alif] en ihmarra in de Marah. Andere komen als werkwoorden: ihbayyakha, “hij liep trots”, is if'ayyala; tadahrajat is tafa'lala; ihlawla, “het was zeer zoet”, is if'aw'ala; isbatarra, “hij strekte zich uit”, is if'alalla, zoals iqsha'arra; tawalla en tawala zijn tafa''ala en tafa'ala.",
+    "Veel van de voorbeelden zijn aangehechte vormen (mulhaq), drieletterige wortels die eruit gaan zien als werkwoorden van vier letters (zie de vijfendertig babs van de Marah): jawrabat, “zij trok sokken aan”, is faw'ala; harwaltu, “ik haastte me”, fa'wala; qalnasat, “zij zette een kalotje op”, fa'nala; salqa, fa'la; tamaskana, “hij vernederde zich”, tamaf'ala; islanqa, “hij lag op zijn rug”, if'anla; ittasala is ifta'ala met zijn waw veranderd in een ta', zoals in itta'ada.",
+    "De laatste drie verzen verzamelen nog zeldzamere patronen (zahzaqtu, “ik lachte hartelijk”, baytartu, “ik werkte als hoefsmid”, intakhala, “hij zeefde”, en veel woorden die alleen een woordenboek kent). Hun klinkers in onze tekst zijn uit de patronen afgeleid en nog niet vergeleken met de uitgave van Volck, dus leer ze met je leraar; de les toetst ze niet.",
+    "Het punt van Ibn Malik met zoveel op te sommen, is dat elk patroon een klasse werkwoorden is: ihlawla kennen is weten hoe je elk if'aw'ala leest. De vervoegingsengine geeft de gewoonste van deze patronen voor gave wortels."
+   ],
+   "terms": [
+    "het vermeerderde werkwoord: stamletters met toegevoegde",
+    "de aangehechte vorm, gevormd als een werkwoord van vier letters",
+    "een patroon van letters en klinkers, hier genoemd met een voorbeeld",
+    "de patronen van de kleuren, zonder en met de alif"
+   ],
+   "examples": [
+    "zoals a'lama komt het werkwoord met vermeerdering",
+    "ihbayyakha, i'tadala: if'ayyala en ifta'ala",
+    "jawrabat, harwaltu: aangehechte vormen",
+    "tadaraba, tafaddala: tafa'ala en tafa''ala (vervoegingsengine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het patroon van elk voorbeeld: a'lama, wala, walla, istaqama, infasala.",
+     "answer": "A'lama: af'ala; wala: fa'ala [met alif]; walla: fa''ala; istaqama: istaf'ala; infasala: infa'ala."
+    },
+    {
+     "prompt": "Welke voorbeelden zijn vermeerderde vierletterige werkwoorden, en welke aangehechte vormen?",
+     "answer": "Vermeerderd vierletterig: ihranjama (if'anlala), tadahrajat (tafa'lala), isbatarra (if'alalla). Aangehechte vormen: jawrabat (faw'ala), harwaltu (fa'wala), qalnasat (fa'nala), salqa (fa'la), tamaskana (tamaf'ala), islanqa (if'anla)."
+    },
+    {
+     "prompt": "Waarom heeft ittasala een verdubbelde ta'?",
+     "answer": "Het is ifta'ala van w-s-l; de waw werd een ta' en werd samengetrokken met de ta' van het ifti'al, zoals in itta'ada."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "A'lama staat voor het patroon…",
+     "options": [
+      "fa''ala",
+      "fa'ala [met alif]",
+      "istaf'ala",
+      "af'ala"
+     ],
+     "explanation": "Het eerste voorbeeld van het vermeerderde werkwoord."
+    },
+    {
+     "prompt": "Wala staat voor…",
+     "options": [
+      "fa'ala [met alif]",
+      "af'ala",
+      "tafa'ala",
+      "fa''ala"
+     ],
+     "explanation": "Een alif na de fa'."
+    },
+    {
+     "prompt": "Istaqama staat voor…",
+     "options": [
+      "ifta'ala",
+      "istaf'ala",
+      "infa'ala",
+      "if'alla"
+     ],
+     "explanation": "Drie toegevoegde letters: hamza, sin, ta'."
+    },
+    {
+     "prompt": "I'tadala staat voor…",
+     "options": [
+      "infa'ala",
+      "tafa'ala",
+      "ifta'ala",
+      "af'ala"
+     ],
+     "explanation": "'-d-l met de ta' na de fa'."
+    },
+    {
+     "prompt": "Ihranjama is…",
+     "options": [
+      "een vermeerderd drieletterig werkwoord",
+      "een aangehechte vorm",
+      "een kaal werkwoord",
+      "een vermeerderd vierletterig werkwoord"
+     ],
+     "explanation": "If'anlala van h-r-j-m."
+    },
+    {
+     "prompt": "Jawrabat, “zij trok sokken aan”, is…",
+     "options": [
+      "een aangehechte vorm op faw'ala",
+      "een kaal vierletterig werkwoord",
+      "if'aw'ala",
+      "tafa'lala"
+     ],
+     "explanation": "Een drieletterig werkwoord met een toegevoegde waw."
+    },
+    {
+     "prompt": "Tadahrajat staat voor…",
+     "options": [
+      "tafa'ala",
+      "tafa'lala",
+      "tafa''ala",
+      "if'anlala"
+     ],
+     "explanation": "Dahraja met de ta'."
+    }
+   ],
+   "diagram": {
+    "caption": "Vermeerderde patronen genoemd met de voorbeelden van het gedicht (Lamiyya vv. 29–32; tadaraba uit de vervoegingsengine)",
+    "labels": {
+     "Example": "Voorbeeld",
+     "Pattern": "Patroon",
+     "Kind": "Soort",
+     "afʿala": "af'ala",
+     "augmented triliteral": "vermeerderd drieletterig",
+     "fāʿala": "fa'ala [met alif]",
+     "faʿʿala": "fa''ala",
+     "infaʿala": "infa'ala",
+     "iftaʿala": "ifta'ala",
+     "istafʿala": "istaf'ala",
+     "tafaʿʿala": "tafa''ala",
+     "tafāʿala": "tafa'ala",
+     "ifʿayyala": "if'ayyala",
+     "ifʿawʿala": "if'aw'ala",
+     "ifʿanlala": "if'anlala",
+     "augmented quadriliteral": "vermeerderd vierletterig",
+     "tafaʿlala": "tafa'lala",
+     "ifʿalalla": "if'alalla",
+     "fawʿala": "faw'ala",
+     "attached": "aangehecht",
+     "tamafʿala": "tamaf'ala",
+     "ifʿanlā": "if'anla"
+    }
+   }
+  },
+  "8": {
+   "title": "De voorvoegsels van de mudari', en de klinker voor de laatste",
+   "body": [
+    "“Begin de mudari' met een van de letters van na'ti”: nun, hamza, ta', ya', de vier voorvoegsels die de Marah samenbrengt in atayna. Het voorvoegsel “heeft een damma wanneer het verbonden is met het vierletterige, zonder meer”: met elk werkwoord waarvan de madi vier letters heeft, kaal of vermeerderd of aangehecht, zoals yudahriju, yukrimu, yuqatti'u, yuqatilu. “En geef het een fatha wanneer het met iets anders verbonden is”: yadribu, yastakhriju, yatafaddalu.",
+    "Een dialect zet een kasra op de voorvoegsels “anders dan de ya'” in drie soorten: “de toekomende vorm van fa'ila”, zoals ti'lamu, ni'lamu; werkwoorden die beginnen “met de verbindingshamza”, zoals tistansiru; en werkwoorden die met een toegevoegde ta' beginnen, “zoals tazakka”. De Marah geeft hetzelfde dialect, met zijn reden: de kasra herinnert aan de kasra van de madi ('alima, istansara).",
+    "“En het is ook bij de ya' overgeleverd”, bij werkwoorden zoals aba, “hij weigerde”, en bij mithal-werkwoorden met waw zoals wajila, “hij vreesde”. De bewoording van dit vers in onze druk is twijfelachtig (het klopt niet met het metrum, en de uitgave van Volck leest het anders), dus neem eruit alleen dat de ya' bij deze werkwoorden soms de kasra krijgt.",
+    "Dan de klinker voor de laatste letter, bij de vermeerderde werkwoorden van dit hoofdstuk. Het is noodzakelijk een kasra “als zijn madi geen toegevoegde ta' aan zijn begin heeft”: yukrimu, yuqatti'u, yuqatilu, yansarifu, yastakhriju. Begint de madi met een toegevoegde ta', “geef dan een fatha aan wat voor de laatste staat”: yatafaddalu, yatadarabu, yatadahraju.",
+    "Twee vragen beslissen dus over de mudari' van elk vermeerderd werkwoord: heeft de madi vier letters (dan neemt het voorvoegsel een damma)? En begint hij met een ta' (dan neemt de letter voor de laatste een fatha)? De vervoegingsengine volgt beide regels."
+   ],
+   "terms": [
+    "de voorvoegsels van de mudari': nun, hamza, ta', ya'",
+    "hier: elk werkwoord waarvan de madi vier letters heeft",
+    "de toegevoegde ta' aan het begin van tafa''ala, tafa'ala, tafa'lala",
+    "de kasra op het voorvoegsel, een dialect"
+   ],
+   "examples": [
+    "begin de mudari' met een van de letters van na'ti",
+    "het dialect met kasra op het voorvoegsel (de Marah)",
+    "ka-tazakka: een werkwoord dat met een toegevoegde ta' begint",
+    "yukrimu, yatafaddalu: kasra en fatha voor de laatste (vervoegingsengine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke voorvoegsels nemen een damma, en welke een fatha?",
+     "answer": "Een damma wanneer de madi vier letters heeft, kaal of vermeerderd (yudahriju, yukrimu, yuqatti'u, yuqatilu); een fatha bij alle andere werkwoorden (yadribu, yastakhriju, yatafaddalu)."
+    },
+    {
+     "prompt": "Bij welke werkwoorden staat een dialect een kasra op het voorvoegsel toe, en op welke voorvoegsels?",
+     "answer": "Op de voorvoegsels anders dan de ya', in de toekomende vorm van fa'ila (ti'lamu), bij werkwoorden die met een verbindingshamza beginnen (tistansiru), en bij werkwoorden die met een toegevoegde ta' beginnen (zoals tazakka)."
+    },
+    {
+     "prompt": "Geef de mudari' van istakhraja en tadaraba met de vervoegingsengine, en verklaar de klinker voor de laatste letter.",
+     "answer": "Yastakhriju, met een kasra voor de laatste, omdat de madi geen toegevoegde ta' aan zijn begin heeft; yatadarabu, met een fatha, omdat zijn madi met een toegevoegde ta' begint."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De letters van de mudari' worden samengebracht in…",
+     "options": [
+      "na'ti",
+      "hawitu al-simana",
+      "sa'altumuniha",
+      "istanjadahu"
+     ],
+     "explanation": "Nun, hamza, ta', ya'."
+    },
+    {
+     "prompt": "Het voorvoegsel van yukrimu heeft een damma omdat…",
+     "options": [
+      "het passief is",
+      "zijn madi vier letters heeft",
+      "het een keelletter heeft",
+      "het een dialect is"
+     ],
+     "explanation": "“Een damma wanneer verbonden met het vierletterige, zonder meer.”"
+    },
+    {
+     "prompt": "Het voorvoegsel van yastakhriju heeft…",
+     "options": [
+      "een damma",
+      "een kasra",
+      "een fatha",
+      "een sukun"
+     ],
+     "explanation": "Zijn madi heeft zes letters."
+    },
+    {
+     "prompt": "De kasra van het dialect op het voorvoegsel is volgens het gedicht toegestaan bij…",
+     "options": [
+      "de toekomende vorm van fa'ula",
+      "de madi",
+      "het passief",
+      "de toekomende vorm van fa'ila"
+     ],
+     "explanation": "Zoals ti'lamu, ni'lamu."
+    },
+    {
+     "prompt": "Welk voorvoegsel is als regel van die kasra uitgesloten?",
+     "options": [
+      "de ya'",
+      "de ta'",
+      "de nun",
+      "de hamza"
+     ],
+     "explanation": "“Sta voor andere dan de ya' een kasra toe.”"
+    },
+    {
+     "prompt": "De letter voor de laatste in yatafaddalu heeft…",
+     "options": [
+      "een kasra",
+      "een fatha",
+      "een damma",
+      "een sukun"
+     ],
+     "explanation": "Zijn madi begint met een toegevoegde ta'."
+    },
+    {
+     "prompt": "De letter voor de laatste in yuqatti'u heeft…",
+     "options": [
+      "een fatha",
+      "een damma",
+      "een kasra",
+      "een sukun"
+     ],
+     "explanation": "Geen toegevoegde ta' aan het begin van zijn madi."
+    }
+   ],
+   "diagram": {
+    "caption": "Het voorvoegsel en de letter voor de laatste (vervoegingsengine; dahraja uit de Maqsud in de Ottomaanse druk)",
+    "labels": {
+     "Past": "Madi",
+     "Muḍāriʿ": "Mudari'",
+     "Prefix": "Voorvoegsel",
+     "Before the last": "Voor de laatste",
+     "ḍamma": "damma",
+     "kasra": "kasra",
+     "fatḥa": "fatha"
+    }
+   }
+  },
+  "9": {
+   "title": "Het werkwoord waarvan de doener niet genoemd wordt",
+   "body": [
+    "“Als je het werkwoord aan het voorwerp toeschrijft, breng het met een damma op de eerste” letter: duriba, yudrabu. “En geef het een kasra wanneer het verbonden is met een zwakke 'ayn”: bij het holle werkwoord neemt de eerste letter een kasra, qila, bi'a, de vormen die de Marah afleidt uit quwila en buyi'a. “En zet voor de laatste, in de madi, een kasra, en een fatha in wat verder volgt”: duriba en ukrima met kasra, yudrabu en yukramu met fatha.",
+    "Twee soorten werkwoord hebben nog een damma nodig. “De derde letter van een met de verbindingshamza: geef hem daarmee een damma”, met de eerste: ustukhrija, uhtuqira, de hamza en de ta' beide met damma. “En met de ta' van de meegaandheid (mutawa'a) geef een damma aan wat erop volgt”: tufuddila, tuduriba, de ta' en de letter erna. De ta' van tafa''ala en tafa'ala heet de ta' van de meegaandheid omdat deze patronen vaak antwoorden op fa''ala en fa'ala [met alif]: degene op wie gehandeld wordt, aanvaardt de handeling.",
+    "Ten slotte de holle werkwoorden met een verbindingshamza. “Wat aan de fa' van zoiets als ba'a gegeven wordt, geef dat aan de derde van zoiets als ikhtara en inqada”: zoals ba'a bi'a maakt, maakt ikhtara ikhtira, “hij werd gekozen”, en inqada inqida, “hij werd geleid”, met de kasra op de derde letter. Het gedicht voegt eraan toe “wat het betere is”: de Marah vermeldt andere dialecten (met een zweem van damma, of met een lange u), en dit heeft de voorkeur.",
+    "Het passief heeft dus drie dingen nodig: een damma aan het begin (of een kasra, bij het holle werkwoord), de juiste klinker voor de laatste (kasra in de madi, fatha in de mudari'), en, in de lange patronen, een tweede damma op de letter die het gedicht noemt. De vervoegingsengine geeft het passief van elk gaaf patroon dat een voorwerp neemt."
+   ],
+   "terms": [
+    "het werkwoord waarvan de doener niet genoemd wordt: het passief",
+    "de ta' van de meegaandheid, van tafa''ala en tafa'ala",
+    "de verbindingshamza, waarvan de derde letter in het passief een damma neemt",
+    "het holle werkwoord, waarvan het passief een kasra op de eerste heeft"
+   ],
+   "examples": [
+    "duriba, yudrabu: damma eerst; kasra of fatha voor de laatste (vervoegingsengine)",
+    "qila, bi'a: het holle passief met kasra (de Marah)",
+    "ustukhrija, tufuddila: de tweede damma (vervoegingsengine)",
+    "ka-ikhtira alladhi fadala: zoals ikhtira, wat het betere is"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak de passieve madi en mudari' van akrama met de vervoegingsengine, en geef de regel.",
+     "answer": "Ukrima, yukramu (أُكْرِمَ، يُكْرَمُ): een damma op de eerste letter; voor de laatste een kasra in de madi, een fatha in de mudari'."
+    },
+    {
+     "prompt": "Welke letters nemen een damma in ustukhrija en in tuduriba, en waarom?",
+     "answer": "Ustukhrija: de hamza (de eerste) en de ta' (de derde letter van een werkwoord met verbindingshamza). Tuduriba: de ta' van de meegaandheid en de letter erna (de dad), waarbij de alif na de damma als lange u wordt uitgesproken."
+    },
+    {
+     "prompt": "Hoe wordt het passief van ikhtara gemaakt, en wat betekent “wat het betere is”?",
+     "answer": "Zoals ba'a bi'a geeft met een kasra op zijn fa', geeft ikhtara ikhtira met een kasra op zijn derde letter. “Het betere”: van de toegestane dialecten (met ishmam, of met een lange u) heeft de kasra de voorkeur."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het passief heeft op zijn eerste letter…",
+     "options": [
+      "een fatha",
+      "een damma (een kasra bij het holle werkwoord)",
+      "een sukun",
+      "altijd een kasra"
+     ],
+     "explanation": "Duriba; qila."
+    },
+    {
+     "prompt": "Voor de laatste heeft de passieve madi…",
+     "options": [
+      "een fatha",
+      "een damma",
+      "een kasra",
+      "een sukun"
+     ],
+     "explanation": "Duriba, ukrima."
+    },
+    {
+     "prompt": "Voor de laatste heeft de passieve mudari'…",
+     "options": [
+      "een kasra",
+      "een damma",
+      "een sukun",
+      "een fatha"
+     ],
+     "explanation": "Yudrabu, yukramu."
+    },
+    {
+     "prompt": "In ustukhrija valt de damma, behalve op de eerste, op…",
+     "options": [
+      "de derde letter",
+      "de tweede letter",
+      "de laatste letter",
+      "geen andere letter"
+     ],
+     "explanation": "“De derde letter van een met de verbindingshamza.”"
+    },
+    {
+     "prompt": "De ta' van tafa''ala heet de ta' van…",
+     "options": [
+      "het vrouwelijke",
+      "de meegaandheid (mutawa'a)",
+      "het meervoud",
+      "de toekomst"
+     ],
+     "explanation": "Met haar neemt de letter erna een damma: tufuddila."
+    },
+    {
+     "prompt": "Ikhtira, “hij werd gekozen”, heeft zijn kasra op…",
+     "options": [
+      "de eerste letter",
+      "de laatste letter",
+      "de derde letter",
+      "de hamza"
+     ],
+     "explanation": "Zoals de fa' van bi'a."
+    },
+    {
+     "prompt": "De eerste letter van het passief van een hol werkwoord neemt…",
+     "options": [
+      "een damma",
+      "een fatha",
+      "niets",
+      "een kasra"
+     ],
+     "explanation": "“Geef het een kasra wanneer het verbonden is met een zwakke 'ayn.”"
+    }
+   ],
+   "diagram": {
+    "caption": "Passieve madi's en de klinkers die het gedicht voorschrijft (vervoegingsengine; bi'a uit de Marah)",
+    "labels": {
+     "Active": "Actief",
+     "Passive": "Passief",
+     "Vowels to note": "Klinkers om op te letten",
+     "ḍamma on the first, kasra before the last": "damma op de eerste, kasra voor de laatste",
+     "the same": "hetzelfde",
+     "ḍamma on the first and the third": "damma op de eerste en de derde",
+     "ḍamma on the tāʾ and the letter after it": "damma op de ta' en de letter erna",
+     "kasra on the first: weak ʿayn": "kasra op de eerste: zwakke 'ayn",
+     "kasra on the third": "kasra op de derde"
+    }
+   }
+  },
+  "10": {
+   "title": "De gebiedende wijs",
+   "body": [
+    "“Van af'ala is het bevel af'il”: akrim, “eer!”, met een afsnijdende hamza, de hamza van het patroon zelf, die de Marah laat zien als weggevallen in tukrimu en teruggekeerd in het bevel. “En voor andere dan dat, neem het zoals de mudari' in jazm die aan zijn begin is afgesneden”: het bevel is de jazm zonder zijn voorvoegsel. Tuqatti' geeft qatti', tuqatil geeft qatil.",
+    "“En begin het met een verbindingshamza die een kasra heeft, als het een letter zonder klinker is die verbonden was met wat weggevallen is”: tadrib verliest zijn ta' en laat een dad zonder klinker achter, dus idrib. “Geef de hamza een damma voor een noodzakelijke damma”: tansur geeft unsur, omdat de 'ayn een damma heeft die bij de vorm hoort. Ughzi, “onderneem een tocht! (tegen een vrouw)”, is de toets: zijn zay heeft een kasra, hoewel zijn bab een damma heeft, dus is de damma waarvoor de hamza staat er niet; het wordt uitgesproken “met een kasra met een zweem van damma”, en dat “is aanvaard”. De 'Izzi schrijft het in de Ottomaanse druk met een damma.",
+    "Drie werkwoorden breken de regel: mur, “gebied!”, khudh, “neem!”, en kul, “eet!”, zijn onregelmatig “met weglating”: van de wortels '-m-r, '-kh-dh, '-k-l laten ze hun eerste hamza vallen en hebben ze geen verbindingshamza nodig. Maar na wa of fa “is wa-'mur verbreid”, met de hamza behouden, zoals in de Koran wa-'mur ahlaka bi-l-salati (20:132). De volle vormen van khudh en kul, met de hamza, zijn “zeldzaam”.",
+    "De regel in het kort: neem de jazm, laat het voorvoegsel vallen; is de eerste letter die overblijft zonder klinker, voeg dan een verbindingshamza toe, met een damma als de 'ayn een blijvende damma heeft en anders een kasra; alleen af'ala houdt zijn eigen hamza met een fatha.",
+    "De vervoegingsengine geeft het bevel van elk gaaf patroon; controleer de hamza van elk tegen deze regel."
+   ],
+   "terms": [
+    "het werkwoord van het bevel",
+    "de mudari' in jazm, waaruit het bevel wordt gesneden",
+    "een noodzakelijke damma op de 'ayn, waarvoor de hamza een damma neemt",
+    "een zweem van damma op een kasra, zoals in ughzi"
+   ],
+   "examples": [
+    "van af'ala is het bevel af'il",
+    "tadrib, idrib: het voorvoegsel weggevallen, een hamza met kasra (vervoegingsengine)",
+    "tansur, unsur: de hamza met damma voor een damma (vervoegingsengine)",
+    "mur, khudh, kul: onregelmatig, met de hamza weggevallen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak het bevel van tuqatti'u, tadribu en tansuru, en verklaar het begin van elk.",
+     "answer": "Qatti': nadat het voorvoegsel is weggevallen, heeft de qaf een klinker, dus geen hamza. Idrib: de dad heeft geen klinker, dus een verbindingshamza met kasra. Unsur: hetzelfde, maar de 'ayn heeft een blijvende damma, dus neemt de hamza een damma."
+    },
+    {
+     "prompt": "Waarom is het bevel van akrama akrim, met een fatha op de hamza?",
+     "answer": "Van af'ala is het bevel af'il: zijn hamza is de hamza van het patroon, een afsnijdende hamza met een fatha, die in tukrimu was weggevallen en in het bevel terugkeert."
+    },
+    {
+     "prompt": "Wat zegt het gedicht over mur, khudh en kul, en over wa-'mur?",
+     "answer": "Mur, khudh en kul zijn onregelmatig en laten hun hamza vallen; na wa (en fa) blijft de hamza, wa-'mur, wat verbreid is; de volle vormen van khudh en kul zijn zeldzaam."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het bevel van akrama is…",
+     "options": [
+      "ikrim",
+      "ukrim",
+      "akrim",
+      "karrim"
+     ],
+     "explanation": "Van af'ala is het bevel af'il."
+    },
+    {
+     "prompt": "Het bevel van andere werkwoorden wordt gemaakt uit…",
+     "options": [
+      "de madi",
+      "de masdar",
+      "het deelwoord",
+      "de mudari' in jazm, zonder zijn voorvoegsel"
+     ],
+     "explanation": "“Zoals de mudari' in jazm die aan zijn begin is afgesneden.”"
+    },
+    {
+     "prompt": "Wanneer wordt een verbindingshamza toegevoegd?",
+     "options": [
+      "Wanneer de letter die na het voorvoegsel overblijft geen klinker heeft",
+      "Altijd",
+      "Nooit bij het drieletterige",
+      "Alleen bij af'ala"
+     ],
+     "explanation": "Idrib, maar qatti'."
+    },
+    {
+     "prompt": "De verbindingshamza neemt een damma…",
+     "options": [
+      "voor een kasra",
+      "voor een noodzakelijke damma",
+      "bij af'ala",
+      "nooit"
+     ],
+     "explanation": "Unsur, uktub."
+    },
+    {
+     "prompt": "Ughzi wordt uitgesproken met…",
+     "options": [
+      "een gewone fatha",
+      "geen hamza",
+      "een kasra met een zweem van damma, volgens het gedicht",
+      "een afsnijdende hamza"
+     ],
+     "explanation": "De 'Izzi schrijft een damma."
+    },
+    {
+     "prompt": "Mur, khudh en kul zijn…",
+     "options": [
+      "de regel",
+      "passief",
+      "Kufisch",
+      "onregelmatig, door weglating"
+     ],
+     "explanation": "Hun hamza is weggevallen."
+    },
+    {
+     "prompt": "Wat is volgens het gedicht verbreid?",
+     "options": [
+      "wa-'mur",
+      "wa-ukhudh",
+      "ukul",
+      "u'mur"
+     ],
+     "explanation": "Zoals in 20:132."
+    }
+   ],
+   "diagram": {
+    "caption": "Van de jazm naar het bevel (vervoegingsengine; ughzi uit de 'Izzi in de Ottomaanse druk)",
+    "labels": {
+     "Jussive": "Jazm",
+     "Command": "Bevel",
+     "Rule": "Regel",
+     "afʿala: afʿil, a hamza of cutting": "af'ala: af'il, een afsnijdende hamza",
+     "the letter left has a vowel: no hamza": "de letter die overblijft heeft een klinker: geen hamza",
+     "quiescent letter left: hamza with kasra": "letter zonder klinker blijft over: hamza met kasra",
+     "before a necessary ḍamma: hamza with ḍamma": "voor een noodzakelijke damma: hamza met damma",
+     "kasra on the zāy: the hamza said with a touch of ḍamma": "kasra op de zay: de hamza uitgesproken met een zweem van damma",
+     "irregular: the hamza dropped": "onregelmatig: de hamza weggevallen"
+    }
+   }
+  },
+  "11": {
+   "title": "Het actief deelwoord en de bijvoeglijke naamwoorden van het drieletterige werkwoord",
+   "body": [
+    "“Op de maat van fa'il [met lange a] wordt het actief deelwoord gemaakt van het drieletterige werkwoord waarvan de maat niet fa'ula is”: darib van daraba, 'alim van 'alima. Fa'ula wordt uitgesloten: het wordt, zoals de Marah zegt, gebruikt voor aard en eigenschappen, niet voor handelingen, en zijn bijvoeglijke naamwoorden nemen andere patronen.",
+    "“En daarvan”, van fa'ula, “wordt het gevormd zoals sahl en al-zarif”: fa'l en fa'il [met lange i], de twee gewoonste, “gemakkelijk”, “elegant”. Minder vaak “af'al, of fa'al, of fu'ul”, en zoals al-furat, “zoet water” (fu'al), 'afr (fa'l), al-hasur, “de kuise” (fa'ul), ghumr, “onervaren” (fu'l), 'aqir, “onvruchtbaar” (fa'il [met lange a]), junub, “in staat van grote onreinheid” (fu'ul), en wat lijkt op thamil, “dronken” (fa'il [met korte i]). Dit zijn de patronen die de Marah “het bijvoeglijk naamwoord dat op het deelwoord lijkt” noemt.",
+    "“En van een onovergankelijk werkwoord op de maat fa'ila wordt het op zijn eigen maat gevormd”: fa'il [met korte i], zoals shaj, “bedroefd”, en zoals 'ajil, “haastig”; en ook fa'l (al-sha'z, “de ruwe”), af'al (al-ashnab, “die met fijne witte tanden”) en fa'lan (al-jazlan, “de blijde”, zoals onze druk het spelt; het gewone woord heeft een dhal).",
+    "Dan staat het gedicht toe dat een patroon van een andere klasse wordt geleend “naar analogie met een ander, om een verband” van betekenis: fanin, “vergankelijk”, op fa'il [met lange a], en het enkelvoud van al-bukhala', dat wil zeggen bakhil, “vrek”, op fa'il [met lange i]; en, bij het vormen uit fa'ula, khafif, tayyib en ashyab. Een woord neemt het patroon van de woorden waarop het in betekenis lijkt.",
+    "De les voor een lezer: het patroon van een bijvoeglijk naamwoord zegt iets over zijn werkwoord. Fa'il [met lange a] wijst op een handeling (fa'ala, fa'ila overgankelijk); fa'l, fa'il [met lange i] en hun zusters op een eigenschap (fa'ula); fa'il [met korte i], af'al en fa'lan op een toestand (fa'ila onovergankelijk). De volgende les voegt eraan toe dat fa'il [met lange a] van elk van hen gemaakt kan worden wanneer een gebeurtenis bedoeld is."
+   ],
+   "terms": [
+    "het actief deelwoord: fa'il [met lange a] van het drieletterige werkwoord",
+    "het bijvoeglijk naamwoord dat op het deelwoord lijkt: een blijvende eigenschap",
+    "onovergankelijk, zoals fa'ila in shajin",
+    "een woord behandelen als een ander om een gelijkenis van betekenis"
+   ],
+   "examples": [
+    "darib, 'alim: fa'il [met lange a] van fa'ala en fa'ila (vervoegingsengine)",
+    "ka-sahlin wa-l-zarifi: fa'l en fa'il [met lange i] van fa'ula",
+    "ka-shajin: fa'il [met korte i] van een onovergankelijk fa'ila",
+    "ka-fanin: fa'il [met lange a] geleend om een gelijkenis van betekenis"
+   ],
+   "tasks": [
+    {
+     "prompt": "Van welke drieletterige werkwoorden wordt volgens het eerste vers fa'il [met lange a] gemaakt, en waarom wordt fa'ula uitgesloten?",
+     "answer": "Van het drieletterige werkwoord waarvan de maat niet fa'ula is: fa'ala en fa'ila (darib, 'alim). Fa'ula betekent een blijvende eigenschap, en zijn bijvoeglijke naamwoorden nemen andere patronen (sahl, zarif …)."
+    },
+    {
+     "prompt": "Geef de twee gewoonste patronen van het bijvoeglijk naamwoord van fa'ula, met de voorbeelden van het gedicht.",
+     "answer": "Fa'l, zoals sahl, “gemakkelijk”, en fa'il [met lange i], zoals zarif, “elegant”."
+    },
+    {
+     "prompt": "Welke patronen geeft het gedicht voor een onovergankelijk fa'ila?",
+     "answer": "Zijn eigen maat, fa'il [met korte i] (shajin, 'ajil); ook fa'l (al-sha'z), af'al (al-ashnab) en fa'lan (al-jazlan)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Fa'il [met lange a] wordt gemaakt van het drieletterige werkwoord waarvan de maat niet is…",
+     "options": [
+      "fa'ala",
+      "fa'ila",
+      "fa'lala",
+      "fa'ula"
+     ],
+     "explanation": "Fa'ula heeft zijn eigen bijvoeglijke naamwoorden."
+    },
+    {
+     "prompt": "Sahl, “gemakkelijk”, staat op het patroon…",
+     "options": [
+      "fa'l",
+      "fa'il [met lange i]",
+      "fa'il [met lange a]",
+      "fa'il [met korte i]"
+     ],
+     "explanation": "Een van de twee gewoonste van fa'ula."
+    },
+    {
+     "prompt": "Al-zarif staat op het patroon…",
+     "options": [
+      "fa'l",
+      "fa'il [met lange i]",
+      "fa'ul",
+      "fu'al"
+     ],
+     "explanation": "Van zarufa, fa'ula."
+    },
+    {
+     "prompt": "Shajin, “bedroefd”, komt van…",
+     "options": [
+      "fa'ula",
+      "fa'ala",
+      "een onovergankelijk fa'ila, op zijn eigen maat",
+      "af'ala"
+     ],
+     "explanation": "Fa'il [met korte i] van fa'ila."
+    },
+    {
+     "prompt": "Al-ashnab staat op het patroon…",
+     "options": [
+      "fa'lan",
+      "fa'il [met korte i]",
+      "fa'il [met lange a]",
+      "af'al"
+     ],
+     "explanation": "Een van de patronen van fa'ila onovergankelijk."
+    },
+    {
+     "prompt": "Fanin, “vergankelijk”, wordt gegeven als voorbeeld van…",
+     "options": [
+      "een patroon geleend om een gelijkenis van betekenis",
+      "het eigen bijvoeglijk naamwoord van fa'ula",
+      "het passief deelwoord",
+      "de masdar"
+     ],
+     "explanation": "“Naar analogie met een ander, om een verband.”"
+    },
+    {
+     "prompt": "Junub, “in staat van grote onreinheid”, staat op…",
+     "options": [
+      "fa'il [met korte i]",
+      "fu'ul",
+      "fa'il [met lange a]",
+      "fa'il [met lange i]"
+     ],
+     "explanation": "Onder de zeldzamere patronen van het bijvoeglijk naamwoord."
+    }
+   ],
+   "diagram": {
+    "caption": "Deelwoorden en bijvoeglijke naamwoorden van het drieletterige werkwoord (Lamiyya vv. 51–57; darib en 'alim uit de vervoegingsengine)",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Patterns": "Patronen",
+     "Examples": "Voorbeelden",
+     "faʿala; faʿila transitive": "fa'ala; fa'ila overgankelijk",
+     "fāʿil": "fa'il [met lange a]",
+     "faʿula": "fa'ula",
+     "faʿl, faʿīl": "fa'l, fa'il [met lange i]",
+     "faʿula, less often": "fa'ula, minder vaak",
+     "fuʿāl, faʿl, faʿūl …": "fu'al, fa'l, fa'ul …",
+     "faʿila intransitive": "fa'ila onovergankelijk",
+     "faʿil": "fa'il [met korte i]",
+     "faʿl, afʿal, faʿlān": "fa'l, af'al, fa'lan"
+    }
+   }
+  },
+  "12": {
+   "title": "Fa'il [met lange a] voor de gebeurtenis; de deelwoorden van de langere werkwoorden; maf'ul",
+   "body": [
+    "“Fa'il [met lange a] dient voor alle, als een gebeurtenis bedoeld is”: elk drieletterig werkwoord, zelfs een waarvan het bijvoeglijk naamwoord een sifa mushabbaha is, kan fa'il [met lange a] maken wanneer je over een eigenschap spreekt als iets wat op een tijd gebeurt. Het voorbeeld: ghadan dha jadhilin [met lange a], “morgen zal deze zich verheugen”, van jadhila, waarvan het gewone bijvoeglijk naamwoord jadhil is, “blij”. Jadhil [met lange a], op fa'il [met lange a], spreekt over de vreugde die morgen zal ontstaan.",
+    "“Bij het actief deelwoord van wat geen drie letters heeft, komt de maat van de mudari', maar aan zijn begin wordt een mim gezet die een damma neemt”: yukrimu, mukrim; yastakhriju, mustakhrij. “En als je wat voor zijn laatste staat een fatha geeft, wordt het een passief deelwoord”: mukram, mustakhraj. De Marah geeft dezelfde regel en zijn redenen.",
+    "Van het drieletterige werkwoord staat het passief deelwoord “op de maat maf'ul”: madrub. “En wat komt zoals fa'il [met lange i], is daarmee van de oorsprong afgewend”: qatil, jarih, “gedood, gewond”, staan voor maqtul, majruh, maar ze zijn een afwijking van de regel, geen tweede regel.",
+    "“En ze volstonden met zoiets als najan en al-nisy in plaats van de maat maf'ul”: najan, “afgestroopte huid”, en nisy, “een vergeten ding”, dragen een passieve betekenis zonder zijn patroon. “En het wordt niet als regel genomen”: je mag zulke woorden niet voor andere werkwoorden maken; ze zijn bekend uit het gebruik.",
+    "De paren om te onthouden: fa'il [met lange a] en maf'ul voor het drieletterige werkwoord; muf'il en muf'al (één klinker verschil) voor elk langer werkwoord. De vervoegingsengine geeft beide voor elk gaaf patroon."
+   ],
+   "terms": [
+    "plaatsvindend: een eigenschap besproken als een gebeurtenis in de tijd",
+    "het passief deelwoord: maf'ul, of muf'al voor langere werkwoorden",
+    "de mim met damma waarmee de deelwoorden van langere werkwoorden beginnen",
+    "afwenden van de oorsprong: fa'il [met lange i] voor maf'ul"
+   ],
+   "examples": [
+    "ghadan dha jadhilin [met lange a]: fa'il [met lange a] voor een komende gebeurtenis",
+    "mukrim, mukram: één klinker verschil (vervoegingsengine)",
+    "mustakhrij, mustakhraj (vervoegingsengine)",
+    "qatil, jarih: fa'il [met lange i] afgewend van maf'ul (de Marah)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom zegt het gedicht ghadan dha jadhilin [met lange a] en niet jadhilun?",
+     "answer": "Omdat een komende gebeurtenis bedoeld is: “morgen zal hij zich verheugen”. Fa'il [met lange a] dient voor elk werkwoord wanneer een gebeurtenis bedoeld is; jadhil, het gewone bijvoeglijk naamwoord, zou een blijvende eigenschap beschrijven."
+    },
+    {
+     "prompt": "Maak beide deelwoorden van qatala [met alif] en tafaddala met de vervoegingsengine, en geef de regel.",
+     "answer": "Muqatil, muqatal; mutafaddil, mutafaddal. De maat van de mudari' met een mim met damma voor het voorvoegsel; een kasra voor de laatste voor het actieve, een fatha voor het passieve."
+    },
+    {
+     "prompt": "Wat zegt het gedicht over qatil, en over najan en nisy?",
+     "answer": "Fa'il [met lange i], zoals qatil, is afgewend van de oorsprong maf'ul; najan en nisy worden gebruikt in plaats van maf'ul; geen van beide is een regel om op andere werkwoorden toe te passen."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Fa'il [met lange a] kan gemaakt worden van elk drieletterig werkwoord wanneer…",
+     "options": [
+      "een gebeurtenis bedoeld is",
+      "het werkwoord passief is",
+      "het werkwoord verdubbeld is",
+      "het meervoud is"
+     ],
+     "explanation": "Ghadan dha jadhilin [met lange a]."
+    },
+    {
+     "prompt": "Het actief deelwoord van een langer werkwoord begint met…",
+     "options": [
+      "een mim met fatha",
+      "een mim met damma",
+      "het voorvoegsel van de mudari'",
+      "een hamza"
+     ],
+     "explanation": "Op de maat van de mudari'."
+    },
+    {
+     "prompt": "Wat maakt van mukrim mukram?",
+     "options": [
+      "Een damma op de mim",
+      "Een waw",
+      "Een fatha voor de laatste",
+      "Een ta'"
+     ],
+     "explanation": "“Als je wat voor zijn laatste staat een fatha geeft.”"
+    },
+    {
+     "prompt": "Het passief deelwoord van het drieletterige werkwoord staat op…",
+     "options": [
+      "muf'al",
+      "altijd fa'il [met lange i]",
+      "fa'il [met lange a]",
+      "maf'ul"
+     ],
+     "explanation": "Zoals madrub van daraba."
+    },
+    {
+     "prompt": "Qatil in de betekenis van maqtul is…",
+     "options": [
+      "een afwijking van de oorsprong",
+      "de regel",
+      "een actief deelwoord",
+      "een masdar"
+     ],
+     "explanation": "“Het is daarmee van de oorsprong afgewend.”"
+    },
+    {
+     "prompt": "Najan en nisy zijn woorden die…",
+     "options": [
+      "actieve deelwoorden zijn",
+      "een passieve betekenis hebben zonder het patroon maf'ul",
+      "werkwoorden zijn",
+      "masdars van de langere werkwoorden zijn"
+     ],
+     "explanation": "“Ze volstonden ermee in plaats van maf'ul.”"
+    },
+    {
+     "prompt": "Kan men woorden zoals najan voor elk werkwoord maken?",
+     "options": [
+      "Ja, vrij",
+      "Alleen van fa'ula",
+      "Nee: het wordt niet als regel genomen",
+      "Alleen in poëzie"
+     ],
+     "explanation": "Wa-ma 'umila."
+    }
+   ],
+   "diagram": {
+    "caption": "De twee deelwoorden (vervoegingsengine)",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Active": "Actief",
+     "Passive": "Passief"
+    }
+   }
+  },
+  "13": {
+   "title": "De masdar-patronen van het drieletterige werkwoord",
+   "body": [
+    "“De masdars hebben maten die ik zal uiteenzetten”, en voor het drieletterige werkwoord geeft het gedicht een lange lijst, vier verzen van patroonnamen. Het begint met fa'l, fi'l, fu'l, dan dezelfde “met de vrouwelijke ta' of verbonden met de korte alif”, dan fa'lan, fi'lan, fu'lan. De zoon van de dichter, Badr al-Din, geeft in zijn commentaar (de uitgave van Volck) voorbeelden als darb, 'ilm, shughl, en layyan, hirman, shukran.",
+    "Dan patronen genoemd met een voorbeeld: jalan, ridan, hudan en salah, dat wil zeggen fa'al, fi'al, fu'al en fa'al [met lange a]. “Voeg dan fa'il toe, kaal of met de ta'”: kadhib en sariqa. Dan fa'ala [met lange a], en vormen met de korte alif en op fa'la'; fi'ala en fu'ala, “en beide zonder de ta'”; fu'ul [met lange u]; fa'il [met lange i], en fa'ila [met lange i] en fu'ula met de ta'; fa'alan; fay'alula, “zoals baynuna”; en fu'ul, “zoals shughul”.",
+    "De laatste twee verzen voegen de zeldzamere toe: fu'lal, fa'ul, fa'aliya, fa'iliyya, fu'ulla, fa'ala [met lange a aan het eind], fa'alut, fu'ulla [met lange a], fu'alniya, fu'uliyya (“en de fatha is overgeleverd”: ook fa'uliyya), en maf'al, maf'il, maf'ul, met en zonder de ta', “en een damma wordt zelden gedragen”. De voorbeelden van Badr al-Din zijn onder meer sudad voor fu'lal, qabul voor fa'ul, karahiya voor fa'aliya, ghulubba voor fu'ulla en khususiyya voor fu'uliyya.",
+    "De Marah vermeldt dat Sibawayh tweeëndertig zulke patronen telde, en geeft zijn eigen lijst van voorbeelden (zijn les 4); veel ervan illustreren dezelfde patronen als hier, en het overzicht hieronder neemt zijn voorbeelden daaruit en uit het gedicht.",
+    "Deze verzen zijn een catalogus: ze zeggen je dat een woord op zo'n patroon een masdar kan zijn, niet welke masdar een werkwoord heeft. De volgende les geeft daarvoor de regels."
+   ],
+   "terms": [
+    "het verbaal naamwoord",
+    "de korte alif van het vrouwelijke, zoals in dhikra",
+    "de zoon van de dichter, wiens commentaar de voorbeelden geeft",
+    "de masdar met een mim: maf'al, maf'il"
+   ],
+   "examples": [
+    "fa'l, fi'l, fu'l: de eerste genoemde patronen",
+    "ridan, hudan, salah: patronen genoemd met een voorbeeld (na jalan)",
+    "ka-baynunatin: fay'alula",
+    "maf'al, maf'il, maf'ul: masdars met mim"
+   ],
+   "tasks": [
+    {
+     "prompt": "Deel deze masdars in naar patroon: shughl, hirman, hudan, sariqa, baynuna, madkhal.",
+     "answer": "Shughl: fu'l. Hirman: fi'lan. Hudan: fu'al. Sariqa: fa'ila (fa'il met de ta'). Baynuna: fay'alula. Madkhal: maf'al, een masdar met mim."
+    },
+    {
+     "prompt": "Wat bedoelt het gedicht met “voeg dan fa'il toe, kaal of met de vrouwelijke ta'”? Geef de voorbeelden van het commentaar.",
+     "answer": "Dat fa'il een masdar-patroon is, alleen (kadhib, “liegen”) en met de ta' (sariqa, “diefstal”), zoals het commentaar van Badr al-Din laat zien."
+    },
+    {
+     "prompt": "Waarom zijn deze verzen niet genoeg om te weten welke masdar een bepaald werkwoord heeft?",
+     "answer": "Ze zijn een catalogus van de gevonden patronen; de meeste masdars van het drieletterige werkwoord zijn door het horen bekend. De regels voor welk patroon een werkwoord neemt, waar er een regel is, komen in de volgende verzen."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welke patroonnamen openen de lijst?",
+     "options": [
+      "fa'lan, fi'lan, fu'lan",
+      "fa'l, fi'l, fu'l",
+      "maf'al, maf'il",
+      "fi'ala, fu'ala"
+     ],
+     "explanation": "Fa'lun wa-fi'lun wa-fu'lun."
+    },
+    {
+     "prompt": "Hudan, “leiding”, illustreert…",
+     "options": [
+      "fa'al",
+      "fi'al",
+      "fu'al",
+      "fa'al [met lange a]"
+     ],
+     "explanation": "Jalan, ridan, hudan: fa'al, fi'al, fu'al."
+    },
+    {
+     "prompt": "Baynuna illustreert…",
+     "options": [
+      "fa'ula",
+      "fu'ula",
+      "fa'luna",
+      "fay'alula"
+     ],
+     "explanation": "“Of zoals baynunatin.”"
+    },
+    {
+     "prompt": "Hirman, “ontbering”, staat op…",
+     "options": [
+      "fi'lan",
+      "fa'lan",
+      "fu'lan",
+      "fa'alan"
+     ],
+     "explanation": "Een van de drie patronen op -an."
+    },
+    {
+     "prompt": "Dhikra, “gedachtenis”, heeft…",
+     "options": [
+      "de ta'",
+      "de korte alif van het vrouwelijke",
+      "een mim",
+      "de uitgang -an"
+     ],
+     "explanation": "Fi'l met de korte alif."
+    },
+    {
+     "prompt": "Wiens commentaar geeft de hier aangehaalde voorbeelden?",
+     "options": [
+      "Sibawayh",
+      "al-Kisa'i",
+      "Badr al-Din, de zoon van de dichter",
+      "al-Akhdari"
+     ],
+     "explanation": "In de uitgave van Volck van 1866."
+    },
+    {
+     "prompt": "Madkhal als masdar staat op…",
+     "options": [
+      "maf'il",
+      "muf'al",
+      "maf'ul",
+      "maf'al"
+     ],
+     "explanation": "Een masdar met mim."
+    }
+   ],
+   "diagram": {
+    "caption": "Masdar-patronen van het drieletterige werkwoord (Lamiyya vv. 62–70; voorbeelden uit het gedicht en de lijst van de Marah)",
+    "labels": {
+     "Patterns": "Patronen",
+     "Examples": "Voorbeelden",
+     "faʿl, fiʿl, fuʿl": "fa'l, fi'l, fu'l",
+     "the same with the tāʾ": "dezelfde met de ta'",
+     "with the shortened alif": "met de korte alif",
+     "faʿlān, fiʿlān, fuʿlān": "fa'lan, fi'lan, fu'lan",
+     "fiʿal, fuʿal, faʿāl (and faʿal: jalan)": "fi'al, fu'al, fa'al [met lange a] (en fa'al: jalan)",
+     "faʿil, faʿila": "fa'il, fa'ila",
+     "faʿāla, fiʿāla": "fa'ala [met lange a], fi'ala",
+     "faʿāl, fiʿāl, fuʿāl": "fa'al [met lange a], fi'al [met lange a], fu'al [met lange a]",
+     "fuʿūl, faʿūl, faʿīl": "fu'ul [met lange u], fa'ul, fa'il [met lange i]",
+     "fayʿalūla": "fay'alula",
+     "fuʿul": "fu'ul",
+     "with the mīm": "met de mim"
+    }
+   }
+  },
+  "14": {
+   "title": "Welke masdar een drieletterig werkwoord neemt",
+   "body": [
+    "Nu de regels (qiyas), waar het gebruik niet beslist. “Fa'l is de regel voor het overgankelijke”: daraba darban, zoals de Marah het heeft. “En fu'ul [met lange u] voor wat anders is”, het onovergankelijke fa'ala: dakhala dukhulan. “Behalve een werkwoord van klank: daarvoor is fu'al [met lange a] duidelijk”: een onovergankelijk werkwoord van huilen of roepen neemt fu'al [met lange a].",
+    "“En wat op fa'ila staat, verdient als masdar, als het niet overgankelijk is, fa'al te zijn”: wajila wajalan, “hij vreesde, een vrezen”, uit de Marah. “En neem fa'ala [met lange a] of fu'ula als de regel voor fa'ula”: al-shaja'a, “moed”, van shaju'a, en de masdar van sahula, “het was gemakkelijk”, suhula.",
+    "“Wat anders is dan dat, is gehoord”: een werkwoord buiten deze regels heeft de masdar die de Arabieren het gaven, geleerd uit het gebruik. Dan een reeks patronen naar betekenis. Fa'il [met lange i] “komt veel voor bij klank”: werkwoorden van geluiden (hinniken, balken) hebben het vaak. “Voor de pijnlijke ziekte, de maat fu'al [met lange a]”, als namen van kwalen; “en voor wat de betekenis heeft van vluchten, of als vluchten is”, weigering, weggaan, fi'al [met lange a], zoals firar, “vlucht”.",
+    "“Fa'ala [met lange a] is voor eigenschappen, en laat fi'ala voor een ambacht of een ambt”: fa'ala [met lange a] noemt een karaktertrek, fi'ala een vak of een bestuurspost. De voorbeelden van Badr al-Din voor deze patronen zijn elders onder meer zarafa, “elegantie”, en kitaba, “schrijven, het ambacht van de schrijver”. Ten slotte, “voor één keer stelden ze fa'la vast, en fi'la voor een wijze, meestal, zoals mishyat al-khuyala”, “de gang van de hoogmoedigen”: darba, “één slag”, maar mishya, “een manier van lopen”. De Marah geeft hetzelfde paar: “fa'la voor de enkele keer, fi'la voor de wijze”.",
+    "Deze regels geven een goede gok voor een onbekend werkwoord; het gebruik, waar het bekend is, wint altijd."
+   ],
+   "terms": [
+    "de regel: de masdar die van het patroon van een werkwoord verwacht wordt",
+    "het horen: masdars die alleen uit het gebruik bekend zijn",
+    "fa'la voor één keer",
+    "fi'la voor de wijze"
+   ],
+   "examples": [
+    "darabtu darban: fa'l voor het overgankelijke (de Marah)",
+    "wajila wajalan: fa'al voor een onovergankelijk fa'ila (de Marah)",
+    "ka-l-shaja'ati: fa'ala [met lange a] voor fa'ula",
+    "ka-mishyati al-khuyala: fi'la voor de wijze"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het verwachte masdar-patroon voor: een overgankelijk fa'ala; een onovergankelijk fa'ala; een onovergankelijk fa'ila; fa'ula.",
+     "answer": "Overgankelijk: fa'l (darb). Onovergankelijk fa'ala: fu'ul [met lange u] (dukhul), of fu'al [met lange a] voor een werkwoord van klank. Onovergankelijk fa'ila: fa'al (wajal). Fa'ula: fa'ala [met lange a] of fu'ula (shaja'a, suhula)."
+    },
+    {
+     "prompt": "Welke patronen verbindt het gedicht met betekenissen in plaats van met werkwoordpatronen?",
+     "answer": "Fa'il [met lange i], veel voorkomend voor klanken; fu'al [met lange a] voor pijnlijke ziekte; fi'al [met lange a] voor vluchten en dergelijke; fa'ala [met lange a] voor eigenschappen; fi'ala voor ambachten en ambten; fa'la voor één keer; fi'la voor een wijze."
+    },
+    {
+     "prompt": "Wat is het verschil tussen fa'la en fi'la? Gebruik het voorbeeld van het gedicht.",
+     "answer": "Fa'la noemt één keer dat de handeling plaatsvindt (één slag, één wandeling); fi'la noemt de wijze ervan, zoals mishyat al-khuyala, “de gang van de hoogmoedigen”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De masdar van een overgankelijk drieletterig werkwoord is volgens de regel…",
+     "options": [
+      "fu'ul [met lange u]",
+      "fa'al",
+      "fa'l",
+      "fi'ala"
+     ],
+     "explanation": "Fa'lun maqisu al-mu'adda."
+    },
+    {
+     "prompt": "Dakhala dukhulan illustreert…",
+     "options": [
+      "fa'l voor het overgankelijke",
+      "fa'al voor fa'ila",
+      "fu'al [met lange a] voor klank",
+      "fu'ul [met lange u] voor het onovergankelijke fa'ala"
+     ],
+     "explanation": "“Fu'ul voor wat anders is.”"
+    },
+    {
+     "prompt": "Wajila wajalan illustreert…",
+     "options": [
+      "fa'al voor een onovergankelijk fa'ila",
+      "fa'l",
+      "fu'ul [met lange u]",
+      "fa'ala [met lange a]"
+     ],
+     "explanation": "Zoals vers 72 van het gedicht."
+    },
+    {
+     "prompt": "Al-shaja'a, “moed”, illustreert…",
+     "options": [
+      "fi'ala voor een ambacht",
+      "fa'ala [met lange a] voor fa'ula",
+      "fa'la voor één keer",
+      "fu'al [met lange a] voor ziekte"
+     ],
+     "explanation": "Van shaju'a."
+    },
+    {
+     "prompt": "Firar, “vlucht”, staat op…",
+     "options": [
+      "fu'al [met lange a], voor ziekte",
+      "fa'al [met lange a]",
+      "fi'al [met lange a], voor vluchten",
+      "fu'ul [met lange u]"
+     ],
+     "explanation": "“Voor wat de betekenis heeft van vluchten, fi'al.”"
+    },
+    {
+     "prompt": "Fi'ala is voor…",
+     "options": [
+      "een eigenschap",
+      "één keer",
+      "een klank",
+      "een ambacht of een ambt"
+     ],
+     "explanation": "Fa'ala [met lange a] is voor eigenschappen."
+    },
+    {
+     "prompt": "Wat wint boven de regels?",
+     "options": [
+      "Het gebruik (sama')",
+      "Het metrum",
+      "Het dialect van Tayyi'",
+      "Niets"
+     ],
+     "explanation": "“Wat anders is dan dat, is gehoord.”"
+    }
+   ],
+   "diagram": {
+    "caption": "De regels van de masdar van het drieletterige werkwoord (Lamiyya vv. 71–77; voorbeelden uit het gedicht en de Marah)",
+    "labels": {
+     "Verb or meaning": "Werkwoord of betekenis",
+     "Maṣdar": "Masdar",
+     "Example": "Voorbeeld",
+     "transitive": "overgankelijk",
+     "faʿl": "fa'l",
+     "faʿala, intransitive": "fa'ala, onovergankelijk",
+     "fuʿūl": "fu'ul [met lange u]",
+     "a verb of sound": "een werkwoord van klank",
+     "fuʿāl; faʿīl frequent": "fu'al [met lange a]; fa'il [met lange i] veel voorkomend",
+     "faʿila, intransitive": "fa'ila, onovergankelijk",
+     "faʿal": "fa'al",
+     "faʿula": "fa'ula",
+     "faʿāla, fuʿūla": "fa'ala [met lange a], fu'ula",
+     "a painful illness": "een pijnlijke ziekte",
+     "fuʿāl": "fu'al [met lange a]",
+     "fleeing and its like": "vluchten en dergelijke",
+     "fiʿāl": "fi'al [met lange a]",
+     "a quality": "een eigenschap",
+     "faʿāla": "fa'ala [met lange a]",
+     "a craft or an office": "een ambacht of een ambt",
+     "fiʿāla": "fi'ala",
+     "one time": "één keer",
+     "faʿla": "fa'la",
+     "a manner": "een wijze",
+     "fiʿla": "fi'la"
+    }
+   }
+  },
+  "15": {
+   "title": "De masdars van de langere werkwoorden",
+   "body": [
+    "De langere werkwoorden hebben regelmatige masdars, en het gedicht geeft ze in een paar regels. Eerst de werkwoorden met een verbindingshamza: hun masdar wordt gemaakt “met een kasra op de derde letter” en “een verlenging van wat de laatste volgt”, een lange a voor de laatste letter. Ihtaqara geeft ihtiqar, inkasara inkisar, istakhraja istikhraj: tel de hamza als de eerste letter, en de derde (de ta', de kaf, de ta') heeft de kasra.",
+    "“En geef het een damma bij een werkwoord aan het begin waarvan de ta' is toegevoegd”: de masdar van tafa''ala, tafa'ala en tafa'lala is de madi zelf met een damma op de letter voor de laatste: tafaddala, tafaddul; tadaraba, tadarub. “En geef het een kasra voor een letter die zwakte toelaat”: wanneer de laatste stamletter zwak is, wordt de damma ervoor een kasra.",
+    "“Breng voor fa'lala fi'lal en fa'lala”: zalzala, zilzal, zoals de Marah opmerkt; dahraja, dahraja en dihraj, zoals de Maqsud het opzegt.",
+    "“En maak voor fa''ala al-taf'il, waar het vrij is van een zwakke lam”: qatta'a, taqti'. “Maak voor het werkwoord dat haar heeft taf'ila noodzakelijk”: een fa''ala-werkwoord met een zwakke lam neemt taf'ila, met de ta', en nooit taf'il. “En aan het werkwoord dat er vrij van is, is soms taf'ila gegeven”: een gaaf fa''ala-werkwoord kan naast taf'il ook taf'ila hebben.",
+    "Deze regels volgt de vervoegingsengine wanneer hij de masdar van een vermeerderd patroon geeft. Voor het drieletterige werkwoord geeft hij er, zoals de laatste lessen lieten zien, geen: die masdars worden geleerd."
+   ],
+   "terms": [
+    "de regelmatige masdar van een langer werkwoord",
+    "de verlenging: de lange a voor de laatste letter van ifti'al, istif'al",
+    "de twee masdars van fa''ala",
+    "een werkwoord met een zwakke laatste stamletter"
+   ],
+   "examples": [
+    "ihtiqar, inkisar, istikhraj: kasra op de derde, lange a voor de laatste (vervoegingsengine)",
+    "tafaddul, tadarub: damma voor de laatste (vervoegingsengine)",
+    "zilzal, van zalzala: fi'lal (de Marah)",
+    "taqti', van qatta'a: taf'il (vervoegingsengine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak de masdar van ihtaqara en istakhraja met de vervoegingsengine, en zeg welke letter de kasra neemt.",
+     "answer": "Ihtiqar en istikhraj (اِحْتِقَارٌ، اِسْتِخْرَاجٌ). Als je de hamza als de eerste letter telt, neemt de derde letter (de ta' in beide) de kasra, en staat er een lange a voor de laatste letter."
+    },
+    {
+     "prompt": "Hoe wordt de masdar van tafa''ala en tafa'ala gemaakt?",
+     "answer": "Uit de madi zelf, met een damma op de letter voor de laatste: tafaddul, tadarub (en in plaats daarvan een kasra voor een zwakke laatste letter)."
+    },
+    {
+     "prompt": "Wanneer neemt fa''ala taf'il, en wanneer taf'ila?",
+     "answer": "Taf'il wanneer zijn laatste stamletter gaaf is (qatta'a, taqti'); taf'ila, noodzakelijk, wanneer die zwak is; en een gaaf fa''ala heeft soms ook taf'ila."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In de masdar van een werkwoord met een verbindingshamza valt de kasra op…",
+     "options": [
+      "de eerste letter",
+      "de tweede letter",
+      "de laatste letter",
+      "de derde letter"
+     ],
+     "explanation": "Ihtiqar, istikhraj."
+    },
+    {
+     "prompt": "Voor de laatste letter van die masdar staat…",
+     "options": [
+      "een lange a",
+      "een lange i",
+      "een lange u",
+      "niets"
+     ],
+     "explanation": "“Met een verlenging van wat de laatste volgt.”"
+    },
+    {
+     "prompt": "De masdar van tafaddala is…",
+     "options": [
+      "tafdil",
+      "tafaddul",
+      "tafaddal",
+      "tifiddal"
+     ],
+     "explanation": "Een damma voor de laatste letter."
+    },
+    {
+     "prompt": "Fa'lala neemt als masdar…",
+     "options": [
+      "taf'il",
+      "if'ilal",
+      "fi'lal en fa'lala",
+      "mufa'ala"
+     ],
+     "explanation": "Zilzal; dahraja, dihraj."
+    },
+    {
+     "prompt": "Fa''ala met een gave laatste letter neemt…",
+     "options": [
+      "noodzakelijk taf'ila",
+      "alleen fi''al",
+      "mufa''al",
+      "taf'il"
+     ],
+     "explanation": "Qatta'a, taqti'."
+    },
+    {
+     "prompt": "Fa''ala met een zwakke laatste letter neemt…",
+     "options": [
+      "noodzakelijk taf'ila",
+      "taf'il",
+      "fi'lal",
+      "geen masdar"
+     ],
+     "explanation": "“Maak voor het werkwoord dat haar heeft taf'ila noodzakelijk.”"
+    },
+    {
+     "prompt": "Voor een zwakke laatste letter wordt de damma van tafa''ul…",
+     "options": [
+      "een fatha",
+      "een kasra",
+      "een sukun",
+      "een waw"
+     ],
+     "explanation": "“Geef het een kasra voor een letter die zwakte toelaat.”"
+    }
+   ],
+   "diagram": {
+    "caption": "Masdars van de langere werkwoorden (vervoegingsengine; zalzala uit de Marah, dahraja uit de Maqsud)",
+    "labels": {
+     "Past": "Madi",
+     "Maṣdar": "Masdar",
+     "Rule": "Regel",
+     "kasra on the third, ā before the last": "kasra op de derde, lange a voor de laatste",
+     "the same": "hetzelfde",
+     "ḍamma before the last": "damma voor de laatste",
+     "faʿlala: fiʿlāl": "fa'lala: fi'lal",
+     "faʿlala: faʿlala and fiʿlāl": "fa'lala: fa'lala en fi'lal",
+     "faʿʿala: tafʿīl": "fa''ala: taf'il"
+    }
+   }
+  },
+  "16": {
+   "title": "Meer masdars van de langere werkwoorden, en de ta' van één keer",
+   "body": [
+    "Sommige minder gewone masdars zijn ook juist, en het gedicht prijst wie ze gebruikt: “wie tafa''ala verbindt met tifi''al, en fa''ala met al-fi''al, prijs hem om wat hij deed”. De Marah geeft tihimmal van tahammala en killam van kallama; de Koran heeft wa-kadhdhabu bi-ayatina kidhdhaban (78:28), kidhdhab van kadhdhaba.",
+    "“En taf'al kan gebracht worden voor fa''ala, bij het vermenigvuldigen van een handeling, zoals tasyar”, “veel reizen”. De Marah noemt al-tahdar en al-tal'ab onder de masdars van de intensiteit. En fi''ila wordt gemaakt “voor het drieletterige werkwoord, voor de intensiteit”, zoals al-hiththitha en al-dillila in de Marah; het kan ook in de plaats van tafa'ul staan.",
+    "“Met al-fu'allila hebben ze if'alalla laten volstaan”, “niet noodzakelijk”: naast zijn regelmatige masdar kan if'alalla fu'allila nemen, zoals het commentaar van Badr al-Din laat zien met qusha'rira, “huivering”, en tuma'nina, “rust”. “Maak voor fa'ala [met alif] fi'al of mufa'ala”, zoals qatala [met alif], muqatala en qital; “en fi'la is in de plaats van beide gekomen”.",
+    "Dan de ta'. Bij het holle werkwoord nemen if'al en istif'al een ta' “en daarmee ontstaat een vergoeding voor wat verwijderd is”: aqama, iqama; istaqama, istiqama. De weggevallen zwakke letter wordt door de ta' vergoed (de Marah bespreekt dezelfde ta', en de iqama van de Koran zonder haar).",
+    "Toegevoegd aan elke andere masdar maakt de ta' een naamwoord van één keer: “een enkele keer van wie handelde, wordt daardoor duidelijk gemaakt”. En wanneer de masdar al een eigen ta' heeft, “blijkt” de enkele keer, “voor wie begrijpt, door het noemen van wahida”, “één”: je voegt in plaats daarvan het woord “één” toe."
+   ],
+   "terms": [
+    "zeldzamere masdars van tafa''ala en fa''ala: tihimmal, kidhdhab",
+    "het vermenigvuldigen van een handeling: de betekenis van taf'al",
+    "de ta' van de vergoeding, zoals in iqama",
+    "het naamwoord van één keer, gemaakt met de ta'"
+   ],
+   "examples": [
+    "tihimmal, killam: tifi''al en fi''al (de Marah)",
+    "al-tahdar, al-tal'ab: taf'al voor veel doen (de Marah)",
+    "muqatala, van qatala [met alif]: mufa'ala (vervoegingsengine)",
+    "al-iqama, al-istiqama: de ta' van de vergoeding (de Marah)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de minder gewone masdars die het gedicht goedkeurt voor tafa''ala en fa''ala, met een voorbeeld van elk.",
+     "answer": "Tifi''al voor tafa''ala (tihimmal, van tahammala) en fi''al voor fa''ala (killam van kallama; kidhdhab van kadhdhaba, in 78:28). Ook taf'al voor fa''ala bij het vermenigvuldigen van een handeling (tasyar)."
+    },
+    {
+     "prompt": "Waarom heeft iqama een ta'?",
+     "answer": "Het is if'al van een hol werkwoord: zijn zwakke letter is bij de verandering verwijderd, en de ta' is toegevoegd als vergoeding ervoor. Istiqama is hetzelfde."
+    },
+    {
+     "prompt": "Hoe wordt een naamwoord van één keer gemaakt uit een masdar, en uit een masdar die al een ta' heeft?",
+     "answer": "Door de ta' aan de masdar toe te voegen; en als de masdar al een ta' heeft (zoals iqama), door het woord wahida, “één”, toe te voegen."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Tihimmal is een masdar van…",
+     "options": [
+      "tahammala",
+      "hamala",
+      "hammala",
+      "ihtamala"
+     ],
+     "explanation": "Tifi''al voor tafa''ala."
+    },
+    {
+     "prompt": "Kidhdhab in 78:28 is een masdar van…",
+     "options": [
+      "kadhaba, op fi''al",
+      "kadhdhaba, op fi''al",
+      "takadhaba",
+      "akdhaba"
+     ],
+     "explanation": "Fi''al voor fa''ala, door het gedicht goedgekeurd."
+    },
+    {
+     "prompt": "Taf'al, zoals tasyar, drukt uit…",
+     "options": [
+      "één keer",
+      "een wijze",
+      "het vermenigvuldigen van een handeling",
+      "een ambacht"
+     ],
+     "explanation": "Fi takthiri fi'lin."
+    },
+    {
+     "prompt": "De regelmatige masdar van qatala [met alif] in de vervoegingsengine is…",
+     "options": [
+      "taqtil",
+      "qitlal",
+      "iqtital",
+      "muqatala"
+     ],
+     "explanation": "Het gedicht staat ook fi'al toe."
+    },
+    {
+     "prompt": "De ta' van iqama is…",
+     "options": [
+      "een vergoeding voor de verwijderde letter",
+      "een teken van één keer",
+      "een teken van het vrouwelijk meervoud",
+      "een stamletter"
+     ],
+     "explanation": "Bij de if'al en istif'al van holle werkwoorden."
+    },
+    {
+     "prompt": "Toegevoegd aan andere masdars maakt de ta'…",
+     "options": [
+      "een naamwoord van plaats",
+      "een naamwoord van één keer",
+      "een meervoud",
+      "een verkleinwoord"
+     ],
+     "explanation": "“Een enkele keer … wordt daardoor duidelijk gemaakt.”"
+    },
+    {
+     "prompt": "Hoe wordt één keer getoond bij een masdar die al een ta' heeft?",
+     "options": [
+      "Door een tweede ta'",
+      "Door een mim",
+      "Door wahida toe te voegen",
+      "Het kan niet"
+     ],
+     "explanation": "“Door het noemen van wahida.”"
+    }
+   ],
+   "diagram": {
+    "caption": "Zeldzamere masdars en de ta' (Lamiyya vv. 81–89; voorbeelden uit de Marah en de vervoegingsengine)",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Maṣdar": "Masdar",
+     "Note": "Opmerking",
+     "tifiʿʿāl for tafaʿʿala": "tifi''al voor tafa''ala",
+     "fiʿʿāl for faʿʿala": "fi''al voor fa''ala",
+     "tafʿāl: much doing": "taf'al: veel doen",
+     "fiʿʿīlā: intensity": "fi''ila: intensiteit",
+     "mufāʿala; also fiʿāl": "mufa'ala; ook fi'al",
+     "the tāʾ for the dropped letter": "de ta' voor de weggevallen letter"
+    }
+   }
+  },
+  "17": {
+   "title": "Maf'al en maf'il: de regel en zijn uitzonderingen",
+   "body": [
+    "Eén patroon met een mim dient voor drie dingen: de masdar (“de masdar met mim”), de plaats en de tijd. “Breng van het drieletterige werkwoord dat geen yaf'ilu heeft maf'al”, beide “voor de masdar, of voor waarin [de handeling] gedaan wordt”: waar de mudari' een fatha of een damma heeft, is alles maf'al, zoals madhhab, madkhal, maqtal in de Marah.",
+    "“Evenzo wat een zwakke lam heeft, zonder meer”: marma, van rama yarmi, heeft een fatha hoewel zijn mudari' een kasra heeft. “En wanneer de fa' een waw is”, komt het naamwoord “met een kasra, zonder meer”: maw'id, mawjil, zelfs waar de mudari' een fatha heeft (wajila yawjalu). Maar “dat de waw de fa' is, heeft geen effect wanneer de lam zwak is”, zoals mawlan: de fatha van de zwakke lam wint (en de dichter voegt een woordspel toe op wala', “houd dus de ware vriendschap”).",
+    "“Bij andere dan deze”, het werkwoord met yaf'ilu en een gave lam en geen waw: “geef de 'ayn een fatha voor een masdar, en in wat anders is een kasra”. Dus is van jalasa yajlisu de plaats al-majlis, met een kasra, zoals de 'Izzi het heeft, terwijl zijn masdar met mim de fatha neemt. Eén klinker onderscheidt de masdar van de plaats. De Maqsud geeft dezelfde regel, en noemt al-marji' en al-masir als masdars die toch met een kasra kwamen.",
+    "“En onregelmatig is wat daarvan afwijkt”: er volgt een lange lijst, mazlama, matla', majma', mahmada, madhamma, mansak, madanna, mazalla, mafraq, madalla, madabb, mahshar, maskan, mahall, ma'jaz, mahlaka, ma'taba; maf'al van wada'a en wajila; maf'ala van hasiba en daraba, en mawqa'a. “Al deze hebben twee manieren gekregen”: ze worden met beide klinkers gehoord, tegen de regel in. Onze klinkers volgen Volck, die ze met fatha geeft; het commentaar zegt dat elk beide heeft.",
+    "Vergelijk de Marah (zijn les 27): hij geeft dezelfde regel uit de toekomende vorm (maf'al uit yaf'alu, maf'il uit yaf'ilu, de mithal en de naqis als uitzonderingen) en zijn eigen lijst van naamwoorden met kasra. De Lamiyya voegt het gebruik voor de masdar toe, en de woorden met beide klinkers."
+   ],
+   "terms": [
+    "de masdar met een mim, zoals madkhal",
+    "de naamwoorden van tijd en plaats, zoals al-majlis",
+    "zwak in zijn lam: altijd maf'al",
+    "de twee manieren: woorden gehoord met fatha en met kasra"
+   ],
+   "examples": [
+    "al-madhhab, al-marma: maf'al (de Marah)",
+    "maw'id: maf'il wanneer de fa' een waw is (de Marah)",
+    "ka-mawlan: de zwakke lam wint van de waw",
+    "mazlama, matla', majma', mahmada: woorden met twee manieren"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het patroon van de masdar en van de plaats voor: dhahaba yadhhabu; rama yarmi; wa'ada ya'idu; jalasa yajlisu.",
+     "answer": "Dhahaba: maf'al voor beide (madhhab). Rama: maf'al voor beide, omdat de lam zwak is (marma). Wa'ada: maf'il voor beide, omdat de fa' een waw is (maw'id). Jalasa: maf'al voor de masdar, maf'il voor de plaats en de tijd (al-majlis)."
+    },
+    {
+     "prompt": "Waarom staat mawlan op maf'al, hoewel zijn fa' een waw is?",
+     "answer": "Omdat ook zijn lam zwak is, en het gedicht zegt dat de waw als fa' geen effect heeft wanneer de lam zwak is: de fatha van de zwakke lam wint."
+    },
+    {
+     "prompt": "Wat zegt het gedicht over mazlama, matla', majma' en de rest van zijn lijst?",
+     "answer": "Dat ze van de regel afwijken (onregelmatig zijn), en dat ze alle met twee manieren gehoord worden, fatha en kasra."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Van een drieletterig werkwoord zonder yaf'ilu zijn masdar en plaats…",
+     "options": [
+      "maf'il",
+      "maf'al",
+      "muf'al",
+      "mif'al"
+     ],
+     "explanation": "Zoals madhhab."
+    },
+    {
+     "prompt": "Een werkwoord met een zwakke lam maakt…",
+     "options": [
+      "maf'il, zonder meer",
+      "maf'al alleen voor de plaats",
+      "maf'al, zonder meer",
+      "geen naamwoord van plaats"
+     ],
+     "explanation": "Marma, van rama yarmi, hoewel zijn mudari' een kasra heeft."
+    },
+    {
+     "prompt": "Wanneer de fa' een waw is, is het naamwoord…",
+     "options": [
+      "maf'al",
+      "muf'al",
+      "mif'al [met lange a]",
+      "maf'il, zonder meer"
+     ],
+     "explanation": "Maw'id, mawjil."
+    },
+    {
+     "prompt": "Mawlan laat zien dat…",
+     "options": [
+      "een zwakke lam boven de waw als fa' gaat",
+      "de waw altijd kasra geeft",
+      "de plaats een damma heeft",
+      "het onregelmatig is"
+     ],
+     "explanation": "“Dat de waw de fa' is, heeft geen effect wanneer de lam zwak is.”"
+    },
+    {
+     "prompt": "Van een werkwoord met yaf'ilu is de masdar met mim volgens de regel…",
+     "options": [
+      "maf'il",
+      "maf'al",
+      "muf'al",
+      "mif'al"
+     ],
+     "explanation": "Een fatha voor de masdar; de Maqsud zondert al-marji' en al-masir uit."
+    },
+    {
+     "prompt": "Al-majlis, van jalasa yajlisu, is een naamwoord van plaats op…",
+     "options": [
+      "maf'al",
+      "muf'il",
+      "maf'il",
+      "mif'al"
+     ],
+     "explanation": "Een kasra voor wat anders is dan de masdar, zoals in de 'Izzi."
+    },
+    {
+     "prompt": "Maw'id, van wa'ada, staat op maf'il omdat…",
+     "options": [
+      "zijn lam zwak is",
+      "zijn mudari' een fatha heeft",
+      "het onregelmatig is",
+      "zijn fa' een waw is"
+     ],
+     "explanation": "Wanneer de fa' een waw is, komt het naamwoord met een kasra, zonder meer."
+    }
+   ],
+   "diagram": {
+    "caption": "Maf'al en maf'il (Lamiyya vv. 90–97; voorbeelden uit het gedicht en de Marah)",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Maṣdar": "Masdar",
+     "Place, time": "Plaats, tijd",
+     "Example": "Voorbeeld",
+     "yafʿalu or yafʿulu": "yaf'alu of yaf'ulu",
+     "mafʿal": "maf'al",
+     "weak lām": "zwakke lam",
+     "wāw as fāʾ": "waw als fa'",
+     "mafʿil": "maf'il",
+     "wāw as fāʾ, weak lām": "waw als fa', zwakke lam",
+     "yafʿilu, the rest": "yaf'ilu, de rest",
+     "the listed words": "de genoemde woorden",
+     "both ways": "beide manieren"
+    }
+   }
+  }
+ },
+ "title": "Lamiyyat al-af'al",
+ "summary": "De Lamiyyat al-af'al, het gedicht van Ibn Malik over het werkwoord, heeft 114 verzen in het metrum basit, die alle op lam rijmen (vandaar zijn naam). Het is het sarf-gedicht van de Maghrib en van al-Azhar, dat uit het hoofd geleerd en met een commentaar gelezen wordt, waaronder dat van de zoon van de dichter, Badr al-Din. In elk een paar regels zet het de patronen uiteen van het kale en het vermeerderde werkwoord en de klinker van de mudari', de mudari', het passief en de gebiedende wijs, de deelwoorden, de masdars, de naamwoorden van tijd en plaats, het land van overvloed en het werktuig, en het pakt lange lijsten van werkwoorden en naamwoorden in zijn verzen. De lessen geven de verzen zoals de Caïrese druk van 1896 ze heeft, gevocaliseerd naar het metrum, verklaren elke regel met voorbeelden uit de verzen, uit de Ottomaanse boeken van de sarf en uit de vervoegingsengine van The Nahwi, en zeggen waar de druk twijfelachtig is."
+}
