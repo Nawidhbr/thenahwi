@@ -40,6 +40,26 @@ translation into English and (`i18n/<code>/primers/<id>.json`, `text` only) Indo
 Arabic instead of Persian for a Persian original — and per lesson an explanation, terms, examples, a diagram, written
 exercises (`tasks`) and a test. Each book's print, and how its text was checked, is in `textEdition` and on its page.
 
+| Id | Book | Science, stage | Print followed | Passages | Lessons |
+| --- | --- | --- | --- | --- | --- |
+| `ajurrumiyya` | al-Muqaddima al-Ājurrūmiyya | nahw, beginner | Cambridge 1852 (Arabic; [scan](https://archive.org/details/46-al-adjrumiieh)) | 70 | 35 |
+| `amthila` | al-Amthila al-mukhtalifa | sarf, beginner | 1317/1899–1900 (Arabic; [scan](https://archive.org/details/mecmuatussarf)) | 37 | 20 |
+| `awamil` | al-ʿAwāmil al-jadīda | nahw, beginner | Constantinople 1302/1885 (Arabic; [scan](https://archive.org/details/20260623_20260623_1051)) | 41 | 18 |
+| `bina` | Bināʾ al-afʿāl | sarf, beginner | 1316/1898–99 (Arabic; [scan](https://archive.org/details/mecmuatussarf)) | 46 | 16 |
+| `maqsud` | al-Maqṣūd | sarf, beginner | 1316/1898–99 (Arabic; [scan](https://archive.org/details/mecmuatussarf)) | 90 | 30 |
+| `izzi` | al-ʿIzzī | sarf, intermediate | c. 1316/1898–99 (Arabic; [scan](https://archive.org/details/mecmuatussarf)) | 102 | 32 |
+| `awamilmia` | al-ʿAwāmil al-miʾa | nahw, beginner | Calcutta 1814 (Arabic; [scan](https://archive.org/details/miutamilshurhoom00abdauoft)) | 21 | 15 |
+| `lamiyya` | Lāmiyyat al-afʿāl | sarf, intermediate | Cairo 1896 (Arabic; [scan](https://archive.org/details/hdhkitbmajmminmu00jazauoft)) | 52 | 20 |
+| `qatr` | Qaṭr al-nadā | nahw, intermediate | 1261/1845 (Arabic; [scan](https://archive.org/details/in.ernet.dli.2015.361062)) | 119 | 48 |
+| `mizan` | Mīzān al-ṣarf | sarf, beginner | Kanpur 1905 (Persian; [scan](https://archive.org/details/in.ernet.dli.2015.433705)) | 79 | 21 |
+| `nahwmir` | Naḥw-i Mīr | nahw, beginner | Lucknow 1884 (Persian; [scan](https://archive.org/details/in.ernet.dli.2015.434706)) | 121 | 39 |
+| `marah` | Marāḥ al-arwāḥ | sarf, intermediate | c. 1316/1898–99 (Arabic; [scan](https://archive.org/details/mecmuatussarf)) | 191 | 62 |
+| `izhar` | Iẓhār al-asrār | nahw, intermediate | Constantinople 1302/1885 (Arabic; [scan](https://archive.org/details/20260623_20260623_1051)) | 172 | 52 |
+| `hidaya` | Hidāyat al-naḥw | nahw, intermediate | Kanpur 1300/1883 (Arabic; [scan](https://archive.org/details/AAlexandrina-092498)) | 287 | 72 |
+
+How each text was transcribed and checked, and every doubtful reading for the teacher, is in
+`packages/content/primers/notes/<id>.md`.
+
 **Never reproduce a modern edition under copyright**, and never translate from one. Where only a modern edition
 exists, the lessons follow its order and the page names it, but its text is not shown.
 

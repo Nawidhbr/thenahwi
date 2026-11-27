@@ -15,6 +15,7 @@ export interface Update {
 }
 
 export const UPDATES: Update[] = [
+  { date: "2026-11-27", kind: "text", title: "Lāmiyyat al-afʿāl, with 20 lessons", body: "Ibn Mālik's poem of 114 verses on the verb, the ṣarf of the North-African path beside al-ʿIzzī: from the Cairo Majmūʿ of 1896, vocalised after the metre and checked against Volck's vowelled edition (Leipzig 1866), in 20 lessons.", href: "/study/lamiyya/" },
   { date: "2026-11-27", kind: "text", title: "Marāḥ al-arwāḥ, with 62 lessons", body: "The last and fullest of the five books of ṣarf of the Ottoman madrasa: the sound verb, then the doubled, hamzated, mithāl, hollow, defective and lafīf verbs with the changes they undergo, transcribed from the Ottoman Majmūʿat al-ṣarf and taught in 62 lessons.", href: "/study/marah/" },
   { date: "2026-11-27", kind: "text", title: "Hidāyat al-naḥw, with 72 lessons", body: "The Arabic handbook of naḥw read before al-Kāfiya in the Dars-i Niẓāmī, transcribed from the Kanpur lithograph of 1300/1883 and taught in 72 lessons: the noun and its iʿrāb, the verb, and the particles, on the Indian path's level 3.", href: "/study/hidaya/" },
   { date: "2026-11-27", kind: "text", title: "Iẓhār al-asrār, with 52 lessons", body: "Imām Birgivī's second book of naḥw, read after his al-ʿAwāmil on the Ottoman path: the governors, the governed and iʿrāb in full, transcribed from the Jawāʾib print of 1302/1885 and taught in 52 lessons.", href: "/study/izhar/" },
