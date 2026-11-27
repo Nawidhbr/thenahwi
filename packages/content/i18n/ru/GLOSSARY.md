@@ -204,6 +204,7 @@ follows the English source list, `packages/content/i18n/GLOSSARY.md`.
 | Jazm / majzūm | الجَزْمُ / مَجْزُومٌ | джазм / маджзум | состояние глагола с сукуном |
 | The governor / governed | العَامِلُ / المَعْمُولُ | амиль (управляющее) / маъмуль (управляемое) | — |
 | Expressed / abstract governor | العَامِلُ اللَّفْظِيُّ / المَعْنَوِيُّ | словесный / смысловой амиль | — |
+| Heard / analogical governor | العَامِلُ السَّمَاعِيُّ / القِيَاسِيُّ | слышимый (самаи) / аналогический (кыяси) амиль | the Arabic term in brackets keeps it apart from иъраб слышимый (lafẓī) |
 | Explicit noun / pronoun | الظَّاهِرُ / المُضْمَرُ | явное имя (захир) / местоимение (мудмар) | — |
 | Attached / separate pronoun | المُتَّصِلُ / المُنْفَصِلُ | слитное / раздельное местоимение | — |
 | Dropping | الحَذْفُ | опущение (хазф) | — |

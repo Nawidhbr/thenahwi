@@ -1,0 +1,1964 @@
+{
+ "parts": {
+  "opening": "Honderd regeerders",
+  "heard-particles": "De gehoorde regeerders: de partikels",
+  "heard-nouns": "De gehoorde regeerders: de naamwoorden",
+  "heard-verbs": "De gehoorde regeerders: de werkwoorden",
+  "analogical-and-abstract": "De regeerders naar analogie en de abstracte regeerders"
+ },
+ "lessons": {
+  "1": {
+   "title": "Honderd regeerders en hun indeling",
+   "body": [
+    "Na de basmala en de naam van de auteur geeft het boek een getal: de regeerders ('awamil) van de nahw zijn honderd. Een regeerder ('amil) is alles wat de uitgang van een ander woord veroorzaakt: het partikel bi- dat Zayd in jarr zet in marartu bi-Zaydin, “ik kwam langs Zayd”, of het werkwoord kana dat qa'iman in nasb zet in kana Zaydun qa'iman, “Zayd stond”. Het boek definieert de regeerder niet; het somt de regeerders op, zodat de student die de lijst kent, de oorzaak kan noemen van de uitgangen die hij leest.",
+    "De eerste indeling is in uitgesproken (lafziyya) en abstracte (ma'nawiyya) regeerders. Een uitgesproken regeerder is een woord dat je kunt horen en aanwijzen, zoals bi- of kana. Een abstracte regeerder is helemaal geen woord, maar een toestand van de zin, zoals het vooraan staan van een naamwoord zonder iets ervoor. Van de honderd zijn er achtennegentig uitgesproken en twee abstract.",
+    "De uitgesproken regeerders zijn weer van twee soorten. De gehoorde (sama'iyya) zijn eenennegentig woorden waarvan de werking alleen bekend is uit het taalgebruik van de Arabieren: niets dan hun spraak vertelt ons dat rubba zijn naamwoord in jarr zet of dat lan het werkwoord in nasb zet, dus die leer je één voor één, als een lijst. De regeerders naar analogie (qiyasiyya) zijn zeven klassen van woorden die door een regel bepaald worden, zoals “het werkwoord regeert”: elk woord van de klasse regeert op dezelfde manier zonder dat het opgesomd wordt. Dus 91 + 7 + 2 = 100.",
+    "De eenennegentig gehoorde regeerders vallen in dertien soorten, die het boek een voor een behandelt: zes soorten partikels, drie van naamwoorden en vier van werkwoorden. Elke soort wordt genoemd naar wat ze doet (“partikels die alleen het naamwoord in jarr zetten”, “partikels die het naamwoord in nasb en de khabar in raf' zetten”), dan geteld, opgesomd en in korte voorbeelden getoond. De student leert de lijst uit het hoofd en leest hem daarna met een commentaar; de druk van Lockett, die onze tekst volgt, heeft daarna de Arabische Sharh Mi'at 'amil.",
+    "Twee waarschuwingen. “Gehoord” betekent niet zeldzaam: de partikels van de jarr en inna behoren tot de meest gebruikte woorden van de taal; het betekent alleen dat hun werking uit het gebruik geleerd wordt, niet met een regel afgeleid. En het getal is een manier van onderwijzen: Birgivi, die dit boek kende, telde zestig regeerders in zijn al-'Awamil al-jadida, en verdeelde ongeveer dezelfde stof op een andere manier."
+   ],
+   "terms": [
+    "de regeerder: wat de uitgang van een ander woord veroorzaakt",
+    "uitgesproken: een regeerder die een woord is",
+    "abstract: een regeerder die geen woord is",
+    "gehoord: alleen bekend uit het taalgebruik van de Arabieren, als lijst geleerd",
+    "naar analogie: regerend door een regel die een hele klasse dekt"
+   ],
+   "examples": [
+    "mi'atu 'amilin: minha lafziyyatun wa-minha ma'nawiyyatun, “honderd regeerders: sommige uitgesproken, sommige abstract”",
+    "marartu bi-Zaydin, “ik kwam langs Zayd”: bi-, een gehoorde regeerder, zet Zayd in jarr",
+    "kana Zaydun qa'iman, “Zayd stond”: kana, een gehoorde regeerder van de tiende soort"
+   ],
+   "tasks": [
+    {
+     "prompt": "Tel de honderd regeerders op naar hun indeling, en de gehoorde naar hun drie groepen.",
+     "answer": "Gehoord 91 + naar analogie 7 + abstract 2 = 100. De gehoorde zijn 41 partikels (soorten 1–6: 17 + 6 + 2 + 7 + 4 + 5), 22 naamwoorden (soorten 7–9: 9 + 4 + 9) en 28 werkwoorden (soorten 10–13: 13 + 4 + 4 + 7)."
+    },
+    {
+     "prompt": "Is elke regeerder uitgesproken of abstract, en als hij uitgesproken is, gehoord of naar analogie? (a) bi- in marartu bi-Zaydin; (b) kana in kana Zaydun qa'iman; (c) wat Zaydun in raf' zet in Zaydun fi al-dari, “Zayd is in het huis”.",
+     "answer": "(a) Uitgesproken en gehoord: een partikel van de jarr, de eerste soort. (b) Uitgesproken en gehoord: een onvolledig werkwoord, de tiende soort. (c) Abstract: er staat geen woord voor Zaydun; zijn plaats aan het begin van de zin (de ibtida') zet het in raf'."
+    },
+    {
+     "prompt": "Waarom moeten de gehoorde regeerders als lijst geleerd worden, en die naar analogie niet?",
+     "answer": "De werking van een gehoorde regeerder is alleen bekend uit het taalgebruik van de Arabieren: geen regel vertelt ons dat rubba jarr geeft of lan nasb, dus elk woord wordt apart geleerd. Een regeerder naar analogie is een klasse met een regel, zoals “het werkwoord regeert”, dus elk woord van de klasse regeert zonder genoemd te worden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel regeerders telt al-Jurjani?",
+     "options": [
+      "Zestig",
+      "Honderd",
+      "Eenennegentig",
+      "Dertien"
+     ],
+     "explanation": "Eenennegentig gehoorde, zeven naar analogie en twee abstracte: honderd."
+    },
+    {
+     "prompt": "Een abstracte (ma'nawi) regeerder is…",
+     "options": [
+      "een woord dat zelden gebruikt wordt",
+      "een partikel met twee betekenissen",
+      "geen woord, maar een toestand van de zin",
+      "een werkwoord zonder fa'il"
+     ],
+     "explanation": "Hij heeft geen woordvorm; de twee van het boek zijn de ibtida' en het staan van de mudari' op de plaats van een naamwoord."
+    },
+    {
+     "prompt": "Hoeveel gehoorde (sama'i) regeerders zijn er?",
+     "options": [
+      "Zeven",
+      "Twee",
+      "Achtennegentig",
+      "Eenennegentig"
+     ],
+     "explanation": "Achtennegentig zijn uitgesproken; daarvan zijn er eenennegentig gehoord en zeven naar analogie."
+    },
+    {
+     "prompt": "In hoeveel soorten worden de gehoorde regeerders verdeeld?",
+     "options": [
+      "Dertien",
+      "Zeven",
+      "Drie",
+      "Twee"
+     ],
+     "explanation": "Dertien soorten: zes van partikels, drie van naamwoorden en vier van werkwoorden."
+    },
+    {
+     "prompt": "Waarom heet een regeerder “gehoord”?",
+     "options": [
+      "Hij wordt hardop uitgesproken",
+      "Zijn werking is alleen bekend uit het taalgebruik van de Arabieren",
+      "Hij is zeldzaam in de spraak",
+      "Hij regeert maar één woord"
+     ],
+     "explanation": "Sama'i betekent: geleerd uit wat van de Arabieren gehoord is, niet met een regel afgeleid."
+    },
+    {
+     "prompt": "Welke is een regeerder naar analogie?",
+     "options": [
+      "Het partikel rubba",
+      "Het partikel lan",
+      "Het werkwoord",
+      "Het partikel inna"
+     ],
+     "explanation": "Het werkwoord regeert door een regel die elk werkwoord dekt; rubba, lan en inna zijn gehoorde regeerders."
+    },
+    {
+     "prompt": "De regeerder van een woord is…",
+     "options": [
+      "het woord dat erop volgt",
+      "zijn wortel",
+      "het laatste woord van de zin",
+      "wat zijn uitgang veroorzaakt"
+     ],
+     "explanation": "In marartu bi-Zaydin is bi- de regeerder van Zaydin: het veroorzaakt zijn jarr."
+    }
+   ],
+   "diagram": {
+    "caption": "De honderd regeerders: 91 gehoord (41 partikels, 22 naamwoorden, 28 werkwoorden), 7 naar analogie, 2 abstract.",
+    "labels": {
+     "The hundred governors": "De honderd regeerders",
+     "Expressed (lafẓī): 98": "Uitgesproken (lafzi): 98",
+     "Heard (samāʿī): 91": "Gehoord (sama'i): 91",
+     "particles: kinds 1–6": "partikels: soorten 1–6",
+     "nouns: kinds 7–9": "naamwoorden: soorten 7–9",
+     "verbs: kinds 10–13": "werkwoorden: soorten 10–13",
+     "Analogical (qiyāsī): 7": "Naar analogie (qiyasi): 7",
+     "Abstract (maʿnawī): 2": "Abstract (ma'nawi): 2"
+    }
+   }
+  },
+  "2": {
+   "title": "De eerste soort: de zeventien partikels van de jarr",
+   "body": [
+    "De eerste soort zijn de partikels die “alleen het naamwoord in jarr zetten”: zeventien partikels, die elk het ene naamwoord erna regeren, dat de kasra of een ander kenteken van de jarr aanneemt. “Alleen” (faqat) onderscheidt deze soort van de volgende: een partikel van de jarr regeert één woord en niets meer, terwijl inna en haar zusters er twee regeren, een naamwoord en een khabar. En het regeert alleen naamwoorden: de jarr hoort bij het naamwoord en nooit bij het werkwoord. Het partikel heet jarr (met lange a: “wat in jarr zet”), het naamwoord erna majrur, en de twee samen een jarr wa-majrur.",
+    "De meeste zijn alledaagse woorden met een eenvoudige betekenis, en de voorbeelden van het boek laten ze zien: marartu bi-Zaydin, “ik kwam langs Zayd”; sirtu mina al-basrati ila al-kufati, “ik reisde van Basra naar Kufa”, min voor het beginpunt en ila voor het eindpunt; ramaytu al-sahma 'ani al-qawsi, “ik schoot de pijl van de boog af”, 'an voor het zich verwijderen; Zaydun fi al-dari, “Zayd is in het huis”; al-malu li-Zaydin, “het geld is van Zayd”, li- voor bezit; Zaydun 'ala al-sathi, “op het dak”; Zaydun ka-al-asadi, “als de leeuw”. Vijf ervan zijn één letter die aan het naamwoord vastzit: bi-, li-, ka-, en de waw en de ta' van de eed.",
+    "Sommige vragen een woord meer. Rubba, “menig”, komt alleen voor een onbepaald naamwoord (rajulin, nooit al-rajuli), en in het voorbeeld van het boek beschrijft een zin dat naamwoord: rubba rajulin laqituhu, “menig man heb ik ontmoet”. Mudh en mundhu, “sinds”, komen voor een tijd: ma ra'aytuhu mundhu yawmi al-jumu'ati, “ik heb hem niet gezien sinds vrijdag”. Hatta, “tot”, markeert het eind van iets: akaltu al-samakata hatta ra'siha, “ik at de vis op tot aan zijn kop”. De grammatici kennen deze zin met drie uitgangen: ra'siha, zoals hier, met hatta als partikel van de jarr; ra'saha, met hatta dat de kop aan de vis verbindt, “ik at de vis, zelfs zijn kop”; en ra'suha, een nieuwe zin, “zelfs zijn kop [werd gegeten]”. Het boek geeft de eerste, omdat dit het hoofdstuk van de jarr is.",
+    "De waw en de ta' van de eed zetten de naam waarbij gezworen wordt in jarr: wa-Allahi en ta-Allahi, “bij God”. Waarop gezworen wordt, volgt als een eigen zin: la-af'alanna kadha, “ik zal zeker zus-en-zo doen”. De waw zweert bij elke naam; de ta' wordt bijna alleen met de naam van God gebruikt.",
+    "De laatste drie, hasha, khala en 'ada, betekenen “behalve”: ze nemen één naamwoord uit de rest, ja'ani al-qawmu hasha Zaydin, “de mensen kwamen naar mij, behalve Zayd”. Het boek telt ze als partikels van de jarr, en dat zijn ze ook wanneer het naamwoord erna in jarr staat. De grammatici gebruiken khala en 'ada, en sommigen ook hasha, ook als werkwoorden, met het naamwoord erna in nasb; dat hoort bij het hoofdstuk van de uitzondering, en de vierde soort zal illa geven, dat het uitgezonderde naamwoord in nasb zet.",
+    "Een valkuil: in marartu bi-Zaydin is de regeerder van Zaydin bi-, niet het werkwoord marartu. Het werkwoord bereikt Zayd alleen via het partikel, en de jarr is het werk van het partikel. Telkens wanneer een naamwoord op een van de zeventien volgt, vraag dan eerst of het partikel zijn regeerder is."
+   ],
+   "terms": [
+    "de partikels die een naamwoord in jarr zetten",
+    "het naamwoord in jarr",
+    "“menig”: alleen voor een onbepaald naamwoord",
+    "de waw en de ta' van de eed"
+   ],
+   "examples": [
+    "sirtu mina al-basrati ila al-kufati: min voor het begin, ila voor het eind",
+    "rubba rajulin laqituhu, “menig man heb ik ontmoet”: rubba voor een onbepaald naamwoord",
+    "akaltu al-samakata hatta ra'siha, “ik at de vis op tot aan zijn kop”",
+    "wa-Allahi la-af'alanna kadha, “bij God, ik zal zeker zus-en-zo doen”",
+    "ja'ani al-qawmu hasha Zaydin, “de mensen kwamen naar mij, behalve Zayd”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek in elk het partikel van de jarr en het naamwoord dat het regeert: ramaytu al-sahma 'ani al-qawsi; al-malu li-Zaydin; Zaydun 'ala al-sathi.",
+     "answer": "'An regeert al-qawsi; li- regeert Zaydin; 'ala regeert al-sathi. Elk naamwoord staat in jarr, te zien aan de kasra. (De kasra op 'ani is alleen een klinker om het met het volgende woord te verbinden.)"
+    },
+    {
+     "prompt": "Waarom zegt het boek rubba rajulin, en waarom zou rubba al-rajuli fout zijn?",
+     "answer": "Rubba komt alleen voor een onbepaald naamwoord: rajulin, “een man”, niet al-rajuli, “de man”. Het spreekt over veel mannen van een soort, niet over één bekende man."
+    },
+    {
+     "prompt": "Geef de drie lezingen van akaltu al-samakata hatta ra's-, en zeg welke bij dit hoofdstuk hoort.",
+     "answer": "Ra'siha, in jarr: hatta is een partikel van de jarr, “tot aan zijn kop”; dit is de lezing van het boek en van dit hoofdstuk. Ra'saha, in nasb: hatta verbindt de kop aan al-samakata, “zelfs zijn kop”. Ra'suha, in raf': een nieuwe zin, “zelfs zijn kop [werd gegeten]”."
+    },
+    {
+     "prompt": "Wat is in marartu bi-Zaydin de regeerder van Zaydin: het werkwoord of het partikel?",
+     "answer": "Het partikel bi-. Het werkwoord marartu bereikt Zayd alleen via het partikel, en de jarr van Zaydin is het werk van het partikel."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel partikels van de jarr telt dit boek?",
+     "options": [
+      "Twintig",
+      "Zes",
+      "Zeventien",
+      "Zeven"
+     ],
+     "explanation": "Zeventien, van de ba' tot 'ada; de al-'Awamil al-jadida van Birgivi telt er twintig."
+    },
+    {
+     "prompt": "Wat zegt “alleen” (faqat) over deze soort?",
+     "options": [
+      "Ze regeren alleen werkwoorden",
+      "Ze worden alleen in poëzie gebruikt",
+      "Elk heeft maar één betekenis",
+      "Elk partikel regeert één naamwoord en niets meer"
+     ],
+     "explanation": "Een partikel van de jarr regeert het ene naamwoord erna; de volgende soort regeert een naamwoord en een khabar."
+    },
+    {
+     "prompt": "Rubba komt alleen voor…",
+     "options": [
+      "een onbepaald naamwoord",
+      "een bepaald naamwoord",
+      "een werkwoord",
+      "een voornaamwoord"
+     ],
+     "explanation": "Rubba rajulin, “menig man”: nooit rubba al-rajuli."
+    },
+    {
+     "prompt": "In ma ra'aytuhu mundhu yawmi al-jumu'ati betekent mundhu…",
+     "options": [
+      "tot",
+      "sinds",
+      "behalve",
+      "zoals"
+     ],
+     "explanation": "Mudh en mundhu komen voor een tijd: “ik heb hem niet gezien sinds vrijdag”."
+    },
+    {
+     "prompt": "Welk partikel wordt in een eed gebruikt?",
+     "options": [
+      "De kaf",
+      "'Ala",
+      "De ta'",
+      "Rubba"
+     ],
+     "explanation": "De waw en de ta' van de eed: wa-Allahi, ta-Allahi, “bij God”."
+    },
+    {
+     "prompt": "In ja'ani al-qawmu hasha Zaydin staat Zaydin…",
+     "options": [
+      "in nasb als maf'ul bihi",
+      "in raf' als fa'il",
+      "in jarr door idafa",
+      "in jarr door hasha"
+     ],
+     "explanation": "Het boek telt hasha onder de partikels van de jarr: het uitgezonderde naamwoord staat in jarr."
+    },
+    {
+     "prompt": "In al-malu li-Zaydin betekent de lam…",
+     "options": [
+      "bezit",
+      "gelijkenis",
+      "de eed",
+      "tijd"
+     ],
+     "explanation": "“Het geld is van Zayd”: de lam van het bezit."
+    }
+   ],
+   "diagram": {
+    "caption": "De zeventien partikels van de jarr, met de voorbeelden van het boek (blz. 1–2)",
+    "labels": {
+     "Particle": "Partikel",
+     "Meaning": "Betekenis",
+     "The book's example": "Voorbeeld van het boek",
+     "الْبَاءُ bi-": "الْبَاءُ bi-",
+     "by, with": "door, met",
+     "مِنْ min": "مِنْ min",
+     "from": "van, uit",
+     "عَنْ ʿan": "عَنْ 'an",
+     "away from": "weg van",
+     "إِلَى ilā": "إِلَى ila",
+     "to": "naar",
+     "فِي fī": "فِي fi",
+     "in": "in",
+     "اللَّامُ li-": "اللَّامُ li-",
+     "for, belonging to": "voor, van (bezit)",
+     "رُبَّ rubba": "رُبَّ rubba",
+     "many a": "menig",
+     "عَلَى ʿalā": "عَلَى 'ala",
+     "on": "op",
+     "الْكَافُ ka-": "الْكَافُ ka-",
+     "like": "als, zoals",
+     "مُذْ، مُنْذُ mudh, mundhu": "مُذْ، مُنْذُ mudh, mundhu",
+     "since": "sinds",
+     "حَتَّى ḥattā": "حَتَّى hatta",
+     "up to": "tot",
+     "وَاوُ الْقَسَمِ wa-": "وَاوُ الْقَسَمِ wa-",
+     "by (in an oath)": "bij (in een eed)",
+     "تَاءُ الْقَسَمِ ta-": "تَاءُ الْقَسَمِ ta-",
+     "حَاشَا ḥāshā": "حَاشَا hasha",
+     "except": "behalve",
+     "خَلَا، عَدَا khalā, ʿadā": "خَلَا، عَدَا khala, 'ada"
+    }
+   }
+  },
+  "3": {
+   "title": "Inna en haar zusters; ma en la zoals laysa",
+   "body": [
+    "De tweede soort regeert twee woorden tegelijk, een naamwoord en zijn khabar: zes partikels die “het naamwoord in nasb en de khabar in raf' zetten”. Ze komen voor een zin van mubtada' en khabar en veranderen de eerste uitgang ervan: Zaydun qa'imun, “Zayd staat”, wordt inna Zaydan qa'imun, “Zayd staat werkelijk”. Het eerste woord, nu in nasb, heet het ism (naamwoord) van inna; het tweede blijft in raf' als zijn khabar.",
+    "Elk brengt een eigen betekenis mee. Inna, “werkelijk”, bevestigt de zin. Anna, “dat”, maakt de hele zin tot een deel van een andere: in balaghani anna Zaydan muntaliqun, “het heeft mij bereikt dat Zayd vertrekt”, staat anna met zijn ism en khabar voor een masdar, “het vertrek van Zayd”, en is de fa'il van balagha. Ka'anna, “alsof”, vergelijkt: ka'anna Zaydan asadun. Lakinna, “maar”, verbetert wat ervoor kwam: qama Zaydun lakinna 'Amran jalisun, “Zayd stond op, maar 'Amr zit”. Layta, “was het maar”, wenst, zelfs wat niet kan: layta al-shababa 'a'idun, “kwam de jeugd maar terug”. La'alla, “misschien”, hoopt: la'alla 'Amran kharijun.",
+    "De madrasa noemt ze “de partikels die op het werkwoord lijken” (al-huruf al-mushabbaha bi-l-fi'l). De commentatoren geven de redenen: zoals een werkwoord in de verleden tijd hebben ze drie letters of meer en eindigen ze op een fatha; ze dragen de betekenis van een werkwoord (inna is “ik bevestig”, layta “ik wens”); en ze regeren twee woorden, één in raf' en één in nasb, zoals een werkwoord waarvan de maf'ul bihi voor de fa'il is gezet.",
+    "De derde soort is het spiegelbeeld van de tweede: twee partikels die “het naamwoord in raf' en de khabar in nasb zetten”, ma en la, “die op laysa lijken”, “is niet”. Laysa, een van de onvolledige werkwoorden van de tiende soort, geeft raf' aan zijn ism en nasb aan zijn khabar; ma en la, die ook ontkennen, lenen zijn werking: ma Zaydun fadilan, “Zayd is niet voortreffelijk”; la rajulun afdala minka, “geen man is beter dan jij”. Dit is het gebruik van de mensen van de Hijaz, waarin de Koran zegt: ma hadha basharan (Koran 12:31); de Banu Tamim laten ma zonder werking en zeggen ma Zaydun fadilun.",
+    "Twee valkuilen. De la van deze soort neemt onbepaalde naamwoorden en laat ze met tanwin, rajulun; het is niet de la die de hele soort ontkent, la rajula fi al-dari, “er is geen man in het huis”, die een fatha zonder tanwin neemt en werkt zoals inna. En verwar de twee spiegelsoorten niet: bij inna staat het eerste naamwoord in nasb (inna Zaydan qa'imun), bij ma het tweede (ma Zaydun fadilan)."
+   ],
+   "terms": [
+    "het ism van inna (in nasb) en zijn khabar (in raf')",
+    "de partikels die op het werkwoord lijken: inna en haar zusters",
+    "ma en la die op laysa lijken",
+    "de khabar: wat van het naamwoord gezegd wordt"
+   ],
+   "examples": [
+    "inna Zaydan qa'imun, “Zayd staat werkelijk”: het ism in nasb, de khabar in raf'",
+    "balaghani anna Zaydan muntaliqun, “het heeft mij bereikt dat Zayd vertrekt”",
+    "layta al-shababa 'a'idun, “kwam de jeugd maar terug”",
+    "ma Zaydun fadilan, “Zayd is niet voortreffelijk”: het ism in raf', de khabar in nasb",
+    "la rajulun afdala minka, “geen man is beter dan jij”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de i'rab van ka'anna Zaydan asadun.",
+     "answer": "Ka'anna: een partikel dat op het werkwoord lijkt, van vergelijking. Zaydan: zijn ism, in nasb door de fatha. Asadun: zijn khabar, in raf' door de damma. “Het is alsof Zayd een leeuw is.”"
+    },
+    {
+     "prompt": "Waarom is de khabar fadilan in ma Zaydun fadilan, maar fadilun in Zaydun fadilun?",
+     "answer": "Ma lijkt hier op laysa en werkt zoals laysa: zijn ism Zaydun blijft in raf' en zijn khabar wordt in nasb gezet. Zonder ma staan mubtada' en khabar allebei in raf'. (De Banu Tamim, die ma niet laten werken, zouden ma Zaydun fadilun zeggen.)"
+    },
+    {
+     "prompt": "Wat is in balaghani anna Zaydan muntaliqun de fa'il van balagha?",
+     "answer": "Anna met zijn ism en khabar, samen genomen als een masdar: “het vertrek van Zayd heeft mij bereikt”. De -ni is de maf'ul bihi van balagha."
+    },
+    {
+     "prompt": "Noem het ism en de khabar, met hun toestanden, in layta al-shababa 'a'idun en la rajulun afdala minka.",
+     "answer": "Layta: al-shababa is zijn ism, in nasb; 'a'idun zijn khabar, in raf'. La (zoals laysa): rajulun is zijn ism, in raf'; afdala zijn khabar, in nasb (afdal neemt geen tanwin), met minka erachter."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Inna en haar zusters zetten…",
+     "options": [
+      "het ism in raf' en de khabar in nasb",
+      "beide in nasb",
+      "alleen het naamwoord in jarr",
+      "het ism in nasb en de khabar in raf'"
+     ],
+     "explanation": "Inna Zaydan qa'imun: het ism Zaydan in nasb, de khabar qa'imun in raf'."
+    },
+    {
+     "prompt": "Hoeveel partikels zijn er in de tweede soort?",
+     "options": [
+      "Zes",
+      "Zeven",
+      "Twee",
+      "Vier"
+     ],
+     "explanation": "Inna, anna, ka'anna, lakinna, layta en la'alla."
+    },
+    {
+     "prompt": "Welk partikel drukt een wens uit?",
+     "options": [
+      "La'alla",
+      "Layta",
+      "Lakinna",
+      "Ka'anna"
+     ],
+     "explanation": "Layta al-shababa 'a'idun, “kwam de jeugd maar terug”: een wens, zelfs voor wat niet kan."
+    },
+    {
+     "prompt": "De ma en la van de derde soort lijken op…",
+     "options": [
+      "inna",
+      "rubba",
+      "laysa",
+      "lam"
+     ],
+     "explanation": "Zoals laysa ontkennen ze en geven ze raf' aan het ism en nasb aan de khabar."
+    },
+    {
+     "prompt": "In ma Zaydun fadilan is fadilan…",
+     "options": [
+      "het ism van ma, in nasb",
+      "een hal",
+      "een maf'ul bihi",
+      "de khabar van ma, in nasb"
+     ],
+     "explanation": "Zaydun is het ism van ma in raf', fadilan zijn khabar in nasb."
+    },
+    {
+     "prompt": "Ka'anna Zaydan asadun betekent…",
+     "options": [
+      "het is alsof Zayd een leeuw is",
+      "Zayd is werkelijk een leeuw",
+      "misschien is Zayd een leeuw",
+      "Zayd is geen leeuw"
+     ],
+     "explanation": "Ka'anna is het partikel van de vergelijking."
+    },
+    {
+     "prompt": "In la rajulun afdala minka is rajulun…",
+     "options": [
+      "de khabar van la, in raf'",
+      "het ism van la, in raf'",
+      "in nasb",
+      "de fa'il van een werkwoord"
+     ],
+     "explanation": "De la die op laysa lijkt, geeft raf' aan zijn ism en nasb aan zijn khabar, afdala."
+    }
+   ],
+   "diagram": {
+    "caption": "De tweede en de derde soort: twee spiegelbeelden (blz. 2)",
+    "labels": {
+     "Particle": "Partikel",
+     "Meaning": "Betekenis",
+     "Noun": "Ism",
+     "Predicate": "Khabar",
+     "The book's example": "Voorbeeld van het boek",
+     "إِنَّ inna": "إِنَّ inna",
+     "indeed": "werkelijk",
+     "naṣb": "nasb",
+     "rafʿ": "raf'",
+     "أَنَّ anna": "أَنَّ anna",
+     "that": "dat",
+     "كَأَنَّ kaʾanna": "كَأَنَّ ka'anna",
+     "as if": "alsof",
+     "لَكِنَّ lākinna": "لَكِنَّ lakinna",
+     "but": "maar",
+     "لَيْتَ layta": "لَيْتَ layta",
+     "if only": "was het maar",
+     "لَعَلَّ laʿalla": "لَعَلَّ la'alla",
+     "perhaps": "misschien",
+     "مَا mā": "مَا ma",
+     "not": "niet",
+     "لَا lā": "لَا la"
+    }
+   }
+  },
+  "4": {
+   "title": "De vierde soort: partikels die alleen het naamwoord in nasb zetten",
+   "body": [
+    "De vierde soort zijn zeven partikels die één naamwoord in nasb zetten en verder niets doen: de waw, illa, en vijf partikels van de aanroep (nida'), ya, aya, haya, ay en de hamza met fatha. Zoals de partikels van de jarr regeert elk één naamwoord; maar waar die jarr gaven, geven deze nasb.",
+    "De waw is hier niet de waw van “en”, die een woord in dezelfde toestand aan het vorige verbindt, en ook niet de waw van de eed. Het is de waw van de begeleiding (al-ma'iyya), met de betekenis “met”: istawa al-ma'u wa-al-khashabata, “het water steeg tot gelijk met de plank”. Het water en de plank stegen niet allebei: het water steeg tot het gelijk stond met de plank, dus de plank kan het werkwoord niet met het water delen, en wordt in nasb gezet. De grammatici noemen het de maf'ul ma'ahu (het voorwerp van begeleiding). Velen van hen zeggen dat het werkwoord het regeert, via de waw; al-Jurjani telt de waw zelf als zijn regeerder.",
+    "Illa, “behalve”, neemt er één uit een groep: ja'ani al-qawmu illa Zaydan, “de mensen kwamen naar mij behalve Zayd”. Zayd is het uitgezonderde (al-mustathna), in nasb; de mensen zijn waaruit hij genomen wordt (al-mustathna minhu). Vergelijk hasha Zaydin in de eerste soort: dezelfde betekenis, maar daar stond het naamwoord in jarr. De nasb is de regel als de zin bevestigend en volledig is, zoals hier; in een ontkennende zin (ma ja'ani ahadun illa Zaydun) is een andere uitgang toegestaan, die latere boeken leren.",
+    "De vijf partikels van de aanroep zetten de munada (de aangesprokene) in nasb wanneer hij genoemd wordt met het eerste lid van een idafa, zoals 'Abd Allah: ya 'Abda Allahi, “o 'Abd Allah”. Het boek geeft dezelfde naam met alle vijf: aya 'Abda Allahi, haya 'Abda Allahi, ay 'Abda Allahi, a-'Abda Allahi. De commentatoren voegen eraan toe dat aya en haya dienen om iemand te roepen die ver is, de hamza en ay voor iemand die dichtbij is, en ya voor beide.",
+    "Een valkuil: de munada staat niet altijd in nasb. Een enkele naam die op zichzelf geroepen wordt, neemt een damma zonder tanwin: ya Zaydu, “o Zayd!”; die uitgang is vast (mabni), geen kenteken van de raf'. Het boek koos 'Abd Allah, een mudaf, omdat daar de nasb te zien is."
+   ],
+   "terms": [
+    "de maf'ul ma'ahu, na de waw met de betekenis “met”",
+    "het uitgezonderde naamwoord, na illa",
+    "de munada (de aangesprokene)",
+    "de partikels van de aanroep: ya, aya, haya, ay, a-"
+   ],
+   "examples": [
+    "istawa al-ma'u wa-al-khashabata, “het water steeg tot gelijk met de plank”",
+    "ja'ani al-qawmu illa Zaydan, “de mensen kwamen naar mij behalve Zayd”",
+    "ya 'Abda Allahi, a-'Abda Allahi, “o 'Abd Allah”",
+    "ya Zaydu, “o Zayd!”: een enkele naam, vast op de damma"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem in elk de regeerder en het naamwoord in nasb: ja'ani al-qawmu illa Zaydan; istawa al-ma'u wa-al-khashabata; haya 'Abda Allahi.",
+     "answer": "Illa regeert Zaydan, het uitgezonderde. De waw van de begeleiding regeert al-khashabata (in de telling van al-Jurjani). Haya, een partikel van de aanroep, regeert 'Abda, de munada; Allahi staat in jarr door idafa."
+    },
+    {
+     "prompt": "Waarom staat al-khashabata in nasb, en niet in raf' zoals al-ma'u?",
+     "answer": "De waw verbindt de plank niet als tweede fa'il aan het water: alleen het water steeg. Ze betekent “met”, en het naamwoord erna is de maf'ul ma'ahu, in nasb."
+    },
+    {
+     "prompt": "Vergelijk ja'ani al-qawmu illa Zaydan met ja'ani al-qawmu hasha Zaydin. Wat is hetzelfde, en wat verschilt?",
+     "answer": "De betekenis is dezelfde: Zayd wordt uitgezonderd van de mensen die kwamen. De uitgang verschilt: illa zet het uitgezonderde in nasb (vierde soort), hasha als partikel van de jarr zet het in jarr (eerste soort)."
+    },
+    {
+     "prompt": "Waarom roept het boek “o 'Abd Allah” en niet “o Zayd” om de nasb te tonen?",
+     "answer": "Een enkele naam die op zichzelf geroepen wordt, is vast op de damma: ya Zaydu. De munada toont nasb wanneer hij met een mudaf genoemd wordt, zoals 'Abda Allahi."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel partikels zijn er in de vierde soort?",
+     "options": [
+      "Zeven",
+      "Vijf",
+      "Zes",
+      "Vier"
+     ],
+     "explanation": "De waw, illa, en de vijf partikels van de aanroep."
+    },
+    {
+     "prompt": "De waw in istawa al-ma'u wa-al-khashabata betekent…",
+     "options": [
+      "en",
+      "met",
+      "bij (een eed)",
+      "maar"
+     ],
+     "explanation": "De waw van de begeleiding: het water steeg tot gelijk met de plank."
+    },
+    {
+     "prompt": "In ja'ani al-qawmu illa Zaydan is Zaydan…",
+     "options": [
+      "de fa'il",
+      "de munada",
+      "het uitgezonderde, in nasb",
+      "de khabar"
+     ],
+     "explanation": "Illa neemt Zayd uit de mensen; hij is de mustathna, in nasb."
+    },
+    {
+     "prompt": "Welke is GEEN partikel van de aanroep?",
+     "options": [
+      "Ya",
+      "Haya",
+      "Ay",
+      "Illa"
+     ],
+     "explanation": "Illa is het partikel van de uitzondering; ya, aya, haya, ay en de hamza roepen."
+    },
+    {
+     "prompt": "In ya 'Abda Allahi staat 'Abda in nasb omdat…",
+     "options": [
+      "het geroepen wordt en het eerste lid van een idafa is",
+      "het de maf'ul bihi van een werkwoord is",
+      "ya een partikel van de jarr is",
+      "het een hal is"
+     ],
+     "explanation": "De munada staat in nasb wanneer hij een mudaf is, zoals 'Abd Allah."
+    },
+    {
+     "prompt": "Hoe roep je Zayd met alleen zijn naam?",
+     "options": [
+      "Ya Zaydu",
+      "Ya Zaydan",
+      "Ya Zaydin"
+     ],
+     "explanation": "Een enkele naam is vast op de damma, zonder tanwin."
+    },
+    {
+     "prompt": "Volgens de commentatoren roep je met haya…",
+     "options": [
+      "iemand die dichtbij is",
+      "alleen God",
+      "iemand die ver is",
+      "een groep"
+     ],
+     "explanation": "Aya en haya voor wie ver is, de hamza en ay voor wie dichtbij is, ya voor beide."
+    }
+   ],
+   "diagram": {
+    "caption": "De zeven partikels van de vierde soort (blz. 2)",
+    "labels": {
+     "Naṣb of one noun: 7": "Nasb van één naamwoord: 7",
+     "the wāw: “with”": "de waw: “met”",
+     "illā: “except”": "illa: “behalve”",
+     "Calling (nidāʾ)": "Aanroep (nida')",
+     "yā": "ya",
+     "ayā": "aya",
+     "hayā": "haya",
+     "ay": "ay",
+     "a- (the hamza)": "a- (de hamza)"
+    }
+   }
+  },
+  "5": {
+   "title": "De vijfde soort: partikels die de mudari' in nasb zetten",
+   "body": [
+    "Met de vijfde soort gaan de regeerders van het naamwoord naar het werkwoord. Van de werkwoorden neemt alleen de mudari', de tegenwoordige-toekomende tijd, i'rab aan: hij staat in raf' als niets hem regeert (tadribu, “je slaat”), en vier partikels zetten hem in nasb: an, lan, kay en idhan. Het kenteken van de nasb is de fatha op de laatste letter, tadribu → an tadriba, of, in de vormen die op een nun eindigen, het weglaten van die nun: tadribani → lan tadriba [tweevoud].",
+    "An, “dat”, geeft het werkwoord de betekenis van een masdar: karihtu an tadriba, “het stond me tegen dat je zou slaan”, is “je slaan stond me tegen”. An met zijn werkwoord vult de plaats van een naamwoord, hier de maf'ul bihi van karihtu; daarom noemen de grammatici het al-masdariyya. De Nahw-i Mir, die voor dit boek gelezen wordt, verklaart het op dezelfde manier: uridu an taquma, “ik wil dat je opstaat”, is uridu qiyamaka, “ik wil je opstaan”.",
+    "Lan ontkent de toekomst: lan taf'ala, “je zult het niet doen”. Kay geeft het doel, “opdat”: ji'tuka kay tu'tiyani haqqi, “ik kwam naar je opdat je mij mijn recht zou geven”. Daar is de nasb te zien als een fatha op de ya' van tu'tiya, voor het voornaamwoord -ni.",
+    "Idhan, “dan, in dat geval”, begint een antwoord op wat een ander gezegd heeft: aan iemand die zegt aslamtu, “ik ben moslim geworden”, antwoord je idhan tadkhula al-jannata, “dan zul je het Paradijs binnengaan”. De woorden van het boek “als antwoord op” zijn de sleutel: idhan staat aan het begin van een antwoord, en het werkwoord erna spreekt over de toekomst. Latere boeken voegen eraan toe dat niets tussen idhan en zijn werkwoord mag komen behalve een eed of de la van de ontkenning.",
+    "Verwar lan niet met lam. Lan yadriba, “hij zal niet slaan”, zet het werkwoord in nasb en spreekt over de toekomst; lam yadrib, “hij sloeg niet”, dat de volgende les geeft, zet het in jazm en spreekt over het verleden. Eén letter en één klinker onderscheiden ze."
+   ],
+   "terms": [
+    "de partikels die de mudari' in nasb zetten",
+    "de an die zijn werkwoord de betekenis van een masdar geeft",
+    "“zal niet”: ontkenning van de toekomst",
+    "“dan, in dat geval”: aan het begin van een antwoord"
+   ],
+   "examples": [
+    "karihtu an tadriba, “het stond me tegen dat je zou slaan”",
+    "lan taf'ala, “je zult het niet doen”",
+    "ji'tuka kay tu'tiyani haqqi, “ik kwam naar je opdat je mij mijn recht zou geven”",
+    "idhan tadkhula al-jannata, “dan zul je het Paradijs binnengaan”, als antwoord op aslamtu"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet tadribu, tadribani en tadribuna na lan, en geef in elk het kenteken van de nasb.",
+     "answer": "Lan tadriba: de fatha. Lan tadriba [tweevoud] en lan tadribu [meervoud]: de nun is weggelaten."
+    },
+    {
+     "prompt": "Wat doet an in karihtu an tadriba? Zeg de zin opnieuw in het Nederlands met een masdar.",
+     "answer": "An zet tadriba in nasb en geeft het de betekenis van een masdar; an met zijn werkwoord is de maf'ul bihi van karihtu: “je slaan stond me tegen”."
+    },
+    {
+     "prompt": "Iemand zegt aslamtu, “ik ben moslim geworden”. Antwoord hem met idhan zoals het boek doet, en zeg waarom het werkwoord in nasb staat.",
+     "answer": "Idhan tadkhula al-jannata, “dan zul je het Paradijs binnengaan”. Idhan staat aan het begin van het antwoord, het werkwoord spreekt over de toekomst en er komt niets tussen, dus idhan zet tadkhula in nasb."
+    },
+    {
+     "prompt": "Lan yadriba en lam yadrib: welke staat in nasb, en over welke tijd spreekt elk?",
+     "answer": "Lan yadriba staat in nasb (de fatha) en ontkent de toekomst, “hij zal niet slaan”. Lam yadrib staat in jazm (de sukun) en ontkent het verleden, “hij sloeg niet”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel partikels zetten de mudari' in nasb?",
+     "options": [
+      "Vijf",
+      "Vier",
+      "Zes",
+      "Negen"
+     ],
+     "explanation": "An, lan, kay en idhan."
+    },
+    {
+     "prompt": "Welk partikel ontkent de toekomst?",
+     "options": [
+      "Lam",
+      "An",
+      "Lan",
+      "Kay"
+     ],
+     "explanation": "Lan taf'ala, “je zult het niet doen”."
+    },
+    {
+     "prompt": "Kay betekent…",
+     "options": [
+      "dat",
+      "zal niet",
+      "dan",
+      "opdat"
+     ],
+     "explanation": "Ji'tuka kay tu'tiyani haqqi, “ik kwam naar je opdat je mij mijn recht zou geven”."
+    },
+    {
+     "prompt": "In karihtu an tadriba staat an met zijn werkwoord voor…",
+     "options": [
+      "een masdar: “je slaan”",
+      "een gebod",
+      "een voorwaarde",
+      "een eed"
+     ],
+     "explanation": "Daarom heet het an al-masdariyya."
+    },
+    {
+     "prompt": "Idhan komt…",
+     "options": [
+      "aan het eind van een zin",
+      "aan het begin van een antwoord op wat een ander zei",
+      "alleen voor naamwoorden",
+      "alleen na een eed"
+     ],
+     "explanation": "“Als antwoord op aslamtu”: idhan tadkhula al-jannata."
+    },
+    {
+     "prompt": "Het kenteken van de nasb in lan tadribu [meervoud] is…",
+     "options": [
+      "de fatha",
+      "de damma",
+      "het weglaten van de nun",
+      "de sukun"
+     ],
+     "explanation": "Tadribuna verliest zijn nun in nasb."
+    },
+    {
+     "prompt": "Waar is in ji'tuka kay tu'tiyani haqqi de nasb te zien?",
+     "options": [
+      "Op de nun van -ni",
+      "Op haqqi",
+      "Hij is niet te zien",
+      "Op de ya' van tu'tiya"
+     ],
+     "explanation": "Tu'ti [met lange i] wordt tu'tiya: de fatha is te zien op zijn laatste letter, de ya'."
+    }
+   ],
+   "diagram": {
+    "caption": "De vier partikels van de nasb, en tadribu na lan (de vormen uit de vervoegingsengine)",
+    "labels": {
+     "Particle": "Partikel",
+     "Meaning": "Betekenis",
+     "Example": "Voorbeeld",
+     "أَنْ an": "أَنْ an",
+     "that (a maṣdar)": "dat (een masdar)",
+     "لَنْ lan": "لَنْ lan",
+     "will not": "zal niet",
+     "كَيْ kay": "كَيْ kay",
+     "so that": "opdat",
+     "إِذَنْ idhan": "إِذَنْ idhan",
+     "then (an answer)": "dan (een antwoord)",
+     "rafʿ → naṣb": "raf' → nasb",
+     "you (one man)": "jij (één man)",
+     "you two": "jullie twee",
+     "you (men)": "jullie (mannen)"
+    }
+   }
+  },
+  "6": {
+   "title": "De zesde soort: partikels die de mudari' in jazm zetten",
+   "body": [
+    "Vijf partikels zetten de mudari' in jazm: in, lam, lamma, de lam van het gebod en de la van het verbod. De jazm hoort alleen bij het werkwoord, zoals de jarr bij het naamwoord hoort. Het kenteken is de sukun op de laatste letter, yadribu → lam yadrib, of, in de vormen die op een nun eindigen, het weglaten van die nun: yadribani → lam yadriba [tweevoud], yadribuna → lam yadribu [meervoud]. (Een werkwoord dat op een zwakke letter eindigt, verliest in plaats daarvan die letter; dat wordt in de sarf geleerd.)",
+    "In, “als”, het partikel van de voorwaarde, regeert twee werkwoorden: de voorwaarde (al-shart) en het antwoord erop (al-jaza'): in tukrimni ukrimka, “als je mij eert, zal ik jou eren”. Zowel tukrim als ukrim staan in jazm; de -ni en de -ka zijn voornaamwoorden van de maf'ul bihi die eraan vastzitten. Omdat in twee werkwoorden regeert met de betekenis “als”, is het het model voor de volgende soort: negen naamwoorden die het werkwoord in jazm zetten “in de betekenis van in”.",
+    "Lam en lamma ontkennen allebei het verleden terwijl ze een mudari' regeren: lam yadrib Zaydun, “Zayd sloeg niet”; lamma yadrib Zaydun, “Zayd heeft nog niet geslagen”. Lam geeft de vorm van het heden een betekenis van het verleden; lamma voegt eraan toe dat de ontkenning tot nu duurt en dat het slaan nog verwacht wordt.",
+    "De lam van het gebod, li-, geeft een bevel aan iemand die afwezig is: li-yadrib Zaydun, “laat Zayd slaan”. De la van het verbod verbiedt: la tadrib Zaydan, “sla Zayd niet”. De druk noemt het la' al-nahy, en spreekt over het partikel la als over een naamwoord.",
+    "Een valkuil: la voor een mudari' is niet altijd een verbod. La tadribu, met de damma, ontkent alleen, “je slaat niet”, en laat het werkwoord in raf'; la tadrib, met de sukun, verbiedt, “sla niet!”. De klinker van de laatste letter vertelt je welke la je leest."
+   ],
+   "terms": [
+    "de regeerders van de jazm",
+    "de voorwaarde en het antwoord erop",
+    "“nog niet”: ontkenning van het verleden die tot nu duurt",
+    "de lam van het gebod, aan iemand die afwezig is",
+    "de la van het verbod"
+   ],
+   "examples": [
+    "in tukrimni ukrimka, “als je mij eert, zal ik jou eren”: beide werkwoorden in jazm",
+    "lam yadrib Zaydun, “Zayd sloeg niet”; lamma yadrib Zaydun, “Zayd heeft nog niet geslagen”",
+    "li-yadrib Zaydun, “laat Zayd slaan”; la tadrib Zaydan, “sla Zayd niet”",
+    "la tadribu, “je slaat niet”; la tadrib, “sla niet!”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem in in tukrimni ukrimka de regeerder, de twee werkwoorden die hij regeert en hun toestand.",
+     "answer": "De regeerder is in, het partikel van de voorwaarde. Het regeert tukrim, de voorwaarde, en ukrim, het antwoord; beide staan in jazm, te zien aan de sukun."
+    },
+    {
+     "prompt": "Wat is het verschil in betekenis tussen lam yadrib Zaydun en lamma yadrib Zaydun?",
+     "answer": "Beide ontkennen het slaan in het verleden. Lam zegt alleen dat het niet gebeurde; lamma zegt dat het tot nu niet gebeurd is en nog verwacht wordt: “nog niet”."
+    },
+    {
+     "prompt": "Zet yadribu, yadribani en yadribuna na lam.",
+     "answer": "Lam yadrib (de sukun), lam yadriba [tweevoud] en lam yadribu [meervoud] (de nun weggelaten)."
+    },
+    {
+     "prompt": "Lees la tadribu en la tadrib, en zeg welke la elk heeft.",
+     "answer": "La tadribu: de la van de ontkenning, het werkwoord in raf', “je slaat niet”. La tadrib: de la van het verbod, het werkwoord in jazm, “sla niet!”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel partikels van de jazm zijn er in de zesde soort?",
+     "options": [
+      "Vier",
+      "Negen",
+      "Vijf",
+      "Zeven"
+     ],
+     "explanation": "In, lam, lamma, de lam van het gebod en de la van het verbod."
+    },
+    {
+     "prompt": "Welke werkwoorden staan in jazm in in tukrimni ukrimka?",
+     "options": [
+      "Alleen tukrim",
+      "Alleen ukrim",
+      "Geen van beide",
+      "Zowel tukrim als ukrim"
+     ],
+     "explanation": "In regeert de voorwaarde en het antwoord erop."
+    },
+    {
+     "prompt": "Lamma yadrib Zaydun betekent…",
+     "options": [
+      "Zayd heeft nog niet geslagen",
+      "Zayd sloeg niet",
+      "Zayd zal niet slaan",
+      "laat Zayd slaan"
+     ],
+     "explanation": "Lamma: de ontkenning duurt tot nu, en de handeling wordt nog verwacht."
+    },
+    {
+     "prompt": "Li-yadrib Zaydun is…",
+     "options": [
+      "een verbod",
+      "een gebod aan iemand die afwezig is",
+      "een ontkenning van het verleden",
+      "een voorwaarde"
+     ],
+     "explanation": "De lam van het gebod: “laat Zayd slaan”."
+    },
+    {
+     "prompt": "Het kenteken van de jazm in lam yadrib is…",
+     "options": [
+      "de fatha",
+      "de kasra",
+      "de sukun",
+      "het weglaten van de nun"
+     ],
+     "explanation": "Yadribu verliest zijn damma: lam yadrib."
+    },
+    {
+     "prompt": "Welk van deze is een verbod?",
+     "options": [
+      "La tadribu",
+      "Lan tadriba",
+      "Lam tadrib",
+      "La tadrib"
+     ],
+     "explanation": "De la van het verbod zet het werkwoord in jazm: la tadrib, “sla niet!”."
+    },
+    {
+     "prompt": "Lam verandert de betekenis van de mudari' in…",
+     "options": [
+      "het verleden",
+      "de toekomst",
+      "een gebod",
+      "een wens"
+     ],
+     "explanation": "Lam yadrib Zaydun, “Zayd sloeg niet”."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijf partikels van de jazm, met de voorbeelden van het boek (blz. 2–3)",
+    "labels": {
+     "Particle": "Partikel",
+     "Meaning": "Betekenis",
+     "The book's example": "Voorbeeld van het boek",
+     "إِنْ in": "إِنْ in",
+     "if (two verbs)": "als (twee werkwoorden)",
+     "لَمْ lam": "لَمْ lam",
+     "did not": "deed niet",
+     "لَمَّا lammā": "لَمَّا lamma",
+     "has not yet": "heeft nog niet",
+     "لَامُ الْأَمْرِ li-": "لَامُ الْأَمْرِ li-",
+     "let him…": "laat hem …",
+     "لَا النَّاهِيَةُ lā": "لَا النَّاهِيَةُ la",
+     "do not…": "… niet (verbod)"
+    }
+   }
+  },
+  "7": {
+   "title": "De zevende soort: naamwoorden die de mudari' in jazm zetten",
+   "body": [
+    "De zevende soort brengt de eerste regeerders die naamwoorden zijn: negen woorden die de mudari' in jazm zetten “in de betekenis van in”: man, ma, mata, mahma, ayyun, aynama, anna [met lange a], haythuma en idhma. Elk draagt de betekenis van “als” samen met een eigen betekenis, een persoon, een ding, een tijd of een plaats, en daarom regeert het, zoals in, twee werkwoorden in jazm: de voorwaarde en het antwoord erop.",
+    "Het zijn naamwoorden, geen partikels, omdat elk voor iets in de zin staat. In man yukrimni ukrimhu, “wie mij eert, die zal ik eren”, is man “wie”, de persoon die eert; in ma tasna' asna', “wat je ook doet, ik zal het doen”, is ma “wat ook”, het gedane ding, de maf'ul bihi van tasna' die ervoor is gezet. In doet niets van dien aard: het verbindt alleen de twee werkwoorden.",
+    "Naar hun betekenis: man is voor personen, “wie”; ma en mahma voor dingen, “wat ook”: mahma takun akun, “wat je ook bent, dat zal ik zijn”; mata en idhma voor tijd, “wanneer ook”: mata tadhhab adhhab; aynama, anna en haythuma voor plaats, “waar ook”: aynama tajlis ajlis, “waar je ook zit, daar zal ik zitten”. Ayyun, “welke ook”, krijgt zijn betekenis van het woord waarmee het verbonden is: ayyahum tadrib adrib, “wie van hen je ook slaat, die zal ik slaan”. Sibawayh hield idhma voor een partikel, zoals in; al-Jurjani telt het onder de naamwoorden.",
+    "Kijk goed naar ayyahum. Van de negen is alleen ayyun verbuigbaar (mu'rab); de andere houden één uitgang (mabni). In het voorbeeld van het boek staat het in nasb omdat het de maf'ul bihi van tadrib is, ervoor geplaatst. Een naamwoord van de voorwaarde kan dus een werkwoord in jazm regeren en door datzelfde werkwoord geregeerd worden: ayyahum zet tadrib in jazm, en tadrib zet ayyahum in nasb.",
+    "Een valkuil: man en ma zijn niet altijd naamwoorden van de voorwaarde. Man ja'aka? “wie kwam naar je?” stelt een vraag, en ma kan ontkennen, zoals in ma Zaydun fadilan. Het kenteken van de voorwaarde is twee werkwoorden, het tweede een antwoord op het eerste, beide in jazm."
+   ],
+   "terms": [
+    "de naamwoorden van de voorwaarde, in de betekenis van in",
+    "het antwoord op de voorwaarde (al-jaza')",
+    "“welke ook”: het enige verbuigbare naamwoord van de negen",
+    "“wat ook”"
+   ],
+   "examples": [
+    "man yukrimni ukrimhu, “wie mij eert, die zal ik eren”",
+    "ma tasna' asna', “wat je ook doet, ik zal het doen”",
+    "aynama tajlis ajlis, “waar je ook zit, daar zal ik zitten”",
+    "ayyahum tadrib adrib: ayyahum in nasb als de maf'ul bihi van tadrib"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek de voorwaarde en het antwoord in mata tadhhab adhhab, en geef hun toestand en hun regeerder.",
+     "answer": "Tadhhab is de voorwaarde en adhhab het antwoord; beide staan in jazm, te zien aan de sukun, en mata, een naamwoord van de voorwaarde met de betekenis “wanneer ook”, regeert beide."
+    },
+    {
+     "prompt": "Waarom staat ayyahum in nasb in ayyahum tadrib adrib?",
+     "answer": "Ayyun is het enige verbuigbare naamwoord van de negen, en hier is het de maf'ul bihi van tadrib, ervoor geplaatst. Het regeert tadrib in jazm en wordt zelf door tadrib in nasb geregeerd."
+    },
+    {
+     "prompt": "Waarom worden man en ma als naamwoorden geteld, terwijl in een partikel is?",
+     "answer": "Man en ma staan voor iets in de zin: de persoon (“wie”) of het ding (“wat ook”); ma in ma tasna' is zelfs de maf'ul bihi van het werkwoord. In verbindt alleen de voorwaarde met het antwoord erop en staat voor niets."
+    },
+    {
+     "prompt": "Deel de negen in naar betekenis: personen, dingen, tijd, plaats, en het ene dat zijn betekenis krijgt van wat erop volgt.",
+     "answer": "Personen: man. Dingen: ma, mahma. Tijd: mata, idhma. Plaats: aynama, anna [met lange a], haythuma. Ayyun krijgt de betekenis van waarmee het verbonden is (ayyuhum, “wie van hen ook”)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel naamwoorden zetten de mudari' in jazm?",
+     "options": [
+      "Vijf",
+      "Zeven",
+      "Vier",
+      "Negen"
+     ],
+     "explanation": "Man, ma, mata, mahma, ayyun, aynama, anna, haythuma en idhma."
+    },
+    {
+     "prompt": "Ze zetten hem in jazm “in de betekenis van”…",
+     "options": [
+      "in, “als”",
+      "lam",
+      "de la van het verbod",
+      "an"
+     ],
+     "explanation": "Elk draagt de betekenis van de voorwaarde, zoals in."
+    },
+    {
+     "prompt": "Welk van de negen is verbuigbaar (mu'rab)?",
+     "options": [
+      "Man",
+      "Ayyun",
+      "Mata",
+      "Mahma"
+     ],
+     "explanation": "Alleen ayyun verandert zijn uitgang: ayyahum in nasb in het voorbeeld van het boek."
+    },
+    {
+     "prompt": "Mata betekent…",
+     "options": [
+      "wie ook",
+      "wat ook",
+      "wanneer ook",
+      "waar ook"
+     ],
+     "explanation": "Mata tadhhab adhhab, “wanneer je ook gaat, ik zal gaan”."
+    },
+    {
+     "prompt": "In ma tasna' asna' is asna'…",
+     "options": [
+      "de voorwaarde, in raf'",
+      "de maf'ul bihi van ma",
+      "in nasb",
+      "het antwoord, in jazm"
+     ],
+     "explanation": "Tasna' is de voorwaarde en asna' het antwoord erop; beide staan in jazm."
+    },
+    {
+     "prompt": "Hoeveel werkwoorden regeert een naamwoord van de voorwaarde in jazm?",
+     "options": [
+      "Twee",
+      "Eén",
+      "Drie",
+      "Geen"
+     ],
+     "explanation": "De voorwaarde en het antwoord erop, zoals in."
+    },
+    {
+     "prompt": "Aynama tajlis ajlis betekent…",
+     "options": [
+      "wanneer je ook zit, ik zal zitten",
+      "waar je ook zit, daar zal ik zitten",
+      "wie ook zit, ik zal zitten",
+      "als je niet zit, zal ik zitten"
+     ],
+     "explanation": "Aynama is voor plaats."
+    }
+   ],
+   "diagram": {
+    "caption": "De negen naamwoorden van de voorwaarde, met de voorbeelden van het boek (blz. 3)",
+    "labels": {
+     "Noun": "Naamwoord",
+     "Meaning": "Betekenis",
+     "The book's example": "Voorbeeld van het boek",
+     "مَنْ man": "مَنْ man",
+     "whoever": "wie ook",
+     "مَا mā": "مَا ma",
+     "whatever": "wat ook",
+     "مَتَى matā": "مَتَى mata",
+     "whenever": "wanneer ook",
+     "مَهْمَا mahmā": "مَهْمَا mahma",
+     "أَيٌّ ayyun": "أَيٌّ ayyun",
+     "whichever": "welke ook",
+     "أَيْنَمَا aynamā": "أَيْنَمَا aynama",
+     "wherever": "waar ook",
+     "أَنَّى annā": "أَنَّى anna",
+     "حَيْثُمَا ḥaythumā": "حَيْثُمَا haythuma",
+     "إِذْمَا idhmā": "إِذْمَا idhma"
+    }
+   }
+  },
+  "8": {
+   "title": "De achtste soort: naamwoorden die de tamyiz in nasb zetten",
+   "body": [
+    "De achtste soort zijn vier naamwoorden die “een onbepaald naamwoord in nasb zetten als specificatie (tamyiz)”. Een tamyiz neemt een vaagheid weg: “elf” zegt hoeveel, maar niet waarvan; rajulan, “man”, zegt waarvan. Het vage woord is de regeerder; het onbepaalde naamwoord erna wordt geregeerd, in nasb.",
+    "De eerste is 'ashara, “tien”, “wanneer het samengesteld is met ahad en ithnan”, dat wil zeggen in de samengestelde getallen van elf tot negentien: ja'ani ahada 'ashara rajulan, “er kwamen elf mannen naar mij”. Het boek trekt de regel door “tot negenennegentig”: van elf tot negenennegentig is het getelde naamwoord één onbepaald naamwoord in nasb. Het boek telt zelf op zijn eerste twee bladzijden zo: 'ala thalathata 'ashara naw'an, “in dertien soorten”; sab'ata 'ashara harfan, “zeventien partikels”; ahadun wa-tis'una 'amilan, “eenennegentig regeerders”.",
+    "Vergelijk de getallen buiten dat bereik, ook in de eigen woorden van het boek. Na drie tot tien en na honderd staat het getelde naamwoord in jarr door idafa, niet in nasb: sab'atu 'awamila, “zeven regeerders”, en de titel zelf, mi'atu 'amilin, “honderd regeerders”. ('Awamila neemt een fatha voor zijn jarr, als diptoot.) Mi'a is dus ook vaag, maar regeert door idafa, niet als een van de vier naamwoorden van deze soort.",
+    "Kam, “hoeveel?”, vraagt naar een getal: kam rajulan 'indaka, “hoeveel mannen zijn er bij je?”; zijn tamyiz is één onbepaald naamwoord in nasb. Kadha, “zoveel”, staat voor een getal dat niet genoemd wordt: kadha dirhaman 'indaka, “zoveel dirhams zijn er bij je”. Ka-ayyin, “hoeveel al niet!”, vertelt van een groot getal: ka-ayyin rajulan 'indaka. De Nahw-i Mir voegt eraan toe dat kam een tweede gebruik heeft, dat van een groot getal vertelt, met zijn tamyiz in jarr: kam malin anfaqtu, “hoeveel rijkdom heb ik niet uitgegeven!”; alleen de vragende kam hoort hier.",
+    "Een valkuil: de tamyiz en de hal zijn allebei onbepaalde naamwoorden in nasb, maar ze beantwoorden verschillende vragen. De hal geeft de toestand van iemand (“hoe?”); de tamyiz zegt wat een vaag woord bedoelt (“waarvan?”). Vraag bij ahada 'ashara rajulan: “elf wat?”: mannen. Dat antwoord is de tamyiz."
+   ],
+   "terms": [
+    "de specificatie: een onbepaald naamwoord in nasb dat een vaagheid wegneemt",
+    "het vage woord dat de tamyiz specificeert",
+    "“hoeveel?”: zijn tamyiz in nasb",
+    "“hoeveel al niet!”: vertelt van een groot getal"
+   ],
+   "examples": [
+    "ja'ani ahada 'ashara rajulan, “er kwamen elf mannen naar mij”",
+    "ahadun wa-tis'una 'amilan, “eenennegentig regeerders”: de eigen telling van het boek",
+    "mi'atu 'amilin, “honderd regeerders”: na honderd, jarr door idafa",
+    "kam rajulan 'indaka, “hoeveel mannen zijn er bij je?”",
+    "kadha dirhaman 'indaka, “zoveel dirhams zijn er bij je”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zoek de tamyiz en het vage woord dat hij specificeert in de eigen tellingen van het boek: thalathata 'ashara naw'an; sab'ata 'ashara harfan; ahadun wa-tis'una 'amilan.",
+     "answer": "Naw'an specificeert thalathata 'ashara; harfan specificeert sab'ata 'ashara; 'amilan specificeert ahadun wa-tis'una. Elk is één onbepaald naamwoord in nasb."
+    },
+    {
+     "prompt": "Waarom staat 'amilin in jarr in mi'atu 'amilin, maar 'amilan in nasb in ahadun wa-tis'una 'amilan?",
+     "answer": "Na honderd wordt het getelde naamwoord door idafa aan het getal verbonden en staat het dus in jarr. Van elf tot negenennegentig is het getelde naamwoord een tamyiz, in nasb."
+    },
+    {
+     "prompt": "Wat regeert rajulan in kam rajulan 'indaka, en op welke vraag antwoordt het?",
+     "answer": "Kam, de vragende “hoeveel?”, regeert rajulan in nasb als zijn tamyiz. Het antwoordt op “hoeveel waarvan?”: mannen."
+    },
+    {
+     "prompt": "Hoe onderscheid je een tamyiz van een hal, nu beide onbepaalde naamwoorden in nasb zijn?",
+     "answer": "De hal geeft de toestand van iemand en antwoordt op “hoe?”. De tamyiz neemt de vaagheid weg van een woord ervoor en antwoordt op “waarvan?”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Een tamyiz is…",
+     "options": [
+      "een onbepaald naamwoord in nasb dat een vaagheid wegneemt",
+      "een bepaald naamwoord in jarr",
+      "een khabar in raf'",
+      "een werkwoord in nasb"
+     ],
+     "explanation": "Hij zegt “waarvan” na een vaag woord, zoals een getal."
+    },
+    {
+     "prompt": "Hoeveel naamwoorden zijn er in de achtste soort?",
+     "options": [
+      "Negen",
+      "Vier",
+      "Drie",
+      "Zeven"
+     ],
+     "explanation": "Samengesteld 'ashara, kam, kadha en ka-ayyin."
+    },
+    {
+     "prompt": "'Ashara regeert een tamyiz wanneer…",
+     "options": [
+      "het alleen staat",
+      "het op honderd volgt",
+      "het samengesteld is met ahad, ithnan en de andere eenheden",
+      "het voor een werkwoord komt"
+     ],
+     "explanation": "Ahada 'ashara rajulan: de samengestelde getallen, en verder tot negenennegentig."
+    },
+    {
+     "prompt": "In kam rajulan 'indaka is rajulan…",
+     "options": [
+      "de maf'ul bihi van een werkwoord",
+      "de khabar",
+      "de fa'il",
+      "de tamyiz van kam"
+     ],
+     "explanation": "Kam vraagt hoeveel; rajulan zegt waarvan."
+    },
+    {
+     "prompt": "In de titel van het boek, mi'atu 'amilin, staat 'amilin in…",
+     "options": [
+      "jarr, door idafa",
+      "nasb, als tamyiz",
+      "raf'",
+      "jazm"
+     ],
+     "explanation": "Na honderd staat het getelde naamwoord in jarr door idafa."
+    },
+    {
+     "prompt": "Kadha dirhaman betekent…",
+     "options": [
+      "hoeveel dirhams?",
+      "zoveel dirhams",
+      "als een dirham",
+      "behalve een dirham"
+     ],
+     "explanation": "Kadha staat voor een getal dat niet genoemd wordt."
+    },
+    {
+     "prompt": "Welk woord is de tamyiz in 'ala thalathata 'ashara naw'an?",
+     "options": [
+      "Thalathata",
+      "'Ashara",
+      "Naw'an",
+      "Geen"
+     ],
+     "explanation": "Naw'an zegt wat de dertien zijn: soorten."
+    }
+   ],
+   "diagram": {
+    "caption": "De vier vage naamwoorden en hun tamyiz (blz. 3); daaronder de eigen tellingen van het boek (blz. 1–2)",
+    "labels": {
+     "Vague noun": "Vaag naamwoord",
+     "Meaning": "Betekenis",
+     "Tamyīz in naṣb": "Tamyiz in nasb",
+     "eleven": "elf",
+     "how many?": "hoeveel?",
+     "so many": "zoveel",
+     "how many a!": "hoeveel al niet!",
+     "thirteen": "dertien",
+     "seventeen": "zeventien",
+     "ninety-one": "eenennegentig"
+    }
+   }
+  },
+  "9": {
+   "title": "De negende soort: de naamwoorden van werkwoorden",
+   "body": [
+    "De negende soort zijn “woorden die naamwoorden van werkwoorden genoemd worden” (asma' al-af'al): negen woorden die betekenen wat een werkwoord betekent en regeren zoals dat werkwoord regeert, hoewel ze geen van de vormen van een werkwoord aannemen: ze veranderen niet voor verleden en heden of voor de personen, en hun uitgang blijft gelijk (ze zijn mabni). Het boek noemt ze “woorden” (kalimat), alsof het ze tussen naamwoord en werkwoord wil laten; de meeste grammatici tellen ze als naamwoorden, zoals hun naam zegt.",
+    "Zes zetten een naamwoord in nasb, omdat elk een gebod betekent waarvan het werkwoord een maf'ul bihi neemt: ruwayda Zaydan, “geef Zayd tijd”; balha Zaydan, “laat Zayd met rust”; dunaka Zaydan, “neem Zayd”; 'alayka Zaydan, “houd je aan Zayd”; hayyahal Zaydan, “breng Zayd”; ha Zaydan, “neem Zayd”. De Nahw-i Mir verklaart ruwayda Zaydan als amhilhu, “geef hem tijd”: het naamwoord van het werkwoord doet wat het werkwoord amhil zou doen.",
+    "Dunaka en 'alayka zijn gemaakt van een woord van plaats (duna, “voor”) of een voorzetsel ('ala, “op”) met het voornaamwoord “jij”. De -ka verandert met degene die aangesproken wordt, zoals in de Koran: 'alaykum anfusakum, “let op jezelf” (Koran 5:105). Het is niet het voorzetsel 'ala met zijn naamwoord: in 'alayka Zaydan staat Zaydan in nasb, wat geen partikel van de jarr zou kunnen geven.",
+    "Drie zetten een naamwoord in raf', omdat elk een werkwoord in de verleden tijd betekent dat een fa'il heeft en geen maf'ul bihi: hayhata Zaydun, “wat is Zayd ver weg!”, dat de Nahw-i Mir verklaart als ba'uda, “hij is ver”; shattana Zaydun wa-'Amrun, “wat verschillen Zayd en 'Amr!”; sar'ana Zaydun, “wat is Zayd snel!”. Het naamwoord erna is hun fa'il, in raf'. Shattana heeft twee naamwoorden nodig, want een verschil is er altijd tussen twee.",
+    "Birgivi plaatste woorden als hayhata onder een regeerder naar analogie die hij “de betekenis van het werkwoord” noemt. Al-Jurjani somt ze bij naam op als gehoorde regeerders, dus de student leert ze als een lijst: elk met zijn betekenis en met de toestand die het geeft."
+   ],
+   "terms": [
+    "naamwoorden van werkwoorden: woorden met de betekenis en het werk van een werkwoord",
+    "“geef tijd”: geeft nasb",
+    "“houd je aan”: geeft nasb",
+    "“hoe ver!”: geeft raf' aan zijn fa'il",
+    "“hoe verschillend!”: geeft raf' aan twee"
+   ],
+   "examples": [
+    "ruwayda Zaydan, “geef Zayd tijd”: Zaydan in nasb",
+    "'alayka Zaydan, “houd je aan Zayd”",
+    "hayhata Zaydun, “wat is Zayd ver weg!”: Zaydun zijn fa'il, in raf'",
+    "shattana Zaydun wa-'Amrun, “wat verschillen Zayd en 'Amr!”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de regeerder en de toestand van Zayd in dunaka Zaydan en in sar'ana Zaydun.",
+     "answer": "Dunaka, een naamwoord van een werkwoord met de betekenis “neem”, zet Zaydan in nasb als zijn maf'ul bihi. Sar'ana, een naamwoord van een werkwoord met de betekenis “wat is hij snel!”, zet Zaydun in raf' als zijn fa'il."
+    },
+    {
+     "prompt": "Waarom heeft shattana twee naamwoorden nodig?",
+     "answer": "Het betekent “wat verschillen ze!”, en een verschil is er tussen twee: Zaydun is zijn fa'il en 'Amrun is er met de waw aan verbonden, in raf' zoals hij."
+    },
+    {
+     "prompt": "Waarom is 'ala in 'alayka Zaydan geen partikel van de jarr?",
+     "answer": "'Alayka is hier één woord, een naamwoord van een werkwoord met de betekenis “houd je aan”. Zaydan erna staat in nasb als zijn maf'ul bihi; een partikel van de jarr zou jarr geven."
+    },
+    {
+     "prompt": "Verdeel de negen in die nasb geven en die raf' geven, en zeg waarom elke groep zo regeert.",
+     "answer": "Nasb: ruwayda, balha, dunaka, 'alayka, hayyahal, ha; ze betekenen geboden waarvan de werkwoorden een maf'ul bihi nemen. Raf': hayhata, shattana, sar'ana; ze betekenen werkwoorden in de verleden tijd met een fa'il en zonder maf'ul bihi."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De naamwoorden van werkwoorden zijn woorden die…",
+     "options": [
+      "door de sarf van werkwoorden gemaakt worden",
+      "de betekenis en het werk van een werkwoord dragen",
+      "altijd op een werkwoord volgen",
+      "altijd in nasb staan"
+     ],
+     "explanation": "Ze betekenen wat een werkwoord betekent en regeren zoals het regeert, zonder zijn vormen aan te nemen."
+    },
+    {
+     "prompt": "Hoeveel naamwoorden van werkwoorden geven nasb?",
+     "options": [
+      "Drie",
+      "Negen",
+      "Zes",
+      "Vier"
+     ],
+     "explanation": "Ruwayda, balha, dunaka, 'alayka, hayyahal en ha."
+    },
+    {
+     "prompt": "Hayhata Zaydun betekent…",
+     "options": [
+      "neem Zayd",
+      "laat Zayd met rust",
+      "Zayd is dichtbij",
+      "wat is Zayd ver weg!"
+     ],
+     "explanation": "Hayhata betekent “hij is ver”, met Zaydun als zijn fa'il."
+    },
+    {
+     "prompt": "In hayhata Zaydun is Zaydun…",
+     "options": [
+      "de fa'il van hayhata",
+      "zijn maf'ul bihi",
+      "een mubtada' met een khabar",
+      "in jarr"
+     ],
+     "explanation": "De drie die raf' geven, betekenen werkwoorden in de verleden tijd met een fa'il."
+    },
+    {
+     "prompt": "Welk van deze geeft raf'?",
+     "options": [
+      "Ruwayda",
+      "Sar'ana",
+      "Dunaka",
+      "Balha"
+     ],
+     "explanation": "Hayhata, shattana en sar'ana geven raf'; de andere zes geven nasb."
+    },
+    {
+     "prompt": "In 'alayka Zaydan staat Zaydan in nasb omdat 'alayka betekent…",
+     "options": [
+      "op",
+      "met",
+      "houd je aan",
+      "behalve"
+     ],
+     "explanation": "Als naamwoord van een werkwoord betekent 'alayka een gebod dat een maf'ul bihi neemt."
+    },
+    {
+     "prompt": "Veranderen de naamwoorden van werkwoorden van vorm voor verleden en heden?",
+     "options": [
+      "Ja, zoals elk werkwoord",
+      "Alleen in het tweevoud",
+      "Alleen na lam",
+      "Nee: hun vorm blijft gelijk"
+     ],
+     "explanation": "Ze hebben de betekenis en het werk van een werkwoord, maar geen van zijn vormen."
+    }
+   ],
+   "diagram": {
+    "caption": "De negen naamwoorden van werkwoorden (blz. 3–4)",
+    "labels": {
+     "Nouns of verbs: 9": "Naamwoorden van werkwoorden: 9",
+     "Giving naṣb: 6": "Geven nasb: 6",
+     "ruwayda: give time": "ruwayda: geef tijd",
+     "balha: leave alone": "balha: laat met rust",
+     "dūnaka: take": "dunaka: neem",
+     "ʿalayka: keep to": "'alayka: houd je aan",
+     "ḥayyahal: bring": "hayyahal: breng",
+     "hā: take": "ha: neem",
+     "Giving rafʿ: 3": "Geven raf': 3",
+     "hayhāta: how far!": "hayhata: hoe ver!",
+     "shattāna: how different!": "shattana: hoe verschillend!",
+     "sarʿāna: how quick!": "sar'ana: hoe snel!"
+    }
+   }
+  },
+  "10": {
+   "title": "De tiende soort: kana en haar zusters",
+   "body": [
+    "De tiende soort brengt de regeerders die werkwoorden zijn: dertien “onvolledige werkwoorden” (af'al naqisa) die “het naamwoord in raf' en de khabar in nasb zetten”. Zoals inna komen ze voor een zin van mubtada' en khabar; anders dan inna laten ze de mubtada' in raf' en zetten ze de khabar in nasb: Zaydun qa'imun wordt kana Zaydun qa'iman, “Zayd stond”. Het eerste heet het ism van kana, het tweede zijn khabar.",
+    "Ze heten onvolledig omdat een naamwoord in raf' ze niet volledig maakt: kana Zaydun, “Zayd was”, laat de hoorder wachten op “was wat?”. Een volledig werkwoord zegt zijn betekenis met alleen zijn fa'il, zoals qama Zaydun, “Zayd stond op”.",
+    "Hun betekenissen: kana, “was”, zet de khabar in het verleden; sara, “werd”, verandert de ene toestand in een andere: sara al-faqiru ghaniyyan, “de arme werd rijk”. Asbaha, amsa en adha verbinden de khabar met de ochtend, de avond en de voormiddag; zalla met de hele dag: zalla Zaydun sa'iman, “Zayd bleef de hele dag vasten”; bata met de nacht: bata Zaydun na'iman. Laysa, “is niet”, ontkent. De vier met ma, ma bariha, ma fati'a, ma zala en ma infakka, betekenen “hield niet op”, dat wil zeggen “nog steeds”: ma zala Zaydun 'aliman, “Zayd is nog steeds geleerd”. Ontkennen dat iets ophoudt, is zeggen dat het voortduurt.",
+    "Ma dama, “zolang”, is anders: zijn ma is geen ontkenning maar maakt van het werkwoord een tijdsduur: ijlis ma dama Zaydun jalisan, “zit zolang Zayd zit”, dat wil zeggen voor de tijd van zijn zitten. Ma dama begint dus geen zin; het hangt aan een zin ervoor, hier ijlis, “zit!”.",
+    "Twee valkuilen. Bij de vier werkwoorden van het voortduren hoort de ma bij de regeerder: zonder de ontkenning werken ze niet op deze manier. En verscheidene van deze werkwoorden kunnen ook volledig zijn, met een fa'il en zonder khabar, wanneer ze “zijn, gebeuren” betekenen: wa-in kana dhu 'usratin, “en als er iemand in moeilijkheden is” (Koran 2:280). Kana heeft daar alleen zijn fa'il, dhu 'usratin."
+   ],
+   "terms": [
+    "de onvolledige werkwoorden: kana en haar zusters",
+    "het ism van kana (in raf') en zijn khabar (in nasb)",
+    "“zolang”: zijn ma maakt een tijdsduur",
+    "“is niet”: het onvolledige werkwoord van de ontkenning"
+   ],
+   "examples": [
+    "kana Zaydun qa'iman, “Zayd stond”: het ism in raf', de khabar in nasb",
+    "sara al-faqiru ghaniyyan, “de arme werd rijk”",
+    "ma zala Zaydun 'aliman, “Zayd is nog steeds geleerd”",
+    "ijlis ma dama Zaydun jalisan, “zit zolang Zayd zit”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef het ism en de khabar, met hun toestanden, in sara al-faqiru ghaniyyan en laysa Zaydun qa'iman.",
+     "answer": "Sara: al-faqiru is zijn ism, in raf'; ghaniyyan zijn khabar, in nasb. Laysa: Zaydun is zijn ism, in raf'; qa'iman zijn khabar, in nasb."
+    },
+    {
+     "prompt": "Waarom is de khabar qa'iman in kana Zaydun qa'iman, maar qa'imun in inna Zaydan qa'imun?",
+     "answer": "Kana, een onvolledig werkwoord, laat zijn ism in raf' en zet zijn khabar in nasb. Inna doet het omgekeerde: zijn ism in nasb, zijn khabar in raf'."
+    },
+    {
+     "prompt": "Wat doet ma in ma zala Zaydun 'aliman, en wat doet het in ijlis ma dama Zaydun jalisan?",
+     "answer": "In ma zala ontkent het het ophouden, dus de betekenis is dat Zayd nog steeds geleerd is. In ma dama is het geen ontkenning: het maakt een tijdsduur, “zolang Zayd zit”."
+    },
+    {
+     "prompt": "Waarom heet kana onvolledig, en wanneer is het volledig?",
+     "answer": "Met alleen zijn ism maakt het zijn betekenis niet af (“Zayd was …” wat?), dus het heeft een khabar nodig. Het is volledig wanneer het “zijn, gebeuren” betekent en alleen een fa'il heeft, zoals wa-in kana dhu 'usratin, “als er iemand in moeilijkheden is” (Koran 2:280)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De onvolledige werkwoorden zetten…",
+     "options": [
+      "het ism in nasb en de khabar in raf'",
+      "beide in nasb",
+      "het ism in raf' en de khabar in nasb",
+      "alleen één naamwoord in raf'"
+     ],
+     "explanation": "Kana Zaydun qa'iman: het ism in raf', de khabar in nasb."
+    },
+    {
+     "prompt": "Hoeveel werkwoorden zijn er in de tiende soort?",
+     "options": [
+      "Zeven",
+      "Vier",
+      "Zes",
+      "Dertien"
+     ],
+     "explanation": "Van kana tot laysa, dertien."
+    },
+    {
+     "prompt": "Sara betekent…",
+     "options": [
+      "werd",
+      "was in de ochtend",
+      "is niet",
+      "is nog steeds"
+     ],
+     "explanation": "Sara al-faqiru ghaniyyan, “de arme werd rijk”."
+    },
+    {
+     "prompt": "Ma zala Zaydun 'aliman betekent…",
+     "options": [
+      "Zayd is niet geleerd",
+      "Zayd is nog steeds geleerd",
+      "Zayd hield op geleerd te zijn",
+      "Zayd werd geleerd"
+     ],
+     "explanation": "Ontkennen dat iets ophoudt, is zeggen dat de toestand voortduurt."
+    },
+    {
+     "prompt": "De ma in ma dama…",
+     "options": [
+      "ontkent",
+      "stelt een vraag",
+      "maakt een tijdsduur: “zolang”",
+      "is een naamwoord van de voorwaarde"
+     ],
+     "explanation": "Ijlis ma dama Zaydun jalisan: “voor de tijd dat Zayd zit”."
+    },
+    {
+     "prompt": "In laysa Zaydun qa'iman is Zaydun…",
+     "options": [
+      "de khabar van laysa",
+      "in nasb",
+      "de fa'il van qa'iman",
+      "het ism van laysa, in raf'"
+     ],
+     "explanation": "Laysa is een van de zusters van kana: zijn ism in raf', zijn khabar qa'iman in nasb."
+    },
+    {
+     "prompt": "Waarom heten deze werkwoorden onvolledig?",
+     "options": [
+      "Hun ism alleen maakt hun betekenis niet af",
+      "Ze hebben geen verleden tijd",
+      "Ze hebben twee letters",
+      "Ze kunnen geen voornaamwoord nemen"
+     ],
+     "explanation": "Ze hebben een khabar nodig: “Zayd was …” wat?"
+    }
+   ],
+   "diagram": {
+    "caption": "De dertien onvolledige werkwoorden, met de voorbeelden van het boek (blz. 4)",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Meaning": "Betekenis",
+     "The book's example": "Voorbeeld van het boek",
+     "was": "was",
+     "became": "werd",
+     "was in the morning": "was in de ochtend",
+     "was in the evening": "was in de avond",
+     "was in the forenoon": "was in de voormiddag",
+     "stayed all day": "bleef de hele dag",
+     "spent the night": "bracht de nacht door",
+     "did not cease": "hield niet op",
+     "is still": "is nog steeds",
+     "as long as": "zolang",
+     "is not": "is niet"
+    }
+   }
+  },
+  "11": {
+   "title": "De elfde soort: de werkwoorden van nadering",
+   "body": [
+    "De elfde soort zijn vier werkwoorden “van nadering” (al-muqaraba) die “één naamwoord in raf' zetten”: 'asa, kada, karaba en awshaka. Ze zeggen dat de handeling van een ander werkwoord nabij is: 'asa Zaydun an yakhruja, “misschien gaat Zayd naar buiten”; kada Zaydun an yakhruja, “Zayd ging bijna naar buiten”; karaba Zaydun yakhruju, “Zayd was er dicht bij naar buiten te gaan”; awshaka Zaydun yaji'u, “Zayd stond op het punt te komen”. 'Asa is het werkwoord van de hoop (raja'): het hoopt dat de handeling komt; de andere drie zeggen dat ze dichtbij was.",
+    "Na het naamwoord komt een mudari', de handeling die nabij is, en als regel niet één naamwoord zoals na kana: het boek zegt kada Zaydun an yakhruja, niet “kada Zaydun kharijan”. De mudari' kan met an komen of zonder, en de voorbeelden van het boek tonen beide.",
+    "“Eén naamwoord”: al-Jurjani noemt alleen het naamwoord dat ze in raf' zetten, degene wiens handeling nabij is. De meeste grammatici rekenen ze bij kana, zoals de Nahw-i Mir doet: Zayd is hun ism, in raf', en het werkwoord erna is hun khabar, op de plaats van een woord in nasb (fi mahall nasb). De Nahw-i Mir voegt bij 'asa een tweede manier toe: 'asa an yakhruja Zaydun, waarin an yakhruja de fa'il van 'asa is en er geen khabar nodig is.",
+    "Over an geven latere boeken het gewone gebruik: met 'asa en awshaka neemt de mudari' meestal an, met kada en karaba meestal niet; kada Zaydun yakhruju is dus de gewonere vorm, zoals in de Koran: yakadu zaytuha yudi'u, “zijn olie zou bijna licht geven” (Koran 24:35). Kada Zaydun an yakhruja en awshaka Zaydun yaji'u van het boek zijn het minder gewone gebruik; beide zijn toegestaan.",
+    "Een valkuil: 'asa is een werkwoord, hoewel het niet verandert voor heden of gebod; het wordt alleen in deze vorm van de verleden tijd gebruikt. Kada verandert zoals andere werkwoorden: de Koran zegt yakadu."
+   ],
+   "terms": [
+    "de werkwoorden van nadering: 'asa, kada, karaba, awshaka",
+    "“misschien”: het werkwoord van de hoop",
+    "“had bijna”",
+    "hoop: wat 'asa uitdrukt"
+   ],
+   "examples": [
+    "'asa Zaydun an yakhruja, “misschien gaat Zayd naar buiten”",
+    "kada Zaydun an yakhruja, “Zayd ging bijna naar buiten”",
+    "karaba Zaydun yakhruju, “Zayd was er dicht bij naar buiten te gaan”: zonder an",
+    "awshaka Zaydun yaji'u, “Zayd stond op het punt te komen”: zonder an"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welk naamwoord staat in raf' in 'asa Zaydun an yakhruja, en op welke handeling wordt gehoopt?",
+     "answer": "Zaydun staat in raf' als het ism van 'asa. De handeling waarop gehoopt wordt, is zijn naar buiten gaan, an yakhruja, dat de meeste grammatici opvatten als de khabar van 'asa, op de plaats van de nasb."
+    },
+    {
+     "prompt": "Kada Zaydun an yakhruja en kada Zaydun yakhruju: zijn beide juist? Welke is gewoner?",
+     "answer": "Beide zijn juist; het boek geeft de eerste. Met kada komt de mudari' meestal zonder an, zoals in yakadu zaytuha yudi'u (Koran 24:35), dus de tweede is gewoner."
+    },
+    {
+     "prompt": "Hoe verschilt “één naamwoord in raf'” van het boek van de manier waarop de meeste grammatici, en de Nahw-i Mir, deze werkwoorden beschrijven?",
+     "answer": "Het boek noemt alleen het naamwoord in raf'. De meeste grammatici rekenen ze bij kana: een naamwoord in raf' en een khabar, de mudari', op de plaats van de nasb. De Nahw-i Mir staat ook 'asa an yakhruja Zaydun toe, met an yakhruja als de fa'il van 'asa."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In het boek zetten de werkwoorden van nadering in raf'…",
+     "options": [
+      "twee naamwoorden",
+      "een naamwoord en een khabar in nasb",
+      "niets",
+      "één naamwoord"
+     ],
+     "explanation": "“Ze zetten één naamwoord in raf'”: degene wiens handeling nabij is."
+    },
+    {
+     "prompt": "Hoeveel werkwoorden van nadering geeft het boek?",
+     "options": [
+      "Vier",
+      "Dertien",
+      "Zeven",
+      "Twee"
+     ],
+     "explanation": "'Asa, kada, karaba en awshaka."
+    },
+    {
+     "prompt": "Wat volgt op het ism van kada?",
+     "options": [
+      "Een naamwoord in nasb",
+      "Een mudari'",
+      "Een partikel van de jarr",
+      "Een werkwoord in de verleden tijd"
+     ],
+     "explanation": "Kada Zaydun an yakhruja: de handeling die nabij was."
+    },
+    {
+     "prompt": "Kada Zaydun an yakhruja betekent…",
+     "options": [
+      "Zayd ging naar buiten",
+      "Zayd is nog niet naar buiten gegaan",
+      "Zayd ging bijna naar buiten",
+      "misschien gaat Zayd naar buiten"
+     ],
+     "explanation": "Kada zegt dat de handeling dichtbij was."
+    },
+    {
+     "prompt": "Welk van hen drukt hoop uit?",
+     "options": [
+      "Kada",
+      "Karaba",
+      "Awshaka",
+      "'Asa"
+     ],
+     "explanation": "'Asa Zaydun an yakhruja, “misschien gaat Zayd naar buiten”."
+    },
+    {
+     "prompt": "In awshaka Zaydun yaji'u gebruikt het boek…",
+     "options": [
+      "geen an voor het werkwoord",
+      "an voor het werkwoord",
+      "lam",
+      "lan"
+     ],
+     "explanation": "De voorbeelden van het boek geven karaba en awshaka zonder an."
+    },
+    {
+     "prompt": "De meeste grammatici rekenen het werkwoord erna als…",
+     "options": [
+      "hun fa'il",
+      "hun khabar, op de plaats van de nasb",
+      "een hal",
+      "een tamyiz"
+     ],
+     "explanation": "Ze plaatsen deze werkwoorden bij kana: een ism in raf', een khabar op de plaats van de nasb."
+    }
+   ],
+   "diagram": {
+    "caption": "De werkwoorden van nadering (blz. 4): “an?” geeft het gewone gebruik van latere boeken, de voorbeelden zijn die van het boek zelf",
+    "labels": {
+     "Verb": "Werkwoord",
+     "Meaning": "Betekenis",
+     "an?": "an?",
+     "The book's example": "Voorbeeld van het boek",
+     "perhaps (hope)": "misschien (hoop)",
+     "mostly with": "meestal met",
+     "was about to": "had bijna",
+     "mostly without": "meestal zonder",
+     "was near to": "was er dicht bij",
+     "was on the point of": "stond op het punt"
+    }
+   }
+  },
+  "12": {
+   "title": "De twaalfde soort: de werkwoorden van lof en blaam",
+   "body": [
+    "De twaalfde soort zijn vier werkwoorden van lof en blaam, ni'ma, bi'sa, sa'a en habbadha, die “het soortnaamwoord dat door de lam bepaald is, in raf' zetten”: ni'ma al-rajulu Zaydun, “wat een voortreffelijke man is Zayd!”; bi'sa al-rajulu 'Amrun, “wat een slechte man is 'Amr!”; sa'a al-rajulu Bakrun, “wat een kwade man is Bakr!”; habbadha al-rajulu Zaydun, “wat een beminnelijke man is Zayd!”. Ni'ma en habbadha prijzen; bi'sa en sa'a laken.",
+    "De zin heeft drie delen. Het werkwoord, ni'ma; zijn fa'il, al-rajulu, een soortnaamwoord (ism jins) met al-, “de man” in de zin van de man als soort; en degene die voor de lof uitgekozen wordt, Zaydun, genoemd al-makhsus bi-l-madh (of bi-l-dhamm). Het werkwoord prijst de soort, en het laatste naamwoord noemt degene die bedoeld is.",
+    "Het boek noemt alleen de fa'il, die het werkwoord regeert. Ook Zaydun staat in raf', en de commentatoren geven er twee lezingen van: het is een mubtada' waarvan de khabar de zin ervoor is, ni'ma al-rajulu; of het is de khabar van een weggelaten mubtada', “hij is Zayd”.",
+    "Deze werkwoorden veranderen niet: ni'ma en bi'sa hebben geen mudari' en geen gebiedende wijs, en ze houden hun betekenis van lof en blaam alleen in deze vorm. Habbadha is twee woorden samen: het werkwoord habba, “dierbaar zijn”, en dha, “dit”; Ibn Malik noemt dha als zijn fa'il (al-fa'ilu dha). Het boek telt het bij ni'ma omdat het op dezelfde manier prijst.",
+    "Een valkuil: Zaydun is niet de fa'il van ni'ma, hoewel het het naamwoord is waar de zin over gaat. De fa'il is al-rajulu; Zaydun is degene die uitgekozen wordt. En sa'a is hier niet de sa'a van de gewone spraak, “het bedroefde”, met zijn volledige vervoeging; in dit gebruik werkt het zoals bi'sa."
+   ],
+   "terms": [
+    "de werkwoorden van lof en blaam",
+    "degene die voor de lof (of de blaam) uitgekozen wordt",
+    "een soortnaamwoord, dat een soort noemt",
+    "“hoe voortreffelijk!” en “hoe slecht!”"
+   ],
+   "examples": [
+    "ni'ma al-rajulu Zaydun, “wat een voortreffelijke man is Zayd!”",
+    "bi'sa al-rajulu 'Amrun, “wat een slechte man is 'Amr!”",
+    "habbadha al-rajulu Zaydun, “wat een beminnelijke man is Zayd!”",
+    "sa'a al-rajulu Bakrun, “wat een kwade man is Bakr!”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem het werkwoord, zijn fa'il en degene die uitgekozen wordt in bi'sa al-rajulu 'Amrun.",
+     "answer": "Bi'sa is het werkwoord van blaam; al-rajulu zijn fa'il, in raf'; 'Amrun degene die voor de blaam uitgekozen wordt, ook in raf'."
+    },
+    {
+     "prompt": "Waarom is al-rajulu, en niet 'Amrun, de fa'il van bi'sa?",
+     "answer": "Het boek zegt dat deze werkwoorden het soortnaamwoord met de lam in raf' zetten: het werkwoord laakt de soort, “de man”, als zijn fa'il. 'Amrun komt daarna om degene te noemen die bedoeld is; het is de makhsus."
+    },
+    {
+     "prompt": "Geef de twee lezingen van Zaydun in ni'ma al-rajulu Zaydun.",
+     "answer": "(1) Een mubtada', met ni'ma al-rajulu ervoor als zijn khabar. (2) De khabar van een weggelaten mubtada': “[hij is] Zayd”. In beide staat het in raf'."
+    },
+    {
+     "prompt": "Uit welke twee woorden bestaat habbadha, en welk is volgens Ibn Malik zijn fa'il?",
+     "answer": "Het werkwoord habba, “dierbaar zijn”, en dha, “dit”. Ibn Malik noemt dha als de fa'il."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welke werkwoorden prijzen?",
+     "options": [
+      "Ni'ma en habbadha",
+      "Bi'sa en sa'a",
+      "Ni'ma en bi'sa",
+      "Sa'a en habbadha"
+     ],
+     "explanation": "Ni'ma en habbadha prijzen; bi'sa en sa'a laken."
+    },
+    {
+     "prompt": "De fa'il van ni'ma in ni'ma al-rajulu Zaydun is…",
+     "options": [
+      "Zaydun",
+      "al-rajulu",
+      "een verborgen voornaamwoord",
+      "ni'ma zelf"
+     ],
+     "explanation": "Het werkwoord zet het soortnaamwoord met de lam in raf'."
+    },
+    {
+     "prompt": "In het boek is de fa'il van deze werkwoorden een soortnaamwoord…",
+     "options": [
+      "dat onbepaald gelaten is",
+      "in nasb",
+      "dat door de lam bepaald is",
+      "in jarr"
+     ],
+     "explanation": "Al-rajulu, met al-."
+    },
+    {
+     "prompt": "Zaydun in ni'ma al-rajulu Zaydun heet…",
+     "options": [
+      "de fa'il",
+      "de maf'ul bihi",
+      "de tamyiz",
+      "degene die voor de lof uitgekozen wordt"
+     ],
+     "explanation": "Al-makhsus bi-l-madh: het noemt degene die bedoeld is."
+    },
+    {
+     "prompt": "Bi'sa al-rajulu 'Amrun betekent…",
+     "options": [
+      "wat een slechte man is 'Amr!",
+      "'Amr is geen man",
+      "'Amr werd slecht",
+      "misschien is 'Amr slecht"
+     ],
+     "explanation": "Bi'sa is het werkwoord van blaam."
+    },
+    {
+     "prompt": "In habbadha is de fa'il, zoals Ibn Malik zegt…",
+     "options": [
+      "habba",
+      "dha",
+      "al-rajulu",
+      "Zaydun"
+     ],
+     "explanation": "“Al-fa'ilu dha”: habba is het werkwoord, dha zijn fa'il."
+    },
+    {
+     "prompt": "Hoeveel werkwoorden zijn er in de twaalfde soort?",
+     "options": [
+      "Zeven",
+      "Dertien",
+      "Vier",
+      "Twee"
+     ],
+     "explanation": "Ni'ma, bi'sa, sa'a en habbadha."
+    }
+   ],
+   "diagram": {
+    "caption": "De drie delen van de zin van lof; de twee lezingen van degene die uitgekozen wordt, zijn die van de commentatoren.",
+    "labels": {
+     "niʿma al-rajulu Zaydun": "ni'ma al-rajulu Zaydun",
+     "The verb of praise": "Het werkwoord van lof",
+     "Its doer (fāʿil)": "Zijn fa'il",
+     "The one singled out": "Degene die uitgekozen wordt",
+     "a subject (mubtadaʾ), or": "een mubtada', of",
+     "a predicate (khabar)": "een khabar"
+    }
+   }
+  },
+  "13": {
+   "title": "De dertiende soort: de werkwoorden van twijfel en zekerheid",
+   "body": [
+    "De laatste gehoorde soort zijn zeven werkwoorden “van twijfel en zekerheid” die “voor twee naamwoorden komen, waarvan het tweede op het eerste slaat, en beide in nasb zetten”: hasibtu, zanantu, khiltu, ra'aytu, 'alimtu, wajadtu en za'amtu. De twee naamwoorden waren een mubtada' en zijn khabar: Zaydun fadilun, “Zayd is voortreffelijk”, wordt hasibtu Zaydan fadilan, “ik hield Zayd voor voortreffelijk”. “Het tweede slaat op het eerste” betekent dat het tweede iets zegt over dezelfde persoon: de voortreffelijke is Zayd.",
+    "Het boek geeft ze in de eerste persoon, hasibtu “ik rekende”, zanantu “ik dacht”, omdat ze zo gebruikt worden: de spreker deelt zijn eigen oordeel mee. De commentatoren verdelen ze naar de sterkte van dat oordeel: hasibtu, zanantu, khiltu en za'amtu voor twijfel of mening; ra'aytu, 'alimtu en wajadtu voor zekerheid. Latere boeken noemen ze allemaal “werkwoorden van het hart” (af'al al-qulub), omdat ze noemen wat er in de geest gebeurt.",
+    "Lees de voorbeelden met dat in gedachten. Zanantu Bakran na'iman, “ik dacht dat Bakr sliep”, is een mening; 'alimtu Zaydan aminan, “ik wist dat Zayd betrouwbaar was”, is kennis. Za'amtu, “ik beweerde”, wordt gezegd van een oordeel dat best onwaar kan zijn, en het voorbeeld van het boek past daarbij: za'amtu al-shaytana shakuran, “ik beweerde dat de duivel dankbaar was”. De grammatici noemen het eerste naamwoord de eerste maf'ul (al-maf'ul al-awwal) en het tweede de tweede maf'ul (al-maf'ul al-thani).",
+    "Ra'aytu is hier geen zien met het oog: ra'aytu Zaydan 'aqilan is “ik zag dat Zayd verstandig was”, een oordeel van de geest, met twee voorwerpen. Zien met het oog neemt één maf'ul bihi, zoals in de eerste soort: ra'aytu al-qawma, “ik zag de mensen”. Ook wajadtu betekent “ik vond dat hij … was”: wajadtu al-bayta rahinan, “ik vond het huis verpand”.",
+    "Een valkuil: het tweede naamwoord in nasb lijkt op een hal, een woord van toestand, maar het kan niet weggelaten worden. Zanantu Zaydan alleen zegt niet wat ik van Zayd dacht; de zin heeft fadilan of na'iman nodig om volledig te zijn. Daarom zijn beide naamwoorden voorwerpen van het werkwoord."
+   ],
+   "terms": [
+    "de werkwoorden van twijfel en zekerheid",
+    "werkwoorden van het hart: de latere naam ervoor",
+    "de eerste en de tweede maf'ul",
+    "zekerheid"
+   ],
+   "examples": [
+    "hasibtu Zaydan fadilan, “ik hield Zayd voor voortreffelijk”: beide naamwoorden in nasb",
+    "zanantu Bakran na'iman, “ik dacht dat Bakr sliep”: een mening",
+    "'alimtu Zaydan aminan, “ik wist dat Zayd betrouwbaar was”: zekerheid",
+    "ra'aytu al-qawma, “ik zag de mensen”: zien met het oog, één maf'ul bihi"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de twee voorwerpen in zanantu Bakran na'iman, en de zin van mubtada' en khabar waar ze uit komen.",
+     "answer": "Bakran is de eerste maf'ul, na'iman de tweede; beide staan in nasb. Ze komen uit Bakrun na'imun, “Bakr slaapt”."
+    },
+    {
+     "prompt": "Hoeveel voorwerpen heeft ra'aytu in ra'aytu Zaydan 'aqilan, en hoeveel in ra'aytu al-qawma? Waarom?",
+     "answer": "Twee in het eerste: het is een oordeel van de geest, “ik zag dat Zayd verstandig was”, een werkwoord van zekerheid. Eén in het tweede: het is zien met het oog, “ik zag de mensen”."
+    },
+    {
+     "prompt": "Verdeel de zeven werkwoorden in twijfel en zekerheid.",
+     "answer": "Twijfel of mening: hasibtu, zanantu, khiltu, za'amtu. Zekerheid: ra'aytu, 'alimtu, wajadtu."
+    },
+    {
+     "prompt": "Waarom is fadilan in hasibtu Zaydan fadilan geen hal?",
+     "answer": "Een hal kan weggelaten worden zonder de zin te bederven; fadilan niet. Hasibtu Zaydan alleen zegt niet waarvoor ik hem hield. Fadilan is de tweede maf'ul, de oude khabar van Zaydun fadilun."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De werkwoorden van twijfel en zekerheid zetten…",
+     "options": [
+      "het eerste in raf' en het tweede in nasb",
+      "beide naamwoorden in nasb",
+      "beide in raf'",
+      "het tweede in jarr"
+     ],
+     "explanation": "Hasibtu Zaydan fadilan: twee voorwerpen in nasb."
+    },
+    {
+     "prompt": "Hoeveel werkwoorden zijn er in de dertiende soort?",
+     "options": [
+      "Vier",
+      "Dertien",
+      "Zeven",
+      "Negen"
+     ],
+     "explanation": "Hasibtu, zanantu, khiltu, ra'aytu, 'alimtu, wajadtu en za'amtu."
+    },
+    {
+     "prompt": "“Het tweede slaat op het eerste” betekent…",
+     "options": [
+      "het tweede is een voornaamwoord",
+      "het tweede komt eerst",
+      "het tweede staat in jarr",
+      "het tweede zegt iets over hetzelfde"
+     ],
+     "explanation": "In hasibtu Zaydan fadilan is de voortreffelijke Zayd."
+    },
+    {
+     "prompt": "Welk werkwoord is een werkwoord van zekerheid?",
+     "options": [
+      "'Alimtu",
+      "Zanantu",
+      "Khiltu",
+      "Hasibtu"
+     ],
+     "explanation": "Ra'aytu, 'alimtu en wajadtu zijn voor zekerheid."
+    },
+    {
+     "prompt": "In 'alimtu Zaydan aminan is aminan…",
+     "options": [
+      "een hal",
+      "de tweede maf'ul",
+      "een tamyiz",
+      "de fa'il"
+     ],
+     "explanation": "Zaydan is de eerste maf'ul, aminan de tweede."
+    },
+    {
+     "prompt": "In ra'aytu al-qawma betekent ra'aytu…",
+     "options": [
+      "oordelen, met twee voorwerpen",
+      "twijfelen",
+      "zien met het oog, met één maf'ul bihi",
+      "beweren"
+     ],
+     "explanation": "Alleen de ra'aytu van de geest neemt twee voorwerpen."
+    },
+    {
+     "prompt": "Van welke zin is hasibtu Zaydan fadilan gemaakt?",
+     "options": [
+      "Zaydan fadilun",
+      "fadilun Zaydan",
+      "Zaydin fadilin",
+      "Zaydun fadilun"
+     ],
+     "explanation": "Een mubtada' en een khabar, die het werkwoord allebei in nasb zet."
+    }
+   ],
+   "diagram": {
+    "caption": "De zeven werkwoorden naar de sterkte van het oordeel, zoals de commentatoren ze verdelen (blz. 5)",
+    "labels": {
+     "Doubt and certainty: 7": "Twijfel en zekerheid: 7",
+     "Doubt, opinion": "Twijfel, mening",
+     "ḥasibtu: I reckoned": "hasibtu: ik rekende",
+     "ẓanantu: I thought": "zanantu: ik dacht",
+     "khiltu: I imagined": "khiltu: ik verbeeldde me",
+     "zaʿamtu: I claimed": "za'amtu: ik beweerde",
+     "Certainty": "Zekerheid",
+     "raʾaytu: I saw (judged)": "ra'aytu: ik zag (oordeelde)",
+     "ʿalimtu: I knew": "'alimtu: ik wist",
+     "wajadtu: I found": "wajadtu: ik vond"
+    }
+   }
+  },
+  "14": {
+   "title": "De zeven regeerders naar analogie",
+   "body": [
+    "Na de eenennegentig gehoorde regeerders komen zeven regeerders naar analogie (qiyasiyya). Het zijn geen losse woorden maar klassen van woorden: elk woord dat tot de klasse behoort, regeert volgens de regel, zonder opgesomd te worden. Zo is “het werkwoord in het algemeen” (al-fi'l 'ala al-itlaq) één regeerder, hoewel het talloze werkwoorden dekt: elk werkwoord regeert zijn fa'il, en een overgankelijk werkwoord ook zijn maf'ul bihi.",
+    "Het werkwoord geeft raf' aan zijn fa'il en, als het overgankelijk is, nasb aan zijn maf'ul bihi: daraba Zaydun 'Amran, “Zayd sloeg 'Amr”. Vier andere zijn naamwoorden die van werkwoorden gemaakt zijn en werken zoals hun werkwoorden werken. De Nahw-i Mir, die voor dit boek gelezen wordt, geeft van elk een voorbeeld: het actief deelwoord, Zaydun daribun abuhu 'Amran, “Zayd, zijn vader slaat 'Amr”, waarin darib doet wat daraba doet; het passief deelwoord, Zaydun madrubun abuhu, “Zayd, zijn vader wordt geslagen”; de sifa mushabbaha (het bijvoeglijk naamwoord dat op het deelwoord lijkt), een bijvoeglijk naamwoord van een blijvende eigenschap, Zaydun hasanun ghulamuhu, “Zayd, zijn knecht is knap”; en de masdar, a'jabani darbu Zaydin 'Amran, “het slaan van 'Amr door Zayd beviel mij”.",
+    "De laatste twee gaan over naamwoorden. “Het naamwoord dat aan een ander naamwoord toegevoegd is”, de mudaf, zet het tweede in jarr: ya 'Abda Allahi, yawmi al-jumu'ati, en de titel mi'atu 'amilin. “Elk naamwoord dat volledig is en geen toevoeging nodig heeft” zet zijn tamyiz in nasb: een naamwoord is volledig als het op tanwin of op een nun eindigt en dus niet aan wat volgt verbonden kan worden, zoals tis'una in ahadun wa-tis'una 'amilan. De achtste soort gaf vier zulke naamwoorden bij naam; hier dekt de regel ze allemaal.",
+    "Dit is wat een regeerder naar analogie geeft: zodra je weet dat het actief deelwoord werkt zoals zijn werkwoord, is elk actief deelwoord van elk werkwoord een regeerder. Daarom zijn er maar zeven, en daarom worden ze als regels geleerd, niet als lijsten. Latere boeken, de Nahw-i Mir daaronder, voegen de voorwaarden toe waaronder elk werkt: het actief deelwoord bijvoorbeeld werkt wanneer het het heden of de toekomst betekent en steunt op een woord ervoor, zoals een mubtada' (Zaydun daribun …).",
+    "Een valkuil: tel het werk van een werkwoord niet twee keer. In daraba Zaydun 'Amran is er één regeerder, daraba, voor zowel Zaydun als 'Amran. En een mudaf kan zelf geregeerd worden: in ya 'Abda Allahi wordt 'Abda geregeerd door ya en regeert het Allahi."
+   ],
+   "terms": [
+    "de regeerders naar analogie: klassen die volgens een regel regeren",
+    "het actief en het passief deelwoord",
+    "de sifa mushabbaha, van een blijvende eigenschap",
+    "het naamwoord dat aan een ander toegevoegd is en het in jarr zet",
+    "het volledige naamwoord, dat zijn tamyiz in nasb zet"
+   ],
+   "examples": [
+    "daraba Zaydun 'Amran, “Zayd sloeg 'Amr”: het werkwoord, met zijn fa'il en zijn maf'ul bihi",
+    "Zaydun daribun abuhu 'Amran (Nahw-i Mir): het actief deelwoord werkt zoals daraba",
+    "a'jabani darbu Zaydin 'Amran (Nahw-i Mir): de masdar werkt zoals zijn werkwoord",
+    "ahadun wa-tis'una 'amilan: tis'una, volledig met zijn nun, regeert zijn tamyiz"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de regeerder naar analogie van het woord tussen haken: daraba Zaydun ['Amran]; Zaydun hasanun [ghulamuhu]; yawmi [al-jumu'ati]; tis'una ['amilan].",
+     "answer": "'Amran: het werkwoord daraba (nasb, zijn maf'ul bihi). Ghulamuhu: de sifa mushabbaha hasanun (raf'). Al-jumu'ati: de mudaf yawmi (jarr). 'Amilan: het volledige naamwoord tis'una (nasb, als tamyiz)."
+    },
+    {
+     "prompt": "Wat regeert de masdar darb in a'jabani darbu Zaydin 'Amran, en hoe toont dat dat hij werkt zoals zijn werkwoord?",
+     "answer": "Darbu is verbonden met Zaydin, degene die slaat, die door de idafa in jarr staat, en het zet 'Amran, degene die geslagen wordt, in nasb als zijn maf'ul bihi, zoals het werkwoord daraba zou doen."
+    },
+    {
+     "prompt": "Waarom zijn er maar zeven regeerders naar analogie, terwijl er eenennegentig gehoorde zijn?",
+     "answer": "Elke regeerder naar analogie is een klasse met een regel (elk werkwoord, elk actief deelwoord …), dus één regel dekt talloze woorden. De gehoorde regeerders hebben geen regel en moeten één voor één geteld worden."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel regeerders naar analogie telt het boek?",
+     "options": [
+      "Negen",
+      "Eenennegentig",
+      "Zeven",
+      "Twee"
+     ],
+     "explanation": "Het werkwoord, de sifa mushabbaha, de twee deelwoorden, de masdar, de mudaf en het volledige naamwoord."
+    },
+    {
+     "prompt": "Een regeerder naar analogie is…",
+     "options": [
+      "één woord dat van de Arabieren gehoord is",
+      "een regeerder die geen woord is",
+      "een partikel van de jarr",
+      "een klasse van woorden die volgens een regel regeert"
+     ],
+     "explanation": "Elk woord dat tot de klasse behoort, regeert, zonder opgesomd te worden."
+    },
+    {
+     "prompt": "Wat regeert 'Amran in daraba Zaydun 'Amran?",
+     "options": [
+      "Het werkwoord daraba",
+      "Zaydun",
+      "De ibtida'",
+      "Niets"
+     ],
+     "explanation": "Het werkwoord geeft raf' aan zijn fa'il en nasb aan zijn maf'ul bihi."
+    },
+    {
+     "prompt": "De mudaf zet het naamwoord erna in…",
+     "options": [
+      "nasb",
+      "jarr",
+      "raf'",
+      "jazm"
+     ],
+     "explanation": "Yawmi al-jumu'ati, mi'atu 'amilin."
+    },
+    {
+     "prompt": "Het volledige naamwoord regeert…",
+     "options": [
+      "het volgende naamwoord in jarr",
+      "twee voorwerpen",
+      "zijn tamyiz in nasb",
+      "een werkwoord in jazm"
+     ],
+     "explanation": "Tis'una, volledig met zijn nun, zet 'amilan in nasb."
+    },
+    {
+     "prompt": "Al-sifa al-mushabbaha is…",
+     "options": [
+      "een partikel zoals laysa",
+      "een naamwoord van een werkwoord",
+      "een werkwoord van lof",
+      "een bijvoeglijk naamwoord van een blijvende eigenschap dat werkt zoals zijn werkwoord"
+     ],
+     "explanation": "Zaydun hasanun ghulamuhu: hasan geeft raf' aan ghulamuhu."
+    },
+    {
+     "prompt": "In a'jabani darbu Zaydin 'Amran staat 'Amran in nasb door…",
+     "options": [
+      "de masdar darb",
+      "het werkwoord a'jaba",
+      "Zaydin",
+      "een verborgen werkwoord"
+     ],
+     "explanation": "De masdar werkt zoals zijn werkwoord daraba en neemt een maf'ul bihi."
+    }
+   ],
+   "diagram": {
+    "caption": "De zeven regeerders naar analogie (blz. 5); de voorbeelden van de deelwoorden, het bijvoeglijk naamwoord en de masdar zijn van de Nahw-i Mir",
+    "labels": {
+     "Governor": "Regeerder",
+     "It governs": "Hij regeert",
+     "Example": "Voorbeeld",
+     "the verb": "het werkwoord",
+     "doer in rafʿ, object in naṣb": "fa'il in raf', maf'ul bihi in nasb",
+     "the resembling adjective": "de sifa mushabbaha",
+     "a noun in rafʿ": "een naamwoord in raf'",
+     "the active participle": "het actief deelwoord",
+     "as its verb": "zoals zijn werkwoord",
+     "the passive participle": "het passief deelwoord",
+     "as its passive verb": "zoals zijn passieve werkwoord",
+     "the maṣdar": "de masdar",
+     "the muḍāf": "de mudaf",
+     "the next noun in jarr": "het volgende naamwoord in jarr",
+     "the complete noun": "het volledige naamwoord",
+     "its tamyīz in naṣb": "zijn tamyiz in nasb"
+    }
+   }
+  },
+  "15": {
+   "title": "De twee abstracte regeerders",
+   "body": [
+    "Het boek sluit met twee regeerders die helemaal geen woorden zijn: “ze hebben geen regeerder die in de woorden zichtbaar is”. Elke uitgang heeft een oorzaak; als er geen woord voor een naamwoord of een werkwoord staat om die te veroorzaken, noemen de grammatici een oorzaak in de betekenis, een abstracte (ma'nawi) regeerder.",
+    "De eerste regeert de mubtada' en de khabar: “het begin” (al-ibtida'), het vooraan zetten van een naamwoord in een zin, vrij van elke uitgesproken regeerder, zodat er iets over gezegd kan worden. In Zaydun fi al-dari, “Zayd is in het huis”, komt er geen woord voor Zaydun; de ibtida' zet het in raf'. Het boek maakt de ibtida' tot de regeerder van de mubtada' en de khabar samen. Dat is één opvatting onder meerdere: Ibn Malik volgt een andere, dat de mubtada' door de ibtida' in raf' gezet wordt en de khabar door de mubtada'.",
+    "De tweede regeert de mudari' in raf': “zijn staan op de plaats van het naamwoord” (wuqu'uhu bi-mawqi'i al-ism). Yadribu in Zaydun yadribu, “Zayd slaat”, staat waar een naamwoord zou kunnen staan, zoals in Zaydun daribun, en dat zet het in raf'. Dit is de opvatting van de Basrische grammatici. Al-Farra' en andere Kufiërs zeggen dat de mudari' in raf' staat omdat hij vrij is van elke regeerder van de nasb of de jazm; Ibn Malik volgt hen in zijn Alfiyya.",
+    "Met deze twee is het stelsel gesloten. Elke uitgang heeft nu een oorzaak: een van de eenennegentig gehoorde regeerders, een van de zeven regeerders naar analogie, of een van deze twee. Een student die Zaydun fi al-dari ontleedt, zegt dat Zaydun een mubtada' is, in raf' door de ibtida'; wie Zaydun yadribu ontleedt, zegt dat yadribu in raf' staat omdat het op de plaats van een naamwoord staat. Als lam komt, lam yadrib Zaydun, is er een uitgesproken regeerder bijgekomen, en de abstracte wijkt.",
+    "Het boek eindigt met tammat, “het is voltooid”: honderd regeerders op een paar bladzijden. Het volgende nahw-boek van het Indiase pad, de Hidayat al-nahw, behandelt dezelfde stof in de volgorde van het naamwoord, het werkwoord en het partikel, met definities en redenen."
+   ],
+   "terms": [
+    "de abstracte regeerder: niet zichtbaar in de woorden",
+    "het begin: het staan van een naamwoord aan het begin van de zin",
+    "de mubtada' en de khabar",
+    "zijn staan op de plaats van het naamwoord: wat de mudari' in raf' zet"
+   ],
+   "examples": [
+    "Zaydun fi al-dari, “Zayd is in het huis”: Zaydun in raf' door de ibtida'",
+    "Zaydun yadribu, “Zayd slaat”: yadribu in raf', op de plaats van een naamwoord",
+    "lam yadrib Zaydun: er is een uitgesproken regeerder bijgekomen, en het werkwoord staat in jazm"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de regeerder van elk woord in Zaydun fi al-dari, zoals dit boek ze telt.",
+     "answer": "Zaydun: de ibtida', een abstracte regeerder (raf'). Al-dari: fi, een partikel van de jarr van de eerste soort (jarr). De khabar, fi al-dari, wordt volgens het boek ook door de ibtida' geregeerd."
+    },
+    {
+     "prompt": "Waarom staat yadribu in raf' in Zaydun yadribu, en waarom niet in lam yadrib Zaydun?",
+     "answer": "In Zaydun yadribu regeert geen woord het; het staat waar een naamwoord zou kunnen staan (Zaydun daribun), en die abstracte regeerder zet het in raf'. In lam yadrib Zaydun is het partikel lam, een uitgesproken regeerder, erbij gekomen en heeft het in jazm gezet."
+    },
+    {
+     "prompt": "Geef de Basrische en de Kufische opvatting over wat de mudari' in raf' zet.",
+     "answer": "Basrisch, de opvatting van dit boek: zijn staan op de plaats van een naamwoord. Kufisch (al-Farra'), door Ibn Malik gevolgd: zijn vrij zijn van elke regeerder van de nasb of de jazm."
+    },
+    {
+     "prompt": "Vat de honderd regeerders van het boek samen naar hun indeling.",
+     "answer": "Achtennegentig uitgesproken en twee abstracte. De uitgesproken: eenennegentig gehoorde, in dertien soorten (zes van partikels, drie van naamwoorden, vier van werkwoorden), en zeven naar analogie. De abstracte: de ibtida', en het staan van de mudari' op de plaats van een naamwoord."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel abstracte regeerders zijn er?",
+     "options": [
+      "Zeven",
+      "Eén",
+      "Dertien",
+      "Twee"
+     ],
+     "explanation": "De ibtida', en het staan van de mudari' op de plaats van een naamwoord."
+    },
+    {
+     "prompt": "In het boek is de regeerder van de mubtada' en de khabar…",
+     "options": [
+      "de ibtida'",
+      "het werkwoord kana",
+      "het partikel inna",
+      "de khabar"
+     ],
+     "explanation": "Het staan van het naamwoord aan het begin van de zin."
+    },
+    {
+     "prompt": "Een abstracte regeerder is…",
+     "options": [
+      "een partikel",
+      "niet zichtbaar in de woorden",
+      "een werkwoord dat niet gebruikt wordt",
+      "een naamwoord van de voorwaarde"
+     ],
+     "explanation": "“Ze hebben geen regeerder die in de woorden zichtbaar is.”"
+    },
+    {
+     "prompt": "Wat zet in het boek de mudari' in raf'?",
+     "options": [
+      "Zijn voorvoegsel",
+      "De mubtada' ervoor",
+      "Zijn staan op de plaats van een naamwoord",
+      "Lam"
+     ],
+     "explanation": "Wuqu'uhu mawqi'a al-ism, de Basrische opvatting."
+    },
+    {
+     "prompt": "Al-Farra' en de Kufiërs zeggen dat de mudari' in raf' staat omdat…",
+     "options": [
+      "hij op de plaats van een naamwoord staat",
+      "hij op een naamwoord volgt",
+      "hij met een voorvoegsel begint",
+      "hij vrij is van elke regeerder van de nasb of de jazm"
+     ],
+     "explanation": "Ibn Malik volgt deze opvatting in de Alfiyya."
+    },
+    {
+     "prompt": "Wat zet Zaydun in raf' in Zaydun fi al-dari?",
+     "options": [
+      "De ibtida'",
+      "Fi",
+      "Al-dari",
+      "Niets: het is vast"
+     ],
+     "explanation": "Er staat geen woord voor; het vooraan gezet zijn regeert het."
+    },
+    {
+     "prompt": "Hoeveel regeerders telt het boek in totaal?",
+     "options": [
+      "Eenennegentig",
+      "Honderd",
+      "Zestig",
+      "Achtennegentig"
+     ],
+     "explanation": "Eenennegentig gehoorde, zeven naar analogie en twee abstracte."
+    }
+   ],
+   "diagram": {
+    "caption": "De twee abstracte regeerders (blz. 5), met de andere opvattingen",
+    "labels": {
+     "Abstract governor": "Abstracte regeerder",
+     "It governs": "Hij regeert",
+     "Example": "Voorbeeld",
+     "Another view": "Een andere opvatting",
+     "الِابْتِدَاءُ the beginning": "الِابْتِدَاءُ het begin",
+     "the subject and the predicate": "de mubtada' en de khabar",
+     "the subject governs the predicate (Ibn Mālik)": "de mubtada' regeert de khabar (Ibn Malik)",
+     "وُقُوعُهُ بِمَوْقِعِ الِاسْمِ standing in a noun's place": "وُقُوعُهُ بِمَوْقِعِ الِاسْمِ het staan op de plaats van een naamwoord",
+     "the muḍāriʿ, in rafʿ": "de mudari', in raf'",
+     "being free of naṣb and jazm (al-Farrāʾ, the Kūfans)": "vrij zijn van nasb en jazm (al-Farra', de Kufiërs)"
+    }
+   }
+  }
+ },
+ "title": "al-'Awamil al-mi'a",
+ "summary": "Al-'Awamil al-mi'a, “de honderd regeerders”, van 'Abd al-Qahir al-Jurjani (gest. 471/1078), zet de nahw uiteen als een lijst van de woorden en de ideeën die de i'rab veroorzaken: eenennegentig gehoorde regeerders in dertien soorten, zeven regeerders naar analogie en twee abstracte. Op het Indiase pad wordt het gelezen na de Nahw-i Mir, vaak met zijn commentaar, de Sharh Mi'at 'amil; ook de Osmaanse madrasa's lezen het, en Birgivi schreef er zijn “nieuwe” 'Awamil naar. Elke soort wordt genoemd naar wat ze doet, geteld, opgesomd en in korte voorbeelden getoond, zodat de student een kaart van wat wat regeert uit het hoofd leert. De lessen volgen de gevocaliseerde tekst die A. Lockett drukte (Calcutta, 1814), soort voor soort, en verklaren elke regeerder aan de hand van de eigen voorbeelden van het boek."
+}

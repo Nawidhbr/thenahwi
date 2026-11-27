@@ -31,7 +31,7 @@
       ],
       "tasks": [
         {
-          "prompt": "Sebutkan lima hal yang dikatakan al-Bina tentang bab pertama, menurut urutannya.",
+          "prompt": "Sebutkan lima perkara yang dikatakan al-Bina tentang bab pertama, menurut urutannya.",
           "answer": "Wazannya: fa'ala yaf'ulu. Mauzun-nya: nashara yanshuru. 'Alamah-nya: 'ain fi'il berfathah pada madhi dan berdhammah pada mudhari'. Tujuan pembentukannya: kebanyakan muta'addi, kadang-kadang lazim. Contohnya: nashara Zaidun 'Amran (muta'addi), kharaja Zaidun (lazim)."
         },
         {
@@ -1042,6 +1042,132 @@
       ]
     },
     "9": {
+      "title": "Bentuk-bentuk mulhaq lainnya; apa arti ilhaq",
+      "body": [
+        "Tiga bab lagi dilekatkan pada dahraja. Fa'yala, dengan ya' sesudah 'ain fi'il: 'atsyara yu'atsyiru 'atsyaratan, “menerbangkan debu”, hanya lazim: 'atsyara Zaidun. Fa'lala, dengan lam fi'il diulang: jalbaba yujalbibu jalbabatan wa jilbaban, “memakaikan jilbab”, muta'addi: jalbaba Zaidun al-jilbaba. Fa'la (فَعْلَى), dengan ya' di akhir: salqa yusalqi salqayatan wa silqa'an, “berbaring telentang”, lazim: salqa Zaidun, ai nama 'ala qafahu, “Zaid telah berbaring telentang, yakni tidur di atas tengkuknya”.",
+        "Perhatikan jalbaba: wazannya tampak persis seperti wazan dahraja, fa'lala. Perbedaannya ada pada akarnya. Dahraja punya empat huruf asli; jalbaba punya tiga, j-l-b, dan ba' keduanya adalah ulangan lam fi'il, huruf tambahan. Maka kitab ini menggambarkannya sebagai “satu huruf sejenis lam fi'il yang ditambahkan di akhir”. Dua fi'il bisa berbagi satu wazan namun tetap berbeda macamnya.",
+        "Dan salqa berakhir dengan ya' yang ditulis sebagai alif (salqa), yang menjadikan bentuk-bentuknya berperilaku seperti fi'il mu'tal: yusalqi pada mudhari', salqayatan pada mashdar. Bentuk-bentuknya hanya diambil dari cetakan kitab.",
+        "Bagian ini ditutup dengan definisi ilhaq: “bersatunya kedua mashdar, yakni mashdar yang mulhaq dan mashdar yang dilekati”. Fi'il tsulatsi dengan huruf tambahan terhitung mulhaq pada dahraja karena mashdarnya berjalan menurut wazan yang sama dengan mashdar dahraja: hauqala, hauqalatan seperti dahraja, dahrajatan; jalbaba, jalbabatan. Fi'il mazid seperti akrama tidak mulhaq, karena mashdarnya, ikram, punya bentuknya sendiri."
+      ],
+      "terms": [
+        "ilhaq: mashdar-mashdarnya berbagi satu wazan",
+        "yang mulhaq dan yang dilekati (mulhaq bih)",
+        "tiga wazan terakhir yang dilekatkan pada dahraja"
+      ],
+      "examples": [
+        "'atsyara Zaidun, “Zaid telah menerbangkan debu”: fa'yala",
+        "jalbaba Zaidun al-jilbaba, “Zaid telah memakaikan jilbab kepada seseorang”: fa'lala dengan lam fi'il diulang",
+        "salqa Zaidun, “Zaid telah berbaring telentang”: fa'la (فَعْلَى)",
+        "dahraja dahrajatan, hauqala hauqalatan: wazan mashdar yang sama, tanda ilhaq"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dahraja dan jalbaba sama-sama fa'lala. Mengapa yang satu mujarrad dan yang lain mulhaq?",
+          "answer": "Dahraja punya empat huruf asli (d-h-r-j). Jalbaba punya tiga (j-l-b); ba' keduanya mengulang lam fi'il dan merupakan tambahan, yang menjadikannya fi'il tsulatsi yang mulhaq pada dahraja."
+        },
+        {
+          "prompt": "Nyatakan definisi ilhaq menurut al-Bina dan tunjukkan pada hauqala.",
+          "answer": "Ilhaq adalah bersatunya kedua mashdar, mashdar yang mulhaq dan mashdar yang dilekati. Hauqala bermashdar hauqalatan menurut wazan dahrajatan, maka hauqala mulhaq pada dahraja."
+        },
+        {
+          "prompt": "Mengapa akrama, yang juga empat huruf, tidak mulhaq pada dahraja?",
+          "answer": "Mashdarnya ikram, yang tidak berbagi wazan dengan dahraja (dahrajatan, dihrajan); dan mudhari'-nya yukrimu serta wazannya af'ala adalah miliknya sendiri."
+        },
+        {
+          "prompt": "Bentuk mulhaq mana dari keenamnya yang muta'addi, menurut kitab ini?",
+          "answer": "Baithara, jahwara dan jalbaba. Hauqala, 'atsyara dan salqa lazim."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Apakah ilhaq itu, menurut al-Bina?",
+          "options": [
+            "Menambahkan hamzah",
+            "Bersatunya mashdar yang mulhaq dan mashdar contohnya",
+            "Menjadikan fi'il muta'addi",
+            "Mentasydidkan 'ain fi'il"
+          ],
+          "explanation": "Hauqalatan menurut wazan dahrajatan."
+        },
+        {
+          "prompt": "Apa yang ditambahkan pada jalbaba?",
+          "options": [
+            "Wawu",
+            "Ya'",
+            "Ba' kedua, mengulang lam fi'il",
+            "Tidak ada"
+          ],
+          "explanation": "Akar j-l-b."
+        },
+        {
+          "prompt": "Salqa Zaidun artinya…",
+          "options": [
+            "Zaid telah menerbangkan debu",
+            "Zaid telah memakai jilbab",
+            "Zaid telah menjadi tua",
+            "Zaid telah berbaring telentang"
+          ],
+          "explanation": "Ai nama 'ala qafahu."
+        },
+        {
+          "prompt": "'Atsyara berwazan…",
+          "options": [
+            "Fa'yala",
+            "Fai'ala",
+            "Fa'wala",
+            "Fau'ala"
+          ],
+          "explanation": "Ya' sesudah 'ain fi'il."
+        },
+        {
+          "prompt": "Berapa bentuk yang dilekatkan pada dahraja?",
+          "options": [
+            "Lima",
+            "Enam",
+            "Dua",
+            "Tiga"
+          ],
+          "explanation": "Fau'ala, fai'ala, fa'wala, fa'yala, fa'lala, fa'la (فَعْلَى)."
+        },
+        {
+          "prompt": "Dua fi'il dengan wazan yang sama, fa'lala, dapat berbeda pada…",
+          "options": [
+            "tidak ada",
+            "harakatnya",
+            "akarnya: empat huruf asli atau tiga",
+            "maknanya saja"
+          ],
+          "explanation": "Dahraja mujarrad, jalbaba mulhaq."
+        },
+        {
+          "prompt": "Apakah akrama mulhaq pada dahraja?",
+          "options": [
+            "Ya: ia punya empat huruf",
+            "Ya: ia muta'addi",
+            "Hanya pada majhul",
+            "Tidak: mashdarnya ikram punya wazannya sendiri"
+          ],
+          "explanation": "Ilhaq dinilai dengan mashdarnya."
+        }
+      ],
+      "diagram": {
+        "caption": "Enam bentuk yang dilekatkan pada dahraja",
+        "labels": {
+          "Pattern": "Wazan",
+          "Model": "Mauzun",
+          "Maṣdar": "Mashdar",
+          "Added letter": "Huruf tambahan",
+          "Use": "Pemakaian",
+          "wāw after the fāʾ": "wawu sesudah fa' fi'il",
+          "intransitive": "lazim",
+          "yāʾ after the fāʾ": "ya' sesudah fa' fi'il",
+          "transitive": "muta'addi",
+          "wāw after the ʿayn": "wawu sesudah 'ain fi'il",
+          "yāʾ after the ʿayn": "ya' sesudah 'ain fi'il",
+          "the lām repeated": "lam fi'il diulang",
+          "yāʾ at the end": "ya' di akhir"
+        }
+      },
       "text": [
         "Bab keempat: fa'yala yufa'yilu fa'yalatan wa fi'yalan; mauzun-nya 'atsyara yu'atsyiru 'atsyaratan wa 'itsyaran “menerbangkan debu”. Tandanya ialah madhi-nya empat huruf dengan tambahan ya' di antara 'ain dan lam. Bina'-nya untuk lazim saja, seperti 'atsyara Zaidun “Zaid menerbangkan debu”.",
         "Bab kelima: fa'lala yufa'lilu fa'lalatan wa fi'lalan; mauzun-nya jalbaba yujalbibu jalbabatan wa jilbaban “memakaikan jilbab”. Tandanya ialah madhi-nya empat huruf dengan tambahan satu huruf yang sejenis dengan lam fi'il-nya di akhirnya. Bina'-nya untuk ta'diyah, seperti jalbaba Zaidun al-jilbaba “Zaid memakaikan jilbab”.",
@@ -1049,6 +1175,126 @@
       ]
     },
     "10": {
+      "title": "Ruba'i mazid",
+      "body": [
+        "Fi'il ruba'i dengan huruf tambahan punya tiga bab dalam dua macam. Dengan tambahan satu huruf: tafa'lala yatafa'lalu tafa'lulan, mauzun-nya tadahraja yatadahraju tadahrujan, ta' ditambahkan di awal. Ia dibentuk untuk muthawa'ah, sebagaimana infa'ala pada fi'il tsulatsi: dahrajtul-hajara fatadahraja dzalikal-hajaru, “aku telah menggelindingkan batu itu, maka batu itu pun menggelinding”.",
+        "Dengan tambahan dua huruf, dua bab. If'anlala yaf'anlilu if'inlalan, mauzun-nya ihranjama yahranjimu ihrinjaman: hamzah di awal dan nun di antara 'ain fi'il dan lam fi'il pertama. Ia juga untuk muthawa'ah: harjamtul-ibila fahranjama dzalikal-ibilu, “aku telah mengumpulkan unta-unta itu, maka unta-unta itu pun berkerumun”.",
+        "If'alalla yaf'alillu if'illalan, mauzun-nya iqsya'arra yaqsya'irru iqsyi'raran: hamzah di awal dan lam kedua di akhir, bertasydid. Ia dibentuk untuk mubalaghah fi'il lazim, dan kitab ini lagi-lagi menghadapkannya dengan fi'il mujarrad-nya: “dikatakan qasy'ara jildur-rajuli jika bulu kulitnya berdiri sedikit, dan iqsya'arra jildur-rajuli jika ia berdiri dengan kuat”: kulit laki-laki itu merinding, atau gemetar.",
+        "Fi'il ruba'i mengulang sistem fi'il tsulatsi. Bentuk mujarrad-nya punya bentuk mazid untuk muthawa'ah (tadahraja di samping inkasara), satu lagi untuk muthawa'ah dengan nun (ihranjama di samping inkasara), dan satu untuk mubalaghah dengan akhir yang bertasydid (iqsya'arra di samping ihmarra). Mempelajari padanan-padanannya lebih mudah daripada mempelajari wazan-wazannya satu per satu."
+      ],
+      "terms": [
+        "bab tadahraja: muthawa'ah",
+        "bab ihranjama: muthawa'ah",
+        "bab iqsya'arra: mubalaghah",
+        "ruba'i mazid fih"
+      ],
+      "examples": [
+        "“aku telah menggelindingkan batu itu, maka batu itu pun menggelinding”: tadahraja, muthawa'ah",
+        "“aku telah mengumpulkan unta-unta itu, maka mereka pun berkerumun”: ihranjama, muthawa'ah",
+        "kulit laki-laki itu sedikit merinding; ia merinding dengan kuat: iqsya'arra, mubalaghah"
+      ],
+      "tasks": [
+        {
+          "prompt": "Sebutkan fi'il mujarrad dan fi'il muthawa'ah pada masing-masing pasangan, beserta bab-nya: dahrajtul-hajara fatadahraja; harjamtul-ibila fahranjama.",
+          "answer": "Dahraja (fa'lala) dan tadahraja (tafa'lala, ta' ditambahkan). Harjama (fa'lala) dan ihranjama (if'anlala, hamzah dan nun ditambahkan)."
+        },
+        {
+          "prompt": "Di mana nun tambahan pada ihranjama?",
+          "answer": "Di antara 'ain fi'il dan lam fi'il pertama: h-r-n-j-m, dengan akar h-r-j-m."
+        },
+        {
+          "prompt": "Apa perbedaan antara qasy'ara dan iqsya'arra?",
+          "answer": "Qasy'ara: kulit itu sedikit merinding. Iqsya'arra: ia merinding dengan kuat. If'alalla menguatkan fi'il lazim."
+        },
+        {
+          "prompt": "Bab tsulatsi mana yang menjadi padanan masing-masing: tadahraja, ihranjama, iqsya'arra?",
+          "answer": "Tadahraja seperti bab-bab muthawa'ah dengan ta' (ta'allama dari 'allama); ihranjama seperti infa'ala (inkasara); iqsya'arra seperti if'alla (ihmarra)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Untuk apa tadahraja dibentuk?",
+          "options": [
+            "Musyarakah",
+            "Mubalaghah",
+            "Muthawa'ah",
+            "Thalab"
+          ],
+          "explanation": "Dahrajtul-hajara fatadahraja."
+        },
+        {
+          "prompt": "Huruf apa yang ditambahkan if'anlala?",
+          "options": [
+            "Ta'",
+            "Hamzah dan lam yang ditasydidkan",
+            "Sin dan ta'",
+            "Hamzah dan nun"
+          ],
+          "explanation": "Ihranjama."
+        },
+        {
+          "prompt": "Untuk apa iqsya'arra dibentuk?",
+          "options": [
+            "Mubalaghah fi'il lazim",
+            "Muthawa'ah",
+            "Ta'diyah",
+            "Musyarakah"
+          ],
+          "explanation": "Kulit yang merinding dengan kuat."
+        },
+        {
+          "prompt": "Berapa bab yang dimiliki ruba'i mazid?",
+          "options": [
+            "Satu",
+            "Tiga",
+            "Lima",
+            "Dua belas"
+          ],
+          "explanation": "Satu dengan tambahan satu huruf, dua dengan tambahan dua."
+        },
+        {
+          "prompt": "Pada fatadahraja dzalikal-hajaru, al-hajaru adalah…",
+          "options": [
+            "maf'ul",
+            "hal",
+            "fa'il dari fi'il muthawa'ah",
+            "tamyiz"
+          ],
+          "explanation": "Batu yang menerima penggelindingan itu."
+        },
+        {
+          "prompt": "Bab tsulatsi mana yang menjadi padanan ihranjama?",
+          "options": [
+            "Istaf'ala",
+            "Af'ala",
+            "Fa'ala [dengan alif]",
+            "Infa'ala"
+          ],
+          "explanation": "Keduanya muthawa'ah dengan nun tambahan."
+        },
+        {
+          "prompt": "Apa mudhari' iqsya'arra dalam kitab ini?",
+          "options": [
+            "Yaqsya'irru",
+            "Yuqasy'iru",
+            "Yaqsya'arru",
+            "Tuqasy'iru"
+          ],
+          "explanation": "If'alalla yaf'alillu."
+        }
+      ],
+      "diagram": {
+        "caption": "Fi'il ruba'i di samping fi'il tsulatsi",
+        "labels": {
+          "Use": "Pemakaian",
+          "Four-letter bāb": "Bab ruba'i",
+          "Three-letter parallel": "Padanan tsulatsi",
+          "bare": "mujarrad",
+          "compliance with tāʾ": "muthawa'ah dengan ta'",
+          "compliance with nūn": "muthawa'ah dengan nun",
+          "intensifying, doubled end": "mubalaghah, akhir bertasydid"
+        }
+      },
       "text": [
         "Dan tiga untuk yang lebih dari ruba'i mujarrad, dan ia dua macam. Macam pertama ialah yang ditambah satu huruf atas ruba'i, dan ia satu bab. Wazan-nya tafa'lala yatafa'lalu tafa'lulan; mauzun-nya tadahraja yatadahraju tadahrujan “menggelinding”. Tandanya ialah madhi-nya lima huruf dengan tambahan ta' di awalnya. Bina'-nya untuk muthawa'ah, seperti dahrajtul-hajara fa tadahraja dzalikal-hajaru “aku menggelindingkan batu, maka menggelindinglah batu itu”.",
         "Macam kedua ialah yang ditambah dua huruf atas ruba'i, dan ia dua bab. Bab pertama: if'anlala yaf'anlilu if'inlalan; mauzun-nya ihranjama yahranjimu ihrinjaman “berkerumun”. Tandanya ialah madhi-nya enam huruf dengan tambahan hamzah di awalnya dan nun di antara 'ain dan lam yang pertama. Bina'-nya juga untuk muthawa'ah, seperti harjamtul-ibila fa ihranjama dzalikal-ibilu “aku menghimpun unta-unta itu, maka berkerumunlah unta-unta itu”.",
@@ -1056,6 +1302,132 @@
       ]
     },
     "11": {
+      "title": "Bentuk-bentuk yang dilekatkan pada tadahraja",
+      "body": [
+        "Lima bab dilekatkan pada tadahraja: masing-masing adalah salah satu bentuk yang mulhaq pada dahraja dengan ta' di depannya. Tafa'lala, mauzun-nya tajalbaba, “memakai jilbab”, dibentuk untuk muthawa'ah: jalbaba Zaidun fatajalbaba fi dzalikal-jilbabi, “Zaid telah memakaikan jilbab kepadanya, maka ia pun memakai jilbab itu”. Tafau'ala, mauzun-nya tajauraba, “memakai kaus kaki”, juga muthawa'ah: jaurabtuhu fatajauraba, “aku telah memakaikan kaus kaki kepadanya, maka ia pun memakainya”.",
+        "Tiga hanya lazim: tafai'ala, mauzun-nya tasyaithana, “berperilaku seperti setan”: tasyaithana Zaidun; tafa'wala, mauzun-nya tarahwaka, “berjalan dengan langkah bergoyang”: tarahwaka Zaidun; dan tafa'la (تَفَعْلَى), mauzun-nya tasalqa, “berbaring telentang”: tasalqa Zaidun.",
+        "Lalu kitab ini menambahkan sebuah catatan yang mengajarkan suatu prinsip: “hakikat ilhaq pada bentuk-bentuk mulhaq ini hanyalah dengan tambahan yang bukan ta'”. Pada tajalbaba ilhaq-nya dengan ba' yang diulang, seperti pada jalbaba; “ta' itu hanya masuk untuk makna muthawa'ah, sebagaimana ia masuk pada tadahraja”. Sebab, kata kitab ini, ilhaq tidak pernah terjadi di awal kata, hanya di tengah atau di akhirnya, “sebagaimana disebutkan dalam Syarh al-Mufashshal”, kitab pegangan nahwu yang besar karya az-Zamakhsyari.",
+        "Maka setiap bentuk punya dua tambahan yang mengerjakan dua tugas: satu huruf di tengah atau di akhir yang membuat akarnya mengambil bentuk fi'il ruba'i, dan ta' di awal yang memberi makna muthawa'ah. Tajauraba: wawu-nya untuk ilhaq, ta'-nya untuk muthawa'ah. Itulah jenis analisis yang dilatihkan al-Bina: setiap huruf tambahan punya tempat dan alasannya."
+      ],
+      "terms": [
+        "mulhaq bi tadahraja: lima bab",
+        "hakikat ilhaq: dengan huruf yang bukan ta'",
+        "ta' muthawa'ah di awal",
+        "syarah atas al-Mufashshal karya az-Zamakhsyari, yang dikutip kitab ini"
+      ],
+      "examples": [
+        "“Zaid telah memakaikan jilbab kepadanya, maka ia pun memakainya”: tajalbaba, muthawa'ah",
+        "jaurabtuhu fatajauraba, “aku telah memakaikan kaus kaki kepadanya, maka ia pun memakainya”",
+        "tasyaithana Zaidun, “Zaid telah berperilaku seperti setan”: hanya lazim",
+        "tasalqa Zaidun, “Zaid telah berbaring telentang”"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pada tajauraba, huruf tambahan mana yang membuat ilhaq dan mana yang memberi muthawa'ah?",
+          "answer": "Wawu sesudah fa' fi'il membuat ilhaq (seperti pada jauraba, fau'ala); ta' di awal memberi makna muthawa'ah."
+        },
+        {
+          "prompt": "Mengapa kitab ini berkata ilhaq tidak pernah dengan ta'?",
+          "answer": "Karena ilhaq tidak pernah terjadi di awal kata, hanya di tengah atau di akhirnya. Ta' di awal bentuk-bentuk ini masuk untuk muthawa'ah, seperti pada tadahraja."
+        },
+        {
+          "prompt": "Sebutkan wazan masing-masing: tasyaithana, tarahwaka, tasalqa.",
+          "answer": "Tasyaithana: tafai'ala. Tarahwaka: tafa'wala. Tasalqa: tafa'la (تَفَعْلَى)."
+        },
+        {
+          "prompt": "Terjemahkan jaurabtuhu fatajauraba dan katakan apa yang ditunjukkan kedua fi'il itu.",
+          "answer": "“Aku telah memakaikan kaus kaki kepadanya, maka ia pun memakainya.” Jauraba adalah perbuatan yang muta'addi; tajauraba muthawa'ah-nya, yang fa'il-nya adalah orang yang menerima perbuatan itu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Berapa bentuk yang dilekatkan pada tadahraja?",
+          "options": [
+            "Enam",
+            "Dua",
+            "Tiga",
+            "Lima"
+          ],
+          "explanation": "Tajalbaba, tajauraba, tasyaithana, tarahwaka, tasalqa."
+        },
+        {
+          "prompt": "Pada tajalbaba, ilhaq-nya dengan…",
+          "options": [
+            "ba' yang diulang",
+            "ta'",
+            "jim",
+            "lam"
+          ],
+          "explanation": "Seperti pada jalbaba; ta' untuk muthawa'ah."
+        },
+        {
+          "prompt": "Di mana, menurut kitab ini, ilhaq tidak pernah terjadi?",
+          "options": [
+            "Di tengah",
+            "Di awal kata",
+            "Di akhir",
+            "Pada mashdar"
+          ],
+          "explanation": "Hanya di tengah atau di akhir."
+        },
+        {
+          "prompt": "Tasyaithana Zaidun artinya…",
+          "options": [
+            "Zaid telah memakai kaus kaki",
+            "Zaid telah berbaring telentang",
+            "Zaid telah berperilaku seperti setan",
+            "Zaid telah berjalan bergoyang"
+          ],
+          "explanation": "Hanya lazim."
+        },
+        {
+          "prompt": "Tarahwaka artinya…",
+          "options": [
+            "memakai jilbab",
+            "menerbangkan debu",
+            "membelah",
+            "berjalan dengan langkah bergoyang"
+          ],
+          "explanation": "Tafa'wala."
+        },
+        {
+          "prompt": "Kitab mana yang dikutip al-Bina untuk kaidahnya tentang ilhaq?",
+          "options": [
+            "Syarah atas al-Mufashshal karya az-Zamakhsyari",
+            "Al-Ajurrumiyyah",
+            "Alfiyah",
+            "Al-'Izzi"
+          ],
+          "explanation": "“Sebagaimana disebutkan dalam Syarh al-Mufashshal.”"
+        },
+        {
+          "prompt": "Apa yang diberikan ta' di awal bentuk-bentuk ini?",
+          "options": [
+            "Ilhaq",
+            "Makna muthawa'ah",
+            "Muannats",
+            "Majhul"
+          ],
+          "explanation": "Sebagaimana pada tadahraja."
+        }
+      ],
+      "diagram": {
+        "caption": "Lima bentuk yang dilekatkan pada tadahraja",
+        "labels": {
+          "Pattern": "Wazan",
+          "Model": "Mauzun",
+          "From": "Dari",
+          "Letter of attachment": "Huruf ilhaq",
+          "Use": "Pemakaian",
+          "the lām repeated": "lam fi'il diulang",
+          "compliance": "muthawa'ah",
+          "wāw after the fāʾ": "wawu sesudah fa' fi'il",
+          "yāʾ after the fāʾ": "ya' sesudah fa' fi'il",
+          "intransitive": "lazim",
+          "wāw after the ʿayn": "wawu sesudah 'ain fi'il",
+          "yāʾ at the end": "ya' di akhir"
+        }
+      },
       "text": [
         "Dan lima untuk yang mulhaq dengan tadahraja. Bab pertama: tafa'lala yatafa'lalu tafa'lulan; mauzun-nya tajalbaba yatajalbabu tajalbuban “memakai jilbab”. Tandanya ialah madhi-nya lima huruf dengan tambahan ta' di awalnya dan satu huruf lain yang sejenis dengan lam fi'il-nya di akhirnya. Bina'-nya untuk muthawa'ah, seperti jalbaba Zaidun fa tajalbaba fi dzalikal-jilbabi “Zaid memakaikan jilbab, maka ia pun memakai jilbab itu”.",
         "Bab kedua: tafau'ala yatafau'alu tafau'ulan; mauzun-nya tajauraba yatajaurabu tajauruban “memakai kaus kaki”. Tandanya ialah madhi-nya lima huruf dengan tambahan ta' di awalnya dan wawu di antara fa' dan 'ain. Bina'-nya juga untuk muthawa'ah, seperti jaurabtuhu fa tajauraba “aku memakaikan kaus kaki kepadanya, maka ia pun memakainya”.",
@@ -1066,23 +1438,505 @@
       ]
     },
     "12": {
+      "title": "Bentuk-bentuk yang dilekatkan pada ihranjama",
+      "body": [
+        "Dua bab terakhir dilekatkan pada ihranjama, fi'il ruba'i dengan tambahan hamzah dan nun. Yang pertama: if'anlala yaf'anlilu if'inlalan, mauzun-nya iq'ansasa yaq'ansisu iq'insasan: hamzah di awal, nun di antara 'ain dan lam fi'il, dan lam fi'il diulang di akhir. Akarnya tiga huruf, q-'-s; sin yang diulang melekatkannya pada ihranjama.",
+        "Ia dibentuk untuk mubalaghah fi'il lazim: “dikatakan qa'isar-rajulu jika ia membusungkan dadanya dan punggungnya masuk sedikit, dan iq'ansasar-rajulu jika ia melakukannya dengan kuat”: laki-laki itu membusungkan dadanya.",
+        "Yang kedua: if'anla (افْعَنْلَى) yaf'anli if'inla'an, mauzun-nya islanqa yaslanqi islinqa'an: hamzah di awal, nun di antara 'ain dan lam fi'il, dan ya' di akhir. Ia dibentuk untuk muthawa'ah: salqaituhu faslanqa, ai waqa'a 'ala qafahu, “aku telah membaringkannya telentang, maka ia pun berbaring telentang”, yakni jatuh di atas tengkuknya.",
+        "Dengan ini tiga puluh lima bab telah lengkap. Hitunglah kembali: 6 tsulatsi mujarrad, 12 tsulatsi mazid, 1 ruba'i mujarrad, 6 mulhaq pada dahraja, 3 ruba'i mazid, 5 mulhaq pada tadahraja, 2 mulhaq pada ihranjama. Santri yang dapat mengatakan untuk fi'il apa pun bab mana dari tiga puluh lima itu tempatnya telah mempelajari apa yang diajarkan al-Bina."
+      ],
+      "terms": [
+        "mulhaq bi ihranjama: dua bab",
+        "dengan lam fi'il diulang: mubalaghah",
+        "dengan ya' di akhir: muthawa'ah"
+      ],
+      "examples": [
+        "laki-laki itu sedikit membusungkan dadanya; ia membusungkannya dengan kuat",
+        "salqaituhu faslanqa, “aku telah membaringkannya telentang, maka ia pun berbaring telentang”: muthawa'ah"
+      ],
+      "tasks": [
+        {
+          "prompt": "Sebutkan akar iq'ansasa dan huruf-huruf yang ditambahkan beserta alasannya.",
+          "answer": "Akar q-'-s. Yang ditambahkan: hamzah di awal dan nun sesudah 'ain fi'il (seperti pada ihranjama), dan sin yang diulang di akhir, yang membuat akar tiga huruf itu mengambil bentuk ruba'i ihranjama."
+        },
+        {
+          "prompt": "Ihranjama dan islanqa sama-sama untuk muthawa'ah. Berikan perbuatan dan muthawa'ah-nya pada masing-masing, seperti dalam kitab ini.",
+          "answer": "Harjamtul-ibila fahranjama: aku telah mengumpulkan unta-unta itu, maka mereka pun berkerumun. Salqaituhu faslanqa: aku telah membaringkannya telentang, maka ia pun berbaring telentang."
+        },
+        {
+          "prompt": "Hitunglah tiga puluh lima bab menurut kelompoknya.",
+          "answer": "6 tsulatsi mujarrad + 12 tsulatsi mazid + 1 ruba'i mujarrad + 6 mulhaq pada dahraja + 3 ruba'i mazid + 5 mulhaq pada tadahraja + 2 mulhaq pada ihranjama = 35."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Berapa bab yang dilekatkan pada ihranjama?",
+          "options": [
+            "Dua",
+            "Lima",
+            "Enam",
+            "Tiga"
+          ],
+          "explanation": "Iq'ansasa dan islanqa."
+        },
+        {
+          "prompt": "Untuk apa iq'ansasa dibentuk?",
+          "options": [
+            "Muthawa'ah",
+            "Mubalaghah fi'il lazim",
+            "Ta'diyah",
+            "Musyarakah"
+          ],
+          "explanation": "Qa'isa sedikit; iq'ansasa dengan kuat."
+        },
+        {
+          "prompt": "Untuk apa islanqa dibentuk?",
+          "options": [
+            "Mubalaghah",
+            "Thalab",
+            "Muthawa'ah",
+            "Takalluf"
+          ],
+          "explanation": "Salqaituhu faslanqa."
+        },
+        {
+          "prompt": "Apa yang melekatkan iq'ansasa pada ihranjama?",
+          "options": [
+            "Hamzah",
+            "Nun",
+            "Qaf",
+            "Sin yang diulang"
+          ],
+          "explanation": "Akar q-'-s; sin kedua adalah tambahan."
+        },
+        {
+          "prompt": "Berapa jumlah seluruh bab?",
+          "options": [
+            "Tiga puluh lima",
+            "Tiga puluh",
+            "Dua belas",
+            "Enam"
+          ],
+          "explanation": "6 + 12 + 1 + 6 + 3 + 5 + 2."
+        },
+        {
+          "prompt": "Kelompok mana yang punya dua belas bab?",
+          "options": [
+            "Bentuk-bentuk mulhaq",
+            "Tsulatsi mazid",
+            "Tsulatsi mujarrad",
+            "Fi'il ruba'i"
+          ],
+          "explanation": "Tiga dengan satu huruf, lima dengan dua, empat dengan tiga."
+        },
+        {
+          "prompt": "Akar islanqa terdiri atas berapa huruf?",
+          "options": [
+            "Empat",
+            "Lima",
+            "Tiga",
+            "Enam"
+          ],
+          "explanation": "S-l-q, dengan hamzah, nun dan ya' di akhir sebagai tambahan."
+        }
+      ],
+      "diagram": {
+        "caption": "Tiga puluh lima bab dihitung",
+        "labels": {
+          "Group": "Kelompok",
+          "Bābs": "Bab",
+          "Example": "Contoh",
+          "bare three-letter": "tsulatsi mujarrad",
+          "augmented three-letter": "tsulatsi mazid",
+          "bare four-letter": "ruba'i mujarrad",
+          "attached to daḥraja": "mulhaq pada dahraja",
+          "augmented four-letter": "ruba'i mazid",
+          "attached to tadaḥraja": "mulhaq pada tadahraja",
+          "attached to iḥranjama": "mulhaq pada ihranjama"
+        }
+      },
       "text": [
         "Dan dua untuk yang mulhaq dengan ihranjama. Bab pertama: if'anlala yaf'anlilu if'inlalan; mauzun-nya iq'ansasa yaq'ansisu iq'insasan “membusungkan dada”. Tandanya ialah madhi-nya enam huruf dengan tambahan hamzah di awalnya, nun di antara 'ain dan lam, dan satu huruf lain yang sejenis dengan lam fi'il-nya di akhirnya. Bina'-nya untuk mubalaghah lazim; karena dikatakan qa'isar-rajulu “laki-laki itu membusung dadanya” apabila ia mengeluarkan dadanya dan punggungnya masuk sedikit, dan dikatakan iq'ansasar-rajulu “laki-laki itu sangat membusungkan dadanya” apabila ia mengeluarkan dadanya dan punggungnya masuk dengan kuat.",
         "Bab kedua: if'anla yaf'anli if'inla'an; mauzun-nya islanqa yaslanqi islinqa'an “jatuh telentang”. Tandanya ialah madhi-nya enam huruf dengan tambahan hamzah di awalnya, nun di antara 'ain dan lam, dan ya' di akhirnya. Bina'-nya untuk muthawa'ah, seperti salqaituhu fa islanqa “aku menelentangkannya, maka ia pun jatuh telentang”, yakni jatuh di atas tengkuknya."
       ]
     },
     "13": {
+      "title": "Delapan pembagian fi'il",
+      "body": [
+        "Sesudah bab-bab itu kitab ini memilah setiap fi'il yang masuk di bawahnya dengan cara lain, menjadi delapan pembagian, melalui tiga pertanyaan. Apakah ia tsulatsi atau ruba'i? Mujarrad atau mazid? Salim atau tidak? Dua jawaban untuk masing-masing dari tiga pertanyaan menghasilkan delapan.",
+        "Kedelapannya dengan contoh-contoh kitab ini: tsulatsi, mujarrad, salim: karuma, “menjadi mulia”; tsulatsi, mujarrad, tidak salim: wa'ada, “berjanji”; ruba'i, mujarrad, salim: dahraja; ruba'i, mujarrad, tidak salim: waswasa, “membisikkan”; tsulatsi, mazid, salim: akrama; tsulatsi, mazid, tidak salim: au'ada, “mengancam”; ruba'i, mazid, salim: tadahraja; ruba'i, mazid, tidak salim: tawaswasa.",
+        "“Tidak salim” di sini berarti salah satu huruf aslinya huruf 'illat, hamzah, atau huruf yang berganda, sebagaimana dijelaskan pasal berikutnya: wa'ada dan waswasa punya wawu di antara huruf-huruf aslinya. Perhatikan bahwa contoh-contohnya datang berpasangan yang hanya berbeda pada satu segi ini: karuma dan wa'ada, akrama dan au'ada, dahraja dan waswasa, tadahraja dan tawaswasa. Bab yang sama dapat memuat fi'il salim maupun mu'tal; bab memberi wazan, akar memberi kesalimannya.",
+        "Alat tashrif hanya bekerja pada pembagian yang salim, dan pada fi'il tsulatsi, mujarrad maupun mazid. Setiap pelajaran yang memperlihatkan fi'il mu'tal mengambil bentuk-bentuknya dari cetakan kitab."
+      ],
+      "terms": [
+        "delapan pembagian fi'il",
+        "salim: tanpa huruf 'illat, hamzah atau huruf berganda pada akarnya",
+        "ghairu salim: tidak salim",
+        "mujarrad dan mazid fih"
+      ],
+      "examples": [
+        "karuma, salim; wa'ada, tidak salim: dua fi'il tsulatsi mujarrad",
+        "akrama, salim; au'ada, tidak salim: dua fi'il tsulatsi mazid",
+        "dahraja, salim; waswasa, tidak salim: dua fi'il ruba'i mujarrad"
+      ],
+      "tasks": [
+        {
+          "prompt": "Tempatkan setiap fi'il pada salah satu dari delapan pembagian: nashara; istakhraja; waswasa; tadahraja; wa'ada.",
+          "answer": "Nashara: tsulatsi, mujarrad, salim. Istakhraja: tsulatsi, mazid, salim. Waswasa: ruba'i, mujarrad, tidak salim. Tadahraja: ruba'i, mazid, salim. Wa'ada: tsulatsi, mujarrad, tidak salim."
+        },
+        {
+          "prompt": "Tiga pertanyaan apa yang menghasilkan delapan pembagian?",
+          "answer": "Tsulatsi atau ruba'i? Mujarrad atau mazid? Salim atau tidak salim? Dua jawaban untuk masing-masing dari tiga pertanyaan menghasilkan delapan."
+        },
+        {
+          "prompt": "Mengapa wa'ada dan waswasa “tidak salim”?",
+          "answer": "Salah satu huruf aslinya huruf 'illat: wawu pada wa'ada (fa' fi'il-nya), dan wawu-wawu pada waswasa."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Berapa pembagian yang diberikan al-Bina dalam pasal ini?",
+          "options": [
+            "Tujuh",
+            "Delapan",
+            "Enam",
+            "Tiga puluh lima"
+          ],
+          "explanation": "Melalui tiga pertanyaan dengan dua jawaban masing-masing."
+        },
+        {
+          "prompt": "Wa'ada adalah…",
+          "options": [
+            "tsulatsi, mujarrad, salim",
+            "ruba'i, mujarrad",
+            "tsulatsi, mujarrad, tidak salim",
+            "mazid"
+          ],
+          "explanation": "Fa' fi'il-nya wawu."
+        },
+        {
+          "prompt": "Tawaswasa adalah…",
+          "options": [
+            "tsulatsi, mazid, salim",
+            "ruba'i, mujarrad, salim",
+            "tsulatsi, mujarrad, tidak salim",
+            "ruba'i, mazid, tidak salim"
+          ],
+          "explanation": "Waswasa dengan tambahan ta'."
+        },
+        {
+          "prompt": "Apa arti “tidak salim” (ghairu salim) di sini?",
+          "options": [
+            "Salah satu huruf aslinya huruf 'illat, hamzah, atau berganda",
+            "Ia majhul",
+            "Ia lazim",
+            "Ia punya huruf tambahan"
+          ],
+          "explanation": "Pasal berikutnya memberikan tujuh macamnya."
+        },
+        {
+          "prompt": "Pasangan mana yang hanya berbeda pada kesalimannya?",
+          "options": [
+            "Akrama dan dahraja",
+            "Akrama dan au'ada",
+            "Karuma dan akrama",
+            "Dahraja dan tadahraja"
+          ],
+          "explanation": "Keduanya fi'il tsulatsi mazid."
+        },
+        {
+          "prompt": "Dahraja termasuk…",
+          "options": [
+            "tsulatsi, mazid, salim",
+            "ruba'i, mazid",
+            "ruba'i, mujarrad, salim",
+            "tsulatsi, mujarrad"
+          ],
+          "explanation": "Keempat hurufnya huruf asli, tidak ada yang huruf 'illat."
+        },
+        {
+          "prompt": "Pada pembagian mana alat tashrif bekerja?",
+          "options": [
+            "Kedelapannya",
+            "Hanya fi'il ruba'i",
+            "Hanya fi'il mu'tal",
+            "Fi'il tsulatsi yang salim, mujarrad maupun mazid"
+          ],
+          "explanation": "Bentuk-bentuk mu'tal diambil dari cetakan kitab."
+        }
+      ],
+      "diagram": {
+        "caption": "Delapan pembagian dengan contoh-contoh kitab ini",
+        "labels": {
+          "Division": "Pembagian",
+          "Sound": "Salim",
+          "Not sound": "Tidak salim",
+          "three-letter, bare": "tsulatsi, mujarrad",
+          "four-letter, bare": "ruba'i, mujarrad",
+          "three-letter, augmented": "tsulatsi, mazid",
+          "four-letter, augmented": "ruba'i, mazid"
+        }
+      },
       "text": [
         "Kemudian ketahuilah bahwa fi'il yang terbatas pada bab-bab ini adakalanya tsulatsi mujarrad salim, seperti karuma “menjadi mulia”; adakalanya tsulatsi mujarrad ghairu salim, seperti wa'ada “berjanji”; adakalanya ruba'i mujarrad salim, seperti dahraja “menggelindingkan”; adakalanya ruba'i mujarrad ghairu salim, seperti waswasa “membisikkan kejahatan”; adakalanya tsulatsi mazid fih salim, seperti akrama “memuliakan”; adakalanya tsulatsi mazid fih ghairu salim, seperti au'ada “mengancam”; adakalanya ruba'i mazid fih salim, seperti tadahraja “menggelinding”; dan adakalanya ruba'i mazid fih ghairu salim, seperti tawaswasa “dihinggapi bisikan”. Bagian-bagian ini disebut delapan bagian."
       ]
     },
     "14": {
+      "title": "Tujuh macam: shahih dan mu'tal",
+      "body": [
+        "Pemilahan terakhir adalah menurut huruf-huruf akarnya, menjadi tujuh macam, dan inilah yang dipakai dalam setiap kitab sharaf sesudahnya. Fi'il shahih adalah fi'il yang “pada fa', 'ain dan lam fi'il-nya tidak ada huruf 'illat (wawu, ya', alif), tidak ada hamzah dan tidak ada tadh'if”: nashara. Perhatikan bahwa shahih dalam al-Bina adalah yang ketat, yang oleh kitab-kitab lain disebut salim; sebagian kitab menyebut fi'il yang berhamzah atau mudha'af juga shahih.",
+        "Fi'il-fi'il mu'tal, menurut tempat huruf 'illat-nya. Mitsal, yang mu'tal fa' fi'il-nya: wa'ada, yasara (ia “menyerupai” fi'il shahih pada madhi-nya, karena itulah namanya). Ajwaf, “yang berongga”, mu'tal 'ain fi'il-nya: qala, kala. Naqish, “yang kurang”, mu'tal lam fi'il-nya: ghaza, rama; cetakan ini menulis ghaza dengan ya' (غَزَى), walaupun akarnya berakhir dengan wawu.",
+        "Lafif, “yang terbungkus”, punya dua huruf 'illat, dengan dua cara. Maqrun (berdampingan), 'ain dan lam fi'il sama-sama mu'tal, bersebelahan: thawa, qawiya. Mafruq (terpisah), fa' dan lam fi'il mu'tal, dengan huruf shahih di antaranya: waqa yaqi, “menjaga”, yang mudhari'-nya sudah kehilangan wawu akarnya.",
+        "Mengapa ini penting? Karena huruf-huruf 'illat berubah: berganti satu sama lain, gugur, atau tidak menerima harakat. Qala berasal dari q-w-l, tetapi wawu-nya telah menjadi alif; rama berasal dari r-m-y, dengan ya'-nya ditulis sebagai alif. Kaidah-kaidah perubahan ini (i'lal) memenuhi kitab-kitab sesudahnya, al-Maqshud dan al-'Izzi, dan alat tashrif The Nahwi mengesampingkannya: ia hanya memberikan akar yang shahih."
+      ],
+      "terms": [
+        "shahih: tanpa huruf 'illat, hamzah atau tadh'if (di sini)",
+        "mitsal: mu'tal fa' fi'il-nya: wa'ada",
+        "ajwaf, yang berongga, mu'tal 'ain fi'il-nya: qala",
+        "naqish, yang kurang, mu'tal lam fi'il-nya: rama",
+        "dua huruf 'illat, berdampingan atau terpisah",
+        "huruf-huruf 'illat: wawu, ya', alif"
+      ],
+      "examples": [
+        "wa'ada, yasara: mitsal, mu'tal fa' fi'il-nya",
+        "qala, kala: ajwaf, mu'tal 'ain fi'il-nya",
+        "ghaza, rama: naqish, mu'tal lam fi'il-nya (ditulis seperti dalam cetakan)",
+        "thawa, qawiya: lafif maqrun; waqa yaqi: lafif mafruq"
+      ],
+      "tasks": [
+        {
+          "prompt": "Sebutkan macam setiap fi'il dan tempat huruf 'illat-nya: wa'ada; qala; rama; thawa; waqa.",
+          "answer": "Wa'ada: mitsal (wawu pada fa' fi'il). Qala: ajwaf ('ain fi'il mu'tal). Rama: naqish (lam fi'il mu'tal). Thawa: lafif maqrun ('ain dan lam fi'il mu'tal). Waqa: lafif mafruq (fa' dan lam fi'il mu'tal)."
+        },
+        {
+          "prompt": "Apa perbedaan antara lafif maqrun dan lafif mafruq? Berikan contoh-contoh kitab ini.",
+          "answer": "Maqrun: kedua huruf 'illat bersebelahan, 'ain dan lam fi'il (thawa, qawiya). Mafruq: fa' dan lam fi'il mu'tal, dengan 'ain fi'il yang shahih di antaranya (waqa yaqi)."
+        },
+        {
+          "prompt": "Mengapa nashara shahih menurut pengertian al-Bina, tetapi akhadza tidak?",
+          "answer": "Shahih menurut al-Bina tidak punya huruf 'illat, hamzah atau tadh'if. Nashara tidak punya satu pun; akhadza punya hamzah sebagai fa' fi'il-nya, maka ia mahmuz."
+        },
+        {
+          "prompt": "Mana di antara fi'il-fi'il ini yang dapat diberikan alat tashrif secara lengkap: kataba, qala, rama, jalasa?",
+          "answer": "Kataba dan jalasa, yang shahih. Qala (ajwaf) dan rama (naqish) mu'tal; bentuk-bentuknya diambil dari cetakan kitab."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Apakah fi'il shahih menurut al-Bina?",
+          "options": [
+            "Setiap fi'il tanpa huruf 'illat",
+            "Setiap fi'il mujarrad",
+            "Tanpa huruf 'illat, hamzah atau tadh'if pada akarnya",
+            "Setiap fi'il muta'addi"
+          ],
+          "explanation": "Pengertiannya yang ketat, yang oleh kitab-kitab lain disebut salim."
+        },
+        {
+          "prompt": "Qala adalah…",
+          "options": [
+            "mitsal",
+            "naqish",
+            "lafif",
+            "ajwaf, mu'tal 'ain fi'il-nya"
+          ],
+          "explanation": "Akar q-w-l."
+        },
+        {
+          "prompt": "Wa'ada adalah…",
+          "options": [
+            "mitsal, mu'tal fa' fi'il-nya",
+            "ajwaf",
+            "naqish",
+            "mahmuz"
+          ],
+          "explanation": "Fa' fi'il-nya wawu."
+        },
+        {
+          "prompt": "Fi'il mana yang lafif mafruq?",
+          "options": [
+            "Thawa",
+            "Waqa",
+            "Qawiya",
+            "Rama"
+          ],
+          "explanation": "Fa' dan lam fi'il mu'tal, dipisahkan oleh qaf."
+        },
+        {
+          "prompt": "Apa saja huruf 'illat?",
+          "options": [
+            "Hamzah dan nun",
+            "Huruf-huruf halq",
+            "Wawu, ya' dan alif",
+            "Alif, lam, mim"
+          ],
+          "explanation": "Huruf al-'illah."
+        },
+        {
+          "prompt": "Rama adalah…",
+          "options": [
+            "ajwaf",
+            "mitsal",
+            "mudha'af",
+            "naqish, mu'tal lam fi'il-nya"
+          ],
+          "explanation": "Akar r-m-y."
+        },
+        {
+          "prompt": "Mengapa alat tashrif hanya memberikan akar yang shahih?",
+          "options": [
+            "Huruf 'illat berubah menurut kaidah (i'lal) yang diajarkan kitab-kitab sesudahnya",
+            "Fi'il mu'tal jarang",
+            "Fi'il mu'tal tidak punya madhi",
+            "Fi'il mu'tal adalah isim"
+          ],
+          "explanation": "Al-Maqshud dan al-'Izzi membahasnya."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The seven classes": "Tujuh macam",
+          "Sound (ṣaḥīḥ)": "Shahih",
+          "With a weak letter": "Dengan huruf 'illat",
+          "mithāl: in the fāʾ": "mitsal: pada fa' fi'il",
+          "ajwaf: in the ʿayn": "ajwaf: pada 'ain fi'il",
+          "nāqiṣ: in the lām": "naqish: pada lam fi'il",
+          "lafīf joined": "lafif maqrun",
+          "lafīf separated": "lafif mafruq",
+          "Doubled (muḍāʿaf)": "Mudha'af",
+          "With hamza (mahmūz)": "Mahmuz"
+        }
+      },
       "text": [
         "Kemudian ketahuilah bahwa setiap fi'il adakalanya shahih, yaitu yang pada kedudukan fa', 'ain dan lam-nya tidak ada huruf 'illat, yaitu wawu, ya' dan alif, tidak ada hamzah dan tidak ada tadh'if (huruf ganda), seperti nashara “menolong”; adakalanya mitsal, yaitu yang pada kedudukan fa'-nya ada huruf 'illat, seperti wa'ada “berjanji” dan yasara “menjadi mudah”; adakalanya ajwaf, yaitu yang pada kedudukan 'ain-nya ada huruf 'illat, seperti qala “berkata” dan kala “menakar”.",
         "Adakalanya naqish, yaitu yang pada kedudukan lam-nya ada huruf 'illat, seperti ghaza “berperang” dan rama “melempar”; adakalanya lafif, yaitu yang padanya ada dua huruf 'illat, dan ia ada dua bagian: pertama lafif maqrun, yaitu yang pada kedudukan 'ain dan lam-nya ada dua huruf dari huruf-huruf ini, seperti thawa “melipat” dan qawiya “menjadi kuat”; kedua lafif mafruq, yaitu yang pada kedudukan fa' dan lam-nya ada dua huruf dari huruf-huruf ini, seperti waqa yaqi “menjaga”."
       ]
     },
     "15": {
+      "title": "Fi'il mudha'af dan idgham",
+      "body": [
+        "Fi'il mudha'af adalah fi'il yang “'ain dan lam fi'il-nya sejenis”: madda, “membentangkan”. Asalnya madada; harakat dal pertama dibuang, lalu ia diidghamkan ke dalam yang kedua. Idgham adalah “memasukkan salah satu dari dua huruf yang sama ke dalam yang lain”, sehingga keduanya diucapkan sebagai satu huruf bertasydid: madda.",
+        "Idgham ada tiga macam. Wajib: jika kedua huruf yang sama itu berharakat, atau yang pertama sukun dan yang kedua berharakat: madda yamuddu. Di sini idgham harus dilakukan; madada dan yamdudu tidak diucapkan.",
+        "Ja'iz (boleh): jika yang pertama berharakat dan yang kedua sukun yang hanya datang kemudian ('aridh), seperti pada jazem: lam yamudda, dari lam yamdud. Harakat dal pertama dipindahkan ke mim, dua sukun bertemu, dan dal kedua diberi harakat, dhammah, fathah atau kasrah, “karena sukunnya 'aridh”: lam yamuddu, lam yamudda, lam yamuddi. Atau ia dibiarkan tanpa idgham: lam yamdud. Keduanya bahasa Arab yang benar.",
+        "Mumtani' (tidak mungkin): jika yang kedua sukun yang asli, seperti sebelum dhamir-dhamir berharakat pada madhi: madadtu, “aku telah membentangkan”, madadna, “mereka (pr.) telah membentangkan”. Dal sebelum -tu dan -na selalu tanpa harakat, maka kedua dal itu tetap terpisah. Inilah sebabnya fi'il mudha'af tampak berganda pada sebagian shighat (madda, yamuddu) dan tidak berganda pada shighat lain (madadtu, madadna).",
+        "Ketiga macam ini bertumpu pada satu gagasan: dua huruf sama yang bersebelahan melebur jika tidak ada yang menghalangi, boleh melebur jika penghalangnya sementara, dan tidak dapat melebur jika penghalangnya tetap."
+      ],
+      "terms": [
+        "mudha'af: 'ain dan lam fi'il sejenis",
+        "idgham: memasukkan satu huruf yang sama ke dalam yang lain",
+        "wajib, ja'iz, mumtani'",
+        "sukun 'aridh: sukun yang datang kemudian, seperti sukun jazem",
+        "sukun ashli: sukun asli, seperti sebelum -tu"
+      ],
+      "examples": [
+        "madda, yamuddu: idgham wajib",
+        "lam yamudda atau lam yamdud: idgham ja'iz",
+        "madadtu, madadna: idgham mumtani'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Apa asal madda, dan dua langkah apa yang menjadikannya madda?",
+          "answer": "Asalnya madada. Harakat dal pertama dibuang (dal pertama tanpa harakat), dan dal pertama diidghamkan ke dalam yang kedua: madda, dengan tasydid."
+        },
+        {
+          "prompt": "Wajib, ja'iz atau mumtani'? madda; madadtu; lam yamudda; yamuddu.",
+          "answer": "Madda: wajib. Madadtu: mumtani' (sukun asli sebelum -tu). Lam yamudda: ja'iz (sukun 'aridh karena jazem). Yamuddu: wajib."
+        },
+        {
+          "prompt": "Berikan empat cara yang dibolehkan al-Bina untuk “ia tidak membentangkan”.",
+          "answer": "Lam yamdud (tanpa idgham), dan dengan idgham dengan salah satu dari tiga harakat: lam yamuddu, lam yamudda, lam yamuddi."
+        },
+        {
+          "prompt": "Mengapa dua dal pada madadtu tidak pernah dapat melebur?",
+          "answer": "Dal kedua bersukun asli sebelum dhamir berharakat -tu; ia tidak pernah dapat menerima harakat, maka ia tidak dapat memikul tasydid idgham."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Apakah fi'il mudha'af itu?",
+          "options": [
+            "Fi'il dengan tambahan 'ain fi'il yang bertasydid",
+            "Fi'il dengan dua huruf 'illat",
+            "Fi'il dengan hamzah",
+            "Fi'il yang 'ain dan lam fi'il-nya sejenis"
+          ],
+          "explanation": "Madda, dari madada."
+        },
+        {
+          "prompt": "Apakah idgham itu?",
+          "options": [
+            "Memasukkan salah satu dari dua huruf yang sama ke dalam yang lain",
+            "Menggugurkan huruf 'illat",
+            "Mengubah wawu menjadi alif",
+            "Menambahkan hamzah"
+          ],
+          "explanation": "Diucapkan sebagai satu huruf bertasydid."
+        },
+        {
+          "prompt": "Madadtu menunjukkan idgham yang…",
+          "options": [
+            "wajib",
+            "mumtani'",
+            "ja'iz",
+            "boleh hanya dalam syair"
+          ],
+          "explanation": "Dal kedua bersukun asli."
+        },
+        {
+          "prompt": "Lam yamudda dan lam yamdud…",
+          "options": [
+            "keduanya salah",
+            "hanya yang pertama benar",
+            "keduanya benar: idgham-nya ja'iz",
+            "hanya yang kedua benar"
+          ],
+          "explanation": "Sukun jazem adalah sukun 'aridh."
+        },
+        {
+          "prompt": "Harakat apa yang boleh diterima dal terakhir pada lam yamudd-?",
+          "options": [
+            "Hanya fathah",
+            "Hanya kasrah",
+            "Tidak ada",
+            "Dhammah, fathah atau kasrah"
+          ],
+          "explanation": "Karena sukunnya 'aridh."
+        },
+        {
+          "prompt": "Yamuddu menunjukkan idgham yang…",
+          "options": [
+            "wajib",
+            "mumtani'",
+            "ja'iz",
+            "tidak ada"
+          ],
+          "explanation": "Dal pertama sukun dan yang kedua berharakat."
+        },
+        {
+          "prompt": "Apakah sukun ashli itu?",
+          "options": [
+            "Sukun jazem",
+            "Sukun yang tidak pernah berubah, seperti sebelum -tu",
+            "Sukun waqaf",
+            "Setiap sukun"
+          ],
+          "explanation": "Ia menghalangi idgham."
+        }
+      ],
+      "diagram": {
+        "caption": "Tiga macam idgham",
+        "labels": {
+          "Kind": "Macam",
+          "The two like letters": "Dua huruf yang sama",
+          "Example": "Contoh",
+          "obligatory": "wajib",
+          "both vowelled, or sukūn then vowel": "keduanya berharakat, atau sukun lalu berharakat",
+          "permitted": "ja'iz",
+          "vowel, then an accidental sukūn": "berharakat, lalu sukun 'aridh",
+          "impossible": "mumtani'",
+          "vowel, then an original sukūn": "berharakat, lalu sukun ashli"
+        }
+      },
       "text": [
         "Adakalanya mudha'af, yaitu yang 'ain dan lam-nya sejenis, seperti madda “membentangkan”; asalnya madada, dibuang harakat dal yang pertama, kemudian diidghamkan ke dalam dal yang kedua. Idgham ialah memasukkan salah satu dari dua huruf yang sejenis ke dalam yang lain, dan ia ada tiga macam.",
         "Macam pertama wajib, yaitu apabila kedua huruf yang sejenis itu sama-sama berharakat, atau huruf pertama sukun dan yang kedua berharakat, seperti madda yamuddu. Macam kedua boleh, yaitu apabila huruf pertama dari dua huruf yang sejenis berharakat dan huruf kedua sukun dengan sukun yang datang kemudian ('aridh), seperti lam yamudda dengan harakat-harakat dal; asalnya lam yamdud, lalu harakat dal pertama dipindahkan ke mim, maka bertemulah dua sukun, kemudian dal kedua diberi harakat, adakalanya dhammah, fathah atau kasrah, karena sukunnya 'aridh.",
@@ -1090,6 +1944,125 @@
       ]
     },
     "16": {
+      "title": "Fi'il mahmuz; bait tujuh macam",
+      "body": [
+        "Macam terakhir adalah fi'il mahmuz, “yang salah satu huruf aslinya hamzah”: akhadza, “mengambil”, sa'ala, “bertanya”, qara'a, “membaca”. Ia dinamai menurut tempat hamzahnya: mahmuz al-fa' jika hamzah adalah huruf asli pertama (akhadza), mahmuz al-'ain jika ia yang kedua (sa'ala), mahmuz al-lam jika ia yang ketiga (qara'a).",
+        "Hamzah bukan huruf 'illat, tetapi ia berat, dan pada sebagian bentuk ia diringankan atau gugur; karena itulah al-Bina memisahkannya dari fi'il shahih. Bentuk-bentuk seperti itu dipelajari dari kitab-kitab yang membahas setiap macam, tidak dibuat dengan kaidah fi'il shahih.",
+        "Tujuh macam itu, kata kitab ini, terhimpun dalam satu bait, dan bait yang diberikannya berbahasa Persia: shahih-ast, mitsal-ast, mudha'af / lafif, naqish, mahmuz, ajwaf, “ia shahih, ia mitsal, mudha'af, lafif, naqish, mahmuz, ajwaf”. Sebuah kitab dasar bahasa Arab yang dibaca di negeri Utsmani, ditutup dengan bait hafalan berbahasa Persia: madrasah belajar dalam ketiga bahasanya.",
+        "Dengan ini al-Bina selesai: tiga puluh lima bab, delapan pembagian, tujuh macam. Pada jalur Utsmani al-Maqshud datang berikutnya, lalu al-'Izzi, yang membahas fi'il-fi'il mu'tal dan mudha'af macam demi macam dan memperlihatkan bagaimana bentuk-bentuknya berubah."
+      ],
+      "terms": [
+        "mahmuz: fi'il yang salah satu huruf aslinya hamzah",
+        "mahmuz al-fa': hamzah sebagai huruf asli pertama: akhadza",
+        "mahmuz al-'ain: hamzah sebagai yang kedua: sa'ala",
+        "mahmuz al-lam: hamzah sebagai yang ketiga: qara'a"
+      ],
+      "examples": [
+        "akhadza, sa'ala, qara'a: hamzah sebagai fa', 'ain dan lam fi'il",
+        "bait Persia yang menghimpun tujuh macam"
+      ],
+      "tasks": [
+        {
+          "prompt": "Sebutkan macam mahmuz-nya: akhadza; sa'ala; qara'a.",
+          "answer": "Akhadza: mahmuz al-fa'. Sa'ala: mahmuz al-'ain. Qara'a: mahmuz al-lam."
+        },
+        {
+          "prompt": "Lafalkan tujuh macam menurut urutan bait Persia itu, dan berikan satu contoh masing-masing dari al-Bina.",
+          "answer": "Shahih (nashara), mitsal (wa'ada), mudha'af (madda), lafif (thawa, waqa), naqish (rama), mahmuz (akhadza), ajwaf (qala)."
+        },
+        {
+          "prompt": "Tempatkan setiap fi'il pada macamnya: madda; yasara; kala; qawiya; sa'ala; nashara.",
+          "answer": "Madda: mudha'af. Yasara: mitsal. Kala: ajwaf. Qawiya: lafif maqrun. Sa'ala: mahmuz al-'ain. Nashara: shahih."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Apakah fi'il mahmuz itu?",
+          "options": [
+            "Fi'il yang salah satu huruf aslinya hamzah",
+            "Fi'il dengan huruf 'illat",
+            "Fi'il dengan huruf berganda",
+            "Fi'il dengan tambahan hamzah"
+          ],
+          "explanation": "Akhadza, sa'ala, qara'a."
+        },
+        {
+          "prompt": "Sa'ala adalah…",
+          "options": [
+            "mahmuz al-fa'",
+            "mahmuz al-'ain",
+            "mahmuz al-lam",
+            "ajwaf"
+          ],
+          "explanation": "Hamzah adalah huruf asli keduanya."
+        },
+        {
+          "prompt": "Qara'a adalah…",
+          "options": [
+            "mahmuz al-fa'",
+            "naqish",
+            "mahmuz al-lam",
+            "shahih"
+          ],
+          "explanation": "Hamzah adalah huruf asli ketiganya."
+        },
+        {
+          "prompt": "Dalam bahasa apa bait yang menutup al-Bina?",
+          "options": [
+            "Arab",
+            "Turki",
+            "Urdu",
+            "Persia"
+          ],
+          "explanation": "Shahih-ast, mitsal-ast …"
+        },
+        {
+          "prompt": "Apakah hamzah huruf 'illat?",
+          "options": [
+            "Tidak, tetapi ia berat dan dapat diringankan atau gugur",
+            "Ya, seperti wawu dan ya'",
+            "Hanya di akhir",
+            "Hanya pada mudhari'"
+          ],
+          "explanation": "Karena itu al-Bina memberinya macam tersendiri."
+        },
+        {
+          "prompt": "Berapa macam yang dihimpun bait itu?",
+          "options": [
+            "Delapan",
+            "Tujuh",
+            "Enam",
+            "Tiga puluh lima"
+          ],
+          "explanation": "Shahih, mitsal, mudha'af, lafif, naqish, mahmuz, ajwaf."
+        },
+        {
+          "prompt": "Kitab mana yang datang berikutnya pada jalur Utsmani?",
+          "options": [
+            "Alfiyah",
+            "Al-Ajurrumiyyah",
+            "Al-Maqshud",
+            "Qathrun Nada"
+          ],
+          "explanation": "Lalu al-'Izzi, yang membahas fi'il-fi'il mu'tal macam demi macam."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "The seven classes": "Tujuh macam",
+          "Sound (ṣaḥīḥ)": "Shahih",
+          "With a weak letter": "Dengan huruf 'illat",
+          "mithāl": "mitsal",
+          "ajwaf": "ajwaf",
+          "nāqiṣ": "naqish",
+          "lafīf": "lafif",
+          "Doubled (muḍāʿaf)": "Mudha'af",
+          "With hamza (mahmūz)": "Mahmuz",
+          "in the fāʾ": "pada fa' fi'il",
+          "in the ʿayn": "pada 'ain fi'il",
+          "in the lām": "pada lam fi'il"
+        }
+      },
       "text": [
         "Adakalanya mahmuz, yaitu yang salah satu huruf aslinya hamzah, seperti akhadza “mengambil”, sa'ala “bertanya” dan qara'a “membaca”. Jika hamzah berada pada kedudukan fa'-nya, ia disebut mahmuz fa'; jika pada kedudukan 'ain-nya, disebut mahmuz 'ain; dan jika pada kedudukan lam-nya, disebut mahmuz lam. Bagian-bagian ini disebut tujuh bagian, yang dihimpun oleh bait ini:",
         "[Dalam bahasa Persia:] shahih-ast, mitsal-ast, mudha'af / lafif, naqish, mahmuz, ajwaf: “ia shahih, ia mitsal, mudha'af, / lafif, naqish, mahmuz, ajwaf”."

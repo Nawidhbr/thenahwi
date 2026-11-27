@@ -1,0 +1,1195 @@
+{
+ "parts": {
+  "opening": "Het woord en de zin",
+  "signs": "De kentekens van het woord; mu'rab en mabni",
+  "fixed-nouns": "De naamwoorden met een vaste uitgang",
+  "kinds-of-noun": "De soorten naamwoord",
+  "irab-of-noun": "De i'rab van het naamwoord",
+  "irab-of-verb": "De i'rab van de mudari'",
+  "governing-particles": "Hoofdstuk een: de regerende partikels",
+  "governing-verbs": "Hoofdstuk twee: het regeren van de werkwoorden",
+  "governing-nouns": "Hoofdstuk drie: de regerende naamwoorden",
+  "abstract-governors": "De abstracte regeerders",
+  "followers": "Slot: de volgers",
+  "diptote": "Slot: de diptoot",
+  "non-governing": "Slot: de partikels die niet regeren"
+ },
+ "lessons": {
+  "1": {
+   "title": "Het enkelvoudige woord en het samengestelde; de zin",
+   "body": [
+    "Na de hamdala zegt de auteur waarvoor het boek dient: een kort, goed geordend werk van de nahw voor de beginner die al woorden uit het hoofd heeft geleerd en “het meest nodige van de vervoeging beheerst”, dat wil zeggen de leerboeken van de sarf. Het zal hem “de weg tonen naar hoe het Arabisch in elkaar wordt gezet”, en hem het vermogen geven de i'rab en de bina' te kennen en te lezen “met vraag en antwoord”: de manier van de madrasa om hardop te ontleden, waarbij de leraar vraagt en de student antwoordt.",
+    "Elke uiting (lafz) die de Arabieren gebruiken is enkelvoudig (mufrad) of samengesteld (murakkab). De enkelvoudige uiting wijst op één betekenis en heet een kalima. De kalima is een naamwoord, zoals rajulun, “een man”; een werkwoord, zoals daraba, “hij sloeg”; of een partikel, zoals hal, “of?”, “zoals bekend is geworden uit de boeken van de vervoeging”: de student heeft de drie al in de sarf ontmoet.",
+    "Het samengestelde bestaat uit twee woorden of meer. Het heeft een volledige betekenis (mufid) of niet. Het samengestelde met een volledige betekenis is dat waarna de hoorder, wanneer de spreker zwijgt, een mededeling of een verzoek heeft vernomen; het heet een zin (jumla), en ook kalam. De zin heeft twee indelingen: mededelend (khabariyya) en niet-mededelend (insha'iyya).",
+    "De Nahw-i Mir begint bij de zin en daalt af naar het woord, waar de Ajurrumiyya bij de kalam begint en de boeken van de sarf bij het werkwoord. Die volgorde past bij een boek dat de beginner wil leren een zin uit elkaar te halen."
+   ],
+   "terms": [
+    "de enkelvoudige uiting: één woord, één betekenis",
+    "het samengestelde: twee woorden of meer",
+    "met een volledige betekenis; zo'n samengestelde is een zin",
+    "de zin, ook kalam genoemd"
+   ],
+   "examples": [
+    "arshadaka Allahu ta'ala, “moge God de Verhevene je leiden”",
+    "rajulun, daraba, hal: een naamwoord, een werkwoord, een partikel"
+   ],
+   "tasks": [
+    {
+     "prompt": "Is elk van deze enkelvoudig of samengesteld, en als het samengesteld is, met een volledige betekenis of niet: rajulun; ghulamu Zaydin; daraba Zaydun?",
+     "answer": "Rajulun: enkelvoudig, een kalima (een naamwoord). Ghulamu Zaydin: samengesteld, zonder volledige betekenis; de hoorder wacht nog. Daraba Zaydun: samengesteld en met een volledige betekenis, een zin."
+    },
+    {
+     "prompt": "Wat bedoelt het boek met lezen “met vraag en antwoord”?",
+     "answer": "Hardop ontleden: de leraar vraagt van elk woord wat het is, wat het regeert en wat zijn i'rab is, en de student antwoordt. Het boek wil de beginner daartoe in staat stellen."
+    },
+    {
+     "prompt": "Geef de twee namen van het samengestelde met een volledige betekenis, en zijn twee indelingen.",
+     "answer": "Het heet een zin (jumla) en kalam. Het is mededelend (khabariyya) of niet-mededelend (insha'iyya)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Een enkelvoudige uiting die op één betekenis wijst, heet…",
+     "options": [
+      "een zin",
+      "een kalima",
+      "kalam",
+      "een samengestelde"
+     ],
+     "explanation": "Al-mufrad is de kalima."
+    },
+    {
+     "prompt": "Hal is…",
+     "options": [
+      "een naamwoord",
+      "een werkwoord",
+      "een partikel",
+      "een zin"
+     ],
+     "explanation": "Het voorbeeld van het boek voor het partikel."
+    },
+    {
+     "prompt": "Een samengestelde bestaat uit…",
+     "options": [
+      "één woord",
+      "alleen letters",
+      "alleen een werkwoord",
+      "twee woorden of meer"
+     ],
+     "explanation": "Al-murakkab."
+    },
+    {
+     "prompt": "Het samengestelde met een volledige betekenis heet…",
+     "options": [
+      "een zin, of kalam",
+      "een kalima",
+      "een idafa",
+      "een woordgroep"
+     ],
+     "explanation": "De hoorder vernemt er een mededeling of een verzoek uit."
+    },
+    {
+     "prompt": "De zin heeft twee indelingen:",
+     "options": [
+      "naamwoord en werkwoord",
+      "mededelend en niet-mededelend",
+      "enkelvoudig en samengesteld",
+      "mu'rab en mabni"
+     ],
+     "explanation": "Khabariyya en insha'iyya."
+    },
+    {
+     "prompt": "Het boek is bedoeld voor een student die al…",
+     "options": [
+      "de Alfiyya heeft gelezen",
+      "de Qatr al-nada heeft gelezen",
+      "de vervoeging van de sarf heeft geleerd",
+      "de balagha heeft geleerd"
+     ],
+     "explanation": "“Nadat hij het meest nodige van de vervoeging beheerst.”"
+    },
+    {
+     "prompt": "Ghulamu Zaydin is…",
+     "options": [
+      "een zin",
+      "een enkelvoudig woord",
+      "kalam",
+      "een samengestelde zonder volledige betekenis"
+     ],
+     "explanation": "“De knecht van Zayd…” laat de hoorder wachten."
+    }
+   ],
+   "diagram": {
+    "caption": "De indelingen van de uiting (blz. 2–3)",
+    "labels": {
+     "The utterance": "De uiting",
+     "single: the word": "enkelvoudig: de kalima",
+     "noun": "naamwoord",
+     "verb": "werkwoord",
+     "particle": "partikel",
+     "compound": "samengesteld",
+     "conveying: the sentence": "met volledige betekenis: de zin",
+     "not conveying": "zonder volledige betekenis"
+    }
+   }
+  },
+  "2": {
+   "title": "De mededelende zin: naamwoordzin en werkwoordzin",
+   "body": [
+    "De mededelende zin (khabariyya) is “die waarvan de spreker waarheidsgetrouw of leugenachtig genoemd kan worden”: hij deelt iets mee, dat zo is of niet zo is. Hij is van twee soorten, naar zijn eerste deel. Is het eerste deel een naamwoord, dan is het een naamwoordzin (jumla ismiyya): Zaydun 'alimun, “Zayd is wetend”. Zijn eerste deel is dat waarover iets gezegd wordt, de musnad ilayhi, de mubtada' genoemd; zijn tweede deel is wat erover gezegd wordt, de musnad, de khabar genoemd.",
+    "Is het eerste deel een werkwoord, dan is het een werkwoordzin (jumla fi'liyya): daraba Zaydun, “Zayd sloeg”. Hier is de volgorde omgekeerd: het eerste deel, het werkwoord, is de musnad; het tweede, Zayd, is de musnad ilayhi, de fa'il genoemd.",
+    "“De musnad is een oordeel, en de musnad ilayhi is dat waarover een oordeel wordt uitgesproken.” Dan een regel over de drie soorten woord: het naamwoord kan beide zijn, musnad of musnad ilayhi ('alimun is musnad, Zaydun musnad ilayhi); het werkwoord kan musnad zijn maar nooit musnad ilayhi, want over een werkwoord wordt niets gezegd; en het partikel is geen van beide.",
+    "Deze twee woorden, musnad en musnad ilayhi, zijn de sleutel van het hele boek. Elke zin heeft van elk één, en de student die ze kan vinden, heeft het geraamte van de zin gevonden; de rest zijn woorden die volgen, regeren of aanvullen."
+   ],
+   "terms": [
+    "de naamwoordzin: zijn eerste deel een naamwoord",
+    "de werkwoordzin: zijn eerste deel een werkwoord",
+    "dat waarover iets gezegd wordt: mubtada' of fa'il",
+    "wat erover gezegd wordt: khabar of werkwoord"
+   ],
+   "examples": [
+    "Zaydun 'alimun: een naamwoordzin; Zayd de mubtada', 'alim de khabar",
+    "daraba Zaydun: een werkwoordzin; het werkwoord de musnad, Zayd de fa'il"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem de musnad en de musnad ilayhi in Zaydun 'alimun en in daraba Zaydun.",
+     "answer": "In Zaydun 'alimun is Zaydun de musnad ilayhi (de mubtada') en 'alimun de musnad (de khabar). In daraba Zaydun is daraba de musnad (het werkwoord) en Zaydun de musnad ilayhi (de fa'il)."
+    },
+    {
+     "prompt": "Waarom kan een werkwoord nooit musnad ilayhi zijn?",
+     "answer": "Een werkwoord is zelf een oordeel dat over iets gezegd wordt; over een werkwoord kan niets gezegd worden zoals over een persoon of een ding. Daarom is het altijd alleen musnad."
+    },
+    {
+     "prompt": "Waarom heet Zaydun 'alimun mededelend?",
+     "answer": "Zijn spreker kan waarheidsgetrouw of leugenachtig genoemd worden: Zayd is geleerd of hij is het niet."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Een mededelende zin is een zin waarvan de spreker…",
+     "options": [
+      "een vraag stelt",
+      "een bevel geeft",
+      "waarheidsgetrouw of leugenachtig genoemd kan worden",
+      "een wens uit"
+     ],
+     "explanation": "Hij deelt iets mee."
+    },
+    {
+     "prompt": "Een naamwoordzin begint met…",
+     "options": [
+      "een werkwoord",
+      "een partikel",
+      "alleen een voornaamwoord",
+      "een naamwoord"
+     ],
+     "explanation": "Zaydun 'alimun."
+    },
+    {
+     "prompt": "In Zaydun 'alimun is 'alimun…",
+     "options": [
+      "de musnad (khabar)",
+      "de musnad ilayhi",
+      "de fa'il",
+      "een werkwoord"
+     ],
+     "explanation": "Wat over Zayd gezegd wordt."
+    },
+    {
+     "prompt": "In daraba Zaydun is Zaydun…",
+     "options": [
+      "de musnad",
+      "de musnad ilayhi (fa'il)",
+      "de mubtada'",
+      "de khabar"
+     ],
+     "explanation": "In de werkwoordzin is het tweede deel de musnad ilayhi."
+    },
+    {
+     "prompt": "Wat kan zowel musnad als musnad ilayhi zijn?",
+     "options": [
+      "Het werkwoord",
+      "Het partikel",
+      "Het naamwoord",
+      "Geen van alle"
+     ],
+     "explanation": "Het werkwoord alleen musnad; het partikel geen van beide."
+    },
+    {
+     "prompt": "Het partikel is…",
+     "options": [
+      "altijd musnad",
+      "altijd musnad ilayhi",
+      "een van beide",
+      "noch musnad noch musnad ilayhi"
+     ],
+     "explanation": "Het verbindt of regeert alleen."
+    },
+    {
+     "prompt": "De musnad is…",
+     "options": [
+      "een oordeel",
+      "dat waarover een oordeel wordt uitgesproken",
+      "een partikel",
+      "een voornaamwoord"
+     ],
+     "explanation": "De musnad ilayhi is waarover het oordeel gaat."
+    }
+   ],
+   "diagram": {
+    "labels": {}
+   }
+  },
+  "3": {
+   "title": "De niet-mededelende zin (insha')",
+   "body": [
+    "De niet-mededelende zin (insha'iyya) is “die waarvan de spreker niet waarheidsgetrouw of leugenachtig genoemd kan worden”: hij deelt niet mee wat is, maar brengt iets tot stand, een bevel, een vraag, een wens. Idrib, “sla!”, is waar noch onwaar.",
+    "Het boek telt de soorten, elk met een voorbeeld: het bevel (amr), idrib; het verbod (nahy), la tadrib, “sla niet!”; de vraag (istifham), hal daraba Zaydun, “sloeg Zayd?”; de wens (tamanni), layta Zaydan hadirun, “was Zayd maar aanwezig”; de hoop (tarajji), la'alla 'Amran gha'ibun, “misschien is 'Amr afwezig”.",
+    "Dan de contracten ('uqud), bi'tu wa-shtaraytu, “ik heb verkocht en ik heb gekocht”, die op mededelingen lijken maar in werkelijkheid de koop sluiten; het roepen (nida'), ya Allahu, “o God”; het aanbod ('ard), ala tanzilu bi-na fa-tusiba khayran, “blijf je niet bij ons, zodat je iets goeds krijgt?”; de eed (qasam), wa-Allahi la-adribanna Zaydan, “bij God, ik zal Zayd zeker slaan”; en de verwondering (ta'ajjub), ma ahsanahu wa-ahsin bihi, “hoe mooi is hij!”.",
+    "De contracten zijn het leerzame geval. Bi'tu, “ik verkocht”, heeft de vorm van een werkwoord in de madi, een mededeling; maar uitgesproken bij de koop is het de koop zelf, en niemand vraagt of het waar is. De soort van een zin wordt bepaald door wat hij doet, niet door zijn vorm."
+   ],
+   "terms": [
+    "het niet-mededelende: waar noch onwaar",
+    "contracten, zoals bi'tu, die tot stand brengen wat ze zeggen",
+    "het aanbod, met ala",
+    "de wens en de hoop"
+   ],
+   "examples": [
+    "idrib, la tadrib: bevel en verbod",
+    "hal daraba Zaydun: de vraag",
+    "bi'tu wa-shtaraytu: een contract",
+    "het aanbod"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke soort insha' is elk: layta Zaydan hadirun; la'alla 'Amran gha'ibun; ya Allahu?",
+     "answer": "Een wens (tamanni); een hoop (tarajji); een roepen (nida')."
+    },
+    {
+     "prompt": "Waarom geldt bi'tu, “ik verkocht”, als insha', hoewel het de vorm van een werkwoord in de madi heeft?",
+     "answer": "Uitgesproken bij de koop deelt het geen koop mee maar sluit het hem; het kan niet waar of onwaar genoemd worden. Daarom is het insha', een contract."
+    },
+    {
+     "prompt": "Is Zaydun 'alimun insha'? Waarom niet?",
+     "answer": "Nee: het deelt iets mee dat waar of onwaar kan zijn. Het is een mededelende zin."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De insha'-zin is een zin waarvan de spreker…",
+     "options": [
+      "altijd waarheidsgetrouw is",
+      "het verleden meedeelt",
+      "niets vraagt",
+      "niet waarheidsgetrouw of leugenachtig genoemd kan worden"
+     ],
+     "explanation": "Hij doet iets in plaats van iets mee te delen."
+    },
+    {
+     "prompt": "La tadrib is…",
+     "options": [
+      "een verbod",
+      "een bevel",
+      "een vraag",
+      "een wens"
+     ],
+     "explanation": "“Sla niet!”"
+    },
+    {
+     "prompt": "Layta Zaydan hadirun is…",
+     "options": [
+      "een hoop",
+      "een wens",
+      "een vraag",
+      "een eed"
+     ],
+     "explanation": "Tamanni: een wens, met layta."
+    },
+    {
+     "prompt": "La'alla 'Amran gha'ibun is…",
+     "options": [
+      "een wens",
+      "een bevel",
+      "een hoop",
+      "een mededeling"
+     ],
+     "explanation": "Tarajji: een hoop, met la'alla."
+    },
+    {
+     "prompt": "Bi'tu wa-shtaraytu is…",
+     "options": [
+      "een mededeling over het verleden",
+      "een vraag",
+      "een wens",
+      "een contract"
+     ],
+     "explanation": "Al-'uqud: de woorden sluiten de koop."
+    },
+    {
+     "prompt": "Ala tanzilu bi-na is…",
+     "options": [
+      "een aanbod",
+      "een eed",
+      "een verbod",
+      "een roepen"
+     ],
+     "explanation": "Al-'ard, “blijf je niet bij ons?”."
+    },
+    {
+     "prompt": "Ma ahsanahu is…",
+     "options": [
+      "een ontkenning",
+      "een verwondering",
+      "een vraag",
+      "een contract"
+     ],
+     "explanation": "Ta'ajjub, verwondering: “hoe mooi is hij!”."
+    }
+   ],
+   "diagram": {
+    "caption": "De soorten insha' in het boek (blz. 3)",
+    "labels": {
+     "Non-declarative": "Niet-mededelend",
+     "command, prohibition": "bevel, verbod",
+     "question": "vraag",
+     "wish, hope": "wens, hoop",
+     "contracts": "contracten",
+     "calling, offer": "roepen, aanbod",
+     "oath, wonder": "eed, verwondering"
+    }
+   }
+  },
+  "4": {
+   "title": "De samengestelden zonder volledige betekenis: idafa, het getal, de naam",
+   "body": [
+    "Het samengestelde zonder volledige betekenis laat de hoorder zonder mededeling of verzoek wanneer de spreker ophoudt. Het is van drie soorten. De eerste is het idafa-samengestelde (murakkab idafi): ghulamu Zaydin, “de knecht van Zayd”. Het eerste deel is de mudaf, het tweede de mudaf ilayhi, “en de mudaf ilayhi is altijd majrur”.",
+    "De tweede is het samengestelde van de bina' (murakkab bina'i): twee naamwoorden die één zijn geworden, waarbij het tweede de betekenis van een partikel bevat: ahada 'ashara, “elf”, tot tis'ata 'ashara, “negentien”, oorspronkelijk ahadun wa-'asharun, “een en tien”; de waw is weggevallen en de twee werden één. Beide delen hebben een vaste uitgang op de fatha, “behalve ithna 'ashara, ‘twaalf’, waarvan het eerste deel mu'rab is”: ithna in raf', ithnay in nasb en jarr.",
+    "De derde is het samengestelde dat het naamwoord van tanwin weerhoudt (murakkab man'-i sarf): twee naamwoorden die één zijn geworden zonder de betekenis van een partikel, zoals Ba'labakku, Baalbek, en Hadramawtu. Zijn eerste deel heeft een vaste uitgang op de fatha, “volgens de school van de meeste geleerden”, en het tweede is mu'rab, als diptoot.",
+    "“Het samengestelde zonder volledige betekenis is altijd een deel van een zin”: ghulamu Zaydin qa'imun, “de knecht van Zayd staat”; 'indi ahada 'ashara dirhaman, “ik heb elf dirham”; ja'a Ba'labakku, “Baalbek kwam”. Behandel het in de zin als één woord: de hele idafa is de mubtada', het hele getal regeert de tamyiz."
+   ],
+   "terms": [
+    "het idafa-samengestelde: mudaf en mudaf ilayhi",
+    "twee naamwoorden die één zijn geworden, met de betekenis van een partikel: elf tot negentien",
+    "twee naamwoorden die één zijn geworden zonder die betekenis: Ba'labakk"
+   ],
+   "examples": [
+    "ghulamu Zaydin: het idafa-samengestelde",
+    "ahada 'ashara, uit ahadun wa-'asharun",
+    "het samengestelde dat geen tanwin aanneemt",
+    "een samengestelde als deel van een zin"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke soort samengestelde is elk: ghulamu Zaydin; tis'ata 'ashara; Hadramawtu?",
+     "answer": "Ghulamu Zaydin: idafa. Tis'ata 'ashara: van de bina' (het bevat “en”). Hadramawtu: het samengestelde dat van tanwin weerhoudt (zonder de betekenis van een partikel)."
+    },
+    {
+     "prompt": "Waarom is ithna 'ashara een uitzondering?",
+     "answer": "In de andere samengestelde getallen hebben beide delen een vaste uitgang op de fatha. In ithna 'ashara wordt het eerste deel verbogen zoals het tweevoud: ithna in raf', ithnay in nasb en jarr."
+    },
+    {
+     "prompt": "Wat is in ghulamu Zaydin qa'imun de mubtada'?",
+     "answer": "Het hele idafa-samengestelde ghulamu Zaydin; daarbinnen staat ghulamu in raf' als mubtada' en Zaydin in jarr als mudaf ilayhi. Qa'imun is de khabar."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De mudaf ilayhi is altijd…",
+     "options": [
+      "majrur",
+      "marfu'",
+      "mansub",
+      "mabni"
+     ],
+     "explanation": "Ghulamu Zaydin."
+    },
+    {
+     "prompt": "Ahada 'ashara was oorspronkelijk…",
+     "options": [
+      "ahadu 'asharin",
+      "ahadun wa-'asharun",
+      "'asharun ahadun",
+      "ahadun 'ashrun"
+     ],
+     "explanation": "De waw is weggevallen en de twee werden één."
+    },
+    {
+     "prompt": "In het samengestelde van de bina' zijn beide delen…",
+     "options": [
+      "mu'rab",
+      "met vaste uitgang op de damma",
+      "met vaste uitgang op de fatha",
+      "diptoten"
+     ],
+     "explanation": "Behalve ithna 'ashara."
+    },
+    {
+     "prompt": "Ba'labakk is een samengestelde…",
+     "options": [
+      "van de bina'",
+      "van de idafa",
+      "met een volledige betekenis",
+      "dat het naamwoord van tanwin weerhoudt"
+     ],
+     "explanation": "Geen betekenis van een partikel tussen zijn delen."
+    },
+    {
+     "prompt": "In Ba'labakku is het tweede deel…",
+     "options": [
+      "mu'rab, als diptoot",
+      "met vaste uitgang op de fatha",
+      "met vaste uitgang op de kasra",
+      "majrur"
+     ],
+     "explanation": "Het eerste deel heeft een vaste uitgang op de fatha."
+    },
+    {
+     "prompt": "Een samengestelde zonder volledige betekenis is altijd…",
+     "options": [
+      "een zin",
+      "een deel van een zin",
+      "een partikel",
+      "mabni"
+     ],
+     "explanation": "Ghulamu Zaydin qa'imun."
+    },
+    {
+     "prompt": "Van welk getal is het eerste deel mu'rab?",
+     "options": [
+      "Ahada 'ashara",
+      "Tis'ata 'ashara",
+      "Ithna 'ashara",
+      "Thalathata 'ashara"
+     ],
+     "explanation": "Zoals het tweevoud."
+    }
+   ],
+   "diagram": {
+    "caption": "De drie samengestelden zonder volledige betekenis (blz. 4)",
+    "labels": {
+     "Compound": "Samengestelde",
+     "Example": "Voorbeeld",
+     "Its parts": "Zijn delen",
+     "iḍāfa": "idafa",
+     "muḍāf; muḍāf ilayhi always majrūr": "mudaf; mudaf ilayhi altijd majrur",
+     "of bināʾ": "van de bina'",
+     "both fixed on the fatḥa (but اِثْنَا عَشَرَ)": "beide met vaste uitgang op de fatha (behalve اِثْنَا عَشَرَ)",
+     "keeping from tanwīn": "weerhoudend van tanwin",
+     "first fixed on the fatḥa; second a diptote": "het eerste met vaste uitgang op de fatha; het tweede een diptoot"
+    }
+   }
+  },
+  "5": {
+   "title": "De kleinste zin, en hoe je een zin uit elkaar haalt",
+   "body": [
+    "“Geen zin is kleiner dan twee woorden”, hetzij in de uiting, daraba Zaydun, Zaydun qa'imun, hetzij verondersteld: idrib, “sla!”, is één geschreven woord, maar anta, “jij”, zit erin verborgen, dus het zijn er twee. Er is geen bovengrens: een zin kan eindeloos groeien.",
+    "Dan geeft het boek de methode van de hele nahw, in één zin: wanneer de woorden van een zin talrijk zijn, onderscheid het naamwoord, het werkwoord en het partikel; kijk of elk mu'rab of mabni is; of het regeerder ('amil) of geregeerd (ma'mul) is; en kijk hoe de woorden met elkaar verbonden zijn, “zodat de musnad en de musnad ilayhi verschijnen en de betekenis van de zin met zekerheid bekend wordt”.",
+    "Dit is de volgorde waarin een student hardop ontleedt. Eerst de soort van elk woord; dan of zijn uitgang kan veranderen; dan wat wat regeert; ten slotte het geraamte van musnad en musnad ilayhi, dat de betekenis geeft. De rest van het boek levert wat elke stap nodig heeft: de kentekens van de soorten, de woorden met vaste en met veranderlijke uitgang, de regeerders."
+   ],
+   "terms": [
+    "de regeerder en het geregeerde woord",
+    "in de uiting en verondersteld",
+    "het verborgen voornaamwoord, zoals anta in idrib"
+   ],
+   "examples": [
+    "twee woorden in de uiting",
+    "idrib: twee woorden verondersteld, anta erin verborgen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom is idrib een zin van twee woorden?",
+     "answer": "In het werkwoord idrib zit zijn doener verborgen, anta, “jij”. Het is dus een werkwoord en een naamwoord, verondersteld, twee woorden, met een volledige betekenis."
+    },
+    {
+     "prompt": "Haal daraba Zaydun uit elkaar volgens de vier stappen van het boek.",
+     "answer": "1. Daraba is een werkwoord, Zaydun een naamwoord. 2. Daraba is mabni (een werkwoord in de madi), Zaydun mu'rab. 3. Daraba is de regeerder, Zaydun geregeerd, in raf'. 4. Daraba is de musnad, Zaydun de musnad ilayhi (de fa'il): “Zayd sloeg”."
+    },
+    {
+     "prompt": "Is er een grens aan de lengte van een zin?",
+     "answer": "Nee: het minste is twee woorden, maar “het meer heeft geen grens”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het minste wat een zin kan hebben, is…",
+     "options": [
+      "één woord",
+      "twee woorden",
+      "drie woorden",
+      "alleen een werkwoord"
+     ],
+     "explanation": "In de uiting of verondersteld."
+    },
+    {
+     "prompt": "In idrib is het verborgen woord…",
+     "options": [
+      "huwa",
+      "ana",
+      "anta",
+      "nahnu"
+     ],
+     "explanation": "“Jij”, de doener."
+    },
+    {
+     "prompt": "De eerste stap om een zin uit elkaar te halen is…",
+     "options": [
+      "de musnad vinden",
+      "de regeerder vinden",
+      "de i'rab lezen",
+      "naamwoord, werkwoord en partikel onderscheiden"
+     ],
+     "explanation": "Dan mu'rab of mabni, regeerder of geregeerd, musnad en musnad ilayhi."
+    },
+    {
+     "prompt": "Door de musnad en de musnad ilayhi te vinden kun je…",
+     "options": [
+      "de betekenis van de zin met zekerheid kennen",
+      "de woorden tellen",
+      "de wortel vinden",
+      "het werkwoord vervoegen"
+     ],
+     "explanation": "Het geraamte van de zin."
+    },
+    {
+     "prompt": "Zaydun qa'imun heeft…",
+     "options": [
+      "één woord",
+      "twee woorden in de uiting",
+      "alleen een verborgen voornaamwoord",
+      "drie woorden"
+     ],
+     "explanation": "Een naamwoordzin van twee naamwoorden."
+    },
+    {
+     "prompt": "De woorden van een zin kunnen er zijn…",
+     "options": [
+      "hoogstens vijf",
+      "hoogstens drie",
+      "zoveel als men wil",
+      "precies twee"
+     ],
+     "explanation": "“Het meer heeft geen grens.”"
+    },
+    {
+     "prompt": "Regeerder en geregeerd heten…",
+     "options": [
+      "musnad en musnad ilayhi",
+      "mu'rab en mabni",
+      "mufrad en murakkab",
+      "'amil en ma'mul"
+     ],
+     "explanation": "De derde stap van het ontleden."
+    }
+   ],
+   "diagram": {
+    "caption": "De stappen om een zin te ontleden (blz. 5)",
+    "labels": {
+     "Taking a sentence apart": "Een zin uit elkaar halen",
+     "1. noun, verb, particle": "1. naamwoord, werkwoord, partikel",
+     "2. inflected or fixed": "2. mu'rab of mabni",
+     "3. governor or governed": "3. regeerder of geregeerd",
+     "4. musnad, musnad ilayhi": "4. musnad, musnad ilayhi"
+    }
+   }
+  },
+  "6": {
+   "title": "De kentekens van het naamwoord, het werkwoord en het partikel",
+   "body": [
+    "Het naamwoord heeft veel kentekens, en het boek geeft er elf: al- of een partikel van de jarr aan het begin, al-hamdu, bi-Zaydin; tanwin aan het eind, Zaydun; musnad ilayhi zijn, Zaydun qa'imun; mudaf zijn, ghulamu Zaydin; het verkleinwoord, Qurayshun; de nisba op -iyy, baghdadiyyun; het tweevoud, rajulani; het meervoud, rijalun; beschreven worden, ja'a rajulun 'alimun; en de ta' met klinker aan het eind, daribatun.",
+    "De kentekens van het werkwoord zijn minder: qad ervoor, qad daraba; de sin, sa-yadribu, of sawfa, sawfa yadribu, voor de toekomst; een partikel van de jazm, lam yadrib; een aangehecht voornaamwoord in raf' dat eraan vastzit, darabtu, of de ta' met sukun, darabat; of een bevel zijn, idrib, of een verbod, la tadrib.",
+    "De twee ta's zijn een mooi paar. De ta' met klinker, zoals in daribatun, is een kenteken van het naamwoord; de ta' met sukun, zoals in darabat, is een kenteken van het werkwoord. Dezelfde letter, met of zonder klinker, onderscheidt twee soorten woord.",
+    "“Het kenteken van het partikel is dat geen van de kentekens van het naamwoord en het werkwoord erin is.” Hal en fi nemen geen al-, geen tanwin, geen qad, geen lam: het zijn partikels. Eén kenteken is genoeg om te beslissen: een woord met tanwin is een naamwoord, wat het verder ook is."
+   ],
+   "terms": [
+    "de kentekens van het naamwoord: al-, jarr, tanwin, idafa en andere",
+    "de kentekens van het werkwoord: qad, sa-, sawfa, lam, het aangehechte voornaamwoord",
+    "de ta' met sukun van het werkwoord en de ta' met klinker van het naamwoord"
+   ],
+   "examples": [
+    "al-, een partikel van de jarr, tanwin: kentekens van het naamwoord",
+    "het verkleinwoord, de nisba, de ta' met klinker",
+    "qad, de sin, lam: kentekens van het werkwoord",
+    "darabat: de ta' met sukun, een kenteken van het werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Door welk kenteken is elk een naamwoord: Qurayshun; baghdadiyyun; daribatun?",
+     "answer": "Qurayshun: het verkleinwoord (en tanwin). Baghdadiyyun: de nisba op -iyy (en tanwin). Daribatun: de ta' met klinker (en tanwin)."
+    },
+    {
+     "prompt": "Hoe onderscheidt de ta' daribatun van darabat?",
+     "answer": "In daribatun heeft de ta' een klinker: een kenteken van het naamwoord. In darabat heeft hij een sukun: een kenteken van het werkwoord."
+    },
+    {
+     "prompt": "Laat zien dat hal een partikel is.",
+     "answer": "Het neemt geen kenteken van het naamwoord aan (geen al-, tanwin, jarr, idafa…) en geen kenteken van het werkwoord (geen qad, sin, lam, voornaamwoord…). Een woord zonder een van deze is een partikel."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is een kenteken van het naamwoord?",
+     "options": [
+      "Qad",
+      "Lam",
+      "Tanwin",
+      "De ta' met sukun"
+     ],
+     "explanation": "Zaydun: tanwin kenmerkt het naamwoord."
+    },
+    {
+     "prompt": "Wat is een kenteken van het werkwoord?",
+     "options": [
+      "Al-",
+      "Het verkleinwoord",
+      "Beschreven worden",
+      "Sawfa"
+     ],
+     "explanation": "Sawfa yadribu."
+    },
+    {
+     "prompt": "In daribatun is de ta'…",
+     "options": [
+      "met klinker: een kenteken van het naamwoord",
+      "met sukun: een kenteken van het werkwoord",
+      "een voornaamwoord",
+      "een partikel"
+     ],
+     "explanation": "De ta' met klinker."
+    },
+    {
+     "prompt": "Baghdadiyyun is een naamwoord door…",
+     "options": [
+      "het verkleinwoord",
+      "de nisba",
+      "qad",
+      "lam"
+     ],
+     "explanation": "“Uit Bagdad.”"
+    },
+    {
+     "prompt": "Darabtu is een werkwoord door…",
+     "options": [
+      "tanwin",
+      "al-",
+      "een aangehecht voornaamwoord in raf'",
+      "idafa"
+     ],
+     "explanation": "De ta' van de spreker."
+    },
+    {
+     "prompt": "Het partikel herken je doordat het…",
+     "options": [
+      "tanwin heeft",
+      "qad aanneemt",
+      "mudaf is",
+      "geen van de kentekens van het naamwoord of het werkwoord heeft"
+     ],
+     "explanation": "Hal en fi hebben er geen."
+    },
+    {
+     "prompt": "Musnad ilayhi zijn is een kenteken van…",
+     "options": [
+      "het naamwoord",
+      "het werkwoord",
+      "het partikel",
+      "geen enkel"
+     ],
+     "explanation": "Zaydun qa'imun."
+    }
+   ],
+   "diagram": {
+    "caption": "De kentekens van het naamwoord en van het werkwoord (blz. 5)",
+    "labels": {
+     "Signs of the noun": "Kentekens van het naamwoord",
+     "Example": "Voorbeeld",
+     "Signs of the verb": "Kentekens van het werkwoord",
+     "al-; a particle of jarr": "al-; een partikel van de jarr",
+     "qad": "qad",
+     "tanwīn": "tanwin",
+     "the sīn, sawfa": "de sin, sawfa",
+     "musnad ilayhi; muḍāf": "musnad ilayhi; mudaf",
+     "a particle of jazm": "een partikel van de jazm",
+     "diminutive; relative": "verkleinwoord; nisba",
+     "an attached pronoun in rafʿ": "een aangehecht voornaamwoord in raf'",
+     "dual; plural; described": "tweevoud; meervoud; beschreven",
+     "the quiescent tāʾ": "de ta' met sukun",
+     "the vowelled tāʾ": "de ta' met klinker",
+     "command; prohibition": "bevel; verbod"
+    }
+   }
+  },
+  "7": {
+   "title": "Mu'rab en mabni; het naamwoord dat vast geplaatst is",
+   "body": [
+    "Alle woorden van de Arabieren zijn mu'rab (met veranderlijke uitgang) of mabni (met vaste uitgang). De mu'rab is “dat waarvan het eind verschilt met het verschil van de regeerders”: ja'ani Zaydun, ra'aytu Zaydan, marartu bi-Zaydin. In de termen van het boek is Zayd de mu'rab, zijn de damma, fatha en kasra de i'rab, en is de dal “de plaats van de i'rab”. De mabni houdt zijn eind, wat hem ook regeert: ha'ula'i, “dezen”, is hetzelfde in raf', nasb en jarr.",
+    "Dan telt het boek de mu'rab-woorden, die weinig zijn, zodat al het andere mabni is. Alle partikels zijn mabni; van de werkwoorden zijn de madi, de actieve gebiedende wijs aan de aanwezige, en de mudari' met de nun van het vrouwelijk meervoud of de nun van nadruk mabni. Dus zijn maar twee dingen mu'rab: het naamwoord dat “vast geplaatst” is (mutamakkin), wanneer het in een verbinding staat, en de mudari' die vrij is van die twee nuns.",
+    "Het naamwoord dat niet vast geplaatst is (ghayr mutamakkin), is mabni, omdat “het lijkt op wat oorspronkelijk mabni is”; en wat oorspronkelijk mabni is, zijn drie dingen: de madi, de actieve gebiedende wijs aan de aanwezige, en alle partikels. Een voornaamwoord zoals de ta' van darabtu, één enkele letter, is in zijn bouw als een partikel, zeggen de commentatoren, en heeft daarom een vaste uitgang zoals een partikel.",
+    "Let op de voorwaarde “wanneer het in een verbinding staat” (tarkib). Een naamwoord dat alleen gezegd wordt, zoals bij het tellen, Zaydun, 'Amrun, heeft geen regeerder en dus nog geen i'rab; het wordt mu'rab wanneer het een zin binnengaat en een regeerder erop werkt."
+   ],
+   "terms": [
+    "mu'rab: zijn eind verandert met de regeerders",
+    "de plaats van de i'rab: de laatste letter",
+    "het vast geplaatste naamwoord: mu'rab",
+    "wat oorspronkelijk mabni is: de madi, de gebiedende wijs, de partikels"
+   ],
+   "examples": [
+    "Zayd mu'rab; de dal de plaats van de i'rab",
+    "ha'ula'i: mabni, hetzelfde in elke toestand"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem in ra'aytu Zaydan de mu'rab, de i'rab en de plaats van de i'rab.",
+     "answer": "De mu'rab is Zayd; de i'rab is de fatha (nasb); de plaats van de i'rab is de dal, de laatste letter."
+    },
+    {
+     "prompt": "Welke twee soorten woord zijn volgens het boek mu'rab?",
+     "answer": "Het vast geplaatste naamwoord (mutamakkin) dat in een verbinding staat, en de mudari' die vrij is van de nun van het vrouwelijk meervoud en de nun van nadruk. Al het andere is mabni."
+    },
+    {
+     "prompt": "Waarom is een voornaamwoord mabni?",
+     "answer": "Het is een naamwoord dat niet vast geplaatst is: het lijkt op wat oorspronkelijk mabni is (de partikels), en is daarom mabni zoals zij."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De mu'rab is het woord waarvan het eind…",
+     "options": [
+      "nooit verandert",
+      "altijd tanwin heeft",
+      "een sukun heeft",
+      "verschilt met de regeerders"
+     ],
+     "explanation": "Ja'ani Zaydun, ra'aytu Zaydan, marartu bi-Zaydin."
+    },
+    {
+     "prompt": "In ja'ani Zaydun is de plaats van de i'rab…",
+     "options": [
+      "de dal",
+      "de zay",
+      "de ya'",
+      "de tanwin"
+     ],
+     "explanation": "De laatste letter."
+    },
+    {
+     "prompt": "Ha'ula'i is…",
+     "options": [
+      "mu'rab",
+      "mabni",
+      "een werkwoord",
+      "een diptoot"
+     ],
+     "explanation": "Hetzelfde in raf', nasb en jarr."
+    },
+    {
+     "prompt": "Welk werkwoord is mu'rab?",
+     "options": [
+      "De madi",
+      "De gebiedende wijs aan de aanwezige",
+      "De mudari' zonder de twee nuns",
+      "Geen enkel"
+     ],
+     "explanation": "Met die nuns is het mabni."
+    },
+    {
+     "prompt": "Wat is oorspronkelijk mabni?",
+     "options": [
+      "Alle naamwoorden",
+      "De mudari'",
+      "Alleen de voornaamwoorden",
+      "De madi, de gebiedende wijs aan de aanwezige, en de partikels"
+     ],
+     "explanation": "Mabni al-asl."
+    },
+    {
+     "prompt": "Het ghayr mutamakkin-naamwoord is mabni omdat het…",
+     "options": [
+      "lijkt op wat oorspronkelijk mabni is",
+      "geen letters heeft",
+      "een werkwoord is",
+      "tanwin heeft"
+     ],
+     "explanation": "Zoals de voornaamwoorden en de aanwijzende naamwoorden."
+    },
+    {
+     "prompt": "Een naamwoord wordt mu'rab op voorwaarde dat het…",
+     "options": [
+      "alleen gezegd wordt",
+      "in een verbinding staat",
+      "een voornaamwoord is",
+      "een partikel is"
+     ],
+     "explanation": "Er moet een regeerder op werken."
+    }
+   ],
+   "diagram": {
+    "labels": {}
+   }
+  },
+  "8": {
+   "title": "De naamwoorden met een vaste uitgang (1): de zeventig voornaamwoorden",
+   "body": [
+    "Het naamwoord dat niet vast geplaatst is, is van acht soorten, en de eerste zijn de voornaamwoorden (mudmarat). Het boek verklaart ze met Perzische glossen: ana, “ik”, voor een man of een vrouw; de ta' van darabtu, “ik sloeg”, die “speciaal voor mij” is; de ya' van darabani, “hij sloeg mij”. Dan telt het ze: zeventig, in vijf lijsten van veertien.",
+    "In raf', aangehecht: de uitgangen van de madi, darabtu, darabna [met lange a], darabta … daraba, daraba [tweevoud], darabu, darabat, darabata, darabna (in daraba en darabat is de doener verborgen). In raf', los: ana, nahnu, anta, antuma, antum, anti, antuma, antunna, huwa, huma, hum, hiya, huma, hunna. In nasb, aangehecht: darabani, darabana, darabaka … darabahu, darabaha, darabahunna. In nasb, los: iyyaya, iyyana, iyyaka … iyyahu, iyyaha, iyyahunna. In jarr, alleen aangehecht: li, lana, laka … lahu, laha, lahunna.",
+    "Let op de volgorde: de Nahw-i Mir noemt eerst de spreker, dan de aangesprokene, dan de afwezige, het omgekeerde van de tabellen van de Mizan, die met de afwezige beginnen. En er is geen los voornaamwoord in jarr: een voornaamwoord in jarr is altijd verbonden met zijn partikel of zijn mudaf.",
+    "Vijf lijsten, elk van veertien: 5 × 14 = 70. De student zegt ze op zoals hij de tabellen van de sarf opzei, en met hen kan hij de i'rab van elk voornaamwoord noemen: de -hu van darabahu staat in nasb, de -hu van lahu in jarr, hoewel ze er hetzelfde uitzien."
+   ],
+   "terms": [
+    "de voornaamwoorden: zeventig, in vijf lijsten",
+    "aangehecht en los",
+    "de stam van de losse voornaamwoorden in nasb"
+   ],
+   "examples": [
+    "darabtu, de ta' in raf'; darabani, de ya' in nasb",
+    "losse voornaamwoorden in raf'",
+    "losse voornaamwoorden in nasb",
+    "aangehechte voornaamwoorden in jarr"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de toestand van de -hu in darabahu en in lahu, en van de -ka in darabaka en in laka.",
+     "answer": "In darabahu en darabaka is het voornaamwoord het lijdend voorwerp, in nasb. In lahu en laka volgt het op het partikel li-, in jarr. De vorm is dezelfde; de regeerder beslist."
+    },
+    {
+     "prompt": "Waarom zijn er maar veertien voornaamwoorden in jarr, en geen achtentwintig?",
+     "answer": "Het voornaamwoord in jarr is altijd aangehecht, aan zijn partikel of zijn mudaf; er is geen los voornaamwoord in jarr."
+    },
+    {
+     "prompt": "Hoeveel voornaamwoorden zijn er, en hoe worden ze geteld?",
+     "answer": "Zeventig: vijf lijsten van veertien (raf' aangehecht, raf' los, nasb aangehecht, nasb los, jarr aangehecht)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel voornaamwoorden telt het boek?",
+     "options": [
+      "Zeventig",
+      "Veertien",
+      "Achtentwintig",
+      "Zesenvijftig"
+     ],
+     "explanation": "Vijf lijsten van veertien."
+    },
+    {
+     "prompt": "Iyyaka is…",
+     "options": [
+      "aangehecht, in nasb",
+      "los, in nasb",
+      "los, in raf'",
+      "in jarr"
+     ],
+     "explanation": "“Jij (m.)” als lijdend voorwerp."
+    },
+    {
+     "prompt": "Nahnu is…",
+     "options": [
+      "aangehecht, in raf'",
+      "in nasb",
+      "los, in raf'",
+      "in jarr"
+     ],
+     "explanation": "Nahnu betekent “wij”."
+    },
+    {
+     "prompt": "De ya' van darabani is…",
+     "options": [
+      "aangehecht, in raf'",
+      "in jarr",
+      "los",
+      "aangehecht, in nasb"
+     ],
+     "explanation": "“Hij sloeg mij.”"
+    },
+    {
+     "prompt": "Is er een los voornaamwoord in jarr?",
+     "options": [
+      "Nee",
+      "Ja, iyya-",
+      "Ja, ana",
+      "Alleen in het tweevoud"
+     ],
+     "explanation": "Het voornaamwoord in jarr is altijd aangehecht."
+    },
+    {
+     "prompt": "De Nahw-i Mir noemt de personen…",
+     "options": [
+      "eerst de afwezige",
+      "eerst de spreker, dan de aangesprokene, dan de afwezige",
+      "eerst de aangesprokene",
+      "in geen vaste volgorde"
+     ],
+     "explanation": "Het omgekeerde van de tabellen van de Mizan."
+    },
+    {
+     "prompt": "De -hu van lahu staat in…",
+     "options": [
+      "nasb",
+      "raf'",
+      "jarr",
+      "jazm"
+     ],
+     "explanation": "Het volgt op het partikel li-."
+    }
+   ],
+   "diagram": {
+    "caption": "De vijf lijsten van voornaamwoorden, drie personen van elk (blz. 6)",
+    "labels": {
+     "Person": "Persoon",
+     "Rafʿ, attached": "Raf', aangehecht",
+     "Rafʿ, separate": "Raf', los",
+     "Naṣb, attached": "Nasb, aangehecht",
+     "Naṣb, separate": "Nasb, los",
+     "Jarr": "Jarr",
+     "I": "ik",
+     "we": "wij",
+     "you (m.)": "jij (m.)",
+     "you (f.)": "jij (v.)",
+     "he": "hij",
+     "she": "zij (v. enk.)",
+     "they (m.)": "zij (m. mv.)",
+     "they (f.)": "zij (v. mv.)"
+    }
+   }
+  },
+  "9": {
+   "title": "De naamwoorden met een vaste uitgang (2): aanwijzende, betrekkelijke naamwoorden, naamwoorden van werkwoorden, klanken",
+   "body": [
+    "De tweede soort naamwoord met een vaste uitgang zijn de aanwijzende naamwoorden: dha voor het mannelijke; dhani en dhayni voor het mannelijk tweevoud; ta, ti, tihi, dhih, dhihi en tihi [met lange i] voor het vrouwelijke; tani en tayni voor het vrouwelijk tweevoud; en ula'i met madd, of ula zonder, voor het meervoud. De tweevouden veranderen met de toestand, zoals tweevouden doen; de andere hebben een vaste uitgang.",
+    "De derde zijn de betrekkelijke naamwoorden: alladhi, alladhani en alladhayni, alladhina, allati, allatani en allatayni, allati [met alif] en allawati; ma, man, ayyun en ayyatun; al- “in de betekenis van alladhi” bij het actief en het passief deelwoord, al-daribu, al-madrubu; en dhu in het dialect van Tayyi', ja'ani dhu darabaka, “degene die jou sloeg, kwam naar mij”. Het boek voegt eraan toe dat ayyun en ayyatun mu'rab zijn: ze veranderen, ayyan, ayyin, hoewel ze bij de naamwoorden met vaste uitgang worden geteld.",
+    "De vierde zijn de naamwoorden van werkwoorden (asma' al-af'al), van twee soorten: in de betekenis van de gebiedende wijs aan de aanwezige, ruwayda, “rustig aan!”, balha, “laat maar!”, hayyahal, “kom snel!”, halumma, “kom hier!”; en in de betekenis van de madi, hayhata, “het is ver”, shattana, “wat een verschil!”. De vijfde zijn de naamwoorden van klanken (asma' al-aswat): uh uh, een hoest; uf, afkeer; bakh bakh, “goed gedaan!”; nakh, om een kameel te laten knielen; ghaq, de roep van de kraai.",
+    "Wat deze soorten gemeen hebben, is de reden van hun bina': elk lijkt op wat oorspronkelijk een vaste uitgang heeft. Het aanwijzende en het betrekkelijke naamwoord hebben iets anders nodig om hun betekenis duidelijk te maken, een ding waarnaar gewezen wordt of een sila, zoals een partikel zijn naamwoord nodig heeft; het naamwoord van een werkwoord staat op de plaats van een werkwoord met vaste uitgang, de gebiedende wijs of de madi."
+   ],
+   "terms": [
+    "de aanwijzende naamwoorden",
+    "de betrekkelijke naamwoorden, die een sila nodig hebben",
+    "de naamwoorden van werkwoorden, in de betekenis van de gebiedende wijs of de madi",
+    "de naamwoorden van klanken"
+   ],
+   "examples": [
+    "aanwijzende naamwoorden: het tweevoud verandert, de andere hebben een vaste uitgang",
+    "al- in de betekenis van alladhi",
+    "dhu als betrekkelijk naamwoord, in het dialect van Tayyi'",
+    "naamwoorden van werkwoorden: een gebiedende wijs, een madi"
+   ],
+   "tasks": [
+    {
+     "prompt": "Deel deze in bij de aanwijzende naamwoorden, de betrekkelijke naamwoorden en de naamwoorden van werkwoorden: ta; allati; ruwayda; ula'i; man; hayhata.",
+     "answer": "Aanwijzend: ta, ula'i. Betrekkelijk: allati, man. Naamwoorden van werkwoorden: ruwayda (als gebiedende wijs), hayhata (als madi)."
+    },
+    {
+     "prompt": "Waarom geldt al- in al-daribu als betrekkelijk naamwoord?",
+     "answer": "Het betekent alladhi, “degene die”: al-daribu is “degene die slaat”. Bij een deelwoord is al- een betrekkelijk naamwoord, niet alleen het lidwoord."
+    },
+    {
+     "prompt": "Welke betrekkelijke naamwoorden zijn volgens het boek mu'rab, en wat betekent dat?",
+     "answer": "Ayyun en ayyatun: hun uitgang verandert met de regeerder (ayyun, ayyan, ayyin), hoewel de andere betrekkelijke naamwoorden een vaste uitgang hebben."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Dhani en dhayni zijn…",
+     "options": [
+      "betrekkelijke naamwoorden",
+      "het mannelijk tweevoud van het aanwijzend naamwoord",
+      "naamwoorden van klanken",
+      "het vrouwelijk meervoud"
+     ],
+     "explanation": "Dhani in raf', dhayni in nasb en jarr."
+    },
+    {
+     "prompt": "Welk is een vrouwelijk aanwijzend naamwoord?",
+     "options": [
+      "Dha",
+      "Alladhi",
+      "Ti",
+      "Man"
+     ],
+     "explanation": "Ta, ti, tihi, dhih, dhihi, tihi [met lange i]."
+    },
+    {
+     "prompt": "Ja'ani dhu darabaka gebruikt dhu…",
+     "options": [
+      "als een van de zes naamwoorden",
+      "als aanwijzend naamwoord",
+      "als partikel",
+      "als betrekkelijk naamwoord, in het dialect van Tayyi'"
+     ],
+     "explanation": "“Degene die jou sloeg, kwam naar mij.”"
+    },
+    {
+     "prompt": "Welke betrekkelijke naamwoorden zijn mu'rab?",
+     "options": [
+      "Ayyun en ayyatun",
+      "Alladhi en allati",
+      "Man en ma",
+      "Alladhina"
+     ],
+     "explanation": "Het boek zegt het uitdrukkelijk."
+    },
+    {
+     "prompt": "Hayhata is een naamwoord van een werkwoord in de betekenis van…",
+     "options": [
+      "de gebiedende wijs",
+      "de madi",
+      "de mudari'",
+      "het passief"
+     ],
+     "explanation": "“Het is ver.”"
+    },
+    {
+     "prompt": "Ruwayda betekent…",
+     "options": [
+      "wat een verschil!",
+      "het is ver",
+      "rustig aan!",
+      "goed gedaan!"
+     ],
+     "explanation": "In de betekenis van de gebiedende wijs."
+    },
+    {
+     "prompt": "Ghaq is…",
+     "options": [
+      "een naamwoord van een werkwoord",
+      "een aanwijzend naamwoord",
+      "een partikel",
+      "een naamwoord van een klank: de roep van de kraai"
+     ],
+     "explanation": "Asma' al-aswat."
+    }
+   ],
+   "diagram": {
+    "caption": "Vier soorten naamwoord met een vaste uitgang (blz. 6–7)",
+    "labels": {
+     "Fixed nouns": "Naamwoorden met een vaste uitgang",
+     "demonstratives": "aanwijzende naamwoorden",
+     "relatives": "betrekkelijke naamwoorden",
+     "nouns of verbs": "naamwoorden van werkwoorden",
+     "as the imperative": "als de gebiedende wijs",
+     "as the past": "als de madi",
+     "nouns of sounds": "naamwoorden van klanken"
+    }
+   }
+  },
+  "10": {
+   "title": "De naamwoorden met een vaste uitgang (3): zarfs, zinspelende naamwoorden, het samengestelde getal",
+   "body": [
+    "De zesde soort zijn sommige zarfs (zuruf, bijwoorden van tijd en plaats). Van tijd: idh, “toen” in het verleden, idha, “wanneer”, mata, “wanneer?”, kayfa, “hoe?”, ayyana, “wanneer?”, amsi, “gisteren”, mudh en mundhu, “sinds”, qattu, “ooit” in het verleden, 'awdu, “ooit” in de toekomst; en qablu en ba'du, “voor” en “na”, wanneer ze mudaf zijn en de mudaf ilayhi is weggelaten terwijl zijn betekenis bedoeld is. Van plaats: haythu, “waar”, en quddamu, tahtu en fawqu, “voor, onder, boven”, onder dezelfde voorwaarde.",
+    "Die voorwaarde is belangrijk. Qablu, tahtu en fawqu hebben alleen een vaste uitgang op de damma wanneer het woord waarmee ze verbonden waren, is weggevallen maar nog bedoeld is: min qablu, “daarvoor”. Wanneer dat woord wordt uitgesproken, zijn ze mu'rab: min qabli dhalika. Qattu hoort bij het verleden (ma ra'aytuhu qattu, “ik heb hem nooit gezien”), 'awdu bij de toekomst.",
+    "De zevende zijn de zinspelende naamwoorden (kinayat), die staan voor iets wat niet genoemd wordt: kam, “hoeveel”, en kadha, “zoveel”, voor een getal; kayta en dhayta, “zus en zo”, voor gepraat. De achtste is het samengestelde van de bina', ahada 'ashara, dat het boek al heeft verklaard (les 4).",
+    "Met deze acht soorten, voornaamwoorden, aanwijzende naamwoorden, betrekkelijke naamwoorden, naamwoorden van werkwoorden, klanken, zarfs, zinspelende naamwoorden en samengestelde getallen, heeft het boek alle naamwoorden met een vaste uitgang opgesomd. Elk ander naamwoord is vast geplaatst en mu'rab."
+   ],
+   "terms": [
+    "de zarfs van tijd en plaats met een vaste uitgang",
+    "de zinspelende naamwoorden: kam, kadha, kayta, dhayta",
+    "“ooit” in het verleden en in de toekomst"
+   ],
+   "examples": [
+    "zarfs van tijd met een vaste uitgang",
+    "zarfs van plaats met een vaste uitgang, onder de voorwaarde",
+    "zinspelende naamwoorden: van getal, van gepraat"
+   ],
+   "tasks": [
+    {
+     "prompt": "Wanneer hebben qablu en fawqu een vaste uitgang, en wanneer zijn ze mu'rab?",
+     "answer": "Een vaste uitgang op de damma wanneer ze mudaf zijn, het woord waarmee ze verbonden waren weggevallen en zijn betekenis bedoeld (min qablu). Wanneer dat woord wordt uitgesproken, zijn ze mu'rab (min qabli dhalika)."
+    },
+    {
+     "prompt": "Waarop zinspeelt kam, en waarop kayta?",
+     "answer": "Kam (zoals kadha) zinspeelt op een getal; kayta (zoals dhayta) op gepraat, “zus en zo werd gezegd”."
+    },
+    {
+     "prompt": "Noem de acht soorten naamwoord met een vaste uitgang.",
+     "answer": "Voornaamwoorden, aanwijzende naamwoorden, betrekkelijke naamwoorden, naamwoorden van werkwoorden, naamwoorden van klanken, zarfs, zinspelende naamwoorden, en het samengestelde van de bina'."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welk is een zarf van plaats met een vaste uitgang?",
+     "options": [
+      "Idh",
+      "Mata",
+      "Haythu",
+      "Amsi"
+     ],
+     "explanation": "Met quddamu, tahtu, fawqu onder de voorwaarde."
+    },
+    {
+     "prompt": "Qattu wordt gebruikt voor…",
+     "options": [
+      "de toekomst",
+      "een plaats",
+      "een getal",
+      "het verleden: “ooit”"
+     ],
+     "explanation": "'Awdu is voor de toekomst."
+    },
+    {
+     "prompt": "Qablu heeft een vaste uitgang wanneer…",
+     "options": [
+      "zijn mudaf ilayhi is weggelaten en zijn betekenis bedoeld",
+      "het al- heeft",
+      "het in nasb staat",
+      "altijd"
+     ],
+     "explanation": "Min qablu."
+    },
+    {
+     "prompt": "Kayta en dhayta zinspelen op…",
+     "options": [
+      "een getal",
+      "gepraat",
+      "een plaats",
+      "een tijd"
+     ],
+     "explanation": "“Zus en zo.”"
+    },
+    {
+     "prompt": "Kam en kadha zinspelen op…",
+     "options": [
+      "gepraat",
+      "een persoon",
+      "een getal",
+      "een plaats"
+     ],
+     "explanation": "Kinayat van getal."
+    },
+    {
+     "prompt": "Hoeveel soorten naamwoord met een vaste uitgang telt het boek?",
+     "options": [
+      "Zes",
+      "Zeven",
+      "Tien",
+      "Acht"
+     ],
+     "explanation": "Van de voornaamwoorden tot het samengestelde van de bina'."
+    },
+    {
+     "prompt": "Amsi is…",
+     "options": [
+      "een zarf van tijd met een vaste uitgang",
+      "een zinspelend naamwoord",
+      "een naamwoord van een werkwoord",
+      "een aanwijzend naamwoord"
+     ],
+     "explanation": "“Gisteren.”"
+    }
+   ],
+   "diagram": {
+    "caption": "De laatste drie soorten naamwoord met een vaste uitgang (blz. 7)",
+    "labels": {
+     "Kind": "Soort",
+     "The book's words": "De woorden van het boek",
+     "adverbs of time": "zarfs van tijd",
+     "adverbs of time, with the condition": "zarfs van tijd, met de voorwaarde",
+     "adverbs of place": "zarfs van plaats",
+     "allusive: number": "zinspelend: getal",
+     "allusive: talk": "zinspelend: gepraat",
+     "the compound of bināʾ": "het samengestelde van de bina'"
+    }
+   }
+  }
+ },
+ "title": "Nahw-i Mir",
+ "summary": "De Nahw-i Mir is het Perzische leerboek van de nahw dat wordt toegeschreven aan al-Sayyid al-Sharif al-Jurjani (gest. 816/1413), het eerste boek van de nahw in de madrasa's van India, gelezen naast de Mizan al-sarf en voor de 'Awamil al-mi'a en de Hidayat al-nahw. Het begint bij het woord en de zin en hun soorten, de kentekens van naamwoord, werkwoord en partikel, de naamwoorden met een vaste uitgang, de soorten naamwoord, en de i'rab van het naamwoord op zestien manieren en van de mudari' op vier; dan komen de regeerders in drie hoofdstukken, partikels, werkwoorden en naamwoorden, met de twee abstracte regeerders; en een slot over de volgers, de diptoot en de partikels die niet regeren. Zijn voorbeelden zijn korte zinnen met Zayd en 'Amr, die de student leert ontleden. De lessen volgen een lithografie uit Lucknow van 1884 en verklaren in het Nederlands elke regel die het Perzisch geeft."
+}

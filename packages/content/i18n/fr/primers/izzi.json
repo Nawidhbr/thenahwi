@@ -1283,6 +1283,2846 @@
         "Quand le fâ' de ifta'ala est sâd, dâd, tâ' [ط] ou zâ', son tâ' est changé en tâ' [ط]. Tu dis donc, à ifta'ala de al-sulhi « la paix » : istalaha « faire la paix » ; de al-darbi « le fait de frapper » : idtaraba « s'agiter » ; de al-tardi « le fait de chasser » : ittarada « se poursuivre régulièrement » ; et de al-zulmi « l'injustice » : izzalama « supporter une injustice ». De même toutes ses autres formes dérivées, comme istalaha yastalihu istilâhan, il est donc mustalihun « celui qui fait la paix » et cela est mustalahun « convenu » ; l'impératif est istalih et l'interdiction lâ tastalih.",
         "Quand le fâ' de ifta'ala est dâl, dhâl ou zây, son tâ' est changé en dâl. Tu dis donc, à ifta'ala de al-dar'i « le fait d'écarter », al-dhikri « le fait de se souvenir » et al-zajri « le fait de retenir » : iddara'a « écarter », iddakara « se souvenir » et izdajara « être retenu ». Quand le fâ' de ifta'ala est wâw, yâ' ou thâ', le wâw, le yâ' et le thâ' sont changés en tâ', puis ce tâ' est assimilé au tâ' de ifta'ala, comme ittaqâ « se prémunir », ittasara « jouer au maysir » et ittaghara « perdre ses dents de devant »."
       ]
+    },
+    "11": {
+      "title": "Les deux nûn d'insistance",
+      "body": [
+        "Deux nûn d'insistance s'attachent « au verbe autre que le passé et le présent » : donc à l'impératif, à l'interdiction et au mudâri' au sens futur. Le léger a un sukûn ; le lourd a une fatha, sauf dans le verbe des deux et du groupe des femmes, où il a une kasra : idhhabânni, « allez, vous deux ! », idhhabnânni, « allez, vous les femmes ! ». Dans le second, un alif est placé après le nûn des femmes « pour séparer les nûn », qui seraient sinon trois à la suite.",
+        "Le nûn léger ne s'attache pas à ces deux, « parce qu'il réunirait deux sukûn hors de leur limite ». Deux lettres quiescentes ne peuvent se rencontrer « que lorsque la première est une lettre de prolongation et la seconde est assimilée », comme dans dâbbatin, « un animal », où le â long est suivi d'un bâ' redoublé. Idhhabânni s'y tient : â, puis un nûn redoublé. Avec le nûn léger, le â rencontrerait un seul nûn quiescent, ce qui n'est pas permis.",
+        "Avec les deux nûn, le nûn des cinq formes (yaf'alâni, taf'alâni, yaf'alûna, taf'alûna, taf'alîna) est supprimé, comme avec le jazm. Le wâw du pluriel des hommes et le yâ' de la femme à qui l'on parle sont supprimés aussi, « sauf quand la lettre qui les précède a une fatha » : lâ takhshawunna, « ne craignez pas ! », la-tublawunna, « vous serez assurément éprouvés » (Coran 3:186), immâ tarayinna, « si tu vois » (Coran 19:26). Là, le wâw ou le yâ' prend une voyelle au lieu de tomber.",
+        "La dernière lettre du verbe prend alors une voyelle qui indique la personne : fatha pour le singulier et l'absente, damma pour le groupe des hommes, kasra pour la femme à qui l'on parle. La damma et la kasra sont les traces du wâw et du yâ' supprimés : unsurunna, « aidez donc ! (hommes) », de unsurû ; unsurinna, « aide donc ! (femme) », de unsurî.",
+        "Les tableaux : li-yansuranna li-yansurânni li-yansurunna li-tansuranna li-tansurânni li-yansurnânni, et avec le nûn léger li-yansuran li-yansurun li-tansuran ; unsuranna unsurânni unsurunna unsurinna unsurânni unsurnânni, et unsuran unsurun unsurin. Lisez-les par paires : seule la voyelle avant le nûn sépare unsuranna, dit à un homme, de unsurunna, dit à plusieurs."
+      ],
+      "terms": [
+        "le nûn d'insistance lourd et léger",
+        "les cinq formes à nûn final",
+        "deux lettres quiescentes qui se rencontrent dans leur limite : une voyelle longue et une lettre assimilée"
+      ],
+      "examples": [
+        "idhhabânni, idhhabnânni : kasra sur le nûn lourd, après un alif",
+        "dâbbatin : une voyelle longue avant une lettre assimilée, la rencontre permise",
+        "le wâw et le yâ' gardés, avec une voyelle, après une fatha",
+        "l'ordre à l'absent avec le nûn lourd"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le nûn léger ne s'attache-t-il pas au verbe des deux ?",
+          "answer": "L'alif du duel rencontrerait un seul nûn quiescent. Deux lettres quiescentes ne peuvent se rencontrer que si la première est une voyelle longue et la seconde est assimilée, comme dans dâbbatin ; le nûn lourd est assimilé, le léger ne l'est pas."
+        },
+        {
+          "prompt": "Expliquez la voyelle avant le nûn dans unsuranna, unsurunna et unsurinna.",
+          "answer": "Fatha pour un homme. Damma pour les hommes : le wâw de unsurû a été supprimé et sa damma est restée. Kasra pour la femme : le yâ' de unsurî a été supprimé et sa kasra est restée."
+        },
+        {
+          "prompt": "Pourquoi le wâw est-il gardé dans lâ takhshawunna mais supprimé dans unsurunna ?",
+          "answer": "Dans takhshaw, la lettre avant le wâw a une fatha ; le wâw est donc gardé et reçoit une damma. Dans unsurû, la lettre qui le précède a une damma ; il tombe donc et la damma en tient lieu."
+        },
+        {
+          "prompt": "Pourquoi y a-t-il un alif dans idhhabnânni ?",
+          "answer": "Pour séparer les nûn : sans lui, le nûn des femmes se tiendrait directement devant le nûn d'insistance redoublé, trois nûn à la suite."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "À quels verbes s'attachent les nûn d'insistance ?",
+          "options": [
+            "Seulement au passé",
+            "À tout verbe",
+            "Seulement au passif",
+            "Ni au passé ni au présent"
+          ],
+          "explanation": "À l'impératif, à l'interdiction et au mudâri' du futur."
+        },
+        {
+          "prompt": "Le nûn lourd a une kasra dans…",
+          "options": [
+            "le duel et le pluriel des femmes",
+            "le singulier",
+            "le pluriel des hommes",
+            "toutes les formes"
+          ],
+          "explanation": "Idhhabânni, idhhabnânni ; ailleurs il a une fatha."
+        },
+        {
+          "prompt": "Pourquoi le nûn léger ne s'emploie-t-il pas au duel ?",
+          "options": [
+            "Il est trop lourd",
+            "Deux sukûn se rencontreraient hors de leur limite",
+            "Il veut dire le passé",
+            "Le duel n'a pas de nûn"
+          ],
+          "explanation": "Seule une voyelle longue avant une lettre assimilée est permise, comme dans dâbbatin."
+        },
+        {
+          "prompt": "Qu'est-ce qui est supprimé de tansurûna devant le nûn lourd ?",
+          "options": [
+            "Seulement le wâw",
+            "Seulement le nûn",
+            "Le nûn et le wâw",
+            "Rien"
+          ],
+          "explanation": "Comme au jazm, le nûn part, puis le wâw à cause des deux sukûn : li-yansurunna, unsurunna."
+        },
+        {
+          "prompt": "Unsurinna se dit à…",
+          "options": [
+            "un homme",
+            "des hommes",
+            "deux",
+            "une femme"
+          ],
+          "explanation": "La kasra tient lieu du yâ' supprimé de unsurî."
+        },
+        {
+          "prompt": "Dans immâ tarayinna (Coran 19:26), le yâ' est…",
+          "options": [
+            "gardé avec une kasra, après une fatha",
+            "supprimé",
+            "changé en alif",
+            "un yâ' radical au sukûn"
+          ],
+          "explanation": "La lettre qui le précède a une fatha ; il prend donc une voyelle au lieu de tomber."
+        },
+        {
+          "prompt": "Le nûn léger est…",
+          "options": [
+            "avec fatha",
+            "quiescent",
+            "avec kasra",
+            "redoublé"
+          ],
+          "explanation": "Le nûn léger a un sukûn : unsuran, unsurun, unsurin ; le lourd est redoublé."
+        }
+      ],
+      "diagram": {
+        "caption": "L'impératif à celui qui est présent avec les nûn d'insistance (al-'Izzî, p. 141)",
+        "labels": {
+          "The command to the one present with the nūns of emphasis (al-ʿIzzī, p. 141)": "L'impératif à celui qui est présent avec les nûn d'insistance (al-'Izzî, p. 141)",
+          "To": "À",
+          "Heavy nūn": "Nûn lourd",
+          "Light nūn": "Nûn léger",
+          "one man": "un homme",
+          "two": "deux",
+          "men": "des hommes",
+          "one woman": "une femme",
+          "women": "des femmes"
+        }
+      },
+      "text": [
+        "Deux nûn d'insistance s'attachent au verbe autre que le passé et le présent : un léger avec sukûn, et un lourd avec fatha, sauf dans ce qui lui est propre, c'est-à-dire le verbe des deux et du groupe des femmes : dans ces deux, il a une kasra. Tu dis idhhabânni « allez, vous deux ! » pour les deux, et idhhabnânni « allez, vous les femmes ! » pour les femmes : tu mets l'alif après le nûn du pluriel féminin, pour séparer les nûn.",
+        "On ne leur attache pas le léger, parce qu'il réunirait deux sukûn hors de leur limite ; car deux sukûn ne peuvent se rencontrer que lorsque le premier est une lettre de prolongation et le second est assimilé, comme dâbbatin « un animal ».",
+        "Avec eux, tu supprimes du verbe le nûn dans les cinq formes (al-amthila al-khamsa), comme on le supprime avec la particule du jazm ; ce sont yaf'alâni, taf'alâni, yaf'alûna, taf'alûna et taf'alîna. Tu supprimes aussi le wâw de yaf'alûna et taf'alûna et le yâ' de taf'alîna, sauf quand la lettre qui les précède a une fatha, comme lâ takhshawunna « ne craignez pas ! », la-tublawunna « vous serez assurément éprouvés » et immâ tarayinna « si tu vois ».",
+        "Tu donnes à la dernière lettre du verbe une fatha quand c'est le verbe du singulier et de l'absente au singulier, une damma quand c'est le verbe du groupe des hommes, et une kasra quand c'est le verbe de la femme à qui l'on parle. Tu dis donc, dans l'ordre à l'absent, renforcé par le nûn lourd : li-yansuranna li-yansurânni li-yansurunna li-tansuranna li-tansurânni li-yansurnânni « qu'il aide assurément », etc. ; et avec le léger : li-yansuran li-yansurun li-tansuran.",
+        "Et dans l'ordre à celui qui est présent, renforcé par le nûn lourd : unsuranna unsurânni unsurunna unsurinna unsurânni unsurnânni « aide donc ! » ; et avec le léger : unsuran unsurun unsurin. Mesure ses semblables sur cela."
+      ]
+    },
+    "12": {
+      "title": "Le participe actif et le participe passif",
+      "body": [
+        "Du trilitère nu, le participe actif vient « le plus souvent » sur fâ'il : nâsir nâsirâni nâsirûna, « aide » ; le participe passif sur maf'ûl : mansûr mansûrâni mansûrûna mansûra mansûratâni mansûrât, avec en outre un pluriel brisé, manâsir. « Le plus souvent », parce que les adjectifs de fa'ula et de fa'ila ont d'autres schèmes, que le Maqsûd énumérait.",
+        "Un verbe intransitif qui atteint son objet par une préposition forme son participe passif d'une manière particulière : mamrûrun bi-hi, mamrûrun bi-himâ, mamrûrun bi-him, mamrûrun bi-hâ, mamrûrun bi-himâ, mamrûrun bi-hinna, « près de qui l'on est passé ». Le participe reste au masculin singulier ; c'est le pronom après la préposition qui se met au duel, au pluriel et au féminin. Celui près de qui l'on passe n'est pas le sujet de mamrûr ; il est atteint par bi-.",
+        "Fa'îl a parfois le sens de celui qui fait, comme al-rahîm, « le miséricordieux », et parfois de celui qui subit, comme al-qatîl, « le tué », au sens de al-maqtûl. Un seul schème, deux sens : le sens s'apprend mot par mot.",
+        "Pour tout verbe de plus de trois lettres, il y a une seule règle : prenez le mudâri', mettez un mîm avec damma à la place du préfixe, et donnez à la lettre qui précède la dernière une kasra pour celui qui fait et une fatha pour celui qui subit : mukrim et mukram, mudahrij et mudahraj, mustakhrij et mustakhraj. C'est de nouveau le mudâri' de la leçon 7 : yukrimu donne mukrim, yukramu donne mukram.",
+        "« Parfois, la forme du participe actif et du participe passif est la même » : muhâbb, mujâb, mukhtâr, mudtarr, mu'tadd, munsabb fîhi, mutahâbb, mutahâbb 'anhu ; « la forme sous-jacente diffère ». Dans mukhtâr, le yâ' est devenu alif ; la kasra ou la fatha qui le précédait a donc disparu ; les commentateurs restituent mukhtayir pour celui qui choisit et mukhtayar pour celui qui est choisi. Là où la lettre qui précède la dernière est redoublée ou est devenue alif, la voyelle qui distingue celui qui fait de celui qui subit ne se voit pas, et seul le sens décide."
+      ],
+      "terms": [
+        "le participe actif : celui qui fait",
+        "le participe passif : celui qui subit",
+        "fa'îl au sens passif, comme qatîl",
+        "la forme sous-jacente, non entendue mais restituée"
+      ],
+      "examples": [
+        "le participe passif du trilitère nu",
+        "le participe inchangé, le pronom changé",
+        "al-rahîm, fa'îl pour celui qui fait ; al-qatîl, fa'îl pour celui qui subit",
+        "kasra pour celui qui fait, fatha pour celui qui subit",
+        "une seule forme pour les deux participes"
+      ],
+      "tasks": [
+        {
+          "prompt": "Formez le participe actif et le participe passif de istakhraja et expliquez la règle.",
+          "answer": "Mustakhrij et mustakhraj. Prenez yastakhriju, mettez un mîm avec damma pour le préfixe, et donnez à la lettre qui précède la dernière une kasra pour celui qui fait, une fatha pour celui qui subit."
+        },
+        {
+          "prompt": "Pourquoi dit-on mamrûrun bi-him, et non mamrûrûna bi-him ?",
+          "answer": "Le verbe n'atteint ceux près de qui l'on passe que par la préposition. Le participe n'est pas leur qualificatif ; c'est le pronom après bi- qui se met au pluriel."
+        },
+        {
+          "prompt": "Mukhtâr peut être celui qui fait ou celui qui subit. Comment est-ce possible ?",
+          "answer": "Ses formes sous-jacentes diffèrent, mukhtayir pour celui qui fait et mukhtayar pour celui qui subit ; le yâ' est devenu alif et a emporté la voyelle qui les distingue ; les deux se prononcent donc de même."
+        },
+        {
+          "prompt": "Al-rahîm et al-qatîl sont tous deux sur fa'îl. Quelle est la différence ?",
+          "answer": "Al-rahîm a le sens de celui qui fait, celui qui fait miséricorde ; al-qatîl, le sens de celui qui subit, celui qui est tué, al-maqtûl."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le participe actif du trilitère nu vient le plus souvent sur…",
+          "options": [
+            "fâ'il",
+            "maf'ûl",
+            "muf'il",
+            "fa'îl"
+          ],
+          "explanation": "Nâsir, nâsirâni, nâsirûna ; « le plus souvent », parce que certains adjectifs prennent d'autres schèmes."
+        },
+        {
+          "prompt": "Quel est le pluriel brisé de mansûr que donne le livre ?",
+          "options": [
+            "Mansûrât",
+            "Manâsir",
+            "Nussâr",
+            "Ansâr"
+          ],
+          "explanation": "À côté du pluriel sain mansûrât, le livre donne le pluriel brisé manâsir."
+        },
+        {
+          "prompt": "Dans mamrûrun bi-hinna, qu'est-ce qui marque le pluriel féminin ?",
+          "options": [
+            "Le participe",
+            "Le verbe",
+            "Le pronom après bi-",
+            "Rien"
+          ],
+          "explanation": "Le participe reste au masculin singulier."
+        },
+        {
+          "prompt": "Al-qatîl veut dire…",
+          "options": [
+            "le meurtrier",
+            "le fait de tuer",
+            "le lieu du meurtre",
+            "le tué"
+          ],
+          "explanation": "Fa'îl au sens de celui qui subit : al-maqtûl."
+        },
+        {
+          "prompt": "Au-delà de trois lettres, le participe prend le mudâri' et…",
+          "options": [
+            "met un mîm avec damma pour le préfixe",
+            "ajoute un tâ'",
+            "supprime la dernière lettre",
+            "redouble le 'ayn"
+          ],
+          "explanation": "Puis kasra ou fatha avant la dernière."
+        },
+        {
+          "prompt": "Mudahraj est…",
+          "options": [
+            "le participe actif",
+            "le participe passif",
+            "le masdar",
+            "l'impératif"
+          ],
+          "explanation": "Mudahraj a une fatha avant la dernière lettre, la marque de celui qui subit ; mudahrij est celui qui fait."
+        },
+        {
+          "prompt": "Pourquoi mukhtâr et mu'tadd servent-ils pour les deux participes ?",
+          "options": [
+            "Ce sont des noms",
+            "Ce sont des pluriels irréguliers",
+            "La voyelle avant la dernière ne se voit pas",
+            "Ce sont des verbes nus"
+          ],
+          "explanation": "Un alif ou une lettre assimilée cache la kasra ou la fatha ; les formes sous-jacentes diffèrent."
+        }
+      ],
+      "diagram": {
+        "caption": "Les participes du verbe sâlim",
+        "labels": {
+          "Participles of the sound verb": "Les participes du verbe sâlim",
+          "Verb": "Verbe",
+          "Muḍāriʿ, active / passive": "Mudâri', actif / passif",
+          "Doer": "Celui qui fait",
+          "One done to": "Celui qui subit"
+        }
+      },
+      "text": [
+        "Quant au participe actif (ism al-fâ'il) et au participe passif (ism al-maf'ûl) du trilitère nu : le plus souvent, son participe actif vient sur la mesure fâ'ilin ; tu dis nâsirun nâsirâni nâsirûna « un aide, deux aides, des aides » jusqu'à la fin ; et son participe passif sur la mesure maf'ûlin ; tu dis mansûrun mansûrâni mansûrûna mansûratun mansûratâni mansûrâtun wa-manâsiru « aidé ».",
+        "Dans l'intransitif, tu dis mamrûrun bi-hi, mamrûrun bi-himâ, mamrûrun bi-him, mamrûrun bi-hâ, mamrûrun bi-himâ, mamrûrun bi-hinna « près de qui l'on est passé, près d'eux deux, près d'eux, près d'elle, près d'elles deux, près d'elles » : dans ce qui est rendu transitif par une préposition, tu mets le pronom au duel et au pluriel, au masculin et au féminin, non le participe passif. Fa'îlun vient parfois au sens de celui qui fait, comme al-rahîmi « le miséricordieux », et au sens de celui qui subit, comme al-qatîli « le tué », au sens de al-maqtûli « celui qui est tué ».",
+        "Quant à ce qui a plus de trois lettres, la règle est que tu mets dans son mudâri' un mîm avec damma à la place de la lettre du mudâri', et que tu donnes à la lettre qui précède la dernière une kasra au participe actif et une fatha au participe passif, pour les distinguer, comme mukrimin « celui qui honore » et mukramin « celui qui est honoré », mudahrijin et mudahrajin, mustakhrijin et mustakhrajin.",
+        "Parfois, la forme du participe actif et du participe passif est la même en certains endroits, comme muhâbbin, mujâbin, mukhtârin, mudtarrin, mu'taddin, munsabbin fîhi, mutahâbbin et mutahâbbin 'anhu ; la forme sous-jacente (taqdîr) diffère [mukhtayir pour celui qui fait, mukhtayar pour celui qui subit]."
+      ]
+    },
+    "13": {
+      "title": "Le verbe géminé",
+      "body": [
+        "Le verbe géminé « s'appelle aussi le sourd (al-asamm), à cause de sa dureté » : les deux lettres semblables sont pressées en une seule. Dans le trilitère, nu ou augmenté, c'est le verbe dont le 'ayn et le lâm sont d'une seule espèce : radda, « renvoyer », et a'adda, « préparer », dont les origines sont radada et a'dada ; « on a donné au premier dâl un sukûn et on l'a fait entrer dans le second ».",
+        "Dans le quadrilitère nu, c'est le verbe dont le fâ' et le premier lâm sont d'une seule espèce, et dont le 'ayn et le second lâm sont d'une seule espèce : zalzala zilzâlan, « secouer ». On l'appelle aussi « le concordant » (al-mutâbiq) : ses deux moitiés concordent, zal-zal.",
+        "Pourquoi le verbe géminé est-il mis parmi les verbes faibles, alors que ses lettres sont saines ? « Parce que la lettre redoublée est sujette à la substitution », comme amlaytu pour amlaltu, « j'ai dicté », un lâm changé en yâ' ; « et à la suppression », comme mastu et zaltu, dits avec fatha ou kasra sur la première lettre, et ahastu, pour masistu, « j'ai touché », zaliltu, « je suis resté », et ahsastu, « j'ai perçu ». La substitution et la suppression sont ce qui arrive aux lettres faibles ; le verbe géminé partage donc leur chapitre.",
+        "Sachez où se placent ces formes. Masistu, zaliltu, ahsastu sont les formes régulières ; mastu, zaltu, ahastu sont ce que les Arabes ont dit aussi, et al-'Izzî les cite pour montrer que des lettres redoublées peuvent tomber. Ce ne sont pas des modèles à imiter pour tout verbe géminé.",
+        "Un piège : comptez correctement les radicales d'un verbe géminé. Radda en a trois, r-d-d, bien qu'il s'écrive avec deux lettres et une shadda ; zalzala en a quatre, z-l-z-l. La shadda tient lieu de deux lettres : la première quiescente, la seconde voyellée."
+      ],
+      "terms": [
+        "le verbe géminé, appelé le sourd",
+        "le concordant : le quadrilitère géminé, comme zalzala",
+        "la substitution et la suppression"
+      ],
+      "examples": [
+        "radada, a'dada : le premier dâl rendu quiescent et assimilé",
+        "zalzala zilzâlan, « secouer » : le quadrilitère concordant",
+        "amlaytu pour amlaltu : la substitution",
+        "mastu, zaltu pour masistu, zaliltu : la suppression"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les origines de radda et de a'adda et dites ce qui s'est passé.",
+          "answer": "Radada et a'dada. Le premier dâl a été rendu quiescent et est entré dans le second : un seul dâl avec une shadda."
+        },
+        {
+          "prompt": "Pourquoi zalzala s'appelle-t-il al-mutâbiq ?",
+          "answer": "Son fâ' et son premier lâm sont la même lettre (zây), et son 'ayn et son second lâm sont la même (lâm) : ses deux moitiés concordent."
+        },
+        {
+          "prompt": "Pourquoi al-'Izzî traite-t-il le verbe géminé avec les verbes faibles ?",
+          "answer": "Parce que la lettre redoublée subit ce que subissent les lettres faibles : la substitution, comme amlaytu pour amlaltu, et la suppression, comme mastu, zaltu, ahastu pour masistu, zaliltu, ahsastu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pourquoi le verbe géminé s'appelle-t-il al-asamm ?",
+          "options": [
+            "Parce qu'il n'a pas de voyelles",
+            "Pour sa dureté",
+            "Parce qu'il est rare",
+            "Parce qu'il est faible"
+          ],
+          "explanation": "« Li-shiddatihi » : les deux lettres semblables sont pressées en une seule."
+        },
+        {
+          "prompt": "Dans le trilitère, le verbe géminé a…",
+          "options": [
+            "un fâ' et un 'ayn d'une seule espèce",
+            "une lettre faible",
+            "un 'ayn et un lâm d'une seule espèce",
+            "une hamza"
+          ],
+          "explanation": "Radda de radada, a'adda de a'dada."
+        },
+        {
+          "prompt": "Quelle est l'origine de a'adda ?",
+          "options": [
+            "'Adada",
+            "A'adada",
+            "'Addada",
+            "A'dada"
+          ],
+          "explanation": "Af'ala sur '-d-d ; le premier dâl s'est assimilé au second."
+        },
+        {
+          "prompt": "Zalzala est…",
+          "options": [
+            "un quadrilitère géminé",
+            "un trilitère géminé",
+            "un trilitère augmenté",
+            "un verbe faible"
+          ],
+          "explanation": "Fâ' et premier lâm semblables, 'ayn et second lâm semblables."
+        },
+        {
+          "prompt": "Amlaytu pour amlaltu montre…",
+          "options": [
+            "la suppression",
+            "la substitution",
+            "l'assimilation",
+            "une hamza"
+          ],
+          "explanation": "Le second lâm changé en yâ'."
+        },
+        {
+          "prompt": "De quoi zaltu est-il l'abrègement ?",
+          "options": [
+            "Zalaltu",
+            "Zallaltu",
+            "Zaliltu",
+            "Azlaltu"
+          ],
+          "explanation": "Une lettre redoublée supprimée, comme dans mastu pour masistu."
+        },
+        {
+          "prompt": "Combien de radicales a radda ?",
+          "options": [
+            "Deux",
+            "Quatre",
+            "Une",
+            "Trois"
+          ],
+          "explanation": "R-d-d : la shadda tient lieu de deux dâl."
+        }
+      ],
+      "diagram": {
+        "caption": "Ce qui arrive à la lettre redoublée (al-'Izzî, p. 143–144)",
+        "labels": {
+          "What happens to the doubled letter (al-ʿIzzī, pp. 143–144)": "Ce qui arrive à la lettre redoublée (al-'Izzî, p. 143–144)",
+          "Said": "Dit",
+          "Regular form": "Forme régulière",
+          "Change": "Changement",
+          "merging": "assimilation",
+          "substitution": "substitution",
+          "deletion": "suppression"
+        }
+      },
+      "text": [
+        "On l'appelle aussi le sourd (al-asamm), à cause de sa dureté. Dans le trilitère nu et augmenté, c'est le verbe dont le 'ayn et le lâm sont d'une seule espèce, comme radda « renvoyer » et a'adda « préparer », car leurs origines sont radada et a'dada : on a donné au premier dâl un sukûn et on l'a fait entrer dans le second. Dans le quadrilitère nu, c'est le verbe dont le fâ' et le premier lâm sont d'une seule espèce, et de même son 'ayn et son second lâm sont d'une seule espèce ; on l'appelle aussi le concordant (al-mutâbiq), comme zalzala zilzâlan « secouer ».",
+        "Le verbe géminé n'a été joint aux verbes faibles que parce que la lettre redoublée est sujette à la substitution, comme quand ils disent amlaytu au sens de amlaltu « j'ai dicté », et à la suppression, comme ils ont dit mastu et zaltu, avec fatha et kasra sur le fâ', et ahastu, pour masistu « j'ai touché », zaliltu « je suis resté » et ahsastu « j'ai perçu »."
+      ]
+    },
+    "14": {
+      "title": "L'assimilation : obligatoire et impossible",
+      "body": [
+        "L'assimilation (idghâm) « consiste à donner un sukûn à la première [lettre] et à la faire entrer dans la seconde ; la première s'appelle l'assimilée (mudgham) et la seconde celle à laquelle on assimile (mudgham fîhi) ». Dans madda, le premier dâl est le mudgham, le second le mudgham fîhi, et la shadda montre les deux.",
+        "Elle est obligatoire dans des verbes comme madda yamuddu, « étendre », a'adda yu'iddu, inqadda yanqaddu, i'tadda ya'taddu, iswadda yaswaddu, iswâdda yaswâddu, ista'adda yasta'iddu, itma'anna yatma'innu et tamâdda yatamâddu : nus et augmentés pareillement. Dans yamuddu, de yamdudu, la voyelle du premier dâl est revenue au mîm, comme l'expliquait le Maqsûd, et les deux dâl se sont rencontrés.",
+        "Elle est obligatoire aussi quand ces verbes sont construits pour celui qui subit, mudda yumaddu ; dans un masdar comme madd ; et quand l'alif, le wâw ou le yâ' du pronom est joint au verbe : maddâ, maddû, muddî. Dans tous ces cas, le second dâl a une voyelle.",
+        "Elle est impossible dans madadna, madadnâ, madadta et jusqu'à madadtunna, et dans yamdudna, tamdudna, umdudna et lâ tamdudna. Chacune de ces formes se termine par un pronom qui commence par une consonne (-na, -nâ, -ta, -tunna), devant lequel la dernière lettre du verbe est toujours quiescente. Le second dâl n'a pas de voyelle, et rien ne peut s'assimiler à une lettre quiescente.",
+        "Une seule question règle donc tous les cas : la seconde des deux lettres semblables a-t-elle une voyelle ? Si oui, elles s'assimilent ; si son sukûn est imposé par le pronom, elles restent séparées. La leçon suivante aborde le troisième cas, où le sukûn vient du jazm et où les deux sont permis."
+      ],
+      "terms": [
+        "l'assimilation de la première de deux lettres semblables à la seconde",
+        "la lettre assimilée et celle à laquelle on assimile",
+        "l'assimilation obligatoire, impossible"
+      ],
+      "examples": [
+        "l'assimilation obligatoire, au nu et à l'augmenté",
+        "mudda yumaddu : le passif, assimilé",
+        "avec l'alif, le wâw et le yâ' du pronom : assimilé",
+        "l'assimilation impossible : le second dâl quiescent"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dans madda, quelle lettre est le mudgham et laquelle le mudgham fîhi ?",
+          "answer": "Le premier dâl, rendu quiescent, est le mudgham ; le second, qui le reçoit, est le mudgham fîhi."
+        },
+        {
+          "prompt": "Pourquoi dit-on madadtu, avec les deux dâl séparés ?",
+          "answer": "Devant le pronom -tu, la dernière lettre du verbe est quiescente. L'assimilation exige que la seconde lettre ait une voyelle ; ici elle n'en a pas ; l'assimilation est donc impossible."
+        },
+        {
+          "prompt": "Classez en « assimilé » et « non assimilé » : maddû, madadnâ, yumaddu, yamdudna, muddî.",
+          "answer": "Assimilé : maddû, yumaddu, muddî (le second dâl a une voyelle). Non assimilé : madadnâ, yamdudna (le second dâl est quiescent devant le pronom)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que l'idghâm ?",
+          "options": [
+            "Supprimer une lettre",
+            "Changer une lettre en une autre",
+            "Rendre la première lettre quiescente et la faire entrer dans la seconde",
+            "Ajouter une lettre"
+          ],
+          "explanation": "La première est le mudgham, la seconde le mudgham fîhi."
+        },
+        {
+          "prompt": "L'assimilation est obligatoire dans…",
+          "options": [
+            "madadna",
+            "yamdudna",
+            "madadtu",
+            "yamuddu"
+          ],
+          "explanation": "Dans yamuddu, le second dâl a une voyelle ; l'assimilation est donc obligatoire."
+        },
+        {
+          "prompt": "L'assimilation est impossible dans…",
+          "options": [
+            "madadnâ",
+            "maddâ",
+            "muddî",
+            "yumaddu"
+          ],
+          "explanation": "Le second dâl est quiescent devant -nâ."
+        },
+        {
+          "prompt": "Pourquoi maddû est-il assimilé ?",
+          "options": [
+            "Il est au pluriel",
+            "Le second dâl a une voyelle devant le wâw",
+            "Il est passif",
+            "Il n'est pas assimilé"
+          ],
+          "explanation": "Un pronom qui est une voyelle longue laisse le dâl voyellé."
+        },
+        {
+          "prompt": "Le passif de madda est…",
+          "options": [
+            "Mudida",
+            "Mumdida",
+            "Mudda",
+            "Umdida"
+          ],
+          "explanation": "Mudda yumaddu : assimilé comme l'actif."
+        },
+        {
+          "prompt": "Quel verbe n'est PAS parmi les exemples du livre d'assimilation obligatoire ?",
+          "options": [
+            "Iswadda",
+            "Itma'anna",
+            "Tamâdda",
+            "Zalzala"
+          ],
+          "explanation": "Zalzala est le quadrilitère concordant, dont les lettres semblables ne sont pas contiguës."
+        },
+        {
+          "prompt": "Qu'est-ce qui décide si deux lettres semblables s'assimilent ?",
+          "options": [
+            "Si la seconde a une voyelle",
+            "Si le verbe est nu",
+            "La voyelle de la première",
+            "Le sens"
+          ],
+          "explanation": "Voyellée : elles s'assimilent ; quiescente par le pronom : séparées."
+        }
+      ],
+      "diagram": {
+        "caption": "Quand les deux dâl de madda s'assimilent (al-'Izzî, p. 144–145)",
+        "labels": {
+          "When the two dāls of madda merge (al-ʿIzzī, pp. 144–145)": "Quand les deux dâl de madda s'assimilent (al-'Izzî, p. 144–145)",
+          "Forms": "Formes",
+          "Merging": "Assimilation",
+          "Second dāl": "Second dâl",
+          "necessary": "obligatoire",
+          "vowelled": "voyellé",
+          "vowelled before the pronoun": "voyellé devant le pronom",
+          "impossible": "impossible",
+          "quiescent before the pronoun": "quiescent devant le pronom"
+        }
+      },
+      "text": [
+        "Le verbe géminé est sujet à l'assimilation (idghâm), qui consiste à donner un sukûn à la première [lettre] et à la faire entrer dans la seconde ; la première s'appelle l'assimilée (mudgham) et la seconde celle à laquelle on assimile (mudgham fîhi). Cela est obligatoire dans des verbes comme madda yamuddu « étendre », a'adda yu'iddu « préparer », inqadda yanqaddu « se fendre en long », i'tadda ya'taddu « compter », iswadda yaswaddu « noircir », iswâdda yaswâddu « devenir d'un noir profond », ista'adda yasta'iddu « se préparer », itma'anna yatma'innu « être en repos » et tamâdda yatamâddu « se prolonger ».",
+        "De même ces verbes quand tu les construis pour celui qui subit, comme mudda yumaddu, et de même leurs semblables ; et dans ce qui est comme maddin, comme masdar ; et de même quand l'alif, le wâw ou le yâ' du pronom est joint au verbe, comme maddâ « eux deux ont étendu », maddû « ils ont étendu » et muddî « étends ! (f.) ». Elle est impossible dans ce qui est comme madadna « elles ont étendu », madadnâ « nous avons étendu », et madadta « tu as étendu » jusqu'à madadtunna, et yamdudna, tamdudna, umdudna et lâ tamdudna."
+      ]
+    },
+    "15": {
+      "title": "L'assimilation permise : le jazm et l'impératif",
+      "body": [
+        "L'assimilation est permise, non exigée, « quand la particule du jazm se place devant le verbe du singulier ». Si le 'ayn du mudâri' a une kasra, comme yafirru, « il fuit », ou une fatha, comme ya'addu, « il mord », tu dis lam yafirra et lam ya'adda, avec fatha ou kasra sur la dernière lettre, ou tu défais l'assimilation : lam yafrir, lam ya'dad. De même lam yaqsha'irra, lam yahmarra, lam yahmârra.",
+        "« Si le 'ayn a une damma, les trois voyelles sont permises avec l'assimilation, et la dissolution aussi » : lam yamudda, avec fatha, damma ou kasra sur le dâl, et lam yamdud. La damma est permise ici et non avec yafirru, parce qu'elle suit la damma du 'ayn. La fatha est la voyelle la plus légère ; la kasra est la voyelle que prend une lettre quiescente quand il faut la mouvoir.",
+        "Pourquoi les deux sont-ils permis ? Le jazm rend la dernière lettre quiescente, comme le faisait le pronom dans madadtu ; mais ce sukûn ne fait pas partie du mot, il vient d'une particule ; la lettre peut donc être mue pour permettre l'assimilation. Les commentateurs ajoutent que la dissolution est le parler du Hijâz et l'assimilation celui de Tamîm ; le Coran a les deux.",
+        "« Telle est aussi la règle de l'impératif » : firra et 'adda, avec kasra ou fatha sur la dernière lettre, ou ifrir et i'dad ; mudda avec l'une des trois voyelles sur le dâl, ou umdud. L'impératif, construit sur le jazm, le suit exactement.",
+        "Les participes : mâddun mâddâni mâddûna mâddatun mâddatâni mâddâtun, avec le pluriel brisé mawâddu, tous assimilés, car le second dâl a toujours une voyelle ; et le participe passif mamdûd, « comme mansûr » : dans maf'ûl, le û long se tient entre les deux dâl ; ils ne se rencontrent donc jamais."
+      ],
+      "terms": [
+        "l'assimilation permise, avec la dissolution comme autre choix",
+        "la dissolution de l'assimilation",
+        "les trois voyelles permises sur le dâl de lam yamudda"
+      ],
+      "examples": [
+        "assimilé, avec fatha ou kasra ; ou défait",
+        "lam yamudda avec n'importe quelle voyelle, ou lam yamdud",
+        "l'impératif, assimilé ou défait",
+        "le participe actif, assimilé ; le passif, séparé"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez toutes les formes au jazm que le livre permet pour yafirru et pour yamuddu.",
+          "answer": "Yafirru : lam yafirra ou lam yafirri (fatha ou kasra), ou lam yafrir. Yamuddu : lam yamudda, lam yamuddu ou lam yamuddi (n'importe laquelle des trois voyelles), ou lam yamdud."
+        },
+        {
+          "prompt": "Pourquoi la dernière lettre de lam yamudd- peut-elle prendre une damma, mais non celle de lam yafirr- ?",
+          "answer": "La damma est permise pour suivre la damma du 'ayn ; yamuddu l'a, yafirru a une kasra. La fatha (la plus légère) et la kasra (la voyelle d'une lettre quiescente mue) sont permises dans les deux."
+        },
+        {
+          "prompt": "Donnez le participe actif de madda sous ses six formes, avec son pluriel brisé, et le participe passif.",
+          "answer": "Mâddun, mâddâni, mâddûna, mâddatun, mâddatâni, mâddâtun, et mawâddu ; le participe passif mamdûdun, comme mansûr."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quand l'assimilation est-elle permise sans être exigée ?",
+          "options": [
+            "Au passé",
+            "Devant le pronom -tu",
+            "Au passif",
+            "Quand le jazm porte sur le singulier"
+          ],
+          "explanation": "Avec le jazm sur le singulier, les deux sont permis : lam yafirra assimilé ou lam yafrir défait."
+        },
+        {
+          "prompt": "Quelles voyelles lam ya'add- peut-il prendre sur sa dernière lettre ?",
+          "options": [
+            "Fatha ou kasra",
+            "Seulement la damma",
+            "Les trois",
+            "Aucune"
+          ],
+          "explanation": "Son 'ayn a une fatha ; la damma qui suit n'est donc pas possible."
+        },
+        {
+          "prompt": "Lam yamdud est…",
+          "options": [
+            "une erreur",
+            "l'assimilation défaite",
+            "le passif",
+            "le passé"
+          ],
+          "explanation": "Lam yamdud défait l'assimilation ; c'est permis à côté de lam yamudda."
+        },
+        {
+          "prompt": "Pourquoi une damma est-elle permise dans lam yamuddu ?",
+          "options": [
+            "C'est la plus légère",
+            "Elle marque le pluriel",
+            "Elle suit la damma du 'ayn",
+            "C'est le signe du raf'"
+          ],
+          "explanation": "La damma peut suivre la damma du 'ayn dans yamuddu (taba'an li-l-'ayn)."
+        },
+        {
+          "prompt": "L'impératif de farra sans assimilation est…",
+          "options": [
+            "Furrar",
+            "Afrir",
+            "Farrir",
+            "Ifrir"
+          ],
+          "explanation": "Firra ou firri assimilé, ifrir défait."
+        },
+        {
+          "prompt": "Le pluriel brisé de mâdd dans le livre est…",
+          "options": [
+            "Mawâdd",
+            "Muddâd",
+            "Amdâd",
+            "Mudûd"
+          ],
+          "explanation": "À côté des pluriels sains mâddûna et mâddâtun, le livre donne le pluriel brisé mawâddu."
+        },
+        {
+          "prompt": "Pourquoi les dâl de mamdûd ne s'assimilent-ils jamais ?",
+          "options": [
+            "Il est passif",
+            "Le û long se tient entre eux",
+            "C'est un nom",
+            "Il est irrégulier"
+          ],
+          "explanation": "Dans maf'ûl, les deux dâl ne sont pas l'un à côté de l'autre."
+        }
+      ],
+      "diagram": {
+        "caption": "Le jazm et l'impératif du verbe géminé (al-'Izzî, p. 145–147)",
+        "labels": {
+          "The jussive and the command of the doubled verb (al-ʿIzzī, pp. 145–147)": "Le jazm et l'impératif du verbe géminé (al-'Izzî, p. 145–147)",
+          "Muḍāriʿ": "Mudâri'",
+          "ʿAyn": "'Ayn",
+          "Jussive": "Jazm",
+          "Command": "Impératif",
+          "kasra": "kasra",
+          "fatḥa": "fatha",
+          "ḍamma": "damma"
+        }
+      },
+      "text": [
+        "Elle est permise quand la particule du jazm se place devant le verbe du singulier. S'il a une kasra sur le 'ayn, comme yafirru « il fuit », ou une fatha, comme ya'addu « il mord », tu dis lam yafirra et lam ya'adda, avec fatha et kasra sur le lâm [du verbe], et lam yafrir et lam ya'dad, en défaisant l'assimilation ; telle est la règle de lam yaqsha'irra, lam yahmarra et lam yahmârra. Si le 'ayn a une damma, les trois voyelles sont permises avec l'assimilation, et la dissolution aussi : tu dis lam yamudda, avec n'importe laquelle des voyelles sur le dâl, et lam yamdud.",
+        "Telle est aussi la règle de l'impératif : tu dis firra et 'adda, avec kasra et fatha sur le lâm, et ifrir et i'dad ; et mudda, avec n'importe laquelle des voyelles sur le dâl, et umdud. Au participe actif, tu dis mâddun mâddâni mâddûna mâddatun mâddatâni mâddâtun wa-mawâddu, et son participe passif est mamdûdun, comme mansûrin."
+      ]
+    },
+    "16": {
+      "title": "Le verbe faible, et le mithâl à wâw",
+      "body": [
+        "Le verbe faible est « le verbe dont l'une des radicales est une lettre faible » : le wâw, le yâ' et l'alif, appelées les lettres de prolongation et de douceur. L'alif n'est jamais une radicale par lui-même : dans un verbe, il « est changé du wâw ou du yâ' », comme dans qâla et ramâ. Le livre compte sept sortes selon la place de la lettre faible, et les prend tour à tour.",
+        "La première est le verbe faible au fâ', appelé le mithâl, « le semblable », « parce qu'il ressemble au verbe sain en ce qu'il porte les voyelles » : sa première lettre prend les voyelles comme une lettre saine. Son wâw « est supprimé du mudâri' du verbe qui est sur yaf'ilu, et de son masdar sur fi'la, et il reste dans toutes ses autres formes » : wa'ada ya'idu 'idatan wa-wa'dan, « promettre », wâ'id, maw'ûd, l'impératif 'id, l'interdiction lâ ta'id ; et wamiqa yamiqu, « aimer ».",
+        "La cause est la kasra qui suit le wâw ; ainsi, « quand la kasra de la lettre qui le suit est ôtée, le wâw supprimé est ramené » : lam yû'ad, « on ne lui a pas promis », au passif. Avec yaf'alu, le wâw reste : wajila yawjalu, « avoir peur », impératif îjal ; là, le wâw quiescent après la kasra de la hamza devient un yâ'. Dans la prononciation, il revient après une damma : yâ Zaydu ûjal, « prononcé avec le wâw et écrit avec le yâ' ». Avec yaf'ulu, il reste aussi : wajuha yawjuhu, « être éminent », ûjuh, lâ tawjuh.",
+        "Et yata'u, yasa'u, yada'u, yaqa'u et yada'u, qui ont une fatha et perdent pourtant le wâw ? « Ils sont à l'origine yaf'ilu, avec kasra, et ont reçu la fatha à cause de la lettre gutturale » : le wâw est tombé tant que la kasra était là. Yadharu, « il laisse », n'a pas de gutturale et a perdu son wâw « parce qu'il a le sens de yada'u » ; et les Arabes ont laissé tomber en désuétude le passé des deux.",
+        "Le Maqsûd énumérait trois classes dans lesquelles le wâw tombe ; al-'Izzî donne une seule cause, la kasra, et explique par elle les cas à fatha. Sa dernière phrase est un outil : « la suppression du fâ' au futur est une preuve que c'est un verbe à wâw ». Rencontrez-vous yada'u sans passé en vue, la première lettre manquante vous dit que la racine commence par un wâw."
+      ],
+      "terms": [
+        "les lettres faibles : wâw, yâ', alif",
+        "le verbe faible à son fâ'",
+        "les lettres de prolongation et de douceur",
+        "ils ont laissé tomber une forme en désuétude, comme le passé de yada'u"
+      ],
+      "examples": [
+        "le wâw supprimé seulement au mudâri' et au masdar sur fi'la",
+        "lam yû'ad : pas de kasra après le wâw ; il revient donc",
+        "wajila yawjalu, impératif îjal : le wâw gardé, écrit yâ' après kasra",
+        "la fatha pour la gutturale, le wâw supprimé pour la kasra d'origine"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les formes de wa'ada comme le livre les énumère.",
+          "answer": "Wa'ada ya'idu 'idatan wa-wa'dan, il est donc wâ'id et cela est maw'ûd ; l'impératif 'id et l'interdiction lâ ta'id."
+        },
+        {
+          "prompt": "Pourquoi le wâw revient-il dans lam yû'ad ?",
+          "answer": "Le wâw est tombé à cause de la kasra qui le suit. Au passif, la lettre qui le suit a une fatha, la kasra est partie ; le wâw revient donc, prononcé û après la damma du préfixe."
+        },
+        {
+          "prompt": "Yada'u a une fatha, et pourtant son wâw est parti. Comment al-'Izzî l'explique-t-il ?",
+          "answer": "Il est à l'origine yaf'ilu, avec kasra, et le wâw est tombé alors ; la fatha est venue ensuite à cause de la lettre gutturale, le 'ayn."
+        },
+        {
+          "prompt": "Pourquoi îjal s'écrit-il avec un yâ', mais se prononce-t-il ûjal après yâ Zaydu ?",
+          "answer": "Seul, le wâw quiescent suit la kasra de la hamza et devient un yâ'. Après yâ Zaydu, la hamza tombe dans le discours enchaîné, le wâw suit la damma qui le précède et revient dans la prononciation ; l'écriture garde le yâ'."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quelles sont les lettres faibles ?",
+          "options": [
+            "Wâw, yâ' et alif",
+            "Hamza, wâw, yâ'",
+            "Alif, nûn, tâ'",
+            "Les lettres gutturales"
+          ],
+          "explanation": "On les appelle aussi les lettres de prolongation et de douceur."
+        },
+        {
+          "prompt": "Pourquoi le verbe faible au fâ' s'appelle-t-il mithâl ?",
+          "options": [
+            "Il a trois lettres",
+            "Il ressemble au verbe sain en ce qu'il porte les voyelles",
+            "C'est un exemple",
+            "Il n'a pas de mudâri'"
+          ],
+          "explanation": "Sa première lettre prend les voyelles comme une lettre saine."
+        },
+        {
+          "prompt": "De quelles formes de wa'ada le wâw tombe-t-il ?",
+          "options": [
+            "Le passé",
+            "Les participes",
+            "Le mudâri' et le masdar sur fi'la",
+            "Toutes les formes"
+          ],
+          "explanation": "Ya'idu et 'ida ; mais wa'd, wâ'id et maw'ûd le gardent."
+        },
+        {
+          "prompt": "Le wâw reste dans…",
+          "options": [
+            "wa'ada ya'idu",
+            "wamiqa yamiqu",
+            "wati'a yata'u",
+            "wajila yawjalu"
+          ],
+          "explanation": "Son mudâri' a une fatha d'origine ; il n'y a donc pas de kasra après le wâw."
+        },
+        {
+          "prompt": "Pourquoi yata'u a-t-il perdu son wâw malgré sa fatha ?",
+          "options": [
+            "Il était à l'origine yaf'ilu",
+            "Il est passif",
+            "Il est irrégulier sans raison",
+            "Son passé est perdu"
+          ],
+          "explanation": "La fatha est venue pour la gutturale après la chute du wâw."
+        },
+        {
+          "prompt": "Pourquoi yadharu a-t-il perdu son wâw ?",
+          "options": [
+            "Il a une gutturale",
+            "Il a le sens de yada'u",
+            "Il est à l'origine yaf'ulu",
+            "C'est un nom"
+          ],
+          "explanation": "Il suit le verbe de même sens."
+        },
+        {
+          "prompt": "Qu'est-ce qu'al-'Izzî prend pour preuve qu'un verbe est un verbe à wâw ?",
+          "options": [
+            "Son passé",
+            "Son masdar",
+            "La suppression du fâ' au futur",
+            "Son passif"
+          ],
+          "explanation": "Yada'u n'a pas de passé en usage, mais son fâ' manquant montre le wâw."
+        }
+      ],
+      "diagram": {
+        "caption": "Quand le wâw du mithâl tombe (al-'Izzî, p. 147–149)",
+        "labels": {
+          "When the wāw of the mithāl drops (al-ʿIzzī, pp. 147–149)": "Quand le wâw du mithâl tombe (al-'Izzî, p. 147–149)",
+          "Muḍāriʿ": "Mudâri'",
+          "Wāw": "Wâw",
+          "Examples": "Exemples",
+          "yafʿilu": "yaf'ilu",
+          "dropped": "supprimé",
+          "yafʿalu": "yaf'alu",
+          "kept": "gardé",
+          "yafʿulu": "yaf'ulu",
+          "yafʿalu from yafʿilu": "yaf'alu venu de yaf'ilu",
+          "passive": "passif",
+          "returns": "revient"
+        }
+      },
+      "text": [
+        "C'est le verbe dont l'une des radicales est une lettre faible (harf 'illa), c'est-à-dire le wâw, le yâ' et l'alif ; on les appelle les lettres de prolongation et de douceur (hurûf al-madd wa-al-lîn), et l'alif, dans ce cas, est changé du wâw ou du yâ'. Ses sortes sont sept.",
+        "La première est le verbe faible au fâ' ; on l'appelle le semblable (al-mithâl), parce qu'il ressemble au verbe sain en ce qu'il porte les voyelles. Quant au wâw, il est supprimé du mudâri' du verbe qui est sur yaf'ilu, avec kasra sur le 'ayn, et de son masdar qui est sur fi'latin, et il reste dans toutes ses autres formes dérivées. Tu dis donc wa'ada ya'idu 'idatan wa-wa'dan « promettre », il est donc wâ'idun « celui qui promet » et cela est maw'ûdun « promis » ; l'impératif est 'id et l'interdiction lâ ta'id ; et de même wamiqa yamiqu « aimer ».",
+        "Quand la kasra de la lettre qui le suit est ôtée, le wâw supprimé est ramené, comme lam yû'ad « on ne lui a pas promis ». Il reste dans yaf'alu, avec fatha sur le 'ayn, comme wajila yawjalu « avoir peur » ; l'impératif est îjal : le wâw a été changé en yâ' parce qu'il a un sukûn et que la lettre qui le précède a une kasra. Si la lettre qui le précède a une damma, le wâw revient : tu dis yâ Zaydu îjal « ô Zayd, aie peur ! » (prononcé yâ Zaydu ûjal), en le prononçant avec le wâw et en l'écrivant avec le yâ'.",
+        "Il reste dans yaf'ulu, avec damma sur le 'ayn, comme wajuha yawjuhu « être éminent », ûjuh, lâ tawjuh. Le wâw a été supprimé de yata'u « il foule », yasa'u « il contient », yada'u « il pose », yaqa'u « il tombe » et yada'u « il laisse », parce qu'ils sont à l'origine yaf'ilu, avec kasra, et ont reçu la fatha à cause de la lettre gutturale ; et de yadharu « il laisse », parce qu'il a le sens de yada'u ; et ils ont laissé tomber en désuétude le passé de yada'u et de yadharu. La suppression du fâ' au futur est une preuve que c'est un verbe à wâw."
+      ]
+    },
+    "17": {
+      "title": "Le mithâl à yâ', ifta'ala, et wadda",
+      "body": [
+        "« Quant au yâ', il reste dans tous les cas » : yamana yayminu, « porter bonheur », yasara yaysiru, « jouer au maysir », ya'isa yay'asu, « désespérer ». La kasra qui chasse le wâw ne touche pas le yâ' : yaysiru le garde.",
+        "Mais un yâ' quiescent après une damma ne reste pas un yâ'. À af'ala d'un verbe à yâ' : aysara yûsiru îsâran, il est donc mûsir, « devenir riche ; riche » : « le yâ' a été changé en wâw parce qu'il a un sukûn et que la lettre qui le précède a une damma ». Au masdar îsâr, il reste un yâ', après la kasra de la hamza.",
+        "À ifta'ala, des verbes à wâw comme des verbes à yâ', le fâ' faible « est changé en tâ' et assimilé au tâ' de ifta'ala » : itta'ada yatta'idu, mutta'id, mutta'ad, « accepter une promesse », de w-'-d ; ittasara yattasiru, muttasir, de y-s-r. C'est la règle déjà rencontrée avec ittaqâ. « On dit parfois » autrement : îta'ada yâta'idu mûta'id, îtasara yâtasiru mûtasir, où la lettre faible est gardée et suit simplement la voyelle qui la précède, î après kasra, â après fatha, û après damma.",
+        "Enfin, un verbe qui est à la fois mithâl et géminé : wadda yawaddu, « aimer ». « Sa règle est la règle de 'adda ya'addu » : le redoublement décide de l'assimilation, comme dans la leçon 15, et le wâw reste parce que le présent est sur yaf'alu. À l'impératif défait, le wâw après la kasra de la hamza devient yâ' : îdad, comme i'dad, et comme îjal.",
+        "Un piège pour l'oreille : yûsiru et lam yû'ad commencent tous deux par yû-, de racines différentes. Dans yûsiru, le û est un yâ' de y-s-r changé après la damma ; dans yû'ad, c'est le wâw de w-'-d revenu. Avant de chercher un mot, demandez-vous de quelle lettre la voyelle longue tient lieu."
+      ],
+      "terms": [
+        "le mithâl dont le fâ' est un yâ'",
+        "un yâ' quiescent après damma changé en wâw",
+        "l'assimilation du fâ' changé au tâ' de ifta'ala"
+      ],
+      "examples": [
+        "le yâ' reste dans tous les cas",
+        "un yâ' quiescent après damma devient wâw",
+        "le wâw changé en tâ' et assimilé",
+        "l'autre manière : la lettre faible suit la voyelle qui la précède",
+        "wadda yawaddu, comme 'adda ya'addu ; l'impératif îdad, comme i'dad"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le mudâri' de aysara est-il yûsiru, avec un wâw ?",
+          "answer": "Af'ala donne au préfixe une damma : le yâ' de y-s-r est alors quiescent après une damma, et un tel yâ' est changé en wâw."
+        },
+        {
+          "prompt": "Donnez les deux manières de dire ifta'ala de wa'ada, avec le mudâri' et le participe actif.",
+          "answer": "Itta'ada yatta'idu, mutta'id (le wâw changé en tâ' et assimilé) ; ou îta'ada yâta'idu, mûta'id (la lettre faible gardée, suivant la voyelle qui la précède)."
+        },
+        {
+          "prompt": "Quel est l'impératif de wadda sans assimilation, et pourquoi s'écrit-il avec un yâ' ?",
+          "answer": "Îdad, comme i'dad. Le wâw, quiescent après la kasra de la hamza de liaison, devient un yâ', comme dans îjal."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Dans le mithâl à yâ', le yâ'…",
+          "options": [
+            "tombe au mudâri'",
+            "reste dans tous les cas",
+            "devient alif",
+            "devient hamza"
+          ],
+          "explanation": "Yamana yayminu, yasara yaysiru, ya'isa yay'asu."
+        },
+        {
+          "prompt": "Pourquoi y a-t-il un wâw dans mûsir ?",
+          "options": [
+            "La racine a un wâw",
+            "C'est un passif",
+            "Un yâ' quiescent après damma est devenu wâw",
+            "Il est irrégulier"
+          ],
+          "explanation": "Mûsir vient de aysara, racine y-s-r : le yâ' quiescent après damma est devenu wâw."
+        },
+        {
+          "prompt": "Dans itta'ada, le tâ' redoublé vient…",
+          "options": [
+            "de deux tâ' de la racine",
+            "du préfixe",
+            "d'une hamza",
+            "du wâw de la racine et du tâ' de ifta'ala"
+          ],
+          "explanation": "Le wâw a été changé en tâ' et assimilé."
+        },
+        {
+          "prompt": "Îtasara yâtasiru est…",
+          "options": [
+            "ifta'ala avec le yâ' gardé",
+            "une erreur",
+            "af'ala",
+            "le passif"
+          ],
+          "explanation": "« On dit parfois » : la lettre faible suit la voyelle qui la précède."
+        },
+        {
+          "prompt": "Wadda yawaddu suit la règle de…",
+          "options": [
+            "wa'ada ya'idu",
+            "'adda ya'addu",
+            "madda yamuddu",
+            "sâna yasûnu"
+          ],
+          "explanation": "Un verbe géminé avec fatha à son présent."
+        },
+        {
+          "prompt": "L'impératif de wadda sans assimilation est…",
+          "options": [
+            "Wadid",
+            "Udud",
+            "Îdad",
+            "Dad"
+          ],
+          "explanation": "Comme i'dad, le wâw s'écrivant yâ' après kasra."
+        },
+        {
+          "prompt": "Dans îsâr, le yâ' est gardé parce que…",
+          "options": [
+            "c'est un masdar",
+            "c'est un wâw radical",
+            "il est redoublé",
+            "une kasra le précède"
+          ],
+          "explanation": "Ce n'est qu'après une damma que le yâ' quiescent devient un wâw."
+        }
+      ],
+      "diagram": {
+        "caption": "Le yâ' et le wâw du mithâl dans le verbe augmenté (al-'Izzî, p. 149–150)",
+        "labels": {
+          "The yāʾ and the wāw of the mithāl in the augmented verb (al-ʿIzzī, pp. 149–150)": "Le yâ' et le wâw du mithâl dans le verbe augmenté (al-'Izzî, p. 149–150)",
+          "Root": "Racine",
+          "Forms": "Formes",
+          "What happened": "Ce qui s'est passé",
+          "yāʾ → wāw after ḍamma": "yâ' → wâw après damma",
+          "wāw → tāʾ, merged": "wâw → tâ', assimilé",
+          "yāʾ → tāʾ, merged": "yâ' → tâ', assimilé",
+          "kept, following the vowel": "gardé, suivant la voyelle",
+          "as ʿaḍḍa yaʿaḍḍu": "comme 'adda ya'addu"
+        }
+      },
+      "text": [
+        "Quant au yâ', il reste dans tous les cas, comme yamana yayminu « porter bonheur », yasara yaysiru « jouer au maysir » et ya'isa yay'asu « désespérer ». Tu dis à af'ala du verbe à yâ' : aysara yûsiru îsâran, il est donc mûsirun « devenir riche ; riche » : le yâ' a été changé en wâw parce qu'il a un sukûn et que la lettre qui le précède a une damma. À ifta'ala des deux, ils sont changés en tâ' et assimilés au tâ' de ifta'ala, comme itta'ada yatta'idu, il est donc mutta'idun et cela est mutta'adun « accepter une promesse », et ittasara yattasiru, il est donc muttasirun « jouer au maysir ».",
+        "On dit parfois îta'ada yâta'idu, il est donc mûta'idun, et îtasara yâtasiru, il est donc mûtasirun. La règle de wadda yawaddu « aimer » est la règle de 'adda ya'addu « mordre » ; tu dis à l'impératif îdad, comme i'dad."
+      ]
+    },
+    "18": {
+      "title": "Le verbe concave : le passé",
+      "body": [
+        "La deuxième sorte est le verbe faible au 'ayn, appelé le concave (al-ajwaf), et aussi « celui de trois » (dhû al-thalâtha), « parce que son passé a trois lettres quand tu parles de toi-même » : suntu, « j'ai gardé », a trois lettres, le 'ayn étant parti. Dans le verbe nu, « son 'ayn est changé en alif au passé, qu'il soit wâw ou yâ', parce qu'ils sont voyellés et que la lettre qui les précède a une fatha » : sâna, « garder », et bâ'a, « vendre ».",
+        "Quand un pronom qui commence par une consonne s'y joint (celui de celui qui parle, de celui à qui l'on parle, ou des absentes), fa'ala est porté « à fa'ula dans le verbe à wâw et à fa'ila dans le verbe à yâ', pour les indiquer ». Puis la damma ou la kasra passe au fâ', et le 'ayn est supprimé parce que deux sukûn se rencontrent, le 'ayn et la dernière lettre. Un verbe déjà fa'ula ou fa'ila d'origine n'est pas porté ailleurs ; il garde sa propre voyelle.",
+        "Tu dis donc sâna sânâ sânû sânat sânatâ, avec l'alif, puis sunna sunta suntumâ suntum sunti suntumâ suntunna suntu sunnâ, sans lui ; et bâ'a bâ'â bâ'û bâ'at bâ'atâ bi'na. La voyelle de la première lettre indique la racine : damma pour le wâw de s-w-n, kasra pour le yâ' de b-y-'. Dans sunna et sunnâ, le nûn de la racine rencontre le nûn du pronom et les deux sont assimilés.",
+        "Construit pour celui qui subit, « tu donnes au fâ' une kasra dans tous » : sîna, « il a été gardé », dont le changement est « par le transfert et la conversion », et bî'a, « il a été vendu », « par le transfert seulement ». Dans les deux, la kasra du 'ayn revient au fâ' ; dans sîna, le wâw, désormais quiescent après kasra, doit en outre se changer en yâ', tandis que dans bî'a le yâ' est déjà chez lui après la kasra.",
+        "Le Maqsûd arrivait à qulna en changeant le wâw en alif, en le supprimant, puis en changeant la voyelle. Al-'Izzî suit une autre voie : d'abord porter fa'ala à fa'ula ou fa'ila, puis transférer la voyelle, puis supprimer. Le chemin diffère, la forme est la même ; ce que tous deux enseignent, c'est que la voyelle laissée sur la première lettre est la trace de la lettre qui est partie."
+      ],
+      "terms": [
+        "le verbe concave, celui de trois",
+        "le changement par le transfert d'une voyelle et la conversion d'une lettre",
+        "porter fa'ala à fa'ula ou fa'ila pour indiquer la lettre faible"
+      ],
+      "examples": [
+        "sâna, bâ'a : le 'ayn changé en alif",
+        "suntu, bi'na : le 'ayn supprimé, sa voyelle laissée sur le fâ'",
+        "sîna, par le transfert et la conversion ; bî'a, par le transfert seulement"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le verbe concave s'appelle-t-il dhû al-thalâtha ?",
+          "answer": "Parce que son passé a trois lettres quand tu parles de toi-même : suntu, c'est sâd, nûn, tâ' ; le 'ayn est parti."
+        },
+        {
+          "prompt": "Expliquez suntu pas à pas, comme le fait al-'Izzî.",
+          "answer": "Devant le pronom -tu, le fa'ala du verbe à wâw est porté à fa'ula ; la damma du 'ayn passe au fâ' ; le 'ayn, désormais quiescent, rencontre le nûn quiescent et est supprimé : suntu."
+        },
+        {
+          "prompt": "Pourquoi la forme des absentes a-t-elle un nûn redoublé : sunna ?",
+          "answer": "La racine se termine par un nûn. Son nûn, quiescent devant le pronom, rencontre le nûn des femmes, et les deux sont assimilés."
+        },
+        {
+          "prompt": "Formez le passif de sâna et de bâ'a et nommez le changement dans chacun.",
+          "answer": "Sîna : par le transfert (la kasra au sâd) et la conversion (le wâw quiescent après kasra en yâ'). Bî'a : par le transfert seulement, puisqu'un yâ' après kasra n'a besoin d'aucun changement."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pourquoi le 'ayn de sâna devient-il alif ?",
+          "options": [
+            "Il est quiescent",
+            "Il est à la fin",
+            "Il est voyellé après une fatha",
+            "Il suit une damma"
+          ],
+          "explanation": "Wâw ou yâ' pareillement : qâla, sâna, bâ'a."
+        },
+        {
+          "prompt": "Avec le pronom de celui qui parle, le fa'ala d'un verbe à wâw est porté à…",
+          "options": [
+            "fa'ila",
+            "fu'ila",
+            "fa''ala",
+            "fa'ula"
+          ],
+          "explanation": "Pour que la damma laissée sur le fâ' indique le wâw : suntu."
+        },
+        {
+          "prompt": "Bi'na a une kasra sur le bâ' parce que…",
+          "options": [
+            "la racine a un yâ'",
+            "il est passif",
+            "il est féminin",
+            "à cause du nûn"
+          ],
+          "explanation": "Le fa'ala du verbe à yâ' est porté à fa'ila."
+        },
+        {
+          "prompt": "Pourquoi le 'ayn est-il supprimé dans suntu ?",
+          "options": [
+            "C'est une lettre faible à la fin",
+            "Deux sukûn se rencontrent",
+            "À cause du tâ'",
+            "Il n'est pas supprimé"
+          ],
+          "explanation": "Le 'ayn, quiescent après le transfert de sa voyelle, rencontre le nûn quiescent."
+        },
+        {
+          "prompt": "Le passif de bâ'a est…",
+          "options": [
+            "Bû'a",
+            "Buyi'a",
+            "Bî'a",
+            "Bâ'a"
+          ],
+          "explanation": "La kasra transférée au fâ' : changement par le transfert seulement."
+        },
+        {
+          "prompt": "Sîna est changé par…",
+          "options": [
+            "le transfert seulement",
+            "la suppression",
+            "l'assimilation",
+            "le transfert et la conversion"
+          ],
+          "explanation": "La kasra revient, et le wâw après kasra devient yâ'."
+        },
+        {
+          "prompt": "Quelles formes de sâna gardent l'alif ?",
+          "options": [
+            "Sâna, sânâ, sânû, sânat, sânatâ",
+            "Suntu et sunnâ",
+            "Toutes les formes",
+            "Aucune"
+          ],
+          "explanation": "Les pronoms qui commencent par une voyelle ou le tâ' du féminin laissent le 'ayn voyellé."
+        }
+      ],
+      "diagram": {
+        "caption": "Le passé de sâna (al-'Izzî, p. 151–152)",
+        "labels": {
+          "The past of ṣāna (al-ʿIzzī, pp. 151–152)": "Le passé de sâna (al-'Izzî, p. 151–152)",
+          "Person": "Personne",
+          "Form": "Forme",
+          "he": "il",
+          "you (m.)": "tu (m.)",
+          "they two": "eux deux",
+          "you two": "vous deux",
+          "they (m.)": "ils (m.)",
+          "you (m. pl.)": "vous (m. pl.)",
+          "she": "elle",
+          "you (f.)": "tu (f.)",
+          "they two (f.)": "elles deux (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "they (f.)": "elles (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "La deuxième est le verbe faible au 'ayn ; on l'appelle le concave (al-ajwaf) et celui de trois (dhû al-thalâtha), parce que son passé a trois lettres quand tu parles de toi-même. Dans le verbe nu, son 'ayn est changé en alif au passé, qu'il soit wâw ou yâ', parce qu'ils sont voyellés et que la lettre qui les précède a une fatha, comme sâna « garder » et bâ'a « vendre ».",
+        "Si le pronom de celui qui parle, de celui à qui l'on parle ou du pluriel des absentes s'y joint, fa'ala est porté à fa'ula dans le verbe à wâw et à fa'ila dans le verbe à yâ', pour les indiquer ; fa'ula et fa'ila ne sont pas changés quand ils sont d'origine. La damma et la kasra sont transférées au fâ', et le 'ayn est supprimé parce que deux sukûn se rencontrent.",
+        "Tu dis donc sâna sânâ sânû sânat sânatâ sunna sunta suntumâ suntum sunti suntumâ suntunna suntu sunnâ « il a gardé », etc., et tu dis bâ'a bâ'â bâ'û bâ'at bâ'atâ bi'na « il a vendu » jusqu'à la fin. Quand tu le construis pour celui qui subit, tu donnes au fâ' une kasra dans tous et tu dis sîna, dont le changement (i'lâl) est par le transfert [de la voyelle] et la conversion [de la lettre], et bî'a, dont le changement est par le transfert seulement."
+      ]
+    },
+    "19": {
+      "title": "Le verbe concave : mudâri', jazm et impératif",
+      "body": [
+        "Au mudâri' : yasûnu et yabî'u, « dont le changement est par le transfert » ; yakhâfu, « il craint », et yahâbu, « il redoute », « dont le changement est par le transfert et la conversion ». Dans yasûnu, la voyelle du wâw revient au sâd quiescent et le wâw devient le û long ; dans yakhâfu, la fatha revient, et le wâw, désormais quiescent après fatha, est changé en alif.",
+        "Puis le jazm : « le 'ayn tombe quand la lettre qui le suit a un sukûn, et reste quand la lettre qui le suit est voyellée ». Lam yasun, lam yasûnâ, lam yasûnû, lam tasun, lam tasûnâ, lam yasunna, lam tasun, lam tasûnâ, lam tasûnû, lam tasûnî, lam tasûnâ, lam tasunna, lam asun, lam nasun. Ainsi lam yabi' lam yabî'â lam yabî'û … lam yabi'na, et lam yakhaf lam yakhâfâ lam yakhâfû.",
+        "La règle est connue : deux lettres quiescentes ne peuvent se rencontrer. Dans lam yasun, le û long rencontre le nûn quiescent, et le û est abrégé ; dans lam yasûnâ, le nûn a une voyelle pour l'alif du duel, et le û reste. Là où suit un pronom qui commence par une consonne, comme -na, le nûn est de nouveau quiescent et la voyelle brève : lam yasunna.",
+        "« Mesure l'impératif sur lui » : sun sûnâ sûnû sûnî sûnâ sunna, « garde ! » ; bi' bî'â bî'û bî'î bî'â bi'na ; khaf khâfâ khâfû khâfî khâfâ khafna. Avec le nûn d'insistance, la dernière lettre prend une voyelle ; la voyelle longue revient donc : sûnanna sûnânni sûnunna sûninna sûnânni sunnânni ; bî'anna … bi'nânni ; khâfanna … khafnânni. Seule la forme des femmes reste brève, car son nûn est encore quiescent devant le nûn des femmes.",
+        "Un piège : sun et sûnanna sont le même impératif à un homme, bref seul et long avec l'insistance. Ne prenez pas sûnanna pour un autre verbe. La règle décide de chaque cas : la lettre qui suit le 'ayn est-elle voyellée ou non ?"
+      ],
+      "terms": [
+        "le changement par le seul transfert de la voyelle : yasûnu",
+        "la chute du 'ayn devant une lettre quiescente",
+        "l'impératif avec le nûn d'insistance"
+      ],
+      "examples": [
+        "par le transfert ; par le transfert et la conversion",
+        "le 'ayn tombé devant une lettre quiescente, gardé devant une lettre voyellée",
+        "l'impératif de khâfa",
+        "avec l'insistance, la voyelle longue revient"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le wâw tombe-t-il dans lam yasun mais reste-t-il dans lam yasûnâ ?",
+          "answer": "Dans lam yasun, le nûn est quiescent, et le û long qui le précède réunirait deux sukûn ; il tombe donc. Dans lam yasûnâ, le nûn a une voyelle pour l'alif du duel ; le û reste donc."
+        },
+        {
+          "prompt": "Donnez l'impératif de khâfa aux six personnes.",
+          "answer": "Khaf, khâfâ, khâfû, khâfî, khâfâ, khafna."
+        },
+        {
+          "prompt": "Pourquoi sun devient-il sûnanna avec le nûn d'insistance ?",
+          "answer": "Le nûn d'insistance donne une voyelle à la dernière lettre ; le nûn de la racine n'est plus quiescent ; le û long revient donc."
+        },
+        {
+          "prompt": "Nommez le changement dans yabî'u et dans yahâbu.",
+          "answer": "Yabî'u : par le transfert seulement (la kasra du yâ' revient au bâ'). Yahâbu : par le transfert et la conversion (la fatha revient, le yâ' devient alif)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Yasûnu est changé par…",
+          "options": [
+            "le transfert et la conversion",
+            "la suppression",
+            "l'assimilation",
+            "le transfert seulement"
+          ],
+          "explanation": "La damma du wâw revient au sâd."
+        },
+        {
+          "prompt": "Yakhâfu est changé par…",
+          "options": [
+            "le transfert et la conversion",
+            "le transfert seulement",
+            "la suppression",
+            "rien"
+          ],
+          "explanation": "La fatha revient et le wâw devient alif."
+        },
+        {
+          "prompt": "Au jazm, le 'ayn tombe quand…",
+          "options": [
+            "la lettre qui le suit est voyellée",
+            "la lettre qui le suit est quiescente",
+            "le verbe est au pluriel",
+            "toujours"
+          ],
+          "explanation": "Quand la lettre qui suit le 'ayn est quiescente, le 'ayn tombe : lam yasun, mais lam yasûnâ."
+        },
+        {
+          "prompt": "Lam yasunna est…",
+          "options": [
+            "garde donc !",
+            "il n'a pas gardé",
+            "elles n'ont pas gardé",
+            "eux deux n'ont pas gardé"
+          ],
+          "explanation": "Le nûn de la racine assimilé au nûn des femmes."
+        },
+        {
+          "prompt": "L'impératif de bâ'a à une femme est…",
+          "options": [
+            "Bi'î",
+            "Bî'",
+            "Bi'na",
+            "Bî'î"
+          ],
+          "explanation": "Le 'ayn reste parce que la lettre qui le suit est voyellée."
+        },
+        {
+          "prompt": "Avec le nûn d'insistance, l'impératif sun devient…",
+          "options": [
+            "Sûnanna",
+            "Sunanna",
+            "Sunna",
+            "Sânanna"
+          ],
+          "explanation": "La dernière lettre prend une voyelle et le û long revient."
+        },
+        {
+          "prompt": "Quel impératif renforcé reste bref ?",
+          "options": [
+            "Sûnânni",
+            "Sunnânni, aux femmes",
+            "Sûninna",
+            "Sûnunna"
+          ],
+          "explanation": "Le nûn de la racine est encore quiescent devant le nûn des femmes."
+        }
+      ],
+      "diagram": {
+        "caption": "Sâna à celui à qui l'on parle (al-'Izzî, p. 152–153)",
+        "labels": {
+          "Ṣāna to the one addressed (al-ʿIzzī, pp. 152–153)": "Sâna à celui à qui l'on parle (al-'Izzî, p. 152–153)",
+          "To": "À",
+          "Jussive": "Jazm",
+          "Command": "Impératif",
+          "With emphasis": "Avec insistance",
+          "one man": "un homme",
+          "two": "deux",
+          "men": "des hommes",
+          "one woman": "une femme",
+          "women": "des femmes"
+        }
+      },
+      "text": [
+        "Tu dis au mudâri' yasûnu et yabî'u, dont le changement est par le transfert, et yakhâfu « il craint » et yahâbu « il redoute », dont le changement est par le transfert et la conversion.",
+        "La particule du jazm se place devant le mudâri', et alors le 'ayn tombe quand la lettre qui le suit a un sukûn, et reste quand la lettre qui le suit est voyellée. Tu dis lam yasun lam yasûnâ lam yasûnû lam tasun lam tasûnâ lam yasunna lam tasun lam tasûnâ lam tasûnû lam tasûnî lam tasûnâ lam tasunna lam asun lam nasun « il n'a pas gardé », etc. Ainsi va la règle de lam yabi' lam yabî'â lam yabî'û lam tabi' lam tabî'â lam yabi'na jusqu'à la fin, et de lam yakhaf lam yakhâfâ lam yakhâfû.",
+        "Mesure l'impératif sur lui, comme sun sûnâ sûnû sûnî sûnâ sunna « garde ! », et avec l'insistance sûnanna sûnânni sûnunna sûninna sûnânni sunnânni ; bi' bî'â bî'û bî'î bî'â bi'na « vends ! » ; khaf khâfâ khâfû khâfî khâfâ khafna « crains ! » ; et l'insistance : bî'anna bî'ânni bî'unna bî'inna bî'ânni bi'nânni et khâfanna khâfânni khâfunna khâfinna khâfânni khafnânni."
+      ]
+    },
+    "20": {
+      "title": "Le concave augmenté, les exceptions saines et les participes",
+      "body": [
+        "« Dans le trilitère augmenté, quatre schèmes seulement sont faibles » : ajâba yujîbu ijâbatan, « répondre » ; istaqâma yastaqîmu istiqâmatan, « être droit » ; ikhtâra yakhtâru ikhtiyâran, « choisir » ; inqâda yanqâdu inqiyâdan, « se soumettre ». Le masdar ijâba est expliqué : son origine est ijwâb ; « il a été changé par le transfert et la conversion ; deux alifs se sont donc rencontrés ; l'un d'eux a été supprimé, et le tâ' à sa fin a été mis à sa place ».",
+        "Construits pour celui qui subit : ujîba yujâbu, ustuqîma yustaqâmu, ikhtîra yukhtâru, inqîda yunqâdu. L'impératif : ajib ajîbâ ajîbû ajîbî ajîbâ ajibna ; istaqim … istaqimna ; ikhtar … ikhtarna ; inqad … inqadna. Ils suivent exactement le concave nu : la voyelle longue est abrégée là où suit une lettre quiescente (ajib, ajibna) et gardée là où suit une voyelle (ajîbâ).",
+        "Les autres schèmes augmentés restent sains : qâwala, taqâwala, taqawwala, zayyana, tazayyana, sâyara, tasâyara, iswadda, iswâdda, ibyadda, ibyâdda, « et de même dans toutes leurs formes dérivées ». Le livre ne donne pas de raison ; regardez les schèmes, et la cause manque. Dans qâwala et sâyara, un alif, non une fatha, se tient avant la lettre faible ; dans zayyana et taqawwala, la première des lettres redoublées a son propre sukûn ; dans iswadda, le wâw est quiescent par le schème. Aucun n'a de lettre faible voyellée après une fatha.",
+        "Le participe actif du verbe nu « est changé avec la hamza » : sâ'in, bâ'i', comme l'expliquait le Maqsûd pour qâ'il ; celui du verbe augmenté suit son mudâri' : mujîb, mustaqîm, munqâd, mukhtâr. Le participe passif du verbe nu « est changé par la suppression et le transfert » : masûn, mabî'. Deux lettres étaient quiescentes après le transfert, le 'ayn et le wâw de maf'ûl, et l'une est partie : « le wâw de maf'ûl selon Sîbawayh, et le 'ayn du verbe selon Abû al-Hasan al-Akhfash ».",
+        "« Les Banû Tamîm gardent le yâ' et disent mabyû' » : la forme pleine, inchangée. Le participe passif du verbe augmenté est changé par le transfert et la conversion, « si son verbe est changé » : mujâb, mustaqâm, munqâd, mukhtâr. Remarquez de nouveau mukhtâr et munqâd : comme dans la leçon 12, le participe actif et le participe passif ont une seule forme."
+      ],
+      "terms": [
+        "mettre une lettre à la place d'une lettre supprimée : le tâ' de ijâba",
+        "une lettre faible laissée inchangée, comme dans qâwala",
+        "les deux avis sur la lettre supprimée de masûn"
+      ],
+      "examples": [
+        "ijâba de ijwâb : un alif supprimé, le tâ' à sa place",
+        "des concaves augmentés qui restent sains",
+        "sâ'in, bâ'i' : le participe actif avec la hamza",
+        "masûn, mabî' ; mabyû' dans le parler de Tamîm"
+      ],
+      "tasks": [
+        {
+          "prompt": "Expliquez le masdar ijâba à partir de son origine ijwâb.",
+          "answer": "La fatha du wâw est passée au jîm et le wâw est devenu alif (transfert et conversion) ; deux alifs se sont rencontrés, l'un a été supprimé, et un tâ' a été mis à la fin à sa place : ijâba."
+        },
+        {
+          "prompt": "Pourquoi le wâw de qâwala et le yâ' de zayyana restent-ils inchangés ?",
+          "answer": "La cause du changement manque. Dans qâwala, un alif, non une fatha, se tient avant le wâw ; dans zayyana, le premier yâ' a son propre sukûn et le second le suit. Aucune lettre faible n'y est voyellée après une fatha."
+        },
+        {
+          "prompt": "Donnez le participe actif et le participe passif de ikhtâra. Pourquoi sont-ils identiques ?",
+          "answer": "Mukhtâr et mukhtâr. Le yâ' est devenu alif dans les deux, et avec lui est partie la kasra ou la fatha qui distingue celui qui fait de celui qui subit ; seules les formes sous-jacentes diffèrent."
+        },
+        {
+          "prompt": "Sur quoi Sîbawayh et al-Akhfash étaient-ils en désaccord dans masûn ?",
+          "answer": "Sur celle des deux lettres quiescentes qui a été supprimée après le transfert de la voyelle : Sîbawayh dit le wâw de maf'ûl, al-Akhfash le 'ayn du verbe."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de schèmes augmentés du verbe concave sont faibles ?",
+          "options": [
+            "Quatre",
+            "Quatorze",
+            "Deux",
+            "Six"
+          ],
+          "explanation": "Ajâba, istaqâma, ikhtâra, inqâda."
+        },
+        {
+          "prompt": "Que remplace le tâ' de ijâba ?",
+          "options": [
+            "Le wâw de la racine",
+            "Un alif supprimé",
+            "La hamza",
+            "Rien"
+          ],
+          "explanation": "Deux alifs se sont rencontrés ; l'un a été supprimé et le tâ' mis à sa place."
+        },
+        {
+          "prompt": "Le passif de istaqâma est…",
+          "options": [
+            "Ustaqâma",
+            "Istuqîma",
+            "Ustuqîma",
+            "Ustuqima"
+          ],
+          "explanation": "Damma sur la première lettre voyellée, la hamza la suivant, et kasra avant la dernière : ustuqîma yustaqâmu."
+        },
+        {
+          "prompt": "Quel verbe reste sain ?",
+          "options": [
+            "Ajâba",
+            "Ikhtâra",
+            "Inqâda",
+            "Sâyara"
+          ],
+          "explanation": "Un alif, non une fatha, se tient avant son yâ'."
+        },
+        {
+          "prompt": "Sâ'in, « gardant », est changé avec…",
+          "options": [
+            "la hamza",
+            "la suppression",
+            "l'assimilation",
+            "rien"
+          ],
+          "explanation": "Le participe actif du concave nu."
+        },
+        {
+          "prompt": "Selon Sîbawayh, qu'est-ce qui a été supprimé dans masûn ?",
+          "options": [
+            "Le 'ayn du verbe",
+            "Le wâw de maf'ûl",
+            "Le mîm",
+            "Le nûn"
+          ],
+          "explanation": "Sîbawayh dit que le wâw de maf'ûl a été supprimé ; al-Akhfash, le 'ayn du verbe."
+        },
+        {
+          "prompt": "Mabyû' est…",
+          "options": [
+            "une erreur",
+            "le participe actif",
+            "la forme des Banû Tamîm",
+            "le passé passif"
+          ],
+          "explanation": "Les Banû Tamîm gardent le yâ' inchangé et disent mabyû' pour mabî'."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatre schèmes faibles du concave augmenté (al-'Izzî, p. 153–155)",
+        "labels": {
+          "The four weak patterns of the augmented hollow verb (al-ʿIzzī, pp. 153–155)": "Les quatre schèmes faibles du concave augmenté (al-'Izzî, p. 153–155)",
+          "Past": "Passé",
+          "Muḍāriʿ": "Mudâri'",
+          "Passive": "Passif",
+          "Command": "Impératif"
+        }
+      },
+      "text": [
+        "Dans le trilitère augmenté, quatre schèmes seulement sont faibles : ajâba yujîbu ijâbatan « répondre », dont l'origine est ijwâban : il a été changé par le transfert et la conversion ; deux alifs se sont donc rencontrés ; l'un d'eux a été supprimé, et le tâ' à sa fin a été mis à sa place ; istaqâma yastaqîmu istiqâmatan « être droit » ; ikhtâra yakhtâru ikhtiyâran « choisir » ; et inqâda yanqâdu inqiyâdan « se soumettre ».",
+        "Quand tu les construis pour celui qui subit, tu dis ujîba yujâbu, ustuqîma yustaqâmu, ikhtîra yukhtâru et inqîda yunqâdu. L'impératif qu'on en tire : ajib ajîbâ ajîbû ajîbî ajîbâ ajibna, istaqim istaqîmâ istaqîmû istaqîmî istaqîmâ istaqimna, ikhtar ikhtârâ ikhtârû ikhtârî ikhtârâ ikhtarna et inqad inqâdâ inqâdû inqâdî inqâdâ inqadna.",
+        "Sont sains des verbes comme qâwala « converser », taqâwala « parler ensemble », taqawwala « inventer des paroles », zayyana « orner », tazayyana « se parer », sâyara « marcher avec », tasâyara « marcher ensemble », iswadda, iswâdda, ibyadda « blanchir » et ibyâdda « devenir d'un blanc pur » ; et de même dans toutes leurs formes dérivées.",
+        "Le participe actif du verbe nu est changé avec la hamza, comme sâ'inin « gardant » et bâ'i'in « vendant » ; celui du verbe augmenté est changé par ce qui change le mudâri', comme mujîbin, mustaqîmin, munqâdin et mukhtârin. Le participe passif du trilitère nu est changé par la suppression et le transfert, comme masûnin « gardé » et mabî'in « vendu » ; ce qui est supprimé est le wâw du [schème] maf'ûl selon Sîbawayh, et le 'ayn du verbe selon Abû al-Hasan al-Akhfash.",
+        "Les Banû Tamîm gardent le yâ' et disent mabyû'un. Celui du verbe augmenté est changé par le transfert et la conversion, si son verbe est changé, comme mujâbin, mustaqâmin, munqâdin et mukhtârin."
+      ]
+    },
+    "21": {
+      "title": "Le verbe défectueux : le passé",
+      "body": [
+        "La troisième sorte est le verbe faible au lâm, appelé le défectueux (al-nâqis) et « celui de quatre » (dhû al-arba'a), « parce que son passé a quatre lettres quand tu parles de toi-même » : sarûtu, « j'ai été noble », en a quatre, s-r-w-t. Le wâw et le yâ' « sont changés en alif quand ils sont voyellés et que la lettre qui les précède a une fatha » : ghazâ, « faire une expédition », ramâ, « lancer », et dans les noms 'asan, « un bâton », rahan, « une meule ».",
+        "De même dans le verbe de plus de trois lettres, a'tâ, « donner », ishtarâ, « acheter », istaqsâ, « aller jusqu'au bout » ; dans leurs participes passifs, al-mu'tâ, al-mushtarâ, al-mustaqsâ ; et dans le mudâri' passif : yu'tâ, yughzâ, yurmâ. Partout où la dernière lettre faible est voyellée après une fatha, c'est un alif.",
+        "Au passé, « le lâm est supprimé dans la forme fa'alû dans tous les cas, et dans fa'alat et fa'alatâ quand le 'ayn a une fatha ; il reste dans les autres » : ghazâ ghazawâ ghazaw ghazat ghazatâ ghazawna ; ramâ ramayâ ramaw ramat ramatâ ramayna ; radiya radiyâ radû radiyat radiyatâ radîna. Saruwa, « être noble », garde son wâw partout sauf dans sarû : saruwa saruwâ sarû saruwat saruwatâ sarûna sarûta … sarûtu sarûnâ.",
+        "Pourquoi une fatha avant le wâw de ghazaw et ramaw, mais une damma dans radû et sarû ? Quand le wâw du pronom suit un verbe défectueux dont le lâm est tombé, une fatha qui le précède est gardée, et une kasra ou une damma devient une damma. « L'origine de radû est radiyû : la damma du yâ' a été transférée au dâd, et le yâ' a été supprimé parce que deux sukûn se rencontraient. » La voyelle avant le wâw indique donc la classe : ghazaw est fa'ala, radû fa'ila.",
+        "Deux pièges. Radiyat garde son yâ', tandis que ghazat perd son wâw : après une kasra, le yâ' n'est jamais devenu alif ; il n'y a donc rien à faire tomber devant le tâ'. Et ghazaw et ghazawna montrent tous deux un wâw : dans ghazaw, « ils ont fait une expédition », le wâw est le pronom ; dans ghazawna, « elles ont fait une expédition », c'est le lâm de la racine, devant le pronom -na."
+      ],
+      "terms": [
+        "le verbe défectueux, celui de quatre",
+        "le wâw du pronom : le pluriel des hommes",
+        "la suppression de la dernière radicale"
+      ],
+      "examples": [
+        "le wâw et le yâ' changés en alif, dans les verbes et les noms",
+        "dans les verbes plus longs et dans le mudâri' passif",
+        "saruwa : le wâw gardé après damma, sauf dans sarû",
+        "radû de radiyû"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le verbe défectueux s'appelle-t-il dhû al-arba'a ?",
+          "answer": "Parce que son passé a quatre lettres quand tu parles de toi-même : sarûtu, c'est s-r-w-t. Le concave perd son 'ayn et en a trois (suntu) ; le défectueux y garde son lâm."
+        },
+        {
+          "prompt": "Expliquez radû à partir de radiyû.",
+          "answer": "La damma du yâ' a été transférée au dâd (à la place de sa kasra) ; le yâ', désormais quiescent, a rencontré le wâw quiescent du pronom et a été supprimé : radû."
+        },
+        {
+          "prompt": "Pourquoi le lâm tombe-t-il dans ghazat mais reste-t-il dans radiyat ?",
+          "answer": "Dans ghazat, le wâw, voyellé après une fatha, est devenu alif, et l'alif est tombé devant le tâ' quiescent. Dans radiyat, le yâ' suit une kasra et ne devient jamais alif ; il reste donc avec sa fatha."
+        },
+        {
+          "prompt": "Dans ghazaw et ghazawna, quel wâw est celui de la racine et lequel celui du pronom ?",
+          "answer": "Dans ghazaw, le wâw est le pronom des hommes ; le wâw de la racine est tombé. Dans ghazawna, le wâw est le lâm de la racine, quiescent devant le pronom -na des femmes."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quand le wâw et le yâ' deviennent-ils alif ?",
+          "options": [
+            "Quand ils sont quiescents",
+            "Quand ils sont voyellés avec une fatha avant eux",
+            "Après une kasra",
+            "Toujours à la fin"
+          ],
+          "explanation": "Un wâw ou un yâ' voyellé précédé d'une fatha devient alif : ghazâ, ramâ, 'asan, rahan."
+        },
+        {
+          "prompt": "Dans quelle forme du passé le lâm est-il supprimé dans tous les cas ?",
+          "options": [
+            "Fa'alat",
+            "Fa'alna",
+            "Fa'alû",
+            "Fa'altu"
+          ],
+          "explanation": "Dans fa'alû, le lâm tombe dans tous les cas : ghazaw, ramaw, radû, sarû."
+        },
+        {
+          "prompt": "Ramat a perdu son yâ' parce que…",
+          "options": [
+            "il est féminin",
+            "il est au pluriel",
+            "il est passif",
+            "le 'ayn a une fatha"
+          ],
+          "explanation": "Le lâm tombe dans fa'alat quand le 'ayn a une fatha ; radiyat le garde."
+        },
+        {
+          "prompt": "L'origine de radû est…",
+          "options": [
+            "Radiyû",
+            "Radawû",
+            "Radyû",
+            "Raduwû"
+          ],
+          "explanation": "La damma du yâ' est passée au dâd et le yâ' est tombé."
+        },
+        {
+          "prompt": "Pourquoi une fatha avant le wâw de ghazaw ?",
+          "options": [
+            "C'est le lâm",
+            "Une fatha avant le pronom est gardée",
+            "Il est passif",
+            "Pour marquer le duel"
+          ],
+          "explanation": "Une kasra ou une damma y devient une damma, comme dans radû."
+        },
+        {
+          "prompt": "Lequel est passif ?",
+          "options": [
+            "Yaghzû",
+            "Ghazâ",
+            "Yughzâ",
+            "Ghazaw"
+          ],
+          "explanation": "Au mudâri' passif, le lâm après fatha devient alif."
+        },
+        {
+          "prompt": "Ghazawna veut dire…",
+          "options": [
+            "ils ont fait une expédition",
+            "eux deux ont fait une expédition",
+            "nous avons fait une expédition",
+            "elles ont fait une expédition"
+          ],
+          "explanation": "Le wâw est le lâm, devant le -na des femmes."
+        }
+      ],
+      "diagram": {
+        "caption": "Le passé du verbe défectueux (al-'Izzî, p. 157)",
+        "labels": {
+          "The past of the defective verb (al-ʿIzzī, p. 157)": "Le passé du verbe défectueux (al-'Izzî, p. 157)",
+          "Person": "Personne",
+          "he": "il",
+          "they two": "eux deux",
+          "they (m.)": "ils (m.)",
+          "she": "elle",
+          "they two (f.)": "elles deux (f.)",
+          "they (f.)": "elles (f.)"
+        }
+      },
+      "text": [
+        "La troisième est le verbe faible au lâm ; on l'appelle le défectueux (al-nâqis) et celui de quatre (dhû al-arba'a), parce que son passé a quatre lettres quand tu parles de toi-même. Le wâw et le yâ' sont changés en alif quand ils sont voyellés et que la lettre qui les précède a une fatha, comme ghazâ « faire une expédition », ramâ « lancer », 'asan « un bâton » et rahan « une meule » ; et de même dans le verbe de plus de trois lettres, comme a'tâ « donner », ishtarâ « acheter » et istaqsâ « aller jusqu'au bout », et dans son participe passif, comme al-mu'tâ, al-mushtarâ et al-mustaqsâ ; et de même dans le mudâri' dont l'agent n'est pas nommé, comme quand tu dis yu'tâ, yughzâ et yurmâ.",
+        "Quant au passé, le lâm en est supprimé dans la forme fa'alû dans tous les cas, et dans les formes fa'alat et fa'alatâ quand le 'ayn a une fatha ; il reste dans les autres. Tu dis donc ghazâ ghazawâ ghazaw ghazat ghazatâ ghazawna « il a fait une expédition » jusqu'à la fin, ramâ ramayâ ramaw ramat ramatâ ramayna « il a lancé », etc., et radiya radiyâ radû radiyat radiyatâ radîna « il a été satisfait », etc.",
+        "De même saruwa saruwâ sarû saruwat saruwatâ sarûna sarûta sarûtumâ sarûtum sarûti sarûtumâ sarûtunna sarûtu sarûnâ « il a été noble ».",
+        "La lettre avant le wâw du pronom a reçu une fatha dans ghazaw et ramaw, et une damma dans radû et sarû, parce que, quand le wâw du pronom est joint au verbe défectueux après la suppression du lâm, si la lettre qui le précède a une fatha, on la laisse sur la fatha, comme ghazaw et ramaw ; et si la lettre qui le précède a une kasra ou une damma, on lui donne une damma, comme radû et sarû. L'origine de radû est radiyû : la damma du yâ' a été transférée au dâd, et le yâ' a été supprimé parce que deux sukûn se rencontraient."
+      ]
+    },
+    "22": {
+      "title": "Le mudâri' défectueux au raf', au nasb et au jazm",
+      "body": [
+        "Au mudâri' du verbe défectueux, « le wâw, le yâ' et l'alif ont un sukûn au raf' » : yaghzû, « il fait une expédition », yarmî, « il lance », yakhshâ, « il craint » ; « et ils sont supprimés à l'état de jazm ». Au nasb, « le wâw et le yâ' reçoivent la fatha, parce que la fatha est légère, et l'alif reste avec sukûn au nasb comme au raf' ».",
+        "Cela fait trois comportements différents dans un seul tableau. Le wâw et le yâ' refusent la damma mais prennent la fatha ; l'alif ne prend aucune voyelle ; les trois tombent au jazm. L'Âjurrûmiyya l'a dit : le jazm du verbe dont la dernière lettre est faible se fait par la suppression, et son raf' par une damma supposée.",
+        "Le jazm : lam yaghzu, lam yaghzuwâ ; lam yarmi, lam yarmiyâ, lam yarmû ; et en entier, lam yarda lam yardayâ lam yardaw lam tarda lam tardayâ lam yardayna lam tarda lam tardayâ lam tardaw lam tarday lam tardayâ lam tardayna lam arda lam narda. Les particules du jazm et du nasb « font tomber les nûn, sauf le nûn du pluriel féminin », comme dans le verbe sain.",
+        "Le nasb : lan yaghzuwa, lan yaghzuwâ, lan yaghzû ; lan yarmiya, lan yarmiyâ, lan yarmû ; lan yardâ lan yardayâ lan yardaw lan tardâ lan tardayâ lan yardayna … lan tarday … lan ardâ lan nardâ. Comparez lan yardâ et lam yarda : l'alif reste au nasb et tombe au jazm.",
+        "Un piège : lam tarday et lam tarda sont deux personnes. Dans lam tarda, « tu (homme) n'as pas été satisfait », l'alif du lâm est tombé. Dans lam tarday, « tu (femme) n'as pas été satisfaite », le yâ' est le pronom de la femme, resté quand le jazm a ôté son nûn à tardayna."
+      ],
+      "terms": [
+        "la voyelle supposée, non prononcée sur la lettre faible",
+        "le jazm par la suppression de la dernière lettre faible",
+        "la légèreté de la fatha, que le wâw et le yâ' peuvent porter"
+      ],
+      "examples": [
+        "raf' : la lettre faible quiescente",
+        "jazm : la lettre faible supprimée",
+        "nasb : fatha sur le wâw et le yâ', l'alif inchangé",
+        "toi (homme), toi (femme) : le yâ' du pronom"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi l'alif de yardâ ne montre-t-il pas de fatha dans lan yardâ ?",
+          "answer": "Un alif ne peut porter aucune voyelle. Le livre dit qu'il « reste avec sukûn à l'état de nasb comme à l'état de raf' » : la fatha y est supposée."
+        },
+        {
+          "prompt": "Mettez tardâ au jazm pour « toi (homme) », et tardayna pour « toi (femme) ». Expliquez le yâ' du second.",
+          "answer": "Lam tarda et lam tarday. Dans le premier, l'alif du lâm est supprimé. Dans le second, le jazm ôte le nûn de tardayna, et le yâ' qui reste est le pronom de la femme, non la lettre de la racine."
+        },
+        {
+          "prompt": "Donnez le jazm de yarmî pour il, eux deux et ils (hommes).",
+          "answer": "Lam yarmi, lam yarmiyâ, lam yarmû."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Au raf', la dernière lettre faible du mudâri' est…",
+          "options": [
+            "avec damma",
+            "avec fatha",
+            "quiescente",
+            "supprimée"
+          ],
+          "explanation": "Yaghzû, yarmî, yakhshâ : la damma est supposée."
+        },
+        {
+          "prompt": "Pourquoi le wâw et le yâ' prennent-ils la fatha au nasb ?",
+          "options": [
+            "Lan l'exige",
+            "Ce sont des radicales",
+            "Pour marquer le futur",
+            "La fatha est légère"
+          ],
+          "explanation": "La fatha est assez légère pour que le wâw et le yâ' la portent : lan yaghzuwa, lan yarmiya."
+        },
+        {
+          "prompt": "Au nasb, l'alif…",
+          "options": [
+            "reste quiescent",
+            "prend la fatha",
+            "est supprimé",
+            "devient yâ'"
+          ],
+          "explanation": "Un alif ne porte aucune voyelle ; il reste donc quiescent au nasb : lan yardâ, lan yakhshâ."
+        },
+        {
+          "prompt": "Le jazm du verbe défectueux se fait par…",
+          "options": [
+            "le sukûn",
+            "la suppression de la dernière lettre",
+            "une fatha",
+            "la chute du préfixe"
+          ],
+          "explanation": "Lam yaghzu, lam yarmi, lam yarda."
+        },
+        {
+          "prompt": "Lam yarmû veut dire…",
+          "options": [
+            "il n'a pas lancé",
+            "eux deux n'ont pas lancé",
+            "ils (hommes) n'ont pas lancé",
+            "ne lance pas !"
+          ],
+          "explanation": "Lam a ôté le nûn de yarmûna ; ce qui reste, yarmû, est le pluriel des hommes."
+        },
+        {
+          "prompt": "Lam tarday se dit à…",
+          "options": [
+            "un homme",
+            "des femmes",
+            "deux",
+            "une femme"
+          ],
+          "explanation": "Le yâ' est son pronom ; le nûn est parti."
+        },
+        {
+          "prompt": "Quel nûn est gardé au jazm et au nasb ?",
+          "options": [
+            "Le nûn du pluriel féminin",
+            "Le nûn du duel",
+            "Le nûn du pluriel des hommes",
+            "Aucun"
+          ],
+          "explanation": "Le nûn du pluriel féminin est un pronom ; il reste donc : lam yardayna, lan yardayna."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trois finales faibles du mudâri' (al-'Izzî, p. 159–160)",
+        "labels": {
+          "The three weak endings of the muḍāriʿ (al-ʿIzzī, pp. 159–160)": "Les trois finales faibles du mudâri' (al-'Izzî, p. 159–160)",
+          "Last letter": "Dernière lettre",
+          "Rafʿ": "Raf'",
+          "Naṣb": "Nasb",
+          "Jazm": "Jazm",
+          "wāw": "wâw",
+          "yāʾ": "yâ'",
+          "alif": "alif"
+        }
+      },
+      "text": [
+        "Quant au mudâri' du verbe défectueux, le wâw, le yâ' et l'alif ont un sukûn au raf', comme yaghzû « il fait une expédition », yarmî « il lance » et yakhshâ « il craint », et ils sont supprimés à l'état de jazm. Le wâw et le yâ' reçoivent la fatha au nasb, parce que la fatha est légère, et l'alif reste avec sukûn à l'état de nasb comme à l'état de raf'. La particule du jazm et la particule du nasb font tomber les nûn, sauf le nûn du pluriel féminin.",
+        "Tu dis donc lam yaghzu lam yaghzuwâ, et de même lam yarmi lam yarmiyâ lam yarmû, et lam yarda lam yardayâ lam yardaw lam tarda lam tardayâ lam yardayna lam tarda lam tardayâ lam tardaw lam tarday lam tardayâ lam tardayna lam arda lam narda.",
+        "Et tu dis au nasb : lan yaghzuwa lan yaghzuwâ lan yaghzû, lan yarmiya lan yarmiyâ lan yarmû, et lan yardâ lan yardayâ lan yardaw lan tardâ lan tardayâ lan yardayna lan tardâ lan tardayâ lan tardaw lan tarday lan tardayâ lan tardayna lan ardâ lan nardâ."
+      ]
+    },
+    "23": {
+      "title": "Les tableaux de yaghzû, yarmî et yardâ",
+      "body": [
+        "« Le lâm du verbe reste dans le verbe des deux et du groupe des femmes, et il est supprimé du verbe du groupe des hommes et du verbe de la femme à qui l'on parle. » Ainsi : yaghzû yaghzuwâni yaghzûna taghzû taghzuwâni yaghzûna taghzû taghzuwâni taghzûna taghzîna taghzuwâni taghzûna aghzû naghzû.",
+        "Regardez yaghzûna : il figure deux fois dans la liste, pour les hommes et pour les femmes. « La forme … est la même, … mais la forme sous-jacente diffère : la mesure du masculin est yaf'ûna et taf'ûna, et la mesure du pluriel féminin est yaf'ulna et taf'ulna. » Pour les hommes, le lâm est parti et le û est le pronom, -na étant le signe du raf' ; pour les femmes, le û est le lâm et -na est le pronom. Le jazm le montre : lam yaghzû pour les hommes, yaghzûna inchangé pour les femmes.",
+        "Yarmî : yarmî yarmiyâni yarmûna tarmî tarmiyâni yarmîna tarmî tarmiyâni tarmûna tarmîna tarmiyâni tarmîna armî narmî. « L'origine de yarmûna est yarmiyûna, et on y a fait ce qu'on a fait de radû » : la damma du yâ' est passée au mîm, et le yâ' est tombé devant le wâw.",
+        "« Telle est la règle de tout verbe dans lequel la lettre qui précède son lâm a une kasra » : yahdî, « il guide », yunâjî, « il parle en secret », yartajî, « il espère », yashtarî, yastad'î, yar'awî, ya'rawrî. Plusieurs ont une racine à wâw (yunâjî, yartajî, yastad'î), et se terminent pourtant comme yarmî : ce qui décide, c'est la kasra avant le lâm, après laquelle un wâw devient yâ'.",
+        "Yardâ : yardâ yardayâni yardawna tardâ tardayâni yardayna tardâ tardayâni tardawna tardayna tardayâni tardayna ardâ nardâ. Ici, le pluriel des hommes est yardawna, avec fatha avant le wâw, et celui des femmes, yardayna, garde le yâ' : les trois tableaux diffèrent exactement aux hommes, à la femme à qui l'on parle et aux femmes."
+      ],
+      "terms": [
+        "la même forme avec des formes sous-jacentes différentes",
+        "les mesures de yaghzûna pour les hommes et pour les femmes"
+      ],
+      "examples": [
+        "le lâm gardé au duel, supprimé au pluriel des hommes",
+        "les deux mesures de yaghzûna",
+        "yarmûna de yarmiyûna, comme radû",
+        "tout verbe à kasra avant son lâm va comme yarmî"
+      ],
+      "tasks": [
+        {
+          "prompt": "Al-rijâlu yaghzûna et al-nisâ'u yaghzûna : donnez la mesure de chaque verbe et expliquez la différence.",
+          "answer": "Pour les hommes, yaf'ûna : le lâm est parti, le û est le pronom, -na est le signe du raf' (il tombe au jazm). Pour les femmes, yaf'ulna : le û est le lâm, -na est le pronom (il reste au jazm)."
+        },
+        {
+          "prompt": "Expliquez yarmûna à partir de yarmiyûna.",
+          "answer": "Comme dans radû : la damma du yâ' est passée au mîm, et le yâ', désormais quiescent, a été supprimé devant le wâw quiescent du pluriel."
+        },
+        {
+          "prompt": "Yartajî vient de r-j-w. Pourquoi se termine-t-il par un yâ' comme yarmî ?",
+          "answer": "La lettre qui précède son lâm a une kasra, et le livre dit que tout verbe de ce genre va comme yarmî ; après une kasra, le wâw final devient un yâ'."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "À quelles personnes le lâm de yaghzû est-il supprimé ?",
+          "options": [
+            "Au duel",
+            "Au pluriel des femmes",
+            "Au singulier",
+            "Au pluriel des hommes et à la femme à qui l'on parle"
+          ],
+          "explanation": "Yaghzûna (hommes), taghzîna ; mais yaghzuwâni et yaghzûna (femmes) le gardent."
+        },
+        {
+          "prompt": "La mesure de yaghzûna pour les femmes est…",
+          "options": [
+            "yaf'ulna",
+            "yaf'ûna",
+            "yaf'îna",
+            "yaf'alna"
+          ],
+          "explanation": "Le û est le lâm, -na le pronom."
+        },
+        {
+          "prompt": "L'origine de yarmûna est…",
+          "options": [
+            "Yarmawna",
+            "Yarmiyûna",
+            "Yarmuyûna",
+            "Yarmayûna"
+          ],
+          "explanation": "Yarmiyûna : la damma du yâ' est allée au mîm et le yâ' est tombé, comme dans radû."
+        },
+        {
+          "prompt": "Quel verbe, selon le livre, va comme yarmî ?",
+          "options": [
+            "Yardâ",
+            "Yaghzû",
+            "Yahdî",
+            "Yakhshâ"
+          ],
+          "explanation": "La lettre qui précède son lâm a une kasra."
+        },
+        {
+          "prompt": "Yardawna est la forme pour…",
+          "options": [
+            "elles",
+            "toi (femme)",
+            "eux deux",
+            "ils (hommes)"
+          ],
+          "explanation": "La fatha avant le wâw est gardée."
+        },
+        {
+          "prompt": "Qu'est-ce qui décide si un verbe va comme yarmî ou comme yardâ ?",
+          "options": [
+            "La voyelle avant le lâm",
+            "Que la racine ait un wâw ou un yâ'",
+            "Le nombre de lettres",
+            "Le sens"
+          ],
+          "explanation": "Kasra : comme yarmî ; fatha : comme yardâ."
+        },
+        {
+          "prompt": "Taghzîna se dit à…",
+          "options": [
+            "des femmes",
+            "une femme",
+            "des hommes",
+            "deux"
+          ],
+          "explanation": "Le lâm est supprimé pour la femme à qui l'on parle."
+        }
+      ],
+      "diagram": {
+        "caption": "Le mudâri' du verbe défectueux (al-'Izzî, p. 160–162)",
+        "labels": {
+          "The muḍāriʿ of the defective verb (al-ʿIzzī, pp. 160–162)": "Le mudâri' du verbe défectueux (al-'Izzî, p. 160–162)",
+          "Person": "Personne",
+          "he": "il",
+          "they two": "eux deux",
+          "they (m.)": "ils (m.)",
+          "she": "elle",
+          "they two (f.)": "elles deux (f.)",
+          "they (f.)": "elles (f.)",
+          "you (m.)": "tu (m.)",
+          "you two": "vous deux",
+          "you (m. pl.)": "vous (m. pl.)",
+          "you (f.)": "tu (f.)",
+          "you two (f.)": "vous deux (f.)",
+          "you (f. pl.)": "vous (f. pl.)",
+          "I": "je",
+          "we": "nous"
+        }
+      },
+      "text": [
+        "Le lâm du verbe reste dans le verbe des deux et du groupe des femmes, et il est supprimé du verbe du groupe des hommes et du verbe de la femme à qui l'on parle. Tu dis donc yaghzû yaghzuwâni yaghzûna taghzû taghzuwâni yaghzûna taghzû taghzuwâni taghzûna taghzîna taghzuwâni taghzûna aghzû naghzû.",
+        "La forme du groupe des hommes et des femmes y est la même, à la deuxième personne et à l'absent pareillement, mais la forme sous-jacente diffère : la mesure du masculin est yaf'ûna et taf'ûna, et la mesure du pluriel féminin est yaf'ulna et taf'ulna.",
+        "Tu dis donc yarmî yarmiyâni yarmûna tarmî tarmiyâni yarmîna tarmî tarmiyâni tarmûna tarmîna tarmiyâni tarmîna armî narmî. L'origine de yarmûna est yarmiyûna, et on y a fait ce qu'on a fait de radû. Telle est la règle de tout verbe dans lequel la lettre qui précède son lâm a une kasra, comme yahdî « il guide », yunâjî « il parle en secret », yartajî « il espère », yashtarî « il achète », yastad'î « il convoque », yar'awî « il renonce » et ya'rawrî « il monte à cru ».",
+        "Et tu dis yardâ yardayâni yardawna tardâ tardayâni yardayna tardâ tardayâni tardawna tardayna tardayâni tardayna ardâ nardâ."
+      ]
+    },
+    "24": {
+      "title": "La fatha avant le lâm ; la femme et les femmes",
+      "body": [
+        "« Telle est la règle de tout verbe dans lequel [la lettre] qui précède son lâm a une fatha » : il va comme yardâ. Le livre en écrit quatre en entier : yatamattâ, « il s'étire » ; yatasâbâ, « il se conduit comme un jeune homme » ; yataqalsâ, « il met une calotte » ; et yatasaddâ, « il se tourne vers ». Tafa''ala, tafâ'ala et tafa'lala ont tous une fatha avant le lâm à leur mudâri' ; tous leurs verbes défectueux se terminent donc par un alif.",
+        "Mettez cela à côté de la leçon précédente. Là, yunâjî, yartajî et yastad'î avaient une racine à wâw et allaient comme yarmî à cause de la kasra ; ici, yatasaddâ et les autres vont comme yardâ à cause de la fatha. Ce n'est pas la lettre de la racine qui décide du mudâri' d'un verbe défectueux plus long ; c'est la voyelle avant le lâm.",
+        "Lisez le tableau de yatamattâ comme un modèle : yatamattâ yatamattayâni yatamattawna tatamattâ tatamattayâni yatamattayna … atamattâ natamattâ. Chaque finale est la finale de yardâ : -â, -ayâni, -awna, -ayna. L'étudiant qui connaît yardâ connaît les quatre.",
+        "Puis un avertissement : « la forme du féminin singulier à la deuxième personne est comme la forme du pluriel féminin dans la classe de yarmî et de yardâ, mais la forme sous-jacente diffère : la mesure du féminin singulier est taf'îna et taf'ayna, et la mesure du pluriel taf'ilna et taf'alna. » Tarmîna et tardayna veulent dire chacun à la fois « toi (femme) » et « vous (femmes) ».",
+        "Le jazm les sépare, comme avec yaghzûna. Pour la femme, le lâm est parti et le nûn est le signe du raf' : lam tarday. Pour les femmes, le yâ' est le lâm et le nûn est le pronom : lam tardayna, inchangé. Si une forme garde son nûn après lam, c'est celle des femmes."
+      ],
+      "terms": [
+        "les mesures de tarmîna et tardayna pour une femme",
+        "leurs mesures pour les femmes",
+        "la règle selon laquelle un verbe se conjugue comme un autre"
+      ],
+      "examples": [
+        "yatamattâ, « il s'étire », comme yardâ",
+        "yatasâbâ, yataqalsâ, yatasaddâ : fatha avant le lâm",
+        "une seule forme pour la femme et les femmes",
+        "le jazm les distingue"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi yatasaddâ et yatamattâ vont-ils comme yardâ et non comme yarmî ?",
+          "answer": "La lettre qui précède leur lâm a une fatha (le mudâri' de tafa''ala), et tout verbe à fatha avant son lâm va comme yardâ."
+        },
+        {
+          "prompt": "Tardayna : montrez par le jazm s'il est dit à la femme ou aux femmes.",
+          "answer": "Si lam laisse lam tarday, c'était celui de la femme (taf'ayna : le nûn était le signe du raf'). Si lam laisse lam tardayna, c'était celui des femmes (taf'alna : le nûn est leur pronom)."
+        },
+        {
+          "prompt": "Donnez la mesure de tarmîna pour la femme et pour les femmes.",
+          "answer": "Pour la femme, taf'îna (le lâm parti, le î étant le pronom) ; pour les femmes, taf'ilna (le î étant le lâm, -na le pronom)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Un verbe défectueux à fatha avant son lâm va comme…",
+          "options": [
+            "yardâ",
+            "yarmî",
+            "yaghzû",
+            "yaqûlu"
+          ],
+          "explanation": "Yatamattâ, yatasâbâ, yataqalsâ, yatasaddâ."
+        },
+        {
+          "prompt": "Sur quel schème est yatasâbâ ?",
+          "options": [
+            "Tafa''ala",
+            "Tafâ'ala",
+            "Tafa'lala",
+            "Ifta'ala"
+          ],
+          "explanation": "Tasâbâ : « se conduire comme un jeune homme »."
+        },
+        {
+          "prompt": "Yataqalsâ vient d'un schème…",
+          "options": [
+            "à trois radicales : tafa''ala",
+            "ifta'ala",
+            "à quatre radicales avec un tâ' : tafa'lala",
+            "le verbe nu"
+          ],
+          "explanation": "Son mudâri' a aussi une fatha avant le lâm."
+        },
+        {
+          "prompt": "La mesure de tardayna pour une femme est…",
+          "options": [
+            "taf'alna",
+            "taf'îna",
+            "taf'ilna",
+            "taf'ayna"
+          ],
+          "explanation": "Le lâm est parti ; le yâ' est son pronom."
+        },
+        {
+          "prompt": "Lam tarmîna se dit à…",
+          "options": [
+            "des femmes",
+            "une femme",
+            "des hommes",
+            "un homme"
+          ],
+          "explanation": "Le nûn ne reste que quand c'est le pronom des femmes."
+        },
+        {
+          "prompt": "Yatamattawna est pour…",
+          "options": [
+            "elles",
+            "ils (hommes)",
+            "toi (femme)",
+            "eux deux"
+          ],
+          "explanation": "Yatamattawna est le pluriel des hommes, avec la fatha avant le wâw, comme yardawna."
+        },
+        {
+          "prompt": "Qu'est-ce qui décide de la finale d'un verbe défectueux plus long ?",
+          "options": [
+            "La lettre de la racine",
+            "Le préfixe",
+            "La voyelle avant le lâm",
+            "Le masdar"
+          ],
+          "explanation": "Yartajî (racine à wâw) comme yarmî ; yatasaddâ comme yardâ."
+        }
+      ],
+      "diagram": {
+        "caption": "La femme et les femmes à qui l'on parle (al-'Izzî, p. 159–163)",
+        "labels": {
+          "The woman and the women addressed (al-ʿIzzī, pp. 159–163)": "La femme et les femmes à qui l'on parle (al-'Izzî, p. 159–163)",
+          "Form": "Forme",
+          "One woman": "Une femme",
+          "Women": "Des femmes",
+          "rafʿ, yāʾ verb": "raf', verbe à yâ'",
+          "its measure": "sa mesure",
+          "rafʿ, alif verb": "raf', verbe à alif",
+          "after lam": "après lam",
+          "after lan": "après lan"
+        }
+      },
+      "text": [
+        "Telle est la règle de tout verbe dans lequel [la lettre] qui précède son lâm a une fatha, comme yatamattâ yatamattayâni yatamattawna tatamattâ tatamattayâni yatamattayna tatamattâ tatamattayâni tatamattawna tatamattayna tatamattayâni tatamattayna atamattâ natamattâ « il s'étire », et yatasâbâ yatasâbayâni yatasâbawna tatasâbâ tatasâbayâni yatasâbayna tatasâbâ tatasâbayâni tatasâbawna tatasâbayna tatasâbayâni tatasâbayna atasâbâ natasâbâ « il se conduit comme un jeune homme »,",
+        "et yataqalsâ yataqalsayâni yataqalsawna tataqalsâ tataqalsayâni yataqalsayna tataqalsâ tataqalsayâni tataqalsawna tataqalsayna tataqalsayâni tataqalsayna ataqalsâ nataqalsâ « il met une calotte », et yatasaddâ yatasaddayâni yatasaddawna tatasaddâ tatasaddayâni yatasaddayna tatasaddâ tatasaddayâni tatasaddawna tatasaddayna tatasaddayâni tatasaddayna atasaddâ natasaddâ « il se tourne vers ».",
+        "La forme du féminin singulier à la deuxième personne est comme la forme du pluriel féminin dans la classe de yarmî et de yardâ, mais la forme sous-jacente diffère : la mesure du féminin singulier est taf'îna et taf'ayna, et la mesure du pluriel taf'ilna et taf'alna."
+      ]
+    },
+    "25": {
+      "title": "L'impératif du verbe défectueux",
+      "body": [
+        "« L'impératif qu'on en tire » : ughzu ughzuwâ ughzû ughzî ughzuwâ ughzûna, « fais une expédition ! » ; irmi irmiyâ irmû irmî irmiyâ irmîna, « lance ! » ; irda irdayâ irdaw irday irdayâ irdayna, « sois satisfait ! ». Chacun est le jazm sans le préfixe, avec une hamza de liaison devant la première radicale quiescente, damma après yaghzû, kasra après yarmî et yardâ.",
+        "À un homme, la dernière radicale est partie, comme au jazm : ughzu, irmi, irda. Aux deux et aux femmes, elle reste : ughzuwâ, ughzûna. Aux hommes et à la femme, les finales sont celles du mudâri' sans son nûn : ughzû et ughzî, irmû et irmî, irdaw et irday.",
+        "« Quand tu y fais entrer le nûn d'insistance, le lâm supprimé est ramené » : ughzuwanna ughzuwânni ughzunna ughzinna ughzuwânni ughzûnânni ; irmiyanna irmiyânni irmunna irminna irmiyânni irmînânni ; irdayanna irdayânni irdawunna irdayinna irdayânni irdaynânni. La raison est celle rencontrée dans sûnanna : la dernière lettre doit prendre une voyelle devant le nûn ; le lâm tombé faute de voyelle revient donc.",
+        "Aux formes des hommes et de la femme s'appliquent les règles de la leçon 11. Dans ughzunna et irmunna, ughzinna et irminna, le wâw ou le yâ' du pronom est supprimé et sa damma ou sa kasra reste, car la lettre qui le précédait avait une damma ou une kasra. Dans irdawunna et irdayinna, la lettre qui précède a une fatha ; le wâw et le yâ' restent donc et prennent une voyelle, comme dans lâ takhshawunna.",
+        "Un piège : ughzûna et irmîna, aux femmes, gardent la voyelle longue parce que c'est le lâm, non un pronom ; le pronom est le -na. Comparez ughzû, aux hommes, où le û est le pronom. La même voyelle longue, deux lettres différentes, exactement comme dans yaghzûna."
+      ],
+      "terms": [
+        "l'impératif du verbe défectueux",
+        "le retour du lâm supprimé devant le nûn d'insistance"
+      ],
+      "examples": [
+        "l'impératif de ghazâ",
+        "l'impératif de radiya",
+        "avec le nûn d'insistance, le lâm revient",
+        "le pronom gardé avec une voyelle après fatha"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi le wâw revient-il dans ughzuwanna ?",
+          "answer": "Le wâw de ughzu est tombé parce que la dernière lettre était au jazm. Devant le nûn d'insistance, la dernière lettre prend une fatha, et un wâw peut porter une fatha ; le lâm supprimé est donc ramené."
+        },
+        {
+          "prompt": "Expliquez irdawunna et irdayinna.",
+          "answer": "Ce sont irdaw et irday avec le nûn lourd. La lettre avant le wâw et le yâ' du pronom a une fatha ; ceux-ci ne tombent donc pas, mais reçoivent une voyelle, damma et kasra, devant le nûn."
+        },
+        {
+          "prompt": "Ughzûna : à qui le dit-on, et qu'est son û ?",
+          "answer": "Aux femmes. Le û est le lâm de la racine, gardé parce que le nûn des femmes suit ; le -na est leur pronom."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "L'impératif de ghazâ à un homme est…",
+          "options": [
+            "Ughzû",
+            "Ughzu",
+            "Ighzi",
+            "Ghazâ"
+          ],
+          "explanation": "Le lâm tombe comme au jazm lam yaghzu."
+        },
+        {
+          "prompt": "L'impératif de radiya aux hommes est…",
+          "options": [
+            "Irdû",
+            "Irday",
+            "Irdaw",
+            "Irda"
+          ],
+          "explanation": "La fatha avant le wâw reste : comme yardawna."
+        },
+        {
+          "prompt": "Qu'arrive-t-il au lâm supprimé devant le nûn d'insistance ?",
+          "options": [
+            "Il reste supprimé",
+            "Il devient hamza",
+            "Il devient alif",
+            "Il est ramené"
+          ],
+          "explanation": "Ughzuwanna, irmiyanna, irdayanna."
+        },
+        {
+          "prompt": "Irmunna se dit à…",
+          "options": [
+            "des hommes",
+            "un homme",
+            "une femme",
+            "des femmes"
+          ],
+          "explanation": "Le wâw du pronom est tombé, sa damma est restée."
+        },
+        {
+          "prompt": "Pourquoi le yâ' est-il gardé dans irdayinna ?",
+          "options": [
+            "C'est le lâm",
+            "La lettre qui le précède a une fatha",
+            "Il est au pluriel",
+            "Il n'est pas gardé"
+          ],
+          "explanation": "La lettre qui le précède a une fatha ; le yâ' prend donc une voyelle au lieu de tomber, comme dans immâ tarayinna."
+        },
+        {
+          "prompt": "Le û de ughzûna est…",
+          "options": [
+            "le pronom des hommes",
+            "le signe du raf'",
+            "le lâm de la racine",
+            "une lettre ajoutée"
+          ],
+          "explanation": "Le -na est le pronom des femmes."
+        },
+        {
+          "prompt": "Ughzinna se dit à…",
+          "options": [
+            "un homme",
+            "des hommes",
+            "deux",
+            "une femme"
+          ],
+          "explanation": "De ughzî : le yâ' est tombé et sa kasra est restée."
+        }
+      ],
+      "diagram": {
+        "caption": "L'impératif de ghazâ et de ramâ, simple et renforcé (al-'Izzî, p. 164)",
+        "labels": {
+          "The command of ghazā and ramā, plain and emphasised (al-ʿIzzī, p. 164)": "L'impératif de ghazâ et de ramâ, simple et renforcé (al-'Izzî, p. 164)",
+          "To": "À",
+          "Ghazā": "Ghazâ",
+          "Emphasised": "Renforcé",
+          "Ramā": "Ramâ",
+          "one man": "un homme",
+          "two": "deux",
+          "men": "des hommes",
+          "one woman": "une femme",
+          "women": "des femmes"
+        }
+      },
+      "text": [
+        "L'impératif qu'on en tire : ughzu ughzuwâ ughzû ughzî ughzuwâ ughzûna « fais une expédition ! », irmi irmiyâ irmû irmî irmiyâ irmîna « lance ! » et irda irdayâ irdaw irday irdayâ irdayna « sois satisfait ! ».",
+        "Quand tu y fais entrer le nûn d'insistance, le lâm supprimé est ramené, et tu dis ughzuwanna ughzuwânni ughzunna ughzinna ughzuwânni ughzûnânni, irmiyanna irmiyânni irmunna irminna irmiyânni irmînânni et irdayanna irdayânni irdawunna irdayinna irdayânni irdaynânni."
+      ]
+    },
+    "26": {
+      "title": "Les participes du verbe défectueux ; les verbes défectueux plus longs",
+      "body": [
+        "Le participe actif : ghâzin ghâziyâni ghâzûna ghâziyatun ghâziyatâni ghâziyâtun, avec les pluriels brisés ghuzâtun, ghuzzan, ghuzzâ'un et ghawâzin, « un homme qui fait une expédition » ; râmin râmiyâni râmûna, rumâtun wa-rumman, râmiyatun râmiyatâni râmiyâtun wa-rawâmin, « un lanceur » ; et râdin, « satisfait ».",
+        "« L'origine de ghâzin est ghâziwun : le wâw a été changé en yâ' parce qu'il est à la fin et que la lettre qui le précède a une kasra, comme il a été changé dans ghuziya. » Puis « ils ont dit ghâziyatun, parce que le féminin est une branche du masculin, et le tâ' est une chose qui survient ». Avec le tâ', le wâw ne serait plus à la fin ; mais le féminin est construit sur le masculin, qui a déjà le yâ' ; le yâ' reste donc.",
+        "Le participe passif : maghzuww, « attaqué », du verbe à wâw, et marmiyy, « lancé », du verbe à yâ'. Dans marmiyy, « le wâw a été changé en yâ' et assimilé au second yâ', et la lettre qui le précède a reçu une kasra ; car quand le wâw et le yâ' se rencontrent dans un même mot et que le premier des deux a un sukûn, le wâw est changé en yâ' ». Dans maghzuww, deux wâw se rencontrent et s'assimilent sans changement.",
+        "Deux schèmes de noms suivent les mêmes règles : fa'ûl donne 'aduww, « un ennemi », d'une racine à wâw, et baghiyy, « une prostituée », d'une racine à yâ' ; fa'îl donne sabiyy, « un garçon », d'une racine à wâw, et shariyy, « acheté », d'une racine à yâ'. Dans baghiyy et sabiyy, un wâw a rencontré un yâ' et est devenu yâ', quel que soit celui qui venait en premier.",
+        "Dans le verbe augmenté, « son wâw est changé en yâ', parce que tout wâw qui se trouve en quatrième position ou au-delà, sans que la lettre qui le précède ait une damma, est changé en yâ' » : a'tâ yu'tî, i'tadâ ya'tadî, istarshâ yastarshî, et avec le pronom a'taytu, i'tadaytu, istarshaytu, taghâzaynâ, tarajjaynâ. A'tâ vient d'une racine à wâw, et pourtant a'taytu montre un yâ' : dans un verbe plus long, le wâw final cède toujours au yâ'."
+      ],
+      "terms": [
+        "le féminin est une branche du masculin",
+        "le tâ' qui survient, ajouté à un mot achevé",
+        "un wâw et un yâ' ensemble, le premier quiescent : tous deux deviennent yâ'"
+      ],
+      "examples": [
+        "le participe actif de ghazâ",
+        "quatre pluriels brisés de ghâzin",
+        "le participe passif : deux wâw assimilés ; wâw et yâ' assimilés en yâ'",
+        "fa'ûl et fa'îl de racines à wâw et à yâ'",
+        "un wâw en quatrième position ou au-delà devient yâ'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi dit-on ghâziyatun, avec un yâ', alors que la racine a un wâw et que le tâ' l'empêche d'être à la fin ?",
+          "answer": "Le féminin est une branche du masculin, et le tâ' vient après lui : le féminin est construit sur ghâzin, dont le wâw est déjà devenu yâ' ; le yâ' reste donc."
+        },
+        {
+          "prompt": "Expliquez marmiyy pas à pas.",
+          "answer": "Marmûy sur maf'ûl : un wâw quiescent rencontre un yâ' dans un même mot ; le wâw devient un yâ', la lettre qui le précède prend une kasra, et les deux yâ' sont assimilés : marmiyy."
+        },
+        {
+          "prompt": "A'tâ vient d'une racine à wâw. Pourquoi a'taytu a-t-il un yâ' ?",
+          "answer": "Son wâw est en quatrième position (a-'-t-w) sans damma avant lui, et tout wâw de ce genre est changé en yâ'."
+        },
+        {
+          "prompt": "Donnez les pluriels brisés de ghâzin que le livre énumère.",
+          "answer": "Ghuzâtun, ghuzzan, ghuzzâ'un et ghawâzin."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "L'origine de ghâzin est…",
+          "options": [
+            "Ghâziyun d'une racine à yâ'",
+            "Ghâzawun",
+            "Ghâziwun",
+            "Ghazwun"
+          ],
+          "explanation": "Le wâw final après kasra est devenu yâ', comme dans ghuziya."
+        },
+        {
+          "prompt": "Pourquoi ghâziyatun garde-t-il le yâ' ?",
+          "options": [
+            "Le tâ' exige un yâ'",
+            "Il est au pluriel",
+            "C'est une erreur",
+            "Le féminin est une branche du masculin"
+          ],
+          "explanation": "Le tâ' vient une fois le masculin achevé."
+        },
+        {
+          "prompt": "Maghzuww a…",
+          "options": [
+            "deux wâw assimilés",
+            "un wâw changé en yâ'",
+            "une hamza",
+            "un lâm supprimé"
+          ],
+          "explanation": "Maf'ûl de gh-z-w : le wâw de maf'ûl et le lâm."
+        },
+        {
+          "prompt": "Dans marmiyy, le wâw de maf'ûl…",
+          "options": [
+            "est tombé",
+            "est devenu yâ' et s'est assimilé",
+            "est resté",
+            "est devenu alif"
+          ],
+          "explanation": "Un wâw quiescent devant un yâ' devient yâ'."
+        },
+        {
+          "prompt": "Sabiyy, « un garçon », est sur…",
+          "options": [
+            "fa'ûl",
+            "fâ'il",
+            "fa'îl",
+            "maf'ûl"
+          ],
+          "explanation": "D'une racine à wâw : le wâw s'est assimilé en yâ'."
+        },
+        {
+          "prompt": "Quand un wâw final devient-il yâ' dans le verbe augmenté ?",
+          "options": [
+            "Toujours",
+            "Jamais",
+            "Seulement au passif",
+            "En quatrième position ou au-delà, sans damma avant"
+          ],
+          "explanation": "Un wâw en quatrième position ou au-delà, sans damma avant lui, devient yâ' : a'tâ yu'tî, i'tadâ ya'tadî."
+        },
+        {
+          "prompt": "Taghâzaynâ veut dire…",
+          "options": [
+            "nous nous sommes attaqués les uns les autres",
+            "ils ont fait une expédition",
+            "nous avons été attaqués",
+            "attaquez-vous les uns les autres !"
+          ],
+          "explanation": "Tafâ'ala de gh-z-w : le wâw, en cinquième position, est devenu yâ'."
+        }
+      ],
+      "diagram": {
+        "caption": "Les noms défectueux des racines à wâw et à yâ' (al-'Izzî, p. 164–166)",
+        "labels": {
+          "Defective nouns from wāw and yāʾ roots (al-ʿIzzī, pp. 164–166)": "Les noms défectueux des racines à wâw et à yâ' (al-'Izzî, p. 164–166)",
+          "Pattern": "Schème",
+          "Wāw root": "Racine à wâw",
+          "Yāʾ root": "Racine à yâ'",
+          "fāʿil": "fâ'il",
+          "mafʿūl": "maf'ûl",
+          "faʿūl": "fa'ûl",
+          "faʿīl": "fa'îl"
+        }
+      },
+      "text": [
+        "Le participe actif qu'on en tire : ghâzin ghâziyâni ghâzûna ghâziyatun ghâziyatâni ghâziyâtun ghuzâtun wa-ghuzzan wa-ghuzzâ'un wa-ghawâzin « un homme qui fait une expédition », etc. ; de même râmin râmiyâni râmûna rumâtun wa-rumman, râmiyatun râmiyatâni râmiyâtun wa-rawâmin « un lanceur », et râdin « satisfait ». L'origine de ghâzin est ghâziwun : le wâw a été changé en yâ' parce qu'il est à la fin et que la lettre qui le précède a une kasra, comme il a été changé dans ghuziya « il a été attaqué » ; puis ils ont dit ghâziyatun, parce que le féminin est une branche du masculin, et le tâ' est une chose qui survient.",
+        "Tu dis au participe passif du verbe à wâw maghzuwwun « attaqué », et du verbe à yâ' marmiyyun « lancé » : le wâw a été changé en yâ' et assimilé au second yâ', et la lettre qui le précède a reçu une kasra ; car quand le wâw et le yâ' se rencontrent dans un même mot et que le premier des deux a un sukûn, le wâw est changé en yâ' et le yâ' est assimilé au yâ'.",
+        "Tu dis à fa'ûlin du verbe à wâw 'aduwwun « un ennemi », et du verbe à yâ' baghiyyun « une prostituée » ; et à fa'îlin du verbe à wâw sabiyyun « un garçon », et du verbe à yâ' shariyyun « acheté ».",
+        "Dans le verbe augmenté, son wâw est changé en yâ', parce que tout wâw qui se trouve en quatrième position ou au-delà, sans que la lettre qui le précède ait une damma, est changé en yâ'. Tu dis donc a'tâ yu'tî « donner », i'tadâ ya'tadî « transgresser » et istarshâ yastarshî « demander un pot-de-vin » ; et avec le pronom tu dis a'taytu, i'tadaytu et istarshaytu, et de même taghâzaynâ « nous nous sommes attaqués les uns les autres » et tarajjaynâ « nous avons espéré »."
+      ]
+    },
+    "27": {
+      "title": "Les deux lafîf et les deux dernières sortes",
+      "body": [
+        "La quatrième sorte, faible au 'ayn et au lâm, est le lafîf joint (al-lafîf al-maqrûn). Son 'ayn est traité comme sain et son lâm comme défectueux : shawâ yashwî shayyan, « rôtir », comme ramâ yarmî ramyan ; qawiya yaqwâ quwwatan, « être fort » ; rawiya yarwâ riyyan, « se désaltérer », comme radiya yardâ ridan, il est donc rayyân et elle rayyâ, comme 'atshân et 'atshâ ; et arwâ, « désaltérer », comme a'tâ.",
+        "Hayiya, « vivre », est comme radiya ; et l'on dit aussi hayya yahyâ hayâtan, « vivre », il est donc hayy, « vivant », avec hayyâ (hayyâni) et hayyû (ahyâ') ; « et hayû, sans redoublement, est permis, comme radû ». L'impératif est ihya, comme irda. Dans le verbe augmenté : ahyâ yuhyî ihyâ'an, « faire vivre » ; hâyâ yuhâyî muhâyâtan, « favoriser » ; istahyâ yastahyî, « avoir honte », impératif istahyi ; « certains d'entre eux disent istahâ yastahî istahi, et cela à cause de l'usage fréquent, comme ils ont dit lâ adri pour lâ adrî ».",
+        "La cinquième sorte, faible au fâ' et au lâm, est le lafîf séparé (al-lafîf al-mafrûq) : waqâ yaqî, « protéger », comme ramâ yarmî, yaqiyâni, yaqûna, etc. Son fâ' tombe comme dans wa'ada ya'idu ; son lâm suit yarmî. « L'impératif qu'on en tire est qi ; l'impératif se trouve donc être d'une seule lettre, et à la pause le hâ' lui est nécessaire » : qih ; puis qiyâ qû qî qiyâ qîna. Avec l'insistance : qiyanna qiyânni qunna qinna qiyânni qînânni, et léger qiyan qun qin.",
+        "Wajiya yawjâ, « avoir les sabots usés », est comme radiya yardâ, et son impératif est îja, comme irda. Ici le fâ' reste : le présent est sur yaf'alu, et la leçon 16 a enseigné que le wâw reste avec yaf'alu. Dans îja, le wâw, après la kasra de la hamza, s'écrit yâ', comme dans îjal.",
+        "La sixième sorte, faible au fâ' et au 'ayn, n'existe que dans des noms : yayn, nom d'un lieu, yawm, « un jour », wayl, « malheur » ; « on n'en construit aucun verbe ». La septième, faible aux trois, est wâw et yâ', les noms des deux lettres. Avec celles-ci, les sept sortes du verbe faible sont complètes."
+      ],
+      "terms": [
+        "le lafîf joint : 'ayn et lâm faibles",
+        "le lafîf séparé : fâ' et lâm faibles",
+        "le hâ' de la pause : qih",
+        "à cause de l'usage fréquent : istahâ, lâ adri"
+      ],
+      "examples": [
+        "le lafîf joint : le 'ayn sain, le lâm défectueux",
+        "les deux se disent ; le second par usage fréquent",
+        "le lafîf séparé ; son impératif d'une lettre ; avec le hâ' à la pause",
+        "wajiya yawjâ, comme radiya yardâ : le wâw reste"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelle lettre faible de shawâ se comporte en faible, et comment ?",
+          "answer": "Seulement le lâm : shawâ yashwî va comme ramâ yarmî. Le 'ayn, le wâw, est traité comme une lettre saine et ne change pas."
+        },
+        {
+          "prompt": "Pourquoi l'impératif de waqâ est-il d'une seule lettre, et qu'ajoute-t-on à la pause ?",
+          "answer": "Son fâ' tombe au mudâri', comme dans ya'idu, et son lâm tombe à l'impératif, comme dans irmi ; il ne reste que le qâf. À la pause, un hâ' est nécessaire : qih."
+        },
+        {
+          "prompt": "Waqâ perd son wâw au présent, mais wajiya le garde. Pourquoi ?",
+          "answer": "Yaqî est sur yaf'ilu, et le wâw du mithâl tombe devant une kasra. Yawjâ est sur yaf'alu, et avec yaf'alu le wâw reste."
+        },
+        {
+          "prompt": "Nommez la sixième et la septième sortes du faible, avec leurs exemples.",
+          "answer": "La sixième, faible au fâ' et au 'ayn : yayn, yawm, wayl, dont on ne construit aucun verbe. La septième, faible aux trois : wâw et yâ', les noms des lettres."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le lafîf joint est faible…",
+          "options": [
+            "au fâ' et au lâm",
+            "au fâ' et au 'ayn",
+            "aux trois",
+            "au 'ayn et au lâm"
+          ],
+          "explanation": "Ses lettres faibles se tiennent côte à côte au 'ayn et au lâm : shawâ, qawiya, rawiya."
+        },
+        {
+          "prompt": "Rawiya yarwâ va comme…",
+          "options": [
+            "radiya yardâ",
+            "ramâ yarmî",
+            "ghazâ yaghzû",
+            "qâla yaqûlu"
+          ],
+          "explanation": "Fa'ila yaf'alu d'un verbe défectueux."
+        },
+        {
+          "prompt": "Pourquoi certains disent-ils istahâ pour istahyâ ?",
+          "options": [
+            "Par la règle de la hamza",
+            "À cause de l'usage fréquent",
+            "C'est le passif",
+            "C'est une erreur"
+          ],
+          "explanation": "L'usage fréquent use les mots : istahâ pour istahyâ, comme lâ adri pour lâ adrî."
+        },
+        {
+          "prompt": "L'impératif de waqâ aux hommes est…",
+          "options": [
+            "Qi",
+            "Qiyâ",
+            "Qû",
+            "Qîna"
+          ],
+          "explanation": "Qiyâ à deux, qû aux hommes, qî à une femme, qîna aux femmes."
+        },
+        {
+          "prompt": "Qih est…",
+          "options": [
+            "un autre verbe",
+            "le pluriel",
+            "le passif",
+            "qi avec le hâ' de la pause"
+          ],
+          "explanation": "Un impératif d'une lettre a besoin du hâ' quand on s'y arrête."
+        },
+        {
+          "prompt": "L'impératif de wajiya est…",
+          "options": [
+            "Îja",
+            "Ji",
+            "Wja",
+            "Ûji"
+          ],
+          "explanation": "Comme irda, le wâw étant gardé et écrit yâ' après kasra."
+        },
+        {
+          "prompt": "De quelle sorte ne construit-on aucun verbe ?",
+          "options": [
+            "Faible au 'ayn et au lâm",
+            "Faible au fâ' et au 'ayn",
+            "Faible au fâ' et au lâm",
+            "Le concave"
+          ],
+          "explanation": "Les faibles au fâ' et au 'ayn ne sont que des noms, yayn, yawm, wayl ; on n'en construit aucun verbe."
+        }
+      ],
+      "diagram": {
+        "caption": "Les verbes lafîf et leurs modèles (al-'Izzî, p. 166–168)",
+        "labels": {
+          "The lafīf verbs and their models (al-ʿIzzī, pp. 166–168)": "Les verbes lafîf et leurs modèles (al-'Izzî, p. 166–168)",
+          "Verb": "Verbe",
+          "Conjugated like": "Conjugué comme",
+          "Command": "Impératif"
+        }
+      },
+      "text": [
+        "La quatrième sorte est le verbe faible au 'ayn et au lâm ; on l'appelle le lafîf joint (al-lafîf al-maqrûn). Tu dis donc shawâ yashwî shayyan « rôtir », comme ramâ yarmî ramyan ; qawiya yaqwâ quwwatan « être fort » ; et rawiya yarwâ riyyan « se désaltérer », comme radiya yardâ ridan, il est donc rayyânu et une femme rayyâ « désaltérée », comme 'atshâna et 'atshâ « assoiffé » ; et arwâ « désaltérer », comme a'tâ.",
+        "Hayiya « vivre » est comme radiya ; et hayya yahyâ hayâtan, il est donc hayyun « vivant » ; hayyâ, eux deux sont donc hayyâni ; hayyû, ils sont donc ahyâ'un ; et hayû, sans redoublement, est permis, comme radû. L'impératif qu'on en tire est ihya, comme irda. Et ahyâ yuhyî ihyâ'an « faire vivre », hâyâ yuhâyî muhâyâtan « favoriser », et istahyâ yastahyî « avoir honte », l'impératif étant istahyi ; certains d'entre eux disent istahâ yastahî istahi, et cela à cause de l'usage fréquent, comme ils ont dit lâ adri pour lâ adrî « je ne sais pas ».",
+        "Et la cinquième est le verbe faible au fâ' et au lâm ; on l'appelle le lafîf séparé (al-lafîf al-mafrûq). Tu dis donc waqâ yaqî « protéger », comme ramâ yarmî, yaqiyâni yaqûna jusqu'à la fin. L'impératif qu'on en tire est qi ; l'impératif se trouve donc être d'une seule lettre, et à la pause le hâ' lui est nécessaire : on dit qih ; qiyâ qû qî qiyâ qîna.",
+        "À l'insistance, tu dis qiyanna qiyânni qunna qinna qiyânni qînânni, et avec le léger qiyan qun qin. Et tu dis wajiya yawjâ « avoir les sabots usés », comme radiya yardâ ; l'impératif qu'on en tire est îja, comme irda.",
+        "La sixième est le verbe faible au fâ' et au 'ayn, comme yayna, nom d'un lieu, yawmin « un jour » et waylin « malheur » ; on n'en construit aucun verbe. La septième est le verbe faible au fâ', au 'ayn et au lâm, et c'est wâwun et yâ'un, comme noms des deux lettres."
+      ]
+    },
+    "28": {
+      "title": "Le verbe hamzé : deux hamzas, et khudh, kul, mur",
+      "body": [
+        "« La règle du verbe hamzé dans les formes dérivées de son verbe est la règle du verbe sain, parce que la hamza est une lettre saine ; mais elle est parfois allégée quand elle n'est pas en tête, parce que c'est une lettre dure, du fond le plus reculé de la gorge. » La hamza n'est pas une lettre faible ; elle ne change que parce qu'elle est lourde à prononcer, et seulement là où une règle le permet.",
+        "Ainsi amala ya'mulu, « espérer », va comme nasara yansuru, et son impératif est ûmul, comme unsur. Ici deux hamzas se rencontrent : la hamza de liaison et la hamza radicale. « Quand deux hamzas se rencontrent dans un même mot et que la seconde a un sukûn, elle doit être changée en la lettre de l'espèce de la voyelle qui la précède », comme dans âmana, ûmina et îmân : après fatha un alif, après damma un wâw, après kasra un yâ'.",
+        "« Si la première est une hamza de liaison, la seconde redevient hamza dans le discours enchaîné quand la lettre qui la précède a une fatha » : wa-'mul, « et espère ! ». La hamza de liaison tombe dans le discours enchaîné ; il n'y a donc plus deux hamzas, et la hamza radicale revient. Ûmul seul, wa-'mul après wa- : un seul impératif, deux formes.",
+        "« Ils ont supprimé la hamza dans khudh, « prends ! », kul, « mange ! », et mur, « ordonne ! », contre la règle, à cause de l'usage fréquent. » Mais « wa-'mur vient parfois selon l'origine dans le discours enchaîné », comme dans le verset wa-'mur ahlaka bi-l-salâti, « et ordonne la prière à ta famille » (Coran 20:132). Les deux formes se tiennent côte à côte dans un seul verset : khudhi al-'afwa wa-'mur bi-l-'urfi, « accepte ce qu'on t'offre de bon gré, et ordonne le convenable » (Coran 7:199).",
+        "Un piège : ne comptez pas ûmul comme un verbe concave à cause de son û long. Sa racine est '-m-l, et le û est une hamza changée en wâw après la damma de la hamza de liaison. Le critère est le passé : amala, avec la hamza au fâ'."
+      ],
+      "terms": [
+        "l'allègement de la hamza",
+        "deux hamzas dans un même mot : la seconde, quiescente, suit la voyelle qui la précède",
+        "contre la règle : khudh, kul, mur"
+      ],
+      "examples": [
+        "amala ya'mulu ; ûmul, et wa-'mul dans le discours enchaîné",
+        "la seconde hamza en alif, en wâw et en yâ'",
+        "wa-'mur ahlaka bi-l-salâti (Coran 20:132) : l'origine dans le discours enchaîné",
+        "khudhi al-'afwa wa-'mur bi-l-'urfi (Coran 7:199) : les deux formes"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi l'impératif de amala est-il ûmul, avec un wâw ?",
+          "answer": "Deux hamzas se rencontrent : la hamza de liaison, avec damma (le mudâri' est ya'mulu), et la hamza radicale, quiescente. La seconde doit devenir la lettre de la voyelle qui la précède : après damma, un wâw."
+        },
+        {
+          "prompt": "Pourquoi la hamza revient-elle dans wa-'mul ?",
+          "answer": "Après wa-, la hamza de liaison tombe dans le discours enchaîné ; il n'y a plus deux hamzas à la suite ; la hamza radicale reste donc telle qu'elle est."
+        },
+        {
+          "prompt": "Que dit al-'Izzî de khudh, kul et mur, et que montre Coran 20:132 ?",
+          "answer": "Leur hamza a été supprimée contre la règle, parce qu'ils sont très employés. Wa-'mur ahlaka bi-l-salâti montre que mur peut aussi venir selon l'origine, avec sa hamza, dans le discours enchaîné."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pourquoi le verbe hamzé se conjugue-t-il comme le verbe sain ?",
+          "options": [
+            "La hamza est une lettre saine",
+            "Il n'a pas de hamza",
+            "Il est redoublé",
+            "Il est faible"
+          ],
+          "explanation": "Il ne change que lorsqu'on l'allège."
+        },
+        {
+          "prompt": "Pourquoi allège-t-on la hamza ?",
+          "options": [
+            "C'est une lettre faible",
+            "C'est une lettre dure du fond de la gorge",
+            "Elle est ajoutée",
+            "Elle est rare"
+          ],
+          "explanation": "« Une lettre dure, du fond le plus reculé de la gorge. »"
+        },
+        {
+          "prompt": "Quand deux hamzas se rencontrent et que la seconde est quiescente, la seconde…",
+          "options": [
+            "tombe",
+            "reste",
+            "devient la lettre de la voyelle qui la précède",
+            "devient un nûn"
+          ],
+          "explanation": "La seconde prend la lettre de la voyelle de la première : âmana, ûmina, îmân."
+        },
+        {
+          "prompt": "Dans îmân, la seconde hamza est devenue…",
+          "options": [
+            "un alif",
+            "un wâw",
+            "une hamza",
+            "un yâ'"
+          ],
+          "explanation": "Après la kasra de la première hamza, la seconde quiescente est devenue yâ'."
+        },
+        {
+          "prompt": "Wa-'mul a une hamza parce que…",
+          "options": [
+            "la hamza de liaison est tombée dans le discours enchaîné",
+            "c'est un autre verbe",
+            "il est passif",
+            "à cause du wâw"
+          ],
+          "explanation": "Il ne reste qu'une hamza, et elle demeure."
+        },
+        {
+          "prompt": "Khudh, kul et mur sont…",
+          "options": [
+            "selon la règle des deux hamzas",
+            "contre la règle, par usage fréquent",
+            "des formes passives",
+            "des verbes concaves"
+          ],
+          "explanation": "Leur hamza a été supprimée contre la règle, parce qu'ils sont si souvent employés."
+        },
+        {
+          "prompt": "Coran 20:132 a…",
+          "options": [
+            "mur",
+            "ûmur",
+            "wa-'mur, selon l'origine",
+            "umur"
+          ],
+          "explanation": "Wa-'mur ahlaka bi-l-salâti : après wa-, la hamza d'origine revient."
+        }
+      ],
+      "diagram": {
+        "caption": "La seconde de deux hamzas suit la voyelle qui la précède (al-'Izzî, p. 169–170)",
+        "labels": {
+          "The second of two hamzas follows the vowel before it (al-ʿIzzī, pp. 169–170)": "La seconde de deux hamzas suit la voyelle qui la précède (al-'Izzî, p. 169–170)",
+          "Word": "Mot",
+          "Vowel of the first hamza": "Voyelle de la première hamza",
+          "Second hamza becomes": "La seconde hamza devient",
+          "fatḥa": "fatha",
+          "alif": "alif",
+          "ḍamma": "damma",
+          "wāw": "wâw",
+          "kasra": "kasra",
+          "yāʾ": "yâ'",
+          "the first has dropped": "la première est tombée",
+          "a hamza again": "de nouveau une hamza"
+        }
+      },
+      "text": [
+        "La règle du verbe hamzé dans les formes dérivées de son verbe est la règle du verbe sain, parce que la hamza est une lettre saine ; mais elle est parfois allégée quand elle n'est pas en tête, parce que c'est une lettre dure, du fond le plus reculé de la gorge.",
+        "Tu dis donc amala ya'mulu « espérer », comme nasara yansuru ; l'impératif qu'on en tire est ûmul, comme unsur : la seconde hamza est changée en wâw, parce que, quand deux hamzas se rencontrent dans un même mot et que la seconde a un sukûn, elle doit être changée en la lettre de l'espèce de la voyelle qui la précède, comme âmana, ûmina et îmânan. Si la première est une hamza de liaison, la seconde redevient hamza dans le discours enchaîné quand la lettre qui la précède a une fatha, comme wa-'mul « et espère ! ».",
+        "Ils ont supprimé la hamza dans khudh « prends ! », kul « mange ! » et mur « ordonne ! », contre la règle, à cause de l'usage fréquent ; et wa-'mur vient parfois selon l'origine dans le discours enchaîné, comme dans Sa parole, qu'Il soit exalté : wa-'mur ahlaka bi-al-salâti « et ordonne la prière à ta famille » [20:132]."
+      ]
+    },
+    "29": {
+      "title": "Les verbes hamzés sur le modèle d'autres verbes",
+      "body": [
+        "Al-'Izzî nomme maintenant, pour chaque verbe hamzé, le verbe sur lequel il va. Adaba ya'dibu, « inviter à un festin », et hana'a yahni'u, « donner », vont comme daraba yadribu ; leur impératif est îdib, la hamza radicale changée en yâ' après la kasra de la hamza de liaison. Aduba ya'dubu, « être bien élevé », va comme karuma yakrumu, impératif ûdub. Sa'ala yas'alu, « demander », va comme mana'a yamna'u, impératif is'al ; « et sâla yasâlu, avec sal, est permis, avec allègement ; son origine est is'al ».",
+        "Certains verbes sont à la fois hamzés et faibles. Âba ya'ûbu awban, « revenir », et sâ'a yasû'u, « être mauvais », vont comme sâna yasûnu ; jâ'a yajî'u, « venir », comme kâla yakîlu, « mesurer » ; et leurs agents sont sâ'in et jâ'in. Ici la hamza se tient au lâm, et le participe se termine comme ghâzin.",
+        "Asâ ya'sû, « soigner une blessure », va comme 'adâ ya'dû, « courir » ; atâ ya'tî, « venir », comme ramâ yarmî, avec l'impératif i'ti ; « et certains d'entre eux disent ti, en l'assimilant à khudh ». Wa'â ya'î, « promettre », va comme waqâ yaqî ; awâ ya'wî ayyan, « se réfugier », comme shawâ yashwî shayyan, avec l'impératif îwi, comme ishwi ; et na'â yan'â, « être loin », comme ra'â yar'â, « paître ».",
+        "C'est la méthode du Maqsûd devenue une liste : trouver le modèle, conjuguer le verbe comme lui, et laisser la hamza suivre ses quelques règles propres. Wa'â est le lafîf séparé avec une hamza pour 'ayn ; awâ est le lafîf joint avec une hamza pour fâ' ; atâ est le défectueux ; jâ'a est le concave. Chaque verbe du chapitre aboutit à un modèle déjà appris.",
+        "Un piège : ti, de atâ, et qi, de waqâ, se ressemblent : une lettre et une kasra. Ti est un abrègement qu'employaient certains Arabes, « en l'assimilant à khudh », à côté du régulier i'ti ; qi est l'impératif régulier du lafîf séparé."
+      ],
+      "terms": [
+        "un verbe à la fois hamzé et faible, comme jâ'a",
+        "l'assimilation d'une forme à une autre : ti, d'après khudh",
+        "le verbe modèle sur lequel une forme se mesure"
+      ],
+      "examples": [
+        "adaba ya'dibu comme daraba yadribu ; impératif îdib",
+        "sa'ala yas'alu ; is'al, et sal par allègement",
+        "jâ'a yajî'u, comme kâla yakîlu",
+        "atâ ya'tî comme ramâ yarmî ; i'ti, et ti assimilé à khudh"
+      ],
+      "tasks": [
+        {
+          "prompt": "Pourquoi l'impératif de adaba est-il îdib, mais celui de aduba ûdub ?",
+          "answer": "Adaba ya'dibu a une kasra sur son 'ayn ; la hamza de liaison a donc une kasra, et la hamza radicale qui la suit devient yâ'. Aduba ya'dubu a une damma ; la hamza de liaison a donc une damma, et la hamza radicale devient wâw."
+        },
+        {
+          "prompt": "Qu'est-ce que sal, et d'où vient-il ?",
+          "answer": "L'impératif de sa'ala avec la hamza allégée : son origine est is'al. La hamza partie, le sîn a une voyelle et n'a pas besoin de hamza de liaison."
+        },
+        {
+          "prompt": "Nommez le modèle de wa'â, awâ, atâ et jâ'a, et la sorte de verbe faible que suit chacun.",
+          "answer": "Wa'â comme waqâ (le lafîf séparé) ; awâ comme shawâ (le lafîf joint) ; atâ comme ramâ (le défectueux) ; jâ'a comme kâla (le concave)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Hana'a yahni'u va comme…",
+          "options": [
+            "nasara yansuru",
+            "daraba yadribu",
+            "mana'a yamna'u",
+            "karuma yakrumu"
+          ],
+          "explanation": "Kasra sur le 'ayn du mudâri'."
+        },
+        {
+          "prompt": "L'impératif allégé de sa'ala est…",
+          "options": [
+            "Isal",
+            "Sâl",
+            "Sal",
+            "As'il"
+          ],
+          "explanation": "Son origine est is'al ; la hamza allégée, le sîn a une voyelle et n'a pas besoin de hamza de liaison."
+        },
+        {
+          "prompt": "Jâ'a yajî'u va comme…",
+          "options": [
+            "sâna yasûnu",
+            "ramâ yarmî",
+            "waqâ yaqî",
+            "kâla yakîlu"
+          ],
+          "explanation": "Jâ'a yajî'u est un concave à yâ', conjugué comme kâla yakîlu."
+        },
+        {
+          "prompt": "Le participe actif de sâ'a est…",
+          "options": [
+            "Sâ'in",
+            "Sâ'i'",
+            "Sâ'il",
+            "Musî'"
+          ],
+          "explanation": "Le livre : « il est donc sâ'in et jâ'in » ; le participe se termine comme ghâzin."
+        },
+        {
+          "prompt": "Ti, de atâ, se dit…",
+          "options": [
+            "chez tous les Arabes",
+            "chez certains, en l'assimilant à khudh",
+            "au passif",
+            "seulement en vers"
+          ],
+          "explanation": "Certains Arabes disent ti, en l'assimilant à khudh ; l'impératif régulier est i'ti."
+        },
+        {
+          "prompt": "Awâ ya'wî va comme…",
+          "options": [
+            "waqâ yaqî",
+            "ra'â yar'â",
+            "shawâ yashwî",
+            "qâla yaqûlu"
+          ],
+          "explanation": "Le lafîf joint ; impératif îwi, comme ishwi."
+        },
+        {
+          "prompt": "Na'â yan'â, « être loin », va comme…",
+          "options": [
+            "ramâ yarmî",
+            "ghazâ yaghzû",
+            "waqâ yaqî",
+            "ra'â yar'â"
+          ],
+          "explanation": "Fatha avant le lâm au mudâri'."
+        }
+      ],
+      "diagram": {
+        "caption": "Les verbes hamzés et leurs modèles (al-'Izzî, p. 170–171)",
+        "labels": {
+          "Hamzated verbs and their models (al-ʿIzzī, pp. 170–171)": "Les verbes hamzés et leurs modèles (al-'Izzî, p. 170–171)",
+          "Hamzated verb": "Verbe hamzé",
+          "Like": "Comme",
+          "Command": "Impératif"
+        }
+      },
+      "text": [
+        "Adaba ya'dibu « inviter à un festin » et hana'a yahni'u « donner » sont comme daraba yadribu ; l'impératif qu'on en tire est îdib. Aduba ya'dubu « être bien élevé » est comme karuma yakrumu ; l'impératif qu'on en tire est ûdub. Sa'ala yas'alu « demander » est comme mana'a yamna'u ; l'impératif est is'al ; et sâla yasâlu, avec sal, est permis, avec allègement ; son origine est is'al.",
+        "Âba ya'ûbu awban « revenir » et sâ'a yasû'u « être mauvais » sont comme sâna yasûnu ; jâ'a yajî'u « venir » est comme kâla yakîlu « mesurer », il est donc sâ'in et jâ'in ; asâ ya'sû « soigner une blessure » est comme 'adâ ya'dû « courir » ; et atâ ya'tî « venir » est comme ramâ yarmî ; l'impératif qu'on en tire est i'ti, et certains d'entre eux disent ti, en l'assimilant à khudh.",
+        "Wa'â ya'î « promettre » est comme waqâ yaqî ; awâ ya'wî ayyan « se réfugier » est comme shawâ yashwî shayyan, l'impératif étant îwi, comme ishwi ; et na'â yan'â « être loin » est comme ra'â yar'â « paître »."
+      ]
+    },
+    "30": {
+      "title": "Ra'â et arâ",
+      "body": [
+        "Selon la règle, ra'â, « voir », irait comme na'â : ra'â yar'â. « Mais les Arabes se sont accordés à supprimer la hamza de son mudâri' » : yarâ yarayâni yarawna tarâ tarayâni yarayna tarâ tarayâni tarawna tarayna tarayâni tarayna arâ narâ. Les finales sont celles de yardâ ; seule la hamza, le 'ayn du verbe, est partie. Pour la femme et les femmes à qui l'on parle, la forme concorde, tarayna, « mais le singulier est tafayna et le pluriel tafalna » : les mesures de tardayna sans le 'ayn.",
+        "L'impératif : selon l'origine ir'a, comme ir'a [de ra'â, paître] ; et avec la suppression ra, une seule lettre, qui a besoin du hâ' à la pause : rah. Puis rayâ raw ray rayâ rayna ; avec l'insistance rayanna rayânni rawunna rayinna rayânni raynânni ; avec le nûn léger rayan rawun rayin. Ce sont les impératifs de yarâ exactement comme irda était l'impératif de yardâ, sans la hamza.",
+        "Les participes gardent la hamza : râ'in, comme râ'in [paissant], avec râ'iyâni et râ'ûna ; et le participe passif mar'iyy, comme mar'iyy [pâturé]. La suppression appartient au mudâri' et à son impératif ; elle n'atteint pas les noms.",
+        "« Le schème af'ala qu'on en tire diffère aussi de ses sœurs » : arâ yurî irâ'atan, « montrer », la hamza étant partie de toutes ses formes. Son agent est murin muriyâni murûna muriyatun muriyatâni muriyâtun, comme un participe défectueux ; ce qui subit est muran murayâni murawna, comme al-mu'tâ. L'impératif : ari ariyâ arû arî ariyâ arîna, et avec l'insistance ariyanna … arînânni ; l'interdiction : lâ turi lâ turiyâ lâ turû lâ turî lâ turiyâ lâ turîna.",
+        "Enfin, ifta'ala d'un verbe à hamza pour fâ' : îtâla, comme ikhtâra, et îtalâ, comme iqtadâ. La hamza radicale, quiescente après la hamza de liaison, est devenue un yâ', comme dans îdib. Avec cela se termine le chapitre du verbe hamzé, et avec lui la conjugaison de toutes les sortes de verbe."
+      ],
+      "terms": [
+        "la suppression de la hamza de yarâ",
+        "les mesures de tarayna pour la femme et les femmes",
+        "af'ala de ra'â : montrer"
+      ],
+      "examples": [
+        "le mudâri' de ra'â sans sa hamza",
+        "l'impératif selon l'origine, avec la suppression, et à la pause",
+        "les participes gardent la hamza",
+        "l'impératif de arâ, « montre ! »",
+        "ifta'ala d'un verbe à hamza pour fâ'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Selon la règle, ra'â aurait le mudâri' yar'â. Qu'ont fait les Arabes, et que reste-t-il ?",
+          "answer": "Ils se sont accordés à supprimer la hamza de son mudâri' : yarâ, yarayâni, yarawna, etc., avec les finales de yardâ et le 'ayn en moins."
+        },
+        {
+          "prompt": "Donnez l'impératif de ra'â des deux manières, et la forme employée à la pause.",
+          "answer": "Selon l'origine ir'a, comme ir'a [paître] ; avec la suppression ra ; et à la pause rah, avec le hâ', puisque l'impératif est d'une seule lettre."
+        },
+        {
+          "prompt": "La suppression de la hamza atteint-elle les participes de ra'â ?",
+          "answer": "Non. Les participes la gardent : râ'in, comme râ'in [paissant], et mar'iyy, comme mar'iyy [pâturé]."
+        },
+        {
+          "prompt": "Donnez l'interdiction de arâ aux six personnes.",
+          "answer": "Lâ turi, lâ turiyâ, lâ turû, lâ turî, lâ turiyâ, lâ turîna."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Sur quoi les Arabes se sont-ils accordés au mudâri' de ra'â ?",
+          "options": [
+            "Garder la hamza",
+            "Redoubler le râ'",
+            "Supprimer la hamza",
+            "Changer l'alif en wâw"
+          ],
+          "explanation": "Les Arabes se sont accordés sur yarâ, non yar'â, bien que la règle donne la hamza."
+        },
+        {
+          "prompt": "Tarawna se dit à…",
+          "options": [
+            "des femmes à qui l'on parle",
+            "une femme",
+            "deux",
+            "des hommes à qui l'on parle"
+          ],
+          "explanation": "Tarawna se dit aux hommes, comme tardawna ; tarayna sert pour la femme et les femmes."
+        },
+        {
+          "prompt": "La mesure de tarayna pour une femme est…",
+          "options": [
+            "tafayna",
+            "tafalna",
+            "taf'ayna",
+            "taf'alna"
+          ],
+          "explanation": "Le 'ayn est parti : tafayna ; celle des femmes est tafalna."
+        },
+        {
+          "prompt": "Quelle forme de ra'â garde la hamza ?",
+          "options": [
+            "Yarâ",
+            "Râ'in",
+            "Ra",
+            "Rayâ"
+          ],
+          "explanation": "Les participes la gardent : râ'in, mar'iyy."
+        },
+        {
+          "prompt": "Rah est…",
+          "options": [
+            "un autre verbe",
+            "le pluriel",
+            "ra avec le hâ' de la pause",
+            "le passif"
+          ],
+          "explanation": "Un impératif d'une lettre a besoin du hâ' à la pause."
+        },
+        {
+          "prompt": "Le mudâri' de arâ, « montrer », est…",
+          "options": [
+            "Yarâ",
+            "Yur'î",
+            "Yu'rî",
+            "Yurî"
+          ],
+          "explanation": "Arâ yurî irâ'atan : la hamza partie de toutes ses formes."
+        },
+        {
+          "prompt": "Îtâla va comme…",
+          "options": [
+            "ikhtâra",
+            "iqtadâ",
+            "istaqâma",
+            "ittaqâ"
+          ],
+          "explanation": "Ifta'ala d'un verbe concave à hamza pour fâ'."
+        }
+      ],
+      "diagram": {
+        "caption": "Ra'â à celui à qui l'on parle (al-'Izzî, p. 171–172)",
+        "labels": {
+          "Raʾā to the one addressed (al-ʿIzzī, pp. 171–172)": "Ra'â à celui à qui l'on parle (al-'Izzî, p. 171–172)",
+          "To": "À",
+          "Muḍāriʿ": "Mudâri'",
+          "Command": "Impératif",
+          "With emphasis": "Avec insistance",
+          "one man": "un homme",
+          "two": "deux",
+          "men": "des hommes",
+          "one woman": "une femme",
+          "women": "des femmes"
+        }
+      },
+      "text": [
+        "Telle est aussi la règle de ra'â yar'â « voir » ; mais les Arabes se sont accordés à supprimer la hamza de son mudâri', et ont dit yarâ yarayâni yarawna tarâ tarayâni yarayna tarâ tarayâni tarawna tarayna tarayâni tarayna arâ narâ. À la deuxième personne du féminin, la forme du singulier et celle du pluriel concordent, mais le singulier est tafayna et le pluriel tafalna.",
+        "Quand tu en tires l'impératif, tu dis selon l'origine ir'a, comme ir'a [paître], et avec la suppression ra ; à la pause, le hâ' lui est nécessaire ; tu dis donc rah rayâ raw ray rayâ rayna « vois ! » ; avec l'insistance rayanna rayânni rawunna rayinna rayânni raynânni ; et avec le léger rayan rawun rayin.",
+        "Il est donc râ'in, comme râ'in [paissant], râ'iyâni râ'ûna, comme râ'iyâni râ'ûna ; et cela est mar'iyyun, comme mar'iyyin [pâturé].",
+        "Le schème af'ala qu'on en tire diffère aussi de ses sœurs : tu dis arâ yurî irâ'atan « montrer », il est donc murin muriyâni murûna muriyatun muriyatâni muriyâtun, et cela est muran murayâni murawna murayatun murayatâni murayâtun.",
+        "À l'impératif, tu dis ari ariyâ arû arî ariyâ arîna « montre ! », et avec l'insistance ariyanna ariyânni arunna arinna ariyânni arînânni. À l'interdiction, tu dis lâ turi lâ turiyâ lâ turû lâ turî lâ turiyâ lâ turîna, et avec l'insistance lâ turiyanna lâ turiyânni lâ turunna lâ turinna lâ turiyânni lâ turînânni.",
+        "Tu dis à ifta'ala du verbe hamzé au fâ' : îtâla, comme ikhtâra, et îtalâ, comme iqtadâ."
+      ]
+    },
+    "31": {
+      "title": "Les noms de temps et de lieu",
+      "body": [
+        "Les noms de temps et de lieu se forment « de yaf'ilu, avec kasra, sur maf'il, avec kasra sur le 'ayn, comme al-majlis, « le lieu où l'on s'assied », et al-mabît, « le lieu où l'on passe la nuit » ; et de yaf'alu, avec fatha ou damma sur le 'ayn, sur maf'al, avec fatha, comme al-madhhab, « la voie où l'on va », al-mashrab, « le lieu où l'on boit », et al-maqâm, « le lieu où l'on se tient » ». Comme dans le Maqsûd, la règle regarde le mudâri', non le passé.",
+        "« Sont irréguliers al-masjid, « le lieu de la prosternation », al-mashriq, « l'orient », al-maghrib, « l'occident », al-matli', al-majzir, al-mafriq, al-maskin, al-manbit, al-masqit, al-mansik et al-marfiq, « le coude » » : tous avec kasra, bien que leur mudâri' ait une damma (yasjudu, yashruqu). « La fatha est rapportée dans certains d'entre eux, et permise dans tous. » La liste du Maqsûd était presque la même, mais pas tout à fait : al-'Izzî a al-maghrib et al-marfiq, le Maqsûd al-mankhir et al-majmi'. De telles listes s'apprennent par l'écoute.",
+        "« Cela, quand le verbe est sain au fâ' et au lâm. » Du verbe faible au fâ', le nom « a toujours la kasra » : al-maw'id, « le rendez-vous », al-mawdi', « le lieu », al-mawsim, « la saison » ; même wada'a, dont le mudâri' yada'u a une fatha, donne al-mawdi'. Du verbe faible au lâm, il « a toujours la fatha » : al-marmâ, « la cible », al-ma'wâ, « le refuge », al-mar'â, al-mardâ, al-maghzâ ; même ramâ, dont le mudâri' yarmî a une kasra, donne al-marmâ.",
+        "« Le tâ' du féminin vient parfois sur certains d'entre eux » : al-mazinna, « le lieu probable », al-maqbara, « le cimetière », al-mashraqa, « le lieu ensoleillé » ; « et al-maqbura et al-mashruqa, avec damma dans les deux, sont irréguliers ». Le tâ' ne rend pas ici le nom féminin par le sens ; il fait seulement partie du mot tel qu'on l'a entendu.",
+        "Les lettres faibles l'emportent donc sur la voyelle du mudâri'. Un wâw au début tire le nom vers maf'il ; une lettre faible à la fin le tire vers maf'al, où il peut se terminer par un alif. L'étudiant qui se demande d'abord « le fâ' ou le lâm est-il faible ? » et ensuite seulement « quel est le mudâri' ? » formera ces noms correctement."
+      ],
+      "terms": [
+        "les noms de temps et de lieu",
+        "leurs deux schèmes, avec kasra et avec fatha",
+        "les irréguliers : al-masjid, al-mashriq et les autres"
+      ],
+      "examples": [
+        "al-majlis, al-mabît : maf'il de yaf'ilu",
+        "al-madhhab, al-mashrab, al-maqâm : maf'al",
+        "la kasra contre la règle",
+        "toujours la kasra d'un fâ' faible, toujours la fatha d'un lâm faible"
+      ],
+      "tasks": [
+        {
+          "prompt": "Formez le nom de lieu de jalasa yajlisu et de dhahaba yadhhabu, et donnez la règle.",
+          "answer": "Al-majlis et al-madhhab. De yaf'ilu, le nom est sur maf'il, avec kasra ; de yaf'alu ou yaf'ulu, sur maf'al, avec fatha."
+        },
+        {
+          "prompt": "Yada'u a une fatha, et pourtant le nom est al-mawdi', avec kasra. Pourquoi ?",
+          "answer": "Wada'a est faible au fâ', et d'un tel verbe le nom de lieu a toujours la kasra, quel que soit le mudâri'."
+        },
+        {
+          "prompt": "Pourquoi al-masjid est-il dit irrégulier ?",
+          "answer": "Son mudâri' est yasjudu, avec damma ; la règle donne donc maf'al ; et pourtant on l'entend avec kasra. La fatha est rapportée dans certains de ces mots et permise dans tous."
+        },
+        {
+          "prompt": "Quels mots la liste des irréguliers d'al-'Izzî a-t-elle que celle du Maqsûd n'a pas, et inversement ?",
+          "answer": "Al-'Izzî a al-maghrib et al-marfiq ; le Maqsûd a al-mankhir et al-majmi'. Les autres sont communs."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le nom de lieu tiré d'un mudâri' sur yaf'ilu est sur…",
+          "options": [
+            "maf'al",
+            "muf'al",
+            "mif'al",
+            "maf'il"
+          ],
+          "explanation": "De yaf'ilu, le nom de lieu est maf'il, avec kasra : al-majlis, al-mabît."
+        },
+        {
+          "prompt": "Al-maqâm, « le lieu où l'on se tient », est sur…",
+          "options": [
+            "maf'al",
+            "maf'il",
+            "muf'al",
+            "fi'âl"
+          ],
+          "explanation": "Qâma yaqûmu a une damma à son mudâri'."
+        },
+        {
+          "prompt": "Lequel est irrégulier ?",
+          "options": [
+            "Al-madhhab",
+            "Al-mashriq",
+            "Al-majlis",
+            "Al-mashrab"
+          ],
+          "explanation": "Kasra bien que le mudâri' ait une damma."
+        },
+        {
+          "prompt": "D'un verbe faible au fâ', le nom de lieu…",
+          "options": [
+            "a toujours la fatha",
+            "suit le mudâri'",
+            "a toujours la kasra",
+            "a la damma"
+          ],
+          "explanation": "Al-maw'id, al-mawdi', al-mawsim."
+        },
+        {
+          "prompt": "Al-marmâ a une fatha parce que…",
+          "options": [
+            "yarmî a une fatha",
+            "il est irrégulier",
+            "c'est un masdar",
+            "le verbe est faible au lâm"
+          ],
+          "explanation": "D'un lâm faible, le nom a toujours la fatha."
+        },
+        {
+          "prompt": "Quelle forme avec damma est dite irrégulière ?",
+          "options": [
+            "Al-maqbura",
+            "Al-maqbara",
+            "Al-mazinna",
+            "Al-mashraqa"
+          ],
+          "explanation": "Al-maqbura et al-mashruqa, avec damma, sont irréguliers ; al-maqbara et al-mashraqa sont la règle."
+        },
+        {
+          "prompt": "Que dit le livre de la fatha dans les mots irréguliers ?",
+          "options": [
+            "Jamais permise",
+            "Rapportée dans certains, permise dans tous",
+            "Obligatoire",
+            "Seulement en vers"
+          ],
+          "explanation": "« Wa-hukiya al-fath fî ba'dihâ wa-ujîza fî kullihâ. »"
+        }
+      ],
+      "diagram": {
+        "caption": "Les noms de temps et de lieu (al-'Izzî, p. 173–174)",
+        "labels": {
+          "The nouns of time and place (al-ʿIzzī, pp. 173–174)": "Les noms de temps et de lieu (al-'Izzî, p. 173–174)",
+          "Verb": "Verbe",
+          "Pattern": "Schème",
+          "Examples": "Exemples",
+          "muḍāriʿ on yafʿilu": "mudâri' sur yaf'ilu",
+          "muḍāriʿ on yafʿalu, yafʿulu": "mudâri' sur yaf'alu, yaf'ulu",
+          "irregular": "irrégulier",
+          "weak fāʾ": "fâ' faible",
+          "مَفْعِلٌ always": "مَفْعِلٌ toujours",
+          "weak lām": "lâm faible",
+          "مَفْعَلٌ always": "مَفْعَلٌ toujours"
+        }
+      },
+      "text": [
+        "Les noms de temps et de lieu se forment de yaf'ilu, avec kasra, sur maf'ilin, avec kasra sur le 'ayn, comme al-majlisi « le lieu où l'on s'assied » et al-mabîti « le lieu où l'on passe la nuit » ; et de yaf'alu, avec fatha ou damma sur le 'ayn, sur maf'alin, avec fatha, comme al-madhhabi « la voie où l'on va », al-mashrabi « le lieu où l'on boit » et al-maqâmi « le lieu où l'on se tient ».",
+        "Sont irréguliers al-masjidu « le lieu de la prosternation », al-mashriqu « l'orient », al-maghribu « l'occident », al-matli'u « le lieu du lever », al-majziru « le lieu de l'abattage », al-mafriqu « la raie [des cheveux] », al-maskinu « la demeure », al-manbitu « le lieu où pousse [la plante] », al-masqitu « le lieu de la chute », al-mansiku « le lieu des rites » et al-marfiqu « le coude » ; la fatha est rapportée dans certains d'entre eux, et permise dans tous. Cela, quand le verbe est sain au fâ' et au lâm.",
+        "Du verbe faible au fâ', il a toujours la kasra, comme al-maw'idi « le rendez-vous », al-mawdi'i « le lieu » et al-mawsimi « la saison » ; et du verbe faible au lâm, il a toujours la fatha, comme al-marmâ « la cible », al-ma'wâ « le refuge », al-mar'â « le pâturage », al-mardâ et al-maghzâ « le but ». Le tâ' du féminin vient parfois sur certains d'entre eux, comme al-mazinnati « le lieu probable », al-maqbarati « le cimetière » et al-mashraqati « le lieu ensoleillé » ; et al-maqburatu et al-mashruqatu, avec damma dans les deux, sont irréguliers."
+      ]
+    },
+    "32": {
+      "title": "Les verbes plus longs, l'abondance, l'instrument, la fois et la manière",
+      "body": [
+        "« Ce qui a plus de trois [lettres] est comme le participe passif » : al-mudkhal, « l'entrée », al-muqâm, « le lieu de séjour ». Le même mot sert de participe passif et de nom de lieu : mudkhal est « celui qu'on fait entrer » et « l'entrée ». Comparez al-maqâm de la leçon précédente : de qâma, avec fatha, le lieu où l'on se tient ; al-muqâm, de aqâma, avec damma, le lieu de séjour.",
+        "« Quand une chose abonde en un lieu, on en dit maf'ala, avec fatha, du trilitère nu » : ardun masba'atun, « une terre pleine de bêtes féroces », ma'sada, « pleine de lions », madh'aba, « pleine de loups », mabtakha, « pleine de pastèques », maqtha'a, « pleine de concombres ». Ceux-ci se forment de noms, sab', asad, dhi'b, bittîkh, qiththâ', non de verbes.",
+        "Le nom d'instrument (ism al-âla) est « ce avec quoi l'agent agit sur ce qui subit, pour que l'effet l'atteigne ». Il vient sur le modèle de mihlab, « un seau à traire », miksaha, « un balai », miftâh, « une clé », misfâh, « une passoire » : mif'al, mif'ala, mif'âl, toujours avec kasra sur le mîm. « Ils ont dit mirqât, une échelle, sur ce [schème], et qui donne la fatha au mîm veut dire le lieu. » Irréguliers, « avec damma sur le mîm et le 'ayn » : mudhun, mus'ut, muduqq, munkhul, mukhula, muhruda ; tandis que midaqq et midaqqa « sont venus selon la règle ».",
+        "Une remarque finale (tanbîh). Le nom de fois (al-marra) tiré du masdar du trilitère nu est sur fa'la : darabtu darbatan, « j'ai frappé une fois », qumtu qawmatan, « je me suis levé une fois ». Des verbes plus longs, il se forme par l'ajout du tâ' : al-i'tâ'a, al-intilâqa. Là où le masdar a déjà le tâ', « la qualification par « un » est nécessaire » : rahimtuhu rahmatan wâhidatan, dahrajtuhu dahrajatan wâhidatan, puisque rahma seul ne montrerait pas que cela a eu lieu une fois.",
+        "« Et al-fi'la, avec kasra, est pour la sorte de l'action » : hasanu al-ti'mati wa-l-jilsati, « qui a une belle manière de manger et de s'asseoir ». Une voyelle sépare les deux : fa'la compte l'acte, fi'la décrit sa manière. Avec ces deux schèmes, al-'Izzî termine son livre."
+      ],
+      "terms": [
+        "le nom d'instrument",
+        "le nom de fois : fa'la",
+        "le nom de manière : fi'la",
+        "maf'ala pour un lieu plein de quelque chose"
+      ],
+      "examples": [
+        "al-mudkhal, al-muqâm : comme le participe passif",
+        "maf'ala : une terre pleine de bêtes, de lions, de loups",
+        "des noms d'instrument",
+        "le nom de fois",
+        "avec « un » là où le masdar a le tâ'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Al-maqâm et al-muqâm : de quels verbes, et que veut dire chacun ?",
+          "answer": "Al-maqâm de qâma yaqûmu, sur maf'al : le lieu où l'on se tient. Al-muqâm de aqâma, sur le participe passif : le lieu de séjour."
+        },
+        {
+          "prompt": "Que veut dire ardun ma'sadatun, et de quoi ma'sada est-il formé ?",
+          "answer": "« Une terre pleine de lions ». Ma'sada est maf'ala formé du nom asad, « lion », pour un lieu où la chose abonde."
+        },
+        {
+          "prompt": "Pourquoi dit-on rahimtuhu rahmatan wâhidatan, et non simplement rahmatan ?",
+          "answer": "Le masdar rahma se termine déjà par le tâ' ; rahmatan seul ne peut donc pas montrer « une fois » ; il faut ajouter le mot wâhidatan."
+        },
+        {
+          "prompt": "Qu'est-ce qui sépare le nom de fois du nom de manière ? Prenez les exemples du livre.",
+          "answer": "La première voyelle : fa'la avec fatha compte l'acte (darabtu darbatan, « j'ai frappé une fois ») ; fi'la avec kasra décrit la manière (hasanu al-ti'mati, « qui a une belle manière de manger »)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Le nom de lieu tiré d'un verbe de plus de trois lettres est…",
+          "options": [
+            "comme le participe passif",
+            "sur maf'il",
+            "sur maf'al",
+            "sur mif'âl"
+          ],
+          "explanation": "Au-delà de trois lettres, le nom de lieu est comme le participe passif : al-mudkhal, al-muqâm."
+        },
+        {
+          "prompt": "Ardun masba'atun veut dire…",
+          "options": [
+            "une terre de sept",
+            "une terre pleine de bêtes féroces",
+            "une terre de moutons",
+            "une terre sauvage"
+          ],
+          "explanation": "Maf'ala pour l'abondance, de sab'."
+        },
+        {
+          "prompt": "Le nom d'instrument a, sur son mîm…",
+          "options": [
+            "une fatha",
+            "une damma",
+            "une kasra",
+            "un sukûn"
+          ],
+          "explanation": "Mihlab, miksaha, miftâh ; avec fatha, il veut dire le lieu."
+        },
+        {
+          "prompt": "Quel nom d'instrument est irrégulier ?",
+          "options": [
+            "Miftâh",
+            "Mihlab",
+            "Midaqq",
+            "Munkhul"
+          ],
+          "explanation": "Damma sur le mîm et le 'ayn ; midaqq est selon la règle."
+        },
+        {
+          "prompt": "Le nom de fois du trilitère nu est sur…",
+          "options": [
+            "fa'la",
+            "fi'la",
+            "fu'la",
+            "maf'ala"
+          ],
+          "explanation": "Darabtu darbatan, qumtu qawmatan."
+        },
+        {
+          "prompt": "Comment le nom de fois se forme-t-il d'un verbe plus long ?",
+          "options": [
+            "Sur fa'la",
+            "Par l'ajout du tâ' au masdar",
+            "Avec un mîm",
+            "C'est impossible"
+          ],
+          "explanation": "D'un verbe plus long, on ajoute le tâ' au masdar : al-i'tâ'a, al-intilâqa."
+        },
+        {
+          "prompt": "Al-jilsa, avec kasra, veut dire…",
+          "options": [
+            "une seule séance",
+            "un lieu où l'on s'assied",
+            "une manière de s'asseoir",
+            "quelqu'un qui est assis"
+          ],
+          "explanation": "Fi'la est pour la sorte de l'action."
+        }
+      ],
+      "diagram": {
+        "caption": "Les derniers noms du livre (al-'Izzî, p. 174–176)",
+        "labels": {
+          "The last nouns of the book (al-ʿIzzī, pp. 174–176)": "Les derniers noms du livre (al-'Izzî, p. 174–176)",
+          "Noun": "Nom",
+          "Pattern": "Schème",
+          "Examples": "Exemples",
+          "place, above three letters": "lieu, au-delà de trois lettres",
+          "as the passive participle": "comme le participe passif",
+          "place of plenty": "lieu d'abondance",
+          "instrument": "instrument",
+          "instrument, irregular": "instrument, irrégulier",
+          "ḍamma on mīm and ʿayn": "damma sur le mîm et le 'ayn",
+          "once": "fois",
+          "manner": "manière"
+        }
+      },
+      "text": [
+        "Ce qui a plus de trois [lettres] est comme le participe passif, comme al-mudkhali « l'entrée » et al-muqâmi « le lieu de séjour ». Quand une chose abonde en un lieu, on en dit maf'alatun, avec fatha, du trilitère nu : on dit ardun masba'atun « une terre pleine de bêtes féroces », ma'sadatun « pleine de lions », madh'abatun « pleine de loups », mabtakhatun « pleine de pastèques » et maqtha'atun « pleine de concombres ».",
+        "Quant au nom d'instrument (ism al-âla), qui est ce avec quoi l'agent agit sur ce qui subit, pour que l'effet l'atteigne, il vient sur le modèle de mihlabin « un seau à traire », miksahatin « un balai », miftâhin « une clé » et misfâtin « une passoire » ; ils ont dit mirqâtun « une échelle » sur ce [schème], et qui donne la fatha au mîm veut dire le lieu. Sont irréguliers mudhunun « un flacon à huile », mus'utun « un vase pour les gouttes nasales », muduqqun « un pilon », munkhulun « un tamis », mukhulatun « un pot à khôl » et muhrudatun « un vase pour la soude », avec damma sur le mîm et le 'ayn ; et midaqqun et midaqqatun sont venus selon la règle.",
+        "Le nom de fois (al-marra) tiré du masdar du trilitère nu est sur fa'latin, avec fatha ; tu dis darabtu darbatan « j'ai frappé une fois » et qumtu qawmatan « je me suis levé une fois » ; et de ce qui a plus de trois [lettres], il se forme par l'ajout du hâ', comme al-i'tâ'ati « un don » et al-intilâqati « un départ » ; sauf le masdar de l'un ou l'autre qui a le tâ' du féminin : la qualification par « un » y est nécessaire, comme quand tu dis rahimtuhu rahmatan wâhidatan « j'ai eu pitié de lui une fois » et dahrajtuhu dahrajatan wâhidatan « je l'ai roulé une fois ». Al-fi'latu, avec kasra, est pour la sorte de l'action ; tu dis hasanu al-ti'mati wa-al-jilsati « qui a une belle manière de manger et de s'asseoir »."
+      ]
     }
   }
 }

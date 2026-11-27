@@ -301,3 +301,8 @@ de Engelse bronlijst, `packages/content/i18n/GLOSSARY.md`: Stijl, Woorden onder 
   "niveau", "pad", "toets", "oefening" zoals daar.
 - **Perzische verzen** in een Arabisch boek (het eind van de Bina'): in transliteratie met de betekenis, zoals in het
   Engels.
+- **Basrans en Kufans**: "de Basrische grammatici" / "de Kufiërs" (bijvoeglijk "Basrisch", "Kufisch"); "de mensen van
+  de Hijaz", "de Banu Tamim" zoals in het Engels.
+- **Heard / analogical / abstract governor** (de 'Awamil-boeken): gehoorde regeerder (sama'i), regeerder naar analogie
+  (qiyasi), abstracte regeerder (ma'nawi); "uitgesproken" voor lafzi. Dropping (hadhf) als kenteken: "het weglaten
+  van de klinker / de laatste letter / de nun", mv. "weglatingen".

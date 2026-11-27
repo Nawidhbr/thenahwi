@@ -1,0 +1,2646 @@
+{
+ "parts": {
+  "verb": "Het werkwoord en zijn tijden",
+  "past": "De madi",
+  "mudari": "De mudari'",
+  "lan-and-lam": "Ontkenning met lan en lam",
+  "emphasis": "De lam en de nuns van de nadruk",
+  "amr": "De gebiedende wijs",
+  "nahy": "Het verbod",
+  "nouns": "De afgeleide naamwoorden"
+ },
+ "lessons": {
+  "1": {
+   "title": "De drie tijden, en de madi",
+   "body": [
+    "Na een Arabische hamdala wendt het boek zich in het Perzisch tot de student, met een Arabisch gebed voor hem: as'adaka Allahu ta'ala fi al-darayni, “moge God de Verhevene je gelukkig maken in beide woningen”. Dan zijn eerste regel: alle werkwoorden die van vorm veranderen (af'al munsarifa) zijn van drie soorten, verleden (madi), toekomst (mustaqbal) en heden (hal), en “wat anders is dan deze drie, vertakt zich daaruit”. De gebiedende wijs, het verbod en de deelwoorden, die later in het boek komen, worden allemaal hieruit gebouwd.",
+    "De madi is “een werkwoord dat op de verleden tijd betrekking heeft, en waarvan het eind vast (mabni) is op de fatha, of zijn letters nu weinig of veel zijn, behalve door een toeval”. Vast betekent dat het eind niet verandert door een regeerder; het “toeval” ('arid) is wat eraan vastgemaakt wordt, zoals de tabellen zullen laten zien: fa'alu voor de waw van de groep, fa'altu voor een voornaamwoord met klinker.",
+    "Hij heeft vier patronen: fa'ala, fa'ila, fa'ula en fa'lala, zoals daraba, “hij sloeg”, sami'a, “hij hoorde”, karuma, “hij was edel”, en ba'thara, “hij strooide uit”. De eerste drie hebben drie stamletters en verschillen alleen in de klinker van de middelste; de vierde heeft er vier.",
+    "De letters f, 'ayn en l zijn de weegschaal (mizan) van de titel: elk werkwoord wordt erop gewogen. In daraba staat de d (de dad) op de plaats van de f, en heet de fa' van het woord; de r is zijn 'ayn; de b is zijn lam. Tegenover een vierde stamletter staat een tweede lam, zoals in ba'thara, fa'lala. De student die een woord kan wegen, kan zijn patroon vinden, en uit het patroon al zijn vormen."
+   ],
+   "terms": [
+    "de madi: vast op de fatha",
+    "de toekomst (mustaqbal), de naam die het boek aan de mudari' geeft",
+    "het heden (hal), dat de vorm van de toekomst heeft",
+    "de weegschaal f-'-l waarop woorden gewogen worden"
+   ],
+   "examples": [
+    "as'adaka Allahu ta'ala fi al-darayni, “moge God je gelukkig maken in beide woningen”",
+    "daraba, sami'a, karuma, ba'thara: de vier madi's van het boek",
+    "de vier patronen van de madi op de weegschaal"
+   ],
+   "tasks": [
+    {
+     "prompt": "Weeg daraba, sami'a en karuma op de weegschaal, en noem de fa', de 'ayn en de lam van daraba.",
+     "answer": "Daraba is fa'ala, sami'a fa'ila, karuma fa'ula. In daraba is de fa' de d (dad), de 'ayn de r, de lam de b."
+    },
+    {
+     "prompt": "Wat zijn de drie tijden van het werkwoord, en wat “vertakt zich” daaruit?",
+     "answer": "Verleden, toekomst en heden. Elke andere vorm, de gebiedende wijs, het verbod, de deelwoorden en de rest, wordt daaruit gebouwd."
+    },
+    {
+     "prompt": "Waarom wordt ba'thara gewogen als fa'lala, met twee lams?",
+     "answer": "Het heeft vier stamletters, b-'-th-r. De weegschaal heeft maar drie letters, dus tegenover de vierde stamletter wordt de lam herhaald: fa'lala."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In hoeveel soorten verdeelt het boek de vervoegde werkwoorden?",
+     "options": [
+      "Twee: verleden en heden",
+      "Drie: verleden, toekomst, heden",
+      "Vier",
+      "Veertien"
+     ],
+     "explanation": "Al het andere vertakt zich uit deze drie."
+    },
+    {
+     "prompt": "Het eind van de madi is…",
+     "options": [
+      "in raf'",
+      "vast op de sukun",
+      "vast op de fatha, behalve door een toeval",
+      "in jazm"
+     ],
+     "explanation": "Fa'ala; het toeval is wat eraan vastgemaakt wordt."
+    },
+    {
+     "prompt": "Sami'a staat op het patroon…",
+     "options": [
+      "fa'ala",
+      "fa'ula",
+      "fa'lala",
+      "fa'ila"
+     ],
+     "explanation": "De 'ayn neemt een kasra."
+    },
+    {
+     "prompt": "Karuma betekent…",
+     "options": [
+      "hij was edel",
+      "hij sloeg",
+      "hij hoorde",
+      "hij strooide uit"
+     ],
+     "explanation": "Fa'ula, het patroon van eigenschappen."
+    },
+    {
+     "prompt": "In daraba is de 'ayn van het woord…",
+     "options": [
+      "d (de dad)",
+      "r",
+      "b",
+      "a"
+     ],
+     "explanation": "De d is de fa', de r de 'ayn, de b de lam."
+    },
+    {
+     "prompt": "Waarom heet het boek “de weegschaal”?",
+     "options": [
+      "Het weegt goede en slechte daden",
+      "Het gaat over maten",
+      "Elk werkwoord wordt gewogen op f-'-l",
+      "Het telt de werkwoorden"
+     ],
+     "explanation": "Fa'ala is de weegschaal (mizan) van elk woord."
+    },
+    {
+     "prompt": "Welke madi heeft vier stamletters?",
+     "options": [
+      "Daraba",
+      "Sami'a",
+      "Karuma",
+      "Ba'thara"
+     ],
+     "explanation": "Fa'lala: b-'-th-r, vier stamletters."
+    }
+   ],
+   "diagram": {
+    "caption": "De vier patronen van de madi (blz. 3)",
+    "labels": {
+     "Pattern": "Patroon",
+     "The book's example": "Voorbeeld van het boek",
+     "Meaning": "Betekenis",
+     "he hit": "hij sloeg",
+     "he heard": "hij hoorde",
+     "he was noble": "hij was edel",
+     "he scattered": "hij strooide uit"
+    }
+   }
+  },
+  "2": {
+   "title": "De toekomst en het heden; de veertien vormen",
+   "body": [
+    "De toekomst (mustaqbal) is “een werkwoord dat betrekking heeft op de tijd die komt, en waarvan het eind marfu' is, behalve door een toeval”, een regeerder zoals lan of lam, die de latere tabellen brengen. De patronen volgen die van de madi: yaf'alu, yaf'ilu, yaf'ulu en yufa'lilu, zoals yadribu, yasma'u, yakrumu en yuba'thiru. Het heden (hal) “heeft betrekking op de tijd die nu is”, en zijn vorm is dezelfde als die van de toekomst: yadribu is “hij slaat” of “hij zal slaan”, en alleen het verband zegt welke. Daarom spreekt het boek over één vorm, die andere boeken de mudari' noemen.",
+    "“Uit elk van deze, de madi en de mudari', komen veertien woorden voort”: drie voor de mannelijke afwezige, drie voor de vrouwelijke afwezige, drie voor de mannelijke aanwezige, drie voor de vrouwelijke aanwezige, en twee voor “het verslag van de spreker over zichzelf” (hikayat nafs al-mutakallim). Elk drietal is één, twee en veel. De madrasa's van India noemen de personen met deze woorden: gha'ib, “afwezig”, voor de derde persoon; hadir, “aanwezig”, voor degene die aangesproken wordt; mutakallim voor de spreker.",
+    "In de twee vormen van de spreker zijn mannelijk en vrouwelijk gelijk: fa'altu, “ik deed”, wordt gezegd door een man of een vrouw; en fa'alna, “wij deden”, door twee of meer, mannen of vrouwen. Dus 6 + 6 + 2 = 14.",
+    "Elk van madi en mudari' is actief (ma'ruf), met een bekende fa'il, of passief (majhul), met een fa'il die niet genoemd wordt; en elk daarvan is bevestigend (ithbat) of ontkennend (nafy). Het boek volgt deze volgorde tabel voor tabel: actief, passief, ontkend actief, ontkend passief. De student leert elke tabel uit het hoofd en kan elke vorm erin benoemen: fa'alat is “de enkelvoudige vrouwelijke afwezige van de bevestigende actieve madi”."
+   ],
+   "terms": [
+    "de afwezige: de derde persoon",
+    "de aanwezige: degene die aangesproken wordt, de tweede persoon",
+    "het verslag van de spreker over zichzelf: de eerste persoon",
+    "het actief en het passief"
+   ],
+   "examples": [
+    "yadribu, yasma'u, yakrumu, yuba'thiru: de vier toekomstvormen",
+    "de vier patronen van de toekomst",
+    "fa'altu, fa'alna: gelijk voor mannen en vrouwen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Tel de veertien vormen per groep.",
+     "answer": "Mannelijke afwezige 3 (één, twee, veel), vrouwelijke afwezige 3, mannelijke aanwezige 3, vrouwelijke aanwezige 3, de spreker 2 (alleen; met anderen): 14."
+    },
+    {
+     "prompt": "Waarom heeft de spreker maar twee vormen, en geen zes?",
+     "answer": "In de vormen van de spreker zijn mannelijk en vrouwelijk gelijk, en ook het tweevoud en het meervoud: één vorm voor “ik”, één voor “wij”."
+    },
+    {
+     "prompt": "Welke toekomstvorm hoort bij elke madi: daraba, sami'a, karuma, ba'thara? Wat verandert er in de middelste letter?",
+     "answer": "Daraba → yadribu ('ayn met kasra), sami'a → yasma'u (fatha), karuma → yakrumu (damma), ba'thara → yuba'thiru (vier letters, het voorvoegsel met damma)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De toekomst (mustaqbal) heeft betrekking op…",
+     "options": [
+      "de verleden tijd",
+      "geen tijd",
+      "de tijd die komt",
+      "alleen de tijd van het spreken"
+     ],
+     "explanation": "Zijn eind is marfu', behalve door een toeval."
+    },
+    {
+     "prompt": "De vorm van het heden (hal) is…",
+     "options": [
+      "dezelfde als die van de madi",
+      "de gebiedende wijs",
+      "anders dan beide",
+      "dezelfde als die van de toekomst"
+     ],
+     "explanation": "Yadribu: “hij slaat” of “hij zal slaan”."
+    },
+    {
+     "prompt": "Hoeveel vormen komen er uit elk van madi en mudari'?",
+     "options": [
+      "Veertien",
+      "Twaalf",
+      "Zes",
+      "Acht"
+     ],
+     "explanation": "Zes afwezige, zes aanwezige, twee van de spreker."
+    },
+    {
+     "prompt": "Hadir, “aanwezig”, betekent in het boek…",
+     "options": [
+      "de tegenwoordige tijd",
+      "degene die aangesproken wordt",
+      "de spreker",
+      "de afwezige"
+     ],
+     "explanation": "De tweede persoon."
+    },
+    {
+     "prompt": "Fa'altu wordt gezegd door…",
+     "options": [
+      "alleen een man",
+      "alleen een vrouw",
+      "een man of een vrouw",
+      "twee mensen"
+     ],
+     "explanation": "In de vormen van de spreker zijn mannelijk en vrouwelijk gelijk."
+    },
+    {
+     "prompt": "Majhul betekent in het boek…",
+     "options": [
+      "het ontkende werkwoord",
+      "de toekomst",
+      "een onbekend woord",
+      "het passief: de fa'il wordt niet genoemd"
+     ],
+     "explanation": "Ma'ruf is het actief."
+    },
+    {
+     "prompt": "Yasma'u is de toekomstvorm van…",
+     "options": [
+      "sami'a",
+      "daraba",
+      "karuma",
+      "ba'thara"
+     ],
+     "explanation": "Fa'ila → yaf'alu."
+    }
+   ],
+   "diagram": {
+    "caption": "De veertien vormen van de madi en de mudari' (blz. 4)",
+    "labels": {
+     "Fourteen forms": "Veertien vormen",
+     "masculine absent: 3": "mannelijke afwezige: 3",
+     "feminine absent: 3": "vrouwelijke afwezige: 3",
+     "masculine present: 3": "mannelijke aanwezige: 3",
+     "feminine present: 3": "vrouwelijke aanwezige: 3",
+     "the speaker: 2": "de spreker: 2"
+    }
+   }
+  },
+  "3": {
+   "title": "De bevestigende actieve madi",
+   "body": [
+    "De eerste tabel is fa'ala in zijn veertien vormen. Lees ze per drie: fa'ala, fa'ala [tweevoud], fa'alu, “hij deed, zij tweeën deden, zij deden”; fa'alat, fa'alata, fa'alna, voor vrouwen; fa'alta, fa'altuma, fa'altum, tot mannen die aangesproken worden; fa'alti, fa'altuma, fa'altunna, tot vrouwen die aangesproken worden; en fa'altu, fa'alna [met lange a], de spreker.",
+    "De stam fa'al- verandert niet; wat verandert is de uitgang. Sommige uitgangen zijn voornaamwoorden, de fa'il zelf: de alif van het tweevoud (lange -a), de waw van de groep (lange -u), de nun van de vrouwen (-na), en de ta' van de aangesprokene of van de spreker (-ta, -tuma, -tum, -ti, -tunna, -tu), en -na met lange a. Eén is alleen een teken: de ta' van het vrouwelijk in fa'alat, die een vrouwelijke fa'il aangeeft maar niet de fa'il is.",
+    "Hier is het “toeval” van de eerste les. Het eind, de lam, houdt zijn fatha in fa'ala, fa'ala [tweevoud], fa'alat en fa'alata. Voor de waw van de groep neemt het een damma, fa'alu; voor de voornaamwoorden met klinker neemt het een sukun: fa'alna, fa'alta, fa'altu, fa'alna [met lange a].",
+    "Twee vormen zijn gelijk: fa'altuma is zowel “jullie tweeën (mannen) deden” als “jullie tweeën (vrouwen) deden”, en het boek schrijft het twee keer om de veertien vol te houden. Als de tabel geleerd is, gaat elk gaaf werkwoord van het patroon op dezelfde manier: nasara, nasara [tweevoud], nasaru, “hij hielp, zij tweeën hielpen, zij hielpen”."
+   ],
+   "terms": [
+    "de alif van het tweevoud, lange -a",
+    "de waw van de groep, lange -u",
+    "de ta' van het vrouwelijk, -at: een teken, geen voornaamwoord",
+    "de nun van het vrouwelijk meervoud, -na"
+   ],
+   "examples": [
+    "fa'ala, fa'ala [tweevoud], fa'alu: de mannelijke afwezige",
+    "fa'altu, fa'alna [met lange a]: de spreker",
+    "nasara, nasara [tweevoud], nasaru (engine): dezelfde tabel bij een ander werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de veertien vormen van nasara, “helpen”, naar de tabel van fa'ala.",
+     "answer": "نَصَرَ، نَصَرَا، نَصَرُوا، نَصَرَتْ، نَصَرَتَا، نَصَرْنَ، نَصَرْتَ، نَصَرْتُمَا، نَصَرْتُمْ، نَصَرْتِ، نَصَرْتُمَا، نَصَرْتُنَّ، نَصَرْتُ، نَصَرْنَا"
+    },
+    {
+     "prompt": "Benoem elke vorm: fa'alna; fa'altum; fa'alti; fa'alna [met lange a].",
+     "answer": "Fa'alna: meervoud vrouwelijk afwezig. Fa'altum: meervoud mannelijk aanwezig. Fa'alti: enkelvoud vrouwelijk aanwezig. Fa'alna [met lange a]: de spreker met anderen."
+    },
+    {
+     "prompt": "In welke vormen houdt de lam zijn fatha, en waarom verliest hij die in de andere?",
+     "answer": "In fa'ala, fa'ala [tweevoud], fa'alat en fa'alata. Voor de waw van de groep neemt hij een damma (fa'alu); voor een voornaamwoord met klinker (-na, -ta, -tu, -na met lange a …) neemt hij een sukun."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Fa'alu betekent…",
+     "options": [
+      "zij tweeën deden",
+      "jij deed",
+      "wij deden",
+      "zij (mannen) deden"
+     ],
+     "explanation": "De waw van de groep."
+    },
+    {
+     "prompt": "Fa'alat is…",
+     "options": [
+      "de enkelvoudige vrouwelijke afwezige",
+      "de enkelvoudige vrouwelijke aanwezige",
+      "de spreker",
+      "het vrouwelijk meervoud"
+     ],
+     "explanation": "“Zij deed”: de ta' van het vrouwelijk."
+    },
+    {
+     "prompt": "Welke uitgang is alleen een teken, geen voornaamwoord?",
+     "options": [
+      "De waw van fa'alu",
+      "De ta' van fa'alat",
+      "De nun van fa'alna",
+      "De ta' van fa'altu"
+     ],
+     "explanation": "Ze geeft een vrouwelijke fa'il aan; de fa'il is een verborgen voornaamwoord of een naamwoord."
+    },
+    {
+     "prompt": "Fa'altunna betekent…",
+     "options": [
+      "jullie (mannen) deden",
+      "zij (vrouwen) deden",
+      "jullie (vrouwen) deden",
+      "jullie tweeën deden"
+     ],
+     "explanation": "Het meervoud vrouwelijk aanwezig."
+    },
+    {
+     "prompt": "Welke vorm staat twee keer in de tabel?",
+     "options": [
+      "Fa'alta",
+      "Fa'alna [met lange a]",
+      "Fa'alu",
+      "Fa'altuma"
+     ],
+     "explanation": "Voor twee mannen en voor twee vrouwen die aangesproken worden."
+    },
+    {
+     "prompt": "In fa'alna neemt de lam een sukun omdat…",
+     "options": [
+      "er een voornaamwoord met klinker volgt",
+      "het vrouwelijk is",
+      "het meervoud is",
+      "het ontkend is"
+     ],
+     "explanation": "Het “toeval” van de madi."
+    },
+    {
+     "prompt": "Nasartu betekent…",
+     "options": [
+      "jij hielp",
+      "ik hielp",
+      "zij hielp",
+      "wij hielpen"
+     ],
+     "explanation": "Zoals fa'altu."
+    }
+   ],
+   "diagram": {
+    "caption": "De bevestigende actieve madi (blz. 5), met nasara uit de vervoegingsengine",
+    "labels": {
+     "Person": "Persoon",
+     "faʿala": "fa'ala",
+     "naṣara": "nasara",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "4": {
+   "title": "De passieve madi",
+   "body": [
+    "“Wanneer je het passief wilt bouwen, geef dan de fa' van het werkwoord een damma en de 'ayn van het werkwoord een kasra in alle veertien, en laat de lam van het woord zoals hij is.” Fa'ala wordt fu'ila, “het werd gedaan”; fa'alu wordt fu'ilu, “zij werden gedaan”; fa'altu wordt fu'iltu, “ik werd gedaan”.",
+    "De regel raakt alleen de eerste twee stamletters. De uitgangen van de actieve tabel blijven zoals ze waren, en ook de klinkers van de lam: fu'ilu met damma, fu'ilna met sukun. Wie de actieve tabel kent, kent dus de passieve: verander twee klinkers en lees verder.",
+    "Het passief noemt de fa'il niet. In nasara Zaydun 'Amran, “Zayd hielp 'Amr”, is Zayd de fa'il; in nusira 'Amrun, “'Amr werd geholpen”, staat degene die geholpen werd op zijn plaats. Dezelfde regel geeft nusira van nasara en duriba van daraba, wat de klinker van de actieve 'ayn ook is.",
+    "Het boek zegt met opzet “in alle veertien”: de beginner is geneigd alleen de eerste vorm te veranderen en de rest uit het actief over te nemen. Elke vorm van de passieve madi heeft u … i aan het begin: fu'iltunna, fu'ilna [met lange a]."
+   ],
+   "terms": [
+    "het passief: de fa'il wordt niet genoemd",
+    "de eerste stamletter, tegenover de f",
+    "de tweede stamletter, tegenover de 'ayn",
+    "de laatste stamletter, tegenover de l"
+   ],
+   "examples": [
+    "fu'ila, fu'ila [tweevoud], fu'ilu: de fa' met damma, de 'ayn met kasra",
+    "nusira, duriba (engine): dezelfde regel bij andere werkwoorden",
+    "fu'iltunna, fu'ilna [met lange a]: in alle veertien"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak het passief van nasara in de veertien vormen.",
+     "answer": "نُصِرَ، نُصِرَا، نُصِرُوا، نُصِرَتْ، نُصِرَتَا، نُصِرْنَ، نُصِرْتَ، نُصِرْتُمَا، نُصِرْتُمْ، نُصِرْتِ، نُصِرْتُمَا، نُصِرْتُنَّ، نُصِرْتُ، نُصِرْنَا"
+    },
+    {
+     "prompt": "Wat verandert het passief in fa'ala, en wat laat het?",
+     "answer": "Het geeft de fa' een damma en de 'ayn een kasra. Het laat de lam en alle uitgangen zoals ze in het actief zijn."
+    },
+    {
+     "prompt": "Vertaal fu'ilna, fu'ilta en fu'ilna [met lange a].",
+     "answer": "Fu'ilna: “zij (vrouwen) werden gedaan”. Fu'ilta: “jij (man) werd gedaan”. Fu'ilna [met lange a]: “wij werden gedaan”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Om de passieve madi te bouwen, neemt de fa'…",
+     "options": [
+      "een damma",
+      "een kasra",
+      "een fatha",
+      "een sukun"
+     ],
+     "explanation": "En de 'ayn een kasra."
+    },
+    {
+     "prompt": "In de passieve madi neemt de 'ayn…",
+     "options": [
+      "een damma",
+      "een kasra",
+      "een fatha",
+      "een sukun"
+     ],
+     "explanation": "Fu'ila: de 'ayn met kasra."
+    },
+    {
+     "prompt": "De lam van de passieve madi…",
+     "options": [
+      "neemt altijd een damma",
+      "neemt altijd een kasra",
+      "blijft zoals hij in het actief was",
+      "valt weg"
+     ],
+     "explanation": "“Laat de lam van het woord zoals hij is.”"
+    },
+    {
+     "prompt": "Fu'ilu betekent…",
+     "options": [
+      "zij deden",
+      "zij tweeën werden gedaan",
+      "jij werd gedaan",
+      "zij (mannen) werden gedaan"
+     ],
+     "explanation": "Het passief van fa'alu."
+    },
+    {
+     "prompt": "Het passief van nasartu is…",
+     "options": [
+      "nusirtu",
+      "nasirtu",
+      "nusartu",
+      "unsurtu"
+     ],
+     "explanation": "Damma op de fa', kasra op de 'ayn."
+    },
+    {
+     "prompt": "Het passief…",
+     "options": [
+      "noemt twee fa'ils",
+      "noemt de fa'il niet",
+      "is altijd ontkend",
+      "heeft geen uitgangen"
+     ],
+     "explanation": "Nusira 'Amrun, “'Amr werd geholpen”."
+    },
+    {
+     "prompt": "De regel wordt toegepast…",
+     "options": [
+      "alleen in de eerste vorm",
+      "alleen in het enkelvoud",
+      "in alle veertien vormen",
+      "alleen bij de afwezige"
+     ],
+     "explanation": "Elke vorm heeft u … i aan het begin."
+    }
+   ],
+   "diagram": {
+    "caption": "De madi, actief en passief (blz. 5), met het passief van nasara uit de vervoegingsengine",
+    "labels": {
+     "Person": "Persoon",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "naṣara, passive": "nasara, passief",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "5": {
+   "title": "De ontkende madi met ma",
+   "body": [
+    "Om de madi te ontkennen, “breng de ma van de ontkenning aan zijn begin”: ma fa'ala, “hij deed niet”; ma fu'ila, “het werd niet gedaan”. De regel is dezelfde voor het actief en het passief, en voor alle veertien vormen.",
+    "“De ma van de ontkenning heeft helemaal geen invloed op de woordvorm van de madi”: fa'ala blijft fa'ala, fa'alu blijft fa'alu. “Maar ze heeft invloed op de betekenis: ze maakt van het bevestigende de betekenis van het ontkennende.” Het boek vestigt de aandacht van de student op dit onderscheid omdat de volgende partikels, lan en lam, ook de woordvorm zullen veranderen.",
+    "De twee tabellen van deze les zijn dus de twee tabellen van de vorige lessen, met ma voor elk woord: ma fa'ala, ma fa'ala [tweevoud], ma fa'alu … ma fa'alna [met lange a]; ma fu'ila … ma fu'ilna [met lange a]. Met nasara: ma nasara, “hij hielp niet”; ma nusira, “hij werd niet geholpen”.",
+    "Verwar deze ma niet met de andere ma's van het Arabisch. Voor een madi in deze tabellen ontkent ze alleen; de ma van ma ahsana, “hoe mooi!”, of de ma van “wat”, zijn andere woorden, die de boeken van de nahw leren."
+   ],
+   "terms": [
+    "de ma van de ontkenning",
+    "ontkenning",
+    "de woordvorm en de betekenis"
+   ],
+   "examples": [
+    "ma fa'ala, “hij deed niet”; ma fu'ila, “het werd niet gedaan”",
+    "ma nasara (nasara uit de engine), “hij hielp niet”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Ontken nasartu en nusirna [met lange a].",
+     "answer": "Ma nasartu, “ik hielp niet”; ma nusirna [met lange a], “wij werden niet geholpen”. Ma wordt ervoor gezet en de woorden veranderen niet."
+    },
+    {
+     "prompt": "Wat bedoelt het boek met de woorden dat ma geen invloed heeft op de woordvorm maar wel op de betekenis?",
+     "answer": "De vorm van het werkwoord blijft precies zoals hij was (fa'ala, fa'alu …), maar de zin ontkent nu wat hij bevestigde: “hij deed” wordt “hij deed niet”."
+    },
+    {
+     "prompt": "Vertaal ma fa'altunna en ma fu'ilat.",
+     "answer": "“Jullie (vrouwen) deden niet”; “zij (of het, vr.) werd niet gedaan”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De madi wordt ontkend met…",
+     "options": [
+      "la",
+      "ma",
+      "lan",
+      "lam"
+     ],
+     "explanation": "Ma fa'ala."
+    },
+    {
+     "prompt": "Wat verandert ma aan de woordvorm van de madi?",
+     "options": [
+      "De laatste klinker",
+      "De eerste klinker",
+      "Niets",
+      "De uitgangen"
+     ],
+     "explanation": "Het heeft alleen invloed op de betekenis."
+    },
+    {
+     "prompt": "Ma fa'alu betekent…",
+     "options": [
+      "zij deden",
+      "zij zullen niet doen",
+      "doe niet",
+      "zij (mannen) deden niet"
+     ],
+     "explanation": "De ontkende meervoudige mannelijke afwezige."
+    },
+    {
+     "prompt": "Ma fu'ila is…",
+     "options": [
+      "de ontkende passieve madi",
+      "de ontkende actieve madi",
+      "de passieve mudari'",
+      "een verbod"
+     ],
+     "explanation": "“Het werd niet gedaan.”"
+    },
+    {
+     "prompt": "Hoeveel vormen heeft de ontkende madi?",
+     "options": [
+      "Zeven",
+      "Veertien, in het actief en in het passief",
+      "Zes",
+      "Eén"
+     ],
+     "explanation": "Elke vorm van de twee tabellen met ma."
+    },
+    {
+     "prompt": "Ma nasartu betekent…",
+     "options": [
+      "ik hielp",
+      "ik zal niet helpen",
+      "ik hielp niet",
+      "jij hielp niet"
+     ],
+     "explanation": "Ma voor nasartu."
+    },
+    {
+     "prompt": "Welk partikel zal, anders dan ma, de woordvorm veranderen?",
+     "options": [
+      "Geen",
+      "Qad",
+      "Kana",
+      "Lam"
+     ],
+     "explanation": "Lan en lam veranderen het eind van de mudari'."
+    }
+   ],
+   "diagram": {
+    "caption": "De ontkende madi met ma (blz. 6)",
+    "labels": {
+     "Person": "Persoon",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "6": {
+   "title": "Nuttige opmerkingen: de nabije, verre, voortdurende, veronderstelde en gewenste madi",
+   "body": [
+    "Onze druk voegt een kader met “nuttige opmerkingen” (fawa'id nafi'a) in de tekst toe; het staat niet in elk exemplaar van de Mizan. Wat tot nu toe geleerd is, is de absolute madi (madi mutlaq): fa'ala, “hij deed”. Met een woord ervoor krijgt de madi fijnere schakeringen van tijd en wijs.",
+    "Qad ervoor maakt de nabije madi (qarib): qad daraba, “hij heeft geslagen”, zojuist. Kana ervoor maakt de verre madi (ba'id): kana daraba, “hij had geslagen”. Kana voor de mudari' maakt de voortdurende madi (istimrari): kana yaf'alu, “hij deed altijd”, “hij was aan het doen”.",
+    "La'allama voor de madi maakt de madi van de veronderstelling (ihtimali): la'allama fa'ala, “misschien deed hij”. Laytama maakt de madi van de wens (tamanna'i): laytama daraba, “had hij maar geslagen”. “Uit elk van deze komen veertien vormen voort”, zoals uit de absolute madi.",
+    "De zes namen zijn die van de Perzische verleden tijden die de student al uit zijn eigen taal kent, de mazi-yi mutlaq, qarib, ba'id, istimrari, ihtimali en tamanna'i. Het kader gebruikt ze om te laten zien hoe elke Perzische tijd in het Arabisch gezegd wordt; daarom past het in een Perzisch leerboek."
+   ],
+   "terms": [
+    "de absolute madi: fa'ala",
+    "de nabije madi: qad fa'ala",
+    "de verre madi: kana fa'ala",
+    "de voortdurende madi: kana yaf'alu"
+   ],
+   "examples": [
+    "qad daraba, “hij heeft geslagen”: de nabije madi",
+    "kana daraba, “hij had geslagen”: de verre madi",
+    "kana yaf'alu, “hij deed altijd”: de voortdurende madi",
+    "de madi van de veronderstelling en de madi van de wens"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak de nabije en de verre madi van nasara.",
+     "answer": "Qad nasara, “hij heeft geholpen”; kana nasara, “hij had geholpen”."
+    },
+    {
+     "prompt": "Wat is het verschil tussen kana nasara en kana yansuru?",
+     "answer": "Kana voor de madi maakt de verre madi, “hij had geholpen”; kana voor de mudari' maakt de voortdurende madi, “hij hielp altijd, hij was aan het helpen”."
+    },
+    {
+     "prompt": "Welk woord maakt elk: de madi van de veronderstelling; de madi van de wens?",
+     "answer": "La'allama (la'allama fa'ala, “misschien deed hij”) en laytama (laytama daraba, “had hij maar geslagen”)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Qad daraba is de…",
+     "options": [
+      "verre madi",
+      "voortdurende madi",
+      "nabije madi",
+      "absolute madi"
+     ],
+     "explanation": "“Hij heeft geslagen.”"
+    },
+    {
+     "prompt": "Kana daraba is de…",
+     "options": [
+      "nabije madi",
+      "voortdurende madi",
+      "madi van de wens",
+      "verre madi"
+     ],
+     "explanation": "“Hij had geslagen.”"
+    },
+    {
+     "prompt": "Kana yaf'alu is de…",
+     "options": [
+      "voortdurende madi",
+      "verre madi",
+      "toekomst",
+      "madi van de veronderstelling"
+     ],
+     "explanation": "“Hij deed altijd.”"
+    },
+    {
+     "prompt": "Welk woord maakt de madi van de veronderstelling?",
+     "options": [
+      "Laytama",
+      "La'allama",
+      "Qad",
+      "Kana"
+     ],
+     "explanation": "La'allama fa'ala, “misschien deed hij”."
+    },
+    {
+     "prompt": "Laytama daraba betekent…",
+     "options": [
+      "misschien sloeg hij",
+      "hij had geslagen",
+      "had hij maar geslagen",
+      "hij heeft geslagen"
+     ],
+     "explanation": "De madi van de wens."
+    },
+    {
+     "prompt": "Fa'ala zonder enig woord ervoor is de…",
+     "options": [
+      "nabije madi",
+      "verre madi",
+      "voortdurende madi",
+      "absolute madi"
+     ],
+     "explanation": "Al-madi al-mutlaq."
+    },
+    {
+     "prompt": "De namen van deze verleden tijden komen uit…",
+     "options": [
+      "de verleden tijden van de Perzische grammatica",
+      "de Koran",
+      "de Griekse logica",
+      "de Ajurrumiyya"
+     ],
+     "explanation": "Het kader laat zien hoe elke Perzische verleden tijd in het Arabisch gezegd wordt."
+    }
+   ],
+   "diagram": {
+    "caption": "De soorten madi (blz. 7)",
+    "labels": {
+     "Past": "Madi",
+     "Made with": "Gemaakt met",
+     "The book's example": "Voorbeeld van het boek",
+     "Meaning": "Betekenis",
+     "absolute": "absoluut",
+     "he hit": "hij sloeg",
+     "near": "nabij",
+     "he has hit": "hij heeft geslagen",
+     "far": "ver",
+     "كَانَ + past": "كَانَ + madi",
+     "he had hit": "hij had geslagen",
+     "continuous": "voortdurend",
+     "كَانَ + muḍāriʿ": "كَانَ + mudari'",
+     "he used to do": "hij deed altijd",
+     "of supposition": "van de veronderstelling",
+     "perhaps he did": "misschien deed hij",
+     "of wishing": "van de wens",
+     "would that he had hit": "had hij maar geslagen"
+    }
+   }
+  },
+  "7": {
+   "title": "De mudari' bouwen: de tekens atayna en de nun van de i'rab",
+   "body": [
+    "“Wanneer je de mudari' wilt bouwen, breng dan een van de tekens van de mudari' aan zijn begin en geef zijn eind een damma.” De tekens zijn vier letters, alif, ta', ya' en nun, die samen atayna spellen, “zij (vrouwen) kwamen”, een woord om ze te onthouden. Fa'ala wordt yaf'ulu; het paradigma van de Mizan heeft een damma op de 'ayn, het patroon van nasara yansuru.",
+    "Elk teken heeft zijn vormen. De alif is voor de spreker alleen: af'ulu, “ik doe”. De nun is voor de spreker met anderen: naf'ulu, “wij doen”. De ya' is voor vier vormen: de drie van de mannelijke afwezige en het meervoud van de vrouwelijke afwezige, yaf'ulna. De ta' is voor de andere acht: de zes van de aanwezige, en het enkelvoud en tweevoud van de vrouwelijke afwezige, taf'ulu, “zij doet”, taf'ulani.",
+    "“Breng op zeven plaatsen de nun van de i'rab”: de vier tweevouden, met een kasra (-ani), en de twee mannelijke meervouden en het enkelvoud vrouwelijk aanwezig, met een fatha (-una, -ina). Deze nun is het kenteken van de raf', en hij valt weg onder lan en lam. De nun van het vrouwelijk meervoud, yaf'ulna, taf'ulna, is een andere nun: hij komt in de mudari' zoals in de madi (fa'alna), hij is de fa'il zelf, en hij blijft.",
+    "Lees de tabel met dit in gedachten. Taf'ulu staat er twee keer, voor “zij” en voor “jij (man)”; taf'ulani drie keer, voor de twee afwezige vrouwen en voor de twee mannen en twee vrouwen die aangesproken worden. Het verband onderscheidt ze. Met nasara: yansuru, yansurani, yansuruna."
+   ],
+   "terms": [
+    "de tekens van de mudari': alif, ta', ya', nun (atayna)",
+    "de nun van de i'rab: -ani, -una, -ina, het kenteken van de raf'",
+    "de nun van het vrouwelijk meervoud: een voornaamwoord, dat blijft"
+   ],
+   "examples": [
+    "af'ulu, naf'ulu: de alif en de nun van de spreker",
+    "yaf'ulna met de ya'; taf'ulu, “zij doet”, met de ta'",
+    "de nun van de i'rab: met kasra in het tweevoud, met fatha in de andere",
+    "yansuru, yansurani, yansuruna (engine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Met welk teken begint elk: yaf'ulna; taf'ulina; af'ulu; naf'ulu?",
+     "answer": "Yaf'ulna: de ya' (meervoud vrouwelijk afwezig). Taf'ulina: de ta' (enkelvoud vrouwelijk aanwezig). Af'ulu: de alif (de spreker alleen). Naf'ulu: de nun (de spreker met anderen)."
+    },
+    {
+     "prompt": "Welke zijn de zeven vormen met de nun van de i'rab, en welke klinker neemt hij?",
+     "answer": "De vier tweevouden, yaf'ulani, taf'ulani (nog twee keer), met kasra; en yaf'uluna, taf'uluna en taf'ulina, met fatha."
+    },
+    {
+     "prompt": "Geef de mudari' van nasara in de veertien vormen.",
+     "answer": "يَنْصُرُ، يَنْصُرَانِ، يَنْصُرُونَ، تَنْصُرُ، تَنْصُرَانِ، يَنْصُرْنَ، تَنْصُرُ، تَنْصُرَانِ، تَنْصُرُونَ، تَنْصُرِينَ، تَنْصُرَانِ، تَنْصُرْنَ، أَنْصُرُ، نَنْصُرُ"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De tekens van de mudari' spellen…",
+     "options": [
+      "alleen na'aytu",
+      "sa'altumuniha",
+      "ay",
+      "atayna"
+     ],
+     "explanation": "Alif, ta', ya', nun."
+    },
+    {
+     "prompt": "De alif is voor…",
+     "options": [
+      "de spreker alleen",
+      "de spreker met anderen",
+      "de afwezige",
+      "degene die aangesproken wordt"
+     ],
+     "explanation": "Af'ulu, “ik doe”."
+    },
+    {
+     "prompt": "Hoeveel vormen beginnen met de ta'?",
+     "options": [
+      "Vier",
+      "Acht",
+      "Zes",
+      "Twee"
+     ],
+     "explanation": "De zes van de aanwezige en twee van de vrouwelijke afwezige."
+    },
+    {
+     "prompt": "Yaf'ulna begint met…",
+     "options": [
+      "de ta'",
+      "de nun",
+      "de ya'",
+      "de alif"
+     ],
+     "explanation": "Het meervoud vrouwelijk afwezig neemt de ya'."
+    },
+    {
+     "prompt": "Op hoeveel plaatsen wordt de nun van de i'rab gebracht?",
+     "options": [
+      "Veertien",
+      "Vijf",
+      "Twee",
+      "Zeven"
+     ],
+     "explanation": "Vier tweevouden, twee mannelijke meervouden, het enkelvoud vrouwelijk aanwezig."
+    },
+    {
+     "prompt": "De nun van de i'rab neemt in het tweevoud…",
+     "options": [
+      "een kasra",
+      "een fatha",
+      "een damma",
+      "een sukun"
+     ],
+     "explanation": "-ani; in de andere -una, -ina."
+    },
+    {
+     "prompt": "De nun van yaf'ulna is…",
+     "options": [
+      "de nun van de i'rab",
+      "de nun van het vrouwelijk meervoud, die blijft",
+      "de nun van de nadruk",
+      "een teken van de mudari'"
+     ],
+     "explanation": "Hij komt in de mudari' zoals in de madi."
+    }
+   ],
+   "diagram": {
+    "caption": "De bevestigende actieve mudari' (blz. 9): zijn teken en zijn eind",
+    "labels": {
+     "Person": "Persoon",
+     "Form": "Vorm",
+     "Sign": "Teken",
+     "End": "Eind",
+     "he": "hij",
+     "yāʾ": "ya'",
+     "ḍamma": "damma",
+     "they two (m.)": "zij tweeën (mannen)",
+     "nūn of iʿrāb (-āni)": "nun van de i'rab (-ani)",
+     "they (m.)": "zij (mannen)",
+     "nūn of iʿrāb (-ūna)": "nun van de i'rab (-una)",
+     "she": "zij (vrouw)",
+     "tāʾ": "ta'",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "nūn of the women": "nun van de vrouwen",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "nūn of iʿrāb (-īna)": "nun van de i'rab (-ina)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "alif": "alif",
+     "we": "wij",
+     "nūn": "nun"
+    }
+   }
+  },
+  "8": {
+   "title": "De passieve mudari'",
+   "body": [
+    "“Wanneer je de passieve mudari' wilt bouwen, geef dan het teken van de mudari' een damma en de 'ayn van het woord een fatha in alle veertien, en laat de lam zoals hij is.” Yaf'ulu wordt yuf'alu, “het wordt gedaan”; taf'uluna wordt tuf'aluna; af'ulu wordt uf'alu.",
+    "Vergelijk de passieve madi: daar nam de fa' een damma en de 'ayn een kasra (fu'ila); hier neemt het teken de damma en de 'ayn een fatha (yuf'alu). De fa' van de mudari' is al klinkerloos en blijft dat. Weer twee klinkers, maar andere: u … i in de madi, u … a in de mudari'.",
+    "De 'ayn van de passieve mudari' is een fatha, wat hij in het actief ook was: yansuru wordt yunsaru, yadribu wordt yudrabu, yasma'u wordt yusma'u. De uitgangen, de nun van de i'rab en de nun van de vrouwen blijven allemaal zoals in de actieve tabel.",
+    "Wie yaf'ulu kent, kent dus yuf'alu: taf'ulina → tuf'alina, yaf'ulna → yuf'alna. Een veelgemaakte fout is de fatha van het teken te houden (yaf'alu): dan is het woord een actief werkwoord van een ander patroon, geen passief."
+   ],
+   "terms": [
+    "de passieve mudari': yuf'alu",
+    "het teken van de mudari' met damma"
+   ],
+   "examples": [
+    "yuf'alu, yuf'alani, yuf'aluna: het teken met damma, de 'ayn met fatha",
+    "de passieve madi en de passieve mudari' naast elkaar",
+    "yunsaru, yudrabu (engine): altijd een fatha op de 'ayn"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak het passief van yansuru in de veertien vormen.",
+     "answer": "يُنْصَرُ، يُنْصَرَانِ، يُنْصَرُونَ، تُنْصَرُ، تُنْصَرَانِ، يُنْصَرْنَ، تُنْصَرُ، تُنْصَرَانِ، تُنْصَرُونَ، تُنْصَرِينَ، تُنْصَرَانِ، تُنْصَرْنَ، أُنْصَرُ، نُنْصَرُ"
+    },
+    {
+     "prompt": "Hoe verschillen de passieve madi en de passieve mudari' in hun klinkers?",
+     "answer": "In de madi neemt de fa' een damma en de 'ayn een kasra (fu'ila). In de mudari' neemt het teken een damma en de 'ayn een fatha (yuf'alu)."
+    },
+    {
+     "prompt": "Is yaf'alu een passief? Waarom niet?",
+     "answer": "Nee. De passieve mudari' heeft een damma op het teken nodig: yuf'alu. Yaf'alu, met een fatha op het teken, is een actieve mudari' van het patroon van yasma'u."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "In de passieve mudari' neemt het teken…",
+     "options": [
+      "een damma",
+      "een fatha",
+      "een kasra",
+      "een sukun"
+     ],
+     "explanation": "Yuf'alu: de ya' met damma."
+    },
+    {
+     "prompt": "In de passieve mudari' neemt de 'ayn…",
+     "options": [
+      "een kasra",
+      "een fatha",
+      "een damma",
+      "een sukun"
+     ],
+     "explanation": "Wat hij in het actief ook was."
+    },
+    {
+     "prompt": "Het passief van taf'uluna is…",
+     "options": [
+      "tuf'iluna",
+      "taf'aluna",
+      "tuf'aluna",
+      "fu'iltum"
+     ],
+     "explanation": "Damma op het teken, fatha op de 'ayn."
+    },
+    {
+     "prompt": "Het passief van yadribu is…",
+     "options": [
+      "yudribu",
+      "yadrabu",
+      "duriba",
+      "yudrabu"
+     ],
+     "explanation": "De 'ayn wordt een fatha."
+    },
+    {
+     "prompt": "De nun van de i'rab in de passieve mudari'…",
+     "options": [
+      "blijft zoals in het actief",
+      "valt weg",
+      "wordt een sukun",
+      "wordt een nun van de nadruk"
+     ],
+     "explanation": "Yuf'alani, yuf'aluna, tuf'alina."
+    },
+    {
+     "prompt": "Uf'alu betekent…",
+     "options": [
+      "ik doe",
+      "ik word gedaan",
+      "wij worden gedaan",
+      "doe!"
+     ],
+     "explanation": "De spreker alleen, passief."
+    },
+    {
+     "prompt": "Welk paar is madi en mudari' in het passief?",
+     "options": [
+      "fa'ala — yaf'ulu",
+      "fu'ila — yaf'ulu",
+      "fu'ila — yuf'alu",
+      "fa'ila — yuf'ilu"
+     ],
+     "explanation": "U … i in de madi, u … a in de mudari'."
+    }
+   ],
+   "diagram": {
+    "caption": "De mudari', actief en passief (blz. 9), met het passief van nasara uit de vervoegingsengine",
+    "labels": {
+     "Person": "Persoon",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "naṣara, passive": "nasara, passief",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "9": {
+   "title": "De mudari' ontkennen met la",
+   "body": [
+    "Om de mudari' te ontkennen, “breng de la van de ontkenning aan zijn begin”: la yaf'ulu, “hij doet niet”, of “hij zal niet doen”; la yuf'alu, “het wordt niet gedaan”.",
+    "La is voor de mudari' wat ma voor de madi was: “ze heeft helemaal geen invloed op de woordvorm van de mudari'”. Het eind houdt zijn damma, de nun van de i'rab blijft: la yaf'ulani, la yaf'uluna, la taf'ulina. “Maar ze heeft invloed op de betekenis”: het bevestigende wordt ontkennend.",
+    "De twee tabellen zijn de twee tabellen van de mudari' met la voor elk woord: actief la yaf'ulu … la naf'ulu; passief la yuf'alu … la nuf'alu. Met nasara: la yansuru, “hij helpt niet”.",
+    "Let goed op deze la, want het boek brengt later een andere la, de la van het verbod, die de woordvorm wel verandert: la taf'ul, “doe niet!”. La taf'ulu, met zijn damma, ontkent alleen; la taf'ul, met een sukun, verbiedt."
+   ],
+   "terms": [
+    "de la van de ontkenning, die de mudari' onveranderd laat",
+    "ontkenning met la"
+   ],
+   "examples": [
+    "la yaf'ulu, “hij doet niet”; la yuf'alu, “het wordt niet gedaan”",
+    "de nun van de i'rab blijft na la",
+    "la yansuru (yansuru uit de engine), “hij helpt niet”"
+   ],
+   "tasks": [
+    {
+     "prompt": "Ontken yansuruna en tunsarina met la.",
+     "answer": "La yansuruna, “zij helpen niet”; la tunsarina, “jij (vrouw) wordt niet geholpen”. De woorden veranderen niet; de nun blijft."
+    },
+    {
+     "prompt": "Wat hebben ma en la in het boek gemeen?",
+     "answer": "Elk ontkent (ma de madi, la de mudari'), en geen van beide verandert de woordvorm van het werkwoord, alleen zijn betekenis."
+    },
+    {
+     "prompt": "Hoe onderscheid je la taf'ulu van la taf'ul?",
+     "answer": "Aan het eind. La taf'ulu houdt de damma: de la van de ontkenning, “je doet niet”. La taf'ul heeft een sukun: de la van het verbod, “doe niet!”, die later geleerd wordt."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De mudari' wordt hier ontkend met…",
+     "options": [
+      "ma",
+      "la",
+      "lam",
+      "lan"
+     ],
+     "explanation": "La yaf'ulu."
+    },
+    {
+     "prompt": "Wat verandert la aan de woordvorm van de mudari'?",
+     "options": [
+      "Het eind, in een sukun",
+      "Het eind, in een fatha",
+      "Niets",
+      "De nun van de i'rab"
+     ],
+     "explanation": "Ze heeft alleen invloed op de betekenis."
+    },
+    {
+     "prompt": "La yaf'uluna houdt…",
+     "options": [
+      "niets",
+      "een sukun",
+      "een fatha",
+      "de nun van de i'rab"
+     ],
+     "explanation": "La raakt de woordvorm niet."
+    },
+    {
+     "prompt": "La yuf'alu betekent…",
+     "options": [
+      "het wordt niet gedaan",
+      "hij doet niet",
+      "doe niet",
+      "het werd niet gedaan"
+     ],
+     "explanation": "De ontkende passieve mudari'."
+    },
+    {
+     "prompt": "La taf'ulu, met zijn damma, is…",
+     "options": [
+      "een verbod",
+      "een ontkenning",
+      "een gebod",
+      "een madi"
+     ],
+     "explanation": "De la van de ontkenning laat de damma staan."
+    },
+    {
+     "prompt": "La ontkent de mudari' zoals … de madi ontkent.",
+     "options": [
+      "lam",
+      "lan",
+      "ma",
+      "qad"
+     ],
+     "explanation": "Beide laten de woordvorm zoals hij was."
+    },
+    {
+     "prompt": "La naf'ulu betekent…",
+     "options": [
+      "ik doe niet",
+      "zij doen niet",
+      "wij deden niet",
+      "wij doen niet"
+     ],
+     "explanation": "De spreker met anderen."
+    }
+   ],
+   "diagram": {
+    "caption": "De mudari' ontkend met la (blz. 10)",
+    "labels": {
+     "Person": "Persoon",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "10": {
+   "title": "De nadrukkelijke ontkenning met lan",
+   "body": [
+    "“Breng lan aan het begin van de mudari'; deze ontkenning heet de nadrukkelijke ontkenning met lan (nafy-i ta'kid ba-lan).” Lan yaf'ula, “hij zal niet doen”, “hij zal nooit doen”. Anders dan ma en la verandert lan de woordvorm, en het boek zegt precies waar.",
+    "“Lan zet de toekomst in nasb op vijf plaatsen”: het enkelvoud mannelijk afwezig, het enkelvoud vrouwelijk afwezig, het enkelvoud mannelijk aanwezig, en de twee vormen van de spreker. Dat zijn de vijf vormen die op een damma eindigen: yaf'ulu → lan yaf'ula, taf'ulu → lan taf'ula, af'ulu → lan af'ula, naf'ulu → lan naf'ula.",
+    "“En op zeven plaatsen laat het de nun van de i'rab wegvallen”: de vier tweevouden, de twee mannelijke meervouden en het enkelvoud vrouwelijk aanwezig: lan yaf'ula [tweevoud], lan yaf'ulu [meervoud], lan taf'uli. “En in twee woorden, de meervouden van de vrouwelijke afwezige en aanwezige, heeft het geen invloed op de woordvorm”: lan yaf'ulna, lan taf'ulna, omdat hun nun het voornaamwoord van de vrouwen is, geen kenteken van de raf'. 5 + 7 + 2 = 14.",
+    "In betekenis “maakt lan van de mudari' de betekenis van een ontkende toekomst”: de betekenis van het heden van yaf'ulu is weg, en alleen “zal niet” blijft over. De passieve tabel volgt dezelfde drie regels: lan yuf'ala, lan yuf'ala [tweevoud], lan yuf'alna."
+   ],
+   "terms": [
+    "de nadrukkelijke ontkenning met lan: “zal niet”",
+    "nasb: de fatha op de vijf plaatsen",
+    "het wegvallen van de nun van de i'rab, op de zeven plaatsen"
+   ],
+   "examples": [
+    "de vijf plaatsen: een fatha in plaats van de damma",
+    "de zeven plaatsen: de nun van de i'rab weggelaten",
+    "lan yaf'ulna: geen invloed op de woordvorm"
+   ],
+   "tasks": [
+    {
+     "prompt": "Welke zijn de vijf plaatsen waar lan een fatha geeft? Laat ze zien met yansuru.",
+     "answer": "Hij, zij, jij (man), ik en wij: lan yansura, lan tansura, lan tansura, lan ansura, lan nansura."
+    },
+    {
+     "prompt": "Waarom laat lan yaf'ulna onveranderd, terwijl het de nun van yaf'uluna wegneemt?",
+     "answer": "De nun van yaf'uluna is de nun van de i'rab, het kenteken van de raf', die lan wegneemt. De nun van yaf'ulna is het voornaamwoord van de vrouwen, de fa'il zelf, die blijft."
+    },
+    {
+     "prompt": "Geef lan met de veertien vormen van yansuru.",
+     "answer": "لَنْ يَنْصُرَ، لَنْ يَنْصُرَا، لَنْ يَنْصُرُوا، لَنْ تَنْصُرَ، لَنْ تَنْصُرَا، لَنْ يَنْصُرْنَ، لَنْ تَنْصُرَ، لَنْ تَنْصُرَا، لَنْ تَنْصُرُوا، لَنْ تَنْصُرِي، لَنْ تَنْصُرَا، لَنْ تَنْصُرْنَ، لَنْ أَنْصُرَ، لَنْ نَنْصُرَ"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De ontkenning met lan heet…",
+     "options": [
+      "de ontkenning van de loochening",
+      "het verbod",
+      "de nadrukkelijke ontkenning (nafy ta'kid)",
+      "de absolute ontkenning"
+     ],
+     "explanation": "Nafy-i ta'kid ba-lan."
+    },
+    {
+     "prompt": "Op hoeveel plaatsen geeft lan de fatha?",
+     "options": [
+      "Zeven",
+      "Twee",
+      "Veertien",
+      "Vijf"
+     ],
+     "explanation": "De vormen die op een damma eindigen."
+    },
+    {
+     "prompt": "Lan taf'uli is de vorm van…",
+     "options": [
+      "jij (vrouw)",
+      "zij (vrouw)",
+      "jullie tweeën",
+      "zij (vrouwen)"
+     ],
+     "explanation": "Taf'ulina verliest zijn nun."
+    },
+    {
+     "prompt": "In welke vormen heeft lan geen invloed op de woordvorm?",
+     "options": [
+      "De tweevouden",
+      "De twee vrouwelijke meervouden",
+      "De vormen van de spreker",
+      "De enkelvouden"
+     ],
+     "explanation": "Lan yaf'ulna, lan taf'ulna."
+    },
+    {
+     "prompt": "Lan yaf'ula betekent…",
+     "options": [
+      "hij deed niet",
+      "hij doet niet",
+      "hij zal niet doen",
+      "laat hem niet doen"
+     ],
+     "explanation": "Een ontkende toekomst."
+    },
+    {
+     "prompt": "Hoeveel plaatsen verliezen de nun van de i'rab?",
+     "options": [
+      "Vijf",
+      "Twee",
+      "Vier",
+      "Zeven"
+     ],
+     "explanation": "Vier tweevouden, twee mannelijke meervouden, het enkelvoud vrouwelijk aanwezig."
+    },
+    {
+     "prompt": "Lan met het passief geeft…",
+     "options": [
+      "lan yuf'ala",
+      "lan yaf'ala",
+      "lan fu'ila",
+      "lan yuf'il"
+     ],
+     "explanation": "Dezelfde regels op de passieve tabel."
+    }
+   ],
+   "diagram": {
+    "caption": "Lan met de mudari' (blz. 11), en de nasb van nasara uit de vervoegingsengine",
+    "labels": {
+     "Person": "Persoon",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "naṣara": "nasara",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "11": {
+   "title": "De ontkenning van de loochening met lam",
+   "body": [
+    "“Breng lam aan het begin van de mudari'; deze ontkenning heet de ontkenning van de loochening met lam (nafy-i jahd ba-lam).” Lam yaf'ul, “hij deed niet”. Zoals lan verandert lam de woordvorm, op dezelfde plaatsen, maar op een andere manier.",
+    "“Lam zet de mudari' in jazm op vijf plaatsen, als er geen zwakke letter aan zijn eind staat”: dezelfde vijf als bij lan, hij, zij, jij (man), ik en wij, maar met een sukun waar lan een fatha gaf: lam yaf'ul, lam taf'ul, lam af'ul, lam naf'ul. “En als er een is, laat het die wegvallen”: lam yad'u, “hij riep niet”, lam yarmi, “hij wierp niet”, lam yakhsha, “hij vreesde niet”. De zwakke letters zijn drie, waw, alif en ya', “die samen ay vormen”.",
+    "Op de andere plaatsen doet lam wat lan deed: “op zeven plaatsen laat het de nun van de i'rab wegvallen”, lam yaf'ula [tweevoud], lam yaf'ulu [meervoud], lam taf'uli; en “op twee plaatsen heeft het geen invloed op de woordvorm”, de twee vrouwelijke meervouden, lam yaf'ulna, lam taf'ulna.",
+    "In betekenis “maakt het van de vorm van de mudari' de betekenis van een ontkende madi”: lam yaf'ul is “hij deed niet”, in betekenis hetzelfde als ma fa'ala. De beginner moet lan en lam naast elkaar houden: dezelfde zeven en dezelfde twee; alleen de vijf verschillen, fatha tegenover sukun, en “zal niet” tegenover “deed niet”."
+   ],
+   "terms": [
+    "de ontkenning van de loochening met lam: “deed niet”",
+    "jazm: de sukun op de vijf plaatsen",
+    "de zwakke letters waw, alif, ya' (ay)"
+   ],
+   "examples": [
+    "de vijf plaatsen: de sukun",
+    "een zwakke laatste letter valt weg",
+    "de nun van de i'rab weggelaten; de nun van de vrouwen behouden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet yansuru, yansurani, yansuruna en yansurna na lam.",
+     "answer": "Lam yansur (de sukun), lam yansura [tweevoud] en lam yansuru [meervoud] (de nun van de i'rab weggelaten), lam yansurna (geen verandering)."
+    },
+    {
+     "prompt": "Wat gebeurt er met een zwakke laatste letter na lam? Geef de voorbeelden van het boek.",
+     "answer": "Hij valt weg: yad'u [met lange u] → lam yad'u, yarmi [met lange i] → lam yarmi, yakhsha [met lange a] → lam yakhsha. De zwakke letters zijn waw, alif en ya', te onthouden als ay."
+    },
+    {
+     "prompt": "Vergelijk lan yaf'ula en lam yaf'ul in vorm en betekenis.",
+     "answer": "Lan geeft een fatha en betekent een ontkende toekomst, “hij zal niet doen”. Lam geeft een sukun en betekent een ontkende madi, “hij deed niet”. In de andere negen vormen doen de twee hetzelfde."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De ontkenning met lam heet…",
+     "options": [
+      "de nadrukkelijke ontkenning",
+      "het verbod",
+      "de nabije madi",
+      "de ontkenning van de loochening (nafy jahd)"
+     ],
+     "explanation": "Nafy-i jahd ba-lam."
+    },
+    {
+     "prompt": "Op de vijf plaatsen geeft lam…",
+     "options": [
+      "een sukun",
+      "een fatha",
+      "een damma",
+      "een kasra"
+     ],
+     "explanation": "Lam yaf'ul."
+    },
+    {
+     "prompt": "Wat heeft lam yarmi verloren?",
+     "options": [
+      "zijn nun",
+      "zijn zwakke laatste letter",
+      "zijn teken",
+      "niets"
+     ],
+     "explanation": "Yarmi [met lange i] → lam yarmi."
+    },
+    {
+     "prompt": "De zwakke letters vormen samen…",
+     "options": [
+      "atayna",
+      "na'aytu",
+      "ay",
+      "lam"
+     ],
+     "explanation": "Waw, alif, ya'."
+    },
+    {
+     "prompt": "Lam yaf'ul betekent…",
+     "options": [
+      "hij zal niet doen",
+      "hij doet niet",
+      "doe niet",
+      "hij deed niet"
+     ],
+     "explanation": "Lam maakt van de mudari' een ontkende madi."
+    },
+    {
+     "prompt": "In welke vormen verschillen lan en lam?",
+     "options": [
+      "In de vijf vormen die op een damma eindigen",
+      "In de tweevouden",
+      "In de vrouwelijke meervouden",
+      "Nergens"
+     ],
+     "explanation": "Fatha tegenover sukun."
+    },
+    {
+     "prompt": "Lam taf'ulna is…",
+     "options": [
+      "met een sukun erbij",
+      "onveranderd in zijn woordvorm",
+      "zonder zijn nun",
+      "een fout"
+     ],
+     "explanation": "De nun van de vrouwen blijft."
+    }
+   ],
+   "diagram": {
+    "caption": "Lan en lam naast elkaar (blz. 11–12)",
+    "labels": {
+     "Person": "Persoon",
+     "With lan": "Met lan",
+     "With lam": "Met lam",
+     "Lam, passive": "Lam, passief",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "12": {
+   "title": "De lam en de twee nuns van de nadruk: de regels",
+   "body": [
+    "Om de toekomst nadrukkelijk te maken, “breng de lam van de nadruk aan het begin van het werkwoord van de toekomst en voeg de nun van de nadruk aan zijn eind toe”: la-yaf'ulanna, “hij zal zeker doen”. De lam “heeft altijd een fatha”. De nun is van twee soorten: de zware nun (thaqila), verdubbeld, -nna; en de lichte nun (khafifa), klinkerloos, -n.",
+    "“De zware nun komt in veertien woorden, de lichte nun in acht.” Wat voor de zware nun komt, hangt af van de vorm. Op vijf plaatsen een fatha: hij, zij, jij (man), ik en wij, la-yaf'ulanna, la-taf'ulanna, la-af'ulanna, la-naf'ulanna. Op zes plaatsen een alif: de vier tweevouden, la-yaf'ulanni, en de twee vrouwelijke meervouden, la-yaf'ulnanni, waar de alif “als scheiding komt” (fasil) tussen de nun van de vrouwen en de nun van de nadruk.",
+    "In de twee mannelijke meervouden valt de waw weg en blijft de damma ervoor, “om op het wegvallen van de waw te wijzen”: la-yaf'ulunna, uit la-yaf'ulunanna. In het enkelvoud vrouwelijk aanwezig valt de ya' weg en blijft de kasra, om ernaar te wijzen: la-taf'ulinna. De zware nun heeft een kasra op de zes plaatsen met de alif (-anni) en een fatha op de andere acht (-anna, -unna, -inna).",
+    "“De lichte nun komt niet op een plaats waar een alif is”: dus niet in de vier tweevouden en niet in de twee vrouwelijke meervouden, wat acht vormen overlaat. En “de nun van de i'rab komt niet samen met de nun van de nadruk”: yaf'uluna verliest zijn nun van de raf' voor de nun van de nadruk, zoals voor lan en lam."
+   ],
+   "terms": [
+    "de lam van de nadruk, altijd met fatha",
+    "de zware nun: verdubbeld, in veertien vormen",
+    "de lichte nun: klinkerloos, in acht vormen",
+    "de scheidende alif, in la-yaf'ulnanni"
+   ],
+   "examples": [
+    "la-yaf'ulanna, “hij zal zeker doen”: een fatha voor de zware nun",
+    "de alif voor de nun, die een kasra neemt",
+    "de waw en de ya' weggelaten, de damma en de kasra behouden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom is het la-yaf'ulunna, en niet la-yaf'ulunanna?",
+     "answer": "De nun van de i'rab komt niet samen met de nun van de nadruk, dus hij valt weg; dan valt ook de waw van de groep weg, en de damma ervoor blijft om te tonen dat hij er was."
+    },
+    {
+     "prompt": "Waarvoor dient de alif in la-yaf'ulnanni?",
+     "answer": "Hij scheidt de nun van de vrouwen van de nun van de nadruk, zodat er geen drie nuns samenkomen."
+    },
+    {
+     "prompt": "Waarom komt de lichte nun maar in acht vormen?",
+     "answer": "Hij komt niet waar een alif is: niet in de vier tweevouden en niet in de twee vrouwelijke meervouden. Veertien min zes laat acht over."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De lam van de nadruk neemt altijd…",
+     "options": [
+      "een fatha",
+      "een kasra",
+      "een damma",
+      "een sukun"
+     ],
+     "explanation": "La-yaf'ulanna."
+    },
+    {
+     "prompt": "De zware nun is…",
+     "options": [
+      "de klinkerloze nun, -n",
+      "de verdubbelde nun, -nna",
+      "de nun van de i'rab",
+      "de nun van de vrouwen"
+     ],
+     "explanation": "Nun thaqila."
+    },
+    {
+     "prompt": "In hoeveel vormen komt de lichte nun?",
+     "options": [
+      "Veertien",
+      "Zes",
+      "Acht",
+      "Vijf"
+     ],
+     "explanation": "Niet waar een alif is."
+    },
+    {
+     "prompt": "Voor de zware nun hebben de tweevouden…",
+     "options": [
+      "een fatha",
+      "een damma",
+      "niets",
+      "een alif"
+     ],
+     "explanation": "La-yaf'ulanni."
+    },
+    {
+     "prompt": "La-taf'ulinna is de vorm van…",
+     "options": [
+      "jij (vrouw)",
+      "zij (vrouw)",
+      "zij (vrouwen)",
+      "jullie tweeën"
+     ],
+     "explanation": "De ya' valt weg, zijn kasra blijft."
+    },
+    {
+     "prompt": "De zware nun neemt een kasra…",
+     "options": [
+      "in de vijf enkelvouden",
+      "op de zes plaatsen met een alif",
+      "overal",
+      "nergens"
+     ],
+     "explanation": "-anni; elders een fatha."
+    },
+    {
+     "prompt": "Komt de nun van de i'rab samen met de nun van de nadruk?",
+     "options": [
+      "Ja",
+      "Alleen in de tweevouden",
+      "Nee",
+      "Alleen in het passief"
+     ],
+     "explanation": "Hij valt ervoor weg."
+    }
+   ],
+   "diagram": {
+    "caption": "Wat er voor de zware nun komt (blz. 13; vormen van blz. 14)",
+    "labels": {
+     "Before the nūn": "Voor de nun",
+     "Places": "Plaatsen",
+     "Example": "Voorbeeld",
+     "a fatḥa": "een fatha",
+     "he, she, you (m.), I, we": "hij, zij, jij (man), ik, wij",
+     "an alif; the nūn with kasra": "een alif; de nun met kasra",
+     "the four duals": "de vier tweevouden",
+     "the separating alif": "de scheidende alif",
+     "the two feminine plurals": "de twee vrouwelijke meervouden",
+     "a ḍamma (the wāw dropped)": "een damma (de waw weggelaten)",
+     "the two masculine plurals": "de twee mannelijke meervouden",
+     "a kasra (the yāʾ dropped)": "een kasra (de ya' weggelaten)",
+     "you (f.)": "jij (vrouw)"
+    }
+   }
+  },
+  "13": {
+   "title": "De toekomst met de zware en de lichte nun",
+   "body": [
+    "Nu de tabellen. De zware nun, actief: la-yaf'ulanna, la-yaf'ulanni, la-yaf'ulunna, la-taf'ulanna, la-taf'ulanni, la-yaf'ulnanni, en zo verder tot la-af'ulanna, la-naf'ulanna. Elke regel van de vorige les is erin te zien: de fatha in de vijf, de alif en de kasra van de nun in de zes, de damma en de kasra die de weggelaten waw en ya' aangeven.",
+    "Het passief gaat op dezelfde manier op yuf'alu: la-yuf'alanna, “het zal zeker gedaan worden”, la-yuf'alanni, la-yuf'alunna, la-tuf'alinna. Alleen de klinkers van de stam veranderen, u … a, zoals in elke passieve mudari'.",
+    "De lichte nun heeft acht vormen: la-yaf'ulan, la-yaf'ulun, la-taf'ulan, la-taf'ulan, la-taf'ulun, la-taf'ulin, la-af'ulan, la-naf'ulan. La-taf'ulan komt twee keer voor, zoals de druk het schrijft: één keer voor “zij”, één keer voor “jij (man)”. De betekenis is dezelfde als die van de zware nun, iets minder sterk.",
+    "Leer de twee tabellen samen, vorm voor vorm, met het rooster: waar de zware nun een alif voor zich heeft, heeft de lichte nun helemaal geen vorm."
+   ],
+   "terms": [
+    "nadruk: “zeker”",
+    "de nadrukkelijke toekomst, met de lam en een nun"
+   ],
+   "examples": [
+    "de zware nun, actief",
+    "la-yuf'alanna, “het zal zeker gedaan worden”: het passief",
+    "de lichte nun, actief"
+   ],
+   "tasks": [
+    {
+     "prompt": "Benoem elke vorm: la-yaf'ulnanni; la-taf'ulunna; la-naf'ulan.",
+     "answer": "La-yaf'ulnanni: meervoud vrouwelijk afwezig, zware nun. La-taf'ulunna: meervoud mannelijk aanwezig, zware nun. La-naf'ulan: de spreker met anderen, lichte nun."
+    },
+    {
+     "prompt": "Waarom is er geen vorm met de lichte nun voor “zij tweeën (mannen)”?",
+     "answer": "Het tweevoud heeft een alif voor de nun, en de lichte nun komt niet na een alif."
+    },
+    {
+     "prompt": "Maak het passief van la-taf'ulinna en van la-yaf'ulanni.",
+     "answer": "La-tuf'alinna en la-yuf'alanni: het teken neemt een damma en de 'ayn een fatha; de rest blijft."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "La-yaf'ulanna betekent…",
+     "options": [
+      "hij deed",
+      "hij zal zeker doen",
+      "laat hem doen",
+      "hij zal niet doen"
+     ],
+     "explanation": "De nadrukkelijke toekomst."
+    },
+    {
+     "prompt": "Hoeveel vormen heeft de tabel met de zware nun?",
+     "options": [
+      "Acht",
+      "Zes",
+      "Veertien",
+      "Vijf"
+     ],
+     "explanation": "De zware nun komt in alle veertien."
+    },
+    {
+     "prompt": "La-yuf'alanna is…",
+     "options": [
+      "actief",
+      "een verbod",
+      "een madi",
+      "passief"
+     ],
+     "explanation": "U … a in de stam."
+    },
+    {
+     "prompt": "Welke vorm staat twee keer in de tabel met de lichte nun?",
+     "options": [
+      "La-taf'ulan",
+      "La-yaf'ulan",
+      "La-af'ulan",
+      "La-naf'ulan"
+     ],
+     "explanation": "Voor “zij” en voor “jij (man)”."
+    },
+    {
+     "prompt": "La-taf'ulin is de vorm van…",
+     "options": [
+      "zij (vrouw)",
+      "jij (vrouw)",
+      "jij (man)",
+      "zij (vrouwen)"
+     ],
+     "explanation": "De kasra geeft de weggelaten ya' aan."
+    },
+    {
+     "prompt": "Waar de zware nun een alif voor zich heeft, heeft de lichte nun…",
+     "options": [
+      "ook een alif",
+      "een kasra",
+      "geen vorm",
+      "een zware vorm"
+     ],
+     "explanation": "Daarom heeft de lichte nun acht vormen."
+    },
+    {
+     "prompt": "La-yaf'ulun is de vorm van…",
+     "options": [
+      "hij",
+      "jij (man)",
+      "wij",
+      "zij (mannen)"
+     ],
+     "explanation": "De damma geeft de weggelaten waw aan."
+    }
+   ],
+   "diagram": {
+    "caption": "De toekomst met de twee nuns (blz. 14–15)",
+    "labels": {
+     "Person": "Persoon",
+     "Heavy, active": "Zwaar, actief",
+     "Heavy, passive": "Zwaar, passief",
+     "Light, active": "Licht, actief",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "14": {
+   "title": "De gebiedende wijs bouwen",
+   "body": [
+    "“De gebiedende wijs wordt uit de mudari' genomen: de afwezige uit de afwezige, de aanwezige uit de aanwezige, de spreker uit de spreker, het actief uit het actief, het passief uit het passief.” Er is geen aparte wortel voor het gebod; men begint bij taf'ulu en verandert dat.",
+    "Voor de actieve gebiedende wijs tot de aanwezige: “laat het teken van de mudari' weg, en kijk dan of wat volgt een klinker houdt of klinkerloos is”. Heeft het een klinker, maak dan alleen het eind klinkerloos: ta'idu, “je belooft”, geeft 'id, “beloof!”; tada'u geeft da', “leg!”; en als het eind een zwakke letter is, valt die weg: taqi [met lange i] geeft qi, “behoed!”. Dit zijn werkwoorden waarvan de eerste stamletter, een waw, al in de mudari' verdwenen is.",
+    "Als wat op het teken volgt klinkerloos is, kan een woord daar niet mee beginnen, dus wordt er een verbindingshamza (hamzat al-wasl) toegevoegd, en haar klinker hangt af van de 'ayn. Heeft de 'ayn een kasra of een fatha, dan neemt de hamza een kasra: tasma'u → isma', “hoor!”; tadribu → idrib, “sla!”; met een zwak eind, tarmi [met lange i] → irmi, takhsha [met lange a] → ikhsha. Heeft de 'ayn een damma, dan neemt de hamza een damma: tansuru → unsur, “help!”; tad'u [met lange u] → ud'u, “roep!”.",
+    "Voor de passieve gebiedende wijs tot de aanwezige, en voor beide gebiedende wijzen tot de afwezige, wordt de lam van het gebod gebruikt, met een kasra, en het eind in jazm gezet, of een zwakke letter weggelaten: li-yad'u, “laat hem roepen”, li-yarmi, li-yakhsha. “De nun van de nadruk komt ook in de gebiedende wijs, zoals in de mudari'; en in de gebiedende wijs valt de nun van de i'rab ook weg.”"
+   ],
+   "terms": [
+    "de gebiedende wijs tot de aanwezige",
+    "de gebiedende wijs tot de afwezige, met de lam",
+    "de verbindingshamza, voor een klinkerloze letter",
+    "de lam van het gebod, met kasra"
+   ],
+   "examples": [
+    "wat op het teken volgt heeft een klinker: geen hamza",
+    "de 'ayn met kasra of fatha: de hamza met kasra",
+    "de 'ayn met damma: de hamza met damma",
+    "de lam van het gebod, de zwakke letter weggelaten"
+   ],
+   "tasks": [
+    {
+     "prompt": "Maak de gebiedende wijs van tada'u en van tansuru, en zeg waarom de ene een hamza heeft en de andere niet.",
+     "answer": "Tada'u → da': na het teken komt een letter met klinker, dus wordt alleen het eind klinkerloos gemaakt. Tansuru → unsur: na het teken komt een klinkerloze nun, dus is er een verbindingshamza nodig, met een damma omdat de 'ayn een damma heeft."
+    },
+    {
+     "prompt": "Waarom is het isma' met een kasra, maar unsur met een damma?",
+     "answer": "De hamza volgt de 'ayn: in tasma'u heeft de 'ayn een fatha, dus neemt de hamza een kasra; in tansuru heeft hij een damma, dus neemt de hamza een damma."
+    },
+    {
+     "prompt": "Hoe wordt de gebiedende wijs tot de afwezige gemaakt? Geef de voorbeelden van het boek.",
+     "answer": "Met de lam van het gebod, met kasra, voor de mudari', het eind in jazm of de zwakke letter weggelaten: li-yad'u, li-yarmi, li-yakhsha."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De gebiedende wijs wordt genomen uit…",
+     "options": [
+      "de madi",
+      "de masdar",
+      "de mudari'",
+      "het deelwoord"
+     ],
+     "explanation": "De afwezige uit de afwezige, de aanwezige uit de aanwezige."
+    },
+    {
+     "prompt": "Ta'idu geeft de gebiedende wijs…",
+     "options": [
+      "i'id",
+      "u'ud",
+      "li-ta'id",
+      "'id"
+     ],
+     "explanation": "Na het teken komt een letter met klinker."
+    },
+    {
+     "prompt": "Waarom begint idrib met een hamza?",
+     "options": [
+      "Na het teken komt een klinkerloze letter",
+      "Het is passief",
+      "Het is tot de afwezige",
+      "Het is vrouwelijk"
+     ],
+     "explanation": "Een woord kan niet met een klinkerloze letter beginnen."
+    },
+    {
+     "prompt": "De hamza neemt een damma wanneer…",
+     "options": [
+      "de 'ayn een kasra heeft",
+      "de 'ayn een damma heeft",
+      "het eind zwak is",
+      "het werkwoord passief is"
+     ],
+     "explanation": "Tansuru → unsur."
+    },
+    {
+     "prompt": "De gebiedende wijs van tarmi [met lange i] is…",
+     "options": [
+      "irmi [met lange i]",
+      "urmu",
+      "irmi",
+      "irmiy"
+     ],
+     "explanation": "Het zwakke eind valt weg."
+    },
+    {
+     "prompt": "De gebiedende wijs tot de afwezige gebruikt…",
+     "options": [
+      "een verbindingshamza",
+      "la",
+      "lan",
+      "de lam van het gebod met kasra"
+     ],
+     "explanation": "Li-yad'u, “laat hem roepen”."
+    },
+    {
+     "prompt": "De nun van de i'rab in de gebiedende wijs…",
+     "options": [
+      "valt weg",
+      "blijft",
+      "wordt zwaar",
+      "neemt een kasra"
+     ],
+     "explanation": "Uf'ula [tweevoud], uf'ulu [meervoud], uf'uli."
+    }
+   ],
+   "diagram": {
+    "caption": "Van de mudari' naar de gebiedende wijs (blz. 15–16)",
+    "labels": {
+     "Muḍāriʿ": "Mudari'",
+     "After the sign": "Na het teken",
+     "Imperative": "Gebiedende wijs",
+     "vowelled": "met klinker",
+     "vowelled, weak end": "met klinker, zwak eind",
+     "quiescent; ʿayn with fatḥa": "klinkerloos; 'ayn met fatha",
+     "quiescent; ʿayn with kasra": "klinkerloos; 'ayn met kasra",
+     "quiescent; weak end": "klinkerloos; zwak eind",
+     "quiescent; ʿayn with ḍamma": "klinkerloos; 'ayn met damma",
+     "quiescent; ʿayn with ḍamma, weak end": "klinkerloos; 'ayn met damma, zwak eind"
+    }
+   }
+  },
+  "15": {
+   "title": "De gebiedende wijs tot de aanwezige en tot de afwezige",
+   "body": [
+    "De actieve gebiedende wijs tot de aanwezige heeft zes vormen: uf'ul, uf'ula, uf'ulu, uf'uli, uf'ula, uf'ulna, “doe!” tot één man, twee, veel, één vrouw, twee, veel. De hamza heeft een damma omdat de 'ayn van yaf'ulu er een heeft; elke vorm is de mudari' in jazm zonder zijn teken, taf'ulu [meervoud] → uf'ulu.",
+    "De passieve gebiedende wijs tot de aanwezige neemt in plaats daarvan de lam: li-tuf'al, li-tuf'ala, li-tuf'alu, li-tuf'ali, li-tuf'ala, li-tuf'alna, “word gedaan!”. Een hamza zou hier niet kunnen doen wat ze in het actief doet, omdat het passief zijn teken, met zijn damma, zichtbaar moet hebben.",
+    "De gebiedende wijs tot de afwezige, actief en passief, heeft acht vormen, de zes van de afwezige en twee van de spreker: li-yaf'ul, li-yaf'ula, li-yaf'ulu, li-taf'ul, li-taf'ula, li-yaf'ulna, li-af'ul, li-naf'ul, “laat hem doen … laat mij doen, laten wij doen”; en het passief li-yuf'al … li-nuf'al. Dus 6 + 8 = 14, zoals in elke tabel.",
+    "Het eind van elke vorm is zoals na lam: een sukun, of de nun van de i'rab weggelaten, of, in het vrouwelijk meervoud, geen verandering. Een gebod is een eis, en de eis zet het werkwoord in jazm."
+   ],
+   "terms": [
+    "de actieve gebiedende wijs: uf'ul, li-yaf'ul",
+    "de passieve gebiedende wijs: li-tuf'al, li-yuf'al"
+   ],
+   "examples": [
+    "uf'ul, uf'ula, uf'ulu: “doe!”",
+    "li-tuf'al, “word gedaan!”: het passief tot de aanwezige",
+    "tot de afwezige en tot de spreker",
+    "unsur, unsura, unsuru (engine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de zes vormen van de gebiedende wijs van nasara tot de aanwezige.",
+     "answer": "اُنْصُرْ، اُنْصُرَا، اُنْصُرُوا، اُنْصُرِي، اُنْصُرَا، اُنْصُرْنَ"
+    },
+    {
+     "prompt": "Waarom wordt de passieve gebiedende wijs tot de aanwezige met de lam gemaakt, li-tuf'al, en niet met een hamza?",
+     "answer": "Het passief heeft zijn teken met een damma nodig (tuf'alu); het teken weglaten en een hamza toevoegen zou het kenmerk van het passief doen verdwijnen. Dus wordt de lam van het gebod voor de volledige mudari' in jazm gezet."
+    },
+    {
+     "prompt": "Vertaal li-naf'ul en li-yuf'alu.",
+     "answer": "Li-naf'ul: “laten wij doen”. Li-yuf'alu: “laten zij (mannen) gedaan worden”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Uf'uli wordt gezegd tot…",
+     "options": [
+      "één man",
+      "twee mensen",
+      "veel vrouwen",
+      "één vrouw"
+     ],
+     "explanation": "Het enkelvoud vrouwelijk aanwezig."
+    },
+    {
+     "prompt": "Hoeveel vormen heeft de gebiedende wijs tot de aanwezige?",
+     "options": [
+      "Zes",
+      "Acht",
+      "Veertien",
+      "Drie"
+     ],
+     "explanation": "Drie voor mannen, drie voor vrouwen."
+    },
+    {
+     "prompt": "Li-tuf'al is…",
+     "options": [
+      "de actieve gebiedende wijs",
+      "de passieve gebiedende wijs tot de aanwezige",
+      "een verbod",
+      "de mudari'"
+     ],
+     "explanation": "“Word gedaan!”"
+    },
+    {
+     "prompt": "De gebiedende wijs tot de afwezige omvat…",
+     "options": [
+      "alleen de afwezige",
+      "alleen de enkelvouden",
+      "de twee vormen van de spreker",
+      "de aanwezige"
+     ],
+     "explanation": "Li-af'ul, li-naf'ul."
+    },
+    {
+     "prompt": "Li-yaf'ulna houdt zijn nun omdat…",
+     "options": [
+      "het de nun van de i'rab is",
+      "de lam nasb geeft",
+      "het passief is",
+      "het de nun van de vrouwen is"
+     ],
+     "explanation": "Zoals na lam."
+    },
+    {
+     "prompt": "Unsuru betekent…",
+     "options": [
+      "help! (tot veel mannen)",
+      "zij hielpen",
+      "laat hen helpen",
+      "help! (tot één man)"
+     ],
+     "explanation": "Uit tansuruna."
+    },
+    {
+     "prompt": "Li-naf'ul betekent…",
+     "options": [
+      "wij deden",
+      "laten wij doen",
+      "wij zullen doen",
+      "doe!"
+     ],
+     "explanation": "De spreker met anderen."
+    }
+   ],
+   "diagram": {
+    "caption": "De gebiedende wijs, actief en passief (blz. 16–17)",
+    "labels": {
+     "Person": "Persoon",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "16": {
+   "title": "De gebiedende wijs met de zware en de lichte nun",
+   "body": [
+    "De nun van de nadruk komt in de gebiedende wijs zoals in de mudari', met dezelfde regels. Met de zware nun, tot de aanwezige: uf'ulanna, uf'ulanni, uf'ulunna, uf'ulinna, uf'ulanni, uf'ulnanni, “doe, zeker!”. Tot de afwezige: li-yaf'ulanna, li-yaf'ulanni, li-yaf'ulunna, li-taf'ulanna, li-taf'ulanni, li-yaf'ulnanni, li-af'ulanna, li-naf'ulanna. Het passief gaat op li-tuf'alanna en li-yuf'alanna.",
+    "Voor de zware nun: een fatha in de enkelvouden (uf'ulanna), een alif in de tweevouden en de vrouwelijke meervouden met de nun met kasra (uf'ulanni, uf'ulnanni), de damma van de weggelaten waw (uf'ulunna) en de kasra van de weggelaten ya' (uf'ulinna). De sukun van de gebiedende wijs maakt plaats voor deze klinkers, omdat een klinkerloze letter niet voor de verdubbelde nun kan staan.",
+    "Met de lichte nun zijn er minder vormen, omdat hij nooit op een alif volgt: tot de aanwezige drie, uf'ulan, uf'ulun, uf'ulin; tot de afwezige vijf, li-yaf'ulan, li-yaf'ulun, li-taf'ulan, li-af'ulan, li-naf'ulan. Het passief heeft dezelfde drie en vijf: li-tuf'alan, li-tuf'alun, li-tuf'alin; li-yuf'alan … li-nuf'alan.",
+    "Acht korte tabellen, maar één regel: neem de gebiedende wijs, open zijn eind, en voeg de nun toe zoals in de nadrukkelijke toekomst. Het rooster zet de actieve vormen naast elkaar."
+   ],
+   "terms": [
+    "de nadrukkelijke gebiedende wijs, met een nun van de nadruk",
+    "de zware en de lichte nun"
+   ],
+   "examples": [
+    "de zware nun, tot de aanwezige",
+    "de zware nun, tot de afwezige en de spreker",
+    "de lichte nun, tot de aanwezige: drie vormen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Waarom heeft de gebiedende wijs met de lichte nun tot de aanwezige maar drie vormen?",
+     "answer": "De lichte nun volgt niet op een alif, dus hij kan niet komen in de twee tweevouden en het vrouwelijk meervoud (dat een scheidende alif heeft). Van de zes blijven er drie over: uf'ulan, uf'ulun, uf'ulin."
+    },
+    {
+     "prompt": "Benoem elke vorm: uf'ulinna; li-yaf'ulnanni; li-naf'ulan.",
+     "answer": "Uf'ulinna: tot één vrouw, zware nun. Li-yaf'ulnanni: tot het vrouwelijk meervoud afwezig, zware nun. Li-naf'ulan: de spreker met anderen, lichte nun."
+    },
+    {
+     "prompt": "Wat gebeurt er met de sukun van uf'ul voor de nun van de nadruk?",
+     "answer": "Hij maakt plaats voor een fatha: uf'ulanna. In het meervoud en het vrouwelijk maakt hij plaats voor de damma en de kasra die de weggelaten waw en ya' aangeven."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Uf'ulanna wordt gezegd tot…",
+     "options": [
+      "één man",
+      "veel mannen",
+      "één vrouw",
+      "twee mensen"
+     ],
+     "explanation": "Een fatha voor de zware nun."
+    },
+    {
+     "prompt": "Uf'ulunna wordt gezegd tot…",
+     "options": [
+      "één man",
+      "veel mannen",
+      "één vrouw",
+      "twee mensen"
+     ],
+     "explanation": "De damma geeft de weggelaten waw aan."
+    },
+    {
+     "prompt": "Hoeveel vormen met de lichte nun heeft de gebiedende wijs tot de afwezige?",
+     "options": [
+      "Drie",
+      "Acht",
+      "Vijf",
+      "Zes"
+     ],
+     "explanation": "Li-yaf'ulan, li-yaf'ulun, li-taf'ulan, li-af'ulan, li-naf'ulan."
+    },
+    {
+     "prompt": "Uf'ulnanni heeft een alif omdat…",
+     "options": [
+      "het een tweevoud is",
+      "het passief is",
+      "het de lam van het gebod is",
+      "hij de nun van de vrouwen scheidt van de nun van de nadruk"
+     ],
+     "explanation": "De scheidende alif."
+    },
+    {
+     "prompt": "De lichte nun komt nooit na…",
+     "options": [
+      "een alif",
+      "een damma",
+      "een kasra",
+      "een fatha"
+     ],
+     "explanation": "Daarom zijn er minder lichte vormen."
+    },
+    {
+     "prompt": "Li-tuf'alanna is…",
+     "options": [
+      "actief, tot de afwezige",
+      "passief, tot de aanwezige",
+      "een verbod",
+      "een madi"
+     ],
+     "explanation": "Het passief neemt de lam, ook tot de aanwezige."
+    },
+    {
+     "prompt": "Uf'ulin wordt gezegd tot…",
+     "options": [
+      "één man",
+      "veel mannen",
+      "één vrouw",
+      "twee vrouwen"
+     ],
+     "explanation": "De kasra geeft de weggelaten ya' aan."
+    }
+   ],
+   "diagram": {
+    "caption": "De gebiedende wijs met de twee nuns, actief (blz. 17–18)",
+    "labels": {
+     "Person": "Persoon",
+     "Heavy nūn": "Zware nun",
+     "Light nūn": "Lichte nun",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "17": {
+   "title": "Het verbod",
+   "body": [
+    "“Breng de la van het verbod aan het begin van het werkwoord van de toekomst.” La taf'ul, “doe niet!”. De la van het verbod “zet zijn eind in jazm op vijf plaatsen, zoals lam”: hij, zij, jij (man), ik en wij. Is het eind een zwakke letter, dan valt die weg: la tad'u, “roep niet!”, la tarmi, “werp niet!”, la takhsha, “vrees niet!”.",
+    "Zoals lam “neemt ze ook de nun van de i'rab weg op zeven plaatsen”, la taf'ula, la taf'ulu [meervoud], la taf'uli; en “op twee plaatsen heeft ze geen invloed op de woordvorm”, la taf'ulna, la yaf'ulna. De einden van het verbod zijn de einden van de gebiedende wijs; alleen de la en het teken van de mudari' staan ervoor.",
+    "De tabellen: tot de aanwezige, actief, la taf'ul, la taf'ula, la taf'ulu [meervoud], la taf'uli, la taf'ula, la taf'ulna; passief, la tuf'al …; tot de afwezige en de spreker, la yaf'ul, la yaf'ula, la yaf'ulu [meervoud], la taf'ul, la taf'ula, la yaf'ulna, la af'ul, la naf'ul, en het passief la yuf'al … la nuf'al.",
+    "Leg dit naast les 9. La taf'ulu, met een damma, is de la van de ontkenning: “je doet niet”. La taf'ul, met een sukun, is de la van het verbod: “doe niet!”. Dezelfde twee letters, la, zijn twee verschillende woorden, en het eind van het werkwoord zegt welk."
+   ],
+   "terms": [
+    "de la van het verbod: jazm, zoals lam",
+    "het verbod tot de aanwezige: la taf'ul",
+    "het verbod tot de afwezige: la yaf'ul"
+   ],
+   "examples": [
+    "la taf'ul: “doe niet!”",
+    "de zwakke laatste letter weggelaten",
+    "tot de afwezige en de spreker",
+    "la tansur … (engine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de zes vormen van het verbod van nasara tot de aanwezige.",
+     "answer": "لَا تَنْصُرْ، لَا تَنْصُرَا، لَا تَنْصُرُوا، لَا تَنْصُرِي، لَا تَنْصُرَا، لَا تَنْصُرْنَ"
+    },
+    {
+     "prompt": "Op welke drie manieren werkt de la van het verbod op de veertien vormen?",
+     "answer": "Ze geeft jazm (een sukun, of laat een zwakke letter wegvallen) op vijf plaatsen; ze neemt de nun van de i'rab weg op zeven; en in de twee vrouwelijke meervouden verandert ze niets aan de woordvorm."
+    },
+    {
+     "prompt": "Lees la tad'u [met lange u] en la tad'u, en zeg wat elk betekent.",
+     "answer": "La tad'u [met lange u], met de waw: de la van de ontkenning, “je roept niet”. La tad'u, de waw weggelaten: de la van het verbod, “roep niet!”."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De la van het verbod werkt…",
+     "options": [
+      "zoals lan",
+      "zoals lam",
+      "zoals ma",
+      "zoals de la van de ontkenning"
+     ],
+     "explanation": "Jazm op vijf plaatsen."
+    },
+    {
+     "prompt": "La taf'ul betekent…",
+     "options": [
+      "je doet niet",
+      "je deed niet",
+      "doe niet!",
+      "je zult niet doen"
+     ],
+     "explanation": "Het verbod tot de aanwezige."
+    },
+    {
+     "prompt": "Wat heeft la tarmi verloren?",
+     "options": [
+      "zijn nun",
+      "zijn teken",
+      "niets",
+      "zijn zwakke laatste letter"
+     ],
+     "explanation": "Tarmi [met lange i] → la tarmi."
+    },
+    {
+     "prompt": "In la taf'ulna verandert de la van het verbod…",
+     "options": [
+      "niets aan de woordvorm",
+      "de nun: die valt weg",
+      "het eind in een sukun",
+      "het eind in een fatha"
+     ],
+     "explanation": "De nun van de vrouwen blijft."
+    },
+    {
+     "prompt": "La yaf'ul is…",
+     "options": [
+      "de ontkende mudari'",
+      "het verbod tot de afwezige",
+      "het passief",
+      "de gebiedende wijs"
+     ],
+     "explanation": "“Laat hem niet doen.”"
+    },
+    {
+     "prompt": "Welke is een verbod?",
+     "options": [
+      "La taf'ulina",
+      "La taf'ulu",
+      "La taf'uli",
+      "La yaf'uluna"
+     ],
+     "explanation": "De nun van de i'rab is weg."
+    },
+    {
+     "prompt": "La tunsar is…",
+     "options": [
+      "een actief verbod",
+      "een ontkenning",
+      "een gebod",
+      "een passief verbod"
+     ],
+     "explanation": "“Word niet geholpen!”"
+    }
+   ],
+   "diagram": {
+    "caption": "Het verbod, actief en passief (blz. 19–20)",
+    "labels": {
+     "Person": "Persoon",
+     "Active": "Actief",
+     "Passive": "Passief",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "18": {
+   "title": "Het verbod met de zware en de lichte nun",
+   "body": [
+    "“De nun van de nadruk komt in het verbod op dezelfde manier als in de mudari'.” Met de zware nun, tot de aanwezige: la taf'ulanna, la taf'ulanni, la taf'ulunna, la taf'ulinna, la taf'ulanni, la taf'ulnanni, “doe het nooit!”. Tot de afwezige: la yaf'ulanna, la yaf'ulanni, la yaf'ulunna, la taf'ulanna, la taf'ulanni, la yaf'ulnanni, la af'ulanna, la naf'ulanna.",
+    "De passieve tabellen zetten de stam op yuf'alu: la tuf'alanna … la tuf'alnanni; la yuf'alanna … la nuf'alanna. Alles voor de nun volgt de regels van les 12.",
+    "Met de lichte nun drie vormen tot de aanwezige, la taf'ulan, la taf'ulun, la taf'ulin, en vijf tot de afwezige, la yaf'ulan, la yaf'ulun, la taf'ulan, la af'ulan, la naf'ulan, met het passief op dezelfde manier. Hiermee is de vervoeging van het werkwoord volledig: elke vorm van de veertien van het boek, in elke wijs, is nu volgens een regel uit fa'ala gebouwd.",
+    "In de madrasa worden deze tabellen in volgorde opgezegd, actief en dan passief, zwaar en dan licht, tot de student elke vorm van elk gaaf werkwoord zonder het boek kan maken. Het rooster toont de actieve vormen."
+   ],
+   "terms": [
+    "het nadrukkelijke verbod, met een nun van de nadruk",
+    "de afwezige en de aanwezige"
+   ],
+   "examples": [
+    "de zware nun, tot de aanwezige",
+    "de zware nun, tot de afwezige en de spreker",
+    "de lichte nun: drie vormen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Benoem elke vorm: la taf'ulinna; la yaf'ulnanni; la af'ulan.",
+     "answer": "La taf'ulinna: verbod tot één vrouw, zware nun. La yaf'ulnanni: tot het vrouwelijk meervoud afwezig, zware nun. La af'ulan: de spreker alleen, lichte nun."
+    },
+    {
+     "prompt": "Maak het passief van la taf'ulunna en van la yaf'ulan.",
+     "answer": "La tuf'alunna en la yuf'alan: het teken met damma, de 'ayn met fatha; de la en de nun blijven."
+    },
+    {
+     "prompt": "Waarom heeft het verbod met de lichte nun in totaal acht vormen?",
+     "answer": "Drie tot de aanwezige en vijf tot de afwezige en de spreker: de lichte nun volgt nooit op een alif, dus de tweevouden en de vrouwelijke meervouden hebben geen lichte vorm."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "La taf'ulanna betekent…",
+     "options": [
+      "je zult zeker doen",
+      "je deed niet",
+      "doe het nooit! (tot één man)",
+      "doe het zeker!"
+     ],
+     "explanation": "Het verbod met de zware nun."
+    },
+    {
+     "prompt": "De nun van de nadruk in het verbod volgt de regels van…",
+     "options": [
+      "de madi",
+      "het deelwoord",
+      "lan",
+      "de nadrukkelijke mudari'"
+     ],
+     "explanation": "“Op dezelfde manier als in de mudari'.”"
+    },
+    {
+     "prompt": "La taf'ulun wordt gezegd tot…",
+     "options": [
+      "veel mannen",
+      "één man",
+      "één vrouw",
+      "twee mensen"
+     ],
+     "explanation": "De damma geeft de weggelaten waw aan."
+    },
+    {
+     "prompt": "Hoeveel vormen met de lichte nun heeft het verbod tot de afwezige?",
+     "options": [
+      "Drie",
+      "Vijf",
+      "Acht",
+      "Veertien"
+     ],
+     "explanation": "Hij, zij (mannen), zij (vrouw), ik, wij."
+    },
+    {
+     "prompt": "La tuf'alinna is…",
+     "options": [
+      "actief, tot één vrouw",
+      "passief, tot veel mannen",
+      "passief, tot één vrouw",
+      "een ontkenning"
+     ],
+     "explanation": "U … a in de stam, de kasra van de weggelaten ya'."
+    },
+    {
+     "prompt": "La yaf'ulanni is de vorm van…",
+     "options": [
+      "hij",
+      "zij (mannen)",
+      "wij",
+      "zij tweeën (mannen)"
+     ],
+     "explanation": "Een alif voor de nun, die een kasra neemt."
+    },
+    {
+     "prompt": "Wat heeft het boek na deze tabellen gebouwd?",
+     "options": [
+      "elke vorm van het werkwoord uit fa'ala",
+      "alleen de madi",
+      "alleen de naamwoorden",
+      "de zwakke werkwoorden"
+     ],
+     "explanation": "Daarna gaat het naar de afgeleide naamwoorden."
+    }
+   ],
+   "diagram": {
+    "caption": "Het verbod met de twee nuns, actief (blz. 20–21)",
+    "labels": {
+     "Person": "Persoon",
+     "Heavy nūn": "Zware nun",
+     "Light nūn": "Lichte nun",
+     "you (m.)": "jij (man)",
+     "you two (m.)": "jullie tweeën (mannen)",
+     "you (m. pl.)": "jullie (mannen)",
+     "you (f.)": "jij (vrouw)",
+     "you two (f.)": "jullie tweeën (vrouwen)",
+     "you (f. pl.)": "jullie (vrouwen)",
+     "he": "hij",
+     "they two (m.)": "zij tweeën (mannen)",
+     "they (m.)": "zij (mannen)",
+     "she": "zij (vrouw)",
+     "they two (f.)": "zij tweeën (vrouwen)",
+     "they (f.)": "zij (vrouwen)",
+     "I": "ik",
+     "we": "wij"
+    }
+   }
+  },
+  "19": {
+   "title": "Het actief en het passief deelwoord",
+   "body": [
+    "“Het actief deelwoord wordt uit de actieve mudari' genomen.” Laat het teken weg, geef de fa' een fatha, breng “de alif van fa'il” tussen de fa' en de 'ayn, geef de 'ayn een kasra en voeg tanwin toe: yaf'ulu → fa'ilun, “iemand die doet”. Met nasara: nasirun, “een helper”, uit yansuru.",
+    "Het heeft zes vormen, want het naamwoord wordt verbogen naar geslacht en getal, niet naar persoon: fa'ilun, fa'ilani, fa'iluna voor mannen; fa'ilatun, fa'ilatani, fa'ilatun [met lange a] voor vrouwen.",
+    "“Het passief deelwoord wordt uit de passieve mudari' gemaakt.” Laat het teken weg, breng “de mim van maf'ul” met een fatha aan het begin, geef de 'ayn een damma, breng “de waw van maf'ul” tussen de 'ayn en de lam, en geef de lam tanwin: yuf'alu → maf'ulun, “iemand aan wie gedaan wordt”; met nasara, mansurun, “geholpen”. Zijn zes vormen: maf'ulun, maf'ulani, maf'uluna, maf'ulatun, maf'ulatani, maf'ulatun [met lange a].",
+    "Deze regels gelden voor het kale drieletterige werkwoord. Het boek bouwt elk naamwoord uit de mudari', stap voor stap, zodat de student ziet waar elke letter vandaan komt: de alif van fa'il en de mim en waw van maf'ul zijn toegevoegde letters, de f, de 'ayn en de l zijn de wortel."
+   ],
+   "terms": [
+    "het actief deelwoord: fa'il, “iemand die doet”",
+    "het passief deelwoord: maf'ul, “iemand aan wie gedaan wordt”",
+    "de alif die na de fa' wordt toegevoegd",
+    "de mim en de waw die in maf'ul worden toegevoegd"
+   ],
+   "examples": [
+    "fa'ilun; nasirun, “een helper” (engine)",
+    "de vrouwelijke vormen",
+    "maf'ulun; mansurun, “geholpen” (engine)"
+   ],
+   "tasks": [
+    {
+     "prompt": "Bouw het actief deelwoord uit yansuru, stap voor stap.",
+     "answer": "Laat het teken weg: nsuru. Geef de fa' een fatha en voeg de alif toe: nas-. Geef de 'ayn een kasra: nasir-. Voeg tanwin toe: nasirun."
+    },
+    {
+     "prompt": "Bouw het passief deelwoord uit yunsaru, stap voor stap.",
+     "answer": "Laat het teken weg: nsaru. Voeg de mim met fatha toe: mans-. Geef de 'ayn een damma en voeg de waw erna toe: mansur-. Voeg tanwin toe: mansurun."
+    },
+    {
+     "prompt": "Waarom heeft het deelwoord zes vormen, en geen veertien?",
+     "answer": "Het is een naamwoord: het verandert naar geslacht en getal (één, twee, veel; mannelijk, vrouwelijk), maar niet naar persoon, zoals het werkwoord."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het actief deelwoord wordt genomen uit…",
+     "options": [
+      "de passieve mudari'",
+      "de madi",
+      "de gebiedende wijs",
+      "de actieve mudari'"
+     ],
+     "explanation": "Yaf'ulu → fa'ilun."
+    },
+    {
+     "prompt": "Het passief deelwoord wordt gemaakt uit…",
+     "options": [
+      "de passieve mudari'",
+      "de actieve mudari'",
+      "de madi",
+      "de masdar"
+     ],
+     "explanation": "Yuf'alu → maf'ulun."
+    },
+    {
+     "prompt": "De alif van fa'il komt…",
+     "options": [
+      "aan het begin",
+      "tussen de fa' en de 'ayn",
+      "aan het eind",
+      "tussen de 'ayn en de lam"
+     ],
+     "explanation": "Fa'il: de alif na de fa'."
+    },
+    {
+     "prompt": "De waw van maf'ul komt…",
+     "options": [
+      "na de mim",
+      "aan het eind",
+      "tussen de 'ayn en de lam",
+      "tussen de fa' en de 'ayn"
+     ],
+     "explanation": "Maf'ul: de waw na de 'ayn."
+    },
+    {
+     "prompt": "Fa'ilatun [met lange a] is…",
+     "options": [
+      "het mannelijk meervoud",
+      "het tweevoud",
+      "het vrouwelijk enkelvoud",
+      "het vrouwelijk meervoud"
+     ],
+     "explanation": "Vrouwen die doen."
+    },
+    {
+     "prompt": "Hoeveel vormen heeft elk deelwoord in het boek?",
+     "options": [
+      "Zes",
+      "Veertien",
+      "Drie",
+      "Acht"
+     ],
+     "explanation": "Naar geslacht en getal."
+    },
+    {
+     "prompt": "Het passief deelwoord van nasara is…",
+     "options": [
+      "nasir",
+      "mansur",
+      "nusira",
+      "mansar"
+     ],
+     "explanation": "Uit yunsaru."
+    }
+   ],
+   "diagram": {
+    "caption": "De twee deelwoorden (blz. 22)",
+    "labels": {
+     "Number and gender": "Getal en geslacht",
+     "Active participle": "Actief deelwoord",
+     "Passive participle": "Passief deelwoord",
+     "one man": "één man",
+     "two men": "twee mannen",
+     "men": "mannen",
+     "one woman": "één vrouw",
+     "two women": "twee vrouwen",
+     "women": "vrouwen"
+    }
+   }
+  },
+  "20": {
+   "title": "Het naamwoord van tijd en plaats, en het naamwoord van werktuig",
+   "body": [
+    "Onze druk eindigt met een aanvulling (tatimma) over nog drie naamwoorden, binnen het kader van de tekst gezet; de overschrijver merkt op dat het een latere toevoeging is die in Indiase drukken voorkomt. Elk wordt weer uit de mudari' gebouwd.",
+    "Het naamwoord van tijd en plaats (ism zarf), de tijd of de plaats van de handeling: laat het teken weg, zet een mim met een fatha aan het begin, “geef de 'ayn een fatha als hij een damma heeft, laat hem anders zoals hij is”, en voeg tanwin toe. Uit yaf'ulu, met zijn damma, komt maf'alun; uit een mudari' met een kasra zou de kasra blijven. Zijn vormen: maf'alun, maf'alani, en het gebroken meervoud mafa'ilu.",
+    "Het naamwoord van werktuig (ism ala), het gereedschap waarmee de handeling gedaan wordt: laat het teken weg, zet een mim met een kasra, geef de 'ayn een fatha, voeg tanwin toe: mif'alun. “Als je een alif na de 'ayn brengt, of een ta' na de lam toevoegt, verschijnen twee andere vormen”: mif'alun [met lange a] en mif'alatun. Hun vormen: mif'alun, mif'alatun, mif'alani, mif'alatani, met het meervoud mafa'ilu; en mif'alun [met lange a], mif'alani [met lange a], met het meervoud mafa'ilu [met lange i].",
+    "Het boek zegt dat deze vormen “meestal met de regel overeenkomen”: veel naamwoorden van plaats en werktuig die in gebruik zijn, volgen andere patronen, die de grotere boeken van de sarf opsommen. Hier leert de student de regel op fa'ala; de klinker van de mim is het eerste waar je op let: ma- voor een plaats, mi- voor een gereedschap."
+   ],
+   "terms": [
+    "het naamwoord van tijd en plaats: maf'al",
+    "het naamwoord van werktuig: mif'al, mif'ala, mif'al [met lange a]",
+    "de aanvulling aan het eind van het boek"
+   ],
+   "examples": [
+    "het naamwoord van tijd en plaats: mim met fatha",
+    "de drie naamwoorden van werktuig: mim met kasra",
+    "hun gebroken meervouden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Hoe verschillen het naamwoord van plaats en het naamwoord van werktuig in hun eerste klinker?",
+     "answer": "Het naamwoord van tijd en plaats heeft een mim met fatha (maf'al); het naamwoord van werktuig een mim met kasra (mif'al)."
+    },
+    {
+     "prompt": "Waarom is de 'ayn van maf'al in het paradigma van het boek een fatha?",
+     "answer": "De regel is: geef de 'ayn een fatha als hij in de mudari' een damma heeft, en laat hem anders. Yaf'ulu heeft een damma, dus het wordt maf'al."
+    },
+    {
+     "prompt": "Geef de twee andere vormen van het naamwoord van werktuig, en hun meervouden.",
+     "answer": "Mif'alun [met lange a], met een alif na de 'ayn, meervoud mafa'ilu [met lange i]; en mif'alatun, met een ta' na de lam, meervoud mafa'ilu."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Het naamwoord van tijd en plaats begint met…",
+     "options": [
+      "een mim met fatha",
+      "een mim met kasra",
+      "een hamza",
+      "een ta'"
+     ],
+     "explanation": "Maf'al: de mim met fatha."
+    },
+    {
+     "prompt": "Het naamwoord van werktuig begint met…",
+     "options": [
+      "een mim met fatha",
+      "een mim met kasra",
+      "een mim met damma",
+      "een alif"
+     ],
+     "explanation": "Mif'al: de mim met kasra."
+    },
+    {
+     "prompt": "Het meervoud van maf'al in het boek is…",
+     "options": [
+      "maf'aluna",
+      "maf'alatun [met lange a]",
+      "mafa'ilu",
+      "mafa'ilu [met lange i]"
+     ],
+     "explanation": "Een gebroken meervoud."
+    },
+    {
+     "prompt": "Mif'alun [met lange a] heeft…",
+     "options": [
+      "een ta' na de lam",
+      "een mim met fatha",
+      "geen toegevoegde letter",
+      "een alif na de 'ayn"
+     ],
+     "explanation": "Een van de twee andere vormen."
+    },
+    {
+     "prompt": "Het meervoud van mif'al [met lange a] is…",
+     "options": [
+      "mafa'ilu [met lange i]",
+      "mafa'ilu",
+      "mif'aluna",
+      "mif'alatun"
+     ],
+     "explanation": "Met een lange i."
+    },
+    {
+     "prompt": "De 'ayn van het naamwoord van plaats wordt een fatha als hij in de mudari' dit heeft:",
+     "options": [
+      "een kasra",
+      "een damma",
+      "een fatha",
+      "een sukun"
+     ],
+     "explanation": "Anders blijft hij zoals hij is."
+    },
+    {
+     "prompt": "Waar staat deze aanvulling?",
+     "options": [
+      "In elk exemplaar van het boek",
+      "Alleen in handschriften",
+      "In Indiase drukken, na het passief deelwoord",
+      "In de Ajurrumiyya"
+     ],
+     "explanation": "Ze is binnen het kader van onze druk gedrukt."
+    }
+   ],
+   "diagram": {
+    "caption": "De naamwoorden van plaats en van werktuig (blz. 23–24)",
+    "labels": {
+     "Noun": "Naamwoord",
+     "Singular": "Enkelvoud",
+     "Dual": "Tweevoud",
+     "Plural": "Meervoud",
+     "time and place": "tijd en plaats",
+     "instrument": "werktuig",
+     "instrument, with tāʾ": "werktuig, met ta'",
+     "instrument, with alif": "werktuig, met alif"
+    }
+   }
+  },
+  "21": {
+   "title": "De overtreffende vorm",
+   "body": [
+    "De overtreffende vorm (ism al-tafdil) zegt dat iemand meer van een eigenschap heeft dan een ander. Voor het mannelijk: “laat het teken van de mudari' weg, breng de hamza van de overtreffende vorm aan het begin, geef de 'ayn een fatha als hij er geen heeft, en verbind geen tanwin met de lam”: yaf'ulu → af'alu, “meer doende”.",
+    "Geen tanwin, omdat af'al een diptoot is: het heeft het patroon van een werkwoord (af'alu, zoals de mudari' van de spreker) en is een bijvoeglijk naamwoord. De mannelijke vormen: af'alu, af'alani, af'aluna, en het gebroken meervoud afa'ilu.",
+    "Voor het vrouwelijk: “geef na het weglaten van het teken de fa' een damma, maak de 'ayn klinkerloos, verbind de korte alif (alif maqsura) na de lam, en geef de lam een fatha”: fu'la. Zijn vormen: fu'la, fu'layani, fu'layatun, en het gebroken meervoud fu'alun. Het paar is bekend: akbar, “groter”, en kubra, “grootste (v.)”, zoals in Allahu akbar.",
+    "Met de overtreffende vorm eindigt het boek: “tammat”, “het is voltooid”. In een paar bladzijden heeft de student uit fa'ala elke werkwoordsvorm en elk afgeleid naamwoord van het gave drieletterige werkwoord gebouwd. De volgende boeken van de Dars-i Nizami behandelen de zwakke werkwoorden en de vermeerderde patronen, op dezelfde weegschaal."
+   ],
+   "terms": [
+    "de overtreffende vorm: af'al, fu'la",
+    "de hamza van de overtreffende vorm, aan het begin",
+    "de korte alif van fu'la"
+   ],
+   "examples": [
+    "de mannelijke overtreffende vorm, zonder tanwin",
+    "de vrouwelijke overtreffende vorm",
+    "akbaru, al-kubra: het patroon in een woord van elke dag"
+   ],
+   "tasks": [
+    {
+     "prompt": "Bouw de mannelijke overtreffende vorm uit yaf'ulu, stap voor stap, en zeg waarom ze geen tanwin heeft.",
+     "answer": "Laat het teken weg: f'ulu. Voeg de hamza toe: af'ul-. Geef de 'ayn een fatha: af'al-. Geen tanwin: af'alu. Het is een diptoot, een bijvoeglijk naamwoord met het patroon van een werkwoord."
+    },
+    {
+     "prompt": "Bouw de vrouwelijke overtreffende vorm.",
+     "answer": "Laat het teken weg, geef de fa' een damma, maak de 'ayn klinkerloos, geef de lam een fatha en verbind de korte alif erna: fu'la."
+    },
+    {
+     "prompt": "Geef de vier vormen van de vrouwelijke overtreffende vorm.",
+     "answer": "Fu'la (enkelvoud), fu'layani (tweevoud), fu'layatun (gaaf meervoud), fu'alun (gebroken meervoud)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "De mannelijke overtreffende vorm begint met…",
+     "options": [
+      "een mim",
+      "een hamza",
+      "een ta'",
+      "een ya'"
+     ],
+     "explanation": "Af'al: de hamza van de overtreffende vorm."
+    },
+    {
+     "prompt": "De mannelijke overtreffende vorm neemt…",
+     "options": [
+      "tanwin",
+      "een kasra in elke toestand",
+      "geen tanwin",
+      "een nun"
+     ],
+     "explanation": "Het is een diptoot."
+    },
+    {
+     "prompt": "De vrouwelijke overtreffende vorm staat op het patroon…",
+     "options": [
+      "af'alu",
+      "fa'ilatun",
+      "maf'alatun",
+      "fu'la"
+     ],
+     "explanation": "Met de korte alif."
+    },
+    {
+     "prompt": "Het tweevoud van fu'la is…",
+     "options": [
+      "fu'layani",
+      "fu'lani",
+      "af'alani",
+      "fu'alani"
+     ],
+     "explanation": "De alif wordt een ya' voor de uitgang."
+    },
+    {
+     "prompt": "Afa'ilu is…",
+     "options": [
+      "het tweevoud",
+      "het gebroken meervoud van af'al",
+      "het vrouwelijk",
+      "een naamwoord van plaats"
+     ],
+     "explanation": "Naast het gave meervoud af'aluna."
+    },
+    {
+     "prompt": "Kubra is het vrouwelijk van…",
+     "options": [
+      "kabir",
+      "kabura",
+      "akbar",
+      "mukabbar"
+     ],
+     "explanation": "Fu'la van af'al."
+    },
+    {
+     "prompt": "Het laatste woord van het boek, tammat, betekent…",
+     "options": [
+      "het is volledig van betekenis",
+      "het eind van een hoofdstuk",
+      "een gebed",
+      "het is voltooid"
+     ],
+     "explanation": "Het boek eindigt met de overtreffende vorm."
+    }
+   ],
+   "diagram": {
+    "caption": "De overtreffende vorm (blz. 24)",
+    "labels": {
+     "Number": "Getal",
+     "Masculine": "Mannelijk",
+     "Feminine": "Vrouwelijk",
+     "singular": "enkelvoud",
+     "dual": "tweevoud",
+     "sound plural": "gaaf meervoud",
+     "broken plural": "gebroken meervoud"
+    }
+   }
+  }
+ },
+ "title": "Mizan al-sarf",
+ "summary": "De Mizan al-sarf, “de weegschaal van de sarf”, is het korte Perzische leerboek waarmee de Dars-i Nizami van de Indiase madrasa's de sarf begint; de auteur is niet bekend. Op het paradigma fa'ala yaf'ulu bouwt het stap voor stap, en altijd volgens een uitgesproken regel, de vervoeging op van het gave drieletterige werkwoord: de madi en de mudari' in hun veertien vormen, actief en passief, bevestigd en ontkend met ma, la, lan en lam, met de lam en de twee nuns van de nadruk, de gebiedende wijs en het verbod, en daarna de twee deelwoorden, de naamwoorden van plaats en van werktuig, en de overtreffende vorm. De student leert het uit het hoofd, tabel voor tabel. De lessen volgen een lithografie uit Kanpur van 1905, verklaren in het Nederlands elke regel die het Perzisch geeft, en zetten de tabellen naast dezelfde vormen van nasara uit de vervoegingsengine."
+}

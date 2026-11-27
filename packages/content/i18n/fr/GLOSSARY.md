@@ -273,3 +273,8 @@ list when it is made. The layout follows the English source list, `packages/cont
 - The augmented forms by their masdar (la forme if'âl, la forme taf'îl, mufâ'ala …), never by Western numbers in a
   translation (a lesson may add « forme IV »); the bâbs of the bare verb by their example (la classe de nasara).
 - The verbs of the tables: by their place in the paradigm (troisième personne du masculin singulier first).
+- The persons of a table: « l'homme absent », « la femme absente » (ghâ'ib), « l'interlocuteur », « l'interlocutrice »
+  (mukhâtab), « celui qui parle » (mutakallim); hâdir « celui qui est présent » (l'ordre à celui qui est présent).
+- « classe » is the bâb only; the seven kinds of root (sahîh, mithâl, ajwaf, nâqis, lafîf, mudâ'af, mahmûz) are « les
+  sept sortes ». The meanings of the augmented bâbs: mutâwa'a « l'acceptation de l'effet », mushâraka « la
+  réciprocité », takthîr « la multiplication », takalluf « l'effort », ta'diya « rendre transitif ».

@@ -949,7 +949,8 @@
       "mastersKicker": "Les maîtres",
       "mastersLead": "De Sîbawayh à al-Azhar : les grammairiens dont on lisait les livres.",
       "library": "Toute la bibliothèque",
-      "newsLead": "Rassemblées chaque semaine par The Mantiqi."
+      "newsLead": "Rassemblées chaque semaine par The Mantiqi.",
+      "generationsLink": "Les générations des grammairiens"
     },
     "curricula": {
       "title": "Cursus",
@@ -1025,7 +1026,9 @@
         "teacher": "Enseignants",
         "voice": "Voix sur la grammaire",
         "modern": "Recherche moderne"
-      }
+      },
+      "generationsLink": "Les générations des grammairiens",
+      "generationsLead": "Les mêmes savants par école et par génération, comme les anciens livres de tabaqât les présentent, et par siècle."
     },
     "scholar": {
       "life": "Vie",
@@ -1035,7 +1038,9 @@
       "places": "Lieux",
       "writtenOn": "Écrit sur ses œuvres",
       "books": "Dans les livres",
-      "sources": "Sources"
+      "sources": "Sources",
+      "school": "École",
+      "tabaqa": "Dans les Tabaqât d'al-Zubaydî"
     },
     "news": {
       "title": "Actualités du nahw et du sarf",
@@ -1110,7 +1115,8 @@
         "verse": "Poème didactique",
         "refutation": "Critique",
         "modern": "Manuel moderne",
-        "translation": "Traduction"
+        "translation": "Traduction",
+        "biography": "Vies des grammairiens"
       },
       "languages": {
         "ar": "Arabe",
@@ -1154,7 +1160,8 @@
         "sentence": "La phrase",
         "governors": "Les régissants ('awâmil)",
         "followers": "Les suivants (tawâbi')",
-        "accusatives": "Les mots au nasb"
+        "accusatives": "Les mots au nasb",
+        "jargon": "La langue des livres et de la controverse"
       },
       "pageTitle": "{name} ({transliteration}) : sens en grammaire arabe",
       "pageTitleShort": "{name} : sens en grammaire arabe",
@@ -1171,6 +1178,60 @@
     "nahw": {
       "title": "À propos du nahw et du sarf",
       "lead": "Ce que sont le nahw et le sarf, pourquoi le sarf vient d'abord, et comment la madrasa lit leurs livres."
+    },
+    "generations": {
+      "title": "Les générations des grammairiens",
+      "lead": "Les grammairiens du nahw et du sarf par école et par génération, comme les anciens livres de tabaqât les présentent, et selon le siècle de leur mort.",
+      "description": "Les grammairiens de l'arabe par école et par tabaqa d'après les Tabaqât al-nahwiyyîn d'al-Zubaydî, et par siècle : leur année de mort hégirienne, leur ville et leurs livres.",
+      "count": "{n} grammairiens",
+      "introKicker": "Les tabaqât",
+      "introTitle": "Comment les anciens livres ordonnent les grammairiens",
+      "intro": [
+        "À partir du IVe/Xe siècle, les grammairiens ont écrit l'histoire de leur propre science sous forme de tabaqât, de « couches » ou générations : les élèves des maîtres d'une génération forment la suivante, si bien qu'un livre de tabaqât est une chaîne qui va du fondateur jusqu'aux maîtres de l'auteur. Les plus anciens qui nous soient parvenus ont été écrits à quelques décennies d'intervalle : les Akhbâr al-nahwiyyîn al-Basriyyîn d'al-Sîrâfî, les Marâtib al-nahwiyyîn d'Abû al-Tayyib al-Lughawî et les Tabaqât al-nahwiyyîn wa-l-lughawiyyîn d'al-Zubaydî.",
+        "Cette page suit al-Zubaydî, qui écrivait à Cordoue sur l'ordre du calife al-Hakam II. Il répartit les savants par ville et par science : les grammairiens de Bassora en dix générations, d'Abû al-Aswad al-Du'alî aux élèves d'al-Zajjâj ; les grammairiens de Koufa en six, d'al-Ru'âsî aux élèves de Tha'lab ; les lexicographes des deux villes ; puis les hommes d'Égypte, de Kairouan et d'al-Andalus. Chaque notice donne les maîtres d'un savant, ses livres et les récits qui le concernent ; les générations ci-dessous, et les numéros des notices, sont les siens.",
+        "Pour les siècles suivants, les tabaqât vont par ordre des noms : la Nuzhat al-alibbâ' d'Ibn al-Anbârî, l'Inbâh al-ruwât d'al-Qiftî et la Bughyat al-wu'ât d'al-Suyûtî, qui réunit plus de deux mille grammairiens et lexicographes jusqu'à la fin du IXe/XVe siècle. Ici, les grammairiens postérieurs à al-Zubaydî sont présentés selon l'école ou le pays où les histoires les placent, avec les livres qu'ils ont écrits, jusqu'aux auteurs lus dans les trois cursus d'étude."
+      ],
+      "worksTitle": "Les ouvrages de tabaqât dans la bibliothèque",
+      "bySchool": "Par école et par génération",
+      "byCentury": "Par siècle",
+      "zubaydiTitle": "Dans les Tabaqât d'al-Zubaydî",
+      "zubaydiLead": "Al-Zubaydî (m. 379/989) présente les savants de chaque ville génération par génération, les élèves d'une génération formant la suivante ; seuls les grammairiens et lexicographes qui ont une page ici sont montrés.",
+      "laterTitle": "Après al-Zubaydî : les écoles et les pays",
+      "laterLead": "Les grammairiens qui ont vécu après lui, ou qu'il ne cite pas, selon l'école ou le pays où les histoires les placent, et par date de mort.",
+      "centuryTitle": "Par siècle de la mort",
+      "centuryLead": "Chaque grammairien de l'encyclopédie sous le siècle de l'hégire où il est mort, avec son école et sa ville.",
+      "lists": {
+        "basra-nahw": "Les grammairiens de Bassora",
+        "kufa-nahw": "Les grammairiens de Koufa",
+        "basra-lugha": "Les lexicographes de Bassora",
+        "kufa-lugha": "Les lexicographes de Koufa",
+        "egypt": "Les grammairiens d'Égypte",
+        "qayrawan": "Les grammairiens de Kairouan",
+        "andalus": "Les grammairiens d'al-Andalus"
+      },
+      "schools": {
+        "basra": "Bassora",
+        "kufa": "Koufa",
+        "baghdad": "Bagdad et l'Irak",
+        "egypt-sham": "L'Égypte et la Syrie",
+        "andalus": "al-Andalus",
+        "maghrib": "Le Maghreb",
+        "hijaz-yemen": "Le Hijâz et le Yémen",
+        "persia-central-asia": "La Perse et l'Asie centrale",
+        "ottoman": "Les terres ottomanes",
+        "india": "L'Inde",
+        "none": "Pays inconnu"
+      },
+      "generation": "{n} génération",
+      "inGeneration": "{list}, {n} génération",
+      "entry": "notice {n}",
+      "century": "{n} siècle de l'hégire",
+      "years": "{from}–{to} de l'hégire · {n}",
+      "yearsOne": "{from}–{to} de l'hégire · 1 grammairien",
+      "grammarians": "{n} grammairiens",
+      "died": "m.",
+      "undated": "Année de mort inconnue",
+      "grammarianOne": "1 grammairien"
     }
   },
   "preview": {

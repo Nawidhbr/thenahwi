@@ -949,7 +949,8 @@
       "mastersKicker": "De meesters",
       "mastersLead": "Van Sibawayh tot al-Azhar: de grammatici wier boeken gelezen werden.",
       "library": "De hele bibliotheek",
-      "newsLead": "Elke week verzameld door The Mantiqi."
+      "newsLead": "Elke week verzameld door The Mantiqi.",
+      "generationsLink": "De generaties van de grammatici"
     },
     "curricula": {
       "title": "Leerplannen",
@@ -998,8 +999,8 @@
       "lead": "De grammatici, commentatoren en leraren van nahw en sarf, per eeuw van hun overlijden.",
       "filter": "Zoek een geleerde",
       "none": "Geen geleerde gevonden.",
-      "century": "{n} eeuw",
-      "centuryBce": "{n} eeuw v.Chr.",
+      "century": "{n}e eeuw",
+      "centuryBce": "{n}e eeuw v.Chr.",
       "undated": "Datum onbekend",
       "count": "{n} geleerden",
       "period": "Periode",
@@ -1025,7 +1026,9 @@
         "teacher": "Leraren",
         "voice": "Stemmen over grammatica",
         "modern": "Modern onderzoek"
-      }
+      },
+      "generationsLink": "De generaties van de grammatici",
+      "generationsLead": "Dezelfde geleerden per school en generatie, zoals de oude tabaqat-boeken ze ordenen, en per eeuw."
     },
     "scholar": {
       "life": "Leven",
@@ -1035,7 +1038,9 @@
       "places": "Plaatsen",
       "writtenOn": "Geschreven over zijn werken",
       "books": "In de boeken",
-      "sources": "Bronnen"
+      "sources": "Bronnen",
+      "school": "School",
+      "tabaqa": "In de Tabaqat van al-Zubaydi"
     },
     "news": {
       "title": "Nieuws over nahw en sarf",
@@ -1110,7 +1115,8 @@
         "verse": "Berijming",
         "refutation": "Kritiek",
         "modern": "Modern leerboek",
-        "translation": "Vertaling"
+        "translation": "Vertaling",
+        "biography": "Levens van de grammatici"
       },
       "languages": {
         "ar": "Arabisch",
@@ -1154,7 +1160,8 @@
         "sentence": "De zin",
         "governors": "Regeerders ('awamil)",
         "followers": "Volgers (tawabi')",
-        "accusatives": "Woorden in nasb"
+        "accusatives": "Woorden in nasb",
+        "jargon": "De taal van de boeken en van het debat"
       },
       "pageTitle": "{name} ({transliteration}): betekenis in de Arabische grammatica",
       "pageTitleShort": "{name}: betekenis in de Arabische grammatica",
@@ -1171,6 +1178,60 @@
     "nahw": {
       "title": "Over nahw en sarf",
       "lead": "Wat nahw en sarf zijn, waarom sarf eerst komt, en hoe de madrasa hun boeken leest."
+    },
+    "generations": {
+      "title": "De generaties van de grammatici",
+      "lead": "De grammatici van nahw en sarf per school en generatie, zoals de oude tabaqat-boeken ze ordenen, en per eeuw waarin ze stierven.",
+      "description": "De grammatici van het Arabisch per school en tabaqa naar de Tabaqat al-nahwiyyin van al-Zubaydi, en per eeuw: hun sterfjaar, hun stad en hun boeken.",
+      "count": "{n} grammatici",
+      "introKicker": "De tabaqat",
+      "introTitle": "Hoe de oude boeken de grammatici ordenen",
+      "intro": [
+        "Vanaf de 4e/10e eeuw schreven de grammatici de geschiedenis van hun eigen wetenschap als tabaqat, “lagen” of generaties: de leerlingen van de leraren van één generatie vormen de volgende, zodat een boek van tabaqat een keten is van de grondlegger tot de eigen leraren van de auteur. De oudste die bewaard zijn, werden binnen enkele decennia na elkaar geschreven: de Akhbar al-nahwiyyin al-Basriyyin van al-Sirafi, de Maratib al-nahwiyyin van Abu al-Tayyib al-Lughawi en de Tabaqat al-nahwiyyin wa-l-lughawiyyin van al-Zubaydi.",
+        "Deze pagina volgt al-Zubaydi, die in Cordoba schreef in opdracht van de kalief al-Hakam II. Hij verdeelt de geleerden naar stad en naar wetenschap: de grammatici van Basra in tien generaties, van Abu al-Aswad al-Du'ali tot de leerlingen van al-Zajjaj; de grammatici van Kufa in zes, van al-Ru'asi tot de leerlingen van Tha'lab; de lexicografen van beide steden; daarna de mannen van Egypte, van Qayrawan en van al-Andalus. Elk lemma geeft de leraren van een geleerde, zijn boeken en de berichten over hem; de generaties hieronder, en de nummers van de lemma's, zijn de zijne.",
+        "Voor de latere eeuwen ordenen de tabaqat op naam: de Nuzhat al-alibba' van Ibn al-Anbari, de Inbah al-ruwat van al-Qifti en de Bughyat al-wu'at van al-Suyuti, die meer dan tweeduizend grammatici en lexicografen verzamelt tot het eind van de 9e/15e eeuw. Hier staan de grammatici na al-Zubaydi per school of land waarin de geschiedschrijvers hen plaatsen, met de boeken die ze schreven, tot en met de auteurs die op de drie studiepaden gelezen worden."
+      ],
+      "worksTitle": "De tabaqat-werken in de bibliotheek",
+      "bySchool": "Per school en generatie",
+      "byCentury": "Per eeuw",
+      "zubaydiTitle": "In de Tabaqat van al-Zubaydi",
+      "zubaydiLead": "Al-Zubaydi (gest. 379/989) zet de geleerden van elke stad generatie na generatie uiteen, waarbij de leerlingen van de ene generatie de volgende vormen; alleen de grammatici en lexicografen die hier een pagina hebben, worden getoond.",
+      "laterTitle": "Na al-Zubaydi: de scholen en de landen",
+      "laterLead": "De grammatici die na hem leefden, of die hij niet noemt, per school of land waarin de geschiedschrijvers hen plaatsen, en naar sterfdatum.",
+      "centuryTitle": "Per eeuw van overlijden",
+      "centuryLead": "Elke grammaticus van de encyclopedie onder de islamitische eeuw waarin hij stierf, met zijn school en zijn stad.",
+      "lists": {
+        "basra-nahw": "De grammatici van Basra",
+        "kufa-nahw": "De grammatici van Kufa",
+        "basra-lugha": "De lexicografen van Basra",
+        "kufa-lugha": "De lexicografen van Kufa",
+        "egypt": "De grammatici van Egypte",
+        "qayrawan": "De grammatici van Qayrawan",
+        "andalus": "De grammatici van al-Andalus"
+      },
+      "schools": {
+        "basra": "Basra",
+        "kufa": "Kufa",
+        "baghdad": "Bagdad en Irak",
+        "egypt-sham": "Egypte en Syrië",
+        "andalus": "al-Andalus",
+        "maghrib": "De Maghrib",
+        "hijaz-yemen": "De Hijaz en Jemen",
+        "persia-central-asia": "Perzië en Centraal-Azië",
+        "ottoman": "De Osmaanse landen",
+        "india": "India",
+        "none": "Land onbekend"
+      },
+      "generation": "{n}e generatie",
+      "inGeneration": "{list}, {n}e generatie",
+      "entry": "lemma {n}",
+      "century": "{n}e eeuw AH",
+      "years": "AH {from}–{to} · {n}",
+      "yearsOne": "AH {from}–{to} · 1 grammaticus",
+      "grammarians": "{n} grammatici",
+      "died": "gest.",
+      "undated": "Sterfjaar onbekend",
+      "grammarianOne": "1 grammaticus"
     }
   },
   "preview": {

@@ -1,0 +1,2092 @@
+{
+  "title": "Binâ' al-af'âl",
+  "summary": "Le Binâ' (en turc Binâ), un court manuel arabe anonyme lu dans la madrasa ottomane après al-Amthila : là où al-Amthila récite les formes d'un seul verbe, le Binâ' montre comment les verbes se construisent. Il compte trente-cinq classes (bâb), les schèmes sur lesquels se fait tout verbe arabe : six pour le verbe trilitère nu, douze pour l'augmenté, une pour le verbe quadrilitère nu, trois pour le quadrilitère augmenté, et treize « rattachées » aux schèmes quadrilitères. Pour chacune, il donne le schème, un verbe modèle, le signe qui la marque et ce pour quoi elle est construite (rendre un verbe transitif, intensifier, la réciprocité, l'acceptation de l'effet), et il se termine par les huit divisions du verbe et les sept sortes de racines saines et faibles. Les leçons expliquent chaque classe et montrent les classes régulières en entier avec l'outil de conjugaison de The Nahwi.",
+  "parts": {
+    "bare-triliteral": "Les six classes du verbe trilitère nu",
+    "augmented-triliteral": "Les douze classes du verbe trilitère augmenté",
+    "quadriliteral": "Le verbe quadrilitère et les formes rattachées",
+    "divisions": "Les huit divisions et les sept sortes"
+  },
+  "lessons": {
+    "1": {
+      "title": "Trente-cinq classes ; la classe de nasara",
+      "body": [
+        "Le Binâ' commence par un compte : « les classes de la conjugaison sont trente-cinq ». Une classe (bâb, littéralement « porte ») est un schème sur lequel les verbes se construisent : le verbe trilitère nu en a six, le trilitère augmenté douze, le quadrilitère nu une, le quadrilitère augmenté trois, et treize autres sont « rattachées » aux schèmes quadrilitères. Al-Amthila enseignait un seul verbe dans toutes ses formes ; le Binâ' enseigne les schèmes sur lesquels reposent tous les verbes.",
+        "Chaque classe est donnée dans le même ordre, et cet ordre vaut d'être appris. D'abord le schème (wazn) sur fa'ala : fa'ala yaf'ulu. Puis son mot pesé (mawzûn), un vrai verbe pesé sur lui : nasara yansuru. Puis son signe ('alâma), ce à quoi on la reconnaît : ici, le 'ayn a une fatha au passé et une damma au présent-futur. Puis ce pour quoi elle est construite, que le livre appelle son binâ' : « le plus souvent pour rendre transitif, et elle peut être intransitive ». Enfin, un exemple de chaque emploi : nasara Zaydun 'Amran, « Zayd a aidé 'Amr » ; kharaja Zaydun, « Zayd est sorti ».",
+        "Remarquez le mot binâ'. En nahw, il désigne la finale fixe d'un mot (leçon 3 d'al-Âjurrûmiyya). Ici, dans le titre du livre et dans chaque classe, il désigne ce pour quoi le schème est construit, son emploi et son sens. Le même mot sert à deux sciences en deux sens.",
+        "Le livre définit ensuite les deux emplois. Le transitif (muta'addî) est le verbe dont l'acte « passe au-delà de l'agent jusqu'au complément d'objet » : nasara Zaydun 'Amran, l'aide atteint 'Amr. L'intransitif (lâzim) est le verbe dont l'acte « ne passe pas au-delà de l'agent, mais se produit en lui-même » : kharaja Zaydun, la sortie reste avec Zayd. Les deux mots reviennent dans chaque classe qui suit."
+      ],
+      "terms": [
+        "un schème sur lequel les verbes se construisent : trente-cinq en tout",
+        "le schème, écrit sur fa'ala",
+        "le mot pesé : un vrai verbe pesé sur le schème",
+        "le signe par lequel on reconnaît une classe",
+        "transitif : l'acte passe à un complément d'objet",
+        "intransitif : l'acte reste avec l'agent"
+      ],
+      "examples": [
+        "fa'ala yaf'ulu, le schème ; nasara yansuru, son mot pesé",
+        "nasara Zaydun 'Amran, « Zayd a aidé 'Amr » : transitif",
+        "kharaja Zaydun, « Zayd est sorti » : intransitif, dans la même classe"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les cinq choses que le Binâ' dit de la première classe, dans son ordre.",
+          "answer": "Le schème : fa'ala yaf'ulu. Le mot pesé : nasara yansuru. Le signe : le 'ayn a une fatha au passé et une damma au présent-futur. Ce pour quoi elle est construite : le plus souvent transitive, parfois intransitive. Les exemples : nasara Zaydun 'Amran (transitif), kharaja Zaydun (intransitif)."
+        },
+        {
+          "prompt": "Transitif ou intransitif ? kataba Zaydun al-darsa ; jalasa Zaydun ; fataha Zaydun al-bâba ; dhahaba Zaydun.",
+          "answer": "Kataba : transitif (l'écriture passe à la leçon). Jalasa : intransitif. Fataha : transitif. Dhahaba : intransitif."
+        },
+        {
+          "prompt": "Donnez le passé et le présent-futur de trois autres verbes de la classe de nasara : kataba, kharaja, dakhala.",
+          "answer": "Kataba, yaktubu ; kharaja, yakhruju ; dakhala, yadkhulu : fatha sur le 'ayn au passé, damma au présent-futur."
+        },
+        {
+          "prompt": "Que signifie binâ' dans ce livre, et que signifie-t-il en nahw ?",
+          "answer": "Dans le Binâ', c'est ce pour quoi un schème est construit, son emploi (rendre transitif, intensifier …). En nahw, c'est la finale fixe d'un mot qui ne prend pas l'i'râb."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de classes le Binâ' compte-t-il ?",
+          "options": [
+            "Six",
+            "Trente-cinq",
+            "Douze",
+            "Quatorze"
+          ],
+          "explanation": "6 + 12 + 1 + 3 + 13 rattachées."
+        },
+        {
+          "prompt": "Quel est le signe de la classe de nasara ?",
+          "options": [
+            "Fatha dans les deux",
+            "Kasra au passé, fatha au présent-futur",
+            "Fatha sur le 'ayn au passé, damma au présent-futur",
+            "Damma dans les deux"
+          ],
+          "explanation": "Nasara, yansuru."
+        },
+        {
+          "prompt": "Qu'est-ce que le mawzûn d'une classe ?",
+          "options": [
+            "Le schème sur fa'ala",
+            "Son masdar",
+            "Son signe",
+            "Un vrai verbe pesé sur son schème"
+          ],
+          "explanation": "Nasara yansuru est le mawzûn de fa'ala yaf'ulu."
+        },
+        {
+          "prompt": "Que signifie « binâ' » dans le Binâ' ?",
+          "options": [
+            "Ce pour quoi un schème est construit : son emploi",
+            "La finale fixe d'un mot",
+            "La racine",
+            "Le masdar"
+          ],
+          "explanation": "En nahw, le même mot désigne la finale fixe."
+        },
+        {
+          "prompt": "Kharaja Zaydun est…",
+          "options": [
+            "transitif",
+            "intransitif",
+            "passif",
+            "une phrase nominale"
+          ],
+          "explanation": "La sortie reste avec Zayd."
+        },
+        {
+          "prompt": "Comment se définit le verbe transitif ?",
+          "options": [
+            "Il a un agent",
+            "Il est au passé",
+            "Son acte passe au-delà de l'agent jusqu'au complément d'objet",
+            "Son acte reste dans l'agent"
+          ],
+          "explanation": "Nasara Zaydun 'Amran."
+        },
+        {
+          "prompt": "Combien de classes a le verbe trilitère nu ?",
+          "options": [
+            "Douze",
+            "Une",
+            "Treize",
+            "Six"
+          ],
+          "explanation": "Nasara, daraba, fataha, 'alima, hasuna, hasiba."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trente-cinq classes du Binâ'.",
+        "labels": {
+          "The thirty-five bābs of the Binā.": "Les trente-cinq classes du Binâ'.",
+          "The thirty-five bābs": "Les trente-cinq classes",
+          "Three-letter verb": "Verbe trilitère",
+          "bare: 6": "nu : 6",
+          "augmented: 12": "augmenté : 12",
+          "Four-letter verb": "Verbe quadrilitère",
+          "bare: 1": "nu : 1",
+          "augmented: 3": "augmenté : 3",
+          "Attached (mulḥaq)": "Rattachées (mulhaq)",
+          "to daḥraja: 6": "à dahraja : 6",
+          "to tadaḥraja: 5": "à tadahraja : 5",
+          "to iḥranjama: 2": "à ihranjama : 2"
+        }
+      },
+      "text": [
+        "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux. Sache que les classes de la conjugaison sont trente-cinq classes ; six d'entre elles sont pour le trilitère nu.",
+        "La première classe : fa'ala yaf'ulu ; son mot pesé (mawzûn) est nasara yansuru « aider ». Son signe est que le 'ayn de son verbe a une fatha au passé et une damma au mudâri'. Elle est le plus souvent construite pour l'emploi transitif (ta'diya), et elle peut être intransitive. Un exemple du transitif est nasara Zaydun 'Amran « Zayd a aidé 'Amr », et un exemple de l'intransitif est kharaja Zaydun « Zayd est sorti ».",
+        "Le transitif (muta'addî) est ce dans quoi l'action de l'agent passe jusqu'au complément d'objet ; l'intransitif (lâzim) est ce dans quoi l'action de l'agent ne passe pas jusqu'au complément d'objet, mais reste dans l'agent lui-même."
+      ]
+    },
+    "2": {
+      "title": "Les classes de daraba et de fataha",
+      "body": [
+        "La deuxième classe est fa'ala yaf'ilu, son mot pesé daraba yadribu, « frapper ». Son signe : le 'ayn a une fatha au passé et une kasra au présent-futur (le livre appelle ici le présent-futur al-ghâbir, un nom plus ancien qu'il emploie à côté d'al-mudâri'). Elle aussi est le plus souvent transitive, daraba Zaydun 'Amran, « Zayd a frappé 'Amr », et parfois intransitive, jalasa Zaydun, « Zayd s'est assis ».",
+        "La troisième classe est fa'ala yaf'alu, son mot pesé fataha yaftahu, « ouvrir » : une fatha sur le 'ayn au passé comme au présent-futur. Elle a une condition que les autres n'ont pas : le 'ayn ou le lâm du verbe doit être l'une des six lettres gutturales (hurûf al-halq) : le hâ' [ح], le khâ', le 'ayn, le ghayn, le hâ' [ه] et la hamza. Dans fataha, le lâm est un hâ' [ح] ; dans dhahaba, « aller », l'exemple intransitif, le 'ayn est un hâ' [ه].",
+        "Les commentaires expliquent pourquoi : une lettre gutturale est lourde, et la fatha légère à côté d'elle allège le mot. Mais la condition ne joue que dans un sens. Chaque verbe de cette classe a une lettre gutturale, mais tout verbe qui a une lettre gutturale n'est pas de cette classe : dakhala, « entrer », a un khâ' pour 'ayn et est de la classe de nasara, dakhala yadkhulu. La classe d'un verbe s'apprend donc toujours du dictionnaire ; la condition dit seulement ce qui est possible.",
+        "Les trois classes de cette leçon et de la précédente ont toutes une fatha au passé (fa'ala) et ne diffèrent qu'au présent-futur : yaf'ulu, yaf'ilu, yaf'alu. Cette seule voyelle du présent-futur est ce que l'élève doit savoir de chaque nouveau verbe, et c'est pourquoi l'outil de conjugaison de The Nahwi demande la classe."
+      ],
+      "terms": [
+        "la classe de daraba : kasra au présent-futur",
+        "la classe de fataha : fatha dans les deux",
+        "les six lettres gutturales : hâ' [ح], khâ', 'ayn, ghayn, hâ' [ه], hamza",
+        "un nom plus ancien du présent-futur (mudâri')"
+      ],
+      "examples": [
+        "daraba Zaydun 'Amran, transitif ; jalasa Zaydun, intransitif : la classe de daraba",
+        "fataha Zaydun al-bâba, « Zayd a ouvert la porte » ; dhahaba Zaydun, « Zayd est allé » : la classe de fataha",
+        "dakhala, yadkhulu : une lettre gutturale, et pourtant la classe de nasara"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelle classe ? Donnez le schème : jalasa yajlisu ; fataha yaftahu ; kharaja yakhruju ; daraba yadribu.",
+          "answer": "Jalasa yajlisu : fa'ala yaf'ilu (la classe de daraba). Fataha yaftahu : fa'ala yaf'alu. Kharaja yakhruju : fa'ala yaf'ulu (la classe de nasara). Daraba yadribu : fa'ala yaf'ilu."
+        },
+        {
+          "prompt": "Nommez la lettre gutturale et sa place ('ayn ou lâm) dans fataha et dhahaba.",
+          "answer": "Fataha : le hâ' [ح], son lâm. Dhahaba : le hâ' [ه], son 'ayn."
+        },
+        {
+          "prompt": "Dakhala a une lettre gutturale. Pourquoi n'est-il pas de la classe de fataha ?",
+          "answer": "La lettre gutturale est une condition de la classe de fataha, non une cause : chaque verbe de cette classe en a une, mais un verbe qui en a une peut appartenir à une autre classe. Dakhala s'entend dakhala yadkhulu, la classe de nasara."
+        },
+        {
+          "prompt": "Donnez l'impératif à un homme de jalasa et de fataha.",
+          "answer": "Ijlis ; iftah."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quel est le signe de la classe de daraba ?",
+          "options": [
+            "Fatha dans les deux",
+            "Kasra dans les deux",
+            "Fatha sur le 'ayn au passé, kasra au présent-futur",
+            "Damma dans les deux"
+          ],
+          "explanation": "Daraba, yadribu."
+        },
+        {
+          "prompt": "Quelle condition a la classe de fataha ?",
+          "options": [
+            "Elle doit être transitive",
+            "Son fâ' est une lettre faible",
+            "Elle a quatre lettres",
+            "Son 'ayn ou son lâm est une lettre gutturale"
+          ],
+          "explanation": "Hâ' [ح], khâ', 'ayn, ghayn, hâ' [ه] ou hamza."
+        },
+        {
+          "prompt": "Laquelle est une lettre gutturale ?",
+          "options": [
+            "Ghayn",
+            "Qâf",
+            "Kâf",
+            "Mîm"
+          ],
+          "explanation": "Les six : hâ' [ح], khâ', 'ayn, ghayn, hâ' [ه], hamza."
+        },
+        {
+          "prompt": "Dakhala yadkhulu appartient à la classe de…",
+          "options": [
+            "fataha",
+            "nasara",
+            "daraba",
+            "'alima"
+          ],
+          "explanation": "Une lettre gutturale n'impose pas la classe de fataha."
+        },
+        {
+          "prompt": "Qu'est-ce qu'al-ghâbir dans le Binâ' ?",
+          "options": [
+            "Le passé",
+            "L'impératif",
+            "Le présent-futur (mudâri')",
+            "Le masdar"
+          ],
+          "explanation": "Un nom plus ancien que le livre emploie à côté d'al-mudâri'."
+        },
+        {
+          "prompt": "Jalasa Zaydun est l'exemple du livre pour…",
+          "options": [
+            "le transitif dans la classe de daraba",
+            "la classe de fataha",
+            "la classe de nasara",
+            "l'intransitif dans la classe de daraba"
+          ],
+          "explanation": "Jalasa, yajlisu : fa'ala yaf'ilu."
+        },
+        {
+          "prompt": "Qu'ont en commun nasara, daraba et fataha ?",
+          "options": [
+            "Une fatha sur le 'ayn au passé",
+            "La voyelle du présent-futur",
+            "Une lettre gutturale",
+            "Le fait d'être intransitifs"
+          ],
+          "explanation": "Ils ne diffèrent qu'au présent-futur : yaf'ulu, yaf'ilu, yaf'alu."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trois classes avec une fatha au passé",
+        "labels": {
+          "The three bābs with a fatḥa in the past": "Les trois classes avec une fatha au passé",
+          "Bāb": "Classe",
+          "Past": "Passé",
+          "Present": "Présent-futur",
+          "Transitive": "Transitif",
+          "Intransitive": "Intransitif"
+        }
+      },
+      "text": [
+        "La deuxième classe : fa'ala yaf'ilu ; son mot pesé est daraba yadribu « frapper ». Son signe est que le 'ayn de son verbe a une fatha au passé et une kasra au ghâbir [le mudâri']. Elle aussi est le plus souvent construite pour l'emploi transitif, et elle peut être intransitive. Un exemple du transitif est daraba Zaydun 'Amran « Zayd a frappé 'Amr », et un exemple de l'intransitif est jalasa Zaydun « Zayd s'est assis ».",
+        "La troisième classe : fa'ala yaf'alu ; son mot pesé est fataha yaftahu « ouvrir ». Son signe est que le 'ayn de son verbe a une fatha au passé et au mudâri', à condition que le 'ayn ou le lâm de son verbe soit l'une des lettres gutturales (hurûf al-halq), qui sont six : le hâ' [ح], le khâ', le 'ayn, le ghayn, le hâ' [ه] et la hamza. Elle est le plus souvent construite pour l'emploi transitif, et elle peut être intransitive. Un exemple du transitif est fataha Zaydun al-bâba « Zayd a ouvert la porte », et un exemple de l'intransitif est dhahaba Zaydun « Zayd est allé »."
+      ]
+    },
+    "3": {
+      "title": "Les classes de 'alima, hasuna et hasiba",
+      "body": [
+        "La quatrième classe est fa'ila yaf'alu, son mot pesé 'alima ya'lamu, « savoir » : une kasra sur le 'ayn au passé, une fatha au présent-futur. Transitif : 'alima Zaydun al-mas'alata, « Zayd a su la question » ; intransitif : wajila Zaydun, « Zayd a eu peur ». D'autres livres prennent sami'a yasma'u, « entendre », comme mot pesé de cette classe, et l'outil de conjugaison de The Nahwi la nomme d'après sami'a ; le schème est le même.",
+        "La cinquième classe est fa'ula yaf'ulu, son mot pesé hasuna yahsunu, « être beau, bon » : une damma sur le 'ayn dans les deux. Elle n'est « qu'intransitive » : hasuna Zaydun, « Zayd a été bon ». Ses verbes nomment des qualités qui appartiennent à quelqu'un par nature, la beauté, la noblesse, la taille, et ne prennent donc pas de complément d'objet ; l'outil de conjugaison nomme cette classe d'après karuma, « être noble ». Son adjectif n'est d'ordinaire pas sur fâ'il mais sur un autre schème, hasan, karîm, l'adjectif assimilé (al-sifa al-mushabbaha) qu'enseigne le 'Awâmil.",
+        "La sixième classe est fa'ila yaf'ilu, son mot pesé hasiba yahsibu, « compter, estimer » : une kasra sur le 'ayn dans les deux. C'est la plus rare des six. Son exemple transitif est un verbe du cœur à deux compléments : hasiba Zaydun 'Amran fâdilan, « Zayd a estimé 'Amr excellent », comme les sœurs de zanantu d'al-Âjurrûmiyya. L'exemple intransitif que donne l'impression est waritha Zaydun, « Zayd a hérité ».",
+        "Les six peuvent maintenant être placées côte à côte. Trois ont une fatha au passé (fa'ala), et leurs présents-futurs ont u, i, a. Deux ont une kasra au passé (fa'ila), avec a et i au présent-futur. Une a une damma au passé (fa'ula), avec u au présent-futur. Six paires de voyelles, et chaque verbe trilitère nu de l'arabe se tient dans l'une d'elles."
+      ],
+      "terms": [
+        "la classe de 'alima (sami'a)",
+        "la classe de hasuna (karuma) : seulement intransitive",
+        "la classe de hasiba",
+        "le verbe trilitère nu"
+      ],
+      "examples": [
+        "'alima Zaydun al-mas'alata, transitif ; wajila Zaydun, intransitif",
+        "hasuna Zaydun, « Zayd a été bon » : la classe qui n'est qu'intransitive",
+        "hasiba Zaydun 'Amran fâdilan, « Zayd a estimé 'Amr excellent » : deux compléments"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez la classe de chacun par son schème : sami'a yasma'u ; karuma yakrumu ; hasiba yahsibu ; 'alima ya'lamu.",
+          "answer": "Sami'a yasma'u : fa'ila yaf'alu. Karuma yakrumu : fa'ula yaf'ulu. Hasiba yahsibu : fa'ila yaf'ilu. 'Alima ya'lamu : fa'ila yaf'alu (la même classe que sami'a)."
+        },
+        {
+          "prompt": "Pourquoi un verbe de la classe de hasuna ne peut-il jamais prendre de complément d'objet ?",
+          "answer": "Ses verbes nomment des qualités qui appartiennent à l'agent par nature (être bon, noble, grand) ; rien ne passe de l'agent à un autre. Le Binâ' dit qu'elle n'est qu'intransitive."
+        },
+        {
+          "prompt": "Dans hasiba Zaydun 'Amran fâdilan, nommez l'agent et les deux compléments, et dites à quel groupe du nahw appartient hasiba.",
+          "answer": "Agent : Zaydun. Premier complément : 'Amran ; second complément : fâdilan. Hasiba est l'une des sœurs de zanantu, les verbes du cœur qui prennent deux compléments."
+        },
+        {
+          "prompt": "Récitez les six classes avec leurs mots pesés.",
+          "answer": "Fa'ala yaf'ulu (nasara yansuru) ; fa'ala yaf'ilu (daraba yadribu) ; fa'ala yaf'alu (fataha yaftahu) ; fa'ila yaf'alu ('alima ya'lamu) ; fa'ula yaf'ulu (hasuna yahsunu) ; fa'ila yaf'ilu (hasiba yahsibu)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quel est le signe de la classe de 'alima ?",
+          "options": [
+            "Fatha dans les deux",
+            "Kasra dans les deux",
+            "Damma dans les deux",
+            "Kasra au passé, fatha au présent-futur"
+          ],
+          "explanation": "'Alima, ya'lamu."
+        },
+        {
+          "prompt": "Quelle classe n'est qu'intransitive ?",
+          "options": [
+            "Fa'ula yaf'ulu (hasuna)",
+            "Fa'ala yaf'ulu (nasara)",
+            "Fa'ila yaf'alu ('alima)",
+            "Fa'ila yaf'ilu (hasiba)"
+          ],
+          "explanation": "Ses verbes nomment des qualités naturelles."
+        },
+        {
+          "prompt": "Quel est le mot pesé de fa'ila yaf'ilu dans le Binâ' ?",
+          "options": [
+            "'Alima ya'lamu",
+            "Hasiba yahsibu",
+            "Hasuna yahsunu",
+            "Fataha yaftahu"
+          ],
+          "explanation": "Kasra au passé comme au présent-futur."
+        },
+        {
+          "prompt": "Comment l'outil de The Nahwi nomme-t-il la classe de 'alima ?",
+          "options": [
+            "D'après karuma",
+            "D'après hasiba",
+            "D'après sami'a",
+            "D'après fataha"
+          ],
+          "explanation": "Sami'a yasma'u a le même schème."
+        },
+        {
+          "prompt": "Hasiba Zaydun 'Amran fâdilan a…",
+          "options": [
+            "un complément d'objet",
+            "aucun complément",
+            "un hâl et aucun complément",
+            "deux compléments d'objet"
+          ],
+          "explanation": "Hasiba est un verbe du cœur, une sœur de zanantu."
+        },
+        {
+          "prompt": "Combien de classes ont une kasra sur le 'ayn au passé ?",
+          "options": [
+            "Deux",
+            "Trois",
+            "Une",
+            "Six"
+          ],
+          "explanation": "'Alima ya'lamu et hasiba yahsibu."
+        },
+        {
+          "prompt": "Quel est l'adjectif habituel d'un verbe de la classe de hasuna ?",
+          "options": [
+            "Un participe actif sur fâ'il",
+            "Un adjectif assimilé comme hasan",
+            "Un participe passif",
+            "Un élatif seulement"
+          ],
+          "explanation": "Hasan, karîm : l'adjectif assimilé."
+        }
+      ],
+      "diagram": {
+        "caption": "Les six classes du verbe trilitère nu",
+        "labels": {
+          "The six bābs of the bare three-letter verb": "Les six classes du verbe trilitère nu",
+          "Bāb": "Classe",
+          "Model": "Mot pesé",
+          "Past ʿayn": "'Ayn du passé",
+          "Present ʿayn": "'Ayn du présent-futur",
+          "Name in the tool": "Nom dans l'outil",
+          "a": "a",
+          "u": "u",
+          "nasara": "nasara",
+          "i": "i",
+          "daraba": "daraba",
+          "fataha": "fataha",
+          "samia": "samia",
+          "karuma": "karuma",
+          "hasiba": "hasiba"
+        }
+      },
+      "text": [
+        "La quatrième classe : fa'ila yaf'alu ; son mot pesé est 'alima ya'lamu « savoir ». Son signe est que le 'ayn de son verbe a une kasra au passé et une fatha au ghâbir. Elle est le plus souvent construite pour l'emploi transitif, et elle peut être intransitive. Un exemple du transitif est 'alima Zaydun al-mas'alata « Zayd a su la question », et un exemple de l'intransitif est wajila Zaydun « Zayd a eu peur ».",
+        "La cinquième classe : fa'ula yaf'ulu ; son mot pesé est hasuna yahsunu « être bon ». Son signe est que le 'ayn de son verbe a une damma au passé et au mudâri'. Elle n'est jamais qu'intransitive, comme hasuna Zaydun « Zayd a été bon ».",
+        "La sixième classe : fa'ila yaf'ilu ; son mot pesé est hasiba yahsibu « estimer ». Son signe est que le 'ayn de son verbe a une kasra au passé et au mudâri'. Elle est le plus souvent construite pour l'emploi transitif, et elle peut être intransitive. Un exemple du transitif est hasiba Zaydun 'Amran fâdilan « Zayd a estimé 'Amr excellent », et un exemple de l'intransitif est waritha Zaydun « Zayd a hérité »."
+      ]
+    },
+    "4": {
+      "title": "Une lettre ajoutée : af'ala, fa''ala, fâ'ala",
+      "body": [
+        "Douze classes sont pour le verbe trilitère avec des lettres ajoutées (al-mazîd fîhi), en trois sortes : une lettre ajoutée (trois classes), deux lettres (cinq), trois lettres (quatre). À partir d'ici, le livre donne aussi chaque classe avec son masdar, car les masdars des verbes augmentés suivent des règles : af'ala yuf'ilu if'âlan.",
+        "La première classe ajoute une hamza au début : af'ala yuf'ilu if'âlan, mot pesé akrama yukrimu ikrâman. Elle sert le plus souvent à rendre transitif (ta'diya) : karuma Zaydun, « Zayd a été noble », devient akrama Zaydun 'Amran, « Zayd a honoré 'Amr », il en a fait l'objet de la noblesse. Parfois elle est intransitive : asbaha al-rajulu, « l'homme est entré dans le matin ».",
+        "La deuxième classe redouble le 'ayn : fa''ala yufa''ilu taf'îlan, mot pesé farraha yufarrihu tafrîhan, « réjouir ». La lettre ajoutée est « entre le fâ' et le 'ayn, de même nature que le 'ayn », ce qui est la façon dont le livre décrit un redoublement. Elle sert le plus souvent à la multiplication (takthîr) : dans l'acte, tawwafa Zaydun al-ka'bata, « Zayd a fait de nombreuses fois le tour de la Ka'ba » ; dans les agents, mawwata al-ibilu, « les chameaux sont morts en grand nombre » ; dans le complément, ghallaqa Zaydun al-bâba, « Zayd a fermé la porte encore et encore ». Beaucoup de verbes de cette classe rendent aussi transitif : 'alima, « savoir », 'allama, « enseigner ».",
+        "La troisième classe ajoute un alif après le fâ' : fâ'ala yufâ'ilu mufâ'alatan, mot pesé qâtala yuqâtilu muqâtalatan, avec deux autres masdars, qitâlan et qîtâlan. Elle sert le plus souvent à la réciprocité entre deux (mushâraka) : qâtala Zaydun 'Amran, « Zayd a combattu 'Amr », chacun faisant à l'autre ce que l'autre lui fait ; parfois pour un seul : qâtalahumu llâhu, « que Dieu les combatte » (Coran 9:30).",
+        "Dans les trois, le présent-futur a une damma sur son préfixe, yukrimu, yufarrihu, yuqâtilu, comme pour tout passé de quatre lettres (la leçon d'al-Amthila sur le présent-futur). L'outil de conjugaison donne ces trois classes en entier comme schèmes 4, 2 et 3."
+      ],
+      "terms": [
+        "le verbe augmenté : des lettres ajoutées à la racine",
+        "rendre transitif",
+        "la multiplication : dans l'acte, les agents ou les compléments",
+        "la réciprocité entre deux",
+        "les masdars par lesquels on nomme les trois classes"
+      ],
+      "examples": [
+        "akrama Zaydun 'Amran, « Zayd a honoré 'Amr » : af'ala, rendre transitif",
+        "tawwafa Zaydun al-ka'bata, « Zayd a fait de nombreuses fois le tour de la Ka'ba » : fa''ala, la multiplication",
+        "'allama, yu'allimu, ta'lîm, « enseigner » : fa''ala rendant 'alima transitif",
+        "qâtala Zaydun 'Amran, « Zayd a combattu 'Amr » : fâ'ala, la réciprocité"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le passé, le présent-futur, le masdar, le participe actif et l'impératif de akhraja (af'ala de kharaja), 'allama (fa''ala de 'alima) et kâtaba (fâ'ala de kataba).",
+          "answer": "Akhraja, yukhriju, ikhrâj, mukhrij, akhrij. 'Allama, yu'allimu, ta'lîm, mu'allim, 'allim. Kâtaba, yukâtibu, mukâtaba, mukâtib, kâtib."
+        },
+        {
+          "prompt": "Nommez la classe et ce pour quoi elle est construite : akrama Zaydun 'Amran ; mawwata al-ibilu ; qâtala Zaydun 'Amran.",
+          "answer": "Akrama : af'ala, rendre transitif. Mawwata : fa''ala, la multiplication dans les agents (beaucoup de chameaux sont morts). Qâtala : fâ'ala, la réciprocité entre deux."
+        },
+        {
+          "prompt": "Kharaja Zaydun signifie « Zayd est sorti ». Que signifie akhraja Zaydun 'Amran, et qu'a fait la hamza ?",
+          "answer": "« Zayd a fait sortir 'Amr. » La hamza de af'ala a rendu transitif un verbe intransitif : celui qui sortait devient le complément d'objet, et un nouvel agent le fait sortir."
+        },
+        {
+          "prompt": "Pourquoi le livre dit-il que la lettre ajoutée de fa''ala est « de même nature que le 'ayn » ?",
+          "answer": "Parce que l'ajout est un second 'ayn : dans farraha, le râ' est redoublé. Le livre décrit le redoublement comme une lettre semblable au 'ayn ajoutée entre le fâ' et le 'ayn."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pour quoi af'ala est-il le plus souvent construit ?",
+          "options": [
+            "Rendre transitif",
+            "La réciprocité",
+            "La multiplication",
+            "L'acceptation de l'effet"
+          ],
+          "explanation": "Akrama Zaydun 'Amran."
+        },
+        {
+          "prompt": "Qu'ajoute fa''ala ?",
+          "options": [
+            "Une hamza au début",
+            "Un 'ayn redoublé",
+            "Un alif après le fâ'",
+            "Un tâ' au début"
+          ],
+          "explanation": "Farraha, tawwafa, 'allama."
+        },
+        {
+          "prompt": "Tawwafa Zaydun al-ka'bata montre la multiplication dans…",
+          "options": [
+            "les agents",
+            "le complément d'objet",
+            "l'acte",
+            "rien"
+          ],
+          "explanation": "Il a fait le tour de nombreuses fois."
+        },
+        {
+          "prompt": "Pour quoi fâ'ala est-il le plus souvent construit ?",
+          "options": [
+            "Rendre transitif",
+            "Intensifier",
+            "Rechercher",
+            "La réciprocité entre deux"
+          ],
+          "explanation": "Qâtala Zaydun 'Amran."
+        },
+        {
+          "prompt": "Quel est le masdar de qâtala que le livre donne en premier ?",
+          "options": [
+            "Muqâtala",
+            "Taqtîl",
+            "Iqtâl",
+            "Taqâtul"
+          ],
+          "explanation": "Avec qitâl et qîtâl à côté."
+        },
+        {
+          "prompt": "Qâtalahumu llâhu (Coran 9:30) montre fâ'ala…",
+          "options": [
+            "pour la réciprocité",
+            "pour un seul, sans réciprocité",
+            "pour la multiplication",
+            "pour l'acceptation de l'effet"
+          ],
+          "explanation": "L'exemple du livre de fâ'ala pour un seul."
+        },
+        {
+          "prompt": "Qu'ont en commun yukrimu, yufarrihu et yuqâtilu ?",
+          "options": [
+            "Une fatha sur le préfixe",
+            "Un 'ayn redoublé",
+            "Une damma sur le préfixe",
+            "Le même masdar"
+          ],
+          "explanation": "Le présent-futur d'un passé de quatre lettres a une damma sur son préfixe."
+        }
+      ],
+      "diagram": {
+        "caption": "Une lettre ajoutée au verbe trilitère",
+        "labels": {
+          "One letter added to the three-letter verb": "Une lettre ajoutée au verbe trilitère",
+          "Pattern": "Schème",
+          "Model": "Mot pesé",
+          "Added letter": "Lettre ajoutée",
+          "Built mostly for": "Construit surtout pour",
+          "hamza at the start": "hamza au début",
+          "making transitive": "rendre transitif",
+          "the ʿayn doubled": "le 'ayn redoublé",
+          "multiplying": "la multiplication",
+          "alif after the fāʾ": "alif après le fâ'",
+          "sharing between two": "la réciprocité entre deux"
+        }
+      },
+      "text": [
+        "Et douze des classes sont pour ce qui dépasse le trilitère, et cela est de trois sortes. La première sorte est celle où une seule lettre est ajoutée au trilitère ; elle compte trois classes. La première classe : af'ala yuf'ilu if'âlan ; son mot pesé est akrama yukrimu ikrâman « honorer ». Son signe est que son passé a quatre lettres, par l'ajout de la hamza à son début. Elle est le plus souvent construite pour l'emploi transitif, et elle peut être intransitive. Un exemple du transitif est akrama Zaydun 'Amran « Zayd a honoré 'Amr », et un exemple de l'intransitif est asbaha al-rajulu « l'homme est entré dans le matin ».",
+        "La deuxième classe : fa''ala yufa''ilu taf'îlan ; son mot pesé est farraha yufarrihu tafrîhan « réjouir ». Son signe est que son passé a quatre lettres, par l'ajout d'une lettre entre le fâ' et le 'ayn, de même nature que le 'ayn de son verbe. Elle est le plus souvent construite pour la multiplication (takthîr). Celle-ci peut être dans l'action, comme tawwafa Zaydun al-Ka'bata « Zayd a fait de nombreuses fois le tour de la Ka'ba » ; dans l'agent, comme mawwata al-ibilu « les chameaux sont morts en grand nombre » ; ou dans le complément, comme ghallaqa Zaydun al-bâba « Zayd a fermé la porte encore et encore ».",
+        "La troisième classe : fâ'ala yufâ'ilu mufâ'alatan wa-fi'âlan wa-fî'âlan ; son mot pesé est qâtala yuqâtilu muqâtalatan wa-qitâlan wa-qîtâlan « combattre ». Son signe est que son passé a quatre lettres, par l'ajout de l'alif entre le fâ' et le 'ayn. Elle est le plus souvent construite pour la réciprocité (mushâraka) entre deux, et elle peut être pour un seul. Un exemple de la réciprocité est qâtala Zaydun 'Amran « Zayd a combattu 'Amr », et un exemple d'un seul est qâtalahumu Allâhu « que Dieu les combatte »."
+      ]
+    },
+    "5": {
+      "title": "L'acceptation de l'effet : infa'ala et ifta'ala",
+      "body": [
+        "La deuxième sorte ajoute deux lettres, en cinq classes, et les deux premières sont construites pour l'acceptation de l'effet (mutâwa'a). Le livre la définit avec soin : « la survenue de l'effet d'une chose à partir de l'attache du verbe transitif ». Un verbe agit sur une chose ; un second verbe dit que la chose a reçu l'acte. Kasartu al-zujâja fa-nkasara dhâlika al-zujâju, « j'ai brisé le verre, et ce verre s'est brisé » : le bris (kasr) est l'acte transitif, et le fait pour le verre d'être brisé (inkisâr) est l'effet qui en est venu.",
+        "La première classe est infa'ala yanfa'ilu infi'âlan, mot pesé inkasara yankasiru inkisâran : une hamza et un nûn ajoutés au début. La deuxième est ifta'ala yafta'ilu ifti'âlan, mot pesé ijtama'a yajtami'u ijtimâ'an : une hamza au début et un tâ' entre le fâ' et le 'ayn. Son exemple : jama'tu al-ibila fa-jtama'a dhâlika al-ibilu, « j'ai rassemblé les chameaux, et les chameaux se sont rassemblés ».",
+        "Un verbe d'acceptation de l'effet est intransitif : il n'a pas de complément d'objet, puisque son agent est la chose même sur laquelle le premier verbe a agi. C'est le sens des paires de phrases. Kasartu al-zujâja a un complément ; inkasara n'en a pas, et al-zujâju est maintenant son agent, au raf'.",
+        "La hamza au début de ces schèmes est une hamza de liaison, comme celle de l'impératif : elle ne s'entend qu'au début de la parole. Dans fa-nkasara et fa-jtama'a, elle s'écrit mais ne se dit pas. Et au présent-futur, elle disparaît tout à fait : yankasiru, yajtami'u. L'outil de conjugaison donne les deux classes comme schèmes 7 et 8."
+      ],
+      "terms": [
+        "l'acceptation de l'effet : la chose reçoit l'acte",
+        "la classe de inkasara",
+        "la classe de ijtama'a",
+        "la hamza de liaison au début de ces schèmes"
+      ],
+      "examples": [
+        "kasartu al-zujâja fa-nkasara dhâlika al-zujâju, « j'ai brisé le verre, et le verre s'est brisé »",
+        "jama'tu al-ibila fa-jtama'a dhâlika al-ibilu, « j'ai rassemblé les chameaux, et ils se sont rassemblés »",
+        "inqata'a, yanqati'u, inqitâ', « être coupé » : infa'ala de qata'a"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le passé, le présent-futur, le masdar, le participe actif et l'impératif de inkasara et de ijtama'a.",
+          "answer": "Inkasara, yankasiru, inkisâr, munkasir, inkasir. Ijtama'a, yajtami'u, ijtimâ', mujtami', ijtami'."
+        },
+        {
+          "prompt": "Dans kasartu al-zujâja fa-nkasara dhâlika al-zujâju, qu'est al-zujâj dans chaque moitié, et pourquoi ?",
+          "answer": "Dans kasartu al-zujâja, c'est le complément d'objet, au nasb : le bris tombe sur lui. Dans inkasara … al-zujâju, c'est l'agent, au raf' : le verbe d'acceptation de l'effet n'a pas de complément, et son agent est la chose qui a reçu l'acte."
+        },
+        {
+          "prompt": "Énoncez avec vos mots la définition que le Binâ' donne de l'acceptation de l'effet.",
+          "answer": "Un verbe agit sur une chose (il est transitif) ; l'acceptation de l'effet est la survenue de l'effet de cet acte dans la chose, dite par un second verbe dont l'agent est cette chose."
+        },
+        {
+          "prompt": "Où est le tâ' ajouté de ifta'ala, et où sont les lettres ajoutées de infa'ala ?",
+          "answer": "Ifta'ala : une hamza au début et un tâ' entre le fâ' et le 'ayn (ij-t-ama'a). Infa'ala : une hamza et un nûn au début (i-n-kasara)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que l'acceptation de l'effet (mutâwa'a) ?",
+          "options": [
+            "La réciprocité entre deux",
+            "La survenue de l'effet d'un acte transitif dans la chose sur laquelle il agit",
+            "La recherche d'un acte",
+            "La multiplication d'un acte"
+          ],
+          "explanation": "Kasartu al-zujâja fa-nkasara."
+        },
+        {
+          "prompt": "Quelles lettres infa'ala ajoute-t-il ?",
+          "options": [
+            "Une hamza et un tâ'",
+            "Un 'ayn redoublé",
+            "Une hamza et un nûn au début",
+            "Un alif après le fâ'"
+          ],
+          "explanation": "Inkasara : une hamza et un nûn avant la racine k-s-r."
+        },
+        {
+          "prompt": "Où est le tâ' de ifta'ala ?",
+          "options": [
+            "Au début",
+            "À la fin",
+            "Entre le 'ayn et le lâm",
+            "Entre le fâ' et le 'ayn"
+          ],
+          "explanation": "Ij-t-ama'a."
+        },
+        {
+          "prompt": "Un verbe d'acceptation de l'effet est-il transitif ?",
+          "options": [
+            "Non : son agent est la chose qui a reçu l'acte",
+            "Oui, toujours",
+            "Seulement au passé",
+            "Seulement avec une particule"
+          ],
+          "explanation": "Inkasara al-zujâju n'a pas de complément d'objet."
+        },
+        {
+          "prompt": "Dans fa-jtama'a, la hamza du début est…",
+          "options": [
+            "dite avec une kasra",
+            "écrite mais non dite",
+            "dite avec une fatha",
+            "une lettre radicale"
+          ],
+          "explanation": "Une hamza de liaison."
+        },
+        {
+          "prompt": "Quel est le présent-futur de ijtama'a ?",
+          "options": [
+            "Yujtami'u",
+            "Yajtama'u",
+            "Yajtami'u",
+            "Ajtami'u"
+          ],
+          "explanation": "La hamza de liaison disparaît au présent-futur."
+        },
+        {
+          "prompt": "Lequel est l'acceptation de l'effet de qata'a, « couper » ?",
+          "options": [
+            "Qatta'a",
+            "Aqta'a",
+            "Qâta'a",
+            "Inqata'a"
+          ],
+          "explanation": "Infa'ala de qata'a : « être coupé »."
+        }
+      ],
+      "diagram": {
+        "caption": "L'acte et l'acceptation de l'effet dans le Binâ'",
+        "labels": {
+          "Act and compliance in the Binā": "L'acte et l'acceptation de l'effet dans le Binâ'",
+          "The act": "L'acte",
+          "Its compliance": "Son acceptation de l'effet",
+          "Bāb of the compliance": "Classe de l'acceptation"
+        }
+      },
+      "text": [
+        "La deuxième sorte est celle où deux lettres sont ajoutées au trilitère nu ; elle compte cinq classes. La première classe : infa'ala yanfa'ilu infi'âlan ; son mot pesé est inkasara yankasiru inkisâran « être brisé ». Son signe est que son passé a cinq lettres, par l'ajout de la hamza et du nûn à son début. Elle est construite pour l'acceptation de l'effet (mutâwa'a). Le sens de l'acceptation de l'effet est que l'effet d'une chose survient à partir de l'attache d'un verbe transitif [à elle], comme kasartu al-zujâja fa-inkasara dhâlika al-zujâju « j'ai brisé le verre, et ce verre s'est donc brisé » ; car le bris du verre est un effet qui est survenu à partir de l'attache du bris, qui est le verbe transitif.",
+        "La deuxième classe : ifta'ala yafta'ilu ifti'âlan ; son mot pesé est ijtama'a yajtami'u ijtimâ'an « se rassembler ». Son signe est que son passé a cinq lettres, par l'ajout de la hamza à son début et du tâ' entre le fâ' et le 'ayn. Elle aussi est construite pour l'acceptation de l'effet, comme jama'tu al-ibila fa-ijtama'a dhâlika al-ibilu « j'ai rassemblé les chameaux, et ces chameaux se sont donc rassemblés »."
+      ]
+    },
+    "6": {
+      "title": "Couleurs, effort et réciprocité : if'alla, tafa''ala, tafâ'ala",
+      "body": [
+        "La troisième classe à deux lettres ajoutées est if'alla yaf'allu if'ilâlan, mot pesé ihmarra yahmarru ihmirâran, « devenir rouge » : une hamza au début et un second lâm à la fin, de sorte que la dernière lettre est redoublée. Elle est construite pour intensifier l'intransitif : « on dit hamira Zaydun quand il a quelque rougeur, et ihmarra Zaydun quand sa rougeur est forte ». D'autres disent qu'elle est pour les couleurs et les défauts : ihmarra, « être rouge », et i'warra, « être borgne ». Sa fin redoublée en fait un verbe géminé, que l'outil de conjugaison ne donne pas encore.",
+        "La quatrième est tafa''ala yatafa''alu tafa''ulan, mot pesé takallama yatakallamu takalluman : un tâ' au début et le 'ayn redoublé. Elle est construite pour l'effort (takalluf), que le livre définit comme « l'obtention de ce qu'on recherche, une chose après l'autre » : ta'allamtu al-'ilma mas'alatan ba'da mas'alatin, « j'ai appris la science question après question ». La science ne se prend pas d'un coup ; elle s'acquiert peu à peu, et le schème le dit. Tafa''ala est aussi l'acceptation de l'effet de fa''ala : 'allamtuhu fa-ta'allama, « je l'ai enseigné, et il a appris ».",
+        "La cinquième est tafâ'ala yatafâ'alu tafâ'ulan, mot pesé tabâ'ada yatabâ'adu tabâ'udan, « s'éloigner l'un de l'autre » : un tâ' au début et un alif après le fâ'. Elle est construite pour la réciprocité entre deux et plus. Comparez fâ'ala de la leçon 4 : dans qâtala Zaydun 'Amran, l'un est l'agent et l'autre le complément, bien que les deux combattent ; dans tafâ'ala, les deux sont d'ordinaire nommés comme agents, tabâ'ada Zaydun wa-'Amrun. Notre impression donne les exemples avec un complément, tabâ'ada Zaydun 'Amran et tasâlaha al-qawmu qawman, « les gens ont fait la paix avec d'autres gens » ; la plupart des copies ont tabâ'ada Zaydun wa-'Amrun.",
+        "Tafa''ala et tafâ'ala commencent par un tâ' qui est une vraie lettre, non une hamza de liaison, et leur présent-futur garde une fatha sur le préfixe : yatakallamu, yatabâ'adu. L'outil les donne comme schèmes 5 et 6."
+      ],
+      "terms": [
+        "couleurs et défauts ; intensifier l'intransitif",
+        "l'effort : obtenir peu à peu ce qu'on recherche",
+        "la classe de takallama",
+        "la classe de tabâ'ada : la réciprocité",
+        "couleurs et défauts"
+      ],
+      "examples": [
+        "hamira Zaydun, quelque rougeur ; ihmarra Zaydun, une forte rougeur",
+        "ta'allamtu al-'ilma mas'alatan ba'da mas'alatin, « j'ai appris la science question après question » : l'effort",
+        "ta'allama, yata'allamu, ta'allum, « apprendre » : tafa''ala",
+        "takâtaba, yatakâtabu, takâtub, « s'écrire l'un à l'autre » : tafâ'ala"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le passé, le présent-futur, le masdar, le participe actif et l'impératif de ta'allama et de takâtaba.",
+          "answer": "Ta'allama, yata'allamu, ta'allum, muta'allim, ta'allam. Takâtaba, yatakâtabu, takâtub, mutakâtib, takâtab."
+        },
+        {
+          "prompt": "Quelle est la différence entre hamira Zaydun et ihmarra Zaydun ?",
+          "answer": "Hamira : Zayd a quelque rougeur. Ihmarra : sa rougeur est forte. If'alla intensifie le verbe intransitif."
+        },
+        {
+          "prompt": "Qâtala Zaydun 'Amran et tabâ'ada Zaydun wa-'Amrun : comment la réciprocité s'exprime-t-elle dans chacun ?",
+          "answer": "Dans fâ'ala, l'un est l'agent et l'autre le complément, bien que chacun fasse l'acte à l'autre. Dans tafâ'ala, les deux sont d'ordinaire nommés comme agents, joints par wa-."
+        },
+        {
+          "prompt": "Pourquoi le Binâ' donne-t-il ta'allamtu al-'ilma mas'alatan ba'da mas'alatin comme exemple de l'effort ?",
+          "answer": "Parce que tafa''ala signifie acquérir ce qu'on recherche une chose après l'autre ; la science s'acquiert question par question, non d'un coup."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pour quoi if'alla est-il construit ?",
+          "options": [
+            "La réciprocité",
+            "L'effort",
+            "Intensifier l'intransitif ; les couleurs et les défauts",
+            "La recherche"
+          ],
+          "explanation": "Ihmarra, i'warra."
+        },
+        {
+          "prompt": "Que signifie takalluf dans le Binâ' ?",
+          "options": [
+            "Faire un acte de nombreuses fois",
+            "Partager un acte",
+            "Recevoir un acte",
+            "Obtenir peu à peu ce qu'on recherche"
+          ],
+          "explanation": "Ta'allamtu al-'ilma mas'alatan ba'da mas'alatin."
+        },
+        {
+          "prompt": "Quelles lettres tafa''ala ajoute-t-il ?",
+          "options": [
+            "Un tâ' au début et un 'ayn redoublé",
+            "Une hamza et un nûn",
+            "Une hamza et un lâm redoublé",
+            "Un tâ' et un alif"
+          ],
+          "explanation": "Takallama."
+        },
+        {
+          "prompt": "Pour quoi tafâ'ala est-il construit ?",
+          "options": [
+            "L'effort",
+            "La réciprocité entre deux ou plus",
+            "Les couleurs",
+            "Rendre transitif"
+          ],
+          "explanation": "Tabâ'ada, tasâlaha."
+        },
+        {
+          "prompt": "I'warra signifie…",
+          "options": [
+            "devenir rouge",
+            "apprendre",
+            "être borgne",
+            "parler"
+          ],
+          "explanation": "Un exemple de défaut dans if'alla."
+        },
+        {
+          "prompt": "Quel est le présent-futur de takallama ?",
+          "options": [
+            "Yukallimu",
+            "Yatakallimu",
+            "Takallamu",
+            "Yatakallamu"
+          ],
+          "explanation": "Le tâ' est une vraie lettre, et le préfixe a une fatha."
+        },
+        {
+          "prompt": "Quel verbe est l'acceptation de l'effet de 'allama, « enseigner » ?",
+          "options": [
+            "Ta'allama",
+            "I'talama",
+            "In'alama",
+            "Ta'âlama"
+          ],
+          "explanation": "'Allamtuhu fa-ta'allama : « je l'ai enseigné, et il a appris »."
+        }
+      ],
+      "diagram": {
+        "caption": "Trois des cinq classes à deux lettres ajoutées",
+        "labels": {
+          "Three of the five bābs with two added letters": "Trois des cinq classes à deux lettres ajoutées",
+          "Pattern": "Schème",
+          "Model": "Mot pesé",
+          "Added letters": "Lettres ajoutées",
+          "Built for": "Construit pour",
+          "hamza; a second lām": "hamza ; un second lâm",
+          "intensifying; colours, defects": "intensifier ; couleurs, défauts",
+          "tāʾ; the ʿayn doubled": "tâ' ; le 'ayn redoublé",
+          "effort, bit by bit": "l'effort, peu à peu",
+          "tāʾ; alif after the fāʾ": "tâ' ; alif après le fâ'",
+          "sharing between two or more": "la réciprocité entre deux ou plus"
+        }
+      },
+      "text": [
+        "La troisième classe : if'alla yaf'allu if'ilâlan ; son mot pesé est ihmarra yahmarru ihmirâran « devenir rouge ». Son signe est que son passé a cinq lettres, par l'ajout de la hamza à son début et d'une autre lettre, de même nature que le lâm de son verbe, à sa fin. Elle est construite pour intensifier l'intransitif (mubâlaghat al-lâzim) ; car on dit hamira Zaydun « Zayd était rouge » quand il a quelque rougeur, et on dit ihmarra Zaydun « Zayd est devenu rouge » quand il a une rougeur intense. On a dit aussi : [elle est] pour les couleurs et les défauts ; un exemple des couleurs est ihmarra Zaydun « Zayd est devenu rouge », et un exemple des défauts est i'warra Zaydun « Zayd est devenu borgne ».",
+        "La quatrième classe : tafa''ala yatafa''alu tafa''ulan ; son mot pesé est takallama yatakallamu takalluman « parler ». Son signe est que son passé a cinq lettres, par l'ajout du tâ' à son début et d'une autre lettre entre le fâ' et le 'ayn, de même nature que le 'ayn de son verbe. Elle est construite pour l'effort (takalluf). Le sens de l'effort est d'acquérir peu à peu ce qu'on recherche, comme ta'allamtu al-'ilma mas'alatan ba'da mas'alatin « j'ai appris la science question après question ».",
+        "La cinquième classe : tafâ'ala yatafâ'alu tafâ'ulan ; son mot pesé est tabâ'ada yatabâ'adu tabâ'udan « s'éloigner l'un de l'autre ». Son signe est que son passé a cinq lettres, par l'ajout du tâ' à son début et de l'alif entre le fâ' et le 'ayn. Elle est construite pour la réciprocité entre deux et plus. Un exemple de la réciprocité entre deux est tabâ'ada Zaydun 'Amran « Zayd et 'Amr se sont éloignés l'un de l'autre », et un exemple de la réciprocité entre davantage est tasâlaha al-qawmu qawman « les gens ont fait la paix avec d'autres gens »."
+      ]
+    },
+    "7": {
+      "title": "Trois lettres ajoutées : istaf'ala et les intensifs",
+      "body": [
+        "La troisième sorte ajoute trois lettres, en quatre classes. La première, et de loin la plus employée, est istaf'ala yastaf'ilu istif'âlan, mot pesé istakhraja yastakhriju istikhrâjan, « faire sortir, extraire » : une hamza, un sîn et un tâ' ajoutés au début. Elle est le plus souvent transitive, istakhraja Zaydun al-mâla, « Zayd a extrait la richesse » ; parfois intransitive, istahjara al-tînu, « l'argile s'est changée en pierre », un changement en ce que nomme la racine. « Et l'on dit : pour la recherche de l'acte » : astaghfiru llâha, « je demande pardon à Dieu », la recherche du ghufrân.",
+        "Les trois autres sont construites pour intensifier un verbe intransitif, et le livre montre chacune face à son verbe nu. If'aw'ala, mot pesé i'shawshaba : « on dit 'ashuba al-ardu quand des plantes poussent quelque peu sur la face de la terre, et i'shawshaba al-ardu quand les plantes de la terre sont nombreuses ». If'awwala, mot pesé ijlawwadha : jaladha al-ibilu, « les chameaux sont allés vite », et ijlawwadha al-ibilu, « les chameaux ont pressé l'allure ».",
+        "If'âlla, mot pesé ihmârra, avec un alif avant un lâm redoublé, est la plus forte : « cette classe est plus intense que la classe de l'if'ilâl ». L'arabe a ainsi trois degrés de rouge : hamira Zaydun, quelque rougeur ; ihmarra Zaydun, une forte rougeur ; ihmârra Zaydun, une rougeur plus forte encore. Plus de lettres, plus de sens, comme aiment à le dire les livres de sarf.",
+        "Seule istaf'ala est assez régulière pour l'outil de conjugaison (schème 10) ; les trois classes intensives sont rares, et leurs formes s'apprennent de l'impression. L'élève doit les connaître quand il les rencontre, surtout en poésie et dans les dictionnaires."
+      ],
+      "terms": [
+        "la classe de istakhraja",
+        "la recherche de l'acte : astaghfiru, « je demande pardon »",
+        "intensifier l'intransitif",
+        "les trois classes intensives"
+      ],
+      "examples": [
+        "istakhraja Zaydun al-mâla, « Zayd a extrait la richesse » : transitif",
+        "astaghfiru llâha, « je demande pardon à Dieu » : la recherche de l'acte",
+        "la terre a fait pousser quelques plantes ; la terre a fait pousser beaucoup de plantes",
+        "hamira, ihmarra, ihmârra : trois degrés de rouge"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le passé, le présent-futur, le masdar, le participe actif et l'impératif de istaghfara et de istakhraja.",
+          "answer": "Istaghfara, yastaghfiru, istighfâr, mustaghfir, istaghfir. Istakhraja, yastakhriju, istikhrâj, mustakhrij, istakhrij."
+        },
+        {
+          "prompt": "Qu'ajoute istaf'ala dans chacun : istakhraja Zaydun al-mâla ; istahjara al-tînu ; astaghfiru llâha ?",
+          "answer": "Istakhraja : un acte transitif, « a extrait ». Istahjara : un changement intransitif en ce que nomme la racine, « s'est changée en pierre ». Astaghfiru : la recherche, « je demande pardon »."
+        },
+        {
+          "prompt": "Rangez hamira, ihmarra et ihmârra par ordre de force et nommez la classe de chacun.",
+          "answer": "Hamira (le verbe nu, fa'ila) : quelque rougeur. Ihmarra (if'alla) : une forte rougeur. Ihmârra (if'âlla) : une rougeur plus forte encore."
+        },
+        {
+          "prompt": "Qu'intensifient i'shawshaba et ijlawwadha, et quels sont leurs verbes nus ?",
+          "answer": "I'shawshaba intensifie 'ashuba (des plantes qui poussent) : la terre a fait pousser beaucoup de plantes. Ijlawwadha intensifie jaladha (des chameaux qui vont vite) : les chameaux ont pressé l'allure."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quelles lettres istaf'ala ajoute-t-il ?",
+          "options": [
+            "Hamza et nûn",
+            "Tâ' et un 'ayn redoublé",
+            "Hamza et un lâm redoublé",
+            "Hamza, sîn et tâ' au début"
+          ],
+          "explanation": "Istakhraja."
+        },
+        {
+          "prompt": "Astaghfiru llâha montre istaf'ala pour…",
+          "options": [
+            "la recherche de l'acte",
+            "la réciprocité",
+            "l'acceptation de l'effet",
+            "la multiplication"
+          ],
+          "explanation": "« Je demande pardon à Dieu. »"
+        },
+        {
+          "prompt": "Que signifie istahjara al-tînu ?",
+          "options": [
+            "L'argile a été extraite",
+            "L'argile s'est changée en pierre",
+            "Il a cherché la pierre",
+            "La pierre s'est brisée"
+          ],
+          "explanation": "L'exemple intransitif d'istaf'ala dans le livre."
+        },
+        {
+          "prompt": "Quel est le plus fort des trois degrés de rouge ?",
+          "options": [
+            "Ihmarra",
+            "Hamira",
+            "Ihmârra",
+            "Ahmara"
+          ],
+          "explanation": "If'âlla est plus intense que if'alla."
+        },
+        {
+          "prompt": "Pour quoi if'aw'ala, if'awwala et if'âlla sont-ils construits ?",
+          "options": [
+            "Rendre transitif",
+            "La réciprocité",
+            "L'acceptation de l'effet",
+            "Intensifier l'intransitif"
+          ],
+          "explanation": "Chacun face à son verbe nu."
+        },
+        {
+          "prompt": "I'shawshaba al-ardu signifie…",
+          "options": [
+            "La terre a fait pousser beaucoup de plantes",
+            "La terre s'est desséchée",
+            "La terre est devenue rouge",
+            "La terre a été labourée"
+          ],
+          "explanation": "'Ashuba est quelque pousse ; i'shawshaba beaucoup."
+        },
+        {
+          "prompt": "Laquelle des quatre classes l'outil de conjugaison donne-t-il ?",
+          "options": [
+            "If'aw'ala",
+            "Istaf'ala (schème 10)",
+            "If'awwala",
+            "If'âlla"
+          ],
+          "explanation": "Les trois classes intensives s'apprennent de l'impression."
+        }
+      ],
+      "diagram": {
+        "caption": "Trois lettres ajoutées au verbe trilitère",
+        "labels": {
+          "Three letters added to the three-letter verb": "Trois lettres ajoutées au verbe trilitère",
+          "Pattern": "Schème",
+          "Model": "Mot pesé",
+          "Built for": "Construit pour",
+          "making transitive; seeking": "rendre transitif ; la recherche",
+          "intensifying": "intensifier",
+          "the strongest intensifying": "l'intensification la plus forte"
+        }
+      },
+      "text": [
+        "La troisième sorte est celle où trois lettres sont ajoutées au trilitère ; elle compte quatre classes. La première classe : istaf'ala yastaf'ilu istif'âlan ; son mot pesé est istakhraja yastakhriju istikhrâjan « faire sortir ». Son signe est que son passé a six lettres, par l'ajout de la hamza, du sîn et du tâ' à son début. Elle est le plus souvent construite pour l'emploi transitif, et elle peut être intransitive. Un exemple du transitif est istakhraja Zaydun al-mâla « Zayd a fait sortir l'argent », et un exemple de l'intransitif est istahjara al-tînu « l'argile s'est changée en pierre ». On a dit aussi : [elle est] pour demander l'action, comme astaghfiru Allâha « je demande pardon à Dieu ».",
+        "La deuxième classe : if'aw'ala yaf'aw'ilu if'î'âlan ; son mot pesé est i'shawshaba ya'shawshibu i'shîshâban « se couvrir d'herbe épaisse ». Son signe est que son passé a six lettres, par l'ajout de la hamza à son début, et d'une autre lettre de même nature que le 'ayn de son verbe et du wâw entre le 'ayn et le lâm. Elle est construite pour intensifier l'intransitif ; car on dit 'ashuba al-ardu « la terre s'est couverte d'herbe » quand quelques plantes ont poussé sur la face de la terre, et on dit i'shawshaba al-ardu « la terre s'est couverte d'herbe épaisse » quand les plantes sur la face de la terre sont nombreuses.",
+        "La troisième classe : if'awwala yaf'awwilu if'iwwâlan ; son mot pesé est ijlawwadha yajlawwidhu ijliwwâdhan « presser l'allure ». Son signe est que son passé a six lettres, par l'ajout de la hamza à son début et des deux wâw entre le 'ayn et le lâm. Elle aussi est construite pour intensifier l'intransitif ; car on dit jaladha al-ibilu « les chameaux sont allés vite » quand ils voyagent avec quelque vitesse, et on dit ijlawwadha al-ibilu « les chameaux ont pressé l'allure » quand ils voyagent avec plus de vitesse.",
+        "La quatrième classe : if'âlla yaf'âllu if'îlâlan ; son mot pesé est ihmârra yahmârru ihmîrâran « devenir rouge foncé ». Son signe est que son passé a six lettres, par l'ajout de la hamza à son début, de l'alif entre le 'ayn et le lâm, et d'une autre lettre, de même nature que le lâm de son verbe, à sa fin. Elle aussi est construite pour intensifier l'intransitif, mais cette classe est plus intense que la classe de l'if'ilâl ; car on dit hamira Zaydun « Zayd était rouge » quand il a quelque rougeur, on dit ihmarra Zaydun « Zayd est devenu rouge » quand il a une rougeur intense, et on dit ihmârra Zaydun « Zayd est devenu rouge foncé » quand il a une rougeur plus intense encore."
+      ]
+    },
+    "8": {
+      "title": "Le verbe quadrilitère ; les premières formes rattachées",
+      "body": [
+        "Le verbe quadrilitère nu a une seule classe : fa'lala yufa'lilu fa'lalatan wa-fi'lâlan, mot pesé dahraja yudahriju dahrajatan wa-dihrâjan, « rouler ». Son signe est que son passé a quatre lettres, « à condition que toutes ses lettres soient radicales » : rien n'est ajouté. Son schème ajoute un second lâm à fa'ala pour faire place à la quatrième lettre radicale. Transitif : dahraja Zaydun al-hajara, « Zayd a roulé la pierre » ; intransitif : darbakha Zaydun, « Zayd a baissé la tête ».",
+        "Viennent ensuite six classes « rattachées à dahraja » (al-mulhaq bi-dahraja), appelées aussi « rattachées au quadrilitère ». Chacune est une racine trilitère avec une lettre ajoutée pour prendre exactement la forme de dahraja, dans son passé, son présent-futur et son masdar. La lettre ajoutée peut être un wâw ou un yâ' à différentes places, ou une lettre répétée.",
+        "Les trois premières : faw'ala, avec un wâw après le fâ' : hawqala yuhawqilu hawqalatan, « devenir vieux et faible », seulement intransitif. Fay'ala, avec un yâ' après le fâ' : baytara yubaytiru baytaratan, « fendre », seulement transitif : baytara Zaydun al-qalama, ay shaqqahu, « Zayd a fendu le calame, c'est-à-dire l'a ouvert en deux ». Fa'wala, avec un wâw après le 'ayn : jahwara yujahwiru jahwaratan, « dire à voix haute », seulement transitif : jahwara Zaydun al-qur'âna, « Zayd a récité le Coran à voix haute ».",
+        "Comment distinguer un verbe rattaché d'un vrai verbe quadrilitère ? Par la racine. Dans dahraja, les quatre lettres sont radicales (d-h-r-j). Dans hawqala, la racine est de trois (h-q-l), et le wâw est ajouté ; dans baytara le yâ', dans jahwara le wâw. Pesez chacun sur fa'ala avec sa lettre ajoutée à sa place : faw'ala, fay'ala, fa'wala. L'outil de conjugaison ne donne pas ces schèmes ; leurs formes viennent de l'impression."
+      ],
+      "terms": [
+        "le verbe quadrilitère nu : fa'lala",
+        "son schème, mot pesé dahraja",
+        "rattaché au quadrilitère : une racine trilitère qui prend la forme de dahraja",
+        "une lettre radicale, par opposition à une lettre ajoutée"
+      ],
+      "examples": [
+        "dahraja Zaydun al-hajara, « Zayd a roulé la pierre » : le verbe quadrilitère nu",
+        "hawqala Zaydun, « Zayd est devenu vieux et faible » : faw'ala, rattaché à dahraja",
+        "jahwara Zaydun al-qur'âna, « Zayd a récité le Coran à voix haute » : fa'wala"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez la racine et la lettre ajoutée de hawqala, baytara et jahwara, et pesez chacun sur fa'ala.",
+          "answer": "Hawqala : racine h-q-l, wâw ajouté après le fâ' : faw'ala. Baytara : racine b-t-r, yâ' ajouté après le fâ' : fay'ala. Jahwara : racine j-h-r, wâw ajouté après le 'ayn : fa'wala."
+        },
+        {
+          "prompt": "Pourquoi dahraja est-il un verbe nu (mujarrad) bien qu'il ait quatre lettres ?",
+          "answer": "Ses quatre lettres sont toutes radicales ; rien n'est ajouté. Un verbe est nu ou augmenté selon sa racine, non selon son nombre de lettres."
+        },
+        {
+          "prompt": "Donnez le passé, le présent-futur et les deux masdars de dahraja tels que le livre les donne.",
+          "answer": "Dahraja, yudahriju, dahrajatan et dihrâjan."
+        },
+        {
+          "prompt": "Transitif ou intransitif, selon ce que dit le livre : hawqala, baytara, jahwara ?",
+          "answer": "Hawqala : seulement intransitif. Baytara : seulement transitif (baytara Zaydun al-qalama). Jahwara : seulement transitif (jahwara Zaydun al-qur'âna)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de classes a le verbe quadrilitère nu ?",
+          "options": [
+            "Une",
+            "Six",
+            "Trois",
+            "Deux"
+          ],
+          "explanation": "Fa'lala : dahraja."
+        },
+        {
+          "prompt": "Qu'est-ce qui fait de dahraja un verbe nu (mujarrad) ?",
+          "options": [
+            "Il a une hamza",
+            "Ses quatre lettres sont radicales",
+            "Il est transitif",
+            "Il n'a pas de masdar"
+          ],
+          "explanation": "La condition du livre : toutes ses lettres radicales."
+        },
+        {
+          "prompt": "Qu'est-ce qui est « rattaché à dahraja » ?",
+          "options": [
+            "Une racine quadrilitère avec une lettre ajoutée",
+            "Tout verbe transitif",
+            "Une racine trilitère avec une lettre ajoutée pour prendre la forme de dahraja",
+            "Le passif de dahraja"
+          ],
+          "explanation": "Hawqala, baytara, jahwara…"
+        },
+        {
+          "prompt": "Quelle est la lettre ajoutée de hawqala ?",
+          "options": [
+            "Le hâ' [ح]",
+            "Le qâf",
+            "Le lâm",
+            "Le wâw"
+          ],
+          "explanation": "Racine h-q-l ; faw'ala."
+        },
+        {
+          "prompt": "Baytara Zaydun al-qalama signifie…",
+          "options": [
+            "Zayd a fendu le calame",
+            "Zayd a roulé le calame",
+            "Zayd a récité à voix haute",
+            "Zayd est devenu vieux"
+          ],
+          "explanation": "Ay shaqqahu : il l'a ouvert en deux."
+        },
+        {
+          "prompt": "Quel est le schème de jahwara ?",
+          "options": [
+            "Faw'ala",
+            "Fa'wala",
+            "Fay'ala",
+            "Fa'lala"
+          ],
+          "explanation": "Le wâw est après le 'ayn."
+        },
+        {
+          "prompt": "D'où viennent, dans les leçons, les formes de ces verbes rattachés ?",
+          "options": [
+            "De l'outil de conjugaison",
+            "D'al-Amthila",
+            "De l'impression",
+            "Elles n'ont pas de formes"
+          ],
+          "explanation": "L'outil ne donne que les schèmes réguliers."
+        }
+      ],
+      "diagram": {
+        "caption": "Dahraja et les trois premières formes qui lui sont rattachées",
+        "labels": {
+          "Daḥraja and the first three forms attached to it": "Dahraja et les trois premières formes qui lui sont rattachées",
+          "Pattern": "Schème",
+          "Model": "Mot pesé",
+          "Root": "Racine",
+          "Added letter": "Lettre ajoutée",
+          "Use": "Emploi",
+          "none": "aucune",
+          "both": "les deux",
+          "wāw after the fāʾ": "wâw après le fâ'",
+          "intransitive": "intransitif",
+          "yāʾ after the fāʾ": "yâ' après le fâ'",
+          "transitive": "transitif",
+          "wāw after the ʿayn": "wâw après le 'ayn"
+        }
+      },
+      "text": [
+        "Et une est pour le quadrilitère nu ; c'est une seule classe. Son schème est fa'lala yufa'lilu fa'lalatan wa-fi'lâlan ; son mot pesé est dahraja yudahriju dahrajatan wa-dihrâjan « rouler ». Son signe est que son passé a quatre lettres, à condition que toutes ses lettres soient radicales. Elle est le plus souvent construite pour l'emploi transitif, et elle peut être intransitive. Un exemple du transitif est dahraja Zaydun al-hajara « Zayd a roulé la pierre », et un exemple de l'intransitif est darbakha Zaydun « Zayd a baissé la tête ».",
+        "Et six sont pour les formes rattachées (mulhaq) à dahraja ; ces six sont appelées les formes rattachées au quadrilitère. La première classe d'entre elles : faw'ala yufaw'ilu faw'alatan wa-fî'âlan ; son mot pesé est hawqala yuhawqilu hawqalatan wa-hîqâlan « devenir vieux et faible ». Son signe est que son passé a quatre lettres, par l'ajout du wâw entre le fâ' et le 'ayn. Elle est construite pour l'intransitif seulement, comme hawqala Zaydun « Zayd est devenu vieux et faible ».",
+        "La deuxième classe : fay'ala yufay'ilu fay'alatan wa-fî'âlan ; son mot pesé est baytara yubaytiru baytaratan wa-bîtâran « fendre ». Son signe est que son passé a quatre lettres, par l'ajout du yâ' entre le fâ' et le 'ayn. Elle est construite pour le transitif seulement, comme baytara Zaydun al-qalama « Zayd a fendu le calame », c'est-à-dire il l'a ouvert en deux.",
+        "La troisième classe : fa'wala yufa'wilu fa'walatan wa-fi'wâlan ; son mot pesé est jahwara yujahwiru jahwaratan wa-jihwâran « dire à voix haute ». Son signe est que son passé a quatre lettres, par l'ajout du wâw entre le 'ayn et le lâm. Elle aussi est construite pour le transitif seulement, comme jahwara Zaydun al-qur'âna « Zayd a récité le Coran à voix haute »."
+      ]
+    },
+    "9": {
+      "title": "Les autres formes rattachées ; ce que veut dire le rattachement",
+      "body": [
+        "Trois autres classes sont rattachées à dahraja. Fa'yala, avec un yâ' après le 'ayn : 'athyara yu'athyiru 'athyaratan, « soulever la poussière », seulement intransitif : 'athyara Zaydun. Fa'lala, avec le lâm répété : jalbaba yujalbibu jalbabatan wa-jilbâban, « revêtir d'un jilbâb », transitif : jalbaba Zaydun al-jilbâba. Fa'lâ, avec un yâ' à la fin : salqâ yusalqî salqayatan wa-silqâ'an, « se coucher sur le dos », intransitif : salqâ Zaydun, ay nâma 'alâ qafâhu, « Zayd s'est couché sur le dos, c'est-à-dire a dormi sur la nuque ».",
+        "Regardez jalbaba : son schème ressemble exactement à celui de dahraja, fa'lala. La différence est dans la racine. Dahraja a quatre lettres radicales ; jalbaba en a trois, j-l-b, et son second bâ' est une répétition du lâm, ajoutée. Le livre le décrit donc comme « une lettre de même nature que le lâm ajoutée à la fin ». Deux verbes peuvent avoir le même schème et être pourtant de sortes différentes.",
+        "Et salqâ finit par un yâ' écrit en alif (salqâ), ce qui fait que ses formes se comportent comme celles d'un verbe faible : yusalqî au présent-futur, salqayatan au masdar. Ses formes ne viennent que de l'impression.",
+        "Le passage se termine par la définition du rattachement (ilhâq) : « l'unité des deux masdars, c'est-à-dire de celui du rattaché et de celui auquel il est rattaché ». Un verbe trilitère avec une lettre ajoutée compte comme rattaché à dahraja parce que son masdar suit le même schème que celui de dahraja : hawqala, hawqalatan comme dahraja, dahrajatan ; jalbaba, jalbabatan. Un verbe augmenté comme akrama n'est pas rattaché, car son masdar, ikrâm, a sa propre forme."
+      ],
+      "terms": [
+        "le rattachement : les masdars ont un seul schème",
+        "le verbe rattaché et le verbe auquel il est rattaché",
+        "les trois derniers schèmes rattachés à dahraja"
+      ],
+      "examples": [
+        "'athyara Zaydun, « Zayd a soulevé la poussière » : fa'yala",
+        "jalbaba Zaydun al-jilbâba, « Zayd a revêtu quelqu'un du jilbâb » : fa'lala avec le lâm répété",
+        "salqâ Zaydun, « Zayd s'est couché sur le dos » : fa'lâ",
+        "dahraja dahrajatan, hawqala hawqalatan : le même schème de masdar, le signe du rattachement"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dahraja et jalbaba sont tous deux fa'lala. Pourquoi l'un est-il nu et l'autre rattaché ?",
+          "answer": "Dahraja a quatre lettres radicales (d-h-r-j). Jalbaba en a trois (j-l-b) ; son second bâ' répète le lâm et est ajouté, ce qui en fait un verbe trilitère rattaché à dahraja."
+        },
+        {
+          "prompt": "Énoncez la définition du rattachement que donne le Binâ' et montrez-la sur hawqala.",
+          "answer": "Le rattachement est l'unité des deux masdars, celui du rattaché et celui de ce à quoi il est rattaché. Hawqala a le masdar hawqalatan sur le schème de dahrajatan ; hawqala est donc rattaché à dahraja."
+        },
+        {
+          "prompt": "Pourquoi akrama, qui a aussi quatre lettres, n'est-il pas rattaché à dahraja ?",
+          "answer": "Son masdar est ikrâm, qui n'a pas le schème de dahraja (dahrajatan, dihrâjan) ; et son présent-futur yukrimu et son schème af'ala lui sont propres."
+        },
+        {
+          "prompt": "Lesquelles des six formes rattachées sont transitives, selon le livre ?",
+          "answer": "Baytara, jahwara et jalbaba. Hawqala, 'athyara et salqâ sont intransitives."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que le rattachement (ilhâq), selon le Binâ' ?",
+          "options": [
+            "Ajouter une hamza",
+            "L'unité des masdars du rattaché et du modèle",
+            "Rendre un verbe transitif",
+            "Redoubler le 'ayn"
+          ],
+          "explanation": "Hawqalatan sur le schème de dahrajatan."
+        },
+        {
+          "prompt": "Qu'est-ce qui a été ajouté dans jalbaba ?",
+          "options": [
+            "Un wâw",
+            "Un yâ'",
+            "Un second bâ', qui répète le lâm",
+            "Rien"
+          ],
+          "explanation": "Racine j-l-b."
+        },
+        {
+          "prompt": "Salqâ Zaydun signifie…",
+          "options": [
+            "Zayd a soulevé la poussière",
+            "Zayd a revêtu un jilbâb",
+            "Zayd est devenu vieux",
+            "Zayd s'est couché sur le dos"
+          ],
+          "explanation": "Ay nâma 'alâ qafâhu."
+        },
+        {
+          "prompt": "'Athyara est sur le schème…",
+          "options": [
+            "Fa'yala",
+            "Fay'ala",
+            "Fa'wala",
+            "Faw'ala"
+          ],
+          "explanation": "Un yâ' après le 'ayn."
+        },
+        {
+          "prompt": "Combien de formes sont rattachées à dahraja ?",
+          "options": [
+            "Cinq",
+            "Six",
+            "Deux",
+            "Trois"
+          ],
+          "explanation": "Faw'ala, fay'ala, fa'wala, fa'yala, fa'lala, fa'lâ."
+        },
+        {
+          "prompt": "Deux verbes sur le même schème fa'lala peuvent différer par…",
+          "options": [
+            "rien",
+            "leurs voyelles",
+            "leur racine : quatre lettres radicales ou trois",
+            "leur sens seulement"
+          ],
+          "explanation": "Dahraja est nu, jalbaba rattaché."
+        },
+        {
+          "prompt": "Akrama est-il rattaché à dahraja ?",
+          "options": [
+            "Oui : il a quatre lettres",
+            "Oui : il est transitif",
+            "Seulement au passif",
+            "Non : son masdar ikrâm a son propre schème"
+          ],
+          "explanation": "Le rattachement se juge par le masdar."
+        }
+      ],
+      "diagram": {
+        "caption": "Les six formes rattachées à dahraja",
+        "labels": {
+          "The six forms attached to daḥraja": "Les six formes rattachées à dahraja",
+          "Pattern": "Schème",
+          "Model": "Mot pesé",
+          "Maṣdar": "Masdar",
+          "Added letter": "Lettre ajoutée",
+          "Use": "Emploi",
+          "wāw after the fāʾ": "wâw après le fâ'",
+          "intransitive": "intransitif",
+          "yāʾ after the fāʾ": "yâ' après le fâ'",
+          "transitive": "transitif",
+          "wāw after the ʿayn": "wâw après le 'ayn",
+          "yāʾ after the ʿayn": "yâ' après le 'ayn",
+          "the lām repeated": "le lâm répété",
+          "yāʾ at the end": "yâ' à la fin"
+        }
+      },
+      "text": [
+        "La quatrième classe : fa'yala yufa'yilu fa'yalatan wa-fi'yâlan ; son mot pesé est 'athyara yu'athyiru 'athyaratan wa-'ithyâran « soulever la poussière ». Son signe est que son passé a quatre lettres, par l'ajout du yâ' entre le 'ayn et le lâm. Elle est construite pour l'intransitif seulement, comme 'athyara Zaydun « Zayd a soulevé la poussière ».",
+        "La cinquième classe : fa'lala yufa'lilu fa'lalatan wa-fi'lâlan ; son mot pesé est jalbaba yujalbibu jalbabatan wa-jilbâban « revêtir d'un jilbâb ». Son signe est que son passé a quatre lettres, par l'ajout d'une lettre, de même nature que le lâm de son verbe, à sa fin. Elle est construite pour le transitif, comme jalbaba Zaydun al-jilbâba « Zayd a mis le jilbâb [à quelqu'un] ».",
+        "La sixième classe : fa'lâ yufa'lî fa'layatan wa-fi'lâ'an ; son mot pesé est salqâ yusalqî salqayatan wa-silqâ'an « se coucher sur le dos ». Son signe est que son passé a quatre lettres, par l'ajout du yâ' à sa fin. Elle est construite pour l'intransitif, comme salqâ Zaydun « Zayd s'est couché sur le dos », c'est-à-dire il a dormi sur la nuque. Ces six sont appelées les formes rattachées au quadrilitère ; et le sens du rattachement (ilhâq) est que les deux masdars sont d'une seule sorte, c'est-à-dire [celui de] la forme rattachée et [celui de] la forme à laquelle elle est rattachée."
+      ]
+    },
+    "10": {
+      "title": "Le verbe quadrilitère augmenté",
+      "body": [
+        "Le verbe quadrilitère avec des lettres ajoutées a trois classes en deux sortes. Avec une lettre ajoutée : tafa'lala yatafa'lalu tafa'lulan, mot pesé tadahraja yatadahraju tadahrujan, un tâ' ajouté au début. Elle est construite pour l'acceptation de l'effet, comme l'était infa'ala pour le verbe trilitère : dahrajtu al-hajara fa-tadahraja dhâlika al-hajaru, « j'ai roulé la pierre, et la pierre a roulé ».",
+        "Avec deux lettres ajoutées, deux classes. If'anlala yaf'anlilu if'inlâlan, mot pesé ihranjama yahranjimu ihrinjâman : une hamza au début et un nûn entre le 'ayn et le premier lâm. Elle aussi est pour l'acceptation de l'effet : harjamtu al-ibila fa-hranjama dhâlika al-ibilu, « j'ai rassemblé les chameaux, et les chameaux se sont pressés les uns contre les autres ».",
+        "If'alalla yaf'alillu if'illâlan, mot pesé iqsha'arra yaqsha'irru iqshi'râran : une hamza au début et un second lâm à la fin, redoublé. Elle est construite pour intensifier l'intransitif, et le livre la met encore face à son verbe nu : « on dit qash'ara jildu al-rajuli quand les poils de sa peau se dressent quelque peu, et iqsha'arra jildu al-rajuli quand ils se dressent fortement » : la peau de l'homme a frissonné, ou s'est hérissée.",
+        "Le verbe quadrilitère reprend le système du trilitère. Sa forme nue a une forme augmentée pour l'acceptation de l'effet (tadahraja à côté de inkasara), une autre pour l'acceptation de l'effet avec un nûn (ihranjama à côté de inkasara), et une pour l'intensification avec une fin redoublée (iqsha'arra à côté de ihmarra). Apprendre les parallèles est plus facile qu'apprendre les schèmes un à un."
+      ],
+      "terms": [
+        "la classe de tadahraja : l'acceptation de l'effet",
+        "la classe de ihranjama : l'acceptation de l'effet",
+        "la classe de iqsha'arra : l'intensification",
+        "le verbe quadrilitère augmenté"
+      ],
+      "examples": [
+        "« j'ai roulé la pierre, et la pierre a roulé » : tadahraja, l'acceptation de l'effet",
+        "« j'ai rassemblé les chameaux, et ils se sont pressés » : ihranjama, l'acceptation de l'effet",
+        "la peau de l'homme s'est un peu hérissée ; elle s'est fortement hérissée : iqsha'arra, l'intensification"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le verbe nu et le verbe d'acceptation de l'effet dans chaque paire, et leurs classes : dahrajtu al-hajara fa-tadahraja ; harjamtu al-ibila fa-hranjama.",
+          "answer": "Dahraja (fa'lala) et tadahraja (tafa'lala, un tâ' ajouté). Harjama (fa'lala) et ihranjama (if'anlala, une hamza et un nûn ajoutés)."
+        },
+        {
+          "prompt": "Où est le nûn ajouté de ihranjama ?",
+          "answer": "Entre le 'ayn et le premier lâm : h-r-n-j-m, avec la racine h-r-j-m."
+        },
+        {
+          "prompt": "Quelle est la différence entre qash'ara et iqsha'arra ?",
+          "answer": "Qash'ara : la peau s'est quelque peu hérissée. Iqsha'arra : elle s'est fortement hérissée. If'alalla intensifie l'intransitif."
+        },
+        {
+          "prompt": "Quelle classe du verbe trilitère est le parallèle de chacun : tadahraja, ihranjama, iqsha'arra ?",
+          "answer": "Tadahraja est comme les classes en tâ' de l'acceptation de l'effet (ta'allama de 'allama) ; ihranjama comme infa'ala (inkasara) ; iqsha'arra comme if'alla (ihmarra)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Pour quoi tadahraja est-il construit ?",
+          "options": [
+            "La réciprocité",
+            "L'intensification",
+            "L'acceptation de l'effet",
+            "La recherche"
+          ],
+          "explanation": "Dahrajtu al-hajara fa-tadahraja."
+        },
+        {
+          "prompt": "Quelles lettres if'anlala ajoute-t-il ?",
+          "options": [
+            "Un tâ'",
+            "Une hamza et un lâm redoublé",
+            "Un sîn et un tâ'",
+            "Une hamza et un nûn"
+          ],
+          "explanation": "Ihranjama."
+        },
+        {
+          "prompt": "Pour quoi iqsha'arra est-il construit ?",
+          "options": [
+            "Intensifier l'intransitif",
+            "L'acceptation de l'effet",
+            "Rendre transitif",
+            "La réciprocité"
+          ],
+          "explanation": "Un fort hérissement de la peau."
+        },
+        {
+          "prompt": "Combien de classes a le verbe quadrilitère augmenté ?",
+          "options": [
+            "Une",
+            "Trois",
+            "Cinq",
+            "Douze"
+          ],
+          "explanation": "Une avec une lettre ajoutée, deux avec deux."
+        },
+        {
+          "prompt": "Dans fa-tadahraja dhâlika al-hajaru, al-hajaru est…",
+          "options": [
+            "le complément d'objet",
+            "un hâl",
+            "l'agent du verbe d'acceptation de l'effet",
+            "un tamyîz"
+          ],
+          "explanation": "La pierre qui a reçu le roulement."
+        },
+        {
+          "prompt": "Quelle classe trilitère est le parallèle de ihranjama ?",
+          "options": [
+            "Istaf'ala",
+            "Af'ala",
+            "Fâ'ala",
+            "Infa'ala"
+          ],
+          "explanation": "Les deux sont l'acceptation de l'effet avec un nûn ajouté."
+        },
+        {
+          "prompt": "Quel est le présent-futur de iqsha'arra dans le livre ?",
+          "options": [
+            "Yaqsha'irru",
+            "Yuqash'iru",
+            "Yaqsha'arru",
+            "Tuqash'iru"
+          ],
+          "explanation": "If'alalla yaf'alillu."
+        }
+      ],
+      "diagram": {
+        "caption": "Le verbe quadrilitère à côté du trilitère",
+        "labels": {
+          "The four-letter verb beside the three-letter one": "Le verbe quadrilitère à côté du trilitère",
+          "Use": "Emploi",
+          "Four-letter bāb": "Classe quadrilitère",
+          "Three-letter parallel": "Parallèle trilitère",
+          "bare": "nu",
+          "compliance with tāʾ": "acceptation de l'effet avec tâ'",
+          "compliance with nūn": "acceptation de l'effet avec nûn",
+          "intensifying, doubled end": "intensification, fin redoublée"
+        }
+      },
+      "text": [
+        "Et trois sont pour ce qui dépasse le quadrilitère nu, et cela est de deux sortes. La première sorte est celle où une seule lettre est ajoutée au quadrilitère ; c'est une seule classe. Son schème est tafa'lala yatafa'lalu tafa'lulan ; son mot pesé est tadahraja yatadahraju tadahrujan « rouler [de soi-même] ». Son signe est que son passé a cinq lettres, par l'ajout du tâ' à son début. Elle est construite pour l'acceptation de l'effet, comme dahrajtu al-hajara fa-tadahraja dhâlika al-hajaru « j'ai roulé la pierre, et cette pierre a donc roulé ».",
+        "La deuxième sorte est celle où deux lettres sont ajoutées au quadrilitère ; elle compte deux classes. La première classe : if'anlala yaf'anlilu if'inlâlan ; son mot pesé est ihranjama yahranjimu ihrinjâman « se presser les uns contre les autres ». Son signe est que son passé a six lettres, par l'ajout de la hamza à son début et du nûn entre le 'ayn et le premier lâm. Elle aussi est construite pour l'acceptation de l'effet, comme harjamtu al-ibila fa-ihranjama dhâlika al-ibilu « j'ai poussé les chameaux ensemble, et ces chameaux se sont donc pressés les uns contre les autres ».",
+        "La deuxième classe : if'alalla yaf'alillu if'illâlan ; son mot pesé est iqsha'arra yaqsha'irru iqshi'râran « frissonner ». Son signe est que son passé a six lettres, par l'ajout de la hamza à son début et d'une autre lettre, de même nature que le second lâm de son verbe, à sa fin. Elle est construite pour intensifier l'intransitif ; car on dit qash'ara jildu al-rajuli « la peau de l'homme a frémi » quand les poils de sa peau se dressent quelque peu, et on dit iqsha'arra jildu al-rajuli « la peau de l'homme a frissonné » quand les poils de sa peau se dressent intensément."
+      ]
+    },
+    "11": {
+      "title": "Les formes rattachées à tadahraja",
+      "body": [
+        "Cinq classes sont rattachées à tadahraja : chacune est l'une des formes rattachées à dahraja, avec un tâ' devant. Tafa'lala, mot pesé tajalbaba, « mettre un jilbâb », construite pour l'acceptation de l'effet : jalbaba Zaydun fa-tajalbaba fî dhâlika al-jilbâbi, « Zayd l'a revêtu d'un jilbâb, et il a mis ce jilbâb ». Tafaw'ala, mot pesé tajawraba, « mettre des chaussettes », aussi l'acceptation de l'effet : jawrabtuhu fa-tajawraba, « je lui ai mis des chaussettes, et il les a mises ».",
+        "Trois ne sont qu'intransitives : tafay'ala, mot pesé tashaytana, « agir comme un démon » : tashaytana Zaydun ; tafa'wala, mot pesé tarahwaka, « marcher d'un pas chaloupé » : tarahwaka Zaydun ; et tafa'lâ, mot pesé tasalqâ, « se coucher sur le dos » : tasalqâ Zaydun.",
+        "Le livre ajoute ensuite une remarque qui enseigne un principe : « la réalité du rattachement dans ces formes rattachées n'est que par l'ajout de ce qui n'est pas le tâ' ». Dans tajalbaba, le rattachement se fait par le bâ' répété, comme dans jalbaba ; « le tâ' n'est entré que pour le sens de l'acceptation de l'effet, comme il est entré dans tadahraja ». Car, dit le livre, le rattachement n'est jamais au début d'un mot, seulement en son milieu ou à sa fin, « comme il est dit expressément dans le commentaire du Mufassal », le grand manuel de nahw d'al-Zamakhsharî.",
+        "Chaque forme a donc deux ajouts qui font deux travaux : une lettre au milieu ou à la fin qui fait prendre à la racine la forme d'un verbe quadrilitère, et un tâ' au début qui donne le sens de l'acceptation de l'effet. Tajawraba : le wâw rattache, le tâ' accepte l'effet. C'est le genre d'analyse auquel le Binâ' exerce : chaque lettre ajoutée a sa place et sa raison."
+      ],
+      "terms": [
+        "rattachées à tadahraja : cinq classes",
+        "la réalité du rattachement : par une lettre qui n'est pas le tâ'",
+        "le tâ' de l'acceptation de l'effet au début",
+        "le commentaire du Mufassal d'al-Zamakhsharî, cité par le livre"
+      ],
+      "examples": [
+        "« Zayd l'a revêtu d'un jilbâb, et il l'a mis » : tajalbaba, l'acceptation de l'effet",
+        "jawrabtuhu fa-tajawraba, « je lui ai mis des chaussettes, et il les a mises »",
+        "tashaytana Zaydun, « Zayd a agi comme un démon » : seulement intransitif",
+        "tasalqâ Zaydun, « Zayd s'est couché sur le dos »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Dans tajawraba, quelle lettre ajoutée fait le rattachement et laquelle donne l'acceptation de l'effet ?",
+          "answer": "Le wâw après le fâ' fait le rattachement (comme dans jawraba, faw'ala) ; le tâ' du début donne le sens de l'acceptation de l'effet."
+        },
+        {
+          "prompt": "Pourquoi le livre dit-il que le rattachement n'est jamais par le tâ' ?",
+          "answer": "Parce que le rattachement n'est jamais au début d'un mot, seulement en son milieu ou à sa fin. Le tâ' au début de ces formes est entré pour l'acceptation de l'effet, comme dans tadahraja."
+        },
+        {
+          "prompt": "Nommez le schème de chacun : tashaytana, tarahwaka, tasalqâ.",
+          "answer": "Tashaytana : tafay'ala. Tarahwaka : tafa'wala. Tasalqâ : tafa'lâ."
+        },
+        {
+          "prompt": "Traduisez jawrabtuhu fa-tajawraba et dites ce que montrent les deux verbes.",
+          "answer": "« Je lui ai mis des chaussettes, et il les a mises. » Jawraba est l'acte transitif ; tajawraba son acceptation de l'effet, dont l'agent est celui qui a reçu l'acte."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de formes sont rattachées à tadahraja ?",
+          "options": [
+            "Six",
+            "Deux",
+            "Trois",
+            "Cinq"
+          ],
+          "explanation": "Tajalbaba, tajawraba, tashaytana, tarahwaka, tasalqâ."
+        },
+        {
+          "prompt": "Dans tajalbaba, le rattachement se fait par…",
+          "options": [
+            "le bâ' répété",
+            "le tâ'",
+            "le jîm",
+            "le lâm"
+          ],
+          "explanation": "Comme dans jalbaba ; le tâ' est pour l'acceptation de l'effet."
+        },
+        {
+          "prompt": "Où, selon le livre, le rattachement ne peut-il jamais être ?",
+          "options": [
+            "Au milieu",
+            "Au début d'un mot",
+            "À la fin",
+            "Dans le masdar"
+          ],
+          "explanation": "Seulement au milieu ou à la fin."
+        },
+        {
+          "prompt": "Tashaytana Zaydun signifie…",
+          "options": [
+            "Zayd a mis des chaussettes",
+            "Zayd s'est couché sur le dos",
+            "Zayd a agi comme un démon",
+            "Zayd a marché d'un pas chaloupé"
+          ],
+          "explanation": "Seulement intransitif."
+        },
+        {
+          "prompt": "Tarahwaka signifie…",
+          "options": [
+            "mettre un jilbâb",
+            "soulever la poussière",
+            "fendre",
+            "marcher d'un pas chaloupé"
+          ],
+          "explanation": "Tafa'wala."
+        },
+        {
+          "prompt": "Quel livre le Binâ' cite-t-il pour sa règle sur le rattachement ?",
+          "options": [
+            "Un commentaire du Mufassal d'al-Zamakhsharî",
+            "Al-Âjurrûmiyya",
+            "L'Alfiyya",
+            "Al-'Izzî"
+          ],
+          "explanation": "« Comme il est dit expressément dans le commentaire du Mufassal. »"
+        },
+        {
+          "prompt": "Que donne le tâ' au début de ces formes ?",
+          "options": [
+            "Le rattachement",
+            "Le sens de l'acceptation de l'effet",
+            "Le féminin",
+            "Le passif"
+          ],
+          "explanation": "Comme il le fait dans tadahraja."
+        }
+      ],
+      "diagram": {
+        "caption": "Les cinq formes rattachées à tadahraja",
+        "labels": {
+          "The five forms attached to tadaḥraja": "Les cinq formes rattachées à tadahraja",
+          "Pattern": "Schème",
+          "Model": "Mot pesé",
+          "From": "De",
+          "Letter of attachment": "Lettre du rattachement",
+          "Use": "Emploi",
+          "the lām repeated": "le lâm répété",
+          "compliance": "acceptation de l'effet",
+          "wāw after the fāʾ": "wâw après le fâ'",
+          "yāʾ after the fāʾ": "yâ' après le fâ'",
+          "intransitive": "intransitif",
+          "wāw after the ʿayn": "wâw après le 'ayn",
+          "yāʾ at the end": "yâ' à la fin"
+        }
+      },
+      "text": [
+        "Et cinq sont pour les formes rattachées à tadahraja. La première classe : tafa'lala yatafa'lalu tafa'lulan ; son mot pesé est tajalbaba yatajalbabu tajalbuban « mettre un jilbâb ». Son signe est que son passé a cinq lettres, par l'ajout du tâ' à son début et d'une autre lettre, de même nature que le lâm de son verbe, à sa fin. Elle est construite pour l'acceptation de l'effet, comme jalbaba Zaydun fa-tajalbaba fî dhâlika al-jilbâbi « Zayd [l']a revêtu d'un jilbâb, et il a mis ce jilbâb ».",
+        "La deuxième classe : tafaw'ala yatafaw'alu tafaw'ulan ; son mot pesé est tajawraba yatajawrabu tajawruban « mettre des chaussettes ». Son signe est que son passé a cinq lettres, par l'ajout du tâ' à son début et du wâw entre le fâ' et le 'ayn. Elle aussi est construite pour l'acceptation de l'effet, comme jawrabtuhu fa-tajawraba « je lui ai mis des chaussettes, et il les a mises ».",
+        "La troisième classe : tafay'ala yatafay'alu tafay'ulan ; son mot pesé est tashaytana yatashaytanu tashaytunan « agir comme un démon ». Son signe est que son passé a cinq lettres, par l'ajout du tâ' à son début et du yâ' entre le fâ' et le 'ayn. Elle est construite pour l'intransitif seulement, comme tashaytana Zaydun « Zayd a agi comme un démon ».",
+        "La quatrième classe : tafa'wala yatafa'walu tafa'wulan ; son mot pesé est tarahwaka yatarahwaku tarahwukan « marcher d'un pas chaloupé ». Son signe est que son passé a cinq lettres, par l'ajout du tâ' à son début et du wâw entre le 'ayn et le lâm. Elle est construite pour l'intransitif seulement, comme tarahwaka Zaydun « Zayd a marché d'un pas chaloupé ».",
+        "La cinquième classe : tafa'lâ yatafa'lâ tafa'liyan ; son mot pesé est tasalqâ yatasalqâ tasalqiyan « se coucher sur le dos ». Son signe est que son passé a cinq lettres, par l'ajout du tâ' à son début et du yâ' à sa fin. Elle est construite pour l'intransitif, comme tasalqâ Zaydun « Zayd s'est couché sur le dos », c'est-à-dire il a dormi sur la nuque.",
+        "Sache que le rattachement véritable dans ces formes rattachées n'est que par l'ajout d'autre chose que le tâ'. Par exemple, le rattachement dans tajalbaba n'est que par la répétition du bâ' ; le tâ' n'est entré que pour le sens de l'acceptation de l'effet, comme il est entré dans tadahraja ; car le rattachement n'est jamais au début du mot, mais en son milieu ou à sa fin, comme il est dit expressément dans le Sharh al-Mufassal."
+      ]
+    },
+    "12": {
+      "title": "Les formes rattachées à ihranjama",
+      "body": [
+        "Les deux dernières classes sont rattachées à ihranjama, le verbe quadrilitère avec une hamza et un nûn ajoutés. La première : if'anlala yaf'anlilu if'inlâlan, mot pesé iq'ansasa yaq'ansisu iq'insâsan : une hamza au début, un nûn entre le 'ayn et le lâm, et le lâm répété à la fin. Sa racine est de trois lettres, q-'-s ; le sîn répété la rattache à ihranjama.",
+        "Elle est construite pour intensifier l'intransitif : « on dit qa'isa al-rajulu quand il avance la poitrine et que son dos se creuse quelque peu, et iq'ansasa al-rajulu quand il le fait fortement » : l'homme a bombé la poitrine.",
+        "La seconde : if'anlâ yaf'anlî if'inlâ'an, mot pesé islanqâ yaslanqî islinqâ'an : une hamza au début, un nûn entre le 'ayn et le lâm, et un yâ' à la fin. Elle est construite pour l'acceptation de l'effet : salqaytuhu fa-slanqâ, ay waqa'a 'alâ qafâhu, « je l'ai couché sur le dos, et il s'est couché sur le dos », c'est-à-dire il est tombé sur la nuque.",
+        "Avec celles-ci, les trente-cinq classes sont complètes. Recomptez-les : 6 trilitères nues, 12 trilitères augmentées, 1 quadrilitère nue, 6 rattachées à dahraja, 3 quadrilitères augmentées, 5 rattachées à tadahraja, 2 rattachées à ihranjama. L'élève qui sait dire de tout verbe à laquelle des trente-cinq il appartient a appris ce qu'enseigne le Binâ'."
+      ],
+      "terms": [
+        "rattachées à ihranjama : deux classes",
+        "avec le lâm répété : l'intensification",
+        "avec un yâ' à la fin : l'acceptation de l'effet"
+      ],
+      "examples": [
+        "l'homme a quelque peu avancé la poitrine ; il l'a fortement bombée",
+        "salqaytuhu fa-slanqâ, « je l'ai couché sur le dos, et il s'est couché sur le dos » : l'acceptation de l'effet"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez la racine de iq'ansasa et dites quelles lettres sont ajoutées et pourquoi.",
+          "answer": "Racine q-'-s. Ajoutés : la hamza au début et le nûn après le 'ayn (comme dans ihranjama), et le sîn répété à la fin, qui fait prendre à la racine trilitère la forme du quadrilitère ihranjama."
+        },
+        {
+          "prompt": "Ihranjama et islanqâ sont tous deux pour l'acceptation de l'effet. Donnez l'acte et l'acceptation dans chacun, comme le fait le livre.",
+          "answer": "Harjamtu al-ibila fa-hranjama : j'ai rassemblé les chameaux, et ils se sont pressés les uns contre les autres. Salqaytuhu fa-slanqâ : je l'ai couché sur le dos, et il s'est couché sur le dos."
+        },
+        {
+          "prompt": "Comptez les trente-cinq classes par leurs groupes.",
+          "answer": "6 trilitères nues + 12 trilitères augmentées + 1 quadrilitère nue + 6 rattachées à dahraja + 3 quadrilitères augmentées + 5 rattachées à tadahraja + 2 rattachées à ihranjama = 35."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de classes sont rattachées à ihranjama ?",
+          "options": [
+            "Deux",
+            "Cinq",
+            "Six",
+            "Trois"
+          ],
+          "explanation": "Iq'ansasa et islanqâ."
+        },
+        {
+          "prompt": "Pour quoi iq'ansasa est-il construit ?",
+          "options": [
+            "L'acceptation de l'effet",
+            "Intensifier l'intransitif",
+            "Rendre transitif",
+            "La réciprocité"
+          ],
+          "explanation": "Qa'isa quelque peu ; iq'ansasa fortement."
+        },
+        {
+          "prompt": "Pour quoi islanqâ est-il construit ?",
+          "options": [
+            "L'intensification",
+            "La recherche",
+            "L'acceptation de l'effet",
+            "L'effort"
+          ],
+          "explanation": "Salqaytuhu fa-slanqâ."
+        },
+        {
+          "prompt": "Qu'est-ce qui rattache iq'ansasa à ihranjama ?",
+          "options": [
+            "La hamza",
+            "Le nûn",
+            "Le qâf",
+            "Le sîn répété"
+          ],
+          "explanation": "Racine q-'-s ; le second sîn est ajouté."
+        },
+        {
+          "prompt": "Quel est le total des classes ?",
+          "options": [
+            "Trente-cinq",
+            "Trente",
+            "Douze",
+            "Six"
+          ],
+          "explanation": "6 + 12 + 1 + 6 + 3 + 5 + 2."
+        },
+        {
+          "prompt": "Quel groupe a douze classes ?",
+          "options": [
+            "Les formes rattachées",
+            "Le verbe trilitère augmenté",
+            "Le verbe trilitère nu",
+            "Le verbe quadrilitère"
+          ],
+          "explanation": "Trois avec une lettre, cinq avec deux, quatre avec trois."
+        },
+        {
+          "prompt": "La racine de islanqâ a combien de lettres ?",
+          "options": [
+            "Quatre",
+            "Cinq",
+            "Trois",
+            "Six"
+          ],
+          "explanation": "S-l-q, avec une hamza, un nûn et un yâ' final ajoutés."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trente-cinq classes comptées",
+        "labels": {
+          "The thirty-five bābs counted": "Les trente-cinq classes comptées",
+          "Group": "Groupe",
+          "Bābs": "Classes",
+          "Example": "Exemple",
+          "bare three-letter": "trilitère nu",
+          "augmented three-letter": "trilitère augmenté",
+          "bare four-letter": "quadrilitère nu",
+          "attached to daḥraja": "rattachées à dahraja",
+          "augmented four-letter": "quadrilitère augmenté",
+          "attached to tadaḥraja": "rattachées à tadahraja",
+          "attached to iḥranjama": "rattachées à ihranjama"
+        }
+      },
+      "text": [
+        "Et deux sont pour les formes rattachées à ihranjama. La première classe : if'anlala yaf'anlilu if'inlâlan ; son mot pesé est iq'ansasa yaq'ansisu iq'insâsan « bomber la poitrine ». Son signe est que son passé a six lettres, par l'ajout de la hamza à son début, du nûn entre le 'ayn et le lâm, et d'une autre lettre, de même nature que le lâm de son verbe, à sa fin. Elle est construite pour intensifier l'intransitif ; car on dit qa'isa al-rajulu « l'homme s'est tenu la poitrine en avant » quand il avance la poitrine et que son dos se creuse quelque peu, et on dit iq'ansasa al-rajulu « l'homme a bombé la poitrine » quand il avance la poitrine et que son dos se creuse intensément.",
+        "La deuxième classe : if'anlâ yaf'anlî if'inlâ'an ; son mot pesé est islanqâ yaslanqî islinqâ'an « tomber sur le dos ». Son signe est que son passé a six lettres, par l'ajout de la hamza à son début, du nûn entre le 'ayn et le lâm, et du yâ' à sa fin. Elle est construite pour l'acceptation de l'effet, comme salqaytuhu fa-islanqâ « je l'ai couché sur le dos, et il est tombé sur le dos », c'est-à-dire il est tombé sur la nuque."
+      ]
+    },
+    "13": {
+      "title": "Les huit divisions du verbe",
+      "body": [
+        "Après les classes, le livre range d'une autre manière tout verbe qui relève d'elles, en huit divisions, par trois questions. Est-il trilitère ou quadrilitère ? Nu ou augmenté ? Sâlim (entièrement sain) ou non ? Deux réponses à chacune de trois questions donnent huit.",
+        "Les huit, avec les exemples du livre : trilitère, nu, sâlim : karuma, « être noble » ; trilitère, nu, non sâlim : wa'ada, « promettre » ; quadrilitère, nu, sâlim : dahraja ; quadrilitère, nu, non sâlim : waswasa, « chuchoter » ; trilitère, augmenté, sâlim : akrama ; trilitère, augmenté, non sâlim : aw'ada, « menacer » ; quadrilitère, augmenté, sâlim : tadahraja ; quadrilitère, augmenté, non sâlim : tawaswasa.",
+        "« Non sâlim » signifie ici qu'une lettre radicale est faible, une hamza, ou redoublée, comme l'explique le chapitre suivant : wa'ada et waswasa ont un wâw parmi leurs lettres radicales. Remarquez que les exemples vont par paires qui ne diffèrent que sur ce seul point : karuma et wa'ada, akrama et aw'ada, dahraja et waswasa, tadahraja et tawaswasa. La même classe peut contenir des verbes sains et des verbes faibles ; la classe donne le schème, la racine donne le caractère sain.",
+        "L'outil de conjugaison ne travaille que dans les divisions sâlim, et pour le verbe trilitère, nu et augmenté. Chaque leçon qui montre un verbe faible prend ses formes d'une impression."
+      ],
+      "terms": [
+        "les huit divisions du verbe",
+        "sâlim : ni lettre faible, ni hamza, ni redoublement dans la racine",
+        "non sâlim",
+        "nu et augmenté"
+      ],
+      "examples": [
+        "karuma, sâlim ; wa'ada, non sâlim : deux verbes trilitères nus",
+        "akrama, sâlim ; aw'ada, non sâlim : deux verbes trilitères augmentés",
+        "dahraja, sâlim ; waswasa, non sâlim : deux verbes quadrilitères nus"
+      ],
+      "tasks": [
+        {
+          "prompt": "Placez chaque verbe dans l'une des huit divisions : nasara ; istakhraja ; waswasa ; tadahraja ; wa'ada.",
+          "answer": "Nasara : trilitère, nu, sâlim. Istakhraja : trilitère, augmenté, sâlim. Waswasa : quadrilitère, nu, non sâlim. Tadahraja : quadrilitère, augmenté, sâlim. Wa'ada : trilitère, nu, non sâlim."
+        },
+        {
+          "prompt": "Quelles trois questions donnent les huit divisions ?",
+          "answer": "Trilitère ou quadrilitère ? Nu ou augmenté ? Sâlim ou non sâlim ? Deux réponses à chacune de trois questions font huit."
+        },
+        {
+          "prompt": "Pourquoi wa'ada et waswasa sont-ils « non sâlim » ?",
+          "answer": "Une lettre radicale est faible : le wâw de wa'ada (son fâ'), et les wâw de waswasa."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de divisions le Binâ' donne-t-il dans ce chapitre ?",
+          "options": [
+            "Sept",
+            "Huit",
+            "Six",
+            "Trente-cinq"
+          ],
+          "explanation": "Par trois questions à deux réponses chacune."
+        },
+        {
+          "prompt": "Wa'ada est…",
+          "options": [
+            "trilitère, nu, sâlim",
+            "quadrilitère, nu",
+            "trilitère, nu, non sâlim",
+            "augmenté"
+          ],
+          "explanation": "Son fâ' est un wâw."
+        },
+        {
+          "prompt": "Tawaswasa est…",
+          "options": [
+            "trilitère, augmenté, sâlim",
+            "quadrilitère, nu, sâlim",
+            "trilitère, nu, non sâlim",
+            "quadrilitère, augmenté, non sâlim"
+          ],
+          "explanation": "Waswasa avec un tâ' ajouté."
+        },
+        {
+          "prompt": "Que signifie ici « non sâlim » (ghayr sâlim) ?",
+          "options": [
+            "Une lettre radicale est faible, une hamza, ou redoublée",
+            "Il est passif",
+            "Il est intransitif",
+            "Il a des lettres ajoutées"
+          ],
+          "explanation": "Le chapitre suivant donne les sept sortes."
+        },
+        {
+          "prompt": "Quelle paire ne diffère que par le caractère sâlim ?",
+          "options": [
+            "Akrama et dahraja",
+            "Akrama et aw'ada",
+            "Karuma et akrama",
+            "Dahraja et tadahraja"
+          ],
+          "explanation": "Deux verbes trilitères augmentés."
+        },
+        {
+          "prompt": "Dahraja appartient à…",
+          "options": [
+            "trilitère, augmenté, sâlim",
+            "quadrilitère, augmenté",
+            "quadrilitère, nu, sâlim",
+            "trilitère, nu"
+          ],
+          "explanation": "Ses quatre lettres sont radicales, aucune faible."
+        },
+        {
+          "prompt": "Dans quelles divisions l'outil de conjugaison travaille-t-il ?",
+          "options": [
+            "Les huit",
+            "Le quadrilitère seulement",
+            "Le verbe faible seulement",
+            "Le trilitère sâlim, nu et augmenté"
+          ],
+          "explanation": "Les formes faibles viennent d'une impression."
+        }
+      ],
+      "diagram": {
+        "caption": "Les huit divisions avec les exemples du livre",
+        "labels": {
+          "The eight divisions with the book's examples": "Les huit divisions avec les exemples du livre",
+          "Division": "Division",
+          "Sound": "Sâlim",
+          "Not sound": "Non sâlim",
+          "three-letter, bare": "trilitère, nu",
+          "four-letter, bare": "quadrilitère, nu",
+          "three-letter, augmented": "trilitère, augmenté",
+          "four-letter, augmented": "quadrilitère, augmenté"
+        }
+      },
+      "text": [
+        "Sache ensuite que le verbe contenu dans ces classes est soit trilitère nu et entièrement sain (sâlim), comme karuma « être noble » ; soit trilitère nu et non entièrement sain, comme wa'ada « promettre » ; soit quadrilitère nu et entièrement sain, comme dahraja « rouler » ; soit quadrilitère nu et non entièrement sain, comme waswasa « chuchoter le mal » ; soit trilitère augmenté et entièrement sain, comme akrama « honorer » ; soit trilitère augmenté et non entièrement sain, comme aw'ada « menacer » ; soit quadrilitère augmenté et entièrement sain, comme tadahraja « rouler [de soi-même] » ; soit quadrilitère augmenté et non entièrement sain, comme tawaswasa « être assailli de chuchotements ». Ces divisions sont appelées les huit divisions."
+      ]
+    },
+    "14": {
+      "title": "Les sept sortes : sain et faible",
+      "body": [
+        "Le dernier classement se fait par les lettres de la racine, en sept sortes, et c'est celui qu'emploie chaque livre de sarf ultérieur. Le verbe sain (sahîh) est celui « dans le fâ', le 'ayn et le lâm duquel il n'y a ni lettre faible (wâw, yâ', alif), ni hamza, ni redoublement » : nasara. Notez que le sahîh du Binâ' est le sens strict, que d'autres livres appellent sâlim ; certains livres appellent aussi sahîh un verbe avec une hamza ou un redoublement.",
+        "Les verbes faibles, selon la place de la lettre faible. Le mithâl, faible en son fâ' : wa'ada, yasara (il « ressemble » au verbe sain en son passé, d'où le nom). Le concave (ajwaf), faible en son 'ayn : qâla, kâla. Le défectueux (nâqis), faible en son lâm : ghazâ, ramâ ; l'impression écrit ghazâ avec un yâ', bien que sa racine finisse par un wâw.",
+        "Le lafîf, « enveloppé », a deux lettres faibles, de deux façons. Joint (maqrûn), le 'ayn et le lâm tous deux faibles, côte à côte : tawâ, qawiya. Séparé (mafrûq), le fâ' et le lâm faibles, avec une lettre saine entre eux : waqâ yaqî, « protéger », dont le présent-futur a déjà perdu le wâw de sa racine.",
+        "Pourquoi cela importe-t-il ? Parce que les lettres faibles changent : elles se transforment l'une en l'autre, tombent, ou ne prennent pas de voyelle. Qâla vient de q-w-l, mais son wâw est devenu un alif ; ramâ vient de r-m-y, avec son yâ' écrit en alif. Les règles de ces changements (i'lâl) remplissent les livres suivants, al-Maqsûd et al-'Izzî, et l'outil de conjugaison de The Nahwi les laisse de côté : il ne donne que des racines saines."
+      ],
+      "terms": [
+        "sain : ni lettre faible, ni hamza, ni redoublement (ici)",
+        "faible en son fâ' : wa'ada",
+        "concave, faible en son 'ayn : qâla",
+        "défectueux, faible en son lâm : ramâ",
+        "deux lettres faibles, jointes ou séparées",
+        "les lettres faibles : wâw, yâ', alif"
+      ],
+      "examples": [
+        "wa'ada, yasara : mithâl, faible au fâ'",
+        "qâla, kâla : concave (ajwaf), faible au 'ayn",
+        "ghazâ, ramâ : défectueux (nâqis), faible au lâm (écrit comme dans l'impression)",
+        "tawâ, qawiya : lafîf joint ; waqâ yaqî : lafîf séparé"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez la sorte de chaque verbe et la place de la lettre faible : wa'ada ; qâla ; ramâ ; tawâ ; waqâ.",
+          "answer": "Wa'ada : mithâl (wâw au fâ'). Qâla : concave (ajwaf, 'ayn faible). Ramâ : défectueux (nâqis, lâm faible). Tawâ : lafîf maqrûn ('ayn et lâm faibles). Waqâ : lafîf mafrûq (fâ' et lâm faibles)."
+        },
+        {
+          "prompt": "Quelle est la différence entre le lafîf joint et le lafîf séparé ? Donnez les exemples du livre.",
+          "answer": "Joint (maqrûn) : les deux lettres faibles se tiennent côte à côte, le 'ayn et le lâm (tawâ, qawiya). Séparé (mafrûq) : le fâ' et le lâm sont faibles, avec un 'ayn sain entre eux (waqâ yaqî)."
+        },
+        {
+          "prompt": "Pourquoi nasara est-il sahîh au sens du Binâ', mais pas akhadha ?",
+          "answer": "Le sahîh du Binâ' n'a ni lettre faible, ni hamza, ni redoublement. Nasara n'en a aucun ; akhadha a une hamza pour fâ', il est donc hamzé (mahmûz)."
+        },
+        {
+          "prompt": "Lesquels de ces verbes l'outil de conjugaison peut-il donner en entier : kataba, qâla, ramâ, jalasa ?",
+          "answer": "Kataba et jalasa, qui sont sains. Qâla (concave) et ramâ (défectueux) sont faibles ; leurs formes viennent d'une impression."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que le verbe sain (sahîh) du Binâ' ?",
+          "options": [
+            "Tout verbe sans lettre faible",
+            "Tout verbe nu",
+            "Ni lettre faible, ni hamza, ni redoublement dans la racine",
+            "Tout verbe transitif"
+          ],
+          "explanation": "Son sens strict, que d'autres livres appellent sâlim."
+        },
+        {
+          "prompt": "Qâla est…",
+          "options": [
+            "mithâl",
+            "défectueux",
+            "lafîf",
+            "concave (ajwaf), faible en son 'ayn"
+          ],
+          "explanation": "Racine q-w-l."
+        },
+        {
+          "prompt": "Wa'ada est…",
+          "options": [
+            "mithâl, faible en son fâ'",
+            "concave",
+            "défectueux",
+            "hamzé"
+          ],
+          "explanation": "Son fâ' est un wâw."
+        },
+        {
+          "prompt": "Quel verbe est lafîf mafrûq ?",
+          "options": [
+            "Tawâ",
+            "Waqâ",
+            "Qawiya",
+            "Ramâ"
+          ],
+          "explanation": "Fâ' et lâm faibles, séparés par le qâf."
+        },
+        {
+          "prompt": "Quelles sont les lettres faibles ?",
+          "options": [
+            "Hamza et nûn",
+            "Les lettres gutturales",
+            "Wâw, yâ' et alif",
+            "Alif, lâm, mîm"
+          ],
+          "explanation": "Hurûf al-'illa."
+        },
+        {
+          "prompt": "Ramâ est…",
+          "options": [
+            "concave",
+            "mithâl",
+            "géminé",
+            "défectueux (nâqis), faible en son lâm"
+          ],
+          "explanation": "Racine r-m-y."
+        },
+        {
+          "prompt": "Pourquoi l'outil de conjugaison ne donne-t-il que des racines saines ?",
+          "options": [
+            "Les lettres faibles changent selon des règles (i'lâl) qu'enseignent les livres suivants",
+            "Les verbes faibles sont rares",
+            "Les verbes faibles n'ont pas de passé",
+            "Les verbes faibles sont des noms"
+          ],
+          "explanation": "Al-Maqsûd et al-'Izzî les traitent."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "With a weak letter": "Avec une lettre faible",
+          "The seven classes": "Les sept sortes",
+          "Sound (ṣaḥīḥ)": "Sain (sahîh)",
+          "mithāl: in the fāʾ": "mithâl : au fâ'",
+          "ajwaf: in the ʿayn": "concave (ajwaf) : au 'ayn",
+          "nāqiṣ: in the lām": "défectueux (nâqis) : au lâm",
+          "lafīf joined": "lafîf joint",
+          "lafīf separated": "lafîf séparé",
+          "Doubled (muḍāʿaf)": "Géminé (mudâ'af)",
+          "With hamza (mahmūz)": "Hamzé (mahmûz)"
+        }
+      },
+      "text": [
+        "Sache ensuite que tout verbe est soit sain (sahîh), c'est-à-dire celui où il n'y a pas de lettre de faiblesse à la place du fâ', du 'ayn et du lâm (ce sont le wâw, le yâ' et l'alif), ni hamza ni redoublement, comme nasara « aider » ; soit mithâl, c'est-à-dire celui où il y a une lettre de faiblesse à la place de son fâ', comme wa'ada « promettre » et yasara « être facile » ; soit ajwaf, c'est-à-dire celui où il y a une lettre de faiblesse à la place de son 'ayn, comme qâla « dire » et kâla « mesurer ».",
+        "Soit nâqis, c'est-à-dire celui où il y a une lettre de faiblesse à la place de son lâm, comme ghazâ « faire une expédition » et ramâ « lancer » ; soit lafîf, c'est-à-dire celui où il y a deux lettres de faiblesse, et il est de deux divisions : la première est le lafîf joint (al-lafîf al-maqrûn), celui où deux de ces lettres sont à la place de son 'ayn et de son lâm, comme tawâ « plier » et qawiya « être fort » ; la seconde est le lafîf séparé (al-lafîf al-mafrûq), celui où deux de ces lettres sont à la place de son fâ' et de son lâm, comme waqâ yaqî « préserver »."
+      ]
+    },
+    "15": {
+      "title": "Le verbe géminé et l'assimilation",
+      "body": [
+        "Le verbe géminé (mudâ'af) est celui « dont le 'ayn et le lâm sont d'une seule nature » : madda, « étendre ». Son origine est madada ; la voyelle du premier dâl a été supprimée, puis il a été assimilé au second. L'assimilation (idghâm) est « faire entrer l'une de deux lettres semblables dans l'autre », de sorte qu'elles se disent comme une seule lettre redoublée, avec une shadda : madda.",
+        "L'assimilation est de trois sortes. Obligatoire (wâjib) : quand les deux lettres semblables ont une voyelle, ou que la première a un sukûn et la seconde une voyelle : madda yamuddu. Ici, on doit assimiler ; madada et yamdudu ne se disent pas.",
+        "Permise (jâ'iz) : quand la première a une voyelle et la seconde un sukûn qui n'est qu'accidentel, comme celui du jazm : lam yamudda, de lam yamdud. La voyelle du premier dâl est passée au mîm, deux sukûn se sont rencontrés, et on a donné une voyelle au second dâl, une damma, une fatha ou une kasra, « parce que son sukûn est accidentel » : lam yamuddu, lam yamudda, lam yamuddi. Ou bien on le laisse sans assimilation : lam yamdud. Les deux sont de l'arabe correct.",
+        "Impossible (mumtani') : quand la seconde a un sukûn originel, comme devant les pronoms vocalisés du passé : madadtu, « j'ai étendu », madadna, « elles ont étendu ». Le dâl devant -tu et -na est toujours sans voyelle, et les deux dâl restent donc séparés. C'est pourquoi le verbe géminé paraît redoublé à certaines personnes (madda, yamuddu) et non redoublé à d'autres (madadtu, madadna).",
+        "Les trois sortes reposent sur une seule idée : deux lettres semblables voisines se fondent quand rien ne l'empêche, peuvent se fondre quand l'obstacle est passager, et ne peuvent se fondre quand il est permanent."
+      ],
+      "terms": [
+        "le verbe géminé : 'ayn et lâm semblables",
+        "l'assimilation : une lettre semblable dans l'autre",
+        "obligatoire, permise, impossible",
+        "un sukûn accidentel, comme celui du jazm",
+        "un sukûn originel, comme devant -tu"
+      ],
+      "examples": [
+        "madda, yamuddu : assimilation obligatoire",
+        "lam yamudda ou lam yamdud : assimilation permise",
+        "madadtu, madadna : assimilation impossible"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelle est l'origine de madda, et quelles deux étapes en font madda ?",
+          "answer": "L'origine est madada. La voyelle du premier dâl est supprimée (madda sans voyelle sur le premier dâl), et le premier dâl est assimilé au second : madda, avec une shadda."
+        },
+        {
+          "prompt": "Obligatoire, permise ou impossible ? madda ; madadtu ; lam yamudda ; yamuddu.",
+          "answer": "Madda : obligatoire. Madadtu : impossible (sukûn originel devant -tu). Lam yamudda : permise (sukûn accidentel du jazm). Yamuddu : obligatoire."
+        },
+        {
+          "prompt": "Donnez les quatre manières que permet le Binâ' pour « il n'a pas étendu ».",
+          "answer": "Lam yamdud (sans assimilation), et avec assimilation, avec l'une des trois voyelles : lam yamuddu, lam yamudda, lam yamuddi."
+        },
+        {
+          "prompt": "Pourquoi les dâl de madadtu ne peuvent-ils jamais se fondre ?",
+          "answer": "Le second dâl a un sukûn originel devant le pronom vocalisé -tu ; il ne peut jamais prendre de voyelle, et ne peut donc porter la shadda de l'assimilation."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que le verbe géminé ?",
+          "options": [
+            "Celui avec un 'ayn redoublé ajouté",
+            "Celui avec deux lettres faibles",
+            "Celui avec une hamza",
+            "Celui dont le 'ayn et le lâm sont semblables"
+          ],
+          "explanation": "Madda, de madada."
+        },
+        {
+          "prompt": "Qu'est-ce que l'assimilation (idghâm) ?",
+          "options": [
+            "Faire entrer l'une de deux lettres semblables dans l'autre",
+            "Supprimer une lettre faible",
+            "Changer un wâw en alif",
+            "Ajouter une hamza"
+          ],
+          "explanation": "Dites comme une seule lettre redoublée."
+        },
+        {
+          "prompt": "Madadtu montre une assimilation…",
+          "options": [
+            "obligatoire",
+            "impossible",
+            "permise",
+            "facultative seulement en poésie"
+          ],
+          "explanation": "Le second dâl a un sukûn originel."
+        },
+        {
+          "prompt": "Lam yamudda et lam yamdud sont…",
+          "options": [
+            "tous deux fautifs",
+            "seul le premier correct",
+            "tous deux corrects : l'assimilation est permise",
+            "seul le second correct"
+          ],
+          "explanation": "Le sukûn du jazm est accidentel."
+        },
+        {
+          "prompt": "Quelles voyelles le dernier dâl de lam yamudd- peut-il prendre ?",
+          "options": [
+            "Seulement la fatha",
+            "Seulement la kasra",
+            "Aucune",
+            "La damma, la fatha ou la kasra"
+          ],
+          "explanation": "Parce que son sukûn est accidentel."
+        },
+        {
+          "prompt": "Yamuddu montre une assimilation…",
+          "options": [
+            "obligatoire",
+            "impossible",
+            "permise",
+            "absente"
+          ],
+          "explanation": "Le premier dâl avait un sukûn et le second une voyelle."
+        },
+        {
+          "prompt": "Qu'est-ce qu'un sukûn originel ?",
+          "options": [
+            "Le sukûn du jazm",
+            "Celui qui ne change jamais, comme devant -tu",
+            "Le sukûn d'une pause",
+            "Tout sukûn"
+          ],
+          "explanation": "Il empêche l'assimilation."
+        }
+      ],
+      "diagram": {
+        "caption": "Les trois sortes d'assimilation",
+        "labels": {
+          "The three kinds of assimilation": "Les trois sortes d'assimilation",
+          "Kind": "Sorte",
+          "The two like letters": "Les deux lettres semblables",
+          "Example": "Exemple",
+          "obligatory": "obligatoire",
+          "both vowelled, or sukūn then vowel": "toutes deux vocalisées, ou sukûn puis voyelle",
+          "permitted": "permise",
+          "vowel, then an accidental sukūn": "voyelle, puis un sukûn accidentel",
+          "impossible": "impossible",
+          "vowel, then an original sukūn": "voyelle, puis un sukûn originel"
+        }
+      },
+      "text": [
+        "Soit mudâ'af, c'est-à-dire celui dont le 'ayn et le lâm sont d'une seule nature, comme madda « étendre » : son origine est madada ; la voyelle du premier dâl a été supprimée, puis il a été assimilé au second dâl. L'assimilation (idghâm) est faire entrer l'une de deux lettres semblables dans l'autre, et elle est de trois sortes.",
+        "La première sorte est obligatoire : c'est quand les deux lettres semblables sont toutes deux vocalisées, ou que la première lettre est sans voyelle et la seconde vocalisée, comme madda yamuddu. La deuxième sorte est permise : c'est quand la première des deux lettres semblables est vocalisée et la seconde sans voyelle par un sukûn accidentel, comme lam yamudda avec l'une quelconque des voyelles sur le dâl ; son origine est lam yamdud : la voyelle du premier dâl a été transportée au mîm, et deux lettres sans voyelle se sont donc rencontrées ; puis on a donné une voyelle au second dâl, soit la damma, soit la fatha, soit la kasra, parce que son sukûn est accidentel.",
+        "La troisième sorte est impossible : c'est quand la première des deux lettres semblables est vocalisée et la seconde sans voyelle par un sukûn originel, comme madadtu « j'ai étendu » et madadna « elles ont étendu »."
+      ]
+    },
+    "16": {
+      "title": "Le verbe hamzé ; le vers des sept",
+      "body": [
+        "La dernière sorte est le verbe hamzé (mahmûz), « dont l'une des lettres radicales est une hamza » : akhadha, « prendre », sa'ala, « demander », qara'a, « lire ». On le nomme selon la place de la hamza : mahmûz al-fâ' quand la hamza est la première lettre radicale (akhadha), mahmûz al-'ayn quand elle est la deuxième (sa'ala), mahmûz al-lâm quand elle est la troisième (qara'a).",
+        "La hamza n'est pas une lettre faible, mais elle est lourde, et dans certaines formes elle s'adoucit ou tombe ; c'est pourquoi le Binâ' la met à part du verbe sain. Ces formes s'apprennent des livres qui traitent chaque sorte, elles ne se font pas selon la règle du verbe sain.",
+        "Les sept sortes sont réunies, dit le livre, en un vers, et le vers qu'il donne est en persan : sahîh-ast, mithâl-ast, mudâ'af / lafîf, nâqis, mahmûz, ajwaf, « il est sahîh, il est mithâl, mudâ'af, lafîf, nâqis, mahmûz, ajwaf ». Un manuel arabe lu en terre ottomane, qui se termine par un vers mnémotechnique persan : la madrasa apprenait dans ses trois langues.",
+        "Avec cela, le Binâ' est achevé : trente-cinq classes, huit divisions, sept sortes. Sur la voie ottomane viennent ensuite le Maqsûd, puis al-'Izzî, qui prennent les verbes faibles et géminés sorte par sorte et montrent comment leurs formes changent."
+      ],
+      "terms": [
+        "le verbe avec une hamza parmi ses lettres radicales",
+        "la hamza comme première lettre radicale : akhadha",
+        "la hamza comme deuxième : sa'ala",
+        "la hamza comme troisième : qara'a"
+      ],
+      "examples": [
+        "akhadha, sa'ala, qara'a : la hamza comme fâ', 'ayn et lâm",
+        "le vers persan qui réunit les sept sortes"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nommez la sorte de mahmûz : akhadha ; sa'ala ; qara'a.",
+          "answer": "Akhadha : mahmûz al-fâ'. Sa'ala : mahmûz al-'ayn. Qara'a : mahmûz al-lâm."
+        },
+        {
+          "prompt": "Récitez les sept sortes dans l'ordre du vers persan, et donnez un exemple de chacune tiré du Binâ'.",
+          "answer": "Sahîh (nasara), mithâl (wa'ada), mudâ'af (madda), lafîf (tawâ, waqâ), nâqis (ramâ), mahmûz (akhadha), ajwaf (qâla)."
+        },
+        {
+          "prompt": "Placez chaque verbe dans sa sorte : madda ; yasara ; kâla ; qawiya ; sa'ala ; nasara.",
+          "answer": "Madda : mudâ'af. Yasara : mithâl. Kâla : ajwaf. Qawiya : lafîf maqrûn. Sa'ala : mahmûz al-'ayn. Nasara : sahîh."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que le verbe mahmûz ?",
+          "options": [
+            "Celui qui a une hamza parmi ses lettres radicales",
+            "Celui qui a une lettre faible",
+            "Celui qui a une lettre redoublée",
+            "Celui qui a une hamza ajoutée"
+          ],
+          "explanation": "Akhadha, sa'ala, qara'a."
+        },
+        {
+          "prompt": "Sa'ala est…",
+          "options": [
+            "mahmûz al-fâ'",
+            "mahmûz al-'ayn",
+            "mahmûz al-lâm",
+            "ajwaf"
+          ],
+          "explanation": "La hamza est sa deuxième lettre radicale."
+        },
+        {
+          "prompt": "Qara'a est…",
+          "options": [
+            "mahmûz al-fâ'",
+            "nâqis",
+            "mahmûz al-lâm",
+            "sahîh"
+          ],
+          "explanation": "La hamza est sa troisième lettre radicale."
+        },
+        {
+          "prompt": "En quelle langue est le vers qui clôt le Binâ' ?",
+          "options": [
+            "Arabe",
+            "Turc",
+            "Ourdou",
+            "Persan"
+          ],
+          "explanation": "Sahîh-ast, mithâl-ast …"
+        },
+        {
+          "prompt": "La hamza est-elle une lettre faible ?",
+          "options": [
+            "Non, mais elle est lourde et peut s'adoucir ou tomber",
+            "Oui, comme le wâw et le yâ'",
+            "Seulement à la fin",
+            "Seulement au présent-futur"
+          ],
+          "explanation": "Le Binâ' lui donne donc une sorte à part."
+        },
+        {
+          "prompt": "Combien de sortes le vers réunit-il ?",
+          "options": [
+            "Huit",
+            "Sept",
+            "Six",
+            "Trente-cinq"
+          ],
+          "explanation": "Sahîh, mithâl, mudâ'af, lafîf, nâqis, mahmûz, ajwaf."
+        },
+        {
+          "prompt": "Quel livre vient ensuite sur la voie ottomane ?",
+          "options": [
+            "L'Alfiyya",
+            "Al-Âjurrûmiyya",
+            "Le Maqsûd",
+            "Qatr al-nadâ"
+          ],
+          "explanation": "Puis al-'Izzî, qui prennent les verbes faibles sorte par sorte."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "With hamza (mahmūz)": "Hamzé (mahmûz)",
+          "The seven classes": "Les sept sortes",
+          "Sound (ṣaḥīḥ)": "Sain (sahîh)",
+          "With a weak letter": "Avec une lettre faible",
+          "mithāl": "mithâl",
+          "ajwaf": "ajwaf",
+          "nāqiṣ": "nâqis",
+          "lafīf": "lafîf",
+          "Doubled (muḍāʿaf)": "Géminé (mudâ'af)",
+          "in the fāʾ": "au fâ'",
+          "in the ʿayn": "au 'ayn",
+          "in the lām": "au lâm"
+        }
+      },
+      "text": [
+        "Soit mahmûz, c'est-à-dire celui dont l'une des lettres radicales est une hamza, comme akhadha « prendre », sa'ala « demander » et qara'a « lire ». Si la hamza est à la place de son fâ', on l'appelle mahmûz al-fâ' ; si elle est à la place de son 'ayn, on l'appelle mahmûz al-'ayn ; et si elle est à la place de son lâm, on l'appelle mahmûz al-lâm. Ces divisions sont appelées les sept divisions, et ce vers les réunit :",
+        "[En persan :] sahîh-ast, mithâl-ast, mudâ'af / lafîf, nâqis, mahmûz, ajwaf : « il est sahîh, il est mithâl, mudâ'af, / lafîf, nâqis, mahmûz, ajwaf »."
+      ]
+    }
+  }
+}

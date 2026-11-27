@@ -1721,6 +1721,633 @@
      "Explanatory apposition": "Verklarende bijstelling"
     }
    }
+  },
+  "14": {
+   "title": "De tien kentekens en de negen soorten",
+   "body": [
+    "Het derde hoofdstuk geeft de laatste tien van de honderd: de kentekens van de i'rab. “Het is een klinker, of een letter, of een weglating.” Drie klinkers: damma, fatha, kasra. Vier letters: waw, ya', alif, nun. Drie weglatingen, die alleen bij het werkwoord horen: het weglaten van de klinker, het weglaten van de laatste letter en het weglaten van de nun. Tien in totaal.",
+    "Let op waar de sukun gebleven is. De Ajurrumiyya telde hem als kenteken van de jazm naast de klinkers; Birgivi noemt hem “het weglaten van de klinker”: lam yadrib is yadribu met zijn damma weggenomen. Zo is ook het weglaten van de laatste letter de jazm van een zwak werkwoord, en het weglaten van de nun de nasb en de jazm van de vijf werkwoorden.",
+    "Dan worden de verbogen woorden naar de kentekens die ze aannemen in negen soorten verdeeld, in vier groepen. Alleen door klinkers, en alleen door letters: deze twee horen bij het naamwoord. Door klinkers met een weglating, en door letters met een weglating: deze twee horen bij het werkwoord. De volgende vier lessen nemen de groepen één voor één.",
+    "Twee termen lopen erdoorheen. Een soort heeft “volledige i'rab” (tamm al-i'rab) als ze een ander kenteken heeft voor elk van haar toestanden, en “onvolledige i'rab” (naqis al-i'rab) als twee van haar toestanden één kenteken delen. Het enkelvoudige naamwoord is volledig: Zaydun, Zaydan, Zaydin. Het tweevoud is onvolledig: al-Zaydayni dient voor nasb en jarr."
+   ],
+   "terms": [
+    "een klinker: damma, fatha, kasra",
+    "hier: een letter als kenteken: waw, ya', alif, nun",
+    "een weglating: van de klinker, de laatste letter, de nun",
+    "met volledige i'rab: een ander kenteken voor elke toestand",
+    "met onvolledige i'rab: twee toestanden delen een kenteken"
+   ],
+   "examples": [
+    "dammatun, fathatun, kasratun: de drie klinkers",
+    "wawun, ya'un, alifun, nunun: de vier letters",
+    "de drie weglatingen, alleen van het werkwoord"
+   ],
+   "tasks": [
+    {
+     "prompt": "Noem het kenteken van de i'rab in de termen van Birgivi: lam yadrib; al-muslimuna; lam yadribu [meervoud]; kitabun.",
+     "answer": "Lam yadrib: het weglaten van de klinker. Al-muslimuna: de letter waw. Lam yadribu [meervoud]: het weglaten van de nun. Kitabun: de klinker damma."
+    },
+    {
+     "prompt": "Waarom telt Birgivi de sukun niet onder de kentekens, en hoe noemt hij hem?",
+     "answer": "Voor hem is de sukun van de jazm geen toegevoegd kenteken, maar een weggenomen klinker: “het weglaten van de klinker”, een van de drie weglatingen, die alleen bij het werkwoord horen."
+    },
+    {
+     "prompt": "Welke groepen verbogen woorden horen bij het naamwoord, en welke bij het werkwoord?",
+     "answer": "Alleen door klinkers en alleen door letters: het naamwoord. Door klinkers met een weglating en door letters met een weglating: het werkwoord."
+    },
+    {
+     "prompt": "Heeft het gave mannelijk meervoud volledige of onvolledige i'rab? Leg uit.",
+     "answer": "Onvolledige: het heeft maar twee kentekens voor drie toestanden (waw in raf', ya' in zowel nasb als jarr)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel kentekens van de i'rab telt Birgivi?",
+     "options": [
+      "Veertien",
+      "Vier",
+      "Tien",
+      "Negen"
+     ],
+     "explanation": "Drie klinkers, vier letters, drie weglatingen."
+    },
+    {
+     "prompt": "Hoe noemt Birgivi de sukun van de jazm?",
+     "options": [
+      "Een vierde klinker",
+      "Een letter",
+      "Het weglaten van de nun",
+      "Het weglaten van de klinker"
+     ],
+     "explanation": "Lam yadrib: yadribu met zijn damma weggenomen."
+    },
+    {
+     "prompt": "Waarbij horen de drie weglatingen?",
+     "options": [
+      "Alleen bij het werkwoord",
+      "Alleen bij het naamwoord",
+      "Bij beide",
+      "Bij geen van beide"
+     ],
+     "explanation": "Klinker, laatste letter en nun worden weggelaten in werkwoorden."
+    },
+    {
+     "prompt": "Hoeveel soorten verbogen woorden zijn er?",
+     "options": [
+      "Tien",
+      "Negen",
+      "Vier",
+      "Twee"
+     ],
+     "explanation": "In vier groepen, naar de kentekens die ze aannemen."
+    },
+    {
+     "prompt": "Wat betekent “met volledige i'rab” (tamm)?",
+     "options": [
+      "Verbogen door klinkers",
+      "Alle vier toestanden hebben",
+      "Een ander kenteken voor elke toestand",
+      "Geen uitzonderingen hebben"
+     ],
+     "explanation": "Zaydun, Zaydan, Zaydin."
+    },
+    {
+     "prompt": "Welk van deze heeft onvolledige i'rab?",
+     "options": [
+      "Het enkelvoudige naamwoord",
+      "Het gebroken meervoud",
+      "De zes naamwoorden",
+      "Het tweevoud"
+     ],
+     "explanation": "Zijn ya' dient voor nasb en jarr."
+    },
+    {
+     "prompt": "Welke zijn de vier letters van de i'rab?",
+     "options": [
+      "Waw, ya', alif, nun",
+      "Hamza, nun, ya', ta'",
+      "Alif, lam, mim, ra'",
+      "Ba', ta', waw, kaf"
+     ],
+     "explanation": "Hamza, nun, ya', ta' zijn de voorvoegsels van anaytu, geen kentekens van de i'rab."
+    }
+   ],
+   "diagram": {
+    "labels": {
+     "The ten signs of iʿrāb": "De tien kentekens van de i'rab",
+     "Vowels": "Klinkers",
+     "ḍamma": "damma",
+     "fatḥa": "fatha",
+     "kasra": "kasra",
+     "Letters": "Letters",
+     "wāw": "waw",
+     "yāʾ": "ya'",
+     "alif": "alif",
+     "nūn": "nun",
+     "Droppings (verb only)": "Weglatingen (alleen werkwoord)",
+     "of the vowel": "van de klinker",
+     "of the last letter": "van de laatste letter",
+     "of the nūn": "van de nun"
+    }
+   }
+  },
+  "15": {
+   "title": "Naamwoorden die door klinkers verbogen worden",
+   "body": [
+    "De eerste groep, alleen door klinkers verbogen, heeft drie soorten. Eén heeft volledige i'rab: damma in raf', fatha in nasb, kasra in jarr. Dat is het verbuigbare enkelvoud (munsarif) en het verbuigbare gebroken meervoud: ja'ana al-rasulu, saddaqna al-rasula, amanna bi-l-rasuli, “de Gezant kwam tot ons, wij geloofden hem, wij geloven in hem”; nazala min al-sama'i kutubun, saddaqna al-kutuba, amanna bi-l-kutubi, “boeken kwamen neer uit de hemel, wij geloofden de boeken, wij geloven in de boeken”.",
+    "Twee hebben onvolledige i'rab. De diptoot (ghayr al-munsarif, het naamwoord zonder tanwin) heeft de damma in raf' en de fatha in zowel nasb als jarr: ja'ana Ahmadu, saddaqna Ahmada, amanna bi-Ahmada. Het gave vrouwelijk meervoud heeft de damma in raf' en de kasra in zowel nasb als jarr: ja'ana mu'jizatun, saddaqna mu'jizatin, amanna bi-mu'jizatin, “wonderen kwamen tot ons, wij geloofden in wonderen”.",
+    "De voorbeelden zijn als een reeks gebouwd: elke soort wordt getoond met dezelfde drie werkwoorden, ja'ana (raf': de fa'il), saddaqna (nasb: de maf'ul bihi) en amanna bi- (jarr: na het partikel). Het patroon laat de kentekens opvallen, en de geloofsleer zit in de woorden: de Gezant, de boeken, de Profeet Ahmad, de wonderen.",
+    "Dit is het hoofdstuk van de Ajurrumiyya over de woorden die door klinkers verbogen worden en de uitzonderingen daarop, in andere woorden gezegd. Wat de Ajurrumiyya de twee uitzonderingen noemde (de diptoot in khafd, het vrouwelijk meervoud in nasb), noemt Birgivi de twee onvolledige soorten, omdat bij elk twee toestanden één kenteken delen."
+   ],
+   "terms": [
+    "het verbuigbare enkelvoud: met volledige i'rab",
+    "het gebroken meervoud",
+    "de diptoot: fatha in nasb en jarr",
+    "het gave vrouwelijk meervoud: kasra in nasb en jarr"
+   ],
+   "examples": [
+    "het verbuigbare enkelvoud: damma, fatha, kasra",
+    "de diptoot: fatha in nasb en in jarr",
+    "het gave vrouwelijk meervoud: kasra in nasb en in jarr"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet kutubun door de drie werkwoorden van Birgivi (ja'ana, saddaqna, amanna bi-), zonder lidwoord, en noem de kentekens.",
+     "answer": "Ja'ana kutubun (damma), saddaqna kutuban (fatha), amanna bi-kutubin (kasra). Het gebroken meervoud heeft volledige i'rab."
+    },
+    {
+     "prompt": "Waarom heeft de diptoot onvolledige i'rab? Laat het zien aan Ahmad.",
+     "answer": "Twee van zijn toestanden delen één kenteken: Ahmadu in raf', maar Ahmada in zowel nasb als jarr (saddaqna Ahmada, amanna bi-Ahmada)."
+    },
+    {
+     "prompt": "Waarom staat mu'jizatin in saddaqna mu'jizatin in nasb, hoewel het op een kasra eindigt?",
+     "answer": "Het is de maf'ul bihi van saddaqna. Het gave vrouwelijk meervoud neemt de kasra in nasb zoals in jarr; daarom heeft het onvolledige i'rab."
+    },
+    {
+     "prompt": "Hoe noemt de Ajurrumiyya wat Birgivi de twee onvolledige soorten van deze groep noemt?",
+     "answer": "De uitzonderingen op de woorden die door klinkers verbogen worden: het gave vrouwelijk meervoud in nasb door de kasra, en het niet-verbuigbare naamwoord in khafd door de fatha."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Welke naamwoorden hebben volledige i'rab door klinkers?",
+     "options": [
+      "De diptoot en het vrouwelijk meervoud",
+      "Het tweevoud en het meervoud",
+      "De zes naamwoorden",
+      "Het verbuigbare enkelvoud en het verbuigbare gebroken meervoud"
+     ],
+     "explanation": "Damma, fatha, kasra: één kenteken voor elke toestand."
+    },
+    {
+     "prompt": "Amanna bi-Ahmada: wat is het kenteken van de jarr?",
+     "options": [
+      "De fatha",
+      "De kasra",
+      "De ya'",
+      "De damma"
+     ],
+     "explanation": "De diptoot neemt de fatha in jarr."
+    },
+    {
+     "prompt": "Saddaqna mu'jizatin: het kenteken van de nasb is…",
+     "options": [
+      "de fatha",
+      "de kasra",
+      "de ya'",
+      "de alif"
+     ],
+     "explanation": "Het gave vrouwelijk meervoud."
+    },
+    {
+     "prompt": "Waarom zijn de voorbeelden van Birgivi gebouwd op ja'ana, saddaqna en amanna bi-?",
+     "options": [
+      "Het zijn de enige werkwoorden die hij kent",
+      "Om het passief te tonen",
+      "Ze tonen elke soort in raf', nasb en jarr naast elkaar",
+      "Om de jazm te tonen"
+     ],
+     "explanation": "Fa'il, maf'ul bihi, en naamwoord na een partikel."
+    },
+    {
+     "prompt": "Hoeveel soorten zijn er in de groep die door klinkers verbogen wordt?",
+     "options": [
+      "Twee",
+      "Vier",
+      "Negen",
+      "Drie: één volledig, twee onvolledig"
+     ],
+     "explanation": "Enkelvoud en gebroken meervoud tellen als één volledige soort."
+    },
+    {
+     "prompt": "Al-kutuba in saddaqna al-kutuba staat…",
+     "options": [
+      "in nasb door de fatha",
+      "in jarr",
+      "in raf'",
+      "in nasb door de kasra"
+     ],
+     "explanation": "Het gebroken meervoud heeft volledige i'rab."
+    },
+    {
+     "prompt": "Hoe noemt de Ajurrumiyya de kasra van het vrouwelijk meervoud in nasb?",
+     "options": [
+      "Een kenteken van de jarr",
+      "Een uitzondering op de regel van de klinkers",
+      "Onvolledige i'rab",
+      "Een weglating"
+     ],
+     "explanation": "Birgivi noemt het onvolledige i'rab."
+    }
+   ],
+   "diagram": {
+    "caption": "De naamwoorden die door klinkers verbogen worden, in de voorbeelden van Birgivi",
+    "labels": {
+     "Kind": "Soort",
+     "Rafʿ": "Raf'",
+     "Naṣb": "Nasb",
+     "Jarr": "Jarr",
+     "Iʿrāb": "I'rab",
+     "declinable singular": "verbuigbaar enkelvoud",
+     "complete": "volledig",
+     "broken plural": "gebroken meervoud",
+     "diptote": "diptoot",
+     "incomplete": "onvolledig",
+     "sound feminine plural": "gaaf vrouwelijk meervoud"
+    }
+   }
+  },
+  "16": {
+   "title": "Naamwoorden die door letters verbogen worden",
+   "body": [
+    "De tweede groep, alleen door letters verbogen, heeft opnieuw één volledige soort en twee onvolledige. De volledige soort zijn de zes naamwoorden: waw in raf', alif in nasb, ya' in jarr. Het zijn abuhu (zijn vader), akhuhu (zijn broer), hamuha (haar schoonfamilielid), hanuhu (zijn ding), fuhu (zijn mond) en dhu malin (iemand met rijkdom): ja'ana Abu al-Qasimi, saddaqna Aba al-Qasimi, amanna bi-Abi al-Qasimi, “Abu al-Qasim kwam tot ons, wij geloofden hem, wij geloven in hem”; Abu al-Qasim is de kunya (de naam “vader van …”) van de Profeet.",
+    "Birgivi telt er zes waar de Ajurrumiyya er vijf telde: hij voegt han toe, “een ding” (gebruikt voor iets wat je niet bij naam noemt). En hij geeft de voorwaarden die de Ajurrumiyya alleen liet zien: het naamwoord moet verbonden zijn met een ander woord dan de ya' van de spreker (abi, “mijn vader”, telt niet), enkelvoud zijn (niet abawani) en geen verkleinwoord zijn (niet ubayy).",
+    "De eerste onvolledige soort heeft de waw in raf' en de ya' in nasb en jarr: het gave mannelijk meervoud, en daarbij ulu, “bezitters”, en 'ishruna en zijn zusters, de tientallen van twintig tot negentig: ja'ana al-mursaluna, saddaqna al-mursalina, amanna bi-l-mursalina, “de gezanten kwamen tot ons …”.",
+    "De tweede onvolledige soort heeft de alif in raf' en de ya' in nasb en jarr: het tweevoud, en daarbij ithnani, “twee”, en kila, “beide”, als het met een voornaamwoord verbonden is: ja'ana al-ithnani kilahuma, ay al-kitabu wa-l-sunnatu, “de twee kwamen tot ons, allebei, namelijk het Boek en de Sunna”; ittaba'na al-ithnayni kilayhima, 'amilna bi-l-ithnayni kilayhima. Kila verbonden met een zichtbaar naamwoord houdt zijn alif (kila al-rajulayni); alleen met een voornaamwoord verandert het.",
+    "Zo worden de woorden die op meervouden of tweevouden lijken maar het niet zijn (ulu, 'ishruna, ithnani, kilahuma), verbogen alsof ze het wel waren. De madrasa noemt ze “aangehecht” (mulhaq) aan het meervoud en het tweevoud."
+   ],
+   "terms": [
+    "de zes naamwoorden: waw, alif, ya'",
+    "geen verkleinwoord: een voorwaarde van de zes naamwoorden",
+    "bezitters: verbogen als het gave meervoud",
+    "de tientallen, verbogen als het gave meervoud",
+    "beide: als het tweevoud wanneer verbonden met een voornaamwoord"
+   ],
+   "examples": [
+    "een van de zes naamwoorden: waw, alif, ya'",
+    "het gave mannelijk meervoud: waw in raf', ya' in nasb en jarr",
+    "al-ithnani kilahuma, “de twee, allebei”: als het tweevoud",
+    "ittaba'na al-ithnayni kilayhima: de ya' in nasb"
+   ],
+   "tasks": [
+    {
+     "prompt": "Zet dhu malin door de drie toestanden met ja'ana, saddaqna en amanna bi-.",
+     "answer": "Ja'ana dhu malin; saddaqna dha malin; amanna bi-dhi malin: waw, alif, ya'."
+    },
+    {
+     "prompt": "Geef de drie voorwaarden waaronder de zes naamwoorden letters aannemen, en een voorbeeld dat aan elk niet voldoet.",
+     "answer": "Verbonden met een ander woord dan de ya' van de spreker (abi, “mijn vader”, voldoet niet); enkelvoud (abawani, “twee vaders”, voldoet niet); geen verkleinwoord (ubayy, “vadertje”, voldoet niet)."
+    },
+    {
+     "prompt": "Waarom wordt 'ishruna verbogen als al-muslimuna, en kilahuma als al-Zaydani?",
+     "answer": "Ze zijn aangehecht aan het meervoud en het tweevoud: 'ishruna en zijn zusters, en ulu, nemen waw en ya' zoals het gave mannelijk meervoud; ithnani, en kila verbonden met een voornaamwoord, nemen alif en ya' zoals het tweevoud."
+    },
+    {
+     "prompt": "Welk naamwoord voegt Birgivi toe aan de vijf van de Ajurrumiyya?",
+     "answer": "Han (hanuhu), “een ding”, gebruikt voor iets wat je niet bij naam noemt."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoeveel naamwoorden telt Birgivi waar de Ajurrumiyya er vijf telde?",
+     "options": [
+      "Zes",
+      "Vijf",
+      "Zeven",
+      "Vier"
+     ],
+     "explanation": "Hij voegt han toe."
+    },
+    {
+     "prompt": "Amanna bi-Abi al-Qasimi: het kenteken van de jarr is…",
+     "options": [
+      "de kasra",
+      "de ya'",
+      "de alif",
+      "de waw"
+     ],
+     "explanation": "De zes naamwoorden: waw, alif, ya'."
+    },
+    {
+     "prompt": "Welk van deze wordt verbogen als het gave mannelijk meervoud?",
+     "options": [
+      "Ithnani",
+      "Kilahuma",
+      "'Ishruna",
+      "Abuhu"
+     ],
+     "explanation": "'Ishruna en zijn zusters, en ulu."
+    },
+    {
+     "prompt": "Wanneer wordt kila verbogen als het tweevoud?",
+     "options": [
+      "Altijd",
+      "Nooit",
+      "Als het met een zichtbaar naamwoord verbonden is",
+      "Als het met een voornaamwoord verbonden is"
+     ],
+     "explanation": "Kilahuma, kilayhima."
+    },
+    {
+     "prompt": "Welk van deze voldoet niet aan de voorwaarden van de zes naamwoorden?",
+     "options": [
+      "Abi, “mijn vader”",
+      "Abuhu, “zijn vader”",
+      "Abu al-Qasimi",
+      "Abaka"
+     ],
+     "explanation": "Verbonden met de ya' van de spreker neemt het de letters niet aan."
+    },
+    {
+     "prompt": "Saddaqna al-mursalina: het kenteken van de nasb is…",
+     "options": [
+      "de fatha",
+      "de ya'",
+      "de alif",
+      "de waw"
+     ],
+     "explanation": "Het gave mannelijk meervoud deelt de ya' tussen nasb en jarr."
+    },
+    {
+     "prompt": "Welke soort van deze groep heeft volledige i'rab?",
+     "options": [
+      "Het tweevoud",
+      "Het gave mannelijk meervoud",
+      "De zes naamwoorden",
+      "Geen"
+     ],
+     "explanation": "Elk van hun toestanden heeft een eigen letter."
+    }
+   ],
+   "diagram": {
+    "caption": "De naamwoorden die door letters verbogen worden",
+    "labels": {
+     "Kind": "Soort",
+     "Rafʿ": "Raf'",
+     "Naṣb": "Nasb",
+     "Jarr": "Jarr",
+     "Iʿrāb": "I'rab",
+     "the six nouns": "de zes naamwoorden",
+     "complete": "volledig",
+     "sound masc. plural, ūlū, ʿishrūna": "gaaf mann. meervoud, ulu, 'ishruna",
+     "incomplete": "onvolledig",
+     "dual, ithnāni, kilā + pronoun": "tweevoud, ithnani, kila + voornaamwoord"
+    }
+   }
+  },
+  "17": {
+   "title": "De i'rab van het werkwoord",
+   "body": [
+    "De derde groep, verbogen door een klinker met een weglating, hoort bij het werkwoord en heeft altijd volledige i'rab, want het werkwoord heeft drie toestanden en in elk een ander kenteken. Ze heeft twee soorten. De mudari' zonder aangehecht voornaamwoord, waarvan de laatste letter gaaf is: damma in raf', fatha in nasb, en in jazm het weglaten van de klinker: nuhibbu an nashfa'a wa-lam nuhram, “wij houden ervan voorspraak te doen, en ons is het niet ontzegd”. Nuhibbu in raf', nashfa'a in nasb na an, nuhram in jazm na lam.",
+    "De mudari' zonder aangehecht voornaamwoord, waarvan de laatste letter zwak is: in jazm het weglaten van de laatste letter: nad'u llaha ta'ala an ya'fuwana wa-lam yarmina fi al-nari, “wij bidden God de Verhevene dat Hij ons vergeeft; en Hij heeft ons niet in het Vuur geworpen”. Nad'u in raf', zijn damma verondersteld op de waw; ya'fuwa in nasb na an, de fatha zichtbaar op de waw; yarmi in jazm na lam, zijn ya' weggelaten.",
+    "De vierde groep, verbogen door een letter met een weglating, heeft altijd onvolledige i'rab: de mudari' met een ander aangehecht voornaamwoord dan de nun, de vijf werkwoorden van de Ajurrumiyya. Raf' door de nun, nasb en jazm door het weglaten ervan: al-awliya'u wa-l-'ulama'u yashfa'ani yawma al-qiyamati, fa-narju an yashfa'a lana wa-lam yu'rida 'anna, “de vrienden van God en de geleerden doen voorspraak op de Dag der Opstanding; dus hopen wij dat zij voor ons voorspraak doen en zich niet van ons afkeren”.",
+    "“Anders dan de nun” sluit de nun van de vrouwen uit, yadribna, waarvan de uitgang vast is en die daarom helemaal niet verbogen wordt. En let op het tweevoud yashfa'ani na twee woorden in het meervoud: de twee soorten mensen, de vrienden van God en de geleerden, worden als twee behandeld.",
+    "Tel nu de soorten: drie door klinkers, drie door letters, twee door een klinker met een weglating, één door een letter met een weglating: negen, zoals het hoofdstuk beloofde."
+   ],
+   "terms": [
+    "het weglaten van de klinker: jazm van het gave werkwoord",
+    "het weglaten van de laatste letter: jazm van het zwakke werkwoord",
+    "een zwakke letter: waw, ya', alif",
+    "de mudari' met een ander voornaamwoord dan de nun"
+   ],
+   "examples": [
+    "nuhibbu an nashfa'a wa-lam nuhram: één werkwoord in raf', nasb en jazm",
+    "an ya'fuwana wa-lam yarmina: het zwakke werkwoord in nasb, en in jazm door het weglaten van zijn ya'",
+    "yashfa'ani, an yashfa'a [tweevoud], lam yu'rida [tweevoud]: de nun behouden, daarna weggelaten"
+   ],
+   "tasks": [
+    {
+     "prompt": "Geef de toestand en het kenteken van elk werkwoord in nuhibbu an nashfa'a wa-lam nuhram.",
+     "answer": "Nuhibbu: raf' door de damma (geen regeerder van de nasb of de jazm). Nashfa'a: nasb door de fatha, na an. Nuhram: jazm door het weglaten van de klinker, na lam (een passief werkwoord)."
+    },
+    {
+     "prompt": "Waarom hoor je in nad'u llaha … an ya'fuwana wa-lam yarmina de damma van nad'u niet, maar de fatha van ya'fuwa wel?",
+     "answer": "Een damma op een laatste waw is zwaar, dus in raf' wordt hij verondersteld, niet uitgesproken (nad'u). De fatha is licht en wordt op de waw uitgesproken (ya'fuwa). In jazm wordt de zwakke letter zelf weggelaten (yarmi)."
+    },
+    {
+     "prompt": "Zet yashfa'ani na lan en na lam, en noem de kentekens.",
+     "answer": "Lan yashfa'a [tweevoud]; lam yashfa'a [tweevoud]. In beide is de nun weggelaten: nasb en jazm delen één kenteken, dus de vijf werkwoorden hebben onvolledige i'rab."
+    },
+    {
+     "prompt": "Tel de negen soorten verbogen woorden per groep.",
+     "answer": "Door klinkers: verbuigbaar enkelvoud en gebroken meervoud (volledig), diptoot, gaaf vrouwelijk meervoud (3). Door letters: de zes naamwoorden (volledig), gaaf mannelijk meervoud met wat eraan aangehecht is, tweevoud met wat eraan aangehecht is (3). Door een klinker met een weglating: mudari' met gave laatste letter, mudari' met zwakke laatste letter (2). Door een letter met een weglating: de vijf werkwoorden (1)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Hoe staat de mudari' met gave laatste letter in jazm, in de termen van Birgivi?",
+     "options": [
+      "Door de sukun als vierde klinker",
+      "Door het weglaten van de klinker",
+      "Door het weglaten van de nun",
+      "Door de fatha"
+     ],
+     "explanation": "Lam nuhram."
+    },
+    {
+     "prompt": "Hoe staat de mudari' met zwakke laatste letter in jazm?",
+     "options": [
+      "Door de sukun",
+      "Door de fatha",
+      "Door het weglaten van zijn laatste letter",
+      "Door de nun"
+     ],
+     "explanation": "Lam yarmina: de ya' van yarmi [met lange i] is weggelaten."
+    },
+    {
+     "prompt": "In nad'u, “wij bidden”, is de damma van de raf'…",
+     "options": [
+      "uitgesproken op de waw",
+      "weggelaten met de waw",
+      "op de dal",
+      "verondersteld op de waw"
+     ],
+     "explanation": "Een damma op een laatste waw is te zwaar om uit te spreken."
+    },
+    {
+     "prompt": "Heeft de groep “door een klinker met een weglating” volledige of onvolledige i'rab?",
+     "options": [
+      "Altijd volledige",
+      "Altijd onvolledige",
+      "Soms het een, soms het ander",
+      "Ze heeft geen i'rab"
+     ],
+     "explanation": "Drie toestanden, drie verschillende kentekens."
+    },
+    {
+     "prompt": "Welk werkwoord hoort in de vierde groep?",
+     "options": [
+      "Nuhibbu",
+      "Yashfa'ani",
+      "Nad'u",
+      "Yadribna"
+     ],
+     "explanation": "De mudari' met een ander voornaamwoord dan de nun; yadribna heeft een vaste uitgang."
+    },
+    {
+     "prompt": "Waarom staat yashfa'ani in het tweevoud na al-awliya'u wa-l-'ulama'u?",
+     "options": [
+      "Het is een vergissing",
+      "Vanwege de waw",
+      "De twee soorten mensen worden als twee behandeld",
+      "Omdat beide meervoud zijn"
+     ],
+     "explanation": "De vrienden van God en de geleerden: twee groepen."
+    },
+    {
+     "prompt": "In an yashfa'a [tweevoud] lana is het kenteken van de nasb…",
+     "options": [
+      "de fatha",
+      "de alif",
+      "de sukun",
+      "het weglaten van de nun"
+     ],
+     "explanation": "De vijf werkwoorden delen één kenteken tussen nasb en jazm."
+    }
+   ],
+   "diagram": {
+    "caption": "De i'rab van de mudari', in de voorbeelden van Birgivi",
+    "labels": {
+     "Kind": "Soort",
+     "Rafʿ": "Raf'",
+     "Naṣb": "Nasb",
+     "Jazm": "Jazm",
+     "sound last letter": "gave laatste letter",
+     "weak last letter": "zwakke laatste letter",
+     "with a pronoun (five verbs)": "met een voornaamwoord (vijf werkwoorden)"
+    }
+   }
+  },
+  "18": {
+   "title": "Hoorbaar, verondersteld en plaatselijk",
+   "body": [
+    "Het boek eindigt met één passage die elke i'rab in drieën verdeelt. Als het kenteken in de uitspraak verschijnt, is de i'rab hoorbaar (lafzi), zoals in alle voorbeelden tot nu toe: al-rasulu, al-rasula, al-rasuli. Als het niet verschijnt maar op het eind van het woord verondersteld wordt, is de i'rab verondersteld (taqdiri): ana al-'asi, “ik ben de ongehoorzame”, waar al-'asi de khabar in raf' is, maar zijn damma op de ya' verondersteld wordt en niet uitgesproken.",
+    "Als het kenteken noch verschijnt, noch op het eind verondersteld wordt, is de i'rab plaatselijk (mahalli), naar de plaats van het woord: tawakkalna 'ala man la ya'ti al-khayru illa min jihatihi, “wij hebben ons vertrouwen gesteld op Hem van wie alleen het goede komt”. Man, “degene die”, heeft een vaste uitgang; er verandert niets aan en er kan niets aan veranderen. Toch staat het waar een naamwoord in jarr staat, na 'ala, en daarom zegt men dat het “op de plaats van de jarr” staat (fi mahall jarr).",
+    "De commentaren geven de reden voor de veronderstelde i'rab. Op een laatste alif kan helemaal geen klinker uitgesproken worden (al-fata, zoals de Ajurrumiyya liet zien), dus daar worden alle drie verondersteld. Op een laatste ya' of waw zijn de damma en de kasra zwaar en worden ze verondersteld (al-'asi, nad'u), maar de fatha is licht en wordt uitgesproken: ra'aytu al-'asiya, an ya'fuwa.",
+    "En de plaatselijke i'rab is wat de madrasa zegt van elk woord met een vaste uitgang op een geregeerde plaats: de voornaamwoorden (ana, “op de plaats van de raf'”), de aanwijzende voornaamwoorden, de betrekkelijke voornaamwoorden zoals man en alladhi, en hele zinnen die staan waar een enkel woord zou staan. De student die de 'Awamil gelezen heeft, kan nu van elk woord van een zin de regeerder geven, de toestand, het kenteken, en of dat kenteken hoorbaar, verondersteld of plaatselijk is.",
+    "Op het Osmaanse pad volgt op de 'Awamil Birgivi's eigen Izhar al-asrar, dat dezelfde drie hoofdstukken uitvoeriger behandelt, en daarna de Kafiya van Ibn al-Hajib met het commentaar van Jami."
+   ],
+   "terms": [
+    "hoorbare i'rab: het kenteken wordt uitgesproken",
+    "veronderstelde i'rab: het kenteken wordt op het eind verondersteld",
+    "plaatselijke i'rab: een woord met vaste uitgang op een geregeerde plaats",
+    "op de plaats van de jarr"
+   ],
+   "examples": [
+    "ana al-'asi, “ik ben de ongehoorzame”: de damma van al-'asi is verondersteld",
+    "“wij hebben ons vertrouwen gesteld op Hem van wie alleen het goede komt”: man staat op de plaats van de jarr",
+    "ra'aytu al-'asiya, “ik zag de ongehoorzame”: de fatha wordt op de ya' uitgesproken"
+   ],
+   "tasks": [
+    {
+     "prompt": "Hoorbaar, verondersteld of plaatselijk? (a) al-rasuli in amanna bi-l-rasuli; (b) al-'asi in ana al-'asi; (c) ana in ana al-'asi; (d) man in 'ala man la ya'ti al-khayru.",
+     "answer": "(a) Hoorbaar: de kasra wordt uitgesproken. (b) Verondersteld: de damma wordt op de ya' verondersteld. (c) Plaatselijk: ana is een voornaamwoord met een vaste uitgang, op de plaats van de raf' als mubtada'. (d) Plaatselijk: man heeft een vaste uitgang, op de plaats van de jarr na 'ala."
+    },
+    {
+     "prompt": "Waarom is de i'rab van al-'asi verondersteld in raf', maar hoorbaar in nasb?",
+     "answer": "Een damma op een laatste ya' is zwaar en wordt niet uitgesproken, dus wordt hij verondersteld (ana al-'asi). Een fatha is licht en wordt op de ya' uitgesproken (ra'aytu al-'asiya)."
+    },
+    {
+     "prompt": "Wat is het verschil tussen veronderstelde i'rab en plaatselijke i'rab?",
+     "answer": "Veronderstelde i'rab wordt verondersteld op het eind van een woord dat verbogen wordt maar zijn kenteken niet kan tonen (al-'asi, al-fata). Plaatselijke i'rab hoort bij een woord met een vaste uitgang, dat nooit verandert; alleen zijn plaats staat in een toestand (man, ana)."
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Wat is hoorbare (lafzi) i'rab?",
+     "options": [
+      "Een kenteken dat op het eind verondersteld wordt",
+      "Een vast woord op een geregeerde plaats",
+      "Een kenteken dat uitgesproken wordt",
+      "Helemaal geen kenteken"
+     ],
+     "explanation": "Al-rasulu, al-rasula, al-rasuli."
+    },
+    {
+     "prompt": "In ana al-'asi is de i'rab van al-'asi…",
+     "options": [
+      "hoorbaar",
+      "plaatselijk",
+      "afwezig",
+      "verondersteld (taqdiri)"
+     ],
+     "explanation": "Zijn damma wordt op de ya' verondersteld."
+    },
+    {
+     "prompt": "In tawakkalna 'ala man … staat man…",
+     "options": [
+      "op de plaats van de jarr",
+      "in jarr door de kasra",
+      "in raf'",
+      "in nasb"
+     ],
+     "explanation": "Een woord met een vaste uitgang: plaatselijke i'rab."
+    },
+    {
+     "prompt": "Welke klinker wordt op een laatste ya' uitgesproken?",
+     "options": [
+      "De damma",
+      "De fatha",
+      "De kasra",
+      "Geen"
+     ],
+     "explanation": "Ra'aytu al-'asiya; de damma en de kasra zijn zwaar en worden verondersteld."
+    },
+    {
+     "prompt": "Welke kentekens worden op een laatste alif verondersteld, zoals in al-fata?",
+     "options": [
+      "Alleen de damma",
+      "Alleen de kasra",
+      "Alle drie",
+      "Geen"
+     ],
+     "explanation": "Een alif kan geen klinker dragen."
+    },
+    {
+     "prompt": "De i'rab van ana in ana al-'asi is…",
+     "options": [
+      "verondersteld",
+      "hoorbaar",
+      "helemaal afwezig",
+      "plaatselijk: op de plaats van de raf'"
+     ],
+     "explanation": "Een voornaamwoord met een vaste uitgang dat als mubtada' staat."
+    },
+    {
+     "prompt": "Welk boek volgt op het Osmaanse pad op de 'Awamil?",
+     "options": [
+      "De Izhar al-asrar van Birgivi",
+      "De Ajurrumiyya",
+      "De Amthila",
+      "De Alfiyya"
+     ],
+     "explanation": "Het behandelt dezelfde drie hoofdstukken uitvoeriger."
+    }
+   ],
+   "diagram": {
+    "caption": "De drie manieren waarop een kenteken van de i'rab aanwezig is",
+    "labels": {
+     "Kind": "Soort",
+     "The sign": "Het kenteken",
+     "Birgivī's example": "Voorbeeld van Birgivi",
+     "heard (lafẓī)": "hoorbaar (lafzi)",
+     "said on the last letter": "uitgesproken op de laatste letter",
+     "implied (taqdīrī)": "verondersteld (taqdiri)",
+     "supposed on the last letter": "verondersteld op de laatste letter",
+     "by place (maḥallī)": "plaatselijk (mahalli)",
+     "neither said nor supposed": "noch uitgesproken, noch verondersteld"
+    }
+   }
   }
  },
  "title": "al-'Awamil al-jadida",

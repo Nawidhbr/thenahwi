@@ -1,0 +1,2619 @@
+{
+  "title": "al-Amthila al-mukhtalifa",
+  "summary": "Al-Amthila (en turc Emsile), un court livre anonyme de tableaux qui expose tout le sarf sur un seul verbe, nasara, « aider ». C'est le premier livre de la madrasa ottomane, appris par cœur avant tout autre et suivi du Binâ', du Maqsûd, d'al-'Izzî et de Marâh al-arwâh, avec lesquels il est imprimé dans le Majmû'at al-sarf. Il s'ouvre sur les « formes variées », une forme de chaque sorte récitée d'un seul souffle, puis donne en entier les « formes régulières » de chaque sorte : les quatorze personnes du passé et du présent-futur, à l'actif et au passif, le masdar et les participes, les cinq négations, l'ordre et l'interdiction, et les noms dérivés du verbe. Les leçons expliquent chaque tableau, la manière dont la madrasa le récite et comment il se reporte sur d'autres verbes sains, avec les formes de l'impression et de l'outil de conjugaison de The Nahwi.",
+  "parts": {
+    "varied-forms": "Les formes variées",
+    "past-present": "Le passé et le présent-futur",
+    "masdar-participles": "Le masdar et les participes",
+    "negations": "Les négations",
+    "command-prohibition": "L'ordre et l'interdiction",
+    "derived-nouns": "Les noms dérivés du verbe"
+  },
+  "lessons": {
+    "1": {
+      "title": "Les formes variées : le verbe et sa famille",
+      "body": [
+        "Après la basmala, al-Amthila donne d'un seul souffle quatorze formes du verbe nasara, « aider » : nasara, yansuru, nasran, fa-huwa nâsirun, wa-dhâka mansûrun, lam yansur, lammâ yansur, mâ yansuru, lâ yansuru, lan yansura, li-yansur, lâ yansur, unsur, lâ tansur. Ce sont « les formes variées » (al-amthila al-mukhtalifa) : chacune est d'une sorte différente. Chaque sorte revient plus loin dans le livre en un tableau complet, à toutes ses personnes : « les formes régulières » (al-amthila al-muttarida). Dans la madrasa ottomane, l'enfant récite cette ligne jusqu'à ce qu'elle coule comme un chant, et chaque verbe qu'il rencontre ensuite est récité dans le même ordre.",
+        "Les cinq premières donnent le verbe et ses premiers noms, réunis en une petite phrase : « il a aidé, il aide, le fait d'aider ; il est donc celui qui aide, et celui-là est aidé ». Fa-huwa (« il est donc ») et wa-dhâka (« et celui-là ») ne font pas partie des formes. Ils font de la récitation une phrase et montrent tout de suite que nâsir décrit celui qui fait l'acte, et mansûr celui qui le subit.",
+        "Viennent ensuite cinq négations : lam yansur, « il n'a pas aidé » ; lammâ yansur, « il n'a pas encore aidé » ; mâ yansuru, « il n'aide pas » ; lâ yansuru, « il n'aidera pas » ; lan yansura, « il n'aidera jamais ». Écoutez les finales. Après lam et lammâ, le verbe finit par un sukûn ; après mâ et lâ, il garde sa damma ; après lan, il prend une fatha. Le sarf relève ces formes ; le nahw les explique, comme le jazm et le nasb après leurs régissants.",
+        "Viennent en dernier quatre formes de l'ordre et de l'interdiction : li-yansur, « qu'il aide », et lâ yansur, « qu'il n'aide pas », dites de quelqu'un d'absent (ghâ'ib) ; unsur, « aide ! », et lâ tansur, « n'aide pas ! », dites à celui qui est présent (hâdir), la personne à qui l'on parle.",
+        "Pourquoi nasara ? C'est la première des six classes, les schèmes du verbe trilitère nu, dans l'ordre des livres de sarf : fa'ala, yaf'ulu. On apprend parfaitement un verbe, et les autres le suivent par analogie (qiyâs). La même ligne peut se faire pour tout verbe sain : kataba, yaktubu, fa-huwa kâtibun wa-dhâka maktûbun, lam yaktub, lan yaktuba, uktub."
+      ],
+      "terms": [
+        "les formes variées : une forme de chaque sorte",
+        "les formes régulières : une sorte à toutes ses personnes",
+        "une des six classes du verbe trilitère nu",
+        "l'absent : la troisième personne",
+        "celui qui est présent : la deuxième personne",
+        "l'analogie : former d'autres verbes sur le modèle"
+      ],
+      "examples": [
+        "nasara, yansuru, nasran, fa-huwa nâsirun, wa-dhâka mansûrun : le verbe et ses premiers noms, comme la madrasa les récite",
+        "lam yansur, « il n'a pas aidé », avec sukûn ; lan yansura, « il n'aidera jamais », avec fatha",
+        "kataba, yaktubu, fa-huwa kâtibun, wa-dhâka maktûbun : la même récitation sur un autre verbe"
+      ],
+      "tasks": [
+        {
+          "prompt": "Récitez les quatorze formes variées de nasara dans l'ordre du livre et donnez le sens de chacune.",
+          "answer": "Nasara (il a aidé), yansuru (il aide), nasran (le fait d'aider), fa-huwa nâsirun (il est donc celui qui aide), wa-dhâka mansûrun (et celui-là est aidé), lam yansur (il n'a pas aidé), lammâ yansur (il n'a pas encore aidé), mâ yansuru (il n'aide pas), lâ yansuru (il n'aidera pas), lan yansura (il n'aidera jamais), li-yansur (qu'il aide), lâ yansur (qu'il n'aide pas), unsur (aide !), lâ tansur (n'aide pas !)."
+        },
+        {
+          "prompt": "Faites la première ligne de la récitation pour daraba, « frapper » (son masdar est darb).",
+          "answer": "Daraba, yadribu, darban, fa-huwa dâribun, wa-dhâka madrûbun."
+        },
+        {
+          "prompt": "Donnez les négations avec lam, lan et mâ pour kataba, « écrire », et dites lesquelles changent la finale de yaktubu.",
+          "answer": "Lam yaktub (la finale devient un sukûn), lan yaktuba (elle devient une fatha), mâ yaktubu (aucun changement)."
+        },
+        {
+          "prompt": "Lesquelles des quatorze se disent de quelqu'un d'absent, et lesquelles à la personne à qui l'on parle ?",
+          "answer": "Li-yansur et lâ yansur sont de l'absent (ghâ'ib). Unsur et lâ tansur s'adressent à celui qui est présent (hâdir). Les autres de la ligne sont toutes de l'homme absent, la première personne de chaque tableau."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que sont « les formes variées » (al-amthila al-mukhtalifa) ?",
+          "options": [
+            "Les quatorze personnes du passé",
+            "Une forme de chaque sorte, récitée d'un seul souffle",
+            "Les verbes faibles",
+            "Les formes du passif seulement"
+          ],
+          "explanation": "Chaque sorte paraît ici une fois ; les formes régulières donnent ensuite chaque sorte à toutes ses personnes."
+        },
+        {
+          "prompt": "Que signifie nasara ?",
+          "options": [
+            "Il a écrit",
+            "Il a frappé",
+            "Il a aidé",
+            "Il a ouvert"
+          ],
+          "explanation": "Tout le livre est bâti sur ce seul verbe, « aider »."
+        },
+        {
+          "prompt": "Dans fa-huwa nâsirun wa-dhâka mansûrun, que sont fa-huwa et wa-dhâka ?",
+          "options": [
+            "Deux autres formes du verbe",
+            "Des particules du jazm",
+            "Le masdar",
+            "Des mots qui font de la récitation une phrase, non des formes"
+          ],
+          "explanation": "Ils montrent que nâsir est celui qui fait, mansûr celui qui subit l'action."
+        },
+        {
+          "prompt": "Quelle négation signifie « il n'a pas encore aidé » ?",
+          "options": [
+            "Lammâ yansur",
+            "Lam yansur",
+            "Lâ yansuru",
+            "Mâ yansuru"
+          ],
+          "explanation": "Lammâ nie jusqu'à maintenant, l'acte étant encore attendu."
+        },
+        {
+          "prompt": "Après quelle particule yansuru prend-il une fatha ?",
+          "options": [
+            "Lam",
+            "Lan",
+            "Mâ",
+            "Lâ (négation du futur)"
+          ],
+          "explanation": "Lan yansura : le verbe est au nasb."
+        },
+        {
+          "prompt": "Unsur, « aide ! », se dit à…",
+          "options": [
+            "quelqu'un d'absent",
+            "soi-même",
+            "celui qui est présent (hâdir)",
+            "Dieu seulement"
+          ],
+          "explanation": "L'ordre à celui qui est présent ; li-yansur est l'ordre à l'absent."
+        },
+        {
+          "prompt": "Pourquoi nasara est-il le verbe modèle ?",
+          "options": [
+            "C'est le plus ancien verbe de l'arabe",
+            "Il n'a pas de masdar",
+            "C'est un verbe faible",
+            "C'est la première des six classes du verbe nu"
+          ],
+          "explanation": "Fa'ala, yaf'ulu vient en tête des classes dans les livres de sarf ; les autres suivent par analogie."
+        }
+      ],
+      "diagram": {
+        "caption": "Les quatorze formes variées du verbe, avec leurs noms",
+        "labels": {
+          "The fourteen varied forms of the verb, with their names": "Les quatorze formes variées du verbe, avec leurs noms",
+          "Form": "Forme",
+          "Name": "Nom",
+          "Meaning": "Sens",
+          "the past": "le passé",
+          "he helped": "il a aidé",
+          "the present (muḍāriʿ)": "le présent-futur (mudâri')",
+          "he helps": "il aide",
+          "the maṣdar": "le masdar",
+          "a helping": "le fait d'aider",
+          "the active participle": "le participe actif",
+          "a helper": "celui qui aide",
+          "the passive participle": "le participe passif",
+          "helped": "aidé",
+          "the absolute denial (jaḥd muṭlaq)": "la négation absolue du passé (jahd mutlaq)",
+          "he did not help": "il n'a pas aidé",
+          "the comprehensive denial (jaḥd mustaghriq)": "la négation englobante (jahd mustaghriq)",
+          "he has not yet helped": "il n'a pas encore aidé",
+          "the negation of the present": "la négation du présent",
+          "he is not helping": "il n'aide pas",
+          "the negation of the future": "la négation du futur",
+          "he will not help": "il n'aidera pas",
+          "the emphatic negation of the future": "la négation renforcée du futur",
+          "he will never help": "il n'aidera jamais",
+          "the command to the absent": "l'ordre à l'absent",
+          "let him help": "qu'il aide",
+          "the prohibition to the absent": "l'interdiction à l'absent",
+          "let him not help": "qu'il n'aide pas",
+          "the command to the one present": "l'ordre à celui qui est présent",
+          "help!": "aide !",
+          "the prohibition to the one present": "l'interdiction à celui qui est présent",
+          "do not help!": "n'aide pas !"
+        }
+      },
+      "text": [
+        "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux.\nnasara « il a aidé », yansuru « il aide », nasran « le fait d'aider », fa-huwa nâsirun « il est donc celui qui aide »\nwa-dhâka mansûrun « et celui-là est aidé », lam yansur « il n'a pas aidé », lammâ yansur « il n'a pas encore aidé », mâ yansuru « il n'aide pas »\nlâ yansuru « il n'aidera pas », lan yansura « il n'aidera jamais », li-yansur « qu'il aide », lâ yansur « qu'il n'aide pas »\nunsur « aide ! (à un homme) », lâ tansur « n'aide pas ! (à un homme) »"
+      ]
+    },
+    "2": {
+      "title": "Les formes variées : les noms et l'étonnement",
+      "body": [
+        "La seconde moitié des formes variées donne dix mots faits de la même racine, tous des noms sauf les deux derniers : mansar, minsar, nasra, nisra, nusayr, nasrî, nassâr, ansar, mâ ansarahu et ansir bihi. Chacun est un schème (wazn) que le sarf peut poser sur une racine, et la madrasa l'apprend une fois, sur nasara, par sa pesée sur fa'ala : maf'al, mif'al, fa'la, fi'la, fu'ayl, fa'lî, fa''âl, af'al, mâ af'alahu, af'il bihi.",
+        "Les quatre premiers nomment l'acte d'une certaine façon. Mansar (maf'al) est le temps ou le lieu de l'aide, et aussi un masdar avec un mîm, « le fait d'aider ». Minsar (mif'al) est l'instrument, « une chose pour aider ». Nasra (fa'la) est un seul acte, « une aide » ; nisra (fi'la) la manière, « une façon d'aider ». Remarquez les paires : mansar et minsar, nasra et nisra, ne diffèrent que d'une voyelle, et cette voyelle fait toute la différence.",
+        "Les quatre suivants décrivent. Nusayr (fu'ayl) est le diminutif, « une petite aide ». Nasrî, avec la finale -iyy, est « qui se rapporte à l'aide », l'adjectif de relation (nisba), comme Makkî est « de La Mecque ». Nassâr (fa''âl) est la forme intensive, « un grand aidant », celui qui aide beaucoup. Ansar (af'al) est l'élatif, « plus secourable », « le plus secourable ».",
+        "Les deux derniers sont les deux verbes d'étonnement (ta'ajjub) : mâ ansarahu, « comme il est secourable ! », et ansir bihi, qui signifie la même chose. Le second ressemble à un ordre, mais n'en est pas un ; il exprime l'étonnement. Dans l'impression, il est rattaché à la ligne par wa-, sous la forme wa-ansir bihi.",
+        "Ces schèmes sont donnés en entier pour nasara parce que le livre enseigne des schèmes. Savoir si les Arabes ont réellement employé un diminutif ou un instrument d'un verbe donné est une question pour le dictionnaire, non pour al-Amthila. La quatrième partie du livre, les noms dérivés, donne à chacun de ces mots son propre tableau."
+      ],
+      "terms": [
+        "le schème, pesé sur fa'ala",
+        "le nom d'instrument : mif'al",
+        "le diminutif : fu'ayl",
+        "l'adjectif de relation en -iyy",
+        "l'élatif : af'al, plus, le plus",
+        "le verbe d'étonnement : mâ af'alahu, af'il bihi"
+      ],
+      "examples": [
+        "mansarun, le temps ou le lieu de l'aide ; minsarun, l'instrument : une voyelle d'écart",
+        "nasratun, un seul acte d'aide ; nisratun, une manière d'aider",
+        "mâ ansarahu et wa-ansir bihi : « comme il est secourable ! »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le schème sur fa'ala et le nom de chacun : nusayr, nassâr, minsar, nasrî, ansar.",
+          "answer": "Nusayr : fu'ayl, le diminutif. Nassâr : fa''âl, la forme intensive. Minsar : mif'al, l'instrument. Nasrî : fa'lî, l'adjectif de relation (nisba). Ansar : af'al, l'élatif."
+        },
+        {
+          "prompt": "Mansar et minsar, nasra et nisra : que signifie chacun, et qu'est-ce qui seul les distingue ?",
+          "answer": "Mansar : le temps ou le lieu de l'aide (ou le masdar mîmî) ; minsar : l'instrument. Nasra : un seul acte d'aide ; nisra : une manière d'aider. Seule la première voyelle les distingue : fatha ou kasra."
+        },
+        {
+          "prompt": "Classez les dix en : mots qui nomment l'acte, mots qui décrivent, et verbes d'étonnement.",
+          "answer": "Nomment l'acte : mansar, minsar, nasra, nisra. Décrivent : nusayr, nasrî, nassâr, ansar. Verbes d'étonnement : mâ ansarahu, ansir bihi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que minsar ?",
+          "options": [
+            "Le nom de lieu",
+            "Le diminutif",
+            "Le nom d'instrument",
+            "L'élatif"
+          ],
+          "explanation": "Mif'al : une chose pour aider. Mansar, avec fatha, est le temps ou le lieu."
+        },
+        {
+          "prompt": "Nasra et nisra diffèrent par…",
+          "options": [
+            "leur racine",
+            "leur nombre de lettres",
+            "rien",
+            "leur première voyelle seulement : un seul acte contre une manière"
+          ],
+          "explanation": "Fa'la est un seul acte (marra) ; fi'la la manière (naw')."
+        },
+        {
+          "prompt": "Quelle forme signifie « un grand aidant », celui qui aide beaucoup ?",
+          "options": [
+            "Nassâr",
+            "Nusayr",
+            "Nasrî",
+            "Ansar"
+          ],
+          "explanation": "Fa''âl est la forme intensive (mubâlagha)."
+        },
+        {
+          "prompt": "Qu'exprime mâ ansarahu ?",
+          "options": [
+            "La négation : « il n'a pas aidé »",
+            "L'étonnement : « comme il est secourable ! »",
+            "Une question : « qu'est-ce qui l'a aidé ? »",
+            "Un ordre"
+          ],
+          "explanation": "C'est le premier verbe d'étonnement (ta'ajjub)."
+        },
+        {
+          "prompt": "Ansir bihi ressemble à un ordre. Qu'est-ce que c'est ?",
+          "options": [
+            "Un ordre de l'aider",
+            "Une interdiction",
+            "Le second verbe d'étonnement",
+            "Un masdar"
+          ],
+          "explanation": "Sa forme est celle d'un ordre ; son sens est l'étonnement."
+        },
+        {
+          "prompt": "Quel est le schème de nusayr ?",
+          "options": [
+            "Fa'îl",
+            "Fâ'il",
+            "Maf'ûl",
+            "Fu'ayl"
+          ],
+          "explanation": "Fu'ayl est le schème du diminutif d'un nom trilitère."
+        },
+        {
+          "prompt": "Nasrî, « qui se rapporte à l'aide », se forme avec…",
+          "options": [
+            "la finale -iyy (la nisba)",
+            "un mîm avant la racine",
+            "un 'ayn redoublé",
+            "un alif après la première lettre"
+          ],
+          "explanation": "Comme Makkî est « de La Mecque »."
+        }
+      ],
+      "diagram": {
+        "caption": "Les dix noms et verbes de la deuxième ligne",
+        "labels": {
+          "The ten nouns and verbs of the second line": "Les dix noms et verbes de la deuxième ligne",
+          "Form": "Forme",
+          "Pattern": "Schème",
+          "Name": "Nom",
+          "Meaning": "Sens",
+          "time, place; maṣdar mīmī": "temps, lieu ; masdar mîmî",
+          "a time or place of helping": "un temps ou un lieu de l'aide",
+          "instrument": "instrument",
+          "a thing to help with": "une chose pour aider",
+          "one act (marra)": "un seul acte (marra)",
+          "one help": "une aide",
+          "manner (nawʿ)": "manière (naw')",
+          "a way of helping": "une façon d'aider",
+          "diminutive": "diminutif",
+          "a little help": "une petite aide",
+          "relative adjective": "adjectif de relation",
+          "related to help": "qui se rapporte à l'aide",
+          "intensive": "forme intensive",
+          "a great helper": "un grand aidant",
+          "elative": "élatif",
+          "more helpful": "plus secourable",
+          "first verb of wonder": "premier verbe d'étonnement",
+          "how helpful he is!": "comme il est secourable !",
+          "second verb of wonder": "second verbe d'étonnement"
+        }
+      },
+      "text": [
+        "mansarun « un temps ou un lieu de l'aide ; le fait d'aider », minsarun « un instrument pour aider », nasratun « un seul acte d'aide », nisratun « une manière d'aider »\nnusayrun « une petite aide », nasriyyun « qui se rapporte à l'aide (m.) », nassârun « un grand aidant (m.) », ansaru « plus secourable (m.) »\nmâ ansarahu « comme il est secourable ! », wa-ansir bihi « comme il est secourable ! »"
+      ]
+    },
+    "3": {
+      "title": "Le passé actif à ses quatorze personnes",
+      "body": [
+        "Les formes régulières commencent maintenant, et la première est le passé actif (al-mâdî al-ma'lûm) à ses quatorze personnes (siyagh). Chaque tableau du livre garde le même ordre : trois formes de l'homme absent (un, deux, plusieurs), trois de la femme absente, trois de l'interlocuteur, trois de l'interlocutrice, et deux de celui qui parle, seul et avec d'autres : 3 + 3 + 3 + 3 + 2 = 14.",
+        "La madrasa récite chaque forme avec son nom : nasara, un homme absent (mufrad mudhakkar ghâ'ib) ; nasarâ, deux hommes absents ; nasarû, plusieurs hommes absents ; nasarat, une femme absente ; nasaratâ, deux femmes ; nasarna, plusieurs femmes ; nasarta, un interlocuteur ; nasartumâ, deux interlocuteurs ; nasartum, plusieurs ; nasarti, une interlocutrice ; nasartumâ, deux interlocutrices ; nasartunna, plusieurs interlocutrices ; nasartu, celui qui parle seul (al-mutakallim wahdahu) ; nasarnâ, celui qui parle avec d'autres (al-mutakallim ma'a al-ghayr). Dans l'impression, le turc sous chaque forme ne donne que ce nom et son sens.",
+        "Deux des quatorze sont le même mot : nasartumâ sert pour deux interlocuteurs et pour deux interlocutrices. Et nasarnâ est « nous » pour deux ou pour plusieurs, hommes ou femmes. Le tableau a donc quatorze places mais treize mots différents, et l'élève apprend à dire à quelle place se tient une forme.",
+        "Seule la fin change. Le radical nasar- reste, et les finales sont les pronoms agents que vous rencontrez en nahw : -â, -û, -na, -ta, -tumâ, -tum, -ti, -tunna, -tu, -nâ (le -at de nasarat est le signe du féminin, non un pronom). Devant une finale qui commence par une consonne, la dernière lettre du radical prend un sukûn : nasar-ta, nasar-tu, nasar-nâ.",
+        "Les mêmes finales servent pour tout verbe sain. Seule la voyelle du radical diffère selon la classe : nasara, daraba et fataha ont fa'ala ; sami'a a fa'ila ; karuma a fa'ula. Sami'tu, « j'ai entendu », et karumtu, « j'ai été noble », se construisent exactement comme nasartu."
+      ],
+      "terms": [
+        "le passé actif",
+        "une forme : une des quatorze personnes",
+        "un homme absent : nasara",
+        "celui qui parle seul : nasartu",
+        "celui qui parle avec d'autres : nasarnâ"
+      ],
+      "examples": [
+        "nasara, « il a aidé » ; nasartu, « j'ai aidé » : la première et l'avant-dernière des quatorze",
+        "sami'a, « il a entendu » ; sami'tu, « j'ai entendu » : la classe de fa'ila, les mêmes finales",
+        "karuma, « il a été noble » ; karumtu, « j'ai été noble » : la classe de fa'ula"
+      ],
+      "tasks": [
+        {
+          "prompt": "Conjuguez daraba, « frapper », au passé actif aux quatorze personnes, dans l'ordre du livre.",
+          "answer": "Daraba, darabâ, darabû, darabat, darabatâ, darabna, darabta, darabtumâ, darabtum, darabti, darabtumâ, darabtunna, darabtu, darabnâ."
+        },
+        {
+          "prompt": "Nommez la personne de chaque forme : nasarû, nasartunna, nasaratâ, nasarnâ, nasarti.",
+          "answer": "Nasarû : plusieurs hommes absents. Nasartunna : plusieurs interlocutrices. Nasaratâ : deux femmes absentes. Nasarnâ : celui qui parle avec d'autres. Nasarti : une interlocutrice."
+        },
+        {
+          "prompt": "Donnez fataha, « ouvrir », pour : elle, toi (une femme), moi.",
+          "answer": "Fatahat, fatahti, fatahtu."
+        },
+        {
+          "prompt": "Pourquoi y a-t-il quatorze places dans le tableau mais seulement treize mots différents ?",
+          "answer": "Nasartumâ sert à la fois pour deux interlocuteurs et pour deux interlocutrices. (Nasarnâ sert aussi pour celui qui parle avec un autre et avec plusieurs, mais il n'occupe qu'une place dans le tableau.)"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Combien de personnes a chaque tableau du livre ?",
+          "options": [
+            "Douze",
+            "Treize",
+            "Six",
+            "Quatorze"
+          ],
+          "explanation": "Trois chacun pour l'homme et la femme absents et pour l'interlocuteur et l'interlocutrice, et deux pour celui qui parle."
+        },
+        {
+          "prompt": "Nasartunna est…",
+          "options": [
+            "plusieurs interlocutrices",
+            "plusieurs femmes absentes",
+            "deux interlocutrices",
+            "celui qui parle avec d'autres"
+          ],
+          "explanation": "-tunna est le pronom des interlocutrices."
+        },
+        {
+          "prompt": "Quelle forme sert pour deux personnes du tableau ?",
+          "options": [
+            "Nasarâ",
+            "Nasartumâ",
+            "Nasartum",
+            "Nasarat"
+          ],
+          "explanation": "Deux interlocuteurs et deux interlocutrices font tous deux nasartumâ."
+        },
+        {
+          "prompt": "Dans nasarat, « elle a aidé », qu'est-ce que le -at ?",
+          "options": [
+            "Le pronom agent",
+            "Le complément d'objet",
+            "Le signe du féminin, non un pronom",
+            "Le signe du duel"
+          ],
+          "explanation": "L'agent de nasarat est un « elle » caché."
+        },
+        {
+          "prompt": "Que nomme al-mutakallim ma'a al-ghayr ?",
+          "options": [
+            "Celui qui parle seul : nasartu",
+            "L'interlocuteur",
+            "L'absent",
+            "Celui qui parle avec d'autres : nasarnâ"
+          ],
+          "explanation": "« Celui qui parle avec quelqu'un d'autre » : nous."
+        },
+        {
+          "prompt": "Qu'est-ce qui change d'une forme à l'autre parmi les quatorze du passé ?",
+          "options": [
+            "Seulement la finale",
+            "La première lettre",
+            "La racine",
+            "La voyelle de la première lettre"
+          ],
+          "explanation": "Le radical nasar- reste ; les finales sont les pronoms agents."
+        },
+        {
+          "prompt": "Sami'tu, « j'ai entendu », se construit…",
+          "options": [
+            "avec une autre finale pour « je »",
+            "comme nasartu, avec la voyelle de radical de sa classe",
+            "comme le passif",
+            "avec un préfixe"
+          ],
+          "explanation": "Les finales sont les mêmes pour tout verbe sain ; seule la voyelle du radical suit la classe."
+        }
+      ],
+      "diagram": {
+        "caption": "Le passé actif de nasara (al-Amthila, p. 237–238)",
+        "labels": {
+          "The active past of naṣara (al-Amthila, pp. 237–238)": "Le passé actif de nasara (al-Amthila, p. 237–238)",
+          "Person": "Personne",
+          "One": "Un",
+          "Two": "Deux",
+          "Many": "Plusieurs",
+          "absent, man": "absent, homme",
+          "absent, woman": "absente, femme",
+          "addressed, man": "interlocuteur",
+          "addressed, woman": "interlocutrice",
+          "the speaker": "celui qui parle"
+        }
+      },
+      "text": [
+        "nasara « il a aidé », nasarâ « eux deux (m.) ont aidé », nasarû « ils ont aidé », nasarat « elle a aidé »\nnasaratâ « elles deux ont aidé », nasarna « elles ont aidé », nasarta « tu (m.) as aidé », nasartumâ « vous deux (m.) avez aidé »\nnasartum « vous (m. pl.) avez aidé », nasarti « tu (f.) as aidé », nasartumâ « vous deux (f.) avez aidé », nasartunna « vous (f. pl.) avez aidé »\nnasartu « j'ai aidé », nasarnâ « nous avons aidé »"
+      ]
+    },
+    "4": {
+      "title": "Le passé passif",
+      "body": [
+        "Le deuxième tableau est le passé passif (al-mâdî al-majhûl, « le passé dont l'agent est inconnu ») : nusira, « il a été aidé », jusqu'à nusirnâ, « nous avons été aidés ». Les quatorze places et leur ordre sont ceux de l'actif ; seules changent les voyelles du radical.",
+        "La règle est courte : la première lettre prend une damma et l'avant-dernière une kasra. Nasara devient nusira. Toutes les classes donnent le même résultat : daraba devient duriba, fataha futiha, sami'a sumi'a, kataba kutiba. Quelle que soit la voyelle de l'actif, le passé passif du verbe nu est toujours fu'ila. Dans le verbe quadrilitère, la même règle donne akrama, ukrima.",
+        "Les finales sont les mêmes qu'à l'actif, mais elles désignent maintenant celui qui subit l'action : nusirtu est « j'ai été aidé », nusirû « ils ont été aidés ». Le nahw appelle ce nom ou ce pronom le substitut de l'agent (nâ'ib al-fâ'il), puisqu'il prend la place de l'agent et son raf'.",
+        "Seul un verbe qui prend un complément d'objet a un passif aux quatorze personnes. Les livres de sarf donnent les tableaux du passif pour nasara parce que nasara prend un complément et montre ainsi tout le schème. Un verbe comme karuma, « être noble », ne prend pas de complément et n'a pas de tel tableau.",
+        "Le piège est dans l'écriture. Sans voyelles, نصرت peut être nasartu, nasarta, nasarti, nasarat, « j'ai, tu as (m.), tu as (f.), elle a aidé », ou nusirtu, nusirta, nusirti, nusirat, les mêmes personnes « ont été aidées » : huit lectures de quatre lettres. Seules les voyelles décident, et l'élève qui récite al-Amthila à voix haute apprend à les entendre."
+      ],
+      "terms": [
+        "le passé passif : son agent inconnu",
+        "l'actif (son agent connu)",
+        "le substitut de l'agent : l'agent grammatical d'un verbe passif",
+        "transitif : un verbe qui prend un complément d'objet"
+      ],
+      "examples": [
+        "nusira, « il a été aidé » ; nusirtu, « j'ai été aidé »",
+        "duriba, futiha, sumi'a : chaque classe donne fu'ila au passé passif",
+        "ukrima, « il a été honoré » : la même règle dans le verbe quadrilitère"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le passé passif de daraba pour : il, elle, ils (hommes), je, nous.",
+          "answer": "Duriba, duribat, duribû, duribtu, duribnâ."
+        },
+        {
+          "prompt": "Mettez au passif et traduisez : kataba, nasartu, sami'û.",
+          "answer": "Kutiba, « il a été écrit » ; nusirtu, « j'ai été aidé » ; sumi'û, « ils ont été entendus »."
+        },
+        {
+          "prompt": "Énoncez en une phrase la règle du passé passif, et montrez-la sur nasara.",
+          "answer": "La première lettre prend une damma et l'avant-dernière une kasra : nasara → nusira."
+        },
+        {
+          "prompt": "Lisez نصرت de toutes les manières que permettent les deux tableaux du passé d'al-Amthila, avec leurs sens.",
+          "answer": "Actif : nasartu (j'ai aidé), nasarta (tu as aidé, m.), nasarti (tu as aidé, f.), nasarat (elle a aidé). Passif : nusirtu (j'ai été aidé), nusirta (tu as été aidé, m.), nusirti (tu as été aidée, f.), nusirat (elle a été aidée)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quelle est la règle du passé passif ?",
+          "options": [
+            "Damma sur la première lettre, kasra sur l'avant-dernière",
+            "Fatha sur la première lettre, sukûn sur la dernière",
+            "Kasra sur la première lettre, fatha sur l'avant-dernière",
+            "On ajoute un préfixe ta-"
+          ],
+          "explanation": "Nasara → nusira."
+        },
+        {
+          "prompt": "Quel est le passé passif de fataha ?",
+          "options": [
+            "Fataha",
+            "Futiha",
+            "Yuftahu",
+            "Fatuha"
+          ],
+          "explanation": "Chaque classe donne fu'ila au passé passif."
+        },
+        {
+          "prompt": "Nusirû signifie…",
+          "options": [
+            "« ils ont aidé »",
+            "« nous avons été aidés »",
+            "« ils ont été aidés »",
+            "« aidez ! »"
+          ],
+          "explanation": "Le passif avec la finale -û des hommes absents."
+        },
+        {
+          "prompt": "Pourquoi karuma, « être noble », n'a-t-il pas de tableau du passif ?",
+          "options": [
+            "C'est un verbe faible",
+            "Il n'a pas de passé",
+            "C'est un nom",
+            "Il ne prend pas de complément d'objet"
+          ],
+          "explanation": "Seul un verbe qui a un complément d'objet a un passif complet."
+        },
+        {
+          "prompt": "Comment le nahw appelle-t-il l'agent grammatical d'un verbe passif ?",
+          "options": [
+            "Le substitut de l'agent (nâ'ib al-fâ'il)",
+            "L'agent (fâ'il)",
+            "Le complément d'objet (maf'ûl bihi)",
+            "Le mubtada'"
+          ],
+          "explanation": "Il prend la place de l'agent et son raf'."
+        },
+        {
+          "prompt": "Laquelle de ces formes est passive ?",
+          "options": [
+            "Sami'a",
+            "Sumi'a",
+            "Sami'tu",
+            "Sami'û"
+          ],
+          "explanation": "Damma sur la première lettre et kasra sur l'avant-dernière."
+        },
+        {
+          "prompt": "Combien de lectures a نصرت sans voyelles dans les deux tableaux du passé ?",
+          "options": [
+            "Deux",
+            "Quatre",
+            "Huit",
+            "Quatorze"
+          ],
+          "explanation": "Quatre personnes à l'actif et les mêmes quatre au passif."
+        }
+      ],
+      "diagram": {
+        "caption": "Passé actif et passé passif",
+        "labels": {
+          "Active past and passive past": "Passé actif et passé passif",
+          "Verb": "Verbe",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "naṣara (faʿala yafʿulu)": "nasara (fa'ala yaf'ulu)",
+          "ḍaraba (faʿala yafʿilu)": "daraba (fa'ala yaf'ilu)",
+          "fataḥa (faʿala yafʿalu)": "fataha (fa'ala yaf'alu)",
+          "samiʿa (faʿila yafʿalu)": "sami'a (fa'ila yaf'alu)",
+          "kataba": "kataba",
+          "akrama (afʿala)": "akrama (af'ala)"
+        }
+      },
+      "text": [
+        "nusira « il a été aidé », nusirâ « eux deux (m.) ont été aidés », nusirû « ils ont été aidés », nusirat « elle a été aidée »\nnusiratâ « elles deux ont été aidées », nusirna « elles ont été aidées », nusirta « tu (m.) as été aidé », nusirtumâ « vous deux (m.) avez été aidés »\nnusirtum « vous (m. pl.) avez été aidés », nusirti « tu (f.) as été aidée », nusirtumâ « vous deux (f.) avez été aidées », nusirtunna « vous (f. pl.) avez été aidées »\nnusirtu « j'ai été aidé », nusirnâ « nous avons été aidés »"
+      ]
+    },
+    "5": {
+      "title": "Le présent-futur actif (mudâri')",
+      "body": [
+        "Le troisième tableau est le présent-futur actif (al-mudâri' al-ma'lûm), « il aide » ou « il aidera » : de yansuru à nansuru, aux mêmes quatorze places. À la différence du passé, le présent-futur change aux deux bouts : un préfixe devant et, pour certaines personnes, une finale.",
+        "Les préfixes sont les quatre lettres de anaytu. Ya- pour l'homme absent aux trois nombres, et pour les femmes absentes (yansurna). Ta- pour la femme absente et les deux femmes absentes, et pour chaque interlocuteur et interlocutrice. A- pour « je » (ansuru), na- pour « nous » (nansuru). Ainsi tansuru est à la fois « elle aide » et « tu aides (à un homme) » ; seul le contexte dit lequel.",
+        "Les finales : -u pour une personne (yansuru, tansuru, ansuru, nansuru) ; -âni pour deux (yansurâni, tansurâni) ; -ûna pour les hommes au pluriel (yansurûna, tansurûna) ; -na pour les femmes au pluriel (yansurna, tansurna) ; et -îna pour l'interlocutrice (tansurîna). Les formes en -âni, -ûna et -îna sont les cinq verbes du nahw, qui gardent ou perdent leur nûn ; les formes en -na ont une finale fixe.",
+        "Le tableau se répète : tansuru remplit deux places, la femme absente et l'interlocuteur, et tansurâni trois, les deux femmes absentes, les deux interlocuteurs et les deux interlocutrices. Les quatorze places contiennent donc onze mots différents. Apprenez le tableau en cinq rangées de trois, comme dans la grille ci-dessous, et les répétitions deviennent faciles à voir.",
+        "La voyelle de la deuxième lettre radicale, le 'ayn, appartient à la classe, non à la personne : yansuru (u), yadribu (i), yaftahu (a), yasma'u (a), yakrumu (u). C'est la seule chose que le dictionnaire donne pour chaque verbe, et les livres de sarf nomment les classes par elle : nasara, yansuru ; daraba, yadribu ; et ainsi de suite."
+      ],
+      "terms": [
+        "le présent-futur actif",
+        "les préfixes du présent-futur : anaytu",
+        "les cinq verbes : les formes en -âni, -ûna, -îna",
+        "la deuxième lettre radicale, dont la voyelle marque la classe"
+      ],
+      "examples": [
+        "yansuru, ansuru, nansuru, tansuru : les quatre lettres de anaytu",
+        "tansurîna, « tu aides (à une femme) » : le préfixe ta- et la finale -îna",
+        "yadribu, yaftahu, yasma'u : la voyelle du 'ayn suit la classe"
+      ],
+      "tasks": [
+        {
+          "prompt": "Conjuguez yadribu, « il frappe », au présent-futur actif aux quatorze personnes.",
+          "answer": "Yadribu, yadribâni, yadribûna, tadribu, tadribâni, yadribna, tadribu, tadribâni, tadribûna, tadribîna, tadribâni, tadribna, adribu, nadribu."
+        },
+        {
+          "prompt": "Donnez toutes les places du tableau que chaque forme peut remplir : tansuru ; tansurâni ; yansurna.",
+          "answer": "Tansuru : une femme absente, un interlocuteur. Tansurâni : deux femmes absentes, deux interlocuteurs, deux interlocutrices. Yansurna : plusieurs femmes absentes."
+        },
+        {
+          "prompt": "Donnez le présent-futur de sami'a, « entendre », pour : il, elle, toi (une femme), nous.",
+          "answer": "Yasma'u, tasma'u, tasma'îna, nasma'u."
+        },
+        {
+          "prompt": "Quelles formes du tableau sont les cinq verbes, et lesquelles ont une finale fixe ?",
+          "answer": "Les cinq verbes : yansurâni, tansurâni, yansurûna, tansurûna, tansurîna. Fixes : yansurna et tansurna, avec le nûn des femmes."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quel préfixe marque « nous » au présent-futur ?",
+          "options": [
+            "A-",
+            "Na-",
+            "Ya-",
+            "Ta-"
+          ],
+          "explanation": "Nansuru, « nous aidons »."
+        },
+        {
+          "prompt": "Tansuru peut signifier…",
+          "options": [
+            "seulement « tu aides »",
+            "seulement « elle aide »",
+            "« elle aide » ou « tu aides (à un homme) »",
+            "« ils aident »"
+          ],
+          "explanation": "Ta- sert pour la femme absente et pour l'interlocuteur."
+        },
+        {
+          "prompt": "Yansurna signifie…",
+          "options": [
+            "« vous (femmes) aidez »",
+            "« ils (hommes) aident »",
+            "« eux deux aident »",
+            "« elles aident »"
+          ],
+          "explanation": "Ya- avec la finale -na : plusieurs femmes absentes."
+        },
+        {
+          "prompt": "Qu'est-ce qui distingue les classes au présent-futur ?",
+          "options": [
+            "La voyelle du 'ayn",
+            "Le préfixe",
+            "La finale",
+            "Le nombre de lettres"
+          ],
+          "explanation": "Yansuru, yadribu, yaftahu : u, i, a."
+        },
+        {
+          "prompt": "Combien de places du tableau tansurâni remplit-il ?",
+          "options": [
+            "Une",
+            "Trois",
+            "Deux",
+            "Quatre"
+          ],
+          "explanation": "Deux femmes absentes, deux interlocuteurs, deux interlocutrices."
+        },
+        {
+          "prompt": "Quelle est la forme pour « tu aides (à une femme) » ?",
+          "options": [
+            "Tansuru",
+            "Tansurna",
+            "Tansurîna",
+            "Yansurna"
+          ],
+          "explanation": "Ta- avec la finale -îna."
+        },
+        {
+          "prompt": "Laquelle de ces formes n'est pas l'un des cinq verbes ?",
+          "options": [
+            "Yansurâni",
+            "Tansurûna",
+            "Tansurîna",
+            "Yansurna"
+          ],
+          "explanation": "Yansurna a le nûn des femmes et une finale fixe."
+        }
+      ],
+      "diagram": {
+        "caption": "Le présent-futur actif de nasara (al-Amthila, p. 238–239)",
+        "labels": {
+          "The active present of naṣara (al-Amthila, pp. 238–239)": "Le présent-futur actif de nasara (al-Amthila, p. 238–239)",
+          "Person": "Personne",
+          "One": "Un",
+          "Two": "Deux",
+          "Many": "Plusieurs",
+          "absent, man": "absent, homme",
+          "absent, woman": "absente, femme",
+          "addressed, man": "interlocuteur",
+          "addressed, woman": "interlocutrice",
+          "the speaker": "celui qui parle"
+        }
+      },
+      "text": [
+        "yansuru « il aide », yansurâni « eux deux (m.) aident », yansurûna « ils aident », tansuru « elle aide »\ntansurâni « elles deux aident », yansurna « elles aident », tansuru « tu (m.) aides », tansurâni « vous deux (m.) aidez »\ntansurûna « vous (m. pl.) aidez », tansurîna « tu (f.) aides », tansurâni « vous deux (f.) aidez », tansurna « vous (f. pl.) aidez »\nansuru « j'aide », nansuru « nous aidons »"
+      ]
+    },
+    "6": {
+      "title": "Le présent-futur passif",
+      "body": [
+        "Le quatrième tableau est le présent-futur passif : yunsaru, « il est aidé », jusqu'à nunsaru, « nous sommes aidés ». Les préfixes et les finales sont ceux du présent-futur actif ; seules deux voyelles changent.",
+        "La règle : la première lettre, le préfixe, prend une damma, et l'avant-dernière une fatha. Yansuru devient yunsaru ; tansurûna devient tunsarûna ; ansuru devient unsaru. Comme pour le passé passif, toutes les classes donnent le même résultat : yudrabu, yuftahu, yusma'u, yuktabu. Le présent-futur passif du verbe nu est toujours yuf'alu.",
+        "Dans le verbe quadrilitère, le préfixe a déjà une damma à l'actif (yukrimu) ; seule la deuxième voyelle les distingue donc : yukrimu, « il honore », contre yukramu, « il est honoré ». Cette seule voyelle fait toute la différence entre agir et subir, et dans l'écriture sans voyelles elle disparaît.",
+        "Placez côte à côte les quatre tableaux que vous avez appris, et le système apparaît : passé et présent-futur, chacun actif et passif. Nusira et yunsaru ont en commun la damma sur la première lettre, la marque du passif ; nusira a une kasra sur l'avant-dernière lettre, yunsaru une fatha. Le reste du livre s'appuie sur ces quatre tableaux : les négations, les ordres et les interdictions se font à partir du présent-futur, actif et passif."
+      ],
+      "terms": [
+        "le présent-futur passif",
+        "le schème du présent-futur passif du verbe nu",
+        "le schème du passé passif du verbe nu"
+      ],
+      "examples": [
+        "yunsaru, « il est aidé » ; nunsaru, « nous sommes aidés »",
+        "yudrabu, yuftahu, yusma'u : chaque classe donne yuf'alu",
+        "yukrimu, « il honore » ; yukramu, « il est honoré » : une voyelle d'écart"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le présent-futur passif de kataba aux quatorze personnes.",
+          "answer": "Yuktabu, yuktabâni, yuktabûna, tuktabu, tuktabâni, yuktabna, tuktabu, tuktabâni, tuktabûna, tuktabîna, tuktabâni, tuktabna, uktabu, nuktabu."
+        },
+        {
+          "prompt": "Actif ou passif ? Traduisez : yunsarûna, tansurîna, yukramu, udrabu.",
+          "answer": "Yunsarûna : passif, « ils sont aidés ». Tansurîna : actif, « tu aides (à une femme) ». Yukramu : passif, « il est honoré ». Udrabu : passif, « je suis frappé »."
+        },
+        {
+          "prompt": "Énoncez la règle du présent-futur passif et montrez-la sur yaftahu.",
+          "answer": "Le préfixe prend une damma et l'avant-dernière lettre une fatha : yaftahu → yuftahu, « il est ouvert »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Quelle est la règle du présent-futur passif ?",
+          "options": [
+            "Préfixe avec fatha, avant-dernière lettre avec kasra",
+            "Préfixe avec kasra, dernière lettre avec sukûn",
+            "Préfixe avec damma, avant-dernière lettre avec fatha",
+            "Aucun changement"
+          ],
+          "explanation": "Yansuru → yunsaru."
+        },
+        {
+          "prompt": "Le présent-futur passif de yadribu est…",
+          "options": [
+            "Yudribu",
+            "Yadrabu",
+            "Duriba",
+            "Yudrabu"
+          ],
+          "explanation": "Chaque classe donne yuf'alu."
+        },
+        {
+          "prompt": "Yukrimu et yukramu diffèrent par…",
+          "options": [
+            "la voyelle de l'avant-dernière lettre",
+            "le préfixe",
+            "la racine",
+            "la finale"
+          ],
+          "explanation": "Kasra : il honore ; fatha : il est honoré."
+        },
+        {
+          "prompt": "Nunsaru signifie…",
+          "options": [
+            "« nous aidons »",
+            "« nous sommes aidés »",
+            "« je suis aidé »",
+            "« ils sont aidés »"
+          ],
+          "explanation": "Na- avec damma, et fatha sur l'avant-dernière lettre."
+        },
+        {
+          "prompt": "Quelle marque nusira et yunsaru ont-ils en commun ?",
+          "options": [
+            "La kasra sur l'avant-dernière lettre",
+            "Le préfixe ya-",
+            "La damma sur la première lettre",
+            "La finale -u"
+          ],
+          "explanation": "La damma sur la première lettre marque le passif dans les deux."
+        },
+        {
+          "prompt": "Laquelle est active ?",
+          "options": [
+            "Yusma'u",
+            "Tusma'îna",
+            "Nusma'u",
+            "Yasma'u"
+          ],
+          "explanation": "Fatha sur le préfixe : actif."
+        },
+        {
+          "prompt": "À partir de quels tableaux se font les négations, les ordres et les interdictions ?",
+          "options": [
+            "À partir du présent-futur, actif et passif",
+            "À partir du passé seulement",
+            "À partir du masdar",
+            "À partir des participes"
+          ],
+          "explanation": "Lam yansur, lan yunsara, li-yansur : tous à partir du présent-futur."
+        }
+      ],
+      "diagram": {
+        "caption": "Présent-futur actif et présent-futur passif",
+        "labels": {
+          "Active present and passive present": "Présent-futur actif et présent-futur passif",
+          "Verb": "Verbe",
+          "Active": "Actif",
+          "Passive": "Passif",
+          "naṣara": "nasara",
+          "ḍaraba": "daraba",
+          "fataḥa": "fataha",
+          "samiʿa": "sami'a",
+          "kataba": "kataba",
+          "akrama": "akrama"
+        }
+      },
+      "text": [
+        "yunsaru « il est aidé », yunsarâni « eux deux (m.) sont aidés », yunsarûna « ils sont aidés », tunsaru « elle est aidée »\ntunsarâni « elles deux sont aidées », yunsarna « elles sont aidées », tunsaru « tu (m.) es aidé », tunsarâni « vous deux (m.) êtes aidés »\ntunsarûna « vous (m. pl.) êtes aidés », tunsarîna « tu (f.) es aidée »\ntunsarâni « vous deux (f.) êtes aidées », tunsarna « vous (f. pl.) êtes aidées », unsaru « je suis aidé », nunsaru « nous sommes aidés »"
+      ]
+    },
+    "7": {
+      "title": "Le masdar",
+      "body": [
+        "Le masdar, le nom verbal, nomme l'acte lui-même sans agent ni temps : nasr, « le fait d'aider, l'aide ». Le livre le donne sous trois formes : nasran, nasrâni, nasarâtun : un, deux et plusieurs. Le titre l'appelle « le masdar qui n'est pas mîmî », pour le distinguer de mansar, le masdar qui commence par un mîm, qui vient plus loin avec les noms de temps et de lieu.",
+        "Pourquoi le duel et le pluriel d'un acte ? Le masdar seul nomme l'aide en tant que telle, et en tant que telle elle n'a pas de nombre. Mis au duel ou au pluriel, il nomme des sortes ou des occurrences de l'aide : « deux aides », « des aides ». Au pluriel, l'impression vocalise le sâd d'une fatha : nasarât.",
+        "Dans la récitation des formes variées, le masdar est nasran, au nasb : nasara, yansuru, nasran. Les commentaires l'expliquent comme le complément absolu du verbe qui le précède, « il a aidé d'une aide ». Dans son propre tableau, seul le premier mot garde ce nasb ; le duel et le pluriel sont donnés comme de simples noms.",
+        "Le masdar du verbe nu s'apprend par l'écoute, non par une règle (samâ'î). Nasara a nasr, daraba a darb, qatala a qatl, comme le montrent les exemples d'al-Âjurrûmiyya, mais d'autres verbes ont d'autres formes, et le dictionnaire les donne. C'est pourquoi l'outil de conjugaison laisse vide le masdar du verbe nu. Les verbes augmentés ont des masdars réguliers : akrama, ikrâm ; le Binâ' et al-'Izzî donnent leurs schèmes."
+      ],
+      "terms": [
+        "le nom verbal : l'acte lui-même",
+        "le masdar avec un mîm : mansar",
+        "appris par l'écoute, non par une règle",
+        "formé selon une règle"
+      ],
+      "examples": [
+        "nasran, nasrâni, nasarâtun : le masdar à un, deux et plusieurs",
+        "daraba, yadribu, darban : un autre verbe nu, un autre masdar",
+        "akrama, ikrâmun : le masdar régulier du verbe quadrilitère"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le masdar de nasara à un, deux et plusieurs, et traduisez.",
+          "answer": "Nasr (le fait d'aider), nasrâni (deux aides), nasarât (des aides)."
+        },
+        {
+          "prompt": "Pourquoi l'outil de conjugaison donne-t-il un masdar pour akrama mais pas pour nasara ?",
+          "answer": "Le masdar du verbe nu est samâ'î, connu par l'écoute (nasr, darb, qatl…) ; le verbe quadrilitère akrama a un masdar régulier, ikrâm, qu'une règle peut former."
+        },
+        {
+          "prompt": "Dans la récitation nasara, yansuru, nasran, pourquoi nasran est-il au nasb ?",
+          "answer": "Les commentaires le lisent comme le complément absolu (maf'ûl mutlaq) du verbe : « il a aidé d'une aide »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que nomme le masdar ?",
+          "options": [
+            "L'agent",
+            "Le lieu de l'acte",
+            "Celui qui subit l'acte",
+            "L'acte lui-même, sans agent ni temps"
+          ],
+          "explanation": "Nasr : le fait d'aider."
+        },
+        {
+          "prompt": "Pourquoi le titre dit-il « non mîmî » ?",
+          "options": [
+            "Pour le distinguer du masdar avec un mîm, mansar",
+            "Parce que nasr n'a pas de mîm dans la racine",
+            "Parce que c'est un verbe",
+            "Parce qu'il est au pluriel"
+          ],
+          "explanation": "Mansar vient plus loin, avec les noms de temps et de lieu."
+        },
+        {
+          "prompt": "Que nomme le pluriel nasarât ?",
+          "options": [
+            "Des aidants",
+            "Des occurrences ou des sortes d'aide",
+            "Des lieux d'aide",
+            "Des femmes qui aident"
+          ],
+          "explanation": "Un masdar mis au pluriel nomme des sortes ou des occurrences de l'acte."
+        },
+        {
+          "prompt": "Le masdar du verbe nu est…",
+          "options": [
+            "toujours fa'l",
+            "toujours fi'âl",
+            "appris par l'écoute (samâ'î)",
+            "formé par l'outil de conjugaison"
+          ],
+          "explanation": "Nasr, darb, qatl : le dictionnaire donne chacun."
+        },
+        {
+          "prompt": "Quel est le masdar de akrama ?",
+          "options": [
+            "Karam",
+            "Mukram",
+            "Akram",
+            "Ikrâm"
+          ],
+          "explanation": "Le verbe quadrilitère a un masdar régulier."
+        },
+        {
+          "prompt": "Lequel de ces mots est un masdar ?",
+          "options": [
+            "Nasr",
+            "Nâsir",
+            "Mansûr",
+            "Yansuru"
+          ],
+          "explanation": "Nâsir et mansûr sont des participes ; yansuru un verbe."
+        },
+        {
+          "prompt": "Dans la récitation nasara, yansuru, nasran, nasran s'explique comme…",
+          "options": [
+            "un hâl",
+            "le complément absolu du verbe",
+            "l'agent",
+            "un tamyîz"
+          ],
+          "explanation": "« Il a aidé d'une aide »."
+        }
+      ],
+      "diagram": {
+        "caption": "Quatre façons de nommer l'acte sur nasara ; les trois autres viennent dans la sixième partie.",
+        "labels": {
+          "Four ways of naming the act on naṣara; the other three come in part six.": "Quatre façons de nommer l'acte sur nasara ; les trois autres viennent dans la sixième partie.",
+          "the maṣdar": "le masdar",
+          "Nouns of the act": "Noms de l'acte",
+          "the maṣdar mīmī": "le masdar mîmî",
+          "one act (marra)": "un seul acte (marra)",
+          "manner (nawʿ)": "manière (naw')"
+        }
+      },
+      "text": [
+        "nasran « une aide », nasrâni « deux aides », nasarâtun « des aides »"
+      ]
+    },
+    "8": {
+      "title": "Le participe actif",
+      "body": [
+        "Le participe actif (ism al-fâ'il, « le nom de l'agent ») nomme ou décrit celui qui fait l'acte : nâsir, « celui qui aide, un aidant ». Dans le verbe nu, son schème est fâ'il : un alif après la première lettre et une kasra sous la deuxième. Dans la récitation, c'est fa-huwa nâsirun, « il est donc celui qui aide ».",
+        "Le tableau le donne à tous ses nombres et aux deux genres. Masculin : nâsir, le duel nâsirâni, le pluriel sain nâsirûna, et trois pluriels brisés, nussâr, nussar et nasara. Féminin : nâsira, nâsiratâni, nâsirât, et le pluriel brisé nawâsir. Le wâw que l'impression place devant certains pluriels brisés (wa-nussarun, wa-nasaratun, wa-nawâsiru) les marque comme d'autres pluriels du même mot.",
+        "Les pluriels sains se forment selon une règle ; les pluriels brisés, comme toujours en arabe, s'apprennent. Al-Amthila donne trois schèmes pour les hommes, fu''âl, fu''al et fa'ala, et un pour les femmes, fawâ'il. Al-'Izzî et Marâh al-arwâh y reviennent.",
+        "Pour tout verbe nu sain, le participe est fâ'il : dârib (qui frappe), fâtih (qui ouvre), sâmi' (qui entend), kâtib (qui écrit). Pour les verbes augmentés, il commence par mu- et a une kasra sur l'avant-dernière lettre : akrama donne mukrim, « celui qui honore ». Le nahw ajoute que le participe peut agir comme son verbe : nâsirun Zaydan, « aidant Zayd », avec Zayd pour complément d'objet.",
+        "Un piège du tableau : nasara, le troisième pluriel brisé, « des aidants », s'écrit et se vocalise exactement comme le verbe au passé nasara, « il a aidé ». Seules sa place dans la phrase et son tanwîn (nasaratun) montrent que c'est un nom."
+      ],
+      "terms": [
+        "le participe actif : celui qui fait l'acte",
+        "son schème dans le verbe nu",
+        "le pluriel sain, formé selon une règle",
+        "le pluriel brisé, appris mot par mot"
+      ],
+      "examples": [
+        "nâsirun, nâsirâni, nâsirûna : un, deux et plusieurs hommes qui aident",
+        "nâsiratun, une femme qui aide ; nawâsiru, son pluriel brisé",
+        "dâribun, fâtihun, sâmi'un : fâ'il dans chaque classe",
+        "mukrimun, « celui qui honore » : le participe du verbe quadrilitère"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le participe actif de kataba, jalasa, fataha et akrama.",
+          "answer": "Kâtib, jâlis, fâtih, mukrim."
+        },
+        {
+          "prompt": "Donnez le féminin, le duel et le pluriel sain de kâtib.",
+          "answer": "Kâtiba (féminin), kâtibâni (duel), kâtibûna (pluriel masculin sain), et kâtibât pour les femmes."
+        },
+        {
+          "prompt": "Nommez le schème de chaque pluriel brisé du tableau : nussâr, nussar, nasara, nawâsir.",
+          "answer": "Nussâr : fu''âl. Nussar : fu''al. Nasara : fa'ala. Nawâsir : fawâ'il (le pluriel du féminin nâsira)."
+        },
+        {
+          "prompt": "Comment distinguez-vous le pluriel nasaratun, « des aidants », du verbe nasarat, « elle a aidé » ?",
+          "answer": "Le nom a le tanwîn et un tâ' rond (nasaratun) et se tient là où se tient un nom ; le verbe finit par un tâ' quiescent (nasarat), le signe du féminin, et a un agent."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que nomme le participe actif ?",
+          "options": [
+            "Celui qui fait l'acte",
+            "Celui qui subit l'acte",
+            "L'acte lui-même",
+            "Le lieu de l'acte"
+          ],
+          "explanation": "Nâsir : celui qui aide."
+        },
+        {
+          "prompt": "Quel est le schème du participe actif du verbe nu ?",
+          "options": [
+            "Maf'ûl",
+            "Fâ'il",
+            "Fa'îl",
+            "Muf'il"
+          ],
+          "explanation": "Nâsir, dârib, kâtib."
+        },
+        {
+          "prompt": "Lequel est un pluriel brisé de nâsir dans le tableau ?",
+          "options": [
+            "Nâsirûna",
+            "Nâsirâni",
+            "Nussâr",
+            "Mansûrûna"
+          ],
+          "explanation": "Nussâr, nussar et nasara sont les pluriels brisés donnés."
+        },
+        {
+          "prompt": "Quel est le participe actif de akrama ?",
+          "options": [
+            "Mukram",
+            "Kârim",
+            "Ikrâm",
+            "Mukrim"
+          ],
+          "explanation": "Mu- et une kasra sur l'avant-dernière lettre ; mukram est le participe passif."
+        },
+        {
+          "prompt": "Nawâsir est le pluriel de…",
+          "options": [
+            "nâsira, le féminin",
+            "nâsir, le masculin seulement",
+            "mansûr",
+            "nasr"
+          ],
+          "explanation": "Le tableau le donne dans la rangée des femmes."
+        },
+        {
+          "prompt": "Que signifie le wâw devant certains pluriels dans l'impression ?",
+          "options": [
+            "Ce sont des verbes",
+            "Ce sont d'autres pluriels du même mot",
+            "Ils sont au duel",
+            "C'est le wâw du serment"
+          ],
+          "explanation": "Wa-nussarun, wa-nasaratun : « et aussi… »."
+        },
+        {
+          "prompt": "Le pluriel nasara, « des aidants », ressemble à…",
+          "options": [
+            "le masdar nasr",
+            "le présent-futur yansuru",
+            "le verbe au passé nasara",
+            "le passif nusira"
+          ],
+          "explanation": "Seuls son tanwîn et sa place dans la phrase montrent que c'est un nom."
+        }
+      ],
+      "diagram": {
+        "caption": "Le participe actif de nasara (al-Amthila, p. 240)",
+        "labels": {
+          "The active participle of naṣara (al-Amthila, p. 240)": "Le participe actif de nasara (al-Amthila, p. 240)",
+          "Gender": "Genre",
+          "One": "Un",
+          "Two": "Deux",
+          "Sound plural": "Pluriel sain",
+          "Broken plurals": "Pluriels brisés",
+          "man": "homme",
+          "woman": "femme"
+        }
+      },
+      "text": [
+        "nâsirun « un aidant (m.) », nâsirâni « deux aidants (m.) », nâsirûna « des aidants (m.) », nussârun « des aidants (pluriel brisé) »\nwa-nussarun « des aidants (pluriel brisé) », wa-nasaratun « des aidants (pluriel brisé) », nâsiratun « une aidante (f.) », nâsiratâni « deux aidantes (f.) »\nnâsirâtun « des aidantes (f.) », wa-nawâsiru « des aidantes (f., pluriel brisé) »"
+      ]
+    },
+    "9": {
+      "title": "Le participe passif",
+      "body": [
+        "Le participe passif (ism al-maf'ûl, « le nom de celui qui subit l'acte ») nomme ou décrit celui à qui l'acte est fait : mansûr, « aidé, celui qui est aidé ». Dans le verbe nu, son schème est maf'ûl : un mîm avant la racine et un û long avant la dernière lettre. Dans la récitation, c'est wa-dhâka mansûrun, « et celui-là est aidé ».",
+        "Le tableau donne mansûr, mansûrâni, mansûrûna pour les hommes, mansûra, mansûratâni, mansûrât pour les femmes, et un seul pluriel brisé, manâsir (mafâ'il). Il est plus court que le tableau du participe actif : le participe passif se met surtout au pluriel selon la règle.",
+        "Pour tout verbe nu sain, le schème est le même : madrûb (frappé), maftûh (ouvert), masmû' (entendu), maktûb (écrit). Pour les verbes augmentés, il commence par mu-, comme le participe actif, mais a une fatha sur l'avant-dernière lettre : mukram, « honoré », contre mukrim, « celui qui honore ». Une voyelle sépare encore l'agent de celui qui subit l'acte, comme dans yukrimu et yukramu.",
+        "Comme pour les verbes passifs, seul un verbe qui a un complément d'objet a un participe passif propre. Et un piège pour le débutant : maktûb signifie aussi « une lettre » et Mansûr est aussi un nom d'homme. Un participe devient facilement un nom ordinaire ; le sarf nomme sa forme, et la phrase montre son emploi."
+      ],
+      "terms": [
+        "le participe passif : celui qui subit l'acte",
+        "son schème dans le verbe nu",
+        "son schème dans le verbe af'ala : mukram"
+      ],
+      "examples": [
+        "mansûrun, mansûrâni, mansûrûna : un, deux et plusieurs hommes aidés",
+        "madrûbun, maftûhun, masmû'un : maf'ûl dans chaque classe",
+        "mukrimun, celui qui honore ; mukramun, honoré : une voyelle d'écart"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez le participe passif de kataba, fataha, daraba et akrama.",
+          "answer": "Maktûb, maftûh, madrûb, mukram."
+        },
+        {
+          "prompt": "Donnez de mémoire le tableau du participe passif de nasara : trois formes pour les hommes, trois pour les femmes, et le pluriel brisé.",
+          "answer": "Mansûr, mansûrâni, mansûrûna ; mansûra, mansûratâni, mansûrât ; manâsir."
+        },
+        {
+          "prompt": "Participe actif ou passif ? Traduisez : masmû', mukrim, fâtih, mukram.",
+          "answer": "Masmû' : passif, « entendu ». Mukrim : actif, « celui qui honore ». Fâtih : actif, « celui qui ouvre ». Mukram : passif, « honoré »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que nomme le participe passif ?",
+          "options": [
+            "L'agent",
+            "Celui à qui l'acte est fait",
+            "L'acte lui-même",
+            "L'instrument"
+          ],
+          "explanation": "Mansûr : aidé."
+        },
+        {
+          "prompt": "Quel est son schème dans le verbe nu ?",
+          "options": [
+            "Fâ'il",
+            "Maf'al",
+            "Maf'ûl",
+            "Fu'ayl"
+          ],
+          "explanation": "Mansûr, madrûb, maktûb."
+        },
+        {
+          "prompt": "Mukram et mukrim diffèrent par…",
+          "options": [
+            "la première lettre",
+            "la racine",
+            "le nombre de lettres",
+            "la voyelle de l'avant-dernière lettre"
+          ],
+          "explanation": "Fatha : honoré ; kasra : celui qui honore."
+        },
+        {
+          "prompt": "Quel pluriel brisé le tableau donne-t-il pour mansûr ?",
+          "options": [
+            "Manâsir",
+            "Nussâr",
+            "Nawâsir",
+            "Ansâr"
+          ],
+          "explanation": "Mafâ'il : manâsir."
+        },
+        {
+          "prompt": "Quel verbe ne peut avoir de participe passif propre ?",
+          "options": [
+            "Tout verbe nu",
+            "Celui qui ne prend pas de complément d'objet",
+            "Tout verbe quadrilitère",
+            "Nasara"
+          ],
+          "explanation": "Comme pour les verbes passifs."
+        },
+        {
+          "prompt": "Quel est le participe passif de fataha ?",
+          "options": [
+            "Fâtih",
+            "Miftâh",
+            "Maftûh",
+            "Futiha"
+          ],
+          "explanation": "Maf'ûl : « ouvert »."
+        },
+        {
+          "prompt": "Dans la récitation, quels mots viennent avant mansûrun ?",
+          "options": [
+            "Fa-huwa, « il est donc »",
+            "Lam",
+            "Lan",
+            "Wa-dhâka, « et celui-là (est) »"
+          ],
+          "explanation": "Fa-huwa nâsirun wa-dhâka mansûrun."
+        }
+      ],
+      "diagram": {
+        "caption": "Les deux participes de six verbes",
+        "labels": {
+          "The two participles of six verbs": "Les deux participes de six verbes",
+          "Verb": "Verbe",
+          "Active participle": "Participe actif",
+          "Passive participle": "Participe passif"
+        }
+      },
+      "text": [
+        "mansûrun « un aidé (m.) », mansûrâni « deux aidés (m.) », mansûrûna « ceux qui sont aidés (m.) », mansûratun « une aidée (f.) »\nmansûratâni « deux aidées (f.) », mansûrâtun « celles qui sont aidées (f.) », wa-manâsiru « ceux qui sont aidés (pluriel brisé) »"
+      ]
+    },
+    "10": {
+      "title": "La négation absolue du passé : lam",
+      "body": [
+        "Les négations commencent par lam : lam yansur, « il n'a pas aidé ». Lam est suivi du présent-futur, mais il en tourne le sens vers le passé, et il met le verbe au jazm. Les livres ottomans appellent cette forme la négation absolue du passé (al-jahd al-mutlaq) : l'acte est nié dans le passé, sans limite fixée quant au moment.",
+        "Le tableau est celui du présent-futur avec lam devant chaque forme, et trois choses arrivent aux finales. Les formes à une personne perdent leur -u et finissent par un sukûn : lam yansur, lam tansur, lam ansur, lam nansur. Les cinq verbes perdent leur nûn : lam yansurâ, lam yansurû, lam tansurî. Les formes des femmes gardent leur -na, qui ne change jamais : lam yansurna, lam tansurna.",
+        "Le tableau du passif (p. 241–242) fait de même avec le présent-futur passif : lam yunsar, « il n'a pas été aidé », lam yunsarû, « ils n'ont pas été aidés », lam unsar, « je n'ai pas été aidé ». Préfixe avec damma, fatha sur l'avant-dernière lettre, et les finales du jazm.",
+        "Il en va de même pour tout verbe sain : lam yadrib, lam yaktub, lam yasma', lam yadribû. Un débutant met parfois lam devant le passé, lam nasara ; c'est une faute. Lam prend toujours la forme du présent-futur, et le sens du passé vient de lam lui-même. Pour nier avec la forme du passé, on dit mâ nasara, « il n'a pas aidé », ce qu'al-Amthila n'enseigne pas."
+      ],
+      "terms": [
+        "la négation absolue du passé : lam avec le présent-futur, passé par le sens",
+        "la particule qui nie le passé et met le verbe au jazm",
+        "l'état du verbe avec sukûn ou un nûn supprimé",
+        "la suppression du nûn des cinq verbes"
+      ],
+      "examples": [
+        "lam yansur, lam yansurû, lam yansurna : sukûn, le nûn supprimé, le -na gardé",
+        "lam yunsar, « il n'a pas été aidé » : le passif avec lam",
+        "lam yadrib, lam yaktub, lam yasma' : la même règle dans chaque classe"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mettez lam devant yadribu aux quatorze personnes.",
+          "answer": "Lam yadrib, lam yadribâ, lam yadribû, lam tadrib, lam tadribâ, lam yadribna, lam tadrib, lam tadribâ, lam tadribû, lam tadribî, lam tadribâ, lam tadribna, lam adrib, lam nadrib."
+        },
+        {
+          "prompt": "Mettez lam devant chacun et dites ce qui arrive à la finale : taktubîna, yaktubûna, yaktubna, aktubu.",
+          "answer": "Lam taktubî et lam yaktubû : le nûn est supprimé. Lam yaktubna : le -na des femmes reste. Lam aktub : le -u devient un sukûn."
+        },
+        {
+          "prompt": "Dites en arabe, d'après le tableau du passif : « il n'a pas été aidé », « ils (hommes) n'ont pas été aidés », « je n'ai pas été aidé ».",
+          "answer": "Lam yunsar, lam yunsarû, lam unsar."
+        },
+        {
+          "prompt": "Un élève écrit lam nasara pour « il n'a pas aidé ». Corrigez-le et expliquez.",
+          "answer": "Lam yansur. Lam prend toujours la forme du présent-futur et lui donne le sens du passé ; le verbe qui le suit est au jazm."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que fait lam au verbe au présent-futur ?",
+          "options": [
+            "Il le tourne vers le futur et le met au nasb",
+            "Rien à sa finale",
+            "Il le tourne vers le passé et le met au jazm",
+            "Il en fait un ordre"
+          ],
+          "explanation": "Lam yansur : « il n'a pas aidé »."
+        },
+        {
+          "prompt": "Comment les livres ottomans appellent-ils lam yansur ?",
+          "options": [
+            "La négation englobante",
+            "La négation du présent",
+            "La négation renforcée du futur",
+            "La négation absolue du passé (jahd mutlaq)"
+          ],
+          "explanation": "Le passé est nié sans limite quant au moment."
+        },
+        {
+          "prompt": "Lam yansurû vient de yansurûna. Que s'est-il passé ?",
+          "options": [
+            "Le nûn a été supprimé",
+            "Le wâw a été supprimé",
+            "Rien",
+            "Un sukûn a été ajouté"
+          ],
+          "explanation": "Les cinq verbes sont au jazm par la suppression du nûn."
+        },
+        {
+          "prompt": "Qu'arrive-t-il à yansurna après lam ?",
+          "options": [
+            "Le nûn est supprimé",
+            "Rien : le -na des femmes reste",
+            "Il prend une fatha",
+            "Il devient yansur"
+          ],
+          "explanation": "Les formes avec le nûn des femmes ne changent jamais."
+        },
+        {
+          "prompt": "« Il n'a pas été aidé » se dit…",
+          "options": [
+            "Lam yansur",
+            "Lam nusira",
+            "Lam yunsar",
+            "Lan yunsara"
+          ],
+          "explanation": "Lam avec le présent-futur passif au jazm."
+        },
+        {
+          "prompt": "Laquelle est correcte pour « je n'ai pas écrit » ?",
+          "options": [
+            "Lam katabtu",
+            "Lam aktubu",
+            "Lan aktuba",
+            "Lam aktub"
+          ],
+          "explanation": "Lam avec le présent-futur de celui qui parle, au jazm."
+        },
+        {
+          "prompt": "En quoi la négation par lam d'al-Amthila diffère-t-elle de mâ nasara ?",
+          "options": [
+            "Lam emploie la forme du présent-futur ; mâ emploie ici la forme du passé",
+            "Lam est pour le futur",
+            "Mâ met le verbe au jazm",
+            "Il n'y a aucune différence de forme"
+          ],
+          "explanation": "Les deux nient le passé ; lam yansur est la forme qu'enseigne al-Amthila."
+        }
+      ],
+      "diagram": {
+        "caption": "La négation absolue du passé de nasara, à l'actif (al-Amthila, p. 241)",
+        "labels": {
+          "The absolute denial of naṣara, active (al-Amthila, p. 241)": "La négation absolue du passé de nasara, à l'actif (al-Amthila, p. 241)",
+          "Person": "Personne",
+          "One": "Un",
+          "Two": "Deux",
+          "Many": "Plusieurs",
+          "absent, man": "absent, homme",
+          "absent, woman": "absente, femme",
+          "addressed, man": "interlocuteur",
+          "addressed, woman": "interlocutrice",
+          "the speaker": "celui qui parle"
+        }
+      },
+      "text": [
+        "lam yansur « il n'a pas aidé », lam yansurâ « eux deux (m.) n'ont pas aidé », lam yansurû « ils n'ont pas aidé », lam tansur « elle n'a pas aidé »\nlam tansurâ « elles deux n'ont pas aidé », lam yansurna « elles n'ont pas aidé », lam tansur « tu (m.) n'as pas aidé », lam tansurâ « vous deux (m.) n'avez pas aidé »\nlam tansurû « vous (m. pl.) n'avez pas aidé », lam tansurî « tu (f.) n'as pas aidé », lam tansurâ « vous deux (f.) n'avez pas aidé », lam tansurna « vous (f. pl.) n'avez pas aidé »\nlam ansur « je n'ai pas aidé », lam nansur « nous n'avons pas aidé »",
+        "lam yunsar « il n'a pas été aidé », lam yunsarâ « eux deux (m.) n'ont pas été aidés », lam yunsarû « ils n'ont pas été aidés », lam tunsar « elle n'a pas été aidée »\nlam tunsarâ « elles deux n'ont pas été aidées », lam yunsarna « elles n'ont pas été aidées », lam tunsar « tu (m.) n'as pas été aidé », lam tunsarâ « vous deux (m.) n'avez pas été aidés »\nlam tunsarû « vous (m. pl.) n'avez pas été aidés », lam tunsarî « tu (f.) n'as pas été aidée », lam tunsarâ « vous deux (f.) n'avez pas été aidées », lam tunsarna « vous (f. pl.) n'avez pas été aidées »\nlam unsar « je n'ai pas été aidé », lam nunsar « nous n'avons pas été aidés »"
+      ]
+    },
+    "11": {
+      "title": "La négation englobante : lammâ",
+      "body": [
+        "La deuxième négation est lammâ : lammâ yansur, « il n'a pas encore aidé ». Ses formes sont exactement celles de lam, le présent-futur au jazm : lammâ yansur, lammâ yansurû, lammâ yansurna, et au passif lammâ yunsar. Seul son sens est différent.",
+        "Les livres ottomans l'appellent la négation englobante (al-jahd al-mustaghriq) : elle embrasse tout le passé jusqu'au moment où l'on parle, et laisse ouvert que l'acte puisse encore arriver. Lam yansur peut parler d'un passé désormais clos (« il n'a pas aidé ce jour-là ») ; lammâ yansur dit « jusqu'à maintenant il n'a pas aidé, et on l'attend ».",
+        "Le Coran montre le sens : wa-lammâ yadkhuli al-îmânu fî qulûbikum, « la foi n'est pas encore entrée dans vos cœurs » (Coran 49:14). La foi n'est pas entrée jusqu'à maintenant, et on l'attend. Le sukûn de yadkhul n'y prend une kasra que pour se joindre au mot suivant.",
+        "Un piège : lammâ suivi d'un verbe au passé est un tout autre mot, le lammâ de temps, « lorsque » : lammâ jâ'a Zaydun, « lorsque Zayd est venu ». Il ne régit rien. Le lammâ d'al-Amthila vient toujours devant un verbe au présent-futur, et le met au jazm."
+      ],
+      "terms": [
+        "la négation englobante : « pas encore »",
+        "devant le présent-futur : « pas encore », avec jazm",
+        "le lammâ de temps, « lorsque », devant le passé"
+      ],
+      "examples": [
+        "lammâ yansur, « il n'a pas encore aidé »",
+        "lammâ yunsarû, « ils n'ont pas encore été aidés » : le passif",
+        "wa-lammâ yadkhuli al-îmânu fî qulûbikum, « la foi n'est pas encore entrée dans vos cœurs » (Coran 49:14)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mettez lammâ devant yaktubu à ces personnes : il, ils (hommes), toi (une femme), je.",
+          "answer": "Lammâ yaktub, lammâ yaktubû, lammâ taktubî, lammâ aktub."
+        },
+        {
+          "prompt": "Traduisez lam yaktub et lammâ yaktub et expliquez la différence.",
+          "answer": "Lam yaktub : « il n'a pas écrit », une négation dans le passé sans rien dire de plus. Lammâ yaktub : « il n'a pas encore écrit », la négation va jusqu'à maintenant et l'écriture est encore attendue."
+        },
+        {
+          "prompt": "Dans wa-lammâ yadkhuli al-îmânu (Coran 49:14), pourquoi yadkhul finit-il par une kasra ?",
+          "answer": "Il est au jazm après lammâ, il finit donc par un sukûn ; ce sukûn rencontre le sukûn de l'article dans al-îmân, et la kasra n'est ajoutée que pour joindre les deux mots."
+        },
+        {
+          "prompt": "Quel lammâ est-ce, et que fait-il ? (a) lammâ yansur ; (b) lammâ jâ'a Zaydun.",
+          "answer": "(a) Le lammâ de négation, « pas encore », qui met le présent-futur au jazm. (b) Le lammâ de temps, « lorsque », devant un verbe au passé ; il ne régit rien."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que signifie lammâ yansur ?",
+          "options": [
+            "Il n'a pas aidé",
+            "Il n'aidera pas",
+            "Lorsqu'il a aidé",
+            "Il n'a pas encore aidé"
+          ],
+          "explanation": "La négation va jusqu'à maintenant, et l'acte est attendu."
+        },
+        {
+          "prompt": "En quoi les formes de lammâ diffèrent-elles de celles de lam ?",
+          "options": [
+            "En rien : les deux mettent le présent-futur au jazm",
+            "Lammâ le met au nasb",
+            "Lammâ garde le nûn",
+            "Lammâ prend le passé"
+          ],
+          "explanation": "Seul le sens diffère."
+        },
+        {
+          "prompt": "Comment les livres ottomans appellent-ils lammâ yansur ?",
+          "options": [
+            "La négation absolue du passé",
+            "La négation englobante (jahd mustaghriq)",
+            "La négation du futur",
+            "L'interdiction"
+          ],
+          "explanation": "Mustaghriq : elle embrasse tout le passé jusqu'à maintenant."
+        },
+        {
+          "prompt": "Lammâ jâ'a Zaydun signifie…",
+          "options": [
+            "« Zayd n'est pas encore venu »",
+            "« Zayd n'est pas venu »",
+            "« Lorsque Zayd est venu »",
+            "« Que Zayd vienne »"
+          ],
+          "explanation": "Devant un verbe au passé, lammâ signifie « lorsque » et ne régit rien."
+        },
+        {
+          "prompt": "En Coran 49:14, la foi n'est pas encore entrée dans les cœurs. Est-elle attendue ?",
+          "options": [
+            "Non : lammâ nie pour toujours",
+            "Le verset ne dit rien du temps",
+            "Seulement dans le passé",
+            "Oui : lammâ la laisse attendue"
+          ],
+          "explanation": "C'est le sens de la négation englobante."
+        },
+        {
+          "prompt": "« Elles n'ont pas encore aidé » se dit…",
+          "options": [
+            "Lammâ yansurna",
+            "Lammâ yansurû",
+            "Lammâ yansurnâ",
+            "Lammâ nasarna"
+          ],
+          "explanation": "Le -na des femmes reste après lammâ."
+        },
+        {
+          "prompt": "Lammâ yunsar est…",
+          "options": [
+            "actif : « il n'a pas encore aidé »",
+            "passif : « il n'a pas encore été aidé »",
+            "un ordre",
+            "une négation du futur"
+          ],
+          "explanation": "Damma sur le préfixe, fatha sur l'avant-dernière lettre."
+        }
+      ],
+      "diagram": {
+        "caption": "Lam et lammâ comparés",
+        "labels": {
+          "Lam and lammā compared": "Lam et lammâ comparés",
+          "Point": "Point",
+          "lam": "lam",
+          "lammā": "lammâ",
+          "example": "exemple",
+          "meaning": "sens",
+          "he did not help": "il n'a pas aidé",
+          "he has not yet helped": "il n'a pas encore aidé",
+          "the time denied": "le temps nié",
+          "the past, without limit": "le passé, sans limite",
+          "the whole past up to now": "tout le passé jusqu'à maintenant",
+          "the act may still come": "l'acte peut encore venir",
+          "not said": "non dit",
+          "expected": "attendu",
+          "the ending": "la finale",
+          "jazm": "jazm"
+        }
+      },
+      "text": [
+        "lammâ yansur « il n'a pas encore aidé », lammâ yansurâ « eux deux (m.) n'ont pas encore aidé », lammâ yansurû « ils n'ont pas encore aidé », lammâ tansur « elle n'a pas encore aidé »\nlammâ tansurâ « elles deux n'ont pas encore aidé », lammâ yansurna « elles n'ont pas encore aidé », lammâ tansur « tu (m.) n'as pas encore aidé », lammâ tansurâ « vous deux (m.) n'avez pas encore aidé »\nlammâ tansurû « vous (m. pl.) n'avez pas encore aidé », lammâ tansurî « tu (f.) n'as pas encore aidé »\nlammâ tansurâ « vous deux (f.) n'avez pas encore aidé », lammâ tansurna « vous (f. pl.) n'avez pas encore aidé », lammâ ansur « je n'ai pas encore aidé », lammâ nansur « nous n'avons pas encore aidé »",
+        "lammâ yunsar « il n'a pas encore été aidé », lammâ yunsarâ « eux deux (m.) n'ont pas encore été aidés », lammâ yunsarû « ils n'ont pas encore été aidés », lammâ tunsar « elle n'a pas encore été aidée »\nlammâ tunsarâ « elles deux n'ont pas encore été aidées », lammâ yunsarna « elles n'ont pas encore été aidées », lammâ tunsar « tu (m.) n'as pas encore été aidé », lammâ tunsarâ « vous deux (m.) n'avez pas encore été aidés »\nlammâ tunsarû « vous (m. pl.) n'avez pas encore été aidés », lammâ tunsarî « tu (f.) n'as pas encore été aidée », lammâ tunsarâ « vous deux (f.) n'avez pas encore été aidées », lammâ tunsarna « vous (f. pl.) n'avez pas encore été aidées »\nlammâ unsar « je n'ai pas encore été aidé », lammâ nunsar « nous n'avons pas encore été aidés »"
+      ]
+    },
+    "12": {
+      "title": "Les négations du présent et du futur : mâ et lâ",
+      "body": [
+        "Deux négations ne changent rien au verbe. Mâ yansuru, « il n'aide pas », est la négation du présent (nafy al-hâl) ; lâ yansuru, « il n'aidera pas », est la négation du futur (nafy al-istiqbâl). Leurs quatre tableaux, actif et passif, sont simplement les tableaux du présent-futur avec mâ ou lâ devant chaque forme.",
+        "Puisque ni l'une ni l'autre ne régit le verbe, chaque finale reste : le -u (mâ yansuru, lâ ansuru), et le nûn des cinq verbes (mâ yansurâni, lâ yansurûna, lâ tansurîna). Mettez cela à côté de lam, lammâ et lan, qui changent tous la finale, et les cinq négations se rangent en deux groupes : celles qui régissent et celles qui ne régissent pas.",
+        "Al-Amthila donne à chaque négation un seul temps, pour que l'élève distingue les cinq : lam et lammâ pour le passé, mâ pour le présent, lâ et lan pour le futur. Le nahw en dit davantage. Lâ devant le présent-futur peut aussi nier le présent, et mâ peut aussi se tenir devant le passé, mâ nasara, « il n'a pas aidé ». Le schéma d'al-Amthila est une première carte, non tout le pays.",
+        "Le grand piège de cette leçon est le lâ de l'interdiction, qui a le même aspect. Lâ yansuru, avec damma, est une négation : « il n'aidera pas ». Lâ yansur, avec sukûn, est une interdiction : « qu'il n'aide pas ». À la deuxième personne, la différence est plus nette encore : lâ tansuru, « tu n'aideras pas », contre lâ tansur, « n'aide pas ! ». Une voyelle sépare une affirmation d'un ordre.",
+        "Les tableaux du passif suivent la même règle sur le présent-futur passif : mâ yunsaru, « il n'est pas aidé », lâ yunsaru, « il ne sera pas aidé », avec toutes les finales gardées."
+      ],
+      "terms": [
+        "la négation du présent : mâ yansuru",
+        "la négation du futur : lâ yansuru",
+        "le lâ de négation, qui ne régit rien",
+        "le lâ de l'interdiction, qui met le verbe au jazm"
+      ],
+      "examples": [
+        "mâ yansuru, mâ yansurûna : la finale gardée après mâ",
+        "lâ tansurîna, « tu n'aideras pas (à une femme) » : le nûn gardé après lâ",
+        "lâ tansuru, « tu n'aideras pas » ; lâ tansur, « n'aide pas ! »",
+        "lâ yunsaru, « il ne sera pas aidé » : le passif"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mettez mâ et lâ devant ces formes de kataba et traduisez : yaktubu, yaktubûna, taktubîna.",
+          "answer": "Mâ yaktubu « il n'écrit pas », lâ yaktubu « il n'écrira pas » ; mâ yaktubûna, lâ yaktubûna « ils n'écrivent pas, n'écriront pas » ; mâ taktubîna, lâ taktubîna « tu n'écris pas, n'écriras pas (à une femme) ». Aucune finale ne change."
+        },
+        {
+          "prompt": "Traduisez et dites laquelle est une négation et laquelle une interdiction : lâ tansuru ; lâ tansur ; lâ yansurûna ; lâ yansurû.",
+          "answer": "Lâ tansuru : négation, « tu n'aideras pas ». Lâ tansur : interdiction, « n'aide pas ! ». Lâ yansurûna : négation, « ils n'aideront pas ». Lâ yansurû : interdiction, « qu'ils n'aident pas » (le nûn supprimé au jazm)."
+        },
+        {
+          "prompt": "Donnez, d'après les tableaux du passif : « ils (hommes) ne sont pas aidés » et « tu ne seras pas aidée ».",
+          "answer": "Mâ yunsarûna ; lâ tunsarîna."
+        },
+        {
+          "prompt": "Lesquelles des cinq négations changent la finale du verbe, et comment ?",
+          "answer": "Lam et lammâ le mettent au jazm (sukûn, ou le nûn supprimé) ; lan le met au nasb (fatha, ou le nûn supprimé). Mâ et lâ ne changent rien."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que fait mâ à la finale de yansuru ?",
+          "options": [
+            "Rien",
+            "Il la met au jazm",
+            "Il la met au nasb",
+            "Il supprime le préfixe"
+          ],
+          "explanation": "Mâ yansuru : la damma reste."
+        },
+        {
+          "prompt": "Quel temps al-Amthila donne-t-il à lâ yansuru ?",
+          "options": [
+            "Le présent",
+            "Le futur",
+            "Le passé",
+            "Aucun temps"
+          ],
+          "explanation": "Nafy al-istiqbâl : « il n'aidera pas »."
+        },
+        {
+          "prompt": "Lâ tansur, avec sukûn, signifie…",
+          "options": [
+            "« tu n'aideras pas »",
+            "« tu n'as pas aidé »",
+            "« n'aide pas ! »",
+            "« elle n'aidera pas »"
+          ],
+          "explanation": "Le lâ de l'interdiction met le verbe au jazm."
+        },
+        {
+          "prompt": "Lâ tansurîna signifie…",
+          "options": [
+            "« n'aide pas, femme ! »",
+            "« tu n'as pas aidé »",
+            "« ils n'aideront pas »",
+            "« tu n'aideras pas (à une femme) »"
+          ],
+          "explanation": "Le nûn reste : c'est une négation, non une interdiction (ce serait lâ tansurî)."
+        },
+        {
+          "prompt": "Quelles négations régissent le verbe ?",
+          "options": [
+            "Lam, lammâ et lan",
+            "Mâ et lâ",
+            "Les cinq",
+            "Aucune"
+          ],
+          "explanation": "Mâ et lâ laissent la finale telle qu'elle est."
+        },
+        {
+          "prompt": "Mâ peut-il aussi venir devant un verbe au passé ?",
+          "options": [
+            "Non, jamais",
+            "Oui : mâ nasara, « il n'a pas aidé »",
+            "Seulement en poésie",
+            "Seulement avec le passif"
+          ],
+          "explanation": "Le nahw le permet ; al-Amthila donne à mâ un seul emploi pour garder le schéma simple."
+        },
+        {
+          "prompt": "« Il ne sera pas aidé » se dit…",
+          "options": [
+            "Lâ yansuru",
+            "Lâ yunsar",
+            "Lâ yunsaru",
+            "Lan yansura"
+          ],
+          "explanation": "Lâ avec le présent-futur passif, la finale gardée."
+        }
+      ],
+      "diagram": {
+        "caption": "Les cinq négations d'al-Amthila",
+        "labels": {
+          "The five negations of the Amthila": "Les cinq négations d'al-Amthila",
+          "Particle": "Particule",
+          "Name": "Nom",
+          "Time": "Temps",
+          "The ending": "La finale",
+          "Example": "Exemple",
+          "لَمْ lam": "لَمْ lam",
+          "absolute denial": "négation absolue du passé",
+          "past": "passé",
+          "jazm": "jazm",
+          "لَمَّا lammā": "لَمَّا lammâ",
+          "comprehensive denial": "négation englobante",
+          "past up to now": "le passé jusqu'à maintenant",
+          "مَا mā": "مَا mâ",
+          "negation of the present": "négation du présent",
+          "present": "présent",
+          "unchanged": "inchangée",
+          "لَا lā": "لَا lâ",
+          "negation of the future": "négation du futur",
+          "future": "futur",
+          "لَنْ lan": "لَنْ lan",
+          "emphatic negation of the future": "négation renforcée du futur",
+          "naṣb": "nasb"
+        }
+      },
+      "text": [
+        "mâ yansuru « il n'aide pas », mâ yansurâni « eux deux (m.) n'aident pas », mâ yansurûna « ils n'aident pas », mâ tansuru « elle n'aide pas »\nmâ tansurâni « elles deux n'aident pas », mâ yansurna « elles n'aident pas », mâ tansuru « tu (m.) n'aides pas », mâ tansurâni « vous deux (m.) n'aidez pas »\nmâ tansurûna « vous (m. pl.) n'aidez pas », mâ tansurîna « tu (f.) n'aides pas », mâ tansurâni « vous deux (f.) n'aidez pas », mâ tansurna « vous (f. pl.) n'aidez pas »\nmâ ansuru « je n'aide pas », mâ nansuru « nous n'aidons pas »",
+        "mâ yunsaru « il n'est pas aidé », mâ yunsarâni « eux deux (m.) ne sont pas aidés », mâ yunsarûna « ils ne sont pas aidés », mâ tunsaru « elle n'est pas aidée »\nmâ tunsarâni « elles deux ne sont pas aidées », mâ yunsarna « elles ne sont pas aidées », mâ tunsaru « tu (m.) n'es pas aidé », mâ tunsarâni « vous deux (m.) n'êtes pas aidés »\nmâ tunsarûna « vous (m. pl.) n'êtes pas aidés », mâ tunsarîna « tu (f.) n'es pas aidée », mâ tunsarâni « vous deux (f.) n'êtes pas aidées », mâ tunsarna « vous (f. pl.) n'êtes pas aidées »\nmâ unsaru « je ne suis pas aidé », mâ nunsaru « nous ne sommes pas aidés »",
+        "lâ yansuru « il n'aidera pas », lâ yansurâni « eux deux (m.) n'aideront pas », lâ yansurûna « ils n'aideront pas », lâ tansuru « elle n'aidera pas »\nlâ tansurâni « elles deux n'aideront pas », lâ yansurna « elles n'aideront pas », lâ tansuru « tu (m.) n'aideras pas », lâ tansurâni « vous deux (m.) n'aiderez pas »\nlâ tansurûna « vous (m. pl.) n'aiderez pas », lâ tansurîna « tu (f.) n'aideras pas », lâ tansurâni « vous deux (f.) n'aiderez pas »\nlâ tansurna « vous (f. pl.) n'aiderez pas », lâ ansuru « je n'aiderai pas », lâ nansuru « nous n'aiderons pas »",
+        "lâ yunsaru « il ne sera pas aidé », lâ yunsarâni « eux deux (m.) ne seront pas aidés », lâ yunsarûna « ils ne seront pas aidés »\nlâ tunsaru « elle ne sera pas aidée », lâ tunsarâni « elles deux ne seront pas aidées », lâ yunsarna « elles ne seront pas aidées »\nlâ tunsaru « tu (m.) ne seras pas aidé », lâ tunsarâni « vous deux (m.) ne serez pas aidés », lâ tunsarûna « vous (m. pl.) ne serez pas aidés »\nlâ tunsarîna « tu (f.) ne seras pas aidée », lâ tunsarâni « vous deux (f.) ne serez pas aidées », lâ tunsarna « vous (f. pl.) ne serez pas aidées »\nlâ unsaru « je ne serai pas aidé », lâ nunsaru « nous ne serons pas aidés »"
+      ]
+    },
+    "13": {
+      "title": "La négation renforcée du futur : lan",
+      "body": [
+        "La dernière négation est lan : lan yansura, « il n'aidera jamais », « il n'aidera certainement pas ». Les livres ottomans l'appellent la négation renforcée du futur (ta'kîd nafy al-istiqbâl) : ce que dit lâ yansuru, lan yansura le dit plus fortement.",
+        "Lan régit le verbe et le met au nasb. Les formes à une personne prennent une fatha : lan yansura, lan tansura, lan ansura, lan nansura. Les cinq verbes perdent leur nûn : lan yansurâ, lan yansurû, lan tansurî. Les formes des femmes gardent leur -na : lan yansurna, lan tansurna.",
+        "Comparez maintenant lam. Les deux suppriment le nûn des cinq verbes ; lam yansurû et lan yansurû s'écrivent et se disent donc de la même façon, le premier au jazm (« ils n'ont pas aidé »), le second au nasb (« ils n'aideront jamais »). Seule la particule les distingue. Dans les formes à une personne, les deux diffèrent : lam yansur, sukûn ; lan yansura, fatha.",
+        "Le tableau du passif donne lan yunsara, « il ne sera jamais aidé », jusqu'à lan nunsara. Le Coran a l'actif de celui qui parle : fa-lan abraha al-arda, « je ne quitterai pas la terre » (Coran 12:80), abraha au nasb après lan."
+      ],
+      "terms": [
+        "la négation renforcée du futur : lan",
+        "« ne … jamais » : met le présent-futur au nasb",
+        "l'état du verbe avec fatha ou un nûn supprimé"
+      ],
+      "examples": [
+        "lan yansura, lan yansurû : la fatha, et le nûn supprimé",
+        "lam yansurû, « ils n'ont pas aidé » ; lan yansurû, « ils n'aideront jamais » : semblables, sauf la particule",
+        "fa-lan abraha al-arda, « je ne quitterai pas la terre » (Coran 12:80)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Mettez lan devant yadribu aux quatorze personnes.",
+          "answer": "Lan yadriba, lan yadribâ, lan yadribû, lan tadriba, lan tadribâ, lan yadribna, lan tadriba, lan tadribâ, lan tadribû, lan tadribî, lan tadribâ, lan tadribna, lan adriba, lan nadriba."
+        },
+        {
+          "prompt": "Lam yadribû et lan yadribû ont le même aspect. Traduisez les deux et nommez l'état du verbe dans chacun.",
+          "answer": "Lam yadribû : « ils n'ont pas frappé », au jazm. Lan yadribû : « ils ne frapperont jamais », au nasb. Dans les deux, le nûn est supprimé."
+        },
+        {
+          "prompt": "Donnez d'après le tableau du passif : « il ne sera jamais aidé », « tu ne seras jamais aidée », « nous ne serons jamais aidés ».",
+          "answer": "Lan yunsara, lan tunsarî, lan nunsara."
+        },
+        {
+          "prompt": "Analysez abraha dans fa-lan abraha al-arda (Coran 12:80).",
+          "answer": "Un verbe au présent-futur de celui qui parle (la hamza de anaytu), au nasb après lan, avec pour signe la fatha ; son agent est un « je » caché ; al-arda est son complément d'objet."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que fait lan au verbe au présent-futur ?",
+          "options": [
+            "Il le met au jazm et nie le passé",
+            "Il le met au nasb et nie fortement le futur",
+            "Rien",
+            "Il en fait un ordre"
+          ],
+          "explanation": "Lan yansura : « il n'aidera jamais »."
+        },
+        {
+          "prompt": "Lan yansurna : qu'arrive-t-il au -na ?",
+          "options": [
+            "Il est supprimé",
+            "Il prend une fatha",
+            "Il reste",
+            "Il devient -nâ"
+          ],
+          "explanation": "Le nûn des femmes ne change jamais."
+        },
+        {
+          "prompt": "Quelle paire s'écrit de la même façon ?",
+          "options": [
+            "Lam yansur et lan yansura",
+            "Lâ yansuru et lan yansura",
+            "Mâ yansuru et lam yansur",
+            "Lam yansurû et lan yansurû"
+          ],
+          "explanation": "Dans les cinq verbes, le jazm et le nasb suppriment tous deux le nûn."
+        },
+        {
+          "prompt": "Comment les livres ottomans appellent-ils lan yansura ?",
+          "options": [
+            "La négation renforcée du futur",
+            "La négation du présent",
+            "La négation absolue du passé",
+            "L'interdiction"
+          ],
+          "explanation": "Ta'kîd nafy al-istiqbâl."
+        },
+        {
+          "prompt": "« Je n'aiderai jamais » se dit…",
+          "options": [
+            "Lan ansur",
+            "Lan ansura",
+            "Lam ansur",
+            "Lâ ansuru"
+          ],
+          "explanation": "Lan avec le présent-futur de celui qui parle, au nasb par la fatha."
+        },
+        {
+          "prompt": "Lan yunsara est…",
+          "options": [
+            "actif : « il n'aidera jamais »",
+            "une interdiction",
+            "passif : « il ne sera jamais aidé »",
+            "au jazm"
+          ],
+          "explanation": "Le présent-futur passif au nasb."
+        },
+        {
+          "prompt": "En Coran 12:80, fa-lan abraha, abraha est…",
+          "options": [
+            "au jazm par le sukûn",
+            "au raf'",
+            "au khafd",
+            "au nasb par la fatha"
+          ],
+          "explanation": "Lan met le présent-futur au nasb."
+        }
+      ],
+      "diagram": {
+        "caption": "La négation renforcée de nasara, à l'actif (al-Amthila, p. 247–248)",
+        "labels": {
+          "The emphatic negation of naṣara, active (al-Amthila, pp. 247–248)": "La négation renforcée de nasara, à l'actif (al-Amthila, p. 247–248)",
+          "Person": "Personne",
+          "One": "Un",
+          "Two": "Deux",
+          "Many": "Plusieurs",
+          "absent, man": "absent, homme",
+          "absent, woman": "absente, femme",
+          "addressed, man": "interlocuteur",
+          "addressed, woman": "interlocutrice",
+          "the speaker": "celui qui parle"
+        }
+      },
+      "text": [
+        "lan yansura « il n'aidera jamais », lan yansurâ « eux deux (m.) n'aideront jamais », lan yansurû « ils n'aideront jamais »\nlan tansura « elle n'aidera jamais », lan tansurâ « elles deux n'aideront jamais », lan yansurna « elles n'aideront jamais »\nlan tansura « tu (m.) n'aideras jamais », lan tansurâ « vous deux (m.) n'aiderez jamais », lan tansurû « vous (m. pl.) n'aiderez jamais »\nlan tansurî « tu (f.) n'aideras jamais », lan tansurâ « vous deux (f.) n'aiderez jamais », lan tansurna « vous (f. pl.) n'aiderez jamais »\nlan ansura « je n'aiderai jamais », lan nansura « nous n'aiderons jamais »",
+        "lan yunsara « il ne sera jamais aidé », lan yunsarâ « eux deux (m.) ne seront jamais aidés », lan yunsarû « ils ne seront jamais aidés »\nlan tunsara « elle ne sera jamais aidée », lan tunsarâ « elles deux ne seront jamais aidées », lan yunsarna « elles ne seront jamais aidées »\nlan tunsara « tu (m.) ne seras jamais aidé », lan tunsarâ « vous deux (m.) ne serez jamais aidés », lan tunsarû « vous (m. pl.) ne serez jamais aidés »\nlan tunsarî « tu (f.) ne seras jamais aidée », lan tunsarâ « vous deux (f.) ne serez jamais aidées », lan tunsarna « vous (f. pl.) ne serez jamais aidées »\nlan unsara « je ne serai jamais aidé », lan nunsara « nous ne serons jamais aidés »"
+      ]
+    },
+    "14": {
+      "title": "L'ordre et l'interdiction à l'absent",
+      "body": [
+        "Pour ordonner ou interdire à quelqu'un à qui l'on ne parle pas, l'arabe emploie le présent-futur avec une particule. L'ordre à l'absent (amr al-ghâ'ib) est li- avec le présent-futur au jazm : li-yansur, « qu'il aide », li-yansurû, « qu'ils aident ». L'interdiction à l'absent (nahy al-ghâ'ib) est lâ avec le présent-futur au jazm : lâ yansur, « qu'il n'aide pas », lâ yansurû, « qu'ils n'aident pas ».",
+        "Les finales sont celles de lam : sukûn dans les formes à une personne, le nûn supprimé dans les cinq verbes, le -na des femmes gardé (li-yansurna, lâ yansurna). Le lâm de l'ordre prend une kasra ; après wa- ou fa-, il perd sa voyelle, comme dans fa-l-yansur, « qu'il aide donc ».",
+        "Dans cette impression, les tableaux de l'actif ne donnent que les six personnes absentes, trois des hommes et trois des femmes. Les tableaux du passif en donnent huit : les six absents avec le présent-futur passif, li-yunsar, « qu'il soit aidé », lâ yunsar, « qu'il ne soit pas aidé », et deux de plus pour celui qui parle, li-unsar, « que je sois aidé », li-nunsar, « que nous soyons aidés », et lâ unsar, lâ nunsar.",
+        "Souvenez-vous du piège du lâ. Dans l'interdiction, le verbe est au jazm : lâ yansur, lâ yansurû. Dans la négation, il garde sa finale : lâ yansuru, lâ yansurûna. La première ordonne, la seconde ne fait qu'affirmer."
+      ],
+      "terms": [
+        "l'ordre à l'absent : li-yansur",
+        "l'interdiction à l'absent : lâ yansur",
+        "le lâm de l'ordre, avec kasra",
+        "le lâ de l'interdiction"
+      ],
+      "examples": [
+        "li-yansur, li-yansurû, li-yansurna : « qu'il aide, qu'ils aident, qu'elles aident »",
+        "lâ yansur, lâ yansurû : « qu'il n'aide pas, qu'ils n'aident pas »",
+        "li-unsar, « que je sois aidé » ; li-nunsar, « que nous soyons aidés » : le passif ajoute celui qui parle"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez l'ordre à l'absent de kataba à ses six personnes.",
+          "answer": "Li-yaktub, li-yaktubâ, li-yaktubû, li-taktub, li-taktubâ, li-yaktubna."
+        },
+        {
+          "prompt": "Donnez l'interdiction à l'absent de jalasa, « s'asseoir », à ses six personnes.",
+          "answer": "Lâ yajlis, lâ yajlisâ, lâ yajlisû, lâ tajlis, lâ tajlisâ, lâ yajlisna."
+        },
+        {
+          "prompt": "Traduisez d'après les tableaux du passif : li-unsar, lâ nunsar, li-yunsarû.",
+          "answer": "Li-unsar : « que je sois aidé ». Lâ nunsar : « que nous ne soyons pas aidés ». Li-yunsarû : « qu'ils soient aidés »."
+        },
+        {
+          "prompt": "Pourquoi le lâm de l'ordre n'a-t-il pas de voyelle dans fa-l-yansur ?",
+          "answer": "Après fa- ou wa-, le lâm de l'ordre perd sa kasra et se dit avec sukûn ; seul, c'est li-yansur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Comment se fait l'ordre à l'absent ?",
+          "options": [
+            "Par la forme de l'impératif",
+            "Par lâ avec le présent-futur au raf'",
+            "Par li- avec le présent-futur au jazm",
+            "Par lan avec le présent-futur"
+          ],
+          "explanation": "Li-yansur : « qu'il aide »."
+        },
+        {
+          "prompt": "Lâ yansurû signifie…",
+          "options": [
+            "« ils n'aideront pas »",
+            "« ils n'ont pas aidé »",
+            "« qu'ils aident »",
+            "« qu'ils n'aident pas »"
+          ],
+          "explanation": "Le nûn est supprimé : une interdiction au jazm."
+        },
+        {
+          "prompt": "Lâ yansurûna signifie…",
+          "options": [
+            "« ils n'aideront pas »",
+            "« qu'ils n'aident pas »",
+            "« n'aide pas ! »",
+            "« ils n'ont pas encore aidé »"
+          ],
+          "explanation": "Le nûn reste : une négation, non une interdiction."
+        },
+        {
+          "prompt": "Combien de personnes ont les tableaux actifs de l'absent dans cette impression ?",
+          "options": [
+            "Quatorze",
+            "Six",
+            "Huit",
+            "Trois"
+          ],
+          "explanation": "Trois des hommes, trois des femmes ; les tableaux du passif ajoutent celui qui parle."
+        },
+        {
+          "prompt": "Li-nunsar signifie…",
+          "options": [
+            "« aidons »",
+            "« nous avons été aidés »",
+            "« que nous soyons aidés »",
+            "« nous ne serons pas aidés »"
+          ],
+          "explanation": "Un ordre au passif pour celui qui parle avec d'autres."
+        },
+        {
+          "prompt": "Quelle voyelle a le lâm de l'ordre quand il est seul ?",
+          "options": [
+            "Fatha",
+            "Damma",
+            "Aucune",
+            "Kasra"
+          ],
+          "explanation": "Li-yansur ; après fa- ou wa-, il est muet."
+        },
+        {
+          "prompt": "« Qu'elle aide » se dit…",
+          "options": [
+            "Li-tansur",
+            "Li-yansur",
+            "Lâ tansur",
+            "Unsurî"
+          ],
+          "explanation": "La femme absente prend le préfixe ta-."
+        }
+      ],
+      "diagram": {
+        "caption": "L'ordre et l'interdiction à l'absent",
+        "labels": {
+          "Command and prohibition to the absent": "L'ordre et l'interdiction à l'absent",
+          "Person": "Personne",
+          "Command": "Ordre",
+          "Prohibition": "Interdiction",
+          "he": "il",
+          "they two (men)": "eux deux (hommes)",
+          "they (men)": "ils (hommes)",
+          "she": "elle",
+          "they two (women)": "elles deux (femmes)",
+          "they (women)": "elles (femmes)",
+          "I (passive)": "je (passif)",
+          "we (passive)": "nous (passif)"
+        }
+      },
+      "text": [
+        "li-yansur « qu'il aide », li-yansurâ « qu'eux deux (m.) aident », li-yansurû « qu'ils aident »\nli-tansur « qu'elle aide », li-tansurâ « qu'elles deux aident », li-yansurna « qu'elles aident »",
+        "li-yunsar « qu'il soit aidé », li-yunsarâ « qu'eux deux (m.) soient aidés », li-yunsarû « qu'ils soient aidés »\nli-tunsar « qu'elle soit aidée », li-tunsarâ « qu'elles deux soient aidées »\nli-yunsarna « qu'elles soient aidées », li-unsar « que je sois aidé », li-nunsar « que nous soyons aidés »",
+        "lâ yansur « qu'il n'aide pas », lâ yansurâ « qu'eux deux (m.) n'aident pas », lâ yansurû « qu'ils n'aident pas »\nlâ tansur « qu'elle n'aide pas », lâ tansurâ « qu'elles deux n'aident pas », lâ yansurna « qu'elles n'aident pas »",
+        "lâ yunsar « qu'il ne soit pas aidé », lâ yunsarâ « qu'eux deux (m.) ne soient pas aidés », lâ yunsarû « qu'ils ne soient pas aidés »\nlâ tunsar « qu'elle ne soit pas aidée », lâ tunsarâ « qu'elles deux ne soient pas aidées », lâ yunsarna « qu'elles ne soient pas aidées »\nlâ unsar « que je ne sois pas aidé », lâ nunsar « que nous ne soyons pas aidés »"
+      ]
+    },
+    "15": {
+      "title": "L'ordre et l'interdiction à celui qui est présent",
+      "body": [
+        "À la personne à qui l'on parle, l'ordre a une forme propre, l'impératif : unsur, unsurâ, unsurû, unsurî, unsurâ, unsurna : « aide ! » à un homme, à deux, à des hommes, à une femme, à deux femmes, à des femmes. C'est l'ordre à celui qui est présent (amr al-hâdir).",
+        "Il se fait à partir du présent-futur de la deuxième personne. Prenez tansuru, ôtez le préfixe ta-, et le mot commence maintenant par une lettre sans voyelle, ce que l'arabe ne peut prononcer ; on met donc une hamza devant, avec une damma quand le 'ayn a une damma (unsur, uktub) et une kasra quand il a une kasra ou une fatha (idrib, iftah, isma'). La fin est celle du jazm : sukûn, le nûn supprimé, le -na gardé. L'impression écrit la hamza sur un alif avec une damma : اُنْصُرْ.",
+        "Cette hamza est une hamza de liaison (wasl) : elle ne se dit qu'au début de la parole et tombe après un autre mot. Le Coran a fa-nsurnâ 'alâ al-qawmi al-kâfirîna, « donne-nous donc la victoire sur le peuple mécréant » (Coran 2:286), où, après fa-, aucune hamza ne s'entend. Dans le verbe quadrilitère, la hamza fait partie du schème et se dit toujours, avec une fatha : akrim, « honore ! ».",
+        "Le passif n'a pas de forme d'impératif ; le livre emploie donc le lâm de l'ordre avec le présent-futur passif : li-tunsar, « sois aidé ! », li-tunsarû, et ajoute li-unsar et li-nunsar pour celui qui parle. L'interdiction à celui qui est présent est lâ avec le présent-futur au jazm, à l'actif lâ tansur, « n'aide pas ! », jusqu'à lâ tansurna, et au passif lâ tunsar, « ne sois pas aidé », avec lâ unsar et lâ nunsar.",
+        "Avec cela, les tableaux du verbe sont complets : passé et présent-futur, chacun actif et passif, cinq négations, et l'ordre et l'interdiction à l'absent et à celui qui est présent. Chacun d'eux a été fait à partir des quatre tableaux des leçons 3 à 6."
+      ],
+      "terms": [
+        "l'ordre à celui qui est présent : l'impératif",
+        "l'interdiction à celui qui est présent : lâ tansur",
+        "la hamza de liaison, qui tombe après un autre mot",
+        "la hamza qui se dit toujours, comme dans akrim"
+      ],
+      "examples": [
+        "unsur, unsurî, unsurna : « aide ! » à un homme, à une femme, à des femmes",
+        "fa-nsurnâ 'alâ al-qawmi al-kâfirîna, « donne-nous donc la victoire sur le peuple mécréant » (Coran 2:286) : la hamza de liaison ne se dit pas",
+        "li-tunsar, « sois aidé ! » : le passif avec le lâm de l'ordre",
+        "lâ tansur, « n'aide pas ! » ; lâ tunsar, « ne sois pas aidé »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez l'impératif de daraba à ses six personnes.",
+          "answer": "Idrib, idribâ, idribû, idribî, idribâ, idribna."
+        },
+        {
+          "prompt": "Faites l'impératif à un homme de kataba, fataha, jalasa et akrama, et dites pourquoi la première voyelle diffère.",
+          "answer": "Uktub (damma, parce que yaktubu a une damma sur le 'ayn) ; iftah (kasra, le 'ayn a une fatha) ; ijlis (kasra, le 'ayn a une kasra) ; akrim (fatha : la hamza de af'ala, qui se dit toujours)."
+        },
+        {
+          "prompt": "Donnez l'interdiction à celui qui est présent de fataha : à un homme, à une femme, à des hommes.",
+          "answer": "Lâ taftah, lâ taftahî, lâ taftahû."
+        },
+        {
+          "prompt": "Dans fa-nsurnâ (Coran 2:286), pourquoi aucune hamza ne s'entend-elle avant le nûn ?",
+          "answer": "La hamza de l'impératif est une hamza de liaison : elle ne se dit qu'au début de la parole. Après fa-, elle tombe, bien que l'alif reste dans l'écriture."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "À partir de quelle forme se fait l'impératif ?",
+          "options": [
+            "Le passé",
+            "Le masdar",
+            "Le participe actif",
+            "Le présent-futur de la deuxième personne"
+          ],
+          "explanation": "Tansuru → unsur."
+        },
+        {
+          "prompt": "Pourquoi unsur commence-t-il par une damma ?",
+          "options": [
+            "Le 'ayn de yansuru a une damma",
+            "Tout impératif commence par une damma",
+            "Parce qu'il est passif",
+            "À cause du préfixe ta-"
+          ],
+          "explanation": "Damma pour une damma sur le 'ayn ; kasra sinon."
+        },
+        {
+          "prompt": "L'impératif de yaftahu est…",
+          "options": [
+            "Uftuh",
+            "Iftah",
+            "Aftah",
+            "Fatah"
+          ],
+          "explanation": "Avec une fatha sur le 'ayn, la hamza prend une kasra."
+        },
+        {
+          "prompt": "Comment le livre donne-t-il l'ordre passif à celui qui est présent ?",
+          "options": [
+            "Par une forme d'impératif passif",
+            "Par lan",
+            "Par le lâm de l'ordre : li-tunsar",
+            "Il n'en a pas"
+          ],
+          "explanation": "Le passif n'a pas de forme d'impératif propre."
+        },
+        {
+          "prompt": "Quelle sorte de hamza commence unsur ?",
+          "options": [
+            "Une hamza qui se dit toujours",
+            "Une lettre radicale",
+            "La hamza de l'interrogation",
+            "Une hamza de liaison, qui tombe après un autre mot"
+          ],
+          "explanation": "Fa-nsurnâ (Coran 2:286) : aucune hamza ne s'entend après fa-."
+        },
+        {
+          "prompt": "« N'aide pas ! » à une femme se dit…",
+          "options": [
+            "Lâ tansurî",
+            "Lâ tansurîna",
+            "Lâ tansur",
+            "Unsurî"
+          ],
+          "explanation": "L'interdiction au jazm : le nûn est supprimé."
+        },
+        {
+          "prompt": "L'impératif de akrama est…",
+          "options": [
+            "Ikrim",
+            "Akrim",
+            "Ukrum",
+            "Akram"
+          ],
+          "explanation": "Sa hamza appartient au schème et prend une fatha."
+        }
+      ],
+      "diagram": {
+        "caption": "Du présent-futur à l'impératif",
+        "labels": {
+          "From the present to the imperative": "Du présent-futur à l'impératif",
+          "Present (you)": "Présent-futur (tu)",
+          "Imperative": "Impératif",
+          "Vowel of the hamza": "Voyelle de la hamza",
+          "ḍamma (ʿayn with ḍamma)": "damma ('ayn avec damma)",
+          "ḍamma": "damma",
+          "kasra (ʿayn with kasra)": "kasra ('ayn avec kasra)",
+          "kasra (ʿayn with fatḥa)": "kasra ('ayn avec fatha)",
+          "kasra": "kasra",
+          "fatḥa, a hamza that is always said": "fatha, une hamza qui se dit toujours"
+        }
+      },
+      "text": [
+        "unsur « aide ! (à un homme) », unsurâ « aidez ! (à deux hommes) », unsurû « aidez ! (à des hommes) »\nunsurî « aide ! (à une femme) », unsurâ « aidez ! (à deux femmes) », unsurna « aidez ! (à des femmes) »",
+        "li-tunsar « sois aidé ! (à un homme) », li-tunsarâ « soyez aidés ! (à deux hommes) », li-tunsarû « soyez aidés ! (à des hommes) »\nli-tunsarî « sois aidée ! (à une femme) », li-tunsarâ « soyez aidées ! (à deux femmes) », li-tunsarna « soyez aidées ! (à des femmes) »\nli-unsar « que je sois aidé », li-nunsar « que nous soyons aidés »",
+        "lâ tansur « n'aide pas ! (à un homme) », lâ tansurâ « n'aidez pas ! (à deux hommes) », lâ tansurû « n'aidez pas ! (à des hommes) »\nlâ tansurî « n'aide pas ! (à une femme) », lâ tansurâ « n'aidez pas ! (à deux femmes) », lâ tansurna « n'aidez pas ! (à des femmes) »",
+        "lâ tunsar « ne sois pas aidé ! (à un homme) », lâ tunsarâ « ne soyez pas aidés ! (à deux hommes) », lâ tunsarû « ne soyez pas aidés ! (à des hommes) »\nlâ tunsarî « ne sois pas aidée ! (à une femme) », lâ tunsarâ « ne soyez pas aidées ! (à deux femmes) », lâ tunsarna « ne soyez pas aidées ! (à des femmes) »\nlâ unsar « que je ne sois pas aidé », lâ nunsar « que nous ne soyons pas aidés »"
+      ]
+    },
+    "16": {
+      "title": "Les noms de temps, de lieu et d'instrument",
+      "body": [
+        "La dernière partie du livre donne les noms faits à partir du verbe, chacun dans son petit tableau. Le premier est mansar : mansar, mansarâni, manâsir. Le titre nomme trois choses à la fois : le nom de temps (« un temps de l'aide »), le nom de lieu (« un lieu de l'aide ») et le masdar mîmî (« une aide »). Une forme, trois emplois ; la phrase décide lequel.",
+        "Son schème est maf'al : un mîm avant la racine et une fatha sur l'avant-dernière lettre. Les livres de sarf donnent la règle : le nom de temps et de lieu est maf'al quand le présent-futur a une damma ou une fatha sur le 'ayn (yansuru, yaftahu), et maf'il quand il a une kasra (yadribu, yajlisu), comme dans le mot familier majlis, « un lieu où l'on s'assied ». Le masdar mîmî du verbe nu sain est maf'al dans chaque classe.",
+        "Le nom d'instrument (ism al-âla) est minsar : minsar, minsarâni, manâsir : « une chose pour aider ». Son schème est ici mif'al ; les livres en ajoutent deux autres, mif'âl et mif'ala, que montrent beaucoup de mots courants : miftâh, « une clé », la chose avec laquelle on ouvre.",
+        "Regardez les deux tableaux ensemble : mansar et minsar ne diffèrent que par la voyelle du mîm, fatha pour le temps et le lieu, kasra pour l'instrument, et leurs pluriels brisés sont les mêmes, manâsir. Dans un tel cas, seul le singulier, ou la phrase, montre quel nom est visé."
+      ],
+      "terms": [
+        "le nom de temps : maf'al, maf'il",
+        "le nom de lieu : maf'al, maf'il",
+        "le masdar avec un mîm : maf'al",
+        "le nom d'instrument : mif'al, mif'âl, mif'ala"
+      ],
+      "examples": [
+        "mansarun, mansarâni, manâsiru : un temps ou un lieu de l'aide, un, deux, plusieurs",
+        "minsarun, minsarâni, manâsiru : un instrument pour aider",
+        "maf'al et mif'al : les deux schèmes, à une voyelle d'écart"
+      ],
+      "tasks": [
+        {
+          "prompt": "Quelles trois choses mansar peut-il nommer ? Traduisez-le dans chaque sens.",
+          "answer": "Un nom de temps, « un temps de l'aide » ; un nom de lieu, « un lieu de l'aide » ; et un masdar mîmî, « une aide »."
+        },
+        {
+          "prompt": "Donnez le schème du nom de lieu pour un verbe dont le présent-futur est yaftahu, et pour un dont le présent-futur est yajlisu.",
+          "answer": "Maf'al pour yaftahu (fatha sur le 'ayn) ; maf'il pour yajlisu (kasra sur le 'ayn), comme dans majlis."
+        },
+        {
+          "prompt": "Comment distingue-t-on manâsir pluriel de mansar et manâsir pluriel de minsar ?",
+          "answer": "C'est le même mot ; seule la phrase, ou le singulier que l'on a en tête, montre s'il s'agit de lieux ou d'instruments."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Qu'est-ce que minsar ?",
+          "options": [
+            "Le nom d'instrument",
+            "Le nom de lieu",
+            "Le masdar mîmî",
+            "Le diminutif"
+          ],
+          "explanation": "Mif'al : une chose pour aider."
+        },
+        {
+          "prompt": "Quels trois emplois le titre donne-t-il pour mansar ?",
+          "options": [
+            "Agent, complément d'objet, instrument",
+            "Temps, lieu, et le masdar mîmî",
+            "Un seul acte, manière, diminutif",
+            "Élatif, forme intensive, nisba"
+          ],
+          "explanation": "Une seule forme sert aux trois."
+        },
+        {
+          "prompt": "Quand le nom de lieu est-il maf'il ?",
+          "options": [
+            "Quand le présent-futur a une damma",
+            "Toujours",
+            "Quand le présent-futur a une kasra sur le 'ayn",
+            "Jamais"
+          ],
+          "explanation": "Yajlisu → majlis ; yansuru → mansar."
+        },
+        {
+          "prompt": "Quel est, dans le livre, le pluriel à la fois de mansar et de minsar ?",
+          "options": [
+            "Mansarât",
+            "Nussâr",
+            "Minâsir",
+            "Manâsir"
+          ],
+          "explanation": "Mafâ'il pour les deux."
+        },
+        {
+          "prompt": "Miftâh, « clé », est sur quel schème de l'instrument ?",
+          "options": [
+            "Mif'âl",
+            "Mif'al",
+            "Maf'al",
+            "Maf'ûl"
+          ],
+          "explanation": "Les livres donnent mif'al, mif'âl et mif'ala."
+        },
+        {
+          "prompt": "Qu'est-ce qui seul distingue mansar de minsar ?",
+          "options": [
+            "La racine",
+            "La voyelle du mîm",
+            "La finale",
+            "Le nombre de lettres"
+          ],
+          "explanation": "Fatha : temps ou lieu ; kasra : instrument."
+        },
+        {
+          "prompt": "Le masdar mîmî du verbe nu sain est sur…",
+          "options": [
+            "maf'il dans chaque classe",
+            "mif'al",
+            "maf'al dans chaque classe",
+            "maf'ûl"
+          ],
+          "explanation": "À la différence du nom de lieu, il ne suit pas la voyelle du présent-futur."
+        }
+      ],
+      "diagram": {
+        "caption": "Les noms de temps, de lieu et d'instrument de nasara (al-Amthila, p. 253)",
+        "labels": {
+          "The nouns of time, place and instrument of naṣara (al-Amthila, p. 253)": "Les noms de temps, de lieu et d'instrument de nasara (al-Amthila, p. 253)",
+          "Noun": "Nom",
+          "Pattern": "Schème",
+          "One": "Un",
+          "Two": "Deux",
+          "Many": "Plusieurs",
+          "time, place, maṣdar mīmī": "temps, lieu, masdar mîmî",
+          "instrument": "instrument"
+        }
+      },
+      "text": [
+        "mansarun « un temps ou un lieu de l'aide ; une aide », mansarâni « deux temps ou lieux de l'aide », manâsiru « des temps ou des lieux de l'aide »",
+        "minsarun « un instrument pour aider », minsarâni « deux instruments pour aider », manâsiru « des instruments pour aider »"
+      ]
+    },
+    "17": {
+      "title": "Un seul acte et sa manière : marra et naw'",
+      "body": [
+        "Deux formes comptent ou qualifient l'acte. La forme de fois (binâ' al-marra) est nasra : nasra, nasratâni, nasarât, « un acte d'aide, deux, plusieurs ». Son schème est fa'la. La forme de manière (binâ' al-naw') est nisra : nisra, nisratâni, nisarât, « une façon d'aider ». Son schème est fi'la.",
+        "Les deux se font sur le masdar et diffèrent de lui, et l'une de l'autre, par de petites marques : nasr, l'acte en tant que tel ; nasra, avec un tâ', l'acte compté une fois ; nisra, avec une kasra et un tâ', l'acte d'une certaine sorte. Dans les deux pluriels, l'impression vocalise le sâd d'une fatha : nasarât, nisarât.",
+        "Dans la phrase, ils servent de complément absolu d'al-Âjurrûmiyya (sa leçon 26), qui montre le nombre ou la sorte de l'acte : nasartuhu nasratan, « je l'ai aidé une fois » ; nasartuhu nasratayni, « deux fois » ; nasartuhu nisratan, « je l'ai aidé d'une certaine façon », d'ordinaire suivi d'un mot qui dit de quelle façon.",
+        "Le piège : nasra et nisra sont à une voyelle d'écart, comme l'étaient mansar et minsar. Et le tâ' de nasra est le tâ' rond d'un nom, vocalisé et avec tanwîn (nasratun), non le tâ' quiescent du verbe au passé nasarat."
+      ],
+      "terms": [
+        "la forme de fois : fa'la",
+        "la forme de manière : fi'la",
+        "le schème d'un seul acte",
+        "le schème de la manière"
+      ],
+      "examples": [
+        "nasratun, nasratâni, nasarâtun : un, deux, plusieurs actes d'aide",
+        "nisratun, nisratâni, nisarâtun : une manière d'aider, deux, plusieurs",
+        "nasartuhu nasratan, « je l'ai aidé une fois » : la forme de fois comme complément absolu"
+      ],
+      "tasks": [
+        {
+          "prompt": "Traduisez et nommez la forme : nasratun, nisratun, nasratâni, nisarâtun.",
+          "answer": "Nasratun : un acte d'aide (marra). Nisratun : une manière d'aider (naw'). Nasratâni : deux actes d'aide (marra, duel). Nisarâtun : des manières d'aider (naw', pluriel)."
+        },
+        {
+          "prompt": "Dites « je l'ai aidé deux fois » avec la forme de fois, et expliquez le rôle du dernier mot de la phrase.",
+          "answer": "Nasartuhu nasratayni. Nasratayni est le duel de la forme de fois, un complément absolu au nasb par le yâ', qui donne le nombre de l'acte."
+        },
+        {
+          "prompt": "Comment distinguez-vous le nom nasratun du verbe nasarat ?",
+          "answer": "Le nom a un sukûn sur le sâd, un tâ' rond avec une voyelle et le tanwîn (nasratun) ; le verbe a une fatha sur le sâd et le râ' et finit par un tâ' quiescent (nasarat), « elle a aidé »."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que nomme nasra ?",
+          "options": [
+            "Une manière d'aider",
+            "Un seul acte d'aide",
+            "Un lieu de l'aide",
+            "Un aidant"
+          ],
+          "explanation": "La forme de fois, fa'la."
+        },
+        {
+          "prompt": "Que nomme nisra ?",
+          "options": [
+            "Un seul acte d'aide",
+            "Un instrument",
+            "Une manière d'aider",
+            "Le masdar mîmî"
+          ],
+          "explanation": "La forme de manière, fi'la."
+        },
+        {
+          "prompt": "Quel est le schème de la forme de fois ?",
+          "options": [
+            "Fi'la",
+            "Fu'la",
+            "Maf'ala",
+            "Fa'la"
+          ],
+          "explanation": "Nasra, un acte d'aide, est sur fa'la ; fi'la est la manière."
+        },
+        {
+          "prompt": "Dans nasartuhu nasratan, nasratan est…",
+          "options": [
+            "un complément absolu qui donne le nombre de l'acte",
+            "l'agent",
+            "un hâl",
+            "un tamyîz"
+          ],
+          "explanation": "Comme dans le chapitre du masdar d'al-Âjurrûmiyya."
+        },
+        {
+          "prompt": "Comment l'impression vocalise-t-elle le pluriel nasarât ?",
+          "options": [
+            "Avec un sukûn sur le sâd",
+            "Avec une fatha sur le sâd",
+            "Avec une kasra sur le sâd",
+            "Sans voyelles"
+          ],
+          "explanation": "Nasarât, nisarât."
+        },
+        {
+          "prompt": "Quelle paire ne diffère que d'une voyelle ?",
+          "options": [
+            "Nasra et nasr",
+            "Nasr et nâsir",
+            "Nasra et nisra",
+            "Nisra et mansar"
+          ],
+          "explanation": "Fatha ou kasra sur la première lettre."
+        },
+        {
+          "prompt": "Quel est le duel de la forme de fois ?",
+          "options": [
+            "Nasrâni",
+            "Nisratâni",
+            "Nâsirâni",
+            "Nasratâni"
+          ],
+          "explanation": "Nasrâni est le duel du masdar, nisratâni celui de la manière."
+        }
+      ],
+      "diagram": {
+        "caption": "Fois et manière (al-Amthila, p. 253)",
+        "labels": {
+          "Once and manner (al-Amthila, p. 253)": "Fois et manière (al-Amthila, p. 253)",
+          "Form": "Forme",
+          "Pattern": "Schème",
+          "One": "Un",
+          "Two": "Deux",
+          "Many": "Plusieurs",
+          "once (marra)": "fois (marra)",
+          "manner (nawʿ)": "manière (naw')"
+        }
+      },
+      "text": [
+        "nasratun « un acte d'aide », nasratâni « deux actes d'aide », nasarâtun « des actes d'aide »",
+        "nisratun « une manière d'aider », nisratâni « deux manières d'aider », nisarâtun « des manières d'aider »"
+      ]
+    },
+    "18": {
+      "title": "Le diminutif et l'adjectif de relation",
+      "body": [
+        "Le diminutif (ism al-tasghîr) rend un nom petit : nusayr, « une petite aide », avec son duel nusayrâni et son pluriel nusayrûna ; cette impression ne donne que ces trois. Le schème est fu'ayl : une damma sur la première lettre, une fatha sur la deuxième, et un yâ' avec sukûn ajouté après elle. Les commentaires ajoutent que le diminutif peut aussi marquer la tendresse ou le mépris, et bien des noms arabes sont des diminutifs : 'Umayr de 'Amr, Zuhayr de Zahr.",
+        "L'adjectif de relation (al-ism al-mansûb, la nisba) fait d'un nom un adjectif, « qui se rapporte à », « de » : nasrî, « qui se rapporte à l'aide », en ajoutant un yâ' redoublé, -iyy. Le tableau donne les deux genres et trois nombres : nasrî, nasriyyâni, nasriyyûna ; nasriyya, nasriyyatâni, nasriyyât. La même finale fait Makkî, « de La Mecque », et 'Arabî, « arabe ».",
+        "Les deux se font sur un nom, non sur le verbe : nusayr et nasrî partent de nasr, le masdar. Al-Amthila les place ici parce qu'il rassemble sur une seule racine chaque schème que l'élève rencontrera, verbes et noms à la fois.",
+        "Ne confondez pas le -iyy de la nisba avec le -î de « mon » : nasrî peut se lire nasriyy, « qui se rapporte à l'aide », ou nasrî, « mon aide ». Le yâ' redoublé (écrit avec une shadda) et le tanwîn, nasriyyun, montrent l'adjectif."
+      ],
+      "terms": [
+        "le diminutif : fu'ayl",
+        "le schème du diminutif d'un nom trilitère",
+        "l'adjectif de relation (nisba), avec -iyy",
+        "le yâ' redoublé de la nisba"
+      ],
+      "examples": [
+        "nusayrun, nusayrâni, nusayrûna : le diminutif à un, deux, plusieurs",
+        "nasriyyun, nasriyyatun : « qui se rapporte à l'aide », masculin et féminin",
+        "nasriyyâni, nasriyyûna : le duel et le pluriel de la nisba"
+      ],
+      "tasks": [
+        {
+          "prompt": "Décrivez avec des mots le schème fu'ayl, et montrez-le sur nusayr.",
+          "answer": "Une damma sur la première lettre, une fatha sur la deuxième, et un yâ' ajouté avec sukûn : nu-say-r."
+        },
+        {
+          "prompt": "Donnez la nisba de nasr pour une femme, deux femmes et plusieurs femmes.",
+          "answer": "Nasriyya, nasriyyatâni, nasriyyât."
+        },
+        {
+          "prompt": "Lisez نصري sans voyelles de deux façons et dites comment les voyelles montrent la nisba.",
+          "answer": "Nasrî, « mon aide » (le pronom de celui qui parle), ou nasriyyun, « qui se rapporte à l'aide » (la nisba). La nisba a un yâ' redoublé avec shadda et prend le tanwîn."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que fait le diminutif ?",
+          "options": [
+            "Il met au pluriel",
+            "Il fait un adjectif de relation",
+            "Il rend un nom petit (ou cher)",
+            "Il en fait un verbe"
+          ],
+          "explanation": "Nusayr : « une petite aide »."
+        },
+        {
+          "prompt": "Quel est le schème de nusayr ?",
+          "options": [
+            "Fa'îl",
+            "Fu'âl",
+            "Fa''âl",
+            "Fu'ayl"
+          ],
+          "explanation": "Damma, fatha, et un yâ' ajouté."
+        },
+        {
+          "prompt": "Comment se fait la nisba ?",
+          "options": [
+            "En ajoutant un yâ' redoublé, -iyy",
+            "En ajoutant un mîm avant la racine",
+            "En redoublant le 'ayn",
+            "En ajoutant -ât"
+          ],
+          "explanation": "Nasr → nasriyy ; Makka → Makkî."
+        },
+        {
+          "prompt": "Nasriyya est…",
+          "options": [
+            "le diminutif",
+            "le féminin de la nisba",
+            "la forme de fois",
+            "l'élatif"
+          ],
+          "explanation": "Nasrî pour un homme, nasriyya pour une femme."
+        },
+        {
+          "prompt": "Sur quoi se font le diminutif et la nisba ?",
+          "options": [
+            "Sur le verbe au passé",
+            "Sur l'impératif",
+            "Sur un nom, ici le masdar nasr",
+            "Sur le participe passif"
+          ],
+          "explanation": "Ce sont des noms faits à partir d'un nom."
+        },
+        {
+          "prompt": "Combien de formes du diminutif cette impression donne-t-elle ?",
+          "options": [
+            "Six",
+            "Quatorze",
+            "Une",
+            "Trois"
+          ],
+          "explanation": "Nusayr, nusayrâni, nusayrûna."
+        },
+        {
+          "prompt": "Quel nom est un diminutif ?",
+          "options": [
+            "'Umayr",
+            "'Amr",
+            "Ahmad",
+            "Muhammad"
+          ],
+          "explanation": "'Umayr est le diminutif de 'Amr, sur fu'ayl."
+        }
+      ],
+      "diagram": {
+        "caption": "Le diminutif et la nisba de nasara (al-Amthila, p. 253–254)",
+        "labels": {
+          "The diminutive and the nisba of naṣara (al-Amthila, pp. 253–254)": "Le diminutif et la nisba de nasara (al-Amthila, p. 253–254)",
+          "Form": "Forme",
+          "One": "Un",
+          "Two": "Deux",
+          "Many": "Plusieurs",
+          "diminutive": "diminutif",
+          "nisba, man": "nisba, homme",
+          "nisba, woman": "nisba, femme"
+        }
+      },
+      "text": [
+        "nusayrun « une petite aide », nusayrâni « deux petites aides », nusayrûna « de petites aides »",
+        "nasriyyun « qui se rapporte à l'aide (m.) », nasriyyâni « qui se rapporte à l'aide (m. duel) », nasriyyûna « qui se rapporte à l'aide (m. pl.) »\nnasriyyatun « qui se rapporte à l'aide (f.) », nasriyyatâni « qui se rapporte à l'aide (f. duel) », nasriyyâtun « qui se rapporte à l'aide (f. pl.) »"
+      ]
+    },
+    "19": {
+      "title": "La forme intensive et l'élatif",
+      "body": [
+        "La forme intensive du participe actif (mubâlaghat ism al-fâ'il) décrit celui qui fait l'acte beaucoup ou souvent : nassâr, « un grand aidant ». Son schème est ici fa''âl, avec le 'ayn redoublé et un â long ; le tableau donne nassâr, nassârâni, nassârûna pour les hommes et nassâra, nassâratâni, nassârât pour les femmes. Les livres nomment aussi d'autres schèmes de la forme intensive, comme fa'ûl et fa'îl ; les noms divins al-Ghaffâr, al-Ghafûr et al-Rahîm sont tous des formes intensives.",
+        "L'élatif (ism al-tafdîl, « le nom de préférence ») dit que l'on a une qualité plus qu'un autre : ansar, « plus secourable », « le plus secourable ». Son schème est af'al pour l'homme, avec le duel ansarâni et les pluriels ansarûna et anâsir ; et fu'lâ pour la femme, nusrâ, avec nusrayâni, nusrayât et nusar.",
+        "Le nahw en donne l'emploi. Suivi de min, « que », l'élatif reste tel qu'il est, quel que soit celui qu'il décrit : Zaydun ansaru min 'Amrin, « Zayd est plus secourable que 'Amr », et le même ansaru pour une femme ou pour plusieurs. Les formes du féminin et du pluriel s'emploient avec l'article ou en idâfa : al-nusrâ, « la plus secourable ».",
+        "Les paires familières montrent le schème : akbar et kubrâ, « plus grand, le plus grand », asghar et sughrâ, « plus petit, le plus petit », que la madrasa connaît par des titres de livres comme al-Sughrâ et al-Kubrâ. L'élatif ansaru est un diptote : au khafd, il prend une fatha, sans tanwîn."
+      ],
+      "terms": [
+        "la forme intensive : celui qui fait beaucoup l'acte",
+        "le schème de la forme intensive dans le livre",
+        "l'élatif : plus, le plus",
+        "ses schèmes pour l'homme et pour la femme"
+      ],
+      "examples": [
+        "nassârun, nassâratun : un homme, une femme qui aide beaucoup",
+        "ansaru, nusrâ : plus secourable, l'homme et la femme",
+        "Zaydun ansaru min 'Amrin, « Zayd est plus secourable que 'Amr »"
+      ],
+      "tasks": [
+        {
+          "prompt": "Donnez les schèmes de nassâr, ansar et nusrâ sur fa'ala, et dites ce que signifie chacun.",
+          "answer": "Nassâr : fa''âl, la forme intensive, « un grand aidant ». Ansar : af'al, l'élatif pour un homme, « plus secourable ». Nusrâ : fu'lâ, l'élatif pour une femme, « la plus secourable »."
+        },
+        {
+          "prompt": "Dites « Hind est plus secourable que Zayd » et expliquez pourquoi l'élatif ne prend pas le féminin.",
+          "answer": "Hindun ansaru min Zaydin. Suivi de min, l'élatif reste à sa forme du masculin singulier, quel que soit celui qu'il décrit."
+        },
+        {
+          "prompt": "Donnez les deux pluriels de ansar et de nusrâ dans le tableau.",
+          "answer": "Ansar : ansarûna et anâsir. Nusrâ : nusrayât et nusar."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que décrit nassâr ?",
+          "options": [
+            "Celui qui est aidé",
+            "Plus secourable",
+            "Une petite aide",
+            "Celui qui aide beaucoup"
+          ],
+          "explanation": "La forme intensive du participe actif."
+        },
+        {
+          "prompt": "Quel est le schème de l'élatif pour un homme ?",
+          "options": [
+            "Af'al",
+            "Fu'lâ",
+            "Fa''âl",
+            "Fâ'il"
+          ],
+          "explanation": "Ansar, « plus secourable », est sur af'al ; fu'lâ est pour la femme."
+        },
+        {
+          "prompt": "Quel est l'élatif pour une femme dans le tableau ?",
+          "options": [
+            "Nassâra",
+            "Nusrâ",
+            "Nâsira",
+            "Ansara"
+          ],
+          "explanation": "Fu'lâ : nusrâ."
+        },
+        {
+          "prompt": "Dans Zaydun ansaru min 'Amrin, pourquoi ansaru ne change-t-il pas ?",
+          "options": [
+            "Parce que Zayd est un homme",
+            "Parce que c'est un verbe",
+            "Suivi de min, l'élatif garde une seule forme",
+            "Parce que 'Amr est au khafd"
+          ],
+          "explanation": "Le même ansaru sert pour une femme ou pour plusieurs."
+        },
+        {
+          "prompt": "Quelle paire montre les deux schèmes de l'élatif ?",
+          "options": [
+            "Kabîr et kabîra",
+            "Kâtib et kâtiba",
+            "Kitâb et kutub",
+            "Akbar et kubrâ"
+          ],
+          "explanation": "Af'al et fu'lâ, comme asghar et sughrâ."
+        },
+        {
+          "prompt": "Al-Ghaffâr est…",
+          "options": [
+            "une forme intensive sur fa''âl",
+            "un élatif",
+            "un diminutif",
+            "un participe passif"
+          ],
+          "explanation": "Celui qui pardonne beaucoup."
+        },
+        {
+          "prompt": "Anâsir est un pluriel de…",
+          "options": [
+            "nassâr",
+            "ansar",
+            "nâsir",
+            "mansar"
+          ],
+          "explanation": "Le tableau donne ansarûna et anâsir."
+        }
+      ],
+      "diagram": {
+        "caption": "La forme intensive et l'élatif de nasara (al-Amthila, p. 254–255)",
+        "labels": {
+          "The intensive and the elative of naṣara (al-Amthila, pp. 254–255)": "La forme intensive et l'élatif de nasara (al-Amthila, p. 254–255)",
+          "Form": "Forme",
+          "One": "Un",
+          "Two": "Deux",
+          "Plurals": "Pluriels",
+          "intensive, man": "forme intensive, homme",
+          "intensive, woman": "forme intensive, femme",
+          "elative, man": "élatif, homme",
+          "elative, woman": "élatif, femme"
+        }
+      },
+      "text": [
+        "nassârun « un grand aidant (m.) », nassârâni « deux grands aidants (m.) », nassârûna « de grands aidants (m.) »\nnassâratun « une grande aidante (f.) », nassâratâni « deux grandes aidantes (f.) », nassârâtun « de grandes aidantes (f.) »",
+        "ansaru « plus secourable (m.) », ansarâni « plus secourables (m. duel) », ansarûna « plus secourables (m. pl.) »\nwa-anâsiru « plus secourables (m., pluriel brisé) », nusrâ « plus secourable (f.) », nusrayâni « plus secourables (f. duel) »\nnusrayâtun « plus secourables (f. pl.) », wa-nusarun « plus secourables (f., pluriel brisé) »"
+      ]
+    },
+    "20": {
+      "title": "Les deux verbes d'étonnement",
+      "body": [
+        "Le livre se termine par les deux verbes d'étonnement (ta'ajjub), chacun à quatorze places. Le premier est mâ af'alahu : mâ ansarahu, « comme il est secourable ! ». Le second est af'il bihi : ansir bihi, qui signifie la même chose. Dans les deux, le verbe ne change jamais ; seul le pronom de celui qui étonne parcourt les personnes : mâ ansarahu, mâ ansarahumâ, mâ ansarahum … mâ ansaranî, mâ ansaranâ ; ansir bihi, ansir bihimâ … ansir bî, ansir binâ.",
+        "Le nahw en explique les parties. Dans mâ ansarahu, mâ est un nom en tête de la phrase, que les Basriens expliquent comme « une chose grande » ; ansara est un verbe au passé sur le schème af'ala, avec un pronom caché pour agent ; -hu est son complément d'objet, celui qui étonne. Littéralement, « une chose grande l'a rendu secourable ». C'est pourquoi le pronom est un pronom complément : mâ ansaranî, avec le nûn de protection, « comme je suis secourable ! ».",
+        "La seconde forme, ansir bihi, est un impératif par sa forme mais une affirmation par son sens. Elle est figée : on ne dit pas ansirû bihim pour plusieurs ; le bi- et son pronom portent tout le changement. L'impression rattache chaque forme à la récitation par wa- : wa-ansir bihi.",
+        "Le Coran emploie les deux : qutila al-insânu mâ akfarahu, « périsse l'homme ! comme il est ingrat ! » (Coran 80:17), et asmi' bihim wa-absir, « comme ils entendront et verront bien ! » (Coran 19:38).",
+        "Avec cela, al-Amthila est complet : un seul verbe, déployé dans chaque forme dont un débutant a besoin, récité à voix haute jusqu'à ce qu'il soit su. Dans la madrasa ottomane viennent ensuite le Binâ' et le Maqsûd, qui expliquent comment ces formes se construisent et comment les autres classes et schèmes les suivent ; al-'Izzî et Marâh al-arwâh mènent la même matière plus loin."
+      ],
+      "terms": [
+        "l'étonnement : « comme il est … ! »",
+        "le premier verbe d'étonnement",
+        "le second verbe d'étonnement, un ordre par la forme seulement",
+        "celui qui étonne : le pronom qui change"
+      ],
+      "examples": [
+        "mâ ansarahu, « comme il est secourable ! » ; mâ ansaranî, « comme je suis secourable ! »",
+        "wa-ansir bihim, « comme ils sont secourables ! » : le verbe figé, le pronom qui change",
+        "qutila al-insânu mâ akfarahu, « périsse l'homme ! comme il est ingrat ! » (Coran 80:17)",
+        "asmi' bihim wa-absir, « comme ils entendront et verront bien ! » (Coran 19:38)"
+      ],
+      "tasks": [
+        {
+          "prompt": "Traduisez : mâ ansarahâ ; mâ ansarakum ; ansir bihinna ; ansir binâ.",
+          "answer": "« Comme elle est secourable ! » ; « comme vous (hommes) êtes secourables ! » ; « comme elles sont secourables ! » ; « comme nous sommes secourables ! »."
+        },
+        {
+          "prompt": "Analysez mâ ansarahu mot par mot, selon l'avis des Basriens.",
+          "answer": "Mâ : un nom, « une chose grande », en tête de la phrase (mubtada'). Ansara : un verbe au passé sur af'ala, son agent un pronom caché qui renvoie à mâ. -hu : un pronom attaché, son complément d'objet. Le verbe avec son agent et son complément est le khabar de mâ."
+        },
+        {
+          "prompt": "Quelle partie de chaque verbe d'étonnement change aux quatorze personnes, et laquelle ne change jamais ?",
+          "answer": "Dans mâ af'alahu, seul le pronom complément après le verbe change (-hu, -humâ, -hum …) ; mâ ansara reste. Dans af'il bihi, seul le pronom après bi- change ; ansir ne prend jamais de finale de nombre ou de genre."
+        },
+        {
+          "prompt": "Trouvez le verbe d'étonnement en Coran 80:17 et donnez son schème.",
+          "answer": "Mâ akfarahu, « comme il est ingrat ! » : le premier verbe d'étonnement, mâ af'alahu, sur la racine de kufr."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Que signifie mâ ansarahu ?",
+          "options": [
+            "Comme il est secourable !",
+            "Il ne l'a pas aidé",
+            "Qu'est-ce qui l'a aidé ?",
+            "Aide-le !"
+          ],
+          "explanation": "Le premier verbe d'étonnement."
+        },
+        {
+          "prompt": "Qu'est-ce qui change d'une personne à l'autre dans mâ ansarahu ?",
+          "options": [
+            "La finale du verbe",
+            "Seulement le pronom après le verbe",
+            "Le mâ",
+            "La racine"
+          ],
+          "explanation": "Mâ ansarahu, mâ ansarahum, mâ ansaranî…"
+        },
+        {
+          "prompt": "Ansir bihi est par sa forme…",
+          "options": [
+            "un verbe au passé",
+            "un masdar",
+            "un impératif, mais une affirmation d'étonnement par le sens",
+            "une négation"
+          ],
+          "explanation": "Il est figé ; seul le pronom après bi- change."
+        },
+        {
+          "prompt": "« Comme je suis secourable ! » se dit…",
+          "options": [
+            "Mâ ansarî",
+            "Mâ ansartu",
+            "Ansir bika",
+            "Mâ ansaranî"
+          ],
+          "explanation": "Le pronom complément -nî, avec le nûn de protection."
+        },
+        {
+          "prompt": "Selon l'avis des Basriens, qu'est-ce que mâ dans mâ ansarahu ?",
+          "options": [
+            "Un nom qui signifie « une chose grande »",
+            "Une particule de négation",
+            "Un mot interrogatif",
+            "Une particule de condition"
+          ],
+          "explanation": "« Une chose grande l'a rendu secourable. »"
+        },
+        {
+          "prompt": "Quelle expression coranique emploie le second verbe d'étonnement ?",
+          "options": [
+            "Mâ akfarahu (Coran 80:17)",
+            "Asmi' bihim wa-absir (Coran 19:38)",
+            "Lâ rayba fîhi (Coran 2:2)",
+            "Iyyâka na'budu (Coran 1:5)"
+          ],
+          "explanation": "Af'il bihi : asmi' bihim."
+        },
+        {
+          "prompt": "Quels livres viennent ensuite sur la voie ottomane ?",
+          "options": [
+            "L'Alfiyya et Qatr al-nadâ",
+            "Al-Âjurrûmiyya seulement",
+            "Le Binâ' et le Maqsûd",
+            "Aucun"
+          ],
+          "explanation": "Ils expliquent comment se construisent les formes d'al-Amthila."
+        }
+      ],
+      "diagram": {
+        "caption": "Les deux verbes d'étonnement de nasara (al-Amthila, p. 255–256)",
+        "labels": {
+          "The two verbs of wonder of naṣara (al-Amthila, pp. 255–256)": "Les deux verbes d'étonnement de nasara (al-Amthila, p. 255–256)",
+          "Of whom": "De qui",
+          "First form": "Première forme",
+          "Second form": "Seconde forme",
+          "him": "lui",
+          "them two (men)": "eux deux (hommes)",
+          "them (men)": "eux (hommes)",
+          "her": "elle",
+          "them two (women)": "elles deux (femmes)",
+          "them (women)": "elles (femmes)",
+          "you (man)": "toi (homme)",
+          "you two (men)": "vous deux (hommes)",
+          "you (men)": "vous (hommes)",
+          "you (woman)": "toi (femme)",
+          "you two (women)": "vous deux (femmes)",
+          "you (women)": "vous (femmes)",
+          "me": "moi",
+          "us": "nous"
+        }
+      },
+      "text": [
+        "mâ ansarahu « comme il est secourable ! », mâ ansarahumâ « comme eux deux (m.) sont secourables ! », mâ ansarahum « comme ils sont secourables ! »\nmâ ansarahâ « comme elle est secourable ! », mâ ansarahumâ « comme elles deux sont secourables ! », mâ ansarahunna « comme elles sont secourables ! »\nmâ ansaraka « comme tu (m.) es secourable ! », mâ ansarakumâ « comme vous deux (m.) êtes secourables ! », mâ ansarakum « comme vous (m. pl.) êtes secourables ! »\nmâ ansaraki « comme tu (f.) es secourable ! », mâ ansarakumâ « comme vous deux (f.) êtes secourables ! », mâ ansarakunna « comme vous (f. pl.) êtes secourables ! »\nmâ ansaranî « comme je suis secourable ! », mâ ansaranâ « comme nous sommes secourables ! »",
+        "wa-ansir bihi « comme il est secourable ! », wa-ansir bihimâ « comme eux deux (m.) sont secourables ! », wa-ansir bihim « comme ils sont secourables ! »\nwa-ansir bihâ « comme elle est secourable ! », wa-ansir bihimâ « comme elles deux sont secourables ! », wa-ansir bihinna « comme elles sont secourables ! »\nwa-ansir bika « comme tu (m.) es secourable ! », wa-ansir bikumâ « comme vous deux (m.) êtes secourables ! », wa-ansir bikum « comme vous (m. pl.) êtes secourables ! »\nwa-ansir biki « comme tu (f.) es secourable ! », wa-ansir bikumâ « comme vous deux (f.) êtes secourables ! », wa-ansir bikunna « comme vous (f. pl.) êtes secourables ! »\nwa-ansir bî « comme je suis secourable ! », wa-ansir binâ « comme nous sommes secourables ! »"
+      ]
+    }
+  }
+}

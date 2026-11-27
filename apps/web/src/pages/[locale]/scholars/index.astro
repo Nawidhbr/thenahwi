@@ -17,7 +17,7 @@ const S = ui.kb.scholars;
 const people = [...getBackground(locale).people].sort((a, b) => diedYear(a) - diedYear(b));
 const ord = (n: number) => (locale === "en" ? `${n}${n % 10 === 1 && n !== 11 ? "st" : n % 10 === 2 && n !== 12 ? "nd" : n % 10 === 3 && n !== 13 ? "rd" : "th"}` : String(n));
 // From the 7th century CE on, the Hijri century too ("7th/13th century"); scripts/calendar.js orders them by the reader's setting.
-const label = (c: number | null) => (c === null ? S.undated : c < 0 ? fmt(S.centuryBce, { n: ord(-c) }) : fmt(S.century, { n: locale === "en" && c >= 7 ? `${ord(c - 6)}/${ord(c)}` : ord(c) }));
+const label = (c: number | null) => (c === null ? S.undated : c < 0 ? fmt(S.centuryBce, { n: ord(-c, locale) }) : fmt(S.century, { n: locale === "en" && c >= 7 ? `${ord(c - 6)}/${ord(c)}` : ord(c, locale) }));
 const groups: { c: number | null; people: typeof people }[] = [];
 for (const p of people) {
   const c = century(p);

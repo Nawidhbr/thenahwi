@@ -294,3 +294,9 @@ keep that file in step with this list. The layout follows the English source lis
 - In meanings of verb forms, the past is “telah …” and the muḍāriʿ “sedang …” or plain (“dia menolong”), as the
   Amtsilah's translations do; a person is made clear in brackets where the Indonesian pronoun does not show it:
   “dia (seorang perempuan) menolong”, “kalian (laki-laki)”.
+- More brackets met in al-'Izzi and the Bina: [pr.] for a feminine form beside its masculine twin (irmi [pr.] beside
+  irmi, qi [pr.] beside qi), [hamzah] / ['ain] where only those letters differ (ra'a [hamzah] “melihat” beside
+  ra'a ['ain] “menggembala”), [ajwaf] / [naqish] (itala [ajwaf], itala [naqish]); where a bracket would be clumsy the
+  Arabic pattern stands in parentheses (fa'la (فَعْلَى), if'anla (افْعَنْلَى)). The two letters ح and ه are both
+  written ha', so the Arabic letter follows: ha' (ح), ha' (ه).
+- The radicals are fa' fi'il, 'ain fi'il and lam fi'il; plain “lam” is the particle لَمْ.

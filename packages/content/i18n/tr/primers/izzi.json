@@ -1535,24 +1535,501 @@
       ]
     },
     "13": {
+      "title": "Muzaaf fiil",
+      "body": [
+        "Muzaaf fiile “sertliğinden dolayı esamm (sağır) da denir”: iki mütecanis harf birbirine bastırılıp bir olur. Sülaside, mücerred olsun mezid olsun, aynı ve lamı aynı cinsten olan fiildir: “geri çevirmek” anlamında radde ve “hazırlamak” anlamında e'adde; asılları radede ve e'dede'dir; “birinci dal sakin kılındı ve ikinciye idğam edildi”.",
+        "Rubai mücerredde fası ile birinci lamı aynı cinsten, aynı ile ikinci lamı da aynı cinsten olan fiildir: “sarsmak” anlamında zelzele zilzalen. Ona “mutabık” (el-mutabık) da denir: iki yarısı birbirine uyar, zel-zel.",
+        "Harfleri sahih olmasına rağmen muzaaf fiil neden mu'tel fiiller arasına konur? “Çünkü şeddeli harf ibdale uğrar”: “yazdırdım” anlamında emleltü yerine emleytü gibi, burada lam ya'ya dönmüştür; “ve hazfe uğrar”: ilk harfin fetha ya da kesresiyle söylenen mestü ve zaltü ile ahastü gibi; bunlar “dokundum” anlamında mesistü, “kaldım” anlamında zaliltü ve “hissettim” anlamında ahsestü yerinedir. İbdal ve hazf illet harflerinin başına gelen şeylerdir, bu yüzden muzaaf fiil onların babına girer.",
+        "Bu sigaların yerini bilin. Mesistü, zaliltü, ahsestü kıyasi sigalardır; mestü, zaltü, ahastü ise Arapların ayrıca söylediği sigalardır ve İzzi onları şeddeli harflerin düşebileceğini göstermek için zikreder. Her muzaaf fiilde taklit edilecek vezinler değildir.",
+        "Bir tuzak: muzaaf fiilin asli harflerini doğru sayın. Radde'nin üç asli harfi vardır, r-d-d, iki harf ve bir şedde ile yazılsa da; zelzele'nin dört: z-l-z-l. Şedde iki harfin yerini tutar: birincisi sakin, ikincisi harekeli."
+      ],
+      "terms": [
+        "esamm da denen muzaaf fiil",
+        "mutabık: zelzele gibi muzaaf rubai",
+        "ibdal ve hazf"
+      ],
+      "examples": [
+        "radede, e'dede: birinci dal sakin kılınıp idğam edildi",
+        "zelzele zilzalen, “sarsmak”: mutabık rubai",
+        "emleltü yerine emleytü: ibdal",
+        "mesistü, zaliltü yerine mestü, zaltü: hazf"
+      ],
+      "tasks": [
+        {
+          "prompt": "Radde ve e'adde'nin asıllarını verin ve ne olduğunu söyleyin.",
+          "answer": "Radede ve e'dede. Birinci dal sakin kılındı ve ikinciye idğam edildi: şeddeli tek bir dal."
+        },
+        {
+          "prompt": "Zelzele'ye neden mutabık denir?",
+          "answer": "Fası ile birinci lamı aynı harftir (ze), aynı ile ikinci lamı da aynı harftir (lam): iki yarısı birbirine uyar."
+        },
+        {
+          "prompt": "İzzi muzaaf fiili neden mu'tel fiillerle birlikte ele alır?",
+          "answer": "Çünkü şeddeli harf, illet harflerinin uğradığı şeye uğrar: emleltü yerine emleytü gibi ibdale, mesistü, zaliltü, ahsestü yerine mestü, zaltü, ahastü gibi hazfe."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Muzaaf fiile neden esamm denir?",
+          "options": [
+            "Harekesi olmadığı için",
+            "Sertliğinden dolayı",
+            "Az bulunduğu için",
+            "Mu'tel olduğu için"
+          ],
+          "explanation": "“Li-şiddetihi”: iki mütecanis harf birbirine bastırılıp bir olur."
+        },
+        {
+          "prompt": "Sülaside muzaaf fiilde … vardır.",
+          "options": [
+            "aynı cinsten fa ile ayn",
+            "bir illet harfi",
+            "aynı cinsten ayn ile lam",
+            "bir hemze"
+          ],
+          "explanation": "Radede'den radde, e'dede'den e'adde."
+        },
+        {
+          "prompt": "E'adde'nin aslı nedir?",
+          "options": [
+            "Adede",
+            "E'adede",
+            "Addede",
+            "E'dede"
+          ],
+          "explanation": "'-d-d kökünde ef'ale vezni; birinci dal ikinciye idğam edildi."
+        },
+        {
+          "prompt": "Zelzele …",
+          "options": [
+            "muzaaf bir rubaidir",
+            "muzaaf bir sülasidir",
+            "mezid bir sülasidir",
+            "mu'tel bir fiildir"
+          ],
+          "explanation": "Fa ile birinci lam aynı, ayn ile ikinci lam aynı."
+        },
+        {
+          "prompt": "Emleltü yerine emleytü … gösterir.",
+          "options": [
+            "hazfi",
+            "ibdali",
+            "idğamı",
+            "bir hemzeyi"
+          ],
+          "explanation": "İkinci lam ya'ya döndü."
+        },
+        {
+          "prompt": "Zaltü neyin kısaltılmışıdır?",
+          "options": [
+            "Zaleltü",
+            "Zalleltü",
+            "Zaliltü",
+            "Azleltü"
+          ],
+          "explanation": "Mesistü yerine mestü'de olduğu gibi şeddeli bir harf hazfedildi."
+        },
+        {
+          "prompt": "Radde'nin kaç asli harfi vardır?",
+          "options": [
+            "İki",
+            "Dört",
+            "Bir",
+            "Üç"
+          ],
+          "explanation": "R-d-d: şedde iki dalın yerini tutar."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Said": "Söylenen",
+          "Regular form": "Kıyasi siga",
+          "Change": "Değişiklik",
+          "merging": "idğam",
+          "substitution": "ibdal",
+          "deletion": "hazf"
+        },
+        "caption": "Şeddeli harfin başına gelenler (İzzi, s. 143–144)"
+      },
       "text": [
         "Sertliğinden dolayı ona “esamm” (sağır) da denir. Sülasi mücerred ve mezidde aynı ve lamı aynı cinsten olan fiildir: “geri çevirmek” anlamında radde ve “hazırlamak” anlamında e'adde gibi; çünkü asılları radede ve e'dede şeklidir: birinci dal sakin kılınıp ikinciye idğam edilmiştir. Rubai mücerredde fası ile birinci lamı aynı cinsten, aynı şekilde aynı ile ikinci lamı aynı cinsten olan fiildir; ona “mutabık” da denir: “sarsmak” anlamında zelzele zilzalen gibi.",
         "Muzaaf fiil mu'tel fiillere ancak şeddeli harfin ibdale uğraması sebebiyle katılmıştır: “yazdırdım” anlamındaki emleltü yerine emleytü demeleri gibi; ve hazfe uğraması sebebiyle: “dokundum” anlamındaki mesistü, “durdum” anlamındaki zaliltü ve “hissettim” anlamındaki ahsestü yerine fanın fetha ve kesresiyle mestü ve zaltü, ve ahastü dedikleri gibi."
       ]
     },
     "14": {
+      "title": "İdğam: vacip ve mümteni'",
+      "body": [
+        "İdğam, “birinciyi sakin kılıp ikinciye katmandır; birinciye müdğam, ikinciye müdğamün fih denir”. Medde'de birinci dal müdğam, ikincisi müdğamün fihtir ve şedde ikisini birden gösterir.",
+        "İdğam, “uzatmak” anlamında medde yemüddü, e'adde yu'iddü, inkadde yenkaddü, i'tedde ye'teddü, isvedde yesveddü, isvadde yesvaddü, iste'adde yeste'iddü, itme'enne yatme'innü ve temadde yetemaddü gibilerde vaciptir: mücerred ve mezid fark etmez. Yemdüdü'den gelen yemüddü'de, Maksud'un açıkladığı gibi, birinci dalın harekesi mime geçti ve iki dal yan yana geldi.",
+        "Bu fiiller işe uğrayan için bina edilince de vaciptir, müdde yumeddü; medd gibi bir masdarda da; fiile zamirin elifi, vavı ya da ya'sı bitişince de: medda, meddu, müddi. Bunların hepsinde ikinci dal harekelidir.",
+        "Mededne, mededna, mededte ve mededtünne'ye kadar olanlarda, yemdüdne, temdüdne, umdüdne ve la temdüdne'de mümteni'dir. Bunların her biri sessiz bir harfle başlayan bir zamirle biter (-ne, -na, -te, -tünne) ve fiilin son harfi bu zamirden önce hep sakindir. İkinci dalın harekesi yoktur ve sakin bir harfe hiçbir şey idğam edilemez.",
+        "Demek ki her durumu tek bir soru çözer: iki mütecanis harften ikincisinin harekesi var mı? Varsa idğam edilir; sükununu zamir sabit kılıyorsa ayrı kalırlar. Sonraki ders üçüncü durumu ele alır: sükunun cezmden geldiği ve ikisinin de caiz olduğu durum."
+      ],
+      "terms": [
+        "iki mütecanis harften birincisini ikincisine katmak",
+        "idğam edilen harf ve kendisine idğam edilen",
+        "vacip, mümteni' idğam"
+      ],
+      "examples": [
+        "vacip idğam, mücerred ve mezidde",
+        "müdde yumeddü: meçhul, idğamlı",
+        "zamirin elifi, vavı ve ya'sı ile: idğamlı",
+        "mümteni' idğam: ikinci dal sakin"
+      ],
+      "tasks": [
+        {
+          "prompt": "Medde'de hangi harf müdğam, hangisi müdğamün fihtir?",
+          "answer": "Sakin kılınan birinci dal müdğam, onu alan ikincisi müdğamün fihtir."
+        },
+        {
+          "prompt": "Neden iki dal ayrı olarak mededtü denir?",
+          "answer": "-tü zamirinden önce fiilin son harfi sakindir. İdğam ikinci harfin harekeli olmasını gerektirir; burada harekesi yoktur, bu yüzden idğam mümteni'dir."
+        },
+        {
+          "prompt": "“İdğamlı” ve “idğamsız” diye ayırın: meddu, mededna, yumeddü, yemdüdne, müddi.",
+          "answer": "İdğamlı: meddu, yumeddü, müddi (ikinci dal harekeli). İdğamsız: mededna, yemdüdne (ikinci dal zamirden önce sakin)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İdğam nedir?",
+          "options": [
+            "Bir harfi düşürmek",
+            "Bir harfi başka bir harfe çevirmek",
+            "Birinci harfi sakin kılıp ikinciye katmak",
+            "Bir harf eklemek"
+          ],
+          "explanation": "Birincisi müdğam, ikincisi müdğamün fihtir."
+        },
+        {
+          "prompt": "İdğam … vaciptir.",
+          "options": [
+            "mededne'de",
+            "yemdüdne'de",
+            "mededtü'de",
+            "yemüddü'de"
+          ],
+          "explanation": "Yemüddü'de ikinci dal harekelidir, bu yüzden idğam vaciptir."
+        },
+        {
+          "prompt": "İdğam … mümteni'dir.",
+          "options": [
+            "mededna'da",
+            "medda'da",
+            "müddi'de",
+            "yumeddü'de"
+          ],
+          "explanation": "İkinci dal -na'dan önce sakindir."
+        },
+        {
+          "prompt": "Meddu neden idğamlıdır?",
+          "options": [
+            "Cem' olduğu için",
+            "İkinci dal vavdan önce harekeli olduğu için",
+            "Meçhul olduğu için",
+            "İdğamlı değildir"
+          ],
+          "explanation": "Uzun bir sesli olan zamir dalı harekeli bırakır."
+        },
+        {
+          "prompt": "Medde'nin meçhulü …",
+          "options": [
+            "Müdide",
+            "Mümdide",
+            "Müdde",
+            "Umdide"
+          ],
+          "explanation": "Müdde yumeddü: ma'lum gibi idğamlı."
+        },
+        {
+          "prompt": "Kitabın vacip idğam örnekleri arasında hangi fiil YOKTUR?",
+          "options": [
+            "İsvedde",
+            "İtme'enne",
+            "Temadde",
+            "Zelzele"
+          ],
+          "explanation": "Zelzele mutabık rubaidir; mütecanis harfleri yan yana değildir."
+        },
+        {
+          "prompt": "İki mütecanis harfin idğam edilip edilmeyeceğine ne karar verir?",
+          "options": [
+            "İkincisinin harekeli olup olmadığı",
+            "Fiilin mücerred olup olmadığı",
+            "Birincinin harekesi",
+            "Ma'na"
+          ],
+          "explanation": "Harekeli: idğam; zamir yüzünden sakin: ayrı."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Forms": "Sigalar",
+          "Merging": "İdğam",
+          "Second dāl": "İkinci dal",
+          "necessary": "vacip",
+          "vowelled": "harekeli",
+          "vowelled before the pronoun": "zamirden önce harekeli",
+          "impossible": "mümteni'",
+          "quiescent before the pronoun": "zamirden önce sakin"
+        },
+        "caption": "Medde'nin iki dalı ne zaman idğam edilir (İzzi, s. 144–145)"
+      },
       "text": [
         "Muzaaf fiile idğam girer; idğam, birinci harfi sakin kılıp ikinciye katmandır; birincisine müdğam, ikincisine müdğamün fih denir. Bu, şu gibilerde vaciptir: medde yemüddü “uzatmak”, e'adde yu'iddü “hazırlamak”, inkadde yenkaddü “boyuna yarılmak”, i'tedde ye'teddü “saymak”, isvedde yesveddü “kararmak”, isvadde yesvaddü “simsiyah olmak”, iste'adde yeste'iddü “hazırlanmak”, itme'enne yatme'innü “huzura kavuşmak” ve temadde yetemaddü “uzayıp gitmek”.",
         "Bu fiilleri mef'ule bina ettiğinde de böyledir: müdde yumeddü gibi, benzerleri de öyle; masdar olarak meddin gibilerde de; fiile zamirin elifi, vavı veya yesi bitiştiğinde de böyledir: “ikisi uzattı” anlamında medda, “onlar uzattı” anlamında meddu ve “uzat! (kadına)” anlamında müddi gibi. İdğam şu gibilerde imkansızdır: “onlar (kadınlar) uzattı” anlamında mededne, “uzattık” anlamında mededna, “uzattın” anlamında mededte ile mededtünne sigasına kadar, ayrıca yemdüdne, temdüdne, umdüdne ve la temdüdne."
       ]
     },
     "15": {
+      "title": "Caiz idğam: cezm ve emir",
+      "body": [
+        "İdğam vacip değil caizdir, “cezm harfi müfred fiilin önüne geldiğinde”. Muzarinin aynı, “kaçıyor” anlamında yefirru gibi kesreli ya da “ısırıyor” anlamında ye'addu gibi fethalı ise, son harfin fetha ya da kesresiyle lem yefirra ve lem ye'adda dersiniz, ya da idğamı çözersiniz: lem yefrir, lem ye'dad. Lem yakşe'irra, lem yahmerra, lem yahmarra [elifle] de böyledir.",
+        "“Ayn zammeli ise idğamla üç hareke caizdir, çözmek de caizdir”: dalın fetha, zamme ya da kesresiyle lem yemüdde, bir de lem yemdüd. Zamme burada caizdir de yefirru'da değildir, çünkü aynın zammesine uyar. Fetha harekelerin en hafifidir; kesre, sakin bir harf harekelenmek zorunda kalınca aldığı harekedir.",
+        "İkisi neden caizdir? Cezm, mededtü'de zamirin yaptığı gibi son harfi sakin kılar; ama bu sükun kelimenin bir parçası değildir, bir harften gelir, bu yüzden idğama imkan vermek için harf harekelenebilir. Şarihler, çözmenin Hicaz'ın, idğamın Temim'in dili olduğunu ekler; Kur'an'da ikisi de vardır.",
+        "“Emrin hükmü de böyledir”: son harfin kesre ya da fethasıyla firra ve adda, ya da ifrir ve i'dad; dalın üç harekesinden biriyle müdde, ya da umdüd. Cezm üzerine bina edilen emir ona tam olarak uyar.",
+        "İsimler: maddün maddani maddune maddetün maddetani maddatün, cem'-i mükesser mevaddü ile, hepsi idğamlı, çünkü ikinci dal hep harekelidir; ism-i mef'ul memdud ise “mensur gibi”dir: mef'ul vezninde uzun u iki dalın arasında durur, bu yüzden hiç yan yana gelmezler."
+      ],
+      "terms": [
+        "caiz idğam; öbür yol idğamı çözmek",
+        "idğamı çözmek (fekk)",
+        "lem yemüdde'nin dalında caiz olan üç hareke"
+      ],
+      "examples": [
+        "idğamlı, fetha ya da kesreyle; ya da çözülmüş",
+        "lem yemüdde herhangi bir harekeyle, ya da lem yemdüd",
+        "emir, idğamlı ya da çözülmüş",
+        "ism-i fail idğamlı; ism-i mef'ul ayrı"
+      ],
+      "tasks": [
+        {
+          "prompt": "Kitabın yefirru ve yemüddü için caiz gördüğü bütün meczum sigaları verin.",
+          "answer": "Yefirru: lem yefirra ya da lem yefirri (fetha ya da kesre), ya da lem yefrir. Yemüddü: lem yemüdde, lem yemüddü ya da lem yemüddi (üç harekeden biri), ya da lem yemdüd."
+        },
+        {
+          "prompt": "Neden lem yemüdd-'ün son harfi zamme alabilir de lem yefirr-'inki alamaz?",
+          "answer": "Zamme aynın zammesine uymak için caizdir; yemüddü'de o vardır, yefirru'da kesre vardır. Fetha (en hafif) ve kesre (harekelenen sakin harfin harekesi) ikisinde de caizdir."
+        },
+        {
+          "prompt": "Medde'nin ism-i failini altı sigasıyla, cem'-i mükesseriyle ve ism-i mef'ulüyle verin.",
+          "answer": "Maddün, maddani, maddune, maddetün, maddetani, maddatün ve mevaddü; ism-i mef'ul memdudün, mensur gibi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İdğam ne zaman caiz olup vacip olmaz?",
+          "options": [
+            "Mazide",
+            "-tü zamirinden önce",
+            "Meçhulde",
+            "Cezm müfredin başına gelince"
+          ],
+          "explanation": "Müfredin başında cezm varken ikisi de caizdir: idğamlı lem yefirra ya da çözülmüş lem yefrir."
+        },
+        {
+          "prompt": "Lem ye'add- son harfinde hangi harekeleri alabilir?",
+          "options": [
+            "Fetha ya da kesre",
+            "Yalnız zamme",
+            "Üçünü de",
+            "Hiçbirini"
+          ],
+          "explanation": "Aynı fethalıdır, bu yüzden uyma zammesi söz konusu değildir."
+        },
+        {
+          "prompt": "Lem yemdüd …",
+          "options": [
+            "bir hatadır",
+            "idğamın çözülmüşüdür",
+            "meçhuldür",
+            "mazidir"
+          ],
+          "explanation": "Lem yemdüd idğamı çözer; lem yemüdde'nin yanında caizdir."
+        },
+        {
+          "prompt": "Lem yemüddü'de zamme neden caizdir?",
+          "options": [
+            "En hafif olduğu için",
+            "Cem'in alameti olduğu için",
+            "Aynın zammesine uyduğu için",
+            "Ref'in alameti olduğu için"
+          ],
+          "explanation": "Yemüddü'de zamme aynın zammesine uyabilir (tebe'an li'l-ayn)."
+        },
+        {
+          "prompt": "Ferra'nın idğamsız emri …",
+          "options": [
+            "Fürrar",
+            "Efrir",
+            "Ferrir",
+            "İfrir"
+          ],
+          "explanation": "İdğamlı firra ya da firri, çözülmüş ifrir."
+        },
+        {
+          "prompt": "Kitapta madd'ın cem'-i mükesseri …",
+          "options": [
+            "Mevadd",
+            "Müddad",
+            "Emdad",
+            "Müdud"
+          ],
+          "explanation": "Cem'-i salim maddune ve maddatün'ün yanında kitap cem'-i mükesser mevaddü'yü verir."
+        },
+        {
+          "prompt": "Memdud'un dalları neden hiç idğam edilmez?",
+          "options": [
+            "Meçhul olduğu için",
+            "Uzun u aralarında durduğu için",
+            "İsim olduğu için",
+            "Şaz olduğu için"
+          ],
+          "explanation": "Mef'ul vezninde iki dal yan yana değildir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Muḍāriʿ": "Muzari",
+          "ʿAyn": "Ayn",
+          "Jussive": "Meczum",
+          "Command": "Emir",
+          "kasra": "kesre",
+          "fatḥa": "fetha",
+          "ḍamma": "zamme"
+        },
+        "caption": "Muzaaf fiilin meczumu ve emri (İzzi, s. 145–147)"
+      },
       "text": [
         "Cezm harfi müfred fiile girdiğinde idğam caizdir. Aynı kesreli ise, “kaçar” anlamında yefirru gibi, veya fethalı ise, “ısırır” anlamında ye'addu gibi, [fiilin] lamının fetha ve kesresiyle lem yefirra ve lem ye'adda, idğamı çözerek de lem yefrir ve lem ye'dad dersin; lem yakşe'irra, lem yahmerra ve lem yahmarra sigalarının hükmü de böyledir. Aynı zammeli ise idğamla üç hareke de caizdir, idğamı çözmek de: dale herhangi bir hareke vererek lem yemüdde, ve lem yemdüd dersin.",
         "Emrin hükmü de böyledir: lamın kesre ve fethasıyla firra ve 'adda, ayrıca ifrir ve i'dad dersin; dale herhangi bir hareke vererek müdde, ve umdüd dersin. İsm-i failde maddün maddani maddune maddetun maddetani maddatün ve mevaddü dersin; ism-i mef'ulü mensurin gibi memdudün şeklindedir."
       ]
     },
     "16": {
+      "title": "Mu'tel fiil ve vavlı misal",
+      "body": [
+        "Mu'tel fiil, “asli harflerinden biri illet harfi olan fiildir”: vav, ya ve elif; bunlara medd ve lin harfleri de denir. Elif hiçbir zaman kendi başına asli harf değildir: fiilde “vavdan ya da yadan dönmüştür”, kale ve rama'daki gibi. Kitap illet harfinin yerine göre yedi çeşit sayar ve onları sırayla ele alır.",
+        "Birincisi fası mu'tel olan fiildir; ona misal, “benzeyen”, denir, “çünkü harekeleri taşımakta sahih fiile benzer”: ilk harfi sahih bir harf gibi hareke alır. Vavı “yef'ilü vezninde olan fiilin muzarisinden ve fi'le vezninde olan masdarından hazfedilir, diğer bütün sigalarında kalır”: “vaat etmek” anlamında va'ade ye'idü ideten ve va'den, va'id, mev'ud, emir id, nehy la te'id; ve “sevmek” anlamında vemika yemiku.",
+        "Sebep vavdan sonraki kesredir; bu yüzden “ondan sonraki harfin kesresi kalkınca hazfedilen vav geri getirilir”: meçhulde lem yu'ad, “ona vaat edilmedi”. Yef'alü'de vav kalır: “korkmak” anlamında vecile yevcelü, emri icel; orada hemzenin kesresinden sonra sakin vav ya olur. Konuşmada zammeden sonra geri gelir: ya Zeydü ucel, “vav ile söylenir, ya ile yazılır”. Yef'ulü'de de kalır: “şerefli olmak” anlamında vecuhe yevcuhü, ucuh, la tevcuh.",
+        "Fethalı olmalarına rağmen vavı düşen yata'u, yese'u, yada'u, yaka'u ve yede'u ne olacak? “Bunlar aslında kesreli yef'ilü'dür ve halk harfi yüzünden fethalı kılınmıştır”: vav, kesre oradayken düştü. “Bırakır” anlamındaki yezeru'da halk harfi yoktur ve vavını “yede'u ma'nasında olduğu için” kaybetmiştir; Araplar ikisinin de mazisini kullanmayı bırakmıştır.",
+        "Maksud vavın düştüğü üç bab saymıştı; İzzi tek bir sebep verir, kesre, ve fethalı durumları ondan açıklar. Son cümlesi bir araçtır: “muzaride fanın hazfi, onun vavlı bir fiil olduğuna delildir”. Mazisi görünmeyen yede'u ile karşılaşırsanız, eksik ilk harf size kökün vav ile başladığını söyler."
+      ],
+      "terms": [
+        "illet harfleri: vav, ya, elif",
+        "fası mu'tel fiil",
+        "medd ve lin harfleri",
+        "bir sigayı kullanılmaz kıldılar, yede'u'nun mazisi gibi"
+      ],
+      "examples": [
+        "vav yalnız muzaride ve fi'le vezninde masdarda düşer",
+        "lem yu'ad: vavdan sonra kesre yok, bu yüzden geri gelir",
+        "vecile yevcelü, emri icel: vav kalır, kesreden sonra ya ile yazılır",
+        "halk harfi için fetha, asıl kesre yüzünden vav düştü"
+      ],
+      "tasks": [
+        {
+          "prompt": "Va'ade'nin sigalarını kitabın saydığı gibi verin.",
+          "answer": "Va'ade ye'idü ideten ve va'den, fe hüve va'idün ve zake mev'udün; emir id ve nehy la te'id."
+        },
+        {
+          "prompt": "Lem yu'ad'da vav neden geri gelir?",
+          "answer": "Vav, kendisinden sonraki kesre yüzünden düşmüştü. Meçhulde ondan sonraki harf fethalıdır, kesre gitmiştir, bu yüzden vav geri gelir ve önekin zammesinden sonra u diye söylenir."
+        },
+        {
+          "prompt": "Yada'u fethalıdır, yine de vavı gitmiştir. İzzi bunu nasıl açıklar?",
+          "answer": "Aslında kesreli yef'ilü'dür ve vav o zaman düşmüştür; fetha sonra halk harfi, yani ayn yüzünden gelmiştir."
+        },
+        {
+          "prompt": "İcel neden ya ile yazılır da ya Zeydü'den sonra ucel diye söylenir?",
+          "answer": "Tek başınayken sakin vav hemzenin kesresinden sonra gelir ve ya olur. Ya Zeydü'den sonra hemze bitişik konuşmada düşer, vav önceki zammeden sonra gelir ve söyleyişte geri döner; yazı ise ya'yı korur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "İllet harfleri hangileridir?",
+          "options": [
+            "Vav, ya ve elif",
+            "Hemze, vav, ya",
+            "Elif, nun, te",
+            "Halk harfleri"
+          ],
+          "explanation": "Bunlara medd ve lin harfleri de denir."
+        },
+        {
+          "prompt": "Fası mu'tel fiile neden misal denir?",
+          "options": [
+            "Üç harfi olduğu için",
+            "Harekeleri taşımakta sahih fiile benzediği için",
+            "Bir örnek olduğu için",
+            "Muzarisi olmadığı için"
+          ],
+          "explanation": "İlk harfi sahih bir harf gibi hareke alır."
+        },
+        {
+          "prompt": "Va'ade'nin hangi sigalarından vav düşer?",
+          "options": [
+            "Maziden",
+            "İsm-i fail ve ism-i mef'ulden",
+            "Muzariden ve fi'le vezninde masdardan",
+            "Bütün sigalardan"
+          ],
+          "explanation": "Ye'idü ve ide; ama va'd, va'id ve mev'ud onu korur."
+        },
+        {
+          "prompt": "Vav … kalır.",
+          "options": [
+            "va'ade ye'idü'de",
+            "vemika yemiku'da",
+            "vatı'e yata'u'da",
+            "vecile yevcelü'de"
+          ],
+          "explanation": "Muzarisi aslen fethalıdır, bu yüzden vavdan sonra kesre yoktur."
+        },
+        {
+          "prompt": "Yata'u fethasına rağmen vavını neden kaybetti?",
+          "options": [
+            "Aslında yef'ilü idi",
+            "Meçhul olduğu için",
+            "Sebepsiz şaz olduğu için",
+            "Mazisi kaybolduğu için"
+          ],
+          "explanation": "Fetha, vav gittikten sonra halk harfi için geldi."
+        },
+        {
+          "prompt": "Yezeru vavını neden kaybetti?",
+          "options": [
+            "Halk harfi olduğu için",
+            "Yede'u ma'nasında olduğu için",
+            "Aslında yef'ulü olduğu için",
+            "İsim olduğu için"
+          ],
+          "explanation": "Aynı ma'nadaki fiile uyar."
+        },
+        {
+          "prompt": "İzzi bir fiilin vavlı olduğuna neyi delil sayar?",
+          "options": [
+            "Mazisini",
+            "Masdarını",
+            "Muzaride fanın hazfini",
+            "Meçhulünü"
+          ],
+          "explanation": "Yede'u'nun kullanılan mazisi yoktur, yine de eksik fası vavı gösterir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Muḍāriʿ": "Muzari",
+          "Wāw": "Vav",
+          "Examples": "Örnekler",
+          "yafʿilu": "yef'ilü",
+          "dropped": "düşer",
+          "yafʿalu": "yef'alü",
+          "kept": "kalır",
+          "yafʿulu": "yef'ulü",
+          "yafʿalu from yafʿilu": "yef'ilü'den yef'alü",
+          "passive": "meçhul",
+          "returns": "geri gelir"
+        },
+        "caption": "Misalin vavı ne zaman düşer (İzzi, s. 147–149)"
+      },
       "text": [
         "O, asli harflerinden biri illet harfi olan fiildir; bunlar vav, ye ve eliftir; bunlara med ve lin harfleri denir; o durumda elif vavdan veya yeden dönmüştür. Çeşitleri yedidir.",
         "Birincisi fası illetli fiildir; harekeleri taşımakta sahih fiile benzediği için ona “misal” denir. Vava gelince, aynın kesresiyle yef'ilü vezninde olan fiilin muzarisinden ve fi'letin vezninde olan masdarından hazfedilir, diğer bütün türevlerinde kalır. Böylece “va'd etmek” anlamında ve'ade ye'idü 'ideten ve ve'den dersin; o, va'idün “va'd eden” olur, şu da mev'udün “va'd olunan” olur; emri 'id, nehyi la te'id; “sevmek” anlamındaki vemika yemiku de böyledir.",
@@ -1561,12 +2038,260 @@
       ]
     },
     "17": {
+      "title": "Yalı misal, ifti'al ve vedde",
+      "body": [
+        "“Ya'ya gelince, her durumda kalır”: “uğur getirmek” anlamında yemene yeyminü, “meysir (kumar) oynamak” anlamında yesera yeysiru, “ümit kesmek” anlamında ye'ise yey'esü. Vavı kovan kesre ya'ya dokunmaz: yeysiru onu korur.",
+        "Ama zammeden sonra sakin ya, ya olarak kalmaz. Yalı bir fiilden if'al babında: eysera yusiru isaran, fe hüve musirun, “zengin olmak; zengin”: “sakin olduğu ve önündeki harf zammeli olduğu için ya vava döndü”. Masdar isar'da hemzenin kesresinden sonra ya olarak kalır.",
+        "Vavlı ve yalı fiillerden ifti'al babında mu'tel fa, “te'ye çevrilir ve ifti'alin te'sine idğam edilir”: v-'-d kökünden “vaadi kabul etmek” anlamında itte'ade yette'idü, mütte'id, mütte'ad; y-s-r kökünden ittesera yettesiru, müttesir. Bu, ittaka'da daha önce görülen kuraldır. “Bazen” başka türlü de “denir”: ite'ade yate'idü mute'id, itesera yatesiru mutesir; burada illet harfi korunur ve yalnızca önündeki harekeye uyar: kesreden sonra i, fethadan sonra a, zammeden sonra u.",
+        "Son olarak hem misal hem muzaaf olan bir fiil: “sevmek” anlamında vedde yeveddü. “Hükmü adda ye'addu'nun hükmüdür”: 15. dersteki gibi idğama şedde karar verir ve muzari yef'alü vezninde olduğu için vav kalır. İdğamı çözülmüş emirde hemzenin kesresinden sonraki vav ya olur: i'dad gibi, icel gibi, ided.",
+        "Kulak için bir tuzak: yusiru ve lem yu'ad ikisi de yu- ile başlar, ama kökleri farklıdır. Yusiru'da u, zammeden sonra dönmüş olan y-s-r'nin ya'sıdır; yu'ad'da geri gelen v-'-d'nin vavıdır. Bir kelimeye lügatte bakmadan önce uzun sesli harfin hangi harfin yerini tuttuğunu sorun."
+      ],
+      "terms": [
+        "fası ya olan misal",
+        "zammeden sonra sakin yanın vava çevrilmesi",
+        "çevrilen fanın ifti'alin te'sine idğamı"
+      ],
+      "examples": [
+        "ya her durumda kalır",
+        "zammeden sonra sakin ya vav olur",
+        "vav te'ye çevrilip idğam edildi",
+        "öbür yol: illet harfi önündeki harekeye uyar",
+        "adda ye'addu gibi vedde yeveddü; i'dad gibi emir ided"
+      ],
+      "tasks": [
+        {
+          "prompt": "Eysera'nın muzarisi neden vav ile yusiru'dur?",
+          "answer": "İf'al babı öneke zamme verir: y-s-r'nin ya'sı o zaman zammeden sonra sakin olur ve böyle bir ya vava çevrilir."
+        },
+        {
+          "prompt": "Va'ade'den ifti'alin iki söylenişini muzari ve ism-i fail ile verin.",
+          "answer": "İtte'ade yette'idü, mütte'id (vav te'ye çevrilip idğam edildi); ya da ite'ade yate'idü, mute'id (illet harfi korundu, önündeki harekeye uyar)."
+        },
+        {
+          "prompt": "Vedde'nin idğamsız emri nedir ve neden ya ile yazılır?",
+          "answer": "İ'dad gibi ided. Vasl hemzesinin kesresinden sonra sakin olan vav ya olur, icel'de olduğu gibi."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Yalı misalde ya …",
+          "options": [
+            "muzaride düşer",
+            "her durumda kalır",
+            "elif olur",
+            "hemze olur"
+          ],
+          "explanation": "Yemene yeyminü, yesera yeysiru, ye'ise yey'esü."
+        },
+        {
+          "prompt": "Musir'de neden vav vardır?",
+          "options": [
+            "Kökte vav olduğu için",
+            "Meçhul olduğu için",
+            "Zammeden sonra sakin ya vav olduğu için",
+            "Şaz olduğu için"
+          ],
+          "explanation": "Musir eysera'dandır, kökü y-s-r: zammeden sonraki sakin ya vav oldu."
+        },
+        {
+          "prompt": "İtte'ade'de şeddeli te … gelir.",
+          "options": [
+            "kökün iki te'sinden",
+            "önekten",
+            "bir hemzeden",
+            "kökün vavından ve ifti'alin te'sinden"
+          ],
+          "explanation": "Vav te'ye çevrilip idğam edildi."
+        },
+        {
+          "prompt": "İtesera yatesiru …",
+          "options": [
+            "ya'sı korunmuş ifti'aldir",
+            "bir hatadır",
+            "if'aldir",
+            "meçhuldür"
+          ],
+          "explanation": "“Bazen denir”: illet harfi önündeki harekeye uyar."
+        },
+        {
+          "prompt": "Vedde yeveddü … hükmüne uyar.",
+          "options": [
+            "va'ade ye'idü'nün",
+            "adda ye'addu'nun",
+            "medde yemüddü'nün",
+            "sane yasunü'nün"
+          ],
+          "explanation": "Muzarisi fethalı muzaaf bir fiil."
+        },
+        {
+          "prompt": "Vedde'nin idğamsız emri …",
+          "options": [
+            "Vedid",
+            "Udüd",
+            "İded",
+            "Ded"
+          ],
+          "explanation": "İ'dad gibi, kesreden sonra vav ya ile yazılır."
+        },
+        {
+          "prompt": "İsar'da ya korunur, çünkü …",
+          "options": [
+            "masdardır",
+            "asli bir vavdır",
+            "şeddelidir",
+            "önünde kesre vardır"
+          ],
+          "explanation": "Sakin ya yalnız zammeden sonra vav olur."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Root": "Kök",
+          "Forms": "Sigalar",
+          "What happened": "Ne oldu",
+          "yāʾ → wāw after ḍamma": "zammeden sonra ya → vav",
+          "wāw → tāʾ, merged": "vav → te, idğamlı",
+          "yāʾ → tāʾ, merged": "ya → te, idğamlı",
+          "kept, following the vowel": "korundu, harekeye uyarak",
+          "as ʿaḍḍa yaʿaḍḍu": "adda ye'addu gibi"
+        },
+        "caption": "Mezid fiilde misalin ya'sı ve vavı (İzzi, s. 149–150)"
+      },
       "text": [
         "Yeye gelince, her durumda kalır: “uğurlu olmak” anlamında yemene yeyminü, “meysir oynamak” anlamında yesera yeysiru ve “ümitsiz olmak” anlamında ye'ise yey'esü gibi. Yayi fiilden ef'ale babında eysera yusiru isaran dersin; o, musirun olur “zengin olmak; zengin”: ye, sakin olup öncesi zammeli olduğu için vava çevrilmiştir. İkisinden de ifte'ale babında teye çevrilir ve ifte'ale babının tesine idğam edilirler: itte'ade yette'idü, o, mütte'idün, şu, mütte'adün “va'di kabul etmek” ve ittesera yettesiru, o, müttesirun “meysir oynamak” gibi.",
         "Bazen ite'ade yate'idü, o, mute'idün ve itesera yatesiru, o, mutesirun denir. “Sevmek” anlamındaki vedde yeveddü fiilinin hükmü, “ısırmak” anlamındaki 'adda ye'addu fiilinin hükmüdür; emirde i'dad gibi ided dersin."
       ]
     },
     "18": {
+      "title": "Ecvef fiil: mazi",
+      "body": [
+        "İkinci çeşit, aynı mu'tel olan fiildir; ona ecvef (el-ecvef) ve “üçlü” (zü's-selase) de denir, “çünkü mazisi, kendinden haber verdiğinde üç harflidir”: “korudum” anlamında suntü üç harflidir, ayn gitmiştir. Mücerred fiilde “aynı, vav olsun ya olsun, mazide elife çevrilir, çünkü harekelidirler ve önlerindeki harf fethalıdır”: “korumak” anlamında sane ve “satmak” anlamında ba'a.",
+        "Ona sessiz bir harfle başlayan bir zamir bitişince (mütekellimin, muhatabın ya da gaibe kadınların zamiri), fe'ale “onlara işaret etmek için vavlı fiilde fe'ule'ye, yalı fiilde fe'ile'ye nakledilir”. Sonra zamme ya da kesre faya nakledilir ve ayn, iki sakin, yani ayn ile son harf, bir araya geldiği için hazfedilir. Aslen fe'ule ya da fe'ile olan fiil nakledilmez; kendi harekesini korur.",
+        "Böylece elifle sane sana sanu sanet saneta, sonra elifsiz sunne sunte suntüma suntüm sunti suntüma suntünne suntü sunna dersiniz; ba'a ba'a [tesniye] ba'u ba'at ba'ata bi'ne de böyledir. İlk harfin harekesi kökü söyler: s-v-n'nin vavı için zamme, b-y-''nin ya'sı için kesre. Sunne ve sunna'da kökün nunu zamirin nunuyla buluşur ve ikisi idğam edilir.",
+        "İşe uğrayan için bina edilince “hepsinde faya kesre verirsiniz”: değişikliği “nakil ve kalb ile” olan “korundu” anlamında sine ve “yalnız nakil ile” olan “satıldı” anlamında bi'a. İkisinde de aynın kesresi faya geri geçer; sine'de kesreden sonra artık sakin olan vav ayrıca ya'ya dönmek zorundadır, bi'a'da ise ya kesreden sonra zaten yerindedir.",
+        "Maksud kulne'ye vavı elife çevirip düşürerek, sonra harekeyi değiştirerek ulaşmıştı. İzzi başka bir yol tutar: önce fe'ale'yi fe'ule ya da fe'ile'ye nakleder, sonra harekeyi nakleder, sonra düşürür. Yol farklı, siga aynıdır; ikisinin de öğrettiği şudur: ilk harfte kalan hareke, giden harfin izidir."
+      ],
+      "terms": [
+        "ecvef fiil, üçlü (zü's-selase)",
+        "harekeyi nakil ve harfi kalb ile i'lal",
+        "illet harfine işaret etmek için fe'ale'yi fe'ule ya da fe'ile'ye nakletmek"
+      ],
+      "examples": [
+        "sane, ba'a: ayn elife döndü",
+        "suntü, bi'ne: ayn düştü, harekesi fada kaldı",
+        "nakil ve kalb ile sine; yalnız nakil ile bi'a"
+      ],
+      "tasks": [
+        {
+          "prompt": "Ecvef fiile neden zü's-selase denir?",
+          "answer": "Çünkü kendinden haber verdiğinde mazisi üç harflidir: suntü sad, nun, te'dir; ayn gitmiştir."
+        },
+        {
+          "prompt": "Suntü'yü İzzi'nin yaptığı gibi adım adım açıklayın.",
+          "answer": "-tü zamirinden önce vavlı fiilin fe'ale'si fe'ule'ye nakledilir; aynın zammesi faya geçer; artık sakin olan ayn sakin nunla buluşur ve hazfedilir: suntü."
+        },
+        {
+          "prompt": "Gaibe kadınların sigası neden şeddeli nunla sunne'dir?",
+          "answer": "Kök nunla biter. Onun zamirden önce sakin olan nunu kadınların nunuyla buluşur ve ikisi idğam edilir."
+        },
+        {
+          "prompt": "Sane ve ba'a'nın meçhulünü yapın ve her birindeki değişikliğin adını verin.",
+          "answer": "Sine: nakil (kesre sad'a) ve kalb (kesreden sonra sakin vav ya'ya) ile. Bi'a: yalnız nakil ile, çünkü kesreden sonraki ya değişikliğe muhtaç değildir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Sane'nin aynı neden elif olur?",
+          "options": [
+            "Sakin olduğu için",
+            "Sonda olduğu için",
+            "Fethadan sonra harekeli olduğu için",
+            "Zammeden sonra geldiği için"
+          ],
+          "explanation": "Vav ya da ya fark etmez: kale, sane, ba'a."
+        },
+        {
+          "prompt": "Mütekellim zamiriyle vavlı fiilin fe'ale'si … nakledilir.",
+          "options": [
+            "fe'ile'ye",
+            "fu'ile'ye",
+            "fe''ale'ye",
+            "fe'ule'ye"
+          ],
+          "explanation": "Fada kalan zamme vava işaret etsin diye: suntü."
+        },
+        {
+          "prompt": "Bi'ne'de be'de kesre vardır, çünkü …",
+          "options": [
+            "kökte ya vardır",
+            "meçhuldür",
+            "müennestir",
+            "nun yüzünden"
+          ],
+          "explanation": "Yalı fiilin fe'ale'si fe'ile'ye nakledilir."
+        },
+        {
+          "prompt": "Suntü'de ayn neden hazfedilir?",
+          "options": [
+            "Sonda bir illet harfi olduğu için",
+            "İki sakin buluştuğu için",
+            "Te yüzünden",
+            "Hazfedilmez"
+          ],
+          "explanation": "Harekesi geçtikten sonra sakin kalan ayn, sakin nunla buluşur."
+        },
+        {
+          "prompt": "Ba'a'nın meçhulü …",
+          "options": [
+            "Bu'a",
+            "Buyi'a",
+            "Bi'a",
+            "Ba'a"
+          ],
+          "explanation": "Kesre faya geçti: yalnız nakil ile değişiklik."
+        },
+        {
+          "prompt": "Sine … ile değişmiştir.",
+          "options": [
+            "yalnız nakil",
+            "hazf",
+            "idğam",
+            "nakil ve kalb"
+          ],
+          "explanation": "Kesre geri geçer ve kesreden sonraki vav ya olur."
+        },
+        {
+          "prompt": "Sane'nin hangi sigaları elifi korur?",
+          "options": [
+            "Sane, sana, sanu, sanet, saneta",
+            "Suntü ve sunna",
+            "Bütün sigalar",
+            "Hiçbiri"
+          ],
+          "explanation": "Sesli harfle başlayan zamirler ya da te'nis te'si aynı harekeli bırakır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Person": "Şahıs",
+          "Form": "Siga",
+          "he": "o (erkek)",
+          "you (m.)": "sen (erkek)",
+          "they two": "o ikisi",
+          "you two": "siz ikiniz",
+          "they (m.)": "onlar (erkekler)",
+          "you (m. pl.)": "siz (erkekler)",
+          "she": "o (kadın)",
+          "you (f.)": "sen (kadın)",
+          "they two (f.)": "o ikisi (kadın)",
+          "you two (f.)": "siz ikiniz (kadın)",
+          "they (f.)": "onlar (kadınlar)",
+          "you (f. pl.)": "siz (kadınlar)",
+          "I": "ben",
+          "we": "biz"
+        },
+        "caption": "Sane'nin mazisi (İzzi, s. 151–152)"
+      },
       "text": [
         "İkincisi aynı illetli fiildir; ona “ecvef” (içi boş) ve “zü's-selase” (üçlü) denir, çünkü kendinden haber verdiğinde mazisi üç harfli olur. Mücerred fiilde, vav da olsa ye de olsa, mazide aynı elife çevrilir; çünkü harekelidirler ve öncesi fethalıdır: “korumak” anlamında sane ve “satmak” anlamında ba'a gibi.",
         "Ona mütekellim, muhatab veya gaibe müennes cem'inin zamiri bitiştiğinde, onlara delalet etmek için fe'ale, vavi fiilde fe'ule veznine, yayi fiilde fe'ile veznine nakledilir; fe'ule ve fe'ile asli olduklarında değiştirilmez. Zamme ve kesre faya nakledilir, ayn da iki sakin bir araya geldiği için hazfedilir.",
@@ -1574,6 +2299,129 @@
       ]
     },
     "19": {
+      "title": "Ecvef fiil: muzari, meczum ve emir",
+      "body": [
+        "Muzaride: “değişikliği nakil ile olan” yasunü ve yebi'u; “değişikliği nakil ve kalb ile olan” “korkar” anlamında yahafü ve “çekinir” anlamında yehabü. Yasunü'de vavın harekesi sakin sad'a geri geçer ve vav uzun u olur; yahafü'de fetha geri geçer ve fethadan sonra artık sakin olan vav elife çevrilir.",
+        "Sonra meczum: “ondan sonraki harf sakin olunca ayn düşer, ondan sonraki harf harekeli olunca kalır”. Lem yasun, lem yasuna, lem yasunu, lem tasun, lem tasuna, lem yasunne, lem tasun, lem tasuna, lem tasunu, lem tasuni, lem tasuna, lem tasunne, lem asun, lem nasun. Lem yebi' lem yebi'a lem yebi'u … lem yebi'ne ve lem yahaf lem yahafa lem yahafu da böyledir.",
+        "Kural bildiğiniz bir kuraldır: iki sakin bir araya gelemez. Lem yasun'da uzun u sakin nunla buluşur ve u kısalır; lem yasuna'da nun tesniye elifi için harekelidir ve u kalır. -ne gibi sessiz bir harfle başlayan bir zamir gelince nun yine sakindir ve sesli harf kısadır: lem yasunne.",
+        "“Emri buna kıyas et”: “koru!” anlamında sun suna sunu suni suna sunne; bi' bi'a bi'u bi'i bi'a bi'ne; haf hafa hafu hafi hafa hafne. Te'kid nunuyla son harf hareke alır, bu yüzden uzun sesli harf geri gelir: sunenne sunanni sunünne suninne sunanni sunnanni; bi'anne … bi'nanni; hafenne … hafnanni. Yalnız kadınların sigası kısa kalır, çünkü nunu kadınların nunundan önce yine sakindir.",
+        "Bir tuzak: sun ve sunenne bir erkeğe verilen aynı emirdir, tek başına kısa, te'kidle uzun. Sunenne'yi başka bir fiil sanmayın. Her durumu kural belirler: aynından sonraki harf harekeli mi, değil mi?"
+      ],
+      "terms": [
+        "yalnız harekeyi nakil ile i'lal: yasunü",
+        "sakin bir harften önce aynın düşmesi",
+        "te'kid nunlu emir"
+      ],
+      "examples": [
+        "nakil ile; nakil ve kalb ile",
+        "ayn sakin harften önce düştü, harekeli harften önce kaldı",
+        "hafe'nin emri",
+        "te'kidle uzun sesli harf geri gelir"
+      ],
+      "tasks": [
+        {
+          "prompt": "Lem yasun'da vav neden düşer de lem yasuna'da kalır?",
+          "answer": "Lem yasun'da nun sakindir ve önündeki uzun u iki sakini buluşturacağı için düşer. Lem yasuna'da nun tesniye elifi için harekelidir, bu yüzden u kalır."
+        },
+        {
+          "prompt": "Hafe'nin emrini altı şahısta verin.",
+          "answer": "Haf, hafa, hafu, hafi, hafa, hafne."
+        },
+        {
+          "prompt": "Sun te'kid nunuyla neden sunenne olur?",
+          "answer": "Te'kid nunu son harfe hareke verir; kökün nunu artık sakin değildir, bu yüzden uzun u geri gelir."
+        },
+        {
+          "prompt": "Yebi'u'daki ve yehabü'deki değişikliğin adını verin.",
+          "answer": "Yebi'u: yalnız nakil ile (ya'nın kesresi be'ye geri geçer). Yehabü: nakil ve kalb ile (fetha geri geçer, ya elif olur)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Yasunü … ile değişmiştir.",
+          "options": [
+            "nakil ve kalb",
+            "hazf",
+            "idğam",
+            "yalnız nakil"
+          ],
+          "explanation": "Vavın zammesi sad'a geri geçer."
+        },
+        {
+          "prompt": "Yahafü … ile değişmiştir.",
+          "options": [
+            "nakil ve kalb",
+            "yalnız nakil",
+            "hazf",
+            "hiçbir şey"
+          ],
+          "explanation": "Fetha geri geçer ve vav elif olur."
+        },
+        {
+          "prompt": "Meczumda ayn … düşer.",
+          "options": [
+            "ondan sonraki harf harekeli olunca",
+            "ondan sonraki harf sakin olunca",
+            "fiil cem' olunca",
+            "her zaman"
+          ],
+          "explanation": "Aynından sonraki harf sakin olunca ayn düşer: lem yasun, ama lem yasuna."
+        },
+        {
+          "prompt": "Lem yasunne …",
+          "options": [
+            "koru! demektir",
+            "o korumadı demektir",
+            "onlar (kadınlar) korumadı demektir",
+            "o ikisi korumadı demektir"
+          ],
+          "explanation": "Kökün nunu kadınların nunuyla idğam edildi."
+        },
+        {
+          "prompt": "Ba'a'nın bir kadına emri …",
+          "options": [
+            "Bi'i (kısa i ile)",
+            "Bi'",
+            "Bi'ne",
+            "Bi'i (uzun i ile)"
+          ],
+          "explanation": "Ondan sonraki harf harekeli olduğu için ayn kalır."
+        },
+        {
+          "prompt": "Te'kid nunuyla sun emri … olur.",
+          "options": [
+            "Sunenne",
+            "Sunanne",
+            "Sunne",
+            "Sanenne"
+          ],
+          "explanation": "Son harf hareke alır ve uzun u geri gelir."
+        },
+        {
+          "prompt": "Hangi te'kidli emir kısa kalır?",
+          "options": [
+            "Sunanni",
+            "Kadınlara sunnanni",
+            "Suninne",
+            "Sunünne"
+          ],
+          "explanation": "Kökün nunu kadınların nunundan önce yine sakindir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "To": "Kime",
+          "Jussive": "Meczum",
+          "Command": "Emir",
+          "With emphasis": "Te'kidli",
+          "one man": "bir erkek",
+          "two": "iki kişi",
+          "men": "erkekler",
+          "one woman": "bir kadın",
+          "women": "kadınlar"
+        },
+        "caption": "Muhataba sane (İzzi, s. 152–153)"
+      },
       "text": [
         "Muzaride i'lali nakil ile olan yasunü ve yebi'u, i'lali nakil ve kalb ile olan “korkar” anlamında yahafü ve “çekinir” anlamında yehabü dersin.",
         "Cezm harfi muzariye girer; o zaman kendisinden sonraki harf sakin olduğunda ayn düşer, sonraki harf harekeli olduğunda kalır. “Korumadı” anlamında lem yasun lem yasuna lem yasunu lem tasun lem tasuna lem yasunne lem tasun lem tasuna lem tasunu lem tasuni lem tasuna lem tasunne lem asun lem nasun ve diğerlerini dersin. lem yebi' lem yebi'a lem yebi'u lem tebi' lem tebi'a lem yebi'ne diye sonuna kadar ve lem yahaf lem yahafa lem yahafu sigalarının hükmü de böyle yürür.",
@@ -1581,6 +2429,124 @@
       ]
     },
     "20": {
+      "title": "Mezid ecvef fiil, sahih kalan istisnalar ve ism-i fail ile ism-i mef'ul",
+      "body": [
+        "“Sülasi mezidde yalnız dört vezin mu'teldir”: “cevap vermek” anlamında ecabe yucibü icabeten; “doğru olmak” anlamında istakame yestakimü istikameten; “seçmek” anlamında ihtara yahtaru ihtiyaran; “boyun eğmek” anlamında inkade yenkadü inkıyaden. Masdar icabe açıklanır: aslı icvab'dır; “nakil ve kalb ile değişti, böylece iki elif bir araya geldi; biri hazfedildi ve sonundaki te onun yerine kondu”.",
+        "İşe uğrayan için bina edilince: ucibe yucabü, ustukime yustakamü, ihtira yuhtaru, inkide yunkadü. Emir: ecib eciba ecibu ecibi eciba ecibne; istakim … istakimne; ihtar … ihtarne; inkad … inkadne. Bunlar mücerred ecvef fiile tam olarak uyar: uzun sesli harf sakin bir harften önce kısalır (ecib, ecibne), harekeli bir harften önce korunur (eciba).",
+        "Öbür mezid vezinler sahih kalır: kavele, tekavele, tekavvele, zeyyene, tezeyyene, sayera, tesayera, isvedde, isvadde, ibyadda, ibyadda [elifle], “ve bunların bütün türemiş sigalarında da böyledir”. Kitap sebep vermez; vezinlere bakın, sebep yoktur. Kavele ve sayera'da illet harfinden önce fetha değil elif durur; zeyyene ve tekavvele'de şeddeli harflerin birincisinin kendi sükunu vardır; isvedde'de vav vezin gereği sakindir. Hiçbirinde fethadan sonra harekeli bir illet harfi yoktur.",
+        "Mücerred fiilin ism-i faili “hemze ile değişir”: Maksud'un ka'il için açıkladığı gibi sa'in, ba'i'; mezid fiilinki muzarisine uyar: mücib, müstakim, munkad, muhtar. Mücerred fiilin ism-i mef'ulü “hazf ve nakil ile değişir”: masun, mebi'. Nakilden sonra iki harf sakindi, ayn ve mef'ulün vavı, ve biri gitti: “Sibeveyh'e göre mef'ulün vavı, Ebu'l-Hasen el-Ahfeş'e göre fiilin aynı”.",
+        "“Benu Temim ya'yı korur ve mebyu' der”: değişmemiş tam siga. Mezid fiilin ism-i mef'ulü, “fiili değişmişse”, nakil ve kalb ile değişir: mücab, müstakam, munkad, muhtar. Muhtar ve munkad'a yine dikkat edin: 12. dersteki gibi ism-i fail ile ism-i mef'ulün lafzı birdir."
+      ],
+      "terms": [
+        "hazfedilen bir harfin yerine harf koymak: icabe'nin te'si (ta'viz)",
+        "değişmeden kalan illet harfi, kavele'deki gibi (sıhhat)",
+        "masun'dan hazfedilen harf hakkındaki iki görüş"
+      ],
+      "examples": [
+        "icvab'dan icabe: bir elif hazfedildi, yerine te kondu",
+        "sahih kalan mezid ecvef fiiller",
+        "sa'in, ba'i': hemzeli ism-i fail",
+        "masun, mebi'; Temim dilinde mebyu'"
+      ],
+      "tasks": [
+        {
+          "prompt": "Masdar icabe'yi aslı icvab'dan açıklayın.",
+          "answer": "Vavın fethası cime geçti ve vav elif oldu (nakil ve kalb); iki elif buluştu, biri hazfedildi ve onun yerine sona bir te kondu: icabe."
+        },
+        {
+          "prompt": "Kavele'nin vavı ve zeyyene'nin ya'sı neden değişmeden bırakılır?",
+          "answer": "Değişikliğin sebebi yoktur. Kavele'de vavdan önce fetha değil elif durur; zeyyene'de birinci ya'nın kendi sükunu vardır ve ikincisi ona uyar. Orada fethadan sonra harekeli bir illet harfi yoktur."
+        },
+        {
+          "prompt": "İhtara'nın ism-i fail ve ism-i mef'ulünü verin. Neden aynıdırlar?",
+          "answer": "Muhtar ve muhtar. İkisinde de ya elif oldu ve onunla birlikte faili işe uğrayandan ayıran kesre ya da fetha gitti; yalnız takdirdeki asılları farklıdır."
+        },
+        {
+          "prompt": "Sibeveyh ile Ahfeş masun'da neyde ihtilaf etti?",
+          "answer": "Hareke geçtikten sonra iki sakin harften hangisinin hazfedildiğinde: Sibeveyh mef'ulün vavı, Ahfeş fiilin aynı der."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ecvef fiilin kaç mezid vezni mu'teldir?",
+          "options": [
+            "Dört",
+            "On dört",
+            "İki",
+            "Altı"
+          ],
+          "explanation": "Ecabe, istakame, ihtara, inkade."
+        },
+        {
+          "prompt": "İcabe'nin te'si neyin yerini tutar?",
+          "options": [
+            "Kökün vavının",
+            "Hazfedilen bir elifin",
+            "Hemzenin",
+            "Hiçbir şeyin"
+          ],
+          "explanation": "İki elif buluştu; biri hazfedildi ve yerine te kondu."
+        },
+        {
+          "prompt": "İstakame'nin meçhulü …",
+          "options": [
+            "Ustakame",
+            "İstukime",
+            "Ustukime (uzun i ile)",
+            "Ustukime (kısa i ile)"
+          ],
+          "explanation": "İlk harekeli harfe zamme, hemze ona uyar ve sondan önce kesre: ustukime yustakamü."
+        },
+        {
+          "prompt": "Hangi fiil sahih kalır?",
+          "options": [
+            "Ecabe",
+            "İhtara",
+            "İnkade",
+            "Sayera"
+          ],
+          "explanation": "Ya'sından önce fetha değil elif durur."
+        },
+        {
+          "prompt": "“Koruyan” anlamındaki sa'in … ile değişmiştir.",
+          "options": [
+            "hemze",
+            "hazf",
+            "idğam",
+            "hiçbir şey"
+          ],
+          "explanation": "Mücerred ecvef fiilin ism-i faili."
+        },
+        {
+          "prompt": "Sibeveyh'e göre masun'da ne hazfedildi?",
+          "options": [
+            "Fiilin aynı",
+            "Mef'ulün vavı",
+            "Mim",
+            "Nun"
+          ],
+          "explanation": "Sibeveyh mef'ulün vavının hazfedildiğini söyler; Ahfeş fiilin aynının."
+        },
+        {
+          "prompt": "Mebyu' …",
+          "options": [
+            "bir hatadır",
+            "ism-i faildir",
+            "Benu Temim'in sigasıdır",
+            "meçhul mazidir"
+          ],
+          "explanation": "Benu Temim ya'yı değiştirmeden korur ve mebi' yerine mebyu' der."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Past": "Mazi",
+          "Muḍāriʿ": "Muzari",
+          "Passive": "Meçhul",
+          "Command": "Emir"
+        },
+        "caption": "Mezid ecvef fiilin dört mu'tel vezni (İzzi, s. 153–155)"
+      },
       "text": [
         "Sülasi mezidde yalnız dört vezin mu'teldir: “cevap vermek” anlamında ecabe yucibü icabeten; aslı icvaben şeklidir: nakil ve kalb ile i'lal edildi, iki elif bir araya geldi; biri hazfedildi, sonundaki te onun yerine kondu; “doğru olmak” anlamında istakame yestakimü istikameten; “seçmek” anlamında ihtara yahtaru ihtiyaran; ve “boyun eğmek” anlamında inkade yenkadü inkıyaden.",
         "Onları mef'ule bina ettiğinde ucibe yucabü, ustukime yustakamü, ihtira yuhtaru ve inkide yunkadü dersin. Onlardan emir: ecib eciba ecibu ecibi eciba ecibne, istakım istakima istakimu istakimi istakima istakımne, ihter ihtara ihtaru ihtari ihtara ihterne ve inkad inkada inkadu inkadi inkada inkadne.",
@@ -1590,6 +2556,127 @@
       ]
     },
     "21": {
+      "title": "Nakıs fiil: mazi",
+      "body": [
+        "Üçüncü çeşit, lamı mu'tel olan fiildir; ona nakıs (en-nakıs) ve “dörtlü” (zü'l-erbe'a) denir, “çünkü mazisi, kendinden haber verdiğinde dört harflidir”: “şerefli oldum” anlamında serutü dört harflidir, s-r-v-t. Vav ve ya “harekeli olup önlerindeki harf fethalı olunca elife çevrilir”: “gazaya çıkmak” anlamında ğaza, “atmak” anlamında rama, isimlerde de “değnek” anlamında asan, “değirmen taşı” anlamında rahan.",
+        "Üç harften fazla olan fiilde de böyledir: “vermek” anlamında e'ta, “satın almak” anlamında iştera, “sonuna kadar gitmek” anlamında istaksa; ism-i mef'ullerinde: el-mu'ta, el-müştera, el-müstaksa; meçhul muzaride de: yu'ta, yuğza, yurma. Son illet harfi fethadan sonra harekeli olduğu her yerde elif olur.",
+        "Mazide “lam, fe'alu sigasında her durumda, fe'alet ve fe'aleta'da ayn fethalı olunca hazfedilir; diğerlerinde kalır”: ğaza ğazeva ğazav ğazet ğazeta ğazevne; rama rameya ramav ramet rameta rameyne; radıye radıya radu radıyet radıyeta radine. “Şerefli olmak” anlamında seruve, seru dışında vavını her yerde korur: seruve seruva seru seruvet seruveta serune serute … serutü seruna.",
+        "Ğazav ve ramav'ın vavından önce neden fetha, radu ve seru'da ise zamme vardır? Lamı düşmüş bir nakıs fiile zamirin vavı gelince, önündeki fetha korunur, kesre ya da zamme ise zamme olur. “Radu'nun aslı radıyu'dur: ya'nın zammesi dad'a nakledildi ve iki sakin buluştuğu için ya hazfedildi.” Böylece vavdan önceki hareke babı söyler: ğazav fe'ale, radu fe'ile'dir.",
+        "İki tuzak. Radıyet ya'sını korur, ğazet ise vavını kaybeder: kesreden sonra ya hiç elif olmamıştır, bu yüzden te'den önce düşecek bir şey yoktur. Ğazav ve ğazevne ikisi de bir vav gösterir: “onlar (erkekler) gazaya çıktı” anlamındaki ğazav'da vav zamirdir; “onlar (kadınlar) gazaya çıktı” anlamındaki ğazevne'de -ne zamirinden önce gelen kökün lamıdır."
+      ],
+      "terms": [
+        "nakıs fiil, dörtlü (zü'l-erbe'a)",
+        "zamirin vavı: erkeklerin cem'i",
+        "son asli harfin hazfi"
+      ],
+      "examples": [
+        "vav ve ya elife döndü, fiillerde ve isimlerde",
+        "daha uzun fiillerde ve meçhul muzaride",
+        "seruve: zammeden sonra vav korunur, seru dışında",
+        "radıyu'dan radu"
+      ],
+      "tasks": [
+        {
+          "prompt": "Nakıs fiile neden zü'l-erbe'a denir?",
+          "answer": "Çünkü kendinden haber verdiğinde mazisi dört harflidir: serutü s-r-v-t'dir. Ecvef fiil aynını kaybeder ve üç harflidir (suntü); nakıs fiil orada lamını korur."
+        },
+        {
+          "prompt": "Radu'yu radıyu'dan açıklayın.",
+          "answer": "Ya'nın zammesi (kesresinin yerine) dad'a nakledildi; artık sakin olan ya, zamirin sakin vavıyla buluştu ve hazfedildi: radu."
+        },
+        {
+          "prompt": "Lam neden ğazet'te düşer de radıyet'te kalır?",
+          "answer": "Ğazet'te fethadan sonra harekeli olan vav elif oldu ve elif sakin te'den önce düştü. Radıyet'te ya bir kesreden sonra gelir ve hiç elif olmaz, bu yüzden fethasıyla kalır."
+        },
+        {
+          "prompt": "Ğazav ve ğazevne'de hangi vav kökün, hangisi zamirindir?",
+          "answer": "Ğazav'da vav erkeklerin zamiridir; kökün vavı düşmüştür. Ğazevne'de vav, kadınların -ne zamirinden önce sakin olan kökün lamıdır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Vav ve ya ne zaman elif olur?",
+          "options": [
+            "Sakin olunca",
+            "Harekeli olup önlerinde fetha bulununca",
+            "Kesreden sonra",
+            "Sonda her zaman"
+          ],
+          "explanation": "Harekeli ve önünde fetha olan vav ya da ya elif olur: ğaza, rama, asan, rahan."
+        },
+        {
+          "prompt": "Mazinin hangi sigasında lam her durumda hazfedilir?",
+          "options": [
+            "Fe'alet",
+            "Fe'alne",
+            "Fe'alu",
+            "Fe'altü"
+          ],
+          "explanation": "Fe'alu'da lam her durumda düşer: ğazav, ramav, radu, seru."
+        },
+        {
+          "prompt": "Ramet ya'sını kaybetmiştir, çünkü …",
+          "options": [
+            "müennestir",
+            "cem'dir",
+            "meçhuldür",
+            "aynı fethalıdır"
+          ],
+          "explanation": "Ayn fethalı olunca fe'alet'te lam düşer; radıyet onu korur."
+        },
+        {
+          "prompt": "Radu'nun aslı …",
+          "options": [
+            "Radıyu",
+            "Radavu",
+            "Radyu",
+            "Raduvu"
+          ],
+          "explanation": "Ya'nın zammesi dad'a geçti ve ya düştü."
+        },
+        {
+          "prompt": "Ğazav'ın vavından önce neden fetha vardır?",
+          "options": [
+            "O lamdır",
+            "Zamirden önceki fetha korunur",
+            "Meçhuldür",
+            "Tesniyeyi göstermek için"
+          ],
+          "explanation": "Orada kesre ya da zamme, radu'daki gibi zamme olur."
+        },
+        {
+          "prompt": "Hangisi meçhuldür?",
+          "options": [
+            "Yağzu",
+            "Ğaza",
+            "Yuğza",
+            "Ğazav"
+          ],
+          "explanation": "Meçhul muzaride fethadan sonraki lam elif olur."
+        },
+        {
+          "prompt": "Ğazevne … demektir.",
+          "options": [
+            "onlar (erkekler) gazaya çıktı",
+            "o ikisi gazaya çıktı",
+            "biz gazaya çıktık",
+            "onlar (kadınlar) gazaya çıktı"
+          ],
+          "explanation": "Vav, kadınların -ne'sinden önce gelen lamdır."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Person": "Şahıs",
+          "he": "o (erkek)",
+          "they two": "o ikisi",
+          "they (m.)": "onlar (erkekler)",
+          "she": "o (kadın)",
+          "they two (f.)": "o ikisi (kadın)",
+          "they (f.)": "onlar (kadınlar)"
+        },
+        "caption": "Nakıs fiilin mazisi (İzzi, s. 157)"
+      },
       "text": [
         "Üçüncüsü lamı illetli fiildir; ona “nakıs” (eksik) ve “zü'l-erba'a” (dörtlü) denir, çünkü kendinden haber verdiğinde mazisi dört harfli olur. Vav ve ye, harekeli olup öncesi fethalı olduğunda elife çevrilir: “gaza etmek” anlamında ğaza, “atmak” anlamında rama, “asa” anlamında 'asan ve “değirmen taşı” anlamında rahan gibi; üç harften fazla olan fiilde de böyledir: “vermek” anlamında e'ta, “satın almak” anlamında iştera ve “sonuna kadar varmak” anlamında istaksa gibi; ism-i mef'ulünde de: el-mu'ta, el-müştera ve el-müstaksa gibi; faili anılmayan muzaride de böyledir: yu'ta, yuğza ve yurma demen gibi.",
         "Maziye gelince, lamı fe'alu sigasında her durumda, fe'alet ve fe'aleta sigalarında aynı fethalı olduğunda hazfedilir; diğerlerinde kalır. Böylece “gaza etti” anlamında ğaza ğazeva ğazev ğazet ğazeta ğazevne diye sonuna kadar, “attı” anlamında rama rameya ramev ramet rameta rameyne ve diğerlerini, “razı oldu” anlamında radıye radıya radu radıyet radıyeta radine ve diğerlerini dersin.",
@@ -1598,6 +2685,123 @@
       ]
     },
     "22": {
+      "title": "Nakıs muzari: ref', nasb ve cezm",
+      "body": [
+        "Nakıs fiilin muzarisinde “vav, ya ve elif ref'de sakindir”: “gazaya çıkar” anlamında yağzu, “atar” anlamında yermi, “korkar” anlamında yahşa; “ve cezm durumunda hazfedilir”. Nasbda “vav ve ya fethalı kılınır, çünkü fetha hafiftir; elif ise ref'de olduğu gibi nasbda da sakin kalır”.",
+        "Bir cetvelde üç farklı davranış var. Vav ve ya zammeyi kabul etmez ama fethayı alır; elif hiçbir hareke almaz; üçü de cezmde düşer. Acurrumiyye bunu adlandırmıştı: son harfi mu'tel olan fiilin cezmi hazf iledir, ref'i de takdiri bir zamme iledir.",
+        "Meczum: lem yağzu, lem yağzüva; lem yermi, lem yermiya, lem yermu; tamamıyla da lem yerda lem yerdaya lem yerdav lem terda lem terdaya lem yerdayne lem terda lem terdaya lem terdav lem terday lem terdaya lem terdayne lem erda lem nerda. Cezm ve nasb harfleri, sahih fiilde olduğu gibi “nunları düşürür, müennes cem' nunu hariç”.",
+        "Mansub: len yağzüve, len yağzüva, len yağzu; len yermiye, len yermiya, len yermu; len yerda len yerdaya len yerdav len terda len terdaya len yerdayne … len terday … len erda len nerda. Len yerda'yı lem yerda ile karşılaştırın: elif nasbda kalır, cezmde düşer.",
+        "Bir tuzak: lem terday ve lem terda iki ayrı şahıstır. “Sen (erkek) razı olmadın” anlamındaki lem terda'da lamın elifi düşmüştür. “Sen (kadın) razı olmadın” anlamındaki lem terday'da ya, kadının zamiridir; cezm terdayne'nin nununu alınca geride kalmıştır."
+      ],
+      "terms": [
+        "illet harfinde söylenmeyen takdiri hareke",
+        "son illet harfini hazfederek cezm",
+        "vav ve ya'nın taşıyabildiği fethanın hafifliği"
+      ],
+      "examples": [
+        "ref': illet harfi sakin",
+        "cezm: illet harfi hazfedilir",
+        "nasb: vav ve ya'da fetha, elif değişmez",
+        "sen (erkek), sen (kadın): zamirin ya'sı"
+      ],
+      "tasks": [
+        {
+          "prompt": "Len yerda'da yerda'nın elifi neden fetha göstermez?",
+          "answer": "Elif hiçbir harekeyi taşıyamaz. Kitap onun “ref' durumunda olduğu gibi nasb durumunda da sakin kaldığını” söyler: fetha onda takdiridir."
+        },
+        {
+          "prompt": "Terda'yı “sen (erkek)” için, terdayne'yi “sen (kadın)” için meczum yapın. İkincisinin ya'sını açıklayın.",
+          "answer": "Lem terda ve lem terday. Birincisinde lamın elifi hazfedilir. İkincisinde cezm terdayne'nin nununu alır ve kalan ya kökün harfi değil, kadının zamiridir."
+        },
+        {
+          "prompt": "Yermi'nin meczumunu o (erkek), o ikisi ve onlar (erkekler) için verin.",
+          "answer": "Lem yermi, lem yermiya, lem yermu."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ref'de muzarinin son illet harfi …",
+          "options": [
+            "zammelidir",
+            "fethalıdır",
+            "sakindir",
+            "hazfedilir"
+          ],
+          "explanation": "Yağzu, yermi, yahşa: zamme takdiridir."
+        },
+        {
+          "prompt": "Nasbda vav ve ya neden fetha alır?",
+          "options": [
+            "Len bunu gerektirdiği için",
+            "Asli harf oldukları için",
+            "İstikbali göstermek için",
+            "Fetha hafif olduğu için"
+          ],
+          "explanation": "Fetha, vav ile ya'nın taşıyabileceği kadar hafiftir: len yağzüve, len yermiye."
+        },
+        {
+          "prompt": "Nasbda elif …",
+          "options": [
+            "sakin kalır",
+            "fetha alır",
+            "hazfedilir",
+            "ya olur"
+          ],
+          "explanation": "Elif hareke taşımaz, bu yüzden nasbda sakin kalır: len yerda, len yahşa."
+        },
+        {
+          "prompt": "Nakıs fiilin cezmi … iledir.",
+          "options": [
+            "sükun",
+            "son harfi hazfetmek",
+            "fetha",
+            "öneki düşürmek"
+          ],
+          "explanation": "Lem yağzu, lem yermi, lem yerda."
+        },
+        {
+          "prompt": "Lem yermu … demektir.",
+          "options": [
+            "o atmadı",
+            "o ikisi atmadı",
+            "onlar (erkekler) atmadı",
+            "atma!"
+          ],
+          "explanation": "Lem, yermune'nin nununu aldı; kalan yermu erkeklerin cem'idir."
+        },
+        {
+          "prompt": "Lem terday … söylenir.",
+          "options": [
+            "bir erkeğe",
+            "kadınlara",
+            "iki kişiye",
+            "bir kadına"
+          ],
+          "explanation": "Ya onun zamiridir; nun gitmiştir."
+        },
+        {
+          "prompt": "Cezmde ve nasbda hangi nun korunur?",
+          "options": [
+            "Müennes cem' nunu",
+            "Tesniye nunu",
+            "Erkeklerin cem' nunu",
+            "Hiçbiri"
+          ],
+          "explanation": "Müennes cem' nunu bir zamirdir, bu yüzden kalır: lem yerdayne, len yerdayne."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Last letter": "Son harf",
+          "Rafʿ": "Ref'",
+          "Naṣb": "Nasb",
+          "Jazm": "Cezm",
+          "wāw": "vav",
+          "yāʾ": "ya",
+          "alif": "elif"
+        },
+        "caption": "Muzarinin üç mu'tel sonu (İzzi, s. 159–160)"
+      },
       "text": [
         "Nakıs fiilin muzarisine gelince, vav, ye ve elif ref' halinde sakindir: “gaza eder” anlamında yağzu, “atar” anlamında yermi ve “korkar” anlamında yahşa gibi; cezm halinde hazfedilirler. Vav ve ye nasb halinde fethalı yapılır, çünkü fetha hafiftir; elif ise ref' halinde olduğu gibi nasb halinde de sakin kalır. Cezm harfi ve nasb harfi, cem'-i müennes nunu dışındaki nunları düşürür.",
         "Böylece lem yağzü lem yağzüva dersin; lem yermi lem yermiya lem yermu ve lem yerda lem yerdaya lem yerdav lem terda lem terdaya lem yerdayne lem terda lem terdaya lem terdav lem terday lem terdaya lem terdayne lem erda lem nerda de böyledir.",
@@ -1605,6 +2809,130 @@
       ]
     },
     "23": {
+      "title": "Yağzu, yermi ve yerda'nın tasrifi",
+      "body": [
+        "“Fiilin lamı tesniyenin ve kadınlar cemaatinin fiilinde kalır, erkekler cemaatinin fiilinden ve müfred müennese muhatabanın fiilinden hazfedilir.” Böylece: yağzu yağzüvani yağzune tağzu tağzüvani yağzune tağzu tağzüvani tağzune tağzine tağzüvani tağzune ağzu nağzu.",
+        "Yağzune'ye bakın: listede iki kez durur, erkekler için ve kadınlar için. “Lafız … aynıdır, … ama takdir farklıdır: müzekkerin vezni yef'une ve tef'une, müennes cem'in vezni yef'ulne ve tef'ulne'dir.” Erkekler için lam gitmiştir ve u zamirdir, -ne ref' alametidir; kadınlar için u lamdır ve -ne zamirdir. Meczum bunu gösterir: erkekler için lem yağzu, kadınlar için değişmeden yağzune.",
+        "Yermi: yermi yermiyani yermune termi termiyani yermine termi termiyani termune termine termiyani termine ermi nermi. “Yermune'nin aslı yermiyune'dir ve ona radu'ya yapılan yapıldı”: ya'nın zammesi mime geçti ve ya vavdan önce düştü.",
+        "“Lamından önceki harfi kesreli olan her fiilin hükmü böyledir”: “hidayet eder” anlamında yehdi, “gizlice konuşur” anlamında yunaci, “umar” anlamında yerteci, yeşteri, yested'i, yer'avi, ye'ravri. Bunların birkaçının kökü vavlıdır (yunaci, yerteci, yested'i), yine de yermi gibi biter: karar veren lamdan önceki kesredir; ondan sonra vav ya olur.",
+        "Yerda: yerda yerdayani yerdavne terda terdayani yerdayne terda terdayani terdavne terdayne terdayani terdayne erda nerda. Burada erkeklerin cem'i vavdan önce fethayla yerdavne'dir, kadınların yerdayne'si ya'yı korur: üç cetvel tam olarak erkeklerde, muhataba kadında ve kadınlarda ayrılır."
+      ],
+      "terms": [
+        "lafız aynı, takdir farklı",
+        "yağzune'nin erkekler ve kadınlar için vezinleri"
+      ],
+      "examples": [
+        "lam tesniyede kalır, erkeklerin cem'inde hazfedilir",
+        "yağzune'nin iki vezni",
+        "radu gibi yermiyune'den yermune",
+        "lamından önce kesre olan her fiil yermi gibi gider"
+      ],
+      "tasks": [
+        {
+          "prompt": "Er-ricalü yağzune ve en-nisa'ü yağzune: her fiilin veznini verin ve farkı açıklayın.",
+          "answer": "Erkekler için yef'une: lam gitmiştir, u zamirdir, -ne ref' alametidir (cezmde düşer). Kadınlar için yef'ulne: u lamdır, -ne zamirdir (cezmde kalır)."
+        },
+        {
+          "prompt": "Yermune'yi yermiyune'den açıklayın.",
+          "answer": "Radu'daki gibi: ya'nın zammesi mime geçti ve artık sakin olan ya, cem'in sakin vavından önce hazfedildi."
+        },
+        {
+          "prompt": "Yerteci r-c-v kökündendir. Neden yermi gibi ya ile biter?",
+          "answer": "Lamından önceki harf kesrelidir ve kitap böyle her fiilin yermi gibi gittiğini söyler; kesreden sonra sondaki vav ya olur."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Yağzu'nun lamı hangi şahıslarda hazfedilir?",
+          "options": [
+            "Tesniyede",
+            "Kadınların cem'inde",
+            "Müfredde",
+            "Erkeklerin cem'inde ve muhataba kadında"
+          ],
+          "explanation": "Yağzune (erkekler), tağzine; ama yağzüvani ve yağzune (kadınlar) onu korur."
+        },
+        {
+          "prompt": "Kadınlar için yağzune'nin vezni …",
+          "options": [
+            "yef'ulne",
+            "yef'une",
+            "yef'ine",
+            "yef'alne"
+          ],
+          "explanation": "U lamdır, -ne zamirdir."
+        },
+        {
+          "prompt": "Yermune'nin aslı …",
+          "options": [
+            "Yermevne",
+            "Yermiyune",
+            "Yermuyune",
+            "Yermeyune"
+          ],
+          "explanation": "Yermiyune: ya'nın zammesi mime gitti ve ya düştü, radu'daki gibi."
+        },
+        {
+          "prompt": "Hangi fiilin yermi gibi gittiği söylenir?",
+          "options": [
+            "Yerda",
+            "Yağzu",
+            "Yehdi",
+            "Yahşa"
+          ],
+          "explanation": "Lamından önceki harf kesrelidir."
+        },
+        {
+          "prompt": "Yerdavne … içindir.",
+          "options": [
+            "onlar (kadınlar)",
+            "sen (kadın)",
+            "o ikisi",
+            "onlar (erkekler)"
+          ],
+          "explanation": "Vavdan önceki fetha korunur."
+        },
+        {
+          "prompt": "Bir fiilin yermi gibi mi yerda gibi mi gideceğine ne karar verir?",
+          "options": [
+            "Lamdan önceki hareke",
+            "Kökün vavlı ya da yalı olması",
+            "Harf sayısı",
+            "Ma'na"
+          ],
+          "explanation": "Kesre: yermi gibi; fetha: yerda gibi."
+        },
+        {
+          "prompt": "Tağzine … söylenir.",
+          "options": [
+            "kadınlara",
+            "bir kadına",
+            "erkeklere",
+            "iki kişiye"
+          ],
+          "explanation": "Muhataba kadın için lam hazfedilir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Person": "Şahıs",
+          "he": "o (erkek)",
+          "they two": "o ikisi",
+          "they (m.)": "onlar (erkekler)",
+          "she": "o (kadın)",
+          "they two (f.)": "o ikisi (kadın)",
+          "they (f.)": "onlar (kadınlar)",
+          "you (m.)": "sen (erkek)",
+          "you two": "siz ikiniz",
+          "you (m. pl.)": "siz (erkekler)",
+          "you (f.)": "sen (kadın)",
+          "you two (f.)": "siz ikiniz (kadın)",
+          "you (f. pl.)": "siz (kadınlar)",
+          "I": "ben",
+          "we": "biz"
+        },
+        "caption": "Nakıs fiilin muzarisi (İzzi, s. 160–162)"
+      },
       "text": [
         "Fiilin lamı, tesniye fiilinde ve kadınlar cemaatinin fiilinde kalır; erkekler cemaatinin fiilinden ve müfrede-i muhataba fiilinden hazfedilir. Böylece yağzu yağzüvani yağzune tağzu tağzüvani yağzune tağzu tağzüvani tağzune tağzine tağzüvani tağzune ağzu nağzu dersin.",
         "Bunda erkekler ve kadınlar cemaatinin lafzı, muhatabda da gaibde de aynıdır, fakat takdir farklıdır: müzekkerin vezni yef'une ve tef'une, cem'-i müennesin vezni yef'ulne ve tef'ulne şeklindedir.",
@@ -1613,6 +2941,124 @@
       ]
     },
     "24": {
+      "title": "Lamdan önce fetha; kadın ve kadınlar",
+      "body": [
+        "“Lamından önceki [harfi] fethalı olan her fiilin hükmü böyledir”: yerda gibi gider. Kitap dördünü tam olarak yazar: “gerinir” anlamında yetematta; “gençler gibi davranır” anlamında yetesaba; “külah giyer” anlamında yetakalsa; ve “yönelir” anlamında yetesadda. Tefe''ul, tefa'ul ve tefa'lül babları muzarilerinde lamdan önce fetha taşır, bu yüzden bunların bütün nakıs fiilleri elifle biter.",
+        "Bunu önceki dersin yanına koyun. Orada yunaci, yerteci ve yested'i'nin kökü vavlıydı ve kesre yüzünden yermi gibi gittiler; burada yetesadda ve ötekiler fetha yüzünden yerda gibi gider. Uzun bir nakıs fiilin muzarisine kökün harfi değil, lamdan önceki hareke karar verir.",
+        "Yetematta'nın tasrifini bir kalıp olarak okuyun: yetematta yetemattayani yetemattavne tetematta tetemattayani yetemattayne … etematta netematta. Her son, yerda'nın sonudur: -a, -ayani, -avne, -ayne. Yerda'yı bilen öğrenci dördünü de bilir.",
+        "Sonra bir uyarı: “yermi ve yerda babında müfred müennese muhatabanın lafzı, müennes cem'in lafzı gibidir, ama takdir farklıdır: müfred müennesin vezni tef'ine ve tef'ayne, cem'in vezni tef'ilne ve tef'alne'dir.” Termine ve terdayne her biri hem “sen (kadın)” hem “siz (kadınlar)” demektir.",
+        "Yağzune'de olduğu gibi meczum onları ayırır. Kadın için lam gitmiştir ve nun ref' alametidir: lem terday. Kadınlar için ya lamdır ve nun zamirdir: değişmeden lem terdayne. Bir siga lem'den sonra nununu koruyorsa kadınlarındır."
+      ],
+      "terms": [
+        "bir kadın için termine ve terdayne'nin vezinleri",
+        "kadınlar için vezinleri",
+        "bir fiilin başka bir fiil gibi tasrif edildiği kural (kıyas)"
+      ],
+      "examples": [
+        "“gerinir” anlamında yetematta, yerda gibi",
+        "yetesaba, yetakalsa, yetesadda: lamdan önce fetha",
+        "kadın ve kadınlar için tek lafız",
+        "meczum onları birbirinden ayırır"
+      ],
+      "tasks": [
+        {
+          "prompt": "Yetesadda ve yetematta neden yermi gibi değil de yerda gibi gider?",
+          "answer": "Lamlarından önceki harf fethalıdır (tefe''ul babının muzarisi) ve lamından önce fetha olan her fiil yerda gibi gider."
+        },
+        {
+          "prompt": "Terdayne: meczum ile bir kadına mı kadınlara mı söylendiğini gösterin.",
+          "answer": "Lem geriye lem terday bırakıyorsa kadınındı (tef'ayne: nun ref' alametiydi). Lem geriye lem terdayne bırakıyorsa kadınlarındı (tef'alne: nun onların zamiridir)."
+        },
+        {
+          "prompt": "Termine'nin vezini kadın için ve kadınlar için verin.",
+          "answer": "Kadın için tef'ine (lam gitmiş, i zamir); kadınlar için tef'ilne (i lam, -ne zamir)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Lamından önce fetha olan nakıs fiil … gibi gider.",
+          "options": [
+            "yerda",
+            "yermi",
+            "yağzu",
+            "yakulü"
+          ],
+          "explanation": "Yetematta, yetesaba, yetakalsa, yetesadda."
+        },
+        {
+          "prompt": "Yetesaba hangi vezindedir?",
+          "options": [
+            "Tefe''ale",
+            "Tefa'ale",
+            "Tefe'lele",
+            "İfte'ale"
+          ],
+          "explanation": "Tesaba: “gençler gibi davranmak”."
+        },
+        {
+          "prompt": "Yetakalsa … bir vezinden gelir.",
+          "options": [
+            "üç asli harfli tefe''ale",
+            "ifte'ale",
+            "te ile dört asli harfli tefe'lele",
+            "mücerred fiil"
+          ],
+          "explanation": "Onun muzarisinde de lamdan önce fetha vardır."
+        },
+        {
+          "prompt": "Bir kadın için terdayne'nin vezni …",
+          "options": [
+            "tef'alne",
+            "tef'ine",
+            "tef'ilne",
+            "tef'ayne"
+          ],
+          "explanation": "Lam gitmiştir; ya onun zamiridir."
+        },
+        {
+          "prompt": "Lem termine … söylenir.",
+          "options": [
+            "kadınlara",
+            "bir kadına",
+            "erkeklere",
+            "bir erkeğe"
+          ],
+          "explanation": "Nun yalnız kadınların zamiri olunca kalır."
+        },
+        {
+          "prompt": "Yetemattavne … içindir.",
+          "options": [
+            "onlar (kadınlar)",
+            "onlar (erkekler)",
+            "sen (kadın)",
+            "o ikisi"
+          ],
+          "explanation": "Yetemattavne, yerdavne gibi vavdan önce fethalı erkeklerin cem'idir."
+        },
+        {
+          "prompt": "Uzun bir nakıs fiilin sonuna ne karar verir?",
+          "options": [
+            "Kökün harfi",
+            "Önek",
+            "Lamdan önceki hareke",
+            "Masdar"
+          ],
+          "explanation": "Yerteci (vavlı kök) yermi gibi; yetesadda yerda gibi."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Form": "Siga",
+          "One woman": "Bir kadın",
+          "Women": "Kadınlar",
+          "rafʿ, yāʾ verb": "ref', yalı fiil",
+          "its measure": "vezni",
+          "rafʿ, alif verb": "ref', elifli fiil",
+          "after lam": "lem'den sonra",
+          "after lan": "len'den sonra"
+        },
+        "caption": "Muhataba kadın ve kadınlar (İzzi, s. 159–163)"
+      },
       "text": [
         "Lamından önceki [harfi] fethalı olan her fiilin hükmü budur: “gerinir” anlamında yetematta yetemattayani yetemattavne tetematta tetemattayani yetemattayne tetematta tetemattayani tetemattavne tetemattayne tetemattayani tetemattayne etematta netematta ve “çocukça davranır” anlamında yetasaba yetasabeyani yetasabevne tetasaba tetasabeyani yetasabeyne tetasaba tetasabeyani tetasabevne tetasabeyne tetasabeyani tetasabeyne etasaba netasaba gibi,",
         "ve “külah giyer” anlamında yetakalsa yetakalseyani yetakalsevne tetakalsa tetakalseyani yetakalseyne tetakalsa tetakalseyani tetakalsevne tetakalseyne tetakalseyani tetakalseyne etakalsa netakalsa ve “yönelir” anlamında yetasadda yetasaddeyani yetasaddevne tetasadda tetasaddeyani yetasaddeyne tetasadda tetasaddeyani tetasaddevne tetasaddeyne tetasaddeyani tetasaddeyne etasadda netasadda.",
@@ -1620,12 +3066,252 @@
       ]
     },
     "25": {
+      "title": "Nakıs fiilin emri",
+      "body": [
+        "“Onlardan emir”: “gazaya çık!” anlamında uğzü uğzüva uğzu uğzi uğzüva uğzune; “at!” anlamında irmi irmiya irmu irmi [kadına] irmiya irmine; “razı ol!” anlamında irda irdaya irdav irday irdaya irdayne. Her biri, öneki kaldırılmış ve sakin birinci asli harften önce bir vasl hemzesi getirilmiş meczumdur: yağzu'dan sonra zammeli, yermi ve yerda'dan sonra kesreli.",
+        "Bir erkeğe, meczumda olduğu gibi son asli harf gitmiştir: uğzü, irmi, irda. İki kişiye ve kadınlara kalır: uğzüva, uğzune. Erkeklere ve kadına sonlar, nunsuz muzarinin sonlarıdır: uğzu ve uğzi, irmu ve irmi, irdav ve irday.",
+        "“Ona te'kid nununu getirdiğinde hazfedilen lam geri getirilir”: uğzüvenne uğzüvanni uğzünne uğzinne uğzüvanni uğzunanni; irmiyenne irmiyanni irmünne irminne irmiyanni irminanni; irdayenne irdayanni irdavunne irdayinne irdayanni irdaynanni. Sebep sunenne'de görülen sebeptir: son harf nundan önce hareke almak zorundadır, bu yüzden harekesizlikten düşen lam geri gelir.",
+        "Erkeklerin ve kadının sigalarında 11. dersin kuralları geçerlidir. Uğzünne ve irmünne'de, uğzinne ve irminne'de zamirin vavı ya da ya'sı düşer ve zammesi ya da kesresi kalır, çünkü önündeki harf zammeli ya da kesreliydi. İrdavunne ve irdayinne'de önceki harf fethalıdır, bu yüzden vav ve ya kalır ve hareke alır, la tahşevunne'deki gibi.",
+        "Bir tuzak: kadınlara söylenen uğzune ve irmine uzun sesli harfi korur, çünkü o zamir değil lamdır; zamir -ne'dir. Erkeklere söylenen uğzu ile karşılaştırın; orada u zamirdir. Aynı uzun sesli harf, iki farklı harf, tıpkı yağzune'deki gibi."
+      ],
+      "terms": [
+        "nakıs fiilin emri",
+        "hazfedilen lamı te'kid nunundan önce geri getirmek"
+      ],
+      "examples": [
+        "ğaza'nın emri",
+        "radıye'nin emri",
+        "te'kid nunuyla lam geri gelir",
+        "fethadan sonra zamir harekeyle korunur"
+      ],
+      "tasks": [
+        {
+          "prompt": "Uğzüvenne'de vav neden geri gelir?",
+          "answer": "Uğzü'nün vavı son harf meczum olduğu için düşmüştü. Te'kid nunundan önce son harf fetha alır ve vav fethayı taşıyabilir, bu yüzden hazfedilen lam geri getirilir."
+        },
+        {
+          "prompt": "İrdavunne ve irdayinne'yi açıklayın.",
+          "answer": "Bunlar sakile nunlu irdav ve irday'dır. Zamirin vavı ve ya'sından önceki harf fethalıdır, bu yüzden bunlar düşmez, nundan önce hareke, zamme ve kesre, alır."
+        },
+        {
+          "prompt": "Uğzune: kime söylenir ve u'su nedir?",
+          "answer": "Kadınlara. U kökün lamıdır, ardından kadınların nunu geldiği için korunur; -ne onların zamiridir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ğaza'nın bir erkeğe emri …",
+          "options": [
+            "Uğzu",
+            "Uğzü",
+            "İğzi",
+            "Ğaza"
+          ],
+          "explanation": "Lam, meczum lem yağzu'daki gibi düşer."
+        },
+        {
+          "prompt": "Radıye'nin erkeklere emri …",
+          "options": [
+            "İrdu",
+            "İrday",
+            "İrdav",
+            "İrda"
+          ],
+          "explanation": "Vavdan önceki fetha kalır: yerdavne gibi."
+        },
+        {
+          "prompt": "Te'kid nunundan önce hazfedilen lama ne olur?",
+          "options": [
+            "Hazfedilmiş kalır",
+            "Hemze olur",
+            "Elif olur",
+            "Geri getirilir"
+          ],
+          "explanation": "Uğzüvenne, irmiyenne, irdayenne."
+        },
+        {
+          "prompt": "İrmünne … söylenir.",
+          "options": [
+            "erkeklere",
+            "bir erkeğe",
+            "bir kadına",
+            "kadınlara"
+          ],
+          "explanation": "Zamirin vavı düştü, zammesi kaldı."
+        },
+        {
+          "prompt": "İrdayinne'de ya neden korunur?",
+          "options": [
+            "Lam olduğu için",
+            "Önündeki harf fethalı olduğu için",
+            "Cem' olduğu için",
+            "Korunmaz"
+          ],
+          "explanation": "Önündeki harf fethalıdır, bu yüzden ya düşmek yerine hareke alır, imma terayinne'deki gibi."
+        },
+        {
+          "prompt": "Uğzune'nin u'su …",
+          "options": [
+            "erkeklerin zamiridir",
+            "ref' alametidir",
+            "kökün lamıdır",
+            "zaid bir harftir"
+          ],
+          "explanation": "-ne kadınların zamiridir."
+        },
+        {
+          "prompt": "Uğzinne … söylenir.",
+          "options": [
+            "bir erkeğe",
+            "erkeklere",
+            "iki kişiye",
+            "bir kadına"
+          ],
+          "explanation": "Uğzi'den: ya düştü, kesresi kaldı."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "To": "Kime",
+          "Ghazā": "Ğaza",
+          "Emphasised": "Te'kidli",
+          "Ramā": "Rama",
+          "one man": "bir erkek",
+          "two": "iki kişi",
+          "men": "erkekler",
+          "one woman": "bir kadın",
+          "women": "kadınlar"
+        },
+        "caption": "Ğaza ve rama'nın emri, te'kidsiz ve te'kidli (İzzi, s. 164)"
+      },
       "text": [
         "Onlardan emir: “gaza et!” anlamında uğzü uğzüva uğzu uğzi uğzüva uğzune, “at!” anlamında irmi irmiya irmu irmi [müennes] irmiya irmine ve “razı ol!” anlamında irda irdaya irdav irday irdaya irdayne.",
         "Ona te'kid nunu getirdiğinde hazfedilen lam geri getirilir ve uğzüvenne uğzüvanni uğzünne uğzinne uğzüvanni uğzunanni, irmiyenne irmiyanni irmünne irminne irmiyanni irminanni ve irdayenne irdayanni irdavunne irdayinne irdayanni irdaynanni dersin."
       ]
     },
     "26": {
+      "title": "Nakıs fiilin ism-i fail ve ism-i mef'ulü; daha uzun nakıs fiiller",
+      "body": [
+        "İsm-i fail: “gazi” anlamında ğazin ğaziyani ğazune ğaziyetün ğaziyetani ğaziyatün, cem'-i mükesserleri ğuzatün, ğuzzen, ğuzza'ün ve ğavazin ile; “atan” anlamında ramin ramiyani ramune, rumatün ve rümmen, ramiyetün ramiyetani ramiyatün ve ravamin; “razı” anlamında da radın.",
+        "“Ğazin'in aslı ğazivün'dür: vav, sonda olduğu ve önündeki harf kesreli olduğu için ya'ya çevrildi, ğuziye'de çevrildiği gibi.” Sonra “ğaziyetün dediler, çünkü müennes müzekkerin fer'idir ve te sonradan gelen bir şeydir”. Te ile vav artık sonda olmazdı; ama müennes, ya'ya zaten sahip olan müzekker üzerine bina edilir, bu yüzden ya kalır.",
+        "İsm-i mef'ul: vavlı fiilden “gazaya uğramış” anlamında mağzüvv, yalı fiilden “atılmış” anlamında mermiyy. Mermiyy'de “vav ya'ya çevrildi ve ikinci ya'ya idğam edildi, önündeki harf de kesreli kılındı; çünkü vav ile ya bir kelimede bir araya gelip birincisi sakin olunca vav ya'ya çevrilir”. Mağzüvv'de iki vav buluşur ve hiçbir değişiklik olmadan idğam edilir.",
+        "İki isim vezni aynı kurallara uyar: fe'ul vavlı bir kökten “düşman” anlamında adüvv'ü, yalı bir kökten “fahişe” anlamında bağıyy'ı verir; fe'il vavlı bir kökten “çocuk” anlamında sabiyy'i, yalı bir kökten “satın alınmış” anlamında şeriyy'i verir. Bağıyy ve sabiyy'de bir vav bir ya ile buluştu ve hangisi önce gelirse gelsin ya oldu.",
+        "Mezid fiilde “vavı ya'ya çevrilir, çünkü önündeki harf zammeli olmadan dördüncü ya da daha ileride duran her vav ya'ya çevrilir”: e'ta yu'ti, i'teda ye'tedi, isterşa yesterşi, zamirle de e'taytü, i'tedeytü, isterşeytü, tağazeyna, teracceyna. E'ta vavlı bir köktendir, yine de e'taytü bir ya gösterir: uzun bir fiilde sondaki vav hep ya'ya yol verir."
+      ],
+      "terms": [
+        "müennes müzekkerin fer'idir",
+        "bitmiş bir kelimeye eklenen, sonradan gelen te",
+        "vav ile ya bir arada, birincisi sakin: ikisi de ya olur"
+      ],
+      "examples": [
+        "ğaza'nın ism-i faili",
+        "ğazin'in dört cem'-i mükesseri",
+        "ism-i mef'ul: iki vav idğamlı; vav ile ya ya olarak idğamlı",
+        "vavlı ve yalı köklerden fe'ul ve fe'il",
+        "dördüncü ya da daha ileride duran vav ya olur"
+      ],
+      "tasks": [
+        {
+          "prompt": "Kökte vav olmasına ve te onu sondan uzak tutmasına rağmen neden ya ile ğaziyetün denir?",
+          "answer": "Müennes müzekkerin fer'idir ve te ondan sonra gelir: müennes, vavı zaten ya olmuş olan ğazin üzerine bina edilir, bu yüzden ya kalır."
+        },
+        {
+          "prompt": "Mermiyy'i adım adım açıklayın.",
+          "answer": "Mef'ul vezninde mermuy: sakin bir vav bir kelimede bir ya ile buluşur; vav ya olur, önündeki harf kesre alır ve iki ya idğam edilir: mermiyy."
+        },
+        {
+          "prompt": "E'ta vavlı bir köktendir. E'taytü'de neden ya vardır?",
+          "answer": "Vavı dördüncü harftir (e-'-t-v) ve önünde zamme yoktur; böyle her vav ya'ya çevrilir."
+        },
+        {
+          "prompt": "Kitabın saydığı ğazin'in cem'-i mükesserlerini verin.",
+          "answer": "Ğuzatün, ğuzzen, ğuzza'ün ve ğavazin."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Ğazin'in aslı …",
+          "options": [
+            "Yalı bir kökten ğaziyün",
+            "Ğazevün",
+            "Ğazivün",
+            "Ğazvün"
+          ],
+          "explanation": "Kesreden sonra sondaki vav, ğuziye'deki gibi ya oldu."
+        },
+        {
+          "prompt": "Ğaziyetün ya'yı neden korur?",
+          "options": [
+            "Te ya'ya muhtaç olduğu için",
+            "Cem' olduğu için",
+            "Bir hata olduğu için",
+            "Müennes müzekkerin fer'i olduğu için"
+          ],
+          "explanation": "Te, müzekker tamamlandıktan sonra gelir."
+        },
+        {
+          "prompt": "Mağzüvv'de … vardır.",
+          "options": [
+            "idğam edilmiş iki vav",
+            "ya'ya dönmüş bir vav",
+            "bir hemze",
+            "hazfedilmiş bir lam"
+          ],
+          "explanation": "Ğ-z-v kökünden mef'ul: mef'ulün vavı ve lam."
+        },
+        {
+          "prompt": "Mermiyy'de mef'ulün vavı …",
+          "options": [
+            "düştü",
+            "ya olup idğam edildi",
+            "kaldı",
+            "elif oldu"
+          ],
+          "explanation": "Bir ya'dan önce sakin vav ya olur."
+        },
+        {
+          "prompt": "“Çocuk” anlamında sabiyy … vezninde gelir.",
+          "options": [
+            "fe'ul",
+            "fa'il",
+            "fe'il",
+            "mef'ul"
+          ],
+          "explanation": "Vavlı bir kökten: vav ya olarak idğam edildi."
+        },
+        {
+          "prompt": "Mezid fiilde sondaki vav ne zaman ya olur?",
+          "options": [
+            "Her zaman",
+            "Hiçbir zaman",
+            "Yalnız meçhulde",
+            "Dördüncü ya da daha ileride olup önünde zamme bulunmayınca"
+          ],
+          "explanation": "Önünde zamme olmayan dördüncü ya da daha ileride bir vav ya olur: e'ta yu'ti, i'teda ye'tedi."
+        },
+        {
+          "prompt": "Tağazeyna … demektir.",
+          "options": [
+            "birbirimizle savaştık",
+            "onlar gazaya çıktı",
+            "bize saldırıldı",
+            "birbirinizle savaşın!"
+          ],
+          "explanation": "Ğ-z-v kökünden tefa'ul babı: beşinci harf olan vav ya oldu."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Pattern": "Vezin",
+          "Wāw root": "Vavlı kök",
+          "Yāʾ root": "Yalı kök",
+          "fāʿil": "fa'il",
+          "mafʿūl": "mef'ul",
+          "faʿūl": "fe'ul",
+          "faʿīl": "fe'il"
+        },
+        "caption": "Vavlı ve yalı köklerden nakıs isimler (İzzi, s. 164–166)"
+      },
       "text": [
         "Onlardan ism-i fail: “bir gazi” anlamında ğazin ğaziyani ğazune ğaziyetun ğaziyetani ğaziyatün ğuzatun ve ğuzzen ve ğuzza'un ve ğavazin ve diğerleri; aynı şekilde ramin ramiyani ramune rumatun ve rummen, “bir atıcı” anlamında ramiyetun ramiyetani ramiyatün ve ravamin, ve “razı olan” anlamında radın. ğazin kelimesinin aslı ğazivun şeklidir: vav, sonda olup öncesi kesreli olduğu için yeye çevrildi; “ona gaza edildi” anlamındaki ğuziye sigasında çevrildiği gibi; sonra ğaziyetun dediler, çünkü müennes müzekkerin fer'idir, te de sonradan gelen bir şeydir.",
         "Vavi fiilin ism-i mef'ulünde “gaza edilmiş” anlamında mağzüvvun, yayi fiilinkinde “atılmış” anlamında mermiyyun dersin: vav yeye çevrilip ikinci yeye idğam edildi ve öncesi kesreli yapıldı; çünkü vav ile ye bir kelimede bir araya gelip ilki sakin olduğunda vav yeye çevrilir ve ye yeye idğam edilir.",
@@ -1634,6 +3320,124 @@
       ]
     },
     "27": {
+      "title": "İki lefif ve son iki çeşit",
+      "body": [
+        "Aynı ve lamı mu'tel olan dördüncü çeşit lefif-i makrundur (el-lefifü'l-makrun). Aynı sahih, lamı nakıs gibi muamele görür: rama yermi remyen gibi “kızartmak” anlamında şeva yeşvi şeyyen; “güçlü olmak” anlamında kaviye yakva kuvveten; radıye yerda rıdan gibi “kanmak” anlamında raviye yerva riyyen, fe hüve rayyanü ve hiye rayya, atşan ve atşa gibi; ve e'ta gibi “susuzluğunu gidermek” anlamında erva.",
+        "“Yaşamak” anlamında hayiye radıye gibidir; ayrıca hayye yahya hayaten, “yaşamak”, de denir, fe hüve hayyün, “diri”, hayya (hayyani) ve hayyu (ahya') ile; “ve şeddesiz hayu da caizdir, radu gibi”. Emir, irda gibi ihya'dır. Mezid fiilde: “diriltmek” anlamında ahya yuhyi ihya'en; “selamlamak, ikram etmek” anlamında haya yuhayi muhayaten; “utanmak” anlamında istahya yestahyi, emri istahyi; “bazıları istaha yestahi istahi der; bu, çok kullanılmasından dolayıdır, la edri yerine la edri [ya'sız] dedikleri gibi”.",
+        "Fası ve lamı mu'tel olan beşinci çeşit lefif-i mefruktur (el-lefifü'l-mefruk): rama yermi gibi “korumak” anlamında veka yaki, yakıyani, yakune ve sonrası. Fası va'ade ye'idü'deki gibi düşer; lamı yermi'ye uyar. “Ondan emir kı'dır, böylece emir tek bir harf olur ve vakfta ona he gereklidir”: kıh; sonra kıya ku kı [ya ile] kıya kine. Te'kidle: kıyenne kıyanni kunne kınne kıyanni kinanni, hafifiyle kıyen kun kın.",
+        "“Toynakları aşınmak” anlamında veciye yevca, radıye yerda gibidir ve emri irda gibi ice'dir. Burada fa kalır: muzari yef'alü veznindedir ve 16. ders, yef'alü'de vavın kaldığını öğretmişti. İce'de vav, hemzenin kesresinden sonra, icel'deki gibi ya ile yazılır.",
+        "Fası ve aynı mu'tel olan altıncı çeşit yalnız isimlerde vardır: bir yer adı olan yeyn, “gün” anlamında yevm, “eyvah” anlamında veyl; “ondan fiil bina edilmez”. Üçü de mu'tel olan yedinci çeşit, iki harfin adları olan vav ve ya'dır. Bunlarla mu'tel fiilin yedi çeşidi tamamlanır."
+      ],
+      "terms": [
+        "lefif-i makrun: aynı ve lamı mu'tel",
+        "lefif-i mefruk: fası ve lamı mu'tel",
+        "sekt he'si: kıh",
+        "çok kullanılmasından dolayı: istaha, la edri"
+      ],
+      "examples": [
+        "lefif-i makrun: ayn sahih, lam nakıs",
+        "ikisi de söylenir; ikincisi çok kullanıldığı için",
+        "lefif-i mefruk; emri tek harf; vakfta he ile",
+        "radıye yerda gibi veciye yevca: vav kalır"
+      ],
+      "tasks": [
+        {
+          "prompt": "Şeva'nın hangi illet harfi mu'tel gibi davranır ve nasıl?",
+          "answer": "Yalnız lam: şeva yeşvi, rama yermi gibi gider. Ayn, yani vav, sahih bir harf gibi muamele görür ve değişmez."
+        },
+        {
+          "prompt": "Veka'nın emri neden tek bir harftir ve vakfta ne eklenir?",
+          "answer": "Fası muzaride ye'idü'deki gibi düşer, lamı da emirde irmi'deki gibi düşer; yalnız kaf kalır. Vakfta bir he gereklidir: kıh."
+        },
+        {
+          "prompt": "Veka muzaride vavını kaybeder, veciye ise korur. Neden?",
+          "answer": "Yaki yef'ilü veznindedir ve misalin vavı kesreden önce düşer. Yevca yef'alü veznindedir ve yef'alü'de vav kalır."
+        },
+        {
+          "prompt": "Mu'telin altıncı ve yedinci çeşidini örnekleriyle adlandırın.",
+          "answer": "Altıncısı, fası ve aynı mu'tel olan: yeyn, yevm, veyl; bunlardan fiil bina edilmez. Yedincisi, üçü de mu'tel olan: harflerin adları olan vav ve ya."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Lefif-i makrun … mu'teldir.",
+          "options": [
+            "fa ve lamda",
+            "fa ve aynda",
+            "üçünde de",
+            "ayn ve lamda"
+          ],
+          "explanation": "İllet harfleri ayn ve lamda yan yana durur: şeva, kaviye, raviye."
+        },
+        {
+          "prompt": "Raviye yerva … gibi gider.",
+          "options": [
+            "radıye yerda",
+            "rama yermi",
+            "ğaza yağzu",
+            "kale yakulü"
+          ],
+          "explanation": "Nakıs bir fiilin fe'ile yef'alü'sü."
+        },
+        {
+          "prompt": "Bazıları istahya yerine neden istaha der?",
+          "options": [
+            "Hemze kuralı gereği",
+            "Çok kullanıldığı için",
+            "Meçhul olduğu için",
+            "Bir hata olduğu için"
+          ],
+          "explanation": "Çok kullanım kelimeleri aşındırır: istahya yerine istaha, la edri yerine la edri [ya'sız] gibi."
+        },
+        {
+          "prompt": "Veka'nın erkeklere emri …",
+          "options": [
+            "Kı",
+            "Kıya",
+            "Ku",
+            "Kine"
+          ],
+          "explanation": "İki kişiye kıya, erkeklere ku, bir kadına kı [ya ile], kadınlara kine."
+        },
+        {
+          "prompt": "Kıh …",
+          "options": [
+            "başka bir fiildir",
+            "cem'dir",
+            "meçhuldür",
+            "sekt he'siyle kı'dır"
+          ],
+          "explanation": "Tek harfli bir emir, üzerinde durulunca he'ye muhtaçtır."
+        },
+        {
+          "prompt": "Veciye'nin emri …",
+          "options": [
+            "İce",
+            "Ci",
+            "Vce",
+            "Uci"
+          ],
+          "explanation": "İrda gibi; vav korunur ve kesreden sonra ya ile yazılır."
+        },
+        {
+          "prompt": "Hangi çeşitten fiil bina edilmez?",
+          "options": [
+            "Ayn ve lamı mu'tel olandan",
+            "Fa ve aynı mu'tel olandan",
+            "Fa ve lamı mu'tel olandan",
+            "Ecveften"
+          ],
+          "explanation": "Fası ve aynı mu'tel olanlar yalnız isimlerdir, yeyn, yevm, veyl; onlardan fiil bina edilmez."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Conjugated like": "… gibi tasrif edilir",
+          "Command": "Emir"
+        },
+        "caption": "Lefif fiiller ve örnekleri (İzzi, s. 166–168)"
+      },
       "text": [
         "Dördüncü çeşit aynı ve lamı illetli fiildir; ona lefif-i makrun denir. Böylece rama yermi ramyen gibi “kebap etmek” anlamında şeva yeşvi şeyyen; “güçlü olmak” anlamında kaviye yakva kuvveten; ve radıye yerda ridan gibi “suya kanmak” anlamında raviye yerva riyyen dersin; o rayyanü, kadın rayya “susuzluğu gitmiş” olur, 'atşane ve 'atşa “susamış” gibi; ve e'ta gibi “suya kandırmak” anlamında erva.",
         "“Yaşamak” anlamındaki hayiye, radıye gibidir; ve hayye yahya hayaten, o hayyun “diri” olur; hayya, o ikisi hayyani olur; hayyu, onlar ahya'un olur; şeddesiz hayu de caizdir, radu gibi. Ondan emir irda gibi ihye şeklindedir. Ve “diriltmek” anlamında ahya yuhyi ihya'en, “kayırmak” anlamında haya yuhayi muhayaten, “utanmak” anlamında istahya yestahyi; emri istahyi; bazıları istaha yestahi istahi der; bu çok kullanıldığı içindir; nitekim “bilmiyorum” anlamındaki la edri [ye ile] yerine la edri dediler.",
@@ -1643,6 +3447,127 @@
       ]
     },
     "28": {
+      "title": "Mehmuz fiil: iki hemze ve huz, kül, mür",
+      "body": [
+        "“Mehmuz fiilin, fiilinin türemiş sigalarındaki hükmü sahih fiilin hükmüdür, çünkü hemze sahih bir harftir; ama başta olmayınca bazen hafifletilir, çünkü boğazın en uzak yerinden çıkan sert bir harftir.” Hemze illet harfi değildir; yalnız söylenmesi ağır olduğu için ve yalnız bir kuralın izin verdiği yerde değişir.",
+        "Böylece “ummak” anlamında emele ye'mülü, nasara yensuru gibi gider ve emri unsur gibi umül'dür. Burada iki hemze buluşur: vasl hemzesi ve asli hemze. “İki hemze bir kelimede buluşup ikincisi sakin olunca, önündeki harekenin cinsine çevrilmesi gerekir”, amene, umine ve iman'daki gibi: fethadan sonra elif, zammeden sonra vav, kesreden sonra ya.",
+        "“Birincisi vasl hemzesi ise, önündeki harf fethalı olunca ikincisi bitişik konuşmada hemzeye döner”: “ve um!” anlamında ve'mül. Vasl hemzesi bitişik konuşmada düşer, böylece artık iki hemze yoktur ve asli hemze geri gelir. Tek başına umül, ve'den sonra ve'mül: tek emir, iki şekil.",
+        "“Huz, “al!”, kül, “ye!” ve mür, “emret!”'te hemzeyi kıyasa aykırı olarak, çok kullanıldığı için hazfettiler.” Ama “ve'mür bazen bitişik konuşmada asıl üzere gelir”, şu ayette olduğu gibi: ve'mür ehleke bi's-salati, “ailene namazı emret” (Taha 20/132). İki şekil de bir ayette yan yana durur: huzi'l-afve ve'mür bi'l-urfi, “affı tut ve iyiliği emret” (A'raf 7/199).",
+        "Bir tuzak: umül'ü uzun u'su yüzünden ecvef bir fiil saymayın. Kökü '-m-l'dir ve u, vasl hemzesinin zammesinden sonra vava dönmüş bir hemzedir. Ölçü mazidir: hemzesi fada olan emele."
+      ],
+      "terms": [
+        "hemzeyi hafifletmek (tahfif)",
+        "bir kelimede iki hemze: sakin olan ikincisi önündeki harekeye uyar",
+        "kıyasa aykırı: huz, kül, mür"
+      ],
+      "examples": [
+        "emele ye'mülü; umül, bitişik konuşmada ve'mül",
+        "elif, vav ve ya olarak ikinci hemze",
+        "ve'mür ehleke bi's-salati (Taha 20/132): bitişik konuşmada asıl",
+        "huzi'l-afve ve'mür bi'l-urfi (A'raf 7/199): iki şekil"
+      ],
+      "tasks": [
+        {
+          "prompt": "Emele'nin emri neden vav ile umül'dür?",
+          "answer": "İki hemze buluşur: zammeli vasl hemzesi (muzari ye'mülü'dür) ve sakin asli hemze. İkincisi önündeki harekenin harfine dönmelidir: zammeden sonra vav."
+        },
+        {
+          "prompt": "Ve'mül'de hemze neden geri gelir?",
+          "answer": "Ve'den sonra vasl hemzesi bitişik konuşmada düşer; artık art arda iki hemze yoktur, bu yüzden asli hemze olduğu gibi kalır."
+        },
+        {
+          "prompt": "İzzi huz, kül ve mür hakkında ne der ve Taha 20/132 neyi gösterir?",
+          "answer": "Hemzeleri, çok kullanıldıkları için kıyasa aykırı olarak hazfedilmiştir. Ve'mür ehleke bi's-salati, mür'ün bitişik konuşmada hemzesiyle asıl üzere de gelebileceğini gösterir."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Mehmuz fiil neden sahih fiil gibi tasrif edilir?",
+          "options": [
+            "Hemze sahih bir harf olduğu için",
+            "Hemzesi olmadığı için",
+            "Muzaaf olduğu için",
+            "Mu'tel olduğu için"
+          ],
+          "explanation": "Yalnız hafifletilince değişir."
+        },
+        {
+          "prompt": "Hemze neden hafifletilir?",
+          "options": [
+            "İllet harfi olduğu için",
+            "Boğazın uzak yerinden çıkan sert bir harf olduğu için",
+            "Zaid olduğu için",
+            "Az bulunduğu için"
+          ],
+          "explanation": "“Boğazın en uzak yerinden çıkan sert bir harf.”"
+        },
+        {
+          "prompt": "İki hemze buluşup ikincisi sakin olunca ikincisi …",
+          "options": [
+            "düşer",
+            "kalır",
+            "önündeki harekenin harfi olur",
+            "nun olur"
+          ],
+          "explanation": "İkincisi birincinin harekesinin harfini alır: amene, umine, iman."
+        },
+        {
+          "prompt": "İman'da ikinci hemze … oldu.",
+          "options": [
+            "elif",
+            "vav",
+            "hemze",
+            "ya"
+          ],
+          "explanation": "Birinci hemzenin kesresinden sonra sakin ikinci hemze ya oldu."
+        },
+        {
+          "prompt": "Ve'mül'de hemze vardır, çünkü …",
+          "options": [
+            "vasl hemzesi bitişik konuşmada düştü",
+            "başka bir fiildir",
+            "meçhuldür",
+            "vav yüzünden"
+          ],
+          "explanation": "Yalnız bir hemze kalır ve o da kalır."
+        },
+        {
+          "prompt": "Huz, kül ve mür …",
+          "options": [
+            "iki hemze kuralına göredir",
+            "çok kullanıldıkları için kıyasa aykırıdır",
+            "meçhul sigalardır",
+            "ecvef fiillerdir"
+          ],
+          "explanation": "Hemzeleri, çok sık kullanıldıkları için kıyasa aykırı olarak hazfedildi."
+        },
+        {
+          "prompt": "Taha 20/132'de … vardır.",
+          "options": [
+            "mür",
+            "umür (uzun u ile)",
+            "asıl üzere ve'mür",
+            "umür (kısa u ile)"
+          ],
+          "explanation": "Ve'mür ehleke bi's-salati: ve'den sonra asli hemze geri gelir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Word": "Kelime",
+          "Vowel of the first hamza": "Birinci hemzenin harekesi",
+          "Second hamza becomes": "İkinci hemze … olur",
+          "fatḥa": "fetha",
+          "alif": "elif",
+          "ḍamma": "zamme",
+          "wāw": "vav",
+          "kasra": "kesre",
+          "yāʾ": "ya",
+          "the first has dropped": "birincisi düştü",
+          "a hamza again": "yine hemze"
+        },
+        "caption": "İki hemzenin ikincisi önündeki harekeye uyar (İzzi, s. 169–170)"
+      },
       "text": [
         "Mehmuz fiilin, fiilinin türevlerindeki hükmü sahih fiilin hükmüdür; çünkü hemze sahih bir harftir; fakat başta bulunmadığında bazen hafifletilir, çünkü boğazın en uzak yerinden çıkan ağır bir harftir.",
         "Böylece nasara yensuru gibi “ummak” anlamında emele ye'mülü dersin; ondan emir unsur gibi umül şeklindedir: ikinci hemze vava çevrilmiştir; çünkü bir kelimede iki hemze bir araya gelip ikincisi sakin olduğunda, önceki harekenin cinsine çevrilmesi gerekir: amene, umine ve imanen gibi. İlki hemze-i vasl ise, öncesi fethalı olduğunda ikincisi vasılda hemzeye döner: “ve um!” anlamında ve 'mül gibi.",
@@ -1650,6 +3575,119 @@
       ]
     },
     "29": {
+      "title": "Başka fiillerin örneğinde mehmuz fiiller",
+      "body": [
+        "İzzi şimdi her mehmuz fiil için onun gibi giden fiili adlandırır. “Ziyafete davet etmek” anlamında edebe ye'dibü ve “vermek” anlamında hene'e yehni'u, darabe yadribü gibi gider; emirleri idib'dir: asli hemze vasl hemzesinin kesresinden sonra ya'ya dönmüştür. “Edepli olmak” anlamında edübe ye'dübü, kerume yekrumü gibi gider, emri udüb. “Sormak” anlamında se'ele yes'elü, mene'a yemne'u gibi gider, emri is'el; “ve hafifletmeyle sel ile birlikte sale yesalü de caizdir; aslı is'el'dir”.",
+        "Bazı fiiller hem mehmuz hem mu'teldir. “Dönmek” anlamında abe ye'ubü evben ve “kötü olmak” anlamında sa'e yesu'u, sane yasunü gibi gider; “gelmek” anlamında ca'e yeci'u, “ölçmek” anlamında kale yekilü gibi; failleri de sa'in ve ca'in'dir. Burada hemze lamdadır ve ism-i fail ğazin gibi biter.",
+        "“Yarayı tedavi etmek” anlamında esa ye'su, “koşmak” anlamında ada ye'du gibi gider; “gelmek” anlamında eta ye'ti, rama yermi gibi, emri i'ti; “bazıları onu huz'a benzeterek ti der”. “Vaat etmek” anlamında ve'a ye'i, veka yaki gibi gider; “sığınmak” anlamında eva ye'vi eyyen, şeva yeşvi şeyyen gibi, emri işvi gibi ivi; “uzak olmak” anlamında ne'a yen'a da “otlamak” anlamında ra'a yer'a gibi.",
+        "Bu, Maksud'un yönteminin bir listeye dönüştürülmüş şeklidir: örneği bulun, fiili onun gibi tasrif edin ve hemzenin kendi birkaç kuralına uymasına bırakın. Ve'a, aynı hemze olan lefif-i mefruktur; eva, fası hemze olan lefif-i makrundur; eta nakıstır; ca'e ecveftir. Babın her fiili daha önce öğrenilmiş bir örneğe varır.",
+        "Bir tuzak: eta'dan gelen ti ile veka'dan gelen kı birbirine benzer: tek harf ve bir kesre. Ti, bazı Arapların kullandığı, “onu huz'a benzeterek” yapılmış bir kısaltmadır ve kıyasi i'ti'nin yanında durur; kı ise lefif-i mefrukun kıyasi emridir."
+      ],
+      "terms": [
+        "ca'e gibi hem mehmuz hem mu'tel fiil",
+        "bir sigayı başkasına benzetmek: huz'dan sonra ti (teşbih)",
+        "bir sigaya kıyas edilen örnek fiil"
+      ],
+      "examples": [
+        "darabe yadribü gibi edebe ye'dibü; emri idib",
+        "se'ele yes'elü; is'el ve hafifletmeyle sel",
+        "kale yekilü gibi ca'e yeci'u",
+        "rama yermi gibi eta ye'ti; i'ti ve huz'a benzetilen ti"
+      ],
+      "tasks": [
+        {
+          "prompt": "Edebe'nin emri neden idib, edübe'ninki ise udüb'dür?",
+          "answer": "Edebe ye'dibü'nün aynı kesrelidir, bu yüzden vasl hemzesi kesrelidir ve ondan sonraki asli hemze ya olur. Edübe ye'dübü zammelidir, bu yüzden vasl hemzesi zammelidir ve asli hemze vav olur."
+        },
+        {
+          "prompt": "Sel nedir ve nereden gelir?",
+          "answer": "Hemzesi hafifletilmiş olarak se'ele'nin emridir: aslı is'el'dir. Hemze gidince sin harekeli olur ve vasl hemzesine muhtaç olmaz."
+        },
+        {
+          "prompt": "Ve'a, eva, eta ve ca'e'nin örneğini ve her birinin uyduğu mu'tel çeşidini adlandırın.",
+          "answer": "Ve'a veka gibi (lefif-i mefruk); eva şeva gibi (lefif-i makrun); eta rama gibi (nakıs); ca'e kale gibi (ecvef)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Hene'e yehni'u … gibi gider.",
+          "options": [
+            "nasara yensuru",
+            "darabe yadribü",
+            "mene'a yemne'u",
+            "kerume yekrumü"
+          ],
+          "explanation": "Muzarinin aynında kesre."
+        },
+        {
+          "prompt": "Se'ele'nin hafifletilmiş emri …",
+          "options": [
+            "İsel",
+            "Sal",
+            "Sel",
+            "Es'il"
+          ],
+          "explanation": "Aslı is'el'dir; hemze hafifletilince sin harekeli olur ve vasl hemzesine muhtaç olmaz."
+        },
+        {
+          "prompt": "Ca'e yeci'u … gibi gider.",
+          "options": [
+            "sane yasunü",
+            "rama yermi",
+            "veka yaki",
+            "kale yekilü"
+          ],
+          "explanation": "Ca'e yeci'u yalı ecvef bir fiildir, kale yekilü gibi tasrif edilir."
+        },
+        {
+          "prompt": "Sa'e'nin ism-i faili …",
+          "options": [
+            "Sa'in",
+            "Sa'i'",
+            "Sa'il",
+            "Müsi'"
+          ],
+          "explanation": "Kitap: “fe hüve sa'in ve ca'in”; ism-i fail ğazin gibi biter."
+        },
+        {
+          "prompt": "Eta'dan gelen ti … söylenir.",
+          "options": [
+            "bütün Araplarca",
+            "bazılarınca, huz'a benzetilerek",
+            "meçhulde",
+            "yalnız şiirde"
+          ],
+          "explanation": "Bazı Araplar onu huz'a benzeterek ti der; kıyasi emir i'ti'dir."
+        },
+        {
+          "prompt": "Eva ye'vi … gibi gider.",
+          "options": [
+            "veka yaki",
+            "ra'a yer'a",
+            "şeva yeşvi",
+            "kale yakulü"
+          ],
+          "explanation": "Lefif-i makrun; emri işvi gibi ivi."
+        },
+        {
+          "prompt": "“Uzak olmak” anlamında ne'a yen'a … gibi gider.",
+          "options": [
+            "rama yermi",
+            "ğaza yağzu",
+            "veka yaki",
+            "ra'a yer'a"
+          ],
+          "explanation": "Muzaride lamdan önce fetha."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Hamzated verb": "Mehmuz fiil",
+          "Like": "… gibi",
+          "Command": "Emir"
+        },
+        "caption": "Mehmuz fiiller ve örnekleri (İzzi, s. 170–171)"
+      },
       "text": [
         "“Ziyafete çağırmak” anlamında edebe ye'dibü ve “vermek” anlamında hene'e yehni'u, darabe yadribü gibidir; onlardan emir idib şeklindedir. “Edepli olmak” anlamında edübe ye'dübü, kerume yekrumü gibidir; ondan emir udüb şeklindedir. “Sormak” anlamında se'ele yes'elü, mene'a yemne'u gibidir; emri is'el; tahfif ile sale yesalü ve sel de caizdir; aslı is'el şeklidir.",
         "“Dönmek” anlamında abe ye'ubü evben ve “kötü olmak” anlamında sa'e yesu'u, sane yasunü gibidir; “gelmek” anlamında ca'e yeci'u, “ölçmek” anlamındaki kale yekilü gibidir; o, sa'in ve ca'in olur; “yara tedavi etmek” anlamında esa ye'su, “koşmak” anlamındaki 'ada ye'du gibidir; “gelmek” anlamında eta ye'ti, rama yermi gibidir; ondan emir i'ti şeklindedir; bazıları onu huz sigasına benzeterek ti der.",
@@ -1657,6 +3695,130 @@
       ]
     },
     "30": {
+      "title": "Ra'a ve era",
+      "body": [
+        "Kurala göre “görmek” anlamında ra'a, ne'a gibi giderdi: ra'a yer'a. “Ama Araplar muzarisinden hemzeyi hazfetmekte ittifak ettiler”: yera yerayani yeravne tera terayani yerayne tera terayani teravne terayne terayani terayne era nera. Sonlar yerda'nın sonlarıdır; yalnız fiilin aynı olan hemze gitmiştir. Muhataba kadın ve kadınlar için lafız aynıdır, terayne, “ama müfred tefayne, cem' tefalne'dir”: aynı çıkarılmış terdayne vezinleri.",
+        "Emir: asıl üzere ir'a gibi ir'e; hazf ile de vakfta he'ye muhtaç olan tek harf ra: rah. Sonra raya rav ray raya rayne; te'kidle rayenne rayanni ravunne rayinne rayanni raynanni; hafif nunla rayen ravun rayin. Bunlar, irda'nın yerda'nın emri olduğu gibi, hemzesiz olarak yera'nın emirleridir.",
+        "İsimler hemzeyi korur: ra'in (aynlı) gibi ra'in (hemzeli), ra'iyani ve ra'une ile; ism-i mef'ul de mer'iyy (aynlı) gibi mer'iyy (hemzeli). Hazf muzariye ve emrine aittir; isimlere ulaşmaz.",
+        "“Ondan if'al vezni de kardeşlerinden ayrılır”: “göstermek” anlamında era yuri ira'eten, hemze bütün sigalarından gitmiştir. Faili mürin müriyani mürune müriyetün müriyetani müriyatün, nakıs bir ism-i fail gibi; işe uğrayanı müran mürayani müravne, el-mu'ta gibi. Emir: eri eriya eru eri [kadına] eriya erine, te'kidle eriyenne … erinanni; nehy: la türi la türiya la türu la türi [kadına] la türiya la türine.",
+        "Son olarak fası hemze olan bir fiilden ifti'al: ihtara gibi itale ve iktada gibi itela. Vasl hemzesinden sonra sakin olan asli hemze, idib'deki gibi ya olmuştur. Bununla mehmuz fiil babı biter ve onunla birlikte her çeşit fiilin tasrifi de."
+      ],
+      "terms": [
+        "yera'dan hemzenin hazfi",
+        "kadın ve kadınlar için terayne'nin vezinleri",
+        "ra'a'nın if'ali: göstermek"
+      ],
+      "examples": [
+        "hemzesiz ra'a'nın muzarisi",
+        "asıl üzere, hazf ile ve vakfta emir",
+        "isimler hemzeyi korur",
+        "“göster!” anlamında era'nın emri",
+        "fası hemze olan fiilden ifti'al"
+      ],
+      "tasks": [
+        {
+          "prompt": "Kurala göre ra'a'nın muzarisi yer'a olurdu. Araplar ne yaptı ve geriye ne kaldı?",
+          "answer": "Muzarisinden hemzeyi hazfetmekte ittifak ettiler: yera, yerayani, yeravne ve sonrası, yerda'nın sonlarıyla ve ayn çıkarılmış olarak."
+        },
+        {
+          "prompt": "Ra'a'nın emrini iki yolla ve vakfta kullanılan sigayı verin.",
+          "answer": "Asıl üzere ir'a gibi ir'e; hazf ile ra; vakfta da emir tek harf olduğu için he ile rah."
+        },
+        {
+          "prompt": "Hemzenin hazfi ra'a'nın isimlerine ulaşır mı?",
+          "answer": "Hayır. İsimler onu korur: ra'in (aynlı) gibi ra'in ve mer'iyy (aynlı) gibi mer'iyy."
+        },
+        {
+          "prompt": "Era'nın nehyini altı şahısta verin.",
+          "answer": "La türi, la türiya, la türu, la türi [kadına], la türiya, la türine."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Araplar ra'a'nın muzarisinde neyde ittifak etti?",
+          "options": [
+            "Hemzeyi korumakta",
+            "Ra'yı şeddelemekte",
+            "Hemzeyi hazfetmekte",
+            "Elifi vava çevirmekte"
+          ],
+          "explanation": "Kural hemzeyi verse de Araplar yer'a değil yera'da ittifak etti."
+        },
+        {
+          "prompt": "Teravne … söylenir.",
+          "options": [
+            "muhatab kadınlara",
+            "bir kadına",
+            "iki kişiye",
+            "muhatab erkeklere"
+          ],
+          "explanation": "Teravne, terdavne gibi erkeklere söylenir; terayne kadına ve kadınlara hizmet eder."
+        },
+        {
+          "prompt": "Bir kadın için terayne'nin vezni …",
+          "options": [
+            "tefayne",
+            "tefalne",
+            "tef'ayne",
+            "tef'alne"
+          ],
+          "explanation": "Ayn gitmiştir: tefayne; kadınlarınki tefalne'dir."
+        },
+        {
+          "prompt": "Ra'a'nın hangi sigası hemzeyi korur?",
+          "options": [
+            "Yera",
+            "Ra'in",
+            "Ra",
+            "Raya"
+          ],
+          "explanation": "İsimler onu korur: ra'in, mer'iyy."
+        },
+        {
+          "prompt": "Rah …",
+          "options": [
+            "başka bir fiildir",
+            "cem'dir",
+            "sekt he'siyle ra'dır",
+            "meçhuldür"
+          ],
+          "explanation": "Tek harfli bir emir vakfta he'ye muhtaçtır."
+        },
+        {
+          "prompt": "“Göstermek” anlamında era'nın muzarisi …",
+          "options": [
+            "Yera",
+            "Yur'i",
+            "Yu'ri",
+            "Yuri"
+          ],
+          "explanation": "Era yuri ira'eten: hemze bütün sigalarından gitmiştir."
+        },
+        {
+          "prompt": "İtale … gibi gider.",
+          "options": [
+            "ihtara",
+            "iktada",
+            "istakame",
+            "ittaka"
+          ],
+          "explanation": "Fası hemze olan ecvef bir fiilden ifti'al."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "To": "Kime",
+          "Muḍāriʿ": "Muzari",
+          "Command": "Emir",
+          "With emphasis": "Te'kidli",
+          "one man": "bir erkek",
+          "two": "iki kişi",
+          "men": "erkekler",
+          "one woman": "bir kadın",
+          "women": "kadınlar"
+        },
+        "caption": "Muhataba ra'a (İzzi, s. 171–172)"
+      },
       "text": [
         "“Görmek” anlamındaki ra'a yer'a fiilinin hükmü de böyledir; fakat Araplar onun muzarisinden hemzeyi hazfetmekte birleşmiş ve yera yerayani yeravne tera terayani yerayne tera terayani teravne terayne terayani terayne era nera demişlerdir. Müennes muhatabda müfred ile cem'in lafzı birleşir, fakat müfredi tefeyne, cem'i tefelne veznindedir.",
         "Ondan emir yaptığında asıl üzere ir'a gibi ir'e, hazf ile ra dersin; vakıfta ona he gerekir; böylece “gör!” anlamında rah raya rav ray raya rayne dersin; te'kidle rayenne rayanni ravunne rayinne rayanni raynanni; hafife ile rayen ravun rayin.",
@@ -1667,6 +3829,130 @@
       ]
     },
     "31": {
+      "title": "İsm-i zaman ve ism-i mekan",
+      "body": [
+        "İsm-i zaman ve ism-i mekan “kesreli yef'ilü'den aynın kesresiyle mef'il vezninde yapılır: “oturma yeri” anlamında el-meclis ve “gece kalınacak yer” anlamında el-mebit gibi; aynın fetha ya da zammesiyle yef'alü'den fethalı mef'al vezninde: “gidilecek yol” anlamında el-mezheb, “içme yeri” anlamında el-meşrab ve “durma yeri” anlamında el-makam gibi”. Maksud'daki gibi kural maziye değil muzariye bakar.",
+        "“Şaz olanlar: “secde yeri” anlamında el-mescid, “doğu” anlamında el-meşrik, “batı” anlamında el-mağrib, el-matli', el-meczir, el-mefrik, el-meskin, el-menbit, el-meskıt, el-mensik ve “dirsek” anlamında el-merfik”: muzarileri zammeli olmasına rağmen (yescudü, yeşruku) hepsi kesrelidir. “Bazılarında fetha nakledilmiştir, hepsinde de caiz görülmüştür.” Maksud'un listesi hemen hemen aynıydı ama tam değil: İzzi'de el-mağrib ve el-merfik var, Maksud'da el-menhır ve el-mecmi'. Böyle listeler işitilerek öğrenilir.",
+        "“Bu, fiil fa ve lamda sahih olunca böyledir.” Fası mu'tel fiilden isim “hep kesrelidir”: “buluşma vakti” anlamında el-mev'id, “yer” anlamında el-mevdı', “mevsim” anlamında el-mevsim; muzarisi yada'u fethalı olan vada'a bile el-mevdı''ı verir. Lamı mu'tel fiilden “hep fethalıdır”: “hedef” anlamında el-merma, “sığınak” anlamında el-me'va, el-mer'a, el-merda, el-mağza; muzarisi yermi kesreli olan rama bile el-merma'yı verir.",
+        "“Bazılarına te'nis te'si de gelir”: “muhtemel yer” anlamında el-mazınne, “mezarlık” anlamında el-makbera, “güneşli yer” anlamında el-meşraka; “ikisinde de zammeyle el-makbüra ve el-meşruka şazdır”. Buradaki te ismi ma'nada müennes yapmaz; yalnız işitildiği şekliyle kelimenin parçasıdır.",
+        "Demek ki illet harfleri muzarinin harekesine üstün gelir. Baştaki bir vav ismi mef'il'e çeker; sondaki bir illet harfi onu elifle bitebileceği mef'al'e çeker. Önce “fa mı lam mı mu'tel?” sonra “muzari nedir?” diye soran öğrenci bu isimleri doğru yapar."
+      ],
+      "terms": [
+        "ism-i zaman ve ism-i mekan",
+        "kesreli ve fethalı iki vezni",
+        "şaz: el-mescid, el-meşrik ve ötekiler"
+      ],
+      "examples": [
+        "el-meclis, el-mebit: yef'ilü'den mef'il",
+        "el-mezheb, el-meşrab, el-makam: mef'al",
+        "kurala aykırı kesre",
+        "mu'tel fadan hep kesre, mu'tel lamdan hep fetha"
+      ],
+      "tasks": [
+        {
+          "prompt": "Celese yeclisü'den ve zehebe yezhebü'den ism-i mekan yapın ve kuralı verin.",
+          "answer": "El-meclis ve el-mezheb. Yef'ilü'den isim kesreli mef'il vezninde, yef'alü ya da yef'ulü'den fethalı mef'al vezninde gelir."
+        },
+        {
+          "prompt": "Yada'u fethalıdır, yine de isim kesreli el-mevdı''dır. Neden?",
+          "answer": "Vada'a fası mu'tel bir fiildir ve böyle bir fiilden ism-i mekan, muzari ne olursa olsun, hep kesrelidir."
+        },
+        {
+          "prompt": "El-mescid'e neden şaz denir?",
+          "answer": "Muzarisi zammeli yescudü'dür, bu yüzden kural mef'al'i verir; yine de kesreyle işitilmiştir. Böyle kelimelerin bazılarında fetha nakledilmiş, hepsinde caiz görülmüştür."
+        },
+        {
+          "prompt": "İzzi'nin şazlar listesinde Maksud'unkinde olmayan hangi kelimeler vardır, tersi de?",
+          "answer": "İzzi'de el-mağrib ve el-merfik vardır; Maksud'da el-menhır ve el-mecmi'. Geri kalanı ortaktır."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Yef'ilü vezninde bir muzariden ism-i mekan … vezninde gelir.",
+          "options": [
+            "mef'al",
+            "muf'al",
+            "mif'al",
+            "mef'il"
+          ],
+          "explanation": "Yef'ilü'den ism-i mekan kesreli mef'il'dir: el-meclis, el-mebit."
+        },
+        {
+          "prompt": "“Durma yeri” anlamında el-makam … vezninde gelir.",
+          "options": [
+            "mef'al",
+            "mef'il",
+            "muf'al",
+            "fi'al"
+          ],
+          "explanation": "Kame yakumü'nün muzarisinde zamme vardır."
+        },
+        {
+          "prompt": "Hangisi şazdır?",
+          "options": [
+            "El-mezheb",
+            "El-meşrik",
+            "El-meclis",
+            "El-meşrab"
+          ],
+          "explanation": "Muzarisi zammeli olmasına rağmen kesreli."
+        },
+        {
+          "prompt": "Fası mu'tel bir fiilden ism-i mekan …",
+          "options": [
+            "hep fethalıdır",
+            "muzariye uyar",
+            "hep kesrelidir",
+            "zammelidir"
+          ],
+          "explanation": "El-mev'id, el-mevdı', el-mevsim."
+        },
+        {
+          "prompt": "El-merma fethalıdır, çünkü …",
+          "options": [
+            "yermi fethalıdır",
+            "şazdır",
+            "masdardır",
+            "fiilin lamı mu'teldir"
+          ],
+          "explanation": "Mu'tel lamdan isim hep fethalıdır."
+        },
+        {
+          "prompt": "Zammeli hangi sigaya şaz denir?",
+          "options": [
+            "El-makbüra",
+            "El-makbera",
+            "El-mazınne",
+            "El-meşraka"
+          ],
+          "explanation": "Zammeli el-makbüra ve el-meşruka şazdır; el-makbera ve el-meşraka kurala uygundur."
+        },
+        {
+          "prompt": "Kitap şaz kelimelerdeki fetha hakkında ne der?",
+          "options": [
+            "Hiç caiz değildir",
+            "Bazılarında nakledilmiş, hepsinde caiz görülmüştür",
+            "Vaciptir",
+            "Yalnız şiirde"
+          ],
+          "explanation": "“Ve hukiye'l-fethu fi ba'dıha ve ucize fi külliha.”"
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Verb": "Fiil",
+          "Pattern": "Vezin",
+          "Examples": "Örnekler",
+          "muḍāriʿ on yafʿilu": "yef'ilü vezninde muzari",
+          "muḍāriʿ on yafʿalu, yafʿulu": "yef'alü, yef'ulü vezninde muzari",
+          "irregular": "şaz",
+          "weak fāʾ": "mu'tel fa",
+          "مَفْعِلٌ always": "her zaman مَفْعِلٌ",
+          "weak lām": "mu'tel lam",
+          "مَفْعَلٌ always": "her zaman مَفْعَلٌ"
+        },
+        "caption": "İsm-i zaman ve ism-i mekan (İzzi, s. 173–174)"
+      },
       "text": [
         "İsm-i zaman ve ism-i mekan, kesreli yef'ilü vezninden aynın kesresiyle mef'ilin vezninde yapılır: “oturma yeri” anlamında el-meclisi ve “gecelenecek yer” anlamında el-mebiti gibi; aynı fethalı veya zammeli yef'alü vezninden fetha ile mef'alin vezninde yapılır: “gidilecek yol” anlamında el-mezhebi, “su içilecek yer” anlamında el-meşrabi ve “durulacak yer” anlamında el-makami gibi.",
         "Şaz olanlar: “secde yeri” anlamında el-mescidü, “doğu” anlamında el-meşriku, “batı” anlamında el-mağribü, “doğuş yeri” anlamında el-matli'u, “mezbaha” anlamında el-mecziru, “[saçın] ayrımı” anlamında el-mefriku, “mesken” anlamında el-meskinü, “bitme yeri” anlamında el-menbitü, “düşme yeri” anlamında el-meskıtu, “hac menasikinin yeri” anlamında el-mensikü ve “dirsek” anlamında el-merfiku; bazılarında fetha rivayet edilmiştir, hepsinde de caizdir. Bu, fiil fası ve lamı sahih olduğunda böyledir.",
@@ -1674,6 +3960,133 @@
       ]
     },
     "32": {
+      "title": "Daha uzun fiiller, çokluk, alet, merre ve nev'",
+      "body": [
+        "“Üç [harften] fazla olan ism-i mef'ul gibidir”: “giriş yeri” anlamında el-mudhal, “kalma yeri” anlamında el-mukam. Aynı kelime ism-i mef'ul olarak da ism-i mekan olarak da kullanılır: mudhal “içeri sokulan” ve “giriş yeri”dir. Geçen dersin el-makam'ıyla karşılaştırın: fethalı kame'den durma yeri; zammeli ekame'den el-mukam, kalma yeri.",
+        "“Bir şey bir yerde çok olunca, sülasi mücerredden ona fethalı mef'ale denir”: “yırtıcı hayvanı çok bir arazi” anlamında ardun mesbe'atün, “aslanı çok” me'sede, “kurdu çok” mez'ebe, “kavunu çok” mebtaha, “hıyarı çok” makse'e. Bunlar fiillerden değil isimlerden yapılır: seb', esed, zi'b, bittih, kıssa'.",
+        "İsm-i alet, “failin, etki ona ulaşsın diye mef'ul üzerinde kendisiyle iş gördüğü şeydir”. “Süt kovası” anlamında mihleb, “süpürge” anlamında miksaha, “anahtar” anlamında miftah, “süzgeç” anlamında misfah vezninde gelir: mif'al, mif'ale, mif'al [elifle], mim hep kesreli. “Merdivene bu vezinde mirkat dediler; mimi fethalı söyleyen yeri kasteder.” “Mim ve aynın zammesiyle” şaz olanlar: müzün, müs'ut, müdukk, munhul, mukhule, muhruda; midakk ve midakka ise “kıyasa göre gelmiştir”.",
+        "Kapanış notu (tenbih). Sülasi mücerredin masdarından ism-i merre fe'le veznindedir: darabtü darbeten, “bir kez vurdum”, kumtü kavmeten, “bir kez kalktım”. Daha uzun fiillerden te eklenerek yapılır: el-i'ta'e, el-intılaka. Masdarda zaten te bulununca ““bir” ile vasıflandırmak gerekir”: rahimtühü rahmeten vahideten, dahractühü dahraceten vahideten, çünkü yalnız rahme işin bir kez olduğunu göstermez.",
+        "“Kesreli el-fi'le de işin çeşidi içindir”: “yemesi ve oturuşu güzel” anlamında hasenü't-tı'meti ve'l-cilseti. İkisini tek bir hareke ayırır: fe'le işi sayar, fi'le onun şeklini anlatır. İzzi kitabını bu iki vezinle bitirir."
+      ],
+      "terms": [
+        "ism-i alet",
+        "ism-i merre: fe'le",
+        "ism-i nev': fi'le",
+        "bir şeyin çok olduğu yer için mef'ale"
+      ],
+      "examples": [
+        "el-mudhal, el-mukam: ism-i mef'ul gibi",
+        "mef'ale: yırtıcı hayvanı, aslanı, kurdu çok arazi",
+        "ism-i aletler",
+        "ism-i merre",
+        "masdarda te bulununca “bir” ile"
+      ],
+      "tasks": [
+        {
+          "prompt": "El-makam ve el-mukam: hangi fiillerden gelir ve her biri ne demektir?",
+          "answer": "El-makam kame yakumü'den, mef'al vezninde: durma yeri. El-mukam ekame'den, ism-i mef'ul vezninde: kalma yeri."
+        },
+        {
+          "prompt": "Ardun me'sedetün ne demektir ve me'sede neyden yapılmıştır?",
+          "answer": "“Aslanı çok bir arazi”. Me'sede, bir şeyin çok olduğu yer için “aslan” anlamındaki esed isminden yapılmış mef'ale'dir."
+        },
+        {
+          "prompt": "Neden yalnız rahmeten değil de rahimtühü rahmeten vahideten denir?",
+          "answer": "Masdar rahme zaten te ile biter, bu yüzden yalnız rahmeten “bir kez”i gösteremez; vahideten kelimesi eklenmelidir."
+        },
+        {
+          "prompt": "İsm-i merreyi ism-i nev'den ne ayırır? Kitabın örneklerini kullanın.",
+          "answer": "İlk hareke: fethalı fe'le işi sayar (darabtü darbeten, “bir kez vurdum”); kesreli fi'le şeklini anlatır (hasenü't-tı'meti, “yemesi güzel”)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Üç harften fazla olan bir fiilden ism-i mekan …",
+          "options": [
+            "ism-i mef'ul gibidir",
+            "mef'il veznindedir",
+            "mef'al veznindedir",
+            "mif'al [elifle] veznindedir"
+          ],
+          "explanation": "Üç harfin üstünde ism-i mekan ism-i mef'ul gibidir: el-mudhal, el-mukam."
+        },
+        {
+          "prompt": "Ardun mesbe'atün … demektir.",
+          "options": [
+            "yedi arazisi",
+            "yırtıcı hayvanı çok bir arazi",
+            "koyun arazisi",
+            "vahşi bir arazi"
+          ],
+          "explanation": "Çokluk için mef'ale, seb'den."
+        },
+        {
+          "prompt": "İsm-i aletin mimi …",
+          "options": [
+            "fethalıdır",
+            "zammelidir",
+            "kesrelidir",
+            "sakindir"
+          ],
+          "explanation": "Mihleb, miksaha, miftah; fethayla yer anlamına gelir."
+        },
+        {
+          "prompt": "Hangi ism-i alet şazdır?",
+          "options": [
+            "Miftah",
+            "Mihleb",
+            "Midakk",
+            "Munhul"
+          ],
+          "explanation": "Mim ve aynda zamme; midakk kurala göredir."
+        },
+        {
+          "prompt": "Sülasi mücerredden ism-i merre … vezninde gelir.",
+          "options": [
+            "fe'le",
+            "fi'le",
+            "fu'le",
+            "mef'ale"
+          ],
+          "explanation": "Darabtü darbeten, kumtü kavmeten."
+        },
+        {
+          "prompt": "Daha uzun bir fiilden ism-i merre nasıl yapılır?",
+          "options": [
+            "Fe'le vezninde",
+            "Masdara te ekleyerek",
+            "Bir mimle",
+            "Yapılamaz"
+          ],
+          "explanation": "Daha uzun bir fiilden masdara te eklenir: el-i'ta'e, el-intılaka."
+        },
+        {
+          "prompt": "Kesreli el-cilse … demektir.",
+          "options": [
+            "bir oturuş",
+            "oturma yeri",
+            "oturuş şekli",
+            "oturan"
+          ],
+          "explanation": "Fi'le işin çeşidi içindir."
+        }
+      ],
+      "diagram": {
+        "labels": {
+          "Noun": "İsim",
+          "Pattern": "Vezin",
+          "Examples": "Örnekler",
+          "place, above three letters": "yer, üç harften fazla",
+          "as the passive participle": "ism-i mef'ul gibi",
+          "place of plenty": "çokluk yeri",
+          "instrument": "alet",
+          "instrument, irregular": "alet, şaz",
+          "ḍamma on mīm and ʿayn": "mim ve aynda zamme",
+          "once": "merre",
+          "manner": "nev'"
+        },
+        "caption": "Kitabın son isimleri (İzzi, s. 174–176)"
+      },
       "text": [
         "Üçten fazla [harfli] olan, ism-i mef'ul gibidir: “giriş yeri” anlamında el-mudhali ve “ikamet yeri” anlamında el-mukami gibi. Bir şey bir yerde çok olduğunda, sülasi mücerredden fetha ile mef'aletun vezninde denir: “yırtıcı hayvanı çok bir arazi” anlamında erdun mesbe'atun, “aslanı çok” anlamında me'sedetun, “kurdu çok” anlamında mez'ebetun, “karpuzu çok” anlamında mebtahatun ve “hıyarı çok” anlamında makse'etun denir.",
         "İsm-i alete gelince, o failin etkinin ulaşması için mef'ule iş gördüğü şeydir; “süt kabı” anlamında mihlebin, “süpürge” anlamında miksahatin, “anahtar” anlamında miftahin ve “süzgeç” anlamında misfatin vezninde gelir; bu vezin üzere “merdiven” anlamında mirkatun dediler; mimi fethalı okuyan ise yeri kasteder. Şaz olanlar mimin ve aynın zammesiyle: “yağ şişesi” anlamında müdhünün, “burun ilacı kabı” anlamında müs'utun, “havaneli” anlamında müdukkun, “elek” anlamında munhulün, “sürmedan” anlamında mukhuletun ve “çöven kabı” anlamında muhrudatun; midakkun ve midakkatun ise kıyas üzere gelmiştir.",
