@@ -1,0 +1,108 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import KbHero from "../../../../components/KbHero.astro";
+import TabaqatParagraphs from "../../../../components/TabaqatParagraphs.astro";
+import type { TabaqatBook, TabaqatEntry } from "@nahwi/content";
+import { fmt, LIVE_LOCALES, t } from "../../../../i18n";
+import { kbPath, scholarPhoto, shortName } from "../../../../lib/kb";
+import { breadcrumbs, tabaqatChapter } from "../../../../lib/structured-data";
+import { BOOK_PHOTO, bookText, entryDied, entryHref, entryPerson, entryPlace, firstPage, scanHref, tabaqatBooks, tabaqatEntriesFor } from "../../../../lib/tabaqat";
+
+import copyTextScript from "../../../../scripts/copy-text.js?url";
+/**
+ * An entry of a ṭabaqāt book (/<locale>/tabaqat/<book>/<id>/): the Arabic of the print paragraph by paragraph, each with
+ * its page (linked to the scan) and our English behind a fold, the notes on doubtful readings, the scholar's page it is
+ * tied to and his entry in the other book, and the entries before and after it. A book with `entryLanguages: "en"` (the
+ * Bughya, until it is translated) has its entry pages in English only; the other languages link to them.
+ */
+export function getStaticPaths() {
+  return tabaqatBooks().flatMap((book) =>
+    (book.entryLanguages === "en" ? ["en"] : LIVE_LOCALES).flatMap((locale) =>
+      book.entries.map((entry, i) => ({ params: { locale, book: book.id, id: entry.id }, props: { book, entry, prev: book.entries[i - 1], next: book.entries[i + 1] } })),
+    ),
+  );
+}
+interface Props {
+  book: TabaqatBook;
+  entry: TabaqatEntry;
+  prev?: TabaqatEntry;
+  next?: TabaqatEntry;
+}
+const { locale } = Astro.params as { locale: string };
+const { book, entry: e, prev, next } = Astro.props;
+const ui = t(locale);
+const T = ui.kb.tabaqat;
+const B = bookText(locale, book);
+const person = entryPerson(e, locale);
+const died = entryDied(e, person);
+const place = entryPlace(e, person);
+const path = kbPath.tabaqat(locale, book.id, e.id);
+const pagesLabel = fmt(e.pages.includes("–") ? ui.primer.pages : ui.primer.page, { pages: e.pages });
+// The title names the man and the book; a long name goes alone.
+const withBook = fmt(B.entryTitle, { name: e.name });
+const title = withBook.length <= 65 ? withBook : e.name;
+const description = fmt(B.entryDescription, { name: e.name, died: died ? fmt(T.diedIn, { died }) : "", n: e.n });
+const photo = person ? scholarPhoto(person) : BOOK_PHOTO[book.id] ?? BOOK_PHOTO.nuzhat;
+// His entries in the other ṭabaqāt books, through his scholar page.
+const others = person ? tabaqatEntriesFor(person.slug, locale).filter((x) => x.book.id !== book.id) : [];
+// The section of an alphabetical book, linked to its place in the book's list.
+const sections = book.order === "alphabetical" ? [...new Set(book.entries.map((x) => x.section ?? ""))] : [];
+const sectionHref = e.section ? `${kbPath.tabaqat(locale, book.id)}#s${sections.indexOf(e.section) + 1}` : undefined;
+---
+
+<BaseLayout image={photo} title={title} description={description} path={path.slice(locale.length + 1)} locale={locale} bleed jsonLd={[tabaqatChapter(book, e, locale, description), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: book.title, path: kbPath.tabaqat(locale, book.id) }, { name: e.name, path }])]}>
+  <KbHero
+    locale={locale}
+    photo={photo}
+    crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: book.short ?? book.title, href: kbPath.tabaqat(locale, book.id) }]}
+    kicker={[fmt(T.entryOf, { n: e.n, m: book.entries.length }), pagesLabel].join(" · ")}
+    arabic={e.heading}
+    title={e.name}
+    sub={[died && `${ui.kb.generations.died} ${died}`, place].filter(Boolean).join(" · ") || undefined}
+  />
+  <div class="kb-wrap">
+    <div class="kb-layout">
+      <article class="kb-body tb-body">
+        <TabaqatParagraphs book={book} paragraphs={e.paragraphs} locale={locale} />
+        {e.notes && (
+          <details class="kb-note tb-notes">
+            <summary class="kb-kicker">{T.notes}</summary>
+            <p>{e.notes}</p>
+          </details>
+        )}
+      </article>
+      <aside class="kb-aside">
+        <div class="kb-aside-dark">
+          <p class="kb-kicker u-273e41">{T.scholar}</p>
+          {person ? (
+            <p class="u-m0"><a href={kbPath.scholar(locale, person.slug)}><strong>{shortName(person)}</strong></a><br /><span class="muted">{T.scholarLead}</span></p>
+          ) : (
+            <p class="u-m0 muted">{T.noScholar}</p>
+          )}
+        </div>
+        {others.map((x) => (
+          <div>
+            <p class="kb-kicker u-c7486a">{x.book.short ?? x.book.title}</p>
+            <p class="u-m0"><a href={x.href}>{fmt(ui.kb.scholar.nuzhatEntry, { n: x.entry.n, pages: fmt(x.entry.pages.includes("–") ? ui.primer.pages : ui.primer.page, { pages: x.entry.pages }) })}</a></p>
+          </div>
+        ))}
+        <div>
+          <p class="kb-kicker u-c7486a">{T.scanPage}</p>
+          <p class="u-m0"><a href={scanHref(book, firstPage(e))} rel="noopener">{fmt(T.scanPageLead, { page: firstPage(e) })}</a></p>
+          <p class="muted u-m0">{book.edition.place}, {book.edition.year}</p>
+        </div>
+        <div>
+          <p class="kb-kicker u-c7486a">{book.short ?? book.title}</p>
+          {sectionHref && <p class="u-m0"><a href={sectionHref} class="kufi" lang="ar">{e.section}</a></p>}
+          <p class="u-m0"><a href={kbPath.tabaqat(locale, book.id)}>{T.all}</a> <span class="muted">· {fmt(T.count, { n: book.entries.length })}</span></p>
+        </div>
+      </aside>
+    </div>
+
+    <nav class="kb-pager u-pb64" aria-label={book.title}>
+      {prev ? <a href={entryHref(book, prev, locale)}><span class="kb-kicker">← {T.prev}</span><br /><strong>{prev.name}</strong> <span class="muted">· {fmt(T.entryN, { n: prev.n })}</span></a> : <span />}
+      {next && <a href={entryHref(book, next, locale)} class="u-end"><span class="kb-kicker">{T.next} →</span><br /><strong>{next.name}</strong> <span class="muted">· {fmt(T.entryN, { n: next.n })}</span></a>}
+    </nav>
+  </div>
+  <script is:inline src={copyTextScript}></script>
+</BaseLayout>

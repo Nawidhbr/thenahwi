@@ -45,7 +45,13 @@ export const localePaths = () => LIVE_LOCALES.map((locale) => ({ params: { local
 
 export { getLocaleBundle };
 
-/** Paths that exist in English only (the syllogism tool). Other languages link to their home page instead. */
-export const ENGLISH_ONLY = (path: string) => path.startsWith("/tools/") || path === "/moderate/";
+/**
+ * Paths that exist in English only: the tools, and the entries of al-Suyūṭī's Bughyat al-wuʿāt until they are translated
+ * (`entryLanguages` in tabaqat/bughya.json). Other languages link to their nearest page instead (`englishOnlyFallback`).
+ */
+const BUGHYA_ENTRY = /^\/tabaqat\/bughya\/[^/]+\/$/;
+export const ENGLISH_ONLY = (path: string) => path.startsWith("/tools/") || path === "/moderate/" || BUGHYA_ENTRY.test(path);
+/** Where another language goes from an English-only page: the Bughya's page for one of its entries, else home. */
+export const englishOnlyFallback = (path: string) => (BUGHYA_ENTRY.test(path) ? "/tabaqat/bughya/" : "/");
 /** The locales a page exists in. */
 export const localesFor = (path: string) => (ENGLISH_ONLY(path) ? ["en"] : LIVE_LOCALES);

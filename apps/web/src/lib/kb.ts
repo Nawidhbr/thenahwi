@@ -31,7 +31,7 @@ export const KB_SECTIONS = {
   books: { arabic: "المَكْتَبَة", photo: "painted-arch-panel" },
   scholars: { arabic: "الأَعْلام", photo: "stone-inscription" },
   generations: { arabic: "طَبَقَاتُ النَّحْوِيِّين", photo: "painted-chamber-gold-script" },
-  tabaqat: { arabic: "نُزْهَةُ الأَلِبَّاء", photo: "zellij-glazed-inscription" },
+  tabaqat: { arabic: "طَبَقَاتُ النُّحَاة", photo: "zellij-glazed-inscription" },
   news: { arabic: "الجَدِيد", photo: "gilded-wall-inscriptions" },
   glossary: { arabic: "مُعْجَمُ النَّحْوِ وَالصَّرْف", photo: "tiled-portal-verse" },
   study: { arabic: "ادْرُسْ دَرْسًا دَرْسًا", photo: "tile-niche-inscription" },
@@ -59,7 +59,8 @@ export const kbPath = {
   scholars: (l: string) => `/${l}/scholars/`,
   scholar: (l: string, slug: string) => `/${l}/scholars/${slug}/`,
   generations: (l: string, hash = "") => `/${l}/scholars/generations/${hash ? `#${hash}` : ""}`,
-  tabaqat: (l: string, id?: string) => `/${l}/tabaqat/${id ? `${id}/` : ""}`,
+  /** The ṭabaqāt: the overview of the books, a book (/tabaqat/nuzhat/), an entry (/tabaqat/nuzhat/<id>/). */
+  tabaqat: (l: string, book?: string, id?: string) => `/${l}/tabaqat/${book ? `${book}/` : ""}${book && id ? `${id}/` : ""}`,
   news: (l: string) => `/${l}/news/`,
   glossary: (l: string, slug?: string) => `/${l}/glossary/${slug ? `${slug}/` : ""}`,
   study: (l: string) => `/${l}/study/`,

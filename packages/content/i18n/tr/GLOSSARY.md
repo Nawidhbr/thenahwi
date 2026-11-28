@@ -289,3 +289,31 @@ file in step with this list. The layout follows the English source list, `packag
   hems / cehr, mahreç, hafa; mugalebe; mutavaat te'si; ivaz te'si; teslis; mef'ale (bolluk yeri); ism-i alet; basit
   bahri, tef'ile; in a definition, a metre is “aruz bahri” (vezin stays the pattern). Pattern names that meet without
   marks take a bracket: fe'il [ya ile], fe'al [elifle], fu'ul [vav ile], mif'al [elifle].
+
+## Choices added in the parallel round (qatr)
+
+- Katrü'n-neda: emsile-i hamse for al-amthila al-khamsa (the book's word; ef'al-i hamse said once); ne'eytü harfleri
+  (eneytü said once); cerr where the English says jarr, hafz / mahfuz where it says khafḍ; kadınların nunu, cem' vavı,
+  tesniye elifi, muhataba ya'sı, mütekellim ya'sı; maksur / menkus / memdud; cuhud lamı, ta'lil lamı, talep lamı /
+  la'sı, sebebiyye fa'sı, maiyyet vavı, müfacat izası, ibtida lamı, zamir-i fasl, nefy in'i, kaffe ma; ma-yı
+  Hicaziyye; la-yı nefy-i cins, şebih bi'l-muzaf; iştigal, tenazu'; rütbe; terhim, istigase (müstegis, müstegas),
+  nüdbe (nadib), sekt he'si; fadla; nekre-i maksude / gayr-i maksude; muhavvel temyiz, nisbet temyizi; “büyük bir
+  sayıyı bildiren kem” (kem-i haberiyye) and soru kem'i; müferrağ istisna; ucmet, adl, alemiyyet, vasfiyyet,
+  müntehe'l-cumu' sigası; i'timad; “geçmiş bir durumun hikayesi” for ḥikāyat al-ḥāl (no “hal” there); sürme meselesi;
+  “şimdiki zaman” for the present (never “hal”); atf-ı nesak (“harfle atf”); bedel-i idrab / galat / nisyan.
+
+## Choices added in the parallel round (hidaya)
+
+- Hidayetü'n-nahv (short Hidaye): “told about / told with” (al-ikhbār ʿanhu / bihi) is “hakkında (bir şey)
+  söylenmek (ihbar anh)” / “kendisi söylenmek (ihbar bih)”, never “haber” (kept for the predicate); a statement in
+  the sense of khabar is “haberiyye söz”. Mef'ul-i ma lem yüsemme failüh (the Kafiye's name), naib-i fail said once;
+  ism-i zahir; lebs; karine; tenazu', zikirden önce izmar; iştigal (“tefsir şartıyla”), istigase (g, as in gayr-i
+  munsarif); ilga / ta'lik (ef'al-i kulub); terhim, mendub, nüdbe; müfacee iza'sı; sürme meselesi (the elative's
+  explicit fāʿil); the judgements of the ṣifa mushabbaha: ahsen, hasen, kabih, mümteni, ihtilaflı; i'timad; hudus /
+  sübut; ukud; cem'-i kıllet / kesret; ism-i cem'; ef'al-i mukarebe: reca, husul, şuru'; camid fiil; taaccüb (ma
+  ef'alehü, ef'il bihi); el-mahsusu bi'l-medh; the kinds of harf: icab, tahdid, tevakku', rad', tefsir, masdar, zaid
+  harfler; ibtida-i gaye / intiha-i gaye, tebyin, teb'iz, ilsak, istiane, musahabe, mukabele, ta'diye, ihtisas,
+  mücavezet, isti'la; ma-yı kaffe; el-lamü'l-farika; istidrak, temenni, terecci; idrab; ta'yin (the answer to the
+  muttasıl em); the five tenvins: temekkün, tenkir, ivaz, mukabele, terennüm; nun-ı te'kid hafife / sakile. The
+  particle ي is written “ya harfi” wherever “ya” could be read as “or”. Long-vowel forms beside short ones take a
+  bracket: yermi [ya ile], yağzu [vav ile], yes'a [elifle] (lem yermi, lem yağzu, lem yes'a bare), fe'alil [ya ile].

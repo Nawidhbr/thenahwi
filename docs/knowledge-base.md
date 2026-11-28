@@ -36,22 +36,40 @@ pipeline is in `docs/news.md`.
   list, that the list fits the school, and that every Basran and Kufan has his place (`TABAQA_GENERATIONS`). Linked
   from the scholars page, the home page (under the masters) and each scholar's aside (his school and generation). A
   person's `name` is his full name and `known` the short one the lists show (`shortName`).
-- **Nuzhat al-alibbāʾ** `/tabaqat/` and `/tabaqat/<id>/` (`pages/[locale]/tabaqat/`, data in
-  `packages/content/tabaqat/nuzhat.json`, schema `TabaqatBook` checked by `loadTabaqat`, bundle `generated/tabaqat.json`
-  through `getTabaqat()`; helpers in `lib/tabaqat.ts`, styles `.tb-…`; how it is made: `docs/tabaqat-pipeline.md`): Ibn
-  al-Anbārī's history of the grammarians, the whole book, as the backbone of the scholars. The book page has our
-  introduction, the print and its scan (the source note, `tabaqatSource` in `lib/sources.ts`), the author's preface and
-  closing behind folds, and every entry under the hijri century in which its man died (the entry's `died`, else his
-  page's), with its number, year, city (`place`, else his last place) and pages, a search field and a century dropdown
-  (`scripts/scholars-filter.js`, `window.__hl`). An entry page shows the Arabic paragraph by paragraph (verse as
-  hemistichs side by side; `components/TabaqatParagraphs.astro`), each with a copy button and its page linked to that
-  page of the scan (PDF page = print page + `edition.offset`), our English behind a fold (`Translation.astro`), the
-  notes on doubtful readings, the scholar's page and the entries before and after. Entries are numbered 1, 2, 3 … in
-  the book's order; `person` ties an entry to `background/people/<slug>.json` (the validation fails on a slug without a
-  page). Each scholar page shows "In Nuzhat al-alibbāʾ" with his entry; the scholars list and the generations page put a
-  link to it beside his name; the home page (under the masters), the scholars page, the library entry
-  `nuzhat-al-alibba` and the second menu row (Ṭabaqāt) link to the book; the entries are in the site search. Interface
-  text in `kb.tabaqat`. The pages are English (our translation) in every language until translated (`lib/translated.ts`).
+- **The ṭabaqāt** `/tabaqat/` (`pages/[locale]/tabaqat/`, data in `packages/content/tabaqat/<book>.json`, schema
+  `TabaqatBook` checked by `loadTabaqat`, bundle `generated/tabaqat.json` through `getTabaqat()`; helpers in
+  `lib/tabaqat.ts`, styles `.tb-…`; how the books are made: `docs/tabaqat-pipeline.md`): two classical histories of the
+  grammarians, each on the site whole, as the backbone of the scholars. `/tabaqat/` is the overview of the books (their
+  author, print, order and number of entries, and how they fit together); each book has `/tabaqat/<book>/` and each
+  entry `/tabaqat/<book>/<id>/` (`[book]/index.astro`, `[book]/[id].astro`, one template for both books, the book's own
+  texts through `bookText`). The Nuzha's old addresses `/tabaqat/<id>/` redirect permanently to `/tabaqat/nuzhat/<id>/`
+  (`vercel.json`).
+  - **Nuzhat al-alibbāʾ** `/tabaqat/nuzhat/` (`nuzhat.json`, `order: "death"`): Ibn al-Anbārī's history of the
+    grammarians, 181 entries, every entry under the hijri century in which its man died.
+  - **Bughyat al-wuʿāt** `/tabaqat/bughya/` (`bughya.json`, `order: "alphabetical"`): al-Suyūṭī's dictionary of the
+    grammarians, about 2,200 entries, merged chunk by chunk as they are finished (`staging/bughya/`). The list keeps the
+    book's order under its sections (each entry's `section`: "بَابُ الْمُحَمَّدِينَ", "حَرْفُ الْهَمْزَةِ" …) with a section
+    dropdown and a century dropdown (`#section=s3`, `#century=c9`); the lists of kunyas and nisbas and the chapter of
+    hadiths after the entries are folds (`appendix`), then the author's closing. Because it is so large, its **entry
+    pages are built in English only** (`entryLanguages: "en"`): the other languages show the book's page, link to the
+    English entries (`entryHref`), and their language menu leads from an entry to their own book page
+    (`ENGLISH_ONLY`, `englishOnlyFallback` in `i18n/index.ts`); its entries in the site search carry the name, the year
+    of death and the id only. Its scan is the Internet Archive's, and its pages link to the archive's page viewer
+    (`edition.pageUrl`, "{leaf}" = PDF page − 1).
+  - Both: the book page has our introduction, the print and its scan (the source note, `tabaqatSource` in
+    `lib/sources.ts`), the author's preface behind a fold, every entry with its number, year, city (`place`, else his
+    last place) and pages, a search field (`scripts/scholars-filter.js`, `window.__hl`). An entry page shows the Arabic
+    paragraph by paragraph (verse as hemistichs side by side; `components/TabaqatParagraphs.astro`), each with a copy
+    button and its page linked to that page of the scan (PDF page = print page + `edition.offset`), our English behind a
+    fold (`Translation.astro`), the notes on doubtful readings, the scholar's page, his entry in the other book, and the
+    entries before and after. Entries are numbered 1, 2, 3 … in the book's order; `person` ties an entry to
+    `background/people/<slug>.json` (the validation fails on a slug without a page). Each scholar page shows "In Nuzhat
+    al-alibbāʾ" and "In Bughyat al-wuʿāt" with his entries; the scholars list and the generations page put links to them
+    beside his name ("Nuzhat 15", "Bughya 1104"); the home page (under the masters), the scholars page, the library
+    entries `nuzhat-al-alibba` and `bughyat-al-wuat` and the second menu row (Ṭabaqāt, the overview) link to the books;
+    the entries are in the site search. Interface text in `kb.tabaqat` (the Bughya's own in `kb.tabaqat.bughya`, the
+    overview's in `kb.tabaqat.overview`). The pages are English (our translation) in every language until translated
+    (`lib/translated.ts`).
 - **Glossary** `/glossary/` and `/glossary/<slug>/` (`background/concepts/`, schema `BackgroundConcept`): every concept
   of ṣarf and naḥw, free to read without an account, as the knowledge base's way into search: one page per concept with its
   vocalised Arabic and transliteration, a one-sentence definition, an explanation, examples, related concepts, the

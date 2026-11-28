@@ -9,6 +9,7 @@ import { PARENT, SITE } from "../../config/site";
 import { fmt, localePaths, t } from "../../i18n";
 import { articleHref, articlesOf, catalogueCounts, diedYear, KB_BOOKS, KB_SECTIONS, kbPath, ROMAN, shortDied, shortName } from "../../lib/kb";
 import { organization, website } from "../../lib/structured-data";
+import { BUGHYA_ID, NUZHAT_ID } from "../../lib/tabaqat";
 
 import parentNewsScript from "../../scripts/parent-news.js?url";
 import homeSearchScript from "../../scripts/home-search.js?url";
@@ -87,7 +88,7 @@ const timeline = timelineSlugs.map((s) => people.find((p) => p.slug === s)).filt
           </li>
         ))}
       </ol>
-      <p class="home-split-more"><a href={kbPath.scholars(locale)}>{H.allScholars} →</a> <a href={kbPath.generations(locale)}>{H.generationsLink} →</a> <a href={kbPath.tabaqat(locale)}>{H.tabaqatLink} →</a></p>
+      <p class="home-split-more"><a href={kbPath.scholars(locale)}>{H.allScholars} →</a> <a href={kbPath.generations(locale)}>{H.generationsLink} →</a> <a href={kbPath.tabaqat(locale, NUZHAT_ID)}>{H.tabaqatLink} →</a> <a href={kbPath.tabaqat(locale, BUGHYA_ID)}>{H.bughyaLink} →</a></p>
     </div>
   </section>
 

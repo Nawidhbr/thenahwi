@@ -7,6 +7,7 @@ import { kbBook, kbPath, photoFor } from "../lib/kb";
 import { ord } from "../lib/ord";
 import { breadcrumbs, libraryBook } from "../lib/structured-data";
 import { bookPath, coursesOn, pathLevel } from "../lib/course";
+import { bookText } from "../lib/tabaqat";
 
 /** A book of the library: what it is, its author, what it comments on, editions and sources, and its neighbours. */
 interface Props { locale: string; entry: LibraryBook }
@@ -35,7 +36,7 @@ const path = kbPath.book(locale, entry.id);
 const paragraphs = entry.summary.split(/\n\n+/);
 // The work as a course in the study portal (packages/content/primers/), where there is one.
 const courses = coursesOn(entry.id, false);
-// The whole work on the site, entry by entry (a ṭabaqāt book, /tabaqat/), where it is.
+// The whole work on the site, entry by entry (a ṭabaqāt book, /tabaqat/<book>/), where it is.
 const whole = getTabaqat().find((b) => b.library === entry.id);
 ---
 
@@ -66,7 +67,7 @@ const whole = getTabaqat().find((b) => b.library === entry.id);
 
     {whole && (
       <section class="kb-section">
-        <a class="kb-link gen-link" href={kbPath.tabaqat(locale)}><strong>{ui.kb.tabaqat.readBook} →</strong><span class="muted">{ui.kb.tabaqat.readBookLead}</span></a>
+        <a class="kb-link gen-link" href={kbPath.tabaqat(locale, whole.id)}><strong>{ui.kb.tabaqat.readBook} →</strong><span class="muted">{bookText(locale, whole).readBookLead}</span></a>
       </section>
     )}
 

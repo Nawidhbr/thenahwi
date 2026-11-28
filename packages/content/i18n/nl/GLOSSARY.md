@@ -353,3 +353,25 @@ de Engelse bronlijst, `packages/content/i18n/GLOSSARY.md`: Stijl, Woorden onder 
   "krachtig". ط heet hier steeds "de zware ta'". Haakjes ook: [met korte u] (madrub [met korte u], maf'ul [met korte
   u] tegenover maf'ul), [met lange a] (mif'al [met lange a] = mifʿāl), [met korte alif] (fa'la [met korte alif] in de
   tabel van masdarpatronen), [met de zware h] (haraqtu [met de zware h] = ḥaraqtu, in een toetsoptie).
+- **Hidayat al-nahw** (2026-11-28, boekvertaler hidaya): "told about / told with" (mukhbar 'anhu / bihi) = "er wordt
+  iets over gezegd / er wordt iets mee gezegd"; predication (isnad) = "toeschrijving"; the vocative (nida') = "het
+  roepen"; mutamakkin = "vast geplaatst"; munsarif = "volledig verbogen", "declined" = "verbogen"; de negen oorzaken
+  van de diptoot: de 'adl, het bijvoeglijk naamwoord zijn, het vrouwelijke, de bepaaldheid ("het eigennaam zijn"), de
+  vreemde herkomst, het meervoud ("het uiterste meervoud"), de samenstelling, de toegevoegde alif en nun, het patroon
+  van het werkwoord; laid down (wad') = "vastgelegd"; made particular (takhsis) = "toegespitst" / "toespitsing";
+  "adverb" = "zarf" (mv. zarfs); maqsur / manqus / mamdud blijven Arabisch; tarkhim = "de verkorting", mandub = "de
+  beklaagde"; "the one addressed" = "iemand tot wie gesproken wordt" (de aangesprokene blijft de munada); affirmative
+  speech = "bevestigende kalam"; jārr wa-majrūr = "jarr [met lange a] en majrur"; tabi' = "volger", bi-l-asala = "uit
+  zichzelf"; 'atf al-nasaq = "de 'atf met partikels", 'atf al-bayan = "de verklarende 'atf"; tawkid lafzi / ma'nawi =
+  "nadruk in de bewoording / in de betekenis"; shadhdh = "afwijkend"; fasl = "de fasl (scheiding)"; harf al-khitab =
+  "het partikel van de aanspreking"; hukman = "impliciet"; "in fact / in potential" = "in feite / in aanleg"; jam'
+  qilla / kathra = "het meervoud van weinigheid / van veelheid"; huduth / thubut = "het gebeuren / het blijven";
+  i'timad = "steunen op"; ism al-tafdil = "de overtreffende vorm" (gevormd, niet "gebouwd"); mumayyiz = "de mumayyiz
+  (wat geteld wordt)"; ilgha' / ta'liq = "opheffen / opschorten"; jamid = "star"; kalim al-mujazat = "de woorden van
+  de vergelding"; mujawaza / isti'la' = "het voorbijgaan / het boven zijn"; ilsaq = "het vastzitten"; ikhtisas = "het
+  toebehoren"; ma al-kaffa = "de ma die tegenhoudt"; istidrak = "het rechtzetten van een verkeerde indruk"; al-lam
+  al-fariqa = "de lam die onderscheidt"; tahdid = "het aansporen", tawaqqu' = "de verwachting", taqrib = "het
+  naderbij brengen", rad' = "de terechtwijzing"; tanwin van tamakkun / tankir / 'iwad / muqabala / tarannum = "het vast
+  geplaatst zijn / de onbepaaldheid / de vervanging / de tegenhanger / het zingen"; khafifa / thaqila = "licht /
+  zwaar". "Weak" in het gewone zin = "minder goed" (een vorm), "geringheid" (tegenover kracht). Haakjes ook: la'anna
+  [met 'ayn] naast la'anna, allati [met lange a] voor allātī, atika [met lange i] voor ātīka naast atika.

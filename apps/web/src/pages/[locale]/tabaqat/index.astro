@@ -1,117 +1,56 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import KbHero from "../../../components/KbHero.astro";
-import SourceNote from "../../../components/SourceNote.astro";
-import TabaqatParagraphs from "../../../components/TabaqatParagraphs.astro";
 import { fmt, localePaths, t } from "../../../i18n";
 import { KB_SECTIONS, kbPath } from "../../../lib/kb";
-import { ord } from "../../../lib/ord";
-import { tabaqatSource } from "../../../lib/sources";
-import { breadcrumbs, tabaqatEdition } from "../../../lib/structured-data";
-import { entryCentury, entryDied, entryHijri, entryPerson, entryPlace, nuzhat } from "../../../lib/tabaqat";
-
-import scholarsFilterScript from "../../../scripts/scholars-filter.js?url";
-import copyTextScript from "../../../scripts/copy-text.js?url";
+import { breadcrumbs } from "../../../lib/structured-data";
+import { BOOK_SIZE, bookText, tabaqatBooks } from "../../../lib/tabaqat";
 /**
- * Ibn al-Anbārī's Nuzhat al-alibbāʾ (/<locale>/tabaqat/): the book, its print and scan, the author's preface, and every
- * entry under the hijri century in which its man died, with a search field (window.__hl, through scripts/scholars-filter.js)
- * and a century dropdown. Each entry has its own page (tabaqat/[id].astro).
+ * The ṭabaqāt of the grammarians (/<locale>/tabaqat/): the overview of the ṭabaqāt works on the site whole, Ibn
+ * al-Anbārī's Nuzhat al-alibbāʾ and al-Suyūṭī's Bughyat al-wuʿāt, each with its author, print, order and number of
+ * entries, and a word on how the two fit together. Each book has its page ([book]/index.astro).
  */
 export const getStaticPaths = localePaths;
 const { locale } = Astro.params as { locale: string };
 const ui = t(locale);
 const T = ui.kb.tabaqat;
-const G = ui.kb.generations;
-const book = nuzhat()!;
-const entries = book.entries.map((e) => {
-  const person = entryPerson(e, locale);
-  return { e, person, died: entryDied(e, person), hijri: entryHijri(e, person), century: entryCentury(e, person), place: entryPlace(e, person) };
+const O = T.overview;
+const books = tabaqatBooks().map((b) => {
+  const size = BOOK_SIZE[b.id] ?? b.entries.length;
+  const count = b.entries.length === 0 ? T.inPreparation : b.entries.length < size * 0.98 ? fmt(O.progress, { n: b.entries.length, m: size }) : fmt(T.count, { n: b.entries.length });
+  return { b, text: bookText(locale, b), count };
 });
-// By the hijri century of death, each century in the book's own order; entries without a year last.
-const centuries = [...new Set(entries.map((x) => x.century))].filter((c): c is number => c !== null).sort((a, b) => a - b);
-const groups = [...centuries.map((c) => ({ c, items: entries.filter((x) => x.century === c) })), { c: null, items: entries.filter((x) => x.century === null) }].filter((g) => g.items.length > 0);
-const yearOf = (x: (typeof entries)[number]) => (x.hijri !== null ? x.died.split(/[,;(]/)[0].replace(/^ca\. /, `${ui.book.circa} `).trim() : "");
 const path = kbPath.tabaqat(locale);
-const e = book.edition;
 ---
 
-<BaseLayout image={KB_SECTIONS.tabaqat.photo} title={T.title} description={T.description} path="/tabaqat/" locale={locale} bleed jsonLd={[tabaqatEdition(book, locale, T.description), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.kb.scholars.title, path: kbPath.scholars(locale) }, { name: book.title, path }])]}>
-  <KbHero locale={locale} photo={KB_SECTIONS.tabaqat.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: ui.kb.scholars.title, href: kbPath.scholars(locale) }]} kicker={book.entries.length > 0 ? (book.entries.length === 1 ? T.countOne : fmt(T.count, { n: book.entries.length })) : T.kicker} arabic={book.arabicTitle} title={book.title} sub={T.lead} />
+<BaseLayout image={KB_SECTIONS.tabaqat.photo} title={O.title} description={O.description} path="/tabaqat/" locale={locale} bleed jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.kb.scholars.title, path: kbPath.scholars(locale) }, { name: O.title, path }])]}>
+  <KbHero locale={locale} photo={KB_SECTIONS.tabaqat.photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: ui.kb.scholars.title, href: kbPath.scholars(locale) }]} kicker={O.kicker} arabic={KB_SECTIONS.tabaqat.arabic} title={O.title} sub={O.lead} />
   <div class="kb-wrap">
-    <section class="kb-section kb-overview" aria-labelledby="tb-intro-h">
-      <div>
-        <p class="kb-kicker">{T.introKicker}</p>
-        <h2 id="tb-intro-h">{T.introTitle}</h2>
-        {book.introduction.map((x) => <p>{x}</p>)}
-      </div>
-      <dl class="kb-facts">
-        <dt>{T.facts.author}</dt><dd><a href={kbPath.scholar(locale, book.authorSlug)}>{book.author}</a> <span class="muted">({book.died})</span></dd>
-        {book.printTitle && <><dt>{T.facts.printTitle}</dt><dd class="kufi tb-print-title" lang="ar">{book.printTitle}</dd></>}
-        <dt>{T.facts.printed}</dt><dd>{e.place}: {e.publisher}, {e.year}</dd>
-        <dt>{T.facts.pages}</dt><dd>{e.pages}</dd>
-        <dt>{T.facts.copy}</dt><dd>{e.copy}</dd>
-        <dt>{T.facts.scan}</dt><dd><a href={e.source} rel="noopener">{T.facts.scanLink}</a></dd>
-        <dt>{ui.kb.library.title}</dt><dd><a href={kbPath.book(locale, book.library)}>{book.title}</a></dd>
-      </dl>
+    <section class="kb-section" aria-labelledby="tb-books-h">
+      <div class="kb-head"><div><p class="kb-kicker">{O.booksKicker}</p><h2 id="tb-books-h">{O.booksTitle}</h2></div><p class="kufi" lang="ar">كُتُبُ الطَّبَقَاتِ</p></div>
+      <ol class="tb-books">
+        {books.map(({ b, text, count }, i) => (
+          <li>
+            <a class="tb-book" href={kbPath.tabaqat(locale, b.id)}>
+              <span class="tb-n" aria-hidden="true"><span>{i + 1}</span></span>
+              <span class="tb-book-text">
+                <span class="kufi tb-book-ar" lang="ar">{b.arabicTitle}</span>
+                <strong>{b.title}</strong>
+                <span class="muted">{[`${b.author} (${b.died})`, O.order[b.order], b.edition.place + " " + b.edition.year, count].join(" · ")}</span>
+                <span>{text.summary}</span>
+                <span class="tb-book-open">{O.open} →</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ol>
     </section>
 
-    <section class="kb-section">
-      <SourceNote info={tabaqatSource(book, locale)} locale={locale} />
-      {book.preface.length > 0 && (
-        <details class="tb-fold">
-          <summary><span class="kb-kicker">{T.preface}</span> <span class="kufi" lang="ar">خُطْبَةُ الْكِتَابِ</span></summary>
-          <TabaqatParagraphs book={book} paragraphs={book.preface} locale={locale} />
-        </details>
-      )}
+    <section class="kb-section" aria-labelledby="tb-together-h">
+      <p class="kb-kicker">{O.togetherKicker}</p>
+      <h2 id="tb-together-h">{O.togetherTitle}</h2>
+      <p>{O.together}</p>
+      <p><a class="kb-link" href={kbPath.generations(locale)}>{O.generations} →</a></p>
     </section>
-
-    <section class="kb-section" id="entries" aria-labelledby="tb-entries-h">
-      <div class="kb-head"><div><p class="kb-kicker">{T.entriesKicker}</p><h2 id="tb-entries-h">{T.entriesTitle}</h2></div><p class="kufi" lang="ar">التَّرَاجِمُ</p></div>
-      <p class="muted gen-lead">{T.entriesLead}</p>
-      {entries.length === 0 ? (
-        <p class="kb-note">{T.inPreparation}</p>
-      ) : (
-        <>
-          <div class="kb-toolbar" role="search">
-            <input type="search" class="kb-filter" placeholder={T.filter} aria-label={T.filter} data-kb-filter />
-            <label class="kb-select"><span class="visually-hidden">{T.centuryLabel}</span>
-              <select data-facet="century"><option value="">{T.allCenturies}</option>{centuries.map((c) => <option value={`c${c}`}>{fmt(G.century, { n: ord(c, locale) })}</option>)}</select>
-            </label>
-          </div>
-          <p class="muted kb-shown"><span data-kb-shown data-tpl={T.shown} aria-live="polite"></span> <button type="button" class="kb-clear" data-kb-clear hidden>{T.clear}</button></p>
-          <p class="muted" data-kb-none hidden>{T.none}</p>
-          {groups.map((g) => (
-            <section data-kb-group class="tb-century" id={g.c === null ? "undated" : `c${g.c}`}>
-              <h3 class="kb-century">{g.c === null ? T.undated : fmt(G.century, { n: ord(g.c, locale) })}{g.c !== null && <span class="muted tb-years"> · {fmt(T.years, { from: (g.c - 1) * 100 + 1, to: g.c * 100 })}</span>}</h3>
-              <ol class="tb-entries">
-                {g.items.map((x) => (
-                  <li data-q={[x.e.name, x.e.heading, x.place, x.died, x.e.id.replace(/-/g, " "), x.person?.known, x.person?.name, x.person?.arabic].filter(Boolean).join(" ").toLowerCase()} data-century={g.c === null ? "" : `c${g.c}`}>
-                    <a class="tb-entry" href={kbPath.tabaqat(locale, x.e.id)}>
-                      <span class="tb-n" aria-hidden="true"><span>{x.e.n}</span></span>
-                      <span class="tb-entry-text">
-                        <strong>{x.e.name}</strong>
-                        <span class="muted">{[fmt(T.entryN, { n: x.e.n }), yearOf(x) && `${G.died} ${yearOf(x)}`, x.place, fmt(x.e.pages.includes("–") ? ui.primer.pages : ui.primer.page, { pages: x.e.pages })].filter(Boolean).join(" · ")}</span>
-                      </span>
-                      <span class="kufi tb-entry-ar" lang="ar">{x.e.heading}</span>
-                    </a>
-                  </li>
-                ))}
-              </ol>
-            </section>
-          ))}
-        </>
-      )}
-    </section>
-
-    {book.closing.length > 0 && (
-      <section class="kb-section">
-        <details class="tb-fold">
-          <summary><span class="kb-kicker">{T.closing}</span></summary>
-          <TabaqatParagraphs book={book} paragraphs={book.closing} locale={locale} />
-        </details>
-      </section>
-    )}
   </div>
-  {entries.length > 0 && <script is:inline src={scholarsFilterScript}></script>}
-  <script is:inline src={copyTextScript}></script>
 </BaseLayout>

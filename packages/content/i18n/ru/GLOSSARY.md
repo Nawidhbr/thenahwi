@@ -313,3 +313,35 @@ follows the English source list, `packages/content/i18n/GLOSSARY.md`.
   the badal of iḍrāb, ghalaṭ, nisyān «отступления, ошибки, забывчивости»; ʿadl (of the diptote) «отклонение».
 - hamzat al-qaṭʿ «разделительная хамза» (beside «соединительная хамза»); the jussive muḍāriʿ «мудари в джазме».
 - A vowel "of the kind of" a letter (min jinsihi) is «однородная с ним огласовка», never «того рода».
+- Iẓhār al-asrār (round 4): mutaʿallaq «то, с чем связана [частица] (мутаъалляк)»; ẓarf mustaqarr / laghw «устойчивый /
+  праздный зарф»; the added particle (zāʾida) «добавочная частица»; a limited / vague adverb of place «ограниченное /
+  неясное обстоятельство места»; al-ḥadhf wa-l-īṣāl «опущение и соединение»; the cancelling of inna and its sisters
+  by mā «лишаются действия»; their meanings «утверждение (тахкик), уподобление, исправление (истидрак), желание,
+  надежда»; ilghāʾ / taʿlīq of the verbs of the heart «отмена (ильга) / приостановка (таълик)», as in Qaṭr.
+- A bāb of verbs that is not a conjugation class ("the class of kāna, of ʿalimtu, of aʿṭaytu") is «группа», since
+  «баб» is reserved for the conjugation class.
+- mutaṣarrif / jāmid verb «спрягаемый / неспрягаемый»; a real / verbal feminine «настоящий / словесный женский род»;
+  the pronoun bāriz / mustatir «выступающее / скрытое», wājib / jāʾiz al-istitār «обязательно / возможно скрытое».
+- iʿrāb lafẓī / taqdīrī / maḥallī «иъраб слышимый / подразумеваемый / по месту» (the list above), also where the English
+  says "verbal iʿrāb"; the reported (maḥkī) iʿrāb «передаваемый иъраб», ḥikāya «передача».
+- kalim al-mujāzāh «слова воздаяния»; a request sentence (inshāʾiyya) «предложение, выражающее требование»;
+  al-kināyāt «слова иносказания»; the words of limit (ghāya) «слова предела»; mabnī al-aṣl / al-ʿāriḍ «построенное
+  по происхождению / из-за того, что на него нашло»; the sounds (aṣwāt) «звуки».
+- Bughyat al-wuʿāt of al-Suyūṭī «Бугят аль-вуъат» (short «Бугят», as «Нузхат» for the Nuzha), by the script.
+- Hidāyat al-naḥw (hidaya, its own status file): isnād «отнесение (иснад)»; "told about / told with" «о нём сообщают /
+  им сообщают»; "a complete benefit on which silence may follow" «полная польза, после которой уместно замолчать»;
+  mutamakkin «прочно стоящее»; the nine causes of the diptote «отклонение (адль), описательность, женский род,
+  определённость, иноязычность, множественное число, составность, добавочные алиф и нун, модель глагола»; the true /
+  not true (verbal) feminine «истинный / неистинный (словесный) женский род»; ilghāʾ / taʿlīq «отмена / приостановка»;
+  ḥudūth / thubūt «возникновение / постоянство»; jamʿ qilla / kathra «множественное малого / большого числа» (no
+  transliteration: «касра» would clash with the vowel); the six things answered by the fāʾ «повеление, запрещение,
+  вопрос, отрицание, пожелание, приглашение» (ʿarḍ is «приглашение», since «предложение» is the sentence).
+- Marāḥ al-arwāḥ (marah, its own status file `STATUS-i18n-ru-marah.md`): the book's seven bābs (chapters by kind of
+  root) «семь глав», its thirty-five bābs of the verb «бабы»; al-mustaqbal (its name for the muḍāriʿ) «будущее»;
+  ishtiqāq «словопроизводство (иштикак)», small / great / greatest «малое / большое / величайшее»; mushākala
+  «соответствие»; aṣl in the debate on the maṣdar «основа», the base of a changed form «исходная форма»; farʿ «ветвь»;
+  makhraj «место образования»; mahmūsa / majhūra «глухие / звонкие»; mustaʿliya / muṭbaqa / munkhafiḍa «возвышенные /
+  прикрытые / пониженные»; ibdāl «замена», wujūban / jawāzan muṭṭaridan «обязательно / необязательно и регулярно»; qalb
+  (transposition) «перестановка»; ishmām «ишмам (оттенок даммы)»; bayna bayna «между-между»; the alif of ishbāʿ «алиф
+  удлинения»; the hāʾ of pause «ха паузы»; mafrūq / maqrūn «разделённый / соединённый (ляфиф)»; the separating alif
+  «разделяющий алиф».

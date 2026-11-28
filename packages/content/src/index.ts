@@ -252,7 +252,7 @@ export function getReview(key: string): ReviewState {
   return r ? { status: "reviewed", by: all.reviewers.find((p) => p.id === r.by)?.name ?? r.by, date: r.date } : { status: "draft" };
 }
 
-/** The ṭabaqāt works on the site whole, entry by entry (tabaqat/<id>.json): Ibn al-Anbārī's Nuzhat al-alibbāʾ. */
+/** The ṭabaqāt works on the site whole, entry by entry (tabaqat/<id>.json): Ibn al-Anbārī's Nuzhat al-alibbāʾ and al-Suyūṭī's Bughyat al-wuʿāt. */
 export function getTabaqat(): TabaqatBook[] {
   return tabaqatData as unknown as TabaqatBook[];
 }

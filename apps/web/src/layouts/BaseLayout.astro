@@ -12,7 +12,7 @@ import SubscribeDialog from "../components/SubscribeDialog.astro";
 import SupportDialog from "../components/SupportDialog.astro";
 import { ACCOUNTS, ANALYTICS, PARENT, SITE, SITE_URL, SUPPORT } from "../config/site";
 import { getMatn, getNews } from "@nahwi/content";
-import { LIVE_LOCALES, ENGLISH_ONLY, dirOf, fmt, t } from "../i18n";
+import { LIVE_LOCALES, ENGLISH_ONLY, englishOnlyFallback, dirOf, fmt, t } from "../i18n";
 // Fonts are served from this site (no requests to Google): only the weights and scripts the site uses.
 import "@fontsource/atkinson-hyperlegible/latin-400.css";
 import "@fontsource/atkinson-hyperlegible/latin-ext-400.css";
@@ -224,7 +224,7 @@ const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "l
                   return (
                     <li>
                       {live ? (
-                        <a href={(ENGLISH_ONLY(seo.path) && l.code !== "en") || seo.path === "/404/" ? `/${l.code}/` : `/${l.code}${seo.path}`} hreflang={l.code} aria-current={l.code === locale ? "true" : undefined}>
+                        <a href={ENGLISH_ONLY(seo.path) && l.code !== "en" ? `/${l.code}${englishOnlyFallback(seo.path)}` : seo.path === "/404/" ? `/${l.code}/` : `/${l.code}${seo.path}`} hreflang={l.code} aria-current={l.code === locale ? "true" : undefined}>
                           <span lang={l.code} dir={l.dir}>{l.name}</span>{l.code === locale && <span class="lang-check" aria-hidden="true">✓</span>}
                         </a>
                       ) : (

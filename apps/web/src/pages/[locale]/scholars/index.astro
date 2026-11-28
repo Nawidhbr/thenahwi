@@ -7,7 +7,7 @@ import { century, diedYear, KB_BOOKS, KB_SECTIONS, kbPath, shortDied, shortName 
 import { ROLE_ORDER } from "../../../lib/background";
 import type { BackgroundPerson } from "@nahwi/content";
 import { breadcrumbs } from "../../../lib/structured-data";
-import { nuzhatEntryOf } from "../../../lib/tabaqat";
+import { BUGHYA_ID, NUZHAT_ID, tabaqatEntriesFor } from "../../../lib/tabaqat";
 
 import scholarsFilterScript from "../../../scripts/scholars-filter.js?url";
 /** Every scholar, grouped by the century they died in, with filters by period, role and handbook, and a text search. */
@@ -49,7 +49,8 @@ const bookList = KB_BOOKS.filter((b) => people.some((p) => p.books.includes(b.id
     <section class="kb-section">
       <div class="gen-link-row">
         <a class="kb-link gen-link" href={kbPath.generations(locale)}><strong>{S.generationsLink} →</strong><span class="muted">{S.generationsLead}</span></a>
-        <a class="kb-link gen-link" href={kbPath.tabaqat(locale)}><strong>{S.tabaqatLink} →</strong><span class="muted">{S.tabaqatLead}</span></a>
+        <a class="kb-link gen-link" href={kbPath.tabaqat(locale, NUZHAT_ID)}><strong>{S.tabaqatLink} →</strong><span class="muted">{S.tabaqatLead}</span></a>
+        <a class="kb-link gen-link" href={kbPath.tabaqat(locale, BUGHYA_ID)}><strong>{S.bughyaLink} →</strong><span class="muted">{S.bughyaLead}</span></a>
       </div>
       <div class="kb-toolbar" role="search">
         <input type="search" class="kb-filter" placeholder={S.filter} aria-label={S.filter} data-kb-filter />
@@ -76,7 +77,7 @@ const bookList = KB_BOOKS.filter((b) => people.some((p) => p.books.includes(b.id
                   {p.arabic && <span class="kufi" lang="ar">{p.arabic.split(" ").slice(0, 3).join(" ")}</span>}
                   <span class="muted">{p.roles.map((r) => roles[r] ?? r).join(" · ")} — {p.summary}</span>
                 </a>
-                {nuzhatEntryOf(p.slug, locale) && <a class="kb-person-nuzhat" href={nuzhatEntryOf(p.slug, locale)!.href}>{fmt(S.inNuzhat, { n: nuzhatEntryOf(p.slug, locale)!.entry.n })}</a>}
+                {tabaqatEntriesFor(p.slug, locale).map((x) => <a class="kb-person-nuzhat" href={x.href}>{fmt(x.book.id === NUZHAT_ID ? S.inNuzhat : S.inBughya, { n: x.entry.n })}</a>)}
               </li>
             ))}
           </ul>

@@ -1,9 +1,10 @@
 import type { APIRoute } from "astro";
-import { CHAPTER_PART, getBackground, getTerms, getLibrary, getTabaqat } from "@nahwi/content";
+import { CHAPTER_PART, getBackground, getTerms, getLibrary } from "@nahwi/content";
 import { articleHref, KB_BOOKS, kbBook, kbPath, shortName } from "../../lib/kb";
 import { fmt, localePaths, t } from "../../i18n";
 import { chapterTitle, localMatn, localTerms } from "../../lib/localize";
 import { bookName, lessonTitle, pathLevel, primerLessonPath, primerLessons, primers, tracks } from "../../lib/course";
+import { bookText, entryHref, tabaqatBooks } from "../../lib/tabaqat";
 
 export const getStaticPaths = localePaths;
 
@@ -49,12 +50,21 @@ export const GET: APIRoute = ({ params }) => {
   const G = K.glossary;
   const concepts = bg.concepts.map((c) => ({ k: "kb", u: kbPath.glossary(locale, c.slug), t: c.name, tr: c.transliteration, ar: c.arabic, w: `${G.title} · ${(G.categories as Record<string, string>)[c.category]}`, n: [c.name, c.transliteration, c.arabic, ...c.alsoKnownAs, c.slug.replace(/-/g, " ")], d: c.definition }));
   const people = bg.people.map((p) => ({ k: "kb", u: kbPath.scholar(locale, p.slug), t: shortName(p), ar: p.arabic, w: `${K.nav.scholars}${p.died ? ` · ${p.died.split(/ \(/)[0]}` : ""}`, n: [p.name, p.known ?? "", p.arabic ?? "", p.slug.replace(/-/g, " ")], d: p.summary }));
-  // The entries of Ibn al-Anbārī's Nuzhat al-alibbāʾ (/tabaqat/), with the opening of each in English.
+  // The ṭabaqāt works (/tabaqat/<book>/): each book, and each entry. The Nuzha's entries with the opening of each in
+  // English; the Bughya's, some 2,200, with the name, the year of death and the id only, to keep the index small (their
+  // pages are in English until translated: entryHref).
   const cut = (x: string) => (x.length > 300 ? `${x.slice(0, 300)}…` : x);
-  const tabaqat = getTabaqat().flatMap((b) => [
-    { k: "kb", u: kbPath.tabaqat(locale), t: b.title, ar: b.arabicTitle, w: `${K.nav.tabaqat} · ${b.author}`, n: [b.title, b.arabicTitle, b.author, "tabaqat", "nuzhat"], d: K.tabaqat.lead },
-    ...b.entries.map((e) => ({ k: "kb", u: kbPath.tabaqat(locale, e.id), t: e.name, ar: e.heading, w: `${b.title} · ${fmt(K.tabaqat.entryN, { n: e.n })}`, n: [e.name, e.heading, e.id.replace(/-/g, " ")], d: cut(e.paragraphs.map((x) => x.en).join(" ")) })),
-  ]);
+  const tabaqat = [
+    { k: "kb", u: kbPath.tabaqat(locale), t: K.tabaqat.overview.title, ar: "طَبَقَاتُ النُّحَاة", w: K.nav.tabaqat, n: ["tabaqat", "nuzhat", "bughya"], d: K.tabaqat.overview.lead },
+    ...tabaqatBooks().flatMap((b) => [
+      { k: "kb", u: kbPath.tabaqat(locale, b.id), t: b.title, ar: b.arabicTitle, w: `${K.nav.tabaqat} · ${b.author}`, n: [b.title, b.arabicTitle, b.author, "tabaqat", b.id], d: bookText(locale, b).lead },
+      ...b.entries.map((e) =>
+        b.entryLanguages === "en"
+          ? { k: "kb", u: entryHref(b, e, locale), t: e.name, w: `${b.short ?? b.title}${e.died ? ` · ${e.died.split("/")[0]}` : ""}`, n: [e.name, e.id.replace(/-/g, " ")], d: "" }
+          : { k: "kb", u: entryHref(b, e, locale), t: e.name, ar: e.heading, w: `${b.short ?? b.title} · ${fmt(K.tabaqat.entryN, { n: e.n })}`, n: [e.name, e.heading, e.id.replace(/-/g, " ")], d: cut(e.paragraphs.map((x) => x.en).join(" ")) },
+      ),
+    ]),
+  ];
   // The lessons of the courses (the primers and the books read lesson by lesson), with the opening of each.
   const topics = ui.track.topics as Record<string, string>;
   const primerHits = primers().flatMap((p) =>

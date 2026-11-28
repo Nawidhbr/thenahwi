@@ -1,0 +1,156 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import KbHero from "../../../../components/KbHero.astro";
+import SourceNote from "../../../../components/SourceNote.astro";
+import TabaqatParagraphs from "../../../../components/TabaqatParagraphs.astro";
+import type { TabaqatBook } from "@nahwi/content";
+import { fmt, LIVE_LOCALES, t } from "../../../../i18n";
+import { kbPath } from "../../../../lib/kb";
+import { ord } from "../../../../lib/ord";
+import { tabaqatSource } from "../../../../lib/sources";
+import { breadcrumbs, tabaqatEdition } from "../../../../lib/structured-data";
+import { BOOK_PHOTO, BOOK_SIZE, bookText, entryCentury, entryDied, entryHijri, entryHref, entryPerson, entryPlace, tabaqatBooks } from "../../../../lib/tabaqat";
+
+import scholarsFilterScript from "../../../../scripts/scholars-filter.js?url";
+import copyTextScript from "../../../../scripts/copy-text.js?url";
+/**
+ * A ṭabaqāt book (/<locale>/tabaqat/<book>/): the book, its print and scan, the author's preface, every entry, the parts
+ * after the entries and the closing, with a search field (window.__hl, through scripts/scholars-filter.js) and dropdowns.
+ * A book in order of death (the Nuzha) lists its entries under the hijri century of death; an alphabetical book (the
+ * Bughya) keeps its own order, under its sections, with a dropdown for the section and one for the century. Each entry
+ * has its own page ([book]/[id].astro), in English only for a book with `entryLanguages: "en"`.
+ */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => tabaqatBooks().map((book) => ({ params: { locale, book: book.id }, props: { book } })));
+}
+interface Props {
+  book: TabaqatBook;
+}
+const { locale } = Astro.params as { locale: string };
+const { book } = Astro.props;
+const ui = t(locale);
+const T = ui.kb.tabaqat;
+const G = ui.kb.generations;
+const B = bookText(locale, book);
+const alphabetical = book.order === "alphabetical";
+const photo = BOOK_PHOTO[book.id] ?? BOOK_PHOTO.nuzhat;
+const entries = book.entries.map((e) => {
+  const person = entryPerson(e, locale);
+  return { e, person, died: entryDied(e, person), hijri: entryHijri(e, person), century: entryCentury(e, person), place: entryPlace(e, person) };
+});
+type Item = (typeof entries)[number];
+const centuries = [...new Set(entries.map((x) => x.century))].filter((c): c is number => c !== null).sort((a, b) => a - b);
+// The sections of an alphabetical book, in its order (each with its own anchor and dropdown value).
+const sections = alphabetical ? [...new Set(entries.map((x) => x.e.section ?? ""))] : [];
+const sectionKey = (s: string) => `s${sections.indexOf(s) + 1}`;
+// By the book's sections; or by the hijri century of death, each century in the book's own order, entries without a year last.
+const groups: { id: string; title: string; arabic?: string; years?: string; items: Item[] }[] = alphabetical
+  ? sections.map((s) => ({ id: sectionKey(s), title: s, arabic: s, items: entries.filter((x) => (x.e.section ?? "") === s) }))
+  : [
+      ...centuries.map((c) => ({ id: `c${c}`, title: fmt(G.century, { n: ord(c, locale) }), years: fmt(T.years, { from: (c - 1) * 100 + 1, to: c * 100 }), items: entries.filter((x) => x.century === c) })),
+      { id: "undated", title: T.undated, items: entries.filter((x) => x.century === null) },
+    ].filter((g) => g.items.length > 0);
+const yearOf = (x: Item) => (x.hijri !== null ? x.died.split(/[,;(]/)[0].replace(/^ca\. /, `${ui.book.circa} `).trim() : "");
+const path = kbPath.tabaqat(locale, book.id);
+const e = book.edition;
+const englishEntries = book.entryLanguages === "en" && locale !== "en";
+const size = BOOK_SIZE[book.id] ?? book.entries.length;
+const kicker = book.entries.length === 0 ? T.kicker : book.entries.length < size * 0.98 ? fmt(T.overview.progress, { n: book.entries.length, m: size }) : book.entries.length === 1 ? T.countOne : fmt(T.count, { n: book.entries.length });
+---
+
+<BaseLayout image={photo} title={B.title} description={B.description} path={`/tabaqat/${book.id}/`} locale={locale} bleed jsonLd={[tabaqatEdition(book, locale, B.description), breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: T.overview.title, path: kbPath.tabaqat(locale) }, { name: book.title, path }])]}>
+  <KbHero locale={locale} photo={photo} crumbs={[{ label: ui.nav.home, href: kbPath.home(locale) }, { label: ui.kb.nav.tabaqat, href: kbPath.tabaqat(locale) }]} kicker={kicker} arabic={book.arabicTitle} title={book.title} sub={B.lead} />
+  <div class="kb-wrap">
+    <section class="kb-section kb-overview" aria-labelledby="tb-intro-h">
+      <div>
+        <p class="kb-kicker">{T.introKicker}</p>
+        <h2 id="tb-intro-h">{B.introTitle}</h2>
+        {book.introduction.map((x) => <p>{x}</p>)}
+      </div>
+      <dl class="kb-facts">
+        <dt>{T.facts.author}</dt><dd><a href={kbPath.scholar(locale, book.authorSlug)}>{book.author}</a> <span class="muted">({book.died})</span></dd>
+        {book.printTitle && <><dt>{T.facts.printTitle}</dt><dd class="kufi tb-print-title" lang="ar">{book.printTitle}</dd></>}
+        <dt>{T.facts.printed}</dt><dd>{e.place}: {e.publisher}, {e.year}</dd>
+        {e.editor && <><dt>{T.facts.editor}</dt><dd>{e.editor}</dd></>}
+        <dt>{T.facts.pages}</dt><dd>{e.pages}</dd>
+        <dt>{T.facts.copy}</dt><dd>{e.copy}</dd>
+        <dt>{T.facts.scan}</dt><dd><a href={e.source} rel="noopener">{T.facts.scanLink}</a></dd>
+        <dt>{ui.kb.library.title}</dt><dd><a href={kbPath.book(locale, book.library)}>{book.title}</a></dd>
+      </dl>
+    </section>
+
+    <section class="kb-section">
+      <SourceNote info={tabaqatSource(book, locale)} locale={locale} />
+      {book.preface.length > 0 && (
+        <details class="tb-fold">
+          <summary><span class="kb-kicker">{T.preface}</span> <span class="kufi" lang="ar">خُطْبَةُ الْكِتَابِ</span></summary>
+          <TabaqatParagraphs book={book} paragraphs={book.preface} locale={locale} />
+        </details>
+      )}
+    </section>
+
+    <section class="kb-section" id="entries" aria-labelledby="tb-entries-h">
+      <div class="kb-head"><div><p class="kb-kicker">{T.entriesKicker}</p><h2 id="tb-entries-h">{B.entriesTitle}</h2></div><p class="kufi" lang="ar">التَّرَاجِمُ</p></div>
+      <p class="muted gen-lead">{B.entriesLead}</p>
+      {englishEntries && entries.length > 0 && <p class="kb-note">{T.bughya.englishOnly}</p>}
+      {entries.length === 0 ? (
+        <p class="kb-note">{T.inPreparation}</p>
+      ) : (
+        <>
+          <div class="kb-toolbar" role="search">
+            <input type="search" class="kb-filter" placeholder={T.filter} aria-label={T.filter} data-kb-filter />
+            {alphabetical && (
+              <label class="kb-select"><span class="visually-hidden">{T.bughya.sectionLabel}</span>
+                <select data-facet="section"><option value="">{T.bughya.allSections}</option>{sections.map((s) => <option value={sectionKey(s)} lang="ar">{s}</option>)}</select>
+              </label>
+            )}
+            <label class="kb-select"><span class="visually-hidden">{T.centuryLabel}</span>
+              <select data-facet="century"><option value="">{T.allCenturies}</option>{centuries.map((c) => <option value={`c${c}`}>{fmt(G.century, { n: ord(c, locale) })}</option>)}</select>
+            </label>
+          </div>
+          <p class="muted kb-shown"><span data-kb-shown data-tpl={T.shown} aria-live="polite"></span> <button type="button" class="kb-clear" data-kb-clear hidden>{T.clear}</button></p>
+          <p class="muted" data-kb-none hidden>{T.none}</p>
+          {groups.map((g) => (
+            <section data-kb-group class="tb-century" id={g.id}>
+              <h3 class="kb-century">{g.arabic ? <span class="kufi" lang="ar">{g.title}</span> : g.title}{g.years && <span class="muted tb-years"> · {g.years}</span>}{alphabetical && <span class="muted tb-years"> · {g.items.length === 1 ? T.countOne : fmt(T.count, { n: g.items.length })}</span>}</h3>
+              <ol class="tb-entries">
+                {g.items.map((x) => (
+                  <li data-q={[x.e.name, x.e.heading, x.place, x.died, x.e.id.replace(/-/g, " "), x.person?.known, x.person?.name].filter(Boolean).join(" ").toLowerCase()} data-century={x.century === null ? "" : `c${x.century}`} data-section={alphabetical ? g.id : undefined}>
+                    <a class="tb-entry" href={entryHref(book, x.e, locale)} hreflang={englishEntries ? "en" : undefined}>
+                      <span class:list={["tb-n", { "is-long": x.e.n > 999 }]} aria-hidden="true"><span>{x.e.n}</span></span>
+                      <span class="tb-entry-text">
+                        <strong>{x.e.name}</strong>
+                        <span class="muted">{[fmt(T.entryN, { n: x.e.n }), yearOf(x) && `${G.died} ${yearOf(x)}`, x.place, fmt(x.e.pages.includes("–") ? ui.primer.pages : ui.primer.page, { pages: x.e.pages })].filter(Boolean).join(" · ")}</span>
+                      </span>
+                      <span class="kufi tb-entry-ar" lang="ar">{x.e.heading}</span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ))}
+        </>
+      )}
+    </section>
+
+    {(book.appendix.length > 0 || book.closing.length > 0) && (
+      <section class="kb-section" aria-labelledby="tb-after-h">
+        <h2 id="tb-after-h" class="kb-kicker">{alphabetical ? T.bughya.appendix : T.closing}</h2>
+        {book.appendix.map((a) => (
+          <details class="tb-fold" id={a.id}>
+            <summary><span class="kb-kicker">{a.en}</span> <span class="kufi" lang="ar">{a.title}</span></summary>
+            <TabaqatParagraphs book={book} paragraphs={a.paragraphs} locale={locale} />
+          </details>
+        ))}
+        {book.closing.length > 0 && (
+          <details class="tb-fold">
+            <summary><span class="kb-kicker">{B.closing}</span></summary>
+            <TabaqatParagraphs book={book} paragraphs={book.closing} locale={locale} />
+          </details>
+        )}
+      </section>
+    )}
+  </div>
+  {entries.length > 0 && <script is:inline src={scholarsFilterScript}></script>}
+  <script is:inline src={copyTextScript}></script>
+</BaseLayout>

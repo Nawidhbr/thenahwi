@@ -300,3 +300,22 @@ English source list, `packages/content/i18n/GLOSSARY.md`.
 | The settled / the idle adverb | الظَّرْفُ الْمُسْتَقَرُّ / اللَّغْوُ | ظرفِ مستقرّ / ظرفِ لغو |
 | Dropping and joining | الْحَذْفُ وَالْإِيصَالُ | حذف و ایصال |
 | Vague / limited adverb of place | ظَرْفُ مَكَانٍ مُبْهَمٌ / مَحْدُودٌ | ظرفِ مکانِ مبهم / محدود |
+| Cancelling / suspending (verbs of the heart); cancelled | الْإِلْغَاءُ / التَّعْلِيقُ؛ مُلْغًى | الغا / تعلیق؛ ملغی |
+| The lightened particles (in, an, kaʾan, lākin) | الْمُخَفَّفَةُ | مخفّفه (تخفیف یافتن) |
+| The pronoun of the matter | ضَمِيرُ الشَّأْنِ | ضمیرِ شأن |
+| Fully conjugated / not conjugated (verb) | الْمُتَصَرِّفُ / غَيْرُ الْمُتَصَرِّفِ | متصرّف / غیرِ متصرّف |
+| The words of requital (two-verb jawāzim) | كَلِمُ الْمُجَازَاةِ | کلمِ مجازات |
+| The fāʾ of the response | فَاءُ الْجَزَاءِ | فای جزا |
+| The verbs of beginning | أَفْعَالُ الشُّرُوعِ | افعالِ شروع |
+| The question of the kohl | مَسْأَلَةُ الْكُحْلِ | مسئلهٔ کحل |
+| The counted noun | الْمَعْدُودُ | معدود |
+| Parsing | الْإِعْرَابُ (التَّرْكِيبُ) | ترکیب (ترکیب کردن) |
+| Pronoun / visible noun; hidden / showing; necessarily / possibly hidden | الْمُضْمَرُ / الْمُظْهَرُ؛ الْمُسْتَتِرُ / الْبَارِزُ؛ وَاجِبُ / جَائِزُ الِاسْتِتَارِ | مضمر / مظهر؛ مستتر / بارز؛ واجب‌الاستتار / جایزالاستتار |
+| A preposition with its majrūr | الْجَارُّ وَالْمَجْرُورُ | جارّ و مجرور |
+| The referent in a khabar sentence; the link of a ḥāl sentence | الْعَائِدُ؛ الرَّابِطُ | عائد؛ رابط |
+| The pronoun of separation | ضَمِيرُ الْفَصْلِ | ضمیرِ فصل |
+| What is said after a verb of saying; understood as a single word | مَقُولُ الْقَوْلِ؛ فِي تَأْوِيلِ الْمُفْرَدِ | مقولِ قول؛ در تأویلِ مفرد |
+| The wāw of company | وَاوُ الْمَعِيَّةِ | واوِ معیّت |
+| A sentence that states something | الْجُمْلَةُ الْخَبَرِيَّةُ | جملهٔ خبریّه |
+| Affirmative speech (in the exception) | الْكَلَامُ الْمُوجَبُ | کلامِ موجَب |
+| More eloquent (usage) | الْأَفْصَحُ | بر وجهِ افصح (never «بنا بر») |

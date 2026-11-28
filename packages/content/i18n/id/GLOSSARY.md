@@ -327,3 +327,49 @@ keep that file in step with this list. The layout follows the English source lis
   [tatsniyah] / adh-dharibu [jamak] Zaidin, allati [jamak] (اللَّاتِي); else the Arabic beside it: dhamir (ضَامِرٌ)
   “kurus”, idza (إِذَا) as the pause of idzan. Hamzat al-wasl is joined like the article (faqdhi, idzibtala,
   manistatha'a).
+- Hidayatun Nahwi (round 3, its own translator): title “Hidayatun Nahwi”, short “al-Hidayah”; author Sirajuddin 'Utsman
+  al-Awadhi; Dars-i Nizami. As in its passages: “dikabarkan tentangnya / dengannya” (told about / with), musnad /
+  musnad ilaih, isnad, dhamir bariz / mustatir, mabni al-ashl, isim mutamakkin, “secara lafazh / secara taqdir”,
+  munsharif / ghairu munsharif, 'alamiyyah, washf, 'ujmah, muntahal jumu'. Further: maqshad, maf'ul ma lam yusamma
+  fa'iluh, muannats haqiqi / lafzhi, tanazu', ibtida', tahdzir, isytighal, istitsna' mufarragh, mujab / ghairu mujab,
+  dzul hal (shahibul hal), huruf khithab, ha tanbih, kinayat, ghayat, idza fuja'iyyah, mubhamat, mumayyiz, jamak qillah /
+  katsrah, huduts / tsubut, i'timad, al-makhshush bil-madh, af'alul muqarabah, ilgha' / ta'liq, fa' jaza'iyyah, jumlah
+  insya'iyyah, lam kai, lam amar, la nahi, al-lam al-fariqah; the meanings of the particles ilshaq, isti'anah,
+  mushahabah, muqabalah, ta'diyah, zharfiyyah, mujawazah, isti'la', tasybih, istidrak, tamanni, tarajji, tabyin,
+  tab'idh, tahdhidh, taqrib, taqlil, tahqiq, rad', tafshil; tanwin tamakkun / tankir / 'iwadh / muqabalah / tarannum.
+  A “report” (khabar as opposed to insya') is “berita”. Brackets: dharabani [dengan alif] (ضَرَبَانِي), afdhalal-qaumi
+  [tatsniyah] / afdhalul-qaumi [jamak], lam yarmi [tanpa ya'], lam yas'a [tanpa alif], idhribu [jamak], fa'alil
+  [dengan ya'] (فَعَالِيل), af'al [dengan alif] (أَفْعَال), la'anna [hamzah] / ['ain], wa (وَا) of the nudbah.
+- Izhar al-Asrar (round 3, its own translator): title “Izhar al-Asrar”, author Mehmed Birgivi (Birgivi), read after
+  al-'Awamil and before al-Kafiyah; pages “hlm.”. Heard / by rule: sima'i / qiyasi (the noun: sama'); 'amil lafzhi /
+  ma'nawi. As in its passages: muta'allaq, zharaf mustaqarr / laghw, maf'ul bih yang tidak sharih, maf'ul fih, maf'ul
+  lah, maf'ul ma'ah (wawu ma'iyyah), mubham / mahdud (zharaf makan), hadzf dan ishal, huruf yang menyerupai fi'il, fi'il
+  yakin, fi'il mutasharrif, kalim mujazah, thalab, makhshush, af'alul qulub, af'alul muqarabah, fi'il-fi'il syuru',
+  ilgha' / i'mal / ta'liq, fi'il tam / naqish, i'timad, wazan mubalaghah, ashwat, murakkab, mabni al-ashl / al-'aridh,
+  ghayah, tanwin 'iwadh, i'rab lafzhi / taqdiri / mahalli / mahki, hikayah, isim manqush, lam 'ahd / lam jinsi, ha
+  tanbih, kaf khithab, rabith, jumlah khabariyyah / insya'iyyah, ma'thuf / ma'thuf 'alaih, 'athaf dengan huruf ('athaf
+  nasaq). “Taken out of a plurality” = “dikeluarkan dari sekumpulan yang banyak”, and a total is “banyaknya” (not
+  “jumlah”, which is the sentence). The lām of the lightened in: lam (ل); the place word annā: anna (أَنَّى). Brackets:
+  dharaba [tatsniyah] / idhriba [tatsniyah] / lan yadhriba [tatsniyah], dharabna [kami], adh-dharibu [mufrad] Zaidin
+  beside adh-dhariba [tatsniyah] / adh-dharibu [jamak] Zaidin, dharibu [jamak] al-qaumi, lan yadhribu [jamak], yaghzu
+  [dengan wawu] beside lam yaghzu, yakhsya [dengan alif] beside lam yakhsya, Zaida [dengan alif] (the pause), maqthu'atun
+  [jamak], allati [jamak] (اللَّاتِي) beside allati [jamak, tanpa ya'].
+- Marah al-Arwah (round 3, its own translator): title “Marah al-Arwah” (“tempat istirahat ruh-ruh”), author Ahmad bin
+  'Ali bin Mas'ud; pages “hlm.”. The book's “future” (al-mustaqbal) is “mustaqbal” (fi'il mustaqbal), mudhari' only
+  where the English says muḍāriʿ; the seven bābs by kind of root: shahih, mudha'af (asham), mahmuz, mitsal, ajwaf
+  (dzuts-tsalatsah), naqish (dzul-arba'ah), lafif mafruq / maqrun; ṣarrāf = sharraf. People: ulama Bashrah / ulama
+  Kufah, Sibawaih, al-Akhfasy, al-Khalil, Yunus, al-Farra', al-Ashma'i, Ibnu Jinni, az-Zamakhsyari (Jarullah),
+  Imru'ul Qais, Hatim, Bani 'Amir, Bani Thayyi', Himyar. Terms: isytiqaq shaghir / kabir / akbar, hadats (kejadian),
+  makhraj, musyakalah (penyesuaian), majaz, fadhlah, haml, mu'anaqah, ta'widh, da'a'imul-abwab (tiang-tiang bab), huruf
+  halq, huruf ziyadah (hawitus-simana), huruf ibdal (istanjadahu yauma shala Zuththun), wajib / boleh muththarid,
+  “boleh tetapi tidak muththarid”, huruf mahmusah / majhurah (satasy-hatsuka Khashafah), musta'liyah, muthbaqah,
+  munkhafidhah, bayan (dipisahkan), alif isyba', ha' saktah, hamzah washal / qatha', kursi hamzah, takhfif hamzah: qalb,
+  baina baina, hadzf; naql harakat, qalb makani, isymam, dhamir mustatir / bariz, tanda khithab, lam amar, nun taukid
+  tsaqilah / khafifah, alif pemisah, tamanni, 'ardh, qasam, sukun lazim / 'aridh, i'lal di dalam i'lal, perbedaan yang
+  dikira-kirakan, isim manqush; the yāʾ of “my” = “-ku”. Diphthongs: ay = ai, aw = au (yaujalu, maujil, mauqiyy,
+  taraina, ra'aitu), but y and w before a vowel stay (yarayani, rawunna). سْه is written s-h with a hyphen (mus-hab,
+  as-haba). Brackets: dharabtumu [dengan wawu], qawil [dengan alif] (قَاوِل), madhrub [tanpa wawu] (مَضْرُب), mafu'l
+  (Sibawaih) / maful (al-Akhfasy), mafi'l / mafil, bir [pendek] / bir [dengan ya'], musir [pendek] / musir [dengan
+  wawu], irmi [dengan ya'] (the origin ارْمِي) beside irmi [pr.], qi [pr.], fa'lah (with ta') beside fa'la [alif
+  maqshurah], fa'il [pendek] (فَعِل), fa'ul [dengan wawu], mikhyath [dengan alif], qatala [dengan alif], ra'a stays
+  plain; haraqtu with ha' (ه) beside “haraqtu dengan ha' (ح)”.

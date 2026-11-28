@@ -668,10 +668,11 @@ export interface ReviewState { status: "draft" | "reviewed"; by?: string; date?:
 
 /**
  * A ṭabaqāt work put on the site whole, entry by entry (tabaqat/<id>.json; docs/tabaqat-pipeline.md): Ibn al-Anbārī's
- * Nuzhat al-alibbāʾ, the backbone of the scholars. The Arabic is transcribed from a public-domain print (`edition`, with
- * its scan; PDF page = print page + `offset`) and vocalised by us; the English is our own translation. Each entry is tied
- * to its scholar's page (`person`) where there is one. Checked by loadTabaqat: entries numbered 1, 2, 3 … in the book's
- * order, ids unique, every person a page, every paragraph's page inside its entry's pages.
+ * Nuzhat al-alibbāʾ, the backbone of the scholars, and al-Suyūṭī's Bughyat al-wuʿāt, the full reference beside it. The
+ * Arabic is transcribed from a public-domain print (`edition`, with its scan; PDF page = print page + `offset`) and
+ * vocalised by us; the English is our own translation. Each entry is tied to its scholar's page (`person`) where there
+ * is one. Checked by loadTabaqat: entries numbered 1, 2, 3 … in the book's order, ids unique, every person a page,
+ * every paragraph's page inside its entry's pages.
  */
 export const TabaqatParagraph = z.object({
   /** The Arabic of one paragraph, fully vocalised; verse as "hemistich * hemistich", lines separated by "\n". */
@@ -701,12 +702,32 @@ export const TabaqatEntry = z.object({
   person: z.string().optional(),
   /** Doubtful readings and misprints; never shown as part of the text. */
   notes: z.string().optional(),
+  /** The section of the book the entry stands in, vocalised, as the print heads it (an alphabetical book: "بَابُ الْمُحَمَّدِينَ"). */
+  section: z.string().min(1).optional(),
+});
+/** A part of the book after the entries: the Bughya's lists of kunyas and nisbas, its chapter of hadiths. */
+export const TabaqatAppendix = z.object({
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+  /** The heading as the print has it, vocalised. */
+  title: z.string().min(1),
+  /** Our English for the heading. */
+  en: z.string().min(1),
+  paragraphs: z.array(TabaqatParagraph).min(1),
 });
 export const TabaqatBook = z.object({
   id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   /** Its entry in the library (background/library.json). */
   library: z.string().min(1),
   title: z.string().min(1),
+  /** The title in short, for lists and links ("Bughyat al-wuʿāt"). */
+  short: z.string().min(1).optional(),
+  /** The book's own order: by death (the Nuzha) or by name (the Bughya, with its sections). */
+  order: z.enum(["death", "alphabetical"]).default("death"),
+  /**
+   * The languages its entry pages are built in: every live language, or English only (a book too large to build in
+   * every language before it is translated; the other languages link to the English entries).
+   */
+  entryLanguages: z.enum(["all", "en"]).default("all"),
   arabicTitle: z.string().min(1),
   /** The title as the print has it, vocalised. */
   printTitle: z.string().optional(),
@@ -716,6 +737,10 @@ export const TabaqatBook = z.object({
   died: z.string().min(1),
   edition: z.object({
     title: z.string().min(1),
+    /** Who saw the print through the press, where the title page names him. */
+    editor: z.string().min(1).optional(),
+    /** A typeset print (the Bughya), not a lithograph (the Nuzha, whose margins carry a reader's notes). */
+    typeset: z.boolean().optional(),
     publisher: z.string().min(1),
     place: z.string().min(1),
     year: z.string().min(1),
@@ -727,15 +752,23 @@ export const TabaqatBook = z.object({
     scan: z.string().url(),
     /** PDF page = print page + offset. */
     offset: z.number().int(),
+    /**
+     * One page of the scan in its viewer, with "{leaf}" for the page counted from 0 (PDF page − 1), where the scan
+     * has a page viewer (the Internet Archive); else pages link to the PDF with #page=.
+     */
+    pageUrl: z.string().url().optional(),
   }),
   /** Our introduction to the book (English, translated later like the articles). */
   introduction: z.array(z.string().min(1)).min(1),
   /** The author's preface (khuṭba). */
   preface: z.array(TabaqatParagraph).default([]),
   entries: z.array(TabaqatEntry).default([]),
-  /** The author's closing: his own chain of teachers back to ʿAlī. */
+  /** The parts after the entries (lists, a chapter of hadiths), in the print's order. */
+  appendix: z.array(TabaqatAppendix).default([]),
+  /** The author's closing: the Nuzha's chain of teachers back to ʿAlī; the Bughya's word on its sources. */
   closing: z.array(TabaqatParagraph).default([]),
 });
 export type TabaqatParagraph = z.infer<typeof TabaqatParagraph>;
+export type TabaqatAppendix = z.infer<typeof TabaqatAppendix>;
 export type TabaqatEntry = z.infer<typeof TabaqatEntry>;
 export type TabaqatBook = z.infer<typeof TabaqatBook>;

@@ -315,3 +315,21 @@ list when it is made. The layout follows the English source list, `packages/cont
   « concave » (« creux » only for the name's meaning); taqdîran « par supposition », the implied difference « la
   différence sous-entendue »; ṭāʾ in a passage about letters: « tâ' [ط] » every time, tâ' [ت] bracketed at its first
   mention in that passage.
+- Round 5 (hidaya, all 72 lessons): mukhbar 'anhu / mukhbar bihi ("told about / told with") « ce dont on informe » /
+  « ce par quoi on informe »; the mawdû' of a science « l'objet » (never « sujet »); isnâd « l'attribution »;
+  kalima « une énonciation établie pour un sens unique »; fâ'ida « une information complète »; ahwâl al-awâkhir « les
+  situations des finales »; lafzan / taqdîran « de façon apparente / de façon sous-entendue »; the explicit fâ'il
+  (zâhir) « nom visible »; the causes of the diptote: 'adl, « la qualité d'adjectif », « la détermination », « l'origine
+  étrangère », « la composition », « l'alif et le nûn ajoutés », « le schème du verbe », 'alamiyya « la qualité de nom
+  propre »; tanâzu' « la rivalité »; tahdhîr « la mise en garde »; 'alâ sharîtat al-tafsîr « à condition
+  d'explication »; tarkhîm « l'abrègement »; mandûb « celui qu'on pleure »; istighâtha « l'appel au secours »; the hâl
+  shows « la manière d'être » (« état » stays for the states of i'râb); mustathnâ minhu « ce dont on excepte »,
+  mufarragh « l'exception vidée », kalâm mûjab « un discours affirmatif »; idâfa ma'nawiyya / lafziyya « l'idâfa de
+  sens / d'énonciation »; takhsîs « la particularisation »; mumayyiz « le spécifiant »; jam' qilla / kathra « le
+  pluriel de petit / de grand nombre »; hudûth / thubût « l'advenue / la permanence »; af'âl al-muqâraba « les verbes
+  d'approche », jâmid « figé »; al-makhsûs bi-l-madh « le désigné de la louange »; ilsâq « l'adhérence », mujâwaza
+  « le dépassement », isti'lâ' « l'élévation », istidrâk « la rectification », tamannî / tarajjî « le souhait /
+  l'espoir »; mâ al-kâffa « le mâ qui empêche »; al-lâm al-fâriqa « le lâm qui distingue »; tahdîd « l'incitation »,
+  tawaqqu' « l'attente », taqrîb « le rapprochement »; rad' « la réprimande »; the kinds of tanwîn: tamakkun
+  « l'établissement », tankîr « l'indétermination », 'iwad « la compensation », muqâbala « la correspondance »,
+  tarannum « le chant »; « au sujet de » is avoided (« sujet » is reserved): « à propos de ».

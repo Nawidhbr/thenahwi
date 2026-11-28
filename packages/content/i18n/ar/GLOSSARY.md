@@ -293,3 +293,10 @@ column "Persian of the books" gives the word of the Persian primers that each Ar
   «المُحَوَّلُ»; the causal adjective: «النَّعْتُ السَّبَبِيُّ»; cutting off (an adjective): «القَطْعُ» (round 4, qatr).
 - An entry of a ṭabaqāt book (Nuzhat al-alibbāʾ): «التَّرْجَمَةُ»; the scan of a print: «الصُّورَةُ» (round 4, interface).
 - Correction to the line above: «كَمِ الخَبَرِيَّةُ» is the kam (not a verb) that tells of a great number.
+- Round 5 (main translator, lamiyya and izhar): the attached form «المُلْحَقُ», the added tāʾ of tafaʿʿala «التَّاءُ
+  الزَّائِدَةُ», the tāʾ of compliance «تَاءُ المُطَاوَعَةِ», the tāʾ of compensation «تَاءُ التَّعْوِيضِ», the noun of once
+  «اسْمُ المَرَّةِ», the land of abundance «المَفْعَلَةُ», keeping the kasra alone «إِفْرَادُ الكَسْرِ», all three vowels
+  «التَّثْلِيثُ»; in the Iẓhār: what a particle of jarr is attached to «المُتَعَلَّقُ», the settled / idle adverb «الظَّرْفُ
+  المُسْتَقَرُّ / اللَّغْوُ», dropping and joining «الحَذْفُ وَالإِيصَالُ», an object that is not explicit «مَفْعُولٌ بِهِ غَيْرُ
+  صَرِيحٍ», the intermediary «الوَاسِطَةُ». The second ṭabaqāt book: «بُغْيَةُ الوُعَاةِ» (short «البُغْيَةُ»); the editor's
+  work on a print: «التَّحْقِيقُ» (interface).

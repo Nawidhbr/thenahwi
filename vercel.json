@@ -85,6 +85,11 @@
       "source": "/:locale/level-(\\d+)/:book/:n/",
       "destination": "/:locale/study/:book/:n/",
       "permanent": true
+    },
+    {
+      "source": "/:locale/tabaqat/:id((?!nuzhat/|bughya/)[a-z0-9-]+)/",
+      "destination": "/:locale/tabaqat/nuzhat/:id/",
+      "permanent": true
     }
   ],
   "headers": [

@@ -701,8 +701,9 @@ export function loadReviews(keys: Set<string>): { reviews: Reviews | null; error
 
 /**
  * The ṭabaqāt works (tabaqat/<id>.json; docs/tabaqat-pipeline.md): each validated against TabaqatBook, with its entries
- * numbered 1, 2, 3 … in order, ids unique, every `person` and the author a scholar page, the library entry existing, and
- * every paragraph's page inside its entry's pages. The Arabic must be Arabic and vocalised (a paragraph with few vowel
+ * numbered 1, 2, 3 … in order, ids unique, every `person` and the author a scholar page, the library entry existing,
+ * every paragraph's page inside its entry's pages, every entry of an alphabetical book in a section, and the parts
+ * after the entries (appendix, closing) on the pages after them. The Arabic must be Arabic and vocalised (a paragraph with few vowel
  * marks is reported), the English free of Arabic script.
  */
 export function loadTabaqat(peopleSlugs: Set<string>, libraryIds: Set<string>): { books: TabaqatBook[]; errors: string[]; notes: string[] } {
@@ -748,7 +749,18 @@ export function loadTabaqat(peopleSlugs: Set<string>, libraryIds: Set<string>): 
       lastPage = lo;
       e.paragraphs.forEach((p, k) => checkParagraph(`${where} paragraph ${k + 1}`, p, lo, hi));
     });
+    if (b.order === "alphabetical") b.entries.filter((e) => !e.section).forEach((e) => errors.push(`${label} entry ${e.n} (${e.id}): no section (an alphabetical book gives each entry its section)`));
+    const parts = new Set<string>();
+    b.appendix.forEach((a) => {
+      if (parts.has(a.id)) errors.push(`${label} appendix "${a.id}" is listed twice`);
+      parts.add(a.id);
+      a.paragraphs.forEach((p, k) => {
+        checkParagraph(`appendix ${a.id} paragraph ${k + 1}`, p, lastPage, 999);
+        lastPage = Math.max(lastPage, Number(p.page));
+      });
+    });
     b.closing.forEach((p, i) => checkParagraph(`closing ${i + 1}`, p, lastPage, 999));
+    if (b.edition.pageUrl && !b.edition.pageUrl.includes("{leaf}")) errors.push(`${label}: edition.pageUrl has no {leaf}`);
     const linked = b.entries.filter((e) => e.person).length;
     notes.push(`ṭabaqāt ${b.id}: ${b.entries.length} entries, ${linked} tied to a scholar page`);
     books.push(b);

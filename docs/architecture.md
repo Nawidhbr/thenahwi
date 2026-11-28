@@ -41,8 +41,11 @@ The site never reads the content JSON files directly: `npm run validate -w @nahw
 
 ## Pages and scripts
 
-- Pages live under `apps/web/src/pages/[locale]/`; every URL starts with the locale. `/en/tools/` is English only
-  (`ENGLISH_ONLY`).
+- Pages live under `apps/web/src/pages/[locale]/`; every URL starts with the locale. `/en/tools/` and the entries of
+  Bughyat al-wuʿāt (`/en/tabaqat/bughya/<id>/`, about 2,200 pages, too many to build in every language before they
+  are translated) are English only (`ENGLISH_ONLY`; the language menu leads elsewhere through `englishOnlyFallback`).
+  Moved pages keep their old addresses as permanent redirects in `vercel.json` (the Nuzha's entries moved from
+  `/tabaqat/<id>/` to `/tabaqat/nuzhat/<id>/` on 27 November 2026).
 - No inline scripts (the CSP forbids them) and no `on…=` attributes. A page script is a file in
   `apps/web/src/scripts/<name>.js`, imported with `?url` (hashed, cached a year) and loaded with
   `<script is:inline src={url}>` where it used to stand, so it runs at the same moment; head scripts still run before

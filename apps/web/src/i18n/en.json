@@ -952,7 +952,8 @@
       "library": "The whole library",
       "newsLead": "Gathered each week by The Mantiqi.",
       "generationsLink": "The generations of the grammarians",
-      "tabaqatLink": "Nuzhat al-alibbāʾ, entry by entry"
+      "tabaqatLink": "Nuzhat al-alibbāʾ, entry by entry",
+      "bughyaLink": "Bughyat al-wuʿāt, entry by entry"
     },
     "curricula": {
       "title": "Curricula",
@@ -1033,7 +1034,10 @@
       "generationsLead": "The same scholars by school and generation, as the old ṭabaqāt books set them out, and by century.",
       "tabaqatLink": "Nuzhat al-alibbāʾ, the whole book",
       "tabaqatLead": "Ibn al-Anbārī's history of the grammarians, entry by entry, in Arabic and English, each tied to its scholar's page.",
-      "inNuzhat": "Nuzhat al-alibbāʾ, entry {n}"
+      "inNuzhat": "Nuzhat al-alibbāʾ, entry {n}",
+      "inBughya": "Bughyat al-wuʿāt, entry {n}",
+      "bughyaLink": "Bughyat al-wuʿāt, the whole book",
+      "bughyaLead": "Al-Suyūṭī's dictionary of the grammarians, entry by entry, in Arabic and English, each tied to its scholar's page."
     },
     "scholar": {
       "life": "Life",
@@ -1047,7 +1051,8 @@
       "school": "School",
       "tabaqa": "In al-Zubaydī's Ṭabaqāt",
       "inNuzhat": "In Nuzhat al-alibbāʾ",
-      "nuzhatEntry": "Entry {n}, {pages}"
+      "nuzhatEntry": "Entry {n}, {pages}",
+      "inBughya": "In Bughyat al-wuʿāt"
     },
     "news": {
       "title": "News of naḥw and ṣarf",
@@ -1240,7 +1245,9 @@
       "undated": "Year of death not known",
       "grammarianOne": "1 grammarian",
       "nuzhatShort": "Nuzhat {n}",
-      "nuzhatLabel": "His entry in Nuzhat al-alibbāʾ (entry {n})"
+      "nuzhatLabel": "His entry in Nuzhat al-alibbāʾ (entry {n})",
+      "bughyaShort": "Bughya {n}",
+      "bughyaLabel": "His entry in Bughyat al-wuʿāt (entry {n})"
     },
     "tabaqat": {
       "title": "Nuzhat al-alibbāʾ: the ṭabaqāt of the grammarians",
@@ -1258,7 +1265,8 @@
         "pages": "Pages",
         "copy": "Copy scanned",
         "scan": "Scan",
-        "scanLink": "The print, page by page"
+        "scanLink": "The print, page by page",
+        "editor": "Edition"
       },
       "preface": "The author's preface",
       "closing": "The author's closing: his chain of teachers",
@@ -1291,7 +1299,43 @@
       "readBookLead": "Every entry of the Nuzhat in Arabic and English, tied to the scholars' pages.",
       "facet": "Century",
       "years": "AH {from}–{to}",
-      "pageInScan": "p. {page} in the scan"
+      "pageInScan": "p. {page} in the scan",
+      "overview": {
+        "title": "The ṭabaqāt of the grammarians, entry by entry",
+        "description": "Two classical histories of the grammarians, whole: Ibn al-Anbārī's Nuzhat al-alibbāʾ and al-Suyūṭī's Bughyat al-wuʿāt, in vocalised Arabic with our English.",
+        "kicker": "Two books, entry by entry",
+        "lead": "The lives of the grammarians as the classical ṭabaqāt works tell them: two books, each on the site whole, in the Arabic of its first print with our English, every entry tied to its scholar's page.",
+        "booksKicker": "The books",
+        "booksTitle": "Two ṭabaqāt works",
+        "open": "Open the book",
+        "progress": "{n} of about {m} entries so far",
+        "order": {
+          "death": "In order of death",
+          "alphabetical": "In order of name"
+        },
+        "nuzhatSummary": "Ibn al-Anbārī (d. 577/1181): the story of the grammarians from Abū al-Aswad al-Duʾalī to his own teachers, in order of death, in 181 short entries.",
+        "togetherKicker": "Two books, one encyclopedia",
+        "togetherTitle": "The story and the reference",
+        "together": "The Nuzha is the story of the first six centuries, short enough to read through; the Bughya is the reference for the whole tradition up to al-Suyūṭī's time, to look a grammarian up in. Every scholar's page links to his entries in both, and the generations page sets the scholars in al-Zubaydī's lists.",
+        "generations": "The generations of the grammarians"
+      },
+      "bughya": {
+        "title": "Bughyat al-wuʿāt: al-Suyūṭī's ṭabaqāt of the grammarians",
+        "description": "Al-Suyūṭī's Bughyat al-wuʿāt, the whole book: some 2,200 grammarians and lexicographers in vocalised Arabic from the 1908 Cairo print, with our English.",
+        "lead": "Al-Suyūṭī's dictionary of the grammarians and lexicographers, from the first generations to his own teachers: the whole book, entry by entry, in the Arabic of its first print with our English.",
+        "summary": "Al-Suyūṭī (d. 911/1505): about 2,200 grammarians and lexicographers down to his own time, in order of name, those named Muḥammad and Aḥmad first; the fullest of the ṭabaqāt.",
+        "introTitle": "Al-Suyūṭī's dictionary of the grammarians",
+        "entriesTitle": "The grammarians in the book's order",
+        "entriesLead": "Every entry in the book's own order, by the sections of its names, with its number, the year of death and the city. Choose a section, or a century to see who died in it.",
+        "entryTitle": "{name} in Bughyat al-wuʿāt",
+        "entryDescription": "{name}{died} in al-Suyūṭī's Bughyat al-wuʿāt (entry {n}): the Arabic of the Cairo print of 1326/1908, vocalised, with our English.",
+        "closing": "The author's closing: his sources",
+        "readBookLead": "Every entry of the Bughya in Arabic and English, tied to the scholars' pages.",
+        "sectionLabel": "Section",
+        "allSections": "All sections",
+        "appendix": "After the entries",
+        "englishOnly": "The entries open in English, beside the Arabic: their pages are not yet translated into this language."
+      }
     }
   },
   "preview": {
@@ -1634,7 +1678,8 @@
     "ownCourse": "The Nahwi's own course on the foundations of ṣarf and naḥw, drawing on the classic primers; no original text is shown.",
     "translationLanguages": "The Nahwi's own, from the {language} original: into {languages}. Choose the language under the passages.",
     "and": "and",
-    "transcribedVocalised": "transcribed by The Nahwi from the lithograph and vocalised by us (the print has few vowels), without the reader's notes in its margins"
+    "transcribedVocalised": "transcribed by The Nahwi from the lithograph and vocalised by us (the print has few vowels), without the reader's notes in its margins",
+    "transcribedTypeset": "transcribed by The Nahwi from the print and vocalised by us (the print has few vowels), without the corrector's footnotes"
   },
   "contact": {
     "title": "Contact",
